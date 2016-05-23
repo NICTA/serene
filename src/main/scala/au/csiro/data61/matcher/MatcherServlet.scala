@@ -27,61 +27,20 @@ import scala.util.{Failure, Success, Try}
 
 
 /**
- * Errors caused by bad requests
- *
- * @param message Error message from the request
- */
-class BadRequestException(message: String) extends RuntimeException(message)
-
-/** Error for html request parse errors
- *
- * @param message Error message from the parsing event
- */
-class ParseException(message: String) extends RuntimeException(message)
-
-/**
  * Servlet class to define the integration API
  */
 class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUploadSupport {
   protected implicit val jsonFormats: Formats = DefaultFormats
 
-   /**
-    * Here we prevent the user from uploading large files. Files
-    * need to be uploaded with octet-streams so they can be written
-    * directly to files. e.g.
-    *
-    * curl -i -X POST -H "Content-Type: multipart/form-data"
-    *   -F "description=This is a medium length data file, used for testing."
-    *   -F 'typeMap={"a":"b", "c":"d", "e":"f"}'
-    *   -F "file=@foobar/medium.csv"
-    *   http://localhost:8080/v1.0/dataset
-    */
-  configureMultipartHandling(
-    MultipartConfig(
-      maxFileSize = Some(Long.MaxValue),
-      location = Some("/tmp"),
-      fileSizeThreshold = Some(1024 * 1024)
-    )
-  )
-
   val APIVersion = "v1.0"
-
-  before() {
-    contentType = formats("json")
-  }
-
-  error {
-    case e: SizeConstraintExceededException =>
-      RequestEntityTooLarge("File size too large. Please ensure data upload is an octet-stream.")
-    case err: Exception =>
-      InternalServerError(s"Failed unexpectedly: ${err.getMessage}")
-    case _ =>
-      InternalServerError(s"Failed spectacularly.")
-  }
 
   get(s"/$APIVersion") {
     Message("Hello", "World")
   }
+
+  /**
+   * Dataset REST endpoints...
+   */
 
   get(s"/$APIVersion/dataset") {
     MatcherAPI.datasetKeys
@@ -145,5 +104,55 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
     }
   }
 
+  /**
+   * Config elements...
+   */
+
+  before() {
+    contentType = formats("json")
+  }
+
+  error {
+    case e: SizeConstraintExceededException =>
+      RequestEntityTooLarge("File size too large. Please ensure data upload is an octet-stream.")
+    case err: Exception =>
+      InternalServerError(s"Failed unexpectedly: ${err.getMessage}")
+    case _ =>
+      InternalServerError(s"Failed spectacularly.")
+  }
+
+
+  /**
+   * Here we prevent the user from uploading large files. Files
+   * need to be uploaded with octet-streams so they can be written
+   * directly to files. e.g.
+   *
+   * curl -i -X POST -H "Content-Type: multipart/form-data"
+   *   -F "description=This is a medium length data file, used for testing."
+   *   -F 'typeMap={"a":"b", "c":"d", "e":"f"}'
+   *   -F "file=@foobar/medium.csv"
+   *   http://localhost:8080/v1.0/dataset
+   */
+  configureMultipartHandling(
+    MultipartConfig(
+      maxFileSize = Some(Long.MaxValue),
+      location = Some("/tmp"),
+      fileSizeThreshold = Some(1024 * 1024)
+    )
+  )
+
 }
 
+
+/**
+ * Errors caused by bad requests
+ *
+ * @param message Error message from the request
+ */
+class BadRequestException(message: String) extends RuntimeException(message)
+
+/** Error for html request parse errors
+ *
+ * @param message Error message from the parsing event
+ */
+class ParseException(message: String) extends RuntimeException(message)
