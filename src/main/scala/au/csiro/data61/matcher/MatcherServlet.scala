@@ -21,6 +21,7 @@ import org.json4s._
 import org.scalatra._
 import org.scalatra.json._
 import org.scalatra.servlet._
+import play.api.libs.json.Json
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -34,8 +35,11 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
 
   val APIVersion = "v1.0"
 
-  get(s"/$APIVersion") {
-    Message("Hello", "World")
+  get(s"/$APIVersion/new") {
+    //Message("Hello", "World")
+    Json.stringify(Json.toJson(
+      Column[String]("junk",  1, 2, List.fill(4)("genAlpha"), LogicalType.STRING)
+    ))
   }
 
   /**
@@ -163,11 +167,11 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
       InternalServerError(s"Failed spectacularly.")
   }
 
-  /**
-   * Here we prevent the user from uploading large files. Files
-   * need to be uploaded with octet-streams so they can be written
-   * directly to files internally.
-   */
+  //
+  // Here we prevent the user from uploading large files. Files
+  // need to be uploaded with octet-streams so they can be written
+  // directly to files internally.
+  //
   configureMultipartHandling(
     MultipartConfig(
       maxFileSize = Some(Long.MaxValue),

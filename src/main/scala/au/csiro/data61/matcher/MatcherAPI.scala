@@ -17,8 +17,6 @@
  */
 package au.csiro.data61.matcher
 
-import javax.servlet.http.HttpServletRequest
-
 import DataSetTypes._
 
 /**
@@ -44,15 +42,13 @@ object MatcherAPI {
    * @param request Servlet POST request
    * @return Case class object for JSON conversion
    */
-  def createDataset(request: DataSetRequest): DataSetPublic = {
+  def createDataset(request: DataSetRequest): DataSet = {
 
     val fileStream = request.file getOrElse (throw new ParseException(s"Failed to read file request part: ${DataSetParser.FilePartName}"))
     val typeMap = request.typeMap getOrElse Map.empty[String, String]
     val description = request.description getOrElse MissingValue
 
-    val ds = StorageLayer.addDataset(fileStream, description, typeMap)
-
-    DataSetPublic(ds)
+    StorageLayer.addDataset(fileStream, description, typeMap)
   }
 
   def datasetKeys: List[DataSetID] = {
@@ -65,20 +61,20 @@ object MatcherAPI {
    * @param id The dataset id
    * @return
    */
-  def getDataSet(id: DataSetID): Option[DataSetPublic] = {
-    val ds = StorageLayer.datasets.get(id)
-    ds.map(DataSetPublic(_))
+  def getDataSet(id: DataSetID): Option[DataSet] = {
+    StorageLayer.datasets.get(id)
   }
 
   /**
    * Updates a single dataset with id key. Note that only the typemap
    * and description can be updated
    *
-   * @param request HttpServlet request object
+   * @param description Optional description for update
+   * @param typeMap Optional typeMap for update
    * @param key ID corresponding to a dataset element
    * @return
    */
-  def updateDataset(description: Option[String], typeMap: Option[TypeMap], key: DataSetID): DataSetPublic = {
+  def updateDataset(description: Option[String], typeMap: Option[TypeMap], key: DataSetID): DataSet = {
 
     if (!StorageLayer.datasets.contains(key)) {
       throw new ParseException(s"Dataset $key does not exist")
@@ -94,7 +90,7 @@ object MatcherAPI {
 
     StorageLayer.datasets.get(key) match {
       case Some(dataset) =>
-        DataSetPublic(dataset)
+        dataset
       case _ =>
         throw new Exception(s"Failed to update dataset $key")
     }

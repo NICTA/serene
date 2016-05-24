@@ -44,26 +44,6 @@ object StorageLayer {
 
   var datasets = Map.empty[DataSetID, DataSet]
 
-  def testJson(): String = {
-
-    import org.json4s._
-    import org.json4s.native.Serialization
-    import org.json4s.native.Serialization.write
-
-    implicit val jsonFormats = DefaultFormats
-
-    val colSerializer = FieldSerializer[Column](
-      { case (x: String, y: LogicalType) => Some(x, y.str) }, //renameTo("name", "animalName") orElse ignore("owner"),
-      { case JField(name: String, jvalue: JValue) => JField(name, jvalue) }
-    )
-
-    implicit val formats = Serialization.formats(NoTypeHints)
-
-    case class Junk(id: Int, asdf: String)
-
-    write(Junk(1, "asdf"))
-  }
-
   /**
    * Adds a dataset to the object state. This requires types from
    * the parsed request object. This will return a new dataset object.

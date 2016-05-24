@@ -23,6 +23,10 @@ import java.util.Date
 import ColumnTypes._
 import DataSetTypes._
 
+import play.api.libs.json._
+
+import scala.util.{Failure, Success, Try}
+
 
 /**
  * Types used for the DataSet objects
@@ -55,6 +59,7 @@ case class Message(greeting: String, to: String)
  * LogicalType Enumeration used for the Column types
  */
 sealed trait LogicalType { def str: String }
+
 object LogicalType {
 
   case object STRING  extends LogicalType { val str = "string" }
@@ -62,6 +67,7 @@ object LogicalType {
   case object FLOAT   extends LogicalType { val str = "float" }
   case object BOOLEAN extends LogicalType { val str = "boolean" }
   case object FACTOR  extends LogicalType { val str = "factor" }
+
 
   val values = List(
     STRING,
@@ -73,6 +79,21 @@ object LogicalType {
 
   def lookup(str: String): Option[LogicalType] = {
     values.find(_.str == str)
+  }
+
+  implicit val jsonWrites = new Writes[LogicalType] {
+    def writes(s: LogicalType): JsValue = JsString(s.str)
+  }
+
+  implicit val jsonReads = new Reads[LogicalType] {
+    def reads(json: JsValue): JsResult[LogicalType] = {
+      lookup(json.as[String]) match {
+        case Some(lt) =>
+          JsSuccess(lt)
+        case _ =>
+          JsError(s"Failed to parse: $json")
+      }
+    }
   }
 }
 
@@ -92,15 +113,60 @@ case class Column[+T](name: String,
                       sample: List[T],
                       logicalType: LogicalType)
 object Column {
-  def apply(col: ColumnPublic[Any]): Column[Any] = {
-    Column(
-      name = col.name,
-      id = col.id,
-      datasetID = col.datasetID,
-      sample = col.sample,
-      logicalType = LogicalType.lookup(col.logicalType).getOrElse(LogicalType.STRING)
-    )
+//  def apply(col: ColumnPublic[Any]): Column[Any] = {
+//    Column(
+//      name = col.name,
+//      id = col.id,
+//      datasetID = col.datasetID,
+//      sample = col.sample,
+//      logicalType = LogicalType.lookup(col.logicalType).getOrElse(LogicalType.STRING)
+//    )
+//  }
+
+  implicit val jsonWrites = new Writes[Column[Any]] {
+    def writes(col: Column[Any]): JsValue = JsObject(Seq(
+      "name" -> JsString(col.name),
+      "id" -> JsNumber(col.id),
+      "datasetID" -> JsNumber(col.id),
+      "sample" -> JsArray(col.sample.map {
+        case x: Int => JsNumber(x)
+        case x: String => JsString(x)
+        case x: Double => JsNumber(x)
+        case x: Boolean => JsBoolean(x)
+        case x => JsString(x.toString)
+      }),
+      "logicalType" -> Json.toJson(col.logicalType)
+    ))
   }
+
+  implicit val jsonReads = new Reads[Column[Any]] {
+    def reads(json: JsValue): JsResult[Column[Any]] = {
+      Try {
+        Column(
+          name = (json \ "name").as[String],
+          id = (json \ "id").as[ColumnID],
+          datasetID = (json \ "datasetID").as[DataSetID],
+          sample = json \ "sample" match {
+            case req @ Seq(JsString(x), _*) =>
+              req.as[List[String]]
+            case req @ Seq(JsNumber(x), _*) =>
+              req.as[List[Double]]
+            case req @ Seq(JsBoolean(x), _*) =>
+              req.as[List[Boolean]]
+            case req =>
+              req.as[List[String]]
+          },
+          logicalType = (json \ "logicalType").as[LogicalType]
+        )
+      }
+    } match {
+        case Success(col) =>
+          JsSuccess(col)
+        case Failure(_) =>
+          JsError("hyh")
+    }
+  }
+
 }
 
 /**
@@ -123,76 +189,76 @@ case class DataSet(id: Int,
                    description: String,
                    dateCreated: Date,
                    dateModified: Date)
+//
+//object DataSet {
+//  def apply(ds: DataSetPublic): DataSet = {
+//    DataSet(
+//      id = ds.id,
+//      columns = ds.columns.map(Column(_)),
+//      filename = ds.filename,
+//      path = null,
+//      typeMap = ds.typeMap,
+//      description = ds.description,
+//      dateCreated = ds.dateCreated,
+//      dateModified = ds.dateModified
+//    )
+//  }
+//}
+//
+///** This is used by the IntegrationAPI above as the public type of Column
+// *
+// * @param name Column name from the original data set
+// * @param id ID of the column itself
+// * @param datasetID ID of the original data set
+// * @param sample Small sample of the column data
+// * @param logicalType The logical type inferred or user specified
+// * @tparam T The type of the samples
+// */
+//case class ColumnPublic[+T](name: String,
+//                            id: ColumnID,
+//                            datasetID: DataSetID,
+//                            sample: List[T],
+//                            logicalType: String)
+//object ColumnPublic {
+//  def apply[A](col: Column[A]): ColumnPublic[A] = {
+//    ColumnPublic(
+//      col.name,
+//      col.id,
+//      col.datasetID,
+//      col.sample,
+//      col.logicalType.str)
+//  }
+//}
 
-object DataSet {
-  def apply(ds: DataSetPublic): DataSet = {
-    DataSet(
-      id = ds.id,
-      columns = ds.columns.map(Column(_)),
-      filename = ds.filename,
-      path = null,
-      typeMap = ds.typeMap,
-      description = ds.description,
-      dateCreated = ds.dateCreated,
-      dateModified = ds.dateModified
-    )
-  }
-}
-
-/** This is used by the IntegrationAPI above as the public type of Column
- *
- * @param name Column name from the original data set
- * @param id ID of the column itself
- * @param datasetID ID of the original data set
- * @param sample Small sample of the column data
- * @param logicalType The logical type inferred or user specified
- * @tparam T The type of the samples
- */
-case class ColumnPublic[+T](name: String,
-                            id: ColumnID,
-                            datasetID: DataSetID,
-                            sample: List[T],
-                            logicalType: String)
-object ColumnPublic {
-  def apply[A](col: Column[A]): ColumnPublic[A] = {
-    ColumnPublic(
-      col.name,
-      col.id,
-      col.datasetID,
-      col.sample,
-      col.logicalType.str)
-  }
-}
-
-/**
- * Contains the IntegrationAPI version of the DataSet object
- *
- * @param id The dataset id value
- * @param description The metadata description of the dataset
- * @param dateCreated The java.util.Date when the item was created
- * @param dateModified The java.util.Date when the item was last modified
- * @param filename The single filename of the original resource
- * @param columns The object of public column values
- * @param typeMap The type map added by the user
- */
-case class DataSetPublic(id: Int,
-                         description: String,
-                         dateCreated: Date,
-                         dateModified: Date,
-                         filename: String,
-                         columns: List[ColumnPublic[Any]],
-                         typeMap: TypeMap)
-
-object DataSetPublic {
-  def apply(ds: DataSet): DataSetPublic = {
-    DataSetPublic(
-      id = ds.id,
-      description = ds.description,
-      dateCreated = ds.dateCreated,
-      dateModified = ds.dateModified,
-      filename = ds.filename,
-      columns = ds.columns.map(ColumnPublic(_)),
-      typeMap = ds.typeMap
-    )
-  }
-}
+///**
+// * Contains the IntegrationAPI version of the DataSet object
+// *
+// * @param id The dataset id value
+// * @param description The metadata description of the dataset
+// * @param dateCreated The java.util.Date when the item was created
+// * @param dateModified The java.util.Date when the item was last modified
+// * @param filename The single filename of the original resource
+// * @param columns The object of public column values
+// * @param typeMap The type map added by the user
+// */
+//case class DataSetPublic(id: Int,
+//                         description: String,
+//                         dateCreated: Date,
+//                         dateModified: Date,
+//                         filename: String,
+//                         columns: List[ColumnPublic[Any]],
+//                         typeMap: TypeMap)
+//
+//object DataSetPublic {
+//  def apply(ds: DataSet): DataSetPublic = {
+//    DataSetPublic(
+//      id = ds.id,
+//      description = ds.description,
+//      dateCreated = ds.dateCreated,
+//      dateModified = ds.dateModified,
+//      filename = ds.filename,
+//      columns = ds.columns.map(ColumnPublic(_)),
+//      typeMap = ds.typeMap
+//    )
+//  }
+//}
