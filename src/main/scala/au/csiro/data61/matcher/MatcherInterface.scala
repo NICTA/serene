@@ -31,7 +31,7 @@ import DataSetTypes._
  * Errors can be thrown here and they will be translated into
  * server errors or bad request errors.
  */
-object MatcherAPI {
+object MatcherInterface {
   val MissingValue = "unknown"
 
   /**

@@ -21,7 +21,6 @@ import org.json4s._
 import org.scalatra._
 import org.scalatra.json._
 import org.scalatra.servlet._
-import play.api.libs.json.Json
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -35,11 +34,9 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
 
   val APIVersion = "v1.0"
 
+  // test message for now...
   get(s"/$APIVersion/new") {
-    //Message("Hello", "World")
-    Json.stringify(Json.toJson(
-      Column[String]("junk",  1, 2, List.fill(4)("genAlpha"), LogicalType.STRING)
-    ))
+    Message("Hello", "World")
   }
 
   /**
@@ -52,7 +49,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
   // curl http://localhost:8080/v1.0/dataset
   //
   get(s"/$APIVersion/dataset") {
-    MatcherAPI.datasetKeys
+    MatcherInterface.datasetKeys
   }
 
   //
@@ -72,7 +69,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
 
       if (req.file.isEmpty) throw new BadRequestException("Failed to find 'file' in request.")
 
-      MatcherAPI.createDataset(req)
+      MatcherInterface.createDataset(req)
     } match {
       case Success(ds) =>
         ds
@@ -93,7 +90,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
 
     val dataset = for {
       id <- Try(idStr.toInt).toOption
-      ds <- MatcherAPI.getDataSet(id)
+      ds <- MatcherInterface.getDataSet(id)
     } yield ds
 
     dataset getOrElse BadRequest(s"Dataset $idStr does not exist.")
@@ -116,7 +113,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
 
     val dataset = for {
       id <- Try(idStr.toInt)
-      ds <- Try(MatcherAPI.updateDataset(req.description, req.typeMap, id))
+      ds <- Try(MatcherInterface.updateDataset(req.description, req.typeMap, id))
     } yield ds
 
     dataset match {
@@ -137,7 +134,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
 
     val dataset = for {
       id <- Try(idStr.toInt)
-      ds <- Try(MatcherAPI.deleteDataset(id))
+      ds <- Try(MatcherInterface.deleteDataset(id))
     } yield ds
 
     dataset match {
