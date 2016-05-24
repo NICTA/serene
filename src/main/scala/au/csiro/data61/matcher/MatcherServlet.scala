@@ -38,32 +38,30 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
     Message("Hello", "World")
   }
 
-  /****************
-   *
-   * Dataset REST endpoints...
-   *
-   ****************/
-
   /**
-   * Returns all dataset keys
-   *
-   * curl http://localhost:8080/v1.0/dataset
+   * Dataset REST endpoints...
    */
+
+  //
+  // Returns all dataset keys
+  //
+  // curl http://localhost:8080/v1.0/dataset
+  //
   get(s"/$APIVersion/dataset") {
     MatcherAPI.datasetKeys
   }
 
-  /**
-   * Adds a new dataset with a description and a user-specified logical typemap.
-   * File is required, the others are optional.
-   *
-   * Returns a JSON DataSet object with id.
-   *
-   * curl -X POST http://localhost:8080/v1.0/dataset
-   *   -F 'file=@foobar/test.csv'
-   *   -F 'description=This is the description string'
-   *   -F 'typeMap={"col_name":"int", "col_name2":"string", "col_name3":"float"}'
-   */
+  //
+  // Adds a new dataset with a description and a user-specified logical typemap.
+  // File is required, the others are optional.
+  //
+  // Returns a JSON DataSet object with id.
+  //
+  // curl -X POST http://localhost:8080/v1.0/dataset
+  //   -F 'file=@foobar/test.csv'
+  //   -F 'description=This is the description string'
+  //   -F 'typeMap={"col_name":"int", "col_name2":"string", "col_name3":"float"}'
+  //
   post(s"/$APIVersion/dataset") {
     Try {
       val req = DataSetParser.processRequest(request)
@@ -81,11 +79,11 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
     }
   }
 
-  /**
-   * Returns a JSON DataSet object at id
-   *
-   * curl http://localhost:8080/v1.0/dataset/12354687
-   */
+  //
+  // Returns a JSON DataSet object at id
+  //
+  // curl http://localhost:8080/v1.0/dataset/12354687
+  //
   get(s"/$APIVersion/dataset/:id") {
     val idStr = params("id")
 
@@ -97,14 +95,14 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
     dataset getOrElse BadRequest(s"Dataset $idStr does not exist.")
   }
 
-  /**
-   * Patch a portion of a DataSet. Only description and typeMap
-   *
-   * Returns a JSON DataSet object at id
-   *
-   * curl -X PATCH http://localhost:8080/v1.0/dataset/12354687
-   *   -F 'description=This is the new description'
-   */
+  //
+  // Patch a portion of a DataSet. Only description and typeMap
+  //
+  // Returns a JSON DataSet object at id
+  //
+  // curl -X PATCH http://localhost:8080/v1.0/dataset/12354687
+  //   -F 'description=This is the new description'
+  //
   patch(s"/$APIVersion/dataset/:id") {
     val idStr = params("id")
 
@@ -125,11 +123,11 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
     }
   }
 
-  /**
-   * Deletes the dataset at position id.
-   *
-   * curl -X DELETE http://localhost:8080/v1.0/dataset/12354687
-   */
+  //
+  // Deletes the dataset at position id.
+  //
+  // curl -X DELETE http://localhost:8080/v1.0/dataset/12354687
+  //
   delete(s"/$APIVersion/dataset/:id") {
     val idStr = params("id")
 
@@ -149,7 +147,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
   }
 
   /**
-   * Config elements...
+   * Configuration elements...
    */
 
   before() {
@@ -168,13 +166,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
   /**
    * Here we prevent the user from uploading large files. Files
    * need to be uploaded with octet-streams so they can be written
-   * directly to files. e.g.
-   *
-   * curl -i -X POST -H "Content-Type: multipart/form-data"
-   *   -F "description=This is a medium length data file, used for testing."
-   *   -F 'typeMap={"a":"b", "c":"d", "e":"f"}'
-   *   -F "file=@foobar/medium.csv"
-   *   http://localhost:8080/v1.0/dataset
+   * directly to files internally.
    */
   configureMultipartHandling(
     MultipartConfig(
