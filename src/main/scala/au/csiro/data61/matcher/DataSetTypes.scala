@@ -17,11 +17,12 @@
  */
 package au.csiro.data61.matcher
 
-import java.nio.file.Path
+import java.nio.file.{Paths, Path}
 import java.util.Date
 
 import ColumnTypes._
 import DataSetTypes._
+import org.joda.time.DateTime
 
 import play.api.libs.json._
 
@@ -187,8 +188,53 @@ case class DataSet(id: Int,
                    path: Path,
                    typeMap: TypeMap,
                    description: String,
-                   dateCreated: Date,
-                   dateModified: Date)
+                   dateCreated: DateTime,
+                   dateModified: DateTime)
+object DataSet {
+
+  val pattern = "yyyy-MM-dd'T'HH:mm:ssz"
+
+  implicit val dateFormat =
+    Format[DateTime](Reads.jodaDateReads(pattern), Writes.jodaDateWrites(pattern))
+
+
+  implicit val jsonReads = new Reads[DataSet] {
+    def reads(json: JsValue): JsResult[DataSet] = {
+      Try {
+        DataSet(
+          id = (json \ "id").as[Int],
+          columns = (json \ "columns").as[List[Column[Any]]],
+          filename = (json \ "filename").as[String],
+          path = Paths.get((json \ "path").as[String]),
+          typeMap = (json \ "typeMap").as[TypeMap],
+          description = (json \ "description").as[String],
+          dateCreated = (json \ "dateCreated").as[DateTime],
+          dateModified = (json \ "dateModified").as[DateTime]
+        )
+      }
+    } match {
+      case Success(col) =>
+        JsSuccess(col)
+      case Failure(_) =>
+        JsError("Failed to convert dataset")
+    }
+  }
+
+  implicit val jsonWrites = new Writes[DataSet] {
+    def writes(ds: DataSet): JsValue = JsObject(Seq(
+      "id" -> JsNumber(ds.id),
+      "columns" -> JsArray(ds.columns.map(Json.toJson(_))),
+      "filename" -> JsString(ds.filename),
+      "path" -> JsString(ds.path.toString),
+      "typeMap" -> JsObject(ds.typeMap.mapValues(JsString)),
+      "description" -> JsString(ds.description),
+      "dateCreated" -> Json.toJson(ds.dateCreated),
+      "dateModified" -> Json.toJson(ds.dateModified)
+    ))
+  }
+}
+
+
 //
 //object DataSet {
 //  def apply(ds: DataSetPublic): DataSet = {

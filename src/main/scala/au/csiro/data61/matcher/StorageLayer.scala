@@ -18,10 +18,13 @@
 package au.csiro.data61.matcher
 
 import java.io.File
+import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Paths, StandardCopyOption}
 import java.util.Date
 
 import org.apache.commons.io.FileUtils
+import org.joda.time.DateTime
+import play.api.libs.json.Json
 
 import scala.util.{Failure, Random, Try}
 
@@ -79,11 +82,16 @@ object StorageLayer {
       path = outputPath,
       typeMap = typeMap,
       description = description,
-      dateCreated = new Date(),
-      dateModified = new Date()
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now
     )
 
-    synchronized { datasets += (id -> createdDataSet) }
+    synchronized {
+      // write the dataset to the file system
+      val createdStr = Json.stringify(Json.toJson(createdDataSet))
+      Files.write(outputMetaPath, createdStr.getBytes(StandardCharsets.UTF_8))
+      datasets += (id -> createdDataSet)
+    }
 
     createdDataSet
   }
@@ -127,7 +135,7 @@ object StorageLayer {
 
       val ds = datasets(id).copy(
         description = description,
-        dateModified = new Date
+        dateModified = DateTime.now
       )
       synchronized { datasets += (id -> ds) }
     }
@@ -150,7 +158,7 @@ object StorageLayer {
       val newDS = datasets(id).copy(
         typeMap = typeMap,
         columns = newColumns,
-        dateModified = new Date
+        dateModified = DateTime.now
       )
 
       synchronized { datasets += (id -> newDS) }
