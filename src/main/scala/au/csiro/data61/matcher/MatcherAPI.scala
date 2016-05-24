@@ -44,13 +44,11 @@ object MatcherAPI {
    * @param request Servlet POST request
    * @return Case class object for JSON conversion
    */
-  def createDataset(request: HttpServletRequest): DataSetPublic = {
+  def createDataset(request: DataSetRequest): DataSetPublic = {
 
-    val req = DataSetParser.processRequest(request)
-
-    val fileStream = req.file getOrElse (throw new ParseException(s"Failed to read file request part: ${DataSetParser.FilePartName}"))
-    val typeMap = req.typeMap getOrElse Map.empty[String, String]
-    val description = req.description getOrElse MissingValue
+    val fileStream = request.file getOrElse (throw new ParseException(s"Failed to read file request part: ${DataSetParser.FilePartName}"))
+    val typeMap = request.typeMap getOrElse Map.empty[String, String]
+    val description = request.description getOrElse MissingValue
 
     val ds = StorageLayer.addDataset(fileStream, description, typeMap)
 
@@ -80,20 +78,18 @@ object MatcherAPI {
    * @param key ID corresponding to a dataset element
    * @return
    */
-  def updateDataset(request: HttpServletRequest, key: DataSetID): DataSetPublic = {
+  def updateDataset(description: Option[String], typeMap: Option[TypeMap], key: DataSetID): DataSetPublic = {
 
     if (!StorageLayer.datasets.contains(key)) {
       throw new ParseException(s"Dataset $key does not exist")
     }
 
-    val req: DataSetRequest = DataSetParser.processRequest(request)
-
-    if (req.description.nonEmpty) {
-      StorageLayer.updateDescription(key, req.description.get)
+    description foreach {
+      StorageLayer.updateDescription(key, _)
     }
 
-    if (req.typeMap.nonEmpty) {
-      StorageLayer.updateTypeMap(key, req.typeMap.get)
+    typeMap foreach {
+      StorageLayer.updateTypeMap(key, _)
     }
 
     StorageLayer.datasets.get(key) match {

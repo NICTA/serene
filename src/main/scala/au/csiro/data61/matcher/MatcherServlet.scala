@@ -38,17 +38,39 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
     Message("Hello", "World")
   }
 
-  /**
+  /****************
+   *
    * Dataset REST endpoints...
-   */
+   *
+   ****************/
 
+  /**
+   * Returns all dataset keys
+   *
+   * curl http://localhost:8080/v1.0/dataset
+   */
   get(s"/$APIVersion/dataset") {
     MatcherAPI.datasetKeys
   }
 
+  /**
+   * Adds a new dataset with a description and a user-specified logical typemap.
+   * File is required, the others are optional.
+   *
+   * Returns a JSON DataSet object with id.
+   *
+   * curl -X POST http://localhost:8080/v1.0/dataset
+   *   -F 'file=@foobar/test.csv'
+   *   -F 'description=This is the description string'
+   *   -F 'typeMap={"col_name":"int", "col_name2":"string", "col_name3":"float"}'
+   */
   post(s"/$APIVersion/dataset") {
     Try {
-      MatcherAPI.createDataset(request)
+      val req = DataSetParser.processRequest(request)
+
+      if (req.file.isEmpty) throw new BadRequestException("Failed to find 'file' in request.")
+
+      MatcherAPI.createDataset(req)
     } match {
       case Success(ds) =>
         ds
@@ -59,6 +81,11 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
     }
   }
 
+  /**
+   * Returns a JSON DataSet object at id
+   *
+   * curl http://localhost:8080/v1.0/dataset/12354687
+   */
   get(s"/$APIVersion/dataset/:id") {
     val idStr = params("id")
 
@@ -70,12 +97,24 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
     dataset getOrElse BadRequest(s"Dataset $idStr does not exist.")
   }
 
+  /**
+   * Patch a portion of a DataSet. Only description and typeMap
+   *
+   * Returns a JSON DataSet object at id
+   *
+   * curl -X PATCH http://localhost:8080/v1.0/dataset/12354687
+   *   -F 'description=This is the new description'
+   */
   patch(s"/$APIVersion/dataset/:id") {
     val idStr = params("id")
 
+    val req = DataSetParser.processRequest(request)
+
+    if (req.file.nonEmpty) throw new BadRequestException("Forbidden to patch 'file'.")
+
     val dataset = for {
       id <- Try(idStr.toInt)
-      ds <- Try(MatcherAPI.updateDataset(request, id))
+      ds <- Try(MatcherAPI.updateDataset(req.description, req.typeMap, id))
     } yield ds
 
     dataset match {
@@ -86,6 +125,11 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
     }
   }
 
+  /**
+   * Deletes the dataset at position id.
+   *
+   * curl -X DELETE http://localhost:8080/v1.0/dataset/12354687
+   */
   delete(s"/$APIVersion/dataset/:id") {
     val idStr = params("id")
 
@@ -121,7 +165,6 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
       InternalServerError(s"Failed spectacularly.")
   }
 
-
   /**
    * Here we prevent the user from uploading large files. Files
    * need to be uploaded with octet-streams so they can be written
@@ -140,7 +183,6 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
       fileSizeThreshold = Some(1024 * 1024)
     )
   )
-
 }
 
 
