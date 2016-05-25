@@ -192,12 +192,14 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
         // delete directory - be careful
         val dir: File = ds.path.getParent.toFile
 
-        Try(FileUtils.deleteDirectory(dir)) match {
-          case Failure(err) =>
-            throw new Exception(s"Failed to delete directory: ${err.getMessage}")
-          case _ =>
-            synchronized { datasets -= id }
-            Some(id)
+        synchronized {
+          Try(FileUtils.deleteDirectory(dir)) match {
+            case Failure(err) =>
+              throw new Exception(s"Failed to delete directory: ${err.getMessage}")
+            case _ =>
+              datasets -= id
+              Some(id)
+          }
         }
       case _ =>
         None
@@ -235,23 +237,15 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
    */
   def updateTypeMap(id: DataSetID, typeMap: TypeMap): Unit = {
 
-    logger.warn(s"Updating TYPEMP $id")
-
     if (datasets.contains(id)) {
 
-      logger.warn(s"Updating dataset $id")
-
       val ds = datasets(id)
-
-      logger.warn(s"Updating datasets === $ds")
 
       val newDS = ds.copy(
         typeMap = typeMap,
         columns = getColumns(ds.path, id, typeMap), //updateColumns(ds, typeMap),
         dateModified = DateTime.now
       )
-
-      logger.warn(s"Updating qwer ===")
 
       synchronized {
         writeDataSetToFile(newDS)
