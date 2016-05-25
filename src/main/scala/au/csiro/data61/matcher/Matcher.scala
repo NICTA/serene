@@ -17,14 +17,10 @@
  */
 package au.csiro.data61.matcher
 
-import java.nio.file.Paths
-
-import org.joda.time.DateTime
 import org.json4s._
 import org.scalatra._
 import org.scalatra.json._
 import org.scalatra.servlet._
-import play.api.libs.json.Json
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -33,8 +29,8 @@ import scala.util.{Failure, Success, Try}
 /**
  * Servlet class to define the integration API
  */
-class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUploadSupport {
-  protected implicit val jsonFormats: Formats = DefaultFormats
+class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUploadSupport with MatcherJsonFormats {
+  protected implicit val jsonFormats: Formats = json4sFormats //DefaultFormats
 
   val APIVersion = "v1.0"
 
@@ -42,33 +38,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
    * test message for now...
    */
   get(s"/$APIVersion/new") {
-    //Message("Hello", "World")
-    Json.stringify(Json.toJson(
-      DataSet(
-        id=5,
-        columns=List(
-          Column[String](
-            id = 1,
-            datasetID = 3,
-            name = "asdf",
-            sample = List("erty", "dfgh", "cvb", "zxcv"),
-            logicalType = LogicalType.STRING
-          ),
-          Column[Int](
-            id = 2,
-            datasetID = 3,
-            name = "asdfdfg",
-            sample = List(1243, 2345, 567, 23487),
-            logicalType = LogicalType.INTEGER
-          )
-        ),
-        filename="test.txt",
-        path= Paths.get("/hello"),
-        typeMap = Map("String" -> "asdf", "qwer" -> "cvnn"),
-        description = "This is the new string",
-        dateCreated = DateTime.now,
-        dateModified = DateTime.now)
-    ))
+    Message("Hello", "World")
   }
 
   /**
@@ -110,9 +80,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
       MatcherInterface.createDataset(req)
     } match {
       case Success(ds) =>
-        Json.stringify(Json.toJson(
           ds
-        ))
       case Failure(err: BadRequestException) =>
         BadRequest(s"Request failed: ${err.getMessage}")
       case Failure(err) =>
@@ -133,12 +101,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
       ds <- MatcherInterface.getDataSet(id)
     } yield ds
 
-    dataset match {
-      case Some(ds) =>
-        Json.stringify(Json.toJson(ds))
-      case _ =>
-        BadRequest(s"Dataset $idStr does not exist.")
-    }
+    dataset getOrElse BadRequest(s"Dataset $idStr does not exist.")
   }
 
   /**
@@ -163,7 +126,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
 
     dataset match {
       case Success(ds) =>
-        Json.stringify(Json.toJson(ds))
+          ds
       case Failure(err) =>
         BadRequest(s"Failed to update dataset $idStr: ${err.getMessage}")
     }

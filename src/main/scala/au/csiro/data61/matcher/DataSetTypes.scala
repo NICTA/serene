@@ -21,13 +21,10 @@ import java.nio.file.{Paths, Path}
 
 import ColumnTypes._
 import DataSetTypes._
-import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
-import play.api.libs.json._
-
-import scala.util.{Failure, Success, Try}
-
+import org.json4s._
+import org.json4s.jackson.Serialization
 
 /**
  * Types used for the DataSet objects
@@ -55,6 +52,7 @@ object ColumnTypes {
  */
 case class Message(greeting: String, to: String)
 
+
 /**
  * LogicalType Enumeration used for the Column types
  */
@@ -68,7 +66,6 @@ object LogicalType {
   case object BOOLEAN extends LogicalType { val str = "boolean" }
   case object FACTOR  extends LogicalType { val str = "factor" }
 
-
   val values = List(
     STRING,
     INTEGER,
@@ -81,21 +78,23 @@ object LogicalType {
     values.find(_.str == str)
   }
 
-  implicit val jsonWrites = new Writes[LogicalType] {
-    def writes(s: LogicalType): JsValue = JsString(s.str)
-  }
-
-  implicit val jsonReads = new Reads[LogicalType] {
-    def reads(json: JsValue): JsResult[LogicalType] = {
-      lookup(json.as[String]) match {
-        case Some(lt) =>
-          JsSuccess(lt)
-        case _ =>
-          JsError(s"Failed to parse: $json")
-      }
-    }
-  }
 }
+
+
+/**
+ * Serializer for the LogicalType
+ */
+class LogicalTypeSerializer extends CustomSerializer[LogicalType](format => (
+  {
+    case jv: JValue =>
+      implicit val formats = DefaultFormats
+      val str = jv.extract[String]
+      val logicType = LogicalType.lookup(str)
+      logicType getOrElse (throw new Exception("Failed to parse LogicalType"))
+  }, {
+    case logicalType: LogicalType =>
+      JString(logicalType.str)
+  }))
 
 
 /**
@@ -113,54 +112,6 @@ case class Column[+T](name: String,
                       sample: List[T],
                       logicalType: LogicalType)
 
-object Column extends LazyLogging {
-
-  implicit val jsonWrites = new Writes[Column[Any]] {
-    def writes(col: Column[Any]): JsValue = JsObject(Seq(
-      "name" -> JsString(col.name),
-      "id" -> JsNumber(col.id),
-      "datasetID" -> JsNumber(col.id),
-      "sample" -> JsArray(col.sample.map {
-        case x: Int => JsNumber(x)
-        case x: String => JsString(x)
-        case x: Double => JsNumber(x)
-        case x: Boolean => JsBoolean(x)
-        case x => JsString(x.toString)
-      }),
-      "logicalType" -> Json.toJson(col.logicalType)
-    ))
-  }
-
-  implicit val jsonReads = new Reads[Column[Any]] {
-    def reads(json: JsValue): JsResult[Column[Any]] = {
-      Try {
-        Column(
-          name = (json \ "name").as[String],
-          id = (json \ "id").as[ColumnID],
-          datasetID = (json \ "datasetID").as[DataSetID],
-          sample = (json \ "sample").as[List[JsValue]] match {
-            case req @ List(JsString(x), _*) =>
-              req.map(_.as[String])
-            case req @ List(JsNumber(x), _*) =>
-              req.map(_.as[Double])
-            case req @ List(JsBoolean(x), _*) =>
-              req.map(_.as[Boolean])
-            case req =>
-              logger.warn(s"Couldn't determine type of column: $req")
-              req.map(_.as[String])
-          },
-          logicalType = (json \ "logicalType").as[LogicalType]
-        )
-      }
-    } match {
-        case Success(col) =>
-          JsSuccess(col)
-        case Failure(_) =>
-          JsError("Failed to parse column")
-    }
-  }
-
-}
 
 /**
  * Dataset object created internally by the data set storage layer
@@ -182,46 +133,33 @@ case class DataSet(id: Int,
                    description: String,
                    dateCreated: DateTime,
                    dateModified: DateTime)
-object DataSet {
-
-  val pattern = "yyyy-MM-dd'T'HH:mm:ssz"
-
-  implicit val dateFormat =
-    Format[DateTime](Reads.jodaDateReads(pattern), Writes.jodaDateWrites(pattern))
 
 
-  implicit val jsonReads = new Reads[DataSet] {
-    def reads(json: JsValue): JsResult[DataSet] = {
-      Try {
-        DataSet(
-          id = (json \ "id").as[Int],
-          columns = (json \ "columns").as[List[Column[Any]]],
-          filename = (json \ "filename").as[String],
-          path = Paths.get((json \ "path").as[String]),
-          typeMap = (json \ "typeMap").as[TypeMap],
-          description = (json \ "description").as[String],
-          dateCreated = (json \ "dateCreated").as[DateTime],
-          dateModified = (json \ "dateModified").as[DateTime]
-        )
-      }
-    } match {
-      case Success(col) =>
-        JsSuccess(col)
-      case Failure(_) =>
-        JsError("Failed to parse dataset")
-    }
-  }
+/**
+ * Serializer for the Java.io.Path object
+ */
+class PathSerializer extends CustomSerializer[Path](format => ( {
+    case jv: JValue =>
+      implicit val formats = DefaultFormats
+      val str = jv.extract[String]
+      Paths.get(str)
+  }, {
+    case path: Path =>
+      JString(path.toString)
+  }))
 
-  implicit val jsonWrites = new Writes[DataSet] {
-    def writes(ds: DataSet): JsValue = JsObject(Seq(
-      "id" -> JsNumber(ds.id),
-      "columns" -> JsArray(ds.columns.map(Json.toJson(_))),
-      "filename" -> JsString(ds.filename),
-      "path" -> JsString(ds.path.toString),
-      "typeMap" -> JsObject(ds.typeMap.mapValues(JsString)),
-      "description" -> JsString(ds.description),
-      "dateCreated" -> Json.toJson(ds.dateCreated),
-      "dateModified" -> Json.toJson(ds.dateModified)
-    ))
-  }
+
+/**
+ * Holds the implicit matcher objects for the Json4s Serializers.
+ *
+ * This should be mixed in to the object in order to use.
+ */
+trait MatcherJsonFormats {
+
+  implicit def json4sFormats: Formats =
+    org.json4s.DefaultFormats ++
+    org.json4s.ext.JodaTimeSerializers.all +
+    new LogicalTypeSerializer +
+    new PathSerializer
+
 }

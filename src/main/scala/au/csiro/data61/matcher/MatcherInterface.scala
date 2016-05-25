@@ -44,7 +44,12 @@ object MatcherInterface {
    */
   def createDataset(request: DataSetRequest): DataSet = {
 
-    val fileStream = request.file getOrElse (throw new ParseException(s"Failed to read file request part: ${DataSetParser.FilePartName}"))
+    val fileStream = request.file match {
+      case Some(file) =>
+        file
+      case _ =>
+        throw new ParseException(s"Failed to read file request part: ${DataSetParser.FilePartName}")
+    }
     val typeMap = request.typeMap getOrElse Map.empty[String, String]
     val description = request.description getOrElse MissingValue
 
@@ -80,13 +85,9 @@ object MatcherInterface {
       throw new ParseException(s"Dataset $key does not exist")
     }
 
-    description foreach {
-      StorageLayer.updateDescription(key, _)
-    }
+    description foreach { StorageLayer.updateDescription(key, _) }
 
-    typeMap foreach {
-      StorageLayer.updateTypeMap(key, _)
-    }
+    typeMap foreach { StorageLayer.updateTypeMap(key, _) }
 
     StorageLayer.datasets.get(key) match {
       case Some(dataset) =>

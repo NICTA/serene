@@ -24,7 +24,9 @@ import java.nio.file.{Path, Files, Paths, StandardCopyOption}
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
-import play.api.libs.json.Json
+
+import org.json4s._
+import org.json4s.jackson.JsonMethods._
 
 import scala.util.{Success, Failure, Random, Try}
 
@@ -39,7 +41,7 @@ import scala.language.postfixOps
  * methods that add a dataset, that can update a description,
  * or can update the type map.
  */
-object StorageLayer extends LazyLogging {
+object StorageLayer extends LazyLogging with MatcherJsonFormats {
 
   val StorageDir = "/tmp/junk"
 
@@ -102,7 +104,7 @@ object StorageLayer extends LazyLogging {
   protected def readDataSetFromFile(path: Path): Option[DataSet] = {
     Try {
       val stream = new FileInputStream(path.toFile)
-      Json.parse(stream).as[DataSet]
+      parse(stream).extract[DataSet]
     } match {
       case Success(ds) =>
         Some(ds)
@@ -120,7 +122,7 @@ object StorageLayer extends LazyLogging {
    */
   protected def writeDataSetToFile(ds: DataSet): Unit = {
 
-    val str = Json.stringify(Json.toJson(ds))
+    val str = compact(Extraction.decompose(ds))
 
     // write the dataset to the file system
     Files.write(
