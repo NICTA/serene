@@ -17,8 +17,7 @@
  */
 package au.csiro.data61.matcher
 
-import java.nio.file.{Paths, Path}
-import java.util.Date
+import java.nio.file.Paths
 
 import org.joda.time.DateTime
 import org.json4s._
@@ -111,7 +110,9 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
       MatcherInterface.createDataset(req)
     } match {
       case Success(ds) =>
-        ds
+        Json.stringify(Json.toJson(
+          ds
+        ))
       case Failure(err: BadRequestException) =>
         BadRequest(s"Request failed: ${err.getMessage}")
       case Failure(err) =>
@@ -132,7 +133,12 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
       ds <- MatcherInterface.getDataSet(id)
     } yield ds
 
-    dataset getOrElse BadRequest(s"Dataset $idStr does not exist.")
+    dataset match {
+      case Some(ds) =>
+        Json.stringify(Json.toJson(ds))
+      case _ =>
+        BadRequest(s"Dataset $idStr does not exist.")
+    }
   }
 
   /**
@@ -157,7 +163,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
 
     dataset match {
       case Success(ds) =>
-        ds
+        Json.stringify(Json.toJson(ds))
       case Failure(err) =>
         BadRequest(s"Failed to update dataset $idStr: ${err.getMessage}")
     }

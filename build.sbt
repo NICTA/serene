@@ -26,8 +26,8 @@ lazy val root = (project in file(".")).settings(
     "org.eclipse.jetty" %  "jetty-webapp"      % "9.2.10.v20150310" % "container",
     "javax.servlet"     %  "javax.servlet-api" % "3.1.0"            % "provided",
     "commons-io"        %  "commons-io"        % "2.5",
-    "com.typesafe.play" %% "play-json"         % "2.5.3"
-
+    "com.typesafe.play" %% "play-json"         % "2.5.3",
+    "com.typesafe.scala-logging" %% "scala-logging" % "3.4.0"
 
     ,"com.github.finagle" %% "finch-core" % "0.10.0"
     ,"com.github.finagle" %% "finch-json4s" % "0.10.0"

@@ -17,16 +17,16 @@
  */
 package au.csiro.data61.matcher
 
-import java.io.File
+import java.io.{FileInputStream, File}
 import java.nio.charset.StandardCharsets
-import java.nio.file.{Files, Paths, StandardCopyOption}
-import java.util.Date
+import java.nio.file.{Path, Files, Paths, StandardCopyOption}
 
+import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
 import play.api.libs.json.Json
 
-import scala.util.{Failure, Random, Try}
+import scala.util.{Success, Failure, Random, Try}
 
 import DataSetTypes._
 
@@ -39,13 +39,95 @@ import scala.language.postfixOps
  * methods that add a dataset, that can update a description,
  * or can update the type map.
  */
-object StorageLayer {
+object StorageLayer extends LazyLogging {
 
   val StorageDir = "/tmp/junk"
 
   val DefaultSampleSize = 5
 
-  var datasets = Map.empty[DataSetID, DataSet]
+  var datasets = findDataSets.map(ds => ds.id -> ds).toMap
+
+  def toIntOption(s: String): Option[Int] = {
+    Try(s.toInt).toOption
+  }
+
+  /**
+   * Helper function to list the directories
+   *
+   * @param rootDir The root directory from which to search
+   * @return
+   */
+  protected def listDirectories(rootDir: String): List[String] = {
+    Option(new File(rootDir) listFiles) match {
+      case Some(fileList) =>
+        fileList
+          .filter(_.isDirectory)
+          .map(_.getName)
+          .toList
+      case _ =>
+        logger.error(s"Failed to open dir $StorageDir")
+        List.empty[String]
+    }
+  }
+
+  /**
+   * Attempts to read all the datasets out from the storage dir
+   *
+   * @return
+   */
+  protected def findDataSets: List[DataSet] = {
+    listDirectories(StorageDir)
+      .flatMap(toIntOption)
+      .map(getMetaPath)
+      .flatMap(readDataSetFromFile)
+  }
+
+  /**
+   * Returns the location of the JSON metadata file for DataSet id
+   *
+   * @param id The ID for the DataSet
+   * @return
+   */
+  protected def getMetaPath(id: DataSetID): Path = {
+    Paths.get(StorageDir, s"$id", s"$id.json")
+  }
+
+  /**
+   * Attempts to read a JSON file and convert it into a DataSet
+   * using the JSON reader.
+   *
+   * @param path Location of the JSON metadata file
+   * @return
+   */
+  protected def readDataSetFromFile(path: Path): Option[DataSet] = {
+    Try {
+      val stream = new FileInputStream(path.toFile)
+      Json.parse(stream).as[DataSet]
+    } match {
+      case Success(ds) =>
+        Some(ds)
+      case Failure(err) =>
+        logger.warn(s"Failed to read file: ${err.getMessage}")
+        None
+    }
+  }
+
+  /**
+   * Writes the dataset ds to disk as a serialized json string
+   * at a pre-defined location based on the id.
+   *
+   * @param ds The dataset to write to disk
+   */
+  protected def writeDataSetToFile(ds: DataSet): Unit = {
+
+    val str = Json.stringify(Json.toJson(ds))
+
+    // write the dataset to the file system
+    Files.write(
+      getMetaPath(ds.id),
+      str.getBytes(StandardCharsets.UTF_8)
+    )
+  }
 
   /**
    * Adds a dataset to the object state. This requires types from
@@ -63,7 +145,6 @@ object StorageLayer {
     val id = genID
 
     val outputPath = Paths.get(StorageDir, s"$id", s"$id.txt")
-    val outputMetaPath = Paths.get(StorageDir, s"$id", s"$id.json")
 
     // ensure that the directories exist...
     outputPath.toFile.getParentFile.mkdirs
@@ -87,9 +168,7 @@ object StorageLayer {
     )
 
     synchronized {
-      // write the dataset to the file system
-      val createdStr = Json.stringify(Json.toJson(createdDataSet))
-      Files.write(outputMetaPath, createdStr.getBytes(StandardCharsets.UTF_8))
+      writeDataSetToFile(createdDataSet)
       datasets += (id -> createdDataSet)
     }
 
@@ -137,7 +216,10 @@ object StorageLayer {
         description = description,
         dateModified = DateTime.now
       )
-      synchronized { datasets += (id -> ds) }
+      synchronized {
+        writeDataSetToFile(ds)
+        datasets += (id -> ds)
+      }
     }
   }
 
@@ -153,15 +235,16 @@ object StorageLayer {
     if (datasets.contains(id)) {
       val ds = datasets(id)
 
-      val newColumns = updateColumns(ds, typeMap)
-
-      val newDS = datasets(id).copy(
+      val newDS = ds.copy(
         typeMap = typeMap,
-        columns = newColumns,
+        columns = updateColumns(ds, typeMap),
         dateModified = DateTime.now
       )
 
-      synchronized { datasets += (id -> newDS) }
+      synchronized {
+        writeDataSetToFile(newDS)
+        datasets += (id -> newDS)
+      }
     }
   }
 

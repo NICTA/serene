@@ -18,10 +18,10 @@
 package au.csiro.data61.matcher
 
 import java.nio.file.{Paths, Path}
-import java.util.Date
 
 import ColumnTypes._
 import DataSetTypes._
+import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
 import play.api.libs.json._
@@ -45,7 +45,6 @@ object DataSetTypes {
 object ColumnTypes {
 
   type ColumnID = Int
-
 }
 
 /**
@@ -113,16 +112,8 @@ case class Column[+T](name: String,
                       datasetID: DataSetID,
                       sample: List[T],
                       logicalType: LogicalType)
-object Column {
-//  def apply(col: ColumnPublic[Any]): Column[Any] = {
-//    Column(
-//      name = col.name,
-//      id = col.id,
-//      datasetID = col.datasetID,
-//      sample = col.sample,
-//      logicalType = LogicalType.lookup(col.logicalType).getOrElse(LogicalType.STRING)
-//    )
-//  }
+
+object Column extends LazyLogging {
 
   implicit val jsonWrites = new Writes[Column[Any]] {
     def writes(col: Column[Any]): JsValue = JsObject(Seq(
@@ -147,15 +138,16 @@ object Column {
           name = (json \ "name").as[String],
           id = (json \ "id").as[ColumnID],
           datasetID = (json \ "datasetID").as[DataSetID],
-          sample = json \ "sample" match {
-            case req @ Seq(JsString(x), _*) =>
-              req.as[List[String]]
-            case req @ Seq(JsNumber(x), _*) =>
-              req.as[List[Double]]
-            case req @ Seq(JsBoolean(x), _*) =>
-              req.as[List[Boolean]]
+          sample = (json \ "sample").as[List[JsValue]] match {
+            case req @ List(JsString(x), _*) =>
+              req.map(_.as[String])
+            case req @ List(JsNumber(x), _*) =>
+              req.map(_.as[Double])
+            case req @ List(JsBoolean(x), _*) =>
+              req.map(_.as[Boolean])
             case req =>
-              req.as[List[String]]
+              logger.warn(s"Couldn't determine type of column: $req")
+              req.map(_.as[String])
           },
           logicalType = (json \ "logicalType").as[LogicalType]
         )
@@ -164,7 +156,7 @@ object Column {
         case Success(col) =>
           JsSuccess(col)
         case Failure(_) =>
-          JsError("hyh")
+          JsError("Failed to parse column")
     }
   }
 
@@ -216,7 +208,7 @@ object DataSet {
       case Success(col) =>
         JsSuccess(col)
       case Failure(_) =>
-        JsError("Failed to convert dataset")
+        JsError("Failed to parse dataset")
     }
   }
 
@@ -233,78 +225,3 @@ object DataSet {
     ))
   }
 }
-
-
-//
-//object DataSet {
-//  def apply(ds: DataSetPublic): DataSet = {
-//    DataSet(
-//      id = ds.id,
-//      columns = ds.columns.map(Column(_)),
-//      filename = ds.filename,
-//      path = null,
-//      typeMap = ds.typeMap,
-//      description = ds.description,
-//      dateCreated = ds.dateCreated,
-//      dateModified = ds.dateModified
-//    )
-//  }
-//}
-//
-///** This is used by the IntegrationAPI above as the public type of Column
-// *
-// * @param name Column name from the original data set
-// * @param id ID of the column itself
-// * @param datasetID ID of the original data set
-// * @param sample Small sample of the column data
-// * @param logicalType The logical type inferred or user specified
-// * @tparam T The type of the samples
-// */
-//case class ColumnPublic[+T](name: String,
-//                            id: ColumnID,
-//                            datasetID: DataSetID,
-//                            sample: List[T],
-//                            logicalType: String)
-//object ColumnPublic {
-//  def apply[A](col: Column[A]): ColumnPublic[A] = {
-//    ColumnPublic(
-//      col.name,
-//      col.id,
-//      col.datasetID,
-//      col.sample,
-//      col.logicalType.str)
-//  }
-//}
-
-///**
-// * Contains the IntegrationAPI version of the DataSet object
-// *
-// * @param id The dataset id value
-// * @param description The metadata description of the dataset
-// * @param dateCreated The java.util.Date when the item was created
-// * @param dateModified The java.util.Date when the item was last modified
-// * @param filename The single filename of the original resource
-// * @param columns The object of public column values
-// * @param typeMap The type map added by the user
-// */
-//case class DataSetPublic(id: Int,
-//                         description: String,
-//                         dateCreated: Date,
-//                         dateModified: Date,
-//                         filename: String,
-//                         columns: List[ColumnPublic[Any]],
-//                         typeMap: TypeMap)
-//
-//object DataSetPublic {
-//  def apply(ds: DataSet): DataSetPublic = {
-//    DataSetPublic(
-//      id = ds.id,
-//      description = ds.description,
-//      dateCreated = ds.dateCreated,
-//      dateModified = ds.dateModified,
-//      filename = ds.filename,
-//      columns = ds.columns.map(ColumnPublic(_)),
-//      typeMap = ds.typeMap
-//    )
-//  }
-//}
