@@ -21,6 +21,7 @@ import java.io.{FileInputStream, File}
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Path, Files, Paths, StandardCopyOption}
 
+import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
@@ -45,7 +46,7 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
 
   val StorageDir = "/tmp/junk"
 
-  val DefaultSampleSize = 5
+  val DefaultSampleSize = 15
 
   var datasets = findDataSets.map(ds => ds.id -> ds).toMap
 
@@ -160,7 +161,7 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
 
     val createdDataSet = DataSet(
       id = id,
-      columns = getColumns(id),
+      columns = getColumns(outputPath, id, typeMap),
       filename = fileStream.name,
       path = outputPath,
       typeMap = typeMap,
@@ -234,14 +235,23 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
    */
   def updateTypeMap(id: DataSetID, typeMap: TypeMap): Unit = {
 
+    logger.warn(s"Updating TYPEMP $id")
+
     if (datasets.contains(id)) {
+
+      logger.warn(s"Updating dataset $id")
+
       val ds = datasets(id)
+
+      logger.warn(s"Updating datasets === $ds")
 
       val newDS = ds.copy(
         typeMap = typeMap,
-        columns = updateColumns(ds, typeMap),
+        columns = getColumns(ds.path, id, typeMap), //updateColumns(ds, typeMap),
         dateModified = DateTime.now
       )
+
+      logger.warn(s"Updating qwer ===")
 
       synchronized {
         writeDataSetToFile(newDS)
@@ -251,52 +261,71 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
   }
 
   /**
-   * Returns updated columns on a dataset given a typeMap
+   * Return some random column objects for a dataset
    *
-   * @param ds The target dataset
-   * @param typeMap The typemap to apply to the columns
-   * @return The new set of columns. In errors, the original column will be returned
+   * @param filePath Full path to the file
+   * @param dataSetID ID of the parent dataset
+   * @param n Number of samples in the sample set
+   * @param headerLines Number of header lines in the file
+   * @return A list of Column objects
    */
-  private def updateColumns(ds: DataSet, typeMap: TypeMap): List[Column[Any]] = {
+  def getColumns(filePath: Path,
+                 dataSetID: DataSetID,
+                 typeMap: TypeMap,
+                 n: Int = DefaultSampleSize,
+                 headerLines: Int = 1): List[Column[Any]] = {
 
-    val cols = ds.columns
+    // generate random samples...
+    val rnd = new scala.util.Random(0)
+    def genSample(col: List[Any]) = Array.fill(n)(col(rnd.nextInt(col.size)))
 
-    // this is more of a warning - should this throw an error?
-    typeMap.keys.foreach { key =>
-      if (!cols.map(_.name).contains(key)) {
-        println(s"$key does not exist in columns!")
-      }
-    }
+    // TODO: Get this out of memory!
+    val csv = CSVReader.open(filePath.toFile)
+    val columns = csv.all.transpose
+    val headers = columns.map(_.take(headerLines).mkString("_"))
+    val data = columns.map(_.drop(headerLines))
 
-    // TODO: change the types of the Column[T] sample types!
-    // here we assign the logical types to the column objects...
-    cols.map {
-      // for each column, grab the new type from the typeMap...
-      col => typeMap get col.name match {
-        case Some(newType) =>
-          // if we find one, then we can update. If it is not
-          // a real type, we can ignore
-          val newLogType = LogicalType.lookup(newType)
-          col.copy(logicalType = newLogType getOrElse col.logicalType)
-        case _ =>
-          col
-      }
+    (headers zip data).zipWithIndex.map { case ((header, x), i) =>
+
+      val logicalType = typeMap.get(header).flatMap(LogicalType.lookup)
+
+      Column[Any](
+        i,
+        filePath,
+        header,
+        genID,
+        x.size,
+        dataSetID,
+        genSample(retypeData(x, logicalType)).toList,
+        logicalType getOrElse LogicalType.STRING)
     }
   }
 
   /**
-   * Return some random column objects for a dataset
+   * Changes the type of the csv data, very crude at the moment
    *
-   * @param id The id key for the dataset
-   * @return Returns a list of example columns
+   * @param data The original csv data
+   * @param logicalType The optional logical type. It will be cast to string if none.
+   * @return
    */
-  def getColumns(id: DataSetID, n: Int = DefaultSampleSize): List[Column[Any]] = {
-    List(
-      Column[String]("name",  genID, id, List.fill(n)(genAlpha),      LogicalType.STRING),
-      Column[Int](   "addr",  genID, id, List.fill(n)(genID),         LogicalType.INTEGER),
-      Column[Double]("phone", genID, id, List.fill(n)(genID.toFloat), LogicalType.FLOAT),
-      Column[String]("junk",  genID, id, List.fill(n)(genAlpha),      LogicalType.STRING)
-    )
+  def retypeData(data: List[String], logicalType: Option[LogicalType]): List[Any] = {
+    logicalType match {
+
+      case Some(LogicalType.BOOLEAN) =>
+        data.map(_.toBoolean)
+
+      case Some(LogicalType.FLOAT) =>
+        data.map(s => Try(s.toDouble).toOption getOrElse Double.NaN)
+
+      case Some(LogicalType.INTEGER) =>
+        data.map(s => Try(s.toInt).toOption getOrElse Int.MinValue)
+
+      case Some(LogicalType.STRING) =>
+        data
+
+      case _ =>
+        data
+    }
   }
 
   /**

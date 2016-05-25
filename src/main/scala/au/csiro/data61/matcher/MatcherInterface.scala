@@ -85,9 +85,13 @@ object MatcherInterface {
       throw new ParseException(s"Dataset $key does not exist")
     }
 
-    description foreach { StorageLayer.updateDescription(key, _) }
+    description foreach {
+      StorageLayer.updateDescription(key, _)
+    }
 
-    typeMap foreach { StorageLayer.updateTypeMap(key, _) }
+    typeMap foreach {
+      StorageLayer.updateTypeMap(key, _)
+    }
 
     StorageLayer.datasets.get(key) match {
       case Some(dataset) =>

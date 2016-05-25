@@ -30,6 +30,7 @@ lazy val root = (project in file(".")).settings(
     //"com.typesafe.play" %% "play-json"         % "2.5.3",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.4.0"
 
+    ,"com.github.tototoshi" %% "scala-csv" % "1.3.1"
     ,"com.github.finagle" %% "finch-core" % "0.10.0"
     ,"com.github.finagle" %% "finch-json4s" % "0.10.0"
 

@@ -100,14 +100,20 @@ class LogicalTypeSerializer extends CustomSerializer[LogicalType](format => (
 /**
  * Column values used by the data set storage layer
  *
+ * @param index Column position in the file
+ * @param path Original resource location
  * @param name Name of the column
  * @param id Column identifier key
+ * @param size The size of the full column array
  * @param datasetID Dataset identifier key
  * @param sample Small sample of the dataset
  * @tparam T Type of the sample dataset
  */
-case class Column[+T](name: String,
+case class Column[+T](index: Int,
+                      path: Path,
+                      name: String,
                       id: ColumnID,
+                      size: Long,
                       datasetID: DataSetID,
                       sample: List[T],
                       logicalType: LogicalType)
