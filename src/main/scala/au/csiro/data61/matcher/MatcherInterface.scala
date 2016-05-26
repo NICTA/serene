@@ -17,7 +17,16 @@
  */
 package au.csiro.data61.matcher
 
+import java.nio.file.Path
+
 import DataSetTypes._
+import com.github.tototoshi.csv.CSVReader
+import com.typesafe.scalalogging.LazyLogging
+import org.joda.time.DateTime
+
+import scala.util.{Random, Try}
+
+import scala.language.postfixOps
 
 /**
  * IntegrationAPI defines the interface through which requests
@@ -31,8 +40,11 @@ import DataSetTypes._
  * Errors can be thrown here and they will be translated into
  * server errors or bad request errors.
  */
-object MatcherInterface {
+object MatcherInterface extends LazyLogging {
+
   val MissingValue = "unknown"
+
+  val DefaultSampleSize = 15
 
   /**
    * Parses a servlet request to get a dataset object
@@ -44,20 +56,35 @@ object MatcherInterface {
    */
   def createDataset(request: DataSetRequest): DataSet = {
 
-    val fileStream = request.file match {
-      case Some(file) =>
-        file
-      case _ =>
-        throw new ParseException(s"Failed to read file request part: ${DataSetParser.FilePartName}")
+    if (request.file.isEmpty) {
+      throw ParseException(s"Failed to read file request part: ${DataSetParser.FilePartName}")
     }
+
     val typeMap = request.typeMap getOrElse Map.empty[String, String]
     val description = request.description getOrElse MissingValue
+    val id = genID
 
-    StorageLayer.addDataset(fileStream, description, typeMap)
+    val dataSet = for {
+      fs <- request.file
+      path <- StorageLayer.addFile(id, fs.stream)
+      ds <- Try(DataSet(
+              id = id,
+              columns = getColumns(path, id, typeMap),
+              filename = fs.name,
+              path = path,
+              typeMap = typeMap,
+              description = description,
+              dateCreated = DateTime.now,
+              dateModified = DateTime.now
+            )).toOption
+      _ <- StorageLayer.addDataSet(id, ds)
+    } yield ds
+
+    dataSet getOrElse { throw new Exception(s"Failed to create resource $id") }
   }
 
   def datasetKeys: List[DataSetID] = {
-    StorageLayer.datasets.keys.toList
+    StorageLayer.keys
   }
 
   /**
@@ -67,7 +94,7 @@ object MatcherInterface {
    * @return
    */
   def getDataSet(id: DataSetID): Option[DataSet] = {
-    StorageLayer.datasets.get(id)
+    StorageLayer.getDataSet(id)
   }
 
   /**
@@ -79,25 +106,30 @@ object MatcherInterface {
    * @param key ID corresponding to a dataset element
    * @return
    */
-  def updateDataset(description: Option[String], typeMap: Option[TypeMap], key: DataSetID): DataSet = {
+  def updateDataset(key: DataSetID, description: Option[String], typeMap: Option[TypeMap]): DataSet = {
 
-    if (!StorageLayer.datasets.contains(key)) {
-      throw new ParseException(s"Dataset $key does not exist")
+    if (!StorageLayer.keys.contains(key)) {
+      throw ParseException(s"Dataset $key does not exist")
     }
 
-    description foreach {
-      StorageLayer.updateDescription(key, _)
-    }
+    val newDS = for {
+      oldDS <- StorageLayer.getDataSet(key)
 
-    typeMap foreach {
-      StorageLayer.updateTypeMap(key, _)
-    }
+      ds <- Try {
+        oldDS.copy(
+          description = description getOrElse oldDS.description,
+          typeMap = typeMap getOrElse oldDS.typeMap,
+          columns = if (typeMap.isEmpty) oldDS.columns else getColumns(oldDS.path, oldDS.id, typeMap.get),
+          dateModified = DateTime.now
+        )} toOption
 
-    StorageLayer.datasets.get(key) match {
-      case Some(dataset) =>
-        dataset
-      case _ =>
-        throw new Exception(s"Failed to update dataset $key")
+      id <- StorageLayer.updateDataSet(key, ds)
+
+    } yield ds
+
+    newDS getOrElse {
+      logger.error(s"Failed in UpdateDataSet for key $key")
+      throw InternalException(s"Failed to update dataset: Dataset $key does not exist")
     }
   }
 
@@ -108,7 +140,82 @@ object MatcherInterface {
    * @return
    */
   def deleteDataset(key: DataSetID): Option[DataSetID] = {
-    StorageLayer.deleteDataset(key)
+    StorageLayer.removeDataSet(key)
   }
+
+  /**
+   * Return some random column objects for a dataset
+   *
+   * @param filePath Full path to the file
+   * @param dataSetID ID of the parent dataset
+   * @param n Number of samples in the sample set
+   * @param headerLines Number of header lines in the file
+   * @return A list of Column objects
+   */
+  protected def getColumns(filePath: Path,
+                           dataSetID: DataSetID,
+                           typeMap: TypeMap,
+                           n: Int = DefaultSampleSize,
+                           headerLines: Int = 1): List[Column[Any]] = {
+
+    // generate random samples...
+    val rnd = new scala.util.Random(0)
+    def genSample(col: List[Any]) = Array.fill(n)(col(rnd.nextInt(col.size)))
+
+    // TODO: Get this out of memory!
+    val csv = CSVReader.open(filePath.toFile)
+    val columns = csv.all.transpose
+    val headers = columns.map(_.take(headerLines).mkString("_"))
+    val data = columns.map(_.drop(headerLines))
+
+    (headers zip data).zipWithIndex.map { case ((header, col), i) =>
+
+      val logicalType = typeMap.get(header).flatMap(LogicalType.lookup)
+
+      Column[Any](
+        i,
+        filePath,
+        header,
+        genID,
+        col.size,
+        dataSetID,
+        genSample(retypeData(col, logicalType)).toList,
+        logicalType getOrElse LogicalType.STRING)
+    }
+  }
+
+  /**
+   * Changes the type of the csv data, very crude at the moment
+   *
+   * @param data The original csv data
+   * @param logicalType The optional logical type. It will be cast to string if none.
+   * @return
+   */
+  protected def retypeData(data: List[String], logicalType: Option[LogicalType]): List[Any] = {
+    logicalType match {
+
+      case Some(LogicalType.BOOLEAN) =>
+        data.map(_.toBoolean)
+
+      case Some(LogicalType.FLOAT) =>
+        data.map(s => Try(s.toDouble).toOption getOrElse Double.NaN)
+
+      case Some(LogicalType.INTEGER) =>
+        data.map(s => Try(s.toInt).toOption getOrElse Int.MinValue)
+
+      case Some(LogicalType.STRING) =>
+        data
+
+      case _ =>
+        data
+    }
+  }
+
+  /**
+   * Generate a random positive integer id
+   *
+   * @return Returns a random positive integer
+   */
+  protected def genID: Int = Random.nextInt(Integer.MAX_VALUE)
 
 }

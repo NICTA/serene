@@ -24,7 +24,6 @@ import DataSetTypes._
 import org.joda.time.DateTime
 
 import org.json4s._
-import org.json4s.jackson.Serialization
 
 /**
  * Types used for the DataSet objects
@@ -52,7 +51,6 @@ object ColumnTypes {
  */
 case class Message(greeting: String, to: String)
 
-
 /**
  * LogicalType Enumeration used for the Column types
  */
@@ -77,9 +75,7 @@ object LogicalType {
   def lookup(str: String): Option[LogicalType] = {
     values.find(_.str == str)
   }
-
 }
-
 
 /**
  * Serializer for the LogicalType
@@ -95,7 +91,6 @@ class LogicalTypeSerializer extends CustomSerializer[LogicalType](format => (
     case logicalType: LogicalType =>
       JString(logicalType.str)
   }))
-
 
 /**
  * Column values used by the data set storage layer
@@ -118,7 +113,6 @@ case class Column[+T](index: Int,
                       sample: List[T],
                       logicalType: LogicalType)
 
-
 /**
  * Dataset object created internally by the data set storage layer
  *
@@ -140,7 +134,6 @@ case class DataSet(id: Int,
                    dateCreated: DateTime,
                    dateModified: DateTime)
 
-
 /**
  * Serializer for the Java.io.Path object
  */
@@ -153,7 +146,6 @@ class PathSerializer extends CustomSerializer[Path](format => ( {
     case path: Path =>
       JString(path.toString)
   }))
-
 
 /**
  * Holds the implicit matcher objects for the Json4s Serializers.

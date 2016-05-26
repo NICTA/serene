@@ -121,7 +121,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
 
     val dataset = for {
       id <- Try(idStr.toInt)
-      ds <- Try(MatcherInterface.updateDataset(req.description, req.typeMap, id))
+      ds <- Try(MatcherInterface.updateDataset(id, req.description, req.typeMap))
     } yield ds
 
     dataset match {
@@ -192,10 +192,18 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
  *
  * @param message Error message from the request
  */
-class BadRequestException(message: String) extends RuntimeException(message)
+case class BadRequestException(message: String) extends RuntimeException(message)
 
-/** Error for html request parse errors
+/**
+ * Error for html request parse errors
  *
  * @param message Error message from the parsing event
  */
-class ParseException(message: String) extends RuntimeException(message)
+case class ParseException(message: String) extends RuntimeException(message)
+
+/**
+ * Error for internal problems
+ *
+ * @param message Error message from the lower levels
+ */
+case class InternalException(message: String) extends RuntimeException(message)

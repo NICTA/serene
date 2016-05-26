@@ -17,19 +17,17 @@
  */
 package au.csiro.data61.matcher
 
-import java.io.{FileInputStream, File}
+import java.io.{InputStream, FileInputStream, File}
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Path, Files, Paths, StandardCopyOption}
 
-import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
-import org.joda.time.DateTime
 
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
-import scala.util.{Success, Failure, Random, Try}
+import scala.util.{Success, Failure, Try}
 
 import DataSetTypes._
 
@@ -44,14 +42,127 @@ import scala.language.postfixOps
  */
 object StorageLayer extends LazyLogging with MatcherJsonFormats {
 
-  val StorageDir = "/tmp/junk"
+  /**
+   * Adds a file resource into the storage system
+   *
+   * @param id The id for the storage element
+   * @param stream The input stream
+   * @return The path to the resource (if successful)
+   */
+  def addFile(id: DataSetID, stream: InputStream): Option[Path] = {
 
-  val DefaultSampleSize = 15
+    val outputPath = Paths.get(StorageDir, s"$id", s"$id.txt")
 
-  var datasets = findDataSets.map(ds => ds.id -> ds).toMap
+    Try {
+      // ensure that the directories exist...
+      outputPath.toFile.getParentFile.mkdirs
 
-  def toIntOption(s: String): Option[Int] = {
+      // copy the file portion over into the output path
+      Files.copy(
+        stream,
+        outputPath,
+        StandardCopyOption.REPLACE_EXISTING
+      )
+
+      outputPath
+
+    } toOption
+  }
+
+  /**
+   * Add a new dataset to the storage layer
+   * @param id ID to give to the element
+   * @param ds DataSet object
+   * @return ID of the resource created (if any)
+   */
+  def addDataSet(id: DataSetID, ds: DataSet): Option[DataSetID] = {
+    Try {
+      synchronized {
+        writeDataSetToFile(ds)
+        datasets += (id -> ds)
+      }
+      id
+    } toOption
+  }
+
+  /**
+   * Update the dataset id in the storage layer
+   * @param id ID to give to the element
+   * @param ds DataSet object
+   * @return ID of the resource created (if any)
+   */
+  def updateDataSet(id: DataSetID, ds: DataSet): Option[DataSetID] = {
+    addDataSet(id, ds)
+  }
+
+  /**
+   * Deletes the resource at the key `id`. This will also
+   * delete any file resource at this key
+   *
+   * @param id Key for the dataset to be removed
+   * @return Key of the removed dataset if successful
+   */
+  def removeDataSet(id: DataSetID): Option[DataSetID] = {
+    datasets.get(id) match {
+      case Some(ds) =>
+
+        // delete directory - be careful
+        val dir: File = ds.path.getParent.toFile
+
+        synchronized {
+          Try(FileUtils.deleteDirectory(dir)) match {
+            case Failure(err) =>
+              logger.error(s"Failed to delete directory: ${err.getMessage}")
+              None
+            case _ =>
+              datasets -= id
+              Some(id)
+          }
+        }
+      case _ =>
+        logger.error(s"Dataset not found: $id")
+        None
+    }
+  }
+
+  /**
+   * Returns the dataset object at location id
+   * @param id The key for the dataset
+   * @return Resource if available
+   */
+  def getDataSet(id: DataSetID): Option[DataSet] = {
+    datasets.get(id)
+  }
+
+  def keys: List[DataSetID] = {
+    datasets.keys.toList
+  }
+
+
+  /**
+   * Internal functions...
+   */
+
+  protected val StorageDir = "/tmp/junk"
+
+  //protected val DefaultSampleSize = 15
+
+  protected var datasets = findDataSets.map(ds => ds.id -> ds).toMap
+
+  protected def toIntOption(s: String): Option[Int] = {
     Try(s.toInt).toOption
+  }
+
+  /**
+   * Attempts to read all the datasets out from the storage dir
+   *
+   * @return
+   */
+  protected def findDataSets: List[DataSet] = {
+    listDirectories(StorageDir)
+      .flatMap(toIntOption)
+      .map(getMetaPath)
+      .flatMap(readDataSetFromFile)
   }
 
   /**
@@ -71,18 +182,6 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
         logger.error(s"Failed to open dir $StorageDir")
         List.empty[String]
     }
-  }
-
-  /**
-   * Attempts to read all the datasets out from the storage dir
-   *
-   * @return
-   */
-  protected def findDataSets: List[DataSet] = {
-    listDirectories(StorageDir)
-      .flatMap(toIntOption)
-      .map(getMetaPath)
-      .flatMap(readDataSetFromFile)
   }
 
   /**
@@ -131,209 +230,5 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
       str.getBytes(StandardCharsets.UTF_8)
     )
   }
-
-  /**
-   * Adds a dataset to the object state. This requires types from
-   * the parsed request object. This will return a new dataset object.
-   *
-   * @param fileStream The FileStream object pointing the request data
-   * @param description The description provided by the user
-   * @param typeMap The typeMap for user specified types e.g. int, string, bool, factor, float
-   * @return
-   */
-  def addDataset(fileStream: FileStream,
-                 description: String,
-                 typeMap: TypeMap): DataSet = {
-
-    val id = genID
-
-    val outputPath = Paths.get(StorageDir, s"$id", s"$id.txt")
-
-    // ensure that the directories exist...
-    outputPath.toFile.getParentFile.mkdirs
-
-    // copy the file portion over into the output path
-    Files.copy(
-      fileStream.stream,
-      outputPath,
-      StandardCopyOption.REPLACE_EXISTING
-    )
-
-    val createdDataSet = DataSet(
-      id = id,
-      columns = getColumns(outputPath, id, typeMap),
-      filename = fileStream.name,
-      path = outputPath,
-      typeMap = typeMap,
-      description = description,
-      dateCreated = DateTime.now,
-      dateModified = DateTime.now
-    )
-
-    synchronized {
-      writeDataSetToFile(createdDataSet)
-      datasets += (id -> createdDataSet)
-    }
-
-    createdDataSet
-  }
-
-  /**
-   * Deletes the dataset and the associated resource at `id`
-   *
-   * @param id The dataset id key
-   * @return
-   */
-  def deleteDataset(id: DataSetID): Option[DataSetID] = {
-    datasets.get(id) match {
-      case Some(ds) =>
-
-        // TODO: Abstract this DB layer away...
-        // delete directory - be careful
-        val dir: File = ds.path.getParent.toFile
-
-        synchronized {
-          Try(FileUtils.deleteDirectory(dir)) match {
-            case Failure(err) =>
-              throw new Exception(s"Failed to delete directory: ${err.getMessage}")
-            case _ =>
-              datasets -= id
-              Some(id)
-          }
-        }
-      case _ =>
-        None
-    }
-  }
-
-  /**
-   * Updates the description. Note that this is a method an will update
-   * the mutable data set map state.
-   *
-   * @param id The id for the data set
-   * @param description The user supplied meta data description
-   */
-  def updateDescription(id: DataSetID, description: String): Unit = {
-
-    if (datasets.contains(id)) {
-
-      val ds = datasets(id).copy(
-        description = description,
-        dateModified = DateTime.now
-      )
-      synchronized {
-        writeDataSetToFile(ds)
-        datasets += (id -> ds)
-      }
-    }
-  }
-
-  /**
-   * Updates the dataset at id given a new type map. Note that this
-   * is a method and updates the data set map state.
-   *
-   * @param id The id for the data set
-   * @param typeMap The user specified typeMap with column names -> type string e.g. string, float, int, factor, bool
-   */
-  def updateTypeMap(id: DataSetID, typeMap: TypeMap): Unit = {
-
-    if (datasets.contains(id)) {
-
-      val ds = datasets(id)
-
-      val newDS = ds.copy(
-        typeMap = typeMap,
-        columns = getColumns(ds.path, id, typeMap), //updateColumns(ds, typeMap),
-        dateModified = DateTime.now
-      )
-
-      synchronized {
-        writeDataSetToFile(newDS)
-        datasets += (id -> newDS)
-      }
-    }
-  }
-
-  /**
-   * Return some random column objects for a dataset
-   *
-   * @param filePath Full path to the file
-   * @param dataSetID ID of the parent dataset
-   * @param n Number of samples in the sample set
-   * @param headerLines Number of header lines in the file
-   * @return A list of Column objects
-   */
-  def getColumns(filePath: Path,
-                 dataSetID: DataSetID,
-                 typeMap: TypeMap,
-                 n: Int = DefaultSampleSize,
-                 headerLines: Int = 1): List[Column[Any]] = {
-
-    // generate random samples...
-    val rnd = new scala.util.Random(0)
-    def genSample(col: List[Any]) = Array.fill(n)(col(rnd.nextInt(col.size)))
-
-    // TODO: Get this out of memory!
-    val csv = CSVReader.open(filePath.toFile)
-    val columns = csv.all.transpose
-    val headers = columns.map(_.take(headerLines).mkString("_"))
-    val data = columns.map(_.drop(headerLines))
-
-    (headers zip data).zipWithIndex.map { case ((header, x), i) =>
-
-      val logicalType = typeMap.get(header).flatMap(LogicalType.lookup)
-
-      Column[Any](
-        i,
-        filePath,
-        header,
-        genID,
-        x.size,
-        dataSetID,
-        genSample(retypeData(x, logicalType)).toList,
-        logicalType getOrElse LogicalType.STRING)
-    }
-  }
-
-  /**
-   * Changes the type of the csv data, very crude at the moment
-   *
-   * @param data The original csv data
-   * @param logicalType The optional logical type. It will be cast to string if none.
-   * @return
-   */
-  def retypeData(data: List[String], logicalType: Option[LogicalType]): List[Any] = {
-    logicalType match {
-
-      case Some(LogicalType.BOOLEAN) =>
-        data.map(_.toBoolean)
-
-      case Some(LogicalType.FLOAT) =>
-        data.map(s => Try(s.toDouble).toOption getOrElse Double.NaN)
-
-      case Some(LogicalType.INTEGER) =>
-        data.map(s => Try(s.toInt).toOption getOrElse Int.MinValue)
-
-      case Some(LogicalType.STRING) =>
-        data
-
-      case _ =>
-        data
-    }
-  }
-
-  /**
-   * Generate a random positive integer id
-   *
-   * @return Returns a random positive integer
-   */
-  def genID: Int = Random.nextInt(Integer.MAX_VALUE)
-
-  /**
-   * Generate a random alphanumeric data
-   *
-   * @return Returns a random alphanumeric string
-   */
-  def genAlpha: String = Random.alphanumeric take 5 mkString
 
 }
