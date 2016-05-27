@@ -80,7 +80,7 @@ object LogicalType {
 /**
  * Serializer for the LogicalType
  */
-class LogicalTypeSerializer extends CustomSerializer[LogicalType](format => (
+case object LogicalTypeSerializer extends CustomSerializer[LogicalType](format => (
   {
     case jv: JValue =>
       implicit val formats = DefaultFormats
@@ -137,7 +137,7 @@ case class DataSet(id: Int,
 /**
  * Serializer for the Java.io.Path object
  */
-class PathSerializer extends CustomSerializer[Path](format => ( {
+case object PathSerializer extends CustomSerializer[Path](format => ( {
     case jv: JValue =>
       implicit val formats = DefaultFormats
       val str = jv.extract[String]
@@ -157,7 +157,7 @@ trait MatcherJsonFormats {
   implicit def json4sFormats: Formats =
     org.json4s.DefaultFormats ++
     org.json4s.ext.JodaTimeSerializers.all +
-    new LogicalTypeSerializer +
-    new PathSerializer
+    LogicalTypeSerializer +
+    PathSerializer
 
 }

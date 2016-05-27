@@ -37,7 +37,7 @@ class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUp
   /**
    * test message for now...
    */
-  get(s"/$APIVersion/new") {
+  get(s"/$APIVersion") {
     Message("Hello", "World")
   }
 
