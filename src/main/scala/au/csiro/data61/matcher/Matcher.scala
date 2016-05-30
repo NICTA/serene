@@ -17,193 +17,61 @@
  */
 package au.csiro.data61.matcher
 
-import org.json4s._
-import org.scalatra._
-import org.scalatra.json._
-import org.scalatra.servlet._
+import com.typesafe.scalalogging.LazyLogging
 
 import scala.language.postfixOps
-import scala.util.{Failure, Success, Try}
+import com.twitter.util.Await
+import com.twitter.finagle.{ListeningServer, Http}
+
+import io.finch._
+import org.json4s.jackson.JsonMethods._
+import io.finch.json4s._
 
 
-/**
- * Servlet class to define the integration API
- */
-class MatcherServlet extends ScalatraServlet with JacksonJsonSupport with FileUploadSupport with MatcherJsonFormats {
-  protected implicit val jsonFormats: Formats = json4sFormats //DefaultFormats
+object Matcher extends LazyLogging with MatcherJsonFormats {
 
-  val APIVersion = "v1.0"
+  val Address = "0.0.0.0:8080"
 
-  /**
-   * test message for now...
-   */
-  get(s"/$APIVersion") {
-    Message("Hello", "World")
+  val components =
+    DatasetRestAPI.endpoints :+:
+      TestRestAPI.endpoints
+
+  val restAPI = components.handle {
+    case e @ InternalException(msg) =>
+      logger.error(s"Internal server error: $msg")
+      InternalServerError(e)
+    case e @ ParseException(msg) =>
+      logger.error(s"Parse exception error: $msg")
+      InternalServerError(e)
+    case e @ BadRequestException(msg) =>
+      logger.error(s"Bad request exception: $msg")
+      BadRequest(e)
+    case e @ NotFoundException(msg) =>
+      logger.error(s"Resource not found exception: $msg")
+      NotFound(e)
+    case e: Exception =>
+      logger.error(s"Error: ${e.getMessage}")
+      NotFound(e)
   }
 
-  /**
-   * Dataset REST endpoints...
-   *
-   *  GET    /v1.0/dataset
-   *  POST   /v1.0/dataset      -- file (binary), description (string), typeMap (obj(string->string))
-   *  GET    /v1.0/dataset/:id
-   *  PATCH  /v1.0/dataset/:id  -- description (string), typeMap (obj(string->string))
-   *  DELETE /v1.0/dataset/:id
-   */
+  def defaultServer: ListeningServer = Http.serve(Address, restAPI.toService)
 
-  /**
-   * Returns all dataset keys
-   *
-   * curl http://localhost:8080/v1.0/dataset
-   */
-  get(s"/$APIVersion/dataset") {
-    MatcherInterface.datasetKeys
+  def main(args: Array[String]): Unit = {
+    logger.info("Start HTTP server on port " + Address)
+    Await.ready(defaultServer)
   }
-
-  /**
-   * Adds a new dataset with a description and a user-specified logical typemap.
-   * File is required, the others are optional.
-   *
-   * Returns a JSON DataSet object with id.
-   *
-   * curl -X POST http://localhost:8080/v1.0/dataset
-   *   -F 'file=@foobar/test.csv'
-   *   -F 'description=This is the description string'
-   *   -F 'typeMap={"col_name":"int", "col_name2":"string", "col_name3":"float"}'
-   */
-  post(s"/$APIVersion/dataset") {
-    Try {
-      val req = DataSetParser.processRequest(request)
-
-      if (req.file.isEmpty) throw new BadRequestException("Failed to find 'file' in request.")
-
-      MatcherInterface.createDataset(req)
-    } match {
-      case Success(ds) =>
-          ds
-      case Failure(err: BadRequestException) =>
-        BadRequest(s"Request failed: ${err.getMessage}")
-      case Failure(err) =>
-        InternalServerError(s"Failed to upload resource: ${err.getMessage}")
-    }
-  }
-
-  /**
-   * Returns a JSON DataSet object at id
-   *
-   * curl http://localhost:8080/v1.0/dataset/12354687
-   */
-  get(s"/$APIVersion/dataset/:id") {
-    val idStr = params("id")
-
-    val dataset = for {
-      id <- Try(idStr.toInt).toOption
-      ds <- MatcherInterface.getDataSet(id)
-    } yield ds
-
-    dataset getOrElse BadRequest(s"Dataset $idStr does not exist.")
-  }
-
-  /**
-   * Patch a portion of a DataSet. Only description and typeMap
-   *
-   * Returns a JSON DataSet object at id
-   *
-   * curl -X PATCH http://localhost:8080/v1.0/dataset/12354687
-   *   -F 'description=This is the new description'
-   */
-  patch(s"/$APIVersion/dataset/:id") {
-    val idStr = params("id")
-
-    val req = DataSetParser.processRequest(request)
-
-    if (req.file.nonEmpty) throw new BadRequestException("Forbidden to patch 'file'.")
-
-    val dataset = for {
-      id <- Try(idStr.toInt)
-      ds <- Try(MatcherInterface.updateDataset(id, req.description, req.typeMap))
-    } yield ds
-
-    dataset match {
-      case Success(ds) =>
-          ds
-      case Failure(err) =>
-        BadRequest(s"Failed to update dataset $idStr: ${err.getMessage}")
-    }
-  }
-
-  /**
-   * Deletes the dataset at position id.
-   *
-   * curl -X DELETE http://localhost:8080/v1.0/dataset/12354687
-   */
-  delete(s"/$APIVersion/dataset/:id") {
-    val idStr = params("id")
-
-    val dataset = for {
-      id <- Try(idStr.toInt)
-      ds <- Try(MatcherInterface.deleteDataset(id))
-    } yield ds
-
-    dataset match {
-      case Success(Some(_)) =>
-        Ok
-      case Success(None) =>
-        NotFound(s"Dataset $idStr could not be found.")
-      case Failure(err) =>
-        InternalServerError(s"Failed to delete resource $idStr. ${err.getMessage}")
-    }
-  }
-
-  /**
-   * Configuration elements...
-   */
-
-  before() {
-    contentType = formats("json")
-  }
-
-  error {
-    case e: SizeConstraintExceededException =>
-      RequestEntityTooLarge("File size too large. Please ensure data upload is an octet-stream.")
-    case err: Exception =>
-      InternalServerError(s"Failed unexpectedly: ${err.getMessage}")
-    case _ =>
-      InternalServerError(s"Failed spectacularly.")
-  }
-
-  /**
-   * Here we prevent the user from uploading large files. Files
-   * need to be uploaded with octet-streams so they can be written
-   * directly to files internally.
-   */
-  configureMultipartHandling(
-    MultipartConfig(
-      maxFileSize = Some(Long.MaxValue),
-      location = Some("/tmp"),
-      fileSizeThreshold = Some(1024 * 1024)
-    )
-  )
 }
 
 
-/**
- * Errors caused by bad requests
- *
- * @param message Error message from the request
- */
-case class BadRequestException(message: String) extends RuntimeException(message)
+object TestRestAPI extends RestAPI {
 
-/**
- * Error for html request parse errors
- *
- * @param message Error message from the parsing event
- */
-case class ParseException(message: String) extends RuntimeException(message)
+  val asdf: Endpoint[Message] = get(APIVersion :: "asdf") {
+    Ok(Message("hello", "asdf"))
+  }
 
-/**
- * Error for internal problems
- *
- * @param message Error message from the lower levels
- */
-case class InternalException(message: String) extends RuntimeException(message)
+  val qwer: Endpoint[Message] = get(APIVersion :: "qwer") {
+    Ok(Message("hello", "qwer"))
+  }
+
+  val endpoints = asdf :+: qwer
+}
