@@ -91,7 +91,7 @@ class DatasetRestAPITest extends FunSuite with MatcherJsonFormats {
 
   import DatasetRestAPI._
 
-  val Resource = "/Users/col541/home/projects/scratch/unfiltered/foobar/medium.csv"
+  val Resource = getClass.getResource("/medium.csv").getPath
 
   test("version number is 1.0") {
     assert(APIVersion === "v1.0")
