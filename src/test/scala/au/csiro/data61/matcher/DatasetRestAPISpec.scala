@@ -57,11 +57,26 @@ class TestServer {
     Await.result(client(request))
   }
 
+  /**
+   * Helper function to build a delete request
+   *
+   * @param path URL of the endpoint to delete
+   * @return
+   */
   def delete(path: String): Response = {
     val request = http.Request(http.Method.Delete, path)
     Await.result(client(request))
   }
 
+  /**
+   * Posts a request to build a dataset, then returns the DataSet object it created
+   * wrapped in a Try.
+   *
+   * @param file The location of the csv resource
+   * @param typeMap The json string of the string->string typemap
+   * @param description Description line to add to the file.
+   * @return DataSet that was constructed
+   */
   def postAndReturn(file: String, typeMap: String, description: String): Try[DataSet] = {
 
     Try {
@@ -79,7 +94,9 @@ class TestServer {
     }
   }
 
-
+  /**
+   * Close the server and client after each test
+   */
   def assertClose(): Unit = {
     Closable.all(server, client).close()
   }
