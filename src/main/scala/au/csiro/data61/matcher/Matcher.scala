@@ -17,6 +17,7 @@
  */
 package au.csiro.data61.matcher
 
+import au.csiro.data61.matcher.api.{RestAPI, DatasetRestAPI}
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.language.postfixOps
@@ -26,7 +27,7 @@ import com.twitter.finagle.{ListeningServer, Http}
 import io.finch._
 import org.json4s.jackson.JsonMethods._
 import io.finch.json4s._
-
+import api._
 
 object Matcher extends LazyLogging with MatcherJsonFormats {
 

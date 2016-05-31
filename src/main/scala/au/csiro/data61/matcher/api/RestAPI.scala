@@ -15,15 +15,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher
+package au.csiro.data61.matcher.api
 
+import au.csiro.data61.matcher.MatcherJsonFormats
 import com.typesafe.scalalogging.LazyLogging
-
 import io.finch._
-import org.json4s.jackson.JsonMethods._
-import io.finch.json4s._
 
-
+/**
+ * Generic RestAPI endpoint. Here it just holds the implicit
+ * format object, the version number, and the endpoints to
+ * be defined by child objects.
+ */
 trait RestAPI extends LazyLogging with MatcherJsonFormats {
   implicit val formats = json4sFormats
 

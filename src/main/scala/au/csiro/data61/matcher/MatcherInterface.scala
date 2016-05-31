@@ -20,11 +20,12 @@ package au.csiro.data61.matcher
 import java.nio.file.Path
 
 import DataSetTypes._
+import au.csiro.data61.matcher.api.{InternalException, ParseException}
 import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
-import scala.util.{Random, Try}
+import scala.util.{Success, Failure, Random, Try}
 
 import scala.language.postfixOps
 
@@ -113,23 +114,32 @@ object MatcherInterface extends LazyLogging {
     }
 
     val newDS = for {
-      oldDS <- StorageLayer.getDataSet(key)
-
+      oldDS <- Try {
+        StorageLayer.getDataSet(key).get
+      }
       ds <- Try {
         oldDS.copy(
           description = description getOrElse oldDS.description,
           typeMap = typeMap getOrElse oldDS.typeMap,
           columns = if (typeMap.isEmpty) oldDS.columns else getColumns(oldDS.path, oldDS.id, typeMap.get),
           dateModified = DateTime.now
-        )} toOption
-
-      id <- StorageLayer.updateDataSet(key, ds)
-
+        )
+      }
+      id <- Try {
+        StorageLayer.updateDataSet(key, ds).get
+      } recover {
+        case _ =>
+          InternalException("Could not create database")
+      }
     } yield ds
 
-    newDS getOrElse {
-      logger.error(s"Failed in UpdateDataSet for key $key")
-      throw InternalException(s"Failed to update dataset: Dataset $key does not exist")
+    newDS match {
+      case Success(ds) =>
+        ds
+      case Failure(err) =>
+        logger.error(s"Failed in UpdateDataSet for key $key")
+        logger.error(err.getMessage)
+        throw InternalException(err.getMessage)
     }
   }
 

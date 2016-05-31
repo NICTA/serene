@@ -15,21 +15,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher
+package au.csiro.data61.matcher.api
 
 import java.io.FileInputStream
 
 import au.csiro.data61.matcher.DataSetTypes._
+import au.csiro.data61.matcher._
 import com.twitter.finagle.http.exp.Multipart
 import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpload}
 import io.finch._
 import org.json4s.jackson.JsonMethods._
-import io.finch.json4s._
-
-import scala.util.{Failure, Success, Try}
 
 import scala.language.postfixOps
-import shapeless._
+import scala.util.{Failure, Success, Try}
+
 /**
  * Dataset REST endpoints...
  *
@@ -84,9 +83,9 @@ object DatasetRestAPI extends RestAPI {
           val ds = MatcherInterface.createDataset(req)
           Ok(ds)
         case Some(InMemoryFileUpload(_, _, _, _))=>
-          throw InternalException("Can't deal with in memory!!")
+          InternalServerError(InternalException("Can't deal with in memory!!"))
         case _ =>
-          throw BadRequestException("File missing from multipart form request.")
+          BadRequest(BadRequestException("File missing from multipart form request."))
       }
   }
 
@@ -101,7 +100,7 @@ object DatasetRestAPI extends RestAPI {
         case Some(ds) =>
           Ok(ds)
         case _ =>
-          throw BadRequestException(s"Dataset $id does not exist.")
+          BadRequest(BadRequestException(s"Dataset $id does not exist."))
       }
   }
 
@@ -126,21 +125,28 @@ object DatasetRestAPI extends RestAPI {
     (id: Int, desc: Option[String], typeMap: Option[String], contentType: String) =>
 
       if (!contentType.contains("x-www-form-urlencoded")) {
-        throw BadRequestException("Request error. PATCH request requires x-www-form-urlencoded header.")
-      }
 
-      val typeMapOption = for {
-        str <- typeMap
-        tm <- Try { parse(str).extract[TypeMap] } toOption
-      } yield tm
+        BadRequest(BadRequestException("Request error. PATCH request requires x-www-form-urlencoded header."))
 
-      Try {
-        MatcherInterface.updateDataset(id, desc, typeMapOption)
-      } match {
-        case Success(ds) =>
-          Ok(ds)
-        case Failure(err) =>
-          throw BadRequestException(s"Failed to update dataset $id: ${err.getMessage}")
+      } else {
+
+        (if (typeMap.isEmpty) {
+          // here we can simply call the update method...
+          Try { MatcherInterface.updateDataset(id, desc, None) }
+        } else {
+          // here we can potentially fail parsing the typemap OR
+          // in the update dataset...
+          for {
+            tm <- Try { parse(typeMap.get).extract[TypeMap] }
+            ds <- Try { MatcherInterface.updateDataset(id, desc, Some(tm)) }
+          } yield ds
+        })
+        match {
+          case Success(ds) =>
+            Ok(ds)
+          case Failure(err) =>
+            BadRequest(BadRequestException(s"Failed to update dataset $id: ${err.getMessage}"))
+        }
       }
   }
 
@@ -155,9 +161,9 @@ object DatasetRestAPI extends RestAPI {
         case Success(Some(_)) =>
           Ok(s"Dataset $id deleted successfully.")
         case Success(None) =>
-          throw NotFoundException(s"Dataset $id could not be found")
+          NotFound(new Exception(s"Dataset $id could not be found"))
         case Failure(err) =>
-          throw InternalException(s"Failed to delete resource: ${err.getMessage}")
+          InternalServerError(new Exception(s"Failed to delete resource: ${err.getMessage}"))
       }
   }
 
