@@ -130,17 +130,16 @@ object DatasetRestAPI extends RestAPI {
 
       } else {
 
-        (if (typeMap.isEmpty) {
-          // here we can simply call the update method...
-          Try { MatcherInterface.updateDataset(id, desc, None) }
-        } else {
-          // here we can potentially fail parsing the typemap OR
-          // in the update dataset...
-          for {
-            tm <- Try { parse(typeMap.get).extract[TypeMap] }
-            ds <- Try { MatcherInterface.updateDataset(id, desc, Some(tm)) }
-          } yield ds
-        })
+        // here we can potentially fail parsing the typemap OR
+        // in the update dataset...
+        (for {
+          tm <- Try {
+            typeMap.map(parse(_).extract[TypeMap])
+          }
+          ds <- Try {
+            MatcherInterface.updateDataset(id, desc, tm)
+          }
+        } yield ds)
         match {
           case Success(ds) =>
             Ok(ds)
