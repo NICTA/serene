@@ -35,7 +35,7 @@ import scala.util.{Failure, Success, Try}
  *  GET    /v1.0/dataset
  *  POST   /v1.0/dataset      -- file (binary), description (string), typeMap (obj(string->string))
  *  GET    /v1.0/dataset/:id
- *  PATCH  /v1.0/dataset/:id  -- description (string), typeMap (obj(string->string))
+ *  POST   /v1.0/dataset/:id  -- description (string), typeMap (obj(string->string))
  *  DELETE /v1.0/dataset/:id
  */
 object DatasetRestAPI extends RestAPI {
@@ -100,7 +100,7 @@ object DatasetRestAPI extends RestAPI {
         case Some(ds) =>
           Ok(ds)
         case _ =>
-          BadRequest(BadRequestException(s"Dataset $id does not exist."))
+          NotFound(NotFoundException(s"Dataset $id does not exist."))
       }
   }
 
@@ -109,10 +109,11 @@ object DatasetRestAPI extends RestAPI {
    *
    * WARNING: The multipart form patch cannot be handled by Finagle???
    * Instead a data binary request must be sent with x-application-form???
+   * And must be set as a post due to lack of request builders????
    *
    * Returns a JSON DataSet object at id
    *
-   * curl -X PATCH -d 'description=This is the new description'
+   * curl -X POST -d 'description=This is the new description'
    * http://localhost:8080/v1.0/dataset/12354687
    */
   val datasetPatchOptions =
@@ -120,7 +121,7 @@ object DatasetRestAPI extends RestAPI {
       paramOption("typeMap") ::
       header("Content-Type")
 
-  val datasetPatch: Endpoint[DataSet] = patch(APIVersion :: "dataset" :: int :: datasetPatchOptions) {
+  val datasetPatch: Endpoint[DataSet] = post(APIVersion :: "dataset" :: int :: datasetPatchOptions) {
 
     (id: Int, desc: Option[String], typeMap: Option[String], contentType: String) =>
 
@@ -144,7 +145,7 @@ object DatasetRestAPI extends RestAPI {
           case Success(ds) =>
             Ok(ds)
           case Failure(err) =>
-            BadRequest(BadRequestException(s"Failed to update dataset $id: ${err.getMessage}"))
+            InternalServerError(InternalException(err.getMessage))
         }
       }
   }
@@ -158,11 +159,14 @@ object DatasetRestAPI extends RestAPI {
     (id: Int) =>
       Try(MatcherInterface.deleteDataset(id)) match {
         case Success(Some(_)) =>
+          logger.debug(s"Deleted dataset $id")
           Ok(s"Dataset $id deleted successfully.")
         case Success(None) =>
-          NotFound(new Exception(s"Dataset $id could not be found"))
+          logger.debug(s"Could not find dataset $id")
+          NotFound(NotFoundException(s"Dataset $id could not be found"))
         case Failure(err) =>
-          InternalServerError(new Exception(s"Failed to delete resource: ${err.getMessage}"))
+          logger.debug(s"Some other problem with deleting...")
+          InternalServerError(InternalException(s"Failed to delete resource: ${err.getMessage}"))
       }
   }
 

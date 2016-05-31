@@ -52,7 +52,7 @@ object Matcher extends LazyLogging with MatcherJsonFormats {
       NotFound(e)
     case e: Exception =>
       logger.error(s"Error: ${e.getMessage}")
-      NotFound(e)
+      InternalServerError(e)
   }
 
   def defaultServer: ListeningServer = Http.serve(Address, restAPI.toService)

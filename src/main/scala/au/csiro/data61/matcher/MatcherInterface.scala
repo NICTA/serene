@@ -81,7 +81,7 @@ object MatcherInterface extends LazyLogging {
       _ <- StorageLayer.addDataSet(id, ds)
     } yield ds
 
-    dataSet getOrElse { throw new Exception(s"Failed to create resource $id") }
+    dataSet getOrElse { throw InternalException(s"Failed to create resource $id") }
   }
 
   def datasetKeys: List[DataSetID] = {
