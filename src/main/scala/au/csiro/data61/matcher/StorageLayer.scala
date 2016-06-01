@@ -143,9 +143,7 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
    * Internal functions...
    */
 
-  protected val StorageDir = "/tmp/junk"
-
-  //protected val DefaultSampleSize = 15
+  protected val StorageDir = Config.StoragePath
 
   protected var datasets = findDataSets.map(ds => ds.id -> ds).toMap
 

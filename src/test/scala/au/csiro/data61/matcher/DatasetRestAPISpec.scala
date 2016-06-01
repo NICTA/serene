@@ -19,12 +19,11 @@ package au.csiro.data61.matcher
 
 import java.io.File
 
-import com.twitter.finagle.Http
-import com.twitter.finagle.http
+import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 
 import com.twitter.io.Reader
-import com.twitter.util.{Await, Closable}
+import com.twitter.util.Await
 import org.junit.runner.RunWith
 
 import org.scalatest.FunSuite
@@ -38,35 +37,14 @@ import scala.util.{Failure, Success, Try, Random}
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
-import DatasetRestAPI._
 
-/**
- * This launches a test server on localhost...
- */
-class TestServer {
 
-  val server = Matcher.defaultServer
-  val client = Http.newService(Matcher.Address)
+@RunWith(classOf[JUnitRunner])
+class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats {
 
-  val JsonHeader = "application/json;charset=utf-8"
+  import DatasetRestAPI._
 
-  def fullUrl(path: String): String = s"http://${Matcher.Address}$path"
-
-  def get(path: String): Response = {
-    val request = http.Request(http.Method.Get, path)
-    Await.result(client(request))
-  }
-
-  /**
-   * Helper function to build a delete request
-   *
-   * @param path URL of the endpoint to delete
-   * @return
-   */
-  def delete(path: String): Response = {
-    val request = http.Request(http.Method.Delete, path)
-    Await.result(client(request))
-  }
+  val Resource = getClass.getResource("/medium.csv").getPath
 
   /**
    * Posts a request to build a dataset, then returns the DataSet object it created
@@ -77,38 +55,24 @@ class TestServer {
    * @param description Description line to add to the file.
    * @return DataSet that was constructed
    */
-  def postAndReturn(file: String, typeMap: String, description: String): Try[DataSet] = {
+  def postAndReturn(server: TestServer, file: String, typeMap: String, description: String): Try[DataSet] = {
 
     Try {
       val content = Await.result(Reader.readAll(Reader.fromFile(new File(file))))
 
-      val request = RequestBuilder().url(fullUrl(s"/$APIVersion/dataset"))
+      val request = RequestBuilder().url(server.fullUrl(s"/$APIVersion/dataset"))
         .addFormElement("description" -> description)
         .addFormElement("typeMap" -> typeMap)
         .add(FileElement("file", content, None, Some(typeMap)))
         .buildFormPost(multipart = true)
 
-      val response = Await.result(client(request))
+      val response = Await.result(server.client(request))
 
       parse(response.contentString).extract[DataSet]
     }
   }
 
-  /**
-   * Close the server and client after each test
-   */
-  def assertClose(): Unit = {
-    Closable.all(server, client).close()
-  }
-}
 
-
-@RunWith(classOf[JUnitRunner])
-class DatasetRestAPITest extends FunSuite with MatcherJsonFormats {
-
-  import DatasetRestAPI._
-
-  val Resource = getClass.getResource("/medium.csv").getPath
 
   test("version number is 1.0") {
     assert(APIVersion === "v1.0")
@@ -180,7 +144,7 @@ class DatasetRestAPITest extends FunSuite with MatcherJsonFormats {
 
   test("POST /v1.0/dataset appears in dataset list") (new TestServer {
     try {
-      postAndReturn(Resource, "{}", "") match {
+      postAndReturn(this, Resource, "{}", "") match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -206,7 +170,7 @@ class DatasetRestAPITest extends FunSuite with MatcherJsonFormats {
       val TypeMap = """{"w":"x", "y":"z"}"""
       val TestStr = Random.alphanumeric take 10 mkString
 
-      postAndReturn(Resource, TypeMap, TestStr) match {
+      postAndReturn(this, Resource, TypeMap, TestStr) match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -264,7 +228,7 @@ class DatasetRestAPITest extends FunSuite with MatcherJsonFormats {
       val TestStr = Random.alphanumeric take 10 mkString
       val PauseTime = 2000
 
-      postAndReturn(Resource, "{}", "") match {
+      postAndReturn(this, Resource, "{}", "") match {
         case Success(ds) =>
           // wait for the clock to tick
           Thread.sleep(PauseTime)
@@ -302,7 +266,7 @@ class DatasetRestAPITest extends FunSuite with MatcherJsonFormats {
       val TypeMap = """{"w":"x", "y":"z"}"""
       val TestStr = Random.alphanumeric take 10 mkString
 
-      postAndReturn(Resource, TypeMap, TestStr) match {
+      postAndReturn(this, Resource, TypeMap, TestStr) match {
         case Success(ds) =>
 
           // build a request to modify the dataset...

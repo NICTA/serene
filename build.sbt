@@ -1,6 +1,4 @@
 
-//lazy val scalatraVersion = "2.3.1"
-
 lazy val root = (project in file(".")).settings(
 
   organization := "au.csiro.data61",
@@ -16,10 +14,6 @@ lazy val root = (project in file(".")).settings(
   resolvers += Resolver.sonatypeRepo("snapshots"),
 
   libraryDependencies ++= Seq(
-    //"org.scalatra"                %% "scalatra"           % scalatraVersion,
-    //"org.scalatra"                %% "scalatra-scalate"   % scalatraVersion,
-    //"org.scalatra"                %% "scalatra-specs2"    % scalatraVersion    % "test",
-    //"org.scalatra"                %% "scalatra-json"      % scalatraVersion,
     "org.json4s"                  %% "json4s-jackson"     % "3.3.0",
     "org.json4s"                  %% "json4s-native"      % "3.3.0",
     "org.json4s"                  %% "json4s-ext"         % "3.3.0",
@@ -33,10 +27,9 @@ lazy val root = (project in file(".")).settings(
     ,"com.github.finagle"         %% "finch-core"         % "0.10.0"
     ,"com.github.finagle"         %% "finch-json4s"       % "0.10.0"
     ,"com.github.finagle"         %% "finch-test"         % "0.10.0"
-
     ,"com.twitter"                %% "finagle-http"       % "6.35.0"
     ,"junit"                      %  "junit"              % "4.12"
-
-
+    ,"com.typesafe"               %  "config"             % "1.3.0"
   )
+
 ).settings(jetty(): _*)

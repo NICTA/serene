@@ -45,9 +45,9 @@ object DatasetRestAPI extends RestAPI {
    *
    * curl http://localhost:8080/v1.0/dataset
    */
-  val datasetRoot: Endpoint[List[Int]] = get(APIVersion :: "dataset")({
+  val datasetRoot: Endpoint[List[Int]] = get(APIVersion :: "dataset") {
     Ok(MatcherInterface.datasetKeys)
-  })
+  }
 
   /**
    * Adds a new dataset with a description and a user-specified logical typemap.

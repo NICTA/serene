@@ -31,7 +31,7 @@ import api._
 
 object Matcher extends LazyLogging with MatcherJsonFormats {
 
-  val Address = "0.0.0.0:8080"
+  val Address = Config.ServerAddress
 
   val components =
     DatasetRestAPI.endpoints :+:
