@@ -195,6 +195,38 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats {
     }
   })
 
+  test("GET /v1.0/dataset/id?samples=4 responds Ok(200)") (new TestServer {
+    try {
+      val TypeMap = """{"w":"x", "y":"z"}"""
+      val TestStr = Random.alphanumeric take 10 mkString
+      val SampleLength = 4
+
+      postAndReturn(this, Resource, TypeMap, TestStr) match {
+        case Success(ds) =>
+
+          // build a request to modify the dataset...
+          val response = get(s"/$APIVersion/dataset/${ds.id}?samples=$SampleLength")
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // ensure that the data is correct...
+          val returnedDS = parse(response.contentString).extract[DataSet]
+          assert(returnedDS.description === ds.description)
+          assert(returnedDS.description === TestStr)
+          assert(returnedDS.columns.head.sample.length == SampleLength)
+          assert(returnedDS.dateCreated === ds.dateCreated)
+          assert(returnedDS.dateModified === ds.dateModified)
+          assert(returnedDS.typeMap === ds.typeMap)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      assertClose()
+    }
+  })
+
   test("GET /v1.0/dataset/id missing id returns NotFound(404)") (new TestServer {
     try {
       // Attempt to grab a dataset at zero. This should be

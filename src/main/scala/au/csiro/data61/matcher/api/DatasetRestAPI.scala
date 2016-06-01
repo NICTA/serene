@@ -94,13 +94,34 @@ object DatasetRestAPI extends RestAPI {
    *
    * curl http://localhost:8080/v1.0/dataset/12354687
    */
-  val datasetGet: Endpoint[DataSet] = get(APIVersion :: "dataset" :: int) {
-    (id: Int) =>
-      MatcherInterface.getDataSet(id) match {
-        case Some(ds) =>
+  val datasetGet: Endpoint[DataSet] = get(APIVersion :: "dataset" :: int :: paramOption("samples")) {
+    (id: Int, samples: Option[String]) =>
+
+      val dataset = for {
+        sc <- Try(samples.map(_.toInt))
+        ds <- Try(MatcherInterface.getDataSet(id, sc))
+      } yield ds
+
+
+//      val sampleCount = for {
+//        sc <- samples
+//        si <- Try(sc.toInt).toOption
+//      } yield si
+//
+//
+//      val dataset = (for {
+//        s <- samples
+//        si <- Try(s.toInt).toOption
+//        ds <- MatcherInterface.getDataSet(id, sampleCount)
+//      } yield ds)
+      //MatcherInterface.getDataSet(id)
+      dataset match {
+        case Success(Some(ds))  =>
           Ok(ds)
-        case _ =>
+        case Success(None) =>
           NotFound(NotFoundException(s"Dataset $id does not exist."))
+        case Failure(err) =>
+          BadRequest(BadRequestException(err.getMessage))
       }
   }
 

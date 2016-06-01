@@ -94,8 +94,14 @@ object MatcherInterface extends LazyLogging {
    * @param id The dataset id
    * @return
    */
-  def getDataSet(id: DataSetID): Option[DataSet] = {
-    StorageLayer.getDataSet(id)
+  def getDataSet(id: DataSetID, colSize: Option[Int]): Option[DataSet] = {
+    if (colSize.isEmpty) {
+      StorageLayer.getDataSet(id)
+    } else {
+      StorageLayer.getDataSet(id).map(ds =>
+        ds.copy(columns = getColumns(ds.path, ds.id, ds.typeMap, colSize.get))
+      )
+    }
   }
 
   /**
@@ -167,20 +173,26 @@ object MatcherInterface extends LazyLogging {
                            typeMap: TypeMap,
                            n: Int = DefaultSampleSize,
                            headerLines: Int = 1): List[Column[Any]] = {
-
-    // generate random samples...
-    val rnd = new scala.util.Random(0)
-    def genSample(col: List[Any]) = Array.fill(n)(col(rnd.nextInt(col.size)))
-
     // TODO: Get this out of memory!
     val csv = CSVReader.open(filePath.toFile)
     val columns = csv.all.transpose
     val headers = columns.map(_.take(headerLines).mkString("_"))
     val data = columns.map(_.drop(headerLines))
+    val size = columns.headOption.map(_.size).getOrElse(0)
 
+    // generate random samples...
+    val rnd = new scala.util.Random(0)
+
+    // we create a set of random indices that will be consistent across the
+    // columns in the dataset.
+    val indices = Array.fill(n)(rnd.nextInt(size))
+
+    // now we recombine with the headers and an index to create the
+    // set of column objects...
     (headers zip data).zipWithIndex.map { case ((header, col), i) =>
 
       val logicalType = typeMap.get(header).flatMap(LogicalType.lookup)
+      val typedData = retypeData(col, logicalType)
 
       Column[Any](
         i,
@@ -189,7 +201,7 @@ object MatcherInterface extends LazyLogging {
         genID,
         col.size,
         dataSetID,
-        genSample(retypeData(col, logicalType)).toList,
+        indices.map(typedData(_)).toList,
         logicalType getOrElse LogicalType.STRING)
     }
   }
