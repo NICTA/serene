@@ -169,7 +169,7 @@ GET https://dataint.io/v1.0/model/87698465/labelData/67464
 # }
 
 
-UPDATE https://dataint.io/v1.0/model/87698465/labelData/67464
+PUT https://dataint.io/v1.0/model/87698465/labelData/67464
 #
 # Validation: use this to discard the old label dataset
 #
@@ -193,7 +193,7 @@ UPDATE https://dataint.io/v1.0/model/87698465/labelData/67464
 # Returns: same as GET/<id> above
 
 
-POST https://dataint.io/v1.0/model/87698465/labelData/67464/update
+PATCH https://dataint.io/v1.0/model/87698465/labelData/67464
 #
 # Validation: Use this to keep the old label dataset
 #
