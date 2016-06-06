@@ -17,7 +17,7 @@
  */
 package au.csiro.data61.matcher.api
 
-import au.csiro.data61.matcher.MatcherJsonFormats
+import au.csiro.data61.matcher.types.MatcherJsonFormats
 import com.typesafe.scalalogging.LazyLogging
 import io.finch._
 

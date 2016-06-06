@@ -19,6 +19,7 @@ package au.csiro.data61.matcher
 
 import java.io.File
 
+import au.csiro.data61.matcher.types.{MatcherJsonFormats, DataSet}
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 
@@ -37,8 +38,9 @@ import scala.util.{Failure, Success, Try, Random}
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
-
-
+/**
+ * Tests for the Dataset REST endpoint API
+ */
 @RunWith(classOf[JUnitRunner])
 class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats {
 
@@ -71,8 +73,6 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats {
       parse(response.contentString).extract[DataSet]
     }
   }
-
-
 
   test("version number is 1.0") {
     assert(APIVersion === "v1.0")

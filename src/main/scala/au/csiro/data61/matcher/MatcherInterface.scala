@@ -19,6 +19,7 @@ package au.csiro.data61.matcher
 
 import java.nio.file.Path
 
+import au.csiro.data61.matcher.types.{DataSet, Column, LogicalType, DataSetTypes}
 import DataSetTypes._
 import au.csiro.data61.matcher.api.{InternalException, ParseException}
 import com.github.tototoshi.csv.CSVReader

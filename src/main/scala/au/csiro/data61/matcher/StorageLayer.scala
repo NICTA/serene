@@ -21,6 +21,7 @@ import java.io.{InputStream, FileInputStream, File}
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Path, Files, Paths, StandardCopyOption}
 
+import au.csiro.data61.matcher.types.{MatcherJsonFormats, DataSet, DataSetTypes}
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 
@@ -71,6 +72,7 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
 
   /**
    * Add a new dataset to the storage layer
+ *
    * @param id ID to give to the element
    * @param ds DataSet object
    * @return ID of the resource created (if any)
@@ -87,6 +89,7 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
 
   /**
    * Update the dataset id in the storage layer
+ *
    * @param id ID to give to the element
    * @param ds DataSet object
    * @return ID of the resource created (if any)
@@ -127,6 +130,7 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
 
   /**
    * Returns the dataset object at location id
+ *
    * @param id The key for the dataset
    * @return Resource if available
    */

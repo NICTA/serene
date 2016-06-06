@@ -20,6 +20,7 @@ package au.csiro.data61.matcher
 import java.io.InputStream
 import javax.servlet.http.{HttpServletRequest, Part}
 
+import au.csiro.data61.matcher.types.DataSetTypes
 import DataSetTypes._
 import org.json4s.jackson.JsonMethods._
 import org.json4s.{DefaultFormats, Formats}

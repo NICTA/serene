@@ -15,14 +15,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher
+package au.csiro.data61.matcher.types
 
-import java.nio.file.{Paths, Path}
+import java.nio.file.{Path, Paths}
 
-import ColumnTypes._
-import DataSetTypes._
+import au.csiro.data61.matcher.types.ColumnTypes._
+import au.csiro.data61.matcher.types.DataSetTypes._
 import org.joda.time.DateTime
-
 import org.json4s._
 
 /**

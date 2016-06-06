@@ -19,7 +19,8 @@ package au.csiro.data61.matcher.api
 
 import java.io.FileInputStream
 
-import au.csiro.data61.matcher.DataSetTypes._
+import au.csiro.data61.matcher.types.{DataSet, DataSetTypes}
+import DataSetTypes._
 import au.csiro.data61.matcher._
 import com.twitter.finagle.http.exp.Multipart
 import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpload}
@@ -102,19 +103,6 @@ object DatasetRestAPI extends RestAPI {
         ds <- Try(MatcherInterface.getDataSet(id, sc))
       } yield ds
 
-
-//      val sampleCount = for {
-//        sc <- samples
-//        si <- Try(sc.toInt).toOption
-//      } yield si
-//
-//
-//      val dataset = (for {
-//        s <- samples
-//        si <- Try(s.toInt).toOption
-//        ds <- MatcherInterface.getDataSet(id, sampleCount)
-//      } yield ds)
-      //MatcherInterface.getDataSet(id)
       dataset match {
         case Success(Some(ds))  =>
           Ok(ds)

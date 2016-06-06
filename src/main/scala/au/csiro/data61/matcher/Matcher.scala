@@ -18,6 +18,7 @@
 package au.csiro.data61.matcher
 
 import au.csiro.data61.matcher.api.{RestAPI, DatasetRestAPI}
+import au.csiro.data61.matcher.types.{MatcherJsonFormats, Message}
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.language.postfixOps
