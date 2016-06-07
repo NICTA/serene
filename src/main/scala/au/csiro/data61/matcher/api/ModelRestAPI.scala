@@ -17,8 +17,7 @@
  */
 package au.csiro.data61.matcher.api
 
-import au.csiro.data61.matcher.types.ModelType.RANDOM_FOREST
-import au.csiro.data61.matcher.types.SamplingStrategy._
+import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher._
 import io.finch._
 import org.json4s.jackson.JsonMethods._
@@ -27,6 +26,8 @@ import types._
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
+
+
 
 /**
  *  Model REST endpoints...
@@ -42,10 +43,11 @@ object ModelRestAPI extends RestAPI {
 
   val TestModel = Model(
     description = "This is a model description",
+    id = 0,
     modelType = ModelType.RANDOM_FOREST,
     labels = List("name", "address", "phone", "flight"),
     features = List(Feature.IS_ALPHA, Feature.NUM_ALPHA, Feature.NUM_CHARS),
-    training = KFold(10),
+    training = KFold(0),
     costMatrix = List(
       List(1,0,0,0),
       List(0,1,0,0),
@@ -53,13 +55,14 @@ object ModelRestAPI extends RestAPI {
       List(0,0,0,1)),
     resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN
   )
+
   /**
    * Returns all model ids
    *
    * curl http://localhost:8080/v1.0/model
    */
-  val modelRoot: Endpoint[List[Int]] = get(APIVersion :: "model") {
-    Ok(List(1, 2, 3, 4))
+  val modelRoot: Endpoint[List[ModelID]] = get(APIVersion :: "model") {
+    Ok(MatcherInterface.modelKeys)
   }
 
   /**
@@ -85,13 +88,12 @@ object ModelRestAPI extends RestAPI {
       val model = for {
         description <- Try {
           (raw \ "description")
-            .extract[String]
+            .extractOpt[String]
         }
         modelType <- Try {
           (raw \ "modelType")
             .extractOpt[String]
             .flatMap(ModelType.lookup)
-            .getOrElse(RANDOM_FOREST)
         }
         labels <- Try {
           (raw \ "labels")
@@ -105,20 +107,17 @@ object ModelRestAPI extends RestAPI {
         training <- Try {
           (raw \ "training")
             .extractOpt[KFold]
-            .getOrElse(KFold(10))
         }
         costMatrix <- Try {
           (raw \ "costMatrix")
             .extractOpt[List[List[Double]]]
-            .getOrElse(List())
         }
         resamplingStrategy <- Try {
           (raw \ "resamplingStrategy")
             .extractOpt[String]
             .flatMap(SamplingStrategy.lookup)
-            .getOrElse(RESAMPLE_TO_MEAN)
         }
-      } yield Model(
+      } yield ModelRequest(
         description,
         modelType,
         labels,
@@ -128,9 +127,15 @@ object ModelRestAPI extends RestAPI {
         resamplingStrategy
       )
 
-      model match {
-        case Success(m) =>
-          Ok(m)
+      (for {
+        request <- model
+        m <- Try { MatcherInterface.createModel(request) }
+      } yield m)
+      match {
+        case Success(mod) =>
+          Ok(mod)
+        case Failure(err: InternalException) =>
+          InternalServerError(InternalException(err.getMessage))
         case Failure(err) =>
           BadRequest(BadRequestException(err.getMessage))
       }

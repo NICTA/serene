@@ -19,7 +19,8 @@ package au.csiro.data61.matcher
 
 import java.nio.file.Path
 
-import au.csiro.data61.matcher.types.{DataSet, Column, LogicalType, DataSetTypes}
+import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
+import au.csiro.data61.matcher.types._
 import DataSetTypes._
 import au.csiro.data61.matcher.api.{InternalException, ParseException}
 import com.github.tototoshi.csv.CSVReader
@@ -47,6 +48,32 @@ object MatcherInterface extends LazyLogging {
   val MissingValue = "unknown"
 
   val DefaultSampleSize = 15
+
+  def createModel(request: ModelRequest): Model = {
+
+    val id = genID
+
+    // build the model from the request, adding defaults where necessary
+    val modelOpt = for {
+
+        model <- Try {
+          Model(
+            id = id,
+            description = request.description.getOrElse(MissingValue),
+            modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
+            labels = request.labels,
+            features = request.features,
+            training = request.training.getOrElse(KFold(1)),
+            costMatrix = request.costMatrix.getOrElse(List()),
+            resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN))
+        } toOption
+
+        _ <- StorageLayer.addModel(id, model)
+
+      } yield model
+
+    modelOpt getOrElse { throw InternalException("Failed to create resource.") }
+  }
 
   /**
    * Parses a servlet request to get a dataset object
@@ -86,9 +113,12 @@ object MatcherInterface extends LazyLogging {
   }
 
   def datasetKeys: List[DataSetID] = {
-    StorageLayer.keys
+    StorageLayer.datasetKeys
   }
 
+  def modelKeys: List[ModelID] = {
+    StorageLayer.modelKeys
+  }
   /**
    * Returns the public facing dataset from the storage layer
    *
@@ -116,7 +146,7 @@ object MatcherInterface extends LazyLogging {
    */
   def updateDataset(key: DataSetID, description: Option[String], typeMap: Option[TypeMap]): DataSet = {
 
-    if (!StorageLayer.keys.contains(key)) {
+    if (!StorageLayer.datasetKeys.contains(key)) {
       throw ParseException(s"Dataset $key does not exist")
     }
 

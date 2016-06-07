@@ -36,6 +36,7 @@ object Matcher extends LazyLogging with MatcherJsonFormats {
 
   val components =
     DatasetRestAPI.endpoints :+:
+      ModelRestAPI.endpoints :+:
       TestRestAPI.endpoints
 
   val restAPI = components.handle {
@@ -71,8 +72,8 @@ object TestRestAPI extends RestAPI {
     Ok(Message("hello", "asdf"))
   }
 
-  val qwer: Endpoint[Message] = get(APIVersion :: "qwer") {
-    Ok(Message("hello", "qwer"))
+  val qwer: Endpoint[Message] = get(APIVersion) {
+    Ok(Message("hello", "world"))
   }
 
   val endpoints = asdf :+: qwer

@@ -21,6 +21,7 @@ import java.io.{InputStream, FileInputStream, File}
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Path, Files, Paths, StandardCopyOption}
 
+import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher.types.{MatcherJsonFormats, DataSet, DataSetTypes}
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
@@ -52,7 +53,7 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
    */
   def addFile(id: DataSetID, stream: InputStream): Option[Path] = {
 
-    val outputPath = Paths.get(StorageDir, s"$id", s"$id.txt")
+    val outputPath = Paths.get(DatasetDir, s"$id", s"$id.txt")
 
     Try {
       // ensure that the directories exist...
@@ -86,6 +87,24 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
       id
     } toOption
   }
+
+  /**
+   * Add a new model to the storage layer
+   *
+   * @param id ID to give to the element
+   * @param model Model object
+   * @return ID of the resource created (if any)
+   */
+  def addModel(id: DataSetID, model: Model): Option[ModelID] = {
+    Try {
+      synchronized {
+        writeModelToFile(model)
+        models += (id -> model)
+      }
+      id
+    } toOption
+  }
+
 
   /**
    * Update the dataset id in the storage layer
@@ -138,18 +157,23 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
     datasets.get(id)
   }
 
-  def keys: List[DataSetID] = {
+  def datasetKeys: List[DataSetID] = {
     datasets.keys.toList
   }
 
+  def modelKeys: List[ModelID] = {
+    models.keys.toList
+  }
 
   /**
    * Internal functions...
    */
 
-  protected val StorageDir = Config.StoragePath
+  protected val DatasetDir = Paths.get(Config.StoragePath, Config.DatasetDir).toString
+  protected val ModelDir = Paths.get(Config.StoragePath, Config.ModelDir).toString
 
   protected var datasets = findDataSets.map(ds => ds.id -> ds).toMap
+  protected var models = findModels.map(m => m.id -> m).toMap
 
   protected def toIntOption(s: String): Option[Int] = {
     Try(s.toInt).toOption
@@ -161,10 +185,22 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
    * @return
    */
   protected def findDataSets: List[DataSet] = {
-    listDirectories(StorageDir)
+    listDirectories(DatasetDir)
       .flatMap(toIntOption)
-      .map(getMetaPath)
+      .map(getDataSetPath)
       .flatMap(readDataSetFromFile)
+  }
+
+  /**
+   * Attempts to read all the models out from the storage dir
+   *
+   * @return
+   */
+  protected def findModels: List[Model] = {
+    listDirectories(ModelDir)
+      .flatMap(toIntOption)
+      .map(getDataSetPath)
+      .flatMap(readModelFromFile)
   }
 
   /**
@@ -181,7 +217,7 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
           .map(_.getName)
           .toList
       case _ =>
-        logger.error(s"Failed to open dir $StorageDir")
+        logger.error(s"Failed to open dir $rootDir")
         List.empty[String]
     }
   }
@@ -192,8 +228,18 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
    * @param id The ID for the DataSet
    * @return
    */
-  protected def getMetaPath(id: DataSetID): Path = {
-    Paths.get(StorageDir, s"$id", s"$id.json")
+  protected def getDataSetPath(id: DataSetID): Path = {
+    Paths.get(DatasetDir, s"$id", s"$id.json")
+  }
+
+  /**
+   * Returns the location of the JSON metadata file for Model id
+   *
+   * @param id The ID for the Model
+   * @return
+   */
+  protected def getModelPath(id: ModelID): Path = {
+    Paths.get(ModelDir, s"$id", s"$id.json")
   }
 
   /**
@@ -217,6 +263,26 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
   }
 
   /**
+   * Attempts to read a JSON file and convert it into a Model
+   * using the JSON reader.
+   *
+   * @param path Location of the JSON metadata file
+   * @return
+   */
+  protected def readModelFromFile(path: Path): Option[Model] = {
+    Try {
+      val stream = new FileInputStream(path.toFile)
+      parse(stream).extract[Model]
+    } match {
+      case Success(model) =>
+        Some(model)
+      case Failure(err) =>
+        logger.warn(s"Failed to read file: ${err.getMessage}")
+        None
+    }
+  }
+
+  /**
    * Writes the dataset ds to disk as a serialized json string
    * at a pre-defined location based on the id.
    *
@@ -226,11 +292,41 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
 
     val str = compact(Extraction.decompose(ds))
 
+    val outputPath = getDataSetPath(ds.id)
+
+    // ensure that the directories exist...
+    val dir = outputPath.toFile.getParentFile
+
+    if (!dir.exists) dir.mkdirs
+
     // write the dataset to the file system
     Files.write(
-      getMetaPath(ds.id),
+      outputPath,
       str.getBytes(StandardCharsets.UTF_8)
     )
   }
 
+  /**
+   * Writes the model to disk as a serialized json string
+   * at a pre-defined location based on the id.
+   *
+   * @param model The model to write to disk
+   */
+  protected def writeModelToFile(model: Model): Unit = {
+
+    val str = compact(Extraction.decompose(model))
+
+    val outputPath = getModelPath(model.id)
+
+    // ensure that the directories exist...
+    val dir = outputPath.toFile.getParentFile
+
+    if (!dir.exists) dir.mkdirs
+
+    // write the dataset to the file system
+    Files.write(
+      outputPath,
+      str.getBytes(StandardCharsets.UTF_8)
+    )
+  }
 }

@@ -17,16 +17,22 @@
  */
 package au.csiro.data61.matcher.types
 
+import org.json4s._
 
-case class Model(
-  description: String,
-  modelType: ModelType,
-  labels: List[String],
-  features: List[Feature],
-  training: KFold,
-  costMatrix: List[List[Double]],
-  resamplingStrategy: SamplingStrategy
-)
+object ModelTypes {
+
+  case class Model(description: String,
+                   id: ModelID,
+                   modelType: ModelType,
+                   labels: List[String],
+                   features: List[Feature],
+                   training: KFold,
+                   costMatrix: List[List[Double]],
+                   resamplingStrategy: SamplingStrategy)
+
+  type ModelID = Int
+}
+
 
 /**
  * Enumerated type for the Model type used
@@ -45,6 +51,19 @@ object ModelType {
     values.find(_.str == str)
   }
 }
+
+case object ModelTypeSerializer extends CustomSerializer[ModelType](format => (
+  {
+    case jv: JValue =>
+      implicit val formats = DefaultFormats
+      val str = jv.extract[String]
+      val mt = ModelType.lookup(str)
+      mt getOrElse (throw new Exception("Failed to parse ModelType"))
+  }, {
+  case mt: ModelType =>
+    JString(mt.str)
+}))
+
 
 /**
  * Enumerated type for the list of features
@@ -67,6 +86,19 @@ object Feature {
   }
 }
 
+case object FeatureSerializer extends CustomSerializer[Feature](format => (
+  {
+    case jv: JValue =>
+      implicit val formats = DefaultFormats
+      val str = jv.extract[String]
+      val feature = Feature.lookup(str)
+      feature getOrElse (throw new Exception("Failed to parse Feature"))
+  }, {
+  case feature: Feature =>
+    JString(feature.str)
+}))
+
+
 /**
  * Enumerated type for the sampling strategy
  */
@@ -87,6 +119,19 @@ object SamplingStrategy {
     values.find(_.str == str)
   }
 }
+
+case object SamplingStrategySerializer extends CustomSerializer[SamplingStrategy](format => (
+  {
+    case jv: JValue =>
+      implicit val formats = DefaultFormats
+      val str = jv.extract[String]
+      val samplingStrategy = SamplingStrategy.lookup(str)
+      samplingStrategy getOrElse (throw new Exception("Failed to parse SamplingStrategy"))
+  }, {
+  case samplingStrategy: SamplingStrategy =>
+    JString(samplingStrategy.str)
+}))
+
 
 
 /**

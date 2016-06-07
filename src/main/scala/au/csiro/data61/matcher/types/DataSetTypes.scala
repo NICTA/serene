@@ -157,6 +157,9 @@ trait MatcherJsonFormats {
     org.json4s.DefaultFormats ++
     org.json4s.ext.JodaTimeSerializers.all +
     LogicalTypeSerializer +
-    PathSerializer
+    PathSerializer +
+    SamplingStrategySerializer +
+    ModelTypeSerializer +
+    FeatureSerializer
 
 }

@@ -17,15 +17,17 @@
  */
 package au.csiro.data61.matcher
 
-import com.typesafe.config.ConfigFactory
+import types._
 
-object Config {
 
-  val conf = ConfigFactory.load()
+case class ModelRequest(description: Option[String],
+                        modelType: Option[ModelType],
+                        labels: List[String],
+                        features: List[Feature],
+                        training: Option[KFold],
+                        costMatrix: Option[List[List[Double]]],
+                        resamplingStrategy: Option[SamplingStrategy])
 
-  val StoragePath = conf.getString("config.output-dir")
-  val DatasetDir = conf.getString("config.output-dataset-dir")
-  val ModelDir = conf.getString("config.output-model-dir")
+object ModelParser {
 
-  val ServerAddress = conf.getString("config.server-address")
 }
