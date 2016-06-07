@@ -96,13 +96,16 @@ object ModelRestAPI extends RestAPI {
             .flatMap(ModelType.lookup)
         }
         labels <- Try {
-          (raw \ "labels")
-            .extract[List[String]]
+          val list = (raw \ "labels").extract[List[String]]
+          if (list.isEmpty) {
+            throw BadRequestException("No labels found")
+          }
+          list
         }
         features <- Try {
           (raw \ "features")
-            .extract[List[String]]
-            .flatMap(Feature.lookup)
+            .extractOpt[List[String]]
+            .map(_.map(x => Feature.lookup(x).get))
         }
         training <- Try {
           (raw \ "training")

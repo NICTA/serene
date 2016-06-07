@@ -19,6 +19,7 @@ package au.csiro.data61.matcher
 
 import java.io.File
 
+import au.csiro.data61.matcher.types.Feature.{NUM_ALPHA, NUM_CHARS, IS_ALPHA}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.matcher.types.{MatcherJsonFormats, DataSet}
 import com.twitter.finagle.http.RequestBuilder
@@ -47,31 +48,40 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats {
 
   import ModelRestAPI._
 
-//  /**
-//   * Posts a request to build a dataset, then returns the DataSet object it created
-//   * wrapped in a Try.
-//   *
-//   * @param file The location of the csv resource
-//   * @param typeMap The json string of the string->string typemap
-//   * @param description Description line to add to the file.
-//   * @return DataSet that was constructed
-//   */
-//  def postAndReturn(server: TestServer, file: String, typeMap: String, description: String): Try[DataSet] = {
-//
-//    Try {
-//      val content = Await.result(Reader.readAll(Reader.fromFile(new File(file))))
-//
-//      val request = RequestBuilder().url(server.fullUrl(s"/$APIVersion/dataset"))
-//        .addFormElement("description" -> description)
-//        .addFormElement("typeMap" -> typeMap)
-//        .add(FileElement("file", content, None, Some(typeMap)))
-//        .buildFormPost(multipart = true)
-//
-//      val response = Await.result(server.client(request))
-//
-//      parse(response.contentString).extract[DataSet]
-//    }
-//  }
+  /**
+   * Posts a request to build a model, then returns the Model object it created
+   * wrapped in a Try.
+   *
+   * @param server Test server for this request
+   * @param request The model request object
+   * @return Model that was constructed
+   */
+  def postAndReturn(server: TestServer,
+                    labels: List[String]): Try[Model] = {
+
+    Try {
+
+      val req = RequestBuilder()
+        .url(server.fullUrl(s"/$APIVersion/model"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(
+          s"""
+             |  {
+             |    "description": "asdf",
+             |    "modelType": "randomForest",
+             |    "labels": [${labels.map(x => s""""$x"""").mkString(",")}],
+             |    "features": ["isAlpha", "numChars", "numAlpha"],
+             |    "training": {"n": 10},
+             |    "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
+             |    "resamplingStrategy": "ResampleToMean"
+             |  }
+           """.stripMargin))
+
+      val response = Await.result(server.client(req))
+
+      parse(response.contentString).extract[Model]
+    }
+  }
 
   test("version number is 1.0") {
     assert(APIVersion === "v1.0")
@@ -124,48 +134,83 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats {
     }
   })
 
-//  test("POST /v1.0/dataset without file returns BadRequest(400)") (new TestServer {
-//    try {
-//
-//      val request = RequestBuilder()
-//        .url(fullUrl(s"/$APIVersion/dataset"))
-//        .addFormElement("description" -> "")
-//        .addFormElement("typeMap" -> "{}")
-//        .buildFormPost(multipart = true)
-//
-//      val response = Await.result(client(request))
-//
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.BadRequest)
-//      assert(!response.contentString.isEmpty)
-//
-//    } finally {
-//      assertClose()
-//    }
-//  })
+  test("POST /v1.0/model only labels and features required") (new TestServer {
+    try {
 
-//  test("POST /v1.0/dataset appears in dataset list") (new TestServer {
-//    try {
-//      postAndReturn(this, Resource, "{}", "") match {
-//        case Success(ds) =>
-//
-//          // build a request to modify the dataset...
-//          val response = get(s"/$APIVersion/dataset")
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // ensure that the object appears in the master list...
-//          val datasets = parse(response.contentString).extract[List[Int]]
-//          assert(datasets.contains(ds.id))
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      assertClose()
-//    }
-//  })
+      val request = RequestBuilder()
+        .url(fullUrl(s"/$APIVersion/model"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(
+          s"""
+             |  {
+             |    "labels": ["name", "address", "phone"],
+             |    "features": ["isAlpha", "numChars", "numAlpha"]
+             |  }
+           """.stripMargin))
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      val model = parse(response.contentString).extract[Model]
+
+      assert(model.labels === List("name", "address", "phone"))
+      assert(model.features === List(IS_ALPHA, NUM_CHARS, NUM_ALPHA))
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model fails if labels not present BadRequest(400)") (new TestServer {
+    try {
+
+      val request = RequestBuilder()
+        .url(fullUrl(s"/$APIVersion/model"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(
+          s"""
+             |  {
+             |    "description": "hello"
+             |  }
+           """.stripMargin))
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.BadRequest)
+      assert(!response.contentString.isEmpty)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model appears in model list") (new TestServer {
+    try {
+      val labels = List("name", "addr","asdf")
+
+      postAndReturn(this, labels) match {
+        case Success(model) =>
+
+          // build a request to modify the model...
+          val response = get(s"/$APIVersion/model")
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // ensure that the object appears in the master list...
+          val datasets = parse(response.contentString).extract[List[Int]]
+          assert(datasets.contains(model.id))
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      assertClose()
+    }
+  })
 
 //  test("GET /v1.0/dataset/id responds Ok(200)") (new TestServer {
 //    try {

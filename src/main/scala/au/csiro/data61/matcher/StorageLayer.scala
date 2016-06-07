@@ -199,7 +199,7 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
   protected def findModels: List[Model] = {
     listDirectories(ModelDir)
       .flatMap(toIntOption)
-      .map(getDataSetPath)
+      .map(getModelPath)
       .flatMap(readModelFromFile)
   }
 

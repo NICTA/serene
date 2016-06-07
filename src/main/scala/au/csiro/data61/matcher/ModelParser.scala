@@ -23,7 +23,7 @@ import types._
 case class ModelRequest(description: Option[String],
                         modelType: Option[ModelType],
                         labels: List[String],
-                        features: List[Feature],
+                        features: Option[List[Feature]],
                         training: Option[KFold],
                         costMatrix: Option[List[List[Double]]],
                         resamplingStrategy: Option[SamplingStrategy])
