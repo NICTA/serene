@@ -17,7 +17,6 @@
  */
 package au.csiro.data61.matcher.api
 
-import au.csiro.data61.matcher.api.parsers.ModelRequest
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher._
 import io.finch._

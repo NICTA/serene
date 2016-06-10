@@ -19,7 +19,7 @@ package au.csiro.data61.matcher
 
 import java.nio.file.Path
 
-import au.csiro.data61.matcher.api.parsers.{DataSetParser, DataSetRequest, ModelRequest}
+import au.csiro.data61.matcher.api.parsers.{DataSetParser, DataSetRequest}
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher.types._
 import DataSetTypes._
@@ -159,15 +159,6 @@ object MatcherInterface extends LazyLogging {
     }
   }
 
-  /**
-    * Returns the public facing model from the storage layer
-    *
-    * @param id The model id
-    * @return
-    */
-  def getModel(id: ModelID): Option[Model] = {
-    StorageLayer.getModel(id)
-  }
 
   /**
    * Updates a single dataset with id key. Note that only the typemap
