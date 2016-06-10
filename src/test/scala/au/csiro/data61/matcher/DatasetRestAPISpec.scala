@@ -25,9 +25,10 @@ import com.twitter.finagle.http._
 
 import com.twitter.io.Reader
 import com.twitter.util.Await
+import org.apache.commons.io.FileUtils
 import org.junit.runner.RunWith
 
-import org.scalatest.FunSuite
+import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
 import api._
 
@@ -42,11 +43,20 @@ import org.json4s.jackson.JsonMethods._
  * Tests for the Dataset REST endpoint API
  */
 @RunWith(classOf[JUnitRunner])
-class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats {
+class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach {
 
   import DatasetRestAPI._
 
   val Resource = getClass.getResource("/medium.csv").getPath
+
+
+  override def beforeEach() {
+    FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
+  }
+
+  override def afterEach() {
+    FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
+  }
 
   /**
    * Posts a request to build a dataset, then returns the DataSet object it created

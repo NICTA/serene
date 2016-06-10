@@ -17,6 +17,7 @@
  */
 package au.csiro.data61.matcher.types
 
+import org.joda.time.DateTime
 import org.json4s._
 
 object ModelTypes {
@@ -26,10 +27,11 @@ object ModelTypes {
                    modelType: ModelType,
                    labels: List[String],
                    features: List[Feature],
-                   training: KFold,
                    costMatrix: List[List[Double]],
-                  //labelData: Map[String, String],
-                   resamplingStrategy: SamplingStrategy)
+                   resamplingStrategy: SamplingStrategy,
+                   labelData: Map[String, String],
+                   dateCreated: DateTime,
+                   dateModified: DateTime) extends Identifiable[ModelID]
 
   type ModelID = Int
 }
@@ -141,3 +143,4 @@ case object SamplingStrategySerializer extends CustomSerializer[SamplingStrategy
  * @param n
  */
 case class KFold(n: Int)
+

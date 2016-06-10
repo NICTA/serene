@@ -17,20 +17,16 @@
  */
 package au.csiro.data61.matcher
 
-import com.nicta.dataint.data.DataModel
-import com.nicta.dataint.ingestion.loader.SemanticTypeLabelsLoader
-import com.nicta.dataint.matcher.features.FeatureSettings
-import com.nicta.dataint.matcher.train.TrainMlibSemanticTypeClassifier
-
-import types._
+import au.csiro.data61.matcher.types.{Feature, ModelType, SamplingStrategy}
 
 
 case class ModelRequest(description: Option[String],
                         modelType: Option[ModelType],
                         labels: List[String],
                         features: Option[List[Feature]],
-                        training: Option[KFold],
+                        //training: Option[KFold],
                         costMatrix: Option[List[List[Double]]],
+                        labelData: Option[Map[String, String]],
                         resamplingStrategy: Option[SamplingStrategy])
 
 object ModelParser {

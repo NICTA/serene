@@ -17,9 +17,11 @@
  */
 package au.csiro.data61.matcher.api
 
+import au.csiro.data61.matcher.api.parsers.ModelRequest
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher._
 import io.finch._
+import org.joda.time.DateTime
 import org.json4s.jackson.JsonMethods._
 
 import types._
@@ -47,13 +49,15 @@ object ModelRestAPI extends RestAPI {
     modelType = ModelType.RANDOM_FOREST,
     labels = List("name", "address", "phone", "flight"),
     features = List(Feature.IS_ALPHA, Feature.NUM_ALPHA, Feature.NUM_CHARS),
-    training = KFold(0),
     costMatrix = List(
       List(1,0,0,0),
       List(0,1,0,0),
       List(0,0,1,0),
       List(0,0,0,1)),
-    resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN
+    labelData = Map.empty[String, String],
+    resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN,
+    dateCreated = DateTime.now,
+    dateModified = DateTime.now
   )
 
   /**
@@ -107,9 +111,13 @@ object ModelRestAPI extends RestAPI {
             .extractOpt[List[String]]
             .map(_.map(x => Feature.lookup(x).get))
         }
-        training <- Try {
-          (raw \ "training")
-            .extractOpt[KFold]
+//        training <- Try {
+//          (raw \ "training")
+//            .extractOpt[KFold]
+//        }
+        labelData <- Try {
+          (raw \ "userData")
+            .extractOpt[Map[String, String]]
         }
         costMatrix <- Try {
           (raw \ "costMatrix")
@@ -127,8 +135,8 @@ object ModelRestAPI extends RestAPI {
         modelType,
         labels,
         features,
-        training,
         costMatrix,
+        labelData,
         resamplingStrategy
       )
 
@@ -151,10 +159,9 @@ object ModelRestAPI extends RestAPI {
    */
   val modelGet: Endpoint[Model] = get(APIVersion :: "model" :: int) {
     (id: Int) =>
-      val model = Try(MatcherInterface.getModel(id))
-      model match {
-        case Success(Some(m))  =>
-          Ok(m)
+      Try { MatcherInterface.getModel(id) } match {
+        case Success(Some(ds))  =>
+          Ok(ds)
         case Success(None) =>
           NotFound(NotFoundException(s"Model $id does not exist."))
         case Failure(err) =>
@@ -178,28 +185,28 @@ object ModelRestAPI extends RestAPI {
       }
   }
 
-  /**
-   * Patch a portion of a Model. Will destroy all cached models
-   */
-  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int) {
-    (id: Int) =>
-      Ok(TestModel)
-  }
-
-  /**
-   * Replace a Model. Will destroy all cached models
-   */
-  val modelPut: Endpoint[Model] = put(APIVersion :: "model" :: int) {
-    (id: Int) =>
-      Ok(TestModel)
-  }
-  /**
-   * Deletes the model at position id.
-   */
-  val modelDelete: Endpoint[String] = delete(APIVersion :: "model" :: int) {
-    (id: Int) =>
-      Ok(s"Deleted $id successfully")
-  }
+//  /**
+//   * Patch a portion of a Model. Will destroy all cached models
+//   */
+//  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int) {
+//    (id: Int) =>
+//      Ok(TestModel)
+//  }
+//
+//  /**
+//   * Replace a Model. Will destroy all cached models
+//   */
+//  val modelPut: Endpoint[Model] = put(APIVersion :: "model" :: int) {
+//    (id: Int) =>
+//      Ok(TestModel)
+//  }
+//  /**
+//   * Deletes the model at position id.
+//   */
+//  val modelDelete: Endpoint[String] = delete(APIVersion :: "model" :: int) {
+//    (id: Int) =>
+//      Ok(s"Deleted $id successfully")
+//  }
 
   /**
    * Final endpoints for the Dataset endpoint...
@@ -208,8 +215,8 @@ object ModelRestAPI extends RestAPI {
     modelRoot :+:
       modelCreate :+:
       modelGet :+:
-      modelTrain :+:
-      modelPatch :+:
-      modelPut :+:
-      modelDelete
+      modelTrain //:+:
+      //modelPatch :+:
+      //modelPut :+:
+      //modelDelete
 }

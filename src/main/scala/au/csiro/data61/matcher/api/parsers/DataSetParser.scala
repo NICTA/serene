@@ -15,19 +15,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher
+package au.csiro.data61.matcher.api.parsers
 
 import java.io.InputStream
 import javax.servlet.http.{HttpServletRequest, Part}
 
-import au.csiro.data61.matcher.types.DataSetTypes
-import DataSetTypes._
+import au.csiro.data61.matcher.types.DataSetTypes._
 import org.json4s.jackson.JsonMethods._
 import org.json4s.{DefaultFormats, Formats}
 
-import scala.util.Try
-
 import scala.language.postfixOps
+import scala.util.Try
 
 /**
  * Holds the filestream from the incoming request.
