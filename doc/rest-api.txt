@@ -1,5 +1,3 @@
-
-
 GET https://dataint.io/v1.0/dataset
 #
 # List of all datasets
@@ -208,7 +206,7 @@ PATCH https://dataint.io/v1.0/model/87698465/labelData/67464
 # Returns: New id and same as GET/<id> above
 
 
-GET https://dataint.io/v1.0/model/87698465/labelData/67464/predict
+GET https://dataint.io/v1.0/model/87698465/predict?dataset=987345
 #
 # Returns a prediction for all the raw data columns, including the scores and features
 # Params - showScores, showFeatures

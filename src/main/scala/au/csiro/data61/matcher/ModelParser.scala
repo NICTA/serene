@@ -17,6 +17,11 @@
  */
 package au.csiro.data61.matcher
 
+import com.nicta.dataint.data.DataModel
+import com.nicta.dataint.ingestion.loader.SemanticTypeLabelsLoader
+import com.nicta.dataint.matcher.features.FeatureSettings
+import com.nicta.dataint.matcher.train.TrainMlibSemanticTypeClassifier
+
 import types._
 
 
@@ -29,5 +34,20 @@ case class ModelRequest(description: Option[String],
                         resamplingStrategy: Option[SamplingStrategy])
 
 object ModelParser {
+
+//  parse with regard to Modelype
+//  conversion to dataint types will occur in the training step
+
+//  parsing step
+//  val labelsLoader = SemanticTypeLabelsLoader()
+//  val labels = labelsLoader.load(appConfig.labelsPath)
+//  val datasets = servicesConfig.dataSetRepository.getDataModels(appConfig.rawDataPath)
+//  val featuresConfig = FeatureSettings.load(appConfig.featuresConfigPath, appConfig.repoPath)
+
+// training step!
+//  val trainSettings = TrainingSettings(resamplingStrategy, featuresConfig, costMatrixConfigOption)
+//  val trainingData = new DataModel("", None, None, Some(datasets))
+//  val trainer = new TrainMlibSemanticTypeClassifier(classes, false)
+//  val randomForestSchemaMatcher = trainer.train(trainingData, labels, trainSettings, postProcessingConfig)
 
 }

@@ -28,6 +28,7 @@ object ModelTypes {
                    features: List[Feature],
                    training: KFold,
                    costMatrix: List[List[Double]],
+                  //labelData: Map[String, String],
                    resamplingStrategy: SamplingStrategy)
 
   type ModelID = Int
@@ -140,4 +141,3 @@ case object SamplingStrategySerializer extends CustomSerializer[SamplingStrategy
  * @param n
  */
 case class KFold(n: Int)
-

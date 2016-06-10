@@ -118,7 +118,9 @@ object ModelRestAPI extends RestAPI {
         resamplingStrategy <- Try {
           (raw \ "resamplingStrategy")
             .extractOpt[String]
-            .flatMap(SamplingStrategy.lookup)
+            .map(SamplingStrategy
+              .lookup(_)
+              .getOrElse(throw BadRequestException("Bad resamplingStrategy")))
         }
       } yield ModelRequest(
         description,
@@ -149,7 +151,31 @@ object ModelRestAPI extends RestAPI {
    */
   val modelGet: Endpoint[Model] = get(APIVersion :: "model" :: int) {
     (id: Int) =>
-      Ok(TestModel)
+      val model = Try(MatcherInterface.getModel(id))
+      model match {
+        case Success(Some(m))  =>
+          Ok(m)
+        case Success(None) =>
+          NotFound(NotFoundException(s"Model $id does not exist."))
+        case Failure(err) =>
+          BadRequest(BadRequestException(err.getMessage))
+      }
+  }
+
+  /**
+    * Trains a model at id
+    */
+  val modelTrain: Endpoint[String] = get(APIVersion :: "model" :: int :: "train") {
+    (id: Int) =>
+      val model = Try(MatcherInterface.getModel(id))
+      model match {
+        case Success(Some(m))  =>
+          Ok(s"Model $id has been found, but training is not yet available.")
+        case Success(None) =>
+          NotFound(NotFoundException(s"Model $id does not exist."))
+        case Failure(err) =>
+          BadRequest(BadRequestException(err.getMessage))
+      }
   }
 
   /**
@@ -182,6 +208,7 @@ object ModelRestAPI extends RestAPI {
     modelRoot :+:
       modelCreate :+:
       modelGet :+:
+      modelTrain :+:
       modelPatch :+:
       modelPut :+:
       modelDelete

@@ -1,5 +1,6 @@
 
-lazy val root = (project in file(".")).settings(
+lazy val root = (project in file("."))
+  .settings(
 
   organization := "au.csiro.data61",
 
@@ -32,6 +33,7 @@ lazy val root = (project in file(".")).settings(
     ,"com.twitter"                %% "finagle-http"       % "6.35.0"
     ,"junit"                      %  "junit"              % "4.12"
     ,"com.typesafe"               %  "config"             % "1.3.0"
+    ,"au.com.nicta"               %% "data-integration"   % "1.2.0-SNAPSHOT"
   )
 
 ).settings(jetty(): _*)

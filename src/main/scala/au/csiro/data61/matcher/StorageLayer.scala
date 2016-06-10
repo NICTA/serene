@@ -161,6 +161,10 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
     datasets.keys.toList
   }
 
+  def getModel(id: ModelID): Option[Model] = {
+    models.get(id)
+  }
+
   def modelKeys: List[ModelID] = {
     models.keys.toList
   }

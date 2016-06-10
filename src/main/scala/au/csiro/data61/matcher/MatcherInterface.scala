@@ -49,6 +49,15 @@ object MatcherInterface extends LazyLogging {
 
   val DefaultSampleSize = 15
 
+
+  /**
+    * Parses a servlet request to get a dataset object
+    * then adds to the database, and returns the case class response
+    * object.
+    *
+    * @param request Servlet POST request
+    * @return Case class object for JSON conversion
+    */
   def createModel(request: ModelRequest): Model = {
 
     val id = genID
@@ -133,6 +142,16 @@ object MatcherInterface extends LazyLogging {
         ds.copy(columns = getColumns(ds.path, ds.id, ds.typeMap, colSize.get))
       )
     }
+  }
+
+  /**
+    * Returns the public facing model from the storage layer
+    *
+    * @param id The model id
+    * @return
+    */
+  def getModel(id: ModelID): Option[Model] = {
+    StorageLayer.getModel(id)
   }
 
   /**
