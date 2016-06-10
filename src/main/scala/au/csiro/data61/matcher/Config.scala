@@ -19,13 +19,17 @@ package au.csiro.data61.matcher
 
 import com.typesafe.config.ConfigFactory
 
+/**
+ * This object loads in the configuration .conf
+ * file and parses the values into fields.
+ */
 object Config {
 
-  val conf = ConfigFactory.load()
+  private val conf = ConfigFactory.load()
 
   val StoragePath = conf.getString("config.output-dir")
-  val DatasetDir = conf.getString("config.output-dataset-dir")
-  val ModelDir = conf.getString("config.output-model-dir")
+  val DatasetStorageDir = conf.getString("config.output-dataset-dir")
+  val ModelStorageDir = conf.getString("config.output-model-dir")
 
   val ServerAddress = conf.getString("config.server-address")
 }

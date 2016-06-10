@@ -26,10 +26,14 @@ import com.twitter.util.Await
 import com.twitter.finagle.{ListeningServer, Http}
 
 import io.finch._
-import org.json4s.jackson.JsonMethods._
 import io.finch.json4s._
 import api._
 
+/**
+ * Main application object. Here we compose the endpoints
+ * and serve as a Finagle Http Service forever.
+ *
+ */
 object Matcher extends LazyLogging with MatcherJsonFormats {
 
   val Address = Config.ServerAddress

@@ -51,11 +51,11 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
 
 
   override def beforeEach() {
-    FileUtils.deleteDirectory(new File(Config.DatasetDir))
+    FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
   }
 
   override def afterEach() {
-    FileUtils.deleteDirectory(new File(Config.DatasetDir))
+    FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
   }
 
   /**

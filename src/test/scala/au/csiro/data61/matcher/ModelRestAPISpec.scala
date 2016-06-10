@@ -51,11 +51,11 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   import ModelRestAPI._
 
   override def beforeEach() {
-    FileUtils.deleteDirectory(new File(Config.DatasetDir))
+    FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
   }
 
   override def afterEach() {
-    FileUtils.deleteDirectory(new File(Config.DatasetDir))
+    FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
   }
   /**
    * Posts a request to build a model, then returns the Model object it created

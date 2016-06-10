@@ -217,7 +217,7 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
  */
 object ModelStorage extends Storage[ModelID, Model] {
 
-  def rootDir: String = Config.ModelDir
+  def rootDir: String = Config.ModelStorageDir
 
   def extract(stream: FileInputStream): Model = {
     parse(stream).extract[Model]
@@ -231,7 +231,7 @@ object ModelStorage extends Storage[ModelID, Model] {
  */
 object DatasetStorage extends Storage[DataSetID, DataSet] {
 
-  def rootDir: String = Config.DatasetDir
+  def rootDir: String = Config.DatasetStorageDir
 
   def extract(stream: FileInputStream): DataSet = {
     parse(stream).extract[DataSet]
