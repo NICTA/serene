@@ -53,11 +53,12 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats {
    * wrapped in a Try.
    *
    * @param server Test server for this request
-   * @param request The model request object
+   * @param labels The model request object
    * @return Model that was constructed
    */
   def postAndReturn(server: TestServer,
-                    labels: List[String]): Try[Model] = {
+                    labels: List[String],
+                    description: Option[String] = None): Try[Model] = {
 
     Try {
 
@@ -67,7 +68,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats {
         .buildPost(Buf.Utf8(
           s"""
              |  {
-             |    "description": "asdf",
+             |    "description": "${description.getOrElse("unknown")}",
              |    "modelType": "randomForest",
              |    "labels": [${labels.map(x => s""""$x"""").mkString(",")}],
              |    "features": ["isAlpha", "numChars", "numAlpha"],
@@ -212,94 +213,63 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats {
     }
   })
 
-//  test("GET /v1.0/dataset/id responds Ok(200)") (new TestServer {
-//    try {
-//      val TypeMap = """{"w":"x", "y":"z"}"""
-//      val TestStr = Random.alphanumeric take 10 mkString
-//
-//      postAndReturn(this, Resource, TypeMap, TestStr) match {
-//        case Success(ds) =>
-//
-//          // build a request to modify the dataset...
-//          val response = get(s"/$APIVersion/dataset/${ds.id}")
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // ensure that the data is correct...
-//          val returnedDS = parse(response.contentString).extract[DataSet]
-//          assert(returnedDS.description === ds.description)
-//          assert(returnedDS.description === TestStr)
-//          assert(returnedDS.dateCreated === ds.dateCreated)
-//          assert(returnedDS.dateModified === ds.dateModified)
-//          assert(returnedDS.typeMap === ds.typeMap)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      assertClose()
-//    }
-//  })
+  test("GET /v1.0/model/id responds Ok(200)") (new TestServer {
+    try {
+      val TestStr = Random.alphanumeric take 10 mkString
+      val TestLabels = List("name", "addr","asdf")
 
-//  test("GET /v1.0/dataset/id?samples=4 responds Ok(200)") (new TestServer {
-//    try {
-//      val TypeMap = """{"w":"x", "y":"z"}"""
-//      val TestStr = Random.alphanumeric take 10 mkString
-//      val SampleLength = 4
-//
-//      postAndReturn(this, Resource, TypeMap, TestStr) match {
-//        case Success(ds) =>
-//
-//          // build a request to modify the dataset...
-//          val response = get(s"/$APIVersion/dataset/${ds.id}?samples=$SampleLength")
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // ensure that the data is correct...
-//          val returnedDS = parse(response.contentString).extract[DataSet]
-//          assert(returnedDS.description === ds.description)
-//          assert(returnedDS.description === TestStr)
-//          assert(returnedDS.columns.head.sample.length == SampleLength)
-//          assert(returnedDS.dateCreated === ds.dateCreated)
-//          assert(returnedDS.dateModified === ds.dateModified)
-//          assert(returnedDS.typeMap === ds.typeMap)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      assertClose()
-//    }
-//  })
+      postAndReturn(this, TestLabels, Some(TestStr)) match {
+        case Success(model) =>
 
-//  test("GET /v1.0/model/id missing id returns NotFound(404)") (new TestServer {
-//    try {
-//      // Attempt to grab a dataset at zero. This should be
-//      // converted to an int successfully but cannot be created
-//      // by the id gen.
-//      val response = get(s"/$APIVersion/model/0")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.NotFound)
-//      assert(!response.contentString.isEmpty)
-//    } finally {
-//      assertClose()
-//    }
-//  })
+          // build a request to modify the model...
+          val response = get(s"/$APIVersion/model/${model.id}")
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
 
-//  test("GET /v1.0/dataset/id non-int returns empty NotFound(404)") (new TestServer {
-//    try {
-//      // Attempt to grab a dataset at 'asdf'. This should be
-//      // converted to an int successfully but cannot be created
-//      // by the id gen.
-//      val response = get(s"/$APIVersion/dataset/asdf")
-//      assert(response.status === Status.NotFound)
-//      assert(response.contentString.isEmpty)
-//    } finally {
-//      assertClose()
-//    }
-//  })
+          // ensure that the data is correct...
+          val returnedModel = parse(response.contentString).extract[Model]
+
+          assert(returnedModel.description === model.description)
+          assert(returnedModel.description === TestStr)
+          assert(returnedModel.dateCreated === model.dateCreated)
+          assert(returnedModel.dateModified === model.dateModified)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/id missing id returns NotFound(404)") (new TestServer {
+    try {
+      // Attempt to grab a dataset at zero. This should be
+      // converted to an int successfully but cannot be created
+      // by the id gen.
+      val response = get(s"/$APIVersion/model/0")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.NotFound)
+      assert(!response.contentString.isEmpty)
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/dataset/id non-int returns empty NotFound(404)") (new TestServer {
+    try {
+      // Attempt to grab a model at 'asdf'. This should be
+      // converted to an int successfully but cannot be created
+      // by the id gen.
+      val response = get(s"/$APIVersion/model/asdf")
+      assert(response.status === Status.NotFound)
+      assert(response.contentString.isEmpty)
+    } finally {
+      assertClose()
+    }
+  })
 
 //  test("POST /v1.0/model/id responds Ok(200)") (new TestServer {
 //    try {

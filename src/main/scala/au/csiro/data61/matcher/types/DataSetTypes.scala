@@ -17,7 +17,7 @@
  */
 package au.csiro.data61.matcher.types
 
-import java.nio.file.{Path, Paths}
+import java.nio.file.Path
 
 import au.csiro.data61.matcher.types.ColumnTypes._
 import au.csiro.data61.matcher.types.DataSetTypes._
@@ -132,34 +132,3 @@ case class DataSet(id: Int,
                    description: String,
                    dateCreated: DateTime,
                    dateModified: DateTime)
-
-/**
- * Serializer for the Java.io.Path object
- */
-case object PathSerializer extends CustomSerializer[Path](format => ( {
-    case jv: JValue =>
-      implicit val formats = DefaultFormats
-      val str = jv.extract[String]
-      Paths.get(str)
-  }, {
-    case path: Path =>
-      JString(path.toString)
-  }))
-
-/**
- * Holds the implicit matcher objects for the Json4s Serializers.
- *
- * This should be mixed in to the object in order to use.
- */
-trait MatcherJsonFormats {
-
-  implicit def json4sFormats: Formats =
-    org.json4s.DefaultFormats ++
-    org.json4s.ext.JodaTimeSerializers.all +
-    LogicalTypeSerializer +
-    PathSerializer +
-    SamplingStrategySerializer +
-    ModelTypeSerializer +
-    FeatureSerializer
-
-}

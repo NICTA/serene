@@ -157,6 +157,18 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
     datasets.get(id)
   }
 
+  /**
+   * Returns the model object at location id
+   *
+   * @param id The key for the model
+   * @return Resource if available
+   */
+  def getModel(id: ModelID): Option[Model] = {
+    models.get(id)
+  }
+
+
+
   def datasetKeys: List[DataSetID] = {
     datasets.keys.toList
   }
@@ -272,7 +284,8 @@ object StorageLayer extends LazyLogging with MatcherJsonFormats {
   protected def readModelFromFile(path: Path): Option[Model] = {
     Try {
       val stream = new FileInputStream(path.toFile)
-      parse(stream).extract[Model]
+      val a = parse(stream)
+      a.extract[Model]
     } match {
       case Success(model) =>
         Some(model)

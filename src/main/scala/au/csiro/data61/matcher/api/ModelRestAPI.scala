@@ -20,6 +20,7 @@ package au.csiro.data61.matcher.api
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher._
 import io.finch._
+import org.joda.time.DateTime
 import org.json4s.jackson.JsonMethods._
 
 import types._
@@ -53,7 +54,9 @@ object ModelRestAPI extends RestAPI {
       List(0,1,0,0),
       List(0,0,1,0),
       List(0,0,0,1)),
-    resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN
+    resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN,
+    dateCreated = DateTime.now,
+    dateModified = DateTime.now
   )
 
   /**
@@ -149,31 +152,38 @@ object ModelRestAPI extends RestAPI {
    */
   val modelGet: Endpoint[Model] = get(APIVersion :: "model" :: int) {
     (id: Int) =>
-      Ok(TestModel)
+      Try { MatcherInterface.getModel(id) } match {
+        case Success(Some(ds))  =>
+          Ok(ds)
+        case Success(None) =>
+          NotFound(NotFoundException(s"Model $id does not exist."))
+        case Failure(err) =>
+          BadRequest(BadRequestException(err.getMessage))
+      }
   }
 
-  /**
-   * Patch a portion of a Model. Will destroy all cached models
-   */
-  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int) {
-    (id: Int) =>
-      Ok(TestModel)
-  }
-
-  /**
-   * Replace a Model. Will destroy all cached models
-   */
-  val modelPut: Endpoint[Model] = put(APIVersion :: "model" :: int) {
-    (id: Int) =>
-      Ok(TestModel)
-  }
-  /**
-   * Deletes the model at position id.
-   */
-  val modelDelete: Endpoint[String] = delete(APIVersion :: "model" :: int) {
-    (id: Int) =>
-      Ok(s"Deleted $id successfully")
-  }
+//  /**
+//   * Patch a portion of a Model. Will destroy all cached models
+//   */
+//  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int) {
+//    (id: Int) =>
+//      Ok(TestModel)
+//  }
+//
+//  /**
+//   * Replace a Model. Will destroy all cached models
+//   */
+//  val modelPut: Endpoint[Model] = put(APIVersion :: "model" :: int) {
+//    (id: Int) =>
+//      Ok(TestModel)
+//  }
+//  /**
+//   * Deletes the model at position id.
+//   */
+//  val modelDelete: Endpoint[String] = delete(APIVersion :: "model" :: int) {
+//    (id: Int) =>
+//      Ok(s"Deleted $id successfully")
+//  }
 
   /**
    * Final endpoints for the Dataset endpoint...
@@ -181,8 +191,8 @@ object ModelRestAPI extends RestAPI {
   val endpoints =
     modelRoot :+:
       modelCreate :+:
-      modelGet :+:
-      modelPatch :+:
-      modelPut :+:
-      modelDelete
+      modelGet //:+:
+      //modelPatch :+:
+      //modelPut :+:
+      //modelDelete
 }

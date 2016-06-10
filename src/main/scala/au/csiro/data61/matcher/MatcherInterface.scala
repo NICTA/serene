@@ -65,7 +65,9 @@ object MatcherInterface extends LazyLogging {
             features = request.features.getOrElse(Feature.values.toList),
             training = request.training.getOrElse(KFold(1)),
             costMatrix = request.costMatrix.getOrElse(List()),
-            resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN))
+            resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
+            dateCreated = DateTime.now,
+            dateModified = DateTime.now)
         } toOption
 
         _ <- StorageLayer.addModel(id, model)
@@ -74,6 +76,17 @@ object MatcherInterface extends LazyLogging {
 
     modelOpt getOrElse { throw InternalException("Failed to create resource.") }
   }
+
+  /**
+   * Returns the public facing model from the storage layer
+   *
+   * @param id The model id
+   * @return
+   */
+  def getModel(id: ModelID): Option[Model] = {
+    StorageLayer.getModel(id)
+  }
+
 
   /**
    * Parses a servlet request to get a dataset object

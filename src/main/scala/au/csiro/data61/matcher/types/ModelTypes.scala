@@ -17,6 +17,7 @@
  */
 package au.csiro.data61.matcher.types
 
+import org.joda.time.DateTime
 import org.json4s._
 
 object ModelTypes {
@@ -28,7 +29,9 @@ object ModelTypes {
                    features: List[Feature],
                    training: KFold,
                    costMatrix: List[List[Double]],
-                   resamplingStrategy: SamplingStrategy)
+                   resamplingStrategy: SamplingStrategy,
+                   dateCreated: DateTime,
+                   dateModified: DateTime)
 
   type ModelID = Int
 }
