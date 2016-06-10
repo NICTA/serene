@@ -27,11 +27,11 @@ object ModelTypes {
                    modelType: ModelType,
                    labels: List[String],
                    features: List[Feature],
-                   training: KFold,
                    costMatrix: List[List[Double]],
                    resamplingStrategy: SamplingStrategy,
+                   labelData: Map[String, String],
                    dateCreated: DateTime,
-                   dateModified: DateTime)
+                   dateModified: DateTime) extends Identifiable[ModelID]
 
   type ModelID = Int
 }

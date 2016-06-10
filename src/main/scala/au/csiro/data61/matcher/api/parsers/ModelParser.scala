@@ -15,17 +15,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher
+package au.csiro.data61.matcher.api.parsers
 
-import types._
+import au.csiro.data61.matcher.types.{Feature, ModelType, SamplingStrategy}
 
 
 case class ModelRequest(description: Option[String],
                         modelType: Option[ModelType],
                         labels: List[String],
                         features: Option[List[Feature]],
-                        training: Option[KFold],
+                        //training: Option[KFold],
                         costMatrix: Option[List[List[Double]]],
+                        labelData: Option[Map[String, String]],
                         resamplingStrategy: Option[SamplingStrategy])
 
 object ModelParser {

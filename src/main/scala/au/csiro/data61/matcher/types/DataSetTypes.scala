@@ -131,4 +131,4 @@ case class DataSet(id: Int,
                    typeMap: TypeMap,
                    description: String,
                    dateCreated: DateTime,
-                   dateModified: DateTime)
+                   dateModified: DateTime) extends Identifiable[DataSetID]

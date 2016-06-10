@@ -19,6 +19,7 @@ package au.csiro.data61.matcher.api
 
 import java.io.FileInputStream
 
+import au.csiro.data61.matcher.api.parsers.{DataSetRequest, FileStream}
 import au.csiro.data61.matcher.types.{DataSet, DataSetTypes}
 import DataSetTypes._
 import au.csiro.data61.matcher._

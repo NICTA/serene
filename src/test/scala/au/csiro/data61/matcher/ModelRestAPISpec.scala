@@ -17,19 +17,21 @@
  */
 package au.csiro.data61.matcher
 
+
 import java.io.File
 
 import au.csiro.data61.matcher.types.Feature.{NUM_ALPHA, NUM_CHARS, IS_ALPHA}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
-import au.csiro.data61.matcher.types.{MatcherJsonFormats, DataSet}
+import au.csiro.data61.matcher.types.MatcherJsonFormats
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 
-import com.twitter.io.{Buf, Reader}
+import com.twitter.io.Buf
 import com.twitter.util.Await
+import org.apache.commons.io.FileUtils
 import org.junit.runner.RunWith
 
-import org.scalatest.FunSuite
+import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
 import api._
 
@@ -44,10 +46,17 @@ import org.json4s.jackson.JsonMethods._
  * Tests for the Model REST endpoint API
  */
 @RunWith(classOf[JUnitRunner])
-class ModelRestAPISpec extends FunSuite with MatcherJsonFormats {
+class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach {
 
   import ModelRestAPI._
 
+  override def beforeEach() {
+    FileUtils.deleteDirectory(new File(Config.DatasetDir))
+  }
+
+  override def afterEach() {
+    FileUtils.deleteDirectory(new File(Config.DatasetDir))
+  }
   /**
    * Posts a request to build a model, then returns the Model object it created
    * wrapped in a Try.
@@ -230,9 +239,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats {
           // ensure that the data is correct...
           val returnedModel = parse(response.contentString).extract[Model]
 
-          assert(returnedModel.description === model.description)
-          assert(returnedModel.description === TestStr)
-          assert(returnedModel.dateCreated === model.dateCreated)
+          assert(returnedModel.description  === model.description)
+          assert(returnedModel.description  === TestStr)
+          assert(returnedModel.dateCreated  === model.dateCreated)
           assert(returnedModel.dateModified === model.dateModified)
 
         case Failure(err) =>
@@ -258,7 +267,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats {
     }
   })
 
-  test("GET /v1.0/dataset/id non-int returns empty NotFound(404)") (new TestServer {
+  test("GET /v1.0/model/id non-int returns empty NotFound(404)") (new TestServer {
     try {
       // Attempt to grab a model at 'asdf'. This should be
       // converted to an int successfully but cannot be created

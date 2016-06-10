@@ -17,6 +17,7 @@
  */
 package au.csiro.data61.matcher.api
 
+import au.csiro.data61.matcher.api.parsers.ModelRequest
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher._
 import io.finch._
@@ -48,12 +49,12 @@ object ModelRestAPI extends RestAPI {
     modelType = ModelType.RANDOM_FOREST,
     labels = List("name", "address", "phone", "flight"),
     features = List(Feature.IS_ALPHA, Feature.NUM_ALPHA, Feature.NUM_CHARS),
-    training = KFold(0),
     costMatrix = List(
       List(1,0,0,0),
       List(0,1,0,0),
       List(0,0,1,0),
       List(0,0,0,1)),
+    labelData = Map.empty[String, String],
     resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN,
     dateCreated = DateTime.now,
     dateModified = DateTime.now
@@ -110,9 +111,13 @@ object ModelRestAPI extends RestAPI {
             .extractOpt[List[String]]
             .map(_.map(x => Feature.lookup(x).get))
         }
-        training <- Try {
-          (raw \ "training")
-            .extractOpt[KFold]
+//        training <- Try {
+//          (raw \ "training")
+//            .extractOpt[KFold]
+//        }
+        labelData <- Try {
+          (raw \ "userData")
+            .extractOpt[Map[String, String]]
         }
         costMatrix <- Try {
           (raw \ "costMatrix")
@@ -128,8 +133,8 @@ object ModelRestAPI extends RestAPI {
         modelType,
         labels,
         features,
-        training,
         costMatrix,
+        labelData,
         resamplingStrategy
       )
 

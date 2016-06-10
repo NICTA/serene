@@ -21,6 +21,16 @@ import java.nio.file.{Paths, Path}
 
 import org.json4s._
 
+/**
+ * An object that has a property id which is of type key.
+ * This is used as the base type for the id-able case classes
+ * such as DataSet and Model
+ *
+ * @tparam Key The id type, nominally an Int or Long
+ */
+trait Identifiable[Key] {
+  def id: Key
+}
 
 /**
  * Serializer for the Java.io.Path object

@@ -19,6 +19,7 @@ package au.csiro.data61.matcher
 
 import java.nio.file.Path
 
+import au.csiro.data61.matcher.api.parsers.{DataSetParser, DataSetRequest, ModelRequest}
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher.types._
 import DataSetTypes._
@@ -63,14 +64,15 @@ object MatcherInterface extends LazyLogging {
             modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
             labels = request.labels,
             features = request.features.getOrElse(Feature.values.toList),
-            training = request.training.getOrElse(KFold(1)),
+            //training = request.training.getOrElse(KFold(1)),
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
+            labelData = request.labelData.getOrElse(Map.empty[String, String]),
             dateCreated = DateTime.now,
             dateModified = DateTime.now)
         } toOption
 
-        _ <- StorageLayer.addModel(id, model)
+        _ <- ModelStorage.add(id, model)
 
       } yield model
 
@@ -84,7 +86,7 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def getModel(id: ModelID): Option[Model] = {
-    StorageLayer.getModel(id)
+    ModelStorage.get(id)
   }
 
 
@@ -108,7 +110,7 @@ object MatcherInterface extends LazyLogging {
 
     val dataSet = for {
       fs <- request.file
-      path <- StorageLayer.addFile(id, fs.stream)
+      path <- DatasetStorage.addFile(id, fs.stream)
       ds <- Try(DataSet(
               id = id,
               columns = getColumns(path, id, typeMap),
@@ -119,18 +121,18 @@ object MatcherInterface extends LazyLogging {
               dateCreated = DateTime.now,
               dateModified = DateTime.now
             )).toOption
-      _ <- StorageLayer.addDataSet(id, ds)
+      _ <- DatasetStorage.add(id, ds)
     } yield ds
 
     dataSet getOrElse { throw InternalException(s"Failed to create resource $id") }
   }
 
   def datasetKeys: List[DataSetID] = {
-    StorageLayer.datasetKeys
+    DatasetStorage.keys
   }
 
   def modelKeys: List[ModelID] = {
-    StorageLayer.modelKeys
+    ModelStorage.keys
   }
   /**
    * Returns the public facing dataset from the storage layer
@@ -140,9 +142,9 @@ object MatcherInterface extends LazyLogging {
    */
   def getDataSet(id: DataSetID, colSize: Option[Int]): Option[DataSet] = {
     if (colSize.isEmpty) {
-      StorageLayer.getDataSet(id)
+      DatasetStorage.get(id)
     } else {
-      StorageLayer.getDataSet(id).map(ds =>
+      DatasetStorage.get(id).map(ds =>
         ds.copy(columns = getColumns(ds.path, ds.id, ds.typeMap, colSize.get))
       )
     }
@@ -159,13 +161,13 @@ object MatcherInterface extends LazyLogging {
    */
   def updateDataset(key: DataSetID, description: Option[String], typeMap: Option[TypeMap]): DataSet = {
 
-    if (!StorageLayer.datasetKeys.contains(key)) {
+    if (!DatasetStorage.keys.contains(key)) {
       throw ParseException(s"Dataset $key does not exist")
     }
 
     val newDS = for {
       oldDS <- Try {
-        StorageLayer.getDataSet(key).get
+        DatasetStorage.get(key).get
       }
       ds <- Try {
         oldDS.copy(
@@ -176,7 +178,7 @@ object MatcherInterface extends LazyLogging {
         )
       }
       id <- Try {
-        StorageLayer.updateDataSet(key, ds).get
+        DatasetStorage.update(key, ds).get
       } recover {
         case _ =>
           InternalException("Could not create database")
@@ -200,7 +202,7 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def deleteDataset(key: DataSetID): Option[DataSetID] = {
-    StorageLayer.removeDataSet(key)
+    DatasetStorage.remove(key)
   }
 
   /**
