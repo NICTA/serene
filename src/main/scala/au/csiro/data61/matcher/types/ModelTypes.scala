@@ -143,4 +143,3 @@ case object SamplingStrategySerializer extends CustomSerializer[SamplingStrategy
  * @param n
  */
 case class KFold(n: Int)
-

@@ -139,7 +139,6 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
       case Success(value) =>
         Some(value)
       case Failure(err) =>
-        println(path)
         logger.error(s"Failed to read file: ${err.getMessage}")
         None
     }
