@@ -21,8 +21,6 @@ import java.nio.file.Paths
 
 import au.csiro.data61.matcher.types.{Feature, ModelType, SamplingStrategy}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
-import com.nicta.dataint.data.DataModel
-import com.nicta.dataint.ingestion.loader.SemanticTypeLabelsLoader
 import org.joda.time.DateTime
 
 // data integration project
@@ -33,6 +31,9 @@ import com.nicta.dataint.matcher.train.{CostMatrixConfig, TrainMlibSemanticTypeC
 import com.nicta.dataint.matcher.features.FeatureSettings
 import com.nicta.dataint.data.DataModel
 import com.nicta.dataint.ingestion.loader.CSVHierarchicalDataLoader
+import com.nicta.dataint.data.DataModel
+import com.nicta.dataint.ingestion.loader.SemanticTypeLabelsLoader
+import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 
 case class ModelTrainerPaths(curModel: Model,
                              workspacePath: String,
@@ -60,91 +61,89 @@ object ModelTrainer {
   //  val trainer = new TrainMlibSemanticTypeClassifier(classes, false)
   //  val randomForestSchemaMatcher = trainer.train(trainingData, labels, trainSettings, postProcessingConfig)
 
-  val rootDir: String = Config.ModelStorageDir
-  val datasetDir: String = Config.DatasetStorageDir
+  val rootDir: String = ModelStorage.rootDir
+  val datasetDir: String = DatasetStorage.rootDir
 
   /*
-  Return a case class with attributes which indicate paths to config files
-   */
-  def identifyPaths(id: ModelID): Option[ModelTrainerPaths] = {
-    val modelDir = Paths.get(rootDir, s"$id").toString
-    val wsDir = Paths.get(modelDir, s"workspace").toString
-
-    val curModel = ModelStorage.get(id)
-
-    curModel match {
-      case Some(m)   => Some(ModelTrainerPaths(curModel = m,
-        workspacePath = wsDir,
-        featuresConfigPath = "features_config.json",
-        costMatrixConfigPath = Paths.get(wsDir, s"cost_matrix_config.json").toString,
-        labelsDirPath = Paths.get(wsDir, s"labels").toString))
-      case _ => None
-    }
-  }
-
-
+   Return an instance of class TrainingSettings
+    */
   def readSettings(trainerPaths: ModelTrainerPaths): TrainingSettings = {
-
+    println(s"featuresConfig: ${trainerPaths.featuresConfigPath}, workspacePath: ${trainerPaths.workspacePath}")
     val featuresConfig = FeatureSettings.load(trainerPaths.featuresConfigPath, trainerPaths.workspacePath)
+//    val featuresConfig = FeatureSettings.load(trainerPaths.featuresConfigPath)
+    println("Features have been loaded")
     TrainingSettings(trainerPaths.curModel.resamplingStrategy.str,
       featuresConfig,
       Some(Left(trainerPaths.costMatrixConfigPath)))
   }
 
+  /*
+   Returns a list of DataModel instances at path
+    */
   def getDataModels(path: String): List[DataModel] = CSVHierarchicalDataLoader().readDataSets(path, "")
 
+  /*
+   Returns a list of DataModel instances for the dataset repository
+    */
   def readTrainingData(trainerPaths: ModelTrainerPaths): DataModel = {
+    print(s"Datasets are located at: $datasetDir")
     val datasets = getDataModels(datasetDir)
     new DataModel("", None, None, Some(datasets))
   }
 
+  /*
+   Reads in labeled data
+    */
   def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels ={
     val labelsLoader = SemanticTypeLabelsLoader()
     labelsLoader.load(trainerPaths.labelsDirPath)
   }
 
-
-  def train(id: ModelID): Option[SemanticTypeClassifier] = {
-    val curTrainerPaths = identifyPaths(id)
-
-    val dtTrainModel = curTrainerPaths match {
-      case Some(cts)  => Some(DataintTrainModel(classes = cts.curModel.labels,
-        trainingSet = readTrainingData(cts),
-        labels = readLabeledData(cts),
-        trainSettings = readSettings(cts),
-        postProcessingConfig = None
-      ))
-      case _   => None
-    }
-
-    dtTrainModel match {
-      case Some(dt) => {
+  /*
+   Performs training for the model and returns serialized object for the learnt model
+    */
+  def train(id: ModelID): Option[SerializableMLibClassifier] = {
+    ModelStorage.identifyPaths(id)
+      .map(cts  => {
+        print("paths identified")
+        DataintTrainModel(classes = cts.curModel.labels,
+          trainingSet = readTrainingData(cts),
+          labels = readLabeledData(cts),
+          trainSettings = readSettings(cts),
+          postProcessingConfig = None)})
+      .map(dt => {
+        print("training model created")
         val trainer = TrainMlibSemanticTypeClassifier (dt.classes, false)
-        val randomForestSchemaMatcher = trainer.train(dt.trainingSet, dt.labels, dt.trainSettings, dt.postProcessingConfig)
-        Some(randomForestSchemaMatcher)
-      }
-      case _ => None
-    }
+        print("trainer initialized")
+        val randomForestSchemaMatcher = trainer.train(dt.trainingSet,
+          dt.labels,
+          dt.trainSettings,
+          dt.postProcessingConfig)
+        print("training finished")
+        SerializableMLibClassifier(randomForestSchemaMatcher.model,
+          dt.classes,
+          randomForestSchemaMatcher.featureExtractors,
+          randomForestSchemaMatcher.postProcessingConfig)
+      })
 
   }
 
-  def train(resamplingStrategy: String,
-            featuresConfig: FeatureSettings,
-            costMatrixConfig: Option[CostMatrixConfig],
-            trainingSet: DataModel,
-            labels: SemanticTypeLabels,
-            classes: List[String],
-            postProcessingConfig: Option[Map[String,Any]]): SemanticTypeClassifier = {
-    val trainSettings = TrainingSettings(resamplingStrategy, featuresConfig, costMatrixConfig.map({case x => Right(x)}))
-    val startTime = System.nanoTime()
-    val trainer = TrainMlibSemanticTypeClassifier(classes, false)
-    val randomForestSchemaMatcher = trainer.train(trainingSet, labels, trainSettings, postProcessingConfig)
-    val endTime = System.nanoTime()
-    println("Training finished in " + ((endTime-startTime)/1.0E9) + " seconds.")
-
-    //allAttributes zip predsReordered -- attributes with predicted labels
-    randomForestSchemaMatcher
-  }
-
+//  def train(resamplingStrategy: String,
+//            featuresConfig: FeatureSettings,
+//            costMatrixConfig: Option[CostMatrixConfig],
+//            trainingSet: DataModel,
+//            labels: SemanticTypeLabels,
+//            classes: List[String],
+//            postProcessingConfig: Option[Map[String,Any]]): SemanticTypeClassifier = {
+//    val trainSettings = TrainingSettings(resamplingStrategy, featuresConfig, costMatrixConfig.map({case x => Right(x)}))
+//    val startTime = System.nanoTime()
+//    val trainer = TrainMlibSemanticTypeClassifier(classes, false)
+//    val randomForestSchemaMatcher = trainer.train(trainingSet, labels, trainSettings, postProcessingConfig)
+//    val endTime = System.nanoTime()
+//    println("Training finished in " + ((endTime-startTime)/1.0E9) + " seconds.")
+//
+//    //allAttributes zip predsReordered -- attributes with predicted labels
+//    randomForestSchemaMatcher
+//  }
 
 }

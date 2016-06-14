@@ -17,23 +17,23 @@
  */
 package au.csiro.data61.matcher
 
-import java.io.{InputStream, FileInputStream, File}
+import java.io._
 import java.nio.charset.StandardCharsets
-import java.nio.file.{Path, Files, Paths, StandardCopyOption}
+import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
-import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
+import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.matcher.types._
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
-
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
-import scala.util.{Success, Failure, Try}
-
+import scala.util.{Failure, Success, Try}
 import DataSetTypes._
 
 import scala.language.postfixOps
+import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
+import org.scalacheck.Prop.{False, True}
 
 /**
  * Storage object that can store objects that are identifiable by a `Key`.
@@ -120,7 +120,11 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
    * @return
    */
   protected def getPath(id: Key): Path = {
-    Paths.get(rootDir, s"$id", s"$id.json")
+    Paths.get(getDirectoryPath(id).toString, s"$id.json")
+  }
+
+  protected def getDirectoryPath(id: Key): Path = {
+    Paths.get(rootDir, s"$id")
   }
 
   /**
@@ -217,10 +221,41 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
  */
 object ModelStorage extends Storage[ModelID, Model] {
 
-  def rootDir: String = Config.ModelStorageDir
+  def rootDir: String = new File(Config.ModelStorageDir).getAbsolutePath
 
   def extract(stream: FileInputStream): Model = {
     parse(stream).extract[Model]
+  }
+
+  def writeModel(id: ModelID, learntModel: SerializableMLibClassifier): Boolean = {
+    val writePath = Paths.get(getDirectoryPath(id).toString, s"$id.rf").toString
+
+    val out = Try(new ObjectOutputStream(new FileOutputStream(writePath)))
+    print(s"Writing model rf:  $writePath")
+    out match {
+      case Failure(err) =>
+        logger.error(s"Failed to write model: ${err.getMessage}")
+        false
+      case Success(f) =>
+        f.writeObject(learntModel)
+        f.close()
+        true
+    }
+  }
+
+  def identifyPaths(id: ModelID): Option[ModelTrainerPaths] = {
+    val modelDir = getDirectoryPath(id).toString
+    val wsDir = Paths.get(modelDir, s"workspace").toString
+
+    println(s"modelDir: $modelDir, wsDir: $wsDir, rootDir: $rootDir")
+
+    ModelStorage.get(id)
+      .map(cm =>
+        ModelTrainerPaths(curModel = cm,
+          workspacePath = wsDir,
+          featuresConfigPath = Paths.get(wsDir, "features_config.json").toString,
+          costMatrixConfigPath = Paths.get(wsDir, s"cost_matrix_config.json").toString,
+          labelsDirPath = Paths.get(wsDir, s"labels").toString))
   }
 }
 
@@ -231,7 +266,7 @@ object ModelStorage extends Storage[ModelID, Model] {
  */
 object DatasetStorage extends Storage[DataSetID, DataSet] {
 
-  def rootDir: String = Config.DatasetStorageDir
+  def rootDir: String = new File(Config.DatasetStorageDir).getAbsolutePath
 
   def extract(stream: FileInputStream): DataSet = {
     parse(stream).extract[DataSet]

@@ -208,6 +208,12 @@ PATCH https://dataint.io/v1.0/model/87698465/labelData/67464
 
 GET https://dataint.io/v1.0/model/87698465/predict?dataset=987345
 #
+# Returns a prediction for a particular dataset, including the scores and features
+# Params - showScores, showFeatures
+
+
+GET https://dataint.io/v1.0/model/87698465/predict
+#
 # Returns a prediction for all the raw data columns, including the scores and features
 # Params - showScores, showFeatures
 #

@@ -17,20 +17,21 @@
  */
 package au.csiro.data61.matcher
 
-import java.nio.file.Path
+import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.matcher.api.parsers.{DataSetParser, DataSetRequest}
-import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
+import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.matcher.types._
 import DataSetTypes._
 import au.csiro.data61.matcher.api.{InternalException, ParseException}
+import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
 import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
-import scala.util.{Success, Failure, Random, Try}
-
+import scala.util.{Failure, Random, Success, Try}
 import scala.language.postfixOps
+import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 
 /**
  * IntegrationAPI defines the interface through which requests
@@ -96,6 +97,26 @@ object MatcherInterface extends LazyLogging {
    */
   def getModel(id: ModelID): Option[Model] = {
     ModelStorage.get(id)
+  }
+
+  /**
+    * Trains the model
+    *
+    * @param id The model id
+    * @return
+    */
+  def trainModel(id: ModelID): Option[TrainResponse] = {
+    val serialModel = ModelTrainer.train(id)
+
+    val writeFlag = serialModel.map(sm =>
+      ModelStorage.writeModel(id, sm))
+    writeFlag match {case Some(true) =>
+      Some(TrainResponse(id, s"trained", DateTime.now, DateTime.now))
+    case Some(false) =>
+      Some(TrainResponse(id, s"writing of model failed", DateTime.now, DateTime.now))
+    case _ =>
+      None
+    }
   }
 
 
