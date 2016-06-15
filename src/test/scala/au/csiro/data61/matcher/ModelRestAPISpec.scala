@@ -303,6 +303,15 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
+
+//  TODO: create model with incorrect featurescongig feature names
+
+//  TODO: train model with no training datasets
+
+//  TODO: train model with no labeled datasets
+
+//  TODO: train model with missing workspace directory
+
 //  test("POST /v1.0/model/id responds Ok(200)") (new TestServer {
 //    try {
 //      val TypeMap = """{"w":"x", "y":"z"}"""

@@ -37,8 +37,10 @@ curl -X POST \
     "description": "This is the description",
     "modelType": "randomForest",
     "labels": ["name", "address", "phone"],
-    "features": ["isAlpha", "numChars", "numAlpha"],
-    "training": {"n": 10},
+    "features": { "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
+        "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
+        "featureExtractorParams" : [{"name" : "prop-instances-per-class-in-knearestneighbours","num-neighbours" : 5}]
+        },
     "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
     "resamplingStrategy": "ResampleToMean"
     }' \
@@ -46,6 +48,10 @@ curl -X POST \
 
 # Show a single model
 curl localhost:8080/v1.0/model/12341234
+
+# Train a single model
+curl localhost:8080/v1.0/model/12341234/train
+
 ```
 ## Tests
 ```

@@ -198,9 +198,6 @@ object ModelRestAPI extends RestAPI {
         (raw \ "labels").extractOpt[List[String]]
       }
       features <- Try {
-//        println("****")
-//        println((raw \ "features"))
-//        println("******")
         (raw \ "features")
           .extract[FeaturesConfig]
 //          .map(_.map(feature =>
@@ -223,9 +220,9 @@ object ModelRestAPI extends RestAPI {
             .getOrElse(throw BadRequestException("Bad resamplingStrategy")))
       }
     } yield {
-      println("<><><><>")
-      println(features)
-      println("=========")
+//      println("<><><><>")
+//      println(features)
+//      println("=========")
       ModelRequest(
       description,
       modelType,

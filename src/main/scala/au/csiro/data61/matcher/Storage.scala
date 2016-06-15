@@ -123,8 +123,25 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
     Paths.get(getDirectoryPath(id).toString, s"$id.json")
   }
 
+  /**
+    * Returns the location of the directory for id
+    *
+    * @param id The ID for the Value
+    * @return
+    */
   protected def getDirectoryPath(id: Key): Path = {
     Paths.get(rootDir, s"$id")
+  }
+
+  /**
+    * Returns the location of the workspace directory for id
+    * For now it's relevant only for models
+    *
+    * @param id The ID for the Value
+    * @return
+    */
+  protected def getWSPath(id: Key): Path = {
+    Paths.get(getDirectoryPath(id).toString, "workspace")
   }
 
   /**
@@ -226,11 +243,14 @@ object ModelStorage extends Storage[ModelID, Model] {
     parse(stream).extract[Model]
   }
 
+  /**
+    * Write learnt model file for id
+    */
   def writeModel(id: ModelID, learntModel: SerializableMLibClassifier): Boolean = {
-    val writePath = Paths.get(getDirectoryPath(id).toString, s"$id.rf").toString
+    val writePath = Paths.get(getWSPath(id).toString, s"$id.rf").toString
 
     val out = Try(new ObjectOutputStream(new FileOutputStream(writePath)))
-    print(s"Writing model rf:  $writePath")
+    logger.info(s"Writing model rf:  $writePath")
     out match {
       case Failure(err) =>
         logger.error(s"Failed to write model: ${err.getMessage}")
@@ -242,12 +262,12 @@ object ModelStorage extends Storage[ModelID, Model] {
     }
   }
 
+  /**
+    * Identify paths which are needed to train the model at id
+    */
   def identifyPaths(id: ModelID): Option[ModelTrainerPaths] = {
-    val modelDir = getDirectoryPath(id).toString
-    val wsDir = Paths.get(modelDir, s"workspace").toString
-
-    println(s"modelDir: $modelDir, wsDir: $wsDir, rootDir: $rootDir")
-
+    val wsDir = getWSPath(id).toString
+    logger.info(s"Identifying paths for the model $id")
     ModelStorage.get(id)
       .map(cm =>
         ModelTrainerPaths(curModel = cm,
