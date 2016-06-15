@@ -17,7 +17,8 @@
  */
 package au.csiro.data61.matcher.api
 
-import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.matcher.api.DatasetRestAPI._
+import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher._
 import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
 import io.finch._
@@ -34,10 +35,11 @@ import scala.util.{Failure, Success, Try}
  *  Model REST endpoints...
  *
  *  GET    /v1.0/model
- *  POST   /v1.0/model        -- json object
+ *  POST   /v1.0/model              -- json model object
  *  GET    /v1.0/model/:id
- *  PUT    /v1.0/model/:id    -- json object
- *  PATCH  /v1.0/model/:id    -- json object
+ *  GET    /v1.0/model/:id/train    -- returns async status obj
+ *  GET    /v1.0/model/:id/predict  -- returns async status obj
+ *  POST   /v1.0/model/:id          -- update
  *  DELETE /v1.0/model/:id
  */
 object ModelRestAPI extends RestAPI {
@@ -86,61 +88,17 @@ object ModelRestAPI extends RestAPI {
    */
   val modelCreate: Endpoint[Model] = post(APIVersion :: "model" :: body) {
     (body: String) =>
-      val raw = parse(body)
-
-      val model = for {
-        description <- Try {
-          (raw \ "description")
-            .extractOpt[String]
-        }
-        modelType <- Try {
-          (raw \ "modelType")
-            .extractOpt[String]
-            .flatMap(ModelType.lookup)
-        }
-        labels <- Try {
-          val list = (raw \ "labels").extract[List[String]]
-          if (list.isEmpty) {
-            throw BadRequestException("No labels found")
-          }
-          list
-        }
-        features <- Try {
-          (raw \ "features")
-            .extractOpt[List[String]]
-            .map(_.map(x => Feature.lookup(x).get))
-        }
-//        training <- Try {
-//          (raw \ "training")
-//            .extractOpt[KFold]
-//        }
-        labelData <- Try {
-          (raw \ "userData")
-            .extractOpt[Map[String, String]]
-        }
-        costMatrix <- Try {
-          (raw \ "costMatrix")
-            .extractOpt[List[List[Double]]]
-        }
-        resamplingStrategy <- Try {
-          (raw \ "resamplingStrategy")
-            .extractOpt[String]
-            .map(SamplingStrategy
-              .lookup(_)
-              .getOrElse(throw BadRequestException("Bad resamplingStrategy")))
-        }
-      } yield ModelRequest(
-        description,
-        modelType,
-        labels,
-        features,
-        costMatrix,
-        labelData,
-        resamplingStrategy
-      )
 
       (for {
-        request <- model
+        request <- parseModelRequest(body)
+        req <- Try {
+          request.labels match {
+            case Some(x) if x.nonEmpty =>
+              request
+            case _ =>
+              throw BadRequestException("No labels found.")
+          }
+        }
         m <- Try { MatcherInterface.createModel(request) }
       } yield m)
       match {
@@ -184,28 +142,88 @@ object ModelRestAPI extends RestAPI {
       }
   }
 
-//  /**
-//   * Patch a portion of a Model. Will destroy all cached models
-//   */
-//  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int) {
-//    (id: Int) =>
-//      Ok(TestModel)
-//  }
-//
-//  /**
-//   * Replace a Model. Will destroy all cached models
-//   */
-//  val modelPut: Endpoint[Model] = put(APIVersion :: "model" :: int) {
-//    (id: Int) =>
-//      Ok(TestModel)
-//  }
-//  /**
-//   * Deletes the model at position id.
-//   */
-//  val modelDelete: Endpoint[String] = delete(APIVersion :: "model" :: int) {
-//    (id: Int) =>
-//      Ok(s"Deleted $id successfully")
-//  }
+  /**
+   * Patch a portion of a Model. Will destroy all cached models
+   */
+  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int) {
+    (id: Int) =>
+      Ok(TestModel)
+  }
+
+
+  /**
+   * Deletes the model at position id.
+   */
+  val modelDelete: Endpoint[String] = delete(APIVersion :: "model" :: int) {
+    (id: Int) =>
+      Try(MatcherInterface.deleteModel(id)) match {
+        case Success(Some(_)) =>
+          logger.debug(s"Deleted model $id")
+          Ok(s"Model $id deleted successfully.")
+        case Success(None) =>
+          logger.debug(s"Could not find model $id")
+          NotFound(NotFoundException(s"Model $id could not be found"))
+        case Failure(err) =>
+          logger.debug(s"Some other problem with deleting...")
+          InternalServerError(InternalException(s"Failed to delete resource: ${err.getMessage}"))
+      }
+  }
+
+
+  /**
+   * Helper function to parse a string into a ModelRequest object...
+   * @param str
+   * @return
+   */
+  def parseModelRequest(str: String): Try[ModelRequest] = {
+    val raw = parse(str)
+
+    for {
+      description <- Try {
+        (raw \ "description")
+          .extractOpt[String]
+      }
+      modelType <- Try {
+        (raw \ "modelType")
+          .extractOpt[String]
+          .flatMap(ModelType.lookup)
+      }
+      labels <- Try {
+        (raw \ "labels").extractOpt[List[String]]
+      }
+      features <- Try {
+        (raw \ "features")
+          .extractOpt[List[String]]
+          .map(_.map(feature =>
+            Feature.lookup(feature)
+              .getOrElse(throw BadRequestException(s"Bad feature argument: $feature"))))
+      }
+      labelData <- Try {
+        (raw \ "userData")
+          .extractOpt[Map[String, String]]
+      }
+      costMatrix <- Try {
+        (raw \ "costMatrix")
+          .extractOpt[List[List[Double]]]
+      }
+      resamplingStrategy <- Try {
+        (raw \ "resamplingStrategy")
+          .extractOpt[String]
+          .map(SamplingStrategy
+            .lookup(_)
+            .getOrElse(throw BadRequestException("Bad resamplingStrategy")))
+      }
+    } yield ModelRequest(
+      description,
+      modelType,
+      labels,
+      features,
+      costMatrix,
+      labelData,
+      resamplingStrategy
+    )
+  }
+
 
   /**
    * Final endpoints for the Dataset endpoint...
@@ -214,8 +232,16 @@ object ModelRestAPI extends RestAPI {
     modelRoot :+:
       modelCreate :+:
       modelGet :+:
-      modelTrain //:+:
-      //modelPatch :+:
-      //modelPut :+:
-      //modelDelete
+      modelTrain :+:
+      modelPatch :+:
+      modelDelete
 }
+
+
+case class ModelRequest(description: Option[String],
+                        modelType: Option[ModelType],
+                        labels: Option[List[String]],
+                        features: Option[List[Feature]],
+                        costMatrix: Option[List[List[Double]]],
+                        labelData: Option[Map[String, String]],
+                        resamplingStrategy: Option[SamplingStrategy])

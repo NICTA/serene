@@ -17,21 +17,20 @@
  */
 package au.csiro.data61.matcher
 
-import java.nio.file.{Path, Paths}
+import java.nio.file.Path
 
-import au.csiro.data61.matcher.api.parsers.{DataSetParser, DataSetRequest}
-import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
+import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
 import au.csiro.data61.matcher.types._
 import DataSetTypes._
-import au.csiro.data61.matcher.api.{InternalException, ParseException}
-import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
+import au.csiro.data61.matcher.api.{DataSetRequest, ModelRequest, InternalException, ParseException}
 import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
-import scala.util.{Failure, Random, Success, Try}
+import scala.util.{Success, Failure, Random, Try}
+
 import scala.language.postfixOps
-import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 
 /**
  * IntegrationAPI defines the interface through which requests
@@ -72,9 +71,8 @@ object MatcherInterface extends LazyLogging {
             id = id,
             description = request.description.getOrElse(MissingValue),
             modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
-            labels = request.labels,
+            labels = request.labels.getOrElse(List()),
             features = request.features.getOrElse(Feature.values.toList),
-            //training = request.training.getOrElse(KFold(1)),
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
             labelData = request.labelData.getOrElse(Map.empty[String, String]),
@@ -100,11 +98,11 @@ object MatcherInterface extends LazyLogging {
   }
 
   /**
-    * Trains the model
-    *
-    * @param id The model id
-    * @return
-    */
+   * Trains the model
+   *
+   * @param id The model id
+   * @return
+   */
   def trainModel(id: ModelID): Option[TrainResponse] = {
     val serialModel = ModelTrainer.train(id)
 
@@ -119,7 +117,6 @@ object MatcherInterface extends LazyLogging {
     }
   }
 
-
   /**
    * Parses a servlet request to get a dataset object
    * then adds to the database, and returns the case class response
@@ -131,7 +128,7 @@ object MatcherInterface extends LazyLogging {
   def createDataset(request: DataSetRequest): DataSet = {
 
     if (request.file.isEmpty) {
-      throw ParseException(s"Failed to read file request part: ${DataSetParser.FilePartName}")
+      throw ParseException(s"Failed to read file request part")
     }
 
     val typeMap = request.typeMap getOrElse Map.empty[String, String]
@@ -236,6 +233,15 @@ object MatcherInterface extends LazyLogging {
     DatasetStorage.remove(key)
   }
 
+  /**
+   * Deletes the model
+   *
+   * @param key Key for the model
+   * @return
+   */
+  def deleteModel(key: ModelID): Option[ModelID] = {
+    ModelStorage.remove(key)
+  }
   /**
    * Return some random column objects for a dataset
    *

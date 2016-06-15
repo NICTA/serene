@@ -17,9 +17,8 @@
  */
 package au.csiro.data61.matcher.api
 
-import java.io.FileInputStream
+import java.io.{InputStream, FileInputStream}
 
-import au.csiro.data61.matcher.api.parsers.{DataSetRequest, FileStream}
 import au.csiro.data61.matcher.types.{DataSet, DataSetTypes}
 import DataSetTypes._
 import au.csiro.data61.matcher._
@@ -190,3 +189,24 @@ object DatasetRestAPI extends RestAPI {
     datasetPatch :+:
     datasetDelete
 }
+
+/**
+ * Holds the filestream from the incoming request.
+ *
+ * @param name Name of the file as parsed from the request
+ * @param stream Java InputFileStream pointing to the octet stream
+ */
+case class FileStream(name: String, stream: InputStream)
+
+/**
+ * Object returned from any dataset request. Optionally include
+ * a filestream, description or a typeMap. Whether missing values
+ * throw an error is up to the request handler.
+ *
+ * @param file Filestream object pointing to the octet stream
+ * @param description Description field written for the dataset
+ * @param typeMap Map of column logical types contained in the file
+ */
+case class DataSetRequest(file: Option[FileStream],
+                          description: Option[String],
+                          typeMap: Option[TypeMap])

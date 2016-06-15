@@ -21,6 +21,7 @@ import java.io._
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
+import au.csiro.data61.matcher.api.FileStream
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.matcher.types._
 import com.typesafe.scalalogging.LazyLogging
@@ -30,11 +31,9 @@ import org.json4s.jackson.JsonMethods._
 
 import scala.util.{Failure, Success, Try}
 import DataSetTypes._
-import au.csiro.data61.matcher.api.parsers.FileStream
 
 import scala.language.postfixOps
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
-import org.scalacheck.Prop.{False, True}
 
 /**
  * Storage object that can store objects that are identifiable by a `Key`.
@@ -144,7 +143,6 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
       case Success(value) =>
         Some(value)
       case Failure(err) =>
-        println(path)
         logger.error(s"Failed to read file: ${err.getMessage}")
         None
     }
@@ -277,7 +275,7 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
    * Adds a file resource into the storage system
    *
    * @param id The id for the storage element
-   * @param stream The input stream
+   * @param fs The input stream
    * @return The path to the resource (if successful)
    */
   def addFile(id: DataSetID, fs: FileStream): Option[Path] = {
