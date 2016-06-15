@@ -10,6 +10,10 @@ lazy val root = (project in file("."))
 
   scalaVersion := "2.11.7",
 
+  fork := true,
+
+  outputStrategy := Some(StdoutOutput),
+
   scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
 
   resolvers += Resolver.sonatypeRepo("snapshots"),
@@ -36,4 +40,6 @@ lazy val root = (project in file("."))
     ,"au.com.nicta"               %% "data-integration"   % "1.2.0-SNAPSHOT"
   )
 
-).settings(jetty(): _*)
+
+
+  ).settings(jetty(): _*)

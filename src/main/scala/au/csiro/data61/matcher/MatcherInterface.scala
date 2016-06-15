@@ -20,6 +20,7 @@ package au.csiro.data61.matcher
 import java.nio.file.Path
 
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
+import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
 import au.csiro.data61.matcher.types._
 import DataSetTypes._
 import au.csiro.data61.matcher.api.{DataSetRequest, ModelRequest, InternalException, ParseException}
@@ -48,6 +49,7 @@ object MatcherInterface extends LazyLogging {
   val MissingValue = "unknown"
 
   val DefaultSampleSize = 15
+
 
   /**
     * Parses a servlet request to get a dataset object
@@ -95,6 +97,25 @@ object MatcherInterface extends LazyLogging {
     ModelStorage.get(id)
   }
 
+  /**
+   * Trains the model
+   *
+   * @param id The model id
+   * @return
+   */
+  def trainModel(id: ModelID): Option[TrainResponse] = {
+    val serialModel = ModelTrainer.train(id)
+
+    val writeFlag = serialModel.map(sm =>
+      ModelStorage.writeModel(id, sm))
+    writeFlag match {case Some(true) =>
+      Some(TrainResponse(id, s"trained", DateTime.now, DateTime.now))
+    case Some(false) =>
+      Some(TrainResponse(id, s"writing of model failed", DateTime.now, DateTime.now))
+    case _ =>
+      None
+    }
+  }
 
   /**
    * Parses a servlet request to get a dataset object
@@ -116,7 +137,7 @@ object MatcherInterface extends LazyLogging {
 
     val dataSet = for {
       fs <- request.file
-      path <- DatasetStorage.addFile(id, fs.stream)
+      path <- DatasetStorage.addFile(id, fs)
       ds <- Try(DataSet(
               id = id,
               columns = getColumns(path, id, typeMap),

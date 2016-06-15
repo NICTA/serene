@@ -20,10 +20,10 @@ package au.csiro.data61.matcher.api
 import au.csiro.data61.matcher.api.DatasetRestAPI._
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher._
+import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
 import io.finch._
 import org.joda.time.DateTime
 import org.json4s.jackson.JsonMethods._
-
 import types._
 
 import scala.language.postfixOps
@@ -129,12 +129,12 @@ object ModelRestAPI extends RestAPI {
   /**
     * Trains a model at id
     */
-  val modelTrain: Endpoint[String] = get(APIVersion :: "model" :: int :: "train") {
+  val modelTrain: Endpoint[TrainResponse] = get(APIVersion :: "model" :: int :: "train") {
     (id: Int) =>
-      val model = Try(MatcherInterface.getModel(id))
+      val model = Try(MatcherInterface.trainModel(id))
       model match {
         case Success(Some(m))  =>
-          Ok(s"Model $id has been found, but training is not yet available.")
+          Ok(m)
         case Success(None) =>
           NotFound(NotFoundException(s"Model $id does not exist."))
         case Failure(err) =>

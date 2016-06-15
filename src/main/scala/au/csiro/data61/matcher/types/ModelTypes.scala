@@ -143,3 +143,16 @@ case object SamplingStrategySerializer extends CustomSerializer[SamplingStrategy
  * @param n
  */
 case class KFold(n: Int)
+
+/**
+  * Response from the model training
+  */
+object TrainResponses {
+
+  case class TrainResponse(id: ModelID,
+                           status: String,
+                           dateCreated: DateTime,
+                           dateModified: DateTime) extends Identifiable[ModelID]
+
+  type ModelID = Int
+}
