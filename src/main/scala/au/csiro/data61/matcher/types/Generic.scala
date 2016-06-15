@@ -59,6 +59,7 @@ trait MatcherJsonFormats {
       PathSerializer +
       SamplingStrategySerializer +
       ModelTypeSerializer +
-      FeatureSerializer
+      FeatureSerializer +
+      FeaturesConfigSerializer
 
 }

@@ -19,6 +19,7 @@ package au.csiro.data61.matcher.types
 
 import org.joda.time.DateTime
 import org.json4s._
+import org.json4s.jackson.JsonMethods
 
 object ModelTypes {
 
@@ -26,7 +27,7 @@ object ModelTypes {
                    id: ModelID,
                    modelType: ModelType,
                    labels: List[String],
-                   features: List[Feature],
+                   features: FeaturesConfig,
                    costMatrix: List[List[Double]],
                    resamplingStrategy: SamplingStrategy,
                    labelData: Map[String, String],
@@ -99,6 +100,38 @@ case object FeatureSerializer extends CustomSerializer[Feature](format => (
   }, {
   case feature: Feature =>
     JString(feature.str)
+}))
+
+/**
+  * Special type for FeaturesConfig
+  */
+case class FeaturesConfig(activeFeatures: Set[String],
+                            activeGroupFeatures: Set[String],
+                            featureExtractorParams: Map[String, Map[String,String]])
+
+
+
+case object FeaturesConfigSerializer extends CustomSerializer[FeaturesConfig](format => (
+  {
+case jv: JValue =>
+  implicit val formats = DefaultFormats
+
+  // TODO: check input feature names, raise warnings if some are incorrectly provided
+  val activeFeatures = (jv \ "activeFeatures").extract[List[String]].toSet // TODO: convert to List[Feature]
+  val activeGroupFeatures = (jv \ "activeFeatureGroups").extract[List[String]].toSet
+  val featureExtractorParams = (jv \ "featureExtractorParams")
+    .extract[List[Map[String,String]]]
+    .map({case feParams => {(feParams("name"), feParams)}}) toMap
+
+  FeaturesConfig(activeFeatures, activeGroupFeatures, featureExtractorParams)
+}, {
+  case feature: FeaturesConfig =>
+    implicit val formats = DefaultFormats
+    JObject(List(
+      "activeFeatures" -> JArray(feature.activeFeatures.toList.map(JString)),
+      "activeFeatureGroups" -> JArray(feature.activeGroupFeatures.toList.map(JString)),
+      "featureExtractorParams" -> Extraction.decompose(feature.featureExtractorParams.values)
+    ))
 }))
 
 

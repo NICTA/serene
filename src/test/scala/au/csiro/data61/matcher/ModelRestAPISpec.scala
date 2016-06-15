@@ -20,25 +20,21 @@ package au.csiro.data61.matcher
 
 import java.io.File
 
-import au.csiro.data61.matcher.types.Feature.{NUM_ALPHA, NUM_CHARS, IS_ALPHA}
+import au.csiro.data61.matcher.types.Feature.{IS_ALPHA, NUM_ALPHA, NUM_CHARS}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
-import au.csiro.data61.matcher.types.MatcherJsonFormats
+import au.csiro.data61.matcher.types.{FeaturesConfig, MatcherJsonFormats}
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
-
 import com.twitter.io.Buf
 import com.twitter.util.Await
 import org.apache.commons.io.FileUtils
 import org.junit.runner.RunWith
-
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
 import api._
 
 import language.postfixOps
-
-import scala.util.{Failure, Success, Try, Random}
-
+import scala.util.{Failure, Random, Success, Try}
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
@@ -80,7 +76,14 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
              |    "description": "${description.getOrElse("unknown")}",
              |    "modelType": "randomForest",
              |    "labels": [${labels.map(x => s""""$x"""").mkString(",")}],
-             |    "features": ["isAlpha", "numChars", "numAlpha"],
+             |     "features": {
+             |      "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
+             |      "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
+             |      "featureExtractorParams" : [ {
+             |          "name" : "prop-instances-per-class-in-knearestneighbours",
+             |          "num-neighbours" : 5
+             |          }]
+             |    },
              |    "training": {"n": 10},
              |    "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
              |    "resamplingStrategy": "ResampleToMean"
@@ -123,7 +126,14 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
              |    "description": "$testStr",
              |    "modelType": "randomForest",
              |    "labels": ["name", "address", "phone"],
-             |    "features": ["isAlpha", "numChars", "numAlpha"],
+             |    "features": {
+             |      "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
+             |      "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
+             |      "featureExtractorParams" : [ {
+             |          "name" : "prop-instances-per-class-in-knearestneighbours",
+             |          "num-neighbours" : 5
+             |          }]
+             |    },
              |    "training": {"n": 10},
              |    "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
              |    "resamplingStrategy": "ResampleToMean"
@@ -154,7 +164,14 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           s"""
              |  {
              |    "labels": ["name", "address", "phone"],
-             |    "features": ["isAlpha", "numChars", "numAlpha"]
+             |    "features": {
+             |      "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
+             |      "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
+             |      "featureExtractorParams" : [ {
+             |          "name" : "prop-instances-per-class-in-knearestneighbours",
+             |          "num-neighbours" : 5
+             |          }]
+             |    }
              |  }
            """.stripMargin))
 
@@ -166,7 +183,13 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val model = parse(response.contentString).extract[Model]
 
       assert(model.labels === List("name", "address", "phone"))
-      assert(model.features === List(IS_ALPHA, NUM_CHARS, NUM_ALPHA))
+      assert(model.features === FeaturesConfig(activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals")
+        ,activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")
+        ,featureExtractorParams = Map(
+          "prop-instances-per-class-in-knearestneighbours" -> Map(
+            "name" -> "prop-instances-per-class-in-knearestneighbours",
+            "num-neighbours" -> "5")
+        )))
 
     } finally {
       assertClose()

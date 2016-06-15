@@ -49,7 +49,13 @@ object ModelRestAPI extends RestAPI {
     id = 0,
     modelType = ModelType.RANDOM_FOREST,
     labels = List("name", "address", "phone", "flight"),
-    features = List(Feature.IS_ALPHA, Feature.NUM_ALPHA, Feature.NUM_CHARS),
+    features = FeaturesConfig(activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals")
+      ,activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")
+      ,featureExtractorParams = Map(
+        "prop-instances-per-class-in-knearestneighbours" -> Map(
+          "name" -> "prop-instances-per-class-in-knearestneighbours",
+          "num-neighbours" -> "5")
+        )),
     costMatrix = List(
       List(1,0,0,0),
       List(0,1,0,0),
@@ -192,11 +198,14 @@ object ModelRestAPI extends RestAPI {
         (raw \ "labels").extractOpt[List[String]]
       }
       features <- Try {
+//        println("****")
+//        println((raw \ "features"))
+//        println("******")
         (raw \ "features")
-          .extractOpt[List[String]]
-          .map(_.map(feature =>
-            Feature.lookup(feature)
-              .getOrElse(throw BadRequestException(s"Bad feature argument: $feature"))))
+          .extract[FeaturesConfig]
+//          .map(_.map(feature =>
+//            Feature.lookup(feature)
+//              .getOrElse(throw BadRequestException(s"Bad feature argument: $feature"))))
       }
       labelData <- Try {
         (raw \ "userData")
@@ -213,15 +222,19 @@ object ModelRestAPI extends RestAPI {
             .lookup(_)
             .getOrElse(throw BadRequestException("Bad resamplingStrategy")))
       }
-    } yield ModelRequest(
+    } yield {
+      println("<><><><>")
+      println(features)
+      println("=========")
+      ModelRequest(
       description,
       modelType,
       labels,
-      features,
+        Some(features),
       costMatrix,
       labelData,
       resamplingStrategy
-    )
+    )}
   }
 
 
@@ -241,7 +254,7 @@ object ModelRestAPI extends RestAPI {
 case class ModelRequest(description: Option[String],
                         modelType: Option[ModelType],
                         labels: Option[List[String]],
-                        features: Option[List[Feature]],
+                        features: Option[FeaturesConfig],
                         costMatrix: Option[List[List[Double]]],
                         labelData: Option[Map[String, String]],
                         resamplingStrategy: Option[SamplingStrategy])

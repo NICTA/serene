@@ -114,21 +114,19 @@ object ModelTrainer {
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
     ModelStorage.identifyPaths(id)
       .map(cts  => {
-        print("paths identified")
+//        print("paths identified")
         DataintTrainModel(classes = cts.curModel.labels,
           trainingSet = readTrainingData(cts),
           labels = readLabeledData(cts),
           trainSettings = readSettings(cts),
           postProcessingConfig = None)})
       .map(dt => {
-        print("training model created")
+        // TODO: raise error if trainingSet is empty, i.e., no raw data
         val trainer = TrainMlibSemanticTypeClassifier (dt.classes, false)
-        print("trainer initialized")
         val randomForestSchemaMatcher = trainer.train(dt.trainingSet,
           dt.labels,
           dt.trainSettings,
           dt.postProcessingConfig)
-        print("training finished")
         SerializableMLibClassifier(randomForestSchemaMatcher.model,
           dt.classes,
           randomForestSchemaMatcher.featureExtractors,
