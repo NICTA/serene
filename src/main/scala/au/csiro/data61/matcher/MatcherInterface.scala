@@ -50,13 +50,12 @@ object MatcherInterface extends LazyLogging {
 
   val DefaultSampleSize = 15
 
-
   /**
-    * Parses a servlet request to get a dataset object
+    * Parses a model request to construct a model object
     * then adds to the database, and returns the case class response
     * object.
     *
-    * @param request Servlet POST request
+    * @param request POST request with model information
     * @return Case class object for JSON conversion
     */
   def createModel(request: ModelRequest): Model = {
@@ -116,6 +115,38 @@ object MatcherInterface extends LazyLogging {
       None
     }
   }
+
+  /**
+   * Parses a model request to construct a model object
+   * for updating. The index is searched for in the database,
+   * and if update is successful, returns the case class response
+   * object.
+   *
+   * @param request POST request with model information
+   * @return Case class object for JSON conversion
+   */
+  def updateModel(id: ModelID, request: ModelRequest): Model = {
+
+    // build the model from the request, adding defaults where necessary
+    val modelOpt = for {
+      m <- ModelStorage.get(id)
+      model <- Try {
+        m.copy(
+          description = request.description.getOrElse(m.description),
+          modelType = request.modelType.getOrElse(m.modelType),
+          labels = request.labels.getOrElse(m.labels),
+          features = request.features.getOrElse(m.features),
+          costMatrix = request.costMatrix.getOrElse(m.costMatrix),
+          resamplingStrategy = request.resamplingStrategy.getOrElse(m.resamplingStrategy),
+          labelData = request.labelData.getOrElse(m.labelData),
+          dateModified = DateTime.now)
+      }.toOption
+      _ <- ModelStorage.update(id, model)
+    } yield model
+
+    modelOpt getOrElse { throw InternalException("Failed to update resource.") }
+  }
+
 
   /**
    * Parses a servlet request to get a dataset object

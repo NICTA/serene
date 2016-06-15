@@ -39,9 +39,9 @@ import language.postfixOps
 
 import scala.util.{Failure, Success, Try, Random}
 
+import org.json4s.JsonDSL._
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
-
 /**
  * Tests for the Model REST endpoint API
  */
@@ -50,6 +50,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   import ModelRestAPI._
 
+  val DefaultLabelCount = 4
+
   override def beforeEach() {
     FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
   }
@@ -57,37 +59,46 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   override def afterEach() {
     FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
   }
+
+  def randomString: String = Random.alphanumeric take 10 mkString
+
+  /**
+   * Builds a standard POST request object from a json object.
+   *
+   * @param json
+   * @param url
+   * @return
+   */
+  def postRequest(json: JObject, url: String = s"/$APIVersion/model")(implicit s: TestServer): Request = {
+    RequestBuilder()
+      .url(s.fullUrl(url))
+      .addHeader("Content-Type", "application/json")
+      .buildPost(Buf.Utf8(compact(render(json))))
+  }
+
   /**
    * Posts a request to build a model, then returns the Model object it created
    * wrapped in a Try.
    *
-   * @param server Test server for this request
    * @param labels The model request object
    * @return Model that was constructed
    */
-  def postAndReturn(server: TestServer,
-                    labels: List[String],
-                    description: Option[String] = None): Try[Model] = {
+  def postAndReturn(labels: List[String],
+                    description: Option[String] = None)(implicit s: TestServer): Try[Model] = {
 
     Try {
 
-      val req = RequestBuilder()
-        .url(server.fullUrl(s"/$APIVersion/model"))
-        .addHeader("Content-Type", "application/json")
-        .buildPost(Buf.Utf8(
-          s"""
-             |  {
-             |    "description": "${description.getOrElse("unknown")}",
-             |    "modelType": "randomForest",
-             |    "labels": [${labels.map(x => s""""$x"""").mkString(",")}],
-             |    "features": ["isAlpha", "numChars", "numAlpha"],
-             |    "training": {"n": 10},
-             |    "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
-             |    "resamplingStrategy": "ResampleToMean"
-             |  }
-           """.stripMargin))
+      val json =
+        ("description" -> description.getOrElse("unknown")) ~
+          ("modelType" -> "randomForest") ~
+          ("labels" -> labels) ~
+          ("features" -> Seq("isAlpha", "numChars", "numAlpha") ) ~
+          ("costMatrix" -> JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))) ~
+          ("resamplingStrategy" -> "ResampleToMean")
 
-      val response = Await.result(server.client(req))
+      val req = postRequest(json)
+
+      val response = Await.result(s.client(req))
 
       parse(response.contentString).extract[Model]
     }
@@ -111,24 +122,19 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   test("POST /v1.0/model responds Ok(200)") (new TestServer {
     try {
+      val LabelLength = 4
+      val TestStr = randomString
+      val TestLabels = List.fill(LabelLength)(randomString)
 
-      val testStr = Random.alphanumeric take 10 mkString
+      val json =
+        ("description" -> TestStr) ~
+          ("modelType" -> "randomForest") ~
+          ("labels" -> TestLabels) ~
+          ("features" -> Seq("isAlpha", "numChars", "numAlpha") ) ~
+          ("costMatrix" -> JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))) ~
+          ("resamplingStrategy" -> "ResampleToMean")
 
-      val request = RequestBuilder()
-        .url(fullUrl(s"/$APIVersion/model"))
-        .addHeader("Content-Type", "application/json")
-        .buildPost(Buf.Utf8(
-          s"""
-             |  {
-             |    "description": "$testStr",
-             |    "modelType": "randomForest",
-             |    "labels": ["name", "address", "phone"],
-             |    "features": ["isAlpha", "numChars", "numAlpha"],
-             |    "training": {"n": 10},
-             |    "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
-             |    "resamplingStrategy": "ResampleToMean"
-             |  }
-           """.stripMargin))
+      val request = postRequest(json)
 
       val response = Await.result(client(request))
 
@@ -137,7 +143,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       assert(!response.contentString.isEmpty)
       val model = parse(response.contentString).extract[Model]
 
-      assert(model.description === testStr)
+      assert(model.description === TestStr)
+      assert(model.labels === TestLabels)
 
     } finally {
       assertClose()
@@ -147,16 +154,14 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("POST /v1.0/model only labels and features required") (new TestServer {
     try {
 
-      val request = RequestBuilder()
-        .url(fullUrl(s"/$APIVersion/model"))
-        .addHeader("Content-Type", "application/json")
-        .buildPost(Buf.Utf8(
-          s"""
-             |  {
-             |    "labels": ["name", "address", "phone"],
-             |    "features": ["isAlpha", "numChars", "numAlpha"]
-             |  }
-           """.stripMargin))
+      val LabelLength = 4
+      val TestLabels = List.fill(LabelLength)(randomString)
+
+      val json =
+        ("labels" -> TestLabels) ~
+          ("features" -> Seq("isAlpha", "numChars", "numAlpha"))
+
+      val request = postRequest(json)
 
       val response = Await.result(client(request))
 
@@ -165,7 +170,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       assert(!response.contentString.isEmpty)
       val model = parse(response.contentString).extract[Model]
 
-      assert(model.labels === List("name", "address", "phone"))
+      assert(model.labels === TestLabels)
       assert(model.features === List(IS_ALPHA, NUM_CHARS, NUM_ALPHA))
 
     } finally {
@@ -176,15 +181,10 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("POST /v1.0/model fails if labels not present BadRequest(400)") (new TestServer {
     try {
 
-      val request = RequestBuilder()
-        .url(fullUrl(s"/$APIVersion/model"))
-        .addHeader("Content-Type", "application/json")
-        .buildPost(Buf.Utf8(
-          s"""
-             |  {
-             |    "description": "hello"
-             |  }
-           """.stripMargin))
+      // some request without labels...
+      val json = "description" -> randomString
+
+      val request = postRequest(json)
 
       val response = Await.result(client(request))
 
@@ -199,9 +199,10 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   test("POST /v1.0/model appears in model list") (new TestServer {
     try {
-      val labels = List("name", "addr","asdf")
+      val LabelLength = 4
+      val TestLabels = List.fill(LabelLength)(randomString)
 
-      postAndReturn(this, labels) match {
+      postAndReturn(TestLabels) match {
         case Success(model) =>
 
           // build a request to modify the model...
@@ -224,10 +225,11 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   test("GET /v1.0/model/id responds Ok(200)") (new TestServer {
     try {
-      val TestStr = Random.alphanumeric take 10 mkString
-      val TestLabels = List("name", "addr","asdf")
+      val LabelLength = 4
+      val TestStr = randomString
+      val TestLabels = List.fill(LabelLength)(randomString)
 
-      postAndReturn(this, TestLabels, Some(TestStr)) match {
+      postAndReturn(TestLabels, Some(TestStr)) match {
         case Success(model) =>
 
           // build a request to modify the model...
@@ -280,74 +282,81 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-//  test("POST /v1.0/model/id responds Ok(200)") (new TestServer {
-//    try {
-//      val TypeMap = """{"w":"x", "y":"z"}"""
-//      val TestStr = Random.alphanumeric take 10 mkString
-//      val PauseTime = 2000
-//
-//      postAndReturn(this, Resource, "{}", "") match {
-//        case Success(ds) =>
-//          // wait for the clock to tick
-//          Thread.sleep(PauseTime)
-//
-//          // build a request to modify the dataset...
-//          val request = RequestBuilder()
-//            .url(fullUrl(s"/$APIVersion/dataset/${ds.id}"))
-//            .addFormElement("description" -> TestStr)
-//            .addFormElement("typeMap" -> TypeMap)
-//            .buildFormPost(multipart = false)
-//
-//          // send the request and make sure it executes
-//          val response = Await.result(client(request))
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // ensure that the data is correct...
-//          val patchDS = parse(response.contentString).extract[DataSet]
-//          assert(patchDS.description === TestStr)
-//          assert(patchDS.dateCreated !== patchDS.dateModified)
-//          assert(patchDS.typeMap.get("w") === Some("x"))
-//          assert(patchDS.typeMap.get("y") === Some("z"))
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      assertClose()
-//    }
-//  })
+  test("POST /v1.0/model/id responds Ok(200)") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestStr = randomString
+      val TestLabels = List.fill(LabelLength)(randomString)
+      val PauseTime = 2000
 
-//  test("DELETE /v1.0/dataset/id responds Ok(200)") (new TestServer {
-//    try {
-//      val TypeMap = """{"w":"x", "y":"z"}"""
-//      val TestStr = Random.alphanumeric take 10 mkString
-//
-//      postAndReturn(this, Resource, TypeMap, TestStr) match {
-//        case Success(ds) =>
-//
-//          // build a request to modify the dataset...
-//          val resource = s"/$APIVersion/dataset/${ds.id}"
-//
-//          val response = delete(resource)
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // there should be nothing there, and the response
-//          // should say so.
-//          val noResource = get(resource)
-//          assert(noResource.contentType === Some(JsonHeader))
-//          assert(noResource.status === Status.NotFound)
-//          assert(!noResource.contentString.isEmpty)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      assertClose()
-//    }
-//  })
+      val NewDescription = randomString
+      val NewLabels = List.fill(LabelLength)(randomString)
+
+      postAndReturn(TestLabels, Some(TestStr)) match {
+        case Success(ds) =>
+          // wait for the clock to tick for the dateModified
+          Thread.sleep(PauseTime)
+
+          val json =
+            ("description" -> NewDescription) ~
+              ("modelType" -> "randomForest") ~
+              ("labels" -> NewLabels) ~
+              ("features" -> Seq("isAlpha", "numChars", "numAlpha") ) ~
+              ("costMatrix" -> "[[1,0,0], [0,1,0], [0,0,1]]") ~
+              ("resamplingStrategy" -> "ResampleToMean")
+
+          val request = postRequest(json, s"/$APIVersion/model/${ds.id}")
+
+          // send the request and make sure it executes
+          val response = Await.result(client(request))
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // ensure that the data is correct...
+          val patchModel = parse(response.contentString).extract[Model]
+          assert(patchModel.description === NewDescription)
+          assert(patchModel.labels === NewLabels)
+          assert(patchModel.dateCreated !== patchModel.dateModified)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("DELETE /v1.0/model/id responds Ok(200)") (new TestServer {
+    try {
+      val TestStr = randomString
+      val NumLabels = 4
+      val TestLabels = List.fill(NumLabels)(randomString)
+
+      postAndReturn(TestLabels, Some(TestStr)) match {
+        case Success(model) =>
+
+          // build a request to modify the dataset...
+          val resource = s"/$APIVersion/model/${model.id}"
+
+          val response = delete(resource)
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // there should be nothing there, and the response
+          // should say so.
+          val noResource = get(resource)
+          assert(noResource.contentType === Some(JsonHeader))
+          assert(noResource.status === Status.NotFound)
+          assert(!noResource.contentString.isEmpty)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      assertClose()
+    }
+  })
 
 }

@@ -18,6 +18,7 @@
 package au.csiro.data61.matcher.api
 
 import au.csiro.data61.matcher.api.DatasetRestAPI._
+import au.csiro.data61.matcher.types.DataSetTypes._
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher._
 import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
@@ -145,11 +146,21 @@ object ModelRestAPI extends RestAPI {
   /**
    * Patch a portion of a Model. Will destroy all cached models
    */
-  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int) {
-    (id: Int) =>
-      Ok(TestModel)
+  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int :: body) {
+    (id: Int, body: String) =>
+      (for {
+        request <- parseModelRequest(body)
+        model <- Try {
+          MatcherInterface.updateModel(id, request)
+        }
+      } yield model)
+      match {
+        case Success(m) =>
+          Ok(m)
+        case Failure(err) =>
+          InternalServerError(InternalException(err.getMessage))
+      }
   }
-
 
   /**
    * Deletes the model at position id.
@@ -172,13 +183,14 @@ object ModelRestAPI extends RestAPI {
 
   /**
    * Helper function to parse a string into a ModelRequest object...
-   * @param str
+   *
+   * @param str The json string with the model request information
    * @return
    */
   def parseModelRequest(str: String): Try[ModelRequest] = {
-    val raw = parse(str)
 
     for {
+      raw <- Try { parse(str) }
       description <- Try {
         (raw \ "description")
           .extractOpt[String]
@@ -189,7 +201,8 @@ object ModelRestAPI extends RestAPI {
           .flatMap(ModelType.lookup)
       }
       labels <- Try {
-        (raw \ "labels").extractOpt[List[String]]
+        (raw \ "labels")
+          .extractOpt[List[String]]
       }
       features <- Try {
         (raw \ "features")

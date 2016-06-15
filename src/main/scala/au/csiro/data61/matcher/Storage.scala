@@ -226,8 +226,71 @@ object ModelStorage extends Storage[ModelID, Model] {
     parse(stream).extract[Model]
   }
 
+  /**
+   * Returns the path to the serialized trained model
+   *
+   * @param id The `id` key to the model
+   * @return Path to the binary resource
+   */
+  def modelPath(id: ModelID): Path = {
+    Paths.get(getDirectoryPath(id).toString, s"$id.rf")
+  }
+
+  /**
+   * Updates the model at `id` and also deletes the previously
+   * trained model if it exists.
+   *
+   * @param id ID to give to the element
+   * @param value Value object
+   * @return ID of the resource created (if any)
+   */
+  override def update(id: ModelID, value: Model): Option[ModelID] = {
+    for {
+      updatedID <- super.update(id, value)
+      deleteOK <- deleteModel(updatedID)
+    } yield deleteOK
+  }
+
+  /**
+   * Deletes the model file resource if available
+   *
+   * @param id The key for the model object
+   * @return
+   */
+  protected def deleteModel(id: ModelID): Option[ModelID] = {
+    cache.get(id) match {
+      case Some(ds) =>
+        val modelFile = modelPath(id)
+
+        if (Files.exists(modelFile)) {
+          // delete model file - be careful
+          synchronized {
+            Try(FileUtils.deleteQuietly(modelFile.toFile)) match {
+              case Failure(err) =>
+                logger.error(s"Failed to delete file: ${err.getMessage}")
+                None
+              case _ =>
+                Some(id)
+            }
+          }
+        } else {
+          Some(id)
+        }
+      case _ =>
+        logger.error(s"Resource not found: $id")
+        None
+    }
+  }
+
+  /**
+   * Writes the MLib classifier object to a file at address `id`
+   *
+   * @param id The id key for the model
+   * @param learntModel The trained model
+   * @return
+   */
   def writeModel(id: ModelID, learntModel: SerializableMLibClassifier): Boolean = {
-    val writePath = Paths.get(getDirectoryPath(id).toString, s"$id.rf").toString
+    val writePath = modelPath(id).toString
 
     val out = Try(new ObjectOutputStream(new FileOutputStream(writePath)))
     print(s"Writing model rf:  $writePath")
