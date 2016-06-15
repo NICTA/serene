@@ -17,8 +17,7 @@
  */
 package au.csiro.data61.matcher.api
 
-import au.csiro.data61.matcher.api.DatasetRestAPI._
-import au.csiro.data61.matcher.types.DataSetTypes._
+import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher._
 import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
@@ -56,7 +55,7 @@ object ModelRestAPI extends RestAPI {
       List(0,1,0,0),
       List(0,0,1,0),
       List(0,0,0,1)),
-    labelData = Map.empty[String, String],
+    labelData = Map.empty[ColumnID, String],
     resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN,
     dateCreated = DateTime.now,
     dateModified = DateTime.now
@@ -211,9 +210,9 @@ object ModelRestAPI extends RestAPI {
             Feature.lookup(feature)
               .getOrElse(throw BadRequestException(s"Bad feature argument: $feature"))))
       }
-      labelData <- Try {
+      userData <- Try {
         (raw \ "userData")
-          .extractOpt[Map[String, String]]
+          .extractOpt[Map[ColumnID, String]]
       }
       costMatrix <- Try {
         (raw \ "costMatrix")
@@ -232,7 +231,7 @@ object ModelRestAPI extends RestAPI {
       labels,
       features,
       costMatrix,
-      labelData,
+      userData,
       resamplingStrategy
     )
   }
@@ -256,5 +255,5 @@ case class ModelRequest(description: Option[String],
                         labels: Option[List[String]],
                         features: Option[List[Feature]],
                         costMatrix: Option[List[List[Double]]],
-                        labelData: Option[Map[String, String]],
+                        labelData: Option[Map[ColumnID, String]],
                         resamplingStrategy: Option[SamplingStrategy])

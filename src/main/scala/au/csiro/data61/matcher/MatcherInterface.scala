@@ -19,6 +19,7 @@ package au.csiro.data61.matcher
 
 import java.nio.file.Path
 
+import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
 import au.csiro.data61.matcher.types._
@@ -64,7 +65,12 @@ object MatcherInterface extends LazyLogging {
 
     // build the model from the request, adding defaults where necessary
     val modelOpt = for {
-
+        userData <- Some(
+          request.labelData.getOrElse(Map.empty[ColumnID, String])
+        )
+        (keysIn, keysOut) <- Option {
+          userData.keySet.partition(DatasetStorage.columnMap.keySet.contains)
+        }
         model <- Try {
           Model(
             id = id,
@@ -74,15 +80,19 @@ object MatcherInterface extends LazyLogging {
             features = request.features.getOrElse(Feature.values.toList),
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
-            labelData = request.labelData.getOrElse(Map.empty[String, String]),
+            labelData = userData.filterKeys(keysIn),
             dateCreated = DateTime.now,
             dateModified = DateTime.now)
         } toOption
 
         _ <- ModelStorage.add(id, model)
 
-      } yield model
-
+      } yield {
+      if (keysOut.nonEmpty) {
+        logger.warn(s"Following column keys do not exist: ${keysOut.mkString(",")}")
+      }
+      model
+    }
     modelOpt getOrElse { throw InternalException("Failed to create resource.") }
   }
 

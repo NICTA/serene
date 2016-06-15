@@ -22,6 +22,7 @@ import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
 import au.csiro.data61.matcher.api.FileStream
+import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.matcher.types._
 import com.typesafe.scalalogging.LazyLogging
@@ -167,7 +168,7 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
    */
   protected def writeToFile(value: Value): Unit = {
 
-    val str = compact(Extraction.decompose(value))
+    val str = compact(Extraction.decompose(value)(json4sFormats))
 
     val outputPath = getPath(value.id)
 
@@ -329,6 +330,11 @@ object ModelStorage extends Storage[ModelID, Model] {
 object DatasetStorage extends Storage[DataSetID, DataSet] {
 
   def rootDir: String = new File(Config.DatasetStorageDir).getAbsolutePath
+
+  def columnMap: Map[ColumnID, Column[Any]] = cache.values
+    .flatMap(_.columns)
+    .map(col => col.id -> col)
+    .toMap
 
   def extract(stream: FileInputStream): DataSet = {
     parse(stream).extract[DataSet]

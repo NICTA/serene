@@ -17,6 +17,7 @@
  */
 package au.csiro.data61.matcher.types
 
+import ColumnTypes.ColumnID
 import org.joda.time.DateTime
 import org.json4s._
 
@@ -29,7 +30,7 @@ object ModelTypes {
                    features: List[Feature],
                    costMatrix: List[List[Double]],
                    resamplingStrategy: SamplingStrategy,
-                   labelData: Map[String, String],
+                   labelData: Map[ColumnID, String],
                    dateCreated: DateTime,
                    dateModified: DateTime) extends Identifiable[ModelID]
 
