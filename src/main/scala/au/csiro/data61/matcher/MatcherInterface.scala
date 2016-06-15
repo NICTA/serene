@@ -140,7 +140,7 @@ object MatcherInterface extends LazyLogging {
 
     val dataSet = for {
       fs <- request.file
-      path <- DatasetStorage.addFile(id, fs.stream)
+      path <- DatasetStorage.addFile(id, fs)
       ds <- Try(DataSet(
               id = id,
               columns = getColumns(path, id, typeMap),

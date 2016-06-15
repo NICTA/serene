@@ -24,12 +24,13 @@ import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.matcher.types._
 import com.typesafe.scalalogging.LazyLogging
-import org.apache.commons.io.FileUtils
+import org.apache.commons.io.{FileUtils, FilenameUtils}
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
 import scala.util.{Failure, Success, Try}
 import DataSetTypes._
+import au.csiro.data61.matcher.api.parsers.FileStream
 
 import scala.language.postfixOps
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
@@ -279,9 +280,11 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
    * @param stream The input stream
    * @return The path to the resource (if successful)
    */
-  def addFile(id: DataSetID, stream: InputStream): Option[Path] = {
+  def addFile(id: DataSetID, fs: FileStream): Option[Path] = {
 
-    val outputPath = Paths.get(this.getPath(id).getParent.toString, s"$id.txt")
+    val ext = FilenameUtils.getExtension(fs.name).toLowerCase
+
+    val outputPath = Paths.get(this.getPath(id).getParent.toString, s"$id.$ext")
 
     Try {
       // ensure that the directories exist...
@@ -289,7 +292,7 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
 
       // copy the file portion over into the output path
       Files.copy(
-        stream,
+        fs.stream,
         outputPath,
         StandardCopyOption.REPLACE_EXISTING
       )
@@ -297,6 +300,13 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
       outputPath
 
     } toOption
+  }
+
+  /**
+    *
+    */
+  def getCSVResources: List[String] = {
+    cache.values.map(_.path.toString).filter(_.endsWith("csv")).toList
   }
 
 }

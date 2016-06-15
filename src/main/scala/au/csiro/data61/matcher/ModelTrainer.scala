@@ -17,6 +17,7 @@
   */
 package au.csiro.data61.matcher
 
+import java.io.File
 import java.nio.file.Paths
 
 import au.csiro.data61.matcher.types.{Feature, ModelType, SamplingStrategy}
@@ -80,15 +81,23 @@ object ModelTrainer {
   /*
    Returns a list of DataModel instances at path
     */
-  def getDataModels(path: String): List[DataModel] = CSVHierarchicalDataLoader().readDataSets(path, "")
+  def getDataModels(path: String): List[DataModel] = {
+    val csvres = DatasetStorage.getCSVResources
+    println("****")
+    println(s"resources: $csvres")
+    println("****")
+      csvres.map{CSVHierarchicalDataLoader()
+        .readDataSet(_,"")}
+  }
 
   /*
    Returns a list of DataModel instances for the dataset repository
     */
   def readTrainingData(trainerPaths: ModelTrainerPaths): DataModel = {
-    print(s"Datasets are located at: $datasetDir")
     val datasets = getDataModels(datasetDir)
-    new DataModel("", None, None, Some(datasets))
+    val a = new DataModel("", None, None, Some(datasets))
+    println(s"Datamodels created: ${datasets.length}")
+    a
   }
 
   /*
