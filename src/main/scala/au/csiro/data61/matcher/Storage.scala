@@ -303,7 +303,7 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
   }
 
   /**
-    *
+    * Return a list of paths where csv resources are stored
     */
   def getCSVResources: List[String] = {
     cache.values.map(_.path.toString).filter(_.endsWith("csv")).toList
