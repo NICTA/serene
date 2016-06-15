@@ -30,7 +30,7 @@ object ModelTypes {
                    features: List[Feature],
                    costMatrix: List[List[Double]],
                    resamplingStrategy: SamplingStrategy,
-                   labelData: Map[ColumnID, String],
+                   labelData: Map[Int, String],
                    dateCreated: DateTime,
                    dateModified: DateTime) extends Identifiable[ModelID]
 
