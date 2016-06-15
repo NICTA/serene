@@ -31,6 +31,7 @@ import org.json4s.jackson.JsonMethods._
 
 import scala.util.{Failure, Success, Try}
 import DataSetTypes._
+import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
 
 import scala.language.postfixOps
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
@@ -286,6 +287,11 @@ object ModelStorage extends Storage[ModelID, Model] {
 object DatasetStorage extends Storage[DataSetID, DataSet] {
 
   def rootDir: String = new File(Config.DatasetStorageDir).getAbsolutePath
+
+  def columnMap: Map[ColumnID, Column[Any]] = cache.values
+    .flatMap(_.columns)
+    .map(col => col.id -> col)
+    .toMap
 
   def extract(stream: FileInputStream): DataSet = {
     parse(stream).extract[DataSet]

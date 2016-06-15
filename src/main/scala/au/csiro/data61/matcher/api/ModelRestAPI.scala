@@ -61,7 +61,7 @@ object ModelRestAPI extends RestAPI {
       List(0,1,0,0),
       List(0,0,1,0),
       List(0,0,0,1)),
-    labelData = Map.empty[String, String],
+    labelData = Map.empty[Int, String],
     resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN,
     dateCreated = DateTime.now,
     dateModified = DateTime.now
@@ -206,7 +206,7 @@ object ModelRestAPI extends RestAPI {
       }
       labelData <- Try {
         (raw \ "userData")
-          .extractOpt[Map[String, String]]
+          .extractOpt[Map[Int, String]]
       }
       costMatrix <- Try {
         (raw \ "costMatrix")
@@ -253,5 +253,5 @@ case class ModelRequest(description: Option[String],
                         labels: Option[List[String]],
                         features: Option[FeaturesConfig],
                         costMatrix: Option[List[List[Double]]],
-                        labelData: Option[Map[String, String]],
+                        labelData: Option[Map[Int, String]],
                         resamplingStrategy: Option[SamplingStrategy])

@@ -65,7 +65,13 @@ object MatcherInterface extends LazyLogging {
 
     // build the model from the request, adding defaults where necessary
     val modelOpt = for {
-
+      userData <- Some(
+        request.labelData.getOrElse(Map.empty[Int, String])
+      )
+      (keysIn, keysOut) <- Option {
+        userData.keySet.partition(DatasetStorage.columnMap.keySet.contains)
+      }
+    // TODO: check that provided mappings for columns in userData are found among labels
         model <- Try {
           Model(
             id = id,
@@ -75,14 +81,19 @@ object MatcherInterface extends LazyLogging {
             features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
-            labelData = request.labelData.getOrElse(Map.empty[String, String]),
+            labelData = userData.filterKeys(keysIn),
             dateCreated = DateTime.now,
             dateModified = DateTime.now)
         } toOption
 
         _ <- ModelStorage.add(id, model)
 
-      } yield model
+      } yield {
+      if (keysOut.nonEmpty) {
+        logger.warn(s"Following column keys do not exist: ${keysOut.mkString(",")}")
+      }
+      model
+    }
 
     modelOpt getOrElse { throw InternalException("Failed to create resource.") }
   }

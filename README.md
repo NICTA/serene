@@ -42,6 +42,7 @@ curl -X POST \
         "featureExtractorParams" : [{"name" : "prop-instances-per-class-in-knearestneighbours","num-neighbours" : 5}]
         },
     "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
+    "userData" : {"1" : "name", "1470086804" : "name"},
     "resamplingStrategy": "ResampleToMean"
     }' \
   localhost:8080/v1.0/model

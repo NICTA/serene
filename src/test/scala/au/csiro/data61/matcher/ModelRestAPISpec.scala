@@ -304,7 +304,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   })
 
 
-//  TODO: create model with incorrect featurescongig feature names
+//  TODO: create model with incorrect featuresconfig feature names
 
 //  TODO: train model with no training datasets
 
