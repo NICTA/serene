@@ -245,6 +245,83 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
+    * Transforms user provided label data to the old format
+    *
+    * @param value The Model to write to disk
+    */
+  def convertLabelData(value : Model) : List[List[String]] = {
+    //just fail the splitting of files if some columns from labelData are not found in colunmMap???
+    List("attr_id", "class") :: // header for the file
+      value.labelData           // converting to the format: "datasetID.csv/columnName,labelName"
+        .map { x => {
+          val col = DatasetStorage.columnMap(x._1) // lookup column in columnMap
+          val ext = FilenameUtils.getExtension(col.path.toString).toLowerCase
+          val dsWithExt = s"${col.datasetID}.$ext" // dataset name as it is stored in DatasetStorage
+          List(s"$dsWithExt/${col.name}", x._2)
+        }}
+        .toList
+    //    this is the way to do it if we want to check that lookups happen correctly
+    //    val labelData : List[(String,String)] = value.labelData
+    //      .map { x => {
+    //        val column = Try(DatasetStorage.columnMap(x._1))
+    //        column match{
+    //          case Success(col) => (col.name, x._2)
+    //          case _ => ("","")
+    //        }}
+    //      }
+    //      .toList
+    //      .filter(_ != ("",""))
+  }
+
+  /**
+    * Writes the object to disk as a serialized json string
+    * at a pre-defined location based on the id.
+    *
+    * @param value The Model to write to disk
+    */
+  override protected def writeToFile(value: Model): Unit = {
+
+    super.writeToFile(value) // write model json
+
+//  write config files according to the data integration project
+    val wsDir = getWSPath(value.id).toFile  // workspace directory
+    if (!wsDir.exists) wsDir.mkdirs         // create workspace directory if it doesn't exist
+
+    //cost_matrix_config.json
+    val costMatrixConfigPath = Paths.get(wsDir.toString, s"cost_matrix_config.json")
+    val strCostMatrix = compact(Extraction.decompose(value.costMatrix))
+    logger.info(s"Writing cost_matrix_config.json for model ${value.id}")
+    Files.write(
+      costMatrixConfigPath,
+      strCostMatrix.getBytes(StandardCharsets.UTF_8)
+    )
+
+    //features_config.json
+    val featuresConfigPath = Paths.get(wsDir.toString, "features_config.json")
+    val strFeatures = compact(Extraction.decompose(value.features))
+    logger.info(s"Writing features_config.json for model ${value.id}")
+    Files.write(
+      featuresConfigPath,
+      strFeatures.getBytes(StandardCharsets.UTF_8)
+    )
+
+    //type_map.csv???
+
+    //labels; we want to write csv file with the following content:
+    // attr_id,class
+    // datasetID.csv/columnName,labelName
+    val labelsDir = Paths.get(wsDir.toString, s"labels")
+    if (!labelsDir.toFile.exists) labelsDir.toFile.mkdirs
+    val labelsPath = Paths.get(labelsDir.toString, s"labels.csv")
+    val labelData = convertLabelData(value)
+    logger.info(s"Writing labels.csv for model ${value.id}")
+    val out = new PrintWriter(new File(labelsPath.toString))
+    labelData.foreach(line => out.println(line.mkString(",")))
+    out.close()
+
+  }
+
+  /**
     * Write learnt model file for id
     */
   def writeModel(id: ModelID, learntModel: SerializableMLibClassifier): Boolean = {
