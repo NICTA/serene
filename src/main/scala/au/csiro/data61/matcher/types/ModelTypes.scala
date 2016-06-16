@@ -158,6 +158,7 @@ case class FeaturesConfig(activeFeatures: Set[String],
                             activeGroupFeatures: Set[String],
                             featureExtractorParams: Map[String, Map[String,String]])
 
+// TODO: type-map is part of  featureExtractorParams, type-maps need to be read from datasetrepository when model gets created
 
 
 case object FeaturesConfigSerializer extends CustomSerializer[FeaturesConfig](format => (

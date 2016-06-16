@@ -315,6 +315,8 @@ object ModelStorage extends Storage[ModelID, Model] {
     )
 
     //type_map.csv???
+    // TODO: type-map is part of  featureExtractorParams, type-maps need to be read from datasetrepository when model gets created
+    // "featureExtractorParams": [{"name": "inferred-data-type","type-map": "src/test/resources/config/type_map.csv"}]
 
     //labels; we want to write csv file with the following content:
     // attr_id,class
