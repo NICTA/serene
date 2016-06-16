@@ -78,7 +78,7 @@ object MatcherInterface extends LazyLogging {
             description = request.description.getOrElse(MissingValue),
             modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
             labels = request.labels.getOrElse(List()),
-            features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
+            features = request.features.getOrElse(Feature.values.toList),
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
             labelData = userData.filterKeys(keysIn),
