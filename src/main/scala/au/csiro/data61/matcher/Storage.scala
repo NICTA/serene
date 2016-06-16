@@ -440,7 +440,7 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
    */
   def addFile(id: DataSetID, fs: FileStream): Option[Path] = {
 
-    val ext = FilenameUtils.getExtension(fs.name).toLowerCase
+    val ext = FilenameUtils.getExtension(fs.name).toLowerCase // original file extension
 
     val outputPath = Paths.get(this.getPath(id).getParent.toString, s"$id.$ext")
 
