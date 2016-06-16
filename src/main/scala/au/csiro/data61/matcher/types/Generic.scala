@@ -61,6 +61,6 @@ trait MatcherJsonFormats {
       SamplingStrategySerializer +
       ModelTypeSerializer +
       FeatureSerializer +
-      StatusSerializer
+      StatusSerializer +
       FeaturesConfigSerializer
 }

@@ -1,4 +1,4 @@
-/**jnjk
+/**
  * Copyright (C) 2015-2016 Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO).
  * See the LICENCE.txt file distributed with this work for additional
  * information regarding copyright ownership.
@@ -149,7 +149,7 @@ object MatcherInterface extends LazyLogging {
           description = request.description.getOrElse(m.description),
           modelType = request.modelType.getOrElse(m.modelType),
           labels = request.labels.getOrElse(m.labels),
-          features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
+          features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
           costMatrix = request.costMatrix.getOrElse(m.costMatrix),
           resamplingStrategy = request.resamplingStrategy.getOrElse(m.resamplingStrategy),
           labelData = request.labelData.getOrElse(m.labelData),

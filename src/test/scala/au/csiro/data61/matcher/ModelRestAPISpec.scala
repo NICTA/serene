@@ -125,13 +125,17 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val TestStr = randomString
       val TestLabels = List.fill(LabelLength)(randomString)
 
-      // TODO: features are incorrect here
       val json =
         ("description" -> TestStr) ~
           ("modelType" -> "randomForest") ~
           ("labels" -> TestLabels) ~
-          ("features" -> Seq("isAlpha", "numChars", "numAlpha") ) ~
-          ("costMatrix" -> JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))) ~
+          ("features" ->
+            ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals" )) ~
+              ("activeFeatureGroups" -> Seq("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")) ~
+              ("featureExtractorParams" -> JArray(List(("name" -> "prop-instances-per-class-in-knearestneighbours") ~ ("num-neighbours" -> 5)))
+                )
+            ) ~
+      ("costMatrix" -> JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))) ~
           ("resamplingStrategy" -> "ResampleToMean")
 
       val request = postRequest(json)
@@ -159,21 +163,12 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val json =
         ("labels" -> TestLabels) ~
-          ("features" -> Seq("isAlpha", "numChars", "numAlpha"))
-
-//      s"""
-//         |  {
-//         |    "labels": ["name", "address", "phone"],
-//         |    "features": {
-//         |      "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
-//         |      "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
-//         |      "featureExtractorParams" : [ {
-//         |          "name" : "prop-instances-per-class-in-knearestneighbours",
-//         |          "num-neighbours" : 5
-//         |          }]
-//         |    }
-//         |  }
-//           """
+          ("features" ->
+            ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals" )) ~
+              ("activeFeatureGroups" -> Seq("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")) ~
+              ("featureExtractorParams" -> Seq(("name" -> "prop-instances-per-class-in-knearestneighbours") ~ ("num-neighbours" -> 5))
+                )
+            )
 
       val request = postRequest(json)
 
@@ -185,8 +180,6 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val model = parse(response.contentString).extract[Model]
 
       assert(model.labels === TestLabels)
-      assert(model.features === List(IS_ALPHA, NUM_CHARS, NUM_ALPHA))
-      assert(model.labels === List("name", "address", "phone"))
       assert(model.features === FeaturesConfig(activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals")
         ,activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")
         ,featureExtractorParams = Map(
