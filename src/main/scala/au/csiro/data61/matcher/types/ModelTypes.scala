@@ -44,13 +44,13 @@ object ModelTypes {
   object Status {
     case object ERROR extends Status { val str = "error" }
     case object UNTRAINED extends Status { val str = "untrained" }
-    case object TRAINING extends Status { val str = "training" }
+    case object BUSY extends Status { val str = "busy" }
     case object COMPLETE extends Status { val str = "complete" }
 
     val values = Set(
       ERROR,
       UNTRAINED,
-      TRAINING,
+      BUSY,
       COMPLETE
     )
 
@@ -81,9 +81,9 @@ object ModelTypes {
    * @param dateModified The last time the state changed
    */
   case class TrainState(status: Status,
+                        message: String,
                         dateCreated: DateTime,
                         dateModified: DateTime)
-
 }
 
 /**

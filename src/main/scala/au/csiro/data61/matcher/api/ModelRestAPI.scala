@@ -57,7 +57,7 @@ object ModelRestAPI extends RestAPI {
     labelData = Map.empty[Int, String],
     resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN,
     refDataSets = List(1, 2, 3, 4),
-    state = TrainState(Status.UNTRAINED, DateTime.now, DateTime.now),
+    state = TrainState(Status.UNTRAINED, "", DateTime.now, DateTime.now),
     dateCreated = DateTime.now,
     dateModified = DateTime.now
   )
@@ -130,12 +130,12 @@ object ModelRestAPI extends RestAPI {
   /**
     * Trains a model at id
     */
-  val modelTrain: Endpoint[TrainState] = get(APIVersion :: "model" :: int :: "train") {
+  val modelTrain: Endpoint[Unit] = get(APIVersion :: "model" :: int :: "train") {
     (id: Int) =>
-      val model = Try(MatcherInterface.trainModel(id))
-      model match {
-        case Success(Some(m))  =>
-          Ok(m)
+      val state = Try(MatcherInterface.trainModel(id))
+      state match {
+        case Success(Some(_))  =>
+          Accepted[Unit]
         case Success(None) =>
           NotFound(NotFoundException(s"Model $id does not exist."))
         case Failure(err) =>

@@ -32,6 +32,10 @@ import scala.util.{Success, Failure, Random, Try}
 
 import scala.language.postfixOps
 
+import scala.concurrent.{ExecutionContext, Future}
+
+import scala.concurrent.ExecutionContext.Implicits.global
+
 /**
  * IntegrationAPI defines the interface through which requests
  * can access the underlying system. The responsibilities are
@@ -82,7 +86,7 @@ object MatcherInterface extends LazyLogging {
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
             labelData = userData.filterKeys(keysIn),
             refDataSets = colMap.filterKeys(keysIn).values.map(_.datasetID).toList,
-            state = TrainState(Status.UNTRAINED, DateTime.now, DateTime.now),
+            state = TrainState(Status.UNTRAINED, "", DateTime.now, DateTime.now),
             dateCreated = DateTime.now,
             dateModified = DateTime.now)
         } toOption
@@ -115,15 +119,56 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def trainModel(id: ModelID): Option[TrainState] = {
-    val serialModel = ModelTrainer.train(id)
 
-    val writeFlag = serialModel.map(ModelStorage.writeModel(id, _))
+    // crude concurrency
+    val state = ModelStorage.get(id).map(_.state)
+    val status = state.map(_.status)
 
-    writeFlag.map {
-      case true =>
-        TrainState(Status.COMPLETE, DateTime.now, DateTime.now)
-      case false =>
-        TrainState(Status.ERROR, DateTime.now, DateTime.now)
+    status.flatMap {
+
+      case Status.BUSY =>
+        // if it is complete or pending, just return the value
+        logger.info("Returning cached state")
+        state
+
+      case Status.COMPLETE | Status.UNTRAINED | Status.ERROR => {
+        // in the background we launch the training...
+        logger.info("Launching training.....")
+        launchTraining(id)
+        // first we set the model state to training....
+        ModelStorage.updateTrainState(id, Status.BUSY)
+      }
+    }
+  }
+
+  /**
+   * Asynchronously launch the training process, and write
+   * to storage once complete. The actual state will be
+   * returned from the above case when re-read from the
+   * storage layer.
+   *
+   * @param id Model key for the model to be launched
+   */
+  private def launchTraining(id: ModelID)(implicit ec: ExecutionContext): Unit = {
+
+    Future {
+      // proceed with training...
+      ModelTrainer.train(id).map {
+        ModelStorage.writeModel(id, _)
+      }
+    } onComplete {
+      case Success(Some(true)) =>
+        ModelStorage.updateTrainState(id, Status.COMPLETE)
+      case Success(Some(false)) =>
+        logger.error(s"Failed to write trained model")
+        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to write trained model")
+      case Success(None) =>
+        logger.error(s"Failed to identify model paths")
+        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to identify model paths")
+      case Failure(err) =>
+        val msg = s"Failed to train model: ${err.getMessage}"
+        logger.error(msg)
+        ModelStorage.updateTrainState(id, Status.ERROR, msg)
     }
   }
 

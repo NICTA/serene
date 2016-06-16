@@ -22,6 +22,7 @@ import java.nio.file.Paths
 
 import au.csiro.data61.matcher.types.{Feature, ModelType, SamplingStrategy}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
+import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
 // data integration project
@@ -48,7 +49,7 @@ case class DataintTrainModel(classes: List[String],
                              trainSettings: TrainingSettings,
                              postProcessingConfig: Option[Map[String,Any]])
 
-object ModelTrainer {
+object ModelTrainer extends LazyLogging {
 
   //  parsing step
   //  val labelsLoader = SemanticTypeLabelsLoader()
@@ -69,10 +70,10 @@ object ModelTrainer {
    Return an instance of class TrainingSettings
     */
   def readSettings(trainerPaths: ModelTrainerPaths): TrainingSettings = {
-    println(s"featuresConfig: ${trainerPaths.featuresConfigPath}, workspacePath: ${trainerPaths.workspacePath}")
+    logger.info(s"featuresConfig: ${trainerPaths.featuresConfigPath}, workspacePath: ${trainerPaths.workspacePath}")
     val featuresConfig = FeatureSettings.load(trainerPaths.featuresConfigPath, trainerPaths.workspacePath)
 //    val featuresConfig = FeatureSettings.load(trainerPaths.featuresConfigPath)
-    println("Features have been loaded")
+    logger.info("Features have been loaded")
     TrainingSettings(trainerPaths.curModel.resamplingStrategy.str,
       featuresConfig,
       Some(Left(trainerPaths.costMatrixConfigPath)))
@@ -83,9 +84,9 @@ object ModelTrainer {
     */
   def getDataModels(path: String): List[DataModel] = {
     val csvres = DatasetStorage.getCSVResources
-    println("****")
-    println(s"resources: $csvres")
-    println("****")
+    logger.info("****")
+    logger.info(s"resources: $csvres")
+    logger.info("****")
       csvres.map{CSVHierarchicalDataLoader()
         .readDataSet(_,"")}
   }
@@ -96,7 +97,7 @@ object ModelTrainer {
   def readTrainingData(trainerPaths: ModelTrainerPaths): DataModel = {
     val datasets = getDataModels(datasetDir)
     val a = new DataModel("", None, None, Some(datasets))
-    println(s"Datamodels created: ${datasets.length}")
+    logger.info(s"Datamodels created: ${datasets.length}")
     a
   }
 
@@ -114,21 +115,21 @@ object ModelTrainer {
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
     ModelStorage.identifyPaths(id)
       .map(cts  => {
-        print("paths identified")
+        logger.info("paths identified")
         DataintTrainModel(classes = cts.curModel.labels,
           trainingSet = readTrainingData(cts),
           labels = readLabeledData(cts),
           trainSettings = readSettings(cts),
           postProcessingConfig = None)})
       .map(dt => {
-        print("training model created")
+        logger.info("training model created")
         val trainer = TrainMlibSemanticTypeClassifier (dt.classes, false)
-        print("trainer initialized")
+        logger.info("trainer initialized")
         val randomForestSchemaMatcher = trainer.train(dt.trainingSet,
           dt.labels,
           dt.trainSettings,
           dt.postProcessingConfig)
-        print("training finished")
+        logger.info("training finished")
         SerializableMLibClassifier(randomForestSchemaMatcher.model,
           dt.classes,
           randomForestSchemaMatcher.featureExtractors,

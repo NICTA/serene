@@ -23,10 +23,11 @@ import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
 import au.csiro.data61.matcher.api.FileStream
 import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
-import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.matcher.types.ModelTypes.{TrainState, Status, Model, ModelID}
 import au.csiro.data61.matcher.types._
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.{FileUtils, FilenameUtils}
+import org.joda.time.DateTime
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
@@ -237,6 +238,30 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
+   * Attempts to read all the objects out from the storage dir
+   *
+   * Note that here we do a basic error check and reset all the
+   * paused-state 'TRAINING' models back to untrained.
+   *
+   * @return
+   */
+  override def listValues: List[Model] = {
+    super.listValues
+      .map {
+        case model =>
+          if (model.state.status == Status.BUSY) {
+            val newModel = model.copy(
+              state = model.state.copy(status = Status.UNTRAINED)
+            )
+            update(model.id, newModel)
+            newModel
+          } else {
+            model
+          }
+      }
+  }
+
+  /**
    * Updates the model at `id` and also deletes the previously
    * trained model if it exists.
    *
@@ -293,7 +318,9 @@ object ModelStorage extends Storage[ModelID, Model] {
     val writePath = modelPath(id).toString
 
     val out = Try(new ObjectOutputStream(new FileOutputStream(writePath)))
-    print(s"Writing model rf:  $writePath")
+
+    logger.info(s"Writing model rf:  $writePath")
+
     out match {
       case Failure(err) =>
         logger.error(s"Failed to write model: ${err.getMessage}")
@@ -305,11 +332,37 @@ object ModelStorage extends Storage[ModelID, Model] {
     }
   }
 
+  /**
+   * updates the training state of model `id`
+   *
+   * Note that when we update, we need to keep the model level 'dateModified' to
+   * ensure that the model parameters remains static for dataset comparisons.
+   *
+   * @param id The key for the model
+   * @param status The current status of the model training.
+   * @return
+   */
+  def updateTrainState(id: ModelID, status: Status, msg: String = ""): Option[TrainState] = {
+    synchronized {
+      for {
+        model <- ModelStorage.get(id)
+        trainState = TrainState(status, msg, model.state.dateCreated, DateTime.now)
+        id <- ModelStorage.update(id, model.copy(state = trainState, dateModified = model.dateModified))
+      } yield trainState
+    }
+  }
+
+  /**
+   * Identifies the paths...
+   *
+   * @param id
+   * @return
+   */
   def identifyPaths(id: ModelID): Option[ModelTrainerPaths] = {
     val modelDir = getDirectoryPath(id).toString
     val wsDir = Paths.get(modelDir, s"workspace").toString
 
-    println(s"modelDir: $modelDir, wsDir: $wsDir, rootDir: $rootDir")
+    logger.info(s"modelDir: $modelDir, wsDir: $wsDir, rootDir: $rootDir")
 
     ModelStorage.get(id)
       .map(cm =>
