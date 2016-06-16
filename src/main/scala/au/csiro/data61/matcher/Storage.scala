@@ -51,7 +51,6 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
 
   protected def extract(stream: FileInputStream): Value
 
-
   protected var cache: Map[Key, Value] = listValues.map(m => m.id -> m).toMap
 
   def keys: List[Key] = {
@@ -168,7 +167,7 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
    */
   protected def writeToFile(value: Value): Unit = {
 
-    val str = compact(Extraction.decompose(value)(json4sFormats))
+    val str = compact(Extraction.decompose(value))
 
     val outputPath = getPath(value.id)
 

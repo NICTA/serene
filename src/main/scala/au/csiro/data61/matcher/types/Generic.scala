@@ -19,6 +19,7 @@ package au.csiro.data61.matcher.types
 
 import java.nio.file.{Paths, Path}
 
+import au.csiro.data61.matcher.types.ModelTypes.StatusSerializer
 import org.json4s._
 
 /**
@@ -59,6 +60,6 @@ trait MatcherJsonFormats {
       PathSerializer +
       SamplingStrategySerializer +
       ModelTypeSerializer +
-      FeatureSerializer
-
+      FeatureSerializer +
+      StatusSerializer
 }

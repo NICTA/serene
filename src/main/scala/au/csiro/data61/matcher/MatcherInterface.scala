@@ -20,8 +20,7 @@ package au.csiro.data61.matcher
 import java.nio.file.Path
 
 import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
-import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
-import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
+import au.csiro.data61.matcher.types.ModelTypes.{TrainState, Status, ModelID, Model}
 import au.csiro.data61.matcher.types._
 import DataSetTypes._
 import au.csiro.data61.matcher.api.{DataSetRequest, ModelRequest, InternalException, ParseException}
@@ -65,11 +64,12 @@ object MatcherInterface extends LazyLogging {
 
     // build the model from the request, adding defaults where necessary
     val modelOpt = for {
+        colMap <- Some(DatasetStorage.columnMap)
         userData <- Some(
           request.labelData.getOrElse(Map.empty[ColumnID, String])
         )
         (keysIn, keysOut) <- Option {
-          userData.keySet.partition(DatasetStorage.columnMap.keySet.contains)
+          userData.keySet.partition(colMap.keySet.contains)
         }
         model <- Try {
           Model(
@@ -81,6 +81,8 @@ object MatcherInterface extends LazyLogging {
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
             labelData = userData.filterKeys(keysIn),
+            refDataSets = colMap.filterKeys(keysIn).values.map(_.datasetID).toList,
+            state = TrainState(Status.UNTRAINED, DateTime.now, DateTime.now),
             dateCreated = DateTime.now,
             dateModified = DateTime.now)
         } toOption
@@ -112,17 +114,16 @@ object MatcherInterface extends LazyLogging {
    * @param id The model id
    * @return
    */
-  def trainModel(id: ModelID): Option[TrainResponse] = {
+  def trainModel(id: ModelID): Option[TrainState] = {
     val serialModel = ModelTrainer.train(id)
 
-    val writeFlag = serialModel.map(sm =>
-      ModelStorage.writeModel(id, sm))
-    writeFlag match {case Some(true) =>
-      Some(TrainResponse(id, s"trained", DateTime.now, DateTime.now))
-    case Some(false) =>
-      Some(TrainResponse(id, s"writing of model failed", DateTime.now, DateTime.now))
-    case _ =>
-      None
+    val writeFlag = serialModel.map(ModelStorage.writeModel(id, _))
+
+    writeFlag.map {
+      case true =>
+        TrainState(Status.COMPLETE, DateTime.now, DateTime.now)
+      case false =>
+        TrainState(Status.ERROR, DateTime.now, DateTime.now)
     }
   }
 

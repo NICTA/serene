@@ -53,11 +53,11 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   val DefaultLabelCount = 4
 
   override def beforeEach() {
-    FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
+    FileUtils.deleteDirectory(new File(Config.ModelStorageDir))
   }
 
   override def afterEach() {
-    FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
+    FileUtils.deleteDirectory(new File(Config.ModelStorageDir))
   }
 
   def randomString: String = Random.alphanumeric take 10 mkString
