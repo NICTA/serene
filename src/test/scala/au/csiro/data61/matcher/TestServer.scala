@@ -26,6 +26,9 @@ import com.twitter.util.{Closable, Await}
  */
 class TestServer {
 
+  // This is used to pass itself to tests implicitly
+  implicit val s = this
+
   val server = Matcher.defaultServer
   val client = Http.newService(Matcher.Address)
 

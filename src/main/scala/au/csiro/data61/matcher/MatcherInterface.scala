@@ -21,6 +21,8 @@ import java.nio.file.Path
 
 import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
 import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
+import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
+import au.csiro.data61.matcher.types.ModelTypes.{TrainState, Status, ModelID, Model}
 import au.csiro.data61.matcher.types._
 import DataSetTypes._
 import au.csiro.data61.matcher.api.{DataSetRequest, ModelRequest, InternalException, ParseException}
@@ -50,13 +52,12 @@ object MatcherInterface extends LazyLogging {
 
   val DefaultSampleSize = 15
 
-
   /**
-    * Parses a servlet request to get a dataset object
+    * Parses a model request to construct a model object
     * then adds to the database, and returns the case class response
     * object.
     *
-    * @param request Servlet POST request
+    * @param request POST request with model information
     * @return Case class object for JSON conversion
     */
   def createModel(request: ModelRequest): Model = {
@@ -65,13 +66,14 @@ object MatcherInterface extends LazyLogging {
 
     // build the model from the request, adding defaults where necessary
     val modelOpt = for {
-      userData <- Some(
-        request.labelData.getOrElse(Map.empty[Int, String])
-      )
-      (keysIn, keysOut) <- Option {
-        userData.keySet.partition(DatasetStorage.columnMap.keySet.contains)
-      }
-    // TODO: check that provided mappings for columns in userData are found among labels
+        colMap <- Some(DatasetStorage.columnMap)
+        userData <- Some(
+          request.labelData.getOrElse(Map.empty[ColumnID, String])
+        )
+        (keysIn, keysOut) <- Option {
+          userData.keySet.partition(colMap.keySet.contains)
+        }// keysIn contain those keys from userData which should be kept and written to the model file
+        // TODO: check that provided mappings for columns in userData are found among labels
         model <- Try {
           Model(
             id = id,
@@ -82,6 +84,8 @@ object MatcherInterface extends LazyLogging {
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
             labelData = userData.filterKeys(keysIn),
+            refDataSets = colMap.filterKeys(keysIn).values.map(_.datasetID).toList,
+            state = TrainState(Status.UNTRAINED, DateTime.now, DateTime.now),
             dateCreated = DateTime.now,
             dateModified = DateTime.now)
         } toOption
@@ -94,7 +98,6 @@ object MatcherInterface extends LazyLogging {
       }
       model
     }
-
     modelOpt getOrElse { throw InternalException("Failed to create resource.") }
   }
 
@@ -114,19 +117,50 @@ object MatcherInterface extends LazyLogging {
    * @param id The model id
    * @return
    */
-  def trainModel(id: ModelID): Option[TrainResponse] = {
+  def trainModel(id: ModelID): Option[TrainState] = {
     val serialModel = ModelTrainer.train(id)
 
-    val writeFlag = serialModel.map(sm =>
-      ModelStorage.writeModel(id, sm))
-    writeFlag match {case Some(true) =>
-      Some(TrainResponse(id, s"trained", DateTime.now, DateTime.now))
-    case Some(false) =>
-      Some(TrainResponse(id, s"writing of model failed", DateTime.now, DateTime.now))
-    case _ =>
-      None
+    val writeFlag = serialModel.map(ModelStorage.writeModel(id, _))
+
+    writeFlag.map {
+      case true =>
+        TrainState(Status.COMPLETE, DateTime.now, DateTime.now)
+      case false =>
+        TrainState(Status.ERROR, DateTime.now, DateTime.now)
     }
   }
+
+  /**
+   * Parses a model request to construct a model object
+   * for updating. The index is searched for in the database,
+   * and if update is successful, returns the case class response
+   * object.
+   *
+   * @param request POST request with model information
+   * @return Case class object for JSON conversion
+   */
+  def updateModel(id: ModelID, request: ModelRequest): Model = {
+
+    // build the model from the request, adding defaults where necessary
+    val modelOpt = for {
+      m <- ModelStorage.get(id)
+      model <- Try {
+        m.copy(
+          description = request.description.getOrElse(m.description),
+          modelType = request.modelType.getOrElse(m.modelType),
+          labels = request.labels.getOrElse(m.labels),
+          features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
+          costMatrix = request.costMatrix.getOrElse(m.costMatrix),
+          resamplingStrategy = request.resamplingStrategy.getOrElse(m.resamplingStrategy),
+          labelData = request.labelData.getOrElse(m.labelData),
+          dateModified = DateTime.now)
+      }.toOption
+      _ <- ModelStorage.update(id, model)
+    } yield model
+
+    modelOpt getOrElse { throw InternalException("Failed to update resource.") }
+  }
+
 
   /**
    * Parses a servlet request to get a dataset object

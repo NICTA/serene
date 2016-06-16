@@ -30,13 +30,62 @@ object ModelTypes {
                    features: FeaturesConfig,
                    costMatrix: List[List[Double]],
                    resamplingStrategy: SamplingStrategy,
-                   labelData: Map[Int, String],
+                   labelData: Map[Int, String], // WARNING: Int should be ColumnID! Json4s bug.
+                   refDataSets: List[Int],
+                   state: TrainState,
                    dateCreated: DateTime,
                    dateModified: DateTime) extends Identifiable[ModelID]
 
   type ModelID = Int
-}
 
+  /**
+   * Enumerated type for the status of training for the model
+   */
+  sealed trait Status { def str: String }
+  object Status {
+    case object ERROR extends Status { val str = "error" }
+    case object UNTRAINED extends Status { val str = "untrained" }
+    case object TRAINING extends Status { val str = "training" }
+    case object COMPLETE extends Status { val str = "complete" }
+
+    val values = Set(
+      ERROR,
+      UNTRAINED,
+      TRAINING,
+      COMPLETE
+    )
+
+    def lookup(str: String): Option[Status] = {
+      values.find(_.str == str)
+    }
+  }
+
+  /**
+   * Serializer for the State of the trainer
+   */
+  case object StatusSerializer extends CustomSerializer[Status](format => (
+    {
+      case jv: JValue =>
+        implicit val formats = DefaultFormats
+        val str = jv.extract[String]
+        val state = Status.lookup(str)
+        state getOrElse (throw new Exception("Failed to parse State"))
+    }, {
+    case state: Status =>
+      JString(state.str)
+  }))
+
+  /**
+   * Training state
+   * @param status The current state of the model training
+   * @param dateCreated The time it was first created
+   * @param dateModified The last time the state changed
+   */
+  case class TrainState(status: Status,
+                        dateCreated: DateTime,
+                        dateModified: DateTime)
+
+}
 
 /**
  * Enumerated type for the Model type used

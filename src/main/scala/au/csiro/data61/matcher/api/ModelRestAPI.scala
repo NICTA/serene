@@ -17,10 +17,9 @@
  */
 package au.csiro.data61.matcher.api
 
-import au.csiro.data61.matcher.api.DatasetRestAPI._
-import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
+import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
+import au.csiro.data61.matcher.types.ModelTypes.{Status, TrainState, ModelID, Model}
 import au.csiro.data61.matcher._
-import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
 import io.finch._
 import org.joda.time.DateTime
 import org.json4s.jackson.JsonMethods._
@@ -63,6 +62,8 @@ object ModelRestAPI extends RestAPI {
       List(0,0,0,1)),
     labelData = Map.empty[Int, String],
     resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN,
+    refDataSets = List(1, 2, 3, 4),
+    state = TrainState(Status.UNTRAINED, DateTime.now, DateTime.now),
     dateCreated = DateTime.now,
     dateModified = DateTime.now
   )
@@ -135,7 +136,7 @@ object ModelRestAPI extends RestAPI {
   /**
     * Trains a model at id
     */
-  val modelTrain: Endpoint[TrainResponse] = get(APIVersion :: "model" :: int :: "train") {
+  val modelTrain: Endpoint[TrainState] = get(APIVersion :: "model" :: int :: "train") {
     (id: Int) =>
       val model = Try(MatcherInterface.trainModel(id))
       model match {
@@ -151,11 +152,21 @@ object ModelRestAPI extends RestAPI {
   /**
    * Patch a portion of a Model. Will destroy all cached models
    */
-  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int) {
-    (id: Int) =>
-      Ok(TestModel)
+  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int :: body) {
+    (id: Int, body: String) =>
+      (for {
+        request <- parseModelRequest(body)
+        model <- Try {
+          MatcherInterface.updateModel(id, request)
+        }
+      } yield model)
+      match {
+        case Success(m) =>
+          Ok(m)
+        case Failure(err) =>
+          InternalServerError(InternalException(err.getMessage))
+      }
   }
-
 
   /**
    * Deletes the model at position id.
@@ -178,13 +189,14 @@ object ModelRestAPI extends RestAPI {
 
   /**
    * Helper function to parse a string into a ModelRequest object...
-   * @param str
+   *
+   * @param str The json string with the model request information
    * @return
    */
   def parseModelRequest(str: String): Try[ModelRequest] = {
-    val raw = parse(str)
 
     for {
+      raw <- Try { parse(str) }
       description <- Try {
         (raw \ "description")
           .extractOpt[String]
@@ -195,7 +207,8 @@ object ModelRestAPI extends RestAPI {
           .flatMap(ModelType.lookup)
       }
       labels <- Try {
-        (raw \ "labels").extractOpt[List[String]]
+        (raw \ "labels")
+          .extractOpt[List[String]]
       }
       features <- Try {
         (raw \ "features")
@@ -204,7 +217,7 @@ object ModelRestAPI extends RestAPI {
 //            Feature.lookup(feature)
 //              .getOrElse(throw BadRequestException(s"Bad feature argument: $feature"))))
       }
-      labelData <- Try {
+      userData <- Try {
         (raw \ "userData")
           .extractOpt[Map[Int, String]]
       }
@@ -229,7 +242,7 @@ object ModelRestAPI extends RestAPI {
       labels,
         Some(features),
       costMatrix,
-      labelData,
+      userData,
       resamplingStrategy
     )}
   }

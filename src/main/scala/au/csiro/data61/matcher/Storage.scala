@@ -1,4 +1,4 @@
-/**asaas
+/**
  * Copyright (C) 2015-2016 Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO).
  * See the LICENCE.txt file distributed with this work for additional
  * information regarding copyright ownership.
@@ -22,6 +22,7 @@ import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
 import au.csiro.data61.matcher.api.FileStream
+import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.matcher.types._
 import com.typesafe.scalalogging.LazyLogging
@@ -31,7 +32,6 @@ import org.json4s.jackson.JsonMethods._
 
 import scala.util.{Failure, Success, Try}
 import DataSetTypes._
-import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
 
 import scala.language.postfixOps
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
@@ -50,7 +50,6 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
   def rootDir: String
 
   protected def extract(stream: FileInputStream): Value
-
 
   protected var cache: Map[Key, Value] = listValues.map(m => m.id -> m).toMap
 
@@ -245,6 +244,16 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
+    * Returns the path to the serialized trained model
+    *
+    * @param id The `id` key to the model
+    * @return Path to the binary resource
+    */
+  def modelPath(id: ModelID): Path = {
+    Paths.get(getDirectoryPath(id).toString, s"$id.rf")
+  }
+
+  /**
     * Transforms user provided label data to the old format
     *
     * @param value The Model to write to disk
@@ -319,6 +328,52 @@ object ModelStorage extends Storage[ModelID, Model] {
     labelData.foreach(line => out.println(line.mkString(",")))
     out.close()
 
+  }
+
+  /**
+    * Updates the model at `id` and also deletes the previously
+    * trained model if it exists.
+    *
+    * @param id ID to give to the element
+    * @param value Value object
+    * @return ID of the resource created (if any)
+    */
+  override def update(id: ModelID, value: Model): Option[ModelID] = {
+    for {
+      updatedID <- super.update(id, value)
+      deleteOK <- deleteModel(updatedID)
+    } yield deleteOK
+  }
+
+  /**
+    * Deletes the model file resource if available
+    *
+    * @param id The key for the model object
+    * @return
+    */
+  protected def deleteModel(id: ModelID): Option[ModelID] = {
+    cache.get(id) match {
+      case Some(ds) =>
+        val modelFile = modelPath(id)
+
+        if (Files.exists(modelFile)) {
+          // delete model file - be careful
+          synchronized {
+            Try(FileUtils.deleteQuietly(modelFile.toFile)) match {
+              case Failure(err) =>
+                logger.error(s"Failed to delete file: ${err.getMessage}")
+                None
+              case _ =>
+                Some(id)
+            }
+          }
+        } else {
+          Some(id)
+        }
+      case _ =>
+        logger.error(s"Resource not found: $id")
+        None
+    }
   }
 
   /**
