@@ -70,14 +70,15 @@ object MatcherInterface extends LazyLogging {
         )
         (keysIn, keysOut) <- Option {
           userData.keySet.partition(colMap.keySet.contains)
-        }
+        }// keysIn contain those keys from userData which should be kept and written to the model file
+        // TODO: check that provided mappings for columns in userData are found among labels
         model <- Try {
           Model(
             id = id,
             description = request.description.getOrElse(MissingValue),
             modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
             labels = request.labels.getOrElse(List()),
-            features = request.features.getOrElse(Feature.values.toList),
+            features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
             labelData = userData.filterKeys(keysIn),
