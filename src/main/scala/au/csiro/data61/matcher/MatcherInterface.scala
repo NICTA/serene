@@ -74,7 +74,8 @@ object MatcherInterface extends LazyLogging {
         )
         (keysIn, keysOut) <- Option {
           userData.keySet.partition(colMap.keySet.contains)
-        }
+        }// keysIn contain those keys from userData which should be kept and written to the model file
+        // TODO: check that provided mappings for columns in userData are found among labels
         model <- Try {
           Model(
             id = id,
