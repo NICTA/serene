@@ -68,6 +68,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       ("name" -> "prop-instances-per-class-in-knearestneighbours") ~
         ("num-neighbours" -> 5)))
 
+  def defaultCostMatrix: JArray =
+    JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))
+
   /**
     * Builds a standard POST request object from a json object.
     *
@@ -100,7 +103,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           ("modelType" -> "randomForest") ~
           ("classes" -> classes) ~
           ("features" -> defaultFeatures) ~
-          ("costMatrix" -> JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))) ~
+          ("costMatrix" -> defaultCostMatrix) ~
           ("resamplingStrategy" -> "ResampleToMean")
 
       val req = postRequest(json)
@@ -138,7 +141,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           ("modelType" -> "randomForest") ~
           ("classes" -> TestClasses) ~
           ("features" -> defaultFeatures) ~
-          ("costMatrix" -> JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))) ~
+          ("costMatrix" -> defaultCostMatrix) ~
           ("resamplingStrategy" -> "ResampleToMean")
 
       val request = postRequest(json)
@@ -178,9 +181,10 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val model = parse(response.contentString).extract[Model]
 
       assert(model.classes === TestClasses)
-      assert(model.features === FeaturesConfig(activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals")
-        ,activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")
-        ,featureExtractorParams = Map(
+      assert(model.features === FeaturesConfig(
+        activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals"),
+        activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"),
+        featureExtractorParams = Map(
           "prop-instances-per-class-in-knearestneighbours" -> Map(
             "name" -> "prop-instances-per-class-in-knearestneighbours",
             "num-neighbours" -> "5")
@@ -326,8 +330,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
             ("description" -> NewDescription) ~
               ("modelType" -> "randomForest") ~
               ("classes" -> NewClasses) ~
-              ("features" -> Seq("isAlpha", "numChars", "numAlpha") ) ~
-              ("costMatrix" -> "[[1,0,0], [0,1,0], [0,0,1]]") ~
+              ("features" -> defaultFeatures ) ~
+              ("costMatrix" -> defaultCostMatrix) ~
               ("resamplingStrategy" -> "ResampleToMean")
 
           val request = postRequest(json, s"/$APIVersion/model/${ds.id}")
