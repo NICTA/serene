@@ -41,7 +41,8 @@ object Matcher extends LazyLogging with MatcherJsonFormats {
   val components =
     DatasetRestAPI.endpoints :+:
       ModelRestAPI.endpoints :+:
-      TestRestAPI.endpoints
+      TestRestAPI.endpoints :+:
+      OAuthRestAPI.endpoints
 
   val restAPI = components.handle {
     case e @ InternalException(msg) =>

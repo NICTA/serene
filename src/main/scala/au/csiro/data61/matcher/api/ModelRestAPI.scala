@@ -17,9 +17,11 @@
  */
 package au.csiro.data61.matcher.api
 
+import au.csiro.data61.matcher.oauth.InMemoryDataHandler
 import au.csiro.data61.matcher.types.ModelTypes.{Status, TrainState, ModelID, Model}
 import au.csiro.data61.matcher._
 import io.finch._
+import io.finch.oauth2._
 import org.joda.time.DateTime
 import org.json4s.JValue
 import org.json4s.JsonAST.JNothing
@@ -99,11 +101,11 @@ object ModelRestAPI extends RestAPI {
       (for {
         request <- parseModelRequest(body)
         _ <- Try {
-          request.labels match {
+          request.classes match {
             case Some(x) if x.nonEmpty =>
               request
             case _ =>
-              throw BadRequestException("No labels found.")
+              throw BadRequestException("No classes found.")
           }
         }
         _ <- Try {
@@ -234,7 +236,7 @@ object ModelRestAPI extends RestAPI {
                       ModelType.lookup(_)
                         .getOrElse(throw BadRequestException("Bad resamplingStrategy"))))
 
-      labels <- parseOption[List[String]]("classes", raw)
+      classes <- parseOption[List[String]]("classes", raw)
 
       features <- parseOption[FeaturesConfig]("features", raw)
 
@@ -250,7 +252,7 @@ object ModelRestAPI extends RestAPI {
       ModelRequest(
         description,
         modelType,
-        labels,
+        classes,
         features,
         costMatrix,
         userData,
@@ -273,7 +275,7 @@ object ModelRestAPI extends RestAPI {
 
 case class ModelRequest(description: Option[String],
                         modelType: Option[ModelType],
-                        labels: Option[List[String]],
+                        classes: Option[List[String]],
                         features: Option[FeaturesConfig],
                         costMatrix: Option[List[List[Double]]],
                         labelData: Option[Map[Int, String]],

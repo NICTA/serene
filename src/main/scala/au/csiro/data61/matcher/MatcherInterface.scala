@@ -80,7 +80,7 @@ object MatcherInterface extends LazyLogging {
             id = id,
             description = request.description.getOrElse(MissingValue),
             modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
-            classes = request.labels.getOrElse(List()),
+            classes = request.classes.getOrElse(List()),
             features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
@@ -190,7 +190,7 @@ object MatcherInterface extends LazyLogging {
         m.copy(
           description = request.description.getOrElse(m.description),
           modelType = request.modelType.getOrElse(m.modelType),
-          classes = request.labels.getOrElse(m.classes),
+          classes = request.classes.getOrElse(m.classes),
           features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
           costMatrix = request.costMatrix.getOrElse(m.costMatrix),
           resamplingStrategy = request.resamplingStrategy.getOrElse(m.resamplingStrategy),
