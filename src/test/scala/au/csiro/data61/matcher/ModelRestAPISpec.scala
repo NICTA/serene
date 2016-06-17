@@ -61,6 +61,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   def randomString: String = Random.alphanumeric take 10 mkString
 
+  def defaultClasses: List[String] = List.fill(DefaultLabelCount)(randomString)
+
   def defaultFeatures: JObject =
     ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals" )) ~
     ("activeFeatureGroups" -> Seq("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")) ~
@@ -200,6 +202,28 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       // some request without classes...
       val json = "description" -> randomString
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.BadRequest)
+      assert(!response.contentString.isEmpty)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model fails if incorrect format BadRequest(400)") (new TestServer {
+    try {
+
+      // some request with a bad model type
+      val json =
+        ("classes" -> defaultClasses) ~
+          ("features" -> defaultFeatures) ~
+          ("modelType" -> ">>>bad-value<<<")
 
       val request = postRequest(json)
 

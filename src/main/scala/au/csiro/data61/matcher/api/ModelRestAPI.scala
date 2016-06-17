@@ -22,6 +22,8 @@ import au.csiro.data61.matcher.types.ModelTypes.{Status, TrainState, ModelID, Mo
 import au.csiro.data61.matcher._
 import io.finch._
 import org.joda.time.DateTime
+import org.json4s.JValue
+import org.json4s.JsonAST.{JNothing}
 import org.json4s.jackson.JsonMethods._
 import types._
 
@@ -95,15 +97,19 @@ object ModelRestAPI extends RestAPI {
    */
   val modelCreate: Endpoint[Model] = post(APIVersion :: "model" :: body) {
     (body: String) =>
-
       (for {
         request <- parseModelRequest(body)
-        req <- Try {
+        _ <- Try {
           request.labels match {
             case Some(x) if x.nonEmpty =>
               request
             case _ =>
               throw BadRequestException("No labels found.")
+          }
+        }
+        _ <- Try {
+          if (request.features.isEmpty) {
+            throw BadRequestException("No features found.")
           }
         }
         m <- Try { MatcherInterface.createModel(request) }
@@ -186,6 +192,30 @@ object ModelRestAPI extends RestAPI {
       }
   }
 
+  /**
+    * Helper function to parse json objects. This will return None if
+    * nothing is present, and throw a BadRequest error if it is incorrect,
+    * and Some(T) if correct
+    *
+    * @param label The key for the object. Must be present in jValue
+    * @param jValue The Json Object
+    * @tparam T The return type
+    * @return
+    */
+  private def parseOption[T: Manifest](label: String, jValue: JValue): Try[Option[T]] = {
+    val jv = jValue \ label
+    if (jv == JNothing) {
+      Success(None)
+    } else {
+      Try {
+        Some(jv.extract[T])
+      } recoverWith {
+        case err =>
+          Failure(
+            BadRequestException(s"Failed to parse: $label. Error: ${err.getMessage}"))
+      }
+    }
+  }
 
   /**
    * Helper function to parse a string into a ModelRequest object...
@@ -197,38 +227,26 @@ object ModelRestAPI extends RestAPI {
 
     for {
       raw <- Try { parse(str) }
-      description <- Try {
-        (raw \ "description")
-          .extractOpt[String]
-      }
-      modelType <- Try {
-        (raw \ "modelType")
-          .extractOpt[String]
-          .flatMap(ModelType.lookup)
-      }
-      labels <- Try {
-        (raw \ "classes")
-          .extractOpt[List[String]]
-      }
-      features <- Try {
-        (raw \ "features")
-          .extractOpt[FeaturesConfig]
-      }
-      userData <- Try {
-        (raw \ "labelData")
-          .extractOpt[Map[Int, String]]
-      }
-      costMatrix <- Try {
-        (raw \ "costMatrix")
-          .extractOpt[List[List[Double]]]
-      }
-      resamplingStrategy <- Try {
-        (raw \ "resamplingStrategy")
-          .extractOpt[String]
-          .map(SamplingStrategy
-            .lookup(_)
-            .getOrElse(throw BadRequestException("Bad resamplingStrategy")))
-      }
+
+      description <- parseOption[String]("description", raw)
+
+      modelType <- parseOption[String]("modelType", raw)
+                    .map(_.map(
+                      ModelType.lookup(_)
+                        .getOrElse(throw BadRequestException("Bad resamplingStrategy"))))
+
+      labels <- parseOption[List[String]]("classes", raw)
+
+      features <- parseOption[FeaturesConfig]("features", raw)
+
+      userData <- parseOption[Map[Int, String]]("labelData", raw)
+
+      costMatrix <- parseOption[List[List[Double]]]("costMatrix", raw)
+
+      resamplingStrategy <- parseOption[String]("resamplingStrategy", raw)
+                              .map(_.map(
+                                SamplingStrategy.lookup(_)
+                                  .getOrElse(throw BadRequestException("Bad resamplingStrategy"))))
     } yield {
       ModelRequest(
         description,
