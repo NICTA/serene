@@ -232,7 +232,7 @@ object ModelRestAPI extends RestAPI {
       modelType <- parseOption[String]("modelType", raw)
                     .map(_.map(
                       ModelType.lookup(_)
-                        .getOrElse(throw BadRequestException("Bad resamplingStrategy"))))
+                        .getOrElse(throw BadRequestException("Bad modelType"))))
 
       classes <- parseOption[List[String]]("classes", raw)
 
