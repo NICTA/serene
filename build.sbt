@@ -33,10 +33,6 @@ lazy val root = (project in file("."))
     ,"com.github.tototoshi"       %% "scala-csv"          % "1.3.1"
     ,"com.github.finagle"         %% "finch-core"         % "0.10.0"
     ,"com.github.finagle"         %% "finch-json4s"       % "0.10.0"
-    ,"com.github.finagle"         %% "finch-oauth2"       % "0.10.0"
-
-    //,"com.github.finagle"         %% "finagle-oauth2"     % "0.1.6"
-
     ,"com.github.finagle"         %% "finch-test"         % "0.10.0"
     ,"com.twitter"                %% "finagle-http"       % "6.35.0"
     ,"junit"                      %  "junit"              % "4.12"
