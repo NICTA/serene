@@ -49,7 +49,7 @@ object MatcherInterface extends LazyLogging {
   val DefaultSampleSize = 15
 
   /**
-    * Parses a model request to construct a model object
+    * Parses a model request to construct a model object...
     * then adds to the database, and returns the case class response
     * object.
     *
