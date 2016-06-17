@@ -61,6 +61,18 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   def randomString: String = Random.alphanumeric take 10 mkString
 
+  def defaultClasses: List[String] = List.fill(DefaultLabelCount)(randomString)
+
+  def defaultFeatures: JObject =
+    ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals" )) ~
+    ("activeFeatureGroups" -> Seq("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")) ~
+    ("featureExtractorParams" -> Seq(
+      ("name" -> "prop-instances-per-class-in-knearestneighbours") ~
+        ("num-neighbours" -> 5)))
+
+  def defaultCostMatrix: JArray =
+    JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))
+
   /**
    * Builds a standard POST request object from a json object.
    *
@@ -76,13 +88,14 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   }
 
   /**
-   * Posts a request to build a model, then returns the Model object it created
-   * wrapped in a Try.
-   *
-   * @param labels The model request object
-   * @return Model that was constructed
-   */
-  def postAndReturn(labels: List[String],
+    * Posts a request to build a model, then returns the Model object it created
+    * wrapped in a Try.
+    *
+    * @param classes The model request object
+    * @param description Optional description
+    * @return Model that was constructed
+    */
+  def postAndReturn(classes: List[String],
                     description: Option[String] = None)(implicit s: TestServer): Try[Model] = {
 
     Try {
@@ -90,9 +103,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val json =
         ("description" -> description.getOrElse("unknown")) ~
           ("modelType" -> "randomForest") ~
-          ("labels" -> labels) ~
-          ("features" -> Seq("isAlpha", "numChars", "numAlpha") ) ~
-          ("costMatrix" -> JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))) ~
+          ("classes" -> classes) ~
+          ("features" -> defaultFeatures) ~
+          ("costMatrix" -> defaultCostMatrix) ~
           ("resamplingStrategy" -> "ResampleToMean")
 
       val req = postRequest(json)
@@ -123,19 +136,14 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     try {
       val LabelLength = 4
       val TestStr = randomString
-      val TestLabels = List.fill(LabelLength)(randomString)
+      val TestClasses = List.fill(LabelLength)(randomString)
 
       val json =
         ("description" -> TestStr) ~
           ("modelType" -> "randomForest") ~
-          ("labels" -> TestLabels) ~
-          ("features" ->
-            ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals" )) ~
-              ("activeFeatureGroups" -> Seq("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")) ~
-              ("featureExtractorParams" -> JArray(List(("name" -> "prop-instances-per-class-in-knearestneighbours") ~ ("num-neighbours" -> 5)))
-                )
-            ) ~
-      ("costMatrix" -> JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))) ~
+          ("classes" -> TestClasses) ~
+          ("features" -> defaultFeatures) ~
+          ("costMatrix" -> defaultCostMatrix) ~
           ("resamplingStrategy" -> "ResampleToMean")
 
       val request = postRequest(json)
@@ -148,27 +156,22 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val model = parse(response.contentString).extract[Model]
 
       assert(model.description === TestStr)
-      assert(model.labels === TestLabels)
+      assert(model.classes === TestClasses)
 
     } finally {
       assertClose()
     }
   })
 
-  test("POST /v1.0/model only labels and features required") (new TestServer {
+  test("POST /v1.0/model only classes and features required") (new TestServer {
     try {
 
       val LabelLength = 4
-      val TestLabels = List.fill(LabelLength)(randomString)
+      val TestClasses = List.fill(LabelLength)(randomString)
 
       val json =
-        ("labels" -> TestLabels) ~
-          ("features" ->
-            ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals" )) ~
-              ("activeFeatureGroups" -> Seq("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")) ~
-              ("featureExtractorParams" -> Seq(("name" -> "prop-instances-per-class-in-knearestneighbours") ~ ("num-neighbours" -> 5))
-                )
-            )
+        ("classes" -> TestClasses) ~
+          ("features" -> defaultFeatures)
 
       val request = postRequest(json)
 
@@ -179,10 +182,11 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       assert(!response.contentString.isEmpty)
       val model = parse(response.contentString).extract[Model]
 
-      assert(model.labels === TestLabels)
-      assert(model.features === FeaturesConfig(activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals")
-        ,activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")
-        ,featureExtractorParams = Map(
+      assert(model.classes === TestClasses)
+      assert(model.features === FeaturesConfig(
+        activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals"),
+        activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"),
+        featureExtractorParams = Map(
           "prop-instances-per-class-in-knearestneighbours" -> Map(
             "name" -> "prop-instances-per-class-in-knearestneighbours",
             "num-neighbours" -> "5")
@@ -193,11 +197,33 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-  test("POST /v1.0/model fails if labels not present BadRequest(400)") (new TestServer {
+  test("POST /v1.0/model fails if classes not present BadRequest(400)") (new TestServer {
     try {
 
-      // some request without labels...
+      // some request without classes...
       val json = "description" -> randomString
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.BadRequest)
+      assert(!response.contentString.isEmpty)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model fails if incorrect format BadRequest(400)") (new TestServer {
+    try {
+
+      // some request with a bad model type
+      val json =
+        ("classes" -> defaultClasses) ~
+          ("features" -> defaultFeatures) ~
+          ("modelType" -> ">>>bad-value<<<")
 
       val request = postRequest(json)
 
@@ -215,9 +241,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("POST /v1.0/model appears in model list") (new TestServer {
     try {
       val LabelLength = 4
-      val TestLabels = List.fill(LabelLength)(randomString)
+      val TestClasses = List.fill(LabelLength)(randomString)
 
-      postAndReturn(TestLabels) match {
+      postAndReturn(TestClasses) match {
         case Success(model) =>
 
           // build a request to modify the model...
@@ -242,9 +268,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     try {
       val LabelLength = 4
       val TestStr = randomString
-      val TestLabels = List.fill(LabelLength)(randomString)
+      val TestClasses = List.fill(LabelLength)(randomString)
 
-      postAndReturn(TestLabels, Some(TestStr)) match {
+      postAndReturn(TestClasses, Some(TestStr)) match {
         case Success(model) =>
 
           // build a request to modify the model...
@@ -297,7 +323,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
+  // TODO: create test for training: 'busy' test, 'error' test, 'completed' test...
 
+  // TODO: create test for bad parameters
 
   //  TODO: create model with incorrect featuresconfig feature names
 
@@ -311,13 +339,13 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     try {
       val LabelLength = 4
       val TestStr = randomString
-      val TestLabels = List.fill(LabelLength)(randomString)
+      val TestClasses = List.fill(LabelLength)(randomString)
       val PauseTime = 2000
 
       val NewDescription = randomString
-      val NewLabels = List.fill(LabelLength)(randomString)
+      val NewClasses = List.fill(LabelLength)(randomString)
 
-      postAndReturn(TestLabels, Some(TestStr)) match {
+      postAndReturn(TestClasses, Some(TestStr)) match {
         case Success(ds) =>
           // wait for the clock to tick for the dateModified
           Thread.sleep(PauseTime)
@@ -325,9 +353,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           val json =
             ("description" -> NewDescription) ~
               ("modelType" -> "randomForest") ~
-              ("labels" -> NewLabels) ~
-              ("features" -> Seq("isAlpha", "numChars", "numAlpha") ) ~
-              ("costMatrix" -> "[[1,0,0], [0,1,0], [0,0,1]]") ~
+              ("classes" -> NewClasses) ~
+              ("features" -> defaultFeatures ) ~
+              ("costMatrix" -> defaultCostMatrix) ~
               ("resamplingStrategy" -> "ResampleToMean")
 
           val request = postRequest(json, s"/$APIVersion/model/${ds.id}")
@@ -341,7 +369,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           // ensure that the data is correct...
           val patchModel = parse(response.contentString).extract[Model]
           assert(patchModel.description === NewDescription)
-          assert(patchModel.labels === NewLabels)
+          assert(patchModel.classes === NewClasses)
           assert(patchModel.dateCreated !== patchModel.dateModified)
 
         case Failure(err) =>
@@ -352,15 +380,13 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-  //dgdgdfg
-
   test("DELETE /v1.0/model/id responds Ok(200)") (new TestServer {
     try {
       val TestStr = randomString
-      val NumLabels = 4
-      val TestLabels = List.fill(NumLabels)(randomString)
+      val NumClasses = 4
+      val TestClasses = List.fill(NumClasses)(randomString)
 
-      postAndReturn(TestLabels, Some(TestStr)) match {
+      postAndReturn(TestClasses, Some(TestStr)) match {
         case Success(model) =>
 
           // build a request to modify the dataset...
