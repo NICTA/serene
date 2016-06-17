@@ -21,6 +21,7 @@ import java.io.File
 import java.nio.file.Paths
 
 import au.csiro.data61.matcher.api.{BadRequestException, NotFoundException}
+import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
 import au.csiro.data61.matcher.types.{Feature, ModelType, SamplingStrategy}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import org.joda.time.DateTime

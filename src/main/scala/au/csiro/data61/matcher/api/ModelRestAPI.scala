@@ -17,13 +17,12 @@
  */
 package au.csiro.data61.matcher.api
 
-import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
 import au.csiro.data61.matcher.types.ModelTypes.{Status, TrainState, ModelID, Model}
 import au.csiro.data61.matcher._
 import io.finch._
 import org.joda.time.DateTime
 import org.json4s.JValue
-import org.json4s.JsonAST.{JNothing}
+import org.json4s.JsonAST.JNothing
 import org.json4s.jackson.JsonMethods._
 import types._
 

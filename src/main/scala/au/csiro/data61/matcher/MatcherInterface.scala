@@ -17,6 +17,7 @@
  */
 package au.csiro.data61.matcher
 
+import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
 import types.ColumnTypes.ColumnID
 import types.ModelTypes.{TrainState, Status, ModelID, Model}
 import types._
