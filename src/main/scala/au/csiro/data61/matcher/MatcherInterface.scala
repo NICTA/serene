@@ -17,21 +17,17 @@
  */
 package au.csiro.data61.matcher
 
-import java.nio.file.Path
-
-import au.csiro.data61.matcher.types.ModelTypes.{ModelID, Model}
-import au.csiro.data61.matcher.types.TrainResponses.TrainResponse
-import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
-import au.csiro.data61.matcher.types.ModelTypes.{TrainState, Status, ModelID, Model}
-import au.csiro.data61.matcher.types._
+import types.ColumnTypes.ColumnID
+import types.ModelTypes.{TrainState, Status, ModelID, Model}
+import types._
 import DataSetTypes._
-import au.csiro.data61.matcher.api.{DataSetRequest, ModelRequest, InternalException, ParseException}
+import api.{DataSetRequest, ModelRequest, InternalException, ParseException}
+
+import java.nio.file.Path
 import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
-
 import scala.util.{Success, Failure, Random, Try}
-
 import scala.language.postfixOps
 
 /**
