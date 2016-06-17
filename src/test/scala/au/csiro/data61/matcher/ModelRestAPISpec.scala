@@ -74,12 +74,12 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))
 
   /**
-   * Builds a standard POST request object from a json object.
-   *
-   * @param json
-   * @param url
-   * @return
-   */
+    * Builds a standard POST request object from a json object.
+    *
+    * @param json
+    * @param url
+    * @return
+    */
   def postRequest(json: JObject, url: String = s"/$APIVersion/model")(implicit s: TestServer): Request = {
     RequestBuilder()
       .url(s.fullUrl(url))
@@ -323,7 +323,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-  // TODO: create test for training: 'busy' test, 'error' test, 'completed' test...
+  // TODO: create test for training: 'busy' test, 'error' test, 'completed' test
 
   // TODO: create test for bad parameters
 

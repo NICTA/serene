@@ -21,6 +21,7 @@ import java.io.File
 import java.nio.file.Paths
 
 import au.csiro.data61.matcher.api.{BadRequestException, NotFoundException}
+import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
 import au.csiro.data61.matcher.types.{Feature, ModelType, SamplingStrategy}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import org.joda.time.DateTime
@@ -105,22 +106,25 @@ object ModelTrainer extends LazyLogging {
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
     ModelStorage.identifyPaths(id)
       .map(cts  => {
-//        print("paths identified")
         if(!Paths.get(cts.workspacePath,"").toFile.exists){
           logger.error(s"Workspace directory for the model $id does not exist.")
           throw NotFoundException(s"Workspace directory for the model $id does not exist.")
         }
-        DataintTrainModel(classes = cts.curModel.labels,
+
+        DataintTrainModel(classes = cts.curModel.classes,
           trainingSet = readTrainingData,
           labels = readLabeledData(cts),
           trainSettings = readSettings(cts),
           postProcessingConfig = None)})
+
       .map(dt => {
         val trainer = TrainMlibSemanticTypeClassifier (dt.classes, false)
+
         val randomForestSchemaMatcher = trainer.train(dt.trainingSet,
           dt.labels,
           dt.trainSettings,
           dt.postProcessingConfig)
+
         SerializableMLibClassifier(randomForestSchemaMatcher.model,
           dt.classes,
           randomForestSchemaMatcher.featureExtractors,

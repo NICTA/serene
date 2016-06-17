@@ -19,14 +19,15 @@ package au.csiro.data61.matcher.types
 
 import org.joda.time.DateTime
 import org.json4s._
-import org.json4s.jackson.JsonMethods
+
+import scala.language.postfixOps
 
 object ModelTypes {
 
   case class Model(description: String,
                    id: ModelID,
                    modelType: ModelType,
-                   labels: List[String],
+                   classes: List[String],
                    features: FeaturesConfig,
                    costMatrix: List[List[Double]],
                    resamplingStrategy: SamplingStrategy,
@@ -45,13 +46,13 @@ object ModelTypes {
   object Status {
     case object ERROR extends Status { val str = "error" }
     case object UNTRAINED extends Status { val str = "untrained" }
-    case object TRAINING extends Status { val str = "training" }
+    case object BUSY extends Status { val str = "busy" }
     case object COMPLETE extends Status { val str = "complete" }
 
     val values = Set(
       ERROR,
       UNTRAINED,
-      TRAINING,
+      BUSY,
       COMPLETE
     )
 
@@ -82,9 +83,9 @@ object ModelTypes {
    * @param dateModified The last time the state changed
    */
   case class TrainState(status: Status,
+                        message: String,
                         dateCreated: DateTime,
                         dateModified: DateTime)
-
 }
 
 /**
@@ -171,7 +172,9 @@ case jv: JValue =>
   val activeGroupFeatures = (jv \ "activeFeatureGroups").extract[List[String]].toSet
   val featureExtractorParams = (jv \ "featureExtractorParams")
     .extract[List[Map[String,String]]]
-    .map({case feParams => {(feParams("name"), feParams)}}) toMap
+    .map { case feParams =>
+      (feParams("name"), feParams)
+    } toMap
 
   FeaturesConfig(activeFeatures, activeGroupFeatures, featureExtractorParams)
 }, {
@@ -227,15 +230,3 @@ case object SamplingStrategySerializer extends CustomSerializer[SamplingStrategy
  */
 case class KFold(n: Int)
 
-/**
-  * Response from the model training
-  */
-object TrainResponses {
-
-  case class TrainResponse(id: ModelID,
-                           status: String,
-                           dateCreated: DateTime,
-                           dateModified: DateTime) extends Identifiable[ModelID]
-
-  type ModelID = Int
-}
