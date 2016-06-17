@@ -47,8 +47,14 @@ object ModelRestAPI extends RestAPI {
     description = "This is a model description",
     id = 0,
     modelType = ModelType.RANDOM_FOREST,
-    labels = List("name", "address", "phone", "flight"),
-    features = List(Feature.IS_ALPHA, Feature.NUM_ALPHA, Feature.NUM_CHARS),
+    classes = List("name", "address", "phone", "flight"),
+    features = FeaturesConfig(activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals")
+      ,activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")
+      ,featureExtractorParams = Map(
+        "prop-instances-per-class-in-knearestneighbours" -> Map(
+          "name" -> "prop-instances-per-class-in-knearestneighbours",
+          "num-neighbours" -> "5")
+        )),
     costMatrix = List(
       List(1,0,0,0),
       List(0,1,0,0),
@@ -187,7 +193,7 @@ object ModelRestAPI extends RestAPI {
    * @param str The json string with the model request information
    * @return
    */
-  def parseModelRequest(str: String): Try[ModelRequest] = {
+  private def parseModelRequest(str: String): Try[ModelRequest] = {
 
     for {
       raw <- Try { parse(str) }
@@ -201,18 +207,15 @@ object ModelRestAPI extends RestAPI {
           .flatMap(ModelType.lookup)
       }
       labels <- Try {
-        (raw \ "labels")
+        (raw \ "classes")
           .extractOpt[List[String]]
       }
       features <- Try {
         (raw \ "features")
-          .extractOpt[List[String]]
-          .map(_.map(feature =>
-            Feature.lookup(feature)
-              .getOrElse(throw BadRequestException(s"Bad feature argument: $feature"))))
+          .extractOpt[FeaturesConfig]
       }
       userData <- Try {
-        (raw \ "userData")
+        (raw \ "labelData")
           .extractOpt[Map[Int, String]]
       }
       costMatrix <- Try {
@@ -226,17 +229,17 @@ object ModelRestAPI extends RestAPI {
             .lookup(_)
             .getOrElse(throw BadRequestException("Bad resamplingStrategy")))
       }
-    } yield ModelRequest(
-      description,
-      modelType,
-      labels,
-      features,
-      costMatrix,
-      userData,
-      resamplingStrategy
-    )
+    } yield {
+      ModelRequest(
+        description,
+        modelType,
+        labels,
+        features,
+        costMatrix,
+        userData,
+        resamplingStrategy
+      )}
   }
-
 
   /**
    * Final endpoints for the Dataset endpoint...
@@ -254,7 +257,7 @@ object ModelRestAPI extends RestAPI {
 case class ModelRequest(description: Option[String],
                         modelType: Option[ModelType],
                         labels: Option[List[String]],
-                        features: Option[List[Feature]],
+                        features: Option[FeaturesConfig],
                         costMatrix: Option[List[List[Double]]],
                         labelData: Option[Map[Int, String]],
                         resamplingStrategy: Option[SamplingStrategy])

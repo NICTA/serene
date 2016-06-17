@@ -138,6 +138,21 @@ POST https://dataint.io/v1.0/model/87698465
 #
 # Returns: Same as GET/<id> below...
 
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+    "description": "This is the description",
+    "modelType": "randomForest",
+    "labels": ["name", "address", "phone"],
+    "features": { "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
+        "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
+        "featureExtractorParams" : [{"name" : "prop-instances-per-class-in-knearestneighbours","num-neighbours" : 5}]
+        },
+    "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
+    "userData" : {"1" : "name", "1470086804" : "name"},
+    "resamplingStrategy": "ResampleToMean"
+    }' \
+  localhost:8080/v1.0/model
 
 GET https://dataint.io/v1.0/model/87698465/train
 #

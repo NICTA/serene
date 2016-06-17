@@ -19,9 +19,9 @@ package au.csiro.data61.matcher
 
 import java.nio.file.Path
 
-import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
-import au.csiro.data61.matcher.types.ModelTypes.{TrainState, Status, ModelID, Model}
-import au.csiro.data61.matcher.types._
+import types.ColumnTypes.ColumnID
+import types.ModelTypes.{TrainState, Status, ModelID, Model}
+import types._
 import DataSetTypes._
 import au.csiro.data61.matcher.api.{DataSetRequest, ModelRequest, InternalException, ParseException}
 import com.github.tototoshi.csv.CSVReader
@@ -81,8 +81,8 @@ object MatcherInterface extends LazyLogging {
             id = id,
             description = request.description.getOrElse(MissingValue),
             modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
-            labels = request.labels.getOrElse(List()),
-            features = request.features.getOrElse(Feature.values.toList),
+            classes = request.labels.getOrElse(List()),
+            features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
             labelData = userData.filterKeys(keysIn),
@@ -191,8 +191,8 @@ object MatcherInterface extends LazyLogging {
         m.copy(
           description = request.description.getOrElse(m.description),
           modelType = request.modelType.getOrElse(m.modelType),
-          labels = request.labels.getOrElse(m.labels),
-          features = request.features.getOrElse(m.features),
+          classes = request.labels.getOrElse(m.classes),
+          features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
           costMatrix = request.costMatrix.getOrElse(m.costMatrix),
           resamplingStrategy = request.resamplingStrategy.getOrElse(m.resamplingStrategy),
           labelData = request.labelData.getOrElse(m.labelData),

@@ -20,10 +20,11 @@ package au.csiro.data61.matcher
 import java.io.File
 import java.nio.file.Paths
 
+import au.csiro.data61.matcher.api.{BadRequestException, NotFoundException}
 import au.csiro.data61.matcher.types.{Feature, ModelType, SamplingStrategy}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
-import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
+import com.typesafe.scalalogging.LazyLogging
 
 // data integration project
 import com.nicta.dataint.data.{DataModel, SemanticTypeLabels}
@@ -51,18 +52,6 @@ case class DataintTrainModel(classes: List[String],
 
 object ModelTrainer extends LazyLogging {
 
-  //  parsing step
-  //  val labelsLoader = SemanticTypeLabelsLoader()
-  //  val labels = labelsLoader.load(appConfig.labelsPath)
-  //  val datasets = servicesConfig.dataSetRepository.getDataModels(appConfig.rawDataPath)
-  //  val featuresConfig = FeatureSettings.load(appConfig.featuresConfigPath, appConfig.repoPath)
-
-  // training step!
-  //  val trainSettings = TrainingSettings(resamplingStrategy, featuresConfig, costMatrixConfigOption)
-  //  val trainingData = new DataModel("", None, None, Some(datasets))
-  //  val trainer = new TrainMlibSemanticTypeClassifier(classes, false)
-  //  val randomForestSchemaMatcher = trainer.train(trainingData, labels, trainSettings, postProcessingConfig)
-
   val rootDir: String = ModelStorage.rootDir
   val datasetDir: String = DatasetStorage.rootDir
 
@@ -70,10 +59,7 @@ object ModelTrainer extends LazyLogging {
    Return an instance of class TrainingSettings
     */
   def readSettings(trainerPaths: ModelTrainerPaths): TrainingSettings = {
-    logger.info(s"featuresConfig: ${trainerPaths.featuresConfigPath}, workspacePath: ${trainerPaths.workspacePath}")
     val featuresConfig = FeatureSettings.load(trainerPaths.featuresConfigPath, trainerPaths.workspacePath)
-//    val featuresConfig = FeatureSettings.load(trainerPaths.featuresConfigPath)
-    logger.info("Features have been loaded")
     TrainingSettings(trainerPaths.curModel.resamplingStrategy.str,
       featuresConfig,
       Some(Left(trainerPaths.costMatrixConfigPath)))
@@ -83,22 +69,21 @@ object ModelTrainer extends LazyLogging {
    Returns a list of DataModel instances at path
     */
   def getDataModels(path: String): List[DataModel] = {
-    val csvres = DatasetStorage.getCSVResources
-    logger.info("****")
-    logger.info(s"resources: $csvres")
-    logger.info("****")
-      csvres.map{CSVHierarchicalDataLoader()
-        .readDataSet(_,"")}
+    DatasetStorage
+      .getCSVResources
+      .map{CSVHierarchicalDataLoader().readDataSet(_,"")}
   }
 
   /*
    Returns a list of DataModel instances for the dataset repository
     */
-  def readTrainingData(trainerPaths: ModelTrainerPaths): DataModel = {
+  def readTrainingData: DataModel = {
     val datasets = getDataModels(datasetDir)
-    val a = new DataModel("", None, None, Some(datasets))
-    logger.info(s"Datamodels created: ${datasets.length}")
-    a
+    if(datasets.length < 1){// training dataset has to be non-empty
+      logger.error("No csv training datasets have been found.")
+      throw NotFoundException("No csv training datasets have been found.")
+    }
+    new DataModel("", None, None, Some(datasets))
   }
 
   /*
@@ -106,7 +91,12 @@ object ModelTrainer extends LazyLogging {
     */
   def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels ={
     val labelsLoader = SemanticTypeLabelsLoader()
-    labelsLoader.load(trainerPaths.labelsDirPath)
+    val stl = labelsLoader.load(trainerPaths.labelsDirPath)
+    if(stl.labelsMap.size < 1){// we do not allow unsupervised setting; labeled data should not be empty
+      logger.error("No labeled datasets have been found.")
+      throw NotFoundException("No labeled datasets have been found.")
+    }
+    stl
   }
 
   /*
@@ -115,21 +105,25 @@ object ModelTrainer extends LazyLogging {
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
     ModelStorage.identifyPaths(id)
       .map(cts  => {
-        logger.info("paths identified")
-        DataintTrainModel(classes = cts.curModel.labels,
-          trainingSet = readTrainingData(cts),
+        if(!Paths.get(cts.workspacePath,"").toFile.exists){
+          logger.error(s"Workspace directory for the model $id does not exist.")
+          throw NotFoundException(s"Workspace directory for the model $id does not exist.")
+        }
+
+        DataintTrainModel(classes = cts.curModel.classes,
+          trainingSet = readTrainingData,
           labels = readLabeledData(cts),
           trainSettings = readSettings(cts),
           postProcessingConfig = None)})
+
       .map(dt => {
-        logger.info("training model created")
         val trainer = TrainMlibSemanticTypeClassifier (dt.classes, false)
-        logger.info("trainer initialized")
+
         val randomForestSchemaMatcher = trainer.train(dt.trainingSet,
           dt.labels,
           dt.trainSettings,
           dt.postProcessingConfig)
-        logger.info("training finished")
+
         SerializableMLibClassifier(randomForestSchemaMatcher.model,
           dt.classes,
           randomForestSchemaMatcher.featureExtractors,
@@ -137,23 +131,5 @@ object ModelTrainer extends LazyLogging {
       })
 
   }
-
-//  def train(resamplingStrategy: String,
-//            featuresConfig: FeatureSettings,
-//            costMatrixConfig: Option[CostMatrixConfig],
-//            trainingSet: DataModel,
-//            labels: SemanticTypeLabels,
-//            classes: List[String],
-//            postProcessingConfig: Option[Map[String,Any]]): SemanticTypeClassifier = {
-//    val trainSettings = TrainingSettings(resamplingStrategy, featuresConfig, costMatrixConfig.map({case x => Right(x)}))
-//    val startTime = System.nanoTime()
-//    val trainer = TrainMlibSemanticTypeClassifier(classes, false)
-//    val randomForestSchemaMatcher = trainer.train(trainingSet, labels, trainSettings, postProcessingConfig)
-//    val endTime = System.nanoTime()
-//    println("Training finished in " + ((endTime-startTime)/1.0E9) + " seconds.")
-//
-//    //allAttributes zip predsReordered -- attributes with predicted labels
-//    randomForestSchemaMatcher
-//  }
 
 }
