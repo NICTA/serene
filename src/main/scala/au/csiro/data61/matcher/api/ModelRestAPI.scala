@@ -79,6 +79,15 @@ object ModelRestAPI extends RestAPI {
   }
 
   /**
+    * Updates cache for models
+    *
+    * curl http://localhost:8080/v1.0/model/cache
+    */
+  val cacheUpdate: Endpoint[List[ModelID]] = get(APIVersion :: "model" :: "cache") {
+    Ok(MatcherInterface.updateModelKeys)
+  }
+
+  /**
    * Adds a new model as specified by the json body.
    *
    * {
@@ -140,6 +149,7 @@ object ModelRestAPI extends RestAPI {
 
   /**
     * Trains a model at id
+    * If training has been successfully launched, it returns nothing
     */
   val modelTrain: Endpoint[Unit] = get(APIVersion :: "model" :: int :: "train") {
     (id: Int) =>
@@ -259,7 +269,7 @@ object ModelRestAPI extends RestAPI {
   }
 
   /**
-   * Final endpoints for the Dataset endpoint...
+   * Final endpoints for the Model endpoint...
    */
   val endpoints =
     modelRoot :+:
@@ -267,7 +277,8 @@ object ModelRestAPI extends RestAPI {
       modelGet :+:
       modelTrain :+:
       modelPatch :+:
-      modelDelete
+      modelDelete :+:
+      cacheUpdate
 }
 
 

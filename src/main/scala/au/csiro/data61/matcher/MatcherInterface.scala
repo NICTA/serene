@@ -245,9 +245,20 @@ object MatcherInterface extends LazyLogging {
     DatasetStorage.keys
   }
 
+  def updateDatasetKeys: List[DataSetID] = {
+    DatasetStorage.updateCache
+    DatasetStorage.keys
+  }
+
   def modelKeys: List[ModelID] = {
     ModelStorage.keys
   }
+
+  def updateModelKeys: List[ModelID] = {
+    ModelStorage.updateCache
+    ModelStorage.keys
+  }
+
   /**
    * Returns the public facing dataset from the storage layer
    *

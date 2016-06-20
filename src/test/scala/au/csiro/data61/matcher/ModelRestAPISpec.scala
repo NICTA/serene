@@ -18,22 +18,21 @@
 package au.csiro.data61.matcher
 
 
-import java.io.File
+import java.io.{File, FileInputStream, IOException, ObjectInputStream}
+import java.nio.file.Paths
 
-import au.csiro.data61.matcher.types.Feature.{NUM_ALPHA, NUM_CHARS, IS_ALPHA}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
-import au.csiro.data61.matcher.types.{FeaturesConfig, MatcherJsonFormats}
+import au.csiro.data61.matcher.types.{FeaturesConfig, MatcherJsonFormats, ModelTypes}
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
-
 import com.twitter.io.Buf
 import com.twitter.util.Await
 import org.apache.commons.io.FileUtils
 import org.junit.runner.RunWith
-
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
 import api._
+import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 
 import language.postfixOps
 import scala.util.{Failure, Random, Success, Try}
@@ -52,11 +51,12 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   val DefaultLabelCount = 4
 
   override def beforeEach() {
-    FileUtils.deleteDirectory(new File(Config.ModelStorageDir))
+    FileUtils.deleteDirectory(new File(Config.ModelStorageDir)) // this does not update cache
+
   }
 
   override def afterEach() {
-    FileUtils.deleteDirectory(new File(Config.ModelStorageDir))
+    FileUtils.deleteDirectory(new File(Config.ModelStorageDir))  // this does not update cache
   }
 
   def randomString: String = Random.alphanumeric take 10 mkString
@@ -273,7 +273,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       postAndReturn(TestClasses, Some(TestStr)) match {
         case Success(model) =>
 
-          // build a request to modify the model...
+          // build a request to get the model...
           val response = get(s"/$APIVersion/model/${model.id}")
           assert(response.contentType === Some(JsonHeader))
           assert(response.status === Status.Ok)
@@ -323,17 +323,254 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-  // TODO: create test for training: 'busy' test, 'error' test, 'completed' test
+  test("GET /v1.0/model/1/train returns model not found") (new TestServer {
+    try {
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1/train")
+      // TODO: check message in response
+      assert(trainResp.status === Status.NotFound)
+      assert(!trainResp.contentString.isEmpty)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/some_id/train accepts request") (new TestServer {
+    try {
+      val response = get(s"/$APIVersion/model") // cache was not updated
+      val models : List[ModelID] = Try { parse(response.contentString).extract[List[ModelID]] } match {
+          case Success(mods) => mods
+          case _   => throw new Exception("No models")
+        }
+
+      val someId = models(2) // this model id is in cache, but all directories were deleted
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/$someId/train")
+      // since model id is still in cache, training request will be accepted
+      assert(trainResp.status === Status.Accepted)
+
+      val PauseTime = 1000
+      Thread.sleep(PauseTime)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/some_id/train modifies model train state to error") (new TestServer {
+    try {
+      val response = get(s"/$APIVersion/model") // cache was not updated
+      val models : List[ModelID] = Try { parse(response.contentString).extract[List[ModelID]] } match {
+        case Success(mods) => mods
+        case _   => throw new Exception("No models")
+      }
+
+      val someId = models(1) // this model id is in cache, but all directories were deleted
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/$someId/train")
+      // since model id is still in cache, training request will be accepted
+      assert(trainResp.status === Status.Accepted)
+
+      // build a request to get the model...
+      val modresponse = get(s"/$APIVersion/model/$someId")
+      assert(modresponse.contentType === Some(JsonHeader))
+      assert(modresponse.status === Status.Ok)
+      assert(!modresponse.contentString.isEmpty)
+      // since model directories were deleted, training will fail
+      val returnedModel = parse(modresponse.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.ERROR)
+      assert(!returnedModel.state.message.isEmpty)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  //  TODO: train model with no training datasets
+  test("GET /v1.0/model/1184298536/train fails with no training datasets") (new TestServer {
+    try {
+      val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
+      // copy sample model to Config.ModelStorageDir
+      if (!Paths.get(Config.ModelStorageDir).toFile.exists) { // create model storage dir
+        Paths.get(Config.ModelStorageDir).toFile.mkdirs}
+      val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
+      FileUtils.copyDirectory(mDir,                    // copy sample model
+        Paths.get(Config.ModelStorageDir).toFile)
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      println(trainResp.contentString)
+      assert(trainResp.status === Status.Accepted)
+
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+      // build a request to get the model...
+      val response = get(s"/$APIVersion/model/1184298536")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // error state
+      val returnedModel = parse(response.contentString).extract[Model]
+      println(s"state message = ${returnedModel.state.message}")
+      assert(returnedModel.state.status === ModelTypes.Status.ERROR)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+
+//  test("GET /v1.0/model/1184298536/train modifies model train state to BUSY") (new TestServer {
+//    try {
+//      val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
+//      // copy sample model to Config.ModelStorageDir
+//      if (!Paths.get(Config.ModelStorageDir).toFile.exists) { // create model storage dir
+//        Paths.get(Config.ModelStorageDir).toFile.mkdirs}
+//      val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
+//      FileUtils.copyDirectory(mDir,                    // copy sample model
+//        Paths.get(Config.ModelStorageDir).toFile)
+//      // copy sample dataset to Config.DatasetStorageDir
+//      if (!Paths.get(Config.DatasetStorageDir).toFile.exists) { // create dataset storage dir
+//        Paths.get(Config.DatasetStorageDir).toFile.mkdirs}
+//      val dsDir = Paths.get(helperDir, "sample.datasets").toFile // directory to copy from
+//      FileUtils.copyDirectory(dsDir,                    // copy sample dataset
+//        Paths.get(Config.DatasetStorageDir).toFile)
+//
+//      // updating caches explicitly
+//      get(s"/$APIVersion/model/cache") // update cache for models
+//      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+//
+//      // sending training request
+//      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+//      assert(trainResp.status === Status.Accepted)
+//
+//      // build a request to get the model...
+//      val response = get(s"/$APIVersion/model/1184298536")
+//      assert(response.contentType === Some(JsonHeader))
+//      assert(response.status === Status.Ok)
+//      assert(!response.contentString.isEmpty)
+//      // train state should be busy
+//      val returnedModel = parse(response.contentString).extract[Model]
+//      assert(returnedModel.state.status === ModelTypes.Status.BUSY)
+//
+//      // wait for the training
+//      val PauseTime = 10000
+//      Thread.sleep(PauseTime)
+//
+//    } finally {
+//      assertClose()
+//    }
+//  })
+//
+//  test("GET /v1.0/model/1184298536/train returns completed status") (new TestServer {
+//    try {
+//      val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
+//      // copy sample model to Config.ModelStorageDir
+//      if (!Paths.get(Config.ModelStorageDir).toFile.exists) { // create model storage dir
+//        Paths.get(Config.ModelStorageDir).toFile.mkdirs}
+//      val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
+//      FileUtils.copyDirectory(mDir,                    // copy sample model
+//        Paths.get(Config.ModelStorageDir).toFile)
+//      // copy sample dataset to Config.DatasetStorageDir
+//      if (!Paths.get(Config.DatasetStorageDir).toFile.exists) { // create dataset storage dir
+//        Paths.get(Config.DatasetStorageDir).toFile.mkdirs}
+//      val dsDir = Paths.get(helperDir, "sample.datasets").toFile // directory to copy from
+//      FileUtils.copyDirectory(dsDir,                    // copy sample dataset
+//        Paths.get(Config.DatasetStorageDir).toFile)
+//
+//      // updating caches explicitly
+//      get(s"/$APIVersion/model/cache") // update cache for models
+//      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+//
+//      // sending training request
+//      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+//      assert(trainResp.status === Status.Accepted)
+//
+//      // wait for the training
+//      val PauseTime = 10000
+//      Thread.sleep(PauseTime)
+//
+//    } finally {
+//      assertClose()
+//    }
+//  })
+//
+//  test("GET /v1.0/model/1184298536/train returns the same model as the data integration project") (new TestServer {
+//    try {
+//      val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
+//      // copy sample model to Config.ModelStorageDir
+//      if (!Paths.get(Config.ModelStorageDir).toFile.exists) { // create model storage dir
+//        Paths.get(Config.ModelStorageDir).toFile.mkdirs}
+//      val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
+//      FileUtils.copyDirectory(mDir,                    // copy sample model
+//        Paths.get(Config.ModelStorageDir).toFile)
+//      // copy sample dataset to Config.DatasetStorageDir
+//      if (!Paths.get(Config.DatasetStorageDir).toFile.exists) { // create dataset storage dir
+//        Paths.get(Config.DatasetStorageDir).toFile.mkdirs}
+//      val dsDir = Paths.get(helperDir, "sample.datasets").toFile // directory to copy from
+//      FileUtils.copyDirectory(dsDir,                    // copy sample dataset
+//        Paths.get(Config.DatasetStorageDir).toFile)
+//
+//      // updating caches explicitly
+//      get(s"/$APIVersion/model/cache") // update cache for models
+//      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+//
+//      // sending training request
+//      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+//      assert(trainResp.status === Status.Accepted)
+//
+//      // wait for the training
+//      val PauseTime = 10000
+//      Thread.sleep(PauseTime)
+//
+//      // build a request to get the model...
+//      val response = get(s"/$APIVersion/model/1184298536")
+//      assert(response.contentType === Some(JsonHeader))
+//      assert(response.status === Status.Ok)
+//      assert(!response.contentString.isEmpty)
+//      // ensure that the data is correct...
+//      val returnedModel = parse(response.contentString).extract[Model]
+//      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
+//      // check the content of .rf file
+//      val learntModelFile = Paths.get(Config.ModelStorageDir, "1184298536", "workspace", "1184298536.rf").toFile
+//      assert(learntModelFile.exists === true)
+//      val corFile = Paths.get(helperDir, "1184298536_di.rf").toFile // that's the output from the data integration project
+//      //      val corFile = Paths.get(helperDir, "1184298536.rf").toFile // that's the output when running API
+//
+//      // checking that the models are the same; direct comparison of file contents does not yield correct results
+//      for {
+//        inLearnt <- Try( new ObjectInputStream(new FileInputStream(learntModelFile)))
+//          .orElse(Failure( new IOException("Error opening model file.")))
+//        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
+//          .orElse(Failure( new IOException("Error reading model file.")))
+//        inCor <- Try( new ObjectInputStream(new FileInputStream(corFile)))
+//          .orElse(Failure( new IOException("Error opening model file.")))
+//        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
+//          .orElse(Failure( new IOException("Error reading model file.")))
+//      } yield{
+//        assert(dataLearnt.classes === dataCor.classes)
+//        assert(dataLearnt.model === dataCor.model)
+//      }
+//
+//    } finally {
+//      assertClose()
+//    }
+//  })
 
   // TODO: create test for bad parameters
 
-  //  TODO: create model with incorrect featuresconfig feature names
-
-  //  TODO: train model with no training datasets
+  //  TODO: create model with incorrect featuresconfig feature names?? incorrect feature names are ignored currently both by API and data integration project
 
   //  TODO: train model with no labeled datasets
 
-  //  TODO: train model with missing workspace directory
 
   test("POST /v1.0/model/id responds Ok(200)") (new TestServer {
     try {
@@ -413,3 +650,4 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   })
 
 }
+

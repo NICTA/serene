@@ -39,13 +39,13 @@ curl -X POST \
   -d '{
     "description": "This is the description",
     "modelType": "randomForest",
-    "labels": ["name", "address", "phone", "unknown"],
+    "classes": ["name", "address", "phone", "unknown"],
     "features": { "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
         "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
         "featureExtractorParams" : [{"name" : "prop-instances-per-class-in-knearestneighbours","num-neighbours" : 5}]
         },
     "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
-    "userData" : {"1" : "name", "1817136897" : "unknown", "1498946589" : "name", "134383522" : "phone", "463734360" : "address"},
+    "labelData" : {"1" : "name", "1817136897" : "unknown", "1498946589" : "name", "134383522" : "phone", "463734360" : "address"},
     "resamplingStrategy": "ResampleToMean"
     }' \
   localhost:8080/v1.0/model

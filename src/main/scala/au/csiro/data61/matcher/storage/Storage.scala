@@ -213,6 +213,13 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
     }
   }
 
+  /**
+    * Updates cache
+    */
+  def updateCache = {
+    cache = listValues.map(m => m.id -> m).toMap
+  }
+
 }
 
 

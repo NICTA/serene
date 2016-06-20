@@ -18,12 +18,13 @@
 package au.csiro.data61.matcher
 
 import com.typesafe.config.ConfigFactory
+import com.typesafe.scalalogging.LazyLogging
 
 /**
  * This object loads in the configuration .conf
  * file and parses the values into fields.
  */
-object Config {
+object Config extends LazyLogging {
 
   private val conf = ConfigFactory.load()
 
@@ -32,4 +33,9 @@ object Config {
   val ModelStorageDir = conf.getString("config.output-model-dir")
 
   val ServerAddress = conf.getString("config.server-address")
+
+  logger.info(s"Starting Server at ${ServerAddress}")
+  logger.info(s"Storage path at ${StoragePath}")
+  logger.info(s"Dataset repository at ${DatasetStorageDir}")
+  logger.info(s"Model repository at ${ModelStorageDir}")
 }

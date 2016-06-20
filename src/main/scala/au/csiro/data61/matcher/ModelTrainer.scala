@@ -125,10 +125,11 @@ object ModelTrainer extends LazyLogging {
           dt.trainSettings,
           dt.postProcessingConfig)
 
-        SerializableMLibClassifier(randomForestSchemaMatcher.model,
-          dt.classes,
-          randomForestSchemaMatcher.featureExtractors,
-          randomForestSchemaMatcher.postProcessingConfig)
+        SerializableMLibClassifier(randomForestSchemaMatcher.model
+          ,dt.classes
+          ,randomForestSchemaMatcher.featureExtractors
+          //,randomForestSchemaMatcher.postProcessingConfig
+        )
       })
 
   }
