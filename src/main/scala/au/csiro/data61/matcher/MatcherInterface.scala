@@ -123,7 +123,6 @@ object MatcherInterface extends LazyLogging {
     // crude concurrency
     val state = ModelStorage.get(id).map(_.state)
     val status = state.map(_.status)
-
     status.flatMap {
 
       case Status.BUSY =>

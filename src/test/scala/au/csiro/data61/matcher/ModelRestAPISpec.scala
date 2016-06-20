@@ -372,6 +372,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val trainResp = get(s"/$APIVersion/model/$someId/train")
       // since model id is still in cache, training request will be accepted
       assert(trainResp.status === Status.Accepted)
+      val PauseTime = 1000
+      Thread.sleep(PauseTime)
 
       // build a request to get the model...
       val modresponse = get(s"/$APIVersion/model/$someId")
@@ -382,9 +384,6 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val returnedModel = parse(modresponse.contentString).extract[Model]
       assert(returnedModel.state.status === ModelTypes.Status.ERROR)
       assert(!returnedModel.state.message.isEmpty)
-
-      val PauseTime = 1000
-      Thread.sleep(PauseTime)
 
     } finally {
       assertClose()
@@ -509,6 +508,15 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val PauseTime = 10000
       Thread.sleep(PauseTime)
 
+      // build a request to get the model...
+      val response = get(s"/$APIVersion/model/1184298536")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // ensure that the data is correct...
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
+
     } finally {
       assertClose()
     }
@@ -580,7 +588,39 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   //  TODO: create model with incorrect featuresconfig feature names?? incorrect feature names are ignored currently both by API and data integration project
 
-  //  TODO: train model with no labeled datasets
+  test("GET /v1.0/model/some_id/train fails with no data") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestClasses = List.fill(LabelLength)(randomString)
+
+      postAndReturn(TestClasses) match {
+        case Success(model) =>
+
+          // build a request to train the model
+          val trainResp = get(s"/$APIVersion/model/${model.id}/train")
+          assert(trainResp.status === Status.Accepted)
+
+          // wait for the training
+          val PauseTime = 10000
+          Thread.sleep(PauseTime)
+
+          // build a request to get the model...
+          val response = get(s"/$APIVersion/model/${model.id}")
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+          // ensure that the state is error
+          val returnedModel = parse(response.contentString).extract[Model]
+          println(returnedModel.state.message)
+          assert(returnedModel.state.status === ModelTypes.Status.ERROR)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      assertClose()
+    }
+  })
 
 
   test("POST /v1.0/model/id responds Ok(200)") (new TestServer {
