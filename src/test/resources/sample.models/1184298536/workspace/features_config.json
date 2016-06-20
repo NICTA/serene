@@ -1,0 +1,1 @@
+{"activeFeatures":["num-unique-vals","prop-unique-vals","prop-missing-vals"],"activeFeatureGroups":["stats-of-text-length","prop-instances-per-class-in-knearestneighbours"],"featureExtractorParams":[{"name":"prop-instances-per-class-in-knearestneighbours","num-neighbours":"5"}]}

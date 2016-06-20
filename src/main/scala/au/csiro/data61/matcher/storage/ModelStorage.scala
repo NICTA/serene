@@ -274,4 +274,31 @@ object ModelStorage extends Storage[ModelID, Model] {
           costMatrixConfigPath = Paths.get(wsDir, s"cost_matrix_config.json").toString,
           labelsDirPath = Paths.get(wsDir, s"labels").toString))
   }
+
+  /**
+    * Check if the trained model is consistent.
+    * If the model is untrained, it returns false.
+    * If the learnt model is consistent, it returns true
+    *
+    * @param id
+    * @return boolean
+    */
+  def isConsistent(id: ModelID): Boolean = {
+    // check if .rf file exists
+    // check model state
+    // check if json file was updated after .rf file was created
+    // check if dataset repo was updated
+
+    val wsDir = getWSPath(id).toString
+    logger.info(s"Identifying paths for the model $id")
+    ModelStorage.get(id)
+      .map(cm =>
+        ModelTrainerPaths(curModel = cm,
+          workspacePath = wsDir,
+          featuresConfigPath = Paths.get(wsDir, "features_config.json").toString,
+          costMatrixConfigPath = Paths.get(wsDir, s"cost_matrix_config.json").toString,
+          labelsDirPath = Paths.get(wsDir, s"labels").toString))
+    true
+  }
+
 }
