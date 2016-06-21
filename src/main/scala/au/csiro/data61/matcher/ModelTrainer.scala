@@ -17,7 +17,7 @@
   */
 package au.csiro.data61.matcher
 
-import java.io.File
+import java.io.{File, FileInputStream, IOException, ObjectInputStream}
 import java.nio.file.Paths
 
 import au.csiro.data61.matcher.api.{BadRequestException, NotFoundException}
@@ -26,6 +26,8 @@ import au.csiro.data61.matcher.types.{Feature, ModelType, SamplingStrategy}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import org.joda.time.DateTime
 import com.typesafe.scalalogging.LazyLogging
+
+import scala.util.{Failure, Success, Try}
 
 // data integration project
 import com.nicta.dataint.data.{DataModel, SemanticTypeLabels}
@@ -103,36 +105,49 @@ object ModelTrainer extends LazyLogging {
   /*
    Performs training for the model and returns serialized object for the learnt model
     */
-  def train(id: ModelID): Option[SerializableMLibClassifier] = {
-    // check model training consistency
-    ModelStorage.identifyPaths(id)
-      .map(cts  => {
-        if(!Paths.get(cts.workspacePath,"").toFile.exists){
-          logger.error(s"Workspace directory for the model $id does not exist.")
-          throw NotFoundException(s"Workspace directory for the model $id does not exist.")
-        }
-
-        DataintTrainModel(classes = cts.curModel.classes,
-          trainingSet = readTrainingData,
-          labels = readLabeledData(cts),
-          trainSettings = readSettings(cts),
-          postProcessingConfig = None)})
-
-      .map(dt => {
-        val trainer = TrainMlibSemanticTypeClassifier (dt.classes, false)
-
-        val randomForestSchemaMatcher = trainer.train(dt.trainingSet,
-          dt.labels,
-          dt.trainSettings,
-          dt.postProcessingConfig)
-
-        SerializableMLibClassifier(randomForestSchemaMatcher.model
-          ,dt.classes
-          ,randomForestSchemaMatcher.featureExtractors
-          //,randomForestSchemaMatcher.postProcessingConfig
-        )
-      })
-
+  def readLearntModelFile(filePath: String) : Option[SerializableMLibClassifier] = {
+    (for {
+      learnt <- Try( new ObjectInputStream(new FileInputStream(filePath)))
+        .orElse(Failure( new IOException("Error opening model file.")))
+      data <- Try(learnt.readObject().asInstanceOf[SerializableMLibClassifier])
+        .orElse(Failure( new IOException("Error reading model file.")))
+    } yield data) match {
+      case Success(mod) => Some(mod)
+      case _ => None
+    }
   }
+
+
+  /*
+   Performs training for the model and returns serialized object for the learnt model
+    */
+  def train(id: ModelID): Option[SerializableMLibClassifier] = {
+      ModelStorage.identifyPaths(id)
+        .map(cts => {
+          if (!Paths.get(cts.workspacePath, "").toFile.exists) {
+            logger.error(s"Workspace directory for the model $id does not exist.")
+            throw NotFoundException(s"Workspace directory for the model $id does not exist.")
+          }
+          DataintTrainModel(classes = cts.curModel.classes,
+            trainingSet = readTrainingData,
+            labels = readLabeledData(cts),
+            trainSettings = readSettings(cts),
+            postProcessingConfig = None)
+        })
+        .map(dt => {
+          val trainer = TrainMlibSemanticTypeClassifier(dt.classes, false)
+
+          val randomForestSchemaMatcher = trainer.train(dt.trainingSet,
+            dt.labels,
+            dt.trainSettings,
+            dt.postProcessingConfig)
+
+          SerializableMLibClassifier(randomForestSchemaMatcher.model
+            , dt.classes
+            , randomForestSchemaMatcher.featureExtractors
+            //,randomForestSchemaMatcher.postProcessingConfig
+          )
+        })
+    }
 
 }

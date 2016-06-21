@@ -19,20 +19,19 @@ package au.csiro.data61.matcher
 
 import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
 import types.ColumnTypes.ColumnID
-import types.ModelTypes.{TrainState, Status, ModelID, Model}
+import types.ModelTypes.{Model, ModelID, Status, TrainState}
 import types._
 import DataSetTypes._
-import api.{DataSetRequest, ModelRequest, InternalException, ParseException}
-
+import api.{DataSetRequest, InternalException, ModelRequest, ParseException}
 import java.nio.file.Path
+
 import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
-import scala.util.{Success, Failure, Random, Try}
+
+import scala.util.{Failure, Random, Success, Try}
 import scala.language.postfixOps
-
 import scala.concurrent.{ExecutionContext, Future}
-
 import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
@@ -120,22 +119,28 @@ object MatcherInterface extends LazyLogging {
    */
   def trainModel(id: ModelID): Option[TrainState] = {
 
-    // crude concurrency
-    val state = ModelStorage.get(id).map(_.state)
-    val status = state.map(_.status)
-    status.flatMap {
+    if (ModelStorage.isConsistent(id)) {
+      logger.info(s"Model ${id} does not need training, it is consitent!")
+      ModelStorage.get(id).map(_.state)
+    }
+    else {
+      // crude concurrency
+      val state = ModelStorage.get(id).map(_.state)
+      val status = state.map(_.status)
+      status.flatMap {
 
-      case Status.BUSY =>
-        // if it is complete or pending, just return the value
-        logger.info("Returning cached state")
-        state
+        case Status.BUSY =>
+          // if it is complete or pending, just return the value
+          logger.info("Returning cached state")
+          state
 
-      case Status.COMPLETE | Status.UNTRAINED | Status.ERROR => {
-        // in the background we launch the training...
-        logger.info("Launching training.....")
-        launchTraining(id)
-        // first we set the model state to training....
-        ModelStorage.updateTrainState(id, Status.BUSY)
+        case Status.COMPLETE | Status.UNTRAINED | Status.ERROR => {
+          // in the background we launch the training...
+          logger.info("Launching training.....")
+          launchTraining(id)
+          // first we set the model state to training....
+          ModelStorage.updateTrainState(id, Status.BUSY)
+        }
       }
     }
   }

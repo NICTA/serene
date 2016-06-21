@@ -51,7 +51,7 @@ object ModelStorage extends Storage[ModelID, Model] {
    * @return Path to the binary resource
    */
   def modelPath(id: ModelID): Path = {
-    Paths.get(getDirectoryPath(id).toString, s"$id.rf")
+    Paths.get(getWSPath(id).toString, s"$id.rf")
   }
 
   /**
@@ -222,7 +222,7 @@ object ModelStorage extends Storage[ModelID, Model] {
    * @return
    */
   def writeModel(id: ModelID, learntModel: SerializableMLibClassifier): Boolean = {
-    val writePath = Paths.get(getWSPath(id).toString, s"$id.rf").toString
+    val writePath = modelPath(id).toString
 
     val out = Try(new ObjectOutputStream(new FileOutputStream(writePath)))
     logger.info(s"Writing model rf:  $writePath")
@@ -285,6 +285,10 @@ object ModelStorage extends Storage[ModelID, Model] {
   def checkModelFileCreation(model: Model, modelFile: String): Boolean = {
     val f = new File(modelFile)
     val stateLastModified = model.state.dateModified
+    println(modelFile)
+    println(s"condition 1: ${f.exists}")
+    println(s"condition 2: ${model.dateModified.isBefore(f.lastModified)}")
+    println(s"condition 3: ${model.dateModified.isBefore(stateLastModified)}")
     (f.exists // model.rf file exists
       && model.dateModified.isBefore(f.lastModified) // model.rf was modified after model modifications
       && model.dateModified.isBefore(stateLastModified) // state was modified after model modifications
@@ -320,14 +324,18 @@ object ModelStorage extends Storage[ModelID, Model] {
     // check model state
     // check if json file was updated after .rf file was created
     // check if dataset repo was updated
+    println("-------------------")
+    println("Model constistency")
     logger.info(s"Checking consistency of model $id")
-    val wsDir = getWSPath(id)
-    val modelFile = Paths.get(wsDir.toString, s"${id}.rf").toString
+    val modelFile = modelPath(id).toString
     ModelStorage.get(id) match {
       case Some(model) => {
-        (wsDir.toFile.exists
-          && checkModelFileCreation(model, modelFile)
-          && checkModelTrainDataset(model))
+        println(s"checkModelFileCreation: ${checkModelFileCreation(model, modelFile)}")
+        println(s"checkModelTrainDataset: ${checkModelTrainDataset(model)}")
+        println(s"state: ${model.state.status == Status.COMPLETE}")
+        (checkModelFileCreation(model, modelFile)
+          && checkModelTrainDataset(model)
+          && model.state.status == Status.COMPLETE)
       }
       case _ => false // model does not exist or some other problem
     }
