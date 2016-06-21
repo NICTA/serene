@@ -25,7 +25,7 @@ import au.csiro.data61.matcher.{ModelTrainerPaths, Config}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID, Status, TrainState}
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 import org.apache.commons.io.{FileUtils, FilenameUtils}
-import org.joda.time.DateTime
+import org.joda.time.{DateTime,DateTimeComparator}
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
@@ -276,9 +276,41 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
+    * Check if the file for the trained model was written after changes to the model
+    *
+    * @param model
+    * @param modelFile
+    * @return boolean
+    */
+  def checkModelFileCreation(model: Model, modelFile: String): Boolean = {
+    val f = new File(modelFile)
+    val stateLastModified = model.state.dateModified
+    (f.exists // model.rf file exists
+      && model.dateModified.isBefore(f.lastModified) // model.rf was modified after model modifications
+      && model.dateModified.isBefore(stateLastModified) // state was modified after model modifications
+    )
+  }
+
+  /**
+    * Check if the model was trained after changes to the dataset repository
+    *
+    * @param model
+    * @return boolean
+    */
+  def checkModelTrainDataset(model: Model): Boolean = {
+    model.refDataSets
+      .map(DatasetStorage.get(_))
+      .map {
+        case Some(ds) => ds.dateModified.isBefore(model.state.dateModified)
+        case _ => false
+        }
+      .reduce(_ && _)
+  }
+
+  /**
     * Check if the trained model is consistent.
-    * If the model is untrained, it returns false.
-    * If the learnt model is consistent, it returns true
+    * If the model is untrained or any error is encountered, it returns false.
+    * If the learnt model is consistent, it returns true.
     *
     * @param id
     * @return boolean
@@ -288,17 +320,17 @@ object ModelStorage extends Storage[ModelID, Model] {
     // check model state
     // check if json file was updated after .rf file was created
     // check if dataset repo was updated
-
-    val wsDir = getWSPath(id).toString
-    logger.info(s"Identifying paths for the model $id")
-    ModelStorage.get(id)
-      .map(cm =>
-        ModelTrainerPaths(curModel = cm,
-          workspacePath = wsDir,
-          featuresConfigPath = Paths.get(wsDir, "features_config.json").toString,
-          costMatrixConfigPath = Paths.get(wsDir, s"cost_matrix_config.json").toString,
-          labelsDirPath = Paths.get(wsDir, s"labels").toString))
-    true
+    logger.info(s"Checking consistency of model $id")
+    val wsDir = getWSPath(id)
+    val modelFile = Paths.get(wsDir.toString, s"${id}.rf").toString
+    ModelStorage.get(id) match {
+      case Some(model) => {
+        (wsDir.toFile.exists
+          && checkModelFileCreation(model, modelFile)
+          && checkModelTrainDataset(model))
+      }
+      case _ => false // model does not exist or some other problem
+    }
   }
 
 }

@@ -104,6 +104,7 @@ object ModelTrainer extends LazyLogging {
    Performs training for the model and returns serialized object for the learnt model
     */
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
+    // check model training consistency
     ModelStorage.identifyPaths(id)
       .map(cts  => {
         if(!Paths.get(cts.workspacePath,"").toFile.exists){
