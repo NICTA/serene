@@ -118,15 +118,15 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def trainModel(id: ModelID): Option[TrainState] = {
+    val state = ModelStorage.get(id).map(_.state)
+    val status = state.map(_.status)
 
     if (ModelStorage.isConsistent(id)) {
-      logger.info(s"Model ${id} does not need training, it is consitent!")
-      ModelStorage.get(id).map(_.state)
+      logger.info(s"Model ${id} does not need training, it is consistent!")
+      state // instead of launching training we return the current model state
     }
     else {
       // crude concurrency
-      val state = ModelStorage.get(id).map(_.state)
-      val status = state.map(_.status)
       status.flatMap {
 
         case Status.BUSY =>
@@ -146,13 +146,13 @@ object MatcherInterface extends LazyLogging {
   }
 
   /**
-   * Asynchronously launch the training process, and write
-   * to storage once complete. The actual state will be
-   * returned from the above case when re-read from the
-   * storage layer.
-   *
-   * @param id Model key for the model to be launched
-   */
+    * Asynchronously launch the training process, and write
+    * to storage once complete. The actual state will be
+    * returned from the above case when re-read from the
+    * storage layer.
+    *
+    * @param id Model key for the model to be launched
+    */
   private def launchTraining(id: ModelID)(implicit ec: ExecutionContext): Unit = {
 
     Future {
@@ -162,7 +162,7 @@ object MatcherInterface extends LazyLogging {
       }
     } onComplete {
       case Success(Some(true)) =>
-        ModelStorage.updateTrainState(id, Status.COMPLETE)
+        ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false)
       case Success(Some(false)) =>
         logger.error(s"Failed to write trained model")
         ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to write trained model")
@@ -175,6 +175,53 @@ object MatcherInterface extends LazyLogging {
         ModelStorage.updateTrainState(id, Status.ERROR, msg)
     }
   }
+
+  /**
+    * Perform prediction using the model
+    *
+    * @param id The model id
+    * @return
+    */
+  def predictModel(id: ModelID): Boolean = {
+    if (ModelStorage.isConsistent(id)) {
+      // do prediction
+      logger.info(s"Launching prediction for model $id...")
+      // crude concurrency
+      launchPrediction(id)
+      // first we set the model state to busy, learnt model should not be deleted
+      ModelStorage.updateTrainState(id, Status.BUSY, deleteRF = false)
+      true // prediction has been started
+    }
+    else {
+      // prediction is impossible since the model has not been trained properly
+      logger.warn(s"Prediction is not possible for model $id since it's not trained.")
+      false
+    }
+  }
+
+  /**
+    * Asynchronously launch the training process, and write
+    * to storage once complete. The actual state will be
+    * returned from the above case when re-read from the
+    * storage layer.
+    *
+    * @param id Model key for the model to be used for prediction
+    */
+  private def launchPrediction(id: ModelID)(implicit ec: ExecutionContext): Unit = {
+    Future {
+      // proceed with prediction...
+      ModelPredictor.predict(id)
+
+    } onComplete {
+      case Success(_) =>
+        ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false)
+      case Failure(err) =>
+        val msg = s"Failed to perform prediction: ${err.getMessage}"
+        logger.error(msg)
+        ModelStorage.updateTrainState(id, Status.COMPLETE, msg)
+    }
+  }
+
 
   /**
    * Parses a model request to construct a model object
@@ -199,8 +246,13 @@ object MatcherInterface extends LazyLogging {
           costMatrix = request.costMatrix.getOrElse(m.costMatrix),
           resamplingStrategy = request.resamplingStrategy.getOrElse(m.resamplingStrategy),
           labelData = request.labelData.getOrElse(m.labelData),
+          state = TrainState(status = Status.UNTRAINED // we need to ensure that the training state is set to untrained if the model is updated
+            , message = m.state.message
+            , dateCreated = m.state.dateCreated
+            , dateModified = DateTime.now),
           dateModified = DateTime.now)
       }.toOption
+    // file with the learnt model gets deleted only if status is not complete!
       _ <- ModelStorage.update(id, model)
     } yield model
 

@@ -17,12 +17,11 @@
   */
 package au.csiro.data61.matcher
 
-import java.io.{File, FileInputStream, IOException, ObjectInputStream}
+import java.io.{FileInputStream, IOException, ObjectInputStream}
 import java.nio.file.Paths
 
 import au.csiro.data61.matcher.api.{BadRequestException, NotFoundException}
 import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
-import au.csiro.data61.matcher.types.{Feature, ModelType, SamplingStrategy}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import org.joda.time.DateTime
 import com.typesafe.scalalogging.LazyLogging
@@ -31,14 +30,9 @@ import scala.util.{Failure, Success, Try}
 
 // data integration project
 import com.nicta.dataint.data.{DataModel, SemanticTypeLabels}
-import com.nicta.dataint.matcher.SemanticTypeClassifier
+import com.nicta.dataint.matcher.train.{TrainMlibSemanticTypeClassifier, TrainingSettings}
 import com.nicta.dataint.matcher.features.FeatureSettings
-import com.nicta.dataint.matcher.train.{CostMatrixConfig, TrainMlibSemanticTypeClassifier, TrainingSettings}
-import com.nicta.dataint.matcher.features.FeatureSettings
-import com.nicta.dataint.data.DataModel
-import com.nicta.dataint.ingestion.loader.CSVHierarchicalDataLoader
-import com.nicta.dataint.data.DataModel
-import com.nicta.dataint.ingestion.loader.SemanticTypeLabelsLoader
+import com.nicta.dataint.ingestion.loader.{CSVHierarchicalDataLoader, SemanticTypeLabelsLoader}
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 
 case class ModelTrainerPaths(curModel: Model,
@@ -102,24 +96,11 @@ object ModelTrainer extends LazyLogging {
     stl
   }
 
-  /*
-   Performs training for the model and returns serialized object for the learnt model
-    */
-  def readLearntModelFile(filePath: String) : Option[SerializableMLibClassifier] = {
-    (for {
-      learnt <- Try( new ObjectInputStream(new FileInputStream(filePath)))
-        .orElse(Failure( new IOException("Error opening model file.")))
-      data <- Try(learnt.readObject().asInstanceOf[SerializableMLibClassifier])
-        .orElse(Failure( new IOException("Error reading model file.")))
-    } yield data) match {
-      case Success(mod) => Some(mod)
-      case _ => None
-    }
-  }
-
-
-  /*
-   Performs training for the model and returns serialized object for the learnt model
+  /**
+    * Performs training for the model and returns serialized object for the learnt model
+    *
+    * @param id id of the model
+    * @return Serialized Mlib classifier wrapped in Option
     */
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
       ModelStorage.identifyPaths(id)

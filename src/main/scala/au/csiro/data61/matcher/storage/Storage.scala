@@ -155,7 +155,7 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
    * @param value Value object
    * @return ID of the resource created (if any)
    */
-  def update(id: Key, value: Value): Option[Key] = {
+  def update(id: Key, value: Value, deleteRF : Boolean = true): Option[Key] = {
     add(id, value)
   }
 

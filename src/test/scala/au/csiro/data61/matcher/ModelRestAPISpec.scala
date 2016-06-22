@@ -795,6 +795,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
+//  TODO: test for asynchronous execution of training and prediction
+
 //  TODO: create test for bad parameters
 //
 //  TODO: create model with incorrect featuresconfig feature names?? incorrect feature names are ignored currently both by API and data integration project

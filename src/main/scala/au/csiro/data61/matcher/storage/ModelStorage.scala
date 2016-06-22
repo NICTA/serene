@@ -66,6 +66,16 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
+    * Returns the location of the predictions directory for id
+    *
+    * @param id The ID for the Value
+    * @return
+    */
+  def getPredictionsPath(id: ModelID): Path = {
+    Paths.get(getWSPath(id).toString, "predictions/")
+  }
+
+  /**
    * Attempts to read all the objects out from the storage dir
    *
    * Note that here we do a basic error check and reset all the
@@ -95,7 +105,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @param value The Model to write to disk
     */
   def convertLabelData(value : Model) : List[List[String]] = {
-    //just fail the splitting of files if some columns from labelData are not found in colunmMap???
+    //should we fail the splitting of files if some columns from labelData are not found in colunmMap???
     List("attr_id", "class") :: // header for the file
       value.labelData           // converting to the format: "datasetID.csv/columnName,labelName"
         .map { x => {
@@ -131,6 +141,9 @@ object ModelStorage extends Storage[ModelID, Model] {
 //  write config files according to the data integration project
     val wsDir = getWSPath(value.id).toFile  // workspace directory
     if (!wsDir.exists) wsDir.mkdirs         // create workspace directory if it doesn't exist
+
+    val predDir = getPredictionsPath(value.id).toFile  // predictions directory
+    if (!predDir.exists) predDir.mkdirs         // create predictions directory if it doesn't exist
 
     //cost_matrix_config.json
     val costMatrixConfigPath = Paths.get(wsDir.toString, s"cost_matrix_config.json")
@@ -175,24 +188,25 @@ object ModelStorage extends Storage[ModelID, Model] {
     *
     * @param id ID to give to the element
     * @param value Value object
+    * @param deleteRF Boolean which indicates whether the trained model file should be deleted
     * @return ID of the resource created (if any)
     */
-  override def update(id: ModelID, value: Model): Option[ModelID] = {
+  override def update(id: ModelID, value: Model, deleteRF: Boolean = true): Option[ModelID] = {
     for {
       updatedID <- super.update(id, value)
-      deleteOK <- value.state.status match {
-        case Status.COMPLETE => Some(id) // if the model has been successfully trained, model file should not be deleted
-        case _ => deleteModel(updatedID)
+      deleteOK <- deleteRF match {
+        case false => Some(id) // if the model has been successfully trained or we're doing prediction, model file should not be deleted
+        case true => deleteModel(updatedID)
       }
     } yield deleteOK
   }
 
   /**
-   * Deletes the model file resource if available
-   *
-   * @param id The key for the model object
-   * @return
-   */
+    * Deletes the model file resource if available
+    *
+    * @param id The key for the model object
+    * @return
+    */
   protected def deleteModel(id: ModelID): Option[ModelID] = {
     cache.get(id) match {
       case Some(ds) =>
@@ -251,12 +265,17 @@ object ModelStorage extends Storage[ModelID, Model] {
    * @param status The current status of the model training.
    * @return
    */
-  def updateTrainState(id: ModelID, status: Status, msg: String = ""): Option[TrainState] = {
+  def updateTrainState(id: ModelID
+                       , status: Status
+                       , msg: String = ""
+                      , deleteRF : Boolean = true): Option[TrainState] = {
     synchronized {
       for {
         model <- ModelStorage.get(id)
         trainState = TrainState(status, msg, model.state.dateCreated, DateTime.now)
-        id <- ModelStorage.update(id, model.copy(state = trainState, dateModified = model.dateModified))
+        id <- ModelStorage.update(id
+          , model.copy(state = trainState, dateModified = model.dateModified)
+          , deleteRF)
       } yield trainState
     }
   }

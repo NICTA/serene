@@ -34,9 +34,9 @@ import scala.util.{Failure, Success, Try}
 /**
  *  Model REST endpoints...
  *
- *  GET    /v1.0/model
+ *  GET    /v1.0/model              -- json list of model ids
  *  POST   /v1.0/model              -- json model object
- *  GET    /v1.0/model/:id
+ *  GET    /v1.0/model/:id          -- json model object
  *  GET    /v1.0/model/:id/train    -- returns async status obj
  *  GET    /v1.0/model/:id/predict  -- returns async status obj
  *  POST   /v1.0/model/:id          -- update
@@ -165,6 +165,22 @@ object ModelRestAPI extends RestAPI {
   }
 
   /**
+    * Predicts for all datasets in the DatasetRepo using the model at id
+    */
+  val modelPredict: Endpoint[Unit] = get(APIVersion :: "model" :: int :: "predict") {
+    (id: Int) =>
+      val state = Try(MatcherInterface.predictModel(id))
+      state match {
+        case Success(true)  =>
+          Accepted[Unit]
+        case Success(false) =>
+          NotFound(NotFoundException(s"Model $id has not been trained."))
+        case Failure(err) =>
+          BadRequest(BadRequestException(err.getMessage))
+      }
+  }
+
+  /**
    * Patch a portion of a Model. Will destroy all cached models
    */
   val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int :: body) {
@@ -278,6 +294,7 @@ object ModelRestAPI extends RestAPI {
       modelTrain :+:
       modelPatch :+:
       modelDelete :+:
+      modelPredict :+:
       cacheUpdate
 }
 
