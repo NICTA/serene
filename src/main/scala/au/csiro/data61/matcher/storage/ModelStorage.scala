@@ -169,17 +169,21 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
-   * Updates the model at `id` and also deletes the previously
-   * trained model if it exists.
-   *
-   * @param id ID to give to the element
-   * @param value Value object
-   * @return ID of the resource created (if any)
-   */
+    * Updates the model at `id` and also deletes the previously
+    * trained model if it exists.
+    * The previously trained model should not be deleted if training was a success!!!
+    *
+    * @param id ID to give to the element
+    * @param value Value object
+    * @return ID of the resource created (if any)
+    */
   override def update(id: ModelID, value: Model): Option[ModelID] = {
     for {
       updatedID <- super.update(id, value)
-      deleteOK <- deleteModel(updatedID)
+      deleteOK <- value.state.status match {
+        case Status.COMPLETE => Some(id) // if the model has been successfully trained, model file should not be deleted
+        case _ => deleteModel(updatedID)
+      }
     } yield deleteOK
   }
 
@@ -285,10 +289,6 @@ object ModelStorage extends Storage[ModelID, Model] {
   def checkModelFileCreation(model: Model, modelFile: String): Boolean = {
     val f = new File(modelFile)
     val stateLastModified = model.state.dateModified
-    println(modelFile)
-    println(s"condition 1: ${f.exists}")
-    println(s"condition 2: ${model.dateModified.isBefore(f.lastModified)}")
-    println(s"condition 3: ${model.dateModified.isBefore(stateLastModified)}")
     (f.exists // model.rf file exists
       && model.dateModified.isBefore(f.lastModified) // model.rf was modified after model modifications
       && model.dateModified.isBefore(stateLastModified) // state was modified after model modifications
@@ -324,15 +324,10 @@ object ModelStorage extends Storage[ModelID, Model] {
     // check model state
     // check if json file was updated after .rf file was created
     // check if dataset repo was updated
-    println("-------------------")
-    println("Model constistency")
     logger.info(s"Checking consistency of model $id")
     val modelFile = modelPath(id).toString
     ModelStorage.get(id) match {
       case Some(model) => {
-        println(s"checkModelFileCreation: ${checkModelFileCreation(model, modelFile)}")
-        println(s"checkModelTrainDataset: ${checkModelTrainDataset(model)}")
-        println(s"state: ${model.state.status == Status.COMPLETE}")
         (checkModelFileCreation(model, modelFile)
           && checkModelTrainDataset(model)
           && model.state.status == Status.COMPLETE)

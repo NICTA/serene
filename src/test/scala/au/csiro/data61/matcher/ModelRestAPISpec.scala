@@ -390,7 +390,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-  //  TODO: train model with no training datasets; I don't get expected results
+//  //  TODO: train model with no training datasets; I don't get expected results
 //  test("GET /v1.0/model/1184298536/train fails with no training datasets") (new TestServer {
 //    try {
 //      val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
@@ -584,10 +584,6 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-  // TODO: create test for bad parameters
-
-  //  TODO: create model with incorrect featuresconfig feature names?? incorrect feature names are ignored currently both by API and data integration project
-
   test("GET /v1.0/model/some_id/train fails with no data") (new TestServer {
     try {
       val LabelLength = 4
@@ -699,6 +695,109 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       assertClose()
     }
   })
+
+  test("GET /v1.0/model/1184298536/train does not retrain the model") (new TestServer {
+    try {
+      val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
+      // copy sample model to Config.ModelStorageDir
+      if (!Paths.get(Config.ModelStorageDir).toFile.exists) { // create model storage dir
+        Paths.get(Config.ModelStorageDir).toFile.mkdirs}
+      val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
+      FileUtils.copyDirectory(mDir,                    // copy sample model
+        Paths.get(Config.ModelStorageDir).toFile)
+      // copy sample dataset to Config.DatasetStorageDir
+      if (!Paths.get(Config.DatasetStorageDir).toFile.exists) { // create dataset storage dir
+        Paths.get(Config.DatasetStorageDir).toFile.mkdirs}
+      val dsDir = Paths.get(helperDir, "sample.datasets").toFile // directory to copy from
+      FileUtils.copyDirectory(dsDir,                    // copy sample dataset
+        Paths.get(Config.DatasetStorageDir).toFile)
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp.status === Status.Accepted)
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+      // sending training request again
+      val trainResp2 = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp2.status === Status.Accepted)
+      // we do not wait for the training, since it should not happen
+
+      // build a request to get the model...
+      val response = get(s"/$APIVersion/model/1184298536")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // ensure that the data is correct...
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/1184298536/train retrains the model after model.json was overwritten") (new TestServer {
+    try {
+      val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
+      // copy sample model to Config.ModelStorageDir
+      if (!Paths.get(Config.ModelStorageDir).toFile.exists) { // create model storage dir
+        Paths.get(Config.ModelStorageDir).toFile.mkdirs}
+      val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
+      FileUtils.copyDirectory(mDir,                    // copy sample model
+        Paths.get(Config.ModelStorageDir).toFile)
+      // copy sample dataset to Config.DatasetStorageDir
+      if (!Paths.get(Config.DatasetStorageDir).toFile.exists) { // create dataset storage dir
+        Paths.get(Config.DatasetStorageDir).toFile.mkdirs}
+      val dsDir = Paths.get(helperDir, "sample.datasets").toFile // directory to copy from
+      FileUtils.copyDirectory(dsDir,                    // copy sample dataset
+        Paths.get(Config.DatasetStorageDir).toFile)
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp.status === Status.Accepted)
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+      val json =
+        ("description" -> "new change") ~
+          ("modelType" -> "randomForest")
+      val request = postRequest(json, s"/$APIVersion/model/1184298536")
+      Await.result(client(request)) // wait for the files to be overwritten
+
+      // sending training request again
+      val trainResp2 = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp2.status === Status.Accepted)
+      // the training should be launched!
+
+      // build a request to get the model and check train status
+      val response = get(s"/$APIVersion/model/1184298536")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // ensure that the training state is busy
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.BUSY)
+      Thread.sleep(PauseTime) // wait for the training to finish
+
+    } finally {
+      assertClose()
+    }
+  })
+
+//  TODO: create test for bad parameters
+//
+//  TODO: create model with incorrect featuresconfig feature names?? incorrect feature names are ignored currently both by API and data integration project
 
 }
 
