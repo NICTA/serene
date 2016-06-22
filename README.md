@@ -77,6 +77,9 @@ curl localhost:8080/v1.0/model/98793874/train
 # Delete a model
 curl -X DELETE  localhost:8080/v1.0/model/12341234
 
+# Predict model (async)
+curl localhost:8080/v1.0/model/98793874/predict
+
 ```
 ## Tests
 ```
