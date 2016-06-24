@@ -161,8 +161,6 @@ object ModelPredictor extends LazyLogging {
           val featureVals = featureNames zip
             arr.slice(4 + classNum, arr.size).map(_.toDouble) toMap
 
-          println("read")
-          println(modelID, dsID, colID, label, confid, scores, featureVals)
           ColumnPrediction(modelID, dsID, colID, label, confid, scores, featureVals)
         }
       })

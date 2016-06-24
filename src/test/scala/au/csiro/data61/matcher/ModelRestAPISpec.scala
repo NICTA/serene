@@ -22,7 +22,7 @@ import java.io.{File, FileInputStream, IOException, ObjectInputStream}
 import java.nio.file.Paths
 
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
-import au.csiro.data61.matcher.types.{FeaturesConfig, MatcherJsonFormats, ModelTypes}
+import au.csiro.data61.matcher.types.{ColumnPrediction, FeaturesConfig, MatcherJsonFormats, ModelTypes}
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 import com.twitter.io.Buf
@@ -32,6 +32,7 @@ import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
 import api._
+import au.csiro.data61.matcher.storage.ModelStorage
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 import com.twitter.finagle.http
 
@@ -464,343 +465,343 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 //  })
 
 
-//  test("GET /v1.0/model/1184298536/train modifies model train state to BUSY") (new TestServer {
-//    try {
-//      copySampleFiles
-//
-//      // updating caches explicitly
-//      get(s"/$APIVersion/model/cache") // update cache for models
-//      get(s"/$APIVersion/dataset/cache") // update cache for datasets
-//
-//      // sending training request
-//      val trainResp = get(s"/$APIVersion/model/1184298536/train")
-//      assert(trainResp.status === Status.Accepted)
-//
-//      // build a request to get the model...
-//      val response = get(s"/$APIVersion/model/1184298536")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.Ok)
-//      assert(!response.contentString.isEmpty)
-//      // train state should be busy
-//      val returnedModel = parse(response.contentString).extract[Model]
-//      assert(returnedModel.state.status === ModelTypes.Status.BUSY)
-//
-//      // wait for the training
-//      val PauseTime = 10000
-//      Thread.sleep(PauseTime)
-//
-//    } finally {
-//      assertClose()
-//    }
-//  })
-//
-//  test("GET /v1.0/model/1184298536/train returns completed status") (new TestServer {
-//    try {
-//      copySampleFiles
-//
-//      // updating caches explicitly
-//      get(s"/$APIVersion/model/cache") // update cache for models
-//      get(s"/$APIVersion/dataset/cache") // update cache for datasets
-//
-//      // sending training request
-//      val trainResp = get(s"/$APIVersion/model/1184298536/train")
-//      assert(trainResp.status === Status.Accepted)
-//
-//      // wait for the training
-//      val PauseTime = 10000
-//      Thread.sleep(PauseTime)
-//
-//      // build a request to get the model...
-//      val response = get(s"/$APIVersion/model/1184298536")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.Ok)
-//      assert(!response.contentString.isEmpty)
-//      // ensure that the data is correct...
-//      val returnedModel = parse(response.contentString).extract[Model]
-//      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
-//
-//    } finally {
-//      assertClose()
-//    }
-//  })
-//
-//  test("GET /v1.0/model/1184298536/train returns the same model as the data integration project") (new TestServer {
-//    try {
-//      copySampleFiles
-//
-//      // updating caches explicitly
-//      get(s"/$APIVersion/model/cache") // update cache for models
-//      get(s"/$APIVersion/dataset/cache") // update cache for datasets
-//
-//      // sending training request
-//      val trainResp = get(s"/$APIVersion/model/1184298536/train")
-//      assert(trainResp.status === Status.Accepted)
-//
-//      // wait for the training
-//      val PauseTime = 10000
-//      Thread.sleep(PauseTime)
-//
-//      // build a request to get the model...
-//      val response = get(s"/$APIVersion/model/1184298536")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.Ok)
-//      assert(!response.contentString.isEmpty)
-//      // ensure that the data is correct...
-//      val returnedModel = parse(response.contentString).extract[Model]
-//      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
-//      // check the content of .rf file
-//      val learntModelFile = Paths.get(Config.ModelStorageDir, "1184298536", "workspace", "1184298536.rf").toFile
-//      assert(learntModelFile.exists === true)
-//      val corFile = Paths.get(helperDir, "1184298536_di.rf").toFile // that's the output from the data integration project
-//      //      val corFile = Paths.get(helperDir, "1184298536.rf").toFile // that's the output when running API
-//
-//      // checking that the models are the same; direct comparison of file contents does not yield correct results
-//      for {
-//        inLearnt <- Try( new ObjectInputStream(new FileInputStream(learntModelFile)))
-//          .orElse(Failure( new IOException("Error opening model file.")))
-//        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
-//          .orElse(Failure( new IOException("Error reading model file.")))
-//        inCor <- Try( new ObjectInputStream(new FileInputStream(corFile)))
-//          .orElse(Failure( new IOException("Error opening model file.")))
-//        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
-//          .orElse(Failure( new IOException("Error reading model file.")))
-//      } yield{
-//        assert(dataLearnt.classes === dataCor.classes)
-//        assert(dataLearnt.model === dataCor.model)
-//      }
-//
-//    } finally {
-//      assertClose()
-//    }
-//  })
-//
-//  test("GET /v1.0/model/some_id/train fails with no data") (new TestServer {
-//    try {
-//      val LabelLength = 4
-//      val TestClasses = List.fill(LabelLength)(randomString)
-//
-//      postAndReturn(TestClasses) match {
-//        case Success(model) =>
-//
-//          // build a request to train the model
-//          val trainResp = get(s"/$APIVersion/model/${model.id}/train")
-//          assert(trainResp.status === Status.Accepted)
-//
-//          // wait for the training
-//          val PauseTime = 10000
-//          Thread.sleep(PauseTime)
-//
-//          // build a request to get the model...
-//          val response = get(s"/$APIVersion/model/${model.id}")
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//          // ensure that the state is error
-//          val returnedModel = parse(response.contentString).extract[Model]
-//          println(returnedModel.state.message)
-//          assert(returnedModel.state.status === ModelTypes.Status.ERROR)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      assertClose()
-//    }
-//  })
-//
-//
-//  test("POST /v1.0/model/id responds Ok(200)") (new TestServer {
-//    try {
-//      val LabelLength = 4
-//      val TestStr = randomString
-//      val TestClasses = List.fill(LabelLength)(randomString)
-//      val PauseTime = 2000
-//
-//      val NewDescription = randomString
-//      val NewClasses = List.fill(LabelLength)(randomString)
-//
-//      postAndReturn(TestClasses, Some(TestStr)) match {
-//        case Success(ds) =>
-//          // wait for the clock to tick for the dateModified
-//          Thread.sleep(PauseTime)
-//
-//          val json =
-//            ("description" -> NewDescription) ~
-//              ("modelType" -> "randomForest") ~
-//              ("classes" -> NewClasses) ~
-//              ("features" -> defaultFeatures ) ~
-//              ("costMatrix" -> defaultCostMatrix) ~
-//              ("resamplingStrategy" -> "ResampleToMean")
-//
-//          val request = postRequest(json, s"/$APIVersion/model/${ds.id}")
-//
-//          // send the request and make sure it executes
-//          val response = Await.result(client(request))
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // ensure that the data is correct...
-//          val patchModel = parse(response.contentString).extract[Model]
-//          assert(patchModel.description === NewDescription)
-//          assert(patchModel.classes === NewClasses)
-//          assert(patchModel.dateCreated !== patchModel.dateModified)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      assertClose()
-//    }
-//  })
-//
-//  test("DELETE /v1.0/model/id responds Ok(200)") (new TestServer {
-//    try {
-//      val TestStr = randomString
-//      val NumClasses = 4
-//      val TestClasses = List.fill(NumClasses)(randomString)
-//
-//      postAndReturn(TestClasses, Some(TestStr)) match {
-//        case Success(model) =>
-//
-//          // build a request to modify the dataset...
-//          val resource = s"/$APIVersion/model/${model.id}"
-//
-//          val response = delete(resource)
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // there should be nothing there, and the response
-//          // should say so.
-//          val noResource = get(resource)
-//          assert(noResource.contentType === Some(JsonHeader))
-//          assert(noResource.status === Status.NotFound)
-//          assert(!noResource.contentString.isEmpty)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      assertClose()
-//    }
-//  })
-//
-//  test("GET /v1.0/model/1184298536/train does not retrain the model") (new TestServer {
-//    try {
-//      copySampleFiles
-//
-//      // updating caches explicitly
-//      get(s"/$APIVersion/model/cache") // update cache for models
-//      get(s"/$APIVersion/dataset/cache") // update cache for datasets
-//
-//      // sending training request
-//      val trainResp = get(s"/$APIVersion/model/1184298536/train")
-//      assert(trainResp.status === Status.Accepted)
-//      // wait for the training
-//      val PauseTime = 10000
-//      Thread.sleep(PauseTime)
-//      val response1 = get(s"/$APIVersion/model/1184298536")
-//      // remember the dateModified
-//      val dateModified1 = parse(response1.contentString).extract[Model].state.dateModified
-//
-//      // sending training request again
-//      val trainResp2 = get(s"/$APIVersion/model/1184298536/train")
-//      assert(trainResp2.status === Status.Accepted)
-//      // we do not wait for the training, since it should not happen
-//
-//      // build a request to get the model...
-//      val response = get(s"/$APIVersion/model/1184298536")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.Ok)
-//      assert(!response.contentString.isEmpty)
-//      // ensure that the data is correct...
-//      val returnedModel = parse(response.contentString).extract[Model]
-//      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
-//      // check that dateModified did not change...
-//      assert(returnedModel.state.dateModified === dateModified1)
-//
-//    } finally {
-//      assertClose()
-//    }
-//  })
-//
-//  test("GET /v1.0/model/1184298536/train retrains the model after model.json was overwritten") (new TestServer {
-//    try {
-//      copySampleFiles
-//
-//      // updating caches explicitly
-//      get(s"/$APIVersion/model/cache") // update cache for models
-//      get(s"/$APIVersion/dataset/cache") // update cache for datasets
-//
-//      // sending training request
-//      val trainResp = get(s"/$APIVersion/model/1184298536/train")
-//      assert(trainResp.status === Status.Accepted)
-//      // wait for the training
-//      val PauseTime = 10000
-//      Thread.sleep(PauseTime)
-//
-//      val json =
-//        ("description" -> "new change") ~
-//          ("modelType" -> "randomForest")
-//      val request = postRequest(json, s"/$APIVersion/model/1184298536")
-//      Await.result(client(request)) // wait for the files to be overwritten
-//
-//      // sending training request again
-//      val trainResp2 = get(s"/$APIVersion/model/1184298536/train")
-//      assert(trainResp2.status === Status.Accepted)
-//      // the training should be launched!
-//
-//      // build a request to get the model and check train status
-//      val response = get(s"/$APIVersion/model/1184298536")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.Ok)
-//      assert(!response.contentString.isEmpty)
-//      // ensure that the training state is busy
-//      val returnedModel = parse(response.contentString).extract[Model]
-//      assert(returnedModel.state.status === ModelTypes.Status.BUSY)
-//      Thread.sleep(PauseTime) // wait for the training to finish
-//
-//    } finally {
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/1184298536/predict changes model state to BUSY") (new TestServer {
-//    try {
-//      copySampleFiles
-//
-//      // updating caches explicitly
-//      get(s"/$APIVersion/model/cache") // update cache for models
-//      get(s"/$APIVersion/dataset/cache") // update cache for datasets
-//
-//      // sending training request
-//      val trainResp = get(s"/$APIVersion/model/1184298536/train")
-//      assert(trainResp.status === Status.Accepted)
-//      // wait for the training
-//      val PauseTime = 10000
-//      Thread.sleep(PauseTime)
-//
-//      // sending prediction request
-//      val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/1184298536/predict")
-//      val predResp = Await.result(client(predReq))
-//      assert(predResp.status === Status.Accepted)
-//      // the prediction should be launched!
-//
-//      // build a request to get the model and check status
-//      val response = get(s"/$APIVersion/model/1184298536")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.Ok)
-//      assert(!response.contentString.isEmpty)
-//      // ensure that the training state is busy
-//      val returnedModel = parse(response.contentString).extract[Model]
-//      assert(returnedModel.state.status === ModelTypes.Status.BUSY)
-//      Thread.sleep(PauseTime) // wait for the prediction to finish
-//
-//    } finally {
-//      assertClose()
-//    }
-//  })
+  test("GET /v1.0/model/1184298536/train modifies model train state to BUSY") (new TestServer {
+    try {
+      copySampleFiles
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp.status === Status.Accepted)
+
+      // build a request to get the model...
+      val response = get(s"/$APIVersion/model/1184298536")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // train state should be busy
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.BUSY)
+
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/1184298536/train returns completed status") (new TestServer {
+    try {
+      copySampleFiles
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp.status === Status.Accepted)
+
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+      // build a request to get the model...
+      val response = get(s"/$APIVersion/model/1184298536")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // ensure that the data is correct...
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/1184298536/train returns the same model as the data integration project") (new TestServer {
+    try {
+      copySampleFiles
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp.status === Status.Accepted)
+
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+      // build a request to get the model...
+      val response = get(s"/$APIVersion/model/1184298536")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // ensure that the data is correct...
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
+      // check the content of .rf file
+      val learntModelFile = Paths.get(Config.ModelStorageDir, "1184298536", "workspace", "1184298536.rf").toFile
+      assert(learntModelFile.exists === true)
+      val corFile = Paths.get(helperDir, "1184298536_di.rf").toFile // that's the output from the data integration project
+      //      val corFile = Paths.get(helperDir, "1184298536.rf").toFile // that's the output when running API
+
+      // checking that the models are the same; direct comparison of file contents does not yield correct results
+      for {
+        inLearnt <- Try( new ObjectInputStream(new FileInputStream(learntModelFile)))
+          .orElse(Failure( new IOException("Error opening model file.")))
+        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
+          .orElse(Failure( new IOException("Error reading model file.")))
+        inCor <- Try( new ObjectInputStream(new FileInputStream(corFile)))
+          .orElse(Failure( new IOException("Error opening model file.")))
+        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
+          .orElse(Failure( new IOException("Error reading model file.")))
+      } yield{
+        assert(dataLearnt.classes === dataCor.classes)
+        assert(dataLearnt.model === dataCor.model)
+      }
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/some_id/train fails with no data") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestClasses = List.fill(LabelLength)(randomString)
+
+      postAndReturn(TestClasses) match {
+        case Success(model) =>
+
+          // build a request to train the model
+          val trainResp = get(s"/$APIVersion/model/${model.id}/train")
+          assert(trainResp.status === Status.Accepted)
+
+          // wait for the training
+          val PauseTime = 10000
+          Thread.sleep(PauseTime)
+
+          // build a request to get the model...
+          val response = get(s"/$APIVersion/model/${model.id}")
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+          // ensure that the state is error
+          val returnedModel = parse(response.contentString).extract[Model]
+          println(returnedModel.state.message)
+          assert(returnedModel.state.status === ModelTypes.Status.ERROR)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      assertClose()
+    }
+  })
+
+
+  test("POST /v1.0/model/id responds Ok(200)") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestStr = randomString
+      val TestClasses = List.fill(LabelLength)(randomString)
+      val PauseTime = 2000
+
+      val NewDescription = randomString
+      val NewClasses = List.fill(LabelLength)(randomString)
+
+      postAndReturn(TestClasses, Some(TestStr)) match {
+        case Success(ds) =>
+          // wait for the clock to tick for the dateModified
+          Thread.sleep(PauseTime)
+
+          val json =
+            ("description" -> NewDescription) ~
+              ("modelType" -> "randomForest") ~
+              ("classes" -> NewClasses) ~
+              ("features" -> defaultFeatures ) ~
+              ("costMatrix" -> defaultCostMatrix) ~
+              ("resamplingStrategy" -> "ResampleToMean")
+
+          val request = postRequest(json, s"/$APIVersion/model/${ds.id}")
+
+          // send the request and make sure it executes
+          val response = Await.result(client(request))
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // ensure that the data is correct...
+          val patchModel = parse(response.contentString).extract[Model]
+          assert(patchModel.description === NewDescription)
+          assert(patchModel.classes === NewClasses)
+          assert(patchModel.dateCreated !== patchModel.dateModified)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("DELETE /v1.0/model/id responds Ok(200)") (new TestServer {
+    try {
+      val TestStr = randomString
+      val NumClasses = 4
+      val TestClasses = List.fill(NumClasses)(randomString)
+
+      postAndReturn(TestClasses, Some(TestStr)) match {
+        case Success(model) =>
+
+          // build a request to modify the dataset...
+          val resource = s"/$APIVersion/model/${model.id}"
+
+          val response = delete(resource)
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // there should be nothing there, and the response
+          // should say so.
+          val noResource = get(resource)
+          assert(noResource.contentType === Some(JsonHeader))
+          assert(noResource.status === Status.NotFound)
+          assert(!noResource.contentString.isEmpty)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/1184298536/train does not retrain the model") (new TestServer {
+    try {
+      copySampleFiles
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp.status === Status.Accepted)
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+      val response1 = get(s"/$APIVersion/model/1184298536")
+      // remember the dateModified
+      val dateModified1 = parse(response1.contentString).extract[Model].state.dateModified
+
+      // sending training request again
+      val trainResp2 = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp2.status === Status.Accepted)
+      // we do not wait for the training, since it should not happen
+
+      // build a request to get the model...
+      val response = get(s"/$APIVersion/model/1184298536")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // ensure that the data is correct...
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
+      // check that dateModified did not change...
+      assert(returnedModel.state.dateModified === dateModified1)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/1184298536/train retrains the model after model.json was overwritten") (new TestServer {
+    try {
+      copySampleFiles
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp.status === Status.Accepted)
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+      val json =
+        ("description" -> "new change") ~
+          ("modelType" -> "randomForest")
+      val request = postRequest(json, s"/$APIVersion/model/1184298536")
+      Await.result(client(request)) // wait for the files to be overwritten
+
+      // sending training request again
+      val trainResp2 = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp2.status === Status.Accepted)
+      // the training should be launched!
+
+      // build a request to get the model and check train status
+      val response = get(s"/$APIVersion/model/1184298536")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // ensure that the training state is busy
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.BUSY)
+      Thread.sleep(PauseTime) // wait for the training to finish
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/1184298536/predict changes model state to BUSY") (new TestServer {
+    try {
+      copySampleFiles
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp.status === Status.Accepted)
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+      // sending prediction request
+      val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/1184298536/predict")
+      val predResp = Await.result(client(predReq))
+      assert(predResp.status === Status.Accepted)
+      // the prediction should be launched!
+
+      // build a request to get the model and check status
+      val response = get(s"/$APIVersion/model/1184298536")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // ensure that the training state is busy
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.BUSY)
+      Thread.sleep(PauseTime) // wait for the prediction to finish
+
+    } finally {
+      assertClose()
+    }
+  })
 
   test("POST /v1.0/model/1184298536/predict changes model state to COMPLETE after prediction is over but dateModified is not changed") (new TestServer {
     try {
@@ -864,8 +865,97 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-  // TODO: test reading predictions
-  // TODO: test available predictions
+  test("POST /v1.0/model/1184298536/predict creates exactly one prediction file") (new TestServer {
+    try {
+      copySampleFiles
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp.status === Status.Accepted)
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+      // sending prediction request
+      val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/1184298536/predict")
+      val predResp = Await.result(client(predReq))
+      assert(predResp.status === Status.Accepted)
+      // the prediction should be launched!
+      Thread.sleep(PauseTime) // wait for the prediction to finish
+
+      // only one prediction file should be created
+      val availPreds = ModelStorage.availablePredictions(1184298536)
+      assert(availPreds.size === 1)
+      assert(availPreds === List(59722533))
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("availablePredictions for 1184298536 should be empty") (new TestServer {
+    try {
+      copySampleFiles
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // only one prediction file should be created
+      val availPreds = ModelStorage.availablePredictions(1184298536)
+      assert(availPreds.size === 0)
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/1184298536/predict returns successfully predictions") (new TestServer {
+    try {
+      copySampleFiles
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      assert(trainResp.status === Status.Accepted)
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+      // sending prediction request
+      val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/1184298536/predict")
+      val predResp = Await.result(client(predReq))
+      assert(predResp.status === Status.Accepted)
+      // the prediction should be launched!
+      Thread.sleep(PauseTime) // wait for the prediction to finish
+
+      // getting predictions
+      val predictionsReq = get(s"/$APIVersion/model/1184298536/predict")
+      assert(predictionsReq.status === Status.Ok)
+      val predictions = parse(predictionsReq.contentString).extract[List[ColumnPrediction]]
+
+
+      val predPath = ModelStorage.getPredictionsPath(1184298536) // directory where prediction file should be stored for this model
+      // get number of classes for this model
+      val numClasses = ModelStorage.get(1184298536).map(_.classes.size).getOrElse(throw NotFoundException(s"Model not found."))
+      val filePath = Paths.get(predPath.toString, "59722533.csv").toString
+      val readPredictions = ModelPredictor.readPredictions(filePath, numClasses, 1184298536)
+
+      assert(predictions === readPredictions)
+    } finally {
+      assertClose()
+    }
+  })
+
+
+  // TODO: test that training is not needed after prediction
+  // TODO: prediction is not repeated if it's already available
+  // TODO: prediction is performed again if there are changes to the model
 
 //  TODO: create test for bad parameters
 //
