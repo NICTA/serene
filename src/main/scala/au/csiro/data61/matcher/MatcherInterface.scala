@@ -180,14 +180,15 @@ object MatcherInterface extends LazyLogging {
     * Perform prediction using the model
     *
     * @param id The model id
+    * @param datasetID Optional id of the dataset
     * @return
     */
-  def predictModel(id: ModelID): Boolean = {
+  def predictModel(id: ModelID, datasetID : Option[DataSetID] = None): Boolean = {
     if (ModelStorage.isConsistent(id)) {
       // do prediction
       logger.info(s"Launching prediction for model $id...")
       // crude concurrency
-      launchPrediction(id)
+      launchPrediction(id, datasetID)
       // first we set the model state to busy, learnt model should not be deleted
       ModelStorage.updateTrainState(id, Status.BUSY, deleteRF = false)
       true // prediction has been started
@@ -206,11 +207,12 @@ object MatcherInterface extends LazyLogging {
     * storage layer.
     *
     * @param id Model key for the model to be used for prediction
+    * @param datasetID Optional id of the dataset
     */
-  private def launchPrediction(id: ModelID)(implicit ec: ExecutionContext): Unit = {
+  private def launchPrediction(id: ModelID, datasetID : Option[DataSetID] = None)(implicit ec: ExecutionContext): Unit = {
     Future {
       // proceed with prediction...
-      ModelPredictor.predict(id)
+      ModelPredictor.predict(id, datasetID)
 
     } onComplete {
       case Success(_) =>
@@ -222,6 +224,9 @@ object MatcherInterface extends LazyLogging {
     }
   }
 
+  def getPrediction(id: ModelID, datasetID: Option[DataSetID]) : List[ColumnPrediction] = {
+    List()
+  }
 
   /**
    * Parses a model request to construct a model object

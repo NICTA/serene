@@ -21,11 +21,13 @@ import java.io._
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.matcher.{ModelTrainerPaths, Config}
+import au.csiro.data61.matcher.api.NotFoundException
+import au.csiro.data61.matcher.types.DataSetTypes.DataSetID
+import au.csiro.data61.matcher.{Config, ModelTrainerPaths}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID, Status, TrainState}
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 import org.apache.commons.io.{FileUtils, FilenameUtils}
-import org.joda.time.{DateTime,DateTimeComparator}
+import org.joda.time.{DateTime, DateTimeComparator}
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
@@ -45,22 +47,22 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
-   * Returns the path to the serialized trained model
-   *
-   * @param id The `id` key to the model
-   * @return Path to the binary resource
-   */
+    * Returns the path to the serialized trained model
+    *
+    * @param id The `id` key to the model
+    * @return Path to the binary resource
+    */
   def modelPath(id: ModelID): Path = {
     Paths.get(getWSPath(id).toString, s"$id.rf")
   }
 
   /**
-   * Returns the location of the workspace directory for id
-   * For now it's relevant only for models
-   *
-   * @param id The ID for the Value
-   * @return
-   */
+    * Returns the location of the workspace directory for id
+    * For now it's relevant only for models
+    *
+    * @param id The ID for the Value
+    * @return
+    */
   protected def getWSPath(id: ModelID): Path = {
     Paths.get(getDirectoryPath(id).toString, "workspace")
   }
@@ -76,13 +78,13 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
-   * Attempts to read all the objects out from the storage dir
-   *
-   * Note that here we do a basic error check and reset all the
-   * paused-state 'TRAINING' models back to untrained.
-   *
-   * @return
-   */
+    * Attempts to read all the objects out from the storage dir
+    *
+    * Note that here we do a basic error check and reset all the
+    * paused-state 'TRAINING' models back to untrained.
+    *
+    * @return
+    */
   override def listValues: List[Model] = {
     super.listValues
       .map {
@@ -104,16 +106,17 @@ object ModelStorage extends Storage[ModelID, Model] {
     *
     * @param value The Model to write to disk
     */
-  def convertLabelData(value : Model) : List[List[String]] = {
+  def convertLabelData(value: Model): List[List[String]] = {
     //should we fail the splitting of files if some columns from labelData are not found in colunmMap???
     List("attr_id", "class") :: // header for the file
-      value.labelData           // converting to the format: "datasetID.csv/columnName,labelName"
+      value.labelData // converting to the format: "datasetID.csv/columnName,labelName"
         .map { x => {
-          val col = DatasetStorage.columnMap(x._1) // lookup column in columnMap
-          val ext = FilenameUtils.getExtension(col.path.toString).toLowerCase
-          val dsWithExt = s"${col.datasetID}.$ext" // dataset name as it is stored in DatasetStorage
-          List(s"$dsWithExt/${col.name}", x._2)
-        }}
+        val col = DatasetStorage.columnMap(x._1) // lookup column in columnMap
+        val ext = FilenameUtils.getExtension(col.path.toString).toLowerCase
+        val dsWithExt = s"${col.datasetID}.$ext" // dataset name as it is stored in DatasetStorage
+        List(s"$dsWithExt/${col.name}", x._2)
+      }
+      }
         .toList
     //    this is the way to do it if we want to check that lookups happen correctly
     //    val labelData : List[(String,String)] = value.labelData
@@ -138,12 +141,12 @@ object ModelStorage extends Storage[ModelID, Model] {
 
     super.writeToFile(value) // write model json
 
-//  write config files according to the data integration project
-    val wsDir = getWSPath(value.id).toFile  // workspace directory
-    if (!wsDir.exists) wsDir.mkdirs         // create workspace directory if it doesn't exist
+    //  write config files according to the data integration project
+    val wsDir = getWSPath(value.id).toFile // workspace directory
+    if (!wsDir.exists) wsDir.mkdirs // create workspace directory if it doesn't exist
 
-    val predDir = getPredictionsPath(value.id).toFile  // predictions directory
-    if (!predDir.exists) predDir.mkdirs         // create predictions directory if it doesn't exist
+    val predDir = getPredictionsPath(value.id).toFile // predictions directory
+    if (!predDir.exists) predDir.mkdirs // create predictions directory if it doesn't exist
 
     //cost_matrix_config.json
     val costMatrixConfigPath = Paths.get(wsDir.toString, s"cost_matrix_config.json")
@@ -169,7 +172,7 @@ object ModelStorage extends Storage[ModelID, Model] {
 
     //labels; we want to write csv file with the following content:
     // attr_id,class
-    // datasetID.csv/columnName,labelName
+    // columnName@datasetID.csv,labelName
     val labelsDir = Paths.get(wsDir.toString, s"labels")
     if (!labelsDir.toFile.exists) labelsDir.toFile.mkdirs
     val labelsPath = Paths.get(labelsDir.toString, s"labels.csv")
@@ -186,8 +189,8 @@ object ModelStorage extends Storage[ModelID, Model] {
     * trained model if it exists.
     * The previously trained model should not be deleted if training was a success!!!
     *
-    * @param id ID to give to the element
-    * @param value Value object
+    * @param id       ID to give to the element
+    * @param value    Value object
     * @param deleteRF Boolean which indicates whether the trained model file should be deleted
     * @return ID of the resource created (if any)
     */
@@ -233,12 +236,12 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
-   * Writes the MLib classifier object to a file at address `id`
-   *
-   * @param id The id key for the model
-   * @param learntModel The trained model
-   * @return
-   */
+    * Writes the MLib classifier object to a file at address `id`
+    *
+    * @param id          The id key for the model
+    * @param learntModel The trained model
+    * @return
+    */
   def writeModel(id: ModelID, learntModel: SerializableMLibClassifier): Boolean = {
     val writePath = modelPath(id).toString
 
@@ -256,19 +259,19 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
-   * updates the training state of model `id`
-   *
-   * Note that when we update, we need to keep the model level 'dateModified' to
-   * ensure that the model parameters remains static for dataset comparisons.
-   *
-   * @param id The key for the model
-   * @param status The current status of the model training.
-   * @return
-   */
+    * updates the training state of model `id`
+    *
+    * Note that when we update, we need to keep the model level 'dateModified' to
+    * ensure that the model parameters remains static for dataset comparisons.
+    *
+    * @param id     The key for the model
+    * @param status The current status of the model training.
+    * @return
+    */
   def updateTrainState(id: ModelID
                        , status: Status
                        , msg: String = ""
-                      , deleteRF : Boolean = true): Option[TrainState] = {
+                       , deleteRF: Boolean = true): Option[TrainState] = {
     synchronized {
       for {
         model <- ModelStorage.get(id)
@@ -281,11 +284,11 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
-   * Identify paths which are needed to train the model at id
-   *
-   * @param id
-   * @return
-   */
+    * Identify paths which are needed to train the model at id
+    *
+    * @param id
+    * @return
+    */
   def identifyPaths(id: ModelID): Option[ModelTrainerPaths] = {
     val wsDir = getWSPath(id).toString
     logger.info(s"Identifying paths for the model $id")
@@ -311,7 +314,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     (f.exists // model.rf file exists
       && model.dateModified.isBefore(f.lastModified) // model.rf was modified after model modifications
       && model.dateModified.isBefore(stateLastModified) // state was modified after model modifications
-    )
+      )
   }
 
   /**
@@ -326,7 +329,7 @@ object ModelStorage extends Storage[ModelID, Model] {
       .map {
         case Some(ds) => ds.dateModified.isBefore(model.state.dateModified)
         case _ => false
-        }
+      }
       .reduce(_ && _)
   }
 
@@ -355,4 +358,28 @@ object ModelStorage extends Storage[ModelID, Model] {
     }
   }
 
+  /**
+    * List those dataset ids for which up to date predictions are available.
+    *
+    * @param id Model id
+    * @return List of strings which indicate files with calculated predictions.
+    */
+  def availablePredictions(id: ModelID): List[DataSetID] = {
+    val model = ModelStorage.get(id).getOrElse(throw NotFoundException(s"Model $id not found."))
+    val predPath = getPredictionsPath(id)
+
+    Option(new File(predPath.toString) listFiles) match {
+      case Some(fileList) => {
+        fileList
+          .filter(_.isDirectory)
+          .filter(x => model.dateModified.isBefore(x.lastModified)) // get only those predictions which are up to date, check also model.rf!!!
+          .map(_.toString)
+          .toList
+          .flatMap(toKeyOption)   // converting strings to integers
+      }
+      case _ =>
+        logger.error(s"Failed to open predictions dir ${predPath.toString}")
+        List.empty[DataSetID]
+    }
+  }
 }

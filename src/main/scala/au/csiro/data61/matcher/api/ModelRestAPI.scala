@@ -165,13 +165,20 @@ object ModelRestAPI extends RestAPI {
   }
 
   /**
-    * Predicts for all datasets in the DatasetRepo using the model at id
+    * Perform prediction using model at id.
+    * Prediction is performed asynchronously.
+    * If no datasetID parameter is provided, prediction is performed for all datasets in the repo.
+    * If a datasetID parameter is provided, prediction is performed only for the dataset with such datasetID.
+    * Note: if a dataset with the provided id does not exist, nothing is done.
     */
-  val modelPredict: Endpoint[Unit] = get(APIVersion :: "model" :: int :: "predict") {
-    (id: Int) =>
-      val state = Try(MatcherInterface.predictModel(id))
+  // auxiliary endpoint for the optional datasetID parameter
+  val dsParam: Endpoint[Option[Int]] = paramOption("datasetID").as[Int]
+
+  val modelPredict: Endpoint[Unit] = post(APIVersion :: "model" :: int :: "predict" :: dsParam) {
+    (id: Int, datasetID: Option[Int]) =>
+      val state = Try(MatcherInterface.predictModel(id, datasetID))
       state match {
-        case Success(true)  =>
+        case Success(true) =>
           Accepted[Unit]
         case Success(false) =>
           NotFound(NotFoundException(s"Model $id has not been trained."))
@@ -179,6 +186,18 @@ object ModelRestAPI extends RestAPI {
           BadRequest(BadRequestException(err.getMessage))
       }
   }
+
+  val getPrediction: Endpoint[List[ColumnPrediction]] = get(APIVersion :: "model" :: int :: "predict" :: dsParam) {
+    (id: Int, datasetID: Option[Int]) =>
+      val state = Try(MatcherInterface.getPrediction(id, datasetID))
+      state match {
+        case Success(preds) =>
+          Ok(preds)
+        case Failure(err) =>
+          BadRequest(BadRequestException(err.getMessage))
+      }
+  }
+
 
   /**
    * Patch a portion of a Model. Will destroy all cached models

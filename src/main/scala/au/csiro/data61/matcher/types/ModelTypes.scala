@@ -17,6 +17,10 @@
  */
 package au.csiro.data61.matcher.types
 
+import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
+import au.csiro.data61.matcher.types.DataSetTypes.DataSetID
+import au.csiro.data61.matcher.types.ModelTypes.ModelID
+import com.nicta.dataint.matcher.train.TrainAliases.PredictionObject
 import org.joda.time.DateTime
 import org.json4s._
 
@@ -164,17 +168,16 @@ case class FeaturesConfig(activeFeatures: Set[String],
 
 case object FeaturesConfigSerializer extends CustomSerializer[FeaturesConfig](format => (
   {
-case jv: JValue =>
-  implicit val formats = DefaultFormats
-
-  // TODO: check input feature names, raise warnings if some are incorrectly provided
-  val activeFeatures = (jv \ "activeFeatures").extract[List[String]].toSet // TODO: convert to List[Feature]
-  val activeGroupFeatures = (jv \ "activeFeatureGroups").extract[List[String]].toSet
-  val featureExtractorParams = (jv \ "featureExtractorParams")
-    .extract[List[Map[String,String]]]
-    .map { case feParams =>
-      (feParams("name"), feParams)
-    } toMap
+    case jv: JValue =>
+      implicit val formats = DefaultFormats
+      // TODO: check input feature names, raise warnings if some are incorrectly provided
+      val activeFeatures = (jv \ "activeFeatures").extract[List[String]].toSet // TODO: convert to List[Feature]
+      val activeGroupFeatures = (jv \ "activeFeatureGroups").extract[List[String]].toSet
+      val featureExtractorParams = (jv \ "featureExtractorParams")
+        .extract[List[Map[String,String]]]
+        .map { case feParams =>
+          (feParams("name"), feParams)
+        } toMap
 
   FeaturesConfig(activeFeatures, activeGroupFeatures, featureExtractorParams)
 }, {
@@ -230,3 +233,14 @@ case object SamplingStrategySerializer extends CustomSerializer[SamplingStrategy
  */
 case class KFold(n: Int)
 
+/**
+  * Column prediction
+  */
+case class ColumnPrediction( id: ModelID
+                             , datasetID: DataSetID
+                             , columnID: ColumnID
+                             , label: String
+                             , confidence: Double
+                             , scores: Map[String,Double]
+                             , features: Map[String, Double]
+                           ) extends Identifiable[ModelID]
