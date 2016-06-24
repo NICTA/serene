@@ -2,6 +2,15 @@
 
 Simple REST API for the data-integration project. Uses Finagle + Finch as the interface to the data-integration code.
 
+### Prerequisites
+
+[Download](https://github.com/NICTA/data-integration) and build **data-integration** package with:
+
+```
+sbt assembly
+sbt publishLocal
+```
+
 ## Usage
 Start the web server...
 ```
