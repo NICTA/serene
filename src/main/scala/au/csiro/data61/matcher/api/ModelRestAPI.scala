@@ -189,8 +189,8 @@ object ModelRestAPI extends RestAPI {
 
   val getPrediction: Endpoint[List[ColumnPrediction]] = get(APIVersion :: "model" :: int :: "predict" :: dsParam) {
     (id: Int, datasetID: Option[Int]) =>
-      val state = Try(MatcherInterface.getPrediction(id, datasetID))
-      state match {
+      val colPreds = Try(MatcherInterface.getPrediction(id, datasetID))
+      colPreds match {
         case Success(preds) =>
           Ok(preds)
         case Failure(err) =>
@@ -314,6 +314,7 @@ object ModelRestAPI extends RestAPI {
       modelPatch :+:
       modelDelete :+:
       modelPredict :+:
+      getPrediction :+:
       cacheUpdate
 }
 

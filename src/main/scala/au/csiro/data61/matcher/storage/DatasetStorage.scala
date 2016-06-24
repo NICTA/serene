@@ -47,6 +47,11 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
     .map(col => col.id -> col)
     .toMap
 
+  def columnNameMap: Map[(DataSetID, String), Column[Any]] = cache.values
+    .flatMap(_.columns)
+    .map(col => (col.datasetID, col.name) -> col)
+    .toMap
+
   def extract(stream: FileInputStream): DataSet = {
     parse(stream).extract[DataSet]
   }
@@ -84,7 +89,10 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
     * Return a list of paths where csv resources are stored
     */
   def getCSVResources: List[String] = {
-    cache.values.map(_.path.toString).filter(_.endsWith("csv")).toList
+    cache.values
+      .map(_.path.toString)
+      .filter(_.endsWith("csv"))
+      .toList
   }
 
 }

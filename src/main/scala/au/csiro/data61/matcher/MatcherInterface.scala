@@ -74,6 +74,7 @@ object MatcherInterface extends LazyLogging {
           userData.keySet.partition(colMap.keySet.contains)
         }// keysIn contain those keys from userData which should be kept and written to the model file
         // TODO: check that provided mappings for columns in userData are found among labels
+        // TODO: should we add 'unknown' class if it's not in the list?
         model <- Try {
           Model(
             id = id,
@@ -164,13 +165,13 @@ object MatcherInterface extends LazyLogging {
       case Success(Some(true)) =>
         ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false)
       case Success(Some(false)) =>
-        logger.error(s"Failed to write trained model")
-        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to write trained model")
+        logger.error(s"Failed to write trained model for $id.")
+        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to write trained model.")
       case Success(None) =>
-        logger.error(s"Failed to identify model paths")
-        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to identify model paths")
+        logger.error(s"Failed to identify model paths for $id.")
+        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to identify model paths.")
       case Failure(err) =>
-        val msg = s"Failed to train model: ${err.getMessage}"
+        val msg = s"Failed to train model $id: ${err.getMessage}."
         logger.error(msg)
         ModelStorage.updateTrainState(id, Status.ERROR, msg)
     }
@@ -190,7 +191,7 @@ object MatcherInterface extends LazyLogging {
       // crude concurrency
       launchPrediction(id, datasetID)
       // first we set the model state to busy, learnt model should not be deleted
-      ModelStorage.updateTrainState(id, Status.BUSY, deleteRF = false)
+      ModelStorage.updateTrainState(id, Status.BUSY, deleteRF = false, changeDate = false)
       true // prediction has been started
     }
     else {
@@ -216,16 +217,26 @@ object MatcherInterface extends LazyLogging {
 
     } onComplete {
       case Success(_) =>
-        ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false)
+        // we do not delete model.rf file and do not change dateModified
+        ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false, changeDate = false)
       case Failure(err) =>
         val msg = s"Failed to perform prediction: ${err.getMessage}"
         logger.error(msg)
-        ModelStorage.updateTrainState(id, Status.COMPLETE, msg)
+        ModelStorage.updateTrainState(id, Status.COMPLETE, msg, deleteRF = false, changeDate = false)
     }
   }
 
   def getPrediction(id: ModelID, datasetID: Option[DataSetID]) : List[ColumnPrediction] = {
-    List()
+    datasetID match {
+      case Some(dsID) => {
+        logger.info(s"Getting predicitons for the dataset $dsID")
+        ModelPredictor.getDatasetPrediction(id, List(dsID))
+      }
+      case None => {
+        logger.info(s"Getting predicitons for all available datasets.")
+        ModelPredictor.getDatasetPrediction(id, DatasetStorage.keys)
+      }
+    }
   }
 
   /**

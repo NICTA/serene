@@ -37,3 +37,5 @@ curl -X POST \
 
     ./train_semtype_classifier.sh repo/schema-matcher/59722533.csv repo/schema-matcher/class_list.csv\
             repo/schema-matcher/labels.csv repo/schema-matcher/demo.rf ResampleToMean repo/schema-matcher/features_config.json
+
+    ./predict_semtypes.sh repo/schema-matcher/demo.rf repo/schema-matcher/59722533.csv repo/schema-matcher/pred1.csv

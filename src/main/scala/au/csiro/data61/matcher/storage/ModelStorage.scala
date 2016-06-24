@@ -109,12 +109,12 @@ object ModelStorage extends Storage[ModelID, Model] {
   def convertLabelData(value: Model): List[List[String]] = {
     //should we fail the splitting of files if some columns from labelData are not found in colunmMap???
     List("attr_id", "class") :: // header for the file
-      value.labelData // converting to the format: "datasetID.csv/columnName,labelName"
+      value.labelData // converting to the format: "columnName@datasetID.csv,labelName"
         .map { x => {
         val col = DatasetStorage.columnMap(x._1) // lookup column in columnMap
         val ext = FilenameUtils.getExtension(col.path.toString).toLowerCase
         val dsWithExt = s"${col.datasetID}.$ext" // dataset name as it is stored in DatasetStorage
-        List(s"$dsWithExt/${col.name}", x._2)
+        List(s"${col.name}@$dsWithExt", x._2)
       }
       }
         .toList
@@ -271,11 +271,18 @@ object ModelStorage extends Storage[ModelID, Model] {
   def updateTrainState(id: ModelID
                        , status: Status
                        , msg: String = ""
-                       , deleteRF: Boolean = true): Option[TrainState] = {
+                       , deleteRF: Boolean = true
+                       , changeDate: Boolean = true): Option[TrainState] = {
     synchronized {
       for {
         model <- ModelStorage.get(id)
-        trainState = TrainState(status, msg, model.state.dateCreated, DateTime.now)
+        // state dates should not be changed if changeDate is false
+        trainState = if (changeDate) {
+          TrainState(status, msg, model.state.dateCreated, DateTime.now)
+        }
+        else {
+          TrainState(status, msg, model.state.dateCreated, model.state.dateModified)
+        }
         id <- ModelStorage.update(id
           , model.copy(state = trainState, dateModified = model.dateModified)
           , deleteRF)
@@ -367,13 +374,16 @@ object ModelStorage extends Storage[ModelID, Model] {
   def availablePredictions(id: ModelID): List[DataSetID] = {
     val model = ModelStorage.get(id).getOrElse(throw NotFoundException(s"Model $id not found."))
     val predPath = getPredictionsPath(id)
-
     Option(new File(predPath.toString) listFiles) match {
       case Some(fileList) => {
         fileList
-          .filter(_.isDirectory)
-          .filter(x => model.dateModified.isBefore(x.lastModified)) // get only those predictions which are up to date, check also model.rf!!!
+          .filter(_.isFile)
+          .filter(x =>
+            // get only those predictions which are up to date
+            (model.dateModified.isBefore(x.lastModified)
+              && model.state.dateModified.isBefore(x.lastModified)))
           .map(_.toString)
+          .map(FilenameUtils.getBaseName)
           .toList
           .flatMap(toKeyOption)   // converting strings to integers
       }

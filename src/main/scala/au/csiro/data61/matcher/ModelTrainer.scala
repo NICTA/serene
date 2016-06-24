@@ -25,6 +25,7 @@ import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import org.joda.time.DateTime
 import com.typesafe.scalalogging.LazyLogging
+import org.apache.commons.io.FilenameUtils
 
 import scala.util.{Failure, Success, Try}
 
@@ -68,11 +69,15 @@ object ModelTrainer extends LazyLogging {
   def getDataModels(path: String): List[DataModel] = {
     DatasetStorage
       .getCSVResources
-      .map{CSVHierarchicalDataLoader().readDataSet(_,"")}
+      .map{ csvFile =>
+        val dsName = s"${FilenameUtils.getBaseName(csvFile)}.${FilenameUtils.getExtension(csvFile)}"
+        // we need to split the path so that datasetID is properly supplied to data integration project
+        CSVHierarchicalDataLoader().readDataSet(Paths.get(csvFile).getParent.toString, dsName)
+      }
   }
 
   /*
-   Returns a list of DataModel instances for the dataset repository
+   Returns a list of DataModel instances from the dataset repository
     */
   def readTrainingData: DataModel = {
     val datasets = getDataModels(datasetDir)
