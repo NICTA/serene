@@ -76,7 +76,7 @@ object ModelPredictor extends LazyLogging {
 
     datasetID match {
       case Some(dsID) => {
-        logger.info(s"Prediction for the dataset $dsID")
+        logger.info(s"Prediction for the dataset $dsID.")
         List(DatasetStorage.get(dsID)
           .map(_.path.toString)
           .filter(_.endsWith("csv"))
@@ -94,7 +94,8 @@ object ModelPredictor extends LazyLogging {
   }
 
   /**
-    * Performs prediction for the model and returns predictions for all datasets in the repository
+    * Performs prediction for a specified dataset using the model
+    * and returns predictions for the specified dataset in the repository
     *
     * @param id id of the model
     * @param dsPath path of the dataset
@@ -108,11 +109,11 @@ object ModelPredictor extends LazyLogging {
     val dataset = CSVHierarchicalDataLoader().readDataSet(Paths.get(dsPath).getParent.toString, dsName)
     val derivedFeatureFile = Paths.get(ModelStorage.getPredictionsPath(id).toString, dsName)
 
-    // TODO: check if prediction is already available
     val model = ModelStorage.get(id).getOrElse(throw NotFoundException(s"Model $id not found."))
-    if (derivedFeatureFile.toFile.exists
-      && model.dateModified.isBefore(derivedFeatureFile.toFile.lastModified)
-      && model.state.dateModified.isBefore(derivedFeatureFile.toFile.lastModified)) {
+    if (derivedFeatureFile.toFile.exists // file with predicted classes already exists
+      && model.dateModified.isBefore(derivedFeatureFile.toFile.lastModified) // model was not modified after the file was created
+      && model.state.dateModified.isBefore(derivedFeatureFile.toFile.lastModified) // model state was not modified after the file was created
+      && Paths.get(dsPath).toFile.lastModified < derivedFeatureFile.toFile.lastModified) { // dataset was not modified after the file was created
       // prediction has been already done and is up to date
       logger.info(s"Prediction has been already done and is up to date for $dsPath.")
       None
@@ -125,11 +126,11 @@ object ModelPredictor extends LazyLogging {
       Try(randomForestClassifier.predict(List(dataset))) match {
         case Success(preds) => Some(preds)
         case Failure(err) => {
-          // right now we fail the whole prediction process
-          logger.error(s"Prediction for the dataset $dsPath failed: $err")
+          // prediction failed for the dataset
+          logger.warn(s"Prediction for the dataset $dsPath failed: $err")
           None
           //throw InternalException(s"Prediction for dataset $dsPath failed: $err")
-          // TODO: should we rather return just None for this dataset???
+          // TODO: should we throw error or return just None for this dataset???
         }
       }
     }
@@ -144,7 +145,7 @@ object ModelPredictor extends LazyLogging {
     * @return List of ColumnPrediction
     */
   def readPredictions(filePath: String, classNum : Int, modelID: ModelID): List[ColumnPrediction] = {
-    logger.info(s"Reading predictions from: $filePath")
+    logger.info(s"Reading predictions from: $filePath...")
     (for {
       content <- Try(Source.fromFile(filePath).getLines.map(_.split(",")))
       // header: id, label, confidence, scores for classes, features
@@ -167,11 +168,12 @@ object ModelPredictor extends LazyLogging {
     } yield preds) match {
       case Success(predictions) => {
         val p = predictions.toList
-        logger.info(s"${p.size} predictions have been read")
+        logger.info(s"${p.size} predictions have been read.")
         p
       }
       case Failure(err) =>
-        throw(InternalException(s"Failed reading predictions $filePath with error $err"))
+        logger.error(s"Failed reading predictions $filePath with error $err.")
+        throw(InternalException(s"Failed reading predictions $filePath with error $err."))
     }
   }
 

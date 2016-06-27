@@ -163,14 +163,18 @@ object MatcherInterface extends LazyLogging {
       }
     } onComplete {
       case Success(Some(true)) =>
+        // we update the status, the state date and do not delete the model.rf file
         ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false)
       case Success(Some(false)) =>
+        // we update the status, the state date and delete the model.rf file
         logger.error(s"Failed to write trained model for $id.")
         ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to write trained model.")
       case Success(None) =>
+        // we update the status, the state date and delete the model.rf file
         logger.error(s"Failed to identify model paths for $id.")
         ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to identify model paths.")
       case Failure(err) =>
+        // we update the status, the state date and delete the model.rf file
         val msg = s"Failed to train model $id: ${err.getMessage}."
         logger.error(msg)
         ModelStorage.updateTrainState(id, Status.ERROR, msg)
@@ -202,10 +206,8 @@ object MatcherInterface extends LazyLogging {
   }
 
   /**
-    * Asynchronously launch the training process, and write
-    * to storage once complete. The actual state will be
-    * returned from the above case when re-read from the
-    * storage layer.
+    * Asynchronously launch the prediction process, and write
+    * to storage once complete.
     *
     * @param id Model key for the model to be used for prediction
     * @param datasetID Optional id of the dataset
@@ -217,19 +219,31 @@ object MatcherInterface extends LazyLogging {
 
     } onComplete {
       case Success(_) =>
-        // we do not delete model.rf file and do not change dateModified
+        // we do not delete model.rf file and do not change dateModified, but we change the status
         ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false, changeDate = false)
       case Failure(err) =>
+        // we do not delete model.rf file and do not change dateModified, but we change the status
         val msg = s"Failed to perform prediction: ${err.getMessage}"
         logger.error(msg)
         ModelStorage.updateTrainState(id, Status.COMPLETE, msg, deleteRF = false, changeDate = false)
     }
   }
 
+  /**
+    * Obtain predicted classes and derived features for the datasets in the repository
+    * using the specified model.
+    * This method does not raise errors if predictions are not available.
+    * It returns an empty list.
+    *
+    * @param id Model key for the model which provides predictions
+    * @param datasetID Optional id of the dataset
+    * @return List of predicted classes with corresponding confidence measures and derived features
+    *         per each column in the dataset repository (provided predictions are available).
+    */
   def getPrediction(id: ModelID, datasetID: Option[DataSetID]) : List[ColumnPrediction] = {
     datasetID match {
       case Some(dsID) => {
-        logger.info(s"Getting predicitons for the dataset $dsID")
+        logger.info(s"Getting predicitons for the dataset $dsID.")
         ModelPredictor.getDatasetPrediction(id, List(dsID))
       }
       case None => {

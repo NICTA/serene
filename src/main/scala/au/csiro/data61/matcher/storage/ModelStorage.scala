@@ -382,13 +382,21 @@ object ModelStorage extends Storage[ModelID, Model] {
             // get only those predictions which are up to date
             (model.dateModified.isBefore(x.lastModified)
               && model.state.dateModified.isBefore(x.lastModified)))
-          .map(_.toString)
-          .map(FilenameUtils.getBaseName)
+          // checking model state should be unneccessary
+          // we need to check if datasets have been changed
+          .map(predFile => (predFile, predFile.toString))
+          .map(x => (x._1, FilenameUtils.getBaseName(x._2)))
           .toList
-          .flatMap(toKeyOption)   // converting strings to integers
+          .map(x => (x._1, Try(x._2.toInt).toOption))   // converting strings to integers
+          .filter(x => !(x._2.isEmpty)) // removing failed conversions
+          .map { case (predFile, Some(dsKey)) => (predFile, DatasetStorage.get(dsKey))}
+          .filter {case (predFile, Some(dataset)) =>
+            dataset.dateModified.isBefore(predFile.lastModified) // removing those predictions for which datasets have been modified
+                  case _ => false}
+          .flatMap { case (predFile, Some(dataset)) => Some(dataset.id)}
       }
       case _ =>
-        logger.error(s"Failed to open predictions dir ${predPath.toString}")
+        logger.warn(s"Failed to open predictions dir ${predPath.toString}.")
         List.empty[DataSetID]
     }
   }

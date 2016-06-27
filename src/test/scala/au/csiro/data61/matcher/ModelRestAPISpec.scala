@@ -143,6 +143,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   }
 
+  //=========================Tests==============================================
+
   test("version number is 1.0") {
     assert(APIVersion === "v1.0")
   }
@@ -350,6 +352,86 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
+  test("POST /v1.0/model/id responds Ok(200)") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestStr = randomString
+      val TestClasses = List.fill(LabelLength)(randomString)
+      val PauseTime = 2000
+
+      val NewDescription = randomString
+      val NewClasses = List.fill(LabelLength)(randomString)
+
+      postAndReturn(TestClasses, Some(TestStr)) match {
+        case Success(ds) =>
+          // wait for the clock to tick for the dateModified
+          Thread.sleep(PauseTime)
+
+          val json =
+            ("description" -> NewDescription) ~
+              ("modelType" -> "randomForest") ~
+              ("classes" -> NewClasses) ~
+              ("features" -> defaultFeatures ) ~
+              ("costMatrix" -> defaultCostMatrix) ~
+              ("resamplingStrategy" -> "ResampleToMean")
+
+          val request = postRequest(json, s"/$APIVersion/model/${ds.id}")
+
+          // send the request and make sure it executes
+          val response = Await.result(client(request))
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // ensure that the data is correct...
+          val patchModel = parse(response.contentString).extract[Model]
+          assert(patchModel.description === NewDescription)
+          assert(patchModel.classes === NewClasses)
+          assert(patchModel.dateCreated !== patchModel.dateModified)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("DELETE /v1.0/model/id responds Ok(200)") (new TestServer {
+    try {
+      val TestStr = randomString
+      val NumClasses = 4
+      val TestClasses = List.fill(NumClasses)(randomString)
+
+      postAndReturn(TestClasses, Some(TestStr)) match {
+        case Success(model) =>
+
+          // build a request to modify the dataset...
+          val resource = s"/$APIVersion/model/${model.id}"
+
+          val response = delete(resource)
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // there should be nothing there, and the response
+          // should say so.
+          val noResource = get(resource)
+          assert(noResource.contentType === Some(JsonHeader))
+          assert(noResource.status === Status.NotFound)
+          assert(!noResource.contentString.isEmpty)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      assertClose()
+    }
+  })
+
+  //==============================================================================
+  // Tests for model training endpoint
+
   test("GET /v1.0/model/1/train returns model not found") (new TestServer {
     try {
 
@@ -390,9 +472,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     try {
       val response = get(s"/$APIVersion/model") // cache was not updated
       val models : List[ModelID] = Try { parse(response.contentString).extract[List[ModelID]] } match {
-        case Success(mods) => mods
-        case _   => throw new Exception("No models")
-      }
+          case Success(mods) => mods
+          case _   => throw new Exception("No models")
+        }
 
       val someId = models(1) // this model id is in cache, but all directories were deleted
       // sending training request
@@ -417,52 +499,52 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-//  //  TODO: train model with no training datasets; I don't get expected results
-//  test("GET /v1.0/model/1184298536/train fails with no training datasets") (new TestServer {
-//    try {
-//      val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
-//      // copy sample model to Config.ModelStorageDir
-//      if (!Paths.get(Config.ModelStorageDir).toFile.exists) { // create model storage dir
-//        Paths.get(Config.ModelStorageDir).toFile.mkdirs}
-//      val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
-//      FileUtils.copyDirectory(mDir,                    // copy sample model
-//        Paths.get(Config.ModelStorageDir).toFile)
-//      if (!Paths.get(Config.DatasetStorageDir).toFile.exists) { // create dataset storage dir
-//                Paths.get(Config.DatasetStorageDir).toFile.mkdirs}
+    //  TODO: train model with no training datasets; I don't get expected results
+//    test("GET /v1.0/model/1184298536/train fails with no training datasets") (new TestServer {
+//      try {
+//        val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
+//        // copy sample model to Config.ModelStorageDir
+//        if (!Paths.get(Config.ModelStorageDir).toFile.exists) { // create model storage dir
+//          Paths.get(Config.ModelStorageDir).toFile.mkdirs}
+//        val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
+//        FileUtils.copyDirectory(mDir,                    // copy sample model
+//          Paths.get(Config.ModelStorageDir).toFile)
+//        if (!Paths.get(Config.DatasetStorageDir).toFile.exists) { // create dataset storage dir
+//                  Paths.get(Config.DatasetStorageDir).toFile.mkdirs}
 //
-//      // updating caches explicitly
-//      println(get(s"/$APIVersion/model/cache").contentString)
-//      get(s"/$APIVersion/model/cache") // update cache for models
-//      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+//        // updating caches explicitly
+//        println(get(s"/$APIVersion/model/cache").contentString)
+//        get(s"/$APIVersion/model/cache") // update cache for models
+//        get(s"/$APIVersion/dataset/cache") // update cache for datasets
 //
-//      // sending training request
-//      val trainResp = get(s"/$APIVersion/model/1184298536/train")
-//      println(s"=====Training response: ${trainResp.contentString}")
-//      // assert(trainResp.status === Status.Accepted)
-//      // TODO: something here wrong; it should be accepted, but it fails
+//        // sending training request
+//        val trainResp = get(s"/$APIVersion/model/1184298536/train")
+//        println(s"=====Training response: ${trainResp.contentString}")
+//        // assert(trainResp.status === Status.Accepted)
+//        // TODO: something here wrong; it should be accepted, but it fails
 //
-//      // wait for the training
-//      println("=============sleeping")
-//      val PauseTime = 10000
-//      Thread.sleep(PauseTime)
+//        // wait for the training
+//        println("=============sleeping")
+//        val PauseTime = 10000
+//        Thread.sleep(PauseTime)
 //
-//      // build a request to get the model...
-//      val response = get(s"/$APIVersion/model/1184298536")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.Ok)
-//      assert(!response.contentString.isEmpty)
-//      // error state
-//      val returnedModel = parse(response.contentString).extract[Model]
-//      Thread.sleep(1000)
-//      println(s"Returned model: ${returnedModel}")
-//      println(s"state message = ${returnedModel.state.message}")
-//      assert(returnedModel.state.status === ModelTypes.Status.ERROR)
-//        // TODO: something wrong; training fails but the status is still UNTRAINED
+//        // build a request to get the model...
+//        val response = get(s"/$APIVersion/model/1184298536")
+//        assert(response.contentType === Some(JsonHeader))
+//        assert(response.status === Status.Ok)
+//        assert(!response.contentString.isEmpty)
+//        // error state
+//        val returnedModel = parse(response.contentString).extract[Model]
+//        Thread.sleep(1000)
+//        println(s"Returned model: ${returnedModel}")
+//        println(s"state message = ${returnedModel.state.message}")
+//        assert(returnedModel.state.status === ModelTypes.Status.ERROR)
+//          // TODO: something wrong; training fails but the status is still UNTRAINED
 //
-//    } finally {
-//      assertClose()
-//    }
-//  })
+//      } finally {
+//        assertClose()
+//      }
+//    })
 
 
   test("GET /v1.0/model/1184298536/train modifies model train state to BUSY") (new TestServer {
@@ -609,84 +691,6 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-
-  test("POST /v1.0/model/id responds Ok(200)") (new TestServer {
-    try {
-      val LabelLength = 4
-      val TestStr = randomString
-      val TestClasses = List.fill(LabelLength)(randomString)
-      val PauseTime = 2000
-
-      val NewDescription = randomString
-      val NewClasses = List.fill(LabelLength)(randomString)
-
-      postAndReturn(TestClasses, Some(TestStr)) match {
-        case Success(ds) =>
-          // wait for the clock to tick for the dateModified
-          Thread.sleep(PauseTime)
-
-          val json =
-            ("description" -> NewDescription) ~
-              ("modelType" -> "randomForest") ~
-              ("classes" -> NewClasses) ~
-              ("features" -> defaultFeatures ) ~
-              ("costMatrix" -> defaultCostMatrix) ~
-              ("resamplingStrategy" -> "ResampleToMean")
-
-          val request = postRequest(json, s"/$APIVersion/model/${ds.id}")
-
-          // send the request and make sure it executes
-          val response = Await.result(client(request))
-          assert(response.contentType === Some(JsonHeader))
-          assert(response.status === Status.Ok)
-          assert(!response.contentString.isEmpty)
-
-          // ensure that the data is correct...
-          val patchModel = parse(response.contentString).extract[Model]
-          assert(patchModel.description === NewDescription)
-          assert(patchModel.classes === NewClasses)
-          assert(patchModel.dateCreated !== patchModel.dateModified)
-
-        case Failure(err) =>
-          throw new Exception("Failed to create test resource")
-      }
-    } finally {
-      assertClose()
-    }
-  })
-
-  test("DELETE /v1.0/model/id responds Ok(200)") (new TestServer {
-    try {
-      val TestStr = randomString
-      val NumClasses = 4
-      val TestClasses = List.fill(NumClasses)(randomString)
-
-      postAndReturn(TestClasses, Some(TestStr)) match {
-        case Success(model) =>
-
-          // build a request to modify the dataset...
-          val resource = s"/$APIVersion/model/${model.id}"
-
-          val response = delete(resource)
-          assert(response.contentType === Some(JsonHeader))
-          assert(response.status === Status.Ok)
-          assert(!response.contentString.isEmpty)
-
-          // there should be nothing there, and the response
-          // should say so.
-          val noResource = get(resource)
-          assert(noResource.contentType === Some(JsonHeader))
-          assert(noResource.status === Status.NotFound)
-          assert(!noResource.contentString.isEmpty)
-
-        case Failure(err) =>
-          throw new Exception("Failed to create test resource")
-      }
-    } finally {
-      assertClose()
-    }
-  })
-
   test("GET /v1.0/model/1184298536/train does not retrain the model") (new TestServer {
     try {
       copySampleFiles
@@ -767,6 +771,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
+  //==============================================================================
+  // Tests for model prediction endpoint
   test("POST /v1.0/model/1184298536/predict changes model state to BUSY") (new TestServer {
     try {
       copySampleFiles
@@ -803,7 +809,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-  test("POST /v1.0/model/1184298536/predict changes model state to COMPLETE after prediction is over but dateModified is not changed") (new TestServer {
+  test("POST /v1.0/model/1184298536/predict changes model state to COMPLETE " +
+    "after prediction is over but dateModified is not changed") (new TestServer {
     try {
       copySampleFiles
 
@@ -854,8 +861,6 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       // sending prediction request
       val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/1184298536/predict")
       val predResp = Await.result(client(predReq))
-//      println(predResp.status)
-//      println((predResp.contentString.toMap)("message"))
       assert(predResp.status === Status.NotFound)
       // the prediction should not be launched!
       Thread.sleep(10) // wait for the prediction to finish
@@ -868,29 +873,31 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("POST /v1.0/model/1184298536/predict creates exactly one prediction file") (new TestServer {
     try {
       copySampleFiles
+      val modelID = 1184298536
+      val datasetID = 59722533
 
       // updating caches explicitly
       get(s"/$APIVersion/model/cache") // update cache for models
       get(s"/$APIVersion/dataset/cache") // update cache for datasets
 
       // sending training request
-      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      val trainResp = get(s"/$APIVersion/model/$modelID/train")
       assert(trainResp.status === Status.Accepted)
       // wait for the training
       val PauseTime = 10000
       Thread.sleep(PauseTime)
 
       // sending prediction request
-      val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/1184298536/predict")
+      val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/$modelID/predict")
       val predResp = Await.result(client(predReq))
       assert(predResp.status === Status.Accepted)
       // the prediction should be launched!
       Thread.sleep(PauseTime) // wait for the prediction to finish
 
       // only one prediction file should be created
-      val availPreds = ModelStorage.availablePredictions(1184298536)
+      val availPreds = ModelStorage.availablePredictions(modelID)
       assert(availPreds.size === 1)
-      assert(availPreds === List(59722533))
+      assert(availPreds === List(datasetID))
     } finally {
       assertClose()
     }
@@ -915,36 +922,38 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("GET /v1.0/model/1184298536/predict returns successfully predictions") (new TestServer {
     try {
       copySampleFiles
+      val modelID = 1184298536
+      val datasetID = 59722533
 
       // updating caches explicitly
       get(s"/$APIVersion/model/cache") // update cache for models
       get(s"/$APIVersion/dataset/cache") // update cache for datasets
 
       // sending training request
-      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      val trainResp = get(s"/$APIVersion/model/$modelID/train")
       assert(trainResp.status === Status.Accepted)
       // wait for the training
       val PauseTime = 10000
       Thread.sleep(PauseTime)
 
       // sending prediction request
-      val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/1184298536/predict")
+      val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/$modelID/predict")
       val predResp = Await.result(client(predReq))
       assert(predResp.status === Status.Accepted)
       // the prediction should be launched!
       Thread.sleep(PauseTime) // wait for the prediction to finish
 
       // getting predictions
-      val predictionsReq = get(s"/$APIVersion/model/1184298536/predict")
+      val predictionsReq = get(s"/$APIVersion/model/$modelID/predict")
       assert(predictionsReq.status === Status.Ok)
       val predictions = parse(predictionsReq.contentString).extract[List[ColumnPrediction]]
 
 
-      val predPath = ModelStorage.getPredictionsPath(1184298536) // directory where prediction file should be stored for this model
+      val predPath = ModelStorage.getPredictionsPath(modelID) // directory where prediction file should be stored for this model
       // get number of classes for this model
-      val numClasses = ModelStorage.get(1184298536).map(_.classes.size).getOrElse(throw NotFoundException(s"Model not found."))
-      val filePath = Paths.get(predPath.toString, "59722533.csv").toString
-      val readPredictions = ModelPredictor.readPredictions(filePath, numClasses, 1184298536)
+      val numClasses = ModelStorage.get(modelID).map(_.classes.size).getOrElse(throw NotFoundException(s"Model not found."))
+      val filePath = Paths.get(predPath.toString, s"$datasetID.csv").toString
+      val readPredictions = ModelPredictor.readPredictions(filePath, numClasses, modelID)
 
       assert(predictions === readPredictions)
     } finally {
@@ -952,10 +961,118 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
+  test("GET /v1.0/model/1184298536/train does not launch training:" +
+    " training is not needed after prediction") (new TestServer {
+    try {
+      copySampleFiles
+      val modelID = 1184298536
+      val datasetID = 59722533
 
-  // TODO: test that training is not needed after prediction
-  // TODO: prediction is not repeated if it's already available
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/$modelID/train")
+      assert(trainResp.status === Status.Accepted)
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+      val response1 = get(s"/$APIVersion/model/$modelID") // get model info
+      // remember the dateModified
+      val dateModified1 = parse(response1.contentString).extract[Model].state.dateModified
+
+      // sending prediction request
+      val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/$modelID/predict")
+      val predResp = Await.result(client(predReq))
+      assert(predResp.status === Status.Accepted)
+      // the prediction should be launched!
+      Thread.sleep(PauseTime) // wait for the prediction to finish
+
+      // sending training request again
+      val trainResp2 = get(s"/$APIVersion/model/$modelID/train")
+      assert(trainResp2.status === Status.Accepted)
+      // we do not wait for the training, since it should not happen
+
+      // build a request to get the model...
+      val response = get(s"/$APIVersion/model/$modelID")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // ensure that the data is correct...
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
+      // check that dateModified did not change...
+      assert(returnedModel.state.dateModified === dateModified1)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/1184298536/predict does not launch prediction if prediction is available") (new TestServer {
+    try {
+      val modelID = 1184298536
+      val datasetID = 59722533
+      copySampleFiles
+
+      // updating caches explicitly
+      get(s"/$APIVersion/model/cache") // update cache for models
+      get(s"/$APIVersion/dataset/cache") // update cache for datasets
+
+      // sending training request
+      val trainResp = get(s"/$APIVersion/model/$modelID/train")
+      assert(trainResp.status === Status.Accepted)
+      // wait for the training
+      val PauseTime = 10000
+      Thread.sleep(PauseTime)
+
+      // sending prediction request
+      val predReq = http.Request(http.Method.Post, s"/$APIVersion/model/$modelID/predict")
+      val predResp = Await.result(client(predReq))
+      assert(predResp.status === Status.Accepted)
+      // the prediction should be launched!
+      Thread.sleep(PauseTime) // wait for the prediction to finish
+
+      // getting predictions
+      val predictionsReq = get(s"/$APIVersion/model/$modelID/predict")
+      assert(predictionsReq.status === Status.Ok)
+      val predPath = ModelStorage.getPredictionsPath(modelID) // directory where prediction file should be stored for this model
+      // remember the date when the file with derived features got created
+      val date1 = Paths.get(predPath.toString, s"$datasetID.csv").toFile.lastModified
+
+      // sending prediction request again
+      val predReq2 = http.Request(http.Method.Post, s"/$APIVersion/model/$modelID/predict")
+      val predResp2 = Await.result(client(predReq))
+      assert(predResp2.status === Status.Accepted)
+      // the prediction should not be launched!
+      Thread.sleep(1000) // wait till prediction repo is checked
+
+      // build a request to get the model...
+      val response = get(s"/$APIVersion/model/$modelID")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      // ensure that the status is set to complete!
+      val returnedModel = parse(response.contentString).extract[Model]
+      assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
+
+      // getting predictions
+      val predictionsReq2 = get(s"/$APIVersion/model/$modelID/predict")
+      assert(predictionsReq2.status === Status.Ok)
+
+      // the file with derived features should not be modified!
+      val date2 = Paths.get(predPath.toString, s"$datasetID.csv").toFile.lastModified
+      assert(date1 === date2)
+    } finally {
+      assertClose()
+    }
+  })
+
+
+
   // TODO: prediction is performed again if there are changes to the model
+  // TODO: prediction is performed again if there are changes to the dataset
 
 //  TODO: create test for bad parameters
 //

@@ -121,13 +121,13 @@ object ModelTrainer extends LazyLogging {
             postProcessingConfig = None)
         })
         .map(dt => {
-          val trainer = TrainMlibSemanticTypeClassifier(dt.classes, false)
+          val trainer = TrainMlibSemanticTypeClassifier(dt.classes, false) // initialize the classifier
 
-          val randomForestSchemaMatcher = trainer.train(dt.trainingSet,
+          val randomForestSchemaMatcher = trainer.train(dt.trainingSet, // train the classifier
             dt.labels,
             dt.trainSettings,
             dt.postProcessingConfig)
-
+          // TODO: write features which were used for training
           SerializableMLibClassifier(randomForestSchemaMatcher.model
             , dt.classes
             , randomForestSchemaMatcher.featureExtractors

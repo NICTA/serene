@@ -198,6 +198,7 @@ object ModelRestAPI extends RestAPI {
       }
   }
 
+  // TODO: model evaluation endpoint
 
   /**
    * Patch a portion of a Model. Will destroy all cached models
