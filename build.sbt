@@ -1,3 +1,4 @@
+import NativePackagerHelper._
 
 lazy val root = (project in file("."))
   .settings(
@@ -6,7 +7,7 @@ lazy val root = (project in file("."))
 
   name := "matcher",
 
-  version := "0.1.0-SNAPSHOT",
+  version := "0.1.0SNAPSHOT",
 
   scalaVersion := "2.11.7",
 
@@ -19,6 +20,11 @@ lazy val root = (project in file("."))
   resolvers += Resolver.sonatypeRepo("snapshots"),
 
   parallelExecution in Test := false,
+
+  rpmVendor in Rpm := "typesafe",
+  rpmLicense in Rpm := Some("Proprietary"),
+  name in Rpm := "myproject",
+  rpmBrpJavaRepackJars := true,
 
   libraryDependencies ++= Seq(
     "org.json4s"                  %% "json4s-jackson"     % "3.3.0"
@@ -42,4 +48,6 @@ lazy val root = (project in file("."))
 
 
 
-  ).settings(jetty(): _*)
+  )
+  .settings(jetty(): _*)
+  .enablePlugins(RpmPlugin, JavaAppPackaging)
