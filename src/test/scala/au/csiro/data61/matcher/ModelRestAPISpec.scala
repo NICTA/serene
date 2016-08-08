@@ -580,13 +580,14 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("GET /v1.0/model/1184298536/train returns completed status") (new TestServer {
     try {
       copySampleFiles
+      val modelID = 1184298536
 
       // updating caches explicitly
       get(s"/$APIVersion/model/cache") // update cache for models
       get(s"/$APIVersion/dataset/cache") // update cache for datasets
 
       // sending training request
-      val trainResp = get(s"/$APIVersion/model/1184298536/train")
+      val trainResp = get(s"/$APIVersion/model/$modelID/train")
       assert(trainResp.status === Status.Accepted)
 
       // wait for the training
@@ -594,7 +595,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       Thread.sleep(PauseTime)
 
       // build a request to get the model...
-      val response = get(s"/$APIVersion/model/1184298536")
+      val response = get(s"/$APIVersion/model/$modelID")
       assert(response.contentType === Some(JsonHeader))
       assert(response.status === Status.Ok)
       assert(!response.contentString.isEmpty)

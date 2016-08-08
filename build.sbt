@@ -23,7 +23,6 @@ lazy val root = (project in file("."))
 
   rpmVendor in Rpm := "typesafe",
   rpmLicense in Rpm := Some("Proprietary"),
-  name in Rpm := "myproject",
   rpmBrpJavaRepackJars := true,
 
   libraryDependencies ++= Seq(
