@@ -21,7 +21,7 @@ import java.io._
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.matcher.api.NotFoundException
+import au.csiro.data61.matcher.api.{InternalException, NotFoundException}
 import au.csiro.data61.matcher.types.DataSetTypes.DataSetID
 import au.csiro.data61.matcher.{Config, ModelTrainerPaths}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID, Status, TrainState}
@@ -112,9 +112,15 @@ object ModelStorage extends Storage[ModelID, Model] {
       value.labelData // converting to the format: "columnName@datasetID.csv,labelName"
         .map { x => {
         val col = DatasetStorage.columnMap(x._1) // lookup column in columnMap
-        val ext = FilenameUtils.getExtension(col.path.toString).toLowerCase
-        val dsWithExt = s"${col.datasetID}.$ext" // dataset name as it is stored in DatasetStorage
-        List(s"${col.name}@$dsWithExt", x._2)
+//        val ext = FilenameUtils.getExtension(col.path.toString).toLowerCase
+        val dsFileName : String = DatasetStorage
+            .get(col.datasetID)
+            .map(_.filename)
+            .getOrElse(throw InternalException("Could not get filename!"))
+//        val dsWithExt = s"${col.datasetID}.$ext" // dataset name as it is stored in DatasetStorage
+//        List(s"${col.name}@$dsWithExt", x._2)
+//        List(s"${col.name}@$dsFileName", x._2) // colName@datasetName.csv
+        List(s"$dsFileName/${col.name}", x._2) // datasetName.csv/colName
       }
       }
         .toList
@@ -172,7 +178,9 @@ object ModelStorage extends Storage[ModelID, Model] {
 
     //labels; we want to write csv file with the following content:
     // attr_id,class
-    // columnName@datasetID.csv,labelName
+    // columnName@datasetID.csv,labelName  HERE IS THE PROBLEM!!!! We need name of the dataset!!!
+    // TODO: the format of attr_id is misleading!!!
+    // it seems it should be: datasetID.csv/columnName
     val labelsDir = Paths.get(wsDir.toString, s"labels")
     if (!labelsDir.toFile.exists) labelsDir.toFile.mkdirs
     val labelsPath = Paths.get(labelsDir.toString, s"labels.csv")

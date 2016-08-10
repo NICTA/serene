@@ -80,14 +80,14 @@ object ModelPredictor extends LazyLogging {
         List(DatasetStorage.get(dsID)
           .map(_.path.toString)
           .filter(_.endsWith("csv"))
-          .flatMap(predictDataset(id, _, serialMod)))
+          .flatMap(predictDataset(id, _, serialMod, dsID)))
         // if datasetID does not exist or it is not csv, then nothing will be done
       }
       case None => {
         logger.info(s"Performing prediction for all datasets in the repository.")
         val preds = DatasetStorage
-          .getCSVResources // get all csv files from data repository
-          .map(predictDataset(id, _, serialMod)) // predict each dataset
+          .keys // get all dataset keys from the repo
+          .flatMap(dsID => predict(id, Some(dsID))) // predict each dataset
         preds
       }
     }
@@ -100,14 +100,21 @@ object ModelPredictor extends LazyLogging {
     * @param id id of the model
     * @param dsPath path of the dataset
     * @param sModel Serialized Mlib classifier
+    * @param datasetID id of the dataset
     * @return PredictionObject wrapped in Option
     */
   def predictDataset(id: ModelID
                      , dsPath: String
-                     , sModel: SerializableMLibClassifier): Option[PredictionObject] = {
+                     , sModel: SerializableMLibClassifier
+                     , datasetID: DataSetID): Option[PredictionObject] = {
+    // getting the name of the original file
     val dsName = s"${FilenameUtils.getBaseName(dsPath)}.${FilenameUtils.getExtension(dsPath)}"
+    // name of the derivedFeatureFile
+    val writeName = s"${datasetID}.csv"
+    // loading data in the format suitable for data-integration project
     val dataset = CSVHierarchicalDataLoader().readDataSet(Paths.get(dsPath).getParent.toString, dsName)
-    val derivedFeatureFile = Paths.get(ModelStorage.getPredictionsPath(id).toString, dsName)
+    // this is the file where predictions will be written
+    val derivedFeatureFile = Paths.get(ModelStorage.getPredictionsPath(id).toString, writeName)
 
     val model = ModelStorage.get(id).getOrElse(throw NotFoundException(s"Model $id not found."))
     if (derivedFeatureFile.toFile.exists // file with predicted classes already exists
@@ -154,7 +161,9 @@ object ModelPredictor extends LazyLogging {
       featureNames <- Try(header.slice(4 + classNum, header.size))
       preds <-  Try(content.map {
         case arr => {
-          val dsID = FilenameUtils.getBaseName(arr(0).split("/")(0)) toInt
+          val dsID = FilenameUtils.getBaseName(filePath) toInt // here we assume that attribute names contain fileNames
+                                                  //that's why we use filePath to get datasetID
+          //val dsID = FilenameUtils.getBaseName(arr(0).split("/")(0)) toInt // here we assume that attribute names contain datasetID
           val colID = DatasetStorage.columnNameMap(dsID, arr(0).split("/")(1)).id
           val label = arr(1)
           val confid = arr(2) toDouble

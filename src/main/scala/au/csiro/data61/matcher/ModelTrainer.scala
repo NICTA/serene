@@ -57,10 +57,14 @@ object ModelTrainer extends LazyLogging {
    Return an instance of class TrainingSettings
     */
   def readSettings(trainerPaths: ModelTrainerPaths): TrainingSettings = {
-    val featuresConfig = FeatureSettings.load(trainerPaths.featuresConfigPath, trainerPaths.workspacePath)
+    val featuresConfig = FeatureSettings.load(trainerPaths.featuresConfigPath
+      //, trainerPaths.workspacePath // this should be type-map!!!!
+    ) // TODO: introduce support for type-map!
     TrainingSettings(trainerPaths.curModel.resamplingStrategy.str,
       featuresConfig,
-      Some(Left(trainerPaths.costMatrixConfigPath)))
+      None
+    //  Some(Left(trainerPaths.costMatrixConfigPath)) // no support for costmatrix
+    )
   }
 
   /*
@@ -71,6 +75,7 @@ object ModelTrainer extends LazyLogging {
       .getCSVResources
       .map{ csvFile =>
         val dsName = s"${FilenameUtils.getBaseName(csvFile)}.${FilenameUtils.getExtension(csvFile)}"
+        logger.info(s"Constructing data model for $dsName")
         // we need to split the path so that datasetID is properly supplied to data integration project
         CSVHierarchicalDataLoader().readDataSet(Paths.get(csvFile).getParent.toString, dsName)
       }
@@ -94,6 +99,7 @@ object ModelTrainer extends LazyLogging {
   def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels ={
     val labelsLoader = SemanticTypeLabelsLoader()
     val stl = labelsLoader.load(trainerPaths.labelsDirPath)
+    logger.info(s"Loaded training labels (${stl.labelsMap.size} instances).")
     if(stl.labelsMap.size < 1){// we do not allow unsupervised setting; labeled data should not be empty
       logger.error("No labeled datasets have been found.")
       throw NotFoundException("No labeled datasets have been found.")
@@ -121,12 +127,14 @@ object ModelTrainer extends LazyLogging {
             postProcessingConfig = None)
         })
         .map(dt => {
-          val trainer = TrainMlibSemanticTypeClassifier(dt.classes, false) // initialize the classifier
-
+//          val trainer = TrainMlibSemanticTypeClassifier(dt.classes, false) // initialize the classifier
+          val classes = "unknown" :: dt.classes // TODO: add default class!!!
+          val trainer = new TrainMlibSemanticTypeClassifier(dt.classes) // initialize the classifier
           val randomForestSchemaMatcher = trainer.train(dt.trainingSet, // train the classifier
             dt.labels,
             dt.trainSettings,
-            dt.postProcessingConfig)
+              None)
+            //dt.postProcessingConfig)
           // TODO: write features which were used for training
           SerializableMLibClassifier(randomForestSchemaMatcher.model
             , dt.classes

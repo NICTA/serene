@@ -85,7 +85,7 @@ object MatcherInterface extends LazyLogging {
             costMatrix = request.costMatrix.getOrElse(List()),
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
             labelData = userData.filterKeys(keysIn),
-            refDataSets = colMap.filterKeys(keysIn).values.map(_.datasetID).toList,
+            refDataSets = colMap.filterKeys(keysIn).values.map(_.datasetID).toSet.toList, //the keys for some datasets are repeated; let's convert to a Set!
             state = TrainState(Status.UNTRAINED, "", DateTime.now, DateTime.now),
             dateCreated = DateTime.now,
             dateModified = DateTime.now)
