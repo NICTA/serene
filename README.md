@@ -25,7 +25,7 @@ curl localhost:8080/v1.0
 curl localhost:8080/v1.0/dataset
 
 # Post a new dataset...
-curl -X POST -F 'file=@test.csv' -F 'description=This is a file' -F 'typeMap={"a":"b", "c":"d", "e":"f"}' localhost:8080/v1.0/dataset
+curl -X POST -F 'file=@test.csv' "file": open(file_path, "rb"), -F 'description=This is a file' -F 'typeMap={"a":"b", "c":"d", "e":"f"}' localhost:8080/v1.0/dataset
 
 # Show a single dataset
 curl localhost:8080/v1.0/dataset/12341234
