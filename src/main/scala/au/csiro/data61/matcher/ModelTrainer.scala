@@ -17,23 +17,20 @@
   */
 package au.csiro.data61.matcher
 
-import java.io.{FileInputStream, IOException, ObjectInputStream}
-import java.nio.file.Paths
+import java.nio.file.{Files, Paths}
 
-import au.csiro.data61.matcher.api.{BadRequestException, NotFoundException}
+import au.csiro.data61.matcher.api.NotFoundException
 import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
-import org.joda.time.DateTime
 import com.typesafe.scalalogging.LazyLogging
-import org.apache.commons.io.FilenameUtils
-
-import scala.util.{Failure, Success, Try}
 
 // data integration project
-import com.nicta.dataint.data.{DataModel, SemanticTypeLabels}
+import com.nicta.dataint.data.SemanticTypeLabels
 import com.nicta.dataint.matcher.train.{TrainMlibSemanticTypeClassifier, TrainingSettings}
 import com.nicta.dataint.matcher.features.FeatureSettings
-import com.nicta.dataint.ingestion.loader.{CSVHierarchicalDataLoader, SemanticTypeLabelsLoader}
+import com.nicta.dataint.ingestion.loader.CSVHierarchicalDataLoader
+import com.nicta.dataint.data.DataModel
+import com.nicta.dataint.ingestion.loader.SemanticTypeLabelsLoader
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 
 case class ModelTrainerPaths(curModel: Model,
@@ -53,54 +50,60 @@ object ModelTrainer extends LazyLogging {
   val rootDir: String = ModelStorage.rootDir
   val datasetDir: String = DatasetStorage.rootDir
 
-  /*
-   Return an instance of class TrainingSettings
+  /**
+    * Return an instance of class TrainingSettings
     */
   def readSettings(trainerPaths: ModelTrainerPaths): TrainingSettings = {
-    val featuresConfig = FeatureSettings.load(trainerPaths.featuresConfigPath
-      //, trainerPaths.workspacePath // this should be type-map!!!!
-    ) // TODO: introduce support for type-map!
-    TrainingSettings(trainerPaths.curModel.resamplingStrategy.str,
+
+    val featuresConfig = FeatureSettings.load(
+      trainerPaths.featuresConfigPath,
+      trainerPaths.workspacePath)
+
+    TrainingSettings(
+      trainerPaths.curModel.resamplingStrategy.str,
       featuresConfig,
-      None
-    //  Some(Left(trainerPaths.costMatrixConfigPath)) // no support for costmatrix
-    )
+      Some(Left(trainerPaths.costMatrixConfigPath)))
   }
 
-  /*
-   Returns a list of DataModel instances at path
+  /**
+    * Returns a list of DataModel instances at path
     */
   def getDataModels(path: String): List[DataModel] = {
     DatasetStorage
       .getCSVResources
-      .map{ csvFile =>
-        val dsName = s"${FilenameUtils.getBaseName(csvFile)}.${FilenameUtils.getExtension(csvFile)}"
-        logger.info(s"Constructing data model for $dsName")
-        // we need to split the path so that datasetID is properly supplied to data integration project
-        CSVHierarchicalDataLoader().readDataSet(Paths.get(csvFile).getParent.toString, dsName)
-      }
+      .map{CSVHierarchicalDataLoader().readDataSet(_, "")}
   }
 
-  /*
-   Returns a list of DataModel instances from the dataset repository
+  /**
+    * Returns a list of DataModel instances for the dataset repository
     */
   def readTrainingData: DataModel = {
+
+    println("readTrainingData 1: ok", DatasetStorage.getCSVResources)
+
     val datasets = getDataModels(datasetDir)
-    if(datasets.length < 1){// training dataset has to be non-empty
+
+    println("readTrainingData 2: ok", datasets)
+
+    if (datasets.isEmpty) { // training dataset has to be non-empty
       logger.error("No csv training datasets have been found.")
       throw NotFoundException("No csv training datasets have been found.")
     }
+
+    println("readTrainingData 3: ok")
+
     new DataModel("", None, None, Some(datasets))
   }
 
-  /*
-   Reads in labeled data
+  /**
+    * Reads in labeled data
     */
   def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels ={
+
     val labelsLoader = SemanticTypeLabelsLoader()
     val stl = labelsLoader.load(trainerPaths.labelsDirPath)
-    logger.info(s"Loaded training labels (${stl.labelsMap.size} instances).")
-    if(stl.labelsMap.size < 1){// we do not allow unsupervised setting; labeled data should not be empty
+
+    if (stl.labelsMap.isEmpty) {// we do not allow unsupervised setting; labeled data should not be empty
       logger.error("No labeled datasets have been found.")
       throw NotFoundException("No labeled datasets have been found.")
     }
@@ -109,39 +112,55 @@ object ModelTrainer extends LazyLogging {
 
   /**
     * Performs training for the model and returns serialized object for the learnt model
-    *
-    * @param id id of the model
-    * @return Serialized Mlib classifier wrapped in Option
     */
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
-      ModelStorage.identifyPaths(id)
-        .map(cts => {
-          if (!Paths.get(cts.workspacePath, "").toFile.exists) {
-            logger.error(s"Workspace directory for the model $id does not exist.")
-            throw NotFoundException(s"Workspace directory for the model $id does not exist.")
-          }
-          DataintTrainModel(classes = cts.curModel.classes,
-            trainingSet = readTrainingData,
-            labels = readLabeledData(cts),
-            trainSettings = readSettings(cts),
-            postProcessingConfig = None)
-        })
-        .map(dt => {
-//          val trainer = TrainMlibSemanticTypeClassifier(dt.classes, false) // initialize the classifier
-          val classes = "unknown" :: dt.classes // TODO: add default class!!!
-          val trainer = new TrainMlibSemanticTypeClassifier(dt.classes) // initialize the classifier
-          val randomForestSchemaMatcher = trainer.train(dt.trainingSet, // train the classifier
-            dt.labels,
-            dt.trainSettings,
-              None)
-            //dt.postProcessingConfig)
-          // TODO: write features which were used for training
-          SerializableMLibClassifier(randomForestSchemaMatcher.model
-            , dt.classes
-            , randomForestSchemaMatcher.featureExtractors
-            //,randomForestSchemaMatcher.postProcessingConfig
-          )
-        })
-    }
+
+    ModelStorage.identifyPaths(id)
+      .map(cts  => {
+
+        println("1: ok")
+
+        if (!Files.exists(Paths.get(cts.workspacePath))) {
+          val msg = s"Workspace directory for the model $id does not exist."
+          logger.error(msg)
+          throw NotFoundException(msg)
+        }
+
+        println("2: ok")
+
+        DataintTrainModel(
+          classes = cts.curModel.classes,
+          trainingSet = readTrainingData,
+          labels = readLabeledData(cts),
+          trainSettings = readSettings(cts),
+          postProcessingConfig = None)
+      })
+      .map(dt => {
+
+
+        println("3: ok")
+
+        val trainer = TrainMlibSemanticTypeClassifier(dt.classes, doCrossValidation = false)
+
+
+        println("4: ok")
+
+        val randomForestSchemaMatcher = trainer.train(
+          dt.trainingSet,
+          dt.labels,
+          dt.trainSettings,
+          dt.postProcessingConfig)
+
+
+        println("5: ok")
+
+        SerializableMLibClassifier(
+          randomForestSchemaMatcher.model,
+          dt.classes,
+          randomForestSchemaMatcher.featureExtractors,
+          randomForestSchemaMatcher.postProcessingConfig)
+      })
+
+  }
 
 }

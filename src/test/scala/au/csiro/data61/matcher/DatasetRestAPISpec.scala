@@ -18,6 +18,7 @@
 package au.csiro.data61.matcher
 
 import java.io.File
+import java.nio.file.Paths
 
 import au.csiro.data61.matcher.types.{MatcherJsonFormats, DataSet}
 import com.twitter.finagle.http.RequestBuilder
@@ -49,13 +50,26 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
 
   val Resource = getClass.getResource("/medium.csv").getPath
 
+  def deleteAllDataSets()(implicit server: TestServer): Unit = {
+
+    val response = server.get(s"/$APIVersion/dataset")
+
+    if (response.status == Status.Ok) {
+      val str = response.contentString
+      val regex = "[0-9]+".r
+      val datasets = regex.findAllIn(str).map(_.toInt)
+      datasets.foreach { dataset =>
+        server.delete(s"/$APIVersion/dataset/$dataset")
+      }
+    }
+  }
 
   override def beforeEach() {
-    FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
+    //deleteAllModels()
   }
 
   override def afterEach() {
-    FileUtils.deleteDirectory(new File(Config.DatasetStorageDir))
+    //deleteAllModels()
   }
 
   /**
@@ -67,15 +81,17 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
    * @param description Description line to add to the file.
    * @return DataSet that was constructed
    */
-  def postAndReturn(server: TestServer, file: String, typeMap: String, description: String): Try[DataSet] = {
+  def createDataset(server: TestServer, file: String, typeMap: String, description: String): Try[DataSet] = {
 
     Try {
       val content = Await.result(Reader.readAll(Reader.fromFile(new File(file))))
 
+      val smallName = Paths.get(file).getFileName.toString
+
       val request = RequestBuilder().url(server.fullUrl(s"/$APIVersion/dataset"))
         .addFormElement("description" -> description)
         .addFormElement("typeMap" -> typeMap)
-        .add(FileElement("file", content, None, Some(typeMap)))
+        .add(FileElement("file", content, None, Some(smallName)))
         .buildFormPost(multipart = true)
 
       val response = Await.result(server.client(request))
@@ -95,6 +111,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
       assert(response.status === Status.Ok)
       assert(!response.contentString.isEmpty)
     } finally {
+      deleteAllDataSets()
       assertClose()
     }
   })
@@ -128,6 +145,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
       assert(ds.typeMap.get("c") === Some("d"))
 
     } finally {
+      deleteAllDataSets()
       assertClose()
     }
   })
@@ -148,13 +166,14 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
       assert(!response.contentString.isEmpty)
 
     } finally {
+      deleteAllDataSets()
       assertClose()
     }
   })
 
   test("POST /v1.0/dataset appears in dataset list") (new TestServer {
     try {
-      postAndReturn(this, Resource, "{}", "") match {
+      createDataset(this, Resource, "{}", "") match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -171,6 +190,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
           throw new Exception("Failed to create test resource")
       }
     } finally {
+      deleteAllDataSets()
       assertClose()
     }
   })
@@ -180,7 +200,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
       val TypeMap = """{"w":"x", "y":"z"}"""
       val TestStr = Random.alphanumeric take 10 mkString
 
-      postAndReturn(this, Resource, TypeMap, TestStr) match {
+      createDataset(this, Resource, TypeMap, TestStr) match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -201,6 +221,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
           throw new Exception("Failed to create test resource")
       }
     } finally {
+      deleteAllDataSets()
       assertClose()
     }
   })
@@ -211,7 +232,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
       val TestStr = Random.alphanumeric take 10 mkString
       val SampleLength = 4
 
-      postAndReturn(this, Resource, TypeMap, TestStr) match {
+      createDataset(this, Resource, TypeMap, TestStr) match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -233,6 +254,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
           throw new Exception("Failed to create test resource")
       }
     } finally {
+      deleteAllDataSets()
       assertClose()
     }
   })
@@ -247,6 +269,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
       assert(response.status === Status.NotFound)
       assert(!response.contentString.isEmpty)
     } finally {
+      deleteAllDataSets()
       assertClose()
     }
   })
@@ -260,6 +283,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
       assert(response.status === Status.NotFound)
       assert(response.contentString.isEmpty)
     } finally {
+      deleteAllDataSets()
       assertClose()
     }
   })
@@ -270,7 +294,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
       val TestStr = Random.alphanumeric take 10 mkString
       val PauseTime = 2000
 
-      postAndReturn(this, Resource, "{}", "") match {
+      createDataset(this, Resource, "{}", "") match {
         case Success(ds) =>
           // wait for the clock to tick
           Thread.sleep(PauseTime)
@@ -299,6 +323,19 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
           throw new Exception("Failed to create test resource")
       }
     } finally {
+      deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/dataset should be empty after previous tests") (new TestServer {
+    try {
+      val response = get(s"/$APIVersion/dataset")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(response.contentString === "[]")
+    } finally {
+      deleteAllDataSets()
       assertClose()
     }
   })
@@ -308,7 +345,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
       val TypeMap = """{"w":"x", "y":"z"}"""
       val TestStr = Random.alphanumeric take 10 mkString
 
-      postAndReturn(this, Resource, TypeMap, TestStr) match {
+      createDataset(this, Resource, TypeMap, TestStr) match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -330,6 +367,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
           throw new Exception("Failed to create test resource")
       }
     } finally {
+      deleteAllDataSets()
       assertClose()
     }
   })

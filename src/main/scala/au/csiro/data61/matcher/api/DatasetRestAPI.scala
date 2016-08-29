@@ -24,6 +24,8 @@ import DataSetTypes._
 import au.csiro.data61.matcher._
 import com.twitter.finagle.http.exp.Multipart
 import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpload}
+import com.twitter.io.BufReader
+import com.twitter.util.Await
 import io.finch._
 import org.json4s.jackson.JsonMethods._
 
@@ -55,9 +57,9 @@ object DatasetRestAPI extends RestAPI {
     *
     * curl http://localhost:8080/v1.0/dataset/cache
     */
-  val cacheUpdate: Endpoint[List[DataSetID]] = get(APIVersion :: "dataset" :: "cache") {
-    Ok(MatcherInterface.updateDatasetKeys)
-  }
+//  val cacheUpdate: Endpoint[List[DataSetID]] = get(APIVersion :: "dataset" :: "cache") {
+//    Ok(MatcherInterface.updateDatasetKeys)
+//  }
 
   /**
    * Adds a new dataset with a description and a user-specified logical typemap.
@@ -92,7 +94,7 @@ object DatasetRestAPI extends RestAPI {
           )
           val ds = MatcherInterface.createDataset(req)
           Ok(ds)
-        case Some(InMemoryFileUpload(_, _, _, _))=>
+        case Some(InMemoryFileUpload(buffer, contentType, fileName, _))=>
           InternalServerError(InternalException("Can't deal with in memory!!"))
         case _ =>
           BadRequest(BadRequestException("File missing from multipart form request."))
@@ -196,8 +198,8 @@ object DatasetRestAPI extends RestAPI {
     datasetCreate :+:
     datasetGet :+:
     datasetPatch :+:
-    datasetDelete :+:
-    cacheUpdate
+    datasetDelete //:+:
+    //cacheUpdate
 }
 
 /**

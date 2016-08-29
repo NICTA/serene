@@ -34,8 +34,8 @@ object Config extends LazyLogging {
 
   val ServerAddress = conf.getString("config.server-address")
 
-  logger.info(s"Starting Server at ${ServerAddress}")
-  logger.info(s"Storage path at ${StoragePath}")
-  logger.info(s"Dataset repository at ${DatasetStorageDir}")
-  logger.info(s"Model repository at ${ModelStorageDir}")
+  logger.info(s"Starting Server at $ServerAddress")
+  logger.info(s"Storage path at $StoragePath")
+  logger.info(s"Dataset repository at $DatasetStorageDir")
+  logger.info(s"Model repository at $ModelStorageDir")
 }

@@ -25,6 +25,7 @@ import au.csiro.data61.matcher.api.{InternalException, NotFoundException}
 import au.csiro.data61.matcher.types.DataSetTypes.DataSetID
 import au.csiro.data61.matcher.{Config, ModelTrainerPaths}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID, Status, TrainState}
+import com.github.tototoshi.csv.CSVWriter
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 import org.apache.commons.io.{FileUtils, FilenameUtils}
 import org.joda.time.{DateTime, DateTimeComparator}
@@ -34,6 +35,15 @@ import org.json4s.jackson.JsonMethods._
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
 
+/**
+  * Default filenames used in data integration code
+  */
+object DefaultFilenames {
+  val CostMatrix = "cost_matrix_config.json"
+  val FeaturesConfig = "features_config.json"
+  val LabelOutDir = "labels"
+  val Labels = "labels.csv"
+}
 
 /**
  * Object for storing models
@@ -106,89 +116,153 @@ object ModelStorage extends Storage[ModelID, Model] {
     *
     * @param value The Model to write to disk
     */
-  def convertLabelData(value: Model): List[List[String]] = {
-    //should we fail the splitting of files if some columns from labelData are not found in colunmMap???
-    List("attr_id", "class") :: // header for the file
-      value.labelData // converting to the format: "columnName@datasetID.csv,labelName"
-        .map { x => {
-        val col = DatasetStorage.columnMap(x._1) // lookup column in columnMap
-//        val ext = FilenameUtils.getExtension(col.path.toString).toLowerCase
-        val dsFileName : String = DatasetStorage
-            .get(col.datasetID)
-            .map(_.filename)
-            .getOrElse(throw InternalException("Could not get filename!"))
-//        val dsWithExt = s"${col.datasetID}.$ext" // dataset name as it is stored in DatasetStorage
-//        List(s"${col.name}@$dsWithExt", x._2)
-//        List(s"${col.name}@$dsFileName", x._2) // colName@datasetName.csv
-        List(s"$dsFileName/${col.name}", x._2) // datasetName.csv/colName
+  def convertLabelData(value : Model) : List[List[String]] = {
+
+    // header for the file
+    val header = List("attr_id", "class")
+
+    // converting to the format: "dataSetID.csv/columnName,labelName"
+    val body = value.labelData
+      .map { case (id, label) =>
+
+        (for {
+          dataSet <- DatasetStorage.get(id)
+          col <- DatasetStorage.columnMap.get(id) // lookup column in columnMap
+          dsPath = dataSet.path.getFileName
+          dsName = s"$dsPath/${col.name}"
+        } yield List(dsName, label)) getOrElse {
+
+          logger.warn(s"Failed to get labels for id=$id label=$label")
+          List.empty[String]
+        }
+      }.toList
+
+    header :: body
+  }
+
+
+  /**
+    * Writes the cost matrix from model to the wsDir
+    *
+    * @param wsDir The output workspace directory
+    * @param model The model object
+    * @param outFile The name of the output JSON file
+    * @return Try containing the final output path
+    */
+  private def writeCostMatrix(wsDir: String,
+                              model: Model,
+                              outFile: String = DefaultFilenames.CostMatrix): Try[String] = {
+    Try {
+      val costMatrixConfigPath = Paths.get(wsDir.toString, outFile)
+      val strCostMatrix = compact(Extraction.decompose(model.costMatrix))
+
+      logger.info(s"Writing cost matrix for model ${model.id} to $costMatrixConfigPath")
+
+      Files.write(
+        costMatrixConfigPath,
+        strCostMatrix.getBytes(StandardCharsets.UTF_8)
+      )
+      costMatrixConfigPath.toString
+    }
+  }
+
+  /**
+    * Writes the features config file to the workspace
+    *
+    * @param wsDir The output directory
+    * @param model The model object
+    * @param outFile The name of the output JSON file
+    * @return Try containing the final output path
+    */
+  private def writeFeaturesConfig(wsDir: String,
+                                  model: Model,
+                                  outFile: String = DefaultFilenames.FeaturesConfig): Try[String] = {
+    Try {
+      val featuresConfigPath = Paths.get(wsDir.toString, outFile)
+      val strFeatures = compact(Extraction.decompose(model.features))
+
+      logger.info(s"Writing feature config file for model ${model.id} at $featuresConfigPath")
+
+      Files.write(
+        featuresConfigPath,
+        strFeatures.getBytes(StandardCharsets.UTF_8)
+      )
+
+      featuresConfigPath.toString
+    }
+  }
+
+  /**
+    * Writes the label information to the workspace directory
+    *
+    * TODO: type-map is part of  featureExtractorParams, type-mas need to be read from datasetrepository when model gets created
+    *  "featureExtractorParams": [{"name": "inferred-data-type","type-map": "src/test/resources/config/type_map.csv"}]
+    *
+    * labels; we want to write csv file with the following content:
+    * attr_id,class
+    * datasetID.csv/columnName,labelName
+    *
+    * @param wsDir The output workspace
+    * @param model The model object
+    * @param outDir The output subdirectory for the labels
+    * @param outFile The output filename
+    * @return
+    */
+  private def writeLabels(wsDir: String,
+                          model: Model,
+                          outDir: String = DefaultFilenames.LabelOutDir,
+                          outFile: String = DefaultFilenames.Labels): Try[String] = {
+    Try {
+      val labelsDir = Paths.get(wsDir, outDir)
+      if (!labelsDir.toFile.exists) {
+        labelsDir.toFile.mkdirs
       }
-      }
-        .toList
-    //    this is the way to do it if we want to check that lookups happen correctly
-    //    val labelData : List[(String,String)] = value.labelData
-    //      .map { x => {
-    //        val column = Try(DatasetStorage.columnMap(x._1))
-    //        column match{
-    //          case Success(col) => (col.name, x._2)
-    //          case _ => ("","")
-    //        }}
-    //      }
-    //      .toList
-    //      .filter(_ != ("",""))
+      val labelsPath = Paths.get(labelsDir.toString, outFile).toString
+      val labelData = convertLabelData(model)
+
+      logger.info(s"Writing labels for model ${model.id} to $labelsPath")
+
+      val writer = CSVWriter.open(labelsPath)
+      writer.writeAll(labelData)
+      writer.close()
+
+      labelsPath
+    }
   }
 
   /**
     * Writes the object to disk as a serialized json string
-    * at a pre-defined location based on the id.
+    * at a pre-defined location based on the id. The config
+    * files written are done so according to the data integration
+    * project folder specs.
     *
-    * @param value The Model to write to disk
+    * @param model The Model to write to disk
     */
-  override protected def writeToFile(value: Model): Unit = {
+  override protected def writeToFile(model: Model): Unit = {
 
-    super.writeToFile(value) // write model json
+    // write model json
+    super.writeToFile(model)
 
-    //  write config files according to the data integration project
-    val wsDir = getWSPath(value.id).toFile // workspace directory
-    if (!wsDir.exists) wsDir.mkdirs // create workspace directory if it doesn't exist
+    // write config files according to the data integration project...
 
-    val predDir = getPredictionsPath(value.id).toFile // predictions directory
-    if (!predDir.exists) predDir.mkdirs // create predictions directory if it doesn't exist
+    // workspace directory
+    val wsDir = getWSPath(model.id).toFile
+    val wsDirStr = wsDir.toString
 
-    //cost_matrix_config.json
-    val costMatrixConfigPath = Paths.get(wsDir.toString, s"cost_matrix_config.json")
-    val strCostMatrix = compact(Extraction.decompose(value.costMatrix))
-    logger.info(s"Writing cost_matrix_config.json for model ${value.id}")
-    Files.write(
-      costMatrixConfigPath,
-      strCostMatrix.getBytes(StandardCharsets.UTF_8)
-    )
+    // create workspace directory if it doesn't exist
+    if (!wsDir.exists) {
+      wsDir.mkdirs
+    }
 
-    //features_config.json
-    val featuresConfigPath = Paths.get(wsDir.toString, "features_config.json")
-    val strFeatures = compact(Extraction.decompose(value.features))
-    logger.info(s"Writing features_config.json for model ${value.id}")
-    Files.write(
-      featuresConfigPath,
-      strFeatures.getBytes(StandardCharsets.UTF_8)
-    )
-
-    //type_map.csv???
-    // TODO: type-map is part of  featureExtractorParams, type-maps need to be read from dataset repository when model gets created
-    // "featureExtractorParams": [{"name": "inferred-data-type","type-map": "src/test/resources/config/type_map.csv"}]
-
-    //labels; we want to write csv file with the following content:
-    // attr_id,class
-    // columnName@datasetID.csv,labelName  HERE IS THE PROBLEM!!!! We need name of the dataset!!!
-    // TODO: the format of attr_id is misleading!!!
-    // it seems it should be: datasetID.csv/columnName
-    val labelsDir = Paths.get(wsDir.toString, s"labels")
-    if (!labelsDir.toFile.exists) labelsDir.toFile.mkdirs
-    val labelsPath = Paths.get(labelsDir.toString, s"labels.csv")
-    val labelData = convertLabelData(value)
-    logger.info(s"Writing labels.csv for model ${value.id}")
-    val out = new PrintWriter(new File(labelsPath.toString))
-    labelData.foreach(line => out.println(line.mkString(",")))
-    out.close()
+    (for {
+      cm <- writeCostMatrix(wsDirStr, model)
+      fc <- writeFeaturesConfig (wsDirStr, model)
+      labels <- writeLabels (wsDirStr, model)
+    } yield (cm, fc, labels)) match {
+      case Success(_) =>
+      case Failure(err) =>
+        throw new Exception(err.getMessage)
+    }
 
   }
 
@@ -340,10 +414,12 @@ object ModelStorage extends Storage[ModelID, Model] {
     */
   def checkModelTrainDataset(model: Model): Boolean = {
     model.refDataSets
-      .map(DatasetStorage.get(_))
+      .map(DatasetStorage.get)
       .map {
-        case Some(ds) => ds.dateModified.isBefore(model.state.dateModified)
-        case _ => false
+        case Some(ds) =>
+          ds.dateModified.isBefore(model.state.dateModified)
+        case _ =>
+          false
       }
       .reduce(_ && _)
   }
@@ -364,45 +440,66 @@ object ModelStorage extends Storage[ModelID, Model] {
     logger.info(s"Checking consistency of model $id")
     val modelFile = modelPath(id).toString
     ModelStorage.get(id) match {
-      case Some(model) => {
+      case Some(model) =>
         (checkModelFileCreation(model, modelFile)
           && checkModelTrainDataset(model)
           && model.state.status == Status.COMPLETE)
-      }
-      case _ => false // model does not exist or some other problem
+      case _ =>
+        false // model does not exist or some other problem
     }
   }
 
   /**
-    * List those dataset ids for which up to date predictions are available.
+    * List those dataset ids for which up-to-date predictions are available.
     *
     * @param id Model id
     * @return List of strings which indicate files with calculated predictions.
     */
   def availablePredictions(id: ModelID): List[DataSetID] = {
+
     val model = ModelStorage.get(id).getOrElse(throw NotFoundException(s"Model $id not found."))
+
     val predPath = getPredictionsPath(id)
+
     Option(new File(predPath.toString) listFiles) match {
-      case Some(fileList) => {
-        fileList
+      case Some(fileList) =>
+        val files = fileList
           .filter(_.isFile)
           .filter(x =>
             // get only those predictions which are up to date
             (model.dateModified.isBefore(x.lastModified)
               && model.state.dateModified.isBefore(x.lastModified)))
+
+        files
           // checking model state should be unneccessary
           // we need to check if datasets have been changed
           .map(predFile => (predFile, predFile.toString))
-          .map(x => (x._1, FilenameUtils.getBaseName(x._2)))
-          .toList
-          .map(x => (x._1, Try(x._2.toInt).toOption))   // converting strings to integers
-          .filter(x => !(x._2.isEmpty)) // removing failed conversions
-          .map { case (predFile, Some(dsKey)) => (predFile, DatasetStorage.get(dsKey))}
-          .filter {case (predFile, Some(dataset)) =>
-            dataset.dateModified.isBefore(predFile.lastModified) // removing those predictions for which datasets have been modified
-                  case _ => false}
-          .flatMap { case (predFile, Some(dataset)) => Some(dataset.id)}
-      }
+          .map {
+              case (file, str) =>
+                (file, FilenameUtils.getBaseName(str))
+          }
+          //.toList
+          .map { case (file, str) =>
+            (file, Try(str.toInt).toOption)
+          }   // converting strings to integers
+          .flatMap {
+            case (predFile, Some(dsKey)) =>
+              Some((predFile, DatasetStorage.get(dsKey)))
+            case _ =>
+              None
+          }
+          .filter {
+            case (predFile, Some(dataset)) =>
+              dataset.dateModified.isBefore(predFile.lastModified) // removing those predictions for which datasets have been modified
+            case _ =>
+              false
+          }
+          .flatMap {
+            case (predFile, Some(dataset)) =>
+              Some(dataset.id)
+            case _ =>
+              None
+          }.toList
       case _ =>
         logger.warn(s"Failed to open predictions dir ${predPath.toString}.")
         List.empty[DataSetID]

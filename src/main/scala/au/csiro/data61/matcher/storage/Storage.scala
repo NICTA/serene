@@ -98,7 +98,7 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
           .map(_.getName)
           .toList
       case _ =>
-        logger.error(s"Failed to open dir $rootDir")
+        logger.warn(s"Attempting to list directories. Failed to open dir $rootDir")
         List.empty[String]
     }
   }
@@ -213,12 +213,16 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
     }
   }
 
-  /**
-    * Updates cache
-    */
-  def updateCache = {
-    cache = listValues.map(m => m.id -> m).toMap
+  def removeAll(): Unit = {
+    keys.foreach(remove)
   }
+
+//  /**
+//    * Updates cache
+//    */
+//  def updateCache = {
+//    cache = listValues.map(m => m.id -> m).toMap
+//  }
 
 }
 

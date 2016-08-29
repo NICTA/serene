@@ -81,7 +81,7 @@ curl -X POST \
   localhost:8080/v1.0/model/98793874
 
 # Train model (async, use GET on model 98793874 to query state)
-curl localhost:8080/v1.0/model/98793874/train
+curl -X POST localhost:8080/v1.0/model/98793874/train
 
 # Delete a model
 curl -X DELETE  localhost:8080/v1.0/model/12341234

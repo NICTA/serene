@@ -49,9 +49,10 @@ object ModelRestAPI extends RestAPI {
     id = 0,
     modelType = ModelType.RANDOM_FOREST,
     classes = List("name", "address", "phone", "flight"),
-    features = FeaturesConfig(activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals")
-      ,activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")
-      ,featureExtractorParams = Map(
+    features = FeaturesConfig(
+      activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals"),
+      activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"),
+      featureExtractorParams = Map(
         "prop-instances-per-class-in-knearestneighbours" -> Map(
           "name" -> "prop-instances-per-class-in-knearestneighbours",
           "num-neighbours" -> "5")
@@ -83,9 +84,9 @@ object ModelRestAPI extends RestAPI {
     *
     * curl http://localhost:8080/v1.0/model/cache
     */
-  val cacheUpdate: Endpoint[List[ModelID]] = get(APIVersion :: "model" :: "cache") {
-    Ok(MatcherInterface.updateModelKeys)
-  }
+//  val cacheUpdate: Endpoint[List[ModelID]] = get(APIVersion :: "model" :: "cache") {
+//    Ok(MatcherInterface.updateModelKeys)
+//  }
 
   /**
    * Adds a new model as specified by the json body.
@@ -151,7 +152,7 @@ object ModelRestAPI extends RestAPI {
     * Trains a model at id
     * If training has been successfully launched, it returns nothing
     */
-  val modelTrain: Endpoint[Unit] = get(APIVersion :: "model" :: int :: "train") {
+  val modelTrain: Endpoint[Unit] = post(APIVersion :: "model" :: int :: "train") {
     (id: Int) =>
       val state = Try(MatcherInterface.trainModel(id))
       state match {
@@ -315,8 +316,8 @@ object ModelRestAPI extends RestAPI {
       modelPatch :+:
       modelDelete :+:
       modelPredict :+:
-      getPrediction :+:
-      cacheUpdate
+      getPrediction //:+:
+//      cacheUpdate
 }
 
 

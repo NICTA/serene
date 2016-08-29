@@ -123,7 +123,7 @@ object MatcherInterface extends LazyLogging {
     val status = state.map(_.status)
 
     if (ModelStorage.isConsistent(id)) {
-      logger.info(s"Model ${id} does not need training, it is consistent!")
+      logger.info(s"Model $id does not need training, it is done!")
       state // instead of launching training we return the current model state
     }
     else {
@@ -241,15 +241,16 @@ object MatcherInterface extends LazyLogging {
     *         per each column in the dataset repository (provided predictions are available).
     */
   def getPrediction(id: ModelID, datasetID: Option[DataSetID]) : List[ColumnPrediction] = {
+
     datasetID match {
-      case Some(dsID) => {
+
+      case Some(dsID) =>
         logger.info(s"Getting predicitons for the dataset $dsID.")
         ModelPredictor.getDatasetPrediction(id, List(dsID))
-      }
-      case None => {
+
+      case None =>
         logger.info(s"Getting predicitons for all available datasets.")
         ModelPredictor.getDatasetPrediction(id, DatasetStorage.keys)
-      }
     }
   }
 
@@ -331,19 +332,19 @@ object MatcherInterface extends LazyLogging {
     DatasetStorage.keys
   }
 
-  def updateDatasetKeys: List[DataSetID] = {
-    DatasetStorage.updateCache
-    DatasetStorage.keys
-  }
+//  def updateDatasetKeys: List[DataSetID] = {
+//    DatasetStorage.updateCache
+//    DatasetStorage.keys
+//  }
 
   def modelKeys: List[ModelID] = {
     ModelStorage.keys
   }
 
-  def updateModelKeys: List[ModelID] = {
-    ModelStorage.updateCache
-    ModelStorage.keys
-  }
+//  def updateModelKeys: List[ModelID] = {
+//    ModelStorage.updateCache
+//    ModelStorage.keys
+//  }
 
   /**
    * Returns the public facing dataset from the storage layer
