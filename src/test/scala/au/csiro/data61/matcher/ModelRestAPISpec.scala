@@ -19,7 +19,7 @@ package au.csiro.data61.matcher
 
 
 import java.io.{File, FileInputStream, IOException, ObjectInputStream}
-import java.nio.file.Paths
+import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.matcher.api.DatasetRestAPI._
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
@@ -51,10 +51,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   import ModelRestAPI._
 
-  val DefaultLabelCount = 4
 
   def deleteAllModels()(implicit server: TestServer): Unit = {
-    val response = server.get(s"/$APIVersion/dataset")
+    val response = server.get(s"/$APIVersion/model")
     if (response.status == Status.Ok) {
       val str = response.contentString
       val regex = "[0-9]+".r
@@ -82,8 +81,6 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   def randomString: String = Random.alphanumeric take 10 mkString
 
-  def defaultClasses: List[String] = List.fill(DefaultLabelCount)(randomString)
-
   def defaultFeatures: JObject =
     ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals" )) ~
     ("activeFeatureGroups" -> Seq("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")) ~
@@ -94,9 +91,53 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   def defaultCostMatrix: JArray =
     JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))
 
+  def defaultDataSet: String = getClass.getResource("/homeseekers.csv").getPath
+
+  def defaultClasses: List[String] = List(
+    "year_built",
+    "address",
+    "bathrooms",
+    "bedrooms",
+    "email",
+    "fireplace",
+    "firm_name",
+    "garage",
+    "heating",
+    "house_description",
+    "levels",
+    "mls",
+    "phone",
+    "price",
+    "size",
+    "type"
+  )
+
+  // index labels for the default dataset
+  def defaultLabels: Map[Int, String] =
+    Map(
+      4  -> "address",
+      5  -> "firm_name",
+      7  -> "email",
+      9  -> "price",
+      10 -> "type",
+      11 -> "mls",
+      12 -> "levels",
+      14 -> "phone",
+      18 -> "phone",
+      19 -> "year_built",
+      21 -> "garage",
+      24 -> "fireplace",
+      25 -> "bathrooms",
+      27 -> "size",
+      29 -> "house_description",
+      31 -> "phone",
+      30 -> "heating",
+      32 -> "bedrooms"
+    )
+
   val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
 
-  def copySampleDatasets: Unit = {
+  def copySampleDatasets(): Unit = {
     // copy sample dataset to Config.DatasetStorageDir
     if (!Paths.get(Config.DatasetStorageDir).toFile.exists) { // create dataset storage dir
       Paths.get(Config.DatasetStorageDir).toFile.mkdirs}
@@ -105,7 +146,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       Paths.get(Config.DatasetStorageDir).toFile)
   }
 
-  def copySampleModels: Unit = {
+  def copySampleModels(): Unit = {
     // copy sample model to Config.ModelStorageDir
     if (!Paths.get(Config.ModelStorageDir).toFile.exists) { // create model storage dir
       Paths.get(Config.ModelStorageDir).toFile.mkdirs}
@@ -114,9 +155,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       Paths.get(Config.ModelStorageDir).toFile)
   }
 
-  def copySampleFiles: Unit = {
-    copySampleDatasets
-    copySampleModels
+  def copySampleFiles(): Unit = {
+    copySampleDatasets()
+    copySampleModels()
   }
 
   /**
@@ -170,7 +211,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     */
   def createDataSet(server: TestServer): Unit = {
     // first we add a dataset...
-    DataSet.createDataset(server, Resource, TypeMap, "test-set") match {
+    DataSet.createDataset(server, defaultDataSet, TypeMap, "homeseekers") match {
       case Success(_) =>
       case _ =>
         throw new Exception("Failed to create dataset")
@@ -525,11 +566,12 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val LabelLength = 4
       val TestStr = randomString
       val TestClasses = List.fill(LabelLength)(randomString)
-      val PauseTime = 2000
+      //val PauseTime = 2000
 
-      val NewDescription = randomString
-      val NewClasses = List.fill(LabelLength)(randomString)
+      //val NewDescription = randomString
+      //val NewClasses = List.fill(LabelLength)(randomString)
 
+      // first we add a simple dataset
       createDataSet(this)
 
       // next we train the dataset
@@ -547,7 +589,6 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
           // send the request and make sure it executes
           val response = Await.result(client(request))
-          //assert(response.contentType === Some(JsonHeader))
           assert(response.status === Status.Accepted)
           assert(response.contentString.isEmpty)
 
