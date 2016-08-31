@@ -82,6 +82,9 @@ object DatasetRestAPI extends RestAPI {
     (file: Option[Multipart.FileUpload],
      desc: Option[String],
      typeMap: Option[String]) =>
+
+      logger.debug(s"Creating dataset file=$file, desc=$desc, typeMap=$typeMap")
+
       file match {
         case Some(OnDiskFileUpload(buffer, contentType, fileName, _)) =>
           val req = DataSetRequest(
@@ -108,6 +111,8 @@ object DatasetRestAPI extends RestAPI {
    */
   val datasetGet: Endpoint[DataSet] = get(APIVersion :: "dataset" :: int :: paramOption("samples")) {
     (id: Int, samples: Option[String]) =>
+
+      logger.debug(s"Get dataset id=$id, samples=$samples")
 
       val dataset = for {
         sc <- Try(samples.map(_.toInt))
@@ -144,6 +149,8 @@ object DatasetRestAPI extends RestAPI {
   val datasetPatch: Endpoint[DataSet] = post(APIVersion :: "dataset" :: int :: datasetPatchOptions) {
 
     (id: Int, desc: Option[String], typeMap: Option[String], contentType: String) =>
+
+      logger.debug(s"Patching dataset id=$id, desc=$desc, typeMap=$typeMap")
 
       if (!contentType.contains("x-www-form-urlencoded")) {
 

@@ -23,7 +23,7 @@ import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.matcher.api.DatasetRestAPI._
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
-import au.csiro.data61.matcher.types.{ColumnPrediction, FeaturesConfig, MatcherJsonFormats, ModelTypes}
+import au.csiro.data61.matcher.types._
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 import com.twitter.io.Buf
@@ -183,7 +183,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     * @return Model that was constructed
     */
   def createModel(classes: List[String],
-                  description: Option[String] = None)(implicit s: TestServer): Try[Model] = {
+                  description: Option[String] = None,
+                  labelDataMap: Option[Map[String, String]] = None)(implicit s: TestServer): Try[Model] = {
 
     Try {
 
@@ -195,7 +196,12 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           ("costMatrix" -> defaultCostMatrix) ~
           ("resamplingStrategy" -> "ResampleToMean")
 
-      val req = postRequest(json)
+      // add the labelData if available...
+      val labelJson = labelDataMap.map { m =>
+        json ~ ("labelData" -> m)
+      }.getOrElse(json)
+
+      val req = postRequest(labelJson)
 
       val response = Await.result(s.client(req))
 
@@ -208,11 +214,13 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     * in the DataSet test spec.
     *
     * @param server The server object
+    * @return List of column IDs...
     */
-  def createDataSet(server: TestServer): Unit = {
+  def createDataSet(server: TestServer): DataSet = {
     // first we add a dataset...
     DataSet.createDataset(server, defaultDataSet, TypeMap, "homeseekers") match {
-      case Success(_) =>
+      case Success(ds) =>
+        ds
       case _ =>
         throw new Exception("Failed to create dataset")
     }
@@ -303,6 +311,46 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 //      assertClose()
 //    }
 //  })
+
+  //  test("POST /v1.0/model columns create ref dataset") (new TestServer {
+  //    try {
+  //
+  //      val LabelLength = 4
+  //      val TestClasses = List.fill(LabelLength)(randomString)
+  //
+  //      val json =
+  //        ("classes" -> TestClasses) ~
+  //          ("features" -> defaultFeatures)
+  //
+  //      not implemented!!!!!!!
+  //
+  //      val request = postRequest(json)
+  //
+  //      val response = Await.result(client(request))
+  //
+  //      assert(response.contentType === Some(JsonHeader))
+  //      assert(response.status === Status.Ok)
+  //      assert(!response.contentString.isEmpty)
+  //      val model = parse(response.contentString).extract[Model]
+  //
+  //      assert(model.classes === TestClasses)
+  //      assert(model.features === FeaturesConfig(
+  //        activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals"),
+  //        activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"),
+  //        featureExtractorParams = Map(
+  //          "prop-instances-per-class-in-knearestneighbours" -> Map(
+  //            "name" -> "prop-instances-per-class-in-knearestneighbours",
+  //            "num-neighbours" -> "5")
+  //        )))
+  //
+  //    } finally {
+  //      deleteAllModels()
+  //      assertClose()
+  //    }
+  //  })
+
+
+
 //
 //  test("POST /v1.0/model fails if classes not present BadRequest(400)") (new TestServer {
 //    try {
@@ -566,21 +614,25 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val LabelLength = 4
       val TestStr = randomString
       val TestClasses = List.fill(LabelLength)(randomString)
-      //val PauseTime = 2000
-
-      //val NewDescription = randomString
-      //val NewClasses = List.fill(LabelLength)(randomString)
+      val PauseTime = 2000
 
       // first we add a simple dataset
-      createDataSet(this)
+      val ds = createDataSet(this)
+
+      // next grab the columns
+      val cols = ds.columns.map(_.id.toString)
+
+      // now we create the colId -> labelMap
+      val labelMap = defaultLabels.map { case (i, v) =>
+        cols(i) -> v
+      }
 
       // next we train the dataset
-      createModel(TestClasses, Some(TestStr)) match {
+      createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
 
         case Success(model) =>
-
           // wait for the clock to tick for the dateModified
-          //Thread.sleep(PauseTime)
+          Thread.sleep(PauseTime)
 
           val request = RequestBuilder()
             .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))

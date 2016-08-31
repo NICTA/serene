@@ -52,6 +52,8 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
   }
 
   def add(id: Key, value: Value): Option[Key] = {
+    logger.debug(s"Adding $id to storage")
+
     Try {
       synchronized {
         writeToFile(value)

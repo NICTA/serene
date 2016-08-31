@@ -21,14 +21,14 @@ import java.io._
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.matcher.api.{InternalException, NotFoundException}
+import au.csiro.data61.matcher.api.NotFoundException
 import au.csiro.data61.matcher.types.DataSetTypes.DataSetID
 import au.csiro.data61.matcher.{Config, ModelTrainerPaths}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID, Status, TrainState}
 import com.github.tototoshi.csv.CSVWriter
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 import org.apache.commons.io.{FileUtils, FilenameUtils}
-import org.joda.time.{DateTime, DateTimeComparator}
+import org.joda.time.DateTime
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
@@ -118,6 +118,8 @@ object ModelStorage extends Storage[ModelID, Model] {
     */
   def convertLabelData(value : Model) : List[List[String]] = {
 
+    logger.debug("converting labelled data to schema matcher format")
+
     // header for the file
     val header = List("attr_id", "class")
 
@@ -125,17 +127,21 @@ object ModelStorage extends Storage[ModelID, Model] {
     val body = value.labelData
       .map { case (id, label) =>
 
-        (for {
-          dataSet <- DatasetStorage.get(id)
-          col <- DatasetStorage.columnMap.get(id) // lookup column in columnMap
-          dsPath = dataSet.path.getFileName
+        // lookup column in columnMap and extract the data from there...
+        val labelList = for {
+          col <- DatasetStorage.columnMap.get(id)
+          dsPath = col.path.getFileName
           dsName = s"$dsPath/${col.name}"
-        } yield List(dsName, label)) getOrElse {
+        } yield List(dsName, label)
+
+        labelList getOrElse {
 
           logger.warn(s"Failed to get labels for id=$id label=$label")
           List.empty[String]
         }
       }.toList
+
+    logger.debug(body.mkString("\n"))
 
     header :: body
   }
@@ -240,6 +246,8 @@ object ModelStorage extends Storage[ModelID, Model] {
     */
   override protected def writeToFile(model: Model): Unit = {
 
+    logger.debug(s"Writing model ${model.id} to file.")
+
     // write model json
     super.writeToFile(model)
 
@@ -254,13 +262,18 @@ object ModelStorage extends Storage[ModelID, Model] {
       wsDir.mkdirs
     }
 
-    (for {
+    // extract amd write
+    val writeStatus = for {
       cm <- writeCostMatrix(wsDirStr, model)
       fc <- writeFeaturesConfig (wsDirStr, model)
       labels <- writeLabels (wsDirStr, model)
-    } yield (cm, fc, labels)) match {
+    } yield (cm, fc, labels)
+
+    writeStatus match {
       case Success(_) =>
+        logger.info(s"Model ${model.id} written successfully to workspace.")
       case Failure(err) =>
+        logger.error(s"Failed to write model ${model.id} to workspace.")
         throw new Exception(err.getMessage)
     }
 
@@ -385,9 +398,9 @@ object ModelStorage extends Storage[ModelID, Model] {
       .map(cm =>
         ModelTrainerPaths(curModel = cm,
           workspacePath = wsDir,
-          featuresConfigPath = Paths.get(wsDir, "features_config.json").toString,
-          costMatrixConfigPath = Paths.get(wsDir, s"cost_matrix_config.json").toString,
-          labelsDirPath = Paths.get(wsDir, s"labels").toString))
+          featuresConfigPath = Paths.get(wsDir, DefaultFilenames.FeaturesConfig).toString,
+          costMatrixConfigPath = Paths.get(wsDir, DefaultFilenames.CostMatrix).toString,
+          labelsDirPath = Paths.get(wsDir, DefaultFilenames.LabelOutDir).toString))
   }
 
   /**

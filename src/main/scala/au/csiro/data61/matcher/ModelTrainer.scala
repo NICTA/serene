@@ -118,32 +118,32 @@ object ModelTrainer extends LazyLogging {
     ModelStorage.identifyPaths(id)
       .map(cts  => {
 
-        println("1: ok")
-
         if (!Files.exists(Paths.get(cts.workspacePath))) {
           val msg = s"Workspace directory for the model $id does not exist."
           logger.error(msg)
           throw NotFoundException(msg)
         }
 
-        println("2: ok")
+        logger.debug("Attempting to create training object..")
 
-        DataintTrainModel(
+        val dataTrainModel = DataintTrainModel(
           classes = cts.curModel.classes,
           trainingSet = readTrainingData,
           labels = readLabeledData(cts),
           trainSettings = readSettings(cts),
           postProcessingConfig = None)
+
+        logger.debug(s"Created data training model: $dataTrainModel")
+
+        dataTrainModel
       })
       .map(dt => {
 
-
-        println("3: ok")
+        logger.warn("train: 3")
 
         val trainer = TrainMlibSemanticTypeClassifier(dt.classes, doCrossValidation = false)
 
-
-        println("4: ok")
+        logger.warn("train: 4")
 
         val randomForestSchemaMatcher = trainer.train(
           dt.trainingSet,
@@ -151,8 +151,7 @@ object ModelTrainer extends LazyLogging {
           dt.trainSettings,
           dt.postProcessingConfig)
 
-
-        println("5: ok")
+        logger.warn("train: 5")
 
         SerializableMLibClassifier(
           randomForestSchemaMatcher.model,
