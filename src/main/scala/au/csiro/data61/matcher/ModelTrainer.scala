@@ -69,6 +69,9 @@ object ModelTrainer extends LazyLogging {
     * Returns a list of DataModel instances at path
     */
   def getDataModels(path: String): List[DataModel] = {
+
+    logger.debug(s"getDataModels called for path: $path")
+
     DatasetStorage
       .getCSVResources
       .map{CSVHierarchicalDataLoader().readDataSet(_, "")}
@@ -79,18 +82,14 @@ object ModelTrainer extends LazyLogging {
     */
   def readTrainingData: DataModel = {
 
-    println("readTrainingData 1: ok", DatasetStorage.getCSVResources)
+    logger.debug(s"Reading training data")
 
     val datasets = getDataModels(datasetDir)
-
-    println("readTrainingData 2: ok", datasets)
 
     if (datasets.isEmpty) { // training dataset has to be non-empty
       logger.error("No csv training datasets have been found.")
       throw NotFoundException("No csv training datasets have been found.")
     }
-
-    println("readTrainingData 3: ok")
 
     new DataModel("", None, None, Some(datasets))
   }
@@ -99,6 +98,8 @@ object ModelTrainer extends LazyLogging {
     * Reads in labeled data
     */
   def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels ={
+
+    logger.debug(s"Reading label data from $trainerPaths")
 
     val labelsLoader = SemanticTypeLabelsLoader()
     val stl = labelsLoader.load(trainerPaths.labelsDirPath)
@@ -114,6 +115,8 @@ object ModelTrainer extends LazyLogging {
     * Performs training for the model and returns serialized object for the learnt model
     */
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
+
+    logger.debug(s"train called for model $id")
 
     ModelStorage.identifyPaths(id)
       .map(cts  => {
@@ -139,19 +142,13 @@ object ModelTrainer extends LazyLogging {
       })
       .map(dt => {
 
-        logger.warn("train: 3")
-
         val trainer = TrainMlibSemanticTypeClassifier(dt.classes, doCrossValidation = false)
-
-        logger.warn("train: 4")
 
         val randomForestSchemaMatcher = trainer.train(
           dt.trainingSet,
           dt.labels,
           dt.trainSettings,
           dt.postProcessingConfig)
-
-        logger.warn("train: 5")
 
         SerializableMLibClassifier(
           randomForestSchemaMatcher.model,

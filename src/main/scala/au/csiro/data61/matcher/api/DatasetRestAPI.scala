@@ -53,15 +53,6 @@ object DatasetRestAPI extends RestAPI {
   }
 
   /**
-    * Updates cache for datasets
-    *
-    * curl http://localhost:8080/v1.0/dataset/cache
-    */
-//  val cacheUpdate: Endpoint[List[DataSetID]] = get(APIVersion :: "dataset" :: "cache") {
-//    Ok(MatcherInterface.updateDatasetKeys)
-//  }
-
-  /**
    * Adds a new dataset with a description and a user-specified logical typemap.
    * File is required, the others are optional.
    *
@@ -205,8 +196,7 @@ object DatasetRestAPI extends RestAPI {
     datasetCreate :+:
     datasetGet :+:
     datasetPatch :+:
-    datasetDelete //:+:
-    //cacheUpdate
+    datasetDelete
 }
 
 /**

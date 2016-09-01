@@ -80,15 +80,6 @@ object ModelRestAPI extends RestAPI {
   }
 
   /**
-    * Updates cache for models
-    *
-    * curl http://localhost:8080/v1.0/model/cache
-    */
-//  val cacheUpdate: Endpoint[List[ModelID]] = get(APIVersion :: "model" :: "cache") {
-//    Ok(MatcherInterface.updateModelKeys)
-//  }
-
-  /**
    * Adds a new model as specified by the json body.
    *
    * {
@@ -316,8 +307,7 @@ object ModelRestAPI extends RestAPI {
       modelPatch :+:
       modelDelete :+:
       modelPredict :+:
-      getPrediction //:+:
-//      cacheUpdate
+      getPrediction
 }
 
 

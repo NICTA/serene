@@ -52,32 +52,51 @@ object MatcherInterface extends LazyLogging {
 
   val DefaultSampleSize = 15
 
+  val BlankRequest = ModelRequest(
+    description = None,
+    modelType = None,
+    classes = None,
+    features = None,
+    costMatrix = None,
+    labelData = None,
+    resamplingStrategy= None
+  )
+
   /**
     * Parses a model request to construct a model object...
     * then adds to the database, and returns the case class response
     * object.
     *
+    * @param key ID for the model
     * @param request POST request with model information
     * @return Case class object for JSON conversion
+    *
+    * TODO: check that provided mappings for columns in labelData are found among classes
+    * TODO: should we add 'unknown' class if it's not in the list?
     */
-  def createModel(request: ModelRequest): Model = {
+  private def buildModel(key: Int, request: ModelRequest): Model = {
 
-    val id = genID
+    val previous = ModelStorage.get(key)
 
     // build the model from the request, adding defaults where necessary
     val modelOpt = for {
         colMap <- Some(DatasetStorage.columnMap)
-        userData <- Some(
-          request.labelData.getOrElse(Map.empty[ColumnID, String])
-        )
+
+        userData <- Some(request.labelData.getOrElse(Map.empty[ColumnID, String]))
+
+        // keysIn contain those keys from userData which should be kept and written to the model file
         (keysIn, keysOut) <- Option {
           userData.keySet.partition(colMap.keySet.contains)
-        }// keysIn contain those keys from userData which should be kept and written to the model file
-        // TODO: check that provided mappings for columns in userData are found among labels
-        // TODO: should we add 'unknown' class if it's not in the list?
+        }
+
+        // if the previous one exists use the old date, otherwise reset...
+        trainDate = previous.map(_.state.dateCreated).getOrElse(DateTime.now)
+        createDate = previous.map(_.dateCreated).getOrElse(DateTime.now)
+
+        // build up the model request, and use defaults if not present...
         model <- Try {
           Model(
-            id = id,
+            id = key,
             description = request.description.getOrElse(MissingValue),
             modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
             classes = request.classes.getOrElse(List()),
@@ -86,20 +105,23 @@ object MatcherInterface extends LazyLogging {
             resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
             labelData = userData.filterKeys(keysIn),
             refDataSets = colMap.filterKeys(keysIn).values.map(_.datasetID).toSet.toList, //the keys for some datasets are repeated; let's convert to a Set!
-            state = TrainState(Status.UNTRAINED, "", DateTime.now, DateTime.now),
-            dateCreated = DateTime.now,
+            state = TrainState(Status.UNTRAINED, "", trainDate, DateTime.now),
+            dateCreated = createDate,
             dateModified = DateTime.now)
-        } toOption
-
-        _ <- ModelStorage.add(id, model)
+        }.toOption
+        _ <- ModelStorage.add(key, model)
 
       } yield {
-      if (keysOut.nonEmpty) {
-        logger.warn(s"Following column keys do not exist: ${keysOut.mkString(",")}")
+        if (keysOut.nonEmpty) {
+          logger.warn(s"Following column keys do not exist: ${keysOut.mkString(",")}")
+        }
+        model
       }
-      model
-    }
     modelOpt getOrElse { throw InternalException("Failed to create resource.") }
+  }
+
+  def createModel(request: ModelRequest): Model = {
+    buildModel(genID, request)
   }
 
   /**
@@ -138,9 +160,10 @@ object MatcherInterface extends LazyLogging {
         case Status.COMPLETE | Status.UNTRAINED | Status.ERROR => {
           // in the background we launch the training...
           logger.info("Launching training.....")
-          launchTraining(id)
           // first we set the model state to training....
-          ModelStorage.updateTrainState(id, Status.BUSY)
+          val s = ModelStorage.updateTrainState(id, Status.BUSY)
+          launchTraining(id)
+          s
         }
       }
     }
@@ -265,27 +288,23 @@ object MatcherInterface extends LazyLogging {
    */
   def updateModel(id: ModelID, request: ModelRequest): Model = {
 
-    // build the model from the request, adding defaults where necessary
+    logger.info(s"Updating model $id with $request")
+
     val modelOpt = for {
       m <- ModelStorage.get(id)
       model <- Try {
-        m.copy(
-          description = request.description.getOrElse(m.description),
-          modelType = request.modelType.getOrElse(m.modelType),
-          classes = request.classes.getOrElse(m.classes),
-          features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
-          costMatrix = request.costMatrix.getOrElse(m.costMatrix),
-          resamplingStrategy = request.resamplingStrategy.getOrElse(m.resamplingStrategy),
-          labelData = request.labelData.getOrElse(m.labelData),
-          state = TrainState(status = Status.UNTRAINED // we need to ensure that the training state is set to untrained if the model is updated
-            , message = m.state.message
-            , dateCreated = m.state.dateCreated
-            , dateModified = DateTime.now),
-          dateModified = DateTime.now)
+        request.copy(
+          description = Some(request.description.getOrElse(m.description)),
+          modelType = Some(request.modelType.getOrElse(m.modelType)),
+          classes = Some(request.classes.getOrElse(m.classes)),
+          features = Some(request.features.getOrElse(m.features)),
+          costMatrix = Some(request.costMatrix.getOrElse(m.costMatrix)),
+          labelData = Some(request.labelData.getOrElse(m.labelData)),
+          resamplingStrategy = Some(request.resamplingStrategy.getOrElse(m.resamplingStrategy))
+        )
       }.toOption
-    // file with the learnt model gets deleted only if status is not complete!
-      _ <- ModelStorage.update(id, model)
-    } yield model
+      c <- Some(buildModel(id, model))
+    } yield c
 
     modelOpt getOrElse { throw InternalException("Failed to update resource.") }
   }
@@ -415,7 +434,26 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def deleteDataset(key: DataSetID): Option[DataSetID] = {
-    DatasetStorage.remove(key)
+
+    for {
+      ds <- DatasetStorage.get(key)
+      badColumns = ds.columns.map(_.id)
+      // now we need to make sure the model doesn't refer to this
+      // either. The columns must also be removed from the model.
+      updatedModels = ModelStorage.listValues
+        .filter(_.refDataSets.contains(key))
+        .map { case model =>
+
+          val newLabels = model.labelData.filterKeys(!badColumns.contains(_))
+
+          updateModel(
+            model.id,
+            BlankRequest.copy(labelData = Some(newLabels))
+          )
+        }
+      id <- DatasetStorage.remove(key)
+    } yield id
+
   }
 
   /**
