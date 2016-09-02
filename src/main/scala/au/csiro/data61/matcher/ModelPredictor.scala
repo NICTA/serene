@@ -23,14 +23,12 @@ import java.nio.file.Paths
 import au.csiro.data61.matcher.api.{InternalException, NotFoundException}
 import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
 import au.csiro.data61.matcher.types.ColumnPrediction
-import au.csiro.data61.matcher.types.ColumnTypes._
 import au.csiro.data61.matcher.types.DataSetTypes.DataSetID
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import com.nicta.dataint.matcher.MLibSemanticTypeClassifier
 import com.nicta.dataint.matcher.train.TrainAliases.PredictionObject
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FilenameUtils
-import org.joda.time
 
 import scala.io.Source
 import scala.util.{Failure, Success, Try}
@@ -52,7 +50,7 @@ object ModelPredictor extends LazyLogging {
     * @param filePath string which indicates file location
     * @return Serialized Mlib classifier wrapped in Option
     */
-  def readLearntModelFile(filePath: String) : Option[SerializableMLibClassifier] = {
+  def readLearnedModelFile(filePath: String) : Option[SerializableMLibClassifier] = {
     (for {
       learnt <- Try( new ObjectInputStream(new FileInputStream(filePath)))
         .orElse(Failure( new IOException("Error opening model file.")))
@@ -64,36 +62,66 @@ object ModelPredictor extends LazyLogging {
     }
   }
 
-
   /**
     * Performs prediction for the model and returns predictions for all datasets in the repository
     *
     * @param id id of the model
     * @return Serialized Mlib classifier wrapped in Option
     */
-  def predict(id: ModelID, datasetID: Option[DataSetID] = None): List[Option[PredictionObject]] = {
-    // read in the learnt model
-    val serialMod = readLearntModelFile(ModelStorage.modelPath(id).toString)
-      .getOrElse(throw InternalException(s"Failed to read the learnt model for $id"))
+  def predict(id: ModelID, datasetID: DataSetID): List[ColumnPrediction] = {
 
-    datasetID match {
-      case Some(dsID) =>
-        logger.info(s"Prediction for the dataset $dsID.")
+    logger.info(s"Prediction for the dataset $datasetID.")
 
-        // if datasetID does not exist or it is not csv, then nothing will be done
-        List(DatasetStorage.get(dsID)
-          .map(_.path.toString)
-          .filter(_.endsWith("csv"))
-          .flatMap(predictDataset(id, _, serialMod, dsID)))
+    if (ModelStorage.predictionCache(id).contains(datasetID)) {
+      getCachedPrediction(id, datasetID)
+    } else {
+      // read in the learned model
+      val serialMod = readLearnedModelFile(ModelStorage.modelPath(id).toString)
+        .getOrElse(throw InternalException(s"Failed to read the learned model for $id"))
 
-      case None =>
-        logger.info(s"Performing prediction for all datasets in the repository.")
-        val preds = DatasetStorage
-          .keys // get all dataset keys from the repo
-          .flatMap(dsID => predict(id, Some(dsID))) // predict each dataset
-        preds
+      // if datasetID does not exist or it is not csv, then nothing will be done
+      DatasetStorage
+        .get(datasetID)
+        .map(_.path.toString)
+        .filter(_.endsWith("csv"))
+        .flatMap(runPrediction(id, _, serialMod, datasetID))
+        .getOrElse { throw InternalException("Failed to predict model") }
     }
   }
+
+  /**
+    * Get predictions for the list of datasets if available.
+    *
+    * @param id id of the model
+    * @param datasetID  list of ids of the datasets
+    * @return List of ColumnPrediction
+    */
+  def getCachedPrediction(id: ModelID, datasetID: DataSetID): List[ColumnPrediction] = {
+
+    logger.info(s"Attempting to read predictions for dataset: $datasetID")
+
+    // directory where prediction files are stored for this model
+    val predPath = ModelStorage.predictionsPath(id)
+
+    // get number of classes for this model
+    val numClasses = ModelStorage.get(id)
+      .map(_.classes.size)
+      .getOrElse(throw NotFoundException(s"Model $id not found."))
+
+    // read in predictions for columns which are available in the prediction directory
+    logger.info(s"Predictions are available for datasets: ${ModelStorage.predictionCache(id)}")
+
+//    ModelStorage
+//      .predictionCache(id)
+//      //.filter(datasetID.contains) // if columns from datasetIDs are not available, an empty list will be returned
+//      .map(dsID => Paths.get(predPath.toString, s"$dsID.csv").toString)
+//      .flatMap {
+//        readPredictions(_, numClasses, id)
+//      }
+    // add some logging if dataset ids are not found???
+    readPredictions(Paths.get(predPath.toString, s"$datasetID.csv").toString, numClasses, id)
+  }
+
 /**
   * isValid checks to see if the model file is valid and up-to-date
   *
@@ -119,24 +147,24 @@ object ModelPredictor extends LazyLogging {
     * @param datasetID id of the dataset
     * @return PredictionObject wrapped in Option
     */
-  def predictDataset(id: ModelID,
-                     dsPath: String,
-                     sModel: SerializableMLibClassifier,
-                     datasetID: DataSetID): Option[PredictionObject] = {
-    // getting the name of the original file
-    val dsName = s"${FilenameUtils.getBaseName(dsPath)}.${FilenameUtils.getExtension(dsPath)}"
+  def runPrediction(id: ModelID,
+                    dsPath: String,
+                    sModel: SerializableMLibClassifier,
+                    datasetID: DataSetID): Option[List[ColumnPrediction]] = {
 
     // name of the derivedFeatureFile
     val writeName = s"$datasetID.csv"
 
     // loading data in the format suitable for data-integration project
-    val dataset = CSVHierarchicalDataLoader().readDataSet(Paths.get(dsPath).getParent.toString, dsName)
+    val dataset = CSVHierarchicalDataLoader().readDataSet(
+      FilenameUtils.getFullPath(dsPath), //Paths.get(dsPath).getParent.toString,
+      FilenameUtils.getName(dsPath)
+    )
 
     // this is the file where predictions will be written
-    val derivedFeatureFile = Paths.get(ModelStorage.getPredictionsPath(id).toString, writeName)
+    val derivedFeatureFile = Paths.get(ModelStorage.predictionsPath(id).toString, writeName)
 
-    val model = ModelStorage
-      .get(id)
+    val model = ModelStorage.get(id)
       .getOrElse(throw NotFoundException(s"Model $id not found."))
 
     val f = derivedFeatureFile.toFile
@@ -156,7 +184,10 @@ object ModelPredictor extends LazyLogging {
 
       Try(randomForestClassifier.predict(List(dataset))) match {
         case Success(preds) =>
-          Some(preds)
+          // TODO: convert PredictionObject to ColumnPrediction
+          Try {
+            readPredictions(derivedFeatureFile.toString, sModel.classes.size, id)
+          } toOption
         case Failure(err) =>
           // prediction failed for the dataset
           logger.warn(s"Prediction for the dataset $dsPath failed: $err")
@@ -206,34 +237,5 @@ object ModelPredictor extends LazyLogging {
     }
   }
 
-  /**
-    * Get predictions for the list of datasets if available.
-    *
-    * @param id id of the model
-    * @param datasetIDs  list of ids of the datasets
-    * @return List of ColumnPrediction
-    */
-  def getDatasetPrediction(id: ModelID, datasetIDs: List[DataSetID]): List[ColumnPrediction] = {
-
-    logger.info(s"Attempting to read predictions for datasets: $datasetIDs")
-
-    // directory where prediction files are stored for this model
-    val predPath = ModelStorage.getPredictionsPath(id)
-
-    // get number of classes for this model
-    val numClasses = ModelStorage.get(id).map(_.classes.size).getOrElse(throw NotFoundException(s"Model $id not found."))
-
-    // read in predictions for columns which are available in the prediction directory
-    logger.info(s"Predictions are available for datasets: ${ModelStorage.availablePredictions(id)}")
-
-    ModelStorage
-      .availablePredictions(id)
-      .filter(datasetIDs.contains) // if columns from datasetIDs are not available, an empty list will be returned
-      .map(dsID => Paths.get(predPath.toString, s"$dsID.csv").toString)
-      .flatMap {
-        readPredictions(_, numClasses, id)
-      }
-    // add some logging if dataset ids are not found???
-  }
 
 }

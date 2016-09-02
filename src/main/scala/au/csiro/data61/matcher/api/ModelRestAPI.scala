@@ -164,31 +164,35 @@ object ModelRestAPI extends RestAPI {
     * Note: if a dataset with the provided id does not exist, nothing is done.
     */
   // auxiliary endpoint for the optional datasetID parameter
-  val dsParam: Endpoint[Option[Int]] = paramOption("datasetID").as[Int]
+  //val dsParam: Endpoint[Option[Int]] = paramOption("datasetID").as[Int]
 
-  val modelPredict: Endpoint[Unit] = post(APIVersion :: "model" :: int :: "predict" :: dsParam) {
-    (id: Int, datasetID: Option[Int]) =>
-      val state = Try(MatcherInterface.predictModel(id, datasetID))
-      state match {
-        case Success(true) =>
-          Accepted[Unit]
-        case Success(false) =>
-          NotFound(NotFoundException(s"Model $id has not been trained."))
+  val modelPredict: Endpoint[List[ColumnPrediction]] = post(APIVersion :: "model" :: int :: "predict" :: int) {
+    (id: Int, datasetID: Int) =>
+      Try {
+        MatcherInterface.predictModel(id, datasetID)
+      } match {
+        case Success(prediction) =>
+          Ok(prediction)
+        case Failure(err: InternalException) =>
+          InternalServerError(InternalException(err.getMessage))
+        case Failure(err: NotFoundException) =>
+          NotFound(NotFoundException(err.getMessage))
         case Failure(err) =>
           BadRequest(BadRequestException(err.getMessage))
       }
   }
 
-  val getPrediction: Endpoint[List[ColumnPrediction]] = get(APIVersion :: "model" :: int :: "predict" :: dsParam) {
-    (id: Int, datasetID: Option[Int]) =>
-      val colPreds = Try(MatcherInterface.getPrediction(id, datasetID))
-      colPreds match {
-        case Success(preds) =>
-          Ok(preds)
-        case Failure(err) =>
-          BadRequest(BadRequestException(err.getMessage))
-      }
-  }
+
+//  val getPrediction: Endpoint[List[ColumnPrediction]] = get(APIVersion :: "model" :: int :: "predict" :: dsParam) {
+//    (id: Int, datasetID: Option[Int]) =>
+//      val colPreds = Try(MatcherInterface.getPrediction(id, datasetID))
+//      colPreds match {
+//        case Success(preds) =>
+//          Ok(preds)
+//        case Failure(err) =>
+//          BadRequest(BadRequestException(err.getMessage))
+//      }
+//  }
 
   // TODO: model evaluation endpoint
 
@@ -306,8 +310,7 @@ object ModelRestAPI extends RestAPI {
       modelTrain :+:
       modelPatch :+:
       modelDelete :+:
-      modelPredict :+:
-      getPrediction
+      modelPredict
 }
 
 

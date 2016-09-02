@@ -22,7 +22,7 @@ import types.ColumnTypes.ColumnID
 import types.ModelTypes.{Model, ModelID, Status, TrainState}
 import types._
 import DataSetTypes._
-import api.{DataSetRequest, InternalException, ModelRequest, ParseException}
+import au.csiro.data61.matcher.api._
 import java.nio.file.Path
 
 import com.github.tototoshi.csv.CSVReader
@@ -274,20 +274,24 @@ object MatcherInterface extends LazyLogging {
     * @param datasetID Optional id of the dataset
     * @return
     */
-  def predictModel(id: ModelID, datasetID : Option[DataSetID] = None): Boolean = {
+  def predictModel(id: ModelID, datasetID : DataSetID): List[ColumnPrediction] = {
     if (ModelStorage.isConsistent(id)) {
       // do prediction
       logger.info(s"Launching prediction for model $id...")
-      // crude concurrency
-      launchPrediction(id, datasetID)
-      // first we set the model state to busy, learnt model should not be deleted
-      ModelStorage.updateTrainState(id, Status.BUSY, deleteRF = false, changeDate = false)
-      true // prediction has been started
-    }
-    else {
+
+      ModelPredictor.predict(id, datasetID)
+
+      //// crude concurrency
+      //launchPrediction(id, datasetID)
+      //// first we set the model state to busy, learnt model should not be deleted
+      //ModelStorage.updateTrainState(id, Status.BUSY, deleteRF = false, changeDate = false)
+      //true // prediction has been started
+      //Some(ModelPredictor.getDatasetPrediction(id, datasetID))
+    } else {
+      val msg = s"Prediction failed. Model $id is not trained."
       // prediction is impossible since the model has not been trained properly
-      logger.warn(s"Prediction is not possible for model $id since it's not trained.")
-      false
+      logger.warn(msg)
+      throw BadRequestException(msg)
     }
   }
 
@@ -298,22 +302,22 @@ object MatcherInterface extends LazyLogging {
     * @param id Model key for the model to be used for prediction
     * @param datasetID Optional id of the dataset
     */
-  private def launchPrediction(id: ModelID, datasetID : Option[DataSetID] = None)(implicit ec: ExecutionContext): Unit = {
-    Future {
-      // proceed with prediction...
-      ModelPredictor.predict(id, datasetID)
-
-    } onComplete {
-      case Success(_) =>
-        // we do not delete model.rf file and do not change dateModified, but we change the status
-        ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false, changeDate = false)
-      case Failure(err) =>
-        // we do not delete model.rf file and do not change dateModified, but we change the status
-        val msg = s"Failed to perform prediction: ${err.getMessage}"
-        logger.error(msg)
-        ModelStorage.updateTrainState(id, Status.COMPLETE, msg, deleteRF = false, changeDate = false)
-    }
-  }
+//  private def launchPrediction(id: ModelID, datasetID : Option[DataSetID] = None)(implicit ec: ExecutionContext): Unit = {
+//    Future {
+//      // proceed with prediction...
+//      ModelPredictor.predict(id, datasetID)
+//
+//    } onComplete {
+//      case Success(_) =>
+//        // we do not delete model.rf file and do not change dateModified, but we change the status
+//        ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false, changeDate = false)
+//      case Failure(err) =>
+//        // we do not delete model.rf file and do not change dateModified, but we change the status
+//        val msg = s"Failed to perform prediction: ${err.getMessage}"
+//        logger.error(msg)
+//        ModelStorage.updateTrainState(id, Status.COMPLETE, msg, deleteRF = false, changeDate = false)
+//    }
+//  }
 
   /**
     * Obtain predicted classes and derived features for the datasets in the repository
@@ -326,19 +330,22 @@ object MatcherInterface extends LazyLogging {
     * @return List of predicted classes with corresponding confidence measures and derived features
     *         per each column in the dataset repository (provided predictions are available).
     */
-  def getPrediction(id: ModelID, datasetID: Option[DataSetID]) : List[ColumnPrediction] = {
-
-    datasetID match {
-
-      case Some(dsID) =>
-        logger.info(s"Getting predicitons for the dataset $dsID.")
-        ModelPredictor.getDatasetPrediction(id, List(dsID))
-
-      case None =>
-        logger.info(s"Getting predicitons for all available datasets.")
-        ModelPredictor.getDatasetPrediction(id, DatasetStorage.keys)
-    }
-  }
+//  def getPrediction(id: ModelID, datasetID: DataSetID) : List[ColumnPrediction] = {
+//
+//
+//    ModelPredictor.predict(id, datasetID)
+//    ModelPredictor.getDatasetPrediction(id, List(datasetID))
+////    datasetID match {
+////
+////      case Some(dsID) =>
+////        logger.info(s"Getting predicitons for the dataset $dsID.")
+////        ModelPredictor.getDatasetPrediction(id, List(dsID))
+////
+////      case None =>
+////        logger.info(s"Getting predicitons for all available datasets.")
+////        ModelPredictor.getDatasetPrediction(id, DatasetStorage.keys)
+////    }
+//  }
 
   /**
    * Parses a servlet request to get a dataset object

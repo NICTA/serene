@@ -236,11 +236,11 @@ case class KFold(n: Int)
 /**
   * Column prediction
   */
-case class ColumnPrediction( id: ModelID
-                             , datasetID: DataSetID
-                             , columnID: ColumnID
-                             , label: String
-                             , confidence: Double
-                             , scores: Map[String,Double]
-                             , features: Map[String, Double]
+case class ColumnPrediction(id: ModelID,
+                            datasetID: DataSetID,
+                            columnID: ColumnID,
+                            label: String,
+                            confidence: Double,
+                            scores: Map[String,Double],
+                            features: Map[String, Double]
                            ) extends Identifiable[ModelID]

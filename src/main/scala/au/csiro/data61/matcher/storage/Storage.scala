@@ -41,7 +41,7 @@ import scala.util.{Failure, Success, Try}
  */
 trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with MatcherJsonFormats {
 
-  def rootDir: String
+  protected def rootDir: String
 
   protected def extract(stream: FileInputStream): Value
 

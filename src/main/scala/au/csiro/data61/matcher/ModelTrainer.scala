@@ -43,12 +43,12 @@ case class DataintTrainModel(classes: List[String],
                              trainingSet: DataModel,
                              labels: SemanticTypeLabels,
                              trainSettings: TrainingSettings,
-                             postProcessingConfig: Option[Map[String,Any]])
+                             postProcessingConfig: Option[Map[String, Any]])
 
 object ModelTrainer extends LazyLogging {
 
   val rootDir: String = ModelStorage.rootDir
-  val datasetDir: String = DatasetStorage.rootDir
+  //val datasetDir: String = DatasetStorage.rootDir
 
   /**
     * Return an instance of class TrainingSettings
@@ -68,9 +68,9 @@ object ModelTrainer extends LazyLogging {
   /**
     * Returns a list of DataModel instances at path
     */
-  def getDataModels(path: String): List[DataModel] = {
+  def getDataModels: List[DataModel] = {
 
-    logger.debug(s"getDataModels called for path: $path")
+    //logger.debug(s"getDataModels called for path: $path")
 
     DatasetStorage
       .getCSVResources
@@ -84,7 +84,7 @@ object ModelTrainer extends LazyLogging {
 
     logger.debug(s"Reading training data")
 
-    val datasets = getDataModels(datasetDir)
+    val datasets = getDataModels
 
     if (datasets.isEmpty) { // training dataset has to be non-empty
       logger.error("No csv training datasets have been found.")

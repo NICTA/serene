@@ -63,7 +63,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @return Path to the binary resource
     */
   def modelPath(id: ModelID): Path = {
-    Paths.get(getWSPath(id).toString, s"$id.rf")
+    Paths.get(wsPath(id).toString, s"$id.rf")
   }
 
   /**
@@ -73,7 +73,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @param id The ID for the Value
     * @return
     */
-  protected def getWSPath(id: ModelID): Path = {
+  protected def wsPath(id: ModelID): Path = {
     Paths.get(getDirectoryPath(id).toString, "workspace")
   }
 
@@ -83,8 +83,8 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @param id The ID for the Value
     * @return
     */
-  def getPredictionsPath(id: ModelID): Path = {
-    Paths.get(getWSPath(id).toString, "predictions/")
+  def predictionsPath(id: ModelID): Path = {
+    Paths.get(wsPath(id).toString, "predictions/")
   }
 
   /**
@@ -254,7 +254,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     // write config files according to the data integration project...
 
     // workspace directory
-    val wsDir = getWSPath(model.id).toFile
+    val wsDir = wsPath(model.id).toFile
     val wsDirStr = wsDir.toString
 
     // create workspace directory if it doesn't exist
@@ -392,7 +392,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @return
     */
   def identifyPaths(id: ModelID): Option[ModelTrainerPaths] = {
-    val wsDir = getWSPath(id).toString
+    val wsDir = wsPath(id).toString
     logger.info(s"Identifying paths for the model $id")
     ModelStorage.get(id)
       .map(cm =>
@@ -468,11 +468,11 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @param id Model id
     * @return List of strings which indicate files with calculated predictions.
     */
-  def availablePredictions(id: ModelID): List[DataSetID] = {
+  def predictionCache(id: ModelID): List[DataSetID] = {
 
     val model = ModelStorage.get(id).getOrElse(throw NotFoundException(s"Model $id not found."))
 
-    val predPath = getPredictionsPath(id)
+    val predPath = predictionsPath(id)
 
     Option(new File(predPath.toString) listFiles) match {
       case Some(fileList) =>
