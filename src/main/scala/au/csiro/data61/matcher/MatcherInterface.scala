@@ -63,65 +63,128 @@ object MatcherInterface extends LazyLogging {
   )
 
   /**
-    * Parses a model request to construct a model object...
-    * then adds to the database, and returns the case class response
-    * object.
+    * DataReference object used for passing back information
+    * on how the user's label data corresponds with existing
+    * dataset references.
     *
-    * @param key ID for the model
-    * @param request POST request with model information
-    * @return Case class object for JSON conversion
-    *
-    * TODO: check that provided mappings for columns in labelData are found among classes
-    * TODO: should we add 'unknown' class if it's not in the list?
+    * @param validColumns The valid columnIDs
+    * @param invalidColumns The columnIDs that do not appear in the dataset
+    * @param refDataSets
+    * @param cleanLabels
     */
-  private def buildModel(key: Int, request: ModelRequest): Model = {
+  private case class DataRef(validColumns: Set[Int],
+                             invalidColumns: Set[Int],
+                             refDataSets: Set[Int],
+                             cleanLabels: Map[Int, String])
 
-    val previous = ModelStorage.get(key)
+  /**
+    * Takes the labelData field from the modelRequest and determines
+    * which keys are valid and which datasets are referred to. This
+    * is used for updating and creating Models.
+    *
+    * @param labelData The labels used for creating model requests.
+    * @return
+    */
+  private def validKeys(labelData: Option[Map[Int, String]]) : DataRef = {
+
+    val labelMap = labelData.getOrElse(Map.empty[Int, String])
+
+    val colMap = DatasetStorage.columnMap
+
+    val (keysIn, keysOut) = labelMap.keySet.partition(colMap.keySet.contains)
+
+    DataRef(
+      keysIn,
+      keysOut,
+      colMap.filterKeys(keysIn).values.map(_.datasetID).toSet,
+      labelMap.filterKeys(keysIn)
+    )
+  }
+
+  /**
+    * createModel builds a new Model object from a ModelRequest
+    *
+    * @param request
+    * @return
+    */
+  def createModel(request: ModelRequest): Model = {
+
+    val id = genID
+    val dataRef = validKeys(request.labelData)
 
     // build the model from the request, adding defaults where necessary
     val modelOpt = for {
-        colMap <- Some(DatasetStorage.columnMap)
+      colMap <- Some(DatasetStorage.columnMap)
 
-        userData <- Some(request.labelData.getOrElse(Map.empty[ColumnID, String]))
+      // build up the model request, and use defaults if not present...
+      model <- Try {
+        Model(
+          id = id,
+          description = request.description.getOrElse(MissingValue),
+          modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
+          classes = request.classes.getOrElse(List()),
+          features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
+          costMatrix = request.costMatrix.getOrElse(List()),
+          resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
+          labelData = dataRef.cleanLabels,
+          refDataSets = dataRef.refDataSets.toList,
+          state = TrainState(Status.UNTRAINED, "", DateTime.now, DateTime.now),
+          dateCreated = DateTime.now,
+          dateModified = DateTime.now)
+      }.toOption
+      _ <- ModelStorage.add(id, model)
 
-        // keysIn contain those keys from userData which should be kept and written to the model file
-        (keysIn, keysOut) <- Option {
-          userData.keySet.partition(colMap.keySet.contains)
-        }
-
-        // if the previous one exists use the old date, otherwise reset...
-        trainDate = previous.map(_.state.dateCreated).getOrElse(DateTime.now)
-        createDate = previous.map(_.dateCreated).getOrElse(DateTime.now)
-
-        // build up the model request, and use defaults if not present...
-        model <- Try {
-          Model(
-            id = key,
-            description = request.description.getOrElse(MissingValue),
-            modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
-            classes = request.classes.getOrElse(List()),
-            features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
-            costMatrix = request.costMatrix.getOrElse(List()),
-            resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
-            labelData = userData.filterKeys(keysIn),
-            refDataSets = colMap.filterKeys(keysIn).values.map(_.datasetID).toSet.toList, //the keys for some datasets are repeated; let's convert to a Set!
-            state = TrainState(Status.UNTRAINED, "", trainDate, DateTime.now),
-            dateCreated = createDate,
-            dateModified = DateTime.now)
-        }.toOption
-        _ <- ModelStorage.add(key, model)
-
-      } yield {
-        if (keysOut.nonEmpty) {
-          logger.warn(s"Following column keys do not exist: ${keysOut.mkString(",")}")
-        }
-        model
+    } yield {
+      if (dataRef.invalidColumns.nonEmpty) {
+        logger.warn(s"Following column keys do not exist: ${dataRef.invalidColumns.mkString(",")}")
       }
+      model
+    }
     modelOpt getOrElse { throw InternalException("Failed to create resource.") }
   }
 
-  def createModel(request: ModelRequest): Model = {
-    buildModel(genID, request)
+
+  /**
+    * Parses a model request to construct a model object
+    * for updating. The index is searched for in the database,
+    * and if update is successful, returns the case class response
+    * object.
+    *
+    * @param request POST request with model information
+    * @return Case class object for JSON conversion
+    */
+  def updateModel(id: ModelID, request: ModelRequest): Model = {
+
+    val labelsUpdated = request.labelData.isDefined
+
+    val modelOpt = for {
+      old <- ModelStorage.get(id)
+      dataRef = validKeys(request.labelData)
+      // build up the model request, and use existing if field is not present...
+      updatedModel <- Try {
+        Model(
+          id = id,
+          description = request.description.getOrElse(old.description),
+          modelType = request.modelType.getOrElse(old.modelType),
+          classes = request.classes.getOrElse(old.classes),
+          features = request.features.getOrElse(old.features),
+          costMatrix = request.costMatrix.getOrElse(old.costMatrix),
+          resamplingStrategy = request.resamplingStrategy.getOrElse(old.resamplingStrategy),
+          labelData = if (labelsUpdated) dataRef.cleanLabels else old.labelData,
+          refDataSets = if (labelsUpdated) dataRef.refDataSets.toList else old.refDataSets,
+          state = TrainState(Status.UNTRAINED, "", old.state.dateCreated, DateTime.now),
+          dateCreated = old.dateCreated,
+          dateModified = DateTime.now)
+      }.toOption
+      _ <- ModelStorage.add(id, updatedModel)
+
+    } yield {
+      if (dataRef.invalidColumns.nonEmpty) {
+        logger.warn(s"Following column keys do not exist: ${dataRef.invalidColumns.mkString(",")}")
+      }
+      updatedModel
+    }
+    modelOpt getOrElse { throw InternalException("Failed to update resource.") }
   }
 
   /**
@@ -278,39 +341,6 @@ object MatcherInterface extends LazyLogging {
   }
 
   /**
-   * Parses a model request to construct a model object
-   * for updating. The index is searched for in the database,
-   * and if update is successful, returns the case class response
-   * object.
-   *
-   * @param request POST request with model information
-   * @return Case class object for JSON conversion
-   */
-  def updateModel(id: ModelID, request: ModelRequest): Model = {
-
-    logger.info(s"Updating model $id with $request")
-
-    val modelOpt = for {
-      m <- ModelStorage.get(id)
-      model <- Try {
-        request.copy(
-          description = Some(request.description.getOrElse(m.description)),
-          modelType = Some(request.modelType.getOrElse(m.modelType)),
-          classes = Some(request.classes.getOrElse(m.classes)),
-          features = Some(request.features.getOrElse(m.features)),
-          costMatrix = Some(request.costMatrix.getOrElse(m.costMatrix)),
-          labelData = Some(request.labelData.getOrElse(m.labelData)),
-          resamplingStrategy = Some(request.resamplingStrategy.getOrElse(m.resamplingStrategy))
-        )
-      }.toOption
-      c <- Some(buildModel(id, model))
-    } yield c
-
-    modelOpt getOrElse { throw InternalException("Failed to update resource.") }
-  }
-
-
-  /**
    * Parses a servlet request to get a dataset object
    * then adds to the database, and returns the case class response
    * object.
@@ -351,19 +381,9 @@ object MatcherInterface extends LazyLogging {
     DatasetStorage.keys
   }
 
-//  def updateDatasetKeys: List[DataSetID] = {
-//    DatasetStorage.updateCache
-//    DatasetStorage.keys
-//  }
-
   def modelKeys: List[ModelID] = {
     ModelStorage.keys
   }
-
-//  def updateModelKeys: List[ModelID] = {
-//    ModelStorage.updateCache
-//    ModelStorage.keys
-//  }
 
   /**
    * Returns the public facing dataset from the storage layer

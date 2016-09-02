@@ -311,6 +311,40 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   }
 
+  /**
+    * This helper function will start the training...
+    * @param server
+    * @return
+    */
+  def trainDefault()(implicit server: TestServer): Model = {
+    val TestStr = randomString
+
+    // first we add a simple dataset
+    val ds = createDataSet(server)
+    val labelMap = createLabelMap(ds)
+
+    // next we train the dataset
+    createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
+
+      case Success(model) =>
+
+        val request = RequestBuilder()
+          .url(server.fullUrl(s"/$APIVersion/model/${model.id}/train"))
+          .addHeader("Content-Type", "application/json")
+          .buildPost(Buf.Utf8(""))
+
+        // send the request and make sure it executes
+        val response = Await.result(server.client(request))
+
+        assert(response.status === Status.Accepted)
+        assert(response.contentString.isEmpty)
+
+        model
+      case Failure(err) =>
+        throw new Exception("Failed to create test resource")
+    }
+  }
+
   //=========================Tests==============================================
 
   test("version number is 1.0") {
@@ -702,39 +736,16 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   test("POST /v1.0/model/:id/train accepts request and completes successfully") (new TestServer {
     try {
-      val TestStr = randomString
       val PollTime = 1000
       val PollIterations = 10
 
-      // first we add a simple dataset
-      val ds = createDataSet(this)
+      val model = trainDefault
+      val trained = pollModelState(model, PollIterations, PollTime)
 
-      val labelMap = createLabelMap(ds)
+      val state = concurrent.Await.result(trained, 15 seconds)
 
-      // next we train the dataset
-      createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
+      assert(state === ModelTypes.Status.COMPLETE)
 
-        case Success(model) =>
-
-          val request = RequestBuilder()
-            .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))
-            .addHeader("Content-Type", "application/json")
-            .buildPost(Buf.Utf8(""))
-
-          // send the request and make sure it executes
-          val response = Await.result(client(request))
-
-          val trained = pollModelState(model, PollIterations, PollTime)
-
-          val state = concurrent.Await.result(trained, 15 seconds)
-
-          assert(response.status === Status.Accepted)
-          assert(response.contentString.isEmpty)
-          assert(state === ModelTypes.Status.COMPLETE)
-
-        case Failure(err) =>
-          throw new Exception("Failed to create test resource")
-      }
     } finally {
       deleteAllModels()
       DataSet.deleteAllDataSets()
@@ -779,44 +790,106 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-
   test("POST /v1.0/model/:id/train should immediately return busy") (new TestServer {
     try {
-      val TestStr = randomString
       val PollTime = 1000
       val PollIterations = 10
 
-      // first we add a simple dataset
-      val ds = createDataSet(this)
-      val labelMap = createLabelMap(ds)
+      val model = trainDefault
 
-      // next we train the dataset
-      createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
+      val busyResponse = get(s"/$APIVersion/model/${model.id}")
+      val busyModel = parse(busyResponse.contentString).extract[Model]
+      assert(busyModel.state.status === ModelTypes.Status.BUSY)
 
-        case Success(model) =>
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
 
-          val request = RequestBuilder()
-            .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))
-            .addHeader("Content-Type", "application/json")
-            .buildPost(Buf.Utf8(""))
+      assert(state === ModelTypes.Status.COMPLETE)
 
-          // send the request and make sure it executes
-          val response = Await.result(client(request))
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
 
-          val busyResponse = get(s"/$APIVersion/model/${model.id}")
-          val busyModel = parse(busyResponse.contentString).extract[Model]
-          assert(busyModel.state.status === ModelTypes.Status.BUSY)
+  test("POST /v1.0/model/:id/train once trained should return cached value immediately") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 10
 
-          // now just make sure it completes...
-          val trained = pollModelState(model, PollIterations, PollTime)
-          val state = concurrent.Await.result(trained, 15 seconds)
-          assert(response.status === Status.Accepted)
-          assert(response.contentString.isEmpty)
-          assert(state === ModelTypes.Status.COMPLETE)
+      val model = trainDefault
 
-        case Failure(err) =>
-          throw new Exception("Failed to create test resource")
-      }
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+      // training complete, now check to see that another train
+      // uses cached value
+      val secondRequest = RequestBuilder()
+        .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(""))
+
+      // send the request and make sure it executes
+      val secondResponse = Await.result(client(secondRequest))
+      assert(secondResponse.status === Status.Accepted)
+      assert(secondResponse.contentString.isEmpty)
+
+      // now query the model with no delay and make sure it is complete...
+      val completeResponse = get(s"/$APIVersion/model/${model.id}")
+      val completeModel = parse(completeResponse.contentString).extract[Model]
+      assert(completeModel.state.status === ModelTypes.Status.COMPLETE)
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/train once trained should return busy if model is changed") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 10
+
+      val model = trainDefault
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+      // now update the model...
+      val json = "description" -> "new change"
+      val request = postRequest(json, s"/$APIVersion/model/${model.id}")
+      Await.result(client(request)) // wait for the files to be overwritten
+
+      // now launch another training event...
+      val secondRequest = RequestBuilder()
+        .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(""))
+
+      // send the request and make sure it executes
+      val secondResponse = Await.result(client(secondRequest))
+      assert(secondResponse.status === Status.Accepted)
+      assert(secondResponse.contentString.isEmpty)
+
+      // now query the model with no delay and make sure it is complete...
+      val completeResponse = get(s"/$APIVersion/model/${model.id}")
+      val completeModel = parse(completeResponse.contentString).extract[Model]
+      assert(completeModel.state.status === ModelTypes.Status.BUSY)
+
+      // now just make sure it completes...
+      val finalTrained = pollModelState(model, PollIterations, PollTime)
+      val finalState = concurrent.Await.result(finalTrained, 15 seconds)
+      assert(finalState === ModelTypes.Status.COMPLETE)
+
     } finally {
       deleteAllModels()
       DataSet.deleteAllDataSets()
