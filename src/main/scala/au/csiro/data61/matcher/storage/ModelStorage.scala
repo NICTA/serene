@@ -43,6 +43,9 @@ object DefaultFilenames {
   val FeaturesConfig = "features_config.json"
   val LabelOutDir = "labels"
   val Labels = "labels.csv"
+  val LabelHeader = List("attr_id", "class")
+  val WorkspaceDir = "workspace"
+  val PredictionsDir = "predictions/"
 }
 
 /**
@@ -74,7 +77,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @return
     */
   protected def wsPath(id: ModelID): Path = {
-    Paths.get(getDirectoryPath(id).toString, "workspace")
+    Paths.get(getDirectoryPath(id).toString, DefaultFilenames.WorkspaceDir)
   }
 
   /**
@@ -84,7 +87,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @return
     */
   def predictionsPath(id: ModelID): Path = {
-    Paths.get(wsPath(id).toString, "predictions/")
+    Paths.get(wsPath(id).toString, DefaultFilenames.PredictionsDir)
   }
 
   /**
@@ -121,7 +124,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     logger.debug("converting labelled data to schema matcher format")
 
     // header for the file
-    val header = List("attr_id", "class")
+    val header = DefaultFilenames.LabelHeader
 
     // converting to the format: "dataSetID.csv/columnName,labelName"
     val body = value.labelData
@@ -252,7 +255,6 @@ object ModelStorage extends Storage[ModelID, Model] {
     super.writeToFile(model)
 
     // write config files according to the data integration project...
-
     // workspace directory
     val wsDir = wsPath(model.id).toFile
     val wsDirStr = wsDir.toString
@@ -260,6 +262,12 @@ object ModelStorage extends Storage[ModelID, Model] {
     // create workspace directory if it doesn't exist
     if (!wsDir.exists) {
       wsDir.mkdirs
+    }
+
+    // write predictions directory
+    val predDir = predictionsPath(model.id).toFile
+    if (!predDir.exists) {
+      predDir.mkdirs
     }
 
     // extract amd write
@@ -276,7 +284,6 @@ object ModelStorage extends Storage[ModelID, Model] {
         logger.error(s"Failed to write model ${model.id} to workspace.")
         throw new Exception(err.getMessage)
     }
-
   }
 
   /**

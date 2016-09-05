@@ -274,7 +274,7 @@ object MatcherInterface extends LazyLogging {
     * @param datasetID Optional id of the dataset
     * @return
     */
-  def predictModel(id: ModelID, datasetID : DataSetID): List[ColumnPrediction] = {
+  def predictModel(id: ModelID, datasetID : DataSetID): DataSetPrediction = { //List[ColumnPrediction] = {
     if (ModelStorage.isConsistent(id)) {
       // do prediction
       logger.info(s"Launching prediction for model $id...")

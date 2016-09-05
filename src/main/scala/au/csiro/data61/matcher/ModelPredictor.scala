@@ -22,7 +22,7 @@ import java.nio.file.Paths
 
 import au.csiro.data61.matcher.api.{InternalException, NotFoundException}
 import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
-import au.csiro.data61.matcher.types.ColumnPrediction
+import au.csiro.data61.matcher.types.{DataSetPrediction, ColumnPrediction}
 import au.csiro.data61.matcher.types.DataSetTypes.DataSetID
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import com.nicta.dataint.matcher.MLibSemanticTypeClassifier
@@ -52,9 +52,9 @@ object ModelPredictor extends LazyLogging {
     */
   def readLearnedModelFile(filePath: String) : Option[SerializableMLibClassifier] = {
     (for {
-      learnt <- Try( new ObjectInputStream(new FileInputStream(filePath)))
+      learned <- Try( new ObjectInputStream(new FileInputStream(filePath)))
         .orElse(Failure( new IOException("Error opening model file.")))
-      data <- Try(learnt.readObject().asInstanceOf[SerializableMLibClassifier])
+      data <- Try(learned.readObject().asInstanceOf[SerializableMLibClassifier])
         .orElse(Failure( new IOException("Error reading model file.")))
     } yield data) match {
       case Success(mod) => Some(mod)
@@ -68,16 +68,20 @@ object ModelPredictor extends LazyLogging {
     * @param id id of the model
     * @return Serialized Mlib classifier wrapped in Option
     */
-  def predict(id: ModelID, datasetID: DataSetID): List[ColumnPrediction] = {
+  def predict(id: ModelID, datasetID: DataSetID): DataSetPrediction = {
 
-    logger.info(s"Prediction for the dataset $datasetID.")
+    logger.info(s"Predicting values for the dataset $datasetID.")
 
     if (ModelStorage.predictionCache(id).contains(datasetID)) {
       getCachedPrediction(id, datasetID)
     } else {
+      logger.info(s"Dataset $datasetID is not in the cache. Computing prediction...")
+
       // read in the learned model
       val serialMod = readLearnedModelFile(ModelStorage.modelPath(id).toString)
         .getOrElse(throw InternalException(s"Failed to read the learned model for $id"))
+
+      logger.info(s"Model file read from ${ModelStorage.modelPath(id).toString}")
 
       // if datasetID does not exist or it is not csv, then nothing will be done
       DatasetStorage
@@ -86,6 +90,7 @@ object ModelPredictor extends LazyLogging {
         .filter(_.endsWith("csv"))
         .flatMap(runPrediction(id, _, serialMod, datasetID))
         .getOrElse { throw InternalException("Failed to predict model") }
+
     }
   }
 
@@ -96,7 +101,7 @@ object ModelPredictor extends LazyLogging {
     * @param datasetID  list of ids of the datasets
     * @return List of ColumnPrediction
     */
-  def getCachedPrediction(id: ModelID, datasetID: DataSetID): List[ColumnPrediction] = {
+  def getCachedPrediction(id: ModelID, datasetID: DataSetID): DataSetPrediction = { //List[ColumnPrediction] = {
 
     logger.info(s"Attempting to read predictions for dataset: $datasetID")
 
@@ -119,7 +124,7 @@ object ModelPredictor extends LazyLogging {
 //        readPredictions(_, numClasses, id)
 //      }
     // add some logging if dataset ids are not found???
-    readPredictions(Paths.get(predPath.toString, s"$datasetID.csv").toString, numClasses, id)
+    readPredictions(Paths.get(predPath.toString, s"$datasetID.csv").toString, numClasses, id, datasetID)
   }
 
 /**
@@ -150,7 +155,7 @@ object ModelPredictor extends LazyLogging {
   def runPrediction(id: ModelID,
                     dsPath: String,
                     sModel: SerializableMLibClassifier,
-                    datasetID: DataSetID): Option[List[ColumnPrediction]] = {
+                    datasetID: DataSetID): Option[DataSetPrediction] = {
 
     // name of the derivedFeatureFile
     val writeName = s"$datasetID.csv"
@@ -175,6 +180,7 @@ object ModelPredictor extends LazyLogging {
       None
     }
     else {
+
       val randomForestClassifier = MLibSemanticTypeClassifier(
         sModel.classes,
         sModel.model,
@@ -186,7 +192,7 @@ object ModelPredictor extends LazyLogging {
         case Success(preds) =>
           // TODO: convert PredictionObject to ColumnPrediction
           Try {
-            readPredictions(derivedFeatureFile.toString, sModel.classes.size, id)
+            readPredictions(derivedFeatureFile.toString, sModel.classes.size, id, datasetID)
           } toOption
         case Failure(err) =>
           // prediction failed for the dataset
@@ -204,7 +210,7 @@ object ModelPredictor extends LazyLogging {
     * @param modelID id of the model
     * @return List of ColumnPrediction
     */
-  def readPredictions(filePath: String, classNum : Int, modelID: ModelID): List[ColumnPrediction] = {
+  def readPredictions(filePath: String, classNum : Int, modelID: ModelID, dsID: DataSetID): DataSetPrediction = { //List[ColumnPrediction] = {
     logger.info(s"Reading predictions from: $filePath...")
     (for {
       content <- Try(Source.fromFile(filePath).getLines.map(_.split(",")))
@@ -214,7 +220,7 @@ object ModelPredictor extends LazyLogging {
       featureNames <- Try(header.slice(4 + classNum, header.size))
       preds <- Try(content.map {
         case arr =>
-          val dsID = FilenameUtils.getBaseName(filePath) toInt
+          //val dsID = FilenameUtils.getBaseName(filePath) toInt
           // here we assume that attribute names contain fileNames
           //that's why we use filePath to get datasetID
           val colID = DatasetStorage.columnNameMap(dsID, arr(0).split("/")(1)).id
@@ -224,12 +230,16 @@ object ModelPredictor extends LazyLogging {
           val featureVals = featureNames zip
             arr.slice(4 + classNum, arr.size).map(_.toDouble) toMap
 
-          ColumnPrediction(modelID, dsID, colID, label, confid, scores, featureVals)
+          //ColumnPrediction(modelID, dsID, colID, label, confid, scores, featureVals)
+          colID.toString -> ColumnPrediction(label, confid, scores, featureVals)
       })
     } yield preds) match {
       case Success(predictions) =>
-        val p = predictions.toList
-        logger.info(s"${p.size} predictions have been read.")
+
+        val p = DataSetPrediction(modelID, dsID, predictions.toMap)
+
+        //predictions.toList
+        logger.info(s"${p.predictions.size} predictions have been read.")
         p
       case Failure(err) =>
         logger.error(s"Failed reading predictions $filePath with error $err.")

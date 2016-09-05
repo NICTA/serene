@@ -166,7 +166,7 @@ object ModelRestAPI extends RestAPI {
   // auxiliary endpoint for the optional datasetID parameter
   //val dsParam: Endpoint[Option[Int]] = paramOption("datasetID").as[Int]
 
-  val modelPredict: Endpoint[List[ColumnPrediction]] = post(APIVersion :: "model" :: int :: "predict" :: int) {
+  val modelPredict: Endpoint[DataSetPrediction] = post(APIVersion :: "model" :: int :: "predict" :: int) {
     (id: Int, datasetID: Int) =>
       Try {
         MatcherInterface.predictModel(id, datasetID)

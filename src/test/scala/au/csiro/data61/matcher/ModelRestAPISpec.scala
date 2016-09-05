@@ -50,23 +50,6 @@ import org.json4s.JsonDSL._
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
-//trait TwitterFutures extends Futures {
-//
-//  import scala.language.implicitConversions
-//
-//  implicit def convertTwitterFuture[T](twitterFuture: com.twitter.util.Future[T]): FutureConcept[T] =
-//    new FutureConcept[T] {
-//      override def eitherValue: Option[Either[Throwable, T]] = {
-//        twitterFuture.poll.map {
-//          case Return(o) => Right(o)
-//          case Throw(e)  => Left(e)
-//        }
-//      }
-//      override def isCanceled: Boolean = false
-//      override def isExpired: Boolean = false
-//    }
-//}
-
 /**
  * Tests for the Model REST endpoint API
  */
