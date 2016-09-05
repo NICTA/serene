@@ -134,7 +134,8 @@ object ModelStorage extends Storage[ModelID, Model] {
         val labelList = for {
           col <- DatasetStorage.columnMap.get(id)
           dsPath = col.path.getFileName
-          dsName = s"$dsPath/${col.name}"
+//          dsName = s"$dsPath/${col.name}"
+          dsName = s"${col.name}@$dsPath"
         } yield List(dsName, label)
 
         labelList getOrElse {

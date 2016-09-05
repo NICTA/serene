@@ -30,6 +30,7 @@ import org.json4s.jackson.JsonMethods._
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
 
+
 /**
  * Storage object that can store objects that are identifiable by a `Key`.
  * The child storage objects need to specify the root directory and an
@@ -39,6 +40,7 @@ import scala.util.{Failure, Success, Try}
  * disk layer, storing objects in json format.
  *
  */
+
 trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with MatcherJsonFormats {
 
   protected def rootDir: String
@@ -108,7 +110,6 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
   protected def toKeyOption(s: String): Option[Key] = {
     Try(s.toInt).toOption
   }
-
   /**
    * Returns the location of the JSON metadata file for id
    *
@@ -222,5 +223,47 @@ trait Storage[Key >: Int, Value <: Identifiable[Key]] extends LazyLogging with M
 }
 
 
+/**
+  * The Readable trait is for a Key T that can be read from a string
+  *
+  * @tparam T The Key type
+  */
+trait Readable[T] {
+  def read(x: String): T
+}
 
+/**
+  * Companion object containing helper functions and standard implementations
+  */
+object Readable {
 
+  /**
+    * Helper function which allows creation of Readable instances
+    */
+  def toReadable[T](p: String => T): Readable[T] = new Readable[T] {
+    def read(x: String): T = p(x)
+  }
+
+  /**
+    * Allow for construction of standalone readables, if the ops aren't used
+    */
+  def apply[A](implicit instance: Readable[A]): Readable[A] = instance
+
+  // Using the toReadable creates cleaner code, we could also explicitly
+  // define the implicit instances:
+  //
+  //   implicit object ReadableDouble extends Readable[Double] {
+  //      def read(s: String): Double = s.toDouble
+  //    }
+  //    implicit object ReadableInt extends Readable[Int] {
+  //      def read(s: String): Int = s.toInt
+  //    }
+  implicit val ReadableDouble = toReadable[Double](_.toDouble)
+  implicit val ReadableInt = toReadable[Int](_.toInt)
+  implicit val ReadableLong = toReadable[Long](_.toLong)
+  implicit val ReadableString = toReadable[String](new String(_))
+  implicit val ReadableBoolean = toReadable[Boolean](_.toBoolean)
+  implicit val ReadableCharList = toReadable[List[Char]](_.toCharArray.toList)
+  implicit val ReadableStringList = toReadable[List[String]](_.split(':').toList)
+
+}

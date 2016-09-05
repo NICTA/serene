@@ -28,6 +28,7 @@ import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 import com.twitter.io.Buf
 import com.twitter.util.{Return, Throw, Await}
+import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
@@ -54,7 +55,7 @@ import org.json4s.jackson.JsonMethods._
  * Tests for the Model REST endpoint API
  */
 @RunWith(classOf[JUnitRunner])
-class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach with Futures {
+class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach with Futures with LazyLogging {
 
   import ModelRestAPI._
 
@@ -101,7 +102,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   def defaultDataSet: String = getClass.getResource("/homeseekers.csv").getPath
 
+  // default classes for the homeseekers dataset
   def defaultClasses: List[String] = List(
+    "unknown",
     "year_built",
     "address",
     "bathrooms",
@@ -120,7 +123,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     "type"
   )
 
-  // index labels for the default dataset
+  // index labels for the default homeseekers dataset
   def defaultLabels: Map[Int, String] =
     Map(
       4  -> "address",
@@ -143,7 +146,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       32 -> "bedrooms"
     )
 
-  val helperDir = Paths.get("src", "test", "resources").toFile.getAbsolutePath // location for sample files
+  val helperDir = Paths.get("src", "test", "resources", "helper").toFile.getAbsolutePath // location for sample files
 
   def copySampleDatasets(): Unit = {
     // copy sample dataset to Config.DatasetStorageDir
@@ -296,6 +299,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   /**
     * This helper function will start the training...
+ *
     * @param server
     * @return
     */
@@ -901,18 +905,30 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val response = Await.result(client(request))
 
-      println(response.contentString)
-
       assert(response.status === Status.Ok)
-//
-//      //val busyModel = parse(busyResponse.contentString).extract[Model]
-//      assert(busyModel.state.status === ModelTypes.Status.BUSY)
-//
-//      // now just make sure it completes...
-//      val trained = pollModelState(model, PollIterations, PollTime)
-//      val state = concurrent.Await.result(trained, 15 seconds)
 
-//      assert(state === ModelTypes.Status.COMPLETE)
+      // ensure that the data is correct...
+      //val returnedModel = parse(response.contentString).extract[Model]
+      //assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
+      // check the content of .rf file
+      val learntModelFile = Paths.get(Config.ModelStorageDir, s"${model.id}", "workspace", s"${model.id}.rf").toFile
+      assert(learntModelFile.exists === true)
+      val corFile = Paths.get(helperDir, "default-model.rf").toFile // that's the output from the data integration project
+      //      val corFile = Paths.get(helperDir, "1184298536.rf").toFile // that's the output when running API
+
+      // checking that the models are the same; direct comparison of file contents does not yield correct results
+      (for {
+        inLearnt <- Try( new ObjectInputStream(new FileInputStream(learntModelFile)))
+        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
+        inCor <- Try( new ObjectInputStream(new FileInputStream(corFile)))
+        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
+      } yield (dataLearnt, dataCor) ) match {
+        case Success((data, cor)) =>
+          assert(data.classes === cor.classes)
+          assert(data.featureExtractors === cor.featureExtractors)
+        case Failure(err) =>
+          throw new Exception(err.getMessage)
+      }
 
     } finally {
       deleteAllModels()

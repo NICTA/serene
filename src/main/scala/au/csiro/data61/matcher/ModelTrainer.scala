@@ -28,9 +28,8 @@ import com.typesafe.scalalogging.LazyLogging
 import com.nicta.dataint.data.SemanticTypeLabels
 import com.nicta.dataint.matcher.train.{TrainMlibSemanticTypeClassifier, TrainingSettings}
 import com.nicta.dataint.matcher.features.FeatureSettings
-import com.nicta.dataint.ingestion.loader.CSVHierarchicalDataLoader
+import com.nicta.dataint.ingestion.loader.{CSVDataLoader, CSVHierarchicalDataLoader, SemanticTypeLabelsLoader}
 import com.nicta.dataint.data.DataModel
-import com.nicta.dataint.ingestion.loader.SemanticTypeLabelsLoader
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 
 case class ModelTrainerPaths(curModel: Model,
@@ -74,7 +73,8 @@ object ModelTrainer extends LazyLogging {
 
     DatasetStorage
       .getCSVResources
-      .map{CSVHierarchicalDataLoader().readDataSet(_, "")}
+      //.map{CSVHierarchicalDataLoader().readDataSet(_, "")}
+      .map(CSVDataLoader().load)
   }
 
   /**
@@ -99,10 +99,12 @@ object ModelTrainer extends LazyLogging {
     */
   def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels ={
 
-    logger.debug(s"Reading label data from $trainerPaths")
+    logger.warn(s"Reading label data from $trainerPaths")
 
     val labelsLoader = SemanticTypeLabelsLoader()
     val stl = labelsLoader.load(trainerPaths.labelsDirPath)
+
+    logger.warn(s"BROKEN!!! $stl")
 
     if (stl.labelsMap.isEmpty) {// we do not allow unsupervised setting; labeled data should not be empty
       logger.error("No labeled datasets have been found.")
