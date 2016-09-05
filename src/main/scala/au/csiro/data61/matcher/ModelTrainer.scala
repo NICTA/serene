@@ -99,12 +99,10 @@ object ModelTrainer extends LazyLogging {
     */
   def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels ={
 
-    logger.warn(s"Reading label data from $trainerPaths")
+    logger.info(s"Reading label data from $trainerPaths")
 
     val labelsLoader = SemanticTypeLabelsLoader()
     val stl = labelsLoader.load(trainerPaths.labelsDirPath)
-
-    logger.warn(s"BROKEN!!! $stl")
 
     if (stl.labelsMap.isEmpty) {// we do not allow unsupervised setting; labeled data should not be empty
       logger.error("No labeled datasets have been found.")

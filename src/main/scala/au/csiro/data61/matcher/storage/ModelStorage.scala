@@ -53,6 +53,8 @@ object DefaultFilenames {
  */
 object ModelStorage extends Storage[ModelID, Model] {
 
+  implicit val keyReader: Readable[Int] = Readable.ReadableInt
+
   def rootDir: String = new File(Config.ModelStorageDir).getAbsolutePath
 
   def extract(stream: FileInputStream): Model = {

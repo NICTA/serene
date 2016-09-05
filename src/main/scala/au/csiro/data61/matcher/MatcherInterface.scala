@@ -462,6 +462,8 @@ object MatcherInterface extends LazyLogging {
    */
   def deleteDataset(key: DataSetID): Option[DataSetID] = {
 
+    val junk = DatasetStorage.get(key).get
+
     for {
       ds <- DatasetStorage.get(key)
       badColumns = ds.columns.map(_.id)

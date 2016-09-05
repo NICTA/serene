@@ -40,6 +40,8 @@ import scala.util.Try
  */
 object DatasetStorage extends Storage[DataSetID, DataSet] {
 
+  implicit val keyReader: Readable[Int] = Readable.ReadableInt
+
   def rootDir: String = new File(Config.DatasetStorageDir).getAbsolutePath
 
   def columnMap: Map[ColumnID, Column[Any]] = cache.values
