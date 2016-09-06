@@ -69,13 +69,13 @@ object MatcherInterface extends LazyLogging {
     *
     * @param validColumns The valid columnIDs
     * @param invalidColumns The columnIDs that do not appear in the dataset
-    * @param refDataSets
-    * @param cleanLabels
+    * @param refDataSets The reference datasets touched by the user labels
+    * @param cleanLabels The valid column ids
     */
-  private case class DataRef(validColumns: Set[Int],
-                             invalidColumns: Set[Int],
-                             refDataSets: Set[Int],
-                             cleanLabels: Map[Int, String])
+  private case class DataRef(validColumns: Set[ColumnID],
+                             invalidColumns: Set[ColumnID],
+                             refDataSets: Set[DataSetID],
+                             cleanLabels: Map[ColumnID, String])
 
   /**
     * Takes the labelData field from the modelRequest and determines
@@ -85,9 +85,9 @@ object MatcherInterface extends LazyLogging {
     * @param labelData The labels used for creating model requests.
     * @return
     */
-  private def validKeys(labelData: Option[Map[Int, String]]) : DataRef = {
+  private def validKeys(labelData: Option[Map[ColumnID, String]]) : DataRef = {
 
-    val labelMap = labelData.getOrElse(Map.empty[Int, String])
+    val labelMap = labelData.getOrElse(Map.empty[ColumnID, String])
 
     val colMap = DatasetStorage.columnMap
 
@@ -104,7 +104,7 @@ object MatcherInterface extends LazyLogging {
   /**
     * createModel builds a new Model object from a ModelRequest
     *
-    * @param request
+    * @param request The request object from the API
     * @return
     */
   def createModel(request: ModelRequest): Model = {
@@ -274,19 +274,14 @@ object MatcherInterface extends LazyLogging {
     * @param datasetID Optional id of the dataset
     * @return
     */
-  def predictModel(id: ModelID, datasetID : DataSetID): DataSetPrediction = { //List[ColumnPrediction] = {
+  def predictModel(id: ModelID, datasetID : DataSetID): DataSetPrediction = {
+
     if (ModelStorage.isConsistent(id)) {
       // do prediction
       logger.info(s"Launching prediction for model $id...")
 
       ModelPredictor.predict(id, datasetID)
 
-      //// crude concurrency
-      //launchPrediction(id, datasetID)
-      //// first we set the model state to busy, learnt model should not be deleted
-      //ModelStorage.updateTrainState(id, Status.BUSY, deleteRF = false, changeDate = false)
-      //true // prediction has been started
-      //Some(ModelPredictor.getDatasetPrediction(id, datasetID))
     } else {
       val msg = s"Prediction failed. Model $id is not trained."
       // prediction is impossible since the model has not been trained properly
@@ -295,57 +290,6 @@ object MatcherInterface extends LazyLogging {
     }
   }
 
-  /**
-    * Asynchronously launch the prediction process, and write
-    * to storage once complete.
-    *
-    * @param id Model key for the model to be used for prediction
-    * @param datasetID Optional id of the dataset
-    */
-//  private def launchPrediction(id: ModelID, datasetID : Option[DataSetID] = None)(implicit ec: ExecutionContext): Unit = {
-//    Future {
-//      // proceed with prediction...
-//      ModelPredictor.predict(id, datasetID)
-//
-//    } onComplete {
-//      case Success(_) =>
-//        // we do not delete model.rf file and do not change dateModified, but we change the status
-//        ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false, changeDate = false)
-//      case Failure(err) =>
-//        // we do not delete model.rf file and do not change dateModified, but we change the status
-//        val msg = s"Failed to perform prediction: ${err.getMessage}"
-//        logger.error(msg)
-//        ModelStorage.updateTrainState(id, Status.COMPLETE, msg, deleteRF = false, changeDate = false)
-//    }
-//  }
-
-  /**
-    * Obtain predicted classes and derived features for the datasets in the repository
-    * using the specified model.
-    * This method does not raise errors if predictions are not available.
-    * It returns an empty list.
-    *
-    * @param id Model key for the model which provides predictions
-    * @param datasetID Optional id of the dataset
-    * @return List of predicted classes with corresponding confidence measures and derived features
-    *         per each column in the dataset repository (provided predictions are available).
-    */
-//  def getPrediction(id: ModelID, datasetID: DataSetID) : List[ColumnPrediction] = {
-//
-//
-//    ModelPredictor.predict(id, datasetID)
-//    ModelPredictor.getDatasetPrediction(id, List(datasetID))
-////    datasetID match {
-////
-////      case Some(dsID) =>
-////        logger.info(s"Getting predicitons for the dataset $dsID.")
-////        ModelPredictor.getDatasetPrediction(id, List(dsID))
-////
-////      case None =>
-////        logger.info(s"Getting predicitons for all available datasets.")
-////        ModelPredictor.getDatasetPrediction(id, DatasetStorage.keys)
-////    }
-//  }
 
   /**
    * Parses a servlet request to get a dataset object
@@ -384,10 +328,18 @@ object MatcherInterface extends LazyLogging {
     dataSet getOrElse { throw InternalException(s"Failed to create resource $id") }
   }
 
+  /**
+    * Passes the dataset keys up to the API
+    * @return
+    */
   def datasetKeys: List[DataSetID] = {
     DatasetStorage.keys
   }
 
+  /**
+    * Passes the model keys up to the API
+    * @return
+    */
   def modelKeys: List[ModelID] = {
     ModelStorage.keys
   }
@@ -407,7 +359,6 @@ object MatcherInterface extends LazyLogging {
       )
     }
   }
-
 
   /**
    * Updates a single dataset with id key. Note that only the typemap
@@ -494,6 +445,7 @@ object MatcherInterface extends LazyLogging {
   def deleteModel(key: ModelID): Option[ModelID] = {
     ModelStorage.remove(key)
   }
+
   /**
    * Return some random column objects for a dataset
    *

@@ -83,6 +83,7 @@ object ModelTypes {
   /**
    * Training state
    * @param status The current state of the model training
+   * @param message Used for reporting, mainly error messages
    * @param dateCreated The time it was first created
    * @param dateModified The last time the state changed
    */
@@ -160,8 +161,8 @@ case object FeatureSerializer extends CustomSerializer[Feature](format => (
   * Special type for FeaturesConfig
   */
 case class FeaturesConfig(activeFeatures: Set[String],
-                            activeGroupFeatures: Set[String],
-                            featureExtractorParams: Map[String, Map[String,String]])
+                          activeGroupFeatures: Set[String],
+                          featureExtractorParams: Map[String, Map[String,String]])
 
 // TODO: type-map is part of  featureExtractorParams, type-maps need to be read from datasetrepository when model gets created
 
@@ -192,8 +193,8 @@ case object FeaturesConfigSerializer extends CustomSerializer[FeaturesConfig](fo
 
 
 /**
- * Enumerated type for the sampling strategy
- */
+  * Enumerated type for the sampling strategy
+  */
 sealed trait SamplingStrategy { def str: String }
 
 object SamplingStrategy {
@@ -227,29 +228,26 @@ case object SamplingStrategySerializer extends CustomSerializer[SamplingStrategy
 
 
 /**
- * KFold
- *
- * @param n
- */
+  * KFold
+  *
+  * @param n
+  */
 case class KFold(n: Int)
 
 /**
   * Column prediction
   */
-//case class ColumnPrediction(modelID: ModelID,
-//                            datasetID: DataSetID,
-//                            columnID: ColumnID,
-//                            label: String,
-//                            confidence: Double,
-//                            scores: Map[String,Double],
-//                            features: Map[String, Double]
-//                           ) //extends Identifiable[ModelID]
-
 case class ColumnPrediction(label: String,
                             confidence: Double,
-                            scores: Map[String,Double],
+                            scores: Map[String, Double],
                             features: Map[String, Double])
 
+/**
+  * Object to return to the user for a prediction on a dataset
+  * @param modelID The model used
+  * @param dataSetID The dataset used
+  * @param predictions The map of ColumnID -> ColumnPrediction object
+  */
 case class DataSetPrediction(modelID: ModelID,
                              dataSetID: DataSetID,
                              predictions: Map[String, ColumnPrediction])

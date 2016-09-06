@@ -25,6 +25,7 @@ import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
 import au.csiro.data61.matcher.types.{DataSetPrediction, ColumnPrediction}
 import au.csiro.data61.matcher.types.DataSetTypes.DataSetID
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
+import com.github.tototoshi.csv.CSVReader
 import com.nicta.dataint.matcher.MLibSemanticTypeClassifier
 import com.nicta.dataint.matcher.train.TrainAliases.PredictionObject
 import com.typesafe.scalalogging.LazyLogging
@@ -72,59 +73,21 @@ object ModelPredictor extends LazyLogging {
 
     logger.info(s"Predicting values for the dataset $datasetID.")
 
-    if (ModelStorage.predictionCache(id).contains(datasetID)) {
-      getCachedPrediction(id, datasetID)
-    } else {
-      logger.info(s"Dataset $datasetID is not in the cache. Computing prediction...")
+    logger.info(s"Dataset $datasetID is not in the cache. Computing prediction...")
 
-      // read in the learned model
-      val serialMod = readLearnedModelFile(ModelStorage.modelPath(id).toString)
-        .getOrElse(throw InternalException(s"Failed to read the learned model for $id"))
+    // read in the learned model
+    val serialMod = readLearnedModelFile(ModelStorage.modelPath(id).toString)
+      .getOrElse(throw InternalException(s"Failed to read the learned model for $id"))
 
-      logger.info(s"Model file read from ${ModelStorage.modelPath(id).toString}")
+    logger.info(s"Model file read from ${ModelStorage.modelPath(id).toString}")
 
-      // if datasetID does not exist or it is not csv, then nothing will be done
-      DatasetStorage
-        .get(datasetID)
-        .map(_.path.toString)
-        .filter(_.endsWith("csv"))
-        .flatMap(runPrediction(id, _, serialMod, datasetID))
-        .getOrElse { throw InternalException("Failed to predict model") }
-
-    }
-  }
-
-  /**
-    * Get predictions for the list of datasets if available.
-    *
-    * @param id id of the model
-    * @param datasetID  list of ids of the datasets
-    * @return List of ColumnPrediction
-    */
-  def getCachedPrediction(id: ModelID, datasetID: DataSetID): DataSetPrediction = { //List[ColumnPrediction] = {
-
-    logger.info(s"Attempting to read predictions for dataset: $datasetID")
-
-    // directory where prediction files are stored for this model
-    val predPath = ModelStorage.predictionsPath(id)
-
-    // get number of classes for this model
-    val numClasses = ModelStorage.get(id)
-      .map(_.classes.size)
-      .getOrElse(throw NotFoundException(s"Model $id not found."))
-
-    // read in predictions for columns which are available in the prediction directory
-    logger.info(s"Predictions are available for datasets: ${ModelStorage.predictionCache(id)}")
-
-//    ModelStorage
-//      .predictionCache(id)
-//      //.filter(datasetID.contains) // if columns from datasetIDs are not available, an empty list will be returned
-//      .map(dsID => Paths.get(predPath.toString, s"$dsID.csv").toString)
-//      .flatMap {
-//        readPredictions(_, numClasses, id)
-//      }
-    // add some logging if dataset ids are not found???
-    readPredictions(Paths.get(predPath.toString, s"$datasetID.csv").toString, numClasses, id, datasetID)
+    // if datasetID does not exist or it is not csv, then nothing will be done
+    DatasetStorage
+      .get(datasetID)
+      .map(_.path.toString)
+      .filter(_.endsWith("csv"))
+      .flatMap(runPrediction(id, _, serialMod, datasetID))
+      .getOrElse { throw InternalException("Failed to predict model") }
   }
 
 /**
@@ -162,7 +125,7 @@ object ModelPredictor extends LazyLogging {
 
     // loading data in the format suitable for data-integration project
     val dataset = CSVHierarchicalDataLoader().readDataSet(
-      FilenameUtils.getFullPath(dsPath), //Paths.get(dsPath).getParent.toString,
+      FilenameUtils.getFullPath(dsPath),
       FilenameUtils.getName(dsPath)
     )
 
@@ -190,7 +153,6 @@ object ModelPredictor extends LazyLogging {
 
       Try(randomForestClassifier.predict(List(dataset))) match {
         case Success(preds) =>
-          // TODO: convert PredictionObject to ColumnPrediction
           Try {
             readPredictions(derivedFeatureFile.toString, sModel.classes.size, id, datasetID)
           } toOption
@@ -203,6 +165,64 @@ object ModelPredictor extends LazyLogging {
   }
 
   /**
+    * The format for the data-integration line
+    * @param id The name of the column in data-integration format
+    * @param label The label given to the column
+    * @param confidence The confidence the predictor has for the label
+    * @param classes The values for the class confidences
+    * @param features The feature vectors
+    */
+  case class CSVLine(id: String,
+                     label: String,
+                     confidence: String,
+                     classes: List[String],
+                     features: List[String])
+
+  /**
+    * For the body of the data-integration code, the confidence, class and
+    * feature values are doubles. Here we simply convert them over
+    * @param id The name of the column in data-integration format
+    * @param label The label given to the column
+    * @param confidence The confidence the predictor has for the label
+    * @param classes The values for the class confidences
+    * @param features The feature vectors
+    */
+  case class CSVDataLine(id: String,
+                         label: String,
+                         confidence: Double,
+                         classes: List[Double],
+                         features: List[Double])
+
+  object CSVDataLine {
+    def apply(line: CSVLine): CSVDataLine = {
+      CSVDataLine(
+        line.id,
+        line.label,
+        line.confidence.toDouble,
+        line.classes.map(_.toDouble),
+        line.features.map(_.toDouble))
+    }
+  }
+
+  /**
+    * Function to read a line in the data-integration format
+    * @param list A line in the csv
+    * @param classNum The number of classes selected
+    * @return
+    */
+  protected def readLine(list: Seq[String], classNum: Int): CSVLine = {
+
+    val line = list.iterator
+    val id = line.next
+    val label = line.next
+    val confidence = line.next
+    val classes = line.take(classNum).toList // extract the class names from the header
+    val features = line.take(list.size).toList
+
+    CSVLine(id, label, confidence, classes, features)
+  }
+
+  /**
     * Read predictions from the csv file
     *
     * @param filePath string which indicates the location of the file with predictions
@@ -210,42 +230,22 @@ object ModelPredictor extends LazyLogging {
     * @param modelID id of the model
     * @return List of ColumnPrediction
     */
-  def readPredictions(filePath: String, classNum : Int, modelID: ModelID, dsID: DataSetID): DataSetPrediction = { //List[ColumnPrediction] = {
+  def readPredictions(filePath: String, classNum : Int, modelID: ModelID, dsID: DataSetID): DataSetPrediction = {
     logger.info(s"Reading predictions from: $filePath...")
-    (for {
-      content <- Try(Source.fromFile(filePath).getLines.map(_.split(",")))
-      // header: id, label, confidence, scores for classes, features
-      header <- Try(content.next)
-      classNames <- Try(header.slice(3, 3 + classNum))
-      featureNames <- Try(header.slice(4 + classNum, header.size))
-      preds <- Try(content.map {
-        case arr =>
-          //val dsID = FilenameUtils.getBaseName(filePath) toInt
-          // here we assume that attribute names contain fileNames
-          //that's why we use filePath to get datasetID
-          val colID = DatasetStorage.columnNameMap(dsID, arr(0).split("/")(1)).id
-          val label = arr(1)
-          val confid = arr(2) toDouble
-          val scores = classNames zip arr.slice(3, 3 + classNum).map(_.toDouble) toMap
-          val featureVals = featureNames zip
-            arr.slice(4 + classNum, arr.size).map(_.toDouble) toMap
 
-          //ColumnPrediction(modelID, dsID, colID, label, confid, scores, featureVals)
-          colID.toString -> ColumnPrediction(label, confid, scores, featureVals)
-      })
-    } yield preds) match {
-      case Success(predictions) =>
+    val reader = CSVReader.open(filePath).all
+    val header = readLine(reader.head, classNum)
+    val predictions = for {
+      line <- reader.tail
+      dataLine = CSVDataLine(readLine(line, classNum))
+      scores = (header.classes zip dataLine.classes).toMap
+      features = (header.features zip dataLine.features).toMap
+      colName = dataLine.id.dropWhile(_ != '/').tail  // remove the filename at the start of the id...
+      column <- DatasetStorage.columnNameMap.get(dsID -> colName)
+      prediction = column.id.toString -> ColumnPrediction(dataLine.label, dataLine.confidence, scores, features)
+    } yield prediction
 
-        val p = DataSetPrediction(modelID, dsID, predictions.toMap)
-
-        //predictions.toList
-        logger.info(s"${p.predictions.size} predictions have been read.")
-        p
-      case Failure(err) =>
-        logger.error(s"Failed reading predictions $filePath with error $err.")
-        throw InternalException(s"Failed reading predictions $filePath with error $err.")
-    }
+    DataSetPrediction(modelID, dsID, predictions.toMap)
   }
-
 
 }
