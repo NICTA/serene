@@ -86,17 +86,8 @@ curl -X POST localhost:8080/v1.0/model/98793874/train
 # Delete a model
 curl -X DELETE  localhost:8080/v1.0/model/12341234
 
-# Predict all datasets using model (async, use GET on model 98793874 to query state)
-curl -X POST localhost:8080/v1.0/model/98793874/predict
-
-# Predict a specific dataset using model (async, use GET on model 98793874 to query state)
-curl -X POST localhost:8080/v1.0/model/98793874/predict?datasetID=12341234
-
-# Get predictions using model
-curl localhost:8080/v1.0/model/98793874/predict
-
-# Get predictions for a specific dataset using model
-curl localhost:8080/v1.0/model/98793874/predict?datasetID=12341234
+# Predict a specific dataset 12341234 using model. Returns prediction JSON object
+curl -X POST localhost:8080/v1.0/model/98793874/predict/12341234
 
 ```
 ## Tests
