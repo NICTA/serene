@@ -156,7 +156,7 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with MatcherJ
   protected def toKeyOption(s: String): Option[Key] = {
     Try(keyReader.read(s)).toOption
   }
-  
+
   /**
    * Returns the location of the JSON metadata file for id
    *

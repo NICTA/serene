@@ -59,7 +59,12 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   import ModelRestAPI._
 
-
+  /**
+    * Deletes all the models from the server. Assumes that
+    * the IDs are stored as positive integers
+    *
+    * @param server Reference to the TestServer used in a single test
+    */
   def deleteAllModels()(implicit server: TestServer): Unit = {
     val response = server.get(s"/$APIVersion/model")
 
@@ -884,7 +889,48 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-  test("POST /v1.0/model/:id/predict/:id") (new TestServer {
+  test("POST /v1.0/model/:id/train creates default Model file") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 10
+
+      val (model, ds) = trainDefault
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+      // check the content of .rf file
+      val learntModelFile = Paths.get(Config.ModelStorageDir, s"${model.id}", "workspace", s"${model.id}.rf").toFile
+      assert(learntModelFile.exists === true)
+
+      // pre-computed model from raw data-integration project...
+      val corFile = Paths.get(helperDir, "default-model.rf").toFile
+
+      // checking that the models are the same; direct comparison of file contents does not yield correct results
+      (for {
+        inLearnt <- Try( new ObjectInputStream(new FileInputStream(learntModelFile)))
+        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
+        inCor <- Try( new ObjectInputStream(new FileInputStream(corFile)))
+        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
+      } yield (dataLearnt, dataCor) ) match {
+        case Success((data, cor)) =>
+          assert(data.classes === cor.classes)
+          assert(data.featureExtractors === cor.featureExtractors)
+        case Failure(err) =>
+          throw new Exception(err.getMessage)
+      }
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/predict/:id returns successfully") (new TestServer {
     try {
       val PollTime = 1000
       val PollIterations = 10
@@ -907,28 +953,91 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       assert(response.status === Status.Ok)
 
-      // ensure that the data is correct...
-      //val returnedModel = parse(response.contentString).extract[Model]
-      //assert(returnedModel.state.status === ModelTypes.Status.COMPLETE)
-      // check the content of .rf file
-      val learntModelFile = Paths.get(Config.ModelStorageDir, s"${model.id}", "workspace", s"${model.id}.rf").toFile
-      assert(learntModelFile.exists === true)
-      val corFile = Paths.get(helperDir, "default-model.rf").toFile // that's the output from the data integration project
-      //      val corFile = Paths.get(helperDir, "1184298536.rf").toFile // that's the output when running API
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
 
-      // checking that the models are the same; direct comparison of file contents does not yield correct results
-      (for {
-        inLearnt <- Try( new ObjectInputStream(new FileInputStream(learntModelFile)))
-        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
-        inCor <- Try( new ObjectInputStream(new FileInputStream(corFile)))
-        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
-      } yield (dataLearnt, dataCor) ) match {
-        case Success((data, cor)) =>
-          assert(data.classes === cor.classes)
-          assert(data.featureExtractors === cor.featureExtractors)
-        case Failure(err) =>
-          throw new Exception(err.getMessage)
-      }
+  test("POST /v1.0/model/:id/predict/:id prediction fails if model is not trained") (new TestServer {
+    val TestStr = randomString
+
+    // first we add a simple dataset
+    val ds: DataSet = createDataSet(this)
+    val labelMap = createLabelMap(ds)
+
+    // next we train the dataset
+    createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
+
+      case Success(model) =>
+
+        val request = RequestBuilder()
+          .url(fullUrl(s"/$APIVersion/model/${model.id}/predict/${ds.id}"))
+          .addHeader("Content-Type", "application/json")
+          .buildPost(Buf.Utf8(""))
+
+        // send the request and make sure it executes
+        val response = Await.result(client(request))
+
+        assert(response.status === Status.BadRequest)
+        assert(response.contentString.nonEmpty)
+
+      case Failure(err) =>
+        throw new Exception("Failed to create test resource")
+    }
+  })
+
+  test("POST /v1.0/model/:id/predict/:id returns predictions with validation > 0.9") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 10
+
+      val (model, ds) = trainDefault
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+      // now make a prediction
+      val request = RequestBuilder()
+        .url(s.fullUrl(s"/$APIVersion/model/${model.id}/predict/${ds.id}"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(""))
+
+      val response = Await.result(client(request))
+
+      assert(response.status === Status.Ok)
+
+      val prediction = parse(response.contentString).extract[DataSetPrediction]
+
+      // these are the training labels...
+      val trueLabels = createLabelMap(ds)
+        .toList
+        .sortBy(_._1)
+
+      // these are the labels that were predicted
+      val testLabels = prediction
+          .predictions
+          .mapValues(_.label)
+          .filterKeys(trueLabels.map(_._1).contains)
+          .toList
+          .sortBy(_._1)
+
+      // check if they are equal. Here there is a
+      // office@house_listing column that is misclassified
+      // as a business name...
+      val score = testLabels
+        .zip(trueLabels)
+        .map { case (x, y) =>
+          if (x == y) 1.0 else 0.0
+        }
+
+      val total = score.sum / testLabels.size
+
+      assert(total > 0.9)
 
     } finally {
       deleteAllModels()
@@ -936,6 +1045,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       assertClose()
     }
   })
+
+
 
 //
 //  test("GET /v1.0/model/1184298536/train returns the same model as the data integration project") (new TestServer {

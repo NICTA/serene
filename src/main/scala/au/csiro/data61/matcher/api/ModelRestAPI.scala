@@ -173,12 +173,14 @@ object ModelRestAPI extends RestAPI {
       } match {
         case Success(prediction) =>
           Ok(prediction)
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
         case Failure(err: InternalException) =>
-          InternalServerError(InternalException(err.getMessage))
+          InternalServerError(err)
         case Failure(err: NotFoundException) =>
-          NotFound(NotFoundException(err.getMessage))
+          NotFound(err)
         case Failure(err) =>
-          BadRequest(BadRequestException(err.getMessage))
+          InternalServerError(InternalException(err.getMessage))
       }
   }
 
