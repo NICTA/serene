@@ -51,23 +51,23 @@ object ModelPredictor extends LazyLogging {
 
     logger.info(s"Dataset $datasetID is not in the cache. Computing prediction...")
 
-    // read in the learned model
-    val path = ModelStorage.defaultModelPath(id).toString
+    val serializedModel =
+      for {
+        // read in the learned model
+        stored <- ModelStorage.get(id)
+        path <- stored.modelPath
+        m <- readLearnedModelFile(path.toString).toOption
+      } yield m
 
-    val serialMod = readLearnedModelFile(path) match {
-      case Success(model) =>
-        model
-      case Failure(err) =>
-        throw InternalException(s"Failed to read model $id: ${err.getMessage}")
+    val sModel = serializedModel getOrElse {
+      throw InternalException(s"Failed to read serialized model $id")
     }
-
-    logger.info(s"Model file read from $path")
 
     // if datasetID does not exist or it is not csv, then nothing will be done
     DatasetStorage
       .get(datasetID)
       .filter(_.path.toString.toLowerCase.endsWith("csv"))
-      .flatMap(ds => runPrediction(id, ds.path, serialMod, datasetID))
+      .flatMap(ds => runPrediction(id, ds.path, sModel, datasetID))
       .getOrElse {
         throw InternalException("Failed to predict model")
       }
@@ -91,6 +91,16 @@ object ModelPredictor extends LazyLogging {
     } yield data
   }
 
+  def predictionsPath(modelID: ModelID, dataSetID: DataSetID): Path = {
+    // name of the derivedFeatureFile
+    val writeName = s"$dataSetID.csv"
+
+    val predPath = ModelStorage.defaultPredictionsPath(modelID).toString
+
+    // this is the file where predictions will be written
+    Paths.get(predPath, writeName)
+  }
+
   /**
     * Performs prediction for a specified dataset using the model
     * and returns predictions for the specified dataset in the repository
@@ -106,13 +116,7 @@ object ModelPredictor extends LazyLogging {
                     sModel: SerializableMLibClassifier,
                     dataSetID: DataSetID): Option[DataSetPrediction] = {
 
-    // name of the derivedFeatureFile
-    val writeName = s"$dataSetID.csv"
-
-    val predPath = ModelStorage.defaultPredictionsPath(id).toString
-
-    // this is the file where predictions will be written
-    val derivedFeatureFile = Paths.get(predPath, writeName)
+    val derivedFeatureFile = predictionsPath(id, dataSetID)
 
     // loading data in the format suitable for data-integration project
     val dataset = CSVHierarchicalDataLoader().readDataSet(
@@ -138,7 +142,6 @@ object ModelPredictor extends LazyLogging {
         logger.warn(s"Prediction for the dataset $dsPath failed: $err")
         None
     }
-
   }
 
   /**

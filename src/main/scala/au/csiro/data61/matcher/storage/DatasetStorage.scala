@@ -68,11 +68,10 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
   def addFile(id: DataSetID, fs: FileStream): Option[Path] = {
 
     val ext = FilenameUtils.getExtension(fs.name).toLowerCase // original file extension
-    val dsName :String = FilenameUtils.getBaseName(fs.name).toLowerCase
+    val dsName = FilenameUtils.getBaseName(fs.name).toLowerCase
 
-//    val outputPath = Paths.get(this.getPath(id).getParent.toString, s"$id.$ext")
     // original file name is important to the classifier
-    val outputPath = Paths.get(this.getPath(id).getParent.toString, s"$dsName.$ext")
+    val outputPath = Paths.get(getPath(id).getParent.toString, s"$dsName.$ext")
 
     Try {
       // ensure that the directories exist...

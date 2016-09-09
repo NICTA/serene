@@ -129,7 +129,6 @@ object MatcherInterface extends LazyLogging {
           labelData = dataRef.cleanLabels,
           refDataSets = dataRef.refDataSets.toList,
           modelPath = None,
-          //predictionPath = None,
           state = TrainState(Status.UNTRAINED, "", DateTime.now),
           dateCreated = DateTime.now,
           dateModified = DateTime.now)
@@ -176,7 +175,6 @@ object MatcherInterface extends LazyLogging {
           refDataSets = if (labelsUpdated) dataRef.refDataSets.toList else old.refDataSets,
           state = TrainState(Status.UNTRAINED, "", DateTime.now),
           modelPath = None,
-          //predictionPath = None,
           dateCreated = old.dateCreated,
           dateModified = DateTime.now)
       }.toOption

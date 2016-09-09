@@ -46,12 +46,12 @@ case class DataintTrainModel(classes: List[String],
 
 object ModelTrainer extends LazyLogging {
 
-  val rootDir: String = ModelStorage.rootDir
+  protected val rootDir: String = ModelStorage.rootDir
 
   /**
     * Return an instance of class TrainingSettings
     */
-  def readSettings(trainerPaths: ModelTrainerPaths): TrainingSettings = {
+  protected def readSettings(trainerPaths: ModelTrainerPaths): TrainingSettings = {
 
     val featuresConfig = FeatureSettings.load(
       trainerPaths.featuresConfigPath,
@@ -66,7 +66,7 @@ object ModelTrainer extends LazyLogging {
   /**
     * Returns a list of DataModel instances at path
     */
-  def getDataModels: List[DataModel] = {
+  protected def getDataModels: List[DataModel] = {
     DatasetStorage
       .getCSVResources
       .map(CSVDataLoader().load)
@@ -75,7 +75,7 @@ object ModelTrainer extends LazyLogging {
   /**
     * Returns a list of DataModel instances for the dataset repository
     */
-  def readTrainingData: DataModel = {
+  protected def readTrainingData: DataModel = {
 
     logger.debug(s"Reading training data")
 
@@ -92,7 +92,7 @@ object ModelTrainer extends LazyLogging {
   /**
     * Reads in labeled data
     */
-  def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels = {
+  protected def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels = {
 
     logger.info(s"Reading label data from $trainerPaths")
 

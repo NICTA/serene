@@ -75,6 +75,7 @@ object Readable {
 
 }
 
+
 /**
  * Storage object that can store objects that are identifiable by a `Key`.
  * The child storage objects need to specify the root directory and an
