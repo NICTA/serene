@@ -21,13 +21,12 @@ import java.io._
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.matcher.api.NotFoundException
-import au.csiro.data61.matcher.types.DataSetTypes.DataSetID
+import au.csiro.data61.matcher.types.ModelTypes.Status.COMPLETE
 import au.csiro.data61.matcher.{Config, ModelTrainerPaths}
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID, Status, TrainState}
 import com.github.tototoshi.csv.CSVWriter
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
-import org.apache.commons.io.{FileUtils, FilenameUtils}
+import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
@@ -67,7 +66,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @param id The `id` key to the model
     * @return Path to the binary resource
     */
-  def modelPath(id: ModelID): Path = {
+  def defaultModelPath(id: ModelID): Path = {
     Paths.get(wsPath(id).toString, s"$id.rf")
   }
 
@@ -88,7 +87,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @param id The ID for the Value
     * @return
     */
-  def predictionsPath(id: ModelID): Path = {
+  def defaultPredictionsPath(id: ModelID): Path = {
     Paths.get(wsPath(id).toString, DefaultFilenames.PredictionsDir)
   }
 
@@ -121,7 +120,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     *
     * @param value The Model to write to disk
     */
-  def convertLabelData(value : Model) : List[List[String]] = {
+  protected def convertLabelData(value : Model) : List[List[String]] = {
 
     logger.debug("converting labelled data to schema matcher format")
 
@@ -136,7 +135,6 @@ object ModelStorage extends Storage[ModelID, Model] {
         val labelList = for {
           col <- DatasetStorage.columnMap.get(id)
           dsPath = col.path.getFileName
-//          dsName = s"$dsPath/${col.name}"
           dsName = s"${col.name}@$dsPath"
         } yield List(dsName, label)
 
@@ -268,7 +266,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     }
 
     // write predictions directory
-    val predDir = predictionsPath(model.id).toFile
+    val predDir = defaultPredictionsPath(model.id).toFile
     if (!predDir.exists) {
       predDir.mkdirs
     }
@@ -290,26 +288,6 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
-    * Updates the model at `id` and also deletes the previously
-    * trained model if it exists.
-    * The previously trained model should not be deleted if training was a success!!!
-    *
-    * @param id       ID to give to the element
-    * @param value    Value object
-    * @param deleteRF Boolean which indicates whether the trained model file should be deleted
-    * @return ID of the resource created (if any)
-    */
-  override def update(id: ModelID, value: Model, deleteRF: Boolean = true): Option[ModelID] = {
-    for {
-      updatedID <- super.update(id, value)
-      deleteOK <- deleteRF match {
-        case false => Some(id) // if the model has been successfully trained or we're doing prediction, model file should not be deleted
-        case true => deleteModel(updatedID)
-      }
-    } yield deleteOK
-  }
-
-  /**
     * Deletes the model file resource if available
     *
     * @param id The key for the model object
@@ -318,7 +296,7 @@ object ModelStorage extends Storage[ModelID, Model] {
   protected def deleteModel(id: ModelID): Option[ModelID] = {
     cache.get(id) match {
       case Some(ds) =>
-        val modelFile = modelPath(id)
+        val modelFile = defaultModelPath(id)
 
         if (Files.exists(modelFile)) {
           // delete model file - be careful
@@ -347,19 +325,19 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @param learntModel The trained model
     * @return
     */
-  def writeModel(id: ModelID, learntModel: SerializableMLibClassifier): Boolean = {
-    val writePath = modelPath(id).toString
+  def addModel(id: ModelID, learntModel: SerializableMLibClassifier): Option[Path] = {
+    val writePath = defaultModelPath(id)
 
-    val out = Try(new ObjectOutputStream(new FileOutputStream(writePath)))
-    logger.info(s"Writing model rf:  $writePath")
+    val out = Try(new ObjectOutputStream(new FileOutputStream(writePath.toString)))
+    logger.info(s"Writing model rf: $writePath")
     out match {
       case Failure(err) =>
         logger.error(s"Failed to write model: ${err.getMessage}")
-        false
+        None
       case Success(f) =>
         f.writeObject(learntModel)
         f.close()
-        true
+        Some(writePath)
     }
   }
 
@@ -373,24 +351,24 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @param status The current status of the model training.
     * @return
     */
-  def updateTrainState(id: ModelID
-                       , status: Status
-                       , msg: String = ""
-                       , deleteRF: Boolean = true
-                       , changeDate: Boolean = true): Option[TrainState] = {
+  def updateTrainState(id: ModelID,
+                       status: Status,
+                       msg: String = "",
+                       path: Option[Path] = None
+                      ): Option[TrainState] = {
     synchronized {
       for {
         model <- ModelStorage.get(id)
         // state dates should not be changed if changeDate is false
-        trainState = if (changeDate) {
-          TrainState(status, msg, model.state.dateCreated, DateTime.now)
-        }
-        else {
-          TrainState(status, msg, model.state.dateCreated, model.state.dateModified)
-        }
-        id <- ModelStorage.update(id
-          , model.copy(state = trainState, dateModified = model.dateModified)
-          , deleteRF)
+        trainState = TrainState(status, msg, DateTime.now)
+        // we now update the model with the training information...
+        newModel = model.copy(
+          state = trainState,
+          dateModified = model.dateModified,
+          modelPath = path//,
+          //predictionPath = None
+        )
+        id <- ModelStorage.update(id, newModel)
       } yield trainState
     }
   }
@@ -414,118 +392,37 @@ object ModelStorage extends Storage[ModelID, Model] {
   }
 
   /**
-    * Check if the file for the trained model was written after changes to the model
-    *
-    * @param model
-    * @param modelFile
-    * @return boolean
-    */
-  def checkModelFileCreation(model: Model, modelFile: String): Boolean = {
-    val f = new File(modelFile)
-    val stateLastModified = model.state.dateModified
-    (f.exists // model.rf file exists
-      && model.dateModified.isBefore(f.lastModified) // model.rf was modified after model modifications
-      && model.dateModified.isBefore(stateLastModified) // state was modified after model modifications
-      )
-  }
-
-  /**
-    * Check if the model was trained after changes to the dataset repository
-    *
-    * @param model
-    * @return boolean
-    */
-  def checkModelTrainDataset(model: Model): Boolean = {
-    model.refDataSets
-      .map(DatasetStorage.get)
-      .map {
-        case Some(ds) =>
-          ds.dateModified.isBefore(model.state.dateModified)
-        case _ =>
-          false
-      }
-      .reduce(_ && _)
-  }
-
-  /**
     * Check if the trained model is consistent.
-    * If the model is untrained or any error is encountered, it returns false.
-    * If the learnt model is consistent, it returns true.
+    * This means that the model file is available, and that the datasets
+    * have not been updated since the model was last modified.
     *
-    * @param id
+    * @param id ID for the model
     * @return boolean
     */
   def isConsistent(id: ModelID): Boolean = {
-    // check if .rf file exists
-    // check model state
-    // check if json file was updated after .rf file was created
-    // check if dataset repo was updated
     logger.info(s"Checking consistency of model $id")
-    val modelFile = modelPath(id).toString
-    ModelStorage.get(id) match {
-      case Some(model) =>
-        (checkModelFileCreation(model, modelFile)
-          && checkModelTrainDataset(model)
-          && model.state.status == Status.COMPLETE)
-      case _ =>
-        false // model does not exist or some other problem
-    }
+
+    // make sure the datasets in the model are older
+    // than the training state
+    val isOK = for {
+      model <- get(id)
+      path = model.modelPath
+      trainDate = model.state.dateChanged
+      refIDs = model.refDataSets
+      refs = refIDs.flatMap(DatasetStorage.get).map(_.dateModified)
+
+      // make sure the model is complete
+      isComplete = model.state.status == COMPLETE
+
+      // make sure the datasets are older than the training date
+      allBefore = refs.forall(_.isBefore(trainDate))
+
+      // make sure the model file is there...
+      modelExists = path.exists(Files.exists(_))
+
+    } yield allBefore && modelExists && isComplete
+
+    isOK getOrElse false
   }
 
-  /**
-    * List those dataset ids for which up-to-date predictions are available.
-    *
-    * @param id Model id
-    * @return List of strings which indicate files with calculated predictions.
-    */
-  def predictionCache(id: ModelID): List[DataSetID] = {
-
-    val model = ModelStorage.get(id).getOrElse(throw NotFoundException(s"Model $id not found."))
-
-    val predPath = predictionsPath(id)
-
-    Option(new File(predPath.toString) listFiles) match {
-      case Some(fileList) =>
-        val files = fileList
-          .filter(_.isFile)
-          .filter(x =>
-            // get only those predictions which are up to date
-            (model.dateModified.isBefore(x.lastModified)
-              && model.state.dateModified.isBefore(x.lastModified)))
-
-        files
-          // checking model state should be unneccessary
-          // we need to check if datasets have been changed
-          .map(predFile => (predFile, predFile.toString))
-          .map {
-              case (file, str) =>
-                (file, FilenameUtils.getBaseName(str))
-          }
-          //.toList
-          .map { case (file, str) =>
-            (file, Try(str.toInt).toOption)
-          }   // converting strings to integers
-          .flatMap {
-            case (predFile, Some(dsKey)) =>
-              Some((predFile, DatasetStorage.get(dsKey)))
-            case _ =>
-              None
-          }
-          .filter {
-            case (predFile, Some(dataset)) =>
-              dataset.dateModified.isBefore(predFile.lastModified) // removing those predictions for which datasets have been modified
-            case _ =>
-              false
-          }
-          .flatMap {
-            case (predFile, Some(dataset)) =>
-              Some(dataset.id)
-            case _ =>
-              None
-          }.toList
-      case _ =>
-        logger.warn(s"Failed to open predictions dir ${predPath.toString}.")
-        List.empty[DataSetID]
-    }
-  }
 }

@@ -17,10 +17,10 @@
  */
 package au.csiro.data61.matcher.types
 
-import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
+import java.nio.file.Path
+
 import au.csiro.data61.matcher.types.DataSetTypes.DataSetID
 import au.csiro.data61.matcher.types.ModelTypes.ModelID
-import com.nicta.dataint.matcher.train.TrainAliases.PredictionObject
 import org.joda.time.DateTime
 import org.json4s._
 
@@ -36,7 +36,8 @@ object ModelTypes {
                    costMatrix: List[List[Double]],
                    resamplingStrategy: SamplingStrategy,
                    labelData: Map[Int, String], // WARNING: Int should be ColumnID! Json4s bug.
-                   refDataSets: List[Int],
+                   refDataSets: List[Int],   // WARNING: Int should be DataSetID! Json4s bug.
+                   modelPath: Option[Path],
                    state: TrainState,
                    dateCreated: DateTime,
                    dateModified: DateTime) extends Identifiable[ModelID]
@@ -82,15 +83,14 @@ object ModelTypes {
 
   /**
    * Training state
+ *
    * @param status The current state of the model training
    * @param message Used for reporting, mainly error messages
-   * @param dateCreated The time it was first created
-   * @param dateModified The last time the state changed
+   * @param dateChanged The last time the state changed
    */
   case class TrainState(status: Status,
                         message: String,
-                        dateCreated: DateTime,
-                        dateModified: DateTime)
+                        dateChanged: DateTime)
 }
 
 /**
@@ -244,6 +244,7 @@ case class ColumnPrediction(label: String,
 
 /**
   * Object to return to the user for a prediction on a dataset
+ *
   * @param modelID The model used
   * @param dataSetID The dataset used
   * @param predictions The map of ColumnID -> ColumnPrediction object

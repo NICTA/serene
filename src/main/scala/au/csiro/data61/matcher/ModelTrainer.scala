@@ -28,7 +28,7 @@ import com.typesafe.scalalogging.LazyLogging
 import com.nicta.dataint.data.SemanticTypeLabels
 import com.nicta.dataint.matcher.train.{TrainMlibSemanticTypeClassifier, TrainingSettings}
 import com.nicta.dataint.matcher.features.FeatureSettings
-import com.nicta.dataint.ingestion.loader.{CSVDataLoader, CSVHierarchicalDataLoader, SemanticTypeLabelsLoader}
+import com.nicta.dataint.ingestion.loader.{CSVDataLoader, SemanticTypeLabelsLoader}
 import com.nicta.dataint.data.DataModel
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 
@@ -47,7 +47,6 @@ case class DataintTrainModel(classes: List[String],
 object ModelTrainer extends LazyLogging {
 
   val rootDir: String = ModelStorage.rootDir
-  //val datasetDir: String = DatasetStorage.rootDir
 
   /**
     * Return an instance of class TrainingSettings
@@ -68,12 +67,8 @@ object ModelTrainer extends LazyLogging {
     * Returns a list of DataModel instances at path
     */
   def getDataModels: List[DataModel] = {
-
-    //logger.debug(s"getDataModels called for path: $path")
-
     DatasetStorage
       .getCSVResources
-      //.map{CSVHierarchicalDataLoader().readDataSet(_, "")}
       .map(CSVDataLoader().load)
   }
 
@@ -97,7 +92,7 @@ object ModelTrainer extends LazyLogging {
   /**
     * Reads in labeled data
     */
-  def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels ={
+  def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels = {
 
     logger.info(s"Reading label data from $trainerPaths")
 
@@ -112,7 +107,7 @@ object ModelTrainer extends LazyLogging {
   }
 
   /**
-    * Performs training for the model and returns serialized object for the learnt model
+    * Performs training for the model and returns serialized object for the learned model
     */
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
 

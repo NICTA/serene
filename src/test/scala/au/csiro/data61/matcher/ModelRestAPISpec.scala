@@ -342,651 +342,657 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("version number is 1.0") {
     assert(APIVersion === "v1.0")
   }
-//
-//  test("GET /v1.0/model responds Ok(200)") (new TestServer {
-//    try {
-//      val response = get(s"/$APIVersion/model")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.Ok)
-//      assert(!response.contentString.isEmpty)
-//      assert(Try { parse(response.contentString).extract[List[ModelID]] }.isSuccess)
-//    } finally {
-//      deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model responds Ok(200)") (new TestServer {
-//    try {
-//      val LabelLength = 4
-//      val TestStr = randomString
-//      val TestClasses = List.fill(LabelLength)(randomString)
-//
-//      val json =
-//        ("description" -> TestStr) ~
-//          ("modelType" -> "randomForest") ~
-//          ("classes" -> TestClasses) ~
-//          ("features" -> defaultFeatures) ~
-//          ("costMatrix" -> defaultCostMatrix) ~
-//          ("resamplingStrategy" -> "ResampleToMean")
-//
-//      val request = postRequest(json)
-//
-//      val response = Await.result(client(request))
-//
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.Ok)
-//      assert(!response.contentString.isEmpty)
-//      val model = parse(response.contentString).extract[Model]
-//
-//      assert(model.description === TestStr)
-//      assert(model.classes === TestClasses)
-//
-//    } finally {
-//        deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model only classes and features required") (new TestServer {
-//    try {
-//
-//      val LabelLength = 4
-//      val TestClasses = List.fill(LabelLength)(randomString)
-//
-//      val json =
-//        ("classes" -> TestClasses) ~
-//          ("features" -> defaultFeatures)
-//
-//      val request = postRequest(json)
-//
-//      val response = Await.result(client(request))
-//
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.Ok)
-//      assert(!response.contentString.isEmpty)
-//      val model = parse(response.contentString).extract[Model]
-//
-//      assert(model.classes === TestClasses)
-//      assert(model.features === FeaturesConfig(
-//        activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals"),
-//        activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"),
-//        featureExtractorParams = Map(
-//          "prop-instances-per-class-in-knearestneighbours" -> Map(
-//            "name" -> "prop-instances-per-class-in-knearestneighbours",
-//            "num-neighbours" -> "5")
-//        )))
-//
-//    } finally {
-//        deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model should create correct refDataSets") (new TestServer {
-//    try {
-//      val TestStr = randomString
-//      val PollTime = 1000
-//      val PollIterations = 10
-//
-//      // first we add a simple dataset
-//      val ds = createDataSet(this)
-//
-//      val labelMap = createLabelMap(ds)
-//
-//      // next we train the dataset
-//      createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
-//
-//        case Success(model) =>
-//
-//          val response = get(s"/$APIVersion/model/${model.id}")
-//
-//          val m = parse(response.contentString).extract[Model]
-//
-//          assert(m.refDataSets.nonEmpty)
-//          assert(m.refDataSets.contains(ds.id))
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
-//
-//
-//
-//  test("POST /v1.0/model fails if classes not present BadRequest(400)") (new TestServer {
-//    try {
-//
-//      // some request without classes...
-//      val json = "description" -> randomString
-//
-//      val request = postRequest(json)
-//
-//      val response = Await.result(client(request))
-//
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.BadRequest)
-//      assert(!response.contentString.isEmpty)
-//
-//    } finally {
-//        deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model fails if incorrect format BadRequest(400)") (new TestServer {
-//    try {
-//
-//      // some request with a bad model type
-//      val json =
-//        ("classes" -> defaultClasses) ~
-//          ("features" -> defaultFeatures) ~
-//          ("modelType" -> ">>>bad-value<<<")
-//
-//      val request = postRequest(json)
-//
-//      val response = Await.result(client(request))
-//
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.BadRequest)
-//      assert(!response.contentString.isEmpty)
-//
-//    } finally {
-//        deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model appears in model list") (new TestServer {
-//    try {
-//      val LabelLength = 4
-//      val TestClasses = List.fill(LabelLength)(randomString)
-//
-//      createModel(TestClasses) match {
-//        case Success(model) =>
-//
-//          // build a request to modify the model...
-//          val response = get(s"/$APIVersion/model")
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // ensure that the object appears in the master list...
-//          val datasets = parse(response.contentString).extract[List[Int]]
-//          assert(datasets.contains(model.id))
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//        deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("GET /v1.0/model/id responds Ok(200)") (new TestServer {
-//    try {
-//      val LabelLength = 4
-//      val TestStr = randomString
-//      val TestClasses = List.fill(LabelLength)(randomString)
-//
-//      createModel(TestClasses, Some(TestStr)) match {
-//        case Success(model) =>
-//
-//          // build a request to get the model...
-//          val response = get(s"/$APIVersion/model/${model.id}")
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // ensure that the data is correct...
-//          val returnedModel = parse(response.contentString).extract[Model]
-//
-//          assert(returnedModel.description  === model.description)
-//          assert(returnedModel.description  === TestStr)
-//          assert(returnedModel.dateCreated  === model.dateCreated)
-//          assert(returnedModel.dateModified === model.dateModified)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//
-//    } finally {
-//        deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("GET /v1.0/model/id missing id returns NotFound(404)") (new TestServer {
-//    try {
-//      // Attempt to grab a dataset at zero. This should be
-//      // converted to an int successfully but cannot be created
-//      // by the id gen.
-//      val response = get(s"/$APIVersion/model/0")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.NotFound)
-//      assert(!response.contentString.isEmpty)
-//    } finally {
-//        deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("GET /v1.0/model/id non-int returns empty NotFound(404)") (new TestServer {
-//    try {
-//      // Attempt to grab a model at 'asdf'. This should be
-//      // converted to an int successfully but cannot be created
-//      // by the id gen.
-//      val response = get(s"/$APIVersion/model/asdf")
-//      assert(response.status === Status.NotFound)
-//      assert(response.contentString.isEmpty)
-//    } finally {
-//        deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/id model update responds Ok(200)") (new TestServer {
-//    try {
-//      val LabelLength = 4
-//      val TestStr = randomString
-//      val TestClasses = List.fill(LabelLength)(randomString)
-//      val PauseTime = 2000
-//
-//      val NewDescription = randomString
-//      val NewClasses = List.fill(LabelLength)(randomString)
-//
-//      createModel(TestClasses, Some(TestStr)) match {
-//        case Success(ds) =>
-//          // wait for the clock to tick for the dateModified
-//          Thread.sleep(PauseTime)
-//
-//          val json =
-//            ("description" -> NewDescription) ~
-//              ("modelType" -> "randomForest") ~
-//              ("classes" -> NewClasses) ~
-//              ("features" -> defaultFeatures ) ~
-//              ("costMatrix" -> defaultCostMatrix) ~
-//              ("resamplingStrategy" -> "ResampleToMean")
-//
-//          val request = postRequest(json, s"/$APIVersion/model/${ds.id}")
-//
-//          // send the request and make sure it executes
-//          val response = Await.result(client(request))
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // ensure that the data is correct...
-//          val patchModel = parse(response.contentString).extract[Model]
-//          assert(patchModel.description === NewDescription)
-//          assert(patchModel.classes === NewClasses)
-//          assert(patchModel.dateCreated !== patchModel.dateModified)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//        deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("DELETE /v1.0/model/id responds Ok(200)") (new TestServer {
-//    try {
-//      val TestStr = randomString
-//      val NumClasses = 4
-//      val TestClasses = List.fill(NumClasses)(randomString)
-//
-//      createModel(TestClasses, Some(TestStr)) match {
-//        case Success(model) =>
-//
-//          // build a request to modify the dataset...
-//          val resource = s"/$APIVersion/model/${model.id}"
-//
-//          val response = delete(resource)
-//          assert(response.contentType === Some(JsonHeader))
-//          assert(response.status === Status.Ok)
-//          assert(!response.contentString.isEmpty)
-//
-//          // there should be nothing there, and the response
-//          // should say so.
-//          val noResource = get(resource)
-//          assert(noResource.contentType === Some(JsonHeader))
-//          assert(noResource.status === Status.NotFound)
-//          assert(!noResource.contentString.isEmpty)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//        deleteAllModels()
-//      assertClose()
-//    }
-//  })
-//
-//  test("DELETE /v1.0/dataset/:id should remove columns and refDataSets from model") (new TestServer {
-//    try {
-//      val TestStr = randomString
-//      val PollTime = 1000
-//      val PollIterations = 10
-//
-//      // first we add a simple dataset
-//      val ds = createDataSet(this)
-//
-//      val labelMap = createLabelMap(ds)
-//
-//      // next we train the dataset
-//      createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
-//
-//        case Success(model) =>
-//
-//          DataSet.deleteAllDataSets()
-//
-//          val response = get(s"/$APIVersion/model/${model.id}")
-//
-//          val m = parse(response.contentString).extract[Model]
-//
-//          assert(m.refDataSets.isEmpty)
-//          assert(m.labelData.isEmpty)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
-//
-//  //==============================================================================
-//  // Tests for model training endpoint
-//
-//  test("POST /v1.0/model/1/train returns model not found") (new TestServer {
-//    try {
-//
-//      // sending training request
-//      val trainResp = RequestBuilder()
-//        .url(s.fullUrl(s"/$APIVersion/model/1/train"))
-//        .addHeader("Content-Type", "application/json")
-//        .buildPost(Buf.Utf8(""))
-//
-//      val response = Await.result(client(trainResp))
-//
-//      assert(response.status === Status.NotFound)
-//      assert(response.contentString.nonEmpty)
-//
-//    } finally {
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/:id/train accepts request and completes successfully") (new TestServer {
-//    try {
-//      val PollTime = 1000
-//      val PollIterations = 10
-//
-//      val (model, _) = trainDefault
-//      val trained = pollModelState(model, PollIterations, PollTime)
-//
-//      val state = concurrent.Await.result(trained, 15 seconds)
-//
-//      assert(state === ModelTypes.Status.COMPLETE)
-//
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/:id/train on a model with no labels should return an error") (new TestServer {
-//    try {
-//      val TestStr = randomString
-//      val PollTime = 1000
-//      val PollIterations = 10
-//
-//      // next we train the dataset
-//      createModel(defaultClasses, Some(TestStr), Some(Map.empty[String, String])) match {
-//
-//        case Success(model) =>
-//
-//          val request = RequestBuilder()
-//            .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))
-//            .addHeader("Content-Type", "application/json")
-//            .buildPost(Buf.Utf8(""))
-//
-//          // send the request and make sure it executes
-//          val response = Await.result(client(request))
-//
-//          val trained = pollModelState(model, PollIterations, PollTime)
-//
-//          val state = concurrent.Await.result(trained, 15 seconds)
-//
-//          assert(response.status === Status.Accepted)
-//          assert(response.contentString.isEmpty)
-//          assert(state === ModelTypes.Status.ERROR)
-//
-//        case Failure(err) =>
-//          throw new Exception("Failed to create test resource")
-//      }
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/:id/train should immediately return busy") (new TestServer {
-//    try {
-//      val PollTime = 1000
-//      val PollIterations = 10
-//
-//      val (model, _) = trainDefault
-//
-//      val busyResponse = get(s"/$APIVersion/model/${model.id}")
-//      val busyModel = parse(busyResponse.contentString).extract[Model]
-//      assert(busyModel.state.status === ModelTypes.Status.BUSY)
-//
-//      // now just make sure it completes...
-//      val trained = pollModelState(model, PollIterations, PollTime)
-//      val state = concurrent.Await.result(trained, 15 seconds)
-//
-//      assert(state === ModelTypes.Status.COMPLETE)
-//
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/:id/train once trained should return cached value immediately") (new TestServer {
-//    try {
-//      val PollTime = 1000
-//      val PollIterations = 10
-//
-//      val (model, _) = trainDefault
-//
-//      // now just make sure it completes...
-//      val trained = pollModelState(model, PollIterations, PollTime)
-//      val state = concurrent.Await.result(trained, 15 seconds)
-//
-//      assert(state === ModelTypes.Status.COMPLETE)
-//
-//      // training complete, now check to see that another train
-//      // uses cached value
-//      val secondRequest = RequestBuilder()
-//        .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))
-//        .addHeader("Content-Type", "application/json")
-//        .buildPost(Buf.Utf8(""))
-//
-//      // send the request and make sure it executes
-//      val secondResponse = Await.result(client(secondRequest))
-//      assert(secondResponse.status === Status.Accepted)
-//      assert(secondResponse.contentString.isEmpty)
-//
-//      // now query the model with no delay and make sure it is complete...
-//      val completeResponse = get(s"/$APIVersion/model/${model.id}")
-//      val completeModel = parse(completeResponse.contentString).extract[Model]
-//      assert(completeModel.state.status === ModelTypes.Status.COMPLETE)
-//
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/:id/train once trained should return busy if model is changed") (new TestServer {
-//    try {
-//      val PollTime = 1000
-//      val PollIterations = 10
-//
-//      val (model, _) = trainDefault
-//
-//      // now just make sure it completes...
-//      val trained = pollModelState(model, PollIterations, PollTime)
-//      val state = concurrent.Await.result(trained, 15 seconds)
-//
-//      assert(state === ModelTypes.Status.COMPLETE)
-//
-//      // now update the model...
-//      val json = "description" -> "new change"
-//      val request = postRequest(json, s"/$APIVersion/model/${model.id}")
-//      Await.result(client(request)) // wait for the files to be overwritten
-//
-//      // now launch another training event...
-//      val secondRequest = RequestBuilder()
-//        .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))
-//        .addHeader("Content-Type", "application/json")
-//        .buildPost(Buf.Utf8(""))
-//
-//      // send the request and make sure it executes
-//      val secondResponse = Await.result(client(secondRequest))
-//      assert(secondResponse.status === Status.Accepted)
-//      assert(secondResponse.contentString.isEmpty)
-//
-//      // now query the model with no delay and make sure it is complete...
-//      val completeResponse = get(s"/$APIVersion/model/${model.id}")
-//      val completeModel = parse(completeResponse.contentString).extract[Model]
-//      assert(completeModel.state.status === ModelTypes.Status.BUSY)
-//
-//      // now just make sure it completes...
-//      val finalTrained = pollModelState(model, PollIterations, PollTime)
-//      val finalState = concurrent.Await.result(finalTrained, 15 seconds)
-//      assert(finalState === ModelTypes.Status.COMPLETE)
-//
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/:id/train creates default Model file") (new TestServer {
-//    try {
-//      val PollTime = 1000
-//      val PollIterations = 10
-//
-//      val (model, ds) = trainDefault
-//
-//      // now just make sure it completes...
-//      val trained = pollModelState(model, PollIterations, PollTime)
-//      val state = concurrent.Await.result(trained, 15 seconds)
-//
-//      assert(state === ModelTypes.Status.COMPLETE)
-//
-//      // check the content of .rf file
-//      val learntModelFile = Paths.get(Config.ModelStorageDir, s"${model.id}", "workspace", s"${model.id}.rf").toFile
-//      assert(learntModelFile.exists === true)
-//
-//      // pre-computed model from raw data-integration project...
-//      val corFile = Paths.get(helperDir, "default-model.rf").toFile
-//
-//      // checking that the models are the same; direct comparison of file contents does not yield correct results
-//      (for {
-//        inLearnt <- Try( new ObjectInputStream(new FileInputStream(learntModelFile)))
-//        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
-//        inCor <- Try( new ObjectInputStream(new FileInputStream(corFile)))
-//        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
-//      } yield (dataLearnt, dataCor) ) match {
-//        case Success((data, cor)) =>
-//          assert(data.classes === cor.classes)
-//          assert(data.featureExtractors === cor.featureExtractors)
-//        case Failure(err) =>
-//          throw new Exception(err.getMessage)
-//      }
-//
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/:id/predict/:id returns successfully") (new TestServer {
-//    try {
-//      val PollTime = 1000
-//      val PollIterations = 10
-//
-//      val (model, ds) = trainDefault
-//
-//      // now just make sure it completes...
-//      val trained = pollModelState(model, PollIterations, PollTime)
-//      val state = concurrent.Await.result(trained, 15 seconds)
-//
-//      assert(state === ModelTypes.Status.COMPLETE)
-//
-//      // now make a prediction
-//      val request = RequestBuilder()
-//        .url(s.fullUrl(s"/$APIVersion/model/${model.id}/predict/${ds.id}"))
-//        .addHeader("Content-Type", "application/json")
-//        .buildPost(Buf.Utf8(""))
-//
-//      val response = Await.result(client(request))
-//
-//      assert(response.status === Status.Ok)
-//
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/:id/predict/:id prediction fails if model is not trained") (new TestServer {
-//    val TestStr = randomString
-//
-//    // first we add a simple dataset
-//    val ds: DataSet = createDataSet(this)
-//    val labelMap = createLabelMap(ds)
-//
-//    // next we train the dataset
-//    createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
-//
-//      case Success(model) =>
-//
-//        val request = RequestBuilder()
-//          .url(fullUrl(s"/$APIVersion/model/${model.id}/predict/${ds.id}"))
-//          .addHeader("Content-Type", "application/json")
-//          .buildPost(Buf.Utf8(""))
-//
-//        // send the request and make sure it executes
-//        val response = Await.result(client(request))
-//
-//        assert(response.status === Status.BadRequest)
-//        assert(response.contentString.nonEmpty)
-//
-//      case Failure(err) =>
-//        throw new Exception("Failed to create test resource")
-//    }
-//  })
+
+  test("GET /v1.0/model responds Ok(200)") (new TestServer {
+    try {
+      val response = get(s"/$APIVersion/model")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      assert(Try { parse(response.contentString).extract[List[ModelID]] }.isSuccess)
+    } finally {
+      deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model responds Ok(200)") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestStr = randomString
+      val TestClasses = List.fill(LabelLength)(randomString)
+
+      val json =
+        ("description" -> TestStr) ~
+          ("modelType" -> "randomForest") ~
+          ("classes" -> TestClasses) ~
+          ("features" -> defaultFeatures) ~
+          ("costMatrix" -> defaultCostMatrix) ~
+          ("resamplingStrategy" -> "ResampleToMean")
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      val model = parse(response.contentString).extract[Model]
+
+      assert(model.description === TestStr)
+      assert(model.classes === TestClasses)
+
+    } finally {
+        deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model only classes and features required") (new TestServer {
+    try {
+
+      val LabelLength = 4
+      val TestClasses = List.fill(LabelLength)(randomString)
+
+      val json =
+        ("classes" -> TestClasses) ~
+          ("features" -> defaultFeatures)
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      val model = parse(response.contentString).extract[Model]
+
+      assert(model.classes === TestClasses)
+      assert(model.features === FeaturesConfig(
+        activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals"),
+        activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"),
+        featureExtractorParams = Map(
+          "prop-instances-per-class-in-knearestneighbours" -> Map(
+            "name" -> "prop-instances-per-class-in-knearestneighbours",
+            "num-neighbours" -> "5")
+        )))
+
+    } finally {
+        deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model should create correct refDataSets") (new TestServer {
+    try {
+      val TestStr = randomString
+      val PollTime = 1000
+      val PollIterations = 10
+
+      // first we add a simple dataset
+      val ds = createDataSet(this)
+
+      val labelMap = createLabelMap(ds)
+
+      // next we train the dataset
+      createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
+
+        case Success(model) =>
+
+          val response = get(s"/$APIVersion/model/${model.id}")
+
+          val m = parse(response.contentString).extract[Model]
+
+          assert(m.refDataSets.nonEmpty)
+          assert(m.refDataSets.contains(ds.id))
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+
+
+  test("POST /v1.0/model fails if classes not present BadRequest(400)") (new TestServer {
+    try {
+
+      // some request without classes...
+      val json = "description" -> randomString
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.BadRequest)
+      assert(!response.contentString.isEmpty)
+
+    } finally {
+        deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model fails if incorrect format BadRequest(400)") (new TestServer {
+    try {
+
+      // some request with a bad model type
+      val json =
+        ("classes" -> defaultClasses) ~
+          ("features" -> defaultFeatures) ~
+          ("modelType" -> ">>>bad-value<<<")
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.BadRequest)
+      assert(!response.contentString.isEmpty)
+
+    } finally {
+        deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model appears in model list") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestClasses = List.fill(LabelLength)(randomString)
+
+      createModel(TestClasses) match {
+        case Success(model) =>
+
+          // build a request to modify the model...
+          val response = get(s"/$APIVersion/model")
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // ensure that the object appears in the master list...
+          val datasets = parse(response.contentString).extract[List[Int]]
+          assert(datasets.contains(model.id))
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+        deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/id responds Ok(200)") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestStr = randomString
+      val TestClasses = List.fill(LabelLength)(randomString)
+
+      createModel(TestClasses, Some(TestStr)) match {
+        case Success(model) =>
+
+          // build a request to get the model...
+          val response = get(s"/$APIVersion/model/${model.id}")
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // ensure that the data is correct...
+          val returnedModel = parse(response.contentString).extract[Model]
+
+          assert(returnedModel.description  === model.description)
+          assert(returnedModel.description  === TestStr)
+          assert(returnedModel.dateCreated  === model.dateCreated)
+          assert(returnedModel.dateModified === model.dateModified)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+
+    } finally {
+        deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/id missing id returns NotFound(404)") (new TestServer {
+    try {
+      // Attempt to grab a dataset at zero. This should be
+      // converted to an int successfully but cannot be created
+      // by the id gen.
+      val response = get(s"/$APIVersion/model/0")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.NotFound)
+      assert(!response.contentString.isEmpty)
+    } finally {
+        deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("GET /v1.0/model/id non-int returns empty NotFound(404)") (new TestServer {
+    try {
+      // Attempt to grab a model at 'asdf'. This should be
+      // converted to an int successfully but cannot be created
+      // by the id gen.
+      val response = get(s"/$APIVersion/model/asdf")
+      assert(response.status === Status.NotFound)
+      assert(response.contentString.isEmpty)
+    } finally {
+        deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/id model update responds Ok(200)") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestStr = randomString
+      val TestClasses = List.fill(LabelLength)(randomString)
+      val PauseTime = 2000
+
+      val NewDescription = randomString
+      val NewClasses = List.fill(LabelLength)(randomString)
+
+      createModel(TestClasses, Some(TestStr)) match {
+        case Success(ds) =>
+          // wait for the clock to tick for the dateModified
+          Thread.sleep(PauseTime)
+
+          val json =
+            ("description" -> NewDescription) ~
+              ("modelType" -> "randomForest") ~
+              ("classes" -> NewClasses) ~
+              ("features" -> defaultFeatures ) ~
+              ("costMatrix" -> defaultCostMatrix) ~
+              ("resamplingStrategy" -> "ResampleToMean")
+
+          val request = postRequest(json, s"/$APIVersion/model/${ds.id}")
+
+          // send the request and make sure it executes
+          val response = Await.result(client(request))
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // ensure that the data is correct...
+          val patchModel = parse(response.contentString).extract[Model]
+          assert(patchModel.description === NewDescription)
+          assert(patchModel.classes === NewClasses)
+          assert(patchModel.dateCreated !== patchModel.dateModified)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+        deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("DELETE /v1.0/model/id responds Ok(200)") (new TestServer {
+    try {
+      val TestStr = randomString
+      val NumClasses = 4
+      val TestClasses = List.fill(NumClasses)(randomString)
+
+      createModel(TestClasses, Some(TestStr)) match {
+        case Success(model) =>
+
+          // build a request to modify the dataset...
+          val resource = s"/$APIVersion/model/${model.id}"
+
+          val response = delete(resource)
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // there should be nothing there, and the response
+          // should say so.
+          val noResource = get(resource)
+          assert(noResource.contentType === Some(JsonHeader))
+          assert(noResource.status === Status.NotFound)
+          assert(!noResource.contentString.isEmpty)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+        deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("DELETE /v1.0/dataset/:id should remove columns and refDataSets from model") (new TestServer {
+    try {
+      val TestStr = randomString
+      val PollTime = 1000
+      val PollIterations = 10
+
+      // first we add a simple dataset
+      val ds = createDataSet(this)
+
+      val labelMap = createLabelMap(ds)
+
+      // next we train the dataset
+      createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
+
+        case Success(model) =>
+
+          DataSet.deleteAllDataSets()
+
+          val response = get(s"/$APIVersion/model/${model.id}")
+
+          val m = parse(response.contentString).extract[Model]
+
+          assert(m.refDataSets.isEmpty)
+          assert(m.labelData.isEmpty)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  //==============================================================================
+  // Tests for model training endpoint
+
+  test("POST /v1.0/model/1/train returns model not found") (new TestServer {
+    try {
+
+      // sending training request
+      val trainResp = RequestBuilder()
+        .url(s.fullUrl(s"/$APIVersion/model/1/train"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(""))
+
+      val response = Await.result(client(trainResp))
+
+      assert(response.status === Status.NotFound)
+      assert(response.contentString.nonEmpty)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/train accepts request and completes successfully") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 10
+
+      val (model, _) = trainDefault
+      val trained = pollModelState(model, PollIterations, PollTime)
+
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/train on a model with no labels should return an error") (new TestServer {
+    try {
+      val TestStr = randomString
+      val PollTime = 1000
+      val PollIterations = 10
+
+      // next we train the dataset
+      createModel(defaultClasses, Some(TestStr), Some(Map.empty[String, String])) match {
+
+        case Success(model) =>
+
+          val request = RequestBuilder()
+            .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))
+            .addHeader("Content-Type", "application/json")
+            .buildPost(Buf.Utf8(""))
+
+          // send the request and make sure it executes
+          val response = Await.result(client(request))
+
+          val trained = pollModelState(model, PollIterations, PollTime)
+
+          val state = concurrent.Await.result(trained, 15 seconds)
+
+          assert(response.status === Status.Accepted)
+          assert(response.contentString.isEmpty)
+          assert(state === ModelTypes.Status.ERROR)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/train should immediately return busy") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 10
+
+      val (model, _) = trainDefault
+
+      val busyResponse = get(s"/$APIVersion/model/${model.id}")
+      val busyModel = parse(busyResponse.contentString).extract[Model]
+      assert(busyModel.state.status === ModelTypes.Status.BUSY)
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/train once trained should return cached value immediately") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 10
+
+      val (model, _) = trainDefault
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+      // training complete, now check to see that another train
+      // uses cached value
+      val secondRequest = RequestBuilder()
+        .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(""))
+
+      // send the request and make sure it executes
+      val secondResponse = Await.result(client(secondRequest))
+      assert(secondResponse.status === Status.Accepted)
+      assert(secondResponse.contentString.isEmpty)
+
+      // now query the model with no delay and make sure it is complete...
+      val completeResponse = get(s"/$APIVersion/model/${model.id}")
+      val completeModel = parse(completeResponse.contentString).extract[Model]
+      assert(completeModel.state.status === ModelTypes.Status.COMPLETE)
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/train once trained should return busy if model is changed") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 10
+
+      val (model, _) = trainDefault
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+      // now update the model...
+      val json = "description" -> "new change"
+      val request = postRequest(json, s"/$APIVersion/model/${model.id}")
+      Await.result(client(request)) // wait for the files to be overwritten
+
+      // now launch another training event...
+      val secondRequest = RequestBuilder()
+        .url(s.fullUrl(s"/$APIVersion/model/${model.id}/train"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(""))
+
+      // send the request and make sure it executes
+      val secondResponse = Await.result(client(secondRequest))
+      assert(secondResponse.status === Status.Accepted)
+      assert(secondResponse.contentString.isEmpty)
+
+      // now query the model with no delay and make sure it is complete...
+      val completeResponse = get(s"/$APIVersion/model/${model.id}")
+      val completeModel = parse(completeResponse.contentString).extract[Model]
+      assert(completeModel.state.status === ModelTypes.Status.BUSY)
+
+      // now just make sure it completes...
+      val finalTrained = pollModelState(model, PollIterations, PollTime)
+      val finalState = concurrent.Await.result(finalTrained, 15 seconds)
+      assert(finalState === ModelTypes.Status.COMPLETE)
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/train creates default Model file") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 10
+
+      val (model, ds) = trainDefault
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+      // check the content of .rf file
+      val learntModelFile = Paths.get(Config.ModelStorageDir, s"${model.id}", "workspace", s"${model.id}.rf").toFile
+      assert(learntModelFile.exists === true)
+
+      // pre-computed model from raw data-integration project...
+      val corFile = Paths.get(helperDir, "default-model.rf").toFile
+
+      // checking that the models are the same; direct comparison of file contents does not yield correct results
+      (for {
+        inLearnt <- Try( new ObjectInputStream(new FileInputStream(learntModelFile)))
+        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
+        inCor <- Try( new ObjectInputStream(new FileInputStream(corFile)))
+        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
+      } yield (dataLearnt, dataCor) ) match {
+        case Success((data, cor)) =>
+          assert(data.classes === cor.classes)
+          assert(data.featureExtractors === cor.featureExtractors)
+        case Failure(err) =>
+          throw new Exception(err.getMessage)
+      }
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/predict/:id returns successfully") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 10
+
+      val (model, ds) = trainDefault
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+      // now make a prediction
+      val request = RequestBuilder()
+        .url(s.fullUrl(s"/$APIVersion/model/${model.id}/predict/${ds.id}"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(""))
+
+      val response = Await.result(client(request))
+
+      assert(response.status === Status.Ok)
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/predict/:id prediction fails if model is not trained") (new TestServer {
+    try {
+      val TestStr = randomString
+
+      // first we add a simple dataset
+      val ds: DataSet = createDataSet(this)
+      val labelMap = createLabelMap(ds)
+
+      // next we create a model...
+      createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
+
+        case Success(model) =>
+
+          val request = RequestBuilder()
+            .url(fullUrl(s"/$APIVersion/model/${model.id}/predict/${ds.id}"))
+            .addHeader("Content-Type", "application/json")
+            .buildPost(Buf.Utf8(""))
+
+          // send the request and make sure it executes
+          val response = Await.result(client(request))
+
+          assert(response.status === Status.BadRequest)
+          assert(response.contentString.nonEmpty)
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
 
   test("POST /v1.0/model/:id/predict/:id returns predictions with validation > 0.9") (new TestServer {
     try {
@@ -1040,8 +1046,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       assert(total > 0.9)
 
     } finally {
-      //deleteAllModels()
-      //DataSet.deleteAllDataSets()
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
       assertClose()
     }
   })

@@ -128,7 +128,9 @@ object MatcherInterface extends LazyLogging {
           resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
           labelData = dataRef.cleanLabels,
           refDataSets = dataRef.refDataSets.toList,
-          state = TrainState(Status.UNTRAINED, "", DateTime.now, DateTime.now),
+          modelPath = None,
+          //predictionPath = None,
+          state = TrainState(Status.UNTRAINED, "", DateTime.now),
           dateCreated = DateTime.now,
           dateModified = DateTime.now)
       }.toOption
@@ -172,7 +174,9 @@ object MatcherInterface extends LazyLogging {
           resamplingStrategy = request.resamplingStrategy.getOrElse(old.resamplingStrategy),
           labelData = if (labelsUpdated) dataRef.cleanLabels else old.labelData,
           refDataSets = if (labelsUpdated) dataRef.refDataSets.toList else old.refDataSets,
-          state = TrainState(Status.UNTRAINED, "", old.state.dateCreated, DateTime.now),
+          state = TrainState(Status.UNTRAINED, "", DateTime.now),
+          modelPath = None,
+          //predictionPath = None,
           dateCreated = old.dateCreated,
           dateModified = DateTime.now)
       }.toOption
@@ -204,32 +208,30 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def trainModel(id: ModelID): Option[TrainState] = {
-    val state = ModelStorage.get(id).map(_.state)
-    val status = state.map(_.status)
 
-    if (ModelStorage.isConsistent(id)) {
-      logger.info(s"Model $id does not need training, it is done!")
-      state // instead of launching training we return the current model state
-    }
-    else {
-      // crude concurrency
-      status.flatMap {
-
+    for {
+      model <- ModelStorage.get(id)
+      state = model.state
+      newState = state.status match {
+        case Status.COMPLETE if ModelStorage.isConsistent(id) =>
+          logger.info(s"Model $id does not need training, it is done!")
+          state
         case Status.BUSY =>
           // if it is complete or pending, just return the value
-          logger.info("Returning cached state")
+          logger.info(s"Model $id is busy.")
           state
-
-        case Status.COMPLETE | Status.UNTRAINED | Status.ERROR => {
+        case Status.COMPLETE | Status.UNTRAINED | Status.ERROR =>
           // in the background we launch the training...
           logger.info("Launching training.....")
           // first we set the model state to training....
-          val s = ModelStorage.updateTrainState(id, Status.BUSY)
+          val newState = ModelStorage.updateTrainState(id, Status.BUSY)
           launchTraining(id)
-          s
-        }
+          newState.get
+        case _ =>
+          state
       }
-    }
+    } yield newState
+
   }
 
   /**
@@ -245,25 +247,21 @@ object MatcherInterface extends LazyLogging {
     Future {
       // proceed with training...
       ModelTrainer.train(id).map {
-        ModelStorage.writeModel(id, _)
+        ModelStorage.addModel(id, _)
       }
     } onComplete {
-      case Success(Some(true)) =>
+      case Success(Some(path)) =>
         // we update the status, the state date and do not delete the model.rf file
-        ModelStorage.updateTrainState(id, Status.COMPLETE, deleteRF = false)
-      case Success(Some(false)) =>
-        // we update the status, the state date and delete the model.rf file
-        logger.error(s"Failed to write trained model for $id.")
-        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to write trained model.")
+        ModelStorage.updateTrainState(id, Status.COMPLETE, "", path)
       case Success(None) =>
         // we update the status, the state date and delete the model.rf file
         logger.error(s"Failed to identify model paths for $id.")
-        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to identify model paths.")
+        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to identify model paths.", None)
       case Failure(err) =>
         // we update the status, the state date and delete the model.rf file
         val msg = s"Failed to train model $id: ${err.getMessage}."
         logger.error(msg)
-        ModelStorage.updateTrainState(id, Status.ERROR, msg)
+        ModelStorage.updateTrainState(id, Status.ERROR, msg, None)
     }
   }
 
@@ -279,9 +277,7 @@ object MatcherInterface extends LazyLogging {
     if (ModelStorage.isConsistent(id)) {
       // do prediction
       logger.info(s"Launching prediction for model $id...")
-
       ModelPredictor.predict(id, datasetID)
-
     } else {
       val msg = s"Prediction failed. Model $id is not trained."
       // prediction is impossible since the model has not been trained properly
@@ -289,7 +285,6 @@ object MatcherInterface extends LazyLogging {
       throw BadRequestException(msg)
     }
   }
-
 
   /**
    * Parses a servlet request to get a dataset object
@@ -330,6 +325,7 @@ object MatcherInterface extends LazyLogging {
 
   /**
     * Passes the dataset keys up to the API
+    *
     * @return
     */
   def datasetKeys: List[DataSetID] = {
@@ -338,6 +334,7 @@ object MatcherInterface extends LazyLogging {
 
   /**
     * Passes the model keys up to the API
+    *
     * @return
     */
   def modelKeys: List[ModelID] = {

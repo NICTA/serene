@@ -17,8 +17,8 @@
   */
 package au.csiro.data61.matcher
 
-import java.io.{FileInputStream, IOException, ObjectInputStream}
-import java.nio.file.Paths
+import java.io.{FileInputStream, ObjectInputStream}
+import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.matcher.api.InternalException
 import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
@@ -28,7 +28,6 @@ import au.csiro.data61.matcher.types.ModelTypes.ModelID
 import com.github.tototoshi.csv.CSVReader
 import com.nicta.dataint.matcher.MLibSemanticTypeClassifier
 import com.typesafe.scalalogging.LazyLogging
-import org.apache.commons.io.FilenameUtils
 
 import scala.util.{Failure, Success, Try}
 
@@ -53,18 +52,25 @@ object ModelPredictor extends LazyLogging {
     logger.info(s"Dataset $datasetID is not in the cache. Computing prediction...")
 
     // read in the learned model
-    val serialMod = readLearnedModelFile(ModelStorage.modelPath(id).toString)
-      .getOrElse(throw InternalException(s"Failed to read the learned model for $id"))
+    val path = ModelStorage.defaultModelPath(id).toString
 
-    logger.info(s"Model file read from ${ModelStorage.modelPath(id).toString}")
+    val serialMod = readLearnedModelFile(path) match {
+      case Success(model) =>
+        model
+      case Failure(err) =>
+        throw InternalException(s"Failed to read model $id: ${err.getMessage}")
+    }
+
+    logger.info(s"Model file read from $path")
 
     // if datasetID does not exist or it is not csv, then nothing will be done
     DatasetStorage
       .get(datasetID)
-      .map(_.path.toString)
-      .filter(_.endsWith("csv"))
-      .flatMap(runPrediction(id, _, serialMod, datasetID))
-      .getOrElse { throw InternalException("Failed to predict model") }
+      .filter(_.path.toString.toLowerCase.endsWith("csv"))
+      .flatMap(ds => runPrediction(id, ds.path, serialMod, datasetID))
+      .getOrElse {
+        throw InternalException("Failed to predict model")
+      }
   }
 
   /**
@@ -73,16 +79,16 @@ object ModelPredictor extends LazyLogging {
     * @param filePath string which indicates file location
     * @return Serialized Mlib classifier wrapped in Option
     */
-  protected def readLearnedModelFile(filePath: String) : Option[SerializableMLibClassifier] = {
-    (for {
-      learned <- Try( new ObjectInputStream(new FileInputStream(filePath)))
-        .orElse(Failure( new IOException("Error opening model file.")))
-      data <- Try(learned.readObject().asInstanceOf[SerializableMLibClassifier])
-        .orElse(Failure( new IOException("Error reading model file.")))
-    } yield data) match {
-      case Success(mod) => Some(mod)
-      case _ => None
-    }
+  protected def readLearnedModelFile(filePath: String) : Try[SerializableMLibClassifier] = {
+    for {
+      fs <- Try {
+        new FileInputStream(filePath)
+      }
+      learned = new ObjectInputStream(fs)
+      data <- Try {
+        learned.readObject().asInstanceOf[SerializableMLibClassifier]
+      }
+    } yield data
   }
 
   /**
@@ -96,20 +102,22 @@ object ModelPredictor extends LazyLogging {
     * @return PredictionObject wrapped in Option
     */
   protected def runPrediction(id: ModelID,
-                    dsPath: String,
+                    dsPath: Path,
                     sModel: SerializableMLibClassifier,
                     dataSetID: DataSetID): Option[DataSetPrediction] = {
 
     // name of the derivedFeatureFile
     val writeName = s"$dataSetID.csv"
 
+    val predPath = ModelStorage.defaultPredictionsPath(id).toString
+
     // this is the file where predictions will be written
-    val derivedFeatureFile = Paths.get(ModelStorage.predictionsPath(id).toString, writeName)
+    val derivedFeatureFile = Paths.get(predPath, writeName)
 
     // loading data in the format suitable for data-integration project
     val dataset = CSVHierarchicalDataLoader().readDataSet(
-      FilenameUtils.getFullPath(dsPath),
-      FilenameUtils.getName(dsPath)
+      dsPath.getParent.toString,
+      dsPath.getFileName.toString
     )
 
     val randomForestClassifier = MLibSemanticTypeClassifier(
@@ -119,10 +127,11 @@ object ModelPredictor extends LazyLogging {
       None,
       Option(derivedFeatureFile.toString))
 
+    // TODO: Fix how this works, the writing and reading to files is unnecessary
     Try(randomForestClassifier.predict(List(dataset))) match {
       case Success(_) =>
         Try {
-          readPredictions(derivedFeatureFile.toString, sModel.classes.size, id, dataSetID)
+          readPredictions(derivedFeatureFile, sModel.classes.size, id, dataSetID)
         } toOption
       case Failure(err) =>
         // prediction failed for the dataset
@@ -198,10 +207,10 @@ object ModelPredictor extends LazyLogging {
     * @param modelID id of the model
     * @return List of ColumnPrediction
     */
-  protected def readPredictions(filePath: String, classNum : Int, modelID: ModelID, dsID: DataSetID): DataSetPrediction = {
+  protected def readPredictions(filePath: Path, classNum : Int, modelID: ModelID, dsID: DataSetID): DataSetPrediction = {
     logger.info(s"Reading predictions from: $filePath...")
 
-    val reader = CSVReader.open(filePath).all
+    val reader = CSVReader.open(filePath.toFile).all
     val header = readLine(reader.head, classNum)
     val predictions = for {
       line <- reader.tail

@@ -50,8 +50,15 @@ object ModelRestAPI extends RestAPI {
     modelType = ModelType.RANDOM_FOREST,
     classes = List("name", "address", "phone", "flight"),
     features = FeaturesConfig(
-      activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals"),
-      activeGroupFeatures = Set("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"),
+      activeFeatures = Set(
+        "num-unique-vals",
+        "prop-unique-vals",
+        "prop-missing-vals"
+      ),
+      activeGroupFeatures = Set(
+        "stats-of-text-length",
+        "prop-instances-per-class-in-knearestneighbours"
+      ),
       featureExtractorParams = Map(
         "prop-instances-per-class-in-knearestneighbours" -> Map(
           "name" -> "prop-instances-per-class-in-knearestneighbours",
@@ -64,8 +71,9 @@ object ModelRestAPI extends RestAPI {
       List(0,0,0,1)),
     labelData = Map.empty[Int, String],
     resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN,
+    modelPath = None,
     refDataSets = List(1, 2, 3, 4),
-    state = TrainState(Status.UNTRAINED, "", DateTime.now, DateTime.now),
+    state = TrainState(Status.UNTRAINED, "", DateTime.now),
     dateCreated = DateTime.now,
     dateModified = DateTime.now
   )
@@ -183,18 +191,6 @@ object ModelRestAPI extends RestAPI {
           InternalServerError(InternalException(err.getMessage))
       }
   }
-
-
-//  val getPrediction: Endpoint[List[ColumnPrediction]] = get(APIVersion :: "model" :: int :: "predict" :: dsParam) {
-//    (id: Int, datasetID: Option[Int]) =>
-//      val colPreds = Try(MatcherInterface.getPrediction(id, datasetID))
-//      colPreds match {
-//        case Success(preds) =>
-//          Ok(preds)
-//        case Failure(err) =>
-//          BadRequest(BadRequestException(err.getMessage))
-//      }
-//  }
 
   // TODO: model evaluation endpoint
 
