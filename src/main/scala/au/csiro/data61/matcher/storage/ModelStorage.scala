@@ -37,11 +37,11 @@ import scala.util.{Failure, Success, Try}
 /**
   * Default filenames used in data integration code
   */
-object DefaultFilenames {
-  val CostMatrix = "cost_matrix_config.json"
-  val FeaturesConfig = "features_config.json"
+object MatcherConstants {
+  val CostMatrixFile = "cost_matrix_config.json"
+  val FeaturesConfigFile = "features_config.json"
   val LabelOutDir = "labels"
-  val Labels = "labels.csv"
+  val LabelsFile = "labels.csv"
   val LabelHeader = List("attr_id", "class")
   val WorkspaceDir = "workspace"
   val PredictionsDir = "predictions/"
@@ -78,7 +78,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @return
     */
   protected def wsPath(id: ModelID): Path = {
-    Paths.get(getDirectoryPath(id).toString, DefaultFilenames.WorkspaceDir)
+    Paths.get(getDirectoryPath(id).toString, MatcherConstants.WorkspaceDir)
   }
 
   /**
@@ -88,7 +88,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @return
     */
   def defaultPredictionsPath(id: ModelID): Path = {
-    Paths.get(wsPath(id).toString, DefaultFilenames.PredictionsDir)
+    Paths.get(wsPath(id).toString, MatcherConstants.PredictionsDir)
   }
 
   /**
@@ -125,7 +125,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     logger.debug("converting labelled data to schema matcher format")
 
     // header for the file
-    val header = DefaultFilenames.LabelHeader
+    val header = MatcherConstants.LabelHeader
 
     // converting to the format: "dataSetID.csv/columnName,labelName"
     val body = value.labelData
@@ -161,7 +161,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     */
   private def writeCostMatrix(wsDir: String,
                               model: Model,
-                              outFile: String = DefaultFilenames.CostMatrix): Try[String] = {
+                              outFile: String = MatcherConstants.CostMatrixFile): Try[String] = {
     Try {
       val costMatrixConfigPath = Paths.get(wsDir.toString, outFile)
       val strCostMatrix = compact(Extraction.decompose(model.costMatrix))
@@ -186,7 +186,7 @@ object ModelStorage extends Storage[ModelID, Model] {
     */
   private def writeFeaturesConfig(wsDir: String,
                                   model: Model,
-                                  outFile: String = DefaultFilenames.FeaturesConfig): Try[String] = {
+                                  outFile: String = MatcherConstants.FeaturesConfigFile): Try[String] = {
     Try {
       val featuresConfigPath = Paths.get(wsDir.toString, outFile)
       val strFeatures = compact(Extraction.decompose(model.features))
@@ -220,8 +220,8 @@ object ModelStorage extends Storage[ModelID, Model] {
     */
   private def writeLabels(wsDir: String,
                           model: Model,
-                          outDir: String = DefaultFilenames.LabelOutDir,
-                          outFile: String = DefaultFilenames.Labels): Try[String] = {
+                          outDir: String = MatcherConstants.LabelOutDir,
+                          outFile: String = MatcherConstants.LabelsFile): Try[String] = {
     Try {
       val labelsDir = Paths.get(wsDir, outDir)
       if (!labelsDir.toFile.exists) {
@@ -386,9 +386,9 @@ object ModelStorage extends Storage[ModelID, Model] {
       .map(cm =>
         ModelTrainerPaths(curModel = cm,
           workspacePath = wsDir,
-          featuresConfigPath = Paths.get(wsDir, DefaultFilenames.FeaturesConfig).toString,
-          costMatrixConfigPath = Paths.get(wsDir, DefaultFilenames.CostMatrix).toString,
-          labelsDirPath = Paths.get(wsDir, DefaultFilenames.LabelOutDir).toString))
+          featuresConfigPath = Paths.get(wsDir, MatcherConstants.FeaturesConfigFile).toString,
+          costMatrixConfigPath = Paths.get(wsDir, MatcherConstants.CostMatrixFile).toString,
+          labelsDirPath = Paths.get(wsDir, MatcherConstants.LabelOutDir).toString))
   }
 
   /**
