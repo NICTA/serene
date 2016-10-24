@@ -56,6 +56,8 @@ object ModelStorage extends Storage[ModelID, Model] {
 
   def rootDir: String = new File(Config.ModelStorageDir).getAbsolutePath
 
+  //override val cache = collection.mutable.Map(listValues.map(m => m.id -> m).toSeq: _*)
+
   def extract(stream: FileInputStream): Model = {
     parse(stream).extract[Model]
   }

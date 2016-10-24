@@ -94,7 +94,7 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with MatcherJ
 
   protected def extract(stream: FileInputStream): Value
 
-  protected var cache: Map[Key, Value] = listValues.map(m => m.id -> m).toMap
+  lazy val cache = collection.mutable.Map(listValues.map(m => m.id -> m).toSeq: _*)
 
   def keys: List[Key] = {
     cache.keys.toList
@@ -119,9 +119,9 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with MatcherJ
    * @param id The key for the model
    * @return Resource if available
    */
-    def get(id: Key): Option[Value] = {
-      cache.get(id)
-    }
+  def get(id: Key): Option[Value] = {
+    cache.get(id)
+  }
 
   /**
    * Attempts to read all the objects out from the storage dir
