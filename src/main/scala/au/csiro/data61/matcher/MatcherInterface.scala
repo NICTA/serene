@@ -463,7 +463,7 @@ object MatcherInterface extends LazyLogging {
     val size = columns.headOption.map(_.size).getOrElse(0)
 
     // generate random samples...
-    val rnd = new scala.util.Random(0)
+    val rnd = new scala.util.Random()
 
     // we create a set of random indices that will be consistent across the
     // columns in the dataset.
