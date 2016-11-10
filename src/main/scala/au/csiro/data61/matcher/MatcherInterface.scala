@@ -349,9 +349,15 @@ object MatcherInterface extends LazyLogging {
     if (colSize.isEmpty) {
       DatasetStorage.get(id)
     } else {
-      DatasetStorage.get(id).map(ds =>
-        ds.copy(columns = getColumns(ds.path, ds.id, ds.typeMap, colSize.get))
-      )
+      DatasetStorage.get(id).map(ds => {
+        val sampleColumns = getColumns(ds.path, ds.id, ds.typeMap, colSize.get)
+
+        ds.copy(
+          columns = ds.columns.zip(sampleColumns).map {
+            case (column, sampleColumn) => column.copy(sample = sampleColumn.sample)
+          }
+        )
+      })
     }
   }
 
