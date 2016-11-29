@@ -19,6 +19,7 @@ sbt run
 The API can be used with the following commands...
 
 ## General
+By default the server will run on localhost, port 8080. This can be changed in `src/main/resources/application.conf`. To check that the server is running, ensure that the following endpoints return valid JSON:
 ```
 # check version
 curl localhost:8080
