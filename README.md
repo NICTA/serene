@@ -94,4 +94,4 @@ curl -X POST localhost:8080/v1.0/model/98793874/predict/12341234
 ```
 sbt test
 ```
->>>>>>> refactor
+
