@@ -51,7 +51,7 @@ curl -X DELETE  localhost:8080/v1.0/dataset/12341234
 ```
 
 ## Schema Matcher Models
-The model endpoint controls the parameters used for the Schema Matcher classifier. The Schema Matcher takes a list of classes, and attempts to assign them to the columns of a dataset. If a column is known, use labelData to indicate the class to the ColumnID in the dataset. The features, modelType and resamplingStrategy can be modified.
+The model endpoint controls the parameters used for the Schema Matcher classifier. The Schema Matcher takes a list of `classes`, and attempts to assign them to the columns of a dataset. If a column is known, use `labelData` to indicate the class to the ColumnID in the dataset. The `features`, `modelType` and `resamplingStrategy` can be modified.
 ```
 # List models
 curl localhost:8080/v1.0/model
