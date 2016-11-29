@@ -25,7 +25,7 @@ curl localhost:8080/v1.0
 curl localhost:8080/v1.0/dataset
 
 # Post a new dataset...
-curl -X POST -F 'file=@test.csv' "file": open(file_path, "rb"), -F 'description=This is a file' -F 'typeMap={"a":"b", "c":"d", "e":"f"}' localhost:8080/v1.0/dataset
+curl -X POST -F 'file=@test.csv' -F 'description=This is a file' -F 'typeMap={"a":"int", "c":"string", "e":"int"}' localhost:8080/v1.0/dataset
 
 # Show a single dataset
 curl localhost:8080/v1.0/dataset/12341234
@@ -34,7 +34,7 @@ curl localhost:8080/v1.0/dataset/12341234
 curl localhost:8080/v1.0/dataset/12341234?samples=50
 
 # Update a single dataset
-curl -X POST -F 'description=This is a file' -F 'typeMap={"a":"b", "c":"d", "e":"f"}' localhost:8080/v1.0/dataset/12341234
+curl -X POST -F 'description=This is a file' -F 'typeMap={"a":"int", "c":"string", "e":"float"}' localhost:8080/v1.0/dataset/12341234
 
 # Delete a dataset
 curl -X DELETE  localhost:8080/v1.0/dataset/12341234
