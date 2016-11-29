@@ -1,0 +1,223 @@
+GET https://dataint.io/v1.0/dataset
+#
+# List of all datasets
+#
+# {
+#    "datasetIDs": [4884, 23617, 568281] // test.txt, junk.txt, new.txt
+#  }
+#
+#
+
+POST https://dataint.io/v1.0/dataset
+# {
+#     "description": "This is a dataset",
+#     "file": "test.txt",  // required, must point to file on system
+#     "typeMap": {
+#          "name": "string",
+#          "age": "float",
+#          "dob": "date",
+#          "address": "string"
+#      }                   // optional
+# }
+#
+# Creates new dataset, saves timestamp
+#
+# Returns: same as GET/id below
+
+
+POST https://dataint.io/v1.0/dataset/23617
+# {
+#     "description": "This is a dataset",
+#     "typeMap": {
+#          "name": "string",
+#          "age": "float",
+#          "dob": "date",
+#          "address": "string"
+#      }
+# }
+#
+# Updates the dataset typeMap or description. Updating the resource is not allowed.
+#
+# Returns: same as GET/id below
+
+
+DELETE https://dataint.io/v1.0/dataset/23617
+#
+# Removes dataset
+#
+
+
+GET https://dataint.io/v1.0/dataset/23617?samples=5
+#
+# Dataset information
+#
+# {
+#    "datasetID": 23617,
+#    "description": "This dataset is used for testing purposes only."
+#    "dateCreated": "2013-12-12-8:13:6TZ"
+#    "filename": "test.txt",
+#    "columns": [
+#        {"column": "uios", "logicalType": null,     "sample": [1, 2, 3, 4, 5]},
+#        {"column": "asdf", "logicalType": "string", "sample": ["asdf", "qwer", "sdfg", "zxcv", ""]},
+#        {"column": "qwer", "logicalType": "float",  "sample": [0.12, 0.12, 0.5, 0.12, 0.99]},
+#        {"column": "erty", "logicalType": "int",    "sample": [4, 5, 6, 7, 8]}
+#    ]
+#   ...
+# }
+
+
+GET https://dataint.io/v1.0/model
+#
+# List of all models
+#
+# {
+#    "modelIDs": [87698465, 3945898, 34985798, 9821029, 56392047]
+#  }
+#
+#
+
+
+POST https://dataint.io/v1.0/model
+#
+# model information. Features, parameters, list of training data
+#
+# {
+#   "description": "Testing model used for identifying phone numbers only."
+#   "modelType": "randomForest",
+#   "labels": ["name", "address", "phone", "unknown"],
+#   "features": ["isAlpha", "alphaRatio", "atSigns", ...]
+#   "training": {"type": "kFold", "n": 10},
+#   "costMatrix": [[1, 2, 3], [3, 4, 5], [6, 7, 8]],
+#   "resamplingStrategy": "resampleToMean",
+#   ...
+# }
+#
+# Returns: Same as GET/<id> below...
+
+
+GET https://dataint.io/v1.0/model/87698465
+#
+# model information. Features, parameters, list of training data
+#
+# {
+#   "modelID": 87698465,
+#   "description": "Testing model used for identifying phone numbers only."
+#   "modelType": "randomForest",
+#   "labels": ["name", "address", "phone", "unknown"],
+#   "features": ["isAlpha", "alphaRatio", "atSigns", ...]
+#   "training": {"type": "kFold", "n": 10},
+#   "costMatrix": [[1, 2, 3], [3, 4, 5], [6, 7, 8]],
+#   "userData": [
+#       {"45634989": "address"},
+#       {"123423": "name"},
+#       {"457457": "phone"},
+#       {"34987": "address"},
+#       {"23454": "name"}
+#   ],
+#   "resamplingStrategy": "resampleToMean",
+#   "created": 2016-15-23-12:89,
+#   ...
+# }
+
+
+POST https://dataint.io/v1.0/model/87698465
+#
+# UPDATES the model information. Features, parameters, list of training data.
+# Note that this will destroy any previously trained model at this location
+#
+# {
+#   "description": "Testing model used for identifying phone numbers only."
+#   "modelType": "randomForest",
+#   "labels": ["name", "address", "phone", "unknown"],
+#   "features": ["isAlpha", "alphaRatio", "atSigns", ...]
+#   "training": {"type": "kFold", "n": 10},
+#   "costMatrix": [[1, 2, 3], [3, 4, 5], [6, 7, 8]],
+#   "resamplingStrategy": "resampleToMean",
+#   ...
+# }
+#
+# Returns: Same as GET/<id> below...
+
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+    "description": "This is the description",
+    "modelType": "randomForest",
+    "labels": ["name", "address", "phone"],
+    "features": { "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
+        "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
+        "featureExtractorParams" : [{"name" : "prop-instances-per-class-in-knearestneighbours","num-neighbours" : 5}]
+        },
+    "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
+    "userData" : {"1" : "name", "1470086804" : "name"},
+    "resamplingStrategy": "ResampleToMean"
+    }' \
+  localhost:8080/v1.0/model
+
+GET https://dataint.io/v1.0/model/87698465/train
+#
+#  Starts the training function. Use the model to query the training state.
+#
+# Returns: Empty <Accepted 202>
+#
+
+
+GET https://dataint.io/v1.0/model/87698465/features
+#
+# Returns the information about the training dataset. Includes all datasets available at time of training.
+#
+#    "features": [
+#        {"filename": "test.txt", "column": "asdf", "label": "name", "atSign": 0.14, "entropy": 0.71, "alphaRatio": 0.94, "numbers": 0.45, "feat3": 0.44},
+#        {"filename": "test.txt", "column": "qwer", "label": "name", "atSign": 0.34, "entropy": 0.94, "alphaRatio": 0.24, "numbers": 0.81, "feat3": 0.14},
+#        {"filename": "junk.txt", "column": "ghkx", "label": "name", "atSign": 0.23, "entropy": 0.14, "alphaRatio": 0.34, "numbers": 0.78, "feat3": 0.42},
+#        {"filename": "test.txt", "column": "dfgh", "label": "name", "atSign": 0.32, "entropy": 0.11, "alphaRatio": 0.41, "numbers": 0.16, "feat3": 0.34},
+#        {"filename": "test.txt", "column": "aadf", "label": "name", "atSign": 0.31, "entropy": 0.12, "alphaRatio": 0.48, "numbers": 0.67, "feat3": 0.74},
+#        {"filename": "test.txt", "column": "dfgh", "label": "name", "atSign": 0.30, "entropy": 0.14, "alphaRatio": 0.21, "numbers": 0.56, "feat3": 0.54},
+#        {"filename": "junk.txt", "column": "ghjk", "label": "name", "atSign": 0.49, "entropy": 0.37, "alphaRatio": 0.92, "numbers": 0.26, "feat3": 0.48},
+#        {"filename": "test.txt", "column": "zxcv", "label": "name", "atSign": 0.34, "entropy": 0.18, "alphaRatio": 0.13, "numbers": 0.61, "feat3": 0.49},
+#        {"filename": "test.txt", "column": "rtyu", "label": "name", "atSign": 0.58, "entropy": 0.14, "alphaRatio": 0.44, "numbers": 0.55, "feat3": 0.03},
+#        {"filename": "test.txt", "column": "ghjk", "label": "name", "atSign": 0.64, "entropy": 0.29, "alphaRatio": 0.16, "numbers": 0.82, "feat3": 0.41},
+#        {"filename": "junk.txt", "column": "hjkl", "label": "name", "atSign": 0.37, "entropy": 0.15, "alphaRatio": 0.47, "numbers": 0.12, "feat3": 0.14}
+#    ]
+
+
+GET https://dataint.io/v1.0/model/87698465/predict?dataset=987345
+#
+# Returns a prediction for a particular dataset, including the scores and features
+# Params - showScores, showFeatures
+
+
+GET https://dataint.io/v1.0/model/87698465/predict
+#
+# Returns a prediction for all the raw data columns, including the scores and features
+# Params - showScores, showFeatures
+#
+#
+# {
+#    "labelDataID": 67464,
+#    "model": 87698465,
+#    "accuracy": 0.76,
+#    "features": [
+#        {"datasetID": 23617, "column": "lpki", "userDefined": 1, "label": "name",    "scores": { "name": 0.14, "phone": 0.21, "address": 0.56, "unknown": 0.54 }, "features" :[] },
+#        {"datasetID": 4884,  "column": "ghjk", "userDefined": 0, "label": "name",    "scores": { "name": 0.37, "phone": 0.92, "address": 0.26, "unknown": 0.48 }, "features" :[] },
+#        {"datasetID": 23617, "column": "opan", "userDefined": 1, "label": "phone",   "scores": { "name": 0.18, "phone": 0.13, "address": 0.61, "unknown": 0.49 }, "features" :[] },
+#        {"datasetID": 23617, "column": "rtyu", "userDefined": 0, "label": "unknown", "scores": { "name": 0.14, "phone": 0.44, "address": 0.55, "unknown": 0.03 }, "features" :[] },
+#        {"datasetID": 23617, "column": "werh", "userDefined": 1, "label": "name",    "scores": { "name": 0.29, "phone": 0.16, "address": 0.82, "unknown": 0.41 }, "features" :[] },
+#        {"datasetID": 4884,  "column": "thdh", "userDefined": 1, "label": "address", "scores": { "name": 0.15, "phone": 0.47, "address": 0.12, "unknown": 0.14 }, "features" :[] },
+#        {"datasetID": 23617, "column": "dhzs", "userDefined": 1, "label": "address", "scores": { "name": 0.94, "phone": 0.24, "address": 0.81, "unknown": 0.14 }, "features" :[] },
+#        {"datasetID": 4884,  "column": "pahs", "userDefined": 1, "label": "name",    "scores": { "name": 0.14, "phone": 0.34, "address": 0.78, "unknown": 0.42 }, "features" :[] },
+#        {"datasetID": 23617, "column": "ghja", "userDefined": 0, "label": "unknown", "scores": { "name": 0.11, "phone": 0.41, "address": 0.16, "unknown": 0.34 }, "features" :[] },
+#        {"datasetID": 23617, "column": "aadf", "userDefined": 0, "label": "unknown", "scores": { "name": 0.12, "phone": 0.48, "address": 0.67, "unknown": 0.74 }, "features" :[] },
+#        {"datasetID": 23617, "column": "adfh", "userDefined": 1, "label": "phone",   "scores": { "name": 0.14, "phone": 0.21, "address": 0.56, "unknown": 0.54 }, "features" :[] },
+#        {"datasetID": 16628, "column": "ghjk", "userDefined": 0, "label": "unknown", "scores": { "name": 0.37, "phone": 0.92, "address": 0.26, "unknown": 0.48 }, "features" :[] },
+#        {"datasetID": 16628, "column": "zxcv", "userDefined": 0, "label": "name",    "scores": { "name": 0.18, "phone": 0.13, "address": 0.61, "unknown": 0.49 }, "features" :[] },
+#        {"datasetID": 16628, "column": "jdka", "userDefined": 0, "label": "unknown", "scores": { "name": 0.14, "phone": 0.44, "address": 0.55, "unknown": 0.03 }, "features" :[] },
+#        {"datasetID": 16628, "column": "fghd", "userDefined": 0, "label": "phone",   "scores": { "name": 0.29, "phone": 0.16, "address": 0.82, "unknown": 0.41 }, "features" :[] },
+#        {"datasetID": 16628, "column": "hjkl", "userDefined": 0, "label": "address", "scores": { "name": 0.15, "phone": 0.47, "address": 0.12, "unknown": 0.14 }, "features" :[] }
+#    ]
+# }
+
+
+
+
+
