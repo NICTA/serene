@@ -17,10 +17,17 @@ Start the web server...
 sbt run
 ```
 The API can be used with the following commands...
+
+## General
 ```
+# check version
+curl localhost:8080
+
 # simple test
 curl localhost:8080/v1.0
 
+## Datasets
+```
 # Get a list of datasets...
 curl localhost:8080/v1.0/dataset
 
@@ -38,7 +45,10 @@ curl -X POST -F 'description=This is a file' -F 'typeMap={"a":"int", "c":"string
 
 # Delete a dataset
 curl -X DELETE  localhost:8080/v1.0/dataset/12341234
+```
 
+## Schema Matcher Models
+```
 # List models
 curl localhost:8080/v1.0/model
 
