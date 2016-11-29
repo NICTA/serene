@@ -21,8 +21,9 @@ import java.io._
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
+import au.csiro.data61.matcher.drivers.ModelTrainerPaths
 import au.csiro.data61.matcher.types.ModelTypes.Status.COMPLETE
-import au.csiro.data61.matcher.{Config, ModelTrainerPaths}
+import au.csiro.data61.matcher.Config
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID, Status, TrainState}
 import com.github.tototoshi.csv.CSVWriter
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier

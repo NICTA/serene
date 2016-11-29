@@ -46,7 +46,7 @@ import org.json4s.jackson.JsonMethods._
 @RunWith(classOf[JUnitRunner])
 class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach {
 
-  import DatasetRestAPI._
+  import DatasetAPI._
 
   val Resource = getClass.getResource("/medium.csv").getPath
 

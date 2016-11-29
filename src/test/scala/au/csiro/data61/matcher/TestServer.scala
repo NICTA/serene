@@ -18,7 +18,7 @@
 package au.csiro.data61.matcher
 
 import java.net.InetSocketAddress
-
+import au.csiro.data61.matcher.api.AlignmentAPI
 import com.twitter.finagle.builder.ClientBuilder
 import com.twitter.finagle.{http, Http}
 import com.twitter.finagle.http.Response
@@ -32,12 +32,12 @@ class TestServer {
   // This is used to pass itself to tests implicitly
   implicit val s = this
 
-  val server = Matcher.defaultServer
-  val client = Http.newService(Matcher.Address)
+  val server = AlignmentAPI.defaultServer
+  val client = Http.newService(AlignmentAPI.Address)
 
   val JsonHeader = "application/json;charset=utf-8"
 
-  def fullUrl(path: String): String = s"http://${Matcher.Address}$path"
+  def fullUrl(path: String): String = s"http://${AlignmentAPI.Address}$path"
 
   /**
    * Helper function to build a get request

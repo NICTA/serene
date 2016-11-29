@@ -21,7 +21,7 @@ package au.csiro.data61.matcher
 import java.io.{File, FileInputStream, IOException, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
-import au.csiro.data61.matcher.api.DatasetRestAPI._
+import au.csiro.data61.matcher.api.DatasetAPI._
 import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.matcher.types._
 import com.twitter.finagle.http.RequestBuilder
@@ -57,7 +57,7 @@ import org.json4s.jackson.JsonMethods._
 @RunWith(classOf[JUnitRunner])
 class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach with Futures with LazyLogging {
 
-  import ModelRestAPI._
+  import ModelAPI._
 
   /**
     * Deletes all the models from the server. Assumes that

@@ -15,7 +15,7 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.matcher
+package au.csiro.data61.matcher.drivers
 
 import java.nio.file.{Files, Paths}
 
@@ -25,12 +25,11 @@ import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
 import com.typesafe.scalalogging.LazyLogging
 
 // data integration project
-import com.nicta.dataint.data.SemanticTypeLabels
-import com.nicta.dataint.matcher.train.{TrainMlibSemanticTypeClassifier, TrainingSettings}
-import com.nicta.dataint.matcher.features.FeatureSettings
+import com.nicta.dataint.data.{DataModel, SemanticTypeLabels}
 import com.nicta.dataint.ingestion.loader.{CSVDataLoader, SemanticTypeLabelsLoader}
-import com.nicta.dataint.data.DataModel
+import com.nicta.dataint.matcher.features.FeatureSettings
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
+import com.nicta.dataint.matcher.train.{TrainMlibSemanticTypeClassifier, TrainingSettings}
 
 case class ModelTrainerPaths(curModel: Model,
                              workspacePath: String,

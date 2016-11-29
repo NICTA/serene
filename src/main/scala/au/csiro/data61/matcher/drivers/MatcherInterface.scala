@@ -15,24 +15,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher
+package au.csiro.data61.matcher.drivers
 
-import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
-import types.ColumnTypes.ColumnID
-import types.ModelTypes.{Model, ModelID, Status, TrainState}
-import types._
-import DataSetTypes._
-import au.csiro.data61.matcher.api._
 import java.nio.file.Path
 
+import au.csiro.data61.matcher.api._
+import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
+import au.csiro.data61.matcher.types.ColumnTypes._
+import au.csiro.data61.matcher.types.DataSetTypes._
+import au.csiro.data61.matcher.types.ModelTypes._
+import au.csiro.data61.matcher.types._
 import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
-import scala.util.{Failure, Random, Success, Try}
-import scala.language.postfixOps
-import scala.concurrent.{ExecutionContext, Future}
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.{ExecutionContext, Future}
+import scala.language.postfixOps
+import scala.util.{Failure, Random, Success, Try}
 
 /**
  * IntegrationAPI defines the interface through which requests

@@ -18,7 +18,7 @@
 package au.csiro.data61.matcher.api
 
 import java.io.{InputStream, FileInputStream}
-
+import au.csiro.data61.matcher.drivers.MatcherInterface
 import au.csiro.data61.matcher.types.{DataSet, DataSetTypes}
 import DataSetTypes._
 import au.csiro.data61.matcher._
@@ -41,7 +41,7 @@ import scala.util.{Failure, Success, Try}
  *  POST   /v1.0/dataset/:id  -- description (string), typeMap (obj(string->string))
  *  DELETE /v1.0/dataset/:id
  */
-object DatasetRestAPI extends RestAPI {
+object DatasetAPI extends RestAPI {
 
   /**
    * Returns all dataset keys

@@ -17,6 +17,7 @@
  */
 package au.csiro.data61.matcher.api
 
+import au.csiro.data61.matcher.drivers.MatcherInterface
 import au.csiro.data61.matcher.types.ModelTypes.{Status, TrainState, ModelID, Model}
 import au.csiro.data61.matcher._
 import io.finch._
@@ -29,8 +30,6 @@ import types._
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
 
-
-
 /**
  *  Model REST endpoints...
  *
@@ -42,7 +41,7 @@ import scala.util.{Failure, Success, Try}
  *  POST   /v1.0/model/:id          -- update
  *  DELETE /v1.0/model/:id
  */
-object ModelRestAPI extends RestAPI {
+object ModelAPI extends RestAPI {
 
   val TestModel = Model(
     description = "This is a model description",

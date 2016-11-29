@@ -26,6 +26,9 @@ import org.json4s._
 
 import scala.language.postfixOps
 
+/**
+  * Collection of Types used for the Model and ModelAPI classes
+  */
 object ModelTypes {
 
   case class Model(description: String,
