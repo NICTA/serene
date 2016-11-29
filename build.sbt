@@ -43,6 +43,7 @@ lazy val root = (project in file("."))
     ,"junit"                      %  "junit"              % "4.12"
     ,"com.typesafe"               %  "config"             % "1.3.0"
     ,"au.com.nicta"               %% "data-integration"   % "1.2.0-SNAPSHOT"
+    ,"edu.mit"                    %  "jwi"                % "2.2.3"
   )
 
 
