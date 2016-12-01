@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1969 has 5
+bedroom(s), 5 full bath(s)/3 half bath(s) , 2 car garage and
+approximately 9000 square feet of living area. Rooms include dining
+room, family room, living room, bonus room, master bedroom. Features
+include fireplace, air conditioning, french doors.</house_description>
+
+<agent_name>Bill Sawyer</agent_name>
+<direct>202-338-9191</direct>
+<office>202-466-7788</office>
+<firm_name>William Sawyer &amp; Company</firm_name>
+<phone>202-466-7788</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$2,200,000</list_price>
+<location>Washington, DC 20008</location>
+<mls>DC2746501</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>5(full) 3(half)</baths>
+<levels>3 or more</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>9000 (approx)</square_feet>
+<lot_size>14082</lot_size>
+<year_built>1969</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room, Master</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, French Doors, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

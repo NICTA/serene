@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>127 MONTCLAIR</house_location>
+<price>$69,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>243974</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>GAYLE LIGHTNER</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>LARGE FINISHED AREA ON 2ND FL. COULD BE ADDL LIVING SPACE, CUTE &amp;
+COZY.THIS HOME COMES WITH ALL APPL. NEW SIDING, SOME NEWER WINDOWS,
+NEWER HWH, ROOF 7 YRS, FURNACE 10 YRS. WELL MAINTAINED.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>.</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>11 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>11 X 12</dimension><level>1</level></master>
+
+<directions>RT 8 OR HIGHWAY AVE TO MONTROSE TO LEFT ON
+MONTCLAIR</directions>
+</house_listing>
+
+
+

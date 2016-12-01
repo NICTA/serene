@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This condominium built in 1981 has 3 bedroom(s), 3 bath(s) , 1 car
+attached garage and approximately 2388 square feet of living area.
+Features include private pool, private spa, air conditioning.</house_description>
+
+<agent_name>Craig Eberhardt</agent_name>
+<direct>305-532-7204</direct>
+<office>305-531-3050</office>
+<firm_name>Kent Karlock Realt
+Lic. Real Estate Broker</firm_name>
+<phone>305-531-3050</phone>
+<fax>305-531-0035</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$725,000</list_price>
+<location>9 Island Av #1614</location>
+<neighborhood>Nine Island Avenue Condo</neighborhood>
+<mls>M766470</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>2388 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Zoned</cooling>
+<heating>Central, Zoned</heating>
+<location>Intracoastal, Bay front, Water front</location>
+<pool>Yes</pool>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Kitchen Island, Roman Tub, Tennis Court(s), Walk-InCloset(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

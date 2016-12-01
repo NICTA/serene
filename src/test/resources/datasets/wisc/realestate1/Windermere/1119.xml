@@ -1,0 +1,34 @@
+<house_listing>
+<price>$59,900</price>
+<mls_id_number>139730</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1000</sqft>
+<year_built>1997</year_built>
+<heat>Not Listed</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace>0</fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Covered Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>PRESCOTT</elementary>
+<middle_school></middle_school>
+<high_school>HELENS VIEW</high_school>
+</schools>
+
+</house_listing>
+
+
+

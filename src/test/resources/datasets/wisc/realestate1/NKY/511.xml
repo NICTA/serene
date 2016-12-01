@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1140 BELLEPOINTE</house_location>
+<price>$49,900</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>O</suburb>
+<school_dist>BELLEVUE IN</school_dist>
+<mls>242081</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>DUANE D DEGROFF</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>24HRS CALL 281-HOME #9805-CLOSE TO DOWNTOWN &amp; NKU-IMMACULATE ONE LEVEL
+NO STEPS-ALL APPLIANCES,BKFST BAR-FORMER MODEL-WBFP-ATTACHED GARAGE
+W/OPENER- WALK-IN CLOSET-NEAR POOL-STAINED WD TRIM-PASS THRU FROM KIT
+PANTRY-HDCP ACC</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>125</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<dining><dimension>14 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>RT8 EAST TO R ON RIVIERA L DONNEMEYER R BY
+CONCORD CLNRS L COVERT RUN L S WARD</directions>
+</house_listing>
+
+
+

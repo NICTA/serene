@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15750</id>
+<mls>14080</mls>
+<house_location>4955 Kornegay
+San Benito, TEXAS 78586</house_location>
+<county>Cameron</county>
+<price>$364,900</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>Executive Custom Built w/ everything!  Plus home sits on 1 acre on the Resaca.  2 stories, 2 master bedrooms, 3 car garage, game room, fitness room, 2 wet bars, Italian floors, fireplace, 25 ft. ceilings, intercom system, circular driveway.Seller willing to trade for smaller home in the $150, 000 range.  Very motivated!!!</house_description>
+
+<approx_size_sqft>4479</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>1 acre +/-</approx_lot_size>
+<year_built>1996</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>3</carport_spaces>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Executive Custom Built Home</item>
+<item>1 acre on Resaca, Game room, Fitness room</item>
+<item>4479 Square Feet/ w 2 Master Bedrooms</item>
+<item>3 Car garage, 2 wet bars,Italian Floors</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

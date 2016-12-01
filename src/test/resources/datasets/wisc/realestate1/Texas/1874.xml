@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>bojac@mailexcite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Vicki Yarbrough</name>
+<office>(512)595-7653</office>
+<fax>(512)592-9300</fax>
+<email>Yardbird@intcomm.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>1691</id>
+<mls></mls>
+<house_location>LONNIE LANE----HILLCREST SUBDIVISION
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$125,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>THIS BEAUTIFUL HOME SITS ON 2.5 ACRES,HAS AN ABOVE GROUND POOL AND PLENTY OF ROOM TO BREATHE...IT IS IN THE RICARDO SCHOOL DISTRICT AND TAXES ARE MUCH LOWER PLUS YOU WILL HAVE THE RICARDO WATER MEMBERSHIP TRANSFERRED.  PLEAS CALL SOON!</house_description>
+
+<school_district>Ricardo</school_district>
+<sub-division>Hillcrest</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>ACREAGE</item>
+<item>LOCATION</item>
+<item>SPACIOUS FAMILY RM. COMBO</item>
+<item>LOWER TAXES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

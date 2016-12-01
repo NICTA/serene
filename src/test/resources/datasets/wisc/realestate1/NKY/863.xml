@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>5014 NOB HILL</house_location>
+<price>$146,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>FT. THOMAS</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>247293</mls>
+<house_type>Condominium</house_type>
+<firm>FIRST AGENCY GROUP</firm>
+<firm_phone>(513) 831-3744</firm_phone>
+<agent>STEVE EARLY</agent>
+<agent_phone>(513) 831-3744</agent_phone>
+<house_description>TOWNHOUSE CONDO W/PANORAMIC VIEW OF CINTI. SKYLINE ! 5 MINUTES TO
+DOWNTOWN. FAM. RM. W/CUSTOM BUILT INS INCLUDES WET BAR, PLANNING DESK
+AREA, CABINETS, &amp; BOOKCASES. MIRRORED FIREPLACE IN LIV. RM. W/VAULTED
+CEILINGS &amp; VIEW.</house_description>
+<construction>Brick,Cedar</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>.</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>180</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>22 X 18</dimension><level>L</level></family>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 6</dimension><level>L</level></laundry>
+<living><dimension>20 X 13</dimension><level>1</level></living>
+<master><dimension>17 X 12</dimension><level>2</level></master>
+
+<directions>GRAND TO CHURCHHILL LF. ON NEWMAN LF. ON
+HUNTMAN, RT. ON NOB HILL</directions>
+</house_listing>
+
+
+

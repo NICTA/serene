@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1521 WOODBURN AVE</house_location>
+<price>$59,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247594</mls>
+<house_type>Single Family</house_type>
+<firm>MICHAEL WALSH REALTY</firm>
+<firm_phone>(606) 525-1234</firm_phone>
+<agent>CINDY PARKER</agent>
+<agent_phone>(606) 525-1234</agent_phone>
+<house_description>OLD WORLD CHARM/REDBRICK STONE BUILT IN 1910 TO ENDURE FOR
+CENTURIES/IRON F ENCE-TRANSOM WINDOWS-NATURAL WDWK-HDWD FLOORS-WALK-UP
+ATTIC-4 ANTIQUE MANTE LS-NOOKS &amp; CRANNIES-FULL BASEMENT WITH
+WALK-OUT-HIGH CEILINGS-FENCED YARD</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit,Atic Fan</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 13</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>2</level></master>
+
+<directions>SOUTH ON HOLMAN RIGHT ON LINDEN TO LEFT O N
+WOODBURN/SOLD 'AS IS' NO WARRANTIES</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>10799 HWY 42</house_location>
+<price>$73,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250227</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JOHN VINCE</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>HUD OWNEDL-SOLD AS IS-CASE #202-010700,INSURED STATUS UI,UP TO 5% COMM
+TO SELLING BROKER (NEGO)TO SUBMIT OFFER CALL 888-292-3917 OR SEE
+WWW.GOLDENFEATHER.COM-ALL QUEST 800-336-1399-LIST DATE 1/14/2000</house_description>
+<construction>Vinyl</construction>
+<heating>Oil</heating>
+<cooling>None</cooling>
+<fireplace>Stove</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 9</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>7 X 15</dimension><level>1</level></kitchen>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+<study><dimension>17 X 7</dimension><level>1</level></study>
+
+<directions>SOUTH ON 42 JUST PAST BIG MAC,STABLES ON RIGHT
+SIDE</directions>
+</house_listing>
+
+
+

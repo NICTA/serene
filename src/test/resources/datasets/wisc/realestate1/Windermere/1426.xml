@@ -1,0 +1,34 @@
+<house_listing>
+<price>$119,935</price>
+<mls_id_number>165141</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>2400</sqft>
+<year_built>1915</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.17        Acres</lot_size>
+<lot_description>75X100</lot_description>
+<fireplace>0</fireplace>
+<taxes>$1,617</taxes>
+<floors>Not Listed</floors>
+<interior>Security System, Water Softener</interior>
+<exterior>Garden, Porch, RV-Park,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>APPLEGATE</elementary>
+<middle_school>OCKLEY</middle_school>
+<high_school>JEFFERSON</high_school>
+</schools>
+
+</house_listing>
+
+
+

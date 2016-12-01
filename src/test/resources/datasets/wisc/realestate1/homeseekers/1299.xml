@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 2000 has 2 bedroom(s), 2 bath(s) and
+approximately 1082 square feet of living area. Features include view,
+patio, air conditioning, storage space.</house_description>
+
+<agent_name>Andrew Gregory</agent_name>
+<direct>520-975-5308</direct>
+<office>520-888-8844</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-888-8844</phone>
+<fax>520-887-3681</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$98,900</list_price>
+<location>2420 W Via Di Silvio</location>
+<mls>9920914</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<square_feet>1082 (approx)</square_feet>
+<lot_size>20X50X20X50</lot_size>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

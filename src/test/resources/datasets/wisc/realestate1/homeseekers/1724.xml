@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1966 has 2 bedroom(s), 2 bath(s) and
+approximately 1030 square feet of living area. Features include
+private pool, private spa, air conditioning.</house_description>
+
+<agent_name>Linette Guerra</agent_name>
+<direct>915-0148</direct>
+<office>672-0773</office>
+<firm_name>La Playa Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>672-0773</phone>
+<fax>305-672-0874</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$285,000</list_price>
+<location>5161 Collins Av #1015</location>
+<neighborhood>Seacoast 5151 Condo Desc</neighborhood>
+<mls>M770126</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1030 (approx)</square_feet>
+<year_built>1966</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

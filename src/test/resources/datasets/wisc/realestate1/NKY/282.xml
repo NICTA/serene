@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>961 AUGUSTA CT</house_location>
+<price>$106,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>0</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248370</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>NEWER 2 STY TOWNHOUSE IN TRIPLE CROWN S/D LISTED W/MANY
+AMENITIES.PRICED TO SELL,THIS CONDO IS IN MINT, MOVE-IN CONDITION.
+FEATURES UPGRADED CARPETS * MARBLE WBFP*9' CEILINGS*PREMIUM WHITE
+CABINETRY*FIN L/LEVEL*LANDSCAPING !!</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Marble</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>CONDO</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>88</hoa_fee>
+<semiannual_taxes>$O</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<family><dimension>13 X 9</dimension><level>L</level></family>
+<kitchen><dimension>8 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 3</dimension><level>L</level></laundry>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>2</level></master>
+
+<directions>TRIPLE CROWN TO TURNBERRY TO LT AUGUSTA 'OWNERS
+TO PAY UP TO $1,000 CLOSE/COSTS!'</directions>
+</house_listing>
+
+
+

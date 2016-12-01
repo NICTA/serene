@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Doyle B. Hoff</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19732</id>
+<mls>N53411</mls>
+<house_location>1209 Hi Stirrup
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$89,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Nicely Remodeled Condo Near Slick Rock!  Nest to the driving range.  The A/C unit inside replaced in June 99'.  Wonderful kitchen cabinets, 3 year old appliances, refridgerator to convey.  Neutral carpet, mini blinds, fireplace and private patio-deck.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<approx_size_sqft>1481</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Sprinkler System</item>
+<item>Garage Door Opener</item>
+<item>Deck</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

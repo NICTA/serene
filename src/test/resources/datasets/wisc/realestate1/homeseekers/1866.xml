@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1925 has 3
+bedroom(s), 1 bath(s) and approximately 1104 square feet of living
+area. Rooms include dining room, family room.</house_description>
+
+<agent_name>Jose Del Rio</agent_name>
+<office>323-726-9646</office>
+<firm_name>Hacienda Properties</firm_name>
+<phone>323-726-9646</phone>
+<fax>323-726-1738</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$129,000</list_price>
+<location>214 E 84Th Pl</location>
+<mls>M200029</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1104 (approx)</square_feet>
+<lot_size>5200</lot_size>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Family Room</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

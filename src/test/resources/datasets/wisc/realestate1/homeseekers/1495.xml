@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This condominium built in 1940 has ? bedroom(s), 1 bath(s) and
+approximately 425 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Jean Reboul</agent_name>
+<direct>662-1986</direct>
+<office>666-8686</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>666-8686</phone>
+<fax>305-667-4196</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$59,500</list_price>
+<location>831 10 St #203</location>
+<neighborhood>South Beach Residences</neighborhood>
+<mls>M742607</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>425 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

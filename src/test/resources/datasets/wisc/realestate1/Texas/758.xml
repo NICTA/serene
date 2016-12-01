@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Pruitt Realty</name>
+<location>611 Highway 67 Glen Rose, TX 76043</location>
+<office>(254)897-2416</office>
+<toll_free></toll_free>
+<fax>(254)897-2716</fax>
+<email>pruittre@eaze.net</email>
+</firm_information>
+
+<agent_information>
+<name>John Pruitt</name>
+<office>(245)897-2421</office>
+<fax></fax>
+<email>pruittre@eaze.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20885</id>
+<mls>SALE PENDING</mls>
+<house_location>408 E.KIDD ST.
+Iredell, TEXAS 76649</house_location>
+<county>Bosque</county>
+<price>$70,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>ATTRACTIVE 2BD, 1.5 BATH, LIVINGROOM &amp; DEN (COULD BE 3RD BD) UTILITY IS IN 1/2 BATH ROOM. 1 CAR DETACHED GARAGE WITH EXTRA STORAGE. THE 2 LOTS ARE FENCED AND HAS SEVERAL PECAN AND SYACAMORE TREES PLUS A GARDEN AREA.  EXTERIOR PERMA ROCK LOOKS LIKE AUSTIN STONE.</house_description>
+
+<school_district>Iredell</school_district>
+<approx_size_sqft>1167</approx_size_sqft>
+<approx_lot_size>34,668sq '</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

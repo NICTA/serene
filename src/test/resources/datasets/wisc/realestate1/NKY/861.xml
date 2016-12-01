@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>55 COVERT RUN</house_location>
+<price>$219,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>246105</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>MARILYN BREIER</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>LOCATION! HARDWOOD FLRS, VAULTED CEILINGS LR/DR &amp; 2 BEDROOMS. WALL OF
+WINDOWS, 2 FIREPLACES, EQUIPPED KIT. DOUBLE SIZE LOT. NEWER FURNACE,
+IMMEDIATE OCCUPANCY. HOMEOWNER WARRANTY.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>125 X 138</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>11 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>19 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 8</dimension><level>1</level></kitchen>
+<living><dimension>20 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>N FT THOMAS AVE TO COVERT RUN</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,10 @@
+id@person.csv@source,id@employee.csv@target
+customer_name@person.csv@source,client_name@employee.csv@target
+age@person.csv@source,age@employee.csv@target
+gender@person.csv@source,sex@employee.csv@target
+email@person.csv@source,email@employee.csv@target
+job@person.csv@source,occupation@employee.csv@target
+address@person.csv@source,address@employee.csv@target
+wage@person.csv@source,salary@employee.csv@target
+section@person.csv@source,department@employee.csv@target
+deliveryaddress@person.csv@source,shipping_destination@employee.csv@target

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1915 has 3
+bedroom(s), 2 bath(s) and approximately 1800 square feet of living
+area. Rooms include dining room, master bedroom.</house_description>
+
+<agent_name>Diane Franklin</agent_name>
+<direct>301-218-4016</direct>
+<office>301-899-1200</office>
+<firm_name>RE/MAX 100 Real Estate</firm_name>
+<phone>301-899-1200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$110,000</list_price>
+<location>Washington, DC 20019</location>
+<mls>DC2772323</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<square_feet>1800 (approx)</square_feet>
+<lot_size>2000</lot_size>
+<year_built>1915</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

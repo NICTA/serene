@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>325 TYLER DR</house_location>
+<price>$74,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>245286</mls>
+<house_type>Single Family</house_type>
+<firm>MELTON REAL ESTATE</firm>
+<firm_phone>(606) 824-5252</firm_phone>
+<agent>DARRIN SECHREST</agent>
+<agent_phone>(606) 824-5252</agent_phone>
+<house_description>WILLIAMSTOWN LAKE HOME - 50 FT LAKE FRONTAGE. DECK 12 X 29</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Electric,Baseboard</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>45 x 115</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>B</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 27</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 17</dimension><level>B</level></dining>
+<kitchen><dimension>10 X 11</dimension><level>B</level></kitchen>
+<laundry><dimension>6 X 8</dimension><level>B</level></laundry>
+<living><dimension>11 X 17</dimension><level>B</level></living>
+<master><dimension>12 X 13</dimension><level>1</level></master>
+
+<directions>I75 EX 159, L TO US25,R TO L ON HWY 467, R ON
+REEVES L ON TYLER, ON L</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>MURLENE WARE</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<voice_mail>(713)814-6112</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11617</id>
+<mls>132207</mls>
+<house_location>3128 BAY CREEK
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$136,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LOVELY ALMOST NEW HOME IN BAY COLONY. EXTRA LARGE LOT AT THE END OF STREET. EASY ACCESS TO I45. 4 BEDROOMS PLUS A LARGE GAMEROOM. CUSTOM WINDOW TREATMENTS REMAIN.SUBDIVISION POOL.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Bay Colony</sub-division>
+<approx_size_sqft>2426</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>11570</approx_lot_size>
+<year_built>1996</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>LARGE GAMEROOM/DEN</item>
+<item>RESENT CONSTRUCTION</item>
+<item>HUGH LOT</item>
+<item>SUBDIVISION POOL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

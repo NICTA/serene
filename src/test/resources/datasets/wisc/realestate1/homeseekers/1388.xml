@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1923 has 4
+bedroom(s), 1 bath(s) . Rooms include living room, master bedroom.
+Features include patio.</house_description>
+
+<agent_name>William Schuppenhauer</agent_name>
+<direct>619-390-9202</direct>
+<office>619-463-5000</office>
+<firm_name>Century 21 Award Century 21 Award</firm_name>
+<phone>619-463-5000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$149,900</list_price>
+<location>San Diego, CA 92105</location>
+<mls>99 2004987</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<year_built>1923</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas, Wall Unit</heating>
+<patio>Yes</patio>
+<rooms>Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

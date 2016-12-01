@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1913 has 3 bedroom(s), 1
+bath(s) . Rooms include master bedroom.</house_description>
+
+<agent_name>Joe Sugden</agent_name>
+<direct>202-547-5886</direct>
+<office>202-362-4666</office>
+<firm_name>Coldwell Banker Realty
+Pros, Ltd.</firm_name>
+<phone>202-362-4666</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$60,000</list_price>
+<location>Washington, DC 20001</location>
+<mls>DC3030901</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>800</lot_size>
+<year_built>1913</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

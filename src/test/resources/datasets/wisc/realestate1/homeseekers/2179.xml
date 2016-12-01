@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1890 has 4 bedroom(s), 3 bath(s) and
+approximately 3904 square feet of living area.</house_description>
+
+<agent_name>Alan Fruitman Realty</agent_name>
+<direct>303-754-7628</direct>
+<office>303-773-1900</office>
+<firm_name>Metro Brokers</firm_name>
+<phone>303-773-1900</phone>
+<fax>303-773-2330</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$840,000</list_price>
+<location>2122 S Clayton St</location>
+<neighborhood>University Park, Observatory</neighborhood>
+<mls>375183</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>3904 (approx)</square_feet>
+<year_built>1890</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

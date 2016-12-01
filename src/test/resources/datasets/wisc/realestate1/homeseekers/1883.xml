@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1999 has 3 bedroom(s), 2 bath(s) , 1
+car garage and approximately 1730 square feet of living area. Rooms
+include family room, bonus room. Features include patio, air
+conditioning.</house_description>
+
+<agent_name>Sandra Maloney</agent_name>
+<direct>520-797-4229</direct>
+<office>602-837-8700</office>
+<firm_name>Mirage Homes</firm_name>
+<phone>602-837-8700</phone>
+<fax>602-837-3043</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$219,900</list_price>
+<location>695 W Vistoso Highlands Dr #214</location>
+<mls>9920517</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Townhouse</type>
+<square_feet>1730 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

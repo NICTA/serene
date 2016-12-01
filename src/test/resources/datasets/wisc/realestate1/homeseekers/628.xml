@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1975 has 5
+bedroom(s), 3.5 bath(s) , 2 car garage and approximately 2965 square
+feet of living area. Rooms include dining room, family room, living
+room, master bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Judy Spady</agent_name>
+<direct>858-271-4900</direct>
+<office>858-272-6000</office>
+<firm_name>RE/MAX Associates RE/MAX Associates</firm_name>
+<phone>858-272-6000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$449,000</list_price>
+<location>San Diego, CA 92117</location>
+<mls>99 6020812</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3.5</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2965 (approx)</square_feet>
+<lot_size>6360</lot_size>
+<year_built>1975</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Family Room, Living Room</fireplace>
+<patio>Yes</patio>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+<view>Bay View, Mountain/Hills View, View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

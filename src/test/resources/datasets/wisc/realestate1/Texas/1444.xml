@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Quisenberry</name>
+<office>(817)573-8801</office>
+<fax></fax>
+<voice_mail>(817)573-8801 148</voice_mail>
+<mobile>(817)219-0719</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19831</id>
+<mls>9105126</mls>
+<house_location>221 E. Bluebonnet Drive (Ad # 552)
+Cresson, TEXAS 76126</house_location>
+<county>Parker</county>
+<price>$99,921</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Country like setting!  3 bedrooms, 2 baths on 2.9 acres.  Fantastic views from upstairs master bedroom balcony &amp; skylights in every room upstairs. Closets galore!  Ft. Worth side.  Short commute to Ft. Worth or Granbury.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Blue Bonnet Hills</sub-division>
+<approx_size_sqft>1565</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>2.9</approx_acres>
+<year_built>1986</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Fantastic View - Balcony Upstairs</item>
+<item>Skylights - All Upstairs Rooms</item>
+<item>Ad # 552</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

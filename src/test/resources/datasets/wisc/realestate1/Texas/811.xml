@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jere Showalter</name>
+<office>(409)542-1234</office>
+<fax></fax>
+<email>jshow83@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20961</id>
+<mls>1074</mls>
+<house_location>Rt1 box 20 CR 141
+Dime Box, TEXAS 77853</house_location>
+<county>Lee</county>
+<price>$52,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Property consists of a 3/2 manufactured home (Shult), storage building, 2 car garage/work shop, and sits on 5 acres of coastal  planted land</house_description>
+
+<school_district>Dime Box</school_district>
+<approx_size_sqft>1120</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>5</approx_acres>
+<year_built>77</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>nice home</item>
+<item>great shop</item>
+<item>elbow room</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<firm_information>
+<name>Bexley Real Estate</name>
+<location>Highway 77 Lexington, TX 78947</location>
+<office>(409)773-4423</office>
+<toll_free></toll_free>
+<fax>(409)773-4930</fax>
+<email>bexley@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bexley Real Estate</name>
+<office>(409)773-4423</office>
+<fax>(409)773-4930</fax>
+<email>Bexley@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18202</id>
+<mls></mls>
+<house_location>Hwy 77 North
+Lexington, TEXAS</house_location>
+<county>Lee</county>
+<price>$65,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+
+<house_description>Hwy 77 northLocated between Rockdale and LexingtonHwy 77 frontageWell waterFenced</house_description>
+
+<school_district>Lexington</school_district>
+<approx_size_sqft>1216</approx_size_sqft>
+<approx_acres>2.25</approx_acres>
+<year_built>93</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carter Carolyn</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<mobile>(956)245-7874</mobile>
+<email>C21HgnTX@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17525</id>
+<mls>14542</mls>
+<house_location>NEW COMBES RD.
+Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$112,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Have someone pay for part of your mortage payment and enjoy country living in this immaculate 3/2/2  home on the outskirts of Harlingen with approximate 1732 sq. ft. (per appraisal district)  There are two rental units behind the home that are currently being used as apartments but, could be used as in law quarters, or as a home business/ office. There are also two other separate hobby/ workshops.  On approx. .443 acre this is a rare find for all the features it has to offer.  This is truly a must see for the individuals wanting to get away from the hustle and bustle of city living without bei</house_description>
+
+<move-in_date>7/15/99</move-in_date>
+<school_district>Harlingen</school_district>
+<sub-division>David &amp; Stephenson</sub-division>
+<approx_size_sqft>1732</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.44</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Walk in closet</item>
+<item>Rental apartments</item>
+<item>Two separate outbuilldings</item>
+<item>Country setting</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

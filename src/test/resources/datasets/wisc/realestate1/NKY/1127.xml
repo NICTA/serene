@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>135 LEXINGTON TR</house_location>
+<price>$171,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>LEXINGTON TR</suburb>
+<school_dist>GRANT</school_dist>
+<mls>250171</mls>
+<house_type>Single Family</house_type>
+<firm>MELTON REAL ESTATE</firm>
+<firm_phone>(606) 824-5252</firm_phone>
+<agent>DARRIN SECHREST</agent>
+<agent_phone>(606) 824-5252</agent_phone>
+<house_description>CORION COUNTER TOPS, HICKORY CABINETS, BERBER CARPET, HARDWOOD LFOOR
+AND CERAMIC TILE ARE JUST A FEW OF THE FEATURES OF THIS HOME.
+CLUBHOUSE AND POOL RIGHTS IN LEXINGTON TR. FOR $200/YR</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>pie shape</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>B</level></bath_3>
+<bedroom_2><dimension>11 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>16 X 10</dimension><level>1</level></kitchen>
+<living><dimension>21 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>I75 S EX 159, R THEN R ON 467, R ON DRY R IDGE
+MT ZION RD, ON LEX TR ON R</directions>
+</house_listing>
+
+
+

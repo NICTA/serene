@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gerald Birdwell</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<email>gbirdwell@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20970</id>
+<mls>9125509</mls>
+<house_location>504 East Akard
+Weatherford, TEXAS 76086</house_location>
+<county>Parker</county>
+<price>$68,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Close to schools and shopping with easy access to I-20.  This 3 bedroom, 2 bath brick and rock home has large rooms with an enclosed 10x37 back porch.  Ideal size and priced for starter or retirement living.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Yeoman</sub-division>
+<approx_size_sqft>1419</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.5</approx_acres>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<price>$81,900</price>
+<mls_id_number>159236</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>604</sqft>
+<year_built>1947</year_built>
+<heat>Not Listed</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.16        Acres</lot_size>
+<lot_description>55 X 130</lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Not Listed</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>LYNCHVIEW</elementary>
+<middle_school>CENTENNIAL</middle_school>
+<high_school>CENTENNIAL</high_school>
+</schools>
+
+</house_listing>
+
+
+

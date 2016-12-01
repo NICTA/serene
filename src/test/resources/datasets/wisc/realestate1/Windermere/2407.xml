@@ -1,0 +1,34 @@
+<house_listing>
+<price>$209,876</price>
+<mls_id_number>153482</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1472</sqft>
+<year_built>1923</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.16        Acres</lot_size>
+<lot_description>6970 SQ FT</lot_description>
+<fireplace>2</fireplace>
+<taxes>$2,487</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Security System</interior>
+<exterior>Covered Patio, Patio, Porch, Sprinkler System, Tool Sheed,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>LAURELHURST</elementary>
+<middle_school>FERNWOOD</middle_school>
+<high_school>GRANT</high_school>
+</schools>
+
+</house_listing>
+
+
+

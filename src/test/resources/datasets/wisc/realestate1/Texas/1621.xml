@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Joan Lowry</name>
+<office>(409)885-6400</office>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20413</id>
+<mls></mls>
+<house_location>FM2434/Rocky Hill Rd.
+Columbus, TEXAS</house_location>
+<county>Colorado</county>
+<price>$1,200,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>5</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Gorgeous country estate. Beautiful setting. Exquisite home withunlimited amenities! Perfect for countryhome, corporate retreat, or bed and breakfast. Call Joan at (409) 885-6400 or email to remaxcp@industryinet.com.</house_description>
+
+<school_district>Columbus</school_district>
+<stories>2</stories>
+<approx_acres>35</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

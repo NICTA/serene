@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1960 has 4
+bedroom(s), 4 full bath(s)/1 half bath(s) , 1 car garage. Rooms
+include den, dining room, family room, master bedroom. Features
+include fireplace, air conditioning, french doors.</house_description>
+
+<agent_name>Joyce Sargent</agent_name>
+<direct>202-333-3923</direct>
+<office>202-362-1600</office>
+<firm_name>Arnold, Bradley, Sargent, Davy &amp; Ch</firm_name>
+<phone>202-362-1600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$1,150,000</list_price>
+<location>Washington, DC 20008</location>
+<mls>DC2776907</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4(full) 1(half)</baths>
+<levels>3 or more</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>12731</lot_size>
+<year_built>1960</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Trees/Woods View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+French Doors
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

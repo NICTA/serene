@@ -1,0 +1,40 @@
+<house_listing>
+<house_location>6025 ELLISTON-MT.Z</house_location>
+<price>$37,500</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249968</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>GREG HICKS</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>AFFORDABLE OLDER HOME IN THE COUNTRY BUT STILL CLOSE TO TOWN.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Radiant</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bedroom_2><dimension>13 X 14</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>8 X 22</dimension><level>1</level></kitchen>
+<living><dimension>15 X 22</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>I-75 EXIT 166 GO WEST ON 491 FOR 3.5 MI TO L ON
+1942 FOR 10 MI TO PROP ON R</directions>
+</house_listing>
+
+
+

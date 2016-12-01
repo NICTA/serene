@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>3125 S COLLINS RD</house_location>
+<price>$185,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Oversized)</garage>
+<suburb>MAYSVILLE</suburb>
+<school_dist>MASON CO</school_dist>
+<mls>248171</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>CINDY GILKISON</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>THIS COUNTRY RETREAT HAS BEEN A WELL KEPT SECRET. THIS CUSTOM BUILT
+HOME W/ SPACIOUS ROOMS MUST BE SEEN TO BE SEEN TO BE APPRECIATED
+NESTLED IN THE HEART OF MASON CO ON 10 ACRES OF ROLLING WOODLAND,CO
+WATER &amp; ADD. ACRE AVAI</house_description>
+<construction>Brick</construction>
+<heating>Gas,Wood</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$581.31</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 14</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 14</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>19 X 27</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 12</dimension><level>1</level></laundry>
+<living><dimension>19 X 27</dimension><level>1</level></living>
+<master><dimension>17 X 19</dimension><level>1</level></master>
+
+<directions>5 MILES OFF AA HWY ON KY 435 TO SOUTH COLLINS
+ROAD 3 MI TO KY 8,10 MI MAYSVILLE</directions>
+</house_listing>
+
+
+

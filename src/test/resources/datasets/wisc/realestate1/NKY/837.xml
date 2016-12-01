@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>501 TELESCOPE VIEW</house_location>
+<price>$89,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WILDER</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248629</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>SHIRLEY KIBLER</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>ENJOY THE WONDERFUL VIEW FROM THIS BEAUTIFUL TERRACE HOME ON YOUR
+PRIVATE PATIO. VERY WELL MAINTAINED UNIT. TWO BEDROOM, TWO FULL BATH
+PLUS EXTRAS. PRICED TO SELL. CALL SHIRLEY FOR MORE DETAILS 483-4537.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>00X00</lot_dimensions>
+<condo_level>L</condo_level>
+<hoa_fee>95</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>L</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 13</dimension><level>L</level></bedroom_2>
+<dining><dimension>13 X 12</dimension><level>L</level></dining>
+<kitchen><dimension>12 X 10</dimension><level>L</level></kitchen>
+<laundry><dimension>8 X 8</dimension><level>L</level></laundry>
+<living><dimension>13 X 14</dimension><level>L</level></living>
+<master><dimension>12 X 17</dimension><level>L</level></master>
+
+<directions>US 27 S. TO R. ON MARTHA COLLINS TO JOHNS HILL
+TO L. ON SIGNAL HILL,L.TELESCOPE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>32 RILEY RD</house_location>
+<price>$129,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Builtin)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>ALEXANDRIA</school_dist>
+<mls>248982</mls>
+<house_type>Single Family</house_type>
+<firm>WOODS REALTORS</firm>
+<firm_phone>(606) 441-2837</firm_phone>
+<agent>LLOYD WOODS</agent>
+<agent_phone>(606) 441-2837</agent_phone>
+<house_description>EXCELLENT CONDITION, NOTHING TO DO VERY NICE THROUGH-OUT. BASEMENT HAS
+CARPET, COULD EASILY BE LIVING SPACE.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>67x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bedroom_2><dimension>9 X 12</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level></level></bedroom_3>
+<kitchen><dimension>12 X 18</dimension><level></level></kitchen>
+<living><dimension>12 X 16</dimension><level></level></living>
+<master><dimension>10 X 12</dimension><level></level></master>
+
+<directions>AA TO ALEX-SILVER GROVE EX TO ALEXANDRIA HOUSE
+ON R ACROSS FROM FAIR GROUNDS</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sonny Mobley</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>sonny@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20134</id>
+<mls>54129</mls>
+<house_location>39037 (1400) MOUNTAIN DEW
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Burnet</county>
+<price>$496,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>4</garage_spaces>
+
+<house_description>Hilltop with super view.  10' ceilings.  Large porch with view of lake and hills.  Corian countertops in all baths and kitchen.  Double ovens.  2 A/C's, 2 water heaters.  Dish and antenna to convey.  Insulated windows, ceiling fans.  Disposal, dishwasher, oven, range, refrigerator, microwave, compactor.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>FANTASTIC VIEW</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

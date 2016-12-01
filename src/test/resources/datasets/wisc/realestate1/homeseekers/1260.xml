@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1945 has 4 bedroom(s), 2
+bath(s) and approximately 745 square feet of living area. Rooms
+include dining room. Features include bay window.</house_description>
+
+<agent_name>Peter Bozhinov</agent_name>
+<direct>509-483-1781</direct>
+<firm_name>
+RE/MAX Citywide RE/MAX Citywide</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$74,900</list_price>
+<location>10026 Wesley</location>
+<mls>9927707</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>745 (approx)</square_feet>
+<year_built>1945</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Bay Window, Cable TV, Hardwood Flooring
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

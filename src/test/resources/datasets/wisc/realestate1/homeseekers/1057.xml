@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1999 has 3 bedroom(s), 2 bath(s) , 3
+car garage. Rooms include master bedroom. Features include view,
+patio, fireplace.</house_description>
+
+<agent_name>Claudia Brown</agent_name>
+<office>623-362-3000</office>
+<firm_name>RE/MAX Integrity Realtors RE/MAX Integrity Realtors</firm_name>
+<phone>623-362-3000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$325,000</list_price>
+<location>Phoenix, AZ 85024</location>
+<mls>1459129</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>1 TO 1.9 AC</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Multi Zoned</heating>
+<fireplace>Master Bedroom</fireplace>
+<location>Corner</location>
+<patio>Covered, Deck</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cathedral/Vaulted Ceilings, Dining/Living Combo,Dishwasher, Great Room, Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

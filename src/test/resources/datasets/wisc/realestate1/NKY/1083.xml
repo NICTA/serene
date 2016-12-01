@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>435 LAWRENCEVILLE</house_location>
+<price>$32,500</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>(Detached)</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>250099</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>CLARA FAN BANDY</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>1 ACRE WITH GARAGE. SMALL SHED. GARDEN SPACE. 3YR OLD LEECH LINES &amp;
+PUBLIC WATER, BUT ALSO 3YR OLD CISTERN. PARTIAL FENCING. CLOSE TO US
+25 AND I-75 30 YR OLD TRAILER - VALUE IN LAND.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>12 X 9</dimension><level>1</level></kitchen>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>10 X 9</dimension><level>1</level></master>
+
+<directions>I-75 TO EXIT 154 LEFT ON US 25 TO R ON
+1993(LAWRENCEVILLE RD)</directions>
+</house_listing>
+
+
+

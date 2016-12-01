@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Connie Anderson</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)331-6644 x133</voice_mail>
+<email>cja@bga.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20552</id>
+<mls>524583</mls>
+<house_location>8504 Dunsmere
+Austin, TEXAS 78749</house_location>
+<county>Travis</county>
+<price>$202,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Great &amp;quot;Weekley&amp;quot; Home in Western Oaks.  Extensive Landscaping.</house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>Village At Western Oaks</sub-division>
+<approx_size_sqft>2263</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>60x115</approx_lot_size>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Village @ Western Oaks Neighborhood</item>
+<item>David Weekley (Crosby)</item>
+<item>3 Living Areas</item>
+<item>Gourmet Kitchen</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

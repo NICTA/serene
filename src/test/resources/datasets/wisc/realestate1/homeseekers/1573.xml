@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1968 has 4
+bedroom(s), 2.5 bath(s) , 2 car garage and approximately 1600 square
+feet of living area. Rooms include dining room, family room, living
+room, master bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Michael Cady</agent_name>
+<direct>858-490-8138</direct>
+<office>858-272-6000</office>
+<firm_name>RE/MAX Associates RE/MAX Associates</firm_name>
+<phone>858-272-6000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$329,000</list_price>
+<location>San Diego, CA 92117</location>
+<mls>00 6000513</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2.5</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1600 (approx)</square_feet>
+<lot_size>6700</lot_size>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+<view>Bay View, Panoramic View, Valley View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>New carpet! Just painted inside and out!! New dishwasher!! New floor
+in kitchen and entry foyer!! New sliding glass doors!! Storage shed.
+Convenient to everything</house_description>
+
+<agent_name>Bernice Fay Pope</agent_name>
+<direct>425-0025</direct>
+<office>757-425-1952</office>
+<firm_name>Hampton Roads Real Estate Co.</firm_name>
+<phone>757-425-1952</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$67,500</list_price>
+<location>Virginia Beach, VA 23454</location>
+<mls>9927014</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Townhouse/Condo</type>
+<square_feet>1360 (approx)</square_feet>
+<year_built>1976</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<fireplace>No</fireplace>
+<location>Cul-de-sac</location>
+<patio>Patio</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Ceiling Fan(s), Fenced, Foyer
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

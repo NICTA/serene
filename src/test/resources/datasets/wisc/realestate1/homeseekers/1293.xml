@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1964 has 4 bedroom(s), 2 full
+bath(s)/1 half bath(s) and approximately 2694 square feet of living
+area. Rooms include master bedroom. Features include view, private
+pool, patio, fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Lynn Sedwick</agent_name>
+<direct>520-742-4410</direct>
+<office>520-544-4444</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-544-4444</phone>
+<fax>520-544-4127</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$256,000</list_price>
+<location>735 W Chula Vista Rd</location>
+<mls>2000613</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2694 (approx)</square_feet>
+<lot_size>248X204X654X174</lot_size>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

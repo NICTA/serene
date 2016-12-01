@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This 1 level detached single family home has 2 bedroom(s), 1 bath(s) ,
+1 car garage and approximately 750 square feet of living area. Rooms
+include family room, living room, master bedroom.</house_description>
+
+<agent_name>Sheila Lemire</agent_name>
+<direct>619-531-7455</direct>
+<office>619-683-8299</office>
+<firm_name>United Brokers Realty, Inc. United Brokers Realty, Inc.</firm_name>
+<phone>619-683-8299</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$130,000</list_price>
+<location>San Diego, CA 92105</location>
+<mls>99 6026840</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>750 (approx)</square_feet>
+<lot_size>1875</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Wall Unit</heating>
+<rooms>Family Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

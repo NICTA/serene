@@ -1,0 +1,68 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Ann Green</name>
+<office>(512)303-5400</office>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)867-0518</voice_mail>
+<email>magreen@bastroptexas.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17549</id>
+<mls>526888</mls>
+<house_location>6906 TWIN CREST DRIVE
+Austin, TEXAS 78752</house_location>
+<county>Travis</county>
+<price>$127,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great location! Close to Highland Mall, IH35, Hwy 290 and Hwy 183. This big family home offers appx. 2300sf of living space with 4 good sized bedrooms, Hollywood style one and a half baths, a huge 2nd living area, MIL plan, and indoor utilities. Outside there's an open porch, patio, storage shed, 2 car garage, chain link fence and lots of trees on a big lot. Possibly the best $ per sf in the area.  $3,000 allowance to buyer plus $500 bonus to Selling Agent with acceptable offer by 12/28/99. You can't beat this deal! Call Mary Ann Green, pgr 860-6733 or ofc 303-5400,today for a private showing!</house_description>
+
+<move-in_date>7/16/99</move-in_date>
+<school_district>Reilly, Webb, Mccallum</school_district>
+<sub-division>Huntland Heights Sec 2</sub-division>
+<approx_size_sqft>2300</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>65 x 120</approx_lot_size>
+<approx_acres>0.2</approx_acres>
+<year_built>1964</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>CONVENIENT LOCATION</item>
+<item>4 BEDROOMS</item>
+<item>2 LIVING AREAS</item>
+<item>BIG FENCED YARD W/TREES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

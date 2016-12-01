@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>111 E WOODWARD AV</house_location>
+<price>$85,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>BROOKSVILLE</suburb>
+<school_dist>BRACKEN COU</school_dist>
+<mls>245712</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>JOYCE P ANDERSON</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>TOTALLY RENOVATED! 3-4 BDRMS, 2 FULL BATHS, ACCENTED WITH BEAUTIFUL
+WOODWRK FRENCH DOORS FIREPLACES. HOME HAS 2 NEW FURNACES, NEW CHERRY
+CABINETS. LOTS OF ADDED FEATURES. IDEAL HOME FOR THE WORKING FAMILY.
+CLOSE &amp; CONVENIENT!</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65 X 80</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>2</level></bedroom_3>
+<breakfast><dimension></dimension><level>1</level></breakfast>
+<dining><dimension></dimension><level>1</level></dining>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>2</level></master>
+
+<directions>AA HWY TO R ON 1159 TO BROOKSVILLE R ON 19 S
+TURN L AT FIREHOUSE WOODWARD L</directions>
+</house_listing>
+
+
+

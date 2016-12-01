@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Florence Little</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12530</id>
+<mls>126089</mls>
+<house_location>Off Carmel Drive
+Sandia, TEXAS 78383</house_location>
+<county>Live Oak</county>
+<price>$85,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>George West</school_district>
+<sub-division>Caramel Hills</sub-division>
+<approx_size_sqft>1200</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>168x116x130</approx_lot_size>
+<year_built>1991</year_built>
+<master_bedroom>N/A</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Secluded Waterfront.</item>
+<item>Very nice floor plan.</item>
+<item>Hot tub on screened porch.</item>
+<item>Lots of trees.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

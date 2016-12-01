@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>charlie long</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20026</id>
+<mls>54082</mls>
+<house_location>136 GLEN OAKS
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$265,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>FABULOUS  OPEN WATER  ON LBJ AT SUNRISE BEACH. HOME FACES SOUTHEAST.      FOUR BEDROOMS. NEW APPLIANCES AND WATER HEATER. NEW PAINT ON HOME      AND BOAT HOUSE. NEW DECKS, NEW SEEDOO RAMP. WONDERFUL SWIMMING AREA FOR CHILDREN AND ADULTS. THIS IS SPECIAL. YOU WONT BELIEVE THIS WATER. MUST SEE.</house_description>
+
+<move-in_date>10/17/99</move-in_date>
+<school_district>Llano</school_district>
+<sub-division>Surise Beach</sub-division>
+<approx_size_sqft>1328</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>40X177X95X162</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>BEAUTIFUL OPEN WATER</item>
+<item>FACES SOUTHEAST</item>
+<item>FOUR BEDROOMS</item>
+<item>LOTS OF NEW AMMENITIES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

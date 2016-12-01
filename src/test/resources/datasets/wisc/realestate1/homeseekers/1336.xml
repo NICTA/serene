@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1961 has 3 bedroom(s), 2 bath(s) and
+approximately 1492 square feet of living area.</house_description>
+
+<agent_name>Charlene Ford</agent_name>
+<direct>523-5615</direct>
+<office>303-452-5853</office>
+<firm_name>Mb-Ford &amp; Assoc</firm_name>
+<phone>303-452-5853</phone>
+<fax>303-452-5695</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,950</list_price>
+<location>1442 E 110Th Pl</location>
+<neighborhood>Northglenn</neighborhood>
+<mls>379824</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1492 (approx)</square_feet>
+<year_built>1961</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

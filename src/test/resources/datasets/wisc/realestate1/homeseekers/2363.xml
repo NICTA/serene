@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This home built in 1979 has 2 bedroom(s), 2 bath(s) . Rooms include
+dining room, master bedroom. Features include patio.</house_description>
+
+<agent_name>Roger L. Goins</agent_name>
+<office>602-955-0390</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>602-955-0390</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$119,500</list_price>
+<location>Phoenix, AZ 85016</location>
+<mls>1444246</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<location>On golf course</location>
+<patio>Deck</patio>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Game Room, Tennis Court(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

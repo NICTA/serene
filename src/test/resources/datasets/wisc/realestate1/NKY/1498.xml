@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>5134 CHRISTOPHER</house_location>
+<price>$109,800</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249788</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX BEST GROUP</firm>
+<firm_phone>(513) 791-6900</firm_phone>
+<agent>SAM JIM</agent>
+<agent_phone>(513) 791-6900</agent_phone>
+<house_description>NEW &amp; MOVE-IN READY! THE 'GRANT' PLAN BY FREEDOM HOMES! CATHEDERAL
+CEILING, LARGE LOWER-LEVEL WAITING TO BE FINISHED, CORNER LOT,
+OVERSIZED GARAGE,FULL WATERPROOFED BSMNT, 2-10 WARRANTY! AGENTS USE
+MLS X-PRESS FOR LOCK BOX CODE</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$TBD</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>10 X 9</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>U</level></bedroom_3>
+<dining><dimension>12 X 9</dimension><level>U</level></dining>
+<kitchen><dimension>12 X 9</dimension><level>U</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>14 X 12</dimension><level>U</level></living>
+<master><dimension>13 X 12</dimension><level>U</level></master>
+
+<directions>I275 TO RT 17 S FOR 6.5 MILES-R @ INDEPEN DENCE
+STATION-R @ CHRISTOPHER INTO SUBDIV</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>9969 COBBLESTONE</house_location>
+<price>$112,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>245457</mls>
+<house_type>Single Family</house_type>
+<firm>VILLAGE REALTY</firm>
+<firm_phone>(606) 341-1666</firm_phone>
+<agent>JOHN DRUMMEY</agent>
+<agent_phone>(606) 341-1666</agent_phone>
+<house_description>NEWLY DECORATED, WITH BRAND NEW CARPET. READY TO MOVE-IN. GREAT
+FINANCING OPTIONS AVAILABLE, VA OR FHA POSSIBLE, IMMEDIATE OCCUPANCY.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Marble</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>13 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>8 X 12</dimension><level>1</level></dining>
+<family><dimension>18 X 11</dimension><level>L</level></family>
+<kitchen><dimension>7 X 10</dimension><level>1</level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>2</level></master>
+
+<directions>INDEPENDENCE STATION TO CODY TO R ON FLAGSTONE R
+CONSTITUTION R COBBLESTONE</directions>
+</house_listing>
+
+
+

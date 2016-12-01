@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1925 has ? bedroom(s), 1 bath(s) and
+approximately 358 square feet of living area. Rooms include family
+room. Features include air conditioning.</house_description>
+
+<agent_name>Vicki F. Miller</agent_name>
+<direct>305-531-2888</direct>
+<office>531-5803</office>
+<firm_name>The Keyes Company,
+Lic. Real Estate Broker</firm_name>
+<phone>531-5803</phone>
+<fax>305-538-7018</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$67,000</list_price>
+<location>1542 Drexel Av #203</location>
+<neighborhood>Lincoln Road Sub</neighborhood>
+<mls>M775325</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>358 (approx)</square_feet>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

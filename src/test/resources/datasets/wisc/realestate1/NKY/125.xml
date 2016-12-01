@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>8207 N DILCREST DR</house_location>
+<price>$152,900</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>Quad Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin,Rear,Oversized)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE CO.</school_dist>
+<mls>250279</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>REBECCA BRANDT</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>ADDL PHOTOS WWW.STAR-ONE.COM* COME SIT IN THE GAZEBO &amp; RELAX TO THE
+SOUND OF THE FOUNTAIN OR ENJOY THE 3 SEASON PORCH &amp; LARGE TREED YARD.
+STORAGE BLDG, WORKSHOP. (HOT TUB NOT INCLUDED).</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>100 x 313</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>11 X 11</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>U</level></bedroom_3>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>26 X 24</dimension><level>L</level></family>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>1</level></laundry>
+<living><dimension>18 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>U</level></master>
+<recreation_room><dimension>22 X 13</dimension><level>L</level></recreation_room>
+
+<directions>75 S TAKE US 42 EXIT, R ON 42, L ON DILCREST, L
+ON N DILCREST.</directions>
+</house_listing>
+
+
+

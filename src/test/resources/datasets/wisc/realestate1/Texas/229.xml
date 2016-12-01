@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Marchel Eubank</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<email>mmeubank@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18905</id>
+<mls>9097107</mls>
+<house_location>41 Shoreline Drive
+Laguna Park, TEXAS 76634</house_location>
+<county>Bosque</county>
+<price>$97,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Perfect lakeview/canyon view vacation home.  Two bedrooms, two baths, utility room, large living area overlooking canyon, two car carport, concrete drive, storage room, workshop, 400+/- square foot guest quarters off of main house over workshop, upper and lower decks, HOOT aerobic sewer system, dishwasher, spiral staircase and oversized lot.  Option for adjacent lot/lots.</house_description>
+
+<school_district>Clifton</school_district>
+<sub-division>Lakewood Harbor Village</sub-division>
+<approx_size_sqft>1364</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>100X275</approx_lot_size>
+<approx_acres>0.62</approx_acres>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<waterfront>Yes</waterfront>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Lake/Canyon Front Home</item>
+<item>Stairs to Canyon</item>
+<item>Borders Corp of Engineer</item>
+<item>Spectacular Views</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

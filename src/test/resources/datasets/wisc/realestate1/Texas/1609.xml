@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Yanez</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>irene_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20858</id>
+<mls></mls>
+<house_location>1202 Plum Street
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$85,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This is a three or four bedroom, older home with a wood burning stove and a kitchen with lots of cabinets, counter space, and a breakfast area.  It has a formal dining area, a master bedroom with a wood burning stove and a full bath, a covered patio with a hot tub, an inground pool, privacy fence and a utility area.  The home has lots of potential, but it does need work.  An appointment is needed to view this home.</house_description>
+
+<school_district>Lockhart</school_district>
+<approx_size_sqft>2120</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>19,055</approx_lot_size>
+<year_built>1945</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Three or four bedroom</item>
+<item>Covered patio with hot tub</item>
+<item>In ground pool</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1996 has 4 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include family room, master bedroom. Features
+include view, patio.</house_description>
+
+<agent_name>Carole Robinson</agent_name>
+<office>602-866-0990</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>602-866-0990</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$149,900</list_price>
+<location>Phoenix, AZ 85032</location>
+<mls>1458112</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s),Dishwasher, Eat In Kitchen, Garage Door Opener, Kitchen Island, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

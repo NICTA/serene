@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>2989 MADISON</house_location>
+<price>$62,900</price>
+<rooms>9</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247911</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>R J SEIFERT</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>CURRENTLY USED AS BUSINESS ON 1ST FL W 5 RM APT ON 2ND FL ZONED RES
+W/NON CONFORMING USE CAN BE USED AS OWNER OCCUPIED BUSINESS W/ZONING
+APPROVAL NEWER MECHS/HEAT/AIR/ELEC</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25 X 100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 10</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>12 X 14</dimension><level>2</level></bedroom_5>
+<dining><dimension>12 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 6</dimension><level>1</level></kitchen>
+<laundry><dimension>4 X 4</dimension><level>1</level></laundry>
+<living><dimension>19 X 16</dimension><level>1</level></living>
+<master><dimension>14 X 9</dimension><level>2</level></master>
+<recreation_room><dimension>8 X 13</dimension><level>1</level></recreation_room>
+
+<directions>MADISON AVE IN LATONIA</directions>
+</house_listing>
+
+
+

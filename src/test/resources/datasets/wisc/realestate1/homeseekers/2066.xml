@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This single family home built in 1927 has 2 bedroom(s), 1 bath(s) , 1
+car garage. Features include storage space.</house_description>
+
+<agent_name>Connie Rush</agent_name>
+<office>520-836-7483</office>
+<firm_name>The Mahoney Group</firm_name>
+<phone>520-836-7483</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$87,000</list_price>
+<location>Phoenix, AZ 85014</location>
+<mls>1453739</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1927</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<pool>No</pool>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ceiling Fan(s), Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,30 @@
+<house_listing>
+<house_description>This attached single family home has 4 bedroom(s), 4 bath(s) and
+approximately 3420 square feet of living area.</house_description>
+
+<agent_name>Ron Taylor</agent_name>
+<direct>303-503-8097</direct>
+<office>303-755-9282</office>
+<firm_name>Phill Foster &amp; Co</firm_name>
+<phone>303-755-9282</phone>
+<fax>303-756-0223</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$529,000</list_price>
+<location>450 N Ogden St</location>
+<neighborhood>Alamo Placita Prk-W Cntry Club</neighborhood>
+<mls>353343</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<square_feet>3420 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

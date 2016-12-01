@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>33 LYNDALE</house_location>
+<price>$148,500</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>EDGEWOOD</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248129</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN HUFF</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * PARKLIKE SETTING *2 CAR DETACHED GARAGE W/STORAGE LOFT
+* FINISHED LOWER LEVEL W/WALKOUT * ROOKWOOD FIREPLACE * 8X16 BARN FOR
+STORAGE ALL 3 LOTS ENCLOSED W/6'WOODEN FENCE * SOLARIUM:9X8 * CHARMING
+HOME LOADED</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>3 lots</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>16 X 12</dimension><level>1</level></dining>
+<family><dimension>28 X 22</dimension><level>L</level></family>
+<kitchen><dimension>16 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 8</dimension><level>L</level></laundry>
+<living><dimension>19 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>2</level></master>
+
+<directions>DIXIE HWY TO LEFT ON EDGEWOOD RD TO LYNDALE AT Y
+IN ROAD</directions>
+</house_listing>
+
+
+

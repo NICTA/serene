@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>284 SWAPS</house_location>
+<price>$109,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Front,Oversized)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249812</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LARRI R BROWN</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>READY IN APRIL! CATH CEILINGS*2/10 WARRANTY*1 YR PROF LAWN*SEE MODEL
+AT DERBY OR CALL LARRI AT 786-3952*PROF LANDSCAPED*NICE HOUSE*GREAT
+LOCATION* WON'T LAST-BUY NOW AND FINISH THE WAY YOU WANT!!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70X120</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>9 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>9 X 15</dimension><level>1</level></breakfast>
+<kitchen><dimension>9 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>I-75 TO FLOR/BURL EXIT-R ON 18 R ON 237 L ON
+CONRAD L ON STRIKE THE GOLD</directions>
+</house_listing>
+
+
+

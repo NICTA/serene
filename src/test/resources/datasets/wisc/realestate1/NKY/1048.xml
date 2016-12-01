@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>557 ROSSFORD</house_location>
+<price>$107,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>247546</mls>
+<house_type>Single Family</house_type>
+<firm>COFFMAN REALTY</firm>
+<firm_phone>(606) 441-8090</firm_phone>
+<agent>MYRT B COFFMAN</agent>
+<agent_phone>(606) 441-8090</agent_phone>
+<house_description>RAISED RANCH - LG LAUNDRY AREA - SOME NEWER REPLACEMENT WINDOWS - 16X
+14 PATIO OFF DINING AREA. CUSTOM BUILT 8X8 YARD BARN. CALL MYRT
+COFFMAN 441-8090 FOR YOUR APPOINTMENT.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>90x124</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>8 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>11 X 12</dimension><level>1</level></master>
+<recreation_room><dimension>14 X 23</dimension><level>L</level></recreation_room>
+
+<directions>MEMORIAL PKWY TO CLOVER RIDGE L ON CAPRI
+STRAIGHT ON TO ROSSFORD NEAR COVERT RUN</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2767 RUNNING CRK DR</house_location>
+<price>$124,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248811</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>NANCY BRUNK</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>QUALITY BUILT HOME BY GIESKE- INCLUDES 12 X 12 DECK,HARDWOOD FLOOR IN
+FOYER ARCHED WINDOWS, COUNTRY KITCHEN AND CATHEDRAL CEILING. BUY NOW &amp;
+MAKE SELECTIONS. WILL BE READY IN EARLY SPRING</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70 x 155</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>13 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>26 X 11</dimension><level>L</level></family>
+<kitchen><dimension>16 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+
+<directions>US 42 TO R ON FARMVIEW TO L ON STEEPLE- BUSH TO
+R ON RUNNING CREEK</directions>
+</house_listing>
+
+
+

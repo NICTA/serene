@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Sifford</name>
+<office>(817)295-8171</office>
+<fax>(817)295-6426</fax>
+<mobile>(817)996-7372</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21398</id>
+<mls>9132600</mls>
+<house_location>221 Sherry Lane
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$259,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>Less than 1 year old custom built, great plan in restricted area w/security gate. Two brms down, 2 up, 2 woodburning fireplaces. Lovely wallpaper, heavy crown moldings, tall ceilings. Wooded lot. $20 monthly HOA fee (pay yearly) covers gate and maintenance of entry area. Gameroom, microwave, walk-in pantry, ceramic tile floors, jetted tub &amp; separate shower, constructed of rock and brick, self-cleaning oven, walk-in closets, so much more. If you are picky, better see this one.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Magnolia</sub-division>
+<approx_acres>1.13</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>2</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>3500 square foot brick luxury home</item>
+<item>Less than 1 year old</item>
+<item>Heavily treed 1.13 acre fenced lot</item>
+<item>Gated community</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

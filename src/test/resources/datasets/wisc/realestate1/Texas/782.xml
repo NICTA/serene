@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19656</id>
+<mls>14837</mls>
+<house_location>Wilson &amp; Tamn Lane
+Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$164,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Remodeled Home with 3.4 acres.  New berber carpet in all bedrooms.  New tile for the rest of the house.  Newly painted on the inside.  Recreation room big enough for pool table with wet bar and big screen television.  2 private water wells.Previously listed at $175,000.  Reduced to $164,900.  (Sellers spent over $11,000 in remodeling.)</house_description>
+
+<school_district>La Feria</school_district>
+<sub-division>Adams Gardens</sub-division>
+<approx_size_sqft>2885</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3.4</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Completely Remodeled</item>
+<item>New Tile</item>
+<item>Big Recreation Room</item>
+<item>Recognized Schools</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

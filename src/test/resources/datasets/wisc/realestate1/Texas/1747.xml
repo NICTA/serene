@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Murray Myers</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>16834</id>
+<mls>136702</mls>
+<house_location>514 S. Hidalgo
+Mathis, TEXAS 78368</house_location>
+<county>San Patricio</county>
+<price>$49,950</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Very well maintained home with a huge country kitchen, stainless steel double sinks,extra large free standing electric range, walk in pantry, lots of cabinets, separatelaundry room off master bedroom, rear wrap garage with garage door opener, largelot with winding front sidewalk.  Covered front porch the length of the house. Vinylsiding, 3 vapor security lights, concrete border on bottom of chain link fence, atticfan, 2 window ac units.  Walk to Mathis elementary and intermediate schools. Quiet neighborhood.  conv., or cash</house_description>
+
+<move-in_date>8/15/99</move-in_date>
+<school_district>Mathis</school_district>
+<approx_size_sqft>1280</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60*140</approx_lot_size>
+<year_built>1946</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

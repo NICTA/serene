@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Schiavone</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-3568</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21563</id>
+<mls>528924</mls>
+<house_location>801 Craddock Court
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$135,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Gorgeous neighborhood with all custom homes.  Many extras- his and her offices/study-great built ins throughout.  Wood floors, high ceilings.  Energy saver.  Fenced yard.  Turn the key and enjoy.  Builder says 1680 sq. ft.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Craddock Court</sub-division>
+<approx_size_sqft>1680</approx_size_sqft>
+<approx_lot_size>72.22 X 141.38</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>His and her offices/study</item>
+<item>Fenced yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

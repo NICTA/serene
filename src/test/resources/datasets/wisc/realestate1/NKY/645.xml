@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>309 W 7TH</house_location>
+<price>$67,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249884</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>MARGIE EDWARDS</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>MOTHER/DAUGHTER/SEPARATE ENTRANCES. 3 ROOMS DOWN, 3 ROOMS UP, 2
+KITCHENS. NEWER WIRING, NEWER PLUMBING. RECENTLY REFURBISHED.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25 x 100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>16 X 18</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 14</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 12</dimension><level>2</level></bedroom_4>
+<kitchen><dimension>12 X 13</dimension><level>1</level></kitchen>
+<living><dimension>16 X 18</dimension><level>1</level></living>
+<master><dimension>14 X 16</dimension><level>1</level></master>
+
+<directions>5TH STREET TO R ON MAIN ST TO 8TH TO L ON GREER
+TO L ON 7TH STREET</directions>
+</house_listing>
+
+
+

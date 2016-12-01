@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Larry Leach</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)919-7653</mobile>
+<email>LLeach7777@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21470</id>
+<mls>9135032</mls>
+<house_location>5611 Andalusia Trail
+Arlington, TEXAS 76017</house_location>
+<county>Tarrant</county>
+<price>$129,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Beautiful home in a growing area.  Great floorplan with large kitchen and bedrooms. Rear entry garage, security stystem, ash cabinets, and lots more.  This was originally a model home for the area, and it shows!</house_description>
+
+<school_district>Kennedale Isd</school_district>
+<sub-division>Stagecoach Estates</sub-division>
+<approx_size_sqft>1790</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>100x62</approx_lot_size>
+<year_built>1994</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Former model home, still beautiful!</item>
+<item>Large kitchen and bedrooms</item>
+<item>Library/study, skylites, microwave</item>
+<item>Walk-ins, built-ins, self-clean oven</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

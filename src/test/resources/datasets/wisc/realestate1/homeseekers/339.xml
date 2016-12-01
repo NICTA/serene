@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1952 has 2 bedroom(s), 1 bath(s) , 1
+car attached garage and approximately 1480 square feet of living area.
+Rooms include family room. Features include view, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Pat Duffy</agent_name>
+<direct>305-787-5022</direct>
+<office>305-758-5600</office>
+<firm_name>Duffy Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-758-5600</phone>
+<fax>305-758-6276</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$129,500</list_price>
+<location>61 NW 108 St</location>
+<neighborhood>Dunnings Miami Shores Ext</neighborhood>
+<mls>M777948</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1480 (approx)</square_feet>
+<lot_size>75 X 123</lot_size>
+<year_built>1952</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

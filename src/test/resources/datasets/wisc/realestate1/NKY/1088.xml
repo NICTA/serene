@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>4285 LEMON-NORTHCUT</house_location>
+<price>$215,000</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>243517</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>DIANN KELLY</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>HORSE LOVERS PARADISE. 12 STALL BARN. REMODELED DAIRY BARN FOR
+EQUIP/STORAG FENCED.CITY WATER. BRICK RANCH OFFERS 3BR, 2BA,FP IN FAM
+RM W/CROWN MOLDING AND WALK-OUT TO LG REAR DECK. FORMAL DIN RM, LIV RM
+AND BRKFST NOOK.</house_description>
+<construction>Brick</construction>
+<heating>Electric,Radiant</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>None</gas>
+<water>Public,Cistern</water>
+<sewer>None</sewer>
+<lot_dimensions>RECTANGLE</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 16</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 14</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>11 X 18</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<family><dimension>14 X 21</dimension><level>1</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 17</dimension><level>1</level></laundry>
+<living><dimension>14 X 17</dimension><level>1</level></living>
+<master><dimension>14 X 16</dimension><level>1</level></master>
+
+<directions>CRITTENDEN US25 L LEMON NORTHCUTT RD - 4 MILES
+TO PROPERTY ON R</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 1 level home built in 1987 has 2 bedroom(s), 1 bath(s) and
+approximately 816 square feet of living area. Rooms include master
+bedroom. Features include fireplace, air conditioning.</house_description>
+
+<agent_name>Willie Colston</agent_name>
+<direct>475-0120</direct>
+<office>757-490-7300</office>
+<firm_name>RE/MAX Central Realty RE/MAX Central Realty</firm_name>
+<phone>757-490-7300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$29,900</list_price>
+<location>Virginia Beach, VA 23462</location>
+<mls>9933758</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Townhouse/Condo</type>
+<style>Traditional</style>
+<square_feet>816 (approx)</square_feet>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

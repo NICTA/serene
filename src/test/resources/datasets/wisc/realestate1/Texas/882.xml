@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19654</id>
+<mls>14825</mls>
+<house_location>222 Linda
+Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$59,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Cute perfect starter home! Neat &amp; Clean. Can&amp;#8217;t go wrong with this one!  Take a look, you won&amp;#8217;t waste your time!(Motivated Sellers)</house_description>
+
+<school_district>Long</school_district>
+<sub-division>Tropical Acres</sub-division>
+<approx_size_sqft>1469</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Very neat &amp; clean</item>
+<item>Cul de sac</item>
+<item>Nice yard</item>
+<item>Recognized Schools</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

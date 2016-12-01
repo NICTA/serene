@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Freddie Crawford</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20119</id>
+<mls>9113722</mls>
+<house_location>1710 Island Village Court (Ad # 267)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$249,921</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>4</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Gorgeous mainbody waterfront 2 story home.  Beautiful trees &amp; level to the water.  Home is secluded.  Needs finish work - seller will continue to work on house until it sells.  This home on this lot when finished could really be a showplace!  Lot is over 1/2 acre.  Very motivated seller - bring all offers!</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Island Village Estates</sub-division>
+<approx_size_sqft>3300</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>55x400.20x120Wx378.9</approx_lot_size>
+<approx_acres>0.75</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<waterfront>Yes</waterfront>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Mainbody Waterfront Home</item>
+<item>Secluded &amp; Beautiful Trees</item>
+<item>3/4 Acre &amp; Gorgeous View</item>
+<item>Ad # 267</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

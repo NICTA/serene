@@ -1,0 +1,46 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Castleberry</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19767</id>
+<mls>O53561</mls>
+<house_location>2 La Grande Vista
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$50,000</price>
+
+<house_description>One of a kind area.  Wonderful views of Lake Marble Falls and surrounding hills.  High on a bluff, common area with steps to water and use of gazebo.  No other like it!</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>La Grande Vista</sub-division>
+<approx_lot_size>0.20</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>View</item>
+<item>Lake Access</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

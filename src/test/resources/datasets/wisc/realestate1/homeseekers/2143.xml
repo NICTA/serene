@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1950 has 2 bedroom(s), 1 bath(s) and
+approximately 1199 square feet of living area. Features include view,
+air conditioning.</house_description>
+
+<agent_name>Angela Benjamin</agent_name>
+<direct>954-983-0128</direct>
+<office>954-929-0117</office>
+<firm_name>Arvida Realty Serv Arvida Realty Serv
+Lic. Real Estate Broker</firm_name>
+<phone>954-929-0117</phone>
+<fax>954-929-2221</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$77,700</list_price>
+<location>435 NW 138 St</location>
+<neighborhood>Nichols Hgts Addn</neighborhood>
+<mls>F294332</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1199 (approx)</square_feet>
+<lot_size>65 X 100</lot_size>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

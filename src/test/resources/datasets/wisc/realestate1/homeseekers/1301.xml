@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1989 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage. Rooms include master bedroom.
+Features include view, private spa, patio, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Justin Kruidenier</agent_name>
+<office>480-585-0809</office>
+<firm_name>Coldwell Banker Brothers Realt Coldwell Banker Brothers Realt</firm_name>
+<phone>480-585-0809</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$129,900</list_price>
+<location>Phoenix, AZ 85050</location>
+<mls>1462943</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher, EatIn Kitchen, Gazebo, Loft, Microwave, Trash Compacter
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

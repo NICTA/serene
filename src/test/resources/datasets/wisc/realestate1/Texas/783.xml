@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Amelia Smith</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21387</id>
+<mls></mls>
+<house_location>940 Plum Street
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$78,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A fabulous older home in need of work with great possibilities.  It has a formal living and dining room and a den...all large rooms.  Two bedrooms and one bath are on the east side of the house...bedrooms and hallway have oak hard wood floors.  The other bedroom is on the northwest corner of the house...the kitchen needs updating as do other areas of the home.  Has been treated for termites in recent years.  Some settling.  Concrete piers observed under the house.  Gas lines repaired recently.  Washer/dryer were moved from the garage to the bath several years ago.</house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>Trammel Revised</sub-division>
+<approx_size_sqft>1734</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>15,456</approx_lot_size>
+<year_built>1950</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Walking distance to Lockhart schools</item>
+<item>Established neighborhood</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

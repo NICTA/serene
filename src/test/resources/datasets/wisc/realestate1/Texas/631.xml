@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Frank Rainosek</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<mobile>(512)924-1901</mobile>
+<email>rainosek@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20436</id>
+<mls></mls>
+<house_location>414 McAllister Road
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$159,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Lovely custom built home in Pine Forest!  Spacious with three large bedrooms and two baths!  Jacuzzi, separate shower, and double vanities in master bath.  Nice open floor plan.  Great bonus room that could be a bedroom or an office!  Beautiful custom cabinets.  Tile floors and vaulted ceilings.  Cozy fireplace in living area. 1.6+/- Acres covered with large Pines and Oaks.  Covered rear patio with large deck.  Call or e-mail Frank today for more information.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Pine Forest</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Lovely Home, Beautiful Setting!</item>
+<item>Great Bonus Room!</item>
+<item>Wonderful Master Suite!</item>
+<item>1.6+/- Gorgeous, Tree Covered Acres!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

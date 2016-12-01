@@ -1,0 +1,48 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Doyle B. Hoff</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19729</id>
+<mls>A53672</mls>
+<house_location>7518 Highway 71 East
+Spicewood, TEXAS 78669</house_location>
+<county>Burnet</county>
+<price>$495,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+
+<house_description>Commercial or Residentail Possibilities!  Main house plus guest quarters.  Barn, pond, fenced, cross fenced.  This is good prorperty for horses or development.</house_description>
+
+<school_district>Marble Falls</school_district>
+<approx_acres>26.5</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Guest Quarters</item>
+<item>Pond</item>
+<item>View</item>
+<item>Barn</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

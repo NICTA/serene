@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1991 has 2 bedroom(s), 2 bath(s) and
+approximately 1310 square feet of living area. Features include
+private pool, air conditioning.</house_description>
+
+<agent_name>Lillian Macken</agent_name>
+<direct>305-770-4725</direct>
+<office>933-3800</office>
+<firm_name>Macken Realty, Inc
+Lic. Real Estate Broker</firm_name>
+<phone>933-3800</phone>
+<fax>305-933-3128</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$375,000</list_price>
+<location>5757 Collins Av #PH-2</location>
+<neighborhood>L'excellence Condo</neighborhood>
+<mls>M771867</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1310 (approx)</square_feet>
+<year_built>1991</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Intracoastal, Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Ocean Access
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>1217 E 2ND ST</house_location>
+<price>$64,000</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>MAYSVILLE</suburb>
+<school_dist>MASON</school_dist>
+<mls>248527</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>CINDY GILKISON</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>SPACIOUS ROOMS ORIGIONAL WOOD WORK IN GOOD CONDITION. HOUSE DOES NEED
+WORK MOSTLY CONSMETICS, STRUCTURLY SOUND AND SURE COULD BE A BEAUTIFUL
+HOME WITH SOME TLC.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>Gas,Inoperable,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>90x83</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$16940</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension></dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension></dimension><level>2</level></bedroom_4>
+<dining><dimension></dimension><level>1</level></dining>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>2</level></master>
+
+<directions>MAYSVILLE TO 2ND</directions>
+</house_listing>
+
+
+

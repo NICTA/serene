@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Huff</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-0075</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19369</id>
+<mls>519497</mls>
+<house_location>161 Coolwater
+Bastrop, TEXAS 78418</house_location>
+<county>Bastrop</county>
+<price>$82,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Great starter home in established neighborhood.  Well constructed.  Open floor plan.  Energy saving features.</house_description>
+
+<school_district>Basrop</school_district>
+<sub-division>Lake Bastrop Acres</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

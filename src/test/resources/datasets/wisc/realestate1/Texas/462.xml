@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rick Townsend</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19392</id>
+<mls>9100465</mls>
+<house_location>3802 Washington Trail. (Ad# 109)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$39,900</price>
+<bedrooms>1</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Lots of possibilities!  Good condition &amp; very clean.  Large kitchen, lots of storage &amp; closet space.  Refrigerator, washer &amp; dryer stay!!  Great starter home with room to grow!!</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Lake Granbury Harbor</sub-division>
+<approx_size_sqft>1104</approx_size_sqft>
+<stories>1</stories>
+<year_built>1988</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Good Condition</item>
+<item>Large Kitchen</item>
+<item>Lots of Storage</item>
+<item>Lots of Closet Space</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

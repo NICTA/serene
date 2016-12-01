@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1963 has 3 bedroom(s), 3
+bath(s) , 2 car garage and approximately 2695 square feet of living
+area. Rooms include dining room. Features include patio, fireplace,
+air conditioning.</house_description>
+
+<agent_name>Daniel Foster</agent_name>
+<direct>520-299-3463</direct>
+<office>520-299-5040</office>
+<firm_name>Foster &amp; Foster Enterprises</firm_name>
+<phone>520-299-5040</phone>
+<fax>520-299-5870</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$399,000</list_price>
+<location>5226 E Mission Hill Dr</location>
+<mls>9919555</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2695 (approx)</square_feet>
+<lot_size>435'145'200'60' 293'</lot_size>
+<year_built>1963</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

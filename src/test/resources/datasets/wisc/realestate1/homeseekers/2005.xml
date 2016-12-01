@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1986 has 4 bedroom(s), 3 bath(s) , 3
+car garage. Rooms include dining room, family room, master bedroom.
+Features include private pool, private spa, patio, fireplace.</house_description>
+
+<agent_name>Karl Trommler, Jr.</agent_name>
+<office>480-998-6000</office>
+<email>ktromm@uswest.net</email>
+<firm_name>RE/MAX All Stars RE/MAX All
+Stars</firm_name>
+<phone>480-998-6000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$209,900</list_price>
+<location>Phoenix, AZ 85032</location>
+<mls>1455693</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<style>Spanish</style>
+<lot_size>1-7,500</lot_size>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dining/LivingCombo, Dishwasher, Eat In Kitchen, Garage Door Opener, Kitchen Island,Spanish Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 2 level attached single family home built in 1975 has 3
+bedroom(s), 2.5 bath(s) and approximately 1772 square feet of living
+area. Rooms include dining room, family room. Features include view,
+fireplace, air conditioning, double door entry.</house_description>
+
+<agent_name>Charlie Suh</agent_name>
+<direct>818-567-7227</direct>
+<office>818-957-3629</office>
+<firm_name>RE/MAX Tri City RE/MAX Tri City</firm_name>
+<phone>818-957-3629</phone>
+<fax>818-957-6877</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$349,000</list_price>
+<location>1018 Aratina St</location>
+<mls>G906834</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2.5</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<square_feet>1772 (approx)</square_feet>
+<year_built>1975</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Family Room</rooms>
+<view>Panoramic View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Double-Door Entry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

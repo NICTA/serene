@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elaine Morrow</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)707-1326</mobile>
+<email>jesmorrow@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18825</id>
+<mls>9095939</mls>
+<house_location>55 Loma Linda
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$65,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Older home with 3 bedrooms, 2 bath nestled among large trees. Ozersized lot withcovered patios front and back.  Split bedroom arangement.  Large storage building</house_description>
+
+<school_district>Whitney</school_district>
+<sub-division>Loma Linda</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Quick Access to Lake</item>
+<item>Oversized Lot with trees.</item>
+<item>Front &amp; Back patios</item>
+<item>Convenient</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

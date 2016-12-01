@@ -1,0 +1,45 @@
+<house_listing>
+<price>$89,500</price>
+<mls_id_number>135153</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1130</sqft>
+<year_built>1919</year_built>
+<heat>Electric Base Board</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>75X100</lot_description>
+<fireplace></fireplace>
+<taxes>$486</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Not Listed</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>PORTLAND</elementary>
+<middle_school></middle_school>
+<high_school>ROOSEVELT</high_school>
+</schools>
+<for_more_information_contact>
+<agent_name>Bill Barry</agent_name>
+<firm_name>WINDERMERE CCRGI - IRVING</firm_name>
+<firm_location>636 NW 21ST AVE
+PORTLAND, OR</firm_location>
+<office_phone>503-222-9701</office_phone>
+<fax>503-227-5715</fax>
+<pager>503-307-6146</pager>
+<cell_phone>503-307-6146</cell_phone>
+<e-mail>nwirving@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

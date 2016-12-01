@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>1 RT#1 BOX201A</house_location>
+<price>$159,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>GLENCO</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>250061</mls>
+<house_type>Single Family</house_type>
+<firm>MELTON REAL ESTATE</firm>
+<firm_phone>(606) 824-5252</firm_phone>
+<agent>DARRIN SECHREST</agent>
+<agent_phone>(606) 824-5252</agent_phone>
+<house_description>BRICK RANCH - UPDATED AND IN EXCELLENT CONDITION. 300 LBS. TOBACCO
+QUOTA IN 1999. BARN WITH 220 VOLT. LARGE DECK OVERLOOKING POND.
+MINUTES TO INTE RSTATE.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public,Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>17 X 17</dimension><level>1</level></family>
+<kitchen><dimension>21 X 11</dimension><level>1</level></kitchen>
+<living><dimension>12 X 20</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>I71 S GLENCO, EX L TO L ON HWY 455 ON L</directions>
+</house_listing>
+
+
+

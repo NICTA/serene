@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home built in 1942 has 2 bedroom(s) and
+approximately 806 square feet of living area. Features include patio,
+air conditioning.</house_description>
+
+<agent_name>Karen Sether</agent_name>
+<direct>618-345-9016</direct>
+<office>618-656-2278</office>
+<firm_name>Coldwell Banker Brown Realtors Coldwell Banker Brown Realtors</firm_name>
+<phone>618-656-2278</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$49,900</list_price>
+<location>1030 Iowa</location>
+<mls>9905928</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<type>Single Family</type>
+<style>One Story</style>
+<square_feet>806 (approx)</square_feet>
+<lot_size>105x120</lot_size>
+<year_built>1942</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air</heating>
+<patio>Open Porch</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Basement
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home has 4 bedroom(s), 1 bath(s) .</house_description>
+
+<agent_name>Lynn A. Franco</agent_name>
+<office>516-427-9100</office>
+<firm_name>Coach Real Estate Associates</firm_name>
+<phone>516-427-9100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$117,900</list_price>
+<location>W. 16Th</location>
+<mls>4265979</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Colonial</style>
+<lot_size>0.23</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Colonial Style, Full Basement
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

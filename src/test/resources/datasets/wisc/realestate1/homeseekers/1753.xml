@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1928 has 4 bedroom(s), 1 full
+bath(s)/1 half bath(s) , 1 car garage. Rooms include dining room,
+master bedroom.</house_description>
+
+<agent_name>Gilda Simons</agent_name>
+<direct>301-422-8498</direct>
+<office>301-559-6000</office>
+<firm_name>Diplomat Realty 2000+</firm_name>
+<phone>301-559-6000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$142,000</list_price>
+<location>Washington, DC 20017</location>
+<mls>DC3068756</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1(full) 1(half)</baths>
+<levels>2</levels>
+<garage>1</garage>
+<type>Townhouse</type>
+<lot_size>3108</lot_size>
+<year_built>1928</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

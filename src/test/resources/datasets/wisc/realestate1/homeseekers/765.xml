@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1939 has 5 bedroom(s), 4 full
+bath(s)/1 half bath(s) . Rooms include den, dining room, family room,
+master bedroom. Features include private pool, private spa, fireplace,
+air conditioning.</house_description>
+
+<agent_name>Sahakian, Michael</agent_name>
+<direct>310-470-7476</direct>
+<office>310-273-3113</office>
+<firm_name>Coldwell Banker</firm_name>
+<phone>310-273-3113</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$2,745,000</list_price>
+<location>Rd</location>
+<mls>99049610</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4(full) 1(half)</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<style>Traditional</style>
+<year_built>1939</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<fireplace>Family Room, Living Room, Master Bedroom</fireplace>
+<pool>Yes</pool>
+<rooms>Den, Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Garage Door Opener, Guest House, TraditionalStyle
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

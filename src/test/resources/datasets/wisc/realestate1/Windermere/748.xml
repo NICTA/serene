@@ -1,0 +1,34 @@
+<house_listing>
+<price>$129,900</price>
+<mls_id_number>159039</mls_id_number>
+<city>SALEM</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1056</sqft>
+<year_built>1947</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>101X197</lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Not Listed</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>HOOVER</elementary>
+<middle_school>WALDO</middle_school>
+<high_school>MCKAY</high_school>
+</schools>
+
+</house_listing>
+
+
+

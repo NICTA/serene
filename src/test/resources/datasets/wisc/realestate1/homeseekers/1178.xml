@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This single family home built in 1936 has 3 bedroom(s), 2 bath(s) and
+approximately 1237 square feet of living area. Rooms include dining
+room. Features include fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Howard Weiner</agent_name>
+<direct>954-346-5990</direct>
+<office>954-341-5700</office>
+<firm_name>RE/MAX Partners 4 RE/MAX Partners 4
+Lic. Real Estate Broker</firm_name>
+<phone>954-341-5700</phone>
+<fax>954-346-5890</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$79,900</list_price>
+<location>530 NE 73 St</location>
+<neighborhood>Federal Way Amd</neighborhood>
+<mls>F301510</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1237 (approx)</square_feet>
+<lot_size>50 X 148</lot_size>
+<year_built>1936</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Fenced, Foyer, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

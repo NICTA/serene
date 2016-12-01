@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home has 7 bedroom(s), 6 bath(s) , 2 car garage.
+Rooms include dining room, master bedroom. Features include private
+pool, private spa, patio.</house_description>
+
+<agent_name>Kevin O'Rourke</agent_name>
+<office>480-563-3081</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>480-563-3081</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$5,750,000</list_price>
+<location>Phoenix, AZ</location>
+<mls>1453917</mls>
+<status>Active</status>
+<bedrooms>7</bedrooms>
+<baths>6</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1 TO 1.9 AC</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Dishwasher, Eat In Kitchen, Microwave,Pantry, Trash Compacter
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

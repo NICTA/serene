@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Yanez</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>irene_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21390</id>
+<mls></mls>
+<house_location>1015 and 1017 Travis Street
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$93,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This three bedroom, two and one half bath home is a two story with brick/siding.  The living area is downstairs with a one half bath, a dining/breakfast bar, and a kitchen with white wash cabinets, dishwasher, disposal and pantry.  There is a side door to the yard.  There are mini-blinds and some ceiling fans.  The bedrooms are upstairs with two full baths.  The master bedroom has a walk-in closet.  This is an all electric home.  All rooms have phone and cable jacks.  Shown by 24 hour appointment.</house_description>
+
+<school_district>Lockhart</school_district>
+<sub-division>Parkway</sub-division>
+<approx_size_sqft>1400</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>All electric</item>
+<item>Walking distance to schools</item>
+<item>Two lots</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

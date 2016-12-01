@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shirley Hooks</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20588</id>
+<mls>9113740</mls>
+<house_location>725 Roe Court (Ad# 148)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$34,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Needs some work, but could be very cute.  Covered carport, nice yard and close to everything.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Roe</sub-division>
+<approx_size_sqft>720</approx_size_sqft>
+<stories>1</stories>
+<year_built>1940</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>8 WOODBURY</house_location>
+<price>$95,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>246118</mls>
+<house_type>Single Family</house_type>
+<firm>CASSON REALTY</firm>
+<firm_phone>(606) 635-5805</firm_phone>
+<agent>HAZEL CASSON</agent>
+<agent_phone>(606) 635-5805</agent_phone>
+<house_description>LIKE NEW 1 OWNER BI-LEVEL EXTENDED DECK SHED TO MATCH HOUSE XTRA LGE
+KITCHE OAK CABINETS NUTURAL COLORS FAMILY RM, BATH &amp; NICE 2 CAR GARAGE
+ON LL</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>9 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>11 X 22</dimension><level>L</level></family>
+<kitchen><dimension>11 X 16</dimension><level>1</level></kitchen>
+<living><dimension>11 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>RT 27 S TO RT ON RT 10 TO L ON BROOKWOOD TO L ON
+SPRINGWOOD TO R ON WOODBURY</directions>
+</house_listing>
+
+
+

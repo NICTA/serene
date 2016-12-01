@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maryam Gharbi</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5964</voice_mail>
+<email>lake@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>5862</id>
+<mls>452238</mls>
+<house_location>Schnuts Subdv.
+Austin, TEXAS</house_location>
+<county>Travis</county>
+<price>$279,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>House with acres. Stone exterior home with large living area, and fenced garden.  Livestock allowed with acrage.</house_description>
+
+<school_district>Funding</school_district>
+<sub-division>Schnuts</sub-division>
+<approx_size_sqft>2203</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>6.3</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+<item>All Appliance Conveys</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

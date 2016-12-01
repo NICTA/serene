@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mike Carey</name>
+<office>(956)425-1117</office>
+<fax>(956)425-3483</fax>
+<email>CINHRL@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15586</id>
+<mls>R13948</mls>
+<house_location>600 Heather
+Harlingen, TEXAS 78552</house_location>
+<county>Cameron</county>
+<price>$119,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Spanish style tile entry which carries through the kitchen and dining area.  Master bedroom has large bath with Spanish tile, walk-in closet, and double sinks.  Located in exclusive adult community.</house_description>
+
+<school_district>Harlingen</school_district>
+<approx_size_sqft>1402</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Set near golf course</item>
+<item>Inside country club</item>
+<item>Gated community</item>
+<item>Hand painted tile</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

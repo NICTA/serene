@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elaine Morrow</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)707-1326</mobile>
+<email>jesmorrow@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18659</id>
+<mls>9092137</mls>
+<house_location>105 County Rd. 1715
+Laguna Park, TEXAS 76644</house_location>
+<county>Bosque</county>
+<price>$105,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Rare Find!! 4 bedroom, 2 bath 1 car detached garage with 2 massive living areas,ceiling fans, and more.  Near marina with Homeowners Warranty.</house_description>
+
+<school_district>Clifton</school_district>
+<sub-division>Shore Acres</sub-division>
+<approx_size_sqft>2945</approx_size_sqft>
+<stories>2</stories>
+<year_built>1970</year_built>
+<master_bedroom>N/A</master_bedroom>
+<handicapped_equipped>Yes</handicapped_equipped>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Near Marina</item>
+<item>Four Bedrooms</item>
+<item>Two Living Areas</item>
+<item>Great room sizes</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

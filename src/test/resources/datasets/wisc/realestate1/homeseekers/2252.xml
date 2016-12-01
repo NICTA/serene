@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1937 has 3 bedroom(s), 2 bath(s) and
+approximately 1212 square feet of living area. Rooms include family
+room. Features include air conditioning.</house_description>
+
+<agent_name>Nelson Fernandez</agent_name>
+<direct>305-837-6731</direct>
+<office>305-225-3001</office>
+<firm_name>Nelson Realty Serv
+Lic. Real Estate Broker</firm_name>
+<phone>305-225-3001</phone>
+<fax>305-225-4664</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$98,063</list_price>
+<location>9196 NW 4 Av</location>
+<neighborhood>Pinewood Park 2Nd Addn</neighborhood>
+<mls>M744319</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1212 (approx)</square_feet>
+<lot_size>85 X 100</lot_size>
+<year_built>1937</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

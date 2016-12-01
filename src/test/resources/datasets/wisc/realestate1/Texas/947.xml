@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Jeanette Shelby Real Estate</name>
+<location>101 W. 1st Street, Suite D Elgin, TX 78621</location>
+<office>(512)281-3412</office>
+<toll_free>(800)231-5289</toll_free>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeanette Shelby</name>
+<office>(512)285-5289</office>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17593</id>
+<mls>512364</mls>
+<house_location>240 Christensen Rd.
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$225,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful home located on 18.264 acres. Game room, office, hobby room, fireplace in living room. Covered porches, tile floors. Scattered oaks, pond on the back of the property. Secluded setting but close to town.</house_description>
+
+<school_district>Elgin</school_district>
+<sub-division>Geo Stoval S</sub-division>
+<approx_size_sqft>3008</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>18.26</approx_acres>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Wonderful house with everything.</item>
+<item>Secluded setting with scattered oaks.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

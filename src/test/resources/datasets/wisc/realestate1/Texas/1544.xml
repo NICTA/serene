@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Labbe Margaret</name>
+<office>(713)686-6090</office>
+<fax>(713)686-8543</fax>
+<voice_mail>(713)716-7617</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12028</id>
+<mls>150385</mls>
+<house_location>1007 Heights Blvd
+Houston, TEXAS 77008</house_location>
+<county>Harris</county>
+<price>$349,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Charming historical home***Wrap around porch***Recent plumbing, wiring***8 ton A/C***11 foot ceilings***Super 2nd floor garage apartment currently renting for $375.00 mo.***Stainedglass windows***Den overlooks beautiful front yard. This home is featured in Houston Home and Garden magazine***Fire place heatolator***Recessed lighting***Pine floors***</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Houston Heights</sub-division>
+<approx_size_sqft>2316</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>7500</approx_lot_size>
+<year_built>1908</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Exceptional location in historic Houston Heights</item>
+<item>Move in condition</item>
+<item>Large cozy den off kitchen</item>
+<item>Minutes from most major bus. districts</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

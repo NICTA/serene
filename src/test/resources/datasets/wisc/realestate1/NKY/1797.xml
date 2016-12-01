@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>177 RT. 1/RUBER</house_location>
+<price>$68,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car None</garage>
+<suburb>0</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>247392</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>RITA HONEYCUTT</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>2 B/R HOME WITH LARGE UTILITY ROOM AND DECK ON 1.6 AC, NEW WINDOWS</house_description>
+<construction>Vinyl</construction>
+<heating>Oil</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>1.6</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 15</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>13 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 16</dimension><level>1</level></laundry>
+<living><dimension>13 X 15</dimension><level>1</level></living>
+<master><dimension>12 X 15</dimension><level>1</level></master>
+
+<directions>OFF US 27 TAKE 1657 TO END, R ON 467 TO 2ND L ON
+RUBER RD</directions>
+</house_listing>
+
+
+

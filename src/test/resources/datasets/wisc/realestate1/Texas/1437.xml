@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Virgil Waggoner Realty, Inc.</name>
+<location>4515 Manchca Road Suite 100 Austin, TX 78745</location>
+<office>(512)444-1300</office>
+<toll_free>(800)280-8488</toll_free>
+<fax>(512)444-1386</fax>
+<email>vwrealty@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>David Johnson</name>
+<office>(512)444-1300</office>
+<fax>(512)444-1386</fax>
+<mobile>(512)431-1633</mobile>
+<email>vwrealty@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16781</id>
+<mls>507585</mls>
+<house_location>202 W. LISA DR.
+in North Austin, TEXAS 78752</house_location>
+<county>Travis</county>
+<price>$92,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Austin</school_district>
+<sub-division>Huntland Heights</sub-division>
+<approx_size_sqft>1252</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>65X120</approx_lot_size>
+<year_built>1962</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>ENCLOSED PATIO W/ WINDOW A/C!</item>
+<item>RECENT CARPET AND PAINT</item>
+<item>STORAGE SHED</item>
+<item>LARGE TREES!!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

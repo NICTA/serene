@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>207 PROSPECT</house_location>
+<price>$99,000</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Heated)</garage>
+<suburb>BELLEVUE</suburb>
+<school_dist>BELLEVUE</school_dist>
+<mls>250280</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>JIM SCHACK</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>SAME OWNER FOR APPROX 50 YRS, CLEAN &amp; WELL KEPT HOME, NATURAL
+WOODWORK, ROOKWOOD FIREPLACE, 9FT CEILINGS, LOTS OF CHARACTER,
+SOLARIUM OFF DINING RM, NEWER ROOF, POURED FOUNDATION, BRICK HOME IN
+OUTSTANDING CONDITION!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Steam</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>42x60</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>24 X 14</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 13</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>11 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>16 X 10</dimension><level>1</level></kitchen>
+<living><dimension>19 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>1</level></master>
+
+<directions>RT 8 (FAIRFIELD), R LAFAYETTE, L PROSPECT</directions>
+</house_listing>
+
+
+

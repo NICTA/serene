@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parks>
+  <park>
+    <name>Pooley Country Park</name>
+    <address>
+      <street>Pooley Lane</street>
+      <area></area>
+      <town_city>Polesworth</town_city>
+      <county>Warwickshire</county>
+      <postcode>B78 1JA</postcode>
+    </address>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/55940A8538A8910180256CD00057A182</link>
+    <coordinates>52.6279575639187,-1.6257190704345703</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/CanalBoatMooringsAndCentreLrg/$file/CanalBoatMooringsAndCentreLrg.jpg</image>
+  </park>
+  <park>
+    <name>Kingsbury Water Park</name>
+    <address>
+      <street>Bodymoor Heath Lane</street>
+      <area>Bodymoor Heath</area>
+      <town_city>Sutton Coldfield</town_city>
+      <county>West Midlands</county>
+      <postcode>B76 0DY</postcode>
+    </address>
+    <link>http://www.warwickshire.gov.uk/Web/Corporate/pages.nsf/Links/D33FC76C03246E3580256B740045C34B</link>
+    <coordinates>52.5614760163337,-1.7027095080436</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/Reflections556Other/$file/Reflections556Other.jpg</image>
+  </park>
+  <park>
+    <name>Hartshill Hayes Country Park</name>
+    <address>
+      <street>Oldbury Road</street>
+      <area>Hartshill</area>
+      <town_city>Nuneaton</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV10 0TE</postcode>
+    </address>
+    <link>http://www.warwickshire.gov.uk/Web/Corporate/pages.nsf/Links/7B32DB36085400E880256B7D004BF14E</link>
+    <coordinates>52.54232866978475,-1.512594223022461</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/HartshillHaysCountryParkHazyWoodsOther556/$file/HartshillHaysCountryParkHazyWoodsOther556.jpg</image>
+  </park>
+  <park>
+    <name>Ryton Pools Country Park</name>
+    <address>
+      <street>Ryton Road</street>
+      <area>Bubbenhall</area>
+      <town_city>Coventry</town_city>
+      <county></county>
+      <postcode>CV8 3BH</postcode>
+    </address>
+    <link>http://www.warwickshire.gov.uk/Web/Corporate/pages.nsf/Links/07D163D4AAF7750180256B7D004FB522</link>
+    <coordinates>52.35219721163646,-1.4522123336791992</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/RytonPools2SpringLrg/$file/RytonPools2SpringLrg.jpg</image>
+  </park>
+  <park>
+    <name>Ufton Fields Nature Reserve</name>
+    <address>
+      <street></street>
+      <area>Ufton</area>
+      <town_city>Leamington Spa</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV33 9PU</postcode>
+    </address>
+    <link>http://www.warwickshire.gov.uk/Web/Corporate/pages.nsf/Links/2F4B3895BBAC079B80256B7D004FF2ED</link>
+    <coordinates>52.24729983756614,-1.4515471458435059</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/UftonFieldsNatureReservePicturesLrg/$file/UftonFieldsNatureReservePicturesLrg.jpg</image>
+  </park>
+  <park>
+    <name>Burton Dassett Hills Country Park</name>
+    <address>
+      <street></street>
+      <area>Burton Dassett</area>
+      <town_city>Southam</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV47 2AB</postcode>
+    </address>
+    <link>http://www.warwickshire.gov.uk/Web/Corporate/pages.nsf/Links/2F63F883BA2676A480256B7D004D412D</link>
+    <coordinates>52.16508778326973,-1.4234161376953125</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/BurtonDassett1Lrg/$file/BurtonDassett1Lrg.jpg</image>
+  </park>
+</parks>

@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1966 has 2 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1862 square feet of living
+area. Rooms include dining room. Features include view, private pool,
+patio, fireplace, storage space.</house_description>
+
+<agent_name>Silke Schneider</agent_name>
+<direct>520-531-2182</direct>
+<office>520-544-4545</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-544-4545</phone>
+<fax>520-293-3689</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$236,000</list_price>
+<location>11510 E Camino Del Desierto</location>
+<mls>9921091</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1862 (approx)</square_feet>
+<lot_size>656 X 308 APPROX</lot_size>
+<year_built>1966</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

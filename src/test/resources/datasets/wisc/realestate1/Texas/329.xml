@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Schiavone</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-3568</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20509</id>
+<mls>524299</mls>
+<house_location>1 KARISCH
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$55,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT WEEKEND HOME BUILT ONTO AN OLD PARK MODEL TRAVEL TRAILER WHICH IS THE KITCHEN.  B-B-Q AREA BUILT OF STONE.  BEAUTIFUL TREES.  SHOP OR GARAGE.  OUT IN THE COUNTRY.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Edwards Charles</sub-division>
+<stories>1</stories>
+<approx_acres>4</approx_acres>
+<year_built>1973</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>COUNTRY WEEKEND 3/2 HOME</item>
+<item>PARTIALLY FENCED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

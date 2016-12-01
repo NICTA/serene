@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>403 CLARK</house_location>
+<price>$50,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>BELLEVUE</suburb>
+<school_dist>BELLEVUE IN</school_dist>
+<mls>239162</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>THOMAS W RIEGER</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM * GREAT OPPORTUNITY*NEEDS SOME TLC*
+LG EAT-IN KIT*CEILING FANS*FENCED YARD*STORAGE SHED*OFF ST
+PARKING*CALL TOM FOR MORE DETAILS</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>14 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>15 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>1</level></laundry>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>RT 8 FAIRFILED TO R ON LAFAYETTE TO R ON CENTER
+TO L ON CLARK</directions>
+</house_listing>
+
+
+

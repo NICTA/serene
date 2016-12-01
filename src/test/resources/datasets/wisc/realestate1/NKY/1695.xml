@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>808 E 6TH ST.</house_location>
+<price>$129,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>EAST ROW HIST</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>240828</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>R J SEIFERT</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>2 HEATING &amp; AIR SYSTEMS,ALL NEW VINYL WINDOWS,12X16 DECK,BEAUTIFUL
+HOME. GOURMET KITCHEN,LOTS OF UPGRADES,PATIO,MASTER SUITE W/PRIVATE
+BATH.FINISHED 3RD FLOOR. PROFESSIONALLY DECORATED</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>B</level></bath_4>
+<bedroom_2><dimension>18 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>3</level></bedroom_3>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 14</dimension><level>1</level></kitchen>
+<living><dimension>22 X 12</dimension><level>1</level></living>
+<master><dimension>22 X 12</dimension><level>2</level></master>
+<study><dimension>10 X 12</dimension><level>3</level></study>
+
+<directions>471N TO MEMORIAL PKWY WEST TO MONROE NORTH TO
+6TH ST. EAST</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Barbara McRoberts</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>bamcrobert@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20114</id>
+<mls>14761</mls>
+<house_location>149 Lake Drive
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$297,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Come see this picturesque estate which combines modern living with the charm of a bygone era. This 2-story home features four bedrooms (3 on the second floor), screened patio or cabana for the pool area, 2-car garage, and detached workshop with separate bath. These are separate maid's quarters, including bath. Quality construction in this home includes double brick exterior walls, new aluminum windows, and a recently installed energy efficient air-conditioning system.</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Matz-leggett</sub-division>
+<approx_size_sqft>3260</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1</approx_acres>
+<year_built>1951</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<pool>Yes</pool>
+<handicapped_equipped>Yes</handicapped_equipped>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Trees &amp; mature landscaping</item>
+<item>Separate workshop &amp; maids room</item>
+<item>Quality construction</item>
+<item>Pool &amp; cabana</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1986 has 1 bedroom(s), 1 bath(s) and
+approximately 758 square feet of living area. Rooms include master
+bedroom. Features include fireplace, air conditioning.</house_description>
+
+<agent_name>David Bumgarner</agent_name>
+<direct>520-906-2554</direct>
+<office>520-297-1186</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-297-1186</phone>
+<fax>520-297-1005</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$63,000</list_price>
+<location>1200 E River Rd ##11</location>
+<mls>2000823</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<square_feet>758 (approx)</square_feet>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

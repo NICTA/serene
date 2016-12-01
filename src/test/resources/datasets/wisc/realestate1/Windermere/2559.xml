@@ -1,0 +1,45 @@
+<house_listing>
+<price>$239,000</price>
+<mls_id_number>157483</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1720</sqft>
+<year_built>1921</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Deck,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>AINSWORTH</elementary>
+<middle_school>WEST SYLVAN</middle_school>
+<high_school>LINCOLN</high_school>
+</schools>
+<for_more_information_contact>
+<agent_name>Sandra Matasar</agent_name>
+<firm_name>WINDERMERE CCRGI - IRVING</firm_name>
+<firm_location>636 NW 21ST AVE
+PORTLAND, OR</firm_location>
+<office_phone>503-222-9701</office_phone>
+<fax>503-227-5715</fax>
+<pager>202-8739</pager>
+<cell_phone>805-9758</cell_phone>
+<e-mail>nwirving@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

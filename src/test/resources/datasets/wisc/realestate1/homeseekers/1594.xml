@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1979 has 6 bedroom(s), 6 bath(s) , 4
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, private pool, private spa, patio, fireplace,
+skylights.</house_description>
+
+<agent_name>Sandra Roberts</agent_name>
+<office>602-954-6888</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>602-954-6888</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$1,650,000</list_price>
+<location>Phoenix, AZ 85016</location>
+<mls>1462722</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>6</baths>
+<garage>4</garage>
+<type>Single Family</type>
+<lot_size>24,001-35,000</lot_size>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Multi Zoned, Natural Gas</heating>
+<fireplace>Family Room, Living Room, Master Bedroom</fireplace>
+<location>On golf course</location>
+<patio>Deck</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Bidet, Breakfast Bar, Breakfast Room, Cable TV, Cathedral/VaultedCeilings, Dishwasher, Garage Door Opener, Gazebo, Microwave, Pantry,Skylights, Tennis Court(s), Trash Compacter, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

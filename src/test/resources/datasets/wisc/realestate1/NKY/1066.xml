@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1255 INDEPENDENCE P</house_location>
+<price>$119,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Carport)</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT CO</school_dist>
+<mls>249689</mls>
+<house_type>Single Family</house_type>
+<firm>EQUITY MAX REALTORS</firm>
+<firm_phone>(606) 525-8900</firm_phone>
+<agent>MAUREEN FARIS</agent>
+<agent_phone>(606) 525-8900</agent_phone>
+<house_description>RM SIZES APPROX.CITY WATER ON 4 M/L ACRES*FULL BATH OFF
+MASTER*CARPORT* CISTERN CONVERTED TO BASEMENT STORAGE AREA*</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$--</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>12 X 9</dimension><level>1</level></breakfast>
+<family><dimension>22 X 13</dimension><level>1</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 5</dimension><level>1</level></laundry>
+<living><dimension>17 X 15</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>75 S TO DRY RIDGE EX-LEFT ON RT 22-R ON RT 25-L
+ON KNOXVILLE RD-L ON INDEPENDENCE</directions>
+</house_listing>
+
+
+

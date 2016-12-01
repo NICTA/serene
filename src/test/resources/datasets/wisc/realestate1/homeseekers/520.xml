@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1959 has 3 bedroom(s), 2
+bath(s) and approximately 2300 square feet of living area. Rooms
+include den, bonus room, master bedroom. Features include view, patio,
+fireplace, storage space.</house_description>
+
+<agent_name>Rebecca Patsch</agent_name>
+<direct>520-850-7322</direct>
+<office>520-790-7320</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-790-7320</phone>
+<fax>520-790-7574</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$179,500</list_price>
+<location>5635 E Holmes St</location>
+<mls>2000880</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2300 (approx)</square_feet>
+<lot_size>77X25X100X102X125</lot_size>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

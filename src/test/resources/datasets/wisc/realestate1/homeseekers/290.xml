@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1990 has 3 bedroom(s), 2
+bath(s) , 3 car garage and approximately 1660 square feet of living
+area. Features include view, patio.</house_description>
+
+<agent_name>Robert Gaudette</agent_name>
+<direct>520-744-1121</direct>
+<office>520-744-1121</office>
+<firm_name>Del Oro Realty</firm_name>
+<phone>520-744-1121</phone>
+<fax>520-744-2021</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$129,900</list_price>
+<location>4776 W Bluebell Way</location>
+<mls>9920264</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>1660 (approx)</square_feet>
+<lot_size>79X121X58X128</lot_size>
+<year_built>1990</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

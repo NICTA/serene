@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>1538 W HWY 36</house_location>
+<price>$99,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>N/A</suburb>
+<school_dist>CARROLL</school_dist>
+<mls>249857</mls>
+<house_type>Single Family</house_type>
+<firm>REALTY WORLD-RIVER VALLEY PROP</firm>
+<firm_phone>(502) 732-9977</firm_phone>
+<agent>LINDA SIMMONS-YOUTSEY</agent>
+<agent_phone>(502) 732-9977</agent_phone>
+<house_description>HOME HAS DECK OVERLOOKING THE OHIO RIVER. APPLIANCES REMAIN</house_description>
+<construction>Vinyl,Block</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>60x225</lot_dimensions>
+<condo_level>N</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension></dimension><level>B</level></bath_1>
+<bath_2><dimension></dimension><level>U</level></bath_2>
+<bath_3><dimension></dimension><level>0</level></bath_3>
+<bath_4><dimension></dimension><level>0</level></bath_4>
+<bedroom_2><dimension></dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>0</level></bedroom_3>
+<bedroom_4><dimension></dimension><level>0</level></bedroom_4>
+<bedroom_5><dimension></dimension><level>0</level></bedroom_5>
+<breakfast><dimension></dimension><level>0</level></breakfast>
+<dining><dimension></dimension><level>0</level></dining>
+<family><dimension></dimension><level>0</level></family>
+<kitchen><dimension></dimension><level>B</level></kitchen>
+<laundry><dimension></dimension><level>B</level></laundry>
+<living><dimension></dimension><level>U</level></living>
+<master><dimension></dimension><level>U</level></master>
+<recreation_room><dimension></dimension><level>B</level></recreation_room>
+<study><dimension></dimension><level>0</level></study>
+
+<directions>I71 TO EXIT 44 RT 227 LT 42 TO HWY 36</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>2286 EDENDERRY</house_location>
+<price>$124,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>CRESCENT SPGS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>240322</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>FRANK HICKS</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>IMMACULATE 2 BEDROOM CONDO WITH STUDY, TREED VIEW, NEUTRAL DECOR AND
+GARAGE MANY UPGRADES, CATHEDRAL CEILING, CEILING FANS, NEAR INTERSTATE
+&amp; SHOPPING</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>99</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>16 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 11</dimension><level>2</level></dining>
+<kitchen><dimension>12 X 10</dimension><level>2</level></kitchen>
+<living><dimension>15 X 23</dimension><level>2</level></living>
+<master><dimension>15 X 13</dimension><level>2</level></master>
+<study><dimension>13 X 8</dimension><level>2</level></study>
+
+<directions>BUTTERMILK TO ANDERSON, LEFT BROMLEY CRES CENT
+SPGS, L EMERALD SPGS, L ENDENDERRY</directions>
+</house_listing>
+
+
+

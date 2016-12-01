@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This attached single family home built in 1968 has 3 bedroom(s), 2
+bath(s) and approximately 1714 square feet of living area.</house_description>
+
+<agent_name>Kelly Holmes</agent_name>
+<direct>303-759-6610</direct>
+<office>303-757-7474</office>
+<firm_name>RE/MAX Central Inc</firm_name>
+<phone>303-757-7474</phone>
+<fax>303-691-3387</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$143,500</list_price>
+<location>12223 E 53Rd Av</location>
+<neighborhood>Montbello</neighborhood>
+<mls>369539</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1714 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

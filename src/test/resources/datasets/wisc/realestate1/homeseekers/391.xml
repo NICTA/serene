@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This attached single family home built in 1982 has 2 bedroom(s), 3
+bath(s) and approximately 1991 square feet of living area.</house_description>
+
+<agent_name>Ed Mcwilliams</agent_name>
+<direct>303-377-2678</direct>
+<office>303-773-3399</office>
+<firm_name>Kentwood Company</firm_name>
+<phone>303-773-3399</phone>
+<fax>303-773-1203</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$217,500</list_price>
+<location>1581 S Trenton Ct</location>
+<neighborhood>Indian Creek</neighborhood>
+<mls>384861</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>1991 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

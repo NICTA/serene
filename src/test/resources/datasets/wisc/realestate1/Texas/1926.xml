@@ -1,0 +1,47 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Castleberry</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19731</id>
+<mls>R53392</mls>
+<house_location>1008 Lake Forest Drive
+Granite Shoals, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$82,700</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<house_description>Neat Neat Home!  Very roomy and well maintained.  Large kitchen loaded with extras, ceiling fans, two living areas, built-ins, cultured marble baths, whirlpool tub in master bath.  There is insulated windows and a workshop.  Comes with a 2 car carport and a sprinkler system, etc.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Sherwood Shores</sub-division>
+<approx_size_sqft>1764</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

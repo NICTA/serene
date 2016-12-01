@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Sandra Buchanan</name>
+<office>(254)542-1800</office>
+<fax></fax>
+<email>sandyb21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19273</id>
+<mls>87638</mls>
+<house_location>1009 E Main
+Gatesville, TEXAS 76528</house_location>
+<county>Coryell</county>
+<price>$288,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Charming and historical Victorian home built approximately 1838.  Bed &amp; breakfast possibility, antique shop, ample parking in rear, 3 entrances to property.  2-story-unique.  No zoning.</house_description>
+
+<school_district>Gatesville Isd</school_district>
+<approx_size_sqft>2305</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>50 x 2000</approx_lot_size>
+<approx_acres>0.27</approx_acres>
+<year_built>1838</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Victorian Home</item>
+<item>Wood Floors</item>
+<item>Fireplace in dining room</item>
+<item>Too many ammenities to list!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

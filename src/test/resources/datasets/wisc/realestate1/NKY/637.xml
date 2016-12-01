@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>621 DELMAR</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249024</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>KAREN ARMSTRONG</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>2 BEDROOM,1 BATH CAPE COD W/LGE FRONT PORCH,LGE FENCED YARD,NATURAL
+WOODWK BUILT IN BOOKCASES,FIREPLACE,FULL BASEMENT,UPDATED WIRING,QUIET
+STREET. COULD HAVE OFF STREET PARKING - NEAR ST. ELIZABETH
+HOSPITAL,NORTH</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>10 X 13</dimension><level>2</level></bedroom_2>
+<dining><dimension>15 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<living><dimension>12 X 16</dimension><level>1</level></living>
+<master><dimension>12 X 15</dimension><level>2</level></master>
+
+<directions>SOUTH ON SCOTT,L WALLACE,L OAKLAND,R DELMAR</directions>
+</house_listing>
+
+
+

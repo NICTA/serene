@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>854 W OAK</house_location>
+<price>$54,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>250355</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>PATTY COSLETT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* 4 RM COTTAGE * 2 BEDROOMS * GREAT FOR INVESTOR * FENCED YARD * ON
+BUS LINE * GOOD CONDITION * PRICED TO SELL * CEILING FANS THROUGHOUT *
+WON'T LAST *</house_description>
+<construction>Shingle</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 14</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 14</dimension><level>1</level></master>
+
+<directions>DIXIE HWY TO L ON SLEEPY HOLLOW (TURNS INTO
+DEVERILL) TO L ON OAK ST.</directions>
+</house_listing>
+
+
+

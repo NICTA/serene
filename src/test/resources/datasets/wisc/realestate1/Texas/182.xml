@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Town &amp; Country Properties</name>
+<location>602 North Llano Street Fredericksburg, TX 78624</location>
+<office>(830)990-8708</office>
+<toll_free>(877)996-0099</toll_free>
+<fax>(830)990-8906</fax>
+<email>tcprop@fbg.net</email>
+</firm_information>
+
+<agent_information>
+<name>Dennis Kusenberger</name>
+<office>(830)990-8708</office>
+<fax>(830)990-8906</fax>
+<mobile>(210)213-3153</mobile>
+<email>Dennis@Kusey.Com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19631</id>
+<mls>11283</mls>
+<house_location>00 MORRIS RANCH/WHITEOAK ROAD
+Fredericksburg, TEXAS 78624</house_location>
+<county>Gillespie</county>
+<price>$359,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>NICE HOME WITH GREAT VIEW TO THE SOUTH OVERLOOKING PEDERNALES RIVER VALLY, DEEP CLEAR WATER, 1300' OF FRONTAGE ON PEDERNALES RIVER, REAVIN THAT HAS GREAT POND POTENTIAL, GOOD SOILS IN SEVERAL SMALL FIELDS, BARNS/STORAGE.</house_description>
+
+<school_district>Fredericksburg Isd</school_district>
+<stories>1</stories>
+<approx_acres>59.6</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>1300' RIVER FRONTAGE</item>
+<item>POTENTAIL FOR A POND</item>
+<item>BARN/STORAGE</item>
+<item>GOOD SOIL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

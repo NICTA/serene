@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>331 LINDEN</house_location>
+<price>$69,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>3 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>247430</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>EUGENE WHITTLE</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>A/C WINDOW UNITS DO NOT STAY. 3 STORY-LARGE ROOMS-NEW ELE WIRING, NEW
+PLUMBING-NEWER ROOF-NEWER CARPETING-NEWER STORM WINDOWS-KITCHEN NEWLY
+REMODELED-ALL NATURAL WOODWORK-CEILING FANS.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25 x 125</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>18 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 15</dimension><level>3</level></bedroom_3>
+<dining><dimension>16 X 16</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 9</dimension><level>1</level></laundry>
+<living><dimension>20 X 14</dimension><level>1</level></living>
+<master><dimension>18 X 15</dimension><level>2</level></master>
+
+<directions>ELM ST (RT8) TO SOUTH ON ADELLA TO EAST ON
+LINDEN</directions>
+</house_listing>
+
+
+

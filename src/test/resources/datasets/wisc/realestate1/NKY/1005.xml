@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>1231 CENTRAL ROW</house_location>
+<price>$53,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>ELSMERE</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>250329</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>DAVE WHALEN</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* MAIN ST. CENTRAL ROW TO SIGN * REHABBER NEEDED FOR THIS 3 BEDROOM
+HOME * * CONVENIENT TO SCHOOL &amp; VACANT * EASY TO SHOW *</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>40X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bedroom_2><dimension>12 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>18 X 8</dimension><level>1</level></kitchen>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>18 X 9</dimension><level>1</level></master>
+
+<directions>MAIN STREET TO CENTRAL ROW TO SIGN</directions>
+</house_listing>
+
+
+

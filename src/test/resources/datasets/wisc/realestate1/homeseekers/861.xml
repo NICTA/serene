@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1982 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) , 1 car attached garage and approximately 828 square feet of
+living area. Features include air conditioning.</house_description>
+
+<agent_name>Carol King</agent_name>
+<office>305-758-9350</office>
+<firm_name>Carol King Investm
+Lic. Real Estate Broker</firm_name>
+<phone>305-758-9350</phone>
+<fax>305-758-6853</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$79,000</list_price>
+<location>780 NE 69 St #1506</location>
+<neighborhood>The Palm Bay Yacht Club C</neighborhood>
+<mls>M765780</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>828 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Bay front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

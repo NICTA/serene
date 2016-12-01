@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>124 OAK</house_location>
+<price>$39,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>244197</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GOLD SERVICES</firm>
+<firm_phone>(606) 344-9700</firm_phone>
+<agent>WILLIAM HAUSER</agent>
+<agent_phone>(606) 344-9700</agent_phone>
+<house_description>SPACIOUS HOME READY FOR IMMEDIATE OCCUPANCY THIS HOME NEEDS SOME WORK
+BUT IT IS PRICED TO REFLECT THIS FACT VERY CONVENIENT LOCATION YET
+THIS HOME OFFERS A LEVEL OF PRIVACY SOME REPLACEMENT WINDOWS A GOOD
+VALUE IN LUDLOW</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50x43</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>15 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 12</dimension><level>2</level></bedroom_3>
+<dining><dimension>20 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>19 X 12</dimension><level>2</level></master>
+
+<directions>ELM ST TO SOUTH ON CARNEAL TO LEFT ON OAK</directions>
+</house_listing>
+
+
+

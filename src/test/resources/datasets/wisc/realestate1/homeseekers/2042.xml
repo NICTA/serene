@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1962 has ? bedroom(s), 1 bath(s) and
+approximately 470 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Corey Sclar</agent_name>
+<direct>786-525-6411</direct>
+<office>305-538-7368</office>
+<firm_name>Renters Connection
+Lic. Real Estate Broker</firm_name>
+<phone>305-538-7368</phone>
+<fax>305-538-7473</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$56,000</list_price>
+<location>641 Espanola Wy #24</location>
+<neighborhood>641 Espanola Way Condo</neighborhood>
+<mls>D901688</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>470 (approx)</square_feet>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

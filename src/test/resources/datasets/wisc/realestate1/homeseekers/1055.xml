@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1987 has 2 bedroom(s), 2 bath(s) and
+approximately 1279 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Esther Percal</agent_name>
+<direct>305-674-4022</direct>
+<office>305-672-1300</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-1300</phone>
+<fax>305-672-1499</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$325,000</list_price>
+<location>400 S Pointe Dr #809</location>
+<neighborhood>South Pointe Towers Condo</neighborhood>
+<mls>M755130</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1279 (approx)</square_feet>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Bay front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

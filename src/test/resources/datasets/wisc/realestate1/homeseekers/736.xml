@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1999 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1650 square feet of living
+area. Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Max Stanerson</agent_name>
+<direct>520-744-9111</direct>
+<office>520-577-3999</office>
+<firm_name>RE/MAX Catalina Foothills RE/MAX Catalina Foothills</firm_name>
+<phone>520-577-3999</phone>
+<fax>520-577-3707</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$180,000</list_price>
+<location>9211 E Lakeside Ct #O</location>
+<mls>9920824</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1650 (approx)</square_feet>
+<lot_size>40X37X3X99X50X115</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>7370 CENTRECREST LN</house_location>
+<price>$105,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>244141</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>SANDY TIMMERDING</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>BEAUTIFUL LARGE OPEN PEACHTREE-GREAT ARCHITECURAL DESIGN-CATH
+CEILINGS-LOTS OF PLANT LEDGES FOR DECORATING-PRIVATE DECK AREA-PRIVATE
+BATH OFF MASTER BEDROOM-VERY CLEAN 1 OWNER-IMMEDIATE OCCUPANCY</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>NA</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>127</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 10</dimension><level>2</level></dining>
+<kitchen><dimension>11 X 10</dimension><level>2</level></kitchen>
+<living><dimension>15 X 15</dimension><level>2</level></living>
+<master><dimension>13 X 13</dimension><level>2</level></master>
+
+<directions>US 42 TO PLEASANT VALLEY R AT OAKBROOK L AT
+SUMMITS OR OAKBROOK TO SUMMITS</directions>
+</house_listing>
+
+
+

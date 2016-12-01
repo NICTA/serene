@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>2117 CLAREGLEN</house_location>
+<price>$123,750</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>CRESCENT SPRIN</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246652</mls>
+<house_type>Condominium</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>JANET EHRHARDT</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>DELUXE AUGUSTA MODEL. 3 BDRMS OR 2 BDRM PLUS STUDY.TOTALLY EQUIPPED
+KITCHEN INCLUDING REFRIGERATOR. DELUXE TUB PLUS SHOWER BATH.SEPARATE
+LDRY RM. 1 CAR GARAGE W/LG STORAGE LOFT. GREAT VIEW FROM ALL WINDOWS.
+CATHEDRAL CEILINGS.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>.</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>108</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 10</dimension><level>2</level></dining>
+<kitchen><dimension>11 X 9</dimension><level>2</level></kitchen>
+<laundry><dimension>10 X 8</dimension><level>2</level></laundry>
+<living><dimension>20 X 13</dimension><level>2</level></living>
+<master><dimension>15 X 16</dimension><level>2</level></master>
+<study><dimension>12 X 11</dimension><level>2</level></study>
+
+<directions>BUTTERMILK R ANDERSON TO BROMLEY CRES SPR LEFT
+EMERALD SPRINGS R CLAREGLEN</directions>
+</house_listing>
+
+
+

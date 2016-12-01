@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>313 HWY 22</house_location>
+<price>$225,000</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>246982</mls>
+<house_type>Farms</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 654-3400</firm_phone>
+<agent>NANCY W CROTTY</agent>
+<agent_phone>(606) 654-3400</agent_phone>
+<house_description>HUGE FARMHOUSE ON 50 ACRES. LND CONSISTS OF 2 LONG RIDGES. GOOD
+DEVELOPEMEN T PROP. WILL DIVIDE-HOUSE &amp; 4 ACRES M/L-160,000. 46 ACRES
+FOR 65,000.</house_description>
+<construction>Wood</construction>
+<heating>Oil,Wood</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>None</sewer>
+<lot_dimensions>00</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 12</dimension><level>2</level></bedroom_4>
+<dining><dimension>14 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>2</level></master>
+<study><dimension>12 X 12</dimension><level>1</level></study>
+
+<directions>US 27 S THROUGH FALMOUTH, LEFT ON 22 EAST
+PROPERTY ON LEFT-6.2 MILES.</directions>
+</house_listing>
+
+
+

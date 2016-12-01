@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Quandt</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>C21Linda@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>8383</id>
+<mls>26060</mls>
+<house_location>5439 ASH CREEK
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$119,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>CP&amp;L GOOD CENTS HOME. 10 YEAR BUILDERS HOME WARRANTY. R-30 CEILING BLOWN, R-19 WALL BATT. 10' CEILINGS IN GREAT ROOM AND MASTER BEDROOM. GREAT ROOM HAS CORNER FIREPLACE. KITCHEN AND GREAT ROOM ARE DIVIDED BY SNACKBAR. SPLIT BEDROOM ARRANGEMENT. MASTER BATH HAS LARGE WALK-IN CLOET AND TWO DRESSING VANITIES.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>South Creek</sub-division>
+<approx_size_sqft>1630</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>74 X 162</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>BUILT INS DW,GD,STOVE,VH</item>
+<item>NEW CONSTRUCTION</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

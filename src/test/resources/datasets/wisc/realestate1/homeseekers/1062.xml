@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1977 has 3
+bedroom(s), 2 full bath(s)/2 half bath(s) , 2 car garage and
+approximately 3366 square feet of living area. Rooms include dining
+room, family room, living room, bonus room, master bedroom. Features
+include patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Dale Mattison</agent_name>
+<office>202-363-9700</office>
+<email>dalemattison@realtor.com</email>
+<firm_name>Long &amp; Foster Real Estate,
+Inc.</firm_name>
+<phone>202-363-9700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$437,500</list_price>
+<location>Washington, DC 20011</location>
+<mls>DC3109260</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 2(half)</baths>
+<levels>3 or more</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>3366 (approx)</square_feet>
+<lot_size>5000</lot_size>
+<year_built>1977</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room, Master</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

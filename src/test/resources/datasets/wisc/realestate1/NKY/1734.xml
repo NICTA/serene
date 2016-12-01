@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>711 SARATOGA</house_location>
+<price>$42,200</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249437</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>ELIZABETH S PRAST</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>REHABBED COTTAGE WITH SPACIOUS ROOMS, NO MAINTENANCE EXTERIOR, GOOD
+RENTAL IMCOME-CURRENTLY RENTS FOR $400/MO* OR GREAT FOR OWNER
+OCCUPIED, TENANT CAN MOVE OUT QUICKLY.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>SARATOGA STREET BETWEEN 7TH &amp; 8TH.</directions>
+</house_listing>
+
+
+

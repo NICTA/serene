@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>17 DORTHA</house_location>
+<price>$129,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached,Side)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE CTY</school_dist>
+<mls>249856</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>ELAINE C. JOBERT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* BUNGALOW WITH HDWD UNDER CARPET * NEWER INSUL. WINDOWS * FORMAL DIN
+RM * * EAT-IN KIT * 1ST FLR LAUNDRY * ENCLOSED REAR PORCH FOR SUMMER
+FUN * * FENCED PRIVATE REAR YARD * C-2 ZONED * CURRENTLY USED AS
+RESIDENTIAL *</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50x185</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>13 X 11</dimension><level>1</level></living>
+<master><dimension>11 X 10</dimension><level>1</level></master>
+
+<directions>DIXIE HWY. SOUTH, LEFT DORTHA</directions>
+</house_listing>
+
+
+

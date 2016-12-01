@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1994 has 4 bedroom(s), 3
+bath(s) , 2 car garage and approximately 2010 square feet of living
+area. Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Fern Blackhall</agent_name>
+<direct>520-297-8331</direct>
+<office>520-297-8331</office>
+<firm_name>Century 21 Gateway West Realty Century 21 Gateway West Realty</firm_name>
+<phone>520-297-8331</phone>
+<fax>520-575-1733</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$189,900</list_price>
+<location>11824 N Labyrinth Dr</location>
+<mls>2000087</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2010 (approx)</square_feet>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX of Marble Falls</name>
+<location>707 Third Street Marble Falls, TX 78654</location>
+<office>(830)798-1443</office>
+<toll_free>(877)817-3629</toll_free>
+<fax>(830)693-1267</fax>
+<email>sadkins@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Suann Adkins</name>
+<office>(830)693-0515</office>
+<fax>(830)693-1267</fax>
+<mobile>(512)715-2906</mobile>
+<email>sadkins@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19014</id>
+<mls>53667</mls>
+<house_location>200 Free Rein
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$65,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>2 bedroom condo located in the heart of Horseshoe Bay.  Close to all amenities.3 baths, 1-car garage.</house_description>
+
+<move-in_date>9/4/99</move-in_date>
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<approx_size_sqft>1160</approx_size_sqft>
+<stories>2</stories>
+<year_built>1980</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Horseshoe Bay</item>
+<item>Great Location</item>
+<item>Condo</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

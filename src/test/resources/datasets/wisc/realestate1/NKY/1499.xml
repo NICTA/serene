@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>5178 CHRISTOPHER</house_location>
+<price>$102,200</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249422</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX BEST GROUP</firm>
+<firm_phone>(513) 791-6900</firm_phone>
+<agent>SAM JIM</agent>
+<agent_phone>(513) 791-6900</agent_phone>
+<house_description>NEW &amp;READY TO SHOW!EASY ONE FLOOR LIVING-THE AFFORDABLE 'WILSON' BY
+FREEDOM HOMES-MSTR SUITE W/ ADJ FULL BATH &amp; WALK-IN CLOSET, 3BD, 2
+FULL BATH, 2 CAR GARAGE, 2-10 WARRANY INC! AGENTS USE MLS X-PRESS
+SHOWING FOR LOCK BOX CODE</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$TBD</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>1</level></master>
+
+<directions>275 TO RT 17 S FOR 6.5 MILES-R @ INDEPEN DENCE
+STATION-R @ CHHISTOPHER INTO SUDDIV</directions>
+</house_listing>
+
+
+

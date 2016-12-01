@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>Great rental history lots of upgrades , investor needed!</house_description>
+
+<agent_name>Scott Wilmot</agent_name>
+<office>757-486-8800</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-486-8800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$48,111</list_price>
+<location>Norfolk, VA 23508</location>
+<mls>9931372</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Colonial</style>
+<square_feet>1562 (approx)</square_feet>
+<year_built>1905</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Colonial Style, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

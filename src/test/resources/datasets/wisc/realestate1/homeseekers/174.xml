@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1890 has 4 bedroom(s), 2 bath(s) and
+approximately 2123 square feet of living area.</house_description>
+
+<agent_name>Kasha Songer</agent_name>
+<direct>303-587-4015</direct>
+<office>303-320-5733</office>
+<firm_name>Perry &amp; Butler Cherr</firm_name>
+<phone>303-320-5733</phone>
+<fax>303-320-1338</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$268,000</list_price>
+<location>337 Acoma St</location>
+<neighborhood>Baker</neighborhood>
+<mls>385088</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2123 (approx)</square_feet>
+<year_built>1890</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18697</id>
+<mls>9092907</mls>
+<house_location>Dewayne
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$135,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>INVESTOR OPPORTUNITY!  This promising investment opportunity offers excellent cash flow!  Duplex with 3 bedrooms and 2 1/2 bath per unit.  Each features large family room, CH/A w/heat pump, dishwasher, one car garage, fenced yard and covered porch.  Well maintained and currenty occupied by great tennants.</house_description>
+
+<move-in_date>8/20/99</move-in_date>
+<school_district>Whitney</school_district>
+<sub-division>Suburban</sub-division>
+<approx_size_sqft>2898</approx_size_sqft>
+<stories>2</stories>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great Investment Opportunity</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

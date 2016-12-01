@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1975 has 4 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1481 square feet of living
+area. Features include view, patio, air conditioning.</house_description>
+
+<agent_name>Vincent Volpe</agent_name>
+<direct>520-218-0781</direct>
+<office>520-615-8400</office>
+<firm_name>Realty Executives-Tuc Realty Executives-Tuc</firm_name>
+<phone>520-615-8400</phone>
+<fax>520-615-8444</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$98,900</list_price>
+<location>2620 N Pace East Dr</location>
+<mls>9921615</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1481 (approx)</square_feet>
+<lot_size>70 X 103 X 70 X 103</lot_size>
+<year_built>1975</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

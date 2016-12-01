@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1954 has 3 bedroom(s), 2 bath(s) and
+approximately 1832 square feet of living area. Rooms include family
+room. Features include view.</house_description>
+
+<agent_name>Anthony G Askowitz</agent_name>
+<direct>305-235-4378</direct>
+<office>305-251-2127</office>
+<firm_name>RE/MAX Advance Rea RE/MAX Advance Rea
+Lic. Real Estate Broker</firm_name>
+<phone>305-251-2127</phone>
+<fax>305-251-1924</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$90,000</list_price>
+<location>1901 NW 129 St</location>
+<neighborhood>Fairmont</neighborhood>
+<mls>D905673</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1832 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1954</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

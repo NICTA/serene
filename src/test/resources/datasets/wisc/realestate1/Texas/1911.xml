@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Donna</email>
+</firm_information>
+
+<agent_information>
+<name>Holley</name>
+<office>(281)276-6520</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)276-6520</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14397</id>
+<mls>175471</mls>
+<house_location>6319 Cheridan
+Sugar Land, TEXAS 77469</house_location>
+<county>Fort Bend</county>
+<price>$329,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>Beautiful custom home situated on 1.131 Acre Lot in Fort Bend.  3354 Square Feet per Builder.  4 Bedroom 4 Bath.  Formal dining, utility room has cabana style bath.  3 car detached garage.  Master bedroom down.  Other plans available.  Choose from our inventory or design your home yourself.  We can build on your lot or ours. Cal for your Silver Creek Custom Home brochure today.  281-276-6520.  Home has 3 A/C units and two fireplaces.</house_description>
+
+<move-in_date>4/30/99</move-in_date>
+<school_district>Lamar</school_district>
+<sub-division>Huntington Oaks</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>3354</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1.13</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>2</fire_places>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

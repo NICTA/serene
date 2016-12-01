@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1919 has 3
+bedroom(s), 2 bath(s) and approximately 1132 square feet of living
+area. Rooms include dining room, living room, master bedroom.</house_description>
+
+<agent_name>Stacey Edwards</agent_name>
+<direct>619-248-9402</direct>
+<office>619-497-4900</office>
+<firm_name>Century 21 Carole Realty Century 21 Carole Realty</firm_name>
+<phone>619-497-4900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$120,000</list_price>
+<location>San Diego, CA 92104</location>
+<mls>00 6000763</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1132 (approx)</square_feet>
+<lot_size>3149</lot_size>
+<year_built>1919</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Wall Unit</heating>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

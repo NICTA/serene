@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level condominium built in 1910 has 2 bedroom(s), 2 bath(s) and
+approximately 1400 square feet of living area. Rooms include dining
+room, master bedroom. Features include fireplace, air conditioning.</house_description>
+
+<agent_name>Jonathan Taylor</agent_name>
+<direct>202-537-3344</direct>
+<office>202-234-3344</office>
+<firm_name>Tutt, Taylor &amp; Rankin Real Estate,</firm_name>
+<phone>202-234-3344</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$399,000</list_price>
+<location>Washington, DC 20009</location>
+<mls>DC3091875</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Condominium</type>
+<square_feet>1400 (approx)</square_feet>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

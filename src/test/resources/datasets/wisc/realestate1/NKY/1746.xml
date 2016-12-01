@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>2900 S 127 S</house_location>
+<price>$78,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>O</suburb>
+<school_dist>OWEN CO.</school_dist>
+<mls>249838</mls>
+<house_type>Single Family</house_type>
+<firm>TRIMAX REAL ESTATE</firm>
+<firm_phone>(606) 643-3242</firm_phone>
+<agent>LINDA MAXWELL</agent>
+<agent_phone>(606) 643-3242</agent_phone>
+<house_description>IMMACULATE 3 BR RANCH ON ALMOST AN ACRE..HDWD. FLRS. FULL BSMT.NEW
+ROOF, SIDING, STORM WINDOWS, WATER HTR. FURNACE &amp; C/A..WBFP &amp; NEWER
+BERBER CARPET IN FAMILY RM..LG.COVERED REAR DECK &amp; PORCH ACROSS
+FRONT,APPL.TO STAY...</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$O</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 11</dimension><level>1</level></dining>
+<family><dimension>13 X 22</dimension><level>1</level></family>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>12 X 15</dimension><level>1</level></living>
+<master><dimension>11 X 12</dimension><level>1</level></master>
+
+<directions>OWENTON TO 127S TOWARDS FRANKFORT, 2.1 MI FROM
+STOPLITE L ON OLD 127 .1 MI. ON L...</directions>
+</house_listing>
+
+
+

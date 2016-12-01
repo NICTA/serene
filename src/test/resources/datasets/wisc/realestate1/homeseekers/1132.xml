@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1971 has 2 bedroom(s), 2 bath(s) and
+approximately 784 square feet of living area.</house_description>
+
+<agent_name>Rob Brewer</agent_name>
+<direct>280-3680</direct>
+<office>303-280-3680</office>
+<firm_name>Metro Brokers-Scott</firm_name>
+<phone>303-280-3680</phone>
+<fax>280-3681</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$74,950</list_price>
+<location>2041 W 91St Pl</location>
+<neighborhood>Monticello Sub 197</neighborhood>
+<mls>372922</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>784 (approx)</square_feet>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

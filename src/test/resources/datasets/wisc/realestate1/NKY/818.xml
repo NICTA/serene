@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>302 MENDOCINO CT</house_location>
+<price>$89,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>CAMPBELL CO</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>249376</mls>
+<house_type>Condominium</house_type>
+<firm>FISCHER MANAGEMENT</firm>
+<firm_phone>(606) 341-4709</firm_phone>
+<agent>R. CASEY HUBER</agent>
+<agent_phone>(606) 341-4709</agent_phone>
+<house_description>NEW FISCHER HOME THE SAVANNAH-OPTIONS AVAILABLE MODEL #606-442-0007</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>15 X 21</dimension><level>1</level></living>
+<master><dimension>12 X 17</dimension><level>1</level></master>
+
+<directions>HIGHLAND HTS-POOLES CREEK RD-OFF US 27 CALL
+606-442-0007</directions>
+</house_listing>
+
+
+

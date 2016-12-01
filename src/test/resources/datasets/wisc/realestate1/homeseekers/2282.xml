@@ -1,0 +1,48 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1978 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 2790 square
+feet of living area. Rooms include dining room, family room, bonus
+room. Features include view, private pool, patio, fireplace, storage
+space.</house_description>
+
+<agent_name>Rob Lamb</agent_name>
+<direct>520-444-5262</direct>
+<office>520-297-7300</office>
+<email>Rob@roblamb.com</email>
+<firm_name>Realty Executives-Tuc
+Realty Executives-Tuc</firm_name>
+<phone>520-297-7300</phone>
+<fax>520-575-5943</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$240,000</list_price>
+<location>3611 W Flying Diamond</location>
+<mls>9916577</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2790 (approx)</square_feet>
+<lot_size>165 X 301</lot_size>
+<year_built>1978</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Forced Air</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

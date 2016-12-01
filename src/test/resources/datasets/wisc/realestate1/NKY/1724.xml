@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>736 LIBERTY ST</house_location>
+<price>$53,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>248973</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>JENNIFER HAYES</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>COMPLETELY REMODELED-NEWER WINDOWS, ROOF, SIDING, HWH, KITCHEN,
+CARPETING &amp; FRESH PAINT INSIDE AND OUT-WIRING HAS BEEN UPDATED-READY
+TO MOVE IN! FIREPLACE NOT WARRANTED,HOW.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 15</dimension><level>2</level></bedroom_2>
+<dining><dimension>16 X 16</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 17</dimension><level>1</level></kitchen>
+<living><dimension>15 X 16</dimension><level>1</level></living>
+<master><dimension>15 X 16</dimension><level>2</level></master>
+<study><dimension>7 X 9</dimension><level>1</level></study>
+
+<directions>I471 TO L ON 10TH TO R ON LIBERTY</directions>
+</house_listing>
+
+
+

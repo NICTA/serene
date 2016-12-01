@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1927 has 3 bedroom(s), 1
+bath(s) . Rooms include dining room, master bedroom.</house_description>
+
+<agent_name>Larry Gardner</agent_name>
+<direct>202-668-8752</direct>
+<office>301-652-0400</office>
+<firm_name>RE/MAX Realty Services</firm_name>
+<phone>301-652-0400</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$55,000</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC3116103</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>1530</lot_size>
+<year_built>1927</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1958 has 4 bedroom(s), 1 bath(s) and
+approximately 2000 square feet of living area.</house_description>
+
+<agent_name>Frank Manchego</agent_name>
+<direct>303-829-4366</direct>
+<office>303-480-5202</office>
+<firm_name>Manchego Properties</firm_name>
+<phone>303-480-5202</phone>
+<fax>303-477-0473</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$152,000</list_price>
+<location>7227 N Lipan St</location>
+<neighborhood>Perl Mack Manor 10</neighborhood>
+<mls>384714</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>2000 (approx)</square_feet>
+<year_built>1958</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Ann Green</name>
+<office>(512)303-5400</office>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)867-0518</voice_mail>
+<email>magreen@bastroptexas.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20353</id>
+<mls>523588</mls>
+<house_location>291 CHAROLAIS DR.
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$224,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>5</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SAFE AND SECURE, NESTLED IN THE PINES, BLUE SKY AND NIGHT STARS OUTSIDE; ROOM FOR EVERYONE INSIDE- 4 BEDROOMS, 2 1/2 BATHS, APPROX.. 3400 SQUARE FEET PER OWNER.  HUGE OPEN FLOOR PLAN AND EXTRA LIVING AREAS, LIGHT AND BRIGHT, 5 SETS OF FRENCH DOORS OPEN TO MULTIPLE PATIOS.  FOR SHOWING OR MORE INFORMATION PLEASE CALL MARY ANN GREEN AT 512-303-5400</house_description>
+
+<move-in_date>11/5/99</move-in_date>
+<school_district>Bastrop ISD</school_district>
+<sub-division>Circle D East</sub-division>
+<approx_size_sqft>2910</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>3.7</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>5</carport_spaces>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

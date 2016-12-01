@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Markgraf</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16420</id>
+<mls>52683</mls>
+<house_location>102 THUNDERBIRD LANE
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$147,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>THIS HOME HAS AN EXTRA LARGE MASTER BEDROOM WITH ROOM FOR A SITTING AREA, LARGE MASTER BATH WITH DOUBLE SINK VANATY A LARGE SHOWER STALL AND LARGE CLOSETS, A NICE SCREENED IN PORCH OFF OF MASTER BEDROOM,MOST ROOMS HAVE CEILING FANS,SKYLITE IN KITCHEN,TIN CEILING IN SEPERATE DINNING ROOM,THIS HOME HAS MANY AMINITES, IT SITS ON TWO LARGE LOTS WITH MANY LARGE OAKS FOR SHADE, IT COMES WITH A BOAT HOUSE AND 42 FEET OF CHANNEL WATER FRONT, THIS WOULD MAKE A GREAT WEEK-END  OR A RETIERMENT HOME,</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>1850</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>2 LG. LOTS</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>LG. M/BEDROOM W/LG. BATH</item>
+<item>MANY LG. OAKS</item>
+<item>TWO LG. LOTS</item>
+<item>PRIVATE SETTING</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

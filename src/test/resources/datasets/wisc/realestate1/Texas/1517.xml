@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cindy Bilbie</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>bilbiec@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21729</id>
+<mls>15062</mls>
+<house_location>1102 Arcadia
+in North Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$130,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Exceptional buy in very sought-after neighborhood.  Established area with large trees, birds.  Neighborhood comprised of young professionals and retirees.  Home is quite spacious.  Gormet kitchen features indoor grill, double ovens, island, large vent hood, walk-in pantry.  Formal living dining combination, family room with wet bar, breakfast room.  Master bedroom has 3 walk in closets, plus two others.  Large shop could be converted into apartment for in laws or others.  House needs some work and updating, but price has been reduced from $150,000 to $130,000 and seller will look at offers.</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Arcadia Village</sub-division>
+<approx_size_sqft>3255</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>irregular</approx_lot_size>
+<year_built>1974</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Established, coveted area</item>
+<item>very open and spacious</item>
+<item>2 car garage plus 2 car carport</item>
+<item>price negotiable</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

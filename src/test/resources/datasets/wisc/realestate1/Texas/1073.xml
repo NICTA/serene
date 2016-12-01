@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ralph Swearingen</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<email>ralphs@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20811</id>
+<mls></mls>
+<house_location>143EB Pine Song
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$94,000</price>
+<full_baths>2</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>In this great 2/2 cedar home on the lake!  Spacious rooms.  Wood burning stove.  Tile floors.  Guest house with bath and small kitchen.  Nice size lot with beautiful in-ground pool and lovely landscaping!  Surrounded by large, lush trees!  Two car carport.  Boat deck.  Call Ralph for details.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Lake Bastrop Estates</sub-division>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+
+<highlights>
+<item>Comfortable Lakeside Living!</item>
+<item>Convenient Guesthouse!</item>
+<item>In-Ground Pool!</item>
+<item>Beautiful 0.5+/- Acre Lot!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

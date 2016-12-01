@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>TOM MONTALBANO</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<voice_mail>(713)621-4953 144</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>13183</id>
+<mls>177930</mls>
+<house_location>10805 BRAES BEND
+Houston, TEXAS 77071</house_location>
+<county>Harris</county>
+<price>$29,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT INVESTMENT PROPERTY! UPDATED &amp; CLEAN UNIT READY TO MOVE INTO! EXTRA LARGE CLOSETS. NICE KITCHEN COUNTERS. WOOD-BURNING FIREPLACE WITH MARBLE SURROUND. LARGE BALCONY FOR PETS, PLANTS, BBQ. ALL APPLIANCES REMAIN! LOOK AT LIVING ROOM SIZE! HURRY- WON'T LAST LONG!</house_description>
+
+<sub-division>Creekbend Townhomes</sub-division>
+<approx_size_sqft>1014</approx_size_sqft>
+<stories>1</stories>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>GREAT INVESTMEN</item>
+<item>REDY TO MOVE IN</item>
+<item>ALL APPLIANCES REMAIN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

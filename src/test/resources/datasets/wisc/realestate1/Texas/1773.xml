@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Frank Rainosek</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<mobile>(512)924-1901</mobile>
+<email>rainosek@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21258</id>
+<mls></mls>
+<house_location>295 Akaloa
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$157,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>You and your family will love this lovely 3/2/2 home in Tahitian Village!  Well-maintained with open living plan and high ceilings.  Cozy fireplace in living area.  Great kitchen with breakfast bar and pantry.  Custom window coverings.  Large utility room with freezer space.  Great landscaping package with deck.  Toweing pine and oak trees.  Call or e-mail Frank today for more details.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Tahitian Village</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Lovely Home, Beautiful Setting!</item>
+<item>Nice Open Living Plan!</item>
+<item>Custom Window Coverings!</item>
+<item>Great Landscaping Package!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

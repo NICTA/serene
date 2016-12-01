@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Li-Fei Chen</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5949</voice_mail>
+<email>info@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14848</id>
+<mls>496212</mls>
+<house_location>5308 WATERBROOK DR
+Austin, TEXAS 78723</house_location>
+<county>Travis</county>
+<price>$96,600</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>VAULTED CEILING/FAN IN THE HUGE FAMILY ROOM. HARDWOOD BUILT-IN SHELF. STONE FIREPLACE. BIG TREES FRONT AND PECAN TREE IN THE BACK YARD. FRENCH DOOR LEADS TO BACKYARD. BIG PORTABLE STORAGE UNIT. CLOSE TO PARK, POOL, METRO BUS. MINUTES TO IH 35. KITCHEN WORK IN PROGRESS. WONDERFUL FAMILY COMMUNITY.</house_description>
+
+<move-in_date>3/10/99</move-in_date>
+<school_district>Austin ISD</school_district>
+<approx_size_sqft>1662</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>65X130</approx_lot_size>
+<year_built>1958</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>MINUTES TO IH 35</item>
+<item>ATTRACTIVE STONE FIREPLACE</item>
+<item>HUGE FAMILY ROOM</item>
+<item>BIG GREEN TREES FRONT&amp;BACK</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This townhouse built in 1973 has 2 bedroom(s), 2 bath(s) . Rooms
+include master bedroom.</house_description>
+
+<agent_name>Paul Hamby</agent_name>
+<office>602-906-1681</office>
+<firm_name>Paul Hamby &amp; Associates</firm_name>
+<phone>602-906-1681</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$27,500</list_price>
+<location>Phoenix, AZ 85009</location>
+<mls>1369001</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse</type>
+<year_built>1973</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<pool>Community Pool</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dining/Living Combo, Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

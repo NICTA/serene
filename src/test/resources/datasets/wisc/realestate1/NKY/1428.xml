@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>78 MIDNIGHT RUN</house_location>
+<price>$203,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248159</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>FRANCINE FINLEY</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>ADDL. PHOTOS WWW.STAR-ONE.COM * 120 DAY COMPLETION TIME, 10 YEAR
+STRUCTURAL WARRANTY. BUILD THIS ZARING HOME ALMOST ANYWHERE. WE HAVE
+LOTS IN KENTON, CAMPBELL AND BOONE COUNTIES. ALSO, OTHER PLANS
+AVAILABLE.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>1</level></bedroom_3>
+<dining><dimension>14 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 8</dimension><level>1</level></laundry>
+<living><dimension>15 X 22</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>1</level></master>
+
+<directions>17 S, L ON MCCULLEN, L ON OLIVER, L INTO REVERES
+CROSSING</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Landmasters Real Estate</name>
+<location>101 Sunrise Drive Sunrise Beach, TX 78643</location>
+<office>(915)388-4555</office>
+<toll_free>(800)306-8629</toll_free>
+<fax>(915)388-3946</fax>
+<email>landmstr@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Judy Tiller</name>
+<office>(915)388-4555</office>
+<fax>(915)388-3946</fax>
+<email>LANDMSTR@TSTAR.NET</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18155</id>
+<mls>53467</mls>
+<house_location>209 Sandy Lane
+Marble Falls, TEXAS 78654</house_location>
+<county>Llano</county>
+<price>$219,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>WATERFRONT - Cute! Cute! Cute!  A WEEKENDER&amp;#8217;S DREAM COME TRUE!  This home is located in a great neighborhood (Blue Lake) with a 9 hole golf course.  You can play golf and enjoy the lake all in one weekend.  This cottage features 2 bedrooms, central heat and air, covered porch across entire back of house looking out over the water, a boathouse with deck above and two jet ski ramps, sprinkler system and fenced yard.  DON&amp;#8217;T MISS THIS ONE.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Blue Lake Estates</sub-division>
+<approx_size_sqft>800</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WATERFRONT</item>
+<item>VIEW</item>
+<item>CUTE COTTAGE</item>
+<item>GREAT NEIGHBORHOOD</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

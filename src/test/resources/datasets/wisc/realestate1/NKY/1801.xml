@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1006 SHELBY ST</house_location>
+<price>$62,500</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>247894</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>RAYMOND BEETEM</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>GREAT FIRST TIME BUYER OR RETIREE--JUST WANTING QUIET IN THE CITY.
+THIS HOUSE HAS BEEN COMPLETELY REMODELED. MOVE IN CONDITION. MUST SEE.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50X163</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>12 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 13</dimension><level>1</level></laundry>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>US27S TO FALMOUTH,LT AT LIGHT TO SHELBY ST.
+HOUSE ON LT .5 MILES FROM US27</directions>
+</house_listing>
+
+
+

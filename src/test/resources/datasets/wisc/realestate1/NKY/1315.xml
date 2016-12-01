@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>2896 CLIFFVIEW</house_location>
+<price>$91,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>VILLA HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249257</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>DONNA J KORTE</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* GREAT CONDO * NEUTRAL DECOR * LAKE VIEW &amp; SEASONAL RIVERVIEW FROM
+DECK OVERLOOKS WOODS * FAMILY RM W/WET BAR &amp; WBFP * CONDO NEXT TO
+POOL, CLUB HOUSE &amp; TENNIS * DECK &amp; PATIO PRIVACY * GREAT LOCATION *</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>10 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>12 X 8</dimension><level>1</level></dining>
+<family><dimension>16 X 11</dimension><level>L</level></family>
+<kitchen><dimension>10 X 8</dimension><level>1</level></kitchen>
+<living><dimension>16 X 10</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>2</level></master>
+
+<directions>BUTTERMILK TO R ON COLLINS, L AMSTERDAM, R AT
+PROSPECT PT., R AT LAKE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>2511 HERMAN</house_location>
+<price>$50,000</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248664</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>DIANNE B ROTHFUSS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*NOT A DRIVE BY*NEAT AND TIDY
+COTTAGE*ENCLOSED PORCH COULD BE 2ND BDRM WITH SOME WORK*ALL APPLIANCES
+STAY WITH HOME*NEWER FURNACE, C/A, WINDOWS AND ELECTRIC</house_description>
+<construction>Other</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<breakfast><dimension>13 X 10</dimension><level>1</level></breakfast>
+<kitchen><dimension>8 X 5</dimension><level>1</level></kitchen>
+<living><dimension>13 X 10</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>MADISON TO W 26 TURNS TO WARREN R ON MEGERLE CT
+L ON HERMAN-HOUSE ON LEFT</directions>
+</house_listing>
+
+
+

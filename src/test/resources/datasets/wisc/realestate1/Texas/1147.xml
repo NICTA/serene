@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Irona Smith Alexander</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)295-7580</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>17367</id>
+<mls>9054939</mls>
+<house_location>200 MAN-O-WAR
+Burleson, TEXAS 76028</house_location>
+<county>Tarrant</county>
+<price>$525,900</price>
+<bedrooms>5</bedrooms>
+<full_baths>5</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Pamper yourself when you purchase this brand-new builder&amp;#8217;s home.  Located in an area of extremely nice homes, and designed for upscale lifestyle with numerous quality amenities and upgrades.  All the bells and whistles -  check out some of these luxurious features: two beautiful stairwells, three fireplaces, a computer alcove upstairs, owners&amp;#8217; suite on main floor, GAME ROOM WITH WET BAR, wine cellar under the stairs, a walk-in pantry, balcony, and a really LARGE garage. The approximately 1.5 acres is heavily treed. If you'll settle for nothing but THE BEST, this is the one for you!</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Churchill Park</sub-division>
+<stories>2</stories>
+<approx_acres>1.5</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>3</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>APPROXIMATELY 1.5 ACRES</item>
+<item>EXTRAS GALORE; TREES!!!</item>
+<item>2-STORYQUALITY BEAUTY</item>
+<item>EXTREMELY NICE NEIGHBORHOOD</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

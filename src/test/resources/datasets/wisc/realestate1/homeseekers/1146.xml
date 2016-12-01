@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1956 has 3 bedroom(s), 2 bath(s) , 1
+car garage. Rooms include dining room, master bedroom. Features
+include patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Tina Padelford</agent_name>
+<office>602-841-4671</office>
+<firm_name>Nu-Way Realty</firm_name>
+<phone>602-841-4671</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$86,000</list_price>
+<location>Phoenix, AZ 85031</location>
+<mls>1455735</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<year_built>1956</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

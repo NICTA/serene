@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1997 has 4
+bedroom(s), 3 bath(s) , 3 car garage and approximately 3599 square
+feet of living area. Rooms include den, dining room, family room,
+living room, bonus room, master bedroom. Features include fireplace.</house_description>
+
+<agent_name>Linda Nelson</agent_name>
+<direct>858-618-5611</direct>
+<office>858-487-3520</office>
+<firm_name>Prudential California Realty Prudential California Realty</firm_name>
+<phone>858-487-3520</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$569,900</list_price>
+<location>San Diego, CA 92131</location>
+<mls>00 6001151</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>3599 (approx)</square_feet>
+<lot_size>11800</lot_size>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<rooms>Bonus Room, Den, Dining Room, Family Room, Living Room, Master</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

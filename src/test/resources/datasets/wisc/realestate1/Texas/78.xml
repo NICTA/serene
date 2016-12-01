@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mila Harris</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<mobile>(512)755-0151</mobile>
+<email>bmdeer@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17230</id>
+<mls>52908</mls>
+<house_location>FM 1980
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$329,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>5</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>ABSOLUTELY HUGE FAMILY HOME WITH GRANITE FIREPLACE AND PATIO ON THREE ACRES!! ENCLOSED SWIMMING POOL AND HOT TUB. GRANITE DOLL HOUSE. SIX STALL BARN. ADDITIONAL LIVING QUARTERS IN GARAGE.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Tobyville</sub-division>
+<approx_size_sqft>5049</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>WONDERFULLY SHADED 5,000+ SQUARE FOOT HOME!</item>
+<item>3 ACRES, SWIMMING POOL AND HOT TUB!</item>
+<item>SIX STALL BARN!</item>
+<item>GRANITE FIREPLACE AND PATIO!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

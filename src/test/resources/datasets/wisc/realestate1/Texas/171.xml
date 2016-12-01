@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Nichols, Broker Associate</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 112</voice_mail>
+<mobile>(512)461-3487</mobile>
+<email>cnichols@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21603</id>
+<mls></mls>
+<house_location>107 Cedar Springs Drive
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$174,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>CEDAR SPRINGS beauty of stone fireplace and wooden floors; extra-large owner&amp;#8217;s suite; spacious pantry and gargae, with outstanding views of the Wimberley hills from covered front porch; paved county road, cable tv.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Cedar Springs</sub-division>
+<stories>1</stories>
+<approx_acres>0.9</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

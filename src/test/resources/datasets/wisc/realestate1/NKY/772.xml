@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>73 CHALK RD A</house_location>
+<price>$650,000</price>
+<rooms>11</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Builtin)</garage>
+<suburb>ROSS</suburb>
+<school_dist>CAMPBELL CT</school_dist>
+<mls>242215</mls>
+<house_type>Single Family</house_type>
+<firm>A 4% REALTY</firm>
+<firm_phone>(606) 572-0885</firm_phone>
+<agent>MAX BRAUNE</agent>
+<agent_phone>(606) 572-0885</agent_phone>
+<house_description>WRULY REMARKABLE!19 ACRE ESTATE WITH PANARAMIC RIVER VIEW,PANELED
+STUDY LARGE COLUMNED PORCH,4 FIREPLACES,MINITURE AND HUGE BALCONY
+PORCHES,CURVED FREESTANDING STAIRS,CHERRY CABINETRY,SITS ON HIGH PEAK
+OF COUNTY</house_description>
+<construction>Stone</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>19 acres</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>15 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 14</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 15</dimension><level>1</level></dining>
+<family><dimension>22 X 14</dimension><level>1</level></family>
+<kitchen><dimension>16 X 15</dimension><level>1</level></kitchen>
+<living><dimension>30 X 14</dimension><level>1</level></living>
+<master><dimension>23 X 15</dimension><level>2</level></master>
+<study><dimension>15 X 12</dimension><level>1</level></study>
+
+<directions>AA HWY SOUTH TO 547 NORTH R UPPER EIGHT MILE R
+GUNKEL #3 LEFT CHALK.STONE PILLARS</directions>
+</house_listing>
+
+
+

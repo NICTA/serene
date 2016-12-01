@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1 CATHERINE LN</house_location>
+<price>$69,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>249706</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>RITA HONEYCUTT</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>1492 SQ.FT. MANUFACTURED NEW HOME ON 1 ACRE LOT ON US 27</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 7</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 13</dimension><level>1</level></kitchen>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>US 27 S OF FALMOUTH ABOUT 7 M ON L</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>Moderate size bedrooms. Pleasant kitchen. Windows and doors in
+excellent condition. Large screened back porch. Garage has 220 volt
+service. Separate utility rm off main hallway. Quiet neighborhood with
+many trees. Carpet allowance or closing cost assistance.</house_description>
+
+<agent_name>Cindy Elliott</agent_name>
+<office>757-623-2500</office>
+<firm_name>Long &amp; Foster Real Estate, Inc</firm_name>
+<phone>757-623-2500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$61,900</list_price>
+<location>Norfolk, VA 23505</location>
+<mls>9932897</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Bungalow</style>
+<square_feet>840 (approx)</square_feet>
+<year_built>1942</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Floor Furnace, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Screened-in</patio>
+<pool>Above ground</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Bungalow Style, Fenced, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

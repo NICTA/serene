@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>SUSAN YOUNGBLOOD</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<voice_mail>(512)794-2099 141</voice_mail>
+<mobile>(512)656-6665</mobile>
+<email>susany@onr.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15545</id>
+<mls>499781</mls>
+<house_location>7003 S. Pleasant Valley Rd.
+Austin, TEXAS 78744</house_location>
+<county>Travis</county>
+<price>$78,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Duplex. Ready for owner occupant. Side A is leased at $450. Long time tenant on side A. Side B completely re-done inside. New fence. Roof 2 yrs. old. Recent ac/heat. Both sides are 2/2. Fireplace in each. Washer&amp; dryer connections in carport. 1 carport per side. Huge pecan trees. Open kitchen and eating area.Separation of bedrooms. No sign yet. There is an MLS keysafe on side B.</house_description>
+
+<move-in_date>4/14/99</move-in_date>
+<school_district>Austin ISD</school_district>
+<approx_size_sqft>1756</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>70X100</approx_lot_size>
+<year_built>1979</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Ready for owner occupant!</item>
+<item>Recent roof, ac/heat.</item>
+<item>Gorgeous trees.Fenced yard.</item>
+<item>Close to I35 &amp; employers.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>Property is priced right, ready to sell.</house_description>
+
+<agent_name>Victor Hernandez</agent_name>
+<direct>562-806-1000</direct>
+<office>562-806-1000</office>
+<firm_name>C-21 A Better Service C-21 A Better Service</firm_name>
+<phone>562-806-1000</phone>
+<fax>562-806-0110</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$85,000</list_price>
+<location>Los Angeles, CA 90059</location>
+<mls>Y95296</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<lot_size>5000 (approx)</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Living Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

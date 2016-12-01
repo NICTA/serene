@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>224 W 10TH</house_location>
+<price>$39,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>(Rear)</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>246229</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>RICHARD HUBBARD</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>CURRENTLY USED AS A 2 FAMILY, BUT COULD EASILY CONVERT TO SINGLE.
+DINING RM ON 1ST FL IS BEING USED AS A BDR BY TENANT. EQUIPPED KITCHEN
+ON 2ND FLOOR. NOT LICENSED AS SUCH.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric</heating>
+<cooling></cooling>
+<fireplace>Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>36x30</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>28 X 13</dimension><level>3</level></bedroom_3>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>2</level></master>
+
+<directions>471 TO MEMORIAL PKY WEST-TURNS INTO 10TH TO 224
+W</directions>
+</house_listing>
+
+
+

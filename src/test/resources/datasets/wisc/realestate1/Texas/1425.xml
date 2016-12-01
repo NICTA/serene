@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jeanine Pullen</name>
+<office>(512)833-3263</office>
+<fax>(512)301-1505</fax>
+<voice_mail>(512)833-3263</voice_mail>
+<mobile>(512)497-0928</mobile>
+<email>jeanine@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20454</id>
+<mls>523339</mls>
+<house_location>11520 Tickford
+Del Valle, TEXAS</house_location>
+<county>Travis</county>
+<price>$112,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Built in 1998! 1657 Sq. Ft.!</house_description>
+
+<school_district>Del Valle</school_district>
+<sub-division>Stoney Ridge</sub-division>
+<approx_size_sqft>1657</approx_size_sqft>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Del Valle Schools!</item>
+<item>Built 1998!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

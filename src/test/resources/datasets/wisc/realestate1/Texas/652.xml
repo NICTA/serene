@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Schiavone</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-3568</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21560</id>
+<mls>528920</mls>
+<house_location>102 Burleson
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$124,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This beautiful new home is ready to move in and enjoy.  High ceilings, large covered patio and walkway.  Access to alley.  Energy package.  Owner says 1600 sq. ft.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>1</sub-division>
+<stories>1</stories>
+<approx_lot_size>67.5 X 125</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>New home</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

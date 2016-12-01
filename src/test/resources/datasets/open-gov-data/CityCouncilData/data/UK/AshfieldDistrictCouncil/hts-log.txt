@@ -1,0 +1,23 @@
+HTTrack3.48-21 launched on Tue, 31 Mar 2015 15:56:31 at http://data.gov.uk/publisher/ashfield-district-council -* +*/dataset* +*/resource_cache/* +*.csv 1
+(httrack -A0 -%! -c10 -a http://data.gov.uk/publisher/ashfield-district-council -* +*/dataset* +*/resource_cache/* +*.csv -r 1 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:56:31	Warning: 	* security warning: !!! BYPASSING SECURITY LIMITS - MONITOR THIS SESSION WITH EXTREME CARE !!!
+15:57:46	Warning: 	Unexpected socket error during pre-loop
+15:57:54	Warning: 	Unexpected socket error during pre-loop
+15:57:54	Error: 	"Receive Error" (-4) after 2 retries at link 1/robots.txt (from primary/primary)
+15:57:54	Warning: 	Retry after error -4 (Receive Error) at link 1/ (from primary/primary)
+15:59:10	Warning: 	Unexpected socket error during pre-loop
+15:59:10	Warning: 	Retry after error -4 (Receive Error) at link 1/ (from primary/primary)
+15:59:10	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://certificates.theodi.org/robots.txt (from data.gov.uk/dataset/ashfield-planing-applications)
+15:59:11	Warning: 	Note: due to www.ashfield-dc.gov.uk remote robots.txt rules, links beginning with these path will be forbidden: /cfusion/, /cfusion/planning, /cfusion/Planning, /media, /g_lib (see in the options to disable this)
+15:59:20	Error: 	"Not Found" (404) at link data.gov.uk/data/resource_cache/5c/5cec9d98-d08d-4ffb-be38-fa8443f78c6a/ADC Polling Stations.kml (from data.gov.uk/dataset/ashfield-polling-station)
+16:00:26	Warning: 	Unexpected socket error during pre-loop
+16:00:26	Error: 	"Receive Error" (-4) after 2 retries at link 1/ (from primary/primary)
+
+HTTrack Website Copier/3.48-21 mirror complete in 3 minutes 55 seconds : 96 links scanned, 87 files written (49754074 bytes overall) [27028416 bytes received at 115014 bytes/sec], 26263677 bytes transferred using HTTP compression in 97 files, ratio 13%, 5.1 requests per connection
+(4 errors, 8 warnings, 0 messages)

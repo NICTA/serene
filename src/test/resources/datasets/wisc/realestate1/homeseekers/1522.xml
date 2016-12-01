@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Originally designed to be completely wheel chair accessable! New
+heating system.</house_description>
+
+<agent_name>Samuel Dwyer</agent_name>
+<office>757-486-8800</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-486-8800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>Norfolk, VA 23502</location>
+<mls>9926655</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1900 (approx)</square_feet>
+<year_built>1956</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Oil</heating>
+<fireplace>Yes</fireplace>
+<location>Corner</location>
+<patio>Patio</patio>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Fenced, Handicapmodified interior, Ranch Style, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

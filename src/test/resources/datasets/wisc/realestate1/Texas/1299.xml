@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Christopher Hodge</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<email>chodge@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20029</id>
+<mls>521375</mls>
+<house_location>2271 FM RD 535
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$87,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Take A Closer Look!!!! This 3 bedroom 2 bath home, with an incredible view of the hill country sunsets and plenty of wildflowers in the spring, has a spacious living area, formal dining room, kitchen w/center island, breakfast bar, fireplace, vaulted ceilings and more. The bedrooms have great walk-in closet space and the master bath has separate shower, double vanity, and garden tub. This unrestricted 8 acre tract, convenient to Bastrop, Austin and San Marcos is an incredible value at a comfortable price!!!!</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>John S. Craft</sub-division>
+<approx_size_sqft>1568</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>8 acres</approx_lot_size>
+<approx_acres>8</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>8 Acres with Fantastic Sunsets!</item>
+<item>19953/2 DWMH</item>
+<item>Commercial/Residential Potential</item>
+<item>Great Price!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

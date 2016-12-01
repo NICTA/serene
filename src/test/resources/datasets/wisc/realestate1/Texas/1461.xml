@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Laura Bertelsen</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 115</voice_mail>
+<mobile>(512)376-8098</mobile>
+<email>laurab@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20186</id>
+<mls></mls>
+<house_location>411 Mill Race Lane
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$225,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>One of a kind. Over 500' of gorgeous Cypress Creek w/deep pools of crystal clear water. Situated at the end of the road on a secluded, yet close in 2+ acres offering a quaint 1930's rock house w/no visible neighbors. Massive Cypress &amp; Pecan trees cover this private retreat. Home offers unique rock fireplace w/raised hearth &amp; 8' cedar mantle, open wood ceilings, upgraded kitchen, screened porch, wood deck, footed tub, rock shower, interior wood shutters, wooden Dutch door, interior rock &amp; wood walls &amp; public water supply. Must see!</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<stories>1</stories>
+<approx_acres>2.18</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

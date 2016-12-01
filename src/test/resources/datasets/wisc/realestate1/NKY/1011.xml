@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>644 FT.THOMAS AVE</house_location>
+<price>$160,000</price>
+<rooms>9</rooms>
+<bedrooms>5</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>644 S.FT.THOS.</suburb>
+<school_dist>FT.THOMAS</school_dist>
+<mls>244496</mls>
+<house_type>Single Family</house_type>
+<firm>POGUE &amp; ASSOCIATES</firm>
+<firm_phone>(606) 781-2201</firm_phone>
+<agent>PHYLLIS WEATHERS</agent>
+<agent_phone>(606) 781-2201</agent_phone>
+<house_description>ATTRACTIVE TUDOR NEAR TOWER PARK &amp; ST. THOMAS. FOUR OR FIVE BEDROOMS.
+SITTING ROOM OFF FIRST FLOOR MASTER BEDROOM VENTILATION FAN IN SECOND
+FLOOR HALL NO A/C IN 2ND FLOOR NURSERY (OR BEDROOM)</house_description>
+<construction>Brick</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>Central Air</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>75x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 9</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>12 X 10</dimension><level>1</level></bedroom_5>
+<dining><dimension>15 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>19 X 14</dimension><level>1</level></kitchen>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 16</dimension><level>1</level></master>
+<study><dimension>10 X 10</dimension><level>1</level></study>
+
+<directions>HIGHLAND AVE. TO RIGHT ON S.FT.THOMAS AVE</directions>
+</house_listing>
+
+
+

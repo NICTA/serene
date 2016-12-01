@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Richard Michalski</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<mobile>(512)517-7430</mobile>
+<email>winkler@texasproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19753</id>
+<mls>520774</mls>
+<house_location>149 MICHELE DR
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$110,000</price>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>SUPER NICE OAKCREEK,, 1925 SQ HOME ON 1.25 ACRE WOODED LOT.  MANY, MANY UPGRADES.  MUST SEE TO APPRECIATE, SHOWS GREAT.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1925</approx_size_sqft>
+<approx_acres>1.25</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

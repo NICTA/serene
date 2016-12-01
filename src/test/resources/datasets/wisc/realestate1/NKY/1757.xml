@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>0 BOX 10 HWY 127</house_location>
+<price>$149,900</price>
+<rooms>10</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Detached,Side,Oversized)</garage>
+<suburb>0</suburb>
+<school_dist>OWEN</school_dist>
+<mls>246547</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>NEWLY BUILT 3 BDRM,2 BTH,2 STORY HOME W/2 CAR DETACHED GARAGE.ALSO
+INCLUDES 2 STORY FINISHED BARN W/BATHROOM. APPRX. 2300 TOTAL SQUARE
+FEET. ALL ON 3 PRIVATE,SCENIC ACRES. ONLY 1 MILE FROM OWENTON &amp; 1/2
+HOUR FROM FRANKFORT!</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>Irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>10 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>12 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 8</dimension><level>1</level></dining>
+<family><dimension>15 X 10</dimension><level>1</level></family>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 4</dimension><level>1</level></laundry>
+<living><dimension>12 X 10</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>2</level></master>
+<recreation_room><dimension>24 X 16</dimension><level>1</level></recreation_room>
+<study><dimension>24 X 16</dimension><level>2</level></study>
+
+<directions>HWY 35 OR RT. 22 TO HWY 127</directions>
+</house_listing>
+
+
+

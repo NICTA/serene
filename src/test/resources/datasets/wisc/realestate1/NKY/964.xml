@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>102 8TH ST</house_location>
+<price>$59,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>249843</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>CHARLES WILSON</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>EASY TO SHOW-VACANT-IMMEDIATE OCCUPANCY! NEW WINDOWS,CARPET AND PAINT.
+LARGE ROOMS-GREAT AREA-HOME OWNERS WARRANTY INCLUDED. BUILT IN GARAGE.</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable,None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>10 X 15</dimension><level>2</level></bedroom_2>
+<dining><dimension>17 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>2</level></master>
+
+<directions>FAIRFIELD AV TO O'FALLON-TURN R ON O'FALLON TO
+8TH ST ON CORNER</directions>
+</house_listing>
+
+
+

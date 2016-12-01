@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mike Evans</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<voice_mail>(817)558-8955 108</voice_mail>
+<mobile>(817)691-7468</mobile>
+<email>mikeevan@hpnc.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20069</id>
+<mls>9112461</mls>
+<house_location>216 Huron
+Cleburne, TEXAS 76031</house_location>
+<county>Johnson</county>
+<price>$39,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT OLDER HOME LOCATED IN CLEBURNE ..MANY UPDATES ; CENTRAL HEAT  &amp;  AIR  ** HARDWOOD FLOORS **GIVE MIKE A CALL AT 817-558-8955 TO SEE THIS HOME ...THIS WANT LAST LONG AT THIS PRICE !!!!</house_description>
+
+<move-in_date>10/20/99</move-in_date>
+<school_district>Cleburne I S D</school_district>
+<sub-division>Original Cleburne</sub-division>
+<approx_size_sqft>1123</approx_size_sqft>
+<approx_lot_size>50 x 140</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>cute and well maintained home</item>
+<item>central heat and air with gas option</item>
+<item>roof and exterior paint 3 years old</item>
+<item>owner has done many updates, shows very well</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

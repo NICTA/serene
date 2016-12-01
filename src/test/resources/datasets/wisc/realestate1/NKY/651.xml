@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>512 DURRETT</house_location>
+<price>$64,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249855</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>PATTY COBB</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * 2 BLOCKS TO ST ELIZABETH HOSPITAL*NICE FIRST
+HOME*CONVENIENT CLOSE TO SCHOOL, HOSPITAL, STORE*FIREPLACE NEEDS GAS
+HOOKUP*HARDWOOD FLOORS UNDER CARPET*ALL APPLS STAY *CO-LISTOR: JOYCE
+LANDRUM *CALL PATTY:525-5734</house_description>
+<construction>Alum,Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>27x123</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>14 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<living><dimension>20 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>2</level></master>
+
+<directions>WALLACE AVE TURN LEFT ON OAKLAND TURN LEFT ON
+DURRETT</directions>
+</house_listing>
+
+
+

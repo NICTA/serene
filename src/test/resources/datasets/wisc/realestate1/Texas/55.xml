@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Staubitz Tom</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>soupe95@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14088</id>
+<mls>293775</mls>
+<house_location>8036 Dove Trail Dr
+San Antonio, TEXAS 78244</house_location>
+<county>Bexar</county>
+<price>$94,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>This spacious 4/2.5/2 features 2 fireplaces. Huge eat-in kitchen. Cvoered patio with a beautiful wood deck.  Much, Much, More!  Owner is very motivated. 1 year home warranty provided by seller. Ask for mls 293775</house_description>
+
+<school_district>Judson</school_district>
+<sub-division>Ventura</sub-division>
+<approx_size_sqft>2420</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>55x120</approx_lot_size>
+<year_built>1986</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>2</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

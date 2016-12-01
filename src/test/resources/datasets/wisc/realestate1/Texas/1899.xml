@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Doyle B. Hoff</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21213</id>
+<mls>R54326</mls>
+<house_location>2700 CR120A (Caverns)
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$295,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<garage_spaces>4</garage_spaces>
+
+<house_description>Just over one year old custom home on 20 acres.  Crown moldings throughout, wonderful cabinets, large utility and/or office, 4 car garage and numerous builtins.  There are scored concrete floors, island kitchen with Jenaire refridgerator conveys.  Nice Place!!</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Cavern Ranch</sub-division>
+<approx_size_sqft>2124</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>20</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>20 Acres</item>
+<item>Crown Moldings</item>
+<item>Ceiling Fans</item>
+<item>4 Car Garage</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

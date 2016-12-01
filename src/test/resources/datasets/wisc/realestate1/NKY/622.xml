@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>2238 DORIAN DR</house_location>
+<price>$110,000</price>
+<rooms>11</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>239089</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>LIZ ELLIS</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>HILLTOP WITH A CITY VIEW. HUGE DECK, POOL, FENCED YARD, NEW WINDOWS,
+UPDATED ROOF, UPDATED KITCHEN, BERBER CARPET, CATHEDRAL CEILINGS,
+GREAT DECOR. NOT A DRIVE BY</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural,At Street</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>63x140</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 7</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<family><dimension>22 X 14</dimension><level>B</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 7</dimension><level>1</level></laundry>
+<living><dimension>21 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+<study><dimension>23 X 22</dimension><level>B</level></study>
+
+<directions>KYLES LANE EAST TO L ON HIGHLAND, R ON BENTON, R
+ON JANE'S, R ON DORIAN</directions>
+</house_listing>
+
+
+

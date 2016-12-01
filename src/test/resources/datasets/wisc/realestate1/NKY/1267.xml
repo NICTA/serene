@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>2076 PATRIOT WAY</house_location>
+<price>$185,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON CO</school_dist>
+<mls>248253</mls>
+<house_type>Single Family</house_type>
+<firm>FISCHER MANAGEMENT</firm>
+<firm_phone>(606) 341-4709</firm_phone>
+<agent>R. CASEY HUBER</agent>
+<agent_phone>(606) 341-4709</agent_phone>
+<house_description>NEW FISCHER HOME THE MONTGOMERY MODEL #606-363-1160</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG LOT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 10</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>11 X 13</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<family><dimension>20 X 15</dimension><level>1</level></family>
+<kitchen><dimension>10 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<master><dimension>20 X 13</dimension><level>2</level></master>
+
+<directions>INDEPENDENCE-OFF RT 17S CALL 606-363-1160
+ANYTIME</directions>
+</house_listing>
+
+
+

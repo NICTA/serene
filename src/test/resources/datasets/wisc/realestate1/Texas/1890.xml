@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Beth King</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)663-0102</mobile>
+<email>bking@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20266</id>
+<mls>522322</mls>
+<house_location>303 Giddings St.
+Winchester, TEXAS 78964</house_location>
+<county>Fayette</county>
+<price>$75,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A truly special turn-of-the-century farm home on 7.14 acres (per tax ofc). Two story with high ceilings, beaded board, hardwood floors, three bedrooms, (two upstairs), one bath, with formal dining room, family room, parlour/living room, old-fashioned mud room, large foyer, and a huge country kitchen. Some renovation has been completed and the exterior painted. Perfect property for early-American/restoration enthusiasts!</house_description>
+
+<school_district>La Grange</school_district>
+<sub-division>New Town Winchester</sub-division>
+<stories>2</stories>
+<approx_lot_size>7.14ac</approx_lot_size>
+<approx_acres>7.14</approx_acres>
+<year_built>1900</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>1900 Two Story Farmhouse</item>
+<item>7.14 Acres Partially Fenced</item>
+<item>Some Renovation Complete</item>
+<item>Quaint Setting /Quiet Community</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

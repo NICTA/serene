@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Flood Real Estate</name>
+<location>701 W.Cen Tex Expwy Killeen, TX 76541</location>
+<office>(254)526-8100</office>
+<toll_free>(800)642-2950</toll_free>
+<fax>(254)526-7772</fax>
+<voice_mail>(254)554-4096</voice_mail>
+<email>flewis@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>SAM ADAMS</name>
+<office>(254)526-8100</office>
+<fax>(254)526-7772</fax>
+<voice_mail>(254)526-8100 119</voice_mail>
+<email>adams@juno.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>8136</id>
+<mls>79907</mls>
+<house_location>2207 Lamplight Dr.
+Killeen, TEXAS 76543</house_location>
+<county>Bell</county>
+<price>$69,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>3 bedrooms, 2 baths, 2 car garage, fenced yard, move in on credit approval.</house_description>
+
+<school_district>Killeen High</school_district>
+<sub-division>Chimney Corners</sub-division>
+<approx_size_sqft>1320</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>73 X 130</approx_lot_size>
+<approx_acres>0.2</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Will consider VA $1.00 Move In</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

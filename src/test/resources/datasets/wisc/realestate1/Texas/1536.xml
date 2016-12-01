@@ -1,0 +1,42 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jeff Osborne</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)331-6644 x126</voice_mail>
+<mobile>(512)940-6106</mobile>
+<email>jeffos@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20930</id>
+<mls>526263</mls>
+<house_location>2912 Settlement Road
+Round Rock, TEXAS 78664</house_location>
+<county>Williamson</county>
+<price>$118,900</price>
+
+<house_description></house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>496</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

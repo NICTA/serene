@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Connie Luedke</name>
+<office>(409)865-2332</office>
+<fax>(409)865-0047</fax>
+<email>remaxbv@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20313</id>
+<mls></mls>
+<house_location>113 BLuebonnet
+Bellville, TEXAS 77418</house_location>
+<county>Austin</county>
+<price>$87,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great location to reside in Bellville. Sets on corner lot. Has spacious family room with recent updates uncluding new water heater, dishwasher, A/C and range top. Yard is equipped with sprinkler system. Big Oak trees. Covered patio in back. Call Connie at (409) 865-2332 or email remaxbv@industryinet.com.</house_description>
+
+<school_district>Bellville</school_district>
+<approx_size_sqft>1722</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>0.33</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Paved road frontage</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,48 @@
+<house_listing>
+<house_description>This single family home built in 1941 has 6 bedroom(s), 7 bath(s) , 3
+car attached garage and approximately 7200 square feet of living area.
+Rooms include den, family room, master bedroom. Features include view,
+private pool, private spa, air conditioning, french doors.</house_description>
+
+<agent_name>Alitza Weiss</agent_name>
+<direct>305-341-7417</direct>
+<office>854-9494</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>854-9494</phone>
+<fax>305-567-1433</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$1,950,000</list_price>
+<location>44 W Rivo Alto Dr</location>
+<neighborhood>Rivo Alto Amd</neighborhood>
+<mls>M754853</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>7</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>7200 (approx)</square_feet>
+<lot_size>100X175</lot_size>
+<year_built>1941</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Intracoastal, Bay front, Water front</location>
+<patio>Deck, Open Porch</patio>
+<pool>Yes</pool>
+<rooms>Den, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Pool View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Central Vacuum, Dishwasher, Fenced, Foyer, French Doors,Kitchen Island, Ocean Access, Outdoor Grill, Outdoor Shower, Pantry,Smoke Detector, Trash Compacter, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

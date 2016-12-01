@@ -1,0 +1,34 @@
+<house_listing>
+<price>$245,000</price>
+<mls_id_number>151125</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>7</bedrooms>
+<bathrooms>2.10</bathrooms>
+<sqft>2255</sqft>
+<year_built>1972</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.21        Acres</lot_size>
+<lot_description>9160</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Covered Patio, Deck, Tool Sheed,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>MARGARET SCOTT</elementary>
+<middle_school>H.B. LEE</middle_school>
+<high_school>REYNOLDS</high_school>
+</schools>
+
+</house_listing>
+
+
+

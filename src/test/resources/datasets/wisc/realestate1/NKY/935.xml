@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>3 N ROSEWOOD</house_location>
+<price>$118,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248850</mls>
+<house_type>Single Family</house_type>
+<firm>CASSON REALTY</firm>
+<firm_phone>(606) 635-5805</firm_phone>
+<agent>HAZEL CASSON</agent>
+<agent_phone>(606) 635-5805</agent_phone>
+<house_description>LARGE 3 BEDROOM BI-LEVEL ONLY 4 YEARS OLD COMPLETE EQUIPED KITCHEN
+LARGE DECK OFF KITCHEN ALL PUBLIC UTILITIES OVERSIZED 2 CAR GARAGE
+CATHERIAL CEIL INGS LARGE BACK YARD ON CUL DESAK</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>999999999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>13 X 26</dimension><level>L</level></family>
+<kitchen><dimension>14 X 18</dimension><level>1</level></kitchen>
+<living><dimension>13 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+
+<directions>US 27 S TO R RT 10 TO L ON BROOKWOOD DRIV E TO L
+ON RIDGEWOOD TO L ON NORTH ROSEWOO</directions>
+</house_listing>
+
+
+

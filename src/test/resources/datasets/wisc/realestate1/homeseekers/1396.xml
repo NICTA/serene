@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1948 has 4
+bedroom(s), 3 bath(s) and approximately 1875 square feet of living
+area. Rooms include dining room, family room, living room, master
+bedroom. Features include patio.</house_description>
+
+<agent_name>Cindy Wing</agent_name>
+<direct>619-223-9464</direct>
+<office>619-222-0555</office>
+<firm_name>Prudential California Realty Prudential California Realty</firm_name>
+<phone>619-222-0555</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$399,000</list_price>
+<location>San Diego, CA 92106</location>
+<mls>00 6000669</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<square_feet>1875 (approx)</square_feet>
+<lot_size>5001</lot_size>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<patio>Yes</patio>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 2 level attached home built in 1972 has 1 bedroom(s), 1 bath(s)
+and approximately 664 square feet of living area. Rooms include dining
+room, living room, master bedroom. Features include private pool,
+patio, air conditioning.</house_description>
+
+<agent_name>Rena Holguin</agent_name>
+<direct>619-904-5700</direct>
+<office>619-422-4500</office>
+<firm_name>Mcmillin Realty</firm_name>
+<phone>619-422-4500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>San Diego, CA 92108</location>
+<mls>00 8000188</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse/Condo</type>
+<square_feet>664 (approx)</square_feet>
+<year_built>1972</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Radiant</heating>
+<patio>Yes</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1052 OAKWOOD CT</house_location>
+<price>$53,500</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Rear,Oversized)</garage>
+<suburb>NEAR FLORENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246766</mls>
+<house_type>Condominium</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>CINDY BROUILLETTE</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>GREAT STARTER NEUTRAL DECOR FRESHLY PAINTED INTERIOR SPACIOUS MASTER
+BDRM WALK-IN CLOSET CEILING FANS BLT-IN LIVING RM BOOKSHELVES OAK
+MEDICINE CABS GREAT LOCATION COMMUNITY POOL TENNIS CLUBHOUSE JOGGING
+TRAILS &amp; MUCH MORE!</house_description>
+<construction>Brick</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>condo</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>120</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<dining><dimension>9 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>8 X 7</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>1</level></laundry>
+<living><dimension>21 X 13</dimension><level>1</level></living>
+<master><dimension>18 X 10</dimension><level>2</level></master>
+
+<directions>TURKEYFOOT R RICHARDSON L INTO BEECHGROVE L ON
+OAKWOOD VEER LEFT THEN RIGHT</directions>
+</house_listing>
+
+
+

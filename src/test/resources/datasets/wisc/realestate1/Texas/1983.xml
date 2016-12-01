@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Thurber</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 111</voice_mail>
+<email>ssthurber@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17631</id>
+<mls>512226</mls>
+<house_location>318 Valley Drive
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$129,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>1748 SF (per appraisal) of &amp;quot;Old Wimberley&amp;quot; charm. 2/2 with family room, sun room, gas kitchen, utility with great storage and garage/workshop. All this on beautiful 1/2 acre with large trees and Blanco River Park access.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Paradise Valley</sub-division>
+<approx_size_sqft>1748</approx_size_sqft>
+<stories>1</stories>
+<year_built>1971</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

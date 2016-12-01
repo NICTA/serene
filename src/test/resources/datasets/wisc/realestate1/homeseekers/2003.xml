@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1978 has 4 bedroom(s), 3 bath(s) , 2
+car attached garage and approximately 1486 square feet of living area.
+Rooms include dining room, family room. Features include patio,
+fireplace.</house_description>
+
+<agent_name>Eric Bergman</agent_name>
+<direct>509-869-4648</direct>
+<email>BERGI4@AOL.COM</email>
+<firm_name>
+RE/MAX Citywide RE/MAX
+Citywide</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$147,500</list_price>
+<location>3322 Sullivan</location>
+<mls>9928937</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1486 (approx)</square_feet>
+<lot_size>126X304</lot_size>
+<year_built>1978</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Heat Pump</heating>
+<fireplace>Wood-burning</fireplace>
+<patio>Deck, Patio</patio>
+<rooms>Dining Room, Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, RV/Boat Parking
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

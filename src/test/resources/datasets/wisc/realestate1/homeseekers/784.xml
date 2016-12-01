@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This detached single family home built in 1906 has 4 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2738 square feet of living
+area. Features include view, fireplace.</house_description>
+
+<agent_name>Suzette Simoes</agent_name>
+<direct>619-222-9615</direct>
+<office>619-224-5111</office>
+<firm_name>Coldwell Banker Residential Coldwell Banker Residential</firm_name>
+<phone>619-224-5111</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$649,000</list_price>
+<location>San Diego, CA 92101</location>
+<mls>99 6023820</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2738 (approx)</square_feet>
+<lot_size>10000</lot_size>
+<year_built>1906</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<view>Bay View, View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

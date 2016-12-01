@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1923 has 3
+bedroom(s), 2 bath(s) , 1 car detached garage and approximately 1176
+square feet of living area. Rooms include dining room, living room,
+bonus room. Features include view, patio.</house_description>
+
+<agent_name>Teresa Arias</agent_name>
+<office>626-289-3504</office>
+<firm_name>Morgan Realty</firm_name>
+<phone>626-289-3504</phone>
+<fax>626-000-0000</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$148,000</list_price>
+<location>6065 Ruby Pl</location>
+<mls>W906828</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1176 (approx)</square_feet>
+<lot_size>4940</lot_size>
+<year_built>1923</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Living Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

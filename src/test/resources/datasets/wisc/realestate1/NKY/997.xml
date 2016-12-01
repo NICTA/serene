@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>185 CAVE RUN</house_location>
+<price>$77,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>ERLANGER LAKES</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>248734</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>JUDY WELLS</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>THIRD FLOOR REAR UNIT OVERLOOKING WOODS VERY PRIVATE DECK,CATHEDRAL
+CEILING S, FRESHLY PAINTED,ALL NEUTRAL DECOR,WINDOW BLINDS,CEILING
+FANS &amp; ALL APPLI ANCES STAY,REPRODUCTION PRICE $82,900 GREAT BUY!</house_description>
+<construction>Brick,Wood,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>none</lot_dimensions>
+<condo_level>3</condo_level>
+<hoa_fee>80</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>3</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>3</level></bath_2>
+<bedroom_2><dimension>12 X 12</dimension><level>3</level></bedroom_2>
+<dining><dimension>13 X 9</dimension><level>3</level></dining>
+<kitchen><dimension>9 X 8</dimension><level>3</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>3</level></laundry>
+<living><dimension>14 X 13</dimension><level>3</level></living>
+<master><dimension>17 X 11</dimension><level>3</level></master>
+
+<directions>DIXIE HWY,TURN ON CAVE RUN BY WALGREENS, BLDG
+ON LEFT</directions>
+</house_listing>
+
+
+

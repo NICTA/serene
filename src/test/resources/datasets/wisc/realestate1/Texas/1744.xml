@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sam Tarbet</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>sam@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18781</id>
+<mls>621</mls>
+<house_location>621 HORSESHOE BAY NORTH BOULEVARD
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Burnet</county>
+<price>$349,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>This open waterfront townhome offers superb view of Lake LBJ.  Totally furnished.  3 bedrooms, 4 1/2 baths, a gameroom at the water level, and an electric boat lift.  Marble Falls Schools.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>3</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WATERFRONT WITH ELECTRIC BOAT LIFT</item>
+<item>GAMEROOM AT WATER LEVEL</item>
+<item>TOTALLY FURNISHED</item>
+<item>GREAT VIEWS OF LAKE LBJ</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

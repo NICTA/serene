@@ -1,0 +1,44 @@
+<house_listing>
+<firm_information>
+<name>Duffy&amp; LaRoe-REALTORS</name>
+<location>4505 Hwy. 6 North Houston, TX 77084</location>
+<office>(281)463-1141</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)463-2184</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gina Baker</name>
+<office>(281)463-1141</office>
+<fax>(281)463-2184</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17052</id>
+<mls>New</mls>
+<house_location>Houston, TEXAS
+Harris</house_location>
+<price>$0</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description></house_description>
+
+<stories>1</stories>
+<master_bedroom>Upstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

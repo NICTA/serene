@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gerald Birdwell</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<email>gbirdwell@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21421</id>
+<mls>9133671</mls>
+<house_location>3832 Monterey Drive
+Weatherford, TEXAS 76087</house_location>
+<county>Parker</county>
+<price>$129,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>4</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>JUST UP THE HILL FROM LAKE WEATHERFORD!  This 3/2 brick has tile entry, wood parquet floors in kitchen, breakfast area and den, built-in bookcases, and fireplace in den.  Covered and open patios.  Two car attached and two car detached garage with boat slip.  Lots of trees.  All fenced and a work area in the garage.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Laguna Vista Estates</sub-division>
+<approx_size_sqft>1862</approx_size_sqft>
+<approx_acres>1</approx_acres>
+<year_built>1969</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Near Lake Weatherford</item>
+<item>Has boat slip</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Paul R. (Ron) Emmert</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>TEXRELEST@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21310</id>
+<mls>15228</mls>
+<house_location>Hacienda Road
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$154,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Interior design is a plus for this 4/2.5/2 family home. Split bedroom plan awaits the growing family. The two living areas highlights this 3,ooo sq. ft. +- home. A firplaces gives warmth to those cool nights. A formal dining area adjoins the custom design kitchen. The Game room sets right off the kitchen for easy access for that short break. The 4th Bdrm has the qualification for a maids quarters. Custom built-in cabinets thru-out this comfortable home. This family home nest on 1.53 acres.</house_description>
+
+<school_district>1</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>3000</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>176x378.8</approx_lot_size>
+<approx_acres>1.53</approx_acres>
+<year_built>1989</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Custom Design</item>
+<item>Two living areas</item>
+<item>Sets on 1.53 Acres</item>
+<item>Two Dining Ares</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

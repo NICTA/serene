@@ -1,0 +1,34 @@
+<house_listing>
+<price>$65,000</price>
+<mls_id_number>147127</mls_id_number>
+<city>WOODBURN</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>812</sqft>
+<year_built>1964</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>80X50</lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Covered Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>N/A</elementary>
+<middle_school></middle_school>
+<high_school>N/A</high_school>
+</schools>
+
+</house_listing>
+
+
+

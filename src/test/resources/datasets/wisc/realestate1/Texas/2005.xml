@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Richard Sparks</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21637</id>
+<mls>9135925</mls>
+<house_location>14090 FM 730 North
+Azle, TEXAS 76020</house_location>
+<county>Tarrant</county>
+<price>$149,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Country living with city amenities. Won&amp;#8217;t last long. Great for farming. house has central heat and air. Creek fed tank. City water. Well also. Penning corral and loading chutes. Separate 2 car garage workshop with electricity.</house_description>
+
+<school_district>Azle</school_district>
+<approx_size_sqft>1300</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>12</approx_acres>
+<year_built>1970</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>12 acres</item>
+<item>Great for small farm</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>Nancy Fogarty</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<email>fogarty@dlrealtors.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13326</id>
+<mls>175707</mls>
+<house_location>3770 loverswood #602
+Houston, TEXAS 77014</house_location>
+<county>Harris</county>
+<price>$33,800</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>wonderful end unit with fireplace; private covered entry; berber carpet downstairs!  Built-ins;upstairs balcony off huge bedrooom with 2 closets.  Tile foyer. Covered parking and gatedentry. Area pool &amp; play area. $500 incentive to the buyer! </house_description>
+
+<school_district>Spring</school_district>
+<sub-division>Raveneaux Forest</sub-division>
+<approx_size_sqft>909</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

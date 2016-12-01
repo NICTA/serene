@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>7433 RIDGE EDGE CT</house_location>
+<price>$154,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248824</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>GARY B WINN</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>GORGEOUS TOWNHOME JUST LIKE NEW! WYTHE MDL-2 BDRMS-2 FULLL &amp; 2 HALF
+BATHS- LR &amp; DR-B FULL KIT-VAULTED CEILINGS-GARDEN BATH-B FULL FIN LL -
+DECK- PATIO WBFP-1 CAR GARAGE-MOVE IN TODAY-NEUTRAL THRUOUT-SWMG POOL
+- CLUBHOUSE</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>138</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>13 X 13</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 13</dimension><level>1</level></dining>
+<family><dimension>19 X 19</dimension><level>L</level></family>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 14</dimension><level>L</level></laundry>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>2</level></master>
+
+<directions>RT 18 TO OAKBROOK ALL THE WAY TO R INTO S
+UMMITS TO L ON RIDGE EDGE</directions>
+</house_listing>
+
+
+

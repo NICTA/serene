@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lynn Lefevre</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 225</voice_mail>
+<email>lynnl@c21cook.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19981</id>
+<mls>521522</mls>
+<house_location>5209 Leralynn Street
+Austin, TEXAS 78751</house_location>
+<county>Travis</county>
+<price>$155,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>2</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>MOVE IN BY THE HOLIDAYS! ENJOY THE CENTRAL LOCATION. THIS HOME HAS HAD AN ESTIMATED $25,000 IN REMODELING INCLUDING NEW CARPETING, KITCHEN AND BATHROOM TILE COUNTERS, NEW WIRING, GLASS FRONTED KITCHEN CABINETS. OWNER SAYS ADDITIONAL 224 SQ.FT.ADDED OVER TCAD. THIS HOME HAS A BRIGHT, OPEN FLOORPLAN WITH DOUBLE PANED GLASS, AND TWO LIVING AREAS. THE PROPERTY HAS LARGE TREES AND AN EXTRA LARGE LOT WITH PLENTY OF ROOM TO ADD A GARAGE APARTMENT.</house_description>
+
+<move-in_date>10/20/99</move-in_date>
+<school_district>Austin, Ridgetop, Webb, Mccallum</school_district>
+<sub-division>Wallace J P</sub-division>
+<approx_size_sqft>978</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>50 X 326</approx_lot_size>
+<year_built>1949</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>CENTRAL LOCATION</item>
+<item>ESTAB. NEIGHBORHOOD</item>
+<item>BRIGHT, OPEN FLOORPLAN</item>
+<item>INSIDE LIKE NEW</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

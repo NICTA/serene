@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This single family home built in 1948 has 3 bedroom(s), 2 bath(s) , 1
+car attached garage and approximately 1926 square feet of living area.
+Features include view, private pool, fireplace, air conditioning,
+satellite dish.</house_description>
+
+<agent_name>Susie Zrihen</agent_name>
+<direct>305-658-2334</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$154,000</list_price>
+<location>551 NE 105 St</location>
+<neighborhood>Miami Shores Sec 5 Amd</neighborhood>
+<mls>M764942</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1926 (approx)</square_feet>
+<lot_size>75 X 122</lot_size>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<fireplace>Yes</fireplace>
+<patio>Open Porch</patio>
+<pool>Yes</pool>
+<view>Garden View, Pool View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Satellite Dish
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

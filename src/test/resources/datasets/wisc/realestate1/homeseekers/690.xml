@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1947 has 3 bedroom(s), 2
+bath(s) . Rooms include den, living room, bonus room, master bedroom.
+Features include air conditioning.</house_description>
+
+<agent_name>Betty Gee</agent_name>
+<direct>301-585-8593</direct>
+<office>202-363-9700</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>202-363-9700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$82,500</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC3022127</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>1200</lot_size>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Den, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

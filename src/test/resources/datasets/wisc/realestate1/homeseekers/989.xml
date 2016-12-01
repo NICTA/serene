@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This single family home built in 1981 has 2 bedroom(s), 2 bath(s) and
+approximately 1538 square feet of living area. Rooms include dining
+room. Features include view, private pool, patio, air conditioning.</house_description>
+
+<agent_name>Michael Pappas</agent_name>
+<direct>317-8088</direct>
+<office>371-3592</office>
+<firm_name>The Keyes Company,
+Lic. Real Estate Broker</firm_name>
+<phone>371-3592</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$148,000</list_price>
+<location>1000 Quayside Te</location>
+<neighborhood>Towers Of Quayside Condo</neighborhood>
+<mls>M740427</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1538 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Electric</heating>
+<location>Bay front, Water front</location>
+<patio>Patio</patio>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+<view>Ocean View, Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Dishwasher, Ocean Access, Smoke Detector, Tennis Court(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

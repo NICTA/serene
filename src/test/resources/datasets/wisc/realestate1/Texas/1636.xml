@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Town &amp; Country Properties</name>
+<location>602 North Llano Street Fredericksburg, TX 78624</location>
+<office>(830)990-8708</office>
+<toll_free>(877)996-0099</toll_free>
+<fax>(830)990-8906</fax>
+<email>tcprop@fbg.net</email>
+</firm_information>
+
+<agent_information>
+<name>Beth Von Ruff</name>
+<office>(830)990-8708</office>
+<fax>(830)990-8906</fax>
+<email>bvonruff@fbg.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21318</id>
+<mls></mls>
+<house_location>2015 Briarwood
+Fredericksburg, TEXAS 78624</house_location>
+<county>Gillespie</county>
+<price>$259,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This is a great find for that growing family has lots of room to move about in also has a one bedroom one bath guest house in the back which has easy access.  This house has 2949 sq ft per GCAD is in good condition this could be your new home.</house_description>
+
+<school_district>Fredericksburg Isd</school_district>
+<sub-division>Carriage Hills</sub-division>
+<approx_size_sqft>2949</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>130x174</approx_lot_size>
+<year_built>1972</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Guest House</item>
+<item>Spinkler system</item>
+<item>Large home</item>
+<item>Intercom system</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

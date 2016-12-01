@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Albert Akano</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5951</voice_mail>
+<email>info@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12375</id>
+<mls>481496</mls>
+<house_location>South Highlands
+in South Austin, TEXAS 78744</house_location>
+<county>Travis</county>
+<price>$72,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great deal! Owner is motivated. Owner will replace carpet and vinyl. Recent exterior and interior paint. Refrigerator and washer and dryer to be conveyed. Enjoy a big wood privacy fenced yard. A must sell! Call Agent at # (512) 448-5951 for a private showing.</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>South Highlands</sub-division>
+<approx_size_sqft>1217</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60x118</approx_lot_size>
+<year_built>1977</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Inlaw plan</item>
+<item>Storage house at the back yard</item>
+<item>Recent water heater</item>
+<item>High ceiling</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

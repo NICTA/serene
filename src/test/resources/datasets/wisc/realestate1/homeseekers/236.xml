@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1968 has 3 bedroom(s), 3 bath(s) and
+approximately 2314 square feet of living area.</house_description>
+
+<agent_name>Bobby &amp; Chad Burnett</agent_name>
+<direct>303-767-5309</direct>
+<office>303-771-7500</office>
+<firm_name>Keller Williams Real</firm_name>
+<phone>303-771-7500</phone>
+<fax>303-771-1116</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$184,900</list_price>
+<location>7687 Ellen Ln</location>
+<neighborhood>Sherrelwood Est #4</neighborhood>
+<mls>372381</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2314 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

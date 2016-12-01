@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Markgraf</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16802</id>
+<mls>52867</mls>
+<house_location>209 MOUNTAIN TOP
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$99,800</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>BE SURE TO SEE THIS ONE, 2BEDROOM TWO BATH SPLIT WITH THE MOST WONDERFUL PANORAMIC VIEW OF LAKE L.B.J.  AND AREA ON A 75 FOOT BY 450 FOOT LOT, WITH PLENTY OF ROOM, NICE DECK OFF OF BACK TAKING ADVANTAGE OF LAKE VIEW. VARY NEAT AND UP DATED.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>1186</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>75 X 450</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>2 BEDROM SPLIT</item>
+<item>GREAT VIEW OF LAKE</item>
+<item>NEAT AND CLEAN</item>
+<item>LARGE LOT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

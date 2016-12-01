@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1999 has 2 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1561 square feet of living
+area. Features include view, patio, fireplace, air conditioning,
+storage space.</house_description>
+
+<agent_name>Mary Dekraker</agent_name>
+<direct>520-883-4258</direct>
+<office>520-883-8170</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-883-8170</phone>
+<fax>520-883-3130</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$137,900</list_price>
+<location>6084 W Tucson Estates Pkwy</location>
+<mls>9917595</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1561 (approx)</square_feet>
+<lot_size>66X117X66X117</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

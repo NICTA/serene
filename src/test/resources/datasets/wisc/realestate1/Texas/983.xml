@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irona Thompson</name>
+<office>(254)554-2121</office>
+<fax>(254)634-3291</fax>
+<voice_mail>(800)840-3313 7833</voice_mail>
+<mobile>(254)289-4945</mobile>
+<email>irona@maxxrep.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20915</id>
+<mls>89118</mls>
+<house_location>2204 Tracy Ann Lane
+Killeen, TEXAS 76543</house_location>
+<county>Bell</county>
+<price>$72,521</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>LOVELY STARTER HOME.  POPULAR MILBURN &amp;quot;KEEPSAKE&amp;quot; FLOORPLAN.  NO NEIGHBORS IN THE BACK BEHIND THE PRIVACY FENCE.  SECURITY ALARM SYSTEM. LARGE EAT IN KITCHEN.  GREAT ASSUMPTION 6.65%.  $1.00 MOVE IN.</house_description>
+
+<move-in_date>12/5/99</move-in_date>
+<school_district>Killeen</school_district>
+<sub-division>North Park Add</sub-division>
+<approx_size_sqft>1238</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>121 X 53</approx_lot_size>
+<year_built>1995</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>NO NEIGHBORS BEHIND PRIVACY FENCE</item>
+<item>SECURITY ALARM SYSTEM</item>
+<item>LARGE EAT IN KITCHEN</item>
+<item>2 CAR GARAGE WITH GARAGE OPENER</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

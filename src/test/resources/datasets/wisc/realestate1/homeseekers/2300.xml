@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1951 has 4 bedroom(s), 1 bath(s) and
+approximately 1300 square feet of living area.</house_description>
+
+<agent_name>Maree Whisenand</agent_name>
+<direct>986-4358</direct>
+<office>303-989-7561</office>
+<firm_name>Why Usa Westcor Prop</firm_name>
+<phone>303-989-7561</phone>
+<fax>914-0556</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$152,900</list_price>
+<location>3075 S Eudora St</location>
+<neighborhood>University Hills</neighborhood>
+<mls>383503</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1300 (approx)</square_feet>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

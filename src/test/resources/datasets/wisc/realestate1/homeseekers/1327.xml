@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This single family home built in 1970 has 3 bedroom(s), 2 bath(s) .
+Rooms include master bedroom. Features include patio, storage space.</house_description>
+
+<agent_name>Dawn M. Mason</agent_name>
+<office>480-829-3460</office>
+<firm_name>Prudential American Assoc R.E. Prudential American Assoc R.E.</firm_name>
+<phone>480-829-3460</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$110,000</list_price>
+<location>Phoenix, AZ 85021</location>
+<mls>1453276</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Eat In Kitchen, Great Room, Pantry, StorageSpace
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

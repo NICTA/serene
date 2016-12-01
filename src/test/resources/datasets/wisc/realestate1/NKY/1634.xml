@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>1623 RUSSELL</house_location>
+<price>$47,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>243629</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LAURA SANDERS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*NEWER
+ROOF/NEUTRAL+CLEAN/PRIVACY FENCED YD W/HUGE DECK/WALK-IN CLOSET/LOTS
+OF CABINETS IN KIT/NEWER BATH, WINDOWS/OFF STREET PARKING FOR UP TO 3
+CARS/2 CEIL FANS/COULD BE 2BR*</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>Irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>15 X 8</dimension><level>1</level></kitchen>
+<living><dimension>16 X 15</dimension><level>1</level></living>
+<master><dimension>16 X 15</dimension><level>1</level></master>
+
+<directions>75 TO 12 ST EXIT R RUSSELL*</directions>
+</house_listing>
+
+
+

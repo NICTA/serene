@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Landmasters Real Estate</name>
+<location>101 Sunrise Drive Sunrise Beach, TX 78643</location>
+<office>(915)388-4555</office>
+<toll_free>(800)306-8629</toll_free>
+<fax>(915)388-3946</fax>
+<email>landmstr@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Pat Koontz</name>
+<office>(915)388-4555</office>
+<fax>(915)388-3946</fax>
+<mobile>(915)247-6870</mobile>
+<email>LANDMSTR@TSTAR.NET</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21734</id>
+<mls>54704</mls>
+<house_location>513 North Beach
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$185,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Excellent getaway on Lake LBJ! Great for 1 or 2 families, or mother-in-law quarters.Large kitchen w/bar. Living/dining combo. Home has been updated with ceramictile floors, new tile bath. 2 bedrooms 1 bath upstairs with fireplace in living area; downstairs has 1 bedroom, 1 bath and kitchenette/sitting area. Deck faces East; has double carport and double boathouse with lift. Nice view of lake.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>1448</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>75x126</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>EXCELLENT GETAWAY</item>
+<item>LAKE LBJ - 75' WATERFRONT</item>
+<item>3BR2BA 2 STORY</item>
+<item>DOUBLE BOATHOUSE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

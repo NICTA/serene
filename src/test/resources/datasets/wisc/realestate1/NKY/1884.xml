@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>15 LAKEVIEW DRIVE</house_location>
+<price>$72,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>WILLIAMSTOW</school_dist>
+<mls>250182</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>LORI TRENARY</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>THREE BEDROOM RANCH HOME COMPLETLY REMODLED! ALL BRICK,NEW ROOF AND
+WINDOWS AND HOT WATER HEATER. ALL NEUTRAL DECOR! COUNTRY KITCHEN! ALL
+CITY UTILITIES, MIN FROM I75. CALL LORI! 824-6543</house_description>
+<construction>Brick</construction>
+<heating>Electric,Baseboard</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>16 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>1</level></laundry>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>10 X 13</dimension><level>1</level></master>
+
+<directions>I75S TO X154,L TO 25, L ON 25 TO L ON SUNSET, R
+ON SOUTHERN, R ON LAKEVIEW</directions>
+</house_listing>
+
+
+

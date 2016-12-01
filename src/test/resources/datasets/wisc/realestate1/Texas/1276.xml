@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Cece Hurst</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<email>cece@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19248</id>
+<mls>529195</mls>
+<house_location>500 Ross ST.
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$42,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>FANTASTIC PRICE!!  This spacious 4/2 would be a great starter home or good rental property.  Located on 4 lots, very close to the primary school in Smithville. Take Hwy. 71E to Smithville. Turn right at the first Smithville exit. On the corner of Fifth and Ross. Call today!!</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1292</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>FANTASTIC PRICE</item>
+<item>4 BEDROOMS, 2 BATHS</item>
+<item>ON 4 LOTS</item>
+<item>NEAR PRIMARY SCHOOL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

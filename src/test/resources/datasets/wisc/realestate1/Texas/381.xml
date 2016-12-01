@@ -1,0 +1,48 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Penny Warren</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)597-6458</mobile>
+<email>pwarren@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18162</id>
+<mls>9088552</mls>
+<house_location>3905 Oak Glen Drive
+in South Weatherford, TEXAS 76087</house_location>
+<county>Parker</county>
+<price>$66,500</price>
+
+<house_description>Double wide on almost 5 acres in well maintained development in the Brock School District.  Fenced and some cross fencing.  Large covered front porch.  Home has 3 bedrooms and 2 baths with an exceptionally large living area.  Has barn and garden area.</house_description>
+
+<school_district>Brock</school_district>
+<sub-division>Country Place</sub-division>
+<approx_size_sqft>1452</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>5</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

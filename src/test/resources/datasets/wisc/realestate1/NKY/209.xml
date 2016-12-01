@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>3046 MONARCH</house_location>
+<price>$164,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>248152</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>LINDA MILDON</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>ARLINGHAUS BUILT NOTTINGHAM WITH A FW CHANGES;6 PANEL DRS; CEILING
+FANS IN ALL BDRMS; PROGRAMABLE THERMOSTAT; FOR SELLER DISCLOSURE CALL
+384-1024 EXT 2330</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>71 X 164</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>17 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 9</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>10 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>16 X 10</dimension><level>1</level></family>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>17 X 13</dimension><level>2</level></master>
+
+<directions>W ON RT 18 L ON ROGERS TO L ON MONARCH</directions>
+</house_listing>
+
+
+

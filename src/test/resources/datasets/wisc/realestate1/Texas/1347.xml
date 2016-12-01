@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kim Hodge</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>kim@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19973</id>
+<mls>53923</mls>
+<house_location>0 AVE I
+Johnson City, TEXAS 78636</house_location>
+<county>Blanco</county>
+<price>$65,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A NEW METAL ROOF IS BEING PUT ON THIS HOME! COUNTRY LIVING IN TOWN! SMALL OLD FRAME HOUSE WITH THE TOWN CREEK RUNNING IN FRONT. WOULD MAKE A WONDERFUL BED AND BREAKFAST OR NICE RENTAL HOUSE. HUGE PECAN TREES!</house_description>
+
+<school_district>Johnson City</school_district>
+<approx_size_sqft>1000</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>NEW METAL ROOF BEING INSTALLED</item>
+<item>COUNTRY LIVING IN TOWN</item>
+<item>WOULD MAKE A NICE BED &amp; BREAKFAST</item>
+<item>WOULD BE A NICE RENTAL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

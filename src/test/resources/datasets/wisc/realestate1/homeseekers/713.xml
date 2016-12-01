@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1910 has 4 bedroom(s), 2 bath(s) and
+approximately 2644 square feet of living area.</house_description>
+
+<agent_name>Gregory Geller</agent_name>
+<direct>303-875-4289</direct>
+<office>303-520-9000</office>
+<firm_name>Ridgemoor Realty</firm_name>
+<phone>303-520-9000</phone>
+<fax>303-221-5516</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$269,900</list_price>
+<location>2670 Eudora St</location>
+<neighborhood>Park Hill N</neighborhood>
+<mls>385311</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2644 (approx)</square_feet>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This single family home built in 1952 has 3 bedroom(s), 2 bath(s) and
+approximately 1036 square feet of living area. Rooms include family
+room. Features include view, patio, air conditioning.</house_description>
+
+<agent_name>Dinorah Perry</agent_name>
+<direct>305-699-5458</direct>
+<office>305-823-6000</office>
+<firm_name>The Keyes Co
+Lic. Real Estate Broker</firm_name>
+<phone>305-823-6000</phone>
+<fax>305-823-7401</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$78,500</list_price>
+<location>11741 NW 22 Ct</location>
+<neighborhood>Halock No 2</neighborhood>
+<mls>D901442</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1036 (approx)</square_feet>
+<lot_size>75 X 180</lot_size>
+<year_built>1952</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<patio>Open Porch, Patio</patio>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

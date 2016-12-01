@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This condominium built in 1965 has ? bedroom(s), 1 bath(s) . Features
+include air conditioning.</house_description>
+
+<agent_name>Steven Modica</agent_name>
+<direct>954-572-5999</direct>
+<office>954-382-1111</office>
+<firm_name>The Real Estate In
+Lic. Real Estate Broker</firm_name>
+<phone>954-382-1111</phone>
+<fax>954-572-5999</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$48,900</list_price>
+<location>1231 Pennsylvania Av #5</location>
+<neighborhood>1231 Penn Condo</neighborhood>
+<mls>M751570</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<year_built>1965</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

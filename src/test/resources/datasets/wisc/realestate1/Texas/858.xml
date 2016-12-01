@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>John Puckett</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>john@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20504</id>
+<mls>54349</mls>
+<house_location>117-A LOST SPUR, #4 PARKRIDGE GREEN
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$157,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Professionally updated including new appliances, granite countertops, new cabinets.  Sold furnished.  Disposal, dishwasher, oven, range, microwave, refrigerator, wet bar, ice maker.  Fireplace.  Den.  Bonus room.  Insulated windows, ceiling fans.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>3</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>3 STORY TOWNHOME ON THE GOLF COURSE</item>
+<item>COMPLETELY UPDATED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

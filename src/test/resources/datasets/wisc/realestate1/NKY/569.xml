@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>3726 HUNTINGTON</house_location>
+<price>$71,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248891</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>TAMATHA JONES</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>THIS AFFORDABLE HOME IS JUST 1/2 BLK FROM SCHOOL. HOME OFFERS 2
+BD,FULL BASEMENT,FRESH PAINT, NEW CARPET, FENCED YARD &amp; HOME
+WARRANTY.NOT A DRIVE- BY.CONTACT LISTING AGENT FOR MORE INFO: TAMMY
+JONES 513-483-5563</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30 X 96</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>11 X 16</dimension><level>2</level></bedroom_2>
+<dining><dimension>13 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 7</dimension><level>1</level></laundry>
+<living><dimension>13 X 15</dimension><level>1</level></living>
+<master><dimension>13 X 16</dimension><level>2</level></master>
+
+<directions>WINSTON AVE TO 39TH ST TO LEFT ON HUNTINGTON.
+SIGN ON</directions>
+</house_listing>
+
+
+

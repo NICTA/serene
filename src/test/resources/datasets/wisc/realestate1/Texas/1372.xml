@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11513</id>
+<mls>4913</mls>
+<house_location>2016 Hunter Rd
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$314,721</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Northwest side of Hunter RdNear Wonder World DrGreat Commercial Location</house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Ready to build on</item>
+<item>Great Location</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

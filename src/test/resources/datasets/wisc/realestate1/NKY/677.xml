@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>2113 RUSSELL</house_location>
+<price>$47,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>PEASELBURG</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248023</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>LISA M HORTON</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>NEWER CARPET &amp; PAINTING. VERY QUIET AREA. NEW WATER SERVICE, COPPER
+PLUMBING AND CIRCUIT BREAKERS, ROOF- 8 YEARS.</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>33 x 75</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 8</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 7</dimension><level>2</level></bedroom_3>
+<dining><dimension>16 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>17 X 10</dimension><level>1</level></kitchen>
+<living><dimension>12 X 11</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>2</level></master>
+
+<directions>75 TO KYLES TO N HIGHLAND PAST ST.AUG. CH R ON
+HOWELL,L ON 22ND TO RUSSELL-2ND HOUS</directions>
+</house_listing>
+
+
+

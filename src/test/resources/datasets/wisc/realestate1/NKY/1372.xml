@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>1101 BRAMLAGE RD</house_location>
+<price>$249,900</price>
+<rooms>11</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Side,Oversized)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247359</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>JASON ASCH</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>BEAUTIFUL 1.82 ACRES * WONDERFUL SUN ROOM OFF HUGE KITCHEN * GREAT
+ROOM W/ BEAMED CEILING * BOOKCASES &amp; FIREPLACE IN LOWER LEVEL * 3 CAR
+GARAGE * FANTASTIC HOME THAT WON'T LAST LONG *</house_description>
+<construction>Brick,Wood,Stucco</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>17 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 14</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 12</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>11 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<family><dimension>26 X 25</dimension><level>L</level></family>
+<kitchen><dimension>20 X 16</dimension><level>1</level></kitchen>
+<living><dimension>23 X 16</dimension><level>1</level></living>
+<master><dimension>17 X 16</dimension><level>2</level></master>
+<study><dimension>15 X 12</dimension><level>1</level></study>
+
+<directions>BRISTOW TO R ON BANKLICK L ON BRAMBLAGE</directions>
+</house_listing>
+
+
+

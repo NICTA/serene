@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>2255 LEMON-NORTHCUT</house_location>
+<price>$159,000</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>239819</mls>
+<house_type>Single Family</house_type>
+<firm>C B DETERS REALTY</firm>
+<firm_phone>(606) 341-0060</firm_phone>
+<agent>PAM PENNINGTON</agent>
+<agent_phone>(606) 341-0060</agent_phone>
+<house_description>4 BDRM RANCH, MUST SEE! 3 ACRES, GARDEN SPOT, FENCING FOR DOGS, HOME
+LG.RMS FORMAL DIN.RM., FIREPLACE ,VERY NICE! SOLID MAPLE CABINETS IN
+KITCHEN.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public,Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>10 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 14</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>18 X 9</dimension><level>1</level></bedroom_4>
+<bedroom_5><dimension>10 X 13</dimension><level>1</level></bedroom_5>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<family><dimension>20 X 10</dimension><level>B</level></family>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>B</level></laundry>
+<living><dimension>12 X 17</dimension><level>1</level></living>
+<master><dimension>16 X 15</dimension><level>1</level></master>
+
+<directions>I-75 S DRY RIDGE EXIT, L ONTO BROADWAY, L AT
+LIGHT ONTO HWY25,R ON LEMON-NORTHCUTT</directions>
+</house_listing>
+
+
+

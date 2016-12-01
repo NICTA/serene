@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Castleberry</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19733</id>
+<mls>R53597</mls>
+<house_location>13460 Highway 1431
+Kingsland, TEXAS 78639</house_location>
+<county>Burnet</county>
+<price>$149,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<house_description>Nice Roomy Home with gorgeous trees draping over the property.  Large kitchen with breakfast area, utility room, huge living area with corner fireplace.  It has ceiling fans, wallpaper and a bonus room with lots of windows.  There are 3 out buildings.  Potential commercial property.</house_description>
+
+<school_district>Marble Falls</school_district>
+<approx_size_sqft>2214</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<well>Yes</well>
+
+<highlights>
+<item>Ceiling Fans</item>
+<item>Wet Bar</item>
+<item>Storm Windows</item>
+<item>Sunroom</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Nelson Oliver</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>manoragent@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15894</id>
+<mls>302216</mls>
+<house_location>5543 Rangeland
+San Antonio, TEXAS 78247</house_location>
+<county>Bexar</county>
+<price>$49,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>GREAT 3 BEDROOM GARDEN PATIO HOME WITH VINYL SIDING.  PRICED TO SELL. VACANT AND READY TO MOVE IN.  CONVENIENT TO EXCELLENT NORTHEAST SCHOOLS, MALLS, RANDOLPH AFB, FORT SAM, FM 1604, &amp; IH-35.  ENJOY THE 21x7 COVERED PATIO.  EASY TO SHOW.</house_description>
+
+<school_district>North East</school_district>
+<sub-division>High Country</sub-division>
+<approx_size_sqft>928</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>43X117</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

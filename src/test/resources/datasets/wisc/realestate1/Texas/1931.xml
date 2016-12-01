@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Iva O. Weston</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>13221</id>
+<mls>R50890</mls>
+<house_location>435 Oak Rock Point
+Marble Falls, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$199,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Oakridge waterfront home at an affordable price.  This house has a great view!!  Many neat decorator features.  Now on two waterfront lots!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Oakridge</sub-division>
+<approx_size_sqft>1344</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Club House</item>
+<item>Lake Pump</item>
+<item>Insulated Windows</item>
+<item>Ceiling Fans</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

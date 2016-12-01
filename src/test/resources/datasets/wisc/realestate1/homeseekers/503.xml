@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>Large family home located in university hills, walking distance to cal
+state. Home was a duplex converted to a single family home. Has new
+stucco, newer roof,new windows, fresh inside paint, insidelaundry
+room. Vacant show anytime. Ready for quick escrow.</house_description>
+
+<agent_name>Bob Archuleta</agent_name>
+<direct>562-691-9954</direct>
+<office>323-728-2111</office>
+<firm_name>C-21 George Michael Realty C-21 George Michael Realty</firm_name>
+<phone>323-728-2111</phone>
+<fax>213-721-0922</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,000</list_price>
+<location>1953 Lansdowne Av</location>
+<mls>P161674</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1460 (approx)</square_feet>
+<lot_size>4965 (approx)</lot_size>
+<year_built>1941</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Living Room</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

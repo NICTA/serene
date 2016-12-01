@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Brand new construction. 3 bedrooms. 2 full bathrooms, tow car detache
+garage. Ceramic tile, kitchens &amp; bathrooms. For more information call
+l/a see agent remarks.</house_description>
+
+<agent_name>Jesus Rivero</agent_name>
+<office>323-562-7979</office>
+<firm_name>Homelife Candor Realty</firm_name>
+<phone>323-562-7979</phone>
+<fax>323-562-7970</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,000</list_price>
+<location>Los Angeles, CA 90002</location>
+<mls>R118</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1283 (approx)</square_feet>
+<lot_size>3300 (approx)</lot_size>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

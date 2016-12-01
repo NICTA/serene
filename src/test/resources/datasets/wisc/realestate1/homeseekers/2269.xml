@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1994 has 4 bedroom(s), 3
+bath(s) , 3 car garage and approximately 2363 square feet of living
+area. Rooms include dining room, bonus room. Features include view,
+private pool, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Gregory Maul CRS Gri</agent_name>
+<direct>520-471-8088</direct>
+<office>520-297-1186</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-297-1186</phone>
+<fax>520-297-1005</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$227,500</list_price>
+<location>1966 W Desert Highlands Dr</location>
+<mls>2000139</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2363 (approx)</square_feet>
+<lot_size>110 X 110 X 110 X 140</lot_size>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

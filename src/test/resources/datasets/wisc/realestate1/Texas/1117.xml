@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Jones</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>cjones@c21rapp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21094</id>
+<mls>9122026</mls>
+<house_location>537 Highpoint Dr.
+Godley, TEXAS 76044</house_location>
+<county>Johnson</county>
+<price>$69,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great starter home with split bedroom arrangement. Large corner lot with covered patio close to schools.</house_description>
+
+<school_district>Godley</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1384</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.05</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

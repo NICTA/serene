@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jerry Fife</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20507</id>
+<mls>6241</mls>
+<house_location>101 Rodgers Ridge
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$227,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Country living in the city.  Beautiful corner lot with majestic trees, ingound, pool, privacy fence, sprinkler system, and wild life are just a few of the amenities this beautiful home has to offer.  Must See!</house_description>
+
+<move-in_date>11/12/99</move-in_date>
+<school_district>San Marcos</school_district>
+<sub-division>Spring Lake Hills</sub-division>
+<approx_lot_size>.5+ acres</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Inground pool, sprinkler system</item>
+<item>Majestic oak trees, wildlife</item>
+<item>Privacy fence, hardwood floors</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

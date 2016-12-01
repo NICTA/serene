@@ -1,0 +1,34 @@
+<house_listing>
+<price>$89,900</price>
+<mls_id_number>153726</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1147</sqft>
+<year_built>1956</year_built>
+<heat>Not Listed</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>50 X 100</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Not Listed</exterior>
+<site>Water: PUBLIC Sewer: CESSPOL</site>
+</amenities>
+<schools><elementary>JOHN BALL</elementary>
+<middle_school>PORTSMOUTH</middle_school>
+<high_school>ROOSEVELT</high_school>
+</schools>
+
+</house_listing>
+
+
+

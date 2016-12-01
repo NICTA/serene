@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Mayer Realty</name>
+<location>974 East Austin St. Giddings, TX 78942</location>
+<office>(409)542-2696</office>
+<toll_free></toll_free>
+<fax>(409)542-2554</fax>
+<email>mayerrealty@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Rudy Mayer</name>
+<office>(409)542-2696</office>
+<fax>(409)542-1715</fax>
+<mobile>(409)540-3148</mobile>
+<email>mayerrealty@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>3477</id>
+<mls></mls>
+<house_location>Rolling Oaks Subdivision
+Giddings, TEXAS</house_location>
+<county>Lee</county>
+<price>$69,995</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Situated in beautiful Rolling Oaks Subdivision, this unique steel frame home has vaulted ceilings, a spacious living area and lots of closet space. Featuring 3 bedrooms and two baths, this demo home is just like new! Interior design is simply wonderful and features many amenities not found in this price range of home. Attractively priced @ $69,995.00, call today to schedule a showing!!!</house_description>
+
+<move-in_date>12/9/97</move-in_date>
+<school_district>Giddings</school_district>
+<sub-division>Rolling Oaks</sub-division>
+<approx_size_sqft>1100</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>AVERAGE</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>STEEL FRAME HOME</item>
+<item>HIGH QUALITY CONSTRUCTION</item>
+<item>GOOD FINANCING AVAILABLE TO QUALIFIED BUYER</item>
+<item>IMMEDIATE MOVE IN @ CLOSING</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

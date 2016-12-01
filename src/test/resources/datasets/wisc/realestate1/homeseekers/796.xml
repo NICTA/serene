@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 3+ level attached condominium built in 1988 has 3 bedroom(s), 2
+bath(s) and approximately 1035 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>David Hanh Phan</agent_name>
+<direct>626-450-2233</direct>
+<office>626-289-6660</office>
+<firm_name>Coldwell Banker/George Realty Coldwell Banker/George Realty</firm_name>
+<phone>626-289-6660</phone>
+<fax>626-289-7612</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$129,000</list_price>
+<location>918 W College St #316</location>
+<mls>W906296</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>3 or more</levels>
+<type>Condominium</type>
+<square_feet>1035 (approx)</square_feet>
+<year_built>1988</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

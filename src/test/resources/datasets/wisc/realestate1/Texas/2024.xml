@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tarah Redfield</name>
+<office>(817)573-8801</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20902</id>
+<mls>9126141</mls>
+<house_location>2192 I Hwy 144 N (Ad # 272)
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$139,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>New golf course being built on the land directly across from the property.  Squaw Creek runs through the back of the property with 2 sets of stone steps down to the water.  2 large cedar decks &amp; French doors in the master to the deck.  Beautiful pecan trees in a country setting.</house_description>
+
+<school_district>Glen Rose</school_district>
+<approx_size_sqft>1513</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>2</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Squaw Creek on the Property</item>
+<item>2 Cedar Decks</item>
+<item>Pecan Trees in Country Setting</item>
+<item>Ad # 272</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

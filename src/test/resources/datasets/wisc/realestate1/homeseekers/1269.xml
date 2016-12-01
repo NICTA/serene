@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1936 has 4 bedroom(s), 3 bath(s) and
+approximately 2122 square feet of living area.</house_description>
+
+<agent_name>Dona Mandell</agent_name>
+<direct>303-321-1078</direct>
+<office>303-756-2999</office>
+<firm_name>Cherry Creek Central</firm_name>
+<phone>303-756-2999</phone>
+<fax>303-756-5967</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$299,500</list_price>
+<location>700 Bellaire St</location>
+<neighborhood>Hilltop/Mayfair</neighborhood>
+<mls>364443</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2122 (approx)</square_feet>
+<year_built>1936</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>604 3RD</house_location>
+<price>$41,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>246699</mls>
+<house_type>Single Family</house_type>
+<firm>KAISER REALTY</firm>
+<firm_phone>(606) 261-5102</firm_phone>
+<agent>DAVID KAISER</agent>
+<agent_phone>(606) 261-5102</agent_phone>
+<house_description>SINGLE FAM OR COULD BE INVESTMENT. RENTS FOR $435 PER MONTH.</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x28</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>11 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>2</level></bedroom_3>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<living><dimension>11 X 11</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>6TH AV TO DAYTON ST, TL 3 BLKS &amp; TR ON 3RD</directions>
+</house_listing>
+
+
+

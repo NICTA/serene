@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1899 has 6
+bedroom(s), 4 full bath(s)/2 half bath(s) , 1 car garage. Rooms
+include master bedroom. Features include patio, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Marylyn Paige</agent_name>
+<direct>202-364-8795</direct>
+<office>202-944-5000</office>
+<firm_name>Washington Fine Properties Llc - Dc</firm_name>
+<phone>202-944-5000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$2,000,000</list_price>
+<location>Washington, DC 20007</location>
+<mls>DC3122236</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>4(full) 2(half)</baths>
+<levels>3 or more</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>1632</lot_size>
+<year_built>1899</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Natural Gas, Radiator</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

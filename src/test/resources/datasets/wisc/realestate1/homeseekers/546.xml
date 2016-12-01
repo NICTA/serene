@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1958 has 3 bedroom(s), 2
+bath(s) and approximately 2100 square feet of living area. Rooms
+include dining room, bonus room, master bedroom. Features include
+view, private pool, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Zella Horwitz</agent_name>
+<direct>520-577-7400</direct>
+<office>520-577-7400</office>
+<firm_name>Tucson Realty &amp; Trust Co</firm_name>
+<phone>520-577-7400</phone>
+<fax>520-299-2898</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$289,000</list_price>
+<location>4560 E Calle Barril</location>
+<mls>9902364</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2100 (approx)</square_feet>
+<year_built>1958</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Den, Living Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>32 HWY 36</house_location>
+<price>$299,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>(Detached)</garage>
+<suburb>NA</suburb>
+<school_dist>OWEN CO</school_dist>
+<mls>248311</mls>
+<house_type>Farms</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>ROBERT SLAYBACK</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>NICE 210 ACRES OWEN COUNTY FARM * 5 ROOM HOUSE * BARN * GREAT FOR
+HUNTERS * CREEK RUNS THROUGH PROPERTY * APPROX. 1000 FT ROAD FRONTAGE
+*</house_description>
+<construction>Wood</construction>
+<heating>Oil,Space Heater</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>12 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>1</level></master>
+
+<directions>I-7 SO WARSAW EXIT L RT 35 RIGHT RT 467 L RT 36
+APPROX 1 MI ON RIGHT</directions>
+</house_listing>
+
+
+

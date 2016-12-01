@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1901 has 4 bedroom(s), 3 bath(s) and
+approximately 2450 square feet of living area.</house_description>
+
+<agent_name>Vanderhule/Lynch</agent_name>
+<direct>303-891-6568</direct>
+<office>303-721-8777</office>
+<firm_name>Prudential Portrait</firm_name>
+<phone>303-721-8777</phone>
+<fax>303-721-8555</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$253,000</list_price>
+<location>1373 N Steele St</location>
+<neighborhood>Congress Park N</neighborhood>
+<mls>375409</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2450 (approx)</square_feet>
+<year_built>1901</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

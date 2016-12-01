@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Menley</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<email>winkler@texasproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21618</id>
+<mls>529507</mls>
+<house_location>128 Stockade Ranch
+Paige, TEXAS 78659</house_location>
+<county>Bastrop</county>
+<price>$146,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>BEAUTIFUL HOME.  LONG COVERED PORCH!  HUGE TREES.  HIGH CEILINGS THROUGHOUT HOME.  FIREPLACE.  MASTER BATH FEATURES JACUZZI AND SEPATATE SHOWER.  LIGHT AND BRIGHT.  2 CAR ATTACHED GARAGE.  TERRIFIC.  LIKE NEW HOME!  PRIVATE BUT JUST 1/2 MILE OFF PAVED ROAD.</house_description>
+
+<school_district>Bastrop Isd</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1506</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>6</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

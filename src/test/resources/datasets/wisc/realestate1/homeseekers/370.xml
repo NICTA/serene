@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 1 level attached home built in 1985 has 2 bedroom(s) and
+approximately 1069 square feet of living area. Features include
+private spa, air conditioning.</house_description>
+
+<agent_name>Bob Wilson</agent_name>
+<direct>619-888-8723</direct>
+<office>858-755-7744</office>
+<email>Bob@sandiegohomes.com</email>
+<firm_name>Prudential California
+Realty Prudential California Realty</firm_name>
+<phone>858-755-7744</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$110,900</list_price>
+<location>San Diego, CA 92115</location>
+<mls>00 1001168</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<levels>1</levels>
+<type>Townhouse/Condo</type>
+<square_feet>1069 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Forced Air</heating>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

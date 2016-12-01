@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>7700 US 42</house_location>
+<price>$119,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Carport)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249121</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LAURA SANDERS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*LOADS OF POTENTIAL-ZONING IS
+O-2/ UR-1/PD-MANY USES*EXCELLENT CONDITION/NEWER KIT/LARGE DECK
+OVERLOOKS HUGE YARD &amp; LAKE/FRESHLY PAINTED INTERIOR/SHOWS GREAT/ZONING
+FOR HOME/BUSINESS</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Elec</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<family><dimension>17 X 23</dimension><level>1</level></family>
+<kitchen><dimension>8 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 20</dimension><level>B</level></laundry>
+<living><dimension>11 X 17</dimension><level>1</level></living>
+<master><dimension>10 X 14</dimension><level>1</level></master>
+
+<directions>US 42 ACROSS FROM WILDWOOD</directions>
+</house_listing>
+
+
+

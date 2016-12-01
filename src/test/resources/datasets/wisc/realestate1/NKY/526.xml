@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>121 FOOTE</house_location>
+<price>$54,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>FOOTE AVE</suburb>
+<school_dist>BELLEVUE</school_dist>
+<mls>250084</mls>
+<house_type>Single Family</house_type>
+<firm>A 4% REALTY</firm>
+<firm_phone>(606) 572-0885</firm_phone>
+<agent>MAX BRAUNE</agent>
+<agent_phone>(606) 572-0885</agent_phone>
+<house_description>FRONT PORCH + LARGE ENCLOSED SIDE PORCH,FENCED BACKYARD,LOTS
+APPLIANCES, FURNACE APPX 5 YEARS OLD,AC APPX 3 YEARS OLD, RIVER PARK
+PLAYGROUND AT END OF STREET,WALK TO MOVIES,RESTAURANTS ETC. IN FLOOD
+ZONE C .</house_description>
+<construction>Wood,Shingle</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>999x999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>15 X 12</dimension><level>2</level></bedroom_2>
+<family><dimension>15 X 12</dimension><level>1</level></family>
+<kitchen><dimension>15 X 14</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>2</level></master>
+
+<directions>I471 TO ROUTE 8 TO LEFT ON FOOTE AVE</directions>
+</house_listing>
+
+
+

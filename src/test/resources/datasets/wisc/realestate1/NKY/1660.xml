@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>3658 W MARY INGLES HW</house_location>
+<price>$105,000</price>
+<rooms>10</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>(Detached)</garage>
+<suburb>DOVER</suburb>
+<school_dist>MASON CO.</school_dist>
+<mls>245633</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>BARBARA REYNOLDS</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>WONDERFULL HISTORIC HOME.THE ARTHUR FOX JR.HOME.ORIGINAL LOG SEC.BUILT
+1789 SOME UPDATING IN 1996. 2 CISTERNS. WIRING UPDATE-SOME.ROOF
+PAINTED IN 1993. NORTH WING REPLACED AFTER 1968 TORNADO,PROP.SELLS AS
+IS.W/NO WARRANTIES.</house_description>
+<construction>Brick,Vinyl,Log</construction>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>None</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_3><dimension>13 X 17</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 17</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 9</dimension><level>1</level></laundry>
+<master><dimension>14 X 13</dimension><level>2</level></master>
+
+<directions>AAHW.TOWARD MAYS.TURN L.ON 435.GO THRU
+MINERVA.#1235 TO DOVER.L.ONTO #8 1MI.</directions>
+</house_listing>
+
+
+

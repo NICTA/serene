@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1997 has 2 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1270 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Victor Lerner</agent_name>
+<direct>933-1999</direct>
+<office>532-1944</office>
+<firm_name>Sunset Harbour
+Lic. Real Estate Broker</firm_name>
+<phone>532-1944</phone>
+<fax>305-534-0018</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$195,000</list_price>
+<location>1900 Susnet Harbour Dr #1507</location>
+<neighborhood>Sunset Harobur</neighborhood>
+<mls>M745491</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1270 (approx)</square_feet>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Canal front, Bay front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

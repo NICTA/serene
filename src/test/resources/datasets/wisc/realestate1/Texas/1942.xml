@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Randy McDonald</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)699-4354</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19940</id>
+<mls>520986</mls>
+<house_location>1406 10TH ST.
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$129,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT FAMILY HOME IN A UNIQUE SMITHVILLE AREA.  BUS SERVICE TO AUSTIN.  BEAUTIFUL YARD WITH FRUIT TREES.  LAST HOUSE ON DEAD END STREET.  ENCLOSED REAR PORCH/STORAGE BUILDING/GARDEN SPACE/LARGE UTILITY ROOM.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Riverdale</sub-division>
+<approx_size_sqft>1524</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.5</approx_acres>
+<year_built>1978</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>GREAT FAMILY HOME</item>
+<item>BEAUTIFUL YARD WITH FRUIT TREES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

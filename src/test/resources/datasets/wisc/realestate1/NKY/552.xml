@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>3111 BEECH AVE</house_location>
+<price>$99,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248846</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>LINDA MILDON</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>APPLIANCES NOT WARRANTED/ WONDERFUL HOME ON PRIVATE LOT/ FIREPLACE
+DOES NOT WORK/ WATER SOFTNER DOES NOT STAY/ FOR SELLERS DISCLOSURES
+CALL 384-1024 EXT #2390</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50 x 135</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 8</dimension><level>2</level></bedroom_3>
+<dining><dimension>16 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>18 X 10</dimension><level>1</level></kitchen>
+<living><dimension>21 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>2</level></master>
+
+<directions>LATONIA AVE TO SOUTHERN TO BEECH</directions>
+</house_listing>
+
+
+

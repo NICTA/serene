@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>107 GEORGETOWN</house_location>
+<price>$173,500</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247467</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN ASCH</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * JANUARY 2000 OCCUPANCY * MOST DESIRABLE FLOOR PLAN *
+LARGE MASTER SUITE WITH GARDEN TUB * BEAUTIFUL OPEN KITCHEN/FAMILY
+ROOM * FORMAL LIVING &amp; DINING ROOMS * TERRIFIC HOMESITE!!!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 10</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>12 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>16 X 15</dimension><level>1</level></family>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 6</dimension><level>1</level></laundry>
+<living><dimension>13 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>2</level></master>
+
+<directions>-</directions>
+</house_listing>
+
+
+

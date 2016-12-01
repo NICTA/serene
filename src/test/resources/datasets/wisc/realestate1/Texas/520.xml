@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Betty Midyett</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<voice_mail>(361)985-7678</voice_mail>
+<email>BettyC21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18946</id>
+<mls>139312</mls>
+<house_location>2321 Kirby
+Aransas Pass, TEXAS 78336</house_location>
+<county>Aransas</county>
+<price>$110,400</price>
+<bedrooms>4</bedrooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Very well maintained mini ranch, custom built and fully fenced, lotsa room for the person that likes country living and privacy! Split bedrooms, bonus room, RV parking, nice open patio in back, storage building plus much more!</house_description>
+
+<school_district>Aransas Pass Isd</school_district>
+<sub-division>Mccampbell</sub-division>
+<approx_size_sqft>1748</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>160x640</approx_lot_size>
+<approx_acres>2.42</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

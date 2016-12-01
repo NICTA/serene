@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Rlf. 50.00 great buy.. 2..Large bedrooms, large dining room and living
+romm...Extra large garage converted to apartment without permit...Lots
+of cement on rear.. Great for enterainment...Combo lock box...Will
+have new carpet, new paint, and many more things... Call agent carlos
+mendoza... .. You'll be glad...</house_description>
+
+<agent_name>Carlos Mendoza</agent_name>
+<direct>626-912-2259</direct>
+<office>626-931-1411</office>
+<firm_name>Homelife Dynamic Rea</firm_name>
+<phone>626-931-1411</phone>
+<fax>626-931-1470</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$142,000</list_price>
+<location>Huntington Park, CA 90255</location>
+<mls>Y95230</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>926 (approx)</square_feet>
+<lot_size>5000 (approx)</lot_size>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1999 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2368 square feet of living
+area. Rooms include dining room. Features include patio, fireplace,
+air conditioning.</house_description>
+
+<agent_name>June Ellam</agent_name>
+<direct>520-742-2287</direct>
+<office>520-297-2729</office>
+<firm_name>Bright Realty &amp; Development Lt</firm_name>
+<phone>520-297-2729</phone>
+<fax>520-297-8497</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$235,000</list_price>
+<location>9725 N Montierra Pl</location>
+<mls>9920158</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2368 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

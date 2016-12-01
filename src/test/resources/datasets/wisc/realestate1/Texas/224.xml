@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Kyle Wheatley</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)681-3045</mobile>
+<email>teamwheat@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7617</id>
+<mls>81424</mls>
+<house_location>807 Morris
+Copperas Cove, TEXAS 76522</house_location>
+<county>Coryell</county>
+<price>$47,600</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Perfect investment opportunity. Property is also up for lease at $450 per month.</house_description>
+
+<school_district>Copperas Cove</school_district>
+<approx_size_sqft>900</approx_size_sqft>
+<stories>1</stories>
+<year_built>1957</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Gated yard.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

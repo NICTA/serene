@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Verna</email>
+</firm_information>
+
+<agent_information>
+<name>Adams</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)242-6500</voice_mail>
+<mobile>(713)824-0228</mobile>
+<email>vernaadams@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16742</id>
+<mls>231540</mls>
+<house_location>2226 S. Fountain Valley
+Stafford, TEXAS 77459</house_location>
+<county>Fort Bend</county>
+<price>$134,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great Quail Valley location. You'll enjoy the pool in the backyard. Spacious Den with Berber carpet. Formal Dining. Woodburning Fireplace. Wood flooring in Kitchen. Inside utility. Executive Bath.</house_description>
+
+<move-in_date>6/15/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Quail Valley</sub-division>
+<approx_size_sqft>2310</approx_size_sqft>
+<stories>1</stories>
+<year_built>1975</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

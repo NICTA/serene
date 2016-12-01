@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1996 has 2 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 2600 square
+feet of living area. Rooms include bonus room. Features include view,
+private spa, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Luis Perez</agent_name>
+<direct>520-297-2290</direct>
+<office>520-297-2290</office>
+<firm_name>Century 21 Luis Perez Century 21 Luis Perez</firm_name>
+<phone>520-297-2290</phone>
+<fax>520-297-2669</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$265,000</list_price>
+<location>1781 W Dove Way</location>
+<mls>2001007</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2600 (approx)</square_feet>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric, Forced Air</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

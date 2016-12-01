@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1989 has 4 bedroom(s), 2 bath(s) , 3
+car garage. Rooms include dining room, family room, master bedroom.
+Features include private pool, patio, fireplace, skylights.</house_description>
+
+<agent_name>Jon Matej</agent_name>
+<office>623-566-2100</office>
+<firm_name>Century 21 Metro Co. Arrowhead Century 21 Metro Co. Arrowhead</firm_name>
+<phone>623-566-2100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$350,000</list_price>
+<location>Phoenix, AZ 85032</location>
+<mls>1451853</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Gas logs</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher, EatIn Kitchen, Garage Door Opener, Intercom System, Kitchen Island,Microwave, Skylights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

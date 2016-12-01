@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Quandt</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>C21Linda@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20336</id>
+<mls>R26119</mls>
+<house_location>1131 Cypher
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$129,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Den has Cathedral beam ceiling, builtin bookcase, fireplace, owner states Mbath remodeled, roof facia replaced '95, C/A '95, stove '95</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Cypher #2</sub-division>
+<approx_size_sqft>2336</approx_size_sqft>
+<approx_lot_size>87 x 160</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Covered Patio</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

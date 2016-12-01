@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Renee Thomas</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>renee@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14841</id>
+<mls>51790</mls>
+<house_location>10035 (207) SILVER SPUR
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$194,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>3 bedroom, 2 bath brick home with tile roof.  Overlooking Slick Rock Golf Course Seventh Fairway.  Maintenance free exterior.  Established yard and neighborhood.  New appliances in kitchen.  Washer/dryer remains.  Furniture is negotiable.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>On Slick Rock Golf Course.</item>
+<item>Insulated windows, ceiling fan.</item>
+<item>Microwave, disposal</item>
+<item>Oven, range, refrigerator.Furniture negotiable.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

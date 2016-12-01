@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1997 has 5 bedroom(s), 4 bath(s) , 3
+car garage. Rooms include dining room, master bedroom. Features
+include view, private pool, patio, fireplace.</house_description>
+
+<agent_name>Linda A. Dexter</agent_name>
+<office>602-944-2100</office>
+<firm_name>Prestige Realty</firm_name>
+<phone>602-944-2100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$777,000</list_price>
+<location>Phoenix, AZ 85022</location>
+<mls>1446329</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>12,501-15,000</lot_size>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<location>Cul-de-sac</location>
+<patio>Covered, Deck</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Room, Cable TV, Ceiling Fan(s), CentralVacuum, Dishwasher, Eat In Kitchen, Great Room, Guest Room, KitchenIsland, Microwave, Pantry, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Steve Butler</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>steve@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21583</id>
+<mls>54806</mls>
+<house_location>1052 BLUE GROUND
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$225,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>NEW CONSRUCTION.  Great new &amp;quot;Patio Home&amp;quot;.  Courtyard with wrought iron fence.  Open floor plan.  Granite countertops.  Large trees.  Insulated windows, skylights, ceiling fan.  Fireplace.  Oven, range, and microwave.  Completion early March 2000.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<year_built>2000</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<resort_property>Yes</resort_property>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>NEW CONSTRUCTION</item>
+<item>COMPLETION EARLY MARCH 2000</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

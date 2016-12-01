@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>8273 EAST BEND RD</house_location>
+<price>$85,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>(Attached,Carport)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249707</mls>
+<house_type>Single Family</house_type>
+<firm>MICHAEL WALSH REALTY</firm>
+<firm_phone>(606) 525-1234</firm_phone>
+<agent>CINDY PARKER</agent>
+<agent_phone>(606) 525-1234</agent_phone>
+<house_description>LOOKING FOR AHOME WITH LAND THAT OFFERS SOME PRIVACY? SITUATED ON 3.08
+AC T HIS HOME HAS BEEN WELL MAINTAINED AND OFFERS SEVERAL OUT
+BUILDINGS,TOTALLY FENCED,IDEAL FOR HORSES,GREAT DECK OFF BACK,FRUIT
+TREES,GARDEN AREA</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert,Brick</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 8</dimension><level>1</level></bedroom_3>
+<family><dimension>14 X 9</dimension><level>1</level></family>
+<kitchen><dimension>16 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>15 X 12</dimension><level>1</level></laundry>
+<living><dimension>19 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 9</dimension><level>1</level></master>
+
+<directions>ROUTE 18 TO FLASHING LIGHT LEFT ON EAST B END RD
+5.7 MILES TO SIGN</directions>
+</house_listing>
+
+
+

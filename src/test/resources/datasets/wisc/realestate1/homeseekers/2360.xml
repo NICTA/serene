@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1978 has 4 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include family room, master bedroom. Features
+include view, private pool, patio, fireplace, storage space.</house_description>
+
+<agent_name>Johanna Boslin</agent_name>
+<office>480-922-1200</office>
+<firm_name>RE/MAX Fine Properties RE/MAX Fine Properties</firm_name>
+<phone>480-922-1200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$215,000</list_price>
+<location>Phoenix, AZ 85023</location>
+<mls>1443376</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1978</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Multi Zoned</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<location>Corner</location>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Ceiling Fan(s), Dishwasher, Pantry, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

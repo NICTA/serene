@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1890 has 7 bedroom(s), 3 bath(s) and
+approximately 5185 square feet of living area.</house_description>
+
+<agent_name>Marilyn Stewart</agent_name>
+<direct>303-322-6736</direct>
+<office>303-331-1400</office>
+<firm_name>Kentwood Co At Cherr</firm_name>
+<phone>303-331-1400</phone>
+<fax>303-393-1400</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$750,000</list_price>
+<location>1471 Stuart St</location>
+<neighborhood>Sloans/West Colfax</neighborhood>
+<mls>288331</mls>
+<status>Active</status>
+<bedrooms>7</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>5185 (approx)</square_feet>
+<year_built>1890</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

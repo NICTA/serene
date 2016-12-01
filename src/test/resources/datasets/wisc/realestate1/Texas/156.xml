@@ -1,0 +1,48 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Charlotte Gips</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)787-5171</mobile>
+<email>cgips@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15651</id>
+<mls>5521</mls>
+<house_location>510 Blanco River
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$96,000</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Prestigious Blanco River Ranch4.35 Ac Overlooking the Blanco RiverSeveral Building Sites</house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great View</item>
+<item>Fantastic Location</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

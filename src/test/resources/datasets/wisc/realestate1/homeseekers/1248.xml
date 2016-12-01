@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1943 has 2
+bedroom(s), 1 bath(s) and approximately 1000 square feet of living
+area. Rooms include family room.</house_description>
+
+<agent_name>Mirna Sansur</agent_name>
+<direct>310-761-7669</direct>
+<office>323-728-2111</office>
+<firm_name>Century 21 George Michael Real Century 21 George Michael Real</firm_name>
+<phone>323-728-2111</phone>
+<fax>323-721-0922</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$119,000</list_price>
+<location>331 E 131St St</location>
+<mls>M904678</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1000 (approx)</square_feet>
+<lot_size>6250</lot_size>
+<year_built>1943</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

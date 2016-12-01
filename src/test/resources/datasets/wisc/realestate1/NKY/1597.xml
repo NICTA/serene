@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>2754 MANSION PL</house_location>
+<price>$238,445</price>
+<rooms>9</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>234072</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>JASON ASCH</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>HEMMER COMMUNITIES IS PROUD TO PRESENT PHASE TWO OF MANSION PLACE *
+SINGLE STORY LIVING W/FINISHED LOWER LEVEL* RANCH PLANS W/LOFTS ALSO
+AVAILABLE * SPECIAL FEATURES GALORE*CENTRALLY LOCATED TO
+EVERYTHING*CALL LISTING AGENT</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>145</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 12</dimension><level>L</level></bedroom_2>
+<bedroom_3><dimension>17 X 13</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>10 X 7</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 8</dimension><level>1</level></laundry>
+<living><dimension>17 X 15</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>1</level></master>
+<study><dimension>6 X 6</dimension><level>1</level></study>
+
+<directions>DIXIE HWY TO LOOKOUT FARMS DR TO MANSION PLACE
+(ON LEFT)</directions>
+</house_listing>
+
+
+

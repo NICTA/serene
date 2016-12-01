@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1964 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include dining room, master bedroom. Features
+include view, private pool, fireplace, air conditioning.</house_description>
+
+<agent_name>Lynne E. Davis</agent_name>
+<office>480-844-5900</office>
+<firm_name>John Hall &amp; Associates</firm_name>
+<phone>480-844-5900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$148,000</list_price>
+<location>Phoenix, AZ 85040</location>
+<mls>1450349</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>10,001-12,500</lot_size>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<pool>Diving</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ceiling Fan(s), Dishwasher, Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

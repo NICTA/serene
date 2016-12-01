@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Blake A. Kaiser</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)924-9600</mobile>
+<email>bkaiser@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20251</id>
+<mls>521624</mls>
+<house_location>147 Pecos St.
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$349,800</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This all rock executive home sits at the end of a cul-de-sac on a 2 acre view lot and has 3 living areas, 3 bedrooms, 2 full baths and 2 hallf baths. Spacious and elegant with views from most rooms, this home shows quality from ceramic tile floors to granite counter tops and commercial appliances. Custom lighting, large windows and plush carpet make this open floor plan.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>River Crossing</sub-division>
+<stories>2</stories>
+<approx_lot_size>1.96ac</approx_lot_size>
+<approx_acres>1.96</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Elegant and Stylish</item>
+<item>3 Living Areas</item>
+<item>Granite Counter Tops</item>
+<item>2 Acre View Lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

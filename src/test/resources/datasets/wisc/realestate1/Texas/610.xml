@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15863</id>
+<mls>9041794</mls>
+<house_location>226 Catherine Dr.
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$27,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>WHAT A SETTING!  This 2/2 mobile is nestled among beautiful Oak trees.  Property features attchaed carport, large workshop or barn, garden spot and more!  A real country feel...and affordable.</house_description>
+
+<move-in_date>10/8/99</move-in_date>
+<school_district>Whitney</school_district>
+<sub-division>Murray Hill Annex</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Large home site</item>
+<item>workshop</item>
+<item>close to town</item>
+<item>country setting</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

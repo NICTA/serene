@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>7975 WOLFE RD</house_location>
+<price>$190,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Side)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247534</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>ROBERT HAHN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>748 FT OF ROAD FRONTAGE ON EAST BEND A MUST SEE! 9.77 AC OF FLAT LAND
+IN BOONE COUNTY* HOUSE SHOWS WELL W/VAULTED CEILINGS * SKYLIGHTS *
+COVERED DECK* WHIRLPOOL TUB AND MORE. CALL BOB AT 372-6072</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 14</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>8 X 12</dimension><level>1</level></breakfast>
+<family><dimension>23 X 15</dimension><level>1</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>RT18 PAST COURT HOUSE, L ON EAST BEND FOR 5.3
+MILES, R ON WOLFE RD 1ST HOUSE ON L</directions>
+</house_listing>
+
+
+

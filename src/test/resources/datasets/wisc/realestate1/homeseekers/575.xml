@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home has 4 bedroom(s), 2 bath(s) , 2 car garage.
+Rooms include master bedroom. Features include view, private pool,
+private spa, patio, fireplace, skylights.</house_description>
+
+<agent_name>Thomas Foss</agent_name>
+<office>602-955-0390</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>602-955-0390</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$275,700</list_price>
+<location>Phoenix, AZ 85018</location>
+<mls>1462719</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>12,501-15,000</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>Diving, Heated</pool>
+<rooms>Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dishwasher, Eat In Kitchen, Garage DoorOpener, Library, Skylights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

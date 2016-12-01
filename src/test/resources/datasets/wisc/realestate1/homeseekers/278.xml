@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 3+ level single family home built in 1937 has 4 bedroom(s), 5
+bath(s) and approximately 2409 square feet of living area. Rooms
+include dining room, family room. Features include private pool,
+fireplace, air conditioning.</house_description>
+
+<agent_name>An., James</agent_name>
+<direct>818-952-8949</direct>
+<office>818-790-6774</office>
+<firm_name>Dilbeck Realtors-La Canada</firm_name>
+<phone>818-790-6774</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$449,000</list_price>
+<location>St</location>
+<mls>99045132</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>5</baths>
+<levels>3 or more</levels>
+<type>Single Family</type>
+<style>French</style>
+<square_feet>2409 (approx)</square_feet>
+<year_built>1937</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Central</heating>
+<fireplace>Living Room</fireplace>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+French Style, Guest House, Sun Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

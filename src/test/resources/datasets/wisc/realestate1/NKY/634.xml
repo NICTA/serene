@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>2233 BUSSE</house_location>
+<price>$74,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248065</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>DEBRA DIXON</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM *GREAT HOME *GOOD SOLID BUILT,NATURAL WALLS FRESH &amp; CLEAN
+HOME 3 BEDRM *EAT-IN KITCHEN*DIN &amp; LIVING RM *SECURITY SYSTEM*1ST FLR
+COULD ADD HALF BATH,PLUMBING ALREADY THERE*WALK-OUT TO NICE YARD*CITY
+VIEW*CORNER LOT</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>11 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<living><dimension>16 X 11</dimension><level>1</level></living>
+<master><dimension>14 X 10</dimension><level>2</level></master>
+
+<directions>MADISON TO 19TH ST LEFT ON HOWELL R ON 23RD ST
+RIGHT ON BUSSE ST</directions>
+</house_listing>
+
+
+

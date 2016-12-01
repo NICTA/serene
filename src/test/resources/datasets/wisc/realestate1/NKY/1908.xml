@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>13784 POOLE ROAD</house_location>
+<price>$189,900</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>VERONA</suburb>
+<school_dist>WALTON</school_dist>
+<mls>248852</mls>
+<house_type>Single Family</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>ELLEN DRYSDALE</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>CONVENIENT NEWER LARGE CAPE COD W/SPECTACULAR VIEW FROM 8' WRAP AROUND
+PORC H JUST OFF I71* VERONA PLENTY OF ROOM TO EXPAND W/FULL
+BASEMENT-10' WALLS WALKOUT*ONLY NEEDS FINISHING TOUCHES*MAKE OFFER</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>13 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>19 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>15 X 13</dimension><level>2</level></bedroom_4>
+<dining><dimension>12 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>18 X 12</dimension><level>1</level></kitchen>
+<living><dimension>18 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+
+<directions>I75 S VERONA EX TURN RIGHT TURN RIGHT 1ST ROAD
+ON RIGHT *1ST HOUSE ON RIGHT</directions>
+</house_listing>
+
+
+

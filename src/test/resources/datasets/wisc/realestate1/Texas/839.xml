@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Terri Eller</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email>terrieller@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17082</id>
+<mls>130798</mls>
+<house_location>CO.RD.51
+Odem, TEXAS 78370</house_location>
+<county>San Patricio</county>
+<price>$161,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>WONDERFUL TWO STORY HOUSE WITH LOTS OF ROOM TO GROW.  THIS IS A MUST SEE! THE POOL HAS A FULL BATH HOUSE WITH SHOWER.  THERE ARE STALLS AND PENS TO FIT ALL YOUR ANIMALS NEEDS. THERE IS A LARGE WORKSHOP/STORAGE ROOM. SITS ON 2.50 ACRES FENCED. YOU'LL LOVE THE COUNTRY FEEL. SO MANY EXTRAS! PLEASE CALL AND LET ME SHOW YOU THIS HOUSE.</house_description>
+
+<school_district>Odem</school_district>
+<approx_size_sqft>2501</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>2.5</approx_acres>
+<year_built>1978</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>BIG POOL</item>
+<item>2.5 ACRES</item>
+<item>STALLS &amp; TACKROOM</item>
+<item>4 BEDROOM 2.5 BATH</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

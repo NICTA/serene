@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>charlie long</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13223</id>
+<mls>51200</mls>
+<house_location>125 WINDING WAY
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$119,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>IMMACULATE HOME, HIGH WITH A BEAUTIFL VIEW OF LAKE LBJ. BUILT IN 1989, THIS HOME HAS IT ALL. HOUSE FACES EAST. WATCH THE SUN AND MOON RISE AT SUNRISE BEACH WHILE SITTING ON THE LARGE BACK DECK.</house_description>
+
+<move-in_date>1/3/99</move-in_date>
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>1320</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>118X139X120X159</approx_lot_size>
+<year_built>1989</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>GREAT VIEW</item>
+<item>HOME FACES EAST</item>
+<item>IMMACULATE</item>
+<item>BUILT IN 1989</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

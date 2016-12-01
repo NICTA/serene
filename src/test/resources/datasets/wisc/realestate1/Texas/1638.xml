@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>ED HERNANDEZ</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)681-7027</mobile>
+<email>teamwheat@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20017</id>
+<mls>88070</mls>
+<house_location>4405 Acorn Creek
+Killeen, TEXAS 76542</house_location>
+<county>Bell</county>
+<price>$76,921</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Brand new home under construction in Morning Glen Subdivision.  Featuring 3 bedrooms, 2 baths, 2 car garage, with approximately 1583 square feet.</house_description>
+
+<school_district>Kisd</school_district>
+<sub-division>Morning Glen</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>1583</approx_size_sqft>
+<approx_lot_size>80x120</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

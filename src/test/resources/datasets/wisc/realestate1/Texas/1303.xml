@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Quisenberry</name>
+<office>(817)573-8801</office>
+<fax></fax>
+<voice_mail>(817)573-8801 148</voice_mail>
+<mobile>(817)219-0719</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19680</id>
+<mls>9104207</mls>
+<house_location>598 PR 722, Bluff Dale (Ad # 685)
+Granbury, TEXAS 76433</house_location>
+<county>Hood</county>
+<price>$99,921</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>1996 Custom built mobile.  Extremely roomy, garage/workshop is insulated &amp; sheetrocked.  Utility in garage has water softner &amp; holding tank with heat lamp.  Acreage has a small area of coastal for grazing &amp; partially fenced with stable for livestock.  Deer stands on property.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Oak Valley Estates</sub-division>
+<approx_size_sqft>1440</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>20.98</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>20+ Acres, Custom Built, Workshop</item>
+<item>Coastal Areas &amp; Stable</item>
+<item>Lots of Trees &amp; Deer Stands</item>
+<item>Ad # 685</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

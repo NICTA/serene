@@ -1,0 +1,34 @@
+<house_listing>
+<price>$179,990</price>
+<mls_id_number>143518</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>2287</sqft>
+<year_built>1960</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>8500</lot_description>
+<fireplace>2</fireplace>
+<taxes>$2,589</taxes>
+<floors>Hardwood Floors,</floors>
+<interior>Gas Fireplace</interior>
+<exterior>Covered Patio, Sprinkler System,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>RUSSELL</elementary>
+<middle_school>PARKROSE</middle_school>
+<high_school>PARKROSE</high_school>
+</schools>
+
+</house_listing>
+
+
+

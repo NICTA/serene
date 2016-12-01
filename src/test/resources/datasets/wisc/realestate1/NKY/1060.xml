@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>738 S FORT THOMAS AV</house_location>
+<price>$99,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>FORT THOMAS</suburb>
+<school_dist>FORT THOMAS</school_dist>
+<mls>245522</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>SANDI WEST</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>NICE LARGE ROOMS, BEAUTIFUL CROWN MOLDINGS, 1ST FLOOR MASTER OR STUDY.
+SIDE PORCH AND FRONT PORCH, GAS FIREPLACE, WALKOUT BASEMENT, NEEDS
+COSMETICS. ARCHED DOORWAYS, TONS OF CHARM--GREAT HOME FOR THE MONEY</house_description>
+<construction>Stucco</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>17 X 18</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 17</dimension><level>2</level></bedroom_3>
+<dining><dimension>16 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 17</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>S. FORT THOMAS AVE TO #738 NEW TOWER PARK</directions>
+</house_listing>
+
+
+

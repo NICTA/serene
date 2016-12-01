@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>181 PADDOCK</house_location>
+<price>$171,640</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>RICHWOOD</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247348</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>KAREN AVERY</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>AMBER BY ALAN SCHMIDT. BAY WINDOW &amp; ISLAND IN KITCHEN, GAS FP, HDWD
+ENTRY, FORMAL LR OR STUDY. FIRST FLR LAUNDRY. GREAT PRICE IN AREA OF
+HIGHER PRICED HOMES. CO-LISTER JEAN PAUL. CHECK OUT
+WWW.SCHMIDTBUILDERS.COM</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>93 x 163</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>12 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>8 X 11</dimension><level>2</level></bedroom_4>
+<dining><dimension>12 X 13</dimension><level>1</level></dining>
+<family><dimension>13 X 22</dimension><level>1</level></family>
+<kitchen><dimension>13 X 17</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 7</dimension><level>1</level></laundry>
+<living><dimension>12 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 17</dimension><level>2</level></master>
+
+<directions>I-75 TO RICHWOOD EXIT, TURN R, R ON PADDOCK AT
+HERITAGE TRAILS-END OF PADDOCK</directions>
+</house_listing>
+
+
+

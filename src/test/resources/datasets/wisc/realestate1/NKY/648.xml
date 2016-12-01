@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>312 19TH ST</house_location>
+<price>$65,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249585</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>NEIL BLUNT</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>HISTORIC HOME FEATURING: STAINED GLASS WINDOWS,OAK ENTRY DOORS,NEWER
+MECH, APPLIANCES STAY, POCKET DOORS,BUILT IN BOOKCASES, 2 GAS
+FIREPLACES,SLATE ROOF, PRIVACY FENCE, NEAR 6TH DIST. SCHOOL</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50 X 115</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>11 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 15</dimension><level>1</level></kitchen>
+<living><dimension>11 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level>2</level></master>
+
+<directions>SO ON EASTERN AVE TO RT ON 19TH</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1900 has 3 bedroom(s), 3
+bath(s) and approximately 1338 square feet of living area. Features
+include view.</house_description>
+
+<agent_name>Susan Belt</agent_name>
+<direct>520-394-2303</direct>
+<office>520-455-5235</office>
+<firm_name>Property Guild</firm_name>
+<phone>520-455-5235</phone>
+<fax>520-455-5027</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$175,000</list_price>
+<location>333 W Smelter Alley</location>
+<mls>9915244</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1338 (approx)</square_feet>
+<year_built>1900</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

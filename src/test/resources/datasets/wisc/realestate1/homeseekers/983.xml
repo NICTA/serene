@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1946 has 2 bedroom(s), 1
+bath(s) and approximately 921 square feet of living area. Features
+include view, storage space.</house_description>
+
+<agent_name>Mike Sturgis</agent_name>
+<direct>520-444-2280</direct>
+<office>520-577-8333</office>
+<firm_name>Prudential Aegis Prudential Aegis</firm_name>
+<phone>520-577-8333</phone>
+<fax>520-577-1502</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$74,900</list_price>
+<location>2801 E Glenn St</location>
+<mls>9919884</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>921 (approx)</square_feet>
+<lot_size>53.15X109.6X78.6X135</lot_size>
+<year_built>1946</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium built in 1996 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 750 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Antonio San Pedro</agent_name>
+<direct>305-553-1072</direct>
+<office>305-551-9400</office>
+<firm_name>First Service Real
+Lic. Real Estate Broker</firm_name>
+<phone>305-551-9400</phone>
+<fax>305-551-4965</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$190,000</list_price>
+<location>1900 Sunset Harbour Dr #1706</location>
+<neighborhood>Sunset Harbour North Cond</neighborhood>
+<mls>M774094</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>750 (approx)</square_feet>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

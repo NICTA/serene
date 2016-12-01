@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>471 WARD AV</house_location>
+<price>$48,200</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>*****</suburb>
+<school_dist>BELLEVUE</school_dist>
+<mls>249995</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST AGENCY GROUP</firm>
+<firm_phone>(606) 441-0877</firm_phone>
+<agent>CHAUNTEL M ENZWEILER</agent>
+<agent_phone>(606) 441-0877</agent_phone>
+<house_description>NICE 1 FLOOR STARTER OR RETIREMENT HOME. LARGE ROOMS, CLEAN &amp; WELL
+CARED FOR. QUIET AREA, NICE FENCED YARD, CLOSE TO SCHOOL &amp; SHOPPING,
+CURRENTLY RENTED TO SAME TENANT FOR 8 YRS. HUD APPROVED. WHOLE HOUSE
+WARRANTY.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30 x 100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<breakfast><dimension>9 X 8</dimension><level>1</level></breakfast>
+<kitchen><dimension>15 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>RT 8, FAIRFIELD AVE, TO R ON WARD</directions>
+</house_listing>
+
+
+

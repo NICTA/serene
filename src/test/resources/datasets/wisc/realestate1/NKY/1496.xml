@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>11873 WILSON</house_location>
+<price>$109,921</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front,Rear)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247629</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 363-9900</firm_phone>
+<agent>DOUGLAS GARNER</agent>
+<agent_phone>(606) 363-9900</agent_phone>
+<house_description>WONDERFUL 3 BDRM BRICK W/ 2 FIRE PLACES, LARGE FRONT PORCH REAR DECK
+OVER LOOKING FENCED/ TREED LOT. WINDOWS NEW '99, ROOF '96, HEAT PUMP
+'94 EXIT TO A UTILITY GARAGE IN BASEMENT. LARGE FAMILY ROOM W/WBFP.</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>Irrg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$***</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 7</dimension><level>1</level></bedroom_3>
+<family><dimension>23 X 15</dimension><level>L</level></family>
+<kitchen><dimension>15 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 12</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>FROM KY 17 WEST ON WALTON NICHOLSON RD TO RIGHT
+ON WILSON</directions>
+</house_listing>
+
+
+

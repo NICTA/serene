@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>6272 PETERSBURG RD</house_location>
+<price>$110,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>PETERSBURG</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250237</mls>
+<house_type>Single Family</house_type>
+<firm>PREMIER REALTY, INC</firm>
+<firm_phone>(606) 586-0206</firm_phone>
+<agent>GAIL WATSON</agent>
+<agent_phone>(606) 586-0206</agent_phone>
+<house_description>PROPERTY IS BASICALLY FINISHED. SELLER IS SELLING PROPERTY IN AS IS
+CONDIT ION. VAULTED CEILINGS, SKYLIGHTS, CEILING FANS, STUDY COULD BE
+3RD BDRM.FAM RM WIRED BOR BASEBOARD HEAT. MORE LAND AVAILABLE AT
+ADDITIONAL COST.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>10 X 9</dimension><level>2</level></bedroom_2>
+<family><dimension>19 X 15</dimension><level>1</level></family>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>20 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>2</level></master>
+<study><dimension>12 X 9</dimension><level>1</level></study>
+
+<directions>275 W TO PETERSBURG EXIT, R ON RT 20, PROPERTY
+ON R</directions>
+</house_listing>
+
+
+

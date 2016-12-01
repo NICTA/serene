@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>Commission if closed within 30 days. Property is almost completed.
+Needs minor repairs that will be done prior to the close of escrow.
+Property has new paint, new roof, new ceramic tile floors in kitchen
+and bathroom, newkitchen countertop, new windows and buyers choice of
+carpet color. Easy to show and sell. Call for a list of other
+properties.</house_description>
+
+<agent_name>Gilbert Cuevas</agent_name>
+<direct>626-330-4125</direct>
+<office>323-563-8813</office>
+<firm_name>Mulhearn Realtors</firm_name>
+<phone>323-563-8813</phone>
+<fax>626-330-4125</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$130,000</list_price>
+<location>Los Angeles, CA 90001</location>
+<mls>R313</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>956 (approx)</square_feet>
+<lot_size>5200 (approx)</lot_size>
+<year_built>1928</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Living Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

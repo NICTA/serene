@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1928 has 4 bedroom(s), 3 bath(s) and
+approximately 3612 square feet of living area.</house_description>
+
+<agent_name>Dewayne Willardsen</agent_name>
+<direct>303-794-3603</direct>
+<office>303-771-3311</office>
+<firm_name>Coldwellbanker Moore</firm_name>
+<phone>303-771-3311</phone>
+<fax>303-741-4024</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$389,000</list_price>
+<location>434 S Vine St</location>
+<neighborhood>Washington Park</neighborhood>
+<mls>354470</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>3612 (approx)</square_feet>
+<year_built>1928</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

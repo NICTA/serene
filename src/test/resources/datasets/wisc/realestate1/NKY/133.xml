@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>10671 MICHELLE DR</house_location>
+<price>$399,900</price>
+<rooms>11</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>249335</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN ASCH</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * INCREDIBLE, BEAUTIFUL, MIMI FARM, 5+ACRES WITH ONE YR
+OLD MAGNIFICIENT RANCH HOME * FINISHED LOWER LEVEL * MEDIA ROOM
+*COUNTRY LIVING AT ITS VERY BEST * LG AIRY ROOMS * BRING YOUR HORSES *</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>719 X 357</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>14 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>15 X 12</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>16 X 14</dimension><level>B</level></bedroom_4>
+<breakfast><dimension>16 X 13</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<family><dimension>27 X 22</dimension><level>B</level></family>
+<kitchen><dimension>17 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 9</dimension><level>1</level></laundry>
+<living><dimension>21 X 18</dimension><level>1</level></living>
+<master><dimension>16 X 15</dimension><level>1</level></master>
+<study><dimension>14 X 14</dimension><level>B</level></study>
+
+<directions>US 42 TO R ON HATHAWAY L BIG BONE R ON BIG BONE
+CHURCH RD R ON MICHELLE</directions>
+</house_listing>
+
+
+

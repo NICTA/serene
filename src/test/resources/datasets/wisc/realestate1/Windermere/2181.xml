@@ -1,0 +1,34 @@
+<house_listing>
+<price>$178,000</price>
+<mls_id_number>155282</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.50</bathrooms>
+<sqft>2169</sqft>
+<year_built>1976</year_built>
+<heat>Electric Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.24        Acres</lot_size>
+<lot_description>IRREG</lot_description>
+<fireplace>1</fireplace>
+<taxes>$2,973</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Garden, RV-Park,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>SACREMENTO</elementary>
+<middle_school></middle_school>
+<high_school>PARKROSE</high_school>
+</schools>
+
+</house_listing>
+
+
+

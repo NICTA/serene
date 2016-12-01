@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1999 has 4 bedroom(s), 3 full
+bath(s)/1 half bath(s) , 3 car garage and approximately 3222 square
+feet of living area. Rooms include dining room. Features include view,
+patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Deloy Wolfley Jr.</agent_name>
+<direct>520-907-0818</direct>
+<office>520-292-0636</office>
+<firm_name>Gallagher &amp; Associates, Inc.</firm_name>
+<phone>520-292-0636</phone>
+<fax>520-292-6749</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$579,900</list_price>
+<location>468 W Coyote Moon Pl</location>
+<mls>9921030</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3(full) 1(half)</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>3222 (approx)</square_feet>
+<lot_size>230X35X229X150X67X67</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

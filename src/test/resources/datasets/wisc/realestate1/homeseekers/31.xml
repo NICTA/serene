@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1956 has 3 bedroom(s), 2 bath(s) and
+approximately 1600 square feet of living area.</house_description>
+
+<agent_name>Glenn Marquez</agent_name>
+<direct>423-6000</direct>
+<office>303-423-6000</office>
+<firm_name>Metro Brokers-All Se</firm_name>
+<phone>303-423-6000</phone>
+<fax>431-2672</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,500</list_price>
+<location>7181 N Quivas St</location>
+<neighborhood>Perl Mack Manor 3R</neighborhood>
+<mls>379641</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1600 (approx)</square_feet>
+<year_built>1956</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

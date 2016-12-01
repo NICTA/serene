@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1965 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 880 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Craig Eberhardt</agent_name>
+<direct>305-992-4305</direct>
+<office>305-531-3050</office>
+<firm_name>Kent Karlock Realt
+Lic. Real Estate Broker</firm_name>
+<phone>305-531-3050</phone>
+<fax>305-531-0035</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$175,000</list_price>
+<location>100 Lincoln Rd #341</location>
+<neighborhood>The Decoplage Condo</neighborhood>
+<mls>M759853</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>880 (approx)</square_feet>
+<year_built>1965</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Zoned</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

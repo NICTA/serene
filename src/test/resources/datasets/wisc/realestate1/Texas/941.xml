@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Bill Chess Real Estate</name>
+<location>714-B Chestnut Bastrop, TX 78602</location>
+<office>(512)303-3806</office>
+<toll_free></toll_free>
+<fax>(512)303-3839</fax>
+<email>bchess@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Earl Kilgore</name>
+<office>(512)303-3806</office>
+<fax>(512)303-3839</fax>
+<mobile>(512)497-3653</mobile>
+<email>erkilgore@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18796</id>
+<mls>515388</mls>
+<house_location>305 Jeffrey Dr., Cedar Creek
+Cedar Creek, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$88,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Located in the subdivision of Heritage Oaks off Hwy. 21, this home is nestled among the pines.  This home has lots of extra touches to it:  a deck in the back, flagstone wlaks, country kitchen, and a storage shed.  This home has been very well maintained.   The price is just right for a first time home buyer, or rental. $88,500File:  E0011.</house_description>
+
+<school_district>Bastrop</school_district>
+<sub-division>Heritage Oaks</sub-division>
+<approx_size_sqft>1344</approx_size_sqft>
+<approx_acres>1.03</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Central AC.</item>
+<item>Very well kept home at a low price.</item>
+<item>Beautiful pine trees.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

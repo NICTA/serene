@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>309 ELM</house_location>
+<price>$35,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249694</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>KAREN ARMSTRONG</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>VERY CLEAN, WELL MAINTAINED COTTAGE W/STORAGE SHED, FENCED YARD, STORM
+WINDOWS, CEILING FAN &amp; AC UNIT. WALK TO SHOPPING. OVEN NOT OPERABLE.
+SEC. SYSTEM NOT OPERATING. SELLING TO SETTLE ESTATE.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30 x 90</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 14</dimension><level>1</level></bedroom_2>
+<dining><dimension>9 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 11</dimension><level>1</level></kitchen>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+
+<directions>11TH ST, N ON BRIGHTON, R ON ELM</directions>
+</house_listing>
+
+
+

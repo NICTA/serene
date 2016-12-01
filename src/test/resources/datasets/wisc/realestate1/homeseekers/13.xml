@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1968 has 3 bedroom(s), 2
+bath(s) and approximately 2161 square feet of living area. Features
+include patio, air conditioning, storage space.</house_description>
+
+<agent_name>Sally Inman</agent_name>
+<direct>520-885-1477</direct>
+<office>520-886-8282</office>
+<firm_name>Realty Executives-Tuc Realty Executives-Tuc</firm_name>
+<phone>520-886-8282</phone>
+<fax>520-721-5240</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$134,900</list_price>
+<location>1701 S Oak Park Dr</location>
+<mls>9918388</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2161 (approx)</square_feet>
+<lot_size>46.87X90X71X115</lot_size>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

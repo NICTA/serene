@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Alicia Stonick</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18322</id>
+<mls>9068737</mls>
+<house_location>3724 Bob White Ct.. (Ad# 128)
+Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$100,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>2 story home on approximately 1 acre.  Needs some cleaning up, but is a great deal for the price per sq. foot.  Also has an extra room off the back for a workshop or gameroom.  Home warranty offered.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Quail Ridge Acres</sub-division>
+<approx_size_sqft>3092</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1</approx_acres>
+<year_built>1980</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Great home for the price</item>
+<item>Fireplace</item>
+<item>Extra room off the back</item>
+<item>inquire about #128</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

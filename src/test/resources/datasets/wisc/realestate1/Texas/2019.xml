@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Lee Portland</name>
+<location>921 Houston St. Portland, TX 78374</location>
+<office>(361)643-2591</office>
+<toll_free>(800)421-0821</toll_free>
+<fax>(361)643-5845</fax>
+<email>plee2121@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Barbara Carlyon</name>
+<office></office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21685</id>
+<mls>142048</mls>
+<house_location>210 Sandpiper
+Portland, TEXAS 78374</house_location>
+<county>San Patricio</county>
+<price>$169,000</price>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>THIS ONE STORY HOME HAS TWO FIREPLACES, ONE IN MASTER BEDROOM AND ONE IN LIVING ROOM.  MASTER BATH HAS SEPARTE TUB AND SHOWER.  SPLIT BEDROOM FLOOR PLAN.  GREAT KITCHEN WITH  A PANTRY.  AMENITIES INCLUDE LOTS OF STORAGE, SKYLIGHT, WET BAR, WINDOW COVERINGS, CATHEDRAL CEILING, SEPARATE UTILITY ROOM..  HOME WARRANTY WITH OLD REPUBLIC.</house_description>
+
+<school_district>Gpisd</school_district>
+<sub-division>Northshore</sub-division>
+<approx_lot_size>90x110</approx_lot_size>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>2</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

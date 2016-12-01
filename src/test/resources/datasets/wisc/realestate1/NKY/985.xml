@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>3402 TERRACE</house_location>
+<price>$114,500</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Builtin,Front)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>249085</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>FRED KOLLER</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>HUGE BRICK HOME. 3-4 BEDROOM-LOWER LEVEL FINISHED-HUGE 16X16 KITCHEN-
+2 FULL BATHS-CALL LISTING AGENT CONCERNING OCCUPANCY</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70X110</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>14 X 14</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 12</dimension><level>1</level></dining>
+<family><dimension>23 X 16</dimension><level>L</level></family>
+<kitchen><dimension>16 X 16</dimension><level>1</level></kitchen>
+<living><dimension>16 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 14</dimension><level>1</level></master>
+<recreation_room><dimension>29 X 16</dimension><level>L</level></recreation_room>
+
+<directions>SOUTH ON DIXIE L ON STEVENSON L ON TERRACE</directions>
+</house_listing>
+
+
+

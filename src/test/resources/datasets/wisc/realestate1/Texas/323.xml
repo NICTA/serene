@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Chambliss</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>brenda_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18685</id>
+<mls></mls>
+<house_location>115 N. RIO GRANDE ST.
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$57,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>PERFECT FOR THE SMALL FAMILY. THIS HOME OFFERS TWO BEDROOMS AND ONE GENEROUS BATH. LOTS OF CABINETS IN THE LARGE KITCHEN, WHICH CONNECTS TO THE ONE-CAR CARPORT AND UTILITY ROOM. CH/CA AND SOME RECENT REMODELING. THIS WELL KEPT HOME IS LOCATED AT 115 N. RIO GRANDE AND PRICED AT $57,500.</house_description>
+
+<move-in_date>8/20/99</move-in_date>
+<school_district>Lockhart</school_district>
+<approx_size_sqft>936</approx_size_sqft>
+<approx_lot_size>.14AC</approx_lot_size>
+<approx_acres>0.14</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>LARGE KITCHEN</item>
+<item>LOTS OF CABINETS</item>
+<item>FRAME HOME</item>
+<item>RECENT REMODELING</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

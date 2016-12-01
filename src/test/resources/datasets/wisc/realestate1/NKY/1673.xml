@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>2301 GLEN DRIVE</house_location>
+<price>$132,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached,Rear)</garage>
+<suburb>WASHINGTON</suburb>
+<school_dist>MASON CO</school_dist>
+<mls>247394</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>VICKIE GOLBERG</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>CHARMING COUNTRY FARMHOUSE IN WASHINGTON GLEN SUBDIVISION W/2 ACRES
++/-. LG. WRAP AROUND PORCH, PARTIALLY ENCLOSED W/SCREENS. 1 1/2 STORY
+MASTER BR 1ST FL. 3 BA TOTAL. GORGEOUS ENTRY STAIRCASE. DETACHED
+GARAGE &amp; SHED.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air,Baseboard</heating>
+<cooling>Central Air,Window Unit</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>12</dimension><level>X</level></bedroom_2>
+<bedroom_3><dimension>12</dimension><level>X</level></bedroom_3>
+<dining><dimension>13 X 14</dimension><level>1</level></dining>
+<family><dimension>15 X 11</dimension><level>1</level></family>
+<kitchen><dimension>12 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>3 X 6</dimension><level>1</level></laundry>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>1</level></master>
+
+<directions>AA HWY R ON US 68 2MI. L @ 3RD LGT - DUKE OF
+YORK.HOUSE JUST PAST MARSHALL ST ON RT</directions>
+</house_listing>
+
+
+

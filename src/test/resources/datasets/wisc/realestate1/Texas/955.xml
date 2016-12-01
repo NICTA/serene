@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jake Coleman</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<voice_mail>(210)658-4733 120</voice_mail>
+<email>manoragent@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20949</id>
+<mls>323421</mls>
+<house_location>4126 Seabrook Dr
+San Antonio, TEXAS 78219</house_location>
+<county>Bexar</county>
+<price>$54,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Look no further than this 3-2-1 delightful home.  Large living room, large utility room &amp; storage space in the garage.  Security system.  Aluminum siding for easy maintenance.  Nice backyard w/covered patio. Ready for new owners.</house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>Skyline Park</sub-division>
+<approx_size_sqft>1123</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>64x110</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

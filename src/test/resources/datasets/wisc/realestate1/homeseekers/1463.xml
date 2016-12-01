@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1880 has 2 bedroom(s), 1
+bath(s) and approximately 2500 square feet of living area. Rooms
+include bonus room, master bedroom. Features include view, patio,
+fireplace.</house_description>
+
+<agent_name>Matt Perri CRS, Gri</agent_name>
+<direct>520-291-4072</direct>
+<office>520-624-9145</office>
+<firm_name>Matt Perri Realty</firm_name>
+<phone>520-624-9145</phone>
+<fax>520-624-2790</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$280,000</list_price>
+<location>601 S Meyer Ave #1-5</location>
+<mls>2000843</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2500 (approx)</square_feet>
+<lot_size>98X60X66X98X40X129</lot_size>
+<year_built>1880</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

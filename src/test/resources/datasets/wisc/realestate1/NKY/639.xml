@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>2831 MADISON</house_location>
+<price>$69,500</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247940</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>KAREN ARMSTRONG</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>ALL NEW REHAB-CUTE. NEW KITCHEN, BATH, CANINETS, VINYL &amp; CARPET. HUGE
+SIDE DECK. NICE FRONT PORCH. BERBER CARPET, CEILING FAN-CONVENIENT
+LOCATION. PRICED TO SELL!</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 15</dimension><level>L</level></bedroom_3>
+<bedroom_4><dimension>10 X 17</dimension><level>L</level></bedroom_4>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 8</dimension><level>L</level></laundry>
+<living><dimension>10 X 15</dimension><level>1</level></living>
+<master><dimension>10 X 16</dimension><level>2</level></master>
+
+<directions>S ON MADISON AVE, JUS PAST ROGERS ON LEFT</directions>
+</house_listing>
+
+
+

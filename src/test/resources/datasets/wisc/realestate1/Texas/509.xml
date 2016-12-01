@@ -1,0 +1,47 @@
+<house_listing>
+<firm_information>
+<name>Pud Owens Realty</name>
+<location>910 1/2 West Cameron Rockdale, TX 76567</location>
+<office>(512)446-4243</office>
+<toll_free></toll_free>
+<fax>(512)446-4273</fax>
+<email>rlaj@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Matula</name>
+<office>(512)446-4243</office>
+<fax>(512)446-4273</fax>
+<mobile>(512)446-1003</mobile>
+<email>rlaj@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14808</id>
+<mls></mls>
+<house_location>Intersection of CR 305 and FM 908
+Rockdale, TEXAS 76567</house_location>
+<county>Milam</county>
+<price>$125,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Beautiful Country Home with Gazebo and separate out Building</house_description>
+
+<school_district>Rockdale</school_district>
+<approx_size_sqft>1800</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

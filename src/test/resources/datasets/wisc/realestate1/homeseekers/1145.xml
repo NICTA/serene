@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1960 has 4 bedroom(s), 2 bath(s) .
+Rooms include family room, master bedroom. Features include patio, air
+conditioning.</house_description>
+
+<agent_name>Irene Layshock</agent_name>
+<office>602-978-0001</office>
+<firm_name>Century 21 Tradin' Places Century 21 Tradin' Places</firm_name>
+<phone>602-978-0001</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$107,000</list_price>
+<location>Phoenix, AZ 85029</location>
+<mls>1466199</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>1-7,500</lot_size>
+<year_built>1960</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<location>Corner</location>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Ceiling Fan(s), Dishwasher, Microwave,Pantry, Ranch Style, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

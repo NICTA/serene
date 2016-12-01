@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>7091 SWEETWATER</house_location>
+<price>$102,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>OAKBROOK</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248601</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JOE KLEIER</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>VERY UNIQUE!OPEN FLR PLAN W/2ND FLR LAUNDRY!FULLY EQPT KITCHEN W/HDWD
+&amp; ALL APPL.HDWD ENTRY &amp; POWER RM.LOTS OF STORAGE.EACH BEDROOM HAS ITS
+OWN PRIV BATH.PLANT LEDGES,WBFP,IMMED OCCUP,BEAUTIFULLY DECORATED!!</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>128</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<dining><dimension>15 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 8</dimension><level>2</level></laundry>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>2</level></master>
+
+<directions>OAKBROOK DR TO CLIFFVIEW TO SWEETWATER TO 7091</directions>
+</house_listing>
+
+
+

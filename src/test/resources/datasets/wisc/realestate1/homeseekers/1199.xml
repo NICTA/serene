@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1940 has ? bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 338 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>John Pena</agent_name>
+<direct>305-543-2284</direct>
+<office>558-0625</office>
+<firm_name>J.P. Realty, Inc.
+Lic. Real Estate Broker</firm_name>
+<phone>558-0625</phone>
+<fax>305-558-0647</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$43,000</list_price>
+<location>3425 Collins Av #612</location>
+<neighborhood>Versailles Hotel Condo</neighborhood>
+<mls>N227313</mls>
+<status>Active</status>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>338 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

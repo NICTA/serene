@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debbie Rogers</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)991-9232</mobile>
+<email>drogers@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21239</id>
+<mls>9129972</mls>
+<house_location>218 South Fork Drive
+in East Weatherford, TEXAS 76087</house_location>
+<county>Parker</county>
+<price>$209,921</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Diamond Oaks</sub-division>
+<approx_size_sqft>2860</approx_size_sqft>
+<stories>1</stories>
+<year_built>1991</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Great floor plan!</item>
+<item>Great for entertaining!</item>
+<item>4 bedrooms and a study!</item>
+<item>Great location!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

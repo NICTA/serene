@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>436 GENERAL DR</house_location>
+<price>$149,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FT. HENRY</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248481</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>JOYCE HERTHEL</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*LEVEL FENCED LOT WITH MATURE TREES*STAINED 6 PANEL DRS ON 1ST FLR*ALL
+FLRS HDWD OR CERAMIC*UNIQUE FAM RM FL*NEWER ATRIUM DR &amp; GLASS BLK
+WINDOWS*BUILT -IN BOOKSHELVES*GREAT ESTABLISHED NEIGHBORHOOD HOME IN
+GOOD CONDITION*</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80X150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<family><dimension>17 X 11</dimension><level>1</level></family>
+<kitchen><dimension>8 X 7</dimension><level>1</level></kitchen>
+<living><dimension>18 X 12</dimension><level>1</level></living>
+<master><dimension>16 X 11</dimension><level>2</level></master>
+<recreation_room><dimension>25 X 16</dimension><level>L</level></recreation_room>
+
+<directions>DIXIE HWY TO SLEEPY HOLLOW, L ON AMSTER DAM, R
+ON FT. HENRY, L ON GENERAL</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>0 RT 1 BOX 182</house_location>
+<price>$109,554</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>BERRY</suburb>
+<school_dist>HARRISON</school_dist>
+<mls>249402</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>DENISE WALLS</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>VIEW-LOCATION-PRICE.ON 27 ACRES-2BR RANCH SEPERATE 3 RM POOL
+HOUSE-POOL NEEDS LINER LOCATED ON US 27 WITH TOBACCO READY BARN.
+WORKSHOP UNDER POOL HOUSE CHECK OUT THE VIEW FRM FRNT &amp; BCK OF HOUSE &amp;
+THE AWESOME LGHT FIXT</house_description>
+<construction>Brick</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 7</dimension><level>1</level></laundry>
+<living><dimension>23 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>US 27 SO 12 MILES SOUTH OF FALMOUTH ON THE LFT</directions>
+</house_listing>
+
+
+

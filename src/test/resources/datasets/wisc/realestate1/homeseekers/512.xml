@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This is a great home located in a great area! Conveniently located
+near military base,malls and more! Lovely eat-in kitchen w/ walk in
+pantry, freshly painted inside. New carpet! This home is in move in
+condition!</house_description>
+
+<agent_name>Thomas Finch</agent_name>
+<office>757-490-7300</office>
+<firm_name>RE/MAX Central Realty RE/MAX Central Realty</firm_name>
+<phone>757-490-7300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$84,900</list_price>
+<location>Virginia Beach, VA 23452</location>
+<mls>9931982</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Townhouse/Condo</type>
+<style>Twinhome</style>
+<square_feet>1260 (approx)</square_feet>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<location>Cul-de-sac</location>
+<patio>Patio</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Ceiling Fan(s), Fenced, Garage Door Opener
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

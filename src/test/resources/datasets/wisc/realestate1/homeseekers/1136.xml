@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1964 has ? bedroom(s), 1 bath(s) and
+approximately 420 square feet of living area. Features include private
+pool, air conditioning.</house_description>
+
+<agent_name>Victor Rivera</agent_name>
+<direct>750-5399</direct>
+<office>534-7777</office>
+<firm_name>Transatlantic Real
+Lic. Real Estate Broker</firm_name>
+<phone>534-7777</phone>
+<fax>534-1233</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$49,500</list_price>
+<location>1250 West Av #14J</location>
+<neighborhood>Bay Gdn Manor Condo</neighborhood>
+<mls>M729805</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>420 (approx)</square_feet>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

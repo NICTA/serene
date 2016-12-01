@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1995 has 3 bedroom(s), 2
+bath(s) and approximately 1206 square feet of living area. Features
+include view, storage space.</house_description>
+
+<agent_name>Susan Belt</agent_name>
+<direct>520-394-2303</direct>
+<office>520-455-5235</office>
+<firm_name>Property Guild</firm_name>
+<phone>520-455-5235</phone>
+<fax>520-455-5027</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$450,000</list_price>
+<location>N Franklin Lane</location>
+<mls>9921613</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<square_feet>1206 (approx)</square_feet>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

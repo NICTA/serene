@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Thelma Sorgman</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5952</voice_mail>
+<email>ranch@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>10938</id>
+<mls>472947</mls>
+<house_location>361 Tuck St.
+Cedar Creek, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$55,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>'96 ENERGY efficient Fleetwood Mobile Home,  Nice home on almost 1 acre, Open large kitchen/dining, indoor utilities, seperate shower and Garden tub in master bath, cieling fans. Nice corner tree shaded lot approx .797 acre. Refrigerator, washer, dryer, and storage shed negotiable. Easy access to Austin which is approx 15 min away. Possible Owner finance call for details or E-mail to tsorgman@hotmail.com</house_description>
+
+<move-in_date>10/22/98</move-in_date>
+<school_district>Bastrop ISD</school_district>
+<sub-division>Lazy Acres</sub-division>
+<approx_size_sqft>1292</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.8</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Corner Lot</item>
+<item>Lots of Trees</item>
+<item>Energy Efficient</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

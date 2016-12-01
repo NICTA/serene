@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bobby &amp; Doris Gassiott</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)647-7395</voice_mail>
+<email>info@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16439</id>
+<mls>505305</mls>
+<house_location>1850 FM 1626
+Buda, TEXAS 78610</house_location>
+<county>Hays</county>
+<price>$129,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Terrific View on hill previous.  1986 S.F quiet country home, water well, vaulted ceilling.  Country StyleMany large treesMotivated sellerBright &amp; Open</house_description>
+
+<school_district>Hays Cisd</school_district>
+<approx_size_sqft>1680</approx_size_sqft>
+<stories>2</stories>
+<year_built>1988</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

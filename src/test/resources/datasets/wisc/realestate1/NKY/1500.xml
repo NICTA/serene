@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>37 SYLVAN</house_location>
+<price>$99,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246377</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>STEVEN J POPHAM</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>ALL BRICK 3 BEDROOMS. OPEN FLOOR PLAN, LARGE KITCHEN, NEWER CABINETS 2
+FULL BATHS, NICE FENCED BACKYARD....GREAT LOCATION - CONVENIENT TO
+SCHOOLS,SHOPPING &amp; EXPRESS WAY. TWO WINDOW UNITS.</house_description>
+<construction>Brick</construction>
+<heating>Electric</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70X140</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>10 X 8</dimension><level>U</level></bedroom_3>
+<family><dimension>23 X 11</dimension><level>L</level></family>
+<kitchen><dimension>16 X 12</dimension><level>U</level></kitchen>
+<living><dimension>16 X 13</dimension><level>U</level></living>
+<master><dimension>14 X 10</dimension><level>U</level></master>
+
+<directions>HWY17 SOUTH RIGHT ON SYLVAN DRIVE</directions>
+</house_listing>
+
+
+

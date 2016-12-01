@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Blane Wier</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<mobile>(830)330-0318</mobile>
+<email>giesecke@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20152</id>
+<mls>54133</mls>
+<house_location>859 SCENIC DRIVE
+Johnson City, TEXAS</house_location>
+<county>Blanco</county>
+<price>$135,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>WONDERFUL COUNTRY, QUIET NEIGHBORHOOD.  LOTS OF WILDLIFE, SECLUDED YET CLOSE TO TOWN.  ON 5 ACRES.</house_description>
+
+<school_district>Johson City I.s.d.</school_district>
+<sub-division>Pedernales</sub-division>
+<approx_acres>5</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>WONDERFUL COUNTRY HOME.</item>
+<item>5 ACRES.</item>
+<item>QUIET NEIGHBORHOOD.</item>
+<item>LOTS OF WILDLIFE.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

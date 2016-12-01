@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Yanez</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>irene_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21352</id>
+<mls></mls>
+<house_location>1414 Dove Lane
+in West Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$74,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>A two bedroom, one bath brick home with a living room, kitchen with dining area and pantry, CH/CA, one car garage with and electric opener, all electric home, mini blinds, ceiling fans, washer and dryer connections in garage, and double pane windows.</house_description>
+
+<school_district>Lockhart</school_district>
+<sub-division>Westland</sub-division>
+<approx_size_sqft>972</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>9,567</approx_lot_size>
+<year_built>1991</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Two bedroom, one bath</item>
+<item>All electric</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

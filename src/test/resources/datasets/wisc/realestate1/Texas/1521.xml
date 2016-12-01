@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Nichols, Broker Associate</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 112</voice_mail>
+<mobile>(512)461-3487</mobile>
+<email>cnichols@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21488</id>
+<mls>528513</mls>
+<house_location>1010 River Road
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$345,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>&amp;quot;Namaste&amp;quot; - A Place to renew your spirit. Let the ancient greeting &amp;quot;Namaste&amp;quot; be your own special &amp;quot;Welcome home.&amp;quot; Reconnect with the peace and joy of natural surroundings as you enter the tranquil garden and proceed to the exquisitely restored rock home on the Blanco River. Huge trees, a rolling lawn, multiple decks for enjoying the outdoors and a warm 3/2/2 plus complete guest cottage will soothe your spirit. Keep it as your own private retreat or share it with others as a B &amp; B. Call Carolyn or Sandy.  $345,000.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Idlewhile Estates</sub-division>
+<approx_size_sqft>2090</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1.3</approx_acres>
+<year_built>1954</year_built>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Blanco River</item>
+<item>Exquisitely Remodeled</item>
+<item>Soothing Garden</item>
+<item>Separate Cottage</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,48 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Marchel Eubank</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<email>mmeubank@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18668</id>
+<mls>9088789</mls>
+<house_location>129 Beachloop Road
+Laguna Park, TEXAS 76634</house_location>
+<county>Bosque</county>
+<price>$89,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Cool off on hot summer days in the sparkling pool or catch the breeze lounging on the deck.  This lovely four bedroom, one bath frame home in Bosque county is perfect for the family.  Oversized den, dining room, utility room, storage, tree covered lot &amp; walk to Lake Whitney.</house_description>
+
+<school_district>Clifton</school_district>
+<sub-division>Beachland</sub-division>
+<approx_size_sqft>1600</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>121X193</approx_lot_size>
+<year_built>1980</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

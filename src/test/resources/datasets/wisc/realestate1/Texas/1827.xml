@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Blake A. Kaiser</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)924-9600</mobile>
+<email>bkaiser@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21581</id>
+<mls>528426</mls>
+<house_location>105 My Road
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$129,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>RIVERFRONT!!  Very nice custom home with private river access. New roof, tall ceilings, spacious rooms and lots of upgrades. Close to schools, shopping and downtown.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Blakey Nancy</sub-division>
+<approx_size_sqft>1772</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.37ac</approx_lot_size>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>RIVERFRONT !!</item>
+<item>Custom Brick 3/2/2</item>
+<item>Lots of Upgrades</item>
+<item>Close to Schools and Shopping</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

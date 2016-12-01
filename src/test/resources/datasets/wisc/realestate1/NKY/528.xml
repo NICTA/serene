@@ -1,0 +1,55 @@
+<house_listing>
+<house_location>307 SUMMIT LANE</house_location>
+<price>$599,900</price>
+<rooms>13</rooms>
+<bedrooms>5</bedrooms>
+<baths>3-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Side)</garage>
+<suburb>FT MITCHELL</suburb>
+<school_dist>BEECHWOOD</school_dist>
+<mls>250317</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>VICKIE BOLTON-HOUSE</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>HISTORIC FT MITCHELL TUDOR ON 1.6 (+/-1)ACRES.HEAVILY WOODED.GOURMET
+KIT W/ SEP PREP KIT &amp; PLANNNING AREA.LR/DR BOAST JUDGES PANELING,DR
+W/WINDOW SEAT, COVERED VERANDA 28 X12 ATTIC AREA READY FOR DRYWALL 35
+X 30</house_description>
+<construction>Brick,Stucco</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>16 X 16</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>15 X 12</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>15 X 9</dimension><level>2</level></bedroom_5>
+<breakfast><dimension>15 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>20 X 18</dimension><level>1</level></dining>
+<family><dimension>15 X 15</dimension><level>L</level></family>
+<kitchen><dimension>16 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>20 X 18</dimension><level>L</level></laundry>
+<living><dimension>28 X 25</dimension><level>1</level></living>
+<master><dimension>19 X 15</dimension><level>2</level></master>
+<recreation_room><dimension>39 X 14</dimension><level>L</level></recreation_room>
+
+<directions>KYLES LANE TO LEFT ON DIXIE HIGHWAY R ON
+FORTSIDE R ON SUMMIT</directions>
+</house_listing>
+
+
+

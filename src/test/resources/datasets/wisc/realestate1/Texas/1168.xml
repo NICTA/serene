@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Quandt</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>C21Linda@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14968</id>
+<mls>25037</mls>
+<house_location>923 S. 23rd
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$77,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Extra large home, addition has bedroom, bath &amp; additional living area.  Detached 2 car garage has workshop area.  Tenant:month to month.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Kyle Addition</sub-division>
+<approx_size_sqft>2520</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>73 X 117</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Patio</item>
+<item>Dishwasher</item>
+<item>Vent Hood</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

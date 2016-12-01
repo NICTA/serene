@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>17 MEADOW LN</house_location>
+<price>$105,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248899</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>AUDREY JARVIS</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>CO-LISTERS BETH PRAST 578-4911/SHERR WITT 578-4906. QUICK OCC POSS.
+WELL- MAINTAINED,NEWER REPLACEMENT WINDOWS*REMODELED KITCHEN*NICE
+HARDWOOD FLOORS HUGE LOWER LEVEL FAMILY ROOM*QUIET CUL-DE-SAC STREET.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>60x140</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 9</dimension><level>1</level></dining>
+<family><dimension>30 X 23</dimension><level>L</level></family>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>US 27 SOUTH TO RIGHT ON MEADOW(ACROSS FROM
+THRIFTWAY)JUST SOUTH OF POPLAR RIDGE</directions>
+</house_listing>
+
+
+

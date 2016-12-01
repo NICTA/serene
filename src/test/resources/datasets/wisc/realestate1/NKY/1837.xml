@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>103 SHANNON</house_location>
+<price>$139,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Attached,Oversized)</garage>
+<suburb>BUTLER</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>249290</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>JIM SCHACK</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>QUALITY BUILT BRICK RANCH HOME, WELL MAINTAINED, ORIGINAL OWNER.
+OVERLOOKS LAKE. ALL APPLIANCES STAY. READY TO MOVE INTO AND ENJOY.
+LARGE EAT-IN KITCHEN. 1ST FLR LAUNDRY ROOM. CALL JIM FOR MORE INFO
+448-0700</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>20 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>20 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>20 X 18</dimension><level>1</level></living>
+<master><dimension>16 X 14</dimension><level>1</level></master>
+
+<directions>US 27 S, R 177 AT NORTHERN ELEMENTARY TO R ON
+TAYLOR</directions>
+</house_listing>
+
+
+

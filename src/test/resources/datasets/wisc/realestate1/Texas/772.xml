@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Yanez</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>irene_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19736</id>
+<mls></mls>
+<house_location>259 Fifth Street
+Maxwell, TEXAS 78656</house_location>
+<county>Caldwell</county>
+<price>$175,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A wonderful brick home in the country!  The seller says take your choice of 50 or 100 acres.  A custom built brick home with two large master bedrooms and two full baths.  A large living room, kitchen with pantry, lots of cabinets, stove, dishwasher, and refrigerator are featured.  Vaulted ceilings, custom window coverings, ceiling fans, double pane windows, and an attic floored for storage are just some of the perks.  Two stock ponds and 50 acres of coastal grass.  Additional acreage available at $2,000/acre.  Shown by appointment.</house_description>
+
+<school_district>Lockhart</school_district>
+<approx_size_sqft>1402</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>50.045</approx_lot_size>
+<approx_acres>100</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Custom built, brick home on 50 acres</item>
+<item>Coastal grass and two stocked tanks</item>
+<item>CH/CA is electric</item>
+<item>Satellite dish</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

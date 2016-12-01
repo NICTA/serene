@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Barbara McRoberts</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>bamcrobert@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20018</id>
+<mls>14936</mls>
+<house_location>1200 Crescent
+San Benito, TEXAS 78586</house_location>
+<county>Cameron</county>
+<price>$185,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Unbelievable views!  Resaca lot that is almost 7/10 of a acre. Great place to raise a family. Large home with approx. 4000 sq. ft. of living space featuring 4/3/3. Handicap acessible.</house_description>
+
+<school_district>San Benito</school_district>
+<sub-division>Crescent Estates</sub-division>
+<approx_size_sqft>4035</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>2 lots</approx_lot_size>
+<year_built>1962</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Resaca Lot</item>
+<item>Handicap access</item>
+<item>Huge rooms</item>
+<item>Double fireplace</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1924 has 2
+bedroom(s), 1 bath(s) and approximately 756 square feet of living
+area. Rooms include dining room, bonus room. Features include
+fireplace.</house_description>
+
+<agent_name>Israel Valenzuela</agent_name>
+<direct>323-668-5123</direct>
+<office>323-722-7300</office>
+<firm_name>Realty Masters Executive Group</firm_name>
+<phone>323-722-7300</phone>
+<fax>323-722-7971</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$159,000</list_price>
+<location>1225 S Muirfield Rd</location>
+<mls>M904917</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>756 (approx)</square_feet>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>In very good condition.Bank owned with special addendums. Please call
+joe 456-2345</house_description>
+
+<agent_name>Joseph Wilkey</agent_name>
+<direct>421-9100</direct>
+<office>757-456-2345</office>
+<firm_name>RE/MAX Alliance RE/MAX Alliance</firm_name>
+<phone>757-456-2345</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$47,900</list_price>
+<location>Norfolk, VA 23513</location>
+<mls>0001349</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<type>Townhouse</type>
+<style>Townhouse</style>
+<square_feet>1408 (approx)</square_feet>
+<lot_size>20X100</lot_size>
+<year_built>1974</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

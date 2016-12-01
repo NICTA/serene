@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Hulsey/Burton Real Estate, Inc.</name>
+<location>119 Avenue G Suite 102 Marble Falls, TX 78654</location>
+<office>(830)693-5758</office>
+<toll_free>(800)638-1804</toll_free>
+<fax>(830)693-5104</fax>
+<email>hbre@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Gary Hulsey</name>
+<office>(830)693-5758</office>
+<fax>(830)693-5104</fax>
+<email>hbre@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>1486</id>
+<mls>46152</mls>
+<house_location>1201 Arbor Lane
+Marble Falls, TEXAS</house_location>
+<county>Burnet</county>
+<price>$149,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Marble Falls Luxury! - Large mature trees, custom landscaping,  really shady and cool back yard and patio, with creek, 3/2 brick with  wonderful kitchen area. Formal dining room. Need to see  this beauty!</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Lacy Lans</sub-division>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Shady</item>
+<item>Kitchen Beauitfully Decorated</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

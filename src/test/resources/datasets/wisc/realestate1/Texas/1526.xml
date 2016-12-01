@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Cece Hurst</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<email>cece@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14715</id>
+<mls>494197</mls>
+<house_location>802 Hudgins
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$89,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful Smithville home originally built in 1927.  This great family home with 1500+sf, has 3 bedrooms, 2 baths, hard tile in the entry and the kitchen.  Wonderful live oak trees in the front yard.  Cool off from the hot Texas sun in the inground swimming pool.  Close to schools and shopping.  Located in a great neighborhood.  Recently Reduced - Call me today!</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Riverside Park</sub-division>
+<approx_size_sqft>1500</approx_size_sqft>
+<stories>1</stories>
+<year_built>1927</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

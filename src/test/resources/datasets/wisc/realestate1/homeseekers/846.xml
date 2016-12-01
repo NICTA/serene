@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1911 has 3
+bedroom(s), 1 bath(s) and approximately 1040 square feet of living
+area. Rooms include living room. Features include fireplace.</house_description>
+
+<agent_name>Jenny Atherley</agent_name>
+<office>562-862-8893</office>
+<firm_name>Estate Planners Realty</firm_name>
+<phone>562-862-8893</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$109,950</list_price>
+<location>1300 W 52Nd St</location>
+<mls>M200014</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1040 (approx)</square_feet>
+<lot_size>3480</lot_size>
+<year_built>1911</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Living Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

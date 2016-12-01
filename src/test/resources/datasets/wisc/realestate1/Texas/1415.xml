@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>John Puckett</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>john@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7723</id>
+<mls>47214</mls>
+<house_location>1224 THE CAPE
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$775,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>CONTRACT PENDING.  Custom designed open waterfront home surrounded with fence.  Floor plan includes an open living/den area, formal dining, 3 bedrooms, 3 1/2 baths, with detached office/bedroom and bath.  A contemporary design of native Hill County stone and stucco.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Open waterfront home surrounded with fence</item>
+<item>Open living/den area</item>
+<item>Formal dining room</item>
+<item>Contemporary design of native stone and stucco</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

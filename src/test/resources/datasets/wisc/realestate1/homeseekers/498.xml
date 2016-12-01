@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1989 has 3 bedroom(s), 3
+bath(s) and approximately 2148 square feet of living area. Features
+include view, patio.</house_description>
+
+<agent_name>John Kristofl</agent_name>
+<direct>520-795-4006</direct>
+<office>520-577-7400</office>
+<firm_name>Tucson Realty &amp; Trust Co</firm_name>
+<phone>520-577-7400</phone>
+<fax>520-299-2898</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$126,900</list_price>
+<location>5725 W Bopp Rd</location>
+<mls>9910743</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2148 (approx)</square_feet>
+<lot_size>297 X 178</lot_size>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Guest House
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

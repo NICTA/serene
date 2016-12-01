@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>150 HAMILTON RD</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>BROOKSVILLE</suburb>
+<school_dist>BRACKEN</school_dist>
+<mls>249067</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>LINDA LYONS</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>REMODELED FARM HOUSE EVERYTHING IS NEW AND EVERYTHING IS WARRANTY.
+VERY NICE A BIG KITCHEN, FIREPLACE &amp; 3 BEDROOMS. GREAT FIRST TIME
+HOME! CALL LINDA 606-472-6267.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Wood,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>18 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 17</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>24 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 9</dimension><level>1</level></laundry>
+<living><dimension>19 X 18</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>1</level></master>
+
+<directions>AA HWY TO R ON 1159, TO BROOKSVILLE, L ON 10 2.5
+MI TO HAMILTON BY GRAVE YARD.</directions>
+</house_listing>
+
+
+

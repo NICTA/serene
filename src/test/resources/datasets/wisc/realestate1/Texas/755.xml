@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Huff</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-0075</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21064</id>
+<mls>526633</mls>
+<house_location>5218 PINE CANYON DR.
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$235,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>5</full_baths>
+<living_rooms>2</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>HOME CUSTOM BUILT.  BEAUTIFUL WORK THROUGHOUT HOME.  GUEST HOUSE NEXT TO POOL.  4/5 HOME ON 7.31 WOODED ACRES.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Pine Valley Estates</sub-division>
+<approx_acres>7.31</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>MEDITERRANEAN STYLE</item>
+<item>COURTYARD OFF OF MASTER BEDROOM</item>
+<item>INGROUND POOL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

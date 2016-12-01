@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>145 WALLER</house_location>
+<price>$91,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin,Side)</garage>
+<suburb>CRITTENDEN</suburb>
+<school_dist>GRANT CO</school_dist>
+<mls>248851</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>FRED BURCH</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>PENDING WHEN SUBMITTED</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>8 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>8 X 12</dimension><level>1</level></kitchen>
+<living><dimension>11 X 14</dimension><level>1</level></living>
+<master><dimension>10 X 14</dimension><level>1</level></master>
+
+<directions>I75 S TO R ON CRITTENDEN EXIT THEN R ON WALLER</directions>
+</house_listing>
+
+
+

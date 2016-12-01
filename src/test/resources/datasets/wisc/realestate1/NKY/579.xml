@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>3206 CAROLINE</house_location>
+<price>$66,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>0</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247211</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA SONDGERATH</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>GREAT STARTER! NICE LOCATION ON QUIET STREET. PADDLE FANS IN EVERY
+ROOM. HDWD FLRS &amp; CHAIR RAIL IN DIN RM. FENCED REAR YARD IS GOOD FOR
+KIDS OR PETS.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>11 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 7</dimension><level>1</level></kitchen>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>2</level></master>
+
+<directions>3L HWY TO R LATONIA L SOUTHERN L 34TH L CAROLINE</directions>
+</house_listing>
+
+
+

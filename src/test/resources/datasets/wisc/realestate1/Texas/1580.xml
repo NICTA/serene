@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Nelson Oliver</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>manoragent@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20900</id>
+<mls>323162</mls>
+<house_location>6610 Benhill Dr
+San Antonio, TEXAS 78239</house_location>
+<county>Bexar</county>
+<price>$83,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This house has lots to offer! 4 large bedrooms, 1968 sq.ft. per BAD, binyl siding, lots of closet space, large eat-in kitchen, separate dining, two living areas, close to schools, shopping, military bases and great curb appeal.  Book shelves in living room don&amp;#8217;t stay.</house_description>
+
+<school_district>N.e.i.s.d.</school_district>
+<sub-division>Camelot I</sub-division>
+<approx_size_sqft>1968</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>irregular</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

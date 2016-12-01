@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Westfall</name>
+<office>(409)542-1234</office>
+<fax>(409)542-0078</fax>
+<email>leon@westfallrealestate.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20994</id>
+<mls>1061</mls>
+<house_location>526 Acorn
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$187,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Home has many up grades which add to its personality. The kitchen has a built-in fridge and freezer, ice maker dish washer and trash compactor, a large island in the kitchen features a down draft Jenn- Air cook top.  Formal living features raised block stained ash paneling.  3 bedrooms and 2.5 baths are located downstairs. The up stairs may be used for either a 4th bedroom with a full bath or as a large family/game room.  Back downstairs in the center of the home is a large butler's pantry and a second more casual living area.  There is also a 3 car garage with an extra bay for storage or shop</house_description>
+
+<school_district>Giddings</school_district>
+<approx_size_sqft>3627</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>2 lots</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>2 city lots</item>
+<item>pool and hot tub</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

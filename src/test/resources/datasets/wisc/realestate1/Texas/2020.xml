@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Richard Sparks</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21259</id>
+<mls>9130412</mls>
+<house_location>4800 Dilworth
+Fort Worth, TEXAS</house_location>
+<county>Tarrant</county>
+<price>$55,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Fresh paint inside. Central Heat and Air. Large bedrooms. Large backyard.</house_description>
+
+<school_district>Fort Worth</school_district>
+<sub-division>Arlington Heights West</sub-division>
+<approx_size_sqft>900</approx_size_sqft>
+<stories>1</stories>
+<year_built>1952</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Central Heat and Air</item>
+<item>Large bedrooms</item>
+<item>Large backyard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

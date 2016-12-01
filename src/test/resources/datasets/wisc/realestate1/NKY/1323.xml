@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>5402 OLD TAYLOR MIL</house_location>
+<price>$299,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>4 Cars (Attached,Detached,Side)</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246549</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>DONNA SPELLMAN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>COUNTRY ATMOSPHERE BUT MINUTES FROM EVERYTHING*OVER 2 ACRES*SEPARATE
+WORKSHOP/4 CAR GARAGE*BEAUTIFUL VIEW &amp; SHOWS GREAT*VERY CLEAN &amp; CUSTOM
+BUILT*HOT TUB ON TIERED DECK*DETACHED LG STORAGE BLDG W/ELEC*GAR FOR 4
+CARS</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Aerobic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>10 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 14</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 14</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>10 X 13</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 13</dimension><level>1</level></dining>
+<family><dimension>14 X 21</dimension><level>1</level></family>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>1</level></laundry>
+<living><dimension>11 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>2</level></master>
+
+<directions>275 TO TAYLOR MILL EXIT TO R ON TAYLOR MILL TO R
+ON OLD TAYLOR MILL</directions>
+</house_listing>
+
+
+

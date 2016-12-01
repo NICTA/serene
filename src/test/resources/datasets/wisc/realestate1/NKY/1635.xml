@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>1707 HOLMAN</house_location>
+<price>$46,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249678</mls>
+<house_type>Single Family</house_type>
+<firm>T.H.-1 REALTY L.L.C.</firm>
+<firm_phone>(606) 426-8700</firm_phone>
+<agent>TOM HELSON, JR</agent>
+<agent_phone>(606) 426-8700</agent_phone>
+<house_description>VERY LARGE 3 BR 2 BATH HOME. WAS USED IN PAST AS 2 FAMILY, MOTIVATED
+SELLER TENANT OCCUPIED, 24 HOUR NOTICE ON SHOWINGS. POSSIBLE 4TH
+BEDROOM ON 1ST FL</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 14</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 12</dimension><level>2</level></bedroom_4>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+
+<directions>12TH ST TO R ON HOLMAN</directions>
+</house_listing>
+
+
+

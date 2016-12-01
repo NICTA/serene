@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>2608 FISHING CREEK</house_location>
+<price>$109,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248828</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>DEBORAH BOSCHERT</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>MANY UPGRADES IN THIS ONE OWNER HOME-ONE YEAR HOME WARRANTY-CLEAN
+THROUGHOUT-WOOED LOT-CDS-GAS FIREPLACE-CATHEDRAL CEILING - SKYLIGHTS</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>CDS</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 8</dimension><level>1</level></dining>
+<family><dimension>25 X 10</dimension><level>L</level></family>
+<kitchen><dimension>10 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<master><dimension>14 X 11</dimension><level>1</level></master>
+
+<directions>HANDS PIKE RIDGECREST L EVERGREEN R CLEARBROOK L
+FISHING CREEK</directions>
+</house_listing>
+
+
+

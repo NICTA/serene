@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>913 ERVIN TER</house_location>
+<price>$64,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>NONE</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>248580</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST AGENCY GROUP</firm>
+<firm_phone>(606) 441-0877</firm_phone>
+<agent>JOHN G WEYMAN</agent>
+<agent_phone>(606) 441-0877</agent_phone>
+<house_description>GREAT STARTER! LOTS OF WOODWORK. GOOD LOT. MOVE-IN CONDITION.
+IMMEDIATE POSSESSION. NEW ROOF. CALL TO SEE TODAY!</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Gas,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>35 x 140</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<living><dimension>16 X 11</dimension><level>1</level></living>
+<master><dimension>17 X 12</dimension><level>2</level></master>
+
+<directions>ROUTE 8 EAST TO RIGHT ON ERVIN. HOUSE ON LEFT</directions>
+</house_listing>
+
+
+

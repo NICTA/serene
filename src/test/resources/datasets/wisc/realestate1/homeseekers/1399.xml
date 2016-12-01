@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level attached home built in 1985 has 2 bedroom(s), 2 bath(s)
+and approximately 858 square feet of living area. Rooms include dining
+room, living room, master bedroom.</house_description>
+
+<agent_name>Kenneth Milhoan</agent_name>
+<office>858-679-5796</office>
+<firm_name>Property Management Of S.D.</firm_name>
+<phone>858-679-5796</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$82,950</list_price>
+<location>San Diego, CA 92116</location>
+<mls>99 6023236</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse/Condo</type>
+<square_feet>858 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Wall Unit</heating>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Neighborhood Pool
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

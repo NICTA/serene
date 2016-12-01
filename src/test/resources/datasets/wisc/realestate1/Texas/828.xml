@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carter Carolyn</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<mobile>(956)245-7874</mobile>
+<email>C21HgnTX@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15444</id>
+<mls>14109</mls>
+<house_location>109 N. Arroyo
+Rio Hondo, TEXAS</house_location>
+<county>Cameron</county>
+<price>$54,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Comfortable and cozy describes this home on a large corner lot.  Perfect for the firsttime homebuyers or emptynesters.  This home features two bedrooms, two baths, apossible home office or play room. There is an inside laundry room with a wash basin,a handyman workshop that is perfect for projects, and the home also has centralair and heat. Located in the quiet little town of Rio Hondo. Bring offers.</house_description>
+
+<move-in_date>4/10/99</move-in_date>
+<school_district>Rio Hondo</school_district>
+<sub-division>R H Original</sub-division>
+<approx_size_sqft>1536</approx_size_sqft>
+<approx_lot_size>101X252</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>LARGE LIVING AREA</item>
+<item>OFFICE AREA</item>
+<item>HANDYMAN WORKSHOP</item>
+<item>INSIDE LAUNDRY ROOM</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

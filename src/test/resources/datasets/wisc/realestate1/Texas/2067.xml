@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Peggy Jones</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>pegjones@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17709</id>
+<mls>53308</mls>
+<house_location>302 The Cape
+Horseshoe Bay, TEXAS 78654</house_location>
+<county>Llano</county>
+<price>$120,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>BRING YOUR TOOTH BRUSH AND MOVE IN! FULLY FURNISHED END UNIT WITH GREAT VIEW OF LAKE LBJ!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>FULLY FURNISHED CONDO!</item>
+<item>GREAT VIEW OF LAKE LBJ!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

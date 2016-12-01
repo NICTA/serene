@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Renee Thomas</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>renee@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17741</id>
+<mls>53328</mls>
+<house_location>4026 (401-A) HI THERE, BAYVIEW TOWNHOMES
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$139,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<house_description>Beautiful split level 3 bedroom, 3 bath townhome.  Insulated windows ceiling fans.  Oven, range, refrigerator included.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>SPLIT LEVEL TOWNHOME</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

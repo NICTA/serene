@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1923 has 3 bedroom(s), 1
+bath(s) . Rooms include master bedroom.</house_description>
+
+<agent_name>Debbie Caruso</agent_name>
+<direct>301-353-0787</direct>
+<office>301-975-9500</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-975-9500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$45,000</list_price>
+<location>Washington, DC 20011</location>
+<mls>DC3117356</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>1600</lot_size>
+<year_built>1923</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Myers-Gallagher - Rockport</name>
+<location>3002 Highway 35 North, Suite D Rockport, TX 78382</location>
+<office>(361)729-6060</office>
+<toll_free>(888)886-7806</toll_free>
+<fax>(361)729-2203</fax>
+<email>cbhomes@todaysproperties.com</email>
+</firm_information>
+
+<agent_information>
+<name>Roger Scurlock</name>
+<office>(361)729-6060</office>
+<fax>(361)729-2203</fax>
+<voice_mail>(888)886-7806 X 12</voice_mail>
+<email>rscurlock@todaysproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20129</id>
+<mls>29406</mls>
+<house_location>2307 Shorewood Court
+Rockport, TEXAS 78382</house_location>
+<county>Aransas</county>
+<price>$297,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>3</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Executive style home located in the beautiful Harbor Oaks subdivision!  This home is fully loaded with all the amenities you could want in a family home.  Corner lot, beautifully landscaped, 2 fireplaces and much, much more.  Jacuzzi style tub, french doors from the Master bedroom to the covered patio, wet bar in the game room, and the list goes on, and on.</house_description>
+
+<school_district>Acisd</school_district>
+<sub-division>Harbor Oaks</sub-division>
+<approx_size_sqft>3325</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>2</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>129 SEVILLE CT</house_location>
+<price>$340,000</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side,Heated)</garage>
+<suburb>-</suburb>
+<school_dist>BEECHWOOD</school_dist>
+<mls>244537</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN HUFF</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>PRIVACY PLUS! 4 BEDROOM, 3.5 BATHS NESTLED ON A PRIVATE WOODED LOT,
+JUST 1 BLOCK FROM BEECHWOOD SCHOOL! AMENITIES INCLUDED: HOT TUB,
+SAUNA,CENTRAL VAC HEATED GARAGE,FINISHED LOWER LEVEL,QUALITY BUILT BY
+EL GRANDE*PLAT IN OFFIC</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>16 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 10</dimension><level>2</level></bedroom_4>
+<dining><dimension>15 X 13</dimension><level>1</level></dining>
+<family><dimension>16 X 16</dimension><level>1</level></family>
+<kitchen><dimension>19 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 8</dimension><level>1</level></laundry>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>2</level></master>
+<recreation_room><dimension>32 X 20</dimension><level>L</level></recreation_room>
+<study><dimension>16 X 13</dimension><level>L</level></study>
+
+<directions>DIXIE TO BEECHWOOD LEFT ON SEVILLE CT #129(FLAG
+LOT)</directions>
+</house_listing>
+
+
+

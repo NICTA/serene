@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>6399 THISTLEWOOD</house_location>
+<price>$104,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin,Oversized)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250322</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>JANICE WELLS</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>NEWLY REMODELED KIT OFFERS WHITE CABINETS*BLT IN MICROWAVE &amp; COUNTER
+BAR* NEWER BERBER CARPET THRUOUT*NEW ROOF 97*LG LEVEL BACK YD HAS
+MATURE TREES, SAND BOX, SHED &amp; COVERED PATIO W/SWING*LOTS OF STORAGE
+SPACE*FP W/INSERT</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>75x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>13 X 8</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>9 X 8</dimension><level>U</level></bedroom_3>
+<dining><dimension>10 X 10</dimension><level>U</level></dining>
+<family><dimension>22 X 13</dimension><level>L</level></family>
+<kitchen><dimension>10 X 8</dimension><level>U</level></kitchen>
+<laundry><dimension>9 X 6</dimension><level>L</level></laundry>
+<living><dimension>15 X 12</dimension><level>U</level></living>
+<master><dimension>12 X 10</dimension><level>U</level></master>
+
+<directions>RT 18 TO CAMP ERNST TO BRIARGATE R CLEAR- BROOK
+L HUNTERS TRACE R THISTLEWOOD</directions>
+</house_listing>
+
+
+

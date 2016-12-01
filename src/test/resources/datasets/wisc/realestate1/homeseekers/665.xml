@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1951 has 4 bedroom(s), 1
+bath(s) , 3 car garage and approximately 858 square feet of living
+area. Rooms include dining room, family room, living room. Features
+include patio, air conditioning.</house_description>
+
+<agent_name>Pamela Mcintyre</agent_name>
+<direct>509-924-8484</direct>
+<firm_name>
+Prudential Crane Realty/South Prudential Crane Realty/South</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$93,900</list_price>
+<location>4317 Rustle</location>
+<mls>9923862</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>858 (approx)</square_feet>
+<lot_size>55 X 116</lot_size>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Oil</heating>
+<patio>Patio</patio>
+<rooms>Dining Room, Family Room, Living Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Hardwood Flooring, RV/Boat Parking, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

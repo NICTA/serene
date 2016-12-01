@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1955 has 4 bedroom(s), 2
+bath(s) , 2 car attached garage and approximately 1388 square feet of
+living area. Rooms include family room. Features include patio,
+fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Eric Bergman</agent_name>
+<direct>509-869-4648</direct>
+<email>BERGI4@AOL.COM</email>
+<firm_name>
+RE/MAX Citywide RE/MAX
+Citywide</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$118,000</list_price>
+<location>3217 14Th</location>
+<mls>9927920</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1388 (approx)</square_feet>
+<lot_size>97X147</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Oil</heating>
+<fireplace>Wood-burning</fireplace>
+<patio>Deck, Patio</patio>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

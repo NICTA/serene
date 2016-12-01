@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Jeanette Shelby Real Estate</name>
+<location>101 W. 1st Street, Suite D Elgin, TX 78621</location>
+<office>(512)281-3412</office>
+<toll_free>(800)231-5289</toll_free>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeanette Shelby</name>
+<office>(512)285-5289</office>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19862</id>
+<mls>521096</mls>
+<house_location>171 Crim Lane
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$290,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful custom built brick home on 10 fenced acres. This home has tile floors, high ceilings, huge walk-in closets and so much more. There are two barns on the property.</house_description>
+
+<school_district>Elgin</school_district>
+<sub-division>Harris Enoch</sub-division>
+<approx_size_sqft>3331</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>10</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Located at the end of road in restricted neighborh</item>
+<item>22' ceiling in living room.</item>
+<item>Island kitchen with breakfast bar.</item>
+<item>30 minutes to Austin.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

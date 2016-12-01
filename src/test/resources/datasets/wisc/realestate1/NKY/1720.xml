@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>936 MONROE</house_location>
+<price>$59,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249462</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>PAT ADAMS</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>CURRENTLY USED AS A TWO FAMILY BUT WAS ORIGINALLY BUILT AS A SINGLE
+FAMILY NICE LARGE ROOMS-NEEDS WORK BUT STRUCTURALLY SOUND-HAS
+POTENTIAL. SEE MLS#249464-MULTI FAMILY</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>29X84</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>9 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>15 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 15</dimension><level>2</level></bedroom_4>
+<kitchen><dimension>16 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 10</dimension><level>1</level></master>
+<study><dimension>8 X 13</dimension><level>2</level></study>
+
+<directions>10TH STREET TO MONROE TO 936</directions>
+</house_listing>
+
+
+

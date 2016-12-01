@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1982 has 2 bedroom(s), 1
+bath(s) and approximately 1309 square feet of living area. Rooms
+include family room, bonus room, master bedroom. Features include
+view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Heidi Taylor</agent_name>
+<direct>520-296-5038</direct>
+<office>520-721-7711</office>
+<firm_name>Rincon Realty &amp; Investments</firm_name>
+<phone>520-721-7711</phone>
+<fax>520-296-3702</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$165,500</list_price>
+<location>8131 S Pistol Hill Rd</location>
+<mls>9915745</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1309 (approx)</square_feet>
+<lot_size>626X666 APPROX.</lot_size>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1995 has 2 bedroom(s), 2 full bath(s)/1 half
+bath(s) , 1 car detached garage and approximately 1840 square feet of
+living area. Features include private pool, air conditioning.</house_description>
+
+<agent_name>Sandra C. Diaz</agent_name>
+<direct>305-828-7893</direct>
+<office>305-826-4663</office>
+<firm_name>Home World Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-826-4663</phone>
+<fax>305-828-5872</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$219,000</list_price>
+<location>6345 Collins Av #TH-15</location>
+<neighborhood>The Casablanca Condo</neighborhood>
+<mls>N229049</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1840 (approx)</square_feet>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

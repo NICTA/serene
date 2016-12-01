@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>8598 WINTHROP CIR</house_location>
+<price>$107,950</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Heated)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249469</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>TAMMY J STAGGS</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>WHAT A BARGAIN! A BRICK 3 BEDROOM, 2 CAR GARAGE HOUSE AT JUST
+$107,950! THIS HOME BOASTS NEW CARPET, VINYL, DISHWASHER, GARBAGE
+DISPOSAL, PAINT, &amp; ROOF 1 YR OLD, AND CENTRALLY LOCATED TO SHOPPING,
+SCHOOLS, RESTAURANTS, ETC</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>U</level></bedroom_3>
+<dining><dimension>10 X 9</dimension><level>U</level></dining>
+<family><dimension>23 X 15</dimension><level>L</level></family>
+<kitchen><dimension>11 X 10</dimension><level>U</level></kitchen>
+<laundry><dimension>8 X 7</dimension><level>L</level></laundry>
+<living><dimension>18 X 12</dimension><level>U</level></living>
+<master><dimension>13 X 10</dimension><level>U</level></master>
+
+<directions>I-75 TO FLO/UNION EX,S ON US 42, TO R ON
+HOPEFUL,R ON QUINN,L ON WINTHROP,ON L.</directions>
+</house_listing>
+
+
+

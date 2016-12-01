@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>266 HARTLAND</house_location>
+<price>$144,700</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248746</mls>
+<house_type>Single Family</house_type>
+<firm>A B REAL ESTATE</firm>
+<firm_phone>(606) 341-7443</firm_phone>
+<agent>DON LAAKE</agent>
+<agent_phone>(606) 341-7443</agent_phone>
+<house_description>CALL 356-1900. HUGE FAMILY ROOM, HARDWOOD FOYER, OAK CABINETS, VINYL
+WINDOWS, GAS FIREPLACE, FIRST FLOOR LAUNDRY</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70x140</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>11 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 13</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>10 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>10 X 10</dimension><level>1</level></dining>
+<family><dimension>12 X 23</dimension><level>1</level></family>
+<kitchen><dimension>9 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 10</dimension><level>1</level></laundry>
+<master><dimension>12 X 15</dimension><level>2</level></master>
+
+<directions>RT 17 MADISON PKE TO HARTLAND BLVD, CALL
+356-1900</directions>
+</house_listing>
+
+
+

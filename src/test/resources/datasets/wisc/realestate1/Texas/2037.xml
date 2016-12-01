@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>JOY BRUNNER</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<voice_mail>(713)621-4953 123</voice_mail>
+<email>joybrunner@madelineobrien.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11592</id>
+<mls>168203</mls>
+<house_location>4634 INGERSOLL
+Houston, TEXAS 77027</house_location>
+<county>Harris</county>
+<price>$225,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>WONDERFUL OPPORTUNITY - FOUR BEDROOM HOME IN AFTON OAKS - GREAT LOCATION AT THE CENTER OF THE BLOCK - DOUBLE WIDE DRIVE WAY - HARDWOOD AND TILE FLOORS THROUGHOUT - TUBS IN BOTH BATHROOMS - HOME OFFICE - PLAYROOM IN SEPARATE BUILDING OVERLOOKS BEAUTIFUL DECK/SPA. PUT YOUR OWN DESIGNER TOUCHES - IT WILL BE BEAUTIFUL.</house_description>
+
+<school_district>Hisd</school_district>
+<sub-division>Afton Oaks</sub-division>
+<approx_size_sqft>1932</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>8760</approx_lot_size>
+<year_built>1950</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>AFTON OAKS - INNER LOOP LOCATION</item>
+<item>RARE FOUR BEDROOM WITH HARDWOOD &amp; TILE FLOORS</item>
+<item>SEPARATE BLDG. CAN BE USED AS OFFICE OR PLAYROOM</item>
+<item>BEAUTIFUL DECK &amp; SPA</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

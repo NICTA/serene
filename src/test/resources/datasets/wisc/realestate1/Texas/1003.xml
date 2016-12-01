@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Lee</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 31</voice_mail>
+<mobile>(817)279-3639</mobile>
+<email>staff@c21quadj.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21593</id>
+<mls>9136758</mls>
+<house_location>3913 N FM RD 199
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$69,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This is an older well-maintained home in the county with lots of fruit bearing trees onalmost one acre.  New well and siding.  Owner has updated the home with new wallpapers and tile in the bathroom.  Has large utility room with lots of windows and a study off the kitchen.</house_description>
+
+<school_district>Glen Rose Isd</school_district>
+<approx_size_sqft>1211</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.96</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>well-maintained older home</item>
+<item>lots of fruit bearing trees</item>
+<item>updated w/ new wallpapers &amp; tile</item>
+<item>lg laundry room w/windows</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

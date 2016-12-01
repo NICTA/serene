@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level attached home has 3 bedroom(s), 2 bath(s) and
+approximately 1071 square feet of living area. Rooms include living
+room, master bedroom. Features include view.</house_description>
+
+<agent_name>Jilma Centeno</agent_name>
+<direct>619-340-3506</direct>
+<office>619-475-7777</office>
+<firm_name>Century 21 Award Century 21 Award</firm_name>
+<phone>619-475-7777</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$110,000</list_price>
+<location>San Diego, CA 92154</location>
+<mls>99 8004863</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse/Condo</type>
+<square_feet>1071 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Baseboard, Natural Gas</heating>
+<pool>Community Pool</pool>
+<rooms>Living Room, Master Bedroom</rooms>
+<view>Park/Greenbelt View, Valley View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Neighborhood Pool
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

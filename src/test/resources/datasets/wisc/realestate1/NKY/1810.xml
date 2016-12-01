@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>100 MEADOWLARK LN</house_location>
+<price>$101,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Attached,Side,Oversized)</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>233978</mls>
+<house_type>Single Family</house_type>
+<firm>VILLA REALTY</firm>
+<firm_phone>(606) 371-0098</firm_phone>
+<agent>JOLENE WENDT</agent>
+<agent_phone>(606) 371-0098</agent_phone>
+<house_description>BEAUTIFUL BRICK RANCH IN NEW SUBDIVISION NEUTRAL CARPET THROUGHOUT
+QUALITY BUILT HOME W/2X6 EXT WALLS..OTHER LOTS AND FLOOR PLANS TO
+CHOOSE FROM **THIS ONE WONT LAST**</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70x127</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>15 X 14</dimension><level>1</level></family>
+<kitchen><dimension>15 X 23</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 7</dimension><level>1</level></laundry>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>18 X 12</dimension><level>1</level></master>
+
+<directions>US 27 ONE MILE SOUTH OF FALMOUTH ..HOME I S ON
+THE CORNER OF 27 &amp; MEADOWLARK</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Westfall</name>
+<office>(409)542-1234</office>
+<fax>(409)542-0078</fax>
+<email>leon@westfallrealestate.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20887</id>
+<mls>1071</mls>
+<house_location>FM 141
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$114,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Great 4 bedroom 2 and 1 half bath home on 7.4 tree covered acres just minutes from Giddings.  The majority of this his home has been remodeled and remaining portion awaits new owners personal touch.</house_description>
+
+<school_district>Giddings</school_district>
+<approx_size_sqft>2259</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>7.47</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Great View</item>
+<item>Lots of Trees</item>
+<item>Spacious Floor Plan</item>
+<item>Over 7 Acres</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

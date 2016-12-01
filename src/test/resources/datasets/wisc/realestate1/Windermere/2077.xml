@@ -1,0 +1,34 @@
+<house_listing>
+<price>$167,500</price>
+<mls_id_number>155959</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1615</sqft>
+<year_built>1951</year_built>
+<heat>Electric Base Board</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.19        Acres</lot_size>
+<lot_description>8442 SQFT</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Security System</interior>
+<exterior>Sprinkler System, Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>RIGLER</elementary>
+<middle_school>WHITAKER</middle_school>
+<high_school>MADISON</high_school>
+</schools>
+
+</house_listing>
+
+
+

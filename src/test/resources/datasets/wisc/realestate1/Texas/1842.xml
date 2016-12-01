@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Faye Henley</name>
+<office>(254)542-1800</office>
+<fax>(254)542-1839</fax>
+<mobile>(254)289-3853</mobile>
+<email>faye@n-link.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20886</id>
+<mls>89122</mls>
+<house_location>1610 VENUS
+Gatesville, TEXAS 76528</house_location>
+<county>Coryell</county>
+<price>$45,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>ALL BRICK 3 BEDROOM, 1.5 BATH HOME IN QUITE NEIGHBORHOOD ON DEAD-END STREET.  FEATURING HARDWOOD FLOORS.  FENCED YARD WITH DOG RUN.</house_description>
+
+<school_district>Gatesville Isd</school_district>
+<approx_size_sqft>1106</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>80 X 170</approx_lot_size>
+<approx_acres>0.2</approx_acres>
+<year_built>1974</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>OPEN PATIO</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ronnie Robie</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)300-3870</mobile>
+<email>ronnierobie@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21454</id>
+<mls>9134970</mls>
+<house_location>1021 Yvonne
+Joshua, TEXAS 76058</house_location>
+<county>Johnson</county>
+<price>$155,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Welcome home is what this home says to you and your family.  This spacious home has is all.  Family room (19 X 26) big enough for any occasion.  15 X 24 Sunroom overlooking wonderful pool and large patio area, designed for entertaining.  9 X 14 bonus room perfect for a home office.  All of this on .9 wooded acre.</house_description>
+
+<school_district>Joshua I S D</school_district>
+<sub-division>Woodland Hills</sub-division>
+<stories>1</stories>
+<approx_acres>0.9</approx_acres>
+<year_built>1972</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+
+<highlights>
+<item>.9 Acre/ Trees</item>
+<item>Pool</item>
+<item>Sunroom</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

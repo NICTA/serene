@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1953 has 5 bedroom(s), 4 bath(s) , 2
+car attached garage and approximately 3207 square feet of living area.
+Rooms include dining room, family room. Features include view,
+fireplace, air conditioning.</house_description>
+
+<agent_name>Genie Martinez</agent_name>
+<direct>305-373-4600</direct>
+<office>305-372-0114</office>
+<firm_name>Brickell Investmen
+Lic. Real Estate Broker</firm_name>
+<phone>305-372-0114</phone>
+<fax>305-374-7339</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$195,000</list_price>
+<location>98 NE 103 St</location>
+<neighborhood>Miami Shores Sec 1 Amd</neighborhood>
+<mls>M768327</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>3207 (approx)</square_feet>
+<lot_size>129 X 113</lot_size>
+<year_built>1953</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Window/Wall Unit(s)</cooling>
+<heating>Central, Wall Unit</heating>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Family Room</rooms>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

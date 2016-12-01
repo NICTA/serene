@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>627 MAPLE</house_location>
+<price>$74,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached,Oversized)</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>247482</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>GAYLE PRICE</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>NOT IN FLOOD PLANE. LARGE HOME IN NICE LOCATION. NEUTRAL DECOR, LARGE
+FRONT PORCH, SOME NATURAL WOODWORK, SOME NEW WINDOWS.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>13 X 10</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>2</level></master>
+<recreation_room><dimension>17 X 7</dimension><level>1</level></recreation_room>
+
+<directions>US 27 SOUTH TO L ON MAPLE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>Waterfront with bulkhead. House needs work but the view is incredible!</house_description>
+
+<agent_name>Amy Heeter</agent_name>
+<office>757-623-2500</office>
+<firm_name>Long &amp; Foster Real Estate, Inc</firm_name>
+<phone>757-623-2500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$119,000</list_price>
+<location>Norfolk, VA 23502</location>
+<mls>9925817</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<location>River front</location>
+<rooms>Master Bedroom</rooms>
+<view>River View, Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>889 KYLES LN</house_location>
+<price>$67,000</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247972</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>KAREN CAMPBELL</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*3/4 BDRM RANCH ON 2.69 ACRES ON WOODED LOT OFFERS SECLUSION IN THE
+CITY* *VALUE IN LAND*LOVELY VIEW OF WOODS*LOTS OF POSSIBILITIES FOR
+YOU* *KENTON CTY SCHOOLS*</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood,Stone</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bedroom_2><dimension>14 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 8</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>11 X 8</dimension><level>1</level></bedroom_4>
+<family><dimension>14 X 13</dimension><level>1</level></family>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 8</dimension><level>1</level></laundry>
+<living><dimension>24 X 12</dimension><level>1</level></living>
+<master><dimension>17 X 10</dimension><level>1</level></master>
+
+<directions>DIXIE HWY TO KYLES. HOME ON LEFT OR 3L HWY TO
+KYLES, HOME ON RIGHT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1989 has 3 bedroom(s), 3 bath(s) , 2
+car garage. Rooms include master bedroom. Features include view,
+patio, air conditioning, storage space.</house_description>
+
+<agent_name>Petra Sposito</agent_name>
+<office>623-780-4006</office>
+<firm_name>ERA Encore Realty</firm_name>
+<phone>623-780-4006</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$195,000</list_price>
+<location>Phoenix, AZ 85027</location>
+<mls>1450604</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>2 TO 4.9 AC</lot_size>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Electric</heating>
+<location>Corner</location>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Eat In Kitchen, Great Room, Microwave, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

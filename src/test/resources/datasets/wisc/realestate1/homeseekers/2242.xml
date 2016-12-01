@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level attached condominium built in 1985 has 3 bedroom(s), 3
+bath(s) and approximately 1367 square feet of living area. Rooms
+include living room, master bedroom. Features include view, air
+conditioning.</house_description>
+
+<agent_name>Jim Rodriguez</agent_name>
+<direct>213-307-5398</direct>
+<office>323-728-2111</office>
+<firm_name>Century 21 George Michael Real Century 21 George Michael Real</firm_name>
+<phone>323-728-2111</phone>
+<fax>323-721-0922</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$110,000</list_price>
+<location>3625 Armour Av</location>
+<mls>M903970</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<type>Condominium</type>
+<square_feet>1367 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Living Room, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

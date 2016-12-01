@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1907 has 3 bedroom(s), 1 bath(s) and
+approximately 1615 square feet of living area.</house_description>
+
+<agent_name>Lyn Johnson</agent_name>
+<direct>303-690-7676</direct>
+<office>303-696-7676</office>
+<firm_name>RE/MAX 3000 Inc</firm_name>
+<phone>303-696-7676</phone>
+<fax>303-751-0651</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,900</list_price>
+<location>3127 Gaylord St</location>
+<neighborhood>Whittier</neighborhood>
+<mls>365713</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1615 (approx)</square_feet>
+<year_built>1907</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

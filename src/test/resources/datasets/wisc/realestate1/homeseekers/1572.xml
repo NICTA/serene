@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 2 level attached condominium built in 1984 has 2 bedroom(s), 3
+bath(s) and approximately 1163 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Guadalupe Ramirez</agent_name>
+<office>626-931-1466</office>
+<firm_name>Homelife Dynamic Realty</firm_name>
+<phone>626-931-1466</phone>
+<fax>626-931-1470</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$128,000</list_price>
+<location>149 S. Ave. 54</location>
+<mls>C914925</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<type>Condominium</type>
+<square_feet>1163 (approx)</square_feet>
+<lot_size>1228</lot_size>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

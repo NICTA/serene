@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1963 has ? bedroom(s), 1 bath(s) , 1 car
+garage and approximately 443 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Darlene Brinkley</agent_name>
+<direct>439-9031</direct>
+<office>865-2222</office>
+<firm_name>Oceanfront Realty
+Lic. Real Estate Broker</firm_name>
+<phone>865-2222</phone>
+<fax>305-865-2221</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$47,000</list_price>
+<location>7904 West Dr #410</location>
+<neighborhood>Bayshore Yacht &amp; Tennis C</neighborhood>
+<mls>M769902</mls>
+<status>Active</status>
+<baths>1</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>443 (approx)</square_feet>
+<year_built>1963</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Tennis Court(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

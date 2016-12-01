@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Markgraf</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20202</id>
+<mls>54181</mls>
+<house_location>223 EAST LAKESHORE DRIVE
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$149,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>ALMOST NEW HOME WITH 12 X 36 FT. RV.PORT WITH HOOKUP WOOD BURNING STOVE IN LIVING,BIRCH CABINETS THROUGH OUT, BREAKFAST BAR IN KITCHEN ALONG WITH DINING AREA, DISHWASHER, DISPOSAL, SMOOTH TOP STOVE, TILE ENTRY,LARGE WALK-IN CLOSETS, BEDROOMS VERY NICE SIZED, CABLE AND SAT. READY,HOME SITS ON TWO LARGE LOTS PLENTY OF ROOM FOR YOUR NEEDS ,ATTACHED GARAGE WITH DOOR OPENER, DROP DOWN LADDER TO STORAGE SPACE OVER GARAGE, TWO VERY NICE LARGE OAK TREES PLUS OTHERS, WASHER AND DRYER AREA OFF OF HALLWAY,LOTS OF STORAGE SPACE , HOME IS APPROX. 2 &amp; 1/2 YEARS NEW, THIS HOME IS A MUST SEE !!!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>1519</approx_size_sqft>
+<approx_lot_size>155X345X150X385</approx_lot_size>
+<approx_acres>1.25</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>ALMOST NEW HOME</item>
+<item>12.6X36FT. COVERED R.V.PAD COVERED</item>
+<item>51%BRICKED,2 COVERED PORCHES</item>
+<item>VARY PRIVATE W/SOME VIEW OF LAKE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

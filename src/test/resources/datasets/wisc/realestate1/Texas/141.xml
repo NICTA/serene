@@ -1,0 +1,47 @@
+<house_listing>
+<firm_information>
+<name>Golf Land Realtors</name>
+<location>602 Texas Parkway Missouri City, TX 77489</location>
+<office>(281)499-9935</office>
+<toll_free>(800)308-9248</toll_free>
+<fax>(281)499-9735</fax>
+<voice_mail>(281)775-9642</voice_mail>
+<email>valorelott@worldnet.att.net</email>
+</firm_information>
+
+<agent_information>
+<name>Valore Lott</name>
+<office>(281)499-9935</office>
+<fax>(281)499-9735</fax>
+<voice_mail>(281)775-9643</voice_mail>
+<mobile>(713)304-5133</mobile>
+<email>valorelott@woldnet.att.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12757</id>
+<mls></mls>
+<house_location>Houston, TEXAS
+Fort Bend</house_location>
+<price>$0</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description></house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

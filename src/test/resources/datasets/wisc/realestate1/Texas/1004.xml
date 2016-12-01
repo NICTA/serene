@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Bexley Real Estate</name>
+<location>Highway 77 Lexington, TX 78947</location>
+<office>(409)773-4423</office>
+<toll_free></toll_free>
+<fax>(409)773-4930</fax>
+<email>bexley@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bexley Real Estate</name>
+<office>(409)773-4423</office>
+<fax>(409)773-4930</fax>
+<email>Bexley@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21252</id>
+<mls></mls>
+<house_location>Cherry St.
+Lexington, TEXAS 78947</house_location>
+<county>Lee</county>
+<price>$84,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>This rock home is in the city limits of Lexington.  It has a 2 car carport and large trees in the yard.  There is a chain link fenced back yard.  The second living area is could be used as a 4th bedroom.  This home is within walking distance to the middle and high schools.</house_description>
+
+<school_district>Lexington</school_district>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>shaded yard</item>
+<item>rock home</item>
+<item>fenced yard</item>
+<item>in city</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

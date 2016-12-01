@@ -1,0 +1,47 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Myers-Gallagher - Aransas Pass</name>
+<location>264 S. Commercial Aransas Pass, TX 78336</location>
+<office>(361)758-7534</office>
+<toll_free>(888)886-7806</toll_free>
+<fax>(361)758-5879</fax>
+<email>cbhomes@todaysproperties.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Edwards</name>
+<office></office>
+<fax></fax>
+<email>medwards@todaysproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>2612</id>
+<mls></mls>
+<house_location>945 N. Commercial
+Aransas Pass, TEXAS</house_location>
+<price>$49,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>House sits on a large lot with lots of trees.                            Property zoned commercial.</house_description>
+
+<approx_size_sqft>956</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

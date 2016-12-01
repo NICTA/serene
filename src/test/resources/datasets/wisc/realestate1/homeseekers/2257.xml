@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Future nice home in a very nice area close to schools, needs a little
+tlc</house_description>
+
+<agent_name>L. Grace Teran</agent_name>
+<direct>562-862-6495</direct>
+<office>562-531-2001</office>
+<firm_name>C-21 A Team C-21 A Team</firm_name>
+<phone>562-531-2001</phone>
+<fax>562-531-2001</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,900</list_price>
+<location>840 E 116Th St</location>
+<mls>R529</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1180 (approx)</square_feet>
+<lot_size>6566 (approx)</lot_size>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Den, Living Room</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

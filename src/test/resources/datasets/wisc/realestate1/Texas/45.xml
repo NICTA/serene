@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Mark Fox Real Estate</name>
+<location>907 Hwy 281 Marble Falls, TX</location>
+<office>(830)693-8884</office>
+<toll_free></toll_free>
+<fax>(830)693-6619</fax>
+<email>markfox@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Smith Beverly</name>
+<office></office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>10649</id>
+<mls>50406</mls>
+<house_location>1425 Kingshill
+Granite Shoals, TEXAS</house_location>
+<county>Burnet</county>
+<price>$43,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Perfect home for the first time buyer!  Call to see this neat house.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Sherwood</sub-division>
+<approx_size_sqft>1246</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Carpet &amp; Tile</item>
+<item>Wood burning stove, cable ready</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

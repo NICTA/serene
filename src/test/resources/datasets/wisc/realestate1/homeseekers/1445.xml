@@ -1,0 +1,32 @@
+<house_listing>
+<house_description>This split level attached home built in 1979 has 2 bedroom(s), 1
+bath(s) . Features include view, patio.</house_description>
+
+<agent_name>Eduardo Morales</agent_name>
+<direct>619-477-1515</direct>
+<office>619-477-1515</office>
+<firm_name>Ideal Homes</firm_name>
+<phone>619-477-1515</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$60,000</list_price>
+<location>San Diego, CA 92105</location>
+<mls>99 8004864</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>Split Level</levels>
+<type>Townhouse/Condo</type>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Yes</patio>
+<view>Bay View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

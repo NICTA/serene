@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Ellen Franklin</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)217-9171</mobile>
+<email>dfrankli@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17156</id>
+<mls>526954</mls>
+<house_location>112 Hawea Court
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$99,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Family home on a private cul de sac!! This 3/2/2 has 1490sf, energy efficient features, a large living room w/vaulted ceiling and fireplace, and a study off the master that could serve as an office or 4th bedroom. Have coffee on the deck off the dining area while the kids play in the fenced yard. Nicely wooded lot w/unique driveway entry and a 2 car garage.  The subdivision has ammenities such as golfing, swimming, tennis, and more.  This is the way to go!!  Tell a friend or relative. Call Mary Ellen at 1-800-222-2539 or 1-888-461-1620.  See you soon!!</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Tahitian Village</sub-division>
+<approx_size_sqft>1490</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.25</approx_lot_size>
+<year_built>1980</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Surrounded by trees</item>
+<item>Private cul de sac</item>
+<item>Fenced back yard</item>
+<item>3 bedrooms plus study</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<price>$84,900</price>
+<mls_id_number>156773</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1362</sqft>
+<year_built>1954</year_built>
+<heat>Electric Base Board</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.16        Acres</lot_size>
+<lot_description>63 X 113</lot_description>
+<fireplace>1</fireplace>
+<taxes>$673</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Deck,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>WINCHESTER</elementary>
+<middle_school></middle_school>
+<high_school>ROSEBURG</high_school>
+</schools>
+
+</house_listing>
+
+
+

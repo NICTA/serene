@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>George Reinemund Real Estate</name>
+<location>P. O. Box 338 Bastrop, TX 78702</location>
+<office>(512)303-5709</office>
+<toll_free></toll_free>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<email>greino@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>George Reinemund</name>
+<office>(512)303-5709</office>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<mobile>(512)796-0955</mobile>
+<email>george@georgereinemund.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18744</id>
+<mls></mls>
+<house_location>135 Hidden Shores Loop
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$87,241</price>
+
+<house_description>2 STORY GET AWAY HOME ON THE COLORADO RIVER. DOWNSTAIRS=2 BEDROOMS, LIVING AREA AND BATH. UPSTAIRS = MASTER BEDROOM AND BATH, LIVING AREA, KITCHEN, UTILITIES.  ZONED AIR AND HEAT. WRAP-DECK. WATER WELL WITH SPRINKLER SYSTEM FOR THE PECAN TREES IN BACK YARD.. LOT STAIRSTEPS TO THE RIVER.  THIS HOME NEEDS A LITTLE WORK IN THE LOWER LEVEL DUE.  ALL PROSPECTIVE BUYERS SHOULD HAVE THEIR OWN INSPECTIONS DONE PRIOR TO GOING TO LENDER.LEASE WITH OPTION TO PURCHASE/////$5,000.00 OPTION AND $1,000.00 PER MONTH WITH UP TO  12 MONTH OPTION PERIOD.</house_description>
+
+<move-in_date>8/24/99</move-in_date>
+<school_district>Smithville</school_district>
+<sub-division>Hidden Shores</sub-division>
+<approx_size_sqft>1750</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>80 X 450</approx_lot_size>
+<approx_acres>0.8</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

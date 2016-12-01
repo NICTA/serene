@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>2827 ASHLAND</house_location>
+<price>$114,800</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248268</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JANE ASHCRAFT-WEST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>TERRIFIC HOME! 20X16 DECK/UPGRADED LANDSCAPING/HARDWOOD FLOORS/NEWER
+WINDOWS,WIRING,CENTRAL AIR,FURNACE &amp; ROOF/NATURAL WDWK &amp;
+DOORS/SOLARIUM/ HIGH CEILINGS/4 CEILING FANS/CERAMIC FLOOR IN
+BATH/BUTLER'S PANTRY &amp; MORE!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Inoperable,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>40 x 140</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>24 X 25</dimension><level>L</level></laundry>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>2</level></master>
+<study><dimension>11 X 8</dimension><level>1</level></study>
+
+<directions>RT 17 TO ASHLAND</directions>
+</house_listing>
+
+
+

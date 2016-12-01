@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bette Berry</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>bette@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11263</id>
+<mls>50480</mls>
+<house_location>19054 LONGHORN
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$189,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Cozy and nestled among beautiful oak trees.  Spacious kitchen and living area.  Nice study with built-ins and computer station.  Good storage.  Oversized garage.  Furniture negotiable.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Sun room, study</item>
+<item>Insulated windows, ceiling fan</item>
+<item>Microwave, disposal, dishwasher</item>
+<item>Oven, range, refrigerator</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

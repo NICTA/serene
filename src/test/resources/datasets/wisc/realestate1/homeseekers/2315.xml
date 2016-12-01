@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 3.5 bath(s) , 2 car attached
+garage. Rooms include dining room, family room, living room. Features
+include fireplace.</house_description>
+
+<agent_name>Chester Pressey</agent_name>
+<office>603-643-6406</office>
+<firm_name>Cb Redpath &amp; Co., Rlt</firm_name>
+<phone>603-643-6406</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$225,000</list_price>
+<location>Hartford, VT 05047</location>
+<mls>574501</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<garage></garage>
+<type>Single Family</type>
+<lot_size>435600</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water</heating>
+<fireplace>Yes</fireplace>
+<rooms>Dining Room, Family Room, Living Room</rooms>
+<view>View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

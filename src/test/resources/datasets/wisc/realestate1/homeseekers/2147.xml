@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This single family home built in 1951 has 4 bedroom(s), 4 full
+bath(s)/1 half bath(s) and approximately 3586 square feet of living
+area. Rooms include family room. Features include view, private pool,
+patio, fireplace, french doors.</house_description>
+
+<agent_name>Camille Guething</agent_name>
+<direct>305-665-5562</direct>
+<office>305-361-1720</office>
+<firm_name>Fortune Internatio Fortune Internatio
+Lic. Real Estate Broker</firm_name>
+<phone>305-361-1720</phone>
+<fax>305-361-8764</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$799,000</list_price>
+<location>7350 SW 47 Ct</location>
+<neighborhood>Other</neighborhood>
+<mls>D896740</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4(full) 1(half)</baths>
+<type>Single Family</type>
+<square_feet>3586 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>Patio, Screened Porch</patio>
+<pool>Yes</pool>
+<rooms>Family Room</rooms>
+<spa>No</spa>
+<view>Garden View, Pool View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Dishwasher, Foyer, French Doors, OutdoorLights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

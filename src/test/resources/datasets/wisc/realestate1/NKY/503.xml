@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2324 N NORTHMOOR #104</house_location>
+<price>$82,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>0</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249881</mls>
+<house_type>Condominium</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>IMMACULATE BUT RARE 1ST FLOOR CONDO,REAR UNIT(NO STEPS!)LESS THAN 1
+YEAR OLD UNIT IN MINT,MOVE-IN CONDITION.FEATURES PREMIUM WHITE
+CABINETRY,UPGRADE CARPETS,CEILING FANS,ALL APPLIANCES INCL
+WASHER/DRYER. 1 CAR DET GARAGE !!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>Condo</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>113</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 12</dimension><level>1</level></bedroom_2>
+<dining><dimension>12 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>17 X 14</dimension><level>1</level></living>
+<master><dimension>18 X 12</dimension><level>1</level></master>
+
+<directions>WEST BURLINGTON PIKE,RIGHT DARLINGTON FRM LEFT
+NORTHMOOR LN</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1998 has 3 bedroom(s), 3 bath(s) , 1 car
+attached garage and approximately 1736 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Janet Atlas</agent_name>
+<direct>305-672-0800</direct>
+<office>305-856-1680</office>
+<firm_name>Transacta Realty,
+Lic. Real Estate Broker</firm_name>
+<phone>305-856-1680</phone>
+<fax>305-672-3330</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$595,000</list_price>
+<location>1500 Ocean Dr #1204</location>
+<neighborhood>1500 Ocean Dr</neighborhood>
+<mls>M753305</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1736 (approx)</square_feet>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<location>Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Ocean Access
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

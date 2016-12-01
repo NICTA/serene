@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>0 SOUTH RIPLEY</house_location>
+<price>$375,978</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>DOVER</suburb>
+<school_dist>MASON CO</school_dist>
+<mls>247251</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653 (Press Browser's "Back" Button to return to MLS of</firm_phone>
+<agent>DEBRA G MOORE</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>MASON CO RIVERFRONT INVESTMENT. ABOVE FLOOD PLAIN LOG CABIN 85%
+COMPLETE. 16 +/-ACRES GORGEOUS PROPERTY W/TOWERING TREES AND VIEW OF
+RIPLEY &amp; RANKIN HOUSE. OLDER VICTORIAN W/CHERRY STAIRCASE &amp; STONE
+FOUNDATION. 90' WELL</house_description>
+<construction>Log</construction>
+<heating>None</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Wellwater</water>
+<sewer>None</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>15 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>18 X 14</dimension><level>1</level></kitchen>
+<living><dimension>22 X 16</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>AA TO L ON RT 3071 3 MI L TOWARD DOVER 5.5 MI ON
+RT 8 TO MAILBOX 2393 ON RIGHT</directions>
+</house_listing>
+
+
+

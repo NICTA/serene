@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>New vinyl in kithchen &amp; utility room. Carpet 1 year old, c/a &amp; heat
+nearly new. New garage door and front door. Situated on nice corner
+lot, fenced yard, quiet area. Fireplace in living room. Appliances 'as
+is'.</house_description>
+
+<agent_name>Joan Baker</agent_name>
+<office>757-486-8800</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-486-8800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$77,000</list_price>
+<location>Norfolk, VA 23523</location>
+<mls>9925486</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Bungalow, Ranch</style>
+<square_feet>1200 (approx)</square_feet>
+<lot_size>58X75X67X85</lot_size>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<location>Corner</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Bungalow Style, Cable TV, Ceiling Fan(s), Fenced, Foyer, Ranch Style,Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

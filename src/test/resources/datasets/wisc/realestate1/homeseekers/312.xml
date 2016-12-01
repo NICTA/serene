@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1988 has 4 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 1963 square
+feet of living area. Features include view, private pool, patio,
+fireplace, air conditioning.</house_description>
+
+<agent_name>Rose Marie Marker</agent_name>
+<direct>520-790-5049</direct>
+<office>520-296-5491</office>
+<firm_name>Century 21 1St American Century 21 1St American</firm_name>
+<phone>520-296-5491</phone>
+<fax>520-296-7639</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$143,900</list_price>
+<location>5032 W Warbler St</location>
+<mls>9915238</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1963 (approx)</square_feet>
+<lot_size>67X81X67X81</lot_size>
+<year_built>1988</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Earl Senter</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)517-3379</mobile>
+<email>EARLSENTER@DIGITEX.NET</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17605</id>
+<mls>9078959</mls>
+<house_location>3616 Sparks Lane
+Crowley, TEXAS 76036</house_location>
+<county>Johnson</county>
+<price>$54,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SINGLEWIDE PLACED ON TWO ACRES OF TREES, ON A QUIET CUL-DE-SAC, WITH VINAL SIDING.  VERY NICE INSIDE, WITH BUILT IN CHINA CABINET.  SHOWER AND GARDEN TUB IN MASTER BATH.   A SEPARATE 24X24 GARAGE  WITH DOOR OPENERS, AND A 16X20 SHOP ATTACHED AT THE BACK.  CLEBURNE AND HULEN MALLS ONLY SIXTEEN MILES AWAY.</house_description>
+
+<school_district>Joshua Isd</school_district>
+<sub-division>Bell Mahor Estate</sub-division>
+<approx_size_sqft>1120</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>250x350</approx_lot_size>
+<approx_acres>2</approx_acres>
+<year_built>1982</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Trees, trees, and more trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

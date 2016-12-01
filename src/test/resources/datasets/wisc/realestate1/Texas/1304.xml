@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Ann Kocurek</name>
+<office>(713)686-6090</office>
+<fax>(713)686-8543</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12842</id>
+<mls>121096</mls>
+<house_location>0 Laguna Vista
+in West Needville, TEXAS 77461</house_location>
+<county>Fort Bend</county>
+<price>$52,000</price>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>4 lots 2.5 acres each or 10 acres total. All lots abute lake stocked with fish. Electricity and telephone lines in front of property and ready for development.Park area with boat near.Flood insurance required</house_description>
+
+<stories>1</stories>
+<approx_acres>10</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>4 large estate size lots for residential develop</item>
+<item>Away from the city congestion yet still close.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

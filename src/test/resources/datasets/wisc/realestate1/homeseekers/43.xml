@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This light-filled contemporary home was built with entertaining &amp;
+elegance in mind (spiral staircase, great view, wine cellar &amp; so much
+more)</house_description>
+
+<agent_name>Leslie Lucas</agent_name>
+<office>206-216-3430</office>
+<firm_name>Coldwell Banker Bain Coldwell Banker Bain</firm_name>
+<phone>206-216-3430</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$725,000</list_price>
+<location>312 Erie Ave</location>
+<mls>99086590</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3.5</baths>
+<levels>3 or more</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>2750 (approx)</square_feet>
+<lot_size>6006</lot_size>
+<year_built>1977</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Den, Dining Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

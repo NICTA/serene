@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>200 HALEY</house_location>
+<price>$134,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Rear)</garage>
+<suburb>WALTON</suburb>
+<school_dist>WALTON VER</school_dist>
+<mls>249625</mls>
+<house_type>Single Family</house_type>
+<firm>D G SCHELL &amp; ASSOCIATES</firm>
+<firm_phone>(606) 331-4888</firm_phone>
+<agent>DARREL SCHELL JR</agent>
+<agent_phone>(606) 331-4888</agent_phone>
+<house_description>ROOMY 2 STORY IN DESIRABLE SUNSET RIDGE. 4 BEDROOM AND 1 1/2 BATH,
+FULL BA SEMENT JUST OFF I-75. COMPARE AND YOU WILL SEE THE VALUE IN
+THIS FINE HOME.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65x131</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>17 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 12</dimension><level>2</level></bedroom_4>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<family><dimension>17 X 13</dimension><level>1</level></family>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>18 X 13</dimension><level>2</level></master>
+
+<directions>I-75 TO RICHWOOD EXIT E TO US 25 R ON 25 SUNSET
+RIDGE ON R</directions>
+</house_listing>
+
+
+

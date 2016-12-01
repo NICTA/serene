@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lois Madry</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email>loism52@yahoo.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21040</id>
+<mls>9127193</mls>
+<house_location>2013 Wood Court (Ad # 157)
+Granbury, TEXAS 76048-5680</house_location>
+<county>Hood</county>
+<price>$74,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Cute 3-2-2 on an extra large lot with new privacy fence, appliances, paint &amp; tile floors in kitchen.  Large living area &amp; well maintained.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Briarwood</sub-division>
+<approx_size_sqft>1420</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>101x103x554x101x40</approx_lot_size>
+<year_built>1979</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Extrra Large Lot on Cul-De-Sac</item>
+<item>New Privacy Fence &amp; Paint</item>
+<item>New Tile Kitchen Floor &amp; Well Maintained</item>
+<item>Ad # 157</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

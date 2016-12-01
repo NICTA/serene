@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Terri Hurlbert</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<email>thurlbert@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20070</id>
+<mls>9112421</mls>
+<house_location>855 Greenwood Cut-Off Road
+Weatherford, TEXAS 76088</house_location>
+<county>Parker</county>
+<price>$315,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful, well kept, spacious home on 8.47 acres features nice barn with apartment, tack room, wash rack, 4 stalls and more.   Property also features an arena with turnback shoots and a stock pond.  Electric gate and brick entrance with pipe fencing.  This spacious home has 4 bedrooms, 2 baths, a private office, light and bright breakfast area, tiled patio area with large back yard.  Fourth bedroom could be gameroom.   This property is the perfect horse place!</house_description>
+
+<school_district>Weatherford</school_district>
+<approx_size_sqft>3300</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>8.47 ac</approx_lot_size>
+<approx_acres>8.47</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Excellent country location</item>
+<item>Beautiful spacious home</item>
+<item>Nice barn with stalls and pipe fencing</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

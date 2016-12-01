@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1958 has 3 bedroom(s), 2
+bath(s) and approximately 1868 square feet of living area. Rooms
+include den, bonus room, master bedroom. Features include private
+pool, patio.</house_description>
+
+<agent_name>Karen Fisher</agent_name>
+<direct>520-298-0214</direct>
+<office>520-577-3999</office>
+<firm_name>RE/MAX Catalina Foothills RE/MAX Catalina Foothills</firm_name>
+<phone>520-577-3999</phone>
+<fax>520-577-3707</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$120,000</list_price>
+<location>6628 E Julia St</location>
+<mls>2001386</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1868 (approx)</square_feet>
+<lot_size>83 X 110 X 66 X 110</lot_size>
+<year_built>1958</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Den, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

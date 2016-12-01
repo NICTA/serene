@@ -1,0 +1,73 @@
+id,name,latitude,longitude,type,other_points,address_line1,address_line2,city,state,postcode,description,notes
+683,"Bridgepoint Parking Station",-33.823472,151.240553,POINT,,,,,,,,"
+    <table border=""1"" padding=""0"">
+    <tr><td>Objectid</td><td>P1</td></tr>
+    <tr><td>Name</td><td>Bridgepoint Parking Station</td></tr>
+    <tr><td>Location</td><td>Brady Street</td></tr>
+    <tr><td>Open</td><td>Daily 7am - 1am</td></tr>
+    <tr><td>Spaces</td><td>264 + 4 disabled</td></tr>
+    <tr><td>TimeLimits</td><td>apply</td></tr>
+    <tr><td>MonToFri</td><td>7am - 6pm Thu to 9.30pm</td></tr>
+    <tr><td>Saturday</td><td>7am - 6pm</td></tr>
+    <tr><td>Sunday</td><td></td></tr></table>
+        "
+685,"Mosman Cache Carpark",-33.824891,151.24267,POINT,,,,,,,,"
+    <table border=""1"" padding=""0"">
+    <tr><td>Objectid</td><td>P3</td></tr>
+    <tr><td>Name</td><td>Mosman Cache</td></tr>
+    <tr><td>Location</td><td>off Horsnell Lane</td></tr>
+    <tr><td>Open</td><td>Daily 9am - 5pm</td></tr>
+    <tr><td>Spaces</td><td>96 + 2 disabled</td></tr>
+    <tr><td>TimeLimits</td><td>apply</td></tr>
+    <tr><td>MonToFri</td><td>7am - 6pm</td></tr>
+    <tr><td>Saturday</td><td></td></tr>
+    <tr><td>Sunday</td><td></td></tr></table>
+        "
+686,"Library and Council Carpark",-33.825542,151.241752,POINT,,,,,,,,"
+    <table border=""1"" padding=""0"">
+    <tr><td>Objectid</td><td>P4</td></tr>
+    <tr><td>Name</td><td>Library and Council</td></tr>
+    <tr><td>Location</td><td>The Crescent</td></tr>
+    <tr><td>Open</td><td>Daily</td></tr>
+    <tr><td>Spaces</td><td>60 + 1 disabled</td></tr>
+    <tr><td>TimeLimits</td><td>apply</td></tr>
+    <tr><td>MonToFri</td><td>8am - 6pm</td></tr>
+    <tr><td>Saturday</td><td>8am - 12pm</td></tr>
+    <tr><td>Sunday</td><td></td></tr></table>
+        "
+687,"RS Club Carpark",-33.828142,151.243435,POINT,,,,,,,,"
+    <table border=""1"" padding=""0"">
+    <tr><td>Objectid</td><td>P5</td></tr>
+    <tr><td>Name</td><td>RS Club</td></tr>
+    <tr><td>Location</td><td>off Gouldsbury Street</td></tr>
+    <tr><td>Open</td><td>Daily</td></tr>
+    <tr><td>Spaces</td><td>60</td></tr>
+    <tr><td>TimeLimits</td><td>apply</td></tr>
+    <tr><td>MonToFri</td><td>8am - 4.30pm</td></tr>
+    <tr><td>Saturday</td><td></td></tr>
+    <tr><td>Sunday</td><td></td></tr></table>
+        "
+688,"Raglan St East Carpark",-33.830438,151.244932,POINT,,,,,,,,"
+    <table border=""1"" padding=""0"">
+    <tr><td>Objectid</td><td>P6</td></tr>
+    <tr><td>Name</td><td>Raglan St East</td></tr>
+    <tr><td>Location</td><td>Raglan Street</td></tr>
+    <tr><td>Open</td><td>Daily</td></tr>
+    <tr><td>Spaces</td><td>91 + 1 disabled</td></tr>
+    <tr><td>TimeLimits</td><td>apply</td></tr>
+    <tr><td>MonToFri</td><td>8am - 6pm</td></tr>
+    <tr><td>Saturday</td><td>8am - 6pm</td></tr>
+    <tr><td>Sunday</td><td></td></tr></table>
+        "
+689,"Raglan St West Carpark",-33.830922,151.243619,POINT,,,,,,,,"
+    <table border=""1"" padding=""0"">
+    <tr><td>Objectid</td><td>P7</td></tr>
+    <tr><td>Name</td><td>Raglan St West</td></tr>
+    <tr><td>Location</td><td>Raglan Street</td></tr>
+    <tr><td>Open</td><td>Daily</td></tr>
+    <tr><td>Spaces</td><td>53 + 1 disabled</td></tr>
+    <tr><td>TimeLimits</td><td>apply</td></tr>
+    <tr><td>MonToFri</td><td>8am - 6pm</td></tr>
+    <tr><td>Saturday</td><td>8am - 12pm</td></tr>
+    <tr><td>Sunday</td><td></td></tr></table>
+        "

@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>1828 RIVER HEIGHTS</house_location>
+<price>$999,999</price>
+<rooms>14</rooms>
+<bedrooms>6</bedrooms>
+<baths>6-3</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Oversized)</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>238582</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN HUFF</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>SPECTACULAR HOME WITH FABULOUS WINTER RIVER VIEW * CURVED STAIRWAYS *
+FINISHED LOWER LEVEL * BUILT BY HUDEPOHL * SPACIOUS &amp; OPEN FLOOR *
+INGROUND POOL * IMMEDIATE OCCUPANCY * WILL LEASE *</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>2</level></bath_4>
+<bedroom_2><dimension>20 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>19 X 14</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>27 X 17</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>13 X 11</dimension><level>2</level></bedroom_5>
+<breakfast><dimension>14 X 13</dimension><level>1</level></breakfast>
+<dining><dimension>20 X 13</dimension><level>1</level></dining>
+<family><dimension>25 X 19</dimension><level>1</level></family>
+<kitchen><dimension>19 X 16</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 8</dimension><level>1</level></laundry>
+<living><dimension>23 X 21</dimension><level>1</level></living>
+<master><dimension>19 X 18</dimension><level>2</level></master>
+<study><dimension>13 X 13</dimension><level>1</level></study>
+
+<directions>AMSTERDAM TO HIGHWATER TO RIVER HEIGHTS</directions>
+</house_listing>
+
+
+

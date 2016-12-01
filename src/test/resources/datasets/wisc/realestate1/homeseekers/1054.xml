@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium built in 1951 has 1 bedroom(s), 1 bath(s) and
+approximately 535 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Barbara Talbot</agent_name>
+<direct>305-477-1625</direct>
+<office>305-667-8871</office>
+<firm_name>Esslinger Wooten M Esslinger Wooten M
+Lic. Real Estate Broker</firm_name>
+<phone>305-667-8871</phone>
+<fax>305-662-5646</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$74,900</list_price>
+<location>900 Meridian Av #112</location>
+<neighborhood>900 Meridian Condo</neighborhood>
+<mls>D905800</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>535 (approx)</square_feet>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

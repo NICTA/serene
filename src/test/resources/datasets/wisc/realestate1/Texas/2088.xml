@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Freddie Crawford</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18389</id>
+<mls>9079308</mls>
+<house_location>2501 S Valley Ridge Dr. (Ad# 601)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$39,921</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Mobile Home</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Oak Trail Shores Se</sub-division>
+<approx_size_sqft>1280</approx_size_sqft>
+<stories>1</stories>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<pool>Yes</pool>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Community pool and club house</item>
+<item>inquire about #601</item>
+<item>Almost new mobile</item>
+<item>Decked back porch</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

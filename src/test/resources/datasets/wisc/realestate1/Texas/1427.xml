@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carter Carolyn</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<mobile>(956)245-7874</mobile>
+<email>C21HgnTX@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20649</id>
+<mls>15076</mls>
+<house_location>MILITARY HIGHWAY 281
+San Benito, TEXAS</house_location>
+<county>Cameron</county>
+<price>$46,900</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>VERY NICE WELL KEPT HOME IN THE COUNTRY ON ALMOST AN ACRE,HOME COULD BE MADE INTO A LARGE TWO BEDRROM HOME WITH SLIGHTMODIFICATION.  NICE HOME IN THE COUNTRY WITH A BIG KITCHEN ANDAN INSIDE LAUNDRY. ASK FOR DIRECTIONS AND MORE INFO.</house_description>
+
+<sub-division>Carricitos Tract</sub-division>
+<approx_size_sqft>1536</approx_size_sqft>
+<approx_acres>0.95</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>COUNTRY HOME</item>
+<item>HORSES PERMITTED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

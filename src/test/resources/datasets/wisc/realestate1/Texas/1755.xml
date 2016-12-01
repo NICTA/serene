@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gerald Birdwell</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<email>gbirdwell@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18680</id>
+<mls>9091915</mls>
+<house_location>410 East Simmons
+Weatherford, TEXAS 76086</house_location>
+<county>Parker</county>
+<price>$35,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nice starter home or investment property!  Large lot with big pecan trees.  2/1 frame in town close to shopping and schools.  Storage building with work area.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Yeoman</sub-division>
+<approx_size_sqft>834</approx_size_sqft>
+<stories>1</stories>
+<year_built>1950</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Large pecan trees in yard</item>
+<item>Excellent investment property</item>
+<item>Close to shopping &amp; schools</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

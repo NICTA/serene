@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Show this one for a quick sell! Fresh interior paint, new wall-to-wall
+carpet, cathedral ceiling,owners made considerable improvements,window
+treatments convey.</house_description>
+
+<agent_name>Ricardo Garcia</agent_name>
+<direct>533-1124</direct>
+<office>757-490-0202</office>
+<firm_name>Garcia Realty, Inc.</firm_name>
+<phone>757-490-0202</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$79,500</list_price>
+<location>Virginia Beach, VA 23464</location>
+<mls>9925191</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Townhouse/Condo</type>
+<style>Ranch, Twinhome</style>
+<year_built>1977</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>Open Porch</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Cathedral/Vaulted Ceilings, Fenced,Ranch Style, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

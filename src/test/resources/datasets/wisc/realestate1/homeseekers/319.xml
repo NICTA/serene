@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1999 has 2 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1400 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, patio, air conditioning.</house_description>
+
+<agent_name>Patti Scanlon</agent_name>
+<direct>520-906-7632</direct>
+<office>520-577-8333</office>
+<firm_name>Prudential Aegis Prudential Aegis</firm_name>
+<phone>520-577-8333</phone>
+<fax>520-577-1502</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$143,000</list_price>
+<location>7745 W Candle Creek Rd</location>
+<mls>9918981</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1400 (approx)</square_feet>
+<lot_size>66 X 104 X 60 X 80</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 3+ level townhouse built in 1961 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) and approximately 1788 square feet of living
+area. Rooms include master bedroom. Features include patio, fireplace,
+air conditioning.</house_description>
+
+<agent_name>Lewis Bashoor</agent_name>
+<direct>202-646-1063</direct>
+<office>202-364-5200</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>202-364-5200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$192,000</list_price>
+<location>Washington, DC 20024</location>
+<mls>DC3125177</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<square_feet>1788 (approx)</square_feet>
+<year_built>1961</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

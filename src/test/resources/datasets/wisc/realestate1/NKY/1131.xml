@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1060 DRY RIDGE MT Z</house_location>
+<price>$155,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>248424</mls>
+<house_type>Single Family</house_type>
+<firm>C B DETERS REALTY</firm>
+<firm_phone>(606) 341-0060</firm_phone>
+<agent>PAM PENNINGTON</agent>
+<agent_phone>(606) 341-0060</agent_phone>
+<house_description>ATTRACTIVE LOCATION NEAR BOLTZ LAKE BEAUTIFULLY LANDSCAPED 1+ ACRE LOT
+GEORGEOUS WELL KEPT 3 BD ROOM BRICK RANCH</house_description>
+<construction>Brick</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>10 X 23</dimension><level>1</level></family>
+<kitchen><dimension>13 X 20</dimension><level>1</level></kitchen>
+<living><dimension>12 X 18</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>DRY RIDGE EXIT R ON HIGHWAY 22 R ON WARSA W RD R
+ON DRY RIDGE MT ZION</directions>
+</house_listing>
+
+
+

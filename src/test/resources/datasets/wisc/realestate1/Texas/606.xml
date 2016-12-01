@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Modena DeSpain</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18333</id>
+<mls>53504</mls>
+<house_location>706 Amy Circle
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$129,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This home is light, bright, clean and refreshing.  Great floor plan that will work for anyone.  Raised ceilings throughout.  Wonderful tile floors and back deck.  The owner is the builder of the home.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Hilltop</sub-division>
+<approx_size_sqft>1457</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>3 bedroom, 2 bath, quality home.</item>
+<item>Great floor plan, open and bright.</item>
+<item>2 car garage, deck and breakfast area.</item>
+<item>600 square foot garage.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

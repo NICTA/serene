@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1880 has 1 bedroom(s), 1 bath(s) and
+approximately 700 square feet of living area.</house_description>
+
+<agent_name>Ed/Karri Shackelford</agent_name>
+<direct>303-744-3775</direct>
+<office>303-988-0500</office>
+<firm_name>Frontier Real Estate</firm_name>
+<phone>303-988-0500</phone>
+<fax>303-988-8792</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$100,000</list_price>
+<location>813 N Inca St</location>
+<neighborhood>Lincoln Park, Baker</neighborhood>
+<mls>385662</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>700 (approx)</square_feet>
+<year_built>1880</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

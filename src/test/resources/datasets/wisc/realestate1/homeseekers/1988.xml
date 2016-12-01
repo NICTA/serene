@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1982 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 2490 square
+feet of living area. Features include view, private spa, patio,
+fireplace, air conditioning.</house_description>
+
+<agent_name>Russell Long</agent_name>
+<direct>520-529-1116</direct>
+<office>520-326-1122</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-326-1122</phone>
+<fax>520-325-8784</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$225,000</list_price>
+<location>13181 N Quail Run Rd</location>
+<mls>9904085</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2490 (approx)</square_feet>
+<lot_size>330 X 660 X 330 X 660</lot_size>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<spa>Yes</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

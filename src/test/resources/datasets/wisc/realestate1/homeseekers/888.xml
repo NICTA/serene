@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1929 has 6 bedroom(s), 6 full
+bath(s)/1 half bath(s) . Rooms include dining room, family room,
+master bedroom. Features include private pool, fireplace, air
+conditioning.</house_description>
+
+<agent_name>White, Terri</agent_name>
+<direct>310-476-5767</direct>
+<office>310-273-3113</office>
+<firm_name>Coldwell Banker</firm_name>
+<phone>310-273-3113</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$4,650,000</list_price>
+<location>Rd</location>
+<mls>99048027</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>6(full) 1(half)</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<style>Tudor</style>
+<lot_size>191X230</lot_size>
+<year_built>1929</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<fireplace>Yes</fireplace>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Cable TV, Dishwasher, Guest House, Microwave, Office,Tudor Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

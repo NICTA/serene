@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>INA PERLMAN</name>
+<office>(713)621-4953</office>
+<fax>(713)621-4953</fax>
+<voice_mail>(713)621-4953 108</voice_mail>
+<email>mob@onramp.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11591</id>
+<mls>135388</mls>
+<house_location>4931 Heatherglen
+Houston, TEXAS 77096</house_location>
+<county>Harris</county>
+<price>$249,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Really nice family home! Spacious room sizes! Great entertaining space both inside and around the pool! Two master bedrooms! Two master bedrooms! One could be gameroom, home office, in-law suite. Hardwood floors, bookshelves, wood burning fireplace, gourmet kitchen, just painted! Walk to nearby Kolter elementary school! Well priced per square foot!</house_description>
+
+<school_district>Hisd</school_district>
+<sub-division>Meyerland</sub-division>
+<approx_size_sqft>3240</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>10004</approx_lot_size>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>MEYERLAND</item>
+<item>POOL</item>
+<item>TWO MASTER BEDROOMS</item>
+<item>GOURMET KITCHEN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

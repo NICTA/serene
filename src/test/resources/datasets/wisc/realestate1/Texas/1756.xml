@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Quandt</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>C21Linda@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20618</id>
+<mls>R26181</mls>
+<house_location>303 S. 24th
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$55,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Located on corner lot.  Two seperate living areas.  Den has sliding glass doors leading to patio &amp; fenced backyard.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Town &amp; Country</sub-division>
+<approx_size_sqft>1206</approx_size_sqft>
+<approx_lot_size>65 X 110</approx_lot_size>
+<year_built>1964</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

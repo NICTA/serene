@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1909 has 3
+bedroom(s), 2 bath(s) and approximately 1660 square feet of living
+area. Rooms include living room, bonus room. Features include view,
+air conditioning.</house_description>
+
+<agent_name>Jerry Lewis</agent_name>
+<office>323-254-3966</office>
+<firm_name>Century 21 Arroyo Seco Century 21 Arroyo Seco</firm_name>
+<phone>323-254-3966</phone>
+<fax>323-258-1299</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,000</list_price>
+<location>Los Angeles, CA 90065</location>
+<mls>G906920</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<square_feet>1660 (approx)</square_feet>
+<lot_size>2490</lot_size>
+<year_built>1909</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Living Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

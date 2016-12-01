@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Laura Frost</name>
+<office>(817)573-8801</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20175</id>
+<mls>9115018</mls>
+<house_location>208 Squaw Creek Drive (Ad # 615)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$58,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nice clean doublewide mobile in a quiet neighborhood.  Close to Glen Rose &amp; Granbury.  Fenced yard, covered carport, circle drive, deck on back &amp; front.  1 year old carpet, open living &amp; dining area, split bedroom arrangement.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Mid-haven Estates</sub-division>
+<approx_size_sqft>1568</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>118x93</approx_lot_size>
+<year_built>1989</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Doublewide - Quiet Neighborhood</item>
+<item>Open Living &amp; Dining Area</item>
+<item>Circle Drive, Decks, Fenced Yard</item>
+<item>Ad # 615</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

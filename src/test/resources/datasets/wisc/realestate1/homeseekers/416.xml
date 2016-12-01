@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This home built in 1984 has 2 bedroom(s), 2 bath(s) . Rooms include
+master bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Mary Frieling</agent_name>
+<office>602-956-5500</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>602-956-5500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$99,000</list_price>
+<location>Phoenix, AZ 85020</location>
+<mls>1461432</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Living Room</fireplace>
+<location>Corner</location>
+<patio>Deck</patio>
+<pool>Community Pool</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dining/Living Combo, Dishwasher, Great Room,Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

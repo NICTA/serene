@@ -1,0 +1,49 @@
+<house_listing>
+<house_description>This single family home built in 1998 has 5 bedroom(s), 6 full
+bath(s)/1 half bath(s) , 4 car detached garage and approximately 7709
+square feet of living area. Rooms include den, family room, master
+bedroom. Features include view, private pool, private spa, fireplace,
+french doors, satellite dish.</house_description>
+
+<agent_name>Carlos Justo</agent_name>
+<direct>305-535-4175</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-856-7573</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$6,900,000</list_price>
+<location>5090 N Bay Rd</location>
+<neighborhood>La Gorce Golf Sub Pb 14-4</neighborhood>
+<mls>M750168</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>6(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>7709 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Central, Electric</heating>
+<fireplace>Yes</fireplace>
+<location>Bay front, Water front</location>
+<patio>Open Porch</patio>
+<pool>Yes</pool>
+<rooms>Den, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Garden View, Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Dishwasher, Elevator, Fenced, Foyer, French Doors, GarageDoor Opener, Kitchen Island, Outdoor Grill, Satellite Dish, TrashCompacter
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Regency, Realtors</name>
+<location>110 N. IH-35, Ste 200A Round Rock, TX 78681</location>
+<office>(512)255-7888</office>
+<toll_free>(800)656-7888</toll_free>
+<fax>(512)244-9536</fax>
+<email>sbshavor@earthlink.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ann McLemore</name>
+<office>(512)255-7888</office>
+<fax>(512)244-9536</fax>
+<voice_mail>(512)255-7888 217</voice_mail>
+<email>Almcle@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19891</id>
+<mls>521438</mls>
+<house_location>8503 Tad Park Cove
+Round Rock, TEXAS 78681</house_location>
+<county>Williamson</county>
+<price>$142,990</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Master is downstairs with shower and garden tub. 3 bedrooms and gameroom upstairs. deck surrounds large trees in fenced backyard. Cul-de-sac lot. Split bedroom plan. 8 ceiling fans and solar screens all around. Gas logs in fireplace. Community playground, jogging &amp; bilke trail &amp; tennis courts.</house_description>
+
+<school_district>Fern Bluff, Chisholm, Round Rock</school_district>
+<sub-division>Fern Bluff</sub-division>
+<approx_size_sqft>2329</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>70x125</approx_lot_size>
+<year_built>1987</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This home will be beautifully remodeled! Property will be the pride of
+ownership! The seller is a non-profit and may help with closing costs.
+Property can be yours with 3% down payment! Can be financed with 1%
+downthru special first-time buyer programs. Lets open escrow!!!</house_description>
+
+<agent_name>Maria Zepeda</agent_name>
+<office>323-564-4848</office>
+<firm_name>C-21 Casa De Oro C-21 Casa De Oro</firm_name>
+<phone>323-564-4848</phone>
+<fax>213-564-2648</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$129,840</list_price>
+<location>Los Angeles, CA 90044</location>
+<mls>Y93201</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1000 (approx)</square_feet>
+<lot_size>4748 (approx)</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Den, Dining Room, Family Room, Living Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

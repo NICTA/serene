@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Jeanette Shelby Real Estate</name>
+<location>101 W. 1st Street, Suite D Elgin, TX 78621</location>
+<office>(512)281-3412</office>
+<toll_free>(800)231-5289</toll_free>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeanette Shelby</name>
+<office>(512)285-5289</office>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20265</id>
+<mls>523462</mls>
+<house_location>1240 PR 3431
+Lexington, TEXAS 78947</house_location>
+<county>Lee</county>
+<price>$79,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Brick home with 2 car garage and extra bay on 3 wooded acres. New roof, paint, CACH, Waterheater, dishwasher and stove. Lots of home for the money with a great view of the countryside.</house_description>
+
+<school_district>Lexington</school_district>
+<sub-division>Berry Doolittle</sub-division>
+<approx_size_sqft>1595</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3</approx_acres>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Small town living 50 minutes from Austin.</item>
+<item>Oaks and cedar trees on 3 acres.</item>
+<item>Owner will provide $2,000.00 carpet allowance.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

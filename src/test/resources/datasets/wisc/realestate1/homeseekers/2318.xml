@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 2 level townhouse built in 1981 has 1 bedroom(s), 1 bath(s) and
+approximately 689 square feet of living area. Features include patio.</house_description>
+
+<agent_name>Doreece Earwood</agent_name>
+<direct>520-742-6594</direct>
+<office>520-297-1186</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-297-1186</phone>
+<fax>520-297-1005</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$30,000</list_price>
+<location>1534 S Columbus Blvd #5</location>
+<mls>9918529</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<square_feet>689 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Forced Air</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

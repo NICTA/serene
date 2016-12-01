@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>549 S MCKINNEY RD</house_location>
+<price>$57,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>MILFORD</suburb>
+<school_dist>BRACKEN</school_dist>
+<mls>250014</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>JOYCE P ANDERSON</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>BEAUTIFULLY LOCATED IN VALLEY NEAR NORTH FORK, HAS FURNACE, CISTERN, &amp;
+NO SEPTIC. DOES NOT FLOOD!</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern,Wellwater</water>
+<sewer>None</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>15 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>15 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+<study><dimension>19 X 8</dimension><level>1</level></study>
+
+<directions>AA SOUTH R ON 1159 TO BROOKSVILLE R ON 19 SOUTH
+TO MILFORD R ON 539 L ON MCKINNEY</directions>
+</house_listing>
+
+
+

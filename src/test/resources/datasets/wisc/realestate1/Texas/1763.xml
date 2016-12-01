@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Prudential Allied, REALTORS</name>
+<location>3007 E. Broadway Pearland, TX 77581</location>
+<office>(281)997-4000</office>
+<toll_free>(800)447-3313</toll_free>
+<fax>(281)485-1649</fax>
+<email>mstarr@infohwy.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rita Combs</name>
+<office>(281)997-4000</office>
+<fax>(281)485-1649</fax>
+<voice_mail>(281)997-4000 19</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14237</id>
+<mls>113034</mls>
+<house_location>7804 SWIFTWATER
+Houston, TEXAS</house_location>
+<county>Harris</county>
+<price>$74,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>NEVER LIVED IN.  NEW!!! THREE BEDROOM, TWO BATH WITH TWO CARGARAGE.  NICE CABINETS IN KITCHEN.  U-SHAPED ISLAND COUNTER.PANTRY, SLIDING DOOR TO BACK.  LIGHT OPEN FLOOR PLAN.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Sky Scraper Shadows</sub-division>
+<stories>1</stories>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

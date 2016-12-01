@@ -1,0 +1,46 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bud &amp; Liz Starnes</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20166</id>
+<mls>9114883</mls>
+<house_location>14005 N. Highway 287
+Saginaw, TEXAS 76179</house_location>
+<county>Tarrant</county>
+<price>$26,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Small mobile home and garage space.</house_description>
+
+<school_district>Northwest</school_district>
+<sub-division>Avondale Heights</sub-division>
+<approx_size_sqft>644</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>200x300</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

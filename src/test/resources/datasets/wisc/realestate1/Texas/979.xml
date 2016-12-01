@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Bill Chess Real Estate</name>
+<location>714-B Chestnut Bastrop, TX 78602</location>
+<office>(512)303-3806</office>
+<toll_free></toll_free>
+<fax>(512)303-3839</fax>
+<email>bchess@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ray Walker</name>
+<office>(512)303-3806</office>
+<fax>(512)303-3839</fax>
+<mobile>(512)784-8961</mobile>
+<email>WalkerRayS@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18855</id>
+<mls>510282</mls>
+<house_location>1071 Bull Run Rd., Cedar Creek
+Cedar Creek, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$155,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Directions:  From Hwy. 71 take Hwy. 21 West, West on CR 242, Corner of Bull Run and McDonald Ln. (CR 242).12 Acres of land with set up for two mobile homes, double wide to convey, single wide negotiable.  Trees, stocked tank, gentle breeze, and easy access to Hwy. 21.File#:  W0102</house_description>
+
+<school_district>Cedar Creek</school_district>
+<approx_size_sqft>2128</approx_size_sqft>
+<approx_acres>12</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Can have horses on the 12 Acres.</item>
+<item>Very large double wide to convey.</item>
+<item>Partially fenced.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

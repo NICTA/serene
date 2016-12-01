@@ -1,0 +1,43 @@
+<house_listing>
+<price>$339,000</price>
+<mls_id_number>103524</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>2.50</bathrooms>
+<sqft>2590</sqft>
+<year_built>1979</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>TILE</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.21        Acres</lot_size>
+<lot_description>9000</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Built In Vaccuum System</interior>
+<exterior>Deck, Green House, Pool, Sauna,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>RIEKE</elementary>
+<middle_school>ROBERT GREY</middle_school>
+<high_school>WILSON</high_school>
+</schools>
+<for_more_information_contact>
+<agent_name>Camille Colby</agent_name>
+<firm_name>WINDERMERE CCRGI - IRVING</firm_name>
+<firm_location>636 NW 21ST AVE
+PORTLAND, OR</firm_location>
+<office_phone>503-222-9701</office_phone>
+<fax>503-227-5715</fax>
+<e-mail>ccolby@hevanet.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

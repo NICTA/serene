@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kim Hodge</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>kim@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19705</id>
+<mls>53813</mls>
+<house_location>127 Heritage Drive
+Johnson City, TEXAS 78636</house_location>
+<county>Blanco</county>
+<price>$79,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>1998 MODEL DOUBLE WIDE FACTORY BUILT HOME ON .29 ACRE. LARGE UTILITY ROOM WITH OUTSIDE ENTRY. COVERED FRONT PORCH. CHAIN LINK FENCED YARD.</house_description>
+
+<school_district>Johnson City</school_district>
+<sub-division>Hertiage Oaks</sub-division>
+<stories>1</stories>
+<approx_acres>0.29</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>NEWER DOUBLEWIDE HOME!</item>
+<item>COVERED FRONT PORCH!</item>
+<item>FENCED YARD!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

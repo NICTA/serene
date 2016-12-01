@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Larry Smith,sh</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<voice_mail>(361)516-2640</voice_mail>
+<email>bojac@mailexcite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7292</id>
+<mls>25332</mls>
+<house_location>HWY 285 &amp; CEMENTERY ROAD
+Riviera, TEXAS 78349</house_location>
+<county>Kleberg</county>
+<price>$45,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Well kept older home in Riviera. Central Air and Heat.Extra Large Lot one half fenced. Could keep Horse in back portion</house_description>
+
+<school_district>Riviera</school_district>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

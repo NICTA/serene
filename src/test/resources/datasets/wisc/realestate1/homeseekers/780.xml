@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1979 has 4 bedroom(s), 3
+bath(s) , 8 car garage and approximately 3892 square feet of living
+area. Rooms include dining room, bonus room. Features include view,
+private pool, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Michael Endel</agent_name>
+<direct>520-907-6476</direct>
+<office>520-918-4800</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-918-4800</phone>
+<fax>520-296-6093</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$399,000</list_price>
+<location>10211 E Cadillac Ln</location>
+<mls>9916465</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<garage>8</garage>
+<type>Single Family</type>
+<square_feet>3892 (approx)</square_feet>
+<lot_size>150X570X400X667</lot_size>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Electric, Forced Air</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

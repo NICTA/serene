@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>145 DANIELS</house_location>
+<price>$47,900</price>
+<rooms>5</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>245358</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>DARLEEN HEIST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>ADORABLE RANCH HOME*NEWER WINDOWS*C/A*END OF STREET*1 CAR BI
+GARAGE*FENCED YARD*16X16 DECK OVERLOOKS WOODS*UPDATED ELECTRIC*NEW
+HWH*FRONT PORCH*READY TO MOVE IN*GOOD INVESTMENT POTENTIAL</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 9</dimension><level>L</level></bedroom_2>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 6</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 5</dimension><level>L</level></laundry>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>1</level></master>
+
+<directions>DECOURSEY TO DANIELS</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>258 HWY 10</house_location>
+<price>$179,500</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Builtin,Oversized)</garage>
+<suburb>CALIFORNIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>247891</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>STEVEN E MORRIS</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>CLOSE TO AA HWY. LARGE LEVEL YARD. SUPER CONDITION THRU-OUT. FULL
+FINISHED BSMT W/LG FAM RM AND REC RM. GARAGE SPACE FOR 3 CARS AND WORK
+AREAS. CUSTOM DECK &amp; PATIO. ABOVE GR. POOL.</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>B</level></bath_3>
+<bedroom_2><dimension>11 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 12</dimension><level>1</level></breakfast>
+<family><dimension>23 X 27</dimension><level>B</level></family>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<living><dimension>11 X 21</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>1</level></master>
+<recreation_room><dimension>23 X 23</dimension><level>B</level></recreation_room>
+
+<directions>27S, LT ON RTE 10 OR AA HWY , RT ON 1997 LT ON
+HWY 10</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 3+ level townhouse built in 1950 has 2 bedroom(s), 1 bath(s) .
+Rooms include dining room, master bedroom. Features include patio.</house_description>
+
+<agent_name>Jeannette Williams</agent_name>
+<direct>301-292-9280</direct>
+<office>301-292-0700</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-292-0700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$89,000</list_price>
+<location>Washington, DC 20019</location>
+<mls>DC3071869</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<lot_size>2611</lot_size>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Central, Forced Air</heating>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

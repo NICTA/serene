@@ -1,0 +1,57 @@
+Dept ,Work Type ,# of Requests ,# On Time ,24 hrs Late ,48 hrs Late ,72 hrs Late ,> 72 hrs 
+,,8633,7274,226,104,106,800
+DPW-B&G,DPW-Abandoned Property-City Building/Par,2,1,1,0,0,0
+DPW-B&G,DPW-City Buildings-Repairs,388,293,7,1,0,86
+DPW-B&G,DPW-Electrical Repair-City/School,131,35,5,8,3,77
+DPW-B&G,DPW-Flag Poles & Banners,16,12,0,1,0,2
+DPW-B&G,DPW-Moving Services,176,164,1,1,0,8
+DPW-B&G,DPW-Parks - Trash Collection,3,1,0,0,0,2
+DPW-B&G,DPW-Pick up & Post Bulletin Board Fliers,4,1,1,0,0,2
+DPW-B&G,DPW-Playground Shower Maintenance,13,1,1,2,4,5
+DPW-B&G,DPW-Playgrounds & Parks Gen. Maintenance,134,96,2,2,3,30
+DPW-B&G,DPW-PM Lincoln Park,2,2,0,0,0,0
+DPW-B&G,DPW-School Buildings,832,727,8,1,4,91
+DPW-Engineering,DPW-Engineering,12,8,0,0,0,3
+DPW-Engineering,DPW-Manhole Repair,47,33,6,1,1,5
+DPW-Engineering,DPW-Sinkhole,30,21,1,1,0,5
+DPW-Highway,DPW-Abandoned Property,60,25,10,3,3,18
+DPW-Highway,DPW-Animals-Dead,125,104,8,1,2,6
+DPW-Highway,DPW-Barrels Cleaned,7,5,0,0,0,2
+DPW-Highway,DPW-Barrels Installed,56,54,0,0,0,2
+DPW-Highway,DPW-Capital Projects,9,9,0,0,0,0
+DPW-Highway,DPW-Graffiti-Removal,258,205,22,7,2,20
+DPW-Highway,DPW-Install New Decorative Barrel,1,0,0,0,0,1
+DPW-Highway,DPW-PM Davis Sq-Highway/Sanitation,1,1,0,0,0,0
+DPW-Highway,DPW-Pothole,1835,1604,60,31,28,99
+DPW-Highway,DPW-Requesting a bench,1,0,0,0,0,1
+DPW-Highway,DPW-Sand Barrels,20,7,2,2,2,7
+DPW-Highway,DPW-Sidewalk Repair,202,163,3,2,1,32
+DPW-Highway,DPW-Sidewalk Repair-Emergency,11,4,0,0,0,6
+DPW-Highway,DPW-Snow-Removal,432,270,22,11,25,57
+DPW-Highway,DPW-Street Sweeping,25,25,0,0,0,0
+DPW-Highway,DPW-Street/Road Defect,6,5,0,0,0,1
+DPW-Highway,"DPW-Traffic Signals-Outages,Blinking Yel",176,35,12,10,5,107
+DPW-Highway,DPW-Trash on Sidewalk,35,31,1,0,0,3
+DPW-Highway,DPW-Tree Maintenance,138,115,1,0,0,22
+DPW-Highway,DPW-Tree Trimming,145,94,3,3,2,42
+DPW-Highway,DPW-Trees-arborist,62,62,0,0,0,0
+DPW-Highway,DPW-Trees Downed Limb or Branch,81,64,8,0,0,6
+DPW-Lights & Lines,DPW-Electrical inspection,4,0,0,0,0,4
+DPW-Misc,DPW-Miscellaneous,615,615,0,0,0,0
+DPW-Misc,DPW-Report Man,164,161,1,0,0,2
+DPW-Sanitation,DPW-Illegal Dumping,68,45,5,2,4,4
+DPW-Sanitation,DPW-Recycling- Damaged/ Broken Cart,4,3,0,0,0,1
+DPW-Sanitation,DPW-Recycling- Missing/ Stolen Cart,91,44,10,2,0,30
+DPW-Sanitation,DPW-Recycling - Missed Pickup,120,115,1,0,1,2
+DPW-Sanitation,DPW-Report Extra Trash,171,170,0,0,0,1
+DPW-Sanitation,DPW-Report Parking Space Being Saved,28,11,5,0,7,3
+DPW-Sanitation,DPW-Sanitation Other,6,6,0,0,0,0
+DPW-Sanitation,DPW-Trash-TV/Monitor,1241,1241,0,0,0,0
+DPW-Sanitation,DPW-Trash - Missed 7:00 A.M. Deadline,19,16,1,0,0,0
+DPW-Sanitation,DPW-Trash Missed Pickup,413,402,1,4,2,4
+DPW-Sanitation,DPW-Yard Waste Missed Pickup,96,92,3,0,0,0
+DPW-Water & Sewer,DPW-Catch Basin,13,7,2,2,0,1
+DPW-Water & Sewer,DPW-Catch Basin/Sewer,29,27,0,0,0,0
+DPW-Water & Sewer,DPW-Sewer - Emergency,31,30,0,0,1,0
+DPW-Water & Sewer,DPW-Water-Emergency Calls,37,7,12,5,5,0
+DPW-Water & Sewer,DPW-Water Quality Maintenance,7,5,0,1,1,0

@@ -1,0 +1,654 @@
+FID,geom,id,cond,loc_name,feat_type,maintain,site,suburb,ward
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.1,POINT (749330.84 5840757.94),00231715,Good,Flora,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.2,POINT (749197.99 5840360.88),00216010,Good,Ballarat Botanical Gardens,AH-Entrance,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.3,POINT (749159.87 5840373.77),00216013,Excellent,Ballarat Botanical Gardens,AH-Entrance,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.4,POINT (749172.06 5840475.73),00216100,Excellent,Ballarat Botanical Gardens,AH-Entrance,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.5,POINT (749369.63 5840778.94),00216068,Good,FM Claxton Fountain
+,AH-Fountain,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.6,POINT (749334.3 5840700.55),00216005,Excellent,Late 19th Century Lions
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.7,POINT (749250.42 5840676.33),00216036,Excellent,Stanley Bruce
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.8,POINT (749242.45 5840619.92),00216040,Excellent,Harold Holt
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.9,POINT (749257.47 5840663.68),00216077,Excellent,James Scullin
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.10,POINT (749201.12 5840622.05),00216092,Good,Koori Trail Totem,AH-Public Art,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.11,POINT (749198.75 5840610.68),00216093,Good,Koori Trail Totem,AH-Public Art,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.12,POINT (749190.7 5840560.83),00216097,Good,Koori Trail Totem missing,AH-Public Art,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.13,POINT (749332.16 5840691.65),00216061,Good,Late 19th Century Lions
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.14,POINT (749262.52 5840407.93),00216006,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.15,POINT (749230.45 5840476.55),00216015,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.16,POINT (749238.06 5840473.76),00216017,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.17,POINT (749222.43 5840509.89),00216032,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.18,POINT (749240.84 5840754.93),00216043,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.19,POINT (749243.53 5840764.96),00216044,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.20,POINT (749294.2 5840770.65),00216084,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.21,POINT (754648.47 5838451.83),00216160,Excellent,Eureka Stockade Reserve,AH-Pavement Art,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.22,POINT (749349.42 5839765.28),00216179,Excellent,Lake Wendouree,AH-Pavement Art,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.23,POINT (750994.86 5839977.16),00216211,Excellent,Lake Wendouree,AH-Flagpole,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.24,POINT (749374.2 5839759.77),00216189,Good,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.25,POINT (749359.32 5840197.42),00216195,Excellent,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.26,POINT (754029.31 5843311.38),00216167,Excellent,Invermay Recreation Reserve,AH-Plaque,Ballarat City Council,Invermay Recreation Reserve,Invermay,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.27,POINT (749675.69 5843671.94),00216356,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.28,POINT (749643.6 5843714.29),00216363,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.29,POINT (749628.43 5843721.96),00216365,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.30,POINT (749576.11 5843747.42),00216374,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.31,POINT (749561.14 5843752.76),00216376,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.32,POINT (749511.81 5843730.24),00216383,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.33,POINT (749477.09 5843723.29),00216388,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.34,POINT (749432.31 5843705.08),00216396,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.35,POINT (749464.21 5843703.9),00216408,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.36,POINT (753821.63 5840004.62),00216112,Good,BLACK HILL RESERVE (BLACK HILL LOOKOUT),AH-Plaque,Ballarat City Council,Black Hill Reserve (Black Hill Lookout),Black Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.37,POINT (749403.01 5843713.52),00216418,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.38,POINT (749396.25 5843721.05),00216424,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.39,POINT (749357.02 5843728.89),00216429,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.40,POINT (749327.94 5843741.32),00216433,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.41,POINT (749320.1 5843745.44),00216434,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.42,POINT (749358.16 5843734.3),00216435,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.43,POINT (749328.72 5843746.74),00216439,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.44,POINT (749312.75 5843748.44),00216441,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.45,POINT (749299.47 5843756.72),00216445,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.46,POINT (749287.66 5843782.07),00216452,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.47,POINT (749293.22 5843784.35),00216453,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.48,POINT (749524.29 5843739.2),00216276,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.49,POINT (749526.09 5843746.71),00216277,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.50,POINT (749653.03 5843716),00216291,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.51,POINT (749668.31 5843709.44),00216293,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.52,POINT (749679.46 5843697.66),00216296,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.53,POINT (749678.64 5843688.02),00216297,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.54,POINT (749681.72 5843664.05),00216300,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.55,POINT (749681.2 5843655.62),00216301,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.56,POINT (749656.3 5843636.6),00216305,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.57,POINT (749641.12 5843637.61),00216307,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.58,POINT (749633.51 5843643.72),00216308,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.59,POINT (749571.98 5843683.56),00216318,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.60,POINT (749564 5843685.69),00216319,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.61,POINT (749540.03 5843718.4),00216325,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.62,POINT (749526.76 5843724.46),00216327,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.63,POINT (749552.91 5843714.24),00216332,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.64,POINT (749572.86 5843689.31),00216337,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.65,POINT (749509.76 5839030.23),00216498,Excellent,Victoria Park,AH-Plaque,Ballarat City Council,Victoria Park,Newington,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.66,POINT (751268.06 5840705.13),00216204,Good,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.67,POINT (740002.77 5855086.67),00216214,Excellent,Learmonth Recreation Reserve,AH-Plaque,Ballarat City Council,Learmonth Recreation Reserve,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.68,POINT (740061.53 5854903.16),00216216,Fair,Learmonth Recreation Reserve,AH-Plaque,Ballarat City Council,Learmonth Recreation Reserve,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.69,POINT (749473.26 5843728.07),00216411,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.70,POINT (754059.21 5829296.94),00216131,Excellent,De Soza Park (Tannery Flat),AH-Plaque,Ballarat City Council,De Soza Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.71,POINT (753156.62 5838044.17),00216225,Excellent,Llanberris Athletics Reserve,AH-Plaque,Ballarat City Council,Llanberris Athletics Reserve,Golden Point,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.72,POINT (751698.01 5840466.58),00232032,Not Assessed,Eureka Diggers Memorial,AH-Memorial,Ballarat City Council,Macarthur Street,No Code Allocated,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.73,POINT (754381.58 5829025.73),00227886,Good,RSL Park Memorial Anchors
+,AH-Statue,Ballarat City Council,Buninyong RSL Memorial Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.74,POINT (754376.89 5829030.3),00231670,Not Assessed,Memorial Gateway RSL Park
+,AH-Memorial,Ballarat City Council,Buninyong RSL Memorial Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.75,POINT (751100.61 5834346.69),00216231,Fair,Marty Busch Reserve,AH-Flagpole,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.76,POINT (751114.09 5834278.3),00216240,Fair,Marty Busch Reserve,AH-Flagpole,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.77,POINT (751007.22 5834239.44),00216229,Good,Marty Busch Reserve,AH-Plaque,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.78,POINT (750690.09 5838709.61),00216511,Good,Western Oval,AH-Plaque,Ballarat City Council,Western Oval Reserve,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.79,POINT (754719.92 5828818.5),00216527,Fair,Buninyong Botanic Gardens,AH-Plaque,Ballarat City Council,Scott Street,Buninyong,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.80,POINT (749215.26 5840014.06),00216468,Excellent,Prisoner of War Memorial,AH-Memorial,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.81,POINT (749254.96 5840020.83),00216478,Excellent,Ballarat Botanical Gardens (South),AH-Flagpole,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.82,POINT (749304.49 5839994.46),00216471,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.83,POINT (749253.03 5840021.21),00216474,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.84,POINT (754806.05 5828737.26),00216517,Fair,Buninyong Botanic Gardens,AH-Plaque,Ballarat City Council,Cornish Street,Buninyong,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.85,POINT (749450.36 5842385.31),00216507,Good,Weeramar Park,AH-Public Art,Ballarat City Council,Weeramar Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.86,POINT (754660.13 5828827.66),00216118,Fair,Buninyong Botanic Gardens,AH-Plaque,Ballarat City Council,Buninyong Botanic Gardens,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.87,POINT (750852.44 5835046.4),00232017,Not Assessed,Roll of Honour Donald Park,AH-Memorial,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.88,POINT (749290.06 5840398.68),00216532,Good,Ballarat Botanical Gardens,AH-Entrance,Ballarat City Council,Wendouree Parade,Lake Wendouree,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.89,POINT (749311.91 5839974.9),00216540,Fair,Lake Wendouree,AH-Entrance,Ballarat City Council,Wendouree Parade,Lake Wendouree,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.90,POINT (749737.13 5841056.03),00216535,Good,Ballarat Botanical Gardens (North),AH-Plaque,Ballarat City Council,Wendouree Parade,Lake Wendouree,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.91,POINT (754441.53 5829197.98),00216132,Good,De Soza Park (Tannery Flat),AH-Plaque,Ballarat City Council,De Soza Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.92,POINT (754447.17 5829211.91),00216134,Fair,De Soza Park (Tannery Flat),AH-Plaque,Ballarat City Council,De Soza Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.93,POINT (753855.33 5837380.43),00216171,Excellent,Lake Esmond,AH-Plaque,Ballarat City Council,Lake Esmond Botanical Park,Canadian,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.94,POINT (749324.04 5840830.63),00216103,Excellent,Ballarat Botanical Gardens (North),AH-Entrance,Ballarat City Council,North Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.95,POINT (754925.04 5828702.52),00216494,Excellent,The Gong (Buninyong Bot Gardens),AH-Plaque,Ballarat City Council,The Gong,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.96,POINT (754738.92 5838471.27),00216144,Good,Eureka Stockade Reserve,AH-Fountain,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.97,POINT (754836.02 5838549.16),00216163,Good,Eureka Stockade Reserve,AH-Pavement Art,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.98,POINT (754662.16 5838537.27),00216155,Excellent,Eureka Stockade Reserve,AH-Flagpole,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.99,POINT (754638.96 5838449.79),00216158,Excellent,Eureka Stockade Reserve,AH-Flagpole,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.100,POINT (749344.76 5839774.31),00216178,Excellent,Lake Wendouree,AH-Pavement Art,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.101,POINT (749362.02 5840525.8),00216190,Fair,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.102,POINT (754020.76 5843311.87),00234149,Excellent,,AH-Plaque,Ballarat City Council,Invermay Recreation Reserve,Invermay,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.103,POINT (749656.98 5843641.57),00216350,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.104,POINT (749663.49 5843643.27),00216351,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.105,POINT (749669.14 5843645.87),00216352,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.106,POINT (749676.55 5843664.13),00216355,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.107,POINT (749674.26 5843679.57),00216357,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.108,POINT (749650.93 5843710.85),00216362,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.109,POINT (749568.97 5843751.19),00216375,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.110,POINT (749463.65 5843696.81),00216392,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.111,POINT (749447.75 5843700.62),00216394,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.112,POINT (749417.13 5843709.43),00216398,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.113,POINT (749440.97 5843707.6),00216405,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.114,POINT (749456.49 5843703.03),00216407,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.115,POINT (755474.16 5828503.25),00227901,Fair,,AH-Monuments,Ballarat City Council,Birdwood Park Reserve,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.116,POINT (753820 5839969.61),00216110,Fair,BLACK HILL RESERVE (BLACK HILL LOOKOUT),AH-Plaque,Ballarat City Council,Black Hill Reserve (Black Hill Lookout),Black Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.117,POINT (749548.38 5843669.61),00216269,Good,Pioneer Park,AH-Flagpole,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.118,POINT (749661.02 5843658.11),00216272,Good,Pioneer Park,AH-Flagpole,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.119,POINT (749380.4 5843726.53),00216425,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.120,POINT (749242.82 5840593.22),00231712,Good,Summer,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.121,POINT (749240.82 5840651.51),00231713,Good,Spring,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.122,POINT (749238.06 5840354.44),00231723,Good,Leda,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.123,POINT (749330.52 5840826.45),00231725,Good,Adam Lindsay Gordon,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.124,POINT (749361.51 5840774.92),00216070,Fair,Ballarat Botanical Gardens,AH-Entrance,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.125,POINT (749326.3 5840736.27),00232023,Good,The Flight From Pompeii,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.126,POINT (749242.6 5840583.59),00216023,Excellent,Paul Keating,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.127,POINT (749254.31 5840685.21),00216035,Excellent,Joseph Cook
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.128,POINT (749254.12 5840631.57),00216055,Excellent,Francis Forde
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.129,POINT (754624.89 5838438),00216159,Excellent,Eureka Stockade Reserve,AH-Public Art,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.130,POINT (754663.6 5838535.12),00216156,Excellent,Eureka Stockade Reserve,AH-Flagpole,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.131,POINT (749334.23 5840033.44),00216196,Good,Cannons,AH-Cannon,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.132,POINT (751026.09 5839726.17),00216209,Good,Lake Wendouree,AH-Public Art,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.133,POINT (749386.13 5840654.75),00216202,Good,Flag Pole in Honour of Graham Troon,AH-Flagpole,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.134,POINT (751246.39 5839989.32),00216206,Good,Lake Wendouree,AH-Monuments,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.135,POINT (749352.41 5839773.31),00216185,Excellent,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.136,POINT (749350.21 5839776.48),00216186,Excellent,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.137,POINT (749373.7 5839760.78),00216188,Fair,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.138,POINT (749356.94 5840539.06),00216191,Good,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.139,POINT (749383.28 5840659.41),00216201,Good,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.140,POINT (749650.15 5843641),00216349,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.141,POINT (749672.82 5843650.43),00216353,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.142,POINT (749673.3 5843689.85),00216358,Failed,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.143,POINT (749635.93 5843718.18),00216364,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.144,POINT (749599.22 5843724.51),00216369,Failed,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.145,POINT (749609.94 5843715.86),00216370,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.146,POINT (749599.23 5843736.39),00216371,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.147,POINT (749583.44 5843743.87),00216373,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.148,POINT (749534.48 5843754.67),00216379,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.149,POINT (749496.48 5843735.37),00216385,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.150,POINT (749455.46 5843698.06),00216393,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.151,POINT (749410.3 5843711.63),00216399,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.152,POINT (749403.35 5843718.95),00216403,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.153,POINT (749433.61 5843710.27),00216404,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.154,POINT (753820.57 5839977.4),00216111,Good,BLACK HILL RESERVE (BLACK HILL LOOKOUT),AH-Flagpole,Ballarat City Council,Black Hill Reserve (Black Hill Lookout),Black Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.155,POINT (749346.32 5840752.28),00231716,Good,Bacchante,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.156,POINT (749243.78 5840529.06),00231720,Good,Hebe,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.157,POINT (749326.3 5840736.27),00232025,Good,Ruth,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.158,POINT (749326.3 5840736.27),00232026,Good,Rebekah,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.159,POINT (749326.3 5840736.27),00232027,Good,Modesty,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.160,POINT (749326.82 5840683.25),00216004,Excellent,Ornamental Fountain,AH-Fountain,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.161,POINT (749200.27 5840484.56),00216031,Good,Ballarat Botanical Gardens,AH-Fountain,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.162,POINT (754654.97 5838524.62),00216149,Good,Eureka Stockade Reserve,AH-Pavement Art,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.163,POINT (754938.47 5838473.14),00216146,Good,Eureka Stockade Reserve,AH-Public Art,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.164,POINT (754640.75 5838454.99),00216165,Excellent,Eureka Stockade Reserve,AH-Public Art,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.165,POINT (754670.44 5838536.02),00216152,Excellent,Eureka Stockade Reserve,AH-Flagpole,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.166,POINT (754659.81 5838535.57),00216157,Excellent,Eureka Stockade Reserve,AH-Flagpole,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.167,POINT (754807.33 5838545.26),00216164,Good,Eureka Stockade Reserve,AH-Plaque,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.168,POINT (749389.47 5840657.76),00216200,Good,Lake Wendouree,AH-Cannon,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.169,POINT (749369.98 5840534.45),00216193,Good,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.170,POINT (749372.8 5840546.14),00216194,Fair,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.171,POINT (749674.25 5843700.82),00216359,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.172,POINT (749544.92 5843754.46),00216378,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.173,POINT (749529.64 5843737.93),00216381,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.174,POINT (749504.19 5843732.92),00216384,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.175,POINT (749488.18 5843735.84),00216386,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.176,POINT (749439.76 5843702.64),00216395,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.177,POINT (749411.87 5843716.92),00216400,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.178,POINT (749448.96 5843705.58),00216406,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.179,POINT (749467.82 5843712.02),00216409,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.180,POINT (749379.26 5843721.12),00216421,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.181,POINT (749388.18 5843723.52),00216428,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.182,POINT (749342.43 5843735),00216431,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.183,POINT (749335.28 5843738.32),00216432,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.184,POINT (749293.61 5843776.89),00216451,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.185,POINT (749571.33 5843758.89),00216278,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.186,POINT (749608.99 5843737.54),00216283,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.187,POINT (749638.72 5843722.77),00216289,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.188,POINT (749236.57 5840557.62),00231718,Excellent,Kevin Rudd,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.189,POINT (749223.51 5840470.14),00231721,Good,Winter,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.190,POINT (749344.84 5840693.04),00216060,Good,Ballarat Botanical Gardens,AH-Entrance,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.191,POINT (749192.68 5840594.2),00216094,Good,Ballarat Botanical Gardens,AH-Entrance,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.192,POINT (749256.23 5840704.7),00216033,Excellent,Alfred Deakin
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.193,POINT (749238.33 5840768.33),00216050,Excellent,Ballarat Botanical Gardens,AH-Flagpole,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.194,POINT (749183.43 5840389.09),00216012,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.195,POINT (749326.87 5840683.25),00216063,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.196,POINT (749329.67 5840752.93),00216066,Good,Ballarat Botanical Gardens,AH-Sundial,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.197,POINT (749238.66 5840602.02),00216025,Excellent,William McMahon,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.198,POINT (749234.99 5840587.3),00216027,Excellent,Bob Hawke,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.199,POINT (749245.44 5840640.16),00216038,Excellent,Robert Menzies
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.200,POINT (749261.73 5840764.41),00216047,Excellent,Robert Clarke
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.201,POINT (749256.72 5840647.59),00216052,Excellent,Earle Page
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.202,POINT (749207.55 5840556.21),00216029,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.203,POINT (749224.59 5840652.45),00216042,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.204,POINT (749245.02 5840767.24),00216045,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.205,POINT (749259.81 5840765.25),00216046,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.206,POINT (749293.22 5840735.45),00216080,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.207,POINT (749296.14 5840737.83),00216081,Fair,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.208,POINT (749195.61 5840588.67),00216095,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.209,POINT (753160.94 5838043.93),00216227,Good,Llanberris Athletics Reserve,AH-Flagpole,Ballarat City Council,Llanberris Athletics Reserve,Golden Point,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.210,POINT (751769.08 5840479.35),00232031,Not Assessed,Eureka Soldiers Memorial,AH-Memorial,Ballarat City Council,Macarthur Street,No Code Allocated,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.211,POINT (747667.48 5848010.31),00216520,Good,Miners Rest Cenotaph,AH-Monuments,Ballarat City Council,Howe Street,Miners Rest,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.212,POINT (753194.44 5839067.81),00225376,Fair,,AH-Monuments,Ballarat City Council,Mair Street East,Bakery Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.213,POINT (751852.76 5837201.47),00216245,Fair,Mt Pleasant Reserve,AH-Plaque,Ballarat City Council,Mount Pleasant Reserve,Mount Pleasant,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.214,POINT (749185.49 5840531.55),00216098,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.215,POINT (751260.41 5841743.97),00216122,Fair,C.E Brown Reserve,AH-Flagpole,Ballarat City Council,Charles Edward Brown Reserve,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.216,POINT (752276.35 5838864.58),00216266,Excellent,Phoenix Mall,AH-Plaque,Ballarat City Council,Phoenix Foundry Mall,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.217,POINT (749250.21 5840021.53),00216476,Excellent,Ballarat Botanical Gardens (South),AH-Flagpole,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.218,POINT (749256.29 5840020.68),00216479,Excellent,Ballarat Botanical Gardens (South),AH-Flagpole,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.219,POINT (749180.09 5840021.86),00216466,Excellent,Prisoner of War Memorial                     (Lest We Forget),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.220,POINT (749246.55 5840017.53),00216473,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.221,POINT (749254.87 5840005.95),00216480,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.222,POINT (749246.51 5840007.31),00216486,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.223,POINT (749300.36 5839992.36),00216487,Good,Ballarat Botanical Gardens (South),AH-Plaque,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.224,POINT (752226.5075137012 5839497.128409212),00225258,Good,,AH-Monuments,Ballarat City Council,Doveton Street North,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.225,POINT (749479.13 5842417.77),00216509,Excellent,Weeramar Park,AH-Plaque,Ballarat City Council,Weeramar Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.226,POINT (754737.56 5828729.41),00216116,Good,Buninyong Botanic Gardens,AH-Plaque,Ballarat City Council,Buninyong Botanic Gardens,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.227,POINT (755000.45 5828613.32),00216541,Fair,The Gong (Buninyong Bot Gardens),AH-Plaque,Ballarat City Council,Yuille Street,Buninyong,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.228,POINT (740449.06 5854730.13),00227268,Good,Learmonth Cenotaph,AH-Statue,Ballarat City Council,High Street service road (north),Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.229,POINT (751108.42 5834274.81),00216241,Fair,Marty Busch Reserve,AH-Flagpole,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.230,POINT (754864.93 5828778.47),00216526,Good,The Gong (Buninyong Bot Gardens),AH-Plaque,Ballarat City Council,Scott Street,Buninyong,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.231,POINT (752254.3372382063 5838819.736290435),00225623,Fair,Phoenix Mall,AH-Public Art,Ballarat City Council,Phoenix Foundry Mall,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.232,POINT (749307.27 5840003.34),00216470,Excellent,Ballarat Botanical Gardens (South),AH-Flagpole,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.233,POINT (749182.01 5840031.28),00216467,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.234,POINT (749251.09 5840012.62),00216475,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.235,POINT (752993.02 5839315.96),00216138,Good,Eastern Oval,AH-Plaque,Ballarat City Council,Eastern Oval,Ballarat East,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.236,POINT (749451.06 5842385.24),00216505,Good,Weeramar Park,AH-Plaque,Ballarat City Council,Weeramar Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.237,POINT (750858.24 5835046.81),00216250,Excellent,N F Donald Park (Neville Donald Park),AH-Flagpole,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.238,POINT (750858.55 5835042.35),00216251,Excellent,N F Donald Park (Neville Donald Park),AH-Flagpole,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.239,POINT (750876.16 5835044.86),00216247,Good,N F Donald Park (Neville Donald Park),AH-Monuments,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.240,POINT (750848.16 5835051.16),00216254,Excellent,N F Donald Park (Neville Donald Park),AH-Plaque,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.241,POINT (740810.1608217631 5854167.592276331),00227328,Good,,AH-Public Art,Ballarat City Council,Foreshore Road,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.242,POINT (749645.68 5843718.67),00216290,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.243,POINT (749679.2 5843680.23),00216298,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.244,POINT (749680.57 5843672.86),00216299,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.245,POINT (749624 5843665.78),00216311,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.246,POINT (749579 5843681.57),00216317,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.247,POINT (749551.23 5843699.51),00216322,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.248,POINT (749534.36 5843721.01),00216326,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.249,POINT (749555.78 5843706.82),00216333,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.250,POINT (749557.06 5843699.23),00216334,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.251,POINT (749597.06 5843681.81),00216340,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.252,POINT (749627.98 5843668.66),00216344,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.253,POINT (749483.87 5839434.92),00216502,Good,Victoria Park,AH-Entrance,Ballarat City Council,Victoria Park,Newington,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.254,POINT (740061.54 5854898.87),00216215,Excellent,Learmonth Recreation Reserve,AH-Entrance,Ballarat City Council,Learmonth Recreation Reserve,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.255,POINT (749494.71 5841209.28),00216263,Good,Ballarat Botanical Gardens (North),AH-Public Art,Private,North Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.256,POINT (749403.74 5843698.26),00216525,Fair,Pioneer Park,AH-Entrance,Ballarat City Council,McKenzie Drive,Wendouree,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.257,POINT (749498.94 5843740.63),00216415,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.258,POINT (749513.99 5843735.29),00216417,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.259,POINT (750848.24 5835036.38),00216255,Excellent,N F Donald Park (Neville Donald Park),AH-Plaque,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.260,POINT (750851.98 5835052.04),00216258,Good,N F Donald Park (Neville Donald Park),AH-Plaque,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.261,POINT (750551.78 5837924.04),00216496,Excellent,Trekardo Park,AH-Flagpole,Ballarat City Council,Trekardo Park,Redan,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.262,POINT (741098.5262426765 5853473.553545961),00227382,Good,,AH-Public Art,Private,Foreshore Road,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.263,POINT (749787.63 5841046.73),00216536,Poor,Ballarat Botanical Gardens (North),AH-Entrance,Ballarat City Council,Wendouree Parade,Lake Wendouree,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.264,POINT (749343.18 5839769.44),00216539,Fair,Lake Wendouree,AH-Pavement Art,Ballarat City Council,Wendouree Parade,Lake Wendouree,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.265,POINT (749292.44 5840400.73),00216533,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Wendouree Parade,Lake Wendouree,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.266,POINT (749539.34 5843780.85),00216273,Good,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.267,POINT (749372.08 5843723.44),00216422,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.268,POINT (749373.13 5843728.85),00216426,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.269,POINT (749349.16 5843732.24),00216430,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.270,POINT (749350.47 5843737.53),00216436,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.271,POINT (749287.36 5843774.75),00216450,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.272,POINT (749519.07 5843727.58),00216274,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.273,POINT (749521.79 5843732.83),00216275,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.274,POINT (749608 5843748.46),00216284,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.275,POINT (749623.73 5843730.33),00216287,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.276,POINT (749631.32 5843726.88),00216288,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.277,POINT (749626.5 5843660.49),00216310,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.278,POINT (749603.8 5843673.72),00216314,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.279,POINT (749554.97 5843688.63),00216320,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.280,POINT (749552.29 5843693.59),00216321,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.281,POINT (749548.94 5843720.58),00216331,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.282,POINT (749565.22 5843690.98),00216336,Excellent,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.283,POINT (753130.37 5838869.88),00225189,Good,,AH-Flagpole,Ballarat City Council,Victoria Street,Bakery Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.284,POINT (751014.09 5839695.1),00216208,Fair,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.285,POINT (739831.08 5854876.92),00216220,Excellent,Learmonth Recreation Reserve,AH-Plaque,Ballarat City Council,Learmonth Recreation Reserve,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.286,POINT (749471.99 5841209.52),00216262,Good,Ballarat Botanical Gardens (North),AH-Public Art,Private,North Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.287,POINT (749482.79 5843739.34),00216413,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.288,POINT (754443.33 5829230.58),00216135,Good,De Soza Park (Tannery Flat),AH-Plaque,Ballarat City Council,De Soza Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.289,POINT (753854.74 5837379.41),00216173,Good,Lake Esmond,AH-Plaque,Ballarat City Council,Lake Esmond Botanical Park,Canadian,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.290,POINT (749459.47 5841237.33),00216260,Good,Ballarat Botanical Gardens (North),AH-Public Art,Private,North Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.291,POINT (755015.85 5828680.39),00216490,Excellent,The Gong (Buninyong Bot Gardens),AH-Plaque,Ballarat City Council,The Gong,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.292,POINT (749249.47 5840609.38),00216057,Excellent,John Gorton
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.293,POINT (749317.38 5840697.09),00216071,Good,Sir William Wallace 1889
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.294,POINT (749261.36 5840672.56),00216076,Excellent,William Hughes
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.295,POINT (749209.48 5840670.35),00216089,Excellent,Koori Trail Totem missing,AH-Public Art,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.296,POINT (749193.41 5840580.07),00216096,Good,Koori Trail Totem,AH-Public Art,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.297,POINT (749239.13 5840771.42),00216049,Excellent,Ballarat Botanical Gardens,AH-Flagpole,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.298,POINT (749273.82 5840413.15),00216007,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.299,POINT (749241.19 5840486.78),00216019,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.300,POINT (749317.38 5840697.09),00216072,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.301,POINT (749288.06 5840778.17),00216083,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.302,POINT (749211.9 5840674.71),00216088,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.303,POINT (750558.11 5835645.44),00216512,Good,St Georges Reserve,AH-Flagpole,Ballarat City Council,St Georges Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.304,POINT (752598.51 5843114.32),00216515,Excellent,Rizal Park,AH-Plaque,Ballarat City Council,Cashel Court,Invermay Park,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.305,POINT (749335.88 5843743.52),00216438,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.306,POINT (749578.67 5843753.12),00216279,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.307,POINT (749586.68 5843748.77),00216280,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.308,POINT (749601.76 5843741.09),00216282,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.309,POINT (749660.44 5843712.56),00216292,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.310,POINT (749680.82 5843704.73),00216295,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.311,POINT (749677.51 5843647.62),00216302,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.312,POINT (749664.74 5843637.68),00216304,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.313,POINT (749629.96 5843652.05),00216309,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.314,POINT (749587.68 5843678.87),00216316,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.315,POINT (749529.31 5843729.83),00216328,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.316,POINT (749581.01 5843686.51),00216338,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.317,POINT (749605.47 5843679),00216341,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.318,POINT (749621.94 5843672.56),00216343,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.319,POINT (749634.37 5843654.69),00216346,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.320,POINT (751844.6 5838110.52),00231900,Not Assessed,Horse trough,AH-Monuments,Not Assessed,Skipton Street,No Code Allocated,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.321,POINT (749643.64 5843641.98),00216348,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.322,POINT (749433.43 5839362.11),00216501,Good,Victoria Park,AH-Cannon,Ballarat City Council,Victoria Park,Newington,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.323,POINT (740463.5385108881 5854516.411275172),00227333,Good,,AH-Public Art,Private,Learmonth Railway Reserve,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.324,POINT (740040.74 5854904.2),00216218,Good,Learmonth Recreation Reserve,AH-Flagpole,Ballarat City Council,Learmonth Recreation Reserve,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.325,POINT (740018 5854966.58),00216221,Excellent,Learmonth Recreation Reserve,AH-Plaque,Ballarat City Council,Learmonth Recreation Reserve,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.326,POINT (754344.49 5829213.29),00216130,Excellent,De Soza Park (Tannery Flat),AH-Plaque,Ballarat City Council,De Soza Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.327,POINT (754430.05 5829218.1),00216136,Fair,De Soza Park (Tannery Flat),AH-Plaque,Ballarat City Council,De Soza Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.328,POINT (736033.8132336356 5847169.7666628435),00227411,Not Assessed,,AH-Plaque,Ballarat City Council,Lake Burrumbeet Reserve,Burrumbeet,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.329,POINT (753855.56 5837380.86),00216170,Fair,Lake Esmond,AH-Plaque,Ballarat City Council,Lake Esmond Botanical Park,Canadian,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.330,POINT (749325.6 5840829.47),00216104,Excellent,Ballarat Botanical Gardens (North),AH-Plaque,Ballarat City Council,North Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.331,POINT (749474.11 5841242),00216259,Good,Ballarat Botanical Gardens (North),AH-Public Art,Private,North Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.332,POINT (754378.18 5829024.89),00227887,Good,,AH-Flagpole,Ballarat City Council,Buninyong RSL Memorial Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.333,POINT (754390.89 5829018.41),00227895,Not Assessed,,AH-Plaque,Ballarat City Council,Buninyong RSL Memorial Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.334,POINT (751112.89 5834317.1),00216233,Good,Marty Busch Reserve,AH-Flagpole,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.335,POINT (751134.19 5834293.91),00216234,Good,Marty Busch Reserve,AH-Flagpole,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.336,POINT (750898.67 5834381.69),00216237,Good,Marty Busch Reserve,AH-Plaque,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.337,POINT (747621.12 5837964.69),00227836,Good,,AH-Flagpole,Ballarat City Council,Carngham Road Linear Reserve,Delacombe,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.338,POINT (753894.99 5841089.29),00216166,Excellent,Inkerman Gully,AH-Plaque,Ballarat City Council,Inkerman Gully Reserve,Ballarat North,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.339,POINT (749310.65 5840038),00216488,Excellent,Cannon,AH-Cannon,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.340,POINT (749251.53 5840021.38),00216477,Excellent,Ballarat Botanical Gardens (South),AH-Flagpole,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.341,POINT (750577 5835567.16),00216503,Good,Victory Park,AH-Entrance,Ballarat City Council,Victory Park,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.342,POINT (753025 5840052.62),00216504,Poor,WALTER JONES RESERVE,AH-Entrance,Ballarat City Council,Walter Jones Reserve,Black Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.343,POINT (752375.9139665281 5838765.88725128),00224589,Not Assessed,Mailbox,AH-Historic,Ballarat City Council,Lydiard Street South,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.344,POINT (749474.83 5842375.42),00216506,Excellent,Weeramar Park,AH-Public Art,Ballarat City Council,Weeramar Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.345,POINT (749092.36 5843066.7),00216510,Failed,Wendouree West Recreation Reserve,AH-Plaque,Ballarat City Council,Wendouree West Recreation Reserve,Wendouree,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.346,POINT (750856.69 5835051.28),00216252,Excellent,N F Donald Park (Neville Donald Park),AH-Plaque,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.347,POINT (750848.11 5835049.49),00216257,Good,N F Donald Park (Neville Donald Park),AH-Plaque,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.348,POINT (750552.83 5837929.57),00216495,Excellent,Trekardo Park,AH-Flagpole,Ballarat City Council,Trekardo Park,Redan,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.349,POINT (752247.72 5838785.49),00216514,Good,Phoenix Mall,AH-Plaque,Ballarat City Council,Armstrong Street South,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.350,POINT (754980 5828634.84),00216491,Good,The Gong (Buninyong Bot Gardens),AH-Plaque,Ballarat City Council,The Gong,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.351,POINT (748520.49 5839981.03),00216522,Excellent,Learmonth Street Road Reserve,AH-Plaque,Ballarat City Council,Learmonth Street,Alfredton,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.352,POINT (752598.07 5838914.55),00224621,Not Assessed,,AH-Plaque,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.353,POINT (752372.42 5838954.91),00224646,Good,South Africa Monument Statue Boer war
+,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.354,POINT (752326.15 5838971.1),00224654,Good,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.355,POINT (752325.19 5838966.02),00224655,Good,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.356,POINT (752316.84 5838958.28),00224660,Excellent,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.357,POINT (754445.93 5829217.28),00216133,Good,De Soza Park (Tannery Flat),AH-Public Art,Ballarat City Council,De Soza Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.358,POINT (749476 5841216.62),00216261,Good,Ballarat Botanical Gardens (North),AH-Public Art,Private,North Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.359,POINT (754733.09 5839519.53),00216464,Excellent,Russell Square,AH-Plaque,Ballarat City Council,Russell Square,Brown Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.360,POINT (754898.01 5838460.02),00216518,Excellent,Eureka Stockade Reserve,AH-Entrance,Ballarat City Council,Eureka Street,No Code Allocated,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.361,POINT (752591.48 5838914),00224620,Good,The Galloway Movement Memorial  (8 Hour Day),AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.362,POINT (752594.83 5838915.3),00224622,Not Assessed,,AH-Plaque,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.363,POINT (752401.29 5838948.38),00224643,Good,Burke and Wills Memorial Fountain
+,AH-Fountain,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.364,POINT (752228.26 5838980.76),00224679,Good,Ruth,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.365,POINT (752109.57 5839000.99),00224707,Good,Pompy Elliot  Memorial,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.366,POINT (751447.47 5839115.87),00224764,Good,Peterson Fountain,AH-Fountain,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.367,POINT (753389.8 5837816.22),00216458,Excellent,Poverty Point  (Canadian Creek),AH-Plaque,Ballarat City Council,Poverty Point  (Canadian Creek),Golden Point,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.368,POINT (752232.2631130213 5838984.882675359),00224687,Good,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.369,POINT (748516.16 5840033.55),00223680,Excellent,Arch of Victory Monument
+,AH-Monuments,Ballarat City Council,Sturt Street,Alfredton,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.370,POINT (756042.75 5839871.91),00216114,Fair,Brown Hill Reserve  (Progress Park),AH-Plaque,Ballarat City Council,Brown Hill Reserve,Brown Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.371,POINT (748780.98 5840452.19),00216460,Excellent,Prince of Wales Park,AH-Plaque,Ballarat City Council,Prince of Wales Park,Lake Gardens,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.372,POINT (749026.45 5840398.02),00216463,Good,Prince of Wales Park,AH-Plaque,Ballarat City Council,Prince of Wales Park,Lake Gardens,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.373,POINT (752226.06 5838981.95),00224690,Not Assessed,,AH-Plaque,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.374,POINT (752122.5 5839000.03),00224705,Not Assessed,William Dunstan VC Memorial 
+,AH-Memorial,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.375,POINT (752233.3598103129 5838972.135270057),00224689,Excellent,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.376,POINT (749315.79 5840762.64),00231717,Good,Pomona,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.377,POINT (749252.91 5840638.6),00216054,Excellent,Arthur Fadden
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.378,POINT (749212.58 5840685.47),00216087,Good,Koori Trail Totem,AH-Public Art,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.379,POINT (754703.43 5828799.78),00216117,Excellent,Buninyong Botanic Gardens,AH-Plaque,Ballarat City Council,Buninyong Botanic Gardens,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.380,POINT (751107.25 5839894.89),00231668,Fair,Stone monument,AH-Monuments,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.381,POINT (749300.35 5843762.7),00216446,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.382,POINT (749294.42 5843792.09),00216455,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.383,POINT (749595.03 5843676.2),00216315,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.384,POINT (749549.14 5843706.46),00216323,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.385,POINT (749545.83 5843714.23),00216324,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.386,POINT (749473.1 5843708.08),00216390,Fair,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.387,POINT (749250.73 5840006.52),00216483,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.388,POINT (750560.31 5837902.54),00216497,Excellent,Trekardo Park,AH-Plaque,Ballarat City Council,Trekardo Park,Redan,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.389,POINT (752685.64 5838891.88),00225494,Excellent,,AH-Flagpole,Ballarat City Council,Bridge Mall,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.390,POINT (752269.14 5838973.06),00224670,Good,Thomas Moore Memorial Statue,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.391,POINT (751941.32 5839029.77),00224729,Not Assessed,Cenotaph
+,AH-Memorial,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.392,POINT (751746.88 5839064.96),00224740,Good,Pinkerton Memorial,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.393,POINT (758178.82 5828694.07),00227942,Not Assessed,,AH-Plaque,Ballarat City Council,Mount Buninyong,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.394,POINT (750566.3 5838148.07),00231904,Fair,Horse trough,AH-Monuments,Ballarat City Council,Pleasant Street South,No Code Allocated,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.395,POINT (752203.4603788899 5838987.9820444845),00224697,Good,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.396,POINT (749019.19 5839705.23),00216530,Good,Victoria Park,AH-Plaque,Ballarat City Council,Sturt Street,No Code Allocated,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.397,POINT (755958.43 5839905.17),00216113,Excellent,Brown Hill Reserve  (Progress Park),AH-Plaque,Ballarat City Council,Brown Hill Reserve,Brown Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.398,POINT (748783.28 5840461.19),00216459,Good,Prince of Wales Park,AH-Plaque,Ballarat City Council,Prince of Wales Park,Lake Gardens,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.399,POINT (749255.7 5840467.76),00231722,Good,Flora Farnese,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.400,POINT (749326.3 5840736.27),00232024,Good,Susannah,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.401,POINT (749245.86 5840592.27),00216024,Excellent,Malcom Fraser (+ Spare),AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.402,POINT (749241.86 5840632.6),00216039,Excellent,John Curtin
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.403,POINT (749204.18 5840638.51),00216090,Good,Koori Trail Totem,AH-Public Art,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.404,POINT (749180.45 5840516.7),00216099,Good,Koori Trail Totem,AH-Public Art,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.405,POINT (754649.24 5838452.08),00216161,Excellent,Eureka Stockade Reserve,AH-Plaque,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.406,POINT (746526.48 5853799.7),00216123,Excellent,Mt Blowhard Reserve,AH-Plaque,Ballarat City Council,Centenary Park,Blowhard,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.407,POINT (754649.24 5828829.88),00216119,Fair,Buninyong Botanic Gardens,AH-Plaque,Ballarat City Council,Buninyong Botanic Gardens,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.408,POINT (751107.25 5839894.89),00216212,Good,Ned Williams Memorial,AH-Monuments,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.409,POINT (749355.33 5839770.44),00216187,Excellent,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.410,POINT (751118.55 5834352.26),00216228,Fair,Marty Busch Reserve,AH-Flagpole,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.411,POINT (740042.57 5854928.4),00216219,Fair,Learmonth Recreation Reserve,AH-Plaque,Ballarat City Council,Learmonth Recreation Reserve,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.412,POINT (753126.41 5838033.43),00216226,Excellent,Llanberris Athletics Reserve,AH-Plaque,Ballarat City Council,Llanberris Athletics Reserve,Golden Point,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.413,POINT (749511.13 5843684.62),00216271,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.414,POINT (749305.71 5843752.43),00216443,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.415,POINT (749292.99 5843762.03),00216447,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.416,POINT (749543.89 5843723.17),00216330,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.417,POINT (749613.61 5843729.19),00216367,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.418,POINT (752317.44 5838970.79),00224662,Good,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.419,POINT (754451.44 5829204.11),00216531,Good,De Soza Park (Tannery Flat),AH-Plaque,Ballarat City Council,Warrenheip Street,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.420,POINT (749224.52 5840551.37),00231719,Good,Autumn,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.421,POINT (749250.18 5840665.45),00216037,Excellent,Joseph Lyons
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.422,POINT (754669.26 5838765.68),00216516,Good,Eureka Stockade Reserve,AH-Public Art,Ballarat City Council,Charlesworth Street,No Code Allocated,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.423,POINT (747362.66 5848140.74),00216242,Excellent,Miners Rest Park,AH-Plaque,Ballarat City Council,Miners Rest Reserve,Miners Rest,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.424,POINT (752326.67 5838957.96),00224656,Good,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.564,POINT (749475.08 5843715.13),00216389,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.425,POINT (752299.61 5838965.28),00224668,Good,Queen Victoria Memorial Fountain
+,AH-Fountain,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.426,POINT (752006.69 5839019.07),00224722,Not Assessed,Korea, Malaya, Borneo, Vietnam War Memorial
+,AH-Memorial,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.427,POINT (751988.18 5839019.86),00224725,Good,Peter Lalor
+,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.428,POINT (758177.43 5828686.77),00216243,Poor,MT BUNINYONG,AH-Plaque,Ballarat City Council,Mount Buninyong,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.429,POINT (752232.6011926382 5838975.644555751),00224688,Excellent,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.430,POINT (752201.2504926184 5838982.783102715),00224698,Good,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.431,POINT (748809.45 5840493.51),00216462,Good,Prince of Wales Park,AH-Plaque,Ballarat City Council,Prince of Wales Park,Lake Gardens,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.432,POINT (752441.48 5838943.36),00224642,Good,Robbie Burns Memorial Statue,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.433,POINT (752078.01 5839005.62),00224711,Good,Albert Coates  Memorial 
+,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.434,POINT (749301.02 5840470.43),00216534,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Wendouree Parade,Lake Wendouree,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.435,POINT (749223.19 5840762.92),00216086,Excellent,Ballarat Botanical Gardens,AH-Entrance,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.436,POINT (749253.6 5840693.9),00216034,Excellent,George Reid
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.437,POINT (749231.35 5840320.9),00216011,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.438,POINT (749258.6 5840753.33),00216048,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.439,POINT (754757.5 5838489.02),00216145,Good,Eureka Stockade Reserve,AH-Fountain,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.440,POINT (754668.37 5838549.42),00216150,Excellent,Eureka Stockade Reserve,AH-Flagpole,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.441,POINT (754378.49 5829048.48),00227881,Excellent,,AH-Cannon,Ballarat City Council,Buninyong RSL Memorial Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.442,POINT (740024.9 5854956.97),00216222,Fair,Learmonth Recreation Reserve,AH-Plaque,Ballarat City Council,Learmonth Recreation Reserve,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.443,POINT (753280.52 5838485.05),00216224,Excellent,Len T Fraser Reserve,AH-Plaque,Ballarat City Council,Len T Frazer Reserve,Bakery Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.444,POINT (751122.57 5839896.11),00216213,Good,Entrance over from Lake View Hotel,AH-Entrance,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.445,POINT (750846.63 5835057.9),00232018,Good,Drinking Fountain Donald Park,AH-Monuments,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.446,POINT (752268.4 5838827.26),00216267,Excellent,Phoenix Mall,AH-Pavement Art,Ballarat City Council,Phoenix Foundry Mall,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.447,POINT (749622.56 5843742.49),00216285,Failed,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.448,POINT (749658.08 5843707.41),00216361,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.449,POINT (748645.22 5840526.09),00216461,Good,Prince of Wales Park,AH-Plaque,Ballarat City Council,Prince of Wales Park,Lake Gardens,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.450,POINT (749506.38 5843738.18),00216416,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.451,POINT (748519.93 5839999.45),00227603,Good,,AH-Flagpole,Ballarat City Council,Learmonth Street service road (east),Alfredton,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.452,POINT (749264.89 5840692.89),00216074,Excellent,Chris Watson
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.453,POINT (752540.43 5838901.03),00224784,Good,Gold Monument 
+,AH-Monuments,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.454,POINT (752027.77 5838987.28),00231901,Not Assessed,Mailbox,AH-Historic,Ballarat City Council,Sturt Street,No Code Allocated,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.455,POINT (758173.91 5828658.36),00227946,Fair,,AH-Monuments,Ballarat City Council,Mount Buninyong,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.456,POINT (753398.66 5837813.95),00216457,Good,Poverty Point  (Canadian Creek),AH-Monuments,Ballarat City Council,Poverty Point  (Canadian Creek),Golden Point,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.457,POINT (751281.98 5835691.02),00216513,Good,Yuille Station Park,AH-Plaque,Ballarat City Council,Yuille Station Park -Yarrowee River,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.458,POINT (749016.59 5839703.98),00216529,Good,Victoria Park,AH-Entrance,Ballarat City Council,Sturt Street,No Code Allocated,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.459,POINT (752629.31 5838908.33),00224618,Good,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.460,POINT (752202.3884191321 5838977.9940775065),00224699,Excellent,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.461,POINT (751962.01 5839027.59),00224727,Not Assessed,Peace Flame,AH-Memorial,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.462,POINT (752199.5765862267 5838990.131606946),00224696,Good,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.463,POINT (749159.14 5840393.16),00216102,Good,Koori Trail Totem,AH-Public Art,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.464,POINT (749237.88 5840765.35),00216051,Excellent,Ballarat Botanical Gardens,AH-Flagpole,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.465,POINT (749231.21 5840481.41),00216016,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.466,POINT (753813.63 5839854.87),00216109,Poor,BLACK HILL RESERVE (BLACK HILL LOOKOUT),AH-Monuments,Ballarat City Council,Black Hill Reserve (Black Hill Lookout),Black Hill,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.467,POINT (754894.25 5838475.94),00216143,Good,Eureka Stockade Reserve,AH-Fountain,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.468,POINT (749352.19 5839773.06),00216180,Excellent,Olympic Monument,AH-Monuments,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.469,POINT (749350.78 5839772.02),00216181,Excellent,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.470,POINT (749361.59 5840534.92),00216192,Good,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.471,POINT (751125.81 5834320.85),00216232,Good,Marty Busch Reserve,AH-Flagpole,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.472,POINT (750991.12 5834262.36),00216230,Good,Marty Busch Reserve,AH-Plaque,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.473,POINT (753868.44 5837387.34),00216169,Excellent,Lake Esmond,AH-Plaque,Ballarat City Council,Lake Esmond Botanical Park,Canadian,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.474,POINT (750852.6 5835037.36),00216256,Good,N F Donald Park (Neville Donald Park),AH-Plaque,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.475,POINT (749365.87 5843731.74),00216427,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.476,POINT (749343.2 5843740.08),00216437,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.477,POINT (749321.64 5843749.73),00216440,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.478,POINT (749313.81 5843754.07),00216442,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.479,POINT (749616.05 5843734),00216286,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.480,POINT (749536.46 5843726.39),00216329,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.481,POINT (749248.01 5840007.04),00216485,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.482,POINT (749424.95 5843707.42),00216397,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.483,POINT (749278.65 5840586.14),00231711,Good,Mercury,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.484,POINT (749334.78 5840678.91),00216062,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.485,POINT (754920.63 5838564.73),00216147,Good,Eureka Stockade Reserve,AH-Entrance,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.486,POINT (754376.89 5829030.3),00227885,Not Assessed,All Wars plaque, RSL Memorial
+,AH-Memorial,Ballarat City Council,Buninyong RSL Memorial Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.487,POINT (753855.09 5837379.94),00216172,Good,Lake Esmond,AH-Plaque,Ballarat City Council,Lake Esmond Botanical Park,Canadian,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.488,POINT (750876.16 5835044.86),00216249,Good,N F Donald Park (Neville Donald Park),AH-Plaque,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.489,POINT (749387.15 5843718.44),00216420,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.490,POINT (749307.29 5843757.82),00216444,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.491,POINT (749593.39 5843745.23),00216281,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.492,POINT (749649.39 5843636.14),00216306,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.493,POINT (749666.12 5843704.17),00216360,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.494,POINT (749253.37 5840005.99),00216481,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.495,POINT (749446.08 5839350.5),00216500,Good,Victoria Park,AH-Cannon,Ballarat City Council,Victoria Park,Newington,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.496,POINT (749491.17 5843741.42),00216414,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.497,POINT (752051.88 5839010.67),00224715,Not Assessed,National Servicemen's Association Memorial 
+,AH-Memorial,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.498,POINT (752190.21 5838987.88),00224700,Good,Hebe,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.499,POINT (752229.278117389 5838989.331769759),00224686,Good,,AH-Flagpole,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.500,POINT (749245.59 5840735.5),00232028,Good,Perseus,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.501,POINT (749234.86 5840595.28),00216026,Excellent,Gough Withlam,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.502,POINT (749241.23 5840411.57),00216008,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.503,POINT (749252.92 5840612.16),00216058,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.504,POINT (749203.16 5840628.21),00216091,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.505,POINT (749383.28 5840659.41),00216198,Good,Lake Wendouree,AH-Cannon,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.506,POINT (749381.75 5840652.1),00216199,Good,Lake Wendouree,AH-Cannon,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.507,POINT (751046.15 5839719.9),00216210,Good,Lake Wendouree,AH-Public Art,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.508,POINT (751268.9 5840703.77),00216203,Good,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.509,POINT (750858.61 5835051.18),00216253,Excellent,N F Donald Park (Neville Donald Park),AH-Plaque,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.510,POINT (752256.18 5838829.64),00216265,Excellent,Phoenix Mall,AH-Pavement Art,Ballarat City Council,Phoenix Foundry Mall,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.511,POINT (749589.69 5843684.14),00216339,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.512,POINT (749675.37 5843655.68),00216354,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.513,POINT (749621.37 5843725.4),00216366,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.514,POINT (749532.11 5843746.3),00216380,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.515,POINT (749480.69 5843730.96),00216387,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.516,POINT (749479.38 5842417.25),00216508,Good,Weeramar Park,AH-Public Art,Ballarat City Council,Weeramar Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.517,POINT (753245.04 5836708.13),00232115,Fair,Horse Trough,AH-Monuments,Ballarat City Council,Main Road,No Code Allocated,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.518,POINT (749238.65 5840469.75),00216018,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.519,POINT (754666.33 5838536.51),00216153,Excellent,Eureka Stockade Reserve,AH-Flagpole,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.520,POINT (754920.82 5838563.77),00216148,Excellent,Eureka Stockade Reserve,AH-Plaque,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.521,POINT (750857.01 5835044.47),00216246,Excellent,N F Donald Park (Neville Donald Park),AH-Monuments,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.522,POINT (749549.01 5843672.66),00216270,Good,Pioneer Park,AH-Entrance,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.523,POINT (749294.79 5843769.08),00216448,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.524,POINT (749289.26 5843767.47),00216449,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.525,POINT (749631.91 5843661.1),00216345,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.526,POINT (754954.68 5828675.61),00216493,Excellent,The Gong (Buninyong Bot Gardens),AH-Plaque,Ballarat City Council,The Gong,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.527,POINT (750407.55 5837841.72),00216456,Good,Pleasant Street Reserve,AH-Flagpole,Ballarat City Council,Pleasant Street Reserve,Redan,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.528,POINT (754784.75 5829128.42),00216519,Excellent,Buninyong Recreation Park,AH-Monuments,Ballarat City Council,Forest Street,Buninyong,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.529,POINT (748515.56 5839982.47),00216523,Excellent,Learmonth Street Road Reserve,AH-Monuments,Ballarat City Council,Learmonth Street,Alfredton,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.530,POINT (752326.18 5838962.05),00224659,Good,Queen Victoria Memorial Statue
+,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.531,POINT (749241.19 5840486.78),00216020,Fair,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.532,POINT (749326.87 5840683.25),00216064,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.533,POINT (749278.27 5840770.02),00216082,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.534,POINT (754888.98 5838502.76),00216142,Good,Eureka Stockade Reserve,AH-Monuments,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.535,POINT (754664.91 5838543.41),00216151,Good,Eureka Stockade Reserve,AH-Plaque,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.536,POINT (750893.79 5834387.85),00216236,Fair,Marty Busch Reserve,AH-Entrance,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.537,POINT (749395.22 5843716.2),00216419,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.538,POINT (749610.55 5843671.41),00216313,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.539,POINT (749606.54 5843732.51),00216368,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.540,POINT (749591.03 5843740.42),00216372,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.541,POINT (749303.13 5840002.17),00216469,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.542,POINT (749232.87 5840580.66),00216028,Excellent,John Howard
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.543,POINT (749238.08 5840612.83),00216041,Excellent,John McEwen
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.544,POINT (749269.41 5840472.38),00216009,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.545,POINT (749293.29 5840684.26),00216078,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.546,POINT (749351.85 5839773.31),00216183,Excellent,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.547,POINT (749352.43 5839772.79),00216184,Good,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.548,POINT (751246.39 5839989.32),00216207,Good,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.549,POINT (751098.87 5834446.72),00216239,Good,Marty Busch Reserve,AH-Plaque,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.550,POINT (749287.98 5843789.73),00216454,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.551,POINT (749675.65 5843706.44),00216294,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.552,POINT (749617.73 5843668.97),00216312,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.553,POINT (749362.58 5840783.97),00216069,Good,Ballarat Botanical Gardens,AH-Entrance,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.554,POINT (749162.8 5840412.15),00216101,Good,Koori Trail Totem missing,AH-Public Art,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.555,POINT (749217.14 5840398.41),00216021,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.556,POINT (754638.31 5828833.22),00216121,Poor,Buninyong Botanic Gardens,AH-Plaque,Ballarat City Council,Buninyong Botanic Gardens,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.557,POINT (754381.58 5829025.73),00231645,Good,Aviation Component, RSL Park
+,AH-Statue,Ballarat City Council,Buninyong RSL Memorial Park,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.558,POINT (749347.61 5839769.45),00216177,Excellent,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.559,POINT (740041.47 5854901.63),00216217,Good,Learmonth Recreation Reserve,AH-Flagpole,Ballarat City Council,Learmonth Recreation Reserve,Learmonth,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.560,POINT (750876.16 5835044.86),00216248,Good,N F Donald Park (Neville Donald Park),AH-Plaque,Ballarat City Council,N F Donald Park (Neville Donald Park),Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.561,POINT (749363.76 5843726.47),00216423,Fair,Pioneer Park,AH-Monuments,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.562,POINT (749559.21 5843694.28),00216335,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.563,POINT (749529.16 5843757.16),00216382,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.565,POINT (754964.22 5828646.99),00216492,Excellent,The Gong (Buninyong Bot Gardens),AH-Plaque,Ballarat City Council,The Gong,Buninyong,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.566,POINT (749463.28 5839369.75),00216499,Poor,Victoria Park,AH-Plaque,Ballarat City Council,Victoria Park,Newington,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.567,POINT (748514.3 5839974.46),00216524,Excellent,Roll of Honour Memorial
+1700 Sturt Street
+Ballarat,AH-Monuments,Ballarat City Council,Learmonth Street,Alfredton,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.568,POINT (752141.51 5838995.25),00224702,Fair,King George V. Monument
+,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.569,POINT (751880.37 5839042.07),00224733,Good,Gordon Memorial,AH-Statue,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.570,POINT (751871.87 5839042.76),00224736,Not Assessed,,AH-Plaque,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.571,POINT (752444.11 5838904.53),00232030,Good,Unicorn Lane Gallery,AH-Public Art,Ballarat City Council,Unicorn Lane,Ballarat Central,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.572,POINT (749470.66 5843721.04),00216410,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.573,POINT (747668.98 5848007.16),00216521,Good,Miners Rest Park,AH-Flagpole,Ballarat City Council,Howe Street,Miners Rest,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.574,POINT (749265.37 5840702.76),00216073,Excellent,Edmond Barton
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.575,POINT (749260.94 5840682.12),00216075,Excellent,Andrew Fisher
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.576,POINT (749250.18 5840550.6),00216022,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.577,POINT (749253.94 5840643.24),00216053,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.578,POINT (749271.81 5840617.04),00216059,Good,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.579,POINT (754667.56 5838534.55),00216154,Excellent,Eureka Stockade Reserve,AH-Flagpole,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.580,POINT (751057.46 5834444.87),00216238,Fair,Marty Busch Reserve,AH-Plaque,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.581,POINT (749672.46 5843641.44),00216303,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.582,POINT (749613.69 5843675.87),00216342,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.583,POINT (749637.43 5843647.49),00216347,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.584,POINT (749182.14 5840018.37),00216465,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.585,POINT (749251.96 5840006.26),00216482,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.586,POINT (749249.41 5840006.78),00216484,Excellent,Ballarat Botanical Gardens (South),AH-Monuments,Ballarat City Council,South Gardens Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.587,POINT (748519.05 5840001.37),00216528,Excellent,Learmonth Street Road Reserve,AH-Flagpole,Ballarat City Council,Sturt Street,No Code Allocated,No Code Allocated
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.588,POINT (749281.65 5840652.65),00231714,Good,Hercules,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.589,POINT (749230.26 5840568.68),00231724,Excellent,Julia Gillard,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.590,POINT (749249.19 5840617.57),00216056,Excellent,Ben Chifley
+,AH-Statue,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.591,POINT (749212.86 5840512.29),00216030,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.592,POINT (749320.62 5840672.56),00216065,Excellent,Ballarat Botanical Gardens,AH-Plaque,Ballarat City Council,Ballarat Botanical Gardens,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.593,POINT (754779.56 5838504.57),00216162,Excellent,Eureka Stockade Reserve,AH-Plaque,Ballarat City Council,Eureka Stockade,Eureka,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.594,POINT (749390.39 5840657.85),00216197,Good,Lake Wendouree,AH-Cannon,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.595,POINT (749351.95 5839772.77),00216182,Excellent,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.596,POINT (751322.75 5840286.68),00216205,Good,Lake Wendouree,AH-Plaque,Ballarat City Council,Lake Wendouree Reserve,Lake Wendouree,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.597,POINT (751121.54 5834290.52),00216235,Good,Marty Busch Reserve,AH-Flagpole,Ballarat City Council,Marty Busch Reserve,Sebastopol,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.598,POINT (753847.73 5837603.83),00216168,Excellent,Lake Esmond,AH-Entrance,Ballarat City Council,Lake Esmond Botanical Park,Canadian,South
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.599,POINT (752248.11 5838799.56),00216268,Fair,Phoenix Mall,AH-Plaque,Ballarat City Council,Phoenix Foundry Mall,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.600,POINT (749552.59 5843753.68),00216377,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.601,POINT (749469.61 5843701.08),00216391,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.602,POINT (749418.26 5843714.39),00216401,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.603,POINT (749426.24 5843712.26),00216402,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.604,POINT (753047.27 5837065.91),00216489,Good,GOLDEN POINT LOOKOUT (SOV HILL LOOKOUT),AH-Plaque,Ballarat City Council,Golden Point Lookout,Golden Point,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.605,POINT (749477.18 5843734.95),00216412,Good,Pioneer Park,AH-Plaque,Ballarat City Council,Pioneer Park,Wendouree,North
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.606,POINT (752625.26 5838902.13),00224619,Not Assessed,,AH-Plaque,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.607,POINT (750789.29 5839234.57),00224894,Not Assessed,Signage to POW memorial
+,AH-Memorial,Ballarat City Council,Sturt Street,Ballarat Central,Central
+4b112645_dcc3_4d55_a0f8_b900ef1b074d.608,POINT (737372.99 5854393.54),00232021,Fair,Weatherboard Memorial,AH-Monuments,Ballarat City Council,Weatherboard Road,No Code Allocated,No Code Allocated

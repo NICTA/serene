@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1982 has 4 bedroom(s), 3 bath(s) , 3
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, private pool, private spa, patio, fireplace.</house_description>
+
+<agent_name>Doris Y. Ong</agent_name>
+<office>602-997-7324</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>602-997-7324</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$558,000</list_price>
+<location>Phoenix, AZ 85023</location>
+<mls>1432810</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Multi Zoned</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Room, Cable TV, Cathedral/Vaulted Ceilings,Ceiling Fan(s), Central Vacuum, Dishwasher, Eat In Kitchen, Game Room,Garage Door Opener, Gazebo, Intercom System, Microwave, Pantry, TennisCourt(s), Trash Compacter, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

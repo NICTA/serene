@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1977 has 5
+bedroom(s), 3 bath(s) , 2 car garage and approximately 2518 square
+feet of living area. Rooms include den, dining room, family room,
+living room, bonus room, master bedroom. Features include patio,
+fireplace.</house_description>
+
+<agent_name>Richard Heimback</agent_name>
+<direct>760-723-5015</direct>
+<office>760-723-5000</office>
+<firm_name>C-21 Rolling Hills C-21 Rolling Hills</firm_name>
+<phone>760-723-5000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$309,000</list_price>
+<location>San Diego, CA 92129</location>
+<mls>99 1018637</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2518 (approx)</square_feet>
+<year_built>1977</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Yes</patio>
+<rooms>Bonus Room, Den, Dining Room, Family Room, Living Room, Master</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

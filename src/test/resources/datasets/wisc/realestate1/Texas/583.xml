@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Paul R. (Ron) Emmert</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>TEXRELEST@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20616</id>
+<mls>15120</mls>
+<house_location>1805 Acadia Street
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$96,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This great 4/2.5/2 two story home, offer two living areas. The family room is accompanied with a fireplace to enjoy those quite evenings with your family or friends. The kitchen is centrally located between the two living areas. The grand master bedroom offers a area to be suited for a sitting area and a master walk-in closet that is very roomy. The master bathroom is spacious and comfortable. All bedrooms are well designed  throughout the second floor. The backyard is ready for those family events. The exterior has been freshly painted.</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Haverford</sub-division>
+<approx_size_sqft>2182</approx_size_sqft>
+<approx_lot_size>65/124.83/65/124.83</approx_lot_size>
+<year_built>1990</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Grand Master Bedroom</item>
+<item>Two living areas</item>
+<item>Fireplace</item>
+<item>two story home 4/2.5/2</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

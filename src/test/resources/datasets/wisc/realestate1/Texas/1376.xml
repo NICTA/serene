@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jennie Evans</name>
+<office>(254)542-2121</office>
+<fax>(254)542-7400</fax>
+<mobile>(254)681-1028</mobile>
+<email>jqevans@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20491</id>
+<mls>88933</mls>
+<house_location>RT 4, Box 827
+Lampasas, TEXAS 76550</house_location>
+<county>Lampasas</county>
+<price>$138,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Country home located in lampasas with 4 bedrooms and 2.5 baths.  Inside find a family room with fireplace, utility with plenty of cabinet space, and 2 dining areas.  Large island kitchen with dishwasher and counter top gas stove.  Covered patio and porch surrounded by a chain link fence on approximately 1.5 acres.  Satelite and box, propane tank, custom smoker grill, riding  lawn mower, push mower all convey with sale of property.</house_description>
+
+<school_district>Lampasas</school_district>
+<sub-division>Cripple Creek</sub-division>
+<approx_size_sqft>2714</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1.57</approx_acres>
+<year_built>1989</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>$1 MOVE IN</item>
+<item>Shade Trees</item>
+<item>Cooktop/Gas Oven</item>
+<item>Whirlpool Tub</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

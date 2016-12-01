@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Graves</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>carolyn@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20667</id>
+<mls>54390</mls>
+<house_location>339 San Saba
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$185,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LOVELY, LANDSCAPED HOME IN GATED MEADOWLAKES COMMUNITY! THERE IS A BUILT-IN ROLL TOP DESK, CHINA HUTCH, AND ENTERTAINMENT CENTER. THE KITCHEN HAS A CENTER ISLAND!</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Meadowlakes</sub-division>
+<approx_size_sqft>2125</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>70 x 155</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>ATTRACTIVE HOME IN MEADOWLAKES!</item>
+<item>BUILT-IN DESK, ENTERTAINMENT CENTER</item>
+<item>AND CHINA HUTCH!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

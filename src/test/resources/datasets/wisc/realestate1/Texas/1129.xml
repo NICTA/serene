@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19657</id>
+<mls>14856</mls>
+<house_location>2801 New Combs Rd
+Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$149,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Gorgeous home with new tile.  Additional apartment perfect for the college student in the family.  Beautiful large live oak &amp; cottonwood trees give the entire house some very lovely shade.  1200 Square foot barn has 3 different overhead garage doors.  Irrigated water for lawn.  Reverse osmosis for kitchen sink and refrigerator.  Nice covered patio.  All of this on 1.52 acres!</house_description>
+
+<school_district>Long</school_district>
+<sub-division>D &amp; S Pt Blk 62</sub-division>
+<approx_size_sqft>2839</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>449 frontage</approx_lot_size>
+<approx_acres>1.52</approx_acres>
+<year_built>1974</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Recognized Schools</item>
+<item>Shaded yard</item>
+<item>Country Atmosphere</item>
+<item>Water Softener</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

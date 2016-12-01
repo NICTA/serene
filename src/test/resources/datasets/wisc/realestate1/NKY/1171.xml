@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>630 BARLEY CIR</house_location>
+<price>$133,800</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>None</basement>
+<garage>2 Cars (Attached,Side,Oversized)</garage>
+<suburb>GRANT</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249516</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>TERISSA HOWELL</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>3 BEDROOM,2 BATH CUSTOM BUILT HOME ON CORNER LOT WITH MANY UPGRADES
+AND OUT STANDING LANDSCAPING</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>85x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>7 X 8</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 8</dimension><level>1</level></dining>
+<family><dimension>18 X 19</dimension><level>2</level></family>
+<kitchen><dimension>8 X 7</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 9</dimension><level>2</level></laundry>
+<living><dimension>17 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 10</dimension><level>1</level></master>
+
+<directions>I-75S TO CRITT,R ON VIOLET,R ON WALLER GO TO END
+,R ON BARLEY LAST ON R</directions>
+</house_listing>
+
+
+

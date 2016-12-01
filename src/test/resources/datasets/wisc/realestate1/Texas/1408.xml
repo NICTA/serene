@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jennie Evans</name>
+<office>(254)542-2121</office>
+<fax>(254)542-7400</fax>
+<mobile>(254)681-1028</mobile>
+<email>jqevans@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17206</id>
+<mls>87356</mls>
+<house_location>2905 Freedom Lane
+Copperas Cove, TEXAS 76522</house_location>
+<county>Coryell</county>
+<price>$119,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>A beautiful Victorian home located in Skyline Estates. This home offers many extras including tinned ceilings in the kitchen, a master bath with early American fixtures, formal dining, breakfast area with bay windows, built-in shelves in the bedrooms, joining bath, a wood privacy fence, and a nice sized deck upstairs off of the master suite that gives you a beautiful view of the valley. Call (254) 542-2121 for details.</house_description>
+
+<school_district>Copperas Cove Isd</school_district>
+<sub-division>Skyline</sub-division>
+<approx_size_sqft>2110</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>109 X 142</approx_lot_size>
+<approx_acres>0.4</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Covered Porch, Covered Patio</item>
+<item>Breakfast Area Bay Window</item>
+<item>New Roof</item>
+<item>$1 MOVE IN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>4002 MADISON PKE</house_location>
+<price>$69,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>244215</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>LENA K CHRISTMAN</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>COUNTRY LIVING CLOSE TO 275, PIONEER PARK &amp; DOE RUN LAKE! TOTALLY
+REHABBED W/SKYLIGHT &amp; VAULTED CEILINGS * SATELLE SYSTEM STAYS * ONE
+FLOOR * PEACEFUL LIVING *</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>100 x 300</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 7</dimension><level>1</level></laundry>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+
+<directions>I-275 COV/INDEP EXIT SO 1 MI FROM I-275 R ON OLD
+KY 17(MADISON)-NEXT TO NURSERY</directions>
+</house_listing>
+
+
+

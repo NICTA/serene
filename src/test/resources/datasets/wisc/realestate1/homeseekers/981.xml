@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>Very nice area close to park, transportation shopping center, large
+formal dining room and bedrooms. It wont last. Natural wood kitchen
+cabinets. Owner is motivated nice back yard. Double car garage.</house_description>
+
+<agent_name>Socorro Garcia</agent_name>
+<direct>909-594-6006</direct>
+<office>562-462-9075</office>
+<firm_name>Prudential American Realty Prudential American Realty</firm_name>
+<phone>562-462-9075</phone>
+<fax>562-462-9076</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$136,000</list_price>
+<location>Los Angeles, CA 90023</location>
+<mls>P137253</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1196 (approx)</square_feet>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

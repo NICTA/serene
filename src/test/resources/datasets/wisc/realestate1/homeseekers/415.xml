@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>Wow! That's what the neighbors say when they look at this beautifully
+renovated home w/brand new roof, new exterior &amp; interior paint, new
+ceramic tile &amp; carpet throughout, new kitchen w/ceramic tile floor &amp;
+backsplash, freshly painted cabinets. All appliances including washer
+&amp; dryer!</house_description>
+
+<agent_name>Jan Luton</agent_name>
+<direct>307-3209</direct>
+<office>757-486-2410</office>
+<firm_name>William E. Wood &amp; Associates</firm_name>
+<phone>757-486-2410</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$61,900</list_price>
+<location>Virginia Beach, VA 23456</location>
+<mls>0001229</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Townhouse</type>
+<style>Colonial, Townhouse</style>
+<square_feet>934 (approx)</square_feet>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<patio>Open Porch</patio>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Ceiling Fan(s), Club House, ColonialStyle, Fenced, Foyer, Storage Space, Tennis Court(s), Walk-InCloset(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

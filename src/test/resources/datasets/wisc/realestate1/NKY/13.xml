@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>1054 EDEN RIDGE</house_location>
+<price>$79,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Detached,Oversized)</garage>
+<suburb>FOSTER</suburb>
+<school_dist>BRACKEN CO</school_dist>
+<mls>249062</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 654-3400</firm_phone>
+<agent>BETTYE C ADAMS</agent>
+<agent_phone>(606) 654-3400</agent_phone>
+<house_description>SPACIOUS HOME ON 6 ACRES JUST OFF AA HWY IN BRACKEN CO. 3 BR,2 FULL
+BATHS. FAMILY ROOM WITH W/O TO DECK, ABOVE GROUND POOL-OFFICE OR DEN
+WITH SEPARATE ENTRANCE. 34X24 FOOT DET. GARAGE. CITY WATER AND A GREAT
+VIEW. 79,900</house_description>
+<construction>Alum</construction>
+<heating>Electric</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>00</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>9 X 10</dimension><level>1</level></dining>
+<family><dimension>10 X 17</dimension><level>1</level></family>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 5</dimension><level>1</level></laundry>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+<study><dimension>15 X 11</dimension><level>1</level></study>
+
+<directions>AA HWY RIGHT ON EDEN RIDGE ROAD-PROPERTY ON
+RIGHT.</directions>
+</house_listing>
+
+
+

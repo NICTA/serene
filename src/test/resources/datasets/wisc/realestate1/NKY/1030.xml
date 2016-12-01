@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>10 GRAND LAKE DR</house_location>
+<price>$278,000</price>
+<rooms>8</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>CAMPBELL</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>247006</mls>
+<house_type>Condominium</house_type>
+<firm>NOLL REALTY</firm>
+<firm_phone>(606) 331-2470</firm_phone>
+<agent>ROBERT A NOLL</agent>
+<agent_phone>(606) 331-2470</agent_phone>
+<house_description>OPTIONAL FINISHED LOWER LEVEL, 5 MIN FROM CINCINNATI WALK TO CHURCH,
+HOSPI SHOPPING, AND DR'S OFFICE CALL TRACY AT 441-4600 FOR SHOWING</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>195</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension></dimension><level>2</level></bedroom_2>
+<dining><dimension>15 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 17</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>16 X 23</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>1</level></master>
+<study><dimension>11 X 15</dimension><level>1</level></study>
+
+<directions>471 N EX.3 E ON GRAND AVE THRU INTERSECTI ON
+OF GRAND/HIGHLAND GRAND LAKE ON RT</directions>
+</house_listing>
+
+
+

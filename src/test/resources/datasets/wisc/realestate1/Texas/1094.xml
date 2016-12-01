@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>John Pierce</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<email>jlpierce@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20905</id>
+<mls></mls>
+<house_location>414 Kellar Road
+Smithville, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$99,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Enjoy, easy comfortable living in this immaculate 3/2 DWMH.  5+/- Gorgeous acres with towering Pine trees and wet weather creek!  Open living plan with vaulted ceilings.  Island in kitchen.  Double vanities and walk-in closets in master.  Easy access to Hwy 71. Peaceful, park-like setting.  Call John Pierce for details.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Smithville West</sub-division>
+<approx_acres>5</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Immaculate Home!</item>
+<item>Park-Like Setting!</item>
+<item>5+/- Beautiful Acres!</item>
+<item>Wet Weather Creek!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

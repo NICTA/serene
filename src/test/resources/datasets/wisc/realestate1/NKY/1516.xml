@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>1913 MT VERNON</house_location>
+<price>$195,000</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FT WRIGHT</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248882</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA HOLLMAN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>CALL BARBARA HOLLMAN-341-3394 TREED VIEW 4 BED BY NOLL-LV RM WBFP-FAM
+ROOM OFF EQ KIT-3 1/2 BTH-FIN FAM RM LL-WB STOVE-WET BAR-WALKOUT-HUGE
+DECK-ROOF 98-GAS FURNACE/AC 97-PELLA WINDOWS-2 CAR GAR-CEILING FANS</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>B</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 9</dimension><level>2</level></bedroom_4>
+<dining><dimension>13 X 9</dimension><level>1</level></dining>
+<family><dimension>16 X 12</dimension><level>1</level></family>
+<kitchen><dimension>15 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>16 X 8</dimension><level>B</level></laundry>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>2</level></master>
+<recreation_room><dimension>30 X 22</dimension><level>B</level></recreation_room>
+
+<directions>KYLES LA R MT. VERNON</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>148 HITCHING POST</house_location>
+<price>$129,300</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>250004</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>JUDY JEFFERS</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>NEW CREST TRINIDAD. CATHEDRAL CEILINGS, LR, DR AND KITCHEN, 3 LARGE
+BDRMS, DECK, CUL-DE-SAC. COMPLETE FEBRUARY. IN AREA OF MORE EXPENSIVE
+HOMES, CONVENIENT LOCATION. POOL, TENNIS, FISHING, CLUBHOUSE.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>27</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 7</dimension><level>1</level></kitchen>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>2</level></master>
+
+<directions>US 42 L WEAVER RD, L SADDLEBROOK DR, L ON
+HITCHING POST</directions>
+</house_listing>
+
+
+

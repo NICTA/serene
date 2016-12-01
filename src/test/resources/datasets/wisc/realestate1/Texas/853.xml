@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Ron Roberts &amp; Associates</name>
+<location>131 Elm St. Hillsboro, TX 76645</location>
+<office>(254)582-5307</office>
+<toll_free>(800)722-5156</toll_free>
+<fax>(254)582-9159</fax>
+<email>ronroberts@digetex.net</email>
+</firm_information>
+
+<agent_information>
+<name>Robinson Dee</name>
+<office>(254)582-5307</office>
+<fax>(254)582-9159</fax>
+<email>ronroberts@digitex.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18749</id>
+<mls>9091948</mls>
+<house_location>331 ac. CR 3350
+Hubbard, TEXAS 76648</house_location>
+<county>Hill</county>
+<price>$341,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>331 acres with lots of grass, coastal meadows just waiting for your cows.  Some farm equipment to be sold with the house and property.</house_description>
+
+<move-in_date>8/24/99</move-in_date>
+<school_district>Hubbard</school_district>
+<approx_size_sqft>2300</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>331</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

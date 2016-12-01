@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>18 JENNA DRIVE</house_location>
+<price>$89,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>ASHLEY ESTATES</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>248877</mls>
+<house_type>Single Family</house_type>
+<firm>DAUGHERTY REALTORS</firm>
+<firm_phone>(606) 485-7667</firm_phone>
+<agent>GINA DAUGHERTY</agent>
+<agent_phone>(606) 485-7667</agent_phone>
+<house_description>PICK YOUR COLORS NOW ON THIS ONE FLOOR PLAN AND START THE NEW YEAR IN
+A NEW HOME. 1 ACRE LOT. MORE LOTS TO CHOOSE FROM.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>157 x 288</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>11 X 8</dimension><level>1</level></family>
+<kitchen><dimension>9 X 8</dimension><level>1</level></kitchen>
+<living><dimension>16 X 11</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>SOUTH ON 42 JUST INTO GALLATIN COUNTY R ON
+SOUTHFORK DRIVE TO ASHLEY ESTATES</directions>
+</house_listing>
+
+
+

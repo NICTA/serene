@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>31 W KIMBERLY</house_location>
+<price>$189,000</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>FORT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>247884</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>BETTY FISCHER</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>HARDWOOD ENTRY, NEW THERMAL WNDWS THRUOUT, UPDATED KITCHEN W/OAK
+CABINETRY &amp; HDWRD FLOORS.LG LR &amp; DR. REC RM IN LL.OVER-SIZED MSTR
+SUITE.ENTIRE 2ND FL BEAUTIFUL HDWD. EXCELLENT CONDITION.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>14 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 10</dimension><level>2</level></bedroom_4>
+<dining><dimension>12 X 13</dimension><level>1</level></dining>
+<family><dimension>15 X 13</dimension><level>1</level></family>
+<kitchen><dimension>13 X 13</dimension><level>1</level></kitchen>
+<living><dimension>19 X 13</dimension><level>1</level></living>
+<master><dimension>25 X 16</dimension><level>2</level></master>
+<recreation_room><dimension>12 X 16</dimension><level>L</level></recreation_room>
+
+<directions>471 TO MEMORIAL PKY L CLOVER RIDGE L CAPRI TO
+ROSSFORD R KIMBERLY</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<price>$142,500</price>
+<mls_id_number>143763</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1848</sqft>
+<year_built>1939</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.16        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$1,746</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Not Listed</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>MAPLEWOOD</elementary>
+<middle_school>ROBERT GRAY</middle_school>
+<high_school>WILSON</high_school>
+</schools>
+
+</house_listing>
+
+
+

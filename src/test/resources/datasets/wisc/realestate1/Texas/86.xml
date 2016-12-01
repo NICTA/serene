@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Dean Lindenmeyer</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20602</id>
+<mls>54385</mls>
+<house_location>563 Chimney Cove Drive
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$1,200,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This gorgeous, 2 story home has 3 bedrooms, 3.5 baths and a triple garage on 5 acres fronting on Lake Travis.  In gated Chimney Cove Estates, this home features an excercise center, office, great room with 20 ft. ceilings, massive fireplace, zoned heat and air, security system, limestone flooring, granite countertops and numerous other fine appointments.  The yard is enclosed with limestone fence posts and wrought iron fencing on 3 sides and split rail fencing along th rear.  The professionally installed landscaping includes a zoned irrigation system,  419 tiff Bermuda and other plants and tre</house_description>
+
+<sub-division>Chimney Cove Estates</sub-division>
+<approx_size_sqft>5044</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>5 acres</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+<item>Lake Travis waterfront, gated community.</item>
+<item>3 BD, 3.5 BA, triple garage on 5 acres.</item>
+<item>Limestone &amp; maple flooring, gourmet kitch., study.</item>
+<item>Hot tub, sauna, exercise room, TV room. water sys.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

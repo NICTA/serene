@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This townhouse built in 1997 has 2 bedroom(s), 2 bath(s) . Rooms
+include master bedroom. Features include patio, fireplace, fire
+sprinklers.</house_description>
+
+<agent_name>Warren Tolson</agent_name>
+<office>602-923-0900</office>
+<firm_name>Desert Golf &amp; Vacation Rentals</firm_name>
+<phone>602-923-0900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$109,900</list_price>
+<location>Phoenix, AZ 85020</location>
+<mls>1439716</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse</type>
+<style>Contemporary</style>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Living Room</fireplace>
+<patio>Deck</patio>
+<pool>Community Pool</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Contemporary Style, Dining/Living Combo,Dishwasher, Eat In Kitchen, Fire Sprinklers, Microwave, Pantry, TennisCourt(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

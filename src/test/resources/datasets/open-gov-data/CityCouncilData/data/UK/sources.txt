@@ -1,0 +1,8 @@
+Command:
+  wget -r -H -l 1 -nd -t 3 --content-disposition -e robots=off -A csv <url>
+
+http://data.gov.uk/dataset/local-authority-spending-over-500-brighton-and-hove
+
+
+
+wget -r -H -l 1 -nd -t 3 --content-disposition -e robots=off -A csv http://data.gov.uk/dataset/local-authority-spending-over-500-brighton-and-hove

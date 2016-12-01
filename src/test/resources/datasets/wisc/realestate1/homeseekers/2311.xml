@@ -1,0 +1,29 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 1 bath(s) . Rooms include
+living room.</house_description>
+
+<agent_name>Linda Aschoff</agent_name>
+<office>603-539-4176</office>
+<firm_name>Maxfield/Ossipee</firm_name>
+<phone>603-539-4176</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$159,900</list_price>
+<location>Madison, NH 03849</location>
+<mls>715006</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<type>Single Family</type>
+<lot_size>87120</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<rooms>Living Room</rooms>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

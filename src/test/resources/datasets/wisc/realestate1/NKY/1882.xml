@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>317 CYNTHIANA ST</house_location>
+<price>$89,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>WILLIAMSTOW</school_dist>
+<mls>246450</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>JIM SIMPSON</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>BRICK RANCH,LG DECK GREAT VIEW, LG STORAGE SHED, FULL BASEMENT ,
+LOCATED IN WILLIAMSTOWN SCHOOL DISTRICT.</house_description>
+<construction>Brick</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>75x206</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>B</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>8 X 12</dimension><level>1</level></bedroom_3>
+<dining><dimension>16 X 12</dimension><level>1</level></dining>
+<family><dimension>26 X 12</dimension><level>L</level></family>
+<kitchen><dimension>10 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>18 X 12</dimension><level>B</level></laundry>
+<living><dimension>16 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>I75S TO X 154,L TO R ON US25,R ON US22,R ON
+CYNTHINA STREET, PROP ON RIGHT.</directions>
+</house_listing>
+
+
+

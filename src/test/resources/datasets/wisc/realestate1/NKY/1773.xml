@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>0 GOLDEN CIRCLE</house_location>
+<price>$115,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>JONESVILLE</suburb>
+<school_dist>OWEN</school_dist>
+<mls>249441</mls>
+<house_type>Farms</house_type>
+<firm>RE/MAX WORKS</firm>
+<firm_phone>(888) 297-7629</firm_phone>
+<agent>JAMES F MORRIS, JR</agent>
+<agent_phone>(888) 297-7629</agent_phone>
+<house_description>CEDAR SIDED CABIN ON 10AC &amp; 3AC LAKE. PRIVATE YET CONVENIENT TO I71 &amp;
+I75. WRAP AROUND DECK FOR RELAXING &amp; ENJOYING THE VIEW. THIS IS THE
+PROPERTY WIT H THE BEST OF BOTH WORLDS-COUNTRY &amp; CONVENIENCE. MORE
+LAND AVAILABLE.</house_description>
+<construction>Wood,Cedar</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stone</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Private</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 15</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>9 X 10</dimension><level>1</level></dining>
+<family><dimension>14 X 33</dimension><level>L</level></family>
+<kitchen><dimension>8 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 15</dimension><level>L</level></laundry>
+<living><dimension>18 X 20</dimension><level>1</level></living>
+<master><dimension>16 X 16</dimension><level>1</level></master>
+
+<directions>I75S TO EX#159 R ON 22 TO R ON 36 TO R ON GOLDEN
+CIRCLE. PROP ON R APPRX 2MI ON R.</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Verna</email>
+</firm_information>
+
+<agent_information>
+<name>Adams</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)242-6500</voice_mail>
+<mobile>(713)824-0228</mobile>
+<email>vernaadams@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14296</id>
+<mls>194840</mls>
+<house_location>15315 Timberlea
+Missouri City, TEXAS 77459</house_location>
+<county>Fort Bend</county>
+<price>$59,950</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Stop! th Car This is it!!!! and priced to sell Pergo flooring in entry, den, kitchen and breakfast area. Ceramic tile in hall and bath. 30 year warranty on the roof installed in 97, new AC in 97 Added insulation in 97, covered patio and shed. Wood burning fireplace, pantry to die for *************MORE.</house_description>
+
+<school_district>Fort Bend</school_district>
+<sub-division>Briargate</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Pergo Flooring,Ceramic Tile.</item>
+<item>Added insulation in 97. New AC in 97.</item>
+<item>30 Yr. warranty on roof installed in 97.</item>
+<item>Wood Burning Fireplace and a Pantry to Die for.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stewart Martin</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>smartin@express-news.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19130</id>
+<mls>316268</mls>
+<house_location>4306 Summer Sun Lane
+San Antonio, TEXAS 78217</house_location>
+<county>Bexar</county>
+<price>$58,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Updated oak kitchen cabinets, counter tops, microwave. Fresh paint inside. Recently installed overhead garage door, sprinkler system front and back. Brick fireplace in living room, ceiling fans, mature trees front and back. Quiet neighborly street, shady yard. One car garage, covered patio.</house_description>
+
+<school_district>N.e.i.s.d.</school_district>
+<sub-division>Sungate</sub-division>
+<approx_size_sqft>976</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>56x126</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

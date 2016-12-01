@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Z-Man Zevchak</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)992-7253</mobile>
+<email>jjzman@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20443</id>
+<mls>9119230</mls>
+<house_location>520 Hoover Road
+Burleson, TEXAS 76028</house_location>
+<county>Tarrant</county>
+<price>$275,970</price>
+<bedrooms>5</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>Horses - growing pains - space - lovely large home with massive living area and beautiful pireplace.  Three master bedrooms.  Approximately 9 acres with tank, barn, outbuildings, creek, and gunnite pool.  Three-car detached garage, circular drive.Mobile home does not stay.  Qualified buyers only, please.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>3043</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>9</approx_acres>
+<year_built>1973</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+
+<highlights>
+<item>Lovely Large Home on 9 Acres</item>
+<item>Gunnite Swimming Pool</item>
+<item>Horse Property w/Outbuildings</item>
+<item>3 Master, 2 Guest, 4 Full Baths</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

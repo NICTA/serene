@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>2578 W HWY. 42</house_location>
+<price>$82,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>NONE</suburb>
+<school_dist>CARROLL CO.</school_dist>
+<mls>248631</mls>
+<house_type>Single Family</house_type>
+<firm>REALTY WORLD-RIVER VALLEY PROP</firm>
+<firm_phone>(502) 732-9977</firm_phone>
+<agent>MARCI HOSKINS</agent>
+<agent_phone>(502) 732-9977</agent_phone>
+<house_description>3 YRS. YOUNG, MANUFACTURED HOME SITUATED ON 3.9275 ACRES. INCLUDES 3
+BR, 2 BA, WINDOWN TREATMENTS AND SECURITY SYSTEM. IN MOVE IN
+CONDITION.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>340 X 489</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNK</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>8 X 12</dimension><level>1</level></dining>
+<family><dimension>13 X 19</dimension><level>1</level></family>
+<kitchen><dimension>11 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 5</dimension><level>1</level></laundry>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>I71 TO E44, R ON 227, L OF 42 APPRX 4 MI</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Emily Prowell</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)371-1758</mobile>
+<email>eprowell@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21602</id>
+<mls>9137021</mls>
+<house_location>105 Meadowview Court
+Weatherford, TEXAS 76087</house_location>
+<county>Parker</county>
+<price>$147,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Privacy, Comfortable Living, and Pride of Ownership Are Evident Here!!  3 Bedroom, 2 bath, w/ formal dining, split bedrooms, spacious kitchen and sunny breakfast area.  Situated in the heart of prestigious Diamond Oaks Subdivision, this quality built home for your family includes a spacious screened deck and backyard garden area for your outdoor enjoyment!! Your handyman will enjoy the full size workshop! Weatherford Schools. Convenient to I-20.  At this price, it won't last long!! Call today! Only $147,500</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Diamond Oaks</sub-division>
+<stories>1</stories>
+<approx_acres>0.75</approx_acres>
+<year_built>199</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

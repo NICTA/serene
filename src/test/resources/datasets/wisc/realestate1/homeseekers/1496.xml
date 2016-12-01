@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This single family home built in 1946 has 3 bedroom(s), 1 bath(s) .
+Features include storage space.</house_description>
+
+<agent_name>Keith Bender</agent_name>
+<office>480-967-7844</office>
+<firm_name>Oertle Realty</firm_name>
+<phone>480-967-7844</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$52,500</list_price>
+<location>Phoenix, AZ 85009</location>
+<mls>1460538</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1946</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<pool>No</pool>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ceiling Fan(s), Eat In Kitchen, Ranch Style, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>315 E 2ND</house_location>
+<price>$83,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>SILVER GROVE</suburb>
+<school_dist>SILVER GROV</school_dist>
+<mls>246528</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>CRYSTAL ROBERTS</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*NICE LEVEL BACK YARD W/10X20 STORAGE SHED * SPRING/SUMMER
+PERRENIALS*WALK OUT DECK FROM MASTER BDRM &amp; DECK WALKOUT FROM KIT*SITS
+ON NICE LANDSCAPED LOT * MASTER BDRM HAS SITTING RM OR COULD BE USED
+FOR NURSERY*A MUST SEE!*</house_description>
+<construction>Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>170X50</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bedroom_2><dimension>9 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>14 X 9</dimension><level></level></dining>
+<family><dimension>19 X 11</dimension><level></level></family>
+<kitchen><dimension>9 X 9</dimension><level></level></kitchen>
+<laundry><dimension>11 X 11</dimension><level></level></laundry>
+<master><dimension>17 X 12</dimension><level>2</level></master>
+
+<directions>RT 8-GO 2 STS. PAST DAIR BARN, TURN R ON LINDEN,
+2ND STOP SIGN MAKE L-HOME ON LEFT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This single family home built in 1930 has 4 bedroom(s), 2 bath(s) and
+approximately 1400 square feet of living area. Rooms include dining
+room, master bedroom.</house_description>
+
+<agent_name>Arron K. Renfrew</agent_name>
+<direct>206-632-6900</direct>
+<office>206-632-6900</office>
+<firm_name>Home Realty Inc./Greenlake</firm_name>
+<phone>206-632-6900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$185,000</list_price>
+<location>14551 32Nd Av</location>
+<mls>99120300</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1400 (approx)</square_feet>
+<year_built>1930</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<rooms>Dining Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

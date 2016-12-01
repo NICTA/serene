@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>3761 JONESVILLE ROA</house_location>
+<price>$119,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Detached,Rear)</garage>
+<suburb>OWENTON</suburb>
+<school_dist>OWEN</school_dist>
+<mls>247409</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>AL ANN FELDMANN</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>BEAUTIFUL OPEN CONCEPT 3BR 2BA DW ON 11 NICE ROLLING ACRES* APPROX 1
+MILE FROM GRANT CO ON HWY 36*GREAT FOR
+HORSES*ALANNFELDMANN.REALTOR.COM*CO LIST MYRNA FLOYD 428-3160 OR THE
+FELDMANN'S 824-6678.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 12</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>16 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 6</dimension><level></level></laundry>
+<living><dimension>17 X 16</dimension><level>1</level></living>
+<master><dimension>14 X 14</dimension><level>1</level></master>
+
+<directions>I75 TO EXIT 159,R ON HWY WW, R ON HWY 36,
+PROPERTY ON RIGHT.</directions>
+</house_listing>
+
+
+

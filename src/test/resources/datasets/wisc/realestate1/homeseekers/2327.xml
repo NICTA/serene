@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1972 has 3 bedroom(s), 2
+bath(s) and approximately 1291 square feet of living area. Rooms
+include bonus room.</house_description>
+
+<agent_name>Erich Bock</agent_name>
+<direct>520-544-9820</direct>
+<office>520-297-8272</office>
+<firm_name>Prudential Aegis Prudential Aegis</firm_name>
+<phone>520-297-8272</phone>
+<fax>520-575-5919</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$84,900</list_price>
+<location>4750 S Apple Tree Dr</location>
+<mls>9918672</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1291 (approx)</square_feet>
+<lot_size>74 X 90</lot_size>
+<year_built>1972</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

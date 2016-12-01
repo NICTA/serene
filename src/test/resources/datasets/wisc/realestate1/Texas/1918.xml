@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Thelma Sorgman</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5952</voice_mail>
+<email>ranch@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11971</id>
+<mls>484191</mls>
+<house_location>0 FM 535
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$187,500</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Don't miss this one! From the outside home looks smaller than 3203 sq ft. Very lovely home with Lone Star leaded glass entry, covered porch in front, deck in back, workshop outback can be converted easily into guest house, plumbing in for bath, front room already sheetrocked. Home inside has large open rooms upstairs, which is the entrance .Kitchen has moveable center island, lots of cabinets, high ceilings, pantry ,built in oven, disposal, dishwasher, Jennaire cooktop. Walkin closets, lots of storage. two bedrooms downstairs could be offices, game room, etc. 1.7 acres has fruit trees,</house_description>
+
+<move-in_date>11/8/98</move-in_date>
+<school_district>Smithville</school_district>
+<sub-division>Gazley, Thomas J</sub-division>
+<approx_size_sqft>3203</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1.7</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>3</carport_spaces>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>1 Year home warranty provided</item>
+<item>Fruit Trees</item>
+<item>Workshop</item>
+<item>Lots of space</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

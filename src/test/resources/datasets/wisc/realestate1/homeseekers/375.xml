@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This single family home built in 1949 has 2 bedroom(s), 2 bath(s) , 1
+car attached garage and approximately 1800 square feet of living area.
+Rooms include den, dining room, family room, master bedroom. Features
+include view, air conditioning.</house_description>
+
+<agent_name>David Eiglarsh</agent_name>
+<office>305-652-5050</office>
+<firm_name>RE/MAX Hometown RE/MAX Hometown
+Lic. Real Estate Broker</firm_name>
+<phone>305-652-5050</phone>
+<fax>954-453-2022</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$195,000</list_price>
+<location>1040 N Shore Dr</location>
+<neighborhood>Normandy Golf Course Sub</neighborhood>
+<mls>M776703</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1800 (approx)</square_feet>
+<lot_size>63 X 120</lot_size>
+<year_built>1949</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<patio>Open Porch</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Fenced, Foyer, Outdoor Lights, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

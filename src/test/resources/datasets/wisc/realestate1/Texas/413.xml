@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Elaine Taylor</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)395-7695</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19060</id>
+<mls>6030</mls>
+<house_location>501 Stagecoach Trail
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$168,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>One owner, custom home on 1acre+, loaded with oak trees, crown molding, beautiful kitchen with lots of cabinets, fireplace, formal dining, serene, peaceful patio, structural repair info in office.</house_description>
+
+<move-in_date>9/8/99</move-in_date>
+<school_district>San Marcos</school_district>
+<sub-division>Willow Creek</sub-division>
+<approx_size_sqft>2061</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1 acre+</approx_lot_size>
+<year_built>1987</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Spacious bedrooms</item>
+<item>Extra large closets</item>
+<item>Security system</item>
+<item>Energy efficeint</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

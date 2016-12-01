@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Julie Dickey</name>
+<office>(409)732-8200</office>
+<fax>(409)732-6030</fax>
+<email>rmxcpcol@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20467</id>
+<mls>218256</mls>
+<house_location>305 N Cemetary
+Eagle Lake, TEXAS 77343</house_location>
+<county>Colorado</county>
+<price>$45,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Updated antique home located on large lot in historic Eagle Lake.  This 3/1 home has new carpet, refinished hardwood floors and lots of charm.  Perfect for small family, newlyweds or retirees!!</house_description>
+
+<school_district>Eagle Lake</school_district>
+<approx_size_sqft>1393</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>updated</item>
+<item>hardwood floors</item>
+<item>large lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

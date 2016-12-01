@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Connie Luedke</name>
+<office>(409)865-2332</office>
+<fax>(409)865-0047</fax>
+<email>remaxbv@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20299</id>
+<mls></mls>
+<house_location>1552 Bell Oaks Dr.
+Bellville, TEXAS 77418</house_location>
+<county>Austin</county>
+<price>$125,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Wonderful family home in nice subkivision close to schools. Large trees and backyard faces open pasture. Call Connie at (409) 865-2332 or email to remaxbv@industryinet.com.</house_description>
+
+<school_district>Bellville</school_district>
+<sub-division>Bell Oaks</sub-division>
+<approx_size_sqft>2111</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>0.45</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Restricted</item>
+<item>Paved road frontage</item>
+<item>Partially wooded</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

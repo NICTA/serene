@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>10055 IRISH WAY</house_location>
+<price>$133,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247830</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>FRED BURCH</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>UNDER CONSTRUCTION,ESTIMATED COMPLETION IS 4/1/2000,GREAT 3 BR,2 BATH
+RANCH HOME HAS OPEN PLAN WITH CATHEDRAL CEILINGS,GAS HEAT IN A
+TERRIFIC LOCATION @DUBLIN GREENS IN UNION.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>9 X 7</dimension><level>1</level></breakfast>
+<family><dimension>16 X 15</dimension><level>1</level></family>
+<kitchen><dimension>8 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>US42 TO FROGTOWN RD LEFT THEN L ON DUBLIN L THEN
+R ON IRISH WAY</directions>
+</house_listing>
+
+
+

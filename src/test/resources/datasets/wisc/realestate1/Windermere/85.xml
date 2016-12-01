@@ -1,0 +1,45 @@
+<house_listing>
+<price>$54,900</price>
+<mls_id_number>98016896</mls_id_number>
+<address>1212 Walnut</address>
+<city>Caldwell</city>
+<st>ID</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>972</sqft>
+<year_built></year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage></garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<features><item>gas heat</item>
+<item>single w/below grade</item>
+<item>garden space</item>
+</features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<comments>Spacious home on large lot. Zoned for duplex and possible triplex. Great starter or investment property.</comments>
+<for_more_information_contact>
+<agent_name>Jan Everitt</agent_name>
+<firm_name>Windermere Real Estate/Caldwell</firm_name>
+<firm_location>2900 Cleveland Blvd.
+Caldwell, ID</firm_location>
+<office_phone>208-459-2200</office_phone>
+<fax>(208)453-8875</fax>
+<e-mail>caldwell@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

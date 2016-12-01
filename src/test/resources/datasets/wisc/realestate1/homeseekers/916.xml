@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1998 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2007 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Evan Harris</agent_name>
+<direct>520-291-3939</direct>
+<office>520-297-8272</office>
+<firm_name>Prudential Aegis Prudential Aegis</firm_name>
+<phone>520-297-8272</phone>
+<fax>520-575-5919</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$194,900</list_price>
+<location>6312 N Camino De Cabaluna</location>
+<mls>9918361</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2007 (approx)</square_feet>
+<lot_size>27X80X50X19X71X102</lot_size>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

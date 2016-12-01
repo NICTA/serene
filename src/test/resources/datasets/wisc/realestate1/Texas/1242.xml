@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Modena DeSpain</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>8116</id>
+<mls>44359</mls>
+<house_location>Fairland Road
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$850,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This fabulous home has a kitchen designed for the Master Chef in the family.  3 large porches with saltillo tile, high vaulted ceilings, and much more.  Also has two half-baths, two living areas, office, etc.  All this on 77+ fenced acres and only 10 minutes from downtown Marble Falls.Great Home!!</house_description>
+
+<school_district>Marble Falls</school_district>
+<approx_size_sqft>5752</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>77.69</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Masonry fireplace, gas logs, wood burning stove</item>
+<item>Office, workshop, outbuildings</item>
+<item>Wooded acreage, great VIEW!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

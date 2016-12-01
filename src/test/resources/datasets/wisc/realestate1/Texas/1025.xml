@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debbie Rogers</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)991-9232</mobile>
+<email>drogers@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20146</id>
+<mls>9114637</mls>
+<house_location>198 Green Acres Road
+Weatherford, TEXAS 76088</house_location>
+<county>Parker</county>
+<price>$52,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Really neat 2 bedroom, 1 bath frame home just outside of city limits.  Located in a quiet neighborhood on almost 1/2 acre of land.  Just right for small family or retirement home.</house_description>
+
+<school_district>Peaster</school_district>
+<sub-division>Green Acres</sub-division>
+<approx_size_sqft>1176</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.44</approx_acres>
+<year_built>1989</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

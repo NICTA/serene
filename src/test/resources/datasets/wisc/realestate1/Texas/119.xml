@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>John Pierce</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<email>jlpierce@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20125</id>
+<mls></mls>
+<house_location>504 Hudgins Street
+Smithville, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$75,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Waiting to be re-polished!  This charming 2/1/2 home in historic Smithville has been partially restored!  Generous bedrooms!  Wonderfully restored long leaf pine floors.  The bath has been completely remodeled!  New paint inside and out!  Large utility room with storage closet. Two gracious porches!  Two car detached garage!  Fantastic neighborhood!  Beautiful, mature Pecan trees!  Call or e-mail John for more details.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Burleson</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Charming Victorian Home in Quaint Smithville!</item>
+<item>Beautifully Restored Long Leaf Pine Floors!</item>
+<item>Two Gracious Porches!</item>
+<item>Surrounded by Mature Pecan Trees!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

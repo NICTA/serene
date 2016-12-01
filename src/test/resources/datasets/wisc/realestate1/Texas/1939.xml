@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Michael Ribaudo</name>
+<office>(512)833-3593</office>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20990</id>
+<mls>526118</mls>
+<house_location>1924 Summer Rain
+Cedar Park, TEXAS 78613</house_location>
+<county>Williamson</county>
+<price>$131,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>4 Sides Brick, Built in 1995, Large Yard, Exceptional Schools, 2 Living &amp; 2 Dinning Areas, 4 Bedrooms, 2.5 Baths, Jacuzzi Tub in Master Bath!</house_description>
+
+<school_district>Leander</school_district>
+<sub-division>Ranch At Cypress Creek</sub-division>
+<approx_size_sqft>2250</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>Large</approx_lot_size>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>4 Sides Brick, Built in 1995, Large Yard</item>
+<item>Exceptional Schools, 2 Living &amp;2 Dinning Areas</item>
+<item>4 Bedroom, 2.5 Bath</item>
+<item>Jacuzzi Tub in Master Bah</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

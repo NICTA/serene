@@ -1,0 +1,102 @@
+Number,Board,DayOfTheMonth,LocationName,Time,Location
+0,NB Commission,4th Monday,Honolulu OR Kapolei Hale,Various,"Honolulu, HI
+(21.304770000335395, -157.85761000030112)"
+1,Hawaii Kai,Last Tuesday,Hahaione Elem. School,7:00 PM,"595 Pepeekeo Street
+Honolulu, HI
+(21.296379859437423, -157.71082821511493)"
+2,Kuliouou-Kalani Iki,1st Thursday,Aina Haina Public Library,7:00 PM,"5246 Kalanianaole Hwy.
+Honolulu, HI
+(21.278591170141237, -157.75427065274704)"
+3,Waialae-Kahala,3rd Thursday,Hoaloha Kai Montessori School,7:00 PM,"1339 Hunakai Street
+Honolulu, HI
+(21.27964736496348, -157.78756343884572)"
+4,Kaimuki,3rd Wednesday,Christian Church Fellowship Hall,7:00 PM,"1117 Koko Head Avenue
+Honolulu, HI
+(21.280749642568196, -157.79870097059785)"
+5,Diamond Head/Kapahulu/St. Louis Hts.,2nd Thursday,"Ala Wai Clubhouse, 2nd Floor",7:00 PM,"404 Kapahulu Avenue
+Honolulu, HI
+(21.2742925103978, -157.81612083830538)"
+6,Palolo,2nd Wednesday,Palolo Elem School Cafeteria,7:00 PM,"2106 10th Avenue
+Honolulu, HI
+(21.299437554337032, -157.7917941774128)"
+7,Manoa,1st Wednesday,Manoa Elementary School,7:00 PM,"3155 Manoa Road
+Honolulu, HI
+(21.31719017119542, -157.80904317393478)"
+8,McCully-Moiliili,"1st Thursday""",Washington Middle School,6:30 PM,"1633 South King Street
+Honolulu, HI
+(21.29679354757093, -157.8355192144774)"
+9,Waikiki,2nd Tuesday,Waikiki Community Center,7:00 PM,"310 Paoakalani Avenue
+Honolulu, HI
+(21.275308744290953, -157.81999691625165)"
+10,Makiki/Lower Punchbowl/Tantalus,3rd Thursday,Makiki District Park,7:00 PM,"1527 Keeaumoku Street
+Honolulu, HI
+(21.303673361095036, -157.8373088653157)"
+11,Ala Moana/Kakaako,4th Tuesday,Makiki Christian Church,7:00 PM,"829 Pensacola Street
+Honolulu, HI
+(21.29837635434245, -157.8466708076407)"
+12,Nuuanu/Punchbowl,3rd Tuesday,Pauoa Elementary School,7:15 PM,"2301 Pauoa Road
+Honolulu, HI
+(21.31928559152368, -157.8439908279934)"
+13,Downtown,1st Thursday,Pauahi Recreation Center,7:00 PM,"171 N. Pauahi Street
+Honolulu, HI
+(21.313484964434736, -157.86263377366078)"
+14,Liliha/Kapalama,2nd Monday,Ma'ema'e Elementary School Cafeteria,7:00 PM,"319 Wyllie Street
+Honolulu, HI
+(21.32901625588073, -157.84723738051918)"
+15,Kalihi-Palama,3rd Wednesday,Kalihi Union Church,7:00 PM,"2214 North King Street
+Honolulu, HI
+(21.335149632120533, -157.88113282780347)"
+16,Kalihi Valley,2nd Wednesday,Akira Sakima Recreational Center,7:00 PM,"1911 Kam IV Road
+Honolulu, HI
+(21.304850000427336, -157.85774999956269)"
+18,Aliamanu/Salt Lake/Foster Village,2nd Thursday,Oahu Veterans Center,7:00 PM,"1298 Kukila Street
+Honolulu, HI
+(21.361661645544302, -157.92484887164775)"
+20,Aiea,2nd Monday,Aiea Library,7:30 PM,"99-143 Moanalua Road
+Honolulu, HI
+(21.380601367481404, -157.93102721398904)"
+21,Pearl City,4th Tuesday,Waiau District Park,7:00 PM,"98-1650 Kaahumanu Street&quot;
+Honolulu, HI
+(21.304850000427336, -157.85774999956269)"
+22,Waipahu,4th Thursday,Filipino Comm Center,7:00 PM,"94-428 Mokuola Street
+Honolulu, HI
+(21.387957821681027, -158.0066332169923)"
+23,Ewa,2nd Thursday,Ewa Beach Public Library,7:00 PM,"91-950 North Road
+Honolulu, HI
+(21.31343100511299, -158.0092142712164)"
+24,Waianae Coast,1st Tuesday,Waianae Neighborhood Community Center,7:00 PM,"85-670 Farrington Hwy.
+Honolulu, HI
+(21.449969519867867, -158.1911192952719)"
+25,Mililani/Waipio/Melemanu,4th Wednesday,Mililani Rec. Center III,7:00 PM,"95-281 Kaloapau Street
+Honolulu, HI
+(21.45151290949167, -158.0179287016803)"
+26,Wahiawa,3rd Monday,Wahiawa Recreation Center,7:00 PM,"1139-A Kilani Avenue
+Honolulu, HI
+(21.500950255779625, -158.0222032047363)"
+27,North Shore,4th Tuesday,Haleiwa Alii Beach Park,7:00 PM,"66-167 Haleiwa Road
+Honolulu, HI
+(21.59207694267127, -158.10831955884524)"
+28,Koolauloa,2nd Thursday,Hauula Community Center,6:00 PM,"54-010 Kukuna Road
+Honolulu, HI
+(21.608786706211962, -157.9099771745842)"
+29,Kahalu'u,2nd Wednesday,KEY Project,7:00 PM,"47-200 Waihee Road
+Honolulu, HI
+(21.458167892508527, -157.8429296279988)"
+30,Kaneohe,3rd Thursday,Ben Parker Elemenatry School,7:00 PM,"45-259 Waikalua Road
+Honolulu, HI
+(21.413516553753766, -157.79909667229074)"
+31,Kailua,1st Thursday,Kailua Recreation Center,7:00 PM,"21 S. Kainalu Drive
+Honolulu, HI
+(21.395835882657707, -157.7376010319272)"
+32,Waimanalo,2nd Monday,Waimanalo School Library,7:30 PM,"41-1320 Kalanianaole Highway
+Honolulu, HI
+(21.34697840938136, -157.71560293714333)"
+34,Makakilo/Kapolei/Honokai Hale,4th Wednesday,Kapolei High School cafeteria,7:00 PM,"91-5007 Kapolei Parkway
+Honolulu, HI
+(21.329654774521543, -158.07113259293368)"
+35,Mililani Mauka/Launani Valley,3rd Tuesday,Mililani Mauka Elem. School,7:00 PM,"95-111 Makaikai Street
+Honolulu, HI
+(21.304850000427336, -157.85774999956269)"
+36,Nanakuli-Maili,3rd Tuesday,Nanaikapono Elementary School,7:00 PM,"89-153 Mano Avenue
+Honolulu, HI
+(21.38399438361335, -158.1422031533786)"

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21230</id>
+<mls>6298</mls>
+<house_location>2616 Mountain High Dr
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$174,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nestled Among Trees In this Beautiful HomeHardwood Floors in Entry &amp; LivingJacuzzi Bath &amp; Seperate Shower in MasterCHef's Kitchen</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>The Estates Of Sm</sub-division>
+<approx_size_sqft>2238</approx_size_sqft>
+<approx_lot_size>1 Acre</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Chef'sKitchen w/Island</item>
+<item>Multiple Dinning</item>
+<item>JettedTub</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

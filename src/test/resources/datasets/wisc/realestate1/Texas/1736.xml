@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>LEE EASTER, INC., REALTORS &amp; BUILDERS</name>
+<location>7504 Canna Cove Austin, TX 78759</location>
+<office>(512)255-1111</office>
+<toll_free>(800)680-6648</toll_free>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lee Easter</name>
+<office>(512)255-1111</office>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>9562</id>
+<mls></mls>
+<house_location>5812 Gentle Breeze
+Austin, TEXAS</house_location>
+<county>Travis</county>
+<price>$425,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>PRIVATE TREED LOT ON AN ELONGATED CUL-DE-SAC!  Master bedroom is downstairs; its bath has a whirlpool tub.  Upstairs are a gameroom, and 4 other bedrooms with a pass-thru bath between each two sets.  Curved open handrail staircase, hardwoods, and hard tile flooring plus carpet.  Plus a beautiful hill-country view and only three minutes from Mopac Expressway to the heart of the city!  Under construction as of July of 1998.  Please call our office toll-free at 1-800-680-6648 to discuss any aspect of your relocation!</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>Mesa Valley</sub-division>
+<stories>2</stories>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>MINUTES FROM HEART OF THE CITY</item>
+<item>BEAUTIFUL HILL-COUNTRY VIEW</item>
+<item>ON A SECLUDED, ELONGATED CUL-DE-SAC</item>
+<item>VERY RESPECTED BUILDER</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Wade Fuhrken</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12475</id>
+<mls>128856</mls>
+<house_location>117 County Road 3211
+Orange Grove, TEXAS 78372</house_location>
+<county>Jim Wells</county>
+<price>$82,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<move-in_date>12/3/98</move-in_date>
+<school_district>Orange Grove</school_district>
+<approx_size_sqft>2000</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Country Living, fenced yard, circular drive</item>
+<item>Grand living room, large kitchen,</item>
+<item>Large patio, huge master bedroom</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

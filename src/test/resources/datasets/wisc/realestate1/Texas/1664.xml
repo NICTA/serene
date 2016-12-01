@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Marlene Clark</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email>marlene@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11102</id>
+<mls></mls>
+<house_location>1112 Lilac
+La Marque, TEXAS 77565</house_location>
+<county>Galveston</county>
+<price>$45,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great for first time home buyers, empty nesters or investors.  This cute home has vinyl siding for low maintenance.</house_description>
+
+<school_district>La Marque</school_district>
+<sub-division>Cook &amp; Stewart</sub-division>
+<approx_size_sqft>1104</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>3833 sq.ft.</approx_lot_size>
+<year_built>1962</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Vinyl siding</item>
+<item>Great for investors</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

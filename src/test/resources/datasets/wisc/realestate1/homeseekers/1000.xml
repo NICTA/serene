@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>Dramatic brick on cul-de-sac; lovely screened porch; 9' first floor
+ceilings; 1st floor bedroom/office</house_description>
+
+<agent_name>Georgianna Frech</agent_name>
+<direct>481-3216</direct>
+<office>757-424-5360</office>
+<firm_name>William E. Wood &amp; Associates</firm_name>
+<phone>757-424-5360</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$283,900</list_price>
+<location>Virginia Beach, VA 23456</location>
+<mls>9923508</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Transitional</style>
+<square_feet>3000 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<location>Cul-de-sac</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,14 @@
+{
+  "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals", "ratio-alpha-chars", "prop-numerical-chars", "prop-whitespace-chars", "prop-entries-with-at-sign", "prop-entries-with-hyphen", "prop-entries-with-paren", "prop-entries-with-currency-symbol", "mean-commas-per-entry", "mean-forward-slashes-per-entry", "prop-range-format", "is-discrete", "entropy-for-discrete-values" ],
+  "activeFeatureGroups" : [ "stats-of-text-length", "stats-of-numerical-type", "prop-instances-per-class-in-knearestneighbours", "mean-character-cosine-similarity-from-class-examples", "min-editdistance-from-class-examples", "min-wordnet-jcn-distance-from-class-examples", "min-wordnet-lin-distance-from-class-examples" ],
+  "featureExtractorParams" : [ {
+    "name" : "prop-instances-per-class-in-knearestneighbours",
+    "num-neighbours" : 5
+  }, {
+    "name" : "min-wordnet-jcn-distance-from-class-examples",
+    "max-comparisons-per-class" : 5
+  }, {
+    "name" : "min-wordnet-lin-distance-from-class-examples",
+    "max-comparisons-per-class" : 5
+  } ]
+}

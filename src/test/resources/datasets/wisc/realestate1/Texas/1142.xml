@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Erika Langenbach</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 282</voice_mail>
+<email>erika@c21cook.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20662</id>
+<mls>523438</mls>
+<house_location>16514 County Line Road
+Elgin, TEXAS 78621</house_location>
+<county>Travis</county>
+<price>$115,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>LOCATION IS EXCELLENT, CLOSE TO NEW HIGH SCHOOL. UNOBSTRUCTED VIEW. GREAT FOR HORSES. PORCH IN FRONT AND BACK. APPROXIMATELY 25 MINUTES FROM AUSTIN BUSINESS DISTRICT.</house_description>
+
+<school_district>Elgin</school_district>
+<stories>1</stories>
+<approx_acres>2</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

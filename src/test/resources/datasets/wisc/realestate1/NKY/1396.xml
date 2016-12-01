@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>1536 SLEEPY HOLLOW</house_location>
+<price>$106,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front,Oversized)</garage>
+<suburb>PARK HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247621</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>CHRISTINE E STURGIL</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>PARK HILLS CHARM-GREAT LOCATION-CLOSE TO PARK,SHOPPING &amp; XWAY! FRESHLY
+PAINTED INSIDE &amp; OUT.LARGE ROOMS-WALKOUT TO PATIO W/WOODED VIEW! NEWER
+REPLACEMENT WINDOWS,ROOF,HWH,REFRIGERATOR,HARDWOOD UNDER CARPET.GREAT
+BUY!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>14 X 9</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>U</level></bedroom_3>
+<dining><dimension>11 X 8</dimension><level>U</level></dining>
+<family><dimension>26 X 18</dimension><level>L</level></family>
+<kitchen><dimension>10 X 9</dimension><level>U</level></kitchen>
+<laundry><dimension>13 X 7</dimension><level>L</level></laundry>
+<living><dimension>16 X 14</dimension><level>U</level></living>
+<master><dimension>13 X 11</dimension><level>U</level></master>
+
+<directions>DIXIE HIGHWAY NORTH TO L SLEEPY HOLLOW AFTER
+STOP SIGN</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>335 SOUTHERN DRIVE</house_location>
+<price>$75,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>WMSTOWN</school_dist>
+<mls>246204</mls>
+<house_type>Single Family</house_type>
+<firm>C B DETERS REALTY</firm>
+<firm_phone>(606) 341-0060</firm_phone>
+<agent>PAM PENNINGTON</agent>
+<agent_phone>(606) 341-0060</agent_phone>
+<house_description>ADORABLE RANCH LARGE EAT IN KITCHEN WOODS IN BACK</house_description>
+<construction>Brick</construction>
+<heating>Electric,Baseboard</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99</semiannual_taxes>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>17 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>1</level></laundry>
+<living><dimension>11 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>I 75 S TO WMSTOWN EXIT L ON 36 L ON HWY 25 L ON
+SUNSET R ON SOUTHERN TO END</directions>
+</house_listing>
+
+
+

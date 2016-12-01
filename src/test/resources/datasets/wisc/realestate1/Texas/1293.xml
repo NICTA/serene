@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Debbie</email>
+</firm_information>
+
+<agent_information>
+<name>Miller</name>
+<office>(281)403-6500</office>
+<fax>(281)431-2131</fax>
+<voice_mail>(281)242-6500 225</voice_mail>
+<mobile>(281)686-1175</mobile>
+<email>dmiller@argolink.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12355</id>
+<mls>175468</mls>
+<house_location>16327 Ginger Run
+Sugar Land, TEXAS 77478</house_location>
+<county>Fort Bend</county>
+<price>$119,900</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Perfect for large family. This 5 bedroom 2.5 bath home is located in a quiet Sugar land community. formals and den downstairs, fresh paint-nov 1998, skylight in executive master bath, gutters,wallpaper, vinyl, AC compressor in 1998. Carpet allowance based on offer. Shed to stay. Ready for quick sale!!</house_description>
+
+<move-in_date>3/31/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Village Of Oak Lake</sub-division>
+<approx_size_sqft>2753</approx_size_sqft>
+<stories>2</stories>
+<year_built>1986</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>5 Bedroom in Sugar Land</item>
+<item>Cul-de-sac Quiet Area</item>
+<item>Skylight in master bath</item>
+<item>Both Formals</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Grunwald Lerlene</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>manoragent@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19208</id>
+<mls>316552</mls>
+<house_location>169 Rifle Gap
+Universal City, TEXAS 78148-3627</house_location>
+<county>Bexar</county>
+<price>$75,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Very nice, well maintained home! Beautiful wood parquet flooring throughout except owners bedroom.  Recent paint and A/C covered patio above ground pool and beautifully landscpaed back yard with stone walkway and tropical plants and flowers.</house_description>
+
+<school_district>Judson</school_district>
+<sub-division>Cimarron</sub-division>
+<approx_size_sqft>1470</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>63x140</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

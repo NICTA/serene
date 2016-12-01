@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1952 has 2 bedroom(s), 1
+bath(s) and approximately 861 square feet of living area. Features
+include view, patio, storage space.</house_description>
+
+<agent_name>Richard Nowell</agent_name>
+<direct>520-571-8120</direct>
+<office>520-293-0100</office>
+<firm_name>Blackhawk Realty</firm_name>
+<phone>520-293-0100</phone>
+<fax>520-292-3569</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$72,000</list_price>
+<location>116 W Birdman Dr</location>
+<mls>9920382</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>861 (approx)</square_feet>
+<year_built>1952</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

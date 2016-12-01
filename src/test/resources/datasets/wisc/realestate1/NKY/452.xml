@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>413 POINSETTIA</house_location>
+<price>$73,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249487</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>SHIRLEY FAEHR</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>LIKE NEW! GREAT LOCATION CLOSE TO EXPRESSWAY,CHURCHES,MALL AND HAS ALL
+NEIGHBORHOOD CONVENIENCES.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>82</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 8</dimension><level>1</level></dining>
+<laundry><dimension>8 X 9</dimension><level>1</level></laundry>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>1</level></master>
+
+<directions>I75S TO MT ZION EX L ON MT ZION R ON SHERWOOD
+LAKES TO R ON POINSETTIA TO 413</directions>
+</house_listing>
+
+
+

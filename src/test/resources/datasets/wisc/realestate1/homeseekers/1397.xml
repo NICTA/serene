@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1917 has 3 bedroom(s), 2 bath(s) and
+approximately 2085 square feet of living area.</house_description>
+
+<agent_name>Len Kosakowski</agent_name>
+<direct>690-2322</direct>
+<office>303-690-2322</office>
+<firm_name>Realty Executives</firm_name>
+<phone>303-690-2322</phone>
+<fax>303-617-0722</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$339,500</list_price>
+<location>695 S Williams St</location>
+<neighborhood>Washington Park</neighborhood>
+<mls>381478</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2085 (approx)</square_feet>
+<year_built>1917</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

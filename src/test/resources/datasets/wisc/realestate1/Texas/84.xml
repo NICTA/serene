@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Mayer Realty</name>
+<location>974 East Austin St. Giddings, TX 78942</location>
+<office>(409)542-2696</office>
+<toll_free></toll_free>
+<fax>(409)542-2554</fax>
+<email>mayerrealty@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeffery B. Keaghey</name>
+<office>(409)542-2696</office>
+<fax>(409)542-1715</fax>
+<email>mayerrealty@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17186</id>
+<mls></mls>
+<house_location>323 Josephine
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$159,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This Beautiful Two Story Home has 3 bedrooms, 3 bathrooms and is located in Giddings, Texas on a large lanscaped corner lot. This home has a central air and heating unit, and a Master Suite upstairs and Downstairs.The home has a heated centrally controlled swimming pool, a hot tub, an alarm system, a game room separated from main house, a sprinkler system, a workshop, and a darkroom.</house_description>
+
+<school_district>Giddings</school_district>
+<sub-division>Town</sub-division>
+<approx_size_sqft>2400</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Swimming Pool and Hot Tub</item>
+<item>Fireplace</item>
+<item>Two Master Suites</item>
+<item>Sprinkler System</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

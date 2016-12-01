@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This condominium built in 1950 has 1 bedroom(s), 1 bath(s) and
+approximately 650 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Belkis Martinez</agent_name>
+<office>931-8920</office>
+<firm_name>The Keyes Company,
+Lic. Real Estate Broker</firm_name>
+<phone>931-8920</phone>
+<fax>931-9853</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$49,900</list_price>
+<location>8630 Byron Av #3</location>
+<neighborhood>Bay View Condo</neighborhood>
+<mls>M724551</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>650 (approx)</square_feet>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Wall Unit</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

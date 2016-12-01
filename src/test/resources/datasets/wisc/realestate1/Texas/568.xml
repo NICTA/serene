@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Spencer</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<voice_mail>(713)994-7333</voice_mail>
+<email>bayou1@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11976</id>
+<mls>167789</mls>
+<house_location>3122 Hughes Rd
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$112,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Youll be living on the lake and loving it!  Picture perfect inside, this beautiful home features high ceilings,open plan,fireplace,parquet floor, garden bath,new roof/carpet plus gorgeous view of the lake from 34 x 15 sunroom: arched windows,french doors.  Must see inside!  Catch bass,catfish &amp; more from your own back yard and enjoy the beautiful sunsets over the lake!   Call Carolyn @713 994 7333..</house_description>
+
+<school_district>Disd</school_district>
+<sub-division>Lakeside Estates</sub-division>
+<approx_size_sqft>2167</approx_size_sqft>
+<stories>1</stories>
+<year_built>1975</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Beautiful home on the lake!</item>
+<item>Hi-ceilings,open plan</item>
+<item>34 x 15 sunroom with fantastic lake view</item>
+<item>Fish for bass,catfish from your own back yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

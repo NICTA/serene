@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>7 FOGG RD</house_location>
+<price>$130,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>SPARTA</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>250013</mls>
+<house_type>Single Family</house_type>
+<firm>DANS OHIO RIVER REALTY</firm>
+<firm_phone>(606) 567-7601</firm_phone>
+<agent>MARSHA WEBSTER</agent>
+<agent_phone>(606) 567-7601</agent_phone>
+<house_description>JUST MIN FROM I-71 2 BR A-FRAME ON AREAS. MOST DESIRABLE REC.LAKE
+ACCESS TO OHIO RIVER FROM DOCK SOME FURN STAYS.</house_description>
+<construction>Other</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>100x168</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 14</dimension><level>1</level></bedroom_2>
+<breakfast><dimension>8 X 12</dimension><level>1</level></breakfast>
+<family><dimension>22 X 22</dimension><level>B</level></family>
+<kitchen><dimension>8 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 8</dimension><level>B</level></laundry>
+<living><dimension>16 X 27</dimension><level>1</level></living>
+<master><dimension>16 X 18</dimension><level>2</level></master>
+
+<directions>I-71 S TO EXIT 57 R ON KY 35 5 MI.TO FOGG RD L
+TO 6TH HOUSE ON LEFT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,48 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20315</id>
+<mls>15053</mls>
+<house_location>718 Taylor East
+Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$185,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Beautiful Italian Renaissance Style 2 story home.  Part of the orginal &amp;quot;Silk Stocking Row&amp;quot; in the Castle Court Addition. This home does have many wonderful features which includes its low-pitched, hipped roof covered by ceramic tile, the upper-story windows smaller and less elaborate than the windows below; the full-length first-story windows with arches above and an entrance area accented by small classical pilasters.  Why not make this wonderful place something called home?</house_description>
+
+<school_district>1</school_district>
+<sub-division>1</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

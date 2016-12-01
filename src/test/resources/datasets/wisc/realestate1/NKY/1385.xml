@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>101 CRYSTAL LAKE</house_location>
+<price>$85,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250038</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JOHN VINCE</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>HUD HOME SOLD AS IS CASE #202-008511,INSURED STATUS UI,UP TO 5%
+(NEG)COMM TO SELLING BROKER. TO SUBMIT OFFER 888-292-3917 OR
+WWW.GOLDENFEATHER.COM ALL OTHER INFO 800-336-1399. LIST DATE 1/7/00</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>82X125</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>8 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>8 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>8 X 8</dimension><level>1</level></dining>
+<family><dimension>16 X 13</dimension><level>L</level></family>
+<kitchen><dimension>9 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 9</dimension><level>L</level></laundry>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>10 X 11</dimension><level>2</level></master>
+
+<directions>17 TO HANDS R ON CRYSTAL LAKE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 3+ level townhouse built in 1910 has 4 bedroom(s), 2 full
+bath(s)/1 half bath(s) and approximately 2559 square feet of living
+area. Rooms include master bedroom.</house_description>
+
+<agent_name>Bob Williams</agent_name>
+<direct>202-543-5959</direct>
+<office>202-547-5805</office>
+<firm_name>Coldwell Banker Realty Pros</firm_name>
+<phone>202-547-5805</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$170,000</list_price>
+<location>Washington, DC 20010</location>
+<mls>DC3105232</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<square_feet>2559 (approx)</square_feet>
+<lot_size>2936</lot_size>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

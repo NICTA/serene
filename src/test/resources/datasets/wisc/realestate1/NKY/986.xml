@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>516 KIRBY CT</house_location>
+<price>$99,999</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached,Oversized)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>249558</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>PEGGY-JEAN STADLER</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>GREAT HOME! NEW KITCHEN, NEW BATH, 2 1/2 CAR DETACHED GARAGE, PERFECT
+FOR EVERYMAN*NEW VINYL WINDOWS*VINYL SIDED*ABOVE GROUND POOL WITH
+DECKING*HUGE ROOMS*PERFECT FOR A LG FAMILY SHOW! SELL! THIS ONE WON'T
+LAST!</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>60x120</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$O</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>10 X 9</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>9 X 8</dimension><level>U</level></bedroom_3>
+<bedroom_4><dimension>23 X 12</dimension><level>L</level></bedroom_4>
+<family><dimension>23 X 17</dimension><level>L</level></family>
+<kitchen><dimension>18 X 9</dimension><level>U</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>L</level></laundry>
+<living><dimension>12 X 17</dimension><level>U</level></living>
+<master><dimension>12 X 11</dimension><level>U</level></master>
+
+<directions>US 25 LT ON COMMONWEALTH RT ON BANKLICK LT
+ERLANGER RD RT ON RIGGS LT ON KIRBY CT</directions>
+</house_listing>
+
+
+

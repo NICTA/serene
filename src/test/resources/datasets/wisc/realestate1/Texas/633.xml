@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX - LAGO AREA</name>
+<location>7610 Lohman Ford Rd. Lago Vista, TX 78645</location>
+<office>(512)267-9933</office>
+<toll_free>(888)354-000</toll_free>
+<fax>(512)267-1240</fax>
+<email>lagoishome@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Fran Swanson</name>
+<office>(512)431-3132</office>
+<fax>(512)267-1240</fax>
+<mobile>(512)431-3132</mobile>
+<email>lagoishome@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18629</id>
+<mls>515259</mls>
+<house_location>20704 Park Drive
+Lago Vista, TEXAS 78645</house_location>
+<county>Travis</county>
+<price>$85,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>.86 ACRE LOT!  Spacious 3 bedroom has a scenic lakeview on a large covered deck.  Major privacy, updated, w/metal roof.  e:mail Fran Swanson at lagoishome@aol.com</house_description>
+
+<move-in_date>8/30/99</move-in_date>
+<school_district>Lago Vista Isd</school_district>
+<sub-division>Country Club Estates</sub-division>
+<approx_size_sqft>1504</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.86</approx_lot_size>
+<year_built>1978</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Privacy</item>
+<item>Lakeview</item>
+<item>Wooded</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

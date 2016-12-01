@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1970 has 1 bedroom(s), 1 bath(s) , 1 car
+attached garage and approximately 848 square feet of living area.
+Features include air conditioning.</house_description>
+
+<agent_name>Lorena Clark</agent_name>
+<direct>305-662-8971</direct>
+<office>305-667-4815</office>
+<firm_name>Arvida Realty Serv Arvida Realty Serv
+Lic. Real Estate Broker</firm_name>
+<phone>305-667-4815</phone>
+<fax>305-667-5531</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,500</list_price>
+<location>1357 Collins Av #A1</location>
+<neighborhood>1357 Collins Ave Condo</neighborhood>
+<mls>M766519</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>848 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Electric</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

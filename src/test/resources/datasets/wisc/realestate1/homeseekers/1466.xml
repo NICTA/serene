@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1962 has 7
+bedroom(s), 4 full bath(s)/1 half bath(s) , 1 car garage. Rooms
+include den, dining room, family room, master bedroom. Features
+include patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Lynn Jones</agent_name>
+<office>301-428-1829</office>
+<firm_name>Homes By Owner</firm_name>
+<phone>301-428-1829</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$628,000</list_price>
+<location>Washington, DC 20016</location>
+<mls>DC2683070</mls>
+<status>Active</status>
+<bedrooms>7</bedrooms>
+<baths>4(full) 1(half)</baths>
+<levels>3 or more</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>8994</lot_size>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

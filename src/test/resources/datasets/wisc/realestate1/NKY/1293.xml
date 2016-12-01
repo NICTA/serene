@@ -1,0 +1,55 @@
+<house_listing>
+<house_location>1936 WINESAP WAY</house_location>
+<price>$539,900</price>
+<rooms>13</rooms>
+<bedrooms>4</bedrooms>
+<baths>4-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Side,Oversized)</garage>
+<suburb>THE ORCHARD</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250296</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>KIMBERLY MURPHY CARLISLE</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>COMFORTABLE ELEGANCE! HOMEFEST '96, ASHLEY BUILT, STUNNING FOYER IS
+MARBLE W HDWD INLAYS, GRACEFUL STAIRCASE TO 2ND FL, BALCONY, KIT
+W/CHERRY CAB &amp; CORIAN, LUXURY MSTR SUITE, VOLUME CEILINGS, EXQUISITE
+DETAIL, AUDIO SYSTEM.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>115X175</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>2</level></bath_4>
+<bedroom_2><dimension>16 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 12</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>15 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<family><dimension>23 X 17</dimension><level>L</level></family>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 6</dimension><level>1</level></laundry>
+<living><dimension>20 X 18</dimension><level>1</level></living>
+<master><dimension>17 X 15</dimension><level>1</level></master>
+<recreation_room><dimension>37 X 14</dimension><level>L</level></recreation_room>
+<study><dimension>14 X 12</dimension><level>1</level></study>
+
+<directions>I-75 TO BUTTERMILE PK TO COLLINS R.ON AMSTERDAM,
+L.HIGHWATER,R.APPLEBLOSSOM.</directions>
+</house_listing>
+
+
+

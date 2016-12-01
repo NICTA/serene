@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20072</id>
+<mls>9113076</mls>
+<house_location>Rt 2Box 374
+Franklin, TEXAS 77856</house_location>
+<county>Robertson</county>
+<price>$110,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This 4 bedroom, 2 bath '97 Oakwood doublewide is setting on concrete slab and is located on 10 +/- acres in Robertson County between Franklin and Bryan/College Station.  Home features woodburning fireplace, two living areas, island kitchen, CH/A, lots of builtins and much more.  There is a 36'X72' metal barn ~ half is a 36'X36' workshop on concret floor, the other half is a five stall horse barn with a tack/feed room, automatic waters.  20'X20' pole barn with holding pen.  Water is furnished by community water well.  All property owners pay $15.00 per month for water.</house_description>
+
+<move-in_date>10/20/99</move-in_date>
+<school_district>Franklin</school_district>
+<approx_size_sqft>2016</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>10</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Country Living</item>
+<item>Horse Barn</item>
+<item>Large Home</item>
+<item>Oak Trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

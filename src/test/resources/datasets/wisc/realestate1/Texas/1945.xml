@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Beth King</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)663-0102</mobile>
+<email>bking@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19270</id>
+<mls>516600</mls>
+<house_location>124 Kaapahu
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$139,600</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Two custom homes in the pines!  Nearly complete!  Both brand new brick 3/2/2 homes have lots of builder upgrades and custom features including custom cabinets,  built-ins, tile counters and floors.  Both homes have at least 1600 square feet, each on 1/4 acre wooded lot in beautiful Tahitian Village.  Call Beth King at 512-303-5400 or mobile 512-663-0102.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Tahitian Village Unit 2</sub-division>
+<approx_size_sqft>1600</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.25</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

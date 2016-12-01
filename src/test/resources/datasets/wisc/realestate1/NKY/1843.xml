@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>303 MILLS</house_location>
+<price>$39,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>0</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>240030</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>REHABBED HOME THAT WAS IN THE 97 FLOOD. OWNER IS CURRENTLY IMPROVING
+THE SUBJECT PROPERTY,NOW HAS NEW DRYWALL, SUBFLOORING, NEW FURNACE AND
+CENTRAL AIR. GOOD BUY FOR THE RIGHT PARTY !!</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>Irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>1</level></bedroom_3>
+<dining><dimension></dimension><level>1</level></dining>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>SOUTH ON US 27 TO HWY 177,RT 1 MILE TO BUTLER,
+LT TO MILL STREET TO #303</directions>
+</house_listing>
+
+
+

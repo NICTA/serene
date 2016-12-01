@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 3+ level attached single family home built in 1965 has 3
+bedroom(s), 2 bath(s) and approximately 1496 square feet of living
+area. Rooms include dining room. Features include view, air
+conditioning.</house_description>
+
+<agent_name>Mel Dang</agent_name>
+<office>626-449-6414</office>
+<firm_name>RE/MAX Premier Properties RE/MAX Premier Properties</firm_name>
+<phone>626-449-6414</phone>
+<fax>626-284-7404</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$160,000</list_price>
+<location>3109 Kenneth Dr</location>
+<mls>W907114</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>3 or more</levels>
+<type>Single Family</type>
+<square_feet>1496 (approx)</square_feet>
+<lot_size>5600</lot_size>
+<year_built>1965</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

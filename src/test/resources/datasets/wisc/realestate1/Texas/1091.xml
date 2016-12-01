@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joe Bruns</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net or bobbye@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16187</id>
+<mls>52226</mls>
+<house_location>1001 LAKESHORE
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$249,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>EXCEPTIONAL WATERFRONT HOME.  REMARKABLE OPEN WATERFRONT LOT WITH DOCK.  AMAZING VIEW.  LARGE CUSTOM HOME.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Hayes</sub-division>
+<approx_size_sqft>3440</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>EXCEPTIONAL WATERFRONT HOME.</item>
+<item>AMAZING VIEW.</item>
+<item>OPEN WATERFRONT.</item>
+<item>LARGE CUSTOM HOME.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

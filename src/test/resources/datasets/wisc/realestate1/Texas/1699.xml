@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lynn Aldridge</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>lynn@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>9852</id>
+<mls>53336</mls>
+<house_location>4018-8 OUT YONDER
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$99,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>2 bedroom, 2 bath condominium with vaulted ceiling, spacious living area, ceiling fan.  New carpet, dishwasher.  Refrigerator conveys.  Decks.  Oversized garage with storage.  Furniture negotiable.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay Proper</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

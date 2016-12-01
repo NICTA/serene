@@ -1,0 +1,365 @@
+Dept-Division,Service Type,Service Level  Agreement (Days),Number of Requests,Number Closed On Time,Percent Closed on Time,24 hrs Late (Number),24 hrs Late (Percent),48 hrs Late (Number),48 hrs Late (Percent),72 hrs Late (Number),72 hrs Late (Percent),> 72 hrs (Numbers),> 72 hrs (Percent),Month,Year,Unique Identifier
+DPW-Administration,DPW-Miscellaneous,125,138,138,100%,0,0%,0,0%,0,0%,0,0%,January,2012,1
+DPW-Administration,DPW-Trash Brochure,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,2
+DPW-Administration,Total,,138,138,100%,0,0%,0,0%,0,0%,0,0%,January,2012,3
+DPW-B&G,DPW-Abandoned Property-City Building/Parks,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,4
+DPW-B&G,DPW-City Buildings-Repairs,10,63,55,87.3%,0,0%,0,0%,1,1.6%,6,9.5%,January,2012,5
+DPW-B&G,DPW-Flag Poles & Banners,1,3,1,33.3%,0,0%,0,0%,0,0%,0,0%,January,2012,6
+DPW-B&G,DPW-Furniture Moving Services,30,29,28,96.6%,0,0%,0,0%,0,0%,1,3.4%,January,2012,7
+DPW-B&G,DPW-Parks - Trash Colleciton,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,8
+DPW-B&G,DPW-Pick up & Post Bulletin Board Fliers,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,9
+DPW-B&G,DPW-Playground Shower Maintenance,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,10
+DPW-B&G,DPW-Playgrounds&Parks Gen Maintenance,5,8,8,100%,0,0%,0,0%,0,0%,0,0%,January,2012,11
+DPW-B&G,DPW-School Buildings,23,200,165,82.5%,1,0.5%,0,0%,0,0%,34,17%,January,2012,12
+DPW-B&G,Total,,303,257,84.82%,1,0.33%,0,0%,0,0%,41,13.53%,January,2012,13
+DPW-Engineering,DPW-Manhole Repair,1,7,7,100%,0,0%,0,0%,0,0%,0,0%,January,2012,14
+DPW-Engineering,DPW-Sinkhole,1,2,2,0%,0,0%,0,0%,0,0%,0,0%,January,2012,15
+DPW-Engineering,Total,,9,9,100%,0,0%,0,0%,0,0%,0,0%,January,2012,16
+DPW-Highway,DPW-Abandoned Property,1,10,5,50%,1,10%,0,0%,0,0%,4,40%,January,2012,17
+DPW-Highway,DPW-Abandoned Shopping Cart,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,18
+DPW-Highway,DPW-Animals-Dead,1,11,11,100%,0,0%,0,0%,0,0%,0,0%,January,2012,19
+DPW-Highway,DPW-Barrels Cleaned,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,20
+DPW-Highway,DPW-Barrels Installed,5,1,0,0%,0,0%,0,0%,0,0%,1,0%,January,2012,21
+DPW-Highway,DPW-Bike Racks,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,22
+DPW-Highway,DPW-Damaged/Missing St. Sign Emergency,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,23
+DPW-Highway,DPW-Damaged/Missing Street Sign,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,24
+DPW-Highway,DPW-Graffiti-Removal,1,10,7,70%,2,20%,0,0%,0,0%,1,10%,January,2012,25
+DPW-Highway,DPW-New sign request,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,26
+DPW-Highway,DPW-Pothole,2,134,126,94%,3,2.2%,0,0%,0,0%,5,3.73%,January,2012,27
+DPW-Highway,DPW-Requesting a Bench,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,28
+DPW-Highway,DPW-Sand Barrels,1,8,1,12.5%,3,37.5%,0,0%,1,12.5%,2,25%,January,2012,29
+DPW-Highway,DPW-Sidewalk Repair,15,38,38,100%,0,0%,0,0%,0,0%,0,0%,January,2012,30
+DPW-Highway,DPW-Sidewalk Repair-Emergency,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,31
+DPW-Highway,DPW-Sign Installation,5,18,18,100%,0,0%,0,0%,0,0%,0,0%,January,2012,32
+DPW-Highway,DPW-Snow-Removal,1,7,4,0%,2,0%,0,0%,0,0%,1,0%,January,2012,33
+DPW-Highway,DPW-Street Lights-City Owned,3,4,3,75%,0,0%,0,0%,0,0%,1,25%,January,2012,34
+DPW-Highway,DPW-Street Sweeping,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,35
+DPW-Highway,DPW-Street/Road Defect,30,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,36
+DPW-Highway,"DPW-Traffic Signals-Outages,Blinking Yel",1,18,4,22.2%,4,22.2%,2,11.1%,0,0%,8,44.4%,January,2012,37
+DPW-Highway,DPW-Trash on Sidewalk,3,2,2,100%,0,0%,0,0%,0,0%,0,0%,January,2012,38
+DPW-Highway,DPW-Tree Maintenance,5,5,5,100%,0,0%,0,0%,0,0%,0,0%,January,2012,39
+DPW-Highway,DPW-Tree Trimming,5,12,12,100%,0,0%,0,0%,0,0%,0,0%,January,2012,40
+DPW-Highway,DPW-Trees-Arborist,60,2,1,50%,0,0%,0,0%,1,50%,0,0%,January,2012,41
+DPW-Highway,DPW-Trees Downed Limb or Branch,1,5,3,3%,1,20%,0,0%,0,0%,0,0%,January,2012,42
+DPW-Highway,DPW-Trees-Request A New Tree,125,3,3,100%,0,0%,0,0%,0,0%,0,0%,January,2012,43
+DPW-Highway,Total,,288,243,84.38%,16,5.56%,2,0.69%,2,0.69%,23,7.99%,January,2012,44
+DPW-Misc,DPW-Report Man,3,374,374,0%,0,0%,0,0%,0,0%,0,0%,January,2012,45
+DPW-Misc,Total,,374,374,0%,0,0%,0,0%,0,0%,0,0%,January,2012,46
+DPW-Sanitation,DPW-Illegal Dumping,1,14,9,64.3%,4,28.6%,0,0%,1,7.1%,0,0%,January,2012,47
+DPW-Sanitation,DPW-Recycling - Improperly Stored,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,48
+DPW-Sanitation,DPW-Recycling - Missed Pickup,1,137,136,99.3%,0,0%,0,0%,0,0%,1,0.7%,January,2012,49
+DPW-Sanitation,DPW-Report Extra Trash,5,22,22,100%,0,0%,0,0%,0,0%,0,0%,January,2012,50
+DPW-Sanitation,DPW-Report Parking Space Being Saved,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,51
+DPW-Sanitation,DPW-Sanitation,3,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,52
+DPW-Sanitation,DPW-Trash - Missed 7:00 A.M. Deadline,3,4,1,25%,2,50%,0,0%,1,25%,0,0%,January,2012,53
+DPW-Sanitation,DPW-Trash Missed Pickup,1,103,99,96.1%,3,2.9%,0,0%,0,0%,0,0%,January,2012,54
+DPW-Sanitation,DPW-Trash-TV/Monitor,5,328,328,100%,0,0%,0,0%,0,0%,0,0%,January,2012,55
+DPW-Sanitation,DPW-Yard Waste Missed Pickup,1,31,27,87.1%,3,9.7%,0,0%,1,3.2%,0,0%,January,2012,56
+DPW-Sanitation,Total,,639,622,97.34%,12,1.88%,0,0%,2,0.31%,1,0.16%,January,2012,57
+DPW-Water & Sewer,DPW-Catch Basin,1,1,1,1%,0,0%,0,0%,0,0%,0,0%,January,2012,58
+DPW-Water & Sewer,DPW-Catch Basin/Sewer,1,1,1,1%,0,0%,0,0%,0,0%,0,0%,January,2012,59
+DPW-Water & Sewer,DPW-Sewer - Emergency,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,60
+DPW-Water & Sewer,DPW-Water-Emergency Calls,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,January,2012,61
+DPW-Water & Sewer,DPW-Water Quality Maintenance,1,6,6,0%,0,0%,0,0%,0,0%,0,0%,January,2012,62
+DPW-Water & Sewer,Total,,8,8,100%,0,0%,0,0%,0,0%,0,0%,January,2012,63
+Month Total,,,1759,1651,93.86%,29,1.65%,2,0.11%,4,0.23%,65,3.7%,January,2012,64
+DPW-Administration,DPW-Miscellaneous,125,169,168,99.4%,0,0%,0,0%,0,0%,1,0.6%,February,2012,65
+DPW-Administration,DPW-Trash Brochure,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,66
+DPW-Administration,Total,,169,168,99.41%,0,0%,0,0%,0,0%,1,0.59%,February,2012,67
+DPW-B&G,DPW-Abandoned Property-City Building/Parks,1,1,1,0%,0,0%,0,0%,0,0%,0,0%,February,2012,68
+DPW-B&G,DPW-City Buildings-Repairs,10,47,23,48.9%,2,4.3%,2,4.3%,0,0%,19,40.4%,February,2012,69
+DPW-B&G,DPW-Flag Poles & Banners,1,1,1,100%,0,0%,0,0%,0,0%,0,0%,February,2012,70
+DPW-B&G,DPW-Furniture Moving Services,3,5,5,100%,0,0%,0,0%,0,0%,0,0%,February,2012,71
+DPW-B&G,DPW-Parks - Trash Colleciton,1,,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,72
+DPW-B&G,DPW-Pick up & Post Bulletin Board Fliers,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,73
+DPW-B&G,DPW-Playground Shower Maintenance,1,1,1,0%,0,0%,0,0%,0,0%,0,0%,February,2012,74
+DPW-B&G,DPW-Playgrounds&Parks Gen Maintenance,5,5,5,100%,0,0%,0,0%,0,0%,0,0%,February,2012,75
+DPW-B&G,DPW-School Buildings,23,112,93,83%,2,1.8%,0,0%,0,0%,17,15.2%,February,2012,76
+DPW-B&G,Total,,172,129,75%,4,2.33%,2,1.16%,0,0%,36,20.93%,,,77
+DPW-Engineering,DPW-Manhole Repair,1,4,4,100%,0,0%,0,0%,0,0%,0,0%,February,2012,78
+DPW-Engineering,DPW-Sinkhole,1,1,0,0%,1,0%,0,0%,0,0%,0,0%,February,2012,79
+DPW-Engineering,Total,,5,4,80%,1,20%,0,0%,0,0%,0,0%,,,80
+DPW-Highway,DPW-Abandoned Property,1,7,3,42.9%,0,0%,0,0%,0,0%,4,57.1%,February,2012,81
+DPW-Highway,DPW-Abandoned Shopping Cart,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,82
+DPW-Highway,DPW-Animals-Dead,1,17,17,100%,0,0%,0,0%,0,0%,0,0%,February,2012,83
+DPW-Highway,DPW-Barrels Cleaned,1,2,1,0%,0,0%,0,0%,0,0%,1,0%,February,2012,84
+DPW-Highway,DPW-Barrels Installed,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,85
+DPW-Highway,DPW-Bike Racks,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,86
+DPW-Highway,DPW-Damaged/Missing St. Sign Emergency,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,87
+DPW-Highway,DPW-Damaged/Missing Street Sign,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,88
+DPW-Highway,DPW-Graffiti-Removal,1,51,45,88.2%,3,5.9%,0,0%,1,2%,2,3.9%,February,2012,89
+DPW-Highway,DPW-New sign request,5,1,0,0%,0,0%,0,0%,0,0%,1,0%,February,2012,90
+DPW-Highway,DPW-Pothole,2,326,325,99.7%,1,0.3%,0,0%,0,0%,0,0%,February,2012,91
+DPW-Highway,DPW-Requesting a Bench,125,2,0,0%,0,0%,0,0%,1,0%,1,0%,February,2012,92
+DPW-Highway,DPW-Sand Barrels,1,2,1,50%,0,0%,0,0%,0,0%,1,50%,February,2012,93
+DPW-Highway,DPW-Sidewalk Repair,15,49,49,100%,0,0%,0,0%,0,0%,0,0%,February,2012,94
+DPW-Highway,DPW-Sidewalk Repair-Emergency,1,1,1,0%,0,0%,0,0%,0,0%,0,0%,February,2012,95
+DPW-Highway,DPW-Sign Installation,5,13,12,92.3%,0,0%,0,0%,0,0%,1,7.7%,February,2012,96
+DPW-Highway,DPW-Snow-Removal,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,97
+DPW-Highway,DPW-Street Lights-City Owned,3,6,4,66.7%,1,16.7%,0,0%,0,0%,1,16.7%,February,2012,98
+DPW-Highway,DPW-Street Sweeping,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,99
+DPW-Highway,DPW-Street/Road Defect,30,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,100
+DPW-Highway,"DPW-Traffic Signals-Outages,Blinking Yel",1,15,6,40%,4,26.7%,0,0%,0,0%,5,33.3%,February,2012,101
+DPW-Highway,DPW-Trash on Sidewalk,3,9,8,88.9%,0,0%,1,11.1%,0,0%,0,0%,February,2012,102
+DPW-Highway,DPW-Tree Maintenance,5,7,7,100%,0,0%,0,0%,0,0%,0,0%,February,2012,103
+DPW-Highway,DPW-Tree Trimming,5,99,99,100%,0,0%,0,0%,0,0%,0,0%,February,2012,104
+DPW-Highway,DPW-Trees-Arborist,60,4,3,75%,0,0%,0,0%,0,0%,1,25%,February,2012,105
+DPW-Highway,DPW-Trees Downed Limb or Branch,1,9,8,3%,0,0%,0,0%,0,0%,1,11.1%,February,2012,106
+DPW-Highway,DPW-Trees-Request A New Tree,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,107
+DPW-Highway,Total,,620,589,95%,9,1.45%,1,0.16%,2,0.32%,19,3.06%,February,2012,108
+DPW-Misc,DPW-Report Man,3,73,73,100%,0,0%,0,0%,0,0%,0,0%,February,2012,109
+DPW-Misc,Total,,73,73,100%,0,0%,0,0%,0,0%,0,0%,February,2012,110
+DPW-Sanitation,DPW-Illegal Dumping,1,7,7,100%,0,0%,0,0%,0,0%,0,0%,February,2012,111
+DPW-Sanitation,DPW-Recycling - Improperly Stored,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,112
+DPW-Sanitation,DPW-Recycling - Missed Pickup,1,142,142,100%,0,0%,0,0%,0,0%,0,0%,February,2012,113
+DPW-Sanitation,DPW-Report Extra Trash,5,31,30,96.8%,0,0%,0,0%,0,0%,1,3.2%,February,2012,114
+DPW-Sanitation,DPW-Report Parking Space Being Saved,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,115
+DPW-Sanitation,DPW-Sanitation,3,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,116
+DPW-Sanitation,DPW-Trash - Missed 7:00 A.M. Deadline,3,3,2,66.7%,0,0%,0,0%,0,0%,1,33.3%,February,2012,117
+DPW-Sanitation,DPW-Trash Missed Pickup,1,164,163,99.4%,0,0%,0,0%,0,0%,1,0.6%,February,2012,118
+DPW-Sanitation,DPW-Trash-TV/Monitor,5,513,513,100%,0,0%,0,0%,0,0%,0,0%,February,2012,119
+DPW-Sanitation,DPW-Yard Waste Missed Pickup,1,24,24,100%,0,0%,0,0%,0,0%,0,0%,February,2012,120
+DPW-Sanitation,Total,,884,881,99.66%,0,0%,0,0%,0,0%,3,0.34%,February,2012,121
+DPW-Water & Sewer,DPW-Catch Basin,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,122
+DPW-Water & Sewer,DPW-Catch Basin/Sewer,1,2,2,100%,0,0%,0,0%,0,0%,0,0%,February,2012,123
+DPW-Water & Sewer,DPW-Sewer - Emergency,1,1,1,0%,0,0%,0,0%,0,0%,0,0%,February,2012,124
+DPW-Water & Sewer,DPW-Water-Emergency Calls,1,2,2,0%,0,0%,0,0%,0,0%,0,0%,February,2012,125
+DPW-Water & Sewer,DPW-Water Quality Maintenance,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,February,2012,126
+DPW-Water & Sewer,Total,,5,5,100%,0,0%,0,0%,0,0%,0,0%,February,2012,127
+Month Total,,,1928,1849,95.9%,14,0.73%,3,0.16%,2,0.1%,59,3.06%,February,2012,128
+DPW-Administration,DPW-Miscellaneous,125,76,76,100%,0,0%,0,0%,0,0%,0,0%,March,2012,129
+DPW-Administration,DPW-Trash Brochure,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,130
+DPW-Administration,Total,,76,76,100%,0,0%,0,0%,0,0%,0,0%,March,2012,131
+DPW-B&G,DPW-Abandoned Property-City Building/Parks,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,132
+DPW-B&G,DPW-City Buildings-Repairs,10,63,48,76.2%,0,0%,0,0%,1,1.6%,14,22.2%,March,2012,133
+DPW-B&G,DPW-Flag Poles & Banners,1,2,2,100%,0,0%,0,0%,0,0%,0,0%,March,2012,134
+DPW-B&G,DPW-Furniture Moving Services,30,10,9,90%,0,0%,0,0%,0,0%,1,10%,March,2012,135
+DPW-B&G,DPW-Parks - Trash Colleciton,1,2,1,0%,1,0%,0,0%,0,0%,0,0%,March,2012,136
+DPW-B&G,DPW-Pick up & Post Bulletin Board Fliers,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,137
+DPW-B&G,DPW-Playground Shower Maintenance,1,1,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,138
+DPW-B&G,DPW-Playgrounds&Parks Gen Maintenance,5,15,12,80%,0,0%,0,0%,1,6.7%,2,13.3%,March,2012,139
+DPW-B&G,DPW-School Buildings,23,161,141,87.6%,0,0%,0,0%,1,0.6%,19,11.8%,March,2012,140
+DPW-B&G,Total,,254,213,83.86%,1,0%,0,0%,3,1.18%,36,14.17%,March,2012,141
+DPW-Highway,DPW-Abandoned Property,1,17,3,17.6%,3,17.6%,0,0%,0,0%,11,64.7%,March,2012,142
+DPW-Highway,DPW-Abandoned Shopping Cart,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,143
+DPW-Highway,DPW-Animals-Dead,1,25,20,80%,1,4%,0,0%,0,0%,0,0%,March,2012,144
+DPW-Highway,DPW-Barrels Cleaned,1,2,2,0%,0,0%,0,0%,0,0%,0,0%,March,2012,145
+DPW-Highway,DPW-Barrels Installed,5,2,1,0%,0,0%,0,0%,0,0%,1,0%,March,2012,146
+DPW-Highway,DPW-Bike Racks,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,147
+DPW-Highway,DPW-Damaged/Missing St. Sign Emergency,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,148
+DPW-Highway,DPW-Damaged/Missing Street Sign,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,149
+DPW-Highway,DPW-Graffiti-Removal,1,87,83,95.4%,1,1.1%,1,1.11%,1,1.1%,0,0%,March,2012,150
+DPW-Highway,DPW-Manhole Repair,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,151
+DPW-Highway,DPW-New sign request,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,152
+DPW-Highway,DPW-Pothole,2,243,232,95.5%,2,0.8%,0,0%,0,1.6%,3,1.2%,March,2012,153
+DPW-Highway,DPW-Requesting a Bench,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,154
+DPW-Highway,DPW-Sand Barrels,1,132,132,100%,0,0%,0,0%,0,0%,0,0%,March,2012,155
+DPW-Highway,DPW-Sidewalk Repair,15,123,123,100%,0,0%,0,0%,0,0%,0,0%,March,2012,156
+DPW-Highway,DPW-Sidewalk Repair-Emergency,1,2,2,0%,0,0%,0,0%,0,0%,0,0%,March,2012,157
+DPW-Highway,DPW-Sinkhole,14,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,158
+DPW-Highway,DPW-Sign Installation,5,9,9,100%,0,0%,0,0%,0,0%,0,0%,March,2012,159
+DPW-Highway,DPW-Snow-Removal,1,1,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,160
+DPW-Highway,DPW-Street Lights-City Owned,3,9,5,55.6%,0,0%,0,0%,0,0%,4,44.4%,March,2012,161
+DPW-Highway,DPW-Street Sweeping,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,162
+DPW-Highway,DPW-Street/Road Defect,30,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,163
+DPW-Highway,"DPW-Traffic Signals-Outages,Blinking Yel",1,24,2,8.3%,2,8.3%,0,0%,0,0%,20,83.3%,March,2012,164
+DPW-Highway,DPW-Trash on Sidewalk,3,6,6,100%,0,0%,0,0%,0,0%,0,0%,March,2012,165
+DPW-Highway,DPW-Tree Maintenance,5,11,8,72.7%,3,27.3%,0,0%,0,0%,0,0%,March,2012,166
+DPW-Highway,DPW-Tree Trimming,5,101,101,100%,0,0%,0,0%,0,0%,0,0%,March,2012,167
+DPW-Highway,DPW-Trees-Arborist,60,11,11,100%,0,0%,0,0%,0,0%,0,0%,March,2012,168
+DPW-Highway,DPW-Trees Downed Limb or Branch,1,4,2,50%,1,25%,0,0%,1,25%,0,0%,March,2012,169
+DPW-Highway,DPW-Trees-Request A New Tree,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,170
+DPW-Highway,Total,,809,742,91.72%,13,1.61%,1,0.12%,2,0.25%,39,4.82%,March,2012,171
+DPW-Misc,DPW-Report Man,3,116,116,100%,0,0%,0,0%,0,0%,0,0%,March,2012,172
+DPW-Misc,Total,,116,116,100%,0,0%,0,0%,0,0%,0,0%,March,2012,173
+DPW-Sanitation,DPW-Illegal Dumping,1,14,11,78.6%,2,14.3%,0,0%,0,0%,1,7.1%,March,2012,174
+DPW-Sanitation,DPW-Recycling - Improperly Stored,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,175
+DPW-Sanitation,DPW-Recycling - Missed Pickup,1,41,40,97.6%,0,0%,0,0%,0,0%,1,2.4%,March,2012,176
+DPW-Sanitation,DPW-Report Extra Trash,5,29,29,100%,0,0%,0,0%,0,0%,0,0%,March,2012,177
+DPW-Sanitation,DPW-Report Parking Space Being Saved,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,178
+DPW-Sanitation,DPW-Sanitation,3,2,2,0%,0,0%,0,0%,0,0%,0,0%,March,2012,179
+DPW-Sanitation,DPW-Trash - Missed 7:00 A.M. Deadline,3,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,180
+DPW-Sanitation,DPW-Trash Missed Pickup,1,91,90,98.9%,0,0%,0,0%,0,0%,1,1.1%,March,2012,181
+DPW-Sanitation,DPW-Trash-TV/Monitor,5,261,260,99.6%,0,0%,0,0%,0,0%,1,0.4%,March,2012,182
+DPW-Sanitation,DPW-Yard Waste Missed Pickup,1,1,1,100%,0,0%,0,0%,0,0%,0,0%,March,2012,183
+DPW-Sanitation,Total,,439,433,98.63%,2,0%,0,0%,0,0%,4,0.91%,March,2012,184
+DPW-Water & Sewer,DPW-Catch Basin,1,1,1,100%,0,0%,0,0%,0,0%,0,0%,March,2012,185
+DPW-Water & Sewer,DPW-Catch Basin/Sewer,1,4,4,100%,0,0%,0,0%,0,0%,0,0%,March,2012,186
+DPW-Water & Sewer,DPW-Sewer - Emergency,1,2,2,0%,0,0%,0,0%,0,0%,0,0%,March,2012,187
+DPW-Water & Sewer,DPW-Sinkhole,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,March,2012,188
+DPW-Water & Sewer,DPW-Water-Emergency Calls,1,4,4,100%,0,0%,0,0%,0,0%,0,0%,March,2012,189
+DPW-Water & Sewer,DPW-Water Quality Maintenance,1,1,0,0%,1,8.3%,0,0%,0,0%,0,0%,March,2012,190
+DPW-Water & Sewer,Total,,12,11,91.67%,1,8.33%,0,0%,0,0%,0,0%,March,2012,191
+Month Total,,,1706,1591,93.26%,17,1%,1,0.06%,5,0.29%,79,4.63%,March,2012,192
+DPW-Administration,DPW-Miscellaneous,125,93,93,100%,0,0%,0,0%,0,0%,0,0%,April,2012,193
+DPW-Administration,DPW-Trash Brochure,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,194
+DPW-Administration,Total,,93,93,100%,0,0%,0,0%,0,0%,0,0%,April,2012,195
+DPW-B&G,DPW-Abandoned Property-City Building/Parks,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,196
+DPW-B&G,DPW-City Buildings-Repairs,10,45,34,75.56%,0,0%,1,2.22%,0,0%,10,22.22%,April,2012,197
+DPW-B&G,DPW-Flag Poles & Banners,1,4,2,50%,1,25%,0,0%,1,25%,0,0%,April,2012,198
+DPW-B&G,DPW-Furniture Moving Services,30,19,19,100%,0,0%,0,0%,0,0%,0,0%,April,2012,199
+DPW-B&G,DPW-Parks - Trash Colleciton,1,2,2,100%,0,0%,0,0%,0,0%,0,0%,April,2012,200
+DPW-B&G,DPW-Pick up & Post Bulletin Board Fliers,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,201
+DPW-B&G,DPW-Playground Shower Maintenance,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,202
+DPW-B&G,DPW-Playgrounds&Parks Gen Maintenance,5,19,16,84.21%,1,5.26%,0,0%,0,0%,2,10.53%,April,2012,203
+DPW-B&G,DPW-School Buildings,23,117,99,84.62%,2,1.71%,0,0%,1,0.85%,14,11.97%,April,2012,204
+DPW-B&G,Total,,206,172,83.5%,4,1.94%,1,0.49%,2,0.97%,26,12.62%,April,2012,205
+DPW-Highway,DPW-Abandoned Property,1,9,3,33.33%,1,11.11%,1,11.11%,0,0%,4,44.44%,April,2012,206
+DPW-Highway,DPW-Animals-Dead,1,18,18,100%,0,0%,0,0%,0,0%,0,0%,April,2012,207
+DPW-Highway,DPW-Barrels Cleaned,1,3,2,66.67%,0,0%,0,0%,0,0%,1,33.33%,April,2012,208
+DPW-Highway,DPW-Barrels Installed,5,1,1,100%,0,0%,0,0%,0,0%,0,0%,April,2012,209
+DPW-Highway,DPW-Bike Racks,125,2,0,0%,0,0%,0,0%,0,0%,2,100%,April,2012,210
+DPW-Highway,DPW-Damaged/Missing St. Sign Emergency,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,211
+DPW-Highway,DPW-Damaged/Missing Street Sign,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,212
+DPW-Highway,DPW-Graffiti-Removal,1,188,177,94.15%,8,4.26%,0,0%,0,0%,3,1.6%,April,2012,213
+DPW-Highway,DPW-Manhole Repair,1,1,1,100%,0,0%,0,0%,0,0%,0,0%,April,2012,214
+DPW-Highway,DPW-New sign request,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,215
+DPW-Highway,DPW-Pothole,2,202,192,95.05%,4,1.98%,0,0%,2,0.99%,3,1.49%,April,2012,216
+DPW-Highway,DPW-Requesting a Bench,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,217
+DPW-Highway,DPW-Sand Barrels,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,218
+DPW-Highway,DPW-Sidewalk Repair,15,73,57,78.08%,0,0%,0,0%,0,0%,16,21.92%,April,2012,219
+DPW-Highway,DPW-Sidewalk Repair-Emergency,1,2,2,100%,0,0%,0,0%,0,0%,0,0%,April,2012,220
+DPW-Highway,DPW-Sinkhole,14,1,1,100%,0,0%,0,0%,0,0%,0,0%,April,2012,221
+DPW-Highway,DPW-Sign Installation,5,4,4,100%,0,0%,0,0%,0,0%,0,0%,April,2012,222
+DPW-Highway,DPW-Snow-Removal,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,223
+DPW-Highway,DPW-Street Lights-City Owned,2,6,5,83.33%,0,0%,0,0%,0,0%,1,16.67%,April,2012,224
+DPW-Highway,DPW-Street Sweeping,1,6,2,33.33%,2,33.33%,0,0%,0,0%,0,0%,April,2012,225
+DPW-Highway,DPW-Street/Road Defect,20,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,226
+DPW-Highway,"DPW-Traffic Signals-Outages,Blinking Yel",1,36,15,41.67%,4,11.11%,0,0%,1,2.78%,13,36.11%,April,2012,227
+DPW-Highway,DPW-Trash on Sidewalk,3,7,7,100%,0,0%,0,0%,0,0%,0,0%,April,2012,228
+DPW-Highway,DPW-Tree Maintenance,5,11,11,100%,0,0%,0,0%,0,0%,0,0%,April,2012,229
+DPW-Highway,DPW-Tree Trimming,5,108,106,98.15%,1,0.93%,0,0%,1,0.93%,0,0%,April,2012,230
+DPW-Highway,DPW-Trees-Arborist,60,18,18,100%,0,0%,0,0%,0,0%,0,0%,April,2012,231
+DPW-Highway,DPW-Trees Downed Limb or Branch,1,9,6,66.67%,3,33.33%,0,0%,0,0%,0,0%,April,2012,232
+DPW-Highway,DPW-Trees-Request A New Tree,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,233
+DPW-Highway,Total,,705,628,89.08%,23,3.26%,1,0.14%,4,0.57%,43,6.1%,April,2012,234
+DPW-Misc,DPW-Report Man,3,161,161,100%,0,0%,0,0%,0,0%,0,0%,April,2012,235
+DPW-Misc,Total,,161,161,100%,0,0%,0,0%,0,0%,0,0%,April,2012,236
+DPW-Sanitation,DPW-Illegal Dumping,1,13,12,92.31%,0,0%,0,0%,0,0%,1,7.69%,April,2012,237
+DPW-Sanitation,DPW-Recycling - Missed Pickup,1,37,36,97.3%,0,0%,0,0%,0,0%,1,2.7%,April,2012,238
+DPW-Sanitation,DPW-Recycling - Missing/Stolen Cart,1,18,16,88.89%,0,0%,0,0%,2,11.11%,0,0%,April,2012,239
+DPW-Sanitation,DPW-Report Extra Trash,5,22,22,100%,0,0%,0,0%,0,0%,0,0%,April,2012,240
+DPW-Sanitation,DPW-Trash Missed Pickup,1,73,73,100%,0,0%,0,0%,0,0%,0,0%,April,2012,241
+DPW-Sanitation,DPW-Trash-TV/Monitor,5,246,245,99.59%,0,0%,0,0%,0,0%,1,0.41%,April,2012,242
+DPW-Sanitation,DPW-Yard Waste Missed Pickup,1,21,21,100%,0,0%,0,0%,0,0%,0,0%,April,2012,243
+DPW-Sanitation,Total,,430,425,98.84%,0,0%,0,0%,2,0.47%,3,0.7%,April,2012,244
+DPW-Water & Sewer,DPW-Catch Basin,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,April,2012,245
+DPW-Water & Sewer,DPW-Catch Basin/Sewer,1,9,8,88.89%,1,11.11%,0,0%,0,0%,0,0%,April,2012,246
+DPW-Water & Sewer,DPW-Sewer - Emergency,1,1,1,100%,0,0%,0,0%,0,0%,0,0%,April,2012,247
+DPW-Water & Sewer,DPW-Water-Emergency Calls,1,7,7,100%,0,0%,0,0%,0,0%,0,0%,April,2012,248
+DPW-Water & Sewer,DPW-Water Quality Maintenance,1,1,1,100%,0,0%,0,0%,0,0%,0,0%,April,2012,249
+DPW-Water & Sewer,Total,,18,17,94.44%,1,5.56%,0,0%,0,0%,0,0%,April,2012,250
+Month Total,,,1613,1496,92.75%,28,1.74%,2,0.12%,8,0.5%,72,4.46%,April,2012,251
+DPW-Administration,DPW-Miscellaneous,125,160,160,100%,0,0%,0,0%,0,0%,0,0%,May,2012,252
+DPW-Administration,DPW-Trash Brochure,1,2,2,100%,0,0%,0,0%,0,0%,0,0%,May,2012,253
+DPW-Administration,Total,,162,162,100%,0,0%,0,0%,0,0%,0,0%,May,2012,254
+DPW-B&G,DPW-Abandoned Property-City Building/Parks,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,255
+DPW-B&G,DPW-City Buildings-Repairs,10,54,46,85.19%,1,1.85%,0,0%,0,0%,7,12.96%,May,2012,256
+DPW-B&G,DPW-Flag Poles & Banners,1,4,2,50%,0,0%,0,0%,1,25%,1,25%,May,2012,257
+DPW-B&G,DPW-Furniture Moving Services,30,21,21,100%,0,0%,0,0%,0,0%,0,0%,May,2012,258
+DPW-B&G,DPW-Parks - Trash Colleciton,1,1,0,0%,1,100%,0,0%,0,0%,0,0%,May,2012,259
+DPW-B&G,DPW-Pick up & Post Bulletin Board Fliers,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,260
+DPW-B&G,DPW-Playground Shower Maintenance,1,3,2,66.67%,0,0%,0,0%,0,0%,1,33.33%,May,2012,261
+DPW-B&G,DPW-Playgrounds&Parks Gen Maintenance,5,30,25,83.33%,0,0%,2,6.67%,0,0%,3,10%,May,2012,262
+DPW-B&G,DPW-School Buildings,23,177,155,87.57%,1,0.56%,0,0%,1,0.56%,20,11.3%,May,2012,263
+DPW-B&G,Total,,290,251,86.55%,3,1.03%,2,0.69%,2,0.69%,32,11.03%,May,2012,264
+DPW-Highway,DPW-Abandoned Property,1,8,4,50%,0,0%,0,0%,0,0%,4,50%,May,2012,265
+DPW-Highway,DPW-Animals-Dead,1,28,21,75%,2,7.14%,4,14.29%,0,0%,1,3.57%,May,2012,266
+DPW-Highway,DPW-Barrels Cleaned,1,4,2,50%,1,25%,1,25%,0,0%,0,0%,May,2012,267
+DPW-Highway,DPW-Barrels Installed,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,268
+DPW-Highway,DPW-Bike Racks,125,1,1,100%,0,0%,0,0%,0,0%,0,0%,May,2012,269
+DPW-Highway,DPW-Damaged/Missing St. Sign Emergency,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,270
+DPW-Highway,DPW-Damaged/Missing Street Sign,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,271
+DPW-Highway,DPW-Graffiti-Removal,1,88,65,73.86%,7,7.95%,0,0%,1,1.14%,15,17.05%,May,2012,272
+DPW-Highway,DPW-Manhole Repair,1,3,2,66.67%,0,0%,0,0%,1,33.33%,0,0%,May,2012,273
+DPW-Highway,DPW-New sign request,5,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,274
+DPW-Highway,DPW-Pothole,2,58,56,96.55%,0,0%,0,0%,2,3.45%,0,0%,May,2012,275
+DPW-Highway,DPW-Requesting a Bench,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,276
+DPW-Highway,DPW-Sand Barrels,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,277
+DPW-Highway,DPW-Sidewalk Repair,15,46,29,63.04%,0,0%,0,0%,0,0%,17,36.96%,May,2012,278
+DPW-Highway,DPW-Sidewalk Repair-Emergency,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,279
+DPW-Highway,DPW-Sinkhole,2,6,5,83.33%,0,0%,0,0%,1,16.67%,0,0%,May,2012,280
+DPW-Highway,DPW-Sign Installation,5,1,0,0%,0,0%,0,0%,0,0%,1,100%,May,2012,281
+DPW-Highway,DPW-Snow-Removal,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,282
+DPW-Highway,DPW-Street Lights-City Owned,3,12,7,58.33%,0,0%,0,0%,0,0%,5,41.67%,May,2012,283
+DPW-Highway,DPW-Street Sweeping,1,9,6,66.67%,1,11.11%,0,0%,0,0%,1,11.11%,May,2012,284
+DPW-Highway,DPW-Street/Road Defect,30,3,3,100%,0,0%,0,0%,0,0%,0,0%,May,2012,285
+DPW-Highway,"DPW-Traffic Signals-Outages,Blinking Yel",1,8,1,12.5%,1,12.5%,2,25%,0,0%,4,50%,May,2012,286
+DPW-Highway,DPW-Trash on Sidewalk,3,5,5,100%,0,0%,0,0%,0,0%,0,0%,May,2012,287
+DPW-Highway,DPW-Tree Maintenance,5,44,37,84.09%,1,2.27%,1,2.27%,0,0%,5,11.36%,May,2012,288
+DPW-Highway,DPW-Tree Trimming,5,82,51,62.2%,3,3.66%,1,1.22%,2,2.44%,23,28.05%,May,2012,289
+DPW-Highway,DPW-Trees-Arborist,60,27,27,100%,0,0%,0,0%,0,0%,0,0%,May,2012,290
+DPW-Highway,DPW-Trees Downed Limb or Branch,1,10,7,70%,0,0%,0,0%,0,0%,1,10%,May,2012,291
+DPW-Highway,DPW-Trees-Request A New Tree,125,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,292
+DPW-Highway,Total,,443,329,74.27%,16,5.44%,9,2.03%,7,1.58%,77,17.38%,May,2012,293
+DPW-Misc,DPW-Report Man,3,289,289,100%,0,0%,0,0%,0,0%,0,0%,May,2012,294
+DPW-Misc,Total,,289,289,100%,0,0%,0,0%,0,0%,0,0%,May,2012,295
+DPW-Sanitation,DPW-Illegal Dumping,1,17,12,70.59%,2,11.76%,0,0%,0,0%,3,17.65%,May,2012,296
+DPW-Sanitation,DPW-Recycling - Missed Pickup,1,40,39,97.5%,0,0%,0,0%,0,0%,1,2.5%,May,2012,297
+DPW-Sanitation,DPW-Recycling - Missing/Stolen Cart,1,12,10,83.33%,1,8.33%,0,0%,1,8.33%,0,0%,May,2012,298
+DPW-Sanitation,DPW-Report Extra Trash,5,29,29,100%,0,0%,0,0%,0,0%,0,0%,May,2012,299
+DPW-Sanitation,DPW-Trash Missed Pickup,1,127,113,88.98%,0,0%,0,0%,0,0%,0,0%,May,2012,300
+DPW-Sanitation,DPW-Trash-TV/Monitor,5,380,347,91.32%,0,0%,0,0%,0,0%,33,8.68%,May,2012,301
+DPW-Sanitation,DPW-Yard Waste Missed Pickup,1,25,24,96%,0,0%,0,0%,0,0%,1,4%,May,2012,302
+DPW-Sanitation,Total,,630,574,91.11%,3,0.48%,0,0%,1,0.16%,38,6.03%,May,2012,303
+DPW-Water & Sewer,DPW-Catch Basin,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,304
+DPW-Water & Sewer,DPW-Catch Basin/Sewer,1,7,5,71.43%,1,14.29%,0,0%,0,0%,1,14.29%,May,2012,305
+DPW-Water & Sewer,DPW-Sewer - Emergency,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,306
+DPW-Water & Sewer,DPW-Water-Emergency Calls,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,307
+DPW-Water & Sewer,DPW-Water Quality Maintenance,1,0,0,0%,0,0%,0,0%,0,0%,0,0%,May,2012,308
+DPW-Water & Sewer,Total,,7,5,71.43%,1,14.29%,0,0%,0,0%,1,14.29%,May,2012,309
+Month Total,,,1821,1610,88.41%,23,1.26%,11,0.6%,10,0.55%,148,8.13%,May,2012,310
+DPW-Administration,DPW-Trash Brochure,1,1,1,100%,0,0%,0,0%,0,0%,0,0%,June,2012,311
+DPW-Administration,Total,,1,1,100%,0,0%,0,0%,0,0%,0,0%,June,2012,312
+DPW-B&G,DPW-City Buildings-Repairs,10,75,57,76%,1,1.33%,0,0%,0,0%,17,22.67%,June,2012,313
+DPW-B&G,DPW-Flag Poles & Banners,1,2,1,50%,0,0%,0,0%,0,0%,0,0%,June,2012,314
+DPW-B&G,DPW-Furniture Moving Services,30,6,6,100%,0,0%,0,0%,0,0%,0,0%,June,2012,315
+DPW-B&G,DPW-Playground Shower Maintenance,1,8,5,62.5%,0,0%,0,0%,0,0%,0,0%,June,2012,316
+DPW-B&G,DPW-Playgrounds & Parks Gen. Maintenance,5,33,31,93.94%,0,0%,0,0%,1,3.23%,1,3.03%,June,2012,317
+DPW-B&G,DPW-PM Davis Sq-B&G,,7,7,100%,0,0%,0,0%,0,0%,0,0%,June,2012,318
+DPW-B&G,DPW-PM Lincoln Park,,1,1,100%,0,0%,0,0%,0,0%,0,0%,June,2012,319
+DPW-B&G,DPW-School Buildings,23,151,134,88.74%,1,0.66%,4,2.65%,0,0%,10,6.62%,June,2012,320
+DPW-B&G,Total,,283,242,85.51%,2,0.71%,4,1.41%,1,0.35%,28,9.89%,June,2012,321
+DPW-Engineering,DPW-Manhole Repair,1,9,2,22.22%,3,33.33%,0,0%,0,0%,3,33.33%,June,2012,322
+DPW-Engineering,DPW-Sinkhole,1,3,2,66.67%,0,0%,1,33.33%,0,0%,0,0%,June,2012,323
+DPW-Engineering,Total,,12,4,33.33%,3,25%,1,8.33%,0,0%,3,25%,June,2012,324
+DPW-Highway,DPW-Abandoned Property,1,11,2,18.18%,2,18.18%,0,0%,1,50%,6,54.55%,June,2012,325
+DPW-Highway,DPW-Animals-Dead,1,41,34,82.93%,3,7.32%,0,0%,1,2.94%,2,4.88%,June,2012,326
+DPW-Highway,DPW-Barrels Cleaned,1,6,3,50%,1,16.67%,1,16.67%,0,0%,1,16.67%,June,2012,327
+DPW-Highway,DPW-Barrels Installed,5,1,0,0%,0,0%,0,0%,0,0%,1,100%,June,2012,328
+DPW-Highway,DPW-Graffiti-Removal,1,76,73,96.05%,0,0%,1,1.32%,0,0%,2,2.63%,June,2012,329
+DPW-Highway,DPW-New Bike Racks,125,3,1,33.33%,0,0%,0,0%,0,0%,2,66.67%,June,2012,330
+DPW-Highway,DPW-Pothole,2,61,51,83.61%,1,1.64%,3,4.92%,2,3.92%,3,4.92%,June,2012,331
+DPW-Highway,DPW-Sidewalk Repair,15,99,73,73.74%,0,0%,0,0%,1,1.37%,25,25.25%,June,2012,332
+DPW-Highway,DPW-Sidewalk Repair-Emergency,1,3,1,33.33%,0,0%,0,0%,0,0%,1,33.33%,June,2012,333
+DPW-Highway,DPW-Street Lights-City Owned,3,9,4,44.44%,0,0%,0,0%,0,0%,5,55.56%,June,2012,334
+DPW-Highway,DPW-Street Sweeping,1,5,3,60%,1,20%,0,0%,0,0%,0,0%,June,2012,335
+DPW-Highway,DPW-Street/Road Defect,30,21,21,100%,0,0%,0,0%,0,0%,0,0%,June,2012,336
+DPW-Highway,"DPW-Traffic Signals-Outages,Blinking Yel",1,12,2,16.67%,0,0%,0,0%,1,50%,9,75%,June,2012,337
+DPW-Highway,DPW-Trash on Sidewalk,3,6,4,66.67%,2,33.33%,0,0%,0,0%,0,0%,June,2012,338
+DPW-Highway,DPW-Tree Maintenance,5,9,5,55.56%,0,0%,0,0%,0,0%,4,44.44%,June,2012,339
+DPW-Highway,DPW-Tree Trimming,5,86,42,48.84%,2,2.33%,2,2.33%,1,2.38%,38,44.19%,June,2012,340
+DPW-Highway,DPW-Trees-arborist,60,12,12,100%,0,0%,0,0%,0,0%,0,0%,June,2012,341
+DPW-Highway,DPW-Trees Downed Limb or Branch,1,30,18,60%,6,20%,1,3.33%,1,5.56%,3,10%,June,2012,342
+DPW-Highway,Total,,491,349,71.08%,18,3.67%,8,1.63%,8,1.63%,102,20.77%,June,2012,343
+DPW-Misc,DPW-Miscellaneous,,79,79,100%,0,0%,0,0%,0,0%,0,0%,June,2012,344
+DPW-Misc,DPW-Report Man,3,145,145,100%,0,0%,0,0%,0,0%,0,0%,June,2012,345
+DPW-Misc,Total,,224,224,100%,0,0%,0,0%,0,0%,0,0%,June,2012,346
+DPW-Sanitation,DPW-Illegal Dumping,1,15,7,46.67%,1,6.67%,1,6.67%,0,0%,6,40%,June,2012,347
+DPW-Sanitation,DPW-Recycling - Missed Pickup,1,32,23,71.88%,0,0%,0,0%,1,4.35%,8,25%,June,2012,348
+DPW-Sanitation,DPW-Recycling- Damaged/ Broken Cart,1,1,1,100%,0,0%,0,0%,0,0%,0,0%,June,2012,349
+DPW-Sanitation,DPW-Recycling- Missing/ Stolen Cart,1,8,4,50%,1,12.5%,0,0%,0,0%,3,37.5%,June,2012,350
+DPW-Sanitation,DPW-Report Extra Trash,5,36,36,100%,0,0%,0,0%,0,0%,0,0%,June,2012,351
+DPW-Sanitation,DPW-Sanitation Other,3,1,1,100%,0,0%,0,0%,0,0%,0,0%,June,2012,352
+DPW-Sanitation,DPW-Trash Missed Pickup,1,60,44,73.33%,0,0%,0,0%,0,0%,16,26.67%,June,2012,353
+DPW-Sanitation,DPW-Trash-TV/Monitor,5,207,149,71.98%,1,0.48%,0,0%,0,0%,57,27.54%,June,2012,354
+DPW-Sanitation,DPW-Yard Waste Missed Pickup,1,36,36,100%,0,0%,0,0%,0,0%,0,0%,June,2012,355
+DPW-Sanitation,Total,,396,301,76.01%,3,0.76%,1,0.25%,1,0.25%,90,22.73%,June,2012,356
+DPW-Water & Sewer,DPW-Catch Basin,1,1,1,100%,0,0%,0,0%,0,0%,0,0%,June,2012,357
+DPW-Water & Sewer,DPW-Catch Basin/Sewer,1,9,3,33.33%,2,22.22%,1,11.11%,0,0%,2,22.22%,June,2012,358
+DPW-Water & Sewer,DPW-Sewer - Emergency,1,1,0,0%,0,0%,0,0%,0,0%,1,100%,June,2012,359
+DPW-Water & Sewer,DPW-Water-Emergency Calls,1,6,6,100%,0,0%,0,0%,0,0%,0,0%,June,2012,360
+DPW-Water & Sewer,DPW-Water Quality Maintenance,1,1,1,100%,0,0%,0,0%,0,0%,0,0%,June,2012,361
+DPW-Water & Sewer,Total,,18,11,61.11%,2,11.11%,1,5.56%,0,0%,3,16.67%,June,2012,362
+Month Total,,,1425,1132,79.44%,28,1.96%,15,1.05%,10,0.7%,226,15.86%,June,2012,363
+Test Row,Test,0,1,2,20%,3,3%,10,2%,8,0.6%,200,16%,July,2012,12

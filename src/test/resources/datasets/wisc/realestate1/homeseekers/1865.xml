@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 3 bedroom(s), 1 bath(s) and
+approximately 857 square feet of living area.</house_description>
+
+<agent_name>Tom Luong</agent_name>
+<direct>303-461-1398</direct>
+<office>303-922-2121</office>
+<firm_name>Century 21 Pros</firm_name>
+<phone>303-922-2121</phone>
+<fax>303-922-2310</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$116,900</list_price>
+<location>5045 W Alaska Pl</location>
+<neighborhood>Westwood</neighborhood>
+<mls>376482</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>857 (approx)</square_feet>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

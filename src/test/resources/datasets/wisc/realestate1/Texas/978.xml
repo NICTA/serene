@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Bill Chess Real Estate</name>
+<location>714-B Chestnut Bastrop, TX 78602</location>
+<office>(512)303-3806</office>
+<toll_free></toll_free>
+<fax>(512)303-3839</fax>
+<email>bchess@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bill Chess</name>
+<office>(512)303-3806</office>
+<fax>(512)303-3839</fax>
+<mobile>(512)784-8965</mobile>
+<email>bchess@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19495</id>
+<mls>518619</mls>
+<house_location>455 Gotier Trace Rd. (CR146) Smithville
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$112,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>This 3 bedroom - 2 bath double wide is built on permanent perimeter beam and overlooks beautiful Bastrop Hill Country.  This home has a fire place, sheetrock walls, and open floor plan.  Also included are a storage shed/cabana, and concrete parking and patio.  H.O.W. included.File#:  C0068</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Highsmith</sub-division>
+<approx_size_sqft>1680</approx_size_sqft>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Large well kept home with beautiful view.</item>
+<item>Extra space with storage shed.</item>
+<item>Built on pier and beam.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

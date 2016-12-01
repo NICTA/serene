@@ -1,0 +1,14 @@
+IIT_PRIMARY_KEY@ACT_toilets.csv@AU,TOLT_ASSET_ID@ACT_toilets.csv@AU,id@Brisbane_toilets.csv@AU,ToiletID@national_public_toilets_map.csv@AU
+TOLT_TYPE@ACT_toilets.csv@AU,ToiletType@national_public_toilets_map.csv@AU
+SUBURB@ACT_toilets.csv@AU,Suburb@Brisbane_toilets.csv@AU,Town@national_public_toilets_map.csv@AU
+TOLT_LOCATION@ACT_toilets.csv@AU,Park/Library/Centre@Brisbane_toilets.csv@AU
+TOLT_MALE_CUBICLE@ACT_toilets.csv@AU,Male@national_public_toilets_map.csv@AU
+TOLT_FEMALE_CUBICLE@ACT_toilets.csv@AU,Female@national_public_toilets_map.csv@AU
+TOLT_UNISEX_CUBICLE@ACT_toilets.csv@AU,Unisex@national_public_toilets_map.csv@AU
+TOLT_DISABLED_CUBICLE@ACT_toilets.csv@AU,Disabled Access@Brisbane_toilets.csv@AU
+TOLT_SHARPS@ACT_toilets.csv@AU,SharpsDisposal@national_public_toilets_map.csv@AU
+Toilet Name@Brisbane_toilets.csv@AU,Name@national_public_toilets_map.csv@AU
+Street@Brisbane_toilets.csv@AU,Address1@national_public_toilets_map.csv@AU
+Latitude@Brisbane_toilets.csv@AU,Latitude@national_public_toilets_map.csv@AU
+Longitude@Brisbane_toilets.csv@AU,Longitude@national_public_toilets_map.csv@AU
+Availability@Brisbane_toilets.csv@AU,OpeningHoursSchedule@national_public_toilets_map.csv@AU

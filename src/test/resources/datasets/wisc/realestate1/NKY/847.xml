@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>17 FAIRWAY DRIVE</house_location>
+<price>$239,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>SOUTHGATE</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>246053</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>MARY ANN SARAKATSANNIS</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>PEBBLE BEACH END UNIT, DECK OVERLOOKS WOODED AREA, TOTAL PEACE AND
+QUIET TRADE FRUSTRATION FOR RELAXATION. GOLF COURSE LIVING AT ITS
+BEST. STUDY OR BDR ON 1ST LOWER LEVEL FAMILY ROOM READY FOR YOUR
+CREATIVITY</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>OF RECORD</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>230</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>15 X 15</dimension><level>L</level></bedroom_2>
+<breakfast><dimension>10 X 9</dimension><level>1</level></breakfast>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>25 X 13</dimension><level>L</level></laundry>
+<living><dimension>25 X 14</dimension><level>1</level></living>
+<master><dimension>16 X 15</dimension><level>1</level></master>
+<study><dimension>13 X 10</dimension><level>1</level></study>
+
+<directions>I-471 TO EXIT 2, S ON US27 TO R ON BLOSSOM TO
+R ON FAIRWAY DRIVE</directions>
+</house_listing>
+
+
+

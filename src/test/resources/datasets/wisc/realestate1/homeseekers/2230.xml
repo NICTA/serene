@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>Golf course lot with incredible view-master suite with gas log
+fireplace,jetted tub,separate shower,large walk-in closet-a private
+sanctuary at the end of a busy day-also spacious family room with
+cathedral ceiling,eat-in kitchen with pantry.Rent to own possible.</house_description>
+
+<agent_name>Angie Zengilowski</agent_name>
+<office>757-456-2345</office>
+<firm_name>RE/MAX Alliance RE/MAX Alliance</firm_name>
+<phone>757-456-2345</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$138,000</list_price>
+<location>Virginia Beach, VA 23456</location>
+<mls>0001238</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Transitional</style>
+<square_feet>1854 (approx)</square_feet>
+<year_built>1988</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<location>On golf course, Corner</location>
+<patio>Patio</patio>
+<view>Golf Course View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Cathedral/Vaulted Ceilings, CeilingFan(s), Club House, Garage Door Opener, Pantry, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

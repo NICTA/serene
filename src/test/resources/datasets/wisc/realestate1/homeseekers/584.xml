@@ -1,0 +1,49 @@
+<house_listing>
+<house_description>This single family home built in 1969 has 4 bedroom(s), 5 full
+bath(s)/1 half bath(s) , 2 car attached garage and approximately 4231
+square feet of living area. Rooms include dining room, family room.
+Features include view, private pool, patio, fireplace, air
+conditioning.</house_description>
+
+<agent_name>William Mishan</agent_name>
+<direct>305-375-8470</direct>
+<office>305-947-2300</office>
+<firm_name>Mishan &amp; Associate
+Lic. Real Estate Broker</firm_name>
+<phone>305-947-2300</phone>
+<fax>305-000-0000</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$3,250,000</list_price>
+<location>70 Casuarina Concours</location>
+<neighborhood>Gables Ests No 2</neighborhood>
+<mls>M765591</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>5(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>4231 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1969</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Central</heating>
+<fireplace>Yes</fireplace>
+<location>Intracoastal, Water front</location>
+<patio>Patio</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room</rooms>
+<view>Pool View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Central Vacuum, Dishwasher, Garage Door Opener, Kitchen Island, OceanAccess, Outdoor Lights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

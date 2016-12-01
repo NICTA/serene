@@ -1,0 +1,34 @@
+<house_listing>
+<price>$169,500</price>
+<mls_id_number>158729</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1168</sqft>
+<year_built>1922</year_built>
+<heat>Not Listed</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.11        Acres</lot_size>
+<lot_description>50X100</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Hardwood Floors,</floors>
+<interior>Not Listed</interior>
+<exterior>Porch,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>ROSE CITY PARK</elementary>
+<middle_school>GREGORY HTS</middle_school>
+<high_school>GRANT</high_school>
+</schools>
+
+</house_listing>
+
+
+

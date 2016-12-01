@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>794 SOUTHFORK RD</house_location>
+<price>$129,500</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Carport)</garage>
+<suburb>CARROLLTON</suburb>
+<school_dist>CARROLL CO</school_dist>
+<mls>247553</mls>
+<house_type>Single Family</house_type>
+<firm>REALTY WORLD-RIVER VALLEY PROP</firm>
+<firm_phone>(502) 732-9977</firm_phone>
+<agent>CHRIS D HEMBREE</agent>
+<agent_phone>(502) 732-9977</agent_phone>
+<house_description>WELL MAINTAINED BRICK/FRAME SPLIT FOYER HOME SITUATED ON 1 ACRE LOT IN
+THE COUNTRY NEAR OTHER COMPARABLE HOMES. LOTS OF ROOM IN THIS ONE.
+ABOVE GROUND POOL. AHS HOME WARRANTY.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>210 x 210</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bedroom_2><dimension>13 X 9</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>9 X 12</dimension><level>U</level></bedroom_3>
+<bedroom_4><dimension>12 X 14</dimension><level>L</level></bedroom_4>
+<dining><dimension>10 X 12</dimension><level>U</level></dining>
+<family><dimension>21 X 14</dimension><level>L</level></family>
+<kitchen><dimension>12 X 11</dimension><level>U</level></kitchen>
+<laundry><dimension>22 X 4</dimension><level>L</level></laundry>
+<living><dimension>15 X 14</dimension><level>U</level></living>
+<master><dimension>14 X 12</dimension><level>U</level></master>
+<recreation_room><dimension>21 X 13</dimension><level>L</level></recreation_room>
+
+<directions>U.S.42W TO SOUTHFORK RD. PROPERTY IS ON THE RT.
+SOUTHFORK BETWEEN GHENT &amp; CARRO</directions>
+</house_listing>
+
+
+

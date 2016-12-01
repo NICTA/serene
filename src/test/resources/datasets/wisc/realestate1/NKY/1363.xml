@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>632 CLEVELAND AVE</house_location>
+<price>$65,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>(Carport)</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248711</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JOHN VINCE</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>THIS HUD OWNED PROP OFFERED AS IS-CASE #202011507.THIS PROPERTY IS NOT
+FHA INSURABLE.UP TO 5% COMM TO SELLING OFFICE.FOR ANY &amp; ALL INFO
+INCLUDING SUBMISS OR OFFERS CALL 888-292-3917 OR WWW.GOLDENFEATHER.COM
+800-228-9025</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>9 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>8 X 11</dimension><level>1</level></kitchen>
+<living><dimension>20 X 11</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level>1</level></master>
+
+<directions>I275 TO N ON 16 RT ON GRAND R ON HOWARD R ON
+CLEVELAND</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1959 has 5 bedroom(s), 4 bath(s) and
+approximately 3980 square feet of living area.</house_description>
+
+<agent_name>Elyse Eskanos</agent_name>
+<direct>303-627-7510</direct>
+<office>303-751-3350</office>
+<firm_name>Perry &amp; Butler</firm_name>
+<phone>303-751-3350</phone>
+<fax>303-751-3974</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$499,900</list_price>
+<location>990 S Elizabeth St</location>
+<neighborhood>Bonnie Brae</neighborhood>
+<mls>385412</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<square_feet>3980 (approx)</square_feet>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>1606 FISHER</house_location>
+<price>$81,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>CARROLLTON</suburb>
+<school_dist>CARROLL</school_dist>
+<mls>248855</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>SUSAN KEMPER</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>HUD OWNED AS IS CASE #204-255703,NOT FHA INSURABLE,5% COMM TO SELLING
+BROKE INFO OR SUBMIT OFFER 888-292-3917 OR WWW.GOLDENFEATHER.COM,ALL
+OTHER INFO CALL 800-228-9025</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>17 X 11</dimension><level>1</level></kitchen>
+<living><dimension>12 X 19</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+<study><dimension>18 X 11</dimension><level>1</level></study>
+
+<directions>71S TO CARROLLTON R ON 227 TO R ON FISHER TO
+PROPERTY</directions>
+</house_listing>
+
+
+

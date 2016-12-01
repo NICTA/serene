@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1970 has 1 bedroom(s), 1 bath(s) and
+approximately 655 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Larry Lemke</agent_name>
+<direct>305-538-6551</direct>
+<office>305-532-0260</office>
+<firm_name>Kent Karlock Realt
+Lic. Real Estate Broker</firm_name>
+<phone>305-532-0260</phone>
+<fax>305-532-0940</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$158,900</list_price>
+<location>401 Ocean Dr #609</location>
+<neighborhood>Presidential Condo</neighborhood>
+<mls>M771918</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>655 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Larry Pruneda</name>
+<office></office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20598</id>
+<mls>R26163</mls>
+<house_location>308 S CR 1150
+Riviera, TEXAS 78379</house_location>
+<county>Kleberg</county>
+<price>$69,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Riviera</school_district>
+<sub-division>Koch Subdivision 1</sub-division>
+<approx_size_sqft>1705</approx_size_sqft>
+<approx_lot_size>150 X 140</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

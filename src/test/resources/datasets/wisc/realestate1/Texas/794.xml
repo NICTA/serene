@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Quandt</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>C21Linda@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15090</id>
+<mls>R25700</mls>
+<house_location>525 W Ave C
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$39,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>Lots 7-12 - Block 8 - College HeightsPossible owner finance.  Addition to house has bedroom with loft area.  Extra lot to east is part of property.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>College Heights</sub-division>
+<approx_size_sqft>1648</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>150 X 140</approx_lot_size>
+<year_built>1945</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Front/Back Porch</item>
+<item>Decks</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>960 REEVES RD</house_location>
+<price>$93,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>0-2</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249607</mls>
+<house_type>Single Family</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>MIKE MELTON</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>NEW HOME, UNDER CONSTRUCTION, LARGE DECK OVERLOOKING LAKE
+WILLIAMSTOWN, FAMILY ROOM, COULD BE FINISHED IN LOWER AREA FOR $5000
+MORE, CITY WATER, COUNTRY KITCHEN</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>23 X 16</dimension><level>B</level></bedroom_3>
+<family><dimension>16 X 14</dimension><level>1</level></family>
+<kitchen><dimension>18 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>1</level></laundry>
+<master><dimension>16 X 11</dimension><level>1</level></master>
+<recreation_room><dimension>14 X 23</dimension><level>B</level></recreation_room>
+
+<directions>DRY RIDGE EX L THEN R ON USET,L ON 467 KNOXVILLE
+RD R ON REEVES</directions>
+</house_listing>
+
+
+

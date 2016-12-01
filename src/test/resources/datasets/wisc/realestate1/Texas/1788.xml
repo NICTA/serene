@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mark Giesecke</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<mobile>(512)755-3500</mobile>
+<email>giesecke@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17150</id>
+<mls>52844</mls>
+<house_location>511 Avenue S
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$65,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Very cute mobile home, located on a half acre fenced lot.  Lots of trees.  Centrally located.</house_description>
+
+<school_district>Marble Falls</school_district>
+<stories>1</stories>
+<approx_acres>0.5</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Half Acre Lot.</item>
+<item>Fenced.</item>
+<item>Centrally located.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

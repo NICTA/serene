@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carlos Flores</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)681-5015</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21671</id>
+<mls>87900</mls>
+<house_location>1108 South 6th Street
+Killeen, TEXAS 76541</house_location>
+<county>Bell</county>
+<price>$58,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great starter home with a garage conversion to add more living space but can easily be converted back to a garage.  Close to post and conviently located near stores.  Call today for your appointment to see this home.</house_description>
+
+<school_district>K.i.s.d</school_district>
+<sub-division>Rolling Acres</sub-division>
+<approx_size_sqft>1536</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>108x141</approx_lot_size>
+<approx_acres>0.3</approx_acres>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

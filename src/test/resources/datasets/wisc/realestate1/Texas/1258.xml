@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Elaine Taylor</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)395-7695</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20542</id>
+<mls>6206</mls>
+<house_location>1612 Lancaster
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$116,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Charming 2BD/2BA Garden Home in great area.  Spacious bedrooms, walk-in closets, vaulted ceilings, wonderful  kitchen w/lots of cabinets.  A Retirees' Paradise!!!</house_description>
+
+<school_district>San Marcos</school_district>
+<sub-division>Sendera</sub-division>
+<approx_size_sqft>1379</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>city</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Workshop</item>
+<item>Professional, low maintainence landscaping</item>
+<item>Wood parque floors</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

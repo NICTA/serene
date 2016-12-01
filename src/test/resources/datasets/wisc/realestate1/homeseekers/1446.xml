@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 4 bedroom(s), 6 bath(s) , 3
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, private pool, private spa, patio, fireplace.</house_description>
+
+<agent_name>Marianna Theleman</agent_name>
+<office>602-953-4000</office>
+<firm_name>John Hall &amp; Associates</firm_name>
+<phone>602-953-4000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$9,860,000</list_price>
+<location>Phoenix, AZ 85018</location>
+<mls>1446017</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>6</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<style>Contemporary</style>
+<lot_size>5 TO 9.9 AC</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Multi Zoned, Natural Gas</heating>
+<fireplace>Master Bedroom</fireplace>
+<location>Corner</location>
+<patio>Covered</patio>
+<pool>Heated</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Basement, Cable TV, Ceiling Fan(s), Contemporary Style, Dishwasher,Eat In Kitchen, Game Room, Garage Door Opener, Gazebo, Guest Room,Kitchen Island, Library, Microwave, Pantry, Tennis Court(s), Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

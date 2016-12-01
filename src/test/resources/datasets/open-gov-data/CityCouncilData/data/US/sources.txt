@@ -1,0 +1,9 @@
+Command:
+  wget -r -H -l 1 -nd -t 3 --content-disposition -e robots=off -A csv <url>
+
+URLS:
+
+  http://catalog.data.gov/organization/city-of-hartford
+  http://catalog.data.gov/organization/city-of-hartford?page=2
+  http://catalog.data.gov/organization/city-of-honolulu
+

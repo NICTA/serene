@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1935 has 1 bedroom(s), 1 bath(s) and
+approximately 590 square feet of living area. Rooms include master
+bedroom. Features include fireplace, air conditioning.</house_description>
+
+<agent_name>Laura Veitia</agent_name>
+<direct>305-339-0496</direct>
+<office>305-672-1300</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-1300</phone>
+<fax>305-672-1499</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$67,500</list_price>
+<location>610 8 St #105</location>
+<neighborhood>Art Deco Condo Desc</neighborhood>
+<mls>M762678</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>590 (approx)</square_feet>
+<year_built>1935</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<fireplace>Yes</fireplace>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

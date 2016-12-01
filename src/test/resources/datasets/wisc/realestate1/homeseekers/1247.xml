@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1948 has 4
+bedroom(s), 2 full bath(s)/2 half bath(s) and approximately 4034
+square feet of living area. Rooms include dining room, master bedroom.
+Features include patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Eva-Maria Von Bronk</agent_name>
+<direct>202-829-5457</direct>
+<office>202-237-5100</office>
+<firm_name>Eva Realty, Llc</firm_name>
+<phone>202-237-5100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$349,000</list_price>
+<location>Washington, DC 20012</location>
+<mls>DC3081101</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 2(half)</baths>
+<levels>3 or more</levels>
+<type>Single Family</type>
+<square_feet>4034 (approx)</square_feet>
+<lot_size>7065</lot_size>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Central, Zoned</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

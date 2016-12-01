@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>1728 GARRARD</house_location>
+<price>$59,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248195</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>RON PARSONS</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>CLOSE TO SCHOOLS, HOSPITAL AND CHURCHES, FENCED YARD. GREAT FOR 1ST
+TIME BUYERS!</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bedroom_2><dimension>11 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 15</dimension><level>1</level></dining>
+<family><dimension>10 X 28</dimension><level>L</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<living><dimension>16 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>2</level></master>
+
+<directions>MADISON E ON 20TH L ON GARRARD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>TRACY CRAWFORD</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<voice_mail>(281)444-0551 x-12</voice_mail>
+<mobile>(281)650-3266</mobile>
+<email>tracyleecrawford@yahoo.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13781</id>
+<mls></mls>
+<house_location>9634 Bending
+in North Houston, TEXAS 77064</house_location>
+<county>Harris</county>
+<price>$156,175</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>BRAND NEW AND AVAILABLE OR IMMEDIATE MOVE-IN!!4 Bedrooms, 2 baths, formal dining, acme brick, glass blocks in master bath, extended tile in entry and utility room, tile in kitchen and breakfast room, kitchen tile backsplash, upgraded carpet.Call today, won' t last!!</house_description>
+
+<move-in_date>1/21/99</move-in_date>
+<school_district>Cy-fair</school_district>
+<sub-division>Willowlake</sub-division>
+<approx_size_sqft>2197</approx_size_sqft>
+<stories>1</stories>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>$5,000 allowance</item>
+<item>charming neighborhood</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

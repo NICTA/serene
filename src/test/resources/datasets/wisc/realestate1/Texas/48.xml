@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Huff</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-0075</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15213</id>
+<mls></mls>
+<house_location>318 PINE VALLEY LOOP
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$125,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>NEW CONSTRUCTION. THIS HOME HAS NEVER BEEN PERMANATLY MOVED INTO.LIVING ROOM SEPERATES THE TWO BEDROOMS AND BATHS.FRENCH DOORS OPEN ONTO PORCH FROM BOTH BEDROOMSAND LIVING ROOM.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Pine Valley Estates</sub-division>
+<stories>1</stories>
+<approx_acres>5.51</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+<item>FIREPLACE</item>
+<item>LIKE NEW</item>
+<item>LARGE TREES</item>
+<item>FRENCH DOORS ONTO BACK PATIO</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

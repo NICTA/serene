@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1912 has 4
+bedroom(s), 1 bath(s) and approximately 1524 square feet of living
+area.</house_description>
+
+<agent_name>Bruno Loffredo</agent_name>
+<office>323-668-1023</office>
+<firm_name>Loffredo &amp; Associates</firm_name>
+<phone>323-668-1023</phone>
+<fax>323-668-9245</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$140,000</list_price>
+<location>469 W 46Th St</location>
+<mls>G907283</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1524 (approx)</square_feet>
+<year_built>1912</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

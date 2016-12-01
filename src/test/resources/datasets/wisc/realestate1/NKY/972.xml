@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>603 S BENHAM</house_location>
+<price>$42,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>249071</mls>
+<house_type>Single Family</house_type>
+<firm>W.C. THARP &amp; SON</firm>
+<firm_phone>(606) 291-0266</firm_phone>
+<agent>CHARLES THARP</agent>
+<agent_phone>(606) 291-0266</agent_phone>
+<house_description>NEW KITCHEN, NEW BATH, COMODE ON 1ST. NEWER FURNACE, REPLACE SASH,
+FRONT &amp; REAR DECKS, 16FT DIA POOL.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25x99</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>11 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>19 X 13</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 9</dimension><level>1</level></laundry>
+<living><dimension>12 X 13</dimension><level>1</level></living>
+<master><dimension>11 X 14</dimension><level>2</level></master>
+
+<directions>E ON 6TH ACROSS RR TRACKS &amp; S ON BENHAM</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Broumley</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<email>staff@c21quadj.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21477</id>
+<mls>9135311</mls>
+<house_location>1424 CR 2006
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$88,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nice house with large trees and some landscaping.Beautiful fireplace and pretty decor - lots of kitchen cabinets!Quiet area about 5 miles out of town.</house_description>
+
+<school_district>Glen Rose</school_district>
+<sub-division>Rock Creek</sub-division>
+<approx_size_sqft>1250</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1.02</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Quiet, secluded area</item>
+<item>Nice landscaping and trees</item>
+<item>Beautiful fireplace in home</item>
+<item>Close to beautiful Glen Rose</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

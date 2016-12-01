@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1998 has 3 bedroom(s), 3 bath(s) , 1 car
+attached garage and approximately 2338 square feet of living area.
+Rooms include dining room. Features include air conditioning.</house_description>
+
+<agent_name>Adrienne Rogatz</agent_name>
+<direct>305-891-0588</direct>
+<office>305-672-1300</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-1300</phone>
+<fax>305-672-1499</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$555,000</list_price>
+<location>4775 Collins Av #1203</location>
+<neighborhood>Blue Diamond</neighborhood>
+<mls>M749311</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>2338 (approx)</square_feet>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Intercom System, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1950 has 4
+bedroom(s), 2 bath(s) and approximately 1421 square feet of living
+area. Rooms include dining room, living room, master bedroom. Features
+include view, patio.</house_description>
+
+<agent_name>Joseph Garrie</agent_name>
+<office>760-753-1690</office>
+<firm_name>Joseph Garrie Broker</firm_name>
+<phone>760-753-1690</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$139,900</list_price>
+<location>San Diego, CA 92114</location>
+<mls>99 1007468</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1421 (approx)</square_feet>
+<lot_size>6000</lot_size>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Wall Unit</heating>
+<patio>Yes</patio>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<view>Mountain/Hills View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>216 HAROLD MASON</house_location>
+<price>$42,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248659</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>JIM SCHACK</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>NICE, CLEAN 2BR HOME, OFF STREET PARKING, LAUNDRY ROOM OFF KITCHEN,
+NEWER ROOF AND GUTTERS. THIS ROOM IS READY TO MOVE INTO. CALL JIM
+SCHACK FOR MORE INFORMATION AT 448-0700</house_description>
+<construction>Shingle</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50x40</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 8</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>14 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 6</dimension><level>1</level></laundry>
+<living><dimension>12 X 11</dimension><level>1</level></living>
+<master><dimension>11 X 9</dimension><level>1</level></master>
+
+<directions>I-275 TO RT 16 N, R DANIELS (BY DAIRY QUEEN),L
+CHURCH, R 33RD, L FRAIZER, R HAR</directions>
+</house_listing>
+
+
+

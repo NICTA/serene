@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>492 GLENBROOKE DR</house_location>
+<price>$199,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-2</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>WASHINGTON</suburb>
+<school_dist>MASON CO</school_dist>
+<mls>246484</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>MARGE HARGETT</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>TRADITIONAL HOUSE ON CORNER LOT, FISH POND. REAR DECK W/SWING, FRUIT
+TREES, RECENT REMODELING OF FIRST FLOOR AND BASEMENT. EAT IN KITCHEN.
+BDRY SUMP PUMP. 4 BR. 2 AND A HALF BA. SKY LIGHTS, NEW APPLIANCES.
+IMACULATE.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>B</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>2</level></bath_4>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 13</dimension><level>2</level></bedroom_4>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<family><dimension>19 X 11</dimension><level>1</level></family>
+<kitchen><dimension>11 X 18</dimension><level>1</level></kitchen>
+<laundry><dimension>4 X 8</dimension><level>B</level></laundry>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>17 X 24</dimension><level>2</level></master>
+
+<directions>AA TO R ON 68 TO L ON DUKE OF YORK TO R WASH
+GLEN TO L ON GLENBROOKE</directions>
+</house_listing>
+
+
+

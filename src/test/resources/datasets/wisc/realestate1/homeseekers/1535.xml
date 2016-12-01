@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>Seller will pay 4% comm. + $1000. Bonus to s/a on a full. Price offer.</house_description>
+
+<agent_name>Fred Castaneda</agent_name>
+<direct>818-917-7574</direct>
+<office>562-429-3532</office>
+<firm_name>Homes &amp; Land Real Estate</firm_name>
+<phone>562-429-3532</phone>
+<fax>562-869-4279</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$115,000</list_price>
+<location>Los Angeles, CA 90031</location>
+<mls>Y94844</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>789 (approx)</square_feet>
+<lot_size>2100 (approx)</lot_size>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Living Room</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

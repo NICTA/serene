@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Landmasters Real Estate</name>
+<location>101 Sunrise Drive Sunrise Beach, TX 78643</location>
+<office>(915)388-4555</office>
+<toll_free>(800)306-8629</toll_free>
+<fax>(915)388-3946</fax>
+<email>landmstr@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ron Cooper</name>
+<office>(915)388-4555</office>
+<fax>(915)388-3946</fax>
+<email>LANDMSTR@TSTAR.NET</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21089</id>
+<mls>54532</mls>
+<house_location>212 PARK ROAD
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$260,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>VERY NICE LAKE HOME ON GREAT WATER WITH FANTASTIC VIEW. LOTS OF TREES AND PARTALLY FENCED YARD, SATILLO TILE PATIO ON LAKESIDE. RECENTLY UPDATED WITH SOFT TONE COLORS. THE HOME IS AVAILABLE FOR VIEWING AT ANY TIME. sOME OF THE FURNITURE WILL REMAIN WITH THE PROPERTY. FORMORE INFORMATION, PLEASE CALL RON COOPER OR YOU CAN REACH ME ON MY EMAIL AT rccooper@tstar.net</house_description>
+
+<move-in_date>12/10/99</move-in_date>
+<school_district>Llano</school_district>
+<approx_size_sqft>1344</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>LARGE</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>BEAUTIFUL VIEW OF LAKE</item>
+<item>READY TO MOVE IN</item>
+<item>LARGE LOT FOR ACTIVITIES</item>
+<item>GREAT NEIGHBORHOOD</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

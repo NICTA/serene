@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1952 has 2 bedroom(s), 1 bath(s) and
+approximately 1070 square feet of living area.</house_description>
+
+<agent_name>Kathy Newman</agent_name>
+<direct>303-743-9360</direct>
+<office>303-750-7070</office>
+<firm_name>RE/MAX Southeast Inc</firm_name>
+<phone>303-750-7070</phone>
+<fax>303-750-9190</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$214,900</list_price>
+<location>2701 S Adams St</location>
+<neighborhood>University Park,Observatory</neighborhood>
+<mls>367546</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1070 (approx)</square_feet>
+<year_built>1952</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

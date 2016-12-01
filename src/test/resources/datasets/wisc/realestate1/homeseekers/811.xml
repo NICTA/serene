@@ -1,0 +1,49 @@
+<house_listing>
+<house_description>This single family home built in 1950 has 4 bedroom(s), 4 bath(s) , 2
+car attached garage and approximately 6955 square feet of living area.
+Rooms include dining room, family room. Features include view, private
+pool, fireplace, air conditioning, satellite dish.</house_description>
+
+<agent_name>Carlos Justo</agent_name>
+<direct>305-535-4175</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$2,550,000</list_price>
+<location>94 La Gorce Cr</location>
+<neighborhood>La Gorce Island Pb 44-56</neighborhood>
+<mls>M733888</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>6955 (approx)</square_feet>
+<lot_size>101 X 206</lot_size>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Electric</heating>
+<fireplace>Yes</fireplace>
+<location>Intracoastal, Bay front, Water front</location>
+<patio>Open Porch, Screened Porch</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room</rooms>
+<spa>No</spa>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Dishwasher, Fenced, Pantry, Satellite Dish, Trash Compacter,Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Dawn Inman</name>
+<office>(512)990-5111</office>
+<fax>(512)834-2234</fax>
+<mobile>(512)990-5858</mobile>
+<email>rwmail@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20688</id>
+<mls>520780</mls>
+<house_location>16910 Isle of Man
+in North Pflugerville, TEXAS 78660</house_location>
+<county>Travis</county>
+<price>$123,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Shows like a Model! 3 or 4 Possible Bedrooms! 2.5 Bathrooms! Gameroom! Open Kitchen! Huge Master! Pflugerville Schools!</house_description>
+
+<school_district>Pflugerville</school_district>
+<approx_size_sqft>1994</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>49 x 94</approx_lot_size>
+<year_built>1994</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+<item>Fantastic Floor Plan! Possible 4 Bedrooms!</item>
+<item>2.5 Bathrooms! Gameroom! Open Kitchen!</item>
+<item>Huge Master Suite! Call Dawn Inman 990-5958!</item>
+<item>Easy Access to Major Roads &amp; Business!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

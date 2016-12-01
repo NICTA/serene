@@ -1,0 +1,251 @@
+=========================================
+                TRAINING
+=========================================
+
+To train a classifier:
+    ./train_semtype_classifier.sh <path_to_raw_data> <path_to_classes> <path_to_labels> <model_output_filename> <resampling_strategy> <features_config> [cost_matrix_file]
+
+Parameters:
+    path_to_raw_data: Path to desired training data.  This can either be a path to a csv 
+                      file or a folder containing csv files.
+    path_to_classes : Path to csv containing the list of relevant classes.  Can be a file or folder.
+    path_to_labels  : Path to csv containing mapping of attribute id to class.  For all other instances
+                      in the training data which don't have labels, a default label of "unknown" will be assigned.
+                      Can be a file or folder.
+    model_output_filename : The path where to store the trained model.
+    resampling_strategy   : The resampling strategy to use to mitigate effects of class imbalance.
+                            Choice of strategies are:
+                            UpsampleToMax  - This resamples the training instances of each class to be equal to the class 
+                                             with the maximum number of instances.
+                                             E.g. If the training set had this class frequency: 
+                                                     (Phone: 10, Address: 3, Name: 6, Unknown: 8)
+                                                  This strategy would upsample each class to have 10 instances each:
+                                                     (Phone: 10, Address: 10, Name: 10, Unknown: 10)
+                            UpsampleToMean - This strategy upsamples only classes whose instances have less than the mean.
+                                             E.g. From (Phone: 10, Address: 3, Name: 6, Email: 3, Unknown: 8) to
+                                                       (Phone: 10, Address: 6, Name: 6, Email: 6, Unknown: 8)
+                            ResampleToMean - Similar to "UpsampleToMean" but downsamples classes whose number of instances 
+                                             is more than the mean.
+                                             E.g. From (Phone: 10, Address: 3, Name: 6, Email: 3, Unknown: 8) to
+                                                       (Phone: 6, Address: 6, Name: 6, Email: 6, Unknown: 6)
+                            UpsampleToMedian - Similar to "UpsampleToMean" but uses the median instead.
+                                             E.g. From (Phone: 10, Address: 2, Name: 7, Email: 3, Unknown: 8) to
+                                                       (Phone: 10, Address: 7, Name: 7, Email: 7, Unknown: 8)
+                            ResampleToMedian - Similar to "ResampleToMean" but uses the median instead.
+                                             E.g. From (Phone: 10, Address: 2, Name: 7, Email: 3, Unknown: 8) to
+                                                       (Phone: 7, Address: 7, Name: 7, Email: 7, Unknown: 7)
+                            CapUnknownToHalf - Uses the actual number of instances, but sets the maximum proportion of 
+                                               'unknown' instances to 50% of the whole training set.
+                            NoResampling     - Just uses the actual number of instances per class.  Warning: number of 
+                                               'unknown' class instances can be too large!
+    features_config : Path to the JSON file that contains which features to use.  The ff json attributes specify which 
+                      features to use:
+                          activeFeatures - These are scalar features.
+                          activeFeatureGroups - These are vector features.
+                      The "featureExtractorParams" attribute is used to configure some feature extractor.
+                      For detailed information on the features and their configuration, 
+                      please refer to the docs/features.txt documentation.
+
+    cost_matrix_file : This is an optional parameter to the path of a cost matrix.
+                       The Weka format is described in https://weka.wikispaces.com/CostMatrix.
+                       The first line contains the number of rows and columns separated with a tab.
+                       The remaining lines will contain the cost matrix where
+                           (1) columns refer to the predicted class
+                           (2) rows refer to the actual class
+                           (3) the values on the diagonal are the cost of correct predictions,
+                               which is usually 0
+                           (4) all values not on the diagonal are the cost of misclassifications
+                        The order of the rows/columns correspond to the order of classes in the file
+                        <path_to_classes> supplied with the "unknown" class prepended.
+                        E.g. If my class_list had the ff: (phone, address, gender)
+                        The matrix will be
+                                        unknown_pred phone_pred  address_pred gender_pred
+                            unknown_gt       ??          ??           ??           ??
+                            phone_gt         ??          ??           ??           ??
+                            address_gt       ??          ??           ??           ??
+                            gender_gt        ??          ??           ??           ??
+
+                        A simple matrix with uniform cost for mispredicting classes would be:
+                            0  1  1  1
+                            1  0  1  1
+                            1  1  0  1
+                            1  1  1  0
+                        A matrix which penalizes false positives of the unknown class more would be:
+                            0   1  1  1
+                            10  0  1  1
+                            10  1  0  1
+                            10  1  1  0
+                        A matrix which penalizes false negatives of the unknown class more would be:
+                            0  10  10  10
+                            1  0   1   1
+                            1  1   0   1
+                            1  1   1   0
+                        Cost of mispredictions between two specific classes can be specified as well.
+                        For instance setting the cost of 
+                          (1) mispredicting phone as gender to 10,
+                          (2) mispredicting address as phone to 5
+                        would be:
+                            0  1  1  1
+                            1  0  1  10
+                            1  5  0  1
+                            1  1  1  0
+
+
+For instance:
+    ./train_semtype_classifier.sh repo/raw_data/ repo/classes/ repo/labels/manual/ repo/models/demo.rf UpsampleToMean repo/config/features_config.json
+
+    ./train_semtype_classifier.sh repo/raw_data/ repo/classes/ repo/labels/manual/ repo/models/demo.rf UpsampleToMean repo/config/features_config.json repo/config/cost_matrix.txt    
+
+
+----------------------------------------
+Training Data Format
+----------------------------------------
+
+Training data is expected to be in CSV format with the first row as the header. For instance:
+    name,phone_number,age
+    John Doe,0411222100,34
+    "Smith,Jane",0400000000,40
+
+The labels are expected to be in CSV format with the first row as the header.  E.g.
+    attr_id,class
+    cooling@residential_listing_-_feature_details@house_listing@homeseekers.csv,cooling
+    cooling@house_listing@nky.csv,cooling
+    ac@house_listing@windermere.csv,cooling
+
+The attribute id has to follow the format:
+    attribute_name@dataset_filename
+
+The class list is expected to be in a newline delimited file.  E.g.:
+    cooling
+    address
+    agent_name
+
+
+=========================================
+                INFERENCE
+=========================================
+
+To predict the semantic types of new data:
+    ./predict_semtypes.sh <path_to_model> <path_to_raw_data> <predictions_output_filename>
+
+Parameters:
+    path_to_model: Path of the model to be used for prediction.
+    path_to_raw_data: Path of the data to make predictions of their semantic types. 
+    predictions_output_filename: The path where to store the predictions. 
+
+For instance:
+    ./predict_semtypes.sh repo/models/demo.rf repo/raw_data/ repo/labels/predicted/pred1.csv
+
+Predictions will come in csv format.  
+For instance:
+    attribute_id,predicted_class,confidence,date_predicted,actual_class,date_validated
+    mobile@customers.csv,PHONE,0.9,2015/03/20,?,?
+
+Users are expected to replace the ?'s with the actual class and the date when the validation was performed.
+Only validated predictions can be read by the training process.  The prediction csv's can be validated
+manually or using the validation interface described in the next section.
+
+
+=========================================
+                VALIDATION
+=========================================
+./validate_predictions.sh [options] <path_to_predictions>
+
+Parameters:
+    path_to_predictions : The path where to store the predictions. 
+
+Options:
+    -i <path_to_classes>: Run in interactive mode.  path_to_classes should point to the file or folder
+                          holding the list of relevant classes.
+    -ag <threshold>:      Automatically accept predictions whose confidence is >= threshold.
+    -rl <threshold>:      Automatically reject predictions whose confidence is < threshold.
+
+For instance:
+    ./validate_predictions.sh -i repo/classes/ repo/labels/predicted/pred1.csv
+    ./validate_predictions.sh -ag 0.9 repo/labels/predicted/pred1.csv
+    ./validate_predictions.sh -rl 0.7 repo/labels/predicted/pred1.csv
+
+
+=========================================
+                TRANSFORMATION
+=========================================
+./transform.sh <path_to_raw_data> <path_to_labels> <path_to_transformations> <output_path>
+
+To run transformation, make sure you have the 'sed' command available.  (sudo yum install sed)
+Parameters:
+    path_to_raw_data : Path to raw data we wish to transform.  Can be a file or folder.
+    path_to_labels :   Path to the mapping of attributes to semantic class.  Can be a file or folder.
+    path_to_transformations : Path to the transformations we want to apply.  Can be a file or folder.
+    output_path : Path to store the transformed data.
+
+For instance:
+    ./transform.sh repo/raw_data/ repo/labels/ repo/transformations/ repo/cleaned_data/
+
+Transformations are specified in csv format.
+For instance:
+    class,source_pattern,output_format
+    phone,([0-9]+)-([0-9]+)-([0-9]+),\1\2\3
+
+The source pattern is a regex with grouping.  The output pattern can extract those groups by referencing 
+them with \<index>.  Other kinds of formatting supported by sed can also be used.  To make sure your
+syntax for the transformations is correct, test with the sed command in a bash shell:
+For Unix/Linux:
+    sed -r 's/<source_pattern>/<output_format>/')
+For OSX:
+    sed -E 's/<source_pattern>/<output_format>/')
+
+
+=========================================
+                EVALUATION
+=========================================
+./evaluate.sh <path_to_raw_data> <path_to_classes> <path_to_labels> <eval_results_path> <min_trainset_proportion> <trainset_proportion_increment> <testset_proportion> <num_repetitions> <resampling_strategy> <features_config_file> [cost_matrix_file]
+
+This script shows improvements in test accuracies as you increase the training set size.
+
+Parameters:
+    path_to_raw_data:   Path to desired training data.  This can either be a path to a csv
+                        file or a folder containing csv files.
+    path_to_classes :   Path to a csv containing the list of relevant classes.
+    path_to_labels  :   Path to csv containing mapping of attribute id to class.  For all other instances
+                        in the training data which don't have labels, a default label of "unknown" will be assigned.
+                        Can be a file or folder.
+    eval_results_path : Path to store evaluation results (e.g. raw predictions, confusion matrix, aggregate accuracies).
+                        The results-detailed.csv file stores the accuracies of each repetition of each training/test set size.
+                        The results-averaged-over-reps.csv file stores accuracies which have been averaged over repetitions.
+                        The results-averaged-over-classes.csv file stores accuracies which have been averaged over both repetitions and classes.
+                        Within each subfolder, the raw predictions and confusion matrix are stored.
+                        Confusion matrix columns are the predicted class, while the rows are the ground truth.
+    min_trainset_proportion       : The smallest training set size to start with.  This proportion is relative to the size of the whole dataset.
+                                    This value must be greater than 0, and less than or equal to (1.0-testset_proportion).
+    trainset_proportion_increment : This is the amount to increase the training set proportion.  
+                                    E.g. If the total number of instances in the dataset is 100, 
+                                         and min_trainset_proportion was set to 0.2, 
+                                         and the testset_proportion was 0.2, 
+                                    then the sizes used for the experiments with increasing training data size would be:
+                                    total_dataset_size   train_prop    test_prop   num_train_inst   num_test_inst
+                                    100                     0.2           0.2           20               20
+                                    100                     0.4           0.2           40               20
+                                    100                     0.6           0.2           60               20
+                                    100                     0.8           0.2           80               20
+    testset_proportion: The proportion of instances per class used for testing.  Note that we use stratified sampling to sample 
+                        instances from each class.
+    num_repetitions  :  The number of repetitions to run an experiment of some fixed training set size and test set size.
+
+    resampling_strategy  : Please refer to the documentation of resampling_strategy in the TRAINING section above.
+    features_config_file : Path to the JSON file that contains which features to use.  Refer to the TRAINING section for more details.
+    cost_matrix_file     : This is an optional parameter to the path of a cost matrix.  Refer to the TRAINING section for more details.
+
+
+
+For instance:
+    ./evaluate.sh repo/raw_data repo/classes/class_list.csv repo/labels/manual repo/eval/ 0.2 0.2 0.2 2 ResampleToMean repo/config/features_config.json
+
+This command runs experiments where 20% of all instances are used for testing, and the training set size take the following values: 20%,40%,60%,80% of all instances.  For each setting, training and testing is repeated 2 times.  When training, class instances are resampled with the strategy 'ResampleToMean'.  Only features that are marked active in features_config.json will be used.
+
+    ./evaluate.sh repo/raw_data repo/classes/class_list.csv repo/labels/manual repo/eval/ 0.2 0.2 0.2 2 ResampleToMean repo/config/features_config.json repo/config/cost_matrix.txt
+
+This command is similar to the first one but supplies a cost matrix for cost-sensitive classification.
+
+    
+
+

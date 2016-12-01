@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 1.5 bath(s) and
+approximately 1170 square feet of living area. Rooms include dining
+room, living room, bonus room.</house_description>
+
+<agent_name>Antonella Bliss Antonella Bliss</agent_name>
+<direct>603-356-9444</direct>
+<office>603-356-9444</office>
+<email>abliss@abliss.com</email>
+<firm_name>RE/MAX Presidential RE/MAX
+Presidential</firm_name>
+<phone>603-356-9444</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$119,900</list_price>
+<location>Madison, NH 03849</location>
+<mls>566320</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<type>Single Family</type>
+<square_feet>1170 (approx)</square_feet>
+<lot_size>78408</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<fireplace>No</fireplace>
+<rooms>Bonus Room, Dining Room, Living Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Magdalena Solis</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<mobile>(956)806-6488</mobile>
+<email>C21HgnTx@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21291</id>
+<mls>15162</mls>
+<house_location>0 Paloma Dr.
+San Benito, TEXAS</house_location>
+<county>Cameron</county>
+<price>$0</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description></house_description>
+
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

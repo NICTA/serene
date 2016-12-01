@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jessica Shaw</name>
+<office>(830)303-4472</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19040</id>
+<mls>11950</mls>
+<house_location>643 Royal Sage
+Seguin, TEXAS 78155</house_location>
+<county>Guadalupe</county>
+<price>$141,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Impressive and charming atrium off of the master bedroom.  This property offred by:  Jessica Shaw, Abr, Gri.</house_description>
+
+<move-in_date>9/8/99</move-in_date>
+<school_district>Seguin Isd</school_district>
+<sub-division>Sagewood Park E.</sub-division>
+<approx_size_sqft>1914</approx_size_sqft>
+<approx_lot_size>50x100</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Lovely Garden</item>
+<item>Home in a Restricted Sub-Div.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

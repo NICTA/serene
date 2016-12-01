@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>4444 DECOURSEY</house_location>
+<price>$52,000</price>
+<rooms>3</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>(Detached,Rear)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247423</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>WILLIAM WHITE</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>COMPLETELY REHABED MOVE IN CONDITION. LIVE IN CHEAPER THAN RENT. HOME
+WARRANTY INCLUDED. EXCELLENT STARTER OR RETIREMENT HOME.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25X120</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<kitchen><dimension>16 X 16</dimension><level>1</level></kitchen>
+<living><dimension>17 X 16</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>275 N. ON RT 16, R. ON GRAND, L. ON DECOURSEY TO
+4444 ON RIGHT SIDE.</directions>
+</house_listing>
+
+
+

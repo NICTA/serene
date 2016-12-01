@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>1417 NORTHBEND/R237</house_location>
+<price>$129,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Carport)</garage>
+<suburb>HEBRON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249576</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX ACCLAIMED REALTY</firm>
+<firm_phone>(513) 661-8700</firm_phone>
+<agent>FRANCIS HENDY</agent>
+<agent_phone>(513) 661-8700</agent_phone>
+<house_description>12 YR OLD HOME ON APPROX 1 ACRE PRIVATE YARD. NEW CARPET, FULL BSMT,
+WOOD WINDOWS, CITY WATER, GAS AT ASTREET, EXTRA WIDE DRIVE CARPORT CAN
+EASILY ENCLOSED.</house_description>
+<construction>Vinyl</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>12 X 12</dimension><level>1</level></breakfast>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>I-275 NORTH ON RT 237 (NORTHBEND RD) TO HOME</directions>
+</house_listing>
+
+
+

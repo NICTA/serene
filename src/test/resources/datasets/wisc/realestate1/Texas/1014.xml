@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Preston</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>10395</id>
+<mls>50299</mls>
+<house_location>3602 Mormon Mill
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$235,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>4</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Superb views from most windows.  Covered porches front and back.  Cedar post metal roof, 4-car garage/workshop.  Fenced yard.  Tremendous character!  Oversize master suite with whirlpool tub.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Hi Ridge Trails</sub-division>
+<approx_size_sqft>2432</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>4</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Central heat/air, detached garage, ceiling fans</item>
+<item>Bonus room, den, patio</item>
+<item>Workshop, chain link fencing</item>
+<item>VIEW!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

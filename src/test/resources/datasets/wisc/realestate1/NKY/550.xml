@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>347 ALTAMONT</house_location>
+<price>$39,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247607</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>BUD HAFLEY</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>REHABBED * WOOD MANTEL WITH MIRROR IN LIVING ROOM * HARDWOOD FLOORS *
+OFF STREET PARKING * MOVE IN CONDITION * PARTIALLY FINISHED LOWER
+LEVEL</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25 X 100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>15 X 15</dimension><level>L</level></bedroom_2>
+<kitchen><dimension>15 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+
+<directions>HIGHWAY AVE TO RIGHT ON ALTAMONT</directions>
+</house_listing>
+
+
+

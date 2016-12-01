@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>612 MARY INGLIS</house_location>
+<price>$194,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>3 Cars (Attached,Front)</garage>
+<suburb>COLD SPRING</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>250008</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>ERMA SCHADLER</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>OUTSTANDING HOME WITH AN OUTSTANDING RIVER VIEW. GREAT HOME FOR
+ENTERTAIN- ING WHETHER IN SUMMER AROUND THE POOL OR IN WINTER AROUND
+FIREPLACE. VERY OPEN FLOOR PLAN. NATURAL GAS AT STREET . A MUST SEE!
+ERMA 395-3780</house_description>
+<construction>Alum</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>None</gas>
+<water>Cistern,Wellwater</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>29 X 16</dimension><level>1</level></family>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<living><dimension>21 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+<recreation_room><dimension>28 X 17</dimension><level>L</level></recreation_room>
+
+<directions>HWY 27 TO 1998 TO LEFT ON RT.8 GO LESS THAN A
+HALF MILE. HOUSE ON LEFT.</directions>
+</house_listing>
+
+
+

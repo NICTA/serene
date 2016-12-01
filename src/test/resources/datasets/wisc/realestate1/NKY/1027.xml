@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>103 RIVERSIDE PKWY</house_location>
+<price>$299,000</price>
+<rooms>10</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-2</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>FORT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>242376</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>LIZ ELLIS</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>A FORT THOMAS LANDMARK. 3 TO 5 BEDROOMS. GRACIOUS ROOMS. HARDWOOD
+FLOORS. WONDERFUL CENTER HALL. COLONIAL SLATE ROOF. SCREENED PORCH.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>None</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>95x180irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>3</level></bath_4>
+<bedroom_2><dimension>15 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 28</dimension><level>3</level></bedroom_4>
+<bedroom_5><dimension>14 X 12</dimension><level>3</level></bedroom_5>
+<dining><dimension>15 X 18</dimension><level>1</level></dining>
+<family><dimension>10 X 25</dimension><level>1</level></family>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 33</dimension><level>1</level></living>
+<master><dimension>15 X 22</dimension><level>2</level></master>
+
+<directions>MEMORIAL TO L ON WATERWORKS TO RIVERSIDE</directions>
+</house_listing>
+
+
+

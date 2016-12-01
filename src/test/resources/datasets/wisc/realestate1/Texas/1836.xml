@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Max</email>
+</firm_information>
+
+<agent_information>
+<name>Nelson</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>13948</id>
+<mls>188406</mls>
+<house_location>14215 Swanfield
+Sugar Land, TEXAS</house_location>
+<county>Fort Bend</county>
+<price>$86,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This beautiful Perry home ready for move in. Refurbished throughout Plus replaced roof, HWH, and AC unit. Added computer room can be 4th. bedroom. Total with added room equals 2000 Sq. ft.. High ceiling and fireplace in 21X17 living room. Walk-in closets throughout Deck.</house_description>
+
+<school_district>Fortbend Isd</school_district>
+<sub-division>Dover</sub-division>
+<approx_size_sqft>1768</approx_size_sqft>
+<stories>1</stories>
+<year_built>1982</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

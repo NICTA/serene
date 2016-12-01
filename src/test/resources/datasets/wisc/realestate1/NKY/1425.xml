@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>10649 TAYLOR MILL</house_location>
+<price>$229,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>4 Cars (Attached,Detached,Oversized)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249673</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>CYNTHIA CAHILL</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>CLASSIC BEAUTY! ONE OF THOSE YOU'VE ALWAYS ADMIRED! CSTM HRDWD FLRS
+UNDER CARPET-CEDAR LINED CLOSETS-2 LRG BAY WINDOWS-ARCHED ENTRY DOOR &amp;
+NOSTALGIC DECOR-4+ CAR GARAGE W/WORKSHOP+STRGE BARN-GORGEOUS VIEW OF
+LAKE-1 OWNER!</house_description>
+<construction>Vinyl,Stone</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>At Street</gas>
+<water>At Street</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>36 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<family><dimension>23 X 21</dimension><level>1</level></family>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>19 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>275 TO TAYLOR MILL-SOUTH ON TAYLOR MILL- 1/2
+MILE PAST IGA ON LEFT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Bobby Gronewald</name>
+<location>223 W. Travis La Grange, TX 78945</location>
+<office>(409)968-8471</office>
+<toll_free></toll_free>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Zapalac</name>
+<office>(409)968-8471</office>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19697</id>
+<mls>2226</mls>
+<house_location>554 S Madison
+La Grange, TEXAS 78945</house_location>
+<county>Fayette</county>
+<price>$66,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Charming 3/1 with functional basement. 1930's era tongue and groove siding. A great home to remodel, in good condition. On a large corner lot with huge Pecan Trees. Large dining and family area. Twelve foot ceilings. Two car garage with  storage area. In the LaGrange School District.  Call Irene Zapalac, Listing Agent at 409-968-8471 for add'l. info. SELLER READY TO SELL!  REDUCED PRICE TO $66,000!</house_description>
+
+<school_district>La Grange</school_district>
+<sub-division>Town</sub-division>
+<approx_size_sqft>1350</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.24</approx_acres>
+<year_built>1930</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Good Neighborhood</item>
+<item>Close to schools</item>
+<item>Easy commute to Austin</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Awesome 3 story luxury living home, great community &amp; schools! Shows
+like a model! 9 ft ceilings, fireplace, jacuzzi tub! New carpet and
+appliances! Great price and great location.</house_description>
+
+<agent_name>Kris Weaver</agent_name>
+<office>757-497-8733</office>
+<firm_name>William E. Wood At The Mall</firm_name>
+<phone>757-497-8733</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$82,900</list_price>
+<location>Virginia Beach, VA 23464</location>
+<mls>9933015</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Townhouse</type>
+<style>Townhouse</style>
+<square_feet>1665 (approx)</square_feet>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>Patio</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Club House, Fenced, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

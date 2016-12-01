@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>2479 HEMPFLING</house_location>
+<price>$84,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>MORNINGVIEW</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249804</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JENNY COTE</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>COMPLETELY UPDATED CAPE COD ON HALF ACRE-MUST SEE TO BELIEVE!
+IMMEDIATE POSSESSION - HURRY THIS ONE WON'T LAST! WATER AT STREET</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>17 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 12</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>2</level></master>
+
+<directions>S ON 17 TO LEFT ON HEMPFLING</directions>
+</house_listing>
+
+
+

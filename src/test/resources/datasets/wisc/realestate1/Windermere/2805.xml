@@ -1,0 +1,34 @@
+<house_listing>
+<price>$296,000</price>
+<mls_id_number>150894</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1898</sqft>
+<year_built>1999</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>SHAKE</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.17        Acres</lot_size>
+<lot_description>100X63</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Tile Floors,</floors>
+<interior>Gas Fireplace, Security System</interior>
+<exterior>Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>BETHANY</elementary>
+<middle_school></middle_school>
+<high_school>WEST VIEW</high_school>
+</schools>
+
+</house_listing>
+
+
+

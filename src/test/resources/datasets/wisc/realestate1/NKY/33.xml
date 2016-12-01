@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>6385 CLIFFSIDE</house_location>
+<price>$77,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE CTY</school_dist>
+<mls>249824</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>JANET KAISER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* NEW CARPETING THROUGHOUT * FURNACE AND HEAT PUMP WERE REPLACED IN
+1998 * * ROOF WAS REPLACED IN 1997 * PRIVATE SETTING * FINSIHED
+OVERHEAD STORAGE IN GARAGE * GREAT STARTER HOME *</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>128</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 9</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>2</level></master>
+
+<directions>BURLINGTON PK TO OAKBROOK DR TO LEFT AT THE
+1ST WYNDS TO RIGHT ON CLIFFSIDE</directions>
+</house_listing>
+
+
+

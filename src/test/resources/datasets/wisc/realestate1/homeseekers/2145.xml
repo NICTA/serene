@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1965 has ? bedroom(s), 1 bath(s) , 1 car
+garage and approximately 515 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Hada Bollero</agent_name>
+<direct>305-881-3762</direct>
+<office>305-531-3050</office>
+<firm_name>Kent Karlock Realt
+Lic. Real Estate Broker</firm_name>
+<phone>305-531-3050</phone>
+<fax>305-531-0035</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$94,000</list_price>
+<location>100 Lincoln Rd #509</location>
+<neighborhood>The Decoplage Condo</neighborhood>
+<mls>M757302</mls>
+<status>Active</status>
+<baths>1</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>515 (approx)</square_feet>
+<year_built>1965</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

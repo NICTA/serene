@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1915 has 3 bedroom(s), 1 full
+bath(s)/1 half bath(s) . Rooms include master bedroom. Features
+include fireplace, air conditioning.</house_description>
+
+<agent_name>William Gibson</agent_name>
+<direct>202-582-0879</direct>
+<office>202-483-6300</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>202-483-6300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$117,500</list_price>
+<location>Washington, DC 20001</location>
+<mls>DC3100882</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>1742</lot_size>
+<year_built>1915</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

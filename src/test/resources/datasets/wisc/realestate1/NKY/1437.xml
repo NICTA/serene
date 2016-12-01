@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>11932 STAFFORDSBURG</house_location>
+<price>$155,554</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250219</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>DENISE WALLS</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>THIS MINI FARM HAS TREMENDOUS POTENTIAL W/NEWER VINYL,GUTTERS &amp;
+ROOF.THE OWNERS ARE ALLOWING $2000 FOR CARPET OR REDECORATING,CEILING
+FANS IN EVERY ROOM.THE OWNER ARE CLEANING UP THE GROUNDS.WE WIL WORK
+WITH YOU!!</house_description>
+<construction>Vinyl</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Wellwater</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<breakfast><dimension>16 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 14</dimension><level>1</level></dining>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>10 X 13</dimension><level>1</level></master>
+
+<directions>I275 TO RT16 R TO 5S36 OR STRAFFORDSBURG ROAD
+NEXT PROPERTY ON RIGHT</directions>
+</house_listing>
+
+
+

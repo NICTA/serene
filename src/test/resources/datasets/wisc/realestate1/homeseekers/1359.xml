@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1999 has 3 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1590 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Alicia Cervera</agent_name>
+<direct>305-534-4088</direct>
+<office>305-374-3434</office>
+<firm_name>Cervera Real Estat
+Lic. Real Estate Broker</firm_name>
+<phone>305-374-3434</phone>
+<fax>305-374-6901</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$550,000</list_price>
+<location>90 Alton Rd #3309</location>
+<neighborhood>Yacht Club At Portofino</neighborhood>
+<mls>M762839</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1590 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Intracoastal, Ocean front, Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Foyer, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

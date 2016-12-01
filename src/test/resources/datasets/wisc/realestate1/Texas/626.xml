@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Marty Flowers</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 130</voice_mail>
+<mobile>(512)923-9698</mobile>
+<email>martyf@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21662</id>
+<mls>529769</mls>
+<house_location>408 Hub Drive
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$128,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<garage_spaces>1</garage_spaces>
+
+<house_description>BLANCO RIVER PARK reserved for Wagon Wheel property owners. 3 bedrooms, 2 bath, partial brick home with single garage and carport. Quiet neighborhood near town, established fenced garden area, two large outbuildings with utility storage, and peaceful views of the surrounding hills.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Wagon Wheel</sub-division>
+<approx_size_sqft>1433</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>100&amp;#8217; X 200&amp;#8217;</approx_lot_size>
+<year_built>1076</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Quiet Neighborhood</item>
+<item>Blanco River Park</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

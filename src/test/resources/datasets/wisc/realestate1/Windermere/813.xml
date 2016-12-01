@@ -1,0 +1,34 @@
+<house_listing>
+<price>$286,900</price>
+<mls_id_number>137263</mls_id_number>
+<city>SALEM</city>
+<st>OR</st>
+<bedrooms>5</bedrooms>
+<bathrooms>3.00</bathrooms>
+<sqft>3272</sqft>
+<year_built>1996</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>COMP</roof>
+<garage>Parking for 3 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Built In Vaccuum System, Security System, Sound System, Gas Fireplace</interior>
+<exterior>Deck, Sprinkler System,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>SUMPTER</elementary>
+<middle_school>JUDSON</middle_school>
+<high_school>SPRAGUE</high_school>
+</schools>
+
+</house_listing>
+
+
+

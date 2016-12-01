@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>314 E HIGH STREET</house_location>
+<price>$74,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Detached,Front)</garage>
+<suburb>WARSAW</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>246867</mls>
+<house_type>Single Family</house_type>
+<firm>MICHAEL WALSH REALTY</firm>
+<firm_phone>(606) 525-1234</firm_phone>
+<agent>CINDY PARKER</agent>
+<agent_phone>(606) 525-1234</agent_phone>
+<house_description>SITUATED ON NICE SIZE LOT OVERLOOKING OHIO RIVER/HOME OFFERS NICE SIZE
+ROOM THROUGHOUT/PART FINISHED LOWER LEVEL/FANTASTIC VIEW OF THE OHIO
+RIVER FROM THE BACK OF HOUSE/GREAT LOCATION FOR BOAT DOCK/HOME SOLD AS
+IS/WARRANTY OFF</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG.</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>8 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>14 X 6</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 14</dimension><level></level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>15 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>US 42 TO WARSAW RIGHT ON CENTER/LEFT ON E HIGH
+STREET/SIGN IN YARD</directions>
+</house_listing>
+
+
+

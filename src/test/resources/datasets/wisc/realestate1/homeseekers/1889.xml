@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Across from va beach general. Top floor unit with fireplace. Close to
+beach, shopping, rte. 44. All appliances convey. Amenities include
+pool, tennis courts, clubhouse, water &amp; sewer.</house_description>
+
+<agent_name>James Payne</agent_name>
+<direct>661-3427</direct>
+<office>757-426-8243</office>
+<firm_name>Realty Consultants</firm_name>
+<phone>757-426-8243</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$43,900</list_price>
+<location>Virginia Beach, VA 23454</location>
+<mls>0000915</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Townhouse/Condo</type>
+<style>Tri-Level</style>
+<year_built>1983</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Cable TV, Club House, Tennis Court(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

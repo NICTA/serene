@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rex Roye</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>Rroye@c21rapp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21082</id>
+<mls>9124003</mls>
+<house_location>322 Stroud
+Cleburne, TEXAS 76031</house_location>
+<county>Johnson</county>
+<price>$59,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>3/2/2 brick home with fresh interior paint, new carpet &amp; new range top, oven &amp; vent-a-hood. 2 living areas, central heat &amp; window units. 9x12 metal storage building will remain.</house_description>
+
+<school_district>Cleburne</school_district>
+<sub-division>Original Cleburne</sub-division>
+<approx_size_sqft>1956</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.23</approx_acres>
+<year_built>1958</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

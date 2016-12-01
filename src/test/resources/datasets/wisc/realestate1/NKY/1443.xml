@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>4011 THOMAS DR</house_location>
+<price>$149,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250146</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>PATTY COSLETT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*3 BEDRM RANCH*GREAT FLOOR PLAN*OPEN FAMILY RM W/WBFP*KIT/BR AREA*2CAR
+ATT GAR*2 FULL BATHS*CERAMIC ENTRY*WALK-IN OFF OWNER'S STE*SILENT FLR
+JOIST* HUGE OPEN BSMT W/WALKOUT*GREAT LOCATION*SITUATED ON APPROX. 1/2
+ACRE*</house_description>
+<construction>Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>11 X 10</dimension><level>1</level></breakfast>
+<kitchen><dimension>14 X 10</dimension><level>1</level></kitchen>
+<living><dimension>21 X 17</dimension><level>1</level></living>
+<master><dimension>14 X 14</dimension><level>1</level></master>
+
+<directions>TURKEYFOOT TO L ON RICHARDSON TO L ON THOMAS</directions>
+</house_listing>
+
+
+

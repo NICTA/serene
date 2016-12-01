@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>619 PARK AVE</house_location>
+<price>$186,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached,Oversized)</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249917</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>MARY LEE WEIMER</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>ON HISTORICAL REGISTER*ORIG WOOD WORK REFINSHED*2SETS POCKET
+DOORS*TRANSOM AND STAIN GLASS WNDWS*DOUBLE STAIRCASE*HDWD UNDER
+CARPET*4 BEAUTIFUL FP'S 3RD FL CAN BE BR,OFF OR REC RM*BR ON 2ND FL
+HAS 2ND CONNECTING HALL*</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>17 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>15 X 33</dimension><level>3</level></bedroom_4>
+<dining><dimension>16 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>2</level></master>
+
+<directions>MONMOUTH ST TO R ON 6TH R ON PARK HOUSE ON LEFT</directions>
+</house_listing>
+
+
+

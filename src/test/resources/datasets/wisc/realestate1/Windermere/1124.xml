@@ -1,0 +1,34 @@
+<house_listing>
+<price>$65,000</price>
+<mls_id_number>134034</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>756</sqft>
+<year_built>1923</year_built>
+<heat>Gas Under Floor</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>45X100</lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Tool Shed,</exterior>
+<site>Water: PUBLIC Sewer: CONECTD</site>
+</amenities>
+<schools><elementary>RIGGLER</elementary>
+<middle_school>TO FOLLOW</middle_school>
+<high_school>TO FOLLOW</high_school>
+</schools>
+
+</house_listing>
+
+
+

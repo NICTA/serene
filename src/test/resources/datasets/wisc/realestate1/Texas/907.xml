@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>LESLIE CHATHAM</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14321</id>
+<mls>492894</mls>
+<house_location>11614 Starview Dr
+Austin, TEXAS 78750</house_location>
+<county>Williamson</county>
+<price>$118,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Wonderful updated home in convenient location!  Features 4 bedrooms, 2.5 baths.  Newer carpet, large living room, walk-in closet, freshly painted inside and out.  Huge backyard with tons of trees and large deck!  Great schools!</house_description>
+
+<move-in_date>2/16/99</move-in_date>
+<school_district>Round Rock</school_district>
+<sub-division>Village 22 At Anderson Mill</sub-division>
+<approx_size_sqft>1912</approx_size_sqft>
+<stories>2</stories>
+<year_built>1981</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great schools</item>
+<item>Large, lovely deck</item>
+<item>Huge yard with tons of trees</item>
+<item>Extra storage in garage</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

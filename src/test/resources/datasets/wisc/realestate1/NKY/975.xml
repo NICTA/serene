@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>936 S MAPLE</house_location>
+<price>$39,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>248506</mls>
+<house_type>Single Family</house_type>
+<firm>W.C. THARP &amp; SON</firm>
+<firm_phone>(606) 291-0266</firm_phone>
+<agent>CHARLES THARP</agent>
+<agent_phone>(606) 291-0266</agent_phone>
+<house_description>NEWER ROOF, MODERN BATH, NEWER FURNACE, NEW 220 CIR BREAKERS, NEW HW
+HTR</house_description>
+<construction>Shingle</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>20x110</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>10 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 12</dimension><level>1</level></laundry>
+<living><dimension>13 X 15</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>E ON 6TH, S ON WALNUT, E ON 9TH, S ON MAPLE</directions>
+</house_listing>
+
+
+

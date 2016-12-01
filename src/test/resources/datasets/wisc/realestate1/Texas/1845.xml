@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Prudential Allied, REALTORS</name>
+<location>3007 E. Broadway Pearland, TX 77581</location>
+<office>(281)997-4000</office>
+<toll_free>(800)447-3313</toll_free>
+<fax>(281)485-1649</fax>
+<email>mstarr@infohwy.com</email>
+</firm_information>
+
+<agent_information>
+<name>Truby Keller</name>
+<office>(281)997-4000</office>
+<fax>(281)485-1649</fax>
+<voice_mail>(281)997-4000 23</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14235</id>
+<mls>191148</mls>
+<house_location>2421 PINEY WOODS
+Pearland, TEXAS 77581</house_location>
+<county>Brazoria</county>
+<price>$137,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>ELEGANT DIXIE WOODS  - LOW END PRICE RANGE.TWO YEAR OLD IMPERIAL AVALON.  FLOORED ATTIC STORAGE THROUGHMASTER, BALI HONEYCOMB BLINDS, ALARM SYSTEM, OTHER EXTRAS!FORMAL DINING AND FLORMAL LIVING, DEN, FIREPLACE, GAMEROOM.ENJOY!</house_description>
+
+<school_district>Pearland</school_district>
+<sub-division>Dixie Woods</sub-division>
+<approx_size_sqft>2145</approx_size_sqft>
+<stories>2</stories>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>FLOORED ATTIC STORAGE</item>
+<item>FORMALS AND DEN PLUS GAMEROOM</item>
+<item>MIMI BLINDS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

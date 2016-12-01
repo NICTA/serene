@@ -1,0 +1,46 @@
+<house_listing>
+<price>$99,900</price>
+<mls_id_number>99006540</mls_id_number>
+<address>88935 Conrad Rd.</address>
+<city>Veneta</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1979</sqft>
+<year_built></year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage></garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<features><item>Comfortable manufactured home</item>
+<item>Large trees offer privacy</item>
+<item>Covered patio</item>
+<item>Individual well</item>
+<item>Garden space</item>
+</features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<for_more_information_contact>
+<agent_name>Jane Murphy</agent_name>
+<firm_name>Windermere/Jean Tate Real Estate</firm_name>
+<firm_location>1600 Oak Street
+Eugene, OR</firm_location>
+<office_phone>Reception 541/484-2022</office_phone>
+<fax>Office 541/465-8169</fax>
+<cell_phone>541/953-3699</cell_phone>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

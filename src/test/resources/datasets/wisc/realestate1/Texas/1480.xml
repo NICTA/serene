@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Menley</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<email>winkler@texasproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>8503</id>
+<mls>470089</mls>
+<house_location>311 S. Ave. F
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$60,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Fresh interior &amp; exterior paint.  Garage ready to set up as seperate apt or guest room.  Fenced yard.  CONTRACT PENDING.</house_description>
+
+<school_district>Elgin Isd</school_district>
+<approx_size_sqft>988</approx_size_sqft>
+<stories>1</stories>
+<year_built>1985</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

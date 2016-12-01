@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home built in 1939 has 5 bedroom(s), 5 bath(s) .
+Rooms include dining room, master bedroom. Features include patio, air
+conditioning, storage space.</house_description>
+
+<agent_name>Piff Grouskay</agent_name>
+<office>480-991-2929</office>
+<firm_name>Russ Lyon Realty Co</firm_name>
+<phone>480-991-2929</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$69,900</list_price>
+<location>Phoenix, AZ 85009</location>
+<mls>1461658</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>5</baths>
+<type>Single Family</type>
+<year_built>1939</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Electric</heating>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Pantry, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

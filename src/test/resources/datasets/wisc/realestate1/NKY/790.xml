@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>4 S APPLEWOOD CT</house_location>
+<price>$114,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL CT</school_dist>
+<mls>245840</mls>
+<house_type>Single Family</house_type>
+<firm>W.C. THARP &amp; SON</firm>
+<firm_phone>(606) 291-0266</firm_phone>
+<agent>BOBBY E CRITTENDON</agent>
+<agent_phone>(606) 291-0266</agent_phone>
+<house_description>GREAT HOUSE WITH LARGE FENCED LOT! WALKOUT TO DECK FROM DINDING RM.
+ROOMY HOUSE, LOTS OF CLOSETS, CUL-DE-SAC STREET.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65x134</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_3><dimension>9 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>9 X 10</dimension><level>1</level></dining>
+<family><dimension>13 X 25</dimension><level>L</level></family>
+<kitchen><dimension>9 X 9</dimension><level>1</level></kitchen>
+<living><dimension>14 X 16</dimension><level>1</level></living>
+<master><dimension>10 X 14</dimension><level>1</level></master>
+
+<directions>HWY 27 TO L HWY 10 TO L BROOKWOOD TO L RIDGEWOOD
+T R APPLEWOOD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Alvarado</name>
+<location>400 Hwy 67 East Alvarado, TX 76009</location>
+<office>(817)790-6611</office>
+<toll_free></toll_free>
+<fax>(817)790-6612</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bob &amp; Mary Lou Brown</name>
+<office>(817)790-6611</office>
+<fax>(817)790-6612</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21576</id>
+<mls>9136640</mls>
+<house_location>201 Alvarado Oaks
+Alvarado, TEXAS 76009</house_location>
+<county>Johnson</county>
+<price>$175,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Spacious home in very good condition. Large corner lot with lots of trees, foraml areas, covered patio, workshop and large storage building, both brick.</house_description>
+
+<school_district>Alvarado I S D</school_district>
+<sub-division>Alvarado Oaks</sub-division>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

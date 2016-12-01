@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium built in 1949 has ? bedroom(s), 1 bath(s) and
+approximately 400 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Daniel Bajaroff</agent_name>
+<direct>674-7559</direct>
+<office>305-710-5827</office>
+<email>Daniel@dkinternational.net</email>
+<firm_name>Dk International R
+Lic. Real Estate Broker</firm_name>
+<phone>305-710-5827</phone>
+<fax>305-604-0028</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$47,000</list_price>
+<location>1925 Washington Av #20</location>
+<neighborhood>Mansfield Park Condo</neighborhood>
+<mls>M750234</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>400 (approx)</square_feet>
+<year_built>1949</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Wall Unit</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

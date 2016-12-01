@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This home built in 1959 has ? bedroom(s), 1 bath(s) and approximately
+400 square feet of living area.</house_description>
+
+<agent_name>Allison Cotter</agent_name>
+<direct>305-674-4126</direct>
+<office>305-672-1300</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-1300</phone>
+<fax>305-672-1499</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$29,900</list_price>
+<location>544 Michigan Av #11</location>
+<neighborhood>544 Michigan Ave Inc Co-O</neighborhood>
+<mls>M770166</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>CoOp</type>
+<square_feet>400 (approx)</square_feet>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

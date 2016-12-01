@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Regency, Realtors</name>
+<location>110 N. IH-35, Ste 200A Round Rock, TX 78681</location>
+<office>(512)255-7888</office>
+<toll_free>(800)656-7888</toll_free>
+<fax>(512)244-9536</fax>
+<email>sbshavor@earthlink.net</email>
+</firm_information>
+
+<agent_information>
+<name>Cindy Sneed</name>
+<office>(512)255-7888</office>
+<fax>(512)244-9536</fax>
+<email>cindy_sneed@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21518</id>
+<mls>528746</mls>
+<house_location>18904 Kelly Drive
+Lago Vista, TEXAS 78645</house_location>
+<county>Williamson</county>
+<price>$212,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Incredible panaramic lake view!! Large deck, casement windows and french doors. Stone exterior, state of the art kitchen, 3 car garage and gated community.  Doesn&amp;#8217;t this sound like just what you have waited for?! 4 bedrooms and 3 full baths. Call us today!</house_description>
+
+<school_district>Lago Vista Isd</school_district>
+<sub-division>Point Venture</sub-division>
+<approx_size_sqft>2278</approx_size_sqft>
+<stories>2</stories>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>PANARAMIC LAKE VIEW!!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level townhouse built in 1943 has 2 bedroom(s), 1 full
+bath(s)/1 half bath(s) . Rooms include master bedroom. Features
+include air conditioning.</house_description>
+
+<agent_name>Earline Holloway</agent_name>
+<direct>301-709-1731</direct>
+<office>301-249-1600</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-249-1600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$74,500</list_price>
+<location>Washington, DC 20019</location>
+<mls>DC2588779</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1(full) 1(half)</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>1189</lot_size>
+<year_built>1943</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

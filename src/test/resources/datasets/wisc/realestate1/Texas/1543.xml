@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Amelia Smith</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21403</id>
+<mls></mls>
+<house_location>906 Plum Street
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$69,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great possibilities...wonderful hard wood flooring in three bedrooms and in formal living and dining room.  The kitchen has a den area that has settled some.  Priced at $69,500 and according to the CAD, the main area is 1,599+ square feet. (approximately)  There is a sky light in the hallway. (added).  Some concrete fascia work for the pier and beam is needed...a facelift would make this a great home.  Vacant and easy to show.</house_description>
+
+<school_district>Lockhart</school_district>
+<sub-division>Trammel Revised</sub-division>
+<approx_size_sqft>1655</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>12,996</approx_lot_size>
+<approx_acres>0.3</approx_acres>
+<year_built>1952</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Hard wood flooring</item>
+<item>Vacant and easy to show</item>
+<item>Walking distance to school</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

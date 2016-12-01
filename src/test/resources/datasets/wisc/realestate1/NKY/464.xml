@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2068 BLUESTEM</house_location>
+<price>$189,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248910</mls>
+<house_type>Single Family</house_type>
+<firm>PREFERRED PROPERTIES</firm>
+<firm_phone>(606) 371-4777</firm_phone>
+<agent>JENNIFER ONEY</agent>
+<agent_phone>(606) 371-4777</agent_phone>
+<house_description>SPACIOUS FULL BRICK RANCH, SIDE ENTRY GARAGE, VAULTED CEILINGS, HUGE
+BASEME NT, BAY WINDOW, FIREPLACE, IMMEDIATE OCCUPANCY, CALL DARRELL
+RICE AT 586-1726 OR 574-1726</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$***</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>11 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>18 X 13</dimension><level>1</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 7</dimension><level>1</level></laundry>
+<master><dimension>17 X 13</dimension><level>1</level></master>
+
+<directions>RT 18 TO CAMP ERNST TO BLUESTEM</directions>
+</house_listing>
+
+
+

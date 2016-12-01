@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This attached single family home built in 1926 has 1 bedroom(s), 1
+bath(s) and approximately 861 square feet of living area.</house_description>
+
+<agent_name>Lois Wageck</agent_name>
+<direct>722-3300</direct>
+<office>303-722-3300</office>
+<firm_name>Keller Williams Denv</firm_name>
+<phone>303-722-3300</phone>
+<fax>303-388-0779</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,900</list_price>
+<location>2353 S Lincoln St</location>
+<neighborhood>Rosedale</neighborhood>
+<mls>375192</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>861 (approx)</square_feet>
+<year_built>1926</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

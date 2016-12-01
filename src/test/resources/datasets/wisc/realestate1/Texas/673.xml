@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jaime Rangel</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>JAIMERANGELC21@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19322</id>
+<mls>14756</mls>
+<house_location>406 Candlestick
+San Benito, TEXAS 78586</house_location>
+<county>Cameron</county>
+<price>$39,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>1995 mobile home and lot 16 x 80.  3 bedrooms, 2 baths, well maintained, carport,nice screened porch, fenced backyard and storage shed. Adult Community. All city services.</house_description>
+
+<school_district>San Benito</school_district>
+<approx_size_sqft>1280</approx_size_sqft>
+<approx_lot_size>50x100</approx_lot_size>
+<year_built>1995</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Adult community</item>
+<item>Like new 3BR/2BA</item>
+<item>Quiet neighborhood</item>
+<item>Porch, fenced, storage shed</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

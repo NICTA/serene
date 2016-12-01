@@ -1,0 +1,47 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ann Bragg</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email>abragg@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11160</id>
+<mls>108603</mls>
+<house_location>1308 Plantation
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$105,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>A home you will love.  Towering pines, large sparkling pool, atrium, two mastersuites, large yard, fireplace, workshop, great neighborhood!</house_description>
+
+<school_district>Disd</school_district>
+<sub-division>Plantatin Oaks</sub-division>
+<approx_size_sqft>2131</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

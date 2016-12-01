@@ -1,0 +1,34 @@
+<house_listing>
+<price>$149,900</price>
+<mls_id_number>159326</mls_id_number>
+<city>SALEM</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>3.00</bathrooms>
+<sqft>1726</sqft>
+<year_built>1988</year_built>
+<heat>Not Listed</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof></roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.25        Acres</lot_size>
+<lot_description>60X134</lot_description>
+<fireplace>0</fireplace>
+<taxes>$0</taxes>
+<floors>Hardwood Floors,</floors>
+<interior>Not Listed</interior>
+<exterior>Deck,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>SALEM</elementary>
+<middle_school>SALEM</middle_school>
+<high_school>SALEM</high_school>
+</schools>
+
+</house_listing>
+
+
+

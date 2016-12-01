@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Lone Star Land Company</name>
+<location>801 Bessemer St. Llano, TX 78643</location>
+<office>(915)247-5782</office>
+<toll_free></toll_free>
+<fax>(915)247-5569</fax>
+<email>lslc@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bob D. (Bobby) Weber</name>
+<office>(915)247-5782</office>
+<fax>(915)247-5569</fax>
+<email>mtv@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17380</id>
+<mls></mls>
+<house_location>400 West Dallas Street
+Llano, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$45,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Very nice starter home for young couple, retired couple, or rent possibilities. City utilities, nice size rooms, metal roof, exterior siding, and large shaded lot.</house_description>
+
+<school_district>Llano</school_district>
+<approx_size_sqft>1322</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1/4 block</approx_lot_size>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>large rooms</item>
+<item>large lot</item>
+<item>shade trees</item>
+<item>city utilities</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

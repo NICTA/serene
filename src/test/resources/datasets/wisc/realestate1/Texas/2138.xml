@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>John Puckett</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>john@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21722</id>
+<mls>54863</mls>
+<house_location>110 THE CAPE, #403 CAPE TERRACE
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$119,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Decorator furnished waterfront condo.  Third floor one level.  Super view.  Granite counters.  New furnishings.  Oven, range, refrigerator, insulated windows.  Day dock.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WATERFRONT THIRD LEVEL CONDO WITH VIEW</item>
+<item>DAY DOCK</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>JERRY RUSSO</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<voice_mail>(512)794-9292 103</voice_mail>
+<mobile>(512)422-2792</mobile>
+<email>jrusso@remax-hot-aus-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20918</id>
+<mls>526268</mls>
+<house_location>2404 Water Well Lane
+Austin, TEXAS 78728</house_location>
+<county>Travis</county>
+<price>$107,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Ready to move into, Big private  back yard, covered front porchOpen and ariy, light</house_description>
+
+<move-in_date>12/5/99</move-in_date>
+<school_district>Round Rock, Wells Branch, Chisholm</school_district>
+<sub-division>Wells Branch</sub-division>
+<approx_size_sqft>1455</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60 x 118</approx_lot_size>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Super bright, open and airy</item>
+<item>Big private yard with trees</item>
+<item>Ready to move in now</item>
+<item>Great floor plan</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

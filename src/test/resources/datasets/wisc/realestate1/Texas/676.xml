@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Regency, Realtors</name>
+<location>110 N. IH-35, Ste 200A Round Rock, TX 78681</location>
+<office>(512)255-7888</office>
+<toll_free>(800)656-7888</toll_free>
+<fax>(512)244-9536</fax>
+<email>sbshavor@earthlink.net</email>
+</firm_information>
+
+<agent_information>
+<name>Cindy Sneed</name>
+<office>(512)255-7888</office>
+<fax>(512)244-9536</fax>
+<email>cindy_sneed@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20658</id>
+<mls>525075</mls>
+<house_location>3321 Settlement Rd
+Round Rock, TEXAS 78664</house_location>
+<county>Williamson</county>
+<price>$99,990</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Absolutely Gorgeous!! This property looks like it has never been lived in!! Light--bright---open floor plan. Mother-in-law plan. Fireplace, water softener, security system and walk-in closets. Popular Buffington Plan.</house_description>
+
+<school_district>Forest, Hopewell, Round Rock</school_district>
+<sub-division>Meadow Lake</sub-division>
+<approx_size_sqft>1341</approx_size_sqft>
+<stories>1</stories>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

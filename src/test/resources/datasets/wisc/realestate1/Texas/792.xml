@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bunny Roberts</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20046</id>
+<mls>9111006</mls>
+<house_location>801 Arrowhead Court (Ad # 613)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$65,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>1996 Open concept manufactured home.  Light &amp; airy, woodburning fireplace &amp; extra large master bedroom.  Also for lease @ $625/Mo.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Comanche Harrbor</sub-division>
+<approx_size_sqft>1296</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>Irregular</approx_lot_size>
+<approx_acres>0.5</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Open Concept, Light, Airy</item>
+<item>Woodburning Fireplace</item>
+<item>Extra Large Master Bedroom</item>
+<item>Ad # 613</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

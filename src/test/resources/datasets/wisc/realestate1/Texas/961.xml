@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>MARVIN GERBER</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 130</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11853</id>
+<mls>159066</mls>
+<house_location>9809 RICHMOND #B-10
+Houston, TEXAS 77042</house_location>
+<county>Harris</county>
+<price>$31,500</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SPARKLING CLEAN LOWER UNIT 1-1 FLAT AT SECURITY GATED ELM GROVE CONDO. NEW CARPET AND VINYL FLOORS. FRESH PAINT. GREAT LOCATION BY POOL AND NEAR MAIL. WOODBURNING FIREPLACE, WASHER/DRYER , REFRIGERATOR INCLUDED. LOW MONTHLY MAINTENANCE ONLY $144.00.</house_description>
+
+<school_district>Hisd</school_district>
+<sub-division>Elm Grove</sub-division>
+<approx_size_sqft>811</approx_size_sqft>
+<stories>1</stories>
+<year_built>1977</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>SPARKLING CLEAN UPPER UNIT</item>
+<item>GUARDED GATE 24HRS</item>
+<item>GREAT LOCATION NEAR POOL</item>
+<item>WASHER/DRYER AND REFRIGERATOR INCLUDED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

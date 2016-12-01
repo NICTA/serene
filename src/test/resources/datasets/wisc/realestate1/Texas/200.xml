@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jim Smith</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<mobile>(512)787-0383</mobile>
+<email>amelia_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19627</id>
+<mls></mls>
+<house_location>708 and 710 Cibilo Street
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$139,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Currently a duplex, but ready for conversion to a single family home!  After conversion, this home will be a four bedroom, three bath home with a wonderfully large living and dining areas!  The original construction allowed for the removal of a wall seperating the living areas.  The smaller kitchen can be converted into a utility room...the conversion will be a deed restriction, but there is flexibility on the timing.  Both sides are rented.., so an appointment is necessary to show it.  The floor plan is available.</house_description>
+
+<school_district>Lockhart</school_district>
+<approx_size_sqft>2533</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>130x158.83</approx_lot_size>
+<approx_acres>0.47</approx_acres>
+<year_built>1977</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Established neighborhood</item>
+<item>Walking distance to three Lockhart schools</item>
+<item>Four bedrooms, three baths</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

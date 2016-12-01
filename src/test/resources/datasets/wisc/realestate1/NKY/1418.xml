@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>842 STEPHENS</house_location>
+<price>$675,000</price>
+<rooms>10</rooms>
+<bedrooms>5</bedrooms>
+<baths>4-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>4 Cars (Attached,Builtin,Side)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248739</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>SUSAN TARLEY</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*FABULOUS CUSTOM
+KENNEDY/JOBE*THERMAL HEA T*HUGE CHERRY GOURMET KIT*FIREPLACE*2 OVENS*2
+DISHWASHERS*DECK*PATIO*INGROU ND POOL*FINISHED LL*HEAVY MOLDING
+THRUOUT*PELLA WINDOWS*</house_description>
+<construction>Brick,Cedar</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>845x210</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>2</level></bath_4>
+<bedroom_3><dimension>15 X 16</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 13</dimension><level>1</level></bedroom_4>
+<breakfast><dimension>11 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>14 X 12</dimension><level>1</level></dining>
+<family><dimension>21 X 23</dimension><level>2</level></family>
+<kitchen><dimension>24 X 26</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 9</dimension><level>1</level></laundry>
+<living><dimension>18 X 16</dimension><level>1</level></living>
+<master><dimension>18 X 20</dimension><level>2</level></master>
+<recreation_room><dimension>22 X 14</dimension><level>1</level></recreation_room>
+
+<directions>TAYLOR MILL RD PAST CHEROKEE R ON STEPHEN</directions>
+</house_listing>
+
+
+

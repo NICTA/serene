@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 3 bedroom(s), 1 bath(s) and
+approximately 1200 square feet of living area. Features include view,
+private pool, air conditioning.</house_description>
+
+<agent_name>Kim Genovese</agent_name>
+<direct>954-592-6432</direct>
+<office>561-274-9877</office>
+<firm_name>Tropical Sands Rea
+Lic. Real Estate Broker</firm_name>
+<phone>561-274-9877</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$95,000</list_price>
+<location>3630 NW 1 Ct</location>
+<neighborhood>Broward Estates</neighborhood>
+<mls>F315767</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1200 (approx)</square_feet>
+<lot_size>7500 X</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Wall Unit</heating>
+<pool>Yes</pool>
+<view>Pool View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Foyer, Outdoor Lights, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

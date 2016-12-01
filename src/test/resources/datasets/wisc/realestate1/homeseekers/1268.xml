@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1998 has 2 bedroom(s), 3 bath(s) and
+approximately 1781 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Blair Russell</agent_name>
+<office>305-673-4808</office>
+<firm_name>Il Villaggio Realt
+Lic. Real Estate Broker</firm_name>
+<phone>305-673-4808</phone>
+<fax>305-673-4426</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$880,000</list_price>
+<location>1455 Ocean Drive #1406</location>
+<neighborhood>Il Villaggio</neighborhood>
+<mls>M748298</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>3</baths>
+<type>Condominium</type>
+<square_feet>1781 (approx)</square_feet>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

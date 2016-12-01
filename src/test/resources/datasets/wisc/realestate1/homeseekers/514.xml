@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1948 has ? bedroom(s), 1 bath(s) and
+approximately 350 square feet of living area. Features include private
+pool, air conditioning.</house_description>
+
+<agent_name>Patricia King</agent_name>
+<direct>954-929-7802</direct>
+<office>305-861-8500</office>
+<firm_name>Casablanca Real Es
+Lic. Real Estate Broker</firm_name>
+<phone>305-861-8500</phone>
+<fax>305-861-0027</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$69,900</list_price>
+<location>6345 Collins Av #839</location>
+<neighborhood>The Casablanca Condo</neighborhood>
+<mls>M762990</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>350 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This is home! 3bedroom 1.5 bath, freshly painted, new roof dec98,
+large fenced backyard with mature fruit trees. Location convenient to
+shopping, expressway, etc. All closing paid on fpc. Detached shed
+w/electricity. Warranty. Pull down stairs to storage in attic.</house_description>
+
+<agent_name>Lisa Winter</agent_name>
+<office>757-340-0430</office>
+<firm_name>C 21-Nachman Realty</firm_name>
+<phone>757-340-0430</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$60,000</list_price>
+<location>Virginia Beach, VA 23464</location>
+<mls>9926892</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Townhouse</type>
+<style>Townhouse</style>
+<square_feet>1358 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>Patio</patio>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Ceiling Fan(s), Fenced, Storage Space, Walk-InCloset(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

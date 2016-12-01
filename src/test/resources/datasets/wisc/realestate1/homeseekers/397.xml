@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 3 bedroom(s), 2 bath(s) .
+Rooms include master bedroom. Features include private pool, patio,
+fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Herbert Lowrey</agent_name>
+<office>602-264-2320</office>
+<firm_name>Lowrey &amp; Associates</firm_name>
+<phone>602-264-2320</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$174,500</list_price>
+<location>Phoenix, AZ 85018</location>
+<mls>1458989</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Eat In Kitchen, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

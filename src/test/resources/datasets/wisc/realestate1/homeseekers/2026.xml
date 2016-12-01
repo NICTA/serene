@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This is a real deal, just look at the land size, 10,000 squarte feet
+alley access with lots of room to ad on, rv parking must see to
+appreciate.</house_description>
+
+<agent_name>Lopez, Armando</agent_name>
+<direct>310-000-0000</direct>
+<office>310-834-2644</office>
+<firm_name>Del/Mar Realtors</firm_name>
+<phone>310-834-2644</phone>
+<fax>310-522-1122</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$137,000</list_price>
+<location>1047 Broad Av</location>
+<mls>S168103</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>621 (approx)</square_feet>
+<lot_size>10000</lot_size>
+<year_built>1922</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1982 has 4 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, private pool, patio, fireplace.</house_description>
+
+<agent_name>Lynda Geisel</agent_name>
+<office>602-954-6888</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>602-954-6888</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$335,000</list_price>
+<location>Phoenix, AZ 85020</location>
+<mls>1451670</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Central Vacuum, Dishwasher, Eat InKitchen, Kitchen Island, Microwave, Trash Compacter
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

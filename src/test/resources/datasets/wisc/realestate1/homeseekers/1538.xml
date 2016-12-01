@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 1 level attached home built in 1975 has 1 bedroom(s), 1 bath(s)
+and approximately 807 square feet of living area. Rooms include living
+room, master bedroom. Features include view, patio, air conditioning.</house_description>
+
+<agent_name>Jeff Davidson</agent_name>
+<direct>619-299-0809</direct>
+<office>619-297-3400</office>
+<firm_name>Davidson &amp; Rifat Real Estate</firm_name>
+<phone>619-297-3400</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$119,900</list_price>
+<location>San Diego, CA 92103</location>
+<mls>99 6026014</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Townhouse/Condo</type>
+<square_feet>807 (approx)</square_feet>
+<year_built>1975</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Forced Air</heating>
+<patio>Yes</patio>
+<rooms>Living Room, Master Bedroom</rooms>
+<view>Greenbelt View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

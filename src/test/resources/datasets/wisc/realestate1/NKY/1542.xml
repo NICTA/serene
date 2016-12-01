@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>804 WALNUT WAY</house_location>
+<price>$159,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250245</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>MELISSA BAKER</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>IMMACULATE BRICK RANCH HIDDEN AWAY ON OVER AN ACRE WOOD LOT ON A DEAD
+END ST. FEATURES NATURAL WOODWORK, NEWER ROOF, GUTTERS AND DOWNSPOUTS,
+C/A CARPET AND MUCH-MORE VERY QUIET AND PEACEFUL-L-SHAPED REC ROOM.
+CALL TODAY!</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>200x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>13 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 12</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>14 X 12</dimension><level>1</level></bedroom_4>
+<family><dimension>40 X 32</dimension><level>L</level></family>
+<kitchen><dimension>24 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 22</dimension><level>L</level></laundry>
+<living><dimension>16 X 19</dimension><level>1</level></living>
+<master><dimension>15 X 18</dimension><level>1</level></master>
+<study><dimension>15 X 14</dimension><level>1</level></study>
+
+<directions>DIXIE HWY S TO L ON GARVEY TO L ON SHAW TO DEAD
+END HOUSE ON R END OF GRAVEL ROAD</directions>
+</house_listing>
+
+
+

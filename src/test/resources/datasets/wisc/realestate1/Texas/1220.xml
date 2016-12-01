@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Floyd Wilhelm Jr.</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>floyd_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20401</id>
+<mls></mls>
+<house_location>384 Cricket Hollow Road (Co. Rd. 86)
+Dale, TEXAS 78616</house_location>
+<county>Caldwell</county>
+<price>$299,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Escape to paradise!  Beautiful 3/2, ranch/southwest style, 2000 plus sq. ft., cedar home nestled in the woods.  Home offers antique wood (ceiling and walls throughout).  Large living area with fireplacedining room and glassed-in breakfast area..sauna, central vaccuum system, large utility room, mudroom with shower, large screened porch, closed-in hot tub off master bedroom, beautiful landscaping.  All situated on 27.46 acres that also includes a separate exercise/game room, many sheds, 2 carports, huge RV/trailer barn, horse barn with tack room, 35 X 53 quonset bldg. By appointment.</house_description>
+
+<school_district>Lockhart</school_district>
+<approx_size_sqft>2090</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>27.46 acres</approx_lot_size>
+<approx_acres>27.46</approx_acres>
+<year_built>1978</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Beautiful cedar home nestled in the trees</item>
+<item>Antique wood ceiling and walls throughout the home</item>
+<item>Wonderful landscaping</item>
+<item>Perfect for horses</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

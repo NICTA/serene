@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>SUSAN YOUNGBLOOD</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<voice_mail>(512)794-2099 141</voice_mail>
+<mobile>(512)656-6665</mobile>
+<email>susany@onr.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17614</id>
+<mls>512627</mls>
+<house_location>13013 Huntwood Cove
+Austin, TEXAS 78729</house_location>
+<county>Williamson</county>
+<price>$244,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Absolutely fabulous! Pristine! Exemplary elem. in neighborhood. HOA pool &amp; park. Lovely oak trees front &amp; back. See &amp; compare.  Per appraiser 3375 sq.ft. Lan capability.3 telephone lines.5 cable outlets.Italian tile in kitchen, bathrooms, entry. Dramatic entry staircase.Enormous master down. Sprinkler system.Alarm sys.Completely painted inside and out 7/99.Storage everywhere. 2 floored attics.Huge gameroom up.2 HVAC zones.2 water heaters.Soaring ceilings(12&amp;#8217;). Wonderful kitchen with cheery morning room/breakfast area overlooking backyard. Oversized patio perfect for entertaining.</house_description>
+
+<move-in_date>9/29/99</move-in_date>
+<school_district>Round Rock</school_district>
+<approx_size_sqft>3375</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>culdesac</approx_lot_size>
+<year_built>1993</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Lifestyle Grande!</item>
+<item>Master Bedroom Downstairs!</item>
+<item>Culdesac Lot with Oak trees!</item>
+<item>Exemplary Schools!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>23 BLACKGUM</house_location>
+<price>$348,140</price>
+<rooms>11</rooms>
+<bedrooms>4</bedrooms>
+<baths>4-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Side,Oversized)</garage>
+<suburb>ARBORWOOD</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>246844</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MIKE PARKER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>LOT FRONTAGE 200 FT *CUSTOM BUILT 4 BEDROOM 2 STORY BY BOLD HOMES
+*APPROX 3071 SQ FT *GAS HEAT *CITY WATER &amp; SERER *3 CAR SIDE ENTRY
+*ALMOST 1 AC LOT CUL-DE-SAC LOT *LOCATED IN ARBORWOOD CALL MIKE PARKER
+647-0700</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Brick</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>1 acre</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>25</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>16 X 11</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>12 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<family><dimension>20 X 15</dimension><level>1</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>2</level></laundry>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>18 X 13</dimension><level>2</level></master>
+<study><dimension>12 X 11</dimension><level>1</level></study>
+
+<directions>BURLINGTON PIKE (RT 18) TURN L ON EAST BEND
+TURN R INTO ARBORWOOD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,28 @@
+<house_listing>
+<house_description>This single family home built in 1967 has 3 bedroom(s), 2 bath(s) and
+approximately 1144 square feet of living area.</house_description>
+
+<agent_name>Dave Anderson</agent_name>
+<firm_name>
+RE/MAX Metro Propert</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$132,500</list_price>
+<location>5025 Scranton Ct</location>
+<neighborhood>Montbello</neighborhood>
+<mls>379818</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1144 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

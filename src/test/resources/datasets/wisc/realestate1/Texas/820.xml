@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>George Reinemund Real Estate</name>
+<location>P. O. Box 338 Bastrop, TX 78702</location>
+<office>(512)303-5709</office>
+<toll_free></toll_free>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<email>greino@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>George Reinemund</name>
+<office>(512)303-5709</office>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<mobile>(512)796-0955</mobile>
+<email>george@georgereinemund.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17220</id>
+<mls></mls>
+<house_location>8 Oak Grande Watterson Road
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$89,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A REALLY DELIGHTFUL-3 BEDROOM-2 BATH 1995 OAKWOOD D/W MANUFACTURED HOME ON 2.5 TREE COVERED ACRES.  LOCATED IN OAK GRANDE SUBDIVISION ABOUT 5.5 MILES SOUTHWEST OF BEAUTIFUL BASTROP ON WATTERSON ROAD AND ONLY ABOUT A BLOCK OFF HIWAY 304.  FLAT LOT WITH ABOUT 305 FEET OF ROAD FRONTAGE.  MOTHER-IN-LAW PLAN.  THERE IS ABOUT 1680 SQ FEET OF LIVING AREA ACCORDING TO THE TITLE.  THERE IS A NICE STORAGE BUILDING.SALE PENDING    SALE PENDING     SALE PENDING</house_description>
+
+<move-in_date>7/11/99</move-in_date>
+<school_district>Bastrop ISD</school_district>
+<sub-division>Oak Grande</sub-division>
+<approx_size_sqft>1680</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>309X351</approx_lot_size>
+<approx_acres>2.5</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

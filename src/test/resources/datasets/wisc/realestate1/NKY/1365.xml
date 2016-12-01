@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>9997 DECOURSEY PIKE</house_location>
+<price>$330,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Oversized)</garage>
+<suburb>RYLAND HEIGHTS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>245983</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>NANCY SEAMAN</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>28 X 24 GREAT RM*CUSTOM BLT*FINE MATERIALS*MANY AMENITIES*CONSIDERED
+TREE FARM*MUCH LAND HILLY*SPECTACULAR VIEW OF RIVER &amp; VALLEY*24 FT OF
+WINDOWS* *16X16 DECK*STORAGE RM 11X8*OWNER WILL NEGOTIATE LESS
+ACREAGE*MUST SEE*</house_description>
+<construction>Wood,Cedar</construction>
+<heating>Electric,Solar,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stove</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>16</dimension><level>X</level></bedroom_2>
+<bedroom_3><dimension>14 X 10</dimension><level>L</level></bedroom_3>
+<laundry><dimension>14 X 12</dimension><level>L</level></laundry>
+<living><dimension>28 X 24</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>1</level></master>
+
+<directions>275 TO RT. 16-2.4 MI TO L ON WOLF, R ON
+DECOURSEY-3MI TO L ON ARROW HD-1ST R DRVY</directions>
+</house_listing>
+
+
+

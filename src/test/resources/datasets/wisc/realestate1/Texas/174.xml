@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Audrey Brown</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>audrey@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20880</id>
+<mls>53939</mls>
+<house_location>1104 THE CAPE, #4
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$225,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Exceptional waterfront property at this price.  Large 3 story unit, with tile deck off living area.  Solar film on windows.  2 A/C units.  New carpet.  New microwave.  Steel beams &amp; concrete supports for boat lift.  Walk to amenities.  Furnished.  1 year home warranty insurance.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>3</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WATERFRONT WITH BOAT LIFT</item>
+<item>WALK TO AMENITIES</item>
+<item>FURNISHED</item>
+<item>ONE YEAR HOME WARRANTY INSURANCE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

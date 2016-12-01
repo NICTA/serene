@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1997 has 4 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include master bedroom. Features include view,
+patio, fireplace.</house_description>
+
+<agent_name>Brian Goebel</agent_name>
+<office>602-230-1717</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>602-230-1717</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$169,900</list_price>
+<location>Phoenix, AZ 85020</location>
+<mls>1445382</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Living Room</fireplace>
+<location>Corner</location>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher, EatIn Kitchen, Great Room, Kitchen Island, Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>490 SUMMER DR</house_location>
+<price>$52,900</price>
+<rooms>3</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>248047</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>GREG HICKS</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>WILLIAMSTOWN LAKE PROPERTY. ENJOY YOUR SUMMERS HERE IN THIS EASY TO
+MAINTAIN CABIN. BOAT DOCK. GOOD LOCATION RIGHT ON THE LAKE.</house_description>
+<construction>Alum,Vinyl</construction>
+<heating>None</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Wellwater</water>
+<sewer>Septic</sewer>
+<lot_dimensions>lakefront</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<kitchen><dimension>7 X 8</dimension><level>1</level></kitchen>
+<living><dimension>12 X 18</dimension><level>1</level></living>
+<master><dimension>7 X 10</dimension><level>1</level></master>
+
+<directions>US25 WILLIAMSTOWN TO KY22 E FOR 2 MI TO L ON
+489,GO 2 MI TO L SUMMER DR.,PROP ON L</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1905 has 4 bedroom(s), 2
+bath(s) . Rooms include master bedroom. Features include air
+conditioning.</house_description>
+
+<agent_name>Tom Corcoran</agent_name>
+<direct>301-365-9365</direct>
+<office>301-564-4900</office>
+<email>thomascorcoran@realtor.com</email>
+<firm_name>Long &amp; Foster Real Estate,
+Inc.</firm_name>
+<phone>301-564-4900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$139,500</list_price>
+<location>Washington, DC 20002</location>
+<mls>DC3015209</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>1767</lot_size>
+<year_built>1905</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

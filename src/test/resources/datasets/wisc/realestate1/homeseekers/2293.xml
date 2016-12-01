@@ -1,0 +1,32 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1954 has 2 bedroom(s), 1
+bath(s) and approximately 672 square feet of living area.</house_description>
+
+<agent_name>Mark Kivley</agent_name>
+<direct>414-967-0506</direct>
+<office>414-961-8888</office>
+<firm_name>RE/MAX Lakeside RE/MAX Lakeside</firm_name>
+<phone>414-961-8888</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$17,900</list_price>
+<location>5745 N 61St St</location>
+<mls>484296</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>672 (approx)</square_feet>
+<lot_size>.137 ACRE</lot_size>
+<year_built>1954</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>11 KATHRYN</house_location>
+<price>$124,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>247745</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN HUFF</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * NEW WINDOWS * NEW CARPET * NEW GLASSED IN SOLARIUM *NEW
+ROOF SOUND PROOFED BY THE KCAB * COMPLETELY REMODELED * NICE YARD *
+READY TO MOVE IN * IMMEDIATE OCCUPANCY *NEW GARAGE DOOR SYSTEM *NEW
+HOT WATER HEATER</house_description>
+<construction>Brick</construction>
+<heating>Gas,Hot Water,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>155x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13</dimension><level>X</level></bedroom_2>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>21 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>RT 18 TO KATHRYN</directions>
+</house_listing>
+
+
+

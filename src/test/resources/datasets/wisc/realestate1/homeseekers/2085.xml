@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This split level single family home built in 1922 has 6 bedroom(s), 2
+bath(s) , 2 car detached garage. Rooms include dining room.</house_description>
+
+<agent_name>Aura Moragheller</agent_name>
+<direct>414-536-0467</direct>
+<office>414-769-7400</office>
+<firm_name>First Realty Better Homes &amp; Ga</firm_name>
+<phone>414-769-7400</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$115,000</list_price>
+<location>1430 S 60Th St</location>
+<mls>486903</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>2</baths>
+<levels>Split Level</levels>
+<garage></garage>
+<type>Single Family</type>
+<lot_size>.9931</lot_size>
+<year_built>1922</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Bungalow Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

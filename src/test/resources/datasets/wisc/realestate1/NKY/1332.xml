@@ -1,0 +1,55 @@
+<house_listing>
+<house_location>9176 BLOSSOM LN</house_location>
+<price>$224,900</price>
+<rooms>11</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248252</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>CLASS BY ITSELF! THIS IMPECCABLY MAINTAINED HOME SHOWS LIKE A MODEL!IT
+HAS APPROX 3,500 SQ FT INCLUDING FINISHED L/LEVEL.FEATURES CHERRY
+CABINETRY*MAR GAS FP*CATH CEILINGS*WHIRLPOOL BATH*3 1/2 BATHS*BSM'T
+WALKOUT*PREM 1/2 ACRE</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>57 x 190</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>14 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 11</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>14 X 8</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<family><dimension>19 X 17</dimension><level>1</level></family>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>20 X 15</dimension><level>2</level></master>
+<recreation_room><dimension>30 X 24</dimension><level>L</level></recreation_room>
+<study><dimension>19 X 9</dimension><level>L</level></study>
+
+<directions>TAYLOR MILL RD TO RIGHT ON CLOVER, RIGHT ON
+BLOSSOM</directions>
+</house_listing>
+
+
+

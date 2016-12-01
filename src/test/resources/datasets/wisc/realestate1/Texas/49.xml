@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Bobby Gronewald</name>
+<location>223 W. Travis La Grange, TX 78945</location>
+<office>(409)968-8471</office>
+<toll_free></toll_free>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bobby Gronewald</name>
+<office>(409)968-8471</office>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18099</id>
+<mls>1235</mls>
+<house_location>FM 3171
+La Grange, TEXAS 78945</house_location>
+<county>Fayette</county>
+<price>$85,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Two story home with vinyl siding on 1.3 acres, good pave road frontage.  Features portable dishwasher, two new 500 gal septic tanksinstalled in June 1999.  House is all electric but has gas piping.  Carpet in living room and dining room and all upstairs rooms.  Ceiling fans throughout home. Satellite dish, and antenna. Many fruit trees.  Great location for country living but close to town.  Great schools.  Call Bobby</house_description>
+
+<school_district>La Grange</school_district>
+<approx_size_sqft>1920</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1.3</approx_acres>
+<year_built>1981</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Great Subdivision</item>
+<item>La Grange Schools</item>
+<item>Paved Road</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

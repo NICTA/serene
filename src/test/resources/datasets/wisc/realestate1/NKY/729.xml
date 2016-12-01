@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>3805 GLENN</house_location>
+<price>$57,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin,Side)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COV INDEP</school_dist>
+<mls>248777</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JOHN VINCE</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>HUD OWNED OFFERED AS-IS,CASE #202-006103 IS FHA INSURABLE,5% COMM TO
+SELL BROKER.ALL INFO CALL 888-292-3917 OR WWW.GOLDENFEATHER.COM--ANY
+OTHER INFO CALL 800-228-9025</house_description>
+<construction>Wood</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<dining><dimension>16 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>11 X 15</dimension><level>2</level></master>
+
+<directions>DECOURSEY TO 40 GO UNDER RR TRACKS R ON GLENN</directions>
+</house_listing>
+
+
+

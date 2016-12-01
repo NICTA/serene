@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>332 PEGGY ANN</house_location>
+<price>$139,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Quad Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Side)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249906</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>BETTIE LYONS</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>REDUCED FROM 163,000 NEWER FURNACE &amp; WATER HEATER. QUAD LEVEL-FAMILY
+RM. REC. RM, BAR AREA-POOL(NEEDS WORK) FENCED AREA-3 BR, 2.5 BA, 2.18
+ACRES CLOSE TO AA HWY &amp; US 27 STORES,CHURCH,SHOPS, FANTASTIC
+POSS.SHOWPLACE,WOODS</house_description>
+<construction>Brick,Alum</construction>
+<heating>Hot Water</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 13</dimension><level>2</level></bedroom_3>
+<family><dimension>36 X 14</dimension><level>L</level></family>
+<kitchen><dimension>18 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 8</dimension><level>L</level></laundry>
+<living><dimension>22 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>2</level></master>
+<recreation_room><dimension>25 X 18</dimension><level>L</level></recreation_room>
+
+<directions>SOUTH AA RT 9 RIGHT ON POPLAR RIDGE L PEGGY
+ANN/US 27 L POP. RDG RIGHT PEGGY AN</directions>
+</house_listing>
+
+
+

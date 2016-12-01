@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Conroe-Lake Conroe</name>
+<location>12603 Highway 105 West, Suite 100 Conroe, TX 77304</location>
+<office>(409)588-1177</office>
+<toll_free></toll_free>
+<fax>(409)447-1178</fax>
+<voice_mail>(409)447-1177 228</voice_mail>
+<email>remaxconroe@flex.net</email>
+</firm_information>
+
+<agent_information>
+<name>Pat Wilson</name>
+<office>(409)588-1177</office>
+<fax>(409)447-1178</fax>
+<voice_mail>(409)588-1177 223</voice_mail>
+<mobile>(409)525-0009</mobile>
+<email>pwilson@flex.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13932</id>
+<mls>190881</mls>
+<house_location>3202 Hemingway
+Montgomery, TEXAS 77356</house_location>
+<county>Montgomery</county>
+<price>$142,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great home less than 5 years old. Located in the Piney woods of Walden on Lake Conroe. This beauty is on a large corner lot that is fully fenced (owner will sale the extra lot for additional 10k). Downstairs you will find a formal living room with a wood burning fireplace, a formal dining room with custom paint, huge family room, and breakfast area. Upstairs you will find three large bedrooms, the master has a closet that is large enough to be another room in itself. Owner will consider a lease purchase. Email for additional information! pwilson@flex.net</house_description>
+
+<move-in_date>2/9/99</move-in_date>
+<school_district>Montgomery</school_district>
+<sub-division>Walden</sub-division>
+<stories>2</stories>
+<year_built>1997</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+
+<highlights>
+<item>Walden on Lake Conroe</item>
+<item>Less than 3 years old</item>
+<item>Fenced!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

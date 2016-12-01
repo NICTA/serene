@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Beth King</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)663-0102</mobile>
+<email>bking@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20490</id>
+<mls>503631</mls>
+<house_location>117 Mahalo
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$122,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Back on the market with inspection report and appraisal completed. This lovely brick two story is all ready for you! Secluded in the pines of Tahitian Village on 3 lots with easy access to Hwy. 71E. Appx. 1700sf of living space with 3 bedrooms and 2 baths. First floor is tiled and second floor is hardwood.Two covered decks, carport.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Tahitian Village</sub-division>
+<approx_size_sqft>1700</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>.7ac</approx_lot_size>
+<approx_acres>0.7</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Lovely Red Brick Home</item>
+<item>.7 Acres of Pines</item>
+<item>3 Bedroom, 2 Bath</item>
+<item>Two Story with Covered Decks</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

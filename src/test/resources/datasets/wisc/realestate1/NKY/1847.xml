@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>104 HIGHWAY 10</house_location>
+<price>$209,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>CALIFORNIA</suburb>
+<school_dist>PENDELTON</school_dist>
+<mls>249287</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>LINDA MILDON</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>LARGE FAMILY HOME W/LOTS OF PRIVACY 15+ ACRES-GAZEBO-FOR SELLERS
+DISCLOSURE CALL 384-1024 EXT 2060</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>B</level></bath_3>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>20 X 9</dimension><level>B</level></bedroom_4>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>22 X 17</dimension><level>B</level></family>
+<kitchen><dimension>16 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 7</dimension><level>B</level></laundry>
+<living><dimension>25 X 15</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>1</level></master>
+
+<directions>AA HWY SOUTH TO R ON IVOR L ON RTE 10</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rex Roye</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>Rroye@c21rapp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19368</id>
+<mls>9096973</mls>
+<house_location>224 Hadley Dr.
+Godley, TEXAS 76044</house_location>
+<county>Johnson</county>
+<price>$274,500</price>
+<bedrooms>5</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>PLENTY OF MEMORIES TO BE  MADE, in this 2 story farm house with 5 huge bedroms, 1 bath.  This home was built in 1912. Detached garage, barns and stock tank.  100 acres with fencing and cross fencing.  (315)</house_description>
+
+<school_district>Godley</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>4744</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>100</approx_acres>
+<year_built>1912</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>2 FLOWER CT</house_location>
+<price>$496,000</price>
+<rooms>13</rooms>
+<bedrooms>5</bedrooms>
+<baths>5-2</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Detached)</garage>
+<suburb>LAKESIDE PARK</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249725</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>MARY LOU BLOUNT</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>STATELY COLONIAL IN AN AREA OF FINE OLDER HOMES. LOCATION! LOCATION!
+LOCATION! GREAT FOR ENTERTAINING AND ALSO FOR A LARGE FAMILY. THIS
+HOME HAS 5 FULL BATHS &amp; 2 PARTIAL BATHS. A PLEASURE TO SHOW!</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air,Atic Fan</cooling>
+<fireplace>Wood,Gas,Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bath_3><dimension>FULL</dimension><level></level></bath_3>
+<bath_4><dimension>FULL</dimension><level></level></bath_4>
+<bedroom_2><dimension>15 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>15 X 10</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>24 X 15</dimension><level>3</level></bedroom_5>
+<dining><dimension>16 X 15</dimension><level>1</level></dining>
+<family><dimension>23 X 18</dimension><level>1</level></family>
+<kitchen><dimension>24 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>15 X 15</dimension><level>L</level></laundry>
+<living><dimension>24 X 15</dimension><level>1</level></living>
+<master><dimension>23 X 15</dimension><level>2</level></master>
+<recreation_room><dimension>23 X 15</dimension><level>L</level></recreation_room>
+<study><dimension>22 X 13</dimension><level>1</level></study>
+
+<directions>DIXIE HWY SOUTH ON R ON HUDSON LFT ON FLOWER CT</directions>
+</house_listing>
+
+
+

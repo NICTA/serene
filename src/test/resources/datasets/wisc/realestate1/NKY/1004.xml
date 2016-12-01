@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>104 CARLISLE</house_location>
+<price>$59,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>ELSMERE</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>242569</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>DAVE WHALEN</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>NEWER MECHANICS PLUMBING &amp; ELECTRIC * NEW PAINT INSIDE &amp; OUT * FENCED
+YARD STORAGE SHED * 2 BATHS * FRONT AND BACK PORCH * 1/2 BLOCK TO BUS</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>37X106</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bedroom_2><dimension>13 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>15 X 11</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>13 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 10</dimension><level>1</level></laundry>
+<living><dimension>16 X 12</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+<study><dimension>11 X 8</dimension><level>2</level></study>
+
+<directions>DIXIE TO LEFT ON CARLISLE AT CVS DRUG STORE</directions>
+</house_listing>
+
+
+

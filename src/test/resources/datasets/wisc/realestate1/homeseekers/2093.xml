@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Great first floor condo overlooking the gardens. Convenient to colley
+avenue, evms, downtown, and mac arthur center. All appliances convey.
+Covered assigned parking. New ac system in 1998.</house_description>
+
+<agent_name>Betty Mooz</agent_name>
+<direct>623-2382</direct>
+<office>757-623-2382</office>
+<firm_name>Nancy Chandler Associates Inc.</firm_name>
+<phone>757-623-2382</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$74,900</list_price>
+<location>Norfolk, VA 23517</location>
+<mls>9915210</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Townhouse/Condo</type>
+<style>Transitional</style>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

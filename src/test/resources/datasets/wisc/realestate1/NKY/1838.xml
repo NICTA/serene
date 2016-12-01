@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>117 CORY LN.</house_location>
+<price>$124,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>BUTLER</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>249276</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>D KEN PERRY</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>THE MORGEN IS A 42X28 THREE BEDROOM , TWO FULL BATH PLUS TWO CAR
+GARAGE BI LEVEL. CALL KENT VORIES FOR MORE INFORMATION 588-5220 (VM)</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Private</sewer>
+<lot_dimensions>125x146</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>18 X 10</dimension><level>1</level></kitchen>
+<living><dimension>16 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 10</dimension><level>1</level></master>
+
+<directions>US 27 S, E ON HWY 177 ABOUT 2 MILES ON LEFT</directions>
+</house_listing>
+
+
+

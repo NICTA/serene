@@ -1,0 +1,14 @@
+id@Brisbane_libraries.csv@AU,Code@WA_public_libraries.csv@AU
+Library Name@Brisbane_libraries.csv@AU,visiblename@Victorian_pulbic_libraries.csv@Victoria,Branch Name@Queensland_public_libraries.csv@Queensland,Name@WA_public_libraries.csv@AU
+Address@Brisbane_libraries.csv@AU,street@Victorian_pulbic_libraries.csv@Victoria,Address Line 1@Queensland_public_libraries.csv@Queensland,Address Line 2@Queensland_public_libraries.csv@Queensland,Street Address@WA_public_libraries.csv@AU
+Suburb@Brisbane_libraries.csv@AU,suburbname@Victorian_pulbic_libraries.csv@Victoria,AddressLocality@Queensland_public_libraries.csv@Queensland,Street Suburb@WA_public_libraries.csv@AU
+state@Victorian_pulbic_libraries.csv@Victoria,Street State@WA_public_libraries.csv@AU
+postcode@Victorian_pulbic_libraries.csv@Victoria,Address Postcode@Queensland_public_libraries.csv@Queensland,Street Postcode@WA_public_libraries.csv@AU
+Postal Address Postcode@Queensland_public_libraries.csv@Queensland,Postal Postcode@WA_public_libraries.csv@AU
+Postal Address Locality@Queensland_public_libraries.csv@Queensland,Postal Suburb@WA_public_libraries.csv@AU
+Postal Address Line 1@Queensland_public_libraries.csv@Queensland,Postal Address Line 2@Queensland_public_libraries.csv@Queensland,Postal Address@WA_public_libraries.csv@AU
+Opening Hours@Brisbane_libraries.csv@AU,Opening Hours Monday@Queensland_public_libraries.csv@Queensland,Opening Hours Tursday@Queensland_public_libraries.csv@Queensland,Opening Hours Wednesday@Queensland_public_libraries.csv@Queensland,Opening Hours Thursday@Queensland_public_libraries.csv@Queensland,Opening Hours Friday@Queensland_public_libraries.csv@Queensland,Opening Hours Saturday@Queensland_public_libraries.csv@Queensland,Opening Hours Sunday@Queensland_public_libraries.csv@Queensland
+Wifi Hotspot@Brisbane_libraries.csv@AU,WiFi Availability@Queensland_public_libraries.csv@Queensland
+phone@Victorian_pulbic_libraries.csv@Victoria,Phone@Queensland_public_libraries.csv@Queensland,Phone@WA_public_libraries.csv@AU
+Fax@Queensland_public_libraries.csv@Queensland,Fax@WA_public_libraries.csv@AU
+Email@Queensland_public_libraries.csv@Queensland,Email@WA_public_libraries.csv@AU

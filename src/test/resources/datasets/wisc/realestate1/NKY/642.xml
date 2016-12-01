@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1326 ALBERTA</house_location>
+<price>$69,400</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249499</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>CHRISTINA JOHNSON</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>GREAT STARTER HOME! NEAR BUSLINE. PLASTER WALLS. DARK OAK WOODWORK.
+SOLID OAK DOORS. FULLY FENCED. CUSTOM STONE WORK WALLS AND STEPS IN
+YARD.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<living><dimension>16 X 12</dimension><level>1</level></living>
+<master><dimension>17 X 12</dimension><level>2</level></master>
+
+<directions>ROUTE 8 TO RIGHT ON PARKWAY TO RIGHT ON ALTAMONT
+TO LEFT ON ALBERTA</directions>
+</house_listing>
+
+
+

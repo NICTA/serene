@@ -1,0 +1,40 @@
+<house_listing>
+<house_location>218 W 34TH</house_location>
+<price>$58,000</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250085</mls>
+<house_type>Single Family</house_type>
+<firm>A 4% REALTY</firm>
+<firm_phone>(606) 572-0885</firm_phone>
+<agent>MAX BRAUNE</agent>
+<agent_phone>(606) 572-0885</agent_phone>
+<house_description></house_description>
+<construction>Brick,Wood,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Dummy,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>9999x9999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 11</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>10 X 14</dimension><level>1</level></kitchen>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>DECOURSEY OR LATONIA TO SOUTHERN,BECOMES W 34TH</directions>
+</house_listing>
+
+
+

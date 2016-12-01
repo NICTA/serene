@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This attached single family home built in 1910 has 1 bedroom(s), 1
+bath(s) and approximately 576 square feet of living area.</house_description>
+
+<agent_name>Teresa Green</agent_name>
+<direct>303-931-2199</direct>
+<office>303-427-7850</office>
+<firm_name>Frontier Better Home</firm_name>
+<phone>303-427-7850</phone>
+<fax>303-931-2198</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$107,000</list_price>
+<location>509 E Dakota Av</location>
+<neighborhood>Washington Park W</neighborhood>
+<mls>380452</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>576 (approx)</square_feet>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

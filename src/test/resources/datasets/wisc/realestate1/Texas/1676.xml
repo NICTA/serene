@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irona Thompson</name>
+<office>(254)554-2121</office>
+<fax>(254)634-3291</fax>
+<voice_mail>(800)840-3313 7833</voice_mail>
+<mobile>(254)289-4945</mobile>
+<email>irona@maxxrep.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20004</id>
+<mls>88371</mls>
+<house_location>2808 Cactus Dr
+Killeen, TEXAS 76549</house_location>
+<county>Bell</county>
+<price>$76,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Ellison High School</school_district>
+<sub-division>Westpark Additon</sub-division>
+<approx_size_sqft>1371</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>148x68</approx_lot_size>
+<approx_acres>0.2</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>FIREPLACE</item>
+<item>EATIN KITCHEN</item>
+<item>FENCED BACKYARD</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

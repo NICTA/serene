@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1005 DUDLEY PK.</house_location>
+<price>$79,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Detached,Side,Oversized)</garage>
+<suburb>CORINTH</suburb>
+<school_dist>OWEN</school_dist>
+<mls>247586</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX WORKS</firm>
+<firm_phone>(888) 297-7629</firm_phone>
+<agent>LISA E MORRIS</agent>
+<agent_phone>(888) 297-7629</agent_phone>
+<house_description>COUNTRY &amp; PRIVACY WITH THIS CHARMING, IMMACULATE DOUBLE-WIDE ON 1+
+ACRES. OVERSIZED 1 CAR GARAGE BUILT IN JULY '99. THE VIEW GOES ON
+FOREVER. 5 MINUT ES TO I-75, CONVENIENT TO TOYOTA &amp; N. KY. DON'T MISS
+YOUR CHANCE, COME SEE!</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Private</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$480.00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>16 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 5</dimension><level>1</level></laundry>
+<living><dimension>17 X 16</dimension><level>1</level></living>
+<master><dimension>14 X 10</dimension><level>1</level></master>
+
+<directions>I75S TO EX#144 R ON 330 TO L ON 607 TO L ON
+DUDLEY PK. PROP. .7MI ON L.</directions>
+</house_listing>
+
+
+

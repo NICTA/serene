@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ashley Duncan</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)988-9860</mobile>
+<email>c21aduncan@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20726</id>
+<mls>9123223</mls>
+<house_location>606 South Waco
+Weatherford, TEXAS 76086</house_location>
+<county>Parker</county>
+<price>$163,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Fabulous 3 bedroom, 2 bath, stucco home in historic district of Weatherford.  Located on large corner lot with large front porch and attached carport.  Hardwood floors.  Detached garage and storage area with 19x11 room upstairs for possible apartment area.  Beautiful mature trees.  This home is a must see!</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Couts</sub-division>
+<approx_size_sqft>2007</approx_size_sqft>
+<stories>1</stories>
+<year_built>1918</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

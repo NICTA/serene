@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ronnie Robie</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)300-3870</mobile>
+<email>ronnierobie@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21059</id>
+<mls>9127518</mls>
+<house_location>2108 Tippy Tarrace
+Fort Worth, TEXAS 76134</house_location>
+<county>Tarrant</county>
+<price>$92,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Do you know where your children are?  In the backyard enjoying the fun of a wonderful inground pool!  There is still plenty of space for a play yard.     This warm and comfortable home features corner fireplace in family room, separate dining room, beautiful landscaped yard, plus large storage building.  All this at a price that is hard to believe.  This is a must see!</house_description>
+
+<school_district>Crowley I S D</school_district>
+<stories>1</stories>
+<approx_acres>1555</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+
+<highlights>
+<item>Fireplace</item>
+<item>Pool</item>
+<item>Landscaped Yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

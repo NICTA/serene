@@ -1,0 +1,34 @@
+<house_listing>
+<price>$132,000</price>
+<mls_id_number>162616</mls_id_number>
+<city>SCAPPOOSE</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1584</sqft>
+<year_built>1960</year_built>
+<heat>Oil Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>80X100</lot_description>
+<fireplace>2</fireplace>
+<taxes>$1,505</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Tool Shed, Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>WATTS/PETERSON</elementary>
+<middle_school>SCAPPOOSE</middle_school>
+<high_school>SCAPPOOSE</high_school>
+</schools>
+
+</house_listing>
+
+
+

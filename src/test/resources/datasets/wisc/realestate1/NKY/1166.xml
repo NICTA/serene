@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>109 CHARLES GIVENS</house_location>
+<price>$189,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>GRANT</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249284</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>MIKE HELSON</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>VERY CONVENIENT AREA OF NICE HOMES,BRICK 2 STORY W/ 1 ACRE LOT NEAR
+GOLF CO URSE. ONLY 3 YRS OLD!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>14 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>9 X 9</dimension><level>2</level></bedroom_4>
+<dining><dimension>25 X 11</dimension><level>1</level></dining>
+<family><dimension>15 X 15</dimension><level>1</level></family>
+<kitchen><dimension>20 X 13</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>18 X 14</dimension><level>2</level></master>
+
+<directions>CRITT EXIT, L TO STOP R ON 25 TO R ON CRI TT MT
+ZION TO R ON CHARLES GIVENS</directions>
+</house_listing>
+
+
+

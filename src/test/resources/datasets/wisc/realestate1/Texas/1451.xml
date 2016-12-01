@@ -1,0 +1,47 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Castleberry</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19734</id>
+<mls>R53591</mls>
+<house_location>1011 N. Water Street
+Burnet, TEXAS 78611</house_location>
+<county>Burnet</county>
+<price>$58,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+
+<house_description>Presently Zoned Commercial.  Former location of The Joshua Tree Store.  Originally a 2 bedroom one bath house.  Wood burning stove, outbuilding, convey in sale.  Many possibilities for business.  Would be good office or retail.</house_description>
+
+<school_district>Burnet</school_district>
+<approx_size_sqft>864</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Residential or Commercial</item>
+<item>Wood Burning Stove</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

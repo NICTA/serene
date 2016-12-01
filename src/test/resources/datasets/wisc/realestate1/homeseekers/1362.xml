@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1940 has 4 bedroom(s), 3 bath(s) and
+approximately 3586 square feet of living area.</house_description>
+
+<agent_name>Mike Crean</agent_name>
+<direct>303-466-7323</direct>
+<office>303-399-9930</office>
+<firm_name>Crean Associates</firm_name>
+<phone>303-399-9930</phone>
+<fax>303-871-2971</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$479,900</list_price>
+<location>311 N Dexter St</location>
+<neighborhood>Hilltop</neighborhood>
+<mls>381193</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>3586 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

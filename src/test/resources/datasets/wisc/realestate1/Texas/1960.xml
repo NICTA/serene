@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tommy Atkins</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>tommya@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16257</id>
+<mls>52583</mls>
+<house_location>120 TEE OFF
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$350,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Elegant resort home on #3 of Slick Rock Golf Course.  Enjoy the views and deer.  1 story stone and frame with tile roof.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Beautiful deck on the golf course.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

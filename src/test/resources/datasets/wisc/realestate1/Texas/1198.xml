@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maureen Black</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)228-6659</mobile>
+<email>estladymb@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21554</id>
+<mls>9136222</mls>
+<house_location>4413 Wilson Lane
+Fort Worth, TEXAS 76133</house_location>
+<county>Tarrant</county>
+<price>$46,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>2</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Larger than it looks, with remodeled kitchen, updated appliances, lovely cabinets, recessed lighting, plant shelves.  Inviting marble garden tub, plus marble seat in shower. 2nd living area is den/dining.  New carpet.  14x14 workshop with half bath in garage. Home warranty.</house_description>
+
+<school_district>Fort Worth I S D</school_district>
+<sub-division>Kellis Addition</sub-division>
+<approx_size_sqft>1402</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.14</approx_acres>
+<year_built>1049</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Remodeled kitchen, very nice</item>
+<item>Upgraded bath, marble tub</item>
+<item>Workshop w/half bath in garage</item>
+<item>Chain link fence, trees, lawn, porch</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Janice Kraft</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)787-5555</mobile>
+<email>jkraft@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19178</id>
+<mls>5667</mls>
+<house_location>103 Sunny Ridge Dr
+Kyle, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$73,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>1 Yr Old Dbl Wide1+ Acre FencedAdditional 1 + Acres lot Available</house_description>
+
+<school_district>Hays Cisd</school_district>
+<approx_size_sqft>1792</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Fenced Yard</item>
+<item>Multi Living Area</item>
+<item>Horses</item>
+<item>Kitchen Center Island</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

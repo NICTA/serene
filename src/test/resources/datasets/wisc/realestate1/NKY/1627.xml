@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>97 GREENHILL</house_location>
+<price>$98,500</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249912</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>LOUISE NEFF</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* WOODED LOT * EQUIPPED KITCHEN * FULL BASEMENT * WOOD DECK * * EAT-IN
+KITCHEN * BATH ROUGHED-IN IN BASEMENT * * CATHEDRAL CEILINGS &amp; MORE *</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>3-L HWY TO L ON HANDS PIKE, R ON CRYSTAL LAKE, R
+ON MEADOWHILL, R ON GREENHILL</directions>
+</house_listing>
+
+
+

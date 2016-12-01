@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 2 level attached single family home built in 1921 has 1
+bedroom(s), 1 bath(s) and approximately 428 square feet of living
+area. Rooms include den, family room, bonus room. Features include
+view.</house_description>
+
+<agent_name>Ken Nitao</agent_name>
+<office>818-216-7796</office>
+<firm_name>Avondale Realty</firm_name>
+<phone>818-216-7796</phone>
+<fax>626-573-1826</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$104,000</list_price>
+<location>4427 W Rose Hill Dr</location>
+<mls>W907207</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<square_feet>428 (approx)</square_feet>
+<lot_size>3224</lot_size>
+<year_built>1921</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Bonus Room, Den, Family Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

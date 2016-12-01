@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Lucille Williams Real Estate</name>
+<location>263 Live Oak (Hwy.7) Marlin, TX 76661</location>
+<office>(254)803-2518</office>
+<toll_free></toll_free>
+<fax>(254)803-5766</fax>
+<email>lswilliams@texnet.net</email>
+</firm_information>
+
+<agent_information>
+<name>Lucille Williams</name>
+<office>(254)803-2518</office>
+<fax>(254)803-5766</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>9430</id>
+<mls></mls>
+<house_location>5th and Fall St.
+Lott, TEXAS 76656</house_location>
+<county>Falls</county>
+<price>$59,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>This 1640 sq. ft. home located on the corner of 5th &amp; Falls St. in Lott has alot of extras.  It has 3 bedrooms, 2 baths, gameroom, wooden fence,above ground swimming pool, large fishing pond and rock waterfall.  Five city blocks surround the property which are included in the price.</house_description>
+
+<school_district>Rosebud-lott</school_district>
+<approx_size_sqft>1640</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Above ground swimming pool</item>
+<item>Rock Waterfall</item>
+<item>Large fishing pond</item>
+<item>Gameroom</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

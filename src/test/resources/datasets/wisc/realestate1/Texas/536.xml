@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Terri Eller</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email>terrieller@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17112</id>
+<mls>137700</mls>
+<house_location>307 BULLARD
+Odem, TEXAS 78370</house_location>
+<county>San Patricio</county>
+<price>$59,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>BRICK HOME HAS LOTS OF CURB APPEAL SITS ON BIG FENCED LOT.  INSULATION THRU OUT ENTIRE HOUSE. SEPERATE OFFICE AND LAUNDRY ROOMS NEEDS COSMETIC REPAIRS BUT VERY SOUND AND COZY.  CAN BE SOLD WITH GARAGE BUSINESS NEXT DOOR, (SEE 308 BULLARD), FOR BETTER PRICE. GREAT BUSINESS OPP.</house_description>
+
+<school_district>Odem</school_district>
+<approx_size_sqft>1740</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>VERY ROOMY</item>
+<item>BEAUTIFUL BRICK HOME</item>
+<item>BIG FENCED YARD</item>
+<item>LOTS OF EXTRAS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

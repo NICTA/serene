@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Pirates Beach &amp; Cove</name>
+<location>13716 FM 3005 Galveston, TX 77554</location>
+<office>(409)740-6400</office>
+<toll_free>(800)320-0565</toll_free>
+<fax>(409)740-6475</fax>
+<email>Nancy</email>
+</firm_information>
+
+<agent_information>
+<name>Uhrbrock</name>
+<office>(409)692-1000</office>
+<fax>(409)737-1244</fax>
+<mobile>(409)692-1000</mobile>
+<email>nancy@piratesbeach.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12768</id>
+<mls>81649</mls>
+<house_location>4223 Campeche
+Galveston, TEXAS 77554</house_location>
+<county>Galveston</county>
+<price>$425,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Better than beachfront location.  Excellent beach view.  Excellent condition.</house_description>
+
+<school_district>Gisd</school_district>
+<sub-division>Pirates Beach</sub-division>
+<stories>2</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Gorgeous Beach Views</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

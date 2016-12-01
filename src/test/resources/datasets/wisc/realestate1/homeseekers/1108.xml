@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1999 has 4
+bedroom(s), 3 bath(s) , 3 car garage and approximately 2463 square
+feet of living area. Rooms include dining room, family room, living
+room, bonus room, master bedroom. Features include fireplace, air
+conditioning.</house_description>
+
+<agent_name>Chelsea Sessa</agent_name>
+<office>858-755-6761</office>
+<firm_name>The Willis Allen Company</firm_name>
+<phone>858-755-6761</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$449,000</list_price>
+<location>San Diego, CA 92121</location>
+<mls>00 1000151</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2463 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Forced Air</heating>
+<fireplace>Family Room</fireplace>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room, Master</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Nora Wall</name>
+<office>(512)789-3421</office>
+<fax>(512)834-2234</fax>
+<voice_mail>(512)834-6094</voice_mail>
+<mobile>(512)789-3421</mobile>
+<email>norawall@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20250</id>
+<mls>523452</mls>
+<house_location>1700 Zydeco
+Round Rock, TEXAS 78664</house_location>
+<county>Williamson</county>
+<price>$123,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>4 Bedroom, 2 Full baths, Open Airy Floor Plan, Landscaped, Water Softner, Covered Patio, Ceramic Tile, Great Floor Plan!</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Remington Heights</sub-division>
+<approx_size_sqft>1642</approx_size_sqft>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great Floor plan!</item>
+<item>Covered Patio!</item>
+<item>Landscaped!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1996 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage. Rooms include family room,
+master bedroom. Features include view, private pool, patio, storage
+space.</house_description>
+
+<agent_name>Brian Wardell</agent_name>
+<office>480-451-9339</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>480-451-9339</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$188,000</list_price>
+<location>Phoenix, AZ 85024</location>
+<mls>1464437</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<location>Corner</location>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s),Dining/Living Combo, Dishwasher, Eat In Kitchen, Garage Door Opener,Pantry, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

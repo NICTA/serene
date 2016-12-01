@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shirley Hooks</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19405</id>
+<mls>9092908</mls>
+<house_location>713 Wright Court (Ad# 138)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$43,921</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A little bit of fixin' could go a long way!  Good location &amp; close to everything.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Hugh Roe Addition</sub-division>
+<approx_size_sqft>1092</approx_size_sqft>
+<stories>1</stories>
+<year_built>1946</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Good Location</item>
+<item>Close to Schools</item>
+<item>Close to Shopping</item>
+<item>Good Price</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>98 THREE MILE RD.</house_location>
+<price>$255,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>CAMPBELL</suburb>
+<school_dist>CAMP. CTY.</school_dist>
+<mls>247129</mls>
+<house_type>Single Family</house_type>
+<firm>BARBARA WEBER REALTY</firm>
+<firm_phone>(606) 635-4333</firm_phone>
+<agent>BARBARA WEBER</agent>
+<agent_phone>(606) 635-4333</agent_phone>
+<house_description>4.256 ACRES SURROUNDS THIS REDWOOD CHALET. TOTAL WOODED PRIVACY /W
+CREEK ON THE SIDE. 1 MILE FROM NKU - CLOSE TO I275. 'ALL CITY
+UTILITIES'!! THIS IS ONE OF A KIND! TRULY COUNTRY IN THE CITY. VERY
+UNIQUE PROPERTY......</house_description>
+<construction>Other</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>Irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>10 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>10 X 11</dimension><level>L</level></bedroom_4>
+<dining><dimension>11 X 15</dimension><level>1</level></dining>
+<family><dimension>22 X 38</dimension><level>L</level></family>
+<kitchen><dimension>11 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 9</dimension><level>1</level></laundry>
+<living><dimension>23 X 24</dimension><level>1</level></living>
+<master><dimension>10 X 18</dimension><level>2</level></master>
+
+<directions>NUNN DRIVE R AT 1ST TRAFFIC LIGHT GO UNDE R
+UNDERPASS TO 4TH HOUSE ON RIGHT.</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Larry Pruneda</name>
+<office></office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19306</id>
+<mls>R26071</mls>
+<house_location>920 North Third
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$45,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>5</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Tranquitas #1</sub-division>
+<approx_size_sqft>1900</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

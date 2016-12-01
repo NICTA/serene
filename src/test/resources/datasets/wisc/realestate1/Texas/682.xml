@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Chambliss</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>brenda_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19379</id>
+<mls></mls>
+<house_location>2015 Tumbleweed Trail
+Dale, TEXAS 78616</house_location>
+<county>Caldwell</county>
+<price>$145,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Enjoy the peaceful country on your very own mini ranch.  This home offers three or four bedrooms, two and one-half baths, an open living area with a fireplace and two dining areas.  It has a newer roof, updated carpet/vinyl tile, CH/CA, and applicances.  A few minor cosmetic updates could suit this home perfectly to your taste.  It is situated on over 21 acres.  The property has a barn with electricity, a water well, fencing, and crossfencing.  It is located near Dale, Texas on Tumbleweed Trail (Co. Rd. 164).</house_description>
+
+<school_district>Lockhart</school_district>
+<approx_size_sqft>1855</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>21.43</approx_lot_size>
+<approx_acres>21.43</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>21 acres of land</item>
+<item>Three or Four Bedrooms</item>
+<item>Central heat/central air</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

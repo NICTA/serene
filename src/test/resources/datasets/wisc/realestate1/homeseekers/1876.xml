@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1967 has 3 bedroom(s), 3 bath(s) and
+approximately 2276 square feet of living area.</house_description>
+
+<agent_name>Ken Gumm</agent_name>
+<direct>303-888-0661</direct>
+<office>303-987-0255</office>
+<firm_name>RE/MAX Professionals</firm_name>
+<phone>303-987-0255</phone>
+<fax>303-987-3463</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$230,000</list_price>
+<location>3786 S Chase St</location>
+<neighborhood>Pinecrest</neighborhood>
+<mls>380842</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2276 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

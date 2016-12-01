@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>32 TRAPP CT</house_location>
+<price>$102,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>(Carport)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249451</mls>
+<house_type>Single Family</house_type>
+<firm>COFFMAN REALTY</firm>
+<firm_phone>(606) 441-8090</firm_phone>
+<agent>JOHN D COFFMAN, JR</agent>
+<agent_phone>(606) 441-8090</agent_phone>
+<house_description>3 BEDROOM BRICK RANCH W/ HWF &amp; LG EAT IN KIT. BSMT HAS FULL BATH &amp;
+FAMILY ROOM. THIS WELL MAINTAINED HOME SITS ON A LEVEL FENCED LOT.
+CALL JOHN COFFMAN JR. 441-8090 OR 333-5757</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>75 x 159</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>10 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 11</dimension><level>1</level></bedroom_3>
+<family><dimension>10 X 25</dimension><level>L</level></family>
+<kitchen><dimension>11 X 16</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>OFF US 27 (ALEXANDRIA PK) JUST NORTH OF CAMPBELL
+CO MIDDLE SCHOOL.</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>520 TYLER DR</house_location>
+<price>$37,500</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Carport)</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>242807</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>GREG HICKS</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>AFFORDABLE STARTER HOME W/CARPORT. ALSO DETACHED GARAGE. FORCED AIR
+L.P. GAS FURNACE. ACCESS TO LAKE WILLIAMSTOWN.</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>100x200</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<living><dimension>16 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 8</dimension><level>1</level></master>
+<study><dimension>10 X 5</dimension><level>1</level></study>
+
+<directions>EXIT 159 E TO 25 S TO L 467 2.5 MILE TO R ON
+REEVES L ON TYLER 2ND HOUSE RIGHT</directions>
+</house_listing>
+
+
+

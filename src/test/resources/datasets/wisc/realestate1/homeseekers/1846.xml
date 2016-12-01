@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1970 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) , 1 car garage and approximately 810 square feet of living
+area. Features include private pool, air conditioning.</house_description>
+
+<agent_name>Paul Kenner</agent_name>
+<direct>866-1100</direct>
+<office>864-1100</office>
+<firm_name>Estelle Stern Real
+Lic. Real Estate Broker</firm_name>
+<phone>864-1100</phone>
+<fax>305-864-1124</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$85,000</list_price>
+<location>4141 Nautilus Dr #8-F</location>
+<neighborhood>Excelsior Condo</neighborhood>
+<mls>M777572</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>810 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Foyer, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Bobby Gronewald</name>
+<location>223 W. Travis La Grange, TX 78945</location>
+<office>(409)968-8471</office>
+<toll_free></toll_free>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bobby Gronewald</name>
+<office>(409)968-8471</office>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18097</id>
+<mls>2216</mls>
+<house_location>104 Hilliard Ave
+Lexington, TEXAS</house_location>
+<county>Lee</county>
+<price>$48,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great 2/1 starter home or retirement home in quiet small town. Has detached garage, large lot, city utilities.  Items put in new in 1998 include, AC, carpet, water heater, septic lines, new roof in 1994, bath was reworked in 1993. Custom cabinets were installed in the kitchen in 1993.  Home is well insulated, washer and dryer connection in detached bldg.  Call Bobby to view this home.</house_description>
+
+<school_district>Lexington</school_district>
+<approx_size_sqft>950</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Nice quiet town</item>
+<item>Cute Starter home</item>
+<item>Good schools</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

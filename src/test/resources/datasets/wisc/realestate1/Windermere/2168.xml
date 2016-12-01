@@ -1,0 +1,34 @@
+<house_listing>
+<price>$174,950</price>
+<mls_id_number>163882</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1440</sqft>
+<year_built>1942</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.17        Acres</lot_size>
+<lot_description>60X120</lot_description>
+<fireplace>2</fireplace>
+<taxes>$1,777</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Not Listed</exterior>
+<site>Water: PUBLIC Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>PRESCOTT</elementary>
+<middle_school>PARKROSE</middle_school>
+<high_school>PARKROSE</high_school>
+</schools>
+
+</house_listing>
+
+
+

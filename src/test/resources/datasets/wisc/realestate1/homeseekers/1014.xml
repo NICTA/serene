@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level home built in 1960 has 1 bedroom(s), 1 bath(s) and
+approximately 920 square feet of living area. Rooms include dining
+room, living room, bonus room, master bedroom. Features include air
+conditioning.</house_description>
+
+<agent_name>Eleanor Balaban Eleanor Balaban</agent_name>
+<direct>301-229-7990</direct>
+<office>301-907-7600</office>
+<email>Eleanor@EleanorBalaban.com</email>
+<firm_name>Long &amp; Foster Real Estate,
+Inc.</firm_name>
+<phone>301-907-7600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$53,000</list_price>
+<location>Washington, DC 20012</location>
+<mls>DC2274403</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>CoOp</type>
+<square_feet>920 (approx)</square_feet>
+<year_built>1960</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

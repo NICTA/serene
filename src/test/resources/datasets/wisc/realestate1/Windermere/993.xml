@@ -1,0 +1,34 @@
+<house_listing>
+<price>$249,000</price>
+<mls_id_number>110913</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>2290</sqft>
+<year_built>1995</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>SHAKE</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.42        Acres</lot_size>
+<lot_description>80X220X80X239</lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Deck,</exterior>
+<site>Water: PUBLIC Sewer: OTHER</site>
+</amenities>
+<schools><elementary>CALL AGENT</elementary>
+<middle_school></middle_school>
+<high_school>ROSEBURG</high_school>
+</schools>
+
+</house_listing>
+
+
+

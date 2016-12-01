@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bette Berry</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>bette@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16970</id>
+<mls>211</mls>
+<house_location>211 LIGHTHOUSE DRIVE
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$750,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>Spacious, one-level home on gorgeous open water. Fenced yard.  Lots of storage throughout.  Great kitchen and breakfast area.  Corian countertops.  His and Her baths in master.  Exceptional quality throughout.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Waterfront with boat lift</item>
+<item>Large game room or office</item>
+<item>Sub zero fridge, oven, range</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

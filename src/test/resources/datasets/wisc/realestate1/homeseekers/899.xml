@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1980 has 4 bedroom(s), 4
+bath(s) , 2 car garage and approximately 2600 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, private pool, patio, fireplace.</house_description>
+
+<agent_name>Carrie Gabri Strom</agent_name>
+<direct>520-885-9817</direct>
+<office>520-885-9817</office>
+<firm_name>Longhorn Realty</firm_name>
+<phone>520-885-9817</phone>
+<fax>520-885-9817</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$299,000</list_price>
+<location>2700 S Freeman Rd</location>
+<mls>9916238</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2600 (approx)</square_feet>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Guest House
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

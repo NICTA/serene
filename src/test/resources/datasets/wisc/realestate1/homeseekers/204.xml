@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>Fully renovated home, close to odu and downtonw norfolk 3 bedrooms, 2
+baths. New carpet &amp; vinyl tile, new kitchen cabinets, cupboards &amp;
+shelving, new appliances. &amp; New hvac.</house_description>
+
+<agent_name>Ronald Arotin</agent_name>
+<office>757-499-1999</office>
+<firm_name>Realty Advantage</firm_name>
+<phone>757-499-1999</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$62,900</list_price>
+<location>Norfolk, VA 23508</location>
+<mls>9926618</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

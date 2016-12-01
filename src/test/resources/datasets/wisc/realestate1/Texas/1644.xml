@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Hallowell</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email>hallowell@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18365</id>
+<mls>9085042</mls>
+<house_location>5601 Cortez Dr. (Ad # 321)
+Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$99,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Decordova Bend Estates</sub-division>
+<approx_size_sqft>1668</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>107x149x157x136</approx_lot_size>
+<year_built>1975</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<golf_course>Yes</golf_course>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Your own private jacuzzi</item>
+<item>Satalite system reserved</item>
+<item>Guarded/gated community</item>
+<item>inquire about # 321</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

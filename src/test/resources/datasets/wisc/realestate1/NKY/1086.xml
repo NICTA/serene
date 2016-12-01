@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>122 CHARLES GIVIN</house_location>
+<price>$319,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>COUNTRY CLUB</suburb>
+<school_dist>GRANT</school_dist>
+<mls>240312</mls>
+<house_type>Single Family</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>MIKE MELTON</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>7.5 ACRES - BEAUTIFUL CUSTOM BUILT HOME SITS ON CULDESAC NEAR COUNTRY
+CLUB &amp; GOLF COURSE, HAS CHERRY CABINETS, BUILDERS HOME**AVAILABLE
+W/1ACRE FOR $259,900 MLS#240311</house_description>
+<construction>Brick,Stone</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>B</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>10 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 16</dimension><level>2</level></bedroom_4>
+<dining><dimension>11 X 15</dimension><level>1</level></dining>
+<family><dimension>27 X 21</dimension><level></level></family>
+<kitchen><dimension>13 X 9</dimension><level>1</level></kitchen>
+<living><dimension>13 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+<study><dimension>12 X 28</dimension><level>B</level></study>
+
+<directions>CRITT EX R ON US25, R ON CMZ, R ON CHARLE S
+GIVIN</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Mayer Realty</name>
+<location>974 East Austin St. Giddings, TX 78942</location>
+<office>(409)542-2696</office>
+<toll_free></toll_free>
+<fax>(409)542-2554</fax>
+<email>mayerrealty@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Agnes M. Hannes</name>
+<office>(409)542-2696</office>
+<fax>(409)542-1715</fax>
+<email>mayerrealty@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20359</id>
+<mls></mls>
+<house_location>1211 E. WASHINGTON, GIDDINGS, TX.
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$75,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>THIS LOVELY FAMILY IS IDEAL TO RAISE A FAMILY.  FEATURING AN EXPANDED LIVING AREA  INTERIOR DECOR IS IN EXCELLENT TASTE.  3/2 IN DESIGN PROVIDES PLENTY OF ROOM.  2 SPACIOUS LOTS ALLOW ROOM FOR CHILDREN TO PLAY AND ROOM TO EXPAND.  SITUATED NEAR GIDDINGS CITY PARK. OTHER AMENITIES INCLUDE AN ABOVE GROUND POOL AND A STORAGE SHED ALONG WITH A PRIVACY FENCE.   SEE THIS FINE RESIDENCE BY MAKING YOUR APPOINTMENT TODAY.   PRICED TO SELL, IT WON'T LAST LONG!!!!!.</house_description>
+
+<school_district>Giddings Isd</school_district>
+<approx_size_sqft>1756</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>EXPANDED LIVING AREA</item>
+<item>CLOSE TO SHOPPING</item>
+<item>NEAR CITY PARK</item>
+<item>EXCELLENT CONDITION</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

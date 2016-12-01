@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Landmasters Real Estate</name>
+<location>101 Sunrise Drive Sunrise Beach, TX 78643</location>
+<office>(915)388-4555</office>
+<toll_free>(800)306-8629</toll_free>
+<fax>(915)388-3946</fax>
+<email>landmstr@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ron Cooper</name>
+<office>(915)388-4555</office>
+<fax>(915)388-3946</fax>
+<email>LANDMSTR@TSTAR.NET</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21645</id>
+<mls>54838</mls>
+<house_location>521 SHADYSIDE LANE
+Sunrise Beach, TEXAS</house_location>
+<county>Llano</county>
+<price>$185,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>VERY NICE HOME ON APPROX. 100 FEET OF GREAT OPEN WATERFRONT ON COVE OF LAKE LBJ. THIS IS A TWO STORY HOME WITH TWO BEDROOMS AND ONE BATH UP AND THE LOWER LEVEL READY TO COMPLETE TO FIT YOUR REQUIREMENTS. THERE IS A LARGE LOT WITH TREES, A BOATDOCK AND LIFT AND A SITTING AREA FOR FISHING OR SUNBATHING. YOU CAN RE READY TO ENJOY THE SUMMER IN THIS GREAT GETAWAY IF YOU ACT NOW.</house_description>
+
+<move-in_date>1/17/00</move-in_date>
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<stories>2</stories>
+<approx_lot_size>IRREGULAR</approx_lot_size>
+<master_bedroom>Upstairs</master_bedroom>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>LARGE LOT WITH TREES</item>
+<item>GREAT OPENWATER COVE</item>
+<item>BOATDOCK WITH LIFT</item>
+<item>LARGE DECK ON LAKESIDE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

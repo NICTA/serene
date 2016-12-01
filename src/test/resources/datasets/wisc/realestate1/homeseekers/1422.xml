@@ -1,0 +1,49 @@
+<house_listing>
+<house_description>This single family home built in 1939 has 6 bedroom(s), 7 full
+bath(s)/2 half bath(s) , 2 car attached garage and approximately 8044
+square feet of living area. Rooms include den, family room, master
+bedroom. Features include view, private pool, private spa, patio, air
+conditioning, french doors.</house_description>
+
+<agent_name>Marjorie Oster</agent_name>
+<direct>305-233-2952</direct>
+<office>305-233-2952</office>
+<firm_name>Ideal Properties I
+Lic. Real Estate Broker</firm_name>
+<phone>305-233-2952</phone>
+<fax>305-254-4655</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$4,900,000</list_price>
+<location>92 La Gorce Cr</location>
+<neighborhood>La Gorce Island Pb 40-7</neighborhood>
+<mls>D903060</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>7(full) 2(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>8044 (approx)</square_feet>
+<lot_size>41 X</lot_size>
+<year_built>1939</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Intracoastal, Bay front, Water front</location>
+<patio>Patio</patio>
+<pool>Yes</pool>
+<rooms>Den, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Dishwasher, Foyer, French Doors, Garage Door Opener, OceanAccess, Outdoor Lights, Outdoor Shower, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1910 has 2 bedroom(s), 2 bath(s) and
+approximately 1351 square feet of living area.</house_description>
+
+<agent_name>Andrea Mcintire</agent_name>
+<direct>521-4521</direct>
+<office>303-695-0820</office>
+<firm_name>Cherry Creek East, L</firm_name>
+<phone>303-695-0820</phone>
+<fax>695-0679</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$366,000</list_price>
+<location>974 S Race St</location>
+<neighborhood>Washington Park</neighborhood>
+<mls>379161</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1351 (approx)</square_feet>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

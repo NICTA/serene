@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>240 ASHCRAFT LN</house_location>
+<price>$175,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>4 Cars None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>248668</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>GREG HICKS</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>EXCELLENT 3BR 2BA RANCH ON LAKE WMSTOWN. MATURE TREES ON NEARLY 2
+ACRES. BOAT DOCK W/2 ELEC LIFTS. NEW FURNACE. WATER PURIFICATION
+SYSTM. TWO PKING AREAS. COME SEE, ENJOY. YOU'LL LOVE IT. CALL GREG
+HICKS.REALTOR.COM.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Wellwater</water>
+<sewer>Septic</sewer>
+<lot_dimensions>200'LKFRT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 15</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 14</dimension><level>1</level></bedroom_3>
+<family><dimension>14 X 19</dimension><level>1</level></family>
+<kitchen><dimension>15 X 16</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 11</dimension><level>1</level></laundry>
+<living><dimension>15 X 24</dimension><level>1</level></living>
+<master><dimension>12 X 15</dimension><level>1</level></master>
+
+<directions>I-75S EXIT 159 L TO R US25S TO R HUMES RIDGE RD
+2 MI TO L ASHCRAFT LN</directions>
+</house_listing>
+
+
+

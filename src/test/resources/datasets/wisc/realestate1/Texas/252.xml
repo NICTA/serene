@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Lucille Williams Real Estate</name>
+<location>263 Live Oak (Hwy.7) Marlin, TX 76661</location>
+<office>(254)803-2518</office>
+<toll_free></toll_free>
+<fax>(254)803-5766</fax>
+<email>lswilliams@texnet.net</email>
+</firm_information>
+
+<agent_information>
+<name>Lucille Williams</name>
+<office>(254)803-2518</office>
+<fax>(254)803-5766</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>9442</id>
+<mls></mls>
+<house_location>1413 McClanahan Road
+Marlin, TEXAS 76661</house_location>
+<county>Falls</county>
+<price>$700,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>5</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>HIGHLANDS MANSION...An elegant Victorian Mansion built in 1900 is located 25 miles southeast of Waco.  You enter the4.5 landscaped acres through an arched gateway, down a lane lined with live oaks and pass a beautiful gazebo. Highlands boasts five elegant bedrooms, a spectacular dining room accented by &amp;quot;jeweled&amp;quot; leaded-stained-glass windows, nine ornate fireplaces and much more.  It also featuresa two story great hall that is crowned with a leaded glass dome that was imported from Italy at the turn of the century. </house_description>
+
+<school_district>Marlin</school_district>
+<approx_size_sqft>8400</approx_size_sqft>
+<approx_acres>4.5</approx_acres>
+<year_built>1900</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>9</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Registered Historic Texas Landmark</item>
+<item>Stained glass dome with gold leafing.</item>
+<item>English oak paneling.</item>
+<item>French architectural details.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1948 has 2 bedroom(s), 1 bath(s) and
+approximately 918 square feet of living area.</house_description>
+
+<agent_name>*Mike Brady*</agent_name>
+<direct>303-760-4800</direct>
+<office>303-422-1915</office>
+<firm_name>Realty Profiles Inc.</firm_name>
+<phone>303-422-1915</phone>
+<fax>303-456-6760</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$199,950</list_price>
+<location>1365 S Steele St</location>
+<neighborhood>Bonnie Brea,Alta Vista Merrill</neighborhood>
+<mls>350516</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>918 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Yanez</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>irene_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>10015</id>
+<mls></mls>
+<house_location>948 Maple Street
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$174,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A Central Texas' historic gem/this colonial beauty located at 948 Maple Street is immaculate and in excellent condition...Formal living, dining, oak wood flooring, kitchen w/stainless countertops, large den with many extras, large corner treed lot, wrought iron accents/patios, covered porches, 3 bedrooms, 2 baths upstairs and 1/2 bath downstairs, 2 car garage, attic, basement. Sellers will not sell home unless they have found another home to purchase.  Sellers will need approx. 30 to 45 days to vacate after closing.    Shown by appointment only! 5% comm</house_description>
+
+<move-in_date>11/8/99</move-in_date>
+<school_district>Lockhart</school_district>
+<approx_size_sqft>3009</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>105 x 210</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>OAK WOOD FLOORING</item>
+<item>LARGE CORNER/TREED LOT</item>
+<item>GARDEN ROOM</item>
+<item>SPRINKLER/ALARM SYSTEM</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

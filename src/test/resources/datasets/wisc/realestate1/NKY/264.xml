@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>10026 BRAXTON</house_location>
+<price>$172,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>LOT #47</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249801</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>K Y BUDDE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM*THIS 3 BEDRM 2.5 BATHS 2 STORY OFFERS A LARGE MASTER
+W/ULTRA BATH * SPACIOUS WALK IN CLOSET &amp; OVERSIZED 2 &amp; 3 BEDRS *
+KITCHEN FEATURES WOOD CAB,ISLAND &amp; WALKOUT*MODEL OPEN SAT/SUN
+2-4PM(9089 BRAXTON) 525-5787</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 9</dimension><level>1</level></dining>
+<family><dimension>16 X 15</dimension><level>1</level></family>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>1</level></laundry>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>2</level></master>
+
+<directions>I-75 SO FLORENCE/UNION EXIT SOUTH ON US42 LEFT
+ON BRAXTON*1ST RD LEFT PAST KROGER'S</directions>
+</house_listing>
+
+
+

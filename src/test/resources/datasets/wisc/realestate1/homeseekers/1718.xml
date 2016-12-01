@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1971 has 4 bedroom(s), 2
+bath(s) and approximately 2848 square feet of living area. Rooms
+include dining room, master bedroom. Features include private pool,
+patio, fireplace, storage space.</house_description>
+
+<agent_name>Donna Gallagher</agent_name>
+<direct>520-419-0713</direct>
+<office>520-745-4545</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-745-4545</phone>
+<fax>520-747-5462</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$262,000</list_price>
+<location>17280 S Camino De Las Quintas</location>
+<mls>9912390</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2848 (approx)</square_feet>
+<lot_size>125X627X444X540</lot_size>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Screened-in</patio>
+<pool>Above ground</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

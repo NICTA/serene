@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heritage</name>
+<location>4675 Sweetwater Sugar Land, TX 77479</location>
+<office>(281)265-7355</office>
+<toll_free>(800)839-2799</toll_free>
+<fax>(281)265-7370</fax>
+<voice_mail>(281)630-7355</voice_mail>
+<email>remaxtx@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Anita Hochstein</name>
+<office>(281)265-7355</office>
+<fax>(281)265-7370</fax>
+<voice_mail>(281)630-7355</voice_mail>
+<mobile>(281)630-7355</mobile>
+<email>anitahouse @ aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12455</id>
+<mls>142863</mls>
+<house_location>21 Linney
+Sugar Land, TEXAS 77479</house_location>
+<county>Fort Bend</county>
+<price>$535,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Murray Millis custom- modern contemp with open feel all rooms lookin on to center pool sized yard, Open family room- kitchen area, seperate- media room sunken marble dining at entry off dramatic marble foyer.</house_description>
+
+<school_district>Fort Bend</school_district>
+<sub-division>Sweetwater</sub-division>
+<approx_size_sqft>4108</approx_size_sqft>
+<stories>2</stories>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>2</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Area Pool</item>
+<item>Marble Foyer</item>
+<item>Fully Fenced</item>
+<item>Patio</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

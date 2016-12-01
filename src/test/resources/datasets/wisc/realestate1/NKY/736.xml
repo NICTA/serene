@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>1804 S BUCKS RUN</house_location>
+<price>$330,500</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>0</suburb>
+<school_dist>CARROLL COU</school_dist>
+<mls>245704</mls>
+<house_type>Single Family</house_type>
+<firm>TRIMAX REAL ESTATE</firm>
+<firm_phone>(606) 643-3242</firm_phone>
+<agent>LINDA MAXWELL</agent>
+<agent_phone>(606) 643-3242</agent_phone>
+<house_description>EXQUISITE CUSTOM BUILT CAPE COD BY 'MAX-WELL BUILT'..NOW UNDER
+CONSTRUCTIO N!! TOO MANY FABULOUS UPGRADES TO MENTION! BEAUTIFUL
+COUNTRY SETTING ON SP RAWLING 10 ACRES..JUST MINUTES TO U.S.42 &amp; THE
+SCENIC OHIO RIVER...</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>12 X 14</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 14</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 14</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>14 X 14</dimension><level>2</level></bedroom_5>
+<family><dimension>20 X 14</dimension><level>1</level></family>
+<kitchen><dimension>20 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>28 X 12</dimension><level>1</level></laundry>
+<living><dimension>28 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 14</dimension><level>1</level></master>
+
+<directions>U.S.42 TO GHENT, L ON 47 1.3 MI.R ON 1112 2
+MILES ON RT..SEE SIGN...</directions>
+</house_listing>
+
+
+

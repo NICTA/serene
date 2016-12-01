@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Schiavone</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-3568</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17193</id>
+<mls>501243</mls>
+<house_location>5141 PINE CANYON DR
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$159,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>CANYON RT 1 MI ON RT HOME IS SET BACK IN A LUSH SETTING OF TREES.   GARY SWIMMING POOL JACUZZI WITH A GAZEBO OUT DOOR SHOWER.  THIS FABULOUS HOME HAS CEDAR BEAMS AND WALLS WITH LOTS OF WINDOWS FOR VIEW AND LIGHT.  WORKSHOP-BARN-STOR</house_description>
+
+<school_district>Smithville</school_district>
+<stories>2</stories>
+<approx_acres>7.09</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

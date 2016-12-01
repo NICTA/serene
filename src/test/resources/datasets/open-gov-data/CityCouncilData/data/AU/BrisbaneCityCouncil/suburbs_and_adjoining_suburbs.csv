@@ -1,0 +1,393 @@
+id,Suburb,Adjoining Suburb
+1,Albion,Clayfield
+2,Albion,Ascot
+3,Albion,Hamilton
+4,Albion,Newstead
+5,Albion,Bowen Hills
+6,Albion,Windsor
+7,Albion,Wooloowin
+8,Alderley,Stafford
+9,Alderley,Ashgrove
+10,Alderley,Enoggera
+11,Alderley,Grange
+12,Alderley,Newmarket
+13,Annerley,Dutton Park
+14,Annerley,Moorooka
+15,Annerley,Yeronga
+16,Annerley,Moorooka
+17,Annerley,Woolloongabba
+18,Annerley,Woolloongabba
+19,Annerley,Greenslopes
+20,Annerley,Fairfield
+21,Annerley,Yeronga
+22,Annerley,Fairfield
+23,Ascot,Hamilton
+24,Ascot,Hendra
+25,Ascot,Clayfield
+26,Ascot,Albion
+27,Ashgrove,Enoggera
+28,Ashgrove,The Gap
+29,Ashgrove,Bardon
+30,Ashgrove,Red Hill
+31,Ashgrove,Newmarket
+32,Ashgrove,Alderley
+33,Aspley,Chermside
+34,Aspley,Geebung
+35,Aspley,Zillmere
+36,Aspley,Chermside West
+37,Aspley,Carseldine
+38,Auchenflower,Bardon
+39,Auchenflower,Toowong
+40,Bald Hills,Bracken Ridge
+41,Bald Hills,Carseldine
+42,Bald Hills,Brighton
+43,Banyo,Virginia
+44,Banyo,Northgate
+45,Banyo,Boondall
+46,Bardon,Red Hill
+47,Bardon,Ashgrove
+48,Bardon,Auchenflower
+49,Bardon,The Gap
+50,Bardon,Toowong
+51,Boondall,Virginia
+52,Boondall,Geebung
+53,Boondall,Zillmere
+54,Boondall,Deagon
+55,Boondall,Shorncliffe
+56,Boondall,Banyo
+57,Bowen Hills,Newstead
+58,Bowen Hills,Fortitude Valley
+59,Bowen Hills,Windsor
+60,Bowen Hills,Albion
+61,Bowen Hills,Albion
+62,Bowen Hills,Fortitude Valley
+63,Bowen Hills,Windsor
+64,Bowen Hills,Newstead
+65,Bracken Ridge,Bald Hills
+66,Bracken Ridge,Brighton
+67,Bracken Ridge,Sandgate
+68,Bracken Ridge,Deagon
+69,Brighton,Bracken Ridge
+70,Brighton,Bald Hills
+71,Brighton,Sandgate
+72,Brookfield,Kenmore
+73,Brookfield,Pullenvale
+74,Calamvale,Sunnybank Hills
+75,Camp Hill,Carina
+76,Camp Hill,Norman Park
+77,Camp Hill,Carina
+78,Camp Hill,Norman Park
+79,Camp Hill,Coorparoo
+80,Camp Hill,Coorparoo
+81,Camp Hill,Carina
+82,Camp Hill,Norman Park
+83,Camp Hill,Coorparoo
+84,Cannon Hill,Carina
+85,Cannon Hill,Tingalpa
+86,Cannon Hill,Morningside
+87,Capalaba West,Chandler
+88,Carina,Camp Hill
+89,Carina,Cannon Hill
+90,Carina,Carindale
+91,Carindale,Carina
+92,Carindale,Mansfield
+93,Carseldine,Aspley
+94,Carseldine,Zillmere
+95,Carseldine,Bald Hills
+96,Chandler,Capalaba West
+97,Chelmer,Indooroopilly
+98,Chelmer,Graceville
+99,Chermside,Geebung
+100,Chermside,Aspley
+101,Chermside,Chermside West
+102,Chermside West,Chermside
+103,Chermside West,Aspley
+104,City (Brisbane CBD),Spring Hill
+105,City (Brisbane CBD),South Brisbane
+106,City (Brisbane CBD),South Bank
+107,City (Brisbane CBD),Milton
+108,City (Brisbane CBD),Fortitude Valley
+109,Clayfield,Hendra
+110,Clayfield,Ascot
+111,Clayfield,Albion
+112,Clayfield,Wooloowin
+113,Clayfield,Nundah
+114,Coorparoo,Norman Park
+115,Coorparoo,Holland Park
+116,Coorparoo,Greenslopes
+117,Coorparoo,East Brisbane
+118,Coorparoo,Woolloongabba
+119,Coorparoo,Camp Hill
+120,Coorparoo,Greenslopes
+121,Coorparoo,Camp Hill
+122,Coorparoo,Woolloongabba
+123,Coorparoo,East Brisbane
+124,Coorparoo,Norman Park
+125,Coorparoo,Holland Park
+126,Corinda,Sherwood
+127,Corinda,Rocklea
+128,Corinda,Oxley
+129,Corinda,Sherwood
+130,Corinda,Rocklea
+131,Corinda,Oxley
+132,Deagon,Sandgate
+133,Deagon,Bracken Ridge
+134,Deagon,Boondall
+135,Dutton Park,Fairfield
+136,East Brisbane,Coorparoo
+137,East Brisbane,Norman Park
+138,East Brisbane,Kangaroo Point
+139,East Brisbane,Woolloongabba
+140,Eight Mile Plains,Wishart
+141,Eight Mile Plains,Macgregor
+142,Eight Mile Plains,Sunnybank
+143,Enoggera,Keperra
+144,Enoggera,Mitchelton
+145,Enoggera,Everton Park
+146,Enoggera,Alderley
+147,Enoggera,Ashgrove
+148,Enoggera,The Gap
+149,Everton Park,Enoggera
+150,Everton Park,Stafford
+151,Everton Park,Mitchelton
+152,Everton Park,Enoggera
+153,Everton Park,Stafford
+154,Everton Park,Mitchelton
+155,Fairfield,Dutton Park
+156,Fairfield,Yeronga
+157,Fairfield,Annerley
+158,Ferny Grove,Keperra
+159,Fig Tree Pocket,Indooroopilly
+160,Fig Tree Pocket,Kenmore
+161,Fortitude Valley,City (Brisbane CBD)
+162,Fortitude Valley,Spring Hill
+163,Fortitude Valley,Bowen Hills
+164,Fortitude Valley,New Farm
+165,Fortitude Valley,Newstead
+166,Geebung,Zillmere
+167,Geebung,Aspley
+168,Geebung,Chermside
+169,Geebung,Boondall
+170,Geebung,Virginia
+171,Graceville,Sherwood
+172,Graceville,Chelmer
+173,Grange,Windsor
+174,Grange,Lutwyche
+175,Grange,Stafford
+176,Grange,Newmarket
+177,Grange,Alderley
+178,Greenslopes,Annerley
+179,Greenslopes,Holland Park
+180,Greenslopes,Coorparoo
+181,Greenslopes,Woolloongabba
+182,Hamilton,Ascot
+183,Hamilton,Albion
+184,Hemmant,Tingalpa
+185,Hendra,Ascot
+186,Hendra,Nundah
+187,Hendra,Clayfield
+188,Holland Park,Coorparoo
+189,Holland Park,Mt Gravatt
+190,Holland Park,Greenslopes
+191,Holland Park,Camp Hill
+192,Holland Park,Greenslopes
+193,Holland Park,Coorparoo
+194,Inala,Oxley
+195,Inala,Oxley
+196,Indooroopilly,Fig Tree Pocket
+197,Indooroopilly,Chelmer
+198,Indooroopilly,Taringa
+199,Indooroopilly,St Lucia
+200,Jindalee,Mt Ommaney
+201,Kangaroo Point,South Brisbane
+202,Kangaroo Point,Woolloongabba
+203,Kangaroo Point,East Brisbane
+204,Kelvin Grove,Newmarket
+205,Kelvin Grove,Red Hill
+206,Kelvin Grove,Red Hill
+207,Kelvin Grove,Spring Hill
+208,Kelvin Grove,Newmarket
+209,Kelvin Grove,Spring Hill
+210,Kelvin Grove,City (Brisbane CBD)
+211,Kenmore,Brookfield
+212,Keperra,Mitchelton
+213,Keperra,Enoggera
+214,Keperra,The Gap
+215,Keperra,Ferny Grove
+216,Lota,Manly
+217,Lutwyche,Windsor
+218,Lutwyche,Grange
+219,Lutwyche,Albion
+220,Lutwyche,Albion
+221,Lutwyche,Wooloowin
+222,Lutwyche,Grange
+223,Lutwyche,Wooloowin
+224,Lutwyche,Windsor
+225,Macgregor,Sunnybank
+226,Macgregor,Robertson
+227,Macgregor,Nathan
+228,Macgregor,Eight Mile Plains
+229,Macgregor,Upper Mt Gravatt
+230,Manly,Lota
+231,Manly,Wynnum
+232,Mansfield,Wishart
+233,Mansfield,Carindale
+234,Mansfield,Carindale
+235,Mansfield,Wishart
+236,Middle Park,Mt Ommaney
+237,Milton,Auchenflower
+238,Milton,City (Brisbane CBD)
+239,Milton,Auchenflower
+240,Milton,City (Brisbane CBD)
+241,Mitchelton,Keperra
+242,Mitchelton,Enoggera
+243,Mitchelton,Everton Park
+244,Moorooka,Rocklea
+245,Moorooka,Salisbury
+246,Moorooka,Annerley
+247,Morningside,Norman Park
+248,Morningside,Cannon Hill
+249,Nathan,Salisbury
+250,Nathan,Upper Mt Gravatt
+251,Nathan,Macgregor
+252,Nathan,Robertson
+253,Nathan,Mt Gravatt
+254,New Farm,Fortitude Valley
+255,New Farm,Newstead
+256,Newmarket,Kelvin Grove
+257,Newmarket,Grange
+258,Newmarket,Red Hill
+259,Newmarket,Ashgrove
+260,Newmarket,Ashgrove
+261,Newmarket,Kelvin Grove
+262,Newmarket,Red Hill
+263,Newmarket,Alderley
+264,Newmarket,Grange
+265,Newmarket,Alderley
+266,Newstead,Fortitude Valley
+267,Newstead,Bowen Hills
+268,Newstead,Albion
+269,Newstead,New Farm
+270,Newstead,Fortitude Valley
+271,Newstead,Bowen Hills
+272,Newstead,Albion
+273,Newstead,New Farm
+274,Norman Park,Coorparoo
+275,Norman Park,East Brisbane
+276,Norman Park,Camp Hill
+277,Norman Park,Morningside
+278,Northgate,Banyo
+279,Northgate,Virginia
+280,Northgate,Nundah
+281,Nundah,Clayfield
+282,Nundah,Hendra
+283,Nundah,Wooloowin
+284,Nundah,Northgate
+285,Oxley,Inala
+286,Oxley,Rocklea
+287,Oxley,Corinda
+288,Paddington,Red Hill
+289,Paddington,Bardon
+290,Paddington,Auchenflower
+291,Paddington,City (Brisbane CBD)
+292,Pullenvale,Brookfield
+293,Red Hill,Bardon
+294,Red Hill,Ashgrove
+295,Red Hill,Kelvin Grove
+296,Robertson,Nathan
+297,Robertson,Sunnybank
+298,Robertson,Macgregor
+299,Rocklea,Oxley
+300,Rocklea,Corinda
+301,Rocklea,Moorooka
+302,Rocklea,Salisbury
+303,Salisbury,Nathan
+304,Salisbury,Rocklea
+305,Salisbury,Moorooka
+306,Sandgate,Shorncliffe
+307,Sandgate,Deagon
+308,Sandgate,Bracken Ridge
+309,Sandgate,Brighton
+310,Seventeen Mile Rocks,Corinda
+311,Seventeen Mile Rocks,Oxley
+312,Seventeen Mile Rocks,Jindalee
+313,Sherwood,Corinda
+314,Sherwood,Rocklea
+315,Sherwood,Graceville
+316,Shorncliffe,Sandgate
+317,Shorncliffe,Boondall
+318,South Brisbane,City (Brisbane CBD)
+319,South Brisbane,South Bank
+320,South Brisbane,Milton
+321,South Brisbane,West End
+322,Spring Hill,Fortitude Valley
+323,Spring Hill,City (Brisbane CBD)
+324,Spring Hill,Kelvin Grove
+325,St Lucia,Taringa
+326,St Lucia,Toowong
+327,St Lucia,Indooroopilly
+328,Stafford,Everton Park
+329,Stafford,Grange
+330,Stafford,Alderley
+331,Sunnybank,Robertson
+332,Sunnybank,Macgregor
+333,Sunnybank,Eight Mile Plains
+334,Sunnybank,Sunnybank Hills
+335,Sunnybank Hills,Calamvale
+336,Sunnybank Hills,Sunnybank
+337,Taigum,Deagon
+338,Taigum,Zillmere
+339,Taigum,Boondall
+340,Taigum,Carseldine
+341,Taringa,Toowong
+342,Taringa,Indooroopilly
+343,Taringa,St Lucia
+344,Taringa,Toowong
+345,Taringa,Indooroopilly
+346,Taringa,St Lucia
+347,The Gap,Ashgrove
+348,The Gap,Bardon
+349,The Gap,Enoggera
+350,The Gap,Keperra
+351,Tingalpa,Hemmant
+352,Tingalpa,Cannon Hill
+353,Toombul,Hendra
+354,Toombul,Clayfield
+355,Toombul,Nundah
+356,Toowong,Taringa
+357,Toowong,Bardon
+358,Toowong,Auchenflower
+359,Upper Mt Gravatt,Macgregor
+360,Upper Mt Gravatt,Wishart
+361,Virginia,Boondall
+362,Virginia,Banyo
+363,Virginia,Northgate
+364,Virginia,Geebung
+365,West End,South Brisbane
+366,Windsor,Lutwyche
+367,Windsor,Bowen Hills
+368,Windsor,Albion
+369,Wishart,Upper Mt Gravatt
+370,Wishart,Eight Mile Plains
+371,Wishart,Mansfield
+372,Woolloongabba,East Brisbane
+373,Woolloongabba,Kangaroo Point
+374,Woolloongabba,South Brisbane
+375,Woolloongabba,Dutton Park
+376,Woolloongabba,Greenslopes
+377,Woolloongabba,Coorparoo
+378,Woolloongabba,Annerley
+379,Wooloowin,Lutwyche
+380,Wooloowin,Albion
+381,Wooloowin,Nundah
+382,Wooloowin,Clayfield
+383,Wynnum,Manly
+384,Wynnum West,Wynnum
+385,Wynnum West,Hemmant
+386,Wynnum West,Manly
+387,Yeronga,Annerley
+388,Yeronga,Fairfield
+389,Zillmere,Boondall
+390,Zillmere,Geebung
+391,Zillmere,Aspley
+392,Zillmere,Carseldine

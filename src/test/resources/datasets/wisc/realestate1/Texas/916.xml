@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Pam Drawbaugh</name>
+<office>(512)834-6067</office>
+<fax>(512)834-2234</fax>
+<email>pam@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21111</id>
+<mls>526756</mls>
+<house_location>2705 Chert Cove
+Round Rock, TEXAS 78681</house_location>
+<county>Williamson</county>
+<price>$349,096</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>4</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>5</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>3967 Sq. Ft. per Appr. Measurement. Workshop! Covered Patio &amp; Arbor! Large Hot Tub! Wonderful Landscaped Property! Cul-de-sac Lot! Upstairs Living with Bedroom Used as Art Studio!</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Brushy Creek North</sub-division>
+<approx_size_sqft>3967</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.50</approx_lot_size>
+<approx_acres>0.5</approx_acres>
+<year_built>1979</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+
+<highlights>
+<item>Need Space? This property has it all!</item>
+<item>4 possible 5 Bedrooms! 4 Living!</item>
+<item>4.5 Baths! Tons of Storage!</item>
+<item>Bring the Family &amp; Pets!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

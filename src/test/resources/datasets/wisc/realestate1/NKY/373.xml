@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>8183 N DILCREST CIR</house_location>
+<price>$179,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249863</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA SONDGERATH</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>FRESH FLR PLAN! NOT A COOKIE CUTTER PLAN! 2STY GRT RM W/ BONUS LOFT!
+EAT-IN KIT, MSTR SUITE &amp; GUEST SUITE, FULL LL W/ WLKOUT &amp; ROUGH IN FOR
+BA &amp; WET BAR. SEE INSIDE PIX-NKYHOMESONLINE.COMCBWS.COM &amp; NKYMLS.COM</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Insert</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>2</level></bath_4>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 11</dimension><level>2</level></bedroom_4>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>21 X 13</dimension><level>1</level></family>
+<kitchen><dimension>13 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 6</dimension><level>1</level></laundry>
+<master><dimension>14 X 13</dimension><level>2</level></master>
+<recreation_room><dimension>8 X 6</dimension><level>2</level></recreation_room>
+<study><dimension>12 X 12</dimension><level>1</level></study>
+
+<directions>S75 TO MALL RD EXIT L-MALL RD TURNS INTO
+DILCREST L-N DILCREST</directions>
+</house_listing>
+
+
+

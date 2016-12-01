@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This single family home built in 1934 has 10 bedroom(s), 7 bath(s) , 2
+car detached garage and approximately 7328 square feet of living area.
+Rooms include den, dining room, master bedroom. Features include view,
+private pool, air conditioning, french doors, satellite dish.</house_description>
+
+<agent_name>Farouk Gongee</agent_name>
+<direct>305-535-4167</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$2,695,000</list_price>
+<location>1350 W 29 St</location>
+<neighborhood>Sunset Lake Amd</neighborhood>
+<mls>M728554</mls>
+<status>Active</status>
+<bedrooms>10</bedrooms>
+<baths>7</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>7328 (approx)</square_feet>
+<lot_size>110 X 196</lot_size>
+<year_built>1934</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Electric</heating>
+<location>Bay front, Water front</location>
+<patio>Deck, Open Porch</patio>
+<pool>Yes</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<view>Pool View, Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Cathedral/Vaulted Ceilings, Dishwasher, Fenced, Foyer, FrenchDoors, Kitchen Island, Outdoor Lights, Satellite Dish, TrashCompacter, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

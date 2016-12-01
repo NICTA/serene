@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1920 has 2
+bedroom(s), 1 bath(s) and approximately 858 square feet of living
+area. Rooms include dining room. Features include air conditioning.</house_description>
+
+<agent_name>Miriam Escobar</agent_name>
+<direct>213-729-0723</direct>
+<office>323-888-0011</office>
+<firm_name>Avcorp Realty</firm_name>
+<phone>323-888-0011</phone>
+<fax>323-888-0760</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$109,900</list_price>
+<location>1008 W 17Th St</location>
+<mls>M904874</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>858 (approx)</square_feet>
+<year_built>1920</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

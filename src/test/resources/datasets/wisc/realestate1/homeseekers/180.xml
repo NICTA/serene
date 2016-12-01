@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This condominium built in 1966 has ? bedroom(s), 1 bath(s) and
+approximately 370 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Marsh Ferreira</agent_name>
+<direct>954-371-1619</direct>
+<office>954-442-2444</office>
+<firm_name>M A F Realty
+Lic. Real Estate Broker</firm_name>
+<phone>954-442-2444</phone>
+<fax>954-442-1444</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$45,000</list_price>
+<location>5445 Collins Av #404</location>
+<neighborhood>Castle Beach Club Condo D</neighborhood>
+<mls>F253047</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>370 (approx)</square_feet>
+<year_built>1966</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

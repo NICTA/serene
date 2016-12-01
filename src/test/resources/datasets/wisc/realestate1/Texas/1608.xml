@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Mark Fox Real Estate</name>
+<location>907 Hwy 281 Marble Falls, TX</location>
+<office>(830)693-8884</office>
+<toll_free></toll_free>
+<fax>(830)693-6619</fax>
+<email>markfox@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Klaeger</name>
+<office>(830)693-8884</office>
+<fax>(830)693-6619</fax>
+<email>markfox@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>10655</id>
+<mls>49377</mls>
+<house_location>1205 Sunset Drive
+Marble Falls, TEXAS</house_location>
+<county>Burnet</county>
+<price>$99,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>Great home.  New paint exterior and new sprinkler system. 1997 repainted inside and replaced carpet and tile. Within walking distance to primary and middle schools.</house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Patio,workshop, outbuildings,</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

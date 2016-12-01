@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 1 level detached single family home has 2 bedroom(s), 2 bath(s) ,
+1 car garage and approximately 1600 square feet of living area. Rooms
+include dining room, living room, master bedroom. Features include
+view.</house_description>
+
+<agent_name>Cindy Wing</agent_name>
+<direct>619-223-9464</direct>
+<office>619-222-0555</office>
+<firm_name>Prudential California Realty Prudential California Realty</firm_name>
+<phone>619-222-0555</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$509,000</list_price>
+<location>San Diego, CA 92107</location>
+<mls>00 6000411</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>1600 (approx)</square_feet>
+<lot_size>7000</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<view>Ocean View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>114 LAKE PARK DR</house_location>
+<price>$195,000</price>
+<rooms>11</rooms>
+<bedrooms>5</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>247942</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>CATHY WECKER</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>LOTS TO LOVE IN THIS IMMACULATE 11 ROOM HOME IN A GREAT NEIGHBORHOOD!
+5 BDRM; 3 FULL &amp; 1 HALF BATHS; 2 STORY ENTRY W/CERAMIC TILE; TRAYED
+CEIL. IN DIN RM; SUNKEN FAM RM WITH W/B BRICK FP; CATH CEILING IN
+MASTER SUITE.</house_description>
+<construction>Brick,Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 11</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>8 X 10</dimension><level>2</level></bedroom_5>
+<breakfast><dimension>8 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>10 X 13</dimension><level>1</level></dining>
+<family><dimension>15 X 18</dimension><level>1</level></family>
+<kitchen><dimension>8 X 11</dimension><level>1</level></kitchen>
+<living><dimension>12 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>2</level></master>
+<study><dimension>15 X 17</dimension><level>L</level></study>
+
+<directions>S ON US 27; LEFT (EAST) ON HWY 10; LEFT ON
+STILLWATER; LEFT ON LAKE PARK</directions>
+</house_listing>
+
+
+

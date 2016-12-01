@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This attached single family home built in 1907 has 2 bedroom(s), 2
+bath(s) and approximately 1075 square feet of living area.</house_description>
+
+<agent_name>Jeffrey Meythaler</agent_name>
+<direct>303-520-0086</direct>
+<office>303-837-1128</office>
+<firm_name>Midtown Real Propert</firm_name>
+<phone>303-837-1128</phone>
+<fax>303-832-5228</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$124,900</list_price>
+<location>2522 W 33Rd Av</location>
+<neighborhood>Highland</neighborhood>
+<mls>379441</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1075 (approx)</square_feet>
+<year_built>1907</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

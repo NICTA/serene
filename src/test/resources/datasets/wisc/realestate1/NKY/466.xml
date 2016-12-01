@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>2506 BRIDGESTONE</house_location>
+<price>$189,800</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Rear,Oversized)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249610</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JANE ASHCRAFT-WEST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>YOU MUST SEE THIS SPECTACULAR HOME!9FT CEILINGS/CATH. CEIL. IN GREAT
+RM./ ISLAND/CHERRY CABINETRY/CUSTOM WINDOW
+TREATMENTS/SKYLIGHT/DESIGNER BATH/ BREAKFAST BAY W/DOOR/16X12
+DECK/WALKOUT BASEMENT/LOW COUNTY TAX/&amp; MORE!</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>see below</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>21</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 10</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>13 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>25 X 20</dimension><level>1</level></family>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 8</dimension><level></level></laundry>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>2</level></master>
+
+<directions>CAMP ERNST TO ROGERS TO HANOVER PARK TO R ON
+SIERRA TRAIL TO R ON BRIDGESTONE</directions>
+</house_listing>
+
+
+

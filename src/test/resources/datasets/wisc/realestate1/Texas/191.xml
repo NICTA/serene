@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jessica Shaw</name>
+<office>(830)303-4472</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19052</id>
+<mls>11058</mls>
+<house_location>610 3 Oaks
+Seguin, TEXAS 78155</house_location>
+<county>Guadalupe</county>
+<price>$249,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Two bedrooms overlooking Lake Mcqueeney have nice size sitting rooms. Glass doors to seperate patios, very quiet neighborhood, mature trees. Home did not flood in Oct. 1998. For a private showing call Jessica Shaw, Abr, Gri at (830) 303-4472 or (830) 305-0909</house_description>
+
+<move-in_date>9/8/99</move-in_date>
+<school_district>Navarro</school_district>
+<approx_size_sqft>2000</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>.659 Acres</approx_lot_size>
+<master_bedroom>Upstairs</master_bedroom>
+<waterfront>Yes</waterfront>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Great Waterfront Property on</item>
+<item>Lake McQueeny</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

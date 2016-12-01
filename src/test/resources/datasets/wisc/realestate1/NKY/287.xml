@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>776 BRITTANY TRAIL</house_location>
+<price>$236,000</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side,Oversized)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249591</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>JERRY CLENDENIN</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * FINISHED LOWER LEVEL W/WALKOUT-1 ROOM POSSIBLE 5TH
+BEDRM OR STUDY * NATURAL WOODWORK &amp; WOOD 6 PANEL DOORS 1ST FLR *
+INGROUND POOL WITH PRIVACY FENCE *</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>15 X 11</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>10 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 12</dimension><level>1</level></dining>
+<family><dimension>18 X 15</dimension><level>1</level></family>
+<kitchen><dimension>12 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 8</dimension><level>1</level></laundry>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>17 X 14</dimension><level>2</level></master>
+
+<directions>S ON I-75 TO MT ZION EXIT TO R MT ZION L ON
+TIBURON R ON BRITTANY</directions>
+</house_listing>
+
+
+

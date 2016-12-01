@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>4211 CHURCH</house_location>
+<price>$79,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248196</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>RUTH THOMAS</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>NEAT AND CLEAN-FRESHLY PAINTED INSIDE AND OUT LARGE ROOMS W/LOTS OF
+LARGE CLOSETS. EAT-IN KITCHEN W/WOOD CABINETS-RANGE &amp; REFRIGERATOR -
+LARGE DINING ROOM 1ST FLOOR BEDROOM &amp; BATH-FULL BASEMENT W/1 CAR
+GARAGE</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>35 x 90</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>9 X 13</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<living><dimension>12 X 15</dimension><level>1</level></living>
+<master><dimension>10 X 11</dimension><level>1</level></master>
+
+<directions>WINSTON AVENUE TO CHURCH-FIREPLACE IN LR HAS NOT
+BEEN USED BY THESE OWNERS OF 14YR</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>84 TANDO WAY</house_location>
+<price>$110,800</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248099</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>REBECCA BRANDT</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>UNIQUE SPLIT BEDROOM FLOOR PLAN, CATHEDRAL CEILING, S-BAY BREAKFAST
+AREA, STAINED WOODWORK, 2-10 WARRANTY, 25 YEAR SHINGLE.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65 x 120</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 8</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>11 X 8</dimension><level>U</level></bedroom_3>
+<family><dimension>27 X 13</dimension><level>L</level></family>
+<kitchen><dimension>11 X 10</dimension><level>U</level></kitchen>
+<laundry><dimension>10 X 9</dimension><level>L</level></laundry>
+<living><dimension>16 X 12</dimension><level>U</level></living>
+<master><dimension>13 X 11</dimension><level>U</level></master>
+
+<directions>275 S KY 17 EXIT S-L ON HANDS, R ON CUM- BERLAND
+RDG (OTTER) TO R ON TANDO WAY</directions>
+</house_listing>
+
+
+

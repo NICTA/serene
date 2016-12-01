@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>313 HIGHWAY 467</house_location>
+<price>$79,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Detached,Oversized,Carport)</garage>
+<suburb>SANDERS</suburb>
+<school_dist>CARROLL</school_dist>
+<mls>248694</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>DEBORAH P WRIGHT</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>CHARMING, SPACIOUS RANCH IN THE COUNTRY. GREAT LOCATION JUST 30 MIN.
+TO FLORENCE. THIS IS NOT A DOUBLEWIDE! NICE DECOR, NEW WINDOWS,
+EXTRAS. FLAT YARD HAS CARPORT, LANDSCAPING, SHED, PLAYHOUSE, DECKS, &amp;
+MUCH MORE!</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Gas</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>100 X 200</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>1</level></bedroom_3>
+<dining><dimension></dimension><level>1</level></dining>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>I-71 S X57 L ON HY 35, R AT CAUTION LT HOUSE 1.5
+MI ON R</directions>
+</house_listing>
+
+
+

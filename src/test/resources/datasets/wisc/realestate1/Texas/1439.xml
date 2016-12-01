@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sonny Mobley</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>sonny@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20189</id>
+<mls>54170</mls>
+<house_location>17-T-2 APPLEHEAD ISLAND
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$769,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>CONTRACT PENDING.  Applehead Island Waterfront &amp;quot;Must See&amp;quot;.  Only six months old.  Two story stucco with tile roof.  Jet ski ramp, fishing pier, day dock, boat dock with lift.  Retaining wall.  Lake pump.  Ceiling fans and insulated windows.  Refrigerator, washer, and dryer convey.  Ice maker, wet bar, water softener,  oven, range, microwave.  Patio and deck.  Formal and informal dining.  Security system.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Applehead Island</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>PRESTIGIOUS APPLEHEAD ISLAND WATERFRONT</item>
+<item>ALMOST NEW</item>
+<item>ALL THE BELLS AND WHISTLES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>219 EAGLE TUNNEL</house_location>
+<price>$89,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>GLENCOE</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>247414</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>MARY LOU GILBERT</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>DOUBLE WIDE ON 2.25 ACRES , NICE AREA, LOTS OF COUNTRY</house_description>
+<construction>Cedar</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 17</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 6</dimension><level>1</level></laundry>
+<living><dimension>13 X 17</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>71S TO EX 62 L TO 127 L ON 455,TO RT16, 4-5 MI
+TO R ON EAGLE TUNNEL TO HOME</directions>
+</house_listing>
+
+
+

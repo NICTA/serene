@@ -1,0 +1,45 @@
+<house_listing>
+<price>$675,000</price>
+<mls_id_number>2291018</mls_id_number>
+<city>Sandpoint</city>
+<st>ID</st>
+<bedrooms>3</bedrooms>
+<bathrooms>3.50</bathrooms>
+<sqft>4900</sqft>
+<year_built>1985</year_built>
+<heat>Forced air natural gas</heat>
+<ac>Central air</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>Tile</roof>
+<garage>Attached</garage>
+<lot_size>4.00        Acres</lot_size>
+<lot_description>Treed, private with gated entrance</lot_description>
+<fireplace>2</fireplace>
+<taxes>$3,481</taxes>
+<floors>3</floors>
+<interior>High ceilings, open floor plan</interior>
+<exterior>Stucco</exterior>
+<site>Beautifully landscaped, large courtyard</site>
+</amenities>
+<schools><elementary>Washington</elementary>
+<middle_school>Sandpoint</middle_school>
+<high_school>Sandpoint</high_school>
+</schools>
+<comments>This elegant European-style contemporary home is just 3 miles from town on a very private 4.67 acres.  A gated entrance, lavish stucco exterior and tile roof, high ceilings, gourmet kitchen and beautiful courtyard patio are just a few of the quality features of this extraordinary North Idaho home. Furniture package also available.</comments>
+<for_more_information_contact>
+<agent_name>Ed Ostrom</agent_name>
+<firm_name>Windermere Real Estate / Idaho First Realty</firm_name>
+<firm_location>212 N. First St. Suite 100
+Sandpoint, ID</firm_location>
+<office_phone>208-263-8400</office_phone>
+<fax>208-265-6328</fax>
+<cell_phone>208-661-9091</cell_phone>
+<e-mail>edostrom@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

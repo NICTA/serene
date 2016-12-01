@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Landmasters Real Estate</name>
+<location>101 Sunrise Drive Sunrise Beach, TX 78643</location>
+<office>(915)388-4555</office>
+<toll_free>(800)306-8629</toll_free>
+<fax>(915)388-3946</fax>
+<email>landmstr@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joe Danna</name>
+<office>(915)388-4555</office>
+<fax>(915)388-3946</fax>
+<email>LANDMSTR@TSTAR.NET</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19253</id>
+<mls>52272</mls>
+<house_location>520 East Lakeshore Drive
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$249,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>Wonderful home in Jody&amp;#8217;s Landing, Sunrise Beach, on one of the best channel lots around.  Very nice waterside yard, sturdy boathouse, patio on the water, RV port, workshop and fenced yard.</house_description>
+
+<school_district>Llano</school_district>
+<approx_size_sqft>2200</approx_size_sqft>
+<approx_lot_size>108 x 300</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

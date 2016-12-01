@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1928 has 4 bedroom(s), 3 bath(s) , 1
+car garage. Rooms include dining room, master bedroom. Features
+include fireplace.</house_description>
+
+<agent_name>Mark Antonowsky</agent_name>
+<office>602-956-1700</office>
+<firm_name>Cambridge Properties Inc</firm_name>
+<phone>602-956-1700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$195,000</list_price>
+<location>Phoenix, AZ 85003</location>
+<mls>1441813</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1928</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dishwasher, Guest Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

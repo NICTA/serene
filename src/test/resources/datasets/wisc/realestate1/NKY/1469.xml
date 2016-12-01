@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1095 CANNONBALL WAY</house_location>
+<price>$128,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249207</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>ROBIN DONOVAN</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>LOC IN BATTLERIDGE THIS 1YR OLD RANC HOME-FEAT A GREAT RM W/GAS
+FP,HDWD ENT &amp; CERAMIC TILED FLRS IN KIT &amp; BATHS,BUILT BY HOPPENJANS
+BLD,ON CUL-DE-SAC OCCUP AT CLOSE-AVAIL LEASE,LEASE OPT,LEASE PURCH
+COMM PD ON 1YR LEASE $925</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>9 X 10</dimension><level>1</level></breakfast>
+<kitchen><dimension>9 X 10</dimension><level>1</level></kitchen>
+<living><dimension>17 X 16</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>BRISTOW L ON BATTLERIDGE R ON CALVARY R ON
+CANNONBALL WAY</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cindy Clay</name>
+<office>(409)885-6400</office>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20414</id>
+<mls></mls>
+<house_location>158 Woody Lane
+Sealy, TEXAS 77474</house_location>
+<county>Austin</county>
+<price>$225,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful custom brick home withmany extras. 32x22 workshop lots of fruit trees. Paved driveway, a list of extras is available. Close to town and is located in a prestious area. Must see!!!</house_description>
+
+<school_district>Sealy</school_district>
+<approx_size_sqft>2196</approx_size_sqft>
+<approx_acres>2</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

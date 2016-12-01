@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>10497 US 25 (DIXIE)</house_location>
+<price>$80,000</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Detached,Oversized)</garage>
+<suburb>WALTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248038</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>ALVENA STANFIELD</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>PRESENTLY RENTED FOR $688/MO. ZONED C-1 AND IS IN IDEAL LOCATION-LESS
+THAN 2 MI FROM I-75. CALL 341-3434 FOR BOONE CO. P&amp;Z'S APPROPRIATE
+USES FOR C-1 ZONING. 10501 &amp; 10497 US25 ARE BOTH C-1, BOTH FOR SALE
+AND ADJACENT.</house_description>
+<construction>Alum</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>105x161x</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>14 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 5</dimension><level></level></laundry>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>16 X 11</dimension><level>1</level></master>
+
+<directions>I75 TO MT ZION EXIT-LEFT TO US 25-RIGHT ON US 25
+1.1 MI TOTAL 1.8 MI FROM I-75</directions>
+</house_listing>
+
+
+

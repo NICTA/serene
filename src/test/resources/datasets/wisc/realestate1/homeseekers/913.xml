@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This single family home built in 1979 has 5 bedroom(s), 4 full
+bath(s)/1 half bath(s) and approximately 5399 square feet of living
+area. Rooms include den, master bedroom. Features include view,
+private pool, air conditioning.</house_description>
+
+<agent_name>Helen Finvarb</agent_name>
+<office>305-861-3333</office>
+<firm_name>Finvarb Realty, In
+Lic. Real Estate Broker</firm_name>
+<phone>305-861-3333</phone>
+<fax>305-866-0085</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$875,000</list_price>
+<location>1400 S Biscayne Point Rd</location>
+<neighborhood>Biscayne Point Pb 14-35</neighborhood>
+<mls>M741223</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4(full) 1(half)</baths>
+<type>Single Family</type>
+<square_feet>5399 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Pool View, Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Outdoor Grill, Trash Compacter
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

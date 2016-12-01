@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elaine Morrow</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)707-1326</mobile>
+<email>jesmorrow@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16375</id>
+<mls>9050426</mls>
+<house_location>60 Main St.
+Kopperl, TEXAS 76652</house_location>
+<county>Bosque</county>
+<price>$44,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Just a Little Bit of Country!!  Heavily treed 8.4 acress with 3 bedroom, 2 bathmobile home nestled in Beautiful Bosque County.  A smart buy!!</house_description>
+
+<move-in_date>5/26/99</move-in_date>
+<school_district>Kopperl</school_district>
+<sub-division>Mesa Grande</sub-division>
+<stories>1</stories>
+<approx_acres>8.4</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Acreage</item>
+<item>Well</item>
+<item>School District</item>
+<item>Bosque Tax District</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ardis Barnett</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 110</voice_mail>
+<mobile>(512)753-6215</mobile>
+<email>afb@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20133</id>
+<mls>522250</mls>
+<house_location>#4 Woodcreek Drive
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$59,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>INVESTMENT - Country cabin, close to the creek and golf course. Lots of potential. Paved road, resort area, some furnishings. See it soon!</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Woodcreek</sub-division>
+<stories>1</stories>
+<year_built>1979</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1911 has 7 bedroom(s), 4 bath(s) and
+approximately 4471 square feet of living area.</house_description>
+
+<agent_name>Carolyn Andrews</agent_name>
+<direct>303-759-2904</direct>
+<office>303-337-6446</office>
+<firm_name>Cherry Creek Southea</firm_name>
+<phone>303-337-6446</phone>
+<fax>303-337-1889</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$386,000</list_price>
+<location>7530 E 17Th Av</location>
+<neighborhood>Park Hill</neighborhood>
+<mls>385844</mls>
+<status>Active</status>
+<bedrooms>7</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<square_feet>4471 (approx)</square_feet>
+<year_built>1911</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

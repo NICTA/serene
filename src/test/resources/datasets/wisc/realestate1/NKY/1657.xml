@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>3704 SIGMA CT</house_location>
+<price>$97,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>1 Car (Attached,Oversized)</garage>
+<suburb>ERL</suburb>
+<school_dist>LLOYD</school_dist>
+<mls>250367</mls>
+<house_type>Single Family</house_type>
+<firm>EQUITY MAX REALTORS</firm>
+<firm_phone>(606) 525-8900</firm_phone>
+<agent>ELIZABETH JONES</agent>
+<agent_phone>(606) 525-8900</agent_phone>
+<house_description>BACKS UP TO WOODLAND HILLS/UPSCALE, MINT, BEAUTIFUL &amp; SQUEAKY CLEAN!!
+LOTS OF NEW &amp; NEWER THRU OUT/BACK YARD IS A DREAM/GARAGE IS
+OVERSIZED-EXTRA LONG LOVELY HW FLOORING/EXTREMELY WELL CARED FOR HOME.
+BETH 525-8799 / 525-8900</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>large</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 8</dimension><level>2</level></bedroom_3>
+<family><dimension>14 X 14</dimension><level>L</level></family>
+<kitchen><dimension>16 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 9</dimension><level>L</level></laundry>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>2</level></master>
+
+<directions>TURKEYFOOT TO WOODLAND HILLS DR R-LAMBDA /
+R-SIGMA CT</directions>
+</house_listing>
+
+
+

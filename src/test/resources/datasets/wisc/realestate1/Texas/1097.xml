@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shelly Shea</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)846-5515</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20776</id>
+<mls>9123723</mls>
+<house_location>7825 Pasteur Court
+Fort Worth, TEXAS 76133</house_location>
+<county>Tarrant</county>
+<price>$150,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Former model home, with plenty of upgrades.  Spic and Span.  Open Concept. Great location.</house_description>
+
+<school_district>Fort Worth I S D</school_district>
+<sub-division>Hulen Meadows</sub-division>
+<approx_size_sqft>2314</approx_size_sqft>
+<stories>1</stories>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Gas cooking, water, and log</item>
+<item>Wainscotting, ceramic, micro</item>
+<item>Garden tub, separate shower</item>
+<item>Deco lites, heat pump, intercom</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

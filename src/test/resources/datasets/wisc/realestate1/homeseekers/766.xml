@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This detached single family home built in 1947 has 2 bedroom(s), 2
+bath(s) and approximately 903 square feet of living area. Rooms
+include living room, master bedroom. Features include view.</house_description>
+
+<agent_name>Robert Leborne</agent_name>
+<office>619-409-4100</office>
+<firm_name>Hfs Inc.</firm_name>
+<phone>619-409-4100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$124,900</list_price>
+<location>San Diego, CA 92105</location>
+<mls>99 6026514</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>903 (approx)</square_feet>
+<lot_size>13198</lot_size>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas, Wall Unit</heating>
+<rooms>Living Room, Master Bedroom</rooms>
+<view>Valley View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Gazebo
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

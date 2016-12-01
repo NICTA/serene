@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Fulgham Sid</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)789-1025</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20554</id>
+<mls>522420</mls>
+<house_location>20 HWY 20
+Red Rock, TEXAS 78662</house_location>
+<county>Bastrop</county>
+<price>$82,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>ORIGINAL MOBIL HOME HAS FRAME ADDITION TOTALING 1900 SQ. FT. AS PER OWNER.  3 ACRES WITH ANOTHER 30 AVAILABLE.  ADJACENT SHOP HAS WORK AREA STORAGE SPACE, OFFICE.  WATER AND ELECTRIC CONNECTED.</house_description>
+
+<school_district>Bastrop Isd</school_district>
+<sub-division>Lentz, Jacob G Acres</sub-division>
+<approx_size_sqft>1900</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>4489 OLD STATE RD 3</house_location>
+<price>$145,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248805</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>DAVID S RAWLINGS</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>1.27 ACRES - WELL MAINTAINED-COVERED BACK PORCH - NEWER VINYL THERMO
+PANE WINDOWS - NEWLY UPDATED KITCHEN - WILLIAMSON FURNACE - GREAT YARD
+- STORAGE SHED IN BACKYARD - WALKOUT FROM LOWER LEVEL - PHOTOS ON
+CBWS.COM</house_description>
+<construction>Brick</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>155X300</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>14 X 18</dimension><level>1</level></kitchen>
+<living><dimension>14 X 19</dimension><level>1</level></living>
+<master><dimension>10 X 15</dimension><level>1</level></master>
+
+<directions>US #27 S. 1ST R. PAST DAIRY MART ON OLD STATE #3</directions>
+</house_listing>
+
+
+

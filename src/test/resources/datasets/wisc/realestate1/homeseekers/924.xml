@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This single family home built in 1951 has 3 bedroom(s), 2 bath(s) and
+approximately 2337 square feet of living area. Rooms include dining
+room, family room. Features include view, patio, fireplace, air
+conditioning, french doors.</house_description>
+
+<agent_name>Robert Schwinger</agent_name>
+<office>883-5263</office>
+<firm_name>Schwinger Realty,
+Lic. Real Estate Broker</firm_name>
+<phone>883-5263</phone>
+<fax>305-884-2900</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$239,000</list_price>
+<location>480 Esplanade Dr</location>
+<neighborhood>Cinema Park - Country Clu</neighborhood>
+<mls>M775817</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2337 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<fireplace>Yes</fireplace>
+<location>Canal front, Water front</location>
+<patio>Open Porch, Patio</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room</rooms>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Dishwasher, Fenced, French Doors, OutdoorLights, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

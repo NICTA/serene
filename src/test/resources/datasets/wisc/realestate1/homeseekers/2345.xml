@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1994 has 5 bedroom(s), 6 full
+bath(s)/1 half bath(s) , 4 car garage. Rooms include dining room,
+family room, master bedroom. Features include view, private pool,
+private spa, patio, fireplace, storage space.</house_description>
+
+<agent_name>Jay H. Freeman</agent_name>
+<office>480-961-5800</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>480-961-5800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$1,145,000</list_price>
+<location>Phoenix, AZ 85044</location>
+<mls>1446571</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>6(full) 1(half)</baths>
+<garage>4</garage>
+<type>Single Family</type>
+<lot_size>18,001-24,000</lot_size>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Multi Zoned</heating>
+<fireplace>Family Room, Living Room, Master Bedroom</fireplace>
+<location>Corner</location>
+<patio>Covered, Deck</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Bidet, Breakfast Room, Cable TV, Cathedral/Vaulted Ceilings, CeilingFan(s), Central Vacuum, Dishwasher, Game Room, Garage Door Opener,Great Room, Intercom System, Loft, Microwave, Pantry, Storage Space,Trash Compacter, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

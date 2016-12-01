@@ -1,0 +1,34 @@
+<house_listing>
+<price>$325,000</price>
+<mls_id_number>131948</mls_id_number>
+<city>SUTHERLIN</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1668</sqft>
+<year_built>1906</year_built>
+<heat>Heat Pump</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof></roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>90.93       Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Barn, Garden,</exterior>
+<site>Water: WELL Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>SUTHERLIN</elementary>
+<middle_school></middle_school>
+<high_school>SUTHERLIN</high_school>
+</schools>
+
+</house_listing>
+
+
+

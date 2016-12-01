@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>356 HWY 1019</house_location>
+<price>$75,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Attached,Detached,Oversized)</garage>
+<suburb>FOSTER</suburb>
+<school_dist>BRACKEN</school_dist>
+<mls>246076</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>D KEN PERRY</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>NICE COUNTRY HOME. EXTRA CLEAN W/HDWD FLRS, NEWER BATH &amp; KITCHEN.
+LIVING RM W/WOODBURNING STOVE, NEWER 24X30 GARAGE W/LIEN TOO, ROOM FOR
+GARDEN EQUIPMENT &amp; MORE!</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Stove</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>16 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 10</dimension><level>1</level></laundry>
+<living><dimension>20 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 16</dimension><level>1</level></master>
+
+<directions>AA HWY S, R HWY 1019 .5 MILES ON RIGHT</directions>
+</house_listing>
+
+
+

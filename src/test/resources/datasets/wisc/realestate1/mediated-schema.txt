@@ -1,0 +1,172 @@
+<house> 
+	<general_and_basic_information>
+		<address>
+			<house_number/>
+			<street/>
+			<apartment_number/>
+			<city/>
+			<county/>
+			<state/>
+			<zip_code/>
+		</address>
+		<type/>
+		<architectural_style/>
+	    	<age/>
+	    	<date_built/>
+	    	<number_of_stories/>			
+	        <new_home/>
+		<price/>
+		<availability/>
+		<status/>
+		<construction/>
+		<access/>
+		<description/>
+		<directions/>
+	</general_and_basic_information>
+
+	<interior_features>
+	    	<basement/>		
+		<fireplace/>
+		<workshop/>	
+		<rooms>
+	    		<number_of_rooms/>	
+	    		<entry_room/>
+	    		<living_room/>
+	    		<dining_room/>
+			<kitchen/>
+			<breakfast_room/>
+			<family_room/>
+			<study_room/>
+			<recreation_room/>
+			<laundry_room/>
+			<bedrooms>	
+				<master_bedroom/>
+	        		<number_of_bedrooms/>
+			</bedrooms>
+			<bathrooms>
+	    			<number_of_bathrooms/>
+			</bathrooms>
+		</rooms>
+		<floor/>
+		<ceiling/>
+	</interior_features>
+
+      	<exterior_features>
+		<roof/>
+		<swimming_pool/>
+		<patio/>
+		<spa/>		
+		<car_related_spaces>
+	    		<garage/>	
+            		<carport/>			
+			<RV_parking/>
+		</car_related_spaces>
+	</exterior_features>
+
+	<utilities>
+		<heating/>
+		<cooling/>
+		<gas/>
+		<sewer/>
+		<water/>
+		<electricity/>
+	</utilities>
+</house>
+
+<size_information>
+	<building_size>
+		<building_area/>
+		<building_dimensions/>	    
+	</building_size>
+
+	<lot_size>
+		<lot_area/>
+		<lot_dimensions/>	    
+	</lot_size>
+</size_information>
+
+<superstructure>
+	<number_of_units/>
+	<number_of_floors/>
+	<which_floor/>
+	<elevators/>
+	<storage_area/>
+	<balcony/>
+	<upper_floor_unit/>
+</superstructure>
+
+<lot_features>
+	<corner_lot/>
+	<cul_de_sac_location/>
+	<waterfront_property/>
+	<golf_course_lot/>
+	<fenced_lot/>
+	<views>
+		<mountain_view/>
+		<city_light_view/>
+		<water_view/>
+	</views>
+</lot_features>
+
+<neighborhood_and_community>
+	<name/>
+	<features>
+		<clubhouse/>
+		<golf_course/>
+		<hand_ball_or_racquet_court/>
+		<security_features/>
+	</features>
+</neighborhood_and_community>
+
+<school>
+	<elementary_school/>
+	<middle_school/>
+	<high_school/>
+</school>
+
+<financial_features>
+	<financing_options/>
+	<dues_and_fees/>
+	<taxes/>
+</financial_features>
+
+<pointers_to_additional_information/>
+
+<contact_information>
+	<house_id/>
+	<mls_number/>
+	<firm> 
+		<name/>
+		<address/>
+		<phone/>
+		<fax/>
+		<email/>
+		<web/>
+	</firm> 
+
+	<agent>
+		<name/>
+		<address/>
+		<phone/>
+		<cell_phone/>
+		<pager/>
+		<fax/>
+		<email/>
+		<web/>
+	</agent>
+</contact_information>
+
+
+<ad-related_information>
+	<ad_id/>
+	<date_posted/>
+	<date_modified/>
+	<date_expired/>
+	<related_ads/>
+</ad-related_information>
+
+
+
+
+
+

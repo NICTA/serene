@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1953 has 3 bedroom(s), 2 bath(s) and
+approximately 1221 square feet of living area. Features include patio,
+air conditioning.</house_description>
+
+<agent_name>Enrique Enriquez</agent_name>
+<direct>305-886-4747</direct>
+<office>305-229-2070</office>
+<firm_name>Citigroup Realty,
+Lic. Real Estate Broker</firm_name>
+<phone>305-229-2070</phone>
+<fax>305-229-4044</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$89,000</list_price>
+<location>12325 NW 17 Av</location>
+<neighborhood>Park Ridge</neighborhood>
+<mls>M762847</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1221 (approx)</square_feet>
+<lot_size>83 X 125</lot_size>
+<year_built>1953</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<patio>Patio</patio>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

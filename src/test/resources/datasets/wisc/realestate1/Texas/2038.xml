@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>TOM MONTALBANO</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<voice_mail>(713)621-4953 144</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11890</id>
+<mls>170482</mls>
+<house_location>2417 HAZARD
+Houston, TEXAS 77019</house_location>
+<county>Harris</county>
+<price>$295,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>PLAN NOW AND CUSTOMIZE ONE OF THESE TWO LUXURIOUS TOWNHOMES TO BE BUILT STEPS FROM DEIDRICH COFFEE SHOP IN HEART OF BOOMING INNER-CITY AREA! COMPLETION 5/99</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Plainview</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>3000</approx_size_sqft>
+<stories>3</stories>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>LUXURIOUS TOWNHOME IN HEART OF BOOMING INNER-CITY</item>
+<item>COMPLETION 5/99</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

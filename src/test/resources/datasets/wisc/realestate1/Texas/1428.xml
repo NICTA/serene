@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Damron</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)393-4752</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16981</id>
+<mls>5748</mls>
+<house_location>2509 Arroyo Doble
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$208,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful country home.  Very spacious 4 Bdrms, 3 1/2 Baths with study and 2 living areas.  6.6 acres - horses okay.  Great setting. Very nice home!</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>Siesta Verde</sub-division>
+<approx_size_sqft>3200</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>6.6</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Large home on 6.6 acres.</item>
+<item>Very nice - 4 Bdrm., 3 1/2 Bath</item>
+<item>Quiet, country location.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

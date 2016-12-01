@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1996 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1640 square feet of living
+area. Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Jan Dzienius</agent_name>
+<direct>520-825-0739</direct>
+<office>520-297-8331</office>
+<firm_name>Century 21 Gateway West Realty Century 21 Gateway West Realty</firm_name>
+<phone>520-297-8331</phone>
+<fax>520-575-1733</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$189,900</list_price>
+<location>16700 N Swan Rd</location>
+<mls>9919376</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1640 (approx)</square_feet>
+<lot_size>160 X 320</lot_size>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

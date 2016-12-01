@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jim Smith</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<mobile>(512)787-0383</mobile>
+<email>amelia_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17580</id>
+<mls></mls>
+<house_location>825 West San Antonio St.
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$119,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Shown by appointment. (Must give notice to the tennants) Rock home with slate roof, three bedroom, 2 1/2 baths, large living room, hardwood floors, great picture window gives such character to the home!  The main house needs work, but has great potential...walking distance to historic downtown Lockhart.  The property has great potential with an additional guest house or rental property (one bedroom, one bath with living, kitchen, and large closet.  Guest is all electric, CHCA, WD conn.carpet and tile.)  Home is sold &amp;quot;As Is&amp;quot;.</house_description>
+
+<school_district>Lockhart</school_district>
+<stories>1</stories>
+<year_built>1950</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Guest house</item>
+<item>Hardwood floors</item>
+<item>Great picture windows</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

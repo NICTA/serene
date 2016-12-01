@@ -1,0 +1,43 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Lee Portland</name>
+<location>921 Houston St. Portland, TX 78374</location>
+<office>(361)643-2591</office>
+<toll_free>(800)421-0821</toll_free>
+<fax>(361)643-5845</fax>
+<email>plee2121@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ed Glasson</name>
+<office></office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21684</id>
+<mls>140717</mls>
+<house_location>131 Dell
+Portland, TEXAS 78374</house_location>
+<county>San Patricio</county>
+<price>$58,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>NEAT HOME LOCATED ON A QUIET DEAD END STREET.  LARGE KITCHEN, DINING AND LIVING ROOM.  FORMAL DINING ROOM.  LARGE YARD.  NEW ROOF.  PLAYER PIANO GOES WITH HOME.  HARDWOOD FLOORS.  SEPARATE WASH ROOM.</house_description>
+
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

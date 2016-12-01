@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level attached home built in 1971 has 2 bedroom(s), 1 bath(s)
+and approximately 863 square feet of living area. Rooms include living
+room, master bedroom.</house_description>
+
+<agent_name>Marjorie Mc Laughlin</agent_name>
+<direct>858-565-4497</direct>
+<office>619-276-1111</office>
+<firm_name>Century 21 1St Choice Realty Century 21 1St Choice Realty</firm_name>
+<phone>619-276-1111</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$88,000</list_price>
+<location>San Diego, CA 92111</location>
+<mls>00 6001185</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Townhouse/Condo</type>
+<square_feet>863 (approx)</square_feet>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Forced Air</heating>
+<pool>Community Pool</pool>
+<rooms>Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Neighborhood Pool
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

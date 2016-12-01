@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Pam Drawbaugh</name>
+<office>(512)834-6067</office>
+<fax>(512)834-2234</fax>
+<email>pam@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21701</id>
+<mls>529072</mls>
+<house_location>2405 Willow Way
+Round Rock, TEXAS 78664</house_location>
+<county>Williamson</county>
+<price>$119,950</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Perfect pickup for a buyer looking at new homes. Less than 6 months old. Neutral decor. Master Suite with extras. Open Kitchen. Nice Patio &amp; Good size lot.</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>South Creek</sub-division>
+<approx_size_sqft>1435</approx_size_sqft>
+<stories>1</stories>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Neutral Decor. Open Kitchen. Nice Patio.</item>
+<item>Good size lot. 4 sides brick.</item>
+<item>Less than 6 months old.</item>
+<item>Perfect for buyer looking for new.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

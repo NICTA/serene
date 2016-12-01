@@ -1,0 +1,157 @@
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/">
+  <dcat:Dataset rdf:about="http://data.gov.uk/dataset/ashfield-polling-station">
+    <owl:sameAs rdf:resource="urn:uuid:cafbff1c-6065-4795-9a64-297ca76d0146"></owl:sameAs>
+    <dct:description>A KML file for Polling Station locations in Ashfield</dct:description>
+        <dcat:keyword>ashfield</dcat:keyword>
+        <dcat:keyword>democracy</dcat:keyword>
+        <dcat:keyword>elections</dcat:keyword>
+        <dcat:keyword>polling-stations</dcat:keyword>
+    <foaf:homepage rdf:resource="http://data.gov.uk/dataset/ashfield-polling-station"></foaf:homepage>
+    <rdfs:label>ashfield-polling-station</rdfs:label>
+    <dct:identifier>ashfield-polling-station</dct:identifier>
+    <dct:title>Polling stations in Ashfield District</dct:title>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://webarchive.nationalarchives.gov.uk/+/http://www.ashfield-dc.gov.uk/Opendata/datasets/ADC%20Polling%20Stations.kml"></dcat:accessURL>
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>XML</rdf:value>
+                            <rdfs:label>XML</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+            </dcat:Distribution>
+        </dcat:distribution>
+    <dct:creator>
+      <rdf:Description>
+        <foaf:name>Electoral Registration</foaf:name>
+      </rdf:Description>
+    </dct:creator>
+    <dct:rights rdf:resource="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"></dct:rights>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>agency</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>categories</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>date_released</rdfs:label>
+            <rdf:value>2010-06-01</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>date_updated</rdfs:label>
+            <rdf:value>2010-06-01</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>department</rdfs:label>
+            <rdf:value>Ashfield District Council</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>external_reference</rdfs:label>
+            <rdf:value>A KML file for Polling Station locations in Ashfield</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>geographic_coverage</rdfs:label>
+            <rdf:value>100000: England</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>geographic_granularity</rdfs:label>
+            <rdf:value>point</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>national_statistic</rdfs:label>
+            <rdf:value>no</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>odi-certificate</rdfs:label>
+            <rdf:value>{"status": "final", "source": "Automatically awarded by ODI", "certification_type": "automatically awarded", "level": "raw", "title": "Polling stations in Ashfield District", "created_at": "2014-10-28T12:52:43Z", "jurisdiction": "GB", "certificate_url": "https://certificates.theodi.org/datasets/5913/certificates/18355", "badge_url": "https://certificates.theodi.org/datasets/5913/certificates/18355/badge.png", "cert_title": "Basic Level Certificate"}</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>openness_score</rdfs:label>
+            <rdf:value>0</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>openness_score_last_checked</rdfs:label>
+            <rdf:value>2011-06-06T14:19:28.277041</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>precision</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>published_by</rdfs:label>
+            <rdf:value>Ashfield District Council [13823]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>published_via</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>taxonomy_url</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_coverage-from</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_coverage-to</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_granularity</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>theme-primary</rdfs:label>
+            <rdf:value>Geography</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>update_frequency</rdfs:label>
+            <rdf:value>annual</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+  </dcat:Dataset>
+</rdf:RDF>

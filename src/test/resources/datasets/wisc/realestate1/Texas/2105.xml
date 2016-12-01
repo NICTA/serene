@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jeff McSpadden</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18378</id>
+<mls>2683133</mls>
+<house_location>7717 Hill City Hwy. (Ad # 526)
+Tolar, TEXAS 76476</house_location>
+<county>Hood</county>
+<price>$705,127</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Tolar</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1257</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>256.2</approx_acres>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<well>Yes</well>
+
+<highlights>
+<item>Nice log home</item>
+<item>3 acre lake</item>
+<item>10 miles form downtown Granbury</item>
+<item>inquire about #526</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

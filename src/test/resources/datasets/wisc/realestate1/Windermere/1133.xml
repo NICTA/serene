@@ -1,0 +1,34 @@
+<house_listing>
+<price>$74,990</price>
+<mls_id_number>160765</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>712</sqft>
+<year_built>1905</year_built>
+<heat>Not Listed</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.06        Acres</lot_size>
+<lot_description>25X100</lot_description>
+<fireplace>0</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Garden, Porch,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>VESTAL</elementary>
+<middle_school></middle_school>
+<high_school>MADISON</high_school>
+</schools>
+
+</house_listing>
+
+
+

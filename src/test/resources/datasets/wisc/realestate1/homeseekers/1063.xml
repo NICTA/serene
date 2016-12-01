@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1979 has 2 bedroom(s), 2 bath(s) , 2
+car garage and approximately 1364 square feet of living area. Features
+include private pool, patio, fireplace, air conditioning, storage
+space.</house_description>
+
+<agent_name>Nancy Walbert</agent_name>
+<direct>520-881-8115</direct>
+<office>520-577-7433</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-577-7433</phone>
+<fax>520-577-5417</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$142,000</list_price>
+<location>5740 E Paseo De La Pereza</location>
+<mls>9919702</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Townhouse</type>
+<square_feet>1364 (approx)</square_feet>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

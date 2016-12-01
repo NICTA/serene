@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Landmasters Real Estate</name>
+<location>101 Sunrise Drive Sunrise Beach, TX 78643</location>
+<office>(915)388-4555</office>
+<toll_free>(800)306-8629</toll_free>
+<fax>(915)388-3946</fax>
+<email>landmstr@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Judy Tiller</name>
+<office>(915)388-4555</office>
+<fax>(915)388-3946</fax>
+<email>LANDMSTR@TSTAR.NET</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17900</id>
+<mls>53312</mls>
+<house_location>1902 Twin Oaks
+Kingsland, TEXAS 78639</house_location>
+<county>Llano</county>
+<price>$69,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great permanent home!  This 3 bedroom, 2 bath brick home features central air and heat, bonus room, 2 car carport, utility room and storage shed.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Nob Hill</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Brick Home</item>
+<item>Neat</item>
+<item>Quiet Neighborhood</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

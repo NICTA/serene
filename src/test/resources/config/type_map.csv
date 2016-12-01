@@ -1,0 +1,11 @@
+attribute_id,type
+list_price@residential_listing_-_basic_features@homeseekers.csv,float
+house_description@texas.csv,string
+bedrooms@texas.csv,int
+garage@yahoo.csv,int
+phone@homeseekers.csv,string
+address@windermere.csv,string
+garage@amenities@windermere.csv,int
+address@windermere.csv,string
+agent_name@homeseekers.csv,string
+lot_size@residential_listing_-_basic_features@homeseekers.csv,float

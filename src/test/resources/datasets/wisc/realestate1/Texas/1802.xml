@@ -1,0 +1,47 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kay Wesson</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<mobile>(512)497-7200</mobile>
+<email>kcwesson@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14993</id>
+<mls></mls>
+<house_location>104 Briar Forest
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$219,700</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>You will fall in love with this fantastic, authentic 2 story log cabin on 2 gorgeous lots!  Beautiful hardwood floors throughout!  Fireplace in living area!  Gorgeous country kitchen!  Great energy efficient package!  Huge open rear deck and covered front and side porches!   Large 2/1 guest house with a complete kitchen!  Partially fenced!  Also for rent! Call or e-mail Kay today for all the details!</house_description>
+
+<sub-division>Pine Forrest</sub-division>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

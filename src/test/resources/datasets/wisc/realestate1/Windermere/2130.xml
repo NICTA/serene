@@ -1,0 +1,34 @@
+<house_listing>
+<price>$169,950</price>
+<mls_id_number>129098</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1560</sqft>
+<year_built>1999</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>5378 SF (66X80)</lot_description>
+<fireplace>0</fireplace>
+<taxes>$2,500</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>LINCOLN PARK</elementary>
+<middle_school>FLOYD LIGHT</middle_school>
+<high_school>DAVID DOUGLAS</high_school>
+</schools>
+
+</house_listing>
+
+
+

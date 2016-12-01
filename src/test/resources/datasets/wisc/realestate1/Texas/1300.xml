@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Meador Don</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>don-gay@swbell.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21329</id>
+<mls>324673</mls>
+<house_location>136 Fort Wayne
+Universal City, TEXAS 78148</house_location>
+<county>Bexar</county>
+<price>$79,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>This home is ready for its new owner.  Carpet and interior paint have never seen an occupant, they are really anxious*Custom kitchen cabinets, recent vinyl and wallpaper added to the home* Large yard with covered patio will be great this summer*</house_description>
+
+<school_district>Judson</school_district>
+<sub-division>Cimarron</sub-division>
+<approx_size_sqft>1700</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>75x120</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

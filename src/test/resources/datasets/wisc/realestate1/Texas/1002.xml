@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Quandt</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>C21Linda@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12520</id>
+<mls>R25598</mls>
+<house_location>209 E HUISACHE
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$34,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>LARGE OLDER HOME WITH HIGH CEILINGS, SPACIOUS ROOMS, CLOSE TO DOWNTOWN KINGSVILLE. RENTERS ARE MONTH-TO-MONTH.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>First Addition</sub-division>
+<approx_size_sqft>1396</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>75X140</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>APPT ONLY..CALL LISTING OFFICE</item>
+<item>OCCUPIED</item>
+<item>FRONT/BACK/PORCH...CEILING FAN..DEN,UTILITY</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

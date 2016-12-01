@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16374</id>
+<mls>9132872</mls>
+<house_location>110 Hillview
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$47,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>WHAT A DEAL!!!  This three bedroom, two bath doublewide has open concept in family, dining and kitchen and is located on two large lots.  Close to parks, boat ramp and lake.</house_description>
+
+<move-in_date>5/25/99</move-in_date>
+<school_district>Whitney</school_district>
+<sub-division>Cedar Crest Colony</sub-division>
+<stories>1</stories>
+<approx_lot_size>100X100</approx_lot_size>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Close to lake, parks and boat ramp</item>
+<item>Large trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

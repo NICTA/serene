@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 2000 has 4 bedroom(s), 4
+bath(s) , 3 car garage and approximately 3500 square feet of living
+area. Rooms include den, dining room, bonus room, master bedroom.
+Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Linda Weinberg</agent_name>
+<direct>520-907-1358</direct>
+<office>520-825-7227</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-825-7227</phone>
+<fax>520-825-8950</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$849,000</list_price>
+<location>1103 W Vistoso Highlands Dr #00</location>
+<mls>9917172</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>3500 (approx)</square_feet>
+<lot_size>1.55 ACRES</lot_size>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

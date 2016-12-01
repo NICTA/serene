@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1980 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 740 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Joseph Marcinkewic</agent_name>
+<direct>305-984-7949</direct>
+<office>305-412-1380</office>
+<firm_name>Principal Real Est
+Lic. Real Estate Broker</firm_name>
+<phone>305-412-1380</phone>
+<fax>305-271-0302</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$72,500</list_price>
+<location>6444 Collins Av #304</location>
+<neighborhood>Belo Horizonte Condo</neighborhood>
+<mls>M775388</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>740 (approx)</square_feet>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

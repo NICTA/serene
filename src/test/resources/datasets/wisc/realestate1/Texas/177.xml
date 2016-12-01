@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>J Morris</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<voice_mail>(713)267-5405</voice_mail>
+<email>bayou1@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11190</id>
+<mls>125276</mls>
+<house_location>5412 sycamore
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$110,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>family home on large lot. extra garaage/storage with 1400 sf.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Sycamore Terrace</sub-division>
+<approx_size_sqft>1899</approx_size_sqft>
+<stories>1</stories>
+<year_built>1977</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

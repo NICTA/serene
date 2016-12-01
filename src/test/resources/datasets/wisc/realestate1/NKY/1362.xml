@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>3527 LIPSCOMB</house_location>
+<price>$66,400</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>244056</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>TONYA EVANS</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * UPDATED! NEW KITCHEN W/TILE COUNTER*WATER FILTER*RECESS
+&amp; TRACK LIGHTS*NEW BATH W/POCKET DOOR*STAIRS TO UNFINISHED ATTIC*COULD
+BE LG BEDRM*SOME NEW WINDOWS*SHADE TREES*HWD FLRS*NEW WATER
+HEATER*DOUBLE DRIVE</house_description>
+<construction>Shingle</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>60X160</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>1</level></master>
+
+<directions>I-275 TO TAYLOR MILL EXIT SOUTH ON 16 TURN L
+ONTO LIPSCOMB</directions>
+</house_listing>
+
+
+

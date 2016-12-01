@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>3152 HULBERT</house_location>
+<price>$123,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>250041</mls>
+<house_type>Single Family</house_type>
+<firm>A 4% REALTY</firm>
+<firm_phone>(606) 572-0885</firm_phone>
+<agent>MAX BRAUNE</agent>
+<agent_phone>(606) 572-0885</agent_phone>
+<house_description>HOT TUB,GOLF CLUB CABINET,WORKBENCHES,BEDROOM DRAPERIES DONT STAY.
+WONDERFUL HOME IN A CHOICE LOCATION.MINUTES TO I75 AND DIXIE HIGHWAY
+PERFECT FOR ON THE GO PEOPLE, CLOSE TO RESTAURANTS AND SHOPPING.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>54x155</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<family><dimension>23 X 18</dimension><level>1</level></family>
+<kitchen><dimension>21 X 11</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>I75 OR DIXIE TO COMMONWEALTH TO HULBERT T O 3152
+HULBERT</directions>
+</house_listing>
+
+
+

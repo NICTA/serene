@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Pam Turner</name>
+<office>(512)834-6050</office>
+<fax>(512)834-2234</fax>
+<mobile>(512)964-5677</mobile>
+<email>www.pamturner.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21099</id>
+<mls>525162</mls>
+<house_location>11505 Knollpark Dr.
+Austin, TEXAS</house_location>
+<county>Travis</county>
+<price>$139,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Faulous Family Home! Recent Paint In &amp; Out! Replaced Carpet, Vinyl, &amp; Appliances!</house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>Gracywoods</sub-division>
+<approx_size_sqft>2211</approx_size_sqft>
+<year_built>1976</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Remodeled! Updated Throughout!</item>
+<item>Painted Inside &amp; Out!</item>
+<item>Walk-In Closets!</item>
+<item>Populer M-I-L Plan!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

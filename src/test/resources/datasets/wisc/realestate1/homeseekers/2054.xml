@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1972 has 3 bedroom(s), 3 full bath(s)/1 half
+bath(s) and approximately 2957 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Robley Feland</agent_name>
+<direct>305-341-8508</direct>
+<office>305-854-9494</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>305-854-9494</phone>
+<fax>305-567-1433</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$325,000</list_price>
+<location>720 NE 69 St #3S</location>
+<neighborhood>Palm Bay Towers Condo</neighborhood>
+<mls>M774639</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>2957 (approx)</square_feet>
+<year_built>1972</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Foyer, Ocean Access, Smoke Detector, Tennis Court(s),Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

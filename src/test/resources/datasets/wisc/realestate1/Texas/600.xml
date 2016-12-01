@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maryam Gharbi</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5964</voice_mail>
+<email>lake@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13258</id>
+<mls>486475</mls>
+<house_location>Sweetwater River Dr
+Austin, TEXAS 78748</house_location>
+<county>Travis</county>
+<price>$109,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Open and Bright Floor Plan.  Ceramic Tile Throughout main floorThis Beautiful home is like a model.</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>Texas Oaks 5</sub-division>
+<stories>2</stories>
+<approx_lot_size>1696</approx_lot_size>
+<year_built>1993</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

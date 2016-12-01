@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>2846 RICH RD</house_location>
+<price>$80,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Detached,Front,Oversized,Heated)</garage>
+<suburb>PINER</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250037</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>JUDY LANCASTER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * NICE CLEAN DETACHED GARAGE WITH ELECTRIC * COMPRESSOR
+STAYS 2ND TRAILER DOES NOT STAY * MANY EXTRAS * CALL JUDY LANCASTER
+FOR MORE DETAILS 525-5714</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Aerobic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 4</dimension><level>1</level></laundry>
+<living><dimension>18 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>HWY 17 TO RICH RD 1ST ON LEFT</directions>
+</house_listing>
+
+
+

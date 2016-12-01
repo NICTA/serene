@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Syble Pannell</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21333</id>
+<mls>9131504</mls>
+<house_location>420 S. Hampshire
+Saginaw, TEXAS 76179</house_location>
+<county>Tarrant</county>
+<price>$46,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Clean and Neat! Easy to show.</house_description>
+
+<school_district>Eagle Mountain</school_district>
+<sub-division>Rancho North</sub-division>
+<year_built>1955</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Neat and Clean</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1959 has 4 bedroom(s), 2
+bath(s) and approximately 2000 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Carmen Rumps</agent_name>
+<direct>520-323-7476</direct>
+<office>520-529-3507</office>
+<firm_name>Cardinal Realty Inc</firm_name>
+<phone>520-529-3507</phone>
+<fax>520-529-1118</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$168,000</list_price>
+<location>2211 E Florence Dr</location>
+<mls>2000538</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2000 (approx)</square_feet>
+<lot_size>73X125X83X124</lot_size>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

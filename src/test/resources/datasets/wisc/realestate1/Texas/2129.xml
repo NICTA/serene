@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>KATHY GANANN</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 140</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11953</id>
+<mls>163804</mls>
+<house_location>7927 Vernwood
+Houston, TEXAS 77040</house_location>
+<county>Harris</county>
+<price>$69,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>FABULOUS HOME ON CUL-DE-SAC STREET. WELL TAKEN CARE OF INSIDE AND OUT. EXTREMELY ATTRACTIVE YARD WITH COVERED PATIO, POIND &amp; GAZEBO. NEUTRAL COLORS. WELL WORTH SEEING THIS COZY HOME.</house_description>
+
+<school_district>Cyfair</school_district>
+<sub-division>Woodland Oaks</sub-division>
+<approx_size_sqft>1520</approx_size_sqft>
+<stories>1</stories>
+<year_built>1978</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>FABULOUS HOME ON CUL-DE-SAC</item>
+<item>POND &amp; GAZEBO</item>
+<item>COVERED PATIO</item>
+<item>COZY HOME AND ATTRACTIVE YARD</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

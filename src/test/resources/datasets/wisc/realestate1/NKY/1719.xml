@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1136 VINE ST</house_location>
+<price>$59,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249868</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>STEVE ARNZEN</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>NICE 2 STORY WITH NEW PAINT AND ROOF. UPDATED KITCHEN, 2 TIERED DECK,
+2 FIR PLACES. CLOSE TO CATHOLIC SCHOOLS, 471, SHOPPING. NO SHOWINGS
+UNTIL 1-13-00</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x102</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>15 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 14</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>11 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 5</dimension><level>1</level></laundry>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 8</dimension><level>2</level></master>
+<study><dimension>14 X 9</dimension><level></level></study>
+
+<directions>471 TO MEMORIAL PKWY EXIT GO WEST L ON PARK L ON
+CENTER R ON VINE ST</directions>
+</house_listing>
+
+
+

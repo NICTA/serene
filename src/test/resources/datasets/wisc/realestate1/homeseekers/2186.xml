@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>Please do not disturb tenants.</house_description>
+
+<agent_name>Carlos M Figueroa</agent_name>
+<direct>562-906-6931</direct>
+<office>323-562-7777</office>
+<firm_name>C-21 Powerhouse C-21 Powerhouse</firm_name>
+<phone>323-562-7777</phone>
+<fax>323-562-7770</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$142,000</list_price>
+<location>1648 E 112Th St</location>
+<mls>R98292</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1323 (approx)</square_feet>
+<year_built>1928</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

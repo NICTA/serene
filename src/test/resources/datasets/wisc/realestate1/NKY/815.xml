@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>111 WAYSIDE COURT</house_location>
+<price>$104,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>SPRINGSIDE</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>247959</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>KIMBERLY MURPHY CARLISLE</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>VERY PRETTY, STYLISH TOWNHOME! 2 STRY FOYER W/PLANT LEDGE, PARQUET IN
+FOYER &amp; KITCHN, MSTR W/VAULTED CEIL &amp; CALIFORNIA CLOSET, 10FT CEIL IN
+2ND BR, WDBRN FRPLC W/MANTLE, SECURITY SYS, PVT PATIO, GARDEN TUB,
+LOVELY DECOR!</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>OF RECORD</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>110</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 11</dimension><level>2</level></bedroom_2>
+<dining><dimension>14 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 8</dimension><level>2</level></laundry>
+<living><dimension>21 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>2</level></master>
+
+<directions>471 OR AA HWY TO US27 TO SPRINGSIDE CONDOS, RT
+ON WAYSIDE</directions>
+</house_listing>
+
+
+

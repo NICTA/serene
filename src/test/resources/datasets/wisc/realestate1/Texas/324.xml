@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Carol Dolecki</name>
+<office>(254)542-1800</office>
+<fax>(254)542-1839</fax>
+<mobile>(254)681-6990</mobile>
+<email>carold@sagelink.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19389</id>
+<mls>87534</mls>
+<house_location>413 Avila Lane (Briggs)
+Killeen, TEXAS 76542</house_location>
+<county>Burnet</county>
+<price>$80,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Land is owner financed separate from modular home.  Homeowner association $10.00/ year.  Spotless and just like new.  Garden top on front porch.  Must see to appreciate!</house_description>
+
+<school_district>Burnet</school_district>
+<approx_size_sqft>1475</approx_size_sqft>
+<approx_acres>5.7</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Satelite dish, refrigerator, blinds/drapes convey</item>
+<item>Shade trees, yard lights</item>
+<item>Utility room, split floor plan</item>
+<item>Cathedral ceilings</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

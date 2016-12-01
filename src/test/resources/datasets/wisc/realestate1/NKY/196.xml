@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1339 WINGATE DRIVE</house_location>
+<price>$119,770</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>247982</mls>
+<house_type>Single Family</house_type>
+<firm>WALTON COMPANY</firm>
+<firm_phone>(513) 683-8908</firm_phone>
+<agent>JOSEPH DORGER</agent>
+<agent_phone>(513) 683-8908</agent_phone>
+<house_description>NEW CONSTRUCTION. IMMEDIATE OCCUPANY. FREEDOM HOMES.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>9 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>8 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 11</dimension><level>1</level></kitchen>
+<living><dimension>11 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>R ON HOPEFUL CHURCH R ON CAYTON R INTO PERSIMMON
+GROVE L AT STOP R ON WINGATE</directions>
+</house_listing>
+
+
+

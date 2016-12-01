@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1906 has 2
+bedroom(s), 1 bath(s) and approximately 586 square feet of living
+area. Rooms include dining room.</house_description>
+
+<agent_name>Cesar R. Cervantes</agent_name>
+<direct>626-850-7960</direct>
+<office>626-331-0754</office>
+<firm_name>RE/MAX Masters RE/MAX Masters</firm_name>
+<phone>626-331-0754</phone>
+<fax>626-339-9531</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$95,000</list_price>
+<location>5113 Latham St</location>
+<mls>C915403</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>586 (approx)</square_feet>
+<lot_size>1825</lot_size>
+<year_built>1906</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

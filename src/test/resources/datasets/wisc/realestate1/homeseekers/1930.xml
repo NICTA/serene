@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>New home to be built on wonderful treed lot. Plans available for 3 br,
+2 bath ranch with garage, gas fireplace, spacious great room &amp; eat-in
+kitchen. This builder has a great reputation for building a quality
+product at an affordable price. Will assist with closing costs.</house_description>
+
+<agent_name>Benny Lebon</agent_name>
+<office>757-623-2500</office>
+<firm_name>Long &amp; Foster Real Estate, Inc</firm_name>
+<phone>757-623-2500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$99,900</list_price>
+<location>Norfolk, VA 23513</location>
+<mls>9932659</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1270 (approx)</square_feet>
+<lot_size>IRREG-C/FOR SURVEY</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<patio>Open Porch</patio>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Ranch Style, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

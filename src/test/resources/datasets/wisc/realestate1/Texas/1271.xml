@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Thompson</name>
+<office></office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20611</id>
+<mls>9120889</mls>
+<house_location>1907 Layton
+Haltom City, TEXAS 76117</house_location>
+<county>Tarrant</county>
+<price>$51,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Nice starter home or retiree home. Laundry is detached from main house. Detached garage &amp; carport &amp; storage. This is a one owner home.</house_description>
+
+<school_district>Birdville</school_district>
+<approx_size_sqft>849</approx_size_sqft>
+<stories>1</stories>
+<year_built>1949</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home built in 1949 has 2 bedroom(s), 1 bath(s) and
+approximately 923 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Yolanda Gay</agent_name>
+<direct>305-631-8866</direct>
+<office>305-529-9098</office>
+<firm_name>Gama Realty, Inc.
+Lic. Real Estate Broker</firm_name>
+<phone>305-529-9098</phone>
+<fax>305-631-8838</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$61,999</list_price>
+<location>12010 NW 8 Av</location>
+<neighborhood>North Shore Hgts</neighborhood>
+<mls>M752189</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>923 (approx)</square_feet>
+<lot_size>75 X 98</lot_size>
+<year_built>1949</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Electric</heating>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

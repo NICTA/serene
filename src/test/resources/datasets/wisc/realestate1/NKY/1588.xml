@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>3156 HILLVIEW CT</house_location>
+<price>$125,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246807</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>DEBRA DIXON</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM *LIKE NEW*ALL NEW FLOORING IN KITCHEN * ALL KITCHEN
+APPLIANCES STAY *CONTEMPORARY * NICE NEIGHBORHOOD * BEAUTIFUL
+LANDSCAPING * NO SIGN IN YARD * NEW WATER HEATER * NEW ROOF 1998 *</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 8</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 9</dimension><level>1</level></dining>
+<family><dimension>23 X 11</dimension><level>L</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 7</dimension><level>L</level></laundry>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>1</level></master>
+
+<directions>DUDLEY TO R ON MADONNA L ON MARIE R ON HILLVIEW</directions>
+</house_listing>
+
+
+

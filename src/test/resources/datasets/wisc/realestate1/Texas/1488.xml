@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elaine Morrow</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)707-1326</mobile>
+<email>jesmorrow@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17700</id>
+<mls>9082820</mls>
+<house_location>410 Oak Crest
+Clifton, TEXAS 76634</house_location>
+<county>Bosque</county>
+<price>$185,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Positively Perfect!!  Lush Landscaping, 8 foot marble island with drop in Jenn-Air cook top and grill, built in wine rack, sewing closet, ceiling fans throughout, crystalchandeliers, tile patio, stained glass throughout..  marble tubs,  oversized separateshower in master bath with his and hers van ities and closets.  Queen Air control infire place with thermostate to heat all of home or certain areas.  Rear entry three cargarage with ceiling fans. Coned ceiling in second dining area and cabinest galore !!</house_description>
+
+<school_district>Clifton</school_district>
+<sub-division>Clifton</sub-division>
+<approx_size_sqft>2500</approx_size_sqft>
+<stories>1</stories>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Prestigious Oak Run Addn.</item>
+<item>Three Car Garage</item>
+<item>Marble vanities/tubs</item>
+<item>Tiled Patio w/ceiling fans</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

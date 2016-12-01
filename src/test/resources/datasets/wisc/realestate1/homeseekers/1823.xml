@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 2 level attached home built in 1980 has 3 bedroom(s), 2 bath(s)
+and approximately 1222 square feet of living area. Rooms include
+dining room, family room, living room, master bedroom. Features
+include patio, air conditioning.</house_description>
+
+<agent_name>Ofelia Reyes</agent_name>
+<direct>858-475-2049</direct>
+<office>619-477-6550</office>
+<firm_name>South Hills Real Estate</firm_name>
+<phone>619-477-6550</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$131,000</list_price>
+<location>San Diego, CA 92139</location>
+<mls>00 6001268</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<type>Townhouse/Condo</type>
+<square_feet>1222 (approx)</square_feet>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Forced Air</heating>
+<patio>Yes</patio>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Neighborhood Pool
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

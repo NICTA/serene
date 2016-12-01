@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1992 has 4 bedroom(s), 3
+bath(s) , 3 car garage and approximately 3556 square feet of living
+area. Rooms include den, dining room, bonus room, master bedroom.
+Features include view, private pool, private spa, patio, fireplace,
+air conditioning, storage space.</house_description>
+
+<agent_name>Sherie Broekema</agent_name>
+<direct>520-291-4337</direct>
+<office>520-299-2201</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-299-2201</phone>
+<fax>520-529-1548</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$625,000</list_price>
+<location>13681 E Deer Run Tr</location>
+<mls>9904651</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>3556 (approx)</square_feet>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Electric, Zoned</heating>
+<fireplace>Living Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

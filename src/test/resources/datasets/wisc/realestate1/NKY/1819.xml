@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>406 E FOURTH ST</house_location>
+<price>$69,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>245029</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>KATHLEEN STEFFEN</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>MOVE IN CONDITION,LARGE PRIV BACK YARD,EAT-IN KITCHEN INC STOVE,REFRIG
+&amp; DISHWASHER,FURNACE,CENTRAL AIR,ROOF &amp; WINDOWS UNDER 6YRS OLD. THIS
+HOME IS NOT IN FLOOD PLAIN!!</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>7 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level>1</level></master>
+<study><dimension>6 X 11</dimension><level>1</level></study>
+
+<directions>US27 S INTO FALMOUTH TO 2ND FLASHING LIGHT TURN
+L GO TO 4TH ST TURN RIGHT</directions>
+</house_listing>
+
+
+

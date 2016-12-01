@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>Here it is! 3 bedroom 2 bath on large corner treed lot with two car
+garage. Great location. Great for investors or 1st time home buyer.</house_description>
+
+<agent_name>Stacy Thompson</agent_name>
+<office>757-549-2000</office>
+<firm_name>The Prudential Decker Realty The Prudential Decker Realty</firm_name>
+<phone>757-549-2000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$39,969</list_price>
+<location>Norfolk, VA 23509</location>
+<mls>9926328</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<style>Colonial</style>
+<year_built>1920</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Baseboard, Electric</heating>
+<fireplace>No</fireplace>
+<patio>Open Porch</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Colonial Style, Fenced, Office, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

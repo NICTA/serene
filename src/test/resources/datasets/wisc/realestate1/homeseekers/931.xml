@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Fully remodeled home w/new carpet, new paint, new roof and new
+appliances. There are hrdwd flrs that have been refinished also. This
+is a twin home attached only at the garage. Closing cost assistance
+available. Hurry!</house_description>
+
+<agent_name>Natalie Smith</agent_name>
+<office>757-460-3341</office>
+<firm_name>Gsh Real Estate</firm_name>
+<phone>757-460-3341</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$84,500</list_price>
+<location>Virginia Beach, VA 23452</location>
+<mls>9932660</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Townhouse/Condo</type>
+<style>Ranch, Twinhome</style>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric, Heat Pump</heating>
+<fireplace>Yes</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Ceiling Fan(s), Fenced, Office, RanchStyle, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

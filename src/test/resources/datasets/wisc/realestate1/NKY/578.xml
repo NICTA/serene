@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>4336 GLENN</house_location>
+<price>$66,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249949</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GOLD SERVICES</firm>
+<firm_phone>(606) 344-9700</firm_phone>
+<agent>OFFICE SECRETARY</agent>
+<agent_phone>(606) 344-9700</agent_phone>
+<house_description>LOVELY HOME LEVEL DOUBLE LOT FENCED YARD NEWER KITCHEN FLOORING OAK
+CABINETS NEWER REMODELED BATH NEW BERBER CARPET IN THE BEDROOMS NICE
+WOOD FLOORS NEW DISHWASHER 10X8 SHED CLOSE TO THE GOLF COURSE</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50 x 142</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>12 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 9</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>2</level></master>
+
+<directions>WINSTON AVE TO EAST ON 42ND. ST R ON DECOURSEY L
+ON 44TH. TO GLENN</directions>
+</house_listing>
+
+
+

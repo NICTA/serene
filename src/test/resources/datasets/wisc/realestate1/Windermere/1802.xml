@@ -1,0 +1,34 @@
+<house_listing>
+<price>$149,000</price>
+<mls_id_number>158655</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1568</sqft>
+<year_built>1934</year_built>
+<heat>Oil Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>69.58 X 120</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Porch,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>WHITMAN</elementary>
+<middle_school>LANE MIDDLE</middle_school>
+<high_school>MARSHALL</high_school>
+</schools>
+
+</house_listing>
+
+
+

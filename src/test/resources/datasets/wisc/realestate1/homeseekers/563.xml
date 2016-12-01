@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1950 has 3 bedroom(s), 2 bath(s) and
+approximately 1672 square feet of living area.</house_description>
+
+<agent_name>Jim Leuschner</agent_name>
+<direct>303-759-6626</direct>
+<office>303-757-7474</office>
+<firm_name>RE/MAX Central Inc</firm_name>
+<phone>303-757-7474</phone>
+<fax>303-691-3387</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$197,000</list_price>
+<location>1570 Quince St</location>
+<neighborhood>Park Hill,Da Law,East Colfax</neighborhood>
+<mls>377576</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1672 (approx)</square_feet>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

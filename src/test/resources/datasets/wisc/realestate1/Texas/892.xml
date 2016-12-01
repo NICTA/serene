@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Marchel Eubank</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<email>mmeubank@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20012</id>
+<mls>9111731</mls>
+<house_location>117 Cedar Crest Lane
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$70,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful oaks shade this modern two bedroom, two bath frame home.  Wood burning stove, sprinkler system, berber carpet, 10X20 storage building, carport; all this across private road from Corp property which has access to Lake Whitney.  Neat &amp; clean!!</house_description>
+
+<school_district>Whitney</school_district>
+<sub-division>Cedar Crest Colony</sub-division>
+<approx_size_sqft>1146</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>90X110</approx_lot_size>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Immaculate!</item>
+<item>Lovely oversized tree shaded lot</item>
+<item>Large covered porch</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

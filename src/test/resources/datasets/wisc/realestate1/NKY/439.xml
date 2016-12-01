@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>10 DELL</house_location>
+<price>$99,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>(Carport)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249692</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>DEBORAH A WILLIAMS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*GREAT 3 BDRM BRICK
+RANCH*HARDWOOD FLOORS*LARGE LOT*FENCING*LARGE 16X20 WOOD DECK*FULL
+BASEMENT*BATH AND A HALF*STORAGE BARN</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>7 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>8 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 9</dimension><level>1</level></master>
+
+<directions>US 25 TO R ON ROGER TO R ON DELL ST TO L ON DELL
+CT</directions>
+</house_listing>
+
+
+

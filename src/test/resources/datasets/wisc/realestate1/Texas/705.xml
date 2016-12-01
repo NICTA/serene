@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Peggy Jones</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>pegjones@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20360</id>
+<mls>54164</mls>
+<house_location>400 Flat Rock Creek
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$700,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SPACIOUS, UNIQUE HOME ON APPROXIMATELY 45 ACRES! BARNS AND ARENAS FOR HORSE TRAINING. SWIMMING POOL, GREENHOUSE, TWO OFFICES, WORKSHOP. EASY COMMUTE TO AUSTIN.</house_description>
+
+<school_district>Marble Falls</school_district>
+<approx_size_sqft>3500</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>45</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<pool>Yes</pool>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>SPACIOUS, UNIQUE HOME!</item>
+<item>GREENHOUSE, WORKSHOP, 2 OFFICES</item>
+<item>GREAT SET UP FOR HORSES!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

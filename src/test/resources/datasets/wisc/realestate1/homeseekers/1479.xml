@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This townhouse built in 1996 has 4 bedroom(s), 4 bath(s) , 2 car
+garage and approximately 2440 square feet of living area. Features
+include private pool, private spa, air conditioning.</house_description>
+
+<agent_name>Kimberlee Etheridg</agent_name>
+<direct>305-341-7443</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$575,000</list_price>
+<location>100 Jefferson Av #10011</location>
+<neighborhood>The Courts At South Beach</neighborhood>
+<mls>M774056</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<garage>2</garage>
+<type>Townhouse</type>
+<square_feet>2440 (approx)</square_feet>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<pool>Yes</pool>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

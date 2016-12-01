@@ -1,0 +1,34 @@
+<house_listing>
+<price>$159,500</price>
+<mls_id_number>153818</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>2255</sqft>
+<year_built>1915</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.09        Acres</lot_size>
+<lot_description>40X100</lot_description>
+<fireplace>1</fireplace>
+<taxes>$1,256</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Garden, Sprinkler System,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>APPLEGATE</elementary>
+<middle_school>OCKLEY GREEN</middle_school>
+<high_school>JEFFERSON</high_school>
+</schools>
+
+</house_listing>
+
+
+

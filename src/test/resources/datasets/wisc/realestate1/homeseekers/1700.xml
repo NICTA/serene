@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This ground level attached single family home built in 1933 has 5
+bedroom(s), 3 bath(s) and approximately 1812 square feet of living
+area. Rooms include dining room, family room. Features include
+fireplace.</house_description>
+
+<agent_name>Eric Roque</agent_name>
+<direct>626-291-7232</direct>
+<office>626-289-2121</office>
+<email>EricRoque@HomeSeekers.com</email>
+<firm_name>C-21 Geo.Michael C-21
+Geo.Michael</firm_name>
+<phone>626-289-2121</phone>
+<fax>323-724-3994</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$159,999</list_price>
+<location>3932 Portola Av</location>
+<mls>W907229</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<levels>Ground Level</levels>
+<type>Single Family</type>
+<square_feet>1812 (approx)</square_feet>
+<lot_size>5577</lot_size>
+<year_built>1933</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Family Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

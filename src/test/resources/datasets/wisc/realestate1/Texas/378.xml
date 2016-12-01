@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Mark Fox Real Estate</name>
+<location>907 Hwy 281 Marble Falls, TX</location>
+<office>(830)693-8884</office>
+<toll_free></toll_free>
+<fax>(830)693-6619</fax>
+<email>markfox@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Royce Smith</name>
+<office>(830)693-8884</office>
+<fax>(830)693-6619</fax>
+<email>markfox@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>10654</id>
+<mls>49732</mls>
+<house_location>273 Chaparral
+Marble Falls, TEXAS</house_location>
+<county>Burnet</county>
+<price>$185,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful 2 year old home in the orchard. Has many extras, covered porch.  Corner lot, circle drive. Beautiful trees, formal dining and office area. Satelite dish goes with house.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Meadowlakes</sub-division>
+<approx_size_sqft>2100</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Breakfast Area, Homeowners Park</item>
+<item>Gated Community with Guard at Gate</item>
+<item>Club house, pool and golf course</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

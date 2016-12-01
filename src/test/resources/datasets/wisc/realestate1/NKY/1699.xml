@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>931 WASHINGTON</house_location>
+<price>$109,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>248592</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>PAT ADAMS</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>BEAUTIFUL ROOKWOOD FIREPLACE, GREAT ENCLOSED FRONT PORCH, NEWER
+KITCHEN, PLUSH CARPET. HARDWOOD FLOORS UNDER CARPET. DETACHED GARAGE.
+5 CEILING FANS HUMIDIFIER. MOSTLY NATURAL WOODWORK. SAMLL PANED POCKET
+DRS. GAR. DR.OPENER</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>16 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 16</dimension><level>2</level></master>
+
+<directions>471 N. TO R. ON RT#8 (FAIRFIELD) TO L. ON
+WASHINGTON TO 916</directions>
+</house_listing>
+
+
+

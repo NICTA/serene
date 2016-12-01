@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2255 TEAL BRIAR 205</house_location>
+<price>$99,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248284</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX UNLIMITED</firm>
+<firm_phone>(513) 751-SHOW</firm_phone>
+<agent>TAMARA OLIVER</agent>
+<agent_phone>(513) 751-SHOW</agent_phone>
+<house_description>SPACIOUS W/GARAGE, DEN, CATH CEILS, CORNER FIREPLACE, EQUIPPED KIT,
+WASHER &amp; DRYER, NEUTRAL DECOR. ALL ONE FLOOR LIVING.
+POOL-TENNIS-CLUBHOUSE.</house_description>
+<construction>Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>COMMON</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>143</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 13</dimension><level>1</level></bedroom_2>
+<dining><dimension>12 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>16 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 7</dimension><level>1</level></laundry>
+<living><dimension>17 X 14</dimension><level>1</level></living>
+<master><dimension>19 X 12</dimension><level>1</level></master>
+<study><dimension>16 X 11</dimension><level>1</level></study>
+
+<directions>75 S TO R. ON RT 18W TO DARLINGTON FARMS ON R.
+R. ON TEAL BRIAR UNIT #205-G#21</directions>
+</house_listing>
+
+
+

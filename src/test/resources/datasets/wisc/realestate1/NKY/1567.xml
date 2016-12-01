@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>2987 FALLENTREE CT</house_location>
+<price>$325,000</price>
+<rooms>10</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>EDGEWOOD</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249975</mls>
+<house_type>Single Family</house_type>
+<firm>BARRISTER REALTY</firm>
+<firm_phone>(606) 344-1242</firm_phone>
+<agent>V RUTH KLETTE</agent>
+<agent_phone>(606) 344-1242</agent_phone>
+<house_description>ERPENBECK &amp; KENNEDY PROPOSED HOME. EXQUISITE FINISH WORK ON QUIET
+WOODED CUL-DE-SAC LOT. CUSTOM BUILD TO SUIT. PROPOSED TO BE BUILT.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80x225</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 11</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>12 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 13</dimension><level>1</level></dining>
+<family><dimension>11 X 20</dimension><level>1</level></family>
+<kitchen><dimension>12 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>16 X 18</dimension><level>1</level></living>
+<master><dimension>13 X 14</dimension><level>1</level></master>
+<study><dimension>10 X 13</dimension><level>2</level></study>
+
+<directions>DUDLEY TO FALLENTREE BETWEEN PRESTWICK AND
+BELLEMEAD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1969 has 4 bedroom(s), 2 bath(s) and
+approximately 2004 square feet of living area.</house_description>
+
+<agent_name>Allen D Cooksey</agent_name>
+<direct>371-4888</direct>
+<office>303-371-4888</office>
+<firm_name>Metro Brokers-Action</firm_name>
+<phone>303-371-4888</phone>
+<fax>303-371-7787</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,900</list_price>
+<location>5519 Salem St</location>
+<neighborhood>Montbello</neighborhood>
+<mls>380694</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2004 (approx)</square_feet>
+<year_built>1969</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

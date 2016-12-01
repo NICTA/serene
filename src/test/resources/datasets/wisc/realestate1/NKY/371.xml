@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>8377 WOODCREEK</house_location>
+<price>$194,000</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Side)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247215</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>LUCIE PURCELL</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*BEAUTIFUL TRANSITIONAL! 2 STORY
+ENTRY &amp; LIVING RM WITH 2ND FLR OVER LOOKING. SPACIOUS KIT LEADS TO
+CUSTOM DECK AND INGRD POOL. HUGE BDRMS W/WALK IN CLOSETS, PROF FIN LL,
+FAM RM, WARRANTY</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>16 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 16</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>9 X 13</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 13</dimension><level>1</level></dining>
+<family><dimension>16 X 19</dimension><level>L</level></family>
+<kitchen><dimension>10 X 13</dimension><level>1</level></kitchen>
+<living><dimension>17 X 20</dimension><level>1</level></living>
+<master><dimension>17 X 13</dimension><level>2</level></master>
+<study><dimension>12 X 9</dimension><level>L</level></study>
+
+<directions>PLEASANT VALLEY TO WOODCREEK TO L ON MORN ING
+SIDE TO WOODCREEK</directions>
+</house_listing>
+
+
+

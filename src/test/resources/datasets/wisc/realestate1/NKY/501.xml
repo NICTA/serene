@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>2295 TEAL BRIAR</house_location>
+<price>$97,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249910</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>JERRY CLENDENIN</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>RICHLAND MODEL-CATHEDRAL CEILINGS CORNER FIREPLACE SPACIOUS VERY CLEAN
+A PLEASURE TO SHOW. POOL CLUBHOUSE TENNIS COURTS AVAILALE EASY LIVING
+3RD BEDROOM MAY BE A STUDY ONE FLOOR PLAN * WWW.HUFF.COM</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0x0</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>143</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_3><dimension>10 X 14</dimension><level>2</level></bedroom_3>
+<dining><dimension>8 X 12</dimension><level>2</level></dining>
+<kitchen><dimension>8 X 13</dimension><level>2</level></kitchen>
+<laundry><dimension>7 X 7</dimension><level>2</level></laundry>
+<living><dimension>13 X 19</dimension><level>2</level></living>
+<master><dimension>11 X 16</dimension><level>2</level></master>
+
+<directions>W RT 18 TOWARDS BURLINGTON R INTO DARLING ON
+FARMS DARLINGTON DR TO TEAL BRIAR</directions>
+</house_listing>
+
+
+

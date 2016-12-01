@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mike Hallowell</name>
+<office>(817)573-8801</office>
+<fax>(817)279-7473</fax>
+<email>hallowell@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20061</id>
+<mls>9112551</mls>
+<house_location>3011 Inwood Trail (Ad # 614)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$37,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>2-2-2 Mobile with a 20x20 game room, sun room, wood deck, fireplace &amp; rock underpinning.  Good condition on 5 fenced lots.  Heavily wooded with RV/Boat parking.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Oak Trail Shores</sub-division>
+<approx_size_sqft>1204</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>250x100</approx_lot_size>
+<approx_acres>0.9</approx_acres>
+<year_built>1976</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Heavily Wooded &amp; Wood Deck</item>
+<item>Game Room &amp; Sun Room</item>
+<item>Fireplace &amp; Rock Underpinning</item>
+<item>Ad # 614</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

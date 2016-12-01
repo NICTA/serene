@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>10127 SQUIRE DR</house_location>
+<price>$125,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248046</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>LINDA LAAKE</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>TRIPLE LEVEL LOT.HUGE UNFINISHED BASEMENT,5 YR OLD BRICK
+GARAGE/INSULATED CLOSE AND CONVENIENT TO SCHOOLS,SHOPPING AND
+EXPRESSWAY.</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert,Stone</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>210x125</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>25 X 15</dimension><level>1</level></family>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>MT. ZION TO BILTMORE PLACE,LEFT ON SQUIRE
+DR.,HOME ON RIGHT,HOME ON TRIPLE LOT.</directions>
+</house_listing>
+
+
+

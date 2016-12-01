@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>5114 CHRISTOPHER</house_location>
+<price>$125,300</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249796</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX BEST GROUP</firm>
+<firm_phone>(513) 791-6900</firm_phone>
+<agent>SAM JIM</agent>
+<agent_phone>(513) 791-6900</agent_phone>
+<house_description>NEW &amp; READY TO SHOW! THE 'PATTON' PLAN BY FREEDOM HOMES! PART BRICK
+FRONT, ENORMOUS FAM RM W/ WALK-OUT &amp; GAS FIREPLACE, EAT-IN KIT W/
+PANTRY, 2.5 BTHS MASTER W/ADJ BTH&amp; W/I CLOSET, BSMNT WALK-OUT! AGENTS
+USE MLS X-PRESS 2 SHOW</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$TBD</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>9 X 8</dimension><level>1</level></dining>
+<family><dimension>21 X 13</dimension><level>1</level></family>
+<kitchen><dimension>11 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<master><dimension>13 X 13</dimension><level>2</level></master>
+
+<directions>1275 TO RT 17 S FOR 6.5 MILES-R @ INDEPEN DENCE
+STATION-R @ CHRISTOPHER INTO SUBDIV</directions>
+</house_listing>
+
+
+

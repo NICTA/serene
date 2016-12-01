@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 5 bedroom(s), 4 bath(s) and
+approximately 3407 square feet of living area. Features include view,
+private pool, fireplace.</house_description>
+
+<agent_name>Lidia Schwartzbaum</agent_name>
+<direct>305-734-5265</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$489,000</list_price>
+<location>1620 Daytonia Rd</location>
+<neighborhood>Biscayne Point Pb 14-35</neighborhood>
+<mls>M761932</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<square_feet>3407 (approx)</square_feet>
+<lot_size>75 X 150</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Central, Electric</heating>
+<fireplace>Yes</fireplace>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+<view>Pool View, Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Fenced, Foyer, Ocean Access, Outdoor Lights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

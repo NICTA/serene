@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This single family home built in 1947 has 3 bedroom(s), 3 full
+bath(s)/1 half bath(s) and approximately 4251 square feet of living
+area. Rooms include dining room. Features include view, patio,
+fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Pamela Brown</agent_name>
+<direct>305-343-2027</direct>
+<office>305-666-8686</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-666-8686</phone>
+<fax>305-666-0617</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$699,000</list_price>
+<location>7472 Erwin Road</location>
+<neighborhood>University Place</neighborhood>
+<mls>M771682</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3(full) 1(half)</baths>
+<type>Single Family</type>
+<square_feet>4251 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Electric</heating>
+<fireplace>Yes</fireplace>
+<patio>Patio</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Fenced, Foyer, Kitchen Island, Outdoor Lights, StorageSpace, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

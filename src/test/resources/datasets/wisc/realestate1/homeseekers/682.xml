@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1995 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage. Rooms include dining room,
+family room, master bedroom. Features include view, private pool,
+private spa, patio.</house_description>
+
+<agent_name>Fernando Caraballo</agent_name>
+<office>480-483-3333</office>
+<firm_name>RE/MAX Excalibur Realty RE/MAX Excalibur Realty</firm_name>
+<phone>480-483-3333</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$190,000</list_price>
+<location>Phoenix, AZ 85022</location>
+<mls>1462439</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dishwasher, Eat In Kitchen, Great Room,Microwave, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1941 has 2 bedroom(s), 1 bath(s) , 1
+car garage and approximately 1120 square feet of living area. Rooms
+include den, family room, master bedroom. Features include view, air
+conditioning.</house_description>
+
+<agent_name>Jean Dufralessi</agent_name>
+<direct>935-7793</direct>
+<office>893-1889</office>
+<firm_name>Dufralessi Realty
+Lic. Real Estate Broker</firm_name>
+<phone>893-1889</phone>
+<fax>305-893-7531</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>289 NW 92 St</location>
+<neighborhood>Miami Shores Sec 6</neighborhood>
+<mls>M770421</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>1120 (approx)</square_feet>
+<lot_size>75 X 123</lot_size>
+<year_built>1941</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<pool>No</pool>
+<rooms>Den, Family Room, Master Bedroom</rooms>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

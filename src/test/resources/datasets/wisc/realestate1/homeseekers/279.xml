@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This home built in 1960 has ? bedroom(s), 1 bath(s) . Features include
+air conditioning.</house_description>
+
+<agent_name>Allison Cotter</agent_name>
+<direct>305-674-4126</direct>
+<office>305-672-1300</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-1300</phone>
+<fax>305-672-1499</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$37,500</list_price>
+<location>1004 Pennsylvania Av #11</location>
+<neighborhood>Pen-Ten Apts Inc Co-Op</neighborhood>
+<mls>M771990</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>CoOp</type>
+<year_built>1960</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This townhouse built in 1966 has 2 bedroom(s), 2 bath(s) and
+approximately 1100 square feet of living area.</house_description>
+
+<agent_name>Marlen Daniel</agent_name>
+<office>305-822-3443</office>
+<firm_name>Five Stars Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-822-3443</phone>
+<fax>822-2585</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$86,700</list_price>
+<location>2016 Bay Dr #607</location>
+<neighborhood>Villa Bay Vista Condo</neighborhood>
+<mls>N228528</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse</type>
+<square_feet>1100 (approx)</square_feet>
+<year_built>1966</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

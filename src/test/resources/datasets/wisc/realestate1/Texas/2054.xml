@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Peerman Custom Homes &amp; Real Estate</name>
+<location>12020 Hwy. 290 West Austin, TX 78737</location>
+<office>(512)288-4040</office>
+<toll_free></toll_free>
+<fax>(512)288-4048</fax>
+<email>peerman@flash.net</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Rice</name>
+<office>(512)288-4040</office>
+<fax>(512)288-4048</fax>
+<email>flash.net/~peerman/</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7491</id>
+<mls>465864</mls>
+<house_location>10005 Silver Mountain Drive
+Austin, TEXAS 78737</house_location>
+<county>Travis</county>
+<price>$335,400</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Located in prestigious LEWIS MOUNTAIN RANCH. This new home is now under construction. 3361 sq. ft. of liveable room. The spacious master bedroom and bathroom is downstairs along with two more bedroom and full baths for each.  Wonder open kitchen with island and breakfast room. Study, computer room, formal living or another bedroom. The upstairs can remain unfinished or create your own floorplan. Select your own colors, tile, carpet, lighting fixtures, appliances and much more!!!</house_description>
+
+<move-in_date>6/1/98</move-in_date>
+<school_district>Aisd</school_district>
+<sub-division>Lewis Mountain Ranch</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>3361</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1.9</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>BEAUTIFUL OAK TREES IN THE VERY PRIVATE BACK YARD</item>
+<item>HIGH AND CATHEDRAL CEILING THROUGHOUT</item>
+<item>HOMEOWNERS DUES ONLY $135.00 ANNUALLY</item>
+<item>CIRCULAR DRIVE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

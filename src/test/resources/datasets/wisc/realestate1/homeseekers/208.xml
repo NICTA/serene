@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1972 has 5 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1274 square feet of living
+area. Rooms include family room. Features include fireplace, air
+conditioning.</house_description>
+
+<agent_name>Eric Bergman</agent_name>
+<direct>509-869-4648</direct>
+<email>BERGI4@AOL.COM</email>
+<firm_name>
+RE/MAX Citywide RE/MAX
+Citywide</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$127,900</list_price>
+<location>10919 25Th</location>
+<mls>9926686</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1274 (approx)</square_feet>
+<lot_size>90X130</lot_size>
+<year_built>1972</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Wood-burning</fireplace>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Garage Door Opener, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

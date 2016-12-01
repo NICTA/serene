@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>13 CATALINA</house_location>
+<price>$119,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>WALTON</suburb>
+<school_dist>WALTON VERO</school_dist>
+<mls>249446</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>TOM MORGAN</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* THIS IS A MUST SEE! * BEAUTIFULLY DECORATED * 23X17 FAMILY RM W/BLT
+IN BOOKSHELVES* HUGE MASTER BDRM W/CATHEDRAL CEILING * SITTING RM
+W/FRENCH DOORS WHICH OPEN TO DECK * CAN CONVERT BSMT WORKSHOP BACK TO
+GARAGE *</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80X161</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bath_3><dimension>PART</dimension><level></level></bath_3>
+<bedroom_2><dimension>12</dimension><level>X</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<family><dimension>23 X 17</dimension><level>1</level></family>
+<kitchen><dimension>23 X 12</dimension><level>1</level></kitchen>
+<living><dimension>16 X 12</dimension><level>1</level></living>
+<master><dimension>16 X 14</dimension><level>1</level></master>
+
+<directions>I75S, LEFT ON MARY GRUBBS, L SCHOOL RD, L ON
+HANCE, L ON CATALINA</directions>
+</house_listing>
+
+
+

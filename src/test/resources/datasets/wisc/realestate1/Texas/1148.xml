@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>JUDITH GUTIERREZ</name>
+<office>(713)621-4953</office>
+<fax></fax>
+<voice_mail>(713)621-4953 101</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11767</id>
+<mls>110495</mls>
+<house_location>14926 PERTHSHIRE
+Houston, TEXAS 77079</house_location>
+<county>Harris</county>
+<price>$209,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>INVESTORS!  LEASED TILL AUGUST 1999 - PRICED BELOW MARKET. WONDERFUL FIVE BEDROOM REDONE IN 1994. NEW ROOF '94 - MASTER DOWN - WOOD FLOORS DOWN - FRENCH DOORS - SPRINKLER SYSTEM. LARGE POOL. BEAUTIFULLY MAINTAINED. CAN NOT BE SHOWN. PICTURES IN OFFICE. CALL LISTING AGENT FOR INFORMATION.</house_description>
+
+<school_district>Spring Branch</school_district>
+<sub-division>Thornwood</sub-division>
+<approx_size_sqft>2815</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>9863</approx_lot_size>
+<year_built>1967</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>MASTER DOWN</item>
+<item>PRICED BELOW MARKET</item>
+<item>WOOD FLOORS - FRENCH DOORS - LARGE POOL</item>
+<item>WONDERFUL FIVE BEDROOM - INVESTORS!!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

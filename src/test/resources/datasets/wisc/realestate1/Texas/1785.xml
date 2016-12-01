@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21325</id>
+<mls>6338</mls>
+<house_location>901 Owl Hollow
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$99,800</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Country home on 5.0 AcresHarwood FloorsLarge Den W/Wood StoveDeckHot Tub</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>Rocky Ranch</sub-division>
+<approx_size_sqft>1280</approx_size_sqft>
+<approx_acres>5</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Tackroom</item>
+<item>Pole Barn</item>
+<item>Playscape for the kids</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

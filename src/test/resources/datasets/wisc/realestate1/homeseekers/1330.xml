@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1890 has 3 bedroom(s), 2 bath(s) and
+approximately 1564 square feet of living area.</house_description>
+
+<agent_name>Greg Milano</agent_name>
+<direct>303-888-9228</direct>
+<office>303-986-4300</office>
+<firm_name>Keller William Advan</firm_name>
+<phone>303-986-4300</phone>
+<fax>303-986-4440</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$165,000</list_price>
+<location>1389 N Osceola St</location>
+<neighborhood>Avondale</neighborhood>
+<mls>382620</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1564 (approx)</square_feet>
+<year_built>1890</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

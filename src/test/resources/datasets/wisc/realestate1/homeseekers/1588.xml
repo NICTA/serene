@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1986 has 3
+bedroom(s), 3 bath(s) , 2 car garage and approximately 1323 square
+feet of living area. Rooms include dining room, living room, master
+bedroom. Features include private spa, fireplace, air conditioning.</house_description>
+
+<agent_name>Dennis Rehberg</agent_name>
+<direct>858-494-9474</direct>
+<office>858-453-4220</office>
+<firm_name>Coldwell Banker Assoc Realty Coldwell Banker Assoc Realty</firm_name>
+<phone>858-453-4220</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$335,000</list_price>
+<location>San Diego, CA 92122</location>
+<mls>99 6025232</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1323 (approx)</square_feet>
+<lot_size>3681</lot_size>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<pool>Community Pool, Heated, In-ground</pool>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Neighborhood Pool
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

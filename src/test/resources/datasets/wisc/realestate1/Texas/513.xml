@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maureen Black</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)228-6659</mobile>
+<email>estladymb@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20488</id>
+<mls>9120064</mls>
+<house_location>325 Cotillion
+Fort Worth, TEXAS 76134</house_location>
+<county>Tarrant</county>
+<price>$91,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Comfortable 1-owner, spacious, well tended 4-bedroom home on large corner lot. Side entry garage, sprinklers, security system. Sentricon System guarantees termite-free environment.  Roof is 4 years new. Oversized shower with seat.  Sit on covered patio or porch and enjoy the quiet, stately neighborhood.  Older couple will miss their low utility bills.</house_description>
+
+<school_district>Everman I S D</school_district>
+<sub-division>Hallmark Addition</sub-division>
+<approx_size_sqft>2164</approx_size_sqft>
+<stories>1</stories>
+<year_built>1964</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Spacious &amp; well tended</item>
+<item>Quiet, stately neighborhoos</item>
+<item>Lots of extras</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1565 LAKE SHORE DR</house_location>
+<price>$80,100</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>OWENTON</suburb>
+<school_dist>OWEN</school_dist>
+<mls>246521</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>RITA ROBINETTE</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>COME ENJOY THE ELK LAKES SHORES RESORT IN THIS NEW WELL BUILT 2 STORY
+HOME. HOME IS NEARLY COMPLETE AS IS OR SELLER WILL FINISH FOR
+$120,000.TOTAL OF 3 LOTS 2 HAVE LAKE FRONTAGE.GREAT SUMMER OR YEAR
+ROUND LIVING.COME SEE TODAY.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>400</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>16 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>16 X 16</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 7</dimension><level>1</level></laundry>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>I-71S TO EX.#57,L ON HY 35, TO HY 227 S, TO L
+ON HY 330, TO R ON 1883,TO ELK LAKE</directions>
+</house_listing>
+
+
+

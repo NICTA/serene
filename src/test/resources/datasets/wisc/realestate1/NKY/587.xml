@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>4601 DECOURSEY</house_location>
+<price>$55,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>250042</mls>
+<house_type>Single Family</house_type>
+<firm>ENOS AGENCY</firm>
+<firm_phone>(606) 441-1530</firm_phone>
+<agent>OFFICE SECRETARY</agent>
+<agent_phone>(606) 441-1530</agent_phone>
+<house_description>NEW FURNACE,CA, NEW CERAMIC TILE BATH, TOILET,FAUCETS;MUST SEE
+INTERIOR BARGARIN</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25 x 100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$000</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bedroom_2><dimension>11 X 15</dimension><level>2</level></bedroom_2>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 15</dimension><level>1</level></kitchen>
+<living><dimension>11 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>2</level></master>
+
+<directions>DECOURSEY SOUTH, NEAR VALUE CITY</directions>
+</house_listing>
+
+
+

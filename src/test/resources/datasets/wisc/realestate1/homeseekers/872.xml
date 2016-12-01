@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1976 has 4 bedroom(s), 2
+bath(s) and approximately 2900 square feet of living area. Rooms
+include den, bonus room, master bedroom. Features include private
+pool, patio, fireplace, storage space.</house_description>
+
+<agent_name>Kay Brighton</agent_name>
+<direct>520-743-7004</direct>
+<office>520-743-7004</office>
+<firm_name>Largo Properties</firm_name>
+<phone>520-743-7004</phone>
+<fax>520-</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$189,900</list_price>
+<location>1566 W Montebella Dr</location>
+<mls>9916456</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2900 (approx)</square_feet>
+<lot_size>58X31X135X173X276X197</lot_size>
+<year_built>1976</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Den, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

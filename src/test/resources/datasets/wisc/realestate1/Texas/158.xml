@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Randy McDonald</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)699-4354</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19177</id>
+<mls>521003</mls>
+<house_location>588 GREEN VALLEY DRIVE
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$64,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>REOP FANNIE MAE NICE LOT WITH LARGE PINES LIKE NEW DOUBLE WIDE BRING ALL OFFERS.  2434RM</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Thomas B A M</sub-division>
+<approx_size_sqft>1344</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.35</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>NICE LOT WITH LARGE TREES</item>
+<item>LIKE NEW DOUBLE WIDE</item>
+<item>DISHWASHER</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

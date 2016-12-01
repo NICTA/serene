@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>20 W 15TH</house_location>
+<price>$40,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>244030</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>CHARLENE HINES</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* GREAT OPPORTUNITY FOR ONE OR TWO FAMILY DWELLING * LARGE ROOMS IN
+TWO STORY HOME WITH OFF-STREET PARKING * DECK AND PATIO *</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bedroom_2><dimension>15 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 8</dimension><level>2</level></bedroom_3>
+<dining><dimension>16 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>2</level></master>
+
+<directions>SOUTH ON MADISON AVENUE RIGHT ON W. 15TH ST.</directions>
+</house_listing>
+
+
+

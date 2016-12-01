@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Prudential Allied, REALTORS</name>
+<location>3007 E. Broadway Pearland, TX 77581</location>
+<office>(281)997-4000</office>
+<toll_free>(800)447-3313</toll_free>
+<fax>(281)485-1649</fax>
+<email>mstarr@infohwy.com</email>
+</firm_information>
+
+<agent_information>
+<name>Edris Guidry</name>
+<office>(281)997-4000</office>
+<fax>(281)485-1649</fax>
+<voice_mail>(281)997-4000 30</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14231</id>
+<mls>165579</mls>
+<house_location>2200 E HWY 6
+Alvin, TEXAS 77511</house_location>
+<county>Brazoria</county>
+<price>$68,700</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Alvin</school_district>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<year_built>1977</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>COULD BE USED AS COMMERCIAL</item>
+<item>LOTS OF PARKING</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

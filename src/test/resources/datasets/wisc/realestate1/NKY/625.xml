@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>18 E 25TH</house_location>
+<price>$92,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>250365</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>VICKIE BOLTON-HOUSE</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>GREAT NEIGHBORS!NEW KITCHEN W/BUILT-IN NOOK TABLE AND SEATS, FURNACE
+AND ROOF. HARDWOOD THROUGHOUT. PRIVACY FENCE,ENCLOSED BACK YARD
+W/TIERED DECK- ING. LANDSCAPE LIGHTING. LOTS OF PARKING. CHARM!!!!!!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>13 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>8 X 7</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<family><dimension>16 X 7</dimension><level>1</level></family>
+<kitchen><dimension>17 X 8</dimension><level>1</level></kitchen>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>2</level></master>
+
+<directions>MADISON AVENUE TO EAST 25TH</directions>
+</house_listing>
+
+
+

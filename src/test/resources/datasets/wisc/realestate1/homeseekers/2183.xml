@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1963 has 2 bedroom(s), 1 bath(s) .
+Rooms include master bedroom. Features include patio.</house_description>
+
+<agent_name>Don V. Bowers, CRS</agent_name>
+<office>602-944-2100</office>
+<firm_name>Prestige Realty</firm_name>
+<phone>602-944-2100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$69,500</list_price>
+<location>Phoenix, AZ 85051</location>
+<mls>1454807</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1963</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Dining/Living Combo, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

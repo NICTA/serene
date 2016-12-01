@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stewart Martin</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>smartin@express-news.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15282</id>
+<mls>299183</mls>
+<house_location>8441 Bindseil Ln
+Garden Ridge, TEXAS 78266</house_location>
+<county>Comal</county>
+<price>$129,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Peaceful, country setting on over 3 acres withmore than 100 native oaks &amp; elms.  Wildflowers galore!  Close in to city - but away from traffic and noise.  Home is cozy with split bedrooms, berber carpet &amp; perky vinyl flooring.  Bright, white kitchen with family sized breakfast bar. Front porch w/covered walkway to double carport &amp; 10x24 storage. Ask for mls 299183</house_description>
+
+<school_district>Comal</school_district>
+<sub-division>Garden Ridge</sub-division>
+<approx_size_sqft>1144</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3</approx_acres>
+<year_built>1976</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

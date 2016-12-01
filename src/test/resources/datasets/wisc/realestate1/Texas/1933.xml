@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Eleanor Tuttle</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)753-9080</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17129</id>
+<mls>5824</mls>
+<house_location>3167 FM 1984
+Maxwell, TEXAS 78656</house_location>
+<county>Caldwell</county>
+<price>$170,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>4/2 Brick veneer with office.  Great patio with fish pond.  House is on 10 acres and less than one year old.</house_description>
+
+<school_district>San Marcos</school_district>
+<approx_size_sqft>2128</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>10 acres</approx_lot_size>
+<approx_acres>10</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

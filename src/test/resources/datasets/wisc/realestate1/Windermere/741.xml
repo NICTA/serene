@@ -1,0 +1,41 @@
+<house_listing>
+<price>$123,900</price>
+<mls_id_number>369064</mls_id_number>
+<city>Salem</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1468</sqft>
+<year_built>1977</year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage>Double Attached</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<schools><elementary>Haz.</elementary>
+<middle_school>Ste.</middle_school>
+<high_school>McKay</high_school>
+</schools>
+<comments>New carpet will be installed, buyer's choice of color, prior to close.</comments>
+<for_more_information_contact>
+<agent_name>Ann Bay</agent_name>
+<firm_name>Windermere Pacific West Properties, Inc.</firm_name>
+<firm_location>4275 Commercial St. SE Suite 100
+Salem, OR</firm_location>
+<office_phone>503-391-1350</office_phone>
+<fax>503-391-9960</fax>
+<pager>371-2540</pager>
+<cell_phone>510-6568</cell_phone>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

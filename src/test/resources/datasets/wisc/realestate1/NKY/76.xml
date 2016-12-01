@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>7963 S PLEASANT VALLE</house_location>
+<price>$249,000</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Builtin,Side)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>242792</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>WANETTA GILES</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* SPACIOUS 2 STORY 8 ROOM BRICK * 4 LARGE BEDROOMS * 3 FULL &amp; 2 HALF
+BATHS * FIREPLACE IN FORMAL LIVING ROOM * DECK * 2 CAR GARAGE * FULL
+BASEMENT * NEAR FLORENCE *</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air,Atic Fan</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bath_3><dimension>FULL</dimension><level></level></bath_3>
+<bath_4><dimension>PART</dimension><level></level></bath_4>
+<bedroom_2><dimension>13 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 9</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>19 X 14</dimension><level>2</level></bedroom_4>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<family><dimension>14 X 13</dimension><level>1</level></family>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<living><dimension>25 X 13</dimension><level>1</level></living>
+<master><dimension>22 X 12</dimension><level>2</level></master>
+
+<directions>US42 SOUTH, R ON PLEASANT VALLEY, APPROX. 3
+MILES ON RIGHT</directions>
+</house_listing>
+
+
+

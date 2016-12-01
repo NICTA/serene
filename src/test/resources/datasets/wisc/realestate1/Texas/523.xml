@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Yanez</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>irene_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11497</id>
+<mls></mls>
+<house_location>728 S. GUADALUPE ST.
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$95,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>GREAT 3 BEDROOM, 2.5 BATH ROCK HOME WITH FORMAL LIVING ROOM WITH FIREPLACE, SKYLIGHT, VAULTED CEILINGS, SOME RAISED OAK PANEL AND BUILT-IN SHELVES. IT HAS A FORMAL DINING ROOM, KITCHEN WITH A BREAKFAST AREA, LARGE FAMILY ROOM AND A UTILITY ROOM. THE BEDROOMS ARE LARGE AND SPACIOUS. THE HOME HAS RECENTLY BEEN PAINTED AND HAS SOME WALLPAPER. THE ROOMS HAVE WALK-IN CLOSETS AND AND THE HOME HAS DOUBLE PANE WINDOWS. MUCH MORE TO SEE IN THIS HOME WHICH IS IN WALKING DISTANCE TO DOWNTOWN AND 3 OF LOCKHART'S SCHOOLS.</house_description>
+
+<move-in_date>10/15/98</move-in_date>
+<school_district>Lockhart</school_district>
+<approx_size_sqft>2104</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>130X184</approx_lot_size>
+<year_built>1985</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>ROCK HOME</item>
+<item>BUILT-INS</item>
+<item>SKYLIGHT</item>
+<item>SPACIOUS ROOMS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

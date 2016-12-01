@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>10100 ASHCREEK</house_location>
+<price>$179,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side,Oversized)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250362</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MIKE PARKER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * 4 BEDRM 2 STORY *FINISHED LOWER LEVEL * RYLE SCHOOLS *
+LOW TAXES * WALKOUT BSMT *IMMED POSSESSION *WBFP *WET BAR *FANTASTIC
+CONDITION* 2 CAR SIDE ENTRY GARAGE *LG WOOD DECK *EASY TO SHOW *CALL
+MIKE 647-0700</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>corner</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>13 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 11</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>13 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>16 X 14</dimension><level>1</level></family>
+<kitchen><dimension>16 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>18 X 13</dimension><level>2</level></master>
+<study><dimension>30 X 26</dimension><level>L</level></study>
+
+<directions>FROGTOWN RD TO CEDARWOOD R ON ASHCREEK</directions>
+</house_listing>
+
+
+

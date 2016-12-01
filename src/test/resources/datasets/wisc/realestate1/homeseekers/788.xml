@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1989 has 2 bedroom(s), 2 bath(s) , 1 car
+attached garage and approximately 1875 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Don Pingaro</agent_name>
+<direct>305-389-2922</direct>
+<office>305-663-6550</office>
+<firm_name>Turnberry Internat
+Lic. Real Estate Broker</firm_name>
+<phone>305-663-6550</phone>
+<fax>305-663-0662</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$975,000</list_price>
+<location>19144 Fisher Island Dr #19144</location>
+<neighborhood>Seaside Condd</neighborhood>
+<mls>M760423</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1875 (approx)</square_feet>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ocean Access, Roman Tub, Tennis Court(s), Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

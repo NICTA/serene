@@ -1,0 +1,47 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Frank Rainosek</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<mobile>(512)924-1901</mobile>
+<email>rainosek@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17478</id>
+<mls></mls>
+<house_location>5&amp;6 Loop 230 East
+Smithville, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$49,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>This 3/1 home in Smithville has commercial potential.  Spacious rooms!  Over a 1/2 acre with large trees!  Covered front porch.  Partially fenced.  Sold &amp;quot;As Is.&amp;quot;  Call or e-mail Frank for more details.</house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Some Commercial Potential!</item>
+<item>Large Rooms!</item>
+<item>Partially Fenced!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

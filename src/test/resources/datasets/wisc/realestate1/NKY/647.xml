@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>614 DELMAR</house_location>
+<price>$66,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249852</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>KAREN ARMSTRONG</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>WELL MAINTAINED RANCH W/NEWER FURNACE,CA,ELEC AIR CLEANER &amp;
+HUMIDIFIER.ALL APPLIANCES STAY.GREAT REC ROOM/WORKSHOP IN
+BASEMENT.LEVEL YARD.VERY CLEAN. JUST NEEDS UPDATING.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air,Atic Fan</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>B</level></bath_2>
+<bedroom_2><dimension>9 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>14 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 7</dimension><level>1</level></kitchen>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>11 X 10</dimension><level>1</level></master>
+<recreation_room><dimension>23 X 24</dimension><level>B</level></recreation_room>
+
+<directions>WALLACE AVE E, LEFT ON OAKLAND RIGHT ON DELMAR</directions>
+</house_listing>
+
+
+

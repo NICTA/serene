@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Renee Thomas</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>renee@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7606</id>
+<mls>48797</mls>
+<house_location>405 SOMBRERO
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$174,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Lots of built-ins and cabinets.  Walnut paneling.  Master bedroom suite, draperies.  Golf cart storage space.  W/D. Zoned A/C system.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Walnut paneling and lots of built-ins and cabinets</item>
+<item>Golf cart storage space</item>
+<item>Washer/dryer</item>
+<item>Zoned A/C system</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

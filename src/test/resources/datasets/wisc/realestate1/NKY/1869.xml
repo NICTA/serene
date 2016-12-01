@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>215 WALNUT</house_location>
+<price>$90,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>SOUTHGATE</suburb>
+<school_dist>SOUTHGATE</school_dist>
+<mls>247901</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>RICHARD HUBBARD</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>EQUIPPED KIT W/NEWER REF. 1ST FL MSTR.W/ADJOINING BATH.LG. DECK OFF
+DINING RM. INTERCOM SYSTEM.EXTRA DEEP LOT W/SHED. ATTIC STORAGE. QUICK
+POSSESSION. WILL CONSIDER LEAVING WASHER/DRYER W/STRONG OFFER.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>60X425</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>17 X 15</dimension><level>2</level></bedroom_3>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<family><dimension>15 X 13</dimension><level>L</level></family>
+<kitchen><dimension>9 X 5</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 9</dimension><level>L</level></laundry>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+<study><dimension>12 X 11</dimension><level>1</level></study>
+
+<directions>US27S LT ON TEMPLE,RT ON ELECTRIC, LT ON WALNUT</directions>
+</house_listing>
+
+
+

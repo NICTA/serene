@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>MARVIN GERBER</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 130</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11858</id>
+<mls>85429</mls>
+<house_location>4706 WICKBY
+Houston, TEXAS 77441</house_location>
+<county>Harris</county>
+<price>$95,000</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>ONE HALF ACRE IN WESTON LAKES WITH LONG SIDE FRONTAGE ON PECAN LAKE. MASTER PALNNED COMMUNITY WITH COUNTRY CLUB, GOLF COURSE, MANNED ACCESS ENTRY GATE,  BEAUTIFUL TREES ALONG LAKE FRONTAGE.</house_description>
+
+<sub-division>Weston Lakes</sub-division>
+<to_be_built>Yes</to_be_built>
+<stories>1</stories>
+<approx_lot_size>1/2 ACRE</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>1/2 ACRE IN WESTON LAKES</item>
+<item>SIDE FRONTAGEON PECAN LAKE</item>
+<item>MASTER PLANNED COMMUNITY</item>
+<item>COUNTRY CLUB</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

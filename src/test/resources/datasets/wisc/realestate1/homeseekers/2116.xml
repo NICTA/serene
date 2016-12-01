@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1960 has 6
+bedroom(s), 4 full bath(s)/2 half bath(s) , 2 car garage. Rooms
+include den, dining room, family room, master bedroom. Features
+include patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Gerrie Checkon</agent_name>
+<direct>301-279-0708</direct>
+<office>301-469-4700</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-469-4700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$1,100,000</list_price>
+<location>Washington, DC 20007</location>
+<mls>DC3093229</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>4(full) 2(half)</baths>
+<levels>3 or more</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>27313</lot_size>
+<year_built>1960</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

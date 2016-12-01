@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Richard E. Giesecke</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13674</id>
+<mls></mls>
+<house_location>COUNTY ROAD 108
+Burnet, TEXAS 78611</house_location>
+<county>Burnet</county>
+<price>$695,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>NOT ENOUGHT ROOM FOR ALL THE FEATURES IN THIS HOUSE.  CALL FOR BROCHURE OR E-MAIL REQUEST.  APPROX. 6,000. SQ. FT. UNDER ROOF INCLUDING 3 CAR GARAGE.  30'X100' COMMERCIAL BUILDING.  SPRING-FED TANK.  23 ACRES WITH AG EX.  30 GPM WATER WELL.  PERIMETER FENCES - BARBED WIRE AND HAND-LAID ROCK.  HOUSE 1 YEAR OLD.  CEDAR, OAK AND PECAN TREES.  STORAGE BLDG.  IRRIGATED FRUIT TREES.  3 CAR GARAGE.  ZONED HEATING AND COOLING.  HEALTH AND FITNESS AREA.  LARGE OFFICE WITH BUILT-INS.  LARGE 540 SQ. FT. COVERED PATIO FACING EAT. YOU WON'T BELIEVE THIS UNTIL YOU SEE IT YOURSELF!</house_description>
+
+<school_district>Burnet</school_district>
+<stories>1</stories>
+<approx_acres>23</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>SPECIAL HOME ON ACREAGE.</item>
+<item>LARGE BARN.</item>
+<item>FENCED.</item>
+<item>MANY EXTRAS!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

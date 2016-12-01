@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sharon Vickers</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<mobile>(817)266-9020</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19922</id>
+<mls>9109835</mls>
+<house_location>1112 LAKEVIEW
+Azle, TEXAS 76020</house_location>
+<county>Tarrant</county>
+<price>$116,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>LAKE RIDGE ESTATES... VERY NICE HOME WITH FORMAL LIVING AND DINING. SPLIT MASTER IS EXTRA LARGE WITH TEXAS BATH. DEN OVERLOOKS DECK AND TREES. SHADY BACKYARD.</house_description>
+
+<move-in_date>1/1/00</move-in_date>
+<school_district>Azle</school_district>
+<sub-division>Lake Ridge</sub-division>
+<approx_size_sqft>1974</approx_size_sqft>
+<stories>1</stories>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>DECORATORS DELIGHT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

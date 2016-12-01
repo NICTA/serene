@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>1807 PETERSBURG</house_location>
+<price>$82,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Detached,Carport)</garage>
+<suburb>HEBRON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247588</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA HOLLMAN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>CALL BARB HOLLMAN 341-3394. NICE RANCH ON LEVEL LARGE LOT, LR HAS FP
+AND BOOKCASES, LARGE KIT, STOVE &amp; REFRIG, VAULTED CEILING FAMILY RM,
+WALK IN CLOSET, 1 CAR GARAGE AND CARPORT.</house_description>
+<construction>Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>100X200</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<family><dimension>16 X 15</dimension><level>1</level></family>
+<kitchen><dimension>17 X 12</dimension><level>1</level></kitchen>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>11 X 10</dimension><level>1</level></master>
+
+<directions>275 EXIT HEBRON LEFT 237 LEFT 20</directions>
+</house_listing>
+
+
+

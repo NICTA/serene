@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>0 RT. 3056</house_location>
+<price>$147,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1.5 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>MASON</suburb>
+<school_dist>MASON</school_dist>
+<mls>246857</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>DEBRA G MOORE</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>SPACIOUS CAPE COD WITH GREAT COUNTRY ATMOSPHERE. FORECLOSURE-- PRICE
+REFLECTS FINISHED BUT STILL BEING SOLD,'AS IS' WITH NO WARRANTIES
+EXPRESSED OR IMPLIED. MODULAR HOME.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>unk</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNK</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>16 X 16</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>16 X 16</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>13 X 10</dimension><level>1</level></breakfast>
+<kitchen><dimension>13 X 23</dimension><level>1</level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 17</dimension><level>1</level></master>
+<study><dimension>12 X 16</dimension><level>1</level></study>
+
+<directions>FROM MAYSVILLE GO AA HWY TO MOYER ROAD, TAKE R,
+TAKE R AT RT 3056, ON CORNER.</directions>
+</house_listing>
+
+
+

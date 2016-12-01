@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>51 COOL SPRINGS</house_location>
+<price>$389,500</price>
+<rooms>10</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Side)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>250307</mls>
+<house_type>Single Family</house_type>
+<firm>ZARING REALTY, INC.</firm>
+<firm_phone>(513) 489-8849</firm_phone>
+<agent>DOUGLAS C HINGER</agent>
+<agent_phone>(513) 489-8849</agent_phone>
+<house_description>ZARING QUALITY BUILT FOR DETAILS. CALL AGENT AT 606-485-1503.</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>12 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 13</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>21 X 14</dimension><level>1</level></breakfast>
+<dining><dimension>14 X 15</dimension><level>1</level></dining>
+<family><dimension>19 X 19</dimension><level>1</level></family>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 9</dimension><level>1</level></laundry>
+<master><dimension>15 X 19</dimension><level>1</level></master>
+<recreation_room><dimension>22 X 16</dimension><level>2</level></recreation_room>
+<study><dimension>14 X 15</dimension><level>2</level></study>
+
+<directions>I-75 S TO W ON US 42, UNION EX, COMMUNITY ON L
+ACROSS FROM RYLE HIGH SCHOOL</directions>
+</house_listing>
+
+
+

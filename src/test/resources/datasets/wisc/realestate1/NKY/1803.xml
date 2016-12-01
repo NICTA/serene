@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>355 HWY 1054</house_location>
+<price>$53,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>249697</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>MYRNA FLOYD</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>GREAT LOCATION-LEVEL ACREAGE W/FRONTAGE ON 22 AND 1054. 12X65 MH W/TIP
+OUT NEW CARPET AND VINYL,PAINT,NEWER FURNACE AND AC,THIS IS A MUST
+SEE! EMAIL AT MGFLOYD@AOL.COM</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 8</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 8</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 5</dimension><level>1</level></laundry>
+<living><dimension>17 X 15</dimension><level>1</level></living>
+<master><dimension>10 X 9</dimension><level>1</level></master>
+
+<directions>75S TO X154,L TO L ON US25 TO R ON KY22 TO R
+1054 OR 27S TO 330W TO 1054</directions>
+</house_listing>
+
+
+

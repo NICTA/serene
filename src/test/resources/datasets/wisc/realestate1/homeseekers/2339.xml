@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1937 has 2 bedroom(s), 2 bath(s) , 1 car
+detached garage and approximately 1740 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Daniela Bonetti</agent_name>
+<direct>305-582-1639</direct>
+<office>305-674-9714</office>
+<firm_name>Situs Realty, Inc.
+Lic. Real Estate Broker</firm_name>
+<phone>305-674-9714</phone>
+<fax>305-674-8259</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$239,000</list_price>
+<location>361 Collins Av #A8</location>
+<neighborhood>The President Condo</neighborhood>
+<mls>M775705</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1740 (approx)</square_feet>
+<year_built>1937</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

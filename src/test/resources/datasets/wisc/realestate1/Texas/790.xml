@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Mayer Realty</name>
+<location>974 East Austin St. Giddings, TX 78942</location>
+<office>(409)542-2696</office>
+<toll_free></toll_free>
+<fax>(409)542-2554</fax>
+<email>mayerrealty@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Rudy Mayer</name>
+<office>(409)542-2696</office>
+<fax>(409)542-1715</fax>
+<mobile>(409)540-3148</mobile>
+<email>mayerrealty@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>712</id>
+<mls></mls>
+<house_location>Country Club
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$125,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>4 Br, 2 Ba. Brick, swimming pool, hot tub on country club area, on approximately 3 acres.    Trees. A new septic system has  been installed.  Owner has purchased another home and will consider any reasonable offer.  Property is currently leased.</house_description>
+
+<school_district>Giddings</school_district>
+<sub-division>Cccc</sub-division>
+<stories>1</stories>
+<approx_acres>3</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<golf_course>Yes</golf_course>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

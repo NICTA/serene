@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Wew. Open floorplan in golf course community. Immaculetely kept. Huge
+master bedrm. Large closets. Gas heat. 1 car garage.</house_description>
+
+<agent_name>Melany Barnes</agent_name>
+<office>757-547-9691</office>
+<firm_name>William E. Wood &amp; Associates</firm_name>
+<phone>757-547-9691</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$149,000</list_price>
+<location>Virginia Beach, VA 23462</location>
+<mls>9923868</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<type>Townhouse</type>
+<style>Townhouse</style>
+<square_feet>1900 (approx)</square_feet>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<rooms>Master Bedroom</rooms>
+<view>Golf Course View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Attic Fan, Breakfast Room, Foyer, Garage Door Opener, Pantry,Skylights, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

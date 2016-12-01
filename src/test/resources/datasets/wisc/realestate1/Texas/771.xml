@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Steve Butler</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>steve@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19095</id>
+<mls>53754</mls>
+<house_location>W6022 MYSTIC
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$390,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>NEW CONSTRUCTION.  New Westway Custom Builders golf course home on #17 of Applerock.  3 bedrooms, 3 baths, plus study.  Nice trees and great view of #17 green.  Will finish in January.  Specs and floor plan available.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay West</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>NEW CONSTRUCTION BY WESTWAY CUSTOM BUILDERS</item>
+<item>ON #17 GREEN OF APPLEROCK WITH GREAT VIEW</item>
+<item>3 BEDROOMS PLUS STUDY</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Max</email>
+</firm_information>
+
+<agent_information>
+<name>Nelson</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12350</id>
+<mls>176421</mls>
+<house_location>12507 Lima Dr.
+Houston, TEXAS 77099</house_location>
+<county>Harris</county>
+<price>$85,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Very nice house with many updates. AC 6-98, vinyl siding, cermic tile in kitchen, breakfast, utility, den, entry &amp; hall. Gorgeous kitchen. replaced counter tops in kitchen and baths. Plantation shutters. Recent Paint &amp; wallpaper up to $1500.00 closing costs. Warranty</house_description>
+
+<school_district>Alief Isd</school_district>
+<sub-division>Brookfield East</sub-division>
+<approx_size_sqft>1869</approx_size_sqft>
+<stories>1</stories>
+<year_built>1974</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Covered Wood Deck</item>
+<item>Detached Garage</item>
+<item>Quiet Neighborhood</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Beth King</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)663-0102</mobile>
+<email>bking@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21119</id>
+<mls>526836</mls>
+<house_location>121 Spanish Oak
+Elgin, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$179,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautiful custom home on 1.27 acre wooded corner lot. A leaded glass front door and large foyer lead you into a wonderful open floor plan with high ceilings, a custom fireplace in the living room, berber carpet and ceramic tile floors, walk-in closets, and a master with double vanities and a separate shower. Big covered porches front and rear, heat pump, energy package, lots of storage and a shop area in the garage. Located in The Arbors of Dogwood Creek with lots of ammenities just a short drive from Austin employers. It's a great place to call home!</house_description>
+
+<school_district>Elgin Isd</school_district>
+<sub-division>Arbors At Dogwood Creek</sub-division>
+<approx_size_sqft>1826</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1.27ac</approx_lot_size>
+<approx_acres>1.27</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>3/2.5/2 Custom 1998 Home</item>
+<item>Wooded 1.27 acre Corner Lot</item>
+<item>Restricted Subdivision</item>
+<item>Heat Pump and Energy Package</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

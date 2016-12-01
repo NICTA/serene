@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 2 bath(s) , 2 car garage.
+Rooms include master bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Kurtis Forstie</agent_name>
+<office>623-878-8500</office>
+<firm_name>John Hall &amp; Associates</firm_name>
+<phone>623-878-8500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$157,900</list_price>
+<location>Phoenix, AZ 85027</location>
+<mls>1464875</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1 TO 1.9 AC</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Dishwasher, Eat In Kitchen, Great Room,Kitchen Island, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

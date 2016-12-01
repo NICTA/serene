@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1906 has 4 bedroom(s), 2 bath(s) and
+approximately 1440 square feet of living area.</house_description>
+
+<agent_name>Marilyn Brath</agent_name>
+<direct>303-898-0689</direct>
+<office>303-771-9400</office>
+<firm_name>RE/MAX Masters Inc</firm_name>
+<phone>303-771-9400</phone>
+<fax>303-771-6944</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$217,900</list_price>
+<location>1524 N Fillmore St</location>
+<neighborhood>City Park S</neighborhood>
+<mls>335131</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1440 (approx)</square_feet>
+<year_built>1906</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

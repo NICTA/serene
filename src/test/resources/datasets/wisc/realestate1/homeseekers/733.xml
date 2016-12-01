@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1970 has 4 bedroom(s), 3
+bath(s) , 2 car garage and approximately 2213 square feet of living
+area. Features include view, private pool, private spa, patio,
+fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Rex Golos</agent_name>
+<direct>520-745-5022</direct>
+<office>520-877-3500</office>
+<firm_name>Advantage, Realtors</firm_name>
+<phone>520-877-3500</phone>
+<fax>520-877-3501</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$206,000</list_price>
+<location>3510 N Prescott Pl</location>
+<mls>2001419</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2213 (approx)</square_feet>
+<lot_size>224 X 221 IRREG</lot_size>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<spa>Yes</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

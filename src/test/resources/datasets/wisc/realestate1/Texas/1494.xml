@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Enid Harrel</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18345</id>
+<mls>R25971</mls>
+<house_location>719 East Hoffman
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$41,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>1 story, 3 bedroom, 1 bath home in Sarita Park.  Has hardwood floors, large living room, eat-inkitchen in nice neighborhood.  Good investment property!  Has vinyl and wood floors with uncovered patio.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Sarita Park #1</sub-division>
+<approx_size_sqft>1076</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>70 x 160</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>GOOD INVESTMENT PROPERTY!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

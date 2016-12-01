@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20169</id>
+<mls>6198</mls>
+<house_location>201 Saddleridge
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$239,500</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Builders Home On 3 AcresComplete Upgrades, Hardwood &amp; Tile Floor</house_description>
+
+<school_district>San Marcos Isd</school_district>
+<approx_size_sqft>3000</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Guest House</item>
+<item>Berber Carpet</item>
+<item>scenic View</item>
+<item>Workshop</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

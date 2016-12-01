@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Wendy Blair</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<mobile>(361)549-8101</mobile>
+<email>wendy.blair@realtor.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18830</id>
+<mls>139278</mls>
+<house_location>15273 Caravel
+Corpus Christi, TEXAS 78418</house_location>
+<county>Nueces</county>
+<price>$219,021</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Luxurious custom home. Open and airy. Situated on a wide canal. Large master bedroom downstairs. Tall ceilings with fans in every room. Boat pad, dog run, gas log fireplace + much more!</house_description>
+
+<school_district>Flour Bluff</school_district>
+<sub-division>Barataria Bay</sub-division>
+<approx_size_sqft>2295</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>64x110</approx_lot_size>
+<year_built>1996</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<golf_course>Yes</golf_course>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Public boat landing located next door!</item>
+<item>Right on Padre Island Keys.</item>
+<item>Ceramic tile kitchen and living area.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1999 has 2 bedroom(s), 2 bath(s) and
+approximately 1232 square feet of living area. Rooms include dining
+room. Features include private pool, air conditioning.</house_description>
+
+<agent_name>Rogert De Leon</agent_name>
+<direct>305-978-2044</direct>
+<office>305-221-7221</office>
+<firm_name>Century 21 Contine Century 21 Contine
+Lic. Real Estate Broker</firm_name>
+<phone>305-221-7221</phone>
+<fax>305-221-1866</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$285,000</list_price>
+<location>4775 Collins Av #2006</location>
+<neighborhood>Blue Diamond</neighborhood>
+<mls>D901168</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1232 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Intracoastal, Water front</location>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

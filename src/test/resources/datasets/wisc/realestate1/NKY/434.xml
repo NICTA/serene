@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>7305 S CENTRECREST</house_location>
+<price>$107,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247330</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>TRINA ELLIS-SCHRAGE</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*GORGEOUS RANCH OVERLOOKS WOODS*WBFP*LOFT &amp; CATH CEILINGS*EAT-IN
+KIT*DINING RM*LEDGES*STUDY W/FRENCH DRS*SOAKER TUB &amp; DOUBLE VANITY*1
+CAR GARAGE* ACROSS FROM POOL*2 EXERCISE RMS*STORM DOORS*CUSTOM WINDOW
+TREATMENTS*</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Ceramic</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>127</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 10</dimension><level>2</level></dining>
+<kitchen><dimension>12 X 12</dimension><level>2</level></kitchen>
+<laundry><dimension>11 X 7</dimension><level>2</level></laundry>
+<living><dimension>17 X 13</dimension><level>2</level></living>
+<master><dimension>17 X 13</dimension><level>2</level></master>
+<study><dimension>11 X 10</dimension><level>2</level></study>
+
+<directions>42 RT PLEASANT VALLEY TO RT OAKWOOD RD LT TO
+SUMMITS</directions>
+</house_listing>
+
+
+

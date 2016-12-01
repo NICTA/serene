@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>311 E 43</house_location>
+<price>$58,000</price>
+<rooms>6</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248833</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>KATHLEEN SHEAFFER</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>HANDYMAN SPECIAL. RENTS OFR $500/MO. TENANT PAYS ALL UTILITIES. NEWER
+FU RNACE</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Gravity</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>10 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>9 X 10</dimension><level>2</level></bedroom_4>
+<kitchen><dimension>11 X 13</dimension><level>1</level></kitchen>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>S. ON DECOURSEY TO LEFT ON 43RD ST.</directions>
+</house_listing>
+
+
+

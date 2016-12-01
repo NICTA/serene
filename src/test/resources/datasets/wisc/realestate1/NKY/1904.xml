@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>12042 RACHEL ANN</house_location>
+<price>$118,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>WALTON</suburb>
+<school_dist>WALTON</school_dist>
+<mls>249605</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>TELENA A ROBINSON</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>NEW CONSTRUCTION*BI-LEVEL FLOOR PLAN*ESTIMATED COMPLETION END OF
+MARCH* FINISHED LOWER LEVEL*CATHEDRAL CEILING*REAR DECK*LGE LOT*NEW &amp;
+GROWING SUB- DIVISION*STILL TIME TO PICK COLORS*UNDER ROOF*SPECIAL
+FINANCING AVAILABALE</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>10 X 14</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 9</dimension><level>1</level></dining>
+<family><dimension>20 X 10</dimension><level>L</level></family>
+<kitchen><dimension>12 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 9</dimension><level>L</level></laundry>
+<living><dimension>11 X 14</dimension><level>1</level></living>
+<master><dimension>10 X 13</dimension><level>1</level></master>
+
+<directions>I75 S RICHWOOD EXIT L TO R ON US 25 TO R ON H
+ALLEY TO L ON RACHEL ANN</directions>
+</house_listing>
+
+
+

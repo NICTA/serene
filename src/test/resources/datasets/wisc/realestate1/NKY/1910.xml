@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>13945 SALEM CREEK</house_location>
+<price>$169,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>(Detached)</garage>
+<suburb>-</suburb>
+<school_dist>WALTON</school_dist>
+<mls>248147</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>K Y BUDDE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>GO FROM EXPRESSWAY TO COUNTRY LIFE IN 2 MINUTES *THIS 15 ACRE
+HORSE/CATTLE FARM OFFERS COUNTRY LIVING W/CITY CONVENIENCE * 2 BARNS &amp;
+COMPLETELY FENCED EXCEPT FOR 30 FT *MUST CALL LISTING AGENT TO
+SCHEDULE APPOINTMENT</house_description>
+<construction>Brick,Alum</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Cistern,At Street</water>
+<sewer>Septic</sewer>
+<lot_dimensions>15 acres</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 9</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>11 X 9</dimension><level>1</level></breakfast>
+<family><dimension>16 X 14</dimension><level>L</level></family>
+<kitchen><dimension>16 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 7</dimension><level>L</level></laundry>
+<living><dimension>25 X 15</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>2</level></master>
+
+<directions>75 SO TO WALTON EXIT TURN R GO 1 BLOCK TO STOP
+SIGN L ON RT 6 LEFT ON SALEM CREEK</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This condominium built in 1940 has ? bedroom(s), 1 bath(s) and
+approximately 310 square feet of living area. Features include private
+pool, air conditioning.</house_description>
+
+<agent_name>Celaida Delgado</agent_name>
+<direct>262-0911</direct>
+<office>861-8500</office>
+<firm_name>Casablanca Real Es
+Lic. Real Estate Broker</firm_name>
+<phone>861-8500</phone>
+<fax>305-861-0027</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$75,000</list_price>
+<location>3120 Collins Av #507</location>
+<neighborhood>Atlantic Princess</neighborhood>
+<mls>M761768</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>310 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

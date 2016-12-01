@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 3+ level townhouse built in 1939 has 3 bedroom(s), 2 bath(s) and
+approximately 1911 square feet of living area. Rooms include dining
+room, master bedroom.</house_description>
+
+<agent_name>Edwin Scott</agent_name>
+<office>202-543-8060</office>
+<firm_name>Century 21 Ashby &amp; Associates, Inc.</firm_name>
+<phone>202-543-8060</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$74,900</list_price>
+<location>Washington, DC 20032</location>
+<mls>DC3063126</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<square_feet>1911 (approx)</square_feet>
+<lot_size>2230</lot_size>
+<year_built>1939</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

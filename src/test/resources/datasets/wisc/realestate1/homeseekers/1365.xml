@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1965 has 1 bedroom(s), 1 bath(s) , 1 car
+garage and approximately 667 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>James Matthews</agent_name>
+<direct>305-000-0000</direct>
+<office>305-531-5803</office>
+<firm_name>The Keyes Company,
+Lic. Real Estate Broker</firm_name>
+<phone>305-531-5803</phone>
+<fax>305-538-7018</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$70,000</list_price>
+<location>1620 West Av #602</location>
+<neighborhood>Twin Towers Condo</neighborhood>
+<mls>M772136</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>667 (approx)</square_feet>
+<year_built>1965</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

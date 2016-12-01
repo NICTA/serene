@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>J Morris</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<voice_mail>(713)267-5405</voice_mail>
+<email>bayou1@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12575</id>
+<mls></mls>
+<house_location>5420 BRAMBLE
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$89,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>EQUISITE 3BR,2BATH WITH POOL AND LOVELEY LANDSCAPED BACK YARD.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Briar Glen</sub-division>
+<approx_size_sqft>1807</approx_size_sqft>
+<stories>1</stories>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>POOL</item>
+<item>LANDSCAPED BACKYARD</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

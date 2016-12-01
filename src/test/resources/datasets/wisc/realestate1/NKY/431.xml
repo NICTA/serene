@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>6178 WILLOW HILL CT</house_location>
+<price>$108,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248730</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JOYCE D TURNER</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>NEWER ROOF &amp; WATER HEATER,NICE HOME ON CUL-DE-SAC,GREAT FENCED LEVEL
+YD W/ TREES &amp; MATURE LANDSCAPING,BREAKFAST BAR,CARPETED PLAYHOUSE OR
+STORAGE BARN DBL DRIVEWAY,BUILT-IN MICRO,WALKOUT BSMT,4TH BR CURRENTLY
+WALK-IN CLOSET</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>12 X 8</dimension><level>L</level></bedroom_4>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>21 X 12</dimension><level>L</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>HOPEFUL TO CAYTON TO BEEMON TO R ON FOX FUN TO R
+WILLOW HILL COURT</directions>
+</house_listing>
+
+
+

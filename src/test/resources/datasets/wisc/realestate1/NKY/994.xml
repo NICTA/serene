@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>203 STEVENSON</house_location>
+<price>$79,900</price>
+<rooms>5</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>249107</mls>
+<house_type>Single Family</house_type>
+<firm>PREFERRED PROPERTIES</firm>
+<firm_phone>(606) 371-4777</firm_phone>
+<agent>BRITT LANGMAN</agent>
+<agent_phone>(606) 371-4777</agent_phone>
+<house_description>GREAT STARTER HOME IN CONVENIENT LOCATION! NICE SIZE LIVING
+ROOM,EAT-IN KITCHEN WITH APPLIANCES,1 OR 2 BEDROOMS, 2 WONDERFUL
+ENCLOSED PORCHES &amp; GARAGE**NEWER C/A AND FURNANCE*UPDATED
+PLUMBING**VERY NICE BACKYARD!</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>see plat</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*</semiannual_taxes>
+<dining><dimension>10 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<living><dimension>11 X 24</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+<recreation_room><dimension>10 X 14</dimension><level>1</level></recreation_room>
+<study><dimension>8 X 11</dimension><level>1</level></study>
+
+<directions>DIXIE HIGHWAY TO STEVENSON</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Klepper</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>linda@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16231</id>
+<mls>52567</mls>
+<house_location>120 BOOTHILL
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$995,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>CONTRACT PENDING.  Waterfront home on 204 foot of open water.  2 boat lifts.  2 waverunner ramps.  This home has an open &amp; spacious floor plan with lots of storage.  Each bedroom has a beautiful water view.  Completely furnished.  Workshop with tools.  1 golf cart.  Large entertaining deck.  Quality built.  A must see!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Intercom, skylights, ceiling fans, wet bar</item>
+<item>Microwave, ice maker, water softener, compactor</item>
+<item>Disposal, dishwasher, oven, range, refrigerator</item>
+<item>Fishing pier, day dock, retaining wall, lake pump</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

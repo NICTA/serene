@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>3215 HIGH RIDGE</house_location>
+<price>$429,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Side,Oversized)</garage>
+<suburb>EDGEWOOD</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249368</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JANE ASHCRAFT-WEST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>ABSOLUTELY STUNNING GERDES &amp; FLESCH CUSTOM HOME!BEAUTIFUL,LEVEL,WOODED
+LOT/ CORIAN COUNTERS/CHERRY CABINETS/STUDY/1ST FL MASTER/3.5 BATHS/3
+CAR GARAGE/ 2 FIREPLACES/SPECTACULAR L.L. W/WALKOUT/PAINTED WOODWORK/&amp;
+MUCH MORE!</house_description>
+<construction>Brick,Stone</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>118 X 183</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>15 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 11</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>15 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>15 X 13</dimension><level>1</level></dining>
+<family><dimension>21 X 18</dimension><level>1</level></family>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 6</dimension><level>1</level></laundry>
+<master><dimension>20 X 13</dimension><level>1</level></master>
+<study><dimension>12 X 12</dimension><level>1</level></study>
+
+<directions>RT16 TO OLD TAYLOR MILL RD TO WAYMAN BRANCH TO
+HIGH RIDGE</directions>
+</house_listing>
+
+
+

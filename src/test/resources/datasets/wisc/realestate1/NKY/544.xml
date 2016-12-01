@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>47 THOMPSON</house_location>
+<price>$139,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>-</suburb>
+<school_dist>BEECHWOOD</school_dist>
+<mls>249588</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>JANET S ROBINSON</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM *REMODELED THRU-OUT *HARDWD FLRS *ANDERSEN WINDOWS *NEW
+STOVE &amp; DISHWASHER*NEW ROOF JAN/2000 *FIREPL+ FREESTANDING STOVE *WET
+BAR*LG DECK LG LEVEL YARD*OFFICE W/WALKOUT*ATTIC STORAGE*POSSESSION
+NEGOTIABLE*WARRANTY</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stove,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50 x 150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 8</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>28 X 10</dimension><level>2</level></bedroom_3>
+<family><dimension>22 X 13</dimension><level>L</level></family>
+<kitchen><dimension>12 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 6</dimension><level>L</level></laundry>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>NORTH I-75 1ST FT MITCHELL EXIT R DIXIE HWY L ON
+BURDSALL R BRICE L ON THOMPSON</directions>
+</house_listing>
+
+
+

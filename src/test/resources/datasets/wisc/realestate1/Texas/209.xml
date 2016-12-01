@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Huff</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-0075</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20260</id>
+<mls>523284</mls>
+<house_location>10C BLUE FLAME RD.
+Cedar Creek, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$72,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>NEW CONSTRUCTION.  15 MINUTES TO AIRPORT.  GREAT STARTER HOME.  HARDY BOARD EXTERIOR.  BUILDER IS PAYING FOR SURVEY.</house_description>
+
+<school_district>Cedar Creek</school_district>
+<sub-division>Bluebonnet Acres</sub-division>
+<stories>1</stories>
+<approx_acres>1.3</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>PRIVATE SETTING WITH TOWERING OAK TREES</item>
+<item>LARGE COVERED FRONT PORCH</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

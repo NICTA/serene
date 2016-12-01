@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1948 has ? bedroom(s), 1 bath(s) and
+approximately 330 square feet of living area. Features include private
+pool, air conditioning.</house_description>
+
+<agent_name>Shawn Spencer</agent_name>
+<direct>305-410-4375</direct>
+<office>305-932-3233</office>
+<firm_name>Arvida Realty Serv Arvida Realty Serv
+Lic. Real Estate Broker</firm_name>
+<phone>305-932-3233</phone>
+<fax>305-932-7414</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$62,800</list_price>
+<location>6345 Collins Av #929</location>
+<neighborhood>The Casablanca Condo</neighborhood>
+<mls>M760889</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>330 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

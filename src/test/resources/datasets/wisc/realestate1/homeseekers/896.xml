@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level home built in 1930 has 2 bedroom(s), 2 bath(s) and
+approximately 1530 square feet of living area. Rooms include den,
+dining room, living room, bonus room, master bedroom. Features include
+air conditioning.</house_description>
+
+<agent_name>Bruce Uliss</agent_name>
+<direct>202-841-5000</direct>
+<office>202-363-9700</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>202-363-9700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$259,000</list_price>
+<location>Washington, DC 20016</location>
+<mls>DC3046926</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>CoOp</type>
+<square_feet>1530 (approx)</square_feet>
+<year_built>1930</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Den, Dining Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jim Smith</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<mobile>(512)787-0383</mobile>
+<email>amelia_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16973</id>
+<mls></mls>
+<house_location>FM 1185/Home on 2.875 acres
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$98,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>A great country home....needs some landscaping, but it is extremely well located for quick access to South Austin and the new airport!  In good condition and has the  possibility of enclosing the garage.  The remaining 2.125 acres will be sold with restrictions against mobile and modular homes.  Rented and shown only with notice of at least 24 hours.  Agent or staff of Countywide will call to set up an appointment.</house_description>
+
+<school_district>Lockhart</school_district>
+<sub-division>Mesquite Grove Subdivision</sub-division>
+<stories>1</stories>
+<approx_acres>2.88</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>In good condition</item>
+<item>Quick access to Austin and the airport</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

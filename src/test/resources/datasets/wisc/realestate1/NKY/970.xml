@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>948 MAPLE AV</house_location>
+<price>$45,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>3-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car None</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>250343</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>DENISE FIRTH</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>REHABBERS DELIGHT! 2 BR, 3 FULL BA, LIVINGROOM, DININGROOM. FAMILYROOM
+COULD BE 3 BR. NICE FENCED IN REAR YARD. FREE ENTERTAINMENT FOR
+FOOTBALL GANS FROM FRONT PORCH VIEW OF DAYTON HIGH FOOTBALL FIELD!</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30X110</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>L</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>B</level></bath_3>
+<bedroom_2><dimension>10 X 9</dimension><level>U</level></bedroom_2>
+<dining><dimension>13 X 11</dimension><level>L</level></dining>
+<family><dimension>11 X 11</dimension><level>L</level></family>
+<kitchen><dimension>9 X 9</dimension><level>L</level></kitchen>
+<living><dimension>12 X 12</dimension><level>L</level></living>
+<master><dimension>11 X 10</dimension><level>U</level></master>
+
+<directions>RT 8 TURN R ON WALNUT L ON 9TH THEN R ON MAPLE</directions>
+</house_listing>
+
+
+

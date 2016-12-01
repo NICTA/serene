@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Elke Cernik</name>
+<office>(254)542-1800</office>
+<fax>(254)542-1839</fax>
+<mobile>(254)290-4238</mobile>
+<email>elke@seacove.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19588</id>
+<mls>88080</mls>
+<house_location>RT1, Box 440
+Kempner, TEXAS 76539</house_location>
+<county>Lampasas</county>
+<price>$50,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Mobile home in the Oakview Hill subdivision.  Formal dining room has built-in china cabinets.  Roof was replaced in 1995.  Mobile home sits on concrete blocks held down by metal &amp;quot;hold downs&amp;quot;.  Lot is originally 7.42 acres, but owner is splitting lot to sell 5 acres with modular home.</house_description>
+
+<school_district>Lampasas Isd</school_district>
+<sub-division>Oakview Hill</sub-division>
+<approx_size_sqft>1064</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>5</approx_acres>
+<year_built>1981</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>$1 MOVE IN</item>
+<item>Shade trees/fruit trees</item>
+<item>Portable Building</item>
+<item>Covered Porch, Open Patio</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

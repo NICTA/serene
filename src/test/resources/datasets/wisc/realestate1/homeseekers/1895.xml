@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1983 has 4 bedroom(s), 4
+bath(s) , 4 car garage and approximately 4647 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, private pool, private spa, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Anne Ferro</agent_name>
+<direct>520-296-6484</direct>
+<office>520-299-2201</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-299-2201</phone>
+<fax>520-529-1548</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$775,000</list_price>
+<location>5601 E Rio Verde Vista Dr</location>
+<mls>9917641</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<levels>2</levels>
+<garage>4</garage>
+<type>Single Family</type>
+<square_feet>4647 (approx)</square_feet>
+<lot_size>165X180X143X186</lot_size>
+<year_built>1983</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered, Screened-in</patio>
+<pool>Yes</pool>
+<rooms>Den, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Guest House
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

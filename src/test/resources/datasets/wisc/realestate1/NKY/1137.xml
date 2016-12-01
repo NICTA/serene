@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>4810 ELLISTON-MT.Z</house_location>
+<price>$119,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>MT.ZION</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249951</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>ANGELA SIMMONS</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>COUNTRY HOME - COULD BE MOTHER/DAUGHTER OR RENT APT LOCATED OVER 2 CAR
+GARAGE. HOME SITS ON 3.2 ACRES. REMODELED W/NEW WINDOWS, SHINGLES,
+SIDING, INSULATION, ETC. CALL ANGELA FOR YOUR APPT TODAY.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>8 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 5</dimension><level>1</level></laundry>
+<living><dimension>23 X 16</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level>1</level></master>
+
+<directions>I-75S EXIT 166 R TO STOP SIGN R ON 2942 @ 3 WAY
+SS GO L TO FIRST R PROP 5 MI ON L</directions>
+</house_listing>
+
+
+

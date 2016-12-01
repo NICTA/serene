@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>8 GOODRIDGE</house_location>
+<price>$71,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249907</mls>
+<house_type>Single Family</house_type>
+<firm>HOME QUEST REALTY</firm>
+<firm_phone>(606) 371-6000</firm_phone>
+<agent>DAVE GUTZEIT</agent>
+<agent_phone>(606) 371-6000</agent_phone>
+<house_description>COZY HOME WITH FULL BASEMENT-UPDATED WIRING W/CIRCUIT BREAKERS NEW
+DRIVE- WAY,ROOF, HEAVY INSULATION IN ATTIC &amp; WALLS. HUGE LOT. GREAT
+LOCATION.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>75x165</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 13</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>13 X 14</dimension><level>1</level></master>
+<study><dimension>7 X 5</dimension><level>1</level></study>
+
+<directions>DIXIE HWY TO GOODRIDGE AT TOM GILL CHEV 2ND HOME
+ON LEFT.</directions>
+</house_listing>
+
+
+

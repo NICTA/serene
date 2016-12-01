@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>INA PERLMAN</name>
+<office>(713)621-4953</office>
+<fax>(713)621-4953</fax>
+<voice_mail>(713)621-4953 108</voice_mail>
+<email>mob@onramp.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11485</id>
+<mls>158421</mls>
+<house_location>5421 CHEVY CHASE
+Houston, TEXAS 77056</house_location>
+<county>Harris</county>
+<price>$299,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>QUIET COURTYARD SETTING! QUALITY THROUGHOUT! BEAUTIFULLY REMODELED TOWNHOME BY OWNER / DESIGNER! GRACIOUS LIVING / DINING ROOMS! DOWNSTAIRS DEN / 3RD BEDROOM HAS FULL BATH! HIGH CEILINGS! BOOKCASES! MOLDINGS! WOODBURNING FIREPLACE! FANS! LOTS OF STORAGE! MASTER WITH SITTING AREA AND THREE CLOSETS! WASHER/DRYER STAY</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>John Dreaper</sub-division>
+<approx_size_sqft>2116</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>2085</approx_lot_size>
+<year_built>1969</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>QUIET COURTYARD SETTING</item>
+<item>MANY FINE DETAILS</item>
+<item>BEAUTIFULLY REMODELED</item>
+<item>MASTER WITH SITTING AREA &amp; THREE CLOSETS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

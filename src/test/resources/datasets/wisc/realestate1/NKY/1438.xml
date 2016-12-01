@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>90 SIMON CT.</house_location>
+<price>$154,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247829</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>PATTY COSLETT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*4 BR 2 STY SITUATED ON CUL-DE-SAC*LG LEV LOT*1ST FLR FR OFF KIT/BR
+AREA W/ ISLAND*PARQUET ENT*10X15 DECK*2 CAR ATT GAR*3 1/2 BATHS*FIN LL
+W/DBL W/O DRS*GAS HEAT*ALL APPL STAY*CEIL FANS*SUMMIT VW SCH*MIN TO
+275*ONLY 6 YR OLD</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>13 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 8</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>13 X 10</dimension><level>1</level></breakfast>
+<family><dimension>19 X 11</dimension><level>1</level></family>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>20 X 10</dimension><level>L</level></laundry>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>17 X 12</dimension><level>2</level></master>
+<recreation_room><dimension>9 X 9</dimension><level>L</level></recreation_room>
+<study><dimension>21 X 13</dimension><level>L</level></study>
+
+<directions>3L TO R ON FLEMING TO R ON PRITCHARD TO L ON
+SIMON CT.</directions>
+</house_listing>
+
+
+

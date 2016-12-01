@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shirley Johnson</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>sjohnson@hpnc.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21080</id>
+<mls>9125325</mls>
+<house_location>112 CR 414
+Keene, TEXAS 76059</house_location>
+<county>Johnson</county>
+<price>$65,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Well maintained home with low maintenance siding and some brick trim.</house_description>
+
+<school_district>Keene</school_district>
+<approx_size_sqft>1222</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.55</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

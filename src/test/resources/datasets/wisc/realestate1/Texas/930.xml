@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Mark Fox Real Estate</name>
+<location>907 Hwy 281 Marble Falls, TX</location>
+<office>(830)693-8884</office>
+<toll_free></toll_free>
+<fax>(830)693-6619</fax>
+<email>markfox@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Royce Smith</name>
+<office>(830)693-8884</office>
+<fax>(830)693-6619</fax>
+<email>markfox@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>8542</id>
+<mls>49737</mls>
+<house_location>305 Island Drive
+Horseshoe Bay, TEXAS</house_location>
+<county>Llano</county>
+<price>$375,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful 3 story waterfront townhome-open water facing east/ 4 bedroom-4 bath-2 fireplaces-3 decks-boatlift.  You must see this great home.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>3</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>2</fire_places>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Retaining Wall, Great View</item>
+<item>Day Dock, Ceiling Fans, Storm Windows</item>
+<item>Rile Roof</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

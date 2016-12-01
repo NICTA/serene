@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>1001 SHELBY</house_location>
+<price>$79,900</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>247603</mls>
+<house_type>Single Family</house_type>
+<firm>CASSON REALTY</firm>
+<firm_phone>(606) 635-5805</firm_phone>
+<agent>LAMBERT SCHEBEN</agent>
+<agent_phone>(606) 635-5805</agent_phone>
+<house_description>HOUSE HAS EVERY THING NEW, SIDING,WINDOWS,ELECTRIC,2 FURNACES &amp; 2
+CENTRAL AIR COULD BE CONVERTED TO A 2 FAMILY SEPERATE ELEC AND GAS
+WOULD MAKE A GOOD MOTHER AND DAUGHTER HOIME CONVENT TO SHOPING AND
+TOWN</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>9999999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 17</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 15</dimension><level>2</level></bedroom_4>
+<dining><dimension>15 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>13 X 15</dimension><level>1</level></master>
+
+<directions>US 27 SOUTH TO FALMOUTH LEFT AT SHELL STAT.TO
+SHELBY AT CORNER OF SHELBY&amp;BARKLE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>631 MAIN</house_location>
+<price>$119,900</price>
+<rooms>6</rooms>
+<bedrooms>1</bedrooms>
+<baths>2-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247580</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA SONDGERATH</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>ZONING ALLOWS COMMERCIAL &amp; RESIDENTIAL! APPROX 900 SQ FT RETAIL SPACE
+ON 1ST FLR. LOFT/APT ON 2ND &amp; 3RD. LEASE HISTORY 800/MO. &amp; 600MO.
+GREAT EXPOSURE ON BLOCK,PRIVATE ACCESS TO APT. BUYER WARRANTY
+INCLUDED.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>20x90</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>3</level></bath_2>
+<bath_3><dimension>PART</dimension><level>2</level></bath_3>
+<family><dimension>16 X 14</dimension><level>1</level></family>
+<kitchen><dimension>11 X 9</dimension><level>2</level></kitchen>
+<living><dimension>18 X 14</dimension><level>2</level></living>
+<master><dimension>21 X 13</dimension><level>3</level></master>
+<recreation_room><dimension>15 X 13</dimension><level>1</level></recreation_room>
+<study><dimension>16 X 14</dimension><level>1</level></study>
+
+<directions>W 6TH TO R MAIN</directions>
+</house_listing>
+
+
+

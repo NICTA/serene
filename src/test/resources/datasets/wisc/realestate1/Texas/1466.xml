@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Terri Eller</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email>terrieller@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17087</id>
+<mls>137373</mls>
+<house_location>3731 PERRY LANE
+Corpus Christi, TEXAS</house_location>
+<county>Nueces</county>
+<price>$124,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>YOUR &amp;quot;DREAM HOME&amp;quot; IS RIGHT HERE !! BIG &amp; BEAUTIFUL! 4/2/2 BRICK W/CEDAR SIDING. NEW A/C AND CARPET '97, UPDATED KET.NEW COUNTERS AND VINYL.  COZY FAMILY ROOM WITH FIREPLACE. OPEN DECK HUGE 1 ACRE WOODED BACK YARD. WITH DECK, FENCED, HORSE-OK. RV PARKING SIDE WRAP GARAGE . CISD. KIT.AND POOH CURTAINS GO, CHECK BACK YARD FOR DOG.</house_description>
+
+<school_district>Callallen</school_district>
+<approx_size_sqft>1673</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1</approx_acres>
+<year_built>1973</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>LARGE 1 ACRE.HORSES-OK</item>
+<item>BEAUTIFUL LANDSCAPED</item>
+<item>ON A CAL-DE-SAC</item>
+<item>BEAUTIFULLY UPDATED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

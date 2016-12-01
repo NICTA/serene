@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>891 KYLES LANE</house_location>
+<price>$189,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>FT WRIGHT</suburb>
+<school_dist>KENTON CO</school_dist>
+<mls>249768</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>EUGENE WHITTLE</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>RELAXED RESIDENCE ON 12 WOODED ACRS SET IN SECLUSION - APPEALING
+GALLEY KITCHEN-FAMILY ROOM- SKYLIGHTS- LIGHT &amp; AIRY AURA, SOARING
+CATH. CEILINGS MAIN LEVEL MASTERBDRM W/WHIRLPOOL BATH. WALK-OUT BSMT-
+WRAP AROUND DECK</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stone</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>12.68 AC</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>16 X 13</dimension><level>1</level></bedroom_3>
+<dining><dimension>8 X 16</dimension><level>1</level></dining>
+<family><dimension>21 X 26</dimension><level>L</level></family>
+<kitchen><dimension>8 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>16 X 16</dimension><level>1</level></living>
+<master><dimension>16 X 16</dimension><level>2</level></master>
+
+<directions>I75 TO KYLES LN EXIT WEST OR I275 TO COV/ INDEP
+EXIT, NORTH ON MADISON TO LT KYLES</directions>
+</house_listing>
+
+
+

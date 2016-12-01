@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Bill Chess Real Estate</name>
+<location>714-B Chestnut Bastrop, TX 78602</location>
+<office>(512)303-3806</office>
+<toll_free></toll_free>
+<fax>(512)303-3839</fax>
+<email>bchess@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stephanie Nichols</name>
+<office>(512)303-3806</office>
+<fax>(512)303-3839</fax>
+<mobile>(512)332-4583</mobile>
+<email>NicholsS99@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18033</id>
+<mls>510444</mls>
+<house_location>291 Travis Rd., Paige
+Paige, TEXAS 78659</house_location>
+<county>Bastrop</county>
+<price>$90,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>North East of Bastrop off Hwy. 21 a well kept 3 Bed- 2 Bath on 0.79 Acres.  This home has a park-like setting with a covered porch, a walkway with lights, fountain, pond and fenced yard.  There's also a picnic table, iron patio furniture, and various fruit trees, in this immaculately manicured yard.  +/- 2  year old tin roof with insulation. Call to see this private peace haven. $90,000. File# N0006.</house_description>
+
+<school_district>Bastrop</school_district>
+<sub-division>Pioneer Pines Farm</sub-division>
+<approx_size_sqft>1344</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.79</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Beautiful Landscaping.</item>
+<item>Quiet piece of the country.</item>
+<item>Nice home and affordable.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

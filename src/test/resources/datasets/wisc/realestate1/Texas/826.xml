@@ -1,0 +1,48 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>John Chabot</name>
+<office></office>
+<fax></fax>
+<email>jchabot@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20404</id>
+<mls></mls>
+<house_location>194 West Oak Loop
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$157,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+
+<house_description>This &amp;quot;Designed for Living&amp;quot; American home is the answer to the American Dream!  Large great room with tray ceiling.  Additional office or study.  Modern kitchen and semi-formal dining.  Three spacious bedrooms and two baths.Exquisite master bedroom with a tray ceiling and accented with a posh master bath with a whirlpool tub and separate shower.  Split walk-in closets and vanitied!  Quaint country front porch and large back porch make for fine outdoor living.  Lots of standard special features! Call John or e-mail him, jbchabot@aol.com, for a complete list of features.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>West Oaks</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>American Dream Home!</item>
+<item>Large Great Room and Additional Office/Study!</item>
+<item>Modern Kitchen and Semi-Formal Dining!</item>
+<item>Exquisite Master Suite!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

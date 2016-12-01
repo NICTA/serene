@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>210 COBBLESTONE CT</house_location>
+<price>$114,700</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>COLD SPRING</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249631</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>JAMIE KLARE HENSCHEN</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>END UNIT WITH LARGE BEDROOMS. WALK-IN CLOSET IN MASTER. KITCHEN OPENS
+ON PRIVATE PATIO. ALL NEW APPLIANCES STAY. NEW FURNACE/AC. A MUST SEE!
+GREAT CONDITION!</house_description>
+<construction>Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>OF RECORD</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>130</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>12 X 20</dimension><level>2</level></bedroom_2>
+<dining><dimension>14 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>3 X 7</dimension><level>2</level></laundry>
+<living><dimension>14 X 17</dimension><level>1</level></living>
+<master><dimension>12 X 17</dimension><level>2</level></master>
+
+<directions>S ON US27-R ON BUNNING-R ON SPRINGHOUSE-R ON
+RIVELET-L ON CREESTONE-L ON COBBLESTON</directions>
+</house_listing>
+
+
+

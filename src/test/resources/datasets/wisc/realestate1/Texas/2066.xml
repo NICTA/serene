@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Twila Mouttet</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>16637</id>
+<mls>131215</mls>
+<house_location>4813 QUEEN
+Corpus Christi, TEXAS 78412</house_location>
+<county>Nueces</county>
+<price>$45,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>NEW PAINT AND SOME UPDATING, LARGE YARD, CENTRAL HEAT. NICE AREA.</house_description>
+
+<school_district>Corpus Christi</school_district>
+<sub-division>Southside #4</sub-division>
+<stories>1</stories>
+<approx_lot_size>55X110</approx_lot_size>
+<year_built>1951</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

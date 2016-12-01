@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>10006 BRAXTON</house_location>
+<price>$165,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>LOT #44</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>249569</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>K Y BUDDE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM*MUST VIEW THIS SPACIOUS RANCH FEATURING A 1ST FLR LAUNDRY
+* LG BREAKFAST RM W/GAS MARBLE FIREPLCE &amp; CERAMIC TILE*MODEL OPEN SAT
+&amp; SUN * 2-4PM * WE WILL BUILD ON YOUR LOT OR OURS * CALL K.Y. BUDDE
+525-5787</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>90 x 150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>11 X 8</dimension><level>1</level></breakfast>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>1</level></laundry>
+<living><dimension>18 X 16</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>I-75 SO TO FLORENCE/UNION EXIT GO SOUTH ON 42 TO
+LEFT ON BRAXTON-RD PAST KROGERS</directions>
+</house_listing>
+
+
+

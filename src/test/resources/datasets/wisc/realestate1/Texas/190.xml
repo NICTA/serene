@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Jeanette Shelby Real Estate</name>
+<location>101 W. 1st Street, Suite D Elgin, TX 78621</location>
+<office>(512)281-3412</office>
+<toll_free>(800)231-5289</toll_free>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeanette Shelby</name>
+<office>(512)285-5289</office>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20818</id>
+<mls>525588</mls>
+<house_location>719 County Line Road
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$139,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Two story farmhouse with wrap-around porch. Wood floors upstairs. Large kitchen with lots of cabinets. Extra room upstairs could be a third bedroom. Acreage is fenced with scattered trees, 3 car carport and pond.</house_description>
+
+<school_district>Elgin</school_district>
+<sub-division>Historic Harris Oaks</sub-division>
+<approx_size_sqft>1680</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>10</approx_acres>
+<year_built>1980</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>3</carport_spaces>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Fenced and x-fenced for horses or cattle.</item>
+<item>Pasture is in coastal bermuda.</item>
+<item>Scattered oaks and pecans.</item>
+<item>Located 30 minutes from Austin.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>Helen Michael</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11471</id>
+<mls>166276</mls>
+<house_location>820 E. 29TH
+Houston, TEXAS</house_location>
+<county>Harris</county>
+<price>$89,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>CHARMING TRADITIONAL WITH AMENITIES INCLUDING HARDWOODS, TILE COUNTERTOPS, NICE FRONT PORCH AND GOOD STORAGE. STORAGE. LARGE YARD AND EXTRA ROOM. HIGH CEILINGS AND WOODBURNING FIREPLACE.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Sunset Heights</sub-division>
+<approx_size_sqft>1288</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>15000</approx_lot_size>
+<year_built>1920</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>820 E. 29TH</item>
+<item>SUNSET HEIGHTS</item>
+<item>TILE COUNTERTOPS, FIREPLACE</item>
+<item>LARGE YARD</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

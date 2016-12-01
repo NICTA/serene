@@ -1,0 +1,67 @@
+<house_listing>
+<firm_information>
+<name>LEE EASTER, INC., REALTORS &amp; BUILDERS</name>
+<location>7504 Canna Cove Austin, TX 78759</location>
+<office>(512)255-1111</office>
+<toll_free>(800)680-6648</toll_free>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lee Easter</name>
+<office>(512)255-1111</office>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>9495</id>
+<mls>472505</mls>
+<house_location>11709 Spotted Horse Dr.
+Austin, TEXAS 78759</house_location>
+<county>Travis</county>
+<price>$119,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Open plan that was way ahead of its time!  The one eating area, called a breakfast area, can easily be furnished as a formal dining area!  Large single living area, extremely clean and shows pride of ownership!  Lots of landscaping and a comfortable backyard with great oak trees!  Four sides brick construction, double pane windows, mud set tile around the bathtubs.  Close to parks, schools, and the Arboretum shopping areas.</house_description>
+
+<move-in_date>8/1/98</move-in_date>
+<school_district>Austin ISD</school_district>
+<sub-division>Mesa Park</sub-division>
+<approx_size_sqft>1480</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>70 x 116</approx_lot_size>
+<year_built>1977</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>4 SIDES BRICK CONSTRUCTION</item>
+<item>DOUBLE PANE WINDOWS</item>
+<item>LOTS OF LANDSCAPING &amp; OAK TREES</item>
+<item>EXTRA CLEAN, PRIDE OF OWNERSHIP SHOWS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

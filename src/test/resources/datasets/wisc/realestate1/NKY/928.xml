@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>11 PERSIMMON GR</house_location>
+<price>$129,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248149</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>RAYMOND BEETEM</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>UNIQUE, BRICK CAPE COD SITUATED ON LG LOT. 2 CAR ATTACHED GARAGE
+W/BREEZE- WAY. COUNTRY SETTING BUT CLOSE TO EVERYTHING. IMMEDIATE
+POSSESSION.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>2</level></bedroom_3>
+<dining><dimension>12 X 13</dimension><level>1</level></dining>
+<family><dimension>12 X 16</dimension><level>1</level></family>
+<kitchen><dimension>9 X 18</dimension><level>1</level></kitchen>
+<living><dimension>12 X 19</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>US27S, LT ON HWY 10, RT ON PERSIMMON GR HOUSE ON
+RIGHT</directions>
+</house_listing>
+
+
+

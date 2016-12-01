@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Banks Richard</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)784-4990</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20459</id>
+<mls>526375</mls>
+<house_location>162 Artesian Dr.
+Cedar Creek, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$50,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>TWO OLDER HOMES, WELL MAINTAINED ON 2 BEAUTIFUL ACRES.  COULD LIVE IN ONE AND RENT THE OTHER.  LARGER HOME HAS BEEN RECENTLY REMODELED, BUT NEEDS A LITTLE FINISH OUT.</house_description>
+
+<school_district>Cedar Creek</school_district>
+<sub-division>Artesian Oaks</sub-division>
+<approx_acres>2</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>LARGE TREES</item>
+<item>COVERED PATIO</item>
+<item>BACK ON THE MARKET AT A LOWER PRICE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

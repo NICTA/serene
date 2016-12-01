@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>48 HWY 609</house_location>
+<price>$79,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>3 Cars (Detached,Oversized)</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDELTON</school_dist>
+<mls>249169</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>ROY CAUDILL</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>NEWER MOBILE IN THE COUNTRY ON ALMOST 2 ACRES OVERLOOKING THE SENIC
+LICKING RIVER WITH 2 LARGE NEW GARAGES, ONE WITH A 12X12 DOOR LIVE IN
+THIS ONE OR MAKE IT YOUR GET AWAY! FOR A PRIVATE SHOWING CALL ROY
+781-5100 ON $79,900.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 11</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>10 X 13</dimension><level>1</level></kitchen>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level>1</level></master>
+
+<directions>S ON RT 27 LEFT ON 177 R ON 609 @ 5 MILES</directions>
+</house_listing>
+
+
+

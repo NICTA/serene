@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>2623 MAJESTIC PRINC</house_location>
+<price>$137,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Quad Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249336</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LARRI R BROWN</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>INT PHOTOS WWW.SIBCYCLINE.COM*STONE F/P*STONE FRONT*2/10
+TRANSFERABLE*NICE HOME*10X12 DECK*PLANT LEDGES*SEC
+SYSTEM*OVEN-RANGE-DISHWASHER INCL*WOODED BACKYARD*COUNTER BAR*22X20
+PATIO*HDWD ENTRY*REMOTE CONTROL CEILING FAN</house_description>
+<construction>Wood,Vinyl,Stone</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Stone</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70X235</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>10 X 10</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>U</level></bedroom_3>
+<dining><dimension>10 X 11</dimension><level>1</level></dining>
+<family><dimension>21 X 27</dimension><level>L</level></family>
+<kitchen><dimension>9 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>L</level></laundry>
+<living><dimension>11 X 17</dimension><level>1</level></living>
+<master><dimension>12 X 15</dimension><level>U</level></master>
+
+<directions>I-75 TO FLOR/BURL EXIT R ON 18, R 237, L CONRAD,
+L STRIKE THE GOLD, R MAJESTIC</directions>
+</house_listing>
+
+
+

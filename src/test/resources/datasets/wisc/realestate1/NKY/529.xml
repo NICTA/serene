@@ -1,0 +1,56 @@
+<house_listing>
+<house_location>7 CAMBRIDGE</house_location>
+<price>$595,000</price>
+<rooms>13</rooms>
+<bedrooms>5</bedrooms>
+<baths>3-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side,Oversized)</garage>
+<suburb>-</suburb>
+<school_dist>BEECHWOOD</school_dist>
+<mls>243985</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN HUFF</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>CONVENIENTLY LOCATED TO EVERYTHING! COMPLETEY REMODELED! BEAUTIFULLY
+LAND- SCAPED YARD &amp; REAR PATIO *1ST FLOOR MASTER SUITE W/HIS &amp; HERS
+CLOSETS*GREAT FLR PLAN *WONDERFUL FOR ENTERTAINING *FINISHED LOW LEVEL
+W/BILLIARD ROOM *</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>125 X 150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>18 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 12</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>21 X 19</dimension><level>2</level></bedroom_5>
+<breakfast><dimension>22 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>16 X 10</dimension><level>1</level></dining>
+<family><dimension>19 X 16</dimension><level>1</level></family>
+<kitchen><dimension>17 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 10</dimension><level>1</level></laundry>
+<living><dimension>18 X 16</dimension><level>1</level></living>
+<master><dimension>18 X 14</dimension><level>1</level></master>
+<recreation_room><dimension></dimension><level>L</level></recreation_room>
+<study><dimension>15 X 8</dimension><level>2</level></study>
+
+<directions>DIXIE HIGHWAY TO SUNNYMEADE TO RIGHT ON
+CAMBRIDGE</directions>
+</house_listing>
+
+
+

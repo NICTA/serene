@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>6173 TAYLOR MILL RD</house_location>
+<price>$99,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>O</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249988</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>DARLING RANCH ON PICTURESQUE 1/2 ACRE LOT WITH MANY UPDATED
+AMMENITIES,INCL NEW ROOF*SIDING*WINDOWS*SEPTIC
+TANK*DRIVEWAY*SHED*DISHWASHER.GAS FURNACE &amp; C/AIR 5 YEARS OLD!HAS
+CERAMIC TILE KITCHEN *RUSTIC F/RM W/WBFP&amp;FRENCH DOORS</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>216 x 185</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$O</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 7</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>17 X 8</dimension><level>1</level></breakfast>
+<family><dimension>16 X 13</dimension><level>1</level></family>
+<kitchen><dimension>12 X 8</dimension><level>1</level></kitchen>
+<living><dimension>15 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>SOUTH TAYLOR MILL RD TO PROPERTY ON RIGHT</directions>
+</house_listing>
+
+
+

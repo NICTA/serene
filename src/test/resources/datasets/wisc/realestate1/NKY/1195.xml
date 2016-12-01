@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>116 VERA CRUZ ROAD</house_location>
+<price>$390,600</price>
+<rooms>12</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>WARSAW</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>232315</mls>
+<house_type>Farms</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>REGINA STEWART</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>ENJOY THE BEAUTY &amp; SPIRIT OF THE HOLIDAYS ALL YEAR-LONG AT THIS 139 AC
+TREE FARM FEATURING SPRUCE, FIR &amp; SCOTCH PINE. MAGNIGICENT HOUSE WITH
+ATTENTION TO DETAIL! ITALIAN CERAMIC TILE THROUGHOUT THE HOME. TOB
+BASE &amp; MUCH MORE.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>9 X 8</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 14</dimension><level>1</level></dining>
+<family><dimension>19 X 13</dimension><level>1</level></family>
+<kitchen><dimension>9 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 13</dimension><level>1</level></laundry>
+<living><dimension>17 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>I-71 S TO WARSAW EXIT, R OFF EXIT TO R ON VERA
+CRUZ, SEE SIGN ON L</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>7431 RIDGE EDGE CT</house_location>
+<price>$169,900</price>
+<rooms>7</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248136</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>DARLA HUNTER</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>RESORT LIKE LIVING 3 FINISHED FLRS,2 BR,1 YR TOWNHOME,MANY UPGRADES,MB
+W/JACUZZI.LR,KIT,DR,FR,2 FULL BATH,2 HALF BATHS,1 CAR GARG,DECK &amp;
+PATIO, MAINTENANCE FREE,POOL,TENNIS ETC IN COMPLEX,NOT A DRIVEBY,SEE &amp;
+COMPARE,VAC</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>138</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>13 X 13</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 10</dimension><level>1</level></dining>
+<family><dimension>19 X 12</dimension><level>L</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 10</dimension><level>L</level></laundry>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>2</level></master>
+<study><dimension>10 X 10</dimension><level>L</level></study>
+
+<directions>RT 18 TO L ON OAKBROOK TO SUMMIT L TO RIDGE
+EDGE CT</directions>
+</house_listing>
+
+
+

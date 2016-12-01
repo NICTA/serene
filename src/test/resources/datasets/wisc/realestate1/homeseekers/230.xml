@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1978 has 4 bedroom(s), 3
+bath(s) , 2 car garage and approximately 4051 square feet of living
+area. Rooms include dining room. Features include view, private pool,
+patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Heidi Baldwin</agent_name>
+<direct>520-577-1645</direct>
+<office>520-577-7400</office>
+<firm_name>Tucson Realty &amp; Trust Co</firm_name>
+<phone>520-577-7400</phone>
+<fax>520-299-2898</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$599,000</list_price>
+<location>11660 E Timrod St</location>
+<mls>2000868</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>4051 (approx)</square_feet>
+<year_built>1978</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Electric, Zoned</heating>
+<fireplace>Family Room, Living Room, Master Bedroom</fireplace>
+<patio>Covered, Screened-in</patio>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

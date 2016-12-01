@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>PATTI EGER</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<email>pattieger@dlrealtors.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13280</id>
+<mls>179159</mls>
+<house_location>9611 Oxted
+Spring, TEXAS 77379</house_location>
+<county>Harris</county>
+<price>$144,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Lovingly maintained-original owners-split formals,freshly painted,recent ac &amp; heat, roof,large lot.. walk to elementary..Klein schools..covered and enclosed porch  is  22 x 14..low utility bills..prof. landscaped</house_description>
+
+<school_district>Klein</school_district>
+<sub-division>Champion Forest</sub-division>
+<approx_size_sqft>2586</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>10200</approx_lot_size>
+<year_built>1978</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>champions,Compaq market area</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

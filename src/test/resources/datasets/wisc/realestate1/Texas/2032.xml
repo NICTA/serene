@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gerald Birdwell</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<email>gbirdwell@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21493</id>
+<mls>9135738</mls>
+<house_location>368 Lois Lane
+Weatherford, TEXAS 76088</house_location>
+<county>Parker</county>
+<price>$56,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>ONLY 3 YEARS OLD!  Doublewide with wood burning fireplace, beautiful treed one acre lot.  Only 3 miles from town.  Excellent for children or just to sit and look at the wide open spaces.  Has 16x12 workshop.  Only $56,000.00!</house_description>
+
+<school_district>Garner</school_district>
+<approx_size_sqft>1344</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1 ac</approx_lot_size>
+<approx_acres>1</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Like new!</item>
+<item>Lovely oak trees.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

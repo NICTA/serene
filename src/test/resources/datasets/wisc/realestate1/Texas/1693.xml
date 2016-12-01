@@ -1,0 +1,45 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cindy Bilbie</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>bilbiec@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21726</id>
+<mls>14751</mls>
+<house_location>6209 Camelot
+in South Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$109,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Very nice home in retirement community (adult only).  Spacious, open floor plan, vaulted ceilings, ceiling fans, custom window treatments, storm shutters, plush carpet.  Private fenced backyard is nicely landscaped with sprinkler system.  Good storage space, large garage with pull down stairs attic access.  Approx. 1650 s.f. living area.  Monthly fee covers amenties such as panic button/alarm monitoring; some meals; transportation; exterior maintenance and some inside services.  Call for brochure (or e-mail request).</house_description>
+
+<school_district>1</school_district>
+<sub-division>1</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

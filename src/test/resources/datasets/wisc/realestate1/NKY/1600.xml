@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>135 SUMMER LANE</house_location>
+<price>$217,000</price>
+<rooms>10</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>CRESTVIEW HILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248547</mls>
+<house_type>Condominium</house_type>
+<firm>HUNTER HAAS &amp; BROKER</firm>
+<firm_phone>(513) 751-1200</firm_phone>
+<agent>TRACY COHEN</agent>
+<agent_phone>(513) 751-1200</agent_phone>
+<house_description>SENSATIONAL TOWNHOME!HDWD FLOORS,VAULTED CEILINGS,CUSTOM BOOKCASES, 2
+CAR GARAGE, FINISHED LL,2 BEDROOM SUITES, SKYLIGHTS,WHIRLPOOL, FRENCH
+DOORS TO LARGE SCREENED PORCH, LAUNDRY ON 2 LEVELS. PRICED BELOW
+APPRAISED VALUE!!</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>condo</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>145</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>14 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 11</dimension><level>L</level></bedroom_3>
+<breakfast><dimension>11 X 13</dimension><level>1</level></breakfast>
+<dining><dimension>18 X 11</dimension><level>1</level></dining>
+<family><dimension>16 X 10</dimension><level>L</level></family>
+<kitchen><dimension>10 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 11</dimension><level>L</level></laundry>
+<living><dimension>18 X 20</dimension><level>1</level></living>
+<master><dimension>17 X 18</dimension><level>2</level></master>
+<recreation_room><dimension>15 X 18</dimension><level>L</level></recreation_room>
+<study><dimension>12 X 7</dimension><level>2</level></study>
+
+<directions>I275 TO N ON DIXIE HWY TO L ON LOOKOUT FARM TO
+L ON MANSION PLACE TO SUMMER</directions>
+</house_listing>
+
+
+

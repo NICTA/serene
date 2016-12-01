@@ -1,0 +1,11 @@
+.DS_Store
+
+target/
+
+prototype*
+
+reports
+
+.history
+
+.idea*

@@ -1,0 +1,34 @@
+<house_listing>
+<price>$118,950</price>
+<mls_id_number>155925</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1188</sqft>
+<year_built>1995</year_built>
+<heat>Electric Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.34        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Deck,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>GILBERT</elementary>
+<middle_school>ALICE OTT</middle_school>
+<high_school>DAVID DOUGLAS</high_school>
+</schools>
+
+</house_listing>
+
+
+

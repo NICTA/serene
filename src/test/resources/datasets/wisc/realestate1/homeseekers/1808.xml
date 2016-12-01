@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This single family home built in 1947 has 4 bedroom(s), 2 bath(s) and
+approximately 1068 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>John A. Cavalier,</agent_name>
+<direct>305-887-6775</direct>
+<office>305-888-8405</office>
+<firm_name>Cavalier Realty, I
+Lic. Real Estate Broker</firm_name>
+<phone>305-888-8405</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$149,500</list_price>
+<location>501 Hunting Lodge Dr</location>
+<neighborhood>Country Club Ests Sec 4 R</neighborhood>
+<mls>D907852</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1068 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

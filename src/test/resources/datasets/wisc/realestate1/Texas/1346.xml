@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shirley Johnson</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>sjohnson@hpnc.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19496</id>
+<mls>9129476</mls>
+<house_location>108 Colquitt
+Rio Vista, TEXAS 76093</house_location>
+<county>Johnson</county>
+<price>$23,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>CUTE BUGALOW, taht has been totally redone, fresh exterior and interior paint, fresh carpet, (289)</house_description>
+
+<school_district>Rio Vista</school_district>
+<sub-division>Orig. Town Of Rio Vista</sub-division>
+<approx_size_sqft>865</approx_size_sqft>
+<approx_lot_size>100x60</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

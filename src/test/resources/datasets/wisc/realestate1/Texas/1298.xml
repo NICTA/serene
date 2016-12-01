@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Landmasters Real Estate</name>
+<location>101 Sunrise Drive Sunrise Beach, TX 78643</location>
+<office>(915)388-4555</office>
+<toll_free>(800)306-8629</toll_free>
+<fax>(915)388-3946</fax>
+<email>landmstr@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Pat Koontz</name>
+<office>(915)388-4555</office>
+<fax>(915)388-3946</fax>
+<mobile>(915)247-6870</mobile>
+<email>LANDMSTR@TSTAR.NET</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16798</id>
+<mls>52838</mls>
+<house_location>301 EAST LAKESHORE DRIVE, SUNRISE BEACH, TX 78643
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$121,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>VERY NICE CUSTOM BUILT BRICK HOME ON LARGE LOT WITH OAK, ELM AND FRUIT     TREES. HAS SPRINKLER SYSTEM THAT PUMPS OUT OF THE LAKE. NICELY                    MANICURED. COVERED PATIO AND 2 STORAGE BUILDINGS.                                                                                                                                                                                                    PLEASE MAKE APPOINTMENT - HOME IS OCCUPIED!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>1871</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>130X150</approx_lot_size>
+<year_built>1990</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>VERY NICE CUSTOM BUILT BRICK HOME</item>
+<item>TREES - OAK, ELM AND FRUIT TREES</item>
+<item>SPRINKLER SYSTEM PUMPS OUT OF LAKE</item>
+<item>COVERED PATIO &amp; 2 STORAGE BUILDINGS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

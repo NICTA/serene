@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gatha Lawson</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)331-6644 x132</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20928</id>
+<mls>525370</mls>
+<house_location>4716 Sojourner Street
+Austin, TEXAS 78725</house_location>
+<county>Travis</county>
+<price>$99,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This is a beautiful home and it shows great.  Oval Tub, Separate Shower.  Big Country Kitchen with Morning Room.  Indoor Laundry, Walk-in Closet, Fireplace, Huge Trees, Covered Porch, Drapery Conveys.  Box/Window Seat.</house_description>
+
+<school_district>Del Valle</school_district>
+<sub-division>Austins Colony</sub-division>
+<approx_size_sqft>1742</approx_size_sqft>
+<stories>2</stories>
+<year_built>1989</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>3/4 Brick</item>
+<item>Easy Access to I-35, 183, Shopping</item>
+<item>Price as low as $57.33/sq. ft.</item>
+<item>Low Tax Area, Community Pool</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

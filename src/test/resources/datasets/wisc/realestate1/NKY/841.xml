@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>500 LAKEVIEW 207</house_location>
+<price>$79,900</price>
+<rooms>6</rooms>
+<bedrooms>22</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WILDER</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>247996</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>DIANA BARLOW</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>WONDERFUL EXCEPTIONAL UNIT DO NOT NEED TO DRIVE THRU PARKING AREA TO
+GET TO UNIT. DRAMATIC TASTEFUL DECOR, SPARKLES LIKE A MODEL! UNIQUE 2
+STORY BLDG THIS IS A TOP FLOOR UNIT WITH ONLY ONE FLIGHT. CATHEDRAL
+CEILINGS AND FIRPL</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level>21</condo_level>
+<hoa_fee>118</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>13 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>21 X 12</dimension><level></level></dining>
+<kitchen><dimension>11 X 8</dimension><level>2</level></kitchen>
+<living><dimension>14 X 14</dimension><level>2</level></living>
+<master><dimension>15 X 12</dimension><level>2</level></master>
+
+<directions>US 27 TO MOOCK RD TO TO LFT ON BENTWOOD HILLS
+DRIVE TO END TURN LEFT 1ST BLDG.</directions>
+</house_listing>
+
+
+

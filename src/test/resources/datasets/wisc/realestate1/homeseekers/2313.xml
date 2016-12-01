@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1896 has 5 bedroom(s), 2 bath(s) and
+approximately 1753 square feet of living area.</house_description>
+
+<agent_name>Clara Ortiz</agent_name>
+<direct>303-433-7763</direct>
+<office>303-433-7763</office>
+<firm_name>Re Information Sourc</firm_name>
+<phone>303-433-7763</phone>
+<fax>303-433-1478</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$169,950</list_price>
+<location>2755 N Eliot St</location>
+<neighborhood>Jefferson Park</neighborhood>
+<mls>385842</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1753 (approx)</square_feet>
+<year_built>1896</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

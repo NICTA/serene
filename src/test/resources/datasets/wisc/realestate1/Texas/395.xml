@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Mora</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19259</id>
+<mls>R26056</mls>
+<house_location>223 North Pasadena
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$76,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Pasadena</sub-division>
+<approx_size_sqft>1481</approx_size_sqft>
+<stories>1</stories>
+<year_built>1965</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Very Nice home with Attached</item>
+<item>double garage. Has den.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

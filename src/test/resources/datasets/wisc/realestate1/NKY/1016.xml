@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>16 GREENE</house_location>
+<price>$299,800</price>
+<rooms>10</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars None</garage>
+<suburb>FT. THOMAS</suburb>
+<school_dist>FT. THOMAS</school_dist>
+<mls>249716</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JANE ASHCRAFT-WEST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>TOTALLY RESTORED VICTORIAN W/MODERNIZED KITCHEN &amp; BATHS. 9-10 FT
+CEILINGS THRUOUT-INCREDIBLE ARCHITECTURE-CHARM &amp; CHARACTER GALORE-BEST
+OF OLD &amp; NEW COMBINED-MUST SEE-ABSOLUTE SHOWPLACE-CALL FOR DETAILS &amp;
+LIST OF AMENITIES</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>132</hoa_fee>
+<semiannual_taxes>$000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>16 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>16 X 13</dimension><level>3</level></bedroom_4>
+<dining><dimension>17 X 14</dimension><level>1</level></dining>
+<family><dimension>15 X 14</dimension><level>2</level></family>
+<kitchen><dimension>15 X 13</dimension><level>1</level></kitchen>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>2</level></master>
+<study><dimension>18 X 11</dimension><level>3</level></study>
+
+<directions>I471 TO GRAND AVE TO S FT THOMAS TO L AT TOWER
+PARK(DOUGLAS) TO R COCHRAN TO R</directions>
+</house_listing>
+
+
+

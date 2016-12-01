@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>INA PERLMAN</name>
+<office>(713)621-4953</office>
+<fax>(713)621-4953</fax>
+<voice_mail>(713)621-4953 108</voice_mail>
+<email>mob@onramp.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13187</id>
+<mls>183706</mls>
+<house_location>3238 ELLA LEE
+Houston, TEXAS 77019</house_location>
+<county>Harris</county>
+<price>$1,395,000</price>
+<full_baths>5</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>FABULOUS CUSTOM BUILT 92! SUPERB QUALITY! LARGE FORMALS, MEDIA, MORNING ROOMS! BEAUTIFUL MASTER! HIS/HER MARBLE/GRANITE BATHS! HER CLOSETS 14X12! CUSTOM BUILT-INS! 2 WBFP! 2 UTILITY ROOMS! QUARTERS! ELEVATOR TO 3RD FLOOR HOBBY/ STUDIO! UNBELIEVABLE KITCHEN/ BUTLERS PANTRY!!!</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>River Oaks</sub-division>
+<stories>3</stories>
+<year_built>1992</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>2</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>LARGE FORMALS, MEDIA, MORNING ROOMS</item>
+<item>CUSTOM BUILT-INS, 2 WBFP</item>
+<item>2 UTILITIY ROOM</item>
+<item>ELEVATOR TO 3RD FLOOR, UNBELIEVABLE KITCHEN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Ranch home in a well established neighborhood with easy access to
+interstate 64 and naval bases. Closing cost assistance</house_description>
+
+<agent_name>Howard Jones</agent_name>
+<direct>475-2518</direct>
+<office>757-473-9800</office>
+<firm_name>Pensouth Realty Corporation</firm_name>
+<phone>757-473-9800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$95,000</list_price>
+<location>Virginia Beach, VA 23452</location>
+<mls>0001430</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1240 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Fenced, Ranch Style, Storage Space, UtilityRoom
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

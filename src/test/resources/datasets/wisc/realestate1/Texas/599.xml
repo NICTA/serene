@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Schiavone</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-3568</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21558</id>
+<mls>526919</mls>
+<house_location>129 Lake View Dr.
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$179,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great floorplan nearing completion.  Set back on 5.52 parl like acres.  Bonus room above detached carport would make a great studio, garage apartment or fourth bedroom.  Choose colors.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Pine Valley Estates</sub-division>
+<approx_size_sqft>1836</approx_size_sqft>
+<approx_acres>5.52</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Secluded home</item>
+<item>Large covered front porch</item>
+<item>Horses allowed</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

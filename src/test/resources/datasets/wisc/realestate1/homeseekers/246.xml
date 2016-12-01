@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This detached single family home has 3 bedroom(s), 1 full bath(s)/1
+half bath(s) , 4 car garage. Rooms include dining room, family room,
+living room, master bedroom. Features include fireplace.</house_description>
+
+<agent_name>Christopher A Shell</agent_name>
+<office>815-476-7916</office>
+<firm_name>Pro Real Estate</firm_name>
+<phone>815-476-7916</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$399,000</list_price>
+<location>Wilmington, IL 60481</location>
+<mls>99199652</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage>4</garage>
+<type>Single Family</type>
+<lot_size>364X400X110X300</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<location>Water front</location>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Full Basement, Ranch Style, Waterfront
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

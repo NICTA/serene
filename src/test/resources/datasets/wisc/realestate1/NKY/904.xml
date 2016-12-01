@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>12 SOUTHWOOD</house_location>
+<price>$191,240</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>250125</mls>
+<house_type>Single Family</house_type>
+<firm>THE DREES COMPANY</firm>
+<firm_phone>(606) 578-4200</firm_phone>
+<agent>JACK MILLER</agent>
+<agent_phone>(606) 578-4200</agent_phone>
+<house_description>CALL JULIE MAI FOR MORE INFO AT 635-6025. DREES OAKMONT MODEL HAS AN
+EXTENDED FAMILY ROOM, LOWER LEVEL WALK-OUT. GARDEN TUB. 4 BEDROOM
+HARDWOOD ENTRY</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNK</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>81 X 2</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>8 X 7</dimension><level>1</level></breakfast>
+<dining><dimension>10 X 11</dimension><level>1</level></dining>
+<family><dimension>15 X 13</dimension><level>1</level></family>
+<kitchen><dimension>91 X 1</dimension><level>0</level></kitchen>
+<living><dimension>11 X 11</dimension><level>1</level></living>
+<master><dimension>16 X 11</dimension><level>2</level></master>
+
+<directions>SOUTH US27 TO LEFT ON OLD STATE RT2 TO LEFT INTO
+SOUTHWOOD</directions>
+</house_listing>
+
+
+

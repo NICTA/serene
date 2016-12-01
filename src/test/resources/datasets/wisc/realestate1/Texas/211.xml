@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Lloyd Barnes</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)558-1417</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17572</id>
+<mls>5855</mls>
+<house_location>112 Peach St.
+Luling, TEXAS 78648</house_location>
+<county>Caldwell</county>
+<price>$69,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>3 Bedroom/ 2 Bath, dining open to kitchen, enclosed garage, very clean.  Fenced yard and good neighborhood.</house_description>
+
+<school_district>Luling</school_district>
+<sub-division>Mcneal</sub-division>
+<approx_size_sqft>1442</approx_size_sqft>
+<stories>1</stories>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

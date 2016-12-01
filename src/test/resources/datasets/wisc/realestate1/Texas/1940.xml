@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Debbie</email>
+</firm_information>
+
+<agent_information>
+<name>Miller</name>
+<office>(281)403-6500</office>
+<fax>(281)431-2131</fax>
+<voice_mail>(281)242-6500 225</voice_mail>
+<mobile>(281)686-1175</mobile>
+<email>dmiller@argolink.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15486</id>
+<mls>209935</mls>
+<house_location>2222 Westshore
+Missouri City, TEXAS 77459</house_location>
+<county>Fort Bend</county>
+<price>$239,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Brand New Beazer Geneva. 3 Living areas, Formal dining and master down.  Over 25K in upgrades: spinkler system, intercom, remote control gas logs, ceramic tile, wallpapers, 42&amp;quot; cabinets, built-ins moldings and finished garage. Home is wired for surround sound and cable.  Lush landscaping in backyard.  Whirlpool tub in master, alarm system and too much to list!!</house_description>
+
+<move-in_date>4/12/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Brightwater</sub-division>
+<approx_size_sqft>3140</approx_size_sqft>
+<stories>2</stories>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>New Home</item>
+<item>Over 3100 Square Feet</item>
+<item>3 Living area</item>
+<item>Corner Lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1926 has 3 bedroom(s), 2 bath(s) and
+approximately 2450 square feet of living area.</house_description>
+
+<agent_name>Laurie Erb</agent_name>
+<direct>303-777-6471</direct>
+<office>303-331-4507</office>
+<firm_name>RE/MAX Cherry Creek</firm_name>
+<phone>303-331-4507</phone>
+<fax>303-320-1249</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$339,900</list_price>
+<location>500 S Gilpin St</location>
+<neighborhood>Washington Park</neighborhood>
+<mls>385275</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2450 (approx)</square_feet>
+<year_built>1926</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

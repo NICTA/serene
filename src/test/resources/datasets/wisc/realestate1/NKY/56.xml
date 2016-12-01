@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>3302 BEAVER RD</house_location>
+<price>$135,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>242795</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>WANETTA GILES</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* REMODELED 3 BEDROOM RANCH ON 1.77 ACRE * ONE AND ONE-HALF BATH *
+DECK OVERLOOKING SCENIC VIEW * FULL BASEMENT WITH WALKOUT *</house_description>
+<construction>Brick</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<family><dimension>13 X 12</dimension><level>1</level></family>
+<kitchen><dimension>20 X 13</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>US42 SOUTH, R ON 338, HOUSE ACROSS FROM BIG BONE
+STATE PARK</directions>
+</house_listing>
+
+
+

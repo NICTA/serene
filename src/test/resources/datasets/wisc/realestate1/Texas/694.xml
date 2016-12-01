@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ralph Becker</name>
+<office>(512)834-6066</office>
+<fax>(512)310-9421</fax>
+<mobile>(512)415-3828</mobile>
+<email>rbecker@realestateaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21226</id>
+<mls>527174</mls>
+<house_location>10617 Spicewood Pw.
+Austin, TEXAS 78750</house_location>
+<county>Travis</county>
+<price>$259,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Terrific Home on a Huge Oversized Tree Shaded Lot! Updated in 1997! Light and Bright Room to Spare for a Large Family! Large Master Bedroom with Seating Area! Room for Tons of Storage!</house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>Spicewood At Balcones Village</sub-division>
+<approx_size_sqft>3310</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>115 x 140</approx_lot_size>
+<year_built>1976</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Huge Oversized Tree Shaded Lot!</item>
+<item>Tons of Storage!</item>
+<item>Updated in 1976!</item>
+<item>Large Master Bedroom!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

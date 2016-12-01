@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>309 SHELBY</house_location>
+<price>$52,900</price>
+<rooms>3</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>BROMLEY</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249702</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>GEORGE M STEPHAN</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* THIS DOLL HOUSE HAS NEW - NEW - NEW FIRST FLR LAUNDRY * NEW CABINETS
+* * NEW SIDING * JUST MOVE IN AND TURN ON THE TV! * CALL FOR ALL THE
+DETAILS</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25X175</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<kitchen><dimension>15 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>15 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>RT. 8 TO ROHAN TO R ON SHELBY</directions>
+</house_listing>
+
+
+

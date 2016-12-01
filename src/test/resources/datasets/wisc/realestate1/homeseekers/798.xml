@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1963 has 4 bedroom(s), 4 bath(s) and
+approximately 3241 square feet of living area.</house_description>
+
+<agent_name>Dawn Fullagar</agent_name>
+<direct>303-778-6818</direct>
+<office>303-796-7711</office>
+<firm_name>Real Estate Firm Inc</firm_name>
+<phone>303-796-7711</phone>
+<fax>303-796-0715</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$489,000</list_price>
+<location>3015 E Cedar Ln</location>
+<neighborhood>Polo Club North/Tekai</neighborhood>
+<mls>378546</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<square_feet>3241 (approx)</square_feet>
+<year_built>1963</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

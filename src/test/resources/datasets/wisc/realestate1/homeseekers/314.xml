@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home has 2 bedroom(s), 1 full bath(s)/1 half
+bath(s) , 2 car garage and approximately 1200 square feet of living
+area. Rooms include dining room. Features include patio.</house_description>
+
+<agent_name>Arthur Davis, Jr.</agent_name>
+<office>501-982-7554</office>
+<firm_name>Plantation Realty</firm_name>
+<phone>501-982-7554</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$69,900</list_price>
+<location>718 Hapsburg</location>
+<neighborhood>Hearldly Manor</neighborhood>
+<mls>9924098</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Spanish</style>
+<square_feet>1200 (approx)</square_feet>
+<lot_size>90X135</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Central, Natural Gas</heating>
+<patio>Patio</patio>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Spanish Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

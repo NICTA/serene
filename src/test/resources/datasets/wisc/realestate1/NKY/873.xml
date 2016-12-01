@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>125 HIDDEN RIDGE</house_location>
+<price>$155,424</price>
+<rooms>8</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>COLD SPRING</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249718</mls>
+<house_type>Condominium</house_type>
+<firm>THE DREES COMPANY</firm>
+<firm_phone>(606) 578-4200</firm_phone>
+<agent>JACK MILLER</agent>
+<agent_phone>(606) 578-4200</agent_phone>
+<house_description>CALL JEFF CRABLE AT 441-0045. FLEXIBLE STOCKDON FLOORPLAN WITH HIGH
+VAULTED CEILINGS AND LOTS OF SPACE. VISIT OUR MODEL MON-THUR 11-6
+FRI-SUN 12-6</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>127</hoa_fee>
+<semiannual_taxes>$UNK</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>14 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>8 X 10</dimension><level>1</level></dining>
+<family><dimension>21 X 16</dimension><level>L</level></family>
+<kitchen><dimension>9 X 18</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>12 X 16</dimension><level>1</level></living>
+<master><dimension>13 X 14</dimension><level>2</level></master>
+<study><dimension></dimension><level>L</level></study>
+
+<directions>I275 TO SOUTH ON AA HIGHWAY TO ENTRY ON RIGHT</directions>
+</house_listing>
+
+
+

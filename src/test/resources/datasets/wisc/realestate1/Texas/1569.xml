@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Alvarado</name>
+<location>400 Hwy 67 East Alvarado, TX 76009</location>
+<office>(817)790-6611</office>
+<toll_free></toll_free>
+<fax>(817)790-6612</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jay Rapp</name>
+<office>(817)790-6611</office>
+<fax>(817)790-6612</fax>
+<email>c21rapp@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21692</id>
+<mls>9080683</mls>
+<house_location>410 S. Sparks
+Alvarado, TEXAS 76009</house_location>
+<county>Johnson</county>
+<price>$56,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Pretty corner lot with trees. Covered deck. Fresh paint. Seller to provide one year warranty.</house_description>
+
+<school_district>Alvarado</school_district>
+<approx_size_sqft>1450</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.25</approx_lot_size>
+<year_built>1956</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

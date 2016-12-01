@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>The Platinum Team</name>
+<office>(512)833-3588</office>
+<fax>(512)671-8886</fax>
+<mobile>(512)431-3725</mobile>
+<email>hcfrit@austin.quik.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21575</id>
+<mls>529198</mls>
+<house_location>16803 Tomcat Dr.
+Round Rock, TEXAS 78681</house_location>
+<county>Williamson</county>
+<price>$149,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Open 1 Story MIL Floor Plan! Pergo Style Floor in Entry, Dining, Hallway, &amp; Living! Sprinkler &amp; Security System! Nice Rock Patio!</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Cat Hollow</sub-division>
+<stories>1</stories>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+<item>Open 1 Story! MIL Floor Plan!</item>
+<item>Sprinkler &amp; Security System!</item>
+<item>Nice Rock Patio!</item>
+<item>Seperate Shower! Pergo Flooring!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

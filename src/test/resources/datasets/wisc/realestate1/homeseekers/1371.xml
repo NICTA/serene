@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1989 has 2 bedroom(s), 2 full bath(s)/1 half
+bath(s) , 2 car garage and approximately 2630 square feet of living
+area. Features include private pool, air conditioning.</house_description>
+
+<agent_name>Betty Mitchell</agent_name>
+<direct>992-7232</direct>
+<office>444-7833</office>
+<firm_name>Mitchell Internati Mitchell Internati
+Lic. Real Estate Broker</firm_name>
+<phone>444-7833</phone>
+<fax>444-7828</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$1,325,000</list_price>
+<location>7946 Fisher Island Dr #7946</location>
+<neighborhood>Oceanside @ Fisher Isl Co</neighborhood>
+<mls>M735316</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Condominium</type>
+<square_feet>2630 (approx)</square_feet>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Foyer
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

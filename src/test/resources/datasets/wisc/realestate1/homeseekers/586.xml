@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1981 has 2 bedroom(s), 2 bath(s) and
+approximately 1038 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Ann Castro</agent_name>
+<direct>305-933-0630</direct>
+<office>305-933-0630</office>
+<firm_name>Florida Ocean Int'
+Lic. Real Estate Broker</firm_name>
+<phone>305-933-0630</phone>
+<fax>305-944-1426</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$98,500</list_price>
+<location>8255 Abbott Av #502</location>
+<neighborhood>Abbott By The Sea Condo</neighborhood>
+<mls>M751695</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1038 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

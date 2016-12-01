@@ -1,0 +1,40 @@
+<house_listing>
+<house_location>940 PHILADELPHIA</house_location>
+<price>$35,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248259</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>SUSAN ENGLAND</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>SOLD AS IN CONDITION. PRICED TO SELL.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Stove</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>,</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 13</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>PHILADELPHIA STREET</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,48 @@
+<house_listing>
+<firm_information>
+<name>Myers Builders</name>
+<location>6262 Weber, Suite 106 Corpus Christi, TX 78413</location>
+<office>(361)853-8933</office>
+<toll_free></toll_free>
+<fax>(361)853-8306</fax>
+<email>mhbc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Myers Builders</name>
+<office>(512)853-8933</office>
+<fax>(512)852-8896</fax>
+<mobile>(512)946-4936</mobile>
+<email>mhbc21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>9919</id>
+<mls></mls>
+<house_location>Westwood St.
+Portland, TEXAS</house_location>
+<county>San Patricio</county>
+<price>$103,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>1212 Sq. Ft.Gulfwood Plan</house_description>
+
+<sub-division>Westwood Estates</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>1212</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

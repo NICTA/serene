@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lena Harmond</name>
+<office>(817)295-8171</office>
+<fax>(817)295-6426</fax>
+<email>samsill@startext.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20979</id>
+<mls>9121255</mls>
+<house_location>828 E. Bovell
+Crowley, TEXAS 76036</house_location>
+<county>Tarrant</county>
+<price>$67,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Heart of Crowley. Darling homes: bricks with care. Free siding!  Huge corner lot, only 1/2 block from Bi-Centenial Park.  $2,000 carpet and paint allowance, you choose your own colors, but hurry before it's gone.  Long list of features.  Gas for economy, rain gutters, slab foundation, grassy backyard, mature trees, workbench, security lighting, so much more.  Priced right.</house_description>
+
+<school_district>Crowley I S D</school_district>
+<sub-division>Crowley Park</sub-division>
+<approx_size_sqft>1282</approx_size_sqft>
+<stories>1</stories>
+<year_built>1969</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>$2,000 carpet &amp; paint allowance</item>
+<item>Bricks with siding - cuties</item>
+<item>Lots of nice features</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

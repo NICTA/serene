@@ -1,0 +1,34 @@
+<house_listing>
+<price>$129,950</price>
+<mls_id_number>165053</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1050</sqft>
+<year_built>1975</year_built>
+<heat>Electric Base Board</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.15        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$1,989</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Leased Security System</interior>
+<exterior>Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>JASON LEE</elementary>
+<middle_school>GREGORY</middle_school>
+<high_school>MADISON</high_school>
+</schools>
+
+</house_listing>
+
+
+

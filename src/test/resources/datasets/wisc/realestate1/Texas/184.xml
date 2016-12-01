@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Prudential Allied, REALTORS</name>
+<location>3007 E. Broadway Pearland, TX 77581</location>
+<office>(281)997-4000</office>
+<toll_free>(800)447-3313</toll_free>
+<fax>(281)485-1649</fax>
+<email>mstarr@infohwy.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rex Ratliff</name>
+<office>(281)997-4000</office>
+<fax>(281)485-1649</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14219</id>
+<mls>175416</mls>
+<house_location>7002 Amie
+in West Pearland, TEXAS 77581</house_location>
+<county>Brazoria</county>
+<price>$159,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>VERY NICE OLDER HOME, WELL MAINTAINED; BEAUTIFUL GROUNDS AND POOL,VARIOUS OUTBUILDINGS.  SELLER WILL RETAIN 3.04 ACRES OF VACANT LAND,SURROUNDING THE HOUSE AND IMPROVEMENTS;  PROPERTY WILL BE PLATTEDAND SURVEYED PRIOR TO CLOSING.  PROPERTY WILL CONSIST OF HOUSE ANDIMPROVEMENTS ON .8 ACRE.  a LEASE OR LEASE PURCHASE IS POSSIBLE.  THELEASE PRICE IS $1500. PER  MONTH.</house_description>
+
+<school_district>Pearland</school_district>
+<sub-division>Ryan Acres</sub-division>
+<approx_size_sqft>2641</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.8 AC</approx_lot_size>
+<year_built>1963</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>POOL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1986 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include master bedroom. Features include private
+pool, patio, fireplace, skylights.</house_description>
+
+<agent_name>James Kaiser</agent_name>
+<office>623-878-8500</office>
+<firm_name>John Hall &amp; Associates</firm_name>
+<phone>623-878-8500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$118,000</list_price>
+<location>Phoenix, AZ 85027</location>
+<mls>1456645</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Dishwasher, Microwave, Skylights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

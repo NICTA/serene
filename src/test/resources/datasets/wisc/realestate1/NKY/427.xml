@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>144 W BURGESS</house_location>
+<price>$117,921</price>
+<rooms>10</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>None</basement>
+<garage>2 Cars (Builtin,Rear)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247866</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 363-9900</firm_phone>
+<agent>JACK C PATTERSON</agent>
+<agent_phone>(606) 363-9900</agent_phone>
+<house_description>THIS BI-LEVEL HAS BEEN FRESHLY PAINTED INSIDE AND OUT. NEW CARPET.
+NICE NEIGHBORHOOD. CLOSE TO EVERYTHING AND READY TO MOVE IN.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>Irrg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$***</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>10 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level></level></bedroom_3>
+<dining><dimension>10 X 11</dimension><level>1</level></dining>
+<family><dimension>14 X 22</dimension><level>L</level></family>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 9</dimension><level>L</level></laundry>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>SOUTH ON US 42 RIGHT ON HOPEFUL LEFT ON BURGESS</directions>
+</house_listing>
+
+
+

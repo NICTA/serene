@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Westfall</name>
+<office>(409)542-1234</office>
+<fax>(409)542-0078</fax>
+<email>leon@westfallrealestate.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20909</id>
+<mls>1003</mls>
+<house_location>County Road #226
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$115,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Spacious 3 bedroom 2 bath home on 3 plus acres in the Cummins Creek Country Club area.  This home includes a centrally located wood burning fireplace, a large living/dining room, separate formal dining area, large covered front and back porches and a detached garage perfect for workshop.</house_description>
+
+<school_district>Giddings</school_district>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Tree Covered Acreage</item>
+<item>Fireplace</item>
+<item>Detached Garage or Shop</item>
+<item>Country Living at it's Best</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

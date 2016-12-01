@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>145 LEXINGTON TR</house_location>
+<price>$169,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>LEXINGTON TR</suburb>
+<school_dist>GRANT</school_dist>
+<mls>247463</mls>
+<house_type>Single Family</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>MIKE MELTON</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>BRAND NEW HOME, APPROX 1850 SQ. FT. UPGRADED KITCHEN CABINETS, WALKOUT
+BASEMENT, MOSTLY BRICK HOME, HAS ACCESS TO POOL &amp; CLUBHOUSE FOR $200
+YR FEE</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>100x350</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bedroom_2><dimension>11 X 16</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 17</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 8</dimension><level>1</level></laundry>
+<living><dimension>16 X 18</dimension><level>1</level></living>
+<master><dimension>12 X 22</dimension><level>1</level></master>
+
+<directions>DRY RIDGE EX R ON 467 THEN R ON DRY RIDGE MT
+ZION RD APPROX 2 MI R INTO LEX TRAILS</directions>
+</house_listing>
+
+
+

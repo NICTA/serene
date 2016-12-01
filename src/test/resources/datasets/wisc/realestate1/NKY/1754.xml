@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>1 ST. RD. 355</house_location>
+<price>$499,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>(Attached)</garage>
+<suburb>MOXLEY</suburb>
+<school_dist>OWEN</school_dist>
+<mls>249225</mls>
+<house_type>Farms</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>REGINA STEWART</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>A FARMER'S FARM WITH 4000 FT. RD. FRONTAGE, FLAT LAND, HAY FIELDS,
+BARN, SILO, AND A HUNTER'S PARADISE. 80 AC TILLABLE, 5 AC LAKE, 1000O
+3 TOBACCO BASE, THIS FARM IS READY FOR YOU TO WORK!</house_description>
+<construction>Other</construction>
+<heating>Baseboard</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>1</level></bedroom_3>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>I-71 TO EXIT 44, L OFF EXIT ON 127, TO R ON 355,
+4.3 MI TO PROPERTY ON L, SEE SIGN</directions>
+</house_listing>
+
+
+

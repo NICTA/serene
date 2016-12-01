@@ -1,0 +1,996 @@
+id,Schedule,Description,Suburb,Ward,FY11/12 ($000)
+1,Conservation Reserves Management Program,Fire Preparedness - Various Parks Various Regions,Various,Various,464
+2,Conservation Reserves Management Program,Fire Preparedness - Wilcox Park - Orange Grove Rd,Salisbury,Moorooka,62
+3,Conservation Reserves Management Program,Fire Preparedness - Tingalpa Creek Reserve - Toronto Rd,Capalaba West,Chandler,42
+4,Conservation Reserves Management Program,Fire Preparedness - Wacol Bushlands - Ipswich Rd,Wacol,Richlands,50
+5,Conservation Reserves Management Program,Fire Preparedness - Longton Court Park (No.100) - Longton Ct,Burbank,Chandler,34
+6,Conservation Reserves Management Program,Fire Preparedness - Illaweena Street Park (No.154) - Illaweena St,Drewvale,Karawatha,12
+7,Conservation Reserves Management Program,Fire Preparedness - Herbert Street Park - Herbert St,Lota,Wynnum Manly,92
+8,Conservation Reserves Management Program,Fire Preparedness - Tasman Place Park - Tasman Pl,Drewvale,Karawatha,99
+9,Conservation Reserves Management Program,Fire Preparedness - Murarrie Road (No 158) - Murarrie Rd,Murarrie,Doboy,64
+10,Conservation Reserves Management Program,Fire Preparedness - Sergeant Dan Stiller Memorial Reserve - Wadeville St,Heathwood,Parkinson,25
+11,Conservation Reserves Management Program,Natural Area Access - Karawatha Forest Park - Acacia Rd,Karawatha,Karawatha,449
+12,Conservation Reserves Management Program,Natural Area Access - Mt Coot-tha Reserve - Mt Coot-tha Rd,Mt Coot-tha,Toowong,140
+13,Key City Park Upgrades,Carryover - New Farm Park - Brunswick St,New Farm,Central,320
+14,Key City Park Upgrades,Carryover - Rocks Riverside - Counihan St,Seventeen Mile Rocks,Jamboree,400
+15,Metropolitan and District Playgrounds,Calamvale District Park - Formby St,Calamvale,Parkinson,854
+16,Metropolitan and District Playgrounds,Various Parks East Region,Various,Various,200
+17,Metropolitan and District Playgrounds,Whites Hill Reserve - Boundary Rd,Camp Hill,Chandler,400
+18,Metropolitan and District Playgrounds,Carryover - Calamvale District Park - Formby St,Calamvale,Parkinson,300
+19,Boardwalks and Bridges Safety and Asset Maintenance Program,Camoola St Park,Enoggera,Enoggera,60
+20,Boardwalks and Bridges Safety and Asset Maintenance Program,Corramulling Park - Yoorala St,The Gap,The Gap,70
+21,Boardwalks and Bridges Safety and Asset Maintenance Program,Porter's Paddock Park - Stanton Rd,Tingalpa,Doboy,130
+22,Boardwalks and Bridges Safety and Asset Maintenance Program,Various Parks Various Regions,Various,Various,76
+23,Boardwalks and Bridges Safety and Asset Maintenance Program,Various Parks Various Regions,Various,Various,460
+24,Memorial Restoration,Anzac Square - Adelaide St,Brisbane,Central,65
+25,Memorial Restoration,"Pinkenba Memorial Place Park (Road Reserve) - Mcbride Rd
+",Eagle Farm,Hamilton,25
+26,Memorial Restoration,Carryover - Anstead Bushland Reserve - Hawkesbury Rd,Anstead,Pullenvale,65
+27,Park Recreation Facility Rehabilitation and Replacement,Musgrave Park - Cordelia St,South Brisbane,The Gabba,100
+28,Park Recreation Facility Rehabilitation and Replacement,Deagon Sportsground Park - Board St,Deagon,Deagon,66
+29,Upgrade Key Neighbourhood Parks,Yeronga Memorial Park - Park Rd,Yeronga,Tennyson,400
+30,Upgrade Key Neighbourhood Parks,7Th Brigade Park - Hamilton Rd,Chermside,Marchant,260
+31,Upgrade Key Neighbourhood Parks,Phillip Place Park (Forest Lake) - Forest Lake Blvd,Forest Lake,Parkinson,579
+32,Upgrade Key Neighbourhood Parks,Hemmant Recreation Reserve - Doughboy Pde,Hemmant,Doboy,98
+33,Upgrade Key Neighbourhood Parks,Horizon Drive Park - Horizon Dr,Middle Park,Jamboree,339
+34,Upgrade Key Neighbourhood Parks,Carryover - Biambi Yumba Park - Mccullough St,Fig Tree Pocket,Walter Taylor,180
+35,Upgrade Key Neighbourhood Parks,Carryover - Biambi Yumba Park - Mccullough St,Fig Tree Pocket,Walter Taylor,360
+36,Play Safe Upgrades,Cannon Hill Bushland Reserve - Creek Rd,Cannon Hill,Doboy,80
+37,Play Safe Upgrades,Matthew Gardiner Park - Denver Rd,Carseldine,Bracken Ridge,50
+38,Play Safe Upgrades,Ferguson Park (Bracken Ridge) - Barrett St,Bracken Ridge,Bracken Ridge,45
+39,Play Safe Upgrades,Bowie's Flat Park?,Holland Park,Holland Park,60
+40,Play Safe Upgrades,Sheoak St Park?,Jamboree,Jamboree,40
+41,Play Safe Upgrades,Teralba Park - Pullen Rd,Everton Park,McDowall,60
+42,Play Safe Upgrades,Korea Park?,Enoggera,Enoggera,50
+43,Play Safe Upgrades,Mowbray Park - Lytton Rd,East Brisbane,The Gabba,129
+44,Play Safe Upgrades,Mccook Park - Badger St,Newmarket,Central,48
+45,Play Safe Upgrades,Carindale Rec Reserve - Bedivere St,Carindale,Chandler,70
+46,Play Safe Upgrades,Carryover - Biambi Yumba Park - Mccullough St,Fig Tree Pocket,Walter Taylor,110
+47,Toilets Upgrade Program,City Botanic Gardens - Alice St,Brisbane,Central,103
+48,Toilets Upgrade Program,Various Parks Various Regions,Various,Various,36
+49,Toilets Upgrade Program,Carryover - Dutton Park - Harmony Gardens,Dutton Park,The Gabba,210
+50,Shelter Upgrades - Parks,Various Parks Various Regions,Various,Various,31
+51,Shelter Upgrades - Parks,Carryover - Mcpherson Road Park - Edenbrooke Dr,Sinnamon Park,Jamboree,100
+52,Shelter Upgrades - Parks,Carryover - Rosemount Park - Mcpherson Rd,Sinnamon Park,Jamboree,45
+53,Repair Road and Car Park Defects,Bedford Playground Park - Quarry St,Spring Hill,Central,50
+54,Repair Road and Car Park Defects,Enoggera Memorial Park - Hurdcotte St,Enoggera,Enoggera,131
+55,Repair Road and Car Park Defects,Harman's Park - Curtis St,Manly,Wynnum Manly,55
+56,Repair Road and Car Park Defects,Carryover - Graceville Avenue Park - Graceville Av,Graceville,Tennyson,85
+57,Dog Off Leash Area Refurbishment,Merri Merri Park - Greenford St,Chapel Hill,Pullenvale,45
+58,Dog Off Leash Area Refurbishment,Yimbun Park,Sunnybank,MacGregor,20
+59,Dog Off Leash Area Refurbishment,Whites Hill Reserve,Camp Hill,Chandler,25
+60,Dog Off Leash Area Refurbishment,Carryover - Salisbury Recreation Reserve - Evans Rd,Salisbury,Moorooka,35
+61,Dog Off Leash Area Refurbishment,Carryover - Yimbun Park - McCullough St,Sunnybank,MacGregor,25
+62,Mt Coot-tha Botanic Gardens - Refurbish Assets,Carryover - Mt Coot-tha Botanic Gardens - Mt Coot-tha Rd,Toowong,Toowong,250
+63,Waterways Health Enhancement,Various Locations - Rehabilitation and Maintenance of recently constructed high profile projects,Various,Various,320
+64,Waterways Health Enhancement,McGregor Wy Stage 1,Ferny Grove,Enoggera,37
+65,Waterways Health Enhancement,Paramount Cct Stage 2,McDowall,McDowall,40
+66,Waterways Health Enhancement,Selkirk Cr Stage 1,Ferny Grove,Enoggera,60
+67,Local Drainage Construction,Canopus St,Coorparoo,Holland Park,130
+68,Local Drainage Construction,Carter St,Northgate,Northgate,375
+69,Local Drainage Construction,Dawson Pde,Keperra,Enoggera,515
+70,Local Drainage Construction,Deodar St,Inala,Richlands,270
+71,Local Drainage Construction,Gordon Cct,Seventeen Mile Rocks,Jamboree,210
+72,Local Drainage Construction,Idonia St,Bridgeman Downs,McDowall,450
+73,Local Drainage Construction,Kemble St,Clayfield,Hamilton,10
+74,Local Drainage Construction,Lydia St,Wooloowin,Hamilton,212
+75,Local Drainage Construction,McCawley St,Stafford,McDowall,230
+76,Local Drainage Construction,Milton Rd,Milton,Toowong,55
+77,Local Drainage Construction,Norman St,Ascot,Hamilton,643
+78,Local Drainage Construction,Paradise St,Highgate Hill,The Gabba,140
+79,Local Drainage Construction,Patrick St,Norman Park,Morningside,95
+80,Local Drainage Construction,Rawson St,Wooloowin,Hamilton,345
+81,Local Drainage Construction,Skyring Tce,Newstead,Hamilton,475
+82,Local Drainage Construction,Various Locations - Emergent Works,Various,Various,395
+83,Local Drainage Construction,Carryover - Commercial Rd,Newstead,Hamilton,200
+84,Local Drainage Construction,Carryover - Penson St,Stretton,Karawatha,80
+85,Major Drainage Construction,Arthur Tce Stage1,Bardon,The Gap,1555
+86,Major Drainage Construction,Bellata St,The Gap,The Gap,50
+87,Major Drainage Construction,Brentnall St Stage 1,Norman Park,Morningside,1700
+88,Major Drainage Construction,Carwoola St Stage 1,Bardon,Toowong,1150
+89,Major Drainage Construction,Dandaloo St Stage 2,The Gap,The Gap,800
+90,Major Drainage Construction,Logan Rd,Greenslopes,The Gabba,2400
+91,Major Drainage Construction,Martha St Stage 2,Paddington,Toowong,2340
+92,Major Drainage Construction,Park Lane - Design,Toowong,Toowong,150
+93,Major Drainage Construction,Carryover - Cornwall St,Greenslopes,The Gabba,300
+94,Major Drainage Construction,Carryover - Lizzie St Stage 2,Bardon,The Gap,700
+95,Major Drainage Construction,Carryover - Princess St Stage 2,Paddington,Toowong,580
+96,Stormwater ICP Infrastructure,Benhiam St,Calamvale,Parkinson,165
+97,Stormwater ICP Infrastructure,Cowie Rd,Carseldine,Bracken Ridge,130
+98,Stormwater ICP Infrastructure,Manning St,Milton,Toowong,150
+99,Stormwater ICP Infrastructure,Merthyr Rd Stage 2,Fortitude Valley,Central,2900
+100,Stormwater ICP Infrastructure,Various Locations - Developer Contribution - Emergent Works,Various,Various,400
+101,Stormwater ICP Infrastructure,Various Locations - Pre-assessment and Design,Various,Various,450
+102,Stormwater ICP Infrastructure,Various Locations - Rehabilitation of Waterway Corridor,Richlands,Richlands,110
+103,Stormwater ICP Infrastructure,Various Locations - Water Resources Studies for Priority Infrastructure Plans,Various,Various,400
+104,Stormwater ICP Infrastructure,Victoria St Stage 1,West End,The Gabba,1025
+105,Stormwater ICP Infrastructure,Carryover - Manning St,Milton,Toowong,750
+106,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Albany Creek Rd,Carseldine,Bracken Ridge,40
+107,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Atlandi St,Runcorn,MacGregor,65
+108,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Beams Rd,Aspley,Bracken Ridge,5
+109,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Beckett Rd,McDowall,McDowall,12
+110,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Bedivere St,Carindale,Chandler,27
+111,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Blackberry St,Mansfield,Chandler,22
+112,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Boundary Rd,Oxley,Richlands,33
+113,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Brush Box Pl,Corinda,Tennyson,16
+114,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Carwoola St,Bardon,The Gap,14
+115,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Dawson Pde,Mitchelton,Enoggera,30
+116,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Ellison Rd,Geebung,Marchant,20
+117,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Evans Rd,Salisbury,Moorooka,5
+118,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Fletcher Pde,Bardon,The Gap,25
+119,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Fulcher Rd,Red Hill,Toowong,25
+120,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Gallipoli St,Carina Heights,Chandler,32
+121,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Gay St,Coopers Plains,Moorooka,40
+122,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Glenrosa Rd,Red Hill,Toowong,15
+123,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Greencamp Rd,Wakerley,Doboy,28
+124,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Gympie Rd,Carseldine,Bracken Ridge,40
+125,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Hall Av,Corinda,Tennyson,14
+126,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Harvard St,Fitzgibbon,Bracken Ridge,40
+127,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Hoad St,Upper Mt Gravatt,Wishart,20
+128,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Jason St,Red Hill,Toowong,30
+129,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Jubilee Tce,Ashgrove,The Gap,15
+130,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Lemke Rd,Taigum,Deagon,25
+131,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Magenta Cr,Mitchelton,Enoggera,25
+132,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Manly Rd,Wakerley,Doboy,24
+133,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Meadowlands Rd,Carindale,Chandler,12
+134,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Monash St,Fitzgibbon,Bracken Ridge,5
+135,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Naldi St,Runcorn,MacGregor,20
+136,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Padstow Rd,Eight Mile Plains,MacGregor,35
+137,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Parkway St,MacGregor,MacGregor,15
+138,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Roghan Rd,Taigum,Deagon,40
+139,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Sandgate Rd,Boondall,Deagon,20
+140,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Secam St,Mansfield,Chandler,12
+141,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Springfield St,MacGregor,MacGregor,70
+142,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Station Av,Northgate,Northgate,5
+143,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Turnmill St,MacGregor,MacGregor,40
+144,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Webster Rd,Chermside,Marchant,15
+145,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Wondall Rd,Tingalpa,Wynnum Manly,12
+146,Lord Mayor's Flood Taskforce - Major Waterways Vegetation Management,Wynnum Rd,Morningside,Morningside,12
+147,Stormwater Drainage Rehabilitation,Anton Rd,Hemmant,Wynnum Manly,150
+148,Stormwater Drainage Rehabilitation,Brisbane St,Bulimba,Morningside,590
+149,Stormwater Drainage Rehabilitation,Cambridge St Stage 2,Red Hill,Toowong,425
+150,Stormwater Drainage Rehabilitation,Coronation St Stage 2,Bardon,The Gap,750
+151,Stormwater Drainage Rehabilitation,Gladstone St Stage 2,Paddington,Toowong,750
+152,Stormwater Drainage Rehabilitation,Henricks St Stage 2,Hemmant,Wynnum Manly,520
+153,Stormwater Drainage Rehabilitation,Keith St,Clayfield,Hamilton,305
+154,Stormwater Drainage Rehabilitation,Park La,Auchenflower,Toowong,50
+155,Stormwater Drainage Rehabilitation,Telegraph Rd,Bracken Ridge,Bracken Ridge,135
+156,Stormwater Drainage Rehabilitation,Tewantin Wy,Forest Lake,Richlands,480
+157,Stormwater Drainage Rehabilitation,Various Locations - Emergent Rehabilitation Works,Various,Various,350
+158,Stormwater Drainage Rehabilitation,Wildman St,Clayfield,Hamilton,495
+159,Stormwater Drainage Rehabilitation,Carryover - Cambridge St Stage 1,Red Hill,Toowong,100
+160,Cyclic Desilting Waterways and Drains,Breakfast Creek,Various,Central,450
+161,Gully Reconstruction,Bracken Ridge,Various,Bracken Ridge,75
+162,Gully Reconstruction,Central,Various,Central,105
+163,Gully Reconstruction,Chandler,Various,Chandler,84
+164,Gully Reconstruction,Deagon,Various,Deagon,76
+165,Gully Reconstruction,Doboy,Various,Doboy,89
+166,Gully Reconstruction,Enoggera,Various,Enoggera,84
+167,Gully Reconstruction,Hamilton,Various,Hamilton,106
+168,Gully Reconstruction,Holland Park,Various,Holland Park,89
+169,Gully Reconstruction,Jamboree,Various,Jamboree,77
+170,Gully Reconstruction,Karawatha,Various,Karawatha,67
+171,Gully Reconstruction,MacGregor,Various,MacGregor,72
+172,Gully Reconstruction,Marchant,Various,Marchant,72
+173,Gully Reconstruction,McDowall,Various,McDowall,84
+174,Gully Reconstruction,Moorooka,Various,Moorooka,95
+175,Gully Reconstruction,Morningside,Various,Morningside,124
+176,Gully Reconstruction,Northgate,Various,Northgate,94
+177,Gully Reconstruction,Parkinson,Various,Parkinson,67
+178,Gully Reconstruction,Pullenvale,Various,Pullenvale,67
+179,Gully Reconstruction,Richlands,Various,Richlands,72
+180,Gully Reconstruction,Tennyson,Various,Tennyson,106
+181,Gully Reconstruction,The Gabba,Various,The Gabba,107
+182,Gully Reconstruction,The Gap,Various,The Gap,84
+183,Gully Reconstruction,Toowong,Various,Toowong,106
+184,Gully Reconstruction,Walter Taylor,Various,Walter Taylor,89
+185,Gully Reconstruction,Wishart,Various,Wishart,75
+186,Gully Reconstruction,Wynnum Manly,Various,Wynnum Manly,84
+187,Constructing Key Bikeway Initiatives,Bicentennial Bikeway - Hale Street missing link - East,Brisbane City to Auchenflower,Central/Toowong,7300
+188,Constructing Key Bikeway Initiatives,Cycling Blackspots - Nudgee Rd/Herston Rd/Norman Park,Various,Various,250
+189,Constructing Key Bikeway Initiatives,Ferny Grove (BAZ link),Ferny Grove,Enoggera,300
+190,Constructing Key Bikeway Initiatives,SEQIPP - St Lucia Bikeway - Stage 2,St Lucia,Walter Taylor,450
+191,Constructing Key Bikeway Initiatives,Sylvan Rd,Toowong,Toowong,850
+192,Constructing Key Bikeway Initiatives,Shared Pathway Lighting,Various,Various,400
+193,Constructing Key Bikeway Initiatives,Bike Parking,Various,Various,75
+194,Constructing Key Bikeway Initiatives,Pedestrian and Cyclist Counters,Various,Various,16
+195,Constructing Key Bikeway Initiatives,Bicentennial Bikeway Stage 4 (Land St to Landsbough Tce),Toowong,Toowong,200
+196,Constructing Key Bikeway Initiatives,Bicentennial Bikeway Stage 3 (Park Rd to Lang Parade),Milton,Toowong,30
+197,Constructing Key Bikeway Initiatives,Nundah Creek Bikeway,Nudgee/Boondall,Northgate/Deagon,30
+198,Constructing Key Bikeway Initiatives,"moggill Creek Bikeway, (Brookfield)",Brookfield/Kenmore Hills,Pullenvale,30
+199,Constructing Key Bikeway Initiatives,Oxley Creek Bikeway Stage 2B (Oxley Common to Corinda Railway station via Nosworthy Park),Rocklea/Corinda,Tennyson,70
+200,Constructing Key Bikeway Initiatives,New Bikeway Projects - Commuter and Local Links,Various,Various,100
+201,Constructing Key Bikeway Initiatives,Design support for projects in construction,Various,Various,40
+202,Constructing Key Bikeway Initiatives,Cycling and Pedestrian BlackSpot Program,Various,Various,40
+203,Constructing Key Bikeway Initiatives,Carryover - Bicentennial Bikeway Hale St Link - West,Milton,Toowong,500
+204,Riverwalk Maintenance and Rehabilitation,Catalina Boardwalk Lighting Installation,Newstead,Central,180
+205,Riverwalk Maintenance and Rehabilitation,City Reach Balustrade upgrade,Brisbane City,Central,972
+206,Riverwalk Maintenance and Rehabilitation,City Reach Lease Management,Brisbane City,Central,270
+207,Road Network Design,Murphy Rd - Handford Rd - Lemke Rd,"Taigum, Zillmere, Geebung, Chermside, Aspley",Deagon/Bracken Ridge/Marchant,700
+208,Road Network Design,Wacol Station Rd (Wolston Rd to Sumners Rd) Bridge Replacement,Wacol,Richlands,500
+209,Road Network Design,Tilley Rd Extension Stage 3 (Kianawah Rd),Wynnum West,Doboy/Wynnum Manly,200
+210,Road Network Design,Investigation and Emergent Design,Various,Various,300
+211,Major Traffic Improvements - Intersections,Beenleigh Rd / Persse Rd,Runcorn,Karawatha,284.013
+212,Major Traffic Improvements - Intersections,Creek Rd / Stanley Rd,Carina,Doboy,316.207
+213,Major Traffic Improvements - Intersections,Beenleigh Rd/Mains Rd / Pinelands Rd,Sunnybank,MacGregor/Karawatha,623.196
+214,Major Traffic Improvements - Intersections,Wynnum Rd / Bognor St,Tingalpa,Wynnum Manly,304.002
+215,Major Traffic Improvements - Intersections,Sherwood Rd / Fairfield Rd,Rocklea,Tennyson,227.648
+216,Major Traffic Improvements - Intersections,Forest Lake Blvd / High St,Forest Lake,Parkinson,292.958
+217,Major Traffic Improvements - Intersections,Serviceton Ave / Sycamore St,Inala,Richlands,219.022
+218,Major Traffic Improvements - Intersections,Jack Flynn Memorial Dr / Waminda St,Morningside,Morningside,328.439
+219,Major Traffic Improvements - Intersections,Toohey Rd / Weller Rd,Tarragindi,Moorooka,397.515
+220,Major Traffic Improvements - Intersections,Commercial Rd / Doggett St,Newstead,Central/Hamilton,165.869
+221,Major Traffic Improvements - Intersections,James/Doggett,Fortitude Valley,Central,100
+222,Major Traffic Improvements - Intersections,Miles Platting/McKechnie,Eight Mile Plains,MacGregor,2014
+223,Major Traffic Improvements - Intersections,Oxley / Clewley,Corinda,Tennyson,2813.497
+224,Major Traffic Improvements - Intersections,Racecourse / Lancaster,Ascot,Hamilton,1063.916
+225,Major Traffic Improvements - Intersections,Seventeen Mile Rocks/Oldfield,Seventeen Mile Rocks,Jamboree,1265
+226,Major Traffic Improvements - Intersections,Winslow / Harcourt,Darra,Richlands,20
+227,Major Traffic Improvements - Intersections,Lytton/Apollo,Bulimba,Morningside,15
+228,Major Traffic Improvements - Intersections,Klumpp Road at Clairvaux Mackillop College,Upper Mt Gravatt,Wishart,400
+229,Major Traffic Improvements - Intersections,Future Design,Various,Various,785
+230,Major Traffic Improvements - Intersections,Central Av / Sirocco St,Mt Ommaney,Jamboree,15
+231,Major Traffic Improvements - Intersections,Gowan Rd / Palatine St,Calamvale,Parkinson,15
+232,Bridge and Culvert Construction - New,Pampling Street Creek Crossing,Seventeen Mile Rocks,Jamboree,1100
+233,Bridge and Culvert Construction - New,Sugars Road,Anstead,Pullenvale,280
+234,Bridge and Culvert Construction - New,Port Brisbane Motorway,Hemmant/Lytton,Doboy/Wynnum Manly,300
+235,Bridge and Culvert Construction - New,Illowra Street Pedestrian Facility Improvement,The Gap,The Gap,170
+236,Bridge and Culvert Construction - New,Future Design,Various,Various,200
+237,Bridge and Culvert Construction - New,Tennis Av,The Gap,The Gap,20
+238,Bridge and Culvert Construction - New,Allamanda St / Yoorala St,The Gap,The Gap,20
+239,Bridge and Culvert Construction - New,Bulimba Creek,Mansfield,Chandler,10
+240,District Projects,Upper Kedron Rd,Ferny Grove,Enoggera,1540
+241,District Projects,Norris Rd,Bracken Ridge,Bracken Ridge,750
+242,District Projects,Luke Street,Lytton,Wynnum Manly,900
+243,District Projects,Various Locations Emerging Work/Fwd Planning,Various,Various,200
+244,District Projects,Various Projects,Various,Various,300
+245,Local Area Traffic Management - Traffic Calming,Avondale Precinct,Sinnamon Park,Jamboree,250
+246,Local Area Traffic Management - Traffic Calming,Buderim St,Wynnum,Wynnum Manly,40
+247,Local Area Traffic Management - Traffic Calming,Carr Street Precinct Stage 2,Bulimba,Morningside,30
+248,Local Area Traffic Management - Traffic Calming,Chester St,Annerley,Tennyson,70
+249,Local Area Traffic Management - Traffic Calming,Collingwood St,Paddington,Toowong,70
+250,Local Area Traffic Management - Traffic Calming,Condamine St,Runcorn,Karawatha,30
+251,Local Area Traffic Management - Traffic Calming,Desgrand St,Archerfield,Moorooka,90
+252,Local Area Traffic Management - Traffic Calming,Gaynesford St,Holland Park West,Holland Park,300
+253,Local Area Traffic Management - Traffic Calming,Foxton Street Precinct,Seven Hills,Morningside,30
+254,Local Area Traffic Management - Traffic Calming,Princess Street Precinct,Bulimba,Morningside,30
+255,Local Area Traffic Management - Traffic Calming,Imbros St,Nundah,Northgate,30
+256,Local Area Traffic Management - Traffic Calming,Kangaloon St,Jindalee,Jamboree,40
+257,Local Area Traffic Management - Traffic Calming,Kitchener Rd Stage 1,Ascot,Hamilton,120
+258,Local Area Traffic Management - Traffic Calming,Lochaber St,Dutton Park,The Gabba,15
+259,Local Area Traffic Management - Traffic Calming,Delaney Crt,Carindale,Chandler,250
+260,Local Area Traffic Management - Traffic Calming,Macquarie St at Gray St,New Farm,Central,20
+261,Local Area Traffic Management - Traffic Calming,Marmont / Delaware St,Geebung,Marchant,70
+262,Local Area Traffic Management - Traffic Calming,Monmouth Street Precinct,Morningside,Morningside,30
+263,Local Area Traffic Management - Traffic Calming,Mullens Street Precinct,Hawthorne,Morningside,30
+264,Local Area Traffic Management - Traffic Calming,Mylne St / Corrie St,Chermside,Marchant,35
+265,Local Area Traffic Management - Traffic Calming,Ringara St,Manly West,Wynnum Manly,60
+266,Local Area Traffic Management - Traffic Calming,Scott St Stage 2,Kedron,Marchant,30
+267,Local Area Traffic Management - Traffic Calming,Tallara St,Bracken Ridge,Bracken Ridge,30
+268,Local Area Traffic Management - Traffic Calming,Thurston St / Annette St,Tingalpa,Doboy,200
+269,Local Area Traffic Management - Traffic Calming,Wirraway Pde,Inala,Richlands,120
+270,Local Area Traffic Management - Traffic Calming,Woking St,Keperra,Enoggera,90
+271,Local Area Traffic Management - Traffic Calming,Wynnum North Rd at Sibley Rd,Wynnum,Wynnum Manly,90
+272,New Kerb and Channel and Kerb Ramps Construction,Sumners Rd,Riverhills,Jamboree,69
+273,New Kerb and Channel and Kerb Ramps Construction,Blaker Rd,Keperra,Enoggera,96
+274,New Kerb and Channel and Kerb Ramps Construction,Pine Mountain Rd,Carindale,Chandler,60
+275,New Kerb and Channel and Kerb Ramps Construction,Kilbowie St,The Gap,Pullenvale,64
+276,New Kerb and Channel and Kerb Ramps Construction,Martin St,Woolloongabba,The Gabba,40
+277,New Kerb and Channel and Kerb Ramps Construction,Scrub Rd,Carindale,Chandler,42
+278,New Kerb and Channel and Kerb Ramps Construction,Kerb Ramps across all Wards,Various,Various,103
+279,Retaining Walls and Embankments,Abbey St,Wavell Heights,Northgate,26
+280,Retaining Walls and Embankments,Arnold St,Holland Park,Holland Park,9
+281,Retaining Walls and Embankments,Coopers Camp Rd,Ashgrove,The Gap,46
+282,Retaining Walls and Embankments,Coronation Dr Heritage Wall,Brisbane City,Toowong,231
+283,Retaining Walls and Embankments,Coronation St,Bardon,The Gap,118
+284,Retaining Walls and Embankments,Griffin St,Everton Park,McDowall,61
+285,Retaining Walls and Embankments,Lanita Rd,Ferny Grove,Enoggera,53
+286,Retaining Walls and Embankments,Waratah Ct,Taigum,Deagon,84
+287,Retaining Walls and Embankments,"Design, Inspection and Emergent Works",Various,Various across Brisbane,22
+288,Road Construction Minor Traffic Density,Andrew St,Lota,Wynnum Manly,92
+289,Road Construction Minor Traffic Density,Carberry St,Grange,Central,99
+290,Road Construction Minor Traffic Density,Coldridge St,St Lucia,Walter Taylor,69
+291,Road Construction Minor Traffic Density,Conavalla St,Ferny Grove,Enoggera,20
+292,Road Construction Minor Traffic Density,Deodar St,Inala,Richlands,38
+293,Road Construction Minor Traffic Density,Dianthus St,Wakerley,Doboy,210
+294,Road Construction Minor Traffic Density,Duporth Rd,Darra,Jamboree,131
+295,Road Construction Minor Traffic Density,Gawler Cr,Bracken Ridge,Bracken Ridge,35
+296,Road Construction Minor Traffic Density,Massinger St,Salisbury,Moorooka,105
+297,Road Construction Minor Traffic Density,Sussex St,Mitchelton,Enoggera,325
+298,Road Construction Minor Traffic Density,"Design, Emergent Works, Developer Contributions and Trust Work",Various,Various,110
+299,Safe School Travel,Carina State School,Carina,Chandler,35
+300,Safe School Travel,Islamic School Brisbane,Karawatha,Karawatha,205
+301,Safe School Travel,Our Lady of Angels' Catholic Primary School,Wavell Heights,Northgate,45
+302,Safe School Travel,Our Lady of the Assumption Catholic Primary School,Enoggera,Enoggera,55
+303,Safe School Travel,Stafford Heights State School,Stafford Heights,McDowall,35
+304,Safe School Travel,West End State School,West End,The Gabba,35
+305,Safe School Travel,Windsor State School,Windsor,Central,30
+306,Safe School Travel,Brisbane Boys College,Toowong,Walter Taylor,330
+307,Safe School Travel,Brookfield State School,Brookfield,Pullenvale,30
+308,Safe School Travel,Moorooka State School,Moorooka,Moorooka,165
+309,Safe School Travel,Nudgee Junior College,Indooroopilly,Walter Taylor,110
+310,Safe School Travel,Queen of Apostles Catholic Primary School,Stafford,McDowall,150
+311,Safe School Travel,Runcorn State High School,Runcorn,MacGregor,175
+312,Safe School Travel,St Martin's Catholic Primary School,Carina,Doboy,30
+313,Safe School Travel,Watson Road State School,Acacia Ridge,Moorooka,30
+314,Safe School Travel,Wavell State High School,Wavell Heights,Northgate,120
+315,Safer Routes to School,Buranda State School,Buranda,The Gabba,40
+316,Safer Routes to School,Mt Gravatt SS,Mt Gravatt,Holland Park,25
+317,Safer Routes to School,Prince of Peace Lutheran Primary,Everton Hills,McDowall,75
+318,Safer Routes to School,St Josephs,Bardon,The Gap,75
+319,Safer Routes to School,Oakleigh SS,Ashgrove,The Gap,80
+320,Safer Routes to School,Shorncliffe State School / St Patricks College,Shorncliffe,Deagon,50
+321,Safer Routes to School,"St Williams, Grovely",Keperra,Enoggera,80
+322,Safer Routes to School,Investigation and Emergent Design,Various,Various,75
+323,Ward Footpath Trust Fund,Various Streets Bracken Ridge Ward,Various,Bracken Ridge,320
+324,Ward Footpath Trust Fund,Various Streets Central Ward,Various,Central,320
+325,Ward Footpath Trust Fund,Various Streets Chandler Ward,Various,Chandler,320
+326,Ward Footpath Trust Fund,Various Streets Deagon Ward,Various,Deagon,320
+327,Ward Footpath Trust Fund,Various Streets Doboy Ward,Various,Doboy,320
+328,Ward Footpath Trust Fund,Various Streets Enoggera Ward,Various,Enoggera,320
+329,Ward Footpath Trust Fund,Various Streets Hamilton Ward,Various,Hamilton,320
+330,Ward Footpath Trust Fund,Various Streets Holland Park Ward,Various,Holland Park,320
+331,Ward Footpath Trust Fund,Various Streets Jamboree Ward,Various,Jamboree,320
+332,Ward Footpath Trust Fund,Various Streets Karawatha Ward,Various,Karawatha,320
+333,Ward Footpath Trust Fund,Various Streets MacGregor Ward,Various,Macgregor,320
+334,Ward Footpath Trust Fund,Various Streets Marchant Ward,Various,Marchant,320
+335,Ward Footpath Trust Fund,Various Streets McDowall Ward,Various,McDowall,320
+336,Ward Footpath Trust Fund,Various Streets Moorooka Ward,Various,Moorooka,320
+337,Ward Footpath Trust Fund,Various Streets Morningside Ward,Various,Morningside,320
+338,Ward Footpath Trust Fund,Various Streets Northgate Ward,Various,Northgate,320
+339,Ward Footpath Trust Fund,Various Streets Parkinson Ward,Various,Parkinson,320
+340,Ward Footpath Trust Fund,Various Streets Pullenvale Ward,Various,Pullenvale,320
+341,Ward Footpath Trust Fund,Various Streets Richlands Ward,Various,Richlands,320
+342,Ward Footpath Trust Fund,Various Streets Tennyson Ward,Various,Tennyson,320
+343,Ward Footpath Trust Fund,Various Streets The Gabba Ward,Various,The Gabba,320
+344,Ward Footpath Trust Fund,Various Streets The Gap Ward,Various,The Gap,320
+345,Ward Footpath Trust Fund,Various Streets Toowong Ward,Various,Toowong,320
+346,Ward Footpath Trust Fund,Various Streets Walter Taylor Ward,Various,Walter Taylor,320
+347,Ward Footpath Trust Fund,Various Streets Wishart Ward,Various,Wishart,320
+348,Ward Footpath Trust Fund,Various Streets Wynnum Manly Ward,Various,Wynnum Manly,320
+349,Ward Footpath Trust Fund,Emergent Works and Design,Various,Various across Brisbane,116
+350,Ward Footpath Trust Fund,Carryover - Various Streets spread across Brisbane,Various,Various across Brisbane,500
+351,Local Access Network Improvements,Bywong Street,Toowong,Toowong,35
+352,Local Access Network Improvements,Ainsworth St at Georgina St,Salisbury,Moorooka,85
+353,Local Access Network Improvements,Eric Cr at Sarah St,Annerley,Tennyson,100
+354,Local Access Network Improvements,Leybourne St at Hargraves Av,Chelmer,Tennyson,20
+355,Local Access Network Improvements,Currey Av at Dunstan St,Moorooka,Moorooka,45
+356,Local Access Network Improvements,Oxley Station Rd,Oxley,Richlands,30
+357,Local Access Network Improvements,Harcourt Rd near Railway Pde,Darra,Richlands,20
+358,Local Access Network Improvements,Wallum Drive at Mt Archer Rd,Parkinson,Parkinson,20
+359,Local Access Network Improvements,Ipswich Rd at Burke St,Woolloongabba,The Gabba,45
+360,Local Access Network Improvements,Murphy Rd at Butt St,Geebung,Marchant,45
+361,Local Access Network Improvements,Meemar St at Kingsmill St,Chermside,Northgate,45
+362,Local Access Network Improvements,Edinburgh Castle Rd at Leckie Rd,Kedron,Northgate,90
+363,Local Access Network Improvements,Melton Rd at Toombul shops,Nundah,Northgate,36
+364,Local Access Network Improvements,Rode Rd near hospital entrance,Chermside,Marchant,100
+365,Local Access Network Improvements,Adams St near Loftus St,Deagon,Deagon,45
+366,Local Access Network Improvements,Banks St at Braeside Tce,Alderley,Enoggera,50
+367,Local Access Network Improvements,Strathmore Street,Kedron,Marchant,45
+368,Local Access Network Improvements,Winstanley St,Carindale,Chandler,75
+369,Local Access Network Improvements,Zeehan Street,Wavell Heights,Northgate,45
+370,Local Access Network Improvements,Calam Road,Calamvale,Karawatha,45
+371,Local Access Network Improvements,Hamish Street,Calamvale,Parkinson,40
+372,Local Access Network Improvements,Days Rd near Eighth Av,Grange,Central/Marchant,45
+373,Safety Fences and Guard Rails,Crown St,Wynnum,Wynnum Manly,42
+374,Safety Fences and Guard Rails,George Roma  Sts Pedestrian Control,Brisbane City,Central,56
+375,Safety Fences and Guard Rails,Ivory St,Fortitude Valley,Central,45
+376,Safety Fences and Guard Rails,Kedron Brook Rd,Wilston,Central,46
+377,Safety Fences and Guard Rails,Pine Mountain Rd,Carindale,Chandler,18
+378,Safety Fences and Guard Rails,Sandgate Rd,Albion,Hamilton,54
+379,Safety Fences and Guard Rails,Seventeen Mile Rocks Rd,Seventeen Mile Rocks,Jamboree,65
+380,Safety Fences and Guard Rails,Viking St and Formation St Bikeway Ends,Wacol,Richlands,20
+381,Safety Fences and Guard Rails,Guard Rail/ Fence Minor Works and Reactive Repairs,Various,Various across Brisbane,1360
+382,Safety Fences and Guard Rails,Ipswich Rd,Annerley,Tennyson,40
+383,Bridges and Culverts Reconstruction and Rehabilitation,Bundaleer St Bridge Replacement,Brookfield,Pullenvale,400
+384,Bridges and Culverts Reconstruction and Rehabilitation,Cox Rd Bridge over Railway Rehabilitation,Windsor,Central,100
+385,Bridges and Culverts Reconstruction and Rehabilitation,Downey St Bridge over Enoggera Ck,Windsor,Central,120
+386,Bridges and Culverts Reconstruction and Rehabilitation,Edgar St,Northgate,Northgate,300
+387,Bridges and Culverts Reconstruction and Rehabilitation,Eleanor Schonell Electrical/Lighting,Dutton Park,The Gabba,300
+388,Bridges and Culverts Reconstruction and Rehabilitation,Esther St,Deagon,Deagon,500
+389,Bridges and Culverts Reconstruction and Rehabilitation,Meekes Rd Kholo Creek Crossing,Kholo,Pullenvale,150
+390,Bridges and Culverts Reconstruction and Rehabilitation,Noble St within Downey Park,Windsor,Central,90
+391,Bridges and Culverts Reconstruction and Rehabilitation,Park Av,Clayfield,Hamilton,300
+392,Bridges and Culverts Reconstruction and Rehabilitation,Preston Rd Bulimba Ck,Carina,Doboy,50
+393,Bridges and Culverts Reconstruction and Rehabilitation,Sherwood Rd #2 Bridge Rehabilitation,Sherwood,Tennyson,160
+394,Bridges and Culverts Reconstruction and Rehabilitation,Steege St Footbridge over Enoggera Ck,Ashgrove,The Gap,120
+395,Bridges and Culverts Reconstruction and Rehabilitation,Story Bridge Concrete Spalling Repairs,Kangaroo Point,The Gabba,100
+396,Bridges and Culverts Reconstruction and Rehabilitation,Story Bridge Electrical/Lighting upgrade,Kangaroo Point,The Gabba,600
+397,Bridges and Culverts Reconstruction and Rehabilitation,Tramway St,Ferny Grove,Enoggera,80
+398,Bridges and Culverts Reconstruction and Rehabilitation,Victoria Bridge Abutment Security,Brisbane City,Central,30
+399,Bridges and Culverts Reconstruction and Rehabilitation,Victoria Bridge Resurfacing,Brisbane City,Central,200
+400,Bridges and Culverts Reconstruction and Rehabilitation,Walter Taylor Suspension Cable Joints,Indooroopilly,Walter Taylor,450
+401,Bridges and Culverts Reconstruction and Rehabilitation,Webster Rd over Kedron Brook,Stafford,Marchant,160
+402,Bridges and Culverts Reconstruction and Rehabilitation,William Jolly Bridge Concrete Repairs,Brisbane City,Central,200
+403,Bridges and Culverts Reconstruction and Rehabilitation,Wynnum Rd #4 D/S Bridge,Tingalpa,Doboy,300
+404,Bridges and Culverts Reconstruction and Rehabilitation,Bridge Deck Resurfacing Various Sites,Various,Various,770
+405,Bridges and Culverts Reconstruction and Rehabilitation,Culvert Rehabilitation and Emergent Works,Various,Various,100
+406,Bridges and Culverts Reconstruction and Rehabilitation,Bridge and Culvert Rehabilitation Design,Various,Various,600
+407,Bridges and Culverts Reconstruction and Rehabilitation,Cross River Bridge Level 2 Inspection and Design,Various,Various,750
+408,Bridges and Culverts Reconstruction and Rehabilitation,Cross River Bridge Minor Works,Various,Various,719
+409,Bridges and Culverts Reconstruction and Rehabilitation,Johnson Rd,Forest Lake,Parkinson,125
+410,Bridges and Culverts Reconstruction and Rehabilitation,HML Route Assessment,Various,Various,325
+411,Kerb and Channel,Albar St,Wavell Heights,Northgate,114
+412,Kerb and Channel,Anson St,Moorooka,Moorooka,171
+413,Kerb and Channel,Barmore St,Tarragindi,Moorooka,91
+414,Kerb and Channel,Billington St,Alderley,Enoggera,159
+415,Kerb and Channel,Boniface St,Archerfield,Moorooka,152
+416,Kerb and Channel,Brook St,Windsor,Central,179
+417,Kerb and Channel,Bywong St,Toowong,Toowong,168
+418,Kerb and Channel,Cheviot St,Grange,Marchant,188
+419,Kerb and Channel,Craigan Cres,Aspley,Bracken Ridge,86
+420,Kerb and Channel,Crown St,Wynnum,Wynnum Manly,69
+421,Kerb and Channel,Curve Av,Wynnum,Wynnum Manly,97
+422,Kerb and Channel,Daventry St,West End,The Gabba,68
+423,Kerb and Channel,Dibbil St,Chermside West,Marchant,122
+424,Kerb and Channel,Dumaurier St,Chermside,Marchant,102
+425,Kerb and Channel,Eastleigh Lane,Coorparoo,Holland Park,66
+426,Kerb and Channel,Enright St,Oxley,Richlands,115
+427,Kerb and Channel,Franklin St,Annerley,Tennyson,256
+428,Kerb and Channel,Goldfinch St,Inala,Richlands,88
+429,Kerb and Channel,Grant St,Hendra,Hamilton,81
+430,Kerb and Channel,Grays Rd,Hamilton,Hamilton,157
+431,Kerb and Channel,Hillview Tce,Moorooka,Moorooka,84
+432,Kerb and Channel,Howard St,Oxley,Jamboree,185
+433,Kerb and Channel,Hunter Lane,Clayfield,Hamilton,40
+434,Kerb and Channel,Hutton St,Clayfield,Hamilton,95
+435,Kerb and Channel,Ibsen St,Aspley,Marchant,104
+436,Kerb and Channel,Inglis St,Grange,Central,104
+437,Kerb and Channel,Kakawan St,Boondall,Deagon,110
+438,Kerb and Channel,Kanangra St,Stafford,McDowall,344
+439,Kerb and Channel,Kennedy Tce,Paddington,Toowong,75
+440,Kerb and Channel,Kianawah Rd,Wynnum West,Wynnum Manly,74
+441,Kerb and Channel,Lawler St,Chermside,Marchant,19
+442,Kerb and Channel,Lobe St,Bald Hills,Bracken Ridge,103
+443,Kerb and Channel,Long St,Graceville,Tennyson,131
+444,Kerb and Channel,Mahara St,Bardon,Toowong,75
+445,Kerb and Channel,Manchester Tce,Taringa,Walter Taylor,72
+446,Kerb and Channel,Marlene St,Mt Gravatt East,Wishart,46
+447,Kerb and Channel,Mcfadden St,Wynnum,Wynnum Manly,56
+448,Kerb and Channel,Mollison St,South Brisbane,The Gabba,79
+449,Kerb and Channel,Mons Rd,Carina Heights,Chandler,32
+450,Kerb and Channel,Morrison Rd,Clayfield,Hamilton,89
+451,Kerb and Channel,Mosman St,Taringa,Toowong,60
+452,Kerb and Channel,Mullens St,Hamilton,Hamilton,105
+453,Kerb and Channel,Myall St,Norman Park,Morningside,77
+454,Kerb and Channel,Nathan Av,Ashgrove,The Gap,114
+455,Kerb and Channel,Norman St,Ascot,Hamilton,69
+456,Kerb and Channel,Oriel Rd,Clayfield,Hamilton,185
+457,Kerb and Channel,Ormond St,Ascot,Hamilton,152
+458,Kerb and Channel,Panama St,Wishart,Wishart,42
+459,Kerb and Channel,Park Av,Ashgrove,The Gap,52
+460,Kerb and Channel,Poet St,Holland Park West,Holland Park,46
+461,Kerb and Channel,Pond St,Mt Gravatt East,Wishart,131
+462,Kerb and Channel,Primrose St,Grange,Central,210
+463,Kerb and Channel,Prospect Tce,Hamilton,Hamilton,79
+464,Kerb and Channel,Ranley Tce,Paddington,Toowong,39
+465,Kerb and Channel,Royal St,Virginia,Northgate,58
+466,Kerb and Channel,Sackville St,Milton,Toowong,135
+467,Kerb and Channel,Sefton Av,Clayfield,Hamilton,162
+468,Kerb and Channel,Shaw Rd,Wavell Heights,Northgate,143
+469,Kerb and Channel,Sinclair St,East Brisbane,The Gabba,96
+470,Kerb and Channel,Speedy St,Kelvin Grove,Toowong,79
+471,Kerb and Channel,St Pauls Tce,Spring Hill,Central,40
+472,Kerb and Channel,Thornbury St,Spring Hill,Central,47
+473,Kerb and Channel,Thynne Rd,Morningside,Morningside,67
+474,Kerb and Channel,Trundle St,Enoggera,Enoggera,31
+475,Kerb and Channel,Vera St,Greenslopes,Holland Park,81
+476,Kerb and Channel,Victor St,Holland Park,Holland Park,248
+477,Kerb and Channel,Violet St,Hemmant,Doboy,31
+478,Kerb and Channel,Walcott St,St Lucia,Walter Taylor,116
+479,Kerb and Channel,Wambool St,Bulimba,Morningside,129
+480,Kerb and Channel,Wellington St,Manly,Wynnum Manly,76
+481,Kerb and Channel,Yaralla St,Chermside,Northgate,89
+482,Kerb and Channel,Early Start for next Financial Year and Emergent Works,Various,Various,599
+483,Kerb and Channel,Kerb and Channel Capitalised Large Failure Rehabilitation,Various,Various,610
+484,Roads Network Resurfacing,Abbeville St,Upper Mt Gravatt,Wishart,63
+485,Roads Network Resurfacing,Agnes St,Wynnum,Wynnum Manly,90
+486,Roads Network Resurfacing,Akora St,MacGregor,MacGregor,83
+487,Roads Network Resurfacing,Akuna Rd,Kenmore,Pullenvale,104
+488,Roads Network Resurfacing,Albar St,Wavell Heights,Northgate,54
+489,Roads Network Resurfacing,Allenby St,Spring Hill,Central,69
+490,Roads Network Resurfacing,Amega St,Mt Gravatt East,Wishart,49
+491,Roads Network Resurfacing,Anderson St,Windsor,Central,40
+492,Roads Network Resurfacing,Anson St,Moorooka,Moorooka,81
+493,Roads Network Resurfacing,Archer St,Upper Mt Gravatt,Holland Park,150
+494,Roads Network Resurfacing,Archerfield Rd,Darra,Richlands,306
+495,Roads Network Resurfacing,Arvon St,Coorparoo,Holland Park,12
+496,Roads Network Resurfacing,Balaclava St,Woolloongabba,The Gabba,300
+497,Roads Network Resurfacing,Balmoral St,Hawthorne,Morningside,305
+498,Roads Network Resurfacing,Banks St,Newmarket,Enoggera,147
+499,Roads Network Resurfacing,Barberry St,Inala,Richlands,50
+500,Roads Network Resurfacing,Barmore St,Tarragindi,Moorooka,85
+501,Roads Network Resurfacing,Barrington St,Banyo,Northgate,27
+502,Roads Network Resurfacing,Bassey St,McDowall,McDowall,49
+503,Roads Network Resurfacing,Beanland St,Middle Park,Jamboree,110
+504,Roads Network Resurfacing,Beaudesert Rd,Calamvale,Parkinson,36
+505,Roads Network Resurfacing,Beaudesert Rd,Rocklea,Moorooka,84
+506,Roads Network Resurfacing,Beenleigh Rd,Sunnybank,Karawatha,645
+507,Roads Network Resurfacing,Beenleigh Rd,Sunnybank,Karawatha,166
+508,Roads Network Resurfacing,Belar St,Eight Mile Plains,MacGregor,24
+509,Roads Network Resurfacing,Belloy St,Wavell Heights,Northgate,38
+510,Roads Network Resurfacing,Beta St,Stafford Heights,Marchant,24
+511,Roads Network Resurfacing,Bilambil St,Banyo,Northgate,36
+512,Roads Network Resurfacing,Bilga St,Middle Park,Jamboree,45
+513,Roads Network Resurfacing,Billington St,Alderley,Enoggera,40
+514,Roads Network Resurfacing,Bird St,Manly,Wynnum Manly,36
+515,Roads Network Resurfacing,Birdwood Rd,Tarragindi,Moorooka,300
+516,Roads Network Resurfacing,Blyde St,Sinnamon Park,Jamboree,55
+517,Roads Network Resurfacing,Bodian St,Carindale,Chandler,44
+518,Roads Network Resurfacing,Bonewood St,Algester,Parkinson,88
+519,Roads Network Resurfacing,Boniface St,Archerfield,Moorooka,182
+520,Roads Network Resurfacing,Boundary Rd,Coorparoo,Holland Park,207
+521,Roads Network Resurfacing,Boundary Rd,Camp Hill,Chandler/Holland Park/Morningside,484
+522,Roads Network Resurfacing,Boundary Rd,Rocklea,Moorooka,941
+523,Roads Network Resurfacing,Boundary Rd,Coorparoo,Holland Park,207
+524,Roads Network Resurfacing,Bowen St,Deagon,Deagon,43
+525,Roads Network Resurfacing,Bracken Ridge Rd,Bracken Ridge,Bracken Ridge,40
+526,Roads Network Resurfacing,Brett St,Tarragindi,Moorooka,15
+527,Roads Network Resurfacing,Brighton Rd,Highgate Hill,The Gabba,167
+528,Roads Network Resurfacing,Broadwater Rd,Mt Gravatt East,Wishart,239
+529,Roads Network Resurfacing,Brook St,Windsor,Central,104
+530,Roads Network Resurfacing,Buckland Rd,Nundah,Northgate,237
+531,Roads Network Resurfacing,Buhot St,Geebung,Marchant,30
+532,Roads Network Resurfacing,Bundella St,Aspley,Marchant,15
+533,Roads Network Resurfacing,Bukulla St,Wacol,Richlands,51
+534,Roads Network Resurfacing,Burrabirra St,Mt Gravatt East,Holland Park,90
+535,Roads Network Resurfacing,Bywong St,Toowong,Toowong,63
+536,Roads Network Resurfacing,Caldicot Pl,Carindale,Chandler,40
+537,Roads Network Resurfacing,Camellia Pl,Sunnybank Hills,Karawatha,34
+538,Roads Network Resurfacing,Capparis St,Algester,Parkinson,123
+539,Roads Network Resurfacing,Carnaby St,MacGregor,MacGregor,175
+540,Roads Network Resurfacing,Carrington St,Paddington,Toowong,56
+541,Roads Network Resurfacing,Cashmere St,Keperra,Enoggera,26
+542,Roads Network Resurfacing,Cemetery Rd,Upper Kedron,Enoggera,30
+543,Roads Network Resurfacing,Chalk St,Lutwyche,Hamilton,435
+544,Roads Network Resurfacing,Cheviot St,Grange,Marchant,114
+545,Roads Network Resurfacing,Chiswick Rd,Bardon,The Gap,196
+546,Roads Network Resurfacing,Clement St,Aspley,Marchant,25
+547,Roads Network Resurfacing,Club St,Paddington,Toowong,27
+548,Roads Network Resurfacing,Coachwood St,Keperra,Enoggera,33
+549,Roads Network Resurfacing,College Rd,Karana Downs,Pullenvale,589
+550,Roads Network Resurfacing,Collier St,Stafford,Marchant,115
+551,Roads Network Resurfacing,Columbia St,Chapel Hill,Walter Taylor,36
+552,Roads Network Resurfacing,Compton Rd,Stretton,Karawatha,255
+553,Roads Network Resurfacing,Coolah St,Aspley,Marchant,52
+554,Roads Network Resurfacing,Coolibah Ct,Mt Crosby,Pullenvale,98
+555,Roads Network Resurfacing,Coolview St,Manly West,Wynnum Manly,39
+556,Roads Network Resurfacing,Coopers Camp Rd,Ashgrove,The Gap,87
+557,Roads Network Resurfacing,Coopers Camp Rd,Bardon,The Gap,139
+558,Roads Network Resurfacing,Corbyn St,Banyo,Northgate,13
+559,Roads Network Resurfacing,Cormorant St,Inala,Richlands,105
+560,Roads Network Resurfacing,Cornwall St,Greenslopes,Holland Park,325
+561,Roads Network Resurfacing,Corsair Av,Inala,Richlands,275
+562,Roads Network Resurfacing,Countess St,Brisbane City,Toowong,232
+563,Roads Network Resurfacing,Craig St,Brighton,Deagon,122
+564,Roads Network Resurfacing,Craigan Cres,Aspley,Bracken Ridge,53
+565,Roads Network Resurfacing,Creek Rd,Mansfield,Chandler,381
+566,Roads Network Resurfacing,Crestway St,Keperra,Enoggera,23
+567,Roads Network Resurfacing,Cribb St,Milton,Toowong,100
+568,Roads Network Resurfacing,Cromer St,Sunnybank Hills,Karawatha,40
+569,Roads Network Resurfacing,Cropthorne St,Tarragindi,Moorooka,31
+570,Roads Network Resurfacing,Crown St,Wynnum,Wynnum Manly,44
+571,Roads Network Resurfacing,Curtis St,Norman Park,Morningside,40
+572,Roads Network Resurfacing,Curve Av,Wynnum,Wynnum Manly,56
+573,Roads Network Resurfacing,Daisy St,Grange,Central,69
+574,Roads Network Resurfacing,Dandenong Rd,Mt Ommaney,Jamboree,390
+575,Roads Network Resurfacing,Daniells St,Carina,Doboy,83
+576,Roads Network Resurfacing,Dawn St,Bardon,The Gap,40
+577,Roads Network Resurfacing,Deerhurst Rd,Brookfield,Pullenvale,236
+578,Roads Network Resurfacing,Denham St,Bracken Ridge,Bracken Ridge,74
+579,Roads Network Resurfacing,Derby St,Balmoral,Morningside,38
+580,Roads Network Resurfacing,Diane St,Yeronga,Tennyson,65
+581,Roads Network Resurfacing,Dibbil St,Chermside West,Marchant,71
+582,Roads Network Resurfacing,Dividend St,Mansfield,Chandler,133
+583,Roads Network Resurfacing,Doggett St,Fortitude Valley,Central,259
+584,Roads Network Resurfacing,Dorkay St,Stafford Heights,McDowall,64
+585,Roads Network Resurfacing,Dornoch Tce,Highgate Hill,The Gabba,321
+586,Roads Network Resurfacing,Doulein St,Wavell Heights,Northgate,39
+587,Roads Network Resurfacing,Dubarry St,Sunnybank Hills,Karawatha,76
+588,Roads Network Resurfacing,Dugald St,Aspley,Marchant,19
+589,Roads Network Resurfacing,Dulendella St,Zillmere,Deagon,21
+590,Roads Network Resurfacing,Dumaurier St,Chermside,Marchant,34
+591,Roads Network Resurfacing,Duncroft St,Wynnum West,Wynnum Manly,27
+592,Roads Network Resurfacing,Early Start Preparation for next Financial Year,Various,Various,250
+593,Roads Network Resurfacing,Earnshaw Rd,Banyo,Northgate,287
+594,Roads Network Resurfacing,Edgar St,Northgate,Northgate,64
+595,Roads Network Resurfacing,Edzell Pl,Carindale,Chandler,33
+596,Roads Network Resurfacing,Ellamark St,Banyo,Northgate,47
+597,Roads Network Resurfacing,Ellis St,Kangaroo Point,The Gabba,81
+598,Roads Network Resurfacing,Ellison Rd,Geebung,Marchant,462
+599,Roads Network Resurfacing,Elsa St,Mt Gravatt,Wishart,15
+600,Roads Network Resurfacing,Emergent Works arising during Financial Year,Various,Various,300
+601,Roads Network Resurfacing,Enright St,Oxley,Richlands,83
+602,Roads Network Resurfacing,Eromanga St,Carindale,Chandler,56
+603,Roads Network Resurfacing,Eyre St,Mt Gravatt East,Wishart,50
+604,Roads Network Resurfacing,Fairholme St,Kenmore,Pullenvale,51
+605,Roads Network Resurfacing,Ferrier St,Aspley,Marchant,25
+606,Roads Network Resurfacing,Filewood St,Tarragindi,Moorooka,35
+607,Roads Network Resurfacing,Finch St,Stafford Heights,McDowall,26
+608,Roads Network Resurfacing,Fleetwood St,MacGregor,MacGregor,74
+609,Roads Network Resurfacing,Flindosy St,Algester,Parkinson,64
+610,Roads Network Resurfacing,Florence St,Wynnum,Wynnum Manly,98
+611,Roads Network Resurfacing,Forest Lake Blvd,Forest Lake,Parkinson,68
+612,Roads Network Resurfacing,Fowey St,Sunnybank Hills,Karawatha,51
+613,Roads Network Resurfacing,Franklin St,Annerley,Tennyson,212
+614,Roads Network Resurfacing,Fred St,Red Hill,The Gap,34
+615,Roads Network Resurfacing,Fry St,Holland Park,Holland Park,26
+616,Roads Network Resurfacing,Fulcher Rd,Red Hill,The Gap,121
+617,Roads Network Resurfacing,Galena St,Chermside,Marchant,26
+618,Roads Network Resurfacing,Gawler St,Alderley,Enoggera,25
+619,Roads Network Resurfacing,Gillies Rd,Upper Brookfield,Pullenvale,72
+620,Roads Network Resurfacing,Gilliver St,Mt Gravatt East,Wishart,95
+621,Roads Network Resurfacing,Gimba St,Mitchelton,Enoggera,58
+622,Roads Network Resurfacing,Gizerah St,Mitchelton,Enoggera,67
+623,Roads Network Resurfacing,Glebe St,Gordon Park,Marchant,38
+624,Roads Network Resurfacing,Glenore St,Mitchelton,Enoggera,27
+625,Roads Network Resurfacing,Goldfinch St,Inala,Richlands,69
+626,Roads Network Resurfacing,Gonzales St,MacGregor,MacGregor,100
+627,Roads Network Resurfacing,Gooderham Rd,Pallara,Parkinson,186
+628,Roads Network Resurfacing,Goulburn St,Gordon Park,Marchant,71
+629,Roads Network Resurfacing,Granadilla St,MacGregor,MacGregor,144
+630,Roads Network Resurfacing,Grant St,Hendra,Hamilton,69
+631,Roads Network Resurfacing,Grays Rd,Hamilton,Hamilton,73
+632,Roads Network Resurfacing,Greenlaw St,Indooroopilly,Walter Taylor,118
+633,Roads Network Resurfacing,Greycliffe St,Mt Gravatt East,Wishart,35
+634,Roads Network Resurfacing,Halsmere St,Geebung,Marchant,127
+635,Roads Network Resurfacing,Hardgrave Rd,West End,The Gabba,162
+636,Roads Network Resurfacing,Harrison St,Bulimba,Morningside,47
+637,Roads Network Resurfacing,Hawbridge St,Carseldine,Bracken Ridge,24
+638,Roads Network Resurfacing,Herston Rd,Kelvin Grove,Central,179
+639,Roads Network Resurfacing,Hillview Tce,Moorooka,Moorooka,84
+640,Roads Network Resurfacing,Hiron St,St Lucia,Walter Taylor,58
+641,Roads Network Resurfacing,Holt St,Pinkenba,Hamilton,330
+642,Roads Network Resurfacing,Honour Av,Sherwood,Tennyson,247
+643,Roads Network Resurfacing,Horizon Dr,Middle Park,Jamboree,499
+644,Roads Network Resurfacing,Howard St,Oxley,Jamboree,231
+645,Roads Network Resurfacing,Howitt St,Taringa,Toowong,38
+646,Roads Network Resurfacing,Huffer St,Carina Heights,Chandler,23
+647,Roads Network Resurfacing,Hunter Lane,Clayfield,Hamilton,20
+648,Roads Network Resurfacing,Hutton St,Clayfield,Hamilton,25
+649,Roads Network Resurfacing,Hynes St,Fortitude Valley,Central,46
+650,Roads Network Resurfacing,Ian St,Lota,Wynnum Manly,51
+651,Roads Network Resurfacing,Ibsen St,Aspley,Marchant,63
+652,Roads Network Resurfacing,Imbros St,Enoggera,Enoggera,22
+653,Roads Network Resurfacing,Indus St,Camp Hill,Chandler,45
+654,Roads Network Resurfacing,Inglis St,Grange,Central,162
+655,Roads Network Resurfacing,"Innovative Tests, Trials and Special Design",Various,Various,228
+656,Roads Network Resurfacing,Ipswich Rd,Darra,Richlands,220
+657,Roads Network Resurfacing,Isolde Ct,Carindale,Chandler,24
+658,Roads Network Resurfacing,Ives St,Murarrie,Doboy,66
+659,Roads Network Resurfacing,Jackson Rd,Sunnybank Hills,Karawatha,68
+660,Roads Network Resurfacing,James St,Fortitude Valley,Central,147
+661,Roads Network Resurfacing,Jephson St,Toowong,Toowong,135
+662,Roads Network Resurfacing,Johnson Rd,Heathwood,Parkinson,168
+663,Roads Network Resurfacing,Johnson Rd,Larapinta,Parkinson,89
+664,Roads Network Resurfacing,Johnson Rd,Larapinta,Parkinson,53
+665,Roads Network Resurfacing,Johnson Rd,Parkinson,Parkinson,68
+666,Roads Network Resurfacing,Johnson Rd,Parkinson,Parkinson,273
+667,Roads Network Resurfacing,Jupetta St,Aspley,Marchant,34
+668,Roads Network Resurfacing,Kakawan St,Boondall,Deagon,38
+669,Roads Network Resurfacing,Kanangra St,Stafford,McDowall,143
+670,Roads Network Resurfacing,Kelvin Grove Rd,Kelvin Grove,Central,368
+671,Roads Network Resurfacing,Kennedy Tce,Paddington,Toowong,47
+672,Roads Network Resurfacing,Kenneth St,Coorparoo,Holland Park,35
+673,Roads Network Resurfacing,Kent St,Toowong,Toowong,54
+674,Roads Network Resurfacing,Kenton St,Chapel Hill,Walter Taylor,30
+675,Roads Network Resurfacing,Kentville St,Mitchelton,Enoggera,32
+676,Roads Network Resurfacing,Kianawah Rd,Wynnum West,Wynnum Manly,315
+677,Roads Network Resurfacing,Kingaroy St,Stafford Heights,Marchant,41
+678,Roads Network Resurfacing,Kingsmill St,Chermside,Northgate,108
+679,Roads Network Resurfacing,Kitchener Rd,Stafford Heights,Marchant,319
+680,Roads Network Resurfacing,Koolewong St,Stafford Heights,Marchant,54
+681,Roads Network Resurfacing,Koorong St,The Gap,The Gap,31
+682,Roads Network Resurfacing,Kooya Rd,Mitchelton,Enoggera,72
+683,Roads Network Resurfacing,Kosma St,Aspley,Marchant,30
+684,Roads Network Resurfacing,Kuranda St,Balmoral,Morningside,57
+685,Roads Network Resurfacing,Kyabra St,Newstead,Hamilton,89
+686,Roads Network Resurfacing,Laburnum St,Inala,Richlands,57
+687,Roads Network Resurfacing,Lacon St,Holland Park West,Holland Park,22
+688,Roads Network Resurfacing,Landsboro Av,Boondall,Deagon,33
+689,Roads Network Resurfacing,Langham St,Tarragindi,Moorooka,44
+690,Roads Network Resurfacing,Larissa St,Geebung,Marchant,38
+691,Roads Network Resurfacing,Lawler St,Chermside,Marchant,11
+692,Roads Network Resurfacing,Leadale St,Wynnum West,Wynnum Manly,60
+693,Roads Network Resurfacing,Leadenhall St,MacGregor,MacGregor,35
+694,Roads Network Resurfacing,Lemke Rd,Fitzgibbon,Bracken Ridge,246
+695,Roads Network Resurfacing,Leyland St,Mt Gravatt,Wishart,50
+696,Roads Network Resurfacing,Lindstol St,Nudgee,Northgate,33
+697,Roads Network Resurfacing,Lobe St,Bald Hills,Bracken Ridge,37
+698,Roads Network Resurfacing,Logan Rd,Holland Park West,Wishart,423
+699,Roads Network Resurfacing,Long St,Graceville,Tennyson,126
+700,Roads Network Resurfacing,Longlands St,Woolloongabba,The Gabba,254
+701,Roads Network Resurfacing,Lorimer Tce,Kelvin Grove,Central,87
+702,Roads Network Resurfacing,Lovejoy St,Red Hill,The Gap,19
+703,Roads Network Resurfacing,Lowrie Lane,Stafford,Marchant,11
+704,Roads Network Resurfacing,Lucy St,Milton,Toowong,62
+705,Roads Network Resurfacing,Lytton Rd,East Brisbane,The Gabba,314
+706,Roads Network Resurfacing,Macgregor St,Upper Mt Gravatt,Wishart,159
+707,Roads Network Resurfacing,Mahara St,Bardon,Toowong,66
+708,Roads Network Resurfacing,Manchester St,Eight Mile Plains,MacGregor,35
+709,Roads Network Resurfacing,Manchester Tce,Taringa,Walter Taylor,64
+710,Roads Network Resurfacing,Marathon St,Aspley,Marchant,34
+711,Roads Network Resurfacing,Marcia St,Aspley,Marchant,16
+712,Roads Network Resurfacing,Margaret St,Camp Hill,Morningside,60
+713,Roads Network Resurfacing,Markway St,Chermside West,McDowall,19
+714,Roads Network Resurfacing,Marlene St,Mt Gravatt East,Wishart,83
+715,Roads Network Resurfacing,Marshall Rd,Tarragindi,Moorooka,37
+716,Roads Network Resurfacing,Masterton St,Oxley,Richlands,45
+717,Roads Network Resurfacing,Maurer St,Middle Park,Jamboree,40
+718,Roads Network Resurfacing,Mccawley St,Stafford,McDowall,34
+719,Roads Network Resurfacing,Mcfadden St,Wynnum,Wynnum Manly,76
+720,Roads Network Resurfacing,Mcginn Rd,Ferny Grove,Enoggera,68
+721,Roads Network Resurfacing,Merlin St,Tennyson,Tennyson,31
+722,Roads Network Resurfacing,Messines Ridge Rd,Holland Park West,Holland Park,179
+723,Roads Network Resurfacing,Millers Rd,Kuraby,MacGregor,40
+724,Roads Network Resurfacing,Minard St,The Gap,The Gap,21
+725,Roads Network Resurfacing,Mitta St,Everton Park,McDowall,28
+726,Roads Network Resurfacing,Modred St,Carindale,Chandler,86
+727,Roads Network Resurfacing,Moggill Rd,Toowong,Toowong,187
+728,Roads Network Resurfacing,Moggill Rd,Indooroopilly,Walter Taylor,809
+729,Roads Network Resurfacing,Moggill Rd,Taringa,Walter Taylor,239
+730,Roads Network Resurfacing,Mollison St,South Brisbane,The Gabba,212
+731,Roads Network Resurfacing,Mons Rd,Carina Heights,Chandler,58
+732,Roads Network Resurfacing,Moorak St,Taringa,Walter Taylor,59
+733,Roads Network Resurfacing,Morrison Rd,Clayfield,Hamilton,55
+734,Roads Network Resurfacing,Mosman St,Taringa,Toowong,27
+735,Roads Network Resurfacing,Mulawa St,Jindalee,Jamboree,37
+736,Roads Network Resurfacing,Mullens St,Hamilton,Hamilton,47
+737,Roads Network Resurfacing,Musgrave Rd,Coopers Plains,Moorooka,635
+738,Roads Network Resurfacing,Myall St,Norman Park,Morningside,46
+739,Roads Network Resurfacing,Nathan Av,Ashgrove,The Gap,46
+740,Roads Network Resurfacing,Navy St,Holland Park West,Holland Park,42
+741,Roads Network Resurfacing,New Lindum Rd,Wynnum West,Wynnum Manly,420
+742,Roads Network Resurfacing,Norman St,Ascot,Hamilton,71
+743,Roads Network Resurfacing,Norris Rd,Bracken Ridge,Bracken Ridge,525
+744,Roads Network Resurfacing,North Rd,Wynnum West,Wynnum Manly,191
+745,Roads Network Resurfacing,Oakey St,Stafford Heights,Marchant,32
+746,Roads Network Resurfacing,Oldfield Rd,Sinnamon Park,Jamboree,300
+747,Roads Network Resurfacing,Orchard Rd,Richlands,Richlands,81
+748,Roads Network Resurfacing,Orion St,Coorparoo,Holland Park,56
+749,Roads Network Resurfacing,Ormond St,Ascot,Hamilton,55
+750,Roads Network Resurfacing,Orpen St,Greenslopes,Holland Park,62
+751,Roads Network Resurfacing,Overells Lane,Fortitude Valley,Central,15
+752,Roads Network Resurfacing,Palm Av,Shorncliffe,Deagon,246
+753,Roads Network Resurfacing,Panama St,Wishart,Wishart,68
+754,Roads Network Resurfacing,Park Av,Ashgrove,The Gap,60
+755,Roads Network Resurfacing,Patrol St,Jamboree Heights,Jamboree,79
+756,Roads Network Resurfacing,Paved Roads Large Failure Rehabilitation,Various,Various,1062
+757,Roads Network Resurfacing,Pavo St,Camp Hill,Chandler,84
+758,Roads Network Resurfacing,Peatmoss St,Sunnybank Hills,Karawatha,136
+759,Roads Network Resurfacing,Peel St,Manly,Wynnum Manly,19
+760,Roads Network Resurfacing,Pelsart Pl,Drewvale,Karawatha,61
+761,Roads Network Resurfacing,Pendine St,Gaythorne,Enoggera,18
+762,Roads Network Resurfacing,Persse Rd,Runcorn,Karawatha,195
+763,Roads Network Resurfacing,Pickering St,Enoggera,Enoggera,735
+764,Roads Network Resurfacing,Pine Mountain Rd,Mt Gravatt East,Chandler,666
+765,Roads Network Resurfacing,Pinelands Rd,Sunnybank Hills,Karawatha,554
+766,Roads Network Resurfacing,Playfield St,Chermside,Marchant,114
+767,Roads Network Resurfacing,Poet St,Holland Park West,Holland Park,52
+768,Roads Network Resurfacing,Pond St,Mt Gravatt East,Wishart,99
+769,Roads Network Resurfacing,Pound St,Dutton Park,The Gabba,75
+770,Roads Network Resurfacing,Price St,Wooloowin,Hamilton,122
+771,Roads Network Resurfacing,Priestdale Rd,Rochedale,Chandler,40
+772,Roads Network Resurfacing,Primrose St,Grange,Central,79
+773,Roads Network Resurfacing,Prince St,Gaythorne,Enoggera,37
+774,Roads Network Resurfacing,Priors Rd,Pinkenba,Hamilton,238
+775,Roads Network Resurfacing,Pritchard Rd,Virginia,Deagon,348
+776,Roads Network Resurfacing,Prospect Tce,Hamilton,Hamilton,62
+777,Roads Network Resurfacing,Provence St,MacGregor,MacGregor,34
+778,Roads Network Resurfacing,Puma St,Tingalpa,Doboy,68
+779,Roads Network Resurfacing,Punica St,Inala,Richlands,39
+780,Roads Network Resurfacing,Quirinal Cres,Norman Park,Morningside,85
+781,Roads Network Resurfacing,Radford Rd,Manly West,Wynnum Manly,142
+782,Roads Network Resurfacing,Ragnor Rd,Hemmant,Doboy,62
+783,Roads Network Resurfacing,Ranley Gr,Paddington,Toowong,35
+784,Roads Network Resurfacing,Ranley Tce,Paddington,Toowong,38
+785,Roads Network Resurfacing,Raubers Rd,Northgate,Northgate,60
+786,Roads Network Resurfacing,Real St,Annerley,Tennyson,104
+787,Roads Network Resurfacing,Redgrave St,Stafford Heights,McDowall,76
+788,Roads Network Resurfacing,Renwick St,Albion,Hamilton,52
+789,Roads Network Resurfacing,Reuben St,Stafford,Marchant,84
+790,Roads Network Resurfacing,Rinavore St,Ferny Grove,Enoggera,68
+791,Roads Network Resurfacing,Rinnicrew St,Bracken Ridge,Bracken Ridge,43
+792,Roads Network Resurfacing,Ritchie Rd,Pallara,Parkinson,67
+793,Roads Network Resurfacing,River Tce,Kangaroo Point,The Gabba,53
+794,Roads Network Resurfacing,Robertson St,Fortitude Valley,Central,96
+795,Roads Network Resurfacing,Robinson Rd,Virginia,Deagon,166
+796,Roads Network Resurfacing,Rochedale Rd,Rochedale,Chandler,70
+797,Roads Network Resurfacing,Rossett St,Chermside West,Marchant,66
+798,Roads Network Resurfacing,Royal St,Virginia,Northgate,26
+799,Roads Network Resurfacing,Ryland St,Keperra,Enoggera,34
+800,Roads Network Resurfacing,Sackville St,Milton,Toowong,35
+801,Roads Network Resurfacing,Samuel St,Camp Hill,Chandler,115
+802,Roads Network Resurfacing,Sangster St,MacGregor,MacGregor,17
+803,Roads Network Resurfacing,Santley St,Mt Gravatt,Wishart,75
+804,Roads Network Resurfacing,Sarina St,Stafford Heights,Marchant,39
+805,Roads Network Resurfacing,Schofield St,Holland Park West,Holland Park,32
+806,Roads Network Resurfacing,School St,Spring Hill,Central,43
+807,Roads Network Resurfacing,Selleck Cl,McDowall,McDowall,64
+808,Roads Network Resurfacing,Shaw Rd,Wavell Heights,Northgate,389
+809,Roads Network Resurfacing,Sidnell St,Geebung,Marchant,39
+810,Roads Network Resurfacing,Sidnell St,Geebung,Marchant,39
+811,Roads Network Resurfacing,Sim St,Everton Park,McDowall,48
+812,Roads Network Resurfacing,Sinclair St,East Brisbane,The Gabba,71
+813,Roads Network Resurfacing,South Pine Rd,Enoggera,Enoggera,383
+814,Roads Network Resurfacing,Speedy St,Kelvin Grove,Toowong,61
+815,Roads Network Resurfacing,St Conel St,Nudgee,Northgate,30
+816,Roads Network Resurfacing,St Patrick Av,Kuraby,Karawatha,64
+817,Roads Network Resurfacing,Stanbrough Rd,Gumdale,Chandler,85
+818,Roads Network Resurfacing,Stanley St,South Brisbane,The Gabba,112
+819,Roads Network Resurfacing,Stanley St,Coorparoo,The Gabba,314
+820,Roads Network Resurfacing,Stanley St,Woolloongabba,The Gabba,232
+821,Roads Network Resurfacing,Stoneham St,Greenslopes,Holland Park,33
+822,Roads Network Resurfacing,Sunbury St,Geebung,Marchant,80
+823,Roads Network Resurfacing,Sunderland St,MacGregor,MacGregor,30
+824,Roads Network Resurfacing,Sylvan Rd,Toowong,Toowong,121
+825,Roads Network Resurfacing,Tamarix St,Chapel Hill,Walter Taylor,35
+826,Roads Network Resurfacing,Tanbar St,Zillmere,Bracken Ridge,15
+827,Roads Network Resurfacing,Tanderra Way,Karana Downs,Pullenvale,62
+828,Roads Network Resurfacing,Tenbar St,Tingalpa,Doboy,85
+829,Roads Network Resurfacing,Thiesfield St,Fig Tree Pocket,Walter Taylor,69
+830,Roads Network Resurfacing,Thin Surfacing Various Streets,Various,Various,488
+831,Roads Network Resurfacing,Thomas St,Grange,Central,75
+832,Roads Network Resurfacing,Thorpe St,Balmoral,Morningside,51
+833,Roads Network Resurfacing,Thynne Rd,Morningside,Morningside,252
+834,Roads Network Resurfacing,Toohey Av,Greenslopes,Holland Park,34
+835,Roads Network Resurfacing,Toohey St,Woolloongabba,The Gabba,58
+836,Roads Network Resurfacing,Toolang St,Bracken Ridge,Bracken Ridge,37
+837,Roads Network Resurfacing,Trent St,Mt Gravatt,Holland Park,53
+838,Roads Network Resurfacing,Trinity Lane,Woolloongabba,The Gabba,40
+839,Roads Network Resurfacing,Trundle St,Enoggera,Enoggera,41
+840,Roads Network Resurfacing,Upper Lancaster Rd,Ascot,Hamilton,90
+841,Roads Network Resurfacing,Valentia St,Mansfield,Wishart,84
+842,Roads Network Resurfacing,Vera St,Greenslopes,Holland Park,91
+843,Roads Network Resurfacing,Victor St,Holland Park,Holland Park,220
+844,Roads Network Resurfacing,Vied Rd,Pallara,Parkinson,59
+845,Roads Network Resurfacing,Violet St,Hemmant,Doboy,240
+846,Roads Network Resurfacing,Vulture St,South Brisbane,The Gabba,420
+847,Roads Network Resurfacing,Wadeville St,Pallara,Parkinson,57
+848,Roads Network Resurfacing,Walcott St,St Lucia,Walter Taylor,103
+849,Roads Network Resurfacing,Wambool St,Bulimba,Morningside,82
+850,Roads Network Resurfacing,Wattle Dr,Mt Crosby,Pullenvale,96
+851,Roads Network Resurfacing,Waverley Rd,Camp Hill,Holland Park,94
+852,Roads Network Resurfacing,Webb St,Stafford,McDowall,93
+853,Roads Network Resurfacing,Webster Rd,Kedron,Marchant,372
+854,Roads Network Resurfacing,Webster Rd,Kedron,Marchant,315
+855,Roads Network Resurfacing,Wecker Rd,Mansfield,Wishart/Chandler,51
+856,Roads Network Resurfacing,Wellington St,Manly,Wynnum Manly,58
+857,Roads Network Resurfacing,Westlake Drive,Westlake,Jamboree,53
+858,Roads Network Resurfacing,Wheeler St,Upper Mt Gravatt,Wishart,59
+859,Roads Network Resurfacing,Wickham St,Fortitude Valley,Central,34
+860,Roads Network Resurfacing,Wickham Tce,Spring Hill,Central,219
+861,Roads Network Resurfacing,Wilston Rd,Grange,Central,173
+862,Roads Network Resurfacing,Wishart Rd,Wishart,Wishart,60
+863,Roads Network Resurfacing,Yaralla St,Chermside,Northgate,83
+864,Safe Paths CBD,Eagle St Charlotte to Market,Brisbane City,Central,375
+865,Safe Paths CBD,Eagle St Eagle Ln to New Pedestrian Crossing,Brisbane City,Central,550
+866,Safe Paths CBD,Elizabeth St Opposite # 55,Brisbane City,Central,175
+867,Bikeway Reconstruction,Abercorn St (Hill Rd to Opp Clematis Court),Runcorn,MacGregor,43
+868,Bikeway Reconstruction,Beaudesert Rd (Ormskirk to Muirhead),Calamvale,Parkinson,35
+869,Bikeway Reconstruction,Bermingham St to South Pine Rd,Alderley,Enoggera,25
+870,Bikeway Reconstruction,Birdwood Rd under SE Freeway,Tarragindi,Moorooka,140
+871,Bikeway Reconstruction,Gilbert Rd to Gympie Rd,Lutwyche,Marchant,200
+872,Bikeway Reconstruction,Herston Rd (Scott/Lestrange to Opp 216),Herston,Central,131
+873,Bikeway Reconstruction,Lytton Rd Walter Av to Norman Ck Bridge,East Brisbane,The Gabba,92
+874,Bikeway Reconstruction,Maranoa St (Abbott to Millenium),Carina Heights,Chandler,80
+875,Bikeway Reconstruction,Martindale St to Whipbird Pl,Aspley,McDowall,188
+876,Bikeway Reconstruction,Norman Ck (Pantya St to Cambridge St),Coorparoo,The Gabba,126
+877,Bikeway Reconstruction,Sinclair St to Wellington Rd,East Brisbane,The Gabba,95
+878,Bikeway Reconstruction,Uxbridge St to Bikeway,Grange,Marchant,35
+879,Bikeway Reconstruction,Various sites Parkinson Ward,Various,Parkinson,37
+880,Bikeway Reconstruction,Wynnum Esp (Darling Point to Wading Pool),Wynnum,Wynnum Manly,100
+881,Bikeway Reconstruction,Wynnum Rd Norman Av to Gillan,Norman Park,Morningside,110
+882,Bikeway Reconstruction,Bike Shelters Maintenance,Various,Various,40
+883,Bikeway Reconstruction,Bikeway Lighting Maintenance,Various,Various,30
+884,Bikeway Reconstruction,"Signs, Lines, Loops, Design",Various,Various,50
+885,Bikeway Reconstruction,Emergent Works,Various,Various,59
+886,Footpath Reconstruction,Appleby Rd,Stafford Heights,Marchant,83
+887,Footpath Reconstruction,Bay Tce,Wynnum,Wynnum Manly,31
+888,Footpath Reconstruction,Bay Tce,Wynnum,Wynnum Manly,20
+889,Footpath Reconstruction,Bimbil St,Albion,Hamilton,77
+890,Footpath Reconstruction,Blackwood Rd,Mitchelton,Enoggera,26
+891,Footpath Reconstruction,Blunder Rd,Durack,Parkinson,33
+892,Footpath Reconstruction,Cintra Rd,Bowen Hills,Hamilton,34
+893,Footpath Reconstruction,Commercial Rd,Newstead,Hamilton,176
+894,Footpath Reconstruction,Daventry St,West End,The Gabba,84
+895,Footpath Reconstruction,Edmund St,Newstead,Hamilton,30
+896,Footpath Reconstruction,Farrant St,Stafford Heights,McDowall,56
+897,Footpath Reconstruction,Farrant St,Stafford Heights,McDowall,23
+898,Footpath Reconstruction,Flockton St,Everton Park,McDowall,128
+899,Footpath Reconstruction,Franklin St,Annerley,Tennyson,345
+900,Footpath Reconstruction,George St,Brisbane City,Central,441
+901,Footpath Reconstruction,Godwin St,Bulimba,Morningside,80
+902,Footpath Reconstruction,Gympie Rd,Aspley,Marchant,92
+903,Footpath Reconstruction,Heal St,New Farm,Central,26
+904,Footpath Reconstruction,Hillside Tce,St Lucia,Walter Taylor,289
+905,Footpath Reconstruction,Janie Cl,Sinnamon Park,Jamboree,42
+906,Footpath Reconstruction,Kingsholme St,Newstead,Central,22
+907,Footpath Reconstruction,Landscape St,Stafford Heights,Marchant,21
+908,Footpath Reconstruction,Logan Rd,Mt Gravatt,Wishart,86
+909,Footpath Reconstruction,Logan Rd,Greenslopes,Holland Park,123
+910,Footpath Reconstruction,Logan Rd,Wishart,Wishart,74
+911,Footpath Reconstruction,Lytton Rd,East Brisbane,The Gabba,64
+912,Footpath Reconstruction,Lytton Rd,East Brisbane,The Gabba,104
+913,Footpath Reconstruction,Lytton Rd,East Brisbane,The Gabba,110
+914,Footpath Reconstruction,Main St,Woolloongabba,The Gabba,84
+915,Footpath Reconstruction,Main St,Woolloongabba,The Gabba,100
+916,Footpath Reconstruction,Moggill Rd,Toowong,Toowong,78
+917,Footpath Reconstruction,Musgrave Rd,Red Hill,Toowong,87
+918,Footpath Reconstruction,Newman Rd,Geebung,Deagon,32
+919,Footpath Reconstruction,Oaklands Pde,East Brisbane,The Gabba,150
+920,Footpath Reconstruction,Otonga Rd,Ashgrove,The Gap,61
+921,Footpath Reconstruction,Payne Rd,The Gap,The Gap,29
+922,Footpath Reconstruction,Plaza St,Wynnum West,Wynnum Manly,41
+923,Footpath Reconstruction,Racecourse Rd,Ascot,Hamilton,54
+924,Footpath Reconstruction,Racecourse Rd,Ascot,Hamilton,30
+925,Footpath Reconstruction,Racecourse Rd,Ascot,Hamilton,70
+926,Footpath Reconstruction,Roche Av,Bowen Hills,Hamilton,32
+927,Footpath Reconstruction,Ross St,Woolloongabba,The Gabba,152
+928,Footpath Reconstruction,Sandgate Rd,Albion,Hamilton,53
+929,Footpath Reconstruction,Sheriff St,Brisbane City,Toowong,38
+930,Footpath Reconstruction,South Pine Rd,Everton Park,McDowall,50
+931,Footpath Reconstruction,Spine St,Sumner,Richlands,86
+932,Footpath Reconstruction,Stafford Rd,Kedron,Marchant,112
+933,Footpath Reconstruction,Stafford Rd,Kedron,Marchant,78
+934,Footpath Reconstruction,Stafford Rd,Kedron,Marchant,137
+935,Footpath Reconstruction,Stamford Rd,Indooroopilly,Walter Taylor,26
+936,Footpath Reconstruction,Station Rd,Indooroopilly,Walter Taylor,98
+937,Footpath Reconstruction,Sydney St,New Farm,Central,79
+938,Footpath Reconstruction,Tank St,Brisbane City,Central,37
+939,Footpath Reconstruction,Thornbury St,Spring Hill,Central,63
+940,Footpath Reconstruction,Villa St,Annerley,Tennyson,142
+941,Footpath Reconstruction,Wilbur St,Holland Park,Holland Park,42
+942,Footpath Reconstruction,Wolverhampton St,Stafford,Marchant,75
+943,Footpath Reconstruction,Wynnum Rd,Morningside,Morningside,160
+944,Footpath Reconstruction,Zillmere Rd,Zillmere,Deagon,44
+945,Footpath Reconstruction,Footpath Large Failure Rehabilitation,Various,Various across Brisbane,860
+946,Footpath Reconstruction,Footpath Services Lid Replacement,Various,Various across Brisbane,96
+947,Footpath Reconstruction,Footpath Surface Maintenance,Various,Various across Brisbane,10630
+948,Footpath Reconstruction,Special Footpath Design and Emergent Works,Various,Various across Brisbane,100
+949,Network Modernisation,Algester Rd,Parkinson,Parkinson,75
+950,Network Modernisation,Buckland Rd (Shaw Rd to Melton Rd),Nundah,Northgate,30
+951,Network Modernisation,Carlye St (Seventeen Mile Rocks Rd to Ford Rd),Seventeen Mile Rocks,Jamboree,100
+952,Network Modernisation,Dawson Pde,Keperra,Enoggera,200
+953,Network Modernisation,Flockton St,Stafford Heights,McDowall,30
+954,Network Modernisation,Hyde Rd,Yeronga,Tennyson,100
+955,Network Modernisation,King Arthur Tce,Tennyson,Tennyson,200
+956,Network Modernisation,Kittyhawk Av,Inala,Richlands,125
+957,Network Modernisation,Lancaster Rd,Ascot,Hamilton,150
+958,Network Modernisation,McCarthy Rd,Salisbury,Moorooka,30
+959,Network Modernisation,Oxley Rd,Oxley,Richlands,75
+960,Network Modernisation,Radford Rd,Manly West,Doboy/Wynnum Manly,250
+961,Network Modernisation,Richmond St,Gordon Park,Marchant,200
+962,Network Modernisation,Ridgewood Rd,Algester,Parkinson,30
+963,Network Modernisation,Riding Rd,Morningside,Morningside,45
+964,Network Modernisation,Russell Tce,Indooroopilly,Walter Taylor,30
+965,Network Modernisation,St Vincents Rd,Banyo,Northgate,30
+966,Network Modernisation,Wiles St / Boundary Rd,Coorparoo/Camp Hill,Morningside/Holland Park/Chandler,30
+967,Network Modernisation,Zillmere Rd,Boondall,Deagon,50
+968,Lord Mayor's Suburban Initiative Fund,Bracken Ridge,Various,Bracken Ridge,50
+969,Lord Mayor's Suburban Initiative Fund,Central,Various,Central,50
+970,Lord Mayor's Suburban Initiative Fund,Chandler,Various,Chandler,50
+971,Lord Mayor's Suburban Initiative Fund,Deagon,Various,Deagon,50
+972,Lord Mayor's Suburban Initiative Fund,Doboy,Various,Doboy,50
+973,Lord Mayor's Suburban Initiative Fund,Enoggera,Various,Enoggera,50
+974,Lord Mayor's Suburban Initiative Fund,Hamilton,Various,Hamilton,50
+975,Lord Mayor's Suburban Initiative Fund,Holland Park,Various,Holland Park,50
+976,Lord Mayor's Suburban Initiative Fund,Jamboree,Various,Jamboree,50
+977,Lord Mayor's Suburban Initiative Fund,Karawatha,Various,Karawatha,50
+978,Lord Mayor's Suburban Initiative Fund,MacGregor,Various,MacGregor,50
+979,Lord Mayor's Suburban Initiative Fund,Marchant,Various,Marchant,50
+980,Lord Mayor's Suburban Initiative Fund,McDowall,Various,McDowall,50
+981,Lord Mayor's Suburban Initiative Fund,Moorooka,Various,Moorooka,50
+982,Lord Mayor's Suburban Initiative Fund,Morningside,Various,Morningside,50
+983,Lord Mayor's Suburban Initiative Fund,Northgate,Various,Northgate,50
+984,Lord Mayor's Suburban Initiative Fund,Parkinson,Various,Parkinson,50
+985,Lord Mayor's Suburban Initiative Fund,Pullenvale,Various,Pullenvale,50
+986,Lord Mayor's Suburban Initiative Fund,Richlands,Various,Richlands,50
+987,Lord Mayor's Suburban Initiative Fund,Tennyson,Various,Tennyson,50
+988,Lord Mayor's Suburban Initiative Fund,The Gabba,Various,The Gabba,50
+989,Lord Mayor's Suburban Initiative Fund,The Gap,Various,The Gap,50
+990,Lord Mayor's Suburban Initiative Fund,Toowong,Various,Toowong,50
+991,Lord Mayor's Suburban Initiative Fund,Walter Taylor,Various,Walter Taylor,50
+992,Lord Mayor's Suburban Initiative Fund,Wishart,Various,Wishart,50
+993,Lord Mayor's Suburban Initiative Fund,Wynnum Manly,Various,Wynnum Manly,50
+994,Lord Mayor's Suburban Initiative Fund,Various,Various,Various,50

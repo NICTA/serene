@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This lovely historic district home was remodeled in september, 1995.
+Features oak floors, crown moldings, corner cabinets, ceramic tile
+baths.</house_description>
+
+<agent_name>Sue K. Baldwin</agent_name>
+<direct>706-342-3207</direct>
+<office>706-342-3207</office>
+<firm_name>Baldwin Realty Inc.</firm_name>
+<phone>706-342-3207</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$179,000</list_price>
+<location>Madison, GA 30650</location>
+<neighborhood>Historic District</neighborhood>
+<mls>872026</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<style>Traditional</style>
+<lot_size>100 X 279</lot_size>
+<year_built>1938</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<rooms>Bonus Room, Dining Room, Living Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Nook, Cable TV, Dishwasher, Dryer, Hardwood Flooring,Microwave, Traditional Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

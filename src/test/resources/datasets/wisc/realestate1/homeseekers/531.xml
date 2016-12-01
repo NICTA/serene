@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home has 4 bedroom(s), 3 bath(s) , 2 car garage.
+Rooms include dining room, family room, master bedroom. Features
+include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Robin Lee Olson</agent_name>
+<office>480-994-9944</office>
+<firm_name>Developers Marketing Services</firm_name>
+<phone>480-994-9944</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$321,025</list_price>
+<location>Phoenix, AZ 85331</location>
+<mls>1432115</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Contemporary</style>
+<lot_size>10,001-12,500</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Multi Zoned, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Room, Contemporary Style, Dishwasher, KitchenIsland, Library, Microwave, Pantry, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

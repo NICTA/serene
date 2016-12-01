@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>1904 APPEALS CT</house_location>
+<price>$137,500</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Side,Oversized)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250257</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>CINDY BROUILLETTE</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>TERRIFIC VALUE/PRICED TO SELL QUICKLY/CATHEDRAL MASTER BDRM/BATH
+ADDITION 3 FULL BA &amp; ENORMOUS BDRMS/LG COUNTRY KITCHEN W/CERAMIC FLOOR
+RICH CABINETS 1ST FL LAUNDRY/3 SERVICE EXITS TO LG DECK/LOW-MAINTAIN
+EXTERIOR/WON'T LAST!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80x160</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>14 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>18 X 17</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>18 X 12</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>7 X 5</dimension><level>1</level></breakfast>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<family><dimension>22 X 16</dimension><level>L</level></family>
+<kitchen><dimension>18 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>23 X 13</dimension><level>1</level></living>
+<master><dimension>20 X 15</dimension><level>1</level></master>
+
+<directions>I-275 EX COV/INDEP S 17 PAST COURTHOUSE R
+INDEPENDENCE RD L SUPREME R APPEALS CT</directions>
+</house_listing>
+
+
+

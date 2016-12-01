@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>JOY BRUNNER</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<voice_mail>(713)621-4953 123</voice_mail>
+<email>joybrunner@madelineobrien.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11836</id>
+<mls>168387</mls>
+<house_location>9809 RICHMOND #F14
+Houston, TEXAS 77042</house_location>
+<county>Harris</county>
+<price>$29,900</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>DARLING LARGE UPPER TOWNHOME WITH HIGH CEILING &amp; LOTS OF WINDOWS-GOOD SIZE KITCHEN, WONDERFUL LARGE BATH WITH NEW FLOOR-FRESH PAINT- WASHER, DRYER, REFRIGERATOR STAY- LOCATED CLOSE TO GUEST PARKING- SKYLIGHT.</house_description>
+
+<school_district>Alief</school_district>
+<sub-division>Westchase</sub-division>
+<approx_size_sqft>811</approx_size_sqft>
+<stories>1</stories>
+<year_built>1977</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>HIGH CEILING , LOTS OF WINDOWS</item>
+<item>GOOD SIZE KITCHEN</item>
+<item>FRESH PAINT</item>
+<item>WASHER, DRYER, REFRIGERATOR STAY</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jeanine Pullen</name>
+<office>(512)833-3263</office>
+<fax>(512)301-1505</fax>
+<voice_mail>(512)833-3263</voice_mail>
+<mobile>(512)497-0928</mobile>
+<email>jeanine@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17832</id>
+<mls>511953</mls>
+<house_location>118 Clover Leaf Cove
+Buda, TEXAS 78610</house_location>
+<county>Hays</county>
+<price>$160,990</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Close to Swimming Pool and Tennis Courts!  Country Living just minutes away from the City!  Great School District!  For more info please call #512-295-6313</house_description>
+
+<move-in_date>7/30/99</move-in_date>
+<school_district>Hays</school_district>
+<sub-division>Coves Of Cimarron</sub-division>
+<stories>1</stories>
+<approx_lot_size>90 x 150</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<new_home>Yes</new_home>
+
+<highlights>
+<item>Close to Swimming Pool and Tennis Courts!</item>
+<item>Wonderful Streetman Homes Quailty!</item>
+<item>Master Bath with Double Vanity and Sep. Shower!</item>
+<item>Walk-in Closets!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

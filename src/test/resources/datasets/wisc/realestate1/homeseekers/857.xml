@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1915 has 3 bedroom(s), 1 bath(s) and
+approximately 866 square feet of living area.</house_description>
+
+<agent_name>Tony Kerstiens</agent_name>
+<direct>303-880-3579</direct>
+<office>303-987-0404</office>
+<firm_name>Dotcom Realestate Mb</firm_name>
+<phone>303-987-0404</phone>
+<fax>303-987-0427</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$159,900</list_price>
+<location>2116 Perry St</location>
+<neighborhood>Sloans Lake</neighborhood>
+<mls>385760</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>866 (approx)</square_feet>
+<year_built>1915</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

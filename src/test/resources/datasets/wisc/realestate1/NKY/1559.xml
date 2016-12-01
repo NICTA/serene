@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>3824 AUTUMN RD</house_location>
+<price>$79,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>ELSMERE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249808</mls>
+<house_type>Single Family</house_type>
+<firm>EQUITY MAX REALTORS</firm>
+<firm_phone>(606) 525-8900</firm_phone>
+<agent>JACQUELINE LAKE</agent>
+<agent_phone>(606) 525-8900</agent_phone>
+<house_description>CALL LISTING AGENT JACKIE LAKE FOR APPOINTMENT 802-6325/GREAT STARTER
+HOME/ NEWER GUTTERS,ROOF,HEAT/AC,HOT WATER HEATER,DECK,WOOD STORAGE
+SHED/VERY WELL MAINTAINED/FENCED YARD/ALL SIZES APPROX./GREAT
+PRICE!!!!!!!!!! HURRY!</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>8 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>9 X 13</dimension><level>1</level></dining>
+<family><dimension>27 X 10</dimension><level>1</level></family>
+<kitchen><dimension>9 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>1</level></laundry>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>S ON TURKEYFOOT R ON AUTUMN RD</directions>
+</house_listing>
+
+
+

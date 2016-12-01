@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This single family home built in 1941 has 2 bedroom(s), 1 bath(s) and
+approximately 1110 square feet of living area. Features include view.</house_description>
+
+<agent_name>Clifford Kauahi</agent_name>
+<direct>253-752-1232</direct>
+<office>253-848-9906</office>
+<firm_name>Macpherson's Puyallup/B.H.&amp;G.</firm_name>
+<phone>253-848-9906</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$315,000</list_price>
+<location>2509 35Th Av</location>
+<mls>99123014</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1110 (approx)</square_feet>
+<year_built>1941</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

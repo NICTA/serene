@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1970 has 2 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1208 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Vanilda Luigi</agent_name>
+<direct>305-867-0986</direct>
+<office>305-471-8914</office>
+<firm_name>Best Investment Re
+Lic. Real Estate Broker</firm_name>
+<phone>305-471-8914</phone>
+<fax>305-387-0727</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$160,000</list_price>
+<location>5838 Collins Av #14C</location>
+<neighborhood>5838 Condo</neighborhood>
+<mls>M754584</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1208 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Canal front, Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

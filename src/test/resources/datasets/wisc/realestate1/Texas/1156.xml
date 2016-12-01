@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Fulgham Sid</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)789-1025</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19894</id>
+<mls>501329</mls>
+<house_location>18 LOST PINES
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$69,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>HOME SITUATED ON 3 LOTS SURROUNDED ON THREE SIDES BY TREES.  RECENTLY REPAINTED INSIDE AND OUT.</house_description>
+
+<school_district>Bastrop</school_district>
+<sub-division>Lake Bastrop Acres</sub-division>
+<stories>1</stories>
+<approx_acres>0.9</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>3 LOTS</item>
+<item>LOTS OF TREES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

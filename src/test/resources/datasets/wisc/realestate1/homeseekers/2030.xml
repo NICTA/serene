@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1991 has 4 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 3 car garage. Rooms include dining room,
+master bedroom. Features include patio, fireplace.</house_description>
+
+<agent_name>Nancy F. Hung</agent_name>
+<office>480-893-3131</office>
+<firm_name>Century 21-Arizona Foothills Century 21-Arizona Foothills</firm_name>
+<phone>480-893-3131</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$249,000</list_price>
+<location>Phoenix, AZ 85048</location>
+<mls>1449998</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1991</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Central Vacuum, Dishwasher, Eat In Kitchen
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

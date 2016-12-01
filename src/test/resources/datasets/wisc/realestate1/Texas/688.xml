@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>KATHY GANANN</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 140</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11908</id>
+<mls>147624</mls>
+<house_location>20050 N NAVAHO TRAIL
+Houston, TEXAS 77449</house_location>
+<county>Harris</county>
+<price>$64,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>DARLING HOME WITH RECENT REMODELING INCLUDING ROOF, PAINT, CARPET, TILE, FIXTURES, A/C, HEAT &amp; CUSTOM DECK &amp; SPA. NICE OPEN FEELING. NEUTRAL COLORS AND LARGE BACKYARD.</house_description>
+
+<school_district>Katy Isd</school_district>
+<sub-division>Sundown</sub-division>
+<approx_size_sqft>1298</approx_size_sqft>
+<stories>1</stories>
+<year_built>1981</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>RECENT REMODELING</item>
+<item>CUSTOM DECK &amp; SPA</item>
+<item>NEUTRAL COLORS</item>
+<item>LARGE BACKYARD</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

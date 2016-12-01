@@ -1,0 +1,34 @@
+<house_listing>
+<price>$169,900</price>
+<mls_id_number>161490</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1700</sqft>
+<year_built>1928</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.11        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$1,827</taxes>
+<floors>Tile Floors,</floors>
+<interior>Not Listed</interior>
+<exterior>Deck, Porch,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>LAURELHURST</elementary>
+<middle_school>FERNWOOD</middle_school>
+<high_school>GRANT</high_school>
+</schools>
+
+</house_listing>
+
+
+

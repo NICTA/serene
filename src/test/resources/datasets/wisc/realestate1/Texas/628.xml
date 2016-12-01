@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Doug Chappell</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 277</voice_mail>
+<email>DMCKLD@ix.netcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20638</id>
+<mls>523804</mls>
+<house_location>2816 Sydney Drive
+Austin, TEXAS 78728</house_location>
+<county>Travis</county>
+<price>$118,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT HOME IN WELLS BRANCH. LARGE OPEN KITCHEN AND BREAKFAST ROOM, LOTS OF CABINETS. LARGE LIVING/DINING AREA. BRIGHT AND AIRY WITH MANY WINDOWS. FIREPLACE, MASTER BATH, SEPTIC TUB, SHOWER AND DOUBLE VANITY.</house_description>
+
+<school_district>Round Rock, Wells Branch, Chisholm</school_district>
+<sub-division>Bratton Park</sub-division>
+<approx_size_sqft>1540</approx_size_sqft>
+<stories>1</stories>
+<year_built>1995</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

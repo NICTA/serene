@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1994 has 3
+bedroom(s), 2.5 bath(s) , 2 car garage and approximately 1627 square
+feet of living area. Rooms include dining room, family room, living
+room, master bedroom. Features include patio, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Jim Brundage</agent_name>
+<direct>858-748-1292</direct>
+<office>858-679-8227</office>
+<firm_name>Town And Country B H &amp; G</firm_name>
+<phone>858-679-8227</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$278,900</list_price>
+<location>San Diego, CA 92126</location>
+<mls>00 6001181</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2.5</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1627 (approx)</square_feet>
+<lot_size>9844</lot_size>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Attic fan, Central, Forced Air</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Yes</patio>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

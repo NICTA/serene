@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>For more information call fina encinas</house_description>
+
+<agent_name>Sergio Perelli</agent_name>
+<direct>909-393-6519</direct>
+<office>213-282-4640</office>
+<firm_name>Prudential American Realty Prudential American Realty</firm_name>
+<phone>213-282-4640</phone>
+<fax>323-773-2243</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$119,000</list_price>
+<location>Los Angeles, CA 90026</location>
+<mls>P161838</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>504 (approx)</square_feet>
+<lot_size>6900 (approx)</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

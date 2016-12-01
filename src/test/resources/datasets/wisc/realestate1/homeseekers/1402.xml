@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 7 bedroom(s), 2 bath(s) and
+approximately 3000 square feet of living area.</house_description>
+
+<agent_name>Rick Treece</agent_name>
+<direct>303-388-8977</direct>
+<office>303-388-4600</office>
+<firm_name>Rick Treece &amp; Assoc.</firm_name>
+<phone>303-388-4600</phone>
+<fax>303-388-5399</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$275,000</list_price>
+<location>1400 Pontiac St</location>
+<neighborhood>Montclair,Mayfair</neighborhood>
+<mls>374627</mls>
+<status>Active</status>
+<bedrooms>7</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>3000 (approx)</square_feet>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

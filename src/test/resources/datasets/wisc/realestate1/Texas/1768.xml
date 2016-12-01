@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Richard Sparks</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21636</id>
+<mls>9137248</mls>
+<house_location>1740 Overland
+Fort Worth, TEXAS 76131</house_location>
+<county>Tarrant</county>
+<price>$119,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Almost new 4/2.5/2. Large backyard. Blue Ribbon schools.</house_description>
+
+<school_district>Eagle Mountain Saginaw</school_district>
+<sub-division>Western Meadows</sub-division>
+<approx_size_sqft>1839</approx_size_sqft>
+<stories>2</stories>
+<year_built>1998</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Must see</item>
+<item>Convenient location</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

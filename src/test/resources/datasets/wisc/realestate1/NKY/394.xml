@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>8988 STEEPLEBUSH DR</house_location>
+<price>$146,800</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249570</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX CTS. REALTORS</firm>
+<firm_phone>(513) 385-1200</firm_phone>
+<agent>KIMBERLY A. HAYES</agent>
+<agent_phone>(513) 385-1200</agent_phone>
+<house_description>CUSTOM BUILT BY CURLEY CONSTRUCTION-ONLY 2 YEARS YOUNG-HARDWOOD
+ENTRY-LR-DR KIT-1ST FL LAUNDRY-MAPLE CABINETS-BRK BAR-GAS FIREPLACE W
+MARBLE-VAULTED CEILING MBRM-LUXURY BATH W/WHIRLPOOL-BALCONY OVERLOOKS
+ENTRY-MUST SEE !</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>72 x 135</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>12 X 8</dimension><level>1</level></dining>
+<family><dimension>13 X 12</dimension><level>1</level></family>
+<kitchen><dimension>16 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 6</dimension><level>1</level></laundry>
+<living><dimension>11 X 10</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>2</level></master>
+
+<directions>US 42 TO FARMVIEW LEFT ON RIDGECREST TO RIGHT ON
+STEEPLEBUSH</directions>
+</house_listing>
+
+
+

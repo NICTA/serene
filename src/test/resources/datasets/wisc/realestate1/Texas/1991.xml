@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Jo Flanders</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)754-4741</mobile>
+<email>mjflanders@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19180</id>
+<mls>5851</mls>
+<house_location>505 Mary
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$62,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Small But NiceLarge Lot</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<approx_size_sqft>1058</approx_size_sqft>
+<approx_lot_size>City</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great Starter Home</item>
+<item>Large Level Lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

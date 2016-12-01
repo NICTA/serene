@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>4841 RIVER RD</house_location>
+<price>$119,500</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>HEBRON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249407</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>ROBERT HAHN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>BEAUTIFULLY DECORATED INSIDE &amp; OUT. EXTENSIVE LANDSCAPING &amp; RIVER
+VIEW* 3 BEDROOMS, 2 BATHS, 3 ACRES, IN BOONE COUNTY.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 13</dimension><level>1</level></dining>
+<family><dimension>16 X 13</dimension><level>1</level></family>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 6</dimension><level>1</level></laundry>
+<living><dimension>11 X 18</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>275W TO AIRPORT-RT 20 EXIT NORTH TO RIVER RD L
+ON 4841 RIVER RD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1977 has 5 bedroom(s), 2
+bath(s) and approximately 2100 square feet of living area. Rooms
+include master bedroom. Features include private pool, patio,
+fireplace.</house_description>
+
+<agent_name>Ken Ryan</agent_name>
+<direct>520-326-1122</direct>
+<office>520-326-1122</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-326-1122</phone>
+<fax>520-325-8784</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,900</list_price>
+<location>2111 S Tree Moss Ave</location>
+<mls>2000861</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2100 (approx)</square_feet>
+<lot_size>82 X 100 X 82 X 100</lot_size>
+<year_built>1977</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Forced Air</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

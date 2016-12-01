@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>305 VERONA MT ZION</house_location>
+<price>$80,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>MT ZION</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249932</mls>
+<house_type>Single Family</house_type>
+<firm>MELTON REAL ESTATE</firm>
+<firm_phone>(606) 824-5252</firm_phone>
+<agent>DARRIN SECHREST</agent>
+<agent_phone>(606) 824-5252</agent_phone>
+<house_description>MOBILE HOME ADDED ON TO AND BRICKED. TWO LARGE STORAGE SHEDS. **ALSO
+AVAI ABLE WITH 4.8 ACRES SEE MLS#249604</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>11 X 23</dimension><level>1</level></kitchen>
+<living><dimension>23 X 25</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>1</level></master>
+
+<directions>CRITT EX L THEN R ON US25, R ON 2942(CMZ RD),
+STRAIGHT THRU SS, R ON VERONA MT ZIO</directions>
+</house_listing>
+
+
+

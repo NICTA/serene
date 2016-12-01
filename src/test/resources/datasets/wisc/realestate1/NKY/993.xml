@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>3509 SHADYSIDE</house_location>
+<price>$89,921</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Carport)</garage>
+<suburb>DARNELL SUBDIV</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>249813</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 363-9900</firm_phone>
+<agent>TINA VOGELPOHL</agent>
+<agent_phone>(606) 363-9900</agent_phone>
+<house_description>LARGE GREAT ROOM WITH OVERSIZED KITCHEN AND LARGE PANTRY.ALSO HAS
+BEAUTIFUL OAK FLOORS. PLUS DON,T MISS THE LOWER LEVEL WALK-OUT
+BASEMENT AND THE LARGE CORNER LOT W/ MATURE TREES.ALSO AN ATTACHED
+STORAGE BUILDING!!!!!!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>150'x 65'</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*****</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 11</dimension><level>1</level></bedroom_2>
+<family><dimension>14 X 11</dimension><level>L</level></family>
+<kitchen><dimension>16 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 11</dimension><level>L</level></laundry>
+<living><dimension>21 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>1</level></master>
+
+<directions>NORTH ON DIXIE HWY. TO EAST ON STEVENSON, TO
+RIGHT ON SHADYSIDE</directions>
+</house_listing>
+
+
+

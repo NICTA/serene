@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>2979 BABBLING BROOK</house_location>
+<price>$122,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Rear,Oversized)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248603</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>VICKE ADAMS</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM. IMMACULATE RANCH ON THE MOST
+BEAUTIFUL LOT IN PEBBLE CREEK. NEUTRAL COLORS AND CATHEDRAL CEILINGS.
+BASEMENT CAN BE FINISHED FOR FR. DUNCAN BUILT.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>44 x 144</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>9 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>14 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>3 X 5</dimension><level>1</level></laundry>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>RT 18 TO L ON CAMP ERNST L PEBBLE CR TO L
+STERLING SPRINGS TO BABBLING BROOK WAY</directions>
+</house_listing>
+
+
+

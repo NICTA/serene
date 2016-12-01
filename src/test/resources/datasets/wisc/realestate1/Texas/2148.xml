@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Filina</name>
+<office>(817)295-8171</office>
+<fax>(817)295-6426</fax>
+<mobile>(817)980-4718</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21444</id>
+<mls>9132350</mls>
+<house_location>10033 El Dorado
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$139,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Unique tri-level &amp;quot;LOADED&amp;quot; home on 2.5 acres of horse property.  Everything you need for country living: outbuildings, workshop, stable, well, slickwire cross-fenced, plus lots of extra parking for golf cart and RV.  House features 2 stairwells, solarium, views from owners suite on 3rd level, wood-burning &amp; gas log stone fireplace, loft, and so much more.  Best to see for yourself.  Co-listed with Dee Stalcup.  Call today!</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>El Dorado Estates</sub-division>
+<approx_size_sqft>1738</approx_size_sqft>
+<stories>3</stories>
+<approx_acres>2.5</approx_acres>
+<year_built>1987</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Heavily treed 2.5 acre horse property</item>
+<item>Unique home loaded w/extras</item>
+<item>Large wrap front porch</item>
+<item>3rd level enclosed deck w/views</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

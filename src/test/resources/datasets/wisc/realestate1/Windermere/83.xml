@@ -1,0 +1,49 @@
+<house_listing>
+<price>$42,900</price>
+<mls_id_number>98031164</mls_id_number>
+<address>125 Ithaca</address>
+<city>Caldwell</city>
+<st>ID</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1405</sqft>
+<year_built></year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage></garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<features><item>3 Bedroom</item>
+<item>1 Bath</item>
+<item>Large Living room</item>
+<item>Large Dining room</item>
+<item>Gas/Forced air heating</item>
+</features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<comments>Fixer upper, mostly cosmetic. Could be an ideal 203K. Good rental or investment property.</comments>
+<for_more_information_contact>
+<agent_name>Trula Carrow</agent_name>
+<firm_name>Windermere Real Estate/Caldwell</firm_name>
+<firm_location>2900 Cleveland Blvd.
+Caldwell, ID</firm_location>
+<office_phone>208-459-2200</office_phone>
+<fax>(208)453-8875</fax>
+<pager>(208) 465-1045</pager>
+<cell_phone>(208) 850-2009</cell_phone>
+<e-mail>caldwell@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

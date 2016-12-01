@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>426 DALEWOOD DR</house_location>
+<price>$139,999</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Attached,Detached)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>KENTON CO</school_dist>
+<mls>250039</mls>
+<house_type>Single Family</house_type>
+<firm>DELTA REALTY INC</firm>
+<firm_phone>(606) 331-5544</firm_phone>
+<agent>WILLIAM C DEHLINGER III</agent>
+<agent_phone>(606) 331-5544</agent_phone>
+<house_description>UPDATED AND WELL MAINTAINED BI-LEVEL, W/ 2CAR GARAGE PLUS 2 CAR
+DETACHED, 4 CAR TOTAL, 32 X 16 INGROUND POOL W/ SHELTER, JUST LIKE A
+PARK!! MANY FEAT AND CLOSE TO TOWN!! GREAT FOR HOBBIES,TOYS,ETC.**CALL
+DELTA RE 331-5544**4</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Oil</heating>
+<cooling>Central Air</cooling>
+<fireplace>Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>217 x 100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<family><dimension>23 X 13</dimension><level>L</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 9</dimension><level></level></laundry>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>SOUTH ON TURKEYFOOT, LEFT ON RICHARDSON, LEFT ON
+THOMAS, RT. ON DALEWOOD.</directions>
+</house_listing>
+
+
+

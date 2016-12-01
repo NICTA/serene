@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cyndi DePalermo</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11037</id>
+<mls>143810</mls>
+<house_location>4408 CALIFORNIA
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$89,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LOTS OF SPACE FOR THE MONEY. SOME HARDWOOD FLOORS,HUGE TREES,LARGE YARD,BIG DEN 29 X19 COULD BE QUARTERS. THIS ROOM HAS LARGE LOFT. BATH HAS OLD FASHION TUB,PLENTY OF SPACE FOR STORAGE AND WORKSHOP AREAS. VERY UNIQUE HOME WITH AN OLD FASHION/COUNTRY FLAIR</house_description>
+
+<school_district>Disd</school_district>
+<approx_size_sqft>2274</approx_size_sqft>
+<stories>1</stories>
+<year_built>1965</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>HUGE LOT WITH TREES COUNTRY FEELING CLOSE TO TOWN</item>
+<item>SPACE IS PLENTIFUL WITH A VERSATILE FLOOR PLAN</item>
+<item>HOBBY AREAS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

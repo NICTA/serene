@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home has 4 bedroom(s), 2 full bath(s)/1 half
+bath(s) , 3 car garage. Rooms include dining room, family room, master
+bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Robin Ross</agent_name>
+<office>480-585-0809</office>
+<firm_name>Coldwell Banker Brothers Realt Coldwell Banker Brothers Realt</firm_name>
+<phone>480-585-0809</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$249,900</list_price>
+<location>Phoenix, AZ 85027</location>
+<mls>1464566</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>1 TO 1.9 AC</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ceiling Fan(s), Dishwasher, Eat In Kitchen, Library, Microwave, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1997 has 4 bedroom(s), 3 bath(s) , 3
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, private pool, private spa, patio, fireplace.</house_description>
+
+<agent_name>Brien Walton</agent_name>
+<office>602-953-0003</office>
+<firm_name>Infinity Properties</firm_name>
+<phone>602-953-0003</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$519,000</list_price>
+<location>Phoenix, AZ 85032</location>
+<mls>1417366</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<style>Contemporary</style>
+<lot_size>10,001-12,500</lot_size>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Multi Zoned</heating>
+<fireplace>Family Room, Gas logs</fireplace>
+<patio>Covered, Deck</patio>
+<pool>Heated</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Ceiling Fan(s), Central Vacuum, ContemporaryStyle, Dining/Living Combo, Dishwasher, Eat In Kitchen, Garage DoorOpener, Great Room, Kitchen Island, Library, Loft, Microwave, Pantry,Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1992 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2352 square feet of living
+area. Features include view, patio, fireplace, air conditioning,
+storage space.</house_description>
+
+<agent_name>Rocco Racioppo</agent_name>
+<direct>520-977-3381</direct>
+<office>520-297-1186</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-297-1186</phone>
+<fax>520-297-1005</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$239,900</list_price>
+<location>15775 N Equestrian Tr</location>
+<mls>9917471</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2352 (approx)</square_feet>
+<lot_size>347X180X347X267</lot_size>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric, Forced Air</heating>
+<fireplace>Family Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

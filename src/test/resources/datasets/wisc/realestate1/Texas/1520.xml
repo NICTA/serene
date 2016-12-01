@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Dot Keith</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<mobile>(512)755-0365</mobile>
+<email>dotkeith@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18672</id>
+<mls>53532</mls>
+<house_location>422 Castle Shoals (East)
+Granite Shoals, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$59,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>MANUFACTURED HOME IN GREAT CONDITION WITH LARGE FRONT PORCH AND COVERED CARPORT! CATHEDRAL CEILINGS IN LIVING AREAS, KITCHEN HAS AN ISLAND, MASTER BATHROOM HAS SKYLIGHT AND DOUBLE BASINS. HOME IS ON FOUR LOTS, HAS LOTS OF TREES, AND COMMUNITY PARK HAS WATER ACCESS.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Mystic Castle</sub-division>
+<approx_size_sqft>1456</approx_size_sqft>
+<approx_lot_size>(4) @ 50x100</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>KITCHEN WITH ISLAND!</item>
+<item>STORAGE BUILDING!</item>
+<item>MANY TREES, DECK!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

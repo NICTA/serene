@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>JERRY RUSSO</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<voice_mail>(512)794-9292 103</voice_mail>
+<mobile>(512)422-2792</mobile>
+<email>jrusso@remax-hot-aus-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16769</id>
+<mls>508342</mls>
+<house_location>8809 Escabosa Drive
+Austin, TEXAS 78748</house_location>
+<county>Travis</county>
+<price>$139,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Open mother-in-law plan, great corner fireplace, fenced yard with big treesLowest price in neighborhood of new homes</house_description>
+
+<move-in_date>6/17/99</move-in_date>
+<school_district>Austin</school_district>
+<sub-division>Davis</sub-division>
+<approx_size_sqft>1804</approx_size_sqft>
+<stories>1</stories>
+<year_built>1996</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Three living areas</item>
+<item>Big trees</item>
+<item>Open kitchen with island</item>
+<item>bay window in eating area, corner fire place</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

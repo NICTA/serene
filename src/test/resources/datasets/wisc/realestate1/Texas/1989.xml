@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Pud Owens Realty</name>
+<location>910 1/2 West Cameron Rockdale, TX 76567</location>
+<office>(512)446-4243</office>
+<toll_free></toll_free>
+<fax>(512)446-4273</fax>
+<email>rlaj@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Matula</name>
+<office>(512)446-4243</office>
+<fax>(512)446-4273</fax>
+<mobile>(512)446-1003</mobile>
+<email>rlaj@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19929</id>
+<mls></mls>
+<house_location>124 Champions Dr
+Rockdale, TEXAS 76567</house_location>
+<county>Milam</county>
+<price>$129,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Must see this Great house in a Great Neighborhood. This 4BR 2 1/2 bath home is located near the local golf course and has an atrium in the center of the home. Large fireplace and giant master bath.</house_description>
+
+<school_district>Rockdale</school_district>
+<sub-division>Country Club</sub-division>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

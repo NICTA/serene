@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1929 has 3 bedroom(s), 2 bath(s) and
+approximately 747 square feet of living area.</house_description>
+
+<agent_name>Bernardo Del Rio</agent_name>
+<direct>303-671-1350</direct>
+<office>303-755-6611</office>
+<firm_name>Coldwellbanker Moore</firm_name>
+<phone>303-755-6611</phone>
+<fax>303-745-3581</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$136,900</list_price>
+<location>3511 Lowell Bl</location>
+<neighborhood>Highland W</neighborhood>
+<mls>381669</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>747 (approx)</square_feet>
+<year_built>1929</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

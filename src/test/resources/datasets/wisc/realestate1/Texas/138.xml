@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irona Thompson</name>
+<office>(254)554-2121</office>
+<fax>(254)634-3291</fax>
+<voice_mail>(800)840-3313 7833</voice_mail>
+<mobile>(254)289-4945</mobile>
+<email>irona@maxxrep.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20919</id>
+<mls>89137</mls>
+<house_location>708 W Ave F
+Copperas Cove, TEXAS 76522</house_location>
+<county>Coryell</county>
+<price>$57,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>GREAT STARTER HOME.  LARGE CORNER LOT.  AN EXTRA ROOM THAT CAN BE AN SECOND LIVING AREA OR A 4TH BEDROOM.  SIDE ENTRY ONE CAR GARAGE. SKYLIGHT IN THE KITCHEN. SUBJECT TO  VA COMPROMISE SALE.  $1.00 MOVE IN.</house_description>
+
+<school_district>Copperas Cove</school_district>
+<sub-division>Valleyview</sub-division>
+<approx_size_sqft>1347</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>Irregular</approx_lot_size>
+<year_built>1963</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>CORNER LOT</item>
+<item>SKYLIGHT IN KITCHEN</item>
+<item>2 LIVING AREA OR 4TH BEDROOM</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

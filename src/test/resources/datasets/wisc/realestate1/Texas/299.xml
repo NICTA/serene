@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>MAGGIE MAYFIELD</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 145</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11876</id>
+<mls>125426</mls>
+<house_location>5050 AMBASSADOR #313
+Houston, TEXAS 77056</house_location>
+<county>Harris</county>
+<price>$57,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>WONDERFUL COURTYARD VIEW-HUGE LIVING/DINING AREA- LARGE BEDROOM- RECENT CARPET. LOTS OF LIGHT. ALL UTILITIES PLUS CABLE INCLUDED IN MAINTENANCE FEE.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Ambassador Post Oak</sub-division>
+<approx_size_sqft>876</approx_size_sqft>
+<stories>1</stories>
+<year_built>1967</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>HUGE LIVING/DINING AREA</item>
+<item>LARGE BEDROOM</item>
+<item>RECENT CARPET</item>
+<item>LOTS OF LIGHT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

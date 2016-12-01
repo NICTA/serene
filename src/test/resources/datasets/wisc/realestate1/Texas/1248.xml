@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Terri Eller</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email>terrieller@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17113</id>
+<mls>136664</mls>
+<house_location>CO. RD. 75
+Robstown, TEXAS 78410</house_location>
+<county>Nueces</county>
+<price>$89,999</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>COUNTRY LIVING JUST MINUTES FROM 5 PTS. SET-UP WITH HORSE STALLS AND FENCED. NESTLED ON 1.24 ACRES, WHICH IS HARD TO FIND IN CALALLEN SCHOOL DISTRICT.   PRETTY LANDSCAPING, FRESH PAINT, ROOF-1 YEAR OLD, NEW GARAGE DOOR AND BERBER CARPET.  HANDICAP ACCES. BIG COVRD BACK PATIO. ALSO HAS EXTRA ROOM WITH A SMALL CLOSET, COULD BE 4TH BEDROOM OR EXCELLENT OFFICE</house_description>
+
+<school_district>Calallen</school_district>
+<sub-division>Riverside</sub-division>
+<approx_size_sqft>1360</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1.24</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<handicapped_equipped>Yes</handicapped_equipped>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>3 OR 4 BEDROOM</item>
+<item>SET-UP FOR HORSES</item>
+<item>FENCED AND CROSS FENCED</item>
+<item>CALALLEN SCHOOL DISTRICT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

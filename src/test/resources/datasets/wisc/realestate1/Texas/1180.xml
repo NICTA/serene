@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Hallowell</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email>hallowell@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21263</id>
+<mls>9130550</mls>
+<house_location>400 Heritage Trail (Ad # 159)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$79,300</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Immaculate condition with updated kitchen &amp; baths!  Wonderful large stone patio, brick fireplace with heatolator, 1 year old A/C with new duct work. Spacious storage &amp; workshop building &amp; ceiling fans throughout.  1 year home warranty offered.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Heritage Heights</sub-division>
+<approx_size_sqft>2007</approx_size_sqft>
+<stories>1</stories>
+<year_built>1978</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Immaculate Condition</item>
+<item>Updated Kitchen &amp; Baths</item>
+<item>1 Year Old A/C &amp; Large Stone Patio</item>
+<item>Ad # 159</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

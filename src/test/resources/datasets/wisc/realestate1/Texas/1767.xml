@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Preston</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11441</id>
+<mls>50619</mls>
+<house_location>605 Cove Circle
+Granite Shoals, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$68,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Weekender or great starter home on channel of Lake LBJ.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Sherwood Shores</sub-division>
+<approx_size_sqft>792</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>100 x 103</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Frame home on channel of Lake LBJ</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

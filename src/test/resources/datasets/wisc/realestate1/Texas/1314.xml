@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Robin Taylor</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)229-6683</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>17424</id>
+<mls>9069855</mls>
+<house_location>8625 FM 1902
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$84,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LOOK!!  OWNER HAS REDUCED PRICE $5,000!!!  NICE HOME ON FIVE ACRES.  THIS HOME IS GREAT INSIDE WITH TWO LIVING AREAS, AND A WBFP, LARGE MASTER BEDROOM, AND SPLIT BEDROOMS.  THE WALLS ARE TEXTURED,  PORCELAIN SINKS, GARDEN TUB AND SHOWER, SKYLIGHT,AND HEATING AND AIR CONDITIONING VENTS ARE IN THE CEILING.  THE CEILING IS BLOWN ACOUSTIC.   SITS ON FIVE ACRES OF LAND.  STORAGE IS NO PROBLEM WITH THE 14X10 BUILDING.  JUST 30 MINUTES TO FORT WORTH.</house_description>
+
+<school_district>Joshua I S D</school_district>
+<sub-division>Whispering Meadow</sub-division>
+<approx_size_sqft>1792</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>331x654</approx_lot_size>
+<approx_acres>5</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>REDUCED!!!!!</item>
+<item>5.0 ACRES</item>
+<item>SPLIT BEDROOMS</item>
+<item>WBFP</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

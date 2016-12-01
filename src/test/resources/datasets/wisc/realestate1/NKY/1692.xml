@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>519 MAPLE AVE</house_location>
+<price>$154,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached,Rear)</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>246303</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>GERRI JONES</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*LEADED &amp; STAINED GLASS*BUTLERS
+PANTRY* HARDWOOD FLOORS*NEW KITCHEN*CHARM ABOUNDS CROWN MOLDING IN
+BRIGHT SPACIOUS DINING ROOM</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25x119</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>PART</dimension><level></level></bath_2>
+<bedroom_2><dimension>16 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 12</dimension><level>3</level></bedroom_4>
+<dining><dimension>15 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<living><dimension>25 X 15</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>2</level></master>
+<study><dimension>12 X 12</dimension><level>2</level></study>
+
+<directions>471S TO EXIT S L ON COWAN L ON 6TH L ON MAPLE</directions>
+</house_listing>
+
+
+

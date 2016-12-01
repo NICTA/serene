@@ -1,0 +1,34 @@
+<house_listing>
+<price>$159,950</price>
+<mls_id_number>145505</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1739</sqft>
+<year_built>1985</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.18        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>0</fireplace>
+<taxes>$2,655</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Deck, Sprinkler System, Tool Shed,</exterior>
+<site>Water: PUBLIC Sewer: CONECTD</site>
+</amenities>
+<schools><elementary>LYNCH WOOD</elementary>
+<middle_school>CENTENNIAL</middle_school>
+<high_school>CENTENNIAL</high_school>
+</schools>
+
+</house_listing>
+
+
+

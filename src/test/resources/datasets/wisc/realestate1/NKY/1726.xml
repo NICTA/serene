@@ -1,0 +1,40 @@
+<house_listing>
+<house_location>1034 HAMLET</house_location>
+<price>$49,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached,Rear)</garage>
+<suburb>EAST</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>247581</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>R J SEIFERT</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>NEW ROOF,FURNACE &amp; C/A REPLACEMENT HARDWOOD FLOORS NICE PORCH &amp; YARD</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25 x 90</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>8 X 13</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>8 X 13</dimension><level>1</level></kitchen>
+<living><dimension>11 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 14</dimension><level>1</level></master>
+
+<directions>471 N TO MEMORIAL WEST TO HAMLET</directions>
+</house_listing>
+
+
+

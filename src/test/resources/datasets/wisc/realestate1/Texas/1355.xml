@@ -1,0 +1,67 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>TRACY CRAWFORD</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<voice_mail>(281)444-0551 x-12</voice_mail>
+<mobile>(281)650-3266</mobile>
+<email>tracyleecrawford@yahoo.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13779</id>
+<mls></mls>
+<house_location>8911 Eastcove
+in North Houston, TEXAS 77064</house_location>
+<county>Harris</county>
+<price>$164,815</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>BRAND NEW AND READY FOR IMMEDIATE MOVE-IN!!This charming home has 2,865 sq. ft. with 4 bedrooms, master down, gameroom upstairs, and 3 bathrooms.  Fireplace in family room, living room onto the porch through the foyer, breakfast room off kitchen.  2 car garage attached.This one surely won't last.  $4,825 in upgrades.  Must see!!</house_description>
+
+<move-in_date>1/21/99</move-in_date>
+<school_district>Cy-fair</school_district>
+<sub-division>Westbridge</sub-division>
+<approx_size_sqft>2865</approx_size_sqft>
+<stories>2</stories>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Upgrades included in price</item>
+<item>Charming neighborhood</item>
+<item>Easy access to beltway, 290, 249</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

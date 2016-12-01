@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Phyllis Whitaker</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)753-9346</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17573</id>
+<mls>5852</mls>
+<house_location>604 La Rue
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$149,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Owner Financed</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Lovely brick house in Oak Heights.  Quiet neighborhood.  Easy access to RR12 and Bishop.  Very pleasant, great yard.</house_description>
+
+<move-in_date>7/19/99</move-in_date>
+<school_district>San Marcos</school_district>
+<sub-division>Oak Heights</sub-division>
+<approx_size_sqft>2400</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Location, Curb Appeal</item>
+<item>Square Footage</item>
+<item>Log house ready to use</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

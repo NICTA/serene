@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1983 has 2 bedroom(s), 2 bath(s) and
+approximately 1209 square feet of living area. Rooms include master
+bedroom. Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>R. Glenn Bancroft</agent_name>
+<direct>520-881-4884</direct>
+<office>520-881-4884</office>
+<firm_name>Bancroft &amp; Associates</firm_name>
+<phone>520-881-4884</phone>
+<fax>520-881-2271</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$91,000</list_price>
+<location>7835 E Baker St</location>
+<mls>2000252</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<square_feet>1209 (approx)</square_feet>
+<year_built>1983</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

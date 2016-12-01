@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19907</id>
+<mls>9021914</mls>
+<house_location>27 BCR 1316
+Morgan, TEXAS 76645</house_location>
+<county>Bosque</county>
+<price>$8,500</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>ONE ROOM CABIN NEAR MARINA AND LAKE.  SCREENED IN PORCH LOCATED IN NICE AREA</house_description>
+
+<move-in_date>10/11/99</move-in_date>
+<school_district>Morgan</school_district>
+<sub-division>Lakeside Village</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

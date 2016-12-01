@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>552 JERSEY RIDGE</house_location>
+<price>$109,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>MAYSVILLE</suburb>
+<school_dist>MASON CO</school_dist>
+<mls>249092</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>BARBARA LENNEX</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>LARGE KITCHEN DINING AREA, BEAUTIFUL BEDFORD FIREPLACE IN LIVING ROOM.
+REAL KNOTTY PINE, HARDWOOD FLOORS, LARGE YARD W/MATURED TREES.
+BEAUTIFUL SURROUNDINGS. CLOSE TO SHOPPING, SCHOOLS, HOSPITAL AND
+CHURCHES.</house_description>
+<construction>Wood,Stone</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stone</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>171 X 151</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>8 X 11</dimension><level>1</level></dining>
+<family><dimension>10 X 15</dimension><level>1</level></family>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 9</dimension><level>1</level></laundry>
+<living><dimension>18 X 17</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+<recreation_room><dimension>13 X 20</dimension><level>1</level></recreation_room>
+
+<directions>AA LEFT ON US 68 ON JERSEY RIDGE RD. FIRST HOUSE
+ON LEFT.</directions>
+</house_listing>
+
+
+

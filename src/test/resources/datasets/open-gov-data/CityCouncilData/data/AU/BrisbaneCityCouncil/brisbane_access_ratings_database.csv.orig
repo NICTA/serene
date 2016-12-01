@@ -1,0 +1,985 @@
+id,Location,Suburb,Region,Category,Sub-Category,Rating,Rating Description
+1,"120 Edward Street, City",City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+2,"120 Edward Street, City",City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+3,144 Adelaide Street Arcade,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,4,Meets Enhanced Access Standards
+4,2/78 Merivale Street,South Brisbane,Brisbane Suburbs,Education,Other Educational Institutions,3,Meets Minimum Access Standards
+5,2/78 Merivale Street,South Brisbane,Brisbane Suburbs,Shopping,Individual Shop,3,Meets Minimum Access Standards
+6,20 Park Road,Milton,Brisbane Suburbs,Community,Restaurants & Cafes,1,Not Accessible
+7,"304 George Street, Law Courts Complex",City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,2,Independently Accessible With Difficulty
+8,"304 George Street, Law Courts Complex",City (Brisbane CBD),Brisbane Suburbs,Business and Government,Law Courts,2,Independently Accessible With Difficulty
+9,"304 George Street, Law Courts Complex",City (Brisbane CBD),Brisbane Suburbs,Business and Government,Legal Services,2,Independently Accessible With Difficulty
+10,400 George,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,3,Meets Minimum Access Standards
+11,80 Albert Street,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,3,Meets Minimum Access Standards
+12,87 Wickham Terrace,Spring Hill,Brisbane Suburbs,Business and Government,Banks,2,Independently Accessible With Difficulty
+13,87 Wickham Terrace,Spring Hill,Brisbane Suburbs,Business and Government,Legal Services,2,Independently Accessible With Difficulty
+14,87 Wickham Terrace,Spring Hill,Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+15,A City Cat,South Bank,Brisbane Suburbs,Transport,Ferries,2,Independently Accessible With Difficulty
+16,A low floor bus,City (Brisbane CBD),Brisbane Suburbs,Transport,Buses and Coaches,2,Independently Accessible With Difficulty
+17,A Salt and Battery,St Lucia,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+18,A.R.C Hill Park,Virginia,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+19,Acacia Ridge - Elizabeth Steet Shops,Acacia Ridge,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+20,Airport - Brisbane,Brisbane Airport,Brisbane Suburbs,Transport,Rental Cars,4,Meets Enhanced Access Standards
+21,Airport - Domestic (Others),Brisbane Airport,Brisbane Suburbs,Tourism and Travel,Airports,4,Meets Enhanced Access Standards
+22,Airport - Domestic (Qantas),Brisbane Airport,Brisbane Suburbs,Tourism and Travel,Airports,4,Meets Enhanced Access Standards
+23,Airport - International,Brisbane Airport,Brisbane Suburbs,Tourism and Travel,Airports,1,Not Accessible
+24,Airport 85 Motel,Ascot,Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+25,Airport International Motel,Hamilton,Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+26,Airport Pegasus Motor Inn,Hamilton,Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+27,Albany Creek Leisure Centre,Albany Creek,South East Queensland,Sport and Recreation,Leisure And Fitness Centres,3,Meets Minimum Access Standards
+28,Albert Street Uniting Church,City (Brisbane CBD),Brisbane Suburbs,Community,Churches,2,Independently Accessible With Difficulty
+29,Albert Street's Shopping/Dining Boulevard,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+30,Albert Street's Shopping/Dining Boulevard,City (Brisbane CBD),Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+31,Albion Park Raceway,Albion,Brisbane Suburbs,Sport and Recreation,Sporting Venues,2,Independently Accessible With Difficulty
+32,Albion Railway Station,Albion,Brisbane Suburbs,Transport,Railways,2,Independently Accessible With Difficulty
+33,Aldi-Salisbury Store,Salisbury,Brisbane Suburbs,Shopping,Individual Shop,3,Meets Minimum Access Standards
+34,Alexandra Apartments,Buranda,Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+35,Alexandra Medical Centre,Spring Hill,Brisbane Suburbs,Medical Services,Medical Centres,2,Independently Accessible With Difficulty
+36,Alma Park Zoo,Kallangur,South East Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+37,AMF Bowling Kedron,Kedron,Brisbane Suburbs,Sport and Recreation,Tenpin Bowling Centres,3,Meets Minimum Access Standards
+38,AMF Mt Gravatt Lanes (tenpin bowls),Macgregor,Brisbane Suburbs,Sport and Recreation,Tenpin Bowling Centres,2,Independently Accessible With Difficulty
+39,Anatomical Sciences Building - UQ,St Lucia,Brisbane Suburbs,Education,Universities,2,Independently Accessible With Difficulty
+40,Annerley Library,Annerley,Brisbane Suburbs,Community,Libraries,2,Independently Accessible With Difficulty
+41,ANZ Bank,Sherwood,Brisbane Suburbs,Business and Government,Banks,4,Meets Enhanced Access Standards
+42,Anzac Park,Toowong,Brisbane Suburbs,Outdoors,Parks,2,Independently Accessible With Difficulty
+43,Anzac Square,City (Brisbane CBD),Brisbane Suburbs,Outdoors,Parks,2,Independently Accessible With Difficulty
+44,Anzac Square,City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+45,Anzac Square Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,4,Meets Enhanced Access Standards
+46,Arana  Hills Library,Arana Hills,Brisbane Suburbs,Community,Libraries,4,Meets Enhanced Access Standards
+47,Ashgrove Library - Brisbane City Council,Ashgrove,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+48,Aspley Motor Inn,Aspley,Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+49,Aspley Rest Park,Carseldine,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+50,Aspley Tenpin Bowl,Aspley,Brisbane Suburbs,Sport and Recreation,Tenpin Bowling Centres,2,Independently Accessible With Difficulty
+51,Atkinson Dam,Coominya,South East Queensland,Outdoors,Parks,2,Independently Accessible With Difficulty
+52,Auchenflower Railway Station,Auchenflower,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+53,Australia Post (GPO),City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,3,Meets Minimum Access Standards
+54,Australian Government Centre,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,3,Meets Minimum Access Standards
+55,Australian Government Centre,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,3,Meets Minimum Access Standards
+56,Australian Woolshed,Ferny Grove,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,1,Not Accessible
+57,AVIS Rent-a-car,Fortitude Valley,Brisbane Suburbs,Transport,Rental Cars,3,Meets Minimum Access Standards
+58,Balmoral 6 Cinemas,Bulimba,Brisbane Suburbs,Entertainment,Cinemas,3,Meets Minimum Access Standards
+59,Banyo Railway Station,Banyo,Brisbane Suburbs,Transport,Railways,2,Independently Accessible With Difficulty
+60,Bardon Conference Centre,Bardon,Brisbane Suburbs,Business and Government,Conference Venues,2,Independently Accessible With Difficulty
+61,Barrett Street Water Reserve,Bracken Ridge,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+62,BCC Libraries- Captioned Videos,City (Brisbane CBD),Brisbane Suburbs,Community,Libraries,4,Meets Enhanced Access Standards
+63,BCC Libraries Postal Service for the Blind,City (Brisbane CBD),Brisbane Suburbs,Community,Libraries,4,Meets Enhanced Access Standards
+64,Bean Scene Cafe,St Lucia,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+65,Bedgood Park,Paddington,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+66,Beenleigh Railway Station,Beenleigh,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+67,Bellbowrie Shopping Plaza,Bellbowrie,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+68,Bellevue Terrace Motel,Clayfield,Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+69,Benowa Gardens Shopping Centre,Benowa,South East Queensland,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+70,Benson Court Motel,Toowong,Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+71,Benson House,Toowong,Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+72,"Bicentennial Bikeway, North Quay",City (Brisbane CBD),Brisbane Suburbs,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+73,"Bicentennial Bikeway, North Quay",City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+74,Bill Cash Park,Cannon Hill,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+75,"Biological Sciences Library, UQ",St Lucia,Brisbane Suburbs,Community,Libraries,2,Independently Accessible With Difficulty
+76,"Biological Sciences Library, UQ",St Lucia,Brisbane Suburbs,Education,Universities,2,Independently Accessible With Difficulty
+77,Biosciences Precinct,St Lucia,Brisbane Suburbs,Education,Universities,4,Meets Enhanced Access Standards
+78,"Birch Carroll and Coyle, Myer Centre",City (Brisbane CBD),Brisbane Suburbs,Entertainment,Cinemas,4,Meets Enhanced Access Standards
+79,Birkdale Railway Station,Birkdale,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+80,Bob Cassimaty Picnic Ground,Ferny Grove,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+81,Boles Street Park,Stafford,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+82,Booker Place Park,Bellbowrie,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+83,Boombana National Park,Mt Nebo,South East Queensland,Outdoors,National and State Forests,2,Independently Accessible With Difficulty
+84,Boondall Railway Station,Boondall,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+85,Boondall Wetlands,Boondall,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,3,Meets Minimum Access Standards
+86,Boondall Wetlands,Boondall,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+87,Boondall Wetlands Billai dhagun Circuit,Boondall,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+88,"Boondall Wetlands Tabbil-ban dhagun Boardwalk, Nudgee Beach",Nudgee Beach,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+89,Boorabin Picnic Ground,Wishart,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+90,Borders Bookstore,City (Brisbane CBD),Brisbane Suburbs,Shopping,Individual Shop,3,Meets Minimum Access Standards
+91,Bowden Park,Geebung,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+92,Bowen Hills Railway Station,Bowen Hills,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+93,Bowman Park,Bardon,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+94,Braille Library,Annerley,Brisbane Suburbs,Community,Libraries,4,Meets Enhanced Access Standards
+95,Breakfast Creek Hotel - Staghorn Garden Dining,Albion,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+96,Breakfast Creek Hotel - Staghorn Garden Dining,Albion,Brisbane Suburbs,Entertainment,Hotels and Taverns,3,Meets Minimum Access Standards
+97,Brisbane Arcade,City (Brisbane CBD),Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+98,Brisbane Basketball Stadium,Auchenflower,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+99,Brisbane Basketball Stadium,Auchenflower,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,3,Meets Minimum Access Standards
+100,Brisbane Basketball Stadium,Auchenflower,Brisbane Suburbs,Sport and Recreation,Sporting Venues,3,Meets Minimum Access Standards
+101,"Brisbane Botanic Gardens, Mount Coot-tha",Toowong,Brisbane Suburbs,Outdoors,Lookouts,3,Meets Minimum Access Standards
+102,"Brisbane Botanic Gardens, Mount Coot-tha",Toowong,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+103,"Brisbane Botanic Gardens, Mount Coot-tha",Toowong,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+104,Brisbane City Botanic Gardens,City (Brisbane CBD),Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+105,Brisbane City Botanic Gardens,City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+106,Brisbane City YHA,City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+107,Brisbane Convention & Exhibition Centre - Foyer Level,South Brisbane,Brisbane Suburbs,Business and Government,Conference Venues,4,Meets Enhanced Access Standards
+108,Brisbane Convention & Exhibition Centre - Foyer Level,South Brisbane,Brisbane Suburbs,Community,Halls and Meeting Venues,4,Meets Enhanced Access Standards
+109,Brisbane Convention and Exhibition Centre,South Bank,Brisbane Suburbs,Business and Government,Conference Venues,4,Meets Enhanced Access Standards
+110,Brisbane Convention and Exhibition Centre,South Bank,Brisbane Suburbs,Entertainment,Venues,4,Meets Enhanced Access Standards
+111,Brisbane Convention and Exhibition Centre,South Bank,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,4,Meets Enhanced Access Standards
+112,Brisbane Convention and exhibition Centre - Mezzanine floor,South Brisbane,Brisbane Suburbs,Business and Government,Conference Venues,4,Meets Enhanced Access Standards
+113,Brisbane Convention and exhibition Centre - Mezzanine floor,South Brisbane,Brisbane Suburbs,Community,Halls and Meeting Venues,4,Meets Enhanced Access Standards
+114,Brisbane Corso Park,Fairfield,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+115,Brisbane Entertainment Centre,Boondall,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+116,Brisbane Entertainment Centre Parkland,Boondall,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+117,Brisbane Lion's Sports Club,Springwood,South East Queensland,Entertainment,Licensed Clubs,3,Meets Minimum Access Standards
+118,Brisbane Marriott Hotel,City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,4,Meets Enhanced Access Standards
+119,Brisbane Marriott Hotel,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Hotels and Taverns,4,Meets Enhanced Access Standards
+120,Brisbane Square,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,3,Meets Minimum Access Standards
+121,Brisbane Square,City (Brisbane CBD),Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+122,Brisbane Square,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+123,Brisbane Square Brisbane,City (Brisbane CBD),Brisbane Suburbs,Business and Government,BCC Customer Service Centres,4,Meets Enhanced Access Standards
+124,Brisbane Square Brisbane,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,4,Meets Enhanced Access Standards
+125,Brisbane Square Brisbane,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+126,Brisbane Square Library,City (Brisbane CBD),Brisbane Suburbs,Community,Libraries,4,Meets Enhanced Access Standards
+127,Brisbane Square Library,City (Brisbane CBD),Brisbane Suburbs,Education,Other Educational Institutions,4,Meets Enhanced Access Standards
+128,Brisbane Transit Centre,City (Brisbane CBD),Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+129,Broadwater Road Park,Mansfield,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+130,Broadway on the Mall,City (Brisbane CBD),Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+131,Broncos Leagues Club,Red Hill,Brisbane Suburbs,Entertainment,Licensed Clubs,4,Meets Enhanced Access Standards
+132,Brookside Shopping Centre,Mitchelton,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+133,Brumby's St Lucia,St Lucia,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+134,Brunswick Central,Fortitude Valley,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+135,Brunswick Street Mall,Fortitude Valley,Brisbane Suburbs,Shopping,Malls,2,Independently Accessible With Difficulty
+136,Brunswick Street Railway Station,Fortitude Valley,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+137,Buckland Park,Nundah,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+138,Budget Rent a Car,Brisbane Airport,Brisbane Suburbs,Transport,Rental Cars,3,Meets Minimum Access Standards
+139,Bulimba Library,Bulimba,Brisbane Suburbs,Community,Libraries,2,Independently Accessible With Difficulty
+140,Bulimba Library - Brisbane City Council,Bulimba,Brisbane Suburbs,Community,Libraries,2,Independently Accessible With Difficulty
+141,Bulimba Movie Theatre,Bulimba,Brisbane Suburbs,Entertainment,Cinemas,4,Meets Enhanced Access Standards
+142,Bunyaville State Forest,Bunya,South East Queensland,Outdoors,National and State Forests,2,Independently Accessible With Difficulty
+143,Burger Edge restaurant,Manly,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+144,Burnie Brae Senior Citizens Centre,Chermside,Brisbane Suburbs,Community,Halls and Meeting Venues,3,Meets Minimum Access Standards
+145,Burnie Brae Senior Citizens Centre,Chermside,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+146,CA O'Sullivan Park,Acacia Ridge,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+147,Caboolture Railway Station,Caboolture,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+148,Cafe Society,South Bank,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+149,Cairns Villa and Leisure Park,Manunda (Cairns),The Rest of Queensland,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+150,Calamvale Central,Calamvale,Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+151,Calamvale Hotel-Motel,Calamvale,Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+152,Calamvale Hotel-Motel,Calamvale,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+153,Cannon Hill,Cannon Hill,Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+154,Cannon Hill,Cannon Hill,Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+155,Capalaba Central Shopping Centre,Capalaba,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+156,Capalaba Park Shopping Centre,Capalaba,Brisbane Suburbs,Shopping,Malls,2,Independently Accessible With Difficulty
+157,Capalaba Park Shopping Centre,Capalaba,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+158,Captain Burke Park,Kangaroo Point,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+159,Carindale 8 Cinemas,Carindale,Brisbane Suburbs,Entertainment,Cinemas,2,Independently Accessible With Difficulty
+160,Carindale Library,Carindale,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+161,Carindale Library - Brisbane City Council,Carindale,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+162,Carindale Parklands,Carindale,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+163,Carindale Parklands,Carindale,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,3,Meets Minimum Access Standards
+164,Carindale Parklands,Carindale,Brisbane Suburbs,Sport and Recreation,Sporting Venues,3,Meets Minimum Access Standards
+165,Carindale Shopping Centre,Carindale,Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+166,Carseldine Railway Station,Carseldine,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+167,Cathedral Fig,Yungaburra,The Rest of Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+168,Cathedral Fig,Yungaburra,The Rest of Queensland,Outdoors,National and State Forests,2,Independently Accessible With Difficulty
+169,Cathedral Fig,Yungaburra,The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+170,Cawonga Park,Oxley,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+171,Centenery Lakes,Cairns (Edge Hill),The Rest of Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+172,Centenery Lakes,Cairns (Edge Hill),The Rest of Queensland,Outdoors,Parks,2,Independently Accessible With Difficulty
+173,Centenery Lakes,Cairns (Edge Hill),The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+174,Central Brunswick,Fortitude Valley,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+175,Central Brunswick,Fortitude Valley,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+176,Central Fair Shopping Centre,Mt Gravatt,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+177,Central Railway Station,City (Brisbane CBD),Brisbane Suburbs,Transport,Railways,4,Meets Enhanced Access Standards
+178,"Ceromone Museum, Tony Gould Gallery",South Bank,Brisbane Suburbs,Entertainment,Venues,2,Independently Accessible With Difficulty
+179,Chapel Hill Shopping Centre,Chapel Hill,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+180,Chapel Hill Shopping Centre,Chapel Hill,Brisbane Suburbs,Shopping,Individual Shop,2,Independently Accessible With Difficulty
+181,Chapel Hill Shopping Centre,Chapel Hill,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+182,Chermside Library,Chermside,Brisbane Suburbs,Community,Libraries,2,Independently Accessible With Difficulty
+183,Chermside Library,Chermside,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+184,Chermside Megaplax Cinemas,Chermside,Brisbane Suburbs,Entertainment,Cinemas,3,Meets Minimum Access Standards
+185,Chermside Motor Inn,Chermside,Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+186,Chermside Pool,Chermside,Brisbane Suburbs,Sport and Recreation,Swimming Pools,3,Meets Minimum Access Standards
+187,Chinatown Mall,Fortitude Valley,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+188,Chinatown Mall,Fortitude Valley,Brisbane Suburbs,Shopping,Malls,2,Independently Accessible With Difficulty
+189,Chinatown Mall,Fortitude Valley,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+190,Cinema Cafe,Bulimba,Brisbane Suburbs,Community,Restaurants & Cafes,1,Not Accessible
+191,Cinemas Westfield Strathpine,Strathpine,South East Queensland,Entertainment,Cinemas,3,Meets Minimum Access Standards
+192,City Beach,City (Brisbane CBD),Brisbane Suburbs,Shopping,Malls,2,Independently Accessible With Difficulty
+193,City Cat terminal Southbank,South Bank,Brisbane Suburbs,Transport,Ferries,2,Independently Accessible With Difficulty
+194,"City Cat terminal, UQ",St Lucia,Brisbane Suburbs,Transport,Ferries,2,Independently Accessible With Difficulty
+195,City Gardens Cafe,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+196,City Hall,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,4,Meets Enhanced Access Standards
+197,City Hall,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,4,Meets Enhanced Access Standards
+198,City Hall,City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,4,Meets Enhanced Access Standards
+199,City Plaza,Brisbane Airport,Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+200,City Street Parking,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+201,Clayfield Railway Station,Clayfield,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+202,Cleveland Bayside Markets,Cleveland,South East Queensland,Shopping,Markets,3,Meets Minimum Access Standards
+203,Cleveland CBD,Cleveland,South East Queensland,Community,Libraries,3,Meets Minimum Access Standards
+204,Cleveland CBD,Cleveland,South East Queensland,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+205,Cleveland Railway Station,Cleveland,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+206,Coffee Club - Nundah Village,Nundah,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+207,Coffee Club - Nundah Village,Nundah,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+208,Coffee Club Brisbane City,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+209,Coffee Club Bulimba,Bulimba,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+210,Coffee Club Toowoong,Toowong,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+211,Coles Indooroopilly,Indooroopilly,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+212,"Coles Shopping Centre, The Barracks, Petire Terrace",Paddington,Brisbane Suburbs,Shopping,Individual Shop,2,Independently Accessible With Difficulty
+213,"Coles Shopping Centre, The Barracks, Petire Terrace",Paddington,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+214,"Coles Shopping Centre, The Barracks, Petire Terrace",Paddington,Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+215,"Coles Shopping Centre, The Barracks, Petire Terrace",Paddington,Brisbane Suburbs,Transport,Taxis,2,Independently Accessible With Difficulty
+216,Colmslie Pool,Morningside,Brisbane Suburbs,Sport and Recreation,Swimming Pools,4,Meets Enhanced Access Standards
+217,Colmslie Reserve,Cannon Hill,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+218,Colonial Restaurant,Mt Gravatt,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+219,Comfort Inn Airport Admiralty Motel,Hamilton,Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+220,Commonwealth Bank,Bulimba,Brisbane Suburbs,Business and Government,Banks,2,Independently Accessible With Difficulty
+221,Commonwealth Law Courts,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Law Courts,4,Meets Enhanced Access Standards
+222,Conrad Treasury Hotel,City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+223,Conrad Treasury Hotel,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,3,Meets Minimum Access Standards
+224,Conrad Treasury Hotel,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Hotels and Taverns,3,Meets Minimum Access Standards
+225,Conservatorium of Music,South Bank,Brisbane Suburbs,Education,Other Educational Institutions,4,Meets Enhanced Access Standards
+226,Coomera Railway Station,Coomera,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+227,Coopers Plains Library,Coopers Plains,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+228,Coopers Plains Railway Station,Coopers Plains,Brisbane Suburbs,Transport,Railways,4,Meets Enhanced Access Standards
+229,Coorparoo Railway Station,Coorparoo,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+230,Coorparoo RSL,Coorparoo,Brisbane Suburbs,Entertainment,Licensed Clubs,4,Meets Enhanced Access Standards
+231,Corinda Library,Corinda,Brisbane Suburbs,Community,Libraries,2,Independently Accessible With Difficulty
+232,Corinda Railway Station,Corinda,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+233,Cosmo Cafe,South Bank,Brisbane Suburbs,Community,Restaurants & Cafes,1,Not Accessible
+234,Cox Park,Lota,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+235,Crushers Leagues Club,Grange,Brisbane Suburbs,Entertainment,Licensed Clubs,2,Independently Accessible With Difficulty
+236,Cultural Centre Busway,South Bank,Brisbane Suburbs,Transport,Buses and Coaches,4,Meets Enhanced Access Standards
+237,Cultural Centre Busway Station,South Brisbane,Brisbane Suburbs,Transport,Buses and Coaches,3,Meets Minimum Access Standards
+238,Cultural Tourism Professionals,Glenelg East,The Rest of Australia,Tourism and Travel,Tour Companies,3,Meets Minimum Access Standards
+239,Curlew Park,Sandgate,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+240,Curtain Fig,Yungaburra,The Rest of Queensland,Outdoors,Bushwalks & Bushland Centres,1,Not Accessible
+241,Curtain Fig,Yungaburra,The Rest of Queensland,Outdoors,National and State Forests,1,Not Accessible
+242,Curtain Fig,Yungaburra,The Rest of Queensland,Tourism and Travel,Tourist Attractions,1,Not Accessible
+243,Customs House,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,2,Independently Accessible With Difficulty
+244,Customs House,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+245,Customs House,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Venues,2,Independently Accessible With Difficulty
+246,Customs House,City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+247,D J Sherrington Park,Inala,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+248,D M Henderson Park,Macgregor,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+249,D.F.O Brisbane,Brisbane Airport,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+250,Deagon Railway Station,Deagon,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+251,Decker Park,Brighton,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+252,Deepwater Bend Reserve,Bald Hills,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+253,Dental Hospital,City (Brisbane CBD),Brisbane Suburbs,Medical Services,Hospitals,3,Meets Minimum Access Standards
+254,DIAL- Disability Information Awareness Line,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,4,Meets Enhanced Access Standards
+255,DIAL- Disability Information Awareness Line,City (Brisbane CBD),Brisbane Suburbs,Disability Services,Wheelchair Hire and Repairs,4,Meets Enhanced Access Standards
+256,Doomben Racecourse,Doomben,Brisbane Suburbs,Sport and Recreation,Sporting Venues,2,Independently Accessible With Difficulty
+257,Doomben Railway Station,Ascot,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+258,Dorrington Park,Ashgrove,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+259,Dowes Lagoon (Sandgate Second Lagoon),Sandgate,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,3,Meets Minimum Access Standards
+260,Dowes Lagoon (Sandgate Second Lagoon),Sandgate,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+261,Dowes Lagoon (Sandgate Second Lagoon),Sandgate,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+262,Downfall Creek Bushland Centre,Chermside West,Brisbane Suburbs,Education,Other Educational Institutions,3,Meets Minimum Access Standards
+263,Downfall Creek Bushland Centre,Chermside West,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,3,Meets Minimum Access Standards
+264,Downfall Creek Bushland Centre,Chermside West,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+265,DPI Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,3,Meets Minimum Access Standards
+266,DPI Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,3,Meets Minimum Access Standards
+267,DPI Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,3,Meets Minimum Access Standards
+268,Dunmore Park,Toowong,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+269,Dutton Park,Dutton Park,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+270,Dutton Park / UQ   Ferry,St Lucia,Brisbane Suburbs,Transport,Ferries,1,Not Accessible
+271,Dutton Park Railway Station,Dutton Park,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+272,Eagle Junction Railway Station,Clayfield,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+273,Eagle St near Riverside Centre,City (Brisbane CBD),Brisbane Suburbs,Parking / Passenger set down,Passenger set down space,2,Independently Accessible With Difficulty
+274,Eagle Street Pier,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+275,Eagle Street Pier,City (Brisbane CBD),Brisbane Suburbs,Transport,Buses and Coaches,2,Independently Accessible With Difficulty
+276,Eagle Street Pier,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+277,Eagle Street Pier,City (Brisbane CBD),Brisbane Suburbs,Transport,Ferries,2,Independently Accessible With Difficulty
+278,Eagle Street Pier,City (Brisbane CBD),Brisbane Suburbs,Transport,Taxis,2,Independently Accessible With Difficulty
+279,Easts Leagues Club,Coorparoo,Brisbane Suburbs,Entertainment,Licensed Clubs,4,Meets Enhanced Access Standards
+280,Eden's Landing Railway Station,Edens Landing,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+281,Elanora Park,Wynnum,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+282,Eldorado 8 Cinemas,Indooroopilly,Brisbane Suburbs,Entertainment,Cinemas,2,Independently Accessible With Difficulty
+283,Eleanor Schonell Bridge,Dutton Park,Brisbane Suburbs,Education,Universities,3,Meets Minimum Access Standards
+284,Eleanor Schonell Bridge,St Lucia,Brisbane Suburbs,Education,Universities,3,Meets Minimum Access Standards
+285,Eleanor Schonell Bridge,Dutton Park,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+286,Eleanor Schonell Bridge,St Lucia,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+287,Event Cinemas Chermside,Chermside,Brisbane Suburbs,Entertainment,Cinemas,2,Independently Accessible With Difficulty
+288,"Event Cinemas, Indooroopilly",Indooroopilly,Brisbane Suburbs,Entertainment,Cinemas,2,Independently Accessible With Difficulty
+289,Everton Park Library - Brisbane City Council,Everton Park,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+290,Fairfield Gardens Shopping Centre,Fairfield,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+291,Fairfield Library,Fairfield,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+292,Fairfield Park,Fairfield,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+293,Faulkner Park,Graceville,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+294,Fenwick Park,Mitchelton,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+295,Ferguson Park,Enoggera,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+296,Ferny Grove Picnic Ground,Ferny Grove,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+297,Ferny Grove Railway Station,Ferny Grove,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+298,Ferny Hills Park,Ferny Hills,South East Queensland,Outdoors,Parks,2,Independently Accessible With Difficulty
+299,"Ferry terminal, UQ",St Lucia,Brisbane Suburbs,Transport,Ferries,2,Independently Accessible With Difficulty
+300,Finn MacCool's Irish Bar,Carindale,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+301,Finn MacCool's Irish Bar,Carindale,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+302,Flashcab Rentals,City (Brisbane CBD),Brisbane Suburbs,Transport,Rental Cars,3,Meets Minimum Access Standards
+303,Flecker Botanic Gardens,Cairns (Edge Hill),The Rest of Queensland,Outdoors,Parks,2,Independently Accessible With Difficulty
+304,Flecker Botanic Gardens,Cairns (Edge Hill),The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+305,Flecker Botanic Gardens Bookshop,Cairns (Edge Hill),The Rest of Queensland,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+306,Flecker Botanic Gardens Bookshop,Cairns (Edge Hill),The Rest of Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+307,Flecker Botanic Gardens Bookshop,Cairns (Edge Hill),The Rest of Queensland,Outdoors,Parks,2,Independently Accessible With Difficulty
+308,Flecker Botanic Gardens Licensed Cafe,Cairns (Edge Hill),The Rest of Queensland,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+309,"Food court, Indooroopilly Westfield",Indooroopilly,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+310,Forages Cafe and Deli,Indooroopilly,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+311,Forages Cafe and Deli,Indooroopilly,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+312,Forestry House,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,3,Meets Minimum Access Standards
+313,"Forgan Smith Building, UQ",St Lucia,Brisbane Suburbs,Community,Halls and Meeting Venues,2,Independently Accessible With Difficulty
+314,"Forgan Smith Building, UQ",St Lucia,Brisbane Suburbs,Education,Universities,2,Independently Accessible With Difficulty
+315,Fortitude Valley PCYC,Fortitude Valley,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,3,Meets Minimum Access Standards
+316,Fortitude Valley PCYC,Fortitude Valley,Brisbane Suburbs,Sport and Recreation,Sporting Venues,3,Meets Minimum Access Standards
+317,Fortitude Valley Railway Station,Fortitude Valley,Brisbane Suburbs,Transport,Railways,4,Meets Enhanced Access Standards
+318,"Freedom Furniture, Springwood",Springwood,South East Queensland,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+319,Fresh On Melbourne,South Brisbane,Brisbane Suburbs,Business and Government,Office Buildings,4,Meets Enhanced Access Standards
+320,Fresh On Melbourne,South Brisbane,Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+321,Fruity Capers,Toowong,Brisbane Suburbs,Shopping,Markets,2,Independently Accessible With Difficulty
+322,Gallery of Modern Art,South Bank,Brisbane Suburbs,Education,Other Educational Institutions,4,Meets Enhanced Access Standards
+323,Gallery of Modern Art,South Bank,Brisbane Suburbs,Entertainment,Venues,4,Meets Enhanced Access Standards
+324,Gallery of Modern Art (GoMA),South Bank,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+325,Gap Creek Reserve,Brookfield,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+326,Garden City Library,Upper Mt Gravatt,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+327,Garden City Library - Brisbane City Council,Mt Gravatt,Brisbane Suburbs,Community,Libraries,4,Meets Enhanced Access Standards
+328,Garden City Motor Inn,Upper Mt Gravatt,Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+329,Garden City Shopping Centre,Upper Mt Gravatt,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+330,Gaythorne RSL Services Club,Mitchelton,Brisbane Suburbs,Entertainment,Licensed Clubs,2,Independently Accessible With Difficulty
+331,Geebung Railway Station,Geebung,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+332,Geebung-Zillmere RSL,Geebung,Brisbane Suburbs,Entertainment,Licensed Clubs,3,Meets Minimum Access Standards
+333,"Gelatissimo, City",City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+334,"George St kerb side, between Adelaide St and Ann St",City (Brisbane CBD),Brisbane Suburbs,Parking / Passenger set down,Passenger set down space,3,Meets Minimum Access Standards
+335,"George St kerb side, between Margaret St and Mary St",City (Brisbane CBD),Brisbane Suburbs,Parking / Passenger set down,Passenger set down space,3,Meets Minimum Access Standards
+336,"George St kerb side, between Queen St and Adelaide St",City (Brisbane CBD),Brisbane Suburbs,Parking / Passenger set down,Passenger set down space,2,Independently Accessible With Difficulty
+337,Glindeman Park,Holland Park,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+338,"Go Between Bridge, North Quay Brisbane",City (Brisbane CBD),Brisbane Suburbs,Outdoors,Lookouts,4,Meets Enhanced Access Standards
+339,"Go Between Bridge, North Quay Brisbane",City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,4,Meets Enhanced Access Standards
+340,"Goodlife Health Club, Morningside",Morningside,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,2,Independently Accessible With Difficulty
+341,Goodwill Bridge,City (Brisbane CBD),Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+342,Goodwill Bridge,City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,4,Meets Enhanced Access Standards
+343,Government Departments,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,3,Meets Minimum Access Standards
+344,Grand Plaza Shopping Centre,Browns Plains,South East Queensland,Shopping,Shopping Centres,1,Not Accessible
+345,Grange Library,Grange,Brisbane Suburbs,Community,Libraries,4,Meets Enhanced Access Standards
+346,Grange Library - Brisbane City Council,Grange,Brisbane Suburbs,Community,Libraries,4,Meets Enhanced Access Standards
+347,Greek Club,South Brisbane,Brisbane Suburbs,Entertainment,Licensed Clubs,2,Independently Accessible With Difficulty
+348,Greenslopes Lanes (tenpin bowling),Greenslopes,Brisbane Suburbs,Sport and Recreation,Tenpin Bowling Centres,2,Independently Accessible With Difficulty
+349,Greenslopes Mall Shopping Centre,Greenslopes,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+350,Gregory Park,Milton,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+351,Gregory Terrace Motor Inn,Spring Hill,Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+352,Gregory Terrace Motor Inn,Spring Hill,Brisbane Suburbs,Business and Government,Conference Venues,3,Meets Minimum Access Standards
+353,Grey Gum Picnic Area,Toowong,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+354,Grinstead Park,Alderley,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+355,Grovely Railway Station,Keperra,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+356,Guyatt Park Citycat Terminal,St Lucia,Brisbane Suburbs,Transport,Ferries,2,Independently Accessible With Difficulty
+357,Hamilton Hacienda Motel,Hamilton,Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+358,Hanabishi Japanese Restaurant,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+359,Harmony Gardens,Dutton Park,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+360,Hawken Village Coles,St Lucia,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+361,Heath Park,East Brisbane,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+362,Hefferan Park,Dutton Park,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+363,Heffernan Park,Annerley,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+364,Helensvale Railway Station,Helensvale,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+365,Hemmant Recreation Reserve,Hemmant,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+366,Hendra Railway Station,Hendra,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+367,Her Majesty's Bar,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+368,Hertz Australia Pty Ltd,City (Brisbane CBD),Brisbane Suburbs,Transport,Rental Cars,3,Meets Minimum Access Standards
+369,Hibiscus Sports Complex,Upper Mt Gravatt,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,2,Independently Accessible With Difficulty
+370,Hibiscus Sports Complex,Upper Mt Gravatt,Brisbane Suburbs,Sport and Recreation,Sporting Venues,2,Independently Accessible With Difficulty
+371,Hibiscus Sports Complex,Upper Mt Gravatt,Brisbane Suburbs,Sport and Recreation,Swimming Pools,2,Independently Accessible With Difficulty
+372,Highpoint Plaza,Ashgrove,Brisbane Suburbs,Business and Government,Office Buildings,3,Meets Minimum Access Standards
+373,Hives Park,Sherwood,Brisbane Suburbs,Outdoors,Parks,2,Independently Accessible With Difficulty
+374,Holland Park Law Courts,Holland Park,Brisbane Suburbs,Business and Government,Law Courts,3,Meets Minimum Access Standards
+375,Holland Park Library,Holland Park,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+376,Holme Avenue Park,Boondall,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+377,Holmview Railway Station,Holmview,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+378,Hotel George Williams,City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+379,Hotel George Williams,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,3,Meets Minimum Access Standards
+380,Hotel Grand Chancellor,City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+381,Hotel Grand Chancellor,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,2,Independently Accessible With Difficulty
+382,Hotel Grand Chancellor,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+383,Hotel Ibis,City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+384,"Hoyts, Stafford Cinemas (Formerly AMC)",Stafford,Brisbane Suburbs,Entertainment,Cinemas,3,Meets Minimum Access Standards
+385,Hundred Acre Bar,St Lucia,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+386,Hundred Acre Bar,St Lucia,Brisbane Suburbs,Sport and Recreation,Golf Clubs,3,Meets Minimum Access Standards
+387,HyperBowl Chermside,Chermside,Brisbane Suburbs,Sport and Recreation,Tenpin Bowling Centres,2,Independently Accessible With Difficulty
+388,Ikea Springwood,Springwood,South East Queensland,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+389,Inala Civic Centre Library,Inala,Brisbane Suburbs,Community,Halls and Meeting Venues,3,Meets Minimum Access Standards
+390,Inala Civic Centre Library,Inala,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+391,Inala PCYC,Inala,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+392,Inala PCYC,Inala,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,3,Meets Minimum Access Standards
+393,Inala PCYC,Inala,Brisbane Suburbs,Sport and Recreation,Sporting Venues,3,Meets Minimum Access Standards
+394,Inala Town Centre,Inala,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+395,Indooroopilly Central,Indooroopilly,Brisbane Suburbs,Shopping,Malls,1,Not Accessible
+396,Indooroopilly Central,Indooroopilly,Brisbane Suburbs,Shopping,Shopping Centres,1,Not Accessible
+397,Indooroopilly Hotel,Indooroopilly,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+398,Indooroopilly Library - Brisbane City Council,Indooroopilly,Brisbane Suburbs,Community,Halls and Meeting Venues,3,Meets Minimum Access Standards
+399,Indooroopilly Library - Brisbane City Council,Indooroopilly,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+400,Indooroopilly Railway Station,Indooroopilly,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+401,Indooroopilly Shopping Town Eatery,Indooroopilly,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+402,Ipswich Railway Station,Ipswich,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+403,Jack Cook Park,Taringa,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+404,Jindalee Boat Ramp Park,Jindalee,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+405,Jindalee DFO Shopping centre,Jindalee,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+406,Jindalee DFO Shopping centre,Jindalee,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+407,Jindalee DFO Shopping centre,Jindalee,Brisbane Suburbs,Transport,Carparks,3,Meets Minimum Access Standards
+408,Jindalee Homemaker City,Jindalee,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+409,Jindalee Homemaker City,Jindalee,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+410,Jindalee Homemaker City,Jindalee,Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+411,Jindalee Park,Jindalee,Brisbane Suburbs,Outdoors,Parks,2,Independently Accessible With Difficulty
+412,Joe Bradfield Centre,Carina,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+413,Johnson Flora Reserve,Robertson,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+414,Jolly's Lookout,Mt Nebo,South East Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+415,Jolly's Lookout,Mt Nebo,South East Queensland,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+416,Jolly's Lookout,Mt Nebo,South East Queensland,Outdoors,National and State Forests,2,Independently Accessible With Difficulty
+417,Jubilee Park,Bardon,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+418,Kalinga Park,Wooloowin,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+419,Kalinga Park,Wooloowin,Brisbane Suburbs,Sport and Recreation,Sporting Venues,3,Meets Minimum Access Standards
+420,Kangaroo Point Parkland (R Barry),Kangaroo Point,Brisbane Suburbs,Outdoors,Parks,2,Independently Accessible With Difficulty
+421,Kangaroo Point Parklands (NP),Kangaroo Point,Brisbane Suburbs,Outdoors,Parks,2,Independently Accessible With Difficulty
+422,Kangaroo Point Shaftson Reach,Kangaroo Point,Brisbane Suburbs,Outdoors,Parks,2,Independently Accessible With Difficulty
+423,Kangaroo Point Shaftson Reach,Kangaroo Point,Brisbane Suburbs,Transport,Ferries,2,Independently Accessible With Difficulty
+424,Karawatha Forest Ironbark Circuit,Karawatha,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,1,Not Accessible
+425,Karrabin Railway Station,Karrabin,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+426,KC Parksafe,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+427,Kedron-Wavell Services Club,Chermside,Brisbane Suburbs,Entertainment,Licensed Clubs,3,Meets Minimum Access Standards
+428,Kenmore Brisbane City Council Library,Kenmore,Brisbane Suburbs,Community,Libraries,4,Meets Enhanced Access Standards
+429,Kenmore Village Shopping Centre,Kenmore,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+430,Keperra Great Western Shopping Centre,Keperra,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+431,Keperra Picnic Ground,Ferny Grove,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+432,Keperra Railway Station,Keperra,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+433,Kidspace,Chermside,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+434,King George Square,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+435,King George Square Bus Station,City (Brisbane CBD),Brisbane Suburbs,Transport,Buses and Coaches,3,Meets Minimum Access Standards
+436,King George Square Busway: Roma Street Entrances,City (Brisbane CBD),Brisbane Suburbs,Transport,Buses and Coaches,4,Meets Enhanced Access Standards
+437,King George Square Carpark,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,3,Meets Minimum Access Standards
+438,King of Cakes Cafe and Bakery,Indooroopilly,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+439,Kings Carpark,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+440,Kings Parkade,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+441,Kings Parking Eagle Street,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+442,Kingston Railway Station,Kingston,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+443,Koorong Bookstore,Woolloongabba,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+444,Kuranda Railway Station,Kuranda,The Rest of Queensland,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+445,Kuranda Railway Station,Kuranda,The Rest of Queensland,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+446,Kuranda Railway Station,Kuranda,The Rest of Queensland,Transport,Railways,3,Meets Minimum Access Standards
+447,Kurilpa Bridge,South Bank,Brisbane Suburbs,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+448,Kuta Cafe,Toowong,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+449,La Dolce Vita,Milton,Brisbane Suburbs,Community,Restaurants & Cafes,1,Not Accessible
+450,Ladhope Medical Centre,Spring Hill,Brisbane Suburbs,Medical Services,Medical Centres,2,Independently Accessible With Difficulty
+451,Lake Barrine National Park,Yungaburra,The Rest of Queensland,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+452,Lake Barrine National Park,Yungaburra,The Rest of Queensland,Outdoors,National and State Forests,2,Independently Accessible With Difficulty
+453,Lake Barrine National Park,Yungaburra,The Rest of Queensland,Outdoors,Parks,2,Independently Accessible With Difficulty
+454,Lake Eacham National Park,Yungaburra,The Rest of Queensland,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+455,Lake Eacham National Park,Yungaburra,The Rest of Queensland,Outdoors,National and State Forests,2,Independently Accessible With Difficulty
+456,Lake Eacham National Park,Yungaburra,The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+457,Lang Park PCYC,Milton,Brisbane Suburbs,Entertainment,Venues,4,Meets Enhanced Access Standards
+458,Lang Park PCYC,Milton,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,4,Meets Enhanced Access Standards
+459,Lang Park PCYC,Milton,Brisbane Suburbs,Sport and Recreation,Sporting Venues,4,Meets Enhanced Access Standards
+460,Lanham Park,Grange,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+461,Law Courts Complex,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,2,Independently Accessible With Difficulty
+462,Law Courts Complex,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Law Courts,2,Independently Accessible With Difficulty
+463,Law Courts Complex,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Legal Services,2,Independently Accessible With Difficulty
+464,Law Society House Inc,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Legal Services,3,Meets Minimum Access Standards
+465,Lawnton Railway Station,Lawton,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+466,Licorice Lane,Fortitude Valley,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+467,Licorice Lane,Fortitude Valley,Brisbane Suburbs,Shopping,Malls,3,Meets Minimum Access Standards
+468,Lilyponds Holiday Park,Mapleton,South East Queensland,Accommodation,Accommodation,3,Meets Minimum Access Standards
+469,Lilyponds Holiday Park,Mapleton,South East Queensland,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+470,Lions Richlands,Richlands,Brisbane Suburbs,Entertainment,Hotels and Taverns,3,Meets Minimum Access Standards
+471,Lions Richlands,Richlands,Brisbane Suburbs,Entertainment,Licensed Clubs,3,Meets Minimum Access Standards
+472,Lions Richlands,Richlands,Brisbane Suburbs,Sport and Recreation,Sporting Venues,3,Meets Minimum Access Standards
+473,Lockrose Street Park,Mitchelton,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+474,Logan Hyperdome Shopping Centre,Loganholme,South East Queensland,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+475,Logan Hyperdome Shopping Centre,Loganholme,South East Queensland,Transport,Carparks,4,Meets Enhanced Access Standards
+476,Loganlea Railway Station,Loganlea,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+477,Lone Pine Koala Sanctuary,Fig Tree Pocket,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+478,Lorraine Martin College,City (Brisbane CBD),Brisbane Suburbs,Education,Other Educational Institutions,3,Meets Minimum Access Standards
+479,Lota Railway Station,Lota,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+480,Lutwyche City,Lutwyche,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+481,Magistrate's Court,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Law Courts,4,Meets Enhanced Access Standards
+482,"Main Refectory, Union Complex, UQ",St Lucia,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+483,Majestic Park,Coorparoo,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+484,Manly Railway Station,Manly,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+485,Marchant Park,Aspley,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+486,Marchant Park,Aspley,Brisbane Suburbs,Sport and Recreation,Sporting Venues,3,Meets Minimum Access Standards
+487,Margate Conference Centre,Margate (Redcliffe),South East Queensland,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+488,Margate Conference Centre,Margate (Redcliffe),South East Queensland,Business and Government,Conference Venues,2,Independently Accessible With Difficulty
+489,Margate Conference Centre,Margate (Redcliffe),South East Queensland,Community,Halls and Meeting Venues,2,Independently Accessible With Difficulty
+490,Maritime Museum,South Brisbane,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+491,Market Square Shopping Centre,Sunnybank,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+492,Mary Street Car Park,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+493,Mater Hill Busway,Woolloongabba,Brisbane Suburbs,Transport,Buses and Coaches,4,Meets Enhanced Access Standards
+494,Max Brenner,South Bank,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+495,Max Brenners,South Bank,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+496,Mc Pherson Park,Bracken Ridge,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+497,McDonalds Newmarket,Newmarket,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+498,McWhirters,Fortitude Valley,Brisbane Suburbs,Accommodation,Accommodation,4,Meets Enhanced Access Standards
+499,McWhirters,Fortitude Valley,Brisbane Suburbs,Business and Government,Banks,4,Meets Enhanced Access Standards
+500,McWhirters,Fortitude Valley,Brisbane Suburbs,Business and Government,Office Buildings,4,Meets Enhanced Access Standards
+501,McWhirters,Fortitude Valley,Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+502,McWhirters,Fortitude Valley,Brisbane Suburbs,Medical Services,Medical Centres,4,Meets Enhanced Access Standards
+503,McWhirters,Fortitude Valley,Brisbane Suburbs,Shopping,Individual Shop,4,Meets Enhanced Access Standards
+504,McWhirters,Fortitude Valley,Brisbane Suburbs,Transport,Taxis,4,Meets Enhanced Access Standards
+505,Meadowlands Picnic Ground,Carindale,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+506,"Megaplex, Garden City",Upper Mt Gravatt,Brisbane Suburbs,Entertainment,Cinemas,3,Meets Minimum Access Standards
+507,"Megaplex, Garden City",Upper Mt Gravatt,Brisbane Suburbs,Entertainment,Cinemas,4,Meets Enhanced Access Standards
+508,Mercure Hotel,City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+509,Mercure Hotel,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,2,Independently Accessible With Difficulty
+510,Mercure Hotel,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+511,Merthyr Family Centre/Conference Centre,New Farm,Brisbane Suburbs,Business and Government,Conference Venues,2,Independently Accessible With Difficulty
+512,Merthyr Village,New Farm,Brisbane Suburbs,Business and Government,Banks,4,Meets Enhanced Access Standards
+513,Merthyr Village,New Farm,Brisbane Suburbs,Business and Government,Legal Services,4,Meets Enhanced Access Standards
+514,Merthyr Village,New Farm,Brisbane Suburbs,Medical Services,Medical Centres,4,Meets Enhanced Access Standards
+515,Merthyr Village,New Farm,Brisbane Suburbs,Shopping,Individual Shop,4,Meets Enhanced Access Standards
+516,Merthyr Village,New Farm,Brisbane Suburbs,Transport,Buses and Coaches,4,Meets Enhanced Access Standards
+517,Merthyr Village,New Farm,Brisbane Suburbs,Transport,Taxis,4,Meets Enhanced Access Standards
+518,Metro Arts,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Venues,2,Independently Accessible With Difficulty
+519,Michaels Oriental,Eight Mile Plains,Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+520,Michael's Restaurant,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+521,"Michie Building, UQ",St Lucia,Brisbane Suburbs,Education,Universities,3,Meets Minimum Access Standards
+522,Milton Centro,Milton,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+523,Milton Park,Milton,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+524,Milton Railway Station,Milton,Brisbane Suburbs,Transport,Railways,4,Meets Enhanced Access Standards
+525,Mineral House,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+526,Minnippi Parklands,Tingalpa,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+527,Mitchelton Library - Brisbane City Council,Mitchelton,Brisbane Suburbs,Community,Halls and Meeting Venues,3,Meets Minimum Access Standards
+528,Mitchelton Library - Brisbane City Council,Mitchelton,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+529,Mitchelton Railway Station,Mitchelton,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+530,Mitchleton Library,Mitchelton,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+531,Moora Park,Shorncliffe,Brisbane Suburbs,Outdoors,Lookouts,3,Meets Minimum Access Standards
+532,Moora Park,Shorncliffe,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+533,Moora Park,Shorncliffe,Brisbane Suburbs,Sport and Recreation,Fishing,3,Meets Minimum Access Standards
+534,Morningside Railway Station,Morningside,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+535,Morris Surgical,Windsor,Brisbane Suburbs,Disability Services,Wheelchair Hire and Repairs,4,Meets Enhanced Access Standards
+536,Morris Towers,Spring Hill,Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+537,Morris Towers,Spring Hill,Brisbane Suburbs,Medical Services,Medical Centres,2,Independently Accessible With Difficulty
+538,Mott Park,Holland Park,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+539,Mount Archer National Park,Rockhampton,The Rest of Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+540,Mount Archer National Park,Rockhampton,The Rest of Queensland,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+541,Mount Archer National Park,Rockhampton,The Rest of Queensland,Outdoors,National and State Forests,2,Independently Accessible With Difficulty
+542,Mount Coot-tha Gardens Auditorium,Toowong,Brisbane Suburbs,Community,Halls and Meeting Venues,2,Independently Accessible With Difficulty
+543,Mowbray Park,East Brisbane,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+544,Mt Coot tha Summit Lookout,Toowong,Brisbane Suburbs,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+545,Mt Coot-tha Botanic Gardens Tropical Dome,Toowong,Brisbane Suburbs,Outdoors,Parks,2,Independently Accessible With Difficulty
+546,Mt Coot-tha Botanic Gardens Tropical Dome,Toowong,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+547,Mt Coot-tha Library & Administration,Toowong,Brisbane Suburbs,Community,Libraries,2,Independently Accessible With Difficulty
+548,Mt Coot-tha Reserve,Toowong,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+549,Mt Gravatt East Aquatic Centre,Mansfield,Brisbane Suburbs,Sport and Recreation,Swimming Pools,3,Meets Minimum Access Standards
+550,Mt Gravatt Library (Corner of Creek and Logan Road),Mt Gravatt,Brisbane Suburbs,Community,Libraries,1,Not Accessible
+551,Mt Gravatt Plaza,Mt Gravatt,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+552,Mt Gravatt Showgrounds,Upper Mt Gravatt,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+553,Mt Ommaney Centre,Mt Ommaney,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+554,Mt Ommaney Centre Food Court,Mt Ommaney,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+555,Mt Ommaney Library,Mt Ommaney,Brisbane Suburbs,Community,Halls and Meeting Venues,4,Meets Enhanced Access Standards
+556,Mt Ommaney Library,Mt Ommaney,Brisbane Suburbs,Community,Libraries,4,Meets Enhanced Access Standards
+557,Multilevel Carpark,St Lucia,Brisbane Suburbs,Education,Universities,2,Independently Accessible With Difficulty
+558,Museum of Brisbane,City (Brisbane CBD),Brisbane Suburbs,Education,Other Educational Institutions,3,Meets Minimum Access Standards
+559,Museum of Brisbane,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+560,Museum of Brisbane,City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+561,Myer Centre,City (Brisbane CBD),Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+562,Narellen Park,Arana Hills,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+563,Neal Macrossan Playground Park,Paddington,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+564,Nerang Railway Station,Nerang,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+565,New Farm Library,New Farm,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+566,New Farm Park,New Farm,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+567,New Farm Park,New Farm,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+568,New Farm Park Kiosk,New Farm,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+569,Newmarket Shopping Centre,Newmarket,Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+570,Newmarket Shopping Centre,Newmarket,Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+571,Newmarket Swimming Pool,Newmarket,Brisbane Suburbs,Sport and Recreation,Swimming Pools,2,Independently Accessible With Difficulty
+572,Newstead Park,Newstead,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+573,Newstead Park,Newstead,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+574,Nick's Swiss Italian Licenced Restaurant,Yungaburra,The Rest of Queensland,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+575,Nick's Swiss Italian Licenced Restaurant,Yungaburra,The Rest of Queensland,Entertainment,Hotels and Taverns,3,Meets Minimum Access Standards
+576,Nixon Park,Oxley,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+577,Norman Buchan Park,Bardon,Brisbane Suburbs,Outdoors,Parks,1,Not Accessible
+578,Norman Creek Common,Coorparoo,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+579,Norman Park Railway Station,Norman Park,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+580,Normanby Hotel,Red Hill,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+581,Northgate Railway Station,Northgate,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+582,Nosworthy Park,Corinda,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+583,Novotel Brisbane,City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,4,Meets Enhanced Access Standards
+584,Novotel Brisbane,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,4,Meets Enhanced Access Standards
+585,Novotel Brisbane,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Hotels and Taverns,4,Meets Enhanced Access Standards
+586,Nundah Library,Nundah,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+587,O'Callaghan Park,Zillmere,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+588,"Old Government House, QUT Gardens Point",City (Brisbane CBD),Brisbane Suburbs,Education,Universities,3,Meets Minimum Access Standards
+589,"Old Government House, QUT Gardens Point",City (Brisbane CBD),Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+590,"Old Government House, QUT Gardens Point",City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+591,Olsen's Capricorn Caverns,The Caves,The Rest of Queensland,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+592,Olsen's Capricorn Caverns,The Caves,The Rest of Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+593,Olsen's Capricorn Caverns,The Caves,The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+594,Optima Health Club,Clayfield,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,3,Meets Minimum Access Standards
+595,Oriel Park,Ascot,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+596,Orleigh Park,West End,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+597,Ormeau Railway Station,Ormeau,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+598,Ormiston Railway Station,Ormiston,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+599,Osprey House,Murrumba Downs,South East Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+600,Oxley Train Station,Oxley,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+601,Paddington Central,Paddington,Brisbane Suburbs,Business and Government,Office Buildings,4,Meets Enhanced Access Standards
+602,Paddington Central,Paddington,Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+603,Paddington Central,Paddington,Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+604,Paddington Central Shopping Centre,Paddington,Brisbane Suburbs,Business and Government,Banks,2,Independently Accessible With Difficulty
+605,Paddington Central Shopping Centre,Paddington,Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+606,Paddington Central Shopping Centre,Paddington,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+607,Paddington Tavern,Paddington,Brisbane Suburbs,Entertainment,Hotels and Taverns,3,Meets Minimum Access Standards
+608,Paddington Tavern,Paddington,Brisbane Suburbs,Entertainment,Hotels and Taverns,4,Meets Enhanced Access Standards
+609,Palace Barracks Cinema,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Cinemas,3,Meets Minimum Access Standards
+610,Palace Centro Cinemas,Fortitude Valley,Brisbane Suburbs,Entertainment,Cinemas,4,Meets Enhanced Access Standards
+611,Park Village Shopping Centre,Middle Park,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+612,Park Village Shopping Centre,Middle Park,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+613,Paterson Parade Park,Northgate,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+614,Performing Arts Complex,South Brisbane,Brisbane Suburbs,Entertainment,Theatres,3,Meets Minimum Access Standards
+615,Performing Arts Complex,South Brisbane,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+616,"Physical Science and Engineering Library,UQ",St Lucia,Brisbane Suburbs,Community,Libraries,2,Independently Accessible With Difficulty
+617,"Physical Science and Engineering Library,UQ",St Lucia,Brisbane Suburbs,Education,Universities,2,Independently Accessible With Difficulty
+618,Pick'n'Pay Hypermarket,Aspley,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+619,Pig 'N' Whistle,Indooroopilly,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+620,Pig 'N' Whistle,Indooroopilly,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+621,Pig 'N' Whistle,Indooroopilly,Brisbane Suburbs,Entertainment,Licensed Clubs,2,Independently Accessible With Difficulty
+622,Pinkenba Recreation Reserve,Pinkenba,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+623,Planetarium,Toowong,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+624,Plough Inn,South Bank,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+625,Plough Inn,South Bank,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+626,Police Station,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,2,Independently Accessible With Difficulty
+627,Post Office,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,4,Meets Enhanced Access Standards
+628,Post Office Square,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+629,Post Office Square,City (Brisbane CBD),Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+630,"Post Office, Toowong",Toowong,Brisbane Suburbs,Business and Government,Government Departments,2,Independently Accessible With Difficulty
+631,"Post Office, Toowong",Toowong,Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+632,Power House Theatre,New Farm,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+633,Power House Theatre,New Farm,Brisbane Suburbs,Entertainment,Theatres,3,Meets Minimum Access Standards
+634,"Priestley Building, UQ St Lucia campus",St Lucia,Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+635,"Priestley Building, UQ St Lucia campus",St Lucia,Brisbane Suburbs,Education,Other Educational Institutions,2,Independently Accessible With Difficulty
+636,"Priestley Building, UQ St Lucia campus",St Lucia,Brisbane Suburbs,Education,Universities,2,Independently Accessible With Difficulty
+637,Primrose Park,Wynnum,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+638,Princess Alexandra Hospital,Woolloongabba,Brisbane Suburbs,Medical Services,Hospitals,4,Meets Enhanced Access Standards
+639,Princess Alexandra Hospital Busway Station,Woolloongabba,Brisbane Suburbs,Transport,Buses and Coaches,4,Meets Enhanced Access Standards
+640,Qld Sport and Athletics Centre,Nathan,Brisbane Suburbs,Sport and Recreation,Sporting Venues,3,Meets Minimum Access Standards
+641,QRail Citytrain,City (Brisbane CBD),Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+642,Queen Adelaide Building,City (Brisbane CBD),Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+643,Queen St kerbside at Post Office Square,City (Brisbane CBD),Brisbane Suburbs,Parking / Passenger set down,Passenger set down space,2,Independently Accessible With Difficulty
+644,Queen St kerbside between Creek St and Wharf St,City (Brisbane CBD),Brisbane Suburbs,Parking / Passenger set down,Passenger set down space,2,Independently Accessible With Difficulty
+645,Queen Street Mall,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Venues,4,Meets Enhanced Access Standards
+646,Queen Street Mall,City (Brisbane CBD),Brisbane Suburbs,Shopping,Malls,4,Meets Enhanced Access Standards
+647,Queen Street Mall,City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,4,Meets Enhanced Access Standards
+648,Queen's Park Orchid House,Mackay,The Rest of Queensland,Outdoors,Parks,2,Independently Accessible With Difficulty
+649,Queen's Park Orchid House,Mackay,The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+650,Queens Plaza Shopping Mall,City (Brisbane CBD),Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+651,Queensland Art Gallery,South Bank,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+652,Queensland Art Gallery,South Brisbane,Brisbane Suburbs,Education,Other Educational Institutions,2,Independently Accessible With Difficulty
+653,Queensland Art Gallery,South Bank,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+654,Queensland Art Gallery,South Bank,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+655,Queensland Art Gallery - Southern Entrance,South Bank,Brisbane Suburbs,Community,Halls and Meeting Venues,2,Independently Accessible With Difficulty
+656,Queensland College of English,City (Brisbane CBD),Brisbane Suburbs,Education,Other Educational Institutions,2,Independently Accessible With Difficulty
+657,Queensland Health Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,3,Meets Minimum Access Standards
+658,Queensland Irish Association,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,3,Meets Minimum Access Standards
+659,Queensland Irish Association,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+660,Queensland Irish Association,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Licensed Clubs,3,Meets Minimum Access Standards
+661,Queensland Mineral & Energy Centre,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,3,Meets Minimum Access Standards
+662,Queensland Museum,South Bank,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+663,Queensland Museum,South Bank,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+664,Queensland Museum,South Brisbane,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+665,Queensland Performing Arts Centre (Meg),South Bank,Brisbane Suburbs,Entertainment,Theatres,3,Meets Minimum Access Standards
+666,Queensland Performing Arts Centre (Rachael),South Brisbane,Brisbane Suburbs,Entertainment,Theatres,3,Meets Minimum Access Standards
+667,Queensland Performing Arts Centre (Rachael),South Brisbane,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+668,Queensland Place Car Park,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+669,Queensland State library,South Bank,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+670,Queensland Tennis Centre,Tennyson,Brisbane Suburbs,Sport and Recreation,Sporting Venues,3,Meets Minimum Access Standards
+671,Queensland Tennis Centre,Tennyson,Brisbane Suburbs,Sport and Recreation,Sporting Venues,4,Meets Enhanced Access Standards
+672,Queensland Tertiary Admissions Centre (QTAC),Milton,Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+673,Queensland Transport Chermside,Chermside,Brisbane Suburbs,Business and Government,Government Departments,3,Meets Minimum Access Standards
+674,Queensland Transport Customer Service Centre,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,3,Meets Minimum Access Standards
+675,Queensland Wheelchair Repairs,Zillmere,Brisbane Suburbs,Disability Services,Wheelchair Hire and Repairs,4,Meets Enhanced Access Standards
+676,"QUT Gardens Point, V Block Library",City (Brisbane CBD),Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+677,"QUT Gardens Point, V Block Library",City (Brisbane CBD),Brisbane Suburbs,Education,Universities,3,Meets Minimum Access Standards
+678,QUT Kelvin Grove Library,Kelvin Grove,Brisbane Suburbs,Community,Libraries,2,Independently Accessible With Difficulty
+679,RACQ Wheelchair Breakdown Service,All Suburbs,Brisbane Suburbs,Disability Services,Wheelchair Hire and Repairs,4,Meets Enhanced Access Standards
+680,Rafting Ground Reserve,Pullenvale,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+681,Redbank Plaza,Redbank,South East Queensland,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+682,Reddacliff Place/ Brisbane Sqaure,City (Brisbane CBD),Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+683,"Refurbished Biological Sciences Library, UQ",St Lucia,Brisbane Suburbs,Education,Universities,4,Meets Enhanced Access Standards
+684,Regal Car Park,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,3,Meets Minimum Access Standards
+685,Regal Twin Cinemas,Graceville,Brisbane Suburbs,Entertainment,Cinemas,3,Meets Minimum Access Standards
+686,Regatta Ferry Terminal,Toowong,Brisbane Suburbs,Transport,Ferries,3,Meets Minimum Access Standards
+687,Regatta Hotel and Street Cafe,Toowong,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+688,Regatta Hotel and Street Cafe,Toowong,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+689,Regatta Hotel and Street Cafe,Toowong,Brisbane Suburbs,Entertainment,Venues,2,Independently Accessible With Difficulty
+690,"Registrar of Births, Deaths and Marriages",City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,4,Meets Enhanced Access Standards
+691,Reserve Bank of Australia,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,3,Meets Minimum Access Standards
+692,Restaurant 2,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+693,Riparian Plaza,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,4,Meets Enhanced Access Standards
+694,Ritzy Fish Graceville,Chelmer,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+695,River Plaza Park Inn International,South Bank,Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+696,River Plaza Park Inn International,South Bank,Brisbane Suburbs,Business and Government,Conference Venues,2,Independently Accessible With Difficulty
+697,River Plaza Park Inn International,South Bank,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+698,Riverbend Books and Teahouse,Bulimba,Brisbane Suburbs,Community,Restaurants & Cafes,1,Not Accessible
+699,Riverbend Books and Teahouse,Bulimba,Brisbane Suburbs,Entertainment,Venues,1,Not Accessible
+700,Riverside Bikeway,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+701,Riverside Bikeway,City (Brisbane CBD),Brisbane Suburbs,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+702,Riverside Bikeway,City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+703,Riverside Centre,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+704,Riverside Centre,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+705,Riverside Centre (Outdoors),City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+706,Riverside Centre (Outdoors),City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+707,Riverside Ferry Terminal,City (Brisbane CBD),Brisbane Suburbs,Transport,Ferries,2,Independently Accessible With Difficulty
+708,Riverstage,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Venues,2,Independently Accessible With Difficulty
+709,Robertson Gardens Plaza Hotel,Robertson,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+710,Robertson Park,Indooroopilly,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+711,Robina Railway Station,Robina,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+712,Rockhampton Botanic Gardens,Rockhampton,The Rest of Queensland,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+713,Rockhampton Botanic Gardens,Rockhampton,The Rest of Queensland,Outdoors,Parks,2,Independently Accessible With Difficulty
+714,Rockhampton Botanic Gardens,Rockhampton,The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+715,Rocklea Bunnings Warehouse,Rocklea,Brisbane Suburbs,Shopping,Individual Shop,3,Meets Minimum Access Standards
+716,Rocklea Markets,Rocklea,Brisbane Suburbs,Shopping,Markets,3,Meets Minimum Access Standards
+717,Rocks Riverside Park,Seventeen Mile Rocks,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+718,Roma Street Parklands,City (Brisbane CBD),Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+719,Roma Street Parklands,City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+720,Roma Street Railway Station,City (Brisbane CBD),Brisbane Suburbs,Transport,Railways,4,Meets Enhanced Access Standards
+721,Rosalie Village,Rosalie,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+722,Rosalie Village,Rosalie,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+723,Rosalie Village,Rosalie,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+724,Rosewood Railway Station,Rosewood,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+725,Rowes Arcade,City (Brisbane CBD),Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+726,Roy Harvey House,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,2,Independently Accessible With Difficulty
+727,Roy Harvey House,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+728,Roy Harvey Park,Stafford,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+729,Royal Brisband & Women's Hospital Busway (RBWH),Kelvin Grove,Brisbane Suburbs,Transport,Buses and Coaches,2,Independently Accessible With Difficulty
+730,Royal Brisbane and Women's Hospital Busway (RBWH),Kelvin Grove,Brisbane Suburbs,Transport,Buses and Coaches,2,Independently Accessible With Difficulty
+731,Royal Brisbane Women's Hospital,Bowen Hills,Brisbane Suburbs,Medical Services,Hospitals,4,Meets Enhanced Access Standards
+732,Royal Exchange Hotel,Toowong,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+733,Royal Exchange Hotel,Toowong,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+734,Royal Exchange Hotel,Toowong,Brisbane Suburbs,Entertainment,Licensed Clubs,2,Independently Accessible With Difficulty
+735,Salisbury Recreation Reserve,Salisbury,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+736,Samuel Griffith Place,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,4,Meets Enhanced Access Standards
+737,Sandgate PCYC,Sandgate,Brisbane Suburbs,Entertainment,Venues,2,Independently Accessible With Difficulty
+738,Sandgate PCYC,Sandgate,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,2,Independently Accessible With Difficulty
+739,Sandgate PCYC,Sandgate,Brisbane Suburbs,Sport and Recreation,Sporting Venues,2,Independently Accessible With Difficulty
+740,Sandgate Railway Station,Sandgate,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+741,Santos House (DSQ Headquarters at time of writing),City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+742,Sapphire Resort,West End,Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+743,Schonell Theatre,St Lucia,Brisbane Suburbs,Entertainment,Cinemas,3,Meets Minimum Access Standards
+744,Schonell Theatre,St Lucia,Brisbane Suburbs,Entertainment,Theatres,3,Meets Minimum Access Standards
+745,Schonell Twin Theatre,St Lucia,Brisbane Suburbs,Entertainment,Cinemas,3,Meets Minimum Access Standards
+746,Sebel Citigate Hotel,City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,4,Meets Enhanced Access Standards
+747,Sebel Citigate Hotel,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,4,Meets Enhanced Access Standards
+748,Sebel Citigate Hotel,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Hotels and Taverns,4,Meets Enhanced Access Standards
+749,SeeMore Scenic Tours,Crestmead,South East Queensland,Tourism and Travel,Tour Companies,4,Meets Enhanced Access Standards
+750,SeeMore Scenic Tours,Crestmead,South East Queensland,Tourism and Travel,Tourist Attractions,4,Meets Enhanced Access Standards
+751,SeeMore Scenic Tours,Crestmead,South East Queensland,Transport,Buses and Coaches,4,Meets Enhanced Access Standards
+752,Seventh Brigade Park,Geebung,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+753,Seville Park,Holland Park,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+754,Sherwood Central Shopping Centre,Sherwood,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+755,Sherwood Forest Park,Sherwood,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+756,Sherwood Park,Sherwood,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+757,Shorncliffe Railway Station,Shorncliffe,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+758,Siggi's Tearooms,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+759,Simpson's Playground,Graceville,Brisbane Suburbs,Outdoors,Parks,2,Independently Accessible With Difficulty
+760,Sir John Chandler Park,Indooroopilly,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+761,"Skyrail, Barron Falls Station",Kuranda,The Rest of Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+762,"Skyrail, Barron Falls Station",Kuranda,The Rest of Queensland,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+763,"Skyrail, Barron Falls Station",Kuranda,The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+764,"Skyrail, Cairns Terminus",Cairns (Smithfield),The Rest of Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+765,"Skyrail, Cairns Terminus",Cairns (Smithfield),The Rest of Queensland,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+766,"Skyrail, Cairns Terminus",Cairns (Smithfield),The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+767,"Skyrail, Kuranda Terminus",Kuranda,The Rest of Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+768,"Skyrail, Kuranda Terminus",Kuranda,The Rest of Queensland,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+769,"Skyrail, Kuranda Terminus",Kuranda,The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+770,"Skyrail, Red Peak Station",Cairns (Hinterland),The Rest of Queensland,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+771,"Skyrail, Red Peak Station",Cairns (Hinterland),The Rest of Queensland,Outdoors,Lookouts,2,Independently Accessible With Difficulty
+772,"Skyrail, Red Peak Station",Cairns (Hinterland),The Rest of Queensland,Tourism and Travel,Tourist Attractions,2,Independently Accessible With Difficulty
+773,Sleeman Sports Complex,Chandler,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+774,"Social Sciences and Humanities Library, UQ",St Lucia,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+775,"Social Sciences and Humanities Library, UQ",St Lucia,Brisbane Suburbs,Education,Universities,3,Meets Minimum Access Standards
+776,Somerset Dam,Esk,South East Queensland,Outdoors,Parks,2,Independently Accessible With Difficulty
+777,Somerset Dam,Esk,South East Queensland,Sport and Recreation,Fishing,2,Independently Accessible With Difficulty
+778,South Bank,South Bank,Brisbane Suburbs,Community,Restaurants & Cafes,1,Not Accessible
+779,South Bank,South Bank,Brisbane Suburbs,Outdoors,Parks,1,Not Accessible
+780,South Bank,South Bank,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,1,Not Accessible
+781,South Bank 5 Cinema Complex,South Bank,Brisbane Suburbs,Entertainment,Cinemas,4,Meets Enhanced Access Standards
+782,South Bank Markets,South Bank,Brisbane Suburbs,Shopping,Markets,3,Meets Minimum Access Standards
+783,South Bank Parklands,South Bank,Brisbane Suburbs,Community,Halls and Meeting Venues,3,Meets Minimum Access Standards
+784,South Bank Parklands,South Bank,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+785,South Bank Parklands,South Bank,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+786,South Bank Parklands,South Bank,Brisbane Suburbs,Transport,Buses and Coaches,3,Meets Minimum Access Standards
+787,South Bank Parklands Pool area,South Bank,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+788,South Bank Parklands Pool area,South Bank,Brisbane Suburbs,Sport and Recreation,Swimming Pools,3,Meets Minimum Access Standards
+789,South Bank Public Toilet,South Bank,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+790,South Brisbane Railway Station,South Brisbane,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+791,Spring Hill Marketplace,Spring Hill,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+792,St John's Anglican Cathedral,City (Brisbane CBD),Brisbane Suburbs,Community,Churches,3,Meets Minimum Access Standards
+793,St Stephen's Cathedral,City (Brisbane CBD),Brisbane Suburbs,Community,Churches,2,Independently Accessible With Difficulty
+794,St. Ives Shopping Centre. Goodna,Goodna,South East Queensland,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+795,Stafford City Shopping Centre,Stafford,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+796,Stanley Day Park,Bald Hills,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+797,Stanley Place near bus stops,South Brisbane,Brisbane Suburbs,Parking / Passenger set down,Passenger set down space,4,Meets Enhanced Access Standards
+798,Stanley Street Plaza,South Bank,Brisbane Suburbs,Business and Government,BCC Customer Service Centres,4,Meets Enhanced Access Standards
+799,Stanley Street Plaza,South Bank,Brisbane Suburbs,Business and Government,Government Departments,4,Meets Enhanced Access Standards
+800,Stanley Street Plaza,South Bank,Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+801,Stanley Street Plaza,South Bank,Brisbane Suburbs,Entertainment,Hotels and Taverns,4,Meets Enhanced Access Standards
+802,Stanley Street Plaza,South Bank,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,4,Meets Enhanced Access Standards
+803,Stanley Street Plaza,South Bank,Brisbane Suburbs,Transport,Carparks,4,Meets Enhanced Access Standards
+804,State Law Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,4,Meets Enhanced Access Standards
+805,Stimpson Park,Moorooka,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+806,Stones Corner Library,Stones Corner,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+807,Stones Corner Shopping Village,Stones Corner,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+808,Stones Corner Shopping Village,Stones Corner,Brisbane Suburbs,Shopping,Malls,2,Independently Accessible With Difficulty
+809,Stones Corner Shopping Village,Stones Corner,Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+810,"Student Services Centre, UQ",St Lucia,Brisbane Suburbs,Education,Universities,3,Meets Minimum Access Standards
+811,Subway,St Lucia,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+812,Subway,St Lucia,Brisbane Suburbs,Shopping,Individual Shop,2,Independently Accessible With Difficulty
+813,Subway Resturant St Lucia,St Lucia,Brisbane Suburbs,Community,Restaurants & Cafes,1,Not Accessible
+814,Suncorp Stadium,Milton,Brisbane Suburbs,Sport and Recreation,Sporting Venues,2,Independently Accessible With Difficulty
+815,Sunny Park Shopping Centre,Sunnybank,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+816,Sunnybank Hills Library,Sunnybank Hills,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+817,Sunnybank Hills Library,Sunnybank Hills,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+818,Sunnybank Hills Library,Sunnybank Hills,Brisbane Suburbs,Transport,Carparks,3,Meets Minimum Access Standards
+819,Sunnybank Hills Shoppingtown,Sunnybank Hills,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+820,Sunnybank Plaza 8 Cinemas,Sunnybank,Brisbane Suburbs,Entertainment,Cinemas,2,Independently Accessible With Difficulty
+821,Sunnybank Plaza Shopping Centre,Sunnybank,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+822,Super Cheap Auto,Chermside,Brisbane Suburbs,Shopping,Individual Shop,3,Meets Minimum Access Standards
+823,Supreme Court,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Law Courts,2,Independently Accessible With Difficulty
+824,T C Beirne Arcade,Fortitude Valley,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+825,T C Beirne Arcade,Fortitude Valley,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+826,Talking Book Library,Sydney,The Rest of Australia,Community,Libraries,4,Meets Enhanced Access Standards
+827,Taringa Play Ground,Taringa,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+828,Taringa Railway Station,Taringa,Brisbane Suburbs,Transport,Railways,1,Not Accessible
+829,Taringa Video (Gailey Fiveways Video),Taringa,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+830,Taxi Subsidy Scheme,Qld Wide Application,The Rest of Queensland,Transport,Taxis,1,Not Accessible
+831,Telstra Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,4,Meets Enhanced Access Standards
+832,Telstra Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,4,Meets Enhanced Access Standards
+833,Telstra Building,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+834,Teralba Park,Everton Park,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+835,test,Acacia Ridge,Brisbane Suburbs,Community,Restaurants & Cafes,1,Not Accessible
+836,Thagoona Railway Station,Thagoona,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+837,The Barracks,Paddington,Brisbane Suburbs,Shopping,Malls,2,Independently Accessible With Difficulty
+838,The Barracks,Paddington,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+839,The Caxton Hotel,Paddington,Brisbane Suburbs,Entertainment,Hotels and Taverns,3,Meets Minimum Access Standards
+840,The Chermside apartments,Chermside,Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+841,The Coffee Club,Ascot,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+842,The Coffee Club Park Road,Milton,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+843,The David Longland Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Government Departments,3,Meets Minimum Access Standards
+844,The David Longland Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,3,Meets Minimum Access Standards
+845,The Emporium,Fortitude Valley,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+846,The Emporium,Fortitude Valley,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+847,The Fishery,Milton,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+848,The Gap Village Shopping Centre,The Gap,Brisbane Suburbs,Medical Services,Medical Centres,2,Independently Accessible With Difficulty
+849,The Gap Village Shopping Centre,The Gap,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+850,"The Good Guys, Lutwyche",Lutwyche,Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+851,The Little Larder,New Farm,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+852,The Marque (formerly The Chifley on George),City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+853,The Marque (formerly The Chifley on George),City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,2,Independently Accessible With Difficulty
+854,The Marque (formerly The Chifley on George),City (Brisbane CBD),Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+855,The Old Museum,Bowen Hills,Brisbane Suburbs,Entertainment,Theatres,3,Meets Minimum Access Standards
+856,The Old Museum,Bowen Hills,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+857,The Royal Children's Hospital,Kelvin Grove,Brisbane Suburbs,Medical Services,Hospitals,4,Meets Enhanced Access Standards
+858,The Second Degree Bar,St Lucia,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+859,The Second Degree Bar,St Lucia,Brisbane Suburbs,Entertainment,Licensed Clubs,3,Meets Minimum Access Standards
+860,"The Summit Resturant, Mt Coot-ha",Toowong,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+861,The Valley Hotel,Fortitude Valley,Brisbane Suburbs,Entertainment,Hotels and Taverns,2,Independently Accessible With Difficulty
+862,The Village Shopping Centre,Upper Mt Gravatt,Brisbane Suburbs,Shopping,Malls,3,Meets Minimum Access Standards
+863,"Therapies Building , UQ",St Lucia,Brisbane Suburbs,Education,Universities,3,Meets Minimum Access Standards
+864,Thorneside Railway Station,Thorneside,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+865,Ticketek - Myer Centre,City (Brisbane CBD),Brisbane Suburbs,Entertainment,Venues,1,Not Accessible
+866,Ticketek - Myer Centre,City (Brisbane CBD),Brisbane Suburbs,Shopping,Individual Shop,1,Not Accessible
+867,Ticketek - Myer Centre,City (Brisbane CBD),Brisbane Suburbs,Sport and Recreation,Sporting Venues,1,Not Accessible
+868,Time square shopping centre and Sunnybank McDonald,Sunnybank,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+869,Time square shopping centre and Sunnybank McDonald,Sunnybank,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+870,Tinchi Tamba Park (Deep Water Bend Reserve),Bracken Ridge,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,3,Meets Minimum Access Standards
+871,Tinchi Tamba Park (Deep Water Bend Reserve),Bracken Ridge,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+872,Tinchi Tamba Park (Deep Water Bend Reserve),Bracken Ridge,Brisbane Suburbs,Sport and Recreation,Fishing,3,Meets Minimum Access Standards
+873,Tingalpa Creek Reserve,Capalaba West,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,3,Meets Minimum Access Standards
+874,Tingalpa Creek Reserve,Capalaba West,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+875,Tognini’s Café Deli,Milton,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+876,Toohey Forest Bush Walk,Nathan,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,2,Independently Accessible With Difficulty
+877,Toombul Railway Station,Toombul,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+878,Toowong Library,Toowong,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+879,Toowong Medical Centre,Toowong,Brisbane Suburbs,Medical Services,Medical Centres,3,Meets Minimum Access Standards
+880,Toowong Railway Station,Toowong,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+881,Toowong Village Shopping Centre,Toowong,Brisbane Suburbs,Business and Government,Banks,3,Meets Minimum Access Standards
+882,Toowong Village Shopping Centre,Toowong,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+883,Toowong Village Shopping Centre,Toowong,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+884,Treasury Casino,City (Brisbane CBD),Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+885,Treasury Casino,City (Brisbane CBD),Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+886,Triplecee Buranda,Buranda,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+887,Tropical Caravan Park,Mackay,The Rest of Queensland,Accommodation,Accommodation,2,Independently Accessible With Difficulty
+888,U.Q Sports Centre,St Lucia,Brisbane Suburbs,Education,Universities,2,Independently Accessible With Difficulty
+889,U.Q Sports Centre,St Lucia,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,2,Independently Accessible With Difficulty
+890,"University Art Museum, Charles and Mary Emelia Mayne Centre",St Lucia,Brisbane Suburbs,Education,Other Educational Institutions,3,Meets Minimum Access Standards
+891,"University Art Museum, Charles and Mary Emelia Mayne Centre",St Lucia,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+892,University of Queensland Biology Refectory,St Lucia,Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+893,University of Queensland Biology Refectory,St Lucia,Brisbane Suburbs,Education,Universities,4,Meets Enhanced Access Standards
+894,University of Queensland Swimming Pool,St Lucia,Brisbane Suburbs,Sport and Recreation,Swimming Pools,4,Meets Enhanced Access Standards
+895,UQ Car Park off Sir William MacGreggor Drive,St Lucia,Brisbane Suburbs,Education,Universities,2,Independently Accessible With Difficulty
+896,Valley Metro,Fortitude Valley,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+897,Valley Pool,Fortitude Valley,Brisbane Suburbs,Sport and Recreation,Swimming Pools,1,Not Accessible
+898,Vegetarian eatery,St Lucia,Brisbane Suburbs,Community,Restaurants & Cafes,2,Independently Accessible With Difficulty
+899,Victoria Point Cinemas,Victoria Point,South East Queensland,Entertainment,Cinemas,3,Meets Minimum Access Standards
+900,Virginia Palms International Motel,Boondall,Brisbane Suburbs,Accommodation,Accommodation,1,Not Accessible
+901,Virginia Palms International Motel,Boondall,Brisbane Suburbs,Business and Government,Conference Venues,1,Not Accessible
+902,Virginia Palms International Motel,Boondall,Brisbane Suburbs,Community,Restaurants & Cafes,1,Not Accessible
+903,Virginia Recreation Reserve,Virginia,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+904,"Visible Ink, Valley",Fortitude Valley,Brisbane Suburbs,Business and Government,Conference Venues,2,Independently Accessible With Difficulty
+905,"Visible Ink, Valley",Fortitude Valley,Brisbane Suburbs,Community,Halls and Meeting Venues,2,Independently Accessible With Difficulty
+906,"Visible Ink, Valley",Fortitude Valley,Brisbane Suburbs,Entertainment,Venues,2,Independently Accessible With Difficulty
+907,Vulture Street Railway Station,South Brisbane,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+908,Wacol Railway Station,Wacol,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+909,Walkabout Creek Wildlife Centre,The Gap,Brisbane Suburbs,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+910,Walkabout Creek Wildlife Centre,The Gap,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,3,Meets Minimum Access Standards
+911,Walkabout Creek Wildlife Centre,The Gap,Brisbane Suburbs,Outdoors,Lookouts,3,Meets Minimum Access Standards
+912,Walkabout Creek Wildlife Centre,The Gap,Brisbane Suburbs,Outdoors,National and State Forests,3,Meets Minimum Access Standards
+913,Walkabout Creek Wildlife Centre,The Gap,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+914,Walkabout Creek Wildlife Centre,The Gap,Brisbane Suburbs,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+915,Walkway from Redcliffe Jetty to Suttons Beach,Redcliffe,South East Queensland,Community,Restaurants & Cafes,3,Meets Minimum Access Standards
+916,Walkway from Redcliffe Jetty to Suttons Beach,Redcliffe,South East Queensland,Shopping,Markets,3,Meets Minimum Access Standards
+917,Walkway from Redcliffe Jetty to Suttons Beach,Redcliffe,South East Queensland,Tourism and Travel,Tourist Attractions,3,Meets Minimum Access Standards
+918,Walloon Railway Station,Walloon,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+919,Walton Bridge Reserve,The Gap,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+920,Warilda Conference Centre,Wooloowin,Brisbane Suburbs,Business and Government,Conference Venues,2,Independently Accessible With Difficulty
+921,Waterfront Place,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,2,Independently Accessible With Difficulty
+922,Wellington Point Lookout,Wellington Point,South East Queensland,Outdoors,Lookouts,3,Meets Minimum Access Standards
+923,Wellington Point Railway Station,Wellington Point,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+924,West End Library,West End,Brisbane Suburbs,Community,Libraries,1,Not Accessible
+925,West End Markets,West End,Brisbane Suburbs,Shopping,Markets,2,Independently Accessible With Difficulty
+926,Western Districts Community Justice Group,Richlands,Brisbane Suburbs,Business and Government,Law Courts,3,Meets Minimum Access Standards
+927,Westfield Chermside Shopping Centre,Chermside,Brisbane Suburbs,Shopping,Malls,3,Meets Minimum Access Standards
+928,Westfield Chermside Shopping Centre,Chermside,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+929,Westfield Shoppingtown Indooroopilly,Indooroopilly,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+930,Westfield Shoppingtown Toombul,Toombul,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+931,Westfield Strathpine Shopping Centre,Strathpine,South East Queensland,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+932,Wheelabout Van Rentals and Sales,Many Locations,The Rest of Queensland,Tourism and Travel,Airports,4,Meets Enhanced Access Standards
+933,Wheelabout Van Rentals and Sales,Many Locations,The Rest of Queensland,Transport,Rental Cars,4,Meets Enhanced Access Standards
+934,Whites Hill Reserve,Camp Hill,Brisbane Suburbs,Outdoors,Parks,4,Meets Enhanced Access Standards
+935,WHK Horwath Building,City (Brisbane CBD),Brisbane Suburbs,Business and Government,Office Buildings,3,Meets Minimum Access Standards
+936,Wickham Terrace Car Park,City (Brisbane CBD),Brisbane Suburbs,Transport,Carparks,2,Independently Accessible With Difficulty
+937,Willowbank Raceway,Willowbank,South East Queensland,Sport and Recreation,Sporting Venues,2,Independently Accessible With Difficulty
+938,Windsor Railway Station,Windsor,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+939,Windward Passage,Caloundra,South East Queensland,Accommodation,Accommodation,3,Meets Minimum Access Standards
+940,Wintergarden,City (Brisbane CBD),Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+941,Wintergarden Food Court,City (Brisbane CBD),Brisbane Suburbs,Shopping,Malls,2,Independently Accessible With Difficulty
+942,Woodridge Railway Station,Woodridge,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+943,Woolcock Park,Red Hill,Brisbane Suburbs,Outdoors,Parks,2,Independently Accessible With Difficulty
+944,Woolworths - Ibis Central,Sandgate,Brisbane Suburbs,Community,Restaurants & Cafes,4,Meets Enhanced Access Standards
+945,Woolworths - Ibis Central,Sandgate,Brisbane Suburbs,Shopping,Malls,4,Meets Enhanced Access Standards
+946,Woolworths Ashgrove,Ashgrove,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+947,Woolworths at Birkdale Fair Shopping Centre,Birkdale,South East Queensland,Shopping,Individual Shop,3,Meets Minimum Access Standards
+948,Woolworths at Birkdale Fair Shopping Centre,Birkdale,South East Queensland,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+949,Woolworths at Birkdale Fair Shopping Centre,Birkdale,South East Queensland,Transport,Carparks,3,Meets Minimum Access Standards
+950,Woolworths at Birkdale Fair Shopping Centre,Birkdale,South East Queensland,Transport,Taxis,3,Meets Minimum Access Standards
+951,Woolworths Bulimba,Bulimba,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+952,Woolworths Indooroopilly,Indooroopilly,Brisbane Suburbs,Shopping,Individual Shop,2,Independently Accessible With Difficulty
+953,Woolworths Indooroopilly,Indooroopilly,Brisbane Suburbs,Shopping,Shopping Centres,2,Independently Accessible With Difficulty
+954,Woolworths Macarthur,City (Brisbane CBD),Brisbane Suburbs,Shopping,Malls,4,Meets Enhanced Access Standards
+955,Woolworths Metro Ascot,Ascot,Brisbane Suburbs,Shopping,Individual Shop,3,Meets Minimum Access Standards
+956,Woolworths Nundah Village,Nundah,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+957,"Woolworths, Toowong",Toowong,Brisbane Suburbs,Shopping,Markets,3,Meets Minimum Access Standards
+958,"Woolworths, Toowong",Toowong,Brisbane Suburbs,Shopping,Shopping Centres,3,Meets Minimum Access Standards
+959,Wulkuraka Railway Station,Wulkuraka,South East Queensland,Transport,Railways,3,Meets Minimum Access Standards
+960,Wynnum Bandstand Park,Wynnum,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+961,Wynnum Central Railway Station,Wynnum,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+962,Wynnum Civic Centre,Wynnum,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+963,Wynnum Golf Club,Wynnum,Brisbane Suburbs,Business and Government,Conference Venues,4,Meets Enhanced Access Standards
+964,Wynnum Golf Club,Wynnum,Brisbane Suburbs,Entertainment,Licensed Clubs,4,Meets Enhanced Access Standards
+965,Wynnum Golf Club,Wynnum,Brisbane Suburbs,Sport and Recreation,Golf Clubs,4,Meets Enhanced Access Standards
+966,Wynnum North Mangrove Forest Walk,Wynnum,Brisbane Suburbs,Outdoors,Bushwalks & Bushland Centres,3,Meets Minimum Access Standards
+967,Wynnum North Railway Station,Wynnum,Brisbane Suburbs,Transport,Railways,3,Meets Minimum Access Standards
+968,Wynnum PCYC,Wynnum,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,2,Independently Accessible With Difficulty
+969,Wynnum PCYC,Wynnum,Brisbane Suburbs,Sport and Recreation,Sporting Venues,2,Independently Accessible With Difficulty
+970,Wynnum PCYC,Wynnum,Brisbane Suburbs,Sport and Recreation,Swimming Pools,2,Independently Accessible With Difficulty
+971,Wynnum Plaza,Wynnum,Brisbane Suburbs,Shopping,Shopping Centres,4,Meets Enhanced Access Standards
+972,Wynnum Wading Pool,Wynnum,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+973,Wynnum Wading Pool,Wynnum,Brisbane Suburbs,Sport and Recreation,Fishing,3,Meets Minimum Access Standards
+974,Wynnum Wading Pool,Wynnum,Brisbane Suburbs,Sport and Recreation,Swimming Pools,3,Meets Minimum Access Standards
+975,Yandina Picnic Ground,Mansfield,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+976,Yeronga Park,Yeronga,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+977,Yeronga Pool,Yeronga,Brisbane Suburbs,Sport and Recreation,Swimming Pools,3,Meets Minimum Access Standards
+978,Yimbun Park,Macgregor,Brisbane Suburbs,Outdoors,Parks,3,Meets Minimum Access Standards
+979,"YWCA, City",City (Brisbane CBD),Brisbane Suburbs,Accommodation,Accommodation,3,Meets Minimum Access Standards
+980,"YWCA, City",City (Brisbane CBD),Brisbane Suburbs,Business and Government,Conference Venues,3,Meets Minimum Access Standards
+981,Zillmere Library,Zillmere,Brisbane Suburbs,Community,Libraries,3,Meets Minimum Access Standards
+982,Zillmere PCYC,Zillmere,Brisbane Suburbs,Entertainment,Venues,3,Meets Minimum Access Standards
+983,Zillmere PCYC,Zillmere,Brisbane Suburbs,Sport and Recreation,Leisure And Fitness Centres,3,Meets Minimum Access Standards
+984,Zillmere PCYC,Zillmere,Brisbane Suburbs,Sport and Recreation,Sporting Venues,3,Meets Minimum Access Standards

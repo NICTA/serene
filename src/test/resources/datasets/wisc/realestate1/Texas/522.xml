@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Liza Albrizzi</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<email>albrizzmoore@earthlink.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21500</id>
+<mls>9135497</mls>
+<house_location>1007 Alta Vista Court
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$349,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>3</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>Elegant home on a cul-de-sac. Owner's suite down, has two separate baths; smaller has shower, larger has tub and separate shower. Three bedrooms and one living area up; grande staircase. Two other living areas. Wood ceilings. Stainless steel appliances.  Breakfast bar and island. Central vac. Lots of built-ins. Back has three covered porches. Long list of amenities: library/study, extra interior storage room, self-cleaning oven, microwave, walk-in pantry, ceramic tile and wood floors, heatpump, ceiling fans. A &amp;quot;must see&amp;quot;.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Sierra Estates</sub-division>
+<approx_size_sqft>4000</approx_size_sqft>
+<stories>2</stories>
+<year_built>1996</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Luxury Home in Prestigious Location</item>
+<item>Gutters, sprinklers, side parking</item>
+<item>Wet bar, skylites, deco lighting</item>
+<item>Bedroom sitting area, garden tub</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

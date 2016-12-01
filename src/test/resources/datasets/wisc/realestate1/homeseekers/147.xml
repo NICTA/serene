@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1986 has 4 bedroom(s), 2 bath(s) and
+approximately 1496 square feet of living area.</house_description>
+
+<agent_name>Marie Winfrey</agent_name>
+<direct>303-671-1392</direct>
+<office>303-755-6611</office>
+<firm_name>Coldwellbanker Moore</firm_name>
+<phone>303-755-6611</phone>
+<fax>303-755-0312</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,999</list_price>
+<location>14542 E 47Th Av</location>
+<neighborhood>Deer Run/Montbello</neighborhood>
+<mls>377461</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1496 (approx)</square_feet>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>10020 BRAXTON</house_location>
+<price>$187,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>LOT #46</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>249743</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>K Y BUDDE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM*FABULOUS 4 BEDRM 2.5 BA 2 STORY*UPGRADED FRATURES INCLUDE
+GAS MARBLE FIREPL*CEILING FANS*HARDWD KIT &amp; ENTRANCE*SECURITY
+SYS*CEREMIC TILE 1ST FLR LAUNDRY &amp; FAMILY RM *MODEL OPEN SAT/SUN
+2-4PM*525-5787 DETAILS</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>108 x 149</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>9 X 9</dimension><level>2</level></bedroom_4>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<family><dimension>19 X 13</dimension><level>1</level></family>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>2</level></master>
+
+<directions>I-75 SO TO FLORENCE/UNION EXIT GO SOUTH ON 42 TO
+LEFT ON BRAXTON-RD PAST KROGERS</directions>
+</house_listing>
+
+
+

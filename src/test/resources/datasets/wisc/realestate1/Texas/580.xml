@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Joe</email>
+</firm_information>
+
+<agent_information>
+<name>Powers</name>
+<office>(281)403-6500</office>
+<fax>(281)499-7379</fax>
+<mobile>(281)685-4545</mobile>
+<email>jpowers@argolink.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14308</id>
+<mls>193852</mls>
+<house_location>3226 LAKEFIELD
+in South Sugar Land, TEXAS 77479</house_location>
+<county>Fort Bend</county>
+<price>$144,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>4/2.5/2 FIRST COLONY / MASTER UP /FORMALS /  DEN OFF KITCHEN / POOLPOOL / LG. BACKYARD / RECENT PAINT IN AND OUT / FORTBEND SCHOOLSSCREENED IN PATIO / CLEMENTS HS. / READY NOW!!!! 2376 sq.ft APPDISTSUBD LAKEFIELD  1-888 858 9905 / jpowers@argolink.net   joe powers</house_description>
+
+<school_district>Fort Bend</school_district>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>POOL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

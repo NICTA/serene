@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1983 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include master bedroom. Features include private
+pool, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Phillip S. Homer</agent_name>
+<office>480-948-0550</office>
+<firm_name>John Hall &amp; Associates</firm_name>
+<phone>480-948-0550</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$118,500</list_price>
+<location>Phoenix, AZ 85024</location>
+<mls>1460675</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1983</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Electric</heating>
+<fireplace>Freestanding, Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher,Garage Door Opener, Great Room, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

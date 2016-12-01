@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1949 has 2 bedroom(s), 2 bath(s) and
+approximately 1202 square feet of living area.</house_description>
+
+<agent_name>Gregory Geller</agent_name>
+<direct>303-875-4289</direct>
+<office>303-520-9000</office>
+<firm_name>Ridgemoor Realty</firm_name>
+<phone>303-520-9000</phone>
+<fax>303-221-5516</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$224,000</list_price>
+<location>1580 S Garfield St</location>
+<neighborhood>South Belcaro.Cory Merrill</neighborhood>
+<mls>346842</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1202 (approx)</square_feet>
+<year_built>1949</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

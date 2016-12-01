@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>80 JOHNSON</house_location>
+<price>$169,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>SPARTA</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>249931</mls>
+<house_type>Farms</house_type>
+<firm>D G SCHELL &amp; ASSOCIATES</firm>
+<firm_phone>(606) 331-4888</firm_phone>
+<agent>DARREL SCHELL JR</agent>
+<agent_phone>(606) 331-4888</agent_phone>
+<house_description>16 ACRE MINI-FARM W/CUSTOM LOG HOME, BARN &amp; 2 PONDS. HOME FTRS EXPOSED
+LOG WALLS, LG ROOMS, FUNCT FLOOR PLAN, LOADS OF CHARACTER. BARN HAS 5
+STALLS, TACK ROOM, WALK-THRU PADDOCK, ELEC&amp;H20. ALSO A SW ON PROP FOR
+RENTAL. NICE!</house_description>
+<construction>Log</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>2</level></bedroom_3>
+<dining><dimension>16 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>16 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 10</dimension><level>1</level></laundry>
+<living><dimension>23 X 15</dimension><level>1</level></living>
+<master><dimension>16 X 14</dimension><level>1</level></master>
+
+<directions>I-71 S TO GLENCOE\OWENTON EXIT*R ON 127*R ON HWY
+455(JOHNSON)*PROP 2 MI ON R</directions>
+</house_listing>
+
+
+

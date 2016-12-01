@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1979 has 2 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2700 square feet of living
+area. Rooms include den, dining room, bonus room, master bedroom.
+Features include view, fireplace, air conditioning.</house_description>
+
+<agent_name>Rebecca Parinello</agent_name>
+<direct>520-906-2157</direct>
+<office>520-297-1186</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-297-1186</phone>
+<fax>520-297-1005</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$450,000</list_price>
+<location>8131 N Fairway View Dr</location>
+<mls>9919895</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2700 (approx)</square_feet>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

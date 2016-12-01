@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>55 LUMLEY</house_location>
+<price>$106,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>FT THOMAS I</school_dist>
+<mls>248868</mls>
+<house_type>Single Family</house_type>
+<firm>DOUGLAS CULL &amp; COMPANY INC.</firm>
+<firm_phone>(606) 441-3070</firm_phone>
+<agent>DAVID S NEWMAN</agent>
+<agent_phone>(606) 441-3070</agent_phone>
+<house_description>THIS 2BDRM BRICK W/LARGE CLOSETS IS LOCATED IN THE CENTER OF FT THOS
+ON A DEEP SEMI-WOODED LOT. THIS LOVELY HOME HAS NEWER KITCHEN CABINETS
+AND A WOOD BURNING FIRE PLACE WITH IMMEDIATE OCCUPANCY. STOP BY &amp;
+CHECK IT OUT!</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50 x 237</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNKNOWN</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<living><dimension>25 X 11</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>2</level></master>
+
+<directions>N FT THOMAS TO MILLER AVE TO L ON SHAW TO L ON
+LUMLEY AVE</directions>
+</house_listing>
+
+
+

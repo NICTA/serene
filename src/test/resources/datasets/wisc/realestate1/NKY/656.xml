@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>1315 HOLMAN AVENUE</house_location>
+<price>$62,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248917</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>HELEN BOLANOS</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>GREAT OLDER HOME, MOVE IN CONDITION,HARDWOOD FLOORS.COVERED PORCHE
+W/SWING LEVEL FENCED YARD W/ABOVE GROUND POOL AND SURROUNDING
+DECK,NEWER ROOF AON HOME WARRANTY</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>13 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>2</level></master>
+
+<directions>12TH ST TO SOUTH ON HOLMAN</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<firm_information>
+<name>Hulsey/Burton Real Estate, Inc.</name>
+<location>119 Avenue G Suite 102 Marble Falls, TX 78654</location>
+<office>(830)693-5758</office>
+<toll_free>(800)638-1804</toll_free>
+<fax>(830)693-5104</fax>
+<email>hbre@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Janet Pennington</name>
+<office>(830)693-5758</office>
+<fax>(830)693-5104</fax>
+<email>hbre@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19271</id>
+<mls>53777</mls>
+<house_location>916 Colorado
+Marble Falls, TEXAS</house_location>
+<county>Burnet</county>
+<price>$55,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Small house with great potential. Can see lake from yard. Needs a fresh look, but is a good buy.</house_description>
+
+<school_district>Marble Falls</school_district>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Lake view.</item>
+<item>Good starter home</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

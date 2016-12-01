@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bobbye Hensley</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net or bobbye@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13672</id>
+<mls></mls>
+<house_location>608 SOMBRERO
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$210,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT BUY ON GOLF COURSE HOME!  VIEW OF GOLF COURSE AND POND.  NEEDS SOME TLC - JUST MAKES THE PRICE BETTER!  MOON ROOM OVERLOOKING GOLF COURSE.  BONUS ROOM - COULD BE OFFICE, STUDY OR EVEN ANOTHER BEDROOM.  SPRINKLER SYSTEM.  NICE LANDSCAPING.  COVERED PORCHES.  ON CORNER LOT WITH CIRCULAR DRIVEWAY.  ENERGY EFFICIENT EARTH STOVE.  DON&amp;#8217;T MISS THIS ONE!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay Proper</sub-division>
+<stories>2</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>GREAT PRICE!</item>
+<item>GOLF COURSE HOME.</item>
+<item>CORNER LOT.</item>
+<item>LOTS OF SPACE.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

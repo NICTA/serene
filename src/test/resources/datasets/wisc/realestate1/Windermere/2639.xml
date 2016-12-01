@@ -1,0 +1,34 @@
+<house_listing>
+<price>$255,000</price>
+<mls_id_number>163016</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>5</bedrooms>
+<bathrooms>2.10</bathrooms>
+<sqft>2160</sqft>
+<year_built>1997</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 3 Car(s)</garage>
+<lot_size>0.26        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$3,147</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Deck,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>VERIFY</elementary>
+<middle_school>LANE</middle_school>
+<high_school>MARSHALL</high_school>
+</schools>
+
+</house_listing>
+
+
+

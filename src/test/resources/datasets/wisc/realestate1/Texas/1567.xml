@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Joyce Sterling</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 122</voice_mail>
+<mobile>(512)567-6460</mobile>
+<email>joyces@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20603</id>
+<mls>524958</mls>
+<house_location>10399 FM 2325
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$595,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful ranch property with big hill country views. 20 - 25&amp;#8217;x100&amp;#8217; pens. 50x50 barn. Over 1000 feet county road frontage. Unrestricted property can be subdivided. Owner very motivated. Bring all offers.</house_description>
+
+<school_district>Blanco I S D</school_district>
+<approx_size_sqft>2300</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>101.24</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

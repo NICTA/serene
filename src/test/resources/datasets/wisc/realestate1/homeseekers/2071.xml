@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1948 has 2 bedroom(s), 2 bath(s) and
+approximately 1410 square feet of living area.</house_description>
+
+<agent_name>Sandy Terhark</agent_name>
+<direct>303-660-1284</direct>
+<office>303-779-7979</office>
+<firm_name>Mb/Liberty Assoc.</firm_name>
+<phone>303-779-7979</phone>
+<fax>303-773-1664</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,500</list_price>
+<location>1545 Utica St</location>
+<neighborhood>Colfax W</neighborhood>
+<mls>385846</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1410 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

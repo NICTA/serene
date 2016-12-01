@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Town &amp; Country Properties</name>
+<location>602 North Llano Street Fredericksburg, TX 78624</location>
+<office>(830)990-8708</office>
+<toll_free>(877)996-0099</toll_free>
+<fax>(830)990-8906</fax>
+<email>tcprop@fbg.net</email>
+</firm_information>
+
+<agent_information>
+<name>Beth Von Ruff</name>
+<office>(830)990-8708</office>
+<fax>(830)990-8906</fax>
+<email>bvonruff@fbg.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>4478</id>
+<mls>11208</mls>
+<house_location>Dinosaur Ranch Road
+Fredericksburg, TEXAS</house_location>
+<county>Gillespie</county>
+<price>$329,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Spacious California style home situated on 26.78 acres, 11 miles west of Fredericksburg.  Expansive deck overlooks lovely views of year-round creek and wildlife.  Master bedroom suite features his and her bath rooms and closets.  Privacy gates with number entry, complete perimeter and cross-fencing of property, and damned road crossing of creek are some of the amenities this lovely property offers.</house_description>
+
+<school_district>Fredericksburg Isd</school_district>
+<sub-division>Dinosaur Ranch Road</sub-division>
+<approx_size_sqft>3517</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>26.78</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>New 1997 pump for water well.</item>
+<item>16 double sliding glass doors &amp; 6 skylights.</item>
+<item>Den, breakfast room, and office enhance the home.</item>
+<item>Entire second level available for expansion.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

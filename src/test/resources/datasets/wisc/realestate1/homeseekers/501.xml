@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>To be built! Nehemiah program + closing cost assist. Corner lot. Easy
+floor plan. Choose carpet, vinyl and cabinets from seller selection.</house_description>
+
+<agent_name>Lucy Gaines</agent_name>
+<direct>456-1406</direct>
+<office>757-480-2121</office>
+<firm_name>C 21-Nachman Realty</firm_name>
+<phone>757-480-2121</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$73,500</list_price>
+<location>Norfolk, VA 23509</location>
+<mls>0000617</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1185 (approx)</square_feet>
+<lot_size>37 X 87 1/2</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+<location>Corner</location>
+<patio>Open Porch</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Ceiling Fan(s), Ranch Style, Walk-InCloset(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

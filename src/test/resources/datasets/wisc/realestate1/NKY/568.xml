@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>307 GRANT CT</house_location>
+<price>$74,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247670</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>RON PARSONS</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>NEW KITCHEN AND BATH! HUGE FAMILY ROOM WITH WOOD STOVE. TRACK LIGHTING
+IN KITCHEN AND WHITE CABINETS.</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit,Wall Unit</cooling>
+<fireplace>Gas,Inoperable,Stove</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>14 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>14 X 12</dimension><level>1</level></dining>
+<family><dimension>24 X 18</dimension><level>1</level></family>
+<kitchen><dimension>9 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 8</dimension><level>L</level></laundry>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>17 X 10</dimension><level>2</level></master>
+
+<directions>WINSTON TO E SOUTHERN TO L ON PARK R ON GRANT</directions>
+</house_listing>
+
+
+

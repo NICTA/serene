@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>29 RACE</house_location>
+<price>$74,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>238165</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>GREG HICKS</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>MUST SEE TO BELIEVE INTERIOR NOT TO MENTION THE LARGE DECKS LEADING TO
+POOL &amp; FLOWER GARDEN WHICH OVERLOOKS PARK &amp; LAKE ONLY MIN. TO I-75
+CLOSE TO SHOPPING YET ON QUIET STREET.</house_description>
+<construction>Wood</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>rectangle</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>12 X 17</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 6</dimension><level>1</level></laundry>
+<living><dimension>15 X 18</dimension><level>1</level></living>
+<master><dimension>13 X 16</dimension><level>2</level></master>
+
+<directions>I-75 S, EXIT 159 DRY RIDGE EXIT L THEN R ON RACE
+ST., PROP ON LEFT</directions>
+</house_listing>
+
+
+

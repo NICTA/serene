@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Barbara Latimer "Dedicated to</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 107</voice_mail>
+<mobile>(512)784-0297</mobile>
+<email>barbara@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21389</id>
+<mls></mls>
+<house_location>304 Rolling Oaks Drive
+Driftwood, TEXAS 78619</house_location>
+<county>Hays</county>
+<price>$95,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>French doors open to a lovely covered porch overlooking 1.2 pretty acres. This one bedroom, 2 bath, 2 year old home is light and bright and features wood floors, lots of storage and a large master suite with vaulted ceiling.</house_description>
+
+<school_district>Wimberley</school_district>
+<sub-division>Rolling Oaks</sub-division>
+<approx_size_sqft>1152</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1.19</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

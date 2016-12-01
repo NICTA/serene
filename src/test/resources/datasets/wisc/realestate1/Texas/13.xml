@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Barbara McRoberts</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>bamcrobert@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19900</id>
+<mls>14884</mls>
+<house_location>5001 Bellino
+Harlingen, TEXAS 78552</house_location>
+<county>Cameron</county>
+<price>$295,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Mexican Colonial that is &amp;quot;one of a kind&amp;quot;.  Tile roof, cantera stone and talavera tile. New carpet and paint. Shows beautiful!</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Palm Valley</sub-division>
+<approx_size_sqft>3100</approx_size_sqft>
+<stories>2</stories>
+<year_built>1989</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Mexican Colonial</item>
+<item>Pool &amp; covered patio</item>
+<item>Wet bar and 2 fireplaces</item>
+<item>Saltillo tile driveway</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

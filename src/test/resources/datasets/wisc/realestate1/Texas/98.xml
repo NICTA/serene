@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>John Moore</name>
+<office>(512)833-3583</office>
+<fax>(512)834-2234</fax>
+<mobile>(512)970-8613</mobile>
+<email>johnmoore@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18196</id>
+<mls>514065</mls>
+<house_location>315 Cassidy Drive
+Georgetown, TEXAS 78628</house_location>
+<county>Williamson</county>
+<price>$188,400</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful custom &amp;quot;open&amp;quot; MIL plan, tons of upgrades, 10 inch ceilings, hot tub, deck, sprinkler system, security system, Hill Country View.  Pre-wired for stereo and office (DSS Phone Jack) 3.3 miles to Lake Georgetown.  Large Lot!</house_description>
+
+<move-in_date>8/10/99</move-in_date>
+<school_district>Georgetown</school_district>
+<sub-division>Wood Ranch</sub-division>
+<approx_size_sqft>1871</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>166 x 270</approx_lot_size>
+<approx_acres>1.03</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<hot_tub>Yes</hot_tub>
+
+<highlights>
+<item>Hill County View</item>
+<item>10 Inch Ceilings!</item>
+<item>Hot Tub!</item>
+<item>Security and Sprinkler Systems!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

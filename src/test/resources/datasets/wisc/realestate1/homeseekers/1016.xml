@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1940 has 4
+bedroom(s), 3 full bath(s)/1 half bath(s) , 1 car garage. Rooms
+include dining room, master bedroom. Features include patio,
+fireplace, air conditioning.</house_description>
+
+<agent_name>Helen Dean</agent_name>
+<direct>202-829-5964</direct>
+<office>202-541-1588</office>
+<firm_name>RE/MAX Associates</firm_name>
+<phone>202-541-1588</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$325,000</list_price>
+<location>Washington, DC 20011</location>
+<mls>DC3048678</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3(full) 1(half)</baths>
+<levels>3 or more</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>4087</lot_size>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

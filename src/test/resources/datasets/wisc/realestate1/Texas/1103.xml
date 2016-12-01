@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Irona Smith Alexander</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)295-7580</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19190</id>
+<mls>9100698</mls>
+<house_location>215 Brushy Mound Road
+Burleson, TEXAS 76028</house_location>
+<county>Tarrant</county>
+<price>$359,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>THIS ELEGANT AND LOVELY HOME IS A MUST SEE HOME!!  YOU  WILL HAVE A SPIRAL STARICASE ACCENTING THE ENTRY AND WOOD FLOORS.THE FAMILY BREAKFAST ROOM OVERLOOKS A LOVELY YARD WITH POOL AND HOT TUB.  YOU WILL ALSO HAVE THREE LIVING AREAS AND AN OFFICE.  THE LAUNDRY SHOOT WILL MAKE THAT TASK LESS WORK.  THE .80 ACRE LOT IS JUST BEAUTIFUL!!</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Browns Mountain</sub-division>
+<approx_size_sqft>3691</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>0.8</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>2</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>TWO WBFP'S</item>
+<item>POOL</item>
+<item>SMOKE DETECTOR</item>
+<item>SECURITY SYSTEM</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

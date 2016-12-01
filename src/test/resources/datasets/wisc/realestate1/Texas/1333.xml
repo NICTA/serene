@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Pud Owens Realty</name>
+<location>910 1/2 West Cameron Rockdale, TX 76567</location>
+<office>(512)446-4243</office>
+<toll_free></toll_free>
+<fax>(512)446-4273</fax>
+<email>rlaj@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Matula</name>
+<office>(512)446-4243</office>
+<fax>(512)446-4273</fax>
+<mobile>(512)446-1003</mobile>
+<email>rlaj@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16355</id>
+<mls></mls>
+<house_location>2006 OKelley
+Rockdale, TEXAS</house_location>
+<county>Milam</county>
+<price>$89,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Must see this French Stucco Home with clay tile roof situated on large lot.</house_description>
+
+<school_district>Rockdale</school_district>
+<sub-division>Linwood Acres</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

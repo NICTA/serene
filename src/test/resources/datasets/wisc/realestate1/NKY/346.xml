@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1503 LINDEN RD</house_location>
+<price>$119,800</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front,Oversized)</garage>
+<suburb>O</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250215</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JANE ASHCRAFT-WEST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>GREAT VALUE! BUILT IN 1997/BEAUTIFUL LEVEL LOT W/MATURE TREES/ VAULTED
+CEILINGS IN LVR &amp; KITCHEN/OAK CABINETS/ISLAND W/ELECTRIC &amp; COUNTER
+BAR/ OVERHEAD LIGHTING/CASED WINDOWS &amp; DOORS/ALL BLINDS STAY/&amp;MUCH
+MORE! NICE</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>75 X 342</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 9</dimension><level>1</level></bedroom_3>
+<family><dimension>26 X 21</dimension><level>L</level></family>
+<kitchen><dimension>17 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>26 X 22</dimension><level>L</level></laundry>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>RT20 TO LAUREL TO R ON LINDEN RD</directions>
+</house_listing>
+
+
+

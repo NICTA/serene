@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>12043 RACHEAL ANN</house_location>
+<price>$129,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Oversized)</garage>
+<suburb>WALTON</suburb>
+<school_dist>WALTON VER</school_dist>
+<mls>248676</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>GEORGE M STEPHAN</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>HOW DO THEY DO IT ? SO SMALL ON THE OUTSIDE &amp; BIG ON THE INSIDE ! 3
+BDRMS FINISHED LL / LL WALKOUT/ OVERSIZED 2 CAR GARAGE / MUCH MORE !
+CALL AGENT FOR DETAILS OR SURF THE WEB.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>9 X 11</dimension><level>1</level></breakfast>
+<family><dimension>32 X 12</dimension><level>L</level></family>
+<kitchen><dimension>11 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 9</dimension><level>L</level></laundry>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>I75 S TO WALTON EXIT TO L ON 25 TO L AT SUNSET
+RIDGE</directions>
+</house_listing>
+
+
+

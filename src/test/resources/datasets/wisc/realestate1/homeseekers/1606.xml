@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Newly remodeled home, renovated &amp; moderized, large 3 bdrm w/den or
+guest room, new plaster, paint,carpet, vinyl, completely redesigned
+modern kithen, new cabinets, counter tps &amp; shelving, new hvac,
+upgraded elect&amp; water systems, 3rd floor carpeted rec room or den.</house_description>
+
+<agent_name>Ronald Arotin</agent_name>
+<office>757-499-1999</office>
+<firm_name>Realty Advantage</firm_name>
+<phone>757-499-1999</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$79,900</list_price>
+<location>Norfolk, VA 23504</location>
+<mls>9933930</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Traditional</style>
+<year_built>1915</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ceiling Fan(s), Fenced, Pantry, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

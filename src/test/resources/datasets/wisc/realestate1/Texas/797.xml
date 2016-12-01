@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rick Guajardo</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19036</id>
+<mls>139515</mls>
+<house_location>6001 Choctaw
+Corpus Christi, TEXAS 78415</house_location>
+<county>Nueces</county>
+<price>$79,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Lovely home with cathedral ceiling, big living room area with fireplace, split bedrooms, covered patio, close to schools. Morgan portable building, fireplace accessories and refrigerator to stay!</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Crestmont</sub-division>
+<approx_size_sqft>1442</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>64x110</approx_lot_size>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

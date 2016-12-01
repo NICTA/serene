@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1984 has 2 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 4 car garage and approximately 2450 square
+feet of living area. Rooms include dining room, bonus room. Features
+include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Malinda Barry</agent_name>
+<direct>520-797-7444</direct>
+<office>520-577-3999</office>
+<email>MMTEAM@AZSTARNET.COM</email>
+<firm_name>RE/MAX Catalina Foothills
+RE/MAX Catalina Foothills</firm_name>
+<phone>520-577-3999</phone>
+<fax>520-577-3707</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$300,000</list_price>
+<location>7425 N Calle Sin Desengano</location>
+<mls>9920623</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>1</levels>
+<garage>4</garage>
+<type>Single Family</type>
+<square_feet>2450 (approx)</square_feet>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

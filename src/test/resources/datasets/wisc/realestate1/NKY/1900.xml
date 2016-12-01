@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>155 S MAIN</house_location>
+<price>$174,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>-</suburb>
+<school_dist>WALTON</school_dist>
+<mls>248570</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>CAROLYN OBLINGER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM*CHARMING OLDER HOME THAT AFFORDS YOU A LOVELY WAY TO SHOW
+OFF YOUR ANTIQUES*THIS ONE HUNDRED YR OLD HOME IS WELL BUILT W/GOOD
+STRUCTURE NEWER ELECT WIRING,HEATING &amp; A/C*GREAT PARKLIKE YARD APPROX
+1 AC*10'CEILING</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>15 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 15</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 13</dimension><level>1</level></dining>
+<family><dimension>15 X 13</dimension><level>1</level></family>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>2</level></master>
+
+<directions>I-75 SO L OFF WALTON EXIT TO R ON HWY 25 (MAIN
+ST) 2 STREET R ON OLD SOUTH MAIN</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shirley Hooks</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20256</id>
+<mls>9116157</mls>
+<house_location>111 Yucatan Drive (Ad # 553)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$329,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful executive home with a breathtaking view of Lake Granbury.  Located in one of Granbury's new elite subdivisions on 1.96 acres.  Media room could be a 5th bedroom.  Come see this elegant home!</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Peninsula On Lake Granbury</sub-division>
+<approx_size_sqft>3100</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1.96</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<new_home>Yes</new_home>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Executive Home in New Elite Subdivision</item>
+<item>Breathtaking Lake View</item>
+<item>Brand New Home</item>
+<item>Ad # 553</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

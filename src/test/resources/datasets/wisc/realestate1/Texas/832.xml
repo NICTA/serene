@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maureen Black</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)228-6659</mobile>
+<email>estladymb@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20733</id>
+<mls>9122441</mls>
+<house_location>208 Franciscan Drive
+Fort Worth, TEXAS 76134-4665</house_location>
+<county>Tarrant</county>
+<price>$85,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Immaculately refurbished home with new kitchen from floor to ceiling!  Lovely cabinetry.  Enlarged ceramic entry.  Special Room serves as office with 2 built-in desks.  Great setup for home business.  Manicured back yard.  New roof and air just 4 years ago.  Great house in stately area.</house_description>
+
+<school_district>Everman I S D</school_district>
+<sub-division>Hallmark Addition</sub-division>
+<approx_size_sqft>1943</approx_size_sqft>
+<stories>1</stories>
+<year_built>1963</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Gas Heat &amp; Cooking</item>
+<item>Workshop and Storage</item>
+<item>Excellent Refurbishment</item>
+<item>In-home Office</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

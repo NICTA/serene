@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>523 WATKINS</house_location>
+<price>$31,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>250330</mls>
+<house_type>Single Family</house_type>
+<firm>PREFERRED PROPERTIES</firm>
+<firm_phone>(606) 371-4777</firm_phone>
+<agent>JOAN DIXON</agent>
+<agent_phone>(606) 371-4777</agent_phone>
+<house_description>NEWER WINDOWS-ROOF-ONE YR HOME WARRANTY-FIREPLACE NOT WARRANTED NICE
+LARGE ROOMS-GOOD CONDITION</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>See Plat</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*</semiannual_taxes>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>15 X 15</dimension><level>2</level></bedroom_2>
+<dining><dimension>15 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>2</level></master>
+
+<directions>12TH ST TO S ON MAIN TO R ON 13TH TO WATKINS</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>15 OAKWOOD COURT</house_location>
+<price>$127,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>0</suburb>
+<school_dist>CARROLL CO.</school_dist>
+<mls>248120</mls>
+<house_type>Single Family</house_type>
+<firm>REALTY WORLD-RIVER VALLEY PROP</firm>
+<firm_phone>(502) 732-9977</firm_phone>
+<agent>RANDY O'NEAL</agent>
+<agent_phone>(502) 732-9977</agent_phone>
+<house_description>HOME IS LOCATED IN QUIET NEIGHBORHOOD, LOT IS WELL SHADED AND
+LANDSCAPE, WOODED AREA IN BACK OF PROPERTY, HOUSE HAS SPACIOUS
+BEDROOMS. FREEZER, WASHER &amp; DRYER, REFRIGERATOR REMAIN WITH THE HOUSE.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Wood,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>170x300</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNKNOWN</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension></dimension><level>1</level></bedroom_4>
+<family><dimension></dimension><level>1</level></family>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+
+<directions>I71-S RIGHT ON US227 RIGHT ON HGWY42 RIGHT ON
+MARTIN RD RIGHT ON WOODLAWN AVE.</directions>
+</house_listing>
+
+
+

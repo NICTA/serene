@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>313 E 16TH</house_location>
+<price>$40,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>246758</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>MARY ANN COLE</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>WONDERFUL 3 BDRM COTTAGE. COVERED SIDE PORCH. GREAT STARTER HOME.
+DON'T HAVE TO DO MUCH TO THIS EXCEPT MOVE RIGHT IN.</house_description>
+<construction>Wood</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>see plat</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>15 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>B</level></laundry>
+<living><dimension>16 X 16</dimension><level>1</level></living>
+<master><dimension>16 X 15</dimension><level>1</level></master>
+
+<directions>EASTERN AVE L ON E 16TH ST</directions>
+</house_listing>
+
+
+

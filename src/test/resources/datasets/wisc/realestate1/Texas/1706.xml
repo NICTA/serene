@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Janet Wallace</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 X 30</voice_mail>
+<email>wallace@EAZE.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19218</id>
+<mls>9101816</mls>
+<house_location>202 E Elm
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$69,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Glen Rose</school_district>
+<approx_size_sqft>1301</approx_size_sqft>
+<approx_lot_size>50 X 100</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Completely Remodeled</item>
+<item>Easy Access to Paluxy River</item>
+<item>Close to New City Park</item>
+<item>Only Minutes from Downtown</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

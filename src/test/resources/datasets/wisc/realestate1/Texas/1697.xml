@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sherron Deaver</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<email>sdeaver@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21423</id>
+<mls>9134143</mls>
+<house_location>505 Cochran Road
+in North Weatherford, TEXAS 76088</house_location>
+<county>Parker</county>
+<price>$320,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Country home on 4.42 acres.  Great family home with 5 bedrooms and 2 1/2 baths.    Austin stone home with wrap around porch.  Large metal building for your business/office.  Nice, quiet area not too far from town.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>2706</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>4.42</approx_acres>
+<year_built>1988</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

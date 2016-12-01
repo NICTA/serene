@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Erik Blumberg</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)289-6322</mobile>
+<email>teamwheat@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19122</id>
+<mls>87674</mls>
+<house_location>710 Barber
+Copperas Cove, TEXAS 76522</house_location>
+<county>Coryell</county>
+<price>$129,521</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautiful brand new two story home located on the golf course.  The home offers four bedrooms, 2.25 baths, and a two car garage.  The Builder is offering a VA $1.00 move-in.</house_description>
+
+<sub-division>Colonial Park</sub-division>
+<approx_size_sqft>1802</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>74X119</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<golf_course>Yes</golf_course>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

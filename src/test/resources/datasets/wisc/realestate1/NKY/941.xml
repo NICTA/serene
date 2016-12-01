@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>4 E BOESCH DR</house_location>
+<price>$109,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248045</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>HOLLY ASHCRAFT</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*GREAT CONDITION*WBFP IN FR WITH
+WALKOUT TO PATIO AND BEAUTIFULLY LANDSCAPED LRG YARD*KITCHEN/DR COMBO
+W/WALKOUT TO DECK*NEWER WINDOWS, STORM DOORS, GAR DOOR, CARPET, VINYL
+FLRING, AND BATH</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>54x231</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>8 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>1</level></bedroom_3>
+<family><dimension>11 X 22</dimension><level>L</level></family>
+<kitchen><dimension>10 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 13</dimension><level>L</level></laundry>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>10 X 14</dimension><level>1</level></master>
+
+<directions>S US 27,R ALEXANDRIA -LICKING PIKE,L ON
+BRECKENRIDGE,L E. BOESCH-2ND HOME ON R</directions>
+</house_listing>
+
+
+

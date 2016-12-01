@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Marchel Eubank</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<email>mmeubank@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18669</id>
+<mls>9092391</mls>
+<house_location>607 S. Brazos Street
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$69,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Location!  Location!  Location!  3/2/1 Brick home in the city of Whitney situated on two and a half lots.  Conveniently located near schools &amp; shopping.  CH/A, ceiling fans, oversized rooms, lovely rose garden, pecan &amp; pear trees, storage building &amp; chain link fence.</house_description>
+
+<school_district>Whitney</school_district>
+<sub-division>Lakeview</sub-division>
+<approx_size_sqft>1221</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great Location</item>
+<item>Oversized Yard</item>
+<item>Nice Brick Home in Town</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

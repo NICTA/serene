@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1998 has 3 bedroom(s), 3 bath(s) and
+approximately 1998 square feet of living area.</house_description>
+
+<agent_name>Steve Steward</agent_name>
+<direct>303-441-5633</direct>
+<office>303-449-7000</office>
+<firm_name>RE/MAX Of Boulder</firm_name>
+<phone>303-449-7000</phone>
+<fax>303-449-8554</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$279,900</list_price>
+<location>5445 S Gray St</location>
+<neighborhood>Marston Grant Ranch Racoon Cre</neighborhood>
+<mls>384209</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>1998 (approx)</square_feet>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

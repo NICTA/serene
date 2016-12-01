@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1923 has 3
+bedroom(s), 2 bath(s) , 3 car garage and approximately 1300 square
+feet of living area. Rooms include dining room, living room, master
+bedroom. Features include view, patio, fireplace, storage space.</house_description>
+
+<agent_name>Mary Stevens Mary Stevens</agent_name>
+<direct>619-683-5422</direct>
+<office>619-296-9055</office>
+<email>MaryAnne@maryanneshomes.com</email>
+<firm_name>One Source Realty/Better
+Homes One Source Realty/Better Homes</firm_name>
+<phone>619-296-9055</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$365,000</list_price>
+<location>San Diego, CA 92116</location>
+<mls>99 6026887</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>1300 (approx)</square_feet>
+<lot_size>8446</lot_size>
+<year_built>1923</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Wall Unit</heating>
+<fireplace>Living Room</fireplace>
+<patio>Yes</patio>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<view>Mountain/Hills View, Valley View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

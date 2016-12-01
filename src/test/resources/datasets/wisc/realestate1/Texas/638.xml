@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cathie Richard</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)331-6644 x121</voice_mail>
+<email>richhome@inetport.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21550</id>
+<mls>528567</mls>
+<house_location>3704 Lost Creek Blvd.
+Austin, TEXAS 78735</house_location>
+<county>Travis</county>
+<price>$519,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Towering Oaks surround this spacious 1 story home.  This 4 Bedroom/3 Full Bath Home has been completely renewed in Austin's premier golf neighborhood.  Great Room with Marble Fireplace &amp; Mirrored Bar.  Dazzling Kitchen with Slab Granite Counter Tops.  Fabulous Pool with attached Spa &amp; Water Fall.</house_description>
+
+<move-in_date>1/12/00</move-in_date>
+<school_district>Aisd</school_district>
+<sub-division>Barton Creek Estates</sub-division>
+<stories>1</stories>
+<approx_lot_size>Over 1 Acre</approx_lot_size>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Pool &amp; Spa</item>
+<item>Over 1 Acre Lot</item>
+<item>Oak Trees</item>
+<item>Quality Updates</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

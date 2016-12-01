@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1922 has 2 bedroom(s), 2 bath(s) and
+approximately 1700 square feet of living area.</house_description>
+
+<agent_name>Dennis Martin</agent_name>
+<direct>303-979-4771</direct>
+<office>303-797-0114</office>
+<firm_name>Perry &amp; Butler (Sw)</firm_name>
+<phone>303-797-0114</phone>
+<fax>303-797-2459</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$203,500</list_price>
+<location>954 Jackson St</location>
+<neighborhood>Congress Park</neighborhood>
+<mls>383505</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1700 (approx)</square_feet>
+<year_built>1922</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

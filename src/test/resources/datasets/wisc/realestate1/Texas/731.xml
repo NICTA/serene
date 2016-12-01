@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Arrie Montgomery</name>
+<office>(512)321-5300</office>
+<fax>(512)303-6309</fax>
+<mobile>(512)784-0537</mobile>
+<email>amontgomery1@compuserve.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19274</id>
+<mls>512344</mls>
+<house_location>R.R. #6 BOX 903 (Gier Lane)
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$167,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>GREAT SET-UP FOR THE HORSE FOLKS!!!!!!  Full size working arena/with holding pens on each end, 3 stall barn w/runs, tack and feed room, water, phone, concrete wash pad , working pen. The 10.15 acres are fully fenced and cross fenced, using the down  under fencing methods. The different paddocks have metal watering troughs\with floats on concrete pads. For the folks there's a 2 story 4/2 home w/Country dining and a big covered porch, large building on slab for the craft person or work shop or all purpose building. Great Location  Call Arrie today for your showing.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1600</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>10.15</approx_acres>
+<year_built>1978</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Full Size Arena/ with holding pens</item>
+<item>3 Stall barn/runs/electricity/water</item>
+<item>Home remolded in mid-90's</item>
+<item>All on 10.+ acres,Great location</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

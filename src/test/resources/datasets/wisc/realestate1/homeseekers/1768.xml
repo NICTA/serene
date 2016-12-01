@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1942 has 1 bedroom(s), 1 bath(s) and
+approximately 666 square feet of living area.</house_description>
+
+<agent_name>Pam Z Horner</agent_name>
+<direct>303-507-1334</direct>
+<office>303-779-7979</office>
+<firm_name>Metro Brokers-Libert</firm_name>
+<phone>303-779-7979</phone>
+<fax>303-773-1664</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$66,500</list_price>
+<location>962 S Perry St</location>
+<neighborhood>Westwood</neighborhood>
+<mls>377517</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>666 (approx)</square_feet>
+<year_built>1942</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

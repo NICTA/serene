@@ -1,0 +1,34 @@
+<house_listing>
+<price>$139,500</price>
+<mls_id_number>145177</mls_id_number>
+<city>WOODBURN</city>
+<st>OR</st>
+<bedrooms>5</bedrooms>
+<bathrooms>2.50</bathrooms>
+<sqft>2108</sqft>
+<year_built>1977</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>80X99</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Water Softener</interior>
+<exterior>Deck,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>WOODBURN</elementary>
+<middle_school>WOODBURN</middle_school>
+<high_school>WOODBURN</high_school>
+</schools>
+
+</house_listing>
+
+
+

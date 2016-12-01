@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tim Kress</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)331-6644 x123</voice_mail>
+<email>txrealtor1@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20524</id>
+<mls>523778</mls>
+<house_location>3414 Inwood Cove
+Round Rock, TEXAS 78681</house_location>
+<county>Williamson</county>
+<price>$159,960</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Gorgeous Wilshire home with open &amp; flowing floor plan.  Vaulted ceililngs, custom window coverings, upgrades on kitchen.  Oversized patio.  CREAM PUFF!</house_description>
+
+<school_district>Leander</school_district>
+<sub-division>Vista Oaks</sub-division>
+<approx_size_sqft>2215</approx_size_sqft>
+<stories>1</stories>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+
+<highlights>
+<item>Excellent Neighborhood</item>
+<item>Gorgeous Home</item>
+<item>Great Open Floor Plan</item>
+<item>Many Upgrades</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

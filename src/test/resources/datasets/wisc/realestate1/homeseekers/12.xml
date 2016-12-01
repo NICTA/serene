@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home built in 1926 has 3 bedroom(s), 1 bath(s) and
+approximately 2500 square feet of living area. Rooms include family
+room. Features include view, patio.</house_description>
+
+<agent_name>Byron G. Jones</agent_name>
+<direct>360-652-4024</direct>
+<office>360-659-1253</office>
+<firm_name>Macpherson's B. H. &amp; G.</firm_name>
+<phone>360-659-1253</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$395,000</list_price>
+<location>7215 Green Lake Dr</location>
+<mls>99120112</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>2500 (approx)</square_feet>
+<year_built>1926</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<patio>Yes</patio>
+<rooms>Family Room</rooms>
+<view>Lake View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Basement, Cable TV, Fenced, Sprinklers
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

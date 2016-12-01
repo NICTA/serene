@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1947 has 2 bedroom(s), 1 bath(s) and
+approximately 719 square feet of living area.</house_description>
+
+<agent_name>Dennis Greeley</agent_name>
+<direct>785-3000</direct>
+<office>303-785-3000</office>
+<firm_name>Onesource Realty, Ll</firm_name>
+<phone>303-785-3000</phone>
+<fax>303-785-3001</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$109,900</list_price>
+<location>141 S Canosa Ct</location>
+<neighborhood>Valverde</neighborhood>
+<mls>380298</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>719 (approx)</square_feet>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

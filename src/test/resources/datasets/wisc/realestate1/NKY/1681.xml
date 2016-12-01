@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>7012 SOUTHBEAR WALL</house_location>
+<price>$82,000</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>ORANGEBURG</suburb>
+<school_dist>MASON</school_dist>
+<mls>246402</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>MARTHA KERN</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>WELL MAINTAINED DOUBLE WIDE ON 17 ACRES. HUNTERS HEAVEN. WOODED WITH
+ROOM TO EXPLORE. APPROX. LARGE BUILDING CAN BE USEFUL AS A REPAIR OR
+BODY SHOP.</house_description>
+<construction>Alum,Shingle</construction>
+<heating>Gas,Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>None</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bedroom_2><dimension>10 X 13</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>10 X 13</dimension><level></level></bedroom_3>
+<bedroom_4><dimension>10 X 10</dimension><level></level></bedroom_4>
+<family><dimension>15 X 12</dimension><level></level></family>
+<kitchen><dimension>22 X 12</dimension><level></level></kitchen>
+<laundry><dimension>4 X 12</dimension><level></level></laundry>
+<living><dimension>12 X 17</dimension><level></level></living>
+<master><dimension>14 X 13</dimension><level></level></master>
+
+<directions>AA SO. TO RT. 1449 4 MI. TO LT ON POLE CAT PIKE
+2 MI. TO RT SOUTHBEAR WALLOW</directions>
+</house_listing>
+
+
+

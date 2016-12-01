@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Nice 4 br, 2 bath cape cod updated appraised at $114,000. 8 ceiling
+fans, gas heat, large deck, garage with opener. Shows very well.</house_description>
+
+<agent_name>Donna Roberts</agent_name>
+<direct>860-0044</direct>
+<office>757-490-0524</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-490-0524</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$114,000</list_price>
+<location>Virginia Beach, VA 23452</location>
+<mls>9930315</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Cape Cod</style>
+<square_feet>2073 (approx)</square_feet>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Deck</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Capecod Style, Ceiling Fan(s), Foyer, GarageDoor Opener, Pantry, Walk-In Closet(s), Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

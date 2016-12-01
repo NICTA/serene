@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>Lots of space for the money. Kempsville schools. Bonus room downstairs
+for office or bedroom. Very little yard upkeep!</house_description>
+
+<agent_name>William Billari</agent_name>
+<office>757-499-9191</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-499-9191</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$72,500</list_price>
+<location>Virginia Beach, VA 23462</location>
+<mls>9933490</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<type>Townhouse</type>
+<style>Townhouse</style>
+<square_feet>1656 (approx)</square_feet>
+<year_built>1975</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric, Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>Patio</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Office, Storage Space, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

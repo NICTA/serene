@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bette Berry</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>bette@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16843</id>
+<mls>52982</mls>
+<house_location>W15019 (1406) BROKEN HILLS, ESCAPE WEST #19
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$145,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Popular Escape West Townhome.  Furniture included in price.  Skylight, ceiling fan, insulated windows.  Oven, range, refrigerator.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Escape West Townhome near two golf courses.</item>
+<item>Furnished.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

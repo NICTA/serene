@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Kathleen Wheeler</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20450</id>
+<mls>9119273</mls>
+<house_location>5613 Stone Meadow
+Fort Worth, TEXAS 76179</house_location>
+<county>Tarrant</county>
+<price>$77,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Light and bright. Cathedral ceilings. plant ledges. Cheerful, separate eating area with bay windows and display nook. Great curb appeal.</house_description>
+
+<school_district>Eagle Mountain Saginaw</school_district>
+<sub-division>Marine Creek Hills</sub-division>
+<approx_size_sqft>1282</approx_size_sqft>
+<stories>1</stories>
+<year_built>1987</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great Curb Appeal</item>
+<item>Trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

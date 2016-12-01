@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1731 EASTERN</house_location>
+<price>$67,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247281</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>PAT GREGORY</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>BRICK CAPE COD-HDWD FLOORS,LEADED GLASS DOOR,WALK-IN
+CLOSETS,FIREPLACE,NEW WINDOWS-NEW ROOF OVER PORCH,NEW ELECTRIC
+PANEL,FENCE,LANDSCAPING,NEW BERBER CARPET,VERY NICE HOME CLOSE TO ST E
+HOSPITAL</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>10 X 16</dimension><level>2</level></bedroom_2>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<living><dimension>12 X 15</dimension><level>1</level></living>
+<master><dimension>12 X 15</dimension><level>2</level></master>
+
+<directions>WALLACE AVE EAST TO LEFT ON EASTERN</directions>
+</house_listing>
+
+
+

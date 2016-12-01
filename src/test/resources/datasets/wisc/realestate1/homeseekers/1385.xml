@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level condominium built in 1910 has 2 bedroom(s), 2 bath(s) and
+approximately 988 square feet of living area. Rooms include master
+bedroom. Features include fireplace, air conditioning.</house_description>
+
+<agent_name>M. Steve Jacobson</agent_name>
+<direct>301-587-4722</direct>
+<office>202-387-5555</office>
+<firm_name>Brian Logan Real Estate</firm_name>
+<phone>202-387-5555</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$239,000</list_price>
+<location>Washington, DC 20008</location>
+<mls>DC3123584</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Condominium</type>
+<square_feet>988 (approx)</square_feet>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,56 @@
+<house_listing>
+<price>$124,900</price>
+<mls_id_number>91538</mls_id_number>
+<address>2515 Seaport Drive</address>
+<city>Lewiston</city>
+<st>ID</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.75</bathrooms>
+<sqft>1228</sqft>
+<year_built></year_built>
+<heat>Gas forced air</heat>
+<ac>Central air</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>Comp</roof>
+<garage>Attached two car</garage>
+<lot_size>0.00        Acres</lot_size>
+<lot_description>Landscaped, level lot</lot_description>
+<fireplace>No</fireplace>
+<taxes>$0</taxes>
+<floors>Carpet and vinyl</floors>
+<interior>Open and spacious</interior>
+<exterior>Wood</exterior>
+<site>Shiloh area</site>
+</amenities>
+<features><item>Quiet Neighborhood</item>
+<item>Beautiful Views</item>
+<item>Above Ground Pool</item>
+<item>Landscaped back Yard</item>
+<item>RV Parking</item>
+</features>
+<schools><elementary></elementary>
+<middle_school>Jennifer</middle_school>
+<high_school>Lewiston</high_school>
+</schools>
+<comments>Desirable location with some views
+toward hills. Open spacious rooms are
+a plus in this 3 bedroom home. The
+landscaped yard is great for entertaining while enjoying your pool
+with deck and covered patio.</comments>
+<for_more_information_contact>
+<agent_name>Elaine Goodner</agent_name>
+<firm_name>Windermere Real Estate/All Star Realty, L.L.C.</firm_name>
+<firm_location>137 Thain Road
+Lewiston, ID</firm_location>
+<office_phone>208-798-7777</office_phone>
+<fax>(208)798-1606</fax>
+<cell_phone>208-791-3082</cell_phone>
+<e-mail>egoodner@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

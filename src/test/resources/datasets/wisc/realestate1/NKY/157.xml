@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>9094 BRAXTON</house_location>
+<price>$165,000</price>
+<rooms>6</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>LOT #41</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>249745</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>K Y BUDDE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM*CONTEMPORARY RANCH OFFERS 4 BEDRM OR OPTIONAL STUDY *
+MANY UP- GRADEDED AMENITIES INCLUDING GAS MARLE FIREPL,SEC SYS,
+BUILTIN MICROWAVE* CEIL FANS*PROPOSED CONST*MODEL OPEN SAT/SUN 2-4PM
+CALL K.Y.BUDDE 525-5787</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>89 x 150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>13 X 11</dimension><level>1</level></bedroom_4>
+<dining><dimension>13 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>1</level></master>
+
+<directions>I-75 SO TO FLORENCE/UNION EXIT GO SOUTH ON 42 TO
+LEFT ON BRAXTON-RD PAST KROGERS</directions>
+</house_listing>
+
+
+

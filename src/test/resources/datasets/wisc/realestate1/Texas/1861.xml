@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Mayer Realty</name>
+<location>974 East Austin St. Giddings, TX 78942</location>
+<office>(409)542-2696</office>
+<toll_free></toll_free>
+<fax>(409)542-2554</fax>
+<email>mayerrealty@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeffery B. Keaghey</name>
+<office>(409)542-2696</office>
+<fax>(409)542-1715</fax>
+<email>mayerrealty@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20742</id>
+<mls></mls>
+<house_location>Rt. 1, Box 163A
+Dime Box, TEXAS 77853</house_location>
+<county>Lee</county>
+<price>$82,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Located in the Dime Box area along a pave county road this property consists of 15.76211 acres of land with a 3 bedroom, 2 bath Manufactured Home of approximately 1600 sq. ft., a 2 bedroom, 1 bath mobile home with around 625 sq. ft., a 30' X 60' barn, two storage buildings (12' X 30' and 8' X 10') and an 8' X 8' smokehouse.</house_description>
+
+<school_district>Dime Box</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1600</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>15.76211 acres</approx_lot_size>
+<approx_acres>15.76</approx_acres>
+<year_built>1978</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>3 bedroom, 2 bath manufactured home</item>
+<item>15.76211 acres of land</item>
+<item>paved road frontage</item>
+<item>30' X 60'barn</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

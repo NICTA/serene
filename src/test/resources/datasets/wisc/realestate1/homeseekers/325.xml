@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1968 has 2 bedroom(s), 2 bath(s) and
+approximately 1320 square feet of living area. Features include
+private pool, air conditioning.</house_description>
+
+<agent_name>Edward Pichs</agent_name>
+<direct>772-0505</direct>
+<office>264-6351</office>
+<firm_name>Fidelity Realty Co
+Lic. Real Estate Broker</firm_name>
+<phone>264-6351</phone>
+<fax>305-264-8019</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$155,900</list_price>
+<location>5700 Collins Av #3E</location>
+<neighborhood>Seacoast 5700 Condo Desc</neighborhood>
+<mls>M773154</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1320 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Intracoastal, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

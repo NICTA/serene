@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Great condo at a great price! Home warranty comes w/this condo. New
+carpet and paint. 2 master bedrooms w/2 full baths, fireplace, balcony
+&amp; pool. All appliances.</house_description>
+
+<agent_name>Robin Brinn</agent_name>
+<office>757-425-2500</office>
+<firm_name>ERA Atkinson Realty, Inc.</firm_name>
+<phone>757-425-2500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$62,000</list_price>
+<location>Virginia Beach, VA 23451</location>
+<mls>9933663</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<style>Contemporary</style>
+<square_feet>827 (approx)</square_feet>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<pool>In-ground</pool>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Breakfast Room, Cable TV, Contemporary Style, Fenced,Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

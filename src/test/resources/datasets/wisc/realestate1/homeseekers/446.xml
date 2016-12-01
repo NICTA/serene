@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1984 has 3 bedroom(s), 3 bath(s) , 2
+car garage. Rooms include dining room, master bedroom. Features
+include private pool, private spa, patio, fireplace.</house_description>
+
+<agent_name>Joann Callaway</agent_name>
+<office>602-953-4000</office>
+<firm_name>John Hall &amp; Associates</firm_name>
+<phone>602-953-4000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$275,000</list_price>
+<location>Phoenix, AZ 85014</location>
+<mls>1465874</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Room, Cable TV, Cathedral/Vaulted Ceilings,Ceiling Fan(s), Central Vacuum, Dining/Living Combo, Dishwasher, EatIn Kitchen, Garage Door Opener, Gazebo, Great Room, Intercom System,Microwave, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

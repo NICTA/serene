@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2828 PADDOCK LANE</house_location>
+<price>$71,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>VILLA HILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250140</mls>
+<house_type>Condominium</house_type>
+<firm>D G SCHELL &amp; ASSOCIATES</firm>
+<firm_phone>(606) 331-4888</firm_phone>
+<agent>GERALDINE ASHCRAFT</agent>
+<agent_phone>(606) 331-4888</agent_phone>
+<house_description>BEAUTIFUL AND CLEAN 2 BD CONDO. 1 1/2 BATHS, NEWER CARPET, 1 CAR
+GARAGE WIT H ENTRY INTO CONDO. NICE PATIO WITH A NICE MAGNOLIA TREE.
+HARDWOOD FLOORS I N DINING RM. BIRDHOUSE AND POLE, AND DECORATIVE
+FIREPLACE DOESN'T STAY.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>9999</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>136</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>2</level></bedroom_2>
+<dining><dimension>9 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>8 X 7</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 7</dimension><level>1</level></laundry>
+<living><dimension>18 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>2</level></master>
+
+<directions>BUTTERMILK, R ON COLLINS, L ON AMSTERDAM, R ON
+PROSPECT PT., R ON SILO, L ON PADDOC</directions>
+</house_listing>
+
+
+

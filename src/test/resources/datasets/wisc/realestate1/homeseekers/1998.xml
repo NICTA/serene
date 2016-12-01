@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 3 bedroom(s), 2 bath(s) .
+Rooms include dining room, master bedroom. Features include view,
+private pool, patio.</house_description>
+
+<agent_name>Gail Gustin</agent_name>
+<office>602-996-4411</office>
+<firm_name>West Usa Realty West Usa Realty</firm_name>
+<phone>602-996-4411</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$199,500</list_price>
+<location>Phoenix, AZ</location>
+<mls>1443038</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<patio>Covered</patio>
+<pool>Diving</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dining/Living Combo, Dishwasher, Eat InKitchen, Great Room, Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

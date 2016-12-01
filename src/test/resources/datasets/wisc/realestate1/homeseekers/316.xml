@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1985 has 2 bedroom(s), 1
+bath(s) and approximately 720 square feet of living area. Rooms
+include master bedroom. Features include air conditioning.</house_description>
+
+<agent_name>Barry Levy</agent_name>
+<direct>202-723-8907</direct>
+<office>202-541-1588</office>
+<firm_name>RE/MAX Associates</firm_name>
+<phone>202-541-1588</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$94,900</list_price>
+<location>Washington, DC 20017</location>
+<mls>DC3120928</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<square_feet>720 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

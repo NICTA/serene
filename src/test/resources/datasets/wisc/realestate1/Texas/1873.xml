@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jolyn Goolsby</name>
+<office>(409)732-8200</office>
+<fax>(409)732-6030</fax>
+<email>rmxcpcol@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20408</id>
+<mls></mls>
+<house_location>1644 Montezuma
+Columbus, TEXAS 78934</house_location>
+<county>Colorado</county>
+<price>$95,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nice home on large (almost an acre) corner lot located in quiet neighborhood with beautiful old oak trees. This home, which was constructed in 1960 (per CCAD) has had many updates including new roof in 1998 (25 year mold resistant), Carrier heat unit in 1997, Lennox AC unit in 1993, dual sealed windows throughout the home, new kitchen sink and faucet, gas hot water heater, replaced front and back doors with thermal steel doors, and sprinkler system. Refrigerator and washer and dryer included in sale!! Contact Jolyn at (409) 732-8200 or email to rmxcpcol@intertex.net</house_description>
+
+<school_district>Columbus</school_district>
+<approx_size_sqft>1468</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+
+<highlights>
+<item>Paved road frontage</item>
+<item>New roof</item>
+<item>Dual sealed windows</item>
+<item>Sprinkler system</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

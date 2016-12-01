@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Florence Little</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>406</id>
+<mls>131532</mls>
+<house_location>FM#3162 CAMP BELL
+Sandia, TEXAS 78383</house_location>
+<county>Live Oak</county>
+<price>$75,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>3/2 Doublewide Mobile secured on 2 concrete foundation. Built in 1993, and it is very well kept and in immaculate condition. 20x30 workshop with triple carport. The house is situated on over 1 acre on land, offers quiet country living, and is near Lake Corpus Christi. Call Florence Little for more information.</house_description>
+
+<school_district>George West</school_district>
+<sub-division>Camp Bell</sub-division>
+<approx_size_sqft>1032</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.5</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<waterfront>Yes</waterfront>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

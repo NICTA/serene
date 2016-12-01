@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>196 DRURY CHAPEL J</house_location>
+<price>$79,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>249355</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MARTHA KIRBY</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>DOUBLEWIDE ON PERMANENT FOUNDATION WITH CITY WATER * 10 MINUTES TO
+I-71 * IMMEDIATE OCCUPANCY * 1998 FAIRMONT MODEL 5228 *</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 8</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>20 X 12</dimension><level>1</level></kitchen>
+<living><dimension>18 X 16</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>I-71 SOUTH RIGHT ON RT 35 THEN LEFT ON RT 1120
+RIGHT ON WINN CREEK RD</directions>
+</house_listing>
+
+
+

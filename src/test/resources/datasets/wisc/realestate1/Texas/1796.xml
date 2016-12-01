@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Emily Prowell</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)371-1758</mobile>
+<email>eprowell@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20548</id>
+<mls>9120574</mls>
+<house_location>312 Case Street
+Weatherford, TEXAS 76086</house_location>
+<county>Parker</county>
+<price>$54,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Cute cottage with shady yard!  2 bedrooms, new carpet, Central heat and air.  Covered patio.  Garden spot.  Great starter or retirement home or good investment property.  Affordable price.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Linda Park</sub-division>
+<approx_size_sqft>963</approx_size_sqft>
+<stories>1</stories>
+<year_built>1957</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

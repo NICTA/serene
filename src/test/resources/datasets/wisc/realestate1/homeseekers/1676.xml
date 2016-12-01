@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1996 has 4 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include family room, master bedroom. Features
+include private pool.</house_description>
+
+<agent_name>Matthew Kelley</agent_name>
+<office>480-922-0007</office>
+<firm_name>Diamond Realty</firm_name>
+<phone>480-922-0007</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$158,990</list_price>
+<location>Phoenix, AZ 85024</location>
+<mls>1466492</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<pool>Yes</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher,Eat In Kitchen, Garage Door Opener, Great Room, Kitchen Island,Microwave, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

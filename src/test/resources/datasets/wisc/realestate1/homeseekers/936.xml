@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Sparkling, bright and airy single family home located in well
+established princess anne park. Ceiling fans, dishwasher, central ac,
+c/c assistance, one year home warranty. Fresh paint, carpet allowance
+negotiable</house_description>
+
+<agent_name>Samantha Miller</agent_name>
+<direct>557-8800</direct>
+<office>757-499-9191</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-499-9191</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$118,000</list_price>
+<location>Norfolk, VA 23502</location>
+<mls>9933640</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<style>Traditional</style>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric</heating>
+<fireplace>No</fireplace>
+<patio>Open Porch, Patio</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Ceiling Fan(s), Fenced, Garage DoorOpener, Utility Room, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

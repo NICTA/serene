@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1925 has 3 bedroom(s), 1 bath(s) and
+approximately 783 square feet of living area.</house_description>
+
+<agent_name>Dianna Lopez</agent_name>
+<direct>303-452-7000</direct>
+<office>303-785-3000</office>
+<firm_name>Onesource Realty,Llc</firm_name>
+<phone>303-785-3000</phone>
+<fax>303-280-0938</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$115,950</list_price>
+<location>131 S Julian St</location>
+<neighborhood>Barnum</neighborhood>
+<mls>382708</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>783 (approx)</square_feet>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

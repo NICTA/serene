@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jerry Vanek</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 237</voice_mail>
+<email>peach48tfw@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20098</id>
+<mls>522157</mls>
+<house_location>3001 Norfolk Drive
+Austin, TEXAS 78745</house_location>
+<county>Travis</county>
+<price>$99,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>LARGE VAULTED CEILING IN LIVING AREA.  2 DINING, LARGE CLOSETS, CORNER STONE FIREPLACE . Y2K SCHOOLS ARE BOONE ELEMENTARY AND COVINGTON JRHS.</house_description>
+
+<school_district>Austin, Sunset, Porter, Crockett</school_district>
+<sub-division>Cherry Creek</sub-division>
+<approx_size_sqft>1435</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60X112</approx_lot_size>
+<year_built>1984</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

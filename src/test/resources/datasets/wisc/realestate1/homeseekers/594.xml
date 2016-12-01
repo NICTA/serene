@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1951 has 4 bedroom(s), 2 bath(s) and
+approximately 2368 square feet of living area.</house_description>
+
+<agent_name>Aaron Sims</agent_name>
+<direct>303-907-2016</direct>
+<office>303-785-3000</office>
+<firm_name>Onesource Realty</firm_name>
+<phone>303-785-3000</phone>
+<fax>303-785-3001</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$259,900</list_price>
+<location>1670 Niagara St</location>
+<neighborhood>Parkhill</neighborhood>
+<mls>385551</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2368 (approx)</square_feet>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

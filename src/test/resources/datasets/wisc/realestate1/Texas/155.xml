@@ -1,0 +1,45 @@
+<house_listing>
+<firm_information>
+<name>Foster Properties</name>
+<location>101-A NE. 2nd St.- P. O. Box 91 Hubbard, TX 76648</location>
+<office>(254)576-2521</office>
+<toll_free>(800)952-4140</toll_free>
+<fax>(254)576-2688</fax>
+<email>mfoster396@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Margot Foster</name>
+<office>(254)576-2521</office>
+<fax>(254)576-2688</fax>
+<mobile>(254)582-6061</mobile>
+<email>mfoster396@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11809</id>
+<mls>New</mls>
+<house_location>Bynum, TEXAS
+Hill</house_location>
+<price>$0</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description></house_description>
+
+<stories>1</stories>
+<master_bedroom>Upstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

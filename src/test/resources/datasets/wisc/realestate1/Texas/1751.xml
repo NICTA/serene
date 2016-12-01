@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cindy Bilbie</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>bilbiec@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>10687</id>
+<mls>13175</mls>
+<house_location>3001 Treasure Hills Blvd.
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$264,100</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Spacious 2-story, 3400 sq. ft., situated on two beautifully landscaped lots. Floors are ceramic tile and hardwood with carpeted bedrooms. Crown moulding, wainscoting and picture frame paneling are but a few of the high quality features of this home. Large windows overlook the gas heated, self cleaning swimming pool complete with slide and spa. Llush, lighted walkways, a gazebo with bar and an occasional park bench. The perfect setting for entertaining guests or enjoying a quiet interlude.</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Treasure Hills</sub-division>
+<approx_size_sqft>3400</approx_size_sqft>
+<approx_lot_size>2 lots</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Unique home, many amenities</item>
+<item>Extra lot is secret garden paradise</item>
+<item>Includes pond, waterfall, walkways</item>
+<item>Gazebo and sprinklers, must see!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

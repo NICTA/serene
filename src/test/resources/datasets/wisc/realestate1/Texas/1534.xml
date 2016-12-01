@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Ron Roberts &amp; Associates</name>
+<location>131 Elm St. Hillsboro, TX 76645</location>
+<office>(254)582-5307</office>
+<toll_free>(800)722-5156</toll_free>
+<fax>(254)582-9159</fax>
+<email>ronroberts@digetex.net</email>
+</firm_information>
+
+<agent_information>
+<name>Robinson Dee</name>
+<office>(254)582-5307</office>
+<fax>(254)582-9159</fax>
+<email>ronroberts@digitex.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18763</id>
+<mls>9094282</mls>
+<house_location>Forreston Road
+Milford, TEXAS 76670</house_location>
+<county>Ellis</county>
+<price>$249,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Between Milford and Italy.3 / 2 /2  Brick Home on 67 Acres, Coastal Meadows, Pipe Fencing Around House Crossed Fenced Pastures, Workshop, Cattle Barns, 15 Acres Hay Field, Spring Fed Creek, Fruit trees.  Just a really Beautiful Place.</house_description>
+
+<school_district>Abbott</school_district>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Very Nice Brick Home sitting on 67 acres</item>
+<item>Fruit Trees</item>
+<item>Lots of grass, Trees, Creek</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

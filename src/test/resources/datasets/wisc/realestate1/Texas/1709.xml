@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Menley</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<email>winkler@texasproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>1546</id>
+<mls>475367</mls>
+<house_location>8506 Lucinda Drive
+Manor, TEXAS 78653</house_location>
+<county>Travis</county>
+<price>$54,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>1992 Palm harbor 16 x 80 home on 1.63 acres neatly mowed lawn and wooded acreage.  Large living area.  kitchen has plenty of cabinets and an island work area.  Master bedroom is on one end.  Master bath has double sinks and a garden tub.  Horses allowed.</house_description>
+
+<school_district>Manor</school_district>
+<sub-division>Wilbarger Creek Estates</sub-division>
+<stories>1</stories>
+<approx_acres>1.63</approx_acres>
+<year_built>1992</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Cash</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

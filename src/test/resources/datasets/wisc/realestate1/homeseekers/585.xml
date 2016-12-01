@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>Twin home needs some tlc. Water heater two years old, ac/ heat 6 yrs,
+roof 6 yrs, replacement windows, large cul-de-sac lot, highest lot -
+no flooding, hms warranty, flood insurance required. $1,000 carpet
+allowance. Great potential!</house_description>
+
+<agent_name>James Embleton</agent_name>
+<office>757-428-8845</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-428-8845</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$79,500</list_price>
+<location>Virginia Beach, VA 23452</location>
+<mls>9928691</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage></garage>
+<type>Townhouse/Condo</type>
+<style>Twinhome</style>
+<square_feet>1500 (approx)</square_feet>
+<lot_size>IRREG</lot_size>
+<year_built>1978</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<location>Cul-de-sac</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Fenced, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>12761 HUTTON</house_location>
+<price>$299,900</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Builtin,Side)</garage>
+<suburb>WALTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247328</mls>
+<house_type>Single Family</house_type>
+<firm>SANDY COLLINS REAL ESTATE</firm>
+<firm_phone>(606) 356-7500</firm_phone>
+<agent>BRENDA SMITH-DAVIS</agent>
+<agent_phone>(606) 356-7500</agent_phone>
+<house_description>BEAUTIFUL 4 BDRM HOME ON APPROX 2 ACRES WOODED ESTATE SETTING, LOTS OF
+WOOD CROWN MOLDINGS LARGE EAT IN KITCHEN BAY WIN., NEUTRAL CARPTES 2
+FIREPLACES 3 GARAGES WHIRLPOOL BATH MUST SEE PICTURESQUE AREA OF NICE
+HOMES</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>00x00</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$000</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>14 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 14</dimension><level>2</level></bedroom_4>
+<dining><dimension>13 X 14</dimension><level>1</level></dining>
+<family><dimension>15 X 16</dimension><level>1</level></family>
+<kitchen><dimension>14 X 25</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 12</dimension><level>1</level></laundry>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 31</dimension><level>2</level></master>
+
+<directions>75 SOUTH RICHWOOD R ON338 2 MILES L ON CHAMBERSR
+ON HUTTON OR S 25 TO R CHAMBERS</directions>
+</house_listing>
+
+
+

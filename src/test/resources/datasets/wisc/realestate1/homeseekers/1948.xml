@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1968 has 3 bedroom(s), 2
+bath(s) and approximately 1400 square feet of living area. Features
+include fireplace, air conditioning.</house_description>
+
+<agent_name>Russell, Diane</agent_name>
+<direct>323-660-0706</direct>
+<office>818-240-8100</office>
+<firm_name>Dilbeck Realtots - Glendale</firm_name>
+<phone>818-240-8100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$219,000</list_price>
+<location>Ave</location>
+<mls>99043774</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1400 (approx)</square_feet>
+<lot_size>45X130</lot_size>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Central</heating>
+<fireplace>Living Room</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Guest House
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

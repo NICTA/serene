@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>'The christie' 4 or 5 br/ master retreat with sitting area/ new
+village off indian river road/ close to new arnold palmer golf course
+to be built/ large lots - this one on lake/ agent on site weekends or
+by appt.</house_description>
+
+<agent_name>Sandra Parrish</agent_name>
+<direct>366-3867</direct>
+<office>757-491-6200</office>
+<firm_name>Progressive Realty</firm_name>
+<phone>757-491-6200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$191,800</list_price>
+<location>Virginia Beach, VA 23456</location>
+<mls>9921367</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Transitional</style>
+<lot_size>12,222</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<location>Lake front</location>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Foyer, Pantry, Utility Room, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

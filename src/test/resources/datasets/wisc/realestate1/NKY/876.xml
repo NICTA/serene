@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>430 SPRINGMILL</house_location>
+<price>$136,250</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>COLD SPRING</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248869</mls>
+<house_type>Condominium</house_type>
+<firm>BARBARA WEBER REALTY</firm>
+<firm_phone>(606) 635-4333</firm_phone>
+<agent>BARBARA WEBER</agent>
+<agent_phone>(606) 635-4333</agent_phone>
+<house_description>2 YR. OLD BIRKEY MODEL. MANY QUALITY UPGRADES. END UNIT FOR EXTRA
+PRIVACY. DEAD END STREET. SEVERAL PLANT LEDGES. LOVELY LARGE LOFT
+BEDROOM WITH PRIVATE BATH. PEASE PULL DOWN IN GARAGE GIVES LOTS OF
+EXTRA STORAGE ROOM.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>110</hoa_fee>
+<semiannual_taxes>$0000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>16 X 20</dimension><level>2</level></bedroom_2>
+<dining><dimension>8 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 9</dimension><level>1</level></laundry>
+<living><dimension>13 X 17</dimension><level>1</level></living>
+<master><dimension>11 X 16</dimension><level>1</level></master>
+
+<directions>U.S. 27 SOUTH, R ON SPRINGSIDE, RIGHT ON
+SPRINGMILL DRIVE.</directions>
+</house_listing>
+
+
+

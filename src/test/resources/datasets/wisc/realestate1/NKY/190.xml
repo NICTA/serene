@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>6113 REDBUD</house_location>
+<price>$146,900</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>250320</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MIKE PARKER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM *4 BEDRM 2 STORY *2 CAR GARAGE *LOWER LEVEL FINISHED*LOTS
+SIZE 69X111X161X127 *FAMILY RM W/STONE WBFP*LARGE WOOD DECK *HUGE
+EAT-IN KITCHEN FENCED YARD *CUL-DE-SAC *QUICK POSSESSION *CALL MIKE AT
+647-0700</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stone</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>69x111</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>15 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 10</dimension><level>2</level></bedroom_4>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>19 X 13</dimension><level>1</level></family>
+<kitchen><dimension>16 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 10</dimension><level>L</level></laundry>
+<living><dimension>15 X 12</dimension><level>1</level></living>
+<master><dimension>17 X 13</dimension><level>2</level></master>
+<study><dimension>23 X 15</dimension><level>L</level></study>
+
+<directions>RT 18 WEST L OAKBROOK DRIVE L CEDAR HILL L
+LINDEN R REDBUD</directions>
+</house_listing>
+
+
+

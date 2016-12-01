@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This 2 level home has 3 bedroom(s), 2 bath(s) . Rooms include dining
+room, living room, master bedroom.</house_description>
+
+<agent_name>Rudolf H. Weidlin</agent_name>
+<direct>905-946-0606</direct>
+<office>905-946-0606</office>
+<firm_name>Contact Inc.
+Lic. Real Estate Broker</firm_name>
+<phone>905-946-0606</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$134,900</list_price>
+<location>Burlington,Ontario,</location>
+<mls>WC0528</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Recreation Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

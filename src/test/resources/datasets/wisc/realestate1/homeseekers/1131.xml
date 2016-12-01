@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1909 has 3
+bedroom(s), 2 bath(s) and approximately 984 square feet of living
+area. Rooms include family room, bonus room. Features include
+fireplace.</house_description>
+
+<agent_name>Elizabeth Amaya</agent_name>
+<direct>213-508-9203</direct>
+<office>562-948-4553</office>
+<firm_name>C-21 Excellence C-21 Excellence</firm_name>
+<phone>562-948-4553</phone>
+<fax>562-948-2806</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$123,000</list_price>
+<location>208 E 60Th St</location>
+<mls>M903529</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>984 (approx)</square_feet>
+<lot_size>5120</lot_size>
+<year_built>1909</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Bonus Room, Family Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

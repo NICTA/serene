@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>5304 S HARRISBURG HIL</house_location>
+<price>$159,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Side,Oversized)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249043</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>RICK E NEISES</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>3 YR OLD FULL BRICK RANCH ON OVER AN ACRE. 3 BR VERY OPEN AND AIRY
+FLOOR PLAN FOR TODAYS LIFESTYLE. GAS HEAT, CENTRAL AIR. VERY PRIVATE
+SETTING WITH LOTS OF TREES SURROUNDING PROPERTY.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Aerobic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 15</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 13</dimension><level>1</level></bedroom_3>
+<dining><dimension>15 X 16</dimension><level>1</level></dining>
+<kitchen><dimension>16 X 8</dimension><level>1</level></kitchen>
+<living><dimension>15 X 18</dimension><level>1</level></living>
+<master><dimension>12 X 15</dimension><level>1</level></master>
+
+<directions>27 S, R ON LICKERT,L ON LICKING PK,R ON PLEASANT
+RDG, TO R ON HARRISBURG HILL</directions>
+</house_listing>
+
+
+

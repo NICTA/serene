@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Westfall</name>
+<office>(409)542-1234</office>
+<fax>(409)542-0078</fax>
+<email>leon@westfallrealestate.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20999</id>
+<mls>1062</mls>
+<house_location>845 N. Leon St.
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$42,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Older wood frame home on 50 x 115 city lot in Giddings.  House has 2 bedrooms and 1 bath and is heated with space heaters and cooled with  window unit.  Hardwood floores are located in all but kitchen area of the house.</house_description>
+
+<school_district>Giddings</school_district>
+<approx_size_sqft>984</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>50x115</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Centraly Located</item>
+<item>Great Starter Home</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

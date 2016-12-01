@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Roberta Roby</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email>rrobyREALT@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13880</id>
+<mls>133694</mls>
+<house_location>4025 Moorehead
+Corpus Christi, TEXAS 78410</house_location>
+<county>Nueces</county>
+<price>$103,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<move-in_date>1/25/99</move-in_date>
+<school_district>Callallen</school_district>
+<sub-division>Northwest Estates</sub-division>
+<approx_size_sqft>1741</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>70*120</approx_lot_size>
+<year_built>1990</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Pretty 4 bdrm home on a large Northwest Estates</item>
+<item>lot. Generous size family room open to tiled din.</item>
+<item>&amp; kitchen, neutral carpet. Desirable rear- wrap</item>
+<item>garage. Floored attic storage w/2 pull down stairs</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

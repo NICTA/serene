@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>21 NEWMAN RD.</house_location>
+<price>$29,500</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car None</garage>
+<suburb>0</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>247907</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>RITA HONEYCUTT</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>NICE CAMPING FACILITY-WEEKEND RESORT OR RETREAT-MOBILE WITH ADDITION
+AND LARGE ENCLOSED BACK PORCH-LARGE LOT OVERLOOKING KINCAID LAKE</house_description>
+<construction>Wood,Alum</construction>
+<heating>Electric,Wood</heating>
+<cooling>None</cooling>
+<fireplace>Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>60 x 260</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<dining><dimension>9 X 17</dimension><level>1</level></dining>
+<kitchen><dimension>7 X 9</dimension><level>1</level></kitchen>
+<living><dimension>19 X 17</dimension><level>1</level></living>
+<master><dimension>8 X 11</dimension><level>1</level></master>
+
+<directions>TAKE 159 FROM FALMOUTH TO R ON CONCORD- CADDO TO
+R ON BONAR TO L ON NEWMAN</directions>
+</house_listing>
+
+
+

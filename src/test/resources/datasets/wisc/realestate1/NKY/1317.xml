@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>2846 PADDOCK LANE</house_location>
+<price>$66,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>VILLA HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249948</mls>
+<house_type>Condominium</house_type>
+<firm>C B DETERS REALTY</firm>
+<firm_phone>(606) 341-0060</firm_phone>
+<agent>KELLY WOODRUM</agent>
+<agent_phone>(606) 341-0060</agent_phone>
+<house_description>EXCEPTIONAL RANCH CONDOMINIUM LOCATED IN VILLA HILLS. DON'T MISS OUT
+ON THIS WELL MAINTAINED CONDO.FURNANCE IS 2YRS OLD.NEW HOT WATER
+HEATER. FRESHLEY PAINTED. BEAUTIFULLY DECORATED.END UNIT.THIS ONE WONT
+LAST LONG.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>136</hoa_fee>
+<semiannual_taxes>$0.00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>8 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>7 X 7</dimension><level></level></kitchen>
+<laundry><dimension>5 X 7</dimension><level>1</level></laundry>
+<living><dimension>11 X 16</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>AMSTERDAM TO PROSPECT POINT DR. TO RIGHT ON
+SILO TO LEFT ON PADDOCK.</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>Helen Michael</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11254</id>
+<mls></mls>
+<house_location>971 KIRBY
+Houston, TEXAS 77019</house_location>
+<county>Harris</county>
+<price>$1,860,000</price>
+<bedrooms>6</bedrooms>
+<full_baths>6</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Exceptional Custom Colonial in River Oaks at 971 Kirby. 5/6 bdrms w/  6.5+1/2 baths. Beautiful grand entry, elevator, library, marble floors and pool w/spa. $1,860,000/Helen Michael.</house_description>
+
+<school_district>Hisd</school_district>
+<sub-division>River Oaks</sub-division>
+<stories>3</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>3</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>EXCLUSIVE RIVER OAKS ADDRESS</item>
+<item>MARBLE FLOORS, SPARKLING POOL WITH SPA</item>
+<item>ELEVATOR</item>
+<item>SECURITY GATE AND CAMERAS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Castleberry</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19727</id>
+<mls>R53589</mls>
+<house_location>440 S. Shorewood
+Granite Shoals, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$224,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Exceptionally Nice Home!  On quiet serene cove, large open living area, formal dining and breakfast area.  There is a large utility room.  Most of the home has been totally remodeled, even insulated windows.  This is a very nice home.</house_description>
+
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

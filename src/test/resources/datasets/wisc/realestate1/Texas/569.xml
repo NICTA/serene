@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Quisenberry</name>
+<office>(817)573-8801</office>
+<fax></fax>
+<voice_mail>(817)573-8801 148</voice_mail>
+<mobile>(817)219-0719</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21364</id>
+<mls>9131341</mls>
+<house_location>2502 Valley Ridge Drive (Ad # 160)
+in North Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$41,000</price>
+<bedrooms>2</bedrooms>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Property has a well &amp; large back yard with lots of extra storage in the house.  Would make a great rental investment or home for a small family.  Close to the boat ramp.  A home warranty is offered with the sale of the property.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Oak Trail Shores</sub-division>
+<approx_size_sqft>1118</approx_size_sqft>
+<stories>1</stories>
+<year_built>1976</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Well &amp; Large Back Yard</item>
+<item>Great Rental Investment</item>
+<item>Lots of Storage in House</item>
+<item>Ad # 160</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

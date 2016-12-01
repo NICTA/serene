@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This condominium built in 1940 has ? bedroom(s), 1 bath(s) and
+approximately 280 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Cristino Chico</agent_name>
+<office>305-932-3233</office>
+<firm_name>Arvida Realty Serv Arvida Realty Serv
+Lic. Real Estate Broker</firm_name>
+<phone>305-932-3233</phone>
+<fax>305-932-7414</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$44,900</list_price>
+<location>1801 Collins Av #1114</location>
+<neighborhood>Shelborne Ocean Beach Hot</neighborhood>
+<mls>M746177</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>280 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Wall Unit</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

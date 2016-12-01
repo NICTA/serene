@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This condominium built in 1924 has ? bedroom(s), 1 bath(s) and
+approximately 450 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Leslie Cooper</agent_name>
+<direct>305-992-7282</direct>
+<office>532-0260</office>
+<firm_name>Kent Karlock Realt
+Lic. Real Estate Broker</firm_name>
+<phone>532-0260</phone>
+<fax>305-532-0940</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$69,700</list_price>
+<location>802 Euclid Av #304</location>
+<neighborhood>The Lexington Euclid Cond</neighborhood>
+<mls>M776637</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>450 (approx)</square_feet>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

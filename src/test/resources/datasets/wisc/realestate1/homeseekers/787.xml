@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 2 level home has 3 bedroom(s), 3 bath(s) . Rooms include dining
+room, living room, master bedroom.</house_description>
+
+<agent_name>Brenda Jane Hughson</agent_name>
+<direct>905-629-1515</direct>
+<office>905-629-1515</office>
+<firm_name>Prudential Elite Realty T.W.
+Lic. Real Estate Broker</firm_name>
+<phone>905-629-1515</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$166,500</list_price>
+<location>Burlington,Ontario,</location>
+<mls>LM3359</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Townhouse/Condo</type>
+<lot_size>5.49x31.50</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Dishwasher, Microwave, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

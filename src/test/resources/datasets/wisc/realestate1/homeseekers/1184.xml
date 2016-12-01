@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1924 has 2
+bedroom(s), 1 bath(s) .</house_description>
+
+<agent_name>Elvira Camarena</agent_name>
+<direct>213-217-1122</direct>
+<office>323-722-7300</office>
+<firm_name>Realty Masters Executive Group</firm_name>
+<phone>323-722-7300</phone>
+<fax>323-722-7971</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$120,000</list_price>
+<location>208 W 90Th St</location>
+<mls>M903916</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<lot_size>5320</lot_size>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

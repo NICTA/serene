@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bill Dodson</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)992-3050</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21620</id>
+<mls>9136478</mls>
+<house_location>1101 Glen Oak Drive
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$134,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>New carpet &amp;#8217;99! Large kitchen/bkfst w/ceramic tile floors. Alarm system, gutters, energy features, sprinklers. Glassed-in sunroom w/heat &amp; air. Spa tub, double closets and vanities in main bath. Large closets in other bedrooms. Lots of extra outside electrical outlets. 8 ceiling fans; one in den to be replaced. Excellent area. Quick close &amp; possession. Home warranty. Seller/Owner is Texas licensed Realtor.Den ceiling fan to be replaced.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Oak Valley</sub-division>
+<approx_size_sqft>2000</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>120x70</approx_lot_size>
+<year_built>1992</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Lots of extras and upgrades</item>
+<item>Excellent neighborhood</item>
+<item>Quick possession possible</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

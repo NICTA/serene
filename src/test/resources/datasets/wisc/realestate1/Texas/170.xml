@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Westfall</name>
+<office>(409)542-1234</office>
+<fax>(409)542-0078</fax>
+<email>leon@westfallrealestate.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20992</id>
+<mls>1052</mls>
+<house_location>Giddings, TEXAS 78942
+Lee</house_location>
+<price>$249,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Custom home built for person in wheel chair.  It includes wide doorways, roll in shower stall, and one low bar in the kitchen area.  Tile, carpet, and sheet vinyl cover the floor thoughout and all are in great condition.  Up grade wood cabinets can be found throughout.  Crown molding, chair railing and built-in wall units just to mention a few of the extras.  There is a fully cooled and heated 2 car garage with a work shop/ home office.  There is a lot more to see in this fantastic home, so call us for full details</house_description>
+
+<school_district>Giddings</school_district>
+<approx_size_sqft>3043</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>3lots</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<handicapped_equipped>Yes</handicapped_equipped>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>great floor plan</item>
+<item>large bedrooms with private bath</item>
+<item>lots of storage</item>
+<item>security system with 2 controls</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

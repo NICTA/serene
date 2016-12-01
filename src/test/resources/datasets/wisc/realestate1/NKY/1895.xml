@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>39 CATALINA DR</house_location>
+<price>$104,500</price>
+<rooms>6</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>WALTON</suburb>
+<school_dist>WALTON VERO</school_dist>
+<mls>249938</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>TOM MORGAN</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* THIS IS A GREAT HOME * LARGE BEDROOMS * EAT-IN KITCHEN * 1ST FLR
+LAUNDRY* * BERBER CARPET * HOUSE HAS BUILT IN ONE CAR GARAGE * * HOUSE
+ON END OF STREET * GREAT VIEW *</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>15 X 12</dimension><level>2</level></bedroom_4>
+<kitchen><dimension>14 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 4</dimension><level>1</level></laundry>
+<living><dimension>16 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>SOUTH US 25 TO WALTON, R ON BEDINGER, L ON
+PINETOP, R ON CATALINA-LAST HOUSE ON R</directions>
+</house_listing>
+
+
+

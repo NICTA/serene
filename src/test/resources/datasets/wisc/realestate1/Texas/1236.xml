@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maureen Black</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)228-6659</mobile>
+<email>estladymb@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21445</id>
+<mls>9133185</mls>
+<house_location>8300 Tallahassee Lane
+Fort Worth, TEXAS 76123</house_location>
+<county>Tarrant</county>
+<price>$115,990</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Pulte-built and freshly painted, on large corner lot.  Fireplace and dishwasher have never been used!!!! Can't build a 2387 square foot home for this price! Seller offers capret allowance of $4K with full-priced offer.  Main retreat downstairs, game-room upstairs, multi-funtional rooms.  Sunlit, with room for a pool.</house_description>
+
+<school_district>Crowley I S D</school_district>
+<sub-division>Southgate</sub-division>
+<approx_size_sqft>2387</approx_size_sqft>
+<stories>2</stories>
+<year_built>1993</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>2-story Pulte home w/gameroom</item>
+<item>Large corner lot, trees, sprinklers</item>
+<item>Dishwasher &amp; fireplace never used!</item>
+<item>Sunny, garden tub, eat-in kitchen</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

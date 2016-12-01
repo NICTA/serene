@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>62 STOCKTON</house_location>
+<price>$143,600</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>248731</mls>
+<house_type>Single Family</house_type>
+<firm>A B REAL ESTATE</firm>
+<firm_phone>(606) 341-7443</firm_phone>
+<agent>DON LAAKE</agent>
+<agent_phone>(606) 341-7443</agent_phone>
+<house_description>GREAT PLAN. OPEN FAMILY ROOM. CATHEDRAL CEILINGS AND FIREPLACE. OAK
+CABINETS. HARDWOOD FOYER. 1430 SQ FT CALL 525-7800</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 11</dimension><level>1</level></breakfast>
+<family><dimension>15 X 19</dimension><level>1</level></family>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>3 X 6</dimension><level>1</level></laundry>
+<master><dimension>13 X 14</dimension><level>1</level></master>
+
+<directions>75 TO US 42 TO R ON PLEASANT VALLEY 2 MI TO RT
+ON THUNDER RIDGE 525-7800</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ginny Rhodes</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>ginny@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14205</id>
+<mls>2826</mls>
+<house_location>2826 AURORA
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$845,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Designed for entertaining, with living area overlooking Slick Rock Clubhouse pond.  Professional size office with adjoining file/workroom, art studio/den with dark room on lower level that could be a fourth bedroom (and potential third bathroom).  Gourmet kitchen, expansive master suite with private exercise room.  Golf cart garage.  Guest quarters.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Overlooking the Slick Rock Pro Shop Pond</item>
+<item>Built for entertaining</item>
+<item>Brick with tile roof</item>
+<item>Insulated windows, ceiling fans, full size bar</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

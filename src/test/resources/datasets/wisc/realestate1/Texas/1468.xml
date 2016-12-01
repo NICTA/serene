@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cathie Richard</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)331-6644 x121</voice_mail>
+<email>richhome@inetport.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21494</id>
+<mls>528879</mls>
+<house_location>16405 Pocono
+Austin, TEXAS 78717</house_location>
+<county>Williamson</county>
+<price>$169,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Four Bedroom and Study.  Formal Dining Room.  Bright Breakfast Nook.  Private Master Bedroom with Double Closets.  Luxury Master Bath.  Hardwood Floors in Dining Room, Custom Fireplace, Skylights in Kitchen, Over-sized Patio, Lush Landscaping.</house_description>
+
+<move-in_date>1/12/00</move-in_date>
+<school_district>Round Rock</school_district>
+<sub-division>Brushy Creek</sub-division>
+<approx_size_sqft>2096</approx_size_sqft>
+<year_built>1992</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Hardwood Floors</item>
+<item>Skylights</item>
+<item>Surround Sound w/6 Speakers</item>
+<item>Custom Fireplace</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

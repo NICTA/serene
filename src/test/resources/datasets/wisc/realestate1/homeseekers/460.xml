@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1995 has 3 bedroom(s), 2
+bath(s) and approximately 1254 square feet of living area.</house_description>
+
+<agent_name>Sally Adams</agent_name>
+<direct>520-881-5846</direct>
+<office>520-790-7320</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-790-7320</phone>
+<fax>520-790-7574</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$84,989</list_price>
+<location>427 W Mabel Dr</location>
+<mls>9914559</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1254 (approx)</square_feet>
+<lot_size>80X80X80X80</lot_size>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

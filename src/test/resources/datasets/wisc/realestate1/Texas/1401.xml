@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kay Wesson</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<mobile>(512)497-7200</mobile>
+<email>kcwesson@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19430</id>
+<mls></mls>
+<house_location>600 Gresham Street
+Smithville, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$149,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Adorable 3/2 home in quaint town of Smithville!  Complete with white picket fence!  This lovely home has been updated!  Spacious with formal dining and wonderful country kitchen.  Beautiful wood floors!  Two car carport!  Workshop.  Nice corner lot!  Call or e-mail Linda for more details.</house_description>
+
+<school_district>Smithville</school_district>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+
+<highlights>
+<item>Charming Home in Smithville!</item>
+<item>Great Country Kitchen with Tile!</item>
+<item>White Picket Fence!</item>
+<item>Many Gorgeous Upgrades!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

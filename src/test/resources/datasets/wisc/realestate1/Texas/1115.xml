@@ -1,0 +1,69 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Myers-Gallagher - Aransas Pass</name>
+<location>264 S. Commercial Aransas Pass, TX 78336</location>
+<office>(361)758-7534</office>
+<toll_free>(888)886-7806</toll_free>
+<fax>(361)758-5879</fax>
+<email>cbhomes@todaysproperties.com</email>
+</firm_information>
+
+<agent_information>
+<name>Betty Schmidt</name>
+<office>(361)758-7534</office>
+<fax>(361)758-5879</fax>
+<mobile>(361)815-3441</mobile>
+<email>BettyASchm@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16877</id>
+<mls>135801</mls>
+<house_location>1331 Bayview
+Portland, TEXAS 78374</house_location>
+<county>San Patricio</county>
+<price>$279,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Bring your buyers, or preview for buyers.</house_description>
+
+<move-in_date>6/22/99</move-in_date>
+<school_district>Gpisd</school_district>
+<sub-division>Briarbluff#3</sub-division>
+<approx_size_sqft>3000</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>54X233</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<waterfront>Yes</waterfront>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Guest Quarters w/Mini Kitchen</item>
+<item>New Construction on Waterfront</item>
+<item>Great New Neighborhood</item>
+<item>Lock Box/Vacant</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

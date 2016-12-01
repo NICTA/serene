@@ -1,0 +1,46 @@
+<house_listing>
+<price>$90,000</price>
+<mls_id_number>98026325</mls_id_number>
+<address>Rt 1 Box 1058 A Pioneer Rd.</address>
+<city>Homedale</city>
+<st>ID</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1344</sqft>
+<year_built></year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage></garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<features><item>Partially Fenced</item>
+<item>Garden Space</item>
+<item>Horses</item>
+<item>Irrigation</item>
+</features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<comments>3 Acres on the outskirts of Homedale. Three bedroom w/ possible fourth or fifth bedroom. Downstairs unfinished.</comments>
+<for_more_information_contact>
+<agent_name>Miren Vicandi</agent_name>
+<firm_name>Windermere Real Estate/Caldwell</firm_name>
+<firm_location>2900 Cleveland Blvd.
+Caldwell, ID</firm_location>
+<office_phone>208-459-2200</office_phone>
+<fax>(208)453-8875</fax>
+<e-mail>caldwell@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

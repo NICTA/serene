@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1974 has 2 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1081 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Roslyn Sand</agent_name>
+<direct>305-534-4442</direct>
+<office>305-534-4242</office>
+<firm_name>Beachfront Realty,
+Lic. Real Estate Broker</firm_name>
+<phone>305-534-4242</phone>
+<fax>305-532-1314</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$169,995</list_price>
+<location>4101 Pine Tree Dr #718</location>
+<neighborhood>Tower Forty One Condo</neighborhood>
+<mls>M765404</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1081 (approx)</square_feet>
+<year_built>1974</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

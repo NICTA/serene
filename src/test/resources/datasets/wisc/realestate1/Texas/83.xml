@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Quisenberry</name>
+<office>(817)573-8801</office>
+<fax></fax>
+<voice_mail>(817)573-8801 148</voice_mail>
+<mobile>(817)219-0719</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19439</id>
+<mls>9098916</mls>
+<house_location>4160 Hwy 67 E (Ad # 550)
+Glen Rose, TEXAS 76077</house_location>
+<county>Somervell</county>
+<price>$325,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Gorgeous River Front Property!!  5.4 Acres features 2 dwellings!  Main house:  2 story with wrap around decks, 3 bedrooms, 2 baths, office &amp; gameroom.  2 car rock carport w/2 5x10 storage units.  Cabin:  890 sq. ft., 2 bedrooms, 1 bath.  Extensive rock retaining wall &amp; includes 10x20 storage shed.</house_description>
+
+<school_district>Glen Rose</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>2087</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>5.4</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<waterfront>Yes</waterfront>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Gorgeous River Front</item>
+<item>5.4 Acres - 2 Dwellings</item>
+<item>Beautiful Hillside River View</item>
+<item>2 Story - Wrap Around Decks</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

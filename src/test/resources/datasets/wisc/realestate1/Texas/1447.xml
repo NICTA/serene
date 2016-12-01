@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Max</email>
+</firm_information>
+
+<agent_information>
+<name>Nelson</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12351</id>
+<mls>163663</mls>
+<house_location>4363 Yupon Ridge
+Houston, TEXAS 77072</house_location>
+<county>Harris</county>
+<price>$67,990</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Over 1600sq. ft patio home icluding a 19x16 sq ft den and a 15x13 masster bedroom.  Light and bright with glass doors leading onto extensive decking in a beautiful landscaped backyard.</house_description>
+
+<school_district>Alief</school_district>
+<sub-division>Brays Village East</sub-division>
+<approx_size_sqft>1600</approx_size_sqft>
+<stories>1</stories>
+<year_built>1976</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>134 KNOXVILLE RD</house_location>
+<price>$218,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>GARDNERSVILLE</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>250139</mls>
+<house_type>Farms</house_type>
+<firm>CALDWELL REALTY</firm>
+<firm_phone>(606) 472-5155</firm_phone>
+<agent>LINDA CALDWELL</agent>
+<agent_phone>(606) 472-5155</agent_phone>
+<house_description>6 MILES FROM CRITTENDEN NO PENDLETON CO. GARDNERSVILLE.CHARMING
+COUNTRY HOME, NEWLY UPDATED 3 BEDRM/1 BATH-STUDY COULD BE CONVERTED TO
+2ND BATH. 52 ACRES, TOB BASE, BOARD &amp; WIRE FENCE, 1-10X57 TRAILER.
+GREAT FOR HORSES/CATT</house_description>
+<construction>Wood,Vinyl,Block</construction>
+<heating>Gas,Wood</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>18 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<family><dimension>16 X 13</dimension><level>1</level></family>
+<kitchen><dimension>13 X 17</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>2</level></laundry>
+<living><dimension>13 X 17</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+<study><dimension>10 X 14</dimension><level>1</level></study>
+
+<directions>I-75S,CRITTENDEN EX,S ON 25, 1MI, L 491E 6MI,R
+ON HWY 3184,200FT,BEAR R KNOXVL RD</directions>
+</house_listing>
+
+
+

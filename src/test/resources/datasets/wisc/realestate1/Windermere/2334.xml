@@ -1,0 +1,34 @@
+<house_listing>
+<price>$199,000</price>
+<mls_id_number>145022</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>2332</sqft>
+<year_built>1910</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>58X100</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Hardwood Floors,</floors>
+<interior>Not Listed</interior>
+<exterior>Porch,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>LEWELYN</elementary>
+<middle_school>SELLWOOD</middle_school>
+<high_school>CLEVELAND</high_school>
+</schools>
+
+</house_listing>
+
+
+

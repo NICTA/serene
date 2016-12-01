@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>355 INDEPENDENCE S</house_location>
+<price>$450,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>KENTON CO</school_dist>
+<mls>250053</mls>
+<house_type>Farms</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>CHAD WYNN</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * OVER 36 ACRES IDEAL FOR ESTATE HOME *ROLLING RIDGE HAS
+SMALL POND &amp; WOODED PERIMETER PROVIDING PRIVATE SETTING * COUNTY WATER
+&amp; SEWER AVAILABLE NEAR BORDER * SMALL COTTAGE &amp; OUT BUILDINGS NEEDS
+WORK*RIC ZONED</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>15 X 8</dimension><level>1</level></breakfast>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<living><dimension>23 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>I-275 TO SOUTH ON TURKEYFOOT RD TO LEFT ON
+INDEPENDENCE STATION RD</directions>
+</house_listing>
+
+
+

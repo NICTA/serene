@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>420 W SIXTH</house_location>
+<price>$99,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248621</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JUDI REEVES</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>QUAINT 2 STY IN MAIN STRASSE VILLAGE,OWN YOUR OWN SHOP &amp; HAVE A
+BEAUTIFUL HOME ALL UNDER ONE ROOF,BIG REMODELED COUNTRY KIT,3 BRS,1.5
+BATHS,NEW FURN. BEAUTIFUL BACK YD,PLENTY OF PARKING,WON'T LAST,ZONED
+T.S.C.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 6</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>8 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>9 X 15</dimension><level>1</level></dining>
+<family><dimension>12 X 15</dimension><level></level></family>
+<kitchen><dimension>13 X 15</dimension><level>1</level></kitchen>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension>12 X 15</dimension><level>2</level></master>
+
+<directions>I75 TO 5TH ST EXIT 2ND LIGHT TURN R ON MAIN 1
+BLK TO 6TH ST TURN R 6TH HOUSE R</directions>
+</house_listing>
+
+
+

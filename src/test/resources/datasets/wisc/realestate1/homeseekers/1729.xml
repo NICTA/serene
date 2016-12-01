@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1996 has 4 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 3 car garage. Rooms include dining room,
+family room, master bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Mike Salyer</agent_name>
+<office>480-460-7440</office>
+<firm_name>Russ Lyon Realty Co</firm_name>
+<phone>480-460-7440</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$319,900</list_price>
+<location>Phoenix, AZ 85045</location>
+<mls>1432291</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>10,001-12,500</lot_size>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<location>On golf course</location>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Cable TV, Ceiling Fan(s), Dishwasher, Eat In Kitchen,Garage Door Opener, Great Room, Kitchen Island, Library, Microwave,Pantry, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

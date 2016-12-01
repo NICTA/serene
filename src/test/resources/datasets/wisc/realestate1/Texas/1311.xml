@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21582</id>
+<mls>15347</mls>
+<house_location>17 Resaca Vista
+in North San Benito, TEXAS</house_location>
+<county>Cameron</county>
+<price>$104,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautiful home on the Resaca! High Ceilings &amp; Skylights.  Ceiling Fans.  Large backyard facing the resaca.  Very neat &amp; clean.  Show very well!Community pool and boat ramp are also included!  Built in 1994.  Come take a look, you won't be dissapointed!</house_description>
+
+<school_district>San Benito</school_district>
+<sub-division>Resaca Vista</sub-division>
+<approx_size_sqft>1674</approx_size_sqft>
+<stories>1</stories>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Neat and Clean</item>
+<item>On the Resaca</item>
+<item>High Ceilings</item>
+<item>Boat Ramp</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

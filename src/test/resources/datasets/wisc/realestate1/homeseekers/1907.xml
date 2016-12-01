@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1939 has 3
+bedroom(s), 1 bath(s) and approximately 1120 square feet of living
+area. Rooms include dining room. Features include view, patio.</house_description>
+
+<agent_name>John Zamora</agent_name>
+<office>323-728-2111</office>
+<firm_name>Century 21 George Michael Real Century 21 George Michael Real</firm_name>
+<phone>323-728-2111</phone>
+<fax>323-721-0922</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$146,000</list_price>
+<location>1141 Miller Av</location>
+<mls>M904250</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1120 (approx)</square_feet>
+<lot_size>6599</lot_size>
+<year_built>1939</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

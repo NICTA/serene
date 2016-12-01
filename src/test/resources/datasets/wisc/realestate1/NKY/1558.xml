@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>3779 AUTUMN</house_location>
+<price>$86,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>ELSMERE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250134</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA HOLLMAN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>CALL BARB HOLLMAN 341-3394-CLEAN-FRESHLY PAINTED RANCH-NEW CARPET-NICE
+EQUIPT KIT-WOOD CAB-HUGE COVERED PATIO-FENCED LOT-FULL BSMT-ATTACHED
+GARAGE-CENTRAL AIR-IMMED POSS-GAS HEAT-SHOWS GREAT.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>60x160</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 91</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 91</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 91</dimension><level></level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>11 X 10</dimension><level>1</level></master>
+
+<directions>SOUTH TURKEYFOOT, RIGHT AUTUMN</directions>
+</house_listing>
+
+
+

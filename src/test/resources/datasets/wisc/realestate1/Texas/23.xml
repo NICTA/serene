@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Bobby Gronewald</name>
+<location>223 W. Travis La Grange, TX 78945</location>
+<office>(409)968-8471</office>
+<toll_free></toll_free>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Zapalac</name>
+<office>(409)968-8471</office>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17820</id>
+<mls>2221</mls>
+<house_location>310 Sunrise Avenue
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$77,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Well maintained, all electric brick home,2 bedrooms 1.5 baths, large lot, partially fenced yard. Good starter or retirement home.Kitchen with lots of storage, dining area opens onto patio with sliding glass door. Frigidaire stove, refrigerator convey along with dining table, bed, washer, and lawnmover.Nice living area with Sand colored carpet in like-new condition. Roof is approx. 5 years old. Won't last long! Call Irene Zapalac to preview (409)968-8471.</house_description>
+
+<school_district>Giddings</school_district>
+<approx_size_sqft>1286</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>100x120</approx_lot_size>
+<year_built>1981</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>All city conviences</item>
+<item>Excellent school district</item>
+<item>Short commute to Austin</item>
+<item>Good neighborhood</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

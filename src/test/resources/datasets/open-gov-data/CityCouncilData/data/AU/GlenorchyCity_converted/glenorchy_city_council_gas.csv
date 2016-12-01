@@ -1,0 +1,4 @@
+build_id,pipe_size,pipe_wt,pressure_kpa,stage,material,ownership,source,accuracy_m,bbox
+" ","32","SDR11","0"," ","PE","PowerCo","Detail Survey","0.5","List(JDouble(147.275971463892), JDouble(-42.8302542380926), JDouble(147.2767767483149), JDouble(-42.82991477368002))"
+" ","63","SDR11","0"," ","PE","GCC","Detail Survey","0.5","List(JDouble(147.2756732849552), JDouble(-42.83020540379943), JDouble(147.27597978381482), JDouble(-42.829872105754355))"
+" ","0"," ","0"," "," ","Powerco","Detail Survey","0.5","List(JDouble(147.27590132600974), JDouble(-42.83091144992626), JDouble(147.2759366405602), JDouble(-42.83088858038666))"

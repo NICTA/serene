@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>146 VALLEY VIEW</house_location>
+<price>$109,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>SOUTHGATE</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>250075</mls>
+<house_type>Single Family</house_type>
+<firm>BROERING APPRAISAL &amp; REALTY</firm>
+<firm_phone>(606) 781-2500</firm_phone>
+<agent>MARLENE BROERING</agent>
+<agent_phone>(606) 781-2500</agent_phone>
+<house_description>GREAT RANCH-SUPER LOCATION NEWER KITCHEN-WINDOWS-FURNACE AND AC. ABOVE
+GROUND POOL-FENCED YARD-DECKING-COVERED PATIO-FAMILY ROOM</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>25 X 16</dimension><level>L</level></family>
+<kitchen><dimension>16 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>14 X 9</dimension><level>L</level></laundry>
+<living><dimension>16 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>1</level></master>
+
+<directions>US#27 TO BLOSSOM LEFT ON VALLEY VIEW</directions>
+</house_listing>
+
+
+

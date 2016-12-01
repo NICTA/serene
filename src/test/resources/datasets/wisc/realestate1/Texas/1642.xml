@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Quandt</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>C21Linda@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14650</id>
+<mls>R26041</mls>
+<house_location>593 N CR 1070
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$1,375,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>File in office.  Fm 1717 To CR. 1070 - Left at Y property on left approx. 1 mile.  Large home overlooking pond &amp; pool.  40' X 120' steel frame office building &amp; storage climate controlled plus bathroom.  Horse facilities-Walker, 6 stalls, tack room, office with 1/2 bath.</house_description>
+
+<sub-division>Kt &amp; I</sub-division>
+<approx_size_sqft>5346</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>160</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Covered Patio</item>
+<item>Fishing Pier</item>
+<item>Wet Bar</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

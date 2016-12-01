@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Paul R. (Ron) Emmert</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>TEXRELEST@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21332</id>
+<mls>15252</mls>
+<house_location>240 F. Halpin
+in South Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$218,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This white brick 3000 sq. ft. -+ 5/2 home sits comfortably on 1.21 acres. Great curb appeal. Custom cabinets dominates the kitchen. Ulitity rm is located right off the kitchen area. Custom trim can be seen thru-out this family home. The open living area greets welcome guest. The 5th rm could be a beautiful guest rm or maids rm. This home is completely tile thru-out, this includes the patio and front wrap-around porch. Security is a truely a plus for this residential property. Front gate entrance (heavy duty gage wire).Extra attic space available, could be easily transfer into a grand master be</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>1</sub-division>
+<approx_acres>1.21</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Unique floor plan</item>
+<item>Workmanship thru-out home</item>
+<item>Open-floor plan</item>
+<item>Security</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

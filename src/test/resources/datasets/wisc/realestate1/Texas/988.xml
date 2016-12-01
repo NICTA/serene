@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Anne Hardin</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5984</voice_mail>
+<email>apt@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14518</id>
+<mls>487933</mls>
+<house_location>Dorset
+Austin, TEXAS 78753</house_location>
+<county>Travis</county>
+<price>$78,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Family neighborhood.  Open floor plan.  Ready to go!!!</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>Windsor Hills</sub-division>
+<approx_size_sqft>1270</approx_size_sqft>
+<stories>1</stories>
+<year_built>1972</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

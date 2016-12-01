@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level condominium built in 1940 has 2 bedroom(s), 1 bath(s) and
+approximately 800 square feet of living area. Rooms include master
+bedroom. Features include air conditioning.</house_description>
+
+<agent_name>Elbert Graves, Jr.</agent_name>
+<direct>301-423-3486</direct>
+<office>301-627-7766</office>
+<firm_name>Coldwell Banker Stevens, Realtors</firm_name>
+<phone>301-627-7766</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$25,900</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC3052718</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Condominium</type>
+<square_feet>800 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

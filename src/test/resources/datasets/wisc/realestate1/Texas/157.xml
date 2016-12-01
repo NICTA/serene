@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carol Garr</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>Cgarr@c21rapp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21079</id>
+<mls>9126351</mls>
+<house_location>2101 Town North
+Cleburne, TEXAS 76031</house_location>
+<county>Johnson</county>
+<price>$79,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Wonderful home, very neat and clean, large entrance, wbfp with brick mantle, 2 glass sliding doors off of living area, newer carpet &amp; appliances, manicured yard &amp; storage building.</house_description>
+
+<school_district>Cleburne I S D</school_district>
+<sub-division>Town North</sub-division>
+<approx_size_sqft>2017</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>148x158</approx_lot_size>
+<year_built>1975</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>230 BRENTWOOD</house_location>
+<price>$104,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>GRANT</suburb>
+<school_dist>GRANT</school_dist>
+<mls>248151</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>JIM SIMPSON</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>BRAND NEW 3 BR 2.5 BA HOME IN ON OF GRANT COUNTIES NEWEST
+DEVELOPMENTS! THIS HOME OFFRES LOTS OF LIVING SPACE FOR THE GROWING
+FAMILY WITH THE FINISHED FAMILY ROOM ON THE LOWER LEVEL! CALL JIM
+SIMPSON 606-824-4308!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>11 X 10</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>U</level></bedroom_3>
+<dining><dimension>10 X 9</dimension><level>U</level></dining>
+<family><dimension>24 X 12</dimension><level>L</level></family>
+<kitchen><dimension>9 X 8</dimension><level>U</level></kitchen>
+<living><dimension>15 X 12</dimension><level>U</level></living>
+<master><dimension>14 X 10</dimension><level>U</level></master>
+
+<directions>I75S TO DRY RIDGE, L TO R ON US25, R ON
+BRENTWOOD, JUST PAST FOOD LION.</directions>
+</house_listing>
+
+
+

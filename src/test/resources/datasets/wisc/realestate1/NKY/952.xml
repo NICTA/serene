@@ -1,0 +1,40 @@
+<house_listing>
+<house_location>5047 LICKING PKE</house_location>
+<price>$77,000</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Detached,Oversized)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>247207</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>GAYLE PRICE</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>PERFECT STARTER HOME OR FOR RETIREE. EZ TO SHOW.LARGE LOT, CATHEDRAL
+CEILINGS, WBFP, RECESSED LIGHTING, LARGE KITCHEN.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>11 X 8</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>18 X 12</dimension><level>1</level></kitchen>
+<living><dimension>21 X 12</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>ALEXANDRIA</directions>
+</house_listing>
+
+
+

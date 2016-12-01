@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1206 HUNTERS RIDGE</house_location>
+<price>$109,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>GLENCOE</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>248177</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>REGINA STEWART</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>BRICK AND FRAME RANCH ON 1+ ACRES. BEAUTIFUL WOODED LOT WITH VIEW OF
+THE HILLS, VALLEY, AND TREES. KITCHEN IS LOADED WITH CABINETS. NICE
+DECK ON THE REAR OF THE HOME TO ENJOY NATURE.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>B</level></bath_3>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>1</level></bedroom_3>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>B</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>I-71 TO GLENCOE/OWENTON EXIT, TO HWY 16 TO
+HOMESTEAD ACRES, TO HUNTER RIDGE</directions>
+</house_listing>
+
+
+

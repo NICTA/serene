@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1980 has 2 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1017 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Alejandro Riocabo</agent_name>
+<office>672-5800</office>
+<firm_name>Arvida Realty Serv Arvida Realty Serv
+Lic. Real Estate Broker</firm_name>
+<phone>672-5800</phone>
+<fax>305-673-9952</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$105,000</list_price>
+<location>8340 Harding Av #501</location>
+<neighborhood>Byron Beach Condo</neighborhood>
+<mls>M738747</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1017 (approx)</square_feet>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

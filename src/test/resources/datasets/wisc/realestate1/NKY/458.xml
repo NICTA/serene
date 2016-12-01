@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>4684 BLACKGUM</house_location>
+<price>$249,900</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Side,Oversized)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248638</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MIKE PARKER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM *3 BEDRM RANCH ON 2 LOTS APPROX 1 ACRE ON LAKE &amp;
+CUL-DE-SAC * 2 CAR SIDE ENTRY GARAGE W/1 CAR IN BSMT*WALKOUT BSMT*EAT
+IN KITCHEN *CITY WATER &amp; SEWER *POSSIBLE LEASE BURCHASE *CALL MIKE AT
+647-0700</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>250</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>14 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>12 X 8</dimension><level>1</level></breakfast>
+<dining><dimension>14 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>17 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>RT 18 WEST TO LEFT ON EAST BEND RD RIGHT INTO
+ARBORWOOD</directions>
+</house_listing>
+
+
+

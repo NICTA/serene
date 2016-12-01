@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Regency, Realtors</name>
+<location>110 N. IH-35, Ste 200A Round Rock, TX 78681</location>
+<office>(512)255-7888</office>
+<toll_free>(800)656-7888</toll_free>
+<fax>(512)244-9536</fax>
+<email>sbshavor@earthlink.net</email>
+</firm_information>
+
+<agent_information>
+<name>Betty Shavor</name>
+<office>(512)255-7888</office>
+<fax>(512)244-9536</fax>
+<email>sbshavor@earthlink.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19830</id>
+<mls>521019</mls>
+<house_location>1939 Augusta Court
+Round Rock, TEXAS 78681</house_location>
+<county>Williamson</county>
+<price>$349,950</price>
+<bedrooms>4</bedrooms>
+<full_baths>5</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>4 Bedrooms + Study or 5 bedrooms. 5 baths!!! 3 Car Garage!!! 1/2 acre lot with trees. 1 bedroom upstairs with full bath. Master suite with 2 large closets and oversized seperate shower with 2 shower heads. Jacuzzi tub in master. Security system, sprinkler system, water softener, large center island in kitchen with Corian counter top. Much, much more!!</house_description>
+
+<school_district>Old Town, Cedar Valley , Round Rock High</school_district>
+<sub-division>Plantation</sub-division>
+<approx_size_sqft>3379</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>143x167</approx_lot_size>
+<approx_acres>0.5</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Guest bedroom upstairs!</item>
+<item>3 large bedrooms down + study!</item>
+<item>Study could be 5th bedroom!</item>
+<item>Must see this home!!!!!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

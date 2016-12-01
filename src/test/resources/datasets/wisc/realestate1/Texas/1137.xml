@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Filina</name>
+<office>(817)295-8171</office>
+<fax>(817)295-6426</fax>
+<mobile>(817)980-4718</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20962</id>
+<mls>9126746</mls>
+<house_location>720 E. Glendale
+Crowley, TEXAS 76036</house_location>
+<county>Tarrant</county>
+<price>$66,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Light, Bright, and Clean!  Nearly new (2 years old) refrigerator, plus a freezer, both convey.  Trees, wood deck, brick home with chain link fenced yard.  Gas for energy efficiency.  Dishwasher, icemaker, ceiling fans.  Priced to sell, call now.</house_description>
+
+<school_district>Crowley I S D</school_district>
+<sub-division>Crowley Park</sub-division>
+<approx_size_sqft>1200</approx_size_sqft>
+<stories>1</stories>
+<year_built>1969</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

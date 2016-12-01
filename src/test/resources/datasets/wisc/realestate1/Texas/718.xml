@@ -1,0 +1,45 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Joan Lowry</name>
+<office>(409)885-6400</office>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20418</id>
+<mls></mls>
+<house_location>413 Second St.
+Sealy, TEXAS 77474</house_location>
+<county>Austin</county>
+<price>$55,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Antique home on 3 city lots in need of TLC. One of Sealy's first homes with documentation to prove history! Sturdy cypress wood construction!</house_description>
+
+<school_district>Sealy Isd</school_district>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

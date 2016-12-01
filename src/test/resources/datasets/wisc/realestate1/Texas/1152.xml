@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jeffers Mary Ann</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>maryannc-21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21139</id>
+<mls>323799</mls>
+<house_location>11059 White Sands St
+Live Oak, TEXAS 78233</house_location>
+<county>Bexar</county>
+<price>$68,521</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Freshly painted inside, ready to move into.  This home has been well taken care of.  Great covered patio to enjoy the evenings. Fireplace to enjoy the cold winter nights.  Formal living areas. Great Price.  Whasher and Dryer to convey, refrigerator negotiable.</house_description>
+
+<school_district>Judson</school_district>
+<sub-division>Live Oak</sub-division>
+<approx_size_sqft>1272</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>63x120</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

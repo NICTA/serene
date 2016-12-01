@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>4533 DECOURSEY AVE</house_location>
+<price>$36,000</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>250168</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>JOY D'AMICO</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * GREAT FOR INVESTORS * HOME IN NEED OF REPAIRS * NEWER
+WIRING &amp; WATER HEATER *</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25 x 120</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 8</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>20 X 11</dimension><level>1</level></kitchen>
+<living><dimension>18 X 11</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>SOUTH ON DECOURSEY</directions>
+</house_listing>
+
+
+

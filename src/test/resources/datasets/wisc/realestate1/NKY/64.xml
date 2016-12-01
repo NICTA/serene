@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>430 FOXHUNT</house_location>
+<price>$184,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>247664</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>BEVERLY A STALEY</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCY.COM ALMOST NEW RANCH, CATHEDRAL CEILINGS,
+NEUTRAL, HARDWOOD FLOORS, GOURMET KTICHEN, LARGE DECK OVERLOOKS WOODED
+LOT, WALKOUT BASEMENT</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<family><dimension>20 X 17</dimension><level>1</level></family>
+<kitchen><dimension>12 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 7</dimension><level>1</level></laundry>
+<master><dimension>16 X 13</dimension><level>1</level></master>
+
+<directions>I75 S TO EXIT 175, R RICHWOOD RD-.35 MI TO L
+INTO STEEPLECHASE, R ON FOXHUNT</directions>
+</house_listing>
+
+
+

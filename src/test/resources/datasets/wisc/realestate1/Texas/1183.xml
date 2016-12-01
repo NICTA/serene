@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kay Zagst</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>kayz@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21435</id>
+<mls>54715</mls>
+<house_location>2305 Valley East Lane
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$92,250</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>WELL KEPT HOME ON THREE LOTS WITH VERY NICE TREES. NEWLY REPLACED, HIGH QUALITY CARPET AND CERAMIC TILE THROUGHOUT. MASTER BEDROOM EITHER UPSTAIRS OR DOWNSTAIRS. BONUS GUEST QUARTERS.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Kingswood Section</sub-division>
+<approx_size_sqft>1566</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>0.66</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>NEWLY REPLACED HIGH QUALITY CARPET!</item>
+<item>DECK AND PATIO!</item>
+<item>WELL KEPT STONE HOME!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

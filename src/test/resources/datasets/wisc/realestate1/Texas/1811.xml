@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shirley Hooks</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20173</id>
+<mls>9115125</mls>
+<house_location>321 W. Doyle Street (Ad # 149)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$159,021</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Could be historical market!  2 blocks from Granbury's historical square.  Substantial work has been done as far as remodeling &amp; updating.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Thrash</sub-division>
+<approx_size_sqft>1653</approx_size_sqft>
+<stories>1</stories>
+<year_built>1914</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Historical Home - 1914</item>
+<item>Remodeling &amp; Updating</item>
+<item>Close to Granbury's Square</item>
+<item>Ad # 149</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level home built in 1977 has ? bedroom(s), 2 car attached
+garage and approximately 2241 square feet of living area. Features
+include patio, air conditioning.</house_description>
+
+<agent_name>Nancy Boerner</agent_name>
+<direct>783-5200</direct>
+<office>782-8911</office>
+<firm_name>Sagely &amp; Edwards Co. Better</firm_name>
+<phone>782-8911</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$95,000</list_price>
+<location>1125 Tancred</location>
+<neighborhood>Tancred Place #2</neighborhood>
+<mls>10018589</mls>
+<status>Active</status>
+<levels>1</levels>
+<garage></garage>
+<type>Townhouse/Condo</type>
+<style>Traditional</style>
+<square_feet>2241 (approx)</square_feet>
+<lot_size>150 X 250 *</lot_size>
+<year_built>1977</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Electric</heating>
+<location>Cul-de-sac</location>
+<patio>Patio</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Landscaped, Smoke Alarms, Traditional Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

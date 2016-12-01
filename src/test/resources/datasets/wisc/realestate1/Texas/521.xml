@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Schiavone</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-3568</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21018</id>
+<mls>516349</mls>
+<house_location>6610 BRADLEY DR.
+Austin, TEXAS 78723</house_location>
+<county>Travis</county>
+<price>$99,800</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>BEAUTIFUL NEIGHBORHOOD.  VIEW THRU FRENCH DOORS OUT TO PATIO DECK WITH LARGE TREE AND PATH LEADING DOWN TO CREEK.  MASTER BEDROOM HAS SUPER PRIVACY.  LARGE OPEN FLOORPLAN.</house_description>
+
+<school_district>Austin, Andrews, Pearce, Lbj</school_district>
+<sub-division>University Hills</sub-division>
+<approx_size_sqft>2065</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>102 X 270</approx_lot_size>
+<year_built>1963</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>TILED FLOORS IN DINING AND KITCHEN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

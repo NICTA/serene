@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>5114 SHAW HESS RD</house_location>
+<price>$236,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>CAMPBELL CO</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>248512</mls>
+<house_type>Single Family</house_type>
+<firm>TEEGARDEN REALTY &amp; AUCTION</firm>
+<firm_phone>(606) 635-1760</firm_phone>
+<agent>JAY TEEGARDEN</agent>
+<agent_phone>(606) 635-1760</agent_phone>
+<house_description>BEAUTIFUL MINI FARM WITH LIKE NEW BUILDINGS, BARN FOR HORSES, LRG.
+LAKE GOOD FENCE, WELL MAINTAINED, MUST SEE TO APPRECIATE. PLENTY OF
+PRIVACY.</house_description>
+<construction>Brick</construction>
+<heating>Oil</heating>
+<cooling>None</cooling>
+<fireplace>Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>10 X 12</dimension><level>1</level></bedroom_2>
+<dining><dimension>13 X 8</dimension><level>1</level></dining>
+<family><dimension>24 X 26</dimension><level>L</level></family>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 14</dimension><level>L</level></laundry>
+<living><dimension>11 X 21</dimension><level>1</level></living>
+<master><dimension>11 X 16</dimension><level>1</level></master>
+
+<directions>PERSIMMON GROVE PIKE TO RIGHT ON SHAW HESS APP 1
+&amp; 1/2 MILES.</directions>
+</house_listing>
+
+
+

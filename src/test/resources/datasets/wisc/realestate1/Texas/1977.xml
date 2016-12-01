@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Frank Rainosek</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<mobile>(512)924-1901</mobile>
+<email>rainosek@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19308</id>
+<mls></mls>
+<house_location>1091 W Hwy 71
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$139,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Many wonderful commercial possibilities!  Hwy 71 frontage!  3+ Oak covered acres!  Nice 2/2/2 home that needs some repair.  Small stock pond. Livestock fenced!  Easy commute to Austin and Bastrop!  Call or e-mail  Frank for more details.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Hwy 71 Frontage!</item>
+<item>3+ Oak Covered Acres!</item>
+<item>Small Stock Pond!</item>
+<item>Easy Commute to Bastrop and Austin!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

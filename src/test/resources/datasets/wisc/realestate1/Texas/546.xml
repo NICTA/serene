@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kim Hodge</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>kim@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21277</id>
+<mls>54635</mls>
+<house_location>7360 Hwy 281 S
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$142,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>10 ACRE COWBOY SPECIAL! 105 x 260 ARENA, THREE STALL HORSE BARN WITH TACKROOM. FENCED AND CROSS FENCED, 60 GPM WELL. THE HOUSE IS DESIGNED FOR EASY ADDITIONS. CUTE PROPERTY, ONLY FOUR YEARS OLD! HIGHWAY FRONTAGE WITH NO RESTRICTIONS.</house_description>
+
+<school_district>Marble Falls</school_district>
+<approx_size_sqft>960</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>10</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>COWBOY SPECIAL!</item>
+<item>10 ACRES PERFECT FOR HORSES!</item>
+<item>HOME DESIGNED FOR EASY ADDITION!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

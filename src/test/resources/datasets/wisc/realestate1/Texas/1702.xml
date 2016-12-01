@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debi Harper</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)289-7124</mobile>
+<email>Two4OneC21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19415</id>
+<mls>88333</mls>
+<house_location>1504 Vista Circle
+Copperas Cove, TEXAS 76522</house_location>
+<county>Coryell</county>
+<price>$135,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Very large, beautiful four bedroom, three baths, two living and two car garage home under construction.  Appraisal on hand for quick closing.  Appraisal at $135,000.</house_description>
+
+<school_district>Copperas Cove</school_district>
+<sub-division>Boulder Floor</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>2346</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>80x120</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

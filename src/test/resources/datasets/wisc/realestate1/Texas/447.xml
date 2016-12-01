@@ -1,0 +1,45 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Dean Duncan</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<mobile>(361)946-0753</mobile>
+<email>G101PD60@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18753</id>
+<mls>139181</mls>
+<house_location>l3 b7 south fork park
+Corpus Christi, TEXAS 78414</house_location>
+<county>Nueces</county>
+<price>$28,900</price>
+
+<house_description>New section of south fork - lot size approx 60X102</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>5426</sub-division>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

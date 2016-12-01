@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>2 br 1 ba home with nice view to downtown l.A. Plus 1 br unit in
+basement owner occupied built without permit 2 door garage/nice patio
+2 for the price of one. Next to cal-state.</house_description>
+
+<agent_name>Salvador Gonzalez</agent_name>
+<office>323-722-8282</office>
+<firm_name>C-21 Casa Estates C-21 Casa Estates</firm_name>
+<phone>323-722-8282</phone>
+<fax>323-890-2525</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$133,000</list_price>
+<location>1558 Steele Av</location>
+<mls>R97691</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>812 (approx)</square_feet>
+<lot_size>4901 (approx)</lot_size>
+<year_built>1952</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

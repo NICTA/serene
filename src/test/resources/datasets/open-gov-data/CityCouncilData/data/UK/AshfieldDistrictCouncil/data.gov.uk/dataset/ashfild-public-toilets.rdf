@@ -1,0 +1,114 @@
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/">
+  <dcat:Dataset rdf:about="http://data.gov.uk/dataset/ashfild-public-toilets">
+    <owl:sameAs rdf:resource="urn:uuid:dea64816-2279-4ab2-a504-276f18628d70"></owl:sameAs>
+    <dct:description>Public toilets in Ashfield, location and accessibility</dct:description>
+        <dcat:keyword>disabled toilet.</dcat:keyword>
+        <dcat:keyword>toilets</dcat:keyword>
+    <foaf:homepage rdf:resource="http://data.gov.uk/dataset/ashfild-public-toilets"></foaf:homepage>
+    <rdfs:label>ashfild-public-toilets</rdfs:label>
+    <dct:identifier>ashfild-public-toilets</dct:identifier>
+    <dct:title>Ashfield Public Toilets</dct:title>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://www.ashfield-dc.gov.uk/media/1098733/public_toilets.csv"></dcat:accessURL>
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>CSV</rdf:value>
+                            <rdfs:label>CSV</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+            </dcat:Distribution>
+        </dcat:distribution>
+    <dct:rights rdf:resource="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"></dct:rights>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-email</rdfs:label>
+            <rdf:value>lpg@ashfield-dc.gov.uk</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-name</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-phone</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>core-dataset</rdfs:label>
+            <rdf:value>False</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>foi-email</rdfs:label>
+            <rdf:value>foi@ashfield-dc.gov.uk</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>foi-name</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>foi-phone</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>foi-web</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>mandate</rdfs:label>
+            <rdf:value>[""]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>odi-certificate</rdfs:label>
+            <rdf:value>{"status": "final", "source": "Automatically awarded by ODI", "certification_type": "automatically awarded", "level": "raw", "title": "Ashfild Public Toilets", "created_at": "2014-10-28T10:30:30Z", "jurisdiction": "GB", "certificate_url": "https://certificates.theodi.org/datasets/3294/certificates/15732", "badge_url": "https://certificates.theodi.org/datasets/3294/certificates/15732/badge.png", "cert_title": "Basic Level Certificate"}</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_coverage-from</rdfs:label>
+            <rdf:value>2014-07-30</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_coverage-to</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>theme-primary</rdfs:label>
+            <rdf:value>Towns &amp; Cities</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>unpublished</rdfs:label>
+            <rdf:value>false</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>update_frequency</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+  </dcat:Dataset>
+</rdf:RDF>

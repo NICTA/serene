@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1971 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 673 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>De La Cruz, Luis</agent_name>
+<direct>305-931-2094</direct>
+<office>305-945-1994</office>
+<firm_name>D' La Cruz Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-945-1994</phone>
+<fax>305-792-0050</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$90,000</list_price>
+<location>6969 Collins Av #1506</location>
+<neighborhood>Port Royale Condo</neighborhood>
+<mls>M705680</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>673 (approx)</square_feet>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Electric</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Handicap modified interior
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

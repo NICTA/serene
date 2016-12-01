@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1907 has 4
+bedroom(s), 3 full bath(s)/1 half bath(s) , 1 car garage. Rooms
+include dining room, master bedroom. Features include patio,
+fireplace, air conditioning.</house_description>
+
+<agent_name>Andrew Greenspan</agent_name>
+<direct>301-445-9200</direct>
+<office>301-564-4900</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-564-4900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$999,000</list_price>
+<location>Washington, DC 20010</location>
+<mls>DC3081391</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3(full) 1(half)</baths>
+<levels>3 or more</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>7440</lot_size>
+<year_built>1907</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Hot Water</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

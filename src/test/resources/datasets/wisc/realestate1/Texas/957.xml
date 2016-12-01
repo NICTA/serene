@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Hassan Jaffar</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5971</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>16125</id>
+<mls>503717</mls>
+<house_location>Onion Crossing
+Austin, TEXAS 78744</house_location>
+<county>Travis</county>
+<price>$59,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Fenced Backyard, large carport.Large bedroomms and kitchen.Nice shade trees.The Austin Residential market is very active and properties such as this one move quickly.</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>Onion Creek Forest</sub-division>
+<approx_size_sqft>1456</approx_size_sqft>
+<stories>1</stories>
+<year_built>1978</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Washer/Dryer/Dishwasher/Refrigerator</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

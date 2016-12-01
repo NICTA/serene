@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This single family home built in 1949 has 3 bedroom(s), 2 bath(s) , 1
+car detached garage and approximately 2189 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Helen Hansen</agent_name>
+<direct>305-501-8233</direct>
+<office>305-759-9645</office>
+<firm_name>Tri Village Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-759-9645</phone>
+<fax>305-759-9254</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$159,900</list_price>
+<location>14020 NW 1 Av</location>
+<neighborhood>Biscayne Gdns Sec H Part</neighborhood>
+<mls>M774914</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>2189 (approx)</square_feet>
+<lot_size>111 X 310</lot_size>
+<year_built>1949</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<patio>Deck</patio>
+<pool>Yes</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Fenced, Outdoor Lights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

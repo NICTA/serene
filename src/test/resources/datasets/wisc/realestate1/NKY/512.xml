@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>837 COVERT RUN</house_location>
+<price>$205,900</price>
+<rooms>12</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>(Builtin)</garage>
+<suburb>BELLEVUE</suburb>
+<school_dist>BELLEVUE</school_dist>
+<mls>248908</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>DONNA HOFFMAN</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>LL KIT. 8X9 APT.--DECK 14X20, +PATIO--NEWER ROOF, NEWER A/C-95,
+HARDWOOD FLOORS, 2 FAMILY ROOMS,2 WBFP WITH INSERT, LOTS OF STORAGE,
+NEAR FT THOMAS CUSTOM BUILT.</house_description>
+<construction>Brick</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>128x285</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>11 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 13</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>11 X 13</dimension><level>L</level></bedroom_4>
+<breakfast><dimension>13 X 7</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 15</dimension><level>1</level></dining>
+<family><dimension>17 X 17</dimension><level>L</level></family>
+<kitchen><dimension>13 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 20</dimension><level>L</level></laundry>
+<living><dimension>12 X 20</dimension><level>1</level></living>
+<master><dimension>13 X 15</dimension><level>1</level></master>
+<recreation_room><dimension>13 X 15</dimension><level>1</level></recreation_room>
+<study><dimension>10 X 10</dimension><level>1</level></study>
+
+<directions>471 TO RT 8 TO RIVERA OR TO 6TH BECOMES COVERT
+OR N.FT. THOMAS TO COVERT RUN</directions>
+</house_listing>
+
+
+

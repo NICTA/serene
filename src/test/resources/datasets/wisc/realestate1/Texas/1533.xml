@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>INA PERLMAN</name>
+<office>(713)621-4953</office>
+<fax>(713)621-4953</fax>
+<voice_mail>(713)621-4953 108</voice_mail>
+<email>mob@onramp.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11593</id>
+<mls>78024</mls>
+<house_location>1290 JIMMY PHILLIPS BLVD.
+Angleton, TEXAS 77515</house_location>
+<county>Brazoria</county>
+<price>$1,000,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>HISTORIC BRAZORIA COUNTY! 35 MINUTES FROM THE MED CENTER! CUSTOM BUILT IN 1988! MAGNIFICENT GEORGIAN COUNTRY HOME! APPROXIMATELY 31 ACRES + 5 ACRE STOCKED LAKE! CALL FOR BROCHURE/VIDEO FOR MANY, MANY MORE AMENITIES!</house_description>
+
+<school_district>Brazoria</school_district>
+<sub-division>Baileys Prarie</sub-division>
+<stories>2</stories>
+<approx_acres>31</approx_acres>
+<year_built>1988</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>3</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>HISTORIC BRAZORIA COUNTY</item>
+<item>35 MINUTES TO MEDICAL CENTER</item>
+<item>31 ACRES + 5 ACRE STOCKED LAKE</item>
+<item>MAGNIFICENTGEORGIAN COUNTRY HOME</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

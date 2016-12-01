@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2 BRANDYWINE CT</house_location>
+<price>$164,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249767</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>STEVEN E MORRIS</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>NEW CONSTRUCTION-APPROXIMATELY 26OO S.F. ON 2 LEVELS. NATURAL GAS,
+COUNTY TAXES. 1.09 LEVEL ACRE LOT. TIME TO CHOOSE COLORS. CALL STEVE
+FOR DETAILS.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>15 X 11</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>11 X 18</dimension><level>L</level></bedroom_3>
+<family><dimension>47 X 15</dimension><level>L</level></family>
+<kitchen><dimension>13 X 21</dimension><level>U</level></kitchen>
+<living><dimension>17 X 14</dimension><level>U</level></living>
+<master><dimension>15 X 15</dimension><level>U</level></master>
+
+<directions>US27 TO OLD STATE RD #3, RT ON OAK LN TO
+BRANDYWINE</directions>
+</house_listing>
+
+
+

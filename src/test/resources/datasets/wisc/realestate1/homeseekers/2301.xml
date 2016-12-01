@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1930 has 2
+bedroom(s), 1 bath(s) and approximately 525 square feet of living
+area. Rooms include master bedroom.</house_description>
+
+<agent_name>Carlyta Smith</agent_name>
+<office>202-543-8060</office>
+<firm_name>Century 21 Ashby &amp; Associates, Inc.</firm_name>
+<phone>202-543-8060</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$50,000</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC2523898</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>525 (approx)</square_feet>
+<lot_size>10312</lot_size>
+<year_built>1930</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

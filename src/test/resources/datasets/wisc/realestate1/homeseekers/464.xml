@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 2 level attached home built in 1967 has 4 bedroom(s), 2.5 bath(s)
+and approximately 1892 square feet of living area. Rooms include
+family room, living room, master bedroom. Features include patio.</house_description>
+
+<agent_name>Bobette Chapman</agent_name>
+<direct>858-565-0473</direct>
+<office>858-450-2100</office>
+<firm_name>Century 21 Able Century 21 Able</firm_name>
+<phone>858-450-2100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$214,900</list_price>
+<location>San Diego, CA 92111</location>
+<mls>99 6025979</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2.5</baths>
+<levels>2</levels>
+<type>Townhouse/Condo</type>
+<square_feet>1892 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<patio>Yes</patio>
+<pool>Community Pool</pool>
+<rooms>Family Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Neighborhood Pool
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

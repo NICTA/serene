@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>223 E 3RD</house_location>
+<price>$139,500</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WELLINGTON ROW</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247855</mls>
+<house_type>Condominium</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>RITA J MCQUEARRY</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>LOCATED IN COVINGTON'S HISTORICAL WELLINGTON ROW-BUILT IN 1880,BUT
+RECENTLY RENOVATED &amp; CONVERTED TO CONDOS A BLOCK &amp; A BRIDGE TO
+DOWNTOWN CINTI WITH ALL THE CONVENIENCES OF RESTAURANTS CITY &amp; RIVER
+VIEWS PLUS OLD WORLD CHARM</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>.</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>50</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>3</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>3</level></bedroom_2>
+<dining><dimension>19 X 15</dimension><level>2</level></dining>
+<kitchen><dimension>13 X 12</dimension><level>2</level></kitchen>
+<laundry><dimension>7 X 3</dimension><level>2</level></laundry>
+<living><dimension>19 X 15</dimension><level>2</level></living>
+<master><dimension>19 X 14</dimension><level>3</level></master>
+
+<directions>SUSPENSION BRIDGE-ONE BLOCK TO 3RD ST- RIGHT TO
+223B EAST 3RD STREET</directions>
+</house_listing>
+
+
+

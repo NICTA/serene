@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Randy McDonald</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)699-4354</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19443</id>
+<mls>518981</mls>
+<house_location>143 Chippewa Dr.
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$72,599</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>This is a framed house built around a permanetly afixed mobile home.  Lots of material here to get the job done, cabinets, wiring, etc.  Plumbing stubbed.  Lots of potential.  Owner transferred.  7 lots in trees.  Great location.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Lake Thunderbird</sub-division>
+<approx_size_sqft>2500</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1.75</approx_acres>
+<year_built>1989</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Beautiful corner property</item>
+<item>Ready for completion</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

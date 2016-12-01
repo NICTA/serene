@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1984 has 2 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2353 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Carole Levi</agent_name>
+<direct>520-298-4463</direct>
+<office>520-577-7433</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-577-7433</phone>
+<fax>520-577-5417</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$325,000</list_price>
+<location>5574 E Paseo Del Fuente</location>
+<mls>9917304</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2353 (approx)</square_feet>
+<lot_size>48X134X110X147</lot_size>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Living Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

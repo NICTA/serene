@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Joyce Sterling</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 122</voice_mail>
+<mobile>(512)567-6460</mobile>
+<email>joyces@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12413</id>
+<mls>485782</mls>
+<house_location>1865 Wayside Drive
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$98,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>&amp;quot;VIEWS&amp;quot; galore on this 2 acre fenced corner lot on Wayside Drive. 4/bdrm 2/bath mfg. home with several buildings. Well maintained. Must see!</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<approx_size_sqft>1700</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>2</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

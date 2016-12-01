@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1905 has 2 bedroom(s), 1 bath(s) and
+approximately 1019 square feet of living area.</house_description>
+
+<agent_name>Julie P Niebauer</agent_name>
+<direct>722-6456</direct>
+<office>303-722-6456</office>
+<firm_name>Provident Real Estat</firm_name>
+<phone>303-722-6456</phone>
+<fax>303-778-6068</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$189,900</list_price>
+<location>1056 S Pennsylvania St</location>
+<neighborhood>Washington Park W</neighborhood>
+<mls>354286</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1019 (approx)</square_feet>
+<year_built>1905</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

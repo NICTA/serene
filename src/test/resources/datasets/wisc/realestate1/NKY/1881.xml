@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>29 ROSELAWN</house_location>
+<price>$174,900</price>
+<rooms>11</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>-</suburb>
+<school_dist>WILLIAMSTOW</school_dist>
+<mls>250260</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>JIM SIMPSON</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>ABSOLUTELY BEAUTIFUL 2 STORY HOME!LOCATED ON A DEAD END STREET,CLOSE
+TO I75 LOTS OF SPACE,BONUS ROOM OVER GARAGE,HDWD/LAMINATE
+FLOORING,NATURAL WDWORK 16X12 DECK OVERLOOKING A NEARBY FARM,FULL
+BASEMENT,A GREAT HOME!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>12 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>10 X 8</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<family><dimension>14 X 10</dimension><level>1</level></family>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 5</dimension><level>2</level></laundry>
+<living><dimension>12 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>2</level></master>
+<study><dimension>15 X 9</dimension><level>2</level></study>
+
+<directions>75S TO WILLIAMSTOWN,L TO L ON US25,R ON K Y22,R
+ON CYNTHIANA STREET,R ON ROSELAWN</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>155 BURGESS LN</house_location>
+<price>$119,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Builtin)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>243013</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>JANET EHRHARDT</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*2 STORY HOME CLOSE TO
+FLORENCE MALL AND SHOPPING. KITCHEN APPLIANCES STAY. OVERSIZED DINING
+ROOM. FENCED. NEWER WATER HEATER, NEWER GARAGE DOOR.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>9 X 12</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<family><dimension>16 X 12</dimension><level>1</level></family>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<living><dimension>20 X 11</dimension><level>1</level></living>
+<master><dimension>12 X 17</dimension><level>2</level></master>
+
+<directions>US 42 TO RT ON HOPEFUL CHURCH TO LEFT ON BURGESS
+LN</directions>
+</house_listing>
+
+
+

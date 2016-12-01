@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Bobby Gronewald</name>
+<location>223 W. Travis La Grange, TX 78945</location>
+<office>(409)968-8471</office>
+<toll_free></toll_free>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Zapalac</name>
+<office>(409)968-8471</office>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>688</id>
+<mls>2182T</mls>
+<house_location>827 S Penn St.
+Flatonia, TEXAS 78941</house_location>
+<county>Fayette</county>
+<price>$265,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Lovely 4/4 split level brick home, exquisitely decorated with custom detail. Glass doors looking onto the covered patio, built-in bar-b-que  for summer entertaining. Beautifully landscaped yard, set to perfection. Located in a quaint, small town with easy access to Austin, Houston, San Antonio. Contact Listing Agent, Irene Zapalac at 409-968-8471 for complete details.</house_description>
+
+<school_district>Flatonia School District</school_district>
+<approx_size_sqft>4800</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>200 x 225</approx_lot_size>
+<year_built>1982</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Nice , quiet neighborhood</item>
+<item>Close to school</item>
+<item>Exquisitely maintained</item>
+<item>Near Austin/ Houston/San Antonio</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

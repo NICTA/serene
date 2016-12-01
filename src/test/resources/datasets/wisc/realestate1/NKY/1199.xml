@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>163 AMBROSE ROAD</house_location>
+<price>$162,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>WARSAW</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>249992</mls>
+<house_type>Farms</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>VICKIE BOLTON-HOUSE</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>WONDERFUL COUNTRY LIVING JUST MINUTES FROM SHOPPING MALL-COZY AND
+CHARMING HOME NESTLED ON 20+/- ACRES-HOME FEATURES INCLUDE 2
+FIREPLACES, NATURAL WOODWORK AND A KITCHEN W/ISLAND AND PANTRY-3BDRM,
+1 BATH-DON'T MISS OUT</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Space Heater</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Gas</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>16 X 9</dimension><level>1</level></breakfast>
+<family><dimension>13 X 12</dimension><level>1</level></family>
+<kitchen><dimension>17 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>16 X 7</dimension><level>1</level></laundry>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>2</level></master>
+
+<directions>SOUTH ON US 42 TO R ON AMBROSE ROAD APPROX 14
+MILES FROM MALL ROAD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>charlie long</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12068</id>
+<mls>50891</mls>
+<house_location>107 CHANNEL DRIVE
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$144,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A WONDERFUL FAMILY HOME WITH 70' OF GOOD CHANNEL WITH A GREAT VIEW OF THE MAIN LAKE FROM THE HOUSE AND NEW DECK. STUDY COULD BE THIRD BEDROOM. HOME FACES EAST. THIS IS A REALLY NICE ONE AND IS PRICED TO SELL. OWNER MOTIVATED.</house_description>
+
+<move-in_date>4/20/99</move-in_date>
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach Unit 2-b</sub-division>
+<approx_size_sqft>1750</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>123X70X119X70</approx_lot_size>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>FACES EAST</item>
+<item>VIEW OF MAIN LAKE</item>
+<item>IN GOOD CONDITION</item>
+<item>OWNER MOTIVATED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

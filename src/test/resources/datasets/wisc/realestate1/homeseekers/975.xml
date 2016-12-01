@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1940 has 4 bedroom(s), 3 bath(s) and
+approximately 2051 square feet of living area.</house_description>
+
+<agent_name>Janie Mills</agent_name>
+<direct>720-353-6905</direct>
+<office>303-399-7777</office>
+<firm_name>Perry &amp; Co.</firm_name>
+<phone>303-399-7777</phone>
+<fax>303-399-7783</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$499,000</list_price>
+<location>800 Bonnie Brae Bl</location>
+<neighborhood>Bonnie Brae</neighborhood>
+<mls>384559</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2051 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

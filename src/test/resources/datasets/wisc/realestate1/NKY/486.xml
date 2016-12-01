@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>7493 STERLING SPGS</house_location>
+<price>$128,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Tri-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>246126</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>FRANCINE FINLEY</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>BRIGHT PRETTY HOME, IMMACULATELY CLEAN! VAULTED CEILING, PLANT LEDGES
+&amp; BOOK NOOKS. HIS &amp; HER CLOSETS IN MB. LARGE LEVEL CUL-DE-SAC LOT IS
+ALMOST 1/2 ACRE-FOR FAMILY, GARDEN OR JUST GREEN SPACE!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>3</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>3</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>3</level></bedroom_3>
+<family><dimension>19 X 12</dimension><level>1</level></family>
+<kitchen><dimension>17 X 12</dimension><level>2</level></kitchen>
+<laundry><dimension>10 X 6</dimension><level>1</level></laundry>
+<living><dimension>16 X 13</dimension><level>2</level></living>
+<master><dimension>14 X 12</dimension><level>3</level></master>
+
+<directions>I75 TO RT 18 W, L CAMP ERNST TO L PEBBLE CREEK,
+R STONY BROOK, R STERLING SPRING</directions>
+</house_listing>
+
+
+

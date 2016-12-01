@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1984 has 3 bedroom(s), 3
+bath(s) , 3 car garage and approximately 2573 square feet of living
+area. Features include view, patio, fireplace, storage space.</house_description>
+
+<agent_name>Nancy Fossland</agent_name>
+<direct>520-440-7299</direct>
+<office>520-797-4800</office>
+<firm_name>Peyton Taylor Realty</firm_name>
+<phone>520-797-4800</phone>
+<fax>520-498-0999</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$269,900</list_price>
+<location>1700 W Placita Caracol</location>
+<mls>9919363</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2573 (approx)</square_feet>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Alicia Stonick</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19666</id>
+<mls>9098152</mls>
+<house_location>715 Comanche Cove Drive (Ad # 609)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$44,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This home can go commercial.  Live in your home &amp; run your own business.  Lot ofsquare footage for the price!</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Comanche Cove</sub-division>
+<approx_size_sqft>1864</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>91x201x91x209</approx_lot_size>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Can Go Commercial</item>
+<item>Live at Home - Run a Business</item>
+<item>Lot of Sq. Ft. for Price</item>
+<item>Ad # 609</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

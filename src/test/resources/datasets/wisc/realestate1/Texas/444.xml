@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joyce Hoard</name>
+<office>(254)542-1800</office>
+<fax>(254)542-1839</fax>
+<mobile>(254)681-5841</mobile>
+<email>jhoard@mailexcite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19596</id>
+<mls>88366</mls>
+<house_location>RT2, Box 226
+Lampasas, TEXAS 76550</house_location>
+<county>Lampasas</county>
+<price>$112,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>1 year old house on 12 acres.  Deer Meadow subdivision.  Lots of privacy, decks, 2 living areas, 2 dining areas, beautiful kitchen &amp; breakfast room.</house_description>
+
+<school_district>Lampasas</school_district>
+<sub-division>Deer Meadow</sub-division>
+<approx_size_sqft>1860</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>12</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Open Porch, Open Patio</item>
+<item>Dining area bay window</item>
+<item>Ceiling fans</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

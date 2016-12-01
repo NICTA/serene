@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>12915 HWY 127 NORTH</house_location>
+<price>$69,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>GLENCOE</suburb>
+<school_dist>OWEN CO</school_dist>
+<mls>249408</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>JIM ROBINSON</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>NICE 2 BDRM COTTAGE IN THE COUNTRY. ENCLOSED BACK PORCH. NEW FURNACE,
+HOT WATER HEATER &amp; RANGE. 10 MIN TO I-71. OWNER WILL PROVIDE SURVEY
+FOR HALF AC LOT.</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>None</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 12</dimension><level>1</level></bedroom_2>
+<dining><dimension>14 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<living><dimension>24 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+
+<directions>I-71 S GLENCOE EXIT L ON HWY 127 THRU TOWN ON
+TOP OF HILL ON RIGHT</directions>
+</house_listing>
+
+
+

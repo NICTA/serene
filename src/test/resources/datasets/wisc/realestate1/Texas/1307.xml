@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Angela Hundley</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<email>aghundley@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21638</id>
+<mls>9137684</mls>
+<house_location>85 Cedar Valley Drive
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$19,900</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>BEST DEAL ON THE 2ND FAIRWAY of the original golf couse for only $19,900.</house_description>
+
+<move-in_date>1/17/00</move-in_date>
+<school_district>Whitney</school_district>
+<sub-division>White Bluff</sub-division>
+<approx_lot_size>.25</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Golf Course Lot</item>
+<item>Gated Resort Community</item>
+<item>Enjoy Golf, Swimming, &amp; Tennis</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1961 has 6 bedroom(s), 3 bath(s) , 3
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, private pool, patio, fireplace.</house_description>
+
+<agent_name>Kent Pyper</agent_name>
+<office>602-955-0390</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>602-955-0390</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$429,000</list_price>
+<location>Phoenix, AZ 85018</location>
+<mls>1463489</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>3</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>18,001-24,000</lot_size>
+<year_built>1961</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Family Room, Gas logs</fireplace>
+<location>Corner</location>
+<patio>Covered</patio>
+<pool>Diving</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Ceiling Fan(s), Dishwasher, Eat In Kitchen,Garage Door Opener, Guest Room, Microwave, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

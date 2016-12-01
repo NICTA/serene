@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Menley</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<email>winkler@texasproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18999</id>
+<mls>517697</mls>
+<house_location>700 Hwy 95N
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$205,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>2.5  ACRES.  YOU NEED TO SEE THIS HOME INSIDE!  COMPLETELY REDONE!  NEW PAINT, CARPET, APPLIANCES.  LONG COVERED PORCH.  PRIVATE YARD.  DETACHED 2 CAR GARAGE.  ROOM FOR HORSES!  COULD PUT HOME BUSINESS UP FRONT - LIVE IN HOME.  BARN, SHED.  HUGE ROOMS - COULD BE B&amp;B.*******************CONTRACT PENDING - TAKING BACKUP OFFERS******************</house_description>
+
+<school_district>Elgin</school_district>
+<sub-division>Aaron Acres</sub-division>
+<stories>1</stories>
+<approx_acres>2.5</approx_acres>
+<year_built>1970</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

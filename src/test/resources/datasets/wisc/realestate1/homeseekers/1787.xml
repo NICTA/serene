@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 2 level townhouse built in 1962 has 2 bedroom(s), 1 bath(s) and
+approximately 725 square feet of living area. Rooms include den, bonus
+room, master bedroom.</house_description>
+
+<agent_name>David Mansfield</agent_name>
+<direct>520-885-0767</direct>
+<office>520-745-4545</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-745-4545</phone>
+<fax>520-747-5462</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$22,000</list_price>
+<location>1776 S Palo Verde Blvd #M-204</location>
+<mls>9913243</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<square_feet>725 (approx)</square_feet>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

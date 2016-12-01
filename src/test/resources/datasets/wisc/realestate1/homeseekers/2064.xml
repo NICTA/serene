@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1907 has 3
+bedroom(s), 1 bath(s) and approximately 940 square feet of living
+area.</house_description>
+
+<agent_name>Elvira Rangel</agent_name>
+<direct>213-307-8488</direct>
+<office>323-722-7300</office>
+<firm_name>Realty Masters Executive Group</firm_name>
+<phone>323-722-7300</phone>
+<fax>323-722-7971</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$129,950</list_price>
+<location>1111 Euclid Av</location>
+<mls>M904124</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>940 (approx)</square_feet>
+<lot_size>4960</lot_size>
+<year_built>1907</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

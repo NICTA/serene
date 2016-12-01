@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>TRACY CRAWFORD</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<voice_mail>(281)444-0551 x-12</voice_mail>
+<mobile>(281)650-3266</mobile>
+<email>tracyleecrawford@yahoo.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13771</id>
+<mls></mls>
+<house_location>Willow Pointe/ Kimball Homes
+Houston, TEXAS 77064</house_location>
+<county>Harris</county>
+<price>$136,990</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Brand New Home, built in 1998!!This beauty has 3 bedrooms with optional 4th bedrrom or game room or 4 bedrooms with optional 5th bedroom or parlor, 2/1.5 baths, formal living and dining rooms, study, spacious family room, designer kitchen with breakfast bar adjoins morning room, large utility room, attached 2 car garage.This won't last!! Hurry and call today!</house_description>
+
+<move-in_date>1/21/99</move-in_date>
+<school_district>Cy-fair</school_district>
+<sub-division>Willow Pointe</sub-division>
+<approx_size_sqft>3364</approx_size_sqft>
+<stories>2</stories>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Usage of square footage used well.</item>
+<item>Many special characteristics</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

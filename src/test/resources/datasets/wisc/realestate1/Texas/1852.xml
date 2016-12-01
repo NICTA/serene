@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Modena DeSpain</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18664</id>
+<mls>53552</mls>
+<house_location>158 Turkey Run
+Meadowlakes, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$129,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This home has almost no waisted space!  Three bedrooms, 2 baths, very light, bright and open floorplan with raised ceilings throughout.  Wood blinds throughout the home.  In gated Meadowlakes subdivision with club house, pool, golf course, property owner's park and access to Lake Marble Falls.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Meadowlakes</sub-division>
+<approx_size_sqft>1589</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>3 bedroom, 2 bath open living plan.</item>
+<item>Raised ceilings and wood blinds throughout.</item>
+<item>Low maintenance, rock exterior.</item>
+<item>In gated, Meadowlakes subdivision.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

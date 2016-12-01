@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home has 5 bedroom(s), 3 full bath(s)/1 half
+bath(s) , 2 car garage. Rooms include dining room, family room, master
+bedroom. Features include view, private pool, private spa, patio,
+fireplace.</house_description>
+
+<agent_name>Chrissy Hempelman,Gri</agent_name>
+<office>602-789-1112</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>602-789-1112</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$283,800</list_price>
+<location>Phoenix, AZ 85023</location>
+<mls>1459097</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>12,501-15,000</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Family Room, Gas logs</fireplace>
+<location>Cul-de-sac</location>
+<patio>Covered</patio>
+<pool>Diving</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dishwasher, Eat In Kitchen, Garage DoorOpener, Microwave, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

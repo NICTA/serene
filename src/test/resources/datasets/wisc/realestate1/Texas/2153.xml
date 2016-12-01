@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Markgraf</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>1360</id>
+<mls></mls>
+<house_location>2246 Elm Dr.
+Kingsland, TEXAS</house_location>
+<county>Llano</county>
+<price>$369,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Everything you would want! 4 bedroom, 3 1/2 bath, 2 car garage, 2 living areas,formal dining,office, fireplace with book shelves on each side,intercom, zoned ac, 100ft. open water front on Colorado Arm of Lake LBJ, fenced swimming pool, hot tub, boat dock with lift, double jet ski ramp and much more! </house_description>
+
+<school_district>Llano</school_district>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Boat Dock with Lift</item>
+<item>Double Jet Ski Ramp</item>
+<item>Fenced Swimming Pool</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

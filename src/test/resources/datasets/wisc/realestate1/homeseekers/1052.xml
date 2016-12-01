@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1990 has 3 bedroom(s), 2
+bath(s) and approximately 2101 square feet of living area. Rooms
+include master bedroom. Features include fireplace, air conditioning.</house_description>
+
+<agent_name>Trip Holbrook</agent_name>
+<direct>301-907-4759</direct>
+<office>301-215-6444</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-215-6444</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$129,000</list_price>
+<location>Washington, DC 20019</location>
+<mls>DC3033625</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<square_feet>2101 (approx)</square_feet>
+<year_built>1990</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Central, Forced Air</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

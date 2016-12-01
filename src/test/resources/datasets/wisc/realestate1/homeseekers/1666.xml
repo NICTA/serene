@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium built in 1982 has 2 bedroom(s), 2 bath(s) and
+approximately 1219 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Arthur Stonelake</agent_name>
+<direct>305-758-4858</direct>
+<office>305-757-1700</office>
+<firm_name>Eagle Realty, Inc.
+Lic. Real Estate Broker</firm_name>
+<phone>305-757-1700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$94,900</list_price>
+<location>780 NE 69 St #808</location>
+<neighborhood>The Palm Bay Yacht Club C</neighborhood>
+<mls>M673005</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1219 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

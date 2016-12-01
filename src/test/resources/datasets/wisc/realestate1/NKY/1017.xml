@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>21 CAROLINA</house_location>
+<price>$267,000</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-2</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>FT. THOMAS</suburb>
+<school_dist>FT. THOMAS</school_dist>
+<mls>247474</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>MEGAN E HOSEA ABNER</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>HOME OF DISTINCTION NESTLED IN RES. NEIGHBORHOOD. GRAND ENTRY,
+BEAUTIFUL HDWD, POCKET DOOR, GRACIOUS DR, FAM RM W/SOARING CATH CLGS,
+KING SIZE MSTR W/3 CLOSETS &amp; BALCONY, COZY BKFST RM, HUGE DECK FOR
+PARTIES. ROOF,5YRS.</house_description>
+<construction>Wood</construction>
+<heating>Hot Water</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>22 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 12</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>10 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>21 X 15</dimension><level>1</level></dining>
+<family><dimension>39 X 19</dimension><level>1</level></family>
+<kitchen><dimension>23 X 12</dimension><level>1</level></kitchen>
+<living><dimension>25 X 16</dimension><level>1</level></living>
+<master><dimension>30 X 15</dimension><level>2</level></master>
+
+<directions>S. FT. THOMAS AVE TO LINDEN, L. CAROLINA OR
+GRAND TO TREMONT, L. ON CAROLINA</directions>
+</house_listing>
+
+
+

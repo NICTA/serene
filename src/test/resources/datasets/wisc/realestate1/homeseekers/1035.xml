@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This single family home built in 1991 has 5 bedroom(s), 4 full
+bath(s)/2 half bath(s) , 2 car attached garage and approximately 4953
+square feet of living area. Rooms include family room. Features
+include view, private pool, fireplace, air conditioning, french doors.</house_description>
+
+<agent_name>I. Carolyn Gomez-G</agent_name>
+<direct>305-661-6119</direct>
+<office>305-238-6000</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-238-6000</phone>
+<fax>305-378-9239</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$1,125,000</list_price>
+<location>125 Gavilan Av</location>
+<neighborhood>Cocoplum Sec 2 Plat F</neighborhood>
+<mls>D896672</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4(full) 2(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>4953 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1991</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Zoned</cooling>
+<heating>Central</heating>
+<fireplace>Yes</fireplace>
+<patio>Open Porch</patio>
+<pool>Yes</pool>
+<rooms>Family Room</rooms>
+<view>Garden View, Pool View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Fenced, Foyer, French Doors, Kitchen Island, OutdoorLights, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

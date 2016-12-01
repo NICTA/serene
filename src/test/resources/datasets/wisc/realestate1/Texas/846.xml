@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debbie Moran</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>Debbie@c21rpp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19422</id>
+<mls>9088647</mls>
+<house_location>4412 Fossil Dr.
+Haltom City, TEXAS 76117</house_location>
+<county>Tarrant</county>
+<price>$51,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>COME SEE THIS CUTE DOLL HOUSE!!!! nice landscaping and big trees surround this home.</house_description>
+
+<school_district>Birdville</school_district>
+<sub-division>Jones Heights Addition</sub-division>
+<approx_size_sqft>928</approx_size_sqft>
+<stories>1</stories>
+<year_built>1950</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

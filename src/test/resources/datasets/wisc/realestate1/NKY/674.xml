@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>415 W 21ST</house_location>
+<price>$49,900</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247037</mls>
+<house_type>Single Family</house_type>
+<firm>HOME QUEST REALTY</firm>
+<firm_phone>(606) 371-6000</firm_phone>
+<agent>DAVE GUTZEIT</agent>
+<agent_phone>(606) 371-6000</agent_phone>
+<house_description>UPDATES ARE FOUND THRU-OUT INCLUDING HIGH EFF. FURN NEW A/C
+CARPET,UPDATED ELEC,KITCHEN, BATH FENCED YARD THIS HOME IS CLEAN &amp;
+READY TO MOVE IN.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<dining><dimension>12 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>7 X 7</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>N.ON HIGHLAND TO R ON HOWELL TO R ON 21</directions>
+</house_listing>
+
+
+

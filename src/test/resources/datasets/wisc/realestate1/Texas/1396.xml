@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Reyna and David Lippincott</name>
+<office>(512)833-3268</office>
+<fax>(512)973-9333</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20442</id>
+<mls>522962</mls>
+<house_location>403 Oak Ridge Dr.
+Pflugerville, TEXAS 78660</house_location>
+<county>Travis</county>
+<price>$168,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Well Maintained! Storage Room Behind Garage W/ A/C and Light! Luxurious Backyard with Swimming Pool &amp; Hot Tub! Large Attic Storage with Flooring &amp; Light! Recent Updates Galore! Cable &amp; Phone Thru Out the Home!</house_description>
+
+<move-in_date>11/9/99</move-in_date>
+<school_district>Pflugerville</school_district>
+<sub-division>Willow Creek</sub-division>
+<approx_size_sqft>1956</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>75x125</approx_lot_size>
+<year_built>1985</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Luxurious Backyard w/ Swimming Pool &amp; Hot Tub!</item>
+<item>Storage Bldg. w/ AC &amp; Light!</item>
+<item>Recent Updates! Cooktop, Double Oven, Carpet,Roof,</item>
+<item>C-Tile, Waterheater, AC &amp; More!!!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

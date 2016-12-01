@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>8 HWY.22</house_location>
+<price>$94,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>248904</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>CHARLES ASHER</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>UNDER CONSTRUCTION - BI-LEVEL ON 1.20 ACRES. CITY WATER. WITHIN 6
+MILES OF I-75 EXIT 154. (RM SIZES MAY VARY)</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>CORNER</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>8 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>8 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>B</level></laundry>
+<living><dimension>14 X 16</dimension><level>1</level></living>
+<master><dimension>14 X 10</dimension><level>1</level></master>
+
+<directions>WILLIAMSTOWN - US25 TO HWY 22 EAST - 4 MILES TO
+PROPERTY ON L</directions>
+</house_listing>
+
+
+

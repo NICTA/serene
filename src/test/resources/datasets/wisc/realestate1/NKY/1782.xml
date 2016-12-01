@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>132 KNOXVILLE/GARD</house_location>
+<price>$129,000</price>
+<rooms>10</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>249721</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>AL ANN FELDMANN</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>PRIVATE BRICK HOME,EXCELLENT LOCATION,NATURAL WOODWORK,FP INOP,XTRA
+KITCHEN STORAGE SHED,CENTRAL VAC,3.97ACRES,TILE FLOORS,BERBER CARPET,
+CALL AL ANN AT 824-6678.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Inoperable,Brick</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>None</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>14</dimension><level>X</level></bedroom_4>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>14 X 14</dimension><level>L</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>14 X 7</dimension><level>L</level></laundry>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+<recreation_room><dimension>24 X 12</dimension><level>L</level></recreation_room>
+
+<directions>75S CRITT EX L ON 491E 7MI,R ON 3184,BEAR RT,
+PROPERTY ON L</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1962 has 1 bedroom(s), 1 bath(s) , 1 car
+attached garage and approximately 790 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Nahir Castillo</agent_name>
+<direct>305-992-4713</direct>
+<office>868-0505</office>
+<firm_name>Dynamic Realty Gro
+Lic. Real Estate Broker</firm_name>
+<phone>868-0505</phone>
+<fax>305-868-5040</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$119,000</list_price>
+<location>4747 Collins Av #714</location>
+<neighborhood>Mimosa Condo</neighborhood>
+<mls>M766271</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>790 (approx)</square_feet>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ocean Access
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

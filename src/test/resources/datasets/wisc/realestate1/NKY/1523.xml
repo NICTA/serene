@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>32 W CRITTENDEN</house_location>
+<price>$127,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>FT WRIGHT</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249000</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>PEGGY THURZA</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>WELL KEPT BRICK CAPE COD ON WONDERFUL STREET NICE YARD. ANDERSEN VINYL
+CLAD WINDOWS, HARDWOOD FLOOR UNDER CARPET, FIREPLACE GAS LOGS.
+FINISHED ROOM IN LOWER LEVEL PLUS STORAGE ROOM.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>39 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+<study><dimension>19 X 10</dimension><level>L</level></study>
+
+<directions>KYLES LANE TO W CRITTENDEN</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>168 AMBROSE RD</house_location>
+<price>$249,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>2 Cars (Detached,Front,Oversized)</garage>
+<suburb>WARSAW</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>246294</mls>
+<house_type>Farms</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>BETTY AUGENSTEIN</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*CHARMING COUNTRY FARM HOUSE*NEWER WINDOWS*NEWER BATH*NEWER PAINT
+INSIDE &amp; OUT*HORSE FACILITIES*RIDING TRAILS*DOG KENNEL*ENCLOSED BACK
+PORCH*HUNTING* HIKING*SCENIC VIEWS OF VALLEYS &amp; RIVER*CO-LISTOR-ART
+REED*</house_description>
+<construction>Wood,Alum</construction>
+<heating>Oil</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>60 ACRES</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>15 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>17 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>21 X 8</dimension><level>1</level></kitchen>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 15</dimension><level>1</level></master>
+<study><dimension>27 X 8</dimension><level>2</level></study>
+
+<directions>US42 TO R ON AMBROSE ROAD</directions>
+</house_listing>
+
+
+

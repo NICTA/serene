@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ann Murray</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)929-6690</mobile>
+<email>AnnCanC21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19445</id>
+<mls>9103708</mls>
+<house_location>9465 Lechner Road
+Fort Worth, TEXAS 76179</house_location>
+<county>Tarrant</county>
+<price>$155,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>THIS HOME FEATURES LARGE ROOMS!!  IT IS A LARGE TWO BEDROOM AND THREE BATH HOME THAT HAS BEEN FRESHLY PAINTED.  THE DINING AREA HAS A BAY WINDOW.  THE LARGE UTILITY ROOM HAS ROOM FOR A FREEZER.  YOU WILL ALSO FIND A NICE FENCED YARD.  LOCATED IN A BEAUTIFUL AREA OF HOMES, YOU WILL ALSO HAVE ACCESS TO THE LAKE.</house_description>
+
+<school_district>Fort Worth I S D</school_district>
+<sub-division>Ambrose Eagle Nest</sub-division>
+<approx_size_sqft>2032</approx_size_sqft>
+<stories>1</stories>
+<year_built>1964</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>WBFP</item>
+<item>LARGE ROOMS</item>
+<item>BEAUTIFUL AREA OF HOMES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

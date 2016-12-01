@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kim Hodge</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>kim@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20422</id>
+<mls>54257</mls>
+<house_location>210 Mockingbird Lane
+Kingsland, TEXAS 78639</house_location>
+<county>Llano</county>
+<price>$180,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>COZY CHANNEL-FRONT HOME WITH MANY EXTRAS! CABANA, BOAT HOUSE, STORAGE SHED, TWO CAR GARAGE HAS BEEN CONVERTED INTO A GAME ROOM. THE FRONT OF THE HOUSE FACES THE CHANNEL AND IS NICELY LANDSCAPED.</house_description>
+
+<school_district>Llano</school_district>
+<approx_size_sqft>1870</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.24</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>COZY CHANNEL FRONT HOME!</item>
+<item>LARGE GAME ROOM!</item>
+<item>BOAT HOUSE, DOCK AND FISHING PIERS!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

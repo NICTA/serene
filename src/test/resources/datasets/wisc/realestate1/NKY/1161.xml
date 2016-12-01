@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>280 ELLISTON NAPOL</house_location>
+<price>$59,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>(Detached)</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>248452</mls>
+<house_type>Single Family</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>ELLEN DRYSDALE</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>NEWER S/W W/SHINGLE ROOF, CONCRETE STORM SHELTER UNDER HOME,LAND IS
+NICE,GA RAGE IS CURRENTLY USED AS BARN FOR HORSES-COULD BE GARAGE
+AGAIN, FENCED-IN PADDOCK AREA, CITY WATER,SEPTIC,15 MIN TO VERONA,15
+MIN TO DRY RIDGE</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+
+<directions>I71 S TO WALTON,EX R TO RT16,GO APPROX 8 MI TO L
+ON ELLISTON/NAPOLEON RD,PROP ON R</directions>
+</house_listing>
+
+
+

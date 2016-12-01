@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1964 has 4 bedroom(s), 3 bath(s) and
+approximately 2144 square feet of living area.</house_description>
+
+<agent_name>Mike Galis</agent_name>
+<direct>303-347-2424</direct>
+<office>303-347-2424</office>
+<firm_name>RE/MAX Executives</firm_name>
+<phone>303-347-2424</phone>
+<fax>303-798-5123</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$169,900</list_price>
+<location>4201 W Wagon Trail Dr</location>
+<neighborhood>Fort Logan</neighborhood>
+<mls>374496</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2144 (approx)</square_feet>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

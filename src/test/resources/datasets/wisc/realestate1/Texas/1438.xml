@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Action -Northwest San Antonio</name>
+<location>2900 Mossrock Dr., Suite 350 San Antonio, TX 78230</location>
+<office>(210)366-1510</office>
+<toll_free></toll_free>
+<fax>(210)366-0153</fax>
+<email>c21actsa@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Joyce Esparza</name>
+<office>(210)366-1510</office>
+<fax>(210)366-0153</fax>
+<email>c21actsa@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20396</id>
+<mls>320159</mls>
+<house_location>339 Shannon Lee
+San Antonio, TEXAS 78216</house_location>
+<county>Bexar</county>
+<price>$52,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Near the quarry area, blocks from Olmos Golf Course, spacious three bedroom, 2 bath, great backyard. Great home for investors.</house_description>
+
+<school_district>North East</school_district>
+<sub-division>Shearer Hills</sub-division>
+<approx_size_sqft>1505</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>75 x 160</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<golf_course>Yes</golf_course>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Near Quarry Area</item>
+<item>Blocks From Olmos Golf Course</item>
+<item>Great for Investors</item>
+<item>Handyman Special</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>964 JOHN ST</house_location>
+<price>$39,500</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>999</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249885</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>PAM KRAMER</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>CUTE 1 STORY HOME, OFFERS HO WARRANTY AND SPECIAL 0 DOWN FINANCING,
+UPDATED KITCHEN, CITY VIEW, CENTRAL AIR GOOD CONDITION CLOSE TO
+DOWNTOWN, FREEWAY &amp; SHOPPING. GREAT HOME FOR THE RIGHT PARTY LOOKING
+FOR CONVENIENCE</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>Irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>14 X 14</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 14</dimension><level>1</level></master>
+
+<directions>RT 8 TO LEFT ON ALTAMONT TO LEFT JOHN ST</directions>
+</house_listing>
+
+
+

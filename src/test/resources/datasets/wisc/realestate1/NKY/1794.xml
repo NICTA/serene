@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>501 E SHELBY</house_location>
+<price>$75,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Detached,Rear,Carport)</garage>
+<suburb>0</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>247897</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>RITA HONEYCUTT</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>NICE 3 B/R- ON LARGE LOT-GARAGE, STORAGE, ABOVE GROUND POOL, CORNER
+LOT DID NOT FLOOD, CARPORT, PATIO-2 DRIVEWAYS</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>per deed</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 16</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>4 X 6</dimension><level>1</level></laundry>
+<living><dimension>13 X 23</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>US 27 TO FALMOUTH TO L ON SHELBY-FOLLOW THRU
+FALMOUTH TO CORNER OF BEECH AND SHEL</directions>
+</house_listing>
+
+
+

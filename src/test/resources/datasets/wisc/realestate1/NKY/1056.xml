@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>16 GARRISON AVE</house_location>
+<price>$54,500</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>249847</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>SHIRLEY KIBLER</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>GREAT STARTER HOME. NEEDS SOME COSMETICS. LARGE ROOMS WITH FIRST FLOOR
+LAUNDRY. GREAT LOCATION! PRICED TO SELL QUICKLY. CALL SHIRLEY FOR MORE
+DETAILS.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>11 X 14</dimension><level>1</level></living>
+<master><dimension>10 X 13</dimension><level>1</level></master>
+
+<directions>SOUTH FT THOMAS TO RIGHT ON GARRISON AVE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1940 has 1 bedroom(s), 1 bath(s) and
+approximately 700 square feet of living area. Rooms include master
+bedroom. Features include fireplace, air conditioning.</house_description>
+
+<agent_name>Marco Giancola</agent_name>
+<direct>322-8266</direct>
+<office>531-2299</office>
+<firm_name>Newstar Rlty &amp; Dev
+Lic. Real Estate Broker</firm_name>
+<phone>531-2299</phone>
+<fax>305-531-3147</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$99,900</list_price>
+<location>1050 Jefferson Av #11</location>
+<neighborhood>Helene Marie Condo</neighborhood>
+<mls>M777214</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>700 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<fireplace>Yes</fireplace>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>260 BLUEGRASS</house_location>
+<price>$109,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>SOUTHGATE</suburb>
+<school_dist>CAMPBELL CT</school_dist>
+<mls>243822</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>BETTY FISCHER</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*CONVENIENT LOCATION*GOOD CONDITION
+3BD CAPE CODLR DR KIT HDWD FLRS, &amp; 1 CAR GAR. FINISHED LL. 2 FULL
+BATHS. HOT TUB. GREAT YARD</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 14</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 9</dimension><level>1</level></kitchen>
+<living><dimension>9 X 17</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+<recreation_room><dimension>12 X 23</dimension><level>L</level></recreation_room>
+<study><dimension>12 X 8</dimension><level>1</level></study>
+
+<directions>471 TO SOUTHGATE EXIT S 27 TO L BLUEGRASS</directions>
+</house_listing>
+
+
+

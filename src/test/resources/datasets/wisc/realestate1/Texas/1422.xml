@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Ron Roberts &amp; Associates</name>
+<location>131 Elm St. Hillsboro, TX 76645</location>
+<office>(254)582-5307</office>
+<toll_free>(800)722-5156</toll_free>
+<fax>(254)582-9159</fax>
+<email>ronroberts@digetex.net</email>
+</firm_information>
+
+<agent_information>
+<name>Felix Winterman</name>
+<office>(254)582-5307</office>
+<fax>(254)582-9159</fax>
+<email>ronroberts@digitex.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15687</id>
+<mls>9046876</mls>
+<house_location>RT 2 BOX 38-A
+Abbott, TEXAS 76621</house_location>
+<county>Hill</county>
+<price>$110,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>25 ACRES WITH A BREATH TAKING VIEW, 2000 SMALL TREES FOR HARVEST,  STOCK TANKS WITH FISH, VERY NICE DOUBLE WIDE AND ONLY 8 MONTHS OLD.  HAS ADDITIONAL 25 ACRES THAT CAN BE SOLD SEPERATE.  CALL FELIX WINTERMAN FOR SHOWING 254-582-5307  -  800-722-5156.</house_description>
+
+<move-in_date>4/22/99</move-in_date>
+<school_district>Abbott</school_district>
+<approx_size_sqft>1530</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>25</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>TREE FARM</item>
+<item>NEW DOUBLE WIDE</item>
+<item>2 BARNS</item>
+<item>STOCK TANK WITH FISH</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

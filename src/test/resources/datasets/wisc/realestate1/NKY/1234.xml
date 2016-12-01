@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>140 HWY 16 - 140 T</house_location>
+<price>$38,000</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>VERONA</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>249508</mls>
+<house_type>Single Family</house_type>
+<firm>PREMIER REALTY, INC</firm>
+<firm_phone>(606) 586-0206</firm_phone>
+<agent>GAIL WATSON</agent>
+<agent_phone>(606) 586-0206</agent_phone>
+<house_description>1991 MOBILE HOME CLAYTON 16X60. NICE YARD. .532 ACRE. NICE AND CLEAN
+16X16 DECK 1 CAR GARAGE DETACHED.</house_description>
+<construction>Other</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>15 X 9</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>75 TO 71S TO VERONA LEFT AT EXIT ON RT 14 R ON
+HWY 16</directions>
+</house_listing>
+
+
+

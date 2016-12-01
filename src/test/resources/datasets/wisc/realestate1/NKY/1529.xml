@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>580 CLOVERFIELD LN</house_location>
+<price>$92,800</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>FT WRIGHT</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249259</mls>
+<house_type>Condominium</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>CINDY BROUILLETTE</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>SHORT SET OF STAIRS TO POPULAR TOP FLOOR W/EXCITING CATHEDRAL CEIL
+WBFP W/ MARBLE SURROUND RICH HDWD ENTRY PRIVATE BED/BA LAYOUT MSTR
+WALK-IN CLOSET PANEL DRS MICROWAVE NEUTRAL DECOR SECURE INTERCOM QUIET
+LAST BUILDING NICE!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Marble</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>condo</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>135</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<dining><dimension>11 X 11</dimension><level>2</level></dining>
+<kitchen><dimension>10 X 8</dimension><level>2</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>2</level></laundry>
+<living><dimension>17 X 14</dimension><level>2</level></living>
+<master><dimension>17 X 14</dimension><level>2</level></master>
+
+<directions>I-75 KYLES LN EXIT WEST ON KYLES LN L AT LIGHT
+L FT WRIGHT TRACE R CLOVERFIELD</directions>
+</house_listing>
+
+
+

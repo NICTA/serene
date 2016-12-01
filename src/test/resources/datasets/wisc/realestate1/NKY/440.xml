@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1518 BUTLER CT</house_location>
+<price>$99,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248756</mls>
+<house_type>Condominium</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LAURA SANDERS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>INT PHOTOS WWW.SIBCYCLINE.COM*WHY WAIT TO BUILD-PRICED AT
+DUPLICATION-ONLY A COUPLE MONTHS OLD*NEUTRAL*BERBER CARPET*COVERED
+DECK*WALKIN CLOSET*LOTS OF PARKING*1 CAR GAR W/LOFT*UPGRADED PAD &amp;
+VINYL*SHOWS GREAT 'THE SAVANNAH'</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>84</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>15 X 20</dimension><level>1</level></living>
+<master><dimension>11 X 17</dimension><level>1</level></master>
+
+<directions>US 42 L ON WETHERINGTON,L TARAMORE,L SCARLET
+WAY, L BUTLER CT.</directions>
+</house_listing>
+
+
+

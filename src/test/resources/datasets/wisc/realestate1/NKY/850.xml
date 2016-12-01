@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>60 VIEW TERRACE</house_location>
+<price>$55,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>3 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>SOUTHGATE</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249765</mls>
+<house_type>Condominium</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>FRAN ROBINSON</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>2 BDR, 2 BA CONDO ON 2ND FL W/VIEW OF WOODS FROM BALCONY.WALK IN
+CLOSET IN MBR, STOVE REF DISHWASHER WASHER DRYER INCLUDED. STORAGE
+AREA. INCL: POOL, TENNIS, WORK OUT RM.</house_description>
+<construction>Brick</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>na</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>86</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 7</dimension><level>2</level></dining>
+<kitchen><dimension>7 X 9</dimension><level>2</level></kitchen>
+<laundry><dimension>3 X 7</dimension><level>2</level></laundry>
+<living><dimension>14 X 15</dimension><level>2</level></living>
+<master><dimension>16 X 11</dimension><level>2</level></master>
+
+<directions>US27 TO MOOCK RD, LT ON WOODLAND HILLS,RT AT
+STOP, LT ON VIEW TERRACE</directions>
+</house_listing>
+
+
+

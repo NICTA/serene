@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>80 JOHNSON RD</house_location>
+<price>$69,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>SPARTA</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>249918</mls>
+<house_type>Single Family</house_type>
+<firm>D G SCHELL &amp; ASSOCIATES</firm>
+<firm_phone>(606) 331-4888</firm_phone>
+<agent>DARREL SCHELL JR</agent>
+<agent_phone>(606) 331-4888</agent_phone>
+<house_description>NICE AIR CONDITIONED COTTAGE WITH LARGE ROOMS. HARDWOOD IN FRONT 2
+ROOMS. FUNCTIONAL FLOORPLAN. VIEW OF A POND OUT THE KITCHEN WINDOW.
+LEVEL 1/2 ACRE LOT. CITY WATER AND GAS AT THE STREET. CALL DARREL
+SCHELL 606-331-4888</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane,At Street</gas>
+<water>Cistern,At Street</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>15 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>19 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>I-71 SOUTH TO GLENCOE\OWENTON EXIT* R ON 127*R
+ON HWY 455(JOHNSON)*PROP 2 MI ON R</directions>
+</house_listing>
+
+
+

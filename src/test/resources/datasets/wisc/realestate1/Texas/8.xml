@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18307</id>
+<mls>14579</mls>
+<house_location>1015 River Rd
+San Benito, TEXAS</house_location>
+<county>Cameron</county>
+<price>$61,999</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>A Steal at this price! Shows very well.  Everyone's surprised at the price for this nice country home on 1/2 acre!  Come take a look, you will not be dissappointed!  And yes, they are MOTIVATED SELLERS!</house_description>
+
+<school_district>San Benito</school_district>
+<sub-division>River Rd</sub-division>
+<approx_size_sqft>1656</approx_size_sqft>
+<stories>1</stories>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Excellent Price!</item>
+<item>Out in the country!</item>
+<item>Beautiful, a MUST see!</item>
+<item>Motivated Sellers!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

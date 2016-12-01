@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joe Don Dockery</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20601</id>
+<mls>54339</mls>
+<house_location>48 Augusta
+Meadowlakes, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$149,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This beautiful 3 bedroom, 2 bath townhome with stone exterior is located on the 9th green on the Meadowlakes Golf Course and has a northeast exposure.  Features include an extra large master bedroom and bath, two car attached garage, utility room, and rear patio.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Meadowlakes</sub-division>
+<approx_size_sqft>1869</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>irregular</approx_lot_size>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Stone exterior, rear patio, 2 car garage.</item>
+<item>In gated community of Meadowlakes.</item>
+<item>Golfcourse townhome.</item>
+<item>Extra large master bedroom and bath.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

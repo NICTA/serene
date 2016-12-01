@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Large bedrooms, lovely family room. Seller to pay up to $2000 buyer's
+closing costs. End unit townhome in convenient location. New carpet
+and fresh paint!</house_description>
+
+<agent_name>Lisa Hale</agent_name>
+<direct>464-4218</direct>
+<office>757-464-2121</office>
+<firm_name>Chesapeake Bay Realty</firm_name>
+<phone>757-464-2121</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$69,950</list_price>
+<location>Virginia Beach, VA 23456</location>
+<mls>9931822</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Townhouse/Condo</type>
+<style>Traditional</style>
+<square_feet>1272 (approx)</square_feet>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<location>Corner</location>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Foyer
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

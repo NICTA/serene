@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium built in 1990 has 1 bedroom(s), 1 bath(s) and
+approximately 420 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Phyllis Winick</agent_name>
+<direct>535-6071</direct>
+<office>535-6087</office>
+<firm_name>Fisher Island Real
+Lic. Real Estate Broker</firm_name>
+<phone>535-6087</phone>
+<fax>305-535-6089</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,000</list_price>
+<location>42309 Fisher Island Dr #42309</location>
+<neighborhood>Marina Vilg Fisher Isl Co</neighborhood>
+<mls>M761779</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>420 (approx)</square_feet>
+<year_built>1990</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

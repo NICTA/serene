@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>304 CLAY</house_location>
+<price>$93,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>249223</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>MARILYN CARRICO</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>DESIREABLE BRICK RANCH W/HARDWOOD FLOORS THRU-OUT, NEW CUSTOM KITCHEN,
+NEW ROOF, EXTRA LARGE FLAT FENCED REAR YARD.</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50x175</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>L</level></bedroom_3>
+<dining><dimension>10 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 9</dimension><level>1</level></kitchen>
+<living><dimension>17 X 10</dimension><level>1</level></living>
+<master><dimension>10 X 12</dimension><level>1</level></master>
+
+<directions>DIXIE HWY SOUTH TO ERLANGER RD, RT ON CRESCENT,
+LT ON CLAY</directions>
+</house_listing>
+
+
+

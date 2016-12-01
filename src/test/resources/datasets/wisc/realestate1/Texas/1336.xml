@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Prudential Allied, REALTORS</name>
+<location>3007 E. Broadway Pearland, TX 77581</location>
+<office>(281)997-4000</office>
+<toll_free>(800)447-3313</toll_free>
+<fax>(281)485-1649</fax>
+<email>mstarr@infohwy.com</email>
+</firm_information>
+
+<agent_information>
+<name>David Miller</name>
+<office>(281)997-4000</office>
+<fax>(281)485-1649</fax>
+<voice_mail>(281)997-4000 12</voice_mail>
+<mobile>(281)235-2424</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14224</id>
+<mls>162665</mls>
+<house_location>501 CORNETT
+Alvin, TEXAS 77511</house_location>
+<county>Brazoria</county>
+<price>$500,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>24.83  ACRES ALL SET UP FOR HORSE FARM.THREE BEDROOM TWO BATH HOME IS IN GOOD CONDITION.  WITH EXTRAS INMASTER BATH.  PROPERTY  IS FENCED AND CROSS FENCED.  THERE ARE BARNS, AND TACKROOMS.  STORAGE FOR FEED, AND ROOM TO ROAM.  POSSIBLY COULD BE DIVIDED.</house_description>
+
+<school_district>Alvin</school_district>
+<stories>1</stories>
+<approx_acres>24.83</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>NICE HOME</item>
+<item>GREAT FOR HORSE LOVER</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

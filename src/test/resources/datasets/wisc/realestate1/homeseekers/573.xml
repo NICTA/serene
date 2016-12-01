@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1999 has 2 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1669 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, patio, air conditioning.</house_description>
+
+<agent_name>Abra Kranitz-Bowles</agent_name>
+<direct>520-299-7780</direct>
+<office>520-292-2082</office>
+<firm_name>Monterey Homes</firm_name>
+<phone>520-292-2082</phone>
+<fax>520-292-5051</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$161,152</list_price>
+<location>3366 N Camino Rio Colorado #2</location>
+<mls>9920507</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1669 (approx)</square_feet>
+<lot_size>83 44 83 44</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1992 has 3 bedroom(s), 3 bath(s) , 1 car
+garage and approximately 1550 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Pedro M. Capote</agent_name>
+<direct>305-881-9856</direct>
+<office>871-4778</office>
+<firm_name>Pedro Capote, Lic
+Lic. Real Estate Broker</firm_name>
+<phone>871-4778</phone>
+<fax>305-871-1897</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$179,900</list_price>
+<location>2600 Collins Av #503</location>
+<neighborhood>Lake Beach Club Condo</neighborhood>
+<mls>N229073</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1550 (approx)</square_feet>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

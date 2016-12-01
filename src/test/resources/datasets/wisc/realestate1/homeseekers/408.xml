@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1982 has 2 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1225 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Douglas Taber</agent_name>
+<direct>305-441-4114</direct>
+<office>305-858-7773</office>
+<firm_name>Brickell Place Rea
+Lic. Real Estate Broker</firm_name>
+<phone>305-858-7773</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$110,000</list_price>
+<location>780 NE 69 St #1804</location>
+<neighborhood>The Palm Bay Yacht Club C</neighborhood>
+<mls>D893035</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1225 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Electric</heating>
+<location>Bay front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Foyer, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

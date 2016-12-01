@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>1024 CENTRAL AVE</house_location>
+<price>$102,900</price>
+<rooms>11</rooms>
+<bedrooms>6</bedrooms>
+<baths>4-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249825</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>GERRI JONES</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>GRAND ITALIANATE CURRENTLY USED AS 2 FAMILY*1 BEDROOM ON 2ND FLOOR IS
+A KIT EASY CONVERSION TO SINGLE FAMILY. 12 FT CEILINGS.ANTIQUE MANTELS
+&amp; CURVED STAIRCASE. NATURAL WOODWORK.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Electric</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>32x126</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>3</level></bath_3>
+<bedroom_2><dimension>15 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>15 X 13</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>15 X 17</dimension><level>3</level></bedroom_5>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<family><dimension>15 X 15</dimension><level>1</level></family>
+<kitchen><dimension>15 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 6</dimension><level>2</level></laundry>
+<living><dimension>15 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>2</level></master>
+<study><dimension>15 X 15</dimension><level>1</level></study>
+
+<directions>471 TO EXIT 5 R ON 10TH ST L ON CENTRAL</directions>
+</house_listing>
+
+
+

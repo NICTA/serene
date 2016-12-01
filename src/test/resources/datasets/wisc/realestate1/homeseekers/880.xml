@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This townhouse built in 1997 has 4 bedroom(s), 3 bath(s) , 2 car
+garage and approximately 2790 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Becky Adkins</agent_name>
+<direct>305-710-1067</direct>
+<office>305-672-1300</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-1300</phone>
+<fax>305-672-1499</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$539,000</list_price>
+<location>1413 Sunset Harbor Dr #605</location>
+<neighborhood>The Townhomes At Sunset H</neighborhood>
+<mls>M737919</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>2</garage>
+<type>Townhouse</type>
+<square_feet>2790 (approx)</square_feet>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Foyer, Roman Tub
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cindy Clay</name>
+<office>(409)885-6400</office>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20407</id>
+<mls></mls>
+<house_location>1348 Kathy Avenue
+Sealy, TEXAS 77474</house_location>
+<county>Austin</county>
+<price>$97,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This beautifully landscaped brick home has a sprinkler system, enclosed patio out back, workshop/RV storage area, hot tub, a 2 yr. old roof, new A/C, formal dining room and 2 car attached garage with panel walls. Call Cindy at (409) 885-6400 or email to remaxcp@industryinet.com</house_description>
+
+<school_district>Sealy</school_district>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+
+<highlights>
+<item>Sprinkler system</item>
+<item>Enclosed patio</item>
+<item>Workshop</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

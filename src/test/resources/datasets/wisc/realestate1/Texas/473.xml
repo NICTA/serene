@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>KAREN COBURN</name>
+<office>(512)794-9292</office>
+<fax>(512)339-0202</fax>
+<voice_mail>(512)339-9640</voice_mail>
+<email>kcoburn@texas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15284</id>
+<mls>498507</mls>
+<house_location>11039 Galleria Cove
+Austin, TEXAS 78759</house_location>
+<county>Travis</county>
+<price>$239,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Stunning 4 Bedroom, Home Backs to Greenbelt, 4 SIDES Brick, Island Kitchen with Skylite. Custom Window Treatments. Fully Landscaped Front and Back Yards. Security System, Sprinkler System. MUST See. Only 4 years old. Call Karen Coburn @ 512-339-9640 or 794-9292 ext 133</house_description>
+
+<move-in_date>7/31/99</move-in_date>
+<sub-division>Sierra Vista</sub-division>
+<approx_size_sqft>2250</approx_size_sqft>
+<stories>1</stories>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Over Sized Lot</item>
+<item>Large Trees</item>
+<item>Open &amp; Airy</item>
+<item>Tall Ceilings</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1985 has 2 bedroom(s), 2 bath(s) , 2
+car garage and approximately 1650 square feet of living area. Rooms
+include den, bonus room, master bedroom. Features include view, patio,
+air conditioning.</house_description>
+
+<agent_name>Carla Stephens</agent_name>
+<direct>520-403-8737</direct>
+<office>520-797-4220</office>
+<firm_name>Tucson Realty &amp; Trust Co Tucson Realty &amp; Trust Co</firm_name>
+<phone>520-797-4220</phone>
+<fax>520-797-4221</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$159,500</list_price>
+<location>8643 N Candlewood Loop</location>
+<mls>2000399</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Townhouse</type>
+<square_feet>1650 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

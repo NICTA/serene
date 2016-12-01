@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>255 SHADY LANE</house_location>
+<price>$144,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>-</suburb>
+<school_dist>GRANT</school_dist>
+<mls>248643</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>K Y BUDDE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * MUST SEE THIS COMPLETELY UPDATED BRICK RANCH *CORIAN
+COUNTER TOPS*CEIL FAN*NEW ROOF,WINDOWS,CARPET,GUTTERS &amp;
+SIDEWALKS*ENLARGED DRIVEWAY HAS STORAGE SHED &amp; POOL W/DECK *VERY LEVEL
+OVERSIZED SHADY YARD*WON'T LAST!</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>20 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>20 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>I-75 SO TO EXIT 166 LEFT OFF EXIT THEN L ON US
+25 R ON SHADY LANE</directions>
+</house_listing>
+
+
+

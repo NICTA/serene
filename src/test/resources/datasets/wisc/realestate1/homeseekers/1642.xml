@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1958 has 3
+bedroom(s), 2 bath(s) , 2 car garage and approximately 1352 square
+feet of living area. Rooms include living room, master bedroom.
+Features include view, patio, fireplace.</house_description>
+
+<agent_name>Joanne Hansen</agent_name>
+<direct>619-669-0588</direct>
+<office>619-469-1382</office>
+<firm_name>The Mortgage Center</firm_name>
+<phone>619-469-1382</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$240,000</list_price>
+<location>San Diego, CA 92115</location>
+<mls>00 2000118</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1352 (approx)</square_feet>
+<lot_size>15900</lot_size>
+<year_built>1958</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<fireplace>Living Room</fireplace>
+<patio>Yes</patio>
+<rooms>Living Room, Master Bedroom</rooms>
+<view>Park/Greenbelt View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

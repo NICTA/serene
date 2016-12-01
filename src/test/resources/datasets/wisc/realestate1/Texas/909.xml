@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Deedee Jones</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 24</voice_mail>
+<email>quadj@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12278</id>
+<mls>9058467</mls>
+<house_location>7601 Wildcat Knob Road
+Tolar, TEXAS 76476</house_location>
+<county>Hood</county>
+<price>$299,999</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Elegant native stone home on 22+ acres of sandy loam soil with stately oaks and other native trees.  This beautiful home has a cathedral ceiling in the great room living area, 2 dining areas, a modern kitchen, and many other fine touches.  Large master bedroom with sitting area and wonderfully roomy bath with 2 walk-in closets, spa-type tub, and separate shower.  The property has 2 ponds and is completely fenced.  Enjoy country living in a serene setting with all the luxuries of a truly fine home.</house_description>
+
+<move-in_date>11/18/99</move-in_date>
+<school_district>Tolar Isd</school_district>
+<sub-division>Kendall Acres</sub-division>
+<approx_size_sqft>3130</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>22.84</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

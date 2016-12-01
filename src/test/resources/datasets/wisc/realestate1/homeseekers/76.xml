@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1907 has 2 bedroom(s), 1
+bath(s) , 1 car garage and approximately 698 square feet of living
+area.</house_description>
+
+<agent_name>Marc Green</agent_name>
+<direct>509-535-8956</direct>
+<firm_name>
+Prudential Crane Realty/South Prudential Crane Realty/South</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$42,950</list_price>
+<location>2622 Crestline</location>
+<mls>9928734</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>698 (approx)</square_feet>
+<lot_size>50X140</lot_size>
+<year_built>1907</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

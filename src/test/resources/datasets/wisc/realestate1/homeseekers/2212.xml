@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>New vinyl and new roof! Semi-detached contemporary. Great location.
+Attached only at garage. Large backyard</house_description>
+
+<agent_name>Helen White</agent_name>
+<direct>439-4579</direct>
+<office>757-583-1000</office>
+<firm_name>Coldwell Banker, Gifford Rlty Coldwell Banker, Gifford Rlty</firm_name>
+<phone>757-583-1000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$87,000</list_price>
+<location>Virginia Beach, VA 23464</location>
+<mls>9932502</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Townhouse/Condo</type>
+<style>Contemporary</style>
+<square_feet>1200 (approx)</square_feet>
+<year_built>1976</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Contemporary Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 2 level townhouse built in 1975 has 3 bedroom(s), 3 bath(s) , 2
+car garage and approximately 1977 square feet of living area. Features
+include fireplace, air conditioning.</house_description>
+
+<agent_name>Thomas Kelley</agent_name>
+<direct>520-291-5304</direct>
+<office>520-887-5414</office>
+<firm_name>Kelley Realty, Inc.</firm_name>
+<phone>520-887-5414</phone>
+<fax>520-</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$164,900</list_price>
+<location>4577 E Camino Rosa</location>
+<mls>9921848</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Townhouse</type>
+<square_feet>1977 (approx)</square_feet>
+<year_built>1975</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1978 has 2 bedroom(s), 1 bath(s) , 2
+car garage. Rooms include family room, master bedroom. Features
+include private spa, patio, fireplace, air conditioning, skylights,
+storage space.</house_description>
+
+<agent_name>Janet Hold</agent_name>
+<office>480-839-2600</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>480-839-2600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$114,900</list_price>
+<location>Phoenix, AZ 85044</location>
+<mls>1446213</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1978</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Electric</heating>
+<fireplace>Family Room, Gas logs</fireplace>
+<patio>Covered</patio>
+<pool>Community Pool</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dining/Living Combo, Dishwasher, Garage DoorOpener, Skylights, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

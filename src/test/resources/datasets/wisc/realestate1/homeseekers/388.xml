@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1997 has 4 bedroom(s), 4
+bath(s) , 2 car garage and approximately 5860 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, private spa, patio, fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Diane Kleinman</agent_name>
+<direct>520-885-0761</direct>
+<office>520-745-4545</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-745-4545</phone>
+<fax>520-747-5462</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$412,000</list_price>
+<location>10670 E Escalante Rd</location>
+<mls>9919635</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>5860 (approx)</square_feet>
+<lot_size>323X884X334X148X178X+</lot_size>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Family Room, Living Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Guest House, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

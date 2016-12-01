@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1948 has 2 bedroom(s), 1 bath(s) and
+approximately 1167 square feet of living area.</house_description>
+
+<agent_name>Gloria Lara</agent_name>
+<direct>303-359-8697</direct>
+<office>303-477-1000</office>
+<firm_name>Mazatlan Int'l Prop</firm_name>
+<phone>303-477-1000</phone>
+<fax>303-477-1000</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$219,000</list_price>
+<location>1076 Ivy St</location>
+<neighborhood>Hale Mayfair</neighborhood>
+<mls>379479</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1167 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

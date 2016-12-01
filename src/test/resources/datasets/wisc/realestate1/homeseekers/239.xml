@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This condominium built in 1999 has 2 bedroom(s), 2 bath(s) , 1 car
+attached garage and approximately 1212 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Jeanne Mockridge</agent_name>
+<direct>305-606-1855</direct>
+<office>534-1999</office>
+<email>Jeannesold@aol.com</email>
+<firm_name>Majestic Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>534-1999</phone>
+<fax>305-534-9088</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$450,000</list_price>
+<location>90 Alton Rd #2512</location>
+<neighborhood>Yacht Club At Portofino</neighborhood>
+<mls>M771915</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1212 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Foyer, Tennis Court(s), Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

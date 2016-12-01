@@ -1,0 +1,34 @@
+<house_listing>
+<price>$104,500</price>
+<mls_id_number>165111</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>884</sqft>
+<year_built>1961</year_built>
+<heat>Electric Ceiling Fan</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace>0</fireplace>
+<taxes>$1,356</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Tool Shed,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>ABERNATHY</elementary>
+<middle_school></middle_school>
+<high_school>CLEVELAND</high_school>
+</schools>
+
+</house_listing>
+
+
+

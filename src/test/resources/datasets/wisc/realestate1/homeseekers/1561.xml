@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Darling ranch on good sized lot; brick front; 2 car gar; great room
+w/woodstove; master bedroom on one side of house.</house_description>
+
+<agent_name>Georgianna Frech</agent_name>
+<direct>481-3216</direct>
+<office>757-424-5360</office>
+<firm_name>William E. Wood &amp; Associates</firm_name>
+<phone>757-424-5360</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$109,800</list_price>
+<location>Virginia Beach, VA 23456</location>
+<mls>9932545</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1460 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ceiling Fan(s), Fenced, Foyer, Ranch Style, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 4 bedroom(s), 2 bath(s) .
+Rooms include master bedroom. Features include private pool, private
+spa, patio, air conditioning, storage space.</house_description>
+
+<agent_name>Neal Stafford</agent_name>
+<office>602-996-4411</office>
+<firm_name>West Usa Realty West Usa Realty</firm_name>
+<phone>602-996-4411</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$175,000</list_price>
+<location>Phoenix, AZ 85018</location>
+<mls>1461714</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<patio>Covered</patio>
+<pool>Heated</pool>
+<rooms>Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Eat In Kitchen, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

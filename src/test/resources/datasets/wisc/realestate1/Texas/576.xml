@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Mayer Realty</name>
+<location>974 East Austin St. Giddings, TX 78942</location>
+<office>(409)542-2696</office>
+<toll_free></toll_free>
+<fax>(409)542-2554</fax>
+<email>mayerrealty@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeffery B. Keaghey</name>
+<office>(409)542-2696</office>
+<fax>(409)542-1715</fax>
+<email>mayerrealty@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18941</id>
+<mls></mls>
+<house_location>1162 County Road 231
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$99,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful 3 bedroom 2 1/2 bath 2 story Brick home on approximately 0.9 of an acre. Paved road frontage, c/a and c/h, satellite, fireplace, paved driveway.  Home is approximately 100 yards from Giddings Country Club, a semi-private golf course.</house_description>
+
+<school_district>Giddings Isd</school_district>
+<sub-division>Country Club</sub-division>
+<approx_size_sqft>2200</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>0.9 of an acre</approx_lot_size>
+<approx_acres>0.9</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>3 bedroom 2 1/2 bath with garden tub</item>
+<item>satellite</item>
+<item>Paved Road Frontage</item>
+<item>Close to Golf Course</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

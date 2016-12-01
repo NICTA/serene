@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Sandra Buchanan</name>
+<office>(254)542-1800</office>
+<fax></fax>
+<email>sandyb21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19574</id>
+<mls>88367</mls>
+<house_location>1215 Shady Lane
+Belton, TEXAS 76513</house_location>
+<county>Bell</county>
+<price>$102,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Large home on 1.26 acres with in ground pool with slide.  Large walk-in pantry, breakfast bar.</house_description>
+
+<school_district>Belton</school_district>
+<approx_size_sqft>2097</approx_size_sqft>
+<stories>1</stories>
+<year_built>1964</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>In ground pool</item>
+<item>Covered Patio, Wood privacy fence</item>
+<item>Ceramic Tile</item>
+<item>Shade trees/fruit trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

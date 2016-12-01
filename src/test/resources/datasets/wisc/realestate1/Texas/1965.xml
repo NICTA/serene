@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Reda Kay</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<mobile>(817)919-6567</mobile>
+<email>rkay@granbury.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21450</id>
+<mls>9134241</mls>
+<house_location>2302 Teal Place West (Ad # 274)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$399,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Elegance at its finest!  Truly a masterpiece for a buyer demanding the ultimate in quality!  Hand painted walls, limed cabinets, library/reading area,curved staircase, media room with complete wet bar, shutters, study, stunning built-ins, limestone patio, balcony overlooking Lake Granbury, gorgeous wood floors, office &amp; more.  Exquisite!!!</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Waters Edge</sub-division>
+<approx_size_sqft>3565</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>96x137x97Wx124</approx_lot_size>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Elegant Waterfront Home</item>
+<item>Truly a Masterpiece of Quality</item>
+<item>Gorgeous Wood Floors, Balcony, Curved Staircase</item>
+<item>Ad # 274</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

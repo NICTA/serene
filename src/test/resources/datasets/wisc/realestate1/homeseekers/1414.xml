@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This detached single family home has 2 bedroom(s), 1 full bath(s)/1
+half bath(s) , 1 car garage. Rooms include family room, living room,
+master bedroom. Features include fireplace.</house_description>
+
+<agent_name>Donald T Janovyak</agent_name>
+<office>815-476-2852</office>
+<firm_name>Era-Bale Realty</firm_name>
+<phone>815-476-2852</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$109,900</list_price>
+<location>Wilmington, IL 60481</location>
+<mls>99211979</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>62X120</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<rooms>Family Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Capecod Style, Full Basement
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

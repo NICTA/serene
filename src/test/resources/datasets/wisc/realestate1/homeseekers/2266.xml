@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1996 has 5 bedroom(s), 3 bath(s) , 3
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, private pool, private spa, patio, fireplace.</house_description>
+
+<agent_name>Stephen Heynen</agent_name>
+<office>480-759-4300</office>
+<firm_name>Keller Williams Realty</firm_name>
+<phone>480-759-4300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$439,000</list_price>
+<location>Phoenix, AZ 85045</location>
+<mls>1456648</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>15,001-18,000</lot_size>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Family Room, Gas logs, Master Bedroom</fireplace>
+<location>On golf course, Corner</location>
+<patio>Covered</patio>
+<pool>Heated</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher,Eat In Kitchen, Garage Door Opener, Kitchen Island, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

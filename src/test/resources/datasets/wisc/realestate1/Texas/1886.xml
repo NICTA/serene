@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sharon Vickers</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<mobile>(817)266-9020</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21393</id>
+<mls>9132952</mls>
+<house_location>529 Ruidoso
+Saginaw, TEXAS 76179</house_location>
+<county>Tarrant</county>
+<price>$82,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This one is special! Newer paint, carpet, appliances, counter tops. No paint siding.</house_description>
+
+<school_district>Eagle Mountain</school_district>
+<sub-division>Rancho North</sub-division>
+<approx_size_sqft>1350</approx_size_sqft>
+<stories>1</stories>
+<year_built>1971</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Must See</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

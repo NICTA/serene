@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>1541 SYMBO</house_location>
+<price>$995,000</price>
+<rooms>12</rooms>
+<bedrooms>5</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>SYMBO</suburb>
+<school_dist>KENTON</school_dist>
+<mls>245889</mls>
+<house_type>Farms</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>ELLEN DRYSDALE</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>ATTENTION DEVELOPERS-NICE LONG RIDGES-OWN YOUR OWN PARK!SECLUDED
+PARADISE W WITH UNDEBIEVABLE VIEW*MINUTES OFF XWAY*LRG LAKE
+W/DOCK*PONDS*WILDLIFE AB- UNDANT*UNIQUE HOME W/WOOD FLRS*3 STONE
+FP*WRAP AROUND DECK*PRIVATE SETTING</house_description>
+<construction>Brick,Cedar,Stone</construction>
+<heating>Electric,Wood,Hot Water</heating>
+<cooling>None</cooling>
+<fireplace>Wood,Stone</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>13</dimension><level>X</level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>17 X 15</dimension><level>L</level></bedroom_4>
+<bedroom_5><dimension>16 X 15</dimension><level>L</level></bedroom_5>
+<breakfast><dimension>16 X 13</dimension><level>1</level></breakfast>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<family><dimension>22 X 17</dimension><level>L</level></family>
+<kitchen><dimension>18 X 16</dimension><level>1</level></kitchen>
+<laundry><dimension>17 X 13</dimension><level>L</level></laundry>
+<living><dimension>23 X 18</dimension><level>1</level></living>
+<master><dimension>17 X 15</dimension><level>1</level></master>
+<study><dimension>14 X 11</dimension><level>1</level></study>
+
+<directions>US25 S OF WALTON L ON GREEN RD R ON SYMBO
+PROPERTY @ END - MUST HAVE APPT!!!</directions>
+</house_listing>
+
+
+

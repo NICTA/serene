@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Texas Best Properties</name>
+<location>1604 Industry, Ste. #108 Bastrop, TX 78602</location>
+<office>(512)303-2020</office>
+<toll_free></toll_free>
+<fax>(512)303-6116</fax>
+<email>txbest@flash.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Murchison</name>
+<office>(512)303-2020</office>
+<fax>(512)303-6116</fax>
+<mobile>(512)468-3030</mobile>
+<email>txbest@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21290</id>
+<mls>527682</mls>
+<house_location>1253 HWY 304- 6 MI OFF HWY 71
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$309,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>OWNER-BROKER'S HOME ON 12 ACRES OF GOOD COASTAL GRASS FOR YOUR HORSES. 2700' LIVING SQFT PER APPRAISAL - REPLACED CARPET, HARD TILE, PAINTED, COUNTERTOPS, CONVERTED DOUBLE GARAGE TO DEN W/ OWN CENTRACL A/C, BUILT A BIG TRIPLE GARAGE, LANDSCAPING, NEW FENCES ON 3 SIDES, WATER TROUGH IN PASTURE. ALL OF THIS FRESHNESS AND LOCATED ONLY 20 MIN FROM THE AUSTIN AIRPORT AND 7 MILES FROM WALMART IN BASTROP. CALL JONNA AT HOME @303.1980 OR KEN @ 468.3030/303/2020 FOR APPOINTMENT TO SEE THIS FINE HOME!</house_description>
+
+<move-in_date>4/30/00</move-in_date>
+<school_district>Bastrop ISD</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>2700</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>12.1</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>LIKE NEW ROCK HOME 3/2/3</item>
+<item>GOOD COASTAL PASTURE</item>
+<item>HORSE FRIENDLY</item>
+<item>CLOSE TO AUSTIN AIRPORT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

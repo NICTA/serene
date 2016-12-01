@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 3+ level townhouse built in 1984 has 3 bedroom(s), 2 bath(s) , 2
+car garage and approximately 1733 square feet of living area. Features
+include view, private pool, fireplace, air conditioning.</house_description>
+
+<agent_name>Neil Hicks</agent_name>
+<direct>520-579-9935</direct>
+<office>520-297-1186</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-297-1186</phone>
+<fax>520-297-1005</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$120,900</list_price>
+<location>3868 N Paseo De Las Canchas</location>
+<mls>9906429</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>3 or more</levels>
+<garage>2</garage>
+<type>Townhouse</type>
+<square_feet>1733 (approx)</square_feet>
+<lot_size>21X50</lot_size>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Family Room</fireplace>
+<pool>Yes</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

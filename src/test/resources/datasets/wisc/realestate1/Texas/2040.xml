@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>ED HERNANDEZ</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)681-7027</mobile>
+<email>teamwheat@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21674</id>
+<mls>88066</mls>
+<house_location>5122 Daybreak Drive
+Killeen, TEXAS 76542</house_location>
+<county>Bell</county>
+<price>$63,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Brand new executive townhomes in Killeen.  Quality built by Scott Fielder,  these 3 bedroom, 2 bath homes feature an enclosed garage, ceramic tile floors, raised panel doors, smooth surface ranges, covered patios, privacy fenced yards.  Call today to reserve your new home!!</house_description>
+
+<school_district>K.i.s.d</school_district>
+<sub-division>Morning Glen</sub-division>
+<approx_size_sqft>1144</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60x120</approx_lot_size>
+<approx_acres>0.15</approx_acres>
+<year_built>2000</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

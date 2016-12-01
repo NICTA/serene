@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judy Tinney</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19395</id>
+<mls>9091171</mls>
+<house_location>1507 Starlight (Ad# 134)
+Granbury, TEXAS</house_location>
+<county>Hood</county>
+<price>$134,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Quality Built! 3-2-2 home with many extras.  Oversized corner lot, real woodburning fireplace (not a metal box).  Very nice!</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Southtown</sub-division>
+<approx_size_sqft>1724</approx_size_sqft>
+<stories>1</stories>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Quality Built</item>
+<item>Real Fireplace</item>
+<item>Oversized Corner Lot</item>
+<item>Landscaped - Privacy Fence</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

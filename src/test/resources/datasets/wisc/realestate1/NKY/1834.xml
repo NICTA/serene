@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>130 AA HWY</house_location>
+<price>$229,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>BUTLER</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>245727</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>DEBBIE COFFMAN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>GORGEOUS CUSTOM BUILT 2 STORY WITH AN AWESOME TWO STORY FOYER. SELECT
+WHITE OAK HARDWOOD FLOORING ON ENTIRE 1ST LEVEL. CHERRY 42' CABIN
+JENN-AIRE KIT PELLA WOOD WINDOWS*OWNER BLT HOUSE SO IT WAS GIVEN THE
+'EXTRA TOUCH'.</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>11 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 9</dimension><level>2</level></bedroom_4>
+<dining><dimension>11 X 13</dimension><level>1</level></dining>
+<family><dimension>16 X 13</dimension><level>1</level></family>
+<kitchen><dimension>18 X 13</dimension><level>1</level></kitchen>
+<living><dimension>11 X 13</dimension><level>1</level></living>
+<master><dimension>17 X 15</dimension><level>2</level></master>
+
+<directions>AA HWY SOUTH, 3.5 MI PAST MARATHON STATION ON
+L*BLACK MAILBOX BY DRIVEWAY.</directions>
+</house_listing>
+
+
+

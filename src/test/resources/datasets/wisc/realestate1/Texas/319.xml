@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Monique Latimer</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>17251</id>
+<mls>138043</mls>
+<house_location>14154 PALO SECO
+Corpus Christi, TEXAS 78418</house_location>
+<county>Nueces</county>
+<price>$239,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>IMMACULATE PADRE ISLAND HOME! UPGRADED APPLIANCES, ALUMINUM STORM SHUTTERS, CONCRETE BOAT DOCK, 2 BOA LIFTS, 1 ELECTRIC, 1 MANUAL, OVERSIZED GARAGE, SPLIT BEDROOMS</house_description>
+
+<school_district>Flour Bluff</school_district>
+<sub-division>Coquina Bay</sub-division>
+<approx_size_sqft>2103</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60X120</approx_lot_size>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>LOCATED ON CANAL</item>
+<item>CONCRETE BOAT DOCK</item>
+<item>2 BOAT LIFTS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

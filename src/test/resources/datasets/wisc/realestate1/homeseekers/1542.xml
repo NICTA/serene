@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium built in 1948 has ? bedroom(s), 1 bath(s) and
+approximately 210 square feet of living area. Features include private
+pool, air conditioning.</house_description>
+
+<agent_name>Irving Zamora</agent_name>
+<direct>305-268-5262</direct>
+<office>305-412-0707</office>
+<firm_name>South Florida Real
+Lic. Real Estate Broker</firm_name>
+<phone>305-412-0707</phone>
+<fax>305-412-0070</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$34,000</list_price>
+<location>4000 Collins Av #415</location>
+<neighborhood>The Continental Collins A</neighborhood>
+<mls>M760673</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>210 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

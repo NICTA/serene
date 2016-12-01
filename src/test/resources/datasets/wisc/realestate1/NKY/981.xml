@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>29 ERLANGER RD</house_location>
+<price>$141,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached,Oversized)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>247454</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LAURA SANDERS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*SEE L/A FOR DETAILS ON
+COMMERCIAL ZONING*CHARMING 3BR*1929 OLD FASH OVEN-RANGE 'ROPER'
+NEGOT*REFRIG-NEGOT* POCKET DOORS*WIDE BASEBOARDS*NEW BATH &amp;
+KIT*WOODSTOVE IN GAR W/ELEC &amp; PHONE</house_description>
+<construction>Brick,Alum,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50X175</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>9 X 12</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 16</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 13</dimension><level>1</level></kitchen>
+<living><dimension>11 X 26</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>2</level></master>
+<recreation_room><dimension>6 X 20</dimension><level>1</level></recreation_room>
+
+<directions>DIXIE HWY TO ERLANGER RD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Jo Flanders</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)754-4741</mobile>
+<email>mjflanders@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21326</id>
+<mls>6337</mls>
+<house_location>801 Franklin
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$154,200</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Large Home On Corner LotHardwood FloorsDesigner WallpaperDecks &amp; Pool</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>Z Williamson</sub-division>
+<approx_size_sqft>2372</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Sunken Office or Study</item>
+<item>Lots of Storage</item>
+<item>Great Yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1950 has 5 bedroom(s), 3
+bath(s) and approximately 2248 square feet of living area. Rooms
+include bonus room, master bedroom. Features include patio, fireplace,
+air conditioning.</house_description>
+
+<agent_name>Andy Collins</agent_name>
+<direct>520-299-6464</direct>
+<office>520-323-7121</office>
+<firm_name>Western Realty Inv. Co.</firm_name>
+<phone>520-323-7121</phone>
+<fax>520-322-5808</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$219,988</list_price>
+<location>3911 E Calle De Jardin</location>
+<mls>2000736</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2248 (approx)</square_feet>
+<lot_size>80 X 137.5</lot_size>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Guest House
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

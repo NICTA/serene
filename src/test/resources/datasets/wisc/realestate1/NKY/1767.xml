@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>6 DAVIS LAKE RD.</house_location>
+<price>$67,000</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>OWENTON</suburb>
+<school_dist>OWEN</school_dist>
+<mls>248977</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX WORKS</firm>
+<firm_phone>(888) 297-7629</firm_phone>
+<agent>LISA E MORRIS</agent>
+<agent_phone>(888) 297-7629</agent_phone>
+<house_description>HARDWOOD FLOORS THROUGHOUT THIS HOME. REMODELED EAT-IN COUNTRY
+KITCHEN. ALMOST AN ACRE OF YARD. PLENTY OF ROOM INSIDE AND OUT. PUBLIC
+WATER. STOVE, DISHWASHER, REFRIGERATOR &amp; TWO WINDOW AIR CONDITIONERS
+STAY.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 16</dimension><level>2</level></bedroom_4>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 14</dimension><level>1</level></laundry>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>1</level></master>
+
+<directions>I71S TO EX#57. L ON 35 TO OWENTON. R AT 1 ST
+LIGHT (HWY 22). PROP APPRX 1MI ON L.</directions>
+</house_listing>
+
+
+

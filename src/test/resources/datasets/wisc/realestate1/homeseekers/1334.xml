@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1955 has 2
+bedroom(s), 1 bath(s) , 1 car attached garage and approximately 976
+square feet of living area. Rooms include den.</house_description>
+
+<agent_name>Luz Zubiri</agent_name>
+<direct>213-501-3353</direct>
+<office>818-548-5050</office>
+<firm_name>Home Life-Five City</firm_name>
+<phone>818-548-5050</phone>
+<fax>818-548-7535</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,000</list_price>
+<location>5221 Hub St</location>
+<mls>G200081</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>976 (approx)</square_feet>
+<lot_size>6000</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Den</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

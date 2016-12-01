@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Webb</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>bwebb@brendawebb.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20610</id>
+<mls>9121665</mls>
+<house_location>505 Bellevue
+Cleburne, TEXAS 76031</house_location>
+<county>Johnson</county>
+<price>$94,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This home has comfort in every room 2 large living areas invite a family and feel perfect for holiday entertaining. Kitchen is inviting w/breakfast bar, and pantry. 2 areas perfect for kids computer and your own off master. 4 bedrooms keep everyone close, but, not too close.  2 car garage is tandem.</house_description>
+
+<school_district>Cleburne</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>2046</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sonny Mobley</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>sonny@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18144</id>
+<mls>53463</mls>
+<house_location>2280 FRED WOOD DRIVE, POINT BREEZE #11, KINGSLAND
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$398,500</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Waterfront home in Point Breeze, Kingsland.  Completely furnished including fishing boat and jet ski.  Microwave, ice maker, wet bar, oven, range, refrigerator.  Fishing pier, day docks, retaining wall, lake pump, workshop.  Insulated windows, ceiling fan.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Kingsland</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WATERFRONT HOME</item>
+<item>FISHING BOAT &amp; JET SKI INCLUDED</item>
+<item>BOAT LIFT, DAY DOCKS, FISHING PIER</item>
+<item>WORKSHOP</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

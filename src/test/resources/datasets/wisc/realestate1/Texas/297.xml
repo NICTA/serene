@@ -1,0 +1,67 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heritage</name>
+<location>4675 Sweetwater Sugar Land, TX 77479</location>
+<office>(281)265-7355</office>
+<toll_free>(800)839-2799</toll_free>
+<fax>(281)265-7370</fax>
+<voice_mail>(281)630-7355</voice_mail>
+<email>remaxtx@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Anita Hochstein</name>
+<office>(281)265-7355</office>
+<fax>(281)265-7370</fax>
+<voice_mail>(281)630-7355</voice_mail>
+<mobile>(281)630-7355</mobile>
+<email>anitahouse @ aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12432</id>
+<mls>164248</mls>
+<house_location>3319 Oakmont
+Sugar Land, TEXAS 77479</house_location>
+<county>Fort Bend</county>
+<price>$565,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Absolutely Gorgeous!! Decorators dream, fine amenties abound in this murray millis custom, corner lot, kitchen/breakfast/familyroom with view of golf course. Lots of moldings, built-ins, drapes, hardwoods, subzero, lagoon pool/spa, fountain and much more.CALL TODAY!</house_description>
+
+<school_district>Fortbend Isd</school_district>
+<sub-division>First Colony</sub-division>
+<approx_size_sqft>4410</approx_size_sqft>
+<stories>2</stories>
+<year_built>1992</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Breakfast Bar</item>
+<item>Ceilings fans</item>
+<item>Sprinkler System</item>
+<item>Storage</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

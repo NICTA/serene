@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1988 has 4
+bedroom(s), 3.5 bath(s) , 3 car garage and approximately 4100 square
+feet of living area. Rooms include dining room, family room, living
+room, bonus room, master bedroom. Features include view, fireplace,
+air conditioning.</house_description>
+
+<agent_name>Steven Ferreira</agent_name>
+<direct>858-271-1663</direct>
+<office>858-578-5510</office>
+<firm_name>Coldwell Banker Assoc Realty Coldwell Banker Assoc Realty</firm_name>
+<phone>858-578-5510</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$699,000</list_price>
+<location>San Diego, CA 92131</location>
+<mls>99 6026697</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3.5</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>4100 (approx)</square_feet>
+<lot_size>24829</lot_size>
+<year_built>1988</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<pool>Community Pool</pool>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room, Master</rooms>
+<view>Valley View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Neighborhood Pool
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

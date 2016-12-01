@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>215 KENTUCKY</house_location>
+<price>$59,900</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248415</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>ADELE WESS</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*MOVE RIGHT INTO THIS CHARMING HOME
+ON A TREE LINED ST IN THE HISTORICAL MUTTER GOTTES DIST. LRG EAT IN
+KIT*BRITE COZY SOLARIUM WHICH OVERLOOKS WELL LANDSCAPED YARD.
+APPLIANCES STAY.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>21x120</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<family><dimension>14 X 9</dimension><level>1</level></family>
+<kitchen><dimension>15 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+
+<directions>75, 5TH STREET EXIT TO SOUTH ON JOHNSON L ON
+KENTUCKY</directions>
+</house_listing>
+
+
+

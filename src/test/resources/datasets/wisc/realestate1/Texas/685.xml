@@ -1,0 +1,44 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Kathleen Wheeler</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18250</id>
+<mls>9082158</mls>
+<house_location>4941 Glade
+Fort Worth, TEXAS 76114</house_location>
+<county>Tarrant</county>
+<price>$65,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Great curb appeal! Lovely home on corner lot! Desireable, quiet neighborhood near downtown. Big eat-in kitchen. Large rooms. Two living areas. Two closets in each bedroom. Storage in the garage.</house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

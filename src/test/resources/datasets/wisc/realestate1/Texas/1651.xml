@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stewart Martin</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>smartin@express-news.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20945</id>
+<mls>323415</mls>
+<house_location>2721 Cedar Lane
+Schertz, TEXAS 78154</house_location>
+<county>Guadalupe</county>
+<price>$83,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Smaller home that lives big! Wonderful eat-in kitchen w/plenty of cabinets.  Open family room with lots of light &amp; connecting dining room. Covered patio w/extended deck for pleasant evenings outdoors.  Pull down in garage w/3/4&amp;quot;  plywood storage. Recent outside paint. Pergo entry &amp; fireplace hearth. Four sides brick. Play Fort stays.</house_description>
+
+<school_district>Schertz-cibolo</school_district>
+<sub-division>Woodland Oaks</sub-division>
+<approx_size_sqft>1354</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60x110</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

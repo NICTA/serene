@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This condominium built in 1936 has 1 bedroom(s), 2 bath(s) . Features
+include air conditioning.</house_description>
+
+<agent_name>Greg Stier</agent_name>
+<direct>305-975-0908</direct>
+<office>305-532-0260</office>
+<firm_name>Kent Karlock Realt
+Lic. Real Estate Broker</firm_name>
+<phone>305-532-0260</phone>
+<fax>305-532-0940</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$87,600</list_price>
+<location>635 12 St #12</location>
+<neighborhood>Delphine</neighborhood>
+<mls>M765750</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<year_built>1936</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Electric</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

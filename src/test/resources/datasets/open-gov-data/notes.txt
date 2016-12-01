@@ -1,0 +1,5 @@
+Given a file with mappings of URLs on each line such as:
+  (name,URL-of-dataset-page)
+
+Run the following to crawl csvs:
+  cat <path_to_mapping_file> | tr -d '\r' | sed -e 's/(\(.*\),\(.*\))/\1 \2/'  | xargs -n 2 wget -r -H -l 1 -nd  -e robots=off -A csv -P

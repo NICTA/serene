@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>413 BEECH</house_location>
+<price>$49,000</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>243747</mls>
+<house_type>Single Family</house_type>
+<firm>CASSON REALTY</firm>
+<firm_phone>(606) 635-5805</firm_phone>
+<agent>LAMBERT SCHEBEN</agent>
+<agent_phone>(606) 635-5805</agent_phone>
+<house_description>NICE 4 BEDROOM WITH LARGE REAR YARK WITH SHED NEW CARPET NEWLY PAINTED
+NICE FOR THE MONEY CAN BE BOUGHT WITH ONLY 1% OF BUYERS MONEY AND GOOD
+CREDIT CALL OFFICE FOR DETAILS PAYMENTS MAY BE LOWER THAN RENT</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>9999999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 11</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>8 X 12</dimension><level>1</level></bedroom_4>
+<family><dimension>9 X 18</dimension><level>1</level></family>
+<kitchen><dimension>11 X 16</dimension><level>1</level></kitchen>
+<living><dimension>12 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 14</dimension><level>1</level></master>
+
+<directions>S US 27 TO L ON BEECH OR L A SHELL STATIO N ON
+TO SHELBY ACROSS TRACKS TO R ON BEEC</directions>
+</house_listing>
+
+
+

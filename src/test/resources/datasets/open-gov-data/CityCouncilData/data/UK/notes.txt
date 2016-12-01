@@ -1,0 +1,24 @@
+UK crawling:  wget doesn’t work -- downloading too many stuff (--accept-regex/ --reject-rejex doesn’t work well)
+
+USING HTTRACK
+
+httrack --max-rate=0 --disable-security-limits --sockets=10 -a http://data.gov.uk/publisher/brighton-and-hove-city-council -* +*/dataset* +*/resource_cache/*  +*.csv -r 1
+
+
+httrack --max-rate=0 --disable-security-limits --sockets=10 -a http://data.gov.uk/publisher/allerdale-borough-council -* +*/dataset* +*/resource_cache/*  +*.csv -r 1
+
+
+
+httrack --max-rate=0 --disable-security-limits --sockets=10 -a http://data.gov.uk/publisher/ashfield-district-council -* +*/dataset* +*/resource_cache/* +*.csv -*.html -r 1
+
+
+httrack --max-rate=0 --disable-security-limits --sockets=10 -a http://data.gov.uk/publisher/ashfield-district-council -* +*/resource_cache/*.csv -r 1
+
+
+
+httrack --max-rate=0 --disable-security-limits --sockets=10 -a -r 2 -s0 http://data.gov.uk/publisher/ashfield-district-council -* +*/dataset* +*/resource_cache/* +*.csv +*page* -*.html
+
+
+
+——— Trying WGET again ——-
+wget -r -H -l 1 -nd -t 3 --content-disposition -e robots=off -A csv <url>

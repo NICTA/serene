@@ -1,0 +1,34 @@
+<house_listing>
+<price>$182,900</price>
+<mls_id_number>160834</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>2.10</bathrooms>
+<sqft>1840</sqft>
+<year_built>1999</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>52.25X80</lot_description>
+<fireplace>1</fireplace>
+<taxes>$2,200</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Gas Fireplace</interior>
+<exterior>Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>CHERRY PARK</elementary>
+<middle_school>ALICE OTT</middle_school>
+<high_school>DAVID DOUGLAS</high_school>
+</schools>
+
+</house_listing>
+
+
+

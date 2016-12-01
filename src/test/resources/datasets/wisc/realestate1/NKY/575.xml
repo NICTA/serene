@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>329 E EAST 47TH ST</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>240745</mls>
+<house_type>Single Family</house_type>
+<firm>CASSON REALTY</firm>
+<firm_phone>(606) 635-5805</firm_phone>
+<agent>LAMBERT SCHEBEN</agent>
+<agent_phone>(606) 635-5805</agent_phone>
+<house_description>NICE 1 FAMILY WITH LARGE FENCED BACK YARD 1 CAR DETACHED GARAGE
+SCREENED IN REAR PORCH WOOD CABINETS NEWER GAS FORCED AIR FURNACE
+NEWER ELECTRIC WITH BREAKERS OPEN STAIRWAY TO SECOND FLOOR SOLD AS IS</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>999999999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>11 X 14</dimension><level>2</level></bedroom_2>
+<dining><dimension>11 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 14</dimension><level>1</level></kitchen>
+<living><dimension>13 X 25</dimension><level>1</level></living>
+<master><dimension>12 X 14</dimension><level>2</level></master>
+
+<directions>I 275 W TO 16 TO DECORSEY TO R ON 47 TH S T</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elaine Morrow</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)707-1326</mobile>
+<email>jesmorrow@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20698</id>
+<mls>9116307</mls>
+<house_location>109 Lakeway
+Morgan, TEXAS 76671</house_location>
+<county>Bosque</county>
+<price>$85,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>1950&amp;#8217;s Extradornaire!  Two bedroom, two bath home nestled on two lots in Lakeside Village.  Water well.  Beautiful knotty pine wall treatments thoughout,  barbeque pit in the kitchen, brick lanai close, access to Lake Whitney just around the corner!  Perfect lake escape or retirement home.  Hurry!!!</house_description>
+
+<school_district>Morgan</school_district>
+<sub-division>Lakeside Village</sub-division>
+<approx_size_sqft>1700</approx_size_sqft>
+<stories>1</stories>
+<year_built>1953</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Perfect Lake Escape</item>
+<item>Lovely oversized landscaped lots</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

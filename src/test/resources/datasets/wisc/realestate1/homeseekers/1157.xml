@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1999 has 4 bedroom(s), 3 bath(s) and
+approximately 2000 square feet of living area.</house_description>
+
+<agent_name>Deborah Meyer</agent_name>
+<direct>303-433-7813</direct>
+<office>303-433-7813</office>
+<firm_name>Wonderland Propertie</firm_name>
+<phone>303-433-7813</phone>
+<fax>303-604-9803</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$269,900</list_price>
+<location>4415 W 36 Av</location>
+<neighborhood>Hei</neighborhood>
+<mls>367948</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2000 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

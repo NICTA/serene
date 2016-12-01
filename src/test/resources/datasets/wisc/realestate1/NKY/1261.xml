@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>744 VALLEY SQUARE</house_location>
+<price>$83,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>KENTON CO</school_dist>
+<mls>250290</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN HUFF</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * OPEN,AIRY FLOOR PLAN! SECOND BEDROOM COULD BE DEN/STUDY
+* CONVENIENTLY LOCATED JUST MINUTES TO I-275 * SHOWS GREAT * ALL
+APPLIANCES STAY! CONTACT SUSHUF@ONE.NET</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>122</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<dining><dimension>9 X 9</dimension><level>2</level></dining>
+<kitchen><dimension>11 X 8</dimension><level>2</level></kitchen>
+<laundry><dimension>6 X 5</dimension><level>2</level></laundry>
+<living><dimension>18 X 15</dimension><level></level></living>
+<master><dimension>16 X 14</dimension><level>2</level></master>
+
+<directions>I-275 SOUTH ON TAYLOR MILL RD TO VALLEY GROVE
+(ENTRY ON RIGHT)</directions>
+</house_listing>
+
+
+

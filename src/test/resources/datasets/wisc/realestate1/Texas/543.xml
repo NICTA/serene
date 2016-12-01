@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Angie Nevil</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)707-0905</mobile>
+<email>afnevil@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19932</id>
+<mls>9110525</mls>
+<house_location>615 S. Colorado
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$83,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT LOCATION!  This three bedroom, two bath brick home located in Whitney is within walking distance to shopping and schools.  Central heat &amp; air, oak kitchen cabinets, oversized bedroom closets, two storage buildings and attached two car carport.  Five years old.  Extra clean.</house_description>
+
+<school_district>Whitney</school_district>
+<sub-division>Lakeview</sub-division>
+<approx_size_sqft>1400</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.3</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Brick Home in Whitney</item>
+<item>Corner Oversized Lot</item>
+<item>Immaculate Condition</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

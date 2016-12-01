@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ashley Duncan</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)988-9860</mobile>
+<email>c21aduncan@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20927</id>
+<mls>9084561</mls>
+<house_location>109 Lori Drive
+Weatherford, TEXAS 76087</house_location>
+<county>Parker</county>
+<price>$127,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>GREAT LOCATION! 3 BEDROOM, 2 BATH WITH 2 CAR GARAGE IN NORTHCHASE SUBDIVISION. LARGE KITCHEN, LOTS OF CABINET SPACE, TERRAZZO TILE, VAULTED CEILINGS, CROWN MOLDING, BAY WINDOWS, LARGE UTILITY, WORKBENCH IN GARAGE.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Northchase</sub-division>
+<stories>1</stories>
+<year_built>1996</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

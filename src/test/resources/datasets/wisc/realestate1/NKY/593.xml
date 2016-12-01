@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>46 W 28TH STREET</house_location>
+<price>$45,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>246798</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>MARY K ALLHOFF</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>GREAT STARTER HOME OR INVESTMENT*FIVE ROOM COTTAGE*NEWER WIRING*NEWER
+HWH* PORCH &amp; STEPS REPLACED IN 1994*INTERIOR PAINTED IN 1998*ALL
+APPLIANCES STAY* AON HOME WARRANTY</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 9</dimension><level>1</level></bedroom_2>
+<dining><dimension>12 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 9</dimension><level>1</level></kitchen>
+<living><dimension>15 X 9</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>MADISON PK TO ROGERS TO L ON W 28TH ST</directions>
+</house_listing>
+
+
+

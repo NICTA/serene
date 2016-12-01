@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Marcie Schiro</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<mobile>(361)522-0585</mobile>
+<email>Marcie.C-21@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17517</id>
+<mls>R25988</mls>
+<house_location>3918 Boyd
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$115,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautiful, well maintained home with ac, 1 yr. old, water heater less than one yr., disposal 1999, great room with cathedral ceiling &amp; FP.  Formal dining and breakfast area, covered patio and deck, this house is a must see!</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Allendale #3</sub-division>
+<approx_size_sqft>1940</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>82 X 112</approx_lot_size>
+<year_built>1980</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Covered Patio</item>
+<item>Decks</item>
+<item>Landscaped</item>
+<item>Storage Building</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

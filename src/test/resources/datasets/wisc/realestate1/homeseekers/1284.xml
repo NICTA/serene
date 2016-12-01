@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1940 has 2
+bedroom(s), 1 bath(s) and approximately 669 square feet of living
+area.</house_description>
+
+<agent_name>Jilma Centeno</agent_name>
+<direct>619-340-3506</direct>
+<office>619-475-7777</office>
+<firm_name>Century 21 Award Century 21 Award</firm_name>
+<phone>619-475-7777</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$105,000</list_price>
+<location>San Diego, CA 92113</location>
+<mls>99 8004586</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>669 (approx)</square_feet>
+<lot_size>5601</lot_size>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Wall Unit</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1956 has 5 bedroom(s), 4 bath(s) .
+Rooms include dining room, family room, master bedroom. Features
+include private pool, patio, fireplace, skylights, storage space.</house_description>
+
+<agent_name>Gregory Paul Johnson</agent_name>
+<office>480-941-5114</office>
+<firm_name>United Southwest Realty</firm_name>
+<phone>480-941-5114</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$686,900</list_price>
+<location>Phoenix, AZ 85018</location>
+<mls>1432475</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>12,501-15,000</lot_size>
+<year_built>1956</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Family Room, Fire Pit, Gas logs, Master Bedroom</fireplace>
+<patio>Covered, Deck</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher, EatIn Kitchen, Game Room, Great Room, Library, Loft, Pantry, Ranch Style,Skylights, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Jo Flanders</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)754-4741</mobile>
+<email>mjflanders@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19185</id>
+<mls>5953</mls>
+<house_location>1312 Dartmouth
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$99,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Duplex-Multi-FamilyVery Well MaintaninedNew Roof Spring /99Fenced YardCovered PorchLarge Storage</house_description>
+
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

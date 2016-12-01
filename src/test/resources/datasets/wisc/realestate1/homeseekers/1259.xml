@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1993 has 4
+bedroom(s), 3 bath(s) , 3 car garage and approximately 2664 square
+feet of living area. Rooms include dining room, family room, living
+room, master bedroom. Features include view, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Rip Fritzer</agent_name>
+<direct>619-443-4191</direct>
+<office>619-589-8600</office>
+<firm_name>Prudential Calif Realty Prudential Calif Realty</firm_name>
+<phone>619-589-8600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$469,000</list_price>
+<location>San Diego, CA 92131</location>
+<mls>99 2005051</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2664 (approx)</square_feet>
+<year_built>1993</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Family Room, Master Bedroom</fireplace>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+<view>Bay View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

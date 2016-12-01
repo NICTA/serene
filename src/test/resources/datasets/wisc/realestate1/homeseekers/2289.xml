@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1959 has 3
+bedroom(s), 2 bath(s) , 2 car garage and approximately 1134 square
+feet of living area. Rooms include dining room, living room, master
+bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Jeremy Reeder</agent_name>
+<direct>619-417-7863</direct>
+<office>619-497-4900</office>
+<firm_name>Century 21 Carole Realty Century 21 Carole Realty</firm_name>
+<phone>619-497-4900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$154,900</list_price>
+<location>San Diego, CA 92114</location>
+<mls>99 6026778</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1134 (approx)</square_feet>
+<lot_size>16900</lot_size>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<view>Valley View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

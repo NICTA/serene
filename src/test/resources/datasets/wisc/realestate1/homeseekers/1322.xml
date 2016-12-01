@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1995 has 3 bedroom(s), 3
+bath(s) , 3 car garage and approximately 2665 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>James Gillie</agent_name>
+<direct>520-749-3917</direct>
+<office>520-577-7433</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-577-7433</phone>
+<fax>520-577-5417</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$268,500</list_price>
+<location>2286 E Buster Mountain Dr</location>
+<mls>2000648</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2665 (approx)</square_feet>
+<lot_size>80X100 APPROX</lot_size>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

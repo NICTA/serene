@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>9057</id>
+<mls>3484030</mls>
+<house_location>5 Waterview
+Lake Whitney , TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$45,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>2/2, vaulted ceiling family room with brick fireplace, large closet and utility room, detached garage on larged shaded lot just off FM 1713 and minutes from boat ramp, camp grounds and beautiful Lake Whitney.</house_description>
+
+<move-in_date>7/17/98</move-in_date>
+<school_district>Whitney</school_district>
+<sub-division>Lakeside Hills</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Paved road</item>
+<item>Minutes from town and the lake</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Pat Burch</name>
+<office>(512)834-6083</office>
+<fax>(512)834-2234</fax>
+<email>pat.burch@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21619</id>
+<mls>528978</mls>
+<house_location>20822 Jumpers Delight Ln.
+Pflugerville, TEXAS 78660</house_location>
+<county>Travis</county>
+<price>$117,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Wow! Buffington built with an easy flowing floor plan and oh so many amenities.  A house that truly is a home.  Large and spacious with 9 foot ceilings.  Nicely landscaped with a private backyard and a deck and a pool to enjoy those hot Texas summers!</house_description>
+
+<school_district>Pflugerville</school_district>
+<sub-division>Steeds Crossing</sub-division>
+<approx_size_sqft>1725</approx_size_sqft>
+<approx_lot_size>.20</approx_lot_size>
+<approx_acres>0.2</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Custom Blinds! Fabulous Entry!</item>
+<item>Large Master Suite!</item>
+<item>Spacious Bedrooms!</item>
+<item>3 Sides Brick! Large Closets!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

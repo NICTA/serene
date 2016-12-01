@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1959 has ? bedroom(s), 1 bath(s) and
+approximately 390 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Greg Stier</agent_name>
+<office>305-532-0260</office>
+<firm_name>Kent Karlock Realt
+Lic. Real Estate Broker</firm_name>
+<phone>305-532-0260</phone>
+<fax>305-532-0940</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$62,500</list_price>
+<location>101 Collins Av #25</location>
+<neighborhood>Concord House Condo</neighborhood>
+<mls>M745932</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>390 (approx)</square_feet>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Electric</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

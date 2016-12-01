@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ardis Barnett</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 110</voice_mail>
+<mobile>(512)753-6215</mobile>
+<email>afb@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21608</id>
+<mls>529506</mls>
+<house_location>46 Crazy Cross
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$113,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful home with views overlooking hill country, close to golf course, starter home for small family, lovely decor, covered porch, lots of detail.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Woodcreek North</sub-division>
+<approx_size_sqft>1340</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.25</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

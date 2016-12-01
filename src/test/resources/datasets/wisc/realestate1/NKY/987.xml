@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>524 PERIMETER</house_location>
+<price>$99,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>(Carport)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>250274</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>NANCY LUCAS-SMITH</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>WELL CARED FOR HOME*NOT A DRIVEBY*MORE HOUSE THAN APPEARS FROM
+CURB*LARGE FLAT FENCED REAR YARD WITH TREE LINED VIEW*NEWER
+MECHANICS*YOU WILL NOT BE DISAPPOINTED.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>60X135</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>9 X 9</dimension><level>1</level></breakfast>
+<family><dimension>26 X 9</dimension><level>L</level></family>
+<kitchen><dimension>9 X 7</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 9</dimension><level>L</level></laundry>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>DIXIE TO HALLAM CONTINUE L ON HALLAM TO L ON
+HAYDEN TO PERIMETER.</directions>
+</house_listing>
+
+
+

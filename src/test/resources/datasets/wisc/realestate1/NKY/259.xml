@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1834 WHISPERING TRA</house_location>
+<price>$179,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249383</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LAURA SANDERS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*HARD TO FIND FULL BRICK RANCH
+ON .71 ACRE LOT*EXTENDED EXTRAWIDE DRIVEWAY*20X10 PATIO*5 CEIL
+FANS*CATH CEIL* SEVERAL CLOSETS*ANDERSEN WINDOWS*HEATOLATER IN
+FIREPLACE*STAINED WOODWORK</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Ceramic</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>100X306</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>12 X 8</dimension><level>1</level></breakfast>
+<dining><dimension>15 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>16 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 10</dimension><level>1</level></master>
+
+<directions>S ON US 42 TO LEFT ON WHISPERING TRAILS</directions>
+</house_listing>
+
+
+

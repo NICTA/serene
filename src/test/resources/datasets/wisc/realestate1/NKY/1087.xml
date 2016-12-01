@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>2560 KEEFER</house_location>
+<price>$245,250</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>CORINTH</suburb>
+<school_dist>GRANT</school_dist>
+<mls>246993</mls>
+<house_type>Farms</house_type>
+<firm>RE/MAX WORKS</firm>
+<firm_phone>(888) 297-7629</firm_phone>
+<agent>MICHAELA MCGRAW</agent>
+<agent_phone>(888) 297-7629</agent_phone>
+<house_description>BEAUTIFUL FARM 69.9 ACRES FEATURES 3 BEDROOM PARTIALLY REMODELED HOME,
+2 BARNS, POND, STORAGE SHED, FRUIT TREES AND MORE. GREAT FOR HORSES
+MOTIVATED SELLERS. APPROX 2000FT FRONTAGE WILL DIVIDE</house_description>
+<construction>Alum</construction>
+<heating>Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>Irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 17</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 15</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 13</dimension><level>1</level></kitchen>
+<living><dimension>22 X 16</dimension><level>1</level></living>
+<master><dimension>14 X 10</dimension><level>1</level></master>
+
+<directions>75S EXIT 144 LEFT ONTO 330 L ONTO 25 LEFT ONTO
+KEEFER</directions>
+</house_listing>
+
+
+

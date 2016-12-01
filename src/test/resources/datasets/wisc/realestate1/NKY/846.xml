@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>80 CREEKWOOD #4</house_location>
+<price>$64,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248587</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MIKE PARKER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * QUICK POSSESSION * 2 BEDRMS * 2 FULL BATH * 1ST FLR
+VIEW OF LAKE * GREAT LOCATION *CLOSE TO EVERYTHING * OPEN FLR PLAN *
+EASY TO SHOW * LG MASTER SUITE W/FULL BATH PLUS LG WALK-IN CLOSET*CALL
+MIKE AT 647-0700</house_description>
+<construction>Other</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>112</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>16 X 11</dimension><level>1</level></master>
+
+<directions>US 27 TO MOCK RD TO BRENTWOOD HILLS BLDG 80 ON
+CREEKWOOD</directions>
+</house_listing>
+
+
+

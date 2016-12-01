@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1936 has 2 bedroom(s), 2
+bath(s) , 1 car garage and approximately 1100 square feet of living
+area. Features include view, patio, storage space.</house_description>
+
+<agent_name>Bryant Keefe</agent_name>
+<direct>520-977-6902</direct>
+<office>520-790-5000</office>
+<firm_name>Flat Fee Realty</firm_name>
+<phone>520-790-5000</phone>
+<fax>520-750-0549</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$99,500</list_price>
+<location>1136 E Silver St</location>
+<mls>9921299</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>1100 (approx)</square_feet>
+<lot_size>105X107.5</lot_size>
+<year_built>1936</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

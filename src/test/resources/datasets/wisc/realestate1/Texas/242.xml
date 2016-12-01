@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debbie Jackson</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<voice_mail>(361)853-2121 111</voice_mail>
+<mobile>(361)774-0548</mobile>
+<email>TurtleDebJ@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21417</id>
+<mls>141990</mls>
+<house_location>726 Monette
+Corpus Christi, TEXAS 78412</house_location>
+<county>Nueces</county>
+<price>$139,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great family home. Many updates - reroute in &amp;#8217;95, ac and furnace in &amp;#8217;97, air ducts cleaned in &amp;#8217;98, water heater and both baths remodeled in &amp;#8217;98, new roof and plantation shutters in &amp;#8217;99. Master with 2 closets, dog run, and much more.</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Meadowbrook</sub-division>
+<approx_size_sqft>2300</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>79x117</approx_lot_size>
+<year_built>1965</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>4 Bedrooms - 2 Full Baths</item>
+<item>2 Living &amp; 2 Dining &amp; Brkfst Bar</item>
+<item>Large Family Room</item>
+<item>Many Updates!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

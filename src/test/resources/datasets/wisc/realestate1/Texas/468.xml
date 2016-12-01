@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Eldon McGill</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)331-6644 x137</voice_mail>
+<mobile>(512)219-6610</mobile>
+<email>eamcgill@msn.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18799</id>
+<mls>516973</mls>
+<house_location>1504 Warren Cv.
+Cedar Park, TEXAS 78613</house_location>
+<county>Williamson</county>
+<price>$229,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Immaculate in and out. Many upgrades inside , covered patio- 2.5 Garage with 9ft. doors. Sprinkler system.</house_description>
+
+<move-in_date>8/27/99</move-in_date>
+<school_district>Leander</school_district>
+<sub-division>Westside At Buttercup Creek</sub-division>
+<approx_size_sqft>2674</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>7500</approx_lot_size>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Ready Now</item>
+<item>Better Than New</item>
+<item>Very Sharp</item>
+<item>Many upgrades</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

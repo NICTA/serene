@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tandy Fuller</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)323-1233 252</voice_mail>
+<email>thf@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18619</id>
+<mls>515596</mls>
+<house_location>5214 Village Path
+Austin, TEXAS 78744</house_location>
+<county>Travis</county>
+<price>$68,681</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>CUTE AND COLORFUL. VAULTED LIVING WITH COUNTRY KITCHEN. UPDATED CARPET AND INTERIOR PAINT 1998. CACH 1993, GDO 1998. WALLPAPERS 1998-1999. COVERED PATIO. LARGE TREES FRONT/BACK, INSIDE UTILITY. .5 CEILING FANS. LIVING DRAPES DO NOT CONVEY.</house_description>
+
+<school_district>Austin,rodrigue,mendez,travis</school_district>
+<sub-division>Village South</sub-division>
+<approx_size_sqft>1101</approx_size_sqft>
+<approx_lot_size>55 X 116</approx_lot_size>
+<year_built>1974</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

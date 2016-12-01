@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Lloyd Barnes</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)558-1417</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16393</id>
+<mls>5687</mls>
+<house_location>127 Rivercrest
+Luling, TEXAS 78648</house_location>
+<county>Caldwell</county>
+<price>$67,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great Starter Home!!!  Large living, hardwood floors, central heat and air, large fenced back yard.  Good neighborhood.</house_description>
+
+<school_district>Luling</school_district>
+<sub-division>Laurel Heights</sub-division>
+<approx_size_sqft>1125</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>City</approx_lot_size>
+<year_built>1957</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Good neighborhood!!!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

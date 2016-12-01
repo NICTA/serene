@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Terri Stone</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>terristone@usa.net or tstone1@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19821</id>
+<mls>53976</mls>
+<house_location>807 Indian Paint
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$143,045</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SPACIOUS HOME WITH WIDE HALLS AND LARGE ROOMS! VIEW OF LAKE LBJ FROM THE LIVING ROOM AND THE MASTER BEDROOM. THE HOME HAS INSULATED WINDOWS, A UTILITY ROOM AND A DECK. IT NEEDS A LITTLE TENDER LOVING CARE, BUT AT THIS PRICE IT IS A GOOD DEAL AND WOULD MAKE A GREAT INVESTMENT!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<approx_size_sqft>2582</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WIDE HALLS AND LARGE ROOMS!</item>
+<item>VIEW OF LAKE LBJ FROM TWO ROOMS!</item>
+<item>GREAT INVESTMENT OPPORTUNITY!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

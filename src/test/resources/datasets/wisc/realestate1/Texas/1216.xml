@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>MAGGIE MAYFIELD</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 145</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11483</id>
+<mls>161503</mls>
+<house_location>5050 AMBASSADOR #220
+Houston, TEXAS 77056</house_location>
+<county>Harris</county>
+<price>$76,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Ambassador At Post Oak</sub-division>
+<approx_size_sqft>948</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>HI-RISE</approx_lot_size>
+<year_built>1967</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+
+<highlights>
+<item>5050 AMBASSADOR #220</item>
+<item>ALL UTILITIES INCLUDED</item>
+<item>UPTOWN / GALLERIA LOCATION</item>
+<item>MOVE-IN TODAY!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>500 MAIN ST</house_location>
+<price>$67,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>N</suburb>
+<school_dist>CARROLL</school_dist>
+<mls>248346</mls>
+<house_type>Single Family</house_type>
+<firm>REALTY WORLD-RIVER VALLEY PROP</firm>
+<firm_phone>(502) 732-9977</firm_phone>
+<agent>LINDA SIMMONS-YOUTSEY</agent>
+<agent_phone>(502) 732-9977</agent_phone>
+<house_description>2 BEDROOM HOME ON NICE CORNER LOT WITH LARGE PATION IN GHENT CALL
+OFFICE FOR MORE DETAILS!</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>8000 sqft</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N</semiannual_taxes>
+<bath_1><dimension></dimension><level>1</level></bath_1>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<dining><dimension></dimension><level>1</level></dining>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>I71S TO EXIT 44 R227 R42 TO GHENT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This home built in 1957 has 2 bedroom(s), 2 bath(s) , 1 car garage.
+Rooms include master bedroom. Features include view, patio.</house_description>
+
+<agent_name>Ceil Klinger</agent_name>
+<office>602-997-7324</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>602-997-7324</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$88,500</list_price>
+<location>Phoenix, AZ 85004</location>
+<mls>1464156</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Townhouse/Condo</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1957</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<patio>Deck</patio>
+<pool>Community Pool</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dining/Living Combo, Dishwasher, Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

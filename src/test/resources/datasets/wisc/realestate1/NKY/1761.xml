@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>0 R HAZELTON</house_location>
+<price>$115,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>(Detached)</garage>
+<suburb>CORINTH</suburb>
+<school_dist>OWEN</school_dist>
+<mls>247608</mls>
+<house_type>Farms</house_type>
+<firm>PEGGIE TISCH REALTY</firm>
+<firm_phone>(502) 484-4586</firm_phone>
+<agent>PEGGIE TISCH</agent>
+<agent_phone>(502) 484-4586</agent_phone>
+<house_description>FARM SURROUNDED BY CREEK, FISHING. HOUSE NEEDS WORK, ONE OF THE BEST
+FARMS IN AREA.</house_description>
+<construction>Vinyl</construction>
+<heating>None</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>None</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>14 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 13</dimension><level>1</level></laundry>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 14</dimension><level>1</level></master>
+
+<directions>I75 S EXIT 144 APPX.7 MI.LEFT ON PLEASANT GROVE,
+NO SIGN.</directions>
+</house_listing>
+
+
+

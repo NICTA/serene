@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Wells</name>
+<office>(713)686-6090</office>
+<fax>(713)686-8543</fax>
+<voice_mail>(281)512-5177</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11162</id>
+<mls>143534</mls>
+<house_location>241 Merrie Way
+Houston, TEXAS 77024</house_location>
+<county>Harris</county>
+<price>$449,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A memorial home nestled in heart of Piney Point Village...Flowing room rooms for casual or elegant entertaining....Island kitchen.. glass front...cabinets.. black marble..extra large shower, skylight in master bath.... Directions: I-10 south on Voss west on Memorial to Merrie Way right on Merrie Way.</house_description>
+
+<school_district>Spring Branch</school_district>
+<sub-division>Piney Point Village</sub-division>
+<approx_size_sqft>3345</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>22652</approx_lot_size>
+<approx_acres>0.5</approx_acres>
+<year_built>1957</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Exclusive Area</item>
+<item>Interior Location</item>
+<item>Skylight</item>
+<item>Two livings area can convert to one</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

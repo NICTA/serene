@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This split level attached single family home built in 1923 has 2
+bedroom(s), 1 bath(s) and approximately 780 square feet of living
+area. Features include air conditioning.</house_description>
+
+<agent_name>Elizabeth Aguilar</agent_name>
+<direct>323-217-1917</direct>
+<office>323-721-7430</office>
+<firm_name>Coldwell Banker 1St Class Coldwell Banker 1St Class</firm_name>
+<phone>323-721-7430</phone>
+<fax>323-724-0644</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$128,000</list_price>
+<location>1653 W 68Th St</location>
+<mls>M200019</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>Split Level</levels>
+<type>Single Family</type>
+<square_feet>780 (approx)</square_feet>
+<lot_size>4455</lot_size>
+<year_built>1923</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

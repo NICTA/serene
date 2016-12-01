@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Verna</email>
+</firm_information>
+
+<agent_information>
+<name>Adams</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)242-6500</voice_mail>
+<mobile>(713)824-0228</mobile>
+<email>vernaadams@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14496</id>
+<mls>197824</mls>
+<house_location>13623 Cherrydown
+Sugar Land, TEXAS 77478</house_location>
+<county>Fort Bend</county>
+<price>$75,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Great Starter home. You'll love the spacious den and country kitchen. Soft grey carpet, wood burning fireplace, covered patio in the back plus a storage shed. Quiet friendly street.</house_description>
+
+<move-in_date>2/24/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Covington Woods</sub-division>
+<approx_size_sqft>1229</approx_size_sqft>
+<stories>1</stories>
+<year_built>1975</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Spacious Den and Country Kitchen</item>
+<item>Woodburning Fireplace</item>
+<item>Covered Patio</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

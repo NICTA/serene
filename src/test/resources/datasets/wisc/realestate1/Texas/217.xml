@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21490</id>
+<mls>9135680</mls>
+<house_location>8 McKey Abstract
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$49,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>THIS TWO ACRES features an immaculate three bedroom, two bath '95 mobile.  Vaulted ceiing throughout, utiltiy room, upgraded carpet, ceiling fans, built-ins, breakfast bar, double vanity, garden tub, two car carport and much more...Affordable housing....</house_description>
+
+<move-in_date>1/11/00</move-in_date>
+<school_district>Whitney</school_district>
+<sub-division>Mckey Abstract</sub-division>
+<approx_size_sqft>1280</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>2.08</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Affordable Housing</item>
+<item>Two Acres</item>
+<item>Fresh, Neat and Clean</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

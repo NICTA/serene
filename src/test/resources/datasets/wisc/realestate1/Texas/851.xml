@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Danny Dunn</name>
+<office>(361)668-3300</office>
+<fax>(361)664-2100</fax>
+<mobile>(361)215-2993</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20674</id>
+<mls>100232</mls>
+<house_location>cr419
+in South Premont, TEXAS 78375</house_location>
+<county>Jim Wells</county>
+<price>$160,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>Alice Town Site</sub-division>
+<approx_size_sqft>3500</approx_size_sqft>
+<approx_lot_size>15acres</approx_lot_size>
+<approx_acres>15</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>arena</item>
+<item>barn</item>
+<item>tac bldg</item>
+<item>pens</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

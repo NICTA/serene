@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level attached townhouse built in 1910 has 3 bedroom(s), 2
+bath(s) . Rooms include dining room, master bedroom.</house_description>
+
+<agent_name>Gene Walls</agent_name>
+<direct>202-895-7306</direct>
+<office>202-363-9700</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>202-363-9700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$109,900</list_price>
+<location>Washington, DC 20010</location>
+<mls>DC3110096</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<lot_size>1600</lot_size>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,35 @@
+<house_listing>
+<price>$234,000</price>
+<mls_id_number>157651</mls_id_number>
+<city>SCAPPOOSE</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>3.00</bathrooms>
+<sqft>2297</sqft>
+<year_built>1997</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 3 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>65 X 164</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Gas Fireplace</interior>
+<exterior>Deck,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>GRANT WATTS</elementary>
+<middle_school>PETERSON</middle_school>
+<high_school>SCAPPOOSE</high_school>
+</schools>
+<comments>This beautiful home is located in the desirable seven oaksneighborhood. Easy 25 minute commute from downtown portland. This homehas many upgrades and has been well cared for.</comments>
+
+</house_listing>
+
+
+

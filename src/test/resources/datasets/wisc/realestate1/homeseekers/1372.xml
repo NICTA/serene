@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1954 has 3 bedroom(s), 2 bath(s) .
+Rooms include master bedroom. Features include private pool, patio.</house_description>
+
+<agent_name>Helen Anderson</agent_name>
+<office>602-954-6888</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>602-954-6888</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$164,900</list_price>
+<location>Phoenix, AZ 85016</location>
+<mls>1442853</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1954</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<location>Corner</location>
+<patio>Covered</patio>
+<pool>Heated</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dining/Living Combo, Dishwasher, Eat In Kitchen, Gazebo,Microwave, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

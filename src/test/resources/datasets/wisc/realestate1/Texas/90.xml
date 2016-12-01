@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Sharon Danilovich</name>
+<office>(713)686-8543</office>
+<fax>(713)686-8543</fax>
+<voice_mail>(713)709-6581</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>13825</id>
+<mls>189573</mls>
+<house_location>7819 Bryonwood
+in West Houston, TEXAS 77055</house_location>
+<county>Harris</county>
+<price>$199,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Immaculate home in desirable Brykerwoods Estates. Gleaming hardwood floors. Very open andclean. Huge deck in back situated under mature trees makes this a wonderful yard for entertaining.Recent paint in and out. Wonderful location and excellent schools.</house_description>
+
+<school_district>Spring Branch</school_district>
+<sub-division>Brykerwoods Estates</sub-division>
+<approx_size_sqft>1800</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>12600</approx_lot_size>
+<year_built>1963</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Wonderful close in location</item>
+<item>Exemplaryschools</item>
+<item>Large wooded lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

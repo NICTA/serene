@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>246 LUDFORD</house_location>
+<price>$86,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Heated)</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>249443</mls>
+<house_type>Single Family</house_type>
+<firm>C B DETERS REALTY</firm>
+<firm_phone>(606) 341-0060</firm_phone>
+<agent>MEGAN MICHAEL</agent>
+<agent_phone>(606) 341-0060</agent_phone>
+<house_description>NICE 2 BEDROOM 1 HALF BATH ON NICE STREET IN LUDLOW SCHOOL AREA 9FT
+CEILING NATURAL WDWK 2 PORCHES NEWER CARPET HEATED BUILT IN GARAGE</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>15 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 10</dimension><level>1</level></kitchen>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>2</level></master>
+
+<directions>RT 8 TO ADELA R ON LUDFORD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,30 @@
+<house_listing>
+<house_description>This single family home built in 1942 has 3 bedroom(s), 3 bath(s) and
+approximately 2331 square feet of living area.</house_description>
+
+<agent_name>Barbara Wolter</agent_name>
+<office>303-370-6799</office>
+<firm_name>Paramount Realty Inc</firm_name>
+<phone>303-370-6799</phone>
+<fax>303-370-0991</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$339,900</list_price>
+<location>1910 S Fillmore St</location>
+<neighborhood>University Park N</neighborhood>
+<mls>378556</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2331 (approx)</square_feet>
+<year_built>1942</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Spencer</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<voice_mail>(713)994-7333</voice_mail>
+<email>bayou1@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11716</id>
+<mls>171099</mls>
+<house_location>6217 fm 2004
+Hitchcock, TEXAS 77563</house_location>
+<county>Galveston</county>
+<price>$159,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>SEEKING SECLUSION?  BEAUTIFUL NEW HOME ON 6 GORGEOUS WOODED ACRES  ONLY 3 MINUTES FROM I-45 AND MALL OF THE MAINLAND! FEATURES OPEN PLAN,HIGH CEILINGS, SPLIT BEDROOM PLAN,STUDY,STOCKED PONDS, POLE BARN,BAYOU,CITY SERVICES YET COUNTRY ATMOSPHERE. MAJESTIC OAKS,PINES,PECANS SHADE YOUR DRIVE HOME. MUST SEE INSIDE THIS TRULY BEAUTIFUL HOME. PAGE CAROLYN 713  994 7333</house_description>
+
+<school_district>Hisd,abundant Life,our Lady Of Lourdes,mainland Co</school_district>
+<sub-division>S F Austin</sub-division>
+<approx_size_sqft>2008</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>270072</approx_lot_size>
+<approx_acres>6</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>6 WONDERFUL,WOODED WATERFRONT ACRES</item>
+<item>NEW HOME 1997</item>
+<item>NEAR I-45,COLLEGE OF MAINLAND,DOG TRACK</item>
+<item>STOCKED PONDS....SERENE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

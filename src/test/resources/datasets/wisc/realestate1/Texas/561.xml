@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Laura Frost</name>
+<office>(817)573-8801</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20545</id>
+<mls>9119843</mls>
+<house_location>406 Heritage Trail (Ad # 152)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$87,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Pretty 3 bedroom home with fans throughout.  Open kitchen, landscaped, fenced &amp; a view from the hot tub on a large deck.  Family neighborhood &amp; close to town.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Spanish Trails</sub-division>
+<approx_size_sqft>1498</approx_size_sqft>
+<stories>1</stories>
+<year_built>1979</year_built>
+<master_bedroom>N/A</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Family Neighborhood &amp; Close to Town</item>
+<item>View from Hot Tub on Large Deck</item>
+<item>Open Kitchen &amp; WBFP</item>
+<item>Ad # 152</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

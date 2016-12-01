@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Syble Noble</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)929-9668</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21653</id>
+<mls>9125399</mls>
+<house_location>209 Mistletoe Lane
+Keene, TEXAS 76059</house_location>
+<county>Johnson</county>
+<price>$94,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<house_description>Huge home, over 3,000 sq. ft.  Minor settlement cracks.  Surrounded by big oak trees, nice and shady in summer. 2 large storage buildings, sprinkler system, and guest quarters with private entry.  Lots of home for the money.  Seller will adjust price to help Buyer with closing costs, prepaids, etc. in needed.</house_description>
+
+<school_district>Keene</school_district>
+<sub-division>Hillcrest</sub-division>
+<approx_size_sqft>3052</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>135x105</approx_lot_size>
+<approx_acres>0.5</approx_acres>
+<year_built>1973</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>BIG HOUSE, over 3,000 sq. ft</item>
+<item>Surrounded by shady oak trees</item>
+<item>Guest quarters with private entry</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

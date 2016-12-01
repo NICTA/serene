@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>1008 HACKNEY CT</house_location>
+<price>$129,900</price>
+<rooms>7</rooms>
+<bedrooms>2</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>O</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250018</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>VICKIE BOLTON-HOUSE</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>ON THE LAKE-GORGEOUS AND NEARLY NEW-COULD BE MOTHER/DAUGHTER.VAULTED
+MBR PLUS GARDEN BATH/LR HAS STONE FP,9' CLGS,LL FP,WET BAR &amp; REF,12'
+CEDAR CLOS,LL BA W/WHIRLPOOL,SURROUND SOUND,PLANTATION BLINDS,LG
+WINDOW,LG PATIO</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>150</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>13 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>19 X 12</dimension><level>L</level></family>
+<kitchen><dimension>12 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 9</dimension><level>L</level></laundry>
+<living><dimension>19 X 11</dimension><level>1</level></living>
+<master><dimension>19 X 12</dimension><level>2</level></master>
+<recreation_room><dimension>20 X 8</dimension><level>L</level></recreation_room>
+
+<directions>I-75 TO US42 WEST TO L WEAVER ROAD L
+SADDLEBROOK FARMS R MORGAN TR L HACKNEY</directions>
+</house_listing>
+
+
+

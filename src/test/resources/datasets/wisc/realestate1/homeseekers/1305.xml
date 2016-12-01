@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1973 has 3 bedroom(s), 2
+bath(s) and approximately 1826 square feet of living area. Rooms
+include dining room, family room, master bedroom. Features include
+private pool, fireplace.</house_description>
+
+<agent_name>Nelda Broyles</agent_name>
+<direct>520-790-2497</direct>
+<office>520-790-7311</office>
+<firm_name>Century 21 1St American Century 21 1St American</firm_name>
+<phone>520-790-7311</phone>
+<fax>520-747-4320</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$117,900</list_price>
+<location>9282 E Patrick Dr</location>
+<mls>9917721</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1826 (approx)</square_feet>
+<year_built>1973</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

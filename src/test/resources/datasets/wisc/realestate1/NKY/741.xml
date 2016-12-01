@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>4036 BLACK ROCK RD</house_location>
+<price>$375,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>GHENT</suburb>
+<school_dist>CARROLL CO</school_dist>
+<mls>249537</mls>
+<house_type>Farms</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>JIM ROBINSON</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>INVEST IN THE FUTURE*UPDATED 3 BDRM RANCH ON 82 AC*CITY WATER*6000 LB
+TOBACCO BASE*50 AC HAY*25 AC PASTURE*ALL FENCED*2 PONDS*BARN*1500 FT
+RD FRONTAGE*15 MIN TO KY SPEEDWAY &amp; NEW CONNECTOR ROAD.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$240.00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 12</dimension><level>1</level></dining>
+<family><dimension>12 X 22</dimension><level>1</level></family>
+<kitchen><dimension>11 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 22</dimension><level>1</level></laundry>
+<living><dimension>11 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>HWY 42 THRU WARSAW L ON RT 184 TO R ON
+ARNOLD-FURNISH RD TURNS INTO BLACK ROCK</directions>
+</house_listing>
+
+
+

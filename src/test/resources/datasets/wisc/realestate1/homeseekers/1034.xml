@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level condominium built in 1951 has 1 bedroom(s), 1 bath(s) and
+approximately 791 square feet of living area. Rooms include master
+bedroom. Features include air conditioning.</house_description>
+
+<agent_name>John Nemeyer</agent_name>
+<direct>202-244-4519</direct>
+<office>202-364-5200</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>202-364-5200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$79,500</list_price>
+<location>Washington, DC 20016</location>
+<mls>DC3077658</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Condominium</type>
+<square_feet>791 (approx)</square_feet>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

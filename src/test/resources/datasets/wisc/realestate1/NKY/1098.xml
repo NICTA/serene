@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>130 BARNEY</house_location>
+<price>$121,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>CRITTENDEN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249978</mls>
+<house_type>Single Family</house_type>
+<firm>COMPLETE REALTY</firm>
+<firm_phone>(606) 727-9100</firm_phone>
+<agent>CLEM NIENABER</agent>
+<agent_phone>(606) 727-9100</agent_phone>
+<house_description>PARTLY FINISHED BASEMENT MATERIALS TO COMPLETE ARE THERE</house_description>
+<construction>Brick</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_3><dimension>8 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<living><dimension>12 X 19</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level>1</level></master>
+
+<directions>I-75 SO.TO CRITT.EXIT RT ON VIOLET TO RT ON
+WALLER TO RT ON BARLEY</directions>
+</house_listing>
+
+
+

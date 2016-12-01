@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1953 has 2
+bedroom(s), 1 bath(s) , 1 car garage and approximately 1092 square
+feet of living area. Rooms include dining room, living room, master
+bedroom.</house_description>
+
+<agent_name>Afton Miller</agent_name>
+<office>619-296-9055</office>
+<email>Afton@aftonmiller.com</email>
+<firm_name>One Source Realty/Better
+Homes One Source Realty/Better Homes</firm_name>
+<phone>619-296-9055</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$239,000</list_price>
+<location>San Diego, CA 92104</location>
+<mls>00 6000750</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>1092 (approx)</square_feet>
+<lot_size>3397</lot_size>
+<year_built>1953</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

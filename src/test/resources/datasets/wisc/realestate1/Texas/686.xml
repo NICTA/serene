@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>ERA Southbelt/Friendswood</name>
+<location>116 E. Edgewood Ave. Friendswood, TX 77546</location>
+<office>(281)482-9494</office>
+<toll_free>(888)482-9494</toll_free>
+<fax>(281)482-7474</fax>
+<email>era-friendswood@mailcity.com</email>
+</firm_information>
+
+<agent_information>
+<name>Kelly Archer</name>
+<office>(281)482-9494</office>
+<fax>(281)482-7474</fax>
+<email>era-friendswood@mailcity.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13758</id>
+<mls>178491</mls>
+<house_location>16735 Carrack Turn
+Friendswood, TEXAS 77546</house_location>
+<county>Brazoria</county>
+<price>$87,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Price reduced, Roof to be replaced. Exceptional 3-2-2 with beautiful appointment thru out, Updated kitchen, with newer appl/ and flooring. High cielings and wonderful windows. Entertain in the Lush back yard with terrific decking. You will want to call this house HOME.</house_description>
+
+<school_district>Clear Creek</school_district>
+<sub-division>Heritage Park</sub-division>
+<approx_size_sqft>1610</approx_size_sqft>
+<stories>1</stories>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+
+<highlights>
+<item>Large Yard w/ Decking</item>
+<item>Updated Home</item>
+<item>Fresh Paint</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

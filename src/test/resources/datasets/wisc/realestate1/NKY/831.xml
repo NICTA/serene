@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>238 E POPLAR RIDGE</house_location>
+<price>$76,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>248316</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>PAT LAY</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * GREAT FAMILY HOME!!! *3 LARGE BEDRMS W/MASTER ON 1ST
+FLR * HUGE EAT-IN KITCHEN * THIS IS A WONDERFUL GROWING AREA * READY
+TO OCCUPY * SEWER ASSESMENT PASSES TO BUYER *</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>18 X 14</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>23 X 12</dimension><level></level></kitchen>
+<living><dimension>16 X 11</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>US 27 SO LEFT ON E POPLAR RIDGE OR AAHWY TO E
+POPLAR RIDGE</directions>
+</house_listing>
+
+
+

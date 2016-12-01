@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>1102 FAIRWAY CT.</house_location>
+<price>$107,000</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-1</baths>
+<levels>3 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>PERRY PARK</suburb>
+<school_dist>OWEN</school_dist>
+<mls>245622</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX WORKS</firm>
+<firm_phone>(888) 297-7629</firm_phone>
+<agent>LISA E MORRIS</agent>
+<agent_phone>(888) 297-7629</agent_phone>
+<house_description>LAKEFRONT PLUS ON GOLF COURSE! GREAT RETREAT OR YEAR ROUND LIVING.
+MATURE TREES SURROUND THIS ROOMY CHALET W/WRAP AROUND DECK ON 2ND
+LEVEL. CONV. TO RESTAURANT, POOL, CLUB HOUSE, ETC. WONDERFULLY
+PEACEFUL COMMUNITY. COME SEE</house_description>
+<construction>Cedar,Stone</construction>
+<heating>Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>550</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>10 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 14</dimension><level>3</level></bedroom_3>
+<bedroom_4><dimension>7 X 10</dimension><level>3</level></bedroom_4>
+<breakfast><dimension></dimension><level>1</level></breakfast>
+<family><dimension>19 X 19</dimension><level>1</level></family>
+<kitchen><dimension>19 X 19</dimension><level>1</level></kitchen>
+<living><dimension>21 X 15</dimension><level>2</level></living>
+<master><dimension>10 X 12</dimension><level>2</level></master>
+
+<directions>I71S TO CARROLLTON EX L ON 227 5MI TO R O N
+355 5MI TO R INTO PERRY PARK COUNTRY CL</directions>
+</house_listing>
+
+
+

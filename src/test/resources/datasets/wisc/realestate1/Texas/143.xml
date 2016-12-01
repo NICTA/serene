@@ -1,0 +1,45 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Danny Dunn</name>
+<office>(361)668-3300</office>
+<fax>(361)664-2100</fax>
+<mobile>(361)215-2993</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20845</id>
+<mls>New</mls>
+<house_location>Premont, TEXAS
+Jim Wells</house_location>
+<price>$0</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description></house_description>
+
+<stories>1</stories>
+<master_bedroom>Upstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

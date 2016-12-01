@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1931 has 3 bedroom(s), 3 full
+bath(s)/1 half bath(s) and approximately 4250 square feet of living
+area. Rooms include den, dining room, bonus room, master bedroom.
+Features include view, private pool, private spa, patio, fireplace,
+air conditioning.</house_description>
+
+<agent_name>Nanci Arizona</agent_name>
+<direct>520-906-2531</direct>
+<office>520-577-7400</office>
+<firm_name>Tucson Realty &amp; Trust Co</firm_name>
+<phone>520-577-7400</phone>
+<fax>520-299-2898</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$625,000</list_price>
+<location>2431 E Caminito De Los Ranchos</location>
+<mls>2000156</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3(full) 1(half)</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>4250 (approx)</square_feet>
+<lot_size>IRREGULAR 3+AC.</lot_size>
+<year_built>1931</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Den, Family Room, Living Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

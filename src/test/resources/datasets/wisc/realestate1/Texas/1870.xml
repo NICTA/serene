@@ -1,0 +1,67 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Barb Webster</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<voice_mail>(817)596-9446 124</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21200</id>
+<mls>9129402</mls>
+<house_location>2215 Lakeforest Drive
+Weatherford, TEXAS 76087</house_location>
+<county>Parker</county>
+<price>$415,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>4</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Executive brick home on 1.19 acres in city limits.  3 bedrooms, 3 1/2 baths, 4 living areas and 2 car garage.  Has heated pool, hot tub, sprinkler system.  Security system.  Hardwood floors throughout.    Lovely spiral staircase with antique chandelier enhances foyer.  Stocked pond.  Sub-zero fridge to remain with home.  Easy access to I-20.  Must see to believe.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Clear Lake Country</sub-division>
+<approx_size_sqft>3761</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1.19ac</approx_lot_size>
+<approx_acres>1.19</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Excellent location</item>
+<item>Lovely home</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

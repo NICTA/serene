@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stauffer John E.</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<email>jstauffer@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21420</id>
+<mls>6361</mls>
+<house_location>307 Martin Luther King
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$45,000</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Commercial Retail  Good Location for Restaurant</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>Original Part Of San Marcos</sub-division>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Downtown San Maracos</item>
+<item>Good Location</item>
+<item>Retail /Restaurant</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

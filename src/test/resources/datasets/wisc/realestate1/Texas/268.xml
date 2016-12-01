@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Allan Kugler</name>
+<office>(512)303-3738</office>
+<fax></fax>
+<mobile>(512)789-4488</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21162</id>
+<mls>527099</mls>
+<house_location>100 Garwood St.
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$79,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great small Texas town living.  Wide tree lined street.  Emmaculate home; rewired and plumbed.  300 lbs. of Pecans harvested this year from yard.  Large covered back porch.  Large workshop with seperate electric.  Zoned non retail commercial.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Burleson</sub-division>
+<approx_size_sqft>1270</approx_size_sqft>
+<stories>1</stories>
+<year_built>1927</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Well maintained home and yard.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

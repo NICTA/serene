@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Filina</name>
+<office>(817)295-8171</office>
+<fax>(817)295-6426</fax>
+<mobile>(817)980-4718</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21437</id>
+<mls>9132362</mls>
+<house_location>11101 CR 604
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$179,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Beautiful costom home sits on 4 wooded acres. Large rooms with decrorative details.  Entry has hardwood floors.  Storage building and barn with electricity.  Great home for someone with horses.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Tanglewood</sub-division>
+<approx_size_sqft>2421</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>4</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Owner's suite 21 x 14; double shower</item>
+<item>Gas heat &amp; cooking; microwave</item>
+<item>Spacious single level custom brick</item>
+<item>4 heavily treed acres, lawn, pasture, x-fenced</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

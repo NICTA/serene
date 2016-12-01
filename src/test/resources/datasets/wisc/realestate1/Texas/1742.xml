@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Paul R. (Ron) Emmert</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>TEXRELEST@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21438</id>
+<mls>15297</mls>
+<house_location>2441 River Drive
+in West Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$71,400</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Located in West Harlingen, this &amp;quot;Knots-Landing image&amp;quot; 3/2/2 home offers comfort and relaxation. Home amenities offers a spacious garage, corner window kitchen design, split bedroom plan, washer &amp; dryer uphooks, catheral ceiling in family room, &amp;  a good size master-bedroom, plus a ceiling fan in the master/bdr. Also included in this package is a dishwasher, home sercurity system, &amp; near a credited High School. Home sits on cul-de-sac lot and shows great from the street. A great place to live.     </house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>River Oaks</sub-division>
+<approx_size_sqft>1316</approx_size_sqft>
+<approx_lot_size>34.17x170.74</approx_lot_size>
+<year_built>1989</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>split bedroom plan</item>
+<item>corner window kitchen design</item>
+<item>catheral ceiling in family room</item>
+<item>good curb appeals</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

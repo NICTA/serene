@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>17 TOWER DRIVE</house_location>
+<price>$299,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>3 Story</levels>
+<basement>Part</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>248503</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>MARY ANN SARAKATSANNIS</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>UNSURPASSED VIEW OF THE CITY FROM THIS OUTSTANDING CONDO. ELEGANT
+DECOR WET BAR, FIREPLACE/GAS LOGS. GOURMET KIT-ALL APPLIANCES
+INCLUDED. THE AMBIANCE AND TRANQUILITY THIS HOME AFFORDS BECOMES A
+LIFESTYLE.</house_description>
+<construction>Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>OF RECORD</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>354</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>13 X 9</dimension><level>2</level></bedroom_2>
+<dining><dimension>17 X 15</dimension><level>2</level></dining>
+<kitchen><dimension>14 X 10</dimension><level>2</level></kitchen>
+<living><dimension>20 X 15</dimension><level>2</level></living>
+<master><dimension>16 X 12</dimension><level>2</level></master>
+<study><dimension>15 X 13</dimension><level>2</level></study>
+
+<directions>US27 TO BLUEGRASS L ON KY DRIVE, R ON
+GRANDVIEW, R ON WIDRIG, L ON TOWER DRIVE</directions>
+</house_listing>
+
+
+

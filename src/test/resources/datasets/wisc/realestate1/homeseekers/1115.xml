@@ -1,0 +1,32 @@
+<house_listing>
+<house_description>This single family home has 2 bedroom(s), 1 full bath(s)/1 half
+bath(s) .</house_description>
+
+<agent_name>J.Llach/P.Turrise</agent_name>
+<office>516-427-9100</office>
+<firm_name>Coach Real Estate Associates</firm_name>
+<phone>516-427-9100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$125,000</list_price>
+<location>E. 6Th</location>
+<mls>4280541</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Single Family</type>
+<style>Capecod</style>
+<lot_size>0.25</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Capecod Style, Full Basement
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

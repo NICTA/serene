@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Floyd Wilhelm Jr.</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>floyd_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20888</id>
+<mls></mls>
+<house_location>105 San Jacinto Street
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$63,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Many possibilites for this huge, older home.  It sits on a 0.41 acre lot at the corner of San Jacinto and San Antonio Streets.  The home is estimated to be built in the 1920's.  It offers two or three bedrooms, two baths, a formal dining room, a living room, some eleven foot ceilings, some hardwood floors, and some antique doors and windows. This large corner lot includes some really nice mature pecan trees.  This home is in need of some leveling and repairs, but it is priced to sell at $63,000.</house_description>
+
+<school_district>Lockhart</school_district>
+<sub-division>Francis Berry</sub-division>
+<approx_size_sqft>2022</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>0.41</approx_lot_size>
+<approx_acres>0.41</approx_acres>
+<year_built>1920</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Nice pecan trees</item>
+<item>Two or three bedroom, two bath</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

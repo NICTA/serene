@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>$1500 closing cost assistance $500 bonus to sales agent on
+fpo,interior being painted,new carpet can be installed,new vinyl,polar
+windows,large yard,garage, close to beach (chesapeake bay)</house_description>
+
+<agent_name>Don Smith</agent_name>
+<office>757-490-2000</office>
+<firm_name>Eagle Realty</firm_name>
+<phone>757-490-2000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$59,900</list_price>
+<location>Norfolk, VA 23518</location>
+<mls>9922600</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Bungalow, Cottage</style>
+<square_feet>960 (approx)</square_feet>
+<lot_size>75X150</lot_size>
+<year_built>1949</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Bungalow Style, Cottage Style, Fenced, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

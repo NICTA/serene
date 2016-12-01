@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>Great investment property. Possible sub-dividable lot. Do not show
+without calling agent. Property sold as is.</house_description>
+
+<agent_name>C Earl Bowden</agent_name>
+<direct>552-8600</direct>
+<office>757-587-2800</office>
+<firm_name>Judy Boone Realty, Inc.</firm_name>
+<phone>757-587-2800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$60,000</list_price>
+<location>Norfolk, VA 23518</location>
+<mls>9829401</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Cottage</style>
+<year_built>1941</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cottage Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

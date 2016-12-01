@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>2 E FOURTH</house_location>
+<price>$159,000</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>(Detached,Rear)</garage>
+<suburb>MAYSVILLE</suburb>
+<school_dist>MASON</school_dist>
+<mls>241216</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>DEBRA G MOORE</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>BEAUTIFUL OLDER HOME, CHERRY POCKET DOORS. HARDWOOD FLOORS, 2
+KITCHENS. UPSTAIRS KITCHEN IS TOTALLY REMODELED. TONGUE &amp; GROOVE
+WALLED ATTIC ON 3RD FLOOR, BUILT ON SITE OF OLD JAIL. EXISTING ROCK
+CELL IS STILL ON PROPERTY.</house_description>
+<construction>Brick</construction>
+<heating>Hot Water,Radiant</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Gas,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>unk</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNK</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 9</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>12 X 14</dimension><level>1</level></breakfast>
+<dining><dimension>14 X 14</dimension><level>1</level></dining>
+<family><dimension>15 X 12</dimension><level>1</level></family>
+<kitchen><dimension>14 X 6</dimension><level>2</level></kitchen>
+<laundry><dimension>5 X 14</dimension><level>1</level></laundry>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>2</level></master>
+
+<directions>AA TO L #68. GO TO LEFT ON OLD US 68. TO CORNER
+OF 4TH AND MARKET.68 RUNS INTO 4TH</directions>
+</house_listing>
+
+
+

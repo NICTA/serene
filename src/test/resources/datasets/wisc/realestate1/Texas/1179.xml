@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Floyd Wilhelm Jr.</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>floyd_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20942</id>
+<mls></mls>
+<house_location>10302 FM 20 East
+Dale, TEXAS 78616</house_location>
+<county>Caldwell</county>
+<price>$102,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Escape to the country in this well built three bedroom, two bath, brick home.  The home has a nice living room with a vaulted ceiling and brick fireplace, an open kitchen/dining combination, and a master bedroom with a walk-in closet.  This is an all electric home with CH/CA.  The 4.2 acres offers good sandy loam for gardens, a water well, and a small hay barn.  Directions:  Go 9 1/2 miles east on FM 20 from Lockhart.  Property is located 1/2 mile beyond FM 1854 on the right.</house_description>
+
+<school_district>Lockhart</school_district>
+<approx_size_sqft>1245</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>4.2</approx_lot_size>
+<approx_acres>4.2</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>Vaulted ceiling and fireplace in living room</item>
+<item>Easy commute to Lockhart, Bastrop, and Austin</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

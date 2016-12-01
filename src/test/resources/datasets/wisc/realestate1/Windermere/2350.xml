@@ -1,0 +1,34 @@
+<house_listing>
+<price>$199,900</price>
+<mls_id_number>115521</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>2706</sqft>
+<year_built>1958</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.42        Acres</lot_size>
+<lot_description>105X167</lot_description>
+<fireplace>2</fireplace>
+<taxes>$2,844</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Gas Fireplace</interior>
+<exterior>Covered Patio, Deck, Garden, Patio, RV-Park</exterior>
+<site>Water: PUBLIC Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>GILBERT</elementary>
+<middle_school>ALICE OTT</middle_school>
+<high_school>DAVID DOUGLAS</high_school>
+</schools>
+
+</house_listing>
+
+
+

@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Conroe-Lake Conroe</name>
+<location>12603 Highway 105 West, Suite 100 Conroe, TX 77304</location>
+<office>(409)588-1177</office>
+<toll_free></toll_free>
+<fax>(409)447-1178</fax>
+<voice_mail>(409)447-1177 228</voice_mail>
+<email>remaxconroe@flex.net</email>
+</firm_information>
+
+<agent_information>
+<name>Diane Wilson</name>
+<office>(409)588-1177</office>
+<fax>(409)447-1178</fax>
+<voice_mail>(409)588-1177 232</voice_mail>
+<mobile>(409)525-0172</mobile>
+<email>dwilson@flex.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12853</id>
+<mls>134460</mls>
+<house_location>215 La Costa
+Montgomery, TEXAS 77356</house_location>
+<county>Montgomery</county>
+<price>$268,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Relax on waterfront porches (downstairs &amp; upstairs) and enjoy the beautiful view of Lake Conroe.  Each room has exceptional waterview.  Boatslip with lift, jetski ramp.  Each bedroom has private bath.  Subdivision has low taxes - no MUD taxes.  Annual maintenance fee only $135.</house_description>
+
+<school_district>Montgomery</school_district>
+<sub-division>Del Lago</sub-division>
+<approx_size_sqft>2789</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>0.2</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Waterfront</item>
+<item>Boat Slip with Lift</item>
+<item>No MUD Taxes</item>
+<item>Energy Efficient</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

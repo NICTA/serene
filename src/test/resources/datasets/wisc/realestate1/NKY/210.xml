@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>304 STERLING TRACE</house_location>
+<price>$139,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>247356</mls>
+<house_type>Single Family</house_type>
+<firm>A B REAL ESTATE</firm>
+<firm_phone>(606) 341-7443</firm_phone>
+<agent>DON LAAKE</agent>
+<agent_phone>(606) 341-7443</agent_phone>
+<house_description>GREAT PLAN, OPEN FAMILY ROOM, CATHEDRAL CEILINGS &amp; FIREPLACE, OAK
+CABINETS, HARDWOOD, 1426 SQ.FT. CALL 586-7802.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80x160</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>20</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 11</dimension><level>1</level></breakfast>
+<family><dimension>15 X 19</dimension><level>1</level></family>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>3 X 5</dimension><level>1</level></laundry>
+<master><dimension>13 X 14</dimension><level>1</level></master>
+
+<directions>RT 18 BURLINGTON PKE TO L ON CAMP ERNST TO R ON
+ROGERS L ON HANOVER</directions>
+</house_listing>
+
+
+

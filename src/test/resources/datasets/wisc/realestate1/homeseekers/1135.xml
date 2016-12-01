@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1970 has 2 bedroom(s), 2 bath(s) and
+approximately 1455 square feet of living area. Features include
+private pool, air conditioning.</house_description>
+
+<agent_name>Rita Panizza</agent_name>
+<direct>786-205-1707</direct>
+<office>305-866-0777</office>
+<firm_name>Best Beach Real Es
+Lic. Real Estate Broker</firm_name>
+<phone>305-866-0777</phone>
+<fax>305-866-2326</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$179,000</list_price>
+<location>7135 Collins Av #1506</location>
+<neighborhood>Burleigh House Condo</neighborhood>
+<mls>M774408</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1455 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

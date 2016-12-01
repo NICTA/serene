@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1925 has 3
+bedroom(s), 2 bath(s) and approximately 1812 square feet of living
+area. Rooms include den, dining room, master bedroom. Features include
+patio.</house_description>
+
+<agent_name>Gloria Owens</agent_name>
+<direct>202-829-6886</direct>
+<office>202-726-1100</office>
+<firm_name>Murrell, Inc., Realtors</firm_name>
+<phone>202-726-1100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$69,000</list_price>
+<location>Washington, DC 20019</location>
+<mls>DC3108340</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<square_feet>1812 (approx)</square_feet>
+<lot_size>7550</lot_size>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

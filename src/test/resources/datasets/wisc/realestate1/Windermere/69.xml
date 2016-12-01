@@ -1,0 +1,46 @@
+<house_listing>
+<price>$67,500</price>
+<mls_id_number>98-03356</mls_id_number>
+<address>702 20th Avenue E.</address>
+<city>Jerome</city>
+<st>ID</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1100</sqft>
+<year_built></year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage></garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<features><item>Corner lot</item>
+<item>Newer carpet</item>
+<item>Newer roof</item>
+</features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<comments>Nice house on large corner lot with fenced yard, deck, vinyl windows and more!!</comments>
+<for_more_information_contact>
+<agent_name>Jack Stalley</agent_name>
+<firm_name>Windermere Real Estate/Twin Falls - Magic Valley</firm_name>
+<firm_location>1061 Blue Lakes Blvd. N. - P.O. Box 2769
+Twin Falls, ID</firm_location>
+<office_phone>208/734-6789</office_phone>
+<fax>208/734-6859</fax>
+<cell_phone>1-800-409-7668</cell_phone>
+<e-mail>jstalley@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

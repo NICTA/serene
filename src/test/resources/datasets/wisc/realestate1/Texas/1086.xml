@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Modena DeSpain</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20181</id>
+<mls>54331</mls>
+<house_location>279 E. Lakeshore
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$210,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This 3 bedroom, 2 bath, 2 story home is on a beautiful tree covered lot and comes with a guest house next door and a waterfront lot with boat dock and lift  across the street!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>2247</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Two story home on beautiful tree covered lot.</item>
+<item>Guest house next door.</item>
+<item>Boat house w/lift on waterfront lot across street.</item>
+<item>Lake pump, spklr system, bonus room, deck.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

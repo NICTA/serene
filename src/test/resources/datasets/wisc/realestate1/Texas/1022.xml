@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stewart Martin</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>smartin@express-news.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18707</id>
+<mls>314310</mls>
+<house_location>16622 Saltgrass
+San Antonio, TEXAS 78247</house_location>
+<county>Bexar</county>
+<price>$62,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Just painted inside! New vinyl in kitchen, baths and laundry. Updated metal garage door, updated heater/AC. Nice open floor plan with large living/dining areas, brick fireplace and ceramic tiled entry. Mature trees in front, quiet street.</house_description>
+
+<school_district>N.e.i.s.d.</school_district>
+<sub-division>High Country</sub-division>
+<approx_size_sqft>1012</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>43x110</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

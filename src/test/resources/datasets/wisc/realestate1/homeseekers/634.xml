@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1974 has 4 bedroom(s), 2 bath(s) and
+approximately 1947 square feet of living area.</house_description>
+
+<agent_name>Roselyn R Miles</agent_name>
+<direct>303-921-2170</direct>
+<office>303-696-2121</office>
+<firm_name>Mb Best Choice Rlty</firm_name>
+<phone>303-696-2121</phone>
+<fax>303-696-0111</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,900</list_price>
+<location>5335 N Worchester St</location>
+<neighborhood>Montbello</neighborhood>
+<mls>384236</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1947 (approx)</square_feet>
+<year_built>1974</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

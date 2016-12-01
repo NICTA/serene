@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>21 CLAIRBORNE CT</house_location>
+<price>$141,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>247761</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>BILL KRAATZ</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * LOVELY 2 STORY ON QUIET CUL-DE-SAC STREET *ONLY 3 YRS
+OLD * LG SPACIOUS ROOMS * HOME IS NEUTRAL THROUGHOUT * ABSOLUTELY MOVE
+IN COND * TRY OUR ZERO DOWN HOME LOAN * DEEP,FLAT LOT *</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>82 X 240</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>28</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>14 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>13 X 10</dimension><level>1</level></breakfast>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>1</level></laundry>
+<living><dimension>22 X 13</dimension><level>1</level></living>
+<master><dimension>17 X 13</dimension><level>2</level></master>
+
+<directions>US 42 TO WEAVER RD TO SADDLEBROOK BLVD TO 1ST
+LEFT ON CLAIBORNE CT</directions>
+</house_listing>
+
+
+

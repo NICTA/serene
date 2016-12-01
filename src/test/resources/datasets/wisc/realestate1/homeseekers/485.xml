@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1984 has 2 bedroom(s), 2 bath(s) and
+approximately 1600 square feet of living area. Features include
+private pool, air conditioning.</house_description>
+
+<agent_name>Blanca S Mejia Blanca S Mejia</agent_name>
+<direct>305-569-9686</direct>
+<office>305-441-0506</office>
+<email>BlancaMejia@HomeSeekers.com</email>
+<firm_name>Global Real Estate
+Lic. Real Estate Broker</firm_name>
+<phone>305-441-0506</phone>
+<fax>305-441-7049</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$129,000</list_price>
+<location>545 Watermark St #206</location>
+<neighborhood>Watermark</neighborhood>
+<mls>M761185</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1600 (approx)</square_feet>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Lake front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Foyer, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

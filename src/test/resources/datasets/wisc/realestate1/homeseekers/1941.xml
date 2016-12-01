@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1999 has 4 bedroom(s), 2 full
+bath(s)/5 half bath(s) , 3 car attached garage and approximately 3510
+square feet of living area. Rooms include family room, living room.
+Features include fireplace, air conditioning.</house_description>
+
+<agent_name>John Diglio</agent_name>
+<direct>203-865-3800</direct>
+<office>203-245-4455</office>
+<firm_name>Beazley Co., Realtors Beazley Co., Realtors</firm_name>
+<phone>203-245-4455</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$489,900</list_price>
+<location>1 Kelsey Court</location>
+<mls>M9053311</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 5(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Colonial</style>
+<square_feet>3510 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<fireplace>Yes</fireplace>
+<rooms>Family Room, Living Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Carpet, Eat In Kitchen, Hardwood Flooring, Office
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

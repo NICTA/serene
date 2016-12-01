@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1959 has 1 bedroom(s), 2 bath(s) , 2 car
+attached garage and approximately 670 square feet of living area.
+Features include air conditioning.</house_description>
+
+<agent_name>Carol Fleisher</agent_name>
+<direct>305-448-4123</direct>
+<office>305-448-4123</office>
+<firm_name>Coconut Grove Real
+Lic. Real Estate Broker</firm_name>
+<phone>305-448-4123</phone>
+<fax>305-448-8663</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$480,000</list_price>
+<location>4925 Collins Av #7C</location>
+<neighborhood>Executive Condo</neighborhood>
+<mls>D892489</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>670 (approx)</square_feet>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Roman Tub, Smoke Detector, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

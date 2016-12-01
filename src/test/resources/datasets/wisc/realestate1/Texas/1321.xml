@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Kyle Wheatley</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)681-3045</mobile>
+<email>teamwheat@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21705</id>
+<mls>89030</mls>
+<house_location>4607 Wade Drive
+Killeen, TEXAS 76549</house_location>
+<county>Bell</county>
+<price>$121,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Brand new duplexes under construction by Shanondoah Homes!!!  These Texas size duplexes come equipped with three bedroom, two baths, one car garage, storage areas, cultured marble vanities, ceramic tile in kitchens, custom oak cabinets, and soaring ceilings.  Call today for your viewing.</house_description>
+
+<sub-division>Texas West</sub-division>
+<to_be_built>Yes</to_be_built>
+<stories>1</stories>
+<approx_lot_size>121x73</approx_lot_size>
+<approx_acres>0.25</approx_acres>
+<year_built>2000</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

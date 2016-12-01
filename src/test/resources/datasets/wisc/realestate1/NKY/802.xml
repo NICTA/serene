@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>70 VIEW TERRACE</house_location>
+<price>$62,750</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>SOUTHGATE</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>247809</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>STEVEN J POPHAM</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>CLEAN &amp; BRIGHT CONDO ALL NEUTRAL COLORS EQUIPPED KITCHEN W/MICROWAVE
+ALSO INCLUDES WASHER/DRYER UNIT ON 2ND FL.ENJOY SWIMMING,
+TENNIS,WORKOUT RM,HOT TUB &amp; CLUBHOUSE.LOW ASSOC FEES.MIRROR IN BEDROOM
+DOES NOT STAY</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>85</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 11</dimension><level>2</level></dining>
+<kitchen><dimension>9 X 7</dimension><level>2</level></kitchen>
+<laundry><dimension>6 X 3</dimension><level>2</level></laundry>
+<living><dimension>13 X 15</dimension><level>2</level></living>
+<master><dimension>11 X 16</dimension><level>2</level></master>
+
+<directions>471 SOUTHGATE EXIT L ON US 27 L ON MOOCK RD
+PASS FOXCHASE L INTO WOODLAND HILLS</directions>
+</house_listing>
+
+
+

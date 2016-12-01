@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jennie Evans</name>
+<office>(254)542-2121</office>
+<fax>(254)542-7400</fax>
+<mobile>(254)681-1028</mobile>
+<email>jqevans@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20043</id>
+<mls>88680</mls>
+<house_location>308 Barber
+Copperas Cove, TEXAS 76522</house_location>
+<county>Coryell</county>
+<price>$112,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>The answer to all your dreams within your means!  This two story home has plenty of space with approximately 2,249 square feet.  Inside you will find three bedrooms with walk-in closets, two and a half baths, two living areas, and two dining areas.  Utility room, spacious kitchen with pantry, two car garage, beautifully landscaped yard surrounded by a privacy fence.  Make your dream come true for only $112,500.  Call 542-2121 today.</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Colonial Park</sub-division>
+<approx_size_sqft>2249</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>74 x 120</approx_lot_size>
+<approx_acres>0.2</approx_acres>
+<year_built>1991</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Open Patio</item>
+<item>Wood Privacy Fence</item>
+<item>Walk-in Pantry</item>
+<item>Walk-in Closets</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

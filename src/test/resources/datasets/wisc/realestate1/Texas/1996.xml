@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>NANCY GOTT</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 117</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11839</id>
+<mls>167890</mls>
+<house_location>9009 RICHMOND #215
+Houston, TEXAS 77063</house_location>
+<county>Harris</county>
+<price>$27,500</price>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>UPPER UNIT IN QUIET SECTION OF PROPERTY. SECOND ROOM CAN BE USED AS SECOND BEDROOM, STUDY OR NURSERY. THIS UNIT HAS FULL BATH AND EXTRA DRESSING AREA WITH SECOND BASIN. NEW WASHER, DRYER AND RECENT A/C.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Woodbridge</sub-division>
+<approx_size_sqft>968</approx_size_sqft>
+<stories>1</stories>
+<year_built>1977</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>UPPER UNIT IN QUIET SECTION</item>
+<item>FULL BATH</item>
+<item>EXTRA DRESSING AREA WITH SECOND BASIN</item>
+<item>RECENT A/C</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

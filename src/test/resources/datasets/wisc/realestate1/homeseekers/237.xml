@@ -1,0 +1,48 @@
+<house_listing>
+<house_description>This single family home built in 1995 has 5 bedroom(s), 4 full
+bath(s)/1 half bath(s) , 2 car attached garage and approximately 4367
+square feet of living area. Rooms include dining room, family room.
+Features include view, private pool, private spa, air conditioning,
+french doors.</house_description>
+
+<agent_name>Fabian Garcia-Diaz</agent_name>
+<direct>305-535-4194</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$1,650,000</list_price>
+<location>6330 Allison Rd</location>
+<neighborhood>Indian Creek Sub</neighborhood>
+<mls>M775126</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>4367 (approx)</square_feet>
+<lot_size>75X216</lot_size>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Canal front, Water front</location>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room</rooms>
+<spa>Yes</spa>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, French Doors, Ocean Access, Outdoor Grill, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

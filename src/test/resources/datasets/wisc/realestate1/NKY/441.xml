@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>7380 RIDGE EDGE</house_location>
+<price>$99,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248458</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>KAREN ARMSTRONG</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>PRICED TO SELL! 3 BR UNIT ON 2ND FLOOR, SECURE BLDG, WHITE KITCHEN,
+GARDEN BATH, FIREPLACE, BALCONY - ABSOLUTELY IMMACULATE! PRICED WELL
+BELOW REPLACEMENT COST. MOTIVATED SELLER.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Marble</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>127</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>12 X 10</dimension><level>2</level></dining>
+<kitchen><dimension>12 X 12</dimension><level>2</level></kitchen>
+<living><dimension>17 X 14</dimension><level>2</level></living>
+<master><dimension>17 X 13</dimension><level>2</level></master>
+
+<directions>OAKBROOK DR, R SUMMIT, L RIDGE EDGE</directions>
+</house_listing>
+
+
+

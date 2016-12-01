@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>324 FOOTE AV</house_location>
+<price>$66,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>BELLEVUE</suburb>
+<school_dist>BELLEVUE</school_dist>
+<mls>249500</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>CLARA FAN BANDY</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>NEWER UPDATING-FURNACE, MAIN ROOF, WINDOWS, BOX GUTTERS REPLACED IN
+LAST 3 TO 4 YEARS*CONCRETE 2 CAR PARKING PAD IN REAR*NEWER FLOOR
+COVERINGS THRU- OUT*NEW STORM DOORS, OVEN, 1ST FLR LAUNDRY*MANY
+PLUSES!</house_description>
+<construction>Shingle</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>14 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 7</dimension><level>1</level></laundry>
+<living><dimension>14 X 11</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>2</level></master>
+
+<directions>FAIRFIELD AVE (RT 8) TO R ON FOOTE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Yanez</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>irene_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21383</id>
+<mls></mls>
+<house_location>811 Campbell Street
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$85,200</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This is a great place to call home!  It is a well located, three bedroom, two bath on a corner lot near three Lockhart schools.  The home has a large living room, a kitchen/dining combo, and a large  chain linked, fenced and treed lot.  Central air and heat are featured.  There are ceiling fans, some wall paper, and painted paneling.  The garage is two car and has a metal door with opener.  There is a utility area in the garage.  This home has a lot of potential.</house_description>
+
+<school_district>Lockhart</school_district>
+<sub-division>South Park Place</sub-division>
+<approx_size_sqft>1335</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>11,160</approx_lot_size>
+<year_built>1960</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Three bedroom, two bath</item>
+<item>Large, treed backyard</item>
+<item>CH/CA</item>
+<item>Close to Lockhart schools</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>2021 MACKOY</house_location>
+<price>$59,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>243536</mls>
+<house_type>Single Family</house_type>
+<firm>DAUGHERTY REALTORS</firm>
+<firm_phone>(606) 485-7667</firm_phone>
+<agent>MATT PERKINS</agent>
+<agent_phone>(606) 485-7667</agent_phone>
+<house_description>VERY CLEAN 2 BEDROOM 2 STORY - NEW CARPET - NICE BBQ IN REAR - 1 CAR
+GARAGE WITH OFF-STREET PARKING - LARGE ROOMS</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable,None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25 x 80</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>14 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>14 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>2</level></master>
+
+<directions>20TH STREET TO MACKOY</directions>
+</house_listing>
+
+
+

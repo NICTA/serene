@@ -1,0 +1,40 @@
+<house_listing>
+<house_location>5298 MADISON</house_location>
+<price>$79,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248912</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>KATHLEEN SHEAFFER</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>FRESHLY PAINTED AND CARPETED. NICE LOT. IMMED OCC.GREAT LOCATION FOR
+HOME OFFICE. NEXT TO COMMERCIAL PROPERTY.</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>99x160</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>15 X 15</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>15 X 13</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>KY. 17 S (CLOSE TO COURTHOUSE)</directions>
+</house_listing>
+
+
+

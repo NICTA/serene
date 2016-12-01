@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1928 has 3
+bedroom(s), 1 bath(s) and approximately 1147 square feet of living
+area.</house_description>
+
+<agent_name>Gema Hernandez</agent_name>
+<direct>213-912-2524</direct>
+<office>323-721-7100</office>
+<firm_name>C-21 Dynamic Brokers C-21 Dynamic Brokers</firm_name>
+<phone>323-721-7100</phone>
+<fax>323-724-1076</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$118,000</list_price>
+<location>1702 E 115Th St</location>
+<mls>M200053</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1147 (approx)</square_feet>
+<year_built>1928</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

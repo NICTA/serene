@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lee Gilbert</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20663</id>
+<mls>525003</mls>
+<house_location>510 OLD MCDADE RD
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$69,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>NEAR DOWNTOWN BU VERY SECLUDED.  LARGE YARD, TREES.</house_description>
+
+<school_district>Elgin Isd</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1008</approx_size_sqft>
+<stories>1</stories>
+<year_built>1992</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

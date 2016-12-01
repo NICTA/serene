@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>126 HWY 27 126D</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>247570</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>GAYLE PRICE</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>CATHEDRAL CEILINGS, GARDEN TUB, STEREO SYSTEM BUILT IN. LARGE KITCHEN
+&amp; DIN ING ROOM ON 1 ACRE LOT. CONCRETE FOOTERS. 1998 FLEETWOOD 28X44</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>13 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>2.5 MI S OF FALMOUTH ON 27</directions>
+</house_listing>
+
+
+

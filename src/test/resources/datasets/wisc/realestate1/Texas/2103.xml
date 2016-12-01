@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>Helen Michael</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11805</id>
+<mls>167461</mls>
+<house_location>883 A - WAX MYRTLE
+Houston, TEXAS 77079</house_location>
+<county>Harris</county>
+<price>$41,500</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT SECOND FLOOR CONDO OVERLOOKING SPARKLING AREA POOL AND LUSH LANSCAPING. KITCHEN WITH EATING BAR &amp; BALCONY THAT RUNS FULL CONDO LENGHT. GREAT WALKIN CLOSETS, STACK WASHER &amp; DRYER, VERY QUIET CULDESAC LOCATION. REAR STAIR TO COVERED PARKING. OUTSIDE STORAGE UNIT.</house_description>
+
+<school_district>Spring Branch</school_district>
+<sub-division>Georgetown</sub-division>
+<approx_size_sqft>903</approx_size_sqft>
+<stories>1</stories>
+<year_built>1968</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>CONDO OVERLOOKING SPARKLING AREA POOL</item>
+<item>GREAT WALKIN CLOSETS</item>
+<item>VERY QUIET CULDESAC LOCATION</item>
+<item>COVERED PARKING</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>3285 TAFT</house_location>
+<price>$100,000</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>246886</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LARRI R BROWN</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>INT PHOTOS WWW.SIBCYCLINE.COM*BRICK HOME ON 3.5 ACRES*NICE BIG
+ROOMS-MUST SEE*8X13 BLDG FOR STORAGE*MATURE TREES*HUGE 30X9 STOR/UTIL
+RM W/CLOSETS* STUDY HAS BRICK INT WALLS*SUNKEN FAM RM W/BKSHELVES*CALL
+LARRI 786-3952</house_description>
+<construction>Brick</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>9 X 8</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>8 X 8</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 15</dimension><level>1</level></dining>
+<family><dimension>15 X 24</dimension><level>1</level></family>
+<kitchen><dimension>10 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>30 X 9</dimension><level>1</level></laundry>
+<living><dimension>20 X 14</dimension><level>1</level></living>
+<master><dimension>9 X 12</dimension><level>1</level></master>
+<study><dimension>10 X 10</dimension><level>1</level></study>
+
+<directions>I-75 TO EXIT 159-DRY RIDGE-TURN RT APROX. 3-4
+MILES ON RIGHT</directions>
+</house_listing>
+
+
+

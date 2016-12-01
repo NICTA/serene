@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>Nice condo in huntington park for only $99,000. Show and sell. 2
+bedroom 2 bath for information call jani cervantes.</house_description>
+
+<agent_name>Jani Cervantes</agent_name>
+<direct>213-963-3212</direct>
+<office>562-806-1000</office>
+<firm_name>C-21 A Better Service C-21 A Better Service</firm_name>
+<phone>562-806-1000</phone>
+<fax>562-806-0110</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$99,000</list_price>
+<location>Huntington Park, CA 90255</location>
+<mls>Y94231</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Condominium</type>
+<square_feet>1177 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

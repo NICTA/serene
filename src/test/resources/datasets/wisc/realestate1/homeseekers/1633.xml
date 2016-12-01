@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 2 level townhouse built in 2000 has 3 bedroom(s), 3 bath(s) , 2
+car garage and approximately 2904 square feet of living area. Rooms
+include dining room. Features include fireplace, air conditioning,
+storage space.</house_description>
+
+<agent_name>Darrell Obert</agent_name>
+<direct>520-885-4108</direct>
+<office>520-881-8110</office>
+<firm_name>Century 21 Heritage Realty Century 21 Heritage Realty</firm_name>
+<phone>520-881-8110</phone>
+<fax>520-881-8113</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$259,900</list_price>
+<location>6120 E 5Th St #128</location>
+<mls>9920957</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Townhouse</type>
+<square_feet>2904 (approx)</square_feet>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

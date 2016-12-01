@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1962 has 3 bedroom(s), 3 bath(s) and
+approximately 1915 square feet of living area. Features include
+private pool, air conditioning.</house_description>
+
+<agent_name>Dominique Cherqui</agent_name>
+<direct>785-5288</direct>
+<office>865-2222</office>
+<firm_name>Oceanfront Realty
+Lic. Real Estate Broker</firm_name>
+<phone>865-2222</phone>
+<fax>305-865-2221</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$259,000</list_price>
+<location>5415 Collins Av #502</location>
+<neighborhood>Galeria Condo</neighborhood>
+<mls>M750961</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Condominium</type>
+<square_feet>1915 (approx)</square_feet>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1996 has 5 bedroom(s), 4 bath(s) and
+approximately 3034 square feet of living area.</house_description>
+
+<agent_name>Kim Mai</agent_name>
+<direct>303-887-7122</direct>
+<office>303-452-0540</office>
+<firm_name>Century 21 Dinkel &amp;</firm_name>
+<phone>303-452-0540</phone>
+<fax>303-457-3347</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$180,000</list_price>
+<location>4388 Deephaven Ct</location>
+<neighborhood>Montbello</neighborhood>
+<mls>356791</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<square_feet>3034 (approx)</square_feet>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

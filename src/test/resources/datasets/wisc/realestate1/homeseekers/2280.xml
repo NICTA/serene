@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This spanish style needs paint,carpet.Price reflects seller motivation
+detached garage,nice quiet area,large backyard with many possibilities
+easy to show vacant thanks for showing.Agent has keys.</house_description>
+
+<agent_name>Walter Cubillo</agent_name>
+<direct>562-948-3834</direct>
+<office>562-947-4771</office>
+<firm_name>Coldwell Banker Ambassador Coldwell Banker Ambassador</firm_name>
+<phone>562-947-4771</phone>
+<fax>562-943-5845</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$110,000</list_price>
+<location>1537 W 87Th St</location>
+<mls>P151606</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1020 (approx)</square_feet>
+<lot_size>6600 (approx)</lot_size>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Living Room</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

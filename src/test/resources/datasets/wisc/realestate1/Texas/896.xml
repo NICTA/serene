@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Paul R. (Ron) Emmert</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>TEXRELEST@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21475</id>
+<mls>15326</mls>
+<house_location>1/2 MILE CENTER LINE ROAD
+Rio Hondo, TEXAS</house_location>
+<county>Cameron</county>
+<price>$22,500</price>
+<bedrooms>1</bedrooms>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This block home sits on one (1) acre out in the country, near the quite town of Rio Hondo - This is truely a handyman&amp;#8217;s special - a little TLC and this home will make a great rental. The attic has ample room to be remodeled into a comfortable 2nd bedroom. Kitchen is nearly finish, and with a few more pieces of sheetrock, WHAM! Good Rental property.....Total of 798 sq. ft. of living area per CCAD. Frontage is 135&amp;#8217; . Also a good size work / storage shed in the backyard - Selling AS IS!</house_description>
+
+<school_district>Rio Hondo</school_district>
+<approx_size_sqft>798</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>135x322.67</approx_lot_size>
+<approx_acres>1</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+
+<highlights>
+<item>Acre lot</item>
+<item>Country Living</item>
+<item>Great Rental</item>
+<item>Good Investment</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

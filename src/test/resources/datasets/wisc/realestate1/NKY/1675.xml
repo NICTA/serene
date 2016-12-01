@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>780 WOODLAND DR.</house_location>
+<price>$235,000</price>
+<rooms>13</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>MAYSVILLE</suburb>
+<school_dist>MASON</school_dist>
+<mls>247838</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>DEBRA G MOORE</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>LG. CORNER LOT W/NICE LANDSCAPING. HARDWOOD FLOORS IN KIT, FAM.RM.
+DINING RM CROWN MOLDING AND CHAIRRAIL, LOWER LEVEL SM. KITCHENETTE,
+BATH, OFFICE, REC. RM AND WORKSHOP, FRENCH DOORS IN BOTH FAMILY RMS.
+LG. DECK ACROSS BACK</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>unk</lot_dimensions>
+<condo_level>--</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNK</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>2</level></bath_4>
+<bedroom_2><dimension>9 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>7 X 13</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>8 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>10 X 12</dimension><level>1</level></dining>
+<family><dimension>12 X 17</dimension><level>1</level></family>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 9</dimension><level>1</level></laundry>
+<living><dimension>13 X 16</dimension><level>1</level></living>
+<master><dimension>10 X 14</dimension><level>2</level></master>
+<study><dimension>12 X 27</dimension><level>L</level></study>
+
+<directions>AA TO 68 L AT LIGHT PAST LIGHT AT MCDONAL DS,
+FIRST ST ON L, WOODLAND AT END ON RT</directions>
+</house_listing>
+
+
+

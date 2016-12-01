@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>2649 BERWOOD</house_location>
+<price>$118,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>HEBRON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249589</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>AMY ZIMMERMAN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>ALMOST NEW HOME W/NEUTRAL DECOR,CATH CEILINGS-CEILING FAN-FINISHED LL
+W/FAM RM &amp; DEN. LARGE EAT-IN KITCHEN-WALKOUT TO DECK &amp; LEVEL FENCED
+YARD-PRISTINE CONDITION! CO-LIST ELAINE SANSON 483-4797</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>12 X 8</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 8</dimension><level>1</level></bedroom_3>
+<family><dimension>25 X 11</dimension><level>L</level></family>
+<kitchen><dimension>15 X 8</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+<study><dimension>13 X 6</dimension><level>L</level></study>
+
+<directions>KY 237 SO LEFT ON ELIJAH CREEK R ON RIDGEFIELD
+TO ASBURY TO BERWOOD</directions>
+</house_listing>
+
+
+

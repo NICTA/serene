@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20671</id>
+<mls>6253</mls>
+<house_location>205 W Hillcrest
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$46,000</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>City Lot with 1.06 AcresCleared has Water, Sewer, &amp; Electric Hooked up</house_description>
+
+<approx_lot_size>1.06 Ac</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great Building Site</item>
+<item>Ready to build</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>John Chabot</name>
+<office></office>
+<fax></fax>
+<email>jchabot@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20525</id>
+<mls></mls>
+<house_location>206 Suzanne Drive
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$99,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>For the whole family in this 3/2/2 DWMH on 2.5+/- acres!  This spacious home has 2 living areas, a fireplace, kitchen with breakfast bar, and more!  Oversized garage with workshop!  Storage building.  800 Square foot party slab!  Large rear deck.  Towering trees!   Call or e-mail John Chabot  today for more details.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Sanders Estates</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Spacious Country Home!</item>
+<item>Two Living Areas!</item>
+<item>950+/- Square Foot Garage!</item>
+<item>2.5+/- Gorgeous Tree Covered Acres!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

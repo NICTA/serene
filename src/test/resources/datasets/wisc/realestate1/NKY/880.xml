@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>6 DOROTHY</house_location>
+<price>$109,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COLD SPRING</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249771</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>DAVID G SCHNEIDER</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>BRICK RANCH VAULTED CEILING IN KITCHEN,DINING RM &amp; LIVING ROOM,CUSTOM
+BUILT AMETHYST WBFP IN FAMILY RM, WALKOUT TO REAR PATIO</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert,Stone</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 8</dimension><level>1</level></bedroom_3>
+<dining><dimension>8 X 11</dimension><level>1</level></dining>
+<family><dimension>25 X 12</dimension><level>B</level></family>
+<kitchen><dimension>8 X 11</dimension><level>1</level></kitchen>
+<living><dimension>14 X 16</dimension><level>1</level></living>
+<master><dimension>10 X 11</dimension><level>1</level></master>
+
+<directions>US 27 TO E ALEXANDRIA PIKE TO DODSWORTH TO
+SKYLINE TO DOROTHY</directions>
+</house_listing>
+
+
+

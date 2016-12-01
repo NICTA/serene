@@ -1,0 +1,44 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Julia Bartlett</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11616</id>
+<mls>New</mls>
+<house_location>Dickinson, TEXAS
+Galveston</house_location>
+<price>$0</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description></house_description>
+
+<stories>1</stories>
+<master_bedroom>Upstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

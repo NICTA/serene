@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Emily Prowell</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)371-1758</mobile>
+<email>eprowell@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21320</id>
+<mls>9131075</mls>
+<house_location>1216 Franklin
+in North Weatherford, TEXAS 76086</house_location>
+<county>Parker</county>
+<price>$69,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>CLEAN AND READY FOR NEW OWNERS!  This 3 bedroom, 2 bath, 2 car garage home has 2 dining areas, split bedroom arrangement, and large kitchen.  Deep lot with fenceing and space for that boat or camper.  Oversize garage and workshop.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Carters</sub-division>
+<approx_size_sqft>1400</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>50x200</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

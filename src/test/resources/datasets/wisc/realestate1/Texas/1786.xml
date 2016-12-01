@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Damron</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)393-4752</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16411</id>
+<mls>5649</mls>
+<house_location>422 Lazy Lane
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$111,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Hill Country view from the large front porch!  Open floor plan.  3 Bedroom/2 Bath, 2 Dining area, large country lot.</house_description>
+
+<sub-division>Sleepy Hollow</sub-division>
+<approx_size_sqft>1657</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Open floor plan.</item>
+<item>Vaulted ceiling in large living area.</item>
+<item>Formal Dining.</item>
+<item>Nice View.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

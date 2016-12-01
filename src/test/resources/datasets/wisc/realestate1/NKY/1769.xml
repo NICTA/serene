@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>334 GAYLE</house_location>
+<price>$46,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>OWENTON</suburb>
+<school_dist>OWEN</school_dist>
+<mls>246297</mls>
+<house_type>Single Family</house_type>
+<firm>PREMIER REALTY, INC</firm>
+<firm_phone>(606) 586-0206</firm_phone>
+<agent>GAIL WATSON</agent>
+<agent_phone>(606) 586-0206</agent_phone>
+<house_description>CLOSE TO SHOPPING AND HOSPITAL. RIGHT IN TOWN. 2 BEDROOMS, NICE YARD.</house_description>
+<construction>Wood</construction>
+<heating>Space Heater</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>05x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 13</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>12 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 8</dimension><level>1</level></master>
+<study><dimension>13 X 5</dimension><level>1</level></study>
+
+<directions>75S TO 71S TO 122 TURN L TO L ON 35 TO OWENTON R
+ON GAYLE</directions>
+</house_listing>
+
+
+

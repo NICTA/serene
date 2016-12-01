@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1967 has 1 bedroom(s), 2 bath(s) and
+approximately 1323 square feet of living area. Features include
+private pool, air conditioning.</house_description>
+
+<agent_name>Gee Eskridge</agent_name>
+<direct>305-864-8691</direct>
+<office>305-532-1212</office>
+<firm_name>Eskridge, Gee, Rea
+Lic. Real Estate Broker</firm_name>
+<phone>305-532-1212</phone>
+<fax>305-866-0772</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,000</list_price>
+<location>5825 Collins Av #8D</location>
+<neighborhood>Corinthian Condo</neighborhood>
+<mls>M768062</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1323 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

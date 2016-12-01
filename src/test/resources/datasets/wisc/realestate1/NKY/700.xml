@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>420 LEHMER</house_location>
+<price>$36,000</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>236942</mls>
+<house_type>Single Family</house_type>
+<firm>MICHAEL WALSH REALTY</firm>
+<firm_phone>(606) 525-1234</firm_phone>
+<agent>CINDY NEBOLSKY-STEFFEN</agent>
+<agent_phone>(606) 525-1234</agent_phone>
+<house_description>BRICK RANCH LOCATED NEAR MAINSTRAUSE AREA-NEWER FURNACE, CA
+H2O,HEATER,AND WIRING.OWNER FIRM ON PRICE-GREAT INVESTMENT-</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<dining><dimension>12 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>18 X 10</dimension><level>1</level></kitchen>
+<living><dimension>14 X 11</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>1</level></master>
+
+<directions>75 TO 12TH STREET L ON MAIN TO R ON LEHMER--NO
+SIGN IN YARD</directions>
+</house_listing>
+
+
+

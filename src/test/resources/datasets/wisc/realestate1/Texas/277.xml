@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Robin Taylor</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)229-6683</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18184</id>
+<mls>9088711</mls>
+<house_location>19 Ridgeway
+Joshua, TEXAS 76058</house_location>
+<county>Johnson</county>
+<price>$89,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Owner Financed</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>THE SQUARE FOOTAGE DOES NOT INCLUDE THE GARAGE CONVERSION!!ONE TON OF A/C FOR THE GARAGE CONVERSION ALONE.  LOOKS LIKE NEW.  REMODLE IN AUGUST INCLLUDES CARPET (CARPET NEVER LIVED ON), VENT-A-HOOD, DISHWASHER AND CEILING FANS.    OWNER WILL FINANCE WITH 20% DOWN!!!</house_description>
+
+<school_district>Joshua I S D</school_district>
+<sub-division>Mountain Valley</sub-division>
+<approx_size_sqft>1296</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>VAULTED CEILINGS</item>
+<item>WBFP</item>
+<item>COUNTRY CLUB NEAR-BY</item>
+<item>FENCED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

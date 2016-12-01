@@ -1,0 +1,27 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 2 bath(s) , 2 car garage and
+approximately 1524 square feet of living area.</house_description>
+
+<agent_name>Penne Eaton</agent_name>
+<direct>520-742-3846</direct>
+<fax>520-797-4086</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$113,900</list_price>
+<location></location>
+<mls>110</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1524 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

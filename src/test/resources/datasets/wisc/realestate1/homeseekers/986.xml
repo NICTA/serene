@@ -1,0 +1,48 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1995 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 3264 square
+feet of living area. Rooms include dining room, bonus room. Features
+include view, private pool, private spa, patio, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Reta Cox</agent_name>
+<direct>520-918-4810</direct>
+<office>520-918-4800</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-918-4800</phone>
+<fax>520-296-6093</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$679,900</list_price>
+<location>12480 E Fort Lowell Rd</location>
+<mls>9916700</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>3264 (approx)</square_feet>
+<lot_size>330 X 441</lot_size>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

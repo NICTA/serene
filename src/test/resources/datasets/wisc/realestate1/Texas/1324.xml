@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Jones</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>cjones@c21rapp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19428</id>
+<mls>9087288</mls>
+<house_location>507 Poindexter
+Cleburne, TEXAS 76031</house_location>
+<county>Johnson</county>
+<price>$48,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>COZY! COZY! GET THE FEEL OF THE COUNTRY WITH THIS 2/1/2 WITH EXTRA ROOM FOR CRAFTS,  IN TOWN.  FRESH COUNTRY COLOR PAINT.  EXTRA LARGE LOT FOR YOUR GARDEN.  THIS IS A MUST SEE IF YOU APPRICIATE THE COUNTRY LOOK...AND FEEL. (299)</house_description>
+
+<school_district>Cleburne I S D</school_district>
+<sub-division>Original Cleburne</sub-division>
+<approx_size_sqft>1286</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>100x140</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

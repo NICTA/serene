@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 2000 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2000 square feet of living
+area. Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Belia Madhvani</agent_name>
+<direct>520-579-8976</direct>
+<office>520-575-8976</office>
+<firm_name>Sombra Realty, Inc.</firm_name>
+<phone>520-575-8976</phone>
+<fax>520-575-7075</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$181,300</list_price>
+<location>14036 E Placita Perro De Caza</location>
+<mls>2001083</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2000 (approx)</square_feet>
+<lot_size>140X226X195X273</lot_size>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

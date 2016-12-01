@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1992 has 4 bedroom(s), 3
+bath(s) , 2 car attached garage and approximately 1158 square feet of
+living area. Rooms include family room. Features include patio,
+fireplace, air conditioning, bay window.</house_description>
+
+<agent_name>Lorna Persello</agent_name>
+<direct>509-466-0776</direct>
+<firm_name>
+Prudential Crane Realty/North Prudential Crane Realty/North</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$134,900</list_price>
+<location>4715 Keyes Ct</location>
+<mls>9925728</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1158 (approx)</square_feet>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<patio>Deck, Patio</patio>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Bay Window, Cable TV, Cathedral/Vaulted Ceilings, Dishwasher, GarageDoor Opener
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

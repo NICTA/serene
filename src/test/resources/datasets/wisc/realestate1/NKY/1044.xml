@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>34 TAYLOR AVE</house_location>
+<price>$124,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>249420</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>LISA PORTER</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>FABULOUS HOME,CENTER OF TOWN!EXCELLENT CONDITION,NEW
+WIRING,PLUMBING,GORGEO US HDWD FLRS,GREAT VIEW FROM THE DECK/LARGE
+FRONT PORCH.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50X150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>12 X 15</dimension><level>1</level></dining>
+<family><dimension>17 X 8</dimension><level>1</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<living><dimension>24 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>2</level></master>
+
+<directions>MEMORIAL PKWY TO N FT THOMAS TO TAYLOR</directions>
+</house_listing>
+
+
+

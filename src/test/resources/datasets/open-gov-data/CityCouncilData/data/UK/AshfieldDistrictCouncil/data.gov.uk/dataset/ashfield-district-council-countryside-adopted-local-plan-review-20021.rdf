@@ -1,0 +1,180 @@
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/">
+  <dcat:Dataset rdf:about="http://data.gov.uk/dataset/ashfield-district-council-countryside-adopted-local-plan-review-20021">
+    <owl:sameAs rdf:resource="urn:uuid:d26ffde9-4da5-472d-a8d4-7a66a0304be2"></owl:sameAs>
+    <dct:description>Extents of Countryside within Ashfield District as polygons. Ashfield Local Plan Review, Policy EV2. Adopted November 2002. NB the definitive boundaries are the printed Proposals Map</dct:description>
+        <dcat:keyword>Countryside, Local Plan, Planning Policy</dcat:keyword>
+        <dcat:keyword>planningCadastre</dcat:keyword>
+    <foaf:homepage rdf:resource="http://data.gov.uk/dataset/ashfield-district-council-countryside-adopted-local-plan-review-20021"></foaf:homepage>
+    <rdfs:label>ashfield-district-council-countryside-adopted-local-plan-review-20021</rdfs:label>
+    <dct:identifier>ashfield-district-council-countryside-adopted-local-plan-review-20021</dct:identifier>
+    <dct:title>Ashfield District Council Countryside, Adopted Local Plan Review 2002</dct:title>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://inspire.misoportal.com/geoserver/ashfield_district_council_countryside_ev2/wms?request=getCapabilities"></dcat:accessURL>
+               <dct:title>INSPIRE View Service</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://misoportal.com/portal/api/request-licenced-data/528"></dcat:accessURL>
+               <dct:title>INSPIRE Download Service</dct:title>
+            </dcat:Distribution>
+        </dcat:distribution>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>UKLP</rdfs:label>
+            <rdf:value>True</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>access_constraints</rdfs:label>
+            <rdf:value>["No restriction on public access."]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-east-long</rdfs:label>
+            <rdf:value>-1.16</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-north-lat</rdfs:label>
+            <rdf:value>53.18</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-south-lat</rdfs:label>
+            <rdf:value>53.00</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>bbox-west-long</rdfs:label>
+            <rdf:value>-1.35</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-email</rdfs:label>
+            <rdf:value>localplan@ashfield-dc.gov.uk</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>coupled-resource</rdfs:label>
+            <rdf:value>[]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>dataset-reference-date</rdfs:label>
+            <rdf:value>[{"type": "publication", "value": "2014-05-16"}]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>frequency-of-update</rdfs:label>
+            <rdf:value>asNeeded</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>guid</rdfs:label>
+            <rdf:value>4a408c55-c386-4ae0-ab11-cd697b4b2bf5_v2</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_object_id</rdfs:label>
+            <rdf:value>3cad7b7c-02fd-4631-a94a-4609f41723bf</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>harvest_source_reference</rdfs:label>
+            <rdf:value>http://inspire.misoportal.com/metadata/files/ashfield/Countryside.xml</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>licence</rdfs:label>
+            <rdf:value>["Use subject to PSMA licensing. See http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/psma-licensing.html"]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-date</rdfs:label>
+            <rdf:value>2014-05-20</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>metadata-language</rdfs:label>
+            <rdf:value>eng</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>provider</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>resource-type</rdfs:label>
+            <rdf:value>dataset</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>responsible-party</rdfs:label>
+            <rdf:value>Ashfield District Council (distributor)</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial</rdfs:label>
+            <rdf:value>{"type":"Polygon","coordinates":[[[-1.16, 53.00],[-1.16, 53.18], [-1.35, 53.18], [-1.35, 53.00], [-1.16, 53.00]]]}</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-data-service-type</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>spatial-reference-system</rdfs:label>
+            <rdf:value>urn:ogc:def:crs:EPSG::27700</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_coverage-from</rdfs:label>
+            <rdf:value>["2002-11-01"]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_coverage-to</rdfs:label>
+            <rdf:value>["now"]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>theme-primary</rdfs:label>
+            <rdf:value>Environment</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>theme-secondary</rdfs:label>
+            <rdf:value>["Government"]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+  </dcat:Dataset>
+</rdf:RDF>

@@ -1,0 +1,56 @@
+<house_listing>
+<house_location>11278 LOFTUS LANE</house_location>
+<price>$599,800</price>
+<rooms>12</rooms>
+<bedrooms>5</bedrooms>
+<baths>4-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Side,Oversized)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249184</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JANE ASHCRAFT-WEST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>STUNNING TRANSITIONAL! MARBLE ENTRY W/PILLARS/WHITE KITCHEN/2 STORY
+GREAT RM/FINISHED LOWER LEVEL W/WALKOUT,BUILT IN ENTERTAINMENT
+CENTER,17X13 EXERCISE RM,&amp; WET BAR/MASTER HAS SITTING AREA/LOTS OF
+CROWN MOLDING/&amp; MORE!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE BELOW</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>10</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 11</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>12 X 11</dimension><level>L</level></bedroom_5>
+<breakfast><dimension>14 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<family><dimension>20 X 20</dimension><level>1</level></family>
+<kitchen><dimension>16 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 7</dimension><level>1</level></laundry>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>30 X 15</dimension><level>2</level></master>
+<recreation_room><dimension>45 X 22</dimension><level>L</level></recreation_room>
+<study><dimension>11 X 10</dimension><level>1</level></study>
+
+<directions>TRIPLE CROWN BLVD TO R ON SIR BARTON TO L ON
+LOFTUS *4000 SQ FT W/ADD 1500 SF LL</directions>
+</house_listing>
+
+
+

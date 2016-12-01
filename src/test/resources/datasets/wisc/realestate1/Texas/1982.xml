@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Town &amp; Country Properties</name>
+<location>602 North Llano Street Fredericksburg, TX 78624</location>
+<office>(830)990-8708</office>
+<toll_free>(877)996-0099</toll_free>
+<fax>(830)990-8906</fax>
+<email>tcprop@fbg.net</email>
+</firm_information>
+
+<agent_information>
+<name>Beth Von Ruff</name>
+<office>(830)990-8708</office>
+<fax>(830)990-8906</fax>
+<email>bvonruff@fbg.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20456</id>
+<mls>11550</mls>
+<house_location>324 BROADMOOR
+Fredericksburg, TEXAS 78624</house_location>
+<county>Gillespie</county>
+<price>$269,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This home has it all completely remodeled in '98.  Two complete living areas, two fireplaces, three car garage and oversized master suite.  The outside includes professional landscaping, herb beds, arbors in front and back yard and spinkler system.  There is also a bonus office/studio/storage room off the back of the house.</house_description>
+
+<school_district>Fredericksburg Isd</school_district>
+<sub-division>Sandcastle</sub-division>
+<approx_size_sqft>2960</approx_size_sqft>
+<approx_lot_size>135x139.4</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Three car garage</item>
+<item>Oversized master suite</item>
+<item>Two living areas</item>
+<item>Bonus office/srudio</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

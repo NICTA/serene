@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>INA PERLMAN</name>
+<office>(713)621-4953</office>
+<fax>(713)621-4953</fax>
+<voice_mail>(713)621-4953 108</voice_mail>
+<email>mob@onramp.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11807</id>
+<mls>167228</mls>
+<house_location>2100 TANGLEWILDE #259
+Houston, TEXAS 77063</house_location>
+<county>Harris</county>
+<price>$59,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>EXCEPTIONAL, SPACIOUS 2 BEDROOMS, 2 1/2 BATHS TOWNHOME IN LUSH WOODED,  24 HOUR GUARDED COMMUNITY. COLUMNS, MIRRORED DINING ROOM, FRENCH DOORS, 2 FIREPLACES, VAULTED CEILINGS, BRIGHT KITCHEN, DESIGNER PAPERS, LIKE NEW CARPET, REFRIGERATOR STAYS.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Oaks Of Woodlake</sub-division>
+<approx_size_sqft>1488</approx_size_sqft>
+<stories>2</stories>
+<year_built>1969</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>2</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>SPACIOUS, 24 HOUR GUAREDE COMMUNITY.</item>
+<item>BRIGHT KITCHEN, DESIGNER PAPERS</item>
+<item>REFRIGERATOR STAYS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

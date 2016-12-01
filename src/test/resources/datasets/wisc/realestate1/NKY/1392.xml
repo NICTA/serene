@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1215 AUDUBON RD</house_location>
+<price>$189,800</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Rear)</garage>
+<suburb>PARK HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>245923</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JANE ASHCRAFT-WEST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>DON'T MISS THIS GREAT OPPORTUNITY! TOTALLY UPDATED/REFINISHED HDWD
+FLRS/ GAS FIREPLACE W/CERAMIC LOGS &amp; CUSTOM WOOD MANTLE &amp;
+ACCENTS/WHITE KITCHEN W/NEW APPLIANCES/NEW LIGHTING THROUGHOUT/NEW
+MECHANICS/ &amp; MUCH MORE!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air,Atic Fan</cooling>
+<fireplace>Gas,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>95 X 245</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>15 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>18 X 11</dimension><level>1</level></family>
+<kitchen><dimension>11 X 8</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 10</dimension><level>2</level></master>
+
+<directions>DIXIE HWY TO SLEEPY HOLLOW TO R ON AMSTERDAM TO
+L ON PARK TO L ON AUDUBON</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>3 GRAND AVE</house_location>
+<price>$95,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>249807</mls>
+<house_type>Single Family</house_type>
+<firm>BUILDERS REALTY</firm>
+<firm_phone>(606) 356-0660</firm_phone>
+<agent>JAMES G HELTON</agent>
+<agent_phone>(606) 356-0660</agent_phone>
+<house_description>BRICK CAPE COD ON NICE STREET, ALSO INCLUDES ONE CAR BRICK GARAGE,
+LEVEL LOT, AND FENCED REAR YARD.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 12</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>14 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>2</level></master>
+<study><dimension>9 X 9</dimension><level>2</level></study>
+
+<directions>I 75 SOUTH TO FLORENCE UNION EXIT. TURN LEFT OFF
+EXIT TURN RIGHT ON GRAND</directions>
+</house_listing>
+
+
+

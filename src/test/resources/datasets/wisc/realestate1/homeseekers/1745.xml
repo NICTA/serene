@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1964 has 1 bedroom(s), 1 bath(s) , 1 car
+attached garage and approximately 977 square feet of living area.
+Features include air conditioning.</house_description>
+
+<agent_name>Jorge Atrio</agent_name>
+<direct>305-663-0537</direct>
+<office>305-661-8885</office>
+<firm_name>Coldwell Banker Pr Coldwell Banker Pr
+Lic. Real Estate Broker</firm_name>
+<phone>305-661-8885</phone>
+<fax>305-661-4212</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$128,000</list_price>
+<location>5005 Collins Av #714-H</location>
+<neighborhood>The Carriage Club North C</neighborhood>
+<mls>D886137</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>977 (approx)</square_feet>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Electric</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

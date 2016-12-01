@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Steve Butler</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>steve@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19057</id>
+<mls>53701</mls>
+<house_location>15039-B (104) OASIS
+Horseshoe Bay, TEXAS 78647</house_location>
+<county>Llano</county>
+<price>$429,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Large duplex on open water facing east.  Upgrades in kitchen with stainless appliances.  Pella door and living room windows.  Saltillo floors throughout kitchen and living area.  Boatlift and waverunner ramps.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WATERFRONT FACING EAST</item>
+<item>BOATLIFT AND WAVERUNNER RAMPS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

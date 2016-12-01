@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>1132 BRIGADE</house_location>
+<price>$119,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249990</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>ROBIN DONOVAN</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>SEP MBR SUITE,BRS 2 &amp; 3 HAVE PRIV HALL,BRIGHT &amp; AIRY,GREAT RM KITCH
+COMBO, GAS FP,ALSO FINISH FR,HDWD ENTRY,CERMIC IN KITCH &amp; BATHS,ON
+OVERSIZED WOOD LOT,AVAIL FOR LEASE,LEASE OPT/LEASE PURCH COMM PD FOR
+1YR LEASE $925</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>10 X 10</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>U</level></bedroom_3>
+<family><dimension>16 X 12</dimension><level>L</level></family>
+<kitchen><dimension>13 X 10</dimension><level>U</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>16 X 14</dimension><level>U</level></living>
+<master><dimension>14 X 11</dimension><level>U</level></master>
+
+<directions>BRISTOW L ON CALVARY L ON BRIGADE</directions>
+</house_listing>
+
+
+

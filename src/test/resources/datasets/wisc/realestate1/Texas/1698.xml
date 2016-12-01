@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Paul R. (Ron) Emmert</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>TEXRELEST@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20805</id>
+<mls>14087</mls>
+<house_location>575 N. Travis
+San Benito, TEXAS 78586</house_location>
+<county>Cameron</county>
+<price>$95,500</price>
+<bedrooms>2</bedrooms>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This 2 bedroom &amp; 1 bath, w&amp;#8217;carpot home includes six(6) adjoining residential lots. Located downtown San Benito, great appeal for a multi-family dwellings or re-zone for commercial. Lot has great corner eye-appeal for commercial or retail property. Property sets between city hall. Owner says sell as one parcel total of 6 lots = one city block.</house_description>
+
+<school_district>San Benito</school_district>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>great location for retail store</item>
+<item>investment property</item>
+<item>potential area for commercial</item>
+<item>great location for Multi-family</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

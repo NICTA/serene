@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>bojac@mailexcite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Quandt</name>
+<office>(512)595-7653</office>
+<fax>(512)592-9300</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>6928</id>
+<mls>05-057-98</mls>
+<house_location>4.1 MILES E HWY 77 - 771 E
+Riveria, TEXAS</house_location>
+<county>Kleberg</county>
+<price>$195,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>HOMEBUILT IN 1997 - BUILDERS 10 YR HOME WARRANTY. HIGH CEILINGS LOTS OF TILE, GRANITE KITCHEN COUNTER &amp; 6 CEILING FANS, MASTER BATH HAS 2 CLOSETS, 2 VANITIES, GARDEN TUB WITH GLASS BLOCK WINDOW &amp; SEPARATE SHOWER. BARN &amp; POND, UTILITIES-CP&amp;L, PROPANE &amp; WATER (BALL WATER SYSTEM)</house_description>
+
+<school_district>Riveria</school_district>
+<approx_size_sqft>2169</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>15</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>BUILT INS DW,STOVE,MICROWAVE/VENTHOOD</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

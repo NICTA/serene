@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>10110 CEDARWOOD</house_location>
+<price>$209,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>245429</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>COLLEEN BERGER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>GREAT RANCH PLAN. CATHEDRAL CEILINGS IN GREAT ROOM, DINING &amp; FOYER,
+HARDWOO D ENTRY,NATURAL TRIM, ULTRA BATH, WALK-OUT LOWER LEVEL,
+COVERED DECK. BUILT BY WILBERS &amp; SON, QUALITY CONSTRUCTION. 1825 SQ.
+FT. BEAUTIFUL!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>82</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>16 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>18 X 16</dimension><level>1</level></family>
+<kitchen><dimension>15 X 10</dimension><level>1</level></kitchen>
+<master><dimension>16 X 14</dimension><level>1</level></master>
+
+<directions>MT.ZION TO HEMPSTEADE, CORNER OF CEDARWOO D &amp;
+DEEPWOOD.</directions>
+</house_listing>
+
+
+

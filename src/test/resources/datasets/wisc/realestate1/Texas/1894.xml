@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Bobby Gronewald</name>
+<location>223 W. Travis La Grange, TX 78945</location>
+<office>(409)968-8471</office>
+<toll_free></toll_free>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bobby Gronewald</name>
+<office>(409)968-8471</office>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18856</id>
+<mls>2223</mls>
+<house_location>311 N. Monroe
+La Grange, TEXAS 78945</house_location>
+<county>Fayette</county>
+<price>$119,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautifully renovated older home on large corner lot in town.  Wood floors, wood walls, new wiring, plumbing and more.  Interior is very tastefully decorated. Would make a great B&amp;B. Has extra entrances etc. CA/CH, fireplace, basement, high ceilings, wonderful original woodwork, extra insulation, lots of closets, large pantry in large kitchen.  Too much to get in this space.  Call for more details.</house_description>
+
+<school_district>La Grange</school_district>
+<sub-division>A100 Thompson</sub-division>
+<approx_size_sqft>1900</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Beautiful wood floors</item>
+<item>New wiring, plumbing CA/CH</item>
+<item>Lots of closets</item>
+<item>Very Tastefully Decorated</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

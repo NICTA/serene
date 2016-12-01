@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>4530 CARROLL</house_location>
+<price>$82,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Rear)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247040</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>REBECCA BRANDT</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>ADDITIONAL PHOTOS WWW.STAR-ONE.COM NEWER FURNACE/ROOF/HWH/WINDOWS.
+GREAT DECK/PRIVACY FENCE &amp; LARGE YARD. SUNNY DR OR BREAKFAST ROOM,
+STAINED GLASS FRONT DOOR.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>126 x 88</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 9</dimension><level>1</level></kitchen>
+<living><dimension>23 X 12</dimension><level>1</level></living>
+<master><dimension>11 X 10</dimension><level>1</level></master>
+
+<directions>LATONIA FROM COVINGTON: DECOURSEY L 44TH R
+VERMONT,R BALTIMORE, L GLENN, R CARROLL</directions>
+</house_listing>
+
+
+

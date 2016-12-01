@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Robin Taylor</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)229-6683</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19482</id>
+<mls>9103933</mls>
+<house_location>508 Godley Avenue
+Godley, TEXAS 76044</house_location>
+<county>Johnson</county>
+<price>$75,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>THIS HOME IS VERY ROOMY WITH TWO LIVING AREAS, THREE BEDROOMS AND A LARGE KITCHEN WITH LOTS OF CABINETS.  THE EXTRA ROOM COULD BE USED AS A GAME ROOM OR EVEN A FOURTH BEDROOM.  THE HOME SETS ON A LARGE LOT WITH SEVERAL SHADE TREES.  YOU WILL ALSO HAVE A DETACHED ONE CAR GARAGE AND 16x8 STORAGE BUILDING.  THIS HOME IS LOCATED CLOSE TO THE PARK AND THE SCHOOLS.</house_description>
+
+<school_district>Godley I S D</school_district>
+<sub-division>Boycew</sub-division>
+<approx_size_sqft>1648</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.6</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>VERY ROOMY</item>
+<item>SHADE TREES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

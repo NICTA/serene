@@ -1,0 +1,30 @@
+<house_listing>
+<house_description>This single family home has 2 bedroom(s), 1 bath(s) , 2 car attached
+garage. Rooms include living room.</house_description>
+
+<agent_name>Douglas Gray</agent_name>
+<office>800-273-5371</office>
+<firm_name>Farm &amp; Forest Realty</firm_name>
+<phone>800-273-5371</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$79,900</list_price>
+<location>Charleston, VT 05872</location>
+<mls>710236</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<garage></garage>
+<type>Single Family</type>
+<lot_size>784080</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<fireplace>No</fireplace>
+<rooms>Living Room</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

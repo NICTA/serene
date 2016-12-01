@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1989 has 3
+bedroom(s), 3 bath(s) , 1 car garage and approximately 2190 square
+feet of living area. Rooms include living room, bonus room, master
+bedroom. Features include private spa, fireplace, air conditioning.</house_description>
+
+<agent_name>Charlie Winfree</agent_name>
+<direct>304-289-5424</direct>
+<office>304-257-9337</office>
+<firm_name>Coldwell Banker Terry Stephens</firm_name>
+<phone>304-257-9337</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$265,000</list_price>
+<location>Burlington, WV 26710</location>
+<mls>MI3122575</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>2190 (approx)</square_feet>
+<lot_size>1785960</lot_size>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Living Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

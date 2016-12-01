@@ -1,0 +1,27 @@
+<house_listing>
+<house_description>This single family home has 4 bedroom(s), 4 bath(s) , 3 car garage and
+approximately 3728 square feet of living area.</house_description>
+
+<agent_name>Lisa Martin/Kelly</agent_name>
+<direct>619-549-5240</direct>
+<fax>619-621-5890</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$0</list_price>
+<location></location>
+<mls>787</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>3728 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

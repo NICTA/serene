@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1997 has 3 bedroom(s), 3 bath(s) and
+approximately 3280 square feet of living area.</house_description>
+
+<agent_name>Bob Hildebrand</agent_name>
+<direct>303-409-3058</direct>
+<office>303-972-8900</office>
+<firm_name>Frontier Better Home</firm_name>
+<phone>303-972-8900</phone>
+<fax>303-972-1231</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$299,950</list_price>
+<location>7400 W Grant Ranch Bl</location>
+<neighborhood>Grant Ranch,Grey Hawk</neighborhood>
+<mls>372465</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>3280 (approx)</square_feet>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

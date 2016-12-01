@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>The Platinum Team</name>
+<office>(512)833-3588</office>
+<fax>(512)671-8886</fax>
+<mobile>(512)431-3725</mobile>
+<email>hcfrit@austin.quik.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21562</id>
+<mls>528773</mls>
+<house_location>16205 Dorman
+Austin, TEXAS 78717</house_location>
+<county>Williamson</county>
+<price>$184,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Hardwood Floors! Double sink in Master! Gourmet Kitchen! Whirlpool Tub in Master! Wood Deck in Backyard! Fireplace passes thru Family &amp; Study! Crown Molding! Bay Window in Master!</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Meadows Of Brushy Creek</sub-division>
+<stories>1</stories>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+<item>Upgrades throughout Home!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

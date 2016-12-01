@@ -1,0 +1,252 @@
+Suburb,Suburb name/s
+SSC,ABS suburb code/s
+Pop2011,Census 2011 population
+AreaSqm,Area of the suburb in square meters
+AreaSqKm,Area of the suburb in square kilometers
+AreaHa,Area of the suburb in hectares
+RoadLenM,Length of road in meters
+RoadLenKm,Length of road in kilometers
+LUM,"Land use mix. A value between 0 and 1. 0 = no mixing, 1 = perfect mixing."
+LUMquintile,Land use mix quintile
+ComCenNum,Number of community centres
+ComCenDist,Average road network distance from population weighted meshblock centroids to the closest community centre
+ComCenDistThresh,Community centre distance threshold. 0 =on average the closest community centre is >2000 m. 1 = on average the closest community centre is <= 2000 m road network distance from population weighted meshblock centroids
+ComCenPres,Presence of community centres in the suburb. 0 = no community centres. 1 = at least one community centre
+ShpCenNum,Number of shopping centres
+ShpCenDens,Density of shopping centres = number of shopping centres / road length in km
+ShpCenDist,Average road network distance from population weighted meshblock centroids to the closest shopping centre
+ShpCenDistThresh,Shopping centre distance threshold. 0 =on average the closest shopping centre is >2000 m. 1 = on average the closest shopping centre is <= 2000 m road network distance from population weighted meshblock centroids
+ShpCenPres,Presence of shopping centres in the suburb. 0 = no shopping centres. 1 = at least one shopping centre
+SpmktNum,Number of supermarkets
+SpmktDens,Density of supermarkets = number ofsupermarkets / road length in km
+SpmktDist,Average road network distance from population weighted meshblock centroids to the closest supermarket
+SpmktDistThresh,Supermarket distance threshold. 0 =on average the closest supermarket is >2000 m. 1 = on average the closest supermarket is <= 2000 m road network distance from population weighted meshblock centroids
+SpmktPres,Presence of supermarkets in the suburb. 0 = none. 1 = at least one 
+GrnGrcrNum,Number of greengrocers
+GrnGrcrDist,Average road network distance from population weighted meshblock centroids to the closest greengrocer
+GrnGrcrDistThresh,Greengrocer distance threshold. 0 =on average the closest greengrocer is >2000 m. 1 = on average the closest greengrocer is <= 2000 m road network distance from population weighted meshblock centroids
+GrnGrcrPres,Presence of greengrocers in the suburb. 0 = none. 1 = at least one 
+PONum,Number of post offices
+PODist,Average road network distance from population weighted meshblock centroids to the closest post office
+PODistThresh,Post office distance threshold. 0 =on average the closest post office is >2000 m. 1 = on average the closest post office is <= 2000 m road network distance from population weighted meshblock centroids
+POPres,Presence of post offices in the suburb. 0 = none. 1 = at least one 
+LibNum,Number of libraries
+LibDist,Average road network distance from population weighted meshblock centroids to the closest library
+LibDistThresh,Library distance threshold. 0 =on average the closest library is >2000 m. 1 = on average the closest library is <= 2000 m road network distance from population weighted meshblock centroids
+LibPres,Presence of libraries in the suburb. 0 = none. 1 = at least one 
+TrainNum,Number of train stations
+TrainDist,Average road network distance from population weighted meshblock centroids to the closest train station
+TrainDistThresh,Train station distance threshold. 0 =on average the closest train station is >2000 m. 1 = on average the closest train station is <= 2000 m road network distance from population weighted meshblock centroids
+TrainPres,Presence of train stations in the suburb. 0 = none. 1 = at least one 
+BusNum,Number of bus stops
+BusDist,Average road network distance from population weighted meshblock centroids to the closest bus stop
+BusDistThresh,Bus stop distance threshold. 0 =on average the closest post office is >800 m. 1 = on average the closest bus stop is <= 800 m road network distance from population weighted meshblock centroids
+BusPres,Presence of bus stops in the suburb. 0 = none. 1 = at least one 
+PTPres,Category indicating the presence of public transport stops in the suburb. 0 = none. 1 = at least 1 bus stop & no train stations. 10 = at least 1 train station & no bus stops. 11 = at least 1 bus stop AND 1 train station
+PTDistThresh,Category indicating the distance to the closest public transport stop. 0 = bus stop > 800 m and train station > 2000 m. 1 = bus stop <= 800 m and train station > 2000 m. 10 = bus stop > 800 m and train station <= 2000 m. 11 = bus stop <= 800 m and train station <= 2000 m
+AccUtDestPres,"Presence of utilitarian destinations in the suburb.Sum of ComCenPres, ShpCenPres, SpmktPres, GrnGrcrPres, POPres, LibPres, TrainPres, BusPres. An integer from 0 - 8. 0 = no destinations present. 8 = all 8 destinations present"
+AccUtDestPresquintile,Presence of utilitarian destinations quintile
+AccUtDestDist,"Distance to utilitarian destinations in the suburb. Sum of ConCenDistThresh, ShpCenDistThresh, SpmktDistThresh, GrnGrcrDistThresy, PODistThresh, LibDistThresh, TrainDistThresh, BusDistThresh. An integer from 0 -8. 0 = all destinations are distant. 8 = all destinations are close"
+AccUtDestDistquintile,Distance to utilitarian destinations quintile
+SprtLeiNum,Number of sports and leisure facilities
+SprtLeiDens,Density of sports and leisure facilities = number of sports and leisure facilities / road length in km
+SprtLeiDensquintile,Density of sports and leisure facilities quintile
+SprtLeiDist,Distance to closest sports and leisure facility.
+SprtLeiDistquintile,Distance to closest sports and leisure facility quintile
+POSDist,Distance to closest public open space
+POSDistquintile,Distance to closest public open space quintile
+POSArea,Area (square meters) in POS in the suburb
+POSAreaPct,% area in public open space = area in POS / suburb area
+POSAreaPctquintile,% area in public open space quintile
+TakeawayNum,Number of takeaway shops
+TakeawayDens,Density of takeaway shops = number of takeaway shops / road length in km
+TakeawayDensquintile,Density of  takeaway shops quintile
+TakeawayDist,Distance to closest  takeaway shop
+TakeawayDistquintile,Distance to closest  takeaway shop quintile
+HealthyFoodDensity,Density of healthy food shops (supermarkets and greengrocers) = number of healthy food shops / road length in km
+HealthyFoodDensityquintile,Density of healthy food shops quintile
+HealthyFoodDist,Distance to closest  healthy food shop
+HealthyFoodDistquintile,Distance to closest  healthy food shop quintile
+NumDwell,Number of dwellings (2011 census) in the suburb
+GrossDwlDens,Dwelling density = Number of dwellings / suburb area (square meters)
+GrossDwlDensquintile,Dwelling density quintile
+NumInts,Number of intersections in the suburb
+StrtConn,Street connectivity = number of intersections / area of the suburb (sqkm)
+StrtConnquintile,Street connectivity quintile
+ActCenDist,Distance to activity centre
+ActCenDistquintile,Distance to activity centre quintile
+TobNum,Number of tobacco outlets (excl vending machine data)
+TobPopDensp1000,Density of tobacco outlets = number of tobacco outlets / (2011 census population / 1000)
+TobPopDensp1000quintile,Density of tobacco outlets quintile
+TobDist,Distance to closest  tobacco outlet (excl vending machine data)
+TobVendNum,Number of tobacco vending machines
+TobVendDist,Distance to closest  tobacco vending machine
+TobTobVendDist,Distance to closest tobacco outlet OR vending machine
+TobTobVendDistquintile,Distance to closest tobacco outlet OR vending machine quintile
+FtPathLen,Length of footpath in the suburb (meters)
+SharedPthLen,Length of shared paths in the suburb (meters)
+BicPathLen,Length of bicycle paths in the suburb (meters)
+BicOffRdLen,Length of off-road bicycle paths in the suburb (meters)
+RatioFtpthRd,Ratio of footpath length to road length
+AlcLicNum,Number of alcohol licenses in the suburb. Note that this only includes data for certain licenses
+AlcLicPopDensp1000,Alcohol outlet density = number of alcohol licenses / (2011 population / 1000)
+GamingVenNum,Number of venues in the suburb
+EGMNum,Number of electronic gaming machines in the suburb
+EGMPopDensp1000,Density of EGMs = number of EGMS/(2011 population / 1000)
+RatioTrailsToRoads,Ratio of length of trails (off-road bicycle trails and sharead paths) to length of roads
+RatioTrailsToRoadsquintile,Ration of trails to roads quinitile
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,

@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elaine Morrow</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)707-1326</mobile>
+<email>jesmorrow@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19010</id>
+<mls>9098215</mls>
+<house_location>97 Trailwood
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$215,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>Impeccably kept home with outstanding storage, RV pad with complete hookups.Covered porch and patio, 22 speakers throughout  home with seperate controls, massive walk in closet in master, knife drawer, tray cupboard, marble fireplace, 5 tonac unit, separate utility. work bench in garage.</house_description>
+
+<move-in_date>9/4/99</move-in_date>
+<school_district>Whitney</school_district>
+<sub-division>White Bluff</sub-division>
+<approx_size_sqft>2000</approx_size_sqft>
+<stories>2</stories>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>2-18 hole golf courses</item>
+<item>Gated community</item>
+<item>Marina</item>
+<item>Impeccably Kept Home</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

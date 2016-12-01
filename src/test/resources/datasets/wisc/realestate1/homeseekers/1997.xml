@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This attached single family home built in 1947 has 3 bedroom(s), 2
+bath(s) and approximately 1715 square feet of living area.</house_description>
+
+<agent_name>Gordon Christensen</agent_name>
+<direct>303-321-7024</direct>
+<office>303-722-3300</office>
+<firm_name>Keller Williams Denv</firm_name>
+<phone>303-722-3300</phone>
+<fax>303-332-7643</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$167,483</list_price>
+<location>1536 Krameria St</location>
+<neighborhood>Park Hill S</neighborhood>
+<mls>381357</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1715 (approx)</square_feet>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

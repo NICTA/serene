@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>27 BROADVIEW PL</house_location>
+<price>$169,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>FORT THOMAS</suburb>
+<school_dist>FORT THOMAS</school_dist>
+<mls>249551</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>BETTY DONNELLAN</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM**CHARMING CAPE COD ON QUIET ST*MANY
+UPDA TES*1ST FLR FAM RM W/WBFP*REFINISHED HDWD FLRS IN LR*NEW
+CARPET*REMODELED 2 ND FLR*MSTR SUITE W/COMPUTER AREA*2 WALK IN
+CLOSETS*LOADS OF SPACE*</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>13 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>1</level></bedroom_3>
+<family><dimension>18 X 14</dimension><level>1</level></family>
+<kitchen><dimension>18 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>18 X 15</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>2</level></master>
+<study><dimension>11 X 10</dimension><level>2</level></study>
+
+<directions>N FT. THOMAS AVE TO BROADVIEW PLACE-HOME ON LEFT</directions>
+</house_listing>
+
+
+

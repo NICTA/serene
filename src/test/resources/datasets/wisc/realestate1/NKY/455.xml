@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>6709 CURTIS WAY</house_location>
+<price>$53,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249453</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>SKIP MERTEN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>SOLD AS IS CONDO, NEEDS TLC, MASTER CLOSET DOORS ARE MIRRORED. SEVERAL
+STOR AGE AREAS, LAUNDRY OFF KITCHEN,PATIO AREA &amp; SMALL YARD ENCLOSED
+BY PRIVACY FENCE. FIREPLACE W/MANTEL IS BEAUTIFUL, CLOSE TO
+EVERYTHING. PRICED TO SELL</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stove</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>110</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<breakfast><dimension>7 X 10</dimension><level>1</level></breakfast>
+<kitchen><dimension>7 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>13 X 15</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>2</level></master>
+
+<directions>TURFWAY TO CURTIS WAY AVE TO RIGHT AT
+COUNTRYSIDE (CURTIS WAY) CONDOS</directions>
+</house_listing>
+
+
+

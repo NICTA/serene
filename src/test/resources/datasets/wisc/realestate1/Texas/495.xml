@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Janet Simpson</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>jan@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21612</id>
+<mls>54753</mls>
+<house_location>201 Free Rein
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$99,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>IMMACULATE TOWNHOME! LIGHT AND BRIGHT! THREE BEDROOMS PLUS UTILITY/OFFICE/ OR EXTRA BEDROOM. ATTRACTIVE MIRRORED WALLS IN LIVING ROOM; ROCK FIREPLACE; PRIVATE PATIO AREA. THE REFRIGERATOR AND STACKABLE WASHER/DRYER ARE INCLUDED IN THE SALE!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<approx_size_sqft>2000</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>SPACIOUS, ATTRACTIVE TOWNHOME</item>
+<item>REFRIGERATOR AND WASHER/DRYER INCLUDED IN SALE!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

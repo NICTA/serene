@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>41 CATALPA CT</house_location>
+<price>$269,218</price>
+<rooms>12</rooms>
+<bedrooms>5</bedrooms>
+<baths>3-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side,Oversized)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>246850</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MIKE PARKER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>1ST FLOOR MASTER*1.5 STORY CUSTOM BUILT BY BOLD HOMES*4 BEDRM*LOWER
+LEVEL FINISHED*2 CAR SIDE ENTRY GAR*1ST FLR LAUNDRY*CATHEDRAL
+CEILINGS*MASTER HAS ULTRA BATH*OPEN FLR PLAN*CITY WATER &amp; SEWER*GAS
+HEAT * CALL MIKE @ 647-0700</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Brick</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>25</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 11</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>15 X 15</dimension><level>L</level></bedroom_5>
+<breakfast><dimension>13 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>18 X 15</dimension><level>L</level></family>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 6</dimension><level>1</level></laundry>
+<living><dimension>18 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>RT 18 WEST LEFT ON EAST BEND RD GO 1.6 MI FROM
+BURLINGTON TURN R ON EDGEWOOD</directions>
+</house_listing>
+
+
+

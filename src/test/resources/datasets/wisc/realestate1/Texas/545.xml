@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Erika Langenbach</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 282</voice_mail>
+<email>erika@c21cook.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20657</id>
+<mls>523908</mls>
+<house_location>13210 Fieldstone Loop
+Austin, TEXAS 78737</house_location>
+<county>Travis</county>
+<price>$185,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>FOR HORSE LOVERS A DREAM COME TRUE!! THE HOME IS ON A SECLUDED LOT. TACK ROOM AND 5 STABLES. GOOD LOPING AREA. SALTIO TILES IN LIVING AREA, CARPET IN BEDROOM. A MUST SEE! WON&amp;#8217;T BE ON THE MARKET FOR LONG!!</house_description>
+
+<school_district>Dripping Springs</school_district>
+<sub-division>Fieldstone</sub-division>
+<stories>1</stories>
+<approx_acres>5.02</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

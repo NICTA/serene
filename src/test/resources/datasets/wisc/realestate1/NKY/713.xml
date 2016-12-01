@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>326 E 16TH</house_location>
+<price>$32,500</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248936</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>BUTCH MAGNER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* NEW ROOF 1997 * * NEW FURNACE 1996 * * REPLACEMENT WINDOWS *</house_description>
+<construction>Other</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>22X164</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>15 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 12</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>N ON EASTERN AVE TO L ON E. 16TH</directions>
+</house_listing>
+
+
+

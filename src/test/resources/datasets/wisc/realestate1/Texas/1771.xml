@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Magdalena Solis</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<mobile>(956)806-6488</mobile>
+<email>C21HgnTx@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21269</id>
+<mls>15195</mls>
+<house_location>4659 KORNEGAY ROAD
+Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$0</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Rio Hondo</school_district>
+<sub-division>Carricitos</sub-division>
+<approx_size_sqft>2343</approx_size_sqft>
+<stories>1</stories>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+
+<highlights>
+<item>Residential country area</item>
+<item>Very well kept almost new</item>
+<item>On the Resaca</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

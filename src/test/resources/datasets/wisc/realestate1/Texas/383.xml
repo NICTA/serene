@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stewart Martin</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>smartin@express-news.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18340</id>
+<mls>313559</mls>
+<house_location>15442 Corian Creek
+San Antonio, TEXAS 78247</house_location>
+<county>Bexar</county>
+<price>$103,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Welcome Home! Ready for a quick move in.  Four sides brick. Two eating and living areas. Wonderful kitchen opens to breakfast nook. Big master bedroom and walk-in closet. Family Room opens to breakfast nook. Established area. Close to new elementary school, easy access to Loop 1604.</house_description>
+
+<school_district>N.e.i.s.d.</school_district>
+<sub-division>Longs Creek</sub-division>
+<approx_size_sqft>2166</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Upstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

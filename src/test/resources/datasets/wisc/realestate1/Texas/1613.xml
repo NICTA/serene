@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gerald Birdwell</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<email>gbirdwell@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17413</id>
+<mls>9045060</mls>
+<house_location>8020 Scenic Ridge Court
+Cresson, TEXAS 76035</house_location>
+<county>Hood</county>
+<price>$55,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great view, 1/1/ 2 lots, landscaped, well manufactured double-wide home, all electric, open floor plan, large front and back porches.  Island work area in kitchen, 4 ton ac central, owner very motivated.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Scenic Ridge</sub-division>
+<approx_size_sqft>1539</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.5</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Great view</item>
+<item>Large front and back porches</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

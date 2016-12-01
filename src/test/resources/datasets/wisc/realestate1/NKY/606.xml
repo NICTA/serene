@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>518 WESTERN</house_location>
+<price>$179,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249676</mls>
+<house_type>Condominium</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>TERESA RITSON GILLUM</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>THE INCREDIBLE VIEW IS ONLY ONE FEATURE TO BOAST ON THIS END UNIT.
+ENJOY THREE LEVELS OF SUPERIOR CONSTRUCTION AND UPGRADES. GREAT
+LOCATION!</house_description>
+<construction>Vinyl,Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>22 X 14</dimension><level>L</level></bedroom_2>
+<dining><dimension>10 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 7</dimension><level>L</level></laundry>
+<living><dimension>13 X 12</dimension><level>1</level></living>
+<master><dimension>17 X 23</dimension><level>2</level></master>
+
+<directions>ROUTE 8 OR HIGHWAY AVE TO LEFT ON WESTERN AVE</directions>
+</house_listing>
+
+
+

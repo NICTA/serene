@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This ground level detached single family home built in 1929 has 9
+bedroom(s), 6 bath(s) and approximately 3491 square feet of living
+area. Rooms include den, dining room, bonus room. Features include
+view, air conditioning.</house_description>
+
+<agent_name>Robert Villa</agent_name>
+<office>626-795-8300</office>
+<firm_name>Macgregor Realty - Pasadena</firm_name>
+<phone>626-795-8300</phone>
+<fax>626-795-2283</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$265,000</list_price>
+<location>5207 S Budlong Av</location>
+<mls>G907243</mls>
+<status>Active</status>
+<bedrooms>9</bedrooms>
+<baths>6</baths>
+<levels>Ground Level</levels>
+<type>Single Family</type>
+<square_feet>3491 (approx)</square_feet>
+<year_built>1929</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Bonus Room, Den, Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This ground level attached single family home has 2 bedroom(s), 1
+bath(s) and approximately 697 square feet of living area.</house_description>
+
+<agent_name>Susan Sy</agent_name>
+<direct>626-451-9755</direct>
+<office>626-289-2121</office>
+<email>SusanSy@HomeSeekers.com</email>
+<firm_name>C-21 Geo.Michael C-21
+Geo.Michael</firm_name>
+<phone>626-289-2121</phone>
+<fax>323-724-3994</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$99,000</list_price>
+<location>5117 Lathrop St</location>
+<mls>W200007</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>Ground Level</levels>
+<type>Single Family</type>
+<square_feet>697 (approx)</square_feet>
+<lot_size>7496</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

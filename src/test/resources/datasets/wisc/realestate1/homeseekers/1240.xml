@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1993 has 5 bedroom(s), 3
+bath(s) , 3 car garage and approximately 2538 square feet of living
+area. Rooms include den, family room, bonus room, master bedroom.
+Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>J. Mahlon Mackenzie</agent_name>
+<direct>520-586-2206</direct>
+<office>520-586-2300</office>
+<firm_name>Long Realty-Benson</firm_name>
+<phone>520-586-2300</phone>
+<fax>520-586-7891</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$995,000</list_price>
+<location>1200 S Hackberry</location>
+<mls>9902687</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2538 (approx)</square_feet>
+<year_built>1993</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Family Room, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Guest House, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

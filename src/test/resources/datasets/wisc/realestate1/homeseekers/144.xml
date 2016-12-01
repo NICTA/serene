@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This 1 level attached home built in 1984 has 1 bedroom(s), 1 bath(s) .
+Rooms include living room, master bedroom. Features include patio, air
+conditioning.</house_description>
+
+<agent_name>Rose Avedisian</agent_name>
+<direct>619-529-5691</direct>
+<office>619-223-5800</office>
+<firm_name>Bancroft Realty</firm_name>
+<phone>619-223-5800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$44,900</list_price>
+<location>San Diego, CA 92115</location>
+<mls>99 6025773</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Townhouse/Condo</type>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Electric</heating>
+<patio>Yes</patio>
+<rooms>Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

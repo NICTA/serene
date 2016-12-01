@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1924 has 2
+bedroom(s), 1 bath(s) and approximately 618 square feet of living
+area. Rooms include living room, master bedroom.</house_description>
+
+<agent_name>Jaime Campuzano</agent_name>
+<direct>619-479-9700</direct>
+<office>619-479-9700</office>
+<firm_name>Sunshine Realty</firm_name>
+<phone>619-479-9700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$99,900</list_price>
+<location>San Diego, CA 92105</location>
+<mls>99 8004597</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>618 (approx)</square_feet>
+<lot_size>3497</lot_size>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas, Wall Unit</heating>
+<rooms>Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

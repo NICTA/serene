@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Markgraf</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19741</id>
+<mls>53967</mls>
+<house_location>322 WINDING WAY
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$188,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT WEEKENDER ON EXTRA LARGE COVE, GREAT WATER, TWO BOAT SLIPS ONE WITH BOAT HOUSE AND LIFT,LARGE FISHING DOCK,NICE LARGE DECK ON LAKE SIDE OF HOME,VINAL SIDING FOR EASY MAINT. APPROX. 142 FEET OF WATER FRONTAGE LARGE OAK TREES , FENCED ON ALL SIDES, FURN. AVIABLE OUT SIDE OF SALES CONTRACT, THIS ONE IS A MUST SEE NOT MANY LIKE IT AT THIS PRICE.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>1053</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>97X305X142X232</approx_lot_size>
+<year_built>1982</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>APPROX. 142 'WATERFRONT</item>
+<item>LARGE OAK TREES</item>
+<item>TWO LOTS</item>
+<item>GREAT WEEK-ENDER</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

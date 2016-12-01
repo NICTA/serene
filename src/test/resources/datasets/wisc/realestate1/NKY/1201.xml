@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>205 2ND ST</house_location>
+<price>$149,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>WARSAW</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>250162</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>JOAN CHAMBLEE</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>SUMMER WILL COME AGAIN SOON! COME SEE THIS RESTORED HOME WHERE
+ELEGANCE ABOUNDS.ALL THE AMENITIES OF A NEW HOME,2ND FL LNDRY,GAR
+BA,EAT IN KIT W/WO GREAT POTENTIAL FOR BUSINESS IN DWNTWN WARSAW.1ST
+RACE SCHEDULED JUNE 16TH!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>17 X 17</dimension><level>2</level></bedroom_2>
+<dining><dimension>20 X 21</dimension><level>1</level></dining>
+<kitchen><dimension>18 X 16</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>2</level></laundry>
+<living><dimension>17 X 19</dimension><level>1</level></living>
+<master><dimension>20 X 21</dimension><level>2</level></master>
+
+<directions>75 S TO 71 S-EXIT OWENTON GLENCOE, TURN R TO
+RIVER, L TO WARSAW, L TO 2ND HOME ON R</directions>
+</house_listing>
+
+
+

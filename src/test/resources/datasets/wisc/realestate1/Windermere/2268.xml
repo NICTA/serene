@@ -1,0 +1,45 @@
+<house_listing>
+<price>$189,500</price>
+<mls_id_number>110725</mls_id_number>
+<address>3816 SW Troy</address>
+<city>Portland</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1512</sqft>
+<year_built>1995</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 cars</garage>
+<lot_size>0.06        Acres</lot_size>
+<lot_description>2677</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Wall to wall carpet</floors>
+<interior>Gas Fireplace, Security System</interior>
+<exterior>Porch, Deck, Garden</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>Maplewood</elementary>
+<middle_school>Robert Gray</middle_school>
+<high_school>Wilson</high_school>
+</schools>
+<for_more_information_contact>
+<agent_name>Jean-Luc Laminette</agent_name>
+<firm_name>Windermere Realty Group</firm_name>
+<firm_location>10140 SW Park Way
+Portland, OR</firm_location>
+<office_phone>(503)221-7380</office_phone>
+<fax>(503)221-7393</fax>
+<cell_phone>503-504-7275</cell_phone>
+<e-mail>laminet@hevanet.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

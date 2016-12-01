@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1973 has 4 bedroom(s), 3 bath(s) and
+approximately 2573 square feet of living area.</house_description>
+
+<agent_name>Theresa Cline</agent_name>
+<direct>303-754-9312</direct>
+<office>303-989-6800</office>
+<firm_name>Thompson &amp; Assoc/Mb</firm_name>
+<phone>303-989-6800</phone>
+<fax>303-985-2234</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$227,500</list_price>
+<location>2930 S Rosemary St</location>
+<neighborhood>Hampden Heights/Hutch Hills</neighborhood>
+<mls>374031</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2573 (approx)</square_feet>
+<year_built>1973</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

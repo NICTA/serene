@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1999 has 4 bedroom(s), 4 bath(s) and
+approximately 3109 square feet of living area.</house_description>
+
+<agent_name>Bill Griffith</agent_name>
+<direct>303-910-5881</direct>
+<office>303-758-7611</office>
+<firm_name>Cb Devonshire</firm_name>
+<phone>303-758-7611</phone>
+<fax>303-377-4733</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$549,000</list_price>
+<location>810 Locust St</location>
+<neighborhood>Mayfair/Crestmoor</neighborhood>
+<mls>358280</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<square_feet>3109 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

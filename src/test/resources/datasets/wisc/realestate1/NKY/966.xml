@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1212 6TH STREET</house_location>
+<price>$58,900</price>
+<rooms>5</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>0</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>248039</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>MARY K ALLHOFF</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>IMMACULATE WELL-CARED FOR HOME!STUDY OR DINING AREA COULD BE 2ND
+BR.NEWER SIDING,ROOF &amp; UPDATED BATH &amp; WIRING. MBR SUITE W/STORAGE
+GALORE.GREAT BACK YARD W/POTENTIAL ACCESS FOR DRIVE OR GARAGE PLUS A
+GREAT VIEW!</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Gravity</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<dining><dimension>9 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 9</dimension><level>1</level></kitchen>
+<living><dimension>19 X 13</dimension><level>1</level></living>
+<master><dimension>25 X 17</dimension><level>2</level></master>
+<study><dimension>11 X 9</dimension><level>1</level></study>
+
+<directions>RT 8 TO 6TH STREET</directions>
+</house_listing>
+
+
+

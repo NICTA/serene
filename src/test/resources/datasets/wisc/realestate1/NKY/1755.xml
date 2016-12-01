@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>1055 SNELL RD.</house_location>
+<price>$169,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>OWEN</school_dist>
+<mls>248942</mls>
+<house_type>Farms</house_type>
+<firm>PREFERRED PROPERTIES</firm>
+<firm_phone>(606) 371-4777</firm_phone>
+<agent>TONYA LAURENT</agent>
+<agent_phone>(606) 371-4777</agent_phone>
+<house_description>FARM FEATURES 2-3 BDRM HOME SITUATED ON 74 1/2 ACRES. ABUNDANT
+WILDLIFE, TOBACCO BASE, BARN &amp; 2 PONDS. CHOICE OF SCHOOL OWEN/GRANT.</house_description>
+<construction>Vinyl</construction>
+<heating>None</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>None</sewer>
+<lot_dimensions>see plat</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 12</dimension><level>1</level></bedroom_2>
+<dining><dimension>15 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>I75 EXIT 159 TO R. ON HWY 22 APPRX. 8 MILES TO R
+ON GOLDS VALLEY R TO L SNELL</directions>
+</house_listing>
+
+
+

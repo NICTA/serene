@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>5376 OLD SARDIS RD</house_location>
+<price>$168,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car None</garage>
+<suburb>MAYSLICK</suburb>
+<school_dist>MASON</school_dist>
+<mls>246372</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>DEBRA G MOORE</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>INFO. CAN BE OBTAINED FROM EITHER DEBRA MOORE OR BARB REYNOLDS WHO IS
+ACTING AS CO/LISTER. CLEARED ACREAGE,GREAT FOR TOBACCO,CATTLE.
+POND,BARN, SILO.HOUSE FOR RENTAL INCOME. WOVEN FENCING.SOME NEW ROAD
+FRONTAGE.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Space Heater</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>00</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<kitchen><dimension>15 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 7</dimension><level>1</level></laundry>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>13 X 15</dimension><level>1</level></master>
+
+<directions>US 68 SO.TO RT.2514 TAKE R. ON OLD SARDIS PIKE
+GO THRU 4-WAY STOP. BLUE HOUSE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<price>$154,950</price>
+<mls_id_number>162015</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.10</bathrooms>
+<sqft>1426</sqft>
+<year_built>1969</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.12        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$2,272</taxes>
+<floors>Hardwood Floors,</floors>
+<interior>Sound System</interior>
+<exterior>Covered Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>BRIDGER</elementary>
+<middle_school>BINNSMEAD</middle_school>
+<high_school>MARSHALL</high_school>
+</schools>
+
+</house_listing>
+
+
+

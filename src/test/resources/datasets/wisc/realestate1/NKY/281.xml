@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>10840 DORAL CT</house_location>
+<price>$106,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>Tri-Level</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>RICHWOOD</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248923</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>MARY LEE WEIMER</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>MOST AFFORDABLE HOME IN TRIPLE CROWN*BEAUTIFUL WOODED VIEW*WHIRLPOOL
+BATH*FAMILY RM*GARAGE DOOR OPENER*SECURITY SYSTEM*FIREPLACE*WELL TAKEN
+CARE OF*A PLEASURE TO SHOW.</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Marble</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>86</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 12</dimension><level>1</level></dining>
+<family><dimension>13 X 10</dimension><level>L</level></family>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 3</dimension><level>L</level></laundry>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>2</level></master>
+
+<directions>TRIPLE CROWN TO THE PROMONADE (FISCHER CONDO)
+TURNBERRY TO L ON DORAL CT</directions>
+</house_listing>
+
+
+

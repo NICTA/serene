@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1999 has 4 bedroom(s), 3 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 2710 square
+feet of living area. Rooms include dining room. Features include view,
+patio, fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Maria Anemone Abr Gri</agent_name>
+<direct>520-906-3245</direct>
+<office>520-544-4545</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-544-4545</phone>
+<fax>520-293-3689</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$394,900</list_price>
+<location>866 W Bradford Canyon Pl</location>
+<mls>2000511</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3(full) 1(half)</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2710 (approx)</square_feet>
+<lot_size>68X122X111X90X142</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

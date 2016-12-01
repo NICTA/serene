@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1950 has 3 bedroom(s), 1 bath(s) and
+approximately 1029 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Lawrence Mintz</agent_name>
+<direct>668-0959</direct>
+<office>305-668-0959</office>
+<firm_name>R &amp; M Real Estate
+Lic. Real Estate Broker</firm_name>
+<phone>305-668-0959</phone>
+<fax>305-666-0678</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$84,999</list_price>
+<location>1015 NW 145 Te</location>
+<neighborhood>Biscayne Gdns Sec F Part</neighborhood>
+<mls>M760239</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1029 (approx)</square_feet>
+<lot_size>75 X 100</lot_size>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<pool>No</pool>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

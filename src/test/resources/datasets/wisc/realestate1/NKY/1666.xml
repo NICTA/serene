@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>4780 KY HWY 435</house_location>
+<price>$272,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>DOVER</suburb>
+<school_dist>MASON CO</school_dist>
+<mls>249226</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>DEBRA G MOORE</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>IMPRESSIVE 28 +/- ACRES CONVENIENTLY LOCATED ON CORNER OF AA HWY 435.
+FARM HOUSE, WELL MAINTAINED. 8 VERY LARGE ROOMS, TOBACCO BARN, WILL
+NEED TO VERIFY 2000 POUNDAGE. GREAT LOCATION FOR COMMERCIAL PROJECT.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Stove,Marble</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>unknown</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>15 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 15</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 15</dimension><level>1</level></dining>
+<family><dimension>15 X 12</dimension><level>1</level></family>
+<kitchen><dimension>26 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 20</dimension><level>1</level></living>
+<master><dimension>17 X 15</dimension><level>1</level></master>
+<study><dimension>15 X 15</dimension><level>1</level></study>
+
+<directions>FROM MAYSVILLE GO NO. ON HWY 9(AA) TO HWY 435
+TURN LEFT, SITS ON CORNER.</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>L.C. Nino</name>
+<office>(512)833-3250</office>
+<fax>(512)671-3497</fax>
+<voice_mail>(512)833-3250</voice_mail>
+<mobile>(512)415-2197</mobile>
+<email>lcnino@yahoo.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21565</id>
+<mls>528898</mls>
+<house_location>2210 S. 2nd St.
+Austin, TEXAS 78704</house_location>
+<county>Travis</county>
+<price>$134,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Location, Location, Location! Wonderful Central Austin Bungalow! Huge Backyard! Ceramic Tile in Kitchen! Spacious and Open! Shows very Well!</house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>Bawcom</sub-division>
+<stories>1</stories>
+<approx_lot_size>49x135</approx_lot_size>
+<year_built>1953</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Excellent Central Austin Location!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

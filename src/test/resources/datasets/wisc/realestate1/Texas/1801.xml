@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>bojac@mailexcite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Emma L Morin</name>
+<office>(512)595-7653</office>
+<fax>(512)592-9300</fax>
+<voice_mail>(512)516-3905</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>3179</id>
+<mls>05-066-97sh</mls>
+<house_location>1028 S Sixteenth
+Kingsville, TEXAS</house_location>
+<county>Kleberg</county>
+<price>$32,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Corner lot. Affordble for the first time buyer. Extra storage above garage. Large Kitchen &amp; eating combination. As per owner: new roof installed in FEb '92 Also new breaker appox. 5 yrs ago and new water heater in '94.</house_description>
+
+<school_district>Kingsville</school_district>
+<approx_size_sqft>1006</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60x140</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+<item>First Time Home Buyers Program</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

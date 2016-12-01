@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This detached single family home built in 1956 has 4 bedroom(s), 4.5
+bath(s) , 2 car garage and approximately 5231 square feet of living
+area. Rooms include dining room, family room, living room, master
+bedroom. Features include view, private pool, patio, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Ross Whitney</agent_name>
+<direct>619-293-7677</direct>
+<office>619-299-8020</office>
+<firm_name>Prudential California Realty Prudential California Realty</firm_name>
+<phone>619-299-8020</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$879,000</list_price>
+<location>San Diego, CA 92103</location>
+<mls>99 6024641</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4.5</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>5231 (approx)</square_feet>
+<lot_size>19837</lot_size>
+<year_built>1956</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Forced Air</heating>
+<fireplace>Family Room, Living Room, Master Bedroom</fireplace>
+<patio>Yes</patio>
+<pool>In-ground</pool>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+<view>Golf Course View, Mountain/Hills View, Panoramic View, View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+
