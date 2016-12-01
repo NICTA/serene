@@ -19,7 +19,7 @@ object SereneBuild extends Build {
     version := "0.1",
     scalaVersion := "2.11.8",
 
-    mainClass in (Compile, run) := Some("au.csiro.data61.matcher.Matcher")
+    mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene")
   )
   .aggregate(core)
   .dependsOn(core)
