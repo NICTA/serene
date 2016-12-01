@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>535 E FOURTH ST</house_location>
+<price>$199,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached,Rear)</garage>
+<suburb>MANSION HILL</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249429</mls>
+<house_type>Single Family</house_type>
+<firm>TERRY E RASCHE REAL ESTATE</firm>
+<firm_phone>(606) 441-6511</firm_phone>
+<agent>TERRY E RASCHE</agent>
+<agent_phone>(606) 441-6511</agent_phone>
+<house_description>THIS 1996 SHOW HOUSE HAS BEEN RESTORED TO MOVE IN CONDITION WITH ALL
+THE THINGS YOU EXPECT IN THE MANSION HILL NEIGHBORHOOD,WITH
+POCKETDOORS 4 FIRE PLACES NATURAL W.W. NEWER MECHANICS STAINED
+GL.ULTRA MASTER BEDRM,PLUS MORE</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x107</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 15</dimension><level>2</level></bedroom_2>
+<dining><dimension>14 X 16</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 16</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 5</dimension><level>2</level></laundry>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 16</dimension><level>2</level></master>
+<study><dimension>7 X 10</dimension><level>2</level></study>
+
+<directions>NEWPORT PARK AVE TO LEXINGTON AVE TO END RIGHT
+TO FOURTH ST RIGHT ONE WAY TO 535</directions>
+</house_listing>
+
+
+

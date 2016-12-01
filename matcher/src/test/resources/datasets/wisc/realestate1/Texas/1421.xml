@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lee Hassman</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<mobile>(361)774-5250</mobile>
+<email>Leer29@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21385</id>
+<mls>141840</mls>
+<house_location>4306 Pontchartrain
+Corpus Christi, TEXAS 78413</house_location>
+<county>Nueces</county>
+<price>$369,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Ultimate luxury custom home. Millenium kitchen, 5 burner stove, popup vent hood, granite countertops, master suite with 2 walk ins, large whirlpool tub sauna, circular staircase, dual zone ac, central vacuum, thermo windows, fireplace, intercom + much much more!!!</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>The Lakes 5d</sub-division>
+<approx_size_sqft>3555</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>90x120</approx_lot_size>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Waterview</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

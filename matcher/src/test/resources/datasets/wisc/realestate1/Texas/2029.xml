@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Peerman Custom Homes &amp; Real Estate</name>
+<location>12020 Hwy. 290 West Austin, TX 78737</location>
+<office>(512)288-4040</office>
+<toll_free></toll_free>
+<fax>(512)288-4048</fax>
+<email>peerman@flash.net</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Rice</name>
+<office>(512)288-4040</office>
+<fax>(512)288-4048</fax>
+<email>flash.net/~peerman/</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7488</id>
+<mls></mls>
+<house_location>Old Red Ranch Road
+Henly, TEXAS</house_location>
+<county>Hays</county>
+<price>$144,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This 1750 sq. ft. new home is on 3.3 acres with huge oak trees.  20 x 20, 2 car garage, in Vista Grande Subdivision.  3 bedrooms, 2 baths, garden tub in master with separate shower, walk in closets, double vanities, private study.</house_description>
+
+<move-in_date>6/5/98</move-in_date>
+<school_district>Johnson City</school_district>
+<sub-division>Vista Grande</sub-division>
+<approx_size_sqft>1750</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3.3</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>VERY SPACIOUS FEEL</item>
+<item>WONDERFUL SHADE TREES</item>
+<item>INCLUDE YOUR HORSES</item>
+<item>GARDEN TUB IN MASTER</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

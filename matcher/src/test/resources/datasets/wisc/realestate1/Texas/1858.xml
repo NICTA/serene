@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rita Gillmouth</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>13146</id>
+<mls>126398</mls>
+<house_location>13 Lake Meadows
+Mathis, TEXAS</house_location>
+<county>San Patricio</county>
+<price>$109,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<move-in_date>12/29/98</move-in_date>
+<school_district>Mathis</school_district>
+<stories>1</stories>
+<approx_lot_size>83*250</approx_lot_size>
+<year_built>1990</year_built>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Very nice well kept waterfront home on large lot</item>
+<item>in like new condition, built in 1990.</item>
+<item>This home is all electric, total property taxes</item>
+<item>are only $627.50</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

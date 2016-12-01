@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>PAT SHERINSKI</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 168</voice_mail>
+<email>larrys@wt.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12725</id>
+<mls>163226</mls>
+<house_location>3510 SHADOWBLUFF CT
+Houston, TEXAS 77082</house_location>
+<county>Harris</county>
+<price>$178,000</price>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GORGEOUS PERRY IN GATED COMMUNITY! UPGRADES GALORE! CUSTOM SHADES, WOOD BLINDS ALARM, BUILT-IN CUSTOM SHELVES, ENTERTAINMENT CENTER PLUS CUSTOM PAPERS, CERAMIC TILE IN KITCHEN, BREAKFAST ROOM. FOUR FULL BEDROOMS, FORMAL LIVING, FORMAL DINING OR FIVE BEDROOMS OR FOUR WITH STUDY.</house_description>
+
+<school_district>Alief</school_district>
+<sub-division>Shadowlake Estates</sub-division>
+<approx_size_sqft>2324</approx_size_sqft>
+<stories>1</stories>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>GATED COMMUNITY! WOOD BLINDS, ALARM,</item>
+<item>TILE IN KITCHEN, BREAKFAST ROOM</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

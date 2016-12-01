@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Lovely home on great street, fresh paint thru out, has living rm,
+dining rm &amp; family rm. This home is ready for move in - just place
+your furnishings &amp; start living. Larchmont, blair &amp; maury schools.
+Attached garage w/spacious storage loft.</house_description>
+
+<agent_name>David Block</agent_name>
+<office>757-625-2580</office>
+<firm_name>William E. Wood &amp; Associates</firm_name>
+<phone>757-625-2580</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$175,000</list_price>
+<location>Norfolk, VA 23508</location>
+<mls>0000445</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Colonial</style>
+<lot_size>50 X 100</lot_size>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>Deck, Open Porch</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Attic Fan, Breakfast Room, Cable TV, Ceiling Fan(s), ColonialStyle, Fenced, Pantry, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

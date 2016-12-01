@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>1885 KNOLLMONT</house_location>
+<price>$159,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>(Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249909</mls>
+<house_type>Single Family</house_type>
+<firm>HOME QUEST REALTY</firm>
+<firm_phone>(606) 371-6000</firm_phone>
+<agent>DAVE GUTZEIT</agent>
+<agent_phone>(606) 371-6000</agent_phone>
+<house_description>SHOWS LIKE A MODEL-FINISHED LL WITH BERBER CARPET 4 BUILT IN SAFE.
+FENCED YARD, GAS FIREPLACE, DECK &amp; MORE.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>1</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>11 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<family><dimension>20 X 22</dimension><level>L</level></family>
+<kitchen><dimension>18 X 12</dimension><level>1</level></kitchen>
+<living><dimension>13 X 24</dimension><level>1</level></living>
+<master><dimension>14 X 17</dimension><level>2</level></master>
+
+<directions>RT.18 TO OAKBROOK TO L ON KNOLLMONT</directions>
+</house_listing>
+
+
+

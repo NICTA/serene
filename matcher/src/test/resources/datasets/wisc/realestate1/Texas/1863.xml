@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Renee Thomas</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>renee@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7660</id>
+<mls>47578</mls>
+<house_location>509 SILVER SPUR
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$244,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<garage_spaces>2</garage_spaces>
+
+<house_description>3 bedroom, 3 bath, single-level home over looking Slick Rock's 5th fairway.  Bonus room.  Established neighborhood.  Manicured yard.  Washer, dryer, and refrigerator stay.  Water softener and reverse osmosis for drinking water.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Overlooking 5th fairway at Slick Rock</item>
+<item>3 bedroom, 3 bath</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

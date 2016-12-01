@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bette Berry</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>bette@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18764</id>
+<mls>53622</mls>
+<house_location>107 LACHITE #4, WESTRIDGE TOWNHOME
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$162,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>A very unique townhome.  Lots of space.  Most furniture stays.  Master is spacious and has a private balcony.  Upstairs bedroom can be a multi-purpose room.  On #17 of Apple Rock Golf Course.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay West</sub-division>
+<stories>3</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>#17 OF APPLE ROCK GOLF COURSE</item>
+<item>UNIQUE FLOOR PLAN WITH LOTS OF SPACE</item>
+<item>MOST FURNITURE STAYS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

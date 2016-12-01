@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jere Showalter</name>
+<office>(409)542-1234</office>
+<fax></fax>
+<email>jshow83@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21009</id>
+<mls>1073</mls>
+<house_location>Rt. 1 box 19 CR 141
+Dime Box, TEXAS 77853</house_location>
+<county>Lee</county>
+<price>$75,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Story and a half home that has been completely rebuilt and shows great. storage building, large barn that will weather any storm, pond all on 5 coastal planted grass acres</house_description>
+
+<school_district>Dime Box Isd</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1350</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>5</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>plenty of elbow room</item>
+<item>recently updated</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

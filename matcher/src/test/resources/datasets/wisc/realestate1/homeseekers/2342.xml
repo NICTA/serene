@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1980 has 2 bedroom(s), 1 bath(s) and
+approximately 820 square feet of living area. Rooms include master
+bedroom. Features include view, fireplace.</house_description>
+
+<agent_name>Franklin Paredes</agent_name>
+<direct>520-743-4140</direct>
+<office>520-325-2800</office>
+<firm_name>Realpros</firm_name>
+<phone>520-325-2800</phone>
+<fax>520-325-2825</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$60,000</list_price>
+<location>4340 N Frey Ave</location>
+<mls>9921185</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<square_feet>820 (approx)</square_feet>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Forced Air</heating>
+<fireplace>Living Room</fireplace>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

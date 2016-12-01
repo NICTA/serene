@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1982 has 2 bedroom(s), 2 bath(s) and
+approximately 1128 square feet of living area. Rooms include master
+bedroom. Features include private pool, patio, fireplace, storage
+space.</house_description>
+
+<agent_name>Mary Notis</agent_name>
+<direct>520-299-2777</direct>
+<office>520-299-2777</office>
+<firm_name>Realty Executives-Tuc Realty Executives-Tuc</firm_name>
+<phone>520-299-2777</phone>
+<fax>520-299-5969</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$95,000</list_price>
+<location>3224 N Little Horse Dr</location>
+<mls>9913566</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<square_feet>1128 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Forced Air</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered, Screened-in</patio>
+<pool>Yes</pool>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

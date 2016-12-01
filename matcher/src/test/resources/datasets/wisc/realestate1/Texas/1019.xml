@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>ERA Bogany Properties</name>
+<location>9121-C Stella Link Houston, TX 77025</location>
+<office>(713)667-1000</office>
+<toll_free></toll_free>
+<fax>(713)667-3113</fax>
+<email>shad@insync.net</email>
+</firm_information>
+
+<agent_information>
+<name>Shad Bogany</name>
+<office>(713)667-1000</office>
+<fax>(713)667-3113</fax>
+<email>shad@insync.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13343</id>
+<mls>185565</mls>
+<house_location>1835 Halstead
+Missouri City, TEXAS 77489</house_location>
+<county>Harris</county>
+<price>$107,500</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>A beautiful 2 story with master down 3 living areas, huge master bath, large bedrooms; this home is excellent condition, it has ERA Home Warranty, this is a great buy it will not last, Fort Bend Money 5.99%.</house_description>
+
+<school_district>Fort Bend</school_district>
+<sub-division>Hunters Point Estates</sub-division>
+<approx_size_sqft>2840</approx_size_sqft>
+<stories>2</stories>
+<year_built>1988</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

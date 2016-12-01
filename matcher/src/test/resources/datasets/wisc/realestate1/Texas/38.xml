@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Blake A. Kaiser</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)924-9600</mobile>
+<email>bkaiser@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21123</id>
+<mls>525764</mls>
+<house_location>160 Pine Valley Loop
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$139,990</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>4</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>As-is. Great price! This house only needs a little T.L.C., some carpet and paint to become your dream home. Two story with 2 living areas, office, 4 bedrooms and 2.5 baths. Master has double vanity, jacuzzi tub and separate shower. Beautiful 5 acres set up for horses, huge 4 car garage, workshop. Just south of La Reata Ranch subdivision in an area of nicer homes, near Hwy. 535 new expansion. Won't last long!</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Pine Valley Estates</sub-division>
+<approx_size_sqft>2331</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>5ac</approx_lot_size>
+<approx_acres>5</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Fixer Upper Value Priced to Sell Quick!</item>
+<item>Two Story w/2 Living Areas, Office</item>
+<item>4 Bedrooms, 2.5 Baths, 4 Car Garage</item>
+<item>5 Acres Set-up for Horses</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

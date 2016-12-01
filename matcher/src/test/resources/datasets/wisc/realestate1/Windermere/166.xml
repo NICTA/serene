@@ -1,0 +1,34 @@
+<house_listing>
+<price>$149,000</price>
+<mls_id_number>153788</mls_id_number>
+<city>WOODBURN</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>2.10</bathrooms>
+<sqft>2585</sqft>
+<year_built>1954</year_built>
+<heat>Electric Base Board</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>TILE</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.40        Acres</lot_size>
+<lot_description>85X179</lot_description>
+<fireplace></fireplace>
+<taxes>$1,830</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Patio, RV-Park,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>HERITAGE</elementary>
+<middle_school>VALOR</middle_school>
+<high_school>WOODBURN</high_school>
+</schools>
+
+</house_listing>
+
+
+

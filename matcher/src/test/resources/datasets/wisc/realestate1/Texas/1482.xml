@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Menley</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<email>winkler@texasproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20720</id>
+<mls>525336</mls>
+<house_location>0 OLD SAYERS RD
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$229,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>40 BEAUTIFUL ACRES.  UNIQUE 3/2 HOME, HIGH CEILINGS, SALTILLO TILE FLOORS.  BIG OPEN LIVING/DINING/KITCHEN.  TILE COUNTER TOPS, LARGE KITCHEN.  1800 SQ FT PER OWNER.  OFFICE/HOBBY ROOM.  2 PONDS, OUTBUILDINGS, PRIVATE.</house_description>
+
+<school_district>Elgin Isd</school_district>
+<sub-division>1</sub-division>
+<approx_acres>40</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

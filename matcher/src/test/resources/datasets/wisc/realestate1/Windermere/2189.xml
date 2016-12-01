@@ -1,0 +1,34 @@
+<house_listing>
+<price>$179,500</price>
+<mls_id_number>140816</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.50</bathrooms>
+<sqft>2048</sqft>
+<year_built>1962</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.20        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>4</fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Security System</interior>
+<exterior>Covered Patio, Garden, RV-Park, Sprinkler System</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>MARGARET SCOTT</elementary>
+<middle_school>HB LEE</middle_school>
+<high_school>REYNOLDS</high_school>
+</schools>
+
+</house_listing>
+
+
+

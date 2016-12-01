@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Larry Smith,sh</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<voice_mail>(361)516-2640</voice_mail>
+<email>bojac@mailexcite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19441</id>
+<mls>26095</mls>
+<house_location>BAFFIN BAY #890 South Co Rd 1146
+Riviera, TEXAS 78379</house_location>
+<county>Kleberg</county>
+<price>$112,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Baffin Bay  on the water. Large screened in porch. Most furniture stays. Ready to move enjoy.common pier. Very nice cedar construction. Take FM 771 East from Riviera to Co Rd 1145. Turn Left then left into Bay Shore Estates. Last Home on left.</house_description>
+
+<school_district>Riviera</school_district>
+<sub-division>Bay Shore Estates</sub-division>
+<approx_size_sqft>1200</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>75 x 150</approx_lot_size>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>This is WATERFRONT PROPERTY</item>
+<item>Very nice rebuilt pier.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

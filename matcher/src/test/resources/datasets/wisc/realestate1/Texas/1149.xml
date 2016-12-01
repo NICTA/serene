@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Texas Best Properties</name>
+<location>1604 Industry, Ste. #108 Bastrop, TX 78602</location>
+<office>(512)303-2020</office>
+<toll_free></toll_free>
+<fax>(512)303-6116</fax>
+<email>txbest@flash.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeff Fricke</name>
+<office>(512)303-2020</office>
+<fax>(512)303-6116</fax>
+<email>txbest@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19067</id>
+<mls></mls>
+<house_location>FM 2571
+Smithville, TEXAS 78597</house_location>
+<county>Bastrop</county>
+<price>$170,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>BUILDER TRYING SOMETHING NEW BY SELLING 5 ACRES AND NEW HOME AND BARN, HOME HAS MANY UP GRADES INCLUDING HARD TILE FLOORING,TILE COUNTER TOPS, AND UP GRADED CARPET. VAULTED CEILING HUGE MASTER BED AND BATH,AND A BONUS ROOM FOR AN OFFICE OR PLAY ROOM. CALL OR E MAIL AND LETS GO LOOK.NO RESTRICTIONS</house_description>
+
+<move-in_date>9/9/99</move-in_date>
+<school_district>Smithville</school_district>
+<approx_size_sqft>1900</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>5</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>LARGE NEW BARN</item>
+<item>PAVED FRONTAGE</item>
+<item>NEW HOME</item>
+<item>UP GRADES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

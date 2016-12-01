@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Alvarado</name>
+<location>400 Hwy 67 East Alvarado, TX 76009</location>
+<office>(817)790-6611</office>
+<toll_free></toll_free>
+<fax>(817)790-6612</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bob &amp; Mary Lou Brown</name>
+<office>(817)790-6611</office>
+<fax>(817)790-6612</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21690</id>
+<mls>9138390</mls>
+<house_location>113 Apache Trail
+Alvarado, TEXAS 76009</house_location>
+<county>Johnson</county>
+<price>$84,600</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>New construction - split bedrooms, vauled ceilings. 10 year warranty. 3% investment, builder will pay remainder of closing cost.</house_description>
+
+<school_district>Alvarado</school_district>
+<sub-division>Indian Trails</sub-division>
+<approx_size_sqft>1420</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.20</approx_lot_size>
+<year_built>2000</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Patsy Barnett</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20039</id>
+<mls>9111841</mls>
+<house_location>4312 Glenwood Court (Ad # 671)
+Granbury, TEXAS 76049-5811</house_location>
+<county>Hood</county>
+<price>$81,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nice manufactured home on a canal!  Nice carpet, large sunroom &amp; will have a new roof.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Port Ridglea E</sub-division>
+<approx_size_sqft>1841</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>61x149x60Wx140</approx_lot_size>
+<year_built>1979</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Waterfront Manufactured Home</item>
+<item>Large Sunroom</item>
+<item>Nice Carpet &amp; New Roof</item>
+<item>Ad # 671</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

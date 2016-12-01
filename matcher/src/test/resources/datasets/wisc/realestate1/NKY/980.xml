@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>967 PLATEAU</house_location>
+<price>$89,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>ELSMERE</suburb>
+<school_dist>ERLANGER-EL</school_dist>
+<mls>248798</mls>
+<house_type>Single Family</house_type>
+<firm>NORTHERN KY REALTY</firm>
+<firm_phone>(606) 727-1313</firm_phone>
+<agent>RICK HORN</agent>
+<agent_phone>(606) 727-1313</agent_phone>
+<house_description>BEAUTIFUL WOOD FRAME RANCH ON A QUIET STREET. CLOSE TO EVERYTHING. ONE
+BLOCK TO SHCOOL. WOOD DECK WITH A BIG YARD.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50x125</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_3><dimension>12 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>12 X 7</dimension><level>1</level></breakfast>
+<kitchen><dimension>8 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>B</level></laundry>
+<living><dimension>13 X 15</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>DIXIE HWY TO GARVEY AV TO R ON CENTRAL ROW TO L
+ON PLATEAU</directions>
+</house_listing>
+
+
+

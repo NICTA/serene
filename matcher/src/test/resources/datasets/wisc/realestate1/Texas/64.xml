@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cindy Clay</name>
+<office>(409)885-6400</office>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20417</id>
+<mls></mls>
+<house_location>143 Woody Lane
+Sealy, TEXAS 77474</house_location>
+<county>Austin</county>
+<price>$250,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Custom built in 1990 witha great acountrykitchen and all thetrimmings. Master bath with jacuzzi tub and separate shower. Large den withwet bar and wood burning fireplace. 2 bedrooms upwith separate dressing areas. Lots of storage.</house_description>
+
+<school_district>Sealy Isd</school_district>
+<stories>2</stories>
+<approx_acres>1.25</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

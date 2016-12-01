@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Cece Hurst</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<email>cece@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20716</id>
+<mls>524862</mls>
+<house_location>256 Lamaloa
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$89,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Here is a wonderful family home in Tahitian Village. This 3 bedroom 2 bath house has a MIL plan and 1282 square feet of living space. The master bedroom has a separate bath and a private entrance. This affordable home is in a great location and just waiting for the perfect family. Call Cece Hurst today to see this great buy!</house_description>
+
+<move-in_date>11/22/99</move-in_date>
+<school_district>Bastrop ISD</school_district>
+<sub-division>Tahitian Village</sub-division>
+<approx_size_sqft>1282</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.25ac</approx_lot_size>
+<approx_acres>0.25</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>3 Bedroom, 2 Bath</item>
+<item>Separate Entrance to Master</item>
+<item>1/4 Acre Lot</item>
+<item>Community Pool and Clubhouse</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

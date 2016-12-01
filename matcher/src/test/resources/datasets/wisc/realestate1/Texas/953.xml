@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debbie Moran</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>Debbie@c21rpp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21358</id>
+<mls>9128020</mls>
+<house_location>906 S. 3rd
+Grandview, TEXAS 76050</house_location>
+<county>Johnson</county>
+<price>$79,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This lovely home features lots of built ins with extra storage and has all the comforts of home. Kitchen offers built in computer desk, double ovens, large pantry and bar. Nicely landscaped, with large garden and extra parking for your RV.</house_description>
+
+<school_district>Grandview</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1480</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.50</approx_lot_size>
+<year_built>1958</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Peggy Jones</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>pegjones@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21324</id>
+<mls>54644</mls>
+<house_location>4018 Out Yonder
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$109,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>TWO EXTRA LOTS CONVEY WITH THIS WELL CARED FOR TOWNHOME. VAULTED CEILING IN LIVING ROOM AND LOVELY VIEW FROM DECK. PRICED TO SELL IN &amp;quot;AS IS&amp;quot; CONDITION. NO MONTHLY MAINTENANCE FEE.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<approx_lot_size>3 LOTS</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>GREAT VIEWS FROM THE DECK!</item>
+<item>TWO EXTRA LOTS CONVEY!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

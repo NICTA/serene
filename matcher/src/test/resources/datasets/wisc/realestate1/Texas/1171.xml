@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20923</id>
+<mls>15141</mls>
+<house_location>305 Briggs Coleman
+Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$165,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Brand New Construction.  Only 4 months young!  Beautiful Custom Cabinets!  Large Master Bedroom, Huge Family Room, and extra large kitchen.  Includes motion dectector security system,  Surround sound, water softner, plus much much more.All on 1.5 acres (+-).  Horses Permitted.This special country home is waiting for you today!  (Long Elementary)</house_description>
+
+<school_district>Long</school_district>
+<sub-division>Weed Estates</sub-division>
+<approx_size_sqft>2300</approx_size_sqft>
+<stories>1</stories>
+<year_built>199</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Brand New Home</item>
+<item>Huge Rooms</item>
+<item>Country Home</item>
+<item>Long Elementary</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

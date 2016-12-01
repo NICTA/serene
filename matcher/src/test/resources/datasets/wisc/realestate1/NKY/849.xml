@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>42 WOODLAND HILLS</house_location>
+<price>$56,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>SOUTHGATE</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249827</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>MARY ANN PEARMAN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>WALK OUT TO PATIO* VIEW BROOK &amp; WOODS* FULLY EQUIPPED LAUNDRY * FRIG,
+OVEN/ RANGE, DISHWASHER STAY* LR &amp; DR CARPET 1 YR * H20 HEATER,
+DECEMBER* WALK- IN CLOSET MBR * NOT FAR FROM CLUB HOUSE/POOL/TENNIS</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>86</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>9 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>8 X 8</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>16 X 11</dimension><level>1</level></master>
+
+<directions>US 27*MOOCK RD*WOODLAND HILLS</directions>
+</house_listing>
+
+
+

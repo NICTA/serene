@@ -1,0 +1,30 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 2 bath(s) and approximately
+1244 square feet of living area.</house_description>
+
+<agent_name>Troy Griffin</agent_name>
+<direct>303-255-4319</direct>
+<office>303-457-4800</office>
+<firm_name>RE/MAX Northwest Inc</firm_name>
+<phone>303-457-4800</phone>
+<fax>303-252-8133</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,900</list_price>
+<location>4552 Anaheim Ct</location>
+<neighborhood>Montbello/Concord</neighborhood>
+<mls>382653</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1244 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

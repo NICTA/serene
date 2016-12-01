@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mike Hallowell</name>
+<office>(817)573-8801</office>
+<fax>(817)279-7473</fax>
+<email>hallowell@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19794</id>
+<mls>9093559</mls>
+<house_location>1221 Billings Road (Ad # 548)
+Tolar, TEXAS 76476</house_location>
+<county>Hood</county>
+<price>$164,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>3-2-2 Ranchette on 5 acres built in 1997.  Home has 2,036 sq. ft. &amp; energy saving options galore.  Acreage is all fenced with a steel workshop &amp; 10 additional acres available per owner.  Judith Hallowell is co-listing agent.</house_description>
+
+<school_district>Tolar</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>2036</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>5</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>5 Acre Ranchette</item>
+<item>2,036 Sq. Ft. &amp; Energy Saving Options</item>
+<item>Acreage All Fenced &amp; Steel Workshop</item>
+<item>Ad # 548</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

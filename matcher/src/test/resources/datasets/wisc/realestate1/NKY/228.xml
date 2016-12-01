@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>3090 HATHAWAY</house_location>
+<price>$359,900</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>4 Cars (Attached,Builtin,Oversized,Heated)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249190</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LAURA SANDERS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*WHAT A SETTING! 8 PREMIUM
+ACRES* STOCKED LAKE*FIN LL*JACUZZI*MARBLE F/P*4-CAR GARAGE + 24X36
+POLE BARN*SWING AND WINDOW TREATMENTS NOT INCLUDED*SELLER REQUESTS
+EXTENDED OCCUPANCY</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>12 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>17 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>19 X 17</dimension><level>1</level></living>
+<master><dimension>16 X 14</dimension><level>1</level></master>
+<recreation_room><dimension>12 X 18</dimension><level>L</level></recreation_room>
+<study><dimension>16 X 14</dimension><level>L</level></study>
+
+<directions>S ON 42 R ON HATHAWAY (536) 2-3/4 MILES ON RIGHT</directions>
+</house_listing>
+
+
+

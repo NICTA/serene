@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>MARVIN GERBER</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 130</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11855</id>
+<mls>80649</mls>
+<house_location>9809 RICHMOND #G-13
+Houston, TEXAS 77042</house_location>
+<county>Harris</county>
+<price>$38,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>EXTRA CLEAN UPPER WTO BEDROOM, TWO BATH UNIT AT ELM GROVE. GATED CONDO  COMMUNITY, FRESH PAINT, CLEAN CARPET, EXTRA HIGH CEILING IN LARGE LIVING ROOM AND DINING ROOM COMBO. VERTICAL AND MINI BLINDS, GREENHOUSE WINDOW, NICE BALCONY. STACK WASHER DRYER AND REFRIGERATOR  INCLUDED.</house_description>
+
+<school_district>Hisd</school_district>
+<sub-division>Elm Grove</sub-division>
+<approx_size_sqft>10880</approx_size_sqft>
+<stories>1</stories>
+<year_built>1977</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>EXTRA CLEAN UPPER UNIT CONDO</item>
+<item>GATED COMMUNITY</item>
+<item>FRESH PAINT, CLEAN CARPET , WASHER/DRYER, FRIDGE</item>
+<item>HIGH CEILINGS WITH BALCONY</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

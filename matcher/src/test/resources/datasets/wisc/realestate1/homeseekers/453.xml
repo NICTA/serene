@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1992 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage. Rooms include family room,
+master bedroom. Features include view, patio.</house_description>
+
+<agent_name>Kay Bierley</agent_name>
+<office>480-592-9600</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>480-592-9600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$182,900</list_price>
+<location>Phoenix, AZ 85048</location>
+<mls>1438827</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dining/Living Combo,Dishwasher, Eat In Kitchen, Loft, Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

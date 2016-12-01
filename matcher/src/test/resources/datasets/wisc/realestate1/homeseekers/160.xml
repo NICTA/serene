@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 3+ level attached townhouse built in 1910 has 9 bedroom(s), 5
+bath(s) . Rooms include living room, master bedroom. Features include
+air conditioning.</house_description>
+
+<agent_name>Earl Wynn</agent_name>
+<direct>202-397-3051</direct>
+<office>202-364-5200</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>202-364-5200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$215,000</list_price>
+<location>Washington, DC 20001</location>
+<mls>DC3086001</mls>
+<status>Active</status>
+<bedrooms>9</bedrooms>
+<baths>5</baths>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<lot_size>1800</lot_size>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

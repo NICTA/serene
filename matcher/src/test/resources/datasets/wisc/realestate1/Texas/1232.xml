@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stewart Martin</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>smartin@express-news.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17622</id>
+<mls>311042</mls>
+<house_location>401 Lori Lynn
+Schertz, TEXAS 78154</house_location>
+<county>Guadalupe</county>
+<price>$67,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Two story home. Fresh paint, recently installed carpet, vinyl parquet tiles, new GE stove, new GE dishwasher. Hunter ceiling fans in all rooms.  Big master bedroom, two closets, and balcony.  One car garage plus detached building with finished office, 220V power, 2 telephone lines, computer network cables, plus additional storage/workshop area.</house_description>
+
+<school_district>Schertz-cibolo</school_district>
+<sub-division>Parkland Village</sub-division>
+<approx_size_sqft>1228</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Upstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

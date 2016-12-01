@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1971 has 2 bedroom(s), 2 bath(s) , 1 car
+attached garage and approximately 1271 square feet of living area.
+Features include air conditioning.</house_description>
+
+<agent_name>Anete Bonan</agent_name>
+<direct>305-306-6177</direct>
+<office>305-899-2100</office>
+<firm_name>C-21 Allstate Rlty C-21 Allstate Rlty
+Lic. Real Estate Broker</firm_name>
+<phone>305-899-2100</phone>
+<fax>305-891-4121</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$135,000</list_price>
+<location>6039 Collins Av #1205</location>
+<neighborhood>Maison Grande Condo</neighborhood>
+<mls>M758238</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1271 (approx)</square_feet>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Foyer, Pantry, Smoke Detector, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

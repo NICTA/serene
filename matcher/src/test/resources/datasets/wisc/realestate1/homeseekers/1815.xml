@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level home built in 1962 has 1 bedroom(s), 1 bath(s) and
+approximately 650 square feet of living area. Rooms include master
+bedroom. Features include air conditioning.</house_description>
+
+<agent_name>Joan Carmichael</agent_name>
+<direct>202-484-0146</direct>
+<office>202-547-5600</office>
+<firm_name>RE/MAX Capitol Properties</firm_name>
+<phone>202-547-5600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$22,000</list_price>
+<location>Washington, DC 20024</location>
+<mls>DC2654911</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>CoOp</type>
+<square_feet>650 (approx)</square_feet>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

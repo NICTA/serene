@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Conroe-Lake Conroe</name>
+<location>12603 Highway 105 West, Suite 100 Conroe, TX 77304</location>
+<office>(409)588-1177</office>
+<toll_free></toll_free>
+<fax>(409)447-1178</fax>
+<voice_mail>(409)447-1177 228</voice_mail>
+<email>remaxconroe@flex.net</email>
+</firm_information>
+
+<agent_information>
+<name>Pat Wilson</name>
+<office>(409)588-1177</office>
+<fax>(409)447-1178</fax>
+<voice_mail>(409)588-1177 223</voice_mail>
+<mobile>(409)525-0009</mobile>
+<email>pwilson@flex.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12851</id>
+<mls>154041</mls>
+<house_location>1 Tiki Way
+Montgomery, TEXAS 77356</house_location>
+<county>Montgomery</county>
+<price>$584,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Million $$ View of beautiful Lake Conroe! Increditable single story home on over an acre! Formal living and formal dining room with see thru fireplace, and wet bar. Enter the gourmet kitchen to find a sub-zero refrigerator and a sub-zero freezer, corain counter tops, walk-in pantry, profile appliances, lots of custom cabinets and more. Huge family room and breakfast room, four bedrooms,  surround sound system, three car garage with built in cabinets, Award winning pool, Boat house with lift and lift for waver runner, Increditable view from almost every room. This is a must see. You will not fi</house_description>
+
+<move-in_date>12/15/98</move-in_date>
+<school_district>Montgomery</school_district>
+<approx_size_sqft>3852</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1 + acre</approx_lot_size>
+<approx_acres>1</approx_acres>
+<year_built>1991</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<waterfront>Yes</waterfront>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Waterfront with Increditable View</item>
+<item>Single Story on over and Acre</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

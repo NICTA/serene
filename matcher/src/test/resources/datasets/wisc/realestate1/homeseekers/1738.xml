@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1945 has 2 bedroom(s), 2
+bath(s) , 1 car garage and approximately 1771 square feet of living
+area. Features include patio, fireplace, storage space.</house_description>
+
+<agent_name>Joan Caruso</agent_name>
+<direct>520-886-9898</direct>
+<office>520-577-7433</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-577-7433</phone>
+<fax>520-577-5417</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$129,900</list_price>
+<location>1220 N Tucson Blvd #A &amp; B</location>
+<mls>2001393</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>1771 (approx)</square_feet>
+<lot_size>60X120</lot_size>
+<year_built>1945</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

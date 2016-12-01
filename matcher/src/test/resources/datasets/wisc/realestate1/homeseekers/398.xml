@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1994 has 4 bedroom(s), 3
+bath(s) , 2 car garage and approximately 3191 square feet of living
+area. Rooms include den, dining room, bonus room, master bedroom.
+Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Roger Grant CRS</agent_name>
+<direct>520-907-2872</direct>
+<office>520-721-1478</office>
+<firm_name>Real Estate Marketing Profe</firm_name>
+<phone>520-721-1478</phone>
+<fax>520-721-9301</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$372,000</list_price>
+<location>6301 N Calle Del Venado</location>
+<mls>9921587</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>3191 (approx)</square_feet>
+<lot_size>53X110X73X112</lot_size>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

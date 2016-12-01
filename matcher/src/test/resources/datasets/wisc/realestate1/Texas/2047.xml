@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21208</id>
+<mls>9129500</mls>
+<house_location>2 Sunset Drive
+Morgan, TEXAS 76671</house_location>
+<county>Bosque</county>
+<price>$179,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Custom Log Home!  This log home has open living, kitchen and dining, woodburning fireplace, large open loft, wrap around porch, screedned in upstairs porch, wall of glass that offers of great lake view and is great for watching the wildlife.  Access to Cedar Shores boat ramp and dock.</house_description>
+
+<move-in_date>12/17/99</move-in_date>
+<school_district>Morgan</school_district>
+<sub-division>Cedar Shores</sub-division>
+<approx_size_sqft>1225</approx_size_sqft>
+<stories>2</stories>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Lake Access</item>
+<item>Log Home</item>
+<item>Wrap Around Porch</item>
+<item>Wooden Deck</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

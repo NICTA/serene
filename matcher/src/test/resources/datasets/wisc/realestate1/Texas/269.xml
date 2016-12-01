@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Markgraf</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19341</id>
+<mls>52383</mls>
+<house_location>610 airview
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$75,500</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>zoned commercial/resdentail 3 +/- acres with large storage/ shop building, large carport, one bedroom one bath apt., out buildings plus more</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_lot_size>3 +/- acres</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>4</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>large storage</item>
+<item>three acres</item>
+<item>good building site</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

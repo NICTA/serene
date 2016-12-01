@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>204 FIELDGATE</house_location>
+<price>$159,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248507</mls>
+<house_type>Condominium</house_type>
+<firm>NOLL REALTY</firm>
+<firm_phone>(606) 331-2470</firm_phone>
+<agent>ROBERT A NOLL</agent>
+<agent_phone>(606) 331-2470</agent_phone>
+<house_description>CALL JANET MOXLEY AT 384-9700 TO SHOW MODEL HOURS 11-5 MON-FRI 12-5
+SAT-SUN CUSTOM SELECTIONS AVAILABLE</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>150</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<breakfast><dimension></dimension><level>1</level></breakfast>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>18 X 25</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+<study><dimension>20 X 15</dimension><level>2</level></study>
+
+<directions>I 75 TO US 42 SOUTH TO RIGHT ON FARMVIEW TO
+RIGHT ON FIELDGATE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This condominium built in 1962 has 2 bedroom(s), 3 bath(s) , 2 car
+garage and approximately 1496 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Katia Logan</agent_name>
+<direct>866-6163</direct>
+<office>866-6163</office>
+<firm_name>Katia Logan, Lic R
+Lic. Real Estate Broker</firm_name>
+<phone>866-6163</phone>
+<fax>305-866-7638</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$270,000</list_price>
+<location>5415 Collins Av #PH-C</location>
+<neighborhood>Galeria Condo</neighborhood>
+<mls>M768605</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>3</baths>
+<garage>2</garage>
+<type>Condominium</type>
+<square_feet>1496 (approx)</square_feet>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

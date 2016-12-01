@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This home built in 1950 has 1 bedroom(s), 1 bath(s) and approximately
+800 square feet of living area. Features include private pool, air
+conditioning.</house_description>
+
+<agent_name>Susan Weitz</agent_name>
+<direct>305-672-7578</direct>
+<office>305-531-6929</office>
+<firm_name>Buy The Beach Real
+Lic. Real Estate Broker</firm_name>
+<phone>305-531-6929</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$45,000</list_price>
+<location>4710 Pinetree Dr #39</location>
+<neighborhood>Esquire House Of Miami Be</neighborhood>
+<mls>D892367</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>CoOp</type>
+<square_feet>800 (approx)</square_feet>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Wall Unit</heating>
+<location>Lake front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

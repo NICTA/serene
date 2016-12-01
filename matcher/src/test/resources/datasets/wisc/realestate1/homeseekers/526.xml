@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1964 has 3 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1500 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Rosa Scaff</agent_name>
+<direct>305-858-9474</direct>
+<office>305-530-1900</office>
+<firm_name>Daniels Group, Inc
+Lic. Real Estate Broker</firm_name>
+<phone>305-530-1900</phone>
+<fax>305-530-8383</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$289,500</list_price>
+<location>5333 Collins Av #701</location>
+<neighborhood>La Costa Condo</neighborhood>
+<mls>M770893</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1500 (approx)</square_feet>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Intracoastal, Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ocean Access, Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

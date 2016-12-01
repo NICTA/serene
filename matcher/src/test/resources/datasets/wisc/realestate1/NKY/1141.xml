@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>226 REDWOOD</house_location>
+<price>$110,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>BRENTWOOD</suburb>
+<school_dist>GRANT</school_dist>
+<mls>250314</mls>
+<house_type>Single Family</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>MIKE MELTON</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>NEW HOME,3 BATHS, STILL TOME TO CHOOSE COLORS, SEVERAL UPGRADES, ROOM
+SIZES MAY VARY</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>B</level></bath_3>
+<bedroom_2><dimension>9 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>9 X 11</dimension><level>1</level></dining>
+<family><dimension>12 X 22</dimension><level>B</level></family>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 18</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level>1</level></master>
+
+<directions>DRY RIDGE EX L THEN R ON US25 R INTO BREN TWOOD
+L ON REDWOOD</directions>
+</house_listing>
+
+
+

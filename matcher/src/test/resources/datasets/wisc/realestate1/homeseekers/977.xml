@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1971 has 4 bedroom(s), 2 bath(s) and
+approximately 1580 square feet of living area.</house_description>
+
+<agent_name>Andy Ahroon</agent_name>
+<direct>303-791-6808</direct>
+<office>303-740-8100</office>
+<firm_name>Mb-Andy Ahroon &amp; Co.</firm_name>
+<phone>303-740-8100</phone>
+<fax>303-770-8844</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$189,900</list_price>
+<location>3065 S Elmira Ct</location>
+<neighborhood>Hampden Heights E</neighborhood>
+<mls>380961</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1580 (approx)</square_feet>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

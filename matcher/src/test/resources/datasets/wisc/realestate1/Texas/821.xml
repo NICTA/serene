@@ -1,0 +1,46 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stauffer John E.</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<email>jstauffer@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20661</id>
+<mls>6243</mls>
+<house_location>Lot 71 Balldy Mountain Court
+Canyon Lake, TEXAS 78130</house_location>
+<county>Comal</county>
+<price>$22,500</price>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>1 Acre HomesiteRestricted SubdivisionNorthside of LakeLocated on CudesacPaved Street With Water View of Canyon Lake</house_description>
+
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>View of Canyon Lake</item>
+<item>Restricted Area</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

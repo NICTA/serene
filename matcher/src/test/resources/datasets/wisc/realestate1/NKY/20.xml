@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>37 SNAG CREEK RD</house_location>
+<price>$79,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>3 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Side)</garage>
+<suburb>FOSTER</suburb>
+<school_dist>BRACKEN</school_dist>
+<mls>246213</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 654-3400</firm_phone>
+<agent>NANCY W CROTTY</agent>
+<agent_phone>(606) 654-3400</agent_phone>
+<house_description>3 BEDROOM HOME ON THE OH RIVER. SIT ON THE BACK PORCH &amp; ENJOY THE
+VIEW. FISH OR SWIM FROM YOUR BACK YARD. HOUSE HAS NEVER FLOODED. CLOSE
+TO AA AND RT 8.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Insert</fireplace>
+<gas>None</gas>
+<water>Wellwater</water>
+<sewer>Septic</sewer>
+<lot_dimensions>00</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>10 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 16</dimension><level>3</level></bedroom_3>
+<family><dimension>21 X 14</dimension><level>1</level></family>
+<kitchen><dimension>19 X 12</dimension><level>1</level></kitchen>
+<living><dimension>11 X 11</dimension><level>2</level></living>
+<master><dimension>10 X 13</dimension><level>2</level></master>
+
+<directions>AA TO L ON 1109 L ON #8 L ON SNAG CREEK RIGHT
+BEFORE COXY'S BAR 2ND HSE ON LEFT.</directions>
+</house_listing>
+
+
+

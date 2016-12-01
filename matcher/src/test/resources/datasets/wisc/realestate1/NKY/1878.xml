@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>685 SWANEE SHORES</house_location>
+<price>$59,900</price>
+<rooms>3</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>WMSTOWN</school_dist>
+<mls>248666</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>GREG HICKS</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>SEASONAL CABIN WITH OVER 200 FT OF LAKE WILLIAMSTOWN FRONTAGE. PRIVATE
+SETTING. BOAT DOCK. CALL GREG HICKS.REALTOR.COM</house_description>
+<construction>Wood</construction>
+<heating>Electric,Space Heater</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>None</water>
+<sewer>Septic</sewer>
+<lot_dimensions>LAKEFRONT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<kitchen><dimension>8 X 11</dimension><level>1</level></kitchen>
+<living><dimension>10 X 12</dimension><level>1</level></living>
+<master><dimension>10 X 22</dimension><level>1</level></master>
+
+<directions>I-75 S EXIT 154 L TO L ON US25N TO R KY22 EAST
+1.5 MILE TO L HWY489 TO L SWANEE S</directions>
+</house_listing>
+
+
+

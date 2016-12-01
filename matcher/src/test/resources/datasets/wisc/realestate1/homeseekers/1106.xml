@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1928 has 2 bedroom(s), 1
+bath(s) , 1 car detached garage and approximately 840 square feet of
+living area. Rooms include dining room. Features include patio,
+fireplace.</house_description>
+
+<agent_name>Cyan Parrish</agent_name>
+<direct>509-536-2926</direct>
+<firm_name>
+RE/MAX Citywide RE/MAX Citywide</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$71,500</list_price>
+<location>1117 Carlisle</location>
+<mls>9926981</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<style>Bungalow</style>
+<square_feet>840 (approx)</square_feet>
+<lot_size>50X120</lot_size>
+<year_built>1928</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Oil</heating>
+<fireplace>Wood-burning</fireplace>
+<patio>Patio</patio>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Garage Door Opener, Hardwood Flooring, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

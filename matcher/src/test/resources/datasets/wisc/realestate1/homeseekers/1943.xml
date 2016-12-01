@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 3 bedroom(s), 2 bath(s) and
+approximately 1725 square feet of living area. Features include view,
+air conditioning.</house_description>
+
+<agent_name>Justine Jimenez Ga</agent_name>
+<office>305-264-6660</office>
+<firm_name>Countywide Propert
+Lic. Real Estate Broker</firm_name>
+<phone>305-264-6660</phone>
+<fax>305-264-6911</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$114,000</list_price>
+<location>2 NW 111 St</location>
+<neighborhood>Miami Shores Ext</neighborhood>
+<mls>M759161</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1725 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Wall Unit</heating>
+<pool>No</pool>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

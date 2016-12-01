@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21419</id>
+<mls>15303</mls>
+<house_location>1407 Preston Trail
+in South Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$139,950</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Wow!  That's right!  Look no further, this is the one.  Beautiful new Italian Tile is through the house.  The bedrooms have a lovely colored carpet that is sure to capture your attention.  Big back yard for great family fun.  Master bedroom and bath area MUST see!  High ceilings with ceiling fans are just a few of the amenities this home offers.  Home Warranty offered for this gorgeous home.This one is truly beautiful!  Come by and take a look.  You won't regret it!</house_description>
+
+<school_district>Stuart Place</school_district>
+<sub-division>Country Club Estates</sub-division>
+<approx_size_sqft>2200</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>80 x 125</approx_lot_size>
+<year_built>1993</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Gorgeous Neighborhood</item>
+<item>Truly Beautiful Home</item>
+<item>Lovely Back Yard</item>
+<item>A Home to fall in love with....</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

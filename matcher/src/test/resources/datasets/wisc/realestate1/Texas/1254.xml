@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jay Horton</name>
+<office>(512)833-3586</office>
+<fax>(512)836-2349</fax>
+<voice_mail>(512)426-2189</voice_mail>
+<mobile>(512)426-2189</mobile>
+<email>jjhorton@prismnet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20664</id>
+<mls>523995</mls>
+<house_location>20900 Pacers Gait Lane
+in North Pflugerville, TEXAS 78660</house_location>
+<county>Travis</county>
+<price>$119,990</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Light &amp; Open Kitchen, Living &amp; Dining Areas! 42&amp;quot; Cabinets, Tile Backsplash! Pantry in Kitchen! Walk-In Closet, Double Vanity &amp; Separate Shower in Master Suite!</house_description>
+
+<school_district>Pflugerville</school_district>
+<sub-division>Steeds Crossing</sub-division>
+<approx_size_sqft>1942</approx_size_sqft>
+<stories>1</stories>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Mother-In-Law Floor Plan! Crown Molding!</item>
+<item>Indoor Utility w/ Cabinets &amp; Shelves!</item>
+<item>Huge Breadfast Bar!</item>
+<item>Tile Floors!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

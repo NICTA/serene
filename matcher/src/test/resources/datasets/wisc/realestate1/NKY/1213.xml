@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>0 BX 174,HWY 467</house_location>
+<price>$445,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Rear,Oversized)</garage>
+<suburb>0</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>250255</mls>
+<house_type>Farms</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>COUNTRY PARADISE! 100 ACRE SITE IS ONLY 10 MILES TO NEW NASCAR
+RACETRACK!! 25 MILES TO FLORENCE,40 MLS TO CINTI.HAS 2 NEWER
+HOMES*CAPE COD &amp; DBLEWIDE 2 PONDS*LG 48 X 140 TOBACCO BARN*OTHER
+BLDGS*1/2 MILE RD FRONTAGE*TOB BASE</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Brick</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG.</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>23 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>22 X 13</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 12</dimension><level>1</level></dining>
+<family><dimension>12 X 12</dimension><level>1</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 5</dimension><level>1</level></laundry>
+<living><dimension>23 X 13</dimension><level>1</level></living>
+<master><dimension>22 X 14</dimension><level>1</level></master>
+
+<directions>SO I-71 TO GLENCOE EXIT,LT HWY 127 TO GEN
+STORE,LT HWY 467 .8 MILE TO PROPERTY</directions>
+</house_listing>
+
+
+

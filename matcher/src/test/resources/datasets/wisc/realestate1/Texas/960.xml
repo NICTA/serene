@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tomie Cardenas</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<voice_mail>(361)985-7676</voice_mail>
+<email>tomie jean@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20272</id>
+<mls>140675</mls>
+<house_location>1400 Ocean Drive #202A
+Corpus Christi, TEXAS 78404</house_location>
+<county>Nueces</county>
+<price>$185,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautifully remodeled 2/2 condo with lovely open floor plan, large master bedroom with exit it deck which has a view of the bay and downtown Corpus Christi facing east. Beautiful morning sunrise! New top of the line appliances, new hot water heater, Very good condition.</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Marina Del Sol</sub-division>
+<approx_size_sqft>1573</approx_size_sqft>
+<stories>1</stories>
+<year_built>1981</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Ocean &amp; downtown views</item>
+<item>Open floor plan</item>
+<item>Security</item>
+<item>Many amenities</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

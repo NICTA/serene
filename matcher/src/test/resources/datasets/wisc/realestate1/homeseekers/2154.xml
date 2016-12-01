@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1945 has 1 bedroom(s). Rooms include
+master bedroom. Features include private pool, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Alvin L. Battle</agent_name>
+<office>602-278-8029</office>
+<firm_name>Battle Realty</firm_name>
+<phone>602-278-8029</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$20,000</list_price>
+<location>Phoenix, AZ 85040</location>
+<mls>1440468</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<type>Single Family</type>
+<year_built>1945</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<pool>Yes</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Eat In Kitchen
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

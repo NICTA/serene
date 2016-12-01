@@ -1,0 +1,56 @@
+<house_listing>
+<house_location>110 STANBERY RIDGE</house_location>
+<price>$1,250,000</price>
+<rooms>14</rooms>
+<bedrooms>5</bedrooms>
+<baths>5-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>248257</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARB MASSMAN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>9+ ACRES OVERLOOKING RIVER &amp; AIRPORT, 5 BEDROOMS, 5 BATHS, BUILT TO
+ENTER- TAIN AND RAISE FAMILY, NEW KITCHEN, WRAP AROUND DECK TO ENJOY
+RIVER VIEW &amp; WATCH DEER &amp; WILD BIRDS, SPACIOUS ROOMS, CALL FOR A LIST
+OF AMENITIES</house_description>
+<construction>Brick</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Private</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>2</level></bath_4>
+<bedroom_2><dimension>14 X 17</dimension><level>3</level></bedroom_2>
+<bedroom_3><dimension>14 X 17</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 15</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>10 X 14</dimension><level>2</level></bedroom_5>
+<breakfast><dimension>15 X 33</dimension><level>1</level></breakfast>
+<dining><dimension>16 X 20</dimension><level>1</level></dining>
+<family><dimension>12 X 27</dimension><level>1</level></family>
+<kitchen><dimension>14 X 32</dimension><level>1</level></kitchen>
+<laundry><dimension>16 X 22</dimension><level>L</level></laundry>
+<living><dimension>17 X 31</dimension><level>1</level></living>
+<master><dimension>16 X 21</dimension><level>2</level></master>
+<recreation_room><dimension>27 X 28</dimension><level>L</level></recreation_room>
+<study><dimension>14 X 18</dimension><level>1</level></study>
+
+<directions>NORTH ON FT THOMAS PAST COVERT RUN-RIGHT ON
+STANBERY RIDGE</directions>
+</house_listing>
+
+
+

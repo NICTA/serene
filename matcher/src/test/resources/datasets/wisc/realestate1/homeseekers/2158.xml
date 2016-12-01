@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1924 has 2 bedroom(s), 1 bath(s) and
+approximately 970 square feet of living area.</house_description>
+
+<agent_name>Bobbi Lou Miller</agent_name>
+<direct>303-337-6300</direct>
+<office>303-290-0074</office>
+<firm_name>Best Properties Ltd</firm_name>
+<phone>303-290-0074</phone>
+<fax>303-290-0079</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$249,900</list_price>
+<location>612 Humboldt St</location>
+<neighborhood>Country Club</neighborhood>
+<mls>385415</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>970 (approx)</square_feet>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

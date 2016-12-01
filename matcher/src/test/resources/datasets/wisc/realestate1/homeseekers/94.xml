@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1981 has 3 bedroom(s), 4
+bath(s) and approximately 3520 square feet of living area. Rooms
+include den, dining room, bonus room, master bedroom. Features include
+view, patio, fireplace, storage space.</house_description>
+
+<agent_name>Alexandra Maher</agent_name>
+<direct>520-760-7777</direct>
+<office>520-577-7433</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-577-7433</phone>
+<fax>520-577-5417</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$320,000</list_price>
+<location>9800 E Millmar Rd</location>
+<mls>2001311</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>4</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>3520 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Forced Air</heating>
+<fireplace>Den, Family Room, Living Room, Master Bedroom</fireplace>
+<patio>Covered, Screened-in</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

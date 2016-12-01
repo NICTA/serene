@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Very well kept 2nd floor condo. Newer carpet. Fresh paint- 2 master
+suites, cathedral ceilings- call agent to show!</house_description>
+
+<agent_name>Valarie Baker</agent_name>
+<direct>717-8403</direct>
+<office>757-490-7300</office>
+<firm_name>RE/MAX Central Realty RE/MAX Central Realty</firm_name>
+<phone>757-490-7300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$55,000</list_price>
+<location>Virginia Beach, VA 23456</location>
+<mls>9922984</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<style>Cluster</style>
+<square_feet>904 (approx)</square_feet>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Cathedral/Vaulted Ceilings, Club House, Pantry, StorageSpace, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

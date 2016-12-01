@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>710 BRACHT PINER</house_location>
+<price>$123,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>PINER</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249903</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>DEBORAH L WEILER</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>GREAT 3 BEDROOM RANCH. NEW CARPET AND FRESHLY PAINTED! IMMEDIATE
+POSSESSION ONE ACRE. HOME WARRANTY INCLUDED. CO-LISTER LINDA KREIDLER
+(395-3576)</house_description>
+<construction>Brick,Alum</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>13 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<living><dimension>21 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>75 S TO WALTON, EXIT L TO 25, R ON 25 TO L ON
+BRACHT PINER</directions>
+</house_listing>
+
+
+

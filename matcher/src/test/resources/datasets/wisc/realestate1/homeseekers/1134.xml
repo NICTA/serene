@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1985 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1819 square feet of living
+area. Rooms include dining room. Features include view, patio,
+fireplace, air conditioning.</house_description>
+
+<agent_name>Randy Gossett</agent_name>
+<direct>520-419-8722</direct>
+<office>520-797-4220</office>
+<firm_name>Tucson Realty &amp; Trust Co Tucson Realty &amp; Trust Co</firm_name>
+<phone>520-797-4220</phone>
+<fax>520-797-4221</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$119,900</list_price>
+<location>4041 W Hardy Rd</location>
+<mls>2001165</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1819 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric, Forced Air</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

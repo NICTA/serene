@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>523 4TH</house_location>
+<price>$48,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>246697</mls>
+<house_type>Single Family</house_type>
+<firm>KAISER REALTY</firm>
+<firm_phone>(606) 261-5102</firm_phone>
+<agent>DAVID KAISER</agent>
+<agent_phone>(606) 261-5102</agent_phone>
+<house_description>CLEAN WELL KEPT AND UPDATED</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>26x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>8 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>8 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>12 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>6TH AV L ON MCKINNEY, R ON 4TH</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1942 has 2
+bedroom(s), 1 bath(s) , 2 car detached garage and approximately 1257
+square feet of living area. Rooms include living room. Features
+include patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Roland Soo Hoo</agent_name>
+<direct>626-455-1228</direct>
+<office>626-810-6660</office>
+<firm_name>Coldwell Banker George Realty Coldwell Banker George Realty</firm_name>
+<phone>626-810-6660</phone>
+<fax>626-455-1228</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$250,000</list_price>
+<location>923 White Knoll Dr</location>
+<mls>H907673</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1257 (approx)</square_feet>
+<lot_size>3850</lot_size>
+<year_built>1942</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Living Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Home Warranty
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

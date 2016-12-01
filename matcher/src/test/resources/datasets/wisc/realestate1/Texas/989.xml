@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Jeanette Shelby Real Estate</name>
+<location>101 W. 1st Street, Suite D Elgin, TX 78621</location>
+<office>(512)281-3412</office>
+<toll_free>(800)231-5289</toll_free>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeanette Shelby</name>
+<office>(512)285-5289</office>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19527</id>
+<mls>519765</mls>
+<house_location>2462 FM Rd 1704
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$109,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>This home in the country is built of stone and cedar. It is situated on just over 5 acres.It needs some fix-up, but has great potential.</house_description>
+
+<school_district>Elgin</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1456</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>5</approx_acres>
+<year_built>1980</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>30 minutes from Austin.</item>
+<item>Pond</item>
+<item>Wet weather creek.</item>
+<item>Partially fenced.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

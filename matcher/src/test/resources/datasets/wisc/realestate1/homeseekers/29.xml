@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1948 has 2 bedroom(s), 1 bath(s) and
+approximately 1057 square feet of living area.</house_description>
+
+<agent_name>Mary L Singleton</agent_name>
+<direct>303-333-3528</direct>
+<office>303-329-8210</office>
+<firm_name>Parker &amp; Associate R</firm_name>
+<phone>303-329-8210</phone>
+<fax>303-329-0094</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$127,000</list_price>
+<location>2835 N Newport St</location>
+<neighborhood>Park Hill N</neighborhood>
+<mls>373367</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1057 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rick Townsend</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19898</id>
+<mls>9037209</mls>
+<house_location>1436 Chisholm Trail (Ad # 254)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$172,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Waterfront, pool, 2 levels, 3 car garage &amp; covered decks.  Lovely view from master bedroom to the lights of Granbury, Comanche Peak &amp; Lake Granbury.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Indian Harbor</sub-division>
+<approx_size_sqft>2221</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>273x95x48x87x160x121</approx_lot_size>
+<approx_acres>0.5</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<waterfront>Yes</waterfront>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Waterfront Home</item>
+<item>View of Lake, Granbury, Comanche Peak</item>
+<item>Pool, Deck &amp; 3 Car Garage</item>
+<item>Ad # 254</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

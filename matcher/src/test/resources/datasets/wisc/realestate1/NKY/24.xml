@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2246 WILLOW LENEX</house_location>
+<price>$69,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin,Side,Oversized)</garage>
+<suburb>BROOKSVILLE</suburb>
+<school_dist>BRACKEN</school_dist>
+<mls>247872</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>MINDY STICKLEN</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>COULD BE MADE INTO MULTI FAMILY OOR MULTI BUSINESSES LIVE ABOVE YOUR
+OWN STORE BUT ENJOY THE COUNTRY LIFE. OWNER SAYS SELL! POSSIBLE LIQUOR
+LIC. AVAILABLE.</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>B</level></bath_2>
+<bedroom_2><dimension></dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>2</level></bedroom_3>
+<breakfast><dimension></dimension><level>2</level></breakfast>
+<dining><dimension></dimension><level>2</level></dining>
+<kitchen><dimension></dimension><level>2</level></kitchen>
+<living><dimension></dimension><level>2</level></living>
+<master><dimension></dimension><level>2</level></master>
+
+<directions>AA HWY TO RT 1109. LEFT ON 10 GO 2 MILES
+PROPERTY ON RIGHT</directions>
+</house_listing>
+
+
+

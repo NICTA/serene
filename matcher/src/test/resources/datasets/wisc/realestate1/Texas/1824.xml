@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Golf Land Realtors</name>
+<location>602 Texas Parkway Missouri City, TX 77489</location>
+<office>(281)499-9935</office>
+<toll_free>(800)308-9248</toll_free>
+<fax>(281)499-9735</fax>
+<voice_mail>(281)775-9642</voice_mail>
+<email>valorelott@worldnet.att.net</email>
+</firm_information>
+
+<agent_information>
+<name>Valore Lott</name>
+<office>(281)499-9935</office>
+<fax>(281)499-9735</fax>
+<voice_mail>(281)775-9643</voice_mail>
+<mobile>(713)304-5133</mobile>
+<email>valorelott@woldnet.att.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12407</id>
+<mls>156064</mls>
+<house_location>13442 Clarewood
+Houston, TEXAS 77071</house_location>
+<county>Harris</county>
+<price>$68,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Delightful 3/2/2 located in Alief School District.  Seller has prepared for new owners by freshly painting interior.  Easy to maintain tile flooring in kitchen &amp; breakfast room.  Courtyard off breakfast area nice for your plants!  Double closets in the master suite bath.  Sunken family room with lots of built-in bookshelves &amp; fireplace.  Ready for move-in!   Call Today! </house_description>
+
+<school_district>Alief</school_district>
+<sub-division>Pheasant Run</sub-division>
+<approx_size_sqft>1600</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Delightful patio home</item>
+<item>Located in popular Alief ISD</item>
+<item>Sunken Family Room</item>
+<item>Tile Flooring</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

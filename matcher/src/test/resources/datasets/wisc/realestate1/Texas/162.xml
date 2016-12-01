@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>KAREN COBURN</name>
+<office>(512)794-9292</office>
+<fax>(512)339-0202</fax>
+<voice_mail>(512)339-9640</voice_mail>
+<email>kcoburn@texas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15289</id>
+<mls>498376</mls>
+<house_location>2401 Claudia June Ave
+Austin, TEXAS</house_location>
+<county>Travis</county>
+<price>$84,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Charming MIL plan. Totally Upgraded. Hard tile in Entrance Hall. Custom Fireplace Mantle. Porceline sink in kitchen. Must SEE, Call Karen Coburn for more details 339-9640 or 794-9292 ext 133</house_description>
+
+<sub-division>Wells Branch</sub-division>
+<approx_size_sqft>1028</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Many UpGrades</item>
+<item>Custom Fireplace Mantle</item>
+<item>MIL Plan</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

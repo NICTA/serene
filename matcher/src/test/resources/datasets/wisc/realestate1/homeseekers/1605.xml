@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1924 has 2
+bedroom(s), 1 bath(s) , 1 car detached garage and approximately 780
+square feet of living area. Rooms include dining room, living room.
+Features include view, patio.</house_description>
+
+<agent_name>Mauro Garcia</agent_name>
+<office>323-254-0763</office>
+<firm_name>Inca Real Estate</firm_name>
+<phone>323-254-0763</phone>
+<fax>213-000-0000</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$140,000</list_price>
+<location>3000 Tillie St</location>
+<mls>G905238</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>780 (approx)</square_feet>
+<lot_size>5500</lot_size>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Living Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

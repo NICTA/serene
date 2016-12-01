@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jeff McSpadden</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18373</id>
+<mls>9083454</mls>
+<house_location>8511 Westover #240 (Ad # 447)
+Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$68,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nice condo on golf course side of complex in Pecan Plantation.  Comes with golf cart stroage stall.  Won't last long!  $1,000 paint allowance.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Pecan Plantation</sub-division>
+<approx_size_sqft>1112</approx_size_sqft>
+<stories>1</stories>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Community pool, park, and campgrounds</item>
+<item>Community clubhouse with resturant</item>
+<item>Guarded/gated community</item>
+<item>inquire about #447</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

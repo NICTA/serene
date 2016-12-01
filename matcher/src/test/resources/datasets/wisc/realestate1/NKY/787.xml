@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>5043 PLEASANT RIDGE</house_location>
+<price>$183,500</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL CT</school_dist>
+<mls>249347</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>PAM LORENZ</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>PRIVACY GALORE!12000 GAL CISTERN, SOLID OAK PEGGED DINING RM FL, GREAT
+CLOSET SPACE, MUST SEE THIS IMMACULATE HOME. SECLUDED PARK LIKE
+LOT.PERFECT FOR THOSE FAMILY GET TOGETHERS, WATER PUMP AT TOP OF DRIVE
+NOT INCL.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert,Brick</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Aerobic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 8</dimension><level>2</level></bedroom_4>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>20 X 12</dimension><level>1</level></family>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<living><dimension>14 X 11</dimension><level>1</level></living>
+<master><dimension>17 X 12</dimension><level>2</level></master>
+
+<directions>US27 TO WEST ON LICKERT, SOUTH ON 915, WE ST ON
+PLEASANT RDG (2 MI PAST VISALIA BRD</directions>
+</house_listing>
+
+
+

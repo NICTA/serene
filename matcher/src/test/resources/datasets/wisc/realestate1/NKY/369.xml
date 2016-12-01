@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>174 W DILCREST</house_location>
+<price>$199,900</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250325</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>PATTY COSLETT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*ALL BRICK CUST BLT*OVER 2 CAR ATT GAR*LG KIT W/EAT AREA W/O TO DECK
+OVER LG LEVEL FENC YD*LG FR W/WBFP W/WALKOUT TO PATIO*BATH OFF OWN STE
+W/SITTING RM &amp; 3 LG CLOSETS*EX INSUL*TORO IRR SYS*SEC SYS*POSS 1ST FLR
+LAUN*WORK SHOP</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>L</level></bedroom_3>
+<breakfast><dimension>11 X 8</dimension><level>1</level></breakfast>
+<dining><dimension>15 X 12</dimension><level>1</level></dining>
+<family><dimension>21 X 16</dimension><level>L</level></family>
+<kitchen><dimension>11 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>15 X 10</dimension><level>L</level></laundry>
+<living><dimension>21 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+<study><dimension>13 X 10</dimension><level>1</level></study>
+
+<directions>US42 TO L ON DILCREST TO R ON N. DILCREST TO L
+ON W. DILCREST</directions>
+</house_listing>
+
+
+

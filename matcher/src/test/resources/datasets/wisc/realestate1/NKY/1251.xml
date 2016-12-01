@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>1288 CONSTITUTION</house_location>
+<price>$112,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON CO.</school_dist>
+<mls>248193</mls>
+<house_type>Single Family</house_type>
+<firm>PREFERRED PROPERTIES</firm>
+<firm_phone>(606) 371-4777</firm_phone>
+<agent>BRITT LANGMAN</agent>
+<agent_phone>(606) 371-4777</agent_phone>
+<house_description>CHARMING TRI-LEVEL WITH QUIET COUNTRY SETTING* NEWLY PROFESSIONALLY
+PAINTED*NEWER CARPET *BUILT-IN ENTERTAINMENT CENTER*VAULTED
+CEILING*NEUTRAL COLORS*PROFESSIONALLY LANDSCAPED**PARK &amp; GOLF COURSE
+NEARBY**A MUST SEE!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>see plat</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>13 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>14 X 12</dimension><level>1</level></dining>
+<family><dimension>18 X 12</dimension><level>L</level></family>
+<kitchen><dimension>12 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>22 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>2</level></master>
+
+<directions>TURKEYFOOT TO CODY TO R ON FLAGSTONE TO R ON
+CONSTITUTION.</directions>
+</house_listing>
+
+
+

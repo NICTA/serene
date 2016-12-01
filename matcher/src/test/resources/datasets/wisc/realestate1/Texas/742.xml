@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Syble Pannell</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18265</id>
+<mls>9076785</mls>
+<house_location>6321 LONGMONT
+Fort Worth, TEXAS 76179</house_location>
+<county>Tarrant</county>
+<price>$88,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>MARINE CREEK HILLS... BEST PRICED HOME IN THE AREA! CEILING FANS. VAULTED CEILINGS. BIG MASTER SUITE. DOWN, VERY CLEAN.  WBFP, OWNERS VERY MOTIVATED SELLERS, ON CONTRACT FOR ANOTHER HOUSE.  SECURITY SYSTEM.LOTS OF CLOSETS.  CALL SYBLE FOR AN APPOINTMENT TO SEE THIS LOVELY HOME.CALL 1-800-619-0156 TO PRE-QUALIFY BY TELEPHONE.</house_description>
+
+<school_district>Eagle Mountain Saginaw</school_district>
+<sub-division>Marine Creek Hills</sub-division>
+<approx_size_sqft>1884</approx_size_sqft>
+<stories>2</stories>
+<year_built>1987</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>MASTER 14X13</item>
+<item>DEN 18X14</item>
+<item>2 BEDROOMS &amp; BATH UP</item>
+<item>GOOD SCHOOLS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ginny Vann</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)300-3864</mobile>
+<email>vann295@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21381</id>
+<mls>9133070</mls>
+<house_location>3412 E Renfro
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$138,950</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Home warranty to $350*Beautiful lot, large trees, room for RV/Boat*Small barn/shed*Roof &amp; kitchen appliances 2 years old*New gar. door, exter. paint, and some inside* More repairs in progress*Prettiest lot in Johnson Co.*Basketball setup does not stay* 2-car carport in addition to 2-car garage. Call for details.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Royal Oaks Estates</sub-division>
+<approx_size_sqft>2039</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1.57</approx_acres>
+<year_built>1982</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Prettiest wooded lot in County</item>
+<item>Lots of extras, barn, shed</item>
+<item>Many new or newer features</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>9999 FAWN RUN</house_location>
+<price>$103,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Builtin,Front)</garage>
+<suburb>HIGHLAND HTS</suburb>
+<school_dist>CAMPBELL CT</school_dist>
+<mls>240562</mls>
+<house_type>Condominium</house_type>
+<firm>TOWNMARK</firm>
+<firm_phone>(513) 793-2100</firm_phone>
+<agent>P. THOMAS COLGAN</agent>
+<agent_phone>(513) 793-2100</agent_phone>
+<house_description>VISIT MODEL CENTER FOR INFO. OPEN DAILY 12-6. CALL ONSITE SALESPERSON
+@ 781-1402 FOR ADDITIONAL INFORMATION. ATTACHED GARAGE. NICE OPEN
+PLAN. POOL AND CLUBHOUSE OPEN. FAST SELLING COMMUNITY NEARING
+COMPETION.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>99</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<dining><dimension>10 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<living><dimension>13 X 20</dimension><level>1</level></living>
+<master><dimension>11 X 15</dimension><level>1</level></master>
+
+<directions>US27 TO MARTHA LAYNE COLLINS BLVD @ STAR BANK
+TO FOREST RIDGE TO MODEL CENTER.--</directions>
+</house_listing>
+
+
+

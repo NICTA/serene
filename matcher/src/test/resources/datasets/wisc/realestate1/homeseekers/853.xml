@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This attached single family home has 3 bedroom(s), 1 bath(s) , 1 car
+attached garage.</house_description>
+
+<agent_name>Office</agent_name>
+<office>516-935-5113</office>
+<firm_name>Century 21 Laffey Associates</firm_name>
+<phone>516-935-5113</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$161,990</list_price>
+<location>W 22Nd St Ranch</location>
+<mls>5010908</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>60x98</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Full Basement, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

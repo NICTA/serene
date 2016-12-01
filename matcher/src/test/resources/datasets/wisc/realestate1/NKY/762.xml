@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>776 CALENDAR ROAD</house_location>
+<price>$67,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>CARROLLTON</suburb>
+<school_dist>CARROLL</school_dist>
+<mls>249593</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>DEBORAH P WRIGHT</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>GREAT STARTER HOME, WELL-KEPT ONE-LEVEL WITH VIEW OF STARY NIGHTS,
+VALLEY, AND TREES! NICE LAYOUT WITH COUNTRY KITCHEN AND ALL
+APPLIANCES. NEW DECK AN NEW CENTRAL AIR UNIT.</house_description>
+<construction>Wood</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregul</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>1</level></bedroom_3>
+<dining><dimension></dimension><level>1</level></dining>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>US 42 TO CARROLLTON, L ON HY 55 AT PREST-
+ONVILLE, R ON COVE HILL, LEFT ON CALENDAR</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1970 has 1 bedroom(s), 1 bath(s) and
+approximately 781 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Maria Pelloux</agent_name>
+<direct>672-5440</direct>
+<office>672-5440</office>
+<firm_name>Florida Rlty &amp; Inv
+Lic. Real Estate Broker</firm_name>
+<phone>672-5440</phone>
+<fax>758-5725</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$98,000</list_price>
+<location>61 Collins Av #302</location>
+<neighborhood>61 Condo Inc</neighborhood>
+<mls>M729779</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>781 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

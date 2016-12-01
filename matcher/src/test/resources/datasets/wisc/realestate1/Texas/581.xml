@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Salazar</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19701</id>
+<mls>140045</mls>
+<house_location>1817 Wallace
+Corpus Christi, TEXAS 78412</house_location>
+<county>Nueces</county>
+<price>$53,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nice starter/investor home. Lots of room, 4 bedroom, 2 bath, hardwood floors, ceiling fans, ducted for Central ac. Master bath remodeled 1 year ago. Window ac units NOT to stay.</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Peary Place #2</sub-division>
+<approx_size_sqft>1545</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

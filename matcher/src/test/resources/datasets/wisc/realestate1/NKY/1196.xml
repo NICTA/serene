@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>404 E HIGH ST</house_location>
+<price>$295,000</price>
+<rooms>12</rooms>
+<bedrooms>6</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>WARSAW</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>249475</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>JIM ROBINSON</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>HISTORIC RIVER FRONT HOME W/BOAT DOCK. PRIVATE RESIDENCE OR RENT GUEST
+QTRS (SEE WWW.BBONLINE.COM/KY/COOKIN/)MAIN HOUSE DOWNSTAIRS &amp; GUEST
+QTRS NEWLY RENOVATED. 3BR UPSTAIRS MAIN HOUSE UNFINISHED.MUST SEE TO
+BELIEVE THIS VIEW</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>1.3 ACRE</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>14 X 14</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 6</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension></dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension></dimension><level>2</level></bedroom_5>
+<dining><dimension>17 X 17</dimension><level>1</level></dining>
+<family><dimension>10 X 23</dimension><level>1</level></family>
+<kitchen><dimension>16 X 17</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 10</dimension><level>1</level></laundry>
+<living><dimension>16 X 17</dimension><level>1</level></living>
+<master><dimension>17 X 17</dimension><level>1</level></master>
+
+<directions>US 42 TO WARSAW RT AT COMMUNITY BANK FT ON HIGH
+ST-WHITE BRICK ON LEFT</directions>
+</house_listing>
+
+
+

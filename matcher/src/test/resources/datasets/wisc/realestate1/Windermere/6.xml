@@ -1,0 +1,48 @@
+<house_listing>
+<price>$109,000</price>
+<mls_id_number>2291003</mls_id_number>
+<address>1405 Pine St.</address>
+<city>Sandpoint</city>
+<st>ID</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>2304</sqft>
+<year_built></year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage></garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<features><item>Full basement</item>
+<item>Attached garage</item>
+<item>Large deck overlooking back yard</item>
+<item>Lovely large trees</item>
+<item>Close to parks and schools</item>
+</features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<comments>Well-kept home with lovely large trees and shrubs. Nice deck overlooking the back yard. Full basement and attached garage. Great location close to parks and schools.</comments>
+<for_more_information_contact>
+<agent_name>Ed Ostrom</agent_name>
+<firm_name>Windermere Real Estate / Idaho First Realty</firm_name>
+<firm_location>212 N. First St. Suite 100
+Sandpoint, ID</firm_location>
+<office_phone>208-263-8400</office_phone>
+<fax>208-265-6328</fax>
+<cell_phone>208-661-9091</cell_phone>
+<e-mail>edostrom@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Janet Wallace</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 X 30</voice_mail>
+<email>wallace@EAZE.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19145</id>
+<mls>9100523</mls>
+<house_location>214 Magnolia
+Hico, TEXAS 76457</house_location>
+<county>Hamilton</county>
+<price>$88,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Get inside this home and you&amp;#8217;ll be hooked. This is a builders house and is built well.    Master bedroom suite, Azroc commercial tile throughout, 5 ton carrier ac, metal roof and very energy efficient. Now reduced!  Must see!</house_description>
+
+<school_district>Hico</school_district>
+<sub-division>Hillcrest</sub-division>
+<approx_size_sqft>2082</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.67</approx_acres>
+<year_built>1962</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Covered back porch</item>
+<item>Nice big trees</item>
+<item>Lots of storage</item>
+<item>No wasted space</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20207</id>
+<mls>6176</mls>
+<house_location>224 Birmensdorf
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$67,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Palm Harbor HomeON 1/2 ACRENICE!!! WITH BOOK SHELVES &amp; CURIOCABINET BUILT IN</house_description>
+
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>ALMOST NEW PALM HARBOR HOME</item>
+<item>OPEN WITH LOTS OF BUILT INS</item>
+<item>2 LIVING AREAS</item>
+<item>2 DINING AREAS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

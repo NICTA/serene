@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1951 has 3 bedroom(s), 2
+bath(s) , 1 car garage and approximately 1315 square feet of living
+area. Rooms include bonus room. Features include fireplace.</house_description>
+
+<agent_name>Glenda Hawkins</agent_name>
+<direct>520-749-2344</direct>
+<office>520-745-4545</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-745-4545</phone>
+<fax>520-747-5462</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,900</list_price>
+<location>3410 N Bentley Ave</location>
+<mls>9917249</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>1315 (approx)</square_feet>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

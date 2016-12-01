@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1951 has 4 bedroom(s), 2
+bath(s) and approximately 1414 square feet of living area. Rooms
+include dining room, master bedroom.</house_description>
+
+<agent_name>Carlyta Smith</agent_name>
+<office>202-543-8060</office>
+<firm_name>Century 21 Ashby &amp; Associates, Inc.</firm_name>
+<phone>202-543-8060</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$45,000</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC3091885</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<square_feet>1414 (approx)</square_feet>
+<lot_size>1485</lot_size>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

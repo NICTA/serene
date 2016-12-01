@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>486 HILLWOOD</house_location>
+<price>$79,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>PERRY PARK</suburb>
+<school_dist>OWEN</school_dist>
+<mls>249684</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>PHYLLIS R WOLTERMANN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>WONDERFUL RETREAT SECLUDED &amp; WOODED ON ONE ACRE +/-. LARGE SLEEPING
+LOFT. HOT TUB, SCREENED PORCH, LOTS OF DECK. FULLY FURNISHED.
+APPL/FURN NOT WARRANTED. SOME REPL WINDOWS. VACATION OR FULL TIME
+GUARDED COMMUNITY.</house_description>
+<construction>Wood</construction>
+<heating>Electric</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>I71 TO CARROLLTON L ON 227 TO R ON 355 TO R INTO
+PERRY PARK COUNTRY CLUB</directions>
+</house_listing>
+
+
+

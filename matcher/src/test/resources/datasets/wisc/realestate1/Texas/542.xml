@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bud &amp; Liz Starnes</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20952</id>
+<mls>9127008</mls>
+<house_location>203 CR 4293
+Decatur, TEXAS 76234</house_location>
+<county>Wise</county>
+<price>$90,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Neat double wide on ten acres. Well kept. three car carport. Three room shop.</house_description>
+
+<school_district>Paradise</school_district>
+<sub-division>South Fork A</sub-division>
+<approx_size_sqft>1568</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>10</approx_acres>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>3</carport_spaces>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Ten Acres</item>
+<item>Manufactured Home</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

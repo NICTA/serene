@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>65 DRY CREEK RD</house_location>
+<price>$94,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>WARSAW</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>247989</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>REGINA STEWART</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>COUNTRY CHARMER! CAPE COD NESTLED ON ONE ACRE. FULL BASEMENT WITH ONE
+FINISHED ROOM, DRIVE IN GARAGE, AND LAUNDRY RM.</house_description>
+<construction>Wood</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>20 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>20 X 16</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 11</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level>1</level></master>
+
+<directions>US 42 TO WARSAW, TO ST RD 35, AT Y, TURN LEFT,
+PASS GOLF COURSE, SEE SIGN ON LEFT</directions>
+</house_listing>
+
+
+

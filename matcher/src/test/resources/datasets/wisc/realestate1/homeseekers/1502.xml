@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1973 has 2 bedroom(s), 2 bath(s) and
+approximately 1047 square feet of living area. Rooms include family
+room. Features include private pool, air conditioning.</house_description>
+
+<agent_name>Michael Belsky</agent_name>
+<direct>305-947-5291</direct>
+<office>305-532-7368</office>
+<firm_name>Streamline Propert Streamline Propert
+Lic. Real Estate Broker</firm_name>
+<phone>305-532-7368</phone>
+<fax>305-538-0917</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$134,900</list_price>
+<location>1821 Jefferson Av #201</location>
+<neighborhood>Royal Palm Villas Condo</neighborhood>
+<mls>M771041</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1047 (approx)</square_feet>
+<year_built>1973</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<pool>Yes</pool>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

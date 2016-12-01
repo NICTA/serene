@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kimla Holk</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<voice_mail>(830)693-3579 181</voice_mail>
+<mobile>(915)423-0078</mobile>
+<email>kimlaholk@realtor.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21672</id>
+<mls>54802</mls>
+<house_location>1330 Sleepy Lane
+Bluffton/tow, TEXAS 78672</house_location>
+<county>Llano</county>
+<price>$270,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LAKEFRONT PROPERTY ON FIVE LOTS. WONDERFUL VIEW! LARGE DINING/KITCHEN/FAMILY AREAS. BEDROOMS ARE SEPARATE; UTILITY ROOM; BOAT RAMP AND PIER. GUEST QUARTERS CAN BE USED AS RENTAL PROPERTY. SQUARE FOOTAGE BASED ON TAX RECORDS.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Buchanan Lake Village</sub-division>
+<approx_size_sqft>2900</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<waterfront>Yes</waterfront>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>LAKEFRONT PROPERTY WITH GREAT VIEW!</item>
+<item>FISHING PIER AND BOAT RAMP!</item>
+<item>GUEST QUARTERS COULD BRING MONEY!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

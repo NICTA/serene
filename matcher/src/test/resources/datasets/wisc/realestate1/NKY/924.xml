@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>4271 OLD STATE #3</house_location>
+<price>$149,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>250177</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>STEVEN E MORRIS</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>NEW CONSTRUCTION-ROOM SIZES SUBJECT TO CHANGE. AREA OF VERY NICE
+HOMES. RANCH HOME ON 1 AC. CITY WATER, GAS, COUNTY TAXES.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irrreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 16</dimension><level>1</level></living>
+<master><dimension>14 X 16</dimension><level>1</level></master>
+
+<directions>US27 TO OLD STATE RD #3</directions>
+</house_listing>
+
+
+

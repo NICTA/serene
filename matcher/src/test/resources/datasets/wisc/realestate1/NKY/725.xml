@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>619 E 16TH</house_location>
+<price>$19,500</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249799</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>MARY K ALLHOFF</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>GREAT INVESTMENT OPPORTUNITY OR 1ST TIME BUYER. _</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 14</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>13 X 13</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>MADISON TO E 17TH ST TO GLENWAY (L) TO E 16TH TO
+L ON E 16TH</directions>
+</house_listing>
+
+
+

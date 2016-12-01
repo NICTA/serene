@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This single family home built in 1994 has 9 bedroom(s), 9 full
+bath(s)/4 half bath(s) , 4 car attached garage and approximately 13795
+square feet of living area. Rooms include family room. Features
+include view, private pool, air conditioning.</house_description>
+
+<agent_name>Carlos Justo</agent_name>
+<direct>305-858-5110</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$5,900,000</list_price>
+<location>2821 Lake Av</location>
+<neighborhood>Sunset Lake Extn</neighborhood>
+<mls>M776244</mls>
+<status>Active</status>
+<bedrooms>9</bedrooms>
+<baths>9(full) 4(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>13795 (approx)</square_feet>
+<lot_size>100X247</lot_size>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Canal front, Bay front, Water front</location>
+<patio>Open Porch</patio>
+<pool>Yes</pool>
+<rooms>Family Room</rooms>
+<view>Garden View, Pool View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Cathedral/Vaulted Ceilings, Central Vacuum, Dishwasher,Elevator, Outdoor Grill, Outdoor Lights, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1948 has 3 bedroom(s), 2 bath(s) and
+approximately 1716 square feet of living area.</house_description>
+
+<agent_name>Cynthia West</agent_name>
+<direct>691-4322</direct>
+<office>303-691-4322</office>
+<firm_name>Apartment Investment</firm_name>
+<phone>303-691-4322</phone>
+<fax>303-691-4329</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$269,950</list_price>
+<location>2525 S Monroe St</location>
+<neighborhood>University Park</neighborhood>
+<mls>384797</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1716 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

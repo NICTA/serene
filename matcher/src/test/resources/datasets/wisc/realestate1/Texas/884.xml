@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Steve Butler</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>steve@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19915</id>
+<mls>54009</mls>
+<house_location>614 HI STIRRUP
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$425,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Located on #16 of Slick Rock Golf Course.  Home totally remodeled with all new amenities.  Tile floors.  Courtyard with fountain.  Large country kitchen with all new appliances, including wine frig and ice maker.  Tiled patio with fire pit.  All new windows.  2 new A/C units.  Large game room.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>ON #16 OF SLICK ROCK GOLF COURSE</item>
+<item>TOTALLY REMODELED WITH NEW APPLIANCES</item>
+<item>COURTYARD WITH FOUNTAIN</item>
+<item>TILED PATIO WITH FIRE PIT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

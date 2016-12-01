@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joe Bruns</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net or bobbye@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20153</id>
+<mls>54136</mls>
+<house_location>1614 NORTHWOOD ACRES
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$79,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>CLOSE TO SCHOOLS AND SHOPPING.  FENCED YARD.  STORAGE BUILDING.  GOOD LOCATION.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Northwood Acres</sub-division>
+<approx_size_sqft>1168</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>GOOD LOCATION.</item>
+<item>FENCED YARD.</item>
+<item>CLOSE TO SCHOOLS AND SHOPPING.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

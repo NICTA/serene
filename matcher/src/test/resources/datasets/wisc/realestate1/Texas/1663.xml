@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Verna</email>
+</firm_information>
+
+<agent_information>
+<name>Adams</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)242-6500</voice_mail>
+<mobile>(713)824-0228</mobile>
+<email>vernaadams@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16454</id>
+<mls>226464</mls>
+<house_location>1510 Hitherfield
+Sugar Land, TEXAS 77478</house_location>
+<county>Fort Bend</county>
+<price>$96,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great Vista 4 Bedroom plan! Formal dining w/baywindow, inside utility, country kitchen, stove, oven and dishwasher replaced in last 3 yrs., spacious den w/WB country fireplace,  water heater 2 months new, AC &amp; Heat replaced,  roof replaced in 93.Seller to pay 3% closing cost or  decor. allow.</house_description>
+
+<move-in_date>5/30/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Covington Woods</sub-division>
+<approx_size_sqft>1934</approx_size_sqft>
+<stories>1</stories>
+<year_built>1974</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Stove, Oven, Dishwasher replaced last 3 yrs.</item>
+<item>Roof replaced in 93</item>
+<item>Water heater 2 months new</item>
+<item>AC and Heat replaced</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Westfall</name>
+<office>(409)542-1234</office>
+<fax>(409)542-0078</fax>
+<email>leon@westfallrealestate.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21005</id>
+<mls>1067</mls>
+<house_location>1165 CR 229
+Giddings, TEXAS</house_location>
+<county>Lee</county>
+<price>$100,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Large home in country club area with fire place, bar, spa, patio with upper deck, pool, pond, small barn, bird cage.  Home has experienced foundation movement which is evidenced by brick and sheetrock cracks.  Bank/owner may finance with 10% down payment.</house_description>
+
+<school_district>Giddings</school_district>
+<sub-division>Country Club</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<golf_course>Yes</golf_course>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Spacious home</item>
+<item>Possible owner finance</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

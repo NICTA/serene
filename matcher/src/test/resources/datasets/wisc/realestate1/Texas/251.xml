@@ -1,0 +1,42 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jerry Sondock</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>GSondock@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21014</id>
+<mls>14598</mls>
+<house_location>7101 bus.83, lot 31
+in West Harlingen, TEXAS 78552</house_location>
+<county>Cameron</county>
+<price>$25,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+
+<house_description></house_description>
+
+<school_district>1</school_district>
+<sub-division>1</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>30 DELPHI DR</house_location>
+<price>$117,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front,Carport)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249017</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>CINDY BROUILLETTE</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>CONVENIENT/METICULOUS/ALL BRICK/GORG PARK-LIKE YARD/1C GAR 'PLUS'
+CARPORT COUNTRY KITCHEN W/PANTRY NEWER MAYTAG APPLIANCES/FIN LL REC
+RM/STUDY OR 4TH BDRM/CABINET-LINED LAUNDRY/HOBBY RM W/SINK GARDEN SHED
+BIKE SHED MUST SEE!!</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>60x120</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$O</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 8</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 8</dimension><level>1</level></bedroom_3>
+<breakfast><dimension></dimension><level>1</level></breakfast>
+<family><dimension>27 X 11</dimension><level>L</level></family>
+<kitchen><dimension>12 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 11</dimension><level>L</level></laundry>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+<study><dimension>14 X 9</dimension><level>L</level></study>
+
+<directions>TURKEYFOOT TO NARROWS RD R DELPHI</directions>
+</house_listing>
+
+
+

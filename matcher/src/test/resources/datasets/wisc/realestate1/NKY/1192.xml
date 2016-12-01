@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>455 BOX 84A RR#1</house_location>
+<price>$121,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>2 Cars (Detached,Carport)</garage>
+<suburb>GLENCOE</suburb>
+<school_dist>GALLATIN CO</school_dist>
+<mls>247937</mls>
+<house_type>Single Family</house_type>
+<firm>BILL BRAMBLE REALTY INC</firm>
+<firm_phone>(606) 371-1500</firm_phone>
+<agent>LORRAINE MATHIS</agent>
+<agent_phone>(606) 371-1500</agent_phone>
+<house_description>MINUTES TO NASCAR. HIS/HER CLOSETS IN MBR. LDRY &amp; MUD RM COMBO OFF LG
+COUNT KITCHEN. UNIQUE CABS FILL ONE WALL OF DIN RM. 2 PORCHES, DECK,
+AND SOLARIUM PARKAY FLR'G IN DIN RM &amp; STUDY. 12X36 SM BARN. 1C DET
+GARAGE PLUS CRPRT-2AC</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>15 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>19 X 16</dimension><level>1</level></dining>
+<kitchen><dimension>17 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>14 X 13</dimension><level>1</level></laundry>
+<living><dimension>16 X 16</dimension><level>1</level></living>
+<master><dimension>16 X 15</dimension><level>2</level></master>
+<study><dimension>8 X 8</dimension><level>1</level></study>
+
+<directions>I71 SO TO GLENCOE (127) LEFT ON 127 APPRO 1 MILE
+TO R ON 455 APPROX 1 MILE TO 84A</directions>
+</house_listing>
+
+
+

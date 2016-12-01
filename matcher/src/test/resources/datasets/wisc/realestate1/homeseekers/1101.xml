@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1912 has 8 bedroom(s), 8 full
+bath(s)/1 half bath(s) and approximately 8420 square feet of living
+area. Rooms include dining room, bonus room, master bedroom. Features
+include private spa, patio, fireplace.</house_description>
+
+<agent_name>John Mccleary</agent_name>
+<direct>520-349-0636</direct>
+<office>520-326-1122</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-326-1122</phone>
+<fax>520-325-8784</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$890,000</list_price>
+<location>277 S Canelo Rd</location>
+<mls>9919092</mls>
+<status>Active</status>
+<bedrooms>8</bedrooms>
+<baths>8(full) 1(half)</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>8420 (approx)</square_feet>
+<year_built>1912</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Den, Family Room, Living Room</fireplace>
+<patio>Covered, Screened-in</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Guest House, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

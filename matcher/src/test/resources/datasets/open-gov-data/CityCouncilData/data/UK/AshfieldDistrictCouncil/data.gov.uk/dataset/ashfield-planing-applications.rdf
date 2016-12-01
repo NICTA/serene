@@ -1,0 +1,114 @@
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/">
+  <dcat:Dataset rdf:about="http://data.gov.uk/dataset/ashfield-planing-applications">
+    <owl:sameAs rdf:resource="urn:uuid:4d62ddc1-aea4-4290-b9f7-0ffadf3ba13b"></owl:sameAs>
+    <dct:description>Historic planning applications in the district of Ashfield released under the LG Open Data Incentive Scheme. Data shows planning reference, date, location, description, decision date and decision.</dct:description>
+        <dcat:keyword>development.</dcat:keyword>
+        <dcat:keyword>planning</dcat:keyword>
+    <foaf:homepage rdf:resource="http://data.gov.uk/dataset/ashfield-planing-applications"></foaf:homepage>
+    <rdfs:label>ashfield-planing-applications</rdfs:label>
+    <dct:identifier>ashfield-planing-applications</dct:identifier>
+    <dct:title>Ashfield Planning Applications 1974 - 2013</dct:title>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://www.ashfield-dc.gov.uk/media/1112292/planningapplications.csv"></dcat:accessURL>
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>CSV</rdf:value>
+                            <rdfs:label>CSV</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+            </dcat:Distribution>
+        </dcat:distribution>
+    <dct:rights rdf:resource="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"></dct:rights>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-email</rdfs:label>
+            <rdf:value>lpg@ashfield-dc.gov.uk</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-name</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>contact-phone</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>core-dataset</rdfs:label>
+            <rdf:value>False</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>foi-email</rdfs:label>
+            <rdf:value>foi@ashfield-dc.gov.uk</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>foi-name</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>foi-phone</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>foi-web</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>geographic_coverage</rdfs:label>
+            <rdf:value>100000: England</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>odi-certificate</rdfs:label>
+            <rdf:value>{"status": "final", "source": "Automatically awarded by ODI", "certification_type": "automatically awarded", "level": "raw", "title": "Ashfield Planning Applications", "created_at": "2014-10-28T10:26:25Z", "jurisdiction": "GB", "certificate_url": "https://certificates.theodi.org/datasets/3233/certificates/15671", "badge_url": "https://certificates.theodi.org/datasets/3233/certificates/15671/badge.png", "cert_title": "Basic Level Certificate"}</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_coverage-from</rdfs:label>
+            <rdf:value>1974-01-01</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_coverage-to</rdfs:label>
+            <rdf:value>2013-12-31</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>theme-primary</rdfs:label>
+            <rdf:value>Towns &amp; Cities</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>unpublished</rdfs:label>
+            <rdf:value>false</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>update_frequency</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+  </dcat:Dataset>
+</rdf:RDF>

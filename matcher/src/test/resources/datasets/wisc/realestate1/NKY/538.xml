@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>236 BEECHWOOD DR</house_location>
+<price>$219,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-2</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>(Carport)</garage>
+<suburb>-</suburb>
+<school_dist>BEECHWOOD</school_dist>
+<mls>247909</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MARSHA R BELL</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * RARE FIND IN BEECHWOOD SCHOOL DISTRICE * REC RM 27X13
+LOWER LEVEL * BEAUTIFUL YARD * ENGLISH GARDEN * WON'T LAST! 2-10 HOME
+WARRANTY</house_description>
+<construction>Brick,Stone</construction>
+<heating>Gas,Hot Water,Baseboard</heating>
+<cooling>Window Unit,Atic Fan</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12</dimension><level>X</level></bedroom_2>
+<dining><dimension>18 X 11</dimension><level>1</level></dining>
+<family><dimension>17 X 14</dimension><level>1</level></family>
+<kitchen><dimension>15 X 9</dimension><level>1</level></kitchen>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>DIXIE HWY TO BEECHWOOD RD</directions>
+</house_listing>
+
+
+

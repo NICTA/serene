@@ -1,0 +1,26 @@
+id,Terminal Name,Street,Location,Cross Street,Suburb,Latitude,Longitude,Accessibility,Connecting Bus Services,Parking
+1,Apollo Road Ferry Terminal,Apollo Rd,FS,Byron St,BULIMBA,-27.44314448,153.0638084,Assisted Mobility Impaired Access,Yes,
+2,Sydney Street Ferry Terminal,Sydney St,,Oxlade Dr,NEW FARM,-27.47478598,153.042188,Disabled Access,Yes,
+3,Riverside Ferry Terminal,Eagle St,,Queen St,CITY,-27.46708903,153.03123,Disabled Access,Yes,
+4,Eagle Street Pier Ferry Terminal,Eagle St,,Charlotte St,CITY,-27.46879602,153.030954,,Yes,
+5,QUT Gardens Point Ferry Terminal,Alice St,,William St,CITY,-27.47640897,153.025013,Disabled Access,,
+6,North Quay Ferry Terminal,William St,,Elizabeth St,CITY,-27.47276,153.02256,,Yes,
+8,Regatta Ferry Terminal,Coronation Dr,,Landsborough Tce,TOOWONG,-27.48321301,152.996814,Disabled Access,Yes,
+9,Guyatt Park Ferry Terminal,Macquarie St,,Laurence St,ST LUCIA,-27.492312,153.001872,Assisted Mobility Impaired Access,Yes,Yes
+10,University of Queensland Ferry Terminal,Sir William Macgregor Dr,,Blair Dr,ST LUCIA,-27.49357899,153.016776,Assisted Mobility Impaired Access,Yes,
+11,West End Ferry Terminal,Hoogley St,,Orleigh St,WEST END,-27.49024102,153.003364,Disabled Access,Yes,
+12,South Bank 1 Ferry Terminal,South Bank Broadwalk,AT,South Bank Parklands,SOUTH BRISBANE,-27.47583096,153.022207,Assisted Mobility Impaired Access,Yes,
+13,South Bank 2 Ferry Terminal,South Bank Broadwalk,AT,South Bank Parklands,SOUTH BRISBANE,-27.47612302,153.02239,Assisted Mobility Impaired Access,Yes,
+14,South Bank 3 Ferry Terminal,South Bank Broadwalk,AT,South Bank Parklands,SOUTH BRISBANE,-27.47979196,153.025037,,Yes,
+15,Maritime Museum Ferry Terminal,Lower River Tce,,Christie St,SOUTH BRISBANE,-27.48187303,153.0283,,,
+16,Thornton Street Ferry Terminal,Thornton St,,Pixley St,KANGAROO POINT,-27.47122298,153.034033,,,
+17,Holman Street Ferry Terminal,Holman St,,Annie St,KANGAROO POINT,-27.46569096,153.033569,,,
+18,Dockside Ferry Terminal,Ferry St,App,Dockside Ferry,KANGAROO POINT,-27.47247098,153.039021,,,
+19,Mowbray Park Ferry Terminal,Park Av,FS,Thorn St,EAST BRISBANE,-27.47729204,153.043255,Disabled Access,Yes,Yes
+20,Hawthorne Ferry Terminal,Gordon St,,Lindsay St,HAWTHORNE,-27.46120003,153.053416,Assisted Mobility Impaired Access,Yes,Yes
+21,Bulimba Ferry Terminal,Oxford St,,Quay St,BULIMBA,-27.45034903,153.052244,Assisted Mobility Impaired Access,Yes,
+22,Norman Park Ferry Terminal,Wynnum Rd,,Norman Av,NORMAN PARK,-27.47434797,153.053649,,Yes,
+23,Bretts Wharf Ferry Terminal,Kingsford Smith Dr,,Riverview Tce,HAMILTON,-27.44012296,153.062018,,Yes,
+24,Teneriffe Ferry Terminal,Commercial Rd,,Skyring Tce,NEWSTEAD,-27.45168897,153.049248,,Yes,
+25,New Farm Park Ferry Terminal,Brunswick St,,Oxlade Dr,NEW FARM,-27.47172,153.052482,Disabled Access,Yes,Yes
+26,Northshore Hamilton Ferry Terminal,Macarthur Av,,Macarthur Av,HAMILTON,-27.44527,153.08394,Disabled Access,,

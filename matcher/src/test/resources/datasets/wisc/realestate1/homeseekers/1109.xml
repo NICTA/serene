@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1947 has 2
+bedroom(s), 1 bath(s) , 2 car detached garage and approximately 831
+square feet of living area. Rooms include bonus room. Features include
+view.</house_description>
+
+<agent_name>John Rodriguez</agent_name>
+<direct>562-651-6299</direct>
+<firm_name>Reciprocal Listings</firm_name>
+<fax>562-929-3366</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$129,900</list_price>
+<location>5409 Martin St</location>
+<mls>I931405</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>831 (approx)</square_feet>
+<lot_size>4800</lot_size>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Bonus Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

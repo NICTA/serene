@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Diane Sanders</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<voice_mail>(512)757-0707</voice_mail>
+<mobile>(512)753-9478</mobile>
+<email>dsanders@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21125</id>
+<mls>6302</mls>
+<house_location>821 Ranch Rd 12
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$82,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>TRI LEVEL TOWNHOMENEW TILE PATIO &amp; DECKDETACHED CARPORT</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>Franklin Square</sub-division>
+<approx_size_sqft>1830</approx_size_sqft>
+<stories>3</stories>
+<approx_lot_size>TOWNHOME</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>NEW TILE</item>
+<item>TRI LEVEL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

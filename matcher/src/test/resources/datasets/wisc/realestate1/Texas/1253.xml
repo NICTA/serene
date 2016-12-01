@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Lundgren Realty, Inc. License#0402901</name>
+<location>101 N. Main Elgin, TX 78621</location>
+<office>(512)281-4802</office>
+<toll_free></toll_free>
+<fax>(512)281-4511</fax>
+<email>lundreal@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>VIRGINIA WILKINS</name>
+<office>(512)281-4802</office>
+<fax>(512)281-4511</fax>
+<email>lundreal@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21195</id>
+<mls>527214</mls>
+<house_location>202 Webberwood Way
+Elgin, TEXAS</house_location>
+<county>Travis</county>
+<price>$98,500</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>1997 REDMAN MANUF HOME -   YOU MUST SEE THIS HOME. IT IS ON 2.64 WOODEDACRES ON A NEW PAVED STREEET, HIGH ON HILL.  THIS HOME HAS 5 BEDROOMS2 BATHS, INDOOR UTILITY. LOVELY CORNER FIREPLACE, MANY BUILTINS AND CENTER ISLAND IN KITCHEN.  GREAT PRICE AND READY FOR NEW OWNER.CALL TO SEE TODAY.</house_description>
+
+<school_district>Del Valle</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>2128</approx_size_sqft>
+<approx_acres>2.64</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>LARGE ROOMS</item>
+<item>PERFECT CONDITION</item>
+<item>VACANT - READY FOR BUYER</item>
+<item>GREAT PRICE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

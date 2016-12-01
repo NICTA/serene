@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1957 has 3
+bedroom(s), 2 bath(s) , 2 car garage and approximately 1880 square
+feet of living area. Rooms include family room, living room, master
+bedroom. Features include view, fireplace.</house_description>
+
+<agent_name>Ronald Fletcher</agent_name>
+<direct>858-488-6090</direct>
+<office>858-488-9111</office>
+<firm_name>Prudential Dunn, Realtors Prudential Dunn, Realtors</firm_name>
+<phone>858-488-9111</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$299,000</list_price>
+<location>San Diego, CA 92110</location>
+<mls>99 6025499</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1880 (approx)</square_feet>
+<lot_size>5001</lot_size>
+<year_built>1957</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Heat Pump</heating>
+<fireplace>Family Room</fireplace>
+<rooms>Family Room, Living Room, Master Bedroom</rooms>
+<view>Panoramic View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1084 GRAND AVE</house_location>
+<price>$59,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249439</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>BUTCH MAGNER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* LARGE CORNER LOT * NEWER ROOF * FULL BASEMENT * NEW FRONT PORCH * *
+GUTTERS WITH SCREENS * LOFT BEDROOM *</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Gravity</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Insert,Stove</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80X147</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>10 X 10</dimension><level>1</level></master>
+
+<directions>I-471 NORTH TO MEMORIAL PARKWAY; TURN LEFT OFF
+EXIT TO GRAND, TURN LEFT</directions>
+</house_listing>
+
+
+

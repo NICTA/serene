@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>701 BERRY AVE</house_location>
+<price>$38,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>247492</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>CAROLYN OBLINGER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * TOTALLY REHABBED * MOVE IN CONDITION * COULD USE AS A
+ONE BEDROOM WITH LIVING/DINING * NEED TO SEE INSIDE TO APPRECAITE *
+BIGGER THAN IT LOOKS</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>999x999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>11 X 6</dimension><level>1</level></kitchen>
+<living><dimension>18 X 10</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>RT 8 TO BERRY</directions>
+</house_listing>
+
+
+

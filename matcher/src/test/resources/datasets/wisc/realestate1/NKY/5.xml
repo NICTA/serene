@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>223 WESTERN</house_location>
+<price>$114,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>(Attached,Front,Carport)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>4TH DIST</school_dist>
+<mls>248261</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>MARGO TARR</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>GREAT REHABBED VICTORIAN STYLE HOME COULD BE 2 FAMILY/SEPARATE
+ENTRANCES/ 1 1/2 CAR GARAGE/CITY VIEW/CLOSE TO CINTI</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood,Brick,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50x114</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>10 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>15 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>6 X 8</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>2</level></master>
+
+<directions>I75 TO 5TH STREET TO L/PHILADELPHIA TO L/ 3RD ST
+TO RT 8 L/WESTERN</directions>
+</house_listing>
+
+
+

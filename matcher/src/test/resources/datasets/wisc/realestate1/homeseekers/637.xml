@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1991 has 3 bedroom(s), 3 bath(s) and
+approximately 1510 square feet of living area. Features include
+private spa, air conditioning.</house_description>
+
+<agent_name>Patricia Charry</agent_name>
+<direct>305-535-8620</direct>
+<office>305-931-8266</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>305-931-8266</phone>
+<fax>305-933-1141</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$295,000</list_price>
+<location>6767 Collins Av #702</location>
+<neighborhood>The Sterling Condo Desc</neighborhood>
+<mls>M768815</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Condominium</type>
+<square_feet>1510 (approx)</square_feet>
+<year_built>1991</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<location>Ocean front, Water front</location>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

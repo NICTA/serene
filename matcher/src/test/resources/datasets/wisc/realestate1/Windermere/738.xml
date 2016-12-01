@@ -1,0 +1,34 @@
+<house_listing>
+<price>$120,000</price>
+<mls_id_number>141875</mls_id_number>
+<city>SALEM</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.50</bathrooms>
+<sqft>1280</sqft>
+<year_built>1972</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Security System</interior>
+<exterior>Garden, Tool Sheed, Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>SCOTT</elementary>
+<middle_school>STEPHENS</middle_school>
+<high_school>MC KAY</high_school>
+</schools>
+
+</house_listing>
+
+
+

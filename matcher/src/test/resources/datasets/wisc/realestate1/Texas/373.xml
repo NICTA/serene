@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bobbye Hensley</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net or bobbye@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16324</id>
+<mls>52563</mls>
+<house_location>609 Avenue E
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$112,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>BEAUTIFUL OLD VICTORIAN HOME ON LARGE TREE SHADED SITE.  PORCHES EVERYWHERE. CENTRAL HEAT AND AIR.  LOTS OF GREAT DECORATING TOUCHES.  NEW ROOF TO BE PUT ON AS SOON AS ROOFER CAN GET TO IT.  3 LOTS AND 15' OF ANOOTHER.  ATTIC FAN.</house_description>
+
+<school_district>Marble Falls</school_district>
+<approx_size_sqft>1806</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>BEAUTIFUL OLD HOME.</item>
+<item>TREE SHADED YARD.</item>
+<item>A MUST SEE!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

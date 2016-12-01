@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>1555 RUSSELL FLYNN</house_location>
+<price>$118,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>CRITTENDEN</suburb>
+<school_dist>GRANT CO</school_dist>
+<mls>249232</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>BEVERLY A STALEY</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*42 ACRE FARM*7 YR OLD TRIPLE
+WIDE* CATH CEIL*WBFP &amp; WET BAR IN FR*750# TOBACCO BASE*BARN*ABOVE
+GROUND POOL</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<family><dimension>15 X 13</dimension><level>1</level></family>
+<kitchen><dimension>25 X 12</dimension><level>1</level></kitchen>
+<living><dimension>36 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>EX 166 L TO R 25 L 491 R SHERMAN NEWTON L
+HEATHER RIDGE L RUSSELL FLYNN TO END</directions>
+</house_listing>
+
+
+

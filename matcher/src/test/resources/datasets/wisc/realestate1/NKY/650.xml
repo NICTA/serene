@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1606 EUCLID</house_location>
+<price>$64,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>250297</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>EUGENE WHITTLE</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>DISCOVER A NICELY PRICED COMFORTABLE HOME NEAR BUSLINE &amp;
+SCHOOLS-SECURITY SYSTEM,NEW WINDOWS,VINYL SIDING,2
+BEDROOMS,WASHER/DRYER,ALL APPLIANCE PKG- FORMAL DINING RM,CENTRAL
+AIR,CEILING FANS IN ALL RMS-1 YR HOME WARRANTY</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>2</level></master>
+
+<directions>KYLES LANE TO N ON HIGHLAND TO R ON EUCLID</directions>
+</house_listing>
+
+
+

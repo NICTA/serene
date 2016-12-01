@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>8 ALANNA</house_location>
+<price>$149,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>WILDER</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>247321</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>RICHARD HUBBARD</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>GREAT HOME ON C-D-S. EQUIPPED KIT W/NEWER APPLIANCES. ROOF 7 YRS,REPL.
+WIND., LL FAMILY RM W/KNOTTY PINE WALLS. EXTRA STORAGE UNDER GAR, HDWD
+FL THRU OUT 1ST &amp; 2ND FL(EXCL. KIT) LG. FENCED REAR YARD.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>75x319</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>13 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>21 X 13</dimension><level>L</level></family>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>21 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>2</level></master>
+
+<directions>MARTHA LANE OR 27 TO JOHNS HILL, LT ON W.JOHNS
+HILL TO RT ON ALANNA</directions>
+</house_listing>
+
+
+

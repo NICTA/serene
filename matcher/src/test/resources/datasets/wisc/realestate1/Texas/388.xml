@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Michelle Knight</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<voice_mail>(361)853-6777 137</voice_mail>
+<email>MLCSSK@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21137</id>
+<mls>141626</mls>
+<house_location>302 Stages
+Corpus Christi, TEXAS 78412</house_location>
+<county>Nueces</county>
+<price>$139,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Super luxurious home! Bridk floors in kitchen, family room and entry. Bleached hardwood floors in living, dining and bedrooms. Pass thru fireplace, fully landscaped, library paneling, custom cabinets, + MUCH MORE!</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Waverly Estates</sub-division>
+<approx_size_sqft>2596</approx_size_sqft>
+<stories>2</stories>
+<year_built>1953</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

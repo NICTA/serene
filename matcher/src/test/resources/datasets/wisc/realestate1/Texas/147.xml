@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sue Bradbury</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21066</id>
+<mls>9127560</mls>
+<house_location>8700 Monticello Drive (Ad # 452)
+Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$99,921</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Close to the front gate in a wonderful gated community - Pecan Plantation.  Large covered patio &amp; all kitchen appliances (except compactor) were replaced in 1998. A home warranty is offered with this home.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Pecan Plantation</sub-division>
+<approx_size_sqft>1774</approx_size_sqft>
+<stories>1</stories>
+<year_built>1974</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Gated Community</item>
+<item>Large Covered Patio</item>
+<item>Kitchen Appliances New in 1998</item>
+<item>Ad # 452</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Frank Rainosek</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<mobile>(512)924-1901</mobile>
+<email>rainosek@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21436</id>
+<mls></mls>
+<house_location>172 Misty Lane
+Cedar Creek, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$94,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+
+<house_description>The whole family will enjoy this spacious 3/2 DWMH with two generous living areas!  Many upgrades!  Great country kitchen with breakfast bar and island.  Wonderful master suite with separate shower, double vanities, and walk-in closets!  Storm windows.  Detached workshop. Beautifully landscaped 1+ acres!  Front and rear decks. Paved streets and underground utilities.  Easy commuteto Austin.</house_description>
+
+<school_district>Bastrop</school_district>
+<sub-division>Heritage Oaks</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Spacious Family Home!</item>
+<item>Two Generous Living Areas!</item>
+<item>1+ Beautifully Landscaped Acres!</item>
+<item>Front and Rear Decks!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

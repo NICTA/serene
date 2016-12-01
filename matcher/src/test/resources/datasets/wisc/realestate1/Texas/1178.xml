@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Dean Lindenmeyer</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19820</id>
+<mls>53973</mls>
+<house_location>12027 Highway 1431 East
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$550,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>The perfect Texas Hill Country home.  On 13.7 acres, this 4 bedroom, 3 bath home has a one of a kind master suite with whirlpool tub and raised ceilings with crown molding from the Texas Capital. The kitchen has Jenn-aire appliances, granite counter tops and large breakfast nook. The 3 car garage has guest quarters above with 1 bedroom, 1 bath, kitchenette and office.  A seperate cabin has 1 bedroom, 1 bath with a covered deck.   30 X 40 metal storage building with office space.  Landscaping has stone retaining walls, fountain waterfall, stone patio, decks and mature oaks.</house_description>
+
+<school_district>Marble Falls</school_district>
+<approx_size_sqft>2850</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>13.7</approx_acres>
+<master_bedroom>Upstairs</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Texas Style home on 13.7 acres.</item>
+<item>4 bedroom, 3 bath with wrap around porch.</item>
+<item>Gourmet kitchen, granite countertops,</item>
+<item>3 car garage, guest quarters, office, storage bldg</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

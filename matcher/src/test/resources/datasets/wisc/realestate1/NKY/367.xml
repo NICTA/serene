@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>924 CHANCELLOR CT</house_location>
+<price>$207,900</price>
+<rooms>11</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249933</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>BECKY YUNGBLUTH-LAY</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>FULL BRICK-APPROX 3160SF!OWNER WILL FINANCE @7 1/2% 25YRS
+W/20%DOWN.GORG TREED LOT.DEAD-END ST!LOOK AT THESE ROOM SIZES-5 LG
+BRMS!OPEN FROM KITCHEN TO FAMILYROOM,AIRY! ARCHED DOORWAYS-LOTS OF
+DETAIL TO ATTENTION!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>100X140</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>15 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>16 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>15 X 14</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>14 X 10</dimension><level>2</level></bedroom_5>
+<breakfast><dimension>13 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>16 X 12</dimension><level>1</level></dining>
+<family><dimension>29 X 12</dimension><level>1</level></family>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 6</dimension><level>2</level></laundry>
+<living><dimension>19 X 16</dimension><level>1</level></living>
+<master><dimension>16 X 16</dimension><level>2</level></master>
+<study><dimension>13 X 11</dimension><level>1</level></study>
+
+<directions>RT 18 TO HOPEFUL CHURCH RD TO R ON CHANCELLORF</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2606 EASTERN</house_location>
+<price>$126,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>(Carport)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249953</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>MARILYN BREIER</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>SPARKLING RIVERVIEW FROM THIS 3 BR BRICK RANCH SITUATED ON DOUBLE LOT!
+CERAMIC TILE COUNTERS IN TOTALLY EQUIPPED KIT, SWING BATH OFF MASTER
+BR &amp; HALL. WBFP, SECURITY SYSTEM, WALK OUT LOWER LEVEL. IMMED.
+OCCUPANCY.</house_description>
+<construction>Alum</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 9</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>17 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 8</dimension><level>1</level></kitchen>
+<living><dimension>22 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>MADISON TO E. 26TH STREET, R. EASTERN.</directions>
+</house_listing>
+
+
+

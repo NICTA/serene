@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This single family home built in 1940 has 3 bedroom(s), 2 bath(s) and
+approximately 2228 square feet of living area. Rooms include dining
+room, family room. Features include view, fireplace, air conditioning,
+satellite dish.</house_description>
+
+<agent_name>Patricia Soloperto</agent_name>
+<direct>305-807-9302</direct>
+<office>305-754-5546</office>
+<firm_name>Miami Shores Realt Miami Shores Realt
+Lic. Real Estate Broker</firm_name>
+<phone>305-754-5546</phone>
+<fax>305-756-6715</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$194,500</list_price>
+<location>345 NE 100 St</location>
+<neighborhood>Miami Shores Sec 1 Amd</neighborhood>
+<mls>M768065</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2228 (approx)</square_feet>
+<lot_size>75 X 115</lot_size>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<fireplace>Yes</fireplace>
+<patio>Open Porch</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room</rooms>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Fenced, Foyer, Outdoor Lights, Satellite Dish
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

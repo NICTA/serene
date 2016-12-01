@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1967 has 2 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1120 square feet of living area. Features
+include private spa, air conditioning.</house_description>
+
+<agent_name>Yiganis Taljebini</agent_name>
+<direct>305-710-2166</direct>
+<office>305-865-2222</office>
+<firm_name>Oceanfront Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-865-2222</phone>
+<fax>305-865-2221</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$195,000</list_price>
+<location>5401 Collins Av #325</location>
+<neighborhood>The Carriage House Condo</neighborhood>
+<mls>M776334</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1120 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Intracoastal, Water front</location>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Tennis Court(s), Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Duffy&amp; LaRoe-REALTORS</name>
+<location>4505 Hwy. 6 North Houston, TX 77084</location>
+<office>(281)463-1141</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)463-2184</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Allen</name>
+<office>(281)463-1141</office>
+<fax>(281)345-8761</fax>
+<email>ltallen@loriallen.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13314</id>
+<mls>184392</mls>
+<house_location>8610 Laurel Trails
+Houston, TEXAS 77095</house_location>
+<county>Harris</county>
+<price>$79,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This charming home features 2 bedrooms and a study or 3 bedrooms plus 2 full baths.  Fresh carpet, paint in and out, Heat/AC and roof make this home ready for you!  The original owners have maintained and updated this home to perfection adding custom features like chair railing, crown moulding, custom shelving and custom closets.  Neat as a pin landscaping and decking make this garden home a delight inside as well as out!  Fantastic Cy-Fair Schools, a great community atmosphere and conventience to shopping, churches, medical and transit facilities make this home's location perfect!</house_description>
+
+<move-in_date>3/15/99</move-in_date>
+<school_district>Cyfair</school_district>
+<sub-division>Copperfield</sub-division>
+<approx_size_sqft>1200</approx_size_sqft>
+<stories>1</stories>
+<year_built>1984</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Customized Closets</item>
+<item>Well Maintained</item>
+<item>Patio and Deck</item>
+<item>Great Schools</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>10462 REMY LN</house_location>
+<price>$95,100</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249546</mls>
+<house_type>Single Family</house_type>
+<firm>PREFERRED PROPERTIES</firm>
+<firm_phone>(606) 371-4777</firm_phone>
+<agent>JOAN DIXON</agent>
+<agent_phone>(606) 371-4777</agent_phone>
+<house_description>WWW.NKYPROPERTIES.COM-KEYSTONE HOME BUILDERS WESTPOINT. SPACIOUS 2
+BDRM BI-LEVEL W/ 1 CAR GAR, CATHEDRAL CEILINGS, 10 X 10 DECK OFF
+EAT-IN KITCHEN COMPLETE FEB 2000</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>55x118</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*</semiannual_taxes>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>13 X 13</dimension><level>1</level></kitchen>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>MT ZION TO S ON US 25 TO R ON FRANK DUKE TO LEFT
+ON REMY LN</directions>
+</house_listing>
+
+
+

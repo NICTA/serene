@@ -1,0 +1,68 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Debbie</email>
+</firm_information>
+
+<agent_information>
+<name>Miller</name>
+<office>(281)403-6500</office>
+<fax>(281)431-2131</fax>
+<voice_mail>(281)242-6500 225</voice_mail>
+<mobile>(281)686-1175</mobile>
+<email>dmiller@argolink.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12358</id>
+<mls>172280</mls>
+<house_location>2902 Bull Run
+Missouri City, TEXAS 77459</house_location>
+<county>Fort Bend</county>
+<price>$199,999</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Estate-like setting on 3/4 acre cul-de-sac lot, well maintained, fresh paint inside and outside, huge rooms and closets, 24ft. round above ground pool, too many features to list. Spotless and like new for the pickest buyer.</house_description>
+
+<move-in_date>2/19/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Vicksburg/shiloh</sub-division>
+<approx_size_sqft>4466</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>3/4 Acre</approx_lot_size>
+<year_built>1989</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Huge cul-de-sac lot</item>
+<item>Fresh paint in and out</item>
+<item>Island Kitchen</item>
+<item>Above ground pool</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

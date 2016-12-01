@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1974 has 3 bedroom(s), 2
+bath(s) and approximately 1396 square feet of living area. Rooms
+include master bedroom. Features include view, private pool, patio,
+fireplace, storage space.</house_description>
+
+<agent_name>Judith Connell</agent_name>
+<direct>520-918-5858</direct>
+<office>520-918-4800</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-918-4800</phone>
+<fax>520-296-6093</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$119,000</list_price>
+<location>3011 W Holladay St</location>
+<mls>9916336</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1396 (approx)</square_feet>
+<year_built>1974</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

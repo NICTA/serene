@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1989 has 2 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 2152 square
+feet of living area. Rooms include den, bonus room, master bedroom.
+Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Cathy Handrigan</agent_name>
+<direct>520-825-8142</direct>
+<office>520-825-7955</office>
+<firm_name>Sunlakes Rlty, Saddlebrooke Br</firm_name>
+<phone>520-825-7955</phone>
+<fax>520-825-8824</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$228,000</list_price>
+<location>64555 E Round Robin Ln</location>
+<mls>2000584</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2152 (approx)</square_feet>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

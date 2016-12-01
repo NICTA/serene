@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ann Murray</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)929-6690</mobile>
+<email>AnnCanC21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17354</id>
+<mls>9062258</mls>
+<house_location>117 CLIFFSIDE DR . S.
+Burleson, TEXAS 76028</house_location>
+<county>Tarrant</county>
+<price>$172,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>THIS SPACIOUS 3/3/3 IS A MUST SEE.  YOU WILL FIND INSIDE TWO LIVING AREAS,(ONE THAT MIGHT BE CONVERTED EASILY TO A FOURTH BEDROOM WITH PRIVATE BATH), A GAME ROOM A GARDEN ROOM AND HOT TUB. KITCHEN FEATURES BUILT-INS GALORE. IN THE BEDROOMS YOU WILL FIND WALK-IN CLOSETS, AND BATHS WITH SPLIT VANITIES.  THE BEAUTIFUL BACKYARD FEATURES A COVERED PATIO, AND AN OPEN BRICK PATIO WITH A ROCK WALKWAY.</house_description>
+
+<school_district>Burleson Isd</school_district>
+<sub-division>The Cliffs</sub-division>
+<approx_size_sqft>2874</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>14159SFt</approx_lot_size>
+<approx_acres>0.32</approx_acres>
+<year_built>1976</year_built>
+<master_bedroom>N/A</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Gameroom</item>
+<item>WBFP</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1967 has 1 bedroom(s), 1 bath(s) , 1 car
+attached garage and approximately 570 square feet of living area.</house_description>
+
+<agent_name>Farouk Gongee</agent_name>
+<direct>305-535-4167</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$114,000</list_price>
+<location>5401 Collins Av #1115</location>
+<neighborhood>The Carriage House Condo</neighborhood>
+<mls>M747805</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>570 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

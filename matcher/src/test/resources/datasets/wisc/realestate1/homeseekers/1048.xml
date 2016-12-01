@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This condominium built in 1925 has 1 bedroom(s), 1 bath(s) . Features
+include air conditioning.</house_description>
+
+<agent_name>Marco Giancola</agent_name>
+<direct>322-8266</direct>
+<office>531-2299</office>
+<firm_name>Newstar Rlty &amp; Dev
+Lic. Real Estate Broker</firm_name>
+<phone>531-2299</phone>
+<fax>305-531-3147</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$77,900</list_price>
+<location>1369 Pennsylvania Av #109</location>
+<neighborhood>Everglades East</neighborhood>
+<mls>M768227</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

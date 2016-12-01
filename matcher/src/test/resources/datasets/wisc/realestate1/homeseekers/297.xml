@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1940 has 2
+bedroom(s), 1 bath(s) and approximately 888 square feet of living
+area.</house_description>
+
+<agent_name>Jim Rodriguez</agent_name>
+<direct>213-307-5398</direct>
+<office>323-728-2111</office>
+<firm_name>Century 21 George Michael Real Century 21 George Michael Real</firm_name>
+<phone>323-728-2111</phone>
+<fax>323-721-0922</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$114,900</list_price>
+<location>137 E 122Nd St</location>
+<mls>M903747</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>888 (approx)</square_feet>
+<lot_size>9359</lot_size>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

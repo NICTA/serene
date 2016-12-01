@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>6900 US #52</house_location>
+<price>$59,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>RIPLEY</suburb>
+<school_dist>RUHL</school_dist>
+<mls>247513</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>VICKIE GOLBERG</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>WELL MAINTAINED UNDERPINNED MOBILE HOME. LOCATED ON RIVERFRONT LOT,
+MATURE TREES, NICE ENCLOSED REAR PORCH, LANDING AT RIVER FRONT WITH
+STEPS TO BOAT DOCK. GREAT WEEKEND GETAWAY, JUST WATCH THE BOATS WHILE
+YOU FISH!!</house_description>
+<construction>Alum</construction>
+<heating>Electric</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$233.39</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 8</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<living><dimension>15 X 12</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>FROM MAYSVILLE CROSS BRIDGE TO ABERDEEN TAKE L
+TO 6900 US #52 TAKE L TOWARD RIVER</directions>
+</house_listing>
+
+
+

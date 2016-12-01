@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>Very nice home, four bedroom, 1.5 bathroom, large living room, 2 car
+attached garage. Property will get new paint in &amp; out. New gate in
+front.</house_description>
+
+<agent_name>Steve Roberson</agent_name>
+<direct>562-928-2327</direct>
+<office>562-927-2626</office>
+<firm_name>C-21 My Real Estate C-21 My Real Estate</firm_name>
+<phone>562-927-2626</phone>
+<fax>562-928-1474</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,900</list_price>
+<location>Los Angeles, CA 90003</location>
+<mls>Y93956</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1.5</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1300 (approx)</square_feet>
+<lot_size>5040 (approx)</lot_size>
+<year_built>1978</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Living Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

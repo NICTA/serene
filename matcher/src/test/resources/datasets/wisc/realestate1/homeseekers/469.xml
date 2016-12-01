@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1967 has 1 bedroom(s), 1 bath(s) and
+approximately 940 square feet of living area. Rooms include dining
+room, master bedroom. Features include air conditioning.</house_description>
+
+<agent_name>Iris Ralston</agent_name>
+<direct>202-488-7132</direct>
+<office>301-654-3535</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-654-3535</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$75,000</list_price>
+<location>Washington, DC 20024</location>
+<mls>DC3109975</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>940 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Central, Forced Air</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

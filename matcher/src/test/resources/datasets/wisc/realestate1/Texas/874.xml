@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Thelma Sorgman</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5952</voice_mail>
+<email>ranch@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11098</id>
+<mls>469663</mls>
+<house_location>7007 Carwill
+Austin, TEXAS 78724</house_location>
+<county>Travis</county>
+<price>$63,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>EASY ACCESS TO HWY 183, HWY 290, &amp; HWY 71. NEAR SAMSUNG &amp; MOTOROLA. HAS 144 SQ FT  BONUS ROOM IN BACK YARD THAT IS INSULATED AND WIRED WITH ELECTRICITY.ENERGY EFFICIENT WITH SOLAR SCREENS &amp; CIELING FANS. ATTIC STORAGE. INDOOR UTILITIES. FRESH PAINT, SPRUCING UP, &amp;  YARD WORK IN PROGRESS. PARK W/ PLAYGROUND AND COMMUNITY POOL NEAR BY. EXCELLENT PRICE!</house_description>
+
+<move-in_date>9/30/98</move-in_date>
+<school_district>Austin ISD</school_district>
+<sub-division>Colony Park</sub-division>
+<approx_size_sqft>1460</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60 X 110</approx_lot_size>
+<year_built>1973</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>FENCED BACK YARD</item>
+<item>VINYL SIDING</item>
+<item>LARGE LIVING ROOM</item>
+<item>EASY ACCESS TO ALL MAJOR HWYS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

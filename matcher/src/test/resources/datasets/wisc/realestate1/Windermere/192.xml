@@ -1,0 +1,34 @@
+<house_listing>
+<price>$252,000</price>
+<mls_id_number>153865</mls_id_number>
+<city>WOODBURN</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.50</bathrooms>
+<sqft>1269</sqft>
+<year_built>1925</year_built>
+<heat>Electric Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>SHINGLE</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>1.17        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Built In Vaccuum System</interior>
+<exterior>Porch, Tool Shed, Patio,</exterior>
+<site>Water: PRIVATE Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>LINCOLN</elementary>
+<middle_school>FRENCH PRARIE</middle_school>
+<high_school>WOODBURN</high_school>
+</schools>
+
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1985 has 3 bedroom(s), 3
+bath(s) , 2 car garage and approximately 3300 square feet of living
+area. Rooms include dining room. Features include view, private pool,
+patio, fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>David Karmel</agent_name>
+<direct>520-977-5145</direct>
+<office>520-885-6664</office>
+<firm_name>David Karmel Realty &amp; Investme</firm_name>
+<phone>520-885-6664</phone>
+<fax>520-</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$369,000</list_price>
+<location>4081 E Bujia Primera</location>
+<mls>9920801</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>3300 (approx)</square_feet>
+<lot_size>100X216X153X221</lot_size>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

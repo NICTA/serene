@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Hallowell</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email>hallowell@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19437</id>
+<mls>9097602</mls>
+<house_location>6100 Bontura Court (Ad # 448)
+Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$132,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Well maintained home with mother-in-law addition.  Kitchen has been updated.  Garage has a large workshop.  Nice landscaping, sprinkler system &amp; large pecan trees.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Pecan Plantation</sub-division>
+<approx_size_sqft>2474</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>96x195x61x63x162</approx_lot_size>
+<year_built>1982</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Updated Kitchen</item>
+<item>Mother-in-Law Addition</item>
+<item>Large Pecan Trees&amp; Landscaped</item>
+<item>Sprinkler System &amp; Workshop in Garage</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

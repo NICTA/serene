@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level townhouse built in 1994 has 3 bedroom(s), 3 bath(s) and
+approximately 1636 square feet of living area. Rooms include master
+bedroom. Features include view, patio, fireplace, air conditioning,
+storage space.</house_description>
+
+<agent_name>Joan Hedlund</agent_name>
+<direct>520-760-1723</direct>
+<office>520-577-7433</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-577-7433</phone>
+<fax>520-577-5417</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$117,900</list_price>
+<location>10119 E Achi St</location>
+<mls>9905179</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<square_feet>1636 (approx)</square_feet>
+<lot_size>18X75</lot_size>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

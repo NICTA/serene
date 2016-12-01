@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1951 has 3 bedroom(s), 2 bath(s) and
+approximately 2310 square feet of living area.</house_description>
+
+<agent_name>Ken Dailey</agent_name>
+<direct>303-674-0329</direct>
+<office>303-399-9930</office>
+<firm_name>Lawser Realty</firm_name>
+<phone>303-399-9930</phone>
+<fax>303-674-8954</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$230,000</list_price>
+<location>3200 Monaco Pk</location>
+<neighborhood>Dne</neighborhood>
+<mls>385036</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2310 (approx)</square_feet>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

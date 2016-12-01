@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Deedee Jones</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 24</voice_mail>
+<email>quadj@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16498</id>
+<mls>9062535</mls>
+<house_location>2877 FM 200 North
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$335,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Gracious country living in this beautiful home on 8.59 acres surrounded by pecan trees and fruit trees.  Plenty of room for whatever you want to do.  Inground pool, hot tub, gazebo, petrified wood fireplace, cherry wood floors and built-in bookshelves in the library, all add to the elegance of this home.</house_description>
+
+<move-in_date>11/30/99</move-in_date>
+<school_district>Glen Rose</school_district>
+<approx_size_sqft>4500</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>8.59</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Beautiful pecan and fruit trees</item>
+<item>Inground pool and hot tub</item>
+<item>One of a kind petrified wood fireplace</item>
+<item>Extra bonus rooms</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_location>218 DEVERILL</house_location>
+<price>$49,000</price>
+<rooms>3</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>(Detached)</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>248011</mls>
+<house_type>Single Family</house_type>
+<firm>T.H.-1 REALTY L.L.C.</firm>
+<firm_phone>(606) 426-8700</firm_phone>
+<agent>TOM HELSON, JR</agent>
+<agent_phone>(606) 426-8700</agent_phone>
+<house_description>TENANT OCCUPIED @$475/MO.1 YR LEASE. DETACHED GARAGE, 1 BEDRM, OFF ST
+PARK, AGENTS CALL YOUR INVESTORS.LARGE DECK OFF KITCHEN.NEWER CONCRETE
+WORK ON FRONT PORCH. CALL TOM AT 426-8700 ON LOCK BOX.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Wall Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>14 X 11</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>13 X 15</dimension><level>1</level></kitchen>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+
+<directions>OAK STREET TO LEFT ON DEVERILL</directions>
+</house_listing>
+
+
+

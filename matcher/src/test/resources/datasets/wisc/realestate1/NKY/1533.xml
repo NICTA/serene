@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>2145 TANTALLON</house_location>
+<price>$169,900</price>
+<rooms>8</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>FT MITCHELL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249710</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>MARY ANN PEARMAN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>UPGRADED RANCH*NEW KIT/CARPET/PAINT*EASY TO SHOW*SKYLIGHTS*CEN
+VAC*SOLAR TINTED WINDOWS*GARAGE W/LOFT*REC RM PLUS GAME RM W/WET BAR &amp;
+BOOKCASES* CABINETS GALORE*WINDOW TREATMENTS*MOVE IN CONDITION.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>115</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>14 X 10</dimension><level>L</level></bedroom_2>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<family><dimension>21 X 11</dimension><level>L</level></family>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 6</dimension><level>L</level></laundry>
+<living><dimension>19 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+<recreation_room><dimension>15 X 12</dimension><level>L</level></recreation_room>
+
+<directions>BEECHWOOD TO DOMINION TO TANTALLON [FT
+MITCHELL PLACE]</directions>
+</house_listing>
+
+
+

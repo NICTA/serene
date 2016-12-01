@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Action -Northwest San Antonio</name>
+<location>2900 Mossrock Dr., Suite 350 San Antonio, TX 78230</location>
+<office>(210)366-1510</office>
+<toll_free></toll_free>
+<fax>(210)366-0153</fax>
+<email>c21actsa@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mike McMullen</name>
+<office>(210)366-1510</office>
+<fax>(210)366-0153</fax>
+<email>c21actsa@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19975</id>
+<mls>318880</mls>
+<house_location>8766 Ridge Mile
+San Antonio, TEXAS 78239</house_location>
+<county>Bexar</county>
+<price>$66,998</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Open plan with large back yard and covered patio. Recently painted and new roof. Looks great! View of pond and open fiels from back yard. There are no homes behind this house. AON home protection plan offered for buyer. Seller flexible on closing and possession.</house_description>
+
+<school_district>North East</school_district>
+<sub-division>Crownwood</sub-division>
+<approx_size_sqft>1263</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>55 x 130</approx_lot_size>
+<year_built>1984</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Open, Flowing Plan</item>
+<item>Split Bedrooms</item>
+<item>Covered Patio</item>
+<item>Large Yard with View</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

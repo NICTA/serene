@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium built in 1925 has 1 bedroom(s), 2 bath(s) and
+approximately 570 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Augustine Leo, P.A</agent_name>
+<direct>305-666-1226</direct>
+<office>305-443-9001</office>
+<firm_name>Arvida Realty Serv Arvida Realty Serv
+Lic. Real Estate Broker</firm_name>
+<phone>305-443-9001</phone>
+<fax>305-444-4266</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$54,900</list_price>
+<location>1320 Drexel Av #101</location>
+<neighborhood>Windsor Plaza Condo</neighborhood>
+<mls>M760328</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>570 (approx)</square_feet>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1991 has 4 bedroom(s), 3 bath(s) , 3
+car garage. Rooms include dining room, master bedroom. Features
+include view, private pool, private spa, patio, fireplace.</house_description>
+
+<agent_name>Bonny L. Holland</agent_name>
+<office>480-460-7440</office>
+<firm_name>Russ Lyon Realty Co</firm_name>
+<phone>480-460-7440</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$439,000</list_price>
+<location>Phoenix, AZ 85048</location>
+<mls>1460863</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>10,001-12,500</lot_size>
+<year_built>1991</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Multi Zoned</heating>
+<fireplace>Family Room</fireplace>
+<location>On golf course</location>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s),Dishwasher, Eat In Kitchen, Garage Door Opener, Microwave, Pantry,Trash Compacter, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

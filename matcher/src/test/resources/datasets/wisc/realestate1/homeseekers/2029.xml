@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level home built in 1959 has 1 bedroom(s), 1 bath(s) and
+approximately 750 square feet of living area. Rooms include dining
+room, living room, bonus room, master bedroom. Features include air
+conditioning.</house_description>
+
+<agent_name>Nancy Poat</agent_name>
+<direct>301-622-1328</direct>
+<office>301-907-7600</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-907-7600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$68,500</list_price>
+<location>Washington, DC 20007</location>
+<mls>DC3082589</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>CoOp</type>
+<square_feet>750 (approx)</square_feet>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Beautiful 2 bedroom with new carpet, new paint in immaculate
+condition.</house_description>
+
+<agent_name>Christine Monson</agent_name>
+<office>757-464-2222</office>
+<firm_name>C 21-American Realty</firm_name>
+<phone>757-464-2222</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$69,000</list_price>
+<location>Virginia Beach, VA 23455</location>
+<mls>9933004</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<style>Contemporary</style>
+<square_feet>1045 (approx)</square_feet>
+<year_built>1988</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>Patio</patio>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Contemporary Style, Storage Space, Utility Room, Walk-InCloset(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

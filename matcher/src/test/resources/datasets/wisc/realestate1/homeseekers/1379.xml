@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1971 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) , 1 car garage and approximately 910 square feet of living
+area. Features include private pool, air conditioning.</house_description>
+
+<agent_name>Daniel Burdak</agent_name>
+<direct>305-729-1212</direct>
+<office>305-372-0114</office>
+<firm_name>Brickell Investmen
+Lic. Real Estate Broker</firm_name>
+<phone>305-372-0114</phone>
+<fax>305-374-7339</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$124,500</list_price>
+<location>6039 Collins Av #1219</location>
+<neighborhood>Maison Grande Condo</neighborhood>
+<mls>M769515</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>910 (approx)</square_feet>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

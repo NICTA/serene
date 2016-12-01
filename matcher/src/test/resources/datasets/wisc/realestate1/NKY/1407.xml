@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>12 E 29TH</house_location>
+<price>$68,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249122</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>PAULA HAMM</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>ADDL. PHOTOS WWW.STAR-ONE.COM* NICE HOME, KITCHEN UPDATED INCLUDING
+NEW BAY WINDOW.BOTH BDRMS HAVE 2 WALK-IN CLOSETS,ALSO NEW
+WINDOWS,NEWER ROOF,GUTTER DOWNSPOUTS.FR/BSMT COULD BE 3RD BEDROOM.WILL
+PASS COV.'YES YOU CAN PROGRAM'</house_description>
+<construction>Brick,Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Elec,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>35 x 90</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>B</level></bath_2>
+<bedroom_2><dimension>14 X 13</dimension><level>2</level></bedroom_2>
+<dining><dimension>16 X 10</dimension><level>1</level></dining>
+<family><dimension>17 X 13</dimension><level>B</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<living><dimension>18 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>2</level></master>
+
+<directions>DECOURSEY TO E. 29TH BEHIND SHELL GAS STATION</directions>
+</house_listing>
+
+
+

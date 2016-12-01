@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Alicia Stonick</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21250</id>
+<mls>9130285</mls>
+<house_location>201 W. Pearl Street (Ad # 158)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$395,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>5</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Operating Bed &amp; Breakfast!  Historical marker, completely restored, 12 ft ceilings, hardwood floors, commercial kitchen &amp; 3 room carriage house.  This one will take your breath away.  One block from Historical Granbury Square.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Thrash</sub-division>
+<approx_size_sqft>3215</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>120x75x122x75</approx_lot_size>
+<year_built>1880</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Operating Bed &amp; Breakfast</item>
+<item>Completely Restored - Beautiful</item>
+<item>Commercial Kitchen, 3 Room Carriage House</item>
+<item>Ad # 158</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

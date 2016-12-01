@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>731 BRITTANY TRAIL</house_location>
+<price>$239,900</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>244659</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>KRISTI BURNS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>ONE OWNER HOME, IMMACULATELY MAINTAINED, EXPANDED ST ANDREWS, CUSTOM
+INGROUND POOL, 3 TIER DECK WITH GAZEBO, PARTIALLY WOODED LOT,
+CONVENIENT LOCATION, LOADED WITH UPGRADES, TASTEFULLY DECORATED.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Aerobic</sewer>
+<lot_dimensions>150X430</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>15 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 11</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>11 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 14</dimension><level>1</level></dining>
+<family><dimension>20 X 16</dimension><level>1</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>16 X 14</dimension><level>1</level></living>
+<master><dimension>18 X 14</dimension><level>2</level></master>
+
+<directions>MT. ZION TO TIBURON TO L ON BRITTANY TRAIL</directions>
+</house_listing>
+
+
+

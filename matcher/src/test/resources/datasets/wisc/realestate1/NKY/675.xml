@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>1017 FOREST</house_location>
+<price>$49,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>246526</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>JOSEPH DORSEY</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>INTERIOR PHOTO WWW.SIBCYCLINE.COM. NICE FIRST TIME BUYERS HOME IN GOOD
+&amp; CLEAN CONDITION. DOUBLE LOT. PRETTY SIDEYARD WITH LOTS OF SHADE
+TREES. VIEW OF CINTI. REPLACEMENT WINDOWS. REF. INCLUDED. GOOD SIZED
+RMS.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Electric,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>DOUBLE</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 9</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>15 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+
+<directions>RT 8 WEST TO LUDLOW, L AT ALTAMONT R AT JOHN L
+AT LITTLE JOHN L ON FOREST</directions>
+</house_listing>
+
+
+

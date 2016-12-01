@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1993 has 4 bedroom(s), 3
+bath(s) , 3 car garage and approximately 2711 square feet of living
+area. Features include view, patio, air conditioning.</house_description>
+
+<agent_name>David Hall</agent_name>
+<direct>520-977-7320</direct>
+<office>520-790-7320</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-790-7320</phone>
+<fax>520-790-7574</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$164,990</list_price>
+<location>9151 N Alabaster Pl</location>
+<mls>9920931</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2711 (approx)</square_feet>
+<year_built>1993</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

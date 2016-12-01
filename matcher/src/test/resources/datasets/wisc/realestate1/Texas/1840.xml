@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Dana Skiles</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>dskiles@c21rapp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19243</id>
+<mls>9094891</mls>
+<house_location>500 Old Cleburne-Whitney Rd.
+Rio Vista, TEXAS 76093</house_location>
+<county>Johnson</county>
+<price>$89,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>CUTE STONE &amp; BRICK, 3-2-2 walking distance to elementary school, neat as a pin and it sits on almost one acre. Gazebo for covered picnics.</house_description>
+
+<school_district>1</school_district>
+<sub-division>1</sub-division>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

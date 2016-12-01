@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Enid Harrel</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19264</id>
+<mls>R26052</mls>
+<house_location>HCR8 Box 45-Beeville
+Beeville, TEXAS</house_location>
+<price>$137,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>20</full_baths>
+<half_baths>1</half_baths>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Call Listing office for directions or meets and bounds.</house_description>
+
+<school_district>Beeville</school_district>
+<sub-division>Rural Land</sub-division>
+<approx_size_sqft>2784</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>36-37acres</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<well>Yes</well>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

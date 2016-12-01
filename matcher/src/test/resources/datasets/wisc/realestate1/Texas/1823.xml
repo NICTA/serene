@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Eldon McGill</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)331-6644 x137</voice_mail>
+<mobile>(512)219-6610</mobile>
+<email>eamcgill@msn.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21227</id>
+<mls>527369</mls>
+<house_location>4535 Priem Lane
+Pflugerville, TEXAS 78660</house_location>
+<county>Travis</county>
+<price>$122,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Completely renovated 1930's house on 1 acre.  Everything is new inside.</house_description>
+
+<school_district>Pflugerville</school_district>
+<sub-division>Conrad</sub-division>
+<approx_size_sqft>1367</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<year_built>1940</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Country</item>
+<item>Acre Lot</item>
+<item>New Inside</item>
+<item>Available Now</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

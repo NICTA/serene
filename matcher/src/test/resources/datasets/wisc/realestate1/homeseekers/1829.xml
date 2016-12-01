@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Lovely 3rd floor 2 bedroom condo with loft. Bedroom with separate
+office space. New paint and carpet throughout. Peek-a-boo view of
+rudee.</house_description>
+
+<agent_name>Susan Tucker-Witt</agent_name>
+<direct>499-5911</direct>
+<office>757-499-5911</office>
+<firm_name>Realty Consultants</firm_name>
+<phone>757-499-5911</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$122,000</list_price>
+<location>Virginia Beach, VA 23451</location>
+<mls>9928087</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Townhouse/Condo</type>
+<square_feet>1300 (approx)</square_feet>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Ceiling Fan(s), Fenced, Loft, Pantry,Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

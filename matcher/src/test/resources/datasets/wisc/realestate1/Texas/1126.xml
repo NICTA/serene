@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Action -Northwest San Antonio</name>
+<location>2900 Mossrock Dr., Suite 350 San Antonio, TX 78230</location>
+<office>(210)366-1510</office>
+<toll_free></toll_free>
+<fax>(210)366-0153</fax>
+<email>c21actsa@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mike McMullen</name>
+<office>(210)366-1510</office>
+<fax>(210)366-0153</fax>
+<email>c21actsa@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19972</id>
+<mls>318939</mls>
+<house_location>8739 Timber Point
+San Antonio, TEXAS 78250</house_location>
+<county>Bexar</county>
+<price>$83,995</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Large single living in open, flowing, multi-level plan, good landscaping with many trees, front &amp; back, quiet neighborhood. Kids can walk to school without crossing a street. New roof 2 years ago, exterior paint in progress. Seller will consider leaving washer, dryer and refrigerator with full price offer. AON home protection plan offered for buyer.</house_description>
+
+<school_district>Northside</school_district>
+<sub-division>Silver Creek</sub-division>
+<approx_size_sqft>1586</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>69 x 123</approx_lot_size>
+<year_built>1978</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Single Living in Open, Flowing, Multi-Level</item>
+<item>Many, Many Trees, Good Landscaping</item>
+<item>Quiet Neighborhood, Kids walk to School</item>
+<item>Roof Two Years Old, Paint In Progress</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

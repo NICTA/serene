@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Bobby Gronewald</name>
+<location>223 W. Travis La Grange, TX 78945</location>
+<office>(409)968-8471</office>
+<toll_free></toll_free>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bobby Gronewald</name>
+<office>(409)968-8471</office>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18104</id>
+<mls>2217</mls>
+<house_location>747 N Jackson
+La Grange, TEXAS 78945</house_location>
+<county>Fayette</county>
+<price>$45,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Older home is good rental investment.  Some fixing up is needed, has wood flooring that is covered with carpet and vinyl.  This is a 1 1/2 story house, two bedrooms and bath on first floor and one bedroom upstairs.  Home is on pier and beam. Large kitchen, living room and utility, ceiling fans,  Detached garage.  Large lot.  Call Bobby and let him tell you more about this property</house_description>
+
+<school_district>La Grange</school_district>
+<approx_size_sqft>1379</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Good Investment Property</item>
+<item>Good Starter Home</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

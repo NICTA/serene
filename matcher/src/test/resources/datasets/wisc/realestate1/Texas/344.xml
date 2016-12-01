@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>MURLENE WARE</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<voice_mail>(713)814-6112</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11618</id>
+<mls>157372</mls>
+<house_location>2821 MARYLAND
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$65,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>CUTE HOME WITH OLD FASHION FRONT PORCH, LOCATED ON 1.79 ACRES WITH SMALL BARN FOR PETS, HORSES ARE ALLOWED, NEW ROOF 98, HOME DOES NEED A LITTLE COMPLETION WORK. EASY ACCESS TO 1266 AND HWY. 3.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Dickinson Townsite</sub-division>
+<approx_size_sqft>1308</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>78000</approx_lot_size>
+<approx_acres>1.79</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

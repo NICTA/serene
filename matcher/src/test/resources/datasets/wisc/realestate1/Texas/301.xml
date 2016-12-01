@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Hodde Real Estate Division</name>
+<location>112 W.Main St. Brenham, TX 77833</location>
+<office>(409)836-8532</office>
+<toll_free></toll_free>
+<fax>(409)836-1224</fax>
+<email>hlcc@hlcc.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rebecca Counsil</name>
+<office>(409)836-8532</office>
+<fax>(409)836-1224</fax>
+<email>hlcc@hlcc.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7443</id>
+<mls>HLC#301</mls>
+<house_location>1707 South Day St.
+Brenham, TEXAS 77833</house_location>
+<county>Washington</county>
+<price>$185,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>Country Comfort with City ConveniencesLocated on corner lot, this home offers comfort and convenience for anyone.  The home has five bedrooms, two and half baths, kitchen, formal dining room, living room, and a corner wrap around porch.  Located in the back of the house is a three car garage with a two bedroom, one bath, kitchen, and living room garage apartment.  The garage apartment was recently built (1997).The house has recently been repainted and remodeled.</house_description>
+
+<school_district>Brenham</school_district>
+<approx_size_sqft>1431</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

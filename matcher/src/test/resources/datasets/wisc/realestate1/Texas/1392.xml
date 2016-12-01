@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>MADELINE OBRIEN</name>
+<office>(713)621-4953</office>
+<fax></fax>
+<voice_mail>(713)621-4953 148</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11797</id>
+<mls>170504</mls>
+<house_location>5100 SAN FELIPE #83
+Houston, TEXAS 77056</house_location>
+<county>Harris</county>
+<price>$250,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>VIEW THE CITY LIGHTS FROM THIS GOOD LOOKING 2-2 1/2 HOME IN FOUR LEAF TOWER. SIMPLICITY CHARACTERIZES THIS VERY WELL CARED FOR HOME. BEAUTIFUL BLEACHED HARDWOOD FLOORING IN ENTRY, HALLWAY &amp; KITCHEN. HANDSOME CUSTOM WOOD PLANTATION SHUTTERS COVER TWO LARGE WINDOWS  IN THE LIVING/DINING. LIGHT COLORS THROUGHOUT. WALKING DISTANCE TO ALL SHOPPING. 1675 SQ.FT. PER HCAD. BUILDING HAS GREAT SERVICES.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Four Leaf Tower</sub-division>
+<approx_size_sqft>1675</approx_size_sqft>
+<stories>1</stories>
+<year_built>1981</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>BEAUTIFUL BLEACHED HARDWOOD FLOORING IN ENTRY</item>
+<item>HANDSOM CUSTOM WOOD PLANTATION SHUTTERS</item>
+<item>WALKING DISTANCE TO ALL SHOPPING</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1983 has 5 bedroom(s), 4 full
+bath(s)/1 half bath(s) , 3 car garage and approximately 3562 square
+feet of living area. Features include view, private pool, private spa,
+fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Henry Thompson</agent_name>
+<direct>520-577-3376</direct>
+<office>520-577-7433</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-577-7433</phone>
+<fax>520-577-5417</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$289,900</list_price>
+<location>4553 E San Carlos Pl</location>
+<mls>9918153</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4(full) 1(half)</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>3562 (approx)</square_feet>
+<lot_size>167X275.48X167X300</lot_size>
+<year_built>1983</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<pool>Yes</pool>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

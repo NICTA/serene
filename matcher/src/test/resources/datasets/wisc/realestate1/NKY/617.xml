@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>1024 RUSSELL</house_location>
+<price>$120,000</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249493</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>DAVE MIDDENDORF</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>HOME IN HISTORIC SEMINARY SQUARE. LOTS OF CHARM! 4 BEDROOMS, 3 FULL
+BATHS, 3RD FLOOR IS SET UP FOR STUDIO APT. CAN PURCHASE 1022 AND 1024
+AS PACKAGE. THIS IS A MUST SEE!</house_description>
+<construction>Brick,Stone</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air,Window Unit</cooling>
+<fireplace>Wood,Dummy,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>20 x 114</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>3</level></bath_3>
+<bedroom_2><dimension>15 X 19</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>20</dimension><level>X</level></bedroom_4>
+<family><dimension>16 X 20</dimension><level>1</level></family>
+<kitchen><dimension>15 X 14</dimension><level>1</level></kitchen>
+<living><dimension>18 X 14</dimension><level>1</level></living>
+<master><dimension>20 X 20</dimension><level>2</level></master>
+
+<directions>I-75 COVINGTON TO 12TH STREET EXIT 12TH TO
+RUSSELL (1ST LEFT)</directions>
+</house_listing>
+
+
+

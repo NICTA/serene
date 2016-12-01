@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>All brick townhome. Lake view. 2 master suites. Crown molding
+thru-out. Has plenty of closet space. Nice end unit. Seller motivated.</house_description>
+
+<agent_name>Dennis King</agent_name>
+<direct>860-1306</direct>
+<office>757-456-9500</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>757-456-9500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$72,500</list_price>
+<location>Virginia Beach, VA 23464</location>
+<mls>9924275</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Townhouse</type>
+<style>Townhouse</style>
+<square_feet>1350 (approx)</square_feet>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<location>Lake front, Corner</location>
+<patio>Open Porch, Patio</patio>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Ceiling Fan(s), Pantry, StorageSpace, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

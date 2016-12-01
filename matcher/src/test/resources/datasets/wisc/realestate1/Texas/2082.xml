@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Daniel Baladez</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5955</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>16234</id>
+<mls>502611</mls>
+<house_location>Rt.2 Box 31BB
+Bertram, TEXAS 78605</house_location>
+<county>Burnet</county>
+<price>$45,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Mobilhome:Property is on the right hand side.  Owner is very interested in selling.Look at it then bring me on offer.The mobilhome is in very good condition.</house_description>
+
+<sub-division>County Line Estate</sub-division>
+<stories>1</stories>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

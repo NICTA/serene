@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1967 has 2 bedroom(s), 2 full bath(s)/1 half
+bath(s) and approximately 1650 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Allison Ortiz</agent_name>
+<direct>305-860-6773</direct>
+<office>305-866-4000</office>
+<firm_name>Suncoast Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>305-866-4000</phone>
+<fax>305-866-7696</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$227,500</list_price>
+<location>5401 Collins Av #108</location>
+<neighborhood>The Carriage House Condo</neighborhood>
+<mls>M750781</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>1650 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ocean Access
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

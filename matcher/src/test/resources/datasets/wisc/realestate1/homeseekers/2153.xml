@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1971 has 4 bedroom(s), 3 full
+bath(s)/2 half bath(s) , 2 car garage and approximately 3347 square
+feet of living area. Rooms include dining room. Features include view,
+private pool, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Helen Mcelwain</agent_name>
+<direct>520-326-5927</direct>
+<office>520-326-6158</office>
+<firm_name>Mcelwain Company, Inc.</firm_name>
+<phone>520-326-6158</phone>
+<fax>520-327-1926</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$299,500</list_price>
+<location>450 E Janale Cir</location>
+<mls>9914270</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3(full) 2(half)</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>3347 (approx)</square_feet>
+<lot_size>141 X 182 X 179 X 179</lot_size>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

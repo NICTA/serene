@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>630 TRUMAN LANE</house_location>
+<price>$69,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>BELLEVUE</suburb>
+<school_dist>BELLEVUE</school_dist>
+<mls>247923</mls>
+<house_type>Condominium</house_type>
+<firm>BARBARA WEBER REALTY</firm>
+<firm_phone>(606) 635-4333</firm_phone>
+<agent>BARBARA WEBER</agent>
+<agent_phone>(606) 635-4333</agent_phone>
+<house_description>ESTATE SALE-IMMEDIATE POSSESSION-JUST MOVE IN!! ELEVATOR SERVICE FROM
+LL GARAGE AREA AND IN BETWEEN FLOORS. WELL MAINTAINED. COMPLETELY
+EQUIPPED KITCHEN.PARK YOU CAR IN THE ENCL. LL GARAGE &amp; TAKE THE
+ELEVATOR....</house_description>
+<construction>Brick,Vinyl,Stucco</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/z</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>143</hoa_fee>
+<semiannual_taxes>$0000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 11</dimension><level>2</level></dining>
+<kitchen><dimension>9 X 10</dimension><level>2</level></kitchen>
+<living><dimension>13 X 19</dimension><level>2</level></living>
+<master><dimension>12 X 13</dimension><level>2</level></master>
+
+<directions>FAIRFIELD AVE., R ON WARD, LEFT ON LINCOL N,
+RIGHT ON TRUMAN TO BLDG. #630.</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>3302 W CARLISLE</house_location>
+<price>$59,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>240735</mls>
+<house_type>Single Family</house_type>
+<firm>CASSON REALTY</firm>
+<firm_phone>(606) 635-5805</firm_phone>
+<agent>LAMBERT SCHEBEN</agent>
+<agent_phone>(606) 635-5805</agent_phone>
+<house_description>NICE 2 STORY ALUM ON LARGE CORNER LOT REPLACEMENT WINDOWS NEWER
+ELECTRIC WITH BREAKERS WOOD CABINETS IN EAT IN KITCHEN CLOSE TO
+SHOPPING SOLD AS IS</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>999999999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>11 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 15</dimension><level>1</level></master>
+
+<directions>I 275 TO 16 L ON 43W TO R ON CARLISLE</directions>
+</house_listing>
+
+
+

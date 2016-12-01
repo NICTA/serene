@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shirley Hooks</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20263</id>
+<mls>9116143</mls>
+<house_location>1243 Camino Del Rio (Ad # 268)
+Glen Rose, TEXAS 76077</house_location>
+<county>Somervell</county>
+<price>$209,921</price>
+<bedrooms>3</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Lovely river front home!  Spacious lot &amp; rooms with approximately 3000 sq. ft.  Beautiful view &amp; includes a 23x6 balcony.  Country living at its best!</house_description>
+
+<school_district>Glen Rose</school_district>
+<sub-division>Rio Vista Subdivision</sub-division>
+<approx_size_sqft>2978</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1</approx_acres>
+<year_built>1991</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<waterfront>Yes</waterfront>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>River Front Home</item>
+<item>2,978 Sq. Ft. &amp; Spacious Rooms</item>
+<item>Beautiful View &amp; Balcony</item>
+<item>Ad # 268</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

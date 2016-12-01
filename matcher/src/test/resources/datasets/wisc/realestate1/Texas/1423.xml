@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Phyllis Whitaker</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)753-9346</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14804</id>
+<mls>5377</mls>
+<house_location>521 Hunter Ridge Road
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$194,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Lovely family home on wooded lot.  Open and spacious family rooms with fireplace, formal dining room, breakfast area, huge kitchen with cabinets galore.  Decking along the back.</house_description>
+
+<school_district>San Marcos</school_district>
+<sub-division>Hunter Ridge</sub-division>
+<approx_size_sqft>3000</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>1.04</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Master bedroom downstairs.</item>
+<item>Large wooded lot.</item>
+<item>3000+ Square Feet</item>
+<item>Large kitchen and family room.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>280 JACOBS RD</house_location>
+<price>$79,900</price>
+<rooms>7</rooms>
+<bedrooms>5</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>BROOKSVILLE</suburb>
+<school_dist>BRACKEN COU</school_dist>
+<mls>245606</mls>
+<house_type>Single Family</house_type>
+<firm>BARNES REAL ESTATE</firm>
+<firm_phone>(606) 635-5405</firm_phone>
+<agent>PEGGY BARNES</agent>
+<agent_phone>(606) 635-5405</agent_phone>
+<house_description>HUNTERS DREAM OR WEEKEND GETAWAY. FENCED. LOTS OF TREES. ABOUT 40MI
+WILDER EXIT. LOG HOME W/MOBILE ATTACHED. SOLD 'AS IS'. BEAUTIFUL
+LAND-SOME TIMBER &amp; FRUIT TREES. HAS WELL, CISTERN, SEPTIC. PUBLIC
+WATER APX 2MI AWAY.</house_description>
+<construction>Alum,Log</construction>
+<heating>Wood</heating>
+<cooling>None</cooling>
+<fireplace>Insert,Stove</fireplace>
+<gas>None</gas>
+<water>Cistern,Wellwater</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>8 X 6</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>9 X 9</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>10 X 7</dimension><level>1</level></bedroom_5>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<living><dimension>12 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 9</dimension><level>1</level></master>
+
+<directions>AAHWY TO R ON 1159 R ON 19 S 6MI TO L ON
+BELMONT. 2MI TO R ON JACOBS. PROP ON L</directions>
+</house_listing>
+
+
+

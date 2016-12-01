@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>605 OVERTON</house_location>
+<price>$63,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249773</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>RICK FINN</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>3 STORY BRICK HOME IN HISTORIC NEWPORT. 2 FULL BATHS, 1ST FLOOR
+LAUNDRY, ALL APPLIANCES, 3 FIREPLACES, MOVE RIGHT IN. TONS OF
+POTENTIAL-2 FAMILY NEXT DOOR ALSO AVAILABLE.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>19X125</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>15 X 14</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>2</level></master>
+
+<directions>MEMORIAL PKWY TO MONROE TO L ON 9TH, TO R ON
+OVERTON</directions>
+</house_listing>
+
+
+

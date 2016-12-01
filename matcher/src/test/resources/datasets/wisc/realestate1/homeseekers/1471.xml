@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1982 has 3 bedroom(s), 2 bath(s) and
+approximately 1250 square feet of living area. Rooms include dining
+room. Features include storage space.</house_description>
+
+<agent_name>E.N. Anderson</agent_name>
+<direct>520-327-0505</direct>
+<office>520-881-8142</office>
+<firm_name>Kachina Realty</firm_name>
+<phone>520-881-8142</phone>
+<fax>520-</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$107,000</list_price>
+<location>3272 N Mill Ave</location>
+<mls>9918612</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<square_feet>1250 (approx)</square_feet>
+<lot_size>50X80X50X80</lot_size>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Forced Air</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

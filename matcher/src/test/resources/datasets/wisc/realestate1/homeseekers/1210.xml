@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1905 has 3
+bedroom(s), 1 bath(s) , 1 car garage and approximately 1054 square
+feet of living area. Rooms include dining room, living room, bonus
+room.</house_description>
+
+<agent_name>Adrian Sillas</agent_name>
+<direct>310-759-5282</direct>
+<office>323-566-6800</office>
+<firm_name>California Realty &amp; Invsts.</firm_name>
+<phone>323-566-6800</phone>
+<fax>323-258-0360</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,000</list_price>
+<location>5715 Fayette St</location>
+<mls>P200195</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>1054 (approx)</square_feet>
+<lot_size>3644</lot_size>
+<year_built>1905</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Living Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 1 bath(s) . Rooms include
+family room. Features include air conditioning.</house_description>
+
+<agent_name>Barbara Wyatt Yust</agent_name>
+<direct>618-738-2000</direct>
+<office>618-931-2711</office>
+<firm_name>Cvm Realty</firm_name>
+<phone>618-931-2711</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$27,000</list_price>
+<location>1702 Edwardsville Rd</location>
+<mls>9907944</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<lot_size>62.5X112.5</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Forced Air</heating>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>13 MEADOW LA #10</house_location>
+<price>$76,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>HIGHLAND MDWS</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>250149</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>STEVE TUCKER</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>SUPER NICE CONDO. 3RD FLOOR ON BACK OF BLDG W/GREAT VIEW OF WOODS AND
+VALLEY. VAULTED CEILING IN ALL ROOMS. SKYLIGHT IN KITCHEN. STORAGE
+ROOM IN HALLWAY. WALK IN CLOSET</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>NA</lot_dimensions>
+<condo_level>3</condo_level>
+<hoa_fee>98</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>3</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>3</level></bath_2>
+<bedroom_2><dimension>14 X 11</dimension><level>3</level></bedroom_2>
+<dining><dimension>10 X 10</dimension><level>3</level></dining>
+<kitchen><dimension>11 X 8</dimension><level>3</level></kitchen>
+<living><dimension>20 X 13</dimension><level>3</level></living>
+<master><dimension>15 X 12</dimension><level>3</level></master>
+
+<directions>US 27 TO MARTHA L COLLINS TO HIGHLAND MEADOWS
+BLDG #13</directions>
+</house_listing>
+
+
+

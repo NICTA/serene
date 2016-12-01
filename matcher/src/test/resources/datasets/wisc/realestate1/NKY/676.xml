@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>18 E 16TH</house_location>
+<price>$49,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>245721</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>DORA BAKER</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>CAN BE MOTHER/DAUGHTER OR LIVE IN ONE SIDE-RENT OTHER.CURRENTLY USED
+AS DUP LEX-EACH UNIT HAS LR,KIT,1BR,1BATH ALL ON 1ST FL.FULL
+BSMT,FRONT PORCH,NEWE R VINYL REPLACEMENT WNDWS,GOOD MECHANICS,GOOD
+ROOF,MAINT.FREE ALUM SIDING</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>15 X 13</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>16 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 19</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+
+<directions>MADISON TO R ON 16TH ST TO NUMBER 18 AND 20</directions>
+</house_listing>
+
+
+

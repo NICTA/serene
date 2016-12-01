@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>JERRY RUSSO</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<voice_mail>(512)794-9292 103</voice_mail>
+<mobile>(512)422-2792</mobile>
+<email>jrusso@remax-hot-aus-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16971</id>
+<mls>509574</mls>
+<house_location>3832 Dry Creek Drive
+Austin, TEXAS 78731</house_location>
+<county>Travis</county>
+<price>$149,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Two story stone condo. Two bedrooms up each with its own bath. Full two car garage. Indoor utilities, stone fireplace. Crown molding in living room and dining room. wet bar off living area. lots of closets. Hard tile in kitchen, utility, and all bath rooms. Big kitchen.</house_description>
+
+<move-in_date>6/28/99</move-in_date>
+<school_district>Austin</school_district>
+<approx_size_sqft>1427</approx_size_sqft>
+<stories>2</stories>
+<year_built>1981</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Two car garage, indoor utilities</item>
+<item>Sitting area in master</item>
+<item>Lots of ceramic tile</item>
+<item>Large living area with fireplace, lots of light</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

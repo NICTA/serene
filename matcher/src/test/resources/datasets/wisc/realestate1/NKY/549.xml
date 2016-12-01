@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>51 E ORCHARD RD</house_location>
+<price>$92,500</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>FT MITCHELL</suburb>
+<school_dist>BEECHWOOD</school_dist>
+<mls>249204</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>CINDY BROUILLETTE</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>SAVE MONEY W/NEW GAS F/AIR NEW CENTRAL AIR HOT WTR HEATER 1998 FRESH
+PAINT LG LIV RM ARCHED DOORWAY 2 BLT-IN DIN RM CORNER CHINA CABINETS
+'95 CIRCUITS SOME REPLAC WNDWS/10X10 WORKSHOP/WALKOUT BSMT/GLASS BLOCK
+WNDWS/TREED VIEW!</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50X190</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>L</level></laundry>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>1</level></master>
+<study><dimension>12 X 12</dimension><level>L</level></study>
+
+<directions>DIXIE TO EAST ORCHARD (JUST SOUTH OF THRIFTWAY)</directions>
+</house_listing>
+
+
+

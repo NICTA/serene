@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Ellen Franklin</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)217-9171</mobile>
+<email>dfrankli@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21073</id>
+<mls>525392</mls>
+<house_location>113 Jeffrey Drive
+Cedar Creek, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$86,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Previous model! Very nice dw home with many up-grades. Spacious MIL floor plan with 3 bedrooms, 2 baths, cathedral ceilings, formal dining, and a country kitchen with breakfast bar and pantry. Setup on a brick foundation with a large rear deck and fenced yard on 1.24 acres. Lots of home for the money!</house_description>
+
+<move-in_date>12/9/99</move-in_date>
+<school_district>Bastrop ISD</school_district>
+<sub-division>Heritage Oaks</sub-division>
+<approx_size_sqft>1404</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1.24ac</approx_lot_size>
+<approx_acres>1.24</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>FENCED YARD ON 1.24 ACRES</item>
+<item>VERY NICE 3/2DWMH</item>
+<item>BRICK FOUNDATION</item>
+<item>SPACIOUS MIL FLOOR PLAN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

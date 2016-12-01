@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>412 WEXFORD DR</house_location>
+<price>$248,900</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247439</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>CHAD WYNN</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>10'CEILINGS ON 1ST FLR *9'CEIL IN LL*ENERGY EFFICIENT FOAM CORE PANEL
+CONST MARVIN WINDOWS * WHIRLPOOL TUB * CERMIC FLRS-1ST FLR BATH * LL
+FAMILY/BEDRM REAR PATIO * DECK *SIDE ENTRY
+GARAGE*CLUBHOUSE[POOL/WEIGHTS/HOT TUB]</house_description>
+<construction>Brick,Stone</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70 x 187</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>22</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>16 X 11</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>14 X 14</dimension><level>L</level></bedroom_4>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>20 X 17</dimension><level>L</level></family>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 7</dimension><level>1</level></laundry>
+<living><dimension>17 X 17</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+
+<directions>I-75 RICHWOOD EXIT WEST .25 MILES TO
+STEEPLECHASE SUBD L SHEFFIELD L WEXFORD</directions>
+</house_listing>
+
+
+

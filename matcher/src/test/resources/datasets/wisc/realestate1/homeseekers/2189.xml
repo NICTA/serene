@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>3600 sq. Ft. All brick in quiet cul-de-sac in prestigeous quail point
+cove. Large deck with built in hot tub. Interior freshly painted. Full
+permanent attic, lots of storage. Location, location, location!</house_description>
+
+<agent_name>John Cericola</agent_name>
+<direct>456-1669</direct>
+<office>757-456-9500</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>757-456-9500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$344,900</list_price>
+<location>Virginia Beach, VA 23345</location>
+<mls>9934361</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Traditional</style>
+<square_feet>3600 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<location>Cul-de-sac</location>
+<patio>Deck</patio>
+<pool>Spa</pool>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Attic Fan, Breakfast Room, Cable TV, Ceiling Fan(s), Fenced,Foyer, Garage Door Opener, Outside Sprinkler System, Utility Room,Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

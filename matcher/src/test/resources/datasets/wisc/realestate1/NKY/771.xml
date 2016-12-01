@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>77 ROUTE 8</house_location>
+<price>$219,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>CALIFORNIA</suburb>
+<school_dist>CAMPBELL CT</school_dist>
+<mls>244450</mls>
+<house_type>Farms</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>LINDA GOVAN</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*GREAT FOR HORSES BUILD YOUR OWN
+ARENA* RIVERVIEWS*2 MILE FROM AA HWY 1 MILE FROM GOLF COURSE THIS
+COULD BE PARADIS SUBJECT TO SURVEY CITY WATER</house_description>
+<construction>Wood</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>8 X 11</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>11 X 14</dimension><level>1</level></kitchen>
+<living><dimension>11 X 22</dimension><level>1</level></living>
+<master><dimension>10 X 11</dimension><level>1</level></master>
+
+<directions>AA S TO L AT 1996 TO RT ON NASH TRACE TO
+IMMEDIATE L ON 1996 TO L ON RT 8 1 DR L</directions>
+</house_listing>
+
+
+

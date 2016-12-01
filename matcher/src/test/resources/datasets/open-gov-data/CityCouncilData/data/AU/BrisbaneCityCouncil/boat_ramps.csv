@@ -1,0 +1,34 @@
+id,Boat Ramp Name,Address,Facilities,Status,Expected to Open,Latitude,Longitude
+1,ALBION BOAT RAMP,"Yowoggera Park, Sandgate Road, Albion",Single Boat Ramp,Open,,-27.440345,153.042641
+2,BALD HILLS BOAT RAMP,"Tinchi Tamba Wetlands Reserve, Wyampa Road, Bald Hills","Single Boat Ramp, Multiple Pontoons",Open,,-27.299333,153.032556
+3,CARINA CANOE RAMP,"Minnippi Parklands, Kate St, Carina",Canoe Ramp,Open,,-27.48636566,153.1167386
+4,CARINA PONTOON,"Meadowlands Picnic Ground, Meadowlands Rd Carina",Single Pontoon,Open,,-27.49400954,153.1199963
+6,EAST BRISBANE BOAT RAMP,"Heath Park, Hilton Street, East Brisbane","Single Boat Ramp, Canoe Ramp, Single Pontoon",Open,,-27.477626,153.052597
+7,EAST BRISBANE PONTOON,"Mowbray Park, Wellington Rd, East Brisbane",Single Pontoon,Open,,-27.477931,153.043714
+8,FIG TREE POCKET BOAT RAMP,"Fig Tree Pocket Riverside Reserve, Mandalay Street, Fig Tree Pocket",Single Boat Ramp,Open,,-27.54188876,152.9736872
+9,HAMILTON FISHING PONTOON,"Kingsford Smith Drive, Hamilton",Single Pontoon Game Fishing,Open,,-27.44015958,153.0614818
+10,HEMMANT CANOE RAMP,"241 Fleming Road Park, Fleming Road, Hemmant",Canoe Ramp,Open,,-27.460644,153.127291
+11,HEMMANT BOAT RAMP,"Aquarium Avenue, Hemmant",Single Boat Ramp,Open,,-27.441069,153.126626
+12,INDOOROOPILLY BOAT RAMP,"Sir John Chandler Park, Meiers Rd, Indooroopilly","Single Boat Ramp, Single Poontoon",Closed,1/07/2012,-27.51721771,153.0077767
+13,JINDALEE BOAT RAMP,"Jindalee Boat Ramp Park, Mt Ommaney Drive, Jindalee","Double Boat Ramp, Single Pontoon",Open,,-27.52949568,152.9286555
+14,JINDALEE PONTOON,"Amazon Place Park, Amazon Place, Jindalee",Single Pontoon,Open,,-27.52950466,152.9285644
+15,KANGAROO POINT BOAT RAMP,"Lower River Terrace Park, River Terrace, Kangaroo Point",Single Boat Ramp,Open,,-27.47722887,153.034466
+16,KANGAROO POINT PONTOON,"Naval Stores, Amesbury St, Kangaroo Point",Single Pontoon,Open,,-27.47515471,153.0342699
+17,KARANA DOWNS BOAT RAMP,"Kookaburra Park, Caringal Drive, Karana Downs",Single Boat Ramp,Closed,1/09/2012,-27.54447,152.83802
+18,LOTA BOAT RAMP,"Lota Esplanade Park (Road Res), Booran Street, Lota",Double Boat Ramp,Open,,-27.47416544,153.1928625
+19,MORNINGSIDE BOAT RAMP,"Colmslie Recreation Reserve, Lytton Rd Morningside","Double Boat Ramp, Single Pontoon, Fishing Platform",Open,,-27.454855,153.081608
+20,NEWSTEAD BOAT RAMP,"Ross Street Park, Ross Street, Newstead",Double Boat Ramp,Open,,-27.44118642,153.0439969
+21,NEWSTEAD PONTOONS,"Newstead Park, Newstead Terrace, Newstead",Multiple Pontoons,Open,,-27.44264785,153.0473166
+22,NUDGEE BEACH BOAT RAMP,"1299 Nudgee Road Park, Nudgee Beach","Boat Ramp (Multiple Lanes), Single Pontoon",Open,,-27.36265639,153.1027959
+23,OXLEY CANOE RAMP,"Lawson Street Park, Kendall Street, Oxley",Canoe Ramp,Open,,-27.55833892,152.982334
+24,OXLEY PONTOON,"Cliveden Avenue Reserve, Cliveden Avenue, Oxley",Single Pontoon,Open,,-27.5520835,152.9918765
+25,PINKENBA BOAT RAMP,"Kirra Street, Pinkenba",Single Boat Ramp,Open,,-27.41737702,153.1395674
+26,SHERWOOD PONTOON,"Sherwood Forest Park, Turner Street, Sherwood",Single Pontoon,Open,,-27.53090144,152.9719277
+27,SHORNCLIFFE BOAT RAMP,"Baxter's Jetty, Allpass Parade, Shorncliffe","Double Boat Ramp, Canoe Ramp",Open,,-27.32970528,153.0870465
+28,SOUTH BRISBANE BOAT RAMP,"South Brisbane Riverside Lands Park,  Jane St, West End","Double Boat Ramp, Single Pontoon",Open,,-27.47238475,153.0099395
+29,WEST END PONTOON,"Orleigh Park, Hill End Terrace, West End",Single Pontoon,Open,,-27.48802148,152.9961228
+30,WYNNUM BOAT RAMP,"Greene Park, Glenora Street, Wynnum","Single Boat Ramp, Canoe Ramp",Open,,-27.43572198,153.174107
+31,GRACEVILLE CANOE RAMP,"Simpsons Playground, Graceville Avenue and Strickland Terrace, Graceville",Canoe ramp (small boats only),Open,,-27.52353,152.9937
+32,MURARRIE RECREATION RESERVE CANOE RAMP,"Murarrie Recreation Reserve, Wynnum Road, Murarrie",Canoe ramp,Open,,-27.46832,153.10451
+33,RANSOME CANOE RAMP,"Chadwell Street, Ransome",Canoe ramp,Open,,-27.50145,153.18405
+34,SHORNCLIFFE CANOE RAMP,"Hutchinson Slipway, Curlew Street, Shorncliffe",Canoe ramp,Open,,-27.32702,153.07287

@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>335 BARLEY CIRCLE</house_location>
+<price>$99,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>HARVESTERS</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249414</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>STEVEN J POPHAM</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>ENJOY THIS NEWER HOME-NEUTRAL DECOR-NICE LIVING RM,FORMAL DINING
+RM,KITCHEN WITH OAK CABINETS &amp; WALKOUT TO NEW DECK-LOWER LEVEL FAMILY
+RM-FINISHED LAUN DRY RM-OVERSIZED 2 CAR GARAGE-WORKBENCH AREA-SECURITY
+SYSTEM-KEYLESS ENTRY</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>100X75</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>13 X 11</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>14 X 10</dimension><level>U</level></bedroom_3>
+<dining><dimension>11 X 9</dimension><level>U</level></dining>
+<kitchen><dimension>10 X 9</dimension><level>U</level></kitchen>
+<laundry><dimension>10 X 8</dimension><level>L</level></laundry>
+<living><dimension>16 X 10</dimension><level>U</level></living>
+<master><dimension>13 X 10</dimension><level>U</level></master>
+
+<directions>75 SOUTH TAKE CRITTENDEN EXIT TAKE RIGHT THEN
+RIGHT ON WALLER LEFT ON BARLEY</directions>
+</house_listing>
+
+
+

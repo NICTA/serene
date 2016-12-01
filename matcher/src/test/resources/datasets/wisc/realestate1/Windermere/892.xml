@@ -1,0 +1,34 @@
+<house_listing>
+<price>$109,900</price>
+<mls_id_number>150169</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1280</sqft>
+<year_built>1967</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.50        Acres</lot_size>
+<lot_description>IRREG 273X159</lot_description>
+<fireplace>1</fireplace>
+<taxes>$810</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Patio, Pool, Tool Shed,</exterior>
+<site>Water: PUBLIC Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>CALL</elementary>
+<middle_school></middle_school>
+<high_school>ROSEBURG</high_school>
+</schools>
+
+</house_listing>
+
+
+

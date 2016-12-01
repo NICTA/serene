@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1910 has 4 bedroom(s), 1 full
+bath(s)/1 half bath(s) and approximately 3500 square feet of living
+area. Rooms include dining room. Features include patio, air
+conditioning.</house_description>
+
+<agent_name>Jennifer L. Lewis</agent_name>
+<direct>253-804-8945</direct>
+<office>253-852-9200</office>
+<firm_name>John L. Scott R.E. Kent</firm_name>
+<phone>253-852-9200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$295,000</list_price>
+<location>7219 Seward Park Ave</location>
+<mls>99133078</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Single Family</type>
+<square_feet>3500 (approx)</square_feet>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Wall unit(s)</cooling>
+<heating>Wall Unit</heating>
+<patio>Yes</patio>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Basement, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Iva O. Weston</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>17862</id>
+<mls>R53188</mls>
+<house_location>105 E. Oriole
+Highland Haven, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$168,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Ceramic tile and carpet and a 1/2 bath off of the garage, ceiling fans, ex-large fenced yard.  Patio is looking at the lake, boat lift and sprinkler system.  This house has been updated.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Highland Haven</sub-division>
+<approx_size_sqft>2188</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Boat Dock</item>
+<item>Sprinker System</item>
+<item>Retaining Wall</item>
+<item>Ceiling Fans</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

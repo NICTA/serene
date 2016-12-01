@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 1 level detached single family home has 2 bedroom(s), 1 bath(s) .
+Features include patio, air conditioning.</house_description>
+
+<agent_name>Bob Taylor Bob Taylor</agent_name>
+<direct>323-257-1080</direct>
+<office>323-256-3131</office>
+<firm_name>Harnsberger &amp; The Winners
+Harnsberger &amp; The Winners</firm_name>
+<phone>323-256-3131</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$127,500</list_price>
+<location>233 Hamlet St</location>
+<mls>G906443</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<lot_size>3398</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

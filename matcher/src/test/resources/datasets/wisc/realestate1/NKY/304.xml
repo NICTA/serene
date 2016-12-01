@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>6521 GRANT</house_location>
+<price>$189,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>PETERSBURG</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249425</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>DENNIS ASHCRAFT</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>FEATURES 9 FT CEILINGS ON 1ST FLOOR, 1ST FLR LAUNDRY AND MASTER BDRM,
+OPEN FOYER W/HARDWOOD FLOOR, STONE FIREPLACE, 23' BONUS ROOM AND HAS
+PANORAMIC RIVER VALLEY VIEW ON 3.32 ACRES.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stone</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>16 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>10 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>1</level></laundry>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+<study><dimension>23 X 13</dimension><level>2</level></study>
+
+<directions>275W TO PETERSBURG EXIT W 4 MILES TO PETE
+RSBURG,R 1ST STOP SIGN,2 BLOCKS ON RIGHT</directions>
+</house_listing>
+
+
+

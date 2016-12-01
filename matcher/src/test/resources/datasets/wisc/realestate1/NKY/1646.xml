@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>407 HIGHWAY</house_location>
+<price>$85,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>247039</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>GAYLE LIGHTNER</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>NICE 2 STORY WIRECUT BRICK. 3 SPACIOUS BRS + RM IN LL HAS ALSO BEEN
+USED AS A BR, FENCED REAR YD W AG POOL, NICE LANDSCAPING &amp; DECKING.
+HDWD FLRS UNDER CPT. CENTRAL VAC. BUS STOPS AT DOOR.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>B</level></bath_2>
+<bedroom_2><dimension>10 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>18 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 9</dimension><level>1</level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>2</level></master>
+
+<directions>SLEEPY HOLLOW TO R ON ELM WHICH BECOMES HIGHWAY
+AVE</directions>
+</house_listing>
+
+
+

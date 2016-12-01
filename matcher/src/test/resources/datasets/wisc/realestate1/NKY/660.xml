@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>1117 JOHN STREET</house_location>
+<price>$59,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247194</mls>
+<house_type>Single Family</house_type>
+<firm>DAUGHERTY REALTORS</firm>
+<firm_phone>(606) 485-7667</firm_phone>
+<agent>KATHY M PERKINS</agent>
+<agent_phone>(606) 485-7667</agent_phone>
+<house_description>SHOWCASE KITCHEN TOTALLY REMOLDELED BEDROOMS &amp; BATH. NOTHING TO DO BUT
+MOVE IN. NEUTRAL COLORS-BEAUTIFULLY LANDSCAPED TERRACED YARD W/NEW
+STONE WALL- DOUBLE LOT WITH POTENTIAL FOR OFFSTREET PARKING</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>60x110</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>15 X 13</dimension><level>2</level></bedroom_2>
+<kitchen><dimension>15 X 15</dimension><level>1</level></kitchen>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>2</level></master>
+
+<directions>(RT. 8) HIGHWAY AVE TO SOUTH ON ALTATAMON LEFT
+ON JOHN STREET HOUSE ON RIGHT</directions>
+</house_listing>
+
+
+

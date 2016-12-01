@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Labbe Margaret</name>
+<office>(713)686-6090</office>
+<fax>(713)686-8543</fax>
+<voice_mail>(713)716-7617</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11952</id>
+<mls>142379</mls>
+<house_location>5354 Princeton
+Houston, TEXAS 77493</house_location>
+<county>Harris</county>
+<price>$88,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Looking for recent construction? Well look no more! installed in 1997 are; kitchen cabinets, tilecounter tops. Repainted in 1998. Abundant storage space. Cul-de-sac street. Corner Lot. Builder warranty and home warranty. No Municipal Utility District.  3 phase sprinkler system.</house_description>
+
+<school_district>Katy</school_district>
+<sub-division>Town Park</sub-division>
+<approx_size_sqft>1784</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>6900</approx_lot_size>
+<approx_acres>0.16</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Desirable Katy Texas</item>
+<item>Quiet subdivision</item>
+<item>Well maintained home and yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

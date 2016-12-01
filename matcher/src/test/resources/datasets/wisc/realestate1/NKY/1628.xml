@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>18 VALESIDE DR</house_location>
+<price>$89,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246801</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>DIANE BODENBENDER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>CUTE, WELL MAINTAINED RANCH HOME. 3 BDRM 1 BA C/A SKYLIGHT IN LIVING
+ROOM NICE LOT GREAT HOME FOR THE MONEY.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>62X143</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>8 X 14</dimension><level></level></kitchen>
+<living><dimension>17 X 14</dimension><level></level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>275 TO 17 S TO L HAND PK R CRYSTAL LAKE L
+BLUFFSIDE R MEADOWHILL L VALESIDE</directions>
+</house_listing>
+
+
+

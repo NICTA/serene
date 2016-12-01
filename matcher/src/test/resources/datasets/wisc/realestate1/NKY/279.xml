@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>10290 CARDIGAN</house_location>
+<price>$122,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250209</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>BECKY YUNGBLUTH-LAY</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>BEAUTIFUL PRIV TREED LOT!WOOD PRIVACY FENCE,FORT &amp; PLAYSET STAY,LG
+EAT-IN KITCHEN W/HDWD FLRS!LG FAMILY ROOM!ROUGH-IN FOR BATH IN LOWER
+LEVEL,CATH CEIL IN LR &amp; DR!PRICED TO SELL!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65X143</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 10</dimension><level>2</level></dining>
+<family><dimension>22 X 13</dimension><level>1</level></family>
+<kitchen><dimension>11 X 10</dimension><level>2</level></kitchen>
+<living><dimension>16 X 14</dimension><level>2</level></living>
+<master><dimension>15 X 12</dimension><level>2</level></master>
+
+<directions>OFF FROGTOWN-HOME ON RIGHT</directions>
+</house_listing>
+
+
+

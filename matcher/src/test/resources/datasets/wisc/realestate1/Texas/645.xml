@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Texas Best Properties</name>
+<location>1604 Industry, Ste. #108 Bastrop, TX 78602</location>
+<office>(512)303-2020</office>
+<toll_free></toll_free>
+<fax>(512)303-6116</fax>
+<email>txbest@flash.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Murchison</name>
+<office>(512)303-2020</office>
+<fax>(512)303-6116</fax>
+<mobile>(512)468-3030</mobile>
+<email>txbest@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21204</id>
+<mls>527106</mls>
+<house_location>204 WATTS LN.
+Cedar Creek, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$116,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GOOD LOOKING DOUBLEWIDE ON 4.99 ac IN CEDAR CREEK, TX  - ONLY 2O MINUTES FROM THE AIRPORT. NEW SCHOOLS IN AREA! HUGE GARAGE/SHOP FOR 12 YD DUMP TRUCKS. WOODED TRACT ON PAVEMENT AND A SMALL POND ( WHEN IT RAINS!). GREAT BREEZES  AND VIEWS FROM THE GREAT DECK! EXTRA STORAGE AND A SEPARATE UTILITY ROOM. DIRECTIONS: FROM AUSTIN - OUT HWY 71 TO R. ON HWY 21W ABOUT 8 MI ( THRU CEDAR CREEK) TO A L. ON WATTS LN ABOUT 1/2 MI ON L. @ SIGN. CALL KEN M URCHISON @ 468.3030</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Valley Creek</sub-division>
+<approx_size_sqft>1900</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>4.99</approx_acres>
+<year_built>1992</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>BIG CLEAN DOUBLEWIDE</item>
+<item>HUGE TRUCK GARAGE</item>
+<item>4.99 WOODED ACRES</item>
+<item>20 MIN. FROM AIRPORT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

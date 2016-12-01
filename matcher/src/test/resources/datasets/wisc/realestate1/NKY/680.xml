@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2036 MACKOY</house_location>
+<price>$42,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247478</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>ALVENA STANFIELD</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>STOP RENTING!!!! EXCELLENT OUTSIDE, NEW SIDING, WINDOWS, DRIVEWAY FOR
+2 CARS. GREAT LOCATION, QUIET ST, FIRST FL LAUNDRY. HOME NEEDS
+INTERIOR TLC, 2 FULL BATHS! HUGE WALK-IN CLOSET IN MASTER, LOTS OF
+WINDOWS, FENCED YARD.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Gas,Inoperable</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>level</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 14</dimension><level>2</level></bedroom_2>
+<dining><dimension>14 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 4</dimension><level>1</level></laundry>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>2</level></master>
+
+<directions>20TH STREET EAST BETWEEN MADISON &amp; HOSPIT AL ON
+MACKOY</directions>
+</house_listing>
+
+
+

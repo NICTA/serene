@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Town &amp; Country Properties</name>
+<location>602 North Llano Street Fredericksburg, TX 78624</location>
+<office>(830)990-8708</office>
+<toll_free>(877)996-0099</toll_free>
+<fax>(830)990-8906</fax>
+<email>tcprop@fbg.net</email>
+</firm_information>
+
+<agent_information>
+<name>Dennis Kusenberger</name>
+<office>(830)990-8708</office>
+<fax>(830)990-8906</fax>
+<mobile>(210)213-3153</mobile>
+<email>Dennis@Kusey.Com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21629</id>
+<mls>11646&amp;11647</mls>
+<house_location>102 E. SCHUBERT &amp; 303 N. ADAMS
+Fredericksburg, TEXAS 78624</house_location>
+<county>Gillespie</county>
+<price>$325,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>IN THE HEART OF THE HISTORICAL DISTRICT, THESE TWO HOMES HAVE CHARM, CHARACTER AND LOCATION!  BOTH HOMES ARE 1 BEDROOM &amp; 1 BATH.  THE LIMESTONE HOME IS 1,072 SF HAS WOOD FLOORS AND IS IDEAL FOR A B&amp;B.  THE STUCCO EXTERIOR HOME IS ALSO BUILT OF STONE, AND THE INTERIOR WALLS HAVE EXPOSED LIMESTONE.  THIS ONE HAS A WONDERFUL FIREPLACE, 11&amp;#8217; CEILINGS,  SALTILLO TILE FLOORS, AND EVEN A CLAWFOOT TUB.  YARD HAS SPRINKLER SYSTEMS.  THIS IS A RARE CHANCE TO OWN ONE ON THE PREMIER PROPERTIES IN FREDERICKSBURG.</house_description>
+
+<school_district>Fredericksburg Isd</school_district>
+<stories>1</stories>
+<approx_lot_size>50X200</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>HISTORICAL DISTRICT</item>
+<item>LIMESTONE</item>
+<item>B&amp;B POTENTIAL</item>
+<item>PRIME LOCATION</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

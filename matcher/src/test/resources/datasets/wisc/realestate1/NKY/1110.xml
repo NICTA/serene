@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>115 GREEN ROAD</house_location>
+<price>$59,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>243608</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>LORI TRENARY</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>2BR A-FRAME WITH 21 X 14 LOFT*MINUTES FROM I75*BEAUTIFUL KITCHEN*ALL
+APPLIANCES STAY*SIT ON THE DECK AND ENJOY BEAUTIFUL VIEW OF LAKE
+WILLIAMSTOWN! CALL AGENT LORI TRENARY 824-6543 FOR AN APPOINTMENT!</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Baseboard</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXX</semiannual_taxes>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>18 X 13</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<living><dimension>18 X 15</dimension><level>1</level></living>
+<master><dimension>21 X 14</dimension><level>2</level></master>
+<study><dimension>21 X 14</dimension><level>2</level></study>
+
+<directions>I75S TO X 159 L TO US25 R TO L ON HUMES
+RIDGE,3MI LEFT ON 2ND GREEN RD ENTRANCE</directions>
+</house_listing>
+
+
+

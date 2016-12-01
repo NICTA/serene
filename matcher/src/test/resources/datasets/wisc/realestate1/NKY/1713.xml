@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>316 W 9TH</house_location>
+<price>$69,900</price>
+<rooms>9</rooms>
+<bedrooms>6</bedrooms>
+<baths>3-0</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>(Detached)</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>248578</mls>
+<house_type>Single Family</house_type>
+<firm>CAUDILL REAL ESTATE</firm>
+<firm_phone>(606) 431-5444</firm_phone>
+<agent>JOHN CAUDILL</agent>
+<agent_phone>(606) 431-5444</agent_phone>
+<house_description>CITY VIEW FROM THIRD FLOOR SKY WINDOWS LEADED AND STAINED GLASS
+WINDOWS, LARGE ROOMS AND GARAGE. NEEDS TLC COULD BE A SHOWPLACE. MANY
+EXTRAS.</house_description>
+<construction>Brick</construction>
+<heating>Hot Water</heating>
+<cooling>None</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>3</level></bath_3>
+<bedroom_2><dimension>16 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>18 X 12</dimension><level>3</level></bedroom_4>
+<bedroom_5><dimension>16 X 12</dimension><level>3</level></bedroom_5>
+<breakfast><dimension>18 X 7</dimension><level>3</level></breakfast>
+<dining><dimension>17 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 15</dimension><level>1</level></kitchen>
+<living><dimension>17 X 15</dimension><level>1</level></living>
+<master><dimension>18 X 17</dimension><level>2</level></master>
+<recreation_room><dimension>17 X 10</dimension><level>1</level></recreation_room>
+
+<directions>NORTH ON MONMOUTH ST.LEFT ON 9TH ST. ACROSS THE
+STREET FROM CORPUS CHRISTI CHU</directions>
+</house_listing>
+
+
+

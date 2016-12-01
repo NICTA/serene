@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This attached single family home built in 1900 has 3 bedroom(s), 1
+bath(s) and approximately 956 square feet of living area.</house_description>
+
+<agent_name>Elizabeth Clayton</agent_name>
+<direct>377-6618</direct>
+<office>303-455-5535</office>
+<firm_name>Nostalgic Homes</firm_name>
+<phone>303-455-5535</phone>
+<fax>303-477-4639</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,900</list_price>
+<location>2445 Julian St</location>
+<neighborhood>Sloans Lake E</neighborhood>
+<mls>372000</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>956 (approx)</square_feet>
+<year_built>1900</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

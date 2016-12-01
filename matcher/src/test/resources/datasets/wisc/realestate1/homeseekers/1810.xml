@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Recently remodeled, separate master bedroom. New hvac heat pump in
+'98. Refrigerator stays. Excellent starter home/rental property.</house_description>
+
+<agent_name>Erik Ramfos</agent_name>
+<direct>706-557-1689</direct>
+<office>706-342-3207</office>
+<firm_name>Baldwin Realty Inc.</firm_name>
+<phone>706-342-3207</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$74,900</list_price>
+<location>Madison, GA 30650</location>
+<neighborhood>Beacon Heights</neighborhood>
+<mls>855483</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric, Heat Pump</cooling>
+<heating>Electric, Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<rooms>Den, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Nook, Carpet, Dishwasher, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

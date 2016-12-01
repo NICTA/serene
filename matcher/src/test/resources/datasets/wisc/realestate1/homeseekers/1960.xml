@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This townhouse built in 1982 has 1 bedroom(s), 1 bath(s) . Features
+include patio, storage space.</house_description>
+
+<agent_name>Margarita Rodriguez</agent_name>
+<office>602-955-0390</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>602-955-0390</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$23,000</list_price>
+<location>Phoenix, AZ 85035</location>
+<mls>1456314</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Townhouse</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Yes</patio>
+<pool>No</pool>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Eat In Kitchen, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

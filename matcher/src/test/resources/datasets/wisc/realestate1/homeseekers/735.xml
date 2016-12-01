@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1966 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) , 1 car garage and approximately 740 square feet of living
+area. Features include air conditioning.</house_description>
+
+<agent_name>Lydia Eskenazi</agent_name>
+<direct>305-864-3215</direct>
+<office>305-865-9811</office>
+<firm_name>Harding Realty, In
+Lic. Real Estate Broker</firm_name>
+<phone>305-865-9811</phone>
+<fax>305-866-7644</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$69,000</list_price>
+<location>7800 Carlyle Av #4A</location>
+<neighborhood>Carlyle Towers Condo</neighborhood>
+<mls>M758530</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>740 (approx)</square_feet>
+<year_built>1966</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

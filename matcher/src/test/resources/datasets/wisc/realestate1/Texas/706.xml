@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>JERRY RUSSO</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<voice_mail>(512)794-9292 103</voice_mail>
+<mobile>(512)422-2792</mobile>
+<email>jrusso@remax-hot-aus-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20284</id>
+<mls>523596</mls>
+<house_location>2304 klattenhoff Drive
+Austin, TEXAS 78728</house_location>
+<county>Travis</county>
+<price>$89,900</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Handymans Dream, Bank Foreclosure,</house_description>
+
+<move-in_date>11/3/99</move-in_date>
+<school_district>Round Rock,wells Branch,deerpark,mcniel</school_district>
+<sub-division>Wells Branch</sub-division>
+<approx_size_sqft>1372</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>50 x1 09</approx_lot_size>
+<year_built>1984</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Corner lot</item>
+<item>Priced low, needs some touch up</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

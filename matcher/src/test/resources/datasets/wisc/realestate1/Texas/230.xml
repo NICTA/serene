@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20165</id>
+<mls>9115054</mls>
+<house_location>416 S. Llano
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$39,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>NEAT CLEAN OLDER HOME IN WHITNEY.  This 2 bedroom, 1 bath frame features CH/A, tall ceilings, dining room, utility area, ceiling fans, large rooms, detached carport, storage.  All this on a large corner lot.  Adjacent lot also available.Priced at $39,900</house_description>
+
+<move-in_date>10/26/99</move-in_date>
+<school_district>Whitney</school_district>
+<sub-division>Greenwade</sub-division>
+<approx_size_sqft>886</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Home in town</item>
+<item>Large Rooms</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_location>1932 PEARL</house_location>
+<price>$39,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249905</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>PAT GREGORY</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description></house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 13</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>9 X 12</dimension><level>1</level></kitchen>
+<living><dimension>11 X 14</dimension><level>1</level></living>
+<master><dimension>10 X 13</dimension><level>1</level></master>
+
+<directions>MADISON TO EAST ON 20TH TO LEFT ON PEARL</directions>
+</house_listing>
+
+
+

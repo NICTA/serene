@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Reda Kay</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<mobile>(817)919-6567</mobile>
+<email>rkay@granbury.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20521</id>
+<mls>9119261</mls>
+<house_location>1109 Mallard Court (Ad # 269)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$278,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Wonderful waterfront custom home.  Large island kitchen, living &amp; covered patio with PM shade.  Features 2 A/C, 2 water heaters, boat dock with double jet ski lift, sprinkler system, wood blinds throughout, great wallpaper &amp; drapes, ISDN line &amp; storage galore.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Waters Edge</sub-division>
+<approx_size_sqft>2747</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>85Wx131x76x134</approx_lot_size>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Waterfront Custom Home</item>
+<item>Boat Dock with Double Jet Ski Lift</item>
+<item>Sprinkler System , Island Kitchen , Covered Patio</item>
+<item>Ad # 269</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

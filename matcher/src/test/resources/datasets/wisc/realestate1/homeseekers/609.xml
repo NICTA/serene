@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This condominium built in 1925 has 1 bedroom(s), 1 bath(s) and
+approximately 480 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Sandra Brooks</agent_name>
+<direct>305-538-7620</direct>
+<office>305-532-7368</office>
+<firm_name>Streamline Propert Streamline Propert
+Lic. Real Estate Broker</firm_name>
+<phone>305-532-7368</phone>
+<fax>305-538-0917</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$65,000</list_price>
+<location>900 16 St #305</location>
+<neighborhood>The Esplanade Beach Condo</neighborhood>
+<mls>M765078</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>480 (approx)</square_feet>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

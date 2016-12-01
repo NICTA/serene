@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>43 16TH</house_location>
+<price>$86,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>245126</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>ERMA SCHADLER</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>ADDITIONAL PHOTOS WWW.STAR-ONE.COM * TENDER LOVING CARE ARE THE WORDS
+TO DESCRIBE THIS HSE. WITHIN LAST 4 YRS OWNER REPLACED CARPET,
+FURNACE, A/C, HWH &amp; PUT IN NEW KITCHEN. LOVELY ENDURING HOME W/
+STAINED GLASS WINDOW.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>x</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>13 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>16 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>2</level></master>
+
+<directions>HWY 27 NORTH (JUST BEFORE UNDERPASS) TURN L ON
+15TH TO L ON PARKVIEW TO L ON 16TH</directions>
+</house_listing>
+
+
+

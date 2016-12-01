@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1941 has 3 bedroom(s), 1 bath(s) and
+approximately 1400 square feet of living area.</house_description>
+
+<agent_name>Tom Mesch</agent_name>
+<direct>238-2278</direct>
+<office>303-238-2278</office>
+<firm_name>Mesch Realty Partner</firm_name>
+<phone>303-238-2278</phone>
+<fax>303-238-2278</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$195,000</list_price>
+<location>1887 S St. Paul St St</location>
+<neighborhood>University Park</neighborhood>
+<mls>382781</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1400 (approx)</square_feet>
+<year_built>1941</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

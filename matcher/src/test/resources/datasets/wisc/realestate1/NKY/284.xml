@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>8921 US 42</house_location>
+<price>$97,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>(Carport)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247765</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX P&amp;O COMPANY</firm>
+<firm_phone>(513) 745-0090</firm_phone>
+<agent>JANE FINLAW BANFIELD</agent>
+<agent_phone>(513) 745-0090</agent_phone>
+<house_description>ESTATE-TYPE SALE-SOLD AS IS-ZONED RURAL SUBURBAN</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>None</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension></dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension></dimension><level>2</level></bedroom_4>
+<dining><dimension></dimension><level>1</level></dining>
+<family><dimension></dimension><level>1</level></family>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>2</level></master>
+<study><dimension></dimension><level>2</level></study>
+
+<directions>SOUTH ON 42-ACROSS ST FROM KROGER IN UNION.</directions>
+</house_listing>
+
+
+

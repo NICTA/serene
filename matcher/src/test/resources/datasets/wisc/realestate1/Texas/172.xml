@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20493</id>
+<mls>6228</mls>
+<house_location>151 Lovejoy Lane
+San Marcos, TEXAS</house_location>
+<county>Hays</county>
+<price>$299,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>COUNTRY LIVING AT IT'S BESTHAS UPGRADES THROUGH OUT HOMEA GREAT INGROUND POOL &amp; HOT TUB</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<approx_size_sqft>2400</approx_size_sqft>
+<approx_acres>17.44</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>WHITE ROCK HOME</item>
+<item>BEAUTIFUL POOL &amp; HOT TUB</item>
+<item>VAULTED CEILINGS</item>
+<item>TILE FLOORS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

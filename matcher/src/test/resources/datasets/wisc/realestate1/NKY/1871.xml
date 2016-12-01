@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>181 CONWELL</house_location>
+<price>$74,800</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>AURORA</suburb>
+<school_dist>S DEARBORN</school_dist>
+<mls>248256</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>TAMATHA JONES</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>EXCELLENT STARTER HOME*NICE HOME TO RAISE KIDS*NEEDS SOME
+UPDATING*LARGE OPEN ROOMS*WRAP AROUND PORCH*UPDATED KITCHEN*DOUBLE
+LOT*45 MINUTES TO DOWN TOWN CINTI*CALL LISTING AGENT: TAMMY JONES
+483-5563 FOR MORE INFORMATION</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>100X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$313.4</semiannual_taxes>
+<bath_1><dimension></dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>14 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>15 X 6</dimension><level></level></laundry>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>2</level></master>
+
+<directions>LAWRENCEBURG EXIT-LEFT ON RT50 W-LEFT ON
+EXPORTING-RIGHT ON CONWELL-PROP ON LEFT</directions>
+</house_listing>
+
+
+

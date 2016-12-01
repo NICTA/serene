@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>220 W 21ST</house_location>
+<price>$63,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248751</mls>
+<house_type>Single Family</house_type>
+<firm>T.H.-1 REALTY L.L.C.</firm>
+<firm_phone>(606) 426-8700</firm_phone>
+<agent>TOM HELSON, JR</agent>
+<agent_phone>(606) 426-8700</agent_phone>
+<house_description>BEAUTIFUL REHABBED 2 BR BRICK RANCH FULL CLEAN BASEMENT EAT IN KITCHEN
+NEW BATHROOM NEW CARPET HAS NOT BEEN LIVED IN SINCE RENOVATION. A MUST
+SEE CALL TOM-AGENT/OWNER AT 426-8700. A GREAT HOME TO MOVE INTO/SOLD
+AS IS.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Wall Unit</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 7</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>14 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+
+<directions>HIGHLAND AVE TURN RIGHT ON HOWELL TO 22ND ST
+TURN LEFT ON 21ST STREET</directions>
+</house_listing>
+
+
+

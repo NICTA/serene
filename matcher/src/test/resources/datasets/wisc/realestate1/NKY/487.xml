@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>5571 STRIKE THEGOLD</house_location>
+<price>$125,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247754</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>FRED BURCH</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>NEW HOMES AT DERBY FARMS SUBDIVISION STARTING AT $110,900. THIS HOUSE
+IS MODEL HOME DELIVERY DATE NEGOTIABLE</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>75X180</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>9 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 12</dimension><level>1</level></dining>
+<family><dimension>12 X 24</dimension><level>L</level></family>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 8</dimension><level>L</level></laundry>
+<living><dimension>12 X 17</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>I275 WEST TO S ON 237,R ON CONRAD LANE L STRIKE
+THE GOLD</directions>
+</house_listing>
+
+
+

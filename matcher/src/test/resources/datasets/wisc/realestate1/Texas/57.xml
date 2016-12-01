@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Verna</email>
+</firm_information>
+
+<agent_information>
+<name>Adams</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)242-6500</voice_mail>
+<mobile>(713)824-0228</mobile>
+<email>vernaadams@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12353</id>
+<mls>176260</mls>
+<house_location>8642 Causeway
+Sugar Land, TEXAS 77083</house_location>
+<county>Fort Bend</county>
+<price>$77,950</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>This home is located on a corner lot, new paint, new carpet installed, large den and dining combo. Fenced backyard. and many extras.</house_description>
+
+<move-in_date>2/25/99</move-in_date>
+<school_district>Alief Isd</school_district>
+<approx_size_sqft>1850</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Sandra Buchanan</name>
+<office>(254)542-1800</office>
+<fax></fax>
+<email>sandyb21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19483</id>
+<mls>87726</mls>
+<house_location>3603 Dorothy Jane Drive
+Killeen, TEXAS 76542</house_location>
+<county>Bell</county>
+<price>$85,700</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Immaculate home, split floor plan, security system, airy plan.  Move in on credit approval.</house_description>
+
+<school_district>K.i.s.d</school_district>
+<sub-division>Meadows</sub-division>
+<approx_size_sqft>1537</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>68x120</approx_lot_size>
+<approx_acres>0.2</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Covered Porch and Patio</item>
+<item>Mother-in law floor plan</item>
+<item>Wooden privacy fence and yard lights</item>
+<item>Cathedral ceilings</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

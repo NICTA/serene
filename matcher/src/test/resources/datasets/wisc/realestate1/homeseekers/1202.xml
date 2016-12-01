@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1958 has 4
+bedroom(s), 2.75 bath(s) , 2 car attached garage and approximately
+1928 square feet of living area. Rooms include den, dining room,
+living room. Features include view, patio.</house_description>
+
+<agent_name>Herman Helber</agent_name>
+<direct>626-451-3907</direct>
+<office>626-449-4905</office>
+<firm_name>Coldwell Banker Pasadena West Coldwell Banker Pasadena West</firm_name>
+<phone>626-449-4905</phone>
+<fax>626-449-8481</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$170,000</list_price>
+<location>2931 Adkins Av</location>
+<mls>P910051</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2.75</baths>
+<levels>2</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1928 (approx)</square_feet>
+<lot_size>5775</lot_size>
+<year_built>1958</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Living Room</rooms>
+<spa>No</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

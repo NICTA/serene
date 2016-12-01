@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>1041 ALPINE CT</house_location>
+<price>$87,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front,Oversized)</garage>
+<suburb>NEAR FLORENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250342</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>CINDY BROUILLETTE</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>LOCATED ON A SAFE CUL-DE-SAC W/PRIVATE REAR VIEW FROM DECK/FRESHLY
+PAINTED INTERIOR/NEW MAIN FLOOR PLUSH CARPET/NEW KITCHEN &amp; ENTRY
+VINYL/FENCED YARD FAMILY RM BAR &amp; WOODBURNING STOVE/OVERSIZED 1C
+GARAGE/POPULAR STARTER AREA!</house_description>
+<construction>Wood</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>58x109IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>24</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>23 X 18</dimension><level>L</level></family>
+<kitchen><dimension>11 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 3</dimension><level>L</level></laundry>
+<living><dimension>14 X 11</dimension><level>1</level></living>
+<master><dimension>14 X 10</dimension><level>1</level></master>
+
+<directions>TURKEYFOOT R RICHARDSON L BEECHGROVE VEER RIGHT
+TO R ASHGROVE L ALPINE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Verna</email>
+</firm_information>
+
+<agent_information>
+<name>Adams</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)242-6500</voice_mail>
+<mobile>(713)824-0228</mobile>
+<email>vernaadams@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13743</id>
+<mls>188252</mls>
+<house_location>1110 Pinecroft
+Sugar Land, TEXAS 77478</house_location>
+<county>Fort Bend</county>
+<price>$92,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great corner lot * Trees * Professionally landscaped * Many new items AC-1995, Roof-1998, Dishwasher-1998, New Paint and Paper in childrens bedrooms * C- Fans * Tract lighting * WB- Fireplace * Wet Bar * Formal Dinning * Sitting area in Master bedroom * Mini's * Close to Mentor School .   Ammenties in Sub-Division Pool, Park, and Tennis Court.</house_description>
+
+<move-in_date>1/20/99</move-in_date>
+<school_district>Fortbend Isd</school_district>
+<sub-division>Covington Woods</sub-division>
+<approx_size_sqft>1750</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>Corner</approx_lot_size>
+<year_built>1974</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Corner Lot</item>
+<item>New Roof 1998</item>
+<item>New Dishwasher 1998</item>
+<item>Soft Grey Carpet Thruout</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

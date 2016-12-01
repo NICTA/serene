@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>5562 TAYLOR MILL RD</house_location>
+<price>$94,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>TAYLOR MILL</school_dist>
+<mls>250148</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>BECKY YUNGBLUTH-LAY</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>CHARM FULL BRK RANCH!EAT-IN KIT HAS KNOTTY PINE &amp; NEW CAB'S!HDWD
+FLRS!NEWER ROOF &amp; WINDOWS!CUSTOM FRT PORCH &amp; LG DECK IN BK!GREAT
+FENCED YD,STORE SHED, PLAYHOUSE &amp; SWING SET STAYS!HURRY WON'T LAST AT
+THIS PRICE!1YR HOME WARR</house_description>
+<construction>Brick</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>17 X 10</dimension><level>1</level></kitchen>
+<living><dimension>19 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+
+<directions>APPROX 2 1/2 MILES S OF I275</directions>
+</house_listing>
+
+
+

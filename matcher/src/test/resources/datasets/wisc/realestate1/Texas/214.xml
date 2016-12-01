@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Mayer Realty</name>
+<location>974 East Austin St. Giddings, TX 78942</location>
+<office>(409)542-2696</office>
+<toll_free></toll_free>
+<fax>(409)542-2554</fax>
+<email>mayerrealty@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeffery B. Keaghey</name>
+<office>(409)542-2696</office>
+<fax>(409)542-1715</fax>
+<email>mayerrealty@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17722</id>
+<mls></mls>
+<house_location>338 South Johnson Street
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$82,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>The home is situated on a oversized lot in the Southeast portion of Giddings, Texas. This home has approximately 2,200 square feet of living area and consists of 3 bedrooms, 2 bathrooms a living room, den, dining room and kitchen.  The home is centrally heated and cooled and has a fireplace.</house_description>
+
+<school_district>Giddings</school_district>
+<sub-division>Sunrise</sub-division>
+<approx_size_sqft>2200</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>106' X 140'</approx_lot_size>
+<approx_acres>0.34</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Oversized Lot</item>
+<item>Fireplace</item>
+<item>Paved Street</item>
+<item>Large Master Bedroom</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

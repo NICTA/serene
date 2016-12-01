@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bunny Roberts</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19667</id>
+<mls>9104418</mls>
+<house_location>500 E. Sunchase Drive (Ad # 611)
+Granbury, TEXAS 76049-7830</house_location>
+<county>Hood</county>
+<price>$67,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Marvelous manufactured home with many extras.  48x48 permanent dog run with water, 10x16 workshop w/power &amp; phone hook ups, solar powered accent lighting, tinted windows, telephone &amp; cable hook ups in most rooms.  Satellite dish, antenna &amp; programable thermostat,etched glass window panels in the study. Almost 1 acre of land.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Sunchase Hills</sub-division>
+<approx_size_sqft>1517</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>245x90x225x86</approx_lot_size>
+<approx_acres>0.94</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Marvelous Manufactured</item>
+<item>Almost 1 acre</item>
+<item>Lots of Extras</item>
+<item>Ad # 611</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

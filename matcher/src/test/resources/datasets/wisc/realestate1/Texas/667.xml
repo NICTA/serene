@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>MURLENE WARE</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<voice_mail>(713)814-6112</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11258</id>
+<mls>113941</mls>
+<house_location>623 NOTTINGHAM
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$159,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>BEAUTIFUL CUSTOM-BUILT BILL COOK HOME WITH ALL THE EXTRAS. IT HAS ATTRACTIVE DECOR, CUSTOM MINIBLINDS, FORMAL DINING, DEN W/MASONARY FP, BUILT-IN WET BAR, EXTENSIVE BLOCK PANELING, WINDING STAIRCASE, SPACIOUS KITCHEN, LARGE INSIDE UTILITYROOM, BELL-BOTTOM PIERS, DOUBLE PANE INSULATED WINDOWS THROUGHOUT, LANDSCAPED YARD, ZONED AC/HEAT, FINISHED GARAGE WITH BUILT IN STORAGE, RECENTLY PAINTED EXTERIOR, HUNTER CLASSIC CEILING FANS THROUGHOUT, PRE-CUT HURRICANE WINDOW COVERINGS, HMS WARRANTY.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Sherwood Forest West</sub-division>
+<approx_size_sqft>2898</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>BEAUTIFUL WINDING STAIRS</item>
+<item>WOODED LOT</item>
+<item>SPACIOUS KITCHEN</item>
+<item>ZONED A/C AND HEAT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

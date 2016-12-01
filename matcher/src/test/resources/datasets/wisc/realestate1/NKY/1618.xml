@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2280 EDENDERRY</house_location>
+<price>$104,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>CRESCENT SPRIN</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249263</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX CTS. REALTORS</firm>
+<firm_phone>(513) 385-1200</firm_phone>
+<agent>KIMBERLY A. HAYES</agent>
+<agent_phone>(513) 385-1200</agent_phone>
+<house_description>NO STEPS!!! NONE TO GET INTO THE UNIT-NONE TO GET TO THE GARAGE! CLEAN
+AND FRESHLY PAINTED-REAR UNIT OVERLOOKS WOODS-NEUTRAL DECOR-ALL KIT
+APPL STAY WASH/DRYER NEGOT-PETS PERMITTED-PRICED $3000 LESS THAN NEW &amp;
+YOU GET APPLIA</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Marble</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>NA</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>103</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 10</dimension><level>2</level></dining>
+<kitchen><dimension>10 X 10</dimension><level>2</level></kitchen>
+<laundry><dimension>9 X 7</dimension><level>2</level></laundry>
+<living><dimension>21 X 15</dimension><level>2</level></living>
+<master><dimension>19 X 12</dimension><level>2</level></master>
+
+<directions>BUTTERMILK TO ANDERSON TO L BROMLEY CREST TO L
+INTO EMERALD SPRING STRAIGHT EDENDER</directions>
+</house_listing>
+
+
+

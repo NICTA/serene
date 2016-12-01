@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>332 3RD</house_location>
+<price>$74,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>247399</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>HOLLY MAYFIELD</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*MOTHER/DAUGHTER*GREAT LOCATION*NEAR
+BUS- LINE*ONE NEWER FURNACE*NEWER ROOF*NEW WINDOWS*2ND FLR KITCHEN
+12X9 INCLUDES STOVE, REFRIGERATOR*2 FURNACES*OPEN FOR OFFER*</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Brick,Stone</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>7 X 16</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 18</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 14</dimension><level>2</level></bedroom_4>
+<family><dimension>18 X 12</dimension><level>1</level></family>
+<kitchen><dimension>13 X 16</dimension><level>1</level></kitchen>
+<living><dimension>10 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>RT 8 L ON ERWIN TERR L ON 3RD</directions>
+</house_listing>
+
+
+

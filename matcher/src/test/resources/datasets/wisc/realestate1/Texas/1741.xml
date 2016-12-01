@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Fulgham Sid</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)789-1025</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16777</id>
+<mls>505270</mls>
+<house_location>201 PERKINS ST
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$129,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SEE THIS 3 BR HOME OM 3.3 ACRES IN TOWN WITH RIVER FRONTAGE; THE LOT IS COVERED WITH DOZENS OF LARGE TREES, INCLUDING OAKS AND PECANS.  WALK TO BASTROP BUSINESS DISTRICT.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<approx_size_sqft>1624</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3.3</approx_acres>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>RIVER FRONTAGE</item>
+<item>COVERED WITH DOZENS OF OAKS AND PECANS</item>
+<item>WALK TO BASTROP BUSINESS DISTRICT</item>
+<item>HORSES ARE WELCOMED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

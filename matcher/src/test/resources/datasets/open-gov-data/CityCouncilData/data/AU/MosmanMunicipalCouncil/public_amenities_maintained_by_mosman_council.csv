@@ -1,0 +1,20 @@
+id,name,latitude,longitude,type,other_points,address_line1,address_line2,city,state,postcode,description,notes,showers,baby change,disabled facilities,open
+1423,"Allan Border Oval amenities",-33.826659,151.241087,POINT,,"Allan Border Oval pavilion","Myahgah Road",Mosman,NSW,2088,Yes,No,No,Daylight hours
+1424,"Mosman Art Gallery & Community Centre toilets",-33.826224,151.240498,POINT,,"Mosman Art Gallery & Community Centre","Art Gallery Way",Mosman,NSW,2088,No,Yes,Yes,Facility opening hours only
+1425,"Balmoral Baths amenities",-33.82789,151.252661,POINT,,"Balmoral Baths pavilion","The Esplanade",Mosman,NSW,2088,Yes,Yes,Yes,24hr a day by MLAK Key,Daylight hours
+1426,"Balmoral Oval amenities",-33.829296,151.253323,POINT,,"Balmoral Oval pavilion","The Esplanade",Mosman,NSW,2088,No,No,Yes,24hr a day by MLAK Key,Daylight hours
+1427,"Bathers Pavilion amenities",-33.822327,151.250913,POINT,,"Bathers Pavilion","The Esplanade",Mosman,NSW,2088,Yes,No,Yes,24hr a day by MLAK Key,Daylight hours
+1428,"Rosherville Reserve amenities",-33.814521,151.247821,POINT,,"Rosherville Reserve","McLean Crescent",Mosman,NSW,2088,Yes,Yes,Yes,24hr a day by MLAK Key,Daylight hours
+1429,"Clifton Gardens amenities",-33.838233,151.252793,POINT,,"Clifton Gardens Reserve","Morella Road",Mosman,NSW,2088,Yes,Yes,Yes,24hr a day by MLAK Key,Daylight hours
+1430,"Georges Heights Oval amenities",-33.835036,151.254962,POINT,,"Georges Heights Oval pavilion","Suakin Drive",Mosman,NSW,2088,No,No,No,Daylight hours
+1431,"Tramshed amenities",-33.824423,151.251076,POINT,,"Behind the Tramshed","The Esplanade",Mosman,NSW,2088,Yes,Yes,Yes,24hr a day by MLAK Key,Daylight hours
+1432,"Library Walk toilets",-33.825379,151.242091,POINT,,"Library Walk"," off Military Road",Mosman,NSW,2088,No,No,No,Daylight hours
+1433,"Middle Head Oval amenities",-33.82757,151.261432,POINT,,"Middle Head Oval pavilion","Middle Head Road",Mosman,NSW,2088,No,No,No,Daylight hours
+1434,"Raglan Street toilets",-33.831241,151.243666,POINT,,"Raglan Street West Car Park","Raglan Street",Mosman,NSW,2088,No,No,No,24 hours
+1435,"Mosman Library toilets",-33.825663,151.242076,POINT,,"Mosman Library","Library Walk, off Military Road",Mosman,NSW,2088,No,Yes,Yes,Library opening hours only
+1436,"Rawson Oval amenities",-33.835193,151.248156,POINT,,"Rawson Oval pavilion","Cross Street ",Mosman,NSW,2088,No,No,Yes,24hr a day by MLAK Key,Daylight hours
+1437,"Sirius Cove Reserve amenities",-33.839591,151.238521,POINT,,"Sirius Cove Reserve","Sirius Cove Road",Mosman,NSW,2088,Yes,No,Yes,24hr a day by MLAK Key,Daylight hours
+1438,"Spit West amenities",-33.805451,151.245953,POINT,,"Spit West Reserve","Spit Road",Mosman,2088,NSW,No,No,Yes,24hr a day by MLAK Key,Daylight hours
+1439,"Mosman Drill Hall amenities",-33.835873,151.248769,POINT,,"Mosman Drill Hall","Cross Street",Mosman,NSW,,Yes,Yes,Yes,Facility opening hours only
+1440,"Marie Bashir Mosman Sports Centre amenities",-33.835832,151.249195,POINT,,"Marie Bashir Mosman Sports Centre","Cross Street",Mosman,NSW,,Yes,Yes,Yes,Facility opening hours only
+1441,"Vista Street car park amenities",-33.8252058394787,151.240190863609,POINT,,"49-57 Vista Street",,Mosman,NSW,,No,No,No,Daylight hours

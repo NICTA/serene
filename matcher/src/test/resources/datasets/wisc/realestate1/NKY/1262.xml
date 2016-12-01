@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>615 CLEVELAND</house_location>
+<price>$59,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON CO</school_dist>
+<mls>246062</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>GAYLE PRICE</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>ROOF 5 YRS NEW. NEWER KITCHEN FLOOR, NEUTRAL DECOR, NICE DECK AND
+STORAGE SHED W/ ELECTRIC. CUTE AND CLEAN, EZ TO SHOW. NICE WOODED LOT.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 8</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>21 X 11</dimension><level>1</level></kitchen>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>N AT TAYLOR MILL EXIT TO R ON GRAND, R ON
+HOWARD, R ON CLEVELAND</directions>
+</house_listing>
+
+
+

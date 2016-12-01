@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Ann Green</name>
+<office>(512)303-5400</office>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)867-0518</voice_mail>
+<email>magreen@bastroptexas.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19646</id>
+<mls>519820</mls>
+<house_location>707 Gresham St.
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$225,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Circa 1934, 2800+sf, beautifully restored vintage home. The warmth of wood floors, light and bright tall ceilings, and the elegance of crown moulding greet you as you step back in time. A sunny breakfast room, island kitchen and floor to ceiling cabinets are complimented by a Brazilian granite counter top at the breakfast bar. The largest downstairs bedroom has a sep. bath and private entrance. Upstairs is a master suite unlike any you've ever seen with a cozy fireplace, plenty of light, a room size closet and a master bath w/claw foot tub, 2 antique vanities and a large marble shower.</house_description>
+
+<move-in_date>9/29/99</move-in_date>
+<school_district>Smithville</school_district>
+<sub-division>Riverside Park</sub-division>
+<approx_size_sqft>2833</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>50x125</approx_lot_size>
+<approx_acres>0.14</approx_acres>
+<year_built>1934</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>2</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

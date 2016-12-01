@@ -1,0 +1,187 @@
+Unit,LocationName,Loc. Descrip.,Hrs. Op.,Location
+1,Airport Industrial Park,"5th floor, on the wall directly across from the elevators.",24/7,"3375 Koapaka st.
+(21.33475000, -157.91705000)"
+2,Airport Industrial Park,"4th floor, on the wall directly across from the elevators.",24/7,"3375 Koapaka st.
+(21.33472000, -157.91714000)"
+3,Airport Industrial Park,"3rd floor, on the wall directly across from the elevators.",24/7,"3375 Koapaka st.
+(21.33504000, -157.91713000)"
+4,Airport Industrial Park,"2nd floor, on the wall directly across from the elevators.",24/7,"3375 Koapaka st.
+(21.33491000, -157.91704000)"
+5,Airport Industrial Park,"1st floor, enter main doors, pass elevators on the right hand side going down the hall, turn right past the ATM, AED is on the right wall",24/7,"3375 Koapaka st.
+(21.33478000, -157.91705000)"
+6,Airport Industrial Park,"C suites, top floor, right wall across from C315",24/7,"3375 Koapaka st.
+(21.33521000, -157.91806000)"
+7,Airport Industrial Park,"B suites, down hallway on the left, across from B 245",24/7,"3375 Koapaka st.
+(21.33568000, -157.91812000)"
+8,Sheraton Waikiki,Behind front desk,24/7,"2255 Kalakaua
+(21.27743000, -157.82985000)"
+9,Sheraton Waikiki,"Infinity pool, on column near enterance",24/7,"2255 Kalakaua
+(21.27692000, -157.83076000)"
+10,Sheraton Waikiki,Behind Helumoa pool desk,24/7,"2255 Kalakaua
+(21.27708000, -157.83009000)"
+11,Sheraton Waikiki,"2nd floor ball room, right corner if facing enterance",24/7,"2255 Kalakaua
+(21.27759000, -157.83006000)"
+12,Sheraton Waikiki,"4th floor, inside fitness center",24/7,"2255 Kalakaua
+(21.27756000, -157.83005000)"
+13,Sheraton Waikiki,Security control office,24/7,"2255 Kalakaua
+(21.27831000, -157.83049000)"
+14,Royal Hawaiin,"Lower level, outside fitness center (from check in go down hallway opposite ocean and go down the stairs on the right)",24/7,"2259 Kalakaua
+(21.27754000, -157.82971000)"
+15,Royal Hawaiin,"Tower hallway, across from surfboard display",24/7,"2259 Kalakaua
+(21.27718000, -157.82893000)"
+16,Moana Surfrider,Security office,24/7,"2365 Kalakaua
+(21.27697000, -157.82666000)"
+17,Moana Surfrider,2nd floor fitness center,"24/7, Keycard required for access","2365 Kalakaua
+(21.27678000, -157.82698000)"
+18,Moana Surfrider,Behind front desk,24/7,"2365 Kalakaua
+(21.27664000, -157.82651000)"
+19,Moana Surfrider,Behind pool desk,24/7,"2365 Kalakaua
+(21.27659000, -157.82718000)"
+20,Princess Kaulani Hotel,Security control office,24/7,"120 Kaiulani
+(21.27746000, -157.82545000)"
+21,Princess Kaulani Hotel,"Lobby, near elevators",24/7,"120 Kaiulani
+(21.27701000, -157.82629000)"
+22,Princess Kaulani Hotel,"2nd floor, outside fitness center",24/7,"120 Kaiulani
+(21.27751000, -157.82596000)"
+23,Hawaiin Airlines Offices,"2nd floor, inside F262, property office",Business Hrs.,"3375 Koapaka st.
+(21.33525000, -157.91820000)"
+24,Hawaiin Airlines Offices,"Just inside coperate office, 3rd floor near bathroom",Business Hrs.,"3375 Koapaka st.
+(21.33452000, -157.91792000)"
+25,Hawaiin Airlines Offices,"3rd floor, finance dept., near bathroom",Business Hrs.,"3375 Koapaka st.
+(21.33506000, -157.91823000)"
+26,Hawaiin Airlines Offices,"3rd floor, hallway near drinking fountain",Business Hrs.,"3375 Koapaka st.
+(21.33328000, -157.91847000)"
+27,Hawaiin Airlines Offices,3rd floor coporate SOC offices,Business Hrs.,"3375 Koapaka st.
+(21.33441000, -157.91763000)"
+28,Hawaiin Airlines Offices,"4th floor, near human resources and bathroom",Business Hrs.,"3375 Koapaka st.
+(21.33426000, -157.91777000)"
+29,Hawaiin Airlines Offices,"4th floor, education wing, near bathroom",Business Hrs.,"3375 Koapaka st.
+(21.33494000, -157.91817000)"
+30,Hawaiin Airlines Offices,"4th floor, administration break room",Business Hrs.,"3375 Koapaka st.
+(21.33481000, -157.91805000)"
+31,Hawaiin Airlines Offices,"1st floor, D137, office outside in garage",Business Hrs.,"3375 Koapaka st.
+(21.33488000, -157.91730000)"
+32,Hawaiin Airlines Hanger,"Supply area, breakroom (key access required)",24/7,"391 Aokea Pl.
+(21.33262000, -157.92725000)"
+33,Hawaiin Airlines Hanger,"Outside, near coke machines",24/7,"391 Aokea Pl.
+(21.33300000, -157.92682000)"
+34,Hawaiin Airlines Hanger,Aircraft overhaul area,24/7,"391 Aokea Pl.
+(21.33309000, -157.92667000)"
+35,Hawaiin Airlines Hanger,Hawaiin upstairs breakroom,24/7,"391 Aokea Pl.
+(21.33328000, -157.92619000)"
+36,Hawaiin Airlines Hanger,Hawaiin VP office/upstairs training,24/7,"391 Aokea Pl.
+(21.33300000, -157.92677000)"
+37,Hawaiin Airlines Hanger,Hawaiin engine/machine shop,24/7,"391 Aokea Pl.
+(21.33286000, -157.92790000)"
+38,Hawaiin Airlines Hanger,GSE maintenance shop,24/7,"391 Aokea Pl.
+(21.33309000, -157.92764000)"
+39,Hawaiin Airlines Hanger,Hawaiin supply annex,24/7,"391 Aokea Pl.
+(21.33375000, -157.92735000)"
+40,Hawaiin Airlines Hanger,GSE fleet service,24/7,"391 Aokea Pl.
+(21.33424000, -157.92734000)"
+41,Hawaiin Airlines Hanger,Cargo area,24/7,"391 Aokea Pl.
+(21.33393000, -157.92619000)"
+42,Aloha Airlines,Aloha cargo hanger (key access),24/7,"371 Aokea st.
+(21.33204000, -157.92680000)"
+43,Aloha Airlines,Aloha cargo warehouse,24/7,"371 Aokea st.
+(21.33137000, -157.92744000)"
+44,Alamoana Shopping Center,2nd level on pillar outside Macy's next to Shirokia,24/7,"1450 Alamoana Blvd.
+(21.29018000, -157.84221000)"
+45,Alamoana Shopping Center,"Hookipa lounge, 4th level near restrooms across from Islands resturaunt",24/7,"1450 Alamoana Blvd.
+(21.29070000, -157.84218000)"
+46,Alamoana Shopping Center,"2nd level on pillar near exit to parking, near nordstrom btwn. Max & Co and Pandora",24/7,"1450 Alamoana Blvd.
+(21.29214000, -157.84229000)"
+47,Alamoana Shopping Center,"1st level, center stage, on the wall near Royal Jewlry ",24/7,"1450 Alamoana Blvd.
+(21.29113000, -157.84334000)"
+48,Alamoana Shopping Center,"2nd level, in the hallway opposite Longs Drugs and Sears on pillar under an Old Navy sign",24/7,"1450 Alamoana Blvd.
+(21.29133000, -157.84485000)"
+49,Alamoana Shopping Center,Mobile AED based at security center on basement level under Macys,24/7,"1450 Alamoana Blvd.
+(21.29074000, -157.84152000)"
+50,Alamoana Building,3rd floor behind security desk outside Eye Fashion Boutique ,6am-3pm,"1441 Kapiolani
+(21.29259000, -157.84262000)"
+51,Alamoana Pacific Center,"7th floor security lobby, behind security desk opposite bank of elevators",6am-3pm,"1585 Kapiolani Blvd.
+(21.29195000, -157.84039000)"
+52,Nuuanu YMCA,"Front desk, welcome center",M-F: 6am-9:30pm; Sat: 8am-5:30pm; Sun: 9am-4:30pm,"1441 Pali Highway
+(21.31352300, -157.85546400)"
+53,Winward YMCA,Front desk,M-F: 7am-8pm; Sat: 7am-6pm; Sun: 10am-6pm,"1200 Kailua Road
+(21.38486000, -157.75318000)"
+54,Leeward YMCA,Pool Office,M-TH: 5:30am-9:30pm; F: 5:30am-8pm; Sat: 7am-6pm; Sun: 9am-4pm,"94-440 Mokuola St
+(21.38621000, -158.00713000)"
+55,Central YMCA,"Front desk, welcome center",M-F: 5am-10pm; Sat: 5am-6pm; Sun: 7am-5pm,"401 Atkinson Drive
+(21.28945800, -157.83988300)"
+56,Atherton YMCA,"Front desk, Atherton house",M-F: 9am-5pm,"1810 University Avenue
+(21.29948100, -157.82140800)"
+57,Kaimuki YMCA,Pool Cage,M-Sat: 7am-8pm; Sun: 9am-6pm,"4835 Kilauea Avenue
+(21.27959000, -157.78354000)"
+58,YMCA Camp H.R. Erdman,Aquatics closet,Business Hrs.,"69-385 Farrington Hwy
+(21.57882000, -158.22447000)"
+59,Kalihi YMCA,"3rd floor, room 305, cardio room",M-F: 5am-9pm; Sat: 8am-4pm,"1335 Kalihi Street
+(21.33378400, -157.87201000)"
+60,Kalihi YMCA,"1st Floor, Front desk",M-F: 5:30am-8:30pm; Sat: 8am-4pm,"1335 Kalihi Street
+(21.33366200, -157.87212400)"
+61,Mililani YMCA,Pool Area,M-F: 5:30am-9pm; Sat: 7am-6pm; Sun: 8am-6pm,"95-1190 Hikikaulia St.
+(21.45181000, -158.00091800)"
+62,Honolulu International Airport,Gate 14,24/7,"300 Rodgers Blvd
+(21.33044000, -157.91993000)"
+63,Honolulu International Airport,Gate 21 Ramp,24/7; ramp level access required,"300 Rodgers Blvd
+(21.32968000, -157.92047000)"
+64,Honolulu International Airport,Gate 20,24/7,"300 Rodgers Blvd
+(21.32969000, -157.92034000)"
+65,Honolulu International Airport,Gate 16 Ramp,24/7; ramp level access required,"300 Rodgers Blvd
+(21.32934000, -157.91998000)"
+66,Honolulu International Airport,Walkway to Gate 1 - outside ,24/7,"300 Rodgers Blvd
+(21.33037000, -157.91671000)"
+67,Honolulu International Airport,Gate 10 restroom,24/7,"300 Rodgers Blvd
+(21.32976000, -157.91692000)"
+68,Honolulu International Airport,Upstairs 3rd Floor Gate 10,24/7,"300 Rodgers Blvd
+(21.32970000, -157.91694000)"
+69,Honolulu International Airport,Ramp Gate 9,24/7; ramp level access required,"300 Rodgers Blvd
+(21.32923000, -157.91702000)"
+70,Honolulu International Airport,Ramp Gate 7 ,24/7; ramp level access required,"300 Rodgers Blvd
+(21.32898000, -157.91591000)"
+71,Honolulu International Airport,Gate 7 2nd floor next to restroom,24/7,"300 Rodgers Blvd
+(21.32921000, -157.91596000)"
+72,Honolulu International Airport,Gate 7 3rd Floor,24/7,"300 Rodgers Blvd
+(21.32913000, -157.91606000)"
+73,Honolulu International Airport,Ramp Gate 26,24/7; ramp level access required,"300 Rodgers Blvd
+(21.33066000, -157.92309000)"
+74,Honolulu International Airport,Ramp Gate 28,24/7; ramp level access required,"300 Rodgers Blvd
+(21.32928000, -157.92334000)"
+75,Honolulu International Airport,Ramp Gate 31,24/7; ramp level access required,"300 Rodgers Blvd
+(21.32900000, -157.92481000)"
+76,Honolulu International Airport,Gate 28-29 restroom,24/7,"300 Rodgers Blvd
+(21.32946000, -157.92358000)"
+77,Honolulu International Airport,Gate 26 (Stingrays),24/7,"300 Rodgers Blvd
+(21.33088000, -157.92321000)"
+78,Honolulu International Airport,Gate 32 restroom,24/7,"300 Rodgers Blvd
+(21.32922000, -157.92499000)"
+79,Honolulu International Airport,Gate 34,24/7,"300 Rodgers Blvd
+(21.32945000, -157.92638000)"
+80,Honolulu International Airport,Gate 32 3rd Floor,24/7,"300 Rodgers Blvd
+(21.32916000, -157.92534000)"
+81,Honolulu International Airport,Gate 31 3rd Floor,24/7,"300 Rodgers Blvd
+(21.32916000, -157.92436000)"
+82,Honolulu International Airport,Ramp Gate 58,24/7; ramp level access required,"300 Rodgers Blvd
+(21.33419000, -157.92420000)"
+83,Honolulu International Airport,Gate 54 Walkway,24/7,"300 Rodgers Blvd
+(21.33303000, -157.92391000)"
+84,Honolulu International Airport,Gate 56 (Starbucks),24/7,"300 Rodgers Blvd
+(21.33312000, -157.92410000)"
+85,Honolulu International Airport,Gate 59 restrooms,24/7,"300 Rodgers Blvd
+(21.33454000, -157.92372000)"
+86,Honolulu International Airport,Gate 53 restroom,24/7,"300 Rodgers Blvd
+(21.33217000, -157.92457000)"
+87,Honolulu International Airport,Ramp Gate 52,24/7; ramp level access required,"300 Rodgers Blvd
+(21.33199000, -157.92480000)"
+88,Honolulu International Airport,Baggage Claim # H ,24/7,"300 Rodgers Blvd
+(21.33180000, -157.91751000)"
+89,Honolulu International Airport,Baggage Claim # G,24/7,"300 Rodgers Blvd
+(21.33187000, -157.91804000)"
+90,Honolulu International Airport,Baggage Claim # F,24/7,"300 Rodgers Blvd
+(21.33196000, -157.91865000)"
+91,Honolulu International Airport,Baggage Claim # E,24/7,"300 Rodgers Blvd
+(21.33236000, -157.92112000)"
+92,Honolulu International Airport,Gate 12 Concession Area,24/7,"300 Rodgers Blvd
+(21.33135000, -157.91798000)"
+93,Honolulu International Airport,Gate 24 Concession Area,24/7,"300 Rodgers Blvd
+(21.33185000, -157.92139000)"

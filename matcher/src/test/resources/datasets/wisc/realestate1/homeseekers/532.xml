@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1893 has 3 bedroom(s), 2 bath(s) and
+approximately 1473 square feet of living area.</house_description>
+
+<agent_name>Lyn Matthews</agent_name>
+<direct>303-980-7870</direct>
+<office>303-987-0255</office>
+<firm_name>RE/MAX Professionals</firm_name>
+<phone>303-987-0255</phone>
+<fax>303-987-3463</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$249,000</list_price>
+<location>3825 Clay St</location>
+<neighborhood>Sunnyside</neighborhood>
+<mls>374331</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1473 (approx)</square_feet>
+<year_built>1893</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

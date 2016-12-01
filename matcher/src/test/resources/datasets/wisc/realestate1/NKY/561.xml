@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>4508 CLIFTON</house_location>
+<price>$79,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>0</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>246694</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>RITA HONEYCUTT</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>NICE 3 B/R 1 BA, FULL BASEMENT, DINING ROOM, C/A, NICE FENCED LOT</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Elec</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>per deed</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>B</level></bath_2>
+<bedroom_2><dimension>8 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>9 X 12</dimension><level>2</level></bedroom_3>
+<dining><dimension>9 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>B</level></laundry>
+<living><dimension>12 X 15</dimension><level>1</level></living>
+<master><dimension>9 X 15</dimension><level>2</level></master>
+
+<directions>TAKE DECOURSEY TO 46 ST. TO R ON CLIFTON</directions>
+</house_listing>
+
+
+

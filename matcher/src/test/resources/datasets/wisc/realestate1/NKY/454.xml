@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>6908 CURTIS WAY</house_location>
+<price>$64,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249930</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JOE KLEIER</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>A RARE FIND! LARGE ROOMS, PRIVACY PATIO, NEWER CARPETING, ALL
+APPLICANCES, FULLY TILED BATH, LOW ASSOCIATION DUES. EASY TO SHOW.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>107</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>10 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<living><dimension>13 X 17</dimension><level>1</level></living>
+<master><dimension>12 X 14</dimension><level>2</level></master>
+
+<directions>TURFWAY TO CURTIS WAY</directions>
+</house_listing>
+
+
+

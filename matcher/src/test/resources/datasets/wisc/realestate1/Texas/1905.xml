@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Laura Frost</name>
+<office>(817)573-8801</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20732</id>
+<mls>9123213</mls>
+<house_location>4504 Willow Court (Ad # 619)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$60,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>Nice home on a cul-de-sac with a large lot.  Assumable or owner will finance!</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Lake Granbury Estates</sub-division>
+<approx_size_sqft>928</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>11x116x100x116</approx_lot_size>
+<approx_acres>0.5</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Large Lot on Cul-De-Sac</item>
+<item>Assumable or Owner Financed</item>
+<item>Wood Deck</item>
+<item>Ad # 619</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>10 SPRINGSIDE DR</house_location>
+<price>$99,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>SPRINGSIDE CON</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>245996</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>KIMBERLY MURPHY CARLISLE</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>BRIGHT &amp; CHEERY! PARQUET ENTRY, WHITE WASHED OAK CABINETRY, MICROWAVE
+STAYS WDBRN FRPLC, FULL BA INCL GARDEN TUB &amp; DBL BOWL VANITY, 2 WALK
+IN CLOSETS PLEATED SHADES THRUOUT, GARAGE W/OPENER, SHOP &amp; COMPARE,
+THIS IS A DEAL!</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>110</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 5</dimension><level>2</level></laundry>
+<living><dimension>19 X 11</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>2</level></master>
+
+<directions>471 TO US 27 TO SPRINGSIDE CONDOMINIUMS</directions>
+</house_listing>
+
+
+

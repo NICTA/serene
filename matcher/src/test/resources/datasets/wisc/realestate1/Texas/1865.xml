@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sonya Kaff</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)360-4630</mobile>
+<email>yakaynof@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21057</id>
+<mls>9127445</mls>
+<house_location>920 Shaded Lane
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$65,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Super clean home with beautifully landscaped yard.  Chain link around front; many mature oak trees.  Sunroom opens to living room. Split bedroom plan. Main suite has huge garden tub and shower.  Island kitchen, neat as a pin.  Garage is attached to sunroom and has remote opener.  Storage building, private water, gas utilities, much more.  Quiet area with good neighbors.  See to appreciate.  1500 sq. feet on half acre - an excellent price in booming Burleson!</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Shaded Lane Estates</sub-division>
+<approx_size_sqft>1500</approx_size_sqft>
+<stories>1</stories>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Super clean 3-2-2 on 1/2 acre</item>
+<item>Sunroom, walk-in closets, built-ins</item>
+<item>Mature trees, storage building, fenced</item>
+<item>Quiet area with good neighbors</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>J Morris</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<voice_mail>(713)267-5405</voice_mail>
+<email>bayou1@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11188</id>
+<mls>58477</mls>
+<house_location>8025 humble camp road
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$64,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Old farm house on 2.5 acres..bring your dreams and elbow grease.</house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

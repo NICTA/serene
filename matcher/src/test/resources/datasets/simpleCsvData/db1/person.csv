@@ -1,0 +1,4 @@
+id,customer_name,age,gender,phone,email,job,address,salary,section,deliveryaddress
+1,John Doe,30,M,0499212312,foo@bar.com,student,1 Garden st. Redfern,100000,HR,3/10 Mouat st. Canberra
+2,Jane Smith,35,F,0411223344,jane@gmail.com,accountant,3/10 Mouat st. Canberra,50000,IT,13 Garden st. Redfern
+3,Foo Bar,12,M,0499881723,test@yahoo.com,admin,420 Pacific Hwy NSW,200000,Finance,400 George st. Sydney

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1996 has 2 bedroom(s), 2 bath(s) , 2 car
+attached garage and approximately 800 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Ezra Marcus</agent_name>
+<direct>305-753-2844</direct>
+<office>305-672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$110,000</list_price>
+<location>80 S Shore Dr #504</location>
+<neighborhood>Coral Bay Club Condo</neighborhood>
+<mls>M736679</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>800 (approx)</square_feet>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Intercom System, Ocean Access
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

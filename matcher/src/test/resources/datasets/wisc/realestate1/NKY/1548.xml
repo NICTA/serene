@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>3416 MISTY CREEK DR</house_location>
+<price>$101,900</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-2</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247183</mls>
+<house_type>Single Family</house_type>
+<firm>NORTHERN KY REALTY</firm>
+<firm_phone>(606) 727-1313</firm_phone>
+<agent>RICK HORN</agent>
+<agent_phone>(606) 727-1313</agent_phone>
+<house_description>BEAUTIFUL TRI-LEVEL CLOSE TO EVERYTHING. 12X30 WOOD DECK. FENCED YARD.
+10X12 METAL STORAGE BLDG. NICE HOUSE IN NICE NEIGHBORHOOD.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65X135</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$481.36</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>B</level></bath_3>
+<bedroom_2><dimension>10 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 18</dimension><level>B</level></bedroom_4>
+<family><dimension>12 X 12</dimension><level>B</level></family>
+<kitchen><dimension>12 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 9</dimension><level>B</level></laundry>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 14</dimension><level>2</level></master>
+
+<directions>TURKEYFOOT ROAD TO LEFT ON MISTY CREEK 1 BLOCK</directions>
+</house_listing>
+
+
+

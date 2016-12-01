@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Ann Green</name>
+<office>(512)303-5400</office>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)867-0518</voice_mail>
+<email>magreen@bastroptexas.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19286</id>
+<mls>518805</mls>
+<house_location>3913 Cattleman Dr.
+Manchaca, TEXAS 78652</house_location>
+<county>Hays</county>
+<price>$229,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Live the life of luxury in this absolutely gorgeous home with unique architectural features. Private and  secluded on 3.72 acres in NE Hays County, this all stone home is spacious and very energy efficient. 3600sf per apprs. with 4 bedrooms, 2.5 baths, 3 living areas, tons of storage, and a 3 car attached garage. Fireplaces in the family room and master bedroom. MIL plan, high ceilings, track lighting, and brand new range and built-in microwave. Outdoors there's a barn, livestock fencing, playscape, deck, and storage shed. You'll fall in love with this incredible property!</house_description>
+
+<move-in_date>9/17/99</move-in_date>
+<school_district>Hays</school_district>
+<sub-division>Southwest Territory Sec 3</sub-division>
+<stories>2</stories>
+<approx_lot_size>3.72ac</approx_lot_size>
+<approx_acres>3.72</approx_acres>
+<year_built>1988</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>ExceptionalStone Home on 3.72ac</item>
+<item>Spacious, Energy Eff. &amp; Beautiful</item>
+<item>4/2.5, 3 Living Areas, 3 Car Garage</item>
+<item>Barn, Horse Facilities, Workshop</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

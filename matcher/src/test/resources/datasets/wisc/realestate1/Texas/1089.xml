@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joe Bruns</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net or bobbye@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20105</id>
+<mls>54086</mls>
+<house_location>11 Mountain View
+Kingsland, TEXAS 78639</house_location>
+<county>Burnet</county>
+<price>$270,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>EXTREMELY NICE WATERFRONT HOME IN IMMACULATE CONDITION.  GREAT LANDSCAPING.  BOATDOCK WITH LIFT.  ADDITIONAL LOTS COULD BE SOLD SEPARATELY.  CALL FOR DETAILS.  PATIO, DETACHED GARAGE/WORKSHOP.  3/3 WITH DOUBLE CARPORT.</house_description>
+
+<school_district>Burnet</school_district>
+<sub-division>Kingsland Cove</sub-division>
+<approx_size_sqft>2133</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>LBJ WATERFRONT.</item>
+<item>EXTREMELY NICE .</item>
+<item>IMMACULATE HOME.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ed McClung</name>
+<office>(830)693-7926</office>
+<fax></fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20344</id>
+<mls>54196</mls>
+<house_location>217 Meadowlakes Drive
+Meadowlakes, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$209,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This two story home is located on the 4th fairway of Meadowlakes Golf Course.   This 3 bedroom, 3 bath home has a large game room, hot tub, spaceous bedrooms, a sunroom/plant room and extra large utility room.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Meadowlakes</sub-division>
+<approx_size_sqft>3388</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>85 X 125</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>3 bedroom/3bath/2 car garage.</item>
+<item>Large rooms, game room and hot tub.</item>
+<item>On 4th fairway on Meadowlakes Golf Course.</item>
+<item>Fireplace, spklr. sys., sun room, intercom.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

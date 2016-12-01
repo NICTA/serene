@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1998 has 4 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 1 car garage. Rooms include family room,
+master bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Lynn Smith</agent_name>
+<office>480-460-7440</office>
+<firm_name>Russ Lyon Realty Co</firm_name>
+<phone>480-460-7440</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$215,000</list_price>
+<location>Phoenix, AZ 85045</location>
+<mls>1456112</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Multi Zoned, Natural Gas</heating>
+<fireplace>Family Room, Gas logs</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dining/LivingCombo, Dishwasher, Eat In Kitchen, Kitchen Island, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

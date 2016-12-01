@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Robert E. Jenkins, III</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<mobile>(512)332-4096</mobile>
+<email>robertje@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16893</id>
+<mls></mls>
+<house_location>5354 Pine Valley Loop
+Smithville, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$76,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>This 2/1 home is a great place to start!  Very private setting!  Large, covered front porch!  Surrounded by lush, Pine trees!  5+ Beautifully wooded acres!  Partially fenced!  Only apprx. 30 minutes to Austin and the New Airport!  Call Robert!</house_description>
+
+<sub-division>Pine Valley Estates</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>5+ Beautifully Wooded Acres!</item>
+<item>Nice, Private Setting!</item>
+<item>Partially Fenced!</item>
+<item>Approx. 30 Minutes to Austin!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

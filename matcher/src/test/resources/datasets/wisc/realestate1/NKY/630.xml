@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>12 E 26</house_location>
+<price>$84,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>250233</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>KATHLEEN SHEAFFER</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>LOVELY BRICK IN MOVE-IN CONDITION. LEADED GLASS WINDOWS. EQUIPPED
+EAT-IN KITCHEN. NEWER FURNACE AND CENTRAL AIR. NEUTRAL DECOR.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>62 x 50</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>12 X 14</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 16</dimension><level>1</level></kitchen>
+<living><dimension>12 X 16</dimension><level>1</level></living>
+<master><dimension>12 X 14</dimension><level>2</level></master>
+
+<directions>MADISON TO E 26TH</directions>
+</house_listing>
+
+
+

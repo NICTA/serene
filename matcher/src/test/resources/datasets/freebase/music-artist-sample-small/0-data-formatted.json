@@ -1,0 +1,42 @@
+{
+  "cursor": "eNp9kMFOw0AMRD-GSyMU1fau114LIf4jymFJCapEm1UCPfD1JE1IWg74ZHnmjUZuvvqh640TBqs6Q4C6OhsiBURRjXU6H-wByukC6gJGY6vy8D1bu4tBvTsOyWbLFVL7eCp3l2M2FhH0qriJ0frHSEBJG_AAEDy2CvMQtq0gcvmMPhTFTS5EiUTX3PdTyobK3hHpJjr7HLHxDCp0z861VzY4QBeCrCLBxnq9YxF0YvtflqNyJM-reMMKyl_WubD-YvKgY9o0-ecVyzRLNkcuiir3nfl6L06JGaqcbVnHcCUZK9T7F9bXgF4Ob9B6SBrFI_wAZwl0ig==",
+  "result": [
+    {
+      "name": "Blonde Redhead",
+      "type": "/music/artist",
+      "/music/artist/origin": [
+        {
+          "name": "Norwood, Ontario",
+          "id": "/en/norwood_ontario"
+        }
+      ]
+    },
+    {
+      "name": "Brian Eno",
+      "type": "/music/artist",
+      "/music/artist/origin": [
+        {
+          "name": "Reykjavik",
+          "id": "/en/reykjavik"
+        },
+        {
+          "name": "Akureyri",
+          "id": "/en/akureyri"
+        }
+      ]
+    },
+    {
+      "name": "Jason Mraz",
+      "type": "/music/artist",
+      "/music/artist/origin": [
+        {
+          "name": "Valley Cottage",
+          "id": "/en/valley_cottage"
+        }
+      ]
+    },
+    {
+      "name": "Frank Sinatra",
+      "type": "/music/artist"
+    }]
+}

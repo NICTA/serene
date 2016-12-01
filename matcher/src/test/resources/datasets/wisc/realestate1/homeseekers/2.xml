@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1977 has 4 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2060 square feet of living
+area. Rooms include dining room, bonus room. Features include view,
+patio, fireplace.</house_description>
+
+<agent_name>John Coleman</agent_name>
+<direct>520-577-3538</direct>
+<office>520-529-5100</office>
+<firm_name>Realty Executives-Tuc Realty Executives-Tuc</firm_name>
+<phone>520-529-5100</phone>
+<fax>520-529-2060</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$164,900</list_price>
+<location>10057 E Karen Pl</location>
+<mls>2001149</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2060 (approx)</square_feet>
+<lot_size>85X273X191X172</lot_size>
+<year_built>1977</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Forced Air</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

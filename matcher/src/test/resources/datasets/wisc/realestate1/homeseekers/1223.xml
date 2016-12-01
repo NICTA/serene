@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1956 has 2 bedroom(s), 1
+bath(s) and approximately 1250 square feet of living area. Rooms
+include bonus room, master bedroom. Features include patio, fireplace.</house_description>
+
+<agent_name>Susan Guillot</agent_name>
+<direct>520-721-1239</direct>
+<office>520-918-4800</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-918-4800</phone>
+<fax>520-296-6093</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>5825 E 1St St</location>
+<mls>9920218</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1250 (approx)</square_feet>
+<lot_size>60X32</lot_size>
+<year_built>1956</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

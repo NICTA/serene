@@ -1,0 +1,27 @@
+<house_listing>
+<house_description>This single family home has 5 bedroom(s), 3 bath(s) , 2 car garage and
+approximately 2512 square feet of living area.</house_description>
+
+<agent_name>Marilyn or Marty</agent_name>
+<direct>619-549-5236</direct>
+<fax>619-621-5870</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$0</list_price>
+<location></location>
+<mls>1003</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2512 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

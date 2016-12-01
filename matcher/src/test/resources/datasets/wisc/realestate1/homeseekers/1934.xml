@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This 1 level attached home built in 1988 has ? bedroom(s), 1 bath(s)
+and approximately 520 square feet of living area. Rooms include living
+room. Features include patio, air conditioning.</house_description>
+
+<agent_name>Paul Ferrell</agent_name>
+<direct>619-497-3482</direct>
+<office>619-294-3113</office>
+<firm_name>Prudential California Realty Prudential California Realty</firm_name>
+<phone>619-294-3113</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$109,000</list_price>
+<location>San Diego, CA 92103</location>
+<mls>00 6000477</mls>
+<status>Active</status>
+<baths>1</baths>
+<levels>1</levels>
+<type>Townhouse/Condo</type>
+<square_feet>520 (approx)</square_feet>
+<year_built>1988</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Forced Air</heating>
+<patio>Yes</patio>
+<rooms>Living Room</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

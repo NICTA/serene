@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>PATTI EGER</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<email>pattieger@dlrealtors.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13290</id>
+<mls>182995</mls>
+<house_location>16115 Chasemore
+Spring, TEXAS 77379</house_location>
+<county>Harris</county>
+<price>$389,900</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Elegant Ernest Rowe built showcase home on nearly 1/2 acre surrounded by formal gardens.  An entertainer's dream with hardwood floors, panelledstudy, huge master with whirlpool, huge coveredveranda, gourmet kitchen, return stairs to gameroom</house_description>
+
+<school_district>Klein</school_district>
+<sub-division>Champion Forest</sub-division>
+<approx_size_sqft>4723</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>19293</approx_lot_size>
+<year_built>1983</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+
+<highlights>
+<item>Spacious rooms</item>
+<item>cul-de-sac street</item>
+<item>Champions/Compaq market area</item>
+<item>dramamticinterior</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

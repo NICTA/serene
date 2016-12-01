@@ -1,0 +1,40 @@
+<house_listing>
+<house_location>2718 ALEXANDRIA</house_location>
+<price>$62,500</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>246759</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>BUTCH MAGNER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* NEWLY REDECORATED * NICE LEVEL LOT * 2 CAR DETACHED GARAGE *</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50X120</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 9</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>SOUTH ON MADISON TO LEFT ON ALEXANDRIA</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 2 level condominium built in 1989 has 2 bedroom(s), 2 full
+bath(s)/1 half bath(s) and approximately 1500 square feet of living
+area. Rooms include dining room, master bedroom. Features include
+fireplace, air conditioning.</house_description>
+
+<agent_name>Judi Seiden</agent_name>
+<direct>202-546-3736</direct>
+<office>202-393-1111</office>
+<firm_name>Prudential Carruthers Realtor</firm_name>
+<phone>202-393-1111</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$169,900</list_price>
+<location>Washington, DC 20002</location>
+<mls>DC3065218</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>2</levels>
+<type>Condominium</type>
+<square_feet>1500 (approx)</square_feet>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

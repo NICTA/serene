@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>249 HOPEWELL</house_location>
+<price>$245,900</price>
+<rooms>10</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>5 Cars (Attached,Detached,Oversized)</garage>
+<suburb>GRANT</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249432</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>MIKE HELSON</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>WELL PLANNED HOME WITH OPEN LIVING SPACE AND PRIVATE SETTING,12X30
+DECK OVE RLOOKS WOODED BACK YARD,30X40 CARRIAGE HOUSE,2 SHEDS,GAZEBO
+W/ SWING,LL PAT IO,WELL LANDSCAPED FOR A VERY IMPRESSIVE HOME -MUST
+SEE!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>B</level></bath_3>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>16 X 11</dimension><level>B</level></bedroom_3>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<family><dimension>14 X 10</dimension><level>1</level></family>
+<kitchen><dimension>12 X 19</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 4</dimension><level>1</level></laundry>
+<living><dimension>23 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+<recreation_room><dimension>22 X 17</dimension><level>B</level></recreation_room>
+<study><dimension>15 X 10</dimension><level>B</level></study>
+
+<directions>CRITTENDEN EXIT,R THEN L ON 491 TO R ON H
+OPEWELL RD PROP ON R</directions>
+</house_listing>
+
+
+

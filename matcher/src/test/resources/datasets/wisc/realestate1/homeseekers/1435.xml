@@ -1,0 +1,32 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 2 bath(s) , 2 car garage.</house_description>
+
+<agent_name>Loretta Sheere</agent_name>
+<office>516-425-7900</office>
+<firm_name>Signature Properties</firm_name>
+<phone>516-425-7900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$279,000</list_price>
+<location>Park</location>
+<mls>4278231</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>0.50</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

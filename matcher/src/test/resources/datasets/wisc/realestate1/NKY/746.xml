@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>3041 HARBOR POINT</house_location>
+<price>$137,500</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>2 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>NONE</suburb>
+<school_dist>CARROLL CO</school_dist>
+<mls>249038</mls>
+<house_type>Single Family</house_type>
+<firm>REALTY WORLD-RIVER VALLEY PROP</firm>
+<firm_phone>(502) 732-9977</firm_phone>
+<agent>MARCI HOSKINS</agent>
+<agent_phone>(502) 732-9977</agent_phone>
+<house_description>BEAUTIFUL 6 YR OLD BRICK TWO STORY LOCATED IN PEACEFUL HARBOR POINT.
+3-4 BEDROOMS, 3 FULL BATHS, NEW CARPET AND PAINT.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>per deed</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>11 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 25</dimension><level>2</level></bedroom_4>
+<family><dimension>13 X 24</dimension><level>1</level></family>
+<kitchen><dimension>10 X 24</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 15</dimension><level>1</level></laundry>
+<master><dimension>14 X 10</dimension><level>2</level></master>
+
+<directions>I71 TO E44, R ON 227 L ON 42 - STAY ON 42 APPROX
+6 MI LEFT</directions>
+</house_listing>
+
+
+

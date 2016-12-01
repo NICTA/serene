@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shirley Harmon Hays</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 249</voice_mail>
+<email>shays@austin.rr.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20659</id>
+<mls>523936</mls>
+<house_location>5308 Summer Drive
+Austin, TEXAS 78741</house_location>
+<county>Travis</county>
+<price>$106,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>VERY NICE 2-2-2 TOWNHOME NEAR AIRPORT. LOFT WITH CLOSET, COULD BE 3RD BEDROOM. FIREPLACE, ENERGY AUDIT 1998. AC/H AND H20 HEATER. CARPET, TILE AND  INTERIOR PAINT IN 1998.</house_description>
+
+<school_district>Del Valle, Baty, Hillcrest</school_district>
+<sub-division>Crossing Gardenhomes Ii</sub-division>
+<approx_size_sqft>1320</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>50 X 102</approx_lot_size>
+<year_built>1984</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

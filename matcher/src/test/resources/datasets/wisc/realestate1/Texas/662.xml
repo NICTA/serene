@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>NANCY COBLE</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<email>nancycoble@dlrealtors.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13696</id>
+<mls>182552</mls>
+<house_location>1702 PINE GAP
+Houston, TEXAS 77090</house_location>
+<county>Harris</county>
+<price>$115,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Spring</school_district>
+<sub-division>Ponderosa</sub-division>
+<approx_size_sqft>2516</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>4848</approx_lot_size>
+<year_built>1978</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>SPACIOUS AND BEAUTIFULLY UPDATED PATIO HOME</item>
+<item>WOODED LOT IN QUIET LOCATION</item>
+<item>TERRIFIC FLOORPLAN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

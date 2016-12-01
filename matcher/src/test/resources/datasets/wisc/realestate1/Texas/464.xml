@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Gene Crouch Realty</name>
+<location>633 S. Colorado Lockhart, TX 78644</location>
+<office>(512)398-5814</office>
+<toll_free></toll_free>
+<fax>(512)376-5814</fax>
+<email>genecrouch@lockhart.net</email>
+</firm_information>
+
+<agent_information>
+<name>Gene Crouch</name>
+<office>(512)398-5814</office>
+<fax>(512)376-5814</fax>
+<mobile>(512)461-5905</mobile>
+<email>genecrouch@lockhart.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19843</id>
+<mls></mls>
+<house_location>1735 Sandy Creek Rd.
+Dale, TEXAS</house_location>
+<county>Caldwell</county>
+<price>$185,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description></house_description>
+
+<school_district>Lockhart</school_district>
+<approx_size_sqft>2500</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>7</approx_acres>
+<year_built>1978</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<pool>Yes</pool>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Pool</item>
+<item>Rent House</item>
+<item>100% fenced</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

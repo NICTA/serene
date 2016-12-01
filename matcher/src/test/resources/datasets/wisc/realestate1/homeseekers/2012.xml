@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 2000 has 5
+bedroom(s), 3 bath(s) , 3 car garage and approximately 4000 square
+feet of living area. Rooms include dining room, family room, living
+room, bonus room, master bedroom. Features include fireplace, air
+conditioning, french doors.</house_description>
+
+<agent_name>Lynn Creager, GRI, CRS</agent_name>
+<direct>410-557-7049</direct>
+<office>410-667-1900</office>
+<firm_name>Coldwell Banker Grempler Realty</firm_name>
+<phone>410-667-1900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$500,000</list_price>
+<location>Phoenix, MD 21131</location>
+<mls>BC3120407</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>4000 (approx)</square_feet>
+<lot_size>87120</lot_size>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room, Master</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, French Doors, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

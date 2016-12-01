@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>6231 CASTLEOAK</house_location>
+<price>$180,560</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>242165</mls>
+<house_type>Single Family</house_type>
+<firm>THE DREES COMPANY</firm>
+<firm_phone>(606) 578-4200</firm_phone>
+<agent>JACK MILLER</agent>
+<agent_phone>(606) 578-4200</agent_phone>
+<house_description>CALL JULIE MAI FOR SHOWING AT *282-0751* THE OAKMONT IS A 3 BEDROOM
+WITH OWNER SUITE HAVING GARDEN BATH W/CATHEDRAL CEILING*EXT FAMILY
+WITH FIREPLACE IN POOL COMMUNITY</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>8 X 9</dimension><level></level></breakfast>
+<dining><dimension>10 X 11</dimension><level></level></dining>
+<family><dimension>16 X 15</dimension><level></level></family>
+<kitchen><dimension>9 X 10</dimension><level></level></kitchen>
+<living><dimension>11 X 11</dimension><level></level></living>
+<master><dimension>16 X 11</dimension><level>2</level></master>
+
+<directions>I75 S TO W ON KY18*LEFT ON OAKBROOK TO LT ON FOX
+RUN TO LEFT ON CASTEOAK</directions>
+</house_listing>
+
+
+

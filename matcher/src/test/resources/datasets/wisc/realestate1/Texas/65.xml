@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joe Bruns</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net or bobbye@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15579</id>
+<mls></mls>
+<house_location>200 Muirfield
+Meadowlakes, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$129,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>DISCOVER THIS EXCEPTIONAL GOLF COURSE TOWNHOME.  SPRINKLER SYSTEM.  LOW MAINTENANCE.  CEILING FANS.  SKYLIGHT.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Meadowlakes</sub-division>
+<approx_size_sqft>1558</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>GOLF COURSE.</item>
+<item>TOWNHOME.</item>
+<item>LOW MAINTENANCE.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

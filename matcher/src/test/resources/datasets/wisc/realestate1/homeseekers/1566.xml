@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Wonderful starter home in the heart of bayview. New carpet, new paint,
+all brick ranch. Shows very well, priced to sell. New central heat and
+air.</house_description>
+
+<agent_name>Michael Soleas</agent_name>
+<direct>455-0621</direct>
+<office>757-451-1111</office>
+<firm_name>Hampton Roads Housing Center</firm_name>
+<phone>757-451-1111</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$78,900</list_price>
+<location>Norfolk, VA 23503</location>
+<mls>9929523</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<year_built>1952</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>Screened-in</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ceiling Fan(s), Fenced, Office, Ranch Style, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

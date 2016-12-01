@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Jones</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>cjones@c21rapp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19602</id>
+<mls>9062101</mls>
+<house_location>1002 Turner
+Cleburne, TEXAS</house_location>
+<county>Johnson</county>
+<price>$48,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>GREAT STARTER HOME, for the large family,  Spacious  3 bedroom, 2 bath, home with 2 car carport.  Recently installed carpet and vinyl.  Large corner lot. (247)</house_description>
+
+<school_district>Cleburne I S D</school_district>
+<sub-division>Scruggs</sub-division>
+<approx_size_sqft>1492</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>70x140</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

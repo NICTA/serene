@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Lee Ingleside</name>
+<location>2830 Main St. Ingleside, TX 78362</location>
+<office>(361)776-0066</office>
+<toll_free>(800)421-0821</toll_free>
+<fax>(361)643-3333</fax>
+<email>plee2121@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Kay Norton</name>
+<office>(361)776-0066</office>
+<fax>(361)643-3333</fax>
+<email>kay_norton@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18876</id>
+<mls>138290</mls>
+<house_location>813 TROPICE LANE
+Port Aransas, TEXAS 78373</house_location>
+<price>$98,021</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>THIS HOME SITS ON THE LOT THAT BACKS UP TO THE BIRD SANCTUARY.NEW LIVINGROOM ADDITION WITH KNOTTED PINE WALLS AND BURBER CARPET. LARGE LAUNDRY ROOM.</house_description>
+
+<school_district>1</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1438</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>50X120</approx_lot_size>
+<year_built>1980</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>BEAUTIFUL LIVINGROOM ADDITION WITH KNOTTED PINE WA</item>
+<item>TWO FULL BATHROOMS.</item>
+<item>DECK WITH VIEW OF BIRD SANCTUARY</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

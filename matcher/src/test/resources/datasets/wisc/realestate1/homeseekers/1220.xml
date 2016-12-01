@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1973 has 3 bedroom(s), 2
+bath(s) and approximately 2277 square feet of living area. Rooms
+include dining room, bonus room, master bedroom. Features include
+private pool, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Margaret Glover</agent_name>
+<direct>520-296-1543</direct>
+<office>520-296-5491</office>
+<firm_name>Century 21 1St American Century 21 1St American</firm_name>
+<phone>520-296-5491</phone>
+<fax>520-296-7639</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$124,500</list_price>
+<location>273 N Bull Run Dr</location>
+<mls>9915445</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2277 (approx)</square_feet>
+<lot_size>88X90X44470X109</lot_size>
+<year_built>1973</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Wall unit(s)</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

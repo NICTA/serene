@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>314 MOORE</house_location>
+<price>$64,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>BROMLEY</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248692</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>TAMATHA JONES</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>INVESTORS/REHABBERS TAKE A LOOK AT THIS! PERFECT LOCATION FOR THIS 2
+BED HOME COMPLETE WITH FOUR ROOM SHED SITUATED ON 1+ ACRES. HOME SOLD
+'AS IS' CALL LISTING AGENT FOR FURTHER INFORMATION: TAMMY JONES
+513/483-5563</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>9 X 11</dimension><level>1</level></bedroom_2>
+<breakfast><dimension>5 X 5</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<living><dimension>11 X 18</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>ELM IN LUDLOW TO PLEASANT TO RIGHT ON MOORE ST.
+PROPERTY ON RIGHT</directions>
+</house_listing>
+
+
+

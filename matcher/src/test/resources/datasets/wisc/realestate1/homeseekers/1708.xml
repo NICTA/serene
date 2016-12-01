@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This 1 level attached home built in 1981 has 2 bedroom(s), 2 bath(s)
+and approximately 897 square feet of living area. Rooms include master
+bedroom. Features include fireplace.</house_description>
+
+<agent_name>Robert Shepard</agent_name>
+<direct>800-852-9889</direct>
+<office>800-852-9889</office>
+<firm_name>Prudential Ca Realty Prudential Ca Realty</firm_name>
+<phone>800-852-9889</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$70,000</list_price>
+<location>San Diego, CA 92115</location>
+<mls>99 8004793</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse/Condo</type>
+<square_feet>897 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Living Room</fireplace>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>80 CREEKWOOD DR</house_location>
+<price>$65,911</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>3 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WILDER</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>249342</mls>
+<house_type>Condominium</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>HARRY A HIMEBAUGH</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>3RD FLR CONDO 2 BDRM 2 BA WBFP VAULTED CEILINGS LRG WALK IN CLOSETS
+SEPARATE LAUNDRY. FRESHLY PAINTED. STOVE, REFRIGERATOR, WASHER &amp; DRYER
+STAY</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Ceramic</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level>3</condo_level>
+<hoa_fee>103</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>3</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>3</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>3</level></bedroom_2>
+<dining><dimension>11 X 10</dimension><level>3</level></dining>
+<kitchen><dimension>9 X 7</dimension><level>3</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>3</level></laundry>
+<living><dimension>15 X 13</dimension><level>3</level></living>
+<master><dimension>16 X 11</dimension><level>3</level></master>
+
+<directions>US27 TO MOOCK RD TO BENTWOOD HILLS TO
+CREEKWOOD</directions>
+</house_listing>
+
+
+

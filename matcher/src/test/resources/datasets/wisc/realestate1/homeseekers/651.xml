@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 2.5 bath(s) . Rooms include
+dining room, living room.</house_description>
+
+<agent_name>James Campbell</agent_name>
+<office>802-334-3400</office>
+<firm_name>Jim Campbell R.E.</firm_name>
+<phone>802-334-3400</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$135,000</list_price>
+<location>Charleston, VT 05872</location>
+<mls>712298</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<type>Single Family</type>
+<lot_size>422531</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water</heating>
+<fireplace>No</fireplace>
+<rooms>Dining Room, Living Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Landscaped
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

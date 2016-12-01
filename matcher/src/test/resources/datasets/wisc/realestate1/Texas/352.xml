@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15809</id>
+<mls>15235</mls>
+<house_location>1013 Buchanan
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$29,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Very nice house in great shape...mint condition!  Excellent starter home. Big backyard with plenty of trees.  (Great for B.B.q's) Can also be income producing investment.  Extra room currently used as an exercise room.Just stop on by &amp; take a look for yourself...I gurantee that your won't be sorry!</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Austin Acres</sub-division>
+<approx_size_sqft>812</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>50 x 140</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great Condition</item>
+<item>Nice big back yard</item>
+<item>Affordable</item>
+<item>Good Investment Opportunity</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

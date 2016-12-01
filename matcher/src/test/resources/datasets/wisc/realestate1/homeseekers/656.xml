@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level home built in 1910 has ? bedroom(s), 1 bath(s) and
+approximately 466 square feet of living area. Rooms include master
+bedroom. Features include air conditioning.</house_description>
+
+<agent_name>Charles Webb, Jr.</agent_name>
+<direct>202-387-0418</direct>
+<office>202-232-0950</office>
+<firm_name>Demers Real Estate, Inc.</firm_name>
+<phone>202-232-0950</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$44,750</list_price>
+<location>Washington, DC 20009</location>
+<mls>DC3077330</mls>
+<status>Active</status>
+<baths>1</baths>
+<levels>1</levels>
+<type>CoOp</type>
+<square_feet>466 (approx)</square_feet>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

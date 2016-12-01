@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1971 has 3
+bedroom(s), 3 bath(s) , 2 car garage and approximately 1794 square
+feet of living area. Rooms include den, family room, living room,
+bonus room, master bedroom. Features include private spa, patio,
+fireplace.</house_description>
+
+<agent_name>Sharon Roque</agent_name>
+<direct>858-565-7300</direct>
+<office>619-276-1111</office>
+<firm_name>Century 21 1St Choice Realty Century 21 1St Choice Realty</firm_name>
+<phone>619-276-1111</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$293,000</list_price>
+<location>San Diego, CA 92131</location>
+<mls>99 6025906</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1794 (approx)</square_feet>
+<lot_size>6200</lot_size>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<rooms>Bonus Room, Den, Family Room, Living Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

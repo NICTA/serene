@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>6160 FOX RUN</house_location>
+<price>$167,740</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248938</mls>
+<house_type>Single Family</house_type>
+<firm>THE DREES COMPANY</firm>
+<firm_phone>(606) 578-4200</firm_phone>
+<agent>JACK MILLER</agent>
+<agent_phone>(606) 578-4200</agent_phone>
+<house_description>CALL JULIE MAI 282-0751. THIS 4 BEDROOM DOVER IN HIGHLANDS OF OAKBROOK
+*VAULTED CEILINGS IN MBR.* HARDWOOD ENTRY* FIREPLACE* BAY AND
+BREAKFAST</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>10 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>9 X 11</dimension><level>2</level></bedroom_4>
+<breakfast><dimension></dimension><level>1</level></breakfast>
+<dining><dimension>10 X 11</dimension><level>1</level></dining>
+<family><dimension>13 X 26</dimension><level>1</level></family>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<master><dimension>13 X 17</dimension><level>2</level></master>
+
+<directions>KY 18 WEST TO OAKBROOK LEFT ON OAKBROOK O R TO
+LEFT ON FOX RUN</directions>
+</house_listing>
+
+
+

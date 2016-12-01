@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1980 has 2 bedroom(s), 2 bath(s) , 1 car
+attached garage and approximately 1368 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Silvia Rotbart</agent_name>
+<direct>886-8916</direct>
+<office>674-7034</office>
+<firm_name>Rotbart &amp; Associat
+Lic. Real Estate Broker</firm_name>
+<phone>674-7034</phone>
+<fax>305-674-7037</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$185,000</list_price>
+<location>2401 Collins Av #1006</location>
+<neighborhood>Riviera Condo</neighborhood>
+<mls>M769475</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1368 (approx)</square_feet>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Elevator, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

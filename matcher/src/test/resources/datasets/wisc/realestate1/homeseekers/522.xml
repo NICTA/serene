@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1984 has 4
+bedroom(s), 2 bath(s) , 2 car garage and approximately 1984 square
+feet of living area. Rooms include den, dining room, family room,
+living room, bonus room, master bedroom. Features include fireplace.</house_description>
+
+<agent_name>Cheryl Berkson</agent_name>
+<direct>858-271-7918</direct>
+<office>858-271-8841</office>
+<firm_name>Chase Management Services</firm_name>
+<phone>858-271-8841</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$263,900</list_price>
+<location>San Diego, CA 92126</location>
+<mls>99 6003959</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1984 (approx)</square_feet>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<rooms>Bonus Room, Den, Dining Room, Family Room, Living Room, Master</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

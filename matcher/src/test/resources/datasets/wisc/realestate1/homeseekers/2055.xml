@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This townhouse built in 1981 has 2 bedroom(s), 2 bath(s) . Rooms
+include dining room, master bedroom.</house_description>
+
+<agent_name>Oliver Townsend</agent_name>
+<office>602-993-3900</office>
+<firm_name>Century 21 Metro Company Century 21 Metro Company</firm_name>
+<phone>602-993-3900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$54,900</list_price>
+<location>Phoenix, AZ 85027</location>
+<mls>1400406</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse</type>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dining/Living Combo, Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

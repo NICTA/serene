@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Deedee Jones</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 24</voice_mail>
+<email>quadj@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21203</id>
+<mls>9129444</mls>
+<house_location>4209 CR 313
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$75,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful acreage with ponds and oak groves.  Good well - ready to build that dream home.  Only minutes from town.</house_description>
+
+<school_district>Glen Rose Isd</school_district>
+<sub-division>Glen Rose Hills</sub-division>
+<approx_size_sqft>1064</approx_size_sqft>
+<approx_acres>16</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>2 Beautiful Ponds</item>
+<item>Live Oak and Other Trees</item>
+<item>Beautiful Acreage</item>
+<item>Only Minutes from Glen Rose</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

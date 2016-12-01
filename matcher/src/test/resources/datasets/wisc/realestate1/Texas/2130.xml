@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Action -Northwest San Antonio</name>
+<location>2900 Mossrock Dr., Suite 350 San Antonio, TX 78230</location>
+<office>(210)366-1510</office>
+<toll_free></toll_free>
+<fax>(210)366-0153</fax>
+<email>c21actsa@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sylvia Jolly</name>
+<office>(210)366-1510</office>
+<fax>(210)366-0153</fax>
+<email>c21actsa@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19970</id>
+<mls>315654</mls>
+<house_location>8626 Timber Briar
+San Antonio, TEXAS 78247</house_location>
+<county>Bexar</county>
+<price>$89,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Dont miss this fabulous deal! Established neighborhood with lots of trees! This house has high ceilings and an attractive split level floor plan. It also boasts a large kitchen and has a wet bar. Look outside &amp; you will find a large deck with a hot tub! Wonderful amenities!</house_description>
+
+<school_district>Northside</school_district>
+<sub-division>Silver Creek</sub-division>
+<approx_size_sqft>1764</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Split Level Floor Plan</item>
+<item>Large Deck with Hot Tub</item>
+<item>Wet Bar</item>
+<item>Large Kitchen</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

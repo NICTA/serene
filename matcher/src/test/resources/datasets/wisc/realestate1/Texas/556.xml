@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Diane Sanders</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<voice_mail>(512)757-0707</voice_mail>
+<mobile>(512)753-9478</mobile>
+<email>dsanders@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>8323</id>
+<mls>6070</mls>
+<house_location>7312 Ranch Rd 12
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$295,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>4</garage_spaces>
+
+<house_description>Nice Quiet Country LivingSpacious Home</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<approx_size_sqft>3639</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>29.65</approx_acres>
+<year_built>1987</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

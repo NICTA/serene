@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joyce Hoard</name>
+<office>(254)542-1800</office>
+<fax>(254)542-1839</fax>
+<mobile>(254)681-5841</mobile>
+<email>jhoard@mailexcite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19587</id>
+<mls>87023</mls>
+<house_location>RT4, Box 223
+Lampasas, TEXAS 76550</house_location>
+<county>Lampasas</county>
+<price>$175,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This home has so many extras.  Lots of room, lots of storage.  Has breakfast bar, large jaccuzi type tub.</house_description>
+
+<school_district>Lampasas</school_district>
+<sub-division>Cripple Creek</sub-division>
+<approx_size_sqft>2651</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>231.87 x 434.37 x 118.36 x 429</approx_lot_size>
+<year_built>1988</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Covered Porch, Covered Patio</item>
+<item>Cathedral Ceilings</item>
+<item>Portable Building</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

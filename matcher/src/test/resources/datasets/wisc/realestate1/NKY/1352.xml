@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>147 GREEN HILL</house_location>
+<price>$98,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249686</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>BUTCH MAGNER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>NEWER BERBER CARPET*ABOVE-GROUND POOL*NEW DECKING*STORAGE SHED*</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>999999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>12 X 21</dimension><level>L</level></family>
+<kitchen><dimension>16 X 10</dimension><level>1</level></kitchen>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>HIDEWAY TO R ON TANDO TO L ON BLUFFSIDE TO L ON
+MEADOW HILL TO L ON GREEN HILL</directions>
+</house_listing>
+
+
+

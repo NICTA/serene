@@ -1,0 +1,49 @@
+<house_listing>
+<price>$750,000</price>
+<mls_id_number>99-07421</mls_id_number>
+<address>907 Shoreline</address>
+<city>Post Falls</city>
+<st>ID</st>
+<bedrooms>4</bedrooms>
+<bathrooms>2.50</bathrooms>
+<sqft>4400</sqft>
+<year_built>1999</year_built>
+<heat>Geothermal with heat pump</heat>
+<ac>Geothermal</ac>
+<amenities>
+<waterfront>Yes</waterfront>
+<views>Yes</views>
+<roof>pitched comp shingle</roof>
+<garage>3 car attached</garage>
+<lot_size>0.00        Acres</lot_size>
+<lot_description>secondary waterfront</lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+<floors>hardwood</floors>
+<interior>contemporary</interior>
+<exterior>stone &amp; lap siding</exterior>
+<site>water view</site>
+</amenities>
+<schools><elementary>Ponderosa</elementary>
+<middle_school>Post Falls</middle_school>
+<high_school>Post Falls</high_school>
+</schools>
+<comments>The 'NeXt' House showcases the most innovative construction with state-of-the-art technology.  Exquisite arts and craftsman architecture.  Emphasis on energy conservation and a healthy environment. Call Loretta Reed 208-661-1880 or Connie Egerer 208-661-0270 or 208-664-9221</comments>
+<for_more_information_contact>
+<agent_name>Loretta Reed</agent_name>
+<firm_name>Windermere/Coeur d'Alene, Inc.</firm_name>
+<firm_location>1000 NW Blvd. #200
+Coeur d'Alene, ID</firm_location>
+<office_phone>208/664-9221</office_phone>
+<fax>208/666-1435</fax>
+<pager>208-769-8043</pager>
+<e-mail>lorettar@gte.net</e-mail>
+<office_phone>208/664-9221</office_phone>
+<fax>208/666-1435</fax>
+<e-mail>windermere@cdarealty.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

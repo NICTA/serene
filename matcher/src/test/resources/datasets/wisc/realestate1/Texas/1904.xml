@@ -1,0 +1,69 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maryam Gharbi</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5964</voice_mail>
+<email>lake@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>2178</id>
+<mls>435748</mls>
+<house_location>River Place Subdv.
+Austin, TEXAS 78730</house_location>
+<county>Travis</county>
+<price>$216,800</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Enjoy hummingbirds in River Place, Hill country &amp; greenbelt views, Beautiful entry tile, Modern kitchen with tile flooring, Upper level deck, Patio porch, Bright &amp; open floor plan, Security system, Sprinkler System, Vaulted &amp; High Ceiling$7000 of upgrades!</house_description>
+
+<move-in_date>10/18/97</move-in_date>
+<school_district>Leander</school_district>
+<sub-division>River Place</sub-division>
+<approx_size_sqft>2740</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>50x115</approx_lot_size>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Community playground</item>
+<item>Community park</item>
+<item>Newmark home</item>
+<item>Shows like a model</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

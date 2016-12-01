@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Texas Best Properties</name>
+<location>1604 Industry, Ste. #108 Bastrop, TX 78602</location>
+<office>(512)303-2020</office>
+<toll_free></toll_free>
+<fax>(512)303-6116</fax>
+<email>txbest@flash.net</email>
+</firm_information>
+
+<agent_information>
+<name>Elaine Seidel</name>
+<office>(512)303-2020</office>
+<fax>(512)303-6116</fax>
+<voice_mail>(512)304-8543</voice_mail>
+<mobile>(512)304-8543</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>17006</id>
+<mls>508245</mls>
+<house_location>1419 East 8th St
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$129,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>GREAT LOCATION--within walking distance of Hospital and Schools.  Spacious yardlots of large trees.  Large covered Patio.Large entry and living area.  Valted ceiling in living area. Kitchen with lots of cabinetspace.  Giant master bedroom and master bath w/whirlpool garden tub.COME SEE---</house_description>
+
+<approx_size_sqft>1800</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>100X200</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

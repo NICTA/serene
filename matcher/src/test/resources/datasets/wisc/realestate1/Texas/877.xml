@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Kyle Wheatley</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)681-3045</mobile>
+<email>teamwheat@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21686</id>
+<mls>88421</mls>
+<house_location>208 Cobblestone
+Killeen, TEXAS 76542</house_location>
+<county>Bell</county>
+<price>$119,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Turtlebend prestige fills this new, home from Shanondoah Homes.  Custom design featuring 2 living and 2 dining areas, wood flooring in entryway, a garden tub in the master bath and extra crown molding.  A great floor plan for almost any active family, conservatively priced at $119,500.</house_description>
+
+<school_district>Kisd</school_district>
+<sub-division>Turtlebend</sub-division>
+<approx_size_sqft>1879</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>80x120</approx_lot_size>
+<approx_acres>0.25</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

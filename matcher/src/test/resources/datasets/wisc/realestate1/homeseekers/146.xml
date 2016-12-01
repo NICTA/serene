@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home built in 1944 has 2 bedroom(s), 1 bath(s) and
+approximately 949 square feet of living area. Rooms include family
+room. Features include view, air conditioning.</house_description>
+
+<agent_name>Veronica Johnson</agent_name>
+<direct>305-688-7751</direct>
+<office>899-2100</office>
+<firm_name>Allstate Rlty &amp; In
+Lic. Real Estate Broker</firm_name>
+<phone>899-2100</phone>
+<fax>305-891-4121</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$64,500</list_price>
+<location>960 NW 107 St</location>
+<neighborhood>Pinewood Park Extn 2</neighborhood>
+<mls>M757565</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>949 (approx)</square_feet>
+<lot_size>80 X 140</lot_size>
+<year_built>1944</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>18 17TH ST</house_location>
+<price>$69,500</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>250170</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MARY L FRANXMAN</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * LEADED GLASS WINDOWS IN STUDY * FULL VIEW OF CINCTI
+SKYLINE TERRACED GARDEN * PRIVACY FENCE * DEADEND STREET * CONVENIENT
+LOCATION *</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>B</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>14 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 6</dimension><level>1</level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+<study><dimension>13 X 7</dimension><level></level></study>
+
+<directions>NORTH ON US 27 TO CAROTHERS RD L PARKVIEW ABOVE
+FORMER KFC SITE-RIGHT ON 17TH ST</directions>
+</house_listing>
+
+
+

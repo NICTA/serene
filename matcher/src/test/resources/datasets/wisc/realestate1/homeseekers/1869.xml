@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Mead home, 2 story, 2 car att garage, tenant occ, section 8, 24 hrs to
+show, large yd,entry through side door , which is the front door, good
+condition, central heat/air.</house_description>
+
+<agent_name>Dolores Golden</agent_name>
+<direct>213-294-3340</direct>
+<office>310-645-6786</office>
+<firm_name>Baldwin &amp; Golden R/E Services</firm_name>
+<phone>310-645-6786</phone>
+<fax>310-645-0920</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$124,500</list_price>
+<location>942 E 112Th St</location>
+<mls>R100243</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<square_feet>1444 (approx)</square_feet>
+<lot_size>3875 (approx)</lot_size>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>SUZANNE HUGGINS</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 127</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11602</id>
+<mls>163531</mls>
+<house_location>8803 KENNARD DRIVE
+Houston, TEXAS 77074</house_location>
+<county>Harris</county>
+<price>$88,300</price>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>CRISP CONTEMPORARY/WOODED SETTING LARGE CORNER LOT / PRISTINE CONDITION/ MUCHO SALTILLO. MASTER WITH OPEN BATH, SUNKEN TUB &amp; PRIVATE COURTYARD. SECOND BATH HAS HUGE SHOWER, GLASS BRICK WALL - SMASHING! HEAT AND A/C NEW IN 1997. IN FLOOD PLAIN BUT STORM DRAINS FIXED! LAST FLOOD DID NOT TOUCH IT!</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Braeburn Glen</sub-division>
+<approx_size_sqft>2130</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>9754</approx_lot_size>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WOODED SETTING</item>
+<item>LARGE CORNER LOT</item>
+<item>PRISTINE CONDITION SUNKEN TUB - PRIVATE COURTYARD</item>
+<item>HUGE SHOWER WITH GLASS BRICK WALL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

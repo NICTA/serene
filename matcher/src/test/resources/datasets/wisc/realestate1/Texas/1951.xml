@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Floyd Wilhelm Jr.</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>floyd_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19120</id>
+<mls></mls>
+<house_location>Tenney Road (CR 141)
+Luling, TEXAS 78648</house_location>
+<county>Caldwell</county>
+<price>$119,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Escape to this cozy two bedroom, two bath frame home in the country.  Includes a nice size living/dinng area, spacious master bedroom, appliances, CH/CA, all electric and much more.  A great wrap around porch gives a good view of the ten acres.  Directions:  From U. S. 183 take FM20 east toward Bastrop and turn right onto FM 1322.  Go 10.7 miles to CR 144 and turn left. Go to the T and take the right fork to CR 142.  Make a left hand turn on CR 142.  Go end of the road and the property is in front of you.</house_description>
+
+<school_district>Luling</school_district>
+<approx_size_sqft>1204</approx_size_sqft>
+<approx_acres>10</approx_acres>
+<year_built>1982</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>10 acres of land</item>
+<item>Spacious master bedroom</item>
+<item>Wrap around porch</item>
+<item>Nice trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

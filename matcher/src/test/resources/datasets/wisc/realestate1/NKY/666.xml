@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>930 MONTAGUE</house_location>
+<price>$58,800</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249614</mls>
+<house_type>Single Family</house_type>
+<firm>JANSEN REALTY</firm>
+<firm_phone>(606) 781-6800</firm_phone>
+<agent>JERRY JANSEN</agent>
+<agent_phone>(606) 781-6800</agent_phone>
+<house_description>TRADITIONAL 2 STORY 6 RM 2 BATH,HARDWOOD FLOORS, NATURAL WOODWORK,
+FRENCH DOORS, CROWN MOLDING, 9' CEILINGS MASTER BEDROOM WALK IN
+CLOSET, SPLIT RAIL FENCE, GARAGE. WELL KEPT, LOVELY YARD. 100%
+FINANCING AVAILABLE.</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>105x27x79</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 8</dimension><level>2</level></bedroom_3>
+<dining><dimension>18 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 7</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>18 X 14</dimension><level>2</level></master>
+
+<directions>I-75 TO 12TH ST EX, S ON DIXIE HWY, 1BLK TO R ON
+LEWIS, CORNER OF LEWIS &amp; MONTAGUE</directions>
+</house_listing>
+
+
+

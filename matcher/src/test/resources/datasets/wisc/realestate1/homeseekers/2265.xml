@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level condominium built in 1940 has 2 bedroom(s), 1 bath(s) and
+approximately 641 square feet of living area. Rooms include master
+bedroom. Features include air conditioning.</house_description>
+
+<agent_name>Bradley Rozansky</agent_name>
+<office>301-907-7600</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-907-7600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$34,900</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC3093970</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Condominium</type>
+<square_feet>641 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

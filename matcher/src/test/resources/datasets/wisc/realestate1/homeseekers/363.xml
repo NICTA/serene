@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1946 has 3 bedroom(s), 2 bath(s) and
+approximately 1023 square feet of living area. Rooms include family
+room. Features include view.</house_description>
+
+<agent_name>Philome Verne</agent_name>
+<direct>305-758-5908</direct>
+<office>305-758-5908</office>
+<firm_name>ERA Northeastern R
+Lic. Real Estate Broker</firm_name>
+<phone>305-758-5908</phone>
+<fax>305-758-7003</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$71,500</list_price>
+<location>30 NW 70 St</location>
+<neighborhood>Dupont Addn</neighborhood>
+<mls>M767168</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1023 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1946</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

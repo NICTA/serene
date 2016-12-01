@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This single family home built in 1925 has 8 bedroom(s), 7 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 9590 square
+feet of living area. Features include view, private pool, private spa,
+air conditioning.</house_description>
+
+<agent_name>Melanie Dayan</agent_name>
+<direct>305-935-9216</direct>
+<office>305-935-0300</office>
+<firm_name>Turnberry Realty C
+Lic. Real Estate Broker</firm_name>
+<phone>305-935-0300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$3,404,000</list_price>
+<location>4730 N Bay Rd</location>
+<neighborhood>Nautilus Sub</neighborhood>
+<mls>M721543</mls>
+<status>Active</status>
+<bedrooms>8</bedrooms>
+<baths>7(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>9590 (approx)</square_feet>
+<lot_size>116X233</lot_size>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+<spa>Yes</spa>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

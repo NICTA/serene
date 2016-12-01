@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elizabeth Bondurant</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21501</id>
+<mls>9135535</mls>
+<house_location>5620 Bogota Drive
+Richland Hills, TEXAS 76180</house_location>
+<county>Tarrant</county>
+<price>$109,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Nearly 1700 sq. ft. including a sunroom that opens to large lattice-covered deck in cozy &amp; secluded backyard. tiled entry opens to livingroom w/high ceiling &amp; French doors to sunroom. Open dining &amp; kitchen. Split bedrooms w/French doors to huge bath/double shower/large walk-ins. Built-ins and amenities galore. To see it is to love it.</house_description>
+
+<school_district>Birdville</school_district>
+<sub-division>Holiday West</sub-division>
+<approx_size_sqft>1700</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.5</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Sunroom, French doors</item>
+<item>Wonderful back yard</item>
+<item>Amenities, extras, upgrades</item>
+<item>See it.....Love it......Own it!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This condominium built in 1948 has 3 bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 990 square feet of living area.</house_description>
+
+<agent_name>Carlos Cespedes</agent_name>
+<direct>305-895-5564</direct>
+<office>305-891-1300</office>
+<firm_name>The Keyes Company,
+Lic. Real Estate Broker</firm_name>
+<phone>305-891-1300</phone>
+<fax>305-899-9242</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$89,999</list_price>
+<location>1289 Marseille Dr #43</location>
+<neighborhood>Marseilles Deco Condo</neighborhood>
+<mls>M766256</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>990 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<location>Canal front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

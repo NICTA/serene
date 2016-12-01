@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Westfall</name>
+<office>(409)542-1234</office>
+<fax>(409)542-0078</fax>
+<email>leon@westfallrealestate.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21008</id>
+<mls>1070</mls>
+<house_location>379 S. Johnson
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$85,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This is a great home with central location to shopping beautiful hard-wood floorswith rock front and asbestos siding.  Pier and beam foundation.  Nice shade trees on a quiet neighborhood</house_description>
+
+<school_district>Giddings</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1852</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1.25lots</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>hard-wood floors</item>
+<item>trees</item>
+<item>work shop</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

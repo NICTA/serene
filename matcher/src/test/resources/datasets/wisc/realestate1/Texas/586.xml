@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kay Zagst</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>kayz@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21022</id>
+<mls>54507</mls>
+<house_location>1407 Far West
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$235,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>WOW--WHAT A GOLF COURSE VIEW, WHAT A SETTING! COMPLETED IN MARCH 1999 BY LAKE COUNTRY CONSTRUCTION. SPLIT PLAN, VAULTED CEILINGS. OUTSTANDING VALUE FOR GOLF COURSE HOME. TWO CAR GARAGE WITH GOLF CART SPACE. LOTS OF SPECIAL FEATURES!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<approx_size_sqft>2012</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>GREAT GOLF COURSE VIEW!</item>
+<item>SPLIT FLOOR PLAN AND VAULTED CEILINGS!</item>
+<item>OUTSTANDING VALUE FOR GOLF COURSE HOME!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>George Reinemund Real Estate</name>
+<location>P. O. Box 338 Bastrop, TX 78702</location>
+<office>(512)303-5709</office>
+<toll_free></toll_free>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<email>greino@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>George Reinemund</name>
+<office>(512)303-5709</office>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<mobile>(512)796-0955</mobile>
+<email>george@georgereinemund.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20182</id>
+<mls></mls>
+<house_location>1407 WATER STREET
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$189,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>LOCATED IN BEAUTIFUL DOWNTOWN-OLD TOWN BASTROP.  3 BEDROOMS AND 2 BATHS. MANY UPGRADES FROM THE START AND BEING ADDED TO EACH WEEK. NICE TREES. BUILDER SAYS THER WILL BE ABOUT 2000 SQ FT OF LIVING AREA. CITY UTILITIES. JUST ENOUGH TIME FOR YOU TO COMPLETE YOUR FINANCING PROCESS AND MOVE IN.. THIS IS THE BUILDER THAT IS KNOWN FOR THE GREAT FINISH WORK.</house_description>
+
+<move-in_date>1/3/00</move-in_date>
+<school_district>Basrop</school_district>
+<sub-division>Bastrop Town Tract</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>2000</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.25</approx_lot_size>
+<approx_acres>0.25</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

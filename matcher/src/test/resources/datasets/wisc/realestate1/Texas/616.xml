@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elaine Morrow</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)707-1326</mobile>
+<email>jesmorrow@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21314</id>
+<mls>9131207</mls>
+<house_location>106 Poppy Lane
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$135,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Lakeview from every room on the front of house!!  Massive brick fireplace in greatroom with heatalator.  Plush carpet, hardwood floor in entry, builtins galore in kitchen,breakfast room, two large storage shets, two car detached garage, fenced yard,circular dive, massive oak trees.  A great weekend retreat or full time home withlake access nearby.  A must see for lake lovers.</house_description>
+
+<school_district>Whitney</school_district>
+<sub-division>Bluebonnet</sub-division>
+<approx_size_sqft>3000</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Lakeview</item>
+<item>Oversized rooms</item>
+<item>Quick lake access</item>
+<item>Oak trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1995 has 2 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1317 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+patio, air conditioning.</house_description>
+
+<agent_name>Leah Lichter</agent_name>
+<direct>520-566-1244</direct>
+<office>520-745-5151</office>
+<firm_name>Tucson Realty &amp; Trust Co</firm_name>
+<phone>520-745-5151</phone>
+<fax>520-745-5199</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>1614 W Sauvignon Dr</location>
+<mls>9918807</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1317 (approx)</square_feet>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

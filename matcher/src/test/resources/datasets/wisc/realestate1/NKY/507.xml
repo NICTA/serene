@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>1201 WILSON ROAD</house_location>
+<price>$151,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>BELLEVUE</suburb>
+<school_dist>BELLEVUE IN</school_dist>
+<mls>250281</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>JAMIE KLARE HENSCHEN</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>ENJOY THIS MAGNIFICANT HOME LOCATED ON A CORNER LOT IN THE BONNIE
+LESLIE AREA. TWO BUILDING LOTS ALSO INCLUDED (48X117) &amp; (50X112).
+HARDWOOD FLRS THRUOUT. 1ST FLR MSTR. ENJOY THE BEAUTIFUL YARD W/
+PLENTY OF OFFST. PKG.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>OF RECORD</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 12</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>16 X 11</dimension><level>1</level></master>
+
+<directions>MEMORIAL PARKWAY TO WILSON</directions>
+</house_listing>
+
+
+

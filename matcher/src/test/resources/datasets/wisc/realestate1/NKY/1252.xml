@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>4826 WILDWOOD DR</house_location>
+<price>$104,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON CO.</school_dist>
+<mls>248013</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>DENNIS R FISCHER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* BI-LEVEL * 3 BDRMS * LIVING RM * DINING RM * FAMILY RM W/WBFP *
+QUIET CUL -DE-SAC LOT * WOOD WINDOWS * NEW HEAT PUMP * NEW DISHWASHER
+* WOODBURNER IN SERT * TREE'D LOT * VERY PRIVATE * WELL LANDSCAPED *
+BIG 2 CAR GARAGE *</house_description>
+<construction>Brick,Vinyl</construction>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<family><dimension>23 X 12</dimension><level>L</level></family>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>L</level></laundry>
+<master><dimension>14 X 10</dimension><level>1</level></master>
+
+<directions>S ON TURKEYFOOT TO BRISTOW, R ON BEECHGRO VE, L
+ON WILDWOOD</directions>
+</house_listing>
+
+
+

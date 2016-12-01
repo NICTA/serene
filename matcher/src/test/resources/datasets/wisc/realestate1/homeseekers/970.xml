@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 3 bath(s) , 2 car attached
+garage.</house_description>
+
+<agent_name>Claudia Cesare</agent_name>
+<office>516-425-7900</office>
+<firm_name>Signature Properties</firm_name>
+<phone>516-425-7900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$379,000</list_price>
+<location>Preston</location>
+<mls>4275188</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Capecod</style>
+<lot_size>0.87</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Capecod Style, Full Basement
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

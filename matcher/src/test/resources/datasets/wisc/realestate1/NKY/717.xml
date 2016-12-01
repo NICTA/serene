@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>835 BAKEWELL</house_location>
+<price>$29,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>231497</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>ROBIN DONOVAN</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>HANDYMAN HISTORICAL SPECIAL!! MAINSTRAUSS AREA!! HAS BRICK SOLARIUM
+(HEATED ) CURRENTLY RENTED FOR $400 A MONTH</house_description>
+<construction>Brick,Wood</construction>
+<heating>Hot Water</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>16 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 15</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>17 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 9</dimension><level>1</level></laundry>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>1</level></master>
+
+<directions>I-75 N TO 5TH ST R ON MAIN R ON 9TH R ON
+BAKEWELL</directions>
+</house_listing>
+
+
+

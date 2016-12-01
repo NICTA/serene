@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Deedee Jones</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 24</voice_mail>
+<email>quadj@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20781</id>
+<mls>9123358</mls>
+<house_location>505 NE Barnard
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$40,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Quaint old home just a block and a half from the historic Glen Rose Square.  The age of the house is unknown, but it probably dates back 70 + years.  The house still has the original wooden floors, walls, ceilings, etc.  The current zoning puts the house in the commercial district, but because it is still being occupied as a home, it could be restored as a residence, or it would make a great location for a small business.</house_description>
+
+<move-in_date>11/25/99</move-in_date>
+<school_district>Glen Rose</school_district>
+<approx_size_sqft>1008</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>50X150</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great old home to fix up</item>
+<item>Good location for business</item>
+<item>Near historic towntown square</item>
+<item>Beautiful treed lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

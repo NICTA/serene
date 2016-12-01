@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ann Bragg</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email>abragg@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11915</id>
+<mls>171490</mls>
+<house_location>503 WHITE WING
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$87,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>VERY NICE 3/2/2 FLOORPLAN. LIGHT &amp; BRIGHT. LG LIVING WITH FIREPLACE, HI CLNG. WELL PLANNED . REPAIRS IN PROCESS. NEW ROOF. PAINT &amp; CARPET REPLACEMENT. SELLERS TO PROVIDE HMS WARRANTY FOR BUYERS.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Dove Meadows</sub-division>
+<approx_size_sqft>1690</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>FIREPLACE</item>
+<item>NEW ROOF</item>
+<item>PAINT, IN AND OUT.</item>
+<item>NEW CARPET</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

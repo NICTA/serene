@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>301 BRACKEN</house_location>
+<price>$159,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>AUGUSTA</suburb>
+<school_dist>AUGUSTA</school_dist>
+<mls>247630</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>D KEN PERRY</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>HISTORIC VICTORIAN HOME. UPDATED PLUMB/WIRING, BA/KIT, &amp; HVAC '97,
+DINING RM/FAMILY RM COMBINATION W/WBFP, MSTR ULTRA BA, OFF STREET
+PARKING, STORAGE SHED, DECK, LG FRONT PORCH. GREAT SMALL TOWN LIVING.
+A MUST SEE!</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>95x127</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>17 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>17 X 15</dimension><level>2</level></bedroom_3>
+<dining><dimension>8 X 15</dimension><level>1</level></dining>
+<family><dimension>8 X 15</dimension><level>1</level></family>
+<kitchen><dimension>28 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 8</dimension><level>1</level></laundry>
+<living><dimension>28 X 17</dimension><level>1</level></living>
+<master><dimension>17 X 14</dimension><level>1</level></master>
+
+<directions>AA HWY S, L HWY 1159, R HWY 8, L MAIN, R 4TH, L
+BRACKEN</directions>
+</house_listing>
+
+
+

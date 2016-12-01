@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judy Tinney</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18369</id>
+<mls>902304</mls>
+<house_location>6108 Cherokee (Ad# 438)
+Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$114,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Temporarily Off the Market</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Pecan Plantation</sub-division>
+<approx_size_sqft>1590</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.5</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>View of Lake Granbury</item>
+<item>Community pool, park, clubhouse</item>
+<item>Guarded/gated community</item>
+<item>inquire about #438</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

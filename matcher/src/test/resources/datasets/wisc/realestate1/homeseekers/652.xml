@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This ground level attached single family home built in 1928 has 2
+bedroom(s), 1 bath(s) and approximately 1115 square feet of living
+area. Rooms include dining room. Features include view.</house_description>
+
+<agent_name>Alex G. Perez</agent_name>
+<direct>323-307-2691</direct>
+<office>323-721-5147</office>
+<firm_name>Prudential Monte Vista Realtor Prudential Monte Vista Realtor</firm_name>
+<phone>323-721-5147</phone>
+<fax>323-724-7783</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$130,000</list_price>
+<location>1118 N Gage Av</location>
+<mls>M904015</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>Ground Level</levels>
+<type>Single Family</type>
+<square_feet>1115 (approx)</square_feet>
+<lot_size>5197</lot_size>
+<year_built>1928</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

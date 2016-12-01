@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Cindie Lee</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<email>cindilee@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20200</id>
+<mls></mls>
+<house_location>1033 W Hwy 71
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$199,900</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Spoil yourself with this lovely 5/2 country home!  Spacious with two living areas and formal dining.  Gorgeous interior with hardwood floors, stain glass windows, and antique fireplace mantle in family room!  Wonderful country setting with stock pond and pier, in-ground pool with spa, small barn, and more! 3.5+/- Acres covered with large, lush trees.  Livestock fenced.  Sprinkler system.  Call or e-mail Cindie.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Suburbia Estates</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Country Living with Style!</item>
+<item>Spacious Home with Gorgeous Interior!</item>
+<item>3.5 Beautifully Wooded Acres!</item>
+<item>Stock Pond and In-Ground Pool!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

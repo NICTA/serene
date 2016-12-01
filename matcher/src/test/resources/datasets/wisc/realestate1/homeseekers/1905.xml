@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1924 has 2
+bedroom(s), 1 bath(s) and approximately 935 square feet of living
+area. Features include view.</house_description>
+
+<agent_name>Vincent Trinh</agent_name>
+<office>323-221-0234</office>
+<firm_name>Goodwill Realty Group. Ltd.</firm_name>
+<phone>323-221-0234</phone>
+<fax>323-227-0680</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$102,000</list_price>
+<location>3964 Barrett Rd</location>
+<mls>W904481</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>935 (approx)</square_feet>
+<lot_size>5031</lot_size>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

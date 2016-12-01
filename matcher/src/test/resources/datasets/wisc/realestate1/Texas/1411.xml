@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Pat Counce</name>
+<office>(713)686-6090</office>
+<fax>(713)686-8543</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12268</id>
+<mls>177314</mls>
+<house_location>10219 Shadow Wood
+Houston, TEXAS 77043</house_location>
+<county>Harris</county>
+<price>$109,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Move right into this special home that shows quality of care and upkeep. Ongoing updates has kept this home in fashion. Heavily wooded Nob Hill in desirable Spring Branch is a wonderfulclose in location.</house_description>
+
+<school_district>Spring Branch</school_district>
+<sub-division>Nob Hill</sub-division>
+<approx_size_sqft>2283</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>11250</approx_lot_size>
+<year_built>1956</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Close in Spring Branch</item>
+<item>Wooded lots with mature</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

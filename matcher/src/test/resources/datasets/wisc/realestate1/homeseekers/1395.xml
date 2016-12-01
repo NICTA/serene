@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1993 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2527 square feet of living
+area. Rooms include den, dining room, bonus room, master bedroom.
+Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Marge Wright Marge Wright</agent_name>
+<direct>520-577-1642</direct>
+<office>520-529-5100</office>
+<email>MargeWright@HomeSeekers.com</email>
+<firm_name>Realty Executives-Tuc
+Realty Executives-Tuc</firm_name>
+<phone>520-529-5100</phone>
+<fax>520-529-2060</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$280,000</list_price>
+<location>5972 N Misty Ridge Dr</location>
+<mls>2001053</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2527 (approx)</square_feet>
+<year_built>1993</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>1218 OLD STATE RD</house_location>
+<price>$125,500</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>-</suburb>
+<school_dist>-</school_dist>
+<mls>249609</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>COLLEEN BERGER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM *YOU'LL FIND CHARM GALORE IN THIS PARK HILLS HOME *
+FEATURES INCLUDE COVERED FRONT PORCH W/SWING *HARDWD FLRS *BUILT-IN
+CHINA CABINETS WHITE KITCHEN *GAS FIREPLACE
+*REFRIG,OVEN,DISHWASHER,MICROWAVE INCLUDED</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>14 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 12</dimension><level></level></dining>
+<kitchen><dimension>12 X 10</dimension><level></level></kitchen>
+<living><dimension>19 X 12</dimension><level></level></living>
+<master><dimension>17 X 12</dimension><level>2</level></master>
+<study><dimension>10 X 10</dimension><level></level></study>
+
+<directions>NORTH DIXIE HWY TO LEFT ON SLEEPYHOLLOW RIGHT ON
+OLD STATE RD</directions>
+</house_listing>
+
+
+

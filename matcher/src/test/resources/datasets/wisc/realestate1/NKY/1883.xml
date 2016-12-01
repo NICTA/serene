@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>31 CHARLOTTE</house_location>
+<price>$86,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>WILLIAMSTOW</school_dist>
+<mls>249805</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>TOM DUNCAN</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>GREAT NEIHBORHOOD ,FULL BASEMENT, CONVENIENTLY LOCATED, A LOT OF HOUSE
+FOR THE MONEY. FRESHLY PAINTED AND CARPETED INSIDE,IMMEDIATE OCCUPANCY</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>24 X 13</dimension><level>2</level></master>
+<study><dimension>17 X 7</dimension><level>1</level></study>
+
+<directions>75S TO WILLIAMSTOWN,L TO L ON US25 THRU T OWN TO
+R ON CHARLOTTE HGHTS</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>527 WATERWORKS RD</house_location>
+<price>$95,900</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Part,Crawl</basement>
+<garage>None</garage>
+<suburb>*</suburb>
+<school_dist>JOHNSON</school_dist>
+<mls>248576</mls>
+<house_type>Single Family</house_type>
+<firm>BILL BRAMBLE REALTY INC</firm>
+<firm_phone>(606) 371-1500</firm_phone>
+<agent>BONNIE CLEMONS</agent>
+<agent_phone>(606) 371-1500</agent_phone>
+<house_description>WELL KEPT OLDER HOME IN NICE AREA. ROOF TWO YEARS NEW. MUST SEE!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 14</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>9 X 12</dimension><level>2</level></bedroom_4>
+<dining><dimension>14 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 14</dimension><level>1</level></kitchen>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>1</level></master>
+
+<directions>MEMORIAL PKWY TO WATERWORKS RD TO 527</directions>
+</house_listing>
+
+
+

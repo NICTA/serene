@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>MYRNA KLEIN</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<voice_mail>(713)621-4953 139</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11572</id>
+<mls>159786</mls>
+<house_location>2210 FULHAM COURT
+Houston, TEXAS 77063</house_location>
+<county>Harris</county>
+<price>$199,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LIGHT AND BRIGHT FEE SIMPLE HOME SHOWS BEAUTIFULY. LARGE ROOMS, BUILT INS, HIGH CEILINGS, NICE MASTER BATH. THREE PATIOS, ATRIUM, HOT UTB. BE SURE TO SEE LOVELY SWIMMING POOL AREA AND GROUNDS. NOTE LOW MAINTENANCE FEE IN THIS DESIRABLE PRIVATE SUBDIVISION.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Hammersmith</sub-division>
+<stories>2</stories>
+<year_built>1973</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>DESIRABLE PRIVATE HAMMERSMITH SUBDIVISION</item>
+<item>THREE PATIOS- ATRIUM - HOT TUB</item>
+<item>BEAUTIFUL POOL LOCATION</item>
+<item>NICE MASTER BATH - LARGE ROOMS - HIGH CEILINGS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

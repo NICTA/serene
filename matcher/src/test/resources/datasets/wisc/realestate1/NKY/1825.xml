@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>303 BLUE JAY CIR</house_location>
+<price>$59,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>248862</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>GAYLE PRICE</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>PRICED 10,000 BELOW APPRAISED VALUE TO SELL FAST! 100% LOAN AVAILABLE
+TO QUALIFIED BUYER. HAS PERMANENT FOUNDATION. 3 BR, 2 BATH, ALL
+ELECTRIC CENTRAIL AIR. WILL HAVE DECK &amp; CONCRETE DRIVE.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>as of dee</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>9 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 13</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<living><dimension>13 X 15</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>27 S OF FALMOUTH 1 MI ON R</directions>
+</house_listing>
+
+
+

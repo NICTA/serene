@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kimla Holk</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<voice_mail>(830)693-3579 181</voice_mail>
+<mobile>(915)423-0078</mobile>
+<email>kimlaholk@realtor.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21601</id>
+<mls>54805</mls>
+<house_location>915 Ranch Road 261
+Buchanan Dam, TEXAS 78609</house_location>
+<county>Llano</county>
+<price>$152,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>VERSATILE HOME WITH A VIEW ON APPROXIMATELY  ONE ACRE! ONE PART OF THE HOUSE CAN EASILY BE CONVERTED INTO A RENTAL, OFFICE, OR FAMILY QUARTERS. REMODELED KITCHEN; HOME RATED AS NEW BY INSURANCE COMPANY. TAXES AND SQUARE FOOTAGE ARE ESTIMATED. BUYER HAS FIRST OPTION TO BUY TWO ADJOINING LOTS!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Indian Hills</sub-division>
+<approx_size_sqft>2200</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>VERSATILE HOME ON APPROXIMATELY ONE ACRE!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

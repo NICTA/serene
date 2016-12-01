@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>203 CARLA DR</house_location>
+<price>$199,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>COUNTRY CLUB</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249602</mls>
+<house_type>Single Family</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>MIKE MELTON</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>NEW BRICK HOME, UNDER CONSTRUCTION, LARGE ENCLOSED BACK PORCH,
+UPGRADED KIT CHEN, CABINETS, TIME TO PICK COLORS, ROOM SIZES MAY VARY.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 18</dimension><level>1</level></dining>
+<family><dimension>18 X 23</dimension><level>1</level></family>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 9</dimension><level>1</level></laundry>
+<master><dimension>14 X 18</dimension><level>1</level></master>
+
+<directions>CRITT EX L THEN R US25 R ON CMZ RD R INTO
+COUNTRY CLUB R ON CARLA</directions>
+</house_listing>
+
+
+

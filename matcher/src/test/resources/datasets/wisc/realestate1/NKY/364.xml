@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>1114 CHURCHILL</house_location>
+<price>$224,900</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>4-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Side)</garage>
+<suburb>GUNPWDR ESTATE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247848</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA SONDGERATH</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>INSIDE PIX-NKYHOMESONLINE.COM, CBWS.COM, NKYMLS.COM FLEX FLR PLAN W/BR
+&amp; BA ON 1ST. FAM RM W/WBFP OFF EAT-IN KIT W/CHERRY CABS. FIN REC RM IN
+LL. NAT WDWK THRUOUT.NEW HEAT PUMP (98), HOT H20 TANK (98) SPOTLESS &amp;
+WELL MAINTAIN</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Wood,Heat Pump</heating>
+<cooling>Central Air,Atic Fan</cooling>
+<fireplace>Wood,Insert,Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Aerobic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>18</dimension><level>X</level></bedroom_2>
+<bedroom_3><dimension>14 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 12</dimension><level>1</level></bedroom_4>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>19 X 16</dimension><level>1</level></family>
+<kitchen><dimension>18 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>34 X 18</dimension><level>L</level></laundry>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>20 X 12</dimension><level>2</level></master>
+<recreation_room><dimension>34 X 11</dimension><level>L</level></recreation_room>
+
+<directions>S-175 TO MT ZION EXIT R MT ZION R GUNPOWDER 1ST
+L CHURCHILL</directions>
+</house_listing>
+
+
+

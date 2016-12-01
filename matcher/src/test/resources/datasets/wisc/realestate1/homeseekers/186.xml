@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level attached home built in 1985 has 2 bedroom(s), 2 bath(s)
+and approximately 1275 square feet of living area. Rooms include
+dining room, living room, master bedroom. Features include private
+pool, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Sherry Daniel</agent_name>
+<direct>619-645-8688</direct>
+<office>619-497-4900</office>
+<firm_name>Century 21 Carole Realty Century 21 Carole Realty</firm_name>
+<phone>619-497-4900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$294,000</list_price>
+<location>San Diego, CA 92101</location>
+<mls>99 6026696</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse/Condo</type>
+<square_feet>1275 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Electric, Forced Air</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>In-ground</pool>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

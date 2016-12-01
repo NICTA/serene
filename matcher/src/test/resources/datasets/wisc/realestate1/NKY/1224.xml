@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>0 CARVER RD</house_location>
+<price>$99,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>CARVERS</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>247551</mls>
+<house_type>Single Family</house_type>
+<firm>REALTY WORLD-RIVER VALLEY PROP</firm>
+<firm_phone>(502) 732-9977</firm_phone>
+<agent>CHRIS D HEMBREE</agent>
+<agent_phone>(502) 732-9977</agent_phone>
+<house_description>HOME IS IN EXCELLENT CONDITION. 12 X 20 FRONT DECK, 14 X 4 REAR DECK,
+10 X 12 OUTBLDG. APPLIANCES &amp; SATELLITE SYSTEM NEGOTIABLE. ON 3 LOTS.
+ADDITIONAL WATERFRONT LOT AVAILABLE TO BUYER FOR ADDITIONAL $25,000.</house_description>
+<construction>Vinyl</construction>
+<heating>Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>172x94</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>9 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<family><dimension>14 X 16</dimension><level>1</level></family>
+<kitchen><dimension>13 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 6</dimension><level>1</level></laundry>
+<living><dimension>13 X 18</dimension><level>1</level></living>
+<master><dimension>13 X 14</dimension><level>1</level></master>
+
+<directions>U.S. 42W LEFT ON CARVERS LN. PROPERTY ON RT.</directions>
+</house_listing>
+
+
+

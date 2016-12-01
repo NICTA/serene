@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>Rex. Titan model on canal lot. Awesome kitchen. 1st floor bedroom or
+office. Huge lot. Price includes long list of standard
+features,jacuzzi tub,deck,ceramic tile,upgraded appliances. Still time
+for many buyer selections.</house_description>
+
+<agent_name>Philip Caruana</agent_name>
+<direct>481-7422</direct>
+<office>757-631-9500</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>757-631-9500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$274,000</list_price>
+<location>Virginia Beach, VA 23454</location>
+<mls>9918229</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Transitional</style>
+<square_feet>3300 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Heat Pump, Natural Gas</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<location>Canal front</location>
+<patio>Deck</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic Fan, Breakfast Room, Cable TV, Ceiling Fan(s), Microwave,Office, Pantry, Utility Room, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

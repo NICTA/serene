@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>1032 JACKSON RD</house_location>
+<price>$259,900</price>
+<rooms>11</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-2</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>PARK HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248953</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>PATTY COSLETT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*COMP RENOVATED W/FAM RM+OWNERS STE ADDITION*1ST FLR LAUND-KIT*BR
+AREA*FORM AL DR*SOL*ROOKWD FP*OWN STE HAS ULTRA BTH &amp;
+WHIRLPOOL*VERANDA OVERLOOKS WOO DED LOT FROM MBDRM*HDWD FLRS*TUDOR
+STYLE W/CHARACTER*5TH BR COULD BE OFFICE</house_description>
+<construction>Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>13 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 11</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>17 X 16</dimension><level>3</level></bedroom_5>
+<breakfast><dimension>18 X 8</dimension><level>1</level></breakfast>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<family><dimension>14 X 12</dimension><level>1</level></family>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>18 X 12</dimension><level>1</level></living>
+<master><dimension>20 X 13</dimension><level>2</level></master>
+<study><dimension>11 X 6</dimension><level>1</level></study>
+
+<directions>AMSTERDAM TO L ON PARK-TURNS INTO CLEVE LAND TO
+R ON JACKSON RD</directions>
+</house_listing>
+
+
+

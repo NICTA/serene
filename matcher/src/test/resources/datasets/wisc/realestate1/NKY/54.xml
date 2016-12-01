@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>4 FOLCRIST</house_location>
+<price>$146,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Oversized)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>245082</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LARRI R BROWN</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>PARKLAND HOMES. NEW I-JOIST FLOORING, CATHEDRAL CEILINGS, 6 PANEL
+DOORS, 2/10 WARRANTY. MODEL OPEN DAILY 1-5, CLOSED FRI. LOCATED IN
+DERBY FARMS OR CALL 786-3952 FOR APPOINTMENT AFTER HOURS.</house_description>
+<construction>Brick,Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70x134</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>1</level></bedroom_3>
+<family><dimension>14 X 29</dimension><level>L</level></family>
+<kitchen><dimension>9 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>L</level></laundry>
+<living><dimension>18 X 16</dimension><level>1</level></living>
+<master><dimension>17 X 13</dimension><level>1</level></master>
+
+<directions>I75 TO FLORENCE/UNION EXIT-S ON US42 TO L ON
+FROGTOWN TO L ON DUBLIN-BEAR LT.</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Reinhardt Mark</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>markrc21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21312</id>
+<mls>324588</mls>
+<house_location>11738 Loop 107
+Adkins, TEXAS 78101</house_location>
+<county>Bexar</county>
+<price>$150,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Great country property! Excellent commercial potential. No restrictions. Access to both Loop 107 &amp; Hwy 87. 30x24 workshop/commercial metal bldg. Was Western sales shop. House has unique horizontal layed flagstone exterior, great insulation! All baths recently tiled/upgraded.  31x17 covered patio. Bay window. Knotty pine fam. room. Storage building.</house_description>
+
+<school_district>East Central</school_district>
+<approx_size_sqft>1770</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>148x398</approx_lot_size>
+<approx_acres>1.35</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

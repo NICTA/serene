@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Graves</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>carolyn@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17995</id>
+<mls>53372</mls>
+<house_location>205 Wood Forest
+Kingsland, TEXAS 78639</house_location>
+<county>Llano</county>
+<price>$81,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>PRIVATE SETTING ON THREE ACRES WITH HUGE OAK TREES! PLENTY OF ROOM TO ROAM! YOU'LL ALSO ENJOY THE ABOVE GROUND POOL AND HOT TUB! VERY WELL MAINTAINED MANUFACTURED HOME WITH DECK AND PATIO!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Wood Forest Ranchettes</sub-division>
+<stories>1</stories>
+<approx_acres>3</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>THREE ACRES OF PRIVACY WITH OAK TREES!</item>
+<item>ABOVE GROUND POOL AND HOT TUB!</item>
+<item>GREAT MANUFACTURED HOME!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1968 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) , 1 car garage and approximately 900 square feet of living
+area. Features include private pool.</house_description>
+
+<agent_name>Caridad Rodriguez</agent_name>
+<direct>864-6844</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,000</list_price>
+<location>5700 Collins Av #9K</location>
+<neighborhood>Seacoast 5700 Condo Desc</neighborhood>
+<mls>M738796</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>900 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<location>Intracoastal, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

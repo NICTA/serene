@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>ED HERNANDEZ</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)681-7027</mobile>
+<email>teamwheat@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19995</id>
+<mls>87489</mls>
+<house_location>5200 Daybreak Drive
+Killeen, TEXAS 76542</house_location>
+<county>Bell</county>
+<price>$63,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Brand new executive townhome under construction.  Amenities include refrigerator, smooth-surface range, vent hood, dishwasher, marble vanities, raised panel doors, ceramic tiled floors in kitchen, laundrey, and baths, and privacy fence.  Landscaping package includes sodded front and side yard, one 5-gallon tree and three 1 gallon shrubs.  The builder is offering a $1.00 move in excluding loan origination and insurance limited to fire an extended coverage.</house_description>
+
+<school_district>K.i.s.d</school_district>
+<sub-division>Morning Glen</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>1148</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

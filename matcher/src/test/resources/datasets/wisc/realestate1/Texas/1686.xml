@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Thelma Sorgman</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5952</voice_mail>
+<email>ranch@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11100</id>
+<mls>477063</mls>
+<house_location>4549 TEJAS
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$85,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>4</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>HAVE THE BEST IN THIS AREA. OWN A LOT IN INDIAN LAKE SUBDIVISION WITH LAKE PRIVILEDGES AND ADJOINING 5 ACRES IN A PRIVATE AREA WITH NO RESTRICTIONS. BEAUTIFUL ACRES WITH A VERY NICE 2 YEAR PALM HARBOR HOME. INDOOR UTILITIES, COVERED PORCH, COVERED PATIO, LARGE WORKSHOP AND 4 CAR OPEN GARAGE.</house_description>
+
+<move-in_date>9/30/98</move-in_date>
+<school_district>Smithville</school_district>
+<sub-division>Edwards Charles</sub-division>
+<approx_size_sqft>1680</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>5.3</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>LAKE PRIVELEDGES</item>
+<item>VERY NICE TREED 5 ACRES</item>
+<item>HOME ONLY 2 YEARS OLD</item>
+<item>QUIET CUNTRY LIVING</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

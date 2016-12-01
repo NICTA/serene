@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1993 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car attached garage and approximately 2362
+square feet of living area. Rooms include dining room. Features
+include view, patio, fireplace, air conditioning, satellite dish.</house_description>
+
+<agent_name>Nancy Boerner</agent_name>
+<direct>783-5200</direct>
+<office>782-8911</office>
+<firm_name>Sagely &amp; Edwards Co. Better</firm_name>
+<phone>782-8911</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$198,500</list_price>
+<location>515 Brownwood Estates</location>
+<neighborhood>Brownwood Estates</neighborhood>
+<mls>10019615</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<style>Traditional</style>
+<square_feet>2362 (approx)</square_feet>
+<lot_size>212X665X211X666</lot_size>
+<year_built>1993</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Natural Gas</heating>
+<fireplace>Gas logs</fireplace>
+<location>Cul-de-sac</location>
+<patio>Patio</patio>
+<rooms>Dining Room</rooms>
+<view>Mountain View, Panoramic View, Park View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Nook, Cable TV, Central Vacuum, Foyer, GarageDoor Opener, Horse Property, Landscaped, Laundry Room, Microwave,Pantry, Satellite Dish, Smoke Alarms, Sprinklers, Traditional Style,Trash Compacter, Utility Room, Walk-In Closet(s), Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

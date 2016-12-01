@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Theresa Seibold</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)896-6589</voice_mail>
+<email>tseibold@remax-ccn-austin-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20877</id>
+<mls>525997</mls>
+<house_location>8150 Racine Trail
+Austin, TEXAS 78717</house_location>
+<county>Williamson</county>
+<price>$179,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Fabulous Custom Harris Baker Home-Previous Model! Elegant decor througout. Light and bright kitchen perfect for entertaining. Upgrades include french doors, rainsoft watersoftener, sprinkler system, landscaping.</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Woods Of Brushy Creek</sub-division>
+<approx_size_sqft>2265</approx_size_sqft>
+<stories>2</stories>
+<year_built>1995</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+
+<highlights>
+<item>Custom Harris Baker Home</item>
+<item>Light &amp; Bright Kitchen</item>
+<item>Gameroom Loft</item>
+<item>Lots of Landscaping</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

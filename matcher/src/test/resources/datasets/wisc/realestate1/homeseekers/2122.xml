@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1962 has 6
+bedroom(s), 4 full bath(s)/2 half bath(s) , 2 car garage and
+approximately 5000 square feet of living area. Rooms include den,
+dining room, living room, bonus room, master bedroom. Features include
+patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Brian Logan</agent_name>
+<direct>202-387-0682</direct>
+<office>202-387-5555</office>
+<firm_name>Brian Logan Real Estate</firm_name>
+<phone>202-387-5555</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$1,250,000</list_price>
+<location>Washington, DC 20007</location>
+<mls>DC3015598</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>4(full) 2(half)</baths>
+<levels>3 or more</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>5000 (approx)</square_feet>
+<lot_size>8400</lot_size>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<location>Cul-de-sac</location>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Den, Dining Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Kitchen Island
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

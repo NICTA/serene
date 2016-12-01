@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>PAT SHERINSKI</name>
+<office></office>
+<fax></fax>
+<voice_mail>(713)621-4953 168</voice_mail>
+<email>larrys@wt.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13199</id>
+<mls>179984</mls>
+<house_location>1841 MARSHALL
+Houston, TEXAS 77098</house_location>
+<county>Harris</county>
+<price>$175,000</price>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>TOWNHOMES ARE BUILT AROUND NEW ORLEANS STYLE COURT YARD. ENTRANCE IS THRU AN ARCHED DRIVEWAY. ALL BRICK. FRESH PAINT, NEW BERBER CARPET, 2 OR 3 BEDROOMS, 2 WB FIREPLACES, 2 BALCONIES- ONE IN FRONT AND OVERLOOKING COURTYARD FOUNTAIN. WET BAR , 2 FULL BATHS UP, 1/2 DN. OUTSTANDING .</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Winlow Place</sub-division>
+<stories>2</stories>
+<approx_lot_size>1920</approx_lot_size>
+<year_built>1966</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>2</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>FRESH PAINT, NEW BERBER CARPET</item>
+<item>2 WB FIREPLACES,2 BALCONIES</item>
+<item>2 FULL BATHS UP</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>430 LATIMER LANE</house_location>
+<price>$99,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249769</mls>
+<house_type>Single Family</house_type>
+<firm>BARNES REAL ESTATE</firm>
+<firm_phone>(606) 635-5405</firm_phone>
+<agent>PEGGY BARNES</agent>
+<agent_phone>(606) 635-5405</agent_phone>
+<house_description>'94 CLAYTON 28X64 DBLWIDE-OPEN FLR PLAN, LARGE RMS. FAM RM OFF
+KIT-VAULTED CEILING THRUOUT. LAKE VIEW. CD ADD HORSE STALLS TO NWR LG
+BARN. OUT BLDG WAS TAXIDERMY STUDIO CD BE CONVERTED BACK TO GARAGE.
+SOLD 'AS IS'.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern,At Street</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>20 X 13</dimension><level>1</level></family>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 5</dimension><level>1</level></laundry>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+
+<directions>WMSTOWN-US25 TO HWY22 E 1.5MI TO L ON HWY489 TO
+L ON LATIMER LN</directions>
+</house_listing>
+
+
+

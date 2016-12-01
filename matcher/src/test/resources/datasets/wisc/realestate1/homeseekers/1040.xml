@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1980 has 5
+bedroom(s), 2 bath(s) , 2 car attached garage and approximately 2799
+square feet of living area. Rooms include dining room, living room,
+bonus room, master bedroom. Features include view, fireplace.</house_description>
+
+<agent_name>Sergio Lopez</agent_name>
+<office>323-256-4160</office>
+<firm_name>Jordinelli &amp; Associates</firm_name>
+<phone>323-256-4160</phone>
+<fax>323-254-6705</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$289,000</list_price>
+<location>4530 Palmero</location>
+<mls>G907238</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>2799 (approx)</square_feet>
+<lot_size>7187</lot_size>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Living Room, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

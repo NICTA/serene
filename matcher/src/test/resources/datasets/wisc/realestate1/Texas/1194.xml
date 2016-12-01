@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18861</id>
+<mls>14763</mls>
+<house_location>2225 Ella
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$78,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Big house for the money! Alot of extra room for the larger family and plenty of space for gameroom or recreation room.  In addition to garage, covered carport for winnebago or nice boat! New refrigerator and new gas stove. Large yard.   Home warranty offered. Hurry priced to sell fast!  Call or email Arnold today!!!(Price has just been reduced!  Call today!)</house_description>
+
+<school_district>Bonham</school_district>
+<sub-division>Parkview Terrace</sub-division>
+<approx_size_sqft>1938</approx_size_sqft>
+<approx_lot_size>84X110</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Large home for price.</item>
+<item>Plenty of space.</item>
+<item>Home warranty offered.</item>
+<item>Large yard.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

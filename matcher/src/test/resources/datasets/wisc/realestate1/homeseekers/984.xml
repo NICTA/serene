@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1912 has 3 bedroom(s), 2 bath(s) and
+approximately 1843 square feet of living area.</house_description>
+
+<agent_name>Jim Charleston</agent_name>
+<direct>303-526-2293</direct>
+<office>303-514-8627</office>
+<firm_name>The Place 2B Realty</firm_name>
+<phone>303-514-8627</phone>
+<fax>303-526-2830</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$182,900</list_price>
+<location>3320 Zuni St</location>
+<neighborhood>Highland</neighborhood>
+<mls>384965</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1843 (approx)</square_feet>
+<year_built>1912</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

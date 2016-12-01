@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>7622 HOPEFUL RD</house_location>
+<price>$102,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250033</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA HOLLMAN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>CALL BARB HOLLMAN 341-3394. SUPER 3 BED BR RANCH - LARGE LR - EQ KIT
+-1 1/2 BATH-REC RM LL - 2ND SEMI-FIN RM LL-NEWER HEAT PUMP,ROOF-DBL
+PANTRY KIT- 1 CAR DOOR OP</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>19 X 10</dimension><level>1</level></kitchen>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>1</level></master>
+<recreation_room><dimension>18 X 9</dimension><level>B</level></recreation_room>
+
+<directions>US 42 RT HOPFUL CHURCH RT ROSETTA, RT OLD
+HOPEFUL RD</directions>
+</house_listing>
+
+
+

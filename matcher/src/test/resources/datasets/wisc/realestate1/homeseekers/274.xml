@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1925 has 2 bedroom(s), 1 bath(s) and
+approximately 771 square feet of living area.</house_description>
+
+<agent_name>Chip Deacon</agent_name>
+<direct>303-796-1270</direct>
+<office>303-773-3885</office>
+<firm_name>Rmx Metro Properties</firm_name>
+<phone>303-773-3885</phone>
+<fax>303-290-0842</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$109,000</list_price>
+<location>353 Raleigh St</location>
+<neighborhood>Barnum</neighborhood>
+<mls>379627</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>771 (approx)</square_feet>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

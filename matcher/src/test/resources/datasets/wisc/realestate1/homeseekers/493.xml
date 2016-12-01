@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>Huge 4 bedroom w/ 3 full baths! Large master on 1st floor. Freshly
+painted w/buyers choice of colors! This home has been renovated and
+features over 2400 sqft of living area (per builder). Seller will help
+w/ closing cost! Hurry on this one!</house_description>
+
+<agent_name>Coke Sarma</agent_name>
+<direct>718-8352</direct>
+<office>757-495-1900</office>
+<firm_name>Wainwright Real Estate</firm_name>
+<phone>757-495-1900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$93,500</list_price>
+<location>Norfolk, VA 23513</location>
+<mls>9934384</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<style>Traditional</style>
+<square_feet>2400 (approx)</square_feet>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<location>Corner</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Attic Fan, Balcony, Breakfast Room, Ceiling Fan(s), Fenced,Garage Door Opener
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

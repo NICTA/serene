@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>10780 BIG BONE</house_location>
+<price>$465,000</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side,Oversized)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>250001</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MIKE PARKER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>APPROX. 30 AC *3 BEDRM RANCH *2.5 BATHS *2 CAR OVERSIZED GARAGE *2 LG
+BARNS LAKE *GREAT SET-UP FOR HORSES *1 BARN COULD BE 10 STALLS * EASY
+TO SHOW CALL MIKE AT 647-0700 WWW.MRMIKE,COM</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 8</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 12</dimension><level>1</level></dining>
+<family><dimension>17 X 16</dimension><level>1</level></family>
+<kitchen><dimension>12 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 7</dimension><level>L</level></laundry>
+<living><dimension>20 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 11</dimension><level>1</level></master>
+
+<directions>US42 SO TO R ON HATHAWAY L ON BIG BONE 2.2 MILES
+ON LEFT</directions>
+</house_listing>
+
+
+

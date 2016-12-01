@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1997 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 1902 square
+feet of living area. Rooms include dining room. Features include view,
+patio, air conditioning.</house_description>
+
+<agent_name>Doyle Kennedy</agent_name>
+<direct>520-850-2344</direct>
+<office>520-887-8450</office>
+<firm_name>Assist 2 Sell</firm_name>
+<phone>520-887-8450</phone>
+<fax>520-887-8514</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,900</list_price>
+<location>2590 W Bluffs Peak Ct</location>
+<mls>9917499</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1902 (approx)</square_feet>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

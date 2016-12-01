@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1956 has 4 bedroom(s), 2 bath(s) and
+approximately 2393 square feet of living area.</house_description>
+
+<agent_name>Sandy Macmasters</agent_name>
+<direct>303-450-0288</direct>
+<office>303-252-7700</office>
+<firm_name>Sandy &amp; Assoc Realty</firm_name>
+<phone>303-252-7700</phone>
+<fax>303-252-4664</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$159,950</list_price>
+<location>6895 Alan Dr</location>
+<neighborhood>Perl Mack</neighborhood>
+<mls>381694</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2393 (approx)</square_feet>
+<year_built>1956</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

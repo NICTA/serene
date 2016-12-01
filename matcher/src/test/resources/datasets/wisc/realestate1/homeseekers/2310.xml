@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1940 has ? bedroom(s), 1 bath(s) and
+approximately 310 square feet of living area.</house_description>
+
+<agent_name>Gigi Formoso</agent_name>
+<direct>954-528-2616</direct>
+<office>954-434-5234</office>
+<firm_name>Coldwell Banker Re Coldwell Banker Re
+Lic. Real Estate Broker</firm_name>
+<phone>954-434-5234</phone>
+<fax>954-434-6709</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$37,000</list_price>
+<location>3425 Collins Av #741</location>
+<neighborhood>Versailles Hotel Condo</neighborhood>
+<mls>F246197</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>310 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Ocean Access
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

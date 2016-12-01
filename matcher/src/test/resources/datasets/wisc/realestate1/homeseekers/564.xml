@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This single family home built in 1987 has 5 bedroom(s), 4 bath(s) , 2
+car attached garage and approximately 4401 square feet of living area.
+Rooms include den, family room, master bedroom. Features include view,
+private pool, air conditioning, french doors, skylights.</house_description>
+
+<agent_name>Adela Balli</agent_name>
+<direct>786-218-6707</direct>
+<office>305-666-0669</office>
+<firm_name>Shelton &amp; Assoc Re
+Lic. Real Estate Broker</firm_name>
+<phone>305-666-0669</phone>
+<fax>305-666-6674</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$695,000</list_price>
+<location>8781 SW 64 Ct</location>
+<neighborhood>Clusters Sub</neighborhood>
+<mls>D906007</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>4401 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Zoned</heating>
+<pool>Yes</pool>
+<rooms>Den, Family Room, Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, French Doors, Kitchen Island, Outdoor Grill, Pantry,Skylights, Smoke Detector, Trash Compacter
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

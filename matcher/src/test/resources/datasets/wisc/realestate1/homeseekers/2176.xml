@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This home built in 1960 has 2 bedroom(s), 2 bath(s) . Rooms include
+master bedroom. Features include patio, storage space.</house_description>
+
+<agent_name>Sue Williams</agent_name>
+<office>480-951-1010</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>480-951-1010</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$59,995</list_price>
+<location>Phoenix, AZ 85012</location>
+<mls>1452026</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<year_built>1960</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Deck</patio>
+<pool>Community Pool</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ceiling Fan(s), Dining/Living Combo, Dishwasher, Elevator, Microwave,Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>17 MARYS CT</house_location>
+<price>$109,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>(Carport)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>250302</mls>
+<house_type>Single Family</house_type>
+<firm>STEPHEN DUE BUILDER INC</firm>
+<firm_phone>(606) 384-4822</firm_phone>
+<agent>STEPHEN J DUE</agent>
+<agent_phone>(606) 384-4822</agent_phone>
+<house_description>GREAT LOCATION 2 MIN.FROM I75 NICE 3 BR BRICK RANCH FENCED YARD
+HARDWOOD FLRS.NEW KITCHEN PARTIAL FINISHED BASEMENT.US 42 TO LACRESTA
+DR NEXT TO WHITE CASTLE TO R ON CHERRY TO R ON MARYS CT.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>10 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 8</dimension><level>1</level></bedroom_3>
+<family><dimension>22 X 20</dimension><level>1</level></family>
+<kitchen><dimension>24 X 8</dimension><level>1</level></kitchen>
+<living><dimension>16 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>17 MARYS CT</directions>
+</house_listing>
+
+
+

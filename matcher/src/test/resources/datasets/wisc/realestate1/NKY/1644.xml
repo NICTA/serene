@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>311 LAKE</house_location>
+<price>$87,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached,Rear)</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>250334</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>PATTY COSLETT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*COMP UPDATED 2/3 BR*1ST FLR FR W/WET BAR/BOOKSHELVES/TRAY CEIL &amp; W/O
+TO LEVEL YD W/PRIV FENCE*NEW BATHS*RENOVATED OWN STE W/WALK-IN/PLANT
+LEDGE &amp; DECK*HDWD FLRS*CER FLR-KIT,BTHS &amp; FAM RM*CHINA CLOS IN DR*1
+CAR DET GAR*</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<family><dimension>13 X 10</dimension><level>1</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>16 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>2</level></master>
+
+<directions>SLEEPY HOLLOW TO L ON LAUREL TO L ON LAKE</directions>
+</house_listing>
+
+
+

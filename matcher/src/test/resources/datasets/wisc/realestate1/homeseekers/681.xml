@@ -1,0 +1,30 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 4 bath(s) and approximately
+3515 square feet of living area.</house_description>
+
+<agent_name>Michael Or Kevin</agent_name>
+<direct>303-755-1241</direct>
+<office>303-755-1241</office>
+<firm_name>Weststar Management</firm_name>
+<phone>303-755-1241</phone>
+<fax>303-696-8081</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$995,000</list_price>
+<location>141 S Eudora St</location>
+<neighborhood>Hilltop</neighborhood>
+<mls>326232</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<square_feet>3515 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

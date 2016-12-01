@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Menley</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<email>winkler@texasproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15653</id>
+<mls>500787</mls>
+<house_location>142 SMITH RD
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$98,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>APPROXIMATELY 1585 SQ FT PER PLANS.  2 DINING.  AWESOME MASTER BATH W / HIS &amp; HER VANITY &amp; WALKINS.  THIS MODEL CAN BE DUPLICATED OR DESIGN YOUR OWN.  BEAUTIFUL LOTS.  VA / FHA.  FOUNDATION TAPE &amp; TEXTURED WALLS.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>1585</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

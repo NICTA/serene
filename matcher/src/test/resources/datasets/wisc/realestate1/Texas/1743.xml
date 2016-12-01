@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Modena DeSpain</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18314</id>
+<mls>53416</mls>
+<house_location>305 W. 6th Street
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$144,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Three bedroom, two bath home in the City of Marble Falls with large den for family and entertainment.  This home also has a guest house with one bedroom and 1 1/2 baths.  Additional extras include hot tub, bonus room, deck, and sprinkler system.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>City Of Marble Falls</sub-division>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>3 BD, 2 BA main house, den, bonus room.</item>
+<item>Guest house has 1 BD, 1 1/2 BA.</item>
+<item>Hot tub and deck.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1949 has 3 bedroom(s), 1
+bath(s) and approximately 1043 square feet of living area. Rooms
+include family room.</house_description>
+
+<agent_name>Rosa Amelia Barraza</agent_name>
+<direct>520-318-4612</direct>
+<office>520-577-8333</office>
+<firm_name>Prudential Aegis Prudential Aegis</firm_name>
+<phone>520-577-8333</phone>
+<fax>520-577-1502</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$65,900</list_price>
+<location>2302 S Norris Ave</location>
+<mls>9922094</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1043 (approx)</square_feet>
+<year_built>1949</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

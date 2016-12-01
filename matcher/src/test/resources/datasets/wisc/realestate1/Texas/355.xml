@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>JERRY RUSSO</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<voice_mail>(512)794-9292 103</voice_mail>
+<mobile>(512)422-2792</mobile>
+<email>jrusso@remax-hot-aus-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21739</id>
+<mls>529723</mls>
+<house_location>970 Phillips Lane
+Liberty Hill, TEXAS 78642</house_location>
+<county>Burnet</county>
+<price>$79,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<house_description></house_description>
+
+<school_district>Liberty Hill</school_district>
+<sub-division>Phillips</sub-division>
+<approx_size_sqft>1820</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1.1</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>ready to move into</item>
+<item>big ariy kitchen</item>
+<item>Lots of trees, country living</item>
+<item>open floor plan</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Debbie</email>
+</firm_information>
+
+<agent_information>
+<name>Miller</name>
+<office>(281)403-6500</office>
+<fax>(281)431-2131</fax>
+<voice_mail>(281)242-6500 225</voice_mail>
+<mobile>(281)686-1175</mobile>
+<email>dmiller@argolink.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14402</id>
+<mls>172266</mls>
+<house_location>3107 Waters Way
+Sugar Land, TEXAS 77478</house_location>
+<county>Fort Bend</county>
+<price>$197,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>In the heart of First Colony!  Hardwood entry, formal living, crown molding, tile kitchen/breakfast and 2 baths.  Chair rail molding, neutral colors, extensive landscaping.  Priced below market per sq. ft.  Secluded neighborhood.  All bedrooms up.  Master has large sitting area (could be used as study or nursery area).  One of the largest floor plans in this section.</house_description>
+
+<move-in_date>3/31/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Edgewater</sub-division>
+<approx_size_sqft>3307</approx_size_sqft>
+<stories>2</stories>
+<year_built>1996</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Corner Lot</item>
+<item>3 Living areas</item>
+<item>Many upgrades</item>
+<item>HardwoodEntry/Formal Living</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

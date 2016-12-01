@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1914 has 2
+bedroom(s), 1 bath(s) . Rooms include dining room, living room, master
+bedroom. Features include view.</house_description>
+
+<agent_name>Robert Rodrigues</agent_name>
+<direct>619-529-9198</direct>
+<office>619-223-2244</office>
+<firm_name>Real Properties Group</firm_name>
+<phone>619-223-2244</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$229,000</list_price>
+<location>San Diego, CA 92107</location>
+<mls>00 6000391</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<lot_size>6233</lot_size>
+<year_built>1914</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<view>Park/Greenbelt View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

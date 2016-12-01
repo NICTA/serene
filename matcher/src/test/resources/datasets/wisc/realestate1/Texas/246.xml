@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Damron</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)393-4752</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14357</id>
+<mls>5312</mls>
+<house_location>210 W. Sierra Circle
+San Marcos, TEXAS</house_location>
+<county>Hays</county>
+<price>$163,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Exceptional home in great area!  Every room is oversized.  4 Bedrooms/4.5 Baths.  Huge living area.</house_description>
+
+<approx_size_sqft>3700</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Very large home!!</item>
+<item>Nice area.</item>
+<item>All rooms are very large.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

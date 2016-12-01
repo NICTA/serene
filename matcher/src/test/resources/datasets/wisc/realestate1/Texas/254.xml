@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>John Moore</name>
+<office>(512)833-3583</office>
+<fax>(512)834-2234</fax>
+<mobile>(512)970-8613</mobile>
+<email>johnmoore@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20050</id>
+<mls>520350</mls>
+<house_location>128 Green Pasture
+Hutto, TEXAS 78634</house_location>
+<county>Williamson</county>
+<price>$95,950</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Country living close in * Great Community near everything but out in the country* New dishwasher in 1999 * Ceiling fans in every room*</house_description>
+
+<move-in_date>10/19/99</move-in_date>
+<school_district>Hutto</school_district>
+<sub-division>Garden Park</sub-division>
+<approx_size_sqft>1402</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>100 x 325</approx_lot_size>
+<approx_acres>0.75</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Country Living!</item>
+<item>Great Community Near Everything!</item>
+<item>New Dishwasher in 1999!</item>
+<item>Ceiling Fans in every room!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

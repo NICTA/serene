@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>990 ARTHUR</house_location>
+<price>$90,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>(Carport)</garage>
+<suburb>CORINTH</suburb>
+<school_dist>GRANT</school_dist>
+<mls>247000</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX WORKS</firm>
+<firm_phone>(888) 297-7629</firm_phone>
+<agent>MICHAELA MCGRAW</agent>
+<agent_phone>(888) 297-7629</agent_phone>
+<house_description>CHARMING RANCH *CEDAR SIDING*CARPORT*PORCH*FULL BASEMENT*SITTING ON
+1.6 AC. ONLY 4 YEARS OLD*QUIET COUNTRY SETTING*ANXIOUS SELLERS*MAKE
+OFFER</house_description>
+<construction>Cedar</construction>
+<heating>Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>18 X 11</dimension><level>1</level></kitchen>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level>1</level></master>
+
+<directions>75S EX 144 LTO 330 L TO 25 LEFT TO KEEFER PAST
+ANTIOCH CHURCH L TO ARTHUR</directions>
+</house_listing>
+
+
+

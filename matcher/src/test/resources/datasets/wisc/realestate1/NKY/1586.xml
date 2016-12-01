@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>3310 CARL CT</house_location>
+<price>$134,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>EDGEWOOD</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249199</mls>
+<house_type>Single Family</house_type>
+<firm>T.H.-1 REALTY L.L.C.</firm>
+<firm_phone>(606) 426-8700</firm_phone>
+<agent>TOM HELSON, JR</agent>
+<agent_phone>(606) 426-8700</agent_phone>
+<house_description>VERY CLEAN HOME IN HEART OF EDGEWOOD ON CUL DE SAC BEAUTIFUL WOODED
+LOT 12X24 COVERED DECK OFF KITCHEN. A GREAT HOME CALL TOM FOR SHOWING
+426-8700.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_3><dimension>9 X 13</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>14 X 24</dimension><level>L</level></family>
+<kitchen><dimension>12 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>DUDLEY TO LEFT ON MADONNA TO LEFT ON MARIE TO
+RIGHT ON CARL</directions>
+</house_listing>
+
+
+

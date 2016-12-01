@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This detached single family home built in 1987 has 3 bedroom(s), 3.5
+bath(s) , 2 car garage and approximately 2503 square feet of living
+area. Rooms include dining room, family room, living room, bonus room,
+master bedroom. Features include view, private spa, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Richard Mcdade</agent_name>
+<direct>619-442-1818</direct>
+<office>619-442-1818</office>
+<firm_name>Richard Mcdade Real Estate</firm_name>
+<phone>619-442-1818</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$459,000</list_price>
+<location>San Diego, CA 92106</location>
+<mls>99 2002649</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3.5</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2503 (approx)</square_feet>
+<lot_size>8799</lot_size>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Forced Air, Natural Gas, Solar</heating>
+<fireplace>Family Room</fireplace>
+<patio>Deck</patio>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room, Master</rooms>
+<spa>Yes</spa>
+<view>Park/Greenbelt View, View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

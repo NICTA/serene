@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1948 has 3 bedroom(s), 2 bath(s) and
+approximately 1323 square feet of living area.</house_description>
+
+<agent_name>Tina Klassen</agent_name>
+<direct>303-413-6635</direct>
+<office>303-440-6464</office>
+<firm_name>Metro Brokers-Boulde</firm_name>
+<phone>303-440-6464</phone>
+<fax>303-440-4495</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$249,000</list_price>
+<location>1121 S Fillmore St</location>
+<neighborhood>Alta Vista Cory Merrill</neighborhood>
+<mls>378791</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1323 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

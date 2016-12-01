@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>212 CRITTENDEN</house_location>
+<price>$99,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>-</suburb>
+<school_dist>GRANT</school_dist>
+<mls>247549</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>JIM SIMPSON</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>BRAND NEW HOME UNDER CONSTRUCTION, TWO TO CHOOSE FROM, SECOND HOME AT
+213 CRITTENDEN,LOCATED IN ONE OF GRANT COUNTY'S MOST POPULAR
+DEVELOPMENTS! LOWER LEVEL OFFERS PLENTY OF ROOM FOR FUTURE EXPANSION!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>U</level></bedroom_3>
+<dining><dimension>11 X 9</dimension><level>U</level></dining>
+<kitchen><dimension>11 X 8</dimension><level>U</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>L</level></laundry>
+<living><dimension>16 X 12</dimension><level>U</level></living>
+<master><dimension>13 X 11</dimension><level>U</level></master>
+
+<directions>75S TO CRITTENDEN,R OFF EXIT TO R INTO
+HARVESTERS SUBDIV,L ON CRITTENDEN</directions>
+</house_listing>
+
+
+

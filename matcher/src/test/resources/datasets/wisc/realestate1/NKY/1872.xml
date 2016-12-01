@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>229 HAVENS AVE.</house_location>
+<price>$110,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>NONE</suburb>
+<school_dist>TRIMBLE CO</school_dist>
+<mls>248635</mls>
+<house_type>Single Family</house_type>
+<firm>REALTY WORLD-RIVER VALLEY PROP</firm>
+<firm_phone>(502) 732-9977</firm_phone>
+<agent>MARCI HOSKINS</agent>
+<agent_phone>(502) 732-9977</agent_phone>
+<house_description>TASTEFULLY DECORATED RANCH W/BEAUTIFULLY WOODED 3 ACRE LOT. 24 X 24
+DETACHED 2 CAR GARAGE 2/CONCRETE FLOOR &amp; ELECTRIC. 3 ADDITIONAL
+OUTBLDGS. SELLER WILL SELL HOUSE &amp; 1 ACRE.</house_description>
+<construction>Brick</construction>
+<heating>Radiant</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>00000</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNKNOWN</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>11 X 19</dimension><level>1</level></family>
+<kitchen><dimension>12 X 18</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 11</dimension><level>1</level></laundry>
+<living><dimension>18 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>I71 TO HWY 42 - 42 TO BEDFORD - 1 MILES EAST OF
+BEDFORD, RT ON HAVENS AVE.</directions>
+</house_listing>
+
+
+

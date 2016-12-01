@@ -1,0 +1,48 @@
+<house_listing>
+<house_description>This single family home built in 1947 has 4 bedroom(s), 3 full
+bath(s)/1 half bath(s) , 2 car attached garage and approximately 3757
+square feet of living area. Rooms include den, dining room, master
+bedroom. Features include view, private pool, private spa, air
+conditioning.</house_description>
+
+<agent_name>Luis De Varona</agent_name>
+<direct>305-978-0721</direct>
+<office>446-6600</office>
+<firm_name>Carlos M. De Varon
+Lic. Real Estate Broker</firm_name>
+<phone>446-6600</phone>
+<fax>305-000-0000</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$574,900</list_price>
+<location>8300 Hawthorne Av</location>
+<neighborhood>Biscayne Beach 3Rd Addn</neighborhood>
+<mls>M758806</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>3757 (approx)</square_feet>
+<lot_size>62 X 152</lot_size>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Electric</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Dishwasher, Ocean Access, Outdoor Grill, Outdoor Lights,Outdoor Shower
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

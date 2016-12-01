@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Julie Dickey</name>
+<office>(409)732-8200</office>
+<fax>(409)732-6030</fax>
+<email>rmxcpcol@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20466</id>
+<mls>218269</mls>
+<house_location>1161 Campo Rosa
+Eagle Lake, TEXAS 77434</house_location>
+<county>Colorado</county>
+<price>$38,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>This 3/2 mobile is located on .9 acre just outside of Eagle Lake.  The lot has a second septic system--ready to place another mobile home!!</house_description>
+
+<approx_acres>0.9</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>second septic</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

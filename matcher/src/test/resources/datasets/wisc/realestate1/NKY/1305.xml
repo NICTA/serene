@@ -1,0 +1,55 @@
+<house_listing>
+<house_location>2028 HIGHWATER RD</house_location>
+<price>$238,888</price>
+<rooms>13</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Front)</garage>
+<suburb>VILLA HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249268</mls>
+<house_type>Single Family</house_type>
+<firm>DELTA REALTY INC</firm>
+<firm_phone>(606) 331-5544</firm_phone>
+<agent>WILLIAM C DEHLINGER III</agent>
+<agent_phone>(606) 331-5544</agent_phone>
+<house_description>GREAT VALUE IN VILLA HILLS!! SPACIOUS 5 BR.,WELL MAINTAINED,LANDSCAPED
+FOR ADDITIONAL PRIVACY, NICE VIEW, NICE NEIGHBORS.....MOVE RIGHT IN!!
+ALSO APPROX. 700 SQ. FT. PROFESSIONAL OFFICE IN BASEMENT,GREAT HOME
+OFFICE!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>100X150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>145</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 10</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>11 X 11</dimension><level>2</level></bedroom_5>
+<breakfast><dimension>12 X 7</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>18 X 15</dimension><level>1</level></family>
+<kitchen><dimension>12 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 5</dimension><level>1</level></laundry>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>16 X 14</dimension><level>2</level></master>
+<study><dimension>28 X 27</dimension><level>L</level></study>
+
+<directions>I-75 TO BUTTERMILK PIKE,WEST TO RT.ON COL
+-LINS, RT. ON AMSTERDAM, VEER LEFT HWATER</directions>
+</house_listing>
+
+
+

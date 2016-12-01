@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Schiavone</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-3568</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20369</id>
+<mls>520903</mls>
+<house_location>118 LIVE OAK DR.
+Cedar Creek, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$105,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>LUSH CARPET GRASS WITH BEAUTIFUL LANDSCAPING.  HUGE BACKYARD WITH DOG HOUSE AND FENCE.  JACUZZI AND COVERED PATIO.  CLOSE TO AUSTIN, BUT OUT IN THE COUNTRY.</house_description>
+
+<school_district>Cedar Creek</school_district>
+<sub-division>Alum Creek Estates</sub-division>
+<stories>1</stories>
+<approx_acres>0.59</approx_acres>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>PARTIALLY FENCED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

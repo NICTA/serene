@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Joyce Sterling</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 122</voice_mail>
+<mobile>(512)567-6460</mobile>
+<email>joyces@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16435</id>
+<mls>505748</mls>
+<house_location>111 Chica Street
+Driftwood, TEXAS 78619</house_location>
+<county>Hays</county>
+<price>$195,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>27.806 Acres off of FM 150 in Driftwood, stocked pond, completely fenced, ideal for horses. Approx. 3000 sq. ft. home under construction about 50% complete. Well &amp; septic are in.</house_description>
+
+<school_district>Hays Consolidated Isd</school_district>
+<sub-division>Los Ranchos</sub-division>
+<approx_size_sqft>3000</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>27.81</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

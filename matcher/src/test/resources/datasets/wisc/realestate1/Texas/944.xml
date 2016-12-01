@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jay Horton</name>
+<office>(512)833-3586</office>
+<fax>(512)836-2349</fax>
+<voice_mail>(512)426-2189</voice_mail>
+<mobile>(512)426-2189</mobile>
+<email>jjhorton@prismnet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20335</id>
+<mls>522590</mls>
+<house_location>7203 Shannon Drive
+Austin, TEXAS 78724</house_location>
+<county>Travis</county>
+<price>$89,990</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Bedrooms Wired for Cable! Attractive Landscaping with Lights, Bermuda Grass &amp; Brick Edging!  4 Ceiling Fans! Security System!</house_description>
+
+<move-in_date>11/1/99</move-in_date>
+<school_district>Aisd</school_district>
+<sub-division>Walnut Creek</sub-division>
+<approx_size_sqft>1273</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>76x113</approx_lot_size>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Quick Close Possible!</item>
+<item>High Vaulted Textured Ceilings! Tile Fireplace!</item>
+<item>Large Walk-In Closets!</item>
+<item>City Energy Audit!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

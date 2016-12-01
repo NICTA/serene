@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>241 GLENWOOD</house_location>
+<price>$46,500</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>248586</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>KAREN CAMPBELL</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* MAKE SURE YOU TAKE A LOOK AT THIS NICE COTTAGE IN LUDLOW BEFORE IT'S
+GONE! * 2 BDRMS * 1 BATH * FENCED YARD * NICE FRONT PORCH * C/A * FULL
+BASEMENT * PRICED BELOW $50,000! * LUDLOW SCHOOLS! * WOW! *</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 13</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<living><dimension>17 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+
+<directions>ELM TO BUTLER TO GLENWOOD</directions>
+</house_listing>
+
+
+

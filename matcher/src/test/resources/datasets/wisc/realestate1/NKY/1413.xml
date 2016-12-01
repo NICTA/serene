@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>13 ARCADIA</house_location>
+<price>$169,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Side)</garage>
+<suburb>LAKESIDE PARK</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246415</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>JUANITA DOUGHERTY</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* WELL MAINTAINED FAMILY HOME IN EXCELLENT AREA * LARGE LEVEL YARD *
+1ST FLR STUDY COULD BE GUEST RM. * LOTS OF CLOSETS &amp; SPACE * HDWD FLRS
+* 2 CAR GARAGE * CHARM! *</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<family><dimension>21 X 9</dimension><level>1</level></family>
+<kitchen><dimension>15 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>20 X 9</dimension><level>L</level></laundry>
+<living><dimension>23 X 13</dimension><level>1</level></living>
+<master><dimension>22 X 11</dimension><level>2</level></master>
+<recreation_room><dimension>20 X 14</dimension><level>L</level></recreation_room>
+<study><dimension>11 X 10</dimension><level>1</level></study>
+
+<directions>DIXIE HWY TO ARCADIA</directions>
+</house_listing>
+
+
+

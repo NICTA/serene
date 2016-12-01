@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Pud Owens Realty</name>
+<location>910 1/2 West Cameron Rockdale, TX 76567</location>
+<office>(512)446-4243</office>
+<toll_free></toll_free>
+<fax>(512)446-4273</fax>
+<email>rlaj@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Matula</name>
+<office>(512)446-4243</office>
+<fax>(512)446-4273</fax>
+<mobile>(512)446-1003</mobile>
+<email>rlaj@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14791</id>
+<mls></mls>
+<house_location>2112 VOGEL
+Rockdale, TEXAS 76567</house_location>
+<county>Milam</county>
+<price>$77,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>NICE FOUR BEDROOM HOME WITH PLENTY OF ROOM FOR YOU FAMILY.</house_description>
+
+<school_district>Rockdale</school_district>
+<sub-division>Westwood</sub-division>
+<approx_size_sqft>1622</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>80x140</approx_lot_size>
+<year_built>1977</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

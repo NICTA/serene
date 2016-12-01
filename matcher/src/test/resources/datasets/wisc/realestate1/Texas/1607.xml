@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>John Chabot</name>
+<office></office>
+<fax></fax>
+<email>jchabot@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20435</id>
+<mls></mls>
+<house_location>118 West Oak Loop
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$139,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>The exterior of this Victorian styled home stands out for its distinctive decorative detailing and a look of sturdy worth so like homes at the end of the last century. Wrap around porch!  High-ceilinged foyer! Handsome living plan with 10 foot tray ceilings and fireplace in living room. Formal dining with glass doors opening to the dining porch!  Spacious kitchen. Grand master suite with double walk-in closets and vanities. Second bath is convenient to the whole house as well as private to the 2nd bedroom. Upstairs is a fabulous bonus room and bath. Call or e-mail John, jbchabot@aol.com</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>West Oaks</sub-division>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+<item>Beautiful Victorian Styled Home!</item>
+<item>Handsome Living Plan!</item>
+<item>Grand Master Suite!</item>
+<item>Fabulous Bonus Room and Bath Upstairs!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

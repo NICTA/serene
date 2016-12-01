@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sharon Vickers</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<mobile>(817)266-9020</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21370</id>
+<mls>9132491</mls>
+<house_location>621 Opal
+Saginaw, TEXAS 76179</house_location>
+<county>Tarrant</county>
+<price>$99,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Extra large corner lot. In ground pool and basketball court. Country charm. Front porch. Small living room plus den downstairs. Master down. Two bedrooms upstairs are larger than normal.</house_description>
+
+<school_district>Eagle Mountain</school_district>
+<sub-division>Rancho North</sub-division>
+<approx_size_sqft>1865</approx_size_sqft>
+<stories>2</stories>
+<year_built>1974</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Corner Lot</item>
+<item>In Ground Pool</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

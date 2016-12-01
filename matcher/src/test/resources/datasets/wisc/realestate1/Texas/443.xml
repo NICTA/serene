@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gerald Birdwell</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<email>gbirdwell@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18681</id>
+<mls>9092310</mls>
+<house_location>121 Spanish Trail
+Weatherford, TEXAS 76088</house_location>
+<county>Parker</county>
+<price>$70,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Extra nice brick.  Three bedrooms, 2 baths, 3 space carport, in country sub-division. New central heat and air.  New roof.  Large pecan and water oak trees.  Garden and orchard fenced.  Only 5 miles from town.</house_description>
+
+<school_district>Peaster</school_district>
+<sub-division>Spanish Park</sub-division>
+<approx_size_sqft>1110</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<year_built>1973</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>3</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Extra nice home.</item>
+<item>New CH/A and new roof</item>
+<item>Large trees in yard</item>
+<item>5 miles from town</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

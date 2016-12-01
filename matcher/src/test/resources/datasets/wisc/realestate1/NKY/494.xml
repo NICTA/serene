@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>5575 STRIKE THEGOLD</house_location>
+<price>$118,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247832</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>FRED BURCH</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>NEW CONSTRUCTION,ESTIMATED COMPLETION 1/30/2000</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>105X210</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<family><dimension>10 X 26</dimension><level>L</level></family>
+<kitchen><dimension>16 X 17</dimension><level>1</level></kitchen>
+<laundry><dimension>4 X 6</dimension><level>L</level></laundry>
+<living><dimension>10 X 15</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level>1</level></master>
+
+<directions>HWY 18 TO N237 L ON CONRAD LANE L ON STRIKE THE
+GOLD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Peaceful setting for this restored farmhouse surrounded by large oaks
+and fruit trees, several outbuildings, 3.47 acres.</house_description>
+
+<agent_name>Joey Eidson</agent_name>
+<direct>706-342-3802</direct>
+<office>706-342-0693</office>
+<firm_name>Madison Realty</firm_name>
+<phone>706-342-0693</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$137,500</list_price>
+<location>Madison, GA 30650</location>
+<mls>861959</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<style>County/Rustic</style>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<rooms>Den, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Carpet, Country Style, Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>911 SPRING</house_location>
+<price>$224,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-3</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Builtin,Front,Oversized)</garage>
+<suburb>0</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248831</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>OUTSTANDING RIVER/CITY VIEWS WITH 'NO CONDO FEES!'*JUST ACROSS FROM
+CINTI* ANDERSEN WINDOWS FOR LIGHT*HOME IS BEAUTIFULLY
+DECORATED/MAINTAINED*OPEN FOR ENTERTAINING*PREMIUM MAT'LS USED*1,000SF
+DECKING FOR VEIWING*3 CAR GAR!</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50 x 100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>3</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>12 X 9</dimension><level>2</level></bedroom_2>
+<dining><dimension>14 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 3</dimension><level>2</level></laundry>
+<living><dimension>21 X 16</dimension><level>1</level></living>
+<master><dimension>29 X 12</dimension><level>2</level></master>
+<study><dimension>15 X 14</dimension><level>3</level></study>
+
+<directions>HWY 8 TO LEFT ALTAMONT, LEFT JOHN ST, LFT ON
+WILSON (SPRING ST)</directions>
+</house_listing>
+
+
+

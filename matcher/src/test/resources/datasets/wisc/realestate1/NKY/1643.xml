@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>348 HIGHWAY AVE</house_location>
+<price>$99,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>246475</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>ROBIN DONOVAN</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>7 ROOM HOME WITH 3 BEDROOM COTTAGE,GREAT FOR MOTHER/DAUGHTER OR
+PRIMARY RESIDENCE W/RENTAL INCOME,RENTS ARE $550 AND $300.CALL ROBIN
+FOR DETAILS.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>8 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 9</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>7 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>15 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 11</dimension><level>1</level></kitchen>
+<living><dimension>18 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 9</dimension><level>2</level></master>
+
+<directions>I75N TO 5TH ST EX L ON PHILADELPHIA L ON 3RD R
+ON RT8 (HIGHWAY)</directions>
+</house_listing>
+
+
+

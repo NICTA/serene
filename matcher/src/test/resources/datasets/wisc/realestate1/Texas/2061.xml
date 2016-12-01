@@ -1,0 +1,42 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Diane Sanders</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<voice_mail>(512)757-0707</voice_mail>
+<mobile>(512)753-9478</mobile>
+<email>dsanders@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17160</id>
+<mls>5837</mls>
+<house_location>1351 Sunset Ridge
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$48,000</price>
+
+<house_description>Great Building SiteGated CommunityAccess to IH 35</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>Mccarty Ranch</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

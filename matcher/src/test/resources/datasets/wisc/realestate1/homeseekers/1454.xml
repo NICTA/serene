@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1993 has 4 bedroom(s), 5
+bath(s) , 6 car garage and approximately 5080 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, patio, fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Mark Gilliland</agent_name>
+<direct>520-326-4573</direct>
+<office>520-326-4573</office>
+<firm_name>Gilliland Realty &amp; Invest.</firm_name>
+<phone>520-326-4573</phone>
+<fax>520-323-8061</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$587,500</list_price>
+<location>4370 E Placita Rio Robles</location>
+<mls>9904848</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>5</baths>
+<levels>1</levels>
+<garage>6</garage>
+<type>Single Family</type>
+<square_feet>5080 (approx)</square_feet>
+<lot_size>266X158X85X39X30X220</lot_size>
+<year_built>1993</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

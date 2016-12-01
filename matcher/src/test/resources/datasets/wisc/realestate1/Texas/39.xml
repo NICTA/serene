@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Peerman Custom Homes &amp; Real Estate</name>
+<location>12020 Hwy. 290 West Austin, TX 78737</location>
+<office>(512)288-4040</office>
+<toll_free></toll_free>
+<fax>(512)288-4048</fax>
+<email>peerman@flash.net</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Rice</name>
+<office>(512)288-4040</office>
+<fax>(512)288-4048</fax>
+<email>flash.net/~peerman/</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7245</id>
+<mls>449450</mls>
+<house_location>8205 Lewis Mountain Drive
+Austin, TEXAS 78737</house_location>
+<county>Travis</county>
+<price>$596,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful Mediterranian Home with a panoramic view.  This home won the Max award in 1997 for the best designed house in the 500,000 and over catagory.  Over 4700 square feet, private 3.12 acres that is close to Mopac, Motorolla, and Circle C Golf Club.  DIRECTIONS: from Oak Hill go west on 290, turn south on FM1826 (Camp Ben McCulloch) go 3 miles to Lewis Mountain Ranch.  8205 Lewis Mountain Drive</house_description>
+
+<school_district>Austin</school_district>
+<sub-division>Lewis Mountain Ranch</sub-division>
+<approx_size_sqft>4700</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>3.12</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>2</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>3 miles to Circle C Golf &amp; Tennis Club</item>
+<item>3 miles to Mopac</item>
+<item>Jacuzzi, double vanities, double closets</item>
+<item>Sunroom, library, gameroom, extras</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

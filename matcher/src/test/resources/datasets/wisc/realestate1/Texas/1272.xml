@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>LEE EASTER, INC., REALTORS &amp; BUILDERS</name>
+<location>7504 Canna Cove Austin, TX 78759</location>
+<office>(512)255-1111</office>
+<toll_free>(800)680-6648</toll_free>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lee Easter</name>
+<office>(512)255-1111</office>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>9383</id>
+<mls></mls>
+<house_location>11620 Medallion Lane North
+Austin, TEXAS 78750</house_location>
+<county>Travis</county>
+<price>$260,072</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>The Greenes</sub-division>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Irona Smith Alexander</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)295-7580</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20730</id>
+<mls>9123080</mls>
+<house_location>2616 Sylvanglen
+Burleson, TEXAS 760284</house_location>
+<county>Johnson</county>
+<price>$159,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>New central heat and air; new jet system; carpet and paint only a few years old; wood decking, 2 storage buildings, lots and lots of trees.  Brick on a slab in lovely Hidden Glen.  Garden tub with separate shower, walk-in closets, wood-burning fireplace, built-ins, vaulted ceiling, ceramic tile, split bedroom plan, chain link fence, attached side garage, covered porch, dishwasher, breakfast bar, ceiling fans, and deed restrictions.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>1</sub-division>
+<stories>2</stories>
+<approx_acres>0.96</approx_acres>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Heavily treed</item>
+<item>Some updating</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

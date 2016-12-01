@@ -1,0 +1,29 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 3 bath(s) and approximately
+2164 square feet of living area.</house_description>
+
+<agent_name>Dennis Johnson</agent_name>
+<direct>303-627-1118</direct>
+<office>303-696-7676</office>
+<firm_name>RE/MAX 3000 Inc</firm_name>
+<phone>303-696-7676</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$278,645</list_price>
+<location>8332 E Amherst</location>
+<neighborhood>The Paragon</neighborhood>
+<mls>381387</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2164 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

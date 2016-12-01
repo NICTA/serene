@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>604 S GRAND</house_location>
+<price>$92,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>FT. THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>249261</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>SANDI WEST</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>NEW OWNER TRANSFERRED! NEWER FURNACE AND C/A, JUST REFINISHED WOOD
+FLOORS, 2 STAINED GLASS WINDOWS, KNOTTY PINE KITCHEN, NEW CARPET AND
+PAINT, HUGE LEVEL YARD APPROX 300 FT DEEP, FULL STEPS TO ATTIC
+POSSIBLE 4 BDRM</house_description>
+<construction>Block</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>11 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<living><dimension>11 X 15</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>S GRAND NEAR TREMONT</directions>
+</house_listing>
+
+
+

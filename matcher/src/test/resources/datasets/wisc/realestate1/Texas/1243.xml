@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Foster Properties</name>
+<location>101-A NE. 2nd St.- P. O. Box 91 Hubbard, TX 76648</location>
+<office>(254)576-2521</office>
+<toll_free>(800)952-4140</toll_free>
+<fax>(254)576-2688</fax>
+<email>mfoster396@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Margot Foster</name>
+<office>(254)576-2521</office>
+<fax>(254)576-2688</fax>
+<mobile>(254)582-6061</mobile>
+<email>mfoster396@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13148</id>
+<mls></mls>
+<house_location>Rt 2 Box 37
+Hubbard, TEXAS 76648</house_location>
+<county>Hill</county>
+<price>$85,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This very desirable brick home on 3 acres is fenced with room for a few horses and kids.  There is some pipe fencing and pipe entry gate.  Just far enough out of town to say you live in the country with room to breathe and run.</house_description>
+
+<school_district>Hubbard</school_district>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>brick home</item>
+<item>completely fenced,some pipe fencing</item>
+<item>covered patio</item>
+<item>barn for animals,good grass</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

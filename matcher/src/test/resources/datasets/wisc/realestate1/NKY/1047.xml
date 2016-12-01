@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>528 HIGHLAND AVE</house_location>
+<price>$113,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Rear)</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>250210</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>JENNY ZIMMERMAN</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>CHARMING HOME WITH LOTS OF CHARACTER! ORIGINAL WOODWORK, HARDWOOD
+FLOORS, AND FIREPLACE. POSSIBLE 3RD AND 4TH BEDROOM ON 2ND FLOOR.
+WALKING DISTANCE TO SCHOOLS.</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50x250</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>10 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 11</dimension><level>L</level></laundry>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>471N TO GRAND AVE TURN LEFT. L ON HIGH- LAND AVE
+HOUSE IS ON RIGHT</directions>
+</house_listing>
+
+
+

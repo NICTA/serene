@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1920 has 2
+bedroom(s), 2 bath(s) , 3 car garage and approximately 1400 square
+feet of living area. Rooms include den, dining room, living room,
+bonus room, master bedroom. Features include view, fireplace.</house_description>
+
+<agent_name>Jeffrey Brummitt</agent_name>
+<direct>619-557-1342</direct>
+<office>619-296-9055</office>
+<firm_name>One Source Realty/Better Homes One Source Realty/Better Homes</firm_name>
+<phone>619-296-9055</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$384,000</list_price>
+<location>San Diego, CA 92116</location>
+<mls>99 6024104</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>1400 (approx)</square_feet>
+<lot_size>5998</lot_size>
+<year_built>1920</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas, Wall Unit</heating>
+<fireplace>Living Room</fireplace>
+<rooms>Bonus Room, Den, Dining Room, Living Room, Master Bedroom</rooms>
+<view>Park/Greenbelt View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

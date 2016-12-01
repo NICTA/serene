@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>30 GLENWAY</house_location>
+<price>$242,500</price>
+<rooms>11</rooms>
+<bedrooms>5</bedrooms>
+<baths>1-2</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>248334</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>SANDI WEST</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>THIS HOME WRAPS YOU IN WARMTH. LARGE KNOTTY PINE FAMILY ROOM WITH
+WALLS OF WINDOWS. THE KITCHEN/BREAKFAST ROOM ARE GREAT SIZE FOR
+ENTERTAINING. THE 3RD FLOOR IS FINISHED, HARDWOOD FLOORS, 2+- ACRES,
+POOL WITH DECK</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>9999</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension></dimension><level>3</level></bedroom_4>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<family><dimension>16 X 25</dimension><level>1</level></family>
+<kitchen><dimension>19 X 17</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>2</level></master>
+<recreation_room><dimension>17 X 19</dimension><level>L</level></recreation_room>
+<study><dimension>10 X 13</dimension><level>1</level></study>
+
+<directions>S. FT. THOMAS AVE TO GLENWAY (NEAR ST. THOMAS)</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>7315 CENTRECREST</house_location>
+<price>$87,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>OAKBROOK</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>245919</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARB MASSMAN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>BEST BUY IN OAKBROOK 2 LARGE BEDROOMS, 2 BATHS, EVERYTHING INCLUDED
+WASHER/DRYER WALKOUT TO PATIO, OVERLOOKS WOODS</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level>L</condo_level>
+<hoa_fee>114</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>L</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>L</level></bedroom_2>
+<dining><dimension>10 X 11</dimension><level>L</level></dining>
+<kitchen><dimension>10 X 11</dimension><level>L</level></kitchen>
+<laundry><dimension>5 X 8</dimension><level>L</level></laundry>
+<living><dimension>15 X 16</dimension><level>L</level></living>
+<master><dimension>13 X 14</dimension><level>L</level></master>
+
+<directions>RT 18 LEFT OAKBROOK FOLLOW TO SUMMITS, RIGHT
+CENTRECREST</directions>
+</house_listing>
+
+
+

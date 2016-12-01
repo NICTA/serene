@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>1 MAISIE LN</house_location>
+<price>$125,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248307</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>BEVERLY A STALEY</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>3 BR-2 1/2 BA-FIN LL-CATH CEILINGS-HDWD ENTRY-2/10 WARRANTY-6 PANEL
+DOORS- RYLE SCHOOL DIST.-LANDSCAPING-NEW CONSTRUCTION-STILL TIME TO
+MAKE SELECTIONS.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>.</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>1</level></bedroom_3>
+<dining><dimension></dimension><level>1</level></dining>
+<family><dimension></dimension><level>L</level></family>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>US 25 S TO R ON FRANK DUKE R ON REMY L ON MAISIE
+LN.</directions>
+</house_listing>
+
+
+

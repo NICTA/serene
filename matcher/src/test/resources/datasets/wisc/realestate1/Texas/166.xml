@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Conroe-Lake Conroe</name>
+<location>12603 Highway 105 West, Suite 100 Conroe, TX 77304</location>
+<office>(409)588-1177</office>
+<toll_free></toll_free>
+<fax>(409)447-1178</fax>
+<voice_mail>(409)447-1177 228</voice_mail>
+<email>remaxconroe@flex.net</email>
+</firm_information>
+
+<agent_information>
+<name>JIM CURRY</name>
+<office>(409)588-1177</office>
+<fax>(409)447-1178</fax>
+<voice_mail>(409)588-1177 225</voice_mail>
+<mobile>(713)822-3065</mobile>
+<email>curry@flex.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12855</id>
+<mls>20304</mls>
+<house_location>9663 West Shore
+Willis, TEXAS 77378</house_location>
+<county>Montgomery</county>
+<price>$399,900</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Sunsets &amp; regattas are the view from this custom 5/3.5/3 Waterfront. On almost 1 acre. 2 Fireplaces, lots of built-ins, large rooms throughtout, split-plan, lots of storage, 3 carport behind home. Landscaped courtyard, security lights, boathouse with two lifts. Need notice before showing!!!</house_description>
+
+<school_district>Willis</school_district>
+<sub-division>Twin Shores</sub-division>
+<approx_size_sqft>5001</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>0.8</approx_acres>
+<year_built>1976</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>3</carport_spaces>
+<fire_places>2</fire_places>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Waterfront</item>
+<item>Large Lot</item>
+<item>Open water view</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

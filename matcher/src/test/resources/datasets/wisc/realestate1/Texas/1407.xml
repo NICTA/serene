@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Spell</name>
+<office>(512)331-6644</office>
+<fax>(512)918-3672</fax>
+<voice_mail>(512)331-6644 x128</voice_mail>
+<mobile>(512)750-4260</mobile>
+<email>kenspell@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19015</id>
+<mls>515605</mls>
+<house_location>51 CR 2243
+Leander, TEXAS 78641</house_location>
+<county>Williamson</county>
+<price>$129,000</price>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Horse Lovers come on down!  This country beauty situated on 1 acre northwest is close to town but your living in the country.  Home is well kept with enormous stone fireplace in one end.  Seller was builder and attention to detail is everywhere.</house_description>
+
+<move-in_date>9/4/99</move-in_date>
+<school_district>Leander</school_district>
+<approx_size_sqft>1499</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Horse Barn and Corral</item>
+<item>Large Bedrooms</item>
+<item>Large Living with Vaulted Ceilings</item>
+<item>Hard Tile through out garage</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

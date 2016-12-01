@@ -1,0 +1,44 @@
+<house_listing>
+<firm_information>
+<name>Pud Owens Realty</name>
+<location>910 1/2 West Cameron Rockdale, TX 76567</location>
+<office>(512)446-4243</office>
+<toll_free></toll_free>
+<fax>(512)446-4273</fax>
+<email>rlaj@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Roy L. Allen</name>
+<office>(512)446-4243</office>
+<fax>(512)446-4273</fax>
+<mobile>(512)430-0452</mobile>
+<email>rlaj@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20972</id>
+<mls></mls>
+<house_location>615 Green Street
+Rockdale, TEXAS 76567</house_location>
+<county>Milam</county>
+<price>$45,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+
+<house_description>Nice home in move in condition! 3 BR 2 Bath with 2 living areas.</house_description>
+
+<school_district>Rockdale</school_district>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

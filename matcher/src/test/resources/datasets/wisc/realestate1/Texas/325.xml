@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Dana Vann</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>dana@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14763</id>
+<mls>51809</mls>
+<house_location>5114 River Oaks Dr
+Kingsland, TEXAS 78639</house_location>
+<county>Llano</county>
+<price>$128,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>&amp;quot;GOOD CENTS&amp;quot; NEW CONSTRUCTION ON RIVER, ENJOY THE BEAUTIFUL VIEWS &amp; HUGE OAKS FROM LARGE DECK, FIREPLACE, OAK CABINETS, CERAMIC TILE, R.V. PAD WITH COMPLETE HOOK-UPS, WATER IS CLEAR &amp; DEEP WITH NICE SANDY BEACH AND BOTTOM.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Kingsland Estates</sub-division>
+<approx_size_sqft>1250</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>54.2 FT OF WF</approx_lot_size>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>BEAUTIFUL VIEWS!</item>
+<item>ENERGY EFFICIENT CONSTRUCTION!</item>
+<item>NICE DECK AND HUGE OAKS</item>
+<item>GOOD FISHING AND SWIMMING</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

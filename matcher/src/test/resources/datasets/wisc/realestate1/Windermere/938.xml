@@ -1,0 +1,34 @@
+<house_listing>
+<price>$149,900</price>
+<mls_id_number>132197</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>2718</sqft>
+<year_built>1954</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.27        Acres</lot_size>
+<lot_description>100X118+</lot_description>
+<fireplace>2</fireplace>
+<taxes>$969</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Covered Patio, Porch, RV-Park,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>GREEN/SUNNYSLOP</elementary>
+<middle_school>FREEMONT</middle_school>
+<high_school>ROSEBURG</high_school>
+</schools>
+
+</house_listing>
+
+
+

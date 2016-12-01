@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jason Schultz</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19354</id>
+<mls>6109</mls>
+<house_location>606 Harmons Way
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$115,500</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nice 3BR/2BA on half acre with several trees and extra large workshop in back that could be guest home</house_description>
+
+<move-in_date>9/21/99</move-in_date>
+<school_district>San Marcos</school_district>
+<approx_size_sqft>1786</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.495</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Huge workshop or guest home in back yard.</item>
+<item>Large covered deck and several trees all around.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

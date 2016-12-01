@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level attached home built in 1971 has 2 bedroom(s), 1 bath(s) ,
+1 car garage and approximately 810 square feet of living area. Rooms
+include dining room, living room, master bedroom. Features include
+view.</house_description>
+
+<agent_name>John Frasca</agent_name>
+<direct>760-431-5646</direct>
+<office>858-484-1189</office>
+<firm_name>Century 21 Award Century 21 Award</firm_name>
+<phone>858-484-1189</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$114,000</list_price>
+<location>San Diego, CA 92129</location>
+<mls>00 6000408</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Townhouse/Condo</type>
+<square_feet>810 (approx)</square_feet>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<view>Greenbelt View, Park/Greenbelt View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Neighborhood Pool
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

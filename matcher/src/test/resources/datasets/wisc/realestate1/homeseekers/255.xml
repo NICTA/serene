@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1973 has 4 bedroom(s), 3 bath(s) and
+approximately 2780 square feet of living area.</house_description>
+
+<agent_name>Dennis Johnson</agent_name>
+<direct>303-627-1118</direct>
+<office>303-696-7676</office>
+<firm_name>RE/MAX 3000 Inc</firm_name>
+<phone>303-696-7676</phone>
+<fax>303-751-9456</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$227,900</list_price>
+<location>7761 E Cornell Av</location>
+<neighborhood>Hutchinson Hills</neighborhood>
+<mls>382550</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2780 (approx)</square_feet>
+<year_built>1973</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

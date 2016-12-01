@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>15730 BELMONT</house_location>
+<price>$92,600</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>CRITTENDEN</suburb>
+<school_dist>GRANT CO</school_dist>
+<mls>248401</mls>
+<house_type>Single Family</house_type>
+<firm>WALTON COMPANY</firm>
+<firm_phone>(513) 683-8908</firm_phone>
+<agent>JOSEPH DORGER</agent>
+<agent_phone>(513) 683-8908</agent_phone>
+<house_description>I-75 SOUTH TO CRITTENDEN EXIT LEFT H. RT 25 LEFT ON RT 25 TO BLUEGRASS
+ESTATES RIGHT INTO SUBDIVISION IN DERBY. LEFT ON BELMONT. HOME ON
+LEFT.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>PART</dimension><level></level></bath_2>
+<bedroom_2><dimension>10 X 13</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level></level></bedroom_3>
+<dining><dimension>8 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 13</dimension><level></level></kitchen>
+<laundry><dimension>6 X 8</dimension><level></level></laundry>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 13</dimension><level></level></master>
+
+<directions>15730 BELMONT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 4 bedroom(s), 2 bath(s) and
+approximately 1939 square feet of living area.</house_description>
+
+<agent_name>Ron Kinsey</agent_name>
+<direct>303-520-5111</direct>
+<office>303-422-5200</office>
+<firm_name>Kinsey Realty/Mb</firm_name>
+<phone>303-422-5200</phone>
+<fax>303-422-1052</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$167,500</list_price>
+<location>2306 S Zenobia St</location>
+<neighborhood>Harvey Park</neighborhood>
+<mls>383291</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1939 (approx)</square_feet>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

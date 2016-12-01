@@ -1,0 +1,40 @@
+<house_listing>
+<firm_information>
+<name>Walker &amp; Associates Real Estate</name>
+<location>304 Highway 281 Marble Falls, TX 78654</location>
+<office>(830)693-5549</office>
+<toll_free>(888)693-5549</toll_free>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Doyle B. Hoff</name>
+<office>(830)693-5549</office>
+<fax>(830)693-2732</fax>
+<email>walker@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17851</id>
+<mls>C52980</mls>
+<house_location>Highway 1431
+Kingsland, TEXAS 78639</house_location>
+<county>Burnet</county>
+<price>$169,000</price>
+
+<house_description>Approximately 2 acres on North side of highway 1431.  Presently has a doublewide trailer and a single wide trailer.  Both are presently rented with good rental history.  No restrictions on property per owner.</house_description>
+
+<master_bedroom>N/A</master_bedroom>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Rental Investment</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

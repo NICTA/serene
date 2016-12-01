@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1965 has 2 bedroom(s), 2 bath(s) and
+approximately 1154 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Marie Hartman</agent_name>
+<direct>305-787-5017</direct>
+<office>305-758-5600</office>
+<firm_name>Duffy Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-758-5600</phone>
+<fax>305-758-6276</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$74,000</list_price>
+<location>1700 NE 105 St #510</location>
+<neighborhood>The Shores Condo</neighborhood>
+<mls>M748785</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1154 (approx)</square_feet>
+<year_built>1965</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

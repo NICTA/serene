@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Roy Mills</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<mobile>(512)332-6180</mobile>
+<email>rmills@onr.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20262</id>
+<mls>523486</mls>
+<house_location>120 Bilmar Acres
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$49,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>BEAUTIFULLY REDECORATED &amp; UPGRADED SW ON A TREE COVERED 1.3 ACRES.  COVERED PROCHES FRONT AND BACK.  CHAIN LINK FENCED YARD AREA.  10 X 14 STORAGE SHED.  VERY PRIVATE AREA.  EASY COMMUTE TO AUSTIN.  GREAT FOR SINGLE OR COUPLE.</house_description>
+
+<school_district>Mcdade</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>924</approx_size_sqft>
+<year_built>1981</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

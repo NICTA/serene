@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>44 PINE TOP</house_location>
+<price>$109,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>WALTON</suburb>
+<school_dist>WALTON</school_dist>
+<mls>249792</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JOHN VINCE</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>HUD HOME CASE #202-013338 INSURED STATUS IN. UP TO 5% COMM TO SELLING
+AGENT (NEGO) TO SUBMIT OFFER 888-292-3917 OR WWW.GOLDENFEATHER.COM ALL
+OTHER INFO CALL 800-336-1399. LIST DATE 12/24/99.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>9 X 11</dimension><level>1</level></dining>
+<family><dimension>19 X 11</dimension><level>L</level></family>
+<kitchen><dimension>11 X 7</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>L</level></laundry>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>11 X 14</dimension><level>2</level></master>
+
+<directions>WALTON EXIT E ON MARY GRUBBS L ON 25 L ON
+BEDINGER L PINE TOP</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>5796 PLEASANT RIDGE</house_location>
+<price>$138,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL CT</school_dist>
+<mls>248927</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>BILL BURKE</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*DOUBLEWIDE ON PERM FOUNDATION*EAT IN KIT*COUNTRY SETTING*LG MASTER BR
+W/ WALKIN CLOSET*LG BREEZEWAY CONNECTED TO MOBILE HOME &amp; DBL CAR
+GAR*WOOD BURNING STOVE*37.5 BEAUTIFUL ACRES*</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stove</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 3</dimension><level>1</level></laundry>
+<living><dimension>18 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>1</level></master>
+<study><dimension>13 X 9</dimension><level>1</level></study>
+
+<directions>US27 TO GRANT LICK-TURN R @ FLASHING LIGH T RT
+1936 TO R 1ST STOP SIGN TO PL RIDGE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>100 RIVERSIDE PL</house_location>
+<price>$299,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>3-0</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247303</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX MKR PARTNERS</firm>
+<firm_phone>(513) 561-4100</firm_phone>
+<agent>PATTY PAQUETTE</agent>
+<agent_phone>(513) 561-4100</agent_phone>
+<house_description>3 BALCONIES WITH PANORAMIC RIVER, CITY VIEWS. SOPHISTICATED SPACIOUS
+CONDO WITH TEAKWOOD ENTRY &amp; STAIRCASE - IN THE PULSE OF COVINGTON
+GROWTH!</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>condo</lot_dimensions>
+<condo_level>10</condo_level>
+<hoa_fee>455</hoa_fee>
+<semiannual_taxes>$OF RECD</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>22 X 13</dimension><level>2</level></bedroom_2>
+<dining><dimension>14 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 13</dimension><level>1</level></kitchen>
+<living><dimension>32 X 19</dimension><level>1</level></living>
+<master><dimension>25 X 16</dimension><level>2</level></master>
+
+<directions>75 TO FIFTH ST, EAST TO GREENUP, L TO
+RIVERSIDE PLAZA</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home has 4 bedroom(s), 3 full bath(s)/1 half
+bath(s) , 3 car garage. Rooms include dining room, family room, master
+bedroom. Features include view, private pool, patio, fireplace,
+skylights.</house_description>
+
+<agent_name>Ted Sitek</agent_name>
+<office>480-948-7119</office>
+<firm_name>Hague Realtors</firm_name>
+<phone>480-948-7119</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$625,000</list_price>
+<location>Phoenix, AZ 85018</location>
+<mls>1453851</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3(full) 1(half)</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>1 TO 1.9 AC</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Multi Zoned</heating>
+<fireplace>Yes</fireplace>
+<location>Cul-de-sac</location>
+<patio>Covered</patio>
+<pool>Diving</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s),Dishwasher, Game Room, Garage Door Opener, Great Room, Guest Room,Kitchen Island, Library, Skylights, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

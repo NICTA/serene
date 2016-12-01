@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This condominium built in 1999 has 2 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1738 square feet of living area. Features
+include private pool, private spa, air conditioning.</house_description>
+
+<agent_name>Alice Sclosa-Moral Alice Sclosa-Moral</agent_name>
+<direct>305-858-7155</direct>
+<office>305-443-7423</office>
+<email>AliceSclosaMorales@HomeSeekers.com</email>
+<firm_name>The Keyes Company
+Lic. Real Estate Broker</firm_name>
+<phone>305-443-7423</phone>
+<fax>305-445-7468</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$495,000</list_price>
+<location>4775 Collins Ave #2302</location>
+<neighborhood>Greeen Diamond</neighborhood>
+<mls>D903510</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1738 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Foyer, Smoke Detector, Tennis Court(s), Walk-In Closet(s),Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

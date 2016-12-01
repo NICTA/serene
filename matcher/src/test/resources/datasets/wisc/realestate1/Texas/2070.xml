@@ -1,0 +1,48 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Country Properties</name>
+<location>1000 Meyer, Suite 3 Sealy, TX 77474</location>
+<office>(409)885-6400</office>
+<toll_free></toll_free>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cindy Clay</name>
+<office>(409)885-6400</office>
+<fax>(409)885-6649</fax>
+<email>remaxcp@industryinet.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20415</id>
+<mls></mls>
+<house_location>507 West Street
+Sealy, TEXAS 77474</house_location>
+<county>Austin</county>
+<price>$155,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Custom built home with saltillo tile, wood-burning fireplace, wet bar, large game room with patio doors to outside patios. Kitchen with double ovens and bar with breakfast area. Home needs the person to make simple updating to make it the perfect home!!!</house_description>
+
+<school_district>Sealy</school_district>
+<approx_size_sqft>3059</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

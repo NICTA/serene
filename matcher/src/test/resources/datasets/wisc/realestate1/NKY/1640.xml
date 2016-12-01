@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>209 MAIN</house_location>
+<price>$50,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>BROMLEY</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247808</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>CHRIS LANDERS</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>GREAT 3 BDRM BRICK HOME FOR THE MONEY.JUST NEEDS A LITTLE CLEANING &amp;
+PAINT WILL MAKE SOME YOUNG FAMILY OR INVESTOR VERY HAPPY.A TRUE
+OPPORTUNITY TO MAKE EQUITY FAST</house_description>
+<construction>Brick,Cedar</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>26 X 79</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>15 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 14</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>16 X 10</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>2</level></master>
+
+<directions>SOUTH RT 8 LEFT ONTO MAIN</directions>
+</house_listing>
+
+
+

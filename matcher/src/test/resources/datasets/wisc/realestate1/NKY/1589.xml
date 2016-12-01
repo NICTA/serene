@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>446 GLENVIEW CT</house_location>
+<price>$122,500</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>EDGEWOOD</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250283</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>CINDY BROUILLETTE</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>CONVENIENT EDGEWOOD LOCATION/PRIVATE LOT ADJOINS PARK/WOODED YARD
+W/SHED MSTR WALK-IN CLOSET/EAT-IN COUNTRY KITCH/REPLACEMENT
+WNDWS/NEWER MECHANICS GORG BRICK HEATILATOR WBFP/24 FT DECK/16
+PATIO/WORKSHOP ADDITION/ORIG OWNER</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>78x150irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>12 X 8</dimension><level>1</level></breakfast>
+<family><dimension>19 X 13</dimension><level>L</level></family>
+<kitchen><dimension>10 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 4</dimension><level>L</level></laundry>
+<living><dimension>16 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>1</level></master>
+<study><dimension>11 X 10</dimension><level>L</level></study>
+
+<directions>DUDLEY TO CHARTER OAK R TIMBER RIDGE L LAUREL
+OAK R GLENVIEW</directions>
+</house_listing>
+
+
+

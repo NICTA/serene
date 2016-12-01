@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Hiran Medina</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19976</id>
+<mls>88313</mls>
+<house_location>401 Jason
+Harker Heights, TEXAS 76548</house_location>
+<county>Bell</county>
+<price>$109,521</price>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautiful new home under construction.  Either 3 bedrooms, 2 living 2 dining, 2 car garage or 4 bedroom, 1 living, 2 dining, 2 car garage home.  Buy now and pick your own colors.</house_description>
+
+<school_district>Killeen Isd</school_district>
+<sub-division>Sun Meadows</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>1817</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>80x120</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1987 has 2
+bedroom(s), 2.5 bath(s) , 1 car garage and approximately 1228 square
+feet of living area. Rooms include living room, master bedroom.
+Features include view, fireplace.</house_description>
+
+<agent_name>Kristine Slead</agent_name>
+<direct>858-484-6257</direct>
+<office>619-223-5800</office>
+<firm_name>Bancroft Realty</firm_name>
+<phone>619-223-5800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$112,000</list_price>
+<location>San Diego, CA 92105</location>
+<mls>99 6025799</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2.5</baths>
+<levels>2</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>1228 (approx)</square_feet>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Living Room</fireplace>
+<rooms>Living Room, Master Bedroom</rooms>
+<view>Mountain/Hills View, Valley View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

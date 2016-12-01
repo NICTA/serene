@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>Located in the heart of ocean lakes. Tons of updates. New stove, ref,
+ceramic tile floor in kitchen , new carpet, paint, and chair rail
+molding, all new light fixtures, central air 1 yr old. All window
+treatments convey!</house_description>
+
+<agent_name>Lonnie Bush</agent_name>
+<office>757-631-9500</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>757-631-9500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$105,900</list_price>
+<location>Virginia Beach, VA 23454</location>
+<mls>9926410</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1276 (approx)</square_feet>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<location>Lake front</location>
+<patio>Deck, Open Porch, Patio</patio>
+<rooms>Master Bedroom</rooms>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Ceiling Fan(s), Club House, Fenced,Foyer, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libraries>
+  <library>
+    <name>Alcester Library &amp; Information Centre</name>
+    <address>
+      <street>Priory Road</street>
+      <area>Alcester</area>
+      <town_city></town_city>
+      <county>Warwickshire</county>
+      <postcode>B49 5DZ</postcode>
+    </address>
+    <telno>01789 762 430</telno>
+    <faxno>01789 762 430</faxno>
+    <email>alcesterlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/53567CD897E0920880256A170054DA1E</link>
+    <coordinates>52.21433367801476,-1.8734559416770935</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/AlcesterExterior20Other/$file/AlcesterExterior20Other.jpg</image>
+  </library>
+  <library>
+    <name>Atherstone Library &amp; Information Centre</name>
+    <address>
+      <street>Long Street</street>
+      <area>Atherstone</area>
+      <town_city></town_city>
+      <county></county>
+      <postcode>CV9 1AX</postcode>
+    </address>
+    <telno>01827 712 395</telno>
+    <faxno>01827 718 373</faxno>
+    <email>atherstonelibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/FE434EC2A705633A80256A170055E8F6</link>
+    <coordinates>52.57828958071859,-1.5494906902313232</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/ATHExtOther/$file/ATHExtOther.jpg</image>
+  </library>
+  <library>
+    <name>Baddesley Library &amp; Information Centre</name>
+    <address>
+      <street>Little Brum</street>
+      <area>Grendon</area>
+      <town_city>Atherstone</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV9 2ET</postcode>
+    </address>
+    <telno>01827 713 765</telno>
+    <faxno>01827 713 765</faxno>
+    <email>atherstonelibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/A509CCA1ED6F2F7480256A170056BE0D</link>
+    <coordinates>52.58654595875657,-1.5996640920639038</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/BADExtOther/$file/BADExtOther.jpg</image>
+  </library>
+  <library>
+    <name>Bedworth Library &amp; Information Centre</name>
+    <address>
+      <street>18 High Street</street>
+      <area>Bedworth</area>
+      <town_city>Nuneaton</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV12 8NF</postcode>
+    </address>
+    <telno>02476 312 267</telno>
+    <faxno>02476 758 006</faxno>
+    <email>bedworthlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/0E58B8F93E60DCF080256A170057AA85</link>
+    <coordinates>52.4781409372917,-1.471492052078247</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/BEDExteriorOther/$file/BEDExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Bedworth Heath Library &amp; Information Centre</name>
+    <address>
+      <street>Heath Road</street>
+      <area>Bedworth</area>
+      <town_city>Nuneaton</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV12 0BN</postcode>
+    </address>
+    <telno>024 7636 2627</telno>
+    <faxno>024 7636 2627</faxno>
+    <email>bedworthlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/0380A4C705F8CD6680256A1700585AE1</link>
+    <coordinates>52.47111410305628,-1.4935371279716492</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/BEDHeathExtOther/$file/BEDHeathExtOther.jpg</image>
+  </library>
+  <library>
+    <name>Bidford Library &amp; Information Centre</name>
+    <address>
+      <street>Bramley Way</street>
+      <area></area>
+      <town_city>Bidford on Avon</town_city>
+      <county>Warwickshire</county>
+      <postcode>B50 4QG</postcode>
+    </address>
+    <telno>01789 773 239</telno>
+    <faxno>01789 778 289</faxno>
+    <email>stratfordlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/7EFC3D322DD0E7AA80256C08004A3F34</link>
+    <coordinates>52.16717060319346,-1.8598169088363647</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/BidfordRead20Other/$file/BidfordRead20Other.jpg</image>
+  </library>
+  <library>
+    <name>Binley Woods Library &amp; Information Centre</name>
+    <address>
+      <street>Monks Road</street>
+      <area>Binley Woods</area>
+      <town_city>Coventry</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV3 2BQ</postcode>
+    </address>
+    <telno>02476 542 908</telno>
+    <faxno>02476 542 908</faxno>
+    <email>rugbylibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/3CC417D3654F8DE480256A170058F5D2</link>
+    <coordinates>52.392278282345345,-1.4222171902656555</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/BinleyWoodsExteriorOther/$file/BinleyWoodsExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Bulkington Library &amp; Information Centre</name>
+    <address>
+      <street>School Road </street>
+      <area>Bulkington</area>
+      <town_city>Nuneaton</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV12 9JB</postcode>
+    </address>
+    <telno>024 7631 4189</telno>
+    <faxno>024 7631 1257</faxno>
+    <email>nuneatonlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/638497BF904DF5C180256A170059DEF3</link>
+    <coordinates>52.476863414525894,-1.423925757408142</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/BULExteriorOther/$file/BULExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Camp Hill Library and Information Centre</name>
+    <address>
+      <street>Cedar Road</street>
+      <area></area>
+      <town_city>Nuneaton</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV10 9DN</postcode>
+    </address>
+    <telno>02476 757108 </telno>
+    <faxno>02476 757113</faxno>
+    <email>nuneatonlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/79F1D90787D365B2802571CB00360A02</link>
+    <coordinates>52.53223984286199,-1.5056312084197998</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/CamphillInt2Other/$file/CamphillInt2Other.jpg</image>
+  </library>
+  <library>
+    <name>Coleshill Library &amp; Information Centre</name>
+    <address>
+      <street>19a Parkfield Road</street>
+      <area>Coleshill</area>
+      <town_city>Birmingham</town_city>
+      <county></county>
+      <postcode>B46 3LD</postcode>
+    </address>
+    <telno>01675 463 307</telno>
+    <faxno>01675 463 986</faxno>
+    <email>atherstonelibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/FCC3EB6D193D2CB180256A17005A519A</link>
+    <coordinates>52.49834765380082,-1.7067593336105347</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/NewColeshillExteriorOther/$file/NewColeshillExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Dordon Library &amp; Information Centre</name>
+    <address>
+      <street>Roman Way</street>
+      <area>Dordon</area>
+      <town_city>Tamworth</town_city>
+      <county></county>
+      <postcode>B78 1RD</postcode>
+    </address>
+    <telno>01827 892 519</telno>
+    <faxno>01827 892 519</faxno>
+    <email>atherstonelibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/DD3DE42232CE956180256A17005AA9E3</link>
+    <coordinates>52.60486545510797,-1.6152691841125488</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/DORExtOther/$file/DORExtOther.jpg</image>
+  </library>
+  <library>
+    <name>Dunchurch Library &amp; Information Centre</name>
+    <address>
+      <street>The Green</street>
+      <area>Dunchurch</area>
+      <town_city>Rugby</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV22 6PA</postcode>
+    </address>
+    <telno>01788 811 355</telno>
+    <faxno>01788 811 355</faxno>
+    <email>rugbylibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/3D9A80811245797780256A17005B0877</link>
+    <coordinates>52.33699108658125,-1.291440725326538</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/DunchurchExtOther/$file/DunchurchExtOther.jpg</image>
+  </library>
+  <library>
+    <name>Harbury Library &amp; Information Centre</name>
+    <address>
+      <street>High Street</street>
+      <area>Harbury</area>
+      <town_city>Leamington Spa</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV33 9HW</postcode>
+    </address>
+    <telno>01926 613 297</telno>
+    <faxno>01926 613 297</faxno>
+    <email>harburylibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/3BD25531B368172F80256A1B004BC0B8</link>
+    <coordinates>52.236693276955485,-1.4548677206039429</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/HRB+exteriorOther/$file/HAREXT.jpg</image>
+  </library>
+  <library>
+    <name>Hartshill Library &amp; Information Centre</name>
+    <address>
+      <street>Church Road</street>
+      <area>Hartshill</area>
+      <town_city></town_city>
+      <county>Warwickshire</county>
+      <postcode>CV10 0LY</postcode>
+    </address>
+    <telno>02476 399 359</telno>
+    <faxno>02476 399 359</faxno>
+    <email>nuneatonlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/F554C9DF035083A1802571AE0049F6CA</link>
+    <coordinates>52.54233193229039,-1.519085168838501</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/HRLOther/$file/HRLOther.jpg</image>
+  </library>
+  <library>
+    <name>Henley in Arden Library &amp; Information Centre</name>
+    <address>
+      <street>High Street</street>
+      <area>Henley-in-Arden</area>
+      <town_city></town_city>
+      <county>Warwickshire</county>
+      <postcode>B95 5AU</postcode>
+    </address>
+    <telno>01564 792965</telno>
+    <faxno>01564 792965</faxno>
+    <email>stratforduponavonlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/735881ACD75305BF80256A1B004D2009</link>
+    <coordinates>52.29223870612405,-1.7799997329711914</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/HenleyLibraryExteriorOther/$file/HenleyLibraryExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Kenilworth Library &amp; Information Centre</name>
+    <address>
+      <street>Smalley Place</street>
+      <area></area>
+      <town_city>Kenilworth</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV8 1QG</postcode>
+    </address>
+    <telno>01926 748 900</telno>
+    <faxno>01926 748 901</faxno>
+    <email>kenilworthlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/F421ACE5639DD46680256A1B004D9AEA</link>
+    <coordinates>52.34339533792619,-1.581054925918579</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/KenExtraRampOther/$file/KenExtraRampOther.jpg</image>
+  </library>
+  <library>
+    <name>Keresley Newland Library &amp; Information Centre</name>
+    <address>
+      <street>Bennetts Road</street>
+      <area>Keresley End</area>
+      <town_city>Coventry</town_city>
+      <county></county>
+      <postcode>CV7 8HX</postcode>
+    </address>
+    <telno>024 7633 3140</telno>
+    <faxno>024 7633 3140</faxno>
+    <email>nuneatonlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/CB7EAC2D3C320B7B80256A1B004DDE25</link>
+    <coordinates>52.45964754740928,-1.5357041358947754</coordinates>
+    <image></image>
+  </library>
+  <library>
+    <name>Kineton Library &amp; Information Centre</name>
+    <address>
+      <street>Bridge Street</street>
+      <area>Kineton</area>
+      <town_city></town_city>
+      <county>Warwickshire</county>
+      <postcode>CV35 0JR</postcode>
+    </address>
+    <telno>01926 640 285</telno>
+    <faxno>01926 640 285</faxno>
+    <email>stratfordlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/16FDF5E6F10073AC80256A1B004E36A4</link>
+    <coordinates>52.156437937511186,-1.5110358595848083</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/KinetonExteriorOther/$file/KinetonExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Kingsbury Library &amp; Information Centre</name>
+    <address>
+      <street>Bromage Avenue</street>
+      <area>Kingsbury</area>
+      <town_city>Tamworth</town_city>
+      <county></county>
+      <postcode>B78 2HN</postcode>
+    </address>
+    <telno>01827 872 333</telno>
+    <faxno>01827 872 333</faxno>
+    <email>atherstonelibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/040C21B4508DE35580256A1B004E8F0A</link>
+    <coordinates>52.56831009795698,-1.6839444637298584</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/KNGExtOther/$file/KNGExtOther.jpg</image>
+  </library>
+  <library>
+    <name>Leamington Spa Library &amp; Information Centre</name>
+    <address>
+      <street>Royal Pump Rooms</street>
+      <area>The Parade</area>
+      <town_city>Leamington Spa</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV32 4AA</postcode>
+    </address>
+    <telno>01926 742 721</telno>
+    <faxno>01926 742 743</faxno>
+    <email>leamingtonlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/8E97C97EB948863C80256A1B004EE2AB</link>
+    <coordinates>52.28706252904208,-1.5343093872070312</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/LeamingtonLibraryOther/$file/LeamingtonLibraryOther.jpg</image>
+  </library>
+  <library>
+    <name>Lillington Library and Information Centre</name>
+    <address>
+      <street>Valley Road</street>
+      <area>Lillington</area>
+      <town_city>Leamington</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV32 7SJ</postcode>
+    </address>
+    <telno> 01926 422 875</telno>
+    <faxno>01926 338 074</faxno>
+    <email>leamingtonlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/DC163EB00CC09F1F80256A1B004FC266</link>
+    <coordinates>52.30155758118357,-1.5173524618148804</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/lil+exteriorOther/$file/LILLEXT.jpg</image>
+  </library>
+  <library>
+    <name>Nuneaton Library &amp; Information Centre</name>
+    <address>
+      <street>Church Street</street>
+      <area></area>
+      <town_city>Nuneaton</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV11 4DR</postcode>
+    </address>
+    <telno>024 7638 4027</telno>
+    <faxno>024 7635 0125</faxno>
+    <email>nuneatonlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/FD7A56FE79DECEE480256A1B00501950</link>
+    <coordinates>52.52209320943596,-1.4640730619430542</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/NuneatpmExteriorOther/$file/NuneatpmExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Polesworth Library &amp; Information Centre</name>
+    <address>
+      <street>Bridge Street</street>
+      <area>Polesworth</area>
+      <town_city>Tamworth</town_city>
+      <county>Warwickshire</county>
+      <postcode>B78 1DT</postcode>
+    </address>
+    <telno>01827 892 587</telno>
+    <faxno>01827 896301</faxno>
+    <email>atherstonelibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/FF80D818998FC71A80256A1B00509A9B</link>
+    <coordinates>52.619451704767,-1.6140380501747131</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/PolExtOther/$file/PolExtOther.jpg</image>
+  </library>
+  <library>
+    <name>Rugby Library &amp; Information Centre</name>
+    <address>
+      <street>Little Elborow Street</street>
+      <area></area>
+      <town_city>Rugby</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV21 3BZ </postcode>
+    </address>
+    <telno>01788 533 250</telno>
+    <faxno>01788 533 267</faxno>
+    <email>rugbylibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/F87FA2CA307673E780256A1B00510546</link>
+    <coordinates>52.371525033720495,-1.2646347284317017</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/RugbyExteriorOther/$file/RugbyExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Shipston-on-Stour Library &amp; Information Centre</name>
+    <address>
+      <street>12 Church Street</street>
+      <area>Shipston-on-Stour</area>
+      <town_city></town_city>
+      <county>Warwickshire</county>
+      <postcode>CV36 4AP</postcode>
+    </address>
+    <telno>01608 661255</telno>
+    <faxno>01608 664309</faxno>
+    <email>stratfordlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/1CD6BDE67CCED58E80256A1B00514FB3</link>
+    <coordinates>52.06290684493395,-1.6234606504440308</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/ShiExtOther/$file/ShiExtOther.jpg</image>
+  </library>
+  <library>
+    <name>Southam Library &amp; Information Centre</name>
+    <address>
+      <street>High Street</street>
+      <area>Southam</area>
+      <town_city>Leamington Spa</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV47 0HB</postcode>
+    </address>
+    <telno>01926 812 523</telno>
+    <faxno>01926 811 668</faxno>
+    <email>stratfordlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/552F0BF3699B775380256A1B0051BC9C</link>
+    <coordinates>52.25306849231572,-1.388397216796875</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/Southam+Library+ExteriorMed/$file/Souweb.jpg</image>
+  </library>
+  <library>
+    <name>Stockingford Library &amp; Information Centre</name>
+    <address>
+      <street>St Paul's Road</street>
+      <area>Stockingford</area>
+      <town_city>Nuneaton</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV10 8HW</postcode>
+    </address>
+    <telno>02476 345 608</telno>
+    <faxno>02476 345 676</faxno>
+    <email>nuneatonlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/D4FE3FD21175426980256F04003C65DB</link>
+    <coordinates>52.518969441307746,-1.5042981505393982</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/STKExteriorOther/$file/STKExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Stratford upon Avon Library &amp; Information Centre</name>
+    <address>
+      <street>Henley Street</street>
+      <area></area>
+      <town_city>Stratford-upon-Avon</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV37 6PZ </postcode>
+    </address>
+    <telno>01789 292 209</telno>
+    <faxno>01926 476763</faxno>
+    <email>stratfordlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/2C4454E78D6AF28480256A1B0052151E</link>
+    <coordinates>52.19360867423304,-1.7076203227043152</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/StratfordExteriorOther/$file/StratfordExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Studley Library and Information Centre</name>
+    <address>
+      <street>High Street</street>
+      <area></area>
+      <town_city>Studley</town_city>
+      <county></county>
+      <postcode>B80 7HJ </postcode>
+    </address>
+    <telno>01527 852 929</telno>
+    <faxno>01527 852 929</faxno>
+    <email>stratfordlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/16238AB63EEFF84280256A1B00528A34</link>
+    <coordinates>52.2720506570546,-1.8977808952331543</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/SdlExtOther/$file/SdlExtOther.jpg</image>
+  </library>
+  <library>
+    <name>Warwick Library &amp; Information Centre</name>
+    <address>
+      <street>Barrack Street</street>
+      <area></area>
+      <town_city>Warwick</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV34 4TH</postcode>
+    </address>
+    <telno>01926 412 189</telno>
+    <faxno></faxno>
+    <email>warwicklibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/D990E9BD0FA118C780256A1B005333B3</link>
+    <coordinates>52.28322963549518,-1.5905177593231201</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/WarwickExteriorOther/$file/WarwickExteriorOther.jpg</image>
+  </library>
+  <library>
+    <name>Water Orton Library &amp; Information Centre</name>
+    <address>
+      <street>Coleshill Road</street>
+      <area>Water Orton</area>
+      <town_city>Birmingham</town_city>
+      <county></county>
+      <postcode>B46 1SN</postcode>
+    </address>
+    <telno>0121 747 7460</telno>
+    <faxno>0121 748 6735</faxno>
+    <email>atherstonelibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/87693418CF379B0680256A1B00555922</link>
+    <coordinates>52.517089197928875,-1.7412391304969788</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/WatExtOther/$file/WatExtOther.jpg</image>
+  </library>
+  <library>
+    <name>Wellesbourne Library &amp; Information Centre</name>
+    <address>
+      <street>Kineton Road</street>
+      <area>Wellesbourne</area>
+      <town_city>Warwick</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV35 9NF</postcode>
+    </address>
+    <telno>01789 840 528</telno>
+    <faxno> 01789 840 528</faxno>
+    <email>stratfordlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/3CF48A1CE4897A8F80256A1B0055A903</link>
+    <coordinates>52.19546820430792,-1.5904614329338074</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/welspring188Other/$file/welspring188.jpg</image>
+  </library>
+  <library>
+    <name>Whitnash Library &amp; Information Centre</name>
+    <address>
+      <street>Franklin Road</street>
+      <area>Whitnash Library &amp; Information Centre</area>
+      <town_city>Leamington Spa</town_city>
+      <county>Warwickshire</county>
+      <postcode>CV31 2JH</postcode>
+    </address>
+    <telno>01926 421 464</telno>
+    <faxno>01926 429 468</faxno>
+    <email>leamingtonlibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/E6D3E4C28BF0A31F80256A1B0056713C</link>
+    <coordinates>52.26792757401804,-1.529121994972229</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/graphics.nsf/graphics/WHLext211207Other/$file/WHLext211207Other.jpg</image>
+  </library>
+  <library>
+    <name>Wolston Library &amp; Information Centre</name>
+    <address>
+      <street>Warwick Road</street>
+      <area>Wolston</area>
+      <town_city>Coventry</town_city>
+      <county></county>
+      <postcode>CV8 3GX</postcode>
+    </address>
+    <telno>02476 542 513</telno>
+    <faxno>02476 542 513</faxno>
+    <email>rugbylibrary@warwickshire.gov.uk</email>
+    <link>http://www.warwickshire.gov.uk/Web/corporate/pages.nsf/Links/4203BF68DC3400B080256A1B0056B603</link>
+    <coordinates>52.3748508594481,-1.3968220353126526</coordinates>
+    <image>http://www.warwickshire.gov.uk/Web/graphics/Graphics.nsf/graphics/WolstonExteriorOther/$file/WolstonExteriorOther.jpg</image>
+  </library>
+</libraries>

@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>230 CHEROKEE TRAIL</house_location>
+<price>$114,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>243389</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>MYRNA FLOYD</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>IT'S ALL HERE-GREAT HOME, GREAT SETTING,GR EAT AREA,
+CLEAN,SPACIOUS,WELL MAINTAINED ON DEAD END STREET MIN. FROM 75, VIEW
+OF BOLTZ LAKE FROM 16X26 DECK,BEAUTIFUL LARGE YARD,WON'T LAST LONG!
+EMAIL MGFLOYD@AOL.COM.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>122x271</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 7</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 10</dimension><level>1</level></dining>
+<family><dimension>22 X 13</dimension><level>L</level></family>
+<kitchen><dimension>10 X 5</dimension><level>1</level></kitchen>
+<living><dimension>13 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>I-75 TO EXIT 159,R TO R 467, TO R ON DRMT ZION
+TO R ON CHEROKEE TRAIL ON LEFT.</directions>
+</house_listing>
+
+
+

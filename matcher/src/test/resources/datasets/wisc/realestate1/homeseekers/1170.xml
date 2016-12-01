@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1999 has 2 bedroom(s), 2 bath(s) and
+approximately 925 square feet of living area. Features include private
+pool, private spa, air conditioning.</house_description>
+
+<agent_name>Rebecca Sklar</agent_name>
+<direct>534-1515</direct>
+<office>673-0960</office>
+<firm_name>Sklar Real Estate
+Lic. Real Estate Broker</firm_name>
+<phone>673-0960</phone>
+<fax>672-6630</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$181,900</list_price>
+<location>3737 Indian Creek Dr #605</location>
+<neighborhood>Masada Ii Condo</neighborhood>
+<mls>M736907</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>925 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Water front</location>
+<pool>Yes</pool>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Terri Eller</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email>terrieller@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17084</id>
+<mls>137041</mls>
+<house_location>4060 LOMA ALTA
+Corpus Christi, TEXAS 78410</house_location>
+<county>Nueces</county>
+<price>$280,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>HUGE SPLIT LEVEL, MASTERSUITE/OFFICE LOWER LEVEL, MIDDLE,HAS FORMAL LIV. DINING, KIT.,BATH,LAUNDRY, WET BAR, UPPER HAS 2 BDRMS W/CON. BATH, &amp; 1 BED/BATH, HUGH WALKIN CLOSETS, 2 H&amp;A/C &amp; WATER HEATER. LG. LOT, TREES, PATIO. CVD. PORCHES, EXTRA BIG BLDG.  .958 AC., FOR YOU MOST ESLECTIVE BUYERS!</house_description>
+
+<school_district>Callallen</school_district>
+<approx_size_sqft>3276</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>0.96</approx_acres>
+<year_built>1986</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>HUGE MASTERSUITE</item>
+<item>3 SPLIT LEVEL</item>
+<item>EXTRA GARAGE/WORK SHOP</item>
+<item>COUNTRY</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

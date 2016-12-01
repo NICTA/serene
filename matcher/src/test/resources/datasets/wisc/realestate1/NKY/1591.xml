@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>15412 MADISON PKE</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Detached,Side,Oversized)</garage>
+<suburb>PINER</suburb>
+<school_dist>KENTON</school_dist>
+<mls>245978</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>JANET RIGNEY</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WELL MAINTAINED RANCH * 2 BEDRM * LIVING RM HAS BRICK FIREPLACE *NEWER
+CAR- PET,WINDOWS,SIDING,FURNACE,&amp; ROOF*THIS HOME OFFERS AN EXTRA
+BUILDING W/FULL BSMT*COULD BE SM BUSINESS/RENTAL 38X20 *CITY
+WATER/UTILITIES AVAILABLE SOON</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>Wood,Insert,Brick</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>17 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>21 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+<recreation_room><dimension>25 X 8</dimension><level>1</level></recreation_room>
+
+<directions>I-75 TO L OFF EXIT 171 TO R US25 L RT14 R ON
+MADISON PIKE 1.4 MILE *HOUSE ON RIGHT</directions>
+</house_listing>
+
+
+

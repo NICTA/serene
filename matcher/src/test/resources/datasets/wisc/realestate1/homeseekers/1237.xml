@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1952 has 1 bedroom(s), 1 bath(s) , 1 car
+garage and approximately 940 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Silvia Coltrane</agent_name>
+<office>672-0304</office>
+<firm_name>Real Estate Transa
+Lic. Real Estate Broker</firm_name>
+<phone>672-0304</phone>
+<fax>305-672-3444</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$88,000</list_price>
+<location>1865 79 Ca #PH-A</location>
+<neighborhood>Kennedy House Condo</neighborhood>
+<mls>M767540</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>940 (approx)</square_feet>
+<year_built>1952</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

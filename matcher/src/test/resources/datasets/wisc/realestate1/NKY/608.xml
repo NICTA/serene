@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>701 GARRARD</house_location>
+<price>$172,500</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248809</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA SONDGERATH</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>INTERIOR PIX-NKYHOMESONLINE.COM, CBWS.COM, NKYMLS.COM.SOPHISTICATED 2
+UNIT TOWNHOME W/COURTYARD.PERFECT OPPORTUNITY FOR 2/3 BR OWNER APT &amp;
+LET THE 1ST FLR HELP W/THE MORTGAGE! THE FINEST IN URBAN LIVING!</house_description>
+<construction>Brick,Stone</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>3</level></bath_3>
+<bedroom_2><dimension>13 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 12</dimension><level>3</level></bedroom_3>
+<bedroom_4><dimension>16 X 13</dimension><level>3</level></bedroom_4>
+<breakfast><dimension>14 X 10</dimension><level>2</level></breakfast>
+<dining><dimension>16 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>3</level></laundry>
+<living><dimension>17 X 14</dimension><level>1</level></living>
+<master><dimension>16 X 14</dimension><level>2</level></master>
+
+<directions>CORNER OF GARRARD AND 7TH ST.</directions>
+</house_listing>
+
+
+

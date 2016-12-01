@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>4386 PERSIMMON GROV</house_location>
+<price>$189,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Detached,Oversized)</garage>
+<suburb>#</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248004</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JIM MCCORD</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>WELL BUILT BRICK RANCH W/GORGEOUS 2.5 ACRE YD-MATURE TREES-BARN-LG
+DETATCHD GARAGE &amp; 1 BUILT-IN GARAGE- CREEK-LAND LAYS WELL-GREAT
+RETIREMENT HOME! PLENTY OF ROOM FOR A HORSE!</house_description>
+<construction>Brick</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>aprox</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$3</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>20 X 13</dimension><level>1</level></family>
+<kitchen><dimension>20 X 10</dimension><level>1</level></kitchen>
+<living><dimension>18 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>27 TO L ON RT 10 TO R ON PERSIMMON GROVE 2 MILES
+ON LEFT</directions>
+</house_listing>
+
+
+

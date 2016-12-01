@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1135 TROOPERS CROSS</house_location>
+<price>$142,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>BATTLE RIDGE</suburb>
+<school_dist>KENTON COUN</school_dist>
+<mls>249468</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>DONNA SPELLMAN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>CUSTOM QUALITY THRUOUT-EXCITING RANCH PLAN WITH FIRST FLR LAUNDRY-
+TIME TO CHOOSE COLORS AND MAKE MODIFICATIONS. CALL AGENT FOR DETAILS
+AND PLAN. UNDER ROOF AS OF 1/20/00. CATHEDRAL CEILINGS.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80 x 162</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>9 X 12</dimension><level>1</level></breakfast>
+<kitchen><dimension>9 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 12</dimension><level>1</level></laundry>
+<living><dimension>14 X 18</dimension><level>1</level></living>
+<master><dimension>13 X 15</dimension><level>1</level></master>
+
+<directions>BRISTOW TO BATTLE RIDGE SUBDIVISION L ON
+CALVARY, L ON TROOPERS CROSSING</directions>
+</house_listing>
+
+
+

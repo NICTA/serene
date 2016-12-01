@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1925 has 5
+bedroom(s), 4 bath(s) , 1 car garage. Rooms include dining room,
+master bedroom. Features include fireplace, air conditioning.</house_description>
+
+<agent_name>Willie Parker</agent_name>
+<direct>202-462-1236</direct>
+<office>202-234-3344</office>
+<firm_name>Tutt, Taylor &amp; Rankin Real Estate,</firm_name>
+<phone>202-234-3344</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$219,500</list_price>
+<location>Washington, DC 20017</location>
+<mls>DC3116871</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<levels>2</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>4830</lot_size>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1955 has 3 bedroom(s), 1
+bath(s) , 1 car garage and approximately 1316 square feet of living
+area. Features include patio, air conditioning.</house_description>
+
+<agent_name>Bradley Martin</agent_name>
+<direct>783-0145</direct>
+<office>782-8911</office>
+<firm_name>Sagely &amp; Edwards Co. Better</firm_name>
+<phone>782-8911</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$52,500</list_price>
+<location>4605 S 21St St</location>
+<neighborhood>Phoenix Place</neighborhood>
+<mls>10018146</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<style>Traditional</style>
+<square_feet>1316 (approx)</square_feet>
+<lot_size>65 X 128</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Forced Air, Natural Gas</heating>
+<patio>Deck</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Smoke Alarms, Storm Doors, Traditional Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

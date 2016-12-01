@@ -1,0 +1,34 @@
+<house_listing>
+<price>$259,900</price>
+<mls_id_number>142906</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>3152</sqft>
+<year_built>1955</year_built>
+<heat>Not Listed</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.65        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>2</fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>RV-Park, Covered Patio, Garden, Green House,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>TIGARD</elementary>
+<middle_school></middle_school>
+<high_school>TIGARD</high_school>
+</schools>
+
+</house_listing>
+
+
+

@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Diane Sanders</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<voice_mail>(512)757-0707</voice_mail>
+<mobile>(512)753-9478</mobile>
+<email>dsanders@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20185</id>
+<mls>6203</mls>
+<house_location>2100 Lancaster
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$144,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Fairly New HomeMultiple DinningJetted Tub</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>Sendera</sub-division>
+<approx_size_sqft>1932</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>City</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Level Lot</item>
+<item>Gas Fireplace</item>
+<item>Patio &amp; Deck</item>
+<item>Fenced Yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

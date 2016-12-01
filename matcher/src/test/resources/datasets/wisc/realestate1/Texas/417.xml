@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sonny Mobley</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>sonny@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14472</id>
+<mls>51096</mls>
+<house_location>102 KIMBLE COURT, PECAN CREEK
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$277,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Beautifully remodeled 3 bedroom, 2 bath courtyard home,  in exclusive Pecan Creek.  Covered patio in walled private backyard.  Insulated windows, skylights, ceiling fan.  Pecan Creek is a gated community with indoor swimming pool, putting green, tennis court, and surfaced jogging path.  Near the Scott &amp; White Clinic.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Pecan Creek</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Gated Pecan Creek</item>
+<item>Private amenities</item>
+<item>Newly remodeled</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

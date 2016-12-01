@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Bobby Gronewald</name>
+<location>223 W. Travis La Grange, TX 78945</location>
+<office>(409)968-8471</office>
+<toll_free></toll_free>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bobby Gronewald</name>
+<office>(409)968-8471</office>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19137</id>
+<mls>2224</mls>
+<house_location>549 S. Franklin St.
+La Grange, TEXAS 78945</house_location>
+<county>Fayette</county>
+<price>$225,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautiful two story turn of the century home on a large tree shaded corner lot.  This home has been very well taken care of and features high ceilings, large kitchen, formal dining, beautiful hard wood floors.  The study or den on the first floor can double as a bedroom (to make #4) and has built-ins.  The master and two more bedrooms are on the second floor along with the laundry area and the large master bath with antique ball &amp; claw tub.  There is a wonderful screened porch on the second floor.  Yard is fenced with a white picket fence.  For that touch of yesteryear,Call for a showing.</house_description>
+
+<school_district>La Grange</school_district>
+<sub-division>Town</sub-division>
+<approx_size_sqft>2700</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>0.28</approx_acres>
+<year_built>1869</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Majestic Southern Style Home</item>
+<item>Large Rooms</item>
+<item>Very Good Condition</item>
+<item>Large tree shaded lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

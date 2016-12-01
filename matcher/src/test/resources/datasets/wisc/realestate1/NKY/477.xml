@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>2512 BRIDGESTONE CR</house_location>
+<price>$163,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>246478</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>PAT BROSKY</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>BEAUTIFUL ARLINGHAUS GEORGETOWN II,2 YRS OLD,DESIGNER BATH,LARGE
+PANTRY, CUL-DE-SAC,FIRST FLOOR LAUNDRY,HUGE LOT,WALKOUT, LOT
+69X204X103X160</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>21</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>11 X 20</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>19 X 21</dimension><level>1</level></living>
+<master><dimension>12 X 14</dimension><level>1</level></master>
+
+<directions>WEST ON RT 18 L ON CAMP ERNST R ON ROGERS L ON
+HANOVER R ON SIERRA R ON BRIDGESTONE</directions>
+</house_listing>
+
+
+

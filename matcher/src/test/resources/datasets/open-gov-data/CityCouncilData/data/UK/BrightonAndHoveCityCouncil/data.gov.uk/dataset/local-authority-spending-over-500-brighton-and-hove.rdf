@@ -1,0 +1,218 @@
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/">
+  <dcat:Dataset rdf:about="http://data.gov.uk/dataset/local-authority-spending-over-500-brighton-and-hove">
+    <owl:sameAs rdf:resource="urn:uuid:d1a36dc8-b2e2-45ef-8551-2f820006a0cc"></owl:sameAs>
+    <dct:description>This page lists reports of individual payments to suppliers with a value over £500 made within the month. Publication of these lists forms part of the Council's commitment to be open and transparent with its residents.
+</dct:description>
+        <dcat:keyword>brighton-and-hove</dcat:keyword>
+        <dcat:keyword>brighton-and-hove-city-council</dcat:keyword>
+        <dcat:keyword>local-authority</dcat:keyword>
+        <dcat:keyword>local-government</dcat:keyword>
+        <dcat:keyword>local-spend-data</dcat:keyword>
+        <dcat:keyword>local-spending-data</dcat:keyword>
+        <dcat:keyword>payments-to-suppliers</dcat:keyword>
+        <dcat:keyword>spend-over-500</dcat:keyword>
+        <dcat:keyword>transparency</dcat:keyword>
+    <foaf:homepage rdf:resource="http://data.gov.uk/dataset/local-authority-spending-over-500-brighton-and-hove"></foaf:homepage>
+    <rdfs:label>local-authority-spending-over-500-brighton-and-hove</rdfs:label>
+    <dct:identifier>local-authority-spending-over-500-brighton-and-hove</dct:identifier>
+    <dct:title>Payments to suppliers with a value over £500 from Brighton and Hove City Council</dct:title>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://www.brighton-hove.gov.uk/downloads/bhcc/procurement/april_10-11.csv"></dcat:accessURL>
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>CSV</rdf:value>
+                            <rdfs:label>CSV</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+            </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://www.brighton-hove.gov.uk/downloads/bhcc/finance/payments_to_suppliers/may_10-11.csv"></dcat:accessURL>
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>CSV</rdf:value>
+                            <rdfs:label>CSV</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+            </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://www.brighton-hove.gov.uk/downloads/bhcc/finance/payments_to_suppliers/june_10-11.csv"></dcat:accessURL>
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>CSV</rdf:value>
+                            <rdfs:label>CSV</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+            </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://www.brighton-hove.gov.uk/downloads/bhcc/finance/payments_to_suppliers/july_10-11.csv"></dcat:accessURL>
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>CSV</rdf:value>
+                            <rdfs:label>CSV</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+            </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://www.brighton-hove.gov.uk/downloads/bhcc/finance/payments_to_suppliers/august_10-11.csv"></dcat:accessURL>
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>CSV</rdf:value>
+                            <rdfs:label>CSV</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+            </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dcat:accessURL rdf:resource="http://www.brighton-hove.gov.uk/downloads/bhcc/finance/payments_to_suppliers/september_10-11.csv"></dcat:accessURL>
+                    <dct:format>
+                        <dct:IMT>
+                            <rdf:value>CSV</rdf:value>
+                            <rdfs:label>CSV</rdfs:label>
+                        </dct:IMT>
+                    </dct:format>
+            </dcat:Distribution>
+        </dcat:distribution>
+    <dct:creator>
+      <rdf:Description>
+        <foaf:name>Brighton and Hove City Council</foaf:name>
+      </rdf:Description>
+    </dct:creator>
+    <dct:rights rdf:resource="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"></dct:rights>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>agency</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>categories</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>date_released</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>date_updated</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>department</rdfs:label>
+            <rdf:value>Brighton and Hove City Council</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>external_reference</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>geographic_coverage</rdfs:label>
+            <rdf:value>000000: </rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>geographic_granularity</rdfs:label>
+            <rdf:value>local authority</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>national_statistic</rdfs:label>
+            <rdf:value>no</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>odi-certificate</rdfs:label>
+            <rdf:value>{"status": "final", "source": "Automatically awarded by ODI", "certification_type": "automatically awarded", "level": "raw", "title": "Payments to suppliers with a value over \u00a3500 from Brighton and Hove City Council", "created_at": "2014-10-30T14:57:01Z", "jurisdiction": "GB", "certificate_url": "https://certificates.theodi.org/datasets/21591/certificates/34033", "badge_url": "https://certificates.theodi.org/datasets/21591/certificates/34033/badge.png", "cert_title": "Basic Level Certificate"}</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>openness_score</rdfs:label>
+            <rdf:value>0</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>openness_score_last_checked</rdfs:label>
+            <rdf:value>2011-06-06T17:02:00.458944</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>precision</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>published_by</rdfs:label>
+            <rdf:value>Brighton and Hove City Council [14387]</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>published_via</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>taxonomy_url</rdfs:label>
+            <rdf:value></rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_coverage-from</rdfs:label>
+            <rdf:value>2010-06-01</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_coverage-to</rdfs:label>
+            <rdf:value>2010-10-31</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>temporal_granularity</rdfs:label>
+            <rdf:value>month</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>theme-primary</rdfs:label>
+            <rdf:value>Government Spending</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+        <dct:relation>
+          <rdf:Description>
+            <rdfs:label>update_frequency</rdfs:label>
+            <rdf:value>monthly</rdf:value>
+          </rdf:Description>
+        </dct:relation>
+  </dcat:Dataset>
+</rdf:RDF>

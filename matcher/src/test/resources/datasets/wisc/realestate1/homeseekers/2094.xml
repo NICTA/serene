@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1995 has 3 bedroom(s), 3 bath(s) and
+approximately 2105 square feet of living area.</house_description>
+
+<agent_name>Susan Sterner</agent_name>
+<direct>303-255-4378</direct>
+<office>303-457-4800</office>
+<firm_name>RE/MAX Northwest Inc</firm_name>
+<phone>303-457-4800</phone>
+<fax>303-252-8133</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$239,950</list_price>
+<location>11113 Navajo St</location>
+<neighborhood>Park Vista</neighborhood>
+<mls>380948</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2105 (approx)</square_feet>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

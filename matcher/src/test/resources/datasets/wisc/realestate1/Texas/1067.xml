@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gregory Windham</name>
+<office>(512)834-6082</office>
+<fax>(512)836-2349</fax>
+<mobile>(512)658-4272</mobile>
+<email>gregry17@yahoo.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21698</id>
+<mls>527563</mls>
+<house_location>377 Twin Springs
+Georgetown, TEXAS 78626</house_location>
+<county>Williamson</county>
+<price>$279,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>You dreamed it! Fantastic custom designed Texas elegance nestled on 4.79 acres of natural beauty, minutes from the Lake!</house_description>
+
+<school_district>Georgetown</school_district>
+<sub-division>Twin Springs</sub-division>
+<approx_size_sqft>2695</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>4.79</approx_acres>
+<year_built>2000</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>4.79 Acres</item>
+<item>Minutes from the Lake!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

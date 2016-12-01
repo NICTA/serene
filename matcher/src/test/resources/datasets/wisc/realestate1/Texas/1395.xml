@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Nora Wall</name>
+<office>(512)789-3421</office>
+<fax>(512)834-2234</fax>
+<voice_mail>(512)834-6094</voice_mail>
+<mobile>(512)789-3421</mobile>
+<email>norawall@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21266</id>
+<mls>527543</mls>
+<house_location>920 Wessex Way
+Austin, TEXAS 78748</house_location>
+<county>Travis</county>
+<price>$89,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Beautiful Spacious Floorplan! 2 Masters, Large Kitchen! Wonderful Patio! Breakfast Bar! 2 Car Garage W/Opener! Indoor Utilities! Stunning Stone Fireplace!</house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>Buckingham</sub-division>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+<item>Beautiful Spacious Floorplan!</item>
+<item>2 Master Bedrooms!</item>
+<item>Wonderful Patio!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Betty Gillis</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19871</id>
+<mls>53804</mls>
+<house_location>1201 Co. Road 269
+Bertram, TEXAS</house_location>
+<county>Burnet</county>
+<price>$162,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>3/2 on 18+- Acres.  Trees Galore.  Wet weather creek, workshop, deck, paved entry, paved Co. Rd.  Storm Cellair, Second Manufactured home on back lot does not convey.  Situated in Burnet ISD</house_description>
+
+<school_district>Burnet</school_district>
+<sub-division>Sunset Oaks</sub-division>
+<approx_size_sqft>1400</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Trees Galore!</item>
+<item>Many Extras.</item>
+<item>18 +- Acres</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

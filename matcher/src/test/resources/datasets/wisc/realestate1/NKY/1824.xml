@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>95 1-M RHONDA</house_location>
+<price>$64,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>247229</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>D KEN PERRY</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>EXTRA CLEAN BRICK RANCH, MODERN KITCHEN W/OAK CABINETS, NEWER WINDOWS,
+HARDWOOD ENTRY, NEWER RANGE, LARGE MASTER BEDROOM OR 3RD BEDROOM, 1ST
+FLOOR LAUNDRY, PRIVATE BACKYARD. SET APPOINTMENTS THRU KEN PERRY AT
+824-0400.</house_description>
+<construction>Brick</construction>
+<heating>Electric,Baseboard</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>117x134</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>16 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 9</dimension><level>1</level></laundry>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>US 27 S, L SOUTHSIDE CHURCH RD, L RHONDA</directions>
+</house_listing>
+
+
+

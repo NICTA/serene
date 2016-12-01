@@ -1,0 +1,18 @@
+#!/bin/bash
+
+for i in $(find ./db2/ -name "*.txt");
+do
+    charset=`file -i $i | awk -F"charset=" '{print $2}'`
+    if [ $charset == "iso-8859-1" ] 
+    then
+       iconv -f ${charset} -t utf-8 ${i} -o ${i}.utf8
+       mv ${i}.utf8 ${i} 
+    fi
+done
+
+#for i in $(find ./db2/ -name "*.txt")
+#do 
+#    echo $(file -i $i | awk -F"charset=" '{print $2}'); 
+#done
+
+echo "DONE!"

@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1900 has 2 bedroom(s), 1
+bath(s) . Rooms include dining room, master bedroom. Features include
+fireplace.</house_description>
+
+<agent_name>Annette Fleming</agent_name>
+<direct>301-894-8992</direct>
+<office>202-483-6300</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>202-483-6300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$115,000</list_price>
+<location>Washington, DC 20003</location>
+<mls>DC3075680</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>835</lot_size>
+<year_built>1900</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

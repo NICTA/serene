@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mike Carey</name>
+<office>(956)425-1117</office>
+<fax>(956)425-3483</fax>
+<email>CINHRL@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15587</id>
+<mls>R13949</mls>
+<house_location>590 Heather
+Harlingen, TEXAS 78552</house_location>
+<county>Cameron</county>
+<price>$133,600</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>New home with large, open living room; sunroom with ceiling fans.  Master bedroom has large bath with whirlpool tub, seperate shower, and walk-in closet.  Large laundry room with lots of storage space.  Exclusive adult community.</house_description>
+
+<school_district>Harlingen</school_district>
+<approx_size_sqft>1688</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Large spacious floor plan</item>
+<item>Gated community</item>
+<item>Overlooks golf course</item>
+<item>Lots of storage space</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

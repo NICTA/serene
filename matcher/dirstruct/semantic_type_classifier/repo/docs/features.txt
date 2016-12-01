@@ -1,0 +1,74 @@
+========================
+ FEATURES DOCUMENTATION
+========================
+Below are the description of features used by our classifier.  
+Note that features are extracted from a column's name and values.
+Thus, all the data from a single column is reduced to some feature
+vector of the concatenation of values computed by the extractors below.
+
+We refer to a single value from the column as an entry.
+E.g.
+    Person  Age  Gender
+    John    20    M
+    Jane    30    F
+From the table above, John is an entry of the column Person.
+
+## The following feature extractors produce a scalar value:
+
+num-unique-vals      : A simple count of unique entries of a column
+prop-unique-vals     : The proportion of unique entries of a column. 
+prop-missing-vals    : The proportion of all missing/empty entries from all entries in a column.
+ratio-alpha-chars    : The average of the proportion of alphabetic characters from each entry.
+prop-numerical-chars : The average of the proportion of numeric characters from each entry.
+prop-whitespace-chars       : The average of the proportion of whitespace characters from each entry.
+prop-entries-with-at-sign   : The proportion of entries with an '@' sign.
+prop-entries-with-hyphen    : The proportion of entries with a '-'.
+prop-range-format           : The proportion of entries which follow some numerical range format: ([0-9]+)-([0-9]+).
+is-discrete                 : A binary indicator if the column entires are discrete.
+entropy-for-discrete-values : The entropy of the entries of a column.
+
+
+## The following feature extractors produce a vector value.
+Some of these are computed together to reduce computation time.
+Others are values that are computed for all classes.
+
+inferred-data-type      : Produces a vector which contains the inferred data type.  
+                          Only a single element is non-zero in the vector (i.e. 1-of-K format).  
+                          The set of inferret types are in {float,integer,long,boolean,date,time,datetime,string}.
+                          Optional Parameters:
+                              type-map:  Contains a csv that maps attribute ID to one of the types mentioned above.
+                                         This allows us to interface with external data type inferrers.
+
+stats-of-text-length    : Computes the mean, median, mode, min, max of string lengths from a columns entries.
+
+stats-of-numerical-type : Computes the mean, median, mode, min, max of entries from a column of numerical type.
+
+prop-instances-per-class-in-knearestneighbours         : This finds the k columns from the training set with most similar names.
+                                                         It then produces a vector of class proportions from these k neighbours.
+                                                         Parameters:
+                                                             "num-neighbours": The number of neighbours to find (k).
+
+mean-character-cosine-similarity-from-class-examples   : For some test instance t, this computes the character distribution 
+                                                         from this instance's entries.  It then produces a vector of the average
+                                                         cosine similarity of t with training instances of each class.
+
+min-editdistance-from-class-examples                   : For some test instance t, this produces a vector of the minimum column name
+                                                         edit distance between t and all training instances of each class.
+                                                         Parameters:
+                                                              "cache-size": Size of cache for storing edit distances of words 
+                                                              "max-comparisons-per-class": Max number of training instances to compare
+                                                                                           against for each class.
+
+min-wordnet-jcn-distance-from-class-examples            : For some test instance t, this produces a vector of the minimum column name
+                                                         JCN WS4J distance between t and all training instances of each class.
+                                                         Parameters:
+                                                              "cache-size": Size of cache for storing wordnet distances of words 
+                                                              "max-comparisons-per-class": Max number of training instances to compare
+                                                                                           against for each class.
+
+min-wordnet-lin-distance-from-class-examples            : For some test instance t, this produces a vector of the minimum column name
+                                                         LIN WS4J distance between t and all training instances of each class.
+                                                         Parameters:
+                                                              "cache-size": Size of cache for storing wordnet distances of words 
+                                                              "max-comparisons-per-class": Max number of training instances to compare
+                                                                                           against for each class.

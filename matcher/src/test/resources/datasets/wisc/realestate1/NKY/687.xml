@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>1123 RUSSELL</house_location>
+<price>$39,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249365</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>SANDRA FOELLGER</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>WAS DAV OFFICE AND APT. COULD BE NICE REHAB PROPERTY. SOLD AS IS
+INCLUDING INVENTORY. EXTRA LOT COULD BE OFF STREET PARKING-COULD BE
+TWO FAMILY</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Gas,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>52x85</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>19 X 12</dimension><level>3</level></bedroom_2>
+<bedroom_3><dimension>19 X 12</dimension><level>2</level></bedroom_3>
+<dining><dimension>18 X 13</dimension><level>2</level></dining>
+<family><dimension>18 X 13</dimension><level>2</level></family>
+<kitchen><dimension>19 X 14</dimension><level>2</level></kitchen>
+<living><dimension>28 X 19</dimension><level>1</level></living>
+<master><dimension>14 X 23</dimension><level>1</level></master>
+
+<directions>SCOTT TO R ON 12TH R ON RUSSELL</directions>
+</house_listing>
+
+
+

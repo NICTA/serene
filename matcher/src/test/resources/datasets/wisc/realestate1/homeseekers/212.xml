@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1945 has 4 bedroom(s), 3 bath(s) and
+approximately 2054 square feet of living area. Rooms include family
+room. Features include view, air conditioning.</house_description>
+
+<agent_name>Marjorie Palmer</agent_name>
+<direct>888-0777</direct>
+<office>888-2777</office>
+<firm_name>Family Of Realtys,
+Lic. Real Estate Broker</firm_name>
+<phone>888-2777</phone>
+<fax>305-888-2492</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$179,900</list_price>
+<location>289 Pinecrest Dr</location>
+<neighborhood>Country Club Ests Sec 2</neighborhood>
+<mls>M774237</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2054 (approx)</square_feet>
+<lot_size>75 X 93</lot_size>
+<year_built>1945</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Central</heating>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

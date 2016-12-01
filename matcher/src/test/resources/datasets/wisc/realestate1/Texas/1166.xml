@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>JOY BRUNNER</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<voice_mail>(713)621-4953 123</voice_mail>
+<email>joybrunner@madelineobrien.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11791</id>
+<mls>168373</mls>
+<house_location>4502 MARLBOROUGH
+Houston, TEXAS 77092</house_location>
+<county>Harris</county>
+<price>$81,950</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>WONDERFUL DOLL HOUSE- HARDWOOD FLOORS- GOOD KITCHEN- SEPARATE BREAKFAST ROOM PLUS INDOOR UTILITY ROOM! LIVING ROOM OVERLOOKS WOODED YARD PLUS HUGE INSIDE YARD. PERFECT HOME FOR FIRST TIME BUYERS- HUGE CORNER LOT PLUS 2 CAR GARAGE. MORE SQUARE FOOTAGE THAN HCAD SHOWS.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Shepherd Forest</sub-division>
+<approx_size_sqft>1360</approx_size_sqft>
+<stories>1</stories>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>HARDWOOD FLOORS, GOOD KITCHEN</item>
+<item>LIVING ROOM OVERLOOKS WOODED YARD</item>
+<item>MORE SQUARE FOOTAGE THAN HCAD SHOWS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

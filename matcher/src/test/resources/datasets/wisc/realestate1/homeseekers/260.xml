@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1959 has 4 bedroom(s), 3 bath(s) , 2
+car garage and approximately 2359 square feet of living area. Features
+include view, air conditioning.</house_description>
+
+<agent_name>Julian L. Butler</agent_name>
+<direct>305-885-0632</direct>
+<office>305-885-6198</office>
+<firm_name>J.L. Butler Real E
+Lic. Real Estate Broker</firm_name>
+<phone>305-885-6198</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$275,000</list_price>
+<location>1431 Hammond Dr</location>
+<neighborhood>Bass Lake Ests Replat 1St</neighborhood>
+<mls>D901893</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2359 (approx)</square_feet>
+<lot_size>75 X 135</lot_size>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Lake front, Water front</location>
+<pool>No</pool>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

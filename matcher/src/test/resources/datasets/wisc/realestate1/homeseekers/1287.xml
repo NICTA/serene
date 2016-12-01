@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level condominium built in 1978 has 1 bedroom(s), 1 bath(s) and
+approximately 845 square feet of living area. Rooms include master
+bedroom. Features include air conditioning.</house_description>
+
+<agent_name>Gigi Winston</agent_name>
+<direct>202-333-4167</direct>
+<office>202-333-4167</office>
+<firm_name>Winston &amp; Winston Real Estate</firm_name>
+<phone>202-333-4167</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$174,500</list_price>
+<location>Washington, DC 20037</location>
+<mls>DC3105677</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Condominium</type>
+<square_feet>845 (approx)</square_feet>
+<year_built>1978</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

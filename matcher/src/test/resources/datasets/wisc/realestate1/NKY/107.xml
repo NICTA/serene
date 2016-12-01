@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>31 CATALPA COURT</house_location>
+<price>$266,621</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>(Attached,Side,Oversized)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>246845</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MIKE PARKER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>CUSTOM BUILT FULL RANCH *4 BEDRMS *LOWER LEVEL FINISHED *GAS
+HEAT*CATHEDRAL CEILING MASTER *GREAT RM W/GAS FIREPLACE *3 CAR SIDE
+ENTRY GAR *LOW TAXES CORNER LOT *CITY WATER &amp; SEWER*LOCATED IN
+ARBORWOOD *OPEN PLAN *CALL MIKE</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Stone</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>25</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>14 X 14</dimension><level>L</level></bedroom_4>
+<breakfast><dimension>10 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<family><dimension>18 X 15</dimension><level>L</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 4</dimension><level>1</level></laundry>
+<living><dimension>18 X 17</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>RT 18 WEST L ON EAST BEND FOR 1.6 MILES TURN
+INTO ARBORWOOD</directions>
+</house_listing>
+
+
+

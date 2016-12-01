@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lois Madry</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email>loism52@yahoo.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18352</id>
+<mls>9028759</mls>
+<house_location>4012 Sioux Ct (Ad # 251)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$94,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>Brick home on canal with retaining wall.  Unique split bedroom plan, large living area and screened porch.  Posssible owner financing.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Indian Harbor</sub-division>
+<approx_size_sqft>1672</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>75x138x86wx139</approx_lot_size>
+<year_built>1976</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<pool>Yes</pool>
+<waterfront>Yes</waterfront>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>On canal with retaining wall</item>
+<item>Large living area and screened porch</item>
+<item>Unique split bedroom plan</item>
+<item>inquire about #251</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

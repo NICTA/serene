@@ -1,0 +1,47 @@
+<house_listing>
+<firm_information>
+<name>Pud Owens Realty</name>
+<location>910 1/2 West Cameron Rockdale, TX 76567</location>
+<office>(512)446-4243</office>
+<toll_free></toll_free>
+<fax>(512)446-4273</fax>
+<email>rlaj@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Matula</name>
+<office>(512)446-4243</office>
+<fax>(512)446-4273</fax>
+<mobile>(512)446-1003</mobile>
+<email>rlaj@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19882</id>
+<mls></mls>
+<house_location>2204 Vogel
+Rockdale, TEXAS 76567</house_location>
+<county>Milam</county>
+<price>$63,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Must see this 3/2 Brick home. Has large living room, good sized bedrooms and a nice kitchen. Located in a great neighborhood. Priced to sell !!</house_description>
+
+<school_district>Rockdale</school_district>
+<sub-division>Westwood</sub-division>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

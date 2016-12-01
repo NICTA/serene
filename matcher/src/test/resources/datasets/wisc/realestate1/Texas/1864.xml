@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Paul R. (Ron) Emmert</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>TEXRELEST@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21013</id>
+<mls>15188</mls>
+<house_location>706 Flynn
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$89,021</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Excellent location, new neighborhood. This fine home offers a split bedroom plan &amp; a comfortable open floor design. The kitchen is in immaculate conditions.Oak cabinets dominate the kitchen area and bathrooms. Tile is seen thru-out the kitchen &amp; bath areas. Wall to wall carpet joins the grand living room to the adjoining bedrooms. Ceiling fans comforts the living room &amp; master bedroom. The master bathroom is designed for comfort &amp; is truely spacious. Will designed walk-in closets in all bedrooms. Utility room is inside. Home security system is available. This beautiful home awaits you</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>North Pointe</sub-division>
+<approx_size_sqft>1500</approx_size_sqft>
+<stories>1</stories>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Immaculate Kitchen</item>
+<item>Split Bedroom Plan</item>
+<item>Open floor design</item>
+<item>Very - very clean thru-out</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

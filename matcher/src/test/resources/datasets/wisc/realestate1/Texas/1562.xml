@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17643</id>
+<mls>14588</mls>
+<house_location>485 RESACA SHORES
+San Benito, TEXAS</house_location>
+<county>Cameron</county>
+<price>$149,500</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Are you ready for a great deal?  This lovely 5 bedroom home sits on a Resaca.  Now that is relaxing!  This big home is reduced for a quick sale.  In the newest exclusive neighbord in San Benito!Did I mention it is only 2 years young?  Take a look and then call me for your private showing.</house_description>
+
+<move-in_date>7/21/99</move-in_date>
+<school_district>San Benito</school_district>
+<sub-division>Southern Comfort</sub-division>
+<approx_size_sqft>2752</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Master Downstairs</item>
+<item>On the Resaca</item>
+<item>Newest Exlcusive Neigborhood</item>
+<item>Warm Fireplace</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

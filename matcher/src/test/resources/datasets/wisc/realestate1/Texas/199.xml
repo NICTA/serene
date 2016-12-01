@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>LEE EASTER, INC., REALTORS &amp; BUILDERS</name>
+<location>7504 Canna Cove Austin, TX 78759</location>
+<office>(512)255-1111</office>
+<toll_free>(800)680-6648</toll_free>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carol Ann Pevehouse</name>
+<office></office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>7179</id>
+<mls>470970</mls>
+<house_location>1903 Steamboat Springs Cove
+Austin, TEXAS 78746</house_location>
+<county>Travis</county>
+<price>$399,900</price>
+<bedrooms>33</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Motivated seller!  This is a beauty!  Classy!!  View of the city--master suite is better than 4 SEASONS.  All bedrooms have private baths.  Marble, tile, wood floors, 3 fireplaces.  Quality construction, entertainers delight.</house_description>
+
+<school_district>Eanes</school_district>
+<sub-division>Beecave Woods</sub-division>
+<approx_size_sqft>4036</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>99 x 140</approx_lot_size>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>3</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Fabulous city view from pool &amp; upper story!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

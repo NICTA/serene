@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>122 HIGH</house_location>
+<price>$87,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249646</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>MARGIE EDWARDS</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>LARGE LIVING ROOM, COUNTRY KITCHEN, 2 BEDROOMS ON 1ST, 1 LARGE BEDROOM
+ON 2ND FLOOR. NEW WINDOWS, LARGE YARD WITH PLENTY OF ROOM FOR GARDEN.
+NEW ROOF</house_description>
+<construction>Alum</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>31 X 8</dimension><level>2</level></bedroom_3>
+<family><dimension>15 X 11</dimension><level>1</level></family>
+<kitchen><dimension>18 X 11</dimension><level>1</level></kitchen>
+<living><dimension>19 X 16</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>I-75 SOUTH TO WILLIAMSTOWN EXIT TO L ON MAIN TO
+L ON HIGH</directions>
+</house_listing>
+
+
+

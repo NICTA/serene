@@ -1,0 +1,10 @@
+CityOfBaltimore
+  - only downloaded first 3 pages
+
+
+Use wget to crawl:
+
+wget -r -l1 -H -e robots=off -np -A csv,DOWNLOAD -E --content-disposition http://catalog.data.gov/organization/city-of-baton-rouge  &> log.txt
+
+
+wget -r -l1 -H -e robots=off -np -A csv -E --content-disposition -nd http://catalog.data.gov/organization/city-of-baton-rouge

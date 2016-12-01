@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Gracious 2nd floor unit, beautifully maintained, updated kitchen,
+large family room, ornamental fireplace in living room, nice street
+garage, monthly fee includes heat, hot water, taxes, lawn care &amp; trash
+removal. W&amp;d owned by association.</house_description>
+
+<agent_name>Nancy Martone</agent_name>
+<office>757-623-2382</office>
+<firm_name>Nancy Chandler Associates Inc.</firm_name>
+<phone>757-623-2382</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$65,000</list_price>
+<location>Norfolk, VA 23505</location>
+<mls>9933452</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Townhouse/Condo</type>
+<style>Apartment</style>
+<year_built>1966</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas, Radiator</heating>
+<fireplace>No</fireplace>
+<location>Corner</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Ceiling Fan(s), Garage Door Opener, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

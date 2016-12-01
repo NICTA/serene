@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1925 has 2
+bedroom(s), 1 bath(s) , 1 car garage and approximately 981 square feet
+of living area. Rooms include dining room, living room, master
+bedroom. Features include patio, fireplace.</house_description>
+
+<agent_name>Rex Downing</agent_name>
+<direct>619-925-7924</direct>
+<office>619-296-9055</office>
+<firm_name>One Source Realty/Better Homes One Source Realty/Better Homes</firm_name>
+<phone>619-296-9055</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$115,000</list_price>
+<location>San Diego, CA 92116</location>
+<mls>99 6022042</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>981 (approx)</square_feet>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Wall Unit</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

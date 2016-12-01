@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1985 has 3 bedroom(s), 4 full
+bath(s)/1 half bath(s) , 3 car garage. Rooms include dining room,
+family room, master bedroom. Features include view, private pool,
+private spa, patio, fireplace, air conditioning, skylights.</house_description>
+
+<agent_name>Gary Todd</agent_name>
+<office>602-997-7324</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>602-997-7324</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$784,500</list_price>
+<location>Phoenix, AZ 85028</location>
+<mls>1451090</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>4(full) 1(half)</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>24,001-35,000</lot_size>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Multi Zoned, Natural Gas</heating>
+<fireplace>Family Room, Gas logs, Master Bedroom</fireplace>
+<patio>Covered, Deck</patio>
+<pool>Diving, Heated</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Room, Cathedral/Vaulted Ceilings, CeilingFan(s), Central Vacuum, Dishwasher, Eat In Kitchen, Garage DoorOpener, Great Room, Intercom System, Microwave, Pantry, Skylights,Trash Compacter, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

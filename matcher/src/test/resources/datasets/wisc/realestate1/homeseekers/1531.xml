@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1970 has 3 bedroom(s), 4 bath(s) and
+approximately 1778 square feet of living area.</house_description>
+
+<agent_name>Al Christner</agent_name>
+<direct>759-2222</direct>
+<office>303-759-2222</office>
+<firm_name>A Better Way Realty</firm_name>
+<phone>303-759-2222</phone>
+<fax>303-759-0308</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$234,950</list_price>
+<location>3821 S Harlan St</location>
+<neighborhood>Bear Valley Heights</neighborhood>
+<mls>385178</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<square_feet>1778 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

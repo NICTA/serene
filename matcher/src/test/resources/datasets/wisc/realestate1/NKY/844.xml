@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>320 TIMBER RIDGE</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WILDER</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>247684</mls>
+<house_type>Condominium</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>RICHARD HUBBARD</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>3RD FL CONDO 2/CATHEDRAL CEILINGS, EQUIPPED KIT,WASHER &amp; DRYER
+INCLUDED. MSTR SUITE W/WALK-IN CLOSET &amp; SHOWER. CARPETS JUST CLEANED.
+READY TO MOVE IN. IMMEDIATE OCCUPANCY.</house_description>
+<construction>Brick</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Ceramic</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>condo</lot_dimensions>
+<condo_level>3</condo_level>
+<hoa_fee>103</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>3</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>3</level></bath_2>
+<dining><dimension>10 X 8</dimension><level>3</level></dining>
+<kitchen><dimension>10 X 7</dimension><level>3</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>3</level></laundry>
+<living><dimension>15 X 14</dimension><level>3</level></living>
+<master><dimension>16 X 11</dimension><level>3</level></master>
+
+<directions>471N TO FT THOMAS/SOUTHGATE.LT TO LT ON
+MOOCK,LT ON BENTWOOD,LT ON TIMBER RIDGE</directions>
+</house_listing>
+
+
+

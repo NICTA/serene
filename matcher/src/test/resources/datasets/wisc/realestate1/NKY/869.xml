@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>16 STURBRIDGE</house_location>
+<price>$193,500</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>COLD SPRING</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249496</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>JOHN W DETZEL</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>4 BEDROOMS, 2 CAR GARAGE, FORMAL DINING ROOM, 2.5 BA, FAMILY ROOM WITH
+WBFP, MANY UPGRADES-THE BRADFORD MODEL.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80x165</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 9</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>9 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 12</dimension><level>1</level></dining>
+<family><dimension>18 X 12</dimension><level>1</level></family>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>14 X 14</dimension><level>2</level></master>
+
+<directions>US 27 SOUTH RT ON STURBRIDGE</directions>
+</house_listing>
+
+
+

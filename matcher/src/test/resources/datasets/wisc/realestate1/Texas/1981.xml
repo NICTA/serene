@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Duffy&amp; LaRoe-REALTORS</name>
+<location>4505 Hwy. 6 North Houston, TX 77084</location>
+<office>(281)463-1141</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)463-2184</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>GRIFFIN JOAN</name>
+<office>(281)463-1141</office>
+<fax>(281)463-2184</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>13823</id>
+<mls>187888</mls>
+<house_location>18326 WILSTONE
+Houston, TEXAS 77084</house_location>
+<county>Harris</county>
+<price>$209,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>FANTASTIC NEW ORLEANS FRENCH TRADITIONAL ON A CORNER LOT. OVER 3800SQ.FT. (PER HCAD).  IT HAS  4 BEDROOMS, 3 -1/2 BATHS, 3 CAR ATTACHED GARAGE. THERE IS A LARGE GAMEROOM UP WITH BUILT-INS, STUDY DOWN, AND A HUGE WALK-IN PANTRY. EXTRA ROOM IS A DARK ROOM (SINK  REMAINS). THERE IS A LARGE STORAGE CLOSET UPSTAIRS, ALSO. RECENT UPDATES INCLUDE HOT WATER HEATER, A/C &amp; HEAT, DISHWASHER, MICROWAVE. ALARM SYSTEM. STORAGE GALORE. WALK OUT THE BACK DOOR TO A BEAUTIFULLY LANDSCAPED BACKYARD WITH A GREAT DECK.</house_description>
+
+<school_district>Cy-fair</school_district>
+<sub-division>Deerfield Village</sub-division>
+<approx_size_sqft>3881</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>8820</approx_lot_size>
+<year_built>1983</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+<item>CORNER LOT</item>
+<item>3-CAR GARAGE</item>
+<item>LARGE UPSTAIRS GAMEROOM</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Patsy Barnett</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20537</id>
+<mls>9120234</mls>
+<house_location>9021 W. FM 4 (Ad # 554)
+Godley, TEXAS 76044</house_location>
+<county>Johnson</county>
+<price>$152,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This brand new home features Austin cut stone, large living area &amp; split bedroom arrangement.  Wonderful view!  Country living only minutes away from Fort Worth, Cleburne, Acton, Cresson &amp; Granbury.  Judy Tinney is co-listing agent.</house_description>
+
+<school_district>Godley</school_district>
+<approx_size_sqft>1852</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>6.08</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>New Home - Austin Cut Stone</item>
+<item>6.08 Acresof Country Living</item>
+<item>Wonderful View</item>
+<item>Ad # 554</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Jones</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email>lajones777@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18262</id>
+<mls>9081437</mls>
+<house_location>3820 BIGLEAF
+Fort Worth, TEXAS 76137</house_location>
+<county>Tarrant</county>
+<price>$82,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>SUMMERFIELDS... CORNER LOT. CHAIN LINK FENCE WITH COVERED DECK. 3/2/2. SHOWCASE HOME. COMPUTER HUTCH IN BEDROOM. CEILING FANS. OPEN CONCEPT. HARDWOOD LOOK-ALIKE. SIDING WARRANTY TRANSFERRABLE. 1 YEAR HOME WARRANTY. WON#sq#T LAST LONG!</house_description>
+
+<school_district>Keller Isd</school_district>
+<sub-division>Summerfields</sub-division>
+<stories>1</stories>
+<year_built>1985</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Seller offer one-year home warranty.</item>
+<item>Roof less than two years young.</item>
+<item>Showcase home, hardwood look-a-likes.</item>
+<item>Siding warranty transferrable.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

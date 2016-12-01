@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Robin Taylor</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)229-6683</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>17971</id>
+<mls>9086034</mls>
+<house_location>805 Shady Court
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$129,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>THIS ONE OF A KIND HOME HAS MANY FEATURES UNIQUE TO IT.  THE REAL CEDAR WALLS IN THE LIVING AREA AND FIREPLACE ARE JUST ONE TO THE FEATURES.  THE MASTER BEDROOM UPSTAIRS HAS A BALCONY.  THE YARD IS CROSS-FENCED WITHLARGE TREES.  THE STORAGE BUILDING WITH ELECTRIC IS 16x14.  THIS HOME MAY BE LEASED AT $1300.00 PER MONTH.SOME REPAIRS ARE NEEDED ON THIS HOME.</house_description>
+
+<school_district>Joshua I S D</school_district>
+<sub-division>Whispering Oaks</sub-division>
+<approx_size_sqft>1841</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>0.97</approx_acres>
+<year_built>1982</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>WBFP</item>
+<item>REAL CEDAR WALLS IN LIVING ROOM</item>
+<item>GAMEROOM</item>
+<item>SPLIT BEDROOMS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

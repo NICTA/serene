@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level condominium built in 1944 has 1 bedroom(s), 1 bath(s) and
+approximately 763 square feet of living area. Rooms include master
+bedroom. Features include air conditioning.</house_description>
+
+<agent_name>Vincent Hurteau</agent_name>
+<direct>202-667-1800</direct>
+<office>202-966-0019</office>
+<firm_name>Continental Properties, Ltd.</firm_name>
+<phone>202-966-0019</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$132,000</list_price>
+<location>Washington, DC 20008</location>
+<mls>DC3123949</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Condominium</type>
+<square_feet>763 (approx)</square_feet>
+<year_built>1944</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

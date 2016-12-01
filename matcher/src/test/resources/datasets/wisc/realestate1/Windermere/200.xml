@@ -1,0 +1,34 @@
+<house_listing>
+<price>$39,990</price>
+<mls_id_number>162597</mls_id_number>
+<city>WINSTON</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>810</sqft>
+<year_built>1947</year_built>
+<heat>Gas Under Floor</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.23        Acres</lot_size>
+<lot_description>10X100</lot_description>
+<fireplace>0</fireplace>
+<taxes>$437</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>RV-Park,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>MCGOVERN</elementary>
+<middle_school>WINSTON</middle_school>
+<high_school>DOUGLAS</high_school>
+</schools>
+
+</house_listing>
+
+
+

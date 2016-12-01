@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debbie Moran</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>Debbie@c21rpp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21361</id>
+<mls>9129135</mls>
+<house_location>303 E. College
+Grandview, TEXAS 76050</house_location>
+<county>Johnson</county>
+<price>$47,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This beautiful new construction features metal framing and tin roof. Home also has nice open concept with a very spacious den. Come settle down in this great home.</house_description>
+
+<school_district>1</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1000</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>under 1/2 acre</approx_lot_size>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Cece Hurst</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<email>cece@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21122</id>
+<mls>519554</mls>
+<house_location>195 Wainee Dr.
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$220,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Here's your dream house! Nestled in the pines of Tahitian Village, this two story home has a foyer, 2 living areas, formal dining, high ceilings, fireplace, 3 bedrooms, 2.5 baths, incredible front and pack porches and a huge deck. There's plenty of room inside with over 2600sf, great built-ins, lots of storage, and privacy for everyone. Located on .75 acre lot with community ammenities. Hurry!</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Tahitian Village</sub-division>
+<approx_size_sqft>2600</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>.75ac</approx_lot_size>
+<approx_acres>0.75</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>2600+sf Two-story Home</item>
+<item>.75 Acre Wooded Lot</item>
+<item>Lots of Privacy</item>
+<item>Lots of Storage</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

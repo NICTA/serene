@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>910 BAKER</house_location>
+<price>$35,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>250341</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>BUTCH MAGNER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* LARGE 2 STORY HOME BEING SOLD 'AS IS' * * ADDITIONAL LOTS AVAILABLE
+* CALL LISTING AGENT FOR DETAILS *</house_description>
+<construction>Shingle</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Dummy,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>16 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>16 X 15</dimension><level>2</level></master>
+
+<directions>12TH ST EXIT TO L ON PIKE TO R ON LEWIS TO R ON
+BAKER</directions>
+</house_listing>
+
+
+

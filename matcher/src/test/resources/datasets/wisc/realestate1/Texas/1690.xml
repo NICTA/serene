@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>MURLENE WARE</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<voice_mail>(713)814-6112</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11613</id>
+<mls>161688</mls>
+<house_location>5312 WINDING BROOK
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$77,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>NEWER BRICK HOME IN BRIARGLEN, OPEN FLOOR PLAN WITH SPLIT BEDROOMS, GREAT FOR THAT FIRST TIME HOME BUYER OR RETIREE. JUST THE RIGHT SIZE YARD NOT TOO BIG NOR TOO LITTLE.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Briarglen</sub-division>
+<approx_size_sqft>1470</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>70X150</approx_lot_size>
+<year_built>1996</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>LIKE NEW CONDITION</item>
+<item>SPLIT BEDROOM PLAN</item>
+<item>BRICK</item>
+<item>CLOSE TO SCHOOL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home has 5 bedroom(s), 4 full bath(s)/1 half
+bath(s) . Rooms include dining room, master bedroom. Features include
+view, patio, fireplace.</house_description>
+
+<agent_name>Sandra Baldwin</agent_name>
+<office>602-954-6888</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>602-954-6888</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$1,550,000</list_price>
+<location>Phoenix, AZ 85018</location>
+<mls>1390613</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4(full) 1(half)</baths>
+<type>Single Family</type>
+<style>Spanish</style>
+<lot_size>2 TO 4.9 AC</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<patio>Covered, Deck</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Spanish Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

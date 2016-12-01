@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>30 MEADOWBROOK</house_location>
+<price>$156,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>HEBRON</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>250059</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>REBECCA BRANDT</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>MADISON BY STEVE CURLEY CONSTRUCTION. 1ST FLOOR LAUNDRY, CERAMIC
+ENTRANCE &amp; KITCHEN FLOOR, BACK PORCH, CDS, GARDEN TUB/SHOWER IN
+MASTER, ISLAND KITCHEN</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65 X 125</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 11</dimension><level>1</level></kitchen>
+<living><dimension>22 X 16</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+
+<directions>275 N EXIT 7A HEBRON N ON 237 ABOUT 2 MI R ON
+DEER CREEK, L ON MEADOWBROOK</directions>
+</house_listing>
+
+
+

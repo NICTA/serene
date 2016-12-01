@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium built in 1940 has 1 bedroom(s), 2 bath(s) and
+approximately 720 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Marco Giancola</agent_name>
+<direct>996-2755</direct>
+<office>531-2299</office>
+<firm_name>Newstar Rlty &amp; Dev
+Lic. Real Estate Broker</firm_name>
+<phone>531-2299</phone>
+<fax>305-531-3147</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$86,000</list_price>
+<location>1605 Lenox Av #1605-3</location>
+<neighborhood>Lincoln Road Villas Condo</neighborhood>
+<mls>M748911</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>720 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Wall Unit</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

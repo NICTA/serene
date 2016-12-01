@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>5606 TAYLOR MILL</house_location>
+<price>$350,000</price>
+<rooms>13</rooms>
+<bedrooms>5</bedrooms>
+<baths>3-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>6 Cars (Builtin,Detached,Oversized)</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250009</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 363-9900</firm_phone>
+<agent>ANN COOPER</agent>
+<agent_phone>(606) 363-9900</agent_phone>
+<house_description>LARGE RANCH - 4000 SQUARE FT LIVING AREA. NOTE: VIEW OF LICKING RIVER
+VALLEY. ALSO NEW CITY OF TAYLOR MILL PARK NEAR. THIS BRICK HOME SETS
+ON ACR ES + WOODS. GREAT SET-BACK FROM STATE ROUTE #16. MUST SEE TO
+APPRECIATE.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>Irrg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$****</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>1</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>16 X 10</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>10 X 10</dimension><level>1</level></bedroom_4>
+<bedroom_5><dimension>14 X 11</dimension><level>L</level></bedroom_5>
+<dining><dimension>22 X 12</dimension><level>1</level></dining>
+<family><dimension>23 X 12</dimension><level></level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 8</dimension><level></level></laundry>
+<living><dimension>21 X 13</dimension><level>1</level></living>
+<master><dimension>20 X 12</dimension><level>1</level></master>
+<study><dimension>11 X 10</dimension><level></level></study>
+
+<directions>I275 TAYLOR MILL EXIT SOUTH 3 MILES ON RIGHT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>416 LICKING ST.</house_location>
+<price>$44,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>2 Cars (Detached,Side)</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>244747</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GOLD SERVICES</firm>
+<firm_phone>(606) 344-9700</firm_phone>
+<agent>WILLIAM HAUSER</agent>
+<agent_phone>(606) 344-9700</agent_phone>
+<house_description>SUBJECT WAS CAUGHT IN THE FLOOD BUT HAS BEEN MOSTLY REHABBED NEWER:
+WATER HEATER, CENTRAL AIR, GAS FURNACE, THERMAL PANE WINDOWS 20X30
+DETACHED GARAGE HOUSE IS READY TO BE MOVE INTO BEING SOLD IN AS
+IS/WHERE IS CONDIT</house_description>
+<construction>Other</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 12</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>15 X 13</dimension><level>1</level></kitchen>
+<living><dimension>17 X 14</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>SOUTH ON US 27 LEFT ON KY. 22 RIGHT ON LICKING
+ST.TO 416 LICKING ST.</directions>
+</house_listing>
+
+
+

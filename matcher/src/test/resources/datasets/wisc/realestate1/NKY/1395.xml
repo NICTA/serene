@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>702 ST. JOSEPH LN</house_location>
+<price>$119,900</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>PARK HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247660</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>GLORIA JOHNS</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* NEW KITCHEN * SOLID WOOD DOORS * NEW CARPET &amp; BASEBOARD * LOWER
+LEVEL HAS SHOWER &amp; COMMODE PLUS LARGE FAMILY RM * WITHIN MINUTES TO
+CINTI &amp; AIRPORT * WALK TO COV CATH, NOTRE DAME OR ST. AGNES * IN HEART
+OF PARK HILLS *</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50X225</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 14</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 12</dimension><level>2</level></bedroom_4>
+<family><dimension>24 X 12</dimension><level>L</level></family>
+<kitchen><dimension>17 X 12</dimension><level>1</level></kitchen>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 10</dimension><level>1</level></master>
+
+<directions>DIXIE HWY TO R ON ST. JOSEPH</directions>
+</house_listing>
+
+
+

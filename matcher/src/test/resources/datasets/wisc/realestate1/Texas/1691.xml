@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>SHELLY WHEATLEY</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19642</id>
+<mls>87325</mls>
+<house_location>Barry Construction
+Copperas Cove, TEXAS 76522</house_location>
+<county>Lampasas</county>
+<price>$93,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautiful homes under construction by Barry Construction.  Featuring 4 bedrooms, two baths, two car garage on almost 1 acre.  Located just minutes from town.  Call today for your personal viewing.</house_description>
+
+<school_district>Lampassas</school_district>
+<sub-division>Cedar Creek</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>1610</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1 acre</approx_lot_size>
+<approx_acres>1</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

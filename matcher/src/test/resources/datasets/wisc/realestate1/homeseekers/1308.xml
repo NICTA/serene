@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This townhouse built in 1998 has 2 bedroom(s), 2 full bath(s)/1 half
+bath(s) , 2 car garage. Rooms include dining room, master bedroom.
+Features include view, patio, skylights, storage space.</house_description>
+
+<agent_name>Terri Remias</agent_name>
+<office>480-874-5389</office>
+<firm_name>Delight Realty And Investments</firm_name>
+<phone>480-874-5389</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$171,500</list_price>
+<location>Phoenix, AZ 85021</location>
+<mls>1444837</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Townhouse</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<location>Cul-de-sac</location>
+<patio>Covered</patio>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Dishwasher, Garage Door Opener,Kitchen Island, Microwave, Pantry, Skylights, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

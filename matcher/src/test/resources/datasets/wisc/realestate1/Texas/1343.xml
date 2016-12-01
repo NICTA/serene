@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maureen Black</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)228-6659</mobile>
+<email>estladymb@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17327</id>
+<mls>9072365</mls>
+<house_location>200 CREEKWOOD LANE
+Fort Worth, TEXAS 76134</house_location>
+<county>Tarrant</county>
+<price>$74,999</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LARGE CORNER LOT, WITH NICE TREES, KID'S FORT IN YARD.  COSY BRICK FIREPLACE, VAULTED CEILINGS, BAY WINDOW LOVESEAT IN BREAKFAST ROOM, AND WALK-IN CEDAR CLOSETS.  ATTIC FAN AND LOW UTILITY BILLSADD TO THIS HOME.  GARAGE ALSO HAS A WORKBENCH.</house_description>
+
+<school_district>Fort Worth I S D</school_district>
+<sub-division>Southbrook Addition</sub-division>
+<approx_size_sqft>1405</approx_size_sqft>
+<stories>1</stories>
+<year_built>1987</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>WBFP</item>
+<item>SMOKE DETECTOR</item>
+<item>ENERGY EFFICIENT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

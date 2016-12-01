@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Patti Shields</name>
+<office>(512)347-9639</office>
+<fax>(512)327-1965</fax>
+<voice_mail>(512)833-3594</voice_mail>
+<mobile>(512)413-8544</mobile>
+<email>patti@austinluxury.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20933</id>
+<mls>526294</mls>
+<house_location>9321 Knoll Crest Loop
+Austin, TEXAS 78759</house_location>
+<county>Travis</county>
+<price>$229,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Open With Many Windows! Large Owners Suite With Garden Tub! Island Kitchen! Indoor Laundry! Lots Of Storage! Fabulous Views.  Latticed Enclosed Spa! Stereo System!</house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>Great Hills Vii A</sub-division>
+<stories>2</stories>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Open With Many Windows!</item>
+<item>Large Owners Suite with Garden Tub!</item>
+<item>Island Kitchen! Indoor Laundry!</item>
+<item>Lots of Storage! Fabulous Views!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

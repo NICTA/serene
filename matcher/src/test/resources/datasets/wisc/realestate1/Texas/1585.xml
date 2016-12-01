@@ -1,0 +1,45 @@
+<house_listing>
+<firm_information>
+<name>Pud Owens Realty</name>
+<location>910 1/2 West Cameron Rockdale, TX 76567</location>
+<office>(512)446-4243</office>
+<toll_free></toll_free>
+<fax>(512)446-4273</fax>
+<email>rlaj@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Matula</name>
+<office>(512)446-4243</office>
+<fax>(512)446-4273</fax>
+<mobile>(512)446-1003</mobile>
+<email>rlaj@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15532</id>
+<mls></mls>
+<house_location>210 Cherry Ln
+Rockdale, TEXAS 76567</house_location>
+<county>Milam</county>
+<price>$45,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>This 4BR 2 Bath home has a nice location, close to everything. some of the features are: Large Family Room, Large Laundry Room, Fireplace. Affordable!</house_description>
+
+<school_district>Rockdale</school_district>
+<sub-division>Summit</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,898 @@
+CATEGORY,ID,VENDORNAME,WEBSITE,ADDRESS,ADDRESS2,CITY,STATE,ZIP,TELEPHONE,CONTACT,CONTACTEMA,TYPED,CAMERAICON,BOROUGH,BCODE,HOUSENUM,STREETNAME
+Hotels,421,The Carlton Madison Avenue,http://www.carltonhotelny.com,88 Madison Avenue,,New York,NY,10016,(212) 532-4100,Jill Lieblein,jlieblein@carltonhotelny.com,,,Manhattan,1,88,MADISON AVENUE
+Hotels,422,The Chelsea Hotel,http://www.hotelchelsea.com,222 West 23rd Street,,New York,NY,10011,(212) 243-3700,Arnold Tamasar,atamasar@hotelchelsea.com,,yes,Manhattan,1,222,WEST 23 STREET
+Hotels,423,The Empire Hotel,http://www.empirehotelnyc.com,44 West 63rd Street,,New York,NY,10023,(212) 765-4201,Robert Turner,robert@empirehotelnyc.com,,yes,Manhattan,1,44,WEST 63 STREET
+Hotels,424,The Franklin Hotel,http://www.franklinhotel.com,164 East 87th Street,,New York,NY,10128,(212) 369-1000,Tomas Montalvo,tmontalvo@franklinhotel.com,,,Manhattan,1,164,EAST 87 STREET
+Hotels,425,The Helmsley Middletowne Hotel,http://www.helmsleyhotels.com,148 East 48th Street,,New York,NY,10017,(212) 755-3000 x6743,Lorenz Henry,Mhsales@helmsleyhotels.com,,,Manhattan,1,148,EAST 48 STREET
+Hotels,426,The Iroquois New York,http://www.iroquoisny.com,49 West 44th Street,,New York,NY,10036,(212) 453-4003,Alicia Turula,aturula@iroquoisny.com,,,Manhattan,1,49,WEST 44 STREET
+Hotels,427,The Lombardy,http://www.lombardyhotel.com,111 East 56th Street,,New York,NY,10022,(212) 753-8600 x4029,Werner Hoefer,whoefer@lombardyhotel.com,,,Manhattan,1,111,EAST 56 STREET
+Hotels,428,The London NYC,http://www.thelondonnyc.com,151 West 54th Street,,New York,NY,10019,(212) 307-5000,Andrea Amico,aamico@luxuryresorts.com,,yes,Manhattan,1,151,WEST 54 STREET
+Hotels,429,The Mansfield Hotel,http://www.mansfieldhotel.com,12 West 44th Street,,New York,NY,10036,(212) 277-8700,Laura Tsoumas,laura@mansfieldhotel.com,,,Manhattan,1,12,WEST 44 STREET
+Hotels,430,The Martinique,http://www.martiniqueonbroadway.com,49 West 32nd Street,,New York,NY,10001,(212) 277-2647,Lynn Chan,lchan@themartinique.com,,,Manhattan,1,49,WEST 32 STREET
+Hotels,431,The Melrose Hotel New York,http://www.melrosehotel.com,140 East 63rd Street,,New York,NY,10021,(212) 715-6978,Esther Barbosa,no email,,,Manhattan,1,140,EAST 63 STREET
+Hotels,432,The Muse Hotel,http://www.themusehotel.com,130 West 46th Street,,New York,NY,10036,(212) 485-2708,Lucy Shulman,lucy.shulman@themusehotel.com,,yes,Manhattan,1,130,WEST 46 STREET
+Hotels,433,The Phillips Club,http://www.phillipsclub.com,155 West 66th Street,,New York,NY,10023,(212) 835-8800,Angela Pettersen,no email,,,Manhattan,1,155,WEST 66 STREET
+Hotels,434,The Ritz Carlton,http://www.ritzcarlton.com,50 Central Park South,,New York,NY,10019,(212) 521-6197,Barbara A. McCann,Barbara.Mccann@ritzcarlton.com,,,Manhattan,1,50,CENTRAL PARK SOUTH
+Hotels,435,The Ritz Carlton-Battery Park,http://www.ritzcarlton.com,Two West Street,,New York,NY,10004,(917) 790-2414,Barbara A. McCann,Barbara.Mccann@ritzcarlton.com,,,Manhattan,1,2,WEST STREET
+Hotels,436,The Roosevelt Hotel,http://www.theroosevelthotel.com,45 East 45th Street,,New York,NY,10017,(212) 885-6019,Christa Treitmeier,no email,,,Manhattan,1,45,EAST 45 STREET
+Hotels,437,The Time Hotel,http://www.thetimeny.com,224 West 49th Street,,New York,NY,10019,(212) 320-2928,Brendan McNamara,bmcnamara@dreamny.com,,,Manhattan,1,224,WEST 49 STREET
+Hotels,438,The Warwick New York,http://www.warwickhotels.com,65 West 54th Street,,New York,NY,10019,(212) 314-7727,Ruban Schwarte,no email,,,Manhattan,1,65,WEST 54 STREET
+Hotels,439,Thompson LES,http://www.thompsonhotels.com,190 Allen Street,,New York,NY,10022,(212) 460-5300,Christine Alicea,salesLES@thompsonhotels.com,,,Manhattan,1,190,ALLEN STREET
+Hotels,440,Tribeca Grand Hotel,http://www.tribecagrand.com,2 Avenue of the Americas,,New York,NY,10013,(212) 519-6641,Renay Sobel,no email,,,Manhattan,1,2,AVENUE OF THE AMERICAS
+Hotels,441,Tudor Hotel at the United Nations,http://www.tudorhotelny.com,304 East 42nd Street,,New York,NY,10017,(212) 297-3519,Alicia Nunez,anunez@tudorhotelny.com,,,Manhattan,1,304,EAST 42 STREET
+Hotels,442,W New York,http://www.whotels.com,541 Lexington Avenue,,New York,NY,10022,(212) 592-8873,Rochelle Wilson,rochelle.wilson@whotels.com,,yes,Manhattan,1,541,LEXINGTON AVENUE
+Hotels,443,W New York - The Court,http://www.whotels.com,130 East 39th Street,,New York,NY,10016,(212) 592-8873,Rochelle Wilson,rochelle.wilson@whotels.com,,yes,Manhattan,1,130,EAST 39 STREET
+Hotels,444,W New York - The Tuscany,http://www.whotels.com,120 East 39th Street,,New York,NY,10016,(212) 592-8873,Rochelle Wilson,rochelle.wilson@whotels.com,,yes,Manhattan,1,120,EAST 39 STREET
+Hotels,445,W New York - Times Square,http://www.whotels.com,1567 Broadway,,New York,NY,10036,(212) 592-8873,Rochelle Wilson,rochelle.wilson@whotels.com,,yes,Manhattan,1,1567,BROADWAY
+Hotels,446,W New York - Union Square,http://www.whotels.com,201 Park Avenue South,,New York,NY,10003,(212) 592-8873,Rochelle Wilson,rochelle.wilson@whotels.com,,yes,Manhattan,1,201,PARK AVENUE SOUTH
+Hotels,447,Waldorf Astoria,http://www.waldorf.com,301 Park Avenue,,New York,NY,10028,(212) 872-1209,Anton Moore,anton.moore@hilton.com,,yes,Manhattan,1,301,PARK AVENUE
+Hotels,448,Wall Street District Hotel,http://www.wallstreetdistrict.com,15 Gold Street,,New York,NY,10038,(212) 232-7700,Christine Anderson,canderson@wallstreetdistrict.com,,,Manhattan,1,15,GOLD STREET
+Hotels,449,WJ Hotel,http://www.wjhotel.com,318 West 51st Street,,New York,NY,10036,(212) 277-8312,Rachelle Schwarzenberg,rachelle@wjhotel.com,,,Manhattan,1,318,WEST 51 STREET
+Hotels,450,"The Pierre, A Taj Hotel",http://www.tajhotels.com/pierre,2 East 61st Street,,New York,NY,10065,(212) 838-8000,Peter D'Elia,Peter.Delia@tajhotels.com,,yes,Manhattan,1,2,EAST 61 STREET
+Hotels,451,The St. Regis New York,http://www.stregis.com,2 East 55th Street,,New York,NY,10022,(212) 350-8600,Kristen Albert,kristen.albert@stregis.com,,yes,Manhattan,1,2,EAST 55 STREET
+Hotels,452,Distrikt Hotel,http://www.distrikthotel.com,342 West 40th Street,,New York,NY,10018,(917) 923-2960,Lisa Younes-Powers,lyounespowers@distrikthotel.com,,yes,Manhattan,1,342,WEST 40 STREET
+Hotels,453,Hudson Hotel,http://www.hudsonhotel.com,356 West 58th Street,,New York,NY,10019,(212) 554-6106,Jennifer Kaplan,jennifer.kaplan@morganshotelgroup.com,,,Manhattan,1,356,WEST 58 STREET
+Hotels,454,New York Marriott Marquis,http://www.nymarriottmarquis.com,1535 Broadway,,New York,NY,10036,(212) 704-8737,Judy Tang,judy.tang@marriott.com,,,Manhattan,1,1535,BROADWAY
+Hotels,455,Ramada Plaza,http://www.ramada.com,37-10 114th Street,LaGuardia Airport,Corona,NY,11368,(718) 651-2100,Sales Director,no email,,,Queens,4,37-10,114 STREET
+Hotels,456,The Clarion Hotel at LaGuardia Airport,http://www.clarionlaguardia.com,9400 Ditmars Blvd.,,East Elmherst,NY,11369,(718) 335-1200,David Wang,no email,,,Queens,4,94-00,DITMARS BOULEVARD
+Hotels,457,Crowne Plaza at LaGuardia Airport,http://www.cplaguardia.com/,104-04 Ditmars Blvd,,East Elmhurst,NY,11369,(718) 269-1724,Kathryn Pettit,kpettit@cplga.com,,,Queens,4,104-04,DITMARS BOULEVARD
+Hotels,458,Hampton Inns and Suites-LaGuardia Airport New York,http://www.hilton.com,102-40 Ditmars Blvd,,East Elmhurst,NY,11369,(718) 269-1724,Kathleen Pettit,kpettit@cplga.com,,,Queens,4,102-40,DITMARS BOULEVARD
+Hotels,459,New York LaGuardia Airport Marriot,http://www.nycmarriott.com,90-10 Grand Central Parkway,,East Elmhurst,NY,11396,(212) 704-8737,Judy Tang,judy.tang@marriott.com,,,Queens,4,90-10,GRAND CENTRAL PARKWAY
+Hotels,460,Wyndham Garden,http://www.wyndhamnewyorkhotels.com,100-15 Ditmars Blvd.,Hotel at LaGuardia Airport,East Elmhurst,NY,11369,(718) 565-3351,Denise DiFranco,no email,,,Queens,4,100-15,DITMARS BOULEVARD
+Hotels,461,Ramada Plaza JFK,http://www.ramada.com,"JFK Airport, Building #144",,Jamaica,NY,11430,(718) 995-9000,Rene Pereira,no email,,,Queens,4,,JFK AIRPORT BUILDING #144
+Hotels,462,Fairfield Inn by Marriott New York Long Island City/Manhattan View,http://www.fairfieldinnnyc.com,52-34 Van Dam Street,,Long Island City,NY,11101,(718) 389-7700,Jeffrey Reich-Hale,jeffrey.r.hale@marriott.com,,yes,Queens,4,52-34,VAN DAM STREET
+Hotels,463,Doubletree Hotel JFK Airport,http://www.jfkairport.doubletree.com,135-40 140th Street,,Queens,NY,11436,(718) 322-5569,,,,,Queens,4,135-40,140 STREET
+Hotels,464,Staten Island Hotel,http://www.statenislandhotel.com,1415 Richmond Avenue,,Staten Island,NY,10314,(718) 698-5000 x1746,April Fodor,no email,,,Staten Island,5,1415,RICHMOND AVENUE
+Jewelry,477,195 Dragon Jewelry,,195 Canal Street,,New York,NY,10013,(212) 226-4166,Harole Ha,no email,,,Manhattan,1,195,CANAL STREET
+Jewelry,478,Cassioppia,http://www.andromeda-nyc.com,38 West 8th Street,,New York,NY,10011,(212) 979-9652,Bianca,???,,,Manhattan,1,38,WEST 8 STREET
+Jewelry,479,C'est Magnifique,http://www.cest-magnifique.com,120 Macdougal Street,,New York,NY,10012,(212) 475-1613,Alfred Arbrizio,extremearts@optonline.net,,,Manhattan,1,120,MACDOUGAL STREET
+Food & Restaurants,951,Baja Fresh,http://www.bajafresh.com,465 Lexington Avenue,,New York,NY,10017,(212) 599-2252,Eddie Chen,edchen@bajafreshnyc.com,,yes,Manhattan,1,465,LEXINGTON AVENUE
+Food & Restaurants,952,Baja Fresh,http://www.bajafresh.com,1441 Broadway,,New York,NY,10018,(212) 764-9084,Eddie Chen,edchen@bajafreshnyc.com,,yes,Manhattan,1,1441,BROADWAY
+"Camera, Grip & Lighting",953,"Black Dog Jib Productions, Inc",http://www.BlackDogJib.com,211-10 73rd Avenue,Suite 2A,Bayside,NY,11364,(718) 974-4770,Adam Troeger,JibRentals@BlackDogJib.com,,,Queens,4,211-10,73 AVENUE
+"Moving, Storage & Trailers",956,California New York Express Moving,http://www.moveeast.com,1160 Worthen Street,,Bronx,NY,10474,(888) 680-7200,Roni Klatner,cs@moveeast.com,,yes,Bronx,2,1160,WORTHEN STREET
+Casting & Talent,957,Casting Solutions,http://www.castingsolutions.tv,365 West 25th Street,#17G,New York,NY,10001,(212) 875-7573,Liz Ortiz-Mackes,castsolutions@gmail.com,,,Manhattan,1,365,WEST 25 STREET
+Jewelry,480,Christi Sothers Fine Jewelry and Art,http://www.christisothers.com,109 East 42nd Street,,New York,NY,10017,(212) 697-2674,Steven Levy,sothers@aol.com,,yes,Manhattan,1,109,EAST 42 STREET
+Jewelry,481,Foo Sing Jewelry,http://www.cathayjewelrynyc.com,162 Canal Street,,New York,NY,10013,(212) 406-2116,Christa Lan / John Chiu (Manager),no email,,,Manhattan,1,162,CANAL STREET
+Jewelry,482,Greenwich Jewelers,http://www.greenwichjewelers.com,64 Trinity Place,,New York,NY,10006,(212) 964-7592,Jennifer Gandia,info@greenwichjewelers.com,,,Manhattan,1,64,TRINITY PLACE
+Jewelry,483,Jack of Diamonds Jewelers Internatioal,http://www.jackofdiamondsintl.com,52 West 47th Street,,New York,NY,10036,(212) 869-7272,Jack Grant,no email,,,Manhattan,1,52,WEST 47 STREET
+Jewelry,484,Jean Silversmith's,http://www.jeansilversmiths.com,16 West 45th Street,,New York,NY,10036,(212) 575-0727,David Shaw,jeans@jeanssilversmiths.com,,,Manhattan,1,16,WEST 45 STREET
+Jewelry,485,Le Roi Manhattan / Le Roi Inc.,http://www.leroimanhattan.com,80 Rivington Street,,New York,NY,10002,(212) 253-6402,Tammy Wilkinson,tammy@leroi.com,,yes,Manhattan,1,80,RIVINGTON STREET
+Location & Rental Space,487,Studio 889,http://www.studio889.org,889 Hunts Point Avenue,,Bronx,NY,10474,(718) 620-2824,Alejandra C. Delfin,alejandrac.delfin@gmail.com,,yes,Bronx,2,889,HUNTS POINT AVENUE
+Location & Rental Space,488,The Paradise Theater,http://www.theparadisetheater.com,2413 Grand Concourse,,Bronx,NY,10468,(646) 660-2537,Luz Mejia,luzjmejia@verizon.net; infoparadisetheater@gmail.com,,yes,Bronx,2,2413,GRAND CONCOURSE
+Location & Rental Space,489,3rd Ward,http://www.3rdwardbrooklyn.org,195 Morgan Avenue,,Brooklyn,NY,11237,(718) 497-7010,Mary Ellen DeVaux,mdevaux@3rdwardbrooklyn.org,,yes,Brooklyn,3,195,MORGAN AVENUE
+Location & Rental Space,490,Bond Street Studio,http://www.bondstreetstudio.com,235 Bond Street,,Brooklyn,NY,11217,(718) 858-2238,Robert DiScalfani,info@bondstreetstudio.com,,yes,Brooklyn,3,235,BOND STREET
+Location & Rental Space,491,"Context Studios, Inc.",http://www.contextnyc.com,1 North 12th Street,Box B7,Brooklyn,NY,11211,(718) 384-8300,Ed Montgomery,ed@contextnyc.com,,yes,Brooklyn,3,1,NORTH 12 STREET
+Location & Rental Space,492,"Eastern Effects, Inc.",http://www.easterneffects.com,210 Douglass Street,,Brooklyn,NY,11217,(718) 855-1197,Allan Ross,easterneffectsar@aol.com,,yes,Brooklyn,3,210,DOUGLASS STREET
+Location & Rental Space,493,Factory Studios,http://www.factorybrooklyn.com,79 Lorimer Street,1st Floor,Brooklyn,NY,11206,(718) 690-3980,Carrie White,carrie@factorybrooklyn.com,,yes,Brooklyn,3,79,LORIMER STREET
+Location & Rental Space,494,Galapagos Art Space,http://www.galapagosartspace.com,16 Main Street,,Brooklyn,NY,11201,(718) 222-8500,Hilary Joyce,hilary@galapagosartspace.com,,yes,Brooklyn,3,16,MAIN STREET
+Location & Rental Space,496,Music Hall of Williamsburg,http://www.musichallofwilliamsburg.com,66 North Sixth Street,,Brooklyn,NY,11211,(718) 486-5400,Margaret Hannigan,margaret@bowerypresents.com,,yes,Brooklyn,3,66,NORTH SIXTH STREET
+Location & Rental Space,497,Remarkable Movers,http://www.ebaymover.com,1531 East 17th Street,,Brooklyn,NY,11230,(718) 627-9292,Philippe Naim,Remarkable770@yahoo.com,,,Brooklyn,3,1531,EAST 17 STREET
+Location & Rental Space,498,The Nut Roaster Studio,http://www.brooklynfireproof.com,120 Ingraham Street,,Brooklyn,NY,11237,(718) 456-7570,Kevin Hayden,Kevin@brooklynfireproof.com,,yes,Brooklyn,3,120,INGRAHAM STREET
+Location & Rental Space,499,1887 Townhouse,http://www.1887townhouse.com,59 West 85th Street,,New York,NY,10024,(212) 877-5400,Dan Starer,dstarer@1887townhouse.com,,yes,Manhattan,1,59,WEST 85 STREET
+Location & Rental Space,500,49 Grove LLC,http://www.49grovenyc.com,49 Grove Street,,New York,NY,10014,(212) 727-1100,Eric Biberman,ebiberman@yahoo.com,,yes,Manhattan,1,49,GROVE STREET
+Location & Rental Space,501,"Ardea Arts, Inc.",,463 Broome Street,1st Floor,New York,NY,10013,(212) 431-7039,,,,yes,Manhattan,1,463,BROOME STREET
+Location & Rental Space,502,Astor Center,http://Rentals.AstorCenterNYC.com,399 Lafayette Street,(corner of East 4th Street),New York,NY,10003,(212) 763-0800,Kathleen Laux,klaux@AstorCenterNYC.com,,yes,Manhattan,1,399,LAFAYETTE STREET
+Location & Rental Space,503,Atlantic Video,http://www.atlanticvideo.com,305 West 34th Street,,New York,NY,10001,(646) 274-1030,Lauri Tamney,Ltamney@atlanticvideo.com,,yes,Manhattan,1,305,WEST 34 STREET
+Location & Rental Space,504,Manhattan neighborhood Network,http://www.mnn.org,537 West 59th Street,,New York,NY,10019,(212) 757-2670x307,Rahim Brown,rahimlevel@gmail.com,,yes,Manhattan,1,537,WEST 59 STREET
+Location & Rental Space,505,HAAS/crea Corp. (The Shooting Kitchen),http://www.shootingkitchen.com,13 Laight Street,#12,New York,NY,10013,(917) 262-0816,Alex Bonamarte,alex@shootingkitchen.com,,yes,Manhattan,1,13,LAIGHT STREET
+Location & Rental Space,506,The Educational Alliance,http://www.edalliance.org,197 East Broadway,,New York,NY,11101,(646) 395-4245,Dana Weissman,dana_weissman@edalliance.org,,yes,Manhattan,1,197,EAST BROADWAY
+Location & Rental Space,507,Bowery Ballroom,http://www.boweryballroom.com,6 Delancy Street,,New York,NY,10002,(212) 533-2111,Margaret Hannigan,margaret@bowerypresents.com,,yes,Manhattan,1,6,DELANCY STREET
+Location & Rental Space,508,Bryant Park Restoration Corporation,http://www.bryantpark.org,500 Fifth Avenue,Suite 1120,New York,NY,10110,(917) 438-5119,"Maureen Andary, Events Associate",events@urbanmgt.com,,yes,Manhattan,1,500,FIFTH AVENUE
+Location & Rental Space,509,Chelsea Piers Event Sales,http://www.chelseapiers.com/eventsales,"Pier 62, Suite 300",,New York,NY,10011,(212) 336-6777,Deb Navins,levyde@chelseapiers.com,,yes,Manhattan,1,,PIER 62
+Location & Rental Space,510,Church of St. Mary the Virgin,http://www.stmvirgin.org,145 West 46th Street,,New York,NY,10036,(212) 869-5830,Sandra Schubert,sschubert@stmvnyc.org,,yes,Manhattan,1,145,WEST 46 STREET
+Location & Rental Space,511,Cipriani,http://cipriani.com/cipriani/Locs/23rd.htm,200 Fifth Avenue,,New York,NY,10010,(212) 755-0900,James Munz,,,yes,Manhattan,1,200,FIFTH AVENUE
+Location & Rental Space,512,City Stage,http://www.citystage.com,435 West 19th Street,,New York,NY,10011,(212) 627-3400,Brian Coles,brian@citystage.com,,yes,Manhattan,1,435,WEST 19 STREET
+Location & Rental Space,514,Broad Street Ballroom,http://www.broadstreetballroom.com,41 Broad Street,,New York,NY,10004,(646) 624-2524,Vanessa Badia,vanessa@broadstreetballroom.com,,yes,Manhattan,1,41,BROAD STREET
+Location & Rental Space,515,"Gary's Loft, Inc.",http://www.garysloft.com,28 West 36th Street,,New York,NY,10018,(917) 837-2420,Gary Handel,Gary@garysloft.com,,yes,Manhattan,1,28,WEST 36 STREET
+Location & Rental Space,516,Greenwich Street Productions,,443 Greenwich Street,,New York,NY,10013,(212) 219-7500,Roger Paradiso/ Michael Tadross,greenwichstprod@aol.com,,yes,Manhattan,1,443,GREENWICH STREET
+Location & Rental Space,518,Jefferson Market Garden,http://www.jeffersonmarketgarden.org,70 A Greenwich Avenue,PMB 372,New York,NY,10011,(212) 255-6096,Virginia Giordano,vgpnyc@aol.com,,yes,Manhattan,1,70A,GREENWICH AVENUE
+Location & Rental Space,519,Kenny's Castaways,http://www.kennyscastaways.com,157 Bleecker Street,,New York,NY,10012,(212) 979-9762 / 0104,Maria Kenny,info@kennyscastaways.net,,yes,Manhattan,1,157,BLEECKER STREET
+Location & Rental Space,521,Mercury Lounge,http://www.mercuryloungenyc.com,217 East Houston Street,,New York,NY,10002,(212) 260-4700,Margaret Hannigan,margaret@bowerypresents.com,,yes,Manhattan,1,217,EAST HOUSTON STREET
+Location & Rental Space,522,Michelson Studio/M Studio,http://www.michelsonstudio.com,163 Bank Street,,New York,NY,10014,(212) 633-1111,Eric Michelson,no email,,yes,Manhattan,1,163,BANK STREET
+Event Planning & Marketing,959,DinePrivate LLC,http://www.dineprivate.com,22 West 21st Street,Suite 402,New York,NY,10010,(212) 375-9495,Jeff Zalaznick,jeff@dineprivate.com,,,Manhattan,1,22,WEST 21 STREET
+Location & Rental Space,523,Otto Kahn and James Burden Mansion,http://www.burdenkahnmansion.org,1-7 East 91st Street,,New York,NY,10035,(212) 722-5470,Rose/Kathleen Lydil,events@burdenkahnmansion.org,,yes,Manhattan,1,1,EAST 91 STREET
+Location & Rental Space,524,PDS Equities,,562 4th Street,,New York,NY,11215,(718) 768-6726,David Sweeny,jdavidsweeny@verizon.net,,yes,Brooklyn,1,562,4 STREET
+Location & Rental Space,525,PMP Studios,http://www.pmpstudios.com,320 West 37th Street,Suite 1502,New York,NY,11018,(212) 563-2047,Karen Neasi / John Stavros,pmpstudios@yahoo.com,,yes,Manhattan,1,320,WEST 37 STREET
+Location & Rental Space,526,Pochron Studios,http://www.pochronstudios.com,20 Jay Street,Suite 1100,New York,NY,11201,(718) 237-1332,Galina Kurlat,galina@pochronstudios.com,,yes,Manhattan,1,20,JAY STREET
+Location & Rental Space,527,Porky¿s NYC,http://www.porkysnyc.com,55 West 21st Street,,New York,NY,10010,(212) 675-8007,ToniAnn Di Re,ToniAnn@porkysnyc.com,,,Manhattan,1,55,WEST 21 STREET
+Location & Rental Space,528,Renaissant Arts,http://www.soholuxuryloft.com,81 Greene Street,#5,New York,NY,10012,(212) 966-6535,Warren Sulatycky,warren@renaissantarts.org,,yes,Manhattan,1,81,GREENE STREET
+Location & Rental Space,529,Ripley - Grier Studios,http://www.ripleygrier.com,520 8th Avenue,16th Floor,New York,NY,10018,(212) 799-5433,Stas Iavorski,stas@ripleygrier.com,,yes,Manhattan,1,520,8 AVENUE
+Location & Rental Space,530,"Seaport Marketplace, LLC",http://www.southstreetseaport.com,19 Fulton Street,,New York,NY,10038,(212) 732-8257,Joan Cooney,joan.cooney@generalgrowth.com,,yes,Manhattan,1,19,FULTON STREET
+Location & Rental Space,531,Shop Studios,http://www.shopstudios.tv,442 West 49th Street,,New York,NY,10019,(212) 245-6145,Jacques Rosas,jacques@shopstudios.com,,yes,Manhattan,1,442,WEST 49 STREET
+Location & Rental Space,532,Snapple Theater and Rehearsal Studios,http://www.stcrehearsalstudios.com,1627 Broadway,The Snapple Theater Center (@50th st),New York,NY,10019,(212) 921-7928,Catherine Russell,postarvis@aol.com,,yes,Manhattan,1,1627,BROADWAY
+Location & Rental Space,533,SoHoSoleil Studio Loft Locations,http://www.sohosoleil.com,136 Grand Street,5 WF,New York,NY,10013,(212) 431-8824,Wendy Friedman,info@sohosoleil.com,,yes,Manhattan,1,136,GRAND STREET
+Location & Rental Space,534,Solar One,http://www.solar1.org,2420 FDR Dr. Service Rd E,,New York,NY,10010,(212) 505-6050,Christopher Collins,chris@solar1.org,,yes,Manhattan,1,2420,FDR DRIVE SERVICE ROAD EAST
+Location & Rental Space,535,Spanish Theatre Repertory CO. Ltd. (aka Repertorio Espanol),http://www.repertorio.org,138 East 27th Street,,New York,NY,10016,(212) 225-9950,Allison Astor Vargas,aav@repertorio.org,,,Manhattan,1,138,EAST 27 STREET
+Location & Rental Space,536,T New York City,http://www.tnewyorkcity.com,240 West 52nd Street,,New York,NY,10019,(212) 489-7656,Lisa Spudic,lisa@tnewyorkcity.com,,yes,Manhattan,1,240,WEST 52 STREET
+Location & Rental Space,538,The 40/40 Club,http://www.the4040club.com,6 West 25th Street,,New York,NY,10010,(212) 832-4040,"Laura Olivera, Sheldon Robinson",laura@the4040club.com; sheldon@the4040club.com,,yes,Manhattan,1,6,WEST 25 STREET
+Location & Rental Space,540,The Hip Hop Culture Center in Harlem,http://www.gacny.com,2309 Frederick Douglass Blvd,2nd Floor,New York,NY,10027,(212) 926-9691,"Curtis Sherrod, Farrah Rios, Paul Christie",hiphopculturectr@aol.com,,yes,Manhattan,1,2309,FREDERICK DOUGLASS BOULEVARD
+Location & Rental Space,541,The Players Theater,http://www.theplayerstheatre.com,115 MacDougal Street,,New York,NY,10012,(212) 475-1449,,,,yes,Manhattan,1,115,MACDOUGAL STREET
+Location & Rental Space,542,The Soho Loft,http://www.thesoholoft.com,85 Fifth Avenue,7th Floor,New York,NY,10003,(646) 695-6441,Gillian Myerberg,gillian@thesoholoft.com,,yes,Manhattan,1,85,5 AVENUE
+Location & Rental Space,543,The Space,http://www.thespacenyc.net,300 West 43rd Street,Suite 402,New York,NY,10036,(212) 594-0140 x15,John Knauss,info@thespacenyc.net,,yes,Manhattan,1,300,WEST 43 STREET
+"Music, Audio & Sound",1003,Dreamhire LLC,http://www.dreamhire.com,36-36 33rd Street,Suite 102,Long Island City,NY,11106,(212) 691-5544,Chris Dunn,chris.dunn@dreamhire.com,,,Queens,4,36-36,33 STREET
+Location & Rental Space,544,Top of the Rock Observation Deck,http://www.topoftherocknyc.com,30 Rockefeller Plaza,,New York,NY,10112,(212) 698-200,Alexia Macintosh or Brooke Smy,amacinto@topoftherocknyc.com; bsmy@tishmanspeyer.com,,yes,Manhattan,1,30,ROCKEFELLER PLAZA
+Location & Rental Space,546,Tribeca Screening Room,http://www.tribecafilm.com,375 Greenwich Street,,New York,NY,10013,(212) 941-2000,Beth Kirch,contactus@tribecafilm.com,,yes,Manhattan,1,375,GREENWICH STREET
+Location & Rental Space,547,Webster Hall,http://www.websterhall.com,125 East 11th Street,,New York,NY,10003,(212) 353-1600,Hal Gould,Halgould@earthlink.net,,yes,Manhattan,1,125,EAST 11 STREET
+Location & Rental Space,548,West36 Lofts,http://www.west36nyc.com/,447 West 36 Sreet,,New York,NY,10018,(212) 239-0414,Daniel greenspan,talktous@sewtrue.com,,yes,Manhattan,1,447,WEST 36 STREET
+Location & Rental Space,549,World-Wide Business Centres,http://www.wwbcn.com,575 Madison Avenue,,New York,NY,10022,(212) 605-0205,Ed Bungert,ed@wwbcn.com,,yes,Manhattan,1,575,MADISON AVENUE
+Location & Rental Space,550,Terminal 5,http://www.eventsitenyc.com,610 West 56th Street,,New York,NY,10019,(212) 665-3832,Fred Seidler,fred@terminal5nyc.com,,,Manhattan,1,610,WEST 56 STREET
+"Moving, Storage & Trailers",960,Divine Moving & Storage Ltd,http://www.divinemoving.com,550 Barry Street,,Bronx,NY,10474,(212) 244-4011,David Cohen,david@divinemoving.com,,yes,Bronx,2,550,BARRY STREET
+Location & Rental Space,551,For Your Imagination,http://www.foryourimagination.com/studio,22 West 27th Street,6th Floor,New York,NY,10001,(866) 475-6908 x709,Paul Kontonis,paul@foryourimagination.com,,yes,Manhattan,1,22,WEST 27 STREET
+Location & Rental Space,552,The Aurora Gallery,http://www.theauroragallery.com,35-18 37th Street,2nd Floor,Long Island City,NY,11101,(347) 288-6870,Naeema Arrastia,theauroragallery@gmail.com,,yes,Queens,4,35-18,37 STREET
+Location & Rental Space,554,Clinton Diner,,56-26 Maspeth Avenue,,Maspeth,NY,11378,(718) 894-1566,Nick Diamantis,NYDiner@aol.com,,yes,Queens,4,56-26,MASPETH AVENUE
+Location & Rental Space,555,St. George Theatre / Richmond Dance Ensemble Inc.,http://www.stgeorgetheatre.com,35 Hyatt Street,,Staten Island,NY,10301,(718) 442-2900,Luanne Sorrentino,stgeorgethea@aol.com,,yes,Staten Island,5,35,HYATT STREET
+Location & Rental Space,556,The Original Butler Manor Historic House on Staten Island,http://spacesmsn.com/edwardkitka1963,485 Butler Boulevard,,Staten Island,NY,10309,(718) 948-6732,Elizabeth Cosgriff,edwardkitka@msn.com,,yes,Staten Island,5,485,BUTLER BOULEVARD
+Location & Rental Space,557,Dumbo Arts center,http://www.dumboartscenter.org/spacerental.html,30 Washington Street,,Brooklyn,NY,11201,(718) 694-0831,Amanda Friedman,gallery@dumboartscenter.org,,yes,Brooklyn,3,30,WASHINGTON STREET
+Props,1004,A&S Chair Rental,http://www.aschairrental.com,132 Franklin Avenue,,Brooklyn,NY,11205,(718) 387-3494,Lea Klein,lea@aschairrental.com,,,Brooklyn,3,132,FRANKLIN AVENUE
+Hotels,1005,Gild Hall - A Thompson Hotel,http://www.thompsonhotels.com,15 Gold Street,,New York,NY,10038,(212) 232-7700,Robin A. Kennovin,rkennovin@thompsonhotels.com,,yes,Manhattan,1,15,GOLD STREET
+Hotels,1006,6 Columbus - A Thompson Hotel,http://www.thompsonhotels.com,6 Columbus Circle,,New York,NY,10019,(212) 204-3000,Lisa Caceres,lcaceres@thompsonhotels.com,,yes,Manhattan,1,6,COLUMBUS CIRCLE
+Hotels,1007,The James New York,http://www.jameshotels.com,27 Grand Street,,New York,NY,10013,(212) 465-2000,Heather Balcom,hbalcom@jameshotels.com,,yes,Manhattan,1,27,GRAND STREET
+Manufacturing & Supplies,558,Star Poly Bag Inc.,http://www.starpoly.com,94 North 13th Street,,Brooklyn,NY,11211,(718) 384-3130,Rachel Posen and Chaya Greenfeld,rachel@starpoly.com,,,Brooklyn,3,94,NORTH 13 STREET
+Manufacturing & Supplies,559,Atlas Materials & Packaging of NY,http://www.atlasmaterials.com,116 King Street,,New York,NY,11231,(718) 875-1162,John Cioffi,jc@atlasmaterials.com,,,Manhattan,1,116,KING STREET
+Manufacturing & Supplies,560,"Pathe Shipping Supplies Company, Inc.",http://www.pathesupplies.com,646 West 28th Street,,New York,NY,10001,(212) 239-2380,Barry Albalah,sales@pathesupplies.com,,,Manhattan,1,646,WEST 28 STREET
+Marine & Water Services,561,Fish NYC Inc.,http://www.fishnyc.com,4809 Avenue N,Suite 369,Brooklyn,NY,11234,(718) 629-3615,Roberta Jackson,roberta@fishnyc.com,,yes,Brooklyn,3,4809,AVENUE N
+Marine & Water Services,562,New York Water Taxi,http://www.nywatertaxi.com,499 Van Brunt Street,Section 8B,Brooklyn,NY,11231,(212) 742-1969,Xaiver Cobos,xaiver.cobos@nywater.com,,yes,Brooklyn,3,499,VAN BRUNT STREET
+Marine & Water Services,563,"Circle Line Harbor Cruises, LLC",http://www.circlelinedowntown.com,Pier 16,@ South Street,New York,NY,10004,(212) 809-0808,Kim Wright,Kwright@circlelineferry.com,,yes,Manhattan,1,,PIER 16
+Marine & Water Services,564,Classic Harbor Line,http://www.sail-nyc.com,Pier 62,Chelsea Piers,New York,NY,10011,(646) 336-5270,Capt. Sarah Greer,sarah.g@scaranoboat.com,,yes,Manhattan,1,,PIER 62
+Medical Services,573,Better Hearing & Vision,http://economybestvisionandhearing.blogspot.com,223 West 14th Street,,New York,NY,10011,(212) 243-4884,Edward Kent,no email,,,Manhattan,1,223,WEST 14 STREET
+Medical Services,574,DisRespectacles,http://www.disrespectacles.com,117 West Broadway,,New York,NY,10013,,Tim Fabozzi,adelphi88@aol.com,,yes,Manhattan,1,117,WEST BROADWAY
+Medical Services,575,DisRespectacles,http://www.disrespectacles.com,82 Christopher Street,,New York,NY,10014,(212) 741-9550,Tim Fabozzi,adelphi88@aol.com,,yes,Manhattan,1,82,CHRISTOPHER STREET
+Medical Services,576,Dr. Carmen Schuller,http://www.carmenschullerdds.com/,115 East 61st Street,,New York,NY,10021,(212) 826-6115,Carmen Schuller/Diana Santiago,cschuller@mindspring.com; wellness@carmenschullerdds.com,,,Manhattan,1,115,EAST 61 STREET
+Medical Services,577,Dr. Joseph Y. Bistricer,http://www.drjoeatsterlingeyes.com,794 Lexington Avenue,,New York,NY,10021,(212) 755-8927,Elizabeth,drbistricer@aol.com,,,Manhattan,1,794,LEXINGTON AVENUE
+Medical Services,578,Grand Central Optical,http://grandcentraloptical.com,Grand Central Terminal,and 369 Madison,New York,NY,10017,(212) 599-1220,Scott Stein,goptical@aol.com,,,Manhattan,1,,GRAND CENTRAL TERMINAL
+Medical Services,580,Park Avenue Laser Vision,http://www.iwant2020.com,333 Park Avenue South,,New York,NY,10010,(212) 741-2390,Missy,dr@iwant2020.com,,yes,Manhattan,1,333,PARK AVENUE SOUTH
+Medical Services,581,Royal Opticians Inc.,,453 Columbus Avenue,,New York,NY,10024,(212) 873-4499 / or Direct: (212) 935-2750,Dr. Andrew Fisher,sales@royalopticiansny.com,,,Manhattan,1,453,COLUMBUS AVENUE
+Medical Services,582,Travelers Medical Center/Urgent Care Center,http://www.productionshootdoctor.com,952 Fifth Avenue,Suite 1D,New York,NY,10021,(212) 737-1212,"Ronald A. Primas, M.D.",nyhums@pol.net,,yes,Manhattan,1,952,FIFTH AVENUE
+Medical Services,583,First Response Ambulance,,455 Bayview Avenue,,Inwood,NY,11096,(516) 239-1032 x102,Cindee Hirchler,cindee@firstresponseamb.com,,,New York State,6,455,BAYVIEW AVENUE
+Medical Services,584,"Hunter Ambulance, Inc.",http://www.hunterambulance.com,28 Sheridan Blvd.,,Inwood,NY,11096,(718) 372-0700,Wayne Rosner,dan@hunterambulance.com,,,New York State,6,28,SHERIDAN BOULVARD
+Medical Services,585,Acupuncture Health Services,http://www.moxamia.com,86-15A 65th Drive,,Rego Park,NY,11374,(718) 482-1927,"Rosemarie A. Caligiuri, L. Ac",info@moxamia.com,,,Queens,4,86-15A,65 DRIVE
+"Moving, Storage & Trailers",586,All Around Moving Services Company,http://www.allaroundmoving.com,802 East 140th Street,,Bronx,NY,10454,(212) 781-4118,Smadar Dayan,info@allaroundmoving.com,,,Bronx,2,802,EAST 140 STREET
+"Moving, Storage & Trailers",587,"Dahill Moving & Storage Co., Inc.",http://www.dahillmoving.com,600 Coney Island Avenue,,Brooklyn,NY,11218,(800) 765-0905,Bruce D. Keeler,b_keeler@dahillmoving.com,,,Brooklyn,3,600,CONEY ISLAND AVENUE
+"Moving, Storage & Trailers",588,DB Schenker,http://www.dbschenkerusa.com,150 Albany Avenue,,Freeport,NY,11520,(516) 377-3138,Adrian Lopez,adrian.lopez@dbschenker.com,,,Long Island,6,150,ALBANY AVENUE
+"Moving, Storage & Trailers",589,Chelsea Mini Storage,http://www.chelsea-mini-storage.com,224 12th Avenue,,New york,NY,10001,(212) 564-7735,Stephen Mallon,smallon@chelsea-mini-storage.com,,,Manhattan,1,224,12 AVENUE
+"Moving, Storage & Trailers",590,Manhattan Mini Storage,http://www.manhattanministorage.com,520 Eighth Avenue,19th Floor,New York,NY,10018,(800) STORAGE,Lenny Lazzarino,lennyl@edprop.com,,,Manhattan,1,520,8 AVENUE
+"Moving, Storage & Trailers",591,Moves LLC,http://www.movesllc.com,626 West 28th Street,,New York,NY,10001,(212) 695-0200,Chris Pachios,cpachios@movesllc.com,,,Manhattan,1,626,WEST 28 STREET
+"Moving, Storage & Trailers",592,Cassone Trailer and Container Company,http://www.cassone.com,1950 Lakeland Avenue,,Ronkonkoma,NY,11779,(631) 585-7800 / (800) 640-8844,Mary Bricher,mary@cassone.com,,,New York State,6,1950,LAKELAND AVENUE
+"Moving, Storage & Trailers",593,Citiwide Self Storage,http://www.citiwideselfstorage.com,45-55 Pearson Street,,Long Island City,NY,11101,(718) 482-0300,Zam Khan,citiwidemgr@amdmgmt.com,,yes,Queens,4,45-55,PEARSON STREET
+"Moving, Storage & Trailers",594,CRS-Corporate Relocation Systems Inc.,http://www.crsmove.com,64-54 Maurice Avenue,,Maspeth,NY,11378,(718) 424-6000,Michael Varoukas,Mvaroukas@verizon.net,,,Queens,4,64-54,MAURICE AVENUE
+"Museums, Galleries & Tours",595,Bronx Museum of the Arts,http://www.bronxmuseum.org,1040 Grand Concourse,,Bronx,NY,10456,(718) 681-6000,S. Solomon,ssolomon@bronxmuseum.org,,,Bronx,2,1040,GRAND CONCOURSE
+"Museums, Galleries & Tours",596,SusanSez NYC Walkabouts,http://www.susansez.com,555 Kappock Street,,Bronx,NY,10463,(917) 509-3111,Susan Birnbaum,susan.birnbaum2@verizon.net,,,Bronx,2,555,KAPPOCK STREET
+"Museums, Galleries & Tours",597,Brooklyn Historical Society,http://www.brooklynhistory.org,128 Pierrepont Street,,Brooklyn,NY,11201,"(718) 222-4111, ext. 226",Allison Auldridge,www.brooklynhistory.org,,yes,Brooklyn,3,128,PIERREPONT STREET
+"Museums, Galleries & Tours",598,Asia Society and Museum,http://www.asiasociety.org,725 Park Avenue,,New York,NY,10021,(212) 288-6400,Austin Rogers,arogers@asiasociety.org,,yes,Manhattan,1,725,PARK AVENUE
+"Museums, Galleries & Tours",599,El Museo del Barrio,http://www.elmuseo.org,1230 5th Avenue,,New York,NY,10029,(212) 831-7272,Mariana Salem - Rentals manager,Msalem@elmuseo.org,,yes,Manhattan,1,1230,5 AVENUE
+"Museums, Galleries & Tours",600,Casa Frela Gallery,http://www.casafrela.com,47 West 119th Street,,New York,NY,10026,(212) 722-8577,Lawrence Rodriguez,casafrela@runbox.com,,yes,Manhattan,1,47,WEST 119 STREET
+"Museums, Galleries & Tours",601,Children's Museum of the Arts,http://www.cmany.org,182 Lafayette Street,,New York,NY,10013,(212) 274-0986,"Anna Abdon-Grady, Assistant Director",aabdon-grady@cmany.org,,yes,Manhattan,1,182,LAFAYETTE STREET
+"Museums, Galleries & Tours",602,Enthusiastic Gourmet,http://www.enthusiasticgourmet.com,245 East 63rd Street,Apt 21D,New York,NY,10021,(646) 209-4724,Susan Rosenbaum,info@enthusiasticgourmet.com,,,Manhattan,1,245,EAST 63 STREET
+"Museums, Galleries & Tours",603,Exit Art,http://www.exitart.org,475 Tenth Avenue,,New York,NY,10018,(212) 966-7745,Toby Kress,toby@exitart.org,,,Manhattan,1,475,TENTH AVENUE
+"Museums, Galleries & Tours",604,"Family in New York, Inc.",http://www.familyinnewyork.com,244 Fifth Avenue,R289,New York,NY,10001,(646) 717-4700,Scott Piedmonte,scott@familyinnewyork.com,,,Manhattan,1,244,FIFTH AVENUE
+"Museums, Galleries & Tours",605,FDNY Fire Zone,http://www.fdnyfirezone.org,34 West 51st Street,,New York,NY,10020,(212) 698-4520,Ada T. Terry,terry@fdnyfirezone.org,,yes,Manhattan,1,34,WEST 51 STREET
+"Museums, Galleries & Tours",606,FusionArts Museum,http://www.artnet.com/fusionartsmuseum.html,57 Stanton Street,,New York,NY,10002,(212) 995-5290,Deborah Fries,deborah54@aol.com,,yes,Manhattan,1,57,STANTON STREET
+"Museums, Galleries & Tours",607,Harlem Hip Hop Tours,http://www.harlemhiphoptours.com,69 West 106th Street,#5B,New York,NY,10025,(212) 769-9047,Shannon White,shannon@h3tours.com,,yes,Manhattan,1,69,WEST 106 STREET
+"Museums, Galleries & Tours",609,Joyce Gold History Tours of NY,http://www.nyctours.com,141 West 17th Street,,New York,NY,10011,(212) 242-5762,Joyce Gold,nyctours@aol.com,,yes,Manhattan,1,141,WEST 17 STREET
+"Museums, Galleries & Tours",610,Madame Tussauds New York,http://www.nycwax.com,234 West 42nd Street,,New York,NY,10036,(212) 512-9600,Rosemary Preta,rosemary.preta@madametussaudsny.com,,,Manhattan,1,234,WEST 42 STREET
+"Museums, Galleries & Tours",611,Mount Vernon Hotel Museum & Garden,http://www.nvhm.org,421 East 61st Street,,New York,NY,10065,(212) 838-6878,Amanda Wheeler,a.wheeler@mvhm.org,,,Manhattan,1,421,EAST 61 STREET
+"Museums, Galleries & Tours",612,Museum of American Finance,http://www.financialhistory.org,28 Broadway,,New York,NY,10004,(212) 908-4110,Patricia Robin,probin@financialhistory.org,,,Manhattan,1,28,BROADWAY
+"Museums, Galleries & Tours",613,Museum of Jewish Heritage,http://www.mjhnyc.org,36 Battery Place,,New York,NY,10280,(646) 437-4200,,,,yes,Manhattan,1,36,BATTERY PLACE
+"Museums, Galleries & Tours",614,Museum of Modern Art,http://www.moma.org,11 West 53rd Street,,New York,NY,10019,(212) 708-9400,Peter Foley,Peter_foley@moma.org,,yes,Manhattan,1,11,WEST 53 STREET
+Production Company,753,Westchester HD,http://www.Westchesterhd.com,168 Vernon Avenue,,Yonkers,NY,10704,(914) 237-5794 ext 211,shawn Waugh,info@westchesterhd.com,,,New York State,6,168,VERNON AVENUE
+Production Company,754,hscusa.tv,http://www.hscusa.tv,19-69 Steinway Street,,Astoria,NY,11105,(718) 626-6226,Lisa Diebner,lisa@hscusa.tv,,yes,Queens,4,19-69,STEINWAY STREET
+Production Company,755,Frontin' Big Willies Entertainment,http://www.fbwent.com,135 26 Francis Lewis Boulevard,,Laurelton,NY,11413,(917) 751-6304,Tim Stacker,ptstacker@msn.com,,,Queens,4,135-26,FRANCIS LEWIS BOULEVARD
+Props,757,American Christmas,http://www.americanxmas.com,1135 Bronx River Avenue,,Bronx,NY,10472,(718) 402-9700,Robert Soloff,rsoloff@americanxmas.com,,,Bronx,2,1135,BRONX RIVER AVENUE
+Props,758,C&C Amusements Inc.,http://www.ccamusements.com,2516 Barnes Avenue,,Bronx,NY,10467,(718) 515-6753,John Elio,Det34squad@aol.com,,,Bronx,2,2516,BARNES AVENUE
+Props,759,Bridge Furniture & Props,http://www.bridgeprops.com,126 Lombardy Street,2nd Floor,Brooklyn,NY,11222,(718) 916-9706,Matt Hennessy,matt@bridgeprops.com,,,Brooklyn,3,126,LOMBARDY STREET
+Props,760,"Jauchem and Meeh, Inc.",http://www.jmfx.net,524 Sackett Street,,Brooklyn,NY,11217,(718) 875-0140,Bohdan Bushell,bohdan@jmfx.net,,yes,Brooklyn,3,524,SACKETT STREET
+Props,761,Jerard Studio Inc,http://www.jerardstudio.com/,481 Van Brunt Street,11D,Brooklyn,NY,11231,(718) 852-4128,Mary T. Creede,mary@jerardstudio.com,,,Brooklyn,3,481,VAN BRUNT STREET
+Props,762,New York Furniture & Home,http://www.ny-furniture.com,135 Lawrence Street,,Brooklyn,NY,11201,(718) 522-3004,,,,,Brooklyn,3,135,LAWRENCE STREET
+Props,763,Abracadabra Superstore,http://www.abracadabrasuperstore.com,19 West 21st Street,,New York,NY,10010,(212) 627-5194,Paul Blum,info@abracadabrasuperstore.com,,,Manhattan,1,19,WEST 21 STREET
+Props,764,ACE Banner/Flag and Graphics,http://www.acebanner.com,107 West 27th Street,,New York,NY,10001,(212) 620-9111,Leah Segarra,leah@acebanner.com,,yes,Manhattan,1,107,WEST 27 STREET
+Props,766,Altman Luggage,http://www.altmanluggage.com,135 Orchard Street,,New York,NY,10002,(212) 254-7275,Dan Bettinger,info@altmanluggage.com,,,Manhattan,1,135,ORCHARD STREET
+Props,767,Ambassador Luggage,http://www.ambassadorluggage.com,371 Madison Avenue,(btw. 45th and 46th),New York,NY,10017,(212) 972-0965,Saeed Zia,ambassadorluggage@hotmail.com,,yes,Manhattan,1,371,MADISON AVENUE
+Props,768,Art: ASAP,http://www.artasap.com,415 West 50th Street,,New York,NY,10019,(718) 402-9700,Jonathan Earle,jearle@artasap.com,,,Manhattan,1,415,WEST 50 STREET
+Props,769,"Centre Firearms Co., Inc.",,10 West 37th Street,,New York,NY,10018,(212) 244-4040,"Ed Leiter, Joe DeCunzo",centrefire@aol.com,,yes,Manhattan,1,10,WEST 37 STREET
+"Museums, Galleries & Tours",615,Museum of the City of New York,http://www.mcny.org,1220 Fifth Avenue,,New York,NY,10029,(212) 534-1672 ext. 3323,Regina Asborno,rasborno@mcny.org,,yes,Manhattan,1,1220,FIFTH AVENUE
+"Museums, Galleries & Tours",616,New York Historical Society,http://www.nyhistory.org,170 Central Park West,,New York,NY,10024,(212) 873-3400,Paul Brewer,pbrewer@nyhistory.org,,,Manhattan,1,170,CENTRAL PARK WEST
+"Museums, Galleries & Tours",617,On Location Tours,http://www.screentours.com,347 5th Avenue,Suite 602,New York,NY,10016,(212) 683-3516,Cathy Wilke,marketing@screentours.com,,,Manhattan,1,347,5 AVENUE
+"Museums, Galleries & Tours",618,PhotoTrek Tours,http://www.phototrektours.com,1619 3rd Avenue,Suite 11B,New York,NY,10128,(212) 410-2514,Marc Samuels,info@phototrektours.com,,,Manhattan,1,1619,3 AVENUE
+"Museums, Galleries & Tours",621,"Signature Tours, Inc.",,520 East 76th Street,,New York,NY,10021,(212) 517-4306,Mary Beth Stone,signatour@aol.com,,,Manhattan,1,520,EAST 76 STREET
+"Museums, Galleries & Tours",622,Solomon R. Guggenheim Museum,http://www.guggenheim.org,1071 Fifth Avenue,,New York,NY,10128,(212) 423-3500,Ashley Prymas,APrymas@guggenheim.org,,yes,Manhattan,1,1071,FIFTH AVENUE
+"Museums, Galleries & Tours",623,Striking Viking Story Pirates,http://www.storypirates.com,250 West 40th Street,,New York,NY,10018,(310) 880-4725,Benjamin Salke,benjamin@storypirates.com,,,Manhattan,1,250,WEST 40 STREET
+"Museums, Galleries & Tours",624,The New York City Police Museum,http://www.nycpolicemuseum.org,100 Old Slip,,New York,NY,10005,(212) 480-3100,Nancy Tran,ntran@nycpolicemuseum.org,,yes,Manhattan,1,100,OLD SLIP
+"Museums, Galleries & Tours",625,The Paley Center for Media,http://www.paleycenter.org,25 West 52nd Street,,New York,NY,10019,(212) 621-6600,Amy Douthett,adouthett@mtr.org,,yes,Manhattan,1,25,WEST 52 STREET
+"Museums, Galleries & Tours",626,"The West Harlem Art Fund, Inc.",http://www.myharlem.org,550 West 155th Street,,New York,NY,10032,(212) 694-8327,Savona Bailey-McClain,whaf155@verizon.net,,,Manhattan,1,550,WEST 155 STREET
+"Museums, Galleries & Tours",627,Walkin' Broadway,http://www.walkinbroadway.com,1619 Broadway,,New York,NY,10019,(212) 997-5004,Laurie Brown,info@walkinbroadway.com,,,Manhattan,1,1619,BROADWAY
+"Museums, Galleries & Tours",628,We Ate New York,http://www.weatenewyork.com,209 East 42nd Street,,New York,NY,10017,(917) 608-4235,Tony Recek,sales@weatenewyork.com,,,Manhattan,1,209,EAST 42 STREET
+"Museums, Galleries & Tours",629,Museum of the Moving Image,http://www.movingimage.us,3601 35th Avenue,,Astoria,NY,11106,(718) 784-0077,Tomoko Kawamoto,tkawamoto@movingimage.us,,,Queens,4,36-01,35 AVENUE
+"Museums, Galleries & Tours",630,Staten Island Zoo,http://www.statenislandzoo.org,614 Broadway,,Staten Island,NY,10310,(718) 442-3101,Mary Kain,marykain@aol.com,,yes,Staten Island,5,614,BROADWAY
+"Music, Audio & Sound",631,DJ Pro Audio,http://www.djproaudio.com,195 Morgan Avenue,,Brooklyn,NY,11237,(877) 357-7677,Irina Garmash,irene@djproaudio.,,,Brooklyn,3,195,MORGAN AVENUE
+"Music, Audio & Sound",632,"National Recording Supplies, Inc.",http://www.tapes.com,764 5th Avenue,,Brooklyn,NY,11232,(718) 369-8273,Ed Stern,estern@tapes.com,,yes,Brooklyn,3,764,5 AVENUE
+"Music, Audio & Sound",633,Rashid Music Sales Co. Inc.,http://www.rashid.com,155 Court Street,,Brooklyn,NY,11201,(718) 852-3295,Raymond Rashid,sales@rashid.com,,yes,Brooklyn,3,155,COURT STREET
+"Music, Audio & Sound",634,Triple Z Music,http://www.triplezmusic.com,20 Jay Street,Suite 306,Brooklyn,NY,11201,(718) 624-6300,Mary Ellen Bernard,tz@triplezmusic.com,,,Brooklyn,3,20,JAY STREET
+"Music, Audio & Sound",635,"ACM Music, Inc.",http://www.acmrecords.com,630 9th Avenue,"C/O Abacus Studio, Suite 1104",New York,NY,10036,(201) 796-0848 or (201) 637-0977,Eve Adams,eve@acmrecords.com,,,Manhattan,1,630,9 AVENUE
+"Music, Audio & Sound",636,Avatar Studios,http://www.avatarstudios.com,441 West 53rd Street,,New York,NY,10019,(212) 765-7500,Kirk Imamura,kirk@avatarstudios.net,,yes,Manhattan,1,441,WEST 53 STREET
+"Music, Audio & Sound",637,HSR/NY,http://www.hsrny.com,420 Lexington Avenue,Suite 1934,New York,NY,10170,(212) 687-4180,Zoe Schwartz,zoes@hsrny.com,,yes,Manhattan,1,420,LEXINGTON AVENUE
+"Music, Audio & Sound",638,"Trevi Music Productions, Inc",http://www.trevimusic.com,300 West 43rd Street,,New York,NY,10036,(212) 956-9390,Phil Fabrizio,trevi@optonline.net,,yes,Manhattan,1,300,WEST 43 STREET
+"Music, Audio & Sound",639,B-Train Sound,http://www.b-trainsound.com,601 West 26th Street,Suite 1341,New York,NY,10001,(516) 380-5947,Kevin O'Leary,kevin@b-trainsound.com,,,Manhattan,1,601,WEST 26 STREET
+"Music, Audio & Sound",640,"Gotham Sound and Communications, Inc.",http://www.gothamsound.com,330 West 38th Street,"Ground Floor, #105",New York,NY,10018,(212) 629-9430,Jared M. Silver,jareds@gothamsound.com,,,Manhattan,1,330,WEST 38 STREET
+"Music, Audio & Sound",641,Jim Flynn Rentals,http://www.jimflynnrentals.com,336 West 37th Street,Suite 540,New York,NY,10018,(212) 807-1800,,,,,Manhattan,1,336,WEST 37 STREET
+"Music, Audio & Sound",642,Ludlow Guitars,http://www.ludlowguitars.com,164 Ludlow Street,,New York,NY,10002,(212) 353-1775,Robert/Gary,ludlowguitars@gmail.com,,,Manhattan,1,164,LUDLOW STREET
+"Music, Audio & Sound",643,Skyview Sound,http://www.skyviewsound.com,315 West 39th Street,,New York,NY,10018,(212) 729-3333,Chris Guastelle,info@skyviewsound.com,,,Manhattan,1,315,WEST 39 STREET
+"Music, Audio & Sound",645,Sound Image NY,,16 West 46th Street,,New York,NY,10036,(212) 986-6445,Mark Barasch,ops@soundimageny.com,,yes,Manhattan,1,16,WEST 46 STREET
+"Music, Audio & Sound",646,Soundtrack/NY and Soundtrack Film/Television,http://www.soundtrackny.com,936 Broadway,,New York,NY,10010,(212) 402-1433,Syd Weiss,syd.weiss@soundtrackny.com,,yes,Manhattan,1,936,BROADWAY
+"Music, Audio & Sound",647,Uncle Steve Car Stereo & Pro Audio,,334 Canal Street,,New York,NY,10013,(212) 925-5185,Manny Beltron,unclestevecarstereo@yahoo.com,,yes,Manhattan,1,334,CANAL STREET
+"Music, Audio & Sound",648,Mixdown Recording Studio,http://www.mixdownstudio.com,168 Vernon Avenue,,Yonkers,NY,10704,(914) 237-5794 ext 213,Shawn Waugh,info@mixdownstudio.com,,yes,New York State,6,168,VERNON AVENUE
+"Music, Audio & Sound",650,"Sounds Big Productions, Inc",http://www.soundsbigproductions.com,57 Canon Drive,,Staten Island,NY,10314,(212) 920-4639,Andrew Kay,andrew@soundsbigproductions.com,,yes,Staten Island,5,57,CANON DRIVE
+"Music, Audio & Sound",651,"Btoven Music, LLC",http://www.btovenmusic.com/,245 West 55th Street,Suite 810,New York,NY,10019,(917) 749-0271,,,,,Manhattan,1,245,WEST 55 STREET
+Office Supplies & Services,652,"Long Island Carpet Cleaners, Inc.",http://www.licarpetcleaners.com,301 Norman Avenue,,Brooklyn,NY,11222,(718) 383-7000,Barry Swidler,bswidler@licarpetcleaners.com,,yes,Brooklyn,3,301,NORMAN AVENUE
+Office Supplies & Services,653,Toner Quest,http://www.tonerquest.com,666 East 3rd Street,Suite A,Brooklyn,NY,11218,(718) 854-1663,Sandra Fried,sandra@tonerquest.com,,,Brooklyn,3,666,EAST 3 STREET
+Office Supplies & Services,654,Yale Picture Frame and Moulding U.S.A. Corp.,http://www.yalepf.com,770 5th Avenue,,Brooklyn,NY,11232,(718) 788-6200,Jeff Minsky,jeff@yalepf.com,,,Brooklyn,3,770,5 AVENUE
+Office Supplies & Services,655,1-800 We Answer,http://www.weanswer.com,545 8th Avenue,,New York,NY,10018,(800) 932-6793,William Fisher,bill@weanswer.com,,,Manhattan,1,545,8 AVENUE
+Office Supplies & Services,656,ABC Office Essentials,http://www.abc-office-essentials.com,284 Madison Avenue,,New York,NY,10017,(212) 532-7771,Jeffrey Marks,jmarks@abc-office-essentials.com,,,Manhattan,1,284,MADISON AVENUE
+Office Supplies & Services,657,Accurate Printing and Graphics,http://www.accuprinting.com,250 West 57th Street,Suite 1230,New York,NY,10107,(212) 265-4304,Lani Doktori,lani@accuprinting.com,,,Manhattan,1,250,WEST 57 STREET
+Office Supplies & Services,658,Airline Stationery Company Inc.,http://www.airlineinc.com,284 Madison Avenue,,New York,NY,10017,(212) 532-7771,Jeffrey Marks,jmarks@airlineinc.com,,,Manhattan,1,284,MADISON AVENUE
+Office Supplies & Services,659,Arthur Brown & Bro Inc.,http://www.artbrown.com,2 West 46th Street,,New York,NY,10036,(212) 575-5555,Warren Brown,penshop@artbrown.com,,yes,Manhattan,1,2,WEST 46 STREET
+Office Supplies & Services,660,Best Home Services Ltd,http://www.thebesthomeservices.com,531 Main Street,Suite 1619,New York,NY,10044,(212) 688-6712,Mary E. Cavanaugh,besthomesvcs@aol.com,,,Manhattan,1,531,MAIN STREET
+Office Supplies & Services,661,MPH Courier Service,http://www.mphny.com,247 West 35th Street,,New York,NY,10001,(212) 239-1818,Garfield Grey,ggrey@mphny.com,,yes,Manhattan,1,247,WEST 35 STREET
+Software & Internet Services,662,"Bway.net, Inc.",http://www.bwaynet.inc,568 Broadway,Suite 404,New York,NY,10012,(212) 982-9800,Kate Lynch,info@bway.net,,,Manhattan,1,568,BROADWAY
+Office Supplies & Services,663,Digital Plus,http://www.digitalplus.com,160 Charles Street,Ground Fl.,New York,NY,10014,(212) 533-7224,Natasha Adams,natasha@digitalplus.com,,,Manhattan,1,160,CHARLES STREET
+Office Supplies & Services,664,"Elite Couriers, Inc.",http://www.newyorksbestkeptsecret.com,18 West 27th Street,,New York,NY,10001,(212) 696-4000,Sunny Rosenblum,elitecouriers@aol.com,,yes,Manhattan,1,18,WEST 27 STREET
+Office Supplies & Services,666,ID Cleaners & Carpeting Inc.,http://www.idcleaners.com,246 Fifth Avenue,Suite 304,New York,NY,10001,(212) 843-9464,Ms. Olee,olee@idcleaners.com,,yes,Manhattan,1,246,FIFTH AVENUE
+Food & Restaurants,1008,Village Pourhouse,http://www.villagepourhouse.com,366 West 46th Street,,New York,NY,10036,(212) 979-2337,Adam Solloway,adam@yourpartyplanning.com,,yes,Manhattan,1,366,WEST 46 STREET
+Office Supplies & Services,667,Jason Office Products Inc.,http://www.jasonoffice.com,140 West 31st Street,,New York,NY,10001,(212) 279-7455,Harriet Novatt,hnovatt@jasonoffice.com,,yes,Manhattan,1,140,WEST 31 STREET
+Office Supplies & Services,668,Lightspeed Express Delivery Systems,http://www.lightspeed.biz,307 West 36th Street,,New York,NY,10018,(212) 594-3001,Jeffrey Zimmerman,jz@lightspeed.biz / jznyc714@aol.com,,,Manhattan,1,307,WEST 36 STREET
+Office Supplies & Services,669,McMaid Inc.,http://www.mcmaid.com,136 East 57th Street,#1602,New York,NY,10022,(212) 371-5555,Chris McLoughlin,mcmaidny@earthlink.net,,,Manhattan,1,136,EAST 57 STREET
+Office Supplies & Services,670,Poster Printers,http://www.theposterprinters.com,1607 McDonald Avenue,,Brooklyn,NY,11230,(718) 375-3113,Elliot,posterprinters@aol.com,,,Brooklyn,1,1607,MCDONALD AVENUE
+Office Supplies & Services,671,PYCECO Distributor Corportaion,,17 Vestry Street,,New York,NY,10013,(212) 966-7780,Paula Chin,pyceco@att.net,,,Manhattan,1,17,VESTRY STREET
+Office Supplies & Services,672,Spark Direct/Kwik Kopy Printing,http://www.discnyc.com,7 East 37 Street,,New York,NY,10016,(212) 328-2001,Yaakov Reshef,yaakov@discnyc.com,,yes,Manhattan,1,7,EAST 37 STREET
+Office Supplies & Services,673,Specialty Answering Service,http://www.specialtyansweringservice.net/,1317 Third Avenue,c/o Messages Plus,New York,NY,10021,(888) 532-4794,Todd Cardin,info@specialtyansweringservice.net,,,Manhattan,1,1317,THIRD AVENUE
+Office Supplies & Services,674,United Office Solutions,http://www.unitedofficesolutions.com,1 Battery Park Plaza,,New York,NY,10004,"(212) 725-0700, ext. 223",Gary Allen,garya@unitedofficesolutions.com,,yes,Manhattan,1,1,BATTERY PARK PLAZA
+Office Supplies & Services,675,"Walkieboy, Inc.",http://www.walkieboy.com,27 West 24th Street,Suite 703,New York,NY,10010,(212) 691-2662,Andrew Wheeler,nywalkieboy@hotmail.com,,,Manhattan,1,27,WEST 24 STREET
+Office Supplies & Services,676,Influence Graphics,http://www.influencegraphics.com,45 West 45th Street,8th Floor,New York,NY,10036,(212) 354-6123,Ron Sizemore,sales@influencegraphics.com,,,Manhattan,1,45,WEST 45 STREET
+Office Supplies & Services,677,Kitstrucks,http://www.kitstrucks.com,155 Anderson Ave,,Moonachie,NJ,7074,(201) 531-9700,Steve Fox,fox@kitstrucks.com,,,New Jersey,0,155,ANDERSON AVE
+Office Supplies & Services,678,Metro Weather Service,http://www.metroweather.com,71 South Central Avenue,Suite 102,Valley Stream,NY,11580,(800) 488-7866,Brett Zweiback,metrowx@aol.com,,,New York State,6,71,SOUTH CENTRAL AVENUE
+Office Supplies & Services,679,Flat Rate Carpet & Upholstery,http://www.flatratecarpet.com,8202 30 Avenue,,East Elmhurst,NY,11370,(718) 569-2803,Yoau Nigreken,flatratecarpet@gmail.com,,yes,Queens,4,8202,30 AVENUE
+Office Supplies & Services,681,Peck's Office Plus,http://www.pecksofficeplus.com,36-18 Main Street,,Flushing,NY,11354,(718) 353-3896,Robert Peck,robpeck@pecksofficeplus.com,,,Queens,4,36-18,MAIN STREET
+Office Supplies & Services,682,Innovation Printing and Promotions Inc.,http://www.go2innovation.com,107-27 Liberty Avenue,,Ozone Park,NY,11417,(718) 641-2222,Stephen or Enzo,art@go2innovation.com,,,Queens,4,107-27,LIBERTY AVENUE
+Office Supplies & Services,683,Speedy Scan Organizer Inc,http://speedyscan.biz,223 Wall Street,,Huntington Station,NY,11743,(800) 655-2870,Todd McIndoo,tmcindoo@speedyscan.biz,,yes,Long Island,6,223,WALL STREET
+Payrolling & Personnel,684,"All Things Traffic, Inc.",http://www.allthingstraffic.com,323 West 138th Street,,New York,NY,10030,(212) 234-7171,Farrah Rios,farrahloverios@gmail.com,,,Manhattan,1,323,WEST 138 STREET
+Payrolling & Personnel,685,Headway Corporate Resources,http://www.headwaycorp.com,317 Madison Avenue,,New York,NY,10017,(212) 672-6500,Joseph Sangillo,Jsangillo@headwaycorp.com,,,Manhattan,1,317,MADISON AVENUE
+Payrolling & Personnel,686,TemPositions Group of Companies,http://www.tempositions.com,420 Lexington Avenue,Suite 2100,New York,NY,10170,(212) 490-7400,Loretta Andrews,landrews@tempositions.com,,,Manhattan,1,420,LEXINGTON AVENUE
+Payrolling & Personnel,687,Reel Numbers,http://www.reelnumbers.com,130 Shore Road,#300,Port Washington,NY,11050,(212) 696-8670,Tom Hugues/Caren Franklin,info@reelnumbers.com,,,New York State,6,130,SHORE ROAD
+Payrolling & Personnel,688,PA Source,http://www.pasource.net,118-48 218th Street,,Cambria Heights,NY,11411,(646) 495-1626,Tareek Jones,jonestareek@gmail.com,,,Queens,4,118-48,218 STREET
+Payrolling & Personnel,689,"Allied Personnel Services, Inc.",http://www.aliedpersonnel.com,118-21 Queens Blvd,Ste. 310,Forest Hills,NY,11375,(718) 261-7979,Ms. Amparo M. Connors,amparo@alliedpersonnel.com,,,Queens,4,118-21,QUEENS BOULEVARD
+Post Production & Training,690,1560 Broadway (formerly known as Teatown Communications Group),http://www.teatown.tv,1560 Broadway,,New York,NY,10036,(212) 302-0722,Dean Dilvers,dsilvers22@aol.com,,yes,Manhattan,1,1560,BROADWAY
+Post Production & Training,692,"Analog Digital International, Inc.",http://www.analogdigitalinc.com,20 East 49 Street,,New York,NY,10017,(212) 688-5110,Ayres D'Cunha,ayres@analogdigitalinc.com,,,Manhattan,1,20,EAST 49 STREET
+Post Production & Training,693,Chromavision,http://www.chromavision.net,49 West 27th Street,8th Floor,New York,NY,10001,(212) 686-7366,Yossi Rosenberg / Levon Manoukian,yrosenberg@chromavision.net / lm87000@gmail.com,,yes,Manhattan,1,49,WEST 27 STREET
+Post Production & Training,694,Broadway Video,http://www.broadwayvideo.com,1619 Broadway,10th Floor,New York,NY,10019,(212) 333-0746,Mort Roghanchi,mroghanchi@broadwayvideo.com,,,Manhattan,1,1619,BROADWAY
+Post Production & Training,695,Buttons Sound Inc.,http://www.buttonsny.com,2 West 45th Street,Suite 603,New York,NY,10036,(212) 764-8650,Rich Macar,rich.macar@buttonsny.com,,,Manhattan,1,2,WEST 45 STREET
+Food & Restaurants,1009,Vintage Irving,http://www.vintageirving.com,120 East 15th Street,,New York,NY,10003,(212) 677-6300,Adam Solloway,adam@yourpartyplanning.com,,yes,Manhattan,1,120,EAST 15 STREET
+Food & Restaurants,1010,SideBAR,http://www.sidebarny.com,118 East 15th Street,,New York,NY,10003,(212) 677-2900,Adam Solloway,adam@yourpartyplanning.com,,yes,Manhattan,1,118,EAST 15 STREET
+Post Production & Training,696,City Lights Media Group,http://www.citylightsmedia.com,6 East 39th Street,,New YOrk,NY,10026,(212) 679-4400,Tirtzah Wilson,tirtzah@citylightsmedia.com,,,Manhattan,1,6,EAST 39 STREET
+Post Production & Training,697,Creative Mega Playground,http://www.mega-playground.com,1619 Broadway,5th Floor,New York,NY,10019,(212) 399-0409,Eitan Hakami,eitan@mega-playground.com,,,Manhattan,1,1619,BROADWAY
+Accounting Services,1,"Mark's Bookkeeping Services, LLC",http://www.marksbookkeeping.com,40 West 24th Street,Suite # 3F (Bell 1111),New York,NY,10010,(212) 243-5757,Mark Gilbert,info@marksbookkeeping.com,,yes,Manhattan,1,40,WEST 24 STREET
+Animals & Handlers,2,"Original Party Pets, Inc.",http://www.partypets.com,1039 Hastings Street,,Baldwin,NY,11510,(516) 766-1100,Andre Ricaud,andrespartypets@msn.com,,,New York State,6,1039,HASTINGS STREET
+Animals & Handlers,3,NYC Doggy Den LLC,http://www.nycdoggyden.com,354 West 110 Street,,New York,NY,10025,(212) 865-9657,Max Moyet,nycdoggyden@yahoo.com,,,Manhattan,1,354,WEST 110 STREET
+Banking Services,4,"HSBC Bank NA, USA",http://www.us.hsbc.com/business/film.html,452 5th Avenue,,New York,NY,10018,(212) 525-6528,,,,,Manhattan,1,452,5 AVENUE
+Books & Magazines,5,Argosy Book Store,http://www.argosybooks.com,116 East 59th Street,,New York,NY,10019,(212) 753-4455,Ben Lowry,ben@argosybooks.com,,,Manhattan,1,116,EAST 59 STREET
+Books & Magazines,6,Back Stage Magazine,http://www.backstage.com,770 Broadway,,New York,NY,10003,(646) 654-5872,Kerrie Meyerer,kerrie.meyerer@nielson.com,,,Manhattan,1,770,BROADWAY
+Books & Magazines,7,MovieMaker Magazine,http://www.moviemaker.com,121 Fulton Street,5th Floor,New York,NY,10038,(212) 766-4100,Jennifer Wood,jwood@moviemaker.com,,,Manhattan,1,121,FULTON STREET
+Books & Magazines,8,New York 411,http://www.newyork411.com,360 Park Avenue South,14th Floor,New York,NY,10010,(646) 746-6891,Jeffrey Gitter,Jeffry.Gitter@reedbusiness.com,,,Manhattan,1,360,PARK AVENUE SOUTH
+Books & Magazines,9,New York Production Guide Ltd. (NYPG),http://www.nypg.com,114 East 32nd Street,,New York,NY,10016,(212) 243-0404,Richard Babchak,rbabchak@nypg.com,,,Manhattan,1,114,EAST 32 STREET
+"Camera, Grip & Lighting",10,Act Zero Films,http://www.actzerofilms.com,119 Ingraham Street,Suite 103,Brooklyn,NY,11237,(718) 366-7770,Krista,actzerofilms@gmail.com,,,Brooklyn,3,119,INGRAHAM STREET
+"Camera, Grip & Lighting",11,"H & R Productions, Inc.",http://www.hitandrunproductions.com,65 Roebling Street,,Brooklyn,NY,11211,(718) 809-9057,Ari Taub,stotlebotl@aol.com,,,Brooklyn,3,65,ROEBLING STREET
+"Camera, Grip & Lighting",12,GLOW Design Group,http://www.glowdesigngroup.com,10 Java Street,,Brooklyn,NY,11222,(646) 201-9557,Craig Robillard,craig@glowdesigngroup.com,,,Brooklyn,3,10,JAVA STREET
+"Camera, Grip & Lighting",13,Able Cine Tech,http://www.ablecine.com,609 Greenwich Street,,New York,NY,10014,(212) 462-0100,Maia Kaufman 212-462-0162,,,,Manhattan,1,609,GREENWICH STREET
+"Camera, Grip & Lighting",14,Barbizon Lighting,http://shop.barbizon.com/,456 West 55th Street,,New York,NY,10019,(212) 586-1620,Adrienne Patsos,apatsos@barbizon.com,,,Manhattan,1,456,WEST 55 STREET
+"Camera, Grip & Lighting",15,Foto Care Ltd.,http://www.fotocare.com,41 West 22nd Street,,New York,NY,10010,(212) 741-2990,John Wiley,jwiley@fotocare.com,,yes,Manhattan,1,41,WEST 22 STREET
+"Camera, Grip & Lighting",16,Technisphere Corporation,http://www.technisphere.com,335 West 35th Street,,New York,NY,10001,(212) 777-5100,John Marino,jmarino@technisphere.com,,,Manhattan,1,335,WEST 35 STREET
+"Camera, Grip & Lighting",17,"Broadcast Video Rentals, Ltd. (BVR)",http://www.bvr.com,355 West 52nd Street,(Store Front),New York,NY,10019,(917) 642-2051,Bob Zahn,bz4fam@aol.com,,yes,Manhattan,1,355,WEST 52 STREET
+"Camera, Grip & Lighting",18,Broadway Teleprompter Services,,1501 Broadway,,New York,NY,10036,(212) 944-9090,Seanna O'Haran,seanna.o@langsynefilms.com,,,Manhattan,1,1501,BROADWAY
+"Camera, Grip & Lighting",19,DOI Camera,http://www.doicamera.com,15 East 42nd St.,,New York,NY,10017,(212) 661-0876,Ken Ishiyama,doicamera@gmail.com,,yes,Manhattan,1,15,EAST 42 STREET
+"Camera, Grip & Lighting",20,dv Depot,http://www.dvdepot.com,251 West 39th Street,7th Floor,New York,NY,10018,(212) 333-5100,Deborah Wolpert,deb@dvdepot.com,,yes,Manhattan,1,251,WEST 39 STREET
+"Camera, Grip & Lighting",21,"Feature Systems, Inc.",http://www.featuresystems.com,512 West 36th Street,,New York,NY,10018,(212) 736-0447,Jay Karasick,jay@featuresystems.com,,,Manhattan,1,512,WEST 36 STREET
+"Camera, Grip & Lighting",22,HotCam,http://www.hotcam.tv,336 West 37th Street,Suite 540,New York,NY,10018,(212) 633-1888,,,,,Manhattan,1,336,WEST 37 STREET
+"Camera, Grip & Lighting",23,Judi's Lamps & Shades,http://www.judislampshades.com,888 Broadway,,New York,NY,10003,(212) 777-2924,Judi,judi@judislampshades.com,,,Manhattan,1,888,BROADWAY
+"Camera, Grip & Lighting",24,Just Bulbs- The Light Bulb Store,,220 East 60th Street,,New York,NY,10022,(212) 888-5707,David Brooks,david@superiorlf.com,,yes,Manhattan,1,220,EAST 60 STREET
+"Camera, Grip & Lighting",25,"Keep In Touch Communications, Inc.",,251 West 39th Street,,New York,NY,10018,(212) 921-1911,Barbara Kreiss,barb@kitwalkies.com,,,Manhattan,1,251,WEST 39 STREET
+Food & Restaurants,222,Caruso Pizza and Pasta,,42 Broadway,,New York,NY,10004,(212) 785-7747,Walter Lemishev,wlemishev@optonline.net,,,Manhattan,1,42,BROADWAY
+"Camera, Grip & Lighting",26,KTV - Keslow Television,http://www.keslow.com,444 West 36th Street,,New York,NY,10018,(212) 239-1500,"Marc Keslow, Jim Palmer",marc@keslow.com; jim@keslow.com,,,Manhattan,1,444,WEST 36 STREET
+"Camera, Grip & Lighting",27,Liman Video Rental Company,http://www.lvrusa.com,341 West 38th Street,,New York,NY,10018,(212) 594-0786,Michael Liman,michael@lvrusa.com,,,Manhattan,1,341,WEST 38 STREET
+"Camera, Grip & Lighting",28,QTV Prompting Services,http://www.qtv.com,19 West 21st Street,Suite 606,New York,NY,10010,(212) 929-7755,Stephen Carofalo,events@qtv.com,,,Manhattan,1,19,WEST 21 STREET
+"Camera, Grip & Lighting",29,RGH Lighting,http://www.rghlighting.com,424 West 54th Street,,New York,NY,10019,(212) 647-1114,Rob Halle/Angela Schmitz,rghlighting@aol.com,,,Manhattan,1,424,WEST 54 STREET
+"Camera, Grip & Lighting",30,The Lighting Design Group,http://www.ldg.com,49 West 27th Street,,New York,NY,10001,(212) 685-4940,Alison Hawley,hawley@ldg.com,,,Manhattan,1,49,WEST 27 STREET
+"Camera, Grip & Lighting",31,"Wits End Group, Inc.",http://www.witsendnyc.com,547 West 49th Street,,New York,NY,10019,(212) 242-9400,Keith Guliner,TVGully@aol.com; witsendnyc@aol.com,,yes,Manhattan,1,547,WEST 49 STREET
+"Camera, Grip & Lighting",32,"Xeno Lights, Inc.",http://www.xenolights.com,1 Worth Street,,New York,NY,10013,(212) 941-9494,"Chris, Justin, or Steve",xeno@xenolights.com,,yes,Manhattan,1,1,WORTH STREET
+"Camera, Grip & Lighting",33,East Coast Lighting,http://www.eclny.net,353 West 39th Street,Room 202,New York,NY,10018,(212) 643-9727,Bob Weirzbicki,eastcoastlighting@eclny.net,,,Manhattan,1,353,WEST 39 STREET
+"Camera, Grip & Lighting",34,Elefant Films,http://www.elefantfilms.com,311 West 43rd Street,Suite #602,New York,NY,10036,(888) 435-3326,Rachel Kolbert,info@elefantfilms.com,,,Manhattan,1,311,WEST 43 STREET
+"Camera, Grip & Lighting",35,"Professional Sound Services, Inc.",http://www.pro-sound.com,311 West 43rd Street,Suite 1100,New York,NY,10036,(212) 586-1033,Richard Topham,rich@pro-sound.com; marketing@pro-sound.com,,,Manhattan,1,311,WEST 43 STREET
+"Camera, Grip & Lighting",36,"Prop Transport, Inc.",http://www.proptransport.com,630 Ninth Avenue,Room 309,New York,NY,10036,(212) 957-4004,Richard Apuzzo,proptransport@aol.com,,,Manhattan,1,630,NINTH AVENUE
+"Camera, Grip & Lighting",37,Able Equipment Rental,http://www.ableequipment.com,21 Dixon Avenue,,Copiague,NY,11726,(631) 841-3333,Bill Smyth,bill@ableequipment.com,,,New York State,6,21,DIXON AVENUE
+"Camera, Grip & Lighting",38,Blakley Equipment Rental,http://www.blakleytree.com,491 East Third Street,,Mount Vernon,NY,10553,(914) 664-5500,Jennifer Vodrazka,jennifer@blakleytree.com,,,New York State,6,491,EAST 3 STREET
+"Camera, Grip & Lighting",39,G.D.R. Equipment Co. Inc.,http://www.gdrequipment.com,755 West Nyack Road,,West Nyack,NY,10994,(845) 348-3972,Gabriel DiRienzo,gabrielPD@aol.com,,,New York State,6,755,W NYACK ROAD
+"Camera, Grip & Lighting",40,Air Sea Land Productions Inc.,http://www.airsealand.com,19-69 Steinway Street,,Astoria,NY,11105,(718) 626-2646,Claudia Marticorena,asl@airsealand.com,,,Queens,4,19-69,STEINWAY STREET
+"Camera, Grip & Lighting",41,"The Case Makers, Inc.",,194-36 Morris Ave.,,Holtsville,NY,11742,(631) 289-5300,Gene Falzone,crazycase1@hotmail.com,,yes,Long Island,4,194-36,MORRIS AVE.
+"Camera, Grip & Lighting",42,Available Light,http://www.alny.net,29-20 37th Avenue,,Long Island City,NY,11101,(718) 707-9670,Peter Prostowich,peter@alny.net,,,Queens,4,29-20,37 AVENUE
+"Camera, Grip & Lighting",43,"See Factor Industry, Inc",http://www.seefactor.com,37-11 30th Street,,Long Island City,NY,11101,(718) 784-4200,Bobby Flecker / Tom See,rflecker@seefactor.com,,,Queens,4,37-11,30 STREET
+"Camera, Grip & Lighting",44,"Wits End Group, Inc.",http://www.witsendnyc.com,43-26 12th Street,,Long Island City,NY,11101,(718) 361-8400,Keith Guliner,TVGully@aol.com; witsendnyc@aol.com,,,Queens,4,43-26,12 STREET
+"Camera, Grip & Lighting",45,North Shore Crane LLC,http://www.northshorecraneny.com,46-49 54th Avenue,,Maspeth,NY,11378,(718) 389-0300,Tom Brown,info@northshorecraneny.com,,,Queens,4,46-49,54 AVENUE
+"Camera, Grip & Lighting",47,"RP Rentals, Inc.",,1855 Stanhope Street,,Ridgewood,NY,11385,(718) 456-7397,Rob,no email,,,Queens,4,18-55,STANHOPE STREET
+"Camera, Grip & Lighting",48,"Goblin Lighting Services, Inc.",http://www.goblininc.com,730 Richmond Terrace,,Staten Island,NY,10301,(718) 447-7157,Linda Bolesta,"TheGoblins@aol.com, Medusa2tsm@aol.com",,,Staten Island,5,730,RICHMOND TERRACE
+Casting & Talent,49,Back Stage Magazine,http://www.backstage.com,770 Broadway,,New York,NY,10003,(646) 654-5715,Luke Crowe,lcrowe@backstage.com,,,Manhattan,1,770,BROADWAY
+Casting & Talent,51,ReelACT,http://www.reelact.com,242 West 30th Street,Suite 504,New York,NY,10001,(212) 290-0700,Rada Lapsker,rada@reelact.com,,,Manhattan,1,242,WEST 30 STREET
+Casting & Talent,52,"Scott Powers Studios, Inc.",http://www.scottpowers.com/,135 West 29th Street,,New York,NY,10001,(212) 242-4700,Scott Powers,casting@scottpowers.com,,,Manhattan,1,135,WEST 29 STREET
+Security,989,Management Resources Ltd of New York,http://www.managmentresourcesny.com,5 Penn Plaza,23rd Floor,New York,NY,10001,(800) 490-2267,Robert Rahn,brahn@managementresourcesny.com,,,Manhattan,1,5,PENN PLAZA
+Wardrobe,990,"Woman Up / Delo Enterprises, Corp",http://www.womanuponline.com,708 Washington Avenue,,Brooklyn,NY,11238,(917) 681-0540,Deidre Olivera,infowomanup@optonline.net,,yes,Brooklyn,3,708,WASHINGTON AVENUE
+Food & Restaurants,991,Harlem Vintage and Nectar Wine Bar,http://www.harlemvintage.com,2235 Frederick Douglass Boulevard,,New York,NY,10027,(212) 866-9463,Jai Jai R. Greenfield,jaijai@harlemvintage.com,,yes,Manhattan,1,2235,FREDERICK DOUGLASS BOULEVARD
+Catering,992,Bistro Caterers,http://www.bistrocaterers466.com,466 Lexington Avenue,,New York,NY,10017,(212) 808-4200,Jordana Meitzer,bistro466@verizon.net,,yes,Manhattan,1,466,LEXINGTON AVENUE
+Computers & Electronics,996,"Bway.net, Inc.",http://www.bwaynet.inc,568 Broadway,Suite 404,New York,NY,10012,(212) 982-9800,Kate Lynch,info@bway.net,,,Manhattan,1,568,BROADWAY
+DVD Authoring & Production,997,ScreamerVision,http://www.screamervision.com,247 West 35th Street,7th Floor,New York,NY,10001,(212) 951-7171,Mark Ashkinos,mark@screamdvd.com,,,Manhattan,1,568,7 AVENUE
+Casting & Talent,54,Toni Cusumano Casting,http://www.tonicusumano.com,602 10th Avenue,Apt #4RS,New York,NY,10036,(917) 482-2944,"Toni Cusumano, John Bulger",tonicusumanocasting@gmail.com,,,Manhattan,1,602,10 AVENUE
+Catering,56,Au Bon Pain,http://www.aubonpain.com,80 Pine Street,,New York,NY,10005,(646) 772-8513,Steven Gianci,steven_gianci@aubonpain.com,,,Manhattan,1,80,PINE STREET
+Catering,57,Bagel & Bean,http://www.bagelandbean.com,1710 Broadway,,New York,NY,10019,(212) 245-6360,Gautam Patel,ericgautam@yahoo.com,,,Manhattan,1,1710,BROADWAY
+Catering,59,Café Health Exchange,,2 Maiden Lane,,New York,NY,10038,(212) 227-4347,Alex Ferkoo,sanyibaci@yahoo.com,,,Manhattan,1,2,MAIDEN LANE
+Catering,60,Creole Restaurant,http://www.creolenyc.com,2167 Third Avenue,,New York,NY,10035,(212) 876-8838,Kevin Walters,creolerestaurant@aol.com,,,Manhattan,1,2167,THIRD AVENUE
+Catering,61,Events & Everyday,http://www.eventsandeveryday.com,245 Park Avenue,24th Floor,New York,NY,10167,(212) 693-8368,Evan O'Brien/Fiona Carmichael,info@eventsandeveryday.com,,yes,Manhattan,1,245,PARK AVENUE
+Catering,62,Food Trends,http://www.foodtrendscatering.com,56 East 41st Street,,New York,NY,10017,(212) 972-2553,Alison Moss,Alison@food-trends.com,,yes,Manhattan,1,56,EAST 41 STREET
+Catering,63,Manhattan Water Company,http://www.manhattanwatercompany.com,1 State Street,21st Floor,New York,NY,10004,(646) 330-4730,Marc Dushay,manhattanwaterco@gmail.com,,,Manhattan,1,1,STATE STREET
+Catering,64,Michelle's Kitchen,http://www.michelleskitchen.com,1614 Third Avenue,,New York,NY,10128,(212) 966-0012,Samir Billan,billan@michelleskitchen.com,,,Manhattan,1,1614,THIRD AVENUE
+Catering,65,Nova catering+events,http://www.novacateringco.com,820 10th Avenue,,New York,NY,10019,"(212) 977-8900, ext. 10",Chris Barbier,chrisbarbier@novacateringco.com,,,Manhattan,1,820,10 AVENUE
+Catering,66,Rice to Riches,http://www.ricetoriches.com,37 Spring Street,,New York,NY,10012,(212) 274-0008,Eddie Aronoff,wholesale@ricetoriches.com,,,Manhattan,1,37,SPRING STREET
+Catering,67,Sale and Pepe Fine Food and Catering,http://www.Salepepefinecatering.com,1 Exchange Plaza,,New York,NY,10006,(212) 968-7700,Peter M. Semetis,salepepefinefood@aol.com,,,Manhattan,1,1,EXCHANGE PLAZA
+Catering,68,"Something's Cooking Catering, Inc.",http://www.somecook.com,175 Christopher Street,,New York,NY,10014,(212) 691-0002,Jon Peters,somecook@aol.com,,,Manhattan,1,175,CHRISTOPHER STREET
+Catering,69,Zaro's Bakery,http://www.zaro.com,920 Broadway,,New York,NY,10001,(212) 292-0175,Barry Greenberg,catering@zaro.com,,yes,Manhattan,1,920,BROADWAY
+Catering,70,Stir Café,http://www.stircafe.com,32 Broadway,,New York,NY,10004,212.425.5123,Telly,info@stircafe.com,,,Manhattan,1,32,BROADWAY
+Catering,72,Brown Caterers,http://www.sarahbrowncaterers.com,833 Nassau Road,,Uniondale,NY,11553,(516) 505-2610,Kenneth Brown,kennyb@sarahbrowncaterers.com,,,New York State,6,833,NASSAU ROAD
+Catering,74,Dee's,http://www.deesnyc.com,107-23 Metropolitan Avenue,,Forest Hills,NY,11375,(888) 488-DEES (3337),George Tsiatis,george@group113.com,,yes,Queens,4,107-23,METROPOLITAN AVENUE
+Catering,75,Mercella & Cecily's Inc.,http://www.mnccaterers.com,82-46 135th Street,,Kew Gardens,NY,11435,(718) 544-3233,Lorna M. Clarke,lorna@mnccaterers.com; info@mnccaterers.com,,,Queens,4,82-46,135 STREET
+Catering,76,Cornucopia Caterers and Event Planners,,36 Bay Street,# 103,Staten Island,NY,10301,(718) 448-3133,Frances Laviscount,cornucopiany@yahoo.com,,,Staten Island,5,36,BAY STREET
+Catering,77,John's Catering,http://www.johnscateringny.com,126 Lincoln Ave,,Staten Island,NY,10306,(718) 667-8211,Dave,dave@johnscateringny.com,,,Staten Island,5,126,LINCOLN AVENUE
+Recycling & Waste Removal,993,Prestige Industry Corp.,,45-42 Pearson Street,,Long Island City,NY,11101,(718) 609-0111,Margie Amaya,prestigeindustry@aol.com,,,Queens,4,45-42,PEARSON STREET
+Spa & Massage,994,The HomeSpa,http://www.homespa.com,300 Court Street,,Brooklyn,NY,11231,(718) 596-8668,Debra Ann Townes,datownes@gmail.com,,yes,Brooklyn,3,300,COURT STREET
+Computers & Electronics,78,Computer Rent Inc.,,1915 Avenue M,,Brooklyn,NY,11230,(718) 252-4070,Esther Gottesman,rentapcnow@aol.com,,yes,Brooklyn,3,1915,AVENUE M
+Computers & Electronics,79,"Business Equipment Rentals, Inc.",http://www.bizrentalny.com,250 West 49th Street,,New York,NY,10019,(212) 582-2020,Barney Friedman,barney@bizrentalny.com,,,Manhattan,1,250,WEST 49 STREET
+Computers & Electronics,80,Cables and Chips Inc.,http://www.cablesandchipsinc.com,121 Fulton Street,,New York,NY,10038,(212) 619-3132,Howard Feinstein,koifish@cablesandchipsinc.com,,,Manhattan,1,121,FULTON STREET
+Computers & Electronics,81,Capital Audio Electronics,http://www.capitalaudio.com,120 Duane Street,,New York,NY,10007,(212) 608-3720,Arthur Schweky and Butch Vasco,sales@capitalaudio.com,,,Manhattan,1,120,DUANE STREET
+Computers & Electronics,82,Egads Computer & A/V Rental,http://www.egadscomputer.com,211 East 43rd Street,,New York,NY,10017,(212) 557-4656,"Ana Statler, Dave Schefano (owner)",dave@egadscomputer.com,,,Manhattan,1,211,EAST 43 STREET
+Computers & Electronics,83,Soho Audio,http://www.sohoaudio.com,376 Broome Street,,New York,NY,10013,(212) 226-2429,Larry Loewinger,sohoaudio@earthlink.net,,,Manhattan,1,376,BROOME STREET
+Computers & Electronics,84,TCC Teleplex Inc.,http://www.tccteleplex.com,11 Hubert Street,,New York,NY,10013,(212) 965-8800,Alan Rothenstreich,a.rothenstreich@tccteleplex.com,,,Manhattan,1,11,HUBERT STREET
+Computers & Electronics,85,Tekserve,http://www.tekserve.com,119 West 23rd Street,,New York,NY,10011,(212) 929-3645 Ext 350,Don Peterson,don@tekserve.com,,,Manhattan,1,119,WEST 23 STREET
+Computers & Electronics,86,WebCom247 LLC,http://www.webcom247.com,1403 44th Street,Suite 14,Brooklyn,NY,11219,(212) 696-7235,Chaim Lowenstein,chaim@webcom247.com,,yes,Brooklyn,3,1403,44 STREET
+Computers & Electronics,88,Event Radio Rentals Inc,http://www.eventradiorentals.com,7015 Austin Street,2nd Floor,Forest Hills,NY,11375,(800) 966-1810,Jason Sarnoff,jason@eventradiorentals.com,,yes,Queens,4,70-15,AUSTIN STREET
+Construction & Set Design,89,2 Hour Auto Glass,http://www.2hourautoglass.com,132 19th Street,,Brooklyn,NY,11232,(718) 965-5555,Barry Ross,twohourautoglass@aol.com,,yes,Brooklyn,3,132,19 STREET
+Construction & Set Design,90,"Ferra Designs, Inc.",http://www.ferradesigns.com,63 Flushing Avenue,"Brooklyn Navy Yard, BLD 275 Unit 135",Brooklyn,NY,11205,(718) 852-8629,Rob Ferra,rob@ferradesigns.com,,yes,Brooklyn,3,63,FLUSHING AVENUE
+Construction & Set Design,91,G.T. Rentals Corp.,http://www.gtrentals.com,310 Nassau Avenue,,Brooklyn,NY,11222,(718) 782-7887,Gus Eleftheriadis,info@gtrentals.com,,,Brooklyn,3,310,NASSAU AVENUE
+Construction & Set Design,92,J. Pinz Metals Company,,208 Frost Street,,Brooklyn,NY,11211,(718) 389-1470,Barry Pinz,mikep208@aol.com,,yes,Brooklyn,3,208,FROST STREET
+Construction & Set Design,93,Lapietra Machinery,http://www.a1tool.com,5320 Third Avenue,,Brooklyn,NY,11220,,Sal Messina Jr.,lapietr@attglobal.net,,,Brooklyn,3,5320,THIRD AVENUE
+Construction & Set Design,94,North Side Power Transmission Corp.,http://www.nsptcorp.com,309 Morgan Avenue,,Brooklyn,NY,11211,(718) 782-5800,Rich Haught/Tim Book,sales-drives@nsptcorp.com,,,Brooklyn,3,309,MORGAN AVENUE
+Construction & Set Design,95,Breeze Air Conditioning Inc,http://www.breeze-air.com,859 Kilmer Lane,,Valley Stream,NY,11581,(718) 380-8799,Ronnie Oberlender,breeze_ac@hotmail.com,,yes,Long Island (Nassau),6,859,KILMER LANE
+Construction & Set Design,96,AFR Event Furnishings,http://www.rentfurniture.com/specialevents/,116 West 23rd Street,5th Floor,New York,NY,10011,,,,,,Manhattan,1,116,WEST 23 STREET
+Construction & Set Design,97,Aronson's Floor Covering,http://www.aronsonsfloors.com,135 West 17th Street,,New York,NY,10011,(212) 243-4993,Paul Rondeau,ra@aronsonsfloors.com,,,Manhattan,1,135,WEST 17 STREET
+Construction & Set Design,98,"Capitol Glass & Sash Co., Inc.",http://www.capitolglassnyc.com,401 Washington Street,,New York,NY,10013,(212) 243-4528,Richard Blatt,capitolglass@aol.com,,,Manhattan,1,401,WASHINGTON STREET
+Construction & Set Design,99,Janson Design Group,http://www.jansondesign.com,257 Park Avenue South,,New York,NY,10010,(212) 228-5550,Dennis C. Janson,dennis@jansondesign.com,,yes,Manhattan,1,257,PARK AVENUE SOUTH
+Construction & Set Design,100,McKinney Welding Supply Inc.,http://www.mckinneynyc.com/,535 West 52nd Street,,New York,NY,10019,(212) 246-4390,Nick Mattiace,nmattiace@aol.com,,,Manhattan,1,535,WEST 52 STREET
+Construction & Set Design,101,"Northeast Floor Coverings, Inc.",,1492 First Avenue,,New York,NY,10021,(212) 988-5326,Vinny,carpetfactory@verizon.net,,,Manhattan,1,1492,FIRST AVENUE
+Construction & Set Design,102,The Prince Lumber Company Inc.,http://www.princelumber.com,404 West 15th Street,,New York,NY,10011,(212) 777-1150,Christine,princelumber1@aol.com,,,Manhattan,1,404,WEST 15 STREET
+Construction & Set Design,103,Long Island Staple,http://www.nsptcorp.com/lis,410 Atlantic Avenue,,East Rockaway,NY,11518,(516) 887-1010,Bill Haubenreisser,lis@nsptcorp.com,,,New York State,6,410,ATLANTIC AVENUE
+Construction & Set Design,104,Hertz Equipment Rental,http://www.hertzequip.com,206 Route 109,,Farmingdale,NY,11735,(212) 255-4208,Frank Calderaro,fcalderaro@hertz.com,,,New York State,6,206,ROUTE 109
+Construction & Set Design,105,On Site Energy Co. Inc.,http://www.onsite-energy.com,40 Charlotte Avenue,,Hicksville,NY,11802,(516) 937-1500,Randy Pippa,sales@onsite-energy.com,,,New York State,6,40,CHARLOTTE AVENUE
+Construction & Set Design,106,"Numax, Inc.",http://www.numax.com,117 Route 303,,Tappan,NY,10983,(845) 365-2400,Steve Leber,"sleber@numax.com , sleber0701@optonline.net",,,New York State,6,117,ROUTE 303
+Hair & Makeup,312,Anapelli Hair Clinic,,57 West 57th Street,Suite 1112,New York,NY,10019,(212) 751-HAIR,,anapellihair@gmail.com,,yes,Manhattan,1,57,WEST 57 STREET
+Construction & Set Design,107,Build It Green! NYC,http://www.bignyc.org,3-17 26th Avenue,,Astoria,NY,11102,(718) 777-0132,Forrest Gillespie,Forrest@BIGNYC.org,,yes,Queens,4,3-17,26 AVENUE
+Construction & Set Design,108,Abbey Tool & Party Rent-All,,203-16 Northern Boulevard,,Bayside,NY,11361,(718) 428-0400,Michael Feig,abbeyrent@verizon.net,,,Queens,4,203-16,NORTHERN BOULEVARD
+Construction & Set Design,109,Atlantic Pallet Corp.,http://www.atlanticpallet.com,105-07 150th Street,,Jamaica,NY,11435,(718) 523-5757,,info@atlanticpallet.com,,,Queens,4,105-07,150 STREET
+Construction & Set Design,110,Abbot and Abbot Box Corp.,http://www.abbotbox.com,37-11 Tenth Street,,Long Island City,NY,11101,(718) 392-2600,Stu or Doug Gleiber,stu@abbotbox.com,,yes,Queens,4,37-11,TENTH STREET
+Construction & Set Design,111,Michael Davis Stained Glass,http://www.michaeldavisglass.com,42-24 9th Street,,Long Island City,NY,11101,(718) 383-3712,Michael Davis,mdstained@aol.com,,,Queens,4,42-24,9 STREET
+Construction & Set Design,112,"Showman Fabricators, Inc.",http://www.showfab.com,47-22 Pearson Place,,Long Island City,NY,11101,(718) 935-9899,Michael Cioffi,mcioffi@showfab.com,,,Queens,4,47-22,PEARSON PLACE
+Construction & Set Design,113,Penn Glass Enterprises,http://www.pennglass.com,84-06 Liberty Avenue,,Ozone Park,NY,11417,(800) 222-6299,Ron Scarcluzio,pennglass@yahoo.com,,,Queens,4,84-06,LIBERTY AVENUE
+Construction & Set Design,114,Robertson's Restoration and Painting,http://www.robertsonsrestoration.com,709 Fairview Avenue,,Ridgewood,NY,11385,,Tirado Robertson,tiradorob@aol.com,,,Queens,4,709,FAIRVIEW AVENUE
+Construction & Set Design,115,Margarella Industrial Construction Corp.,,1434-B Richmond Road,,Staten Island,NY,10304,(718) 980-7569,Valerie Fox/Danielle Wilkie,Getpaved123@aol.com,,,Staten Island,5,1434-B,RICHMOND ROAD
+Digital Effects,116,Brainstorm Digital,http://www.brainstorm-digital.com,15 Washington Avenue,Steiner Studios,Brooklyn,NY,11205,(646) 330-5245,Richard Friedlander,info@brainstorm-digital.com,,,Brooklyn,3,15,WASHINGTON AVENUE
+Digital Effects,117,& Company,http://www.andcompany.us,1 West Street,Suite 100,New York,NY,10004,(646) 825-8934,Chris Gelles,info@andcompany.us,,,Manhattan,1,1,WEST STREET
+Digital Effects,118,"21 Boom, Inc.",http://www.21boom.com,853 Broadway,Suite 1406,New York,NY,10003,(212) 999-7977,Larry Barlow,larry@21boom.com,,yes,Manhattan,1,853,BROADWAY
+Digital Effects,119,Big Pink Motion Graphics,http://www.bigpink.com,200 East 16th Street,,New York,NY,10003,(917) 597-8908,Lisa Overton,lisa@bigpink.com,,,Manhattan,1,200,EAST 16 STREET
+Digital Effects,120,"Big Film Design, Inc.",http://www.bigfilmdesign.com,594 Broadway,Suite 1001,New York,NY,10012,(212) 627-3430,Randy Balsmeyer,randyb@bigfilmdesign.com,,,Manhattan,1,594,BROADWAY
+Digital Effects,121,Designomotion,http://www.designomotion.com,67 East 11th Street,#324,New York,NY,10003,(917) 532-0738,Joesph Silver,jsilver@designomotion.com,,yes,Manhattan,1,67,EAST 11 STREET
+Digital Effects,122,"Gotham Digital FX, Inc.",http://www.gothamdigitalfx.com,335 East 21st Street,Suite 1A,New York,NY,10010,(646) 283-7767 / (310) 740-7326,Joseph Oberle,joe@gothamdigitalfx.com,,yes,Manhattan,1,335,EAST 21 STREET
+Digital Effects,123,mantra,http://www.mantradesign.tv,33 West 19th Street,Suite 5,New York,NY,10011,(646) 723-5700,Chris Valentino,contact@mantradesign.tv,,yes,Manhattan,1,33,WEST 19 STREET
+Digital Effects,124,"Mercator Land Surveying, LLC",http://www.mercatorgroup.com,175 West 93rd Street,,New York,NY,10025,(646) 837-0780,,,,,Manhattan,1,175,WEST 93 STREET
+Digital Effects,125,Rhino,http://www.rhinofx.tv,50 East 42nd Street,,New York,NY,10017,(212) 986-1584,Camille Gerer and Karin Levinson,karin@rhinofx.com,,,Manhattan,1,50,EAST 42 STREET
+Dry Cleaners,126,Bridge Cleaners,http://www.bridgecleaners.com,401 Bridge Street,(b/w Fulton St. & Willoughby St.),Brooklyn,NY,11201,(718) 625-1438,Victoria Aviles-Dwner,seevictoria@aol.com,,,Brooklyn,3,401,BRIDGE STREET
+Dry Cleaners,127,Green Apple Cleaners,http://www.GreenAppleCleaners.com,92 Greenwich Avenue,,New York,NY,10011,(888) 458-8262,"Erik Baard, Davis Kistner, Shawn Crabb",dkistner@greenapplecleaners.com,,yes,Manhattan,1,92,GREENWICH AVENUE
+Dry Cleaners,128,Lincoln Terrace Cleaners,,149 Amsterdam Avenue,,New York,NY,10023,(212) 874-3066,Bernard Park,No email,,,Manhattan,1,149,AMSTERDAM AVENUE
+Dry Cleaners,129,Nija Enterprise Cleaning Services LLC,,233 West 140th Street,,New York,NY,10030,(347) 591-6663,Osayamo Winifred Osagie,nijaenterprise@gmail.com,,,Manhattan,1,233,WEST 140 STREET
+DVD Authoring & Production,130,"Armajani Media Company, Inc.",http://www.dylanarmajani.com,47 Bushwick Avenue,,Brooklyn,NY,11211,(207) 712-3805,,,,,Brooklyn,3,47,BUSHWICK AVENUE
+DVD Authoring & Production,131,Masterdisk Studios,http://www.masterdisk.com,545 West 45th Street,5th Floor,New York,NY,10036,(212) 541-5022,Hank Honig,svgfard@nyc.rr.com,,,Manhattan,1,545,WEST 45 STREET
+DVD Authoring & Production,132,"Paris Multimedia, LLC",http://www.parismultimedia.com,247 West 87th Street,Suite 10J,New York,NY,10024,(212) 262-6272,Gail Berstein Paris,gail@parismultimedia.com,,yes,Manhattan,1,247,WEST 87 STREET
+DVD Authoring & Production,133,"Tobin Productions, Inc.",http://www.tobinproductions.com,133 West 19th Street,,New York,NY,10011,(212) 727-1500,Dwight Tobin,dwight@tobinproductions.com,,,Manhattan,1,133,WEST 19 STREET
+DVD Authoring & Production,134,Voltage Video,http://www.voltagevideo.com,1501 Broadway,Suite 900,New York,NY,10036,(212) 764-1870,Helen Ledwith,voltduplication@yahoo.com,,yes,Manhattan,1,1501,BROADWAY
+Entertainment & Nightlife,135,Rasputin Restaurant and Cabaret,http://www.rasputinny.com,2670 Coney Island Avenue,,Brooklyn,NY,11235,(718) 382-8111 / (941) 735-6555,Rita Yanovitsky,212rita@gmail.com,,yes,Brooklyn,3,2670,CONEY ISLAND AVENUE
+Entertainment & Nightlife,136,Ray's Lounge & Comedy Club,http://www.rayslounge.com,9604 3rd Avenue,,Brooklyn,NY,11209,(718) 748-6400,Vincent or Ray,raygarvey@aol.com,,yes,Brooklyn,3,9604,3 AVENUE
+Entertainment & Nightlife,137,"The Brick Theater, Inc.",http://www.bricktheater.com,575 Metropolitan Avenue,,Brooklyn,NY,11211,(718) 907-6189,Gyda Arber,gyda@bricktheater.com,,yes,Brooklyn,3,575,METROPOLITAN AVENUE
+Entertainment & Nightlife,138,"""Murdered by the Mob"" Interactive Comedy Mystery Dinner",http://www.murdermysteryinc.com,141 West 38th Street,,New York,NY,10018,(800) 687-3374,Ron Pacie,info@murdermysteryinc.com,,,Manhattan,1,141,WEST 38 STREET
+Entertainment & Nightlife,139,American Ballroom Dance Studio,http://www.pierredulaine.com,25 W 31st Street,4th Floor,New York,NY,10003,(212) 244-8400,Vanessa Villalobos,dancedulaine@msn.com,,yes,Manhattan,1,25,WEST 31 STREET
+Entertainment & Nightlife,140,"Big Bowl, LLC dba Leisure Time Bowl",http://www.leisuretimebowl.com,625 8th Avenue,Port Authority Building Level 2,New York,NY,10018,(212) 268-6909,Noelle Frieson,noelle@leisuretimebowl.com,,yes,Manhattan,1,625,8 AVENUE
+Entertainment & Nightlife,141,Harlem Lanes Bowling Center,http://www.harlemlanes.com,2110-2116 Adam Clayton Powell Blvd,,New York,NY,10026,(212) 678-2695,Jennifer,michael@harlemlanes.com,,,Manhattan,1,2110-16,ADAM CLAYTON POWELL BOULEVARD
+Entertainment & Nightlife,142,National Comedy Theatre,http://www.manhattancomedy.com,347 West 36th Street,,New York,NY,10018,(212) 629-5202,Kim Chase,kim.chase@manhattancomedy.com,,yes,Manhattan,1,347,WEST 36 STREET
+Entertainment & Nightlife,144,The Fantasticks - The Snapple Theater Center,http://www.fantasticksonbroadway.com,1627 Broadway,The Snapple Theater Center (@50th st),New York,NY,10019,(212) 921-7928,John Capo,dbspress@aol.com,,yes,Manhattan,1,1627,BROADWAY
+Entertainment & Nightlife,145,The ImaginAsian,http://www.theimaginasian.com,239 East 59th Street,,New York,NY,10022,(212) 371-6682,Gregory Chang,gchang@iatv.tv,,,Manhattan,1,239,EAST 59 STREET
+Entertainment & Nightlife,146,The Perfect Crime - The Snapple Theater Center,http://www.perfect-crime.com,1627 Broadway,The Snapple Theater Center (@50th st),New York,NY,10019,(212) 921-7928,John Capo,dbspress@aol.com,,yes,Manhattan,1,1627,BROADWAY
+Entertainment & Nightlife,147,World Famous Laugh Factory,http://www.laughfactory.com,303 West 42nd Street,,New York,NY,10036,(212) 586-7829,Jamie or Dominic,promotions@laughfactoryny.com,,,Manhattan,1,303,WEST 42 STREET
+Entertainment & Nightlife,148,Eugenes and Gypsy Tea Nightclubs,http://www.eugenenyc.com and www.gypsyteanyc.com,27 West 24th Street,,New York,NY,10010,(212) 462-0999,Andy Griggs,GriggsAndy@aol.com,,,Manhattan,1,27,WEST 24 STREET
+Entertainment & Nightlife,149,Slot Zone Raceway,http://www.slotzoneusa.com,418A Nanuet Mall South,,Nanuet,NY,10954,(845) 623-5333,Mitch Rosen,slotzone@verizon.net,,,New York State,6,418A,NANUET MALL SOUTH
+Entertainment & Nightlife,150,Staten Island Yankees,http://www.siyanks.com,75 Richmond Terrace,,Staten Island,NY,10314,(718) 720-9265,Rebekah Overholser,roverholser@siyanks.com,,yes,Staten Island,5,75,RICHMOND TERRACE
+Event Planning & Marketing,152,Imagelink Productions,http://www.imagelinkproductions.com,11 Sterling Place,Suite 2D,Brooklyn,NY,11217,(718) 789-8408,Donald Schwartz,donald.schwartz@imagelinkproductions.com,,,Brooklyn,3,11,STERLING PLACE
+Event Planning & Marketing,153,Mary Long Marketing,http://www.marylongmarketing.com,98 Second Place,Suite 2F,Brooklyn,NY,11231,(646) 232-4793,,mary@marylongmarketing.com,,yes,Brooklyn,3,98,SECOND PLACE
+Event Planning & Marketing,154,"MOTIVE NYC, LLC",http://www.motivenyc.com,420 Lexington Avenue,Suite 1934,New York,NY,10170,(212) 687-5090,Chris Valentino,www.motivenyc.com,,yes,Manhattan,1,420,LEXINGTON AVENUE
+Event Planning & Marketing,155,Nisa Amoils,,21 East 96th Street,,New York,NY,10128,(646) 528-5369,Nisa Amoils,namoils@aol.com,,,Manhattan,1,21,EAST 96 STREET
+Event Planning & Marketing,156,eRSVP,http://www.ersvp.com,11 Broadway,Suite 1063,New York,NY,10004,(212) 201-7787,Michael Kniat,sales@ersvp.com,,,Manhattan,1,11,BROADWAY
+Event Planning & Marketing,157,Giordano Productions LLC,http://www.giordanoproductions.com,7 East 8th Street,#303,New York,NY,10011,(212) 598-2181,Virginia Giordano,vgpnyc@aol.com,,,Manhattan,1,7,EAST 8 STREET
+Event Planning & Marketing,159,Ostrow Alliances,,1 Astor Place,,New York,NY,10003,(212) 529-0495,Terri Pitta,terri@ostrowalliances.com,,,Manhattan,1,1,ASTOR PLACE
+Event Planning & Marketing,160,Stratosphere Multimedia LLC,http://www.stratosphere-nyc.com,551 Madison Avenue,7th Floor,New York,NY,10022,(212) 702-0700,Lee Fehr,fehr@stratosphere-nyc.com,,,Manhattan,1,551,MADISON AVENUE
+Event Planning & Marketing,161,Party Line Tent Rentals,http://www.nyproductionrentals.com,21 Vreeland Avenue,,Elmsford,NY,10523,(914) 592-1200,Andrea Malcolm,andreaM@partylinerentals.com,,yes,New York State,6,21,VREELAND AVENUE
+Event Planning & Marketing,162,Razmataz! Events Unlimited,http://www.razevents.com,1333A North Avenue,Suite 401,New Rochelle,NY,10804,(914) 654-9200,Dennis Star,Dstarr@razevents.com,,,New York State,6,1333A,NORTH AVENUE
+Event Planning & Marketing,164,"Events That Party, Inc",http://www.eventsthatparty.com,621 Beach 65th Sreet,,Arverne,NY,11692,(718) 474-0108,Angelique Reid,ar@etpny.com,,yes,Queens,4,621,BEACH 65 SREET
+Event Planning & Marketing,165,The Gift Agency,http://www.thegiftagency.com,112-11 196th Street,,St. Albans,NY,11412,(718) 464-3543,Osayamen Asemota,bookings@thegiftagency.com,,,Queens,4,112-11,196 STREET
+Event Planning & Marketing,166,Party Line Tent Rentals,http://www.partylinerentals.com,21 Vreeland Avenue,,Elmsford,NY,10523,(914) 592-1200,Kathy Calabro,sales@partylinerentals.com,,,New York State,6,21,VREELAND AVENUE
+Exercise & Fitness,167,Body by Brooklyn Spa & Lounge,http://www.bodybybrooklyn.com,275 Park Avenue,,Brooklyn,NY,11205,(718) 923-9400,Mira Goldin,mira.goldin@bodybybrooklyn.com; puffgold98@aol.com,,yes,Brooklyn,3,275,PARK AVENUE
+Exercise & Fitness,169,Bikram Yoga NYC,http://www.bikramyoganyc.com,182 Fifth Ave,3rd Floor,New York,NY,10010,(212) 254-2525,Jennifer Lobo,jenlobo68@aol.com,,yes,Manhattan,1,182,FIFTH AVENUE
+Exercise & Fitness,170,Bikram Yoga NYC,http://www.bikramyoganyc.com,797 8th Avenue,4th Floor,New York,NY,10019,(212) 254-2525,Jennifer Lobo,jenlobo68@aol.com,,,Manhattan,1,797,8 AVENUE
+Exercise & Fitness,171,Bikram Yoga NYC,http://www.bikramyoganyc.com,208 West 72nd Street,2nd Floor,New York,NY,10023,(212) 254-2525,Jennifer Lobo,jenlobo68@aol.com,,,Manhattan,1,208,WEST 72 STREET
+Exercise & Fitness,172,Bikram Yoga NYC,http://www.bikramyoganyc.com,173 East 83rd St.,,New York,NY,10028,(212) 254-2525,Jennifer Lobo,jenlobo68@aol.com,,,Manhattan,1,173,EAST 83 STREET
+Exercise & Fitness,173,Blade Dance Academy,http://www.bdanyc.com,122 West 26th Street,room 1205,New York,NY,10001,(877) 462-6316,Nicola Linge,n.linge@blade-dance.com,,,Manhattan,1,122,WEST 26 STREET
+Exercise & Fitness,174,Church Street Boxing Gym,http://www.nyboxinggym.com,25 Park Place,,New York,NY,10007,(212) 571-1333,Carrie,info@churchstreetboxing.com,,yes,Manhattan,1,25,PARK PLACE
+Exercise & Fitness,175,Levitate Yoga,http://www.levitateyoga.com,780 Eighth Avenue,Suite 300,New York,NY,10036,(212) 974-2288,Connie Chan,connie@levitateyoga.com,,yes,Manhattan,1,780,EIGHTH AVENUE
+Exercise & Fitness,177,"Resilience + NMPST, LLC",http://www.sportstrengthtraining.com,115 West 69th Street,#7,New York,NY,10023,(646) 251-4763,Michael Gonzalez-Wallace,michaelgonzalezwallace@tmail.com,,yes,Manhattan,1,115,WEST 69 STREET
+Security,995,"Anchor Limousine Service, Inc",http://www.anchorlimousine.com,260 Lily Pond Avenue,,Staten Island,NY,10305,(718) 876-8389,Mary Jo Kammerer,info@anchorlimousine.com,,yes,Staten Island,5,260,LILY POND AVENUE
+Exercise & Fitness,178,The New York Center for Flamenco Performing Arts,http://www.artsflamenco.org,243 West 21st Street,Suite 3B,New York,NY,10011,(917) 667-2695,Jorge Navarro,artsflamenco@msn.com,,yes,Manhattan,1,243,WEST 21 STREET
+Exercise & Fitness,179,The Pilatium,http://www.pilatium.com,139 Fulton Street,Suite 309,New York,NY,10038,(212) 334-3779,Lisa Serradilla,lisa@pilatium.com,,yes,Manhattan,1,139,FULTON STREET
+Exercise & Fitness,180,The Sports Center at Chelsea Piers,http://www.chelseapiers.com/sc,Pier 60,Chelsea Piers,New York,NY,10011,(212) 336-6000,Dana Thayer,dbt@chelseapiers.com,,,Manhattan,1,,PIER 60
+Exercise & Fitness,182,"Titan Total Fitness, Inc.",http://www.Titantotalfitness.net,1745 Expressway Drive,,Hauppauge,NY,11788,(631) 233-3757,Rick Antinon,Rick@titantotalfitness.net,,yes,New York State,6,1745,EXPRESSWAY DRIVE
+Exercise & Fitness,183,Jiva On-Site Fitness,http://www.jivawellness.com,701 Mountainside Drive,,Southfields,NY,10975,(845) 661-9466,Mark Potempa,mark@jivawellness.com,,,New York State,6,701,MOUNTAINSIDE DRIVE
+Exercise & Fitness,184,Rab's Country Lanes,http://www.rabslanes.com,1600 Hylan Blvd,,Staten Island,NY,10305,(718) 979-1600,Frank Wilkinson,frankjwilkinson@aol.com,,,Staten Island,5,1600,HYLAN BOULEVARD
+Exercise & Fitness,185,Pilates on Fifth,http://www.pilatesonfifth.com,501 Fifth Avenue,22nd Floor,New York,NY,10017,(212) 687-6735,Leslie Riddle,leslie@pilatesonfifth.com,,yes,Manhattan,1,501,FIFTH AVENUE
+Flowers & Gifts,186,Calabar Imports,http://www.calabar-imports.com,820 Washington Avenue,,Brooklyn,NY,11238,(718) 638-4288,Atim Oton,info@calabar-imports,,,Brooklyn,3,820,WASHINGTON AVENUE
+Flowers & Gifts,187,Green in BKLYN,http://www.greeninbklyn.com,432 Myrtle Avenue,,Brooklyn,NY,11205,(718) 855-4383,Elissa Olin,greeninbklyn@gmail.com,,yes,Brooklyn,3,432,MYRTLE AVENUE
+Flowers & Gifts,188,Nature's Lane Florist & Gifts,,3 Metrotech Commons,,Brooklyn,NY,11201,(718) 855-4714,Franchot or Rose Lee,Franchotlee@yahoo.com,,,Brooklyn,3,3,METROTECH
+Flowers & Gifts,189,"CityStore, the Official Store of the City of New York",http://www.nyc.gov/citystore,1 Centre Street,"Manhattan Municipal Building, North Plaza",New York,NY,10007,(212) 669-2343,Susan Kerner,,,,Manhattan,1,1,CENTRE STREET
+Flowers & Gifts,190,Fill-R-Up,http://www.fill-r-up.com,197 East 76th Street,,New York,NY,10021,(212) 452-3026,?,orders@fill-r-up.com,,yes,Manhattan,1,197,EAST 76 STREET
+Flowers & Gifts,191,Jamali Garden Supplies,http://www.jamaligarden.com,149 West 28th Street,,New York,NY,10001,(212) 244-4025,Hewly Holstone,Clifton@jamaligarden.com,,,Manhattan,1,149,WEST 28 STREET
+Flowers & Gifts,192,Manhattan Fruitier,http://www.mfruit.com,105 East 29th Street,,New York,NY,10016,(212) 686-0404,Jeb-owner / Walter (contact),walterb@mfruit.com,,,Manhattan,1,105,EAST 29 STREET
+Flowers & Gifts,193,PANY Silk Flowers Corp.,,146 West 28th Street,,New York,NY,10001,(212) 645-9526,Mimi Rasamee/Jose Reyes,mimirasamee@yahoo.com,,,Manhattan,1,146,WEST 28 STREET
+Flowers & Gifts,194,The Gifted Ones Inc.,http://www.thegiftedones.com,44-02 11th Street,Suite 602,Long Island City,NY,11101,(212) 627-4050,David Titus,sales@thegiftedones.com,,yes,Queens,4,44-02,11 STREET
+Flowers & Gifts,195,Martin Jobes Design,http://www.martinjobesdesign.com,10 Liberty Street,11D,New York,NY,10005,(646) 436-1528,Naomi Martin,nkm@martinjobesdesign.com,,yes,Manhattan,1,10,LIBERTY STREET
+Flowers & Gifts,197,Susana's Gifts and Things,http://www.thegiftagency.com,112-11 196th Street,c/o The Gift Agency LLC,St. Albans,NY,11412,(718) 464-3543,Osayamen Asemota,booking@thegiftagency.com,,,Queens,4,112-11,196 STREET
+Food & Restaurants,198,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,76 West 225th Street,,Bronx,NY,10463,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Bronx,2,76,WEST 225 STREET
+Food & Restaurants,199,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,2276 Bartow Avenue,,Bronx,NY,10475,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Bronx,2,2276,BARTOW AVENUE
+Food & Restaurants,200,Good to Go - Italian & American Comfort Food,http://www.ordergoodtogo.com,1894 Eastchester Road,,Bronx,NY,10461,(718) 829-2222,Mario Costanz,mario@theproblemsolver.com,,yes,Bronx,2,1894,EASTCHESTER ROAD
+Food & Restaurants,201,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,395 Flatbush Avenue Extension,,Brooklyn,NY,11201,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Brooklyn,3,395,FLATBUSH AVENUE EXTENSION
+Food & Restaurants,202,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,1368 Fulton Street,,Brooklyn,NY,11216,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Brooklyn,3,1368,FULTON STREET
+Food & Restaurants,203,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,2501-2525 Emmons Avenue,,Brooklyn,NY,11235,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Brooklyn,3,2501,EMMONS AVENUE
+Food & Restaurants,204,Archive Bar & Restaurant at Brooklyn Marriott,http://www.brooklynmarriott.com,333 Adams Street,,Brooklyn,NY,11201,(718) 222-6543,Gary Byrne,gary.byrne@marriott.com,,yes,Brooklyn,3,333,ADAMS STREET
+Food & Restaurants,205,Down Under Bakery (DUB) Pies,http://www.dubpies.com,193 Columbia Street,,Brooklyn,NY,11231,(718) 989-0024,Gareth Hughes,gareth@dubpies.com,,yes,Brooklyn,3,193,COLUMBIA STREET
+Food & Restaurants,206,NY Perks,http://www.nyperks.com,193 Smith Street,,Brooklyn,NY,11201,(718) 237-2901,Aziz M. Bey,aziz@nyperks.com,,,Brooklyn,3,193,SMITH STREET
+Food & Restaurants,207,Uncle Louie G,http://www.unclelouieg.com,741 Union Street,,Brooklyn,NY,11215,(646) 529-6543,Rick Russo,unclelouiegrick@aol.com,,yes,Brooklyn,3,741,UNION STREET
+Food & Restaurants,209,Agozar Restaurant,http://www.agozarnyc.com,324 Bowery,,New York,NY,10012,(212) 677-6773,Gerardo Perez,info@agozarnyc.com,,,Manhattan,1,324,BOWERY
+Food & Restaurants,210,Ancora Restaurant,http://www.ancoraristorante.com,11 Stone Street,,New York,NY,10004,(212) 480-3880,Tony Fan,no email,,,Manhattan,1,11,STONE STREET
+Food & Restaurants,211,Arte Around the Corner,http://www.artearoundthecorner.com,274 Columbus Avenue,,New York,NY,10023,(212) 875-2195,Guido Veitucci,info@artearoundthecorner.com,,,Manhattan,1,274,COLUMBUS AVENUE
+Food & Restaurants,212,Baluchi's Indian Food,http://www.baluchis.com,275 Greenwich Street,,New York,NY,10007,(212) 571-5343,Arthur Peretra,275baluchis@verizon.net / a.pereira@rcn.com,,,Manhattan,1,275,GREENWICH STREET
+Food & Restaurants,214,Ten Degrees Bar,http://www.10degreesbar.com,121 Saint Marks Place,,New York,NY,10009,(212) 358-8600,Moti Hasson,tendegreesnyc@gmail.com,,yes,Manhattan,1,121,SAINT MARKS PLACE
+Food & Restaurants,215,Broadway Joe Steakhouse,http://www.broadwayjoesteakhouse.com,315 West 46th Street,,New York,NY,10036,(212) 246-6513,Patti Aagaard,bjsteakhouse@aol.com,,,Manhattan,1,315,WEST 46 STREET
+Production Company,998,Act Zero Media,http://www.actzerofilms.com,119 Ingraham Street,Suite 108,Brooklyn,NY,11237,(718) 366-7770,Garrett Fennelly,garrettfennelly@gmail.com,,,Brooklyn,3,119,INGRAHAM STREET
+Food & Restaurants,216,Bull Run Restaurant,http://www.bullrunwallstreet.com,52 William Street,,New York,NY,10005,(212) 859-2200,Maria Ioannon,bullrunw@aol.com,,,Manhattan,1,52,WILLIAM STREET
+Food & Restaurants,217,Butterfield 8 Restaurant & Lounge,http://www.Butterfield8NYC.com,5 East 38th St.,,New York,NY,10016,(212) 679-0646,John Gazzola,John@butterfield8nyc.com,,yes,Manhattan,1,5,EAST 38 STREET
+Food & Restaurants,219,Caffe Grazie,http://www.caffegrazie.com,26 East 84th Street,,New York,NY,10028,(212) 717-4407,Jennifer Mandell,jennifer@caffegrazie.com,,,Manhattan,1,26,EAST 84 STREET
+Food & Restaurants,220,Candle 79,http://www.candlecafe.com,154 East 79th Street,,New York,NY,10021,(212) 537-7179,Francesca MacAaron,chekkanyc@aol.com,,yes,Manhattan,1,154,EAST 79 STREET
+Food & Restaurants,221,Caracello Ristorante,,108 Greenwich Street,,New York,NY,10006,(212) 571-1177,Henry Martuscello,cagramare@aol.com,,,Manhattan,1,108,GREENWICH STREET
+Food & Restaurants,223,Chocolat Bla Bla Bla Ltd,http://www.chocolatblablabla.com,359 East 50th Street,,New York,NY,10022,(212) 759-5976,Lorraine Belmont,chocolatblablabla@yahoo.com,,yes,Manhattan,1,359,EAST 50 STREET
+Food & Restaurants,224,Coldstone Creamery,http://www.coldstonecreamery.com,2 Astor Place,,New York,NY,10003,(212) 228-4600,Dan Petryszyn,dpetryszyn@gmail.com,,,Manhattan,1,2,ASTOR PLACE
+Food & Restaurants,225,Colors Restaurant,http://www.colors-nyc.com,417 Lafayette Street,,New York,NY,10003,(212) 777-8443,,colors.restaurant@gmail.com,,,Manhattan,1,417,LAFAYETTE STREET
+Food & Restaurants,226,Don Ricardo Steakhouse,http://www.donricardosteakhouse.com,4460 Broadway,,New York,NY,10040,(212) 567-5766,,,,yes,Manhattan,1,4460,BROADWAY
+Food & Restaurants,228,East Side Bagel and Appetizing,,1496 First Avenue,,New York,NY,10021,(212) 794-1655,Haim Hassid,no email,,,Manhattan,1,1496,FIRST AVENUE
+Food & Restaurants,229,Economy Candy Corp.,http://www.economycandy.com,108 Rivington Street,,New York,NY,10002,(212) 254-1531,Jerry Cohen,economycandy@aol.com,,,Manhattan,1,108,RIVINGTON STREET
+Food & Restaurants,230,Galaxy Global Eatery,http://www.galaxyglobaleatery.com,15 Irving Place,,New York,NY,10003,(212) 777-3631,Denis Cicero,galstar@aol.com,,,Manhattan,1,15,IRVING PLACE
+Food & Restaurants,231,Garage Restaurant and Café,http://www.garagerest.com,99 Seventh Avenue South,,New York,NY,10014,(212) 645-0600,David Shenk,david@garagerest.com,,,Manhattan,1,99,SEVENTH AVENUE SOUTH
+"Camera, Grip & Lighting",999,"TCS, Inc./Technological Cinevideo Services, Inc.",http://www.tcsfilm.com,341 West 38th Street,4th Floor,New York,NY,10018,(212) 247-6517,Erik Schietinger,rental@tcsfilm.com,,yes,Manhattan,1,341,WEST 38 STREET
+Spa & Massage,1000,nuBest salon and spa,http://www.nubestsalon.com,1482 Northern Boulevard,,Manhasset,NY,11030,(516) 627-9444 ext. 28,Richard Piana,richard@nubestsalon.com,,yes,New York State,6,1482,NORTHERN BOULEVARD
+Food & Restaurants,232,Gavroche,http://www.gavroche-ny.com,212 West 14th Street,,New York,NY,10011,(212) 647-8553,Camelia Cassen,Ccassin@nyc.rr.com/ACSmithline@hotmail.com,,yes,Manhattan,1,212,WEST 14 STREET
+Food & Restaurants,233,Gobo Restaurant,http://www.goborestaurant.com,1426 3rd Avenue,,New York,NY,10028,(212) 288-4686,Danny Wong,danny.wong@goborestaurant.com,,,Manhattan,1,1426,3 AVENUE
+Food & Restaurants,234,Golden Bridge Restaurant,http://www.goldenbridgerestaurant.com,50 Bowery,Suite 2F,New York,NY,10013,(212) 227-8831,Michael Gee,no email,,,Manhattan,1,50,BOWERY
+Food & Restaurants,235,Golden Unicorn Restaurant,,18 East Broadway,,New York,NY,10002,(212) 941-0911,Peter Yau,peteyau@hotmail.com,,,Manhattan,1,18,EAST BROADWAY
+Food & Restaurants,236,Goodburger,http://www.goodburgerny.com,800 2nd Avenue,(@ 43rd St),New York,NY,10017,(212) 922-1700,Mike McGrath,raku7@aol.com,,yes,Manhattan,1,800,2 AVENUE
+Food & Restaurants,237,Green Tea Café,,45 Mott Street,,New York,NY,10013,(212) 693-2888,Yin Fong Lau Wu,no email,,,Manhattan,1,45,MOTT STREET
+Food & Restaurants,238,Grotta Azzurra,http://www.grottaazzurranyc.com,177 Mulberry Street,,New York,NY,10013,(212) 925-8775,Frank Castellana,psolano@grottaazzurrany.com,,yes,Manhattan,1,177,MULBERRY STREET
+Food & Restaurants,239,H&H Bagels,http://www.hhbagels.com,2239 Broadway,,New York,NY,10024,(212) 595-8000,Mr. Manolo,no email,,,Manhattan,1,2239,BROADWAY
+Location & Rental Space,240,Hello Deli,,213 West 53rd Street,,New York,NY,10019,(212) 489-7832,,,,yes,Manhattan,1,213,WEST 53 STREET
+Food & Restaurants,241,Jim Brady's Restaurant,http://www.jimbradys.com,75 Maiden Lane,,New York,NY,10038,(212) 425-1300,Paul Quinn,,,,Manhattan,1,75,MAIDEN LANE
+Food & Restaurants,242,JP Mustard Inc.,,22 Fulton Street,,New York,NY,10038,(212) 785-0612,Madan,mickarim@gmail.com,,,Manhattan,1,22,FULTON STREET
+Food & Restaurants,244,Lassi,,28 Greenwich Avenue,,New York,NY,10011,(212) 675-2688,Heather Carlucci,lassi4u@aol.com,,yes,Manhattan,1,28,GREENWICH AVENUE
+Food & Restaurants,245,Les Halles,http://www.leshalles.net,411 Park Avenue South,,New York,NY,10016,(212) 679-4111,Karyn Michaels,kmichaels@lhlmgroup.com,,,Manhattan,1,411,PARK AVENUE SOUTH
+Food & Restaurants,246,Les Halles Downtown,http://www.leshalles.net,15 John Street,,New York,NY,10038,(212) 285-8585,Karyn Michaels,kmichaels@leshalles.net,,,Manhattan,1,15,JOHN STREET
+Food & Restaurants,247,Mark Joseph Steakhouse,http://www.markjosephsteakhouse.com,261 Water Street,,New York,NY,10038,(212) 277-0020,Carol Ann Guerriero,vipsvcs@markjosephsteakhouse.com,,,Manhattan,1,261,WATER STREET
+"Camera, Grip & Lighting",1001,Silklining Productions,http://www.silkliningproductions.vpweb.com,160 East 28th Street,,New York,NY,10016,(212) 576-8849,David Carlo,airjetone@msn.com,,,Manhattan,1,160,EAST 28 STREET
+Food & Restaurants,248,Meli Melo Restaurant,http://www.melimelorestaurant.com,110 Madison Avenue,,New York,NY,10016,(212) 686-5551,Miriam Silverberg,silverbergm@iopener.net,,,Manhattan,1,110,MADISON AVENUE
+Food & Restaurants,250,Moda Restaurant and Bar,http://www.modany.com,135 West 52nd Street,,New York,NY,10019,(212) 887-9880,Brenda Pesce,pesceb@flatotel.com,,,Manhattan,1,135,WEST 52 STREET
+Food & Restaurants,251,Montebello Restaurant,http://www.montebellonyc.com,120 East 56th Street,,New York,NY,10022,(212) 753-1447,Joe Montebello,montebellonyc@hotmail.com,,,Manhattan,1,120,EAST 56 STREET
+Food & Restaurants,253,Nathan Hales Bar and Grill,http://www.nathanhales.citysearch.com,22 Warren Street,,New York,NY,10007,(212) 571-0776,Carl Christian,nathanhalesbar@yahoo.com,,,Manhattan,1,22,WARREN STREET
+Food & Restaurants,254,Nero Restaurant,http://www.neronyc.com,46 Gansevoort Street,,New York,NY,10014,(212) 675-5224,Guido Veitucci,info@neronyc.com,,,Manhattan,1,46,GANSEVOORT STREET
+Catering,255,New York Spring Water,http://www.newyorksprings.com,519 West 36th Street,,New York,NY,10018,(212) 777-4649,Richard Zakka,richardzakka@aol.com,,,Manhattan,1,519,WEST 36 STREET
+Food & Restaurants,256,O'Casey's Restaurant,,22 East 41st Street,,New York,NY,10017,(212) 685-6807,Hugh Ward,no email,,yes,Manhattan,1,22,EAST 41 STREET
+Food & Restaurants,258,Oliva Gourmet,http://www.olivany.net,225 Broadway,,New York,NY,10007,(212) 964-4496,Paul Sass,olivany@verizon.net,,,Manhattan,1,225,BROADWAY
+Food & Restaurants,259,Original Soup Man,http://www.originalsoupman.com,2 Astor Place,,New York,NY,10003,(212) 228-4600,Dan Petryszyn,dpetryszyn@gmail.com,,,Manhattan,1,2,ASTOR PLACE
+Food & Restaurants,260,Panini and Co.,,168 William Street,,New York,NY,10038,(212) 962-0222,Angelo Tzortzatos,no email,,,Manhattan,1,168,WILLIAM STREET
+Food & Restaurants,262,"Paradis to Go, LLC",http://www.paradistogo.com,114 4th Avenue,,New York,NY,10003,(646) 416-6709,Allison Sciplin,asciplin@gmail.com,,,Manhattan,1,114,4 AVENUE
+Food & Restaurants,263,Patuca Fine Food Eatery,,41 John Street,,New York,NY,10038,(212) 791-7687,* Timothy Kim,Patuca41@hotmail.com,,,Manhattan,1,41,JOHN STREET
+Food & Restaurants,264,Pearl Street Diner,,212 Pearl Street,,New York,NY,10038,(212) 344-6620,* Reuben,no email,,,Manhattan,1,212,PEARL STREET
+Food & Restaurants,265,Puff & Pao,http://www.puffandpao.com,105 Christopher Street,,New York,NY,10014,(212) 633-7833,Stephen W. Elliot,puffnpao@aol.com,,,Manhattan,1,105,CHRISTOPHER STREET
+Food & Restaurants,266,Pulse Restaurant and Bar,http://www.myriadrestaurantgroup.com,45 Rockefeller Plaza,3rd Floor,New York,NY,10111,(212) 218-8664,Nicholas Castiglione,Nlione@aol.com,,,Manhattan,1,45,ROCKEFELLER PLAZA
+Food & Restaurants,267,Rack and Soul,http://www.rackandsoul.com,258 West 109th Street,,New York,NY,10025,(646) 320-9894,Michael Eberstadt,michael@rackandsoul.com,,,Manhattan,1,258,WEST 109 STREET
+Food & Restaurants,268,Rosario's Bistro,http://www.rosariosmenu.com,38 Pearl Street,,New York,NY,10004,(212) 514-5763,Joe Crasci,santino@aol.com,,yes,Manhattan,1,38,PEARL STREET
+Food & Restaurants,269,Sarabeth's Restaurant,http://www.sarabethscps.com,40 Central Park South,,New York,NY,10019,(212) 826-5959,Stewart W. Rosen,swr47@verizon.net,,,Manhattan,1,40,CENTRAL PARK SOUTH
+Food & Restaurants,270,Suspenders Bar & Restaurant,http://www.suspendersbar.com,111 Broadway,,New York,NY,10006,(212) 732-5005,Mala Perng,mala@monsoonfilmsinc.com,,yes,Manhattan,1,111,BROADWAY
+Food & Restaurants,272,Swizz Restaurant Wine and Bar,http://www.1291swizz.com,310 West 53rd Street,,New York,NY,10019,(212) 810-4444,Ruth Waser,ruth@1291swizz.com,,,Manhattan,1,310,WEST 53 STREET
+Food & Restaurants,273,TAJ Restaurant & Lounge,http://www.tajlounge.com,48 West 21st Street,,New York,NY,10010,(212) 620-3033,Ruth Tranter,rtranter@tajlounge.com,,,Manhattan,1,48,WEST 21 STREET
+Food & Restaurants,274,The Beekman Pub,http://www.thebeekmanpub.com,15 Beekman Street,,New York,NY,10038,(212) 732-7333,James or Ed Robinson,no email,,,Manhattan,1,15,BEEKMAN STREET
+Food & Restaurants,275,The Bubble Lounge,http://www.bubblelounge.com,228 West Broadway,,New York,NY,10013,(212) 431-3433,Emmanuelle Chiche,emchiche@bubblelounge.com,,,Manhattan,1,228,WEST BROADWAY
+Food & Restaurants,276,The Palm Tribeca,http://www.thepalm.com,206 West Street,,New York,NY,10013,(646) 395-6393,Shaina Nestor,snestor@thepalm.com,,,Manhattan,1,206,WEST STREET
+Food & Restaurants,277,The Whiskey,http://www.mocbars.com,1567 Broadway,,New York,NY,0,multiple,Noah Weinstein,nweinstein@mocbars.com,,,Manhattan,1,1567,BROADWAY
+Food & Restaurants,278,Tio Pepe Restaurant,http://www.tiopepenyc.com,168 West 4th Street,,New York,NY,10014,(212) 242-9338,Jimmy,info@tiopepenyc.com,,,Manhattan,1,168,WEST 4 STREET
+Food & Restaurants,279,Tuck Shop,http://www.tuckshopnyc.com,68 East 1st Street,,New York,NY,10003,(212) 979-5200 / cell. (917) 603-74664,Niall Grant,Niall@tuckshopnyc.com,,,Manhattan,1,68,EAST 1 STREET
+Food & Restaurants,280,Underbar,http://www.mocbars.com,201 Park Avenue South,,New York,NY,0,multiple,Noah Weinstein,nweinstein@mocbars.com,,,Manhattan,1,201,PARK AVENUE SOUTH
+Food & Restaurants,281,Utsav Restaurant and Lounge,http://www.utsavny.com,1185 Avenue of the Americas,,New York,NY,10036,(212) 575-2525,Nandita Kothari,nandita@utsavny.com,,,Manhattan,1,1185,AVENUE OF THE AMERICAS
+Food & Restaurants,283,Wall Street Caterers,http://www.wallstreetcaterers.com,241 Pearl Street,,New York,NY,10038,(212) 406-6600,Dave Walunas and Chris,filmliaison@wallstreetcaterers.com,,,Manhattan,1,241,PEARL STREET
+Food & Restaurants,284,Waterstone Grill,http://www.waterstonegrill.com,79 Pearl Street,,New York,NY,10004,(212) 943-1602,Brian Jackson,brianjackson@waterstonegrill.com,,,Manhattan,1,79,PEARL STREET
+Food & Restaurants,285,West Bank Café,http://www.westbankcafe.com,407 West 42nd Street,,New York,NY,10036,(212) 695-6906,Raissa Lopez,party@westbankcafe.com,,,Manhattan,1,407,WEST 42 STREET
+Food & Restaurants,286,Wetbar,http://www.mocbars.com,130 East 39th Street,,New York,NY,0,multiple,Noah Weinstein,nweinstein@mocbars.com,,,Manhattan,1,130,EAST 39 STREET
+Food & Restaurants,287,Whiskey Park,http://www.mocbars.com,100 Central Park South,,New York,NY,0,multiple,Noah Weinstein,nweinstein@mocbars.com,,,Manhattan,1,100,CENTRAL PARK SOUTH
+Food & Restaurants,288,Maggie's Place,http://www.maggiesnyc.com,21 East 47th Street,,New York,NY,10017,(212) 753-5757,Victoria Delany,maggiesplace@erols.com,,yes,Manhattan,1,21,EAST 47 STREET
+Food & Restaurants,289,Café Metro (all locations),http://www.cafemetrony.com,22 East 41st Street,4th Floor,New York,NY,10017,"(212) 983-7474, ext. 114",Ty Sullivan,tysully@cafemetrony.com,,yes,Manhattan,1,22,EAST 41 STREET
+Food & Restaurants,290,Stuffed Artisan Cannolis,http://www.stuffedcannoli.com,176 Stanton Street,,New York,NY,10002,(212) 995-2266,Brielle Dahan,info@stuffedcannoli.com,,yes,Manhattan,1,176,STANTON STREET
+Food & Restaurants,291,Maharaja Indian Restaurant,,133 East 45th Street,,New York,NY,10017,(212) 682-7962,Mr. Rana,tutu26@earthlink.net,,,Manhattan,1,133,EAST 45 STREET
+Food & Restaurants,292,Local Labels,http://www.locallabels.com,46-01 5th Street,,Long Island City,NY,11101,(877) 283-6427,Loren Talbot,info@LocalLabels.com,,yes,Queens,4,46-01,5 STREET
+Food & Restaurants,293,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,1 Mall Walk West,,Yonkers,NY,10704,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,New York State,6,1,MALL WALK WEST
+Food & Restaurants,294,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,90-15 Queens Boulevard,,Elmhurst,NY,11201,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Queens,4,90-15,QUEENS BOULEVARD
+Food & Restaurants,295,Lil' Bistro 33,http://www.lilbistro33.com,33-04 36th Avenue,,Long Island City,NY,11106,(718) 609-1367,Gary Anza,Lilbistro33@aol.com,,,Queens,4,33-04,36 AVENUE
+Food & Restaurants,296,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,213-29 26th Avenue,,Queens,NY,11360,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Queens,4,213-29,26 AVENUE
+Food & Restaurants,297,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,61-48 188th Street,,Queens,NY,11365,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Queens,4,61-48,188 STREET
+Food & Restaurants,298,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,95-25 Queens Boulevard,,Rego Park,NY,11374,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Queens,4,95-25,QUEENS BOULEVARD
+Food & Restaurants,299,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,430 New Dorp Lane,,Staten Island,NY,10306,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Staten Island,5,430,NEW DORP LANE
+Food & Restaurants,300,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,2720 Veterans Road West,,Staten Island,NY,10309,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Staten Island,5,2720,VETERANS ROAD WEST
+Food & Restaurants,301,Applebees Neighborhood Bar and Grill,http://www.applemetrorestaurants.com,2655 Richmond Avenue,,Staten Island,NY,10314,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,yes,Staten Island,5,2655,RICHMOND AVENUE
+Food & Restaurants,302,Chevy's Fresh Mex,http://www.chevysny.com/EN/index.html,2690 Hylan Boulevard,,Staten Island,NY,10306,(212) 262-4022,Stephen R. Ekstrom,stephen.ekstrom@applemetro.com,,,Staten Island,5,2690,HYLAN BOULEVARD
+Food & Restaurants,303,Anella,http://www.anellabrooklyn.com,222 Franklin Street,,Brooklyn,NY,11222,(718) 389-8100,Josh Cohen,bluedogcohen@yahoo.com,,yes,Brooklyn,3,222,FRANKLIN STREET
+Food & Restaurants,304,New York Ice Cream Co.,http://www.ny-icecream.com,1241 McDonald Avenue,,Brooklyn,NY,11230,(718) 253-5093,Greg Fosdal,nyicecream1@aol.com,,yes,Brooklyn,3,1241,MCDONALD AVENUE
+Food & Restaurants,305,Sutra Lounge,http://www.sutranyc.com,16 First Avenue,,New York,NY,10009,(212) 677-9477,Ariel Palitz,ariel@sutranyc.com,,,Manhattan,1,16,FIRST AVENUE
+Recycling & Waste Removal,307,"Always Pristine, LLC",http://www.alwayspristine.com,700 Lenox Avenue,Suite 4A,New York,NY,10039,(877) 778-7748,Keesha Gibson,alwayspristine1@aol.com,,,Manhattan,1,700,LENOX AVENUE
+Groups & Associations,309,IFP (Independent Feature Project),http://www.ifp.org,104 West 29th Street,12th Floor,New York,NY,10001,"(212) 465-8200, ext. 201",Mitch (Membership Coordinator),newyorkmembership@ifp.org,,,Manhattan,1,104,WEST 29 STREET
+Hair & Makeup,310,SUPERCUTS,http://www.supercuts.com,2122 86th Street,,Bensonhurst,NY,11214,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Brooklyn,3,2122,86 STREET
+Hair & Makeup,311,SUPERCUTS,http://www.supercuts.com,108 Montague Street,,Brooklyn,NY,11201,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Brooklyn,3,108,MONTAGUE STREET
+Hair & Makeup,313,DEX,"http://www.dexnewyork.com, http://www.dexnewyorkstudios.com",224 West 30th Street,,New York,NY,10001,(212) 643-3188,Alice An,dexter@dexnewyork.com,,,Manhattan,1,224,WEST 30 STREET
+Hair & Makeup,314,Make-Up-Center,,150 West 55th Street,,New York,NY,10019,(212) 977-9494,Kurt Tauss,ktauss@nyc.rr.com,,yes,Manhattan,1,150,WEST 55 STREET
+Hair & Makeup,315,Salon Santa Cruz,http://www.salonsantacruz.com,254 Fifth Avenue,,New York,NY,10001,(212) 684-2386,Joanna Santa Cruz,salonsc@aol.com,,,Manhattan,1,254,FIFTH AVENUE
+Hair & Makeup,316,SUPERCUTS,http://www.supercuts.com,69 University Place,,New York,NY,10003,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,69,UNIVERSITY PLACE
+Hair & Makeup,317,SUPERCUTS,http://www.supercuts.com,19-23 St. Mark¿s Place,,New York,NY,10003,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,19-23,ST MARK'S PLACE
+Hair & Makeup,318,SUPERCUTS,http://www.supercuts.com,378 Avenue of the Americas,,New York,NY,10011,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,378,AVENUE OF THE AMERICAS
+Hair & Makeup,319,SUPERCUTS,http://www.supercuts.com,460 Third Avenue,,New York,NY,10016,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,460,THIRD AVENUE
+Hair & Makeup,320,SUPERCUTS,http://www.supercuts.com,1149 Second Avenue,,New York,NY,10021,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,1149,SECOND AVENUE
+Hair & Makeup,321,SUPERCUTS,http://www.supercuts.com,1292 First Avenue,,New York,NY,10021,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,1292,FIRST AVENUE
+Hair & Makeup,322,SUPERCUTS,http://www.supercuts.com,410 Columbus Ave,,New York,NY,10024,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,410,COLUMBUS AVENUE
+Hair & Makeup,323,SUPERCUTS,http://www.supercuts.com,2675 Broadway,,New York,NY,10025,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,2675,BROADWAY
+Hair & Makeup,324,SUPERCUTS,http://www.supercuts.com,2481 Broadway,,New York,NY,10025,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,2481,BROADWAY
+Hair & Makeup,325,SUPERCUTS,http://www.supercuts.com,1632 Second Avenue,,New York,NY,10028,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,1632,SECOND AVENUE
+Hair & Makeup,326,SUPERCUTS,http://www.supercuts.com,1732 1st Avenue,,New York,NY,10128,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Manhattan,1,1732,1 AVENUE
+Hair & Makeup,328,SUPERCUTS,http://www.supercuts.com,4104 Bell Blvd.,,Bayside,NY,11361,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Queens,4,41-04,BELL BOULEVARD
+Hair & Makeup,329,SUPERCUTS,http://www.supercuts.com,118-10 Queens Boulevard,,Forest Hills,NY,11375,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Queens,4,118-10,QUEENS BOULEVARD
+Hair & Makeup,330,SUPERCUTS,http://www.supercuts.com,2714 Hylan Boulevard,,Staten Island,NY,11306,(212) 357-6733,Jeanne E. Hauser/Stephanie Melstein,Jeannepsu@comcast.net,,yes,Staten Island,5,2714,HYLAN BOULEVARD
+Catering,1002,Crown Jewel Catering,http://www.crownjewelcatering.com,118-05 200 Street,,Saint Albans,NY,11412,(888) 850-3342,Ronald C. Floyd / Lionel J. Carrington,info@crownjewelcatering.com,,yes,Queens,4,118-05,200 STREET
+Hardware & Tools,333,Sid's Harware and Home Center Corporation,http://www.sidshardware.com,345 Jay Street,,Brooklyn,NY,11201,(718) 875-2259,Michael Gold,no email,,,Brooklyn,3,345,JAY STREET
+Hardware & Tools,334,AAA Fulton Supply Inc.,,74 Fulton Street,,New York,NY,10038,(212) 587-4088,Alex Portnoy,AVPortnoy@yahoo.com,,,Manhattan,1,74,FULTON STREET
+Hardware & Tools,335,American Home Hardware & More,,590 9th Avenue,,New York,NY,10036,(212) 765-7357,Felix Atlasman,felixatlas@yahoo.com,,,Manhattan,1,590,9 AVENUE
+Hardware & Tools,336,Artie's Hardware & Locksmith,http://www.locksmithnyc.com,140 West 14th Street,,New York,NY,10011,(212) 243-0381,Joshua Milstein,info@locksmithnyc.com,,yes,Manhattan,1,140,WEST 14 STREET
+Hardware & Tools,337,New Hippodrome Hardware Corp.,http://www.truevalue.com,23 West 45th Street,,New York,NY,10036,(212) 840-2791,David/Gary/Tino,no email,,,Manhattan,1,23,WEST 45 STREET
+Hardware & Tools,338,Reimer Locksmith,,129 East 45th Street,,New York,NY,10017,(212) 818-1550,Cory Grumet,no email,,yes,Manhattan,1,129,EAST 45 STREET
+Hardware & Tools,339,Trade Center Locksmith and Hardware,http://www.tradecenterlocksmithandhardware.com,45 New Street,,New York,NY,10004,(212) 962-1086,Kevin Shahidi,tradecenterlock@yahoo.com,,,Manhattan,1,45,NEW STREET
+Hardware & Tools,340,Westchester Tool Rentals,http://www.wtrrentals.com,11 Vreeland Avenue,,Elmsford,NY,10523,(914) 592-2016,Kenny Puff,kennypuff@wtrrentals.com,,yes,New York State,6,11,VREELAND AVENUE
+Marine & Water Services,565,NY Waterway Tours,http://www.nywaterway.com,Pier 78,West 38th Street at 12th Avenue,New York,NY,10018,(201) 370-3659,Dana Monaghan,dana@nywaterway.com,,,Manhattan,1,,PIER 78
+Wardrobe,912,"Zohreh Uomo, Inc.",,220 East 54th Street,,New York,NY,10022,(212) 308-2090,Sean,zohreh.nyc@verizon.net,,,Manhattan,1,220,EAST 54 STREET
+Marine & Water Services,566,Shearwater Holdings Inc.,http://www.shearwatersailing.com,198 Broadway,Suite 806,New York,NY,10038,(212) 619-0885,Thomas Berton,tom@shearwatersailing.com,,,Manhattan,1,198,BROADWAY
+Marine & Water Services,567,SilverScreen Marine,http://www.silverscreenmarine.com,127 East 10th Street,#7/8,New York,NY,10003,(212) 505-0694,Adam Brown,info@silverscreenmarine.com,,,Manhattan,1,127,EAST 10 STREET
+Marine & Water Services,568,Delta Mike Marine Charters,,205 East 4th Street,,Brooklyn,NY,11218,(646) 649-6323,Andrew Dilauro,dmednick@comcast.net,,yes,Brooklyn,3,205,EAST 4 STREET
+Medical Services,569,Citywide Mobile Response Corp.,,1624 Stillwell Avenue,,Bronx,NY,10461,(718) 597-6100,Larry Fawcet,larryfawcett@optonline.net,,yes,Bronx,2,1624,STILLWELL AVENUE
+Medical Services,570,Midwood Ambulance,http://www.midwoodambulance.com,2593 West 13th Street,,Brooklyn,NY,11223,(718) 645-1000,John Rapisarda,JohnR@midwoodambulance.com,,,Brooklyn,3,2593,WEST 13 STREET
+Medical Services,571,10/10 Optics,http://www.1010optics.com,168 5th Avenue,,New York,NY,10010,(212) 366-1010,Ruth Domber,optics1010@aol.com,,,Manhattan,1,168,5 AVENUE
+Medical Services,572,Alban Acupuncture and Herbs,http://www.albanacupuncture.com,59 West 19th Street,Suite 6C,New York,NY,10011,(917) 887-4946,Joseph Alban,joseph@albanacupuncture.com,,,Manhattan,1,59,WEST 19 STREET
+Hotels,343,Escape Guesthouse LLC,http://www.escapeguesthouse.com,168 Bergen Street,,Brooklyn,NY,11217,(718) 243-1171,Elizabeth Kennick,info@escapeguesthouse.com,,yes,Brooklyn,3,168,BERGEN STREET
+Hotels,344,Holiday Inn Express Brooklyn,http://www.expressbrooklyn.com,625 Union Street,,Brooklyn,NY,11215,(718) 797-1133,Cathy Pascale,cathy.pascale@expressbrooklyn.com,,,Brooklyn,3,625,UNION STREET
+Hotels,345,New York Marriott Brooklyn,http://www.brooklynmarriott.com,333 Adams Street,,Brooklyn,NY,11201,(212) 704-8737,Judy Tang,judy.tang@marriott.com,,,Brooklyn,3,333,ADAMS STREET
+Hotels,346,60 Thompson,http://www.60thompson.com,60 Thompson Street,,New York,NY,10012,(212) 204-6464,Pablo Migoya,no email,,yes,Manhattan,1,60,THOMPSON STREET
+Hotels,347,Ace Hotel New York,http://www.acehotel.com/newyork,20 West 29th Street,,New York,NY,10001,(212) 679-2222,Tiffany Richards,tiffany.richards@acehotel.com,,yes,Manhattan,1,20,WEST 29 STREET
+Hotels,348,Affinia 50,http://www.affinia.com,155 East 50th Street,,New York,NY,10022,(646) 424-2626,Tracy Parrillo,tparrillo@affinia.com,,yes,Manhattan,1,155,EAST 50 STREET
+Wardrobe,947,312 Livingston Footwear dba Claro Shoes,http://www.clarotallandwide.com,312 Livingston Street,,Brooklyn,NY,11217,(718) 875-2981,Ocelia Claro,oceliaclaro@aol.com,,yes,Brooklyn,3,312,LIVINGSTON STREET
+Hotels,349,Affinia Dumont Plaza Hotel,http://www.affinia.com/NYC-Hotel/Affinia-Dumont/Overview.cfm,150 East 34th Street,,New York,NY,10016,(646) 424-2626,Tracy Parrillo,tparrillo@affinia.com,,yes,Manhattan,1,150,EAST 34 STREET
+Hotels,350,Affinia Gardens,http://www.affinia.com,215 East 64th Street,,New York,NY,10021,(646) 424-2626,Tracy Parrillo,tparrillo@affinia.com,,yes,Manhattan,1,215,EAST 64 STREET
+Hotels,351,Affinia Manhattan,http://www.affinia.com,371 Seventh Avenue,,New York,NY,10001,(646) 424-2626,Tracy Parrillo,tparrillo@affinia.com,,yes,Manhattan,1,371,SEVENTH AVENUE
+Hotels,352,aka: Central Park,http://www.stayaka.com,42 West 58th Street,,New York,NY,10019,(866) 561-6863,Virginia Ditto,athompson@kormancommunities.com,,yes,Manhattan,1,42,WEST 58 STREET
+Hotels,353,aka: Sutton Place,http://www.thesutton.com,330 East 56th Street,,New York,NY,10022,(212) 752-8888,Maggie Landon,no email,,yes,Manhattan,1,330,EAST 56 STREET
+Hotels,354,aka: Times Square,http://www.stayaka.com,123 West 44th Street,,New York,NY,10036,(212) 575-5053,Stephanie Erceg,athompson@kormancommunities.com,,yes,Manhattan,1,123,WEST 44 STREET
+Hotels,355,aka: United Nations,http://www.stayaka.com,234 West 46th Street,,New York,NY,10017,(646) 291-4205,Noel Hernandez,nhernandez@kormancommunities.com,,yes,Manhattan,1,234,WEST 46 STREET
+Hotels,356,Alex Hotel,http://www.thealexhotel.com,205 East 45th Street,,New York,NY,10017,(212) 850-6558,Ashley Rothkopf,arothkopf@thealexhotel.com,,yes,Manhattan,1,205,EAST 45 STREET
+Hotels,357,Ameritania Hotel,http://www.ameritanianyc.com,230 West 54th Street,,New York,NY,10019,(212) 292-5547,Michael Shepard,mshepard@amsterdamhospitality.com,,yes,Manhattan,1,230,WEST 54 STREET
+Hotels,358,Beekman Tower Hotel,http://www.affinia.com/NYC-Hotel/Beekman-Tower/Overview.cfm,3 Mitchell Place,,New York,NY,10017,(646) 424-2631,Bruce Simms,bsimms@affinia.com,,,Manhattan,1,3,MITCHELL PLACE
+Hotels,359,Belvedere Hotel,http://www.belevederehotelnyc.com,319 West 48th Street,,New York,NY,10036,(212) 245-7000,Beth Roldan,beth.roldan@belvederehotelnyc.com,,,Manhattan,1,319,WEST 48 STREET
+Hotels,360,Bentley Hotel,http://www.bentleyhotelnyc.com,500 East 62nd Street,,New York,NY,10065,(212) 292-5547,Michael Shepard,mshepard@amsterdamhospitality.com,,yes,Manhattan,1,500,EAST 62 STREET
+Hotels,361,Best Western Bowery Hanbee Hotel,http://www.bw-boweryhanbeehotel.com,231 Grand Street,,New York,NY,10013,(212) 925-1133,Jeffrey Reich-Hale,jeffrey.hale@ihrco.com,,,Manhattan,1,231,GRAND STREET
+Wardrobe,914,Borrow My Eye,http://www.indaderector.com,211 Mott Street,,New York,NY,10012,(212) 680-3023,,,,yes,Manhattan,1,211,MOTT STREET
+Hotels,362,Comfort Inn Midtown West,http://www.comfortnyc.com,442 West 36th Street,,New York,NY,10018,(212) 714-6699,Nicole Barr,nbarr@geminihospitality.com,,yes,Manhattan,1,442,WEST 36 STREET
+Hotels,363,Comfort Inn Theater District,http://www.comfortnyc.com,305 West 39th Street,,New York,NY,10018,(212) 268-3040,Nicole Barr,nbarr@geminihospitality.com,,yes,Manhattan,1,305,WEST 39 STREET
+Hotels,364,Fairfield Inn Times Square,http://www.fairfieldinntimessquare.com,330 West 40th Street,,New York,NY,10018,(646) 666-4611,Violet Robinson,violet.robinson@marriott.com,,yes,Manhattan,1,330,WEST 40 STREET
+Hotels,365,Four Points by Sheraton Midtown Times Square,http://www.fourpointsmidtowntimessquare.com,326 West 40th Street,,New York,NY,10018,(212) 967-8585,Patricia Troy,patricia.troy@fourpointsmidtowntimessquare.com,,yes,Manhattan,1,326,WEST 40 STREET
+Hotels,366,Grand Hyatt New York,http://www.grandnewyork.hyatt.com,Park Avenue @ Grand Central,,New York,NY,10017,(646) 213-6813,Peter Tse,peter.tse@hyatt.com,,yes,Manhattan,1,109,EAST 42 STREET
+Hotels,367,Hampton Inn SoHo,http://www.hamptonsohonyc.com,54 Watts Street,,New York,NY,10013,(212) 226-6288,Bertrand Douxami,bertrand.douxami@hilton.com,,yes,Manhattan,1,54,WATTS STREET
+Hotels,368,Jumeirah Essex House,http://www.jumeirah.com,160 Central Park South,,New York,NY,10019,(212) 484-5137,Leslie Hammond,leslie.hammond@jumeirah.com,,yes,Manhattan,1,160,CENTRAL PARK SOUTH
+Hotels,369,Manhattan/Upper East Side Courtyard by Marriott,http://www.marriott.com/nycmh,410 East 92nd Street,,New York,NY,10128,(917) 492-3718,Shannon Darlington,shannon.darlington@marriott.com,,yes,Manhattan,1,410,EAST 92 STREET
+Hotels,370,Marcel Hotel,http://www.marcelhotelnyc.com,201 East 24th Street,,New York,NY,10010,(212) 292-5547,Michael Shepard,mshepard@amsterdamhospitality.com,,yes,Manhattan,1,201,EAST 24 STREET
+Hotels,371,The GEM Hotel Chelsea,http://www.thegemhotel.com,300 West 22nd Street,,New York,NY,10011,(212) 675-1911,Nicole Barr,nbarr@geminihospitality.com,,yes,Manhattan,1,300,WEST 22 STREET
+Hotels,372,The GEM Hotel Midtown,http://www.thegemhotel.com,449 West 36th Street,,New York,NY,10018,(212) 967-7206,Nicole Barr,nbarr@geminihospitality.com,,yes,Manhattan,1,449,WEST 36 STREET
+Hotels,373,The GEM Hotel Soho,http://www.thegemhotel.com,135 East Houston Street,,New York,NY,10002,(212) 358-8844,Nicole Barr,nbarr@geminihospitality.com,,yes,Manhattan,1,135,EAST HOUSTON STREET
+Hotels,374,Wyndham Garden Hotel Chelsea,http://www.wyndhamnyc.com,37 West 24th Street,,New York,NY,10010,(212) 243-0800,Nicole Barr,nbarr@geminihospitality.com,,yes,Manhattan,1,37,WEST 24 STREET
+Hotels,375,Blue Moon Hotel,http://www.bluemoon-nyc.com,100 Orchard Street,,New York,NY,10002,(212) 533-9080,Miriam Cruz,"miriam@bluemoon-nyc.com, info@bluemoon-nyc.com",,yes,Manhattan,1,100,ORCHARD STREET
+Hotels,376,Bryant Park Hotel,http://www.bryantparkhotel.com,40 West 40th Street,,New York,NY,10018,(212) 642-2108,Adolfo Ramirez,aramirez@bryantparkhotel.com,,yes,Manhattan,1,40,WEST 40 STREET
+Hotels,377,Courtyard NY Manhattan / Fifth Avenue,http://marriott.com/property/propertypage/NYCES,30 East 40th Street,,New York,NY,11016,(212) 704-8737,Judy Tang,judy.tang@marriott.com,,,Manhattan,1,30,EAST 40 STREET
+Hotels,378,Courtyard NY Manhattan Times Square South by Marriott,http://www.courtyardtimessquare.com,114 West 40th Street,,New York,NY,10018,(212) 704-8737,Judy Tang,judy.tang@marriott.com,,,Manhattan,1,114,WEST 40 STREET
+Hotels,379,Crowne Plaza at the United Nations,http://www.unitednationsarea.crowneplaza.com,304 East 42nd Street,,New York,NY,10017,(212) 986-8800,Sales Department,sales@cpun.net,,,Manhattan,1,304,EAST 42 STREET
+Hotels,380,70 Park Ave Hotel,http://www.70parkave.com,70 Park Avenue,@ 38th Street,New York,NY,10016,(212) 973-2448,Vincent Sciabarassi,vincent.sciabarassi@70parkave.com,,,Manhattan,1,70,PARK AVENUE
+Hotels,381,Doubletree Guest Suites Times Square-New York City,http://www.doubletree.com,1568 Broadway,,New York,NY,10036,(212) 403-6306,Teresita Buckley,tbuckley@DTNYC.com,,,Manhattan,1,1568,BROADWAY
+Hotels,382,Doubletree Metropolitan Hotel New York City,http://www.metropolitanhotelnyc.com,569 Lexington Avenue,,New York,NY,10022,(212) 350-6050,Danielle Dymond,no email,,,Manhattan,1,569,LEXINGTON AVENUE
+Hotels,383,Dream Hotel,http://www.dreamny.com,210 West 55th Street,,New York,NY,10019,(212) 247-2000,Will call back with name and information for current sales manager 4/28,,,,Manhattan,1,210,WEST 55 STREET
+Hotels,384,Dylan,http://www.dylanhotel.com,52 East 41st Street,,New York,NY,10017,(866) 553-9526 / (212) 338-0500,David Chu,no email,,,Manhattan,1,52,EAST 41 STREET
+Hotels,385,Embassy Suites Hotel,http://www.embassysuites.com,102 North End Avenue,,New York,NY,10281,(646) 769-4422,Michael Hernandez,no email,,,Manhattan,1,102,NORTH END AVENUE
+Hotels,386,Exchange Hotel and Lounge,http://www.exchangehotel.com/,129 Front Street,,New York,NY,10005,(212) 742-0003,Rani Carr,sales@seaportsuites.com,,yes,Manhattan,1,129,FRONT STREET
+Hotels,387,Fitzpatrick Grand Central Hotel,http://www.fitzpatrickhotels.com,141 East 44th Street,,New York,NY,10017,(212) 351-6870,David Ferdinand,no email,,,Manhattan,1,141,EAST 44 STREET
+Hotels,388,Flatotel,http://www.flatotel.com,135 West 52nd Street,,New York,NY,10019,(212) 887-9475,Brenda Pesce,pesceb@flatotel.com,,yes,Manhattan,1,135,WEST 52 STREET
+Hotels,389,Gramercy Park Hotel,http://www.gramercyparkhotel.com,2 Lexington Avenue,,New York,NY,10012,(212) 920-3300,Daemon O'Neil,doneil@gramercyparkhotel.com,,,Manhattan,1,2,LEXINGTON AVENUE
+Hotels,390,Grand Union Hotel,http://www.hotelgrandunion.com,34 East 32nd Street,,New York,NY,10016,(212) 683-5890,Ms. Tozen Ali,grandunionhotel@aol.com,,,Manhattan,1,34,EAST 32 STREET
+Hotels,391,Helmsley Carlton House,http://www.helmsleyhotels.com,680 Madison Avenue,,New York,NY,10021,(212) 838-3000,Edward Haworth,hfazal@helmsleyhotels.com,,,Manhattan,1,680,MADISON AVENUE
+Hotels,392,Holiday Inn Downtown,http://www.holidayinn-nyc.com,138 Lafayette Street,,New York,NY,10013,(212) 941-4170,Cathy Pascale,Cathy@hidowntown-nyc.com,,,Manhattan,1,138,LAFAYETTE STREET
+Hotels,393,Holiday Inn Midtown (57th Street),http://www.hi57.com,440 West 57th Street,,New York,NY,10019,(212) 634-5322,Denise Mondrey-Brunson,no email,,,Manhattan,1,440,WEST 57 STREET
+Hotels,394,Hotel Chandler,http://www.hotelchandler.com,12 East 31st Street,,New York,NY,10016,(646) 218-4400,Simon van Kempen,simonvankempen@hotelchandler.com,,,Manhattan,1,12,EAST 31 STREET
+Hotels,395,Hotel Gansevoort,http://www.hotelgansevoort.com,18 Ninth Avenue,,New York,NY,10014,(212) 660-6744,Crystal Laurence,crystal@hotelgansevoort.com,,,Manhattan,1,18,NINTH AVENUE
+Hotels,397,Hotel Giraffe,http://www.hotelgiraffe.com,365 Park Avenue South,,New York,NY,10016,(212) 685-7700,Jennifer Villanueva,jennifer@hotelgiraffe.com,,,Manhattan,1,365,PARK AVENUE SOUTH
+Hotels,398,Hotel Plaza Athenee,http://www.plaza-athenne.com,37 East 64th Street,,New York,NY,10021,(212),Christopher Cestari,,,yes,Manhattan,1,37,EAST 64 STREET
+Hotels,399,Hotel Roger Williams,http://www.hotelrogerwilliams.com,131 Madison Avenue,,New York,NY,10016,(212) 448-7272,Stephen Redford,sredford@hotelrogerwilliams.com,,,Manhattan,1,131,MADISON AVENUE
+Hotels,400,Hotel Thirty Thirty,http://www.3030nyc.com,30 East 30 Street,,New York,NY,10016,(212) 689-1900,Kerry Bennett,no email,,,Manhattan,1,30,EAST 30 STREET
+Hotels,401,Hotel Wolcott,http://www.wolcott.com,4 West 31st Street,,New York,NY,10001,(212) 268-2900,Scott Erlich,serlich@wolcott.com,,yes,Manhattan,1,4,WEST 31 STREET
+Recycling & Waste Removal,306,Chelrae Carting Inc.,,841 Barretto Street,,Bronx,NY,10474,(212) 866-6287,David Appelson,dappelson@mac.com,,,Bronx,2,841,BARRETTO STREET
+Location & Rental Space,486,"Lightbox NY, Inc.",http://www.lightbox-ny.com,841 Barretto Street,,Bronx,NY,10474,(212) 866-6287,David Appelson,dappelson@mac.com,,yes,Bronx,2,841,BARRETTO STREET
+Hotels,402,Le Parker Meridien,http://www.parkermeridien.com,118 West 57th Street,,New York,NY,10019,(212) 708-7382,Robert Turner,no email,,,Manhattan,1,118,WEST 57 STREET
+Hotels,403,Morgans Hotel,http://www.morganshotel.com,237 Madison Avenue,,New York,NY,10016,(212) 554-6106,Jennifer Kaplan,jennifer.kaplan@morganshotelgroup.com,,,Manhattan,1,237,MADISON AVENUE
+Hotels,404,New York Helmsley,http://www.helmsleyhotels.com,212 East 42nd Street,,New York,NY,10017,(212) 490-8900 x5250,Gary Bailey,gbailey@helmsleyhotels.com,,,Manhattan,1,212,EAST 42 STREET
+Hotels,405,New York Hotel Pennsylvania,http://www.hotelpenn.com,401 7th Avenue,,New York,NY,10001,(212) 502-8141,Bertrand Douxami,bdouxami@hotelpenn.com,,yes,Manhattan,1,401,7 AVENUE
+Hotels,406,New York Marriott East Side,http://www.nymarriotteastside.com,525 Lexington Avenue,,New York,NY,10017,(212) 704-8737,Judy Tang,judy.tang@marriott.com,,,Manhattan,1,525,LEXINGTON AVENUE
+Hotels,407,New York Marriott Financial Center,http://www.nycmarriott.com/nycws,85 West Street,,New York,NY,10006,(212) 704-8737,Judy Tang,judy.tang@marriott.com,,,Manhattan,1,85,WEST STREET
+Hotels,408,New York Midtown East Courtyard by Marriott,http://www.nycmarriott.com/nycme,866 Third Avenue,,New York,NY,10022,(212) 704-8737,Judy Tang,judy.tang@marriott.com,,,Manhattan,1,866,THIRD AVENUE
+Hotels,409,Omni Berkshire Place,http://www.omnihotels.com,21 East 52nd Street,,New York,NY,10022,(212) 754-5096,Dana Rudy,onissenbaum@omnihotels.com,,,Manhattan,1,21,EAST 52 STREET
+Hotels,410,Renaissance New York Times Square Hotel,http://www.nycmarriott.com/nycrt,2 Times Square,714 Seventh Avenue,New York,NY,10036,(212) 261-5114,Michelle Galindo,no email,,,Manhattan,1,2,TIMES SQUARE
+Hotels,411,Residence Inn New York Manhattan / Times Square,http://marriott.com/property/propertypage/NYCRI,1033 Avenue of the Americas,,New York,NY,10018,(212) 704-8737,Judy Tang,judy.tang@marriott.com,,,Manhattan,1,1033,AVENUE OF THE AMERICAS
+Hotels,413,Royalton,http://www.royaltonhotel.com,44 West 44th Street,,New York,NY,10036,(212) 554-6106,Jennifer Kaplan,jennifer.kaplan@morganshotelgroup.com,,,Manhattan,1,44,WEST 44 STREET
+Hotels,414,Shelburne Murray Hill,http://www.affinia.com/NYC-Hotel/Shelburne-Murray-Hill/Overview.cfm,303 Lexington Avenue,,New York,NY,10016,(646) 424-2631,Bruce Simms,no email,,,Manhattan,1,303,LEXINGTON AVENUE
+Hotels,415,Soho Grand,http://www.sohogrand.com,310 West Broadway,,New York,NY,10003,(212) 519-6641,Renay Sobel,no email,,,Manhattan,1,310,WEST BROADWAY
+Hotels,416,Sugar Hill Harlem Inn,http://www.sugarhillharleminn.com,460 West 141 Street,,New York,NY,10031,(917) 464-3528,Jeremy Archer,info@sugarhillharleminn.com,,yes,Manhattan,1,460,WEST 141 STREET
+Hotels,417,The Algonquin Hotel,http://www.algonquinhotel.com,59 West 44th Street,,New York,NY,10036,(212) 419-9314,Wendy Laurent,wlaurent@algonquinhotel.com,,,Manhattan,1,59,WEST 44 STREET
+Catering,949,Apple Tree Catering,http://www.appletreecatering.com,276 5th Avenue,,New York,NY,10001,(212) 685-2727,"Keith Jon, or James Lee",www.appletreecatering.com,,yes,Manhattan,1,276,5 AVENUE
+Exercise & Fitness,950,Aviator Sports & Events Center,http://www.aviatorsports.com,"Hangar 5, Floyd Bennett Field",,Brooklyn,NY,11234,(718) 758-7500,Irene Schmidt/Lese Dunton,lese@aviatorsports.com,,yes,Brooklyn,3,HANGER 5,FLOYD Bennett Field
+Hotels,418,The Avalon,http://www.theavalonny.com,16 East 32nd Street,,New York,NY,10016,(212) 299-7000,Maria Galay,,,,Manhattan,1,16,EAST 32 STREET
+Hotels,419,The Benjamin Hotel,http://www.thebenjamin.com,125 East 50th Street,,New York,NY,10022,(646) 424-2631,Tracy Parrillo,tparrillo@affinia.com,,,Manhattan,1,125,EAST 50 STREET
+Hotels,420,The Blakley Hotel,http://blakleyhotel.com,136 West 55th Street,,New York,NY,10019,(212) 245-1800,Theresa Gonzales,tgonzales@blakelynewyork.com,,,Manhattan,1,136,WEST 55 STREET
+Post Production & Training,698,Deluxe New York LLC,http://www.bydeluxe.com,435 Hudson Street,,New York,NY,10014,(212) 444-5600,Russ Robertson,russ.robertson@bydeluxe.com,,yes,Manhattan,1,435,HUDSON STREET
+Post Production & Training,699,Devlin Video International,http://www.devlinvideo.com,1501 Broadway,Ste 408,New York,NY,10036,(212) 391-1313,Cari Davis,cdavis@devlinvideo.com,,,Manhattan,1,1501,BROADWAY
+Post Production & Training,700,Digital Arts,http://www.digital-arts.net,130 West 29th Street,,New York,NY,10001,(212) 460-9600,Lisa Protter,lisa@vibewise.com,,,Manhattan,1,130,WEST 29 STREET
+Post Production & Training,701,DCTV (Downtown Community Television Center),http://www.dctvny.com,87 Lafayette Street,,New York,NY,10013,(212) 966-4510 ext.655,Dara Messinger,info@dctvny.com,,yes,Manhattan,1,87,LAFAYETTE STREET
+Post Production & Training,702,"Edgeworx, Inc.",http://www.edgeworx.com,137 Varick Street,7th Floor,New York,NY,10013,(212) 334-3334,Vivian Connolly or David Tecson,info@edgeworx.com,,,Manhattan,1,137,VARICK STREET
+Post Production & Training,704,"Elrom, Inc.",http://www.elrom.tv,419 Park Avenue South,Suite 600,New York,NY,10002,(212) 645-5050,Stephanie Palmer,info@elrom.tv,,,Manhattan,1,419,PARK AVENUE SOUTH
+Post Production & Training,705,FlickerLab,http://www.flickerlab.com,7 West 18th Street,4th Fl,New York,NY,10011,(212) 560-9228,Franklin Zitter,franklin@flickerlab.com,,,Manhattan,1,7,WEST 18 STREET
+Post Production & Training,706,Future Media Concepts,http://www.fmctraining.com,299 Broadway,,New York,NY,10017,(212) 233-3500,Aneish Lewin,aneishl@fmctraining.com,,,Manhattan,1,299,BROADWAY
+Post Production & Training,707,Goldcrest Post Production,http://www.goldcrestpost.com,799 Washington Street,,New York,NY,10014,(212) 243-4700,Jeanne Sison,reception@goldcrestpost.com,,,Manhattan,1,799,WASHINGTON STREET
+Post Production & Training,708,Griots Roll Film Production and Service Inc.,http://www.griotsrollproduction.com/,276 West 135th Street,,New York,NY,10030,(212) 281-2286,Derrick Guest,griots@griotsrollproduction.com,,yes,Manhattan,1,276,WEST 135 STREET
+Post Production & Training,709,"GTV, Inc.",http://www.gtvnyc.com,1697 Broadway,Suite 404,New York,NY,10019,(212) 262-6260,Charlie Gelber,cgelber@gtvnyc.com,,,Manhattan,1,1697,BROADWAY
+Post Production & Training,710,Hello World Communications,http://www.hwc.tv,118 West 22nd Street,,New York,NY,10011,(212) 243-8800,Ron Yosifida,elronyo@msn.com,,,Manhattan,1,118,WEST 22 STREET
+Post Production & Training,711,iNDiGO TV,http://www.indigo.tv,1133 Avenue of the Americas,,New York,NY,10036,(212) 226-0280,Peter Rautionmaa,peter@indigo.tv,,yes,Manhattan,1,1133,AVENUE OF THE AMERICAS
+Post Production & Training,712,"Intenational Duplication Centre, Inc. (IDC)",http://www.idcdigital.com,216 East 45th Street,7th Floor,New York,NY,10017,(212) 581-3940,Scott Carroll,scott@idcdigital.com,,,Manhattan,1,216,EAST 45 STREET
+Post Production & Training,714,LVT Laser Subtitling,http://www.lvtusa.com,609 Greenwich Street,,New York,NY,10014,(212) 343-1910,Jerry Rudes,jerry.rudes@lvtusa.com,,,Manhattan,1,609,GREENWICH STREET
+Post Production & Training,715,Manhattan Center Studios,http://www.mcp-studios.com,311 West 34th Street,,New York,NY,10001,(212) 695-6600 x212,Obie O'Brien,obie@mcstudios.com,,yes,Manhattan,1,311,WEST 34 STREET
+Post Production & Training,716,Manhattan Edit Workshop,http://www.mewshop.com,80 Fifth Avenue,Suite 908,New York,NY,10011,(212) 414-9570,Josh Apter,info@mewshop.com,,yes,Manhattan,1,80,FIFTH AVENUE
+Hotels,963,Fashion 26 - A Wyndham Hotel,http://www.wyndhamny.com,152 West 26th Street,,New York,NY,10001,(212) 858-5888,Lindsey Walkowiak (917-566-7588),Lwalkowiak@wyndham.com,,yes,Manhattan,1,152,WEST 26 STREET
+Hardware & Tools,964,Frameware Inc.,http://www.framewareinc.com,25 Sherwood Lane,,Fairfield,NJ,7004,(800) 582-5608 / (973) 808-2022,Semra Ayala/Marge Schwartz,sam@framewareinc.com,,yes,New Jersey,0,25,SHERWOOD LANE
+Post Production & Training,717,"Motion Picture Enterprises, Inc.",http://www.mpenyc.com,432 West 45th Street,,New York,NY,10036,(212) 245-0969,Damon Leary,damon@mpenyc.com,,,Manhattan,1,432,WEST 45 STREET
+Post Production & Training,718,"MovingImages NY, LLC",http://www.mipost.com,227 East 45th Street,6th Floor,New York,NY,10017,(212) 953-6999,Karen Barrett or John Miller,kbarrett@mipost.com,,yes,Manhattan,1,227,EAST 45 STREET
+Post Production & Training,719,NEP Studios/Duplication,http://www.nepinc.com,885 Second Avenue,,New York,NY,10017,(212) 548-7700,William Sheehy,wsheehy@nepstudios.com,,,Manhattan,1,885,SECOND AVENUE
+Post Production & Training,720,Nice Spots,http://www.nicespots.com,104 East 25th Street,12th Floor,New York,NY,10010,(212) 432-3000,Jack Fahey,jack@nicespots.com,,,Manhattan,1,104,EAST 25 STREET
+Post Production & Training,721,Now Hear This,http://www.nhtsound.com,250 West 49th Street,,New York,NY,10019,(212) 265-1188,Larry Buksbaum,Larry@nhtsound.com,,,Manhattan,1,250,WEST 49 STREET
+Post Production & Training,722,"NYCD, Inc.",http://www.nycd.com,350 Seventh Avenue,2nd Floor,New York,NY,10001,(212) 502-0588,Justin Rumack,justin.rumack@nycd.com,,,Manhattan,1,350,SEVENTH AVENUE
+Post Production & Training,723,OffHollywood Digital,http://www.offhollywooddigital.com,5 East 19th Street,,New York,NY,10003,(212) 260-8400,Jesse or Aldey Sanchez,JesseARoberts@gmail.com,,,Manhattan,1,5,EAST 19 STREET
+Post Production & Training,726,"PostWorks, New York",http://www.pwny.com/ny.htm,100 Avenue of the Americas,,New York,NY,10013,(212) 894-4000,Hayli Halper,inquiry@pwny.com,,,Manhattan,1,100,AVENUE OF THE AMERICAS
+Post Production & Training,727,"Pow! Pix, Inc.",http://powpix.com,44 East 32nd Street,,New York,NY,10016,(212) 531-6450,intern,,,yes,Manhattan,1,44,EAST 32 STREET
+Post Production & Training,728,Power Image Workshop,http://www.powerimageworkshop.com,594 Broadway,Suite 1002A,New York,NY,10012,(212) 219-0526,Yu-Chih Yuan,info@powerimageworkshop.com,,,Manhattan,1,594,BROADWAY
+Post Production & Training,729,Production Central,http://www.prodcentral.com,873 Broadway,Suite 205,New York,NY,10003,(212) 631-0435,David Fuhrer,david@prodcentral.com,,yes,Manhattan,1,873,BROADWAY
+Post Production & Training,730,Rhinopost,http://www.rhinopost.tv,50 East 42nd Street,,New York,NY,10017,(212) 986-1577,David Binstock / Craig Gordon,db@rhinoedit.tv / craig@rhinopost.tv,,,Manhattan,1,50,EAST 42 STREET
+Hotels,965,Ink48,http://www.ink48.com,653 11th Avenue,48th Street,New York,NY,10036,(646) 572-7430,Heather Balcom,heather.balcom@ink48.com,,yes,Manhattan,1,653,11 AVENUE
+Hotels,966,InterContinental New York Barclay,http://www.intercontinental.com/newyork,111 East 48th Street,,New York,NY,10017,(212) 906-3113,Gabriela Ong,gabriela.ong@ihg.com,,yes,Manhattan,1,111,EAST 48 STREET
+Post Production & Training,731,Scharff Weisberg Media Resource Center,http://www.swinyc.com,220 East 23rd Street,Suite 800,New York,NY,10010,(212) 685-6511,Josh Nissim,joshn@swinyc.com,,,Manhattan,1,220,EAST 23 STREET
+Post Production & Training,732,ScreamerVision,http://www.screamervision.com,247 West 35th Street,7th Floor,New York,NY,10001,(212) 951-7171,Mark Ashkinos,mark@screamdvd.com,,,Manhattan,1,247,WEST 35 STREET
+Post Production & Training,733,Splash Studios,http://www.splash-studios.com,49 West 23rd Street,6th Floor,New York,NY,10010,(212) 271-8747,Peter Levin,booking@splash-studios.com,,,Manhattan,1,49,WEST 23 STREET
+Post Production & Training,734,Standby Program,http://www.standby.org,135 West 26th Street,,New York,NY,10001,(212) 206-7858,Maria Venuto,maria@standby.org,,yes,Manhattan,1,135,WEST 26 STREET
+Post Production & Training,735,The Rust Company Inc.,http://www.rustcompany.com,40 Exchange Place,Suite 406,New York,NY,10005,(646) 746-4300,Jennifer Rogers,jennifer@rustcompany.com,,,Manhattan,1,40,EXCHANGE PLACE
+Post Production & Training,736,Village Mega Playground,http://www.mega-playground.com,609 Greenwich Street,,New York,NY,10014,(212) 399-0409,Blair Lavey,production@mega-playground.com,,,Manhattan,1,609,GREENWICH STREET
+Post Production & Training,737,"World Wide Audio, Inc.",http://www.globalaudio.net,41 White Street,Penthouse Suite 5B,New York,NY,10013,(646) 336-6580,Medha Jaishankar,,,yes,Manhattan,1,41,WHITE STREET
+Post Production & Training,738,Hiccup Media LLC,http://www.hiccupmedia.com,9-01 44th Drive,,Long Island City,NY,11101,(718) 472-3272,Michael Cruz,michael@hiccupmedia.com,,yes,Queens,4,9-01,44 DRIVE
+Post Production & Training,739,Post Factory NY,http://www.postfactoryny.com,161 Avenue of the Americas,11th Floor,New York,NY,10013,(212) 627-1662,,,,yes,Manhattan,1,161,AVENUE OF THE AMERICAS
+Production Company,742,"Astoria Films, Inc.",http://www.AstoriaFilms.com,545 Eighth Avenue,Suite 401,New York,NY,10018,(212) 330-0607,James La Vita,JamesLaVita@astoriafilms.com,,,Manhattan,1,545,8 AVENUE
+Production Company,744,Marchand Media LLC,http://www.marchandmedia.com,630 Ninth Avenue,Suite 201,New York,NY,10036,(212) 974-8411,Paulette Glassman and Elizabeth Lattanzio,paulette@marchandmedia.com,,yes,Manhattan,1,630,NINTH AVENUE
+Production Company,745,Edge 1 Records,http://www.edge1records.com,41 White Street,Penthouse Suite 5B,New York,NY,10013,(646) 336-6580,Medha Jaishankar,medha@edge1records.com,,,Manhattan,1,41,WHITE STREET
+Props,967,"Interior Foliage Design, Inc.",http://www.interiorfoliage.com,32-14 36th Avenue,corner of 33rd St,Long Island City,NY,11106,(718) 784-4527,Matthew Schechter,matthew@interiorfoliage.com,,yes,Queens,4,32-14,36 AVENUE
+Casting & Talent,968,Ken Lazer Casting,http://www.kenlazercasting.com,232 East 54th Street,2B,New York,NY,10022,(646) 781-9182,Ken Lazer,info@kenlazercasting.com,,,Manhattan,1,232,EAST 54 STREET
+"Camera, Grip & Lighting",969,Leftfield Rentals,http://www.leftfieldrentals.com,545 8th Avenue,16th Floor,New York,NY,10018,(212) 564-2607,Kris Cerny,kris@leftfieldrentals.com,,,Manhattan,1,545,8 AVENUE
+Production Company,746,MAPS - Mobile Arts Production Services,http://www.mapsproduction.com,535 West 35th Street,,New York,NY,10001,(888) 843-7880,Nicole Allison,info@mapsproduction.com,,,Manhattan,1,535,WEST 35 STREET
+Production Company,747,Murray Hill Studios,http://www.murrayhillstudios.com,248 East 35th Street,,New York,NY,10016,(212) 889-4200,Jahaneen Johnsen,murrayhill@mindspring.com,,,Manhattan,1,248,EAST 35 STREET
+Production Company,748,Production Consolidated of New York,http://www.productionconsolidated.com,6 West 20th Street,2nd Fl.,New York,NY,10011,(917) 664-3350,Amber Estes,amber@productionconsolidated.com,,,Manhattan,1,6,WEST 20 STREET
+Production Company,749,RoundHead Creative Group Inc,http://roundhead.tv,1650 Broadway,Suite 603,New York,NY,10019,(212) 245-2688,Phil Alcabes,phil@roundhead.tv,,yes,Manhattan,1,1650,BROADWAY
+Production Company,750,TAG Creative,http://www.tagcreativeny.com,443 Park Avenue South,11th Floor,New York,NY,10016,(212) 253-5300,Ashley Heck,ashley@tagcreativeny.com,,,Manhattan,1,443,PARK AVENUE SOUTH
+Production Company,751,"Mechanism Digital, Inc.",http://www.mechanismdigital.com,514 West 24th Street,#3E,New York,NY,10011,(646) 230-0230,Deborah Roth,debbie@mechanismdigital.com,,,Manhattan,1,514,WEST 24 STREET
+Production Company,752,Next Millenium Productions,http://www.nmpfilms.com/,31 Howard Street,Suite 5A,New York,NY,10013,,,,,,Manhattan,1,31,HOWARD STREET
+Props,770,Big Apple Sign Corp.,http://www.bigapplegroup.com,247 West 35th Street,,New York,NY,10001,(212) 629-3650,"Sukaina Khalfan, Seff Khalfan",sukaina@bigapplegroup.com,,,Manhattan,1,247,WEST 35 STREET
+Props,771,Bisazza,http://www.bisazza.com,43 Greene Street,,New York,NY,10013,(212) 334-7130,Seth Harris,seth.harris@bisazzausa.com,,yes,Manhattan,1,43,GREENE STREET
+Props,772,Boca Grande Furnishings,http://www.bocagrandefurnishings.com,54 Greene Street,,New York,NY,10013,(212) 226-5997,Marcelo Duek,mduek@yahoo.com,,,Manhattan,1,54,GREENE STREET
+Props,773,"City Knickerbocker, Inc",,665 11th Avenue,2nd Floor,New York,NY,10019,(212) 586-3939,Scott Liroff,scott@cityknickerbocker.com,,yes,Manhattan,1,665,11 AVENUE
+Props,774,Dreamhire LLC,http://www.dreamhire.com,509 West 38th Street,,New York,NY,10018,(212) 691-5544,Chris Dunn,DHNY@Dreamhire.com,,,Manhattan,1,509,WEST 38 STREET
+Props,775,Eclectic/Encore Props,http://www.eclecticprops.com,620 West 26th Street,4th Floor,New York,NY,10001,(212) 645-8880,Suri Bieler,ecltencore@aol.com,,,Manhattan,1,620,WEST 26 STREET
+Props,776,Economy Foam and Futons,http://www.economyfoamandfutons.com,56 West 8th Street,,New York,NY,10011,(212) 475-4800,Ian Bronfeld,itzkoosh@yahoo.com,,,Manhattan,1,56,WEST 8 STREET
+Props,777,ECR Antique Conservation and Restoration,http://www.ECRios.com,515 West 29th Street,5th Floor,New York,NY,10001,(212) 643-0388,Naeema Arrastia,Naeema@theauroraGallery.com,,,Manhattan,1,515,WEST 29 STREET
+Props,778,Gettinger Feather Corp.,http://www.gettingerfeather.com,16 West 36th Street,8th Floor,New York,NY,10018,(212) 695-9420,Dan Gettinger,gettfeath@aol.com,,,Manhattan,1,16,WEST 36 STREET
+Props,779,Greenroom,http://www.yourgreenroom.com,270 Lafayette Street,,New York,NY,10012,(212) 625-1818,Jill Simon,jill@yourgreenroom.com,,,Manhattan,1,270,LAFAYETTE STREET
+Props,780,Housing Works Bookstore Café,http://www.housingworksbookstore.org,126 Crosby Street,,New York,NY,10012,(212) 334-3324,"Elihu Dietz, Adam Blackman",blackman@housingworks.org,,yes,Manhattan,1,126,CROSBY STREET
+Props,781,Just Shades,http://www.justshadesny.com,21 Spring Street,,New York,NY,10012,(212) 966-2757,Marc Engelson,justshadesny@verizon.net,,,Manhattan,1,21,SPRING STREET
+Props,782,Let There be Neon,http://www.lettherebeneon.com,38 White Street,,New York,NY,10013,(212) 226-4883,Jeff Friedhan,jf@lettherebeneon.com,,yes,Manhattan,1,38,WHITE STREET
+Props,783,Mantiques Modern,http://www.mantiquesmodern.com,146 West 22nd Street,,New York,NY,10011,(212) 206-1494,Lori Ann,mantiquesmodern@aol.com,,,Manhattan,1,146,WEST 22 STREET
+Props,784,Modprop.com,http://www.modprop.com,1044 Madison Avenue,,New York,NY,10021,(212) 628-7582,Stephen Wallis,info@modprop.com,,,Manhattan,1,1044,MADISON AVENUE
+Props,785,Props Company Kaplan & Associates,,111 West 19th Street,8th Floor,New York,NY,10011,(212) 691-7767,Maxine Kaplan,no email,,,Manhattan,1,111,WEST 19 STREET
+Props,786,Props for Today,http://www.propsfortoday.com,330 West 34th Street,,New York,NY,10001,(212) 244-9600,Dyann Klein,no email,,,Manhattan,1,330,WEST 34 STREET
+Props,787,"Props NYC, LLC",,509 West 34th Street,2nd Floor,New York,NY,10001,(212) 352-0101 / (212) 877-352,Nicole Stiegelbauer-Engels,info@gotprops.com,,yes,Manhattan,1,509,WEST 34 STREET
+Props,788,Revolution Graphics and Design,http://www.revolutiongraphics.com,Pier 40 South,2nd Floor,New York,NY,10014,(212) 741-7122,Robert Frigiano,bob@revolutiongraphics.com,,,Manhattan,1,,PIER 40
+Props,789,SMP Digital Graphics,,135 West 20th Street,,New York,NY,10011,(212) 691-6766,Stuart Penney,smpgraphicservices@yahoo.com,,,Manhattan,1,135,WEST 20 STREET
+Props,792,Tannen's Magic,http://www.tannens.com,45 West 34th Street,Suite 608,New York,NY,10001,(212) 929-4500,Steven Brown,info@tannens.com,,yes,Manhattan,1,45,WEST 34 STREET
+Props,793,Tent and Trails,http://www.tenttrails.com,21 Park Place,,New York,NY,10007,(212) 227-1760,Jamie Lipman Abish,jamie@tenttrails.com,,yes,Manhattan,1,21,PARK PLACE
+Props,794,"The Chair Factory, Ltd.",http://www.thechairfactory.com,214 Bowery,,New York,NY,10012,(212) 941-8700,Zev Belsky,films@thechairfactory.com,,,Manhattan,1,214,BOWERY
+Props,795,The Red Caboose,http://www.theredcaboose.com,23 West 45th Street,,New York,NY,10036,(212) 575-0155,Allan Spitz,no email,,,Manhattan,1,23,WEST 45 STREET
+Props,796,Weapons Specialists Ltd.,http://www.weaponspecialists.com,33 Greene Street,,New York,NY,10013,(212) 941-7696,Ryder Washburn,Ryder@weaponspecialists.com,,yes,Manhattan,1,33,GREENE STREET
+Props,797,Wooster Gallery,http://homepage.mac.com/woostergallery,84 Wooster Street,,New York,NY,10012,(212) 219-2190,Ralph Beatrice,woostergallery@nyc.rr.com,,,Manhattan,1,84,WOOSTER STREET
+Props,798,Zarin Fabrics,http://www.zarinfabrics.com,314 Grand Street,,New York,NY,10002,(212) 925-6112,Anne Austin,Anne@zarinfabrics.com,,,Manhattan,1,314,GRAND STREET
+Props,800,Stagecraft Whips,http://www.aswgt.com,40 Grant Avenue,,Copiague,NY,11726,(631) 842-1711,Mitch Kessler,aswgt@ix.netcom.com,,yes,New York State,6,40,GRANT AVENUE
+Props,801,P.J. McBride Inc.,http://www.PJMcBride.com,8 Lamar Street,,West Babylon,NY,11704,(631) 643-2848,Steve Lenci,tents@pjmcbride.com,,,New York State,6,8,LAMAR STREET
+Props,803,Film Biz Recycling Props,http://tinyurl.com/filmbizprops,43-26 12th Street,2nd Floor,Long Island City,NY,11101,(718) 392-3304,Eva Radke,eva@filmbizrecycling.org,,,Queens,4,43-26,12 STREET
+Props,804,New York Decorating Company,,33-11 37th Avenue,,Long Island City,NY,11101,(718) 361-1500,Brian Morrissey,nydecorating@aol.com,,,Queens,4,33-11,37 AVENUE
+Props,805,Gothic Cabinet Craft,http://www.gothiccabinetcraft.com,58-77 57th Street,,Maspeth,NY,11378,(347) 881-1420,Aristidis Zaharopoulos,ari911@aol.com,,,Queens,4,58-77,57 STREET
+Props,806,Freeport Signs & Rigging,http://www.freeportsigns.com,86-19 116th Street,,Richmond Hill,NY,11418,(718) 849-2888,Hale Storm,Gin1989@aol.com,,,Queens,4,86-19,116 STREET
+Recycling & Waste Removal,807,GreenHouse Eco-Cleaning,http://www.GreenhouseEcoCleaning.com,1240 Bedford Avenue,1F,Brooklyn,NY,11217,(718) 303-7029,Saudia Davis,saudia@greenhouseecocleaning.com,,,Brooklyn,3,1240,BEDFORD AVENUE
+Recycling & Waste Removal,808,Filco Carting,http://www.filcocarting.com,111 Gardner Avenue,,Brooklyn,NY,11237,(718) 456-5000,John Okun,jokun@filcocarting.com,,,Brooklyn,3,111,GARDNER AVENUE
+Scenic Supplies,809,Seldowitz & Glaubiger,,172 Graham Avenue,,Brooklyn,NY,11206,(718) 388-5151,Jan Glaubiger,Aglaubiger@aol.com,,,Brooklyn,3,172,GRAHAM AVENUE
+Scenic Supplies,810,Jane Nelson Studio,,21 Howard Street,,New York,NY,10013,(212) 431-4642,Jane Nelson,janeynel@earthlink.com,,,Manhattan,1,21,HOWARD STREET
+Scenic Supplies,811,"M. Epstein's Son, Inc.",,809 9th Avenue,,New York,NY,10019,(212) 265-3960,Ken/Marty,no email,,,Manhattan,1,809,9 AVENUE
+Scenic Supplies,812,Seating Solutions,http://www.seatingsolutions.com,60 Austin Blvd.,,Commack,NY,11725,(631) 845-0449,Tami Lacertosa,tlacertosa@seatingsolutions.com,,,New York State,6,60,AUSTIN BOULEVARD
+Scenic Supplies,813,Better Mousetrap,,44-02 11th Street,,Long Island City,NY,11101,(718) 937-5179,Susanne Jansson,dirigible@mac.com,,,Queens,4,44-02,11 STREET
+Scenic Supplies,814,"Coe Displays, Inc.",,43-01 22nd Street,,Long Island City,NY,11101,(718) 937-5658,Joe Sgroe/Massimo Russo,coedisplays@verizon.net,,,Queens,4,43-01,22 STREET
+Security,815,"Bay Ridge Security Service, Inc.",http://www.bayridgesecurity.com,110 Bay Ridge Avenue,,Brooklyn,NY,11220,(718) 238-2727,Edward Katta,ekatta@bayridgesecurity.com,,,Brooklyn,3,110,BAY RIDGE AVENUE
+Security,816,"Gold Security Guard Services, Inc.",http://www.goldguards.com,772 Flatbush Avenue,#2,Brooklyn,NY,11226,(718) 462-5332,Wilburn Duncan,wduncan@goldguards.com,,,Brooklyn,3,772,FLATBUSH AVENUE
+Security,817,Knight Security,http://www.knightsecurityny.com,250 West 26th Street,Suite 3115,New York,NY,10001,(212) 609-3400,Edward Troiano,ed@knightsecurityny.com,,,Manhattan,1,250,WEST 26 STREET
+Security,818,Integrated Security Services,http://www.intesecurity.com,305 Madison Avenue,suite 1563,New York,NY,10165,(212) 808-4153,"Perry Kantor, VP of Operations",pkantor@intesecurity.com,,yes,Manhattan,1,305,MADISON AVENUE
+Security,819,GSS Security Services Inc.,http://www.gss-security.com,250 West 49th Street,Suite 703,New York,NY,10019,(212) 764-5400,Chuck Garelick or John Smaragdakis,chuckg@gss-security.com; johns@gss-security.com,,,Manhattan,1,250,WEST 49 STREET
+Security,820,International Intelligence Network,,67 Wall Street,Suite 2411,New York,NY,10005,(800) 868-4174,Entertainment Project Liason,call for email,,,Manhattan,1,67,WALL STREET
+Security,821,John Shields Detective Bureau Inc.,,60 East 42nd Street,,New York,NY,10165,(212) 682-6094,John P. Lagan,jplpvteye@aol.com,,,Manhattan,1,60,EAST 42 STREET
+Security,822,Meyerson Associates Inc.,http://www.meyersonassociates.com,200 Park Avenue South,Suite 1205,New York,NY,10003,(212) 505-8400,Barry A. Meyerson,barry@meyersonassociates.com,,,Manhattan,1,200,PARK AVENUE SOUTH
+Security,824,"Anthony Peters Security Consulting, LLC.",http://www.mandy.com/home.cfm?c=ant059,29-43 163 Street,,Flushing,NY,11358,(917) 376-5286,Anthony Flynn,markflynn@aol.com,,,Queens,4,29-43,163 STREET
+Security,825,"Axel Protection Systems, Inc.",http://www.axelpro.net,90-50 Parsons Boulevard,Suite 304,Jamaica,NY,11432,(718) 206-4800,Vincent DeRogatis,vincent@axelpro.net,,,Queens,4,90-50,PARSONS BOULEVARD
+Security,826,Unique Comp. Inc.,,27-08 42nd Road,,Long Island City,NY,11101,(347) 386-5545,Vincent M. DeRogatis,vincent@uciny.com,,,Queens,4,27-08,42 ROAD
+Security,828,Classic Protection and Security and Investigations,http://www.classicprotection.com,900 South Avenue,,Staten Island,NY,10314,(718) 568-3590,Stephen Luise,steve@classicprotection.com,,,Staten Island,5,900,SOUTH AVENUE
+Security,829,FrontLines Finest Security & Consultant Services,http://www.frontlinesfinest.com,63 Gridley Avenue,,Staten Island,NY,10303,(917) 359-6162,Donnie Williams,frontlinesfinest7@yahoo.com,,yes,Staten Island,5,63,GRIDLEY AVENUE
+Security,830,Jupiter Protective Services Corp.,,59 Genesee Avenue,,Staten Island,NY,10308,(718) 317-7215,Noreen Merz,nmerz@si.rr.com,,,Staten Island,5,59,GENESEE AVENUE
+Software & Internet Services,831,Entertainment Partners,http://www.entertainmentpartners.com,875 6th Avenue,15th Floor,New York,NY,10001,(646) 473-9010,Myfa Cirinna; Daphne McWilliams,mcirinna@entertainmentpartners.com; dmcwilliams@entertainmentpartners.com,,,Manhattan,1,875,6 AVENUE
+Software & Internet Services,832,Showbiz Software Stores,http://www.showbizsoftware.com,19 West 21st Street,,New York,NY,10010,(646) 829-0700,Bobby Berry and Anthony Lopez,bobby@media-services.com; anthonyl@media-services.com,,,Manhattan,1,19,WEST 21 STREET
+Software & Internet Services,833,Team 5,http://www.team5.com,50 Broad Street,1920,New York,NY,10004,(212) 482-0246,V. Collura,team5@team5.com,,,Manhattan,1,50,BROAD STREET
+Software & Internet Services,834,"Web2Zone, Inc.",http://www.web2zone.com,52-54 Cooper Square,,New York,NY,10003,(212) 614-7300,Brian Chan,brian@web2zone.com,,yes,Manhattan,1,52,COOPER SQUARE
+Spa & Massage,835,Dharma Healing Arts Studio,http://www.dharmanyc.com,331 Court Street,,Brooklyn,NY,11231,(718) 237-3139,Lauren Sweeney-Hampel,lauren@dharmanyc.com,,yes,Brooklyn,3,331,COURT STREET
+Spa & Massage,836,Elizabeth Arden Red Door Salon & Spa,http://www.reddoorspas.com,691 Fifth Avenue,,New York,NY,10022,(212) 546-0304 / (203) 905-1733,Shelley Sheridan,ssheridan@rdspas.com,,,Manhattan,1,691,FIFTH AVENUE
+Spa & Massage,837,Relax Massage Therapy,http://www.rickrelax.com,716 Greenwich Street,"30 East 40th Street, Suite 601",New York,NY,10014,(212) 206-9714 / (212) 532-4401,Rick Shardell/Christine Hagin,rickrelax@aol.com,,,Manhattan,1,716,GREENWICH STREET
+Spa & Massage,838,Relax Massage Therapy,http://www.rickrelax.com,30 East 40th Street,,New York,NY,10016,(212) 206-9714 / (212) 532-4401,Rick Shardell/Christine Hagin,rickrelax@aol.com,,,Manhattan,1,30,EAST 40 STREET
+Spa & Massage,839,Shobha Columbus Circle,http://www.myshobha.com,1775 Broadway,Suite 730,New York,NY,10019,(212) 977-7771,Jennifer Pesce,marketing@myshobha.com,,yes,Manhattan,1,1775,BROADWAY
+Spa & Massage,840,Shobha Madison,http://www.myshobha.com,595 Madison Avenue,Suite 1403,New York,NY,10022,(212) 223-2872,Jennifer Pesce,marketing@myshobha.com,,yes,Manhattan,1,595,MADISON AVENUE
+Spa & Massage,841,Shobha Soho,http://www.myshobha.com,594 Broadway,Suite 403,New York,NY,10012,(212) 931-8363,Jennifer Pesce,marketing@myshobha.com,,yes,Manhattan,1,594,BROADWAY
+Spa & Massage,842,Sothys Spa,http://www.sothyspa.com,37 West 57th Street,,New York,NY,10019,(212) 888-0228,Trena Ross,spa@sothys-usa.com,,,Manhattan,1,37,WEST 57 STREET
+Spa & Massage,843,Phyto Universe,http://www.phytouniverse.com,715 Lexington Avenue,3rd Floor,New York,NY,10022,(212) 265-5391,Stacy Gulisano or Jenna Muller,sgulisano@alesgroup.com,,yes,Manhattan,1,715,LEXINGTON AVENUE
+Spa & Massage,844,Massage Massage,http://www.massagemassage.com,220 Madison Avenue,Suite 10H,Ne wYork,NY,10016,(212) 696-9069,Robin Segal,info@massagemassage.com,,,Manhattan,1,220,MADISON AVENUE
+Stock Footage & Photography,845,Silverman Stock Footage,http://www.silvermanstockfootage.com,210 Douglass Street,,Brooklyn,NY,11217,(718) 764-4411,Donald Silverman,donald@silvermanstockfootage.com,,,Brooklyn,3,210,DOUGLASS STREET
+Stock Footage & Photography,847,BBC Motion Gallery,http://www.bbcmotiongallery.com,747 3rd Avenue,,New York,NY,10017,(212) 705-9399,Ric Dispinseri,ric.dispinseri@bbc.com,,,Manhattan,1,747,3 AVENUE
+Stock Footage & Photography,848,Edgewise Media Inc.,http://www.edgewisemedia.com,630 9th Avenue,Suite 800,New York,NY,10036,(212) 812-2779,Yani Orozco,yorozco@edgewisemedia.com,,,Manhattan,1,630,9 AVENUE
+Stock Footage & Photography,849,Empress Media Inc.,,306 West 38th Street,4th Floor,New York,NY,10018,(212) 643-4898,Wendy Wang,empressmedia@cs.com,,,Manhattan,1,306,WEST 38 STREET
+Stock Footage & Photography,850,"Film Archives, Inc.",http://www.filmarchivesonline.com,432 Park Avenue South,,New York,NY,10016,(212) 307-6237,Mark Trost,info@filmarchivesonline.com,,,Manhattan,1,432,PARK AVENUE SOUTH
+Stock Footage & Photography,851,Framepool,http://www.framepool.com,32 Avenue of the Americas,25th Floor,New York,NY,10013,(212) 468-2556,Mona Kanin,mona.kanin@framepool.com,,,Manhattan,1,32,AVENUE OF THE AMERICAS
+Stock Footage & Photography,852,Getty Images,http://www.gettyimages.com/film,75 Varick Street,5th Floor,New York,NY,10013,(646) 613-4509,David Alberico,David.Alberico@gettyimages.com,,,Manhattan,1,75,VARICK STREET
+Stock Footage & Photography,853,Gotham Photo Company,http://www.gothamphotocompany.com,50 Broad Street,1920,New York,NY,10004,(212) 482-0319,"J. Porcheddu, D. Pollack",info@gothamphotocompany.com,,,Manhattan,1,50,BROAD STREET
+Stock Footage & Photography,854,Media Distributors,http://www.mediadistributors.com,645 West 27th Street,,New York,NY,10001,(212) 375-1800,Tom Evans,tome@mediadistributors.com,,,Manhattan,1,645,WEST 27 STREET
+Stock Footage & Photography,855,NY Film Flyers,http://www.nyfilmflyers.com,529 West 42nd Street,,New York,NY,10036,(212) 736-0883,Bill Richards,mrbig136@aol.com,,,Manhattan,1,529,WEST 42 STREET
+Stock Footage & Photography,856,Thought Equity,http://www.thoughtequity.com,770 Broadway,Suite 210,New York,NY,10003,(212) 489-6710 xt 230,Ross Dabrow,rdabrow@thoughtequity.com,,,Manhattan,1,770,BROADWAY
+Transcription & Translation Services,857,Legal Interpreting Services,http://www.lis-translations.com,26 Court Street,,Brooklyn,NY,11242,(718) 237-8919,Alex Shurchin,ashurchin@lis-translations.com,,,Brooklyn,3,26,COURT STREET
+Transcription & Translation Services,858,The Gotham Lab,http://www.gothamlab.com,225 West 57th Street,,New York,NY,10019,(347) 435-0104,Philip Kotur,pk@gothamlab.com,,yes,Manhattan,1,225,WEST 57 STREET
+Transcription & Translation Services,859,"Geneva Worldwide, Inc.",http://www.genevaworldwide.com,261 West 35th Street,Suite 700,New York,NY,10001,(212) 255-8400,Patricia L. Coates,pcoates@genevaworldwide.com,,yes,Manhattan,1,261,WEST 35 STREET
+Transcription & Translation Services,860,"iProbe Multilingual Solutions, Inc.",http://www.iprobesolutions.com,5 West 36th Street,Suite 402,New York,NY,10018,(212) 489-6035,Julie Setbon,setbon@iprobesolutions.com,,,Manhattan,1,5,WEST 36 STREET
+Transcription & Translation Services,861,Rennert Bilingual,http://www.rennert.com,216 East 45th Street,,New York,NY,10016,(212) 867-8700 x21,Peggy Marion,marketing@rennert.com,,,Manhattan,1,216,EAST 45 STREET
+Transcription & Translation Services,862,Soundwriters Inc.,http://www.soundwriters.com,5-30 50th Avenue,,Long Island City,NY,11101,(718) 786-0010,Emilio Mahomar,emilio@soundwriters.com,,,Queens,4,5-30,50 AVENUE
+Transcription & Translation Services,863,"Nichibei Translations, LLC",http://www.nichibeitrans.net,6311 Queens Boulevard,Suite B24,Queens,NY,11377,(718) 426-7238,,,,,Queens,4,63-11,QUEENS BOULEVARD
+Travel & Transportation,865,Bermuda Limousine International Inc.,http://www.bermudalimo.com,537 West 20th Street,,New York,NY,10011,"(212) 647-8400, x117",Byard Bridge,billy@bermudalimo.com,,,Manhattan,1,537,WEST 20 STREET
+Travel & Transportation,866,Blue Star Jets,http://www.bluestarjets.com,805 3rd Avenue,16th Floor,New York,NY,10022,(877) 667-8111,Patricia Preiss,no email,,,Manhattan,1,805,3 AVENUE
+Travel & Transportation,867,Budget Truck Rental,http://www.budgettruck.com,510 West 35th Street,,New York,NY,10001,(212) 465-1911,Mark Smith,steven.seellger@avisbudget.com,,,Manhattan,1,510,WEST 35 STREET
+Travel & Transportation,868,Chelsea Rental Corp.,http://www.chelsearental.com,549 West 26th Street,,New York,NY,10001,(212) 564-9555,Kevin Quinn,no email,,,Manhattan,1,549,WEST 26 STREET
+Travel & Transportation,869,Edge Auto and Truck Rental,http://edgeautorental.com,521 West 27th Street,,New York,NY,10001,(212) 947-3343,William Harris,william@edgeautorental.com,,,Manhattan,1,521,WEST 27 STREET
+Travel & Transportation,870,Jetworks International,http://www.jetworksinternational.com,402 East 72nd Street,Suite 5A,New York,NY,10021,(212) 300-4247,Bryan Higgins,bhiggins@jetworksinternational.com,,,Manhattan,1,402,EAST 72 STREET
+Travel & Transportation,871,"Luxury Air Jets, Inc.",http://www.luxuryairjets.com,144 East 44th Street,2nd Floor,New York,NY,10017,(212) 204-5701,Tom Chuong,seo@luxuryairjets.com,,yes,Manhattan,1,144,EAST 44 STREET
+Travel & Transportation,872,NYC Green Car,http://www.nycgreencar.com,315 Bleecker Street,,New York,NY,10014,(800) 809-2073,Todd Smith,toddsmith@nycgreencar.com,,,Manhattan,1,315,BLEECKER STREET
+Travel & Transportation,873,Ready to Roll Transportation,http://www.readytoroll.com,1850 Amsterdam Avenue,,New York,NY,10031,(646) 308-0165,Nick Vrettos,nick@readytoroll.com,,,Manhattan,1,1850,AMSTERDAM AVENUE
+Travel & Transportation,875,Hertz,http://www.hertz.com,152 West 57th Street,,New York,NY,10019,(800) 654-3131,Anthony Ciminera/Vicky Cao,no email,,,Manhattan,1,152,WEST 57 STREET
+Travel & Transportation,876,Travel Advocates,http://www.traveladvocates.com,151 Stanton Street,"* c/o Kevin Wyler, Apt. C",New York,NY,10007,(877) 826-6548,Robert Miller,robert@traveladvocates.com,,,Manhattan,1,151,STANTON STREET
+Travel & Transportation,877,Dollar Rent A Car,http://www.dollar.com,146 West 83rd Street,,new york,NY,10024,(516) 782-4453,Keith Adams,Keith.Adams@dtag.com,,yes,Manhattan,1,146,WEST 83 STREET
+Travel & Transportation,879,AA Executive Town Car & Limousine,http://www.exectownlimo.com,836 Hewlett Street,,Franklin Square,NY,11010,(516) 538-8551,Loraine R. Baldi,exectown@aol.com,,,New York State,6,836,HEWLETT STREET
+Travel & Transportation,880,Don's Location Vans,http://www.donslocationvans.com,3308 Route 112,,Medford,NY,11763,(631) 698-7770,"Anne Denison, Don Denison",admiral3308@aol.com,,,New York State,6,3308,ROUTE 112
+Travel & Transportation,882,New York Truck Escort and Permits,http://www.newyorktruckescorts.com,792 Frankford Road,,West Babylon,NY,11704,(631) 669-3742,Maureen Mandich,rmrnsman@optonline.net,,,New York State,6,792,FRANKFORD ROAD
+Travel & Transportation,883,Enterprise Rent-A-Car,http://www.enterprise.com,1802 Petracca Place,Floor 2,Whitestone,NY,11357,(718) 445-1600 Ext. 218,Tara Traver,tara.e.traver@erac.com,,,Queens,4,18-02,PETRACCA PLACE
+Travel & Transportation,885,Royal Buses,http://www.royalbuses.com,9540 Tuckerton Street,,Jamaica,NY,11433,(800) 336-3666,Oren Levy,royalbuses@aol.com,,yes,Queens,4,95-40,TUCKERTON STREET
+Travel & Transportation,886,New Haven Moving Equipment Co.,http://www.newhaven-usa.com,30-01 37th Avenue,,Long Island City,NY,11101,(718) 937-7888,Neil Andreoli,no email,,,Queens,4,30-01,37 AVENUE
+Travel & Transportation,887,"Skyline Credit Ride, Inc.",http://www.skylineride.com,52-29 35th Street,,Long Island City,NY,11101,(718) 482-8585,Ed Goldsmith,egoldsmith@skylineride.com,,,Queens,4,52-29,35 STREET
+Travel & Transportation,888,SuperShuttle,http://www.supershuttle.com,52-15 11th Street,,Long Island City,NY,11101,(212) 209-7000,Paula Schwartz,pschwartz@supershuttle.com,,,Queens,4,52-15,11 STREET
+Travel & Transportation,889,Imperial Jets,http://www.imperialjets.com,350 5th Avenue,,New York,NY,10118,(212) 710-2240,Neal Rodriguez,nealr@imperialjets.com,,,Manhattan,1,350,5 AVENUE
+Travel & Transportation,890,CSL Transportation,http://www.imousine-rental.net,45-24 Burling Street,,Queens,NY,11355,(646) 812-8948,Rick Goondall,csltransportation@hotmail.com,,yes,Queens,4,45-24,BURLING STREET
+Travel & Transportation,891,Royal Exclusive Limousines,,265 Sunrise Hwy,,Rockville Center,NY,11570,(718) 781-8669,Daniel Asemota,danotaent@aol.com,,,Long Island,4,265,SUNRISE HIGHWAY
+Travel & Transportation,892,Apex Car and Limousine,http://www.apexlimo.com,400 Hamilton Avenue,,Brooklyn,NY,11231,(718) 522-1313,Alex Mulerman,alex@apexlimo.com,,,Brooklyn,3,400,HAMILTON AVENUE
+Vehicles & Picture Cars,893,Superior Location Van Service Ltd.,http://www.superiorlocationvans.com,83 Wythe Avenue,,Brooklyn,NY,11211,(718) 782-2494,Jaime Rojas,superiorvans@mac.com,,yes,Brooklyn,3,83,WYTHE AVENUE
+Vehicles & Picture Cars,894,Cooper Film Cars,http://www.cooperclassiccars.com,137 Perry Street,,New York,NY,10014,(212) 929-3909,Jeff Monheit,info@cooperclassiccars.com,,,Manhattan,1,137,PERRY STREET
+Vehicles & Picture Cars,895,Creative Film Cars,http://www.creativefilmcars.com,167 Madison Avenue,Suite 604,New York,NY,10016,(212) 864-4060,John Ficarra,info@creativefilmcars.com,,,Manhattan,1,167,MADISON AVENUE
+Vehicles & Picture Cars,896,Angel Aerial Corporation,http://www.angelaerial.com,126 Pittsburgh Avenue,,Massapequa,NY,11758,(212) 460-8899,Jim Miller,angelwtc01@aol.com,,yes,New York State,6,126,PITTSBURGH AVENUE
+Vehicles & Picture Cars,897,Taxi Depot Inc.,http://www.taxidepot.com,43-09 Vernon Boulevard,,Long Island City,NY,11101,(718) 784-4737,Al Galleo,agallego@taxidepot.com,,yes,Queens,4,43-09,VERNON BOULEVARD
+Vehicles & Picture Cars,898,New York Motorcycle,http://www.newyorkmotorcycle.com,222-02 Jamaica Avenue,,Queens Village,NY,11428,(718) 479-7777,James Reda,jreda@newyorkmc.com,,yes,Queens,4,222-02,JAMAICA AVENUE
+Wardrobe,899,Bencraft Hatters,http://www.bencrafthats.com,236 Broadway,,Brooklyn,NY,11211,(718) 384-8956,Steven Goldstein,besdor@mindspring.com,,yes,Brooklyn,3,236,BROADWAY
+Wardrobe,900,BoysItalianSuits.com,http://www.boysitaliansuits.com,157 Havemeyer Street,,Brooklyn,NY,11211,(718) 782-0108,Charles Borlam,charles@boysitaliansuits.com,,yes,Brooklyn,3,157,HAVEMEYER STREET
+Wardrobe,901,DivaDesires.com,http://www.DivaDesires.com,687A Washington Avenue,,Brooklyn,NY,11238,(347) 627-9647,Barbara M. Leach-Lugo,divadesires@msn.com,,,Brooklyn,3,687A,WASHINGTON AVENUE
+Wardrobe,903,Pops Popular Clothing Inc.,,7 Franklin Street,,Brooklyn,NY,11222,(718) 349-7677,Steve,no email,,,Brooklyn,3,7,FRANKLIN STREET
+Wardrobe,904,United Uniforms,http://www.uniteduniformsonline.com,5015 10th Avenue,,Brooklyn,NY,11219,(718) 436-1781,Louis Halpert,uniteduniforms@optonline.net,,yes,Brooklyn,3,5015,10 AVENUE
+Wardrobe,905,20 Peacocks,http://www.20peacocks.com,20 Clinton Street,,New York,NY,10002,(212) 387-8660,Adriane Birt,info@20peacocks.com,,yes,Manhattan,1,20,CLINTON STREET
+Wardrobe,906,45th Street Park Avenue Shoe Repair & Shine,,230 Park Avenue,,New York,NY,10169,(212) 661-0391,Vadim Khaimov,VadimKhaimov@yahoo.com,,yes,Manhattan,1,230,PARK AVENUE
+Wardrobe,907,"All Racks Industries, Inc.",http://www.allracks.net,361 West 36th Street,,New York,NY,10018,(212) 244-1069,Joseph Desimone,racknmore@comcast.net,,,Manhattan,1,361,WEST 36 STREET
+Wardrobe,908,Baldwin Formalwear,http://www.nyctuxedos.com,1156 6th Avenue,,New York,NY,10036,(212) 245-8190,"Michelle Farber, Marshal Dutko",info@nyctuxedos.com,,,Manhattan,1,1156,6 AVENUE
+Wardrobe,910,By Robert James,http://www.byrobertjames.com,72 Orchard Street,,New York,NY,10002,(212) 253-2121,Michelle Lindsay,info@byrobertjames.com; ml@byrobertjames.com,,yes,Manhattan,1,72,ORCHARD STREET
+Wardrobe,911,carmengee.com,http://www.carmengee.com,262 West 38th Street,#206,New York,NY,10018,(646) 414-2997,Carmen Gee,carmengeeny@aol.com,,,Manhattan,1,262,WEST 38 STREET
+Wardrobe,915,Boyd's of Madison Avenue Department Store,http://www.boydsnyc.com,968 Third Avenue,,New York,NY,10022,(212) 838-6558,,,,,Manhattan,1,968,THIRD AVENUE
+"Music, Audio & Sound",971,"Moore PA Hire, Incorporated",http://www.moorepahire.com,19-21 Box Street,,Brooklyn,NY,11222,(718) 389-8727,Cathal Moore,moorepahire@earthlink.net,,,Brooklyn,3,19,BOX STREET
+Wardrobe,917,Eskay Novelty Corp.,http://www.eskaynovelty.com,34 West 38th Street,3rd Floor,New York,NY,10018,(212) 391-4110,George Schwarcz,sales@eskaynovelty.com,,,Manhattan,1,34,WEST 38 STREET
+Wardrobe,918,Fashion Shoppe Experess Inc.,,42 West 8th Street,,New York,NY,10011,(212) 260-6990,Chatlam Barry,no email,,,Manhattan,1,42,WEST 8 STREET
+Wardrobe,919,Fila,http://www.fila.com,340 Madison Avenue,,New York,NY,10017,(646) 502-2100,Ana Gallegos,agallegos@fila.com,,yes,Manhattan,1,340,MADISON AVENUE
+Wardrobe,920,Finesse Creations,,3004 Avenue J,,Brooklyn,NY,11210,(718) 692-2100,Esther Machus,finesseny@aol.com,,yes,Brooklyn,3,3004,AVENUE J
+Wardrobe,921,Girls Love Shoes,http://www.glsnewyork.com,85 Hester Street,,New York,NY,10002,(917) 250-3268,Zia Ziprin,ziaziprin@hotmail.com,,yes,Manhattan,1,85,HESTER STREET
+Wardrobe,923,J. Levine Judaica,http://www.levinejudaica.com,5 West 30th Street,,New York,NY,10001,(212) 695-6888,Danny Levine,dlevineny@aol.com,,yes,Manhattan,1,5,WEST 30 STREET
+Wardrobe,924,Kaufman Furs,http://kaufmanfurs.com,232 West 30th Street,,New York,NY,10001,(212) 564-0050,Marc Kaufman,kaufmanfurs@aol.com,,yes,Manhattan,1,232,WEST 30 STREET
+Wardrobe,927,Malia Mills Swimwear,http://www.maliamills.com,199 Mulberry Street,,New York,NY,10012,(212) 625-2311,Carol Mills,carol@maliamills.com,,,Manhattan,1,199,MULBERRY STREET
+Wardrobe,928,Mask Arts Company,http://www.maskarts.com,203 West 14th Street,Studio 5F,New York,NY,10011,(212) 243-4039,Stanley Allan Sherman,stanley@maskarts.com,,yes,Manhattan,1,203,WEST 14 STREET
+Wardrobe,930,RRRentals,http://www.rrrentalsny.com,245 West 29th Street,11th Floor,New York,NY,10001,(212) 242-6120,Renate Lindlar,info@rrrentalsny.com,,,Manhattan,1,245,WEST 29 STREET
+Wardrobe,931,Saint Laurie Merchant Tailors,http://www.saintlaurie.com,22 West 32nd Street,5th Floor,New York,NY,10001,(212) 643-1916,Andrew Kozinn,tailor@saintlaurie.com,,yes,Manhattan,1,22,WEST 32 STREET
+Wardrobe,932,Screaming Mimi's,http://www.screamingmimis.com,382 Lafayette Street,,New York,NY,10003,(212) 677-6464,Laura Wills,sales@screamingmimis.com,,yes,Manhattan,1,382,LAFAYETTE STREET
+Wardrobe,933,Stanley Pleating & Stitching Co.,,242 West 36th Street,,New York,NY,10018,(212) 868-2920,Stuart A. Meyer,stanleyplt@aol.com,,,Manhattan,1,242,WEST 36 STREET
+Wardrobe,935,Ted's Formal Wear,,155 Orchard Street,,New York,NY,10002,(212) 966-2029,Charles Buchholz,,,,Manhattan,1,155,ORCHARD STREET
+Wardrobe,936,The Shirt Store Inc.,http://www.shirtstore.com,51 East 44th Street,,New York,NY,10017,(212) 557-8040,Anthony Sibio,anthony@shirtstore.com,,,Manhattan,1,51,EAST 44 STREET
+Wardrobe,937,Tiecrafters,http://www.tiecrafters.com,252 West 29th Street,,New York,NY,10001,(212) 629-5800,Andrew Tarshis,tiecrafter@aol.com,,,Manhattan,1,252,WEST 29 STREET
+Wardrobe,938,Ultimate Impressions,http://www.ultimateimpressions.com,313 West 37th Street,4th Floor,New York,NY,10018,(212) 234-3360,Jeff Rosenblum,tshirts@gmail.com,,,Manhattan,1,313,WEST 37 STREET
+Wardrobe,939,Uncle Sam's Army Navy Deals,http://www.armynavydeals.com,37 West 8th Street,,New York,NY,10011,(212) 674-2222,Betsy F,betsy@armynavydeals.com,,,Manhattan,1,37,WEST 8 STREET
+Wardrobe,940,"Uniforms by Park Coats, Inc.",http://www.uniformsbypark.com,790 3rd Avenue,,New York,NY,11232,(718) 499-1182 ext. 10,Katherine Haymando,dhaymando@uniformsbypark.com,,yes,Manhattan,1,790,3 AVENUE
+Wardrobe,945,Hamburger Woolen Co. Inc.,http://www.hwcny.com,23 Denton Avenue,,New Hyde Park,NY,11040,(516) 352-7400,Ilene H. Rosen,irosen@hwcny.com,,,New York State,6,23,DENTON AVENUE
+Wardrobe,946,Visual Merchandising d/b/a Fabulous Fit,http://www.fabulousfit.com,32 33rd Street,,Brooklyn,NY,11232,(718) 788-1088,,info@fabulolusfit.com,,,Brooklyn,3,32,33 STREET
+Hardware & Tools,974,"Numax, Inc.",http://www.yourtools4less.com,1073 Route 94,Unit 11,New Windsor,NY,12553,(800) 842-4230,Ron Hunkapiller,rhunk@numax.com,,yes,Orange County,6,1073,STATE ROUTE 94
+"Camera, Grip & Lighting",977,"Red Line Studios, Inc",http://www.redlinestudios.net,181 Broadway,Suite 301,New York,NY,10007,(212) 566-2031,Anastasia Konstantinou,stacy@redlinestudios.net,,,Manhattan,1,181,BROADWAY
+"Museums, Galleries & Tours",979,Ripley's Believe It or Not! Times Square,http://www.ripleysnewyork.com,234 West 42nd Street,,New York,NY,10036,(212) 348-3133,Michael Hirsch,www.ripleysnewyork.com,,yes,Manhattan,1,234,WEST 42 STREET
+Security,981,SecureEvent Corp,http://www.secureeventcorp.com,40 East 9th Street,Suite 3B,New York,NY,10003,(646) 208-3114,Charles P. Gallogly,info@secureeventcorp.com,,yes,Manhattan,1,40,EAST 9 STREET
+"Camera, Grip & Lighting",985,Sunbelt Rentals,http://www.sunbeltrentals.com,91 North 12th Street,,Brooklyn,NY,11211,(718) 387-4872,Joe Cardinale,joseph.cardinale@sunbeltrentals.com,,,Brooklyn,3,91,NORTH 12 STREET
+Food & Restaurants,958,Dee's,http://www.deesnyc.com,107-23 Metropolitan Avenue,,Forest Hills,NY,11375,(888) 488-DEES (3337),George Tsiatis,george@group113.com,,yes,Queens,4,107-23,METROPOLITAN AVENUE
+Production Company,975,"Orielle Creative Company, LLC",http://www.OrielleCreativeCompany.com,319 Lafayette Street,Suite 114,New York,NY,10012,(917) 446-2646,Sheila Speller,sheila@OrielleCreativeCompany.com,,,Manhattan,1,319,LAFAYETTE STREET
+Travel & Transportation,976,Quintessential Jets Inc,http://www.QJETS.com,39 Broadway,Suite 530,New York,NY,10006,(212) 682-5010,Alex Todd,atodd@qjets.com,,,Manhattan,1,39,BROADWAY
+Security,988,VIP International Security,http://www.VIP-InternationalNY.com,82 Whitehall Street,,Lynbrook,NY,11563,(516) 561-0153,Ken Padilla,Kpadilla@VIP-InternationalNY.com,,yes,Long Island,6,91,WHITEHALL STREET

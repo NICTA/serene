@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>2016 MACKOY ST</house_location>
+<price>$61,900</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>246154</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>GEORGE MARSH</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>HARDWOOD FLOORS AND STAINED GLASS WINDOWS. CHARM RUNS THROUGHOUT THIS
+HOME DOUBLE LOT &amp; CONVENIENTLY LOCATED NEAR SCHOOLS, CHURCHES &amp;
+HOSPITAL.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$16.45</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 8</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>9 X 11</dimension><level>2</level></bedroom_4>
+<dining><dimension>10 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 7</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 9</dimension><level>1</level></master>
+
+<directions>SOUTH ON MADISON,LEFT ON E 20TH, RIGHT ON MACKOY</directions>
+</house_listing>
+
+
+

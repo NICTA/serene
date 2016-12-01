@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>106 INDEPENDENCE S</house_location>
+<price>$119,900</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248918</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>PHIL SOUSA</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>NICE COUNTRY HOME, LARGE GLASSED-IN-PORCH! LARGE LOT, 2 OUT-BUILDINGS,
+IMMEDIATE OCCUPANCY, EASY TO SHOW!</house_description>
+<construction>Vinyl</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>100x230</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 7</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>2</level></master>
+<recreation_room><dimension>23 X 8</dimension><level>1</level></recreation_room>
+<study><dimension>10 X 9</dimension><level>1</level></study>
+
+<directions>275 TO SOUTH ON MADISON TO RIGHT ON INDEP
+ENDENCE STATION TO PROPERTY ON RIGHT.</directions>
+</house_listing>
+
+
+

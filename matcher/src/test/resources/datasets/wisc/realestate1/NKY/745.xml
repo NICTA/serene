@@ -1,0 +1,39 @@
+<house_listing>
+<house_location>2094 LOCUST RD</house_location>
+<price>$145,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Carport)</garage>
+<suburb>CARROLLTON</suburb>
+<school_dist>CARROLL CO</school_dist>
+<mls>247554</mls>
+<house_type>Farms</house_type>
+<firm>REALTY WORLD-RIVER VALLEY PROP</firm>
+<firm_phone>(502) 732-9977</firm_phone>
+<agent>CHRIS D HEMBREE</agent>
+<agent_phone>(502) 732-9977</agent_phone>
+<house_description>30 X 40 POLE BARN W/CONCRETE FLOOR &amp; ELECTRIC, 30 X 40 4 BENT BARN ON
+CON- CRETE FOUND. EXCELLENT HUNTING. PASTURE FOR CATTLE. HOME IN
+IMMACULATE CON- DITION(DRYWALL INTERIOR). MORE LAND AVAILABLE.</house_description>
+<construction>Wood</construction>
+<heating>Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Insert</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+
+<directions>CALL OFFICE</directions>
+</house_listing>
+
+
+

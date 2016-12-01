@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Alvarado</name>
+<location>400 Hwy 67 East Alvarado, TX 76009</location>
+<office>(817)790-6611</office>
+<toll_free></toll_free>
+<fax>(817)790-6612</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Newby</name>
+<office>(817)790-6611</office>
+<fax>(817)790-6612</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21599</id>
+<mls>9136964</mls>
+<house_location>27 Ray Street
+Keene, TEXAS 76059</house_location>
+<county>Johnson</county>
+<price>$26,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Cute 2 bedroom 2 bath mobile home. CLean &amp; neat on a very pretty lot.</house_description>
+
+<school_district>Cleburne</school_district>
+<approx_size_sqft>1000</approx_size_sqft>
+<stories>1</stories>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

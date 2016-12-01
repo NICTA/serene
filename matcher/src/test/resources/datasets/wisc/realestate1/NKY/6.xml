@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>100 RIVERSIDE #502</house_location>
+<price>$136,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>1ST DIST.</school_dist>
+<mls>246889</mls>
+<house_type>Condominium</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>LIZ ELLIS</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>GREAT VIEW OF RIVER &amp; SUSPENSION BRIDGE. CLOSE TO DOWNTOWN &amp; MANY
+RESTAURANTS. SPACIOUS FLOOR PLAN.</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level>05</condo_level>
+<hoa_fee>230</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>1</level></bedroom_2>
+<dining><dimension>9 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<living><dimension>16 X 25</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>I-75 TO 5TH STREET EXIT, LEFT TO GREENUP TO
+RIVERSIDE</directions>
+</house_listing>
+
+
+

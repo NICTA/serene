@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This condominium built in 1946 has ? bedroom(s), 1 bath(s) and
+approximately 250 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Horst Ortner</agent_name>
+<direct>305-672-2002</direct>
+<office>305-672-2002</office>
+<firm_name>Sobe Realty &amp; Asso
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-2002</phone>
+<fax>305-672-2201</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$35,900</list_price>
+<location>Miami Beach, FL 33139</location>
+<neighborhood>Fashion Condos</neighborhood>
+<mls>H721727</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>250 (approx)</square_feet>
+<year_built>1946</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

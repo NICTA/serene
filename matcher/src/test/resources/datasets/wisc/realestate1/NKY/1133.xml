@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>28 RIDGEVIEW CR</house_location>
+<price>$129,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>RIDGEVIEW</suburb>
+<school_dist>GRANT</school_dist>
+<mls>248174</mls>
+<house_type>Single Family</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>MIKE MELTON</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>NEWER HOME, 3 BR, 3 FULL BATHS, LOTS OF TILE, CEILING FANS, LARGE
+DECK, NEAR NEW HIGH SCHOOL</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bath_3><dimension>FULL</dimension><level></level></bath_3>
+<bedroom_2><dimension>9 X 12</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>8 X 9</dimension><level></level></bedroom_3>
+<dining><dimension>10 X 10</dimension><level></level></dining>
+<family><dimension>13 X 25</dimension><level></level></family>
+<kitchen><dimension>10 X 10</dimension><level></level></kitchen>
+<laundry><dimension>5 X 9</dimension><level></level></laundry>
+<living><dimension>14 X 17</dimension><level></level></living>
+<master><dimension>10 X 14</dimension><level></level></master>
+
+<directions>DRY RIDGE EX R THEN R ON 467 L ON RIDGEVI EW
+DRIVE THEN L ONTO RIDGEVIEW CR</directions>
+</house_listing>
+
+
+

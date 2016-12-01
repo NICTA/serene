@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 1 level home built in 1986 has 2 bedroom(s), 1 bath(s) . Rooms
+include master bedroom. Features include fireplace, air conditioning.</house_description>
+
+<agent_name>Charles Halman</agent_name>
+<office>757-428-8845</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-428-8845</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$36,000</list_price>
+<location>Virginia Beach, VA 23464</location>
+<mls>0000955</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Townhouse/Condo</type>
+<style>Apartment</style>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Club House
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

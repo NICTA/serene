@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1895 has 4 bedroom(s), 2 bath(s) and
+approximately 1782 square feet of living area.</house_description>
+
+<agent_name>Michael Newton</agent_name>
+<direct>303-255-4340</direct>
+<office>303-457-4800</office>
+<firm_name>RE/MAX Northwest Inc</firm_name>
+<phone>303-457-4800</phone>
+<fax>303-252-8133</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$269,000</list_price>
+<location>1101 E Alameda Av</location>
+<neighborhood>Washington Park</neighborhood>
+<mls>378605</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1782 (approx)</square_feet>
+<year_built>1895</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

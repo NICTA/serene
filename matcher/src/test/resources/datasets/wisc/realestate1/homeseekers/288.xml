@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1964 has 3 bedroom(s), 3
+bath(s) , 2 car garage and approximately 2894 square feet of living
+area. Rooms include dining room, bonus room. Features include view,
+private spa, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Vincent Yackanin CRS</agent_name>
+<direct>520-529-6292</direct>
+<office>520-299-2777</office>
+<firm_name>Realty Executives-Tuc Realty Executives-Tuc</firm_name>
+<phone>520-299-2777</phone>
+<fax>520-299-5969</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$245,000</list_price>
+<location>6402 N Camino De Michael</location>
+<mls>2000878</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2894 (approx)</square_feet>
+<lot_size>281X205X226X72X39 +/-</lot_size>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<spa>Yes</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

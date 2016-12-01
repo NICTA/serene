@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1123 MOUNT ALLEN</house_location>
+<price>$89,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248071</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>RUTH E VOORHEES</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>SUPER NICE NEUTRAL DECOR*BEAUTIFUL HARDWD FLRS*CARPETED FAM/SUN RM *
+NEWER WINDOWS,C/A &amp; FURNACE*ALL NEW DRAIN TILE &amp; SUMP PUMPS*GARAGE
+DOOR OPENER* 12X24 RM IN BSMT COULD BE FINISH FAM RM *NICE REAR YARD
+*CALL RUTH 525-5769</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>51 x 101</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 9</dimension><level>1</level></bedroom_2>
+<family><dimension>18 X 9</dimension><level>1</level></family>
+<kitchen><dimension>12 X 8</dimension><level>1</level></kitchen>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>DIXIE HWY TO SOUTH ARLINGTON LEFT ON MT ALLEN</directions>
+</house_listing>
+
+
+

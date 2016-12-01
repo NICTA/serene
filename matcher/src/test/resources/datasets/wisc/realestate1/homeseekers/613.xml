@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 2 level attached condominium built in 1973 has ? bedroom(s), 1
+bath(s) and approximately 368 square feet of living area. Features
+include private pool.</house_description>
+
+<agent_name>Guzman, Sophia J</agent_name>
+<direct>562-928-1480</direct>
+<office>323-562-4204</office>
+<firm_name>Western Realty #1 Western Realty #1</firm_name>
+<phone>323-562-4204</phone>
+<fax>323-562-4204</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$49,000</list_price>
+<location>320 S Ardmore Av #222</location>
+<mls>R100554</mls>
+<status>Active</status>
+<baths>1</baths>
+<levels>2</levels>
+<type>Condominium</type>
+<square_feet>368 (approx)</square_feet>
+<lot_size>414 (approx)</lot_size>
+<year_built>1973</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>Above ground</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

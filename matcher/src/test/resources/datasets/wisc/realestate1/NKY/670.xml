@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>724 W NINTH ST.</house_location>
+<price>$54,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247810</mls>
+<house_type>Single Family</house_type>
+<firm>PREFERRED PROPERTIES</firm>
+<firm_phone>(606) 371-4777</firm_phone>
+<agent>DEBRA A TAYLOR-GORTON</agent>
+<agent_phone>(606) 371-4777</agent_phone>
+<house_description>LARGE BRICK HOME ON GREAT LOT. TONS OF POTENTAL. 2 FULL BATHS. ROOF IS
+2 YR OLD. FENCED YD. GREAT NEIGHBORHOOD. FINANCING 3% DOWN</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>16 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 14</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 10</dimension><level>1</level></master>
+<study><dimension>10 X 7</dimension><level>2</level></study>
+
+<directions>W ON PIKE TO R ON WESTERN TO R ON W.NINTH TO
+724.</directions>
+</house_listing>
+
+
+

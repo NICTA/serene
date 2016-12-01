@@ -1,0 +1,46 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Verna</email>
+</firm_information>
+
+<agent_information>
+<name>Adams</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)242-6500</voice_mail>
+<mobile>(713)824-0228</mobile>
+<email>vernaadams@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13801</id>
+<mls>188036</mls>
+<house_location>14006 Vinehill
+Sugar Land, TEXAS</house_location>
+<county>Fort Bend</county>
+<price>$76,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Spacious Den with corner fireplace, Breakfast Bar, Fresh Paint, Great Decked Area in back yard, Fort Bend Schools, Gas plus electric, Earthtones, Good neighbors, owner says show and sell. </house_description>
+
+<school_district>Fort Bend</school_district>
+<sub-division>Ragus Lake Estates</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

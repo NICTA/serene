@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>1861 FREEDOM TRAIL</house_location>
+<price>$168,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248716</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>SCOTT BORNEMAN</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>QUALITY NEW CONSTRUCTION BY SPILLE BUILDERS.FEATURES SPACIOUS LIVING
+RM W/ GAS FIREPLACE, OVERSIZED KITCHEN, DINETTE, FORMAL DINING ROOM
+AND LAUNDRY. STILL TIME TO MAKE PERSONAL SELECTIONS. 1952 SQUARE FEET!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80X160</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>11 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 13</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>10 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 12</dimension><level>1</level></dining>
+<family><dimension>14 X 23</dimension><level>1</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 8</dimension><level>1</level></laundry>
+<master><dimension>12 X 16</dimension><level>2</level></master>
+
+<directions>RT17 TO OBY DR L ON OBY L ON JAMESTOWN R ON
+FREEDOM TRAIL TOWARDS END ON LEFT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1912 has 3 bedroom(s), 1 bath(s) and
+approximately 1039 square feet of living area.</house_description>
+
+<agent_name>Joe Bogar</agent_name>
+<direct>303-804-4789</direct>
+<office>303-741-4900</office>
+<firm_name>RE/MAX Classic</firm_name>
+<phone>303-741-4900</phone>
+<fax>303-741-0859</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,900</list_price>
+<location>2344 S Acoma St</location>
+<neighborhood>Overland S Platte</neighborhood>
+<mls>384001</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1039 (approx)</square_feet>
+<year_built>1912</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

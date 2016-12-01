@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>3311 LATONIA AV</house_location>
+<price>$79,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>250335</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>CONNIE CAHILL</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*NEWER
+ROOF-GUTTERS-SIDING-WINDOWS- PLUMBING-PATIO &amp; SIDEWALKS-REMODELED BATH
+W/CERAMIC TILE FLOOR-1ST FLOOR FR-DETACHED GARAGE-SHOWER &amp; COMMODE IN
+BASEMENT</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>28X120</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>16 X 10</dimension><level>1</level></dining>
+<family><dimension>11 X 6</dimension><level>1</level></family>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<living><dimension>19 X 11</dimension><level>1</level></living>
+<master><dimension>15 X 10</dimension><level>2</level></master>
+
+<directions>MADISON AVE TO LATONIA AVE</directions>
+</house_listing>
+
+
+

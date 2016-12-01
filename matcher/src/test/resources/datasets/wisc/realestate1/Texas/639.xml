@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jeffers Mary Ann</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>maryannc-21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21476</id>
+<mls>325537</mls>
+<house_location>1433 Oak St
+Schertz, TEXAS 78154</house_location>
+<county>Guadalupe</county>
+<price>$62,521</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Fresh paint and neat as can be.  Mature trees shade a yard you will enjoy all year.  Formal dining room, Florida room that overlooks a fantastic yard. Great location. Builtins in breakfast area, lot of storage in garage.  Washer and dryer remain.  Age of home is just an estimate, tax records does not show age.</house_description>
+
+<school_district>Schertz / Cibolo/ Universal City Isd</school_district>
+<sub-division>Parkland Village</sub-division>
+<approx_size_sqft>1058</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60x120</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

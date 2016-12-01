@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>10674 BRIDLE PATH LN</house_location>
+<price>$359,800</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side,Oversized)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250294</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>CINDY BROUILLETTE</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>EXCEPTIONALLY EXCITING &amp; WELL-MAINTAINED/2 STORY FAMILY RM W/BALCONY
+VIEW HARDWOOD ENTRY/LIBRARY/KITCHEN RICH CROWN MOLDING/SOLID PANEL
+DRS/EXPANSIVE ARCHED/SPECIALTY WNDWS/SPECTACULAR SETTING IN DESIRED
+AREA/LOADED W/EXTRAS!</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>2 ACRES</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>13 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>16 X 13</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>13 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>18 X 12</dimension><level>1</level></dining>
+<family><dimension>19 X 19</dimension><level>1</level></family>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>18 X 15</dimension><level>2</level></master>
+<recreation_room><dimension>35 X 28</dimension><level>L</level></recreation_room>
+<study><dimension>13 X 12</dimension><level>1</level></study>
+
+<directions>US 42S TO THE DOWNS @ HICKS PIKE (ON LEFT IMMED
+PAST RYLE HS) TO L BRIDLE PATH</directions>
+</house_listing>
+
+
+

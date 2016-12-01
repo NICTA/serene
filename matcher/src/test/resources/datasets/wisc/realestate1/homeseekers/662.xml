@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1911 has 2 bedroom(s), 1 bath(s) and
+approximately 2032 square feet of living area.</house_description>
+
+<agent_name>Bob Lambert/R.High</agent_name>
+<direct>750-5688</direct>
+<office>303-755-6611</office>
+<firm_name>Coldwellbanker Moore</firm_name>
+<phone>303-755-6611</phone>
+<fax>303-755-0312</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$234,500</list_price>
+<location>2374 N Elm St</location>
+<neighborhood>Park Hill</neighborhood>
+<mls>357318</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>2032 (approx)</square_feet>
+<year_built>1911</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

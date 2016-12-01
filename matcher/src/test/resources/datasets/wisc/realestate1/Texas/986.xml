@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>ERA Bogany Properties</name>
+<location>9121-C Stella Link Houston, TX 77025</location>
+<office>(713)667-1000</office>
+<toll_free></toll_free>
+<fax>(713)667-3113</fax>
+<email>shad@insync.net</email>
+</firm_information>
+
+<agent_information>
+<name>Marie Stovall</name>
+<office>(713)667-1000</office>
+<fax>(713)667-3113</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>13344</id>
+<mls>184503</mls>
+<house_location>14514 Meyersville
+Houston, TEXAS 77049-4324</house_location>
+<county>Harris</county>
+<price>$73,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Really nice home with large eat-in kitchen both formals. Recent paint 98, Roof 95, A/C 97,Furnace 95.  Your Clients will love the sunken Large and Huge family room.  Neutral colors and lots of storage.  Use Texas American Title.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Pine Trails</sub-division>
+<approx_size_sqft>1967</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

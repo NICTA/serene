@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>2538 OAKFORD CT</house_location>
+<price>$217,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248954</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN HUFF</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * LIKE NEW! 3 BEDROOM, 2.5 BATH, 2 STORY HOME ON
+CUL-DE-SAC LOT! LARGE DECK OFF FAMILY ROOM OVERLOOKING WOODED LOT!
+INVISIBLE FENCE FOR PETS * EAT-IN KITCHEN *</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>13 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<family><dimension>18 X 13</dimension><level>1</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<master><dimension>17 X 13</dimension><level>2</level></master>
+
+<directions>BUTTERMILK TO LEFT ON MEADOWWOOD TO RIGHT ON
+OAKFORD CT</directions>
+</house_listing>
+
+
+

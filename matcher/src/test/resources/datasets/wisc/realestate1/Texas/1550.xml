@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joyce Hoard</name>
+<office>(254)542-1800</office>
+<fax>(254)542-1839</fax>
+<mobile>(254)681-5841</mobile>
+<email>jhoard@mailexcite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19569</id>
+<mls>88415</mls>
+<house_location>4303 Prairie
+Killeen, TEXAS 76543</house_location>
+<county>Bell</county>
+<price>$76,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>K.i.s.d</school_district>
+<approx_size_sqft>1446</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Subject to VA Compromise</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

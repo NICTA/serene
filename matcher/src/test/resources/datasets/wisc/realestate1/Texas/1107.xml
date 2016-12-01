@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Levine, GRI</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 123</voice_mail>
+<mobile>(512)517-4301</mobile>
+<email>SandyWLC@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21391</id>
+<mls>528299</mls>
+<house_location>501 Little Ranches Road
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$445,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>On Top of the World! views all around from this dramatic hilltop retreat on 8 private acres. Nearly new home with approx. 4200 square foot, elegant and state-of-the-art with room for everyone: 3 bedrooms, 3.5 baths, 3 living areas, 2 kitchens, private entry to guest apartment or B&amp;B. multi-level decks offer unbeatable views. Excellent location, scenic and close to town.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Flite Acres Little Ranches</sub-division>
+<stories>3</stories>
+<approx_acres>8.03</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

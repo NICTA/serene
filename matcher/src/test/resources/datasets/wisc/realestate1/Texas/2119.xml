@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Allan Kugler</name>
+<office>(512)303-3738</office>
+<fax></fax>
+<mobile>(512)789-4488</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18892</id>
+<mls>517376</mls>
+<house_location>5434 PINE VALLEY LOOP
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$69,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>RT. BEAUTIFUL PARCEL OF LAND SPANING TWO HILLS HEAVILY WOODED WITH SOME NATURAL CLEARINGS CERTIFICATE OF ATTACHMENT TO REAL ESTATE COMPLETED ON NICE MOBILE HOME.  WITH BACK DECK EXTRA ELECTRIC FOR RV.  2394AK</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Pine Valley Estates</sub-division>
+<stories>1</stories>
+<approx_acres>10.96</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>HEAVILY WOODED</item>
+<item>NATURAL CLEARINGS</item>
+<item>COMPLETED ON NICEMOBILE HOME</item>
+<item>WITH BACK DECK/EXTRA ELE. FOR RV</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

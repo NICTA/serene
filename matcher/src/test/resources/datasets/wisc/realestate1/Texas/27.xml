@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sonya Kaff</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)360-4630</mobile>
+<email>yakaynof@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17777</id>
+<mls>9083892</mls>
+<house_location>225 Gregory
+Joshua, TEXAS 76058</house_location>
+<county>Johnson</county>
+<price>$79,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>IN TOWN LIVING AND ROOM FOR HORSES ON THIS REALLY PRETTY PROPERTY.  1.8 ACRES WITH WELL OUTSIDE FOR WATER, BARN AND SHOP, HUGE GARDEN AREA AND FRUIT AS WELL AS OTHER TREES.  LOTS OF UPDATING IN THIS HOUSE WITH LARGE ROOMS.  EAT-IN KITCHEN, FORMAL DINING, AND BEDROOMS LARGE ENOUGH TO HAVE TWO DOUBLE BEDS IN THEM.  WOME WARRANTY WITH 10 MONTHS REMAINING.</house_description>
+
+<school_district>Joshua I S D</school_district>
+<sub-division>H G Carson Survey</sub-division>
+<approx_size_sqft>1555</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>96x660x135x39x194</approx_lot_size>
+<approx_acres>1.8</approx_acres>
+<year_built>1944</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>IN MINT CONDITION</item>
+<item>SMOKE &amp; CARBON MONOXIDE DETECTORS</item>
+<item>ENERGY SAVING FEATURES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1989 has 5 bedroom(s), 3
+bath(s) , 3 car garage and approximately 2700 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, private pool, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Ian Taylor</agent_name>
+<direct>520-797-0033</direct>
+<office>520-297-1186</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-297-1186</phone>
+<fax>520-297-1005</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$224,900</list_price>
+<location>11020 N Broadstone Dr</location>
+<mls>2000097</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2700 (approx)</square_feet>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

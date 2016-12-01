@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>102 CLUBSIDE DR</house_location>
+<price>$149,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>BUTLER</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>250298</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>ROBERT W ABNER</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>NEW QUALITY-BUILT TOWNHOMES BY CUTTER CUSTOM HOMES. GOLF COURSE
+VIEWS-PEND LETON CO COUNTRY CLUB. 2-3 BR UNITS. 1-2 CAR GAR. MANY
+UPGRADES AVAILABLE MODEL OPEN SAT-SUN OR BY APPT. CO-LISTER ROBIN
+HENRY 606-578-3994, IMMED.OC</house_description>
+<construction>Brick,Other</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>2</level></bedroom_2>
+<kitchen><dimension>14 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>19 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+<study><dimension>12 X 10</dimension><level>1</level></study>
+
+<directions>US 27 SOUTH TO R ON COUNTRY CLUB DR. TO L. ON
+LINKS VIEW DR TO R ON CLUBSIDE</directions>
+</house_listing>
+
+
+

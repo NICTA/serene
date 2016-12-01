@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>John Chabot</name>
+<office></office>
+<fax></fax>
+<email>jchabot@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21497</id>
+<mls></mls>
+<house_location>583 McAllister Road
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$129,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>The perfect place for your family.  This 3/2/2 home features a spacious living area with high ceilings, Berber carpets, large master suite, custom cabinets, country kitchen, and so much more.  Lovely setting with towering Pines on 2+/- acres!  Enjoy gentle breezes on two large covered porches.  Wonderful area.  Call or e-mail John Chabot today for more details.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Pine Oak Estates</sub-division>
+<approx_acres>2</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Spacious Living Area!</item>
+<item>Berber Carpets and Custom Cabinets!</item>
+<item>Large Covered Porches!</item>
+<item>2+/- Beautifully Wooded Acres!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home built in 1999 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include master bedroom. Features include view.</house_description>
+
+<agent_name>Bret Boyer</agent_name>
+<office>602-336-9600</office>
+<firm_name>Realty Experts, Inc.</firm_name>
+<phone>602-336-9600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$99,000</list_price>
+<location>Phoenix, AZ 85037</location>
+<mls>1456505</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Dishwasher, Eat In Kitchen,Garage Door Opener, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

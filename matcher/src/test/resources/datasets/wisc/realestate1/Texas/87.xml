@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Z-Man Zevchak</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)992-7253</mobile>
+<email>jjzman@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20227</id>
+<mls>9116109</mls>
+<house_location>124 Bent Tree Trail
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$164,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Custom home on approx 3/4 acre. Special ceiling treatment tastefully done to enhance the beauty of this lovely home. Shows like a model. Walk-in closets. Built-in desks in master * livingroom. Split bedrooms. Gunnite diving pool.  Work sink in garage.  Trees.  Great curb appeal.  Personal tour available. Call Z-Man/MaryAnn.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Bent Tree</sub-division>
+<approx_size_sqft>2153</approx_size_sqft>
+<stories>1</stories>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

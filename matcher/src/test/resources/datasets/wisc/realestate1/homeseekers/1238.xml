@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1986 has 2
+bedroom(s), 1 bath(s) , 1 car attached garage and approximately 779
+square feet of living area. Features include patio.</house_description>
+
+<agent_name>Ginny Chaires</agent_name>
+<direct>909-736-4396</direct>
+<office>909-280-3500</office>
+<firm_name>Recotta Realty</firm_name>
+<phone>909-280-3500</phone>
+<fax>909-280-3513</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$134,900</list_price>
+<location>2038 E 113Th St</location>
+<mls>K200013</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>779 (approx)</square_feet>
+<lot_size>3425</lot_size>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

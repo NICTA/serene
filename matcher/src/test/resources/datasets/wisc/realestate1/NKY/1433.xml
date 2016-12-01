@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>5104 OLIVER RD</house_location>
+<price>$179,900</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248577</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>THOMAS M REESE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>LOVELY RANCH ON 3 ACRES * PRIVATE AREA * 10% BIDDLE PREMIUM SUBJECT TO
+CONFIRMATION * AUCTION DEC. 9, 7:00PM * HOUSE OPENS AT 5:00 PM * AGENT
+CAN EARN 3% BY REG. BUYER 24 HRS IN ADVANCE W/OPENING BID * MUST SEE *</house_description>
+<construction>Brick</construction>
+<heating>Radiant</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stove</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>12 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>20 X 10</dimension><level>1</level></dining>
+<family><dimension>22 X 15</dimension><level>1</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>14 X 6</dimension><level>1</level></laundry>
+<living><dimension>22 X 16</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>RT 17 MADISON PIKE TO L ON HARRIS TO L ON OLIVER
+* HOUSE ON RIGHT</directions>
+</house_listing>
+
+
+

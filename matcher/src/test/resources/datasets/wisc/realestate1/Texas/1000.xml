@@ -1,0 +1,43 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Larry Pruneda</name>
+<office></office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19304</id>
+<mls>R26102</mls>
+<house_location>730 East Hoffman
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$49,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Nice hardwood floors, large bedrooms, detached single garage, chain link fence.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Sarita Park #1</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

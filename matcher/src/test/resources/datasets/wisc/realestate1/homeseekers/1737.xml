@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>Fantastic 2nd floor condo located off 1st colonial rd. 5 minutes to
+the oceanfront. Located within minutes to interstate, walk to grocery
+store or hospital. Grt room w/fireplace,all appliances, dining area,
+deck, storage area,large closets in spacious bedrooms.</house_description>
+
+<agent_name>Robin Dibuono</agent_name>
+<direct>426-7653</direct>
+<office>757-428-3516</office>
+<firm_name>William E. Wood &amp; Associates</firm_name>
+<phone>757-428-3516</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$57,900</list_price>
+<location>Virginia Beach, VA 23451</location>
+<mls>9923153</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<style>Transitional</style>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<location>Corner, Cul-de-sac</location>
+<patio>Deck</patio>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Foyer
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

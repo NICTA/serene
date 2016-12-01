@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>906 MAIN ST</house_location>
+<price>$64,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>3 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COV INDEP</school_dist>
+<mls>250231</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JOHN VINCE</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>HUD HOME-SOLD AS IS-INSURED STATUS UI-UP TO 5% COMM TO SELLING BROKER
+(NEG0 TO SUBMIT OFFER CALL 888-292-3917 OR VISIT
+WWW.GOLDENFEATHER.COM-ANY QUEST CALL 800-336-1399.CASE #202-011298
+LIST DATE 1/14/00</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>16 X 54</dimension><level>3</level></bedroom_4>
+<dining><dimension>11 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 7</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>2</level></master>
+
+<directions>N ON 75 TO 5TH ST EX R ON MAIN ST TO 906</directions>
+</house_listing>
+
+
+

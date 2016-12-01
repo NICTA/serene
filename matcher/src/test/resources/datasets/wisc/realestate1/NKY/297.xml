@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>10493 MASTERS DR</house_location>
+<price>$206,500</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249862</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>THOMAS M REESE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * WWW.TOMREESEINC.COM *OPEN &amp; SPACIOUS OVERLOOKS 16TH
+GREEN OF TRIPLE CROWN GOLF COURSE &amp; POND * NEW FAMILY ROOM W/WET BAR,
+WALKOUT FROM LOWER LEVEL * 1ST FLR GAS FIREPLACE * HARDWOOD ENTRY *
+KITCHEN &amp; BREAKFAST</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>condo</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>17 X 10</dimension><level>L</level></bedroom_2>
+<bedroom_3><dimension>13 X 13</dimension><level>L</level></bedroom_3>
+<breakfast><dimension>11 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<family><dimension>33 X 17</dimension><level>L</level></family>
+<kitchen><dimension>11 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 7</dimension><level>1</level></laundry>
+<living><dimension>21 X 19</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+<study><dimension>11 X 10</dimension><level>1</level></study>
+
+<directions>I-75 TO RICHWOOD EXIT R TO R INTO TRIPLE CROWN
+TO FAIRWAYS</directions>
+</house_listing>
+
+
+

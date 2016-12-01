@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1974 has 3
+bedroom(s), 3 bath(s) . Rooms include den, dining room, family room,
+bonus room. Features include view, private spa, fireplace, air
+conditioning, storage space, window bars.</house_description>
+
+<agent_name>Robert Villa</agent_name>
+<office>626-795-8300</office>
+<firm_name>Macgregor Realty - Pasadena</firm_name>
+<phone>626-795-8300</phone>
+<fax>626-795-2283</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$475,000</list_price>
+<location>4085 S Cloverdale Av</location>
+<mls>G906129</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<lot_size>25970</lot_size>
+<year_built>1974</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Bonus Room, Den, Dining Room, Family Room</rooms>
+<spa>Yes</spa>
+<view>City Lights View, Hills View, Mountain View, Panoramic View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

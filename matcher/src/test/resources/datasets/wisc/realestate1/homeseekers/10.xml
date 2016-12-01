@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Big house has two car detached garage, newer tile in kitchen, dining
+room and bathroom, newer carpet in every bathroom. Separate bonus room
+- make an offer!!! Call rafael.</house_description>
+
+<agent_name>Rafael Arevalo</agent_name>
+<direct>213-588-7379</direct>
+<office>562-927-2626</office>
+<firm_name>C-21 My Real Estate C-21 My Real Estate</firm_name>
+<phone>562-927-2626</phone>
+<fax>562-928-1474</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$144,900</list_price>
+<location>Los Angeles, CA 90062</location>
+<mls>Y96</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1286 (approx)</square_feet>
+<lot_size>6400 (approx)</lot_size>
+<year_built>1912</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>420 8TH</house_location>
+<price>$58,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>243845</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>HOLLY ASHCRAFT</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*NICE BRICK/VINYL ONE FLR PLAN*TOTAL
+OF 3 LOTS FOR LRG YARD*OFF ST PKG, GARDEN*KITCHEN, BATH, 2ND BR
+ADDITION &amp; ROOF* ALL REMODELED IN LAST 10 YEARS*DISHWASHER*STORAGE
+SHED* LOTS OF OFF ST PRK</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>69x121</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 9</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>13 X 16</dimension><level>1</level></kitchen>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>13 X 14</dimension><level>1</level></master>
+
+<directions>BRIGHTON TO W 8TH*W 8TH ONE WAY EAST* PROPERTY
+BETWEEN BRIGHTON AND PATERSON</directions>
+</house_listing>
+
+
+

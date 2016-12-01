@@ -1,0 +1,50 @@
+<house_listing>
+<price>$94,900</price>
+<mls_id_number>91899</mls_id_number>
+<city>Lewiston</city>
+<st>ID</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1172</sqft>
+<year_built></year_built>
+<heat>Gas Forced Air</heat>
+<ac>Central Air</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>Comp</roof>
+<garage>Detached one car</garage>
+<lot_size>0.00        Acres</lot_size>
+<lot_description>Level fenced back yard</lot_description>
+<fireplace>No</fireplace>
+<taxes>$0</taxes>
+<floors>Carpet and vinyl</floors>
+<exterior>Vinyl siding</exterior>
+<site>East Orchards location</site>
+</amenities>
+<features><item>Open Kitchen/Dining Area</item>
+<item>Built-in Hutch</item>
+<item>Fenced Yard with Dog Pen</item>
+<item>Detached Garage</item>
+<item>Two additional rooms in basement</item>
+</features>
+<schools><elementary></elementary>
+<middle_school>Sacajawea</middle_school>
+<high_school>Lewiston</high_school>
+</schools>
+<comments>Great Neighborhood homein East Orchards.  Features include large kitchen/dining area, mud/utility room, 2 beds up, plus potential in the basement.  Huge lot with play area, garden space and more!</comments>
+<for_more_information_contact>
+<agent_name>Elaine Goodner</agent_name>
+<firm_name>Windermere Real Estate/All Star Realty, L.L.C.</firm_name>
+<firm_location>137 Thain Road
+Lewiston, ID</firm_location>
+<office_phone>208-798-7777</office_phone>
+<fax>(208)798-1606</fax>
+<cell_phone>208-791-3082</cell_phone>
+<e-mail>egoodner@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1970 has 2 bedroom(s), 1 bath(s) and
+approximately 910 square feet of living area. Features include view,
+patio, storage space.</house_description>
+
+<agent_name>Joseph Brescia</agent_name>
+<direct>520-881-3990</direct>
+<office>520-741-8757</office>
+<firm_name>Country Club Realty</firm_name>
+<phone>520-741-8757</phone>
+<fax>520-294-6418</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$61,500</list_price>
+<location>3510 E March Pl</location>
+<mls>9919373</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<square_feet>910 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

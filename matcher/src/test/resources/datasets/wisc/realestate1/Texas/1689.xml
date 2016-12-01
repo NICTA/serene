@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tommy Overman</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>tommyo@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21351</id>
+<mls>54679</mls>
+<house_location>106-D COVE EAST (15045-D)
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$595,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>5</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>CONTRACT PENDING.  Perfectly located 3-level waterfront condo near Yacht Club.  Outside deck faces East.  Covered boat lift, double jet ski ramp, fishing pier, day docks, lake pump.  Bonus room is done as large gameroom.  Disposal, dishwasher, oven, range, refrigerator, compactor, microwave.  Wet bar.  Ceiling fans, intercom, insulated windows, skylights, garage door opener.  Fireplace.  Stone with metal roof.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>3</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WATERFRONT 3-STORY CONDO</item>
+<item>COVERED BOAT LIFT,DOUBLE JET SKI RAMP</item>
+<item>ALL APPLIANCES</item>
+<item>NEAR YACHT CLUB</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

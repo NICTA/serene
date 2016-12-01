@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1963 has 1 bedroom(s), 1 bath(s) , 1 car
+detached garage and approximately 641 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Guillermo Fernande</agent_name>
+<direct>305-666-2095</direct>
+<office>305-275-4525</office>
+<firm_name>Amerigroup Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-275-4525</phone>
+<fax>305-275-4523</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$69,900</list_price>
+<location>7904 West Dr #1016</location>
+<neighborhood>Bayshore Yacht &amp; Tennis C</neighborhood>
+<mls>D894407</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>641 (approx)</square_feet>
+<year_built>1963</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ocean Access, Tennis Court(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

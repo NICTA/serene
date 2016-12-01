@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1996 has 2 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1780 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Jeanne Mockridge</agent_name>
+<direct>606-1855</direct>
+<office>534-1999</office>
+<email>Jeannesold@aol.com</email>
+<firm_name>Majestic Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>534-1999</phone>
+<fax>305-534-9088</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$459,000</list_price>
+<location>300 S Pointe Dr #404</location>
+<neighborhood>Portofino Tower Condo</neighborhood>
+<mls>M770424</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1780 (approx)</square_feet>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Foyer, Kitchen Island, Walk-In Closet(s), Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

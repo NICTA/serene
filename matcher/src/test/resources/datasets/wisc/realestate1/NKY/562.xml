@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>2801 ROGERS</house_location>
+<price>$78,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248156</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>MICHAEL W MOYER</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>CUTEST HOME*PRICED TO BEAT COMPS*NEWLY LANDSCAPED BACKYARD W/PRIVATE
+FENCE* HARDWOOD FLRS*GARAGE*HOME WARRANTY*NEWER CEN AIR*FURNACE, TILE,
+NEWER ELECTRIC, PLUMBING, CEILING FANS &amp; CARPET** MUST SEE!!</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>16 X 11</dimension><level>1</level></living>
+<master><dimension>16 X 11</dimension><level>2</level></master>
+<study><dimension>11 X 6</dimension><level>1</level></study>
+
+<directions>275 TO 3L HWY NORTH (COV/IND EXIT) 6 LIGHTS TO
+ROGERS ON RIGHT</directions>
+</house_listing>
+
+
+

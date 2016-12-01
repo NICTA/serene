@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gayle Luck</name>
+<office>(817)558-8955</office>
+<fax>(817)517-5454</fax>
+<mobile>(817)991-9455</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20099</id>
+<mls>9113322</mls>
+<house_location>5921 CR 1023
+Joshua, TEXAS 76058</house_location>
+<county>Johnson</county>
+<price>$197,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>THIS COUNTRY HOME HAS BEEN BUILT ON 34.78 ACRES.  YOU WILL HAVE SCATTERED LARGE OAK TREES, A SHADED PORCH AND PATIO. THE INTERIOR HAS BEEN UP-DATED WITH A WOOD BURNING FIRE PLACE AND CEILING FANS.  THE PROPERTY IS FENCED WITH A 643 FOOT DEEP WELL AND A FIVE STALL BARN.FINANCING COULD ALSO BE THRU THE FEDERAL LAND BANK.</house_description>
+
+<school_district>Joshua I S D</school_district>
+<sub-division>Dyer Nuner Survey</sub-division>
+<stories>1</stories>
+<approx_acres>34.78</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>UPDATED INTERIOR</item>
+<item>DEEP WELL</item>
+<item>WBFP</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

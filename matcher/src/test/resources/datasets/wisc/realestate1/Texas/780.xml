@@ -1,0 +1,45 @@
+<house_listing>
+<firm_information>
+<name>Duffy&amp; LaRoe-REALTORS</name>
+<location>4505 Hwy. 6 North Houston, TX 77084</location>
+<office>(281)463-1141</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)463-2184</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gina Baker</name>
+<office>(281)463-1141</office>
+<fax>(281)463-2184</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17054</id>
+<mls>228097</mls>
+<house_location>20423 Lake Spring Court
+Houston, TEXAS 77429</house_location>
+<county>Harris</county>
+<price>$245,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>BETTER THAN NEW!  Casually elegant home located on cul-de-sac lot in beautiful Fairfield.  Professionally designed swimming pool, awesome kitchen with Corian Counter,  and children's retreat with gameroom.  2nd floor balcony overlooks beautiful lake.  This home can be yours.</house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This 1 level detached single family home has 3 bedroom(s), 1 bath(s)
+and approximately 1200 square feet of living area. Features include
+fireplace.</house_description>
+
+<agent_name>Minerva Nielsen</agent_name>
+<office>626-914-6617</office>
+<firm_name>Nielsen Realty</firm_name>
+<phone>626-914-6617</phone>
+<fax>626-914-4743</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$125,000</list_price>
+<location>11903 S Main St</location>
+<mls>C913249</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1200 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

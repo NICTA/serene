@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1980 has 2 bedroom(s), 2 bath(s) and
+approximately 1223 square feet of living area. Rooms include dining
+room. Features include view, patio, air conditioning, storage space.</house_description>
+
+<agent_name>Martha Jackson</agent_name>
+<direct>520-579-3467</direct>
+<office>520-299-2777</office>
+<email>Martha@marthajackson.com</email>
+<firm_name>Realty Executives-Tuc
+Realty Executives-Tuc</firm_name>
+<phone>520-299-2777</phone>
+<fax>520-299-5969</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$112,500</list_price>
+<location>3050 E Weymouth St</location>
+<mls>9922100</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<square_feet>1223 (approx)</square_feet>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

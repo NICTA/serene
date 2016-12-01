@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 3 bedroom(s), 1 bath(s) and
+approximately 903 square feet of living area.</house_description>
+
+<agent_name>Rexanne Kohler</agent_name>
+<direct>303-791-9700</direct>
+<office>303-791-2882</office>
+<firm_name>RE/MAX Professionals</firm_name>
+<phone>303-791-2882</phone>
+<fax>303-791-4664</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$119,900</list_price>
+<location>3980 W Exposition Av</location>
+<neighborhood>Westwood</neighborhood>
+<mls>372259</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>903 (approx)</square_feet>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

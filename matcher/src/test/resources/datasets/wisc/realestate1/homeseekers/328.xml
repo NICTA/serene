@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This townhouse built in 1975 has 2 bedroom(s), 3 full bath(s)/1 half
+bath(s) , 2 car attached garage and approximately 2586 square feet of
+living area. Features include private pool, fireplace, air
+conditioning, skylights.</house_description>
+
+<agent_name>Joan Cohen</agent_name>
+<direct>000-0000</direct>
+<office>948-5050</office>
+<firm_name>Joan Cohen Realty
+Lic. Real Estate Broker</firm_name>
+<phone>948-5050</phone>
+<fax>305-000-0000</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$275,000</list_price>
+<location>1572 NE Quayside Te #D17</location>
+<neighborhood>Towers Quayside Ct-Yard V</neighborhood>
+<mls>M762158</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>3(full) 1(half)</baths>
+<garage></garage>
+<type>Townhouse</type>
+<square_feet>2586 (approx)</square_feet>
+<year_built>1975</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<fireplace>Yes</fireplace>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Intercom System, Skylights, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

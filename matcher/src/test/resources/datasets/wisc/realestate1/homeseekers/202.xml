@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This single family home built in 1960 has 2 bedroom(s), 2 bath(s) , 1
+car garage and approximately 1877 square feet of living area. Features
+include view, air conditioning.</house_description>
+
+<agent_name>Carolee Mc Intire</agent_name>
+<direct>758-8444</direct>
+<office>372-1266</office>
+<firm_name>Michael Latterner &amp; Associates
+Lic. Real Estate Broker</firm_name>
+<phone>372-1266</phone>
+<fax>305-372-0907</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,900</list_price>
+<location>Miami Shores, FL 33138</location>
+<neighborhood>Miami Shores Sec 5</neighborhood>
+<mls>HM769596</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>1877 (approx)</square_feet>
+<lot_size>55 X 106</lot_size>
+<year_built>1960</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<patio>Screened Porch</patio>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

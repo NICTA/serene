@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Larry Leach</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)919-7653</mobile>
+<email>LLeach7777@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21656</id>
+<mls>9137820</mls>
+<house_location>505 Palo Duro
+Joshua, TEXAS 76058</house_location>
+<county>Johnson</county>
+<price>$63,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Nice 3-bedroom, 1.5 bath brick home with lots to offer.  Ceramic tile, remodeled kitchen, oversized utility room.  Huge fenced backyard with storage building. Has Hollywood bath and walk-in closets, too.</house_description>
+
+<school_district>Joshua I S D</school_district>
+<sub-division>Sierra Plaza</sub-division>
+<approx_size_sqft>1248</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Cute brick, 3 brm, 1.5 bath, 1248 sf</item>
+<item>Big back yard with storage</item>
+<item>Remondeled kitchen/ceramic tile</item>
+<item>Large utility room, Hollywood bath</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

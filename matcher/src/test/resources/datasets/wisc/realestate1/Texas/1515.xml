@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Millie Wiley</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>C21Millicent@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15605</id>
+<mls>M25788</mls>
+<house_location>216 E Huisache
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$165,000</price>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>---            #Units    Bdrms   Baths  Rent             UNIT 1         1           2          1       325                UNIT 2         2           2          1       350               UNIT 3         3           2          1       350                UNIT 4         4           2          1       300                                                                                           Four rental units not listed above: 1-2BR, 1BA Rents for 350, 3-1BR, 1BA units renting for $225. One not presently rented.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Original Town</sub-division>
+<approx_size_sqft>6052</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>LOTS 24-27</approx_lot_size>
+<year_built>1975</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Square footage for Medallion apts is 4020</item>
+<item>Square footage for other apts is 2032</item>
+<item>Very good income property</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

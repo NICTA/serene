@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>7444 CUMBERLAND</house_location>
+<price>$144,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250271</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS PLUS</firm>
+<firm_phone>(513) 229-0012</firm_phone>
+<agent>JERRY WALKER</agent>
+<agent_phone>(513) 229-0012</agent_phone>
+<house_description>FORMAL DINING ROOM BEING USED AS LR. IMMACULATE FAMILY HOME ON
+FANTASTIC LOT. QUIET NEIGHBORHOOD, CONVENIENT LOCATION. OPEN &amp; CHERRY
+FLOOR PLAN, WALKOUT BASEMENT. SPACIOUS LIVING AREAS, KITCHEN ISLAND.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70X205</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>11 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 10</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>7 X 11</dimension><level>1</level></breakfast>
+<family><dimension>15 X 17</dimension><level>1</level></family>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>3 X 5</dimension><level>1</level></laundry>
+<living><dimension>9 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 17</dimension><level>2</level></master>
+
+<directions>US 42 TO PLEASANT VALLEY R JAMESTOWN R
+CUMBERLAND</directions>
+</house_listing>
+
+
+

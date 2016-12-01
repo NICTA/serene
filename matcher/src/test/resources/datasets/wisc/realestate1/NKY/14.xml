@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>3166 ASBURY RD.</house_location>
+<price>$134,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>(Detached,Side)</garage>
+<suburb>AUGUSTA</suburb>
+<school_dist>BRACKEN CO</school_dist>
+<mls>248886</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>MARTHA KERN</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>LAND GENTLY ROLLING MOSTLY CLEARED.HOUSE 150+ YRS OLD.KITCHEN HAS BEEN
+UP- DATED,BEAUTIFUL STAIRCASE.QUAINT FEATURES.JUST NEEDS A LITTLE TLC
+&amp; A HANDY MAN'S TOOLS.LR HAS EXTRA 10X11 L SHAPE.2 BONUS RMS.HAS DUCT
+WORK FOR GAS HT</house_description>
+<construction>Other</construction>
+<heating>Electric</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Gas,Inoperable</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>None</sewer>
+<lot_dimensions>unk</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>16 X 16</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>16 X 16</dimension><level>2</level></bedroom_3>
+<family><dimension>26 X 14</dimension><level>1</level></family>
+<kitchen><dimension>16 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 12</dimension><level>1</level></laundry>
+<living><dimension>26 X 15</dimension><level>1</level></living>
+<master><dimension>11 X 18</dimension><level>1</level></master>
+
+<directions>AA HWY SOUTH TO RT HWY 2370 TO RT. ASBURY RD.
+PROPERTY ON LEFT.</directions>
+</house_listing>
+
+
+

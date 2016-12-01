@@ -1,0 +1,34 @@
+<house_listing>
+<price>$139,999</price>
+<mls_id_number>162652</mls_id_number>
+<city>WARREN</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1262</sqft>
+<year_built>1949</year_built>
+<heat>Oil Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.45        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$1,082</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Patio, RV-Park, Deck,</exterior>
+<site>Water: COMMUNY Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>SCAPPOOSE-WARRE</elementary>
+<middle_school>SCAPPOOSE</middle_school>
+<high_school>SCAPPOOSE</high_school>
+</schools>
+
+</house_listing>
+
+
+

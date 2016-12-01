@@ -1,0 +1,34 @@
+<house_listing>
+<price>$195,000</price>
+<mls_id_number>155887</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1696</sqft>
+<year_built>1952</year_built>
+<heat>Electric Heat Pump</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>METAL</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.30        Acres</lot_size>
+<lot_description>IRREG 13,200</lot_description>
+<fireplace>2</fireplace>
+<taxes>$0</taxes>
+<floors>Tile Floors,</floors>
+<interior>Not Listed</interior>
+<exterior>Not Listed</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>WHITMAN</elementary>
+<middle_school>LANE</middle_school>
+<high_school>MARSHALL</high_school>
+</schools>
+
+</house_listing>
+
+
+

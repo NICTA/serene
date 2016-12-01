@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Emma Morin,sh</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>LEAHC21@MAILEXCITE.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18130</id>
+<mls>26029</mls>
+<house_location>124 CYPRESS
+Riviera, TEXAS</house_location>
+<county>Kleberg</county>
+<price>$64,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>CHARMING, OLDER, TWO-STORY HOME.  ALL BEDROOMS &amp; ONE BATH UPSTAIRS. LOTS OF WINDOWS AND DOORS TO BRING IN THE SUNSHINE. STAIRS WILL TAKE YOU TO A HUGH ATTIC THAT COULD BE MADE INTO A LOFT OR EXTRA ROOM.  FIRSTFLOOR HAS FORMAL LIVING ROOM, FORMAL DINING, LARGE DEN &amp; LARGE COUNTRYKITCHEN. LARGE 2-CAR GARAGE WITH WASHER/DRYER CONNECTIONS. WELL MAINTAINED, HUGH YARD WITH LOTS OF SHADY TREES.</house_description>
+
+<school_district>Riviera</school_district>
+<sub-division>Riviera Townsite</sub-division>
+<approx_size_sqft>2318</approx_size_sqft>
+<approx_lot_size>150' X 140'</approx_lot_size>
+<year_built>1950</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>ATTRACTIVE, OLDER, TWO-STORY HOME</item>
+<item>GREAT PRICE FOR SO MUCH PROPERTY</item>
+<item>EXTRA LARGE WELL-MAINTAINED LOT</item>
+<item>WALKING DISTANCE TO SCHOOL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

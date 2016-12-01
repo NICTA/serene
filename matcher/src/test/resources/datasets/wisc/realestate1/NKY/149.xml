@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>10793 WAR ADMIRAL</house_location>
+<price>$243,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>248510</mls>
+<house_type>Single Family</house_type>
+<firm>FISCHER MANAGEMENT</firm>
+<firm_phone>(606) 341-4709</firm_phone>
+<agent>R. CASEY HUBER</agent>
+<agent_phone>(606) 341-4709</agent_phone>
+<house_description>NEW FISCHER HOME-THE WOODVIEW PROTOTYPE MODEL #606-384-1774 MEMBERSHIP
+TO SWIM CLUB</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg lot</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 15</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 15</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>14 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>16 X 11</dimension><level>1</level></dining>
+<family><dimension>21 X 23</dimension><level>1</level></family>
+<kitchen><dimension>14 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<master><dimension>16 X 14</dimension><level>1</level></master>
+
+<directions>RICHWOOD EXIT-R ON TRIPLE CROWN BLVD CALL
+606-384-1774 ANYTIME</directions>
+</house_listing>
+
+
+

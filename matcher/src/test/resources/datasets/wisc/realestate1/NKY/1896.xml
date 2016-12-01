@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>12 RICHLAND</house_location>
+<price>$78,000</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached,Rear,Heated)</garage>
+<suburb>WALTON</suburb>
+<school_dist>WALTON VERO</school_dist>
+<mls>247661</mls>
+<house_type>Single Family</house_type>
+<firm>DAUGHERTY REALTORS</firm>
+<firm_phone>(606) 485-7667</firm_phone>
+<agent>GINA DAUGHERTY</agent>
+<agent_phone>(606) 485-7667</agent_phone>
+<house_description>LARGE LEVEL YARD 2 NICE SIZE BEDROOMS*GARAGE*FULL BASEMENT*NEW FURNACE
+*NEWER WINDOWS*NEW POURED FOUNDATION ON FRONT*IMMEDIATE OCCUPANCY*HOME
+WARRANTY OFFERED</house_description>
+<construction>Stucco,Block</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane,None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50 X 163</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 8</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>13 X 10</dimension><level>1</level></kitchen>
+<living><dimension>16 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>1</level></master>
+
+<directions>75 S TO WALTON EXIT L TO 25 R ON 25 TO 2N D
+STREET ON LEFT</directions>
+</house_listing>
+
+
+

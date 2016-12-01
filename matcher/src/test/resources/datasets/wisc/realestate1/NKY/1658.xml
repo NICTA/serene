@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>3006 KITTER LANE</house_location>
+<price>$280,000</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front,Oversized,Heated)</garage>
+<suburb>NONE</suburb>
+<school_dist>MASON CO.</school_dist>
+<mls>245415</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>BARBARA REYNOLDS</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>NEW 2 STORY LOG CABIN. IN PRIVATE LOG CABIN-RUSTIC SUBD. MUST SEE!
+VIEWS, TREES AND PRIVATE. FULL BSMT. IDEAL FAMILY RM. IN BSMT. LG.
+FAMILY KITCHEN WITH VIEWS. MBR. DOWNSTAIRS. LG. VAULTED CEILING LR.
+W/FIREPLACE &amp; VIEWS.</house_description>
+<construction>Wood,Log</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>256x300</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>12 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 12</dimension><level>2</level></bedroom_4>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 18</dimension><level></level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>1</level></laundry>
+<living><dimension>28 X 13</dimension><level>1</level></living>
+<master><dimension>18 X 22</dimension><level>1</level></master>
+<study><dimension>12 X 11</dimension><level>1</level></study>
+
+<directions>CALL L.A. FOR DIRECTIONS. AA HWY TO MAYSVILLE,
+OFF OF PICKET LN.</directions>
+</house_listing>
+
+
+

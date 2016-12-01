@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jennie Evans</name>
+<office>(254)542-2121</office>
+<fax>(254)542-7400</fax>
+<mobile>(254)681-1028</mobile>
+<email>jqevans@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19486</id>
+<mls>88359</mls>
+<house_location>405 Courtney Lane
+Copperas Cove, TEXAS 76522</house_location>
+<county>Coryell</county>
+<price>$82,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Parkside</sub-division>
+<approx_size_sqft>1383</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>63 x 120</approx_lot_size>
+<approx_acres>0.2</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>$1 MOVE IN</item>
+<item>Covered Patio</item>
+<item>Walk-in Closets</item>
+<item>Garage Opener</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

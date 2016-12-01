@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1979 has 5 bedroom(s), 3 bath(s) and
+approximately 2236 square feet of living area.</house_description>
+
+<agent_name>B.Lambert / T.Tufo</agent_name>
+<direct>303-755-6611</direct>
+<office>303-755-6611</office>
+<firm_name>Coldwellbanker Moore</firm_name>
+<phone>303-755-6611</phone>
+<fax>303-755-0312</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$172,500</list_price>
+<location>5488 N Vallejo St</location>
+<neighborhood>Yurko</neighborhood>
+<mls>385558</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2236 (approx)</square_feet>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Ann Kocurek</name>
+<office>(713)686-6090</office>
+<fax>(713)686-8543</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12841</id>
+<mls>181647</mls>
+<house_location>16510 Loch Marie
+Houston, TEXAS 77084</house_location>
+<county>Harris</county>
+<price>$69,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great home with split floor plan! Large rooms with walk in closits. Vaulted ceiling in den. Sprinkler system. Water softner. Neutral colors. Recent paint and wall paper w/ accents. Programable A/C. Outdoor lighting. Move in condition. Large pantry. Wood burning fireplace.Ceiling fans in all rooms.</house_description>
+
+<school_district>Katy</school_district>
+<sub-division>Glencairn</sub-division>
+<approx_size_sqft>1648</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>6200</approx_lot_size>
+<year_built>1977</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Interior lot location</item>
+<item>Close to shopping and schools</item>
+<item>Acclaimed Katy Independent School District</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1964 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 730 square feet of living area.</house_description>
+
+<agent_name>Yiganis Cabrera</agent_name>
+<direct>710-4076</direct>
+<office>865-2222</office>
+<firm_name>Oceanfront Realty
+Lic. Real Estate Broker</firm_name>
+<phone>865-2222</phone>
+<fax>305-865-2221</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$105,000</list_price>
+<location>5313 Collins Av #202</location>
+<neighborhood>The Amethyst Condo</neighborhood>
+<mls>M752707</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>730 (approx)</square_feet>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<location>Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ocean Access, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

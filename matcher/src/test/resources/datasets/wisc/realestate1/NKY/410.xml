@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>7399 RIDGE EDGE CT.</house_location>
+<price>$132,500</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>BOONE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248079</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA HOLLMAN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>CALL BARB HOLLMAN 341-3394-DELUXE 2 BED 'WYTHE' TOWNHOME-WOODED
+VIEW-EQ KIT HAS WHITE CABINETRY-FORMAL OPEN DR-VAULTED CEILING GREAT
+ROOM W/DOOR TO LG DECK-VAULTED CEIL MASTER-DELUXE BATH-WALKOUT
+LL-PATIO</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>138</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<living><dimension>19 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>2</level></master>
+
+<directions>RT 18 TO OAKBROOK TO SUMMIT LEFT ON RIDGE EDGE
+CT.</directions>
+</house_listing>
+
+
+

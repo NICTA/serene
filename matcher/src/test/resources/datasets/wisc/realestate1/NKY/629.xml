@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>1269 PARKWAY</house_location>
+<price>$86,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248475</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>PATRICIA VALENTINE</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>VICTORIAN LADY*2 PORCHES*HARDWOOD FLRS*BUTLER PANTRY*UPDATED PLUMBING/
+WIRING*NEW BOILER &amp; NEW H20 LINES*2 GFP*TALL/COVED CEIL* SEC SYSTEM *
+CHARM</house_description>
+<construction>Brick</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>15 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>28 X 14</dimension><level>2</level></master>
+<study><dimension>10 X 10</dimension><level>2</level></study>
+
+<directions>HIGHWAY AVE TO PARKWAY TO 1269*NO SIGN* LOTS OF
+ADDL FEATURES*CALL PAT VALENTINE</directions>
+</house_listing>
+
+
+

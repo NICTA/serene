@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Julia Bartlett</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11170</id>
+<mls></mls>
+<house_location>16731 Forest Bend
+Friendswood, TEXAS 77546</house_location>
+<county>Harris</county>
+<price>$65,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Lovely home nestled in the trees. Fully fenced yard with a screened in porch.3/2/1 home close to all the convenieces but nice quite area.Call soon won't last long.</house_description>
+
+<school_district>Clear Creek</school_district>
+<sub-division>Forest Bend</sub-division>
+<approx_size_sqft>1137</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>6050 sqft</approx_lot_size>
+<year_built>1972</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>ceramic tile</item>
+<item>hardwood floors</item>
+<item>aluminum roof</item>
+<item>screened porch</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

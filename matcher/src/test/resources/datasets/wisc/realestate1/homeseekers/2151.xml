@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Awesome interior completly remodeled.Down stairs w/oak h.W. Floors
+throughout,great room'bright'opens to spacious eat-in-kitchen.Truly a
+must see unlike any others in the area.</house_description>
+
+<agent_name>Pamela Johnson</agent_name>
+<office>757-340-6700</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-340-6700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$157,800</list_price>
+<location>Virginia Beach, VA 23454</location>
+<mls>9933896</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Colonial, Traditional</style>
+<square_feet>2300 (approx)</square_feet>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Deck</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Cable TV, Ceiling Fan(s), Colonial Style, Fenced,Foyer, Utility Room, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

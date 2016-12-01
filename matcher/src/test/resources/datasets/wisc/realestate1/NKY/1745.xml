@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>3180 LEANING OAK RD</house_location>
+<price>$380,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>CORINTH</suburb>
+<school_dist>OWEN COUNTY</school_dist>
+<mls>238453</mls>
+<house_type>Farms</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>KEITH PETERSEN</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>3.400 SQ FT+ PLUS TENANT HOUSE*LESS THAN ONE HOUR FROM OHIO
+RIVER*PRIVACY WITH FINE VIEWS OF ROLLING HILLS, PONDS &amp; TREES*5 STALL
+HORSE BARN PLUS TACK ROOM &amp; EXTRA STORAGE*GREENHOUSE PLUS MANY
+PERENNIALS &amp; FRUIT TREES*</house_description>
+<construction>Wood</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>200 AC</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<dining><dimension>15 X 19</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 18</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 18</dimension><level>1</level></laundry>
+<living><dimension>14 X 29</dimension><level>1</level></living>
+<master><dimension>14 X 16</dimension><level>1</level></master>
+<study><dimension>15 X 17</dimension><level>1</level></study>
+
+<directions>I-75 S TO CORINTH EXIT #144, GO R ON 330 .8 MI
+TO LEFT ON ROAD, THEN 3 MI TO PROP</directions>
+</house_listing>
+
+
+

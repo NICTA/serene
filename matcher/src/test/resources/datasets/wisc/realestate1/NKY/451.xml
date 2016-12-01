@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>413 POINSETTIA</house_location>
+<price>$74,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250350</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>LINDA MILDON</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>TOP FLOOR UNIT-NEUTRAL COLORS-FOR SELLERS DISCLOSURE CALL 384-1024
+EXT#2080</house_description>
+<construction>Wood,Alum</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0x0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>84</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>3</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>3</level></bath_2>
+<bedroom_2><dimension>12 X 12</dimension><level>3</level></bedroom_2>
+<dining><dimension>10 X 8</dimension><level>3</level></dining>
+<kitchen><dimension>10 X 8</dimension><level>3</level></kitchen>
+<laundry><dimension>8 X 8</dimension><level>3</level></laundry>
+<living><dimension>15 X 13</dimension><level>3</level></living>
+<master><dimension>14 X 11</dimension><level>3</level></master>
+
+<directions>I-75 S TO MT ZION RD L 1 BLK R ON SHER- WOOD LN
+TO POINSETTIA</directions>
+</house_listing>
+
+
+

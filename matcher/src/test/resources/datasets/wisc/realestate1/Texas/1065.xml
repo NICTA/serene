@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20168</id>
+<mls>9114924</mls>
+<house_location>Rt 1
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$39,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>ESCAPE TO THE LAKE!!!  This property offers easy access to deep water cove and comes with a one bedroom, one bath frame home.  Open kitchen/dining and family room allows for entertaining and relaxation.  Large room for extra sleeping quarters.  This GET-A-WAY is offered at $39,000</house_description>
+
+<move-in_date>10/27/99</move-in_date>
+<school_district>Whitney</school_district>
+<sub-division>Cedar Crest Colony</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Lake Retreat</item>
+<item>Easy Lake Access</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

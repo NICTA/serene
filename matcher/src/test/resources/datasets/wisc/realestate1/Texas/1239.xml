@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bette Berry</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>bette@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21480</id>
+<mls>54747</mls>
+<house_location>25047 (1003) RED SAILS
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$640,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Waterfront beauty in the heart of Horseshoe Bay.  Very open floor plan.  Island kitchen with top of the line appliances, refrigerator included.  Indoor utility room with sink.  Jacuzzi.  Hot tub.  Double boat lift.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WATERFRONT WITH DOUBLE BOAT LIFT</item>
+<item>ISLAND KITCHEN WITH SKYLIGHT</item>
+<item>JACUZZI &amp; HOT TUB</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

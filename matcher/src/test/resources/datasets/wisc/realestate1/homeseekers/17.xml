@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1994 has 2 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1316 square feet of living
+area. Features include patio, air conditioning.</house_description>
+
+<agent_name>Dale Bidegain</agent_name>
+<direct>520-519-0965</direct>
+<office>520-886-9877</office>
+<firm_name>Bidegain &amp; Associates Inc.</firm_name>
+<phone>520-886-9877</phone>
+<fax>520-886-8764</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$119,900</list_price>
+<location>6104 N Reliance Dr</location>
+<mls>9915519</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1316 (approx)</square_feet>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

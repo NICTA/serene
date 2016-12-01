@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Wm.</email>
+</firm_information>
+
+<agent_information>
+<name>"Bill" Johnson</name>
+<office>(281)276-6508</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)276-6508</voice_mail>
+<email>rxrelo@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13985</id>
+<mls>144975</mls>
+<house_location>2111 Chappell Lane, Lake Olympia
+Missouri City, TEXAS 77459</house_location>
+<county>Fort Bend</county>
+<price>$179,997</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SOLD!!  This Executive home with  Large Master down with Home Office, Game room with 3 bdrms &amp; two full baths upstairs. Typical of my market and my specialty as a buyers agent If you are looking for a home similar to this or in this market area contact me at tel. 281 276-6508 or e-mail at rxrelo@aol.com.  In Texas we can act as your agent and represent your interests exclusively.  I am an Accredited Buyers Representative specializing in relocation.  And the best part is the service is at NO COST to you as the buyer !!!        Thanks,  Bill</house_description>
+
+<move-in_date>1/29/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Lake Olympia</sub-division>
+<approx_size_sqft>2835</approx_size_sqft>
+<stories>2</stories>
+<year_built>1992</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Elkins High, Lake Olympia Middle</item>
+<item>Extra full bath upstairs</item>
+<item>Home office setup</item>
+<item>Excellent Condition</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,35 @@
+<house_listing>
+<price>$175,000</price>
+<mls_id_number>165181</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.50</bathrooms>
+<sqft>1759</sqft>
+<year_built>1995</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.13        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$2,528</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Gas Fireplace</interior>
+<exterior>Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>GILBER HEIGHTS</elementary>
+<middle_school>ALICE OTT</middle_school>
+<high_school>DAVID DOUGLAS</high_school>
+</schools>
+<comments>Excellent home, better than new, nice landscape. Located in the cityof portland, the subject neighborhood is situated convenient to employmeshopping, schools, public transportation and recreational facilities.</comments>
+
+</house_listing>
+
+
+

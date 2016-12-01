@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1980 has 2 bedroom(s), 2 bath(s) , 2
+car garage and approximately 1222 square feet of living area. Features
+include patio, fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Hilda Egan</agent_name>
+<direct>520-298-6494</direct>
+<office>520-886-9877</office>
+<firm_name>Bidegain &amp; Associates Inc.</firm_name>
+<phone>520-886-9877</phone>
+<fax>520-886-8764</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$85,000</list_price>
+<location>1949 N Swan Rd #27</location>
+<mls>9915192</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Townhouse</type>
+<square_feet>1222 (approx)</square_feet>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

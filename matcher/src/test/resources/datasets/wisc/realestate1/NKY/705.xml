@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>311 ALTAMONT RD</house_location>
+<price>$35,000</price>
+<rooms>7</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249419</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>DIANNE B ROTHFUSS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>UNIQUE PROPERTY. 1ST FLOOR IS LARGE EFFICIENCY. 15X19 DORMER ON 3RD
+FLOOR USED AS BDRM OR STUDY. THIS IS IDEAL MOTHER/DAUGHTER PROPERTY.</house_description>
+<construction>Brick,Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25X147</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 14</dimension><level>2</level></dining>
+<kitchen><dimension>11 X 10</dimension><level>2</level></kitchen>
+<living><dimension>14 X 14</dimension><level>2</level></living>
+<master><dimension>11 X 12</dimension><level>2</level></master>
+
+<directions>RT 8 TO ALTAMONT</directions>
+</house_listing>
+
+
+

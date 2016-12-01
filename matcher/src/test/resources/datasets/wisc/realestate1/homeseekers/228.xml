@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This house is just across the street from the beach &amp; has nice water
+view. Penthouse location features dual master suites, fireplace &amp;
+covered parking.</house_description>
+
+<agent_name>Robert White</agent_name>
+<direct>757-220-1967</direct>
+<office>757-873-3636</office>
+<firm_name>RE/MAX Peninsula RE/MAX Peninsula</firm_name>
+<phone>757-873-3636</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$34,000</list_price>
+<location>Norfolk, VA 23503</location>
+<mls>9934300</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<style>Contemporary</style>
+<square_feet>1100 (approx)</square_feet>
+<lot_size>CONDO</lot_size>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>Open Porch</patio>
+<rooms>Master Bedroom</rooms>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Breakfast Room, Contemporary Style, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

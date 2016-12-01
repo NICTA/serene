@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Arrie Montgomery</name>
+<office>(512)321-5300</office>
+<fax>(512)303-6309</fax>
+<mobile>(512)784-0537</mobile>
+<email>amontgomery1@compuserve.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20164</id>
+<mls>522817</mls>
+<house_location>103 Hudson Drive
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$129,750</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>GREAT COUNTRY HOME !!!!. This home sits on 2.20 acres, with tank/ fish and fenced for horses. The home is open and bright, kitchen and baths have ceramic tile counter tops. There&amp;#8217;s saltillo tile on front porch, kitchen and laundry areas. Family room has vaulted ceiling with stone fireplace, mother-in-law floor plan. Master bedroom has double walk-in closets. Then there&amp;#8217;s huge surround decks for your enjoyment and comfort. This property is located near Bastrop and Smithville, country living near town. This home is listed in Bastrop, but it is in Smithville ISD.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>496</sub-division>
+<approx_size_sqft>1456</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>2.20</approx_lot_size>
+<approx_acres>2.2</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>HOME SHOWS LIKE NEW !!!!!!!</item>
+<item>STONE FIREPLACE IN FAMILY ROOM</item>
+<item>LARGE SURROUND DECKS</item>
+<item>FENCED WITH BARN AND TANK/FISH</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

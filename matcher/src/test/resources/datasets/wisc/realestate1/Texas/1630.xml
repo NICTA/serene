@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bunny Roberts</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18374</id>
+<mls>9034287</mls>
+<house_location>2801 Glen Rose Hwy.. (Ad# 501)
+Granbury, TEXAS 7+6048</house_location>
+<county>Hood</county>
+<price>$175,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Granbury</school_district>
+<stories>1</stories>
+<approx_acres>5</approx_acres>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Great lake view</item>
+<item>Home warranty offered with sale</item>
+<item>Covered rv and boat parking</item>
+<item>inquire about #501</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

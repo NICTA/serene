@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1980 has 3
+bedroom(s), 2.5 bath(s) , 2 car garage. Rooms include dining room,
+living room, master bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>John Costigan</agent_name>
+<direct>619-589-7302</direct>
+<office>619-589-8600</office>
+<firm_name>Prudential California Realty Prudential California Realty</firm_name>
+<phone>619-589-8600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$179,900</list_price>
+<location>San Diego, CA 92114</location>
+<mls>99 6026477</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2.5</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered, Deck</patio>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<view>Ocean View, Panoramic View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

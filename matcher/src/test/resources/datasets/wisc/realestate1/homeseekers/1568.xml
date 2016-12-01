@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1941 has 3 bedroom(s), 1
+bath(s) , 1 car garage and approximately 1320 square feet of living
+area. Rooms include bonus room. Features include patio, air
+conditioning.</house_description>
+
+<agent_name>Emily Minerich</agent_name>
+<direct>520-881-4830</direct>
+<office>520-577-7400</office>
+<firm_name>Tucson Realty &amp; Trust Co</firm_name>
+<phone>520-577-7400</phone>
+<fax>520-299-2898</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$182,000</list_price>
+<location>1214 N Forgeus Ave</location>
+<mls>2001183</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>1320 (approx)</square_feet>
+<lot_size>BLENMAN/560'OF LOT 8</lot_size>
+<year_built>1941</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

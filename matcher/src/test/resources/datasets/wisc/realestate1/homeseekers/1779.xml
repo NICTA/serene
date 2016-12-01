@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This single family home built in 1952 has 5 bedroom(s), 7 bath(s) , 2
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, private pool, patio, fireplace, fire
+sprinklers.</house_description>
+
+<agent_name>Keith M. Mishkin</agent_name>
+<office>602-956-1700</office>
+<firm_name>Cambridge Properties Inc</firm_name>
+<phone>602-956-1700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$2,900,000</list_price>
+<location>Phoenix, AZ 85016</location>
+<mls>1460070</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>7</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>35,001-43,559</lot_size>
+<year_built>1952</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Family Room, Gas logs, Living Room</fireplace>
+<location>On golf course</location>
+<patio>Covered</patio>
+<pool>Diving, Heated, Lap</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Room, Cable TV, Cathedral/Vaulted Ceilings,Ceiling Fan(s), Dishwasher, Eat In Kitchen, Fire Sprinklers, GameRoom, Garage Door Opener, Great Room, Guest Room, Kitchen Island,Library, Microwave, Pantry, Ranch Style, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

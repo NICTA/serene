@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>5 bedrooms, 3 baths, 2166 sq ft of living area, near odu, corner lot,
+recently sided with vinyl, master bedroom has extra large bath and
+closet area, natural gas furnace w/ hot water radiators, duplex home
+converted to a single family home, very active civic league in area.</house_description>
+
+<agent_name>Sonny Haley</agent_name>
+<direct>287-2747</direct>
+<office>757-490-7300</office>
+<firm_name>RE/MAX Central Realty RE/MAX Central Realty</firm_name>
+<phone>757-490-7300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$113,000</list_price>
+<location>Norfolk, VA 23508</location>
+<mls>9931746</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<style>Colonial</style>
+<square_feet>2166 (approx)</square_feet>
+<year_built>1919</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Hot Water, Natural Gas, Radiator</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<location>Corner</location>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Cable TV, Ceiling Fan(s), Colonial Style, Foyer, Office, SunRoom, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

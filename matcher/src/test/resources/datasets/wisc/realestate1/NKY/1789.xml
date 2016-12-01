@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>1 1054</house_location>
+<price>$89,000</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side,Oversized)</garage>
+<suburb>MORGAN AREA</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>249640</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>PHYLLIS SHEPHERD</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>EXTRA NICE 89 28X49 DOUBLE W/ATTACHED 2 CAR GARAGE-BASEMENT PARTIALLY
+FIN- ISHED FURNACE-DECK-COVERED FRONT PORCH-CHAINLINK
+FENCE-SATELLITE-ALL APPLIANCES INCLUDING WASHER/DRYER. 4.7 ACRE LOT.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Wood,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10</dimension><level>X</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>12 X 14</dimension><level>L</level></bedroom_4>
+<dining><dimension>12 X 14</dimension><level>1</level></dining>
+<family><dimension>16 X 20</dimension><level>L</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>14 X 16</dimension><level>1</level></living>
+<master><dimension>12 X 14</dimension><level>1</level></master>
+
+<directions>FALMOUTH TAKE 330 TO MORGAN TURN LEFT ON 1054 IN
+MORGAN PROP.IS 10MI FROM FALMOUTH</directions>
+</house_listing>
+
+
+

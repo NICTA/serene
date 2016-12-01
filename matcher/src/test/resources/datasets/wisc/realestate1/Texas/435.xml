@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Markgraf</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19334</id>
+<mls>53053</mls>
+<house_location>1419 EUEL MOORE DRIVE
+Kingsland, TEXAS 78639</house_location>
+<county>Llano</county>
+<price>$53,800</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>ZONED COMMERCIAL OR RESIDENTAL ON CORNER LOT, NEAR NEW ELEM. SCHOOL IN KINGSLAND, NEAR LAKE L.B.J., 2 BEDROOM 1 BATH IN MAIN HOUSE WITH EFF. APARTMENT ADJOINING, STORM CELLER, MAKE GREAT RENTAL PROPERTY.</house_description>
+
+<school_district>Kingsland</school_district>
+<sub-division>Granite Shoals Lake Shores</sub-division>
+<approx_size_sqft>1052</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>ZONED COMMERCIAL</item>
+<item>GREAT RENTAL</item>
+<item>CORNER LOT</item>
+<item>LARGE TREES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

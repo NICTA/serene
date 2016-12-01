@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1999 has 5 bedroom(s), 4
+bath(s) , 2 car garage and approximately 2137 square feet of living
+area. Rooms include den, dining room, bonus room, master bedroom.
+Features include view, patio, fireplace, air conditioning, storage
+space.</house_description>
+
+<agent_name>Andrew Gregory</agent_name>
+<direct>520-975-5308</direct>
+<office>520-888-8844</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-888-8844</phone>
+<fax>520-887-3681</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$240,000</list_price>
+<location>4841 E Placita Abrevadero</location>
+<mls>9921391</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2137 (approx)</square_feet>
+<lot_size>45X108X45X108</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

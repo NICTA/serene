@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>134 W MAPLE AV</house_location>
+<price>$379,000</price>
+<rooms>11</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FORT MITCHELL</suburb>
+<school_dist>BEECHWOOD</school_dist>
+<mls>249524</mls>
+<house_type>Single Family</house_type>
+<firm>ANTHONY ERPENBECK REAL ESTATE</firm>
+<firm_phone>(606) 635-7388</firm_phone>
+<agent>STEPHEN B JELEN</agent>
+<agent_phone>(606) 635-7388</agent_phone>
+<house_description>FOR MORE INFORMATION CONTACT AGENT AT THE ERPENBECK CO.331-8090
+EXT.221 OR 653-6138 CELL.THIS IS A BEAUTIFUL PATIO STYLE RANCH, CUSTOM
+FEATURES INCLUDE, MOLDINGS, CABINETS, TILE, FINISHED BASEMENT ON
+WOODED LOT.</house_description>
+<construction>Brick,Stone</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>110x150</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>30</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>0</level></bath_3>
+<bedroom_2><dimension>12 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>15 X 13</dimension><level>0</level></bedroom_3>
+<bedroom_4><dimension>10 X 19</dimension><level>0</level></bedroom_4>
+<dining><dimension>15 X 11</dimension><level>1</level></dining>
+<family><dimension>16 X 19</dimension><level>1</level></family>
+<kitchen><dimension>15 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 10</dimension><level>1</level></laundry>
+<master><dimension>18 X 14</dimension><level>1</level></master>
+<recreation_room><dimension>20 X 24</dimension><level>0</level></recreation_room>
+<study><dimension>12 X 12</dimension><level>1</level></study>
+
+<directions>I-75 TO DIXIE HWY IN FM NORTH TO WEST MAP LE
+TURN LEFT GO TO END OF SUBD.ON RIGHT.</directions>
+</house_listing>
+
+
+

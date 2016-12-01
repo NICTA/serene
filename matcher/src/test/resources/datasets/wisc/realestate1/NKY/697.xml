@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>602 E 16TH</house_location>
+<price>$38,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>242530</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>R J SEIFERT</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>GOOD RENTAL HISTORY VERY WELL MAINTAINED CURRENTLY USED AS RENTAL $475
+PER MONTH</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30 X 100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 11</dimension><level>2</level></bedroom_2>
+<dining><dimension>12 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>10 X 10</dimension><level>2</level></master>
+
+<directions>SCOTT ST SOUTH TO LEFT ON 16TH</directions>
+</house_listing>
+
+
+

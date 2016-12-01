@@ -1,0 +1,34 @@
+<house_listing>
+<price>$249,500</price>
+<mls_id_number>143039</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.50</bathrooms>
+<sqft>1973</sqft>
+<year_built>1997</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.13        Acres</lot_size>
+<lot_description>5662</lot_description>
+<fireplace>1</fireplace>
+<taxes>$745</taxes>
+<floors>Hardwood Floors,</floors>
+<interior>Gas Fireplace</interior>
+<exterior>Sprinkler System,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>TO FOLLOW</elementary>
+<middle_school>TO FOLLOW</middle_school>
+<high_school>TO FOLLOW</high_school>
+</schools>
+
+</house_listing>
+
+
+

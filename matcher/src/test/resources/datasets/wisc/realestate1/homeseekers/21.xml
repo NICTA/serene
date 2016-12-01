@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home built in 1973 has 3 bedroom(s), 2 bath(s) .
+Rooms include family room, master bedroom. Features include private
+pool, patio, air conditioning, skylights.</house_description>
+
+<agent_name>Faren J. Wattie</agent_name>
+<office>602-942-1410</office>
+<firm_name>West Usa Realty</firm_name>
+<phone>602-942-1410</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$114,990</list_price>
+<location>Phoenix, AZ 85032</location>
+<mls>1462585</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<year_built>1973</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ceiling Fan(s), Dishwasher, Eat In Kitchen, Skylights, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

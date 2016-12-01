@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>2911 HWY 763</house_location>
+<price>$135,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>FIZZLEVILLE</suburb>
+<school_dist>RIPLEY</school_dist>
+<mls>248758</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>BARBARA REYNOLDS</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>MH IS APPROX. 6YRS OLD. SEPTIC TANK APPROVED. ELEC UNDERGROUND.
+BEAUTIFUL MBR BATH. VERY NICE UTILITY/MUD RM. VIEWS! NICE LANDSCAPING
+AND GRAVEL DR. CO. WATER. 1 OWNER HOME. BEETLE CREEK CLOSE BY.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>.0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level></level></bedroom_3>
+<breakfast><dimension>11 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension></dimension><level>1</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 8</dimension><level>1</level></laundry>
+<living><dimension>16 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level></level></master>
+
+<directions>52E ALONG RIVER.TURN L ONTO SCOFFIELD PAS T
+SCHOOL. GO TO END OF RD.TURN R ONTO 763</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Steve Butler</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>steve@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14676</id>
+<mls>51777</mls>
+<house_location>15039-A (104) OASIS
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$425,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Waterfront duplex facing East on Lake LBJ.  Bonus room with bunk beds.  New roof and A/C's. Two Master Bedrooms on Lakeside.  Large kitchen opens into living area.  Boathouse totally rebuilt.  Furniture is negotiable.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Insulated windows, ceiling fan</item>
+<item>Microwave, compactor, disposal, dishwasher</item>
+<item>Oven, range, refrigerator</item>
+<item>Fishing pier, day docks, retaining wall, lake pump</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

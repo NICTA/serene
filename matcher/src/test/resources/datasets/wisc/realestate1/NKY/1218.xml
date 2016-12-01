@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>204 CRAIGS CREEK B</house_location>
+<price>$729,900</price>
+<rooms>11</rooms>
+<bedrooms>5</bedrooms>
+<baths>3-2</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>6 Cars (Attached,Front,Oversized)</garage>
+<suburb>-</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>248612</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MIKE PARKER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WOW! 148 ACRE OF PEACE &amp; QUIET*5 BEDRM CEDAR RANCH *VERY OPEN FLR PLAN
+MASTER BATH *SKEET GUN RANGE *FULL BSMT W/WALKOUT *60'BARN W/LIV
+QUARTERS CALL MIKE PARKER 647-0700</house_description>
+<construction>Cedar</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stone</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>17 X 15</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>15 X 13</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>15 X 12</dimension><level>L</level></bedroom_4>
+<bedroom_5><dimension>18 X 12</dimension><level>L</level></bedroom_5>
+<family><dimension>27 X 20</dimension><level>1</level></family>
+<kitchen><dimension>18 X 17</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 8</dimension><level>1</level></laundry>
+<master><dimension>18 X 15</dimension><level>1</level></master>
+<recreation_room><dimension>38 X 19</dimension><level>L</level></recreation_room>
+<study><dimension>27 X 12</dimension><level>1</level></study>
+
+<directions>I-71 SOUTH TO R OFF SPART EXIT LEFT ON CRAIGS
+CREEK GO 2.5 MILES</directions>
+</house_listing>
+
+
+

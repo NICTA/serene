@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>JOY BRUNNER</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<voice_mail>(713)621-4953 123</voice_mail>
+<email>joybrunner@madelineobrien.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11748</id>
+<mls>140688</mls>
+<house_location>12515 OVERCUP
+Houston, TEXAS 77024</house_location>
+<county>Harris</county>
+<price>$409,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Everything has been replaced. roof, dishwasher, range, oven, air, heat. New hardwoods, beautiful brick floors. elegant living on gorgeous 1700 sq.ft. lot - Rooms overlook pool/rose garden - everything yourt Buyer looking for. Den with cathedral ceiling - two bedrooms down      ( master and study)</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Memorial Pines</sub-division>
+<approx_size_sqft>3679</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>17157</approx_lot_size>
+<year_built>1960</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>EVERYTHING HAS BEEN REPLACED</item>
+<item>17,000 SQUARE FOOT LOT</item>
+<item>MASTER DOWN</item>
+<item>POOL AND ROSE GARDEN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

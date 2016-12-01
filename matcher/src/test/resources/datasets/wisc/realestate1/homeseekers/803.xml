@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1896 has 4 bedroom(s), 1 bath(s) and
+approximately 1350 square feet of living area.</house_description>
+
+<agent_name>Kim Hammann</agent_name>
+<direct>303-722-0332</direct>
+<office>303-863-1441</office>
+<firm_name>First Union Realty</firm_name>
+<phone>303-863-1441</phone>
+<fax>303-355-2744</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$125,000</list_price>
+<location>2955 N Humboldt St</location>
+<neighborhood>Whittier</neighborhood>
+<mls>385642</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1350 (approx)</square_feet>
+<year_built>1896</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

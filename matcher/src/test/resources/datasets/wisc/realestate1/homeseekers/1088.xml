@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1997 has 3 bedroom(s), 3 bath(s) and
+approximately 1969 square feet of living area.</house_description>
+
+<agent_name>Peter Rachbach</agent_name>
+<direct>303-797-2499</direct>
+<office>303-987-0255</office>
+<firm_name>RE/MAX Professionals</firm_name>
+<phone>303-987-0255</phone>
+<fax>303-987-3463</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$289,500</list_price>
+<location>7400 W Grant Ranch Bl</location>
+<neighborhood>Gray Hawk/Grant Ranch</neighborhood>
+<mls>374413</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>1969 (approx)</square_feet>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

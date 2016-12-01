@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1963 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, private pool, patio, fireplace.</house_description>
+
+<agent_name>Diane Frank</agent_name>
+<office>480-951-1010</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>480-951-1010</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$325,000</list_price>
+<location>Phoenix, AZ 85023</location>
+<mls>1466262</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Contemporary</style>
+<year_built>1963</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Family Room, Gas logs</fireplace>
+<location>On golf course</location>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s),Central Vacuum, Contemporary Style, Dishwasher, Eat In Kitchen, GarageDoor Opener, Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

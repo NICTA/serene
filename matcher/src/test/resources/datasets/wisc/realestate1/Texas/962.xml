@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jo Hall</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)393-1974</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21026</id>
+<mls>6281</mls>
+<house_location>170 Britney Loop
+Kyle, TEXAS 78640</house_location>
+<county>Hays</county>
+<price>$91,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Good Home in a new subdivison. This Doyle Wilson Home is only 2yrs old.  Nice 3bedroom 2 bath with 2 car garage.</house_description>
+
+<move-in_date>12/8/99</move-in_date>
+<school_district>Hays</school_district>
+<sub-division>Steeple Chase</sub-division>
+<approx_size_sqft>1053</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60X140</approx_lot_size>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>Great home waiting for you.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

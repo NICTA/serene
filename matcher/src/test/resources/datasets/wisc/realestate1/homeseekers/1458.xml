@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This single family home built in 1930 has 3 bedroom(s), 1 bath(s) .
+Rooms include dining room, master bedroom. Features include fireplace,
+air conditioning.</house_description>
+
+<agent_name>Manuel Puebla</agent_name>
+<office>602-237-2323</office>
+<firm_name>RE/MAX Cornerstone Realtors RE/MAX Cornerstone Realtors</firm_name>
+<phone>602-237-2323</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$101,500</list_price>
+<location>Phoenix, AZ 85006</location>
+<mls>1454456</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1930</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

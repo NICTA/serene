@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Michelle Hensz</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<mobile>(956)245-3088</mobile>
+<email>mhensz@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17943</id>
+<mls>14585</mls>
+<house_location>22470 Briggs Coleman Road
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$165,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>0.815 acre lot next door is also available; great for horses.  Beautiful 3 bedroom, 2 bath, brick veneer home in the country.  This home has 3 living areas, large country kitchen, formal dining room, cedar closet in the utility room, extra bedroom off the game room.  Large open patio.  Metal workshop is 20' x 40' with utilities and a half bath.  Fruit and shade trees.  Shows great!</house_description>
+
+<move-in_date>8/3/99</move-in_date>
+<school_district>Long</school_district>
+<sub-division>Weed Estates</sub-division>
+<approx_size_sqft>2740</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>175x335</approx_lot_size>
+<approx_acres>1.35</approx_acres>
+<year_built>1968</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

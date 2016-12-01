@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Westbank Realty</name>
+<location>3355 Bee Caves Road, Suite 304 Austin, TX 78746</location>
+<office>(512)327-3200</office>
+<toll_free></toll_free>
+<fax>(512)306-0424</fax>
+<email>westbank21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Olga Lozano</name>
+<office>(512)327-3200</office>
+<fax>(512)306-0424</fax>
+<mobile>(512)627-6267</mobile>
+<email>OlgaLozano@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21246</id>
+<mls>526600</mls>
+<house_location>502 Hosack St
+Taylor, TEXAS 76574</house_location>
+<county>Williamson</county>
+<price>$47,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nice large yard.  Storage shed on property with washer and dryer connections.  Big kitchen with breakfast bar.  Being sold as a fixer-upper...as-is condition.  Has a lot of potential.  Call OLGA for additional information 512-627-6267.</house_description>
+
+<school_district>Taylor Isd</school_district>
+<sub-division>Dickson</sub-division>
+<approx_size_sqft>1308</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.35</approx_acres>
+<year_built>1930</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Nice large yard</item>
+<item>Big kitchen with breakfast bar</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

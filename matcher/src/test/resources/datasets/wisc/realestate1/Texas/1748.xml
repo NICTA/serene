@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>The Platinum Team</name>
+<office>(512)833-3588</office>
+<fax>(512)671-8886</fax>
+<mobile>(512)431-3725</mobile>
+<email>hcfrit@austin.quik.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21704</id>
+<mls>523478</mls>
+<house_location>9405 Lightwood Cove
+Austin, TEXAS 78748</house_location>
+<county>Travis</county>
+<price>$199,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful House on large Cul-de-sac lot. Front porch, sprinkler system &amp; security system. Huge master suite with shaving sink. Big open kitchen with island &amp; 42&amp;quot; cabinets, arches, relaxing sunroom. Backs to a Green belt.</house_description>
+
+<school_district>Aisd</school_district>
+<sub-division>Cherry Creek</sub-division>
+<stories>2</stories>
+<year_built>1994</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Front porch</item>
+<item>Sprinkler &amp; Security System</item>
+<item>Backs to Greenbelt</item>
+<item>Beautiful Home</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

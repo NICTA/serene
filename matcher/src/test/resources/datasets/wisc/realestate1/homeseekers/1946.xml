@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1997 has 2
+bedroom(s), 1.5 bath(s) . Rooms include living room. Features include
+air conditioning.</house_description>
+
+<agent_name>Hagop Yapoujian</agent_name>
+<office>323-724-0000</office>
+<firm_name>RE/MAX Hynet Realty RE/MAX Hynet Realty</firm_name>
+<phone>323-724-0000</phone>
+<fax>323-728-9100</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$179,000</list_price>
+<location>3973 Verdugo Rd</location>
+<mls>M903996</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1.5</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<lot_size>6960</lot_size>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Living Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

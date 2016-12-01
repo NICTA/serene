@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Graves</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>carolyn@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18280</id>
+<mls>53472</mls>
+<house_location>49011 The Cape
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$195,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LIGHT AND BRIGHT TOWN HOME ON THE OPEN WATER IN HORSESHOE BAY. HAS BOATSLIP WITH LIFT, DECK, AND IS CLOSE TO MARINA AND WITHIN WALKING DISTANCE TO AMENITIES. NEW REFRIGERATOR IS INCLUDED IN THE SALE!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<approx_size_sqft>1936</approx_size_sqft>
+<stories>3</stories>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>LIVE ON THE WATER IN HORSESHOE BAY!</item>
+<item>SPACIOUS, LIGHT &amp; BRIGHT TOWN HOME!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

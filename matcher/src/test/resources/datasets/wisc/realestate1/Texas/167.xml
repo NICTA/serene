@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ronnie Robie</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)300-3870</mobile>
+<email>ronnierobie@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21097</id>
+<mls>9127872</mls>
+<house_location>2604 Southchase Court
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$174,600</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Open the door to prestige and elegance!  This wonderful country home with large gracious foyer is love at first sight.  Home features:  spacious living room, fireplace with antique mantel, wet bar and built-ins. Dream kitchen and large breakfast room  opens to formal dining room, split bedrooms, bonus room in garage (heat/ AC), and side entry garage.  This home is tucked away on a quiet cul-de-sac lot.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<approx_size_sqft>2646</approx_size_sqft>
+<stories>1</stories>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+<item>Split Bedrooms</item>
+<item>Formal Dining</item>
+<item>1/2 Acre Cul-De-Sac</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

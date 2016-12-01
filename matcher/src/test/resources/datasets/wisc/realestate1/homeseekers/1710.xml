@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Spectacular views of the chesapeake bay from your own kitchen &amp; dining
+room. Lovely townhome style condo with front porch &amp; bilevel deck on
+the rear, eat-in kitchen, modern new appliances.</house_description>
+
+<agent_name>Terri Baker</agent_name>
+<office>757-623-2382</office>
+<firm_name>Nancy Chandler Associates Inc.</firm_name>
+<phone>757-623-2382</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$87,500</list_price>
+<location>Norfolk, VA 23503</location>
+<mls>0000861</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage>2</garage>
+<type>Townhouse</type>
+<style>Cluster, Townhouse</style>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<location>Bay front</location>
+<patio>Deck</patio>
+<view>Bay View, Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Cable TV, Ceiling Fan(s), Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

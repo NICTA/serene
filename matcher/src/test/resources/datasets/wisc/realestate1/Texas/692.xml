@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jeff Haunschild</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20163</id>
+<mls>26157</mls>
+<house_location>1227 E. Lott
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$64,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Very nice home.  New carpet, new central air/heat unit, new hot water heater, built approximately in 1988 and has never been occupied.  Owner will put up a fence for a serious buyer.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Terrace Village</sub-division>
+<approx_size_sqft>1657</approx_size_sqft>
+<approx_lot_size>60 X 132</approx_lot_size>
+<year_built>1988</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Dottie Newman</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11621</id>
+<mls>157330</mls>
+<house_location>427-4 Sunset Dr.
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$47,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Spacious 2 sty Condo in Park like setting.  Has F.P. 2 covered Parking, Private enclosed patio.  Saltillo tile in Liv, Din. &amp; kitchen. Carpet upstairs. Has washer, dryer in building off patio. Only $90 monthly maintenance fee. Lots of trees.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Sunset</sub-division>
+<approx_size_sqft>1140</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Ideal for first time home buyers or retirees.</item>
+<item>All outside maint. is taken care of. No mowing.</item>
+<item>Small condo complex., wooded area close to shops.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

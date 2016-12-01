@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1996 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 3 car garage and approximately 3016 square
+feet of living area. Rooms include bonus room. Features include view,
+private pool, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Thomas Drugan</agent_name>
+<direct>520-297-5802</direct>
+<office>520-297-5802</office>
+<firm_name>Western Ventures Realty Lc</firm_name>
+<phone>520-297-5802</phone>
+<fax>520-742-1077</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$279,000</list_price>
+<location>5553 E Rio Verde Vista Dr</location>
+<mls>9900922</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>3016 (approx)</square_feet>
+<lot_size>233 X 150 X 150</lot_size>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>932 KEENELAND GREE</house_location>
+<price>$379,900</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Side)</garage>
+<suburb>KEENELAND GREE</suburb>
+<school_dist>RYLE</school_dist>
+<mls>248448</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>FRANCINE FINLEY</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>ONE OF A KIND CUSTOM BUILT ON 7TH FAIRWAY. PELLA WINDOWS, 2 WAY
+FP,HEARTHRM GE PROFILE APPL, ARCHITECTURAL DETAILS THROUGHOUT,WIRED
+FOR ENTERTAINMENT SYSTEM INSIDE &amp; OUT, LEVEL LOT, 12 X 11 LOFT
+UPSTAIRS, JACK &amp; JILL BATHRM.</house_description>
+<construction>Brick,Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>11 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 12</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>14 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<family><dimension>16 X 18</dimension><level>1</level></family>
+<kitchen><dimension>14 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 8</dimension><level>1</level></laundry>
+<living><dimension>13 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>1</level></master>
+<study><dimension>13 X 11</dimension><level>1</level></study>
+
+<directions>I-75 SOUTH R ON 338, R ON TRIPLE CROWN BLVD, L
+COURT FLEET, R KEENELAND-BEAR L</directions>
+</house_listing>
+
+
+

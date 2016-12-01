@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>430 LAKEVIEW</house_location>
+<price>$70,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>3 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WILDER</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249987</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>ROBERT W ABNER</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>MRS CLEAN LIVES HERE! THIS HOME SPARKLES CEILING TO FLOOR. FEATURES
+CATH CEILING,WBFP,CHAIR RAIL,EQUIPPED KITCHEN &amp; LAUNDRY. THIS IS
+BETTER THAN NEW LOW DOW-PAYMENT. SELLER MAY HELP WITH CLOSING COSTS.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level>03</condo_level>
+<hoa_fee>119</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>3</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>3</level></bath_2>
+<bedroom_2><dimension>13 X 12</dimension><level>3</level></bedroom_2>
+<dining><dimension>12 X 8</dimension><level>3</level></dining>
+<kitchen><dimension>10 X 8</dimension><level>3</level></kitchen>
+<laundry><dimension>8 X 8</dimension><level>3</level></laundry>
+<living><dimension>17 X 14</dimension><level>3</level></living>
+<master><dimension>14 X 12</dimension><level>3</level></master>
+
+<directions>I471 TO US 27 NORTH (SOUTHGATE) TO L ON MOOCK
+RD TO L ON BENTWOOD TO L ON LAKEVIE</directions>
+</house_listing>
+
+
+

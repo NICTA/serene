@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1992 has 4 bedroom(s), 3
+bath(s) and approximately 3846 square feet of living area. Rooms
+include den, family room, master bedroom. Features include view,
+fireplace, air conditioning.</house_description>
+
+<agent_name>Sugi, Ann</agent_name>
+<direct>818-409-1040</direct>
+<office>818-240-8100</office>
+<firm_name>Dilbeck Realtots - Glendale</firm_name>
+<phone>818-240-8100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$364,500</list_price>
+<location>Ave</location>
+<mls>99049894</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<style>Contemporary</style>
+<square_feet>3846 (approx)</square_feet>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<fireplace>Family Room, Living Room, Master Bedroom</fireplace>
+<rooms>Den, Family Room, Master Bedroom</rooms>
+<view>Canyon View, City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Contemporary Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

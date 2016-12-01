@@ -1,0 +1,17 @@
+course@reed,course_listing@uwm,course@wsu
+reg_num@course@reed,course@course_listing@uwm,sln@course@wsu
+subj@course@reed,prefix@course@wsu
+crse@course@reed,crs@course@wsu
+note@course_listing@uwm,footnote@course@wsu
+title@course@reed,title@course_listing@uwm,title@course@wsu
+units@course@reed,credits@course_listing@uwm,credit@course@wsu
+sect@course@reed,section@section_listing@course_listing@uwm,sect@course@wsu
+days@course@reed,days@section_listing@course_listing@uwm,days@course@wsu
+time@course@reed,hours@section_listing@course_listing@uwm,times@course@wsu
+start_time@time@course@reed,start@hours@section_listing@uwm,start@times@course@wsu
+end_time@time@course@reed,end@hours@section_listing@course_listing@uwm,end@times@course@wsu
+place@course@reed,bldg_and_rm@section_listing@course_listing@uwm,place@course@wsu
+building@place@course@reed,bldg@bldg_and_rm@section_listing_course_listing@uwm,bldg@place@course@wsu
+room@place@course@reed,rm@bldg_and_rm@section_listing_course_listing@uwm,room@place@course@wsu
+instructor@course@reed,instructor@section_listing@course_listing@uwm,instructor@course@wsu
+restrictions@course_listing@uwm,limit@course@wsu

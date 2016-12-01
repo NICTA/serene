@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1987 has 5 bedroom(s), 3
+bath(s) , 2 car garage and approximately 4600 square feet of living
+area. Rooms include den, dining room, bonus room, master bedroom.
+Features include view, patio, fireplace, air conditioning, storage
+space.</house_description>
+
+<agent_name>Diane Edwards</agent_name>
+<direct>520-918-5859</direct>
+<office>520-918-4800</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-918-4800</phone>
+<fax>520-296-6093</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$575,000</list_price>
+<location>12420 E Summer Tr</location>
+<mls>2000316</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>4600 (approx)</square_feet>
+<lot_size>381X698X381X698</lot_size>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Family Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

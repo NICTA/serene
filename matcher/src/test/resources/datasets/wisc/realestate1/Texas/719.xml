@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Prudential Allied, REALTORS</name>
+<location>3007 E. Broadway Pearland, TX 77581</location>
+<office>(281)997-4000</office>
+<toll_free>(800)447-3313</toll_free>
+<fax>(281)485-1649</fax>
+<email>mstarr@infohwy.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bob Lewis</name>
+<office>(281)997-4000</office>
+<fax>(281)485-1649</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14230</id>
+<mls>190375</mls>
+<house_location>13206 HATFILED
+Pearland, TEXAS 77581</house_location>
+<county>Brazoria</county>
+<price>$499,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>NEED TWO HOMES?  HERE THEY ARE!  10 ACRES WITH TWO HOUSES ONE IS4000 SQ FT AND THE OTHER IS 1705 SQ FT.  THERE IS A 65X45 BARN, HAY BARN, FENCED ARENA &amp; HORSE WALKER, STUDBARN, SHED AND GRAZING AREA.  ENJOY  YOUR OWN POOL TOO.WITHIN MINUTES OF DOWNTOWN HOUSTON.  GREAT PROPERTY WITH LOTSTO OFFER.</house_description>
+
+<school_district>Pearland</school_district>
+<stories>1</stories>
+<approx_acres>10</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>SET UP FOR HORSES</item>
+<item>TWO HOMES IN GREATCONDITION</item>
+<item>POOL</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

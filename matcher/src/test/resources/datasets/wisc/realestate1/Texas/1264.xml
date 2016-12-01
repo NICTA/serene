@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Mayer Realty</name>
+<location>974 East Austin St. Giddings, TX 78942</location>
+<office>(409)542-2696</office>
+<toll_free></toll_free>
+<fax>(409)542-2554</fax>
+<email>mayerrealty@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Rudy Mayer</name>
+<office>(409)542-2696</office>
+<fax>(409)542-1715</fax>
+<mobile>(409)540-3148</mobile>
+<email>mayerrealty@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18285</id>
+<mls></mls>
+<house_location>413 E. Brenham st., Giddings, Texas
+Giddings, TEXAS</house_location>
+<county>Lee</county>
+<price>$52,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>THIS OLDER RESIDENCE IS SITUATED ON 2 CORNER LOTS NEAR IMMANUEL LUTHERAN CHURCH.   IT IS ALSO CONVENEINT TO DOWNTOWN SHOPPING.  THIS HOME IS IDEAL FOR THE HANDYMAN.  IT IS VERY SPACIOUS AND AT PRESENT ACCOMMODATES BOTH THE OWNER AND SEVERAL  TENANTS.   THIS HOME HAS HAD A FIRE IN THE EASTERN SIDE.  SCHEDULE TODAY  FOR AN APPOINTMENT TO SEE THIS FINE OLDER RESIDENCE.</house_description>
+
+<school_district>Giddings</school_district>
+<approx_size_sqft>1984</approx_size_sqft>
+<approx_lot_size>2 LOTS</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>NEAR CHURCH &amp; SHOPPING</item>
+<item>SITUATED ON 2 CORNER LOTS</item>
+<item>IDEAL FIXER UPPER</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joyce Hoard</name>
+<office>(254)542-1800</office>
+<fax>(254)542-1839</fax>
+<mobile>(254)681-5841</mobile>
+<email>jhoard@mailexcite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21317</id>
+<mls>89322</mls>
+<house_location>1104 S 25TH ST
+Copperas Cove, TEXAS 76522</house_location>
+<county>Coryell</county>
+<price>$52,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>NICE THREE (3) BEDROOM HOME, HAS CHAIN-LINK FENCE IN BACK YARD.  REFRIGERATOR AND PORTABLE DISHWASHER CONVEY.</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Fairview #3</sub-division>
+<approx_size_sqft>925</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>73 X117</approx_lot_size>
+<year_built>1965</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Open Porch</item>
+<item>REFRIGERATOR &amp; PORTABLE DISHWASHER CONVEY "AS I</item>
+<item>CHAIN-LINK FENCE IN BACK YARD</item>
+<item>ELECTRIC RANGE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

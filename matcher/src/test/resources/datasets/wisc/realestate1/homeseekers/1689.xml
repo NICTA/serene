@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1985 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include master bedroom. Features include private
+spa, patio, fireplace.</house_description>
+
+<agent_name>Walter Juris Walter Juris</agent_name>
+<office>602-866-0990</office>
+<email>wjuris@aol.com</email>
+<firm_name>Realty Executives Realty
+Executives</firm_name>
+<phone>602-866-0990</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$112,900</list_price>
+<location>Phoenix, AZ 85024</location>
+<mls>1464728</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>10,001-12,500</lot_size>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Family Room</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Eat In Kitchen, Great Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

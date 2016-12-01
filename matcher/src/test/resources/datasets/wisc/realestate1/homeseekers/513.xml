@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1994 has 2 bedroom(s), 1 bath(s) , 1 car
+attached garage and approximately 931 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Olga Elias</agent_name>
+<direct>305-274-9883</direct>
+<office>305-442-9766</office>
+<firm_name>Elias &amp; Company Re
+Lic. Real Estate Broker</firm_name>
+<phone>305-442-9766</phone>
+<fax>305-442-1044</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$112,000</list_price>
+<location>7832 Collins Av #306</location>
+<neighborhood>Park Beach Club Condo</neighborhood>
+<mls>D903019</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>931 (approx)</square_feet>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Margaret K. Linton</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<mobile>(361)318-3990</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20605</id>
+<mls>R26182</mls>
+<house_location>00000 W. CR 2180
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$19,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>To be sold &amp;quot;as is&amp;quot;, no key at this time.  West on CR 2180, property on left corner.</house_description>
+
+<school_district>Ricardo</school_district>
+<sub-division>Cook</sub-division>
+<approx_size_sqft>1056</approx_size_sqft>
+<approx_acres>1.22</approx_acres>
+<year_built>1940</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

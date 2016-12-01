@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Lloyd Barnes</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)558-1417</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19329</id>
+<mls>6064</mls>
+<house_location>1101 Sycamore
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$71,600</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Charming 2 bedroom, 1 bath, large living w/hardwood floors, converted garage w/tile floor, private patio w/ hot tub, storage rm/workshop, fenced backyardwith large trees on corner lot.</house_description>
+
+<move-in_date>9/20/99</move-in_date>
+<school_district>San Marcos Isd</school_district>
+<sub-division>Airport</sub-division>
+<approx_size_sqft>1156</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>city-corner</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

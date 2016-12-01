@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1982 has 3 bedroom(s), 4
+bath(s) , 2 car garage and approximately 4200 square feet of living
+area. Rooms include den, dining room, bonus room, master bedroom.
+Features include view, private spa, patio, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Luis Perez</agent_name>
+<direct>520-297-2290</direct>
+<office>520-297-2290</office>
+<firm_name>Century 21 Luis Perez Century 21 Luis Perez</firm_name>
+<phone>520-297-2290</phone>
+<fax>520-297-2669</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$375,000</list_price>
+<location>1511 Via San Cayetano</location>
+<mls>2001358</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>4</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>4200 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

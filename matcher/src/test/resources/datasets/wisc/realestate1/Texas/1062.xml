@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Floyd Wilhelm Jr.</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>floyd_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15998</id>
+<mls></mls>
+<house_location>3130 Sandholler Road
+Dale, TEXAS 78616</house_location>
+<county>Caldwell</county>
+<price>$55,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A very comfortable, small home located in Dale, Texas on County Road 165. (3130 Sandholler Road).  This is a one bedroom, one full bath, and a living/kitchen/dining combination.  On this large lot of 1.504 acres there is plenty of room for your pets or horses.  In addition there is a nice shop/storage building on a slab and several pecan trees.  The property has county road frontage in the front and back. From Lockhart dirve 8 miles east on FM 20 to Dale, Texas.  Turn left on FM 1854 and cross the railroad tracks in Dale.  Take the second right turn on CR 165 and drive 1/4 mile.</house_description>
+
+<school_district>Lockhart</school_district>
+<stories>1</stories>
+<approx_lot_size>1.504</approx_lot_size>
+<approx_acres>1.5</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Large lot</item>
+<item>Shop/storage building</item>
+<item>Several huge pecan trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

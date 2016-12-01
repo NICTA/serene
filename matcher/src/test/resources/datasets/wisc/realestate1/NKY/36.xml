@@ -1,0 +1,55 @@
+<house_listing>
+<house_location>10754 OMAHA TRACE</house_location>
+<price>$699,800</price>
+<rooms>11</rooms>
+<bedrooms>5</bedrooms>
+<baths>3-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>4 Cars (Attached,Side,Oversized)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>247738</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JANE ASHCRAFT-WEST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>MAGNIFICENT ESTATE W/INCREDIBLE WOODED LOT/LAKE &amp; GOLF COURSE
+VIEW/OPEN, AIRY,SPACIOUS HOME W/SPECTACULAR ARCHITECTURE/VOLUME
+CEILINGS/HEARTH ROOM/ 30 X 22 REC RM/16 X 13 EXERCISE RM/THE UPGRADES
+YOU EXPECT AT THIS PRICE!</house_description>
+<construction>Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>222 x 187</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>10</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>14 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>16 X 11</dimension><level>L</level></bedroom_3>
+<bedroom_4><dimension>14 X 13</dimension><level>L</level></bedroom_4>
+<bedroom_5><dimension>16 X 13</dimension><level>L</level></bedroom_5>
+<breakfast><dimension>20 X 18</dimension><level>1</level></breakfast>
+<dining><dimension>16 X 12</dimension><level>1</level></dining>
+<family><dimension>20 X 18</dimension><level>1</level></family>
+<kitchen><dimension>18 X 18</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 6</dimension><level>1</level></laundry>
+<living><dimension>25 X 24</dimension><level>1</level></living>
+<master><dimension>20 X 17</dimension><level>1</level></master>
+<recreation_room><dimension>30 X 22</dimension><level>L</level></recreation_room>
+<study><dimension>12 X 11</dimension><level>1</level></study>
+
+<directions>TRIPLE CROWN BLVD TO RIGHT ON OMAHA TRACE</directions>
+</house_listing>
+
+
+

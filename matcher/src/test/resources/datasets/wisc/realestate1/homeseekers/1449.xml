@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1920 has 2 bedroom(s), 1
+bath(s) . Rooms include master bedroom. Features include air
+conditioning.</house_description>
+
+<agent_name>Kenny Smith</agent_name>
+<direct>301-248-8344</direct>
+<office>301-899-1200</office>
+<firm_name>RE/MAX 100 Real Estate</firm_name>
+<phone>301-899-1200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$58,900</list_price>
+<location>Washington, DC 20002</location>
+<mls>DC3112730</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>756</lot_size>
+<year_built>1920</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

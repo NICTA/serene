@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This home built in 1980 has 2 bedroom(s), 2 bath(s) . Rooms include
+dining room, master bedroom. Features include patio, storage space.</house_description>
+
+<agent_name>Gary Lancaster</agent_name>
+<office>602-336-9600</office>
+<firm_name>Realty Experts, Inc.</firm_name>
+<phone>602-336-9600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$78,900</list_price>
+<location>Phoenix, AZ 85032</location>
+<mls>1463945</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Covered, Deck</patio>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dishwasher, Eat In Kitchen, Great Room,Microwave, Storage Space, Tennis Court(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

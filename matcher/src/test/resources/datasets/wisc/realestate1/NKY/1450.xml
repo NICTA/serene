@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>12055 RIGGS RD</house_location>
+<price>$139,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>NICHOLSON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248816</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>ARDITH SCOTT</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * GRACIOUS LIVING NEAR SCHOOL * 3.08 LEVEL LAND TO BARN *
+BRICK HOME * 32X36 BARN * 18 X 10 PORCH * CITY WATER * WINDOWS &amp; DOORS
+3YRS NEW * BRING YOUR HORSE * PLANT YOUR GARDEN *</house_description>
+<construction>Brick</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>18 X 12</dimension><level>1</level></kitchen>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>20 X 11</dimension><level>1</level></master>
+
+<directions>SOUTH ON TAYLOR MILL RD L ON RIGGS RD * RIGGS IS
+ACROSS FROM TWENHOFEL SCHOOL</directions>
+</house_listing>
+
+
+

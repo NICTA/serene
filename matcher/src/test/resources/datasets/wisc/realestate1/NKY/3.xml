@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>1 W 28TH</house_location>
+<price>$65,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>9TH DISTRIC</school_dist>
+<mls>248443</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>SHEILA RODERICK</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>CHARMING 2 BDRMS 1 BATH BRICK HOME*ALL NEW MECHANICS A/C, FURNACE,
+WINDOWS, FENCED IN YARD. GREAT LOCATION NEAR EVERYTHING, HDWD FLRS
+THROUGH OUT.GREAT FOR FIRST TIME BUYERS. CALL SHEILA RODERICK FOR
+SHOWINGS 786-9142</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50x95</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 6</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 9</dimension><level>1</level></laundry>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>2</level></master>
+
+<directions>N ON DECORSY L ON WEST 28TH ST</directions>
+</house_listing>
+
+
+

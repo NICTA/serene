@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>321 E 47TH</house_location>
+<price>$63,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248290</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>JANET RIGNEY</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>THIS 3 BEDRM CAPE COD HAS LARGE ROOMS &amp; LG LOT * NICE VIEW OF CREEK &amp;
+WOODS IN REAR*FRONT &amp; BACK YARD FENCED * 1 CAR DETACHED GARAGE * GREAT
+STARTER HOME CEILING FANS IN ALMOST EVERY ROOM*PRICE TO SELL * A MUST
+SEE!</house_description>
+<construction>Cedar</construction>
+<heating>Gas,Steam</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>35 x 272</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>21 X 13</dimension><level>2</level></bedroom_3>
+<family><dimension>17 X 12</dimension><level>L</level></family>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>17 X 11</dimension><level>L</level></laundry>
+<living><dimension>21 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+
+<directions>TAYLOR MILL RD TO GRAND AVE L ON RT177 TO R ON
+47TH ST * HOUSE ON RIGHT</directions>
+</house_listing>
+
+
+

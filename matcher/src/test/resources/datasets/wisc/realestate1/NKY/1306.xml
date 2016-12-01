@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>51 THIRS DR</house_location>
+<price>$235,500</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Rear)</garage>
+<suburb>VILLA HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247385</mls>
+<house_type>Single Family</house_type>
+<firm>A B REAL ESTATE</firm>
+<firm_phone>(606) 341-7443</firm_phone>
+<agent>DON LAAKE</agent>
+<agent_phone>(606) 341-7443</agent_phone>
+<house_description>HUGE FAMILY ROOM, WHIRLPOOL BATH, CHERRY CABINETS, HARDWOOD FOYER,
+JENN-AIR APPLIANCES. GREAT LOCATION. CALL 586-7802.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>100x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>11 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>11 X 11</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 13</dimension><level>1</level></dining>
+<family><dimension>20 X 25</dimension><level>1</level></family>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 6</dimension><level>1</level></laundry>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 16</dimension><level>2</level></master>
+
+<directions>75 TO BUTTERMILK THROUGH LIGHT AT COLLINS TO L
+ON SUNGLOW. CALL 341-7443</directions>
+</house_listing>
+
+
+

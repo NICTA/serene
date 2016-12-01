@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sue Becker</name>
+<office>(512)834-6066</office>
+<fax>(512)310-9421</fax>
+<voice_mail>(512)834-6066</voice_mail>
+<mobile>(512)415-4627</mobile>
+<email>sbecker@realestateaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21369</id>
+<mls>527748</mls>
+<house_location>2505 Dowd Ln.
+Austin, TEXAS 78728</house_location>
+<county>Travis</county>
+<price>$91,800</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Recent Paint inside and out! Ready for Quick Close and Move In! Garage Heat and Cooled! Large Tree's, Wells Branch Amenities. Round Rock Schools!</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Wells Branch</sub-division>
+<approx_size_sqft>1167</approx_size_sqft>
+<stories>1</stories>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Recent Paint Inside &amp; Out!</item>
+<item>Quick Close &amp; Move In!</item>
+<item>Garage Heat &amp; Cooled!</item>
+<item>Round Rock Schools!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

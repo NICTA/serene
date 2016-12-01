@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bette Berry</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>bette@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16955</id>
+<mls>53037</mls>
+<house_location>306 ISLAND DRIVE, #F
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$476,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Waterfront 2 story townhome.  Not a better view anywhere.  Watch the sunset and view the lights from the Yacht Club.  Quality abounds in this project.  Landscaping is gorgeous.  All rooms are spacious.  Large kitchen with lots of storage.  A first class project.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Day dock, lake pump, boat dock, retaining wall.</item>
+<item>Compactor, ice maker, wet bar.</item>
+<item>Oven, range, microwave.</item>
+<item>Insulated windows, ceiling fans.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

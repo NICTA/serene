@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Levine, GRI</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 123</voice_mail>
+<mobile>(512)517-4301</mobile>
+<email>SandyWLC@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21661</id>
+<mls></mls>
+<house_location>119 Sunrise Circle
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$489,900</price>
+<bedrooms>5</bedrooms>
+<full_baths>5</full_baths>
+<half_baths>1</half_baths>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SPIRIT OF THE SOUTHWEST.  Soaring over the Blanco River valley in true Santa Fe style, this unique home provides commanding views and sophisticated comforts. On 3+ private acres in Paradise Hills, the main house includes 3 bedrooms, 3.5 baths and a sparkling in-ground pool. The guest quarters are completely separate with full kitchen, bath and extensive air-conditioned storage. The &amp;quot;casita&amp;quot; is a charming and secluded retreat for additional guest space or studio. A 2 car garage, 2 car carport and privacy fencing complete this hilltop Paradise.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Paradise Hills</sub-division>
+<approx_size_sqft>2241</approx_size_sqft>
+<stories>2</stories>
+<year_built>1992</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Murray Myers</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12914</id>
+<mls>132978</mls>
+<house_location>106 Lakewood
+Mathis, TEXAS 78368</house_location>
+<county>San Patricio</county>
+<price>$14,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description></house_description>
+
+<move-in_date>12/29/98</move-in_date>
+<school_district>Mathis</school_district>
+<sub-division>Lakewood Heights</sub-division>
+<approx_size_sqft>660</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>100*200</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Large lot in good subdivision. A real fixer upper</item>
+<item>buy has lots of potential. Frontage on Lakeshore &amp;</item>
+<item>Lakewood Streets. Well, septic and storage bldg in</item>
+<item>place.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

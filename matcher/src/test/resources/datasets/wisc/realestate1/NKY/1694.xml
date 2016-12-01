@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>410 E 8TH STREET</house_location>
+<price>$135,000</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>246210</mls>
+<house_type>Single Family</house_type>
+<firm>BARBARA WEBER REALTY</firm>
+<firm_phone>(606) 635-4333</firm_phone>
+<agent>BARBARA WEBER</agent>
+<agent_phone>(606) 635-4333</agent_phone>
+<house_description>LOVELY HOME IN HISTORIC DISTRICT- 95% REHABBED. COULD BE 2 FAMILY. FP
+IN ALMOST EVERY ROOM. NEW KITCHEN, WINDOWS, WIRING &amp; ROOF. HERE IS THE
+CHARM OF AN OLDER HOME REHABBED TO MODERN LIVING.BEAUTIFUL STAINED
+GLASS,NAT'L WW</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25x76</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>20 X 22</dimension><level>3</level></bedroom_4>
+<dining><dimension>13 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 13</dimension><level>1</level></kitchen>
+<living><dimension>12 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 15</dimension><level>2</level></master>
+
+<directions>MONMOUTH STREET, EAST ON 8TH STREET.</directions>
+</house_listing>
+
+
+

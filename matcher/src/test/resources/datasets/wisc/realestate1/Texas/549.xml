@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bob &amp; Maria Holzmueller</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<email>bob&amp;maria@realtor.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17215</id>
+<mls>511150</mls>
+<house_location>3121 Jazz Street
+Round Rock, TEXAS 78664</house_location>
+<county>Williamson</county>
+<price>$114,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Great home in Round Rock.  Seconds from Dell.  Wood floors in entrance leading to tile floors in kitchen and breakfast area.  Custom tile backsplash in kitchen.  Master suite with walk-in closet.  Other features:  2 inch wood blinds,  inside utility room, ceiling fans, garage door opener, security system, and fenced yard with landscaping.</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Remington Heights</sub-division>
+<stories>1</stories>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

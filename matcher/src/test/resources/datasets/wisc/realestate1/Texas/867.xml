@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Westfall</name>
+<office>(409)542-1234</office>
+<fax>(409)542-0078</fax>
+<email>leon@westfallrealestate.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20910</id>
+<mls>1017</mls>
+<house_location>983 E. Railroad
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$47,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>4 bedroom, 1 bath older wood frame house on large city lot.  This property has great potential if you're looking for a home that needs a little attention but has that antique charm.  Some renovations have been completed while others yet to be done.  The house is cooled by window units and ceiling fans and heated by gas space heaters.   This house is located close to shopping, city swimming pool and city park and is situated on a 110 x 220 foot lot with paved and curbed streets on 3 sides.</house_description>
+
+<school_district>Giddings</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1624</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>110 x 220</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Antique Charm</item>
+<item>Oversized Lot</item>
+<item>Spacious</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

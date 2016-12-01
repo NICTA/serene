@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>2959 AMELIA DR</house_location>
+<price>$145,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>EDGEWOOD</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249372</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>BABS TOELKE</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*1-OWNER BRK RANCH*LR DIMENSIONS DO NOT INCLUDE 40 SQ FT ADD'L
+(L-SHAPED) DIN AREA*HDWD FLRS*NEW FURNACE/UPGRADED ELEC*NEWER C/A &amp;
+ROOF*CEDAR CLOSET* FAM RM*ADJ WET BAR AREA W/BRICK FLR*LG
+PATIO*COVERED BCK PORCH*NICE!*</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Electric,Hot Water</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>12 X 11</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 9</dimension><level>1</level></breakfast>
+<family><dimension>28 X 13</dimension><level>L</level></family>
+<kitchen><dimension>9 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>16 X 15</dimension><level>L</level></laundry>
+<living><dimension>19 X 16</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>DIXIE TO DUDLEY, L ON AMELIA OR SO. ON
+TURKEYFOOT, R ON DUDLEY, R ON AMELIA</directions>
+</house_listing>
+
+
+

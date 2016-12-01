@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Mayer Realty</name>
+<location>974 East Austin St. Giddings, TX 78942</location>
+<office>(409)542-2696</office>
+<toll_free></toll_free>
+<fax>(409)542-2554</fax>
+<email>mayerrealty@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeffery B. Keaghey</name>
+<office>(409)542-2696</office>
+<fax>(409)542-1715</fax>
+<email>mayerrealty@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14072</id>
+<mls></mls>
+<house_location>665 Edgewood, Giddings, Texas
+Giddings, TEXAS</house_location>
+<county>Lee</county>
+<price>$125,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>THIS LOVELY 4/3 HOME IS SITUATED VERY NEAR TO BOTH CHURCHES AND SCHOOLS.  RECENTLY REMODELED, THIS FINE BRICK RESIDENCE IS READY TO MOVE IN.  A VAULTED CEILING AND FIREPLACE ADD TO THE LIVING ROOM DECOR.  WALLS ARE A COMBINATION OF PANEL, PAINTED DRYWALL AND WALL PAPER.  FLOORS CONSIST OF QUALITY CARPETING AND TILE.  SCHEDULE AND APPOINTMENT TODAY TO VISIT THIS FINE RESIDENCE.</house_description>
+
+<school_district>Giddings</school_district>
+<sub-division>Woodland Heights</sub-division>
+<approx_size_sqft>2100</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>80x170</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>QUALITY CONSTRUCTION</item>
+<item>CONVENIENT TO SCHOOLS, CHURCHES &amp; SHOPPING</item>
+<item>RECENTLY REMODELED</item>
+<item>BRICK EXTERIOR</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

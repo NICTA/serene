@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>52 GRAND LAKE</house_location>
+<price>$199,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>247007</mls>
+<house_type>Condominium</house_type>
+<firm>NOLL REALTY</firm>
+<firm_phone>(606) 331-2470</firm_phone>
+<agent>ROBERT A NOLL</agent>
+<agent_phone>(606) 331-2470</agent_phone>
+<house_description>GRAND LAKE LANDOMINUIMS 5 MIN. FROM DOWNTOWN CINCINNATI, WALK TO
+CHURCH HOS DOCTOR'S OFFICE &amp; SHOPING CALL TRACY AT 441-4600 FOR
+SHOWING</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>195</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>2</level></bedroom_2>
+<breakfast><dimension>8 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>8 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>13 X 19</dimension><level>1</level></living>
+<master><dimension>13 X 19</dimension><level>2</level></master>
+
+<directions>471 TO EXIT 3 TO E ON GRAND AVE THRU INT.
+GRAND &amp; HIGHLAND 100 YARDS ON RIGHT</directions>
+</house_listing>
+
+
+

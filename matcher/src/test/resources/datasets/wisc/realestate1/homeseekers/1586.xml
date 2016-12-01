@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1900 has 2 bedroom(s), 1
+bath(s) . Rooms include master bedroom. Features include air
+conditioning.</house_description>
+
+<agent_name>Julie Collison-Careathers</agent_name>
+<office>301-434-8900</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-434-8900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$157,500</list_price>
+<location>Washington, DC 20002</location>
+<mls>DC3059987</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>1800</lot_size>
+<year_built>1900</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Natural Gas, Radiator</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

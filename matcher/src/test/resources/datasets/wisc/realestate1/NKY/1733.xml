@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>215 W 12TH</house_location>
+<price>$42,500</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>248223</mls>
+<house_type>Single Family</house_type>
+<firm>COFFMAN REALTY</firm>
+<firm_phone>(606) 441-8090</firm_phone>
+<agent>JOHN T COFFMAN</agent>
+<agent_phone>(606) 441-8090</agent_phone>
+<house_description>1 BEDROOM COULD BE DINING RM.9X12 RM IN BSMT. CLEAN- SHOWS WELL. FP
+WOULD NEED TO BE CHECKED BEFORE ANY USE.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>22x90</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>11 X 12</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>S ON YORK ST. AT DEAD END, TURN RIGHT ONTO
+W.12TH.</directions>
+</house_listing>
+
+
+

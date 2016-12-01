@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Michael Franke</name>
+<office>(361)668-3300</office>
+<fax>(361)664-2100</fax>
+<mobile>(361)877-7419</mobile>
+<email>buyersman@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18803</id>
+<mls>138623</mls>
+<house_location>275 CR 300
+Orange Grove, TEXAS 78372</house_location>
+<county>Jim Wells</county>
+<price>$119,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Double wide Schult manufactured home. Three years old. Hunter ceiling fans in all living areas. Twenty five acres mostly wooded with pond,</house_description>
+
+<school_district>Orange Grove</school_district>
+<approx_size_sqft>2128</approx_size_sqft>
+<approx_acres>25</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Country living</item>
+<item>Lots of Wildlife</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

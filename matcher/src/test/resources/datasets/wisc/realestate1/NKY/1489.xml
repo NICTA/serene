@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>10356 CALVARY RD</house_location>
+<price>$117,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247123</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>TONYA EVANS</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>SPLIT BEDRMS*CATHEDRAL CEIL IN MASTER,LIVING RM &amp; KITCHEN ALSO LIGHT
+MAPLE CABINETS IN KITCHEN * MARBLE GAS FIREPLACE W/MANTLE *FRENCH
+DOORS TO DECK * LARGE YARD*WALKOUT FROM GARAGE*BEAUTIFULL DECOR*LOTS
+OF XTRAS*PLANT LEDGES*</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80X150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>10 X 10</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>U</level></bedroom_3>
+<family><dimension>14 X 13</dimension><level>L</level></family>
+<kitchen><dimension>12 X 10</dimension><level>U</level></kitchen>
+<laundry><dimension>12 X 7</dimension><level>L</level></laundry>
+<living><dimension>16 X 14</dimension><level>U</level></living>
+<master><dimension>14 X 12</dimension><level>U</level></master>
+
+<directions>I-75 TO MT ZION EXIT L ON MT ZION TO R ON
+BRISTOW L ON BATTLE RIDGE L CALVARY</directions>
+</house_listing>
+
+
+

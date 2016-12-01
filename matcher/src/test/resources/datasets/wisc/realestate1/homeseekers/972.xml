@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1967 has ? bedroom(s), 1 bath(s) , 1 car
+garage and approximately 570 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Yiganis Taljebini</agent_name>
+<direct>305-710-2166</direct>
+<office>305-865-2222</office>
+<firm_name>Oceanfront Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-865-2222</phone>
+<fax>305-865-2221</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$95,000</list_price>
+<location>5401 Collins Av #233</location>
+<neighborhood>The Carriage House Condo</neighborhood>
+<mls>M776860</mls>
+<status>Active</status>
+<baths>1</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>570 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

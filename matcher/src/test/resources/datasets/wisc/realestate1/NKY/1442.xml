@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>5343 OAKVIEW CT</house_location>
+<price>$149,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249984</mls>
+<house_type>Single Family</house_type>
+<firm>T.H.-1 REALTY L.L.C.</firm>
+<firm_phone>(606) 426-8700</firm_phone>
+<agent>TOM HELSON, JR</agent>
+<agent_phone>(606) 426-8700</agent_phone>
+<house_description>ARLINGHAUS BUILT 4 YEAR NORWOOD 2 STORY, 4 BEDROOM ON QUIET CUL-DE-SAC
+ST. VERY NICE FENCED LEVEL YARD.MARBLE TILE VENT FREE FIREPLACE.NICE
+HARDWOOD ENTRY FOYER.DESK AREA IN KITCHEN PRICE TO SELL. CALL TOM.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>10 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 11</dimension><level>2</level></bedroom_4>
+<kitchen><dimension>23 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 6</dimension><level>1</level></laundry>
+<living><dimension>23 X 13</dimension><level>1</level></living>
+<master><dimension>17 X 11</dimension><level>2</level></master>
+
+<directions>SOUTH ON RT #17 TO LEFT ON HARTLAND BLVD TO
+RIGHT ON OAKVIEW CT</directions>
+</house_listing>
+
+
+

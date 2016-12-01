@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Lee Portland</name>
+<location>921 Houston St. Portland, TX 78374</location>
+<office>(361)643-2591</office>
+<toll_free>(800)421-0821</toll_free>
+<fax>(361)643-5845</fax>
+<email>plee2121@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Micheal H. Craig</name>
+<office>(361)643-2591</office>
+<fax>(361)643-5845</fax>
+<voice_mail>(361)224-6757</voice_mail>
+<email>abrcraig21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18118</id>
+<mls>138736</mls>
+<house_location>201 Carmel Dr.
+Portland, TEXAS 78374</house_location>
+<county>San Patricio</county>
+<price>$89,870</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<move-in_date>8/6/99</move-in_date>
+<school_district>Gpisd</school_district>
+<sub-division>Portland Place 2</sub-division>
+<approx_size_sqft>1851</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>105 x 75</approx_lot_size>
+<year_built>1965</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>4</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Corner lot</item>
+<item>Room to park a boat</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>3322 EMERSON</house_location>
+<price>$67,500</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249282</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>PATRICIA FLEEK</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>WELL CARED FOR, LOTS OF STORAGE ROOM, BONUS LARGE BEDROOM- UPSTAIRS
+THROUGH BATH, COVERED FRONT PORCH, TERRIFIC DECK OFF REAR.</house_description>
+<construction>Other</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Dummy,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25 X 85</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>7 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 18</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>11 X 18</dimension><level>1</level></living>
+<master><dimension>9 X 13</dimension><level>1</level></master>
+
+<directions>MADISON PIKE TO LATONIA AVE. TO R ON 35TH TO R
+ON EMERSON</directions>
+</house_listing>
+
+
+

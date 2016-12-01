@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1992 has 4
+bedroom(s), 3 bath(s) , 3 car garage and approximately 2700 square
+feet of living area. Rooms include dining room, family room, living
+room, bonus room, master bedroom. Features include patio, fireplace,
+air conditioning.</house_description>
+
+<agent_name>Gary Strohmenger</agent_name>
+<direct>619-989-0823</direct>
+<office>858-653-6400</office>
+<firm_name>Prudential California Realty Prudential California Realty</firm_name>
+<phone>858-653-6400</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$428,900</list_price>
+<location>San Diego, CA 92129</location>
+<mls>00 6000639</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2700 (approx)</square_feet>
+<lot_size>5501</lot_size>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room, Master Bedroom</fireplace>
+<patio>Yes</patio>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room, Master</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

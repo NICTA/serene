@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>14 PLEASANT RIDGE</house_location>
+<price>$139,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached,Front)</garage>
+<suburb>FT MITCHELL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249105</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>MARY CREEKMORE</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>GREAT HOME IN DESIRED BEECHWOOD SCHOOLS. LG. LIVING RM WITH ROOKWOOD
+WBFP LG DINING RM. FRONT STAIRCASE OFF LR, BUTLERS STARCASE TO
+KITCHEN. 2 CAR DETACHED GARAGE. NICE YARD. BEDROOMS HAVE HDWD FLOORS.
+SOLARIUM OFF LR</house_description>
+<construction>Brick</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>Central Air,Window Unit</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>60 X 148</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 15</dimension><level>2</level></bedroom_2>
+<dining><dimension>11 X 16</dimension><level>1</level></dining>
+<kitchen><dimension>17 X 15</dimension><level>1</level></kitchen>
+<living><dimension>12 X 23</dimension><level>1</level></living>
+<master><dimension>13 X 15</dimension><level>2</level></master>
+<study><dimension>8 X 12</dimension><level>1</level></study>
+
+<directions>DIXIE HWY RT ON PLESANT RIDGE</directions>
+</house_listing>
+
+
+

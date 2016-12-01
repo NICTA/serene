@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1998 has 4 bedroom(s), 5 bath(s) and
+approximately 3685 square feet of living area.</house_description>
+
+<agent_name>Don Bobeda</agent_name>
+<direct>303-332-6849</direct>
+<office>303-721-8777</office>
+<firm_name>Prudential Portrait</firm_name>
+<phone>303-721-8777</phone>
+<fax>303-721-8555</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$689,900</list_price>
+<location>6730 W Crestline Av</location>
+<neighborhood>Belvedere At Grant Ranch</neighborhood>
+<mls>384456</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>5</baths>
+<type>Single Family</type>
+<square_feet>3685 (approx)</square_feet>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

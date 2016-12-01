@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Menley</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<email>winkler@texasproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19002</id>
+<mls>528336</mls>
+<house_location>RT 1 FM 696
+Lexington, TEXAS 78947</house_location>
+<county>Lee</county>
+<price>$119,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>GOOD STREET APPEAL!  BEAUTIFUL LAND.  POND SHARED WITH NEIGHBOR.  WRAP PORCH.  NICE LIVING AREA WITH WOOD STOVE.  UPSTAIRS IS ALL LARGE.  PRIVATE MASTER SUITE!  HUGE DETACHED 3 CAR GARAGE.  OFFERING 1 YR HMS WARRANTY.  1538 SQ FT PER CAD.</house_description>
+
+<school_district>Lexington</school_district>
+<stories>2</stories>
+<approx_acres>3</approx_acres>
+<year_built>1979</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

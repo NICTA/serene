@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>322 CENTER</house_location>
+<price>$72,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>BELLEVUE</suburb>
+<school_dist>BELLEVUE</school_dist>
+<mls>249878</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>KATHLEEN SHEAFFER</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>VERY NICE BRICK SPACIOUS ROOMS NEWER WINDOWS BEAUTIFUL CERAMIC FP (NOT
+WARR ANTED) HARDWOOD FLOORS GREAT CEILING HEIGHT OFF-STREET PARKING!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>16 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>14 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 15</dimension><level>2</level></master>
+
+<directions>RT 8 TOTAYLOR TO L CENTER</directions>
+</house_listing>
+
+
+

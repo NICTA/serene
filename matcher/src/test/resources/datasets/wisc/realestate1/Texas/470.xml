@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Lone Star Land Company</name>
+<location>801 Bessemer St. Llano, TX 78643</location>
+<office>(915)247-5782</office>
+<toll_free></toll_free>
+<fax>(915)247-5569</fax>
+<email>lslc@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>TERESA BAUMAN</name>
+<office>(915)247-5782</office>
+<fax>(915)247-5569</fax>
+<email>lslc@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20828</id>
+<mls></mls>
+<house_location>217 Lagitos Lane, Rio Llano Subdivision
+Llano, TEXAS</house_location>
+<county>Llano</county>
+<price>$84,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>5 manicured acres in Rio Llano with a very nice 3/2 DWMH (98), large closets, CH/CA, extra room (study/bed), front deck, storage bldg., well, wet-weather creek, partial fence, nice trees &amp; paved road access on cul-de-sac. River access to all property owners. When you see it, you&amp;#8217;ll want it !!!  Come look today.  Won&amp;#8217;t last long.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Rio Llano</sub-division>
+<approx_acres>5</approx_acres>
+<year_built>98</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Very spacious DWMH</item>
+<item>5 tree covered acres</item>
+<item>Minutes from downtown Llano</item>
+<item>Llano river access</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bob &amp; Maria Holzmueller</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<email>bob&amp;maria@realtor.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17764</id>
+<mls>513203</mls>
+<house_location>3203 Clumpgrass Cove
+Austin, TEXAS 78735</house_location>
+<county>Travis</county>
+<price>$384,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Located in the prestigious Estates of Barton Creek, a gated community with large secluded lots.  This home is poised on a 1 acre cul-de-sac lot with lots of trees.  With over 4,000 square this home has plenty of room.  This home features: 3 living areas, 2 dining areas, 4 bedrooms, 3.5 baths, computer room, teen room, split staircase, lots of crown molding, marble floor foyer, and a great view from the top deck.</house_description>
+
+<sub-division>Estates Of Barton Creek</sub-division>
+<approx_size_sqft>4033</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>1 acre</approx_lot_size>
+<year_built>1983</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<golf_course>Yes</golf_course>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

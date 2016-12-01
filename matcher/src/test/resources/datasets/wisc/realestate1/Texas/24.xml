@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bette Berry</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>bette@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7724</id>
+<mls>3817</mls>
+<house_location>400 LIGHTHOUSE DRIVE
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$800,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>5</full_baths>
+<half_baths>1</half_baths>
+
+<house_description>Waterfront home with European flair.  4 bedrooms, 5 1/2 baths.  Built-in mahogany bookshelves and cabinets in the study.  Douglas fir ceiling, indoor solar heated pool.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Waterfront home with European flair</item>
+<item>Built-in mahogany bookshelves and cabinets</item>
+<item>Douglas fir ceiling</item>
+<item>Indoor solar heated pool</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

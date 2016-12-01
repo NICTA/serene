@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>George Reinemund Real Estate</name>
+<location>P. O. Box 338 Bastrop, TX 78702</location>
+<office>(512)303-5709</office>
+<toll_free></toll_free>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<email>greino@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>George Reinemund</name>
+<office>(512)303-5709</office>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<mobile>(512)796-0955</mobile>
+<email>george@georgereinemund.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21376</id>
+<mls></mls>
+<house_location>628 CARDINAL DRIVE
+Paige, TEXAS 78659</house_location>
+<county>Bastrop</county>
+<price>$120,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<house_description>THIS BEAUTIFUL BRICK HOME WAS BUILT IN 1990. IT SITS ON 3.4 ACRES WITH LARGE BEAUTIFUL TREES. 2 LARGE BEDROOMS AND BATHS, A FORMAL DINING AREA PLUS BREAKFAST BAR, LARGE LIVING AREA WITH FIREPLACE. THERE IS A MUD ROOM. CH/CA. A NICE SIZED BARN PLUS 2 SHEDS. THE PROPERTY IS FENCED WITH CROSS FENCING.  DID I SAY LOTS OF TREES.  BY APPOINTMENT ONLY....ANIMALS.</house_description>
+
+<school_district>Bastrop</school_district>
+<sub-division>Ponderosa Homestead</sub-division>
+<approx_size_sqft>1144</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3.4</approx_acres>
+<year_built>1990</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

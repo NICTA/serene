@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>1132 CHESTNUT COURT</house_location>
+<price>$98,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>BEECHGROVE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249109</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>PATRICIA FISCHESSER</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>NEW ROOF &amp; SIDING-NEW CABINETS, DOORS, FLOORING-FRESHLY PAINTED. MOVE
+IN AND ENJOY. OWNER/AGENT</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50X125</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>25</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>9 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 11</dimension><level>1</level></dining>
+<family><dimension>18 X 12</dimension><level>L</level></family>
+<kitchen><dimension>7 X 10</dimension><level>1</level></kitchen>
+<living><dimension>11 X 14</dimension><level>1</level></living>
+<master><dimension>10 X 13</dimension><level>1</level></master>
+
+<directions>SHORT RICHARDSON TO CATALPA TO R ON CHESTNUT
+COURT</directions>
+</house_listing>
+
+
+

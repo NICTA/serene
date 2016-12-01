@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>1199 DEVOU WOODS DR</house_location>
+<price>$379,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side,Oversized)</garage>
+<suburb>KENTON HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250101</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>PATTY COSLETT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>CUS BLT*ALL BRICK*3-4 BDRMS*1ST FLR OWN STE W/ULTRA BTH &amp; DECK*KIT/BR
+W/ISL &amp; BAY*HDWD FLRS*1ST FLR STUDY W/BOOKCASES*13X12 LOFT AREA*CR
+MOLD* 1ST FLR 2STY GR RM*WBFP*LOTS OF WIND*POSS BONUS RM OVER
+GAR*APPROX 3/4 AC*</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>12 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<family><dimension>20 X 16</dimension><level>1</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 7</dimension><level>1</level></laundry>
+<master><dimension>16 X 15</dimension><level>1</level></master>
+
+<directions>DIXIE HWY TO SLEEPY HOLLOW,R AMSTERDAM, L
+PARK-FOLLOW THRU DEVOU, R WAYNE, R DEV WD</directions>
+</house_listing>
+
+
+

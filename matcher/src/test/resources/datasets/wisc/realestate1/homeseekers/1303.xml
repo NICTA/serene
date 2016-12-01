@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This single family home built in 1938 has 1 bedroom(s), 1 bath(s) and
+approximately 589 square feet of living area. Features include view.</house_description>
+
+<agent_name>Olga Betancourt</agent_name>
+<direct>305-860-1908</direct>
+<office>305-225-9905</office>
+<firm_name>One Stop Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-225-9905</phone>
+<fax>305-225-5070</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$28,000</list_price>
+<location>581 NW 98 St</location>
+<neighborhood>Pinewood Park 1St Addn</neighborhood>
+<mls>M772253</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>589 (approx)</square_feet>
+<lot_size>50 X 71</lot_size>
+<year_built>1938</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>222 HWY 159</house_location>
+<price>$115,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>BUTLER</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>249108</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>JIM SCHACK</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>WELL KEPT HOME, NEWER C/A &amp; HIGH EFFICIENCY GAS FURNACE, NEWER ROOF,
+LARGE LEVEL YARD, IMMEDIATE OCCUPANCY, EASY ACCESS TO AA HWY. ONLY 25
+MIN TO I275 DRIVE A LITTLE &amp; GET ALOT MORE FOR YOUR MONEY.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert,Brick</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Private</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>10 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 8</dimension><level>2</level></bedroom_3>
+<family><dimension>16 X 14</dimension><level>L</level></family>
+<kitchen><dimension>18 X 12</dimension><level>1</level></kitchen>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>2</level></master>
+
+<directions>AA HWY S, R NEW HOPE RD, L HWY 10, R HWY 159, 1
+MILE TO PROPERTY</directions>
+</house_listing>
+
+
+

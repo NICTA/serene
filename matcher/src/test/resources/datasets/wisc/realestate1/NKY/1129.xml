@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>5185 W TAFT HWY.(22)</house_location>
+<price>$164,900</price>
+<rooms>10</rooms>
+<bedrooms>5</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>0</suburb>
+<school_dist>GRANT</school_dist>
+<mls>247952</mls>
+<house_type>Single Family</house_type>
+<firm>TRIMAX REAL ESTATE</firm>
+<firm_phone>(606) 643-3242</firm_phone>
+<agent>LINDA MAXWELL</agent>
+<agent_phone>(606) 643-3242</agent_phone>
+<house_description>SPACIOUS 5 OR 6 BR BRICK RANCH, WBFP, 1ST FLR LAUNDRY, LG EAT IN
+COUNTRY KITCHEN, 2 CAR ATTCH.GARAGE HOME HAS TOO MANY EXTRAS TO
+MENTION! VERY WELL MAINTAINED..12X12 STORM SHELTER, RENTAL SW MH W/
+GARAGE ALL ON 5+ ACRES...</house_description>
+<construction>Brick</construction>
+<heating>Oil</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 20</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>13 X 15</dimension><level>1</level></bedroom_4>
+<bedroom_5><dimension>11 X 14</dimension><level>1</level></bedroom_5>
+<dining><dimension>10 X 15</dimension><level>1</level></dining>
+<family><dimension>13 X 20</dimension><level>1</level></family>
+<kitchen><dimension>9 X 27</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 11</dimension><level>1</level></laundry>
+<living><dimension>13 X 20</dimension><level>1</level></living>
+<master><dimension>13 X 20</dimension><level>2</level></master>
+
+<directions>I75 S TO EX 159 R ON 22 (TAFT HWY) APPROX 5 MI.
+PROP. ON L SEE SIGN...</directions>
+</house_listing>
+
+
+

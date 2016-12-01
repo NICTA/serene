@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Irona Smith Alexander</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)295-7580</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>17365</id>
+<mls>9018192</mls>
+<house_location>209 W. HILLSIDE DRIVE
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$219,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LOVELY HOME WITH 2 LIVING &amp; 2 DINING, 3 CAR SIDE ENTRY GARAGE, PAD FOR RV OR BOAT! HEAVILY WOODED, SPRINKLER SYSTEM, CUSTOM DESIGN THROUGHOUT, FIREPLACE INSERT, CUSTOM PLANTATION SHUTTERS, BUILT-INS! LUXURY LIVING AT ITS FINEST!</house_description>
+
+<school_district>Burleson Isd</school_district>
+<sub-division>Hilltop Estates Phase 2</sub-division>
+<stories>1</stories>
+<approx_acres>0.88</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>WBFP, fireplace insert</item>
+<item>Split bedrooms</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

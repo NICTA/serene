@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1970 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 648 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Felix Guzman</agent_name>
+<direct>305-775-6999</direct>
+<office>305-534-1999</office>
+<firm_name>Majestic Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>305-534-1999</phone>
+<fax>305-534-9088</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$90,000</list_price>
+<location>1519 Drexel Av #304</location>
+<neighborhood>Drexel 15 Condo</neighborhood>
+<mls>M756288</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>648 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

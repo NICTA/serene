@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jean Hisle</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19541</id>
+<mls>53892</mls>
+<house_location>10 Hidden Oaks Drive
+Kingsland, TEXAS 78639</house_location>
+<county>Burnet</county>
+<price>$279,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Wonderful open Lake LBJ waterfront!  This 3 bedroom, 2 bath home has vaulted ceilings, wrought iron fencing, a large master suite, security system and large porch for water watching.  In a highly restricted subdivision.  Excellent boat house with lift and deck.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Hidden Oaks</sub-division>
+<approx_size_sqft>1542</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>191X79X171X82</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+
+<highlights>
+<item>Excellent Open Lake LBJ Waterfront.</item>
+<item>Wrought iron fencing, retaining wall, spklr. sys.</item>
+<item>Vaulted ceilings, security system.</item>
+<item>Large covered porch, wonderful views.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

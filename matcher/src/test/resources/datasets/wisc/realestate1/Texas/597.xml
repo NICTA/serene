@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Pud Owens Realty</name>
+<location>910 1/2 West Cameron Rockdale, TX 76567</location>
+<office>(512)446-4243</office>
+<toll_free></toll_free>
+<fax>(512)446-4273</fax>
+<email>rlaj@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Matula</name>
+<office>(512)446-4243</office>
+<fax>(512)446-4273</fax>
+<mobile>(512)446-1003</mobile>
+<email>rlaj@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17746</id>
+<mls></mls>
+<house_location>514 N SCARBROUGH
+Rockdale, TEXAS 76567</house_location>
+<county>Milam</county>
+<price>$78,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>Nice 3BR 1 3/4 bath Home for Your Family. Has seperate bricked workshop/room in back!</house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Giant Lot</item>
+<item>Owner Finance Available</item>
+<item>Bricked Outbuilding</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

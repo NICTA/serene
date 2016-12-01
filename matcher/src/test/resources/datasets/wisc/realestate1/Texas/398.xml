@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Paul R. (Ron) Emmert</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>TEXRELEST@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21115</id>
+<mls>15203</mls>
+<house_location>211 E. McGregor Street
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$48,400</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Enjoy this comfortable two story 3/2/2 starter home. The Master bedroom is conveniently located on the first floor adjacent the kitchen. Utility room is inside. The cozy kitchen has some minor details to be corrected. The family room adjoins the dining area. The second floor area accompanies two good size bedrooms and a full bath. This residential property show good curb appeal, but needs some minor repairs on the interior walls and the exterior side wall. (paint &amp; wood repair). Investment property, yes! Good rental property! LONG Elementary school minutes away. Price to sell !</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1580</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>43.4x120.0</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Two story home</item>
+<item>Long Elementary School District</item>
+<item>Great starter home</item>
+<item>Great rental property - investment property</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

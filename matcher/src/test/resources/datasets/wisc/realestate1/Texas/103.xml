@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Dana Skiles</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>dskiles@c21rapp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21360</id>
+<mls>9129008</mls>
+<house_location>904 Casa Vista
+Rio Vista, TEXAS 76093</house_location>
+<county>Johnson</county>
+<price>$24,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Single wide mobile home on 1.08 acres</house_description>
+
+<school_district>Rio Vista</school_district>
+<sub-division>1</sub-division>
+<stories>1</stories>
+<approx_acres>1.08</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>2</fire_places>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

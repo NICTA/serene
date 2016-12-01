@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>Sharp property with a great panoramic view! Excellent location on the
+hills 4 bdrms 3.5 baths, huge master suite w/ full bath, dressing rm,
+private balony &amp; beautiful wood floor. All baths, scalators and bar
+area cover w/marble floors. Fireplace in living rm &amp; family rm. Formal
+dining rm, beautiful country kitchen w/natural wood cabinets, ceramic
+counters &amp; floor</house_description>
+
+<agent_name>Walter Dumani</agent_name>
+<direct>818-353-8245</direct>
+<office>562-803-9779</office>
+<firm_name>Dumas Property Loans</firm_name>
+<phone>562-803-9779</phone>
+<fax>562-803-1748</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$350,000</list_price>
+<location>Los Angeles, CA 90065</location>
+<mls>Y93239</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3.5</baths>
+<levels>2</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>3770 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<fireplace>Family Room, Living Room</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

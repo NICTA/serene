@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 3+ level townhouse built in 1947 has 2 bedroom(s), 1 bath(s) .
+Rooms include dining room, master bedroom. Features include air
+conditioning.</house_description>
+
+<agent_name>Shirley Lokeman</agent_name>
+<direct>301-680-8006</direct>
+<office>301-384-8700</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>301-384-8700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$82,000</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC3103564</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<lot_size>2012</lot_size>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

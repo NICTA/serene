@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>38 BRENTWOOD</house_location>
+<price>$71,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>FT. THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>246390</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>JIM SCHACK</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>NEWER CENTRAL AIR &amp; FURNACE, NEWER WATER HEATER, UPDATED ELECTRIC,
+FENCED BACK YARD, DECK OFF KITCHEN, NEWER CARPET &amp; VINYL, CLEAN &amp;
+READY TO MOVE INTO. CALL JIM SCHACK AT 448-0700 FOR AN APPOINTMENT.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50x140</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 8</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>11 X 10</dimension><level>1</level></master>
+
+<directions>FROM US 27, S FT. THOMAS AVE TO R ON BRENTWOOD
+PL</directions>
+</house_listing>
+
+
+

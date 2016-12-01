@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 2 level attached home built in 1981 has 2 bedroom(s), 2 bath(s) ,
+1 car garage and approximately 689 square feet of living area. Rooms
+include dining room, living room, master bedroom. Features include air
+conditioning.</house_description>
+
+<agent_name>Les Sheppard</agent_name>
+<direct>619-339-5552</direct>
+<office>619-339-5552</office>
+<firm_name>Sheppard &amp; Co.</firm_name>
+<phone>619-339-5552</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$99,900</list_price>
+<location>San Diego, CA 92104</location>
+<mls>99 6026018</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<garage>1</garage>
+<type>Townhouse/Condo</type>
+<square_feet>689 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Electric, Forced Air</heating>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

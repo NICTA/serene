@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>16 BROADWAY</house_location>
+<price>$73,200</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249534</mls>
+<house_type>Single Family</house_type>
+<firm>MICHAEL WALSH REALTY</firm>
+<firm_phone>(606) 525-1234</firm_phone>
+<agent>CINDY NEBOLSKY-STEFFEN</agent>
+<agent_phone>(606) 525-1234</agent_phone>
+<house_description>CASH OR CONVENTIONAL ONLY-203K POSSIBLE MANY POSSIBILITIES-NEEDS
+UPDATING AND COSMETICS-AREA OF NICE HOMES-GREAT INVESTMENT
+OPPORTUNITY-WALK-IN CLOSETS IN UP BEDROOMS.</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Gas,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>16 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>8 X 14</dimension><level>2</level></bedroom_3>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 14</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+<study><dimension>8 X 14</dimension><level>2</level></study>
+
+<directions>27(NEWPORT SHOP.CENTER)TO 19TH. TO TOP OF HILL
+TO L TO HOME TO R ON BROADWAY</directions>
+</house_listing>
+
+
+

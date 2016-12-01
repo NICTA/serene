@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Westbank Realty</name>
+<location>3355 Bee Caves Road, Suite 304 Austin, TX 78746</location>
+<office>(512)327-3200</office>
+<toll_free></toll_free>
+<fax>(512)306-0424</fax>
+<email>westbank21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tara Fatteh</name>
+<office>(512)327-3200</office>
+<fax>(512)306-0424</fax>
+<mobile>(512)633-0958</mobile>
+<email>TarannumFatteh@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21718</id>
+<mls>530048</mls>
+<house_location>1204 FIREBUSH DRIVE
+Austin, TEXAS 78660</house_location>
+<county>Travis</county>
+<price>$189,950</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>FORMER WILSHIRE MODEL HOME: I-35 TO 1826 THRU DOWNTOWN PFLUGERVILLE, PASS 685, INTO BOHLS PLACE TO SUNFLOWER. HAS LOTS OF EXTRAS*PUGOT-WOOD FLOORS, DRAPES WALLPAPER,CERAMIC TILE IN KITCHEN, INTERCOM SYSTEM, DRAMATIC STAIRCASE, ARCHES, CORNER FIREPLACE, GREAT UTILTY ROOM AND LOTS MORE. CALL ME TODAY! TARA FATTEH @ 327-3200 OR SAMPSON UKAOMA @ 238-6540 OR 908-1900 D.P.</house_description>
+
+<move-in_date>1/19/00</move-in_date>
+<school_district>Pflugerville</school_district>
+<approx_size_sqft>2973</approx_size_sqft>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Janice Kraft</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)787-5555</mobile>
+<email>jkraft@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21232</id>
+<mls>6321</mls>
+<house_location>220 Britni Loop
+Kyle, TEXAS 78640</house_location>
+<county>Hays</county>
+<price>$99,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great Family Home In new NeighborhoodAdjoining Bonus RoomLandscapedPatioPrivacy Fence</house_description>
+
+<school_district>Hays Cisd</school_district>
+<sub-division>Steeplechase Phase Ii</sub-division>
+<approx_size_sqft>1396</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Fenced Yard</item>
+<item>Landscaped</item>
+<item>Patio</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

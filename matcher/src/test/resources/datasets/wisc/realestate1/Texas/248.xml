@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>The Platinum Team</name>
+<office>(512)833-3588</office>
+<fax>(512)671-8886</fax>
+<mobile>(512)431-3725</mobile>
+<email>hcfrit@austin.quik.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21095</id>
+<mls>526034</mls>
+<house_location>8165 Racine Trl.
+Austin, TEXAS 78717</house_location>
+<county>Williamson</county>
+<price>$168,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>French Doors! Wood, Tile &amp; New Carpet! Crown Molding! 2&amp;quot; Wood Blinds! 10' Ceilings! See Through Fire Place in Master Suite! Jacuzzi Type Tub! Security System! Nice Backyard with Deck and Trees!</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Woods Of Brushy Creek</sub-division>
+<approx_size_sqft>2269</approx_size_sqft>
+<stories>1</stories>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>2</fire_places>
+<restrictions>Yes</restrictions>
+
+<highlights>
+<item>Wood, Tile &amp; Carpet New! Crown Molding!</item>
+<item>See Through Fireplace in Master Suite!</item>
+<item>Security System! Nice Backyard with Trees &amp; Deck!</item>
+<item>2-Detached Garage w/ AC &amp; Brick Drive.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

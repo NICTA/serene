@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>11177 HWY 42</house_location>
+<price>$325,000</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Side)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>248703</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN HUFF</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * TRULY BEAUTIFUL SETTING *QUALITY BUILT BRICK RANCH ALL
+ON 18 ACRES * KITCHEN DOOR LEADS TO DECK * WOODS &amp; SHED * LARGE POLE
+BUILDING * LIVING ROOM W/BRICK FIREPLACE * OWNER CURRENTLY HOOKING UP
+TO CITY WATER *</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air,Atic Fan</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>15 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>L</level></bedroom_3>
+<bedroom_4><dimension>11 X 11</dimension><level>L</level></bedroom_4>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>15 X 12</dimension><level>L</level></laundry>
+<living><dimension>21 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+
+<directions>SOUTH ON US 42-2 MI PAST RYLE HIGH SCHOOL ON
+RIGHT DIRECTIONAL SIGN TO HOUSE</directions>
+</house_listing>
+
+
+

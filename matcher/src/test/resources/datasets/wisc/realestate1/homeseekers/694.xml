@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 2000 has 4 bedroom(s), 3 bath(s) , 2
+car garage. Rooms include dining room, family room, master bedroom.
+Features include private pool, private spa, patio, fireplace.</house_description>
+
+<agent_name>Wally Neal</agent_name>
+<office>602-494-9899</office>
+<firm_name>RE/MAX On Tatum Realty RE/MAX On Tatum Realty</firm_name>
+<phone>602-494-9899</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$549,900</list_price>
+<location>Phoenix, AZ 85054</location>
+<mls>1461869</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>10,001-12,500</lot_size>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Multi Zoned, Natural Gas</heating>
+<fireplace>Gas logs, Living Room</fireplace>
+<location>On golf course</location>
+<patio>Covered</patio>
+<pool>Heated</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Room, Cable TV, Cathedral/Vaulted Ceilings,Ceiling Fan(s), Dishwasher, Eat In Kitchen, Game Room, Garage DoorOpener, Great Room, Kitchen Island, Library, Microwave, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

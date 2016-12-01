@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1964 has 3 bedroom(s), 2 bath(s) .
+Rooms include family room, master bedroom. Features include private
+pool, patio, fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Catherine Pedersen</agent_name>
+<office>480-777-7557</office>
+<email>cathypedersenmsn.com@cathypedersen.com</email>
+<firm_name>Nu-Way Realty</firm_name>
+<phone>480-777-7557</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$111,900</list_price>
+<location>Phoenix, AZ 85032</location>
+<mls>1457121</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Diving</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Ceiling Fan(s), Dishwasher, Eat In Kitchen,Pantry, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

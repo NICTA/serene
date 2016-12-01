@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>69 CROWELL</house_location>
+<price>$52,900</price>
+<rooms>3</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Side)</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>CAMPBELL CT</school_dist>
+<mls>250291</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS PLUS</firm>
+<firm_phone>(513) 229-0012</firm_phone>
+<agent>JERRY WALKER</agent>
+<agent_phone>(513) 229-0012</agent_phone>
+<house_description>REMODELED KITCHEN &amp; BATH, BREAKFAST NOOK, PARQUET FLOORS THROUGHOUT,
+POSSIBLE 2ND BEDRM ON LOWER LEVEL, NEW DECKING, NEW SHINGLES, CLEAN
+BASE- MENT. CUTE HOUSE.</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>43x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNKN</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<kitchen><dimension>11 X 12</dimension><level>1</level></kitchen>
+<living><dimension>11 X 12</dimension><level>1</level></living>
+<master><dimension>10 X 12</dimension><level>1</level></master>
+
+<directions>US27 R CROWELL</directions>
+</house_listing>
+
+
+

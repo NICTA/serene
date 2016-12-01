@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Wm.</email>
+</firm_information>
+
+<agent_information>
+<name>"Bill" Johnson</name>
+<office>(281)276-6508</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)276-6508</voice_mail>
+<email>rxrelo@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15874</id>
+<mls>215682</mls>
+<house_location>3514 West Creek Club
+Missouri City, TEXAS 77459</house_location>
+<county>Fort Bend</county>
+<price>$131,000</price>
+<bedrooms>3</bedrooms>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Lovely One Story with pool near golf course. Updated, recent AC/Furnace, Dishwasher. New tile in Entryway, Kitchen, Breakfast, Utility &amp; Baths.  New counters and wallpaper in Kitchen &amp; Baths. New Plantation Shades, Fresh Interior paint, Newcarpets, Lots of closet space.  Attractive pool setting in back yard. Large Master with private bath, other bedrooms are spacious with semi-private bath.  Features an attractive living area with cathedral ceilings, wet bar, wood/gas fireplace and Custom built in shelving. Short walk to the Executive Nine Golf Course.</house_description>
+
+<move-in_date>4/29/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Quail Valley</sub-division>
+<stories>1</stories>
+<approx_lot_size>120x79</approx_lot_size>
+<year_built>1974</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Private Pool</item>
+<item>Cathedral Ceilings</item>
+<item>Large Bedrooms</item>
+<item>New floors, carpets, paint &amp; more</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

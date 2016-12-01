@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Quandt</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>C21Linda@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13628</id>
+<mls>R25674</mls>
+<house_location>429 E. KENEDY
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$99,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Step back in time--this home has charm.  Woodburning fireplace, marble whirlpool tub in one of two baths, stained glass window, high ceilings, central air/heat, landscaped yard, track lighting, gourmet kitchen.  Lovely income producing garage apartment.  Storage and studio at rear of double garage.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Original Town</sub-division>
+<approx_size_sqft>2033</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>75 X 140</approx_lot_size>
+<year_built>1924</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>FIREPLACE WOOD</item>
+<item>HOME WARRANTY</item>
+<item>SMOKE ALARM</item>
+<item>JENN-AIR</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

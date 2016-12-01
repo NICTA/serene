@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Lloyd Barnes</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)558-1417</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19121</id>
+<mls>5974</mls>
+<house_location>1660 &amp; 1664 San Marcos Hwy - Luling TX
+Luling, TEXAS 78648</house_location>
+<county>Caldwell</county>
+<price>$121,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>All in one!  Clean 3BR/2BA two car garage with workshop &amp; storage room.  Two  commercial metal buildings on slabs with over 10,000 sq/ft.  Attached storage located on 4 acres.</house_description>
+
+<move-in_date>9/13/99</move-in_date>
+<school_district>Luling</school_district>
+<approx_size_sqft>1582</approx_size_sqft>
+<approx_lot_size>4 acres</approx_lot_size>
+<year_built>1970</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

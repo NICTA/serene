@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ginny Rhodes</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>ginny@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12219</id>
+<mls>51941</mls>
+<house_location>W5068 (101) CLIFF RUN
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$222,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>Single-level 3 bedroom, 2 1/2 bath, 3-car garage home with open floor plan.  View of 2nd Fairway of Ram Rock Golf Course.  On established street in Horseshoe Bay West.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay West</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Insulated windows, skylights, ceiling fan</item>
+<item>Garage door opener</item>
+<item>Disposal, dishwasher</item>
+<item>Oven, range, microwave</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

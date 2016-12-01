@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home has 4 bedroom(s), 2 bath(s) , 3 car garage.
+Rooms include dining room, master bedroom. Features include view,
+patio, fireplace.</house_description>
+
+<agent_name>Nicki A. Pousson</agent_name>
+<office>480-704-8000</office>
+<firm_name>Century 21 Arizona-Foothills Century 21 Arizona-Foothills</firm_name>
+<phone>480-704-8000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$284,990</list_price>
+<location>Phoenix, AZ 85027</location>
+<mls>1414814</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>1 TO 1.9 AC</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Dining/Living Combo, Dishwasher,Eat In Kitchen, Kitchen Island, Microwave, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

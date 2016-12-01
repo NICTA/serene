@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>MARILYN WOOD</name>
+<office>(713)621-4953</office>
+<fax></fax>
+<voice_mail>(713)621-4953 116</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11484</id>
+<mls>139763</mls>
+<house_location>2813 BISSONNET
+Houston, TEXAS 77005</house_location>
+<county>Harris</county>
+<price>$186,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>EXPERTLY BUILT &amp; METICULOUSLY MAINTAINED TOWNHOME IN WEST UNIVERSITY. THIS SPACIOUS HOME HAS A RECENT STATE-OF-THE-ART &amp;quot;CRYSTAL&amp;quot; CHERRYWOOD KITCHEN UNBELIEVABLE FEATURES, A HANDSOME PANELED DEN AND CONVENIENT STUDY WITH WALK-IN WET BAR. AREA POOL IS CLOSE BY.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>West University</sub-division>
+<approx_size_sqft>2608</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>75 x 24</approx_lot_size>
+<year_built>1970</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WEST UNIVERSITY</item>
+<item>STATE-OF-THE-ART "CRYSTAL" CHERRYWOOD KITCHEN</item>
+<item>PANELED DEN</item>
+<item>STUDY WITH WALK-IN WET BAR</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

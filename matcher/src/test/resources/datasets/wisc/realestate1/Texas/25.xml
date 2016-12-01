@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Jo Flanders</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)754-4741</mobile>
+<email>mjflanders@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16157</id>
+<mls>5614</mls>
+<house_location>126 Oak Hollow
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$275,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Multi LevelVery UniqueSecluded 2.52 Ac</house_description>
+
+<sub-division>The Settlement</sub-division>
+<approx_size_sqft>3000</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>2.52</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Inground Pool</item>
+<item>Jetted Tub</item>
+<item>Multi Living Area</item>
+<item>Pre-Fab Fireplace</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<price>$40,000</price>
+<mls_id_number>132236</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.10</bathrooms>
+<sqft>1029</sqft>
+<year_built>1900</year_built>
+<heat>Not Listed</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>102X40</lot_description>
+<fireplace></fireplace>
+<taxes>$520</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Porch,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>ROSE</elementary>
+<middle_school></middle_school>
+<high_school>ROSEBURG</high_school>
+</schools>
+
+</house_listing>
+
+
+

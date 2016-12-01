@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Phyllis Whitaker</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)753-9346</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20411</id>
+<mls>6221</mls>
+<house_location>105 Hughson
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$115,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Traditional brick &amp; frame house in immaculate presence.  Convienant too!</house_description>
+
+<move-in_date>11/8/99</move-in_date>
+<school_district>San Marcos</school_district>
+<sub-division>Hughson Heights</sub-division>
+<approx_size_sqft>1440</approx_size_sqft>
+<approx_lot_size>city</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Outside &amp; inside painted 10/99</item>
+<item>Double pane windows</item>
+<item>Air conditioner replaced 6/99</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

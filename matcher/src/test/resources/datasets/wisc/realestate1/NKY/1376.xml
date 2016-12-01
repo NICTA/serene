@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>2158 SUMMERLINE</house_location>
+<price>$172,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249521</mls>
+<house_type>Single Family</house_type>
+<firm>ANTHONY ERPENBECK REAL ESTATE</firm>
+<firm_phone>(606) 635-7388</firm_phone>
+<agent>STEPHEN B JELEN</agent>
+<agent_phone>(606) 635-7388</agent_phone>
+<house_description>CONTACT TONY LOSCHIAVO 363-1800 FX 1806 POOL AND POOL HOUSE, GREAT
+WOODED SITES.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>12</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>12 X 10</dimension><level>1</level></breakfast>
+<family><dimension>20 X 17</dimension><level>1</level></family>
+<kitchen><dimension>12 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 8</dimension><level>1</level></laundry>
+<master><dimension>16 X 13</dimension><level>1</level></master>
+
+<directions>I275 TO COVINGTON INDEPENDENCE EXIT SOUTH 3.1
+MILES TO GRIBBLE ON LEFT</directions>
+</house_listing>
+
+
+

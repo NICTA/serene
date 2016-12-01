@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>12 N LONGWOOD</house_location>
+<price>$124,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249389</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>DEBBIE COFFMAN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>SUPER NICE RANCH IN CUL-DE-SAC. LARGE ROOMS &amp; FIN LL ARE GREAT FOR
+FAMILY OR ENTERTAINING. THE KITCHEN IS INCREDIBLE! OVERSIZED, EQUIPPED
+&amp; WHITE CABINETRY. HOME IS ON A PRIVATE LOT WITH DECKING &amp; POOL IN
+REAR</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>13 X 22</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 6</dimension><level>L</level></laundry>
+<living><dimension>13 X 26</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+<recreation_room><dimension>20 X 13</dimension><level>L</level></recreation_room>
+<study><dimension>15 X 13</dimension><level>L</level></study>
+
+<directions>BROOKWOOD TO LEFT ON RIDGEWOOD TO LEFT ON
+LONGWOOD</directions>
+</house_listing>
+
+
+

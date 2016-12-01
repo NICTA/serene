@@ -1,0 +1,34 @@
+<house_listing>
+<price>$159,900</price>
+<mls_id_number>133482</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1800</sqft>
+<year_built>1932</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>73.40X130.985</lot_description>
+<fireplace>1</fireplace>
+<taxes>$2,389</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Porch, RV-Park,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>OLIVER</elementary>
+<middle_school></middle_school>
+<high_school>CENTENNIAL</high_school>
+</schools>
+
+</house_listing>
+
+
+

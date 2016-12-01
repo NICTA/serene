@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>2218 MOFFETT RD</house_location>
+<price>$134,900</price>
+<rooms>6</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>MORNINGVIEW</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247046</mls>
+<house_type>Single Family</house_type>
+<firm>TOM HELSON REALTORS</firm>
+<firm_phone>(606) 525-8600</firm_phone>
+<agent>GRACE PANKO</agent>
+<agent_phone>(606) 525-8600</agent_phone>
+<house_description>WONDERFUL OPPORTUNITY! BUILD YOUR DREAM HOME HERE AND LET RENTAL HELP
+PAY MORTGAGE FOR YOU!! MAKE OFFER SELLER MOTIVATED! WATER ON ROAD!
+APPROX.125 FEET ROAD FRONTAGE.</house_description>
+<construction>Wood</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>16 X 16</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>8 X 8</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>8 X 8</dimension><level>2</level></bedroom_4>
+<kitchen><dimension>16 X 16</dimension><level>1</level></kitchen>
+<living><dimension>16 X 16</dimension><level>1</level></living>
+<master><dimension>16 X 16</dimension><level>1</level></master>
+
+<directions>275 TO S ON 17 GO APPROX.10 MILES TURN L ON
+MOFFETT VALUE IN LAND! NOW RENT $450/M</directions>
+</house_listing>
+
+
+

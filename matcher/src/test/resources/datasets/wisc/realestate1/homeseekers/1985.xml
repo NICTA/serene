@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1938 has 2 bedroom(s), 1 bath(s) and
+approximately 813 square feet of living area.</house_description>
+
+<agent_name>Don L</agent_name>
+<direct>303-989-5776</direct>
+<office>303-761-6510</office>
+<firm_name>Action Properties In</firm_name>
+<phone>303-761-6510</phone>
+<fax>303-986-3152</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$111,995</list_price>
+<location>800 S Patton Ct</location>
+<neighborhood>Westwood</neighborhood>
+<mls>378745</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>813 (approx)</square_feet>
+<year_built>1938</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

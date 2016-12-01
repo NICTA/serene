@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home has 4 bedroom(s), 5 bath(s) , 2 car garage.
+Rooms include dining room, family room, master bedroom. Features
+include view, patio, fireplace.</house_description>
+
+<agent_name>Joanne M. Dibenedetto</agent_name>
+<office>480-585-0101</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>480-585-0101</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$299,900</list_price>
+<location>Phoenix, AZ 85027</location>
+<mls>1441169</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>5</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>2 TO 4.9 AC</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Multi Zoned</heating>
+<fireplace>Living Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Room, Cathedral/Vaulted Ceilings, CeilingFan(s), Dining/Living Combo, Dishwasher, Eat In Kitchen, KitchenIsland, Microwave, Pantry, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

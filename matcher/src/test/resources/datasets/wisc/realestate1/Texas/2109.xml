@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Pruitt Realty</name>
+<location>611 Highway 67 Glen Rose, TX 76043</location>
+<office>(254)897-2416</office>
+<toll_free></toll_free>
+<fax>(254)897-2716</fax>
+<email>pruittre@eaze.net</email>
+</firm_information>
+
+<agent_information>
+<name>John Pruitt</name>
+<office>(245)897-2421</office>
+<fax></fax>
+<email>pruittre@eaze.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>10249</id>
+<mls>scr-2006</mls>
+<house_location>scr#-2006 1302 (911)
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$95,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Four 1/2  yr. old custom brick Home in small country subdivision with private co-op. water. Two 1 acre lot. aprox. 1700 sq ft.</house_description>
+
+<school_district>Glen Rose</school_district>
+<sub-division>Rock Creek</sub-division>
+<approx_size_sqft>1735</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>2</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>CUSTOM BRICK , 41/2 YR OLD</item>
+<item>2 ACRES</item>
+<item>LITTLE USED CTY. ROAD.2006</item>
+<item>202OFF HWY 144, 6mi So. GR</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level condominium built in 1938 has 1 bedroom(s), 1 bath(s) and
+approximately 225 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Carmen Redondo</agent_name>
+<direct>305-710-2593</direct>
+<office>305-672-0822</office>
+<firm_name>Kamany Realty &amp; Property Management Inc.</firm_name>
+<phone>305-672-0822</phone>
+<fax>305-672-0859</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$35,000</list_price>
+<location>1475 Collis Ave. #521</location>
+<mls>M704743</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Condominium</type>
+<square_feet>225 (approx)</square_feet>
+<year_built>1938</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

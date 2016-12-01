@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Lone Star Land Company</name>
+<location>801 Bessemer St. Llano, TX 78643</location>
+<office>(915)247-5782</office>
+<toll_free></toll_free>
+<fax>(915)247-5569</fax>
+<email>lslc@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>TERESA BAUMAN</name>
+<office>(915)247-5782</office>
+<fax>(915)247-5569</fax>
+<email>lslc@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>6751</id>
+<mls></mls>
+<house_location>Valley Spring
+Valley Spring, TEXAS</house_location>
+<county>Llano</county>
+<price>$65,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A CHARMING ROCK HOME IN THE COUNTRY ATMOSPHERE OF VALLEY SPRING HAS A FORMAL DINNING ROOM, ROCK FIREPLACE, CH/CA, FENCED AND LANDSCAPED YARD, GARDEN AREA AND  WORKSHOP PLUS DETACHED 1/1 FOR GUEST OR RENTAL INCOME. MAKE OFFER!!</house_description>
+
+<school_district>Llano</school_district>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Quisenberry</name>
+<office>(817)573-8801</office>
+<fax></fax>
+<voice_mail>(817)573-8801 148</voice_mail>
+<mobile>(817)219-0719</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18395</id>
+<mls>9087389</mls>
+<house_location>3614 Brook Valley St. (Ad# 606)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$42,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Oak Trail Shores Se</sub-division>
+<approx_size_sqft>1270</approx_size_sqft>
+<stories>1</stories>
+<year_built>1976</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<pool>Yes</pool>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

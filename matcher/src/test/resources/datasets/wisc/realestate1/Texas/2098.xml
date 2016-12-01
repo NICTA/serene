@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Barbara Webster</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21452</id>
+<mls>9134550</mls>
+<house_location>2900 Alliance Trail
+Haslet, TEXAS 76052</house_location>
+<county>Tarrant</county>
+<price>$228,950</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Ceramic Tile- Spacious Island Kitchen- Dining and den with see-through fireplace to formal living. master suite opens to patio. Large walk-in closets. Sprinkler system and lots of new trees on approximately three acres.</house_description>
+
+<school_district>Northwest</school_district>
+<approx_size_sqft>2768</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>About three acrees</item>
+<item>Lots of new trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

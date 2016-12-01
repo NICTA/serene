@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>323 WASHINGTON TR</house_location>
+<price>$349,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>CALIFORNIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248789</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>DAVID G SCHNEIDER</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>END OF SHARED GRAVEL LANE OFFERS COMPLETE PRIVACY SURROUNDED BY 20
+ACRES PASSIVE SOLAR EFFICIENCY,CONTEMPORARY DESIGN, A REAL PLEASURE TO
+SHOW</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stove</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>20.9 acre</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bath_3><dimension>PART</dimension><level></level></bath_3>
+<bedroom_2><dimension>13 X 11</dimension><level>L</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>L</level></bedroom_3>
+<bedroom_4><dimension>13 X 11</dimension><level>L</level></bedroom_4>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>17 X 16</dimension><level>L</level></family>
+<kitchen><dimension>10 X 16</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 8</dimension><level>L</level></laundry>
+<living><dimension>14 X 20</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>1</level></master>
+<study><dimension>18 X 8</dimension><level>L</level></study>
+
+<directions>AA HWY TO L ON CALIFORNIA X RDS R ON WASH INGTON
+TRACE TO GRAVEL LANE IN SHARP BEND</directions>
+</house_listing>
+
+
+

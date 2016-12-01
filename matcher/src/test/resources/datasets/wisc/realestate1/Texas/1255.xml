@@ -1,0 +1,48 @@
+<house_listing>
+<firm_information>
+<name>Bexley Real Estate</name>
+<location>Highway 77 Lexington, TX 78947</location>
+<office>(409)773-4423</office>
+<toll_free></toll_free>
+<fax>(409)773-4930</fax>
+<email>bexley@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bexley Real Estate</name>
+<office>(409)773-4423</office>
+<fax>(409)773-4930</fax>
+<email>Bexley@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21247</id>
+<mls></mls>
+<house_location>Giddings St.
+Lexington, TEXAS 78947</house_location>
+<county>Lee</county>
+<price>$75,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>This is approx. 2 ac. inside the city limits of Lexington.  It has a beautiful turn-of-the-century home.  Recently refurbished, the home has large multi-use room upstairs.</house_description>
+
+<school_district>Lexington</school_district>
+<stories>2</stories>
+<approx_acres>2</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Darrell Haney</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>darrell@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14836</id>
+<mls>46893</mls>
+<house_location>300 HANEY TRACE, BAY COUNTRY
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$649,500</price>
+<bedrooms>5</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>Less than one year old spacious custom estate on 7.65 acres in gated Bay Country.  Horses permitted.  Granite counters in kitchen and bar.  Zoned A/C.  Double stainless ovens.  Satellite t.v. system with Bose Surround Sound. Closets, closets, closets.   Custom made front gate.  Large oaks.  Pond stocked with big bass.  Driving range.  Wildlife exemption status on acreage.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Bay Country</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>BAY COUNTRY ACREAGE ESTATE</item>
+<item>Horses allowed.Pond stocked with big bass.</item>
+<item>Driving range.</item>
+<item>Closets, closets, closets.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

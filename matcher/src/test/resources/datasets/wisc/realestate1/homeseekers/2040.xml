@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home built in 1945 has 3 bedroom(s), 2 bath(s) .
+Rooms include master bedroom. Features include patio, storage space.</house_description>
+
+<agent_name>Ron Metzger</agent_name>
+<office>602-861-3434</office>
+<firm_name>Century 21 Centre' Point R E Century 21 Centre' Point R E</firm_name>
+<phone>602-861-3434</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$125,000</list_price>
+<location>Phoenix, AZ 85006</location>
+<mls>1437743</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1945</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dining/Living Combo, Dishwasher, Ranch Style, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

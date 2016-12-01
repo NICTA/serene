@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1984 has 2 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include master bedroom. Features include view,
+patio.</house_description>
+
+<agent_name>Julie Hill</agent_name>
+<office>602-944-2100</office>
+<firm_name>Prestige Realty</firm_name>
+<phone>602-944-2100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$85,000</list_price>
+<location>Phoenix, AZ 85024</location>
+<mls>1455531</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher, EatIn Kitchen, Garage Door Opener, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

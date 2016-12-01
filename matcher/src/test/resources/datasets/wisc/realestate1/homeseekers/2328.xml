@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1962 has 3 bedroom(s), 2
+bath(s) and approximately 1629 square feet of living area. Rooms
+include den, bonus room, master bedroom. Features include view, patio,
+fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Patricia Everett</agent_name>
+<direct>520-291-6638</direct>
+<office>520-297-7300</office>
+<firm_name>Realty Executives-Tuc Realty Executives-Tuc</firm_name>
+<phone>520-297-7300</phone>
+<fax>520-575-5943</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$99,500</list_price>
+<location>517 E Lawton St</location>
+<mls>9912544</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1629 (approx)</square_feet>
+<lot_size>60X100X70X60X39</lot_size>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered, Screened-in</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

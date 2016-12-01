@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1950 has 3
+bedroom(s), 1 bath(s) and approximately 1074 square feet of living
+area. Rooms include dining room, living room, master bedroom.</house_description>
+
+<agent_name>Robert Shepard</agent_name>
+<direct>800-852-9889</direct>
+<office>800-852-9889</office>
+<firm_name>Prudential Ca Realty Prudential Ca Realty</firm_name>
+<phone>800-852-9889</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$99,000</list_price>
+<location>San Diego, CA 92114</location>
+<mls>99 8004347</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1074 (approx)</square_feet>
+<lot_size>9100</lot_size>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

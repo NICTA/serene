@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1972 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1871 square feet of living
+area. Features include view, patio, fireplace, storage space.</house_description>
+
+<agent_name>Debra Storms Green</agent_name>
+<direct>520-419-3227</direct>
+<office>520-577-7400</office>
+<firm_name>Tucson Realty &amp; Trust Co</firm_name>
+<phone>520-577-7400</phone>
+<fax>520-299-2898</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$260,000</list_price>
+<location>2595 W Lambert Ln</location>
+<mls>9921894</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1871 (approx)</square_feet>
+<lot_size>324 X 390</lot_size>
+<year_built>1972</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

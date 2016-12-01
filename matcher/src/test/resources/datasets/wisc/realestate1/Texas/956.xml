@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19109</id>
+<mls>5958</mls>
+<house_location>1500 Block Wonder World Dr
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$4,192,650</price>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great Piece of Property Not far from HospitalGood Location For Hotel Industrial or Strip Center</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>Jm Veramendi Survey</sub-division>
+<approx_acres>19.25</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Commercial</item>
+<item>Access to Interstate Hwy</item>
+<item>Paved City Street</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

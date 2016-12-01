@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>18 PATRICIA</house_location>
+<price>$199,900</price>
+<rooms>11</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>3 Cars (Builtin)</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>247279</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>SHEILA RODERICK</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*UNIQUE HOME. HUGE MOVE INTO 4 BDRM
+2 MST 3.5 BATHS. OFFICE OR DEN FAMILY RM WITH FIREPLACE. 3 CAR GARAGE.
+TIERED DECK. A WORKING FISH POND. BEAUTIFULLY LANDSCAPED. CALL SHEILA
+FOR DETAILS</house_description>
+<construction>Brick,Wood,Cedar</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>14 X 10</dimension><level>1</level></bedroom_4>
+<dining><dimension>14 X 19</dimension><level>1</level></dining>
+<family><dimension>23 X 14</dimension><level>1</level></family>
+<kitchen><dimension>15 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 16</dimension><level>L</level></laundry>
+<living><dimension>23 X 19</dimension><level>1</level></living>
+<master><dimension>13 X 11</dimension><level>1</level></master>
+<study><dimension>11 X 28</dimension><level>L</level></study>
+
+<directions>N 27 R ON HIGHLAND L ON NEWMAN R ON JENNIFER L
+ON PATRICIA</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>LESLIE CHATHAM</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12644</id>
+<mls>486898</mls>
+<house_location>11128 Rio Vista Dr.
+Austin, TEXAS 78726</house_location>
+<county>Williamson</county>
+<price>$192,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Wonderful four bedroom, three bath home in Canyon Creek!  MIL plan, neutral throughout with vaulted ceilings.  Full bedroom and bath on first floor, open kitchen.  Spacious master suite.  Huge deck, large trees in a lovely area!  Priced to sell!!</house_description>
+
+<move-in_date>12/9/98</move-in_date>
+<school_district>Round Rock</school_district>
+<sub-division>Canyon Creek</sub-division>
+<approx_size_sqft>2369</approx_size_sqft>
+<stories>2</stories>
+<year_built>1994</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Neutral throughout</item>
+<item>Spacious master suite</item>
+<item>Huge deck</item>
+<item>Vaulted ceilings</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

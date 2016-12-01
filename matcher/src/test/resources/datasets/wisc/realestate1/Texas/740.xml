@@ -1,0 +1,67 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ronnie Robie</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)300-3870</mobile>
+<email>ronnierobie@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18660</id>
+<mls>9091820</mls>
+<house_location>625 Broad Valley Drive
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$179,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>THIS PRETTY CUSTOM BUILT HOME, IS ONLY 1.5 YEARS OLD.  THE FOUR SPLIT BEDROOM FLOOR PLAN WITH FORMAL LIVING AND DINING, KITCHEN, BREAKFAST ROOM AND LIVING EQUAL ONE GREAT ROOM.  ONE ACRE CORNER LOT WITH ROOM FOR SHOP OR BARN, HORSE, ETC.  1999 GUNITE POOL WITH SIX FOOT ROD IRON FENCE. 25 MINUTES TO DOWNTOWN FORT WORTH.CO-LISTING AGENT:  ELIZABETH BONDURANT.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Broad Valley Farms</sub-division>
+<approx_size_sqft>2249</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>175x257</approx_lot_size>
+<approx_acres>1</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>WBFP</item>
+<item>AEROBIC SEPTIC SYSTEM</item>
+<item>SPLIT BEDROOMS</item>
+<item>COVERED PORCH &amp; PATIO</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

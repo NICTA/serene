@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>537 FROGTOWN</house_location>
+<price>$175,900</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Rear)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250243</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>CHRIS M FRANXMAN</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*FINISHED LL WITH WBFP, FULL
+BATH, WET BAR &amp; SMALL OFFICE*EQUIPPED KITCHEN 20X12 SOLARIUM OFF
+KITCHEN*FRESHLY PAINTED GAS FP IN FAMILY ROOM*PELLA WINDOWS</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>159x467</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>12 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>14 X 8</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<family><dimension>18 X 13</dimension><level>1</level></family>
+<kitchen><dimension>12 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 3</dimension><level>1</level></laundry>
+<living><dimension>16 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+<recreation_room><dimension>32 X 27</dimension><level>L</level></recreation_room>
+
+<directions>US 42 OR US 25 TO FROGTOWN</directions>
+</house_listing>
+
+
+

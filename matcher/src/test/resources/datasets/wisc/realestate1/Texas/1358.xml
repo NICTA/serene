@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Charlene Williams</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)233-3490</mobile>
+<email>charlene@mesh.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21136</id>
+<mls>9128465</mls>
+<house_location>612 NW King
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$59,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Buyer's choice of Home Warranty up to $355 to be provided by Seller for this nicely upgraded home; carpet and vinyl approx 4 yrs ago, dishwasher approx 3 years old. Large back yard with gym and playset, plus 24' pool partially above ground and partially inground.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Montclair</sub-division>
+<approx_size_sqft>958</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>156x62</approx_lot_size>
+<year_built>1971</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Nice smaller home, big features</item>
+<item>Pool, playset, large backyard</item>
+<item>Home Warranty offered</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

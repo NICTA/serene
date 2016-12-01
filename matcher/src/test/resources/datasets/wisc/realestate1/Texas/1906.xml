@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Darrell Haney</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>darrell@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7726</id>
+<mls>46278</mls>
+<house_location>114 APPLEHEAD ISLAND
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$895,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<garage_spaces>2</garage_spaces>
+
+<house_description>CONTRACT PENDING.  Fabulous Applehead Island Waterfront Beauty.  Unique floorplan includes executive study and storage galore.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Waterfront home on Applehead Island</item>
+<item>Unique floorplan</item>
+<item>Executive study</item>
+<item>Storage galore</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

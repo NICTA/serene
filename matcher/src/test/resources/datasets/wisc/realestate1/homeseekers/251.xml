@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This condominium built in 1961 has 2 bedroom(s), 3 bath(s) , 1 car
+garage and approximately 1660 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Elena Pernas Elena Pernas</agent_name>
+<direct>448-2997</direct>
+<office>649-7325</office>
+<email>ElenaPernas@HomeSeekers.com</email>
+<firm_name>Continental Landma
+Lic. Real Estate Broker</firm_name>
+<phone>649-7325</phone>
+<fax>305-649-7326</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$230,000</list_price>
+<location>5055 Collins Av #12-J</location>
+<neighborhood>5055 Collins Condo</neighborhood>
+<mls>M762375</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>3</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1660 (approx)</square_feet>
+<year_built>1961</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Smoke Detector, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>Nancy Fogarty</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<email>fogarty@dlrealtors.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13352</id>
+<mls>148568</mls>
+<house_location>14602 Wildwood Circle
+Houston, TEXAS 77354</house_location>
+<county>Montgomery</county>
+<price>$259,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Gprgeous custom all brick one story on 3.3 acres - horses okay. High ceiilings;wood &amp; tilefloors; wide moldings. Fabulous kitchen &amp; huge morning room opens to formal living and sidefamily room.  Master has French doors opening to covered skylit patio; massive 16 ft closet forher and another large one for him!  This is a lovely restricted acreage development - lowestpriced in the neighborhood!!!</house_description>
+
+<school_district>Montgomery</school_district>
+<sub-division>Wildwood Estates</sub-division>
+<approx_size_sqft>27220</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>3.3</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>All brick custom only 5 yrs old on 3.3 acres</item>
+<item>Wood &amp; tile floors; high ceillings; wide moldings</item>
+<item>wonderful master suite</item>
+<item>Restricted acreage subdivision - lowest price</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Pinky Smith</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<email>pinsmith@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19063</id>
+<mls></mls>
+<house_location>287 2 Cardinal Drive
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$879,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>This breathtaking estate features three homes and a lake on 50+/- gorgeous, manicured acres!  The main home is spectacular contemporary style with three bedrooms, four and two half baths, two living areas, gourmet kitchen, sauna room, observatory, and so much more!  Fantastic master suite with a fireplace.  Glass walls overlooking the beach and lake!  Charming log cabin and mobile home.  Landscaped to perfection!  Decks and a dock!  Call or e-mail Pinky for all the glorious details!</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Circle D East</sub-division>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+
+<highlights>
+<item>Gorgeous, Contemporary Style Home!</item>
+<item>6000+/- Square Feet!</item>
+<item>50+/- Manicured Acres with a Lake!</item>
+<item>Log Cabin and Mobile Home!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

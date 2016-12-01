@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>IRBY ROZELLE</name>
+<office>(713)621-4953</office>
+<fax></fax>
+<voice_mail>(713)621-4953 153</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11711</id>
+<mls>161266</mls>
+<house_location>5000 LONGMONT #14
+Houston, TEXAS 77056</house_location>
+<county>Harris</county>
+<price>$275,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>OUTSTANDING THREE BEDROOM TOWNHOME WITH ALL FORMAL AREAS. PARQUET FLOORS. SPIRAL STAIRCASE TO SECOND FLOOR. MASTER WITH ADJOINING STUDY SURROUNDED BY BUILT-IN BOOKCASES. THREE LARGE STORAGE CLOSETS. BEAUTIFUL LANDSCAPED PATIO. TWO CAR CARPORT. GREAT LOCATION.</house_description>
+
+<school_district>Hisd</school_district>
+<sub-division>5000 Longmont</sub-division>
+<approx_size_sqft>2866</approx_size_sqft>
+<stories>2</stories>
+<year_built>1962</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>OUTSTANDING THREE BEDROOM WITH FORMALS</item>
+<item>PARQUET FLOORS</item>
+<item>SPIRAL STAIRCASE</item>
+<item>LANDSCAPED PATIO</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

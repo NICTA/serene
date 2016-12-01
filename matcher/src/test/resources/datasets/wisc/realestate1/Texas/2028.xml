@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sally Covington</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 105</voice_mail>
+<mobile>(512)496-0432</mobile>
+<email>sally@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>8864</id>
+<mls></mls>
+<house_location>36 Saddle Rock Ridge
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$495,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This rock ranch style home sits on nearly 50 beautiful acres. There are hundreds of oaks and the property is largely cedar free. The house has very spacious rooms and a wide open floor plan. It is energy efficient, with Andersen low E windows and doors. Only 4 miles from the Square, this 3/2.5/2 is offered at $495,000.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<approx_size_sqft>3000</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>49.94</approx_acres>
+<year_built>1973</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

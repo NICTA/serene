@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Amy Castillo</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)269-7505</mobile>
+<email>amy1@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21353</id>
+<mls>9132322</mls>
+<house_location>2736 Lakeside Drive
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$151,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Great 4/2, 5/2 in Lakewood Est. Two story with oversized bedrooms, large living area, ceramic tile entry, built-ins, trees, and a covered front porch.  Must see!  Don't wait.  This will not last long.  Call Amy 269-7505.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Lakewood Est.</sub-division>
+<approx_size_sqft>2163</approx_size_sqft>
+<stories>2</stories>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<new_home>Yes</new_home>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

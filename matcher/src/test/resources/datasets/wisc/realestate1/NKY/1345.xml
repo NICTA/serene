@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>678 CRAWFORD DR</house_location>
+<price>$125,900</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250300</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>SANDY TIMMERDING</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>NICE 4BR BRICK RANCH-2 FULL BATHS-2 FAMILY RMS-UPDATED INTERIOR-NEWER
+REPLACEMENT WINDOWS-NEWER C/A,CEILING &amp; ATTIC FANS-INVISIBLE FENCING
+FOR PETS-CITY WATER,KIT APPL-HOME SETS ON 2 LOTS-194 FT FRONTAGE</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air,Baseboard</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stove</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>14</dimension><level>X</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>11 X 13</dimension><level>L</level></bedroom_4>
+<breakfast><dimension>8 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>10 X 14</dimension><level>1</level></dining>
+<family><dimension>21 X 9</dimension><level>1</level></family>
+<kitchen><dimension>9 X 8</dimension><level>1</level></kitchen>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 10</dimension><level>1</level></master>
+<study><dimension>22 X 11</dimension><level>L</level></study>
+
+<directions>TAYLOR MILL RT 16 S TO L ON CRAWFORD DR</directions>
+</house_listing>
+
+
+

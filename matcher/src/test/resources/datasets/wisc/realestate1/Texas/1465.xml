@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>INA PERLMAN</name>
+<office>(713)621-4953</office>
+<fax>(713)621-4953</fax>
+<voice_mail>(713)621-4953 108</voice_mail>
+<email>mob@onramp.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12711</id>
+<mls>160537</mls>
+<house_location>27 STALYNN LANE
+Houston, TEXAS 77027</house_location>
+<county>Harris</county>
+<price>$450,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>MARCH COMPLETION IN NEW GATED COMMUNITY OF PARK AT POST OAK! PRIME LOCATION INSIDE LOOP CONVENIENT TO 610 ACCESS! GALLERIA AREA! GRACIOUS FORMAL LIVING ROOM/DINING ROOM! MASTER SUITE DOWN! ISLAND KITCHEN OPEN TO DEN AND BREAKFAST ROOM!</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Park At Post Oak</sub-division>
+<approx_size_sqft>3351</approx_size_sqft>
+<stories>3</stories>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>NEW GATED COMMUNITY OF POST OAK PARK!</item>
+<item>PRIME LOCATION, INSIDE LOOP</item>
+<item>MASTER SUITE DOWN</item>
+<item>ISLAND KITCHEN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

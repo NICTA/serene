@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Terri Eller</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email>terrieller@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17646</id>
+<mls>136920</mls>
+<house_location>5409 CR 73A
+Corpus Christi, TEXAS 78410</house_location>
+<county>Nueces</county>
+<price>$169,800</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>New Construction on 1.88 Acres!!!    NO CITY TAXES !! Pretty four bedroom, two bath, two car garage with lotsa crown molding and rounded corners.  Great floor plan with a wonderful family living area, master suite with a large master bath, large linen closet and utility room.  Rebar slab is definitely a plus.  Alarm security system.  Covered patio overlooking back side of property.  Room for lots of kids and horses.</house_description>
+
+<school_district>Calallen</school_district>
+<sub-division>Wade Riverside</sub-division>
+<stories>1</stories>
+<approx_lot_size>1.88 Acs</approx_lot_size>
+<approx_acres>1.88</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

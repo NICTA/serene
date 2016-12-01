@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>100 RIVERSIDE PL</house_location>
+<price>$179,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Side)</garage>
+<suburb>HIST DIST</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>245785</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>ELLEN FLEISCHER</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>CHARMING &amp; CONVENIENT!CONDO IN HISTORIC DIST.MANY UPGRADES &amp;
+EXTRAS.MARBLE FLOORS,WHIRLPOOL BATH, BUILT IN EXTRA STORAGE.CALIFORNIA
+CLOSETS. GREAT USE OF SPACE. EXTRA PARKING SPACE. CALL FOR INFO.</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>258</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>10 X 20</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<living><dimension>17 X 24</dimension><level>1</level></living>
+<master><dimension>17 X 13</dimension><level>1</level></master>
+
+<directions>NORTH TO GREENUP TO RIVERSIDE PLACE</directions>
+</house_listing>
+
+
+

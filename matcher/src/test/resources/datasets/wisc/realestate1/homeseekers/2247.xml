@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This single family home built in 1920 has 3 bedroom(s), 1 bath(s) , 2
+car garage and approximately 1486 square feet of living area. Rooms
+include living room. Features include fireplace.</house_description>
+
+<agent_name>Hammerberg Gail</agent_name>
+<office>508-795-7500</office>
+<firm_name>Trust Better Homes</firm_name>
+<phone>508-795-7500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$94,900</list_price>
+<location>79 Turkey Hill Trail</location>
+<mls>30351461</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1486 (approx)</square_feet>
+<year_built>1920</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<rooms>Living Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Basement
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

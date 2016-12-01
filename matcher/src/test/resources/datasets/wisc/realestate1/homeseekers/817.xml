@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1985 has 3 bedroom(s), 3 bath(s) and
+approximately 3056 square feet of living area.</house_description>
+
+<agent_name>Pamela A Colburn</agent_name>
+<direct>303-778-6272</direct>
+<office>303-355-7653</office>
+<firm_name>Distinctive Prop Ltd</firm_name>
+<phone>303-355-7653</phone>
+<fax>303-331-9534</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$295,000</list_price>
+<location>2827 S Uinta St</location>
+<neighborhood>Gun Club</neighborhood>
+<mls>373927</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>3056 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

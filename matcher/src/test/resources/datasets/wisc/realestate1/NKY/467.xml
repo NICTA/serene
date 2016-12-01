@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>113 BLUESTEM</house_location>
+<price>$181,725</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>0</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248680</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA HOLLMAN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>CALL BARBARA HOLLMAN 341-3394-BRAND NEW OUTSTANDING 'HERITAGE'-4
+BED-HRDWD FOYER-HUGE FAMILY RM-GAS FP-EQ KIT-SOAKING TUB-SEP
+SHOWER-1ST FL LAUNDRY- LARGE LEVEL LOT-GAS HEAT-SUPER VALUE- LIV RM OR
+STUDY.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>75 X 150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 9</dimension><level>2</level></bedroom_4>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<family><dimension>22 X 17</dimension><level>1</level></family>
+<kitchen><dimension>17 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 6</dimension><level>1</level></laundry>
+<living><dimension>15 X 12</dimension><level>1</level></living>
+<master><dimension>21 X 14</dimension><level>2</level></master>
+
+<directions>RT 18 LEFT CAMP ERNST RT BLUESTEM</directions>
+</house_listing>
+
+
+

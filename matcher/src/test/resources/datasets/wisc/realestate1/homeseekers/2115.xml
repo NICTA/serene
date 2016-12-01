@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1986 has 3 bedroom(s), 2 bath(s) , 2
+car attached garage and approximately 1108 square feet of living area.
+Rooms include family room. Features include air conditioning.</house_description>
+
+<agent_name>Vickie Munch</agent_name>
+<direct>509-448-5570</direct>
+<firm_name>
+Boyd Crowley South, Bh &amp; G</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$115,500</list_price>
+<location>4027 20Th</location>
+<mls>9926146</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Contemporary</style>
+<square_feet>1108 (approx)</square_feet>
+<lot_size>50X133</lot_size>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<patio>Deck</patio>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Dishwasher, Garage Door Opener, HardwoodFlooring, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Bobby Gronewald</name>
+<location>223 W. Travis La Grange, TX 78945</location>
+<office>(409)968-8471</office>
+<toll_free></toll_free>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bobby Gronewald</name>
+<office>(409)968-8471</office>
+<fax>(409)968-6621</fax>
+<email>c21homes@fais.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20759</id>
+<mls>2230</mls>
+<house_location>315 N. Franklin St
+La Grange, TEXAS 78945</house_location>
+<county>Fayette</county>
+<price>$58,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Large turn of the century two story on corner lot.  Needs some TLC.  House is very liveable, needs repair work on porches and back roof area.  Large rooms, beautiful staircase, hardwood floors, high ceilings, fireplace, great woodwork.  Come out for a look see. Call Bobby.</house_description>
+
+<school_district>La Grange</school_district>
+<approx_size_sqft>3200</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Wonderful old house</item>
+<item>Magnificent Trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

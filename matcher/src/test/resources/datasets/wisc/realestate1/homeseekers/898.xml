@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>Exceptional clean and almost new look! Beautiful hardwood floors, new
+carpet, large yard and garage. Ready for new owners.</house_description>
+
+<agent_name>Ruby Ladell</agent_name>
+<office>757-588-3000</office>
+<firm_name>Bayview Realty</firm_name>
+<phone>757-588-3000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$75,000</list_price>
+<location>Norfolk, VA 23518</location>
+<mls>9931326</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Cape Cod, Traditional</style>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Floor Furnace, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Deck, Open Porch</patio>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Capecod Style, Fenced, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

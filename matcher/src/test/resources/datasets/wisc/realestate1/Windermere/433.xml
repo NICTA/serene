@@ -1,0 +1,34 @@
+<house_listing>
+<price>$189,000</price>
+<mls_id_number>107890</mls_id_number>
+<city>TILLAMOOK</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1905</sqft>
+<year_built>1999</year_built>
+<heat>Not Listed</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.33        Acres</lot_size>
+<lot_description>91X110</lot_description>
+<fireplace>0</fireplace>
+<taxes>$0</taxes>
+<floors>Tile Floors,</floors>
+<interior>Not Listed</interior>
+<exterior>Patio,</exterior>
+<site>Water: PUBLIC Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>EAST</elementary>
+<middle_school>TILLAMOOK</middle_school>
+<high_school>TILLAMOOK</high_school>
+</schools>
+
+</house_listing>
+
+
+

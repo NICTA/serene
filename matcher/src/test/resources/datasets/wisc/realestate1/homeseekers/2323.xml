@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1993 has 4 bedroom(s), 2 bath(s) , 3
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, private pool, patio, fireplace.</house_description>
+
+<agent_name>Marihelen Oborn</agent_name>
+<office>480-585-7070</office>
+<firm_name>Russ Lyon Realty Co</firm_name>
+<phone>480-585-7070</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$228,900</list_price>
+<location>Phoenix, AZ 85048</location>
+<mls>1448002</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1993</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s),Dishwasher, Eat In Kitchen, Microwave, Pantry, Trash Compacter
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

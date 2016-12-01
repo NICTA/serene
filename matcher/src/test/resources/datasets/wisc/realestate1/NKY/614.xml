@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>918 VERNON PLACE</house_location>
+<price>$135,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Rear)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>246968</mls>
+<house_type>Condominium</house_type>
+<firm>A 4% REALTY</firm>
+<firm_phone>(606) 572-0885</firm_phone>
+<agent>MAX BRAUNE</agent>
+<agent_phone>(606) 572-0885</agent_phone>
+<house_description>PANARAMIC VIEWS OF CITY &amp; RIVER,JEANNAIRE KITCHEN,CATHEDRAL CEILING
+WHIRLPOOL TUB,WOODBURNING MARBLE FIREPLACE,ATTIC STORAGE IN GARAGE,
+LARGE BALCONY STYLE PORCH,MINUTES TO I75 &amp; CINCINNATI</house_description>
+<construction>Stucco</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>999x999</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>332</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>10 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 9</dimension><level>2</level></dining>
+<kitchen><dimension>6 X 10</dimension><level>2</level></kitchen>
+<living><dimension>16 X 15</dimension><level>2</level></living>
+<master><dimension>13 X 14</dimension><level>2</level></master>
+
+<directions>ROUTE 8 WEST OF I75 TO LEFT ON WRIGHT ST TO
+RIGHT ON VERNON</directions>
+</house_listing>
+
+
+

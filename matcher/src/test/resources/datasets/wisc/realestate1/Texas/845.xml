@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Penny Warren</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)597-6458</mobile>
+<email>pwarren@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19210</id>
+<mls>9100483</mls>
+<house_location>421 Turpin Lake Road
+Poolville, TEXAS 76487-3231</house_location>
+<county>Parker</county>
+<price>$129,921</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LOVELY PALM HARBOUR HOME ON 13.31 ACRES.  DETACHED GARAGE WITH 900 SQ FT APPARTMENT FOR INLAWS OR RENT. fENCED AND CROSS FENCED FOR LIVESTOCK AND CREEK.  TWO OUT BUILDINGS FOR SHEEP AND OR GOATS AND CHICKENS.  ABOVE GROUND POOL AND SPA WITH DECK.</house_description>
+
+<school_district>Poolville</school_district>
+<approx_size_sqft>1960</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>13.31</approx_acres>
+<year_built>1987</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>Great piece of property &amp; priced to sell!!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

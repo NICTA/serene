@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Mayer Realty</name>
+<location>974 East Austin St. Giddings, TX 78942</location>
+<office>(409)542-2696</office>
+<toll_free></toll_free>
+<fax>(409)542-2554</fax>
+<email>mayerrealty@bluebon.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeffery B. Keaghey</name>
+<office>(409)542-2696</office>
+<fax>(409)542-1715</fax>
+<email>mayerrealty@bluebon.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19673</id>
+<mls></mls>
+<house_location>1344 County Rd. 401
+Dime Box, TEXAS 77853</house_location>
+<county>Lee</county>
+<price>$125,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful 3 bedroom, 2 bath manufactured home on 40 acres with two storage buildings.  This home is approximately 1/2 mile off of Highway 21 in Old Dime Box and has paved road frontage along Lee County Rd. No. 401.  The 28'X 60'home has a built- in fireplace and a large open living area the Master Bathroom has a garden tub.</house_description>
+
+<school_district>Dime Box Isd</school_district>
+<approx_size_sqft>1568</approx_size_sqft>
+<stories>1</stories>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>40 acres with approximately 27 in improved grasses</item>
+<item>28' X 60' Maunufactured Home</item>
+<item>Fireplace and Garden Tub</item>
+<item>Stock Pond and Cross Fenced</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

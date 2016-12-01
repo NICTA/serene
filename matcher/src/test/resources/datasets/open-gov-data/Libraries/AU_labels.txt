@@ -1,0 +1,14 @@
+id@Brisbane_libraries.csv@AU,Code@WA_public_libraries.csv@AU
+Library Name@Brisbane_libraries.csv@AU,visiblename@Victorian_pulbic_libraries.csv@AU,Branch Name@Queensland_public_libraries.csv@AU,Name@WA_public_libraries.csv@AU
+Address@Brisbane_libraries.csv@AU,street@Victorian_pulbic_libraries.csv@AU,Address Line 1@Queensland_public_libraries.csv@AU,Address Line 2@Queensland_public_libraries.csv@AU,Street Address@WA_public_libraries.csv@AU
+Suburb@Brisbane_libraries.csv@AU,suburbname@Victorian_pulbic_libraries.csv@AU,AddressLocality@Queensland_public_libraries.csv@AU,Street Suburb@WA_public_libraries.csv@AU
+state@Victorian_pulbic_libraries.csv@AU,Street State@WA_public_libraries.csv@AU
+postcode@Victorian_pulbic_libraries.csv@AU,Address Postcode@Queensland_public_libraries.csv@AU,Street Postcode@WA_public_libraries.csv@AU
+Postal Address Postcode@Queensland_public_libraries.csv@AU,Postal Postcode@WA_public_libraries.csv@AU
+Postal Address Locality@Queensland_public_libraries.csv@AU,Postal Suburb@WA_public_libraries.csv@AU
+Postal Address Line 1@Queensland_public_libraries.csv@AU,Postal Address Line 2@Queensland_public_libraries.csv@AU,Postal Address@WA_public_libraries.csv@AU
+Opening Hours@Brisbane_libraries.csv@AU,Opening Hours Monday@Queensland_public_libraries.csv@AU,Opening Hours Tursday@Queensland_public_libraries.csv@AU,Opening Hours Wednesday@Queensland_public_libraries.csv@AU,Opening Hours Thursday@Queensland_public_libraries.csv@AU,Opening Hours Friday@Queensland_public_libraries.csv@AU,Opening Hours Saturday@Queensland_public_libraries.csv@AU,Opening Hours Sunday@Queensland_public_libraries.csv@AU
+Wifi Hotspot@Brisbane_libraries.csv@AU,WiFi Availability@Queensland_public_libraries.csv@AU
+phone@Victorian_pulbic_libraries.csv@AU,Phone@Queensland_public_libraries.csv@AU,Phone@WA_public_libraries.csv@AU
+Fax@Queensland_public_libraries.csv@AU,Fax@WA_public_libraries.csv@AU
+Email@Queensland_public_libraries.csv@AU,Email@WA_public_libraries.csv@AU

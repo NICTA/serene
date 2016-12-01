@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>11 LABRADOR LN</house_location>
+<price>$152,400</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>249308</mls>
+<house_type>Single Family</house_type>
+<firm>ANTHONY ERPENBECK REAL ESTATE</firm>
+<firm_phone>(606) 635-7388</firm_phone>
+<agent>STEPHEN B JELEN</agent>
+<agent_phone>(606) 635-7388</agent_phone>
+<house_description>NEW SINGLE FAMILY HOME BY THE ERPENBECK CO IN POND CREEK, ALEXANDRIA.
+CONTACT AGENT AT MODEL 48-9152 OR CELL#513-652-2594 FOR MORE INFO.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>1</level></bedroom_3>
+<dining><dimension>9 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 10</dimension><level>B</level></laundry>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>1</level></master>
+
+<directions>S ON US 27 TO R ON LILCKERT RD AT NEW CAMPBELL
+CO HIGH SCHOOL</directions>
+</house_listing>
+
+
+

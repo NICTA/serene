@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1935 has 1 bedroom(s), 2 bath(s) and
+approximately 790 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Allison Cotter</agent_name>
+<direct>305-674-4126</direct>
+<office>305-672-1300</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-1300</phone>
+<fax>305-672-1499</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$119,900</list_price>
+<location>1008 Jefferson Av #101</location>
+<neighborhood>Jade Condo</neighborhood>
+<mls>M767118</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>790 (approx)</square_feet>
+<year_built>1935</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

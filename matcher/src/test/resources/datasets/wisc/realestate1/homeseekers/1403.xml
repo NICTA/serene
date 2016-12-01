@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 3+ level attached townhouse built in 1905 has 5 bedroom(s), 3
+bath(s) . Rooms include dining room, master bedroom.</house_description>
+
+<agent_name>Imo Umoren</agent_name>
+<direct>301-935-5874</direct>
+<office>301-445-5900</office>
+<firm_name>RE/MAX First</firm_name>
+<phone>301-445-5900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$66,950</list_price>
+<location>Washington, DC 20002</location>
+<mls>DC2606081</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<lot_size>1764</lot_size>
+<year_built>1905</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Baseboard, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

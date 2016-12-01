@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1918 has 2 bedroom(s), 1
+bath(s) and approximately 1152 square feet of living area.</house_description>
+
+<agent_name>Willie Colston</agent_name>
+<direct>475-0120</direct>
+<office>757-490-7300</office>
+<firm_name>RE/MAX Central Realty RE/MAX Central Realty</firm_name>
+<phone>757-490-7300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$27,500</list_price>
+<location>Norfolk, VA 23504</location>
+<mls>0000906</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Traditional</style>
+<square_feet>1152 (approx)</square_feet>
+<year_built>1918</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

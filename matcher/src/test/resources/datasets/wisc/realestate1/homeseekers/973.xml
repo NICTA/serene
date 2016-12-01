@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1978 has 4 bedroom(s), 2
+bath(s) , 4 car garage and approximately 2607 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, private pool, fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>Mitch Waufle</agent_name>
+<direct>520-603-5773</direct>
+<office>520-881-4884</office>
+<firm_name>Bancroft &amp; Associates</firm_name>
+<phone>520-881-4884</phone>
+<fax>520-881-2271</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$314,000</list_price>
+<location>11700 E Old Spanish Tr</location>
+<mls>9920525</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>4</garage>
+<type>Single Family</type>
+<square_feet>2607 (approx)</square_feet>
+<lot_size>720X188X720X455</lot_size>
+<year_built>1978</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric, Forced Air</heating>
+<fireplace>Family Room</fireplace>
+<pool>Yes</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>91 KNOXVILLE</house_location>
+<price>$21,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>DEMOSSVILLE</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>250082</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GOLD SERVICES</firm>
+<firm_phone>(606) 344-9700</firm_phone>
+<agent>JOHN VINCENT</agent>
+<agent_phone>(606) 344-9700</agent_phone>
+<house_description>SALE REQUIRES A SPECIAL ADDENDUM BEAUTIFUL COUNTRY SETTING HOME IS
+BEINS SOLD IN AS IS/WHERE IS CONDITION AND WITHOUT WARRANTY GROUND
+LAYS WELL HOUSE IS IN NEED OF REPAIR PROPERTY IS NOT IN A FLOOD PLAIN</house_description>
+<construction>Vinyl</construction>
+<heating>Space Heater</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>None</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 13</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>13 X 13</dimension><level>1</level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>I-75 TO DRY RIDGE EXIT TO SOUTH ON DIXIE I-75 T</directions>
+</house_listing>
+
+
+

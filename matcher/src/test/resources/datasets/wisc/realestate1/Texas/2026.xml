@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sue Bradbury</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21072</id>
+<mls>9127576</mls>
+<house_location>7202 Westover Drive (Ad # 453)
+in South Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$149,921</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Over 1 acre on the Brazos River!  Wonderful gated community with security.  New roof &amp; garage door in 1999.  Formal dining room would make a great office &amp; living room is large enough to accommodate formal dining area.  Lots of ceramic tile, circular drive &amp; 2 water heaters.  Home warranty offered.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Pecan Plantation</sub-division>
+<approx_size_sqft>2319</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>97x595x118x594</approx_lot_size>
+<approx_acres>1.2</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<waterfront>Yes</waterfront>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>1.2 Acre on Brazos River</item>
+<item>Gated Community with Security</item>
+<item>Lots of Ceramic Tile &amp; Circular Drive</item>
+<item>Ad # 453</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

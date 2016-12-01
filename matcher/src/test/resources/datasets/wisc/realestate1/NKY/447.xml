@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>6425 LINKVIEW CT</house_location>
+<price>$89,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>246907</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>SHIRLEY R STRUNK</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*DELIGHTFUL 2 BR END UNIT*2 FULL BAHTS*FULLY EQUIPPED KITCHEN*LOFT MBR
+W/ FULL BATH &amp; WALK-IN CLOSET*NEWER BERBER CARPET-CERAMIC TILE IN KIT
+&amp; BATH* WBFP*1 CAR GAR*QUIET WOODED REAR VIEW*</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>128</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>16 X 8</dimension><level>1</level></kitchen>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>20 X 13</dimension><level>2</level></master>
+
+<directions>OAKBROOK DR TO 2ND WYNDS RT ON FAIRWAY RT
+GREENSEDGE TO LINKVIEW CT</directions>
+</house_listing>
+
+
+

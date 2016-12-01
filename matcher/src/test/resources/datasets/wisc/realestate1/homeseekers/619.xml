@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1926 has 2 bedroom(s), 1
+bath(s) and approximately 600 square feet of living area. Rooms
+include master bedroom.</house_description>
+
+<agent_name>Fred Davis</agent_name>
+<direct>301-567-2379</direct>
+<office>202-543-0080</office>
+<firm_name>Help-U-Sell Of Central Washington D</firm_name>
+<phone>202-543-0080</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$69,950</list_price>
+<location>Washington, DC 20002</location>
+<mls>DC3069425</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<square_feet>600 (approx)</square_feet>
+<lot_size>720</lot_size>
+<year_built>1926</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Home Warranty
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>395 CORINTH SHORE</house_location>
+<price>$35,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>CORINTH</suburb>
+<school_dist>GRANT</school_dist>
+<mls>241150</mls>
+<house_type>Single Family</house_type>
+<firm>MELTON REAL ESTATE</firm>
+<firm_phone>(606) 824-5252</firm_phone>
+<agent>DARRIN SECHREST</agent>
+<agent_phone>(606) 824-5252</agent_phone>
+<house_description>WELL MAINTAINED SINGLEWIDE WITH ADD-ON. 50 FT LAKE FRONTAGE, GOOD
+FISHING, RETREAT OR YEAR ROUND RESIDENCE</house_description>
+<construction>Wood,Alum</construction>
+<heating>Gas,Wood</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>50x270</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>13 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 9</dimension><level>1</level></kitchen>
+<living><dimension>14 X 26</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>I75 CORINTH, L KY 330, L US25, TO RAGTOWN ,L
+MCFARLAND L CORINTH SHORE</directions>
+</house_listing>
+
+
+

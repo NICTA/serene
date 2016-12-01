@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>Hud property</house_description>
+
+<agent_name>Anne Eubanks</agent_name>
+<office>757-481-7000</office>
+<firm_name>Gsh Real Estate</firm_name>
+<phone>757-481-7000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$57,040</list_price>
+<location>Norfolk, VA 23502</location>
+<mls>9930345</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<style>Bungalow</style>
+<square_feet>1182 (approx)</square_feet>
+<year_built>1958</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Wall Unit</heating>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Bungalow Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

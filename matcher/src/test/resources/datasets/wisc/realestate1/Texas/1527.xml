@@ -1,0 +1,67 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Blake A. Kaiser</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)924-9600</mobile>
+<email>bkaiser@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20673</id>
+<mls>524834</mls>
+<house_location>129 Mahalua
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$185,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Private Paradise! Relax and enjoy the incredible view from the porches of this two-story Classic Texas Style home overlooking the Pine Valley. This 4 bedroom, 2.5 bath home has great style and upgrades with a cozy fireplace in the living room, formal dining, and a master suite with its own private deck. Upstairs there's an extra large room for a second living area. Very private on one half acre. You'll fall in love when you see this property!</house_description>
+
+<move-in_date>11/19/99</move-in_date>
+<school_district>Bastrop ISD</school_district>
+<sub-division>Tahitian Village</sub-division>
+<approx_size_sqft>2182</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>.5ac</approx_lot_size>
+<approx_acres>0.5</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Pine Valley View From Porches</item>
+<item>4 Bedrooms, 2.5 Baths</item>
+<item>Extra Large Upstairs Room</item>
+<item>Stylish Two Story</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

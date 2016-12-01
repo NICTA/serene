@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>3406 TALBOT -3408</house_location>
+<price>$139,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>ERLANGER</school_dist>
+<mls>249445</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>DENNIS ASHCRAFT</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>HOME IS A DUPLEX W/IDENTICAL FLOOR PLAN (BUT REVERSED) EXCEPTION: SIDE
+ON LEFT HAS PART OF BASEMENT FINISHED. BOTH SIDE IN BASEMENT ARE
+CARPETED.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>2</level></bedroom_2>
+<kitchen><dimension>15 X 10</dimension><level>1</level></kitchen>
+<living><dimension>14 X 11</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>2</level></master>
+
+<directions>FROM DIXIE HWY SOUTH RIGHT ON COMMONWEALT H RT
+ON BAKER LEFT ON ERLANGER RD</directions>
+</house_listing>
+
+
+

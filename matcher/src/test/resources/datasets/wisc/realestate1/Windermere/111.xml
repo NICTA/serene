@@ -1,0 +1,34 @@
+<house_listing>
+<price>$650,000</price>
+<mls_id_number>137293</mls_id_number>
+<city>YAMHILL</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>3.00</bathrooms>
+<sqft>3032</sqft>
+<year_built>1990</year_built>
+<heat>Electric Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>16.40       Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>2</fireplace>
+<taxes>$0</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Barn, Porch, RV-Park, Deck,</exterior>
+<site>Water: WELL Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>YAMHILL</elementary>
+<middle_school>YAMHILL</middle_school>
+<high_school>YMHILL/CARLTON</high_school>
+</schools>
+
+</house_listing>
+
+
+

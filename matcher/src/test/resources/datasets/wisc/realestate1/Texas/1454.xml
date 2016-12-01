@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Damron</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)393-4752</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13818</id>
+<mls>5179</mls>
+<house_location>237 Camaro Way
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$146,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Home built in 1994.  Very nice 3 bedroom/2 Bath brick home.  Much attention given to ceiling detail.  Landscaped lot with nice trees.</house_description>
+
+<sub-division>Hughson Heights</sub-division>
+<approx_size_sqft>1845</approx_size_sqft>
+<stories>1</stories>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Nice area</item>
+<item>Good condition</item>
+<item>Open floor plan</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

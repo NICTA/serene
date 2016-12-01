@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>44 BROADWAY</house_location>
+<price>$189,000</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>GRANT</school_dist>
+<mls>247960</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>JIM SIMPSON</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>LOCATION!! LESS THAN 1 MILE FROM I75 IN DRY RIDGE ON BROADWAY, ONE OF
+THE BUSIEST STREETS IN GRANT COUNTY. AS A HOME OR THE LOCATION OF YOUR
+BUSINESS, THIS HAS LOTS OF POTENTIAL.E-MAIL AGENT JASSIMPSON@AOL.COM</house_description>
+<construction>Wood,Alum</construction>
+<heating>Oil</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural,At Street</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>B</level></bath_2>
+<bedroom_2><dimension>13 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>9 X 8</dimension><level>2</level></bedroom_4>
+<family><dimension>15 X 13</dimension><level>1</level></family>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>2</level></master>
+
+<directions>I75S TO DRY RIDGE, L OFF EXIT TO PROPERTY ON THE
+L</directions>
+</house_listing>
+
+
+

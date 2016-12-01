@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Pruitt Realty</name>
+<location>611 Highway 67 Glen Rose, TX 76043</location>
+<office>(254)897-2416</office>
+<toll_free></toll_free>
+<fax>(254)897-2716</fax>
+<email>pruittre@eaze.net</email>
+</firm_information>
+
+<agent_information>
+<name>John Pruitt</name>
+<office>(245)897-2421</office>
+<fax></fax>
+<email>pruittre@eaze.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14435</id>
+<mls>GOLDEN VIEW</mls>
+<house_location>LOT 2 Morrison Drive
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$19,950</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GOLDEN VIEW SUBDIVISION   BORDERS HWY. 144 SO. AND CO. RD. 202  HOUSE RESTRICTED, 1600 SQ. FT. WITH WATER. TRACTS ARE PRICED $18,900 to $47,600. 3 to 6 acres. WE HAVE PLATS CHECK WITH US FOR DETAILS. LOT 2 HAS THE HIGHEST PLATEAU OF THE SUBDIVISION &amp; ALREADY HAS A SITE READY TO BUILD ON.THIS LOT ALSO HAS THE MOST FRONTAGE ON THE ROAD (OVER 720')</house_description>
+
+<school_district>Glen Rose</school_district>
+<sub-division>Golden View</sub-division>
+<approx_acres>3.99</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>SMALL TRACT WITH WATER</item>
+<item>NICE VIEW MOSTLYCLEARED</item>
+<item>FOR EASY BUILDING</item>
+<item>5 MILES OUT OF TOWN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

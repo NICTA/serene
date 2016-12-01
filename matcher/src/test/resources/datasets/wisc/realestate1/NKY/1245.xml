@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>10391 BUGLE CT</house_location>
+<price>$115,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON CTY</school_dist>
+<mls>250006</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GOLD SERVICES</firm>
+<firm_phone>(606) 344-9700</firm_phone>
+<agent>WILLIAM HAUSER</agent>
+<agent_phone>(606) 344-9700</agent_phone>
+<house_description>CONTACT LISTING AGENT FOR SPECIAL INSTRUCTIONS THREE BEDROOM HOME ON A
+LARGE CUL DE SAC LOT FOR LOTS OF OUTDOOR FUN IMMEDIATE OCCUPANCY WITH
+THIS FINE HOME CLEAN AND READY FOR SPRING TIME A LOT OF HOME FOR THE
+DOLLAR</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>10 X 10</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>13 X 10</dimension><level>U</level></bedroom_3>
+<dining><dimension>11 X 9</dimension><level>U</level></dining>
+<family><dimension>23 X 10</dimension><level>L</level></family>
+<kitchen><dimension>10 X 8</dimension><level>U</level></kitchen>
+<living><dimension>16 X 11</dimension><level>U</level></living>
+<master><dimension>14 X 11</dimension><level>U</level></master>
+
+<directions>BRISTOW ROAD TO BATTLE RIDGE SUBDIVISION TO
+RIGHT ON BUGLE COURT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1966 has 2 bedroom(s), 2 bath(s) , 1 car
+attached garage and approximately 1030 square feet of living area.
+Features include air conditioning.</house_description>
+
+<agent_name>Robert Gasso</agent_name>
+<direct>305-465-5101</direct>
+<office>305-666-8686</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-666-8686</phone>
+<fax>305-666-0617</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$209,000</list_price>
+<location>5161 Collins Av #1002</location>
+<neighborhood>Seacoast 5151 Condo Desc</neighborhood>
+<mls>M749181</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1030 (approx)</square_feet>
+<year_built>1966</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

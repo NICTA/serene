@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1950 has 3 bedroom(s), 2 bath(s) and
+approximately 2102 square feet of living area. Rooms include den,
+master bedroom. Features include view, private pool, air conditioning.</house_description>
+
+<agent_name>Dru Melville</agent_name>
+<direct>305-321-4146</direct>
+<office>305-672-5800</office>
+<firm_name>Arvida Realty Serv Arvida Realty Serv
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-5800</phone>
+<fax>305-673-9952</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$199,900</list_price>
+<location>925 Fairway Dr</location>
+<neighborhood>Normandy Golf Course Sub</neighborhood>
+<mls>M766240</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2102 (approx)</square_feet>
+<lot_size>62 X 120</lot_size>
+<year_built>1950</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<pool>Yes</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Golf Course View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

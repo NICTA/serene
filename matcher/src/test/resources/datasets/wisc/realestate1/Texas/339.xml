@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kay Zagst</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>kayz@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20926</id>
+<mls>54431</mls>
+<house_location>113 Bobolink
+Highland Haven, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$124,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>GREAT ROOM FLOOR PLAN WITH LARGE LIVING, DINING, AND KITCHEN AREAS. SPLIT BEDROOM PLAN. LARGE UTILITY WITH MUD SINK. CEILING FANS THROUGHOUT HOME. THE FLOORS AND COUNTERS WILL BE TILE--BUY NOW AND SELECT THE COLORS! SLIGHT VIEW OF LAKE LBJ.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Highland Haven</sub-division>
+<approx_size_sqft>1600</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>100 x 180</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>BRAND NEW CONSTRUCTION!</item>
+<item>GREAT ROOM FLOOR PLAN!</item>
+<item>BRICK HOME WITH SLIGHT VIEW OF LAKE LBJ!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

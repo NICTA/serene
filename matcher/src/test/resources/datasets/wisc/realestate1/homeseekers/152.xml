@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1965 has 3 bedroom(s), 2 bath(s) and
+approximately 1628 square feet of living area. Rooms include family
+room. Features include air conditioning.</house_description>
+
+<agent_name>Nello Davis</agent_name>
+<direct>465-0229</direct>
+<office>694-0988</office>
+<firm_name>Davis Realty
+Lic. Real Estate Broker</firm_name>
+<phone>694-0988</phone>
+<fax>305-694-0924</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$70,000</list_price>
+<location>867 NW 73 St</location>
+<neighborhood>Stephens Manor</neighborhood>
+<mls>M771476</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1628 (approx)</square_feet>
+<lot_size>50 X 100</lot_size>
+<year_built>1965</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Wall Unit</heating>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

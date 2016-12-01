@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>386 BROWNINS CORNE</house_location>
+<price>$39,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>243989</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 654-3400</firm_phone>
+<agent>NANCY W CROTTY</agent>
+<agent_phone>(606) 654-3400</agent_phone>
+<house_description>MINI-FARM. 11 ACS W/ROOM FOR A HORSE. POND, SOME TREES. 88 SINGLE
+WIDE. MOSTLY HILLS. 3 BRS-2 BA. OUT IN THE COUNTRY. CALL LIST OFFICE
+FOR BETTER DIRECTIONS. SELLER SUPPLIES HOME WARRANTY FOR BUYER.</house_description>
+<construction>Alum</construction>
+<heating>Electric</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>00</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 7</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 8</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>US 27 S 4 MI S OF FAL TO L ON BISHOP RDG R ON
+OLD 3L TO MCKENNEYSBURG PROP ON L.</directions>
+</house_listing>
+
+
+

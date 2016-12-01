@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Irona Smith Alexander</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)295-7580</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21375</id>
+<mls>9132484</mls>
+<house_location>1005 Yvonne
+Joshua, TEXAS 76058</house_location>
+<county>Johnson</county>
+<price>$129,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Home has been completely redone!  ****New carpet, new paint, NEW ROOF!!!!A must-see. Excellent area of homes.  Beautiful wooded lot.  Two living areas, and brand new appliances and plumbing fixtures.  This is a brick, slab foundation, trees galore, attached side parking, woodburning fireplace, separate utility room, built-ins, lots of othe nice features.</house_description>
+
+<school_district>Joshua I S D</school_district>
+<sub-division>Woodland Hills</sub-division>
+<stories>1</stories>
+<approx_acres>0.97</approx_acres>
+<year_built>1969</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Beautifully redone by Classic Homes</item>
+<item>New roof, paint, carpeting</item>
+<item>Almost one full acre, heavily wooded</item>
+<item>Brand new appliances/plumbing fixtures</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

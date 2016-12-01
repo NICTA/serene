@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Owner financing. 3 floors - 4th bedroom or office or large playroom!
+Re-habed with updated kitchen. Hardwood floors; balcony off 2nd floor.
+Minor cosmetics start on tuesday, 12/8/99.</house_description>
+
+<agent_name>John Mcclung</agent_name>
+<office>757-424-6500</office>
+<firm_name>Gsh Real Estate</firm_name>
+<phone>757-424-6500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$114,900</list_price>
+<location>Norfolk, VA 23508</location>
+<mls>9932971</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Colonial</style>
+<square_feet>1800 (approx)</square_feet>
+<lot_size>50 X 100</lot_size>
+<year_built>1923</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Radiator</heating>
+<fireplace>Yes</fireplace>
+<patio>Deck</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Colonial Style, Fenced, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

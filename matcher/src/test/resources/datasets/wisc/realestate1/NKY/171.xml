@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>11515 HERBER CT</house_location>
+<price>$259,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>RICHWOOD</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>248863</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LAURA SANDERS</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>PHOTOS WWW.SIBCYCLINE.COM*GORGEOUS HOME! EXT FR W/CATH CEIL*WHITE ON
+WHITE GOURMET KIT*2 WALK-IN CLOSETS IN OWNERS SUITE*TILED OWNERS
+BATH*CATH CEIL &amp; FAN IN MBR*HDWD IN KIT &amp; FOYER*STUDY W/FR DRS*LG
+LEVEL YD*ON CDS</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>30</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>12 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>12 X 10</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>12 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<family><dimension>19 X 19</dimension><level>1</level></family>
+<kitchen><dimension>15 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>19 X 14</dimension><level>2</level></master>
+<study><dimension>12 X 10</dimension><level>1</level></study>
+
+<directions>75S TO RICHWOOD EXIT R ON RICHWOOD RD TO L ON
+SUTHERLAND L WESSEX L ON HERBER</directions>
+</house_listing>
+
+
+

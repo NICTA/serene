@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home built in 1975 has 3 bedroom(s), 2 bath(s) .
+Rooms include dining room, family room, master bedroom. Features
+include patio.</house_description>
+
+<agent_name>Dawn Bender</agent_name>
+<office>602-866-0990</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>602-866-0990</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$94,500</list_price>
+<location>Phoenix, AZ 85022</location>
+<mls>1467168</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<year_built>1975</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<location>Cul-de-sac</location>
+<patio>Covered</patio>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Room, Cable TV, Ceiling Fan(s), Dining/LivingCombo, Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Barrett</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 35</voice_mail>
+<email>susan@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19778</id>
+<mls>9107940</mls>
+<house_location>701 Bray Street
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$99,400</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Fenimore</sub-division>
+<approx_size_sqft>1967</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>9.21</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>Almost new 4-2</item>
+<item>Property has seasonal creek</item>
+<item>Some trees</item>
+<item>Well is 150 feet deep</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

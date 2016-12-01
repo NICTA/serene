@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 3+ level attached home built in 1974 has 2 bedroom(s), 2 bath(s)
+and approximately 944 square feet of living area. Rooms include dining
+room, living room, master bedroom. Features include view.</house_description>
+
+<agent_name>Georgianna Bankston</agent_name>
+<direct>619-229-1224</direct>
+<office>619-229-1224</office>
+<firm_name>All American Properties</firm_name>
+<phone>619-229-1224</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$319,000</list_price>
+<location>San Diego, CA 92107</location>
+<mls>00 6001129</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>3 or more</levels>
+<type>Townhouse/Condo</type>
+<square_feet>944 (approx)</square_feet>
+<year_built>1974</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Radiant</heating>
+<pool>Heated</pool>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<view>Ocean View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

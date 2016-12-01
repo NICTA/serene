@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>LEE EASTER, INC., REALTORS &amp; BUILDERS</name>
+<location>7504 Canna Cove Austin, TX 78759</location>
+<office>(512)255-1111</office>
+<toll_free>(800)680-6648</toll_free>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lee Easter</name>
+<office>(512)255-1111</office>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>10664</id>
+<mls></mls>
+<house_location>1113 Forest Bluff Trail
+Round Rock, TEXAS 78664</house_location>
+<county>Williamson</county>
+<price>$191,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Estates Of Forest Bluff</sub-division>
+<approx_size_sqft>2875</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>1/3+ acre</approx_lot_size>
+<year_built>1997</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>1/3+ ACRE LOT</item>
+<item>ON AN ELONGATED CUL-DE-SAC</item>
+<item>SURROUNDED BY OLD OAK TREES</item>
+<item>STILL PICK SOME COLORS POSSIBLY</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>43 COOL SPRINGS</house_location>
+<price>$346,500</price>
+<rooms>12</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Side,Oversized)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>246052</mls>
+<house_type>Single Family</house_type>
+<firm>ZARING REALTY, INC.</firm>
+<firm_phone>(513) 489-8849</firm_phone>
+<agent>DOUGLAS C HINGER</agent>
+<agent_phone>(513) 489-8849</agent_phone>
+<house_description>ZARING QUALITY BUILT- FOR DETAILS CALL AGENT AT 606-485-1503. THE
+SHEFFIELD HAS TWO STAIRCASES AND A TWO STORY FAMILY RM. LARGE BONUS
+ROOM ALSO.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>L</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>2</level></bath_4>
+<bedroom_2><dimension>14 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 12</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>9 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>14 X 13</dimension><level>1</level></dining>
+<family><dimension>17 X 22</dimension><level>1</level></family>
+<kitchen><dimension>18 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 8</dimension><level>1</level></laundry>
+<living><dimension>12 X 13</dimension><level>1</level></living>
+<master><dimension>20 X 14</dimension><level>2</level></master>
+<recreation_room><dimension>16 X 11</dimension><level>2</level></recreation_room>
+<study><dimension>11 X 15</dimension><level>1</level></study>
+
+<directions>I-75 TO W ON 42, UNION EXIT/ COMMUNITY ON L
+DIRECTLY ACROSS FROM RYLE HS</directions>
+</house_listing>
+
+
+

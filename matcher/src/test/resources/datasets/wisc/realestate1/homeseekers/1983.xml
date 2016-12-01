@@ -1,0 +1,30 @@
+<house_listing>
+<house_description>This single family home built in 1909 has 2 bedroom(s), 1 bath(s) and
+approximately 1500 square feet of living area.</house_description>
+
+<agent_name>Carol Stone King</agent_name>
+<direct>303-320-1697</direct>
+<office>303-320-1697</office>
+<firm_name>King Associates</firm_name>
+<phone>303-320-1697</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$217,000</list_price>
+<location>1529 S Emerson St</location>
+<neighborhood>Platte Washington Park Du Area</neighborhood>
+<mls>379721</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1500 (approx)</square_feet>
+<year_built>1909</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

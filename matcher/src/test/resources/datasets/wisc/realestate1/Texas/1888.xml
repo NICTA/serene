@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Wells</name>
+<office>(713)686-6090</office>
+<fax>(713)686-8543</fax>
+<voice_mail>(281)512-5177</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11954</id>
+<mls>166239</mls>
+<house_location>10802 Rampart
+Houston, TEXAS 77096</house_location>
+<county>Harris</county>
+<price>$124,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Large living areas***Berber carpet***Air conditioned garage can be used as a gameroom***Large yard with mature trees***Leaded glass bay window***Nice neighborhood***                             ******$4,000.00 decorating allowance******</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Park West</sub-division>
+<approx_size_sqft>2101</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>10000</approx_lot_size>
+<year_built>1960</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great corner lot lot location!</item>
+<item>Easy to maintain landscaping</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

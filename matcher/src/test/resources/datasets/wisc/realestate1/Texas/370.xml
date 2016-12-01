@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jim Smith</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<mobile>(512)787-0383</mobile>
+<email>amelia_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17849</id>
+<mls></mls>
+<house_location>625 West San Antonio Street
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$279,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>One of Lockhart's most charming homes with grounds in excess of 1.6 acres!  Located less than 1/2 mile from &amp;quot;The Square&amp;quot; in Lockhart on beautiful San Antonio Street....the home is three bedroom, 1 1/2 baths and has a den, formal living and dining, and a wonderful breakfast room that leads to the wraparound porch with a tin ceiling.  The grounds...one-of-a-kind...gazebo, patios with walkways, a well, entrance from the rear (Fir street), a playhouse, a greenhouse, and a detached two car garage.  Priced at $279,000..Shown by appointment.</house_description>
+
+<school_district>Lockhart</school_district>
+<stories>2</stories>
+<approx_acres>1.61</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Wide, southern style verandas/hugh trees</item>
+<item>Playhouse, gazebo, greenhouse,workshop</item>
+<item>Beautiful, well kept grounds</item>
+<item>Stainless steel kitchen appilances convery with th</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

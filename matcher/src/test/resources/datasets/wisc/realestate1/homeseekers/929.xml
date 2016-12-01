@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1971 has 2 bedroom(s), 2 bath(s) and
+approximately 1206 square feet of living area. Features include
+private pool, air conditioning.</house_description>
+
+<agent_name>Sabeto Garazi</agent_name>
+<direct>861-6487</direct>
+<office>531-5803</office>
+<firm_name>The Keyes Company,
+Lic. Real Estate Broker</firm_name>
+<phone>531-5803</phone>
+<fax>538-7018</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$134,000</list_price>
+<location>6039 Collins Av #516</location>
+<neighborhood>Maison Grande Condo</neighborhood>
+<mls>M734812</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1206 (approx)</square_feet>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

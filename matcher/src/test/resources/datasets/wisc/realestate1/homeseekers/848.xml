@@ -1,0 +1,32 @@
+<house_listing>
+<house_description>This single family home built in 1984 has 3 bedroom(s), 2 bath(s) and
+approximately 1700 square feet of living area.</house_description>
+
+<agent_name>John &amp; Chuck</agent_name>
+<direct>303-832-4566</direct>
+<office>303-671-9311</office>
+<email>Chuck@upb2000.com</email>
+<firm_name>United Property Bk</firm_name>
+<phone>303-671-9311</phone>
+<fax>303-832-8138</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$136,000</list_price>
+<location>7281 W Raritan St</location>
+<neighborhood>Perl Mack Manor</neighborhood>
+<mls>380454</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1700 (approx)</square_feet>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>2589 BUTTERMILK</house_location>
+<price>$159,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>3 Cars (Attached,Detached)</garage>
+<suburb>VILLA HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249756</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>KIM KORDENBROCK</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>SPECTACULAR KITCHEN!THE PERFECT PLACE FOR ALL THOSE FAMILY
+GATHERINGS.3 BR 2 FULL BATH.LIVING RM OFFERS A WB STOVE. 1 ATTACHED &amp;
+2 DET GARAGES, LARGE LEVEL LOT, 1 YR HOME WARRANTY, NEUTRAL
+THROUGHOUT. DON'T MISS OUT!</house_description>
+<construction>Wood</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Stove</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>19 X 9</dimension><level>1</level></breakfast>
+<family><dimension>12 X 23</dimension><level>1</level></family>
+<kitchen><dimension>15 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 3</dimension><level>1</level></laundry>
+<living><dimension>23 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+<study><dimension>8 X 8</dimension><level>1</level></study>
+
+<directions>I75 NO OR SO TO BUTTERMILK TO 2589 ON LEFT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<price>$185,000</price>
+<mls_id_number>146471</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.50</bathrooms>
+<sqft>2070</sqft>
+<year_built>1994</year_built>
+<heat>Electric Heat Pump</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>5.01        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$431</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>RV-Park, Deck, Garden, Patio,</exterior>
+<site>Water: PUBLIC Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>MELROSE</elementary>
+<middle_school>FREMONT</middle_school>
+<high_school>ROSEBURG</high_school>
+</schools>
+
+</house_listing>
+
+
+

@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Madolyn Mills</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<mobile>(512)517-6491</mobile>
+<email>rmills@onr.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13793</id>
+<mls>512727</mls>
+<house_location>138 MARKERT DR
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$55,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>HOUSE ON TWO WOODED, FENCED ACRES.  ORIGINAL HOUSE ON CONCRETE SLAB, ADDITIONS ON PIER AND BEAM.  LIVING ROOM WITH VAULTED, WOODEN CEILING.  SECOND BATH IS FRAMED IN AND WIRED, BUT NOT PLUMBED.  SOME ROOMS NEED FLOORING, FINISHING.  BCAD DOES NOT REFLECT ADDITIONS.  THERE ARE STORAGE SHEDS AND A CHICKEN COOP.*******************CONTRACT PENDING - TAKING BACKUP OFFERS******************</house_description>
+
+<school_district>Elgin</school_district>
+<sub-division>Elgin Oaks</sub-division>
+<approx_size_sqft>744</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>2.03</approx_acres>
+<year_built>1981</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

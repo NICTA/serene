@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maryam Gharbi</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5964</voice_mail>
+<email>lake@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>5866</id>
+<mls></mls>
+<house_location>North Hills Condominium
+Austin, TEXAS</house_location>
+<county>Travis</county>
+<price>$72,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Prequalified &amp; serious buyers only!  Beautiful condo with only one common wall.  Great location that is convenient of Mo-pac.</house_description>
+
+<school_district>Austin ISD</school_district>
+<approx_size_sqft>920</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>INA PERLMAN</name>
+<office>(713)621-4953</office>
+<fax>(713)621-4953</fax>
+<voice_mail>(713)621-4953 108</voice_mail>
+<email>mob@onramp.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13186</id>
+<mls>181406</mls>
+<house_location>6000 BURGOYNE
+Houston, TEXAS 77057</house_location>
+<county>Harris</county>
+<price>$339,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>BEAUTIFUL! BUILT 86 LISENBY! FEELS/ LOOKS LIKE SINGLE FAMILY HOME! ENTERTAIN IN SPACIOUS LIVING ROOM AND DINING ROOM! BUTLERS PANTRY! HARDWOODS! FANS! WBFP! FRENCH DOORS! SHUTTERS! 18X18 MASTER WITH SITTING AREA! PROF LANDSCAPED YARD! BRICK PRIVACY FENCE SPRINKLER SYSTEM!   ROOM FOR POOL/PLAY.</house_description>
+
+<sub-division>Westhaven Estates</sub-division>
+<approx_size_sqft>2726</approx_size_sqft>
+<stories>2</stories>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>BUTLERS PANTRY</item>
+<item>HARDWOODS, FANS, WBFP</item>
+<item>FRENCH DOORS, SHUTTERS</item>
+<item>ROOM FOR POOL/PLAY</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

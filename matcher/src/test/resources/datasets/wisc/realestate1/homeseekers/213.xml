@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This single family home built in 1943 has 2 bedroom(s), 1 bath(s) .
+Features include air conditioning.</house_description>
+
+<agent_name>Marilyn Little</agent_name>
+<office>602-942-1410</office>
+<firm_name>West Usa Realty</firm_name>
+<phone>602-942-1410</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$35,000</list_price>
+<location>Phoenix, AZ 85007</location>
+<mls>1459570</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1943</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<pool>No</pool>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dining/Living Combo
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

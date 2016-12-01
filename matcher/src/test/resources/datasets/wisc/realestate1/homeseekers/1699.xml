@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>3 bedroom - across from booker t. Washington high school to be sold as
+is.</house_description>
+
+<agent_name>Carolyn Parker</agent_name>
+<direct>473-4547</direct>
+<office>757-588-0213</office>
+<firm_name>William E. Wood &amp; Associates</firm_name>
+<phone>757-588-0213</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$35,000</list_price>
+<location>Norfolk, VA 23504</location>
+<mls>9925036</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Colonial</style>
+<lot_size>25 X 49</lot_size>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Space heater</heating>
+<fireplace>Yes</fireplace>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Colonial Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

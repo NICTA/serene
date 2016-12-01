@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>568 CLOVERFIELD</house_location>
+<price>$84,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>FT WRIGHT</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248729</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>DONNA J KORTE</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>1 LEVEL LIVING/NEUTRAL DECOR THRUOUT/PATIO ACCESS FROM LR &amp;
+MASTER/FRENCH DOORS/CEIL FANS/GREAT CLOSET SPACE/LAUNDRY RM/STORAGE
+RM/UPGRADE KIT CAB/ SEPARATED BDRMS &amp; BATHS/QUIET AREA/LOW UTILITY
+BILLS/CONV TO 75-275 &amp; DWNTN</house_description>
+<construction>Brick</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>999999</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>135</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 4</dimension><level>1</level></laundry>
+<living><dimension>17 X 14</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>1</level></master>
+
+<directions>KYLES LANE L AT FT WRIGHT TRACE R AT
+CLOVERFIELD #104</directions>
+</house_listing>
+
+
+

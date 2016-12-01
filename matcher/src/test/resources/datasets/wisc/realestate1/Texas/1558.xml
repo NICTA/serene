@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17476</id>
+<mls>14601</mls>
+<house_location>112 Robusta
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$199,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Executive custom built home on 1/2 acre. 2 central ac units in home.  Split bedrooms, jacuzzi in master bath, double walk in closets, formal dining room, center island in kitchen, custom cabinets, 3 car garage, great room &amp; family room.  City water for the home &amp; well water for the sprinkler system.Pumosa Estates Subdivision...in a very nice cul de sac.</house_description>
+
+<school_district>Stuart Place</school_district>
+<sub-division>Plumosa Estates</sub-division>
+<approx_size_sqft>2347</approx_size_sqft>
+<stories>1</stories>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Exclusive Area</item>
+<item>2347 Living Area</item>
+<item>Custom Built Home</item>
+<item>Split Bedrooms</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

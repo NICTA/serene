@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Prudential Allied, REALTORS</name>
+<location>3007 E. Broadway Pearland, TX 77581</location>
+<office>(281)997-4000</office>
+<toll_free>(800)447-3313</toll_free>
+<fax>(281)485-1649</fax>
+<email>mstarr@infohwy.com</email>
+</firm_information>
+
+<agent_information>
+<name>Kathy Kipp Smith</name>
+<office>(281)997-4000</office>
+<fax>(281)485-1649</fax>
+<voice_mail>(281)997-4000 28</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14233</id>
+<mls>193687</mls>
+<house_location>2020 LAMAR
+Pasadena, TEXAS 77502</house_location>
+<county>Harris</county>
+<price>$52,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>CUTE DOLL HOUSE.  PERFECT FOR FIRST TIME BUYER.  WASHER/DRYERAND RERIDGERATAOR INCLUDED.  VINYL SIDING ON EXTERIOR.  20X20 STORAGE BUILDING.</house_description>
+
+<school_district>Pasadena</school_district>
+<sub-division>Vince Heights</sub-division>
+<approx_size_sqft>951</approx_size_sqft>
+<stories>1</stories>
+<year_built>1952</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>STORAGE BUILDING</item>
+<item>WASHER/DRYER &amp; REF. INCLUDED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

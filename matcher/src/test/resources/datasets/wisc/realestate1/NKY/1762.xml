@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>6370 GEORGETOWN RD</house_location>
+<price>$110,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>OWENTON</suburb>
+<school_dist>OWEN</school_dist>
+<mls>248496</mls>
+<house_type>Single Family</house_type>
+<firm>PEGGIE TISCH REALTY</firm>
+<firm_phone>(502) 484-4586</firm_phone>
+<agent>PEGGIE TISCH</agent>
+<agent_phone>(502) 484-4586</agent_phone>
+<house_description>SPECTACULAR VIEW WITH THIS WELL BUILT FARM HOUSE ON 8 ACRES. NEW ROOF,
+GAS FURNACE, BASEMENT FLOOR IS POURED CONCRETE.</house_description>
+<construction>Wood,Shingle</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Private</sewer>
+<lot_dimensions>8 acres</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>2</level></bedroom_3>
+<dining><dimension>14 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<living><dimension>13 X 16</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>2</level></master>
+<study><dimension>13 X 8</dimension><level>1</level></study>
+
+<directions>I-75 EXIT 159 RT ON HWY 22, 19MI, L ON 227 APX 8
+MI HOUSE ON L- SEE SIGN</directions>
+</house_listing>
+
+
+

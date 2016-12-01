@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>1035 MEADOWBROOK CT</house_location>
+<price>$151,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Front)</garage>
+<suburb>HEBRON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250129</mls>
+<house_type>Single Family</house_type>
+<firm>NOLL REALTY</firm>
+<firm_phone>(606) 331-2470</firm_phone>
+<agent>ROBERT A NOLL</agent>
+<agent_phone>(606) 331-2470</agent_phone>
+<house_description>CALL DEBBI LIPPERT AT 586-4337 FOR MORE INFORMATION. NEW RANCH HOME IN
+QUIET NEIGHBORHOOD 20 MINUTES FROM DOWNTOWN</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65X125</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 12</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 12</dimension><level>1</level></breakfast>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 6</dimension><level>1</level></laundry>
+<living><dimension>15 X 21</dimension><level>1</level></living>
+<master><dimension>17 X 13</dimension><level>1</level></master>
+
+<directions>I275 TO KY 237 N FOLLOW 237 TO DEER CREEK SUB.
+ON RIGHT TO MEADOWBROOK CT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Town &amp; Country Properties</name>
+<location>602 North Llano Street Fredericksburg, TX 78624</location>
+<office>(830)990-8708</office>
+<toll_free>(877)996-0099</toll_free>
+<fax>(830)990-8906</fax>
+<email>tcprop@fbg.net</email>
+</firm_information>
+
+<agent_information>
+<name>Dennis Kusenberger</name>
+<office>(830)990-8708</office>
+<fax>(830)990-8906</fax>
+<mobile>(210)213-3153</mobile>
+<email>Dennis@Kusey.Com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21171</id>
+<mls>11609</mls>
+<house_location>00 FM 2093
+Fredericksburg, TEXAS 78624</house_location>
+<county>Gillespie</county>
+<price>$494,881</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A hard to find property with great soils, coastal fields, nice tree cover, potential, chicken coop, two pole barns and other amendties.  The total acreage with this property is 107.70 acres.  There is barb wire fencing around the perimeter of the landand is good for grazing.  There is also a well that is 80gpm and is 150 feet deep.</house_description>
+
+<approx_acres>107.7</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Draw that could be made into pond</item>
+<item>chicken coop</item>
+<item>pole barns</item>
+<item>rock tank house</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

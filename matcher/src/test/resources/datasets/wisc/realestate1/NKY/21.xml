@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>72 MONSON RD</house_location>
+<price>$77,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>FOSTER</suburb>
+<school_dist>BRACKEN</school_dist>
+<mls>248275</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>MELISSA WOODS</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>BRICK &amp; ALUMINUM SIDING MOBILE HOME HAS 3BR, 2BA, NEW WINDOW, ROOF,
+ABOVE GROUND POOL W/ SECURITY DECK. THE .96 ACRE YARD IS BEAUTIFULLY
+LANDSCAPED AND IS ONLY .28 MILES OFF OF THE AA HWY.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>1</level></bedroom_3>
+<dining><dimension>18 X 13</dimension><level>1</level></dining>
+<family><dimension>10 X 13</dimension><level>1</level></family>
+<kitchen><dimension>18 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 7</dimension><level>1</level></laundry>
+<living><dimension>12 X 18</dimension><level>1</level></living>
+<master><dimension>18 X 12</dimension><level>1</level></master>
+
+<directions>AA S TO RT 1109 LEFT ON MONSON RD PROPERTY ON RT
+CO-LISTER:MINDY STICKLEN</directions>
+</house_listing>
+
+
+

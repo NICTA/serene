@@ -1,0 +1,67 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Deedee Jones</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 24</voice_mail>
+<email>quadj@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19875</id>
+<mls>9109642</mls>
+<house_location>1245 Whisper Lane
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$158,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautifully appointed and maintained home on large lot with frontage on the Paluxy River.  Well cared for and in an exclusive subdivision just minutes from town.  Wooden privacy fencing all around and greenhouse/workshop in back.</house_description>
+
+<school_district>Glen Rose</school_district>
+<sub-division>Sunset Park</sub-division>
+<approx_size_sqft>1853</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.68</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Beautiful View of Paluxy River</item>
+<item>Large Lot with Privacy Fencing and Wooden Deck</item>
+<item>Exclusive Subdivision Minutes from Downtown</item>
+<item>Landscaping and Greenhouse/Workshop on Property</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

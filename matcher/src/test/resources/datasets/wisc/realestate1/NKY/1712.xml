@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>45 OHIO</house_location>
+<price>$75,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front,Heated)</garage>
+<suburb>NEWPORT S</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249828</mls>
+<house_type>Single Family</house_type>
+<firm>DAVID P SCHOEPF &amp; ASSOC INC</firm>
+<firm_phone>(606) 781-6000</firm_phone>
+<agent>DOUG SCHOEPF</agent>
+<agent_phone>(606) 781-6000</agent_phone>
+<house_description>VIEW OF DOWNTOWN. NEW KITCHEN, NEW BATH, MOVE IN CONDITION. CLOSE TO
+SCHOOL SHOPPING, INTERSTATE.</house_description>
+<construction>Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>40x200</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>9 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 22</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 8</dimension><level>2</level></dining>
+<kitchen><dimension>10 X 8</dimension><level>2</level></kitchen>
+<living><dimension>14 X 12</dimension><level>2</level></living>
+<master><dimension>11 X 12</dimension><level>2</level></master>
+
+<directions>GRAND AV TO CHESAPEAKE TO OHIO AVE</directions>
+</house_listing>
+
+
+

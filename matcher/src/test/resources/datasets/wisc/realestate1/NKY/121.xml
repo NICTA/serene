@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>953 OAKMONT COURT</house_location>
+<price>$163,445</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Front)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE CO.</school_dist>
+<mls>246043</mls>
+<house_type>Condominium</house_type>
+<firm>FISCHER MANAGEMENT</firm>
+<firm_phone>(606) 341-4709</firm_phone>
+<agent>R. CASEY HUBER</agent>
+<agent_phone>(606) 341-4709</agent_phone>
+<house_description>NEW FISCHER ATTACHED HOME THE CAPEMAY MODEL #606-384-3772</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>11 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 15</dimension><level>1</level></dining>
+<family><dimension>22 X 24</dimension><level>L</level></family>
+<kitchen><dimension>13 X 15</dimension><level>1</level></kitchen>
+<living><dimension>13 X 23</dimension><level>1</level></living>
+<master><dimension>11 X 19</dimension><level>2</level></master>
+
+<directions>UNION-OFF RICHWOOD EXIT CALL 384-3772 ANYTIME</directions>
+</house_listing>
+
+
+

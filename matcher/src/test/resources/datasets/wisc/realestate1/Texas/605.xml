@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Marty Flowers</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 130</voice_mail>
+<mobile>(512)923-9698</mobile>
+<email>martyf@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19827</id>
+<mls>521143</mls>
+<house_location>321 La Buena Vista Drive
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$148,000</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>TEXAS STYLE family home w/easy access to schools. This 3/2/2 stone home has metal roof, indoor utility, office w/built-in desk &amp; bookshelves. Master suite is wheel chair accessible. Spacious living graced w/vaulted ceiling &amp; stone wood burning fireplace. Kitchen includes many cabinets &amp; counter tops plus eating bar.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Woodcreek</sub-division>
+<stories>1</stories>
+<approx_lot_size>100 x 270</approx_lot_size>
+<approx_acres>0.62</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

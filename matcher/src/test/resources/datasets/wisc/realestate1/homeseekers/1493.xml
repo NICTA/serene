@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1968 has 2 bedroom(s), 2 bath(s) , 1 car
+attached garage and approximately 1040 square feet of living area.
+Rooms include family room. Features include air conditioning.</house_description>
+
+<agent_name>Robert Gasso</agent_name>
+<direct>305-465-5101</direct>
+<office>305-666-8686</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-666-8686</phone>
+<fax>305-666-0617</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$209,000</list_price>
+<location>5700 Collins Av #10G</location>
+<neighborhood>Seacoast 5700 Condo Desc</neighborhood>
+<mls>M750735</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1040 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Intracoastal, Bay front, Water front</location>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Foyer
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

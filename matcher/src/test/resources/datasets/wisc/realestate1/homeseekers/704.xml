@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1941 has 4 bedroom(s), 2
+bath(s) and approximately 1836 square feet of living area. Rooms
+include dining room, bonus room, master bedroom. Features include
+fireplace, air conditioning.</house_description>
+
+<agent_name>Charo Diaz-Rivas</agent_name>
+<direct>520-793-1900</direct>
+<office>520-577-7433</office>
+<firm_name>Coldwell Banker Success Southw Coldwell Banker Success Southw</firm_name>
+<phone>520-577-7433</phone>
+<fax>520-577-5417</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$175,000</list_price>
+<location>412 S Country Club Rd</location>
+<mls>2000851</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1836 (approx)</square_feet>
+<lot_size>75X200</lot_size>
+<year_built>1941</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

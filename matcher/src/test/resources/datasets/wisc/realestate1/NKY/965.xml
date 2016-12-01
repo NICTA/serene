@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>116 10TH</house_location>
+<price>$59,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>248986</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 781-5000</firm_phone>
+<agent>DOUGLAS LLOYD</agent>
+<agent_phone>(606) 781-5000</agent_phone>
+<house_description>SKYLINE VIEW! QUIET COMMUNITY. BEAUTIFUL 3 BR, 2 BATH HOME W/COUNTRY
+KITCHEN, OAK CABINETRY. WOODBURNING FIREPLACE. READY TO MOVE IN.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>OF REC</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 8</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>20 X 10</dimension><level>1</level></kitchen>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>10 X 9</dimension><level>1</level></master>
+
+<directions>RT 8 TO R. ON O'FALLON TO L. ON 9TH TO R. ON
+THORTON TO R. ON 10TH.</directions>
+</house_listing>
+
+
+

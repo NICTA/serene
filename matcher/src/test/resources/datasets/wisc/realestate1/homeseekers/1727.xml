@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1906 has 4
+bedroom(s), 1 bath(s) and approximately 1372 square feet of living
+area. Rooms include living room. Features include fireplace.</house_description>
+
+<agent_name>Betty Rodriguez</agent_name>
+<direct>323-729-2840</direct>
+<office>323-721-7100</office>
+<firm_name>C-21 Dynamic Brokers C-21 Dynamic Brokers</firm_name>
+<phone>323-721-7100</phone>
+<fax>323-724-1076</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,000</list_price>
+<location>484 N Concord St</location>
+<mls>M904706</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1372 (approx)</square_feet>
+<lot_size>4640</lot_size>
+<year_built>1906</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Living Room</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

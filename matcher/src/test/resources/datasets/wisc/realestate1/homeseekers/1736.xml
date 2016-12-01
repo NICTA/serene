@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1922 has 3
+bedroom(s), 2 bath(s) and approximately 1300 square feet of living
+area. Rooms include family room. Features include view.</house_description>
+
+<agent_name>Ted Yoshimura</agent_name>
+<office>626-300-8212</office>
+<firm_name>Financial Research, Inc.</firm_name>
+<phone>626-300-8212</phone>
+<fax>626-300-0807</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$159,000</list_price>
+<location>2536 Zonal Av</location>
+<mls>W200139</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1300 (approx)</square_feet>
+<lot_size>7057</lot_size>
+<year_built>1922</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

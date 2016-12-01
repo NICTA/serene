@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Bill Chess Real Estate</name>
+<location>714-B Chestnut Bastrop, TX 78602</location>
+<office>(512)303-3806</office>
+<toll_free></toll_free>
+<fax>(512)303-3839</fax>
+<email>bchess@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bill Chess</name>
+<office>(512)303-3806</office>
+<fax>(512)303-3839</fax>
+<mobile>(512)784-8965</mobile>
+<email>bchess@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18041</id>
+<mls>522511</mls>
+<house_location>305 First St., Smithville
+Smithville, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$159,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+
+<house_description>FOR RAILROAD LOVERS. FORMER BOARDING HOUSE, BUILT IN 1910. 2416 SF (CAD). 3BD-2BA, MANY ROOMS OPENED TO ONE OF THE 4 COVERED PORCHES, HERB GARDEN. RENOVATED BUT NEEDS CA/CH. ASKING $159,000. ADJACENT LOT AND 2 SMALL RENTAL HOMES ALSO  AVAILABLE(SEE COMMERCIAL LISTINGS) PACKAGE WOULD BE A GREAT B&amp;B. File# C00581/16/00 Under Contract</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Smithville Townsite</sub-division>
+<approx_size_sqft>2416</approx_size_sqft>
+<stories>2</stories>
+<year_built>1910</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>High ceilings and claw foot tubs.</item>
+<item>Many rooms open to one of 4 covered porches.</item>
+<item>Picket fence and herb garden.</item>
+<item>House perfect for railroad or history lovers.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<price>$189,995</price>
+<mls_id_number>144903</mls_id_number>
+<city>SHERWOOD</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.10</bathrooms>
+<sqft>2012</sqft>
+<year_built>1995</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.16        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>1</fireplace>
+<taxes>$2,837</taxes>
+<floors>Not Listed</floors>
+<interior>Gas Fireplace</interior>
+<exterior>Deck, Garden, Porch, Sprinkler System,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>IN LO</elementary>
+<middle_school></middle_school>
+<high_school>IN LO</high_school>
+</schools>
+
+</house_listing>
+
+
+

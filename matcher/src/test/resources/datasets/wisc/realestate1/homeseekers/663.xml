@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 2 level attached home built in 1981 has 2 bedroom(s), 1.5 bath(s)
+and approximately 1000 square feet of living area. Rooms include
+dining room, living room, master bedroom. Features include private
+spa, fireplace.</house_description>
+
+<agent_name>Linda Ring</agent_name>
+<direct>619-251-5202</direct>
+<office>619-220-8200</office>
+<firm_name>American Spirit Realty</firm_name>
+<phone>619-220-8200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$75,000</list_price>
+<location>San Diego, CA 92105</location>
+<mls>99 6026866</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1.5</baths>
+<levels>2</levels>
+<type>Townhouse/Condo</type>
+<square_feet>1000 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Gazebo
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

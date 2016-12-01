@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Markgraf</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20055</id>
+<mls>54083</mls>
+<house_location>218 SANDY MOUNTAIN DRIVE
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$145,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>FURNISHED, NICE COUNTRY STYLE HOME WITH WRAP AROUND PORCH, THIS HOME HAS MANY POSSIBILITYS, TWO CER GARAGE WITH A LARGE WORK SHOP TO ONE SIDE, TWO BEDROOMS, ONE BATH ,THIS HOME SITS ON 5.7+/- ACRES WITH A 40 FT. X 60FT. METAL BUILDING WITH FOUR ROLLUP DOORS INSULATED AND SKY LIGHTS, COMES WITH SATILITE DISH, THERE IS A STOCK TANK IN BACK YARD, YOU HAVE TO COME SEE THIS ONE!!</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>1000</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>5.7 ACRES</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<hot_tub>Yes</hot_tub>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>LARGE METAL BUILDING</item>
+<item>COUNTRY STYLE HOME</item>
+<item>5.7 ACRES</item>
+<item>FURNISHED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

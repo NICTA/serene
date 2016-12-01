@@ -1,0 +1,34 @@
+<house_listing>
+<price>$127,500</price>
+<mls_id_number>136574</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>960</sqft>
+<year_built>1950</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.17        Acres</lot_size>
+<lot_description>133 X 66</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Tile Floors,</floors>
+<interior>Not Listed</interior>
+<exterior>Deck, Patio, RV-Park,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>CALL LO</elementary>
+<middle_school>JOSEPH LANE</middle_school>
+<high_school>ROSEBURG</high_school>
+</schools>
+
+</house_listing>
+
+
+

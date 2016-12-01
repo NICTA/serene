@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>8404</id>
+<mls>4555</mls>
+<house_location>225 Crest Circle
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$107,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great Home for the MoneyCovered PorchLarge Den</house_description>
+
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+<item>Open Floor Plan</item>
+<item>Large Den W/Wood Floors</item>
+<item>Fenced Back Yard</item>
+<item>Walkin Closets</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

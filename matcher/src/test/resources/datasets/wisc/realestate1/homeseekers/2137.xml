@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1948 has ? bedroom(s), 1 bath(s) and
+approximately 380 square feet of living area. Features include private
+pool, air conditioning.</house_description>
+
+<agent_name>Ana Rodriguez</agent_name>
+<direct>949-4889</direct>
+<office>792-7220</office>
+<firm_name>Select Homes Rlty
+Lic. Real Estate Broker</firm_name>
+<phone>792-7220</phone>
+<fax>305-792-7206</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$79,900</list_price>
+<location>6345 Collins Av #808</location>
+<neighborhood>The Casablanca Condo</neighborhood>
+<mls>M760716</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>380 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Tennis Court(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

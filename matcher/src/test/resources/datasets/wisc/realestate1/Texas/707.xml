@@ -1,0 +1,48 @@
+<house_listing>
+<firm_information>
+<name>Regency, Realtors</name>
+<location>110 N. IH-35, Ste 200A Round Rock, TX 78681</location>
+<office>(512)255-7888</office>
+<toll_free>(800)656-7888</toll_free>
+<fax>(512)244-9536</fax>
+<email>sbshavor@earthlink.net</email>
+</firm_information>
+
+<agent_information>
+<name>Betty Shavor</name>
+<office>(512)255-7888</office>
+<fax>(512)244-9536</fax>
+<email>sbshavor@earthlink.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21083</id>
+<mls>526784</mls>
+<house_location>16306 Essex Cove
+Pflugerville, TEXAS 78660</house_location>
+<county>Williamson</county>
+<price>$88,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Hardwood floors in living area and bedrooms.</house_description>
+
+<school_district>Pflugerville</school_district>
+<sub-division>Windermere Phs</sub-division>
+<approx_size_sqft>1170</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>55x132</approx_lot_size>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

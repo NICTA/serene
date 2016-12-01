@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Markgraf</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14023</id>
+<mls>51410</mls>
+<house_location>307 blythe lane
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$385,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Custom home on waters edge 2 bd. &amp; 1ba with kit. on first floor with great view of lake, 2 bd. 1 ba. with main kit. and liv. w/fireplace and a super view of lake and surranding area. this home has many extras. two boat slips covered w/ lifts and a sailboat slip w/lift. approx. 211feet of water frontage on open water, .All together a 4 bedroom 2 bath home You must see this one to enjoy all the extras.24 foot Pontoon boat and furnishings offered outside of contract.</house_description>
+
+<move-in_date>1/30/99</move-in_date>
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>2249</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>irregular</approx_lot_size>
+<year_built>1970</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>211ft. waterfront</item>
+<item>large wooded lot</item>
+<item>great view of open main lake</item>
+<item>large deck with wonderful view</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

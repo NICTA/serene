@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Hodde Real Estate Division</name>
+<location>112 W.Main St. Brenham, TX 77833</location>
+<office>(409)836-8532</office>
+<toll_free></toll_free>
+<fax>(409)836-1224</fax>
+<email>hlcc@hlcc.com</email>
+</firm_information>
+
+<agent_information>
+<name>Randy Hodde</name>
+<office>(409)836-8532</office>
+<fax>(409)836-1224</fax>
+<email>rhodde@hlcc.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19293</id>
+<mls>HLC#530</mls>
+<house_location>106 E. Mansfield
+Brenham, TEXAS 77833</house_location>
+<county>Washington</county>
+<price>$61,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Home with vinyl siding on corner lot.Three bedrooms two baths, living room, formal dining,  and utility room.  Hardwood floors are under most of  the carpet and lots of attic space above master bedroom. Great rental property or 1st home.Extra features include deck and screen porch!Lots of space +/-1755 sqft living!!</house_description>
+
+<school_district>Brenham</school_district>
+<approx_size_sqft>1755</approx_size_sqft>
+<approx_acres>0.13</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Lots of space</item>
+<item>Great area!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

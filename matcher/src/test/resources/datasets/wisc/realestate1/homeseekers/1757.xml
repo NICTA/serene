@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1948 has 2 bedroom(s), 2 bath(s) and
+approximately 970 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Judith Rosen</agent_name>
+<direct>736-8619</direct>
+<office>532-7663</office>
+<firm_name>Judith Rosen, Real
+Lic. Real Estate Broker</firm_name>
+<phone>532-7663</phone>
+<fax>305-532-2140</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$125,000</list_price>
+<location>3909 Garden Av #2</location>
+<neighborhood>Jane Apartments Condo</neighborhood>
+<mls>M754487</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>970 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

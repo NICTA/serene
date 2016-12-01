@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1142 OLD STATE RD</house_location>
+<price>$153,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>PARK HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248742</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>MARY K ALLHOFF</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>WONDERFUL OLD FARM HOUSE IN THE HEART OF PARK HILLS*LARGE ROOMS*WOOD
+FLOORS CEILING FANS*LOTS OF STORAGE*ENCLOSED BACK PORCH W/VINYL
+WINDOWS*HUGE ATTIC STORAGE-COULD BE 4TH BDRM*HOMEOWNER WARRANTY
+INCLUDED</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>15 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<living><dimension>16 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>1</level></master>
+
+<directions>SLEEPY HOLLOW TO OLD STATE ROAD</directions>
+</house_listing>
+
+
+

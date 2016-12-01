@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1991 has 3
+bedroom(s), 2 bath(s) , 2 car garage and approximately 2069 square
+feet of living area. Rooms include dining room, family room, living
+room, bonus room, master bedroom. Features include fireplace, air
+conditioning.</house_description>
+
+<agent_name>Phyllis James</agent_name>
+<direct>410-228-6215</direct>
+<office>410-228-4949</office>
+<firm_name>ERA Phyllis James &amp; Associates</firm_name>
+<phone>410-228-4949</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$219,000</list_price>
+<location>Madison, MD 21648</location>
+<mls>DO2664830</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2069 (approx)</square_feet>
+<lot_size>348480</lot_size>
+<year_built>1991</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room, Master</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

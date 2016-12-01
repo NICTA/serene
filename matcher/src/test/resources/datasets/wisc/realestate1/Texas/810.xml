@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Gail W. Wood</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<mobile>(512)715-2124</mobile>
+<email>gwood@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20138</id>
+<mls>54055</mls>
+<house_location>650 Cypress Lane
+Cottonwood, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$110,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Large, very well maintained home on nine lots.Nicely manicured yard with sprinkler system.Eight foot privacy fence.Oversized garage.Home warranty provided.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Cottonwood</sub-division>
+<stories>2</stories>
+<approx_lot_size>45000 sq ft</approx_lot_size>
+<approx_acres>1.02</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>LARGE, COMFORTABLE, WELL MAINTAINED HOME</item>
+<item>NICELY MANICUREDYARD</item>
+<item>SPRINKLER SYSTEM</item>
+<item>PRIVACY FENCE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

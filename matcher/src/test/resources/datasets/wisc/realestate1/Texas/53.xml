@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gayle Luck</name>
+<office>(817)558-8955</office>
+<fax>(817)517-5454</fax>
+<mobile>(817)991-9455</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20218</id>
+<mls>9115913</mls>
+<house_location>400 Baldwin Drive
+Joshua, TEXAS 76058</house_location>
+<county>Johnson</county>
+<price>$134,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SUNWALL OVERLOOKING WOODED LOT.  YOU WILL FIND AN ATTRACTIVE INTERIOR WITH A COMBINATION OF CARPET, VINYL AND CERAMIC TILE FOR THE FLOORING.  BUILT WITH AN OPEN CONCEPT, SPLIT BEDROOMS, AND A WOOD-BURNING FIREPLACE.</house_description>
+
+<school_district>Joshua I S D</school_district>
+<sub-division>Post Oak Estates</sub-division>
+<approx_size_sqft>1890</approx_size_sqft>
+<stories>1</stories>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>NEW HOME</item>
+<item>SPLIT BEDROOMS</item>
+<item>WBFP</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

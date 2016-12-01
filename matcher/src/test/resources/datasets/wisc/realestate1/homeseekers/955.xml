@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1939 has 4 bedroom(s), 3
+bath(s) , 2 car detached garage and approximately 1524 square feet of
+living area. Rooms include dining room, family room. Features include
+fireplace, air conditioning.</house_description>
+
+<agent_name>Bernie O'Brien</agent_name>
+<direct>509-459-1746</direct>
+<firm_name>
+RE/MAX Citywide RE/MAX Citywide</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$142,500</list_price>
+<location>804 26Th</location>
+<mls>9925603</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage></garage>
+<type>Single Family</type>
+<style>Cape Cod</style>
+<square_feet>1524 (approx)</square_feet>
+<lot_size>50X125</lot_size>
+<year_built>1939</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Gas lighter/pipe, Wood-burning</fireplace>
+<rooms>Dining Room, Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Garage Door Opener, Hardwood Flooring, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

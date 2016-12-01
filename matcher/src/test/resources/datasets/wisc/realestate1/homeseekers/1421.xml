@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1965 has 3
+bedroom(s), 2 bath(s) , 2 car attached garage and approximately 1322
+square feet of living area. Rooms include living room, master bedroom.
+Features include air conditioning.</house_description>
+
+<agent_name>Stephen Choy</agent_name>
+<office>626-282-8282</office>
+<firm_name>C-21 West Coast Brokers C-21 West Coast Brokers</firm_name>
+<phone>626-282-8282</phone>
+<fax>626-282-2628</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$142,800</list_price>
+<location>4467 Bowman Bl</location>
+<mls>W906491</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1322 (approx)</square_feet>
+<lot_size>6180</lot_size>
+<year_built>1965</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

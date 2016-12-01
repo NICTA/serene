@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>bojac@mailexcite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Millicent Wiley "Millie"</name>
+<office>(512)595-7653</office>
+<fax>(512)592-9300</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>2056</id>
+<mls>05-121-77</mls>
+<house_location>#5 Carreta Dr. Bishop
+Bishop, TEXAS 78343</house_location>
+<county>Nueces</county>
+<price>$119,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Executive type home in exclusive area.  Large game room, atrium bath in master bedroom.  3 bedroom and large bath upstairs with laundry chut.  Breeze way between house and garage.  New plumbing in Aug. 97.  New A/C upstairs w/warranty until Aug 98. Lovely den with fireplace in addition to a large game room or office area.  Priced below appraised price for quick sale.  Must see to appreciate. </house_description>
+
+<move-in_date>1/2/98</move-in_date>
+<school_district>Bishop</school_district>
+<sub-division>Carreta Park</sub-division>
+<approx_size_sqft>3147</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>110x147</approx_lot_size>
+<year_built>1969</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Master BR downstairs</item>
+<item>Large game room or office area</item>
+<item>Excellent location</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

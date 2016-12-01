@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Darrell Haney</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>darrell@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15525</id>
+<mls>7BC</mls>
+<house_location>7 HANEY TRACE, BAY COUNTRY
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$229,900</price>
+
+<house_description>5.45 acres in gated Bay Country.  Hilltop views.  Stone and brick entrance with controlled access.  Each tract highlighted by a stone column entry.  Concrete ribbon curbing.  Underground utilities in place.  Horses allowed.  Lot 8 also available.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Bay Country</sub-division>
+<approx_acres>5.45</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Country living in a resort atmosphere.</item>
+<item>Eight miles of stunning white three-rail fencing.</item>
+<item>Wildlife exemption in place.</item>
+<item>Wooded creeks, ponds, and spectacular views.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

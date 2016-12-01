@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 3+ level attached townhouse built in 1911 has 3 bedroom(s), 2
+bath(s) . Rooms include master bedroom.</house_description>
+
+<agent_name>William Pacori</agent_name>
+<direct>703-912-4764</direct>
+<office>703-204-1188</office>
+<firm_name>United Realty, Inc.</firm_name>
+<phone>703-204-1188</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$159,000</list_price>
+<location>Washington, DC 20010</location>
+<mls>DC3099004</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<lot_size>1533</lot_size>
+<year_built>1911</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

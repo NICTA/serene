@@ -1,0 +1,416 @@
+FID,geom,id,group,location,maintainer,site,type,ward
+7efc6dd4_2b71_4925_be87_65ee288e49b0.1,POINT (752246.3222741651 5838784.393480457),00212267,PF-Public Space Furniture,,Ballarat City Council,Armstrong Street South,,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.2,POINT (754038.2184524434 5836976.161541065),00212268,PF-Public Space Furniture,ALEX MILLS PARK,Ballarat City Council,Alex Mills Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.3,POINT (740011.5590448758 5854776.868257154),00212270,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Alexander Park,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.4,POINT (747374.4135966798 5839901.826029763),00212275,PF-Public Space Furniture,,Ballarat City Council,Alfredton Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.5,POINT (747212.902244444 5839808.565012759),00212278,PF-Public Space Furniture,Alfredton Recreation Reserve,Ballarat City Council,Alfredton Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.6,POINT (747337.1588721483 5839734.88001114),00212280,PF-Public Space Furniture,,Ballarat City Council,Alfredton Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.7,POINT (749316.7387124442 5840593.5752264075),00212303,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.8,POINT (749258.1437428693 5840752.522873066),00212304,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.9,POINT (749257.7891715652 5840752.002978887),00212305,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.10,POINT (749294.2193116666 5840665.240639117),00212306,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.11,POINT (749293.889477896 5840666.030478348),00212307,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.12,POINT (749362.3959523148 5840770.939124502),00212308,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.13,POINT (749362.6020984186 5840771.598990189),00212309,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.14,POINT (749257.4593377928 5840751.653050115),00212310,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.15,POINT (749195.7474390792 5840590.545843016),00212311,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.16,POINT (749388.4363286016 5840819.359268725),00212312,PF-Public Space Furniture,Ballarat Botanical Gardens (North),Ballarat City Council,North Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.17,POINT (749343.1913809446 5840858.601281121),00212313,PF-Public Space Furniture,Ballarat Botanical Gardens (North),Ballarat City Council,North Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.18,POINT (749227.0569098713 5840257.82356768),00212406,PF-Public Space Furniture,Ballarat Botanical Gardens (South),Ballarat City Council,South Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.19,POINT (749248.9496264795 5840382.788131505),00212407,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.20,POINT (749248.9826098557 5840384.017881194),00212408,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.21,POINT (749317.7117220692 5840593.435254898),00212409,PF-Public Space Furniture,Ballarat Botanical Gardens,Ballarat City Council,Ballarat Botanical Gardens,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.22,POINT (753701.8209885075 5840334.497961329),00212414,PF-Public Space Furniture,Binney  Reserve (Binney Street Res.),Ballarat City Council,Binney Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.23,POINT (753610.7786216266 5840243.636455915),00212415,PF-Public Space Furniture,Binney  Reserve (Binney Street Res.),Ballarat City Council,Binney Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.24,POINT (753820.4786879363 5840009.574098657),00212421,PF-Public Space Furniture,BLACK HILL RESERVE (BLACK HILL LOOKOUT),Ballarat City Council,Black Hill Reserve (Black Hill Lookout),BIN ENCLOSURE,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.25,POINT (755856.9878372755 5839868.202874614),00212435,PF-Public Space Furniture,Brown Hill Reserve  (Progress Park),Ballarat City Council,Brown Hill Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.26,POINT (755819.4609998812 5839938.888486754),00212436,PF-Public Space Furniture,Brown Hill Reserve  (Progress Park),Ballarat City Council,Brown Hill Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.27,POINT (754741.3086122547 5828805.274701614),00212449,PF-Public Space Furniture,Buninyong Botanic Gardens,Ballarat City Council,Buninyong Botanic Gardens,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.28,POINT (754729.4263506236 5828808.953952713),00212450,PF-Public Space Furniture,Buninyong Botanic Gardens,Ballarat City Council,Buninyong Botanic Gardens,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.29,POINT (754775.2237698466 5829188.916612413),00212471,PF-Public Space Furniture,Buninyong Recreation Park,Ballarat City Council,Buninyong Recreation Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.30,POINT (754795.3931049971 5829124.199785341),00212472,PF-Public Space Furniture,Buninyong Recreation Park,Ballarat City Council,Buninyong Recreation Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.31,POINT (753199.756266819 5836015.027177095),00212500,PF-Public Space Furniture,Canadian Gully Reserve (Canadian Creek),Ballarat City Council,Canadian Gully Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.32,POINT (739424.7930105869 5844608.398019901),00212526,PF-Public Space Furniture,Cardigan Village Reserve,Ballarat City Council,Cardigan Village Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.33,POINT (751191.8601971901 5841811.357350569),00212556,PF-Public Space Furniture,C.E Brown Reserve,Ballarat City Council,Charles Edward Brown Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.34,POINT (751303.1626035073 5841744.89087964),00212557,PF-Public Space Furniture,C.E Brown Reserve,Ballarat City Council,Charles Edward Brown Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.35,POINT (751282.9685308246 5841729.514009556),00212558,PF-Public Space Furniture,C.E Brown Reserve,Ballarat City Council,Charles Edward Brown Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.36,POINT (751119.1565880266 5841697.700485088),00212559,PF-Public Space Furniture,C.E Brown Reserve,Ballarat City Council,Charles Edward Brown Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.37,POINT (751105.5179615598 5841749.539933317),00212561,PF-Public Space Furniture,C.E Brown Reserve,Ballarat City Council,Charles Edward Brown Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.38,POINT (751428.7797955245 5841691.641718367),00212578,PF-Public Space Furniture,NORTHERN OVAL,Ballarat City Council,Charles Edward Brown Reserve,WHEELIE BIN ON HOLDER,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.39,POINT (751438.3532207538 5841659.6682264805),00212582,PF-Public Space Furniture,NORTHERN OVAL,Ballarat City Council,Charles Edward Brown Reserve,WHEELIE BIN ON HOLDER,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.40,POINT (751555.213326124 5841650.210151657),00212591,PF-Public Space Furniture,NORTHERN OVAL,Ballarat City Council,Charles Edward Brown Reserve,WHEELIE BIN ON HOLDER,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.41,POINT (750655.6411884252 5839497.878252511),00212601,PF-Public Space Furniture,City Oval,Ballarat City Council,City Oval,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.42,POINT (750628.652540046 5839359.726372925),00212602,PF-Public Space Furniture,City Oval,Ballarat City Council,City Oval,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.43,POINT (750762.4661012897 5839401.337903032),00212603,PF-Public Space Furniture,City Oval,Ballarat City Council,City Oval,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.44,POINT (750572.2921942743 5839434.641124237),00212604,PF-Public Space Furniture,City Oval,Ballarat City Council,City Oval,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.45,POINT (750674.5818927743 5839352.127919573),00212605,PF-Public Space Furniture,City Oval,Ballarat City Council,City Oval,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.46,POINT (752655.8273936294 5838709.058814658),00212608,PF-Public Space Furniture,Civic Park (Police & Law Cts),Ballarat City Council,Civic Park (Police & Law Courts),,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.47,POINT (754443.0729157332 5829222.03987023),00212632,PF-Public Space Furniture,De Soza Park (Tannery Flat),Ballarat City Council,De Soza Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.48,POINT (754435.1733968961 5829203.503643223),00212633,PF-Public Space Furniture,De Soza Park (Tannery Flat),Ballarat City Council,De Soza Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.49,POINT (754860.4363247969 5838540.963030333),00212676,PF-Public Space Furniture,,Ballarat City Council,Eureka Stockade,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.50,POINT (754898.9361718182 5838550.671054297),00212680,PF-Public Space Furniture,,Ballarat City Council,Eureka Stockade,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.51,POINT (754652.6163109869 5838525.906095104),00212682,PF-Public Space Furniture,,Ballarat City Council,Eureka Stockade,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.52,POINT (754657.2999505461 5838563.308481956),00212694,PF-Public Space Furniture,,Ballarat City Council,Eureka Stockade,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.53,POINT (754787.5265695234 5838505.800187619),00212713,PF-Public Space Furniture,,Ballarat City Council,Eureka Stockade,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.54,POINT (754807.093958044 5838534.384369394),00212724,PF-Public Space Furniture,,Ballarat City Council,Eureka Stockade,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.55,POINT (753908.3876339826 5841084.985201839),00212736,PF-Public Space Furniture,Inkerman Gully,Ballarat City Council,Inkerman Gully Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.56,POINT (753884.7138150053 5841111.929717357),00212737,PF-Public Space Furniture,Inkerman Gully,Ballarat City Council,Inkerman Gully Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.57,POINT (753845.1420082276 5841110.699967665),00212738,PF-Public Space Furniture,Inkerman Gully,Ballarat City Council,Inkerman Gully Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.58,POINT (753680.8518064639 5837549.93475114),00212753,PF-Public Space Furniture,Lake Esmond Botanical Park,Ballarat City Council,Lake Esmond Botanical Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.59,POINT (753859.5969732851 5837398.7255293615),00212768,PF-Public Space Furniture,Lake Esmond Botanical Park,Ballarat City Council,Lake Esmond Botanical Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.60,POINT (749453.6774486785 5839703.276444172),00212824,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.61,POINT (749369.6935245162 5839748.127314897),00212825,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.62,POINT (749384.3134064534 5840361.072551664),00212826,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.63,POINT (749383.9011142417 5840362.082346123),00212827,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.64,POINT (749345.5002173481 5840532.177723695),00212828,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.65,POINT (749345.7888219 5840533.057544611),00212829,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.66,POINT (749336.6359347292 5840401.934234381),00212830,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.67,POINT (749336.1164465394 5840402.504118383),00212831,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.68,POINT (749315.7904403491 5840370.570618353),00212832,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.69,POINT (749315.6667526839 5840369.460844243),00212833,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.70,POINT (749376.0098412456 5840323.100280809),00212834,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.71,POINT (749375.7212366953 5840322.220459894),00212835,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.72,POINT (749378.1207773862 5840281.718703911),00212836,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.73,POINT (749378.0960398531 5840281.048840259),00212837,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.74,POINT (749312.187006391 5840300.594861716),00212838,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.75,POINT (749312.030335349 5840301.154747753),00212839,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.76,POINT (749320.1607378245 5840245.246127792),00212840,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.77,POINT (749320.2267045806 5840244.356308913),00212841,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.78,POINT (749388.6672122428 5840208.763553722),00212842,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.79,POINT (749389.269158876 5840208.073694142),00212843,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.80,POINT (749333.4283012982 5840198.305682385),00212844,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.81,POINT (749333.4777763643 5840196.975953048),00212845,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.82,POINT (749349.2273389708 5840120.751468325),00212846,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.83,POINT (749349.1201429963 5840119.861649443),00212847,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.84,POINT (749440.2532141618 5840610.641752578),00212848,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.85,POINT (749441.1107819683 5840610.121858401),00212849,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.86,POINT (749395.3793294979 5840735.396359132),00212850,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.87,POINT (749395.5937214515 5840736.276180048),00212851,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.88,POINT (749504.1420157715 5840910.9706215095),00212852,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.89,POINT (749503.2432187442 5840910.550706983),00212853,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.90,POINT (749437.1692683948 5840842.7845005905),00212854,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.91,POINT (749436.7075011127 5840842.0246552555),00212855,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.92,POINT (750080.5430237965 5841031.576072679),00212856,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.93,POINT (750112.800766688 5841033.715637181),00212857,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.94,POINT (750391.8071543083 5840973.657861798),00212858,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.95,POINT (750501.7819796929 5840945.46360067),00212859,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.96,POINT (750464.9230556856 5840922.798214139),00212860,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.97,POINT (750431.8407283687 5840916.9094127845),00212861,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.98,POINT (750407.2021456098 5840938.545008918),00212862,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.99,POINT (750420.708838567 5841010.890283249),00212863,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.100,POINT (751322.317699811 5840440.666350786),00212864,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.101,POINT (751335.3461338002 5840266.551791303),00212865,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.102,POINT (751318.6730366305 5840147.9659291115),00212866,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.103,POINT (751275.5472709606 5840043.967097769),00212867,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.104,POINT (750757.8319367946 5839660.405170636),00212868,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.105,POINT (750994.8917144821 5839674.132376529),00212869,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.106,POINT (751057.6096061986 5839712.774511042),00212870,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.107,POINT (751053.7587969129 5839728.781252915),00212871,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.108,POINT (751083.4603280688 5839769.422980411),00212872,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.109,POINT (751141.3379091872 5839922.631795205),00212873,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.110,POINT (751140.7936834671 5839922.091905098),00212874,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.111,POINT (751096.5877121892 5839846.557279948),00212875,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.112,POINT (751096.6289414123 5839847.887009286),00212876,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.113,POINT (750162.0119654501 5839676.401914481),00212877,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.114,POINT (750133.209231323 5839718.373371309),00212878,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.115,POINT (750017.5117899958 5839708.525375828),00212879,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.116,POINT (749948.5023190752 5839701.606784079),00212880,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.117,POINT (749546.1793299967 5839665.184197748),00212881,PF-Public Space Furniture,Lake Wendouree,Ballarat City Council,Lake Wendouree Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.118,POINT (740040.996709014 5854873.208647348),00213092,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Learmonth Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.119,POINT (739965.2009082395 5854822.918883678),00213093,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Learmonth Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.120,POINT (739936.101323717 5854829.357573099),00213094,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Learmonth Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.121,POINT (739882.932119693 5854908.741414743),00213095,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Learmonth Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.122,POINT (739914.0271985338 5854976.007722883),00213096,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Learmonth Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.123,POINT (739990.490912697 5854980.166876305),00213097,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Learmonth Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.124,POINT (739898.9373034729 5854843.204754543),00213098,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Learmonth Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.125,POINT (740040.2628288737 5854902.772629684),00213099,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Learmonth Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.126,POINT (740039.6031613274 5854917.329666641),00213100,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Learmonth Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.127,POINT (740037.2036206378 5854962.840403061),00213101,PF-Public Space Furniture,Learmonth Recreation Reserve,Ballarat City Council,Learmonth Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.128,POINT (753303.8023301526 5838413.478979157),00213107,PF-Public Space Furniture,"Len T Frazer Reserve, Concrete culvert.",Ballarat City Council,Len T Frazer Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.129,POINT (753097.4418307833 5838080.966661055),00213140,PF-Public Space Furniture,Llanberris Athletics Reserve,Ballarat City Council,Llanberris Athletics Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.130,POINT (753103.9065727112 5838040.8948175665),00213141,PF-Public Space Furniture,Llanberris Athletics Reserve,Ballarat City Council,Llanberris Athletics Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.131,POINT (753119.8128063604 5838034.626093548),00213142,PF-Public Space Furniture,Llanberris Athletics Reserve,Ballarat City Council,Llanberris Athletics Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.132,POINT (753120.6868658583 5838034.486122038),00213143,PF-Public Space Furniture,Llanberris Athletics Reserve,Ballarat City Council,Llanberris Athletics Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.133,POINT (753154.1814853894 5838025.907868121),00213144,PF-Public Space Furniture,Llanberris Athletics Reserve,Ballarat City Council,Llanberris Athletics Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.134,POINT (753111.7566164815 5838072.198445804),00213145,PF-Public Space Furniture,Llanberris Athletics Reserve,Ballarat City Council,Llanberris Athletics Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.135,POINT (753234.1414375373 5838142.00423705),00213146,PF-Public Space Furniture,Llanberris Athletics Reserve,Ballarat City Council,Llanberris Athletics Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.183,POINT (754792.135996487 5839510.275729519),00213503,PF-Public Space Furniture,Russell Square,Ballarat City Council,Russell Square,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.136,POINT (753140.8314634734 5838216.169140987),00213147,PF-Public Space Furniture,Llanberris Athletics Reserve,Ballarat City Council,Llanberris Athletics Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.137,POINT (748427.6140594598 5845870.761070351),00213176,PF-Public Space Furniture,MACARTHUR PARK WETLANDS,Ballarat City Council,Macarthur Park Wetlands,STEEL BIN WITH COUNCIL LOGO,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.138,POINT (751011.1525194391 5834188.338993959),00213185,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.139,POINT (751019.4231012717 5834254.285570725),00213188,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.140,POINT (750995.4359402091 5834262.123975237),00213189,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.141,POINT (750903.7668891631 5834296.117056033),00213191,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.142,POINT (750901.1364648335 5834296.63695021),00213192,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.143,POINT (751137.4128873101 5834330.250108374),00213200,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.144,POINT (751140.2412119037 5834350.825920228),00213202,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.145,POINT (751158.82734495 5834392.357466605),00213203,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.146,POINT (751219.8960678102 5834433.609069966),00213205,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.147,POINT (751298.3717679819 5834374.911017792),00213207,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.148,POINT (751278.1034827014 5834335.639011495),00213210,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.149,POINT (751226.4762515579 5834268.342709457),00213211,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.150,POINT (751026.283643727 5834445.256699102),00213215,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.151,POINT (751066.5810848005 5834375.600877348),00213217,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.152,POINT (751041.9260103558 5834311.813861011),00213219,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.153,POINT (750948.7232322689 5834417.612326026),00213223,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.154,POINT (750935.5876023052 5834380.68984149),00213224,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.155,POINT (750952.9533503939 5834300.626138229),00213226,PF-Public Space Furniture,,Ballarat City Council,Marty Busch Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.156,POINT (753690.4417233795 5838785.453264909),00213245,PF-Public Space Furniture,McKenzie Reserve,Ballarat City Council,McKenzie Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.157,POINT (750157.113933932 5843040.127237888),00213259,PF-Public Space Furniture,MONTGOMERY STREET RESERVE,Ballarat City Council,Montgomery Street Reserve,WHEELIE BIN ON HOLDER,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.158,POINT (750218.2816069332 5836914.034186475),00213264,PF-Public Space Furniture,Morshead Park,Ballarat City Council,Morshead Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.159,POINT (750249.4673900626 5837094.927366193),00213265,PF-Public Space Furniture,Morshead Park,Ballarat City Council,Morshead Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.160,POINT (751834.2197137533 5837205.00496039),00213282,PF-Public Space Furniture,Mt Pleasant Reserve,Ballarat City Council,Mount Pleasant Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.161,POINT (749371.8291981865 5840872.628425939),00213318,PF-Public Space Furniture,Ballarat Botanical Gardens (North),Ballarat City Council,North Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.162,POINT (749328.9837912215 5840903.902060276),00213319,PF-Public Space Furniture,Ballarat Botanical Gardens (North),Ballarat City Council,North Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.163,POINT (749477.6481180465 5840959.420759621),00213320,PF-Public Space Furniture,Ballarat Botanical Gardens (North),Ballarat City Council,North Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.164,POINT (749410.5929122287 5840900.652721678),00213321,PF-Public Space Furniture,Ballarat Botanical Gardens (North),Ballarat City Council,North Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.165,POINT (749417.3792420848 5840899.362984202),00213322,PF-Public Space Furniture,Ballarat Botanical Gardens (North),Ballarat City Council,North Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.166,POINT (749419.6798326438 5840913.350137157),00213323,PF-Public Space Furniture,Ballarat Botanical Gardens (North),Ballarat City Council,North Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.167,POINT (749412.5306856347 5840914.38992551),00213324,PF-Public Space Furniture,Ballarat Botanical Gardens (North),Ballarat City Council,North Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.168,POINT (751714.4818087139 5841447.11149182),00213337,PF-Public Space Furniture,NORTHERN OVAL,Ballarat City Council,Northern Oval Reserve,WHEELIE BIN ON HOLDER,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.169,POINT (751690.5028935005 5841425.425905857),00213338,PF-Public Space Furniture,NORTHERN OVAL,Ballarat City Council,Northern Oval Reserve,WHEELIE BIN ON HOLDER,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.170,POINT (751650.8898574993 5841407.079640184),00213339,PF-Public Space Furniture,NORTHERN OVAL,Ballarat City Council,Northern Oval Reserve,WHEELIE BIN ON HOLDER,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.171,POINT (751594.587232641 5841411.458748821),00213342,PF-Public Space Furniture,NORTHERN OVAL,Ballarat City Council,Northern Oval Reserve,WHEELIE BIN ON HOLDER,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.172,POINT (751590.2086893184 5841543.451881999),00213343,PF-Public Space Furniture,NORTHERN OVAL,Ballarat City Council,Northern Oval Reserve,WHEELIE BIN ON HOLDER,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.173,POINT (752438.9699344718 5837604.243696565),00213351,PF-Public Space Furniture,,Ballarat City Council,Pearces Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.174,POINT (750422.0116819703 5837878.6078503085),00213420,PF-Public Space Furniture,Pleasant Street Reserve,Ballarat City Council,Pleasant Street Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.175,POINT (750392.6317387408 5837971.468948696),00213421,PF-Public Space Furniture,Pleasant Street Reserve,Ballarat City Council,Pleasant Street Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.176,POINT (748838.1169260861 5840420.120532561),00213430,PF-Public Space Furniture,,Ballarat City Council,Prince of Wales Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.177,POINT (748801.1178227282 5840424.77958422),00213433,PF-Public Space Furniture,,Ballarat City Council,Prince of Wales Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.178,POINT (748679.7060113044 5840511.281976895),00213439,PF-Public Space Furniture,,Ballarat City Council,Prince of Wales Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.179,POINT (748840.8710380812 5840476.459065015),00213442,PF-Public Space Furniture,,Ballarat City Council,Prince of Wales Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.180,POINT (748807.7062523216 5840494.455401908),00213443,PF-Public Space Furniture,,Ballarat City Council,Prince of Wales Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.181,POINT (748863.3162262584 5840466.941002391),00213444,PF-Public Space Furniture,,Ballarat City Council,Prince of Wales Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.182,POINT (754856.8411366828 5839546.278401287),00213502,PF-Public Space Furniture,Russell Square,Ballarat City Council,Russell Square,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.184,POINT (754791.0805284139 5839539.079866519),00213504,PF-Public Space Furniture,Russell Square,Ballarat City Council,Russell Square,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.185,POINT (754752.4982229498 5839544.148834742),00213505,PF-Public Space Furniture,Russell Square,Ballarat City Council,Russell Square,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.186,POINT (754914.5620467577 5839660.585134489),00213506,PF-Public Space Furniture,Russell Square,Ballarat City Council,Russell Square,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.187,POINT (749176.4769009555 5839998.636324491),00213575,PF-Public Space Furniture,Ballarat Botanical Gardens (South),Ballarat City Council,South Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.188,POINT (749307.3384499473 5840004.185195047),00213576,PF-Public Space Furniture,Ballarat Botanical Gardens (South),Ballarat City Council,South Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.189,POINT (749310.1997579158 5840019.502077342),00213577,PF-Public Space Furniture,Ballarat Botanical Gardens (South),Ballarat City Council,South Gardens Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.190,POINT (752935.1718608699 5837205.554848589),00213579,PF-Public Space Furniture,GOLDEN POINT LOOKOUT (SOV HILL LOOKOUT),Ballarat City Council,Golden Point Lookout,STEEL BIN,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.191,POINT (753029.2239609176 5837090.798206983),00213597,PF-Public Space Furniture,GOLDEN POINT LOOKOUT (SOV HILL LOOKOUT),Ballarat City Council,Golden Point Lookout,WHEELIE BIN ON HOLDER,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.192,POINT (754808.6689143024 5837150.206114889),00213599,PF-Public Space Furniture,Sparrow Ground Reserve,Ballarat City Council,Sparrow Ground Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.193,POINT (754777.9778818305 5837149.596239022),00213600,PF-Public Space Furniture,Sparrow Ground Reserve,Ballarat City Council,Sparrow Ground Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.194,POINT (750084.4762915233 5842658.075003512),00213602,PF-Public Space Furniture,STAMFORD STREET RESERVE,Ballarat City Council,Stamford Street Reserve,WHEELIE BIN ON HOLDER,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.195,POINT (750580.018550384 5837966.809897054),00213616,PF-Public Space Furniture,Trekardo Park,Ballarat City Council,Trekardo Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.196,POINT (750562.9908819104 5837912.231006427),00213617,PF-Public Space Furniture,Trekardo Park,Ballarat City Council,Trekardo Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.197,POINT (750644.5505278496 5837881.65722964),00213618,PF-Public Space Furniture,Trekardo Park,Ballarat City Council,Trekardo Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.198,POINT (749848.9502408865 5836628.142378888),00213620,PF-Public Space Furniture,TYAR COURT PARK,Ballarat City Council,Tyar Court Park,WHEELIE BIN ON HOLDER,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.199,POINT (749640.536526285 5839083.172664529),00213625,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.200,POINT (749493.5378600089 5839240.77058591),00213626,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.201,POINT (749709.6037181164 5839062.766818088),00213632,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.202,POINT (749195.3186551766 5839598.527765436),00213635,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.203,POINT (749281.5866782065 5839549.947653788),00213638,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.204,POINT (749288.7275793671 5839546.288398619),00213639,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.205,POINT (749369.0668403492 5839500.667684592),00213642,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.206,POINT (749147.6659209848 5839507.756241714),00213653,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.207,POINT (749119.8197047953 5839496.158602377),00213654,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.208,POINT (748995.958877617 5839155.1980039105),00213655,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.209,POINT (749092.7815813471 5838775.395311665),00213656,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.210,POINT (749148.2926051519 5839051.319148168),00213660,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.211,POINT (749109.7267913768 5839003.828814684),00213661,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.212,POINT (749729.6741031331 5838774.68545622),00213667,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.213,POINT (750179.3612218569 5834925.568932839),00213670,PF-Public Space Furniture,VICTORIA STREET RESERVE,Ballarat City Council,Victoria Street Reserve,WHEELIE BIN ON HOLDER,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.214,POINT (750630.1780212423 5835567.618245602),00213673,PF-Public Space Furniture,Victory Park,Ballarat City Council,Victory Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.215,POINT (750585.765903862 5835569.177928129),00213674,PF-Public Space Furniture,Victory Park,Ballarat City Council,Victory Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.216,POINT (750442.4366383001 5833593.700030943),00213686,PF-Public Space Furniture,WALL STREET PARK,Ballarat City Council,Wall Street Reserve,WHEELIE BIN ON HOLDER,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.217,POINT (753589.7764562045 5839521.143517267),00213695,PF-Public Space Furniture,WEBB AVENUE PARK,Ballarat City Council,Webb Avenue Park,BIN HOLDER,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.218,POINT (749450.9233366797 5842435.0803933535),00213702,PF-Public Space Furniture,,Ballarat City Council,Weeramar Park,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.219,POINT (749466.0791984953 5842428.891653055),00213708,PF-Public Space Furniture,,Ballarat City Council,Weeramar Park,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.220,POINT (749096.4922112775 5843080.56900597),00213718,PF-Public Space Furniture,Wendouree West Recreation Reserve,Ballarat City Council,Wendouree West Recreation Reserve,,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.221,POINT (749103.1383617807 5843057.493702883),00213719,PF-Public Space Furniture,Wendouree West Recreation Reserve,Ballarat City Council,Wendouree West Recreation Reserve,,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.222,POINT (750698.8164291669 5838609.149150761),00213742,PF-Public Space Furniture,Western Oval,Ballarat City Council,Western Oval Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.223,POINT (750710.418332089 5838680.01472628),00213743,PF-Public Space Furniture,Western Oval,Ballarat City Council,Western Oval Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.224,POINT (752307.3662594955 5838270.888003023),00213764,PF-Public Space Furniture,White Flat,Ballarat City Council,White Flat Oval Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.225,POINT (752331.6502709487 5838261.050005523),00213765,PF-Public Space Furniture,White Flat,Ballarat City Council,White Flat Oval Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.226,POINT (752324.4516488791 5838265.59907957),00213766,PF-Public Space Furniture,White Flat,Ballarat City Council,White Flat Oval Reserve,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.227,POINT (750553.1206062904 5835699.581384877),00213777,PF-Public Space Furniture,St Georges Reserve,Ballarat City Council,St Georges Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.228,POINT (750551.7188127601 5835659.189606507),00213778,PF-Public Space Furniture,St Georges Reserve,Ballarat City Council,St Georges Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.229,POINT (754305.0622197342 5831013.665190043),00213810,PF-Public Space Furniture,Mt Helen Tennis Cts,Ballarat City Council,Mount Helen Avenue,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.230,POINT (750822.792698159 5842124.723565739),00224108,PF-Public Space Furniture,Grandview Grove,Ballarat City Council,Grandview Grove,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.231,POINT (750237.3295072512 5842545.9178327955),00224126,PF-Public Space Furniture,Outside hobby shop,Ballarat City Council,Harold Street,,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.232,POINT (753076.1015857428 5838719.846618881),00224131,PF-Public Space Furniture,Next to bus stop,Ballarat City Council,Main Road,,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.233,POINT (752398.7384601489 5838899.150122091),00224592,PF-Public Space Furniture,Lydiard Street South,Ballarat City Council,Lydiard Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.234,POINT (752416.3268460304 5838986.972246153),00224594,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.235,POINT (752442.210551277 5839078.893535842),00224596,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.236,POINT (752456.9706125688 5839154.338179303),00224600,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.237,POINT (752339.9785736875 5839197.969298302),00224605,PF-Public Space Furniture,Mair Street,Ballarat City Council,Mair Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.238,POINT (752307.7125849541 5839059.517479767),00224609,PF-Public Space Furniture,Armstrong Street North,Ballarat City Council,Armstrong Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.239,POINT (752296.9187747699 5838995.100591639),00224612,PF-Public Space Furniture,Armstrong Street North,Ballarat City Council,Armstrong Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.240,POINT (752648.0680541457 5838880.62389308),00224778,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.241,POINT (752568.7018027892 5838893.711229181),00224782,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.242,POINT (752386.6005773423 5838925.52475361),00224791,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.243,POINT (752260.2165218053 5838946.000585799),00224803,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.244,POINT (752237.0869285527 5838950.0797554925),00224804,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.245,POINT (752176.1171558246 5838962.1472991705),00224807,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.246,POINT (752235.0419591713 5838950.899588618),00224811,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.247,POINT (752104.5267356407 5838976.454386997),00224814,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.248,POINT (751926.3340403887 5839005.84840391),00224821,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.249,POINT (751875.7540314735 5839015.946348496),00224825,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.250,POINT (751784.7116645939 5839029.983491266),00224829,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.251,POINT (751741.7095865863 5839039.8114908),00224833,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.252,POINT (751676.2623204039 5839049.8194537),00224834,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.253,POINT (751609.3225564033 5839064.576449949),00224837,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.254,POINT (751477.1169347946 5839086.751936179),00224842,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.255,POINT (751390.4118820168 5839103.678490818),00224845,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.256,POINT (751356.7688372842 5839107.087796859),00224846,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.257,POINT (751296.697861583 5839116.385904249),00224855,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.258,POINT (751072.1882589158 5839158.677295934),00224869,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.259,POINT (750968.2328998677 5839168.405315811),00224879,PF-Public Space Furniture,,Ballarat City Council,Ripon Street South,,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.260,POINT (750810.1023437909 5839257.927093894),00224896,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.261,POINT (750958.0987572286 5839233.072153062),00224897,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.262,POINT (751221.9740205656 5839183.392265288),00224906,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.263,POINT (751311.4331853428 5839165.725861246),00224912,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.264,POINT (751570.459892232 5839122.904577423),00224930,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.265,POINT (751816.3427233181 5839079.343444193),00224939,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.266,POINT (751937.2680299259 5839056.987994594),00224946,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.267,POINT (752055.0104406385 5839033.392797343),00224949,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.268,POINT (752134.5003796594 5839019.935536537),00224952,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.269,POINT (752188.1808260288 5839010.517453567),00224956,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.270,POINT (752269.1880004012 5838995.570495987),00224961,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.271,POINT (752333.093293701 5838985.222602279),00224968,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.272,POINT (752452.3776772966 5838963.127099769),00224971,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.273,POINT (752528.9403415917 5838949.069961065),00224974,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.274,POINT (752568.8337362985 5838941.731454803),00224975,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.275,POINT (752663.3063744049 5838921.005673487),00224979,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.276,POINT (752123.9374531152 5838845.940952633),00224991,PF-Public Space Furniture,Doveton Street South,Ballarat City Council,Doveton Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.277,POINT (752153.7874094693 5838932.5433249725),00224993,PF-Public Space Furniture,Doveton Street South,Ballarat City Council,Doveton Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.278,POINT (752144.7499641187 5838886.302737109),00224995,PF-Public Space Furniture,Doveton Street South,Ballarat City Council,Doveton Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.279,POINT (752351.2506428421 5838641.062655047),00225013,PF-Public Space Furniture,Lydiard Street South,Ballarat City Council,Lydiard Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.280,POINT (752347.8616008376 5838638.713133284),00225014,PF-Public Space Furniture,Lydiard Street South,Ballarat City Council,Lydiard Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.281,POINT (752366.2910628382 5838632.144470317),00225022,PF-Public Space Furniture,,Ballarat City Council,Lydiard Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.282,POINT (752373.8607479064 5838608.069370735),00225027,PF-Public Space Furniture,Lydiard Street South,Ballarat City Council,Lydiard Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.283,POINT (752346.3113821072 5838560.169120691),00225042,PF-Public Space Furniture,Lydiard Street South,Ballarat City Council,Lydiard Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.284,POINT (752332.590297198 5838566.287875235),00225051,PF-Public Space Furniture,Lydiard Street South,Ballarat City Council,Lydiard Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.285,POINT (752260.216521807 5838439.343714344),00225070,PF-Public Space Furniture,Grant Street,Ballarat City Council,Grant Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.286,POINT (752305.7088447914 5838420.127625729),00225071,PF-Public Space Furniture,Grant Street,Ballarat City Council,Grant Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.287,POINT (752478.2778742346 5838329.875996208),00225072,PF-Public Space Furniture,Grant Street,Ballarat City Council,Grant Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.288,POINT (752411.2391601014 5838395.112717453),00225075,PF-Public Space Furniture,Grant Street,Ballarat City Council,Grant Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.289,POINT (752460.8791427654 5838489.923419013),00225080,PF-Public Space Furniture,Albert Street,Ballarat City Council,Albert Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.290,POINT (752479.0364919066 5838587.943467317),00225081,PF-Public Space Furniture,Albert Street,Ballarat City Council,Albert Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.291,POINT (752430.9797113456 5838680.654596228),00225084,PF-Public Space Furniture,Dana Street,Ballarat City Council,Dana Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.292,POINT (752519.8121919553 5838808.368600422),00225086,PF-Public Space Furniture,Albert Street,Ballarat City Council,Albert Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.293,POINT (752656.2891609094 5838712.798053548),00225093,PF-Public Space Furniture,Civic Park (Police & Law Courts),Ballarat City Council,Civic Park (Police & Law Courts),,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.294,POINT (752863.2021318455 5838708.878851313),00225102,PF-Public Space Furniture,Coles/Safeway Off-Street Car Parking,Ballarat City Council,Little Bridge Street,,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.295,POINT (753243.1871287263 5838593.922250441),00225106,PF-Public Space Furniture,Main Road,Ballarat City Council,Main Road,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.296,POINT (753068.3999671695 5838721.326317692),00225107,PF-Public Space Furniture,Main Road,Ballarat City Council,Main Road,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.297,POINT (752899.0385711604 5838774.185558326),00225119,PF-Public Space Furniture,Little Bridge Street,Ballarat City Council,Little Bridge Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.298,POINT (752821.4286846392 5838784.89337877),00225126,PF-Public Space Furniture,Little Bridge Street,Ballarat City Council,Little Bridge Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.299,POINT (752798.8103337327 5838791.232088542),00225127,PF-Public Space Furniture,Little Bridge Street,Ballarat City Council,Little Bridge Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.300,POINT (752791.0097650314 5838791.132108891),00225128,PF-Public Space Furniture,Little Bridge Street,Ballarat City Council,Little Bridge Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.301,POINT (752731.8623238888 5838820.846060696),00225132,PF-Public Space Furniture,Little Bridge Street,Ballarat City Council,Little Bridge Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.302,POINT (752870.2028536539 5838794.111502453),00225149,PF-Public Space Furniture,Little Bridge Street,Ballarat City Council,Little Bridge Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.303,POINT (753043.0604876452 5838826.314947556),00225167,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.304,POINT (753021.7367342935 5838823.815456317),00225170,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.305,POINT (753030.8483922423 5838842.121730129),00225175,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.306,POINT (753056.2620843643 5838842.331687396),00225180,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.307,POINT (753061.6631123794 5838840.172126968),00225183,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.308,POINT (753077.0086286154 5838843.981351614),00225186,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.309,POINT (753099.0085411977 5838848.890352404),00225188,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.310,POINT (753032.4315943466 5838918.476188399),00225190,PF-Public Space Furniture,Curtis Street,Ballarat City Council,Curtis Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.311,POINT (753005.846992334 5838923.19522785),00225191,PF-Public Space Furniture,Curtis Street,Ballarat City Council,Curtis Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.312,POINT (752955.4566378372 5838849.2702750545),00225193,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.313,POINT (752960.5608154573 5838841.791797278),00225194,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.314,POINT (752687.6233692385 5838923.115244092),00225198,PF-Public Space Furniture,Grenville Street North,Ballarat City Council,Grenville Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.315,POINT (752711.478596786 5839127.613619042),00225219,PF-Public Space Furniture,Grenville Street North,Ballarat City Council,Grenville Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.316,POINT (752811.8387677212 5838957.128320844),00225222,PF-Public Space Furniture,Curtis Street (Dan Murphys),Ballarat City Council,Curtis Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.317,POINT (752170.988240672 5839123.144528648),00225233,PF-Public Space Furniture,Mair Street,Ballarat City Council,Mair Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.318,POINT (752175.7790762103 5839074.344461762),00225235,PF-Public Space Furniture,Doveton Street North,Ballarat City Council,Doveton Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.319,POINT (752189.2940150108 5839145.769923316),00225236,PF-Public Space Furniture,Doveton Street North,Ballarat City Council,Doveton Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.320,POINT (752309.7080792759 5839123.024553087),00225303,PF-Public Space Furniture,Armstrong Street North,Ballarat City Council,Armstrong Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.321,POINT (752296.6219243761 5839050.579299107),00225306,PF-Public Space Furniture,Armstrong Street North,Ballarat City Council,Armstrong Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.322,POINT (752430.0561767842 5838994.810650669),00225311,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.323,POINT (752440.0336483845 5839058.247738235),00225319,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.324,POINT (752445.5913474394 5839092.52076206),00225320,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.325,POINT (752452.6662818453 5839135.74196451),00225322,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.326,POINT (752471.3266274885 5839221.844438601),00225330,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.327,POINT (752489.1788803906 5839318.854692446),00225334,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.328,POINT (752480.1084516642 5839331.942028556),00225336,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.329,POINT (752932.2610778315 5839096.299992865),00225394,PF-Public Space Furniture,Mair Street East,Ballarat City Council,Mair Street East,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.330,POINT (752944.596860898 5838857.768545255),00225400,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.331,POINT (752918.8121057824 5838858.158465885),00225413,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.332,POINT (752899.2859464873 5838853.669379624),00225419,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.333,POINT (752890.669039198 5838853.369440673),00225427,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.334,POINT (752877.3520006586 5838867.176630259),00225431,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.335,POINT (752861.1406707715 5838859.918107707),00225437,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.336,POINT (752860.8685579094 5838869.20621714),00225439,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.337,POINT (752838.3574029792 5838875.254985929),00225442,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.338,POINT (752832.882162367 5838865.097053545),00225443,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.339,POINT (752802.6611430184 5838871.0158487875),00225446,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.340,POINT (752792.5599837563 5838882.71346777),00225452,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.341,POINT (752778.3359023449 5838875.364963535),00225455,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.342,POINT (752737.6838899622 5838885.042993596),00225465,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.343,POINT (752717.5805215654 5838895.160934116),00225478,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.344,POINT (752694.6983036431 5838886.86262321),00225490,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.345,POINT (752690.4022187634 5839033.662742469),00225500,PF-Public Space Furniture,Grenville Street North,Ballarat City Council,Grenville Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.346,POINT (752530.7626731808 5839163.796254149),00225504,PF-Public Space Furniture,Mair Street,Ballarat City Council,Mair Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.347,POINT (752546.9740030689 5839097.119825946),00225507,PF-Public Space Furniture,Camp Street,Ballarat City Council,Camp Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.348,POINT (752564.9911728557 5839014.246694535),00225510,PF-Public Space Furniture,Camp Street,Ballarat City Council,Camp Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.349,POINT (752414.8508399038 5838914.716953509),00225534,PF-Public Space Furniture,Lydiard Street South,Ballarat City Council,Lydiard Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.350,POINT (752249.0763861602 5838797.090895935),00225546,PF-Public Space Furniture,Phoenix Foundry Mall,Ballarat City Council,Phoenix Foundry Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.351,POINT (752256.6378253823 5838813.76750146),00225547,PF-Public Space Furniture,Phoenix Foundry Mall,Ballarat City Council,Phoenix Foundry Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.352,POINT (752257.8911937148 5838828.074589295),00225549,PF-Public Space Furniture,Phoenix Foundry Mall,Ballarat City Council,Phoenix Foundry Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.353,POINT (752265.9968586578 5838844.601225347),00225551,PF-Public Space Furniture,Phoenix Foundry Mall,Ballarat City Council,Phoenix Foundry Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.354,POINT (752268.1737615549 5838909.977918109),00225553,PF-Public Space Furniture,Armstrong Street South,Ballarat City Council,Armstrong Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.355,POINT (752263.4076635496 5838854.199271692),00225571,PF-Public Space Furniture,Phoenix Foundry Mall,Ballarat City Council,Phoenix Foundry Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.356,POINT (752255.1205900334 5838833.173551415),00225580,PF-Public Space Furniture,Phoenix Foundry Mall,Ballarat City Council,Phoenix Foundry Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.357,POINT (752273.5005769671 5838829.9242128115),00225605,PF-Public Space Furniture,Phoenix Foundry Mall,Ballarat City Council,Phoenix Foundry Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.358,POINT (754451.640347955 5829048.265241555),00225744,PF-Public Space Furniture,"Out the front of Buninyong Cake Shop, 317 Learmonth St",Ballarat City Council,Learmonth Street service road (south),,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.359,POINT (754461.4693943573 5829045.855732005),00225746,PF-Public Space Furniture,"Out the front of Buninyong Cake Shop, 317 Learmonth St",Ballarat City Council,Learmonth Street service road (south),,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.360,POINT (754681.2788657749 5829027.909384958),00225749,PF-Public Space Furniture,"Out the front of FoodWorks, 310 Learmonth St",Ballarat City Council,Learmonth Street service road (north),,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.361,POINT (754580.4734192475 5829056.043658297),00225750,PF-Public Space Furniture,"Out the front of Buninyong Bakery, 308 Learmonth St",Ballarat City Council,Learmonth Street service road (north),,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.362,POINT (754573.3407639309 5829059.652923641),00225751,PF-Public Space Furniture,"Out the front of Buninyong Bakery, 308 Learmonth St",Ballarat City Council,Learmonth Street service road (north),,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.363,POINT (754494.8568179149 5829083.51806595),00225755,PF-Public Space Furniture,"Ot the front of Ridge Therapies, 318 Learmonth st",Ballarat City Council,Learmonth Street service road (north),,No Code Allocated
+7efc6dd4_2b71_4925_be87_65ee288e49b0.364,POINT (754450.9229595051 5829109.242829744),00225760,PF-Public Space Furniture,Out the front of Chocallato shop,Ballarat City Council,Warrenheip Street,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.365,POINT (754442.7183444258 5829228.14862681),00225761,PF-Public Space Furniture,Next to concrete wheel feature,Ballarat City Council,De Soza Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.366,POINT (754436.9132700408 5829203.033738872),00225762,PF-Public Space Furniture,Right side of rotunda in park,Ballarat City Council,De Soza Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.367,POINT (754473.7309648276 5829178.478736976),00225763,PF-Public Space Furniture,501 Warrenheip Street in front of Bp Servo,Ballarat City Council,Warrenheip Street,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.368,POINT (748938.5513096191 5840936.185489036),00225886,PF-Public Space Furniture,St Cedars Grove,Ballarat City Council,St Cedars Grove,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.369,POINT (740160.8005807999 5855023.71801161),00227227,PF-Public Space Furniture,High Street (Learmonth),Ballarat City Council,High Street (Sunraysia Highway),,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.370,POINT (741091.8141227916 5853340.5606135195),00227316,PF-Public Space Furniture,,Ballarat City Council,Foreshore Road,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.371,POINT (740102.2798238278 5854641.605789445),00227348,PF-Public Space Furniture,,Ballarat City Council,Foreshore Road,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.372,POINT (739980.3072949924 5854739.93577465),00227377,PF-Public Space Furniture,,Ballarat City Council,Foreshore Road,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.373,POINT (736054.4690712595 5847201.08028665),00227407,PF-Public Space Furniture,Lake Burrumbeet Reserve,Ballarat City Council,Lake Burrumbeet Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.374,POINT (736034.7779950784 5847362.827363497),00227438,PF-Public Space Furniture,Lake Burrumbeet Reserve,Ballarat City Council,Lake Burrumbeet Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.375,POINT (735934.9373123393 5847446.34036466),00227482,PF-Public Space Furniture,Lake Burrumbeet Reserve,Ballarat City Council,Lake Burrumbeet Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.376,POINT (736128.2611318695 5847362.73738182),00227491,PF-Public Space Furniture,Lake Burrumbeet Reserve,Ballarat City Council,Lake Burrumbeet Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.377,POINT (752309.7080792759 5839123.024553087),00227531,PF-Public Space Furniture,Armstrong Street North,Ballarat City Council,Armstrong Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.378,POINT (753021.7367342935 5838823.815456317),00227532,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.379,POINT (752955.4566378372 5838849.2702750545),00227533,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.380,POINT (752877.3520006586 5838867.176630259),00227534,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.381,POINT (752838.3574029792 5838875.254985929),00227535,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.382,POINT (752802.6611430184 5838871.0158487875),00227536,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.383,POINT (752792.5599837563 5838882.71346777),00227537,PF-Public Space Furniture,Bridge Mall,Ballarat City Council,Bridge Mall,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.384,POINT (752260.216521807 5838439.343714344),00227538,PF-Public Space Furniture,Grant Street,Ballarat City Council,Grant Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.385,POINT (752305.7088447914 5838420.127625729),00227539,PF-Public Space Furniture,Grant Street,Ballarat City Council,Grant Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.386,POINT (752798.8103337327 5838791.232088542),00227540,PF-Public Space Furniture,Little Bridge Street,Ballarat City Council,Little Bridge Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.387,POINT (752452.6662818453 5839135.74196451),00227541,PF-Public Space Furniture,Lydiard Street North,Ballarat City Council,Lydiard Street North,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.388,POINT (752346.3113821072 5838560.169120691),00227542,PF-Public Space Furniture,Lydiard Street South,Ballarat City Council,Lydiard Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.389,POINT (752332.590297198 5838566.287875235),00227543,PF-Public Space Furniture,Lydiard Street South,Ballarat City Council,Lydiard Street South,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.390,POINT (752648.0680541457 5838880.62389308),00227544,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.391,POINT (752386.6005773423 5838925.52475361),00227545,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.392,POINT (752260.2165218053 5838946.000585799),00227546,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.393,POINT (752104.5267356407 5838976.454386997),00227547,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.394,POINT (752188.1808260288 5839010.517453567),00227548,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.395,POINT (752333.093293701 5838985.222602279),00227549,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.396,POINT (752568.8337362985 5838941.731454803),00227550,PF-Public Space Furniture,Sturt Street,Ballarat City Council,Sturt Street,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.397,POINT (746563.4595476405 5840387.227227668),00227558,PF-Public Space Furniture,,Ballarat City Council,Cuthberts Road Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.398,POINT (747323.4707706168 5839647.437809747),00227655,PF-Public Space Furniture,,Ballarat City Council,Alfredton Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.399,POINT (747323.4707706168 5839647.437809747),00227656,PF-Public Space Furniture,,Ballarat City Council,Alfredton Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.400,POINT (747361.6572755526 5839826.141435144),00227692,PF-Public Space Furniture,,Ballarat City Council,Alfredton Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.401,POINT (747344.3904775954 5839942.917665677),00227702,PF-Public Space Furniture,,Ballarat City Council,Alfredton Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.402,POINT (747238.8931456656 5839867.043109713),00227729,PF-Public Space Furniture,,Ballarat City Council,Alfredton Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.403,POINT (746276.363986762 5839824.171835942),00227746,PF-Public Space Furniture,,Ballarat City Council,The Chase Central Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.404,POINT (754282.4273771435 5828405.696034645),00227872,PF-Public Space Furniture,,Ballarat City Council,Royal Park,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.405,POINT (753054.3737860257 5835055.562473353),00227925,PF-Public Space Furniture,,Ballarat City Council,Glenvale Road Reserve,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.406,POINT (758163.4494372231 5828581.310289368),00227967,PF-Public Space Furniture,,Ballarat City Council,Mount Buninyong,,South
+7efc6dd4_2b71_4925_be87_65ee288e49b0.407,POINT (747410.5881156081 5839984.789142865),00234024,PF-Public Space Furniture,,Ballarat City Council,Alfredton Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.408,POINT (753910.4161116761 5843300.604218975),00234172,PF-Public Space Furniture,,Ballarat City Council,Invermay Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.409,POINT (753915.4213391661 5843292.475873476),00234174,PF-Public Space Furniture,,Ballarat City Council,Invermay Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.410,POINT (753921.0614966629 5843282.867829166),00234175,PF-Public Space Furniture,,Ballarat City Council,Invermay Recreation Reserve,,North
+7efc6dd4_2b71_4925_be87_65ee288e49b0.411,POINT (749302.4569101225 5839535.210653463),00235499,PF-Public Space Furniture,,Not Assessed,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.412,POINT (749255.8431523128 5839505.506699613),00235506,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.413,POINT (749294.7965207715 5839459.796003897),00235513,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.414,POINT (749707.4762902872 5838789.462448403),00235521,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central
+7efc6dd4_2b71_4925_be87_65ee288e49b0.415,POINT (749710.1561896817 5839060.967184396),00235553,PF-Public Space Furniture,,Ballarat City Council,Victoria Park,,Central

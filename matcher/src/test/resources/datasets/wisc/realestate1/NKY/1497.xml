@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>4129 RICHARDSON RD</house_location>
+<price>$109,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>0</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249562</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>CHARMING ONE(1) FLOOR PLAN ON ALMOST 1/2 ACRE,WOODED LOT*RECENTLY
+PAINTED 1ST FLR COMBINED W/THICK,LIGHT CARPETS-SHOWS GREAT!*LG
+COUNTRY-LIKE KITCHEN FIN L/LEVEL W/FAM RM,STUDY,BEDRM*ADD'L B/I GAR
+F/STORAGE*NEWER C/AIR,OTHERS</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>100 x 200</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>12 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>11 X 9</dimension><level>L</level></bedroom_4>
+<family><dimension>19 X 11</dimension><level>L</level></family>
+<kitchen><dimension>20 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 13</dimension><level>L</level></laundry>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>1</level></master>
+<study><dimension>17 X 10</dimension><level>L</level></study>
+
+<directions>TURKEYFOOT TO RICHARDSON RD</directions>
+</house_listing>
+
+
+

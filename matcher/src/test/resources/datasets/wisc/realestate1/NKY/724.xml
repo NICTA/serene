@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>508 CRAIG ST</house_location>
+<price>$22,000</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>246166</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>JAN HOUSTON</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>IN MAIN STRASSE, REHAB MONEY AVAILABLE, RENTED MONTHLY- $350 MONTH.
+AREA HAS ALMOST ALL REHABBED</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>19 X 15</dimension><level>2</level></bedroom_2>
+<kitchen><dimension>15 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>EAST ON FIFTH R ON MAIN L ON CRAIG</directions>
+</house_listing>
+
+
+

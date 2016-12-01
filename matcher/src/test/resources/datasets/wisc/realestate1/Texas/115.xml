@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Franklin Adams</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)289-4679</mobile>
+<email>Two4OneC21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21707</id>
+<mls>88867</mls>
+<house_location>509 North 4th Street
+Nolanville, TEXAS 76559</house_location>
+<county>Bell</county>
+<price>$46,800</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Cute little 3 bedroom, 1.75 bath home in the town of Nolanville.  It is vacant and ready for occupancy.  Call Frank today for your personal viewing.</house_description>
+
+<sub-division>Pitts Valley</sub-division>
+<approx_size_sqft>1511</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>77x152</approx_lot_size>
+<approx_acres>0.25</approx_acres>
+<year_built>1969</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

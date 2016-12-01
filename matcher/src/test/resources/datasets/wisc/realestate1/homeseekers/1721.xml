@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1987 has 4
+bedroom(s), 2.75 bath(s) , 1 car attached garage and approximately
+2667 square feet of living area. Rooms include dining room, family
+room, living room, bonus room, master bedroom. Features include view,
+patio, fireplace, air conditioning, double door entry.</house_description>
+
+<agent_name>Brian Moore</agent_name>
+<office>323-665-1121</office>
+<firm_name>Fred Sands Hillhurst Fred Sands Hillhurst</firm_name>
+<phone>323-665-1121</phone>
+<fax>323-665-0406</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$399,000</list_price>
+<location>4070 Sea View Av</location>
+<mls>G200209</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2.75</baths>
+<levels>2</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>2667 (approx)</square_feet>
+<lot_size>8280</lot_size>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room, Master</rooms>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Double-Door Entry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

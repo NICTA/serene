@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ginny McKenzie-Way</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11171</id>
+<mls></mls>
+<house_location>3201 Prairie
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$76,000</price>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A nice home on approx. 1/2 acres.  New tile in kitchen, new dishwasher, new garbage disposal, new carpet, fresh paint inside and out, new roof.  HURRY!  HURRY!</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Prairie Estates</sub-division>
+<approx_size_sqft>1349</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>22200</approx_lot_size>
+<master_bedroom>Upstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Nice home for family</item>
+<item>plenty of rooms</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

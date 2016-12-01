@@ -1,0 +1,35 @@
+<house_listing>
+<price>$239,900</price>
+<mls_id_number>162699</mls_id_number>
+<city>SALEM</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>2166</sqft>
+<year_built>1996</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>COMP</roof>
+<garage>Parking for 3 Car(s)</garage>
+<lot_size>0.20        Acres</lot_size>
+<lot_description>85 X 103</lot_description>
+<fireplace>1</fireplace>
+<taxes>$3,011</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Built In Vaccuum System, Gas Fireplace, Security System</interior>
+<exterior>Deck, Patio, Sprinkler System,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>CHA</elementary>
+<middle_school>WAL</middle_school>
+<high_school>SSH</high_school>
+</schools>
+<comments>Classic single level home loaded with extras, tile, crown moldings,skylites, custom cabinetry, gas fireplace, auto sprinklers, jacuzzi tub,central ac, central vac, sec sys and view.</comments>
+
+</house_listing>
+
+
+

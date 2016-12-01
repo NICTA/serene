@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This single family home built in 1937 has 5 bedroom(s), 2 bath(s) and
+approximately 1220 square feet of living area.</house_description>
+
+<agent_name>Patricia Orsini</agent_name>
+<office>305-558-5210</office>
+<firm_name>Principal Realty I
+Lic. Real Estate Broker</firm_name>
+<phone>305-558-5210</phone>
+<fax>305-828-9244</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$69,900</list_price>
+<location>6331 NW 1 Pl</location>
+<neighborhood>Rockmoor Headlight Tr</neighborhood>
+<mls>M771059</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1220 (approx)</square_feet>
+<lot_size>50 X 94</lot_size>
+<year_built>1937</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

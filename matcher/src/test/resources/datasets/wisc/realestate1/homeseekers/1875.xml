@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1995 has 2 bedroom(s), 2 bath(s) and
+approximately 1000 square feet of living area. Features include
+private pool, air conditioning.</house_description>
+
+<agent_name>Nicholas Martinell</agent_name>
+<direct>305-534-1999</direct>
+<office>534-1999</office>
+<firm_name>Majestic Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>534-1999</phone>
+<fax>305-534-9088</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,000</list_price>
+<location>1688 West Av #303</location>
+<neighborhood>West Bay Plaza Condo Desc</neighborhood>
+<mls>M741235</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1000 (approx)</square_feet>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

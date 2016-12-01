@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Classic elegance is all around you here on the ocean/bay front condo.
+Every luxury is at your feet. Exquisite marble foyer opens to panorama
+view of chesapeake bay and the ocean. There is a library w/hardwood
+flors, massive kitchen w/light cabinets, you'll fall in love!</house_description>
+
+<agent_name>Cheryl Talbot</agent_name>
+<office>757-486-8800</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-486-8800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$950,000</list_price>
+<location>Virginia Beach, VA 23455</location>
+<mls>9929418</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3(full) 1(half)</baths>
+<type>Townhouse/Condo</type>
+<style>Contemporary, Transitional</style>
+<square_feet>3540 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<location>Ocean front, Bay front</location>
+<view>Bay View, Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Breakfast Room, Cable TV, Club House, Contemporary Style,Foyer, Library, Microwave, Utility Room, Walk-In Closet(s), Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

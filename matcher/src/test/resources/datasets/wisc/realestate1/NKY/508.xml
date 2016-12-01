@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>133 FOOTE AVE</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>(Attached)</garage>
+<suburb>BELLEVUE</suburb>
+<school_dist>BELLEVUE IN</school_dist>
+<mls>247931</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>BRAD CULL</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>VERY CLEAN &amp; WELL KEPT-BRAND NEW KITCHEN-INCLD CABINETS, TOPS,
+APPLIANCES, RECESSED LIGHTING-LG EATIN KIT W/WALKOUT PLUS FDR W/HDWD
+FLOORS-WRAP AROUND PORCH-GAR-LEVEL BACKYARD-IMMEDIATE OCCUPANCY-EASY
+TO SHOW</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>13 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>16 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>16 X 15</dimension><level>1</level></kitchen>
+<living><dimension>16 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>2</level></master>
+
+<directions>E ON RT 8 (FAIRFIELD) TO L ON FOOTE</directions>
+</house_listing>
+
+
+

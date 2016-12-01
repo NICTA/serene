@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Theresa Seibold</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)896-6589</voice_mail>
+<email>tseibold@remax-ccn-austin-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19376</id>
+<mls>519476</mls>
+<house_location>16309 Malden Dr.
+Pflugerville, TEXAS 78660</house_location>
+<county>Travis</county>
+<price>$104,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Reduced for the holidays! Back yard to die for! Adorable 2-Story Home with Many Upgrades, Beautiful Trees, Deep Lot, Pool &amp; Large Surrounding Deck in Back, Privacy; Perfect for Discriminating Buyer's!!! Many extras! Clean &amp; neat as a pin! Close to Dell!</house_description>
+
+<school_district>Pflugerville</school_district>
+<sub-division>Windermere Phs</sub-division>
+<approx_size_sqft>1416</approx_size_sqft>
+<stories>2</stories>
+<year_built>1983</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

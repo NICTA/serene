@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1957 has 4 bedroom(s), 2
+bath(s) , 2 car detached garage and approximately 1512 square feet of
+living area. Rooms include dining room, family room. Features include
+patio, fireplace, storage space.</house_description>
+
+<agent_name>Sally Jean Pugh</agent_name>
+<direct>509-459-9333</direct>
+<firm_name>
+RE/MAX Citywide RE/MAX
+Citywide</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$85,000</list_price>
+<location>2927 Cleveland</location>
+<mls>2010341</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1512 (approx)</square_feet>
+<lot_size>100X142</lot_size>
+<year_built>1957</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Patio</patio>
+<rooms>Dining Room, Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Hardwood Flooring, Storage Space, Wet Bar, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

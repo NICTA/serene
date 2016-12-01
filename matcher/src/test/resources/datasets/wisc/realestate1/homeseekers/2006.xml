@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1999 has 4
+bedroom(s), 4 full bath(s)/1 half bath(s) , 2 car garage. Rooms
+include dining room, master bedroom. Features include fireplace, air
+conditioning.</house_description>
+
+<agent_name>M. Clare Boland</agent_name>
+<direct>202-244-3078</direct>
+<office>202-362-1300</office>
+<firm_name>W.C. &amp; A.N. Miller Development Co.</firm_name>
+<phone>202-362-1300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$850,000</list_price>
+<location>Washington, DC 20015</location>
+<mls>DC3045072</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4(full) 1(half)</baths>
+<levels>3 or more</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>7200</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Trees/Woods View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

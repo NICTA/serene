@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This single family home built in 1953 has 5 bedroom(s), 4 bath(s) and
+approximately 3822 square feet of living area. Rooms include dining
+room. Features include view, private pool, patio, air conditioning,
+french doors, storage space.</house_description>
+
+<agent_name>Catalina Oyarzun</agent_name>
+<direct>305-713-0432</direct>
+<office>305-442-2806</office>
+<firm_name>Prats &amp; Associates
+Lic. Real Estate Broker</firm_name>
+<phone>305-442-2806</phone>
+<fax>305-442-0703</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$479,000</list_price>
+<location>7940 SW 51 Av</location>
+<neighborhood>High Pines</neighborhood>
+<mls>D901956</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<square_feet>3822 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1953</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<patio>Patio, Screened Porch</patio>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+<view>Garden View, Pool View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, French Doors, Outdoor Lights, Smoke Detector, StorageSpace, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

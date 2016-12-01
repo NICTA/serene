@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Menley</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<email>winkler@texasproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21717</id>
+<mls>530050</mls>
+<house_location>1320 CR 484
+Elgin, TEXAS 78621</house_location>
+<county>Williamson</county>
+<price>$115,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>3 ac.  Beautiful, spacious 3 bedroom, 2 bath home.  3 living areas - 1 could be 4th bedroom.  Incredible large remodeled kitchen with more counter and cabinet space than most homes.  Seperate spacious office.  Lots of windows.  Open, light Fuqua home has been updated &amp; added on - approximately 2300 sq ft per owner.  26X70 barn/workshop, 1/2 on slab.  Coupland schools!  $115,000.</house_description>
+
+<school_district>Coupland</school_district>
+<sub-division>1</sub-division>
+<approx_acres>3</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>10833 DORAL CT</house_location>
+<price>$104,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250349</mls>
+<house_type>Condominium</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>DINA GIBSON</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>OWNER/AGENT. LEASE THRU 4/1-COULD BE NEGOTIABLE. CUSTOM WINDOW
+TREATMENTS IN LIVING RM/MSTR BDR/6 PANEL DOORS, CHERRY CABINETS/GREEN
+MARBLE FIREPLACE</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Marble</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>na</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>95</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>11 X 9</dimension><level>1</level></dining>
+<family><dimension>12 X 9</dimension><level>L</level></family>
+<kitchen><dimension>10 X 8</dimension><level>1</level></kitchen>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>2</level></master>
+
+<directions>TRIPLE CROWN TO PROMENADE ON LT, TO LT ON DORAL</directions>
+</house_listing>
+
+
+

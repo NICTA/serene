@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>bojac@mailexcite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Emma L Morin</name>
+<office>(512)595-7653</office>
+<fax>(512)592-9300</fax>
+<voice_mail>(512)516-3905</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>3221</id>
+<mls>05-192-97SH</mls>
+<house_location>318 E Warren Street
+Kingsville, TEXAS</house_location>
+<county>Kleberg</county>
+<price>$57,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>1st floor has large living, dining and kitchen. Also first bedroom and full bath are spacious. Large utility room from the kitchen and sliding doors from this room to back yard. 2nd bedroom in back is con=mfortable. 2nd floor has 2 bedrooms and full bath. Owner plans to recarpet &amp; paint interior.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>4th Addition</sub-division>
+<approx_size_sqft>2048</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>75 x 140</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

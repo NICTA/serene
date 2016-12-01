@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>20 GOODRIDGE</house_location>
+<price>$134,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248211</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>BUTCH MAGNER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* ROUGH IN FOR 3RD BATH IN LOWER LEVEL * GARAGE IS 22 FT. LONG *
+EQUIPPED KITCHEN * GREAT ROOM *</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>13 X 10</dimension><level>L</level></bedroom_4>
+<kitchen><dimension>16 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 7</dimension><level>1</level></laundry>
+<living><dimension>33 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>DIXIE HWY SOUTH TO LEFT ON GOODRIDGE DR</directions>
+</house_listing>
+
+
+

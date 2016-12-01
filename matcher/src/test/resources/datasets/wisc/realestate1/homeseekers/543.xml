@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1948 has 2 bedroom(s), 1 bath(s) and
+approximately 1031 square feet of living area. Rooms include family
+room.</house_description>
+
+<agent_name>Robert L. Brown</agent_name>
+<direct>305-691-0961</direct>
+<office>305-235-7636</office>
+<firm_name>Pollyco Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-235-7636</phone>
+<fax>305-253-4633</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$32,000</list_price>
+<location>7718 NW 6 Ct</location>
+<neighborhood>Marden Hgts Sec 2</neighborhood>
+<mls>D907850</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1031 (approx)</square_feet>
+<lot_size>50 X 138</lot_size>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

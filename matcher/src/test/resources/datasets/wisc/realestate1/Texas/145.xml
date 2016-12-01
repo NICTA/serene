@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>EVELYN MAKRIS</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<email>evelyn@madelineobrien.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11681</id>
+<mls>159238</mls>
+<house_location>8714 LINKMEADOW
+Houston, TEXAS 77025</house_location>
+<county>Harris</county>
+<price>$209,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Extraordinary house updated thruout.Hardwood floors. Crown moldings, replaced windows, AC/Heat. New attic insulation (R38 level) lower utility bills. Tile in kitchen &amp; baths, top of line appliances, convection oven, jacuzzi, recess lights, 1200 s.f. Deck garanteed 40 years. Fresh paint.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Linkwood</sub-division>
+<approx_size_sqft>1764</approx_size_sqft>
+<stories>1</stories>
+<year_built>1956</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>HARDWOOD FLOORS, CROWN MOLDINGS</item>
+<item>NEW ATTIC INSULATION (R38 LEVEL)</item>
+<item>TOP OF THE LINE APPLIANCES</item>
+<item>LOWER UTILITY BILLS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

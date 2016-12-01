@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sue Bradbury</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20748</id>
+<mls>9123595</mls>
+<house_location>5519 Wedgefield (Ad # 451)
+in South Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$195,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Like new home on #8 green of Nutcracker Golf Course.  3rd bedroom has mahogany paneling &amp; makes a great study.  Hardwood floors, built-ins, large deck, island kitchen with double oven, split bedrooms &amp; open concept.  1999 roof &amp; bridge assessment paid.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Pecan Plantation</sub-division>
+<approx_size_sqft>2228</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>100x135</approx_lot_size>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Like New Home</item>
+<item>#8 Green - Nutcracker Golf Club</item>
+<item>Hardwood Floors, Large Deck, Open Concept</item>
+<item>Ad # 451</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

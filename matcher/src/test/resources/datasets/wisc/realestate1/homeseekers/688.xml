@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1956 has 3 bedroom(s), 2 bath(s) .
+Rooms include dining room, family room, master bedroom. Features
+include patio, storage space.</house_description>
+
+<agent_name>Mary Ann Parkinson</agent_name>
+<office>602-993-3900</office>
+<firm_name>Century 21 Metro Company Century 21 Metro Company</firm_name>
+<phone>602-993-3900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$110,000</list_price>
+<location>Phoenix, AZ 85016</location>
+<mls>1434625</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1956</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<location>Corner, Cul-de-sac</location>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Breakfast Room, Cable TV, Ceiling Fan(s), Dishwasher,Eat In Kitchen, Pantry, Storage Space, Trash Compacter, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

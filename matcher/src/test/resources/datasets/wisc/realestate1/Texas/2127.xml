@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>John Puckett</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>john@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21201</id>
+<mls>54628</mls>
+<house_location>152 APPLEHEAD ISLAND DRIVE
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$1,595,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>5</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>UNDER CONSTRUCTION.  Top of the line waterfront luxury in Applehead Island.  This is a spacious plan with gorgeous views to the Northeast.  Quality construction throughout this masterpiece.  Formal and informal areas.  Stucco with a metal roof.  Boat dock with lift.  3 car garage.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Applehead Island</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>APPLEHEAD ISLAND WATERFRONT</item>
+<item>GORGEOUS VIEWS ACROSS THE LAKE</item>
+<item>A LUXURIOUS MASTERPIECE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

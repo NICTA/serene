@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>424 MARIAN LN</house_location>
+<price>$78,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>O</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249271</mls>
+<house_type>Condominium</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>RIGHT ON THE LAKE IS THIS GROUND LEVEL CONDO OVERLOOKING
+LAKE/FOUNTAIN... ESPECIALLY PRETTY AT NIGHT W/LIGHTS!UNIT ONLY 1 YEAR
+OLD AND IN MINT,MOVEIN CONDITION/NICELY DECOR'TD.GOOD SIZE
+BEDROOMS,CEILING FANS.LOW CONDO FEES!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>condo</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>83</hoa_fee>
+<semiannual_taxes>$O</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 7</dimension><level>1</level></laundry>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>1</level></master>
+<study><dimension>11 X 6</dimension><level>1</level></study>
+
+<directions>SOUTH I-75 TO MT. ZION EAST TO SHERWOOD LAKES
+CONDOMINIUMS</directions>
+</house_listing>
+
+
+

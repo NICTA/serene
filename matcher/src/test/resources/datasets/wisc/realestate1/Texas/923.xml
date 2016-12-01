@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Phyllis Whitaker</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)753-9346</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15712</id>
+<mls>5525</mls>
+<house_location>181 Acorn Lane
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$59,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>1992 Palm Harbor Home.  12x76.</house_description>
+
+<school_district>Hays</school_district>
+<sub-division>Oak Meadows</sub-division>
+<approx_size_sqft>1280</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>New Roof.</item>
+<item>Fenced.</item>
+<item>Country living.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

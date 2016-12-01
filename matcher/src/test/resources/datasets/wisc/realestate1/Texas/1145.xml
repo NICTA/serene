@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rosita Suarez</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20084</id>
+<mls>140486</mls>
+<house_location>7006 Premont
+Corpus Christi, TEXAS 78414</house_location>
+<county>Nueces</county>
+<price>$89,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Huge spacious home with cathedral ceilings throughout. Wood burning fireplace in living area, well maintained, all on a corner lot.</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Brandy Wine</sub-division>
+<stories>1</stories>
+<approx_lot_size>52x100x17x101</approx_lot_size>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

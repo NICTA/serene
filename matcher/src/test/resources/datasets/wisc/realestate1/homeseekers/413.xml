@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1963 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include master bedroom. Features include view,
+patio, fireplace, air conditioning, storage space.</house_description>
+
+<agent_name>David Foti</agent_name>
+<office>480-767-7800</office>
+<firm_name>1St Usa Realty Professionals</firm_name>
+<phone>480-767-7800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$170,000</list_price>
+<location>Phoenix, AZ 85028</location>
+<mls>1455888</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Contemporary</style>
+<year_built>1963</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Gas logs</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Ceiling Fan(s), Contemporary Style, Dining/LivingCombo, Dishwasher, Great Room, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

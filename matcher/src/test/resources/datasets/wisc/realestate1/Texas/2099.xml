@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20617</id>
+<mls>6237</mls>
+<house_location>108 Valley Circle
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$225,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>5</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Custom Built With Upgrades Galore1.53 AcresHardwood Floors throughoutCovered Porches &amp; More</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>The Estates Of Sm</sub-division>
+<approx_size_sqft>2843</approx_size_sqft>
+<approx_lot_size>1.53 Acres</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Lots of Privacy</item>
+<item>Custom Counter Tops</item>
+<item>Hardwood Floors</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

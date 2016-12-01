@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1989 has 3 bedroom(s), 2
+bath(s) and approximately 2220 square feet of living area. Rooms
+include dining room, family room, bonus room, master bedroom. Features
+include view, private spa, fireplace, air conditioning.</house_description>
+
+<agent_name>Jolene Neubaum CRS, Gri</agent_name>
+<direct>520-907-0485</direct>
+<office>520-577-8333</office>
+<firm_name>Prudential Aegis Prudential Aegis</firm_name>
+<phone>520-577-8333</phone>
+<fax>520-577-1502</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$279,000</list_price>
+<location>11715 S Hiram Rd</location>
+<mls>2000140</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2220 (approx)</square_feet>
+<lot_size>328 X 664</lot_size>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

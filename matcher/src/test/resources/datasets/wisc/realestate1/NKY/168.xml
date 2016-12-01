@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>10891 ST. ANDREWS</house_location>
+<price>$102,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>246088</mls>
+<house_type>Condominium</house_type>
+<firm>FISCHER MANAGEMENT</firm>
+<firm_phone>(606) 341-4709</firm_phone>
+<agent>R. CASEY HUBER</agent>
+<agent_phone>(606) 341-4709</agent_phone>
+<house_description>NEW FISCHER ATTACHED HOME - MODEL #606-384-3772 CARLISLE NEW REVISED
+LARGER HOME, EXTRA BATH FOUNDATION ONLY OPTIONS AVAILABLE</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>4</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>9 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>8 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>2</level></master>
+
+<directions>UNION-OFF RICHWOOD EXIT CALL 384-3772 ANYTIME</directions>
+</house_listing>
+
+
+

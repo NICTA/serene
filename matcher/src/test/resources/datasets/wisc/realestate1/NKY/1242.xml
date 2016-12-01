@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>3036 SUGAR CAMP</house_location>
+<price>$199,900</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON CTY</school_dist>
+<mls>249240</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GOLD SERVICES</firm>
+<firm_phone>(606) 344-9700</firm_phone>
+<agent>JOHN VINCENT</agent>
+<agent_phone>(606) 344-9700</agent_phone>
+<house_description>EXCLUSIVE ONE OF A KIND HOME THAT IS MUCH BIGGER THAN IT LOOKS 3400+
+SQ FT LIVING AREA GORGEOUS &amp; SPACIOUS KITCHEN LR FR &amp; BEDROOMS 15X11 M
+BATH W/ JACUZZI 21X10 DECK BERBER CARPETING WOOD TRIM VERY ATTRACTIVE
+HOME</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>11 X 11</dimension><level>L</level></bedroom_4>
+<dining><dimension>17 X 15</dimension><level>1</level></dining>
+<family><dimension>28 X 26</dimension><level>L</level></family>
+<kitchen><dimension>21 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 6</dimension><level>1</level></laundry>
+<living><dimension>22 X 18</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+<recreation_room><dimension>18 X 11</dimension><level>L</level></recreation_room>
+<study><dimension>15 X 11</dimension><level>L</level></study>
+
+<directions>I-275 TO SOUTH ON TAYLOR MILL RD RIGHT ON SENOUR
+RD RIGHT ON SUGAR CAMP RD TO 3036</directions>
+</house_listing>
+
+
+

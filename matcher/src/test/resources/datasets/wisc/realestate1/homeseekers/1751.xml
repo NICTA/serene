@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium has 3 bedroom(s), 2 full bath(s)/1 half bath(s) , 2
+car garage. Features include private pool, air conditioning.</house_description>
+
+<agent_name>Rose Sayre</agent_name>
+<direct>305-791-0951</direct>
+<office>672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$499,000</list_price>
+<location>1 Century Ln #604</location>
+<neighborhood>The Vistas</neighborhood>
+<mls>M746584</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Condominium</type>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Electric</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

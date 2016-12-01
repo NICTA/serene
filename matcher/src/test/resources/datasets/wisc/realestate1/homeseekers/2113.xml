@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1997 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include master bedroom.</house_description>
+
+<agent_name>Sam Farris</agent_name>
+<office>602-525-8611</office>
+<firm_name>Preferred Holdings &amp; Realty,In</firm_name>
+<phone>602-525-8611</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$107,700</list_price>
+<location>Phoenix, AZ 85027</location>
+<mls>1463189</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Eat In Kitchen, Garage Door Opener, Great Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

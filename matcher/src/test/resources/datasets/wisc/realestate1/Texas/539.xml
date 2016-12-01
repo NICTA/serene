@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ann Bragg</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email>abragg@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11609</id>
+<mls>169841</mls>
+<house_location>3906 Fatta
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$118,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Executive type subdivion with easy access to I-45, NASA, Houston, Galveston, shopping, schools, churches.  You will love this home because of all the amenities.  Call us today for  your appointment.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Fox Trace</sub-division>
+<approx_size_sqft>1939</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>77x110</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Exectutive type subdivision</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

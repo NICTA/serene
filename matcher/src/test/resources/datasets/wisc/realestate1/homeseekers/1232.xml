@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Stunning all brick home on large treed lot. Hardwood floors, screened
+porch, large deck. Attached garage. Beautiful spring blooming dogwoods
+&amp; azaleas. Copper flashing above entry door. One year home warranty.</house_description>
+
+<agent_name>Janis Jaworsky</agent_name>
+<office>757-631-9500</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>757-631-9500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$189,000</list_price>
+<location>Norfolk, VA 23505</location>
+<mls>0001418</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Colonial</style>
+<square_feet>2012 (approx)</square_feet>
+<year_built>1956</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Deck, Screened-in</patio>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Colonial Style, Fenced, Foyer, Pantry, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<price>$159,900</price>
+<mls_id_number>164097</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1836</sqft>
+<year_built>1997</year_built>
+<heat>Electric Heat Pump</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>25.80       Acres</lot_size>
+<lot_description>25.80 ACRES</lot_description>
+<fireplace>0</fireplace>
+<taxes>$1,126</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Not Listed</exterior>
+<site>Water: PUBLIC Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>GLIDE</elementary>
+<middle_school>GLIDE</middle_school>
+<high_school>GLIDE</high_school>
+</schools>
+
+</house_listing>
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1968 has 6 bedroom(s), 5 bath(s) and
+approximately 4049 square feet of living area.</house_description>
+
+<agent_name>Joe &amp; Erin Wolf</agent_name>
+<direct>321-2525</direct>
+<office>303-337-6446</office>
+<firm_name>Cherry Creek Southea</firm_name>
+<phone>303-337-6446</phone>
+<fax>303-393-6874</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$279,900</list_price>
+<location>530 S Magnolia Ln</location>
+<neighborhood>Winston Downs</neighborhood>
+<mls>370512</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>5</baths>
+<type>Single Family</type>
+<square_feet>4049 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

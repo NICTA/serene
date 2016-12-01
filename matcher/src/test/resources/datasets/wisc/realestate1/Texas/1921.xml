@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Town &amp; Country Properties</name>
+<location>602 North Llano Street Fredericksburg, TX 78624</location>
+<office>(830)990-8708</office>
+<toll_free>(877)996-0099</toll_free>
+<fax>(830)990-8906</fax>
+<email>tcprop@fbg.net</email>
+</firm_information>
+
+<agent_information>
+<name>Dennis Kusenberger</name>
+<office>(830)990-8708</office>
+<fax>(830)990-8906</fax>
+<mobile>(210)213-3153</mobile>
+<email>Dennis@Kusey.Com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21484</id>
+<mls>11624</mls>
+<house_location>403 East Travis St.
+Fredericksburg, TEXAS 78624</house_location>
+<county>Gillespie</county>
+<price>$118,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>FRESHER THAN A DAISY!  This recently three bedroom/two bath house features an attached one carport with storage area and an expanded, renovated office great for any home based business.  Also, the property features a detached two car garage with a half bath and a 10'x20' porch great for entertaining.  Some of the updates include new carpet, new paint and new vinyl in the kitchen.</house_description>
+
+<school_district>Fredericksburg</school_district>
+<approx_size_sqft>1470</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>100x100</approx_lot_size>
+<year_built>1965</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Large Detached Garage</item>
+<item>Large Entertaining Porch</item>
+<item>RenovatedInterior</item>
+<item>Expanded Home Office</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

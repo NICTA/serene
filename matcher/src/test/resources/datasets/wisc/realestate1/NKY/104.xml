@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>822 DONALDSON RD</house_location>
+<price>$115,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>0-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars None</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>243163</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-3388</firm_phone>
+<agent>BOB MARTIN</agent>
+<agent_phone>(606) 341-3388</agent_phone>
+<house_description>RESIDENTIAL USE IN COMMERCIAL ZONE-EAT IN KITCHEN AREA-LIVING RM
+DINING RM COMBINATION-NEWER ROOF-HVAC SYSTEM &amp; WATER HTR-APPROX 1400
+SF-PLUS APPROX 1100 SF LOWER-CLOSE TO AIRPORT &amp; NEW ST HENRY SCHOOL</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air,Baseboard</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>75x200</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10</dimension><level>X</level></bedroom_2>
+<bedroom_3><dimension>8 X 8</dimension><level>1</level></bedroom_3>
+<family><dimension>14 X 18</dimension><level>1</level></family>
+<kitchen><dimension>8 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>14 X 19</dimension><level>1</level></living>
+<master><dimension>9 X 16</dimension><level>1</level></master>
+
+<directions>I-75 TO W ON DONALDSON-3 TRAFFIC LIGHTS- NEAR
+CORNER OF CHERRY TREE LANE</directions>
+</house_listing>
+
+
+

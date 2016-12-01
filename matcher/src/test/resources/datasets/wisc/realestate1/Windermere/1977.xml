@@ -1,0 +1,34 @@
+<house_listing>
+<price>$159,950</price>
+<mls_id_number>152999</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>2016</sqft>
+<year_built>1966</year_built>
+<heat>Electric Base Board</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.16        Acres</lot_size>
+<lot_description>7100SF</lot_description>
+<fireplace>2</fireplace>
+<taxes>$1,787</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Patio, Deck,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>GLENFAIR</elementary>
+<middle_school>HB LEE</middle_school>
+<high_school>REYNOLDS</high_school>
+</schools>
+
+</house_listing>
+
+
+

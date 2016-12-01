@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This condominium built in 1940 has ? bedroom(s), 1 bath(s) and
+approximately 282 square feet of living area.</house_description>
+
+<agent_name>Jorge Garcia</agent_name>
+<direct>305-901-0101</direct>
+<office>305-665-5550</office>
+<email>JorgeGarcia@HomeSeekers.com</email>
+<firm_name>R.E. Teammates
+Lic. Real Estate Broker</firm_name>
+<phone>305-665-5550</phone>
+<fax>305-665-6364</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$53,000</list_price>
+<location>3425 Collins Av #1204</location>
+<neighborhood>Versailles Hotel Condo</neighborhood>
+<mls>M764443</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>282 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

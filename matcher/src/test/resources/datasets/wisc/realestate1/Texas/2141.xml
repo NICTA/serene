@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>MADELINE OBRIEN</name>
+<office>(713)621-4953</office>
+<fax></fax>
+<voice_mail>(713)621-4953 148</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11889</id>
+<mls>146402</mls>
+<house_location>6143 DOLIVER
+Houston, TEXAS 77057</house_location>
+<county>Harris</county>
+<price>$299,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>3 BEDROOM, 2 BATH TRADITIONAL. HARDWOODS, FORMALS, KITCHEN WITH BREAKFAST AREA, GARAGE CONVERTED TO GAME ROOM. LOVELY COVERED PATIO, BEAUTIFULLY LANDSCAPED FRONT AND BACK WITH SPRINKLER SYSTEM. 2 CAR CARPORT. GREAT LOCATION. IT'S A REAL GEM!</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Briargrove</sub-division>
+<approx_size_sqft>2085</approx_size_sqft>
+<stories>1</stories>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>HARDWOODS, FORMALS, KITCHEN WITH BREAKFAST AREA</item>
+<item>GAME ROOM</item>
+<item>COVERED PATIO, SPRINKLER SYSTEM</item>
+<item>GREAT LOCATION</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21346</id>
+<mls>15265</mls>
+<house_location>9118 Jenn Circle
+in West Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$75,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Wow! Only 1 year young!  Perfect starter home.  City water.  Mint condition.  It really is!  The home belongs to people who really took care of it.Harlingen schools.  Hurry, this one may go fast!</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Bass Groves</sub-division>
+<approx_size_sqft>1307</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>95 x 120</approx_lot_size>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Newly built</item>
+<item>Great condition</item>
+<item>Motivated Sellers</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

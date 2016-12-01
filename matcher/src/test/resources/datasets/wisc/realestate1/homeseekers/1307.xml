@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>3 bedrooms-1.75ba. - Nice floor plan - new copper plumbing - new roof
+2 cars garage with auto garage opener - fruit trees - nice quite area
+must see to appreciate</house_description>
+
+<agent_name>Charles Racho</agent_name>
+<direct>323-569-6883</direct>
+<office>323-773-7132</office>
+<firm_name>Bell Realtors</firm_name>
+<phone>323-773-7132</phone>
+<fax>323-773-4329</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$199,500</list_price>
+<location>237 Twickenham Av</location>
+<mls>R98968</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1.75</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1132 (approx)</square_feet>
+<lot_size>5400 (approx)</lot_size>
+<year_built>1946</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium built in 1937 has 2 bedroom(s), 2 bath(s) and
+approximately 840 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Camillo Coppola</agent_name>
+<direct>305-674-9714</direct>
+<office>305-673-6830</office>
+<firm_name>Situs Realty, Inc.
+Lic. Real Estate Broker</firm_name>
+<phone>305-673-6830</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$160,000</list_price>
+<location>1460 Ocean Dr #402</location>
+<neighborhood>The Drake Condo Desc</neighborhood>
+<mls>M685711</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>840 (approx)</square_feet>
+<year_built>1937</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

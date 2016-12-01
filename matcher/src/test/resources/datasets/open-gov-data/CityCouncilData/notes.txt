@@ -1,0 +1,21 @@
+Geelong Retail has attribute metadata in download page.
+
+Hobart city’s data seems corrupted.
+
+Ballarat
+  * ballarat_community_directory.csv - NON-ISO; need to convert this. run the ff in vim:
+	set fileencoding=utf-8
+  * plenty others which are NON-ISO. converterd with same method as above.
+
+Haven't crawled Gold Coast data yet.
+Need to convert some geojson data into csv.
+Check out data.sa.gov.au and data.vic.com.au
+
+
+https://data.sfgov.org seems promising as well.
+Crawl more from IBM social good challenge.
+More data portals at: http://dataportals.org
+List of open data: http://blog.bigml.com/2013/02/28/data-data-data-thousands-of-public-data-sources/
+kdnuggets list: http://www.kdnuggets.com/datasets/index.html
+
+https://app.enigma.io

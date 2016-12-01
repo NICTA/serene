@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rick Guajardo</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18163</id>
+<mls>138814</mls>
+<house_location>7621 CLEARBROOK
+Corpus Christi, TEXAS 78413</house_location>
+<county>Nueces</county>
+<price>$112,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>BEAUTIFUL ON E OWNER HOME. 4 BEDROOM, 2.5 BATHS, MASTER DOWN, SECURITY SYSTEM, NICELY LANDSCAPED, RECENT PAINT, ENERGY EFFICIENT, PHONE AND CABLE HOOKUPS IN ALL BEDROOMS, 50 GALLON HOT WATER HEATER, HEAT PUMP, CEILING FANS THROUGHOUT.</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Stony Brook</sub-division>
+<approx_size_sqft>1691</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>50X100</approx_lot_size>
+<year_built>1988</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

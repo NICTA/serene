@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1986 has 3 bedroom(s), 2
+bath(s) , 3 car garage and approximately 2704 square feet of living
+area. Rooms include dining room, bonus room. Features include view,
+private spa, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Hilda Egan</agent_name>
+<direct>520-298-6494</direct>
+<office>520-886-9877</office>
+<firm_name>Bidegain &amp; Associates Inc.</firm_name>
+<phone>520-886-9877</phone>
+<fax>520-886-8764</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$265,000</list_price>
+<location>12440 E Placita Mirlo</location>
+<mls>9915687</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2704 (approx)</square_feet>
+<lot_size>64X740X570X885</lot_size>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ann Murray</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)929-6690</mobile>
+<email>AnnCanC21@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19444</id>
+<mls>9103804</mls>
+<house_location>1306 Cardinal Oaks Drive
+Mansfield, TEXAS 76063</house_location>
+<county>Tarrant</county>
+<price>$87,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>THIS HOME IS A DOLL HOUSE!  YOU WILL FIND PLANT LEDGES, A BRICK COLUMN BETWEEN THE LIVING AREA AND FORMAL DINING, A LARGE UTILITY ROOM AND LOADS OF CABINETS.  THE KITCHEN FEATURES A LAZY SUSAN AND SKYLIGHT.  YOU WILL HAVE WALK-IN CLOSETS IN THE BEDROOMS.  OUTSIDE YOU WILL HAVE A BEAUTIFUL TREED LOT WITH A 10 X 9 STORAGE BUILDING ON A SLAB AND WOOD FENCE.  THIS WELL MAINTAINED HOME IS ALSO CONVENIENT TO EVERYTHING! Drapes in living area do not stay.</house_description>
+
+<school_district>Mansfield I S D</school_district>
+<sub-division>Cardinal Oaks North</sub-division>
+<approx_size_sqft>1579</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>128 x 50</approx_lot_size>
+<year_built>1990</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>WBFP</item>
+<item>CONVENIENT LOCATION</item>
+<item>ENERGY EFFICIENT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

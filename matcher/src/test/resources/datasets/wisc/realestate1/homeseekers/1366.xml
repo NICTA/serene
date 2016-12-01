@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1933 has 5
+bedroom(s), 3 full bath(s)/1 half bath(s) . Rooms include den, dining
+room, family room, living room, bonus room, master bedroom. Features
+include patio, fireplace.</house_description>
+
+<agent_name>Dianne Bailey</agent_name>
+<office>202-363-9700</office>
+<firm_name>Long &amp; Foster Real Estate, Inc.</firm_name>
+<phone>202-363-9700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$499,000</list_price>
+<location>Washington, DC 20012</location>
+<mls>DC3103501</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3(full) 1(half)</baths>
+<levels>3 or more</levels>
+<type>Single Family</type>
+<lot_size>8863</lot_size>
+<year_built>1933</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas, Radiator</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Den, Dining Room, Family Room, Living Room, Master</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

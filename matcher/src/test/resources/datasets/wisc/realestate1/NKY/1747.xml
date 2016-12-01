@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>905 INVERNESS</house_location>
+<price>$65,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>PERRY PARK</suburb>
+<school_dist>OWEN CO.</school_dist>
+<mls>248182</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>JANET KAISER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*COMPLETELY FURNISHED*UPDATED KITCHEN*SECOND FLOOR CONDO WITH LOFT AND
+CLOSED IN HEATED PORCH*FIVE FISHING LAKES*GOLF COURSE*RESTAURANT &amp;
+POOL* LOCATED 1 HR. FROM FT. MITCHELL*</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Wellwater</water>
+<sewer>Private</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>60</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>19 X 15</dimension><level>3</level></bedroom_3>
+<dining><dimension>10 X 9</dimension><level>2</level></dining>
+<kitchen><dimension>7 X 6</dimension><level>2</level></kitchen>
+<living><dimension>19 X 15</dimension><level>2</level></living>
+<master><dimension>16 X 12</dimension><level>2</level></master>
+<recreation_room><dimension>19 X 12</dimension><level>2</level></recreation_room>
+
+<directions>I75 TO I71 TO CARROLLTON EXIT, L ON RT.27 TO R
+ON RT. 355 TO PERRY PARK ON RIGHT</directions>
+</house_listing>
+
+
+

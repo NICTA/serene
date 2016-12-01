@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20556</id>
+<mls>9121153</mls>
+<house_location>Rt 2 Box 6928
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$69,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>WOW!!!  This 3/2 doublewide has new addition including kichen, dining and family room.  Home also has sun room and covered front porch.  All this is located on 5 fenced acres in restricted subdivision.  Large oak trees, landscaped yard and workshop are all included.</house_description>
+
+<move-in_date>11/15/99</move-in_date>
+<school_district>Whitney</school_district>
+<sub-division>Murdock Meadows</sub-division>
+<approx_size_sqft>1800</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>5</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Fenced Acerage</item>
+<item>Country Sitting</item>
+<item>Large Oak Trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

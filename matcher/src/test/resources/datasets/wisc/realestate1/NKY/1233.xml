@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>74 A HWY 16</house_location>
+<price>$59,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WARSAW</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>249776</mls>
+<house_type>Single Family</house_type>
+<firm>DAUGHERTY REALTORS</firm>
+<firm_phone>(606) 485-7667</firm_phone>
+<agent>KATHY M PERKINS</agent>
+<agent_phone>(606) 485-7667</agent_phone>
+<house_description>WELL MAINTAINED ON LARGE LEVEL LOT OPEN FLOOR PLAN 3 LARGE BEDROOMS
+OUT- BUILDING LANDSCAPED YARD</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>1.03 acre</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 5</dimension><level>1</level></laundry>
+<living><dimension>16 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>I-71 VERONA EXIT LT ON RT 14 RT ON 16 AT MR.
+HERBS (NAPOLEON ROAD)</directions>
+</house_listing>
+
+
+

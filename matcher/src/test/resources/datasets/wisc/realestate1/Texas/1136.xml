@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Flood Real Estate</name>
+<location>701 W.Cen Tex Expwy Killeen, TX 76541</location>
+<office>(254)526-8100</office>
+<toll_free>(800)642-2950</toll_free>
+<fax>(254)526-7772</fax>
+<voice_mail>(254)554-4096</voice_mail>
+<email>flewis@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joseph Kidd</name>
+<office>(254)526-8100</office>
+<fax>(254)526-7772</fax>
+<voice_mail>(254)554-4096</voice_mail>
+<mobile>(254)628-9733</mobile>
+<email>kiddj1@juno.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7820</id>
+<mls>82645</mls>
+<house_location>Rte 1, Box 1026
+Lampasas, TEXAS 76550</house_location>
+<county>Coryell</county>
+<price>$65,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>3 Bedroom, 2 Bath, Manufacured Home set up and ready for occupancy. Sitting on a 3 acre lot.</house_description>
+
+<school_district>Lampassas</school_district>
+<sub-division>Settlers Valley</sub-division>
+<approx_size_sqft>1368</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>Irregular</approx_lot_size>
+<year_built>1993</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Large Native Shade Trees</item>
+<item>Fenced, Garden Plot</item>
+<item>Storage Building</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

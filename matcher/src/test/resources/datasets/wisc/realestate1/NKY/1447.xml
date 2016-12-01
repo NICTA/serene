@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>5108 FOWLER CREEK</house_location>
+<price>$144,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247212</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>BECKY YUNGBLUTH-LAY</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>BEAUTIFUL RURAL SETTING!ALMOST 12 ACRES-CORNER FOWLER CREEK &amp; SUGAR
+CAMP ON LEFT,BORDERED BY SENOUR ON RIGHT.VALUE IS IN LAND MOSTLY!GREAT
+INVESTMENT FOR BUILDER!WATER UP ROAD ON SENOUR!</house_description>
+<construction>Alum</construction>
+<heating>Oil</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<living><dimension>22 X 11</dimension><level>1</level></living>
+<master><dimension>14 X 10</dimension><level>1</level></master>
+
+<directions>S ON 3L(MADISON PK) TO L ON FOWLER CREEK HOME
+FACES SENOUR IN FRONT/BACK SUGAR CMP</directions>
+</house_listing>
+
+
+

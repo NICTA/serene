@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This single family home has 4 bedroom(s), 2 bath(s) , 2 car attached
+garage.</house_description>
+
+<agent_name>Lentino</agent_name>
+<office>516-798-4100</office>
+<firm_name>Custom Real Estate</firm_name>
+<phone>516-798-4100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$443,990</list_price>
+<location>Whistlerhill</location>
+<mls>4273525</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>1 acre</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Full Basement, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_location>0 RT1 BOX 91</house_location>
+<price>$64,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>(Carport)</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>250044</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>HOLLY MAYFIELD</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>GREAT STARTER HOME WITH NEWER WINDOWS AND FURNANCE. NOT IN FLOOD ZONE.
+ALL APPLIANCES STAY.</house_description>
+<construction>Vinyl</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>10 X 7</dimension><level>2</level></bedroom_2>
+<kitchen><dimension>18 X 11</dimension><level>2</level></kitchen>
+<living><dimension>15 X 9</dimension><level>2</level></living>
+<master><dimension>11 X 9</dimension><level>2</level></master>
+
+<directions>US27 S L ON 22 FIRST ROAD ON LEFT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Seller ready to move this property fast! Guest unit in back can be
+used for rental. Come see asap, priced to move quickly so don't wait.</house_description>
+
+<agent_name>Nick Layana</agent_name>
+<direct>714-871-1543</direct>
+<office>714-578-0405</office>
+<firm_name>Layana, N.J., Realty</firm_name>
+<phone>714-578-0405</phone>
+<fax>714-578-0405</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$138,900</list_price>
+<location>1414 Simmons Av</location>
+<mls>P165610</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>1</garage>
+<type>Single Family</type>
+<square_feet>734 (approx)</square_feet>
+<lot_size>4000 (approx)</lot_size>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Living Room</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

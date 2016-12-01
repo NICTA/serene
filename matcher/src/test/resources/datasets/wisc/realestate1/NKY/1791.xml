@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>23 ASHLEY</house_location>
+<price>$84,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>N/A</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>250261</mls>
+<house_type>Single Family</house_type>
+<firm>WHALEY REALTY, AUCTIONS, APPR</firm>
+<firm_phone>(606) 654-8037</firm_phone>
+<agent>DEBBIE WHALEY</agent>
+<agent_phone>(606) 654-8037</agent_phone>
+<house_description>NEW CONSTRUCTION APPROX. 1140 SQFT 3 BEDROOMS, 2 FULL BATHS,
+CONVENIENT LOCATION, PUBLIC WATER</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>150X290.4</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNKNOWN</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 16</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>7 X 10</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>11 X 18</dimension><level>1</level></kitchen>
+<living><dimension>11 X 19</dimension><level>1</level></living>
+<master><dimension>11 X 14</dimension><level>1</level></master>
+
+<directions>US 27 SOUTH TO L ON JENKINS R ON RUTH'S COURT L
+ON ASHLEY</directions>
+</house_listing>
+
+
+

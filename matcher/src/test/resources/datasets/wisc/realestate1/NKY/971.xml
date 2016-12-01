@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>128 4TH AV</house_location>
+<price>$42,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>245676</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>ROBERT W ABNER</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>GREAT STARTER HOME. NEW INT/EXT PAINT. NEW REPLACEMENT WINDOWS(MOST).
+SOME NEW CARPET, NEW BATHROOM, FENCED REAR YARD W/COVERED PATIO, HUGE
+EAT-IN KITCHEN. ZERO DOWN ON NEHEMIAH PROGRAM. SELLER PAYS DOWN
+PAYMENT.</house_description>
+<construction>Shingle</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>20 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 11</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>22 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>17 X 10</dimension><level>1</level></master>
+
+<directions>I471 TO RT 8 EXIT. EAST ON RT 8. L ON O'FALLON.
+R ON 5TH. L TO 4TH AVE.</directions>
+</house_listing>
+
+
+

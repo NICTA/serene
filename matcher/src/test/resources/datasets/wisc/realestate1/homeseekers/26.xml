@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This condominium built in 1992 has 4 bedroom(s), 3 full bath(s)/1 half
+bath(s) , 2 car attached garage and approximately 6170 square feet of
+living area. Rooms include dining room. Features include fireplace,
+air conditioning.</house_description>
+
+<agent_name>Phyllis Winick</agent_name>
+<direct>535-6071</direct>
+<office>535-6087</office>
+<firm_name>Fisher Island Real
+Lic. Real Estate Broker</firm_name>
+<phone>535-6087</phone>
+<fax>305-535-6089</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$5,300,000</list_price>
+<location>7782 Fisher Island Dr #7782</location>
+<neighborhood>Oceanside Fisher Isl Cond</neighborhood>
+<mls>M764520</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3(full) 1(half)</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>6170 (approx)</square_feet>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<fireplace>Yes</fireplace>
+<location>Ocean front, Water front</location>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Foyer, Intercom System, Kitchen Island, Pantry, Tennis Court(s),Walk-In Closet(s), Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

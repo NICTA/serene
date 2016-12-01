@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This condominium built in 1972 has 3 bedroom(s), 3 full bath(s)/1 half
+bath(s) and approximately 2957 square feet of living area. Rooms
+include dining room, master bedroom. Features include private pool,
+fireplace, air conditioning.</house_description>
+
+<agent_name>Anitra Thorhaug</agent_name>
+<direct>757-0018</direct>
+<office>757-0018</office>
+<firm_name>Universal Investme
+Lic. Real Estate Broker</firm_name>
+<phone>757-0018</phone>
+<fax>757-3999</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$227,000</list_price>
+<location>720 NE 69 St #9N</location>
+<neighborhood>Palm Bay Towers Condo</neighborhood>
+<mls>M736372</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>2957 (approx)</square_feet>
+<year_built>1972</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Electric</heating>
+<fireplace>Yes</fireplace>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Foyer, Ocean Access, Tennis Court(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

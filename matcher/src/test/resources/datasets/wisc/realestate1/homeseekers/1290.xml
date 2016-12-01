@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1966 has 4 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage. Rooms include dining room,
+family room, master bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Anne Zell</agent_name>
+<office>602-957-9830</office>
+<firm_name>Russ Lyon Realty Company</firm_name>
+<phone>602-957-9830</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$599,000</list_price>
+<location>Phoenix, AZ 85023</location>
+<mls>1430626</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>1 TO 1.9 AC</lot_size>
+<year_built>1966</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered, Deck</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Dishwasher, Game Room, Garage Door Opener, IntercomSystem, Microwave, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

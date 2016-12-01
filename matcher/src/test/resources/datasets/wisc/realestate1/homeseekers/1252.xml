@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This home built in 1964 has 1 bedroom(s), 1 bath(s) . Rooms include
+dining room, family room. Features include view, patio.</house_description>
+
+<agent_name>Linette Wilcher</agent_name>
+<office>602-331-3000</office>
+<firm_name>RE/MAX Integrity RE/MAX Integrity</firm_name>
+<phone>602-331-3000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$85,000</list_price>
+<location>Phoenix, AZ 85003</location>
+<mls>1445820</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Townhouse/Condo</type>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Deck</patio>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Family Room</rooms>
+<spa>No</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Elevator, Gazebo, Trash Compacter
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

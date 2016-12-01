@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Penny Warren</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)597-6458</mobile>
+<email>pwarren@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20833</id>
+<mls>9124671</mls>
+<house_location>413 West Columbia
+Weatherford, TEXAS 76086</house_location>
+<county>Parker</county>
+<price>$135,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Victorian home in Weatherford's most Historic area.  Built in 1891 has been refurbished and updated. Three bedrooms, two baths, large walk-in closets. one living area with 2 dining area.  High ceilings with moulding and built-in chest and hand built cabinets.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>1</sub-division>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Victorian home in Historic area</item>
+<item>refurbished &amp; updated</item>
+<item>two dining areas, large walk-in closets</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

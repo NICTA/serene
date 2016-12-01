@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Blake A. Kaiser</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)924-9600</mobile>
+<email>bkaiser@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20489</id>
+<mls>523574</mls>
+<house_location>608 Wilkes St.
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$71,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great in town home close to schools and shopping. 3/2 with very large rooms for the square footage. Brick front. Newer roof and A/C. Country kitchen, indoor laundry, ceiling fans, large baths, and window coverings. Privacy fenced yard. Call today!</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Bryne</sub-division>
+<approx_size_sqft>1092</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>90x55</approx_lot_size>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Nice 3/2 w/Large Rooms</item>
+<item>Newer Roof and A/C</item>
+<item>Close to Shopping/Schools</item>
+<item>Privacy Fenced Yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This attached single family home built in 1999 has 3 bedroom(s), 2
+bath(s) and approximately 1020 square feet of living area.</house_description>
+
+<agent_name>Glen Cary</agent_name>
+<direct>303-598-1805</direct>
+<office>303-791-2882</office>
+<firm_name>RE/MAX Professionals</firm_name>
+<phone>303-791-2882</phone>
+<fax>303-791-4664</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$110,000</list_price>
+<location>942 S Wolf St</location>
+<neighborhood>Denver</neighborhood>
+<mls>353298</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1020 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1937 has 2 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 760 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Daniela Bonetti</agent_name>
+<direct>582-1639</direct>
+<office>674-9714</office>
+<firm_name>Situs Realty, Inc.
+Lic. Real Estate Broker</firm_name>
+<phone>674-9714</phone>
+<fax>305-674-8259</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$125,000</list_price>
+<location>361 Collins Av #B1</location>
+<neighborhood>The President Condo</neighborhood>
+<mls>M760931</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>760 (approx)</square_feet>
+<year_built>1937</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

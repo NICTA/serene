@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>9 SHELBY</house_location>
+<price>$47,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Front)</garage>
+<suburb>BROMLEY</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248785</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JOHN VINCE</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>HUD HOME AS-IS CASE #202-011215,NOT FHA INSURABLE,5% COMM TO SELLING
+BROKER ALL INFO &amp; TO SUBMIT OFFER 888-292-3917 OR
+WWW.GOLDENFEATHER.COM ALL OTHER INFO 800-228-9025</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 15</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 14</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>2</level></master>
+
+<directions>ELM TO PLEASANT TO R SHELBY</directions>
+</house_listing>
+
+
+

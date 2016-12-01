@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level home built in 1936 has 2 bedroom(s), 2 bath(s) and
+approximately 1000 square feet of living area. Rooms include living
+room, bonus room, master bedroom. Features include air conditioning.</house_description>
+
+<agent_name>Harold Huggins</agent_name>
+<direct>301-421-1122</direct>
+<office>301-421-1122</office>
+<firm_name>Harold H. Huggins Realty, Inc.</firm_name>
+<phone>301-421-1122</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$63,500</list_price>
+<location>Washington, DC 20011</location>
+<mls>DC2776187</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>CoOp</type>
+<square_feet>1000 (approx)</square_feet>
+<year_built>1936</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Natural Gas, Radiator</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1957 has 3 bedroom(s), 1 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 1336 square
+feet of living area. Features include patio, air conditioning.</house_description>
+
+<agent_name>Linda Geraghty</agent_name>
+<direct>648-9337</direct>
+<office>782-8911</office>
+<firm_name>Sagely &amp; Edwards Co. Better</firm_name>
+<phone>782-8911</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$74,900</list_price>
+<location>2905 S 36Th St</location>
+<neighborhood>Cantwell Place</neighborhood>
+<mls>10020009</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1(full) 1(half)</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1336 (approx)</square_feet>
+<lot_size>75 X 130</lot_size>
+<year_built>1957</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Attic fan, Central</cooling>
+<heating>Central</heating>
+<patio>Deck</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic Fan, Breakfast Nook, Cable TV, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

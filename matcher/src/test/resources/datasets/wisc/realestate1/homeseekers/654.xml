@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This split level detached single family home built in 1967 has 4
+bedroom(s), 3 bath(s) , 2 car garage and approximately 2460 square
+feet of living area. Rooms include den, dining room, family room,
+living room, bonus room, master bedroom. Features include private
+pool, private spa, fireplace.</house_description>
+
+<agent_name>Carl Meram</agent_name>
+<direct>619-583-0397</direct>
+<office>619-265-5376</office>
+<firm_name>Carl Meram</firm_name>
+<phone>619-265-5376</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$389,900</list_price>
+<location>San Diego, CA 92110</location>
+<mls>99 6026559</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>Split Level</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2460 (approx)</square_feet>
+<lot_size>23086</lot_size>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<pool>Heated, In-ground</pool>
+<rooms>Bonus Room, Den, Dining Room, Family Room, Living Room, Master</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

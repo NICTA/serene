@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Syble Noble</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)929-9668</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21397</id>
+<mls>9133045</mls>
+<house_location>628 Timothy
+Burleson, TEXAS 76028</house_location>
+<county>Johnson</county>
+<price>$99,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>New roof in Dec. '99,  lots of electric outlets, shelves galore in garage, new garage door opener, ask about foundation.  Ready for anyone who wants a large home on big corner lot.  Chain link fence, walk-in closets, self-cleaning oven, walk-in pantry, city utilities, brick home on just over 1/3 acre.  Gas hot water and heating.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1848</approx_size_sqft>
+<stories>1</stories>
+<year_built>1963</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Big home, big corner lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

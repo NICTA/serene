@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1985 has 5 bedroom(s), 3 bath(s) and
+approximately 2190 square feet of living area.</house_description>
+
+<agent_name>Joe Lamberta</agent_name>
+<direct>303-507-5001</direct>
+<office>303-973-3313</office>
+<firm_name>RE/MAX Professionals</firm_name>
+<phone>303-973-3313</phone>
+<fax>303-973-3439</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$155,000</list_price>
+<location>2420 W College Av</location>
+<neighborhood>College View/Southlawn Gardens</neighborhood>
+<mls>382929</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2190 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

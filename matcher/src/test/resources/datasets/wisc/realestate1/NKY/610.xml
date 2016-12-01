@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>219 W 4TH</house_location>
+<price>$157,500</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249617</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JIM MCCORD</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>CHARMING 3 STORY BRICK HOME WITH CINTI VIEW! CURRENTLY SINGLE BUT LIC
+AS 2-FAM! 10 FT CEILINGS, POCKET DOORS, OFF STREET PARKING, HISTORIC
+DISTRICT! LOADED WITH CHARM! IMMEDIATE OCCUPANCY.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>3</level></bath_3>
+<bedroom_2><dimension>15</dimension><level>X</level></bedroom_2>
+<bedroom_3><dimension>14 X 14</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>20 X 18</dimension><level>3</level></bedroom_4>
+<dining><dimension>18 X 16</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 14</dimension><level>1</level></kitchen>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>21 X 15</dimension><level>2</level></master>
+<study><dimension>21 X 8</dimension><level>3</level></study>
+
+<directions>4TH STREET BETWEEN RUSSELL &amp; JOHNSON-L ON
+JOHNSON L IN ALLEY</directions>
+</house_listing>
+
+
+

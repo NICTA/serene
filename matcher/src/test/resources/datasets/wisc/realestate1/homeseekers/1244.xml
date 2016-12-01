@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level single family home built in 2000 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2358 square feet of living
+area. Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Caroline Freedman Caroline Freedman</agent_name>
+<direct>520-566-4805</direct>
+<office>520-299-2201</office>
+<email>caroline@ok4u.com</email>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-299-2201</phone>
+<fax>520-529-1548</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$204,000</list_price>
+<location>1414 W Fairway Wood Ct</location>
+<mls>2000492</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2358 (approx)</square_feet>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

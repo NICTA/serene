@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1941 has 3 bedroom(s), 2
+bath(s) and approximately 1498 square feet of living area. Features
+include patio.</house_description>
+
+<agent_name>Bill Jones Bill Jones</agent_name>
+<direct>520-743-4800</direct>
+<office>520-297-4545</office>
+<email>BillJones@SellingTucson.com</email>
+<firm_name>RE/MAX Premier Realty
+RE/MAX Premier Realty</firm_name>
+<phone>520-297-4545</phone>
+<fax>520-742-9570</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$120,000</list_price>
+<location>2469 N Santa Rita Ave</location>
+<mls>9919807</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1498 (approx)</square_feet>
+<lot_size>50 X 180 X 50 X 180</lot_size>
+<year_built>1941</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Guest House
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

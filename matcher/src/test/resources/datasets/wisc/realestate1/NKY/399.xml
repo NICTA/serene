@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>10623 CHESHIRE RIDGE</house_location>
+<price>$139,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249540</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>PAM BROWNFIELD</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>THE BUTLER IS A COMFORABLE HOME WITH 3BR &amp; 2.5BA LOCATED ON A LG LOT
+IN CHESHIRE RIDGE SUBD. 12'X 24' DECK.OPTIONAL LR OR DR. WILSONART
+FLOORING IN ENTRY &amp; 1ST FLR POWDER ROOM. CEILING LIGHTS STD FEATURE IN
+BDRMS. FEB/00</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>12 X 10</dimension><level>1</level></breakfast>
+<family><dimension>19 X 13</dimension><level>1</level></family>
+<kitchen><dimension>12 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 6</dimension><level>1</level></laundry>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>18 X 13</dimension><level>2</level></master>
+
+<directions>75S TO MT ZION GO RT.L TIBERON R BRITTANY TRLS L
+JASONS BLUFF R CHESHIRE RIDGE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,27 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 2 bath(s) , 2 car garage and
+approximately 1831 square feet of living area.</house_description>
+
+<agent_name>Ryan/Star</agent_name>
+<direct>619-793-0889</direct>
+<fax>619-793-1679</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$265,900</list_price>
+<location></location>
+<mls>756</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1831 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jennie Evans</name>
+<office>(254)542-2121</office>
+<fax>(254)542-7400</fax>
+<mobile>(254)681-1028</mobile>
+<email>jqevans@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19595</id>
+<mls>77689</mls>
+<house_location>RT3, Box 333
+Kempner, TEXAS 76522</house_location>
+<county>Coryell</county>
+<price>$199,999</price>
+<bedrooms>6</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>3</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>House has a separate 2 bedroom guesthouse - 1140 sq feet</house_description>
+
+<school_district>Lampasas Isd</school_district>
+<sub-division>Allen Estates</sub-division>
+<approx_size_sqft>3996</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>3</approx_acres>
+<year_built>1991</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Side entry carport</item>
+<item>Cathedral Ceilings</item>
+<item>Wood privacy fence, Shade trees</item>
+<item>Above ground pool</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

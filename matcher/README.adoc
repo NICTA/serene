@@ -1,0 +1,58 @@
+:stem: latexmath
+
+== Overview ==
+
+This project is a tool for semi-automated identification of the semantics of the columns in tabular data.  More precisely, it implements the function:
+
+latexmath:[h(\vec{x}) \rightarrow \vec{y}]
+
+Where 
+
+* latexmath:[\vec{x} \in \mathbb{R}^m] is an m-dimensional feature vector representation of a single column from some tabular data
+* latexmath:[y \in \mathbb{R}^{|C|}] is a probability distribution over the semantic types C
+* latexmath:[C:=\{c_1,c_2,...,c_k\}] is the user-defined set of semantic types that we want to be able to identify in the data.
+
+We model latexmath:[h(\vec{x})] with a Random Forest classifier using Spark MLlib's implementation.
+
+== Prerequisites ==
+
+This project requires **Java/JDK** to build and run.  We recommend installing Oracle JDK 1.8.0_40 with the command below:
+
+```
+[Centos]
+wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.rpm
+sudo yum localinstall <path_to_downloaded_file>
+```
+
+== Binaries ==
+
+Prebuilt binaries are available for download from https://github.com/NICTA/data-integration/releases[here].
+
+== Building ==
+
+If you intend to rebuild the project from source,
+
+Install **SBT** with:
+
+```
+[Centos/Redhat] sudo yum install sbt
+[Ubuntu] sudo apt-get install sbt
+```
+
+Install **Scala** with:
+
+```
+[Centos/Redhat] sudo yum install scala
+[Ubuntu] sudo apt-get install scala
+```
+
+This command starts the builds and produces an archive in the project folder:
+
+```    
+sbt assembly
+```
+
+
+
+== How to run ==
+Please refer to the HOWTO file https://github.com/NICTA/data-integration/blob/master/dirstruct/semantic_type_classifier/HOWTO[here].

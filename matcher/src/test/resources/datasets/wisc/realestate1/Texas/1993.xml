@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sue Bradbury</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21157</id>
+<mls>9120107</mls>
+<house_location>3025 DeLeon Drive (Ad # 682)
+in North Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$45,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>2.4 Secluded &amp; wooded acres!  Spa, workshop, well, septic, 2 outbuildings, woodburning free standing fireplace, propane tank, covered porch &amp; a seasonal creek at the back of the lot.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Rolling Hills Shores</sub-division>
+<approx_size_sqft>900</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>134x765x340x524</approx_lot_size>
+<approx_acres>2.4</approx_acres>
+<year_built>1982</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Secluded &amp; Wooded 2.4 Acres</item>
+<item>Workshop &amp; 2 Storage Buildings</item>
+<item>Seasonal Creek</item>
+<item>Ad # 682</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

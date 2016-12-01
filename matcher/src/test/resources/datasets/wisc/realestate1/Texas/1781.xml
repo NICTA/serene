@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Nora Wall</name>
+<office>(512)789-3421</office>
+<fax>(512)834-2234</fax>
+<voice_mail>(512)834-6094</voice_mail>
+<mobile>(512)789-3421</mobile>
+<email>norawall@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21449</id>
+<mls>528762</mls>
+<house_location>4204 Walling Forge Dr.
+Austin, TEXAS</house_location>
+<county>Travis</county>
+<price>$174,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>4 Bedroom, 2.5 Baths! Gourmet Island Kitchen! Large Family Room! Sprinkler System! Security System! Covered Patio!</house_description>
+
+<school_district>1</school_district>
+<sub-division>Preston Oaks</sub-division>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Large Family Room! Covered Patio!</item>
+<item>Security System! Fireplace!</item>
+<item>Indoor Utility! Sprinkler System!</item>
+<item>4 Bedroom, 2.5 Bath! Gourmet Island Kitchen!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

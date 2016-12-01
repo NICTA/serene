@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stewart Martin</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>smartin@express-news.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21334</id>
+<mls>324750</mls>
+<house_location>7022 Hidden Hill N
+San Antonio, TEXAS 78244</house_location>
+<county>Bexar</county>
+<price>$179,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Custom Built 4 sided brick one story. Tile roof, side entry garage, covered patio overlooking inground pool. Private split bedroom and bath for in-law quarters or office. Double fireplace in open vaulted ceiling living/family room. Lots of tile in entry/hall and kitchen.  Upgraded carpet, recent exterior trim paint.</house_description>
+
+<school_district>Judson I S D</school_district>
+<sub-division>Woodlake Country Club</sub-division>
+<approx_size_sqft>2671</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>90x120</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

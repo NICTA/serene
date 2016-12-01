@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>644 MARNOAM</house_location>
+<price>$89,900</price>
+<rooms>7</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>245667</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>SUSAN HUFF</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>2 BEDROOM RANCH LOCATED ON A QUIET DEAD END STREET * STUDY IN LOWER
+LEVEL * SUN ROOM/BREAKFAST ROOM OFF KITCHEN</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Wall Unit</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<breakfast><dimension>12 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>10 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 8</dimension><level>1</level></kitchen>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>25 X 11</dimension><level>1</level></master>
+<study><dimension>12 X 12</dimension><level>L</level></study>
+
+<directions>TAYLOR MILL TO L ON WAYSKIN R OM MARNOAM</directions>
+</house_listing>
+
+
+

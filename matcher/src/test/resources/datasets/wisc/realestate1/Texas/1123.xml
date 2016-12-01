@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 1st Choice</name>
+<location>2702 E. HWY 190 Copperas Cove, TX 76522</location>
+<office>(254)542-1800</office>
+<toll_free>(800)334-6401</toll_free>
+<fax>(254)542-1839</fax>
+<email>foster@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Elke Cernik</name>
+<office>(254)542-1800</office>
+<fax>(254)542-1839</fax>
+<mobile>(254)290-4238</mobile>
+<email>elke@seacove.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19374</id>
+<mls>87779</mls>
+<house_location>117 Carothers
+Copperas Cove, TEXAS 76522</house_location>
+<county>Coryell</county>
+<price>$59,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Garage conversion can be used as a second living area or a 4th bedroom.  Indoor utility room, above ground pool and covered deck.</house_description>
+
+<school_district>Copperas Cove Isd</school_district>
+<sub-division>Nauert</sub-division>
+<approx_size_sqft>1340</approx_size_sqft>
+<approx_lot_size>112.8 x 65 x 128.8</approx_lot_size>
+<year_built>1970</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>$1 Move In</item>
+<item>Shade Trees, Pecan Trees</item>
+<item>Covered Patio</item>
+<item>Portable Building</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

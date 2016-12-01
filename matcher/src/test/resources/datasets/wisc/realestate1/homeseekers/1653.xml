@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1949 has 1
+bedroom(s), 1 bath(s) and approximately 480 square feet of living
+area. Rooms include master bedroom.</house_description>
+
+<agent_name>Joel Martin</agent_name>
+<direct>202-543-0011</direct>
+<office>202-362-3400</office>
+<firm_name>The Prudential Carruthers Realtor</firm_name>
+<phone>202-362-3400</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$49,900</list_price>
+<location>Washington, DC 20019</location>
+<mls>DC3079324</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>480 (approx)</square_feet>
+<lot_size>2594</lot_size>
+<year_built>1949</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Heat Pump, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

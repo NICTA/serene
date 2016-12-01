@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Frank Rainosek</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<mobile>(512)924-1901</mobile>
+<email>rainosek@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15619</id>
+<mls></mls>
+<house_location>805 Charleston Blvd.
+Smithville, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$134,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>This spacious 3/2 is ideal for the whole family!  The interior and exterior has been recently remodeled!  You will love the plush carpet, tile floors, formal dining, separate office area, open floor plan, plantation shutters, and more!  There is also a dressing room in the master bath!  Two car carport and covered rear patio!  Nice, tranquil setting!  Partially fenced!  Call or e-mail Frank today!</house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Spacious Family Home!</item>
+<item>Recently Remodeled Inside and Out!</item>
+<item>Covered Rear Patio, Partially Fenced!</item>
+<item>Park-Like Setting with Large Trees!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1924 has 4 bedroom(s), 2 bath(s) and
+approximately 2182 square feet of living area.</house_description>
+
+<agent_name>Kathie Capra-Bowles</agent_name>
+<direct>303-877-0638</direct>
+<office>303-985-4555</office>
+<firm_name>RE/MAX Professionals</firm_name>
+<phone>303-985-4555</phone>
+<fax>303-985-2543</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$329,000</list_price>
+<location>652 S Emerson St</location>
+<neighborhood>Washington Park West</neighborhood>
+<mls>356701</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2182 (approx)</square_feet>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

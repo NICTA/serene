@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1948 has 2 bedroom(s), 1 bath(s) .
+Features include patio.</house_description>
+
+<agent_name>Tom Simplot</agent_name>
+<office>602-274-8322</office>
+<firm_name>Dan Schwartz Realty</firm_name>
+<phone>602-274-8322</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$149,900</list_price>
+<location>Phoenix, AZ 85020</location>
+<mls>1465928</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>10,001-12,500</lot_size>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<patio>Covered</patio>
+<pool>No</pool>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Library, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

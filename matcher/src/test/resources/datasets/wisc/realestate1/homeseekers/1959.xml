@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1936 has 3 bedroom(s), 2
+bath(s) and approximately 1726 square feet of living area. Rooms
+include dining room, master bedroom. Features include fireplace.</house_description>
+
+<agent_name>Mark, Rivki</agent_name>
+<direct>310-838-8109</direct>
+<office>310-273-3113</office>
+<firm_name>Coldwell Banker</firm_name>
+<phone>310-273-3113</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$429,000</list_price>
+<location>Dr</location>
+<mls>99028027</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<style>Traditional</style>
+<square_feet>1726 (approx)</square_feet>
+<year_built>1936</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Central</heating>
+<fireplace>Living Room</fireplace>
+<rooms>Dining Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Traditional Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

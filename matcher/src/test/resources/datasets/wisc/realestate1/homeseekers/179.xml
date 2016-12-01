@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1968 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) , 1 car detached garage and approximately 900 square feet of
+living area. Features include air conditioning.</house_description>
+
+<agent_name>Lizette Monty</agent_name>
+<direct>882-9911</direct>
+<office>861-1543</office>
+<firm_name>Marlin Real Estate
+Lic. Real Estate Broker</firm_name>
+<phone>861-1543</phone>
+<fax>305-861-0765</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,000</list_price>
+<location>5700 Collins Av #4J</location>
+<neighborhood>Seacoast 5700 Condo Desc</neighborhood>
+<mls>M755756</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>900 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Intracoastal, Bay front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

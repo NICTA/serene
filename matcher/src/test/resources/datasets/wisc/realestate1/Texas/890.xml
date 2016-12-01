@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Broumley</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<email>staff@c21quadj.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18784</id>
+<mls>9095112</mls>
+<house_location>515 Kirk
+Hico, TEXAS 76457</house_location>
+<county>Hamilton</county>
+<price>$32,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Reduced!  Must see this cute country style house on quiet corner lot with large trees and lots of shade. Very nice starter home.</house_description>
+
+<move-in_date>10/14/99</move-in_date>
+<school_district>Hico</school_district>
+<approx_size_sqft>1022</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Large Trees</item>
+<item>Quiet Neighborhood</item>
+<item>Near Schools</item>
+<item>Nice Yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>1931 PARKSIDE DR</house_location>
+<price>$168,000</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>0</suburb>
+<school_dist>CARROLL CO.</school_dist>
+<mls>250254</mls>
+<house_type>Single Family</house_type>
+<firm>REALTY WORLD-RIVER VALLEY PROP</firm>
+<firm_phone>(502) 732-9977</firm_phone>
+<agent>RANDY O'NEAL</agent>
+<agent_phone>(502) 732-9977</agent_phone>
+<house_description>REFRIG W/ BUILT IN WATER FILTER,OVEN&amp; DISHWASHER REMAIN, 5YR EXTENDED
+WARRA NITY ON HEAT PUMP, WALKOUT BASEMENT ON SIDE, 32X12 DECK FROM
+KITCHEN, GAS FIREPLACE, CLOSET SPACE GALORE, LOCATED 5 MINUTES FROM
+INTERSTATE</house_description>
+<construction>Brick</construction>
+<heating>Gas,Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>999999999</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNKNOWN</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 14</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>11 X 20</dimension><level>2</level></bedroom_4>
+<kitchen><dimension>21 X 11</dimension><level>1</level></kitchen>
+<living><dimension>20 X 17</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+<recreation_room><dimension>32 X 15</dimension><level>2</level></recreation_room>
+
+<directions>---S EX 44,R US227, L GILLOCK AVE, L LOCK RD, L
+RIVERWOOD, R PARKSIDE DRIVE</directions>
+</house_listing>
+
+
+

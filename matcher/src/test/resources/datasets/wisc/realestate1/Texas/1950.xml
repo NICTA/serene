@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Jones</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>cjones@c21rapp.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21362</id>
+<mls>9130937</mls>
+<house_location>4500 Foxx Run Road
+Cleburne, TEXAS 76031</house_location>
+<county>Johnson</county>
+<price>$49,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>14x76 single wide mobile home on 3.74 acres with young trees. Split bedrooms, newer carpet, appliances and roof. Refrigerator to remiain</house_description>
+
+<school_district>Cleburne</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1064</approx_size_sqft>
+<approx_acres>3.74</approx_acres>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>6973 PARKVIEW</house_location>
+<price>$105,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>240563</mls>
+<house_type>Condominium</house_type>
+<firm>TOWNMARK</firm>
+<firm_phone>(513) 793-2100</firm_phone>
+<agent>P. THOMAS COLGAN</agent>
+<agent_phone>(513) 793-2100</agent_phone>
+<house_description>NEW COMMUNITY. CALL MARY PERKINS AT 746-2444 FOR SHOWING INSTRUCTIONS.
+MODEL OPEN DAILY 12-6PM. ONE LEVEL LIVING. ATTACHED GARAGE. WOOD DECK.
+OPEN AND SPACIOUS PLAN WITH SPLIT BEDROOMS, VAULTED CEILINGS &amp;
+SKYLIGHT.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>condo</lot_dimensions>
+<condo_level>UP</condo_level>
+<hoa_fee>99</hoa_fee>
+<semiannual_taxes>$NEW</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>8 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>1</level></laundry>
+<living><dimension>13 X 20</dimension><level>1</level></living>
+<master><dimension>11 X 14</dimension><level>1</level></master>
+
+<directions>RT. 42 TO SITE OF OLD DRIVE IN THEATRE</directions>
+</house_listing>
+
+
+

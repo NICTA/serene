@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>George Reinemund Real Estate</name>
+<location>P. O. Box 338 Bastrop, TX 78702</location>
+<office>(512)303-5709</office>
+<toll_free></toll_free>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<email>greino@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>George Reinemund</name>
+<office>(512)303-5709</office>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<mobile>(512)796-0955</mobile>
+<email>george@georgereinemund.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>7836</id>
+<mls></mls>
+<house_location>30 Co Rd 211 Rockne Area
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$395,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>FAMILY COMPOUND FOR SALE ON 30+ ACRES IN THE ROCKNE AREA.  LARGE (2350sf BCAD) NEWER HOME (1996) WHITH HUGE LIVING AREA-F/P. 2 LARGE BEDROOM SUITES.FORMAL DINING PLUS LARGE KITCHEN WITH BREAKFAST AREA. ABOUT 1800 SF OF COVERED PORCHES.  CARPORT/ WALKWAY BETWEEN HOME AND 2 CAR GARAGE WITH 1/2 BATH AND EXTRA STORAGE ROOMS--COULD BECOME A LARGE GAMEROOM-OR HUGE 3RD BEED ROOM. 2ND HOME HAS ABOUT 2000 sf AND WOULD MAKE A GREAT PLACE FOR ANOTHER FAMILY MEMBER-M-I-L--KIDS, ETC  MUCH MORE</house_description>
+
+<move-in_date>5/31/00</move-in_date>
+<school_district>Bastrop ISD</school_district>
+<sub-division>Rockne Area</sub-division>
+<stories>1</stories>
+<approx_acres>30</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>30 ACRESFAMILY COMPOUND</item>
+<item>2 LARGE HOMES PLUS</item>
+<item>OWNER WILL CONSIDER FINANCING</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

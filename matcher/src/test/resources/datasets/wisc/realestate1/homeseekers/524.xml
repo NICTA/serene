@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This condominium built in 1981 has 2 bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 1202 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Vera Erstling</agent_name>
+<direct>305-449-4523</direct>
+<office>305-931-8920</office>
+<firm_name>The Keyes Company,
+Lic. Real Estate Broker</firm_name>
+<phone>305-931-8920</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$87,900</list_price>
+<location>8101 Byron Av #511</location>
+<neighborhood>Abbott Gardens Condo</neighborhood>
+<mls>M701320</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>1202 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Zoned</cooling>
+<heating>Central, Electric</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Intercom System
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

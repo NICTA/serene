@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debbie Rogers</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)991-9232</mobile>
+<email>drogers@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19214</id>
+<mls>9101048</mls>
+<house_location>2203 Ranger Highway
+Weatherford, TEXAS 76088-9192</house_location>
+<county>Parker</county>
+<price>$199,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Spacious 2-story custom home on 10 scenic acres.  Fenced and sectioned with fertilized coastal grass.  Home has good closet space, neutral colors, berber carpet and wood burning stove to keep the whole house warm and cozy in the winter.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>2650</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>10</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+
+<highlights>
+<item>3 closets in Master Bedroom</item>
+<item>Wood burning stove heats house all winter</item>
+<item>Water conditioner in garage</item>
+<item>Very quiet neighborhood, safe for children</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

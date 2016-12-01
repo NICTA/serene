@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Markgraf Real Estate</name>
+<location>3836 Ranch Road 2233 Sunrise Beach, TX 78643</location>
+<office>(915)388-0228</office>
+<toll_free>(800)838-7816</toll_free>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Markgraf</name>
+<office>(915)388-0228</office>
+<fax>(915)388-0928</fax>
+<email>markgraf@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18006</id>
+<mls>53391</mls>
+<house_location>322 MOUNTAIN VIEW DRIVE
+Sunrise Beach, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$425,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>EXCEPTIONAL VALUE, 4BD. 4BA.HOME, MAIN LIVING AREA HAS 3007 SQ.FT. WITH A GAME ROOM WITH 1863 SQ.FT. IN DAY LIGHT BASEMENT LOOKING OVER LAKEFRONTWITH ITS OWN KIT. AND BATH,WITH AN ELEV. TO MAIN FLOOR ,MAIN LIV. AREA HAS FORMAL LIV. DIN.WITH SITTING AREA,WET BAR, GUEST BD. WITH BATH. LAKE SIDE HAS LARGE SHADE TREES AND TWO BOAT HOUSES WITH ELEC.LIFTS,ON ONE END OF HOUSE THERE IS DOG RUN . THERE IS A GREAT VIEW FROM YARD TO OPEN LAKE OF L.B.J.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Sunrise Beach</sub-division>
+<approx_size_sqft>3007</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>2 LOTS</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>LARGE HOME W/ LG.GAME ROOM</item>
+<item>2 BOAT DOCKS W. LIFTS</item>
+<item>XLG. LIV. W/FIREPLACE</item>
+<item>WATERFRONT W/ LG.SHADE TREES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

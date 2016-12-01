@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>3113 HUDNALL</house_location>
+<price>$495,000</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Side)</garage>
+<suburb>EDGEWOOD</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249100</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>CLARK NOWLAND</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>BEAUTIFUL WOODED LOT W/LAKE VIEW. CUSTOM CALIF STYLE RANCH ON 2.5
+ACRES. VAULTED CEILINGS, TWO STONE FIREPLACES, UNIQUE FLOOR PLAN WITH
+MANY FINE AMENITIES.</house_description>
+<construction>Wood,Stone</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas,Stone</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>.</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>14 X 14</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 15</dimension><level>L</level></bedroom_3>
+<dining><dimension>14 X 16</dimension><level>1</level></dining>
+<family><dimension>16 X 20</dimension><level>1</level></family>
+<kitchen><dimension>9 X 16</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 25</dimension><level>1</level></laundry>
+<living><dimension>20 X 24</dimension><level>1</level></living>
+<master><dimension>15 X 18</dimension><level>1</level></master>
+<recreation_room><dimension>15 X 23</dimension><level>L</level></recreation_room>
+<study><dimension>13 X 15</dimension><level>L</level></study>
+
+<directions>S DIXIE HWY L ON LYNDALE R ON ASHLEY L ON
+HUDNALL</directions>
+</house_listing>
+
+
+

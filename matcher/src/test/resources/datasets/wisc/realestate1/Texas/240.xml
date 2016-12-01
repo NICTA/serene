@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Laura Frost</name>
+<office>(817)573-8801</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20724</id>
+<mls>9122770</mls>
+<house_location>4009 Apache Trail (Ad # 271)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$224,921</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Huge mainbody waterfront home.  New metal roof, hot tub, double sun deck, boat dock with lift, 2 living areas &amp; nicely manicured yard.  All furniture stays.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Indian Harbor</sub-division>
+<approx_size_sqft>2140</approx_size_sqft>
+<stories>2</stories>
+<year_built>1979</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<hot_tub>Yes</hot_tub>
+<waterfront>Yes</waterfront>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Mainbody Waterfront</item>
+<item>Double Deck &amp; Boat Dock W/Lift</item>
+<item>Lovely Manicured Yard</item>
+<item>Ad # 271</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

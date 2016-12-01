@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1979 has 4 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1763 square feet of living
+area. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Roni Benge</agent_name>
+<direct>520-349-7384</direct>
+<office>520-742-9600</office>
+<firm_name>Horton Max Real Estate Llc</firm_name>
+<phone>520-742-9600</phone>
+<fax>520-877-3737</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$159,900</list_price>
+<location>1501 W Calle Concordia</location>
+<mls>2000565</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1763 (approx)</square_feet>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>10877 ST. ANDREWS</house_location>
+<price>$142,900</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>246044</mls>
+<house_type>Condominium</house_type>
+<firm>FISCHER MANAGEMENT</firm>
+<firm_phone>(606) 341-4709</firm_phone>
+<agent>R. CASEY HUBER</agent>
+<agent_phone>(606) 341-4709</agent_phone>
+<house_description>NEW FISCHER ATTACHED HOME - NEWBURY WITH OPTION FINISHED LOWER LEVEL
+FOUNDATION ONLY/OPTIONS AVAILABLE MODEL #606-384-3772</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 16</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>15 X 25</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>UNION-OFF RICHWOOD EXIT CALL 384-3772 ANYTIME</directions>
+</house_listing>
+
+
+

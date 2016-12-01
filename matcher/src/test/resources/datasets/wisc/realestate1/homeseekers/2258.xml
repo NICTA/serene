@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1976 has 3 bedroom(s), 1 bath(s) , 2
+car garage. Features include private pool, patio, air conditioning.</house_description>
+
+<agent_name>David Oliverson</agent_name>
+<office>602-942-1410</office>
+<firm_name>West Usa Realty</firm_name>
+<phone>602-942-1410</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$105,900</list_price>
+<location>Phoenix, AZ 85032</location>
+<mls>1460418</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1976</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Electric</heating>
+<location>Corner, Cul-de-sac</location>
+<patio>Covered</patio>
+<pool>Above ground</pool>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dishwasher, Eat In Kitchen, Garage DoorOpener
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>1885 FALCON CREST</house_location>
+<price>$135,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>HEBRON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>250222</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>D KEN PERRY</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>BIG HOUSE FOR THE MONEY! HARDWOOD ENTRY, LG FAMILY ROOM W/GAS
+FIREPLACE. MASTER BD W/GARDEN BATH, HIGH EFF FURNACE, WALKOUT
+BASEMENT, 10X10 DECK + MORE. BANK OWNED. NEED SOME TOUCH UPS. GOOD
+BUY!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65x110</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 13</dimension><level>1</level></dining>
+<family><dimension>11 X 12</dimension><level>1</level></family>
+<kitchen><dimension>12 X 18</dimension><level>1</level></kitchen>
+<living><dimension>15 X 16</dimension><level>1</level></living>
+<master><dimension>13 X 19</dimension><level>2</level></master>
+
+<directions>I-275 EXIT KY237 N, R CARDINAL WAY, R FALCON
+CREST</directions>
+</house_listing>
+
+
+

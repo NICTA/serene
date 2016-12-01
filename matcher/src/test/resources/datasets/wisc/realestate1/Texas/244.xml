@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Verna</email>
+</firm_information>
+
+<agent_information>
+<name>Adams</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)242-6500</voice_mail>
+<mobile>(713)824-0228</mobile>
+<email>vernaadams@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15105</id>
+<mls>205201</mls>
+<house_location>13627 Woodchester
+Sugar Land, TEXAS</house_location>
+<county>Fort Bend</county>
+<price>$90,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Lovely corner Cul-De-Sac lot. Tile in Kitchen and in house utility room. Replaced in last 7.5 yrs. Entry wood floor, AC &amp; Heat, Roof, Water heater, Garage door opener, Fresh paint thru-out, New wallpaper in Kitchen, Dinning Room and Extra bath.</house_description>
+
+<move-in_date>3/22/99</move-in_date>
+<school_district>Fortbend Isd</school_district>
+<sub-division>Covington Woods</sub-division>
+<approx_size_sqft>1834</approx_size_sqft>
+<stories>1</stories>
+<year_built>1973</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Lovely Corner Cul-De-Sac</item>
+<item>Woodburning Fireplace</item>
+<item>Wood floor in entry</item>
+<item>Tile</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

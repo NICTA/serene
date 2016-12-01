@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This condominium built in 1999 has 1 bedroom(s), 1 bath(s) . Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Lourdes Garcia</agent_name>
+<direct>305-273-2281</direct>
+<office>305-386-0021</office>
+<firm_name>Gold Plus Real Est Gold Plus Real Est
+Lic. Real Estate Broker</firm_name>
+<phone>305-386-0021</phone>
+<fax>305-387-9727</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,900</list_price>
+<location>4775 Collins Ave #C-17</location>
+<neighborhood>Blue Diamond</neighborhood>
+<mls>M773051</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Amelia Smith</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20819</id>
+<mls></mls>
+<house_location>911 San Jacinto St.
+in West Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$99,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>This home has some real southwest appeal/arched fireplace, arched doorways, berbered carpet, and southwest colors...recent interior and exterior paint, on a corner lot, privacy fencing, three bedroom, two full baths...within walking distance of Lockhart schools..garage enclosure several years ago..nice storage..still a great floorplan..Listed at $99,000.  Currently vacant and easy to show.</house_description>
+
+<school_district>Lockhart</school_district>
+<approx_size_sqft>1662</approx_size_sqft>
+<approx_acres>0.25</approx_acres>
+<year_built>1987</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Corner lot</item>
+<item>Near three Lockhart schools</item>
+<item>Recent interior and exterior paint</item>
+<item>Garage enclosure</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>4525 STEWART RIDGE</house_location>
+<price>$59,700</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>OWEN</suburb>
+<school_dist>OWEN</school_dist>
+<mls>249009</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>CANDACE SCHULZ</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>GREAT POTENTIAL IN RURAL SETTING , QUIET &amp; PEACEFUL</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 8</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>14 X 11</dimension><level>1</level></dining>
+<family><dimension>15 X 21</dimension><level>1</level></family>
+<kitchen><dimension>13 X 8</dimension><level>1</level></kitchen>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>11 X 10</dimension><level>1</level></master>
+
+<directions>S75 TO DRY RIDGE R22 TO R36,R ON STEWART RIDGE
+BEFORE OWEN CO SIGN,HOUSE ON R</directions>
+</house_listing>
+
+
+

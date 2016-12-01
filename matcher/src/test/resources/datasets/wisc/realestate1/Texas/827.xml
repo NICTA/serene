@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Liza Albrizzi</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<email>albrizzmoore@earthlink.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18963</id>
+<mls>9097340</mls>
+<house_location>2641 Crix
+Fort Worth, TEXAS 76140</house_location>
+<county>Tarrant</county>
+<price>$76,400</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>NEW HOME TO BE BUILT.  TIME TO PICK YOUR OWN COLORS!  OPEN FLOORPLAN; LARGEST ON THE BLOCK!  GET IN FOR LOW DOWN PAYMENT.  BUILDER WILL WORK WITH BUYER ON CLOSING COSTS.CALL FOR DETAILS.</house_description>
+
+<school_district>Everman I S D</school_district>
+<sub-division>Crimson Ridge</sub-division>
+<approx_size_sqft>1300</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>NEW HOME</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

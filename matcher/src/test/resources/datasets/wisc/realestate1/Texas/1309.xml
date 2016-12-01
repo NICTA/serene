@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Beth King</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)663-0102</mobile>
+<email>bking@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21628</id>
+<mls>528638</mls>
+<house_location>Rt. 2, Poole Rd.
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$142,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>FABULOUS FAMILY HOME!! A very warm and inviting residence in a quiet, secluded setting among tall pines. One bedroom and full bath downstairs and three bedrooms upstairs including a huge master suite that can accomodate a sitting area or office. A custom stone fireplace is the focal point of the living room, opening into the dining room which also opens to the kitchen, separated by a serving counter of coriander. The large family room offers space for a variety of activities. Built in 1981 with 2304sf per the tax office. Conveniently located just off Hwy. 71E between Bastrop and Smithville.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Alum Creek Village</sub-division>
+<approx_size_sqft>2304</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>1.37ac</approx_lot_size>
+<approx_acres>1.37</approx_acres>
+<year_built>1981</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Two Story Rock/Frame Family Home</item>
+<item>2 Living Areas, 4 Bedrooms, 2.5 Baths</item>
+<item>Conveniently Located off Hwy. 71E</item>
+<item>Quiet, Seluded Setting Among Tall Pines</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

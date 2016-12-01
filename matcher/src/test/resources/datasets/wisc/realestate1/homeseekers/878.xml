@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1977 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include dining room, master bedroom. Features
+include patio, fireplace.</house_description>
+
+<agent_name>Paul Pastore</agent_name>
+<office>480-963-6000</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>480-963-6000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$121,900</list_price>
+<location>Phoenix, AZ 85032</location>
+<mls>1463024</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1977</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Garage Door Opener, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

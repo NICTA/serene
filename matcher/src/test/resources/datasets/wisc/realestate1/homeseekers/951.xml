@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1966 has 1 bedroom(s), 1 bath(s) and
+approximately 726 square feet of living area. Features include private
+pool, air conditioning.</house_description>
+
+<agent_name>Nicholas Koltay</agent_name>
+<direct>305-000-0000</direct>
+<office>305-893-9301</office>
+<firm_name>Arvida Realty Serv Arvida Realty Serv
+Lic. Real Estate Broker</firm_name>
+<phone>305-893-9301</phone>
+<fax>305-893-6620</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>2899 Collins Av #608</location>
+<neighborhood>Triton Tower Condo</neighborhood>
+<mls>M752211</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>726 (approx)</square_feet>
+<year_built>1966</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

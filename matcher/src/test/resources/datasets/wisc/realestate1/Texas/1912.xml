@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elmer Jackson</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)699-8908</mobile>
+<email>javcom.com@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21557</id>
+<mls>528465</mls>
+<house_location>257 K C Drive
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$117,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>One year old doublewide in excellent condition. Huge Pines-beautiful setting in the woods.</house_description>
+
+<school_district>Bastrop</school_district>
+<sub-division>Kc Estates</sub-division>
+<approx_size_sqft>1728</approx_size_sqft>
+<approx_lot_size>340 X 645</approx_lot_size>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Large trees</item>
+<item>Circle Drive</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

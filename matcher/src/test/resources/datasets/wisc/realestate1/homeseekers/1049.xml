@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This single family home has 5 bedroom(s), 2 full bath(s)/1 half
+bath(s) , 2 car garage. Rooms include dining room, master bedroom.</house_description>
+
+<agent_name>E. Giles Patten</agent_name>
+<office>480-994-9944</office>
+<email>gilesp@uswest.net</email>
+<firm_name>Developers Marketing
+Services</firm_name>
+<phone>480-994-9944</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$135,870</list_price>
+<location>Phoenix, AZ 85027</location>
+<mls>1389378</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Cathedral/Vaulted Ceilings, Dishwasher,Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

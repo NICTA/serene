@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1970 has 3 bedroom(s), 2
+bath(s) and approximately 1695 square feet of living area. Rooms
+include master bedroom. Features include patio, fireplace, air
+conditioning, storage space.</house_description>
+
+<agent_name>Pamela Harlan</agent_name>
+<direct>520-918-5443</direct>
+<office>520-299-2201</office>
+<email>P-R@harlans.com</email>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-299-2201</phone>
+<fax>520-529-1548</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$118,000</list_price>
+<location>1510 S Brown Ave</location>
+<mls>2000312</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1695 (approx)</square_feet>
+<lot_size>60X43X78X65X105</lot_size>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

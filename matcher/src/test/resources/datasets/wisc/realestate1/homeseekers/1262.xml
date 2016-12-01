@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>Very nice 3brwith enclosed patio or mmake it a 4 bedrooms .. Formal
+dinning room, ample kitchen with new cabinets, nice tile counter,
+washer and dryer in kitchen, fire place, 2 car gar call owner to
+show........</house_description>
+
+<agent_name>Wesly Iniguez</agent_name>
+<office>213-566-1707</office>
+<firm_name>U.S. Herrera Realty #3</firm_name>
+<phone>213-566-1707</phone>
+<fax>323-584-8181</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,000</list_price>
+<location>3966 La Salle Av</location>
+<mls>R212</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1421 (approx)</square_feet>
+<lot_size>5200 (approx)</lot_size>
+<year_built>1912</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Living Room</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

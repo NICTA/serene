@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>SUSAN YOUNGBLOOD</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<voice_mail>(512)794-2099 141</voice_mail>
+<mobile>(512)656-6665</mobile>
+<email>susany@onr.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17109</id>
+<mls>510564</mls>
+<house_location>207 W. Elliott Dr.
+Austin, TEXAS 78753</house_location>
+<county>Travis</county>
+<price>$74,990</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>A warm &amp; fuzzy! Huge yard with trees! Gardener&amp;#8217;s heaven. 2 bedrooms, 1 bath. Central heat and air. Cozy. Lots of touches added by a caring owner. It shows! Personality and warmth would describe the ambiance of this darling cottage. A wooden deck off the kitchen in the back yard is great for entertaining. Close to everything. Call Susan Youngblood ABR, CRS, GRI to see. 512-794-9292 X141.</house_description>
+
+<move-in_date>7/6/99</move-in_date>
+<school_district>Austin ISD</school_district>
+<approx_size_sqft>1008</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>58x200</approx_lot_size>
+<year_built>1940</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>COZY COTTAGE!</item>
+<item>LOCATION! LOCATION!</item>
+<item>PRIDE OF OWNERSHIP!</item>
+<item>HOME SWEET HOME!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>560 LEXINGTON</house_location>
+<price>$197,500</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>MANSION</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249304</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(513) 321-3232</firm_phone>
+<agent>PEGGY HUGHES</agent>
+<agent_phone>(513) 321-3232</agent_phone>
+<house_description>NOTHING TO DO BUT MOVE-IN! UPDATED FROM TOP TO BOTTOM. NATURAL
+WOODWORK, GOURMET EAT-IN EQUIPPED KITCHEN. LANDSCAPED YARD. 2 CAR
+GARAGE.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>3</level></bath_3>
+<bedroom_2><dimension>15 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 12</dimension><level>3</level></bedroom_3>
+<bedroom_4><dimension>14 X 13</dimension><level>3</level></bedroom_4>
+<dining><dimension>15 X 16</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 16</dimension><level>2</level></master>
+<study><dimension>11 X 7</dimension><level>2</level></study>
+
+<directions>WASHINGTON TO 3RD TO PARK TO LEXINGTON</directions>
+</house_listing>
+
+
+

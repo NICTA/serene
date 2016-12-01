@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<DataFeedInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.transportdirect.info/datafeedinfo http://localhost/datafeedinfo.xsd"
+        xmlns="http://www.transportdirect.info/datafeedinfo"
+        version="1.0">
+	<SupplierID>052</SupplierID>
+	<InterfaceNumber version="01">IF064</InterfaceNumber>
+	<TimePrepared>2014-10-14T08:00:00</TimePrepared>
+	<DataFeed isPresent="Y">
+		<Filename>CarParkData_1.xml</Filename>
+		<Filename>CarParkData_2.xml</Filename>
+		<Filename>CarParkData_3.xml</Filename>
+		<Filename>CarParkData_4.xml</Filename>
+		<Filename>CarParkData_5.xml</Filename>
+		<Filename>CarParkData_6.xml</Filename>
+		<Filename>CarParkData_7.xml</Filename>
+		<Filename>CarParkData_8.xml</Filename>
+	</DataFeed>	
+</DataFeedInfo>

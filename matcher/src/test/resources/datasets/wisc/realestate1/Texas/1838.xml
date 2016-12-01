@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jim Smith</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<mobile>(512)787-0383</mobile>
+<email>amelia_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13188</id>
+<mls></mls>
+<house_location>409 Connolly Circle
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$279,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Splendid design and an excellent location in Lockhart make this a one-of-a-kind property.  This five bedroom home has a double master bath and 3.5 additional bath/2 bedrooms are downstairs.  Professional decor is evident throughout..formal living and dining, some wood flooring...the kitchen and breakfast areas open to a bright and spacious family/sitting room with a Franklin stove. (Two other fireplaces)  Many custom features..leaded window, tall ceilings, and extensive trim work throughout covered porches/patios, tile roof, corner lot....a must see for this price!</house_description>
+
+<move-in_date>12/30/98</move-in_date>
+<school_district>Lockhart</school_district>
+<sub-division>Clearfork</sub-division>
+<approx_size_sqft>3852</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>double</approx_lot_size>
+<year_built>1980</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Splendid design and location</item>
+<item>Five bedrooms/5.5 baths</item>
+<item>3 fireplaces/fabulous decor</item>
+<item>Only 30 miles from Austin/Bergstrom</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

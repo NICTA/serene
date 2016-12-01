@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This home built in 1964 has 2 bedroom(s), 2 bath(s) . Rooms include
+master bedroom. Features include view, patio.</house_description>
+
+<agent_name>Gary R. Greenacre Gary R. Greenacre</agent_name>
+<office>480-483-3333</office>
+<email>Gary@garygreenacre.com</email>
+<firm_name>RE/MAX Excalibur Realty
+RE/MAX Excalibur Realty</firm_name>
+<phone>480-483-3333</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$80,000</list_price>
+<location>Phoenix, AZ 85016</location>
+<mls>1445621</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<year_built>1964</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Deck</patio>
+<pool>Community Pool</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dining/Living Combo, Great Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

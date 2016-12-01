@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>327 POPLAR THICKET</house_location>
+<price>$168,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Side)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249922</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>DINA GIBSON</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>PRIVACY GALORE 11 ACRES +OR-.SWINGSET, PLAYHOUSE, ABOVE GR POOL
+INCL-1ST FL MSTR. W/9X7 DRESSING AREA.STAINED WOODWORK THRUOUT, WOOD
+ANDERSEN WINDOWS, PARQUET FLOOR ENTRY &amp; DR.XTRA STORAGE IN LAUN.,AIR
+PURIFIER,TASTEFUL DECOR.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>15 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>15 X 14</dimension><level>2</level></bedroom_3>
+<dining><dimension>12 X 9</dimension><level>1</level></dining>
+<family><dimension>23 X 13</dimension><level>L</level></family>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>21 X 12</dimension><level>L</level></laundry>
+<living><dimension>16 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+
+<directions>US27S, RT LOW GAP, RT ALEXANDRIA LICKING, LT RTE
+9, RT POPLAR THICKET</directions>
+</house_listing>
+
+
+

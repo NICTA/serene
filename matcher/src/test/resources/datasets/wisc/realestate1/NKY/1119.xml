@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>545 DRY RIDGE-MT Z</house_location>
+<price>$229,500</price>
+<rooms>11</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached,Front,Rear)</garage>
+<suburb>-</suburb>
+<school_dist>GRANT</school_dist>
+<mls>250258</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>CHRISTINA SCHMIDT</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>FABULOUS RANCH ON FULL FINISHED BSMT*6.7 AC ZONED AG-1*OVERSIZED 2 CAR
+GARA GE ON MAIN FL,1 CAR &amp; STORAGE RM BELOW*CUSTOM
+WINDOWS,CABINETS&amp;WOOD FLOORS EAT-IN W/WALKOUT KIT*UPGRADED CARPET,DOOR
+KNOBS,WINDOWS,CLG FANS THRU-OUT!</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>16 X 14</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 12</dimension><level>L</level></bedroom_3>
+<bedroom_4><dimension>17 X 15</dimension><level>L</level></bedroom_4>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<family><dimension>38 X 29</dimension><level>L</level></family>
+<kitchen><dimension>19 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 8</dimension><level>1</level></laundry>
+<living><dimension>23 X 15</dimension><level>1</level></living>
+<master><dimension>17 X 15</dimension><level>1</level></master>
+<study><dimension>18 X 14</dimension><level>L</level></study>
+
+<directions>75S TO DRY RIDGE, R ON KY22,R ON 467,R ON DRY
+RIDGE-MT ZION ROAD</directions>
+</house_listing>
+
+
+

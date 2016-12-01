@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>700 INDEP STATION</house_location>
+<price>$169,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250031</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARB MASSMAN</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>MOVE UP ACCENTS INCLUDE WALKOUT TO CUSTOM DECK AND GAZEBO. LOVELY GOLF
+COURSE VIEW. 3 BDRM 2/5 BA,LG MSTR SUITE W/BATH AND WALK-IN CLOSET.
+HRDWD FLOORING IN KITCHEN W/CENTER WORK ISLAND. IMMEDIATE AVAILABILITY</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>113 X 150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 11</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>12 X 9</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>16 X 12</dimension><level>1</level></family>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<living><dimension>12 X 12</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>2</level></master>
+
+<directions>SO ON TURKEYFOOT TO LEFT ON INDEPENDENCE STATION
+RD</directions>
+</house_listing>
+
+
+

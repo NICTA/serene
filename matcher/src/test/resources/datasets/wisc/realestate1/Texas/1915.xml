@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sonny Mobley</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>sonny@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20261</id>
+<mls>54213</mls>
+<house_location>23113 HI STIRRUP, #101 TIMBERRIDGE CONDOS
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$86,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Totally furnished two-story Timberridge condo.  Fireplace.  Large Patio.  One-car garage.  Insulated windows, ceiling fans, disposal, dishwasher, oven, microwave, refrigerator.  Large patio.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>COMPLETELY FURNISHED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

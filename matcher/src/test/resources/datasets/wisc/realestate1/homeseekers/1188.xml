@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1971 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include family room, master bedroom. Features
+include private spa, fireplace, air conditioning, skylights, storage
+space.</house_description>
+
+<agent_name>Mounty West</agent_name>
+<office>623-362-3000</office>
+<firm_name>RE/MAX Integrity Realtors RE/MAX Integrity Realtors</firm_name>
+<phone>623-362-3000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$124,900</list_price>
+<location>Phoenix, AZ 85029</location>
+<mls>1463597</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<pool>No</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Ceiling Fan(s), Dishwasher, Garage DoorOpener, Gazebo, Pantry, Skylights, Storage Space, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1967 has 2 bedroom(s), 2 bath(s) , 1 car
+attached garage and approximately 1909 square feet of living area.
+Rooms include dining room. Features include private pool, air
+conditioning.</house_description>
+
+<agent_name>Iris Donahue</agent_name>
+<office>305-868-5952</office>
+<firm_name>Donahue Realty, In
+Lic. Real Estate Broker</firm_name>
+<phone>305-868-5952</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$239,000</list_price>
+<location>5825 Collins Av #7G</location>
+<neighborhood>Corinthian Condo</neighborhood>
+<mls>M757406</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1909 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Garage Door Opener, Pantry, Smoke Detector, Walk-InCloset(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

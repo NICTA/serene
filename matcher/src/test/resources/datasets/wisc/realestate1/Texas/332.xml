@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jeff McSpadden</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18320</id>
+<mls>9067538</mls>
+<house_location>4033 Maybery (Ad #126)
+Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$33,500</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>The Ridge</sub-division>
+<approx_size_sqft>550</approx_size_sqft>
+<stories>1</stories>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<resort_property>Yes</resort_property>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>View and access to the lake</item>
+<item>Park and tennis court</item>
+<item>Great starter home</item>
+<item>inquire about #126</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

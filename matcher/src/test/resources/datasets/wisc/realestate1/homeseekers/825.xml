@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1925 has 2 bedroom(s), 2 bath(s) and
+approximately 1190 square feet of living area. Features include air
+conditioning, french doors.</house_description>
+
+<agent_name>Donald Wilson</agent_name>
+<direct>305-335-5722</direct>
+<office>305-672-1300</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-1300</phone>
+<fax>305-672-1499</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$168,000</list_price>
+<location>934 Michigan Av #203/04</location>
+<neighborhood>Venetian Manor Condo</neighborhood>
+<mls>M753082</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1190 (approx)</square_feet>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+French Doors, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

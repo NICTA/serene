@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>1120 BANKLICK</house_location>
+<price>$62,900</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247823</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>TIM BUERGER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* LARGE ROOMS * NEWER PLUMBING * LAUNDRY CAN BE CONVERTED TO OTHER USE
+* * ABSOLUTE MUST SEE TO APPRECIATE *</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>24x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>16 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>16 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>16 X 15</dimension><level>2</level></bedroom_4>
+<kitchen><dimension>16 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>12 X 12</dimension><level>1</level></laundry>
+<living><dimension>16 X 15</dimension><level>1</level></living>
+<master><dimension>16 X 15</dimension><level>1</level></master>
+
+<directions>PIKE ST TO LEE ST, TURN ON LEE TO L ON W ROBBINS
+TO R ON BANKLICK</directions>
+</house_listing>
+
+
+

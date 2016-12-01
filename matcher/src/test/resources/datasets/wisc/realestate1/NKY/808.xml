@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>102 LONDON ACRES</house_location>
+<price>$64,800</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>249622</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JANE ASHCRAFT-WEST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>SPECTACULAR TOWNHOME W/PRIVATE ENTRANCE/2ND FLOOR LAUNDRY/LARGE
+COUNTER BAR FULLY EQUIPPED KITCHEN/NICE SIZED BEDROOMS/ TRIPLE PATIO
+DOORS/BALCONY W/WOODED VIEW/LOTS OF CLOSET SPACE/2 RESERVED PARKING
+SPACES/ &amp; MORE!</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>65</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 3</dimension><level>2</level></laundry>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>2</level></master>
+
+<directions>GRAND AVE TO CHURCHILL TO L ON NEWMAN TO R ON
+KYLES TO STRAIGHT TO 102 LONDON ACRE</directions>
+</house_listing>
+
+
+

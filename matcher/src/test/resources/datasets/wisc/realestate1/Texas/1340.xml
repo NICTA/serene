@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Pud Owens Realty</name>
+<location>910 1/2 West Cameron Rockdale, TX 76567</location>
+<office>(512)446-4243</office>
+<toll_free></toll_free>
+<fax>(512)446-4273</fax>
+<email>rlaj@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Office Call</name>
+<office></office>
+<fax></fax>
+<email>rlaj@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16482</id>
+<mls></mls>
+<house_location>CR 330
+Milano, TEXAS</house_location>
+<county>Milam</county>
+<price>$100,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>25 acres south of Milano, 13 year old 3/2 Brick Home. Very Nice. 16x30 work shop and good 800' well. This home is secluded yet convenient.</house_description>
+
+<school_district>Milano</school_district>
+<stories>1</stories>
+<approx_acres>25</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

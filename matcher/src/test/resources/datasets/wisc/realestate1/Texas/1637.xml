@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Barbara McRoberts</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>bamcrobert@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20113</id>
+<mls>14760</mls>
+<house_location>513 Lake Drive
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$408,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>What's not to like about this prestigious 4-bedroom, 3 bath (tiled) California-style ranch home with separate guest quarters or maid's room located in one of the most desireable areas of Harlingen? This 1950's home with custom brick pavers at the front entrance and a wide concrete garage entrance has been remodeled and meticulously  maintained. This estate-sized lot is almost a full acre and offers an abundance of some of the most magnificent trees and lush foliage in the area.</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Matz-leggett</sub-division>
+<approx_size_sqft>3500</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<year_built>1951</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Prestigious area with large trees</item>
+<item>Remodeled kitchen</item>
+<item>Tile roof</item>
+<item>Separate maids quarters</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

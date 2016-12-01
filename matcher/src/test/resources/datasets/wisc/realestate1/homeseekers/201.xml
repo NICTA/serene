@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>Lovely home sitting on a very large lot. Plenty of room to add on.
+Large kitchen with connecting service porch. Nice size rooms as well
+as a spacious basement that can be converted into a bedroom. Property
+is zonedfor units per public records. Owner is ready to move. Call for
+appointment</house_description>
+
+<agent_name>Jordan,Kenneth</agent_name>
+<office>310-217-4084</office>
+<firm_name>American Way Realty</firm_name>
+<phone>310-217-4084</phone>
+<fax>310-719-8602</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$100,000</list_price>
+<location>127 W 106Th St</location>
+<mls>R100124</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>864 (approx)</square_feet>
+<lot_size>5670 (approx)</lot_size>
+<year_built>1923</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Floor Furnace</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

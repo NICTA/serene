@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1930 has 2
+bedroom(s), 1 full bath(s)/1 half bath(s) . Rooms include dining room,
+living room, bonus room, master bedroom. Features include air
+conditioning.</house_description>
+
+<agent_name>Claude Murrell</agent_name>
+<office>301-423-6834</office>
+<firm_name>Murrell, Inc., Realtors</firm_name>
+<phone>301-423-6834</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$95,000</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC3124136</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1(full) 1(half)</baths>
+<levels>3 or more</levels>
+<type>Single Family</type>
+<lot_size>3064</lot_size>
+<year_built>1930</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Home Warranty
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

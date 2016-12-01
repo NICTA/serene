@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This townhouse built in 1997 has 2 bedroom(s), 2 full bath(s)/1 half
+bath(s) and approximately 1130 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Candy Wynn</agent_name>
+<direct>305-201-7882</direct>
+<office>305-895-5911</office>
+<firm_name>Advantage Associat
+Lic. Real Estate Broker</firm_name>
+<phone>305-895-5911</phone>
+<fax>305-895-8617</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$270,000</list_price>
+<location>415 N Hibiscus Dr #C</location>
+<neighborhood>Hibiscus Island Pb 8-75</neighborhood>
+<mls>M769721</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<type>Townhouse</type>
+<square_feet>1130 (approx)</square_feet>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

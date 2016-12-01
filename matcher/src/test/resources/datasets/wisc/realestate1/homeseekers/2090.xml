@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home has 3 bedroom(s), 1 bath(s) .</house_description>
+
+<agent_name>Charles Dibenedetto</agent_name>
+<office>516-427-1200</office>
+<firm_name>Coach Real Estate Associates</firm_name>
+<phone>516-427-1200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$129,000</list_price>
+<location>Manor</location>
+<mls>4253216</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Capecod</style>
+<lot_size>0.13</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Capecod Style, Full Basement
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

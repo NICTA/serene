@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 3+ level attached townhouse built in 1912 has 5 bedroom(s), 2
+bath(s) . Rooms include dining room, master bedroom. Features include
+air conditioning.</house_description>
+
+<agent_name>Dottie Odell</agent_name>
+<direct>301-283-2096</direct>
+<office>301-283-2096</office>
+<firm_name>Dorothy Odell Real Estate</firm_name>
+<phone>301-283-2096</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$215,000</list_price>
+<location>Washington, DC 20009</location>
+<mls>DC3120866</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>2</baths>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<lot_size>2026</lot_size>
+<year_built>1912</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

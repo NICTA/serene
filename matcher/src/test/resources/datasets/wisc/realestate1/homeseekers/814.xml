@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This condominium built in 1939 has 1 bedroom(s), 1 bath(s) and
+approximately 240 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Marsh Ferreira</agent_name>
+<direct>954-000-0000</direct>
+<office>954-442-2444</office>
+<firm_name>M A F Realty
+Lic. Real Estate Broker</firm_name>
+<phone>954-442-2444</phone>
+<fax>954-442-1444</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$54,000</list_price>
+<location>1111 Collins Av #314</location>
+<neighborhood>Tudor South Beach Resort</neighborhood>
+<mls>F267377</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>240 (approx)</square_feet>
+<year_built>1939</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

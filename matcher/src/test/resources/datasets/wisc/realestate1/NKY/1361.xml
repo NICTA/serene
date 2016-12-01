@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>641 MARNOAM DR</house_location>
+<price>$76,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Side)</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250234</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>DUANE D DEGROFF</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>24 HR CALL 281-HOME #4840 BUYER WARRANTY WBFP WATERPROOFED BSMT
+W/WALKOUT HDWD FLOORS STORM WINDOWS LG CLOSETS EASY TO REDECORATE CITY
+WATER READY TO TAP IN</house_description>
+<construction>Brick</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>14 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>TAYLOR MILL RD S TO L ON WAYSKIN R ON MARNDAM</directions>
+</house_listing>
+
+
+

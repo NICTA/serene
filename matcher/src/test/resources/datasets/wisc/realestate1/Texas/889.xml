@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maria Bravo</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 243</voice_mail>
+<email>bravo@c21cook.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21188</id>
+<mls>526998</mls>
+<house_location>6909 Bill Hughes Road
+Austin, TEXAS 78745</house_location>
+<county>Travis</county>
+<price>$109,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>IMMACULATE AND COZY. CUTE FRONT, LANDSCAPE. OPEN AND BRIGHT. WOOD FLOORS, OPEN KITCHEN. NICE CABINETS. 4 OR 3 + STUDY. TOUCH UPS GOING ON BUT IN MOVE IN CONDITION. SHOWS GREAT, NICE STREET APPEAL. DON&amp;#8217;T MISS THIS ONE.</house_description>
+
+<school_district>Austin, Williams, Bedichek, Crockett</school_district>
+<sub-division>Buckingham Ridge</sub-division>
+<approx_size_sqft>1329</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>61 x 106</approx_lot_size>
+<year_built>1978</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

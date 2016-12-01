@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>David Hooker</name>
+<office>(512)251-1656</office>
+<fax>(512)251-1656</fax>
+<voice_mail>(512)834-6052</voice_mail>
+<mobile>(512)656-7392</mobile>
+<email>dhooker@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11725</id>
+<mls>510084</mls>
+<house_location>514 Demarett Drive
+Austin, TEXAS 78645</house_location>
+<county>Travis</county>
+<price>$78,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>$500 Bonus to Selling Agent &amp; $500 Bonus to Buyer for CL. Costs! New Wood Deck (Front &amp; Back); New Trane AC &amp; Hard Tile in Kitch/Bath (All Done Sept'99), Golf, Tennis, Pool, &amp; Park ** Super Lake &amp; Golf Course Views from Townhome Deck!</house_description>
+
+<move-in_date>10/27/98</move-in_date>
+<school_district>Lago Vista</school_district>
+<sub-division>Point Venture</sub-division>
+<approx_size_sqft>1741</approx_size_sqft>
+<year_built>1972</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>$500 Selling Bonus &amp; $500 Bonus for CL. Costs!</item>
+<item>New Wood Deck (Front &amp;Back) !</item>
+<item>New Trane AC !</item>
+<item>Great Lake &amp; Golf Course Views from Townhome Deck!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

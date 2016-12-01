@@ -1,0 +1,44 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Lee Portland</name>
+<location>921 Houston St. Portland, TX 78374</location>
+<office>(361)643-2591</office>
+<toll_free>(800)421-0821</toll_free>
+<fax>(361)643-5845</fax>
+<email>plee2121@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tipton James</name>
+<office></office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21235</id>
+<mls>140925</mls>
+<house_location>1514 Dana
+Rockport, TEXAS 78382</house_location>
+<county>Aransas</county>
+<price>$110,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Nice home in Shady Oaks.  Two living areas with extra computer room or office.  Close to schools and convenient to the bay.  Garage has been converted with a nice carport in the rear or the house.</house_description>
+
+<school_district>Acisd</school_district>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

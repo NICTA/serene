@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>3820 AUTUMN</house_location>
+<price>$86,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Front,Oversized)</garage>
+<suburb>ELSMERE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249066</mls>
+<house_type>Single Family</house_type>
+<firm>PREMIER REALTY, INC</firm>
+<firm_phone>(606) 586-0206</firm_phone>
+<agent>GAIL WATSON</agent>
+<agent_phone>(606) 586-0206</agent_phone>
+<house_description>JUST MOVE IN- ALL THE WORK IS DONE. NEW CARPET, NEW FLOOR IN KITCHEN &amp;
+BATH NEW GARAGE DOOR AND GUTTERS, NEWLY PAINTED INTERIOR, REMODELED
+BATH, NEWER ROOF, FURNACE AND CENTRAL AIR, NEW INTERIOR DOORS, LARGE
+FENCED YARD.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>16 X 8</dimension><level>1</level></dining>
+<laundry><dimension>7 X 4</dimension><level>1</level></laundry>
+<living><dimension>17 X 12</dimension><level>1</level></living>
+<master><dimension>11 X 10</dimension><level>1</level></master>
+
+<directions>275 E TO TURKEYFOOT R AT RAMP, R ON AUTUMN.</directions>
+</house_listing>
+
+
+

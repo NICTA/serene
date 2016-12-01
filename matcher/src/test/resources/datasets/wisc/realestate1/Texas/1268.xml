@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ronnie Robie</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)300-3870</mobile>
+<email>ronnierobie@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21287</id>
+<mls>9127903</mls>
+<house_location>4 OLD HICKORY
+Joshua, TEXAS 76058</house_location>
+<county>Johnson</county>
+<price>$142,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>A feeling of home the minute you walk through the door of this beautiful custom built home in Mountain Valley Country Club.  Home located on large cul-de-sac lot means no traffic.  No wasted space in this wonderful floor plan, spacious and open.  Home features:  split bedrooms, lots of cabinets in dream kitchen, beautiful stain glass window in master bath, custom window treatments, security lights on outside of home that come on at dusk, and security system.  Enter the secluded covered patio from either the master bedroom or the living room.  Seller providing home warrranty.</house_description>
+
+<school_district>Joshua I S D</school_district>
+<sub-division>Mountain Valley</sub-division>
+<approx_size_sqft>2172</approx_size_sqft>
+<stories>1</stories>
+<year_built>1988</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Mountain Valley Country Club Addition</item>
+<item>2 Living/ 2 Dining</item>
+<item>Split Bedrooms</item>
+<item>Large Cul-de-sac Lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

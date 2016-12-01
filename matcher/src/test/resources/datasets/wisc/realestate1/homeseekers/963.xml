@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1995 has 2 bedroom(s), 2 bath(s) , 1 car
+attached garage and approximately 1330 square feet of living area.
+Features include private pool, air conditioning.</house_description>
+
+<agent_name>Enrique Soltanik</agent_name>
+<direct>305-932-1340</direct>
+<office>305-949-1148</office>
+<firm_name>Silver Realty Corp
+Lic. Real Estate Broker</firm_name>
+<phone>305-949-1148</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$194,900</list_price>
+<location>6422 Collins Av #1001</location>
+<neighborhood>Florida Tower Condo</neighborhood>
+<mls>D896859</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1330 (approx)</square_feet>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

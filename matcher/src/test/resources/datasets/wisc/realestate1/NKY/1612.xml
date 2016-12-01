@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>2280 EDENDERRY</house_location>
+<price>$127,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>CRESCENT SPRIN</suburb>
+<school_dist>KENTON</school_dist>
+<mls>245947</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>ELAINE C. JOBERT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* AUGUSTA MODEL * CATHEDRAL CEILING * NEUTRAL DECOR * WBFP * PRIVACY
+WITH VIEW OF WOODS * 1 CAR ATTACHED GARAGE *</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>108</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>13 X 10</dimension><level>2</level></bedroom_2>
+<dining><dimension>11 X 10</dimension><level>2</level></dining>
+<kitchen><dimension>11 X 9</dimension><level>2</level></kitchen>
+<living><dimension>20 X 13</dimension><level>2</level></living>
+<master><dimension>15 X 12</dimension><level>2</level></master>
+<study><dimension>11 X 10</dimension><level>2</level></study>
+
+<directions>75S TO R ON BUTTERMILK, R ON ANDERSON, L ON
+CRESCENT BROMLEY RD, L EMERALD SPRINGS</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ginny Rhodes</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>ginny@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19795</id>
+<mls>53883</mls>
+<house_location>19073 (204) LASSO
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$225,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>The most beautiful, tranquil setting.  On Slick Rock Creek and 18th hole of Slick Rock Golf Course.  Swimming pool with wrought iron fence enclosure.  3 entertaining areas.  Glass sunroom.  Trees.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>SWIMMING POOL WITH WROUGHT IRON FENCE</item>
+<item>GLASS SUNROOM</item>
+<item>3 ENTERTAINING AREAS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

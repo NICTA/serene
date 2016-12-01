@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1948 has ? bedroom(s), 1 bath(s) , 1 car
+garage and approximately 330 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Laura Errasti</agent_name>
+<direct>305-261-5415</direct>
+<office>264-7989</office>
+<firm_name>Elamar Realty, Inc
+Lic. Real Estate Broker</firm_name>
+<phone>264-7989</phone>
+<fax>305-262-7175</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$69,500</list_price>
+<location>6345 Collins Av #PH-31</location>
+<neighborhood>The Casablanca Condo</neighborhood>
+<mls>M759787</mls>
+<status>Active</status>
+<baths>1</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>330 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

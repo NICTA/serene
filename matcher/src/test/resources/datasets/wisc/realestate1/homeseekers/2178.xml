@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1940 has 2 bedroom(s), 1 bath(s) and
+approximately 818 square feet of living area. Features include patio,
+air conditioning.</house_description>
+
+<agent_name>Jan Miller</agent_name>
+<direct>618-466-6429</direct>
+<office>618-463-9797</office>
+<firm_name>Wooff Better Homes &amp; Gardens</firm_name>
+<phone>618-463-9797</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$29,900</list_price>
+<location>119 Cherry St W</location>
+<mls>9910161</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>One Story</style>
+<square_feet>818 (approx)</square_feet>
+<lot_size>32 X 120</lot_size>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air</heating>
+<patio>Enclosed Porch</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Basement, Fenced, Sun Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

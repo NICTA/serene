@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Open space townhouse,2 master bedrm suites on cul-de-sac, fireplace in
+great room,private fenced backyard w/storage building.Seller pays
+$2500 closing cost on f.P. Contract. Vacant on lockbox.</house_description>
+
+<agent_name>Raymond Naff</agent_name>
+<office>757-456-2345</office>
+<firm_name>RE/MAX Alliance RE/MAX Alliance</firm_name>
+<phone>757-456-2345</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>Virginia Beach, VA 23462</location>
+<mls>0001556</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<type>Townhouse</type>
+<style>Contemporary, Townhouse</style>
+<square_feet>1534 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<location>Cul-de-sac</location>
+<rooms>Master Bedroom</rooms>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Cable TV, Contemporary Style, Fenced, Storage Space,Utility Room, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

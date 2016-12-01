@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>304 FIELDGATE DR</house_location>
+<price>$119,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>250126</mls>
+<house_type>Condominium</house_type>
+<firm>NOLL REALTY</firm>
+<firm_phone>(606) 331-2470</firm_phone>
+<agent>ROBERT A NOLL</agent>
+<agent_phone>(606) 331-2470</agent_phone>
+<house_description>NEW TOWNHOMES BY NOLL BUILDERS ONE AND TWO STORY HOMES AVAILABLE
+BEAUTIFUL VIEW, CONVENIENT LOCATION CUSTOM SELECTION AVAILABLE CALL
+JANET AT 384-9700 TO SET APPOINTMENT MODEL OPEN</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>120</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>10 X 13</dimension><level></level></dining>
+<kitchen><dimension>8 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>3 X 6</dimension><level>1</level></laundry>
+<living><dimension>19 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 21</dimension><level>2</level></master>
+
+<directions>I75 TO EXIT 181 WEST ON US 42 TO FARMVIEW DR</directions>
+</house_listing>
+
+
+

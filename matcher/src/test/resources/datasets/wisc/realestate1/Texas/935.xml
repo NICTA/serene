@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Christopher Hodge</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<email>chodge@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21627</id>
+<mls>528941</mls>
+<house_location>200 Kona Drive
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$119,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautifully maintained 3/2/2 in Tahitian Village. Relaxing surroundings, fabulous location, minutes from three 18 hole golf courses. Recently painted and all appliances convey. Call for your showing today!  Call Christopher @ (512) 303-5400.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Tahitian Village</sub-division>
+<approx_size_sqft>1538</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.25ac</approx_lot_size>
+<approx_acres>0.25</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>1500+sf 3 Bedroom, 2 Bath</item>
+<item>Relaxing Surroundings</item>
+<item>Recent Paint and Flooring</item>
+<item>Appliances Convey</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

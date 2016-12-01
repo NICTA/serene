@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>206 E MADISON</house_location>
+<price>$89,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Builtin,Side,Oversized)</garage>
+<suburb>OWENTON</suburb>
+<school_dist>OWEN</school_dist>
+<mls>248707</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX WORKS</firm>
+<firm_phone>(888) 297-7629</firm_phone>
+<agent>LISA E MORRIS</agent>
+<agent_phone>(888) 297-7629</agent_phone>
+<house_description>IMMEDIATE OCCUPANCY W/THIS NEW HOME ON 1AC IN TOWN. WITHIN WALKING
+DISTANCE TO EVERYTHING,YET PRIVATE ENOUGH THAT DEER COME TO GRAZE &amp;
+REST IN YARD. ON DEAD END ST. HUGE KITCHEN &amp; OPEN FLOOR PLAN. WBFP
+NEVER USED.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$99999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>1</level></bedroom_3>
+<breakfast><dimension></dimension><level>1</level></breakfast>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>I71S TO SPARTA EX L ON 36 TO OWENTON. R A T 1ST
+LIGHT. L ON MADISON, PROPERTY ON R.</directions>
+</house_listing>
+
+
+

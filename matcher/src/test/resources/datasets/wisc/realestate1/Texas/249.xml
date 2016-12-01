@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Nichols, Broker Associate</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 112</voice_mail>
+<mobile>(512)461-3487</mobile>
+<email>cnichols@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17168</id>
+<mls></mls>
+<house_location>300 E. Summit Drive
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$242,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>CYPRESS CREEK 3/2/2CP country-style home with screened porch, big living area, multi-level deck, and workshop on approximately 2 acres with 200+ feet of bubbling creek and cypress trees.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Cypress Creek Acres</sub-division>
+<approx_size_sqft>1839</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>2</approx_acres>
+<year_built>1989</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

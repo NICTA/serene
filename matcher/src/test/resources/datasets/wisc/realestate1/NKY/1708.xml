@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>27 ASH</house_location>
+<price>$89,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached,Rear)</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>246009</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>HOLLY MAYFIELD</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*NICE COTTAGE WITH THREE BEDROOMS
+AND ONE AND HALF BATH. NEW WINDOWS, NEWER ROOF, GUTTERS, CARPET, ENTRY
+DOOR, VINYL FLRING, CEILING FANS. CLOSE TO CINCINNATI</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30X120</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>7 X 8</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>7 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>23 X 12</dimension><level>1</level></dining>
+<family><dimension>19 X 18</dimension><level>L</level></family>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<living><dimension>11 X 20</dimension><level>1</level></living>
+<master><dimension>10 X 12</dimension><level>1</level></master>
+
+<directions>US 27 N L ON 19TH L ON HOME R ON BROADVIE R ON
+ASH</directions>
+</house_listing>
+
+
+

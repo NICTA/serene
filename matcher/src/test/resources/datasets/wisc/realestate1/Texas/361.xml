@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debbie Rogers</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)991-9232</mobile>
+<email>drogers@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19215</id>
+<mls>9079751</mls>
+<house_location>1516 Dicey Road
+Weatherford, TEXAS 76086</house_location>
+<county>Parker</county>
+<price>$135,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Lovely home with 3 bedrooms, 2 baths with lots of living space.  Has a screened in porch, an efficiency apartment behind the garage and a pool.  Has a wonderful 30x40 workshop and 2 storage buildings in place.  Great for entertaining and priced right.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>1</sub-division>
+<stories>1</stories>
+<approx_acres>0.93</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Lots of living space</item>
+<item>30X40 workshop and 2 storage buildings</item>
+<item>In ground gunite pool</item>
+<item>Apartment behind garage</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

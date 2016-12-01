@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Vacant-easy to show! Palladian windows, cathedral ceilings, 2 master
+bedrooms. C.C.A. Negotiable. All appliances. Convenient to airport and
+bases, i-64. Great virginia beach location. Pool community.</house_description>
+
+<agent_name>Lisa Hale</agent_name>
+<office>757-464-2121</office>
+<firm_name>Chesapeake Bay Realty</firm_name>
+<phone>757-464-2121</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$82,500</list_price>
+<location>Virginia Beach, VA 23455</location>
+<mls>0000976</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<type>Townhouse/Condo</type>
+<style>Traditional</style>
+<square_feet>1240 (approx)</square_feet>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<location>Corner</location>
+<pool>In-ground</pool>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Cathedral/Vaulted Ceilings, Fenced, Foyer, Pantry,Storage Space, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

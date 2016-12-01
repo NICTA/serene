@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Frances Ellis</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5932</voice_mail>
+<email>realtor@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13694</id>
+<mls>482033</mls>
+<house_location>Brookswood Av
+Austin, TEXAS 78721</house_location>
+<county>Bastrop</county>
+<price>$49,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>List Price less than $700 over CAD!Call Frances for more Info at 443-8326</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>Brookswood</sub-division>
+<approx_size_sqft>1040</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

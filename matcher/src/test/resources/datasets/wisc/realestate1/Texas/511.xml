@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Hulsey/Burton Real Estate, Inc.</name>
+<location>119 Avenue G Suite 102 Marble Falls, TX 78654</location>
+<office>(830)693-5758</office>
+<toll_free>(800)638-1804</toll_free>
+<fax>(830)693-5104</fax>
+<email>hbre@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Barry Burton</name>
+<office>(830)693-5758</office>
+<fax>(830)693-5104</fax>
+<email>hbre@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19269</id>
+<mls>53817</mls>
+<house_location>602 Highland Dr.
+Highland Haven, TEXAS</house_location>
+<county>Burnet</county>
+<price>$125,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Nice rocked home on corner lot with large garage. Storage. Circle Drive.40 GPM well.</house_description>
+
+<school_district>Burnet</school_district>
+<sub-division>Highland Haven</sub-division>
+<approx_size_sqft>1700</approx_size_sqft>
+<approx_lot_size>180x150</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Great price.</item>
+<item>well to water yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>42 LAKEVIEW DR.</house_location>
+<price>$79,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>0</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249052</mls>
+<house_type>Single Family</house_type>
+<firm>TRIMAX REAL ESTATE</firm>
+<firm_phone>(606) 643-3242</firm_phone>
+<agent>LINDA MAXWELL</agent>
+<agent_phone>(606) 643-3242</agent_phone>
+<house_description>3 BR RANCH,FULL PARTIALLY FINISHED BSMT,NEW ROOF, CARPET &amp; PAINT,
+LARGE REAR DECK HAS BEAUTIFUL VIEW..GREAT FOR 1ST. TIME HOMEBUYER OR
+RETIREE..</house_description>
+<construction>Wood,Alum</construction>
+<heating>Electric</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 8</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 9</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>12 X 16</dimension><level>1</level></kitchen>
+<living><dimension>12 X 16</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>75S TO EX 154,L TO US 25 L TO SUNSET TO R ON
+SOUTHERN TO R ON LAKEVIEW TO SEE SIGN.</directions>
+</house_listing>
+
+
+

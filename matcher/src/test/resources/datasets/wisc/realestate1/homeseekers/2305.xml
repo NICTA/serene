@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1908 has 4 bedroom(s), 1 bath(s) and
+approximately 2280 square feet of living area. Rooms include dining
+room, bonus room.</house_description>
+
+<agent_name>Rob Monetta</agent_name>
+<direct>206-763-9194</direct>
+<office>206-322-5700</office>
+<firm_name>RE/MAX Metro Realty, Inc. RE/MAX Metro Realty, Inc.</firm_name>
+<phone>206-322-5700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$350,000</list_price>
+<location>314 Trenton St</location>
+<mls>99121712</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Craftsman</style>
+<square_feet>2280 (approx)</square_feet>
+<year_built>1908</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<rooms>Bonus Room, Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, RV/Boat Parking, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,30 @@
+Field Name,Description
+UNIQ_ID,Unique Identifier of Street Segment
+ROADID,Unique Identifier of Street
+BLOCKNO,
+GEOSECT,A geospatial grouping of road segments
+GEOCODE,A geospatial grouping of road segments
+STREETNAME,Street Name
+STREETCODE,Street Type
+FROMSTREET,Name of the cross street marking the beginning of the street segment
+LANE,
+WAY,
+SEAL,
+TOSTREET,Name of the cross street marking the end of the street segment
+FROMROADID,Key to the cross street marking the beginning of the street segment
+TOROADID,Key to the cross street marking the end of the street segment
+LRB,Portion of road described by resurfacing info
+ROADCLASS,
+UNITID,
+UNITID2,
+CATEGORY,
+COMNT,
+INSPCAT,
+INSPDUE,Whether Inspection is Due
+INSDAYSDUE,
+INSP_DATE,Date of most recent inspection
+CYCLE,unused
+UNITTYPE,
+ONEWAY,Flag indicating whether the street segment is limited to one-way traffic
+SPEEDLIMIT,Speed Limit in kilometres per hour
+TRUCKROUTE,Flag indicating whether the street segment is used for a truck route

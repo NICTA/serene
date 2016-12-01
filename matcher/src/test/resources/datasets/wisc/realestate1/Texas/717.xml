@@ -1,0 +1,46 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>bojac@mailexcite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Millicent Wiley "Millie"</name>
+<office>(512)595-7653</office>
+<fax>(512)592-9300</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>2060</id>
+<mls>05-138-99</mls>
+<house_location>1521 Maple St.
+Kingsville, TEXAS</house_location>
+<county>Kleberg</county>
+<price>$63,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Newly purchased neat home in cyl-de-sac.  Freshly painted interior and all VA required repairs completed in April 1997.</house_description>
+
+<school_district>Kingsville</school_district>
+<approx_size_sqft>1113</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

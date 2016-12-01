@@ -1,0 +1,34 @@
+<house_listing>
+<price>$134,400</price>
+<mls_id_number>136119</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1428</sqft>
+<year_built>1940</year_built>
+<heat>Electric Heat Pump</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>4.10        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Porch, RV-Park, Deck,</exterior>
+<site>Water: COMMUNY Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>SSUNNY SLOPE</elementary>
+<middle_school></middle_school>
+<high_school>ROSEBURG</high_school>
+</schools>
+
+</house_listing>
+
+
+

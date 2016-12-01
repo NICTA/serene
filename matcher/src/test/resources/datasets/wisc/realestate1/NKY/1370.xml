@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>12931 DECOURSEY</house_location>
+<price>$269,900</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car None</garage>
+<suburb>KENTON CTY</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247352</mls>
+<house_type>Farms</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>CYNTHIA CAHILL</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>RARE FIND JUST 25 MIN TO 275!10 RM FARM HOME W/SOME GORGEOUS
+UPDATING.40+/- ACRE FARM*2 ACRE LAKE*1600 FT FRONTAGE ON LICKING
+RIVER*INGROUND POOL W/LAV ISH LANDSCAPE*LIGHTED HORSESHOE PIT*LAND
+LAYS WELL*HUNT,FISH,SIT BACK,RELAX</house_description>
+<construction>Alum,Vinyl</construction>
+<heating>Gas,Hot Water</heating>
+<cooling>Central Air,Window Unit</cooling>
+<fireplace>Wood,Stove</fireplace>
+<gas>Propane</gas>
+<water>Wellwater</water>
+<sewer>Septic</sewer>
+<lot_dimensions>40 ACRES</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11</dimension><level>X</level></bedroom_3>
+<bedroom_4><dimension>9 X 9</dimension><level>2</level></bedroom_4>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<family><dimension>24 X 16</dimension><level>1</level></family>
+<kitchen><dimension>9 X 24</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 8</dimension><level>2</level></laundry>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+<study><dimension>11 X 9</dimension><level>1</level></study>
+
+<directions>275 TO TAYLOR MILL-SO ON TM,L WOLF RD,RT
+DECOURSEY,APPROX 8 MI ON LEFT - SIGNS</directions>
+</house_listing>
+
+
+

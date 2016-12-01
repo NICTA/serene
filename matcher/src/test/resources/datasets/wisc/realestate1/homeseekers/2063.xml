@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1998 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 940 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Neelam Daswani</agent_name>
+<direct>305-535-8691</direct>
+<office>305-672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-6300</phone>
+<fax>305-532-8384</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$295,000</list_price>
+<location>1500 Ocean Dr #1109</location>
+<neighborhood>1500 Ocean Drive</neighborhood>
+<mls>M772648</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>940 (approx)</square_feet>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Roman Tub, Smoke Detector, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

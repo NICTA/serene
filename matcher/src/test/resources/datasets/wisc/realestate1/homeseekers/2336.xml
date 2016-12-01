@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Oceanfront - your own private balcony to enjoy the ocean, the boats, &amp;
+all the boardwalk activity. Efficiency kitchen. Family activity
+center, rooftop swimming pool. Restaurants, fishing, museums, golf &amp;
+nightspots nearby. Busch gardens &amp; colonial williamsburg close. Member
+interval international.</house_description>
+
+<agent_name>Edith Watson</agent_name>
+<office>757-428-4600</office>
+<firm_name>Long &amp; Foster Real Estate, Inc</firm_name>
+<phone>757-428-4600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$11,900</list_price>
+<location>Virginia Beach, VA 23451</location>
+<mls>9932691</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Townhouse/Condo</type>
+<style>Contemporary</style>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<location>Ocean front</location>
+<view>Ocean View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Cable TV, Contemporary Style, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

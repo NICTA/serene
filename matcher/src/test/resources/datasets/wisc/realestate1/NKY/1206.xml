@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>107 PARK</house_location>
+<price>$67,000</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>WARSAW</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>249842</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>REGINA STEWART</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>AFFORDABLE STARTER HOME OR INVESTMENT PROPERTY. LOW GALLATIN CO. TAXES
+AT THIS 2-3 BDRM HOUSE WITH PARTIAL BASEMENT. SPACIOUS YARD. HOUSE
+NEEDS TLC. POSSIBLE FHA/W 203 K REHAB FINANCING. GOOD RENTAL INCOME
+POTENTIAL TOO!</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Elec</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>2</level></bedroom_3>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>US 42 TO 1ST ST., FIRST ST. CURVES INTO PARK,
+SEE SIGN ON LEFT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>The Platinum Team</name>
+<office>(512)833-3588</office>
+<fax>(512)671-8886</fax>
+<mobile>(512)431-3725</mobile>
+<email>hcfrit@austin.quik.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20727</id>
+<mls>524302</mls>
+<house_location>15709 Delevan Cove
+Austin, TEXAS 78717</house_location>
+<county>Williamson</county>
+<price>$189,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Huge Master Suite with Jacuzzi (type) Tub, Fire Place, Sitting Area, French Doors to Deck off Master! July '99 Carpet and Tile! 1 Secondary Bedroom has Private Full Bath!  Covered Deck in Back Yard! Lots of Counter Top Space! Grand Entry! Built-in Appliance!</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Woodsof Brushy Creek</sub-division>
+<year_built>1989</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Huge Master Suite w/ Fire Place &amp; Sitting Area!</item>
+<item>French Doors to Deck off Master Suite!</item>
+<item>Covered Deck in Back Yard!</item>
+<item>1st Secondary Room has Full Private Bath!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

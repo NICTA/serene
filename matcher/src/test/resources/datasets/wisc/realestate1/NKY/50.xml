@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>8819 RICHMOND</house_location>
+<price>$165,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>244120</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>K Y BUDDE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>CONTEMPORARY RANCH OFFERS 3 BEDRMS W/STUDY OR OPTIONAL 4TH BEDRM *MANY
+UP- GRADED AMENITIES INCLUCING FRENCH DOORS &amp; GAS FIREPLACE *HOME
+RESTS ON LG LEVEL YARD *MODEL(9089 BRAXTON)OPEN 2-4PM SAT &amp; SUN*CALL
+K.Y.BUDDE*525-5787</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80 x 150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 9</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>1</level></master>
+<study><dimension>14 X 12</dimension><level>1</level></study>
+
+<directions>US 42 SOUTH TO UNION VILLAGE PAST KROGERS</directions>
+</house_listing>
+
+
+

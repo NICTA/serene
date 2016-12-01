@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>207 GARRARD</house_location>
+<price>$299,000</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>5 Cars None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247368</mls>
+<house_type>Single Family</house_type>
+<firm>PREFERRED PROPERTIES</firm>
+<firm_phone>(606) 371-4777</firm_phone>
+<agent>JOAN DIXON</agent>
+<agent_phone>(606) 371-4777</agent_phone>
+<house_description>LOCATED IN THE HISTORIC RIVERSIDE AREA-TOTALLLY RENOVATED-GOURMET
+KITCHEN WITH CHERRY CABINETRY AND COMPLETELY EQUIPPED-THE ELEGANCE OF
+YESTERYEAR IS EVIDENT. FREE MORTGAGE PRE-APPROVAL 1-513-737-3171</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>39x190</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>3</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>14 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>21 X 20</dimension><level>3</level></bedroom_4>
+<dining><dimension>14 X 17</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 17</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 8</dimension><level>1</level></laundry>
+<living><dimension>14 X 17</dimension><level>1</level></living>
+<master><dimension>14 X 17</dimension><level>2</level></master>
+
+<directions>5TH ST TO LEFT ON GARRARD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>Do not disturb tenants</house_description>
+
+<agent_name>Edna Harris</agent_name>
+<direct>714-730-5057</direct>
+<office>714-730-5057</office>
+<firm_name>Edna Harris Realty</firm_name>
+<phone>714-730-5057</phone>
+<fax>714-669-2747</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$160,000</list_price>
+<location>741 W 97Th St</location>
+<mls>P161861</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>760 (approx)</square_feet>
+<lot_size>10000 (approx)</lot_size>
+<year_built>1918</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Living Room</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Home Warranty, South facing, Value In Land
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>7435 ELLISTON MT ZI</house_location>
+<price>$279,000</price>
+<rooms>7</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>ELLISTON</suburb>
+<school_dist>GRANT</school_dist>
+<mls>237522</mls>
+<house_type>Farms</house_type>
+<firm>C B DETERS REALTY</firm>
+<firm_phone>(606) 341-0060</firm_phone>
+<agent>PAM PENNINGTON</agent>
+<agent_phone>(606) 341-0060</agent_phone>
+<house_description>FARM, WOODS, FISH IN CREEK, BARN, HOUSE REMODELED, MUST SEE RMS SIZES,
+91 ACRES, 1/2 M RD FRONTAGE ON BOTH SIDES OF RD.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>11 X 9</dimension><level>1</level></bedroom_2>
+<dining><dimension>18 X 15</dimension><level>1</level></dining>
+<family><dimension>21 X 13</dimension><level>1</level></family>
+<kitchen><dimension>19 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 9</dimension><level>1</level></laundry>
+<living><dimension>15 X 17</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>I75 TO I71 GO 127 TO GLENCOE 1 1/2 M L ON 467 GO
+5 M, L ON 1942, APPR. 1 M ON L</directions>
+</house_listing>
+
+
+

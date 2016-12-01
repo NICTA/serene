@@ -1,0 +1,55 @@
+<house_listing>
+<house_location>1285 BRIGHTLEAF</house_location>
+<price>$279,900</price>
+<rooms>13</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized,Heated)</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247002</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>MIKE PARKER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>CUSTON BUILT 4 BEDRM 2 STORY BY BOLD HOMES *STAINED TRIM *GAS
+FIREPLACE * VERY OPEN FLR PLAN *CATH CEILINGS *MASTER W/GARDEN BATH +
+SITTING RM *TILE KITCHEN FLR *42 INCH CABINETS *OVERSIZED 2.5
+GARAGE*CALL MIKE 647-0700</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>8</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>13 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 12</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>17 X 8</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>21 X 15</dimension><level>1</level></family>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 5</dimension><level>1</level></laundry>
+<living><dimension>12 X 11</dimension><level>1</level></living>
+<master><dimension>18 X 17</dimension><level>2</level></master>
+<recreation_room><dimension>28 X 18</dimension><level>L</level></recreation_room>
+<study><dimension>18 X 12</dimension><level>2</level></study>
+
+<directions>TURKEYFOOT TO NARROWS TO L ON BRIGHTLEAF HOME ON
+RIGHT</directions>
+</house_listing>
+
+
+

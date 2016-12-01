@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1955 has 5 bedroom(s), 2 bath(s) .
+Rooms include dining room, family room, master bedroom. Features
+include patio, air conditioning, storage space.</house_description>
+
+<agent_name>Alicia Rodriguez</agent_name>
+<office>623-934-0095</office>
+<firm_name>Molly Bridgeman Realty</firm_name>
+<phone>623-934-0095</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>Phoenix, AZ 85031</location>
+<mls>1447798</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<lot_size>7,501-10,000</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Dishwasher, Eat In Kitchen, Microwave, Pantry, StorageSpace, Wet Bar, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

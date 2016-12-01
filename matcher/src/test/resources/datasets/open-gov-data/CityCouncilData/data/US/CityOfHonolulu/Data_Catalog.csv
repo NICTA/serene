@@ -1,0 +1,3422 @@
+Type,Name,Description,Category,Keywords,Access this year,Uid,External Id,Columns,Identifier,Custom Metadata,Key Identifier,State,Owner,Permissions,License,Attribution,Creation Date,Last Updated Date
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Traffic Incidents (Public-Safety/Traffic-Incidents/ix32-iw26),,Public Safety,,,ix32-iw26,,"[{
+  ""id"" : 16700888,
+  ""name"" : ""Date"",
+  ""dataTypeName"" : ""date"",
+  ""description"" : """",
+  ""fieldName"" : ""date"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""date"",
+  ""tableColumnId"" : 3978278,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16700889,
+  ""name"" : ""Code"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""code"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3978279,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16700890,
+  ""name"" : ""Type"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""type"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3978280,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16700891,
+  ""name"" : ""Address"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""address"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3978281,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16700892,
+  ""name"" : ""Location"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""location"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3978282,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16700893,
+  ""name"" : ""Area"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""area"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3978283,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}]",ix32-iw26,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,08/29/2012 11:10:17 PM +0000,03/27/2015 03:27:28 AM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",City spending (dataset/City-spending/std8-yakc),"Actual spending 2010&2011
+Budget 2012
+Proposed Budget 2013",,,,std8-yakc,,"[{
+  ""id"" : 27425729,
+  ""name"" : ""Department"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032793,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425730,
+  ""name"" : ""Division"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032794,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425731,
+  ""name"" : ""Fund"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032795,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425732,
+  ""name"" : ""Object Code"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""object_code"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032796,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425733,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032797,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425734,
+  ""name"" : ""FY 2011 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_actual"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032798,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425735,
+  ""name"" : ""FY 2012 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_budget"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032799,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425736,
+  ""name"" : ""FY 2013 Current Services"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_current_services"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032800,
+  ""width"" : 388,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425737,
+  ""name"" : ""FY 2013 Budget Issues"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_budget_issues"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032801,
+  ""width"" : 352,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425738,
+  ""name"" : ""FY 2013 Proposed Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_proposed_budget"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032802,
+  ""width"" : 376,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425739,
+  ""name"" : ""Department Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department_name"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032803,
+  ""width"" : 280,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425740,
+  ""name"" : ""Division Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division_name"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032804,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425741,
+  ""name"" : ""Fund Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund_name"",
+  ""position"" : 13,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032805,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 27425742,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032806,
+  ""width"" : 292,
+  ""format"" : {
+  }
+}]",std8-yakc,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/01/2012 12:13:48 AM +0000,11/20/2012 04:44:46 PM +0000
+"<div class='typeFilter'><div class=""viewTypeCell"">Filter</div></div>",Bike Racks (Transportation/Bike-Racks/6x78-edqg),Bike Rack Data,Transportation,"bike, bicycles, racks",,6x78-edqg,,"[{
+  ""id"" : 31582806,
+  ""name"" : ""LOCATION"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""location"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 5432070,
+  ""width"" : 276,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 31582807,
+  ""name"" : ""AREA"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""area"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 5432071,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}]",6x78-edqg,,,,Dwang5090 (http://data.honolulu.gov/api/users/twsr-hsma),public,,,11/27/2012 08:45:32 PM +0000,11/27/2012 08:45:32 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Zoning Map (dataset/Zoning-Map/qv9z-7saf),"Land zoning designations within the City & County of Honolulu along with special zoning districts, height limits, and zoning amendment locations.",,,,qv9z-7saf,,,qv9z-7saf,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:29:18 PM +0000,07/24/2012 07:29:27 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Crime Incidents (Public-Safety/Crime-Incidents/a96q-gyhq),,Public Safety,,,a96q-gyhq,,"[{
+  ""id"" : 16683548,
+  ""name"" : ""ObjectID"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""objectid"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975196,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16683549,
+  ""name"" : ""KiloNBR"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""kilonbr"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975197,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16683550,
+  ""name"" : ""BlockAddress"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""blockaddress"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975198,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16683551,
+  ""name"" : ""CMID"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""cmid"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975199,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16683552,
+  ""name"" : ""CMAgency"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""cmagency"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975200,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16683553,
+  ""name"" : ""Date"",
+  ""dataTypeName"" : ""date"",
+  ""description"" : """",
+  ""fieldName"" : ""date"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""date"",
+  ""tableColumnId"" : 3975201,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16683554,
+  ""name"" : ""Type"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""type"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975202,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16683555,
+  ""name"" : ""Status"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""status"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975203,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16683556,
+  ""name"" : ""Score"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""score"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975204,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 16683557,
+  ""name"" : ""Side"",
+  ""dataTypeName"" : ""text"",
+  ""description"" : """",
+  ""fieldName"" : ""side"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975205,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}]",a96q-gyhq,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,08/29/2012 06:35:58 PM +0000,03/24/2015 11:38:33 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Public Art (dataset/Public-Art/yef5-h88r),Location and descriptions of public works of art,,,,yef5-h88r,,"[{
+  ""id"" : 12638421,
+  ""name"" : ""creator"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""creator"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3165089,
+  ""width"" : 184,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 12638422,
+  ""name"" : ""credit"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""credit"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3246335,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 12638423,
+  ""name"" : ""date"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""date"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3165090,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 12638424,
+  ""name"" : ""description"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""description"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3165091,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 12638425,
+  ""name"" : ""locationname"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""location"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3165092,
+  ""width"" : 196,
+  ""format"" : {
+    ""align"" : ""left""
+  }
+}, {
+  ""id"" : 12638426,
+  ""name"" : ""imagefile"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""imagefile"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3165093,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 12638427,
+  ""name"" : ""objectid"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""objectid"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3165094,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 12638428,
+  ""name"" : ""discipline"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""discipline"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3165095,
+  ""width"" : 220,
+  ""format"" : {
+    ""align"" : ""left""
+  }
+}, {
+  ""id"" : 12638429,
+  ""name"" : ""title"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""title"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3165096,
+  ""width"" : 160,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 12638430,
+  ""name"" : ""access"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""access"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3165097,
+  ""width"" : 172,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 12638431,
+  ""name"" : ""latitude"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""latitude"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3165098,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 12638432,
+  ""name"" : ""longitude"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""longitude"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3165099,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 12638433,
+  ""name"" : ""location"",
+  ""dataTypeName"" : ""location"",
+  ""fieldName"" : ""artloc"",
+  ""position"" : 13,
+  ""renderTypeName"" : ""location"",
+  ""tableColumnId"" : 3165175,
+  ""width"" : 100,
+  ""format"" : {
+    ""align"" : ""left"",
+    ""view"" : ""address_coords""
+  },
+  ""subColumnTypes"" : [ ""human_address"", ""latitude"", ""longitude"", ""machine_address"", ""needs_recoding"" ]
+}, {
+  ""id"" : 12638434,
+  ""name"" : ""thumb"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""thumb"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3166707,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}]",yef5-h88r,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/14/2012 10:32:32 PM +0000,07/08/2012 09:55:05 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Traffic Camera Locations (dataset/Traffic-Camera-Locations/dcdf-43kn),,,,,dcdf-43kn,,"[{
+  ""id"" : 11632056,
+  ""name"" : ""Description"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""description"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3246637,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632057,
+  ""name"" : ""CameraImageURL"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""cameraimageurl"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3246638,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632058,
+  ""name"" : ""Location"",
+  ""dataTypeName"" : ""location"",
+  ""fieldName"" : ""location"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""location"",
+  ""tableColumnId"" : 3246639,
+  ""width"" : 196,
+  ""format"" : {
+  },
+  ""subColumnTypes"" : [ ""human_address"", ""latitude"", ""longitude"", ""machine_address"", ""needs_recoding"" ]
+}]",dcdf-43kn,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/23/2012 01:34:00 AM +0000,06/23/2012 01:37:35 AM +0000
+"<div class='typeChart'><div class=""viewTypeCell"">Chart</div></div>",CIty Budget 2012 (dataset/CIty-Budget-2012/6qpe-gunp),,,,,6qpe-gunp,,"[{
+  ""id"" : 29938322,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032806,
+  ""width"" : 292,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}, {
+  ""id"" : 29938313,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032797,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938314,
+  ""name"" : ""FY 2011 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_actual"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032798,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938315,
+  ""name"" : ""FY 2012 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_budget"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032799,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}]",6qpe-gunp,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/04/2012 09:03:27 PM +0000,11/20/2012 04:44:45 PM +0000
+"<div class='typeMap'><div class=""viewTypeCell"">Map</div></div>",Warning Sirens (Public-Safety/Warning-Sirens/jtmr-aw46),,Public Safety,,,jtmr-aw46,,,jtmr-aw46,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/23/2012 01:39:02 AM +0000,03/24/2015 11:38:55 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Parking Facilties (dataset/Parking-Facilties/383v-jhbi),Parking facilities in the City & County of Honolulu.,,,,383v-jhbi,,,383v-jhbi,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:23:18 PM +0000,07/24/2012 07:23:25 PM +0000
+"<div class='typeChart'><div class=""viewTypeCell"">Chart</div></div>",City Spending 2010 by Department (dataset/City-Spending-2010-by-Department/dcm2-4u9j),,,,,dcm2-4u9j,,"[{
+  ""id"" : 29938285,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032797,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938286,
+  ""name"" : ""FY 2011 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_actual"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032798,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938287,
+  ""name"" : ""FY 2012 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_budget"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032799,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938291,
+  ""name"" : ""Department Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department_name"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032803,
+  ""width"" : 280,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}]",dcm2-4u9j,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/16/2012 03:42:41 AM +0000,11/20/2012 04:44:44 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Neighborhood Boards (dataset/Neighborhood-Boards/3dxw-z8rr),,,,,3dxw-z8rr,,"[{
+  ""id"" : 11632719,
+  ""name"" : ""Number"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""number"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3247122,
+  ""width"" : 172,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632720,
+  ""name"" : ""Board"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""board"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3247123,
+  ""width"" : 160,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632721,
+  ""name"" : ""DayOfTheMonth"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""dayofthemonth"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3247124,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632722,
+  ""name"" : ""LocationName"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""locationname"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3247125,
+  ""width"" : 244,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632723,
+  ""name"" : ""Time"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""time"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3247126,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632724,
+  ""name"" : ""Location"",
+  ""dataTypeName"" : ""location"",
+  ""fieldName"" : ""location"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""location"",
+  ""tableColumnId"" : 3247127,
+  ""width"" : 196,
+  ""format"" : {
+  },
+  ""subColumnTypes"" : [ ""human_address"", ""latitude"", ""longitude"", ""machine_address"", ""needs_recoding"" ]
+}]",3dxw-z8rr,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/23/2012 02:34:25 AM +0000,06/23/2012 02:34:47 AM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Polling Places And Election Precincts (dataset/Polling-Places-And-Election-Precincts/3a9s-vekf),"Official Polling Places and Election Districts for 2012 elections for U.S. Congress, State of Hawaii House and Senate and Honolulu Council",,,,3a9s-vekf,,,3a9s-vekf,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:12:52 PM +0000,07/24/2012 07:13:31 PM +0000
+"<div class='typeFilter'><div class=""viewTypeCell"">Filter</div></div>",Sam's View (dataset/Sam-s-View/5fhm-vea5),"Actual spending 2010&2011
+Budget 2012
+Proposed Budget 2013",,,,5fhm-vea5,,"[{
+  ""id"" : 29938280,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032806,
+  ""width"" : 292,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938271,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032797,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938267,
+  ""name"" : ""Department"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032793,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938268,
+  ""name"" : ""Division"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032794,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938269,
+  ""name"" : ""Fund"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032795,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938270,
+  ""name"" : ""Object Code"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""object_code"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032796,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938272,
+  ""name"" : ""FY 2011 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_actual"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032798,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938273,
+  ""name"" : ""FY 2012 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_budget"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032799,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938274,
+  ""name"" : ""FY 2013 Current Services"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_current_services"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032800,
+  ""width"" : 388,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938275,
+  ""name"" : ""FY 2013 Budget Issues"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_budget_issues"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032801,
+  ""width"" : 352,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938276,
+  ""name"" : ""FY 2013 Proposed Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_proposed_budget"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032802,
+  ""width"" : 376,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938277,
+  ""name"" : ""Department Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department_name"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032803,
+  ""width"" : 280,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938278,
+  ""name"" : ""Division Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division_name"",
+  ""position"" : 13,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032804,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 29938279,
+  ""name"" : ""Fund Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund_name"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032805,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}]",5fhm-vea5,,,,kingsam2 (http://data.honolulu.gov/api/users/tj73-txpn),public,,,07/30/2012 08:06:36 PM +0000,11/20/2012 04:44:44 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Bike Rack Locations By Area (Transportation/Bike-Rack-Locations-By-Area/ab7c-s2jr),Bike Rack Data,Transportation,"bike, bicycles, racks",,ab7c-s2jr,,"[{
+  ""id"" : 30298396,
+  ""name"" : ""LOCATION"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""location"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 5432070,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 30298397,
+  ""name"" : ""AREA"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""area"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 5432071,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}]",ab7c-s2jr,,,,Burt Lum (http://data.honolulu.gov/api/users/5vv3-gysc),public,,,11/22/2012 06:43:23 AM +0000,11/22/2012 06:46:09 AM +0000
+"<div class='typeChart'><div class=""viewTypeCell"">Chart</div></div>",City Budget  - Compare 2010-2013 (dataset/City-Budget-Compare-2010-2013/iz58-35eb),"Actual spend 2010,2011. Budget for 2012, Proposed Budget 2013",,,,iz58-35eb,,"[{
+  ""id"" : 29938350,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032806,
+  ""width"" : 292,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}, {
+  ""id"" : 29938341,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032797,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938342,
+  ""name"" : ""FY 2011 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_actual"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032798,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938343,
+  ""name"" : ""FY 2012 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_budget"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032799,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938346,
+  ""name"" : ""FY 2013 Proposed Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_proposed_budget"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032802,
+  ""width"" : 376,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}]",iz58-35eb,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/04/2012 09:09:15 PM +0000,11/20/2012 04:44:45 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Refuse HI5 Redemption Centers (dataset/Refuse-HI5-Redemption-Centers/hnww-9ree),Location of HI5 redemption centers island center.,,,,hnww-9ree,,,hnww-9ree,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 08:54:28 PM +0000,07/24/2012 08:54:35 PM +0000
+"<div class='typeChart'><div class=""viewTypeCell"">Chart</div></div>",Art over time (dataset/Art-over-time/necy-6u7t),Location and descriptions of public works of art,,,,necy-6u7t,,"[{
+  ""id"" : 12638437,
+  ""name"" : ""date"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""date"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3165090,
+  ""width"" : 148,
+  ""format"" : {
+    ""aggregate"" : ""sum"",
+    ""drill_down"" : ""true""
+  }
+}, {
+  ""id"" : 12638443,
+  ""name"" : ""title"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""title"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3165096,
+  ""width"" : 160,
+  ""format"" : {
+    ""grouping_aggregate"" : ""count""
+  }
+}, {
+  ""id"" : 12638442,
+  ""name"" : ""discipline"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""discipline"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3165095,
+  ""width"" : 220,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}]",necy-6u7t,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/15/2012 01:07:34 AM +0000,07/08/2012 09:55:05 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Federal Lessee Land (dataset/Federal-Lessee-Land/vyfm-7pxd),Federal Lessee Land for the island of Oahu,,,,vyfm-7pxd,,,vyfm-7pxd,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:21:37 PM +0000,07/24/2012 07:21:45 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",HART Proposed Budget 2012 (dataset/HART-Proposed-Budget-2012/ifzd-2k3p),,,,,ifzd-2k3p,,"[{
+  ""id"" : 11632890,
+  ""name"" : ""Dept"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""dept"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3068766,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632891,
+  ""name"" : ""Division"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""division"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3068767,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632892,
+  ""name"" : ""Fund"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fund"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3068768,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632893,
+  ""name"" : ""Object Code"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""object_code"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3068769,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632894,
+  ""name"" : ""FY 2009 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2009_actual"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3068770,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632895,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3068771,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632896,
+  ""name"" : ""FY 2011 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_budget"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3068772,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632897,
+  ""name"" : ""FY 2012 Current Services"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_current_services"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3068773,
+  ""width"" : 388,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632898,
+  ""name"" : ""FY 2012 Budget Issues"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_budget_issues"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3068774,
+  ""width"" : 352,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632899,
+  ""name"" : ""FY 2012 Proposed Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_proposed_budget"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3068775,
+  ""width"" : 376,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632900,
+  ""name"" : ""Department Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department_name"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3068776,
+  ""width"" : 280,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632901,
+  ""name"" : ""Division Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division_name"",
+  ""position"" : 13,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3068777,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632902,
+  ""name"" : ""Fund Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund_name"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3068778,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632903,
+  ""name"" : ""Object Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_name"",
+  ""position"" : 15,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3068779,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}]",ifzd-2k3p,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/04/2012 09:20:33 PM +0000,06/23/2012 02:56:16 AM +0000
+"<div class='typeChart'><div class=""viewTypeCell"">Chart</div></div>",City Spending 2011 (dataset/City-Spending-2011/akkw-prc5),,,,,akkw-prc5,,"[{
+  ""id"" : 29938336,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032806,
+  ""width"" : 292,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}, {
+  ""id"" : 29938327,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032797,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938328,
+  ""name"" : ""FY 2011 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_actual"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032798,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938329,
+  ""name"" : ""FY 2012 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_budget"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032799,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}]",akkw-prc5,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/04/2012 09:01:46 PM +0000,11/20/2012 04:44:45 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Sister Cities (dataset/Sister-Cities/pvti-pwka),,,,,pvti-pwka,,"[{
+  ""id"" : 11632457,
+  ""name"" : ""SisterCity"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""sistercity"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3246813,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632458,
+  ""name"" : ""DateOfCouncilResolution"",
+  ""dataTypeName"" : ""calendar_date"",
+  ""fieldName"" : ""dateofcouncilresolution"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""calendar_date"",
+  ""tableColumnId"" : 3246814,
+  ""width"" : 376,
+  ""format"" : {
+    ""align"" : ""left"",
+    ""view"" : ""date_shortmonthdy""
+  }
+}]",pvti-pwka,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/23/2012 01:58:59 AM +0000,06/23/2012 02:04:36 AM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Rail Station Footprints (dataset/Rail-Station-Footprints/7gw6-brtj),"Station envelope footprints for the 21 HHCTCP stations from East Kapolei to Ala Moana Center as presented in preliminary engineering (PE) drawings prepared for RTD/HART by Parsons Brinckerhoff and subconsultants in 2009/2010. These footrpints were traced in ArcMap over rubber-sheeted PE station area, architectural, and civil site plan drawings, and are not intended to be exact.
+To be used principally for station area land use planning.",,,,7gw6-brtj,,,7gw6-brtj,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:32:27 PM +0000,11/22/2013 10:11:46 PM +0000
+"<div class='typeChart'><div class=""viewTypeCell"">Chart</div></div>",City Spending 2010 by Object Code (dataset/City-Spending-2010-by-Object-Code/3duq-5rzf),"Actual spending 2010&2011
+Budget 2012
+Proposed Budget 2013",,,,3duq-5rzf,,"[{
+  ""id"" : 29938369,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032797,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938378,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032806,
+  ""width"" : 292,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}]",3duq-5rzf,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/27/2012 05:54:56 AM +0000,11/20/2012 04:44:45 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Streets (Transportation/Streets/yam3-5uy3),Feature Service of the Streets for the City & County of Honolulu,Transportation,,,yam3-5uy3,,,yam3-5uy3,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:33:12 PM +0000,07/24/2012 07:33:18 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Parks (dataset/Parks/tg29-p63i),"This map is used to publish information about parks and recreation areas in a community as both points and polygons. The polygons, including some proposed parks, were originally built from parcels. The point location of the parks are derived from a subset of Facility Sites and related to a table that contains information about parks and recreation activities",,,,tg29-p63i,,,tg29-p63i,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:22:42 PM +0000,08/11/2012 04:14:35 PM +0000
+"<div class='typeChart'><div class=""viewTypeCell"">Chart</div></div>",City Spending 2010 (dataset/City-Spending-2010/k2yj-i4jp),,,,,k2yj-i4jp,,"[{
+  ""id"" : 29938308,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032806,
+  ""width"" : 292,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}, {
+  ""id"" : 29938299,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032797,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938300,
+  ""name"" : ""FY 2011 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_actual"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032798,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 29938301,
+  ""name"" : ""FY 2012 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_budget"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032799,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}]",k2yj-i4jp,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/04/2012 09:00:53 PM +0000,11/20/2012 04:44:45 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Refuse Collection Yard (dataset/Refuse-Collection-Yard/fze2-h37x),Location of Refuse Collection yards for City & County of Honolulu,,,,fze2-h37x,,,fze2-h37x,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:35:25 PM +0000,07/24/2012 07:35:30 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Automated external defibrillator Locations (Public-Safety/Automated-external-defibrillator-Locations/2swm-eusf),,Public Safety,,,2swm-eusf,,"[{
+  ""id"" : 11632019,
+  ""name"" : ""Unit"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""unit"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3246603,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632020,
+  ""name"" : ""LocationName"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""locationname"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3246604,
+  ""width"" : 196,
+  ""format"" : {
+    ""align"" : ""left""
+  }
+}, {
+  ""id"" : 11632021,
+  ""name"" : ""Loc. Descrip."",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""loc_descrip"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3246605,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632022,
+  ""name"" : ""Hrs. Op."",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""hrs_op"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3246606,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632023,
+  ""name"" : ""Location"",
+  ""dataTypeName"" : ""location"",
+  ""fieldName"" : ""location"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""location"",
+  ""tableColumnId"" : 3246607,
+  ""width"" : 220,
+  ""format"" : {
+    ""align"" : ""left"",
+    ""view"" : ""address_coords""
+  },
+  ""subColumnTypes"" : [ ""human_address"", ""latitude"", ""longitude"", ""machine_address"", ""needs_recoding"" ]
+}]",2swm-eusf,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/23/2012 01:28:19 AM +0000,03/24/2015 11:39:45 PM +0000
+"<div class='typeMap'><div class=""viewTypeCell"">Map</div></div>",Neighborhood Board Locations (dataset/Neighborhood-Board-Locations/gp9s-unfc),,,,,gp9s-unfc,,"[{
+  ""id"" : 11632745,
+  ""name"" : ""Number"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""number"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3247122,
+  ""width"" : 172,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632746,
+  ""name"" : ""Board"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""board"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3247123,
+  ""width"" : 160,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632747,
+  ""name"" : ""DayOfTheMonth"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""dayofthemonth"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3247124,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632748,
+  ""name"" : ""LocationName"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""locationname"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3247125,
+  ""width"" : 244,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632749,
+  ""name"" : ""Time"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""time"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3247126,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632750,
+  ""name"" : ""Location"",
+  ""dataTypeName"" : ""location"",
+  ""fieldName"" : ""location"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""location"",
+  ""tableColumnId"" : 3247127,
+  ""width"" : 196,
+  ""format"" : {
+  },
+  ""subColumnTypes"" : [ ""human_address"", ""latitude"", ""longitude"", ""machine_address"", ""needs_recoding"" ]
+}]",gp9s-unfc,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/23/2012 02:35:51 AM +0000,06/23/2012 02:36:05 AM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Tsunami Evacuation Zone (dataset/Tsunami-Evacuation-Zone/8t8u-ez86),"Feature Service of Tsunami Evacuation Zones, island of Oahu.",,,,8t8u-ez86,,,8t8u-ez86,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:28:40 PM +0000,07/24/2012 07:28:47 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Neighborhood Boards Election 2011 (dataset/Neighborhood-Boards-Election-2011/w4ir-s4fd),,,,,w4ir-s4fd,,"[{
+  ""id"" : 11632793,
+  ""name"" : ""Board"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""board"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3069923,
+  ""width"" : 160,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632794,
+  ""name"" : ""NB"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""nb"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3069924,
+  ""width"" : 124,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632795,
+  ""name"" : ""SD"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""sd"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3069925,
+  ""width"" : 124,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632796,
+  ""name"" : ""Last Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""last_name"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3069926,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632797,
+  ""name"" : ""First Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""first_name"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3069927,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632798,
+  ""name"" : ""Vote"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""vote"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3069928,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 11632799,
+  ""name"" : ""Status"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""status"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3069929,
+  ""width"" : 172,
+  ""format"" : {
+  }
+}]",w4ir-s4fd,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/05/2012 12:29:02 AM +0000,06/23/2012 02:54:52 AM +0000
+"<div class='typeChart'><div class=""viewTypeCell"">Chart</div></div>",City Spending 2010 by Fund (dataset/City-Spending-2010-by-Fund/sbdw-8u88),"Actual spending 2010&2011
+Budget 2012
+Proposed Budget 2013",,,,sbdw-8u88,,"[{
+  ""id"" : 29938363,
+  ""name"" : ""Fund Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund_name"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032805,
+  ""width"" : 208,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}, {
+  ""id"" : 29938355,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032797,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}]",sbdw-8u88,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,06/27/2012 05:50:21 AM +0000,11/20/2012 04:44:45 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Refuse Bulky Pickup Routes (dataset/Refuse-Bulky-Pickup-Routes/gu3g-ie7a),Feature Service of refuse bulky pickup route,,,,gu3g-ie7a,,,gu3g-ie7a,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:34:32 PM +0000,07/24/2012 07:34:38 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Police Stations (dataset/Police-Stations/9drw-8skx),Honolulu Police Department station locations for the City & County of Honolulu,,,,9drw-8skx,,,9drw-8skx,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:26:58 PM +0000,07/24/2012 07:27:04 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Rail Line (dataset/Rail-Line/4qje-2k4n),"The 20-mile HRT (Honolulu Rail Transit) guideway preliminary engineering alignment from East Kapolei to Ala Moana Center.
+
+April 2012 data.",,,,4qje-2k4n,,,4qje-2k4n,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:31:20 PM +0000,07/24/2012 07:31:29 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Refuse Drop-off and Transfer Stations (dataset/Refuse-Drop-off-and-Transfer-Stations/rm2f-q6mh),Feature Service of Drop Off and Refuse Transfer Stations,,,,rm2f-q6mh,,,rm2f-q6mh,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 08:55:49 PM +0000,07/24/2012 08:55:55 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Basemap for City and County of Honolulu (dataset/Basemap-for-City-and-County-of-Honolulu/ys6n-eqkx),Basemap for City and County of Honolulu,,,,ys6n-eqkx,,,ys6n-eqkx,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:16:33 PM +0000,07/24/2012 07:17:41 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Hospitals (dataset/Hospitals/k3km-g7pi),Feature Service of Hospitals/Medical Centers within the City & County of Honolulu.,,,,k3km-g7pi,,,k3km-g7pi,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:25:44 PM +0000,07/24/2012 07:25:53 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Shelters - Tsunami (dataset/Shelters-Tsunami/8uk2-gka6),Tsunami shelters for the island of Oahu,,,,8uk2-gka6,,,8uk2-gka6,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:27:40 PM +0000,07/24/2012 07:27:46 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Rail Station Centroid (dataset/Rail-Station-Centroid/e9p7-tydn),21 HRT station platform area centroids from East Kapolei to Ala Moana Center based on preliminary engineering (PE).,,,,e9p7-tydn,,,e9p7-tydn,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:31:58 PM +0000,07/24/2012 07:32:03 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Refuse - Community Recycle Bins (dataset/Refuse-Community-Recycle-Bins/i2d5-7umd),Feature Service of locations of Community Recycling Bins.,,,,i2d5-7umd,,,i2d5-7umd,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:36:08 PM +0000,07/24/2012 07:36:14 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Lifeguard Towers (dataset/Lifeguard-Towers/nwuh-qh82),Feature Service of Lifeguard Tower locations island of Oahu,,,,nwuh-qh82,,,nwuh-qh82,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:26:19 PM +0000,07/24/2012 07:26:25 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Park & Ride (dataset/Park-Ride/k3by-p7wg),"The City and County of Honolulu, Department of Transportation Services, operates Hawaii Kai, Mililani, and Royal Kunia Park & Ride facilities. Park & Ride facilities are transit stations where bus patrons, and future rail patrons, may drive to the facility, leave their car during the day and catch TheBus.",,,,k3by-p7wg,,,k3by-p7wg,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:30:41 PM +0000,07/24/2012 07:30:47 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",State Owned Land (dataset/State-Owned-Land/xj6c-uzj9),State Owned Lands on the island of Oahu,,,,xj6c-uzj9,,,xj6c-uzj9,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:19:33 PM +0000,07/24/2012 07:19:39 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Realtor and Neighborhood Boards (dataset/Realtor-and-Neighborhood-Boards/92uh-qeb5),Realtor neighborhoods and Neighborhood boards of Oahu,,,,92uh-qeb5,,,92uh-qeb5,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:15:06 PM +0000,07/24/2012 07:15:13 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",2012 Dec Top Ten Sites (dataset/2012-Dec-Top-Ten-Sites/7kck-y29a),Top Ten Sites from each department in Dec 2012,,,,7kck-y29a,,"[{
+  ""id"" : 34446626,
+  ""name"" : ""Department"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 5994516,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 34446627,
+  ""name"" : ""Host"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""host"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 5994517,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 34446628,
+  ""name"" : ""Category"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""category"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 5994518,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 34446629,
+  ""name"" : ""Page Views"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""page_views"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 5994519,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 34446630,
+  ""name"" : ""Total Bytes"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""total_bytes"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 5994520,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 34446631,
+  ""name"" : ""Requests"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""requests"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 5994521,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}]",7kck-y29a,,,,kchan2 (http://data.honolulu.gov/api/users/ygsi-kpdp),public,,,12/12/2012 01:52:50 AM +0000,12/12/2012 01:54:06 AM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Emergency Shelter (dataset/Emergency-Shelter/gxrb-rbvm),Emergency shelters for the City & County of Honolulu. Based on data from the Department of Emergency Management (DEM) Ver2 (May18 2012),,,,gxrb-rbvm,,,gxrb-rbvm,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:24:23 PM +0000,07/24/2012 07:24:34 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Fire Stations (dataset/Fire-Stations/9wbz-g4gv),Feature Service of Honolulu Fire Department Stations on the Island of Oahu,,,,9wbz-g4gv,,,9wbz-g4gv,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:24:55 PM +0000,07/24/2012 07:25:17 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",City & County Lessee Land (dataset/City-County-Lessee-Land/8bxx-m279),City & County Lessee Lands on the island of Oahu,,,,8bxx-m279,,,8bxx-m279,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:18:08 PM +0000,07/24/2012 07:18:14 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",City & County Owned Land (dataset/City-County-Owned-Land/2wz2-h4kn),City & County owned land on the island of Oahu,,,,2wz2-h4kn,,,2wz2-h4kn,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:18:45 PM +0000,07/24/2012 07:19:06 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Refuse Manual Pick Up Routes (dataset/Refuse-Manual-Pick-Up-Routes/6mix-hwjf),Feature Service of refuse manual pick up routes.,,,,6mix-hwjf,,,6mix-hwjf,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 08:55:15 PM +0000,07/24/2012 08:55:24 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",State Lessee Land (dataset/State-Lessee-Land/jnhf-ieui),State Lessee Land on the island of Oahu,,,,jnhf-ieui,,,jnhf-ieui,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:20:07 PM +0000,07/24/2012 07:20:13 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Federal Owned Land (dataset/Federal-Owned-Land/fbqz-69qn),Federal owned lands on the island of Oahu,,,,fbqz-69qn,,,fbqz-69qn,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:21:04 PM +0000,07/24/2012 07:21:10 PM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Refuse Auto Pickup Routes (dataset/Refuse-Auto-Pickup-Routes/8iva-4xfs),Refuse Auto Pickup Routes Feature Service,,,,8iva-4xfs,,,8iva-4xfs,,,,Mick Thompson (http://data.honolulu.gov/api/users/gcjf-354x),public,,,07/24/2012 07:33:59 PM +0000,07/24/2012 07:34:08 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Proposed FY14 Budget (Finance/Proposed-FY14-Budget/rh9s-z3mn),Proposed City Budget for Fiscal Year 2014,Finance,"proposed, budget, fy2014",,rh9s-z3mn,,"[{
+  ""id"" : 114649670,
+  ""name"" : ""Department"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 8437966,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 114649671,
+  ""name"" : ""Division"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 8437967,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 114649672,
+  ""name"" : ""Fund"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fund"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 8437968,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 114649673,
+  ""name"" : ""Object Code"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""object_code"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 8437969,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 114649674,
+  ""name"" : ""FY 2011 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_actual"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 8437970,
+  ""width"" : 268,
+  ""format"" : {
+    ""precisionStyle"" : ""standard"",
+    ""noCommas"" : ""false"",
+    ""align"" : ""right""
+  }
+}, {
+  ""id"" : 114649675,
+  ""name"" : ""FY 2012 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_actual"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 8437971,
+  ""width"" : 268,
+  ""format"" : {
+    ""precisionStyle"" : ""standard"",
+    ""noCommas"" : ""false"",
+    ""align"" : ""right""
+  }
+}, {
+  ""id"" : 114649676,
+  ""name"" : ""FY 2013 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_budget"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 8437972,
+  ""width"" : 268,
+  ""format"" : {
+    ""precisionStyle"" : ""standard"",
+    ""noCommas"" : ""false"",
+    ""align"" : ""right""
+  }
+}, {
+  ""id"" : 114649677,
+  ""name"" : ""FY 2014 Current Services"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2014_current_services"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 8437973,
+  ""width"" : 388,
+  ""format"" : {
+    ""precisionStyle"" : ""standard"",
+    ""noCommas"" : ""false"",
+    ""align"" : ""right""
+  }
+}, {
+  ""id"" : 114649678,
+  ""name"" : ""FY 2014 Budget Issues"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2014_budget_issues"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 8437974,
+  ""width"" : 352,
+  ""format"" : {
+    ""precisionStyle"" : ""standard"",
+    ""noCommas"" : ""false"",
+    ""align"" : ""right""
+  }
+}, {
+  ""id"" : 114649679,
+  ""name"" : ""FY 2014 Proposed Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2014_proposed_budget"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 8437975,
+  ""width"" : 376,
+  ""format"" : {
+    ""precisionStyle"" : ""standard"",
+    ""noCommas"" : ""false"",
+    ""align"" : ""right""
+  }
+}, {
+  ""id"" : 114649680,
+  ""name"" : ""Department Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department_name"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 8437976,
+  ""width"" : 280,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 114649681,
+  ""name"" : ""Division Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division_name"",
+  ""position"" : 13,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 8437977,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 114649682,
+  ""name"" : ""Fund Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund_name"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 8437978,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 114649683,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 15,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 8437979,
+  ""width"" : 292,
+  ""format"" : {
+  }
+}]",rh9s-z3mn,,,,Burt Lum (http://data.honolulu.gov/api/users/5vv3-gysc),public,,,03/07/2013 08:24:57 PM +0000,03/24/2015 07:58:20 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Building Permits (Business/Building-Permits/pgq8-ngmz),"January 1, 2005 thru March 15, 2015",Business,"building, permits",,pgq8-ngmz,,"[{
+  ""id"" : 196672473,
+  ""name"" : ""jobid"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""jobid"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 27125669,
+  ""width"" : 160,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672475,
+  ""name"" : ""acceptedvalue"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""acceptedvalue"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 27125671,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672477,
+  ""name"" : ""addition"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""addition"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125673,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672551,
+  ""name"" : ""Address"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""address"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125747,
+  ""width"" : 184,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672478,
+  ""name"" : ""alteration"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""alteration"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125674,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672480,
+  ""name"" : ""buildingpermitno"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""buildingpermitno"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 27125676,
+  ""width"" : 292,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672482,
+  ""name"" : ""contractor"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""contractor"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125678,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672484,
+  ""name"" : ""contractorelectrical"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""contractorelectrical"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125680,
+  ""width"" : 340,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672489,
+  ""name"" : ""contractorplumbing"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""contractorplumbing"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125685,
+  ""width"" : 316,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672493,
+  ""name"" : ""curbingtypes"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""curbingtypes"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125689,
+  ""width"" : 244,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672496,
+  ""name"" : ""demolition"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""demolition"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125692,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672500,
+  ""name"" : ""electricalwork"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""electricalwork"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125696,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672504,
+  ""name"" : ""estimatedvalueofwork"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""estimatedvalueofwork"",
+  ""position"" : 13,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 27125700,
+  ""width"" : 340,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672508,
+  ""name"" : ""externalfilenum"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""externalfilenum"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125704,
+  ""width"" : 280,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672511,
+  ""name"" : ""fence"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fence"",
+  ""position"" : 15,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125707,
+  ""width"" : 160,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672515,
+  ""name"" : ""finalstories"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""finalstories"",
+  ""position"" : 16,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 27125711,
+  ""width"" : 244,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672519,
+  ""name"" : ""floodhazardcomplied"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""floodhazardcomplied"",
+  ""position"" : 17,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125715,
+  ""width"" : 328,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672523,
+  ""name"" : ""floodhazardexempt"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""floodhazardexempt"",
+  ""position"" : 18,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125719,
+  ""width"" : 304,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672525,
+  ""name"" : ""foundationonly"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""foundationonly"",
+  ""position"" : 19,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125721,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672527,
+  ""name"" : ""issuedate"",
+  ""dataTypeName"" : ""calendar_date"",
+  ""fieldName"" : ""issuedate"",
+  ""position"" : 20,
+  ""renderTypeName"" : ""calendar_date"",
+  ""tableColumnId"" : 27125723,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672528,
+  ""name"" : ""newbuilding"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""newbuilding"",
+  ""position"" : 21,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125724,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672529,
+  ""name"" : ""occupancygroupassessed"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""occupancygroupassessed"",
+  ""position"" : 22,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125725,
+  ""width"" : 364,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672530,
+  ""name"" : ""occupancygroupcategory"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""occupancygroupcategory"",
+  ""position"" : 23,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125726,
+  ""width"" : 364,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672531,
+  ""name"" : ""occupancygroupresidential"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""occupancygroupresidential"",
+  ""position"" : 24,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125727,
+  ""width"" : 400,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672532,
+  ""name"" : ""otherwork"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""otherwork"",
+  ""position"" : 25,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125728,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672533,
+  ""name"" : ""planmaker"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""planmaker"",
+  ""position"" : 26,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125729,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672534,
+  ""name"" : ""plumbingwork"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""plumbingwork"",
+  ""position"" : 27,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125730,
+  ""width"" : 244,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672535,
+  ""name"" : ""pool"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""pool"",
+  ""position"" : 28,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125731,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672536,
+  ""name"" : ""proposeduse"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""proposeduse"",
+  ""position"" : 29,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125732,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672537,
+  ""name"" : ""repair"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""repair"",
+  ""position"" : 30,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125733,
+  ""width"" : 172,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672538,
+  ""name"" : ""retainingwall"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""retainingwall"",
+  ""position"" : 31,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125734,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672539,
+  ""name"" : ""shellonly"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""shellonly"",
+  ""position"" : 32,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125735,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672540,
+  ""name"" : ""statusdescription"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""statusdescription"",
+  ""position"" : 33,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125736,
+  ""width"" : 304,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672541,
+  ""name"" : ""tmk"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""tmk"",
+  ""position"" : 34,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 27125737,
+  ""width"" : 136,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672542,
+  ""name"" : ""totalfloorarea"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""totalfloorarea"",
+  ""position"" : 35,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 27125738,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672543,
+  ""name"" : ""typesofconstructionactual"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""typesofconstructionactual"",
+  ""position"" : 36,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125739,
+  ""width"" : 400,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672544,
+  ""name"" : ""typesofconstructionmin"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""typesofconstructionmin"",
+  ""position"" : 37,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125740,
+  ""width"" : 364,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672545,
+  ""name"" : ""bpfeescollected"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""bpfeescollected"",
+  ""position"" : 38,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 27125741,
+  ""width"" : 280,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672546,
+  ""name"" : ""ownershipassessed"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""ownershipassessed"",
+  ""position"" : 39,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125742,
+  ""width"" : 304,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672547,
+  ""name"" : ""structurecode"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""structurecode"",
+  ""position"" : 40,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125743,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672548,
+  ""name"" : ""createddate"",
+  ""dataTypeName"" : ""calendar_date"",
+  ""fieldName"" : ""createddate"",
+  ""position"" : 41,
+  ""renderTypeName"" : ""calendar_date"",
+  ""tableColumnId"" : 27125744,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672549,
+  ""name"" : ""completeddate"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""completeddate"",
+  ""position"" : 42,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 27125745,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196672550,
+  ""name"" : ""Location"",
+  ""dataTypeName"" : ""location"",
+  ""fieldName"" : ""location"",
+  ""position"" : 43,
+  ""renderTypeName"" : ""location"",
+  ""tableColumnId"" : 27125746,
+  ""width"" : 196,
+  ""format"" : {
+  },
+  ""subColumnTypes"" : [ ""human_address"", ""latitude"", ""longitude"", ""machine_address"", ""needs_recoding"" ]
+}]",pgq8-ngmz,,,,Karl S. (http://data.honolulu.gov/api/users/b4zr-4dtj),public,,,03/26/2015 05:50:12 PM +0000,03/26/2015 11:19:41 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Honolulu 311 Reports (dataset/Honolulu-311-Reports/6hui-dvrh),Updated daily with reports from the past month.,,,,6hui-dvrh,,"[{
+  ""id"" : 192887216,
+  ""name"" : ""Id"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""id"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 25831666,
+  ""width"" : 100,
+  ""format"" : {
+    ""precisionStyle"" : ""standard"",
+    ""align"" : ""right"",
+    ""noCommas"" : ""true""
+  }
+}, {
+  ""id"" : 192887249,
+  ""name"" : ""DateCreated"",
+  ""dataTypeName"" : ""calendar_date"",
+  ""fieldName"" : ""datecreated"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""calendar_date"",
+  ""tableColumnId"" : 25882494,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 192887270,
+  ""name"" : ""DateUpdated"",
+  ""dataTypeName"" : ""calendar_date"",
+  ""fieldName"" : ""dateupdated"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""calendar_date"",
+  ""tableColumnId"" : 25882497,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 192887271,
+  ""name"" : ""RequestType"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""requesttype"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 25882498,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 192887272,
+  ""name"" : ""City"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""city"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 25882499,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 192887273,
+  ""name"" : ""ZipCode"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""zipcode"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 25882502,
+  ""width"" : 100,
+  ""format"" : {
+    ""precisionStyle"" : ""standard"",
+    ""align"" : ""right"",
+    ""noCommas"" : ""true""
+  }
+}, {
+  ""id"" : 192887274,
+  ""name"" : ""Location"",
+  ""dataTypeName"" : ""location"",
+  ""fieldName"" : ""location"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""location"",
+  ""tableColumnId"" : 25881888,
+  ""width"" : 100,
+  ""format"" : {
+  },
+  ""subColumnTypes"" : [ ""human_address"", ""latitude"", ""longitude"", ""machine_address"", ""needs_recoding"" ]
+}, {
+  ""id"" : 192887275,
+  ""name"" : ""StatusType"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""statustype"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 25882527,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 192887276,
+  ""name"" : ""Description"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""description"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 25969110,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}]",6hui-dvrh,,,normal,Open Data (http://data.honolulu.gov/api/users/sr3i-nqxd),public,,,02/27/2015 12:55:31 AM +0000,03/26/2015 08:15:24 PM +0000
+"<div class='typeMap'><div class=""viewTypeCell"">Map</div></div>",Honolulu 311 Reports (dataset/Honolulu-311-Reports/rbuu-ydnz),Updated daily with reports from the past month.,,,,rbuu-ydnz,,"[{
+  ""id"" : 192893530,
+  ""name"" : ""Id"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""id"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 25831666,
+  ""width"" : 100,
+  ""format"" : {
+    ""precisionStyle"" : ""standard"",
+    ""noCommas"" : ""true"",
+    ""align"" : ""right""
+  }
+}, {
+  ""id"" : 192893532,
+  ""name"" : ""DateCreated"",
+  ""dataTypeName"" : ""calendar_date"",
+  ""fieldName"" : ""datecreated"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""calendar_date"",
+  ""tableColumnId"" : 25882494,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 192893533,
+  ""name"" : ""DateUpdated"",
+  ""dataTypeName"" : ""calendar_date"",
+  ""fieldName"" : ""dateupdated"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""calendar_date"",
+  ""tableColumnId"" : 25882497,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 192893534,
+  ""name"" : ""RequestType"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""requesttype"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 25882498,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 192893535,
+  ""name"" : ""City"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""city"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 25882499,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 192893536,
+  ""name"" : ""ZipCode"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""zipcode"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 25882502,
+  ""width"" : 100,
+  ""format"" : {
+    ""precisionStyle"" : ""standard"",
+    ""noCommas"" : ""true"",
+    ""align"" : ""right""
+  }
+}, {
+  ""id"" : 192893537,
+  ""name"" : ""Location"",
+  ""dataTypeName"" : ""location"",
+  ""fieldName"" : ""location"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""location"",
+  ""tableColumnId"" : 25881888,
+  ""width"" : 100,
+  ""format"" : {
+  },
+  ""subColumnTypes"" : [ ""human_address"", ""latitude"", ""longitude"", ""machine_address"", ""needs_recoding"" ]
+}, {
+  ""id"" : 192893538,
+  ""name"" : ""StatusType"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""statustype"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 25882527,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 192893539,
+  ""name"" : ""Description"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""description"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 25969110,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}]",rbuu-ydnz,,,normal,Open Data (http://data.honolulu.gov/api/users/sr3i-nqxd),public,,,03/04/2015 08:37:05 PM +0000,03/26/2015 08:15:24 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY15 2014-10-01 (Recreation/Hanauma-Bay-Expenditures-FY15-2014-10-01/x42g-skfj),,Recreation,hanauma bay,,x42g-skfj,,,x42g-skfj,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,10/01/2014 09:36:02 PM +0000,03/24/2015 11:23:42 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY14 2014-07-17 (Recreation/Hanauma-Bay-Revenues-FY14-2014-07-17/rxxq-pqcf),,Recreation,hanauma bay,,rxxq-pqcf,,,rxxq-pqcf,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,07/17/2014 07:29:46 PM +0000,03/24/2015 11:22:55 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY13 Final (Recreation/Hanauma-Bay-Revenues-FY13-Final/vj54-u25j),,Recreation,hanauma bay,,vj54-u25j,,,vj54-u25j,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,01/17/2014 07:06:35 PM +0000,03/24/2015 11:22:33 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY14 2014-08-06 (Recreation/Hanauma-Bay-Expenditures-FY14-2014-08-06/qt3u-58wt),,Recreation,hanauma bay,,qt3u-58wt,,,qt3u-58wt,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,08/07/2014 08:02:37 PM +0000,03/24/2015 11:22:09 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY15 2015-01-31 (Recreation/Hanauma-Bay-Revenues-FY15-2015-01-31/4svj-8d6p),,Recreation,hanauma bay,,4svj-8d6p,,,4svj-8d6p,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,02/02/2015 06:24:10 PM +0000,03/24/2015 11:20:13 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY15 2015-01-31 (Recreation/Hanauma-Bay-Expenditures-FY15-2015-01-31/rw6j-jsw9),,Recreation,hanauma bay,,rw6j-jsw9,,,rw6j-jsw9,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,02/02/2015 06:04:31 PM +0000,03/24/2015 11:19:49 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY15 2014-12-31 (Recreation/Hanauma-Bay-Revenues-FY15-2014-12-31/4m3j-9m7n),,Recreation,hanauma bay,,4m3j-9m7n,,,4m3j-9m7n,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,01/06/2015 07:44:23 PM +0000,03/24/2015 11:19:08 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY15 2014-12-04 (Recreation/Hanauma-Bay-Revenues-FY15-2014-12-04/g4iu-bq9v),,Recreation,hanauma bay,,g4iu-bq9v,,,g4iu-bq9v,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,12/04/2014 08:52:34 PM +0000,03/24/2015 11:18:44 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures Detail FY14 2014-07-17 (Recreation/Hanauma-Bay-Expenditures-Detail-FY14-2014-07-17/wgk4-wjsg),,Recreation,hanauma bay,,wgk4-wjsg,,,wgk4-wjsg,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,07/17/2014 07:25:39 PM +0000,03/24/2015 11:17:19 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY14 2014-07-17 (Recreation/Hanauma-Bay-Expenditures-FY14-2014-07-17/jstz-r5d9),,Recreation,hanauma bay,,jstz-r5d9,,,jstz-r5d9,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,07/17/2014 06:10:13 PM +0000,03/24/2015 11:16:48 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY14 2013-12-31 (Recreation/Hanauma-Bay-Revenues-FY14-2013-12-31/ngpg-9szj),,Recreation,hanauma bay,,ngpg-9szj,,,ngpg-9szj,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,01/17/2014 07:09:07 PM +0000,03/24/2015 11:16:25 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY15 2014-09-02 (Recreation/Hanauma-Bay-Revenues-FY15-2014-09-02/947h-pkwn),,Recreation,hanauma bay,,947h-pkwn,,,947h-pkwn,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,09/02/2014 07:46:29 PM +0000,03/24/2015 11:15:56 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY15 2014-11-05 (Recreation/Hanauma-Bay-Revenues-FY15-2014-11-05/ui64-28m8),,Recreation,hanauma bay,,ui64-28m8,,,ui64-28m8,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,11/06/2014 02:18:51 AM +0000,03/24/2015 11:15:24 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Proposed FY15 Budget (Finance/Proposed-FY15-Budget/dw6j-5gaz),Proposed City Budget for Fiscal Year 2015,Finance,"proposed, budget, fy2015",,dw6j-5gaz,,"[{
+  ""id"" : 196347692,
+  ""name"" : ""Department"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367069,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347695,
+  ""name"" : ""Division"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367070,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347696,
+  ""name"" : ""Fund"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fund"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367071,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347697,
+  ""name"" : ""Object Code"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""object_code"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367072,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347699,
+  ""name"" : ""FY 2012 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_actual"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367073,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347700,
+  ""name"" : ""FY 2013 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_actual"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367074,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347702,
+  ""name"" : ""FY 2014 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2014_budget"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367075,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347703,
+  ""name"" : ""FY 2015 Current Services"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2015_current_services"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367076,
+  ""width"" : 388,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347704,
+  ""name"" : ""FY 2015 Budget Issues"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2015_budget_issues"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367077,
+  ""width"" : 352,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347705,
+  ""name"" : ""FY 2015 Proposed Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2015_proposed_budget"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367078,
+  ""width"" : 376,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347707,
+  ""name"" : ""Department Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department_name"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367079,
+  ""width"" : 280,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347710,
+  ""name"" : ""Division Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division_name"",
+  ""position"" : 13,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367080,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347714,
+  ""name"" : ""Fund Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund_name"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367081,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347719,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 15,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367082,
+  ""width"" : 292,
+  ""format"" : {
+  }
+}]",dw6j-5gaz,,,,Kyle Shimabukuro (http://data.honolulu.gov/api/users/ghm6-td4z),public,,,03/01/2014 12:18:03 AM +0000,03/24/2015 07:55:48 PM +0000
+"<div class='typeChart'><div class=""viewTypeCell"">Chart</div></div>",By Fund (Finance/By-Fund/mnxu-i8g7),,Finance,,,mnxu-i8g7,,"[{
+  ""id"" : 196347795,
+  ""name"" : ""Object Code"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""object_code"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367072,
+  ""width"" : 121,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347798,
+  ""name"" : ""FY 2014 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2014_budget"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367075,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347799,
+  ""name"" : ""FY 2015 Current Services"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2015_current_services"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367076,
+  ""width"" : 188,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347800,
+  ""name"" : ""FY 2015 Budget Issues"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2015_budget_issues"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367077,
+  ""width"" : 192,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347801,
+  ""name"" : ""FY 2015 Proposed Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2015_proposed_budget"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367078,
+  ""width"" : 207,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347802,
+  ""name"" : ""Department Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department_name"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367079,
+  ""width"" : 186,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347803,
+  ""name"" : ""Division Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division_name"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367080,
+  ""width"" : 186,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347804,
+  ""name"" : ""Fund Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund_name"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367081,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347805,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367082,
+  ""width"" : 292,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347792,
+  ""name"" : ""Department"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367069,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347793,
+  ""name"" : ""Division"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 18367070,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347794,
+  ""name"" : ""Fund"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fund"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367071,
+  ""width"" : 148,
+  ""format"" : {
+    ""aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 196347796,
+  ""name"" : ""FY 2012 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_actual"",
+  ""position"" : 13,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367073,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 196347797,
+  ""name"" : ""FY 2013 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_actual"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 18367074,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}]",mnxu-i8g7,,,,Sarah Fukumoto (http://data.honolulu.gov/api/users/w8ii-7i27),public,,,02/25/2015 12:36:23 AM +0000,03/24/2015 07:55:48 PM +0000
+"<div class='typeFilter'><div class=""viewTypeCell"">Filter</div></div>",data (dataset/data/fes3-i9mv),,,,,fes3-i9mv,,"[{
+  ""id"" : 143204063,
+  ""name"" : ""ObjectID"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""objectid"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975196,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 143204064,
+  ""name"" : ""KiloNBR"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""kilonbr"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975197,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 143204065,
+  ""name"" : ""BlockAddress"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""blockaddress"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975198,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 143204066,
+  ""name"" : ""CMID"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""cmid"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975199,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 143204067,
+  ""name"" : ""CMAgency"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""cmagency"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975200,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 143204068,
+  ""name"" : ""Date"",
+  ""dataTypeName"" : ""date"",
+  ""fieldName"" : ""date"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""date"",
+  ""tableColumnId"" : 3975201,
+  ""width"" : 100,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 143204069,
+  ""name"" : ""Type"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""type"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975202,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 143204070,
+  ""name"" : ""Status"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""status"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975203,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 143204071,
+  ""name"" : ""Score"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""score"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975204,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 143204072,
+  ""name"" : ""Side"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""side"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3975205,
+  ""width"" : 300,
+  ""format"" : {
+  }
+}]",fes3-i9mv,,,,Leslie (http://data.honolulu.gov/api/users/ku28-nmuw),public,,,04/16/2014 10:28:24 PM +0000,03/21/2015 04:00:56 AM +0000
+"<div class='typeHref'><div class=""viewTypeCell"">External</div></div>",Curbside Collection/Schedules (dataset/Curbside-Collection-Schedules/quth-64pn),,,,,quth-64pn,,,quth-64pn,,,,Open Data (http://data.honolulu.gov/api/users/sr3i-nqxd),public,,,01/24/2014 08:36:53 PM +0000,03/12/2015 12:16:17 AM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY15 2015-02-28 (Recreation/Hanauma-Bay-Revenues-FY15-2015-02-28/r3au-fa7w),,Recreation,hanauma bay,,r3au-fa7w,,,r3au-fa7w,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,03/09/2015 05:30:05 PM +0000,03/24/2015 11:20:42 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY15 2015-02-28 (Recreation/Hanauma-Bay-Expenditures-FY15-2015-02-28/n9qu-ee44),,Recreation,hanauma bay,,n9qu-ee44,,,n9qu-ee44,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,03/09/2015 05:23:22 PM +0000,03/24/2015 11:21:43 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Adopted FY15 Budget (Finance/Adopted-FY15-Budget/utqy-e8pg),Adopted Fiscal Year 2016 Budget,Finance,"adopted, fiscal year 2015, fy15, budget",,utqy-e8pg,,"[{
+  ""id"" : 193258583,
+  ""name"" : ""Department"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26147224,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258585,
+  ""name"" : ""Division"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26147226,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258587,
+  ""name"" : ""Fund"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fund"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 26147228,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258588,
+  ""name"" : ""Object Code"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26147230,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258589,
+  ""name"" : ""FY 2012 Actual"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2012_actual"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26147231,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258591,
+  ""name"" : ""FY 2013 Actual"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2013_actual"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26147232,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258594,
+  ""name"" : ""FY 2014 Budget"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2014_budget"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26147235,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258596,
+  ""name"" : ""FY 2015 Current Services"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2015_current_services"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26147237,
+  ""width"" : 388,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258598,
+  ""name"" : ""FY 2015 Budget Issues"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2015_budget_issues"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26147239,
+  ""width"" : 352,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258600,
+  ""name"" : ""FY 2015 Adopted Budget"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2015_adopted_budget"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26147241,
+  ""width"" : 364,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258602,
+  ""name"" : ""Department Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department_name"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26147243,
+  ""width"" : 280,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258604,
+  ""name"" : ""Division Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division_name"",
+  ""position"" : 13,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26147245,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258607,
+  ""name"" : ""Fund Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund_name"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26147248,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193258609,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 15,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26147250,
+  ""width"" : 292,
+  ""format"" : {
+  }
+}]",utqy-e8pg,,,,Karl S. (http://data.honolulu.gov/api/users/b4zr-4dtj),public,,,03/06/2015 06:29:35 PM +0000,03/09/2015 05:45:13 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Proposed FY16 Budget (Finance/Proposed-FY16-Budget/rkqa-i8sr),Proposed City Budget for Fiscal Year 2016,Finance,"proposed, budget, fy2016",,rkqa-i8sr,,"[{
+  ""id"" : 193114612,
+  ""name"" : ""Department"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26116994,
+  ""width"" : 220,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114613,
+  ""name"" : ""Division"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26116995,
+  ""width"" : 196,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114614,
+  ""name"" : ""Fund"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fund"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 26116996,
+  ""width"" : 148,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114615,
+  ""name"" : ""Object Code"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26116997,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114616,
+  ""name"" : ""FY 2013 Actual"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2013_actual"",
+  ""position"" : 6,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26116998,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114617,
+  ""name"" : ""FY 2014 Actual"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2014_actual"",
+  ""position"" : 7,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26116999,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114618,
+  ""name"" : ""FY 2015 Budget"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2015_budget"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26117000,
+  ""width"" : 268,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114619,
+  ""name"" : ""FY 2016 Current Services"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2016_current_services"",
+  ""position"" : 9,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26117001,
+  ""width"" : 388,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114620,
+  ""name"" : ""FY 2016 Budget Issues"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2016_budget_issues"",
+  ""position"" : 10,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26117002,
+  ""width"" : 352,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114621,
+  ""name"" : ""FY 2016 Proposed Budget"",
+  ""dataTypeName"" : ""money"",
+  ""fieldName"" : ""fy_2016_proposed_budget"",
+  ""position"" : 11,
+  ""renderTypeName"" : ""money"",
+  ""tableColumnId"" : 26117003,
+  ""width"" : 376,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114622,
+  ""name"" : ""Department Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department_name"",
+  ""position"" : 12,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26117004,
+  ""width"" : 280,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114623,
+  ""name"" : ""Division Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division_name"",
+  ""position"" : 13,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26117005,
+  ""width"" : 256,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114624,
+  ""name"" : ""Fund Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""fund_name"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26117006,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 193114625,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 15,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 26117007,
+  ""width"" : 292,
+  ""format"" : {
+  }
+}]",rkqa-i8sr,,,,Karl S. (http://data.honolulu.gov/api/users/b4zr-4dtj),public,,,03/06/2015 01:35:29 AM +0000,03/06/2015 01:59:11 AM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY15 2014-12-31 (Recreation/Hanauma-Bay-Expenditures-FY15-2014-12-31/vywd-g54c),,Recreation,hanauma bay,,vywd-g54c,,,vywd-g54c,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,01/06/2015 07:30:36 PM +0000,03/24/2015 11:19:29 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY15 2014-12-04 (Recreation/Hanauma-Bay-Expenditures-FY15-2014-12-04/rx7u-vzhg),,Recreation,hanauma bay,,rx7u-vzhg,,,rx7u-vzhg,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,12/04/2014 08:07:41 PM +0000,03/24/2015 11:18:16 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY15 2014-11-05 (Recreation/Hanauma-Bay-Expenditures-FY15-2014-11-05/cgmr-samv),,Recreation,hanauma bay,,cgmr-samv,,,cgmr-samv,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,11/06/2014 02:04:36 AM +0000,03/24/2015 11:17:46 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY15 2014-10-01 (Recreation/Hanauma-Bay-Revenues-FY15-2014-10-01/v577-7ehc),,Recreation,hanauma bay,,v577-7ehc,,,v577-7ehc,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,10/01/2014 09:43:19 PM +0000,03/24/2015 11:06:49 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY15 2014-09-02 (Recreation/Hanauma-Bay-Expenditures-FY15-2014-09-02/7wrs-z2n9),,Recreation,hanauma bay,,7wrs-z2n9,,,7wrs-z2n9,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,09/02/2014 07:37:10 PM +0000,03/24/2015 11:21:06 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY15 2014-08-06 (Recreation/Hanauma-Bay-Revenues-FY15-2014-08-06/gpy7-nck9),,Recreation,hanauma bay,,gpy7-nck9,,,gpy7-nck9,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,08/07/2014 08:31:08 PM +0000,03/24/2015 11:23:22 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Revenues FY14 2014-03-31 (Recreation/Hanauma-Bay-Revenues-FY14-2014-03-31/2z2q-exgg),,Recreation,hanauma bay,,2z2q-exgg,,,2z2q-exgg,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,04/01/2014 06:29:33 PM +0000,03/24/2015 10:59:01 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY14 2014-03-31 (Recreation/Hanauma-Bay-Expenditures-FY14-2014-03-31/7tyw-z24w),,Recreation,hanauma bay,,7tyw-z24w,,,7tyw-z24w,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,04/01/2014 06:36:11 PM +0000,03/24/2015 11:00:01 PM +0000
+"<div class='typeFilter'><div class=""viewTypeCell"">Filter</div></div>",Honolulu 2011 Expenditures (dataset/Honolulu-2011-Expenditures/pwgx-uwn6),"Actual spending 2010&2011
+Budget 2012
+Proposed Budget 2013",,,,pwgx-uwn6,,"[{
+  ""id"" : 150676345,
+  ""name"" : ""Department Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""department_name"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032803,
+  ""width"" : 310,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}, {
+  ""id"" : 150676340,
+  ""name"" : ""FY 2011 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_actual"",
+  ""position"" : 8,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032798,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 150676348,
+  ""name"" : ""Object Code Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""object_code_name"",
+  ""position"" : 14,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032806,
+  ""width"" : 322,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}]",pwgx-uwn6,,,,Jason Axelson (http://data.honolulu.gov/api/users/sk6r-n9bg),public,,,05/31/2014 06:26:05 AM +0000,05/31/2014 08:13:31 AM +0000
+"<div class='typeFilter'><div class=""viewTypeCell"">Filter</div></div>",City Spending by Division 2010-2013 (dataset/City-Spending-by-Division-2010-2013/smuq-xtz4),"Actual spending 2010&2011
+Budget 2012
+Proposed Budget 2013",,,,smuq-xtz4,,"[{
+  ""id"" : 55455288,
+  ""name"" : ""Division Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""division_name"",
+  ""position"" : 1,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 3032804,
+  ""width"" : 286,
+  ""format"" : {
+    ""drill_down"" : ""true""
+  }
+}, {
+  ""id"" : 55455289,
+  ""name"" : ""FY 2010 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2010_actual"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032797,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 55455290,
+  ""name"" : ""FY 2011 Actual"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2011_actual"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032798,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 55455291,
+  ""name"" : ""FY 2012 Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2012_budget"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032799,
+  ""width"" : 268,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}, {
+  ""id"" : 55455292,
+  ""name"" : ""FY 2013 Proposed Budget"",
+  ""dataTypeName"" : ""number"",
+  ""fieldName"" : ""fy_2013_proposed_budget"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""number"",
+  ""tableColumnId"" : 3032802,
+  ""width"" : 376,
+  ""format"" : {
+    ""grouping_aggregate"" : ""sum""
+  }
+}]",smuq-xtz4,,,,Lilia Gutnik (http://data.honolulu.gov/api/users/tm4c-rqum),public,,,04/04/2013 06:08:25 PM +0000,04/04/2013 06:08:25 PM +0000
+"<div class='typeBlist'><div class=""viewTypeCell"">Tabular</div></div>",Exceptional Trees On Oahu (Recreation/Exceptional-Trees-On-Oahu/84fd-3fzf),City & County exceptional tree database,Recreation,,,84fd-3fzf,,"[{
+  ""id"" : 62189655,
+  ""name"" : ""TMK"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""tmk"",
+  ""position"" : 2,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 9999643,
+  ""width"" : 136,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 62189656,
+  ""name"" : ""Species and Number of Trees"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""species_and_number_of_trees"",
+  ""position"" : 3,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 9999644,
+  ""width"" : 424,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 62189657,
+  ""name"" : ""Common Name"",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""common_name"",
+  ""position"" : 4,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 9999645,
+  ""width"" : 232,
+  ""format"" : {
+  }
+}, {
+  ""id"" : 62189658,
+  ""name"" : ""Location "",
+  ""dataTypeName"" : ""text"",
+  ""fieldName"" : ""location"",
+  ""position"" : 5,
+  ""renderTypeName"" : ""text"",
+  ""tableColumnId"" : 9999646,
+  ""width"" : 208,
+  ""format"" : {
+  }
+}]",84fd-3fzf,,,,Burt Lum (http://data.honolulu.gov/api/users/5vv3-gysc),public,,C&C Honolulu (http://www1.honolulu.gov/parks/exceptionaltrees.htm),04/30/2013 08:41:02 PM +0000,04/30/2013 08:43:32 PM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY13 6-30-13 Final (dataset/Hanauma-Bay-Expenditures-FY13-6-30-13-Final/kuvi-9yht),Expenditures and Encumbrances for Hanauma Bay for FY 2013,,,,kuvi-9yht,,,kuvi-9yht,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,01/09/2014 09:22:53 PM +0000,02/04/2014 03:02:03 AM +0000
+"<div class='typeBlob'><div class=""viewTypeCell"">Blob</div></div>",Hanauma Bay Expenditures FY14 12-31-13 (Recreation/Hanauma-Bay-Expenditures-FY14-12-31-13/6fpy-jhy3),FY 2014 Expenditures and Encumbrances for Hanauma Bay as of 12-31/13,Recreation,,,6fpy-jhy3,,,6fpy-jhy3,,,,Kevin Takahashi (http://data.honolulu.gov/api/users/6y8m-e6cv),public,,,01/09/2014 09:34:43 PM +0000,03/08/2014 01:47:38 AM +0000

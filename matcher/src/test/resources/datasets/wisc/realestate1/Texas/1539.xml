@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Lone Star Land Company</name>
+<location>801 Bessemer St. Llano, TX 78643</location>
+<office>(915)247-5782</office>
+<toll_free></toll_free>
+<fax>(915)247-5569</fax>
+<email>lslc@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mark T. Virdell</name>
+<office>(915)247-5782</office>
+<fax>(915)247-5569</fax>
+<email>mtv@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17569</id>
+<mls></mls>
+<house_location>12 Post Oak Drive, Parkview Acres
+Llano, TEXAS 78643</house_location>
+<county>Llano</county>
+<price>$91,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Lovely three bedroom, two bath home located on a one acre tract. Amenities include hardwood floors, private master bath, large utility room, covered rear porch on east side of home, custom detached storage building/workshop, fenced rear, and satillite system.  This home is located a short walk to the city park, Llano River, and Llano's18 hole golf course located on the banks of the Llano River.</house_description>
+
+<sub-division>Parkview Acres</sub-division>
+<approx_size_sqft>1300</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Large 1 acre site</item>
+<item>3 bedrooms and 2 baths</item>
+<item>Hardwood floors</item>
+<item>near golf course, park &amp; river</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

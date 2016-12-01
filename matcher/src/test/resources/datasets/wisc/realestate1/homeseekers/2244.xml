@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1941 has 3 bedroom(s), 1 bath(s) and
+approximately 1210 square feet of living area.</house_description>
+
+<agent_name>Rick Weibel</agent_name>
+<direct>303-202-2244</direct>
+<office>303-232-4444</office>
+<firm_name>RE/MAX 1Oo, Inc.</firm_name>
+<phone>303-232-4444</phone>
+<fax>303-232-6919</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$143,500</list_price>
+<location>4920 Julian St</location>
+<neighborhood>Regis</neighborhood>
+<mls>384763</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1210 (approx)</square_feet>
+<year_built>1941</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

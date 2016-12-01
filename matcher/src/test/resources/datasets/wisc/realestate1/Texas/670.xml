@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Ellen Franklin</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)217-9171</mobile>
+<email>dfrankli@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17155</id>
+<mls>505378</mls>
+<house_location>108 Higgins
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$89,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>This updated traditional home is ready for move in.  With an intown location your children will be close at hand  in this home that offers a spacious floor plan, new exterior and interior paint, new carpet, a huge utility room, a large living area, 2 car carport, near shopping and eating, 4 bedrooms, and 2 baths.  Excellent rental property in a demanding rental market.  Make and offer or tell a friend.  Call Mary Ellen at 1-800-222-2539 or 1-888-461-1620.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Colorado Estates</sub-division>
+<approx_size_sqft>1524</approx_size_sqft>
+<stories>1</stories>
+<year_built>1968</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

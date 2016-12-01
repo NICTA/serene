@@ -1,0 +1,46 @@
+<house_listing>
+<firm_information>
+<name>Pud Owens Realty</name>
+<location>910 1/2 West Cameron Rockdale, TX 76567</location>
+<office>(512)446-4243</office>
+<toll_free></toll_free>
+<fax>(512)446-4273</fax>
+<email>rlaj@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Matula</name>
+<office>(512)446-4243</office>
+<fax>(512)446-4273</fax>
+<mobile>(512)446-1003</mobile>
+<email>rlaj@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14975</id>
+<mls></mls>
+<house_location>616 Oaklawn
+Rockdale, TEXAS 76567</house_location>
+<county>Milam</county>
+<price>$55,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+
+<house_description>Nice home for your family. If you like to be away from the city crowds this home could be for you!</house_description>
+
+<school_district>Rockdale</school_district>
+<sub-division>Praesel</sub-division>
+<stories>1</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<water_coop>Yes</water_coop>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Reda Kay</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<mobile>(817)919-6567</mobile>
+<email>rkay@granbury.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20869</id>
+<mls>9125184</mls>
+<house_location>2508 Waters Edge Drive (Ad # 270)
+in South Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$259,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Great family waterfront home!  2 bedrooms+living up &amp; 2 bedrooms+living down.  2 patios, fenced, sprinkler system with lake pump, gorgeous Bermuda yard.  Includes boat dock, retaining wall &amp; lakeside patio for entertaining.  4th bedroom makes a great study.  Get your boat ready for fishing &amp; water sports!</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Waters Edge</sub-division>
+<approx_size_sqft>2657</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>80Wx121x80x121</approx_lot_size>
+<year_built>1989</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Waterfront Family Home</item>
+<item>Boat Dock, Retaining Wall, Landscaped</item>
+<item>Lakeside Patio, Sprinkler System</item>
+<item>Ad # 270</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

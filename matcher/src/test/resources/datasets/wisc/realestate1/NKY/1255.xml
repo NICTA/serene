@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>12460 PERCIVAL</house_location>
+<price>$149,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>(Builtin)</garage>
+<suburb>WALTON</suburb>
+<school_dist>KENTON CO</school_dist>
+<mls>249873</mls>
+<house_type>Single Family</house_type>
+<firm>DAUGHERTY REALTORS</firm>
+<firm_phone>(606) 485-7667</firm_phone>
+<agent>JIM KANNADY</agent>
+<agent_phone>(606) 485-7667</agent_phone>
+<house_description>3 BDRM RANCH ON ALMOST FIVE ACRES*INGROUND POOL*26 X 16 DECK*GAZEBO*24
+X 24 METAL POLE BARN*LOW COUNTY TAXES</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Stove</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>acres</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>14 X 14</dimension><level>1</level></dining>
+<family><dimension>23 X 21</dimension><level>L</level></family>
+<kitchen><dimension>26 X 9</dimension><level>1</level></kitchen>
+<living><dimension>22 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>1</level></master>
+
+<directions>75S TO WALTON EXIT L TO US 25 L TO CHURCH ST.
+TURNS INTO PERCIVAL ROAD</directions>
+</house_listing>
+
+
+

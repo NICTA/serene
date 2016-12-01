@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Dottie Newman</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12385</id>
+<mls>177542</mls>
+<house_location>1309 Sunset Dr.
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$88,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Updated with new carpet, wallpaper, roof replaced in 1983, pipes &amp; a.c. in 1988. The slab was piered in 1983.  Has an enclosed sunroom that adds more sq.ft. to home.  Very wooded lot and neighborhood.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Oak Hollow</sub-division>
+<stories>1</stories>
+<approx_lot_size>90x200</approx_lot_size>
+<year_built>1964</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

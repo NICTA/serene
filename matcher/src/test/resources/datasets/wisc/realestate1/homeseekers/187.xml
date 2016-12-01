@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1940 has ? bedroom(s), 1 bath(s) and
+approximately 380 square feet of living area. Rooms include dining
+room. Features include air conditioning.</house_description>
+
+<agent_name>Alvaro Hernandez</agent_name>
+<office>899-2100</office>
+<firm_name>C-21 Allstate Rlty C-21 Allstate Rlty
+Lic. Real Estate Broker</firm_name>
+<phone>899-2100</phone>
+<fax>305-891-4121</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$47,900</list_price>
+<location>1801 Collins Av #731</location>
+<neighborhood>Shelborne Ocean Beach Hot</neighborhood>
+<mls>M751737</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>380 (approx)</square_feet>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<location>Water front</location>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Ocean Access, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

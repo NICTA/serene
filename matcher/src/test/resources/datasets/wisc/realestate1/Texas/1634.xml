@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Stephanie Daniel</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21580</id>
+<mls>527755</mls>
+<house_location>400 Hudgins Street
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$88,700</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>This Circa 1910 country home has charm and has been recently renovated. Spacious 2/1 with 1260sf plus huge bath add-in. Refurbished wood floors. Large country kitchen and a large dining room with built in shelves. Rear deck and a large .35ac corner lot.   DIRECTIONS: From Bastrop take Hwy 71E to Smithville. Exit Loop 230 East. Left on Loop 230 (W) to Hudgins. Left at First Baptist Church. House on left corner of NE 4th and Hudgins St. </house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Burleson</sub-division>
+<stories>1</stories>
+<approx_lot_size>.35ac</approx_lot_size>
+<approx_acres>0.35</approx_acres>
+<year_built>1910</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Charming 1910 Home</item>
+<item>Completely Renovated</item>
+<item>Wood Floors</item>
+<item>Large Corner Lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

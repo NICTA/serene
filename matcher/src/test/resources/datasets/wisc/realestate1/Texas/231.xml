@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>INA PERLMAN</name>
+<office>(713)621-4953</office>
+<fax>(713)621-4953</fax>
+<voice_mail>(713)621-4953 108</voice_mail>
+<email>mob@onramp.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11745</id>
+<mls>98124</mls>
+<house_location>3330 MID LANE
+Houston, TEXAS 77027</house_location>
+<county>Harris</county>
+<price>$489,000</price>
+<full_baths>4</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Designers custom home! Beautiful interior! High ceilings! Hardwoods! Crown moldings! Bookshelves! 2 fireplaces! French doors! Brick balcony off large master. All bedrooms have builtins and walkin closets! Island kitchen with artist sesigned tiles.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>West Lane Place</sub-division>
+<approx_size_sqft>3044</approx_size_sqft>
+<stories>2</stories>
+<year_built>1992</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>2</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>DESIGNERS CUSTOM HOME</item>
+<item>HIGH CEILINGS, 2 FIREPLACES</item>
+<item>ISLAND KITCHEN WITH ARTIST DESIGNED TILES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

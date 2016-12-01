@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Margaret K. Linton</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<mobile>(361)318-3990</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20600</id>
+<mls>R26183</mls>
+<house_location>261 W. CR 2170
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$92,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>4000 sq. ft. barn, 10 horse stalls, carport, 9 X 15 storage bldg., satellite dish &amp; controls, roof 4 yrs old, property corners have red west on CR 2170  9/10 mile, property on left, sign at driveway.</house_description>
+
+<school_district>Ricardo</school_district>
+<sub-division>Hamilton Acres</sub-division>
+<approx_size_sqft>1500</approx_size_sqft>
+<approx_acres>9.76</approx_acres>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

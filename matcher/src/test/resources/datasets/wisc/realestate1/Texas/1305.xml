@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jaime Rangel</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>JAIMERANGELC21@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20258</id>
+<mls>15016</mls>
+<house_location>910 Bluebonnet
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$77,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Falcon Village</sub-division>
+<approx_size_sqft>1373</approx_size_sqft>
+<stories>1</stories>
+<year_built>1980</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>3/2/2 Lg. Master Bedroom</item>
+<item>Privacy Fence/Patio in backyard</item>
+<item>T/Hills, Coakley, HSH Schools</item>
+<item>close to hospital/expressway</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Lakeland Realtors</name>
+<location>1011 E. Jefferson Whitney, TX 76692</location>
+<office>(254)694-2111</office>
+<toll_free>(877)677-2121</toll_free>
+<fax>(254)694-2168</fax>
+<email>c21lakelan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Tims</name>
+<office>(254)694-2111</office>
+<fax>(254)694-2168</fax>
+<mobile>(254)602-2222</mobile>
+<email>LoriJTims @aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18696</id>
+<mls>9092918</mls>
+<house_location>307 S. Bosque
+Whitney, TEXAS 76692</house_location>
+<county>Hill</county>
+<price>$79,900</price>
+<bedrooms>5</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>WHAT A LOCATION!  This five bedroom, two and 1/2 bath home sits on .39 acre.  This home features two living areas, CH/A, fenced yard, ceiling fans and much more.  Property has a 31x50 slab with plumbing and is zoned commerical.  All this is located on main highway in Whitney.</house_description>
+
+<move-in_date>8/20/99</move-in_date>
+<school_district>Whitney</school_district>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great Commerical Location</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

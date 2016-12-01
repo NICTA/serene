@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Diane Sanders</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<voice_mail>(512)757-0707</voice_mail>
+<mobile>(512)753-9478</mobile>
+<email>dsanders@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17796</id>
+<mls>5924</mls>
+<house_location>6880 Hwy 621
+San Marcos, TEXAS 78666</house_location>
+<county>Guadalupe</county>
+<price>$335,000</price>
+<bedrooms>6</bedrooms>
+<full_baths>5</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>100 Year old Oak TreesLots of Glass Center Island in KitchenInground Pool</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<approx_size_sqft>3808</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<handicapped_equipped>Yes</handicapped_equipped>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Fenced Yard</item>
+<item>Horses Permitted</item>
+<item>SpaciousRanch Home</item>
+<item>ManyExtras</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

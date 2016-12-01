@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Texas Best Properties</name>
+<location>1604 Industry, Ste. #108 Bastrop, TX 78602</location>
+<office>(512)303-2020</office>
+<toll_free></toll_free>
+<fax>(512)303-6116</fax>
+<email>txbest@flash.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ken Murchison</name>
+<office>(512)303-2020</office>
+<fax>(512)303-6116</fax>
+<mobile>(512)468-3030</mobile>
+<email>txbest@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18751</id>
+<mls>516568</mls>
+<house_location>166 OAK RIDGE
+Bastrop, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$195,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SUPER HOME ON 3.47 acs 1.5 MILES OFF HWY 71 AND ONLY 20 MIN TO AIRPORT. TWO STORY 3/2.5/2 WITH A SWIMMING POOL, WORK SHOP WITH AN OFFICE AND LOTS OF OAK TREES. PRIVATE! ROOM FOR A HORSE! CALL KEN FOR AN APPOINTMENT - 512-784-3030 M/VM.</house_description>
+
+<school_district>Bastrop</school_district>
+<sub-division>Oak Ridge</sub-division>
+<approx_size_sqft>2400</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>3.47</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>CLOSE TO AUSTIN AIRPORT</item>
+<item>BETWEEN BASTROP &amp; AUSTIN</item>
+<item>CONTEMPORARY HOME &amp; POOL</item>
+<item>PRIVATE 3.47 AC W/ WOODS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1951 has 4 bedroom(s), 4 bath(s) .
+Rooms include dining room, family room, master bedroom. Features
+include patio, storage space.</house_description>
+
+<agent_name>Teren Kelsch</agent_name>
+<office>602-997-7324</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>602-997-7324</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$129,900</list_price>
+<location>Phoenix, AZ 85015</location>
+<mls>1454293</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<year_built>1951</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dining/Living Combo, Dishwasher, Eat InKitchen, Guest Room, Pantry, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

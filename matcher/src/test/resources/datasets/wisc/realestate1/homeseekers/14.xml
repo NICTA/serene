@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1976 has 3
+bedroom(s), 2 bath(s) , 2 car garage and approximately 1803 square
+feet of living area. Rooms include dining room, living room, bonus
+room, master bedroom. Features include view, fireplace.</house_description>
+
+<agent_name>Patti Mckelvey</agent_name>
+<direct>619-422-4500</direct>
+<office>619-422-4500</office>
+<firm_name>Mcmillin Realty</firm_name>
+<phone>619-422-4500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$399,900</list_price>
+<location>San Diego, CA 92104</location>
+<mls>99 8003236</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1803 (approx)</square_feet>
+<year_built>1976</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<fireplace>Living Room</fireplace>
+<rooms>Bonus Room, Dining Room, Living Room, Master Bedroom</rooms>
+<view>Valley View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Gazebo
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

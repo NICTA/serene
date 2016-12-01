@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1550 TARAMORE</house_location>
+<price>$119,995</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>249380</mls>
+<house_type>Condominium</house_type>
+<firm>FISCHER MANAGEMENT</firm>
+<firm_phone>(606) 341-4709</firm_phone>
+<agent>R. CASEY HUBER</agent>
+<agent_phone>(606) 341-4709</agent_phone>
+<house_description>NEW FISCHER HOME THE BAINBRIDGE-OPTIONS AVAILABLE MODEL #606-384-0222</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>2</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>16 X 12</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>15 X 23</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+<study><dimension>13 X 12</dimension><level>1</level></study>
+
+<directions>FLORENCE-OFF US 42 CALL 606-384-0222 ANYTIME</directions>
+</house_listing>
+
+
+

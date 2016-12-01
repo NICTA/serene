@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1970 has 4
+bedroom(s), 3 bath(s) , 2 car garage and approximately 2580 square
+feet of living area. Rooms include dining room, family room, living
+room, bonus room, master bedroom. Features include private pool,
+private spa, patio, fireplace.</house_description>
+
+<agent_name>Cheryl Morabito</agent_name>
+<direct>619-435-0161</direct>
+<office>619-435-0135</office>
+<firm_name>Napolitano Realty Better Homes</firm_name>
+<phone>619-435-0135</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$334,900</list_price>
+<location>San Diego, CA 92120</location>
+<mls>99 0000419</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2580 (approx)</square_feet>
+<lot_size>7500</lot_size>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Yes</patio>
+<pool>Heated, In-ground, Lap</pool>
+<rooms>Bonus Room, Dining Room, Family Room, Living Room, Master</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

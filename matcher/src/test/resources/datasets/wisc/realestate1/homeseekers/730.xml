@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This townhouse built in 1986 has 2 bedroom(s), 2 bath(s) , 1 car
+garage. Rooms include master bedroom. Features include patio, air
+conditioning, storage space.</house_description>
+
+<agent_name>David Boyden</agent_name>
+<office>602-942-1410</office>
+<firm_name>West Usa Realty</firm_name>
+<phone>602-942-1410</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$85,000</list_price>
+<location>Phoenix, AZ 85022</location>
+<mls>1465080</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Townhouse</type>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Electric</heating>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher, EatIn Kitchen, Great Room, Microwave, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

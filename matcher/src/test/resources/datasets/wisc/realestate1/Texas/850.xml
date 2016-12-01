@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>David Martinez</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)565-9242</voice_mail>
+<mobile>(956)565-9242</mobile>
+<email>C21HRL2@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21221</id>
+<mls>15179</mls>
+<house_location>2001 Arbor
+Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$65,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Well maintained 4 bedroom home in Haverford subdivision. This home features carpet and vinyl floors, ca/h, storm shutters, built in cabinets in garage, washer/dryerconn., large fenced yard wit dog run.</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Haverford</sub-division>
+<approx_size_sqft>1150</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>63x125</approx_lot_size>
+<master_bedroom>Upstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Two Story</item>
+<item>Motivated Sellers</item>
+<item>Large fenced Yard</item>
+<item>Storm Shutters</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<price>$375,000</price>
+<mls_id_number>133305</mls_id_number>
+<address>4213 SW Westdale Dr</address>
+<city>Portland</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>2917</sqft>
+<year_built></year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage></garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<features><item>Exterior: Porch, Deck, Garden, Patio</item>
+<item>Interior: Security System, Hardwood</item>
+<item>Heating: Oil Forced Air, 2 Wood Fireplac</item>
+<item>Architure: Traditional</item>
+<item>Parking for 2 Cars</item>
+</features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<for_more_information_contact>
+<agent_name>Branch Manager</agent_name>
+<firm_name>Windermere/Cronin &amp; Caplan Realty Group, Inc.</firm_name>
+<firm_location>2424 SW Vista Avenue
+Portland, OR</firm_location>
+<office_phone>(503) 227-5500</office_phone>
+<fax>(503) 227-4174</fax>
+<e-mail>pkaplan@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

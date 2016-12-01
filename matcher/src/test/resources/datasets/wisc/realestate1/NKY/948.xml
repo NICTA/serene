@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>4388 PERSIMMON GROV</house_location>
+<price>$94,900</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248176</mls>
+<house_type>Single Family</house_type>
+<firm>CASSON REALTY</firm>
+<firm_phone>(606) 635-5805</firm_phone>
+<agent>HAZEL CASSON</agent>
+<agent_phone>(606) 635-5805</agent_phone>
+<house_description>SOLD AS IS 1ST FL COMPL REMLD 2ND FL NOT LIVED IN FOR YRS HAD BEEN
+USED AS 2 FMLY MAIN FL; KIT/2 SKYLGHT NEWER CAB RANGE REFRIG MICRO W/D
+WIN UNITS AL L INCLUDED GLASS IN PORCH INTO KIT 17*13 DECK COULD BE
+BEAUTIFUL HOME</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>186*141</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>17 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>16 X 18</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>18 X 13</dimension><level>2</level></bedroom_4>
+<dining><dimension>15 X 12</dimension><level>1</level></dining>
+<laundry><dimension>7 X 8</dimension><level>1</level></laundry>
+<living><dimension>16 X 18</dimension><level>1</level></living>
+<master><dimension>16 X 14</dimension><level>1</level></master>
+
+<directions>RT 10 TO RGT ON PERSIMMON GO PAST JERRY WRIGHT
+RD APPROX 500 FT ON LEFT TO 4388</directions>
+</house_listing>
+
+
+

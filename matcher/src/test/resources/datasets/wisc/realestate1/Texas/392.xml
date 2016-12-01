@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Theresa Seibold</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)896-6589</voice_mail>
+<email>tseibold@remax-ccn-austin-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21015</id>
+<mls>525143</mls>
+<house_location>8910 Mount Bartlett Drive
+Austin, TEXAS 78759</house_location>
+<county>Travis</county>
+<price>$229,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Spacious well designed Townhouse in this highly sought after area of Great Hills.  Lush Landscape; Extended Back Patio &amp; Front Courtyard.  Skylites, Wood Blinds, Master Down, Large Kitchen, Wet Bar, Indoor Utility.  Call Agent:  (512) 896-6589.</house_description>
+
+<move-in_date>12/1/99</move-in_date>
+<school_district>Aisd</school_district>
+<sub-division>Bluffs Of Great Hills</sub-division>
+<approx_size_sqft>2142</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>Avg.</approx_lot_size>
+<year_built>1993</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great Hills/Arboretum Area</item>
+<item>Private Community</item>
+<item>Townhouse</item>
+<item>Spacious</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Ralph Herter</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>ralph@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19703</id>
+<mls>53928</mls>
+<house_location>2100 Lauren Drive
+Spicewood, TEXAS 78669</house_location>
+<county>Burnet</county>
+<price>$469,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>EXQUISITE CUSTOM BUILT HOME OVERLOOKING THE LAKE PROTECTING #2 GREEN OF GOLF COURSE. ONE-STORY HOME BUILT OF TEXAS LIMESTONE. FLAGSTONE FLOORS; GRANITE AND TUMBLED MARBLE COUNTERTOPS; GAS COOKTOP; &amp;quot;SUBZERO&amp;quot; REFRIGERATOR/FREEZER; DOUBLE OVENS. THE COMMUNITY'S ENTRANCE IS STAFFED 24 HOURS A DAY.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Bartoncreek Lakeside</sub-division>
+<approx_size_sqft>2800</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.86</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>CUSTOM BUILT TEXAS LIMESTONE HOME!</item>
+<item>FANTASTIC KITCHEN AND APPLIANCES!</item>
+<item>GOLF LOT WITH VIEW!</item>
+<item>WET BAR, CENTRAL VAC, SATELLITE DISH!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

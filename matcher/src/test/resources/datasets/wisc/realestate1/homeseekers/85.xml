@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1923 has 3 bedroom(s), 3 bath(s) and
+approximately 2065 square feet of living area.</house_description>
+
+<agent_name>Reginald Creasy</agent_name>
+<direct>399-2566</direct>
+<office>303-399-2566</office>
+<firm_name>Metro Brokers-Of Che</firm_name>
+<phone>303-399-2566</phone>
+<fax>303-321-7251</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$379,000</list_price>
+<location>849 E Garfield St</location>
+<neighborhood>Congress Park</neighborhood>
+<mls>385312</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>2065 (approx)</square_feet>
+<year_built>1923</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

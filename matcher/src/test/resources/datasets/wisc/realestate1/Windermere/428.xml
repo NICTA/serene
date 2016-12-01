@@ -1,0 +1,34 @@
+<house_listing>
+<price>$79,900</price>
+<mls_id_number>144643</mls_id_number>
+<city>TILLAMOOK</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1006</sqft>
+<year_built>1942</year_built>
+<heat>Oil Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.11        Acres</lot_size>
+<lot_description>50X100</lot_description>
+<fireplace>0</fireplace>
+<taxes>$611</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Porch,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>LIBERTY</elementary>
+<middle_school>TILLAMOOK</middle_school>
+<high_school>TILLAMOOK</high_school>
+</schools>
+
+</house_listing>
+
+
+

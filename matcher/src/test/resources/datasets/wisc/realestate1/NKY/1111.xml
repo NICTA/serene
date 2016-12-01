@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>530 RAINBOW DR</house_location>
+<price>$54,000</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>CRITTENDEN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249260</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>GREG HICKS</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>BULLOCK PEN LAKEFRONT M/HOME W/ADD-ON. LIVE IN YEAR AROUND OR USE FOR
+SUMMER FUN.</house_description>
+<construction>Alum</construction>
+<heating>Oil</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>LAKEFRONT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>10 X 11</dimension><level></level></kitchen>
+<living><dimension>10 X 12</dimension><level>1</level></living>
+<master><dimension>10 X 10</dimension><level>1</level></master>
+
+<directions>I-75S EXIT 166 R TO L ON 491 WEST 3 MI TO R ON
+RAINBOW DR</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>915 KENDALL</house_location>
+<price>$119,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>(Detached)</garage>
+<suburb>9999</suburb>
+<school_dist>GRANT</school_dist>
+<mls>248077</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>TOM DUNCAN</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>LARGE 7 ROOM HOME ON 10 WOODEN ACRES, LARGE MASTER BATH, DECK, 2 CAR
+DETACHED GARAGE, BLACK TOP DRIVE</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>15 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>15 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>15 X 11</dimension><level>1</level></dining>
+<family><dimension>16 X 15</dimension><level>1</level></family>
+<kitchen><dimension>19 X 15</dimension><level>1</level></kitchen>
+<living><dimension>18 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>75S TO CRITTENDEN,EXIT L TO R ON US25, R ON
+SHERMAN MT ZION,L ON ELLISTON, L KENDA</directions>
+</house_listing>
+
+
+

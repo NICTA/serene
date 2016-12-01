@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>5065 PETERSBURG RD</house_location>
+<price>$309,000</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Attached,Rear,Oversized)</garage>
+<suburb>PETERSBURG</suburb>
+<school_dist>BOONE CTY</school_dist>
+<mls>250056</mls>
+<house_type>Single Family</house_type>
+<firm>COMEY &amp; SHEPHERD INC</firm>
+<firm_phone>(513) 891-4444</firm_phone>
+<agent>SUZETTE NOWLIN</agent>
+<agent_phone>(513) 891-4444</agent_phone>
+<house_description>NOT ONE STEP! HUGE GREAT RM W/DINING AREA DESIGNED FROM 3BDRM, EASILY
+BACK TO 3*TONGUE &amp; GROVE CATH CEILING*12X23 SCREEN PORCH OVERLOOKING 2
+AC POND* MBR W/SEE THRU FIREPLACE*QUALITY IN EVERY WAY! SIT BACK &amp;
+RELAX! *NO SIGN*</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stone,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Cistern</water>
+<sewer>Aerobic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 13</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>30 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 14</dimension><level>1</level></laundry>
+<living><dimension>30 X 16</dimension><level>1</level></living>
+<master><dimension>28 X 14</dimension><level>1</level></master>
+
+<directions>275W TO PETERSBURG EXIT, R ON PETERSBURG RD,
+HOUSE ON LEFT (NO SIGN)</directions>
+</house_listing>
+
+
+

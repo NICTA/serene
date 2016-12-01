@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>39 CRAIGS CREEK</house_location>
+<price>$67,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>SPARTA</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>240249</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(513) 321-3232</firm_phone>
+<agent>BEN DUNCAN</agent>
+<agent_phone>(513) 321-3232</agent_phone>
+<house_description>COUNTRY LIVING AT ITS BEST.NEWER DOUBLE WIDE,EQUIPPED KITCHEN INCLUDES
+OVEN RANGE,DISHWASHER,REFRIGERATOR. SUBJECT BANK OWNED,BEING SOLD
+'AS-IS'.*NO PROPERTY DISCLOSURES!</house_description>
+<construction>Vinyl</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>--</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$--</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>20 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 5</dimension><level>1</level></laundry>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>1</level></master>
+
+<directions>I71 NORTH WARSAW/SPARTA EXIT,LEFT ON RT.
+1130.AREA OF DOUBLE WIDES.</directions>
+</house_listing>
+
+
+

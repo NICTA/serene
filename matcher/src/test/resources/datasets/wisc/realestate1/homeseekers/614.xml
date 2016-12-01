@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1997 has 3 bedroom(s), 2
+bath(s) and approximately 1440 square feet of living area. Features
+include view, storage space.</house_description>
+
+<agent_name>Bryant Keefe</agent_name>
+<direct>520-977-6902</direct>
+<office>520-790-5000</office>
+<firm_name>Flat Fee Realty</firm_name>
+<phone>520-790-5000</phone>
+<fax>520-750-0549</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$119,900</list_price>
+<location>1320 E Duke Dr</location>
+<mls>9920295</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1440 (approx)</square_feet>
+<lot_size>177X115X160</lot_size>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Westfall</name>
+<office>(409)542-1234</office>
+<fax>(409)542-0078</fax>
+<email>leon@westfallrealestate.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20911</id>
+<mls>1050</mls>
+<house_location>261 Edgewood
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$79,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>This property consists of a 2 bedroom, 1 bath, central heat and air brick home with  a 2 bedroom, 1 bath garage appartment.</house_description>
+
+<school_district>Giddings</school_district>
+<approx_size_sqft>1108</approx_size_sqft>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Great rental property</item>
+<item>Ideal for retirement years</item>
+<item>Close to church, shopping etc.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

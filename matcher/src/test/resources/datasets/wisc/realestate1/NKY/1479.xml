@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>1253 MAHER</house_location>
+<price>$124,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Tri-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249326</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>K Y BUDDE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>1.14 AC W/EXTREMELY NICE UPDATED TRI-LEVEL *NEW WINDOWS*SLIDING GLASS
+DOOR SHED*WATER HEATER*GARAGE DOOR &amp; KEYLESS ENTRY *FURNACE,AC &amp; ROOF
+ONLY 3 YRS YOUNG *MUST SEE TO APPRECIATE THIS COUNTRY SETTING W/CITY
+CONVENIENCE *</house_description>
+<construction>Brick,Wood</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>1.14 acre</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>2</level></bedroom_3>
+<family><dimension>25 X 11</dimension><level>1</level></family>
+<kitchen><dimension>17 X 14</dimension><level>1</level></kitchen>
+<living><dimension>11 X 10</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>2</level></master>
+
+<directions>SO RT17 TO RIGHT ON SHAW L INDEPENDENCE RD THIS
+BECOMES MAHER * HOUSE ON LEFT</directions>
+</house_listing>
+
+
+

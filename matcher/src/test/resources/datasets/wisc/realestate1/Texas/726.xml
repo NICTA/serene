@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Linell Jones</name>
+<office>(713)686-6090</office>
+<fax>(713)686-8543</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12840</id>
+<mls>180503</mls>
+<house_location>2318 Hialeah
+Houston, TEXAS 77018</house_location>
+<county>Harris</county>
+<price>$82,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Cozy 3 bedroom 1 bath home on great street! Near T.C. Jester Park. Recent central A?C and Heat. Recent roof. Hardwoods and neutral carpet. Ready for you to redecorate to suit your personal taste.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Oak Forest</sub-division>
+<approx_size_sqft>1034</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>7200</approx_lot_size>
+<year_built>1954</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Wonderful close in locatio</item>
+<item>Desirable Oak Forest</item>
+<item>Large mature trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

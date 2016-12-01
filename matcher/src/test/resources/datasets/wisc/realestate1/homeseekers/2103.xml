@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>Custom built brick home. Open floor plan, upgraded appliances,
+extensive trim package with quality throughout. Oversized 3 garage
+with separate storage. Gas water and heat for added efficiency. High
+ceilings, circular driveway and more. Call for details.</house_description>
+
+<agent_name>Tracy Meyer</agent_name>
+<direct>757-438-2684</direct>
+<office>757-481-1066</office>
+<firm_name>The Prudential Decker Realty The Prudential Decker Realty</firm_name>
+<phone>757-481-1066</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$459,500</list_price>
+<location>Virginia Beach, VA 23454</location>
+<mls>0001561</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<style>Contemporary, Ranch</style>
+<square_feet>3400 (approx)</square_feet>
+<lot_size>187 X 157</lot_size>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<rooms>Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic Fan, Breakfast Room, Cable TV, Ceiling Fan(s), ContemporaryStyle, Foyer, Microwave, Office, Pantry, Ranch Style, Utility Room,Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

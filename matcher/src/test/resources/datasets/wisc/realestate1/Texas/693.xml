@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tim Kress</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)331-6644 x123</voice_mail>
+<email>txrealtor1@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21567</id>
+<mls>528182</mls>
+<house_location>1506 White Oak Loop
+Round Rock, TEXAS 78681</house_location>
+<county>Williamson</county>
+<price>$114,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great Home with large Backyard.  Has High Ceilings &amp; Open Floor Plan.  Fireplace in Family, Garden Tub &amp; Double Vanities in Master Bath.  Excellent Home.</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Woods</sub-division>
+<approx_size_sqft>1742</approx_size_sqft>
+<stories>1</stories>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Large Backyard</item>
+<item>Open Floor Plan</item>
+<item>High Ceilings</item>
+<item>Great Condition</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

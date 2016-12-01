@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maryam Gharbi</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5964</voice_mail>
+<email>lake@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>5956</id>
+<mls></mls>
+<house_location>Rain Creek
+Austin, TEXAS</house_location>
+<county>Travis</county>
+<price>$219,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Model home quality! Ceramic tlie entry, hardwood flooring in 2nd living area, huge master suite with oversized shower, 4th bedroom could be a gameroom, garden yard with double deck.</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>Great Hills</sub-division>
+<approx_size_sqft>2839</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>60x112</approx_lot_size>
+<year_built>1990</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Lots Of Upgrdes!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

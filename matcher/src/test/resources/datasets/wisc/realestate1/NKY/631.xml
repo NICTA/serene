@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>605 HIGHLAND</house_location>
+<price>$83,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>250169</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>KAREN BEAGLE</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>3 BEDRM PLUS STUDY W/OFF STREET PARKING, LARGE BACKYARD. OWNER WILL
+ALLOW FOR CARPET/TILE EXPENSE. WITH A LITTLE TLC, THIS COULD BE A
+GREAT HOME. IMMEDIATE OCCUPANCY.</house_description>
+<construction>Brick,Stone</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>12 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 12</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<living><dimension>16 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 12</dimension><level>1</level></master>
+
+<directions>DIXIE HWY TO KYLES LANE TO LEFT ON HIGHLAND.</directions>
+</house_listing>
+
+
+

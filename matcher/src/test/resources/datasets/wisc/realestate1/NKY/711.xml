@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>119 W 15TH</house_location>
+<price>$34,900</price>
+<rooms>9</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-1</baths>
+<levels>3 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247653</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>BUTCH MAGNER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description></house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air,Space Heater</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30X90</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>3</level></bath_3>
+<bedroom_2><dimension>18</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>18 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>18 X 15</dimension><level>3</level></bedroom_4>
+<bedroom_5><dimension>18 X 18</dimension><level>3</level></bedroom_5>
+<dining><dimension>18 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>18 X 12</dimension><level>1</level></kitchen>
+<living><dimension>18 X 15</dimension><level>1</level></living>
+<master><dimension>18 X 15</dimension><level>2</level></master>
+<study><dimension>10 X 10</dimension><level>3</level></study>
+
+<directions>SOUTH ON HOLMAN TO L ON W. 15TH STREET</directions>
+</house_listing>
+
+
+

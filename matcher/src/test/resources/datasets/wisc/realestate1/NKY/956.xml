@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>607 MARY INGLES</house_location>
+<price>$575,000</price>
+<rooms>14</rooms>
+<bedrooms>5</bedrooms>
+<baths>3-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Side,Heated)</garage>
+<suburb>COLD SPRING</suburb>
+<school_dist>CAMP CO</school_dist>
+<mls>247912</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>DEBBIE COFFMAN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>EXTRAORDINARY PROPERTY. 8 BEAUTIFUL ACRES. STOCKED POND OFF MBR SUITE.
+ARCHITECURAL SUPERIORITY! THIS PROP. IS ONLY 6 MI TO DWNTWN CINCY.
+AWESOME RIVERVIEWS. 2 HEAT SYSTEMS, GOURMET KIT, 2 HOME OFFICES,
+ENTERTAINERS DREAM</house_description>
+<construction>Cedar</construction>
+<heating>Electric,Heat Pump,Baseboard</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Marble</fireplace>
+<gas>None</gas>
+<water>Cistern,Wellwater</water>
+<sewer>Septic</sewer>
+<lot_dimensions>530X650</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_3><dimension>17 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 12</dimension><level>L</level></bedroom_4>
+<bedroom_5><dimension>13 X 11</dimension><level>L</level></bedroom_5>
+<dining><dimension>18 X 11</dimension><level>1</level></dining>
+<family><dimension>26 X 20</dimension><level>L</level></family>
+<kitchen><dimension>19 X 18</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 8</dimension><level>L</level></laundry>
+<living><dimension>45 X 25</dimension><level>1</level></living>
+<master><dimension>30 X 19</dimension><level>1</level></master>
+<recreation_room><dimension>30 X 28</dimension><level>L</level></recreation_room>
+<study><dimension>18 X 11</dimension><level>1</level></study>
+
+<directions>MARY INGLES HGWY-1998 TO LT ON RT 8 WHICH IS
+MARY INGLES HGWY-SIGN ON LEFT</directions>
+</house_listing>
+
+
+

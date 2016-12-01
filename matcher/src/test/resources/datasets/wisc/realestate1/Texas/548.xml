@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Marlene Clark</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email>marlene@eazylink.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11097</id>
+<mls></mls>
+<house_location>4602 27th
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$79,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Sparkling pool &amp; spa - Updated - Berber carpet - Large gameroom with wetbar - Large country kitchen overlooks pool - Double oven - Carport has a garage door, but is open on yard end.  Utility room is in house.</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Nicholstone</sub-division>
+<approx_size_sqft>1862</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>9000 sq.ft.</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Sparkling pool</item>
+<item>Hot tub on covered patio</item>
+<item>Corner lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

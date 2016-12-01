@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judith Hallowell</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email>hallowell@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20652</id>
+<mls>9122209</mls>
+<house_location>2600 Acton Hwy (Ad # 555)
+Granbury, TEXAS 76049-6102</house_location>
+<county>Hood</county>
+<price>$120,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Spacious home on 2.78 acres with fruit orchard on side &amp; front.  Large covered porch, 2 living areas, 2 dining areas, 7 ceiling fans &amp; a beautiful brick fireplace in the family room.  Beautiful grounds &amp; spacious home will make a showplace.</house_description>
+
+<school_district>Granbury</school_district>
+<approx_size_sqft>1892</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>225x560x228x523</approx_lot_size>
+<approx_acres>2.78</approx_acres>
+<year_built>1973</year_built>
+<master_bedroom>N/A</master_bedroom>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>2.78 Acres &amp; Fruit Orchard</item>
+<item>Spacious Rooms &amp; Covered Porch</item>
+<item>Ceiling Fans &amp; 2 Living Areas</item>
+<item>Ad # 555</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

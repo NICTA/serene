@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>3816 GLENN</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249280</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>SANDY JACKSON</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>NICE HOME*CONVENIENT LOCATION-CLOSE TO SCHOOL &amp; SHOPPING*NEWER C/A,
+FURNACE HWH, GUTTERS*A GREAT BUY*PRICED TO SELL QUICKLY*EASY TO SHOW.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<dining><dimension>15 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 7</dimension><level>1</level></kitchen>
+<living><dimension>12 X 12</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>2</level></master>
+
+<directions>WINSTON AVE (DECOURSEY) EAST ON SOUTHERN RIGHT
+ON GLENN AVENUE</directions>
+</house_listing>
+
+
+

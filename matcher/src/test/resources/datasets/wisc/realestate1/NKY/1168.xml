@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>480 CASE LANE</house_location>
+<price>$165,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>CRITTENDEN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249482</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>JUDY HIBRANDT-ROBIN</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>CHARMING, PRIVATE CONTEMPORARY 3-4BD HOME ON ALMOST 3 ACRES. OPEN FLR
+PLAN CEILING FANS, DECK, BALCONY, 2 STALL HORSE BARN W/FENCED
+PADDOCKS, BUILT-IN GARAGE, CITY WATER, PIPED FOR FIREPLACE. MINS FROM
+1-75. HURRY!!!!</house_description>
+<construction>Wood</construction>
+<heating>Gas,Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0000000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>15 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>15 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>22 X 14</dimension><level>L</level></family>
+<kitchen><dimension>12 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>1</level></laundry>
+<living><dimension>15 X 11</dimension><level>1</level></living>
+<master><dimension>15 X 10</dimension><level>U</level></master>
+
+<directions>I-75S TO CRITTENDEN EXIT. L OFF RAMP TO L ON US
+25N TO R ON CASE LANE.</directions>
+</house_listing>
+
+
+

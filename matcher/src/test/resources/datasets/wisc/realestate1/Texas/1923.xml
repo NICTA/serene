@@ -1,0 +1,68 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>Denis Roederer</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<voice_mail>(281)444-0551 26</voice_mail>
+<mobile>(281)630-9016</mobile>
+<email>denis@flashnet</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12017</id>
+<mls>161885</mls>
+<house_location>8223 Kimstone Ln.
+Houston, TEXAS 77379</house_location>
+<county>Harris</county>
+<price>$259,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>OPEN! Brick Beauty with many updates- Living, Gameroom, Study-1 Bedroom with built-ins.  Ample master suite overlooks heated pool with water fall and spa!!  Gourmet kitchen, zoned heat plus AC, sprinklers, security system, dual thermo windows, Schlage Hardwood/Wet Bars, in Kitchen and Gameroom!!</house_description>
+
+<move-in_date>12/11/98</move-in_date>
+<school_district>Klein Isd</school_district>
+<sub-division>Champion Forest</sub-division>
+<approx_size_sqft>3892</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>9000</approx_lot_size>
+<year_built>1990</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Master Down w/French Doors overlooking pool</item>
+<item>Many Updates and Built-Ins</item>
+<item>Zoned AC</item>
+<item>GREAT Location</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

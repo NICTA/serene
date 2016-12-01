@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1970 has 5 bedroom(s), 1 bath(s) and
+approximately 1875 square feet of living area.</house_description>
+
+<agent_name>Tim Basson</agent_name>
+<direct>303-908-0416</direct>
+<office>303-671-9311</office>
+<firm_name>United Property Bk</firm_name>
+<phone>303-671-9311</phone>
+<fax>303-694-2520</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$131,000</list_price>
+<location>5540 Zion Ct</location>
+<neighborhood>Montbello</neighborhood>
+<mls>382981</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1875 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

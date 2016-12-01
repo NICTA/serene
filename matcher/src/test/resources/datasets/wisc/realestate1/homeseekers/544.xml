@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1977 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 2819 square feet of living
+area. Features include view, patio, fireplace, air conditioning,
+storage space.</house_description>
+
+<agent_name>Darrell Obert</agent_name>
+<direct>520-885-4108</direct>
+<office>520-881-8110</office>
+<firm_name>Century 21 Heritage Realty Century 21 Heritage Realty</firm_name>
+<phone>520-881-8110</phone>
+<fax>520-881-8113</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$350,000</list_price>
+<location>4302 W El Camino Del Cerro</location>
+<mls>2000040</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2819 (approx)</square_feet>
+<year_built>1977</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

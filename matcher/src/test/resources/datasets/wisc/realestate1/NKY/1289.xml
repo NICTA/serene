@@ -1,0 +1,54 @@
+<house_listing>
+<house_location>1792 RIVER HEIGHTS</house_location>
+<price>$995,000</price>
+<rooms>17</rooms>
+<bedrooms>5</bedrooms>
+<baths>5-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Builtin,Side,Oversized)</garage>
+<suburb>VILLA HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246017</mls>
+<house_type>Single Family</house_type>
+<firm>HUNTER HAAS &amp; BROKER</firm>
+<firm_phone>(513) 751-1200</firm_phone>
+<agent>TRACY COHEN</agent>
+<agent_phone>(513) 751-1200</agent_phone>
+<house_description>17 SPACIOUS RMS OF UNSURPASSED QUALITY &amp; DESIGN HERALDED BY INCREDIBLE
+CITY &amp; RIVER VIEWS! SPORT COURT,POOL,BILLIARD RM,LAVISH GARDENS,
+FIREPLACES AND DECKS IN LUXURIOUS PRIVACY! TRULY A 'SENHAUSER'
+ORIGINAL! CALL FOR SHOWING.</house_description>
+<construction>Other</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>3 acres</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$3247.50</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>FULL</dimension><level>L</level></bath_4>
+<bedroom_2><dimension>13 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 17</dimension><level>L</level></bedroom_4>
+<breakfast><dimension>13 X 13</dimension><level>1</level></breakfast>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<family><dimension>17 X 28</dimension><level>L</level></family>
+<kitchen><dimension>19 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>16 X 10</dimension><level>1</level></laundry>
+<living><dimension>20 X 17</dimension><level>1</level></living>
+<master><dimension>24 X 14</dimension><level>1</level></master>
+<study><dimension>13 X 12</dimension><level>1</level></study>
+
+<directions>BUTTERMILK TO RT ON COLLINS TO RT ON AMSTERDAM
+TO HIGHWATER TO RIVER HEIGHTS</directions>
+</house_listing>
+
+
+

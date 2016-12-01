@@ -1,0 +1,47 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jessica Garza</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21023</id>
+<mls>R26196</mls>
+<house_location>1184 S US HWY 77
+Bishop, TEXAS 78343</house_location>
+<county>Nueces</county>
+<price>$85,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>6</garage_spaces>
+
+<house_description>Large house with a bonus room.  Has 3 big seperate garages with electricity in 2.  Nice oak hardwood floor.  Built in china cabinet.  Off of Hwy 77 in Bishop.  It is close to the new gas station at the Y in Bishop - Uncle Sams.</house_description>
+
+<school_district>Bishop</school_district>
+<sub-division>Bishop Subdivision</sub-division>
+<approx_size_sqft>2733</approx_size_sqft>
+<approx_acres>1.92</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

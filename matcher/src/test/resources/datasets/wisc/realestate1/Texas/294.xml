@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Westbank Realty</name>
+<location>3355 Bee Caves Road, Suite 304 Austin, TX 78746</location>
+<office>(512)327-3200</office>
+<toll_free></toll_free>
+<fax>(512)306-0424</fax>
+<email>westbank21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tara Fatteh</name>
+<office>(512)327-3200</office>
+<fax>(512)306-0424</fax>
+<mobile>(512)633-0958</mobile>
+<email>TarannumFatteh@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21243</id>
+<mls>527277</mls>
+<house_location>1600 Diana Dr
+in North Round Rock, TEXAS 78664</house_location>
+<county>Williamson</county>
+<price>$144,950</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful floorplan; upgrades; hill country views; bright open kitchen; open ceilings; call TARA for more information 512-633-0958.</house_description>
+
+<school_district>Round Rock, Forest, Deerpark, Mcneil</school_district>
+<sub-division>Springridge</sub-division>
+<to_be_built>Yes</to_be_built>
+<approx_size_sqft>2500</approx_size_sqft>
+<stories>2</stories>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Beautiful floor plan</item>
+<item>Beautiful hill country views</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

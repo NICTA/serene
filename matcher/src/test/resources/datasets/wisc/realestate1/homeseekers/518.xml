@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1999 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 2195 square
+feet of living area. Rooms include den, bonus room, master bedroom.
+Features include patio, air conditioning.</house_description>
+
+<agent_name>Abra Kranitz-Bowles</agent_name>
+<direct>520-299-7780</direct>
+<office>520-292-2082</office>
+<firm_name>Monterey Homes</firm_name>
+<phone>520-292-2082</phone>
+<fax>520-292-5051</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$184,111</list_price>
+<location>3381 N Camino La Jicarrilla #39</location>
+<mls>9919022</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2195 (approx)</square_feet>
+<lot_size>45 90 45 90</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

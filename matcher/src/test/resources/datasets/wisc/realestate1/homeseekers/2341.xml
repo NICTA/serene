@@ -1,0 +1,33 @@
+<house_listing>
+<house_description>This single family home has 2 bedroom(s), 1 bath(s) and approximately
+1140 square feet of living area.</house_description>
+
+<agent_name>Thomas Lavoie</agent_name>
+<office>603-888-3990</office>
+<firm_name>Prudential Crain/Dw Prudential Crain/Dw</firm_name>
+<phone>603-888-3990</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$49,900</list_price>
+<location>Washington, NH 03280</location>
+<mls>743175</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<type>Single Family</type>
+<square_feet>1140 (approx)</square_feet>
+<lot_size>38000</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Space heater</heating>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Landscaped
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

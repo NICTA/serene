@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1925 has 1 bedroom(s), 1
+bath(s) , 1 car detached garage and approximately 474 square feet of
+living area. Rooms include family room. Features include patio.</house_description>
+
+<agent_name>Ken Lewis</agent_name>
+<direct>509-487-0630</direct>
+<firm_name>
+Centennial, Realtors, Bh &amp; G</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$48,000</list_price>
+<location>2203 Glass</location>
+<mls>9924877</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>474 (approx)</square_feet>
+<lot_size>50X129</lot_size>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Patio</patio>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, RV/Boat Parking
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

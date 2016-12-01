@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1986 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1392 square feet of living
+area. Features include view, patio, air conditioning, storage space.</house_description>
+
+<agent_name>David Rheubottom</agent_name>
+<direct>520-861-6054</direct>
+<office>520-326-1122</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-326-1122</phone>
+<fax>520-325-8784</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$145,000</list_price>
+<location>219 N Ashbury Ln</location>
+<mls>9920603</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1392 (approx)</square_feet>
+<year_built>1986</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

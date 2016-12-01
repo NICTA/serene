@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This attached single family home built in 1900 has 3 bedroom(s), 1
+bath(s) and approximately 1329 square feet of living area.</house_description>
+
+<agent_name>Rosie Runge</agent_name>
+<direct>758-7611</direct>
+<office>303-758-7611</office>
+<firm_name>Devonshire</firm_name>
+<phone>303-758-7611</phone>
+<fax>303-377-4733</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$149,000</list_price>
+<location>1914 17Th Av</location>
+<neighborhood>City Park West, Midtown</neighborhood>
+<mls>383799</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1329 (approx)</square_feet>
+<year_built>1900</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

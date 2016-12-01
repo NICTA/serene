@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kristi Wood</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 32</voice_mail>
+<email>starsinger@kltymail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13580</id>
+<mls>9012812</mls>
+<house_location>1296 FR 56S
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$69,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Well cared for doublewide manufactured home on top of a hill with spectacular views to the southwest and northeast of the surrounding countryside.  Heavily brushed.  Has loads of storage with a play house, a shed and a small house used as a storage building.  Come and relax on the covered rear deck.</house_description>
+
+<school_district>Glen Rose</school_district>
+<sub-division>Pruitt</sub-division>
+<stories>1</stories>
+<approx_acres>6.61</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Beautiful views</item>
+<item>Heavily brushed</item>
+<item>Lots of storage</item>
+<item>Private location</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

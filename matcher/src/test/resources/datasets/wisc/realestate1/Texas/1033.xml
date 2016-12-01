@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>BROUSSARDS INVESTMENTS, INC.</name>
+<location>3625 E. Lockwood Houston, TX 77026</location>
+<office>(713)673-2927</office>
+<toll_free></toll_free>
+<fax>(713)673-1610</fax>
+<email>wjb37@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Wilfred Broussard</name>
+<office>(713)673-2927</office>
+<fax>(713)673-1610</fax>
+<email>wjb37@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11224</id>
+<mls>347455</mls>
+<house_location>3604 Lockwood
+Houston, TEXAS 77026</house_location>
+<county>Harris</county>
+<price>$20,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Fixer upper on main street. Both residential and commercial possibilities</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Benny Brown</sub-division>
+<approx_size_sqft>1013</approx_size_sqft>
+<stories>1</stories>
+<year_built>1940</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>residential /commercial</item>
+<item>spacious lot</item>
+<item>fixer upper</item>
+<item>owner anxious</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

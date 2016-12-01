@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This single family home built in 1982 has 3 bedroom(s), 2 bath(s) , 4
+car detached garage and approximately 3145 square feet of living area.
+Rooms include dining room, family room. Features include view, private
+pool, air conditioning.</house_description>
+
+<agent_name>D. Marcia Jones</agent_name>
+<direct>729-8582</direct>
+<office>688-8166</office>
+<firm_name>Not Just Another R
+Lic. Real Estate Broker</firm_name>
+<phone>688-8166</phone>
+<fax>305-688-6827</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$295,000</list_price>
+<location>14920 S River Dr</location>
+<neighborhood>Biscayne Gdns Sec F Part</neighborhood>
+<mls>M759824</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>3145 (approx)</square_feet>
+<lot_size>100 X 515</lot_size>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Lake front, Water front</location>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room</rooms>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Fenced, Outdoor Lights, Roman Tub, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

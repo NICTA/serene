@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18288</id>
+<mls>14682</mls>
+<house_location>Zillock Rd
+San Benito, TEXAS 78586</house_location>
+<county>Cameron</county>
+<price>$54,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Unfinished Construction.  Home has frame, roof, slab.  All of it is enclosed.  Needs sheetrock, plumbing, electrical, &amp; brick to finish home.  Needs all of inside to complete construction.  Home sits on nice 1 acre!</house_description>
+
+<school_district>San Benito</school_district>
+<sub-division>Zillock Ranch</sub-division>
+<approx_size_sqft>1665</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1.02</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+
+<highlights>
+<item>Big Home</item>
+<item>Country Area</item>
+<item>All on 1 Acre!</item>
+<item>Motivated Seller</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

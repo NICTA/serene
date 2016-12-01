@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1983 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 3 car garage. Rooms include dining room,
+family room, master bedroom. Features include view, private pool,
+private spa, patio, fireplace, skylights.</house_description>
+
+<agent_name>Carol J. Lynch</agent_name>
+<office>480-948-0550</office>
+<firm_name>John Hall &amp; Associates</firm_name>
+<phone>480-948-0550</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$449,000</list_price>
+<location>Phoenix, AZ 85020</location>
+<mls>1447979</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<year_built>1983</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Multi Zoned</heating>
+<fireplace>Family Room, Master Bedroom</fireplace>
+<location>Corner, Cul-de-sac</location>
+<patio>Covered</patio>
+<pool>Diving</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Cable TV, Ceiling Fan(s), Dishwasher, Library, Pantry,Skylights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This property is currently being totally renovated! Refinishing
+hardwood, painting thru-out, new carpeting, some new windows
+downstairs. Smoke damage upstairs will be completely renovated.
+Repairs to be completed by the end of december 1999.</house_description>
+
+<agent_name>Carroll Gray</agent_name>
+<direct>622-7235</direct>
+<office>757-623-2500</office>
+<firm_name>Long &amp; Foster Real Estate, Inc</firm_name>
+<phone>757-623-2500</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$69,900</list_price>
+<location>Norfolk, VA 23508</location>
+<mls>9932806</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<style>Traditional</style>
+<square_feet>1350 (approx)</square_feet>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Open Porch</patio>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Breakfast Room, Cable TV, Ceiling Fan(s), Fenced, StorageSpace, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

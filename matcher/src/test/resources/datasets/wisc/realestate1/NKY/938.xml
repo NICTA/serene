@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>9 DRIFTWOOD CT</house_location>
+<price>$113,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front,Oversized)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>247864</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 STEVE MORRIS REALTY</firm>
+<firm_phone>(606) 441-5333</firm_phone>
+<agent>DINA GIBSON</agent>
+<agent_phone>(606) 441-5333</agent_phone>
+<house_description>FIN LL W/NEWER CRPT, OVERSIZED GAR W/WORK BENCH &amp; ADD'L STORAGE.
+EQUIPPED KIT, 2 TIERED DECK OFF BACK PLUS 14X22 YARD DECK
+W/BENCH.C-D-S LOT. WATER SOFTENER &amp; SAT. DISH NOT INCLUDED. EXTRA
+PARKING PAD ADDED TO DRIVEWAY.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>86X129</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_3><dimension>9 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<family><dimension>22 X 11</dimension><level>L</level></family>
+<kitchen><dimension>10 X 7</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 5</dimension><level>L</level></laundry>
+<living><dimension>14 X 10</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>RTE 10 TO BROOKWOOD, LT ON CHERRYWOOD, LT ON
+DRIFTWOOD</directions>
+</house_listing>
+
+
+

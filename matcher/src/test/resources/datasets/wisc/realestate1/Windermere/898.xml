@@ -1,0 +1,34 @@
+<house_listing>
+<price>$115,000</price>
+<mls_id_number>158677</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1512</sqft>
+<year_built>1998</year_built>
+<heat>Electric Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>SHINGLE</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description>104.52X94.06</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Deck,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>EASTWOOD</elementary>
+<middle_school></middle_school>
+<high_school>ROSEBURG</high_school>
+</schools>
+
+</house_listing>
+
+
+

@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Broumley</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<email>staff@c21quadj.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20703</id>
+<mls>9122537</mls>
+<house_location>402 Kid Street
+Iredell, TEXAS 76649</house_location>
+<county>Bosque</county>
+<price>$38,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Nice older home with large trees.Needs some updating.Quiet community of Iredell.</house_description>
+
+<school_district>Iredell</school_district>
+<approx_size_sqft>1564</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>50X242</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Beautiful Trees on Lot</item>
+<item>Quiet Community</item>
+<item>Well Cared for Older Home</item>
+<item>Gameroom Included</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

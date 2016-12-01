@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>3102 FRAZIER</house_location>
+<price>$28,900</price>
+<rooms>3</rooms>
+<bedrooms>1</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249714</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>CHRIS LANDERS</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>GOOD INVESTMENT,3 ROOM SHOTGUN,FRONT RM BDRM,NICE PORCH,LARGE KITCHEN
+WALK OUT TO SMALL REAR YD, WALK-OUT BSMT BTH IN LL, VINYL SIDING AND
+NEW EXTERIOR STEEL DOORS. NOT A BAD INVESTMENT.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<kitchen><dimension>12 X 15</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>DECOURSEY TO FRAZIER ACROSS FROM WACO SHELL AND
+ASHLEY RESTURANT</directions>
+</house_listing>
+
+
+

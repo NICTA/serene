@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Lloyd Barnes</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)558-1417</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16406</id>
+<mls>5465</mls>
+<house_location>718 1/2 S. Walnut
+Luling, TEXAS 78648</house_location>
+<county>Caldwell</county>
+<price>$60,500</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This 1 Bedroom/1.5 Bath home is located in a great neighborhood.  Large living area, study, and spacious master bedroom.  Must See!!</house_description>
+
+<school_district>Luling</school_district>
+<approx_size_sqft>1343</approx_size_sqft>
+<approx_lot_size>65x41</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+
+<highlights>
+<item>Home located in a great neighborhood.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

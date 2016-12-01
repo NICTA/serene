@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Emily Prowell</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)371-1758</mobile>
+<email>eprowell@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21077</id>
+<mls>9127482</mls>
+<house_location>102 Pleasant Wood Circle
+Weatherford, TEXAS 76086</house_location>
+<county>Parker</county>
+<price>$141,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Immaculate 3 bedroom, 2 bath brock home located on a corner lot in quiet, newer subdivision.  Home features a nice large kitchen, extra large utility room, split bedroom arrangement, fireplace, wooden blinds, 10 foot ceilings and many more features too numerous to mention.  Extra clean, ready to move right in!  Convenient to schools, shopping and I-20 access.  Call today to see this lovely home.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Estates Of Timber Creek</sub-division>
+<approx_size_sqft>1809</approx_size_sqft>
+<stories>1</stories>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

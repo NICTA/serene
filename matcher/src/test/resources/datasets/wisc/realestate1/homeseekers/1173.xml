@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 3+ level attached home built in 1981 has 2 bedroom(s), 2.5
+bath(s) , 2 car garage and approximately 1248 square feet of living
+area. Rooms include family room, living room, master bedroom. Features
+include view, private spa, fireplace.</house_description>
+
+<agent_name>Cindy Wing</agent_name>
+<direct>619-223-9464</direct>
+<office>619-222-0555</office>
+<firm_name>Prudential California Realty Prudential California Realty</firm_name>
+<phone>619-222-0555</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$349,000</list_price>
+<location>San Diego, CA 92103</location>
+<mls>00 6000210</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2.5</baths>
+<levels>3 or more</levels>
+<garage>2</garage>
+<type>Townhouse/Condo</type>
+<square_feet>1248 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Wall Unit</heating>
+<fireplace>Living Room</fireplace>
+<rooms>Family Room, Living Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Bay View, Ocean View, Panoramic View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

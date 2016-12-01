@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1987 has 2 bedroom(s), 2 bath(s) , 1 car
+detached garage and approximately 1169 square feet of living area.
+Features include air conditioning.</house_description>
+
+<agent_name>Vicki F. Miller</agent_name>
+<direct>305-531-6061</direct>
+<office>531-5803</office>
+<firm_name>The Keyes Company,
+Lic. Real Estate Broker</firm_name>
+<phone>531-5803</phone>
+<fax>305-538-7018</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$230,000</list_price>
+<location>400 S Pointe Dr #802</location>
+<neighborhood>South Pointe Towers Condo</neighborhood>
+<mls>M743398</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>1169 (approx)</square_feet>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Bay front, Water front</location>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Intercom System, Ocean Access, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

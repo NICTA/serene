@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kim Hodge</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>kim@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19748</id>
+<mls>53970</mls>
+<house_location>730 County Road 330
+Burnet, TEXAS 78611</house_location>
+<county>Burnet</county>
+<price>$125,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GEODESIC DOME HOUSE ON LOVELY HILLTOP. IN THE COUNTRY, YET CLOSE TO CITY AMENITIES! ROCK WALKWAYS, ARBOR, FRUIT TREES, SWING SET AND WONDERFUL VIEWS OF THE HILL COUNTRY!  COMPLETELY FENCED; WORKSHOP; LOW ENERGY BILLS AND MUCH MORE!</house_description>
+
+<school_district>Burnet</school_district>
+<approx_size_sqft>1694</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>6.5</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>APPROXIMATELY 6.5 ACRES IN COUNTRY!</item>
+<item>ENERGY EFFICIENT GEODESIC DOME HOME!</item>
+<item>BLUEBONNETS GALORE IN THE SPRING!</item>
+<item>GREAT VIEWS OF THE HILL COUNTRY!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

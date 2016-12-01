@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1914 has 3 bedroom(s), 1
+bath(s) , 2 car garage. Rooms include dining room, master bedroom.</house_description>
+
+<agent_name>Mark Drummond</agent_name>
+<direct>202-546-7759</direct>
+<office>202-232-3973</office>
+<firm_name>Habitat Real Estate, Inc.</firm_name>
+<phone>202-232-3973</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$235,000</list_price>
+<location>Washington, DC 20010</location>
+<mls>DC3092457</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Townhouse</type>
+<lot_size>2997</lot_size>
+<year_built>1914</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

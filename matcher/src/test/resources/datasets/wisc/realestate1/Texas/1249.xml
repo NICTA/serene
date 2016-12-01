@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Verna</email>
+</firm_information>
+
+<agent_information>
+<name>Adams</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)242-6500</voice_mail>
+<mobile>(713)824-0228</mobile>
+<email>vernaadams@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14487</id>
+<mls>197543</mls>
+<house_location>16707 Ruidosa
+Missouri City, TEXAS 77053</house_location>
+<county>Fort Bend</county>
+<price>$48,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<house_description>Quiet Cul-De-Sac. Front Porch. Wood Burning Fireplace. Gas Heat,Stove,Water heater.Covered Patio. Storage Shed. 3 Ceiling Fans. Open Den and Dinning.</house_description>
+
+<move-in_date>2/24/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Benchmark</sub-division>
+<approx_size_sqft>1027</approx_size_sqft>
+<stories>1</stories>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Quiet Cul-De-Sac.</item>
+<item>Front Porch.</item>
+<item>Wood Burning Fireplace</item>
+<item>Gas heat, stove, and water heater</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>1750 HWY US 127,S</house_location>
+<price>$167,500</price>
+<rooms>11</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>O</suburb>
+<school_dist>OWEN</school_dist>
+<mls>246542</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>HARRY GAUSPOHL</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>MULTI-USE PROPERTY THAT IS IN EXCELLENT CONDITION.OFFERS LG BRICK
+RANCH HME ON 2.4 ACRES W/ADJOINING RESIDENCE/OFFICE BLDG AND DETACHED
+2 CAR GARAGE 24X32 W/WORKSHOP.ONLY 1 MILE F/TOWN ON HWY 127.GREAT BUY
+FOR RIGHT PARTY</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>321x350</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 8</dimension><level>1</level></dining>
+<family><dimension>23 X 20</dimension><level>1</level></family>
+<kitchen><dimension>20 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>25 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+<study><dimension>31 X 24</dimension><level>1</level></study>
+
+<directions>HWY 35 OR RT 22 TO HWY 127</directions>
+</house_listing>
+
+
+

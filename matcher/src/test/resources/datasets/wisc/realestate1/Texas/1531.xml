@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>COUNTYWIDE REALTY</name>
+<location>300 S. Colorado St. Lockhart, TX 78644</location>
+<office>(512)398-7148</office>
+<toll_free></toll_free>
+<fax>(512)398-4160</fax>
+<email>amelia_cw@centuryinter.net</email>
+</firm_information>
+
+<agent_information>
+<name>Irene Yanez</name>
+<office>(512)398-7148</office>
+<fax>(512)398-4160</fax>
+<email>irene_cw@centuryinter.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17634</id>
+<mls></mls>
+<house_location>1423 W. SAN ANTONIO ST.
+Lockhart, TEXAS 78644</house_location>
+<county>Caldwell</county>
+<price>$86,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>LARGE SPACIOUS FRONT ROOM, LARGE DINING ROOM &amp; LARGE KITCHEN. THREE BEDROOM, 1 1/2 BATH, TWO CAR ENCLOSED GARAGE. THERE IS ALSO ANOTHER LARGE 1 CAR GARAGE WITH A WORKSHOP AREA. ALL BRICK HOME SITTING ON 1/2 ACRE LOT. NEEDS SOME WORK. OUTSIDE OF HOME PAINTED LAST SUMMER.</house_description>
+
+<move-in_date>7/21/99</move-in_date>
+<school_district>Lockhart</school_district>
+<approx_size_sqft>2024</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>21419</approx_lot_size>
+<year_built>1963</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>BRICK EXTERIOR</item>
+<item>SOME HARDWOOD FLOORS</item>
+<item>FENCED YARD</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

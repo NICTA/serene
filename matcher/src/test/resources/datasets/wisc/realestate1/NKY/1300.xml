@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>961 WOODCHUCK</house_location>
+<price>$294,900</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>VILLA HILLS</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247332</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>SHARON HILINSKI</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>COLOR INTERIOR PHOTOS WWW.SIBCYCLINE.COM*LOTS OF UPGRADES*GOURMET KIT
+W/42' WHITE CABINETS*STUDY W/MARBLE FP &amp; BUILT IN BOOKSHELVES*MASTER
+W/LUXURY BATH &amp; SITTING RM*FIN LL W/REC RM &amp; WET BAR*LOTS OF
+STORAGE*$5000 ALLOWANCE</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>11 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 12</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>10 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 14</dimension><level>1</level></dining>
+<family><dimension>14 X 19</dimension><level>1</level></family>
+<kitchen><dimension>10 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 11</dimension><level>1</level></laundry>
+<master><dimension>14 X 18</dimension><level>1</level></master>
+<recreation_room><dimension>23 X 24</dimension><level>1</level></recreation_room>
+<study><dimension>11 X 12</dimension><level>1</level></study>
+
+<directions>BUTTERMILK TO R COLLINS TO R AMSTERDAM TO R
+WOODCHUCK</directions>
+</house_listing>
+
+
+

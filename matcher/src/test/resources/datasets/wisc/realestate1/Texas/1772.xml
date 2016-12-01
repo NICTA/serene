@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Earl Senter</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)517-3379</mobile>
+<email>EARLSENTER@DIGITEX.NET</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18678</id>
+<mls>9092484</mls>
+<house_location>514 N Anglin
+Cleburne, TEXAS 76031</house_location>
+<county>Johnson</county>
+<price>$55,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>THIS TURN OF THE CENTURY HOME WITH TWO LIVING AREAS AND TWO KITCHENS IS JUST WAITING FOR YOU.  WITH APPROXIMATELY 2100 SQUARE FEET OF LIVING AREA AND THREE BATHROOMS, YOU WILL  HAVE ELBOW ROOM.  IT HAS SOME UPDATING AND THERE ARE BIG SHADE TREES.OWNER MIGHT CARRY SECOND NOTE.</house_description>
+
+<sub-division>Original Cleburne</sub-division>
+<approx_size_sqft>2100</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>45x90</approx_lot_size>
+<year_built>1900</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>TURN OF THE CENTURY HOME</item>
+<item>TWO LIVING AREAS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

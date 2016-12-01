@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>Darryl Luedke</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<email>darryl@dlrealtors.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13450</id>
+<mls>186391</mls>
+<house_location>1610 SANDY PARK
+Houston, TEXAS 77339</house_location>
+<county>Harris</county>
+<price>$140,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Humble</school_district>
+<sub-division>Kingwood Place Village</sub-division>
+<approx_size_sqft>1973</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>7705</approx_lot_size>
+<year_built>1973</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>3 YR OLD CENTEX GALVAN</item>
+<item>HARDWOOD ENTRY, KITCHEN &amp; BREAKFAST</item>
+<item>MASTER DWN W/EXECUTIVE BATH/WHIRLPOOL TUB</item>
+<item>KITCHEN CABINETS IN WHITE; TILE BACKSPLASH</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

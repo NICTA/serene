@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>5342 MILLCREEK</house_location>
+<price>$139,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Side)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON CTY</school_dist>
+<mls>249436</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>JANET KAISER</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* SPACIOUS OPEN FLOOR PLAN * CATHEDRAL CEILING * UPGRADED CABINETS * *
+NEUTRAL DECOR * FINISHED LOWER LEVEL W/ROUGHED IN HALF BATH &amp; WALKOUT
+* * LARGE LEVEL YARD * ARLINGHAUS BUILT HOME *</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<family><dimension>20 X 15</dimension><level>L</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 12</dimension><level>L</level></laundry>
+<living><dimension>17 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 11</dimension><level>1</level></master>
+
+<directions>SOUTH ON RT. 17 TO LEFT AT HARTLAND SUBD TO
+RIGHT ON MILLCREEK CIRCLE</directions>
+</house_listing>
+
+
+

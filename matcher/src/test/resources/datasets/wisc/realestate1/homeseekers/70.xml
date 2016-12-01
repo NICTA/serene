@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1969 has 1 bedroom(s), 1 bath(s) and
+approximately 794 square feet of living area. Rooms include master
+bedroom. Features include view, patio, fireplace, air conditioning,
+storage space.</house_description>
+
+<agent_name>Carol Yarborough</agent_name>
+<direct>520-743-3868</direct>
+<office>520-297-1186</office>
+<email>Homes@carolyarborough.com</email>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-297-1186</phone>
+<fax>520-297-1005</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$62,500</list_price>
+<location>658 W Roller Coaster Rd</location>
+<mls>9919401</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<square_feet>794 (approx)</square_feet>
+<year_built>1969</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered, Screened-in</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

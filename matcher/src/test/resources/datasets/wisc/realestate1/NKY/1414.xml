@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>65 CARRAN</house_location>
+<price>$114,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>LAKESIDE PARK\</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250240</mls>
+<house_type>Single Family</house_type>
+<firm>PREFERRED PROPERTIES</firm>
+<firm_phone>(606) 371-4777</firm_phone>
+<agent>JENNIFER ONEY</agent>
+<agent_phone>(606) 371-4777</agent_phone>
+<house_description>PRETTY CAPE COP IN A GREAT NEIGHBORHOOD! HARDWOOD FLOORS, GREAT FENCED
+/ LEVEL YARD, CENTRAL AIR/FURNACE 2 YRS OLD, NEWER WINDOWS, COVERED
+FRONT PORCH, BEAUTIFUL GAS FIREPLACE IN LIVING, 1/2 BATH UPSTAIRS.</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>48x210</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$***</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>18 X 11</dimension><level>1</level></living>
+<master><dimension>14 X 10</dimension><level>1</level></master>
+<study><dimension>8 X 11</dimension><level>2</level></study>
+
+<directions>DIXIE TO CARRAN DRIVE</directions>
+</house_listing>
+
+
+

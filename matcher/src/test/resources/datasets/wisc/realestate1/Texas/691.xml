@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elmer Jackson</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)699-8908</mobile>
+<email>javcom.com@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20287</id>
+<mls>522627</mls>
+<house_location>6294 THUNDERBIRD ST.
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$78,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>3/2 MOBIL HOME IN EXCELLENT CONDITION.  ENJOY THE LAKE VIEW FROM THIS WELL LANDSCAPED LOT NEXT TO BOAT RAMP.  24X12 WORKSHOP.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Lake Thunderbird</sub-division>
+<approx_size_sqft>1344</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.3</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>WELL MAINTAINED</item>
+<item>LAKE VIEW</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

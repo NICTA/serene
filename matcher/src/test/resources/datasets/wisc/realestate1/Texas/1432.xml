@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Hodde Real Estate Division</name>
+<location>112 W.Main St. Brenham, TX 77833</location>
+<office>(409)836-8532</office>
+<toll_free></toll_free>
+<fax>(409)836-1224</fax>
+<email>hlcc@hlcc.com</email>
+</firm_information>
+
+<agent_information>
+<name>Randy Hodde</name>
+<office>(409)836-8532</office>
+<fax>(409)836-1224</fax>
+<email>rhodde@hlcc.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20815</id>
+<mls>HLC#534</mls>
+<house_location>105 E. Germania
+Brenham, TEXAS</house_location>
+<county>Washington</county>
+<price>$115,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Antique Revival!  Restored  1900's home features 3 bedrooms, 2 baths,  and nice kitchen and living area.  The home has beautiful  hardwood floors throughout and central heating and air along  with many other updates.  The exterior has new paint and features a long porch and two decks with french doors.  A great Bed and Breakfast opportunity or permanent residence!</house_description>
+
+<school_district>Brenham</school_district>
+<stories>1</stories>
+<approx_acres>0.18</approx_acres>
+<year_built>1900</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Hardwood Floors</item>
+<item>Corner Lot</item>
+<item>Mature Trees</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

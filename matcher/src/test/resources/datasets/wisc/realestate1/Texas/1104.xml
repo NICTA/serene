@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>E.D. Rains</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)946-6602</mobile>
+<email>erains1776@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20968</id>
+<mls>9126307</mls>
+<house_location>310 Mockingbird Lane
+Weatherford, TEXAS 76086</house_location>
+<county>Parker</county>
+<price>$159,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Fabulous 4 bedroom, 3 bath home surrounded  by gorgeous trees and beautiful landscaping in a park-like setting.  Two living areas and two dining areas.  Located near city library, schools and park.  Convenient to I-20 and metroplex.  Very nice neighborhood and great neighbors.  Owner/agent.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Rolling Hills</sub-division>
+<approx_size_sqft>2687</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1.10</approx_lot_size>
+<approx_acres>1.1</approx_acres>
+<year_built>1969</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Large, lovely home</item>
+<item>Very well maintained</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

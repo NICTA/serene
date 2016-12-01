@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1982 has 2 bedroom(s), 2 bath(s) and
+approximately 1415 square feet of living area. Features include
+private pool, air conditioning.</house_description>
+
+<agent_name>Denis Espinosa</agent_name>
+<direct>290-1915</direct>
+<office>382-5455</office>
+<firm_name>Advanced Real Esta
+Lic. Real Estate Broker</firm_name>
+<phone>382-5455</phone>
+<fax>305-382-5562</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$184,900</list_price>
+<location>6061 Collins Av #6C</location>
+<neighborhood>Le Trianon Condo</neighborhood>
+<mls>M743845</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1415 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

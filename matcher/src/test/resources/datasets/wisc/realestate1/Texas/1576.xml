@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Duffy&amp; LaRoe-REALTORS</name>
+<location>4505 Hwy. 6 North Houston, TX 77084</location>
+<office>(281)463-1141</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)463-2184</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gina Baker</name>
+<office>(281)463-1141</office>
+<fax>(281)463-2184</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13253</id>
+<mls>183752</mls>
+<house_location>15615 Tumbling Rapids
+Houston, TEXAS 77084</house_location>
+<county>Harris</county>
+<price>$104,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Over 2200 square feet of updated &amp; upgraded space in this Fuqua-built home. A tiled entry leads past the atrium to the HUGE (24X15) living area featuring a corner, brick fireplace and a wet bar. You immediately feel the cushy carpet replaced Dec, 1998. In the kitchen you find freshly painted white cabinets, double pantries, a long island, and a desk in the breakfast room. The master suite is roomy and off by itself for privacy. Down the hall is double storage closets and the other bedrooms. All bedrooms have oversized closets.  This home is casually elegant and located on as desirable street i</house_description>
+
+<school_district>Katy</school_district>
+<sub-division>Bear Creek Village</sub-division>
+<approx_size_sqft>2226</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>8165</approx_lot_size>
+<year_built>1977</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Updated &amp; upgraded, Dec, 1998</item>
+<item>Fuqua-built</item>
+<item>Deck &amp; mature tree out back</item>
+<item>Split bedroom floorplan</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

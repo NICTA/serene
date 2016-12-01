@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home has 5 bedroom(s), 4 bath(s) , 3 car garage.
+Rooms include dining room, master bedroom. Features include view,
+patio.</house_description>
+
+<agent_name>Margie O'Campo Decastillo</agent_name>
+<office>602-243-1817</office>
+<firm_name>Arizona Dream Realty</firm_name>
+<phone>602-243-1817</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$383,000</list_price>
+<location>Phoenix, AZ 85040</location>
+<mls>1464192</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>18,001-24,000</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<location>Cul-de-sac</location>
+<patio>Covered, Deck</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View, Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Dishwasher, Great Room, Guest Room, Kitchen Island,Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

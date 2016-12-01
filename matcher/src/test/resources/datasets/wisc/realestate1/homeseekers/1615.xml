@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1985 has 3 bedroom(s), 2 bath(s) , 1
+car detached garage and approximately 939 square feet of living area.
+Rooms include dining room, family room. Features include fireplace,
+air conditioning.</house_description>
+
+<agent_name>Marilyn Camp</agent_name>
+<direct>509-467-5010</direct>
+<firm_name>
+Prudential Crane Realty/North Prudential Crane Realty/North</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$86,000</list_price>
+<location>124 Rockwell</location>
+<mls>2010629</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Contemporary</style>
+<square_feet>939 (approx)</square_feet>
+<year_built>1985</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Hot Water, Natural Gas</heating>
+<fireplace>Wood-burning</fireplace>
+<rooms>Dining Room, Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Dishwasher, Garage Door Opener
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

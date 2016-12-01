@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>The gray hawk. A 2600 sq ft ranch under construction soon. Estimate
+delivery 2/2000. Brick front, crawl foundation, covered porch, 9 ft
+ceilings, gas heat, jetted tub, ge speed cook oven, crown moulding
+tray ceiling. Sodded front yard.</house_description>
+
+<agent_name>Thomas Moore</agent_name>
+<direct>499-5911</direct>
+<office>757-499-5911</office>
+<firm_name>Realty Consultants</firm_name>
+<phone>757-499-5911</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$214,900</list_price>
+<location>Virginia Beach, VA 23454</location>
+<mls>9927727</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Ranch, Traditional</style>
+<square_feet>2600 (approx)</square_feet>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Wood Stove</fireplace>
+<patio>Open Porch</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Cable TV, Ranch Style, Utility Room, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

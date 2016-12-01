@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Audrey Brown</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>audrey@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20829</id>
+<mls>54469</mls>
+<house_location>10006 (505) SOMBRERO
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$189,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<house_description>Lovely, well-kept, updated home.  Perfect for home office or artist's studio.  Golf course location with large trees.  Northeast exposure.  Workshop, bonus room, and one-car carport.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>GOLF COURSE LOCATION</item>
+<item>WORKSHOP &amp; BONUS ROOM</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

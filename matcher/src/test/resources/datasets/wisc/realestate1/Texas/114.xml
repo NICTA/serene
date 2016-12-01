@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Steve Butler</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>steve@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19916</id>
+<mls>54010</mls>
+<house_location>612 HI STIRRUP
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$335,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Large stone home on #16 of Slick Rock Golf Course.  New pool with wrought iron fence.  Nice landscaping.  Remodeled with tile floors and French doors.  New carpet and paint.  Large stone fireplace.  Bonus room.  Insulated windows, ceiling fans.  Disposal, dishwasher, oven, range, refrigerator, microwave, trash compactor.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>ON #16 OF SLICK ROCK GOLF COURSE</item>
+<item>NEW POOL WITH WROUGHT IRON FENCE</item>
+<item>REMODELED WITH TILE FLOORS &amp; FRENCH DOORS</item>
+<item>LARGE STONE FIREPLACE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

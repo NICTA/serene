@@ -1,0 +1,261 @@
+Department,Host,Category,Page Views,Total Bytes,Requests
+BFS,desktop2.google.com,Search Engines/Portals,512633,1174185909,512633
+BFS,desktop.google.com,Computers/Internet,256310,497957681,256310
+BFS,77.67.85.103,Audio/Video Clips,169410,250716708,169410
+BFS,www.facebook.com,Social Networking,101942,3211856684,203858
+BFS,www.google.com,Search Engines/Portals,56537,4055768793,185143
+BFS,www.staradvertiser.com,News/Media,52951,13149368809,1816277
+BFS,seekingalpha.com,Financial Services,49600,420964034,74141
+BFS,urs.microsoft.com,Computers/Internet,45980,318650853,45980
+BFS,qb22bgpatchsp.quickbooks.com,Financial Services,45329,1920938832,45329
+BFS,platform.twitter.com,Social Networking,42699,739665995,112371
+CA,loudcity.com,Radio/Audio Streams,10942,35525343,11555
+CA,www.facebook.com,Sports/Recreation,3370,447221398,33394
+CA,www.facebook.com,Social Networking,3004,606054062,20247
+CA,service.mail.com,News/Media,1333,197756065,10028
+CA,www.google.com,Search Engines/Portals,864,151080596,4591
+CA,safebrowsing-cache.google.com,Non-viewable,667,21579925,667
+CA,www.kdfc.com,Entertainment,641,41249536,2679
+CA,pac501.net,Newsgroups/Forums,557,39435530,6619
+CA,aolradio.slacker.com,Radio/Audio Streams,534,69728407,6389
+CA,www.google.com,Auctions,531,73075987,9087
+CCLAUD,search.namequery.com,Computers/Internet,36088,19718510,36088
+CCLAUD,www.facebook.com,Social Networking,16971,525854469,27374
+CCLAUD,www.google.com,Auctions,8337,625731842,40541
+CCLAUD,mail.aol.com,Email,7649,398308595,29032
+CCLAUD,updateservice.sonic.com,Computers/Internet,6923,4980318,6923
+CCLAUD,fbcdn-profile-a.akamaihd.net,Content Servers,5300,39798656,5300
+CCLAUD,fbcdn-profile-a.akamaihd.net,Social Networking,5300,39798656,5300
+CCLAUD,www.staradvertiser.com,News/Media,5189,1158735881,158596
+CCLAUD,www.google.com,Search Engines/Portals,5175,388212841,17672
+CCLAUD,urs.microsoft.com,Computers/Internet,3851,28005607,3851
+CCLSTAFF,search.namequery.com,Computers/Internet,114654,63461513,114654
+CCLSTAFF,www.facebook.com,Social Networking,64480,1560885064,104722
+CCLSTAFF,fbcdn-profile-a.akamaihd.net,Social Networking,26314,184085959,26314
+CCLSTAFF,fbcdn-profile-a.akamaihd.net,Content Servers,26314,184085959,26314
+CCLSTAFF,us-mg6.mail.yahoo.com,Email,20372,1287580222,91580
+CCLSTAFF,www.facebook.com,Sports/Recreation,20110,789684405,85710
+CCLSTAFF,www.google.com,Search Engines/Portals,15331,932427891,47619
+CCLSTAFF,s.ytimg.com,Audio/Video Clips,13850,22351249156,55001
+CCLSTAFF,www.staradvertiser.com,News/Media,13192,2476272650,367690
+CCLSTAFF,urs.microsoft.com,Computers/Internet,11935,84837212,11935
+CLK,www.facebook.com,Social Networking,33326,1551781848,58777
+CLK,cache.static.userplane.com,Chat/Instant Messaging,31273,40202983,39536
+CLK,www.beachbyte.com.edgesuite.net,Content Servers,30917,12415729247,77830
+CLK,mail.aol.com,Email,29422,263897911,48069
+CLK,www.facebook.com,Sports/Recreation,15886,430950183,47820
+CLK,updateservice.sonic.com,Computers/Internet,14700,9808871,14700
+CLK,dw.com.com,Computers/Internet,13247,20032897,13247
+CLK,mail.yimg.com,Email,11178,21125906,16004
+CLK,www.staradvertiser.com,News/Media,9925,1649811322,298608
+CLK,search.namequery.com,Computers/Internet,9548,5359748,9548
+COR,emf.mpl.miisolutions.net,Content Servers,118640,270888129,118640
+COR,www.facebook.com,Social Networking,102451,2535167681,156837
+COR,www.google.com,Search Engines/Portals,24009,1578125670,65661
+COR,api.twitter.com,Social Networking,21418,152070595,21418
+COR,api.twitter.com,Custom Allow Sites,21418,152070595,21418
+COR,api.twitter.com,Blogs/Personal Pages,21418,152070595,21418
+COR,api.tweetdeck.com,Social Networking,20955,112712057,20955
+COR,web2.westlaw.com,Government/Legal,19521,618831608,61092
+COR,www.staradvertiser.com,News/Media,18233,3959729447,455191
+COR,fbcdn-profile-a.akamaihd.net,Social Networking,18187,323543359,18187
+CSD,www.mids-hidl.com,Government/Legal,73470,5272777624,187610
+CSD,www.facebook.com,Social Networking,70009,2182953996,124797
+CSD,www.facebook.com,Sports/Recreation,30409,2067277187,153418
+CSD,xerox.nowprintasap.com,Business/Economy,29805,2532268626,29805
+CSD,urs.microsoft.com,Computers/Internet,25261,179329891,25261
+CSD,www.mangahere.com,Open/Mixed Content,23174,1727248146,142476
+CSD,www.mangahere.com,Entertainment,21711,1700261167,139340
+CSD,12.130.55.65,Travel,21301,10671860,21301
+CSD,www.google.com,Search Engines/Portals,16879,1060947312,65362
+CSD,www.bing.com,Search Engines/Portals,16506,623366068,90838
+CSV,www.facebook.com,Social Networking,69426,1228616858,98306
+CSV,www.pandora.com,Entertainment,21204,5739915160,61838
+CSV,www.amazon.com,Shopping,20478,1137112878,111022
+CSV,cbk0.google.com,Reference,19153,551090863,19153
+CSV,www.google.com,Search Engines/Portals,19049,711377291,39300
+CSV,fbcdn-profile-a.akamaihd.net,Content Servers,15980,222405375,15980
+CSV,fbcdn-profile-a.akamaihd.net,Social Networking,15980,222405375,15980
+CSV,www.bijint.com,Society/Daily Living,14848,1020148867,22322
+CSV,www.staradvertiser.com,News/Media,12419,2493257015,341225
+CSV,platform.twitter.com,Social Networking,11246,128841400,26262
+DCS,www.facebook.com,Social Networking,109220,3895320733,185009
+DCS,208.22.87.165,Audio/Video Clips,58433,119729369,58433
+DCS,cyclops.untd.com,Business/Economy,41156,1404479793,312670
+DCS,track.pubmatic.com,Business/Economy,34914,128416747,34914
+DCS,www.google.com,Search Engines/Portals,30286,2296380479,112562
+DCS,urs.microsoft.com,Computers/Internet,26021,186019208,26021
+DCS,platform.twitter.com,Social Networking,25524,398552320,57001
+DCS,webmaila.juno.com,Email,24805,361397016,50147
+DCS,fbcdn-profile-a.akamaihd.net,Content Servers,22471,372390353,22471
+DCS,fbcdn-profile-a.akamaihd.net,Social Networking,22471,372390353,22471
+DDC,cbk0.google.com,Reference,261819,7268229217,261819
+DDC,www.facebook.com,Social Networking,188686,4758723377,312880
+DDC,updateservice.sonic.com,Computers/Internet,88067,57905803,88067
+DDC,www.google.com,Search Engines/Portals,54961,3863099307,192221
+DDC,77.67.85.103,Audio/Video Clips,46707,71332098,46707
+DDC,platform.twitter.com,Social Networking,46681,714750274,115332
+DDC,kh.google.com,Reference,44487,593698658,50092
+DDC,www.staradvertiser.com,News/Media,42135,9218090909,1190295
+DDC,urs.microsoft.com,Computers/Internet,40990,294148304,40990
+DDC,www.beachbyte.com.edgesuite.net,Content Servers,38001,11416874108,89031
+DEM,safebrowsing-cache.google.com,Non-viewable,9426,141967668,9426
+DEM,s.ytimg.com,Audio/Video Clips,4949,7130818647,18590
+DEM,www.facebook.com,Social Networking,4838,197516222,7193
+DEM,www.google.com,Search Engines/Portals,4671,728321352,13326
+DEM,4-pct.channel.facebook.com,Social Networking,4518,35471695,4537
+DEM,webmailab.juno.com,Computers/Internet,2780,79181053,5451
+DEM,khmdb.google.com,Search Engines/Portals,2764,47932959,2764
+DEM,cbk0.google.com,Reference,2756,57319077,2756
+DEM,cyclops.untd.com,Business/Economy,2426,165181738,22627
+DEM,platform.twitter.com,Social Networking,2264,28475931,4135
+DES,www.facebook.com,Social Networking,15443,449143365,29492
+DES,www.centresuite.com,Financial Services,5732,482493353,5732
+DES,www.pandora.com,Entertainment,5316,1418034937,12892
+DES,urs.microsoft.com,Computers/Internet,5183,37306705,5183
+DES,platform.twitter.com,Social Networking,5167,66505794,10425
+DES,www.google.com,Search Engines/Portals,5148,278212325,17434
+DES,zims.isis.org,Reference,3736,206809324,3736
+DES,www.facebook.com,Sports/Recreation,3636,242140050,20937
+DES,www.google.com,Auctions,3486,309689027,19027
+DES,platform.twitter.com,Blogs/Personal Pages,3234,57401506,4719
+DFM,www.facebook.com,Social Networking,91157,4427571993,200468
+DFM,fbcdn-profile-a.akamaihd.net,Content Servers,43993,419943477,43993
+DFM,fbcdn-profile-a.akamaihd.net,Social Networking,43993,419943477,43993
+DFM,www.beachbyte.com.edgesuite.net,Content Servers,36946,15861172386,94283
+DFM,search.namequery.com,Computers/Internet,27766,15249762,27766
+DFM,www.bing.com,Search Engines/Portals,26794,903755047,138731
+DFM,www.google.com,Search Engines/Portals,24393,2676834219,94520
+DFM,www.hawaiinewsnow.com,News/Media,15834,6935546860,107189
+DFM,s-static.ak.fbcdn.net,Social Networking,15682,330494167,15682
+DFM,s-static.ak.fbcdn.net,Content Servers,15682,330494167,15682
+DHR,secure.neogov.com,Job Search/Careers,68550,1117583481,68550
+DHR,www.facebook.com,Social Networking,44473,1678005477,88255
+DHR,ssl.google-analytics.com,Non-viewable,31402,150798456,31402
+DHR,beacon-3.newrelic.com,Computers/Internet,24051,17216962,24051
+DHR,77.67.85.78,Audio/Video Clips,19903,30005023,19903
+DHR,www.google.com,Search Engines/Portals,16362,1400712077,60823
+DHR,urs.microsoft.com,Computers/Internet,15203,105728793,15203
+DHR,youlookfab.com,Business/Economy,15146,547236270,93615
+DHR,platform.twitter.com,Social Networking,12532,223959520,33216
+DHR,aolradio.slacker.com,Radio/Audio Streams,11180,618140189,112836
+DIT,www.slate.com,News/Media,134651,407626165,172691
+DIT,www.arcgis.com,Reference,68088,68850044,68089
+DIT,www.google.com,Search Engines/Portals,64923,4120382502,185286
+DIT,us-mg6.mail.yahoo.com,Email,64102,2975090466,78234
+DIT,safebrowsing-cache.google.com,Non-viewable,54947,1318346344,54947
+DIT,search.namequery.com,Computers/Internet,51766,28456786,51766
+DIT,www.facebook.com,Social Networking,50635,1427868890,88122
+DIT,notify37.dropbox.com,Online Storage,43080,20634285,43080
+DIT,notify35.dropbox.com,Online Storage,39969,20663567,39969
+DIT,ssl.gstatic.com,Search Engines/Portals,36428,604814060,36428
+DPA,www.facebook.com,Social Networking,189452,6074537838,363186
+DPA,www.pandora.com,Entertainment,103004,29304615739,258042
+DPA,judjims.courts.state.hi.us,Government/Legal,70563,1363304032,70563
+DPA,www.google.com,Search Engines/Portals,58749,8493065214,136567
+DPA,web2.westlaw.com,Government/Legal,53312,1717441515,194812
+DPA,platform.twitter.com,Social Networking,44908,1010597094,120223
+DPA,www.staradvertiser.com,News/Media,39124,11229026699,1477440
+DPA,mail.google.com,Email,37682,2532373107,37705
+DPA,ps2.newsinc.com,Audio/Video Clips,36402,146602918,36409
+DPA,ps2.newsinc.com,News/Media,36402,146602918,36409
+DPP,cbk0.google.com,Reference,205259,5753177548,205261
+DPP,www.facebook.com,Social Networking,183338,7899283957,358148
+DPP,www.pandora.com,Entertainment,77662,18364437710,184001
+DPP,quote.cnbc.com,Financial Services,72083,284694149,72813
+DPP,www.google.com,Search Engines/Portals,56735,4807123956,173475
+DPP,www.arcgis.com,Reference,49715,156821582,56875
+DPP,tap2-cdn.rubiconproject.com,Business/Economy,40748,1054201086,53825
+DPP,s.ytimg.com,Audio/Video Clips,37502,57494758144,144001
+DPP,fbcdn-profile-a.akamaihd.net,Content Servers,34579,307195490,34579
+DPP,fbcdn-profile-a.akamaihd.net,Social Networking,34579,307195490,34579
+DPR,77.67.85.103,Audio/Video Clips,821299,1407114115,821299
+DPR,140.174.24.103,Audio/Video Clips,604599,1036919813,604599
+DPR,216.246.122.100,Audio/Video Clips,307699,527355890,307699
+DPR,140.174.24.102,Audio/Video Clips,248862,427865564,248862
+DPR,128.241.218.111,Audio/Video Clips,146135,253305489,146135
+DPR,128.241.218.100,Audio/Video Clips,100558,195212957,100558
+DPR,216.246.122.93,Audio/Video Clips,85865,150818057,85865
+DPR,www.facebook.com,Social Networking,84106,2322687293,144353
+DPR,77.67.85.101,Audio/Video Clips,55167,95397155,55167
+DPR,140.174.24.109,Audio/Video Clips,52150,90916835,52150
+DTS,cbk0.google.com,Reference,210236,6113411799,210236
+DTS,balancer.netdania.com,Brokerage/Trading,107294,72016464,107294
+DTS,www.facebook.com,Social Networking,74742,2779409004,139250
+DTS,www.the-house.com,Sports/Recreation,46884,383330714,65607
+DTS,kh.google.com,Reference,44890,436330131,44959
+DTS,apituner.ecbsn.com,Shopping,33757,60550016468,33757
+DTS,www.google.com,Search Engines/Portals,25464,1732418485,83817
+DTS,urs.microsoft.com,Computers/Internet,23552,168354607,23552
+DTS,platform.twitter.com,Social Networking,20186,407103723,50002
+DTS,mw1.google.com,Search Engines/Portals,19585,79345748,19585
+ENV,www.facebook.com,Social Networking,161003,3460442621,255549
+ENV,www.google.com,Search Engines/Portals,48915,3815523135,223324
+ENV,urs.microsoft.com,Computers/Internet,47605,341989652,47605
+ENV,platform.twitter.com,Social Networking,40951,583160908,99438
+ENV,fbcdn-profile-a.akamaihd.net,Content Servers,38124,433920742,38124
+ENV,fbcdn-profile-a.akamaihd.net,Social Networking,38124,433920742,38124
+ENV,www.pandora.com,Entertainment,33572,7939033250,87522
+ENV,www.google.com,Auctions,26491,2960049669,216603
+ENV,www.staradvertiser.com,News/Media,25441,5322831539,710230
+ENV,www.arcgis.com,Reference,23255,19158467,23255
+ESD,us5.webcur.com,Computers/Internet,139488,1962646684,139488
+ESD,us6.webcur.com,Computers/Internet,133992,1664974788,133992
+ESD,updateservice.sonic.com,Computers/Internet,104191,72747652,104191
+ESD,www.facebook.com,Social Networking,72430,2061671447,142348
+ESD,laulima.hawaii.edu,Education,55951,513892177,55951
+ESD,www.beachbyte.com.edgesuite.net,Content Servers,54783,24201143571,139150
+ESD,www.bing.com,Search Engines/Portals,26090,901697658,152857
+ESD,members.fisdap.net,Education,25876,230676123,25876
+ESD,www.google.com,Search Engines/Portals,23330,1562244746,78378
+ESD,s.ytimg.com,Audio/Video Clips,21100,42592546870,89380
+HFD,77.67.85.103,Audio/Video Clips,481577,702045345,481577
+HFD,www.facebook.com,Social Networking,189832,3699840656,309339
+HFD,www.pandora.com,Entertainment,85591,21852581451,177495
+HFD,cbk0.google.com,Reference,72481,2099719088,72481
+HFD,fbcdn-profile-a.akamaihd.net,Social Networking,62465,551608570,62465
+HFD,fbcdn-profile-a.akamaihd.net,Content Servers,62465,551608570,62465
+HFD,www.google.com,Search Engines/Portals,52398,2724126112,171354
+HFD,platform.twitter.com,Social Networking,46148,618245902,119454
+HFD,urs.microsoft.com,Computers/Internet,37617,284473378,37617
+HFD,s.ytimg.com,Audio/Video Clips,36962,65673920519,137840
+HPD,www.facebook.com,Social Networking,1331267,34428994367,2520084
+HPD,s.ytimg.com,Audio/Video Clips,630384,1600991023836,2767866
+HPD,search.namequery.com,Computers/Internet,558673,301595517,558673
+HPD,fbcdn-profile-a.akamaihd.net,Social Networking,521056,4416058000,521056
+HPD,fbcdn-profile-a.akamaihd.net,Content Servers,521056,4416058000,521056
+HPD,urs.microsoft.com,Computers/Internet,491038,3614193326,491038
+HPD,www.facebook.com,Sports/Recreation,465235,28299914701,2381133
+HPD,www.pandora.com,Entertainment,444958,108878281181,1064274
+HPD,ssl.gstatic.com,Search Engines/Portals,421909,5150203709,421909
+HPD,www.google.com,Search Engines/Portals,363042,18557209373,1056702
+HRT,www.facebook.com,Social Networking,74599,1675472358,123903
+HRT,www.facebook.com,Sports/Recreation,39132,2997168359,220742
+HRT,outlook.collaborationhost.net,Email,29772,2095871193,29772
+HRT,goakamai.org,Reference,24281,5511463864,175982
+HRT,notify21.dropbox.com,Online Storage,19765,9544524,19765
+HRT,www.google.com,Search Engines/Portals,18665,1165148955,52539
+HRT,safebrowsing-cache.google.com,Non-viewable,18099,387487546,18099
+HRT,www.oregonlive.com,News/Media,14236,213321148,63003
+HRT,www.pandora.com,Entertainment,14124,4183968782,39722
+HRT,sports.yahoo.com,TV/Video Streams,12680,757322975,31711
+MAY,updateservice.sonic.com,Computers/Internet,27581,17036410,27581
+MAY,www.batoto.net,Entertainment,20218,4637679050,280406
+MAY,search.namequery.com,Computers/Internet,15619,8578965,15619
+MAY,www.batoto.net,Open/Mixed Content,11717,4502630881,221433
+MAY,www.facebook.com,Social Networking,10450,277532319,20077
+MAY,www.staradvertiser.com,News/Media,9730,1253171296,278854
+MAY,activex.microsoft.com,Computers/Internet,8833,8597812,8833
+MAY,platform.twitter.com,Social Networking,6548,73754246,14637
+MAY,gslbeacon.lijit.com,Computers/Internet,5835,29025316,9419
+MAY,www.cnn.com,News/Media,5600,325560177,35303
+MED,www.amazon.com,Shopping,354,19479305,2295
+MED,assets.espn.go.com,Sports/Recreation,275,753638,275
+MED,www.amazon.com,Web Applications,256,10568587,1840
+MED,www.facebook.com,Social Networking,251,6427892,573
+MED,www.google.com,Search Engines/Portals,227,12109489,1051
+MED,edr.ehawaii.gov,Government/Legal,186,610562,186
+MED,us5.webcur.com,Computers/Internet,161,6039759,161
+MED,plusone.google.com,Content Servers,160,1807645,160
+MED,us6.webcur.com,Computers/Internet,151,5067670,151
+MED,urs.microsoft.com,Computers/Internet,140,1023917,140

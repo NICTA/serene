@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1997 has 5
+bedroom(s), 3 bath(s) , 3 car garage and approximately 3329 square
+feet of living area. Rooms include den, dining room, family room,
+living room, bonus room, master bedroom. Features include private
+pool, private spa, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Steven Ferreira</agent_name>
+<direct>858-271-1663</direct>
+<office>858-578-5510</office>
+<firm_name>Coldwell Banker Assoc Realty Coldwell Banker Assoc Realty</firm_name>
+<phone>858-578-5510</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$569,000</list_price>
+<location>San Diego, CA 92131</location>
+<mls>99 6027035</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>3329 (approx)</square_feet>
+<lot_size>8624</lot_size>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Forced Air</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>In-ground</pool>
+<rooms>Bonus Room, Den, Dining Room, Family Room, Living Room, Master</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

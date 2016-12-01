@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>4422 PLEASANT RDG</house_location>
+<price>$71,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>MAYSVILLE</suburb>
+<school_dist>MASON CO</school_dist>
+<mls>245714</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>JOYCE P ANDERSON</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>SECLUDED &amp; PRIVATE LOG HOME &amp; BARN ON 6 ACRES M/L HAS COUNTY WATER.
+HOME IS EARLY 1900'S.</house_description>
+<construction>Wood,Log</construction>
+<heating>Gas,Radiant</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>2</level></bedroom_3>
+<dining><dimension></dimension><level>1</level></dining>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>AA HWY TO R ON 1159 TO BROOKSVILLE 10 EAST TO
+GERMANTOWN R ON SALEM 5 MI L ON P</directions>
+</house_listing>
+
+
+

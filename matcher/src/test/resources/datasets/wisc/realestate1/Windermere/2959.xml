@@ -1,0 +1,34 @@
+<house_listing>
+<price>$359,900</price>
+<mls_id_number>133743</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>3.00</bathrooms>
+<sqft>2665</sqft>
+<year_built>1997</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>Yes</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.29        Acres</lot_size>
+<lot_description>IRREGULAR</lot_description>
+<fireplace>1</fireplace>
+<taxes>$5,753</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Not Listed</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>RIEKE</elementary>
+<middle_school>GRAY</middle_school>
+<high_school>WILSON</high_school>
+</schools>
+
+</house_listing>
+
+
+

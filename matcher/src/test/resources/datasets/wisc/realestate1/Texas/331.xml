@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Irona Smith Alexander</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)295-7580</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20162</id>
+<mls>9114657</mls>
+<house_location>1719 Burleson Retta Road
+Burleson, TEXAS 76028</house_location>
+<county>Tarrant</county>
+<price>$310,900</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Large, very nice home on six beautiful treed acres!  All the upgrades you would expect in a gated luxury property: inground diving pool, sauna, security lighting, utility sink, firpeplace and sitting area in master bedroom,  intercom system, wet bar, tile flooring, separate shower, 2 separate heat/air units, 5-stall barn, and a deep well, plus a lot more.  Must see to appreciate.  This 5-bedroom home is nearly 4,000 sq. ft. and will appeal to the buyer who wants a distinctive property.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<approx_size_sqft>3964</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>6 acres</approx_lot_size>
+<approx_acres>6</approx_acres>
+<year_built>1974</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<well>Yes</well>
+
+<highlights>
+<item>Six beautifully treed acres</item>
+<item>5 bedroom 3.5 bath, 3C garage</item>
+<item>Luxury home with pool &amp; sauna</item>
+<item>Security gate &amp; ready for horses.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This 3+ level attached townhouse built in 1900 has ? bedroom(s). Rooms
+include dining room, master bedroom. Features include fireplace.</house_description>
+
+<agent_name>Ross Wiczer</agent_name>
+<direct>301-309-8271</direct>
+<office>301-309-8271</office>
+<firm_name>Ross Wiczer Real Estate</firm_name>
+<phone>301-309-8271</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$165,000</list_price>
+<location>Washington, DC 20010</location>
+<mls>DC2503058</mls>
+<status>Active</status>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<lot_size>10312</lot_size>
+<year_built>1900</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

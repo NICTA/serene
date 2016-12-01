@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>360 ALEXANDER</house_location>
+<price>$159,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>CRITTENDEN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>245317</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>CYNTHIA CAHILL</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>SHOWS LIKE NEW! COMFORTABLE 1ST FLR MASTER W/FULL BATH*LARGE COUNTRY
+KITCHE N OPENS TO GREAT CUSTOM DECK OVERLOOKING BEAUTIFUL TREE LINED
+BACK YARD-CUS TOM BUILT FEATURES THRUOUT-GORGEOUS STAINED POPLAR
+TRIM-FAMILY RM IN WO BSM</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>125 x 350</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>16 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>16 X 12</dimension><level>2</level></bedroom_3>
+<family><dimension>15 X 13</dimension><level>L</level></family>
+<kitchen><dimension>22 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>5 X 6</dimension><level>1</level></laundry>
+<living><dimension>18 X 14</dimension><level>1</level></living>
+<master><dimension>16 X 14</dimension><level>1</level></master>
+
+<directions>75 SOUTH TO CRITTENDEN RT OFF EXIT L ON 4 91 W.
+(LOG CABIN REST) RT-ALEXANDER RD</directions>
+</house_listing>
+
+
+

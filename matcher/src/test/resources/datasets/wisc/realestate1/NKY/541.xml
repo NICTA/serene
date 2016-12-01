@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>19 CHARMAINE</house_location>
+<price>$158,800</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Oversized)</garage>
+<suburb>FT MITCHELL</suburb>
+<school_dist>BEECHWOOD</school_dist>
+<mls>249780</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>BARBARA SONDGERATH</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>MUCH BIGGER THAN IT LOOKS! INSIDE PIX-NKYHOMESONLINE.COM, CBWS.COM,
+NKYMLS. COM. REAR 2ND FLR ADDITION-FIN LL FAM RM, HDWD FLRS, UPDATED
+HEAT,COOL &amp; ROOF. HUGE DECK OVERLOOKS WOODED PRIVATE YARD - ON
+CUL-DE-SAC!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>45 X 210</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>17 X 9</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 9</dimension><level>1</level></bedroom_4>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>21 X 22</dimension><level>L</level></family>
+<kitchen><dimension>14 X 9</dimension><level>1</level></kitchen>
+<living><dimension>16 X 12</dimension><level>1</level></living>
+<master><dimension>20 X 11</dimension><level>2</level></master>
+<study><dimension>12 X 17</dimension><level>2</level></study>
+
+<directions>N ON DIXIE HWY TO HIGHLAND AVE, R ON HIGHLAND TO
+CHARMAIN CR</directions>
+</house_listing>
+
+
+

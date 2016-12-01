@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Virgil Waggoner Realty, Inc.</name>
+<location>4515 Manchca Road Suite 100 Austin, TX 78745</location>
+<office>(512)444-1300</office>
+<toll_free>(800)280-8488</toll_free>
+<fax>(512)444-1386</fax>
+<email>vwrealty@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>David Johnson</name>
+<office>(512)444-1300</office>
+<fax>(512)444-1386</fax>
+<mobile>(512)431-1633</mobile>
+<email>vwrealty@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18217</id>
+<mls>514853</mls>
+<house_location>3609 Whitt Loop
+Austin, TEXAS 78749</house_location>
+<county>Travis</county>
+<price>$183,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<move-in_date>8/10/99</move-in_date>
+<school_district>Aisd</school_district>
+<sub-division>Oak Creek</sub-division>
+<approx_size_sqft>2179</approx_size_sqft>
+<stories>1</stories>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Backs to acreage!</item>
+<item>100% Red birck!</item>
+<item>Covered patio!</item>
+<item>Lots of extras!!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

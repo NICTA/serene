@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Damron</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)393-4752</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20750</id>
+<mls>6262</mls>
+<house_location>100 Algarita
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$129,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<house_description>Very nice home - recently updated 3/2 - Multiple living &amp; dining areas.  Gourmet kitchen.  Fenced, landscaped yard.  Deck and hot tub.</house_description>
+
+<move-in_date>11/23/99</move-in_date>
+<school_district>San Marcos</school_district>
+<sub-division>Airport</sub-division>
+<approx_size_sqft>1818</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>corner</approx_lot_size>
+<year_built>1978</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Updated - decorator touches</item>
+<item>Nice area</item>
+<item>3/2 - deck - hot tub</item>
+<item>Multiple living &amp; dining</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

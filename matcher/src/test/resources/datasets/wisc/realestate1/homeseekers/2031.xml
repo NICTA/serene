@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>Hardwood floors under carpet. Kitchen remodeled all appliances convey
+including washer,dryer &amp; microwave. All windows replaced. Plumbing
+updated.</house_description>
+
+<agent_name>Thelma Drake</agent_name>
+<direct>588-7251</direct>
+<office>757-440-1700</office>
+<firm_name>RE/MAX Central Realty RE/MAX Central Realty</firm_name>
+<phone>757-440-1700</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$87,500</list_price>
+<location>Norfolk, VA 23518</location>
+<mls>0001432</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1100 (approx)</square_feet>
+<year_built>1953</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Oil</heating>
+<fireplace>No</fireplace>
+<patio>Open Porch</patio>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Fenced, Microwave, Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

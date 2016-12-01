@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1920 has 3 bedroom(s), 2 bath(s) , 1
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Archie Fisher</agent_name>
+<office>602-230-2507</office>
+<firm_name>Jsm Investments, Inc.</firm_name>
+<phone>602-230-2507</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$194,995</list_price>
+<location>Phoenix, AZ 85012</location>
+<mls>1464971</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1920</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Evaporative</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<location>Cul-de-sac</location>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City Lights View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Eat In Kitchen, Guest Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>97 BAYNUM HILL</house_location>
+<price>$164,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>3 Cars (Attached,Side,Oversized)</garage>
+<suburb>O</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>246554</mls>
+<house_type>Farms</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JIM MCCORD</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>SPECTACULAR VIEW ALL AROUND THIS NEWER COUNTRY HOME!ALSO AVAILABLE 48
+ADDITIONAL ACRES-AND TWO MORE PONDS FOR $315,000.</house_description>
+<construction>Other</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>16 X 13</dimension><level>1</level></bedroom_2>
+<dining><dimension>12 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>20 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 5</dimension><level>1</level></laundry>
+<living><dimension>20 X 14</dimension><level>1</level></living>
+<master><dimension>17 X 10</dimension><level>1</level></master>
+
+<directions>AA HWY TO R ON IVOR TO L ON RT10 TO R ON BAYNUM
+HILL--END OF ROAD</directions>
+</house_listing>
+
+
+

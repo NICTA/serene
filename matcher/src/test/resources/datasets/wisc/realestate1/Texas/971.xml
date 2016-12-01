@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Foster Properties</name>
+<location>101-A NE. 2nd St.- P. O. Box 91 Hubbard, TX 76648</location>
+<office>(254)576-2521</office>
+<toll_free>(800)952-4140</toll_free>
+<fax>(254)576-2688</fax>
+<email>mfoster396@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Margot Foster</name>
+<office>(254)576-2521</office>
+<fax>(254)576-2688</fax>
+<mobile>(254)582-6061</mobile>
+<email>mfoster396@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15736</id>
+<mls></mls>
+<house_location>705 Magnolia St.
+Hubbard, TEXAS 76648</house_location>
+<county>Hill</county>
+<price>$80,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>2 story victorian for a big family.  Lots of room,</house_description>
+
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>4</carport_spaces>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>remodeled 2 story victorian</item>
+<item>good storage areas</item>
+<item>privacy porch for hot tub</item>
+<item>beautiful fenced back yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

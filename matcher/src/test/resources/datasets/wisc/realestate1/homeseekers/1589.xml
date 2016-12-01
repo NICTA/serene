@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1911 has 2 bedroom(s), 1
+bath(s) . Rooms include dining room, master bedroom.</house_description>
+
+<agent_name>Mary Stark</agent_name>
+<direct>202-543-6039</direct>
+<office>202-393-1111</office>
+<firm_name>Prudential Carruthers Realtor</firm_name>
+<phone>202-393-1111</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$60,000</list_price>
+<location>Washington, DC 20002</location>
+<mls>DC3027863</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>1022</lot_size>
+<year_built>1911</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

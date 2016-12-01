@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Huff</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-0075</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19319</id>
+<mls>519267</mls>
+<house_location>805 Hudgins
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$110,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>House sits on one and a half lots.10 year warranty on ac unitremodeled kitchen and bathrefinished hard wood floors.rewired and plumbing up graded.tall ceilingsmanicured lawn.formal dining + breakfast dining</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Riverside Park</sub-division>
+<stories>1</stories>
+<year_built>1930</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>refinished hard wood floors</item>
+<item>established neighborhood</item>
+<item>close to schools</item>
+<item>remodled bath and kitchen</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

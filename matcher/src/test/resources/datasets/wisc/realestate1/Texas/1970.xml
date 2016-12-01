@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Jeanette Shelby Real Estate</name>
+<location>101 W. 1st Street, Suite D Elgin, TX 78621</location>
+<office>(512)281-3412</office>
+<toll_free>(800)231-5289</toll_free>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Jeanette Shelby</name>
+<office>(512)285-5289</office>
+<fax>(512)281-9608</fax>
+<email>jmshelby@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19782</id>
+<mls>520509</mls>
+<house_location>212 Old Austin Trail
+Elgin, TEXAS 78621</house_location>
+<county>Bastrop</county>
+<price>$65,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>3/2 mobilehome on 4 acres. Good fixer-upper on really pretty property. This home needs some work but has great potential.</house_description>
+
+<school_district>Elgin</school_district>
+<sub-division>Texas Hertitage</sub-division>
+<approx_size_sqft>1344</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>4</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Fireplace in living room.</item>
+<item>Vaulted ceilings.</item>
+<item>Scattered Oaks.</item>
+<item>Pond on back of property.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

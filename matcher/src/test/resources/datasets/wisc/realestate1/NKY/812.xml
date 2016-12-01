@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>133 MURNAN RD</house_location>
+<price>$157,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Builtin,Detached)</garage>
+<suburb>COLD SPRING</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>250151</mls>
+<house_type>Single Family</house_type>
+<firm>TEEGARDEN REALTY &amp; AUCTION</firm>
+<firm_phone>(606) 635-1760</firm_phone>
+<agent>JOY HODGES</agent>
+<agent_phone>(606) 635-1760</agent_phone>
+<house_description>VERY NICE WELL MAINTAINED HOME 2 CAR GARAGE &amp; DETACHED GARAGE 28 X 30
+WITH SEPERATE METER STORAGE SHED 8 X 12 REAR DECK 14 X 28 NEW KIT
+CABINETS. BERB CARPET THROUGH OUT.</house_description>
+<construction>Brick</construction>
+<heating>Oil</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Private</sewer>
+<lot_dimensions>700 X 235</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0000000</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>1</level></bedroom_3>
+<dining><dimension>14 X 11</dimension><level>1</level></dining>
+<family><dimension>15 X 33</dimension><level>L</level></family>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>10 X 8</dimension><level>L</level></laundry>
+<living><dimension>18 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>US 27 TO MURNAN ROAD ACROSS FROM COLD SPR ING
+ELEMENTARY SCHOOL</directions>
+</house_listing>
+
+
+

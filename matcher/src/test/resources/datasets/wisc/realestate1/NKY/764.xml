@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>54 MAIN</house_location>
+<price>$57,200</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>SANDERS</suburb>
+<school_dist>CARROLL</school_dist>
+<mls>250154</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>DEBORAH P WRIGHT</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>COME ENJOY LIFE A SMALL TOWN. AFFOR CABLE PRICED. MOVE IN AND MAKE
+REPAIR AS YOU GO. 3 MILES TO I-71 AT SPARTS REPLACEMENT WINDOWS,
+DRYWALL, KITCHEN VICTORIAN STYLING. OUTBUILDINGS AND GAZEBO</house_description>
+<construction>Wood,Alum</construction>
+<heating>None</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension></dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>2</level></bedroom_3>
+<dining><dimension></dimension><level>1</level></dining>
+<family><dimension></dimension><level>1</level></family>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>2</level></master>
+
+<directions>I71 S EXIT57 HWY35 TO CAUTION LIGHT R467 L AT
+STOP SIGN HWY47 CROSS RRLA PO SIGN</directions>
+</house_listing>
+
+
+

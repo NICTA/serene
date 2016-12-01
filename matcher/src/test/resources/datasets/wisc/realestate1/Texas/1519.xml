@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Sandy Menley</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<email>winkler@texasproperties.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20680</id>
+<mls>525154</mls>
+<house_location>RT 3 LEE CR 409
+Lexington, TEXAS 78947</house_location>
+<county>Lee</county>
+<price>$236,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>BEAUTIFUL LIKE NEW HOME. PINE CEILINGS. HUGE # OF LOVELY PINE CABINETS &amp; BUILTINS.  OPEN &amp; LIGHT.  EACH BEDROOM HAS BATH AND WALKIN.  GOOD 4 STALL BARN WITH ROOM FOR APT UPSTAIRS.  GOOD COASTAL PASTURE.  2 PONDS.  SOME TREES.  50 MILES TO AUSTIN.  VERY NICE.</house_description>
+
+<school_district>1</school_district>
+<sub-division>1</sub-division>
+<stories>2</stories>
+<approx_acres>38</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

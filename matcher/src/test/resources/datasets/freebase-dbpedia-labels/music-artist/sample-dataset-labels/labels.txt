@@ -1,0 +1,7 @@
+freebase_id@freebase,dbpedia_id@dbpedia
+name@freebase,givenName@dbpedia,surname@dbpedia
+origin@freebase,origin@dbpedia
+active_end@freebase,activeYearsEndYear@dbpedia
+description@freebase,abstract@dbpedia
+profession@freebase,occupation@dbpedia
+date_of_birth@freebase,birthDate@dbpedia

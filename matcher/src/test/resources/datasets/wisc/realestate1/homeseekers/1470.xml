@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This condominium built in 1968 has 1 bedroom(s), 1 bath(s) and
+approximately 1070 square feet of living area. Features include
+private pool, air conditioning.</house_description>
+
+<agent_name>Charles Wallace</agent_name>
+<direct>305-213-9669</direct>
+<office>534-1999</office>
+<firm_name>Majestic Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>534-1999</phone>
+<fax>305-534-9088</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$143,000</list_price>
+<location>5700 Collins Av #15N</location>
+<neighborhood>Seacoast 5700 Condo Desc</neighborhood>
+<mls>M770872</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>1070 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

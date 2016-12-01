@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joe Don Dockery</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19917</id>
+<mls>54014</mls>
+<house_location>308 Meadowlakes Drive
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$224,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Prestigous address on Meadowlakes Drive across the street from the lake and Meadowlakes property owner's park.  Built in 1991, this 3 bedroom, 3 bath plan has been extremely popular.  Breeze way connects the rear entry 2+ car garage. The in ground pool is the focal point for the pecan tree shaded rear yard that is completely privacy fenced.  The floorplan of the home features a formal dining area as well as a breakfast nook overlooking the pool.  Ceramic tile flooring in the living, dining, breakfast and guest baths.  Vaulted ceilings, built-ins and fireplace in the living area.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Meadowlakes</sub-division>
+<approx_size_sqft>2241</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>90 X 155</approx_lot_size>
+<year_built>1991</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>3 Bedroom, 3 Bath, Oversized detached Garage.</item>
+<item>Gorgeous in ground pool, Privacy fenced back yard.</item>
+<item>Sprinkler system, Ceramic tile floors.</item>
+<item>Prestigous address in Meadowlakes pecan orchard.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

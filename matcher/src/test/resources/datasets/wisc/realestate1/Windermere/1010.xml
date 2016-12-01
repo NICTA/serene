@@ -1,0 +1,34 @@
+<house_listing>
+<price>$285,000</price>
+<mls_id_number>151934</mls_id_number>
+<city>ROSEBURG</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1980</sqft>
+<year_built>1976</year_built>
+<heat>Not Listed</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>Yes</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 3 Car(s)</garage>
+<lot_size>27.48       Acres</lot_size>
+<lot_description>IRR</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Deck, RV-Park,</exterior>
+<site>Water: WELL Sewer: SEPTIC</site>
+</amenities>
+<schools><elementary>MELROSE</elementary>
+<middle_school>JO LANE</middle_school>
+<high_school>ROSEBURG</high_school>
+</schools>
+
+</house_listing>
+
+
+

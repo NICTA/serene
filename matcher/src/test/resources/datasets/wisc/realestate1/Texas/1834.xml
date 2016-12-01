@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Lloyd Barnes</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)558-1417</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19331</id>
+<mls>6062</mls>
+<house_location>Rt. 1 Box 63-A
+Harwood, TEXAS 78632</house_location>
+<county>Gonzales</county>
+<price>$192,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Custom built 3 bedroom 2 bath, sunkin den w/cathedral ceilings, dining/kitchencombo utility/storage room off carport, fireplace covered patio, 2 car carport, 3 barns, 60x60 frame only, high game fence.</house_description>
+
+<move-in_date>9/20/99</move-in_date>
+<approx_acres>20</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+<fire_places>1</fire_places>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

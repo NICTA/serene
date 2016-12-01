@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Cece Hurst</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<email>cece@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19230</id>
+<mls>515023</mls>
+<house_location>381 Tuck ST.
+Cedar Creek, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$169,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>This propery has it all for a home based business with a 1500 square foot, environmentally controlled warehouse w/6 phone lines, ISDN line and a LAN connection.  The home has room for 2 families with 2 large living areas, 2 kitchens, 5 bedrooms and 3.5  baths.  Also has an above ground pool with a screened in porch and a hot tub.  All this on 4 beautiful wooded acres.  Call CeCe today at Coldwell Banker Mary Ann Green Realty (512)303-5400 or my mobile number is (512)304-8878.  If you like e-mail me at CeCe@totalaccess.net.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Lazy Acres</sub-division>
+<approx_size_sqft>3006</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>4.04</approx_acres>
+<year_built>1987</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

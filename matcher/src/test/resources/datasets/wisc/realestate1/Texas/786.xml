@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Regency, Realtors</name>
+<location>110 N. IH-35, Ste 200A Round Rock, TX 78681</location>
+<office>(512)255-7888</office>
+<toll_free>(800)656-7888</toll_free>
+<fax>(512)244-9536</fax>
+<email>sbshavor@earthlink.net</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Lou Templin</name>
+<office>(512)255-7888</office>
+<fax>(512)244-9536</fax>
+<voice_mail>(512)255-7888 224</voice_mail>
+<email>marylout@netzero.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20943</id>
+<mls>526446</mls>
+<house_location>2007 Chaparral Drive
+Round Rock, TEXAS 78681</house_location>
+<county>Williamson</county>
+<price>$149,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Easy access to school- no street crossings!! 2560 sq.ft. (per tax office). Tile entry opens to coffered, soaring ceiling. This is a must see---great floor plan with 4 bedrooms plus an office. </house_description>
+
+<school_district>Old Town, Cedar Valley , Round Rock High</school_district>
+<sub-division>Woods</sub-division>
+<approx_size_sqft>2560</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Community Pool</item>
+<item>Community Playground</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

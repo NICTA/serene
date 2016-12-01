@@ -1,0 +1,44 @@
+<house_listing>
+<price>$379,000</price>
+<mls_id_number>154599</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.50</bathrooms>
+<sqft>1826</sqft>
+<year_built>1952</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 2 Car(s)</garage>
+<lot_size>0.90        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>2</fireplace>
+<taxes>$0</taxes>
+<floors>Hardwood Floors,</floors>
+<interior>Not Listed</interior>
+<exterior>Covered Patio, Tool Shed,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>RALEIGH PARK</elementary>
+<middle_school>WHITFORD</middle_school>
+<high_school>BEAVERTON</high_school>
+</schools>
+<for_more_information_contact>
+<agent_name>Laurie Whittemore</agent_name>
+<firm_name>WINDERMERE CCRGI - IRVING</firm_name>
+<firm_location>636 NW 21ST AVE
+PORTLAND, OR</firm_location>
+<office_phone>503-222-9701</office_phone>
+<fax>503-227-5715</fax>
+<pager>503-202-7852</pager>
+<e-mail>nwirving@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

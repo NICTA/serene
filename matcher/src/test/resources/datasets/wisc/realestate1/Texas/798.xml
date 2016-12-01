@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Lee Ingleside</name>
+<location>2830 Main St. Ingleside, TX 78362</location>
+<office>(361)776-0066</office>
+<toll_free>(800)421-0821</toll_free>
+<fax>(361)643-3333</fax>
+<email>plee2121@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Kay Norton</name>
+<office>(361)776-0066</office>
+<fax>(361)643-3333</fax>
+<email>kay_norton@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18871</id>
+<mls>139071</mls>
+<house_location>1307 W. Palm Dr.
+Aransas Pass, TEXAS 78336</house_location>
+<county>San Patricio</county>
+<price>$77,021</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>HOME CLOSE TO SCHOOLS AND SHOPPING. FENCED BACK YARD WITH WELL FOR WATERING YARD. LOTS OF MATURE TREES FOR COOL SUMMER BBQ'S. MUST SEE TO APPRICIATE.</house_description>
+
+<school_district>Aransas</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1326</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>85X100</approx_lot_size>
+<year_built>1968</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>CARPET ONE YEAR OLD</item>
+<item>WELL FOR WATERING YARD</item>
+<item>FENCED YARD</item>
+<item>MATURE TREES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

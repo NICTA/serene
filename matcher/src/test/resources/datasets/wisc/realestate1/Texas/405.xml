@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Elizabeth Bondurant</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20826</id>
+<mls>9124648</mls>
+<house_location>1416 Nicole Way
+Burleson, TEXAS 76028</house_location>
+<county>Tarrant</county>
+<price>$104,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>More than 2,000 sq. ft. and neat as a pin!  Builder&amp;#8217;s model home.  2-story with game room upstairs. Garage is finished out with work area. Brick home on corner lot with trees, lawn, covered porch and patio. Great neighborhood, no thru traffic, dead end street.  Two large main suites, one up, one down.  Seller will consider trade, best offer, lease/purchase.  Mower and edger stay.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Still Meadows</sub-division>
+<approx_size_sqft>2024</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>0.21</approx_acres>
+<year_built>1993</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Builder's Model Home 1993</item>
+<item>2-story brick, neat as a pin!</item>
+<item>Gameroom, 2 main suites</item>
+<item>Garage w/work area</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Beth King</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<mobile>(512)663-0102</mobile>
+<email>bking@totalaccess.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18671</id>
+<mls>513111</mls>
+<house_location>104 KEANAPAPA
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$162,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+
+<house_description>Need lots of room? This charming brick 2 story nestled in the large pines has it! 2716sf 4/3 with 2 living areas, 2 kitchens, an office and an exercise room! Pine wood flooring throughout upper level. Buyer can choose colors for new flooring on lower level. Covered patio, deck, and playscape. Lots of home for the money!</house_description>
+
+<move-in_date>8/19/99</move-in_date>
+<school_district>Smithville</school_district>
+<sub-division>Tahitian Village</sub-division>
+<approx_size_sqft>2716</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>.33ac</approx_lot_size>
+<approx_acres>0.33</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>930 SUMMER</house_location>
+<price>$54,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>-</suburb>
+<school_dist>WILLIAMSTOW</school_dist>
+<mls>247550</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>JIM SIMPSON</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>COZY 2 BEDROOM LAKEFRONT COTTAGE LOCATED ON A VERY NICE COVE ON
+WILLIAMSTOWN LAKE!ALL FURNITURE AND EQUIPMENT STAYS WITH THE PROPERTY.
+LISTING AGENT IS THE OWNER.</house_description>
+<construction>Alum</construction>
+<heating>None</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>None</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bedroom_2><dimension>6 X 6</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>10 X 7</dimension><level>1</level></kitchen>
+<living><dimension>12 X 10</dimension><level>1</level></living>
+<master><dimension>10 X 7</dimension><level>1</level></master>
+
+<directions>75S TO X154,L TO L ON US25,R ON KY22,L ON
+FAIRVIEW,L ON SUMMER TO THE END</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 2 level attached townhouse built in 1912 has 2 bedroom(s), 1
+bath(s) . Rooms include dining room, master bedroom. Features include
+fireplace.</house_description>
+
+<agent_name>Lester Oates</agent_name>
+<direct>301-249-9123</direct>
+<office>301-925-1414</office>
+<firm_name>Why Usa Ici Realty Why Usa Ici Realty</firm_name>
+<phone>301-925-1414</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$105,000</list_price>
+<location>Washington, DC 20003</location>
+<mls>DC3093888</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>1122</lot_size>
+<year_built>1912</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Hot Water, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

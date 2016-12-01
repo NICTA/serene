@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Cindi Darragh</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>cindi@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20349</id>
+<mls>54206</mls>
+<house_location>433 Twin Creek Drive
+Burnet, TEXAS 78611</house_location>
+<county>Burnet</county>
+<price>$139,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>APPROXIMATELY TWO-YEAR-OLD NATIVE ROCK HOUSE ON ABOUT 5 ACRES IN A GREAT SUBDIVISION! A REAL COUNTRY FEEL, YET CLOSE TO TOWN WITH AN EASY COMMUTE TO AUSTIN. DOUBLE BASINS IN BOTH BATHS, PULL OUT CABINET DRAWERS IN THE KITCHEN, CUSTOM CABINETS. GOOD WELL AND FENCED YARD FOR THE CHILDREN!</house_description>
+
+<school_district>Burnet</school_district>
+<sub-division>Twin Creek</sub-division>
+<approx_size_sqft>1640</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>5.01</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>NATIVE ROCK HOME ON ABOUT 5 ACRES!</item>
+<item>IN THE COUNTRY, YET CLOSE TO TOWN!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

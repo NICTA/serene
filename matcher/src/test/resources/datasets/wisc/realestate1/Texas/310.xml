@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jim Duncan</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)913-6861</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21402</id>
+<mls>9133544</mls>
+<house_location>602 West Josephine
+Weatherford, TEXAS 76086</house_location>
+<county>Parker</county>
+<price>$125,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>TWO FOR ONE!  Spacious 2 bdr, 2bath, 2 living areas and study with fireplace AND a 1 bdr, 1 bath cottage.  Both have central heat/air and built-in kitchens.  Large corner lot.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Mccalls</sub-division>
+<approx_size_sqft>1957</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>3</carport_spaces>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

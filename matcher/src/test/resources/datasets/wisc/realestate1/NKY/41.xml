@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>926 WHIRLAWAY</house_location>
+<price>$249,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side)</garage>
+<suburb>TRIPLE CROWN</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>237893</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>DONNA SPELLMAN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>NEAT &amp; CLEAN W/NEUTRAL DECOR*DRAMATIC OPEN 2 STORY FOYER*WOODED LOT*
+BEAUTIFULLY LANDSCAPED*EASY TO SHOW.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>160X168</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 12</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>10 X 13</dimension><level>1</level></breakfast>
+<dining><dimension>16 X 12</dimension><level>1</level></dining>
+<family><dimension>15 X 20</dimension><level>1</level></family>
+<kitchen><dimension>9 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 8</dimension><level>1</level></laundry>
+<living><dimension>12 X 15</dimension><level>1</level></living>
+<master><dimension>18 X 12</dimension><level>2</level></master>
+
+<directions>S ON I-75 TO RICHWOOD EXIR R ON TRIPLE CROWN</directions>
+</house_listing>
+
+
+

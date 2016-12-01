@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Susan Shull</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19994</id>
+<mls>9111291</mls>
+<house_location>4917 Mill Creek Trail
+Fort Worth, TEXAS 76179</house_location>
+<county>Tarrant</county>
+<price>$113,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Exceptional condition! Open concept with lots of living and dining space. landscaped yard.</house_description>
+
+<school_district>Eagle Mountain Saginaw</school_district>
+<sub-division>Twin Mills</sub-division>
+<approx_size_sqft>2025</approx_size_sqft>
+<stories>2</stories>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Exceptional condition</item>
+<item>Lots of space</item>
+<item>Great home for the price</item>
+<item>Ready to go</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

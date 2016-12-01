@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1924 has 4
+bedroom(s), 1 bath(s) and approximately 969 square feet of living
+area.</house_description>
+
+<agent_name>Severo Arreola</agent_name>
+<office>323-727-9339</office>
+<firm_name>Arreola's Realty</firm_name>
+<phone>323-727-9339</phone>
+<fax>323-727-2988</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$159,800</list_price>
+<location>1461 Murchison St</location>
+<mls>M904382</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>969 (approx)</square_feet>
+<lot_size>7500</lot_size>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

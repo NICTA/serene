@@ -1,0 +1,44 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stauffer John E.</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<email>jstauffer@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13717</id>
+<mls>5166</mls>
+<house_location>900 Alpine Trail
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$60,828</price>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Partially Cleared Pretty Track of LandThere are two tracts that can be purchased together for at total of 34.54 AcNew FenceProperty Has A Wet Weather Pond</house_description>
+
+<sub-division>The Highlands</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Great Property</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

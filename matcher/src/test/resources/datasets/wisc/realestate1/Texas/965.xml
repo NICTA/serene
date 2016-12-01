@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maryam Gharbi</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5964</voice_mail>
+<email>lake@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13241</id>
+<mls>476739</mls>
+<house_location>Greenslopes
+Austin, TEXAS 78744</house_location>
+<county>Travis</county>
+<price>$42,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>Owner Financed</item>
+</financing_options>
+
+<house_description>GREAT INVESTMENT PROPERTY.make it home,  this Townhouse has 2 large bedroomsBring all Reasonable offers; Call Maryam Gharbi at (512) 443-8326</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>Greenslopes</sub-division>
+<stories>1</stories>
+<year_built>1980</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Call Century 21 Capital Team at (512) 443-8326</item>
+<item>Appl: Dishwasher/ Disposal /Range/ Refriger</item>
+<item>3 other Units available</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

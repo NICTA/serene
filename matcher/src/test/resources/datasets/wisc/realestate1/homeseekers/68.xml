@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1930 has 2 bedroom(s), 1 bath(s) and
+approximately 2000 square feet of living area.</house_description>
+
+<agent_name>Chris Lamee</agent_name>
+<direct>303-748-3843</direct>
+<office>303-761-3531</office>
+<firm_name>Flanagan Lamee R.E.</firm_name>
+<phone>303-761-3531</phone>
+<fax>303-761-1706</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$148,000</list_price>
+<location>1420 Utica St</location>
+<neighborhood>Sloans Lake, Colfax West</neighborhood>
+<mls>361862</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>2000 (approx)</square_feet>
+<year_built>1930</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

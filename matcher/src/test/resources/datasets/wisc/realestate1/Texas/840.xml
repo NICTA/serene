@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Sharon Danilovich</name>
+<office>(713)686-8543</office>
+<fax>(713)686-8543</fax>
+<voice_mail>(713)709-6581</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14084</id>
+<mls>192704</mls>
+<house_location>7809 Brykerwoods
+in West Houston, TEXAS 77055</house_location>
+<county>Harris</county>
+<price>$285,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>VERY DESIRABLE BRYKERWOODS. CLOSE IN LOCATION. HOME REMODELED IN 1994.SPACIOUS FLOORPLAN, GREAT FLOW, BEAUTIFUL HARDWOOD FLOORS. FABULOUS MASTER BEDROOM WITH MARBLE BATH. PHONE SYSTEM INCLUDING SIX PHONES AND DOOR MONITOR. FRENCH DOORS AND ABUNDANT STORAGE SPACE. THIS HOME WON'T LAST LONG...</house_description>
+
+<school_district>Spring Branch</school_district>
+<sub-division>Brykerwoods Estates</sub-division>
+<approx_size_sqft>2416</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>12700</approx_lot_size>
+<year_built>1950</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>OVERSIZED HEAVILY WOODED LOT</item>
+<item>EXEMPLARY SPRING BRANCH SCHOOLS</item>
+<item>CLOSE TO ALL MAJOR BUS. DISTRICTS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

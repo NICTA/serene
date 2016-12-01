@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Li-Fei Chen</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5949</voice_mail>
+<email>info@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14909</id>
+<mls>496522</mls>
+<house_location>4713 Cedargrove Dr.
+Austin, TEXAS 78744</house_location>
+<county>Travis</county>
+<price>$66,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>EXCELLENT PRICE &amp; SIZE FOR YOUR STARTER HOME. FACING PARK, PLAYGROUND, BBQ AREA. BIG GREEN TREES IN THE BACK YARD. FIREPLACE IN FAMILY ROOM W/SCREEN CONVEY. CEILING FANS. $1000 ALLOWANCE FOR YOUR NEW CARPET.</house_description>
+
+<move-in_date>3/12/99</move-in_date>
+<school_district>Austin ISD</school_district>
+<sub-division>Franklin Park</sub-division>
+<approx_size_sqft>1139</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>60X115</approx_lot_size>
+<year_built>1975</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>ONLY 66,500 FOR 1139SQFT</item>
+<item>FACING PARK, PLAYGROUND...</item>
+<item>BRICK BUILT FIREPLACE</item>
+<item>$1000 CARPET ALLOWANCE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

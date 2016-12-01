@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>214 E 20TH ST</house_location>
+<price>$58,000</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246721</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LARRI R BROWN</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>GREAT STARTER HOME OR INVESTMENT PROPERTY. NEEDS REMODELING. CLOSE TO
+ST. ELIZABETH HOSPITAL. WALK-OUT FROM DINING ROOM, LIVING ROOM AND
+KITCHEN. FENCED YARD.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<dining><dimension>15 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+
+<directions>N RT 17 BECOMES STERRETT, L SCOTT, R WALL ACE, L
+OAKLAND R 21ST L GLENWAY L 20TH</directions>
+</house_listing>
+
+
+

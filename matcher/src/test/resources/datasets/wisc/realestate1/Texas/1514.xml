@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Westfall Real Estate</name>
+<location>157 S. Manse Giddings, TX 78942</location>
+<office>(409)542-1234</office>
+<toll_free></toll_free>
+<fax>(409)542-0078</fax>
+<email>info@westfallrealestate.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Westfall</name>
+<office>(409)542-1234</office>
+<fax>(409)542-0078</fax>
+<email>leon@westfallrealestate.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21007</id>
+<mls>1069</mls>
+<house_location>284 Biscayne
+Giddings, TEXAS 78942</house_location>
+<county>Lee</county>
+<price>$91,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>3 bedroom, 2 bath home with 2 car garage on 2 lots.  Home is located close to city park and has many extras including built in sound system, high plant ledge, fireplace, automatic sprinkler system and fenced back yard.</house_description>
+
+<school_district>Giddings</school_district>
+<sub-division>Hickory Creek</sub-division>
+<approx_size_sqft>1360</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>2lots</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>nice neighborhood</item>
+<item>close to park</item>
+<item>spacious yard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

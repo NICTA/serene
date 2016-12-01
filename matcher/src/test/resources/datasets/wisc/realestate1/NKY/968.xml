@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>504 CLAY</house_location>
+<price>$48,000</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>247087</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>DEBBIE COFFMAN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>NEWER ROOF &amp; WINDOWS, FENCED YARD, NICE LARGE FRONT PORCH*3 STAINED
+GLASS WINDOWS*HOUSE IS IN GREAT CONDITION FOR THE $*CURRENTLY USED AS
+INVESTMENT BUT WOULD MAKE A GOOD STARTER HOME.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 14</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>20 X 10</dimension><level>1</level></kitchen>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>16 X 13</dimension><level>1</level></master>
+
+<directions>6TH AVENUE TO LEFT ON CLAY</directions>
+</house_listing>
+
+
+

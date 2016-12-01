@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bob &amp; Maria Holzmueller</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<email>bob&amp;maria@realtor.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17014</id>
+<mls>507525</mls>
+<house_location>4501 Bilboa Drive
+Austin, TEXAS 78759</house_location>
+<county>Travis</county>
+<price>$139,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Lovely home in popular Balcones Woods.  Excellent location close to all shopping and major highways.  Community amenities include pool, playground, tennis courts, ladies club, &amp; summer swim team.THIS HOME FEATURES:  Formal dining with pretty wall treatments.  Large den with fireplace and cathedral ceiling.  Kitchen and breakfast area with big windows showing off lovely covered deck and beautiful back yard.  Master suite has full bath.  3 other nice sized bedrooms.  Ausin I.S.D. - Davis Elementary, Murchison Middle School, and Anderson High School.</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>Balcones Woods</sub-division>
+<stories>1</stories>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

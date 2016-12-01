@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1955 has 3 bedroom(s), 1
+bath(s) , 2 car detached garage and approximately 816 square feet of
+living area. Rooms include family room. Features include patio,
+fireplace.</house_description>
+
+<agent_name>Eric Bergman</agent_name>
+<direct>509-869-4648</direct>
+<email>BERGI4@AOL.COM</email>
+<firm_name>
+RE/MAX Citywide RE/MAX
+Citywide</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$77,500</list_price>
+<location>1307 Augusta</location>
+<mls>9922801</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>816 (approx)</square_feet>
+<lot_size>45X142</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Oil</heating>
+<fireplace>Wood-burning</fireplace>
+<patio>Patio</patio>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Garage Door Opener, RV/Boat Parking, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

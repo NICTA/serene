@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1940 has 6 bedroom(s), 2 bath(s) and
+approximately 1290 square feet of living area. Rooms include family
+room. Features include view, patio, air conditioning.</house_description>
+
+<agent_name>Tosca Carroll</agent_name>
+<office>305-576-3767</office>
+<firm_name>Choice One Real Es
+Lic. Real Estate Broker</firm_name>
+<phone>305-576-3767</phone>
+<fax>305-604-2589</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$80,000</list_price>
+<location>1801 NW 113 Te</location>
+<neighborhood>Queens Park</neighborhood>
+<mls>M749687</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1290 (approx)</square_feet>
+<lot_size>83 X 106</lot_size>
+<year_built>1940</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<patio>Patio</patio>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>Garden View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

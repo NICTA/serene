@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Canchola</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>19462</id>
+<mls>139419</mls>
+<house_location>2025 TOBEN
+Corpus Christi, TEXAS 78412</house_location>
+<county>Nueces</county>
+<price>$76,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>SPACIOUS HOME, NICELY UPDATED. NEW KITCHEN COUNTERS, WALLPAPER, STOVE, DISHWASHER AND NEW PAINT. CATHEDRAL CEILING, NEW GARAGE DOOR AND OPENER, ROOF 2 YRS OLD, BUILT-IN SHELVES IN FAMILIY ROOM. BUILT IN CHINA IN DINING ROOM.</house_description>
+
+<school_district>Ccisd</school_district>
+<approx_size_sqft>1253</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>56X130</approx_lot_size>
+<year_built>1977</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

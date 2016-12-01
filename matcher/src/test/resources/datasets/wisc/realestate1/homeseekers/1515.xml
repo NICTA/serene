@@ -1,0 +1,32 @@
+<house_listing>
+<house_description>This 2 level single family home has 4 bedroom(s), 4 bath(s) . Rooms
+include dining room, family room, living room, master bedroom.
+Features include fireplace.</house_description>
+
+<agent_name>Balbir Saral</agent_name>
+<direct>905-629-4353</direct>
+<office>905-672-1234</office>
+<firm_name>Homelife/United Realty Inc.
+Lic. Real Estate Broker</firm_name>
+<phone>905-672-1234</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$269,000</list_price>
+<location>Burlington,Ontario,</location>
+<mls>LM0787</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4</baths>
+<type>Single Family</type>
+<lot_size>50.00x100.06</lot_size>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<rooms>Dining Room, Family Room, Living Room, Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

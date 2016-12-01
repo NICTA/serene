@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>721 GARRARD</house_location>
+<price>$182,500</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>3 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>245629</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>GERRI JONES</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINCE.COM*GRAND RAHAB*QUAINT SETTING*WALK TO
+RIVER AND DOWNTOWN RESTAURANTS*ALL MECHANICS, ELEC, ROOF, BATHS, AND
+KIT UPDATED WITHIN 10 YR*HDWD FLRS, EXPOSED BRICK*MOVE IN CONDITION</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25x95</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>14 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>29 X 14</dimension><level>3</level></bedroom_3>
+<dining><dimension>21 X 17</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 14</dimension><level>1</level></kitchen>
+<laundry><dimension>14 X 5</dimension><level>2</level></laundry>
+<living><dimension>13 X 10</dimension><level>1</level></living>
+<master><dimension>17 X 15</dimension><level>2</level></master>
+
+<directions>75 TO 5TH ST R ON GARRARD</directions>
+</house_listing>
+
+
+

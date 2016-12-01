@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>112 MASON POINTE</house_location>
+<price>$84,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>MAYSVILLE</suburb>
+<school_dist>MASON CO</school_dist>
+<mls>250141</mls>
+<house_type>Condominium</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>BARBARA LENNEX</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description></house_description>
+<construction>Brick</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>N/A</lot_dimensions>
+<condo_level>3</condo_level>
+<hoa_fee>75</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>3</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>3</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>3</level></bedroom_2>
+<dining><dimension>9 X 12</dimension><level>3</level></dining>
+<kitchen><dimension>13 X 11</dimension><level>3</level></kitchen>
+<laundry><dimension></dimension><level>3</level></laundry>
+<living><dimension>15 X 20</dimension><level>3</level></living>
+<master><dimension>17 X 12</dimension><level>3</level></master>
+
+<directions>US 27 S TO AA HWY TO MAYSVILLE, L ON #68 TO
+MOODY DR, R ON MOODY</directions>
+</house_listing>
+
+
+

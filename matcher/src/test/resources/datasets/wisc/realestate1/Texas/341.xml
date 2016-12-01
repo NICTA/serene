@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Earl Senter</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)517-3379</mobile>
+<email>EARLSENTER@DIGITEX.NET</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17949</id>
+<mls>9085894</mls>
+<house_location>108 E Lone Star
+Cleburne, TEXAS 776031</house_location>
+<county>Johnson</county>
+<price>$47,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>THIS OLDER FRAME HOME WITH VINYL SIDING IS ON TWO LOTS, AND SHADED BY PECAN TREES.  THE ONE CAR DETACHED GARAGE WITH DOOR OPENER AND WORKBENCH.  KITCHEN RANGE AND REFRIGERATOR REMAIN.</house_description>
+
+<school_district>Cleburne I S D</school_district>
+<sub-division>Original Cleburne</sub-division>
+<approx_size_sqft>1316</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>120x150</approx_lot_size>
+<approx_acres>0.41</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>PECAN TREES</item>
+<item>TWO LOTS</item>
+<item>NEAR DOWNTOWN</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

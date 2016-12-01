@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>1902 SCOTT</house_location>
+<price>$59,900</price>
+<rooms>7</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>244314</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>KAREN REAMS</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* HUGE ROOMS * FENCED YARD WITH PRIVACY FENCE IN REAR * BASEMENT WATER
+PROOFED * NICE FRONT PORCH * NEW WALL-TO-WALL CARPET * FRESHLY PAINTED
+INSIDE * MOVE IN CONDITION *</house_description>
+<construction>Alum,Shingle</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE PLAT</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>14 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>14 X 13</dimension><level>2</level></bedroom_4>
+<dining><dimension></dimension><level>1</level></dining>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>14 X 13</dimension><level>1</level></master>
+<study><dimension>10 X 10</dimension><level>2</level></study>
+
+<directions>SCOTT STREET</directions>
+</house_listing>
+
+
+

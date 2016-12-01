@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1989 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 3 car garage and approximately 2174 square
+feet of living area. Rooms include dining room. Features include view,
+patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Vincent Yackanin CRS</agent_name>
+<direct>520-529-6292</direct>
+<office>520-299-2777</office>
+<firm_name>Realty Executives-Tuc Realty Executives-Tuc</firm_name>
+<phone>520-299-2777</phone>
+<fax>520-299-5969</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$277,500</list_price>
+<location>6401 E Placita Zacatecas</location>
+<mls>2000517</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2174 (approx)</square_feet>
+<lot_size>137X102X97X163 +/-</lot_size>
+<year_built>1989</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

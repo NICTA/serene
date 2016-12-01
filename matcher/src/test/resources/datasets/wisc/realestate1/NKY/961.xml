@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>807 7TH AV</house_location>
+<price>$79,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>DAYTON</suburb>
+<school_dist>DAYTON</school_dist>
+<mls>249247</mls>
+<house_type>Single Family</house_type>
+<firm>W.C. THARP &amp; SON</firm>
+<firm_phone>(606) 291-0266</firm_phone>
+<agent>CHARLES THARP</agent>
+<agent_phone>(606) 291-0266</agent_phone>
+<house_description>FURNACE &amp; C/A- 1995, REPLACEMENT SASH- 1996,NEW FRONT PORCH, 1996,
+ROOF- 1995, 18X18 BSMT, PANELLED FAMILY RM.</house_description>
+<construction>Alum</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>35x55</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>B</level></bath_2>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>5 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 14</dimension><level>1</level></dining>
+<family><dimension>18 X 18</dimension><level>B</level></family>
+<kitchen><dimension>9 X 11</dimension><level>1</level></kitchen>
+<living><dimension>12 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>2</level></master>
+
+<directions>E ON 6TH, S AT CLAY TO 7TH, E ON 7TH</directions>
+</house_listing>
+
+
+

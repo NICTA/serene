@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>SUSAN YOUNGBLOOD</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<voice_mail>(512)794-2099 141</voice_mail>
+<mobile>(512)656-6665</mobile>
+<email>susany@onr.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17217</id>
+<mls>510916</mls>
+<house_location>13007 Huntwood Cove
+Austin, TEXAS 78729</house_location>
+<county>Williamson</county>
+<price>$215,000</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Gleaming hardwoods. This immaculate home shows like a model. Fabulous, rare 5 bedroom with 1 bedroom &amp; 1 full bath down!  Enormous 3rd living area upstairs. Master is up and has a large sitting area. Large bedrooms. Lots of windows. Cul-de-sac location! Large deck for entertaining family and friends. Sprinkler system. New roof 7/99. Lots of brick detailing in landscape planning. Walk to Homeowner&amp;#8217;s Park and pool. Exemplary elementary. Ten minutes from Arboretum. Great family neighborhood. Meet your new neighbors while jogging and walking!</house_description>
+
+<move-in_date>7/10/99</move-in_date>
+<school_district>Round Rock</school_district>
+<approx_size_sqft>3219</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>Culdesac</approx_lot_size>
+<year_built>1993</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>LARGE TREES!</item>
+<item>CUL-DE-LOT!</item>
+<item>EXEMPLARY ELEMENTARY!</item>
+<item>GREAT NEIGHBORHOOD!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

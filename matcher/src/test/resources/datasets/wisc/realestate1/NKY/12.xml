@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>139 JONES RD #A</house_location>
+<price>$106,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-1</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Detached,Oversized)</garage>
+<suburb>LOCUST CREEK</suburb>
+<school_dist>BRACKEN CO</school_dist>
+<mls>247320</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>KEMPER KLEIER</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>WHAT A RARE FIND!THIS STONE A-FRAME SITS ON LOCUST CREEK AND MAINTAINS
+A FABULOUS VIEWS IN ALL SEASONS.TWO TIERED DECK,ROCK WBFP,HOT TUB,35'
+HOUSE- BOAT,DOCK,WORKSHOP(DETACH),LOTS OF CREEK FRONTAGE.ONLY 1 HR
+FROM FLORENCE!</house_description>
+<construction>Stone</construction>
+<heating>None</heating>
+<cooling>None</cooling>
+<fireplace>Wood,Stone</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 12</dimension><level>1</level></bedroom_2>
+<family><dimension>13 X 23</dimension><level>L</level></family>
+<kitchen><dimension>11 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 10</dimension><level>L</level></laundry>
+<living><dimension>21 X 12</dimension><level>1</level></living>
+<master><dimension>10 X 12</dimension><level>1</level></master>
+
+<directions>AA HWY 23 MILES TO L ON 2228.GO R ON RT 8 GO 5.9
+MI TO R ON LOCUST CRK .3 TO ST</directions>
+</house_listing>
+
+
+

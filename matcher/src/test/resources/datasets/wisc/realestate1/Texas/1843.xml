@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Team Wheatley</name>
+<location>2100 Trimmer Rd. Suite 104 Killeen, TX 76541</location>
+<office>(254)699-8444</office>
+<toll_free>(888)213-0795</toll_free>
+<fax>(254)699-8496</fax>
+<email>teamwheat@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carlos Flores</name>
+<office>(254)699-8444</office>
+<fax>(254)699-8496</fax>
+<mobile>(254)681-5015</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21675</id>
+<mls></mls>
+<house_location>402 North 3rd Street
+Nolanville, TEXAS 76559</house_location>
+<county>Bell</county>
+<price>$54,300</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Cute 3 bedroom, 1.75 bath home in Nolanville.  Great starter home.</house_description>
+
+<school_district>Killeen Isd</school_district>
+<approx_size_sqft>1045</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>97x109</approx_lot_size>
+<approx_acres>0.25</approx_acres>
+<year_built>1978</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

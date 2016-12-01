@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Hassan Jaffar</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5971</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>16112</id>
+<mls>500661</mls>
+<house_location>3609 Hawk View Dr
+Austin, TEXAS 78664</house_location>
+<county>Travis</county>
+<price>$116,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Pasious home in like new condition.  Located on dead end street with beautiful meadow view.Bright and large Kitchen.Nicely decorated children rooms.Very spacious master bedroom.BEST PRICE IN THE AREA.The Austin residential market is very active and properties such as this one move quickly.</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Meadow Lake</sub-division>
+<approx_size_sqft>1920</approx_size_sqft>
+<stories>2</stories>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Wood Fence</item>
+<item>Central A/C</item>
+<item>Landscape Frontyard</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

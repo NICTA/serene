@@ -1,0 +1,47 @@
+<house_listing>
+<price>$69,000</price>
+<mls_id_number>368074</mls_id_number>
+<address>1170 Norway St NE</address>
+<city>Salem</city>
+<st>OR</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>1152</sqft>
+<year_built></year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage></garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<features><item>Shed</item>
+<item>Patio</item>
+<item>Landscaped</item>
+<item>Room For RV</item>
+</features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<comments>Home sold as is. great rental, was renting for $595.00 currently vacant. RM zoned.</comments>
+<for_more_information_contact>
+<agent_name>Janey Mills</agent_name>
+<firm_name>Windermere Pacific West Properties, Inc.</firm_name>
+<firm_location>4275 Commercial St. SE Suite 100
+Salem, OR</firm_location>
+<office_phone>503-391-1350</office_phone>
+<fax>503-391-9960</fax>
+<cell_phone>884-7615</cell_phone>
+<e-mail>salem@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

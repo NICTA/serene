@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>206 S WATCHTOWER</house_location>
+<price>$85,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WILDER</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249178</mls>
+<house_type>Condominium</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>HOLLY ASHCRAFT</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>LESS THAN 2 YRS LIKE NEW BEAUMONT MODEL*NEUTRAL DECOR*LR WALKOUT TO
+PATIO AND LAWN AREA*SATELLITE WITH DIRECT TV*SURROUND SOUND PREWIRED
+DURING CONSTRUCTION*1/2 BLK TO BUS*MUST SEE!!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level>LL</condo_level>
+<hoa_fee>95</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 12</dimension><level>1</level></bedroom_2>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>10 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 9</dimension><level>1</level></laundry>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 17</dimension><level>1</level></master>
+
+<directions>US27 R MARTHA LAYNE COLLINS TO JOHNS HILL L
+INTO SIGNAL HILL L ON S WATCHTOWER</directions>
+</house_listing>
+
+
+

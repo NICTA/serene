@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>108 STEVENSON</house_location>
+<price>$199,900</price>
+<rooms>10</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>ERLANGER</suburb>
+<school_dist>ERL/ELSMERE</school_dist>
+<mls>250026</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>ROD FUSSINGER</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>BUILT IN 1826.9FT CEILLINGS ON 1ST FLOOR.10 ROOMS.NEARLY 4000 SQ FT.4
+FIRE- PLACES.1ST FL LAUNDRY.LARGE CENTRAL HALL.ROOF 2 YRS OLD.</house_description>
+<construction>Brick</construction>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>150 x 150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_3><dimension>13 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 13</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>13 X 13</dimension><level>2</level></bedroom_5>
+<dining><dimension>16 X 15</dimension><level>1</level></dining>
+<family><dimension>14 X 13</dimension><level>2</level></family>
+<kitchen><dimension>15 X 13</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 7</dimension><level></level></laundry>
+<master><dimension>16 X 16</dimension><level>1</level></master>
+<study><dimension>16 X 16</dimension><level>1</level></study>
+
+<directions>DIXIE HWY TO STEVENSON RD 4TH HOUSE ON LEFT</directions>
+</house_listing>
+
+
+

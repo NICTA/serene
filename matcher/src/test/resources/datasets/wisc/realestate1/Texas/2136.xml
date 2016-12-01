@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kay Wesson</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<mobile>(512)497-7200</mobile>
+<email>kcwesson@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21616</id>
+<mls></mls>
+<house_location>104 Kona Drive
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$119,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Well-located, Well-built, and Well-maintained!  You and your family will love this 3/2/2 home on a nice, corner lot in Tahitian Village.  Formal dining.  Fireplace. Washer and dryer included. Beautiful park-like setting with large trees, above ground pool, and fish pond!  Fenced backyard. 0.5+/- Acre lot.  Home warranty included.  Call or e-mail is today for more information.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Tahitian Village</sub-division>
+<approx_lot_size>0.5</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

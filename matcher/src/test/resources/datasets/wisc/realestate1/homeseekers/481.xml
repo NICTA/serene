@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level townhouse built in 1979 has 3 bedroom(s), 2 bath(s) and
+approximately 1254 square feet of living area. Features include air
+conditioning, storage space.</house_description>
+
+<agent_name>Diane Edwards</agent_name>
+<direct>520-918-5859</direct>
+<office>520-918-4800</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-918-4800</phone>
+<fax>520-296-6093</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$84,900</list_price>
+<location>8905 E Calle Norlo</location>
+<mls>9921626</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse</type>
+<square_feet>1254 (approx)</square_feet>
+<lot_size>35X81X35X81</lot_size>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

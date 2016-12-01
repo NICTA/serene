@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>Flood Real Estate</name>
+<location>701 W.Cen Tex Expwy Killeen, TX 76541</location>
+<office>(254)526-8100</office>
+<toll_free>(800)642-2950</toll_free>
+<fax>(254)526-7772</fax>
+<voice_mail>(254)554-4096</voice_mail>
+<email>flewis@genstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Joseph Kidd</name>
+<office>(254)526-8100</office>
+<fax>(254)526-7772</fax>
+<voice_mail>(254)554-4096</voice_mail>
+<mobile>(254)628-9733</mobile>
+<email>kiddj1@juno.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>8471</id>
+<mls>82893</mls>
+<house_location>2201 Chafin Drive
+Killeen, TEXAS 76543</house_location>
+<county>Bell</county>
+<price>$67,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>3 Bedrooms, 2 Baths, Large Tree Covered Corner Lot, Side Entry Garage Conversion</house_description>
+
+<school_district>Killeen High</school_district>
+<sub-division>Copperfield Addition</sub-division>
+<approx_size_sqft>1254</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>65 X 110</approx_lot_size>
+<approx_acres>0.2</approx_acres>
+<year_built>1987</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Security Systemc</item>
+<item>Call Agent for Code</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

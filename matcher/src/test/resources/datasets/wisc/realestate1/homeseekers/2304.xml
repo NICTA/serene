@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Super nice home, new dishwasher, new elec stove, built in microwave,
+new roof, carpet in lr, dr, fam rm &amp; hallway almost new. Nice bay
+window in kit, dr &amp; lr, upgraded light fixtures - very clean property!</house_description>
+
+<agent_name>Jackie Thomas</agent_name>
+<office>757-495-1900</office>
+<firm_name>Wainwright Real Estate</firm_name>
+<phone>757-495-1900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$134,900</list_price>
+<location>Virginia Beach, VA 23456</location>
+<mls>9927250</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<type>Single Family</type>
+<style>Colonial</style>
+<square_feet>2100 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Heat Pump</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<patio>Deck</patio>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Colonial Style, Fenced, Garage Door Opener,Microwave, Utility Room, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

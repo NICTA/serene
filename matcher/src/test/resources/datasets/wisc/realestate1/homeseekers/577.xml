@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This home built in 1970 has 2 bedroom(s), 2 bath(s) . Rooms include
+master bedroom.</house_description>
+
+<agent_name>Catherine S. Mortenson</agent_name>
+<office>602-955-0390</office>
+<firm_name>Coldwell Banker Success Realty Coldwell Banker Success Realty</firm_name>
+<phone>602-955-0390</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$45,500</list_price>
+<location>Phoenix, AZ 85018</location>
+<mls>1456319</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<type>Townhouse/Condo</type>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<pool>Community Pool</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Ceiling Fan(s), Dining/Living Combo, Dishwasher
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

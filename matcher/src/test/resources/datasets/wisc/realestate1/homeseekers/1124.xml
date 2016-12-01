@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This single family home built in 1997 has 4 bedroom(s), 2 bath(s) , 3
+car garage. Rooms include family room, master bedroom. Features
+include view, patio, fireplace.</house_description>
+
+<agent_name>Frank Russo</agent_name>
+<office>623-362-3000</office>
+<firm_name>RE/MAX Integrity Realtors RE/MAX Integrity Realtors</firm_name>
+<phone>623-362-3000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$289,000</list_price>
+<location>Phoenix, AZ 85086</location>
+<mls>1460830</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<lot_size>2 TO 4.9 AC</lot_size>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher, Eat InKitchen, Garage Door Opener, Kitchen Island, Library, Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1974 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 2147 square
+feet of living area. Features include view, patio, fireplace, air
+conditioning, storage space.</house_description>
+
+<agent_name>Donita Wheeler</agent_name>
+<direct>520-742-7208</direct>
+<office>520-297-1186</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-297-1186</phone>
+<fax>520-297-1005</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$279,000</list_price>
+<location>750 W Golf View Dr</location>
+<mls>9915997</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2147 (approx)</square_feet>
+<lot_size>138.54X203X144X204</lot_size>
+<year_built>1974</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Living Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

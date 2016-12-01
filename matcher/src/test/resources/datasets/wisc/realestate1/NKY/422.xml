@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>1158 MACINTOSH LN</house_location>
+<price>$122,500</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>248649</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>CINDY BROUILLETTE</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>EXQUISITE CONDITION LOADED W/EXTRAS EXCITING CATHEDRAL CEILING/PLANT
+LEDGES CUSTOM PENINSULA BKFST BAR KITCH LUXURY MASTER BATH W/OVERSIZED
+SOAKING TUB WALKOUT FROM DIN RM OR LL FAMILY RM LOW-MAITNENACE
+EXTERIOR SAFE CUL-DE-SAC</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>81x111cds</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>13 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<family><dimension>23 X 14</dimension><level>L</level></family>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 7</dimension><level>L</level></laundry>
+<living><dimension>14 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>RT18 OR 42 TO HOPEFUL CHURCH RD TO CAYTON R
+MACINTOSH IMMED VEER LEFT ON MACINTOSH</directions>
+</house_listing>
+
+
+

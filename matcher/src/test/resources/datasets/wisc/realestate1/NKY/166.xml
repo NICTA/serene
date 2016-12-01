@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>10836 DORAL CT</house_location>
+<price>$127,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>248383</mls>
+<house_type>Condominium</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>DEBRA DIXON</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * SHOWS LIKE MODEL 'CHESAPEAKE' *PROFESSIONALLY DECORATED
+* LOWER LEVEL FAMILY RM * WBFP * BERBER CARPET * ALL THE BEST UPGRADED
+APPLICANCES * MUST SEE WHIRLPOOL MASTER *</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>80</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<family><dimension>20 X 14</dimension><level>L</level></family>
+<kitchen><dimension>10 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+
+<directions>I-75 SO TO RICHWOOD EXIT TURN R TO R INTO
+TRIPLE CROWN L ON TURNBERRY L DORAL CT</directions>
+</house_listing>
+
+
+

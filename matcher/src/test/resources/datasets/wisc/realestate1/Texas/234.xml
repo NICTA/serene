@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>DUFFY &amp; LaROE-REALTORS NW</name>
+<location>6263 FM 1960 W Houston, TX 77069</location>
+<office>(281)444-0551</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)444-0717</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>Karen DeSantis</name>
+<office>(281)444-0551</office>
+<fax>(281)444-0717</fax>
+<voice_mail>(281)444-0551 23</voice_mail>
+<mobile>(281)217-7552</mobile>
+<email>karendesantis@dlrealtors.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12837</id>
+<mls>160238</mls>
+<house_location>13334 E. CYPRESS FOREST
+Houston, TEXAS 77070</house_location>
+<county>Harris</county>
+<price>$105,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Darling Country Cottage on almost 1/2 Acre!  Feed the deer that walk up to your backyard!!Large country kitchen and breakfast room, ceramic tile in both bathrooms, including vanities!!Large rooms - even the utility room is 8 X 11!  Located 5 minutes from major Northwest employer in award-winning Cy-Fair School District.  Country living close in!  Minutes from large mall and major thoroughfares.  Lovely wooded neighborhood.</house_description>
+
+<move-in_date>12/14/98</move-in_date>
+<school_district>Cy-fair</school_district>
+<sub-division>Cypress Forest</sub-division>
+<approx_size_sqft>1744</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>21,250</approx_lot_size>
+<year_built>1972</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Country Living close to everything</item>
+<item>Large room sizes</item>
+<item>Award-winning school district</item>
+<item>Wooded 1/2 Acre Lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

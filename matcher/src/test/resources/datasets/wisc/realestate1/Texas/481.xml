@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Huff</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-0075</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21586</id>
+<mls>529260</mls>
+<house_location>168 Kalalea
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$96,800</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Hardy board exterior.  Landscaping in progress.  Ceramic tile, fireplace, vaulted ceiling, and french doors.  Easy commute to Austin</house_description>
+
+<school_district>Basrop</school_district>
+<sub-division>Tahitian Village</sub-division>
+<stories>1</stories>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>New home.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

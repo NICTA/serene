@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1997 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 1790 square
+feet of living area. Rooms include dining room. Features include view,
+patio, air conditioning.</house_description>
+
+<agent_name>Bridget Terribile</agent_name>
+<direct>520-489-7094</direct>
+<office>520-790-7320</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-790-7320</phone>
+<fax>520-790-7574</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$135,000</list_price>
+<location>3668 W Camino De Caliope</location>
+<mls>9915882</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1790 (approx)</square_feet>
+<year_built>1997</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

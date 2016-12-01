@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>228 CLAXON DR</house_location>
+<price>$127,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>FLORENCE</suburb>
+<school_dist>BOONE</school_dist>
+<mls>247817</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>EDITH HAHN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>3 BEDROOM FULL BRICK*BATH OFF MASTER BDRM PLUS FULL OFF HALL*NEWER
+CARPET* NEUTRAL DECOR*FR W/WBFP ON LL*LG INGROUND POOL*HUGE DECK OFF
+DIN RM*2 CAR GAR W/DR OPENER*ANDERSON WINDOWS*FENCED
+YD*CUL-DE-SAC*APPLIANCES NEGOTIABLE</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>24 X 16</dimension><level>L</level></family>
+<kitchen><dimension>9 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 13</dimension><level>L</level></laundry>
+<living><dimension>16 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>US 18 TO KATHRYN TO R ON COLONIAL TO L ON CLAXON</directions>
+</house_listing>
+
+
+

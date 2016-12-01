@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>276 SWAPS CT</house_location>
+<price>$125,800</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Side,Oversized)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249525</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LARRI R BROWN</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>MASTER BATH*2 CAR*FULL BSMT*FULL FRONT PORCH*2/10 WARRANTY*BUYER PICKS
+FLOORING*1 YR PROF LAWN SVC*6 PANEL DOORS*COZY 2 STORY*LOT BACKS UP TO
+WOODS*REFRIGERATOR W/ICE MAKER, STOVE &amp; DISHWASHER INCLUDED.</house_description>
+<construction>Brick,Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>10 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>9 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>6 X 6</dimension><level>L</level></laundry>
+<living><dimension>18 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 16</dimension><level>2</level></master>
+
+<directions>I-75 TO FLOR/BURL EX R ON 18 R ON 237 L ON
+CONRAD L ON STRIKE-THE-GOLD L SWAPS</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Michelle Knight</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<voice_mail>(361)853-6777 137</voice_mail>
+<email>MLCSSK@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19467</id>
+<mls>139773</mls>
+<house_location>15217 LEEWARD B4
+Corpus Christi, TEXAS 78418</house_location>
+<county>Nueces</county>
+<price>$48,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GORGEOUS CONDO ON LAKE PADRE. COMPLETELY REMODELED. UPDATED BATHS, CERAMIC TILE, FULLY FURNISHED. PERFECT SECOND OR VACATION HOME.</house_description>
+
+<school_district>Flour Bluff</school_district>
+<sub-division>Lorimar Place Condos</sub-division>
+<approx_size_sqft>525</approx_size_sqft>
+<year_built>1983</year_built>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

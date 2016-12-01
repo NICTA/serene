@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bill Berry</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 236</voice_mail>
+<email>bberry21.juno.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20906</id>
+<mls>525785</mls>
+<house_location>11203 Jack Rabbit
+Austin, TEXAS 78750</house_location>
+<county>Williamson</county>
+<price>$116,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>BACKYARD PARADISE!! COVERED PATIO, LANDSCAPED, BACKS TO GREENBELT! UPDATED HOME, TILE, LAUNDRY ROOM ADDITION, CUSTOM PAINT INSIDE AND OUT. 1655 SQFT. PER OWNER! SPRINKLER SYSTEM, NEW ROOF! PRIDE IN OWNERSHIP SHOWS THROUGHOUT. WON'T LAST LONG!!</house_description>
+
+<school_district>Round Rock, Purple, Grisham, Westwood</school_district>
+<sub-division>Village 16 At Anderson Mill</sub-division>
+<approx_size_sqft>1655</approx_size_sqft>
+<stories>2</stories>
+<year_built>1981</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

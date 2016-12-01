@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Bill Chess Real Estate</name>
+<location>714-B Chestnut Bastrop, TX 78602</location>
+<office>(512)303-3806</office>
+<toll_free></toll_free>
+<fax>(512)303-3839</fax>
+<email>bchess@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ray Walker</name>
+<office>(512)303-3806</office>
+<fax>(512)303-3839</fax>
+<mobile>(512)784-8961</mobile>
+<email>WalkerRayS@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20866</id>
+<mls>525938</mls>
+<house_location>134 Pine Shadow Ln.
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$91,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description></house_description>
+
+<school_district>Bastrop</school_district>
+<sub-division>Pine Forrest</sub-division>
+<approx_size_sqft>1768</approx_size_sqft>
+<approx_acres>0.71</approx_acres>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

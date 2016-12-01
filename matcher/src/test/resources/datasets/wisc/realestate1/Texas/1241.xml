@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Wimberley Land Company</name>
+<location>P.O. Box 1 Wimberley, TX 78676</location>
+<office>(512)847-2291</office>
+<toll_free></toll_free>
+<fax>(512)847-3547</fax>
+<email>wlco@wimberley-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Marty Flowers</name>
+<office>(512)847-2291</office>
+<fax>(512)847-3547</fax>
+<voice_mail>(512)847-2291 130</voice_mail>
+<mobile>(512)923-9698</mobile>
+<email>martyf@wimberley-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17981</id>
+<mls>514372</mls>
+<house_location>900 Little Ranches Road
+Wimberley, TEXAS 78676</house_location>
+<county>Hays</county>
+<price>$395,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT SOUTHEAST VIEWS of the Blanco River Valley and surrounding hills.  This 3/3.5 home with three car carport, office, game room, craft room, tile floors, fireplace in both living &amp; master suite that has huge closets, double head shower, and jacuzzi with garden windows to enjoy the views.  This spectacular home also has a separate guest house ideal for the large family, those who enjoy entertaining or just want to retreat to the quiet side of Wimberley.</house_description>
+
+<school_district>Wimberley Isd</school_district>
+<sub-division>Flite Acres Little Ranches</sub-division>
+<approx_size_sqft>3165</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>11</approx_acres>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>3</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Spacious and Open</item>
+<item>Spectacular Views!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

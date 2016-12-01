@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>'Windsor' model to be built. F.R.O.G. Is large 4th bedrm. Master has
+vaulted ceiling &amp; full bath, 2 closets. Formal dining rm has swirled
+ceiling, chair rail. This model is a lot of value for the money. Bldr
+to pay cc/1pt, bldr to choose lender.</house_description>
+
+<agent_name>Jerome Miller</agent_name>
+<office>757-587-8801</office>
+<firm_name>Miller Realty Inc.</firm_name>
+<phone>757-587-8801</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$110,000</list_price>
+<location>Norfolk, VA 23505</location>
+<mls>9932763</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<style>Traditional</style>
+<square_feet>1966 (approx)</square_feet>
+<lot_size>50 X 100</lot_size>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Gas lighter/pipe</fireplace>
+<location>Corner</location>
+<patio>Patio</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Cathedral/Vaulted Ceilings
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

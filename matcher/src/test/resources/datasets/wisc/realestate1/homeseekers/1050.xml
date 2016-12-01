@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 3+ level attached townhouse built in 1976 has 3 bedroom(s), 2
+full bath(s)/2 half bath(s) . Rooms include master bedroom.</house_description>
+
+<agent_name>Diane Freeman</agent_name>
+<direct>301-390-0817</direct>
+<office>301-499-0049</office>
+<firm_name>Realty Executives/2000</firm_name>
+<phone>301-499-0049</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$108,000</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC3021504</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 2(half)</baths>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<lot_size>2170</lot_size>
+<year_built>1976</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Heat Pump</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Home Warranty
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

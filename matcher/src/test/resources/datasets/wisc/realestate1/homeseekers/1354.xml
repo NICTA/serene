@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 1 level attached single family home built in 1947 has 3
+bedroom(s), 2 bath(s) , 1 car attached garage and approximately 1526
+square feet of living area. Rooms include den, dining room, living
+room. Features include patio.</house_description>
+
+<agent_name>Farukh Bashir</agent_name>
+<office>909-593-1144</office>
+<firm_name>RE/MAX Gateway RE/MAX Gateway</firm_name>
+<phone>909-593-1144</phone>
+<fax>909-593-6646</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$175,500</list_price>
+<location>4636 Druid St</location>
+<mls>C913150</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1526 (approx)</square_feet>
+<lot_size>6120</lot_size>
+<year_built>1947</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Living Room</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

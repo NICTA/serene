@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Amy Castillo</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)269-7505</mobile>
+<email>amy1@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21547</id>
+<mls>9136006</mls>
+<house_location>103 N. Barron
+Covington, TEXAS</house_location>
+<county>Hill</county>
+<price>$149,900</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>*All room sizes approx*  Victorian treasure!  Looking for a quiet town atmosphere, but want a large unique home.  Here it is in Covington.  *A must see*  Conviently located.  Detached oversized 2 car garage, dog run, trees, covered L-shaped porch on large 1/2 acre lot.  Priced to go.  *Remodeled* Updated* Turn Century Treasure!!  1 yr. home warranty.  Call Amy for appointment 269-7505 or 558-8955.</house_description>
+
+<school_district>Covington Ind. School</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>3233</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>0.55</approx_acres>
+<year_built>1911</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

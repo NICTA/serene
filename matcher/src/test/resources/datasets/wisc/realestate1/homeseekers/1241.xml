@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1998 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1350 square feet of living
+area. Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Carrie Gabri Strom</agent_name>
+<direct>520-885-9817</direct>
+<office>520-885-9817</office>
+<firm_name>Longhorn Realty</firm_name>
+<phone>520-885-9817</phone>
+<fax>520-885-9817</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$134,900</list_price>
+<location>12162 N Sterling Ave</location>
+<mls>9910105</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1350 (approx)</square_feet>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

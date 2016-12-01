@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>3025 SPARTA-NEW LIB</house_location>
+<price>$124,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Detached)</garage>
+<suburb>SPARTA</suburb>
+<school_dist>OWEN</school_dist>
+<mls>249375</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>JIM ROBINSON</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>THIS 3BR 2.5 BATH MODULAR HAS MORE UPGRADES THAN WE CAN LIST-SITS ON
+APPROX 2AC-2CAR OVERSIZED GARAGE-LG DECK &amp; FRONT PORCH-COUNTRY KITCHEN
+W/ISLAND LOTS OF LIVING AREA FOR THE MONEY-ENJOY THE COUNTRYSIDE ONLY
+10MIN FROM I71</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>14 X 14</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>14 X 14</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 20</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 9</dimension><level>1</level></laundry>
+<living><dimension>36 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>1</level></master>
+
+<directions>I71 EXIT 57 L TO SPARTA CROSS TRACKS R ON 2 MI
+RD KEEP RT IN Y TO SIGN ON RIGHT</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>SIGRUN BURKE</name>
+<office>(713)621-4953</office>
+<fax></fax>
+<voice_mail>(713)621-4953 138</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11516</id>
+<mls>141368</mls>
+<house_location>742 COUNTRY LANE
+Houston, TEXAS 77024</house_location>
+<county>Harris</county>
+<price>$329,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>WONDERFUL HUNTER'S CREEK HOME WITH BEAUTIFUL HARDWOODS, TILE FLOORS, UPDATED KITCHEN AND LIGHT &amp; AIRY SUN-ROOM/DEN-HANDSOME WOODED LOT IN A GREAT LOCATION-WALK TO HUNTER'S CREEK ELEMENTARY SCHOOL-SHOWS VERY WELL! JUST REDUCED! HURRY, THIS BEAUTY WON'T LAST.</house_description>
+
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>EXCLUSIVE HUNTERS CREEK VILLAGE</item>
+<item>GREAT SCHOOLS</item>
+<item>HARDWOODS, TILE FLOORS, UPDATED KITCHEN</item>
+<item>LIGHT - BRIGHT - GREAT LOCATION</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

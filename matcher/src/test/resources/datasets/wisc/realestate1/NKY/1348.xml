@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>9149 JUNIPR LN</house_location>
+<price>$114,000</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249944</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX BEST GROUP</firm>
+<firm_phone>(513) 791-6900</firm_phone>
+<agent>JOCELYN ROBINSON</agent>
+<agent_phone>(513) 791-6900</agent_phone>
+<house_description>TASTEFULLY DECORATED BI LEVEL W/GORGEOUS BACKYARD, CULDESAC ST.
+TOTALLY UP DATED , PAINTED, MICROWAVE &amp; REFRIG. STAY</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Elec</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>150X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$70090</semiannual_taxes>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>19 X 9</dimension><level>1</level></dining>
+<family><dimension>25 X 12</dimension><level>1</level></family>
+<kitchen><dimension>10 X 8</dimension><level>1</level></kitchen>
+<living><dimension>15 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+<recreation_room><dimension>14 X 11</dimension><level>1</level></recreation_room>
+
+<directions>275 TO ROUTE 17,L ON HANDS PIKE. TURN ON
+TAMOROCK R. ON RIDGCREST</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Damron</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)393-4752</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>9773</id>
+<mls>4694</mls>
+<house_location>740 Willow Ridge
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$450,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Very fine home - Beautiful view!  Stately red-brick 4 Bedroom/3.5 Bathroom home plus study.  2 Living areas &amp; 2 Dining areas, pool &amp; hot tub.  Excellent location!  Custom features throughout!</house_description>
+
+<school_district>San Marcos</school_district>
+<approx_size_sqft>4200</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>1.43 Acre</approx_lot_size>
+<year_built>1991</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>3</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>View! Large quality home</item>
+<item>4 BD/3.5 BA, pool, hot tub</item>
+<item>Gourmet kitchen with granite island.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

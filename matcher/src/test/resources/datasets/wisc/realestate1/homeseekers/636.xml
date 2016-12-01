@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 3+ level attached townhouse built in 1939 has 3 bedroom(s), 1
+bath(s) , 1 car garage and approximately 1496 square feet of living
+area. Rooms include dining room, master bedroom.</house_description>
+
+<agent_name>Bob Jones</agent_name>
+<direct>703-525-9452</direct>
+<office>301-933-2699</office>
+<firm_name>Jobin Realty, Inc.</firm_name>
+<phone>301-933-2699</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$119,900</list_price>
+<location>Washington, DC 92056</location>
+<mls>DC3005702</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>3 or more</levels>
+<garage>1</garage>
+<type>Townhouse</type>
+<square_feet>1496 (approx)</square_feet>
+<lot_size>1307</lot_size>
+<year_built>1939</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

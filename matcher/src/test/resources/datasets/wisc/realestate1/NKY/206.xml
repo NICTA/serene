@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>410 RED SKY CT</house_location>
+<price>$182,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>248740</mls>
+<house_type>Single Family</house_type>
+<firm>A B REAL ESTATE</firm>
+<firm_phone>(606) 341-7443</firm_phone>
+<agent>DON LAAKE</agent>
+<agent_phone>(606) 341-7443</agent_phone>
+<house_description>2049 SW.FT. LARGE FAMILY ROOM, WHIRLPOOL BATH, HARDWOOD FOYER, OAK
+CABINETS MAYTAG APPL. CALL 586-7802</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>20</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>10 X 13</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>10 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 13</dimension><level>1</level></dining>
+<family><dimension>14 X 25</dimension><level>1</level></family>
+<kitchen><dimension>11 X 12</dimension><level>1</level></kitchen>
+<master><dimension>11 X 16</dimension><level>2</level></master>
+
+<directions>RT 18 L ON CAMP ERNST, R ON ROGERS, L ON
+HANOVER. CALL 586-7802</directions>
+</house_listing>
+
+
+

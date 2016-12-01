@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Quisenberry</name>
+<office>(817)573-8801</office>
+<fax></fax>
+<voice_mail>(817)573-8801 148</voice_mail>
+<mobile>(817)219-0719</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21474</id>
+<mls>9135107</mls>
+<house_location>4016 Gloria Drive (Ad # 658)
+in South Granbury, TEXAS 76049-6007</house_location>
+<county>Hood</county>
+<price>$23,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Very well kept mobile with rock underpinning &amp; a large front deck.  Great for a weekender or investment property.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Sandy Beach</sub-division>
+<approx_size_sqft>672</approx_size_sqft>
+<stories>1</stories>
+<year_built>1974</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Very Well Kept</item>
+<item>Fenced &amp; Rock Underpinning</item>
+<item>Large Front Deck</item>
+<item>Ad # 658</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

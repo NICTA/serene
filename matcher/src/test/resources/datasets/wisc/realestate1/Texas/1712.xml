@@ -1,0 +1,69 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Thelma Sorgman</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5952</voice_mail>
+<email>ranch@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17843</id>
+<mls>513645</mls>
+<house_location>1325 B FM 973
+Austin, TEXAS 78725</house_location>
+<county>Travis</county>
+<price>$140,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>CHECK THIS ONE OUT!! Lots of space with lots of extras! Pool, Hot Tub, Covered Deck, Large Covered Porch, Large Garage/Workshop, , Landscaped Beautifully, Basketball Court, Fruit Trees include Peach, Apple, &amp; Pecan., Lots of storage space, indoor utilities. walk in closets, Privacy Fenced back yard, Coverd parking for RV with hookups. Set up for two wells. Fireplace has a heatalator, very energy efficient!Private drive, very secluded! Please call Thelma or Hassan at 1-800-221-8326 for more details!</house_description>
+
+<move-in_date>7/30/99</move-in_date>
+<school_district>Del Valle</school_district>
+<sub-division>Hornsby R</sub-division>
+<approx_size_sqft>1840</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1 Acre</approx_lot_size>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>SECLUDED PRIVATE DRIVE</item>
+<item>POOL &amp; HOT TUB</item>
+<item>FRUIT TREES</item>
+<item>BEAUTIFULLY LANDSCAPED</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level home built in 1962 has 2 bedroom(s), 2 bath(s) and
+approximately 999 square feet of living area. Rooms include dining
+room, living room, bonus room, master bedroom. Features include air
+conditioning.</house_description>
+
+<agent_name>Patricia Thibeaux</agent_name>
+<direct>202-832-0425</direct>
+<office>301-949-2100</office>
+<firm_name>Realty Executives/Alan, Realtors</firm_name>
+<phone>301-949-2100</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$35,000</list_price>
+<location>Washington, DC 20024</location>
+<mls>DC2757987</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>CoOp</type>
+<square_feet>999 (approx)</square_feet>
+<year_built>1962</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Central, Forced Air</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Bonus Room, Dining Room, Living Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Leon Rogers</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 232</voice_mail>
+<email>glr3rd@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19722</id>
+<mls>519672</mls>
+<house_location>17121 Valley Glen Road
+Pflugerville, TEXAS 78660</house_location>
+<county>Travis</county>
+<price>$124,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>GREAT NEIGHBORHOOD, CONVENIENT TO ELEMENTARY SCHOOL. HOME WARRANTY INCLUDED. SPACIOUS 3 BEDROOM WITH LOFT/GAMEROOM. COME SEE, WON&amp;#8217;T BE ON THE MARKET LONG. IF YOU NEED A BIG HOME AT THIS PRICE RANGE COME SEE IT SOON. WON&amp;#8217;T LAST LONG!!!</house_description>
+
+<school_district>Pflugerville</school_district>
+<sub-division>Windermere Phs</sub-division>
+<approx_size_sqft>2092</approx_size_sqft>
+<stories>2</stories>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

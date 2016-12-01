@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Bill Chess Real Estate</name>
+<location>714-B Chestnut Bastrop, TX 78602</location>
+<office>(512)303-3806</office>
+<toll_free></toll_free>
+<fax>(512)303-3839</fax>
+<email>bchess@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ray Walker</name>
+<office>(512)303-3806</office>
+<fax>(512)303-3839</fax>
+<mobile>(512)784-8961</mobile>
+<email>WalkerRayS@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18854</id>
+<mls>501088</mls>
+<house_location>140 Old Bastrop Rd., Cedar Creek
+Cedar Creek, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$119,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Directions:  From Bastrop Hwy. 71 West toward Austin, just south of Dale Cook Texaco.This  Home is on 2 Acres, and is a possible commercial property.  This MH has all the utilities, and there are also other building on the property.  The property is completely fenced.  LOCATION! LOCATION! LOCATION!File#:  W0057</house_description>
+
+<school_district>Bastrop</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1296</approx_size_sqft>
+<approx_acres>2</approx_acres>
+<year_built>1971</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Possible commercial property.</item>
+<item>Near Dale Cooks Texaco on Hwy. 71.</item>
+<item>Great location for retail/office.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

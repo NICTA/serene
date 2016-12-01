@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debbie Rogers</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)991-9232</mobile>
+<email>drogers@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20316</id>
+<mls>9116825</mls>
+<house_location>5410 Meadow Ridge Drive
+Weatherford, TEXAS 76087</house_location>
+<county>Parker</county>
+<price>$148,121</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Three bedroom, 2 bath home on 4 acres in a restricted subdivision.  This rock and brick home offers extras such as an oversized garage, custom cabinets and lots of space outside.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Southridge</sub-division>
+<approx_size_sqft>1400</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>4 acres</approx_lot_size>
+<approx_acres>4</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

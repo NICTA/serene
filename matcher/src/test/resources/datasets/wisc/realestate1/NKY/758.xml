@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>608 MAIN CROSS</house_location>
+<price>$97,000</price>
+<rooms>11</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Detached,Oversized)</garage>
+<suburb>GHENT</suburb>
+<school_dist>CARROLL</school_dist>
+<mls>250063</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>DEBORAH P WRIGHT</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>NEARLY AN ACRE OF CORNER LOT WITH A VIEW OF THE OHIO RIVER PROVIDES
+THE SETTING FOR THIS 5 BR HOME. FRUIT TREES, DETACHED GARAGE AND WORK
+AREA, DECK AND NICE YARD. SEP. LIVING AREA PROVIDES INCOME POTENTIAL.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>.80</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 15</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>16 X 10</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>8 X 8</dimension><level>1</level></bedroom_4>
+<bedroom_5><dimension>12 X 28</dimension><level>1</level></bedroom_5>
+<family><dimension>12 X 28</dimension><level>1</level></family>
+<kitchen><dimension>10 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension>4 X 11</dimension><level>1</level></laundry>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>1</level></master>
+<recreation_room><dimension>9 X 21</dimension><level>1</level></recreation_room>
+
+<directions>US 42 TO GHENT, HOUSE ON LEFT ACROSS FROM
+BAPTIST CHURCH. NO SIGN.</directions>
+</house_listing>
+
+
+

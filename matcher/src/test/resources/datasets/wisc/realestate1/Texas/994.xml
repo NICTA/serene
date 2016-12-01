@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Maryam Gharbi</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5964</voice_mail>
+<email>lake@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>5955</id>
+<mls>434405</mls>
+<house_location>Driving Park Subdv.
+Austin, TEXAS</house_location>
+<county>Travis</county>
+<price>$64,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Garage Apt, hardwood flooring, and with some loving can be the perfect house. You could live in the house and rent the apt.</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>Driving Park</sub-division>
+<stories>1</stories>
+<approx_lot_size>48x140</approx_lot_size>
+<year_built>1924</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

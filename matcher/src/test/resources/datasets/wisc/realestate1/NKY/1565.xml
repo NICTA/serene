@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>2991 FALLENTREE</house_location>
+<price>$429,000</price>
+<rooms>10</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>EDGEWOOD</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249976</mls>
+<house_type>Single Family</house_type>
+<firm>BARRISTER REALTY</firm>
+<firm_phone>(606) 344-1242</firm_phone>
+<agent>V RUTH KLETTE</agent>
+<agent_phone>(606) 344-1242</agent_phone>
+<house_description>ERPENBECK AND KENNEDY 97 CAVALCADE HOME. EXQUISITE HOME ON QUIET
+CUL-DE-SAC LOT, WOODED. LOW MAINTENANCE QUALITY CONSTRUCTION
+CONVENIENT LOCATION, NEW CONSTRUCTION MODEL.</house_description>
+<construction>Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>91x254</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>30</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>18 X 11</dimension><level>L</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>L</level></bedroom_3>
+<breakfast><dimension>14 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<family><dimension>46 X 20</dimension><level>L</level></family>
+<kitchen><dimension>14 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 6</dimension><level>1</level></laundry>
+<living><dimension>23 X 16</dimension><level>1</level></living>
+<master><dimension>18 X 14</dimension><level>1</level></master>
+<study><dimension>10 X 13</dimension><level>1</level></study>
+
+<directions>DUDLEY TO FALLENTREE CT BETWEEN PRESTWICK AND
+BELLEMEADE</directions>
+</house_listing>
+
+
+

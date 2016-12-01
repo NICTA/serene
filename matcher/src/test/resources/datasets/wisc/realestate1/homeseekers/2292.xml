@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This townhouse built in 1956 has 3 bedroom(s), 2 bath(s) and
+approximately 2000 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Daniel Ettedgui</agent_name>
+<direct>305-913-7999</direct>
+<office>305-913-7999</office>
+<firm_name>Triangle Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>305-913-7999</phone>
+<fax>305-913-5622</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$210,000</list_price>
+<location>844 Raymond St #0</location>
+<neighborhood>Park View Island</neighborhood>
+<mls>M761354</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Townhouse</type>
+<square_feet>2000 (approx)</square_feet>
+<year_built>1956</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

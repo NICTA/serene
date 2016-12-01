@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1982 has 3 bedroom(s), 2 bath(s) .
+Rooms include dining room, family room, master bedroom. Features
+include patio, fireplace.</house_description>
+
+<agent_name>Ray 'Bear' Thomas, Jr</agent_name>
+<office>602-995-7400</office>
+<firm_name>John Hall &amp; Associates</firm_name>
+<phone>602-995-7400</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$89,500</list_price>
+<location>Phoenix, AZ 85035</location>
+<mls>1452068</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Dishwasher, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

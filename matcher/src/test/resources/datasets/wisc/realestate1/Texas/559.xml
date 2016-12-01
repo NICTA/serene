@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>LEE EASTER, INC., REALTORS &amp; BUILDERS</name>
+<location>7504 Canna Cove Austin, TX 78759</location>
+<office>(512)255-1111</office>
+<toll_free>(800)680-6648</toll_free>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lee Easter</name>
+<office>(512)255-1111</office>
+<fax>(512)255-1226</fax>
+<voice_mail>(512)255-1111</voice_mail>
+<email>leaster@bga.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>9377</id>
+<mls></mls>
+<house_location>2306 Arnie Lane
+Round Rock, TEXAS 78664</house_location>
+<county>Williamson</county>
+<price>$216,537</price>
+<bedrooms>5</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>3</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>HUGE HOME FOR A LARGE FAMILY!  For a dramatic effect, the family room and formal living have a ceiling that is two stories high!  The kitchen features bleached ivory cabinets, Whirlpool white on white appliances, plus the new open concept plan to the living and breakfast areas.  Open spindle handrail staircase!  Upstairs are two baths and three other bedrooms and a huge gameroom with double door entry OR you may furnish the upstairs as four bedrooms.  Zoned central heat/central air conditioning, privacy fenced backyard, brick &amp; stucco exterior.  Located within a golf course community.</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Forest Creek</sub-division>
+<approx_size_sqft>2875</approx_size_sqft>
+<stories>2</stories>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<golf_course>Yes</golf_course>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>5 BRs/2 living areasOR4 BRs/3 living areas</item>
+<item>Family room &amp; formal living are 2 stories high</item>
+<item>Located within a golf course community</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

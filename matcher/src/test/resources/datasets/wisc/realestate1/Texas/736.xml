@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Frank Rainosek</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<mobile>(512)924-1901</mobile>
+<email>rainosek@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21210</id>
+<mls></mls>
+<house_location>121 Travis Lane
+Bastrop, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$89,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>At this great 3/2 home with open floor plan, recent upgrades, woodstove, and so much more!  Lovely, park-like setting!  Surrounded by towering Pine trees on 1+/- beautiful acres.  Detached carport and storage.  Private area.  Ideal for the first home buyer.  Call or e-mail Frank today for more details.</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Circle D</sub-division>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Great Country Home!</item>
+<item>Open Living Plan!</item>
+<item>Beautiful Setting!</item>
+<item>Lovely Over-Sized Deck!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

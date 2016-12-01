@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This single family home built in 1988 has 2 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage. Rooms include dining room,
+family room, master bedroom. Features include view, private pool,
+patio.</house_description>
+
+<agent_name>Gene Salisbury</agent_name>
+<office>623-247-2222</office>
+<firm_name>Century 21 Academy Associates Century 21 Academy Associates</firm_name>
+<phone>623-247-2222</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$113,000</list_price>
+<location>Phoenix, AZ 85310</location>
+<mls>1431771</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>1-7,500</lot_size>
+<year_built>1988</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<location>Cul-de-sac</location>
+<patio>Yes</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s),Dining/Living Combo, Dishwasher, Eat In Kitchen, Garage Door Opener,Ranch Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

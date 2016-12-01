@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Rapp &amp; Associates Cleburne</name>
+<location>103 Westmeadow Cleburne, TX 76031</location>
+<office>(817)558-2100</office>
+<toll_free></toll_free>
+<fax>(817)558-8199</fax>
+<email>jrapp@c21rapp.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shirley Johnson</name>
+<office>(817)556-9998</office>
+<fax>(817)558-8199</fax>
+<email>sjohnson@hpnc.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19549</id>
+<mls>9064975</mls>
+<house_location>1211 Stanwood
+Cleburne, TEXAS 76031</house_location>
+<county>Johnson</county>
+<price>$169,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>SPACIOUS, 4 bedroom with 4 bath, features 2 living areas, 3 fireplaces, large bright kitchen with island.  Master suite with sitting area, balcony overlooking the refreshing gunite pool and relaxing hot tub. (259)</house_description>
+
+<school_district>Cleburne I S D</school_district>
+<sub-division>Original Cleburne</sub-division>
+<approx_size_sqft>4514</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>160x50</approx_lot_size>
+<year_built>1981</year_built>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

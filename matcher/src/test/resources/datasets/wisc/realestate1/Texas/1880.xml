@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Capital Team</name>
+<location>1600 S. PLEASANT VALLEY RD Austin, TX 78741</location>
+<office>(512)443-8326</office>
+<toll_free>(888)221-8326</toll_free>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5962</voice_mail>
+<email>info@century21austin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Li-Fei Chen</name>
+<office>(512)443-8326</office>
+<fax>(512)448-0467</fax>
+<voice_mail>(512)448-5949</voice_mail>
+<email>info@century21austin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15961</id>
+<mls>502421</mls>
+<house_location>6700 Viewing Place
+Austin, TEXAS 78743</house_location>
+<county>Travis</county>
+<price>$78,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Huge lot almost half an acre. Enjoy &amp; relax yourself for the country life retreat. Lots of big green trees. Minutes to the new airport. Rare wood panel walls everywhere in the house. Tile in the large size bathroom. Hard wood floor under the carpet. Away from downtown's noise, yet close enough to reach there in 15 minutes!PLEASE CALL OR EMAIL FOR CURRENT INFO ON MY CONSTANTLY CHANGING INVENTORY OF RESIDENTIAL PROPERTIES.</house_description>
+
+<move-in_date>5/4/99</move-in_date>
+<school_district>Del Valle</school_district>
+<sub-division>Pilot Knob</sub-division>
+<approx_size_sqft>1148</approx_size_sqft>
+<stories>1</stories>
+<year_built>1957</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Huge lot almost half acre</item>
+<item>Lots of big green trees</item>
+<item>Wooden panel walls</item>
+<item>Del Valle school district</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

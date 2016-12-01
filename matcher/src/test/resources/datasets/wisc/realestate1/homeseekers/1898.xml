@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1970 has 1 bedroom(s), 1 bath(s) , 1 car
+garage and approximately 655 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Betty Lasch</agent_name>
+<direct>305-363-8866</direct>
+<office>305-754-5546</office>
+<firm_name>Miami Shores Realt Miami Shores Realt
+Lic. Real Estate Broker</firm_name>
+<phone>305-754-5546</phone>
+<fax>305-756-6715</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$175,000</list_price>
+<location>401 Ocean Dr #624</location>
+<neighborhood>Presidential Condo</neighborhood>
+<mls>M762914</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>655 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

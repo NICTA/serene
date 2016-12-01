@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Cindy Bilbie</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<email>bilbiec@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21725</id>
+<mls>14581</mls>
+<house_location>2805 Lazy Lake
+Harlingen, TEXAS 78550</house_location>
+<county>Cameron</county>
+<price>$137,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Appealing waterfront home in excellent neighborhood in great school district.  Pool and jacuzzi are heated with propane gas to save on electric bill.  Formal living/dining combination with double-sided fireplace opening to family room.  Home has many amenities, including water filtration system, security system.  Lot is beautifully landscaped and features brick patios, landscape lighting, fishing dock and retaining wall.</house_description>
+
+<school_district>Harlingen</school_district>
+<sub-division>Treasure Hills</sub-division>
+<approx_size_sqft>1994</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>100 x 143</approx_lot_size>
+<year_built>1981</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Beautiful lot</item>
+<item>Great neighborhood and schools</item>
+<item>Double sided fireplace</item>
+<item>Heated pool and jacuzzi</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

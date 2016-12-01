@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>2424 WARREN</house_location>
+<price>$39,900</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>KENTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248736</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>JUDY WELLS</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>NICE COVERED FRONT PORCH,UPDATED BATHROOM,FULL BASEMENT W/
+WALKOUT,FENCED Y ARD,NEWER ROOF,NICE STARTER HOME! 2/10 WARRANTY
+INCLUDED! PREVIOUSLY USED A S A TWO BEDROOM</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>7 X 12</dimension><level>1</level></kitchen>
+<living><dimension>19 X 11</dimension><level>1</level></living>
+<master><dimension>11 X 11</dimension><level>1</level></master>
+
+<directions>MADISON TO W 26TH TO WARREN,HOUSE ON RIGH T</directions>
+</house_listing>
+
+
+

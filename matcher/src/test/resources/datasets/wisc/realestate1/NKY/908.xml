@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>108 CHRISTINA CT</house_location>
+<price>$184,900</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>247994</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JAMES T MCCARTHY</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>TWO STORY 4 BEDROM QUALITY ANTHONY BUILT HOME, RELAX IN THE MARBLE
+JUCUZZI IN THE MASTER SUITE, NICE QUITE CUL-DE-SAC STREET.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80X153</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>12 X 13</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>9 X 10</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>9 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>10 X 12</dimension><level>1</level></dining>
+<family><dimension>13 X 17</dimension><level>1</level></family>
+<kitchen><dimension>12 X 19</dimension><level>1</level></kitchen>
+<living><dimension>11 X 15</dimension><level>1</level></living>
+<master><dimension>12 X 18</dimension><level>2</level></master>
+
+<directions>RT 9 S 27 TO PANORAMA TO CARRIAGE PARK TO L ON
+CHRISTINA CT</directions>
+</house_listing>
+
+
+

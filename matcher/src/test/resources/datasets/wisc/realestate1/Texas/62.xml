@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Gail Schiavone</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)797-3568</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21642</id>
+<mls>529338</mls>
+<house_location>18 CARDINAL LOOP
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$84,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>CUSTOM HOME SITS BACK IN A SETTING OF HUGE PINE TREES.  MANY AMENITIES INCLUDING HIGH CEILINGS, ENERGY PACKAGE, AND ROUNDED CORNERS.  BUY NOW AND CHOOSE YOUR COLORS.</house_description>
+
+<school_district>1</school_district>
+<sub-division>Circle D</sub-division>
+<approx_size_sqft>1064</approx_size_sqft>
+<stories>1</stories>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<new_home>Yes</new_home>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>READY TO CHOOSE COLORS</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

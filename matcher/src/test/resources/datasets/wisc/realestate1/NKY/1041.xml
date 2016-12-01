@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>5 SADYE</house_location>
+<price>$139,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>FT THOMAS</suburb>
+<school_dist>FT THOMAS</school_dist>
+<mls>249923</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>DONNA HOFFMAN</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>WB ADJ WALK-IN, FENCED YARD, POTENTIAL FUR REC ROOM LL, VERY CLOSE TO
+SCHOOLS, OWNER BUILDING WILL RENT BACK THRU APRIL.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>55x75</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>10 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 14</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>12 X 18</dimension><level>1</level></living>
+<master><dimension>12 X 14</dimension><level>2</level></master>
+
+<directions>471 TO MEMORIAL TO WATER WORKS TO SADYE</directions>
+</house_listing>
+
+
+

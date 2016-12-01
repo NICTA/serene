@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This condominium built in 1958 has 1 bedroom(s), 1 bath(s) and
+approximately 520 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Donald Hylton</agent_name>
+<direct>305-674-4046</direct>
+<office>305-672-1300</office>
+<firm_name>Esslinger-Wooten-M Esslinger-Wooten-M
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-1300</phone>
+<fax>305-672-1499</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$59,950</list_price>
+<location>1611 West Av #15</location>
+<neighborhood>Lincoln Road Villas East</neighborhood>
+<mls>M753855</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>520 (approx)</square_feet>
+<year_built>1958</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Wall Unit</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

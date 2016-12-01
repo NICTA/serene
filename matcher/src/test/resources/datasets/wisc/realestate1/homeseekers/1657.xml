@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1999 has 4 bedroom(s), 2
+bath(s) , 3 car garage and approximately 2310 square feet of living
+area. Rooms include den, bonus room, master bedroom. Features include
+view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Arlene Henneke</agent_name>
+<direct>520-449-2211</direct>
+<office>520-403-8343</office>
+<firm_name>Henneke &amp; Associates, Inc</firm_name>
+<phone>520-403-8343</phone>
+<fax>520-742-2132</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$279,500</list_price>
+<location>11570 N Mountain Breeze Dr</location>
+<mls>9918966</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2310 (approx)</square_feet>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

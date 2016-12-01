@@ -1,0 +1,64 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>E.D. Rains</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)946-6602</mobile>
+<email>erains1776@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21127</id>
+<mls>9128339</mls>
+<house_location>3510 Cliff View Loop
+Weatherford, TEXAS 76087</house_location>
+<county>Parker</county>
+<price>$199,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Great location!  3 bedrooms, 2 baths, 2 dining areas.  Living area has open concept. Several doors open to patio/pool area.  Easy commute to Metroplex.  Convenient to schools.  City water &amp; sewer.</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>Lake Hills Phase I</sub-division>
+<approx_size_sqft>2100</approx_size_sqft>
+<stories>1</stories>
+<year_built>1999</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>3</carport_spaces>
+<pool>Yes</pool>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>GREAT LOCATION</item>
+<item>INGROUND POOL</item>
+<item>CONVENIENT TO SCHOOLS AND METROPLEX</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

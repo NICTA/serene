@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Action -Northwest San Antonio</name>
+<location>2900 Mossrock Dr., Suite 350 San Antonio, TX 78230</location>
+<office>(210)366-1510</office>
+<toll_free></toll_free>
+<fax>(210)366-0153</fax>
+<email>c21actsa@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>David Hilton</name>
+<office>(210)366-1510</office>
+<fax>(210)366-0153</fax>
+<email>c21actsa@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19960</id>
+<mls>317544</mls>
+<house_location>8602 Bayou Bend
+San Antonio, TEXAS 78239</house_location>
+<county>Bexar</county>
+<price>$170,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Lots of built-ins. Custom builders own home. Large closets in all bedrooms, master bedroom split from other bedrooms, attic storage over most of the house. Minutes from city pool, tennis, golfing amenities. Enormous kitchen with island counter.</house_description>
+
+<school_district>North East</school_district>
+<sub-division>Windcrest</sub-division>
+<stories>1</stories>
+<year_built>1994</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Custom Builders Own Home</item>
+<item>Lots of Built-Ins</item>
+<item>Enormous Open Kitchen with Island Counter</item>
+<item>Master Split From Other Bedrooms</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

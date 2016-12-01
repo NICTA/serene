@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Bill Chess Real Estate</name>
+<location>714-B Chestnut Bastrop, TX 78602</location>
+<office>(512)303-3806</office>
+<toll_free></toll_free>
+<fax>(512)303-3839</fax>
+<email>bchess@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Dixie Hauenstein</name>
+<office>(512)303-3806</office>
+<fax>(512)303-3839</fax>
+<mobile>(512)773-5158</mobile>
+<email>dlhauenstein2@juno.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19807</id>
+<mls>529322</mls>
+<house_location>154 Pine Needle, Smithville
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$76,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Located on a secluded 2.70 acres this charming home looks like an artistic getaway.Wtih vaulted and beamed ceilings this 1 bedroom - 1 1/2 bath home has 1170 square feet, a free standging fireplace in the livingroom and a loft.  Lots of decks to sit and relax on, and a storage/workshop.  Owner is redoing master bedroom carpeting and half bath flooring. 2nd floor loft could be a 2nd bedroom.  File#:  D0001</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Idle Acres</sub-division>
+<approx_size_sqft>1170</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>420 x 330</approx_lot_size>
+<approx_acres>2.7</approx_acres>
+<year_built>1979</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Beautiful home with loft design.</item>
+<item>Nice quiet secluded area.</item>
+<item>Beautiful landscaping.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

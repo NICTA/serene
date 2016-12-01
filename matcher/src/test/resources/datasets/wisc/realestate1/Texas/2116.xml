@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Heart of Texas</name>
+<location>3921 STECK AVE, STE A 110 Austin, TX 78759</location>
+<office>(512)794-9292</office>
+<toll_free>(800)444-2416</toll_free>
+<fax>(512)794-0634</fax>
+<email>office@remax-hot-aus-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>STEVE BLUESTONE</name>
+<office>(512)794-9292</office>
+<fax>(512)794-0634</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20830</id>
+<mls>523107</mls>
+<house_location>2918 N RR 620
+Austin, TEXAS 78734</house_location>
+<county>Travis</county>
+<price>$200,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Fabulous lake view!  Upgrades throughout: slate and marble flooring, berber carpet, granite countertops.  Tennis courts, 2 pools, fitness center, private waterfront park, motorized tram and dam docks.</house_description>
+
+<school_district>Lake Travis</school_district>
+<sub-division>Villas On Travis Condominiums</sub-division>
+<approx_size_sqft>1228</approx_size_sqft>
+<approx_lot_size>4570</approx_lot_size>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

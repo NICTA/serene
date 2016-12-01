@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1992 has 4 bedroom(s), 2 bath(s) , 3
+car garage. Rooms include dining room, family room, master bedroom.
+Features include view, patio, fireplace, skylights.</house_description>
+
+<agent_name>Bob Gottlieb</agent_name>
+<office>480-759-3000</office>
+<firm_name>RE/MAX Achievers RE/MAX Achievers</firm_name>
+<phone>480-759-3000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$215,900</list_price>
+<location>Phoenix, AZ 85048</location>
+<mls>1460449</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<lot_size>1-7,500</lot_size>
+<year_built>1992</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Yes</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s),Dishwasher, Eat In Kitchen, Microwave, Pantry, Ranch Style, Skylights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

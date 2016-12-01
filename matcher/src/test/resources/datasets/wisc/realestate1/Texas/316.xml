@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Bunny Roberts</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18121</id>
+<mls>9022459</mls>
+<house_location>712 May St. (Ad# 106)
+Fort Worth, TEXAS 76104-3231</house_location>
+<county>Tarrant</county>
+<price>$169,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Own a peice of history!  1904 Queen Anne Victorian located in the Ft. Worth southside development district.  Historical plaque, 4 antique armoires, antique copper and wood bathtub, marble and wood antique washstand to convey.  Home featured in Ft. Worth Legendary Landmarks.</house_description>
+
+<school_district>Fort Worth I S D</school_district>
+<sub-division>Tucker Addition</sub-division>
+<approx_size_sqft>2674</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>0.15</approx_acres>
+<year_built>1904</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Elegant Victorian home</item>
+<item>Registered Historical home</item>
+<item>Not currently on market but will be soon</item>
+<item>inquire about #106</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

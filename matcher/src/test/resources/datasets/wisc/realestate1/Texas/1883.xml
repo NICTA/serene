@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Re/Max Conroe-Lake Conroe</name>
+<location>12603 Highway 105 West, Suite 100 Conroe, TX 77304</location>
+<office>(409)588-1177</office>
+<toll_free></toll_free>
+<fax>(409)447-1178</fax>
+<voice_mail>(409)447-1177 228</voice_mail>
+<email>remaxconroe@flex.net</email>
+</firm_information>
+
+<agent_information>
+<name>Pat Wilson</name>
+<office>(409)588-1177</office>
+<fax>(409)447-1178</fax>
+<voice_mail>(409)588-1177 223</voice_mail>
+<mobile>(409)525-0009</mobile>
+<email>pwilson@flex.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>12856</id>
+<mls>150255</mls>
+<house_location>13090 Wood Harbor
+Montgomery, TEXAS 77356</house_location>
+<county>Montgomery</county>
+<price>$289,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Waterfront with a view of Walden's signature golf course! Huge kitchen with large breakfast bar, island, double ovens and more! Wet bar, with 2 woodburning fireplaces, bonus room finished out over the garage for a second family room or perfect bunk room, Pool with screen enclosure, Boat slip with lift plus jet ski lift, sprinkler system, &amp; more!! Call Pat to see</house_description>
+
+<school_district>Montgomery</school_district>
+<sub-division>Walden</sub-division>
+<stories>2</stories>
+<master_bedroom>Upstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Fulgham Sid</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)789-1025</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19920</id>
+<mls>515832</mls>
+<house_location>180 BLUE FLAME RD.
+Cedar Creek, TEXAS 78612</house_location>
+<county>Bastrop</county>
+<price>$73,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>THIS DOUBLEWIDE HAS HAD ADDITIONS AT THE FRONT AND THE REAR. QUICK ACCESS TO HWY 71.</house_description>
+
+<school_district>Bastrop</school_district>
+<sub-division>Wyldwood Estates</sub-division>
+<approx_size_sqft>1521</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>0.95</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>SERENE TREE SHADED SETTING</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

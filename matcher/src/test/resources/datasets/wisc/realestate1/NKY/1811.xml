@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>0 S HWY 27</house_location>
+<price>$99,900</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>226436</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>PHYLLIS SHEPHERD</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>CURRENTLY USED AS A REAL ESTATE OFFICE ON 1ST FL AND APARTMENT ON 2ND.
+SAME ROOM SIZED ON 2ND AS 1ST.</house_description>
+<construction>Log</construction>
+<heating>Gas,Space Heater</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>70x430</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>12 X 12</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>12 X 14</dimension><level>1</level></kitchen>
+<living><dimension>22 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>US27 S 2 MILES PAST FALMOUTH ON L</directions>
+</house_listing>
+
+
+

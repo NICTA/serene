@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This condominium built in 1974 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) and approximately 835 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>Mitchell Turoff</agent_name>
+<direct>305-674-8243</direct>
+<office>305-674-8243</office>
+<firm_name>Turoff,M.,Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-674-8243</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$129,000</list_price>
+<location>4101 Pine Tree Dr #1009</location>
+<neighborhood>Tower Forty One Condo</neighborhood>
+<mls>M700509</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<type>Condominium</type>
+<square_feet>835 (approx)</square_feet>
+<year_built>1974</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

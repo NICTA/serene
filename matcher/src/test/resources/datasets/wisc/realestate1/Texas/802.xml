@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Judy Tinney</name>
+<office>(817)279-7653</office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18173</id>
+<mls>9059592</mls>
+<house_location>4834 Blue Water Cir.. (Ad# 122)
+Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$49,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Cute, trees, lake access</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Bluewater Shores</sub-division>
+<approx_size_sqft>1203</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>121rdx122x135x135</approx_lot_size>
+<approx_acres>0.5</approx_acres>
+<year_built>1984</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Lake access</item>
+<item>Fenced in</item>
+<item>Near by park</item>
+<item>inquire about #122</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

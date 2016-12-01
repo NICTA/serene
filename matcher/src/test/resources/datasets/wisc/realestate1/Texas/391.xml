@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tommy Atkins</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>tommya@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>8308</id>
+<mls>49658</mls>
+<house_location>146 APPLEHEAD ISLAND
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$1,585,000</price>
+<bedrooms>6</bedrooms>
+<full_baths>4</full_baths>
+<half_baths>2</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<house_description>140' waterfront, Eastern exposure.  2 boathouses, kids' own sand island with waterfall, putting green, indoor pool, large recreation room with second kitchen.  Custom throughout.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Applehead Island</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<pool>Yes</pool>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Prestigious Applehead Island Waterfront</item>
+<item>Indoor pool, putting green</item>
+<item>Sand island with waterfall</item>
+<item>Large rec room w/second kitchen for entertaining</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

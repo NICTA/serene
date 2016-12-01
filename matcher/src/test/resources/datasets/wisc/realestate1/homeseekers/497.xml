@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1980 has 3 bedroom(s), 3 bath(s) and
+approximately 1995 square feet of living area.</house_description>
+
+<agent_name>Randy Sons</agent_name>
+<direct>303-425-6293</direct>
+<office>303-399-9930</office>
+<firm_name>Teamwerk Realty</firm_name>
+<phone>303-399-9930</phone>
+<fax>303-403-1284</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$165,000</list_price>
+<location>10740 Birch Ct</location>
+<neighborhood>Wyndemere</neighborhood>
+<mls>382810</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>1995 (approx)</square_feet>
+<year_built>1980</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

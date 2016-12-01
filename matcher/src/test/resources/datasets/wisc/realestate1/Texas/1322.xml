@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Michelle Hensz</name>
+<office>(956)425-3333</office>
+<fax>(956)425-3483</fax>
+<mobile>(956)245-3088</mobile>
+<email>mhensz@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21399</id>
+<mls>15194</mls>
+<house_location>32755 FM 1575
+Los Fresnos, TEXAS 78566</house_location>
+<county>Cameron</county>
+<price>$149,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This beautiful three bedroom, two bath home sets on 1.417 acres, .7 miles north of FM 1575 from Hwy. 100 in Los Fresnos.  Some of the amenities include: walk-in closets, terrazo and ceramic tile floors, covered patio, swimming pool with slide and a beautiful view of the resaca.  This waterfront property is a great place to spend a lazy South Texas afternoon enjoying the resaca view or cooling off in the pool.</house_description>
+
+<school_district>Los Fresnos</school_district>
+<approx_size_sqft>2264</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1.42</approx_acres>
+<year_built>1974</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<pool>Yes</pool>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Waterfront property</item>
+<item>Pool</item>
+<item>Ceramic and Terrazo floors</item>
+<item>Good Schools</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

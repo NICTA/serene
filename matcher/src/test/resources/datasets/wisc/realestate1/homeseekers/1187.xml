@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 3+ level attached townhouse built in 1890 has ? bedroom(s) and
+approximately 2427 square feet of living area. Rooms include dining
+room, master bedroom. Features include fireplace.</house_description>
+
+<agent_name>Rosella Kenaston</agent_name>
+<direct>202-265-0506</direct>
+<office>301-449-8080</office>
+<firm_name>Town &amp; Country Properties, Inc.</firm_name>
+<phone>301-449-8080</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$55,000</list_price>
+<location>Washington, DC 20001</location>
+<mls>DC3059172</mls>
+<status>Active</status>
+<levels>3 or more</levels>
+<type>Townhouse</type>
+<square_feet>2427 (approx)</square_feet>
+<lot_size>1252</lot_size>
+<year_built>1890</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

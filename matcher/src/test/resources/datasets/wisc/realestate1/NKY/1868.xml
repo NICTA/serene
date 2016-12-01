@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>215 LINDEN</house_location>
+<price>$99,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>SOUTHGATE</suburb>
+<school_dist>SOUTHGATE</school_dist>
+<mls>250069</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JIM MCCORD</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>CHARMING WELL CARED FOR 3 BEDROOM, 2 FULL BATH HOME! SMALL LEVEL REAR
+YARD WITH FULL PRIVACY FENCH! EQUIPPED KITCHEN,FIREPLACE &amp; BUILT IN
+BOOKSHELVES IN LIVING ROOM. SHOWS WELL!</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 8</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 10</dimension><level>1</level></master>
+
+<directions>RT 27 TO JOYCE TO LINDEN</directions>
+</house_listing>
+
+
+

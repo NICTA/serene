@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 1 level attached home has 2 bedroom(s), 2 bath(s) and
+approximately 1500 square feet of living area. Rooms include living
+room, master bedroom. Features include view, patio, fireplace.</house_description>
+
+<agent_name>Ross Whitney</agent_name>
+<direct>619-293-7677</direct>
+<office>619-299-8020</office>
+<firm_name>Prudential California Realty Prudential California Realty</firm_name>
+<phone>619-299-8020</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$378,876</list_price>
+<location>San Diego, CA 92103</location>
+<mls>00 6001230</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Townhouse/Condo</type>
+<square_feet>1500 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<rooms>Living Room, Master Bedroom</rooms>
+<view>Park/Greenbelt View, Valley View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

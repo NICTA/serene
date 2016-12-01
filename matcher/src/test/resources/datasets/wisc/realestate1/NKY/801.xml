@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>143 HARVARD PL</house_location>
+<price>$97,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>SOUTHGATE</suburb>
+<school_dist>CAMPBELL CO</school_dist>
+<mls>247053</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>ELIZABETH S PRAST</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>WELL MAINTAINED CAPE COD ON CULDESAC*SOME NEWER WINDOWS*HARDWOOD FLS
+THRU- OUT*GREAT LOCATION IN DESIREABLE NEIGHBORHOOD*STAINED GLASS
+WINDOW BEHIND DINING ROOM MIRROR.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>32 X 176</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 9</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>15 X 8</dimension><level>1</level></family>
+<kitchen><dimension>11 X 9</dimension><level>1</level></kitchen>
+<living><dimension>18 X 11</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>2</level></master>
+
+<directions>ALEX PK TO BLUEGRASS TO LEFT ON ELECTRIC TO RT
+ON BEECH TO RT ON HARVARD</directions>
+</house_listing>
+
+
+

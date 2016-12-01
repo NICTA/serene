@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1925 has 1 bedroom(s), 1 bath(s) . Features
+include air conditioning.</house_description>
+
+<agent_name>Warren Richardson,</agent_name>
+<direct>305-538-6900</direct>
+<office>305-531-2299</office>
+<firm_name>Newstar Rlty &amp; Dev
+Lic. Real Estate Broker</firm_name>
+<phone>305-531-2299</phone>
+<fax>305-531-3147</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$98,500</list_price>
+<location>536 14Th Street #205</location>
+<neighborhood>*Everglades East Condo</neighborhood>
+<mls>M757832</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<year_built>1925</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

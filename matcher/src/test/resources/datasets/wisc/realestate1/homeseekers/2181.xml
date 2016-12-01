@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1987 has 1 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1042 square feet of living area. Features
+include air conditioning.</house_description>
+
+<agent_name>John Lennon</agent_name>
+<direct>305-793-1620</direct>
+<office>305-975-8088</office>
+<firm_name>South Pointe Drive
+Lic. Real Estate Broker</firm_name>
+<phone>305-975-8088</phone>
+<fax>305-695-9494</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$239,000</list_price>
+<location>400 S Pointe Dr #706</location>
+<neighborhood>South Pointe Towers Condo</neighborhood>
+<mls>M766679</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1042 (approx)</square_feet>
+<year_built>1987</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<location>Ocean front, Water front</location>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

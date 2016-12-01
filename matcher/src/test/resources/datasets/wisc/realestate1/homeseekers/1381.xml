@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This condominium built in 1970 has 1 bedroom(s), 1 full bath(s)/1 half
+bath(s) , 1 car attached garage and approximately 592 square feet of
+living area. Features include air conditioning.</house_description>
+
+<agent_name>Chela Guede</agent_name>
+<direct>305-736-2122</direct>
+<office>305-821-4700</office>
+<firm_name>Arvida Realty Serv Arvida Realty Serv
+Lic. Real Estate Broker</firm_name>
+<phone>305-821-4700</phone>
+<fax>305-821-2277</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$65,700</list_price>
+<location>7925 Carlyle Av #303</location>
+<neighborhood>Carlyle Condo</neighborhood>
+<mls>M766004</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1(full) 1(half)</baths>
+<garage></garage>
+<type>Condominium</type>
+<square_feet>592 (approx)</square_feet>
+<year_built>1970</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

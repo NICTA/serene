@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1984 has 3 bedroom(s), 2
+bath(s) , 2 car garage and approximately 1239 square feet of living
+area. Rooms include dining room.</house_description>
+
+<agent_name>Karen Fisher</agent_name>
+<direct>520-298-0214</direct>
+<office>520-577-3999</office>
+<firm_name>RE/MAX Catalina Foothills RE/MAX Catalina Foothills</firm_name>
+<phone>520-577-3999</phone>
+<fax>520-577-3707</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$90,000</list_price>
+<location>1320 N Sahuara Ave</location>
+<mls>9919722</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1239 (approx)</square_feet>
+<lot_size>54X138X22X8X32X130</lot_size>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rita Gillmouth</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>13138</id>
+<mls>132061</mls>
+<house_location>123 Fourth St.
+Mathis, TEXAS 78368</house_location>
+<county>San Patricio</county>
+<price>$31,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<move-in_date>12/29/98</move-in_date>
+<school_district>Mathis</school_district>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Good first time buyer home or investment property.</item>
+<item>Extra lots have hook-ups for travel trailers.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

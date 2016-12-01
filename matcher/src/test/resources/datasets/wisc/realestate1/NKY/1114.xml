@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1010 NAPOLEON ZION</house_location>
+<price>$46,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>(Detached)</garage>
+<suburb>ZION STATION</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249027</mls>
+<house_type>Single Family</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>MIKE MELTON</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>HOME IN COUNTRY, PRIVATE, NEEDS WORK, HAS NEW SEPTIC TANK, CITY WATER,
+SMALL BARN, SOLD AS IS****</house_description>
+<construction>Alum</construction>
+<heating>Oil</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>7 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>7 X 9</dimension><level>1</level></kitchen>
+<living><dimension>9 X 14</dimension><level>1</level></living>
+<master><dimension>9 X 13</dimension><level>1</level></master>
+
+<directions>VERONA EX R ON #16 L ON CONCORD TO END R APPROX
+2 MILES</directions>
+</house_listing>
+
+
+

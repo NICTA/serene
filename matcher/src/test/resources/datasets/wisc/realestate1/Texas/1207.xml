@@ -1,0 +1,67 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19655</id>
+<mls>14826</mls>
+<house_location>26314 Beckham Rd
+Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$179,911</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Talk about huge! Only 4 years young. This country home has everthing you want and desire. 2 living areas.  Formals throughout.  Very EXTRA LARGE Master bedroom.  Recreation room.  Workshop. Satellite installed in 4 rooms.  Long Paved parking for RV in fenced back yard.  All of this on 1 acre!Did I mention 3,323 Square Feet?</house_description>
+
+<school_district>Stuart Place</school_district>
+<sub-division>Stuart  T/s</sub-division>
+<approx_size_sqft>3323</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>135 x 335</approx_lot_size>
+<approx_acres>1.02</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Very Large</item>
+<item>1 Acre lot</item>
+<item>Recognized Schools</item>
+<item>Country Home</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

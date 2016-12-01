@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Dolly McLaughlin</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 238</voice_mail>
+<email>dmclau4198@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19725</id>
+<mls>520212</mls>
+<house_location>11416 Barrington Way
+Austin, TEXAS 78759</house_location>
+<county>Travis</county>
+<price>$123,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>IT&amp;#8217;S SPARKLING!! GREAT HOME. 1 STORY, SECLUDED BACKYARD. COVERED PATIO. LOTS OF WINDOWS IN DINING AND LARGE COUNTRY KITCHEN. CORNER LOT. WHITE CABINETS. NICELY LANDSCAPED YARD. GLASS FRONTS ON CABINETS. BLUE RIBBON SCHOOLS.</house_description>
+
+<school_district>Round Rock</school_district>
+<sub-division>Barrington Oaks</sub-division>
+<stories>1</stories>
+<approx_lot_size>68 X 126</approx_lot_size>
+<year_built>1976</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

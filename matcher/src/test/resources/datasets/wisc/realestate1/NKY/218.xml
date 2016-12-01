@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>33 RIO GRANDE CR</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>SOUTH FORK</suburb>
+<school_dist>BOONE CNTY</school_dist>
+<mls>250319</mls>
+<house_type>Condominium</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>DUANE D DEGROFF</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>24 HR CALL 281-HOME #1660 NO MONEY DOWN &amp; NO PMI FINANCING
+AVAILABLE-CATH CEILING,WOODS VIEW,KITCH APPLNCS,IMMEDIATE
+OCCUPANCY,PRIVATE,QUIET,SECURE 3RD FL DECK,CEILING FANS,STORAGE
+RM.IMMACULATE NON-SMOKER WBFP</house_description>
+<construction>Brick,Alum</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Ceramic</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>120</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>3</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>3</level></bath_2>
+<bedroom_2><dimension>12 X 11</dimension><level>3</level></bedroom_2>
+<dining><dimension>11 X 8</dimension><level>3</level></dining>
+<kitchen><dimension>10 X 7</dimension><level>3</level></kitchen>
+<living><dimension>14 X 15</dimension><level>3</level></living>
+<master><dimension>13 X 11</dimension><level>3</level></master>
+
+<directions>S 42 PAST PLEASANT VALLEY RIGHT ON OLD US 42
+RIGHT ON RIO GRANDE</directions>
+</house_listing>
+
+
+

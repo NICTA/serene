@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>42 18TH</house_location>
+<price>$49,900</price>
+<rooms>8</rooms>
+<bedrooms>5</bedrooms>
+<baths>2-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>NEWPORT</suburb>
+<school_dist>NEWPORT</school_dist>
+<mls>249925</mls>
+<house_type>Single Family</house_type>
+<firm>COMMONWEALTH REALTORS</firm>
+<firm_phone>(606) 689-4242</firm_phone>
+<agent>HAROLD REUTTER</agent>
+<agent_phone>(606) 689-4242</agent_phone>
+<house_description>NICE 5 BEDROOM HOME IN S. NEWPORT. 1 BLOCK TO SHOPPING CENTER AND BUS</house_description>
+<construction>Brick,Cedar</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30x100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level></level></bedroom_3>
+<bedroom_4><dimension>10 X 10</dimension><level></level></bedroom_4>
+<bedroom_5><dimension>10 X 10</dimension><level></level></bedroom_5>
+<dining><dimension>8 X 10</dimension><level>1</level></dining>
+<living><dimension>10 X 20</dimension><level>1</level></living>
+<master><dimension>10 X 11</dimension><level>2</level></master>
+
+<directions>RT 27 TO 18TH ST</directions>
+</house_listing>
+
+
+

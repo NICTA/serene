@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Verna</email>
+</firm_information>
+
+<agent_information>
+<name>Adams</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)242-6500</voice_mail>
+<mobile>(713)824-0228</mobile>
+<email>vernaadams@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16687</id>
+<mls>229595</mls>
+<house_location>8602 Causeway
+Houston, TEXAS 77083</house_location>
+<county>Harris</county>
+<price>$87,950</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>End of Street--Nice size lot, Ceramic Tile in spacious den, kitchen, baths and downstairs hallway, Master is down, 3 bedrooms up, Roof is approx. 4 yrs. new. Home has siding for easy care, large backyard, nice fireplace.</house_description>
+
+<move-in_date>6/11/99</move-in_date>
+<school_district>Alief</school_district>
+<sub-division>Olympia</sub-division>
+<approx_size_sqft>1919</approx_size_sqft>
+<stories>2</stories>
+<year_built>1981</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+
+<highlights>
+<item>Master Bedroom Downstairs.</item>
+<item>Ceramic Tile in Den, Kitchen, Baths.</item>
+<item>Nice Fireplace.</item>
+<item>End of street nice lot.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

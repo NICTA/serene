@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1943 has 4 bedroom(s), 2 bath(s) and
+approximately 793 square feet of living area.</house_description>
+
+<agent_name>Anna Kinney</agent_name>
+<direct>837-8400</direct>
+<office>303-837-8400</office>
+<firm_name>Nostalgic Homes 02</firm_name>
+<phone>303-837-8400</phone>
+<fax>303-837-8484</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$175,000</list_price>
+<location>2636 S Pearl St</location>
+<neighborhood>Rosedale</neighborhood>
+<mls>383835</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>793 (approx)</square_feet>
+<year_built>1943</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

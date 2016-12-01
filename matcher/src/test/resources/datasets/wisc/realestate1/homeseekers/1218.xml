@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Large 2 bedrooms 1 bath, dining area, large living room. Big family
+kitchen, inside laundry room. 2 car detached garage. Large back yard.
+Clean area of l.A.</house_description>
+
+<agent_name>Rosa Villasenor</agent_name>
+<direct>626-286-6724</direct>
+<office>323-722-8282</office>
+<firm_name>C-21 Casa Estates C-21 Casa Estates</firm_name>
+<phone>323-722-8282</phone>
+<fax>323-890-2857</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$129,000</list_price>
+<location>1008 E 82Nd St</location>
+<mls>R99473</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1080 (approx)</square_feet>
+<lot_size>5760 (approx)</lot_size>
+<year_built>1924</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Living Room</rooms>
+<spa>No</spa>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

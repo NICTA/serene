@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>48 WRIGHT</house_location>
+<price>$109,900</price>
+<rooms>6</rooms>
+<bedrooms>4</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>NA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>249216</mls>
+<house_type>Single Family</house_type>
+<firm>BROERING APPRAISAL &amp; REALTY</firm>
+<firm_phone>(606) 781-2500</firm_phone>
+<agent>MARLENE BROERING</agent>
+<agent_phone>(606) 781-2500</agent_phone>
+<house_description>NEWER WINDOWS, SIDING, BATH REMODELED,PAINT AND CARPET. UPDATED
+KITCHEN, THIS HOUSE HAS BEEN WELL MAINTAINED. CLOSE TO BUS LINE. MUST
+SEE TO APPRECIATE.</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>100 x135</lot_dimensions>
+<condo_level>NA</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>17 X 10</dimension><level>2</level></bedroom_4>
+<kitchen><dimension>14 X 13</dimension><level>1</level></kitchen>
+<living><dimension>17 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>US #27 S TO WRIGHT COURT</directions>
+</house_listing>
+
+
+

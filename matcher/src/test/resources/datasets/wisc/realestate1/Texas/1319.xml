@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>300 N. Broadway Joshua, TX 76058</location>
+<office>(817)558-8955</office>
+<toll_free>(800)395-6332</toll_free>
+<fax>(817)558-6332</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Carolyn Eudy</name>
+<office>(817)558-8955</office>
+<fax>(817)558-6332</fax>
+<mobile>(817)229-7934</mobile>
+<email>www.jimeudy@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20980</id>
+<mls>9126933</mls>
+<house_location>753 NW Douglas
+Burleson, TEXAS 76028</house_location>
+<county>Tarrant</county>
+<price>$89,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Charming home - beautifully decorated - berber carpet ( 6 mo. old )-new vanity and  ceramic tile in hall bath - new  AC outside unit -  11 x 10 bonus room - sprinkler system - This home is one of a kind!   Call Carolyn for more information  (817)   229-7934.</house_description>
+
+<school_district>Burleson I S D</school_district>
+<sub-division>Hillery Heights</sub-division>
+<approx_size_sqft>1653</approx_size_sqft>
+<stories>1</stories>
+<year_built>1978</year_built>
+<master_bedroom>N/A</master_bedroom>
+
+<highlights>
+<item>Computer Room or 4th Bedroom</item>
+<item>New Berber Carpet</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

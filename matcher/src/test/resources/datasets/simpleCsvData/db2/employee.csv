@@ -1,0 +1,7 @@
+id,client_name,age,sex,mobile,email,occupation,address,wage,department,shipping_destination
+1,John Doe,30,M,0422182931,john@nicta.com.au,software engineer,10 Redfern Ave NSW,250000,IT,400 Pitt st. Sydney
+2,Jane Smith,35,F,0492812312,jane.smith@gmail.com,designer,90 Beamish st NSW,100000,Finance,30 Elizabeth st. Sydney
+3,Foo Bar,,M,0492818231,fbar@bar.com,salesman,9/11 York st NSW,90000,IT,3 King street Newtown
+4,Paul R,30,M,0405968790,privera@nicta.com,sales rep,9/70 Canterbury Rd NSW,60000,HR,30 Liverpool Rd. Ashfield
+5,Steve Rogers,25,M,0405556655,cap10@gmail.com,soldier,2/3 Foo st NSW,50000,HR,100 Liverpool St. Sydney
+6,Anne Wilson,19,F,0412332211,annew@oreilly.com,book writer, Unknown,1000,IT,1 Darling st. Sydney

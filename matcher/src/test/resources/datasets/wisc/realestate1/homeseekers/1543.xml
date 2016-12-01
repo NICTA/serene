@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1936 has 6
+bedroom(s), 3 bath(s) . Rooms include dining room, master bedroom.
+Features include fireplace, air conditioning.</house_description>
+
+<agent_name>Helen White</agent_name>
+<direct>202-582-4017</direct>
+<office>202-399-9000</office>
+<firm_name>Dear Realty, Inc.</firm_name>
+<phone>202-399-9000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$155,000</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC3084781</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>3</baths>
+<levels>3 or more</levels>
+<type>Single Family</type>
+<lot_size>2614</lot_size>
+<year_built>1936</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

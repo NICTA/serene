@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1908 has 4 bedroom(s), 2 bath(s) and
+approximately 2488 square feet of living area.</house_description>
+
+<agent_name>Jeff Smith</agent_name>
+<direct>303-480-1399</direct>
+<office>303-320-1556</office>
+<firm_name>RE/MAX Cherry Creek</firm_name>
+<phone>303-320-1556</phone>
+<fax>303-321-1249</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$270,000</list_price>
+<location>4235 King St</location>
+<neighborhood>Harkness Heights</neighborhood>
+<mls>378180</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2488 (approx)</square_feet>
+<year_built>1908</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

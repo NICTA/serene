@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rick Townsend</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>18375</id>
+<mls>9036394</mls>
+<house_location>2200 Old Tin Top Rd.. (Ad# 502)
+Weatherford, TEXAS 76087</house_location>
+<county>Parker</county>
+<price>$179,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Tenant in the house.  Show outside and acreage only.  River front!!</house_description>
+
+<school_district>Weatherford</school_district>
+<sub-division>1</sub-division>
+<approx_size_sqft>1040</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1004x404wfx756x460</approx_lot_size>
+<approx_acres>8.28</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Riverfront property</item>
+<item>inquire about #502</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

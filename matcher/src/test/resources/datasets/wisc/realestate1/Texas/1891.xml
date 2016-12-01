@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>BAYOU, REALTORS,INC.</name>
+<location>1613 Pine Dr./ Hwy.517 Dickinson, TX 77539</location>
+<office>(281)337-4557</office>
+<toll_free>(800)999-4557</toll_free>
+<fax>(281)337-4773</fax>
+<email>bayou1@eazylink.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ginny McKenzie-Way</name>
+<office>(281)337-4557</office>
+<fax>(281)337-4773</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>11059</id>
+<mls>164168</mls>
+<house_location>4513 Bayou Bend
+Dickinson, TEXAS 77539</house_location>
+<county>Galveston</county>
+<price>$95,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>House built on piers located on canal that goes to main Dickinson Bayou.  1997 painted, new Berber carpet, new tile and shower stall.  AC &amp; HTG 1998, dishwasher 3 yrs. old.  Beautiful!!</house_description>
+
+<school_district>Dickinson I.s.d.</school_district>
+<sub-division>Mariners Mooring</sub-division>
+<approx_size_sqft>1296</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>6466</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>wooded, secluded neighborhood</item>
+<item>waterfront</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

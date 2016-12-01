@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1983 has 3 bedroom(s), 3 bath(s) and
+approximately 1300 square feet of living area.</house_description>
+
+<agent_name>Gary Miller</agent_name>
+<direct>832-2014</direct>
+<office>303-832-2014</office>
+<firm_name>Metro Brokers-Miller</firm_name>
+<phone>303-832-2014</phone>
+<fax>303-861-8386</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$167,900</list_price>
+<location>4882 S Hoyt St</location>
+<neighborhood>Glenbrook</neighborhood>
+<mls>383811</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>1300 (approx)</square_feet>
+<year_built>1983</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

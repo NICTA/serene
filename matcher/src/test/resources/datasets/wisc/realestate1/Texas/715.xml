@@ -1,0 +1,50 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Fulgham Sid</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)789-1025</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>6743</id>
+<mls>472698</mls>
+<house_location>502 ELM STREET CLASSIC GREEK REVIVAL
+Bastrop, TEXAS</house_location>
+<price>$275,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>THIS LARGE HOME HAS 3 BEDROOMS,2 BATHS AND 3 FIREPLACES, APPROX 4200 SF. TREE SHADED CORNER LOTAPT AT REAR OVER GARAGE</house_description>
+
+<approx_size_sqft>4200</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+<item>3 FIREPLACES</item>
+<item>APT OVER GARAGE</item>
+<item>4200 +/- SF</item>
+<item>CORNER LOT</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

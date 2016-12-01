@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Robby Smith</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)688-6651</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20937</id>
+<mls>9126191</mls>
+<house_location>4366 Sandage Avenue
+Fort Worth, TEXAS 76115</house_location>
+<county>Tarrant</county>
+<price>$44,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Hurry - this is a cream puff!  Totally remodeled.  New carpet, paint, vinyl, counter-tops, tub surround.  Main bedroom is good sized (16x10).  Utility area, walk-in closet, linen closet, and much more.  Must see to appreciate.</house_description>
+
+<school_district>Fort Worth I S D</school_district>
+<sub-division>Horne Heights</sub-division>
+<stories>1</stories>
+<year_built>1948</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Updated creampuff!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>2915 HIGHLAND</house_location>
+<price>$220,000</price>
+<rooms>10</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Attached,Carport)</garage>
+<suburb>CARROLLTON</suburb>
+<school_dist>CARROLL</school_dist>
+<mls>246079</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>REGINA STEWART</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>BEAUTIFUL SETTING ON THE OHIO RIVER, OUT OF THE FLOOD AREA. ONE SIDE
+OF THE HOUSE IS ALL WINDOWS AND PATIO DOORS. SAUNA IN MASTER BATH.
+LARGE EAT IN KITCHEN. PATIO INCLUDES BUILT IN GRILL, GAZEBO &amp; DECK
+OVERLOOKING RIVER.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Wellwater</water>
+<sewer>Public</sewer>
+<lot_dimensions>120 x 240</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>1</level></bath_3>
+<bedroom_2><dimension></dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension></dimension><level>1</level></bedroom_4>
+<dining><dimension></dimension><level>1</level></dining>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+<recreation_room><dimension></dimension><level>1</level></recreation_room>
+
+<directions>I-71 SOUTH TO CARROLLTON EXIT, RIGHT TO US 42,
+RIGHT ON 42, PROP ON L, SEE SIGN</directions>
+</house_listing>
+
+
+

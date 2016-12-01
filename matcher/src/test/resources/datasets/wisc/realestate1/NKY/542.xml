@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>73 THOMPSON</house_location>
+<price>$149,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>FT MITCHELL</suburb>
+<school_dist>BEECHWOOD</school_dist>
+<mls>247419</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>MARY LOU BLOUNT</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>BEECHWOOD SCHOOLS! AIR/FURNACE/DISHWASHER/DISPOSAL ALL LESS THAN 3 YRS
+OLD SEE THRU FIREPLACE, HDWD FLRS, INGROUND POOL W/FENCING, MATURE
+TREES SURROU NDING THIS BRICK WELL MAINTAINED HOME.
+EMAIL:MARYLOUB@COLDWELLBANKER.COM</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>13 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>18 X 16</dimension><level>L</level></family>
+<kitchen><dimension>18 X 13</dimension><level>1</level></kitchen>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 10</dimension><level>1</level></master>
+
+<directions>DIXIE HWY TO BEECHWOOD TO LEFT ON THOMPSON</directions>
+</house_listing>
+
+
+

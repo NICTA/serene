@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>27 THATCHER</house_location>
+<price>$139,999</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Builtin,Detached,Rear)</garage>
+<suburb>ALEXANDRIA</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>248948</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>DONNA JENNINGS</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>TERRIFIC CAPE COD ON QUIET STREET. OVERSIZED 2.5 CAR GARAGE &amp; 1 CAR
+BLT IN GARAGE. CALL DONNA JENNINGS FOR MORE DETAILS 786-9007</house_description>
+<construction>Brick</construction>
+<heating>Electric,Forced Air,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_3><dimension>11 X 15</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 16</dimension><level>2</level></bedroom_4>
+<family><dimension>14 X 15</dimension><level>L</level></family>
+<kitchen><dimension>10 X 18</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 12</dimension><level>L</level></laundry>
+<living><dimension>15 X 14</dimension><level>1</level></living>
+<master><dimension>11 X 13</dimension><level>1</level></master>
+
+<directions>US27 L ON MAIN R ON THATCHER</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,65 @@
+<house_listing>
+<firm_information>
+<name>RE/MAX Capital City North</name>
+<location>13018-A Research Blvd. Austin, TX 78750</location>
+<office>(512)331-6644</office>
+<toll_free>(800)692-8784</toll_free>
+<fax>(512)331-7480</fax>
+<email>info@remax-ccn-austin-tx.com</email>
+</firm_information>
+
+<agent_information>
+<name>Theresa Seibold</name>
+<office>(512)331-6644</office>
+<fax>(512)331-7480</fax>
+<voice_mail>(512)896-6589</voice_mail>
+<email>tseibold@remax-ccn-austin-tx.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21392</id>
+<mls>528156</mls>
+<house_location>16403 Pocono Drive
+Austin, TEXAS 78717</house_location>
+<county>Williamson</county>
+<price>$135,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Absolute Dollhouse in Brushy Creek!  Hard Tile, Pfau Paint, High Ceilings, Windows plus 2 Skylights.  Bright &amp; Open.  Assume 7% Loan w/qualifying.</house_description>
+
+<move-in_date>2/1/00</move-in_date>
+<school_district>Round Rock</school_district>
+<sub-division>Meadows Of Brushy Creek</sub-division>
+<approx_size_sqft>1701</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>Cul-de-sac - Long</approx_lot_size>
+<year_built>1993</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>Cul-de-sac Lot</item>
+<item>3 Sides Brick</item>
+<item>Skylights/Hard Tile</item>
+<item>Wood Deck/Dog Run</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

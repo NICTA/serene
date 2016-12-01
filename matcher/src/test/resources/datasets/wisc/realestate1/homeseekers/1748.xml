@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This 2 level townhouse built in 1945 has 2 bedroom(s), 1 bath(s) .
+Rooms include master bedroom.</house_description>
+
+<agent_name>Kenny Smith</agent_name>
+<direct>301-248-8344</direct>
+<office>301-899-1200</office>
+<firm_name>RE/MAX 100 Real Estate</firm_name>
+<phone>301-899-1200</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$49,900</list_price>
+<location>Washington, DC 20019</location>
+<mls>DC3034084</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Townhouse</type>
+<lot_size>2873</lot_size>
+<year_built>1945</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

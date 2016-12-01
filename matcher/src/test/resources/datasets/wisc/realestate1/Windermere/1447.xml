@@ -1,0 +1,34 @@
+<house_listing>
+<price>$122,000</price>
+<mls_id_number>143282</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>1.00</bathrooms>
+<sqft>960</sqft>
+<year_built>1971</year_built>
+<heat>Electric Base Board</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.11        Acres</lot_size>
+<lot_description>50 X100</lot_description>
+<fireplace></fireplace>
+<taxes>$1,991</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Patio,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>SMITH</elementary>
+<middle_school>JACKSON</middle_school>
+<high_school>WILSON</high_school>
+</schools>
+
+</house_listing>
+
+
+

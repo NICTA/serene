@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1959 has 4 bedroom(s), 2
+bath(s) and approximately 2541 square feet of living area. Rooms
+include bonus room, master bedroom. Features include view, patio,
+fireplace.</house_description>
+
+<agent_name>E M Dick Bitgood</agent_name>
+<direct>520-744-4588</direct>
+<office>520-887-2120</office>
+<firm_name>Sonlight Realty Investment</firm_name>
+<phone>520-887-2120</phone>
+<fax>520-795-0237</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$139,900</list_price>
+<location>267 E Laguna St</location>
+<mls>9920540</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>2541 (approx)</square_feet>
+<lot_size>75 X 120</lot_size>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced, Workshop
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

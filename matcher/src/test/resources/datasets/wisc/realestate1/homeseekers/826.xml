@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This condominium built in 1968 has 2 bedroom(s), 2 bath(s) , 1 car
+garage and approximately 1030 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Norma Guerra</agent_name>
+<direct>305-310-4693</direct>
+<office>672-0773</office>
+<firm_name>La Playa Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>672-0773</phone>
+<fax>305-672-0874</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$167,000</list_price>
+<location>5700 Collins Av #16C</location>
+<neighborhood>Seacoast 5700 Condo Desc</neighborhood>
+<mls>M761631</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>1030 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric</cooling>
+<heating>Electric</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This single family home built in 1959 has 3 bedroom(s), 1 bath(s) .
+Rooms include dining room, master bedroom. Features include patio,
+fireplace, storage space.</house_description>
+
+<agent_name>Susan Bjerga-Salamone</agent_name>
+<office>480-483-3333</office>
+<firm_name>RE/MAX Excalibur Realty
+RE/MAX Excalibur Realty</firm_name>
+<phone>480-483-3333</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$100,000</list_price>
+<location>Phoenix, AZ 85006</location>
+<mls>1458564</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<lot_size>1-7,500</lot_size>
+<year_built>1959</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<fireplace>Living Room</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

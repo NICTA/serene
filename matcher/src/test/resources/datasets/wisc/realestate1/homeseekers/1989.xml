@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>Hud home!</house_description>
+
+<agent_name>Anne Eubanks</agent_name>
+<office>757-481-7000</office>
+<firm_name>Gsh Real Estate</firm_name>
+<phone>757-481-7000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$43,650</list_price>
+<location>Virginia Beach, VA 23464</location>
+<mls>9913338</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<type>Townhouse</type>
+<style>Townhouse</style>
+<square_feet>1030 (approx)</square_feet>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric, Heat Pump</heating>
+<fireplace>Yes</fireplace>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

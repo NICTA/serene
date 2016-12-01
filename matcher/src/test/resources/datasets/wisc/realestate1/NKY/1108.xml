@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>505 REEVES RD</house_location>
+<price>$64,900</price>
+<rooms>8</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>2 Cars (Detached,Oversized)</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249083</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>MELISSA BEARDEN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>SUPER CLEAN HOME ON 1 AC LOT NEAR WILLIAMSTOWN LAKE*MANY IMPROVEMENTS
+ALREADY DONE*HUGE FAMILY AREA, DECK, ABOVE GROUND POOL*ENJOY VACATION
+OR YEAR ROUND LIVING*SEPARATE ACCESS ROAD TO THE LAKE-BUILD YOUR OWN
+DOCK.</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Stove</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 8</dimension><level>1</level></bedroom_2>
+<breakfast><dimension>7 X 4</dimension><level>1</level></breakfast>
+<dining><dimension>15 X 12</dimension><level>1</level></dining>
+<family><dimension>24 X 20</dimension><level>1</level></family>
+<kitchen><dimension>14 X 10</dimension><level>1</level></kitchen>
+<living><dimension>24 X 17</dimension><level>1</level></living>
+<master><dimension>15 X 13</dimension><level>1</level></master>
+
+<directions>75S TO DRY RIDGE EXIT L ON 22 RIGHT ON 25 L ON
+467 R ON REEVES</directions>
+</house_listing>
+
+
+

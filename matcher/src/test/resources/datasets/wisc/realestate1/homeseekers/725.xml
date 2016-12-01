@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1966 has 3 bedroom(s), 2 bath(s) and
+approximately 1230 square feet of living area. Rooms include family
+room. Features include private pool, air conditioning.</house_description>
+
+<agent_name>Horst Ortner</agent_name>
+<direct>305-450-2786</direct>
+<office>305-672-2002</office>
+<firm_name>Sobe Realty &amp; Asso
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-2002</phone>
+<fax>305-672-2201</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$199,999</list_price>
+<location>Miami Beach, FL 33139</location>
+<neighborhood>Octagon Towers I Condo</neighborhood>
+<mls>H720432</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Condominium</type>
+<square_feet>1230 (approx)</square_feet>
+<year_built>1966</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Electric</heating>
+<pool>Yes</pool>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Reda Kay</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<mobile>(817)919-6567</mobile>
+<email>rkay@granbury.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20628</id>
+<mls>9122079</mls>
+<house_location>4002 Angelina Drive (Ad # 322)
+in South Granbury, TEXAS 76049</house_location>
+<county>Hood</county>
+<price>$149,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Newer construction in De Cordova Bend Estates!  Golf cart parking, immaculate &amp; gorgeous landscaping &amp; trees.  New roof, split bedrooms, great covered patio &amp; great 10x16 storage/workshop with electricity in the back yard.  Move in condition!</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Decordova Bend Estates</sub-division>
+<approx_size_sqft>2033</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>90x160x90x160</approx_lot_size>
+<year_built>1994</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Newer Construction</item>
+<item>Golf Cart Storage &amp; Workshop</item>
+<item>Covered Patio, Trees, Landscapint</item>
+<item>Ad # 322</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

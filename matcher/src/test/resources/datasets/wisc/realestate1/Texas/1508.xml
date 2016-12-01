@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Manor</name>
+<location>902 Coronado Blvd. Universal City, TX 78148</location>
+<office>(210)658-4733</office>
+<toll_free></toll_free>
+<fax>(210)658-2025</fax>
+<email>manorgold@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Stewart Martin</name>
+<office>(210)658-4733</office>
+<fax>(210)658-2025</fax>
+<email>smartin@express-news.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16641</id>
+<mls>306617</mls>
+<house_location>2733 Poplar Grove Lane
+Schertz, TEXAS 78154</house_location>
+<county>Guadalupe</county>
+<price>$129,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>The Largest Gemcraft In This Area-Over 2300 Sqft.! Wonderful Treed Corner Lot On Quiet Street.  Liv./Din. With Towering Ceiling &amp; Perky Window Coverings.  Kitchen Is The Best Yet W/Raised Panel Oak Doors &amp; Window Seat, Spacious Family Room. All Bedrooms Are Roomy-Lots of Storage Space.  The Backyard is Treed With Covered Patio The Length Of The House.</house_description>
+
+<school_district>Scucisd</school_district>
+<sub-division>Woodland Oaks</sub-division>
+<approx_size_sqft>2370</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>corner</approx_lot_size>
+<master_bedroom>Upstairs</master_bedroom>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

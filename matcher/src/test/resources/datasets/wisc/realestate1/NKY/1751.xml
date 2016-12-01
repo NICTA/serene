@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>641 LAKESHORE</house_location>
+<price>$38,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>3 Story</levels>
+<basement>Crawl</basement>
+<garage>(Carport)</garage>
+<suburb>ELK LAKE</suburb>
+<school_dist>OWEN CO</school_dist>
+<mls>246409</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>DOTTIE M OSTENDORF</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>CUTE COTTAGE, EXTRA LOT, EASY ACCESS TO THE LAKE</house_description>
+<construction>Block</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Stove,Stone</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>11 X 12</dimension><level>3</level></bedroom_2>
+<family><dimension>11 X 24</dimension><level>1</level></family>
+<kitchen><dimension>5 X 6</dimension><level>2</level></kitchen>
+<living><dimension>11 X 18</dimension><level>2</level></living>
+<master><dimension>12 X 12</dimension><level>3</level></master>
+
+<directions>75 TO 71 LEFT ON 35 (SPARTA) TO 227 S (17 MILES)
+TO LFT 330 TO RT 1883 TO GATE</directions>
+</house_listing>
+
+
+

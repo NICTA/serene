@@ -1,0 +1,975 @@
+library_name,alt_library_name,branch_name,alt_branch_name,type,address1,address2,city,county,state,zip,mailing_address1,mailing_address2,mailing_city,mailing_county,mailing_state,mailing_zip,phone,fax,email,website,system_membership,population_served,director_first,director_last,director_phone,director_ext,director_email,last_updated,Location
+,,,,Academic,,,,,OR,,,,,,,,,,,,,,,,,,,01/10/2011 12:03:49 PM,"OR
+"
+Adams Public Library,,,,Public,190 North Main,,Adams,Umatilla,OR,97810,PO Box 20,,Adams,Umatilla,OR,97810,(541) 566-3038,(541) 566-2077,adamspl@uci.net,http://www.adams.plinkit.org,UCSLD,454,Jennifer,Davison,(541) 566-3038,,adamspl@uci.net,08/19/2010 02:38:26 PM,"190 North Main
+Adams, OR 97810
+(45.767585933578815, -118.56310895809119)"
+Agness Community Library District,,,,Public,03905 Cougar Ln,,Agness,Curry,OR,97406,PO Box 33,,Agness,,OR,97406,(541) 247-6323,(541) 247-6323,library@nwtec.com,http://www.agnesslibrary.plinkit.org,NONE,129,Jhanna,Stutzman-Fry,(541) 247-6323,,agnesslibrary@hughes.net,10/26/2009 09:18:53 AM,"03905 Cougar Ln
+Agness, OR 97406
+(42.55689737353329, -124.0702728855728)"
+Albany Public Library,,,,Public,2450 14th Avenue SE,,Albany,Linn,OR,97322,2450 14th Avenue SE,,Albany,,OR,97322,(541) 917-7580,(541) 917-7586,,http://library.cityofalbany.net,NONE,48770,Ed,Gallagher,(541) 917-7589,,ed.gallagher@cityofalbany.net,10/23/2009 10:46:39 AM,"2450 14th Avenue SE
+Albany, OR 97322
+(44.62860634879578, -123.07487607451473)"
+Albany Public Library,,Albany Downtown Carnegie Library,,Public,302 Ferry Street SW,,Albany,Linn,OR,97321,,,,,,,(541) 917-7585,,,,,,Jason,Darling,(541) 917-7584,7584,jason.darling@cityofalbany.net,02/26/2010 04:27:58 PM,"302 Ferry Street SW
+Albany, OR 97321
+(44.63538879569704, -123.10838161775567)"
+Amity Public Library,,,,Public,307 S Trade St,,Amity,Yamhill,OR,97101,PO Box 470,,Amity,,OR,97101,(503) 835-8181,(503) 835-3780,,,CCRLS,1480,Eileen,Lewis,(503) 835-8181, ,liblewis@yahoo.com,09/30/2009 03:23:31 PM,"307 S Trade St
+Amity, OR 97101
+(45.12238817829109, -123.20583844577897)"
+Arlington Public Library,,,,Public,500 W First St,,Arlington,Gilliam,OR,97812,PO Box 339,,Arlington ,,OR,97812,(541) 454-2444,(541) 454-2568,aplib@gorge.net,http://www.arlington.plinkit.org,NONE,830,Mary,Mitchell,(514) 454-2444,,aplib@gorge.net,01/25/2010 03:26:15 PM,"500 W First St
+Arlington, OR 97812
+(45.71255023218219, -120.20163052511995)"
+Art Institute Of Portland,,Learning Resource Center,,Academic,1122 NW Davis,,Portland,,OR,97209,1122 NW Davis,,Portland,,,,503-228-6528 x 4759,503-228-2895,nthurston@aii.edu,http://library.aidepartments.com/index.asp,,2200,Nancy,Thurston,503-382-4759,,,10/20/2009 11:21:43 AM,"1122 NW Davis
+Portland, OR 97209
+(45.52438512538822, -122.68267584167432)"
+Astoria Public Library,,,,Public,450 Tenth St,,Astoria,Clatsop,OR,97103,450 Tenth St,,Astoria,,OR,97103,(503) 325-7323,(503) 325-2997,comments@astorialibrary.org,http://astorialibrary.org,NONE,10045,Jane,Tucker,(503) 325-7323,44,jtucker@astoria.or.us,09/30/2009 03:23:31 PM,"450 Tenth St
+Astoria, OR 97103
+(46.188009706552826, -123.83269862158264)"
+Athena Public Library,,,,Public,418 E Main St,,Athena,Umatilla,OR,97813,PO Box 450,,Athena,,OR,97813,(541) 566-2470,(541) 566-2470,athenalibrary@cityofathena.com,http://www.uci.net/~athenalibrary,UCSLD,1721,Carrie,Bremer,(541) 566-2470, ,athenalibrary@cityofathena.com,10/20/2009 08:16:43 AM,"418 E Main St
+Athena, OR 97813
+(45.811673115918694, -118.4886629011045)"
+Baker County Library District,,,,Public,2400 Resort St,,Baker City,Baker,OR,97814,2400 Resort St,,Baker City,,OR,97814,(541) 523-6419,(541) 523-9088,director@bakerlib.org,http://www.bakerlib.org,NONE,16435,Perry,Stokes,(541) 523-6419,,director@bakerlib.org,09/30/2009 03:23:31 PM,"2400 Resort St
+Baker City, OR 97814
+(44.780782007765325, -117.82893437276374)"
+Baker County Public Library,,Baker County Library  Bookmobile,,Public,2400 Resort St,,Baker City,Baker,OR,97814,,,,,,,(541) 403-1390,,,,,,Keith,McGonagill,,,bkmb@bakerlib.org,02/26/2010 04:27:55 PM,"2400 Resort St
+Baker City, OR 97814
+(44.780782007765325, -117.82893437276374)"
+Baker County Public Library,,Haines Branch Library,,Public,818 Cole ,,Haines,Baker,OR,97833,,,,,,,(541) 856-3309,,,,,,Heidi,Hull,,,haines@bakerlib.org,04/02/2010 03:35:42 PM,"818 Cole
+Haines, OR 97833
+(44.91239533109941, -117.93752164872983)"
+Baker County Public Library,,Halfway Branch Library,,Public,260 Gover Lane,,Halfway,Baker,OR,97834,,,,,,,(541) 742-5279,,,,,,Linda,Bergeron,,,halfway@bakerlib.org,02/26/2010 04:27:47 PM,"260 Gover Lane
+Halfway, OR 97834
+(44.87556613560903, -117.10889949252153)"
+Baker County Public Library,,Huntington Branch Library,,Public,55 E. Jefferson,,Huntington,Baker,OR,97907,,,,,,,(541) 869-2440,(541) 869-2440,,,,,Gloria,Brasure,,,huntington@bakerlib.org,02/26/2010 04:27:48 PM,"55 E. Jefferson
+Huntington, OR 97907
+(44.34969276202342, -117.26816719335105)"
+Baker County Public Library,,Richland Branch Library,,Public,37986 HWY 86,,Richland,Baker,OR,97870,,,,,,,(541) 893-6088,,,,,,Paula,Geddes,,,richland@bakerlib.org,02/26/2010 04:27:57 PM,"37986 HWY 86
+Richland, OR 97870
+(44.777602547692396, -117.26332713297893)"
+Baker County Public Library,,Sumpter Branch Library,,Public,245 S Mill St,,Sumpter,Baker,OR,97877,,,,,,,(541) 894-2253,,,,,,Jerry-Ann,Dunn,,,sumpter@bakerlib.org,02/26/2010 04:27:49 PM,"245 S Mill St
+Sumpter, OR 97877
+(44.74526968867767, -118.20166401270784)"
+Bandon Public Library ,,,,Public,1204 11th St SW,,Bandon ,Coos,OR,97411,PO Box 128,,Bandon,,OR,97411,(541) 347-3221,(541) 347-9363,banlibrary@cclsd.org,http://info.cclsd.org/ban/,CCLSD,7696,Deirdre,Krumper,(541) 347-3022,331,dkrumper@cclsd.org,09/30/2009 03:23:31 PM,"1204 11th St SW
+Bandon, OR 97411
+(43.11407674329659, -124.42830317925494)"
+Banks Public Library ,,,,Public,111 Market St,,Banks  ,Washington,OR,97106,111 Market St,,Banks,,OR,97106,(503) 324-1382,(503) 324-9132,,http://www.wccls.org,WCCLS,5103,Denise,Holmes,(503) 324-1382,,deniseh@wccls.org,10/19/2009 03:38:17 PM,"111 Market St
+Banks, OR 97106
+(45.6197128273188, -123.11410061968338)"
+Beaverton City Library ,,,,Public,12375 SE 5th St,,Beaverton  ,Washington,OR,97005,12375 SE 5th St,,Beaverton ,,OR,97005,(503) 644-2197,(503) 574-3436,librarymail@ci.beaverton.or.us,http://www.beavertonlibrary.org,WCCLS,118782,Edward,House,(503) 526-3705, ,ehouse@ci.beaverton.or.us,09/30/2009 03:23:31 PM,"12375 SE 5th St
+Beaverton, OR 97005
+(45.48333107475065, -122.80427317325598)"
+Beaverton City Library,,Murray Scholls,,Public,11200 SW Murray Scholls Place Suite 102,,Beaverton,Washington,OR,97007-9702,11200 SW Murray Scholls Place Suite 102,,Beaverton,Washington,OR,,(503) 526-2381,(503) 350-3645,librarymail@ci.beaverton.or.us,http://www.beavertonlibrary.org,WCCLS,,Edward,House,(503) 526-3705,,ehouse@ci.beaverton.or.us,08/19/2010 01:49:29 PM,"11200 SW Murray Scholls Place Suite 102
+Beaverton, OR 97007-9702
+(45.438105051542905, -122.82808277455123)"
+Blue Mountain Community College,,,,Academic,2411 NW Carden Ave,PO Box 100,Pendletons,s,OR,97801-1000s,,,,,,,541- 278-5916s,541-276-6119s,,http://www.bluecc.edu/library/s,,,,,,,,06/03/2010 12:43:48 PM,"2411 NW Carden Ave
+Pendletons, OR 97801-1000s
+(45.67387476412469, -118.81194058566025)"
+Brownsville Community Library ,,,,Public,146 Spaulding,,Brownsville,Linn,OR,97327,PO Box 68,,Brownsville,,OR,97327,(541) 466-5454,,library@ci.brownsville.or.us,,NONE,1755,Sherri,Lemhouse,(541) 466 5454,,library@ci.brownsville.or.us,10/20/2009 12:48:22 PM,"146 Spaulding
+Brownsville, OR 97327
+(44.394186704421905, -122.98391122112412)"
+Canby Public Library,,,,Public,292 N Holly St,,Canby,Clackamas,OR,97013,292 N Holly St,,Canby,,OR,97013,(503) 266-3394,(503) 266-1709,,http://www.ci.canby.or.us/Canbylibrary/library.htm,LINCC,22774,Penny,Hummel,(503) 266-4021,230,hummelp@ci.canby.or.us,10/28/2009 01:38:03 PM,"292 N Holly St
+Canby, OR 97013
+(45.26390923523274, -122.69489157717257)"
+Cedar Mill Community Library  ,,,,Public,12505 NW Cornell Rd,,Portland ,Washington,OR,97229,12505 NW Cornell Rd,,Portland,,OR,97229,(503) 644-0043,(503) 644-3964,cedarmill@wccls.org,http://www.cedarmill.org/library/,WCCLS,50605,Peter,Leonard,(503) 644-0043,110,peterl@wccls.org,09/30/2009 03:23:31 PM,"12505 NW Cornell Rd
+Portland, OR 97229
+(45.52571612199159, -122.80540631901289)"
+Cedar Mill Community Library,,Bethany Branch Library,,Public,15325 NW Central Drive Suite J-8,,Portland,,OR,97229,,,,,,,(503) 617-7323,,,,,,Marianne,Coalson,(503) 617-7323,,MarianneC@wccls.org,12/03/2010 08:36:49 AM,"15325 NW Central Drive Suite J-8
+Portland, OR 97229
+(45.55454838625093, -122.83492206801452)"
+Central Oregon Community College,,Barber Library,,Academic,2600 NW College Way,,Bend,,OR,97701-5998,,,,,,,541-383-7560,541-383-7507,,http://campuslibrary.cocc.edu/,,,,Bilyeu,541-383-7563,,dbilyeu@cocc.edu,10/20/2009 08:10:49 AM,"2600 NW College Way
+Bend, OR 97701-5998
+(44.074873064640876, -121.34890634566787)"
+Chemeketa Community College,,Library,,Academic,4000 Lancaster Dr NE,PO Box 14007,Salem,Marion,OR,97309-7070,,,,,,,503-399-5043,503-399-5214,,http://library.chemeketa.edu,Chemeketa Cooperative Regional Library Service,,Natalie,Beach,,,natalie.beach@chemeketa.edu,04/02/2010 04:11:20 PM,"4000 Lancaster Dr NE
+Salem, OR 97309-7070
+(44.977147747423004, -122.98334285929607)"
+Chemeketa Cooperative Regional Library Service,,,,Public,4000 Lancaster Dr NE,,Salem,Marion,OR,97305,PO Box 14007,,Salem,,OR,97309,(503) 399-5165,(503) 399-7316,jgoodyear@ccrls.org,http://www.ccrls.org,CCRLS,,John,Goodyear,(503) 315-4584,,jgoodyear@ccrls.org,02/26/2010 01:51:21 PM,"4000 Lancaster Dr NE
+Salem, OR 97305
+(44.977147747423004, -122.98334285929607)"
+Chetco Community Public Library,,,,Public,405 Alder St,,Brookings,Curry,OR,97415,405 Alder St,,Brookings,,OR,97415,(541) 469-7738,(541) 469-6746,,http://www.chetcolibrary.org,NONE,13127,Susana,Fernandez,(541) 469-7738,10,susanaf@nwtec.com,09/30/2009 03:23:31 PM,"405 Alder St
+Brookings, OR 97415
+(42.05204269588819, -124.27572499919414)"
+Clackamas Community College,,Marshall N. Dana Library,,Academic,19600 S Molalla Ave,,Oregon City,Clackamas County,OR,97045-7998,,,,,,,503-657-6958 x 2290,503- 655-8925,,http://library.clackamas.edu,,,,,,,,03/22/2010 09:16:00 AM,"19600 S Molalla Ave
+Oregon City, OR 97045-7998
+(45.323746505995466, -122.57960754371769)"
+Clackamas County Library ,,,,Public,16201 SE McLoughlin Blvd ,,Oak Grove ,Clackamas,OR,97267,16201 SE McLoughlin Blvd,,Oak Grove,,OR,97267,(503) 655-8543,(503) 794-8006,,http://www.co.clackamas.or.us/lib/,LINCC,85559,Doris,Grolbert,(503) 650-3112,,dorisgro@co.clackamas.or.us,09/30/2009 03:23:31 PM,"16201 SE McLoughlin Blvd
+Oak Grove, OR 97267
+(45.405926427688826, -122.62416595044806)"
+Clackamas County Library,,Clackamas Corner Branch Library,,Public,"11750 SE 82nd Ave, Suite D",,Happy Valley,Clackamas County,OR,97086,,,,,,,(503) 722-6222,,,,,,Doris,Grolbert,(503) 650-3112,,,03/22/2010 09:15:55 AM,"11750 SE 82nd Ave, Suite D
+Happy Valley, OR 97086
+(45.43775343430576, -122.57898401169604)"
+Clatskanie Library District,,,,Public,11 Lillich St,,Clatskanie,Columbia,OR,97016,PO Box 577,,Clatskanie,,OR,97016,(503) 728-3732,(503) 728-4304,clpublic@clatskanie.com,,NONE,6035,Elizabeth,Kruse,(503) 728-3732,,clpublic@clatskanie.com,09/30/2009 03:23:31 PM,"11 Lillich St
+Clatskanie, OR 97016
+(46.05953130262748, -123.29181098378984)"
+Clatsop Community College,,Badollet Library,,Academic,1680 Lexington,,Astoria,,OR,97103-3609,,,,,,,503-338-2462,503-338-2387,,http://library.clatsop.cc.or.us,,,,,,,,01/15/2009 12:57:07 PM,"1680 Lexington
+Astoria, OR 97103-3609
+(46.18338308748335, -123.82356662955796)"
+Columbia Gorge Community College,,Library,,Academic,400 E Scenic Drive,,The Dalles,Wasco,OR,97058-3434,,,,,,,541-506-6081,541-506-6082,,http://www.cgcc.cc.or.us/library/,,,,,,,,04/02/2010 04:11:19 PM,"400 E Scenic Drive
+The Dalles, OR 97058-3434
+(45.59190400421162, -121.190215597879)"
+Concordia University,,Library,,Academic,2811 NE Holman St,,Portland,,OR,97211-6099,,,,,,,503-280-8507,503-280-8518,,http://www.cu-portland.edu/library,,,Brent,Mai,,,bmai@cu-portland.edu,09/30/2010 03:26:17 PM,"2811 NE Holman St
+Portland, OR 97211-6099
+(45.56822707431661, -122.63768276054844)"
+Confederated Tribes of Grand Ronde Library,,,,Tribal,9615 Grand Ronde Road,,Grand Ronde,Marion,OR,97347,9615 Grand Ronde Road,,Grand Ronde,Marion,OR,97347,503-879-1488,,marion.mercier@grandronde.org,http://www.grandronde.org/template.aspx?id=3936,,,Marion,Mercier,503-879-2284,,marion.mercier@grandronde.org,12/28/2009 04:11:34 PM,"9615 Grand Ronde Road
+Grand Ronde, OR 97347
+(45.07473564343759, -123.61188441177525)"
+Confederated Tribes of Umatilla Library,Tamastslikt Cultural Institute Library,,,Tribal,Tamastslikt Cultural Institute,72789 Highway 331,Pendleton,Umatilla,OR,97801,Tamastslikt Cultural Institute,72789 Highway 331,Pendleton,Umatilla,OR,97801,(541) 966-1908,,malissa.minthorn@tamastslikt.org,,,,Malissa,Minthorn-Winks,(541) 966-1908,,malissa.minthorn@tamastslikt.org,12/29/2009 10:52:08 AM,"Tamastslikt Cultural Institute
+Pendleton, OR 97801
+(45.56902581518921, -118.4033192508827)"
+Coos Bay Public Library,,,,Public,525 Anderson,,Coos Bay,Coos,OR,97420,525 Anderson,,Coos Bay,,OR,97420,(541) 269-1101,(541) 269-7567,,http://bay.cooslibraries.org,CCLSD,24164,Carol,Ventgen,(541) 269-1101,229,cventgen@cclsd.org,09/30/2009 03:23:31 PM,"525 Anderson
+Coos Bay, OR 97420
+(43.367162955536315, -124.2172978565858)"
+Coos County Library Service District,,,,Public,"1988 Newmark, Tioga 3rd Floor",,Coos Bay,Coos,OR,97420,1988 Newmark,,Coos Bay,,OR,97420,(541) 888-7393,(541) 888-1529,,http://www.cooslibraries.org,CCLSD,492,Mary Jane,Fisher,(541) 888-7393,,mjfisher@socc.edu,09/30/2009 03:23:31 PM,"1988 Newmark, Tioga 3rd Floor
+Coos Bay, OR 97420
+(43.39152467937954, -124.2528117093051)"
+Coquille Indian Tribe Library,,,,Tribal,3050 Tremont Blvd.,,North Bend,Coos,OR,97459,3050 Tremont Blvd.,,North Bend,Coos,OR,97459,(541) 756-0904,(541) 756-0847,ctanner@coquilletribe.org,http://www.coquilletribe.org/coquille-indian-tribe-library.htm,,,Chris,Tanner,(541) 756-0904,,ctanner@coquilletribe.org,12/29/2010 03:56:01 PM,"3050 Tremont Blvd.
+North Bend, OR 97459
+(43.39424256108343, -124.21966417111626)"
+Coquille Public Library,,,,Public,105 N Birch St,,Coquille,Coos,OR,97423,105 N Birch St,,Coquille,,OR,97423,(541) 396-2166,(541) 396-2174,,,CCLSD,6323,Anne,Conner,(541) 396-2167,,aconner@cclsd.org,09/30/2009 03:23:31 PM,"105 N Birch St
+Coquille, OR 97423
+(43.175501106311096, -124.19079972701088)"
+Corban College,,Library,,Academic,5000 Deer Park Drive SE,,Salem,Marion,OR,97317--9392,,,,,,,503-375-7016,503-375-7196,,http://www.corban.edu/library,OPALL,1000,Floyd,Votaw,503-375-7028,,fvotaw@corban.edu,03/16/2010 08:02:16 AM,"5000 Deer Park Drive SE
+Salem, OR 97317--9392
+(44.882830989473796, -122.96260132783905)"
+Cornelius Public Library,,,,Public,1355 N Barlow St,,Cornelius,Washington,OR,97113,1355 N Barlow St,,Cornelius,,OR,97113,(503) 357-4093,(503) 357-7775,library@ci.cornelius.or.us,http://www.ci.cornelius.or.us,WCCLS,12731,Karen,Hill,(503) 992-5307,,karenh@wccls.org,09/30/2009 03:23:31 PM,"1355 N Barlow St
+Cornelius, OR 97113
+(45.52174287962226, -123.05610545258178)"
+Corvallis-Benton County Public Library,,,,Public,645 NW Monroe Ave,,Corvallis,Benton,OR,97330,645 NW Monroe Ave,,Corvallis,,OR,97330,(541) 766-6928,(541) 766-6915,,http://www.thebestlibrary.net,NONE,85300,Carolyn,Rawles-Heiser,(541) 766-6910,,carolyn.rawles-heiser@ci.corvallis.or.us,09/30/2009 03:23:31 PM,"645 NW Monroe Ave
+Corvallis, OR 97330
+(44.565303877305084, -123.26458579278314)"
+Corvallis-Benton County Public Library,,Alsea Community Library,,Public,19192 Alsea Hwy,,Alsea,Benton,OR,97324,19192 Alsea Hwy,,Alsea,Benton,,97324,(541) 487-5061,(541) 487-5061,alsealibrary@casco.net,http://www.thebestlibrary.net/joomla/content/blogcategory/56/98/,,,Mary,Rounds,,,mary.rounds@ci.corvallis.or.us,11/24/2009 03:57:29 PM,"19192 Alsea Hwy
+Alsea, OR 97324
+(44.38464662689792, -123.58835487203424)"
+Corvallis-Benton County Public Library,,Monroe Community Library,,Public,668 Commercial Street,,Monroe,Benton,OR,97456,,,,,,,(541) 847-5174,(541) 847-5174,,,,,Lori,Pelkey,,,lori.pelkey@ci.corvallis.or.us,04/02/2010 04:06:00 PM,"668 Commercial Street
+Monroe, OR 97456
+(44.31478874485019, -123.30018011134283)"
+Corvallis-Benton County Public Library,,Philomath Community Library,,Public,1050 Applegate,,Philomath,Benton,OR,97370,,,,,,,(541) 929-3016,(541) 929-5934,,,,,Avery,Carolynn,,,LIB/Philomath@ci.corvallis.or.us,04/02/2010 04:05:59 PM,"1050 Applegate
+Philomath, OR 97370
+(44.5391914954664, -123.37156426592365)"
+Cottage Grove Public Library,Woodard Memorial Library,,,Public,700 E Gibbs Ave,,Cottage Grove,Lane,OR,97424,700 E Gibbs Ave,,Cottage Grove,,OR,97424,(541) 942-3828,,library@cottagegrove.org,http://library.cottagegrove.org,NONE,9345,Deanna,Fournier,(541) 942.3828,,library@cottagegrove.org,12/22/2010 04:21:27 PM,"700 E Gibbs Ave
+Cottage Grove, OR 97424
+(43.79872104946594, -123.06067887702966)"
+Crook County Library,,,,Public,175 N.W. Meadowlakes Dr,175 NW Meadow Lakes Dr,Prineville,Crook,OR,97754,175 NW Meadowlakes Dr,175 NW Meadow Lakes Dr,Prineville,,OR,97754,(541) 447-7978,(541) 447-1308,library@crooklib.org,http://www.crooklib.org,NONE,25885,Camille,Wood,(541) 447-1864, ,cwood@crooklib.org,03/08/2011 10:47:56 AM,"175 N.W. Meadowlakes Dr
+Prineville, OR 97754
+(44.302339560502794, -120.85702533255241)"
+Crook County Library,,Crook County Library Bookmobile,,Public,175 NW Meadow Lakes Dr,,Prineville,,OR,97754,,,,,,,541-447-7978,,,,,,,,,,,03/08/2011 10:47:42 AM,"175 NW Meadow Lakes Dr
+Prineville, OR 97754
+(44.302339560502794, -120.85702533255241)"
+Curry Public Library District,,,,Public,94341 3rd Street,,Gold Beach,Curry,OR,97444,94341 3rd Street,,Gold Beach,,OR,97444,(541) 247-7246,(541) 247-4411,cpld@cplib.net,http://www.curry.plinkit.org,NONE,4897,Corey,Bard,(541) 247-3452, ,corey@cplib.net,10/19/2009 03:19:00 PM,"94341 3rd Street
+Gold Beach, OR 97444
+(42.41242853823984, -124.41756029290862)"
+Dallas Public Library  ,,,,Public,950 Main St,,Dallas,Polk,OR,97338,950 Main St,,Dallas,,OR,97338,(503) 623-2633,(503) 623-7357,,http://www.ci.dallas.or.us/library,CCRLS,15065,Donna,Zehner,(503) 623-2633,,donna@ccrls.org,09/30/2009 03:23:31 PM,"950 Main St
+Dallas, OR 97338
+(44.91995385299181, -123.31662794992513)"
+Deschutes Public Library District,,,,Public,507 NW Wall St,,Bend ,Deschutes,OR,97701,507 NW Wall St,,Bend,,OR,97701,(541) 617-7050,(541) 617-7059,,http://www.dpls.lib.or.us,NONE,160810,Todd,Dunkelberg,(541) 312-1021,,toddd@dpls.us,10/20/2009 11:19:14 AM,"507 NW Wall St
+Bend, OR 97701
+(44.05603912348738, -121.31744248946605)"
+Deschutes Public Library System,,Bend Public Library,,Public,601 NW Wall St,,Bend,Deschutes County,OR,97701,,,,,,,,,,,,,Kevin,Barclay,,,kevinb@dpls.us,03/22/2010 09:15:06 AM,"601 NW Wall St
+Bend, OR 97701
+(44.05663766107426, -121.3167223269542)"
+Deschutes Public Library System,,East Bend Library,,Public,62080 Dean Swift Road,,Bend,Deschutes,OR,97701,62080 Dean Swift Road,,Bend,Deschutes,OR,97701,(541) 312-1021,,,,,,Todd,Dunkelberg,(541) 312-1021,,toddd@dpls.us,03/09/2011 08:29:33 AM,"62080 Dean Swift Road
+Bend, OR 97701
+(44.054345017721445, -121.27118430883358)"
+Deschutes Public Library System,,La Pine Library,,Public,16425 1st St,,LaPine,Deschutes County,OR,97739,,,,,,,,,,,,,Sandy,Irwin,,,sandyi@dpls.us,03/22/2010 09:15:21 AM,"16425 1st St
+LaPine, OR 97739
+(43.67458807289883, -121.50119307394367)"
+Deschutes Public Library System,,Redmond Library,,Public,827 SW Deschutes Ave.,,Redmond,Deschutes County,OR,97756,,,,,,,(541) 312-1050,(541) 548-6358,,,,,Todd,Dunkelburg,(541) 312-1051,,toddd@dpls.us,03/22/2010 09:15:09 AM,"827 SW Deschutes Ave.
+Redmond, OR 97756
+(44.273566023373775, -121.1767358972954)"
+Deschutes Public Library System,,Sisters Library,,Public,110 N Cedar St,,Sisters,Deschutes County,OR,97759,,,,,,,(541) 312-1070,(541) 549-9620,,,,,Margaret,Bermel,(541) 312-1071,,pegb@dpls.us,03/22/2010 09:15:13 AM,"110 N Cedar St
+Sisters, OR 97759
+(44.291355437196316, -121.5450726207442)"
+Deschutes Public Library System,,Sunriver Branch Library,,Public,56855 Venture Lane,,Sunriver,Deschutes County,OR,97707,,,,,,,(541) 312-1080,(541) 593-9286,,,,,Chandra,VanEijnsbergen,(541) 312-1081,,chandrav@dpls.us,03/22/2010 09:15:17 AM,"56855 Venture Lane
+Sunriver, OR 97707
+(43.86631354256678, -121.43484717139296)"
+Dora Public Library ,,,,Public,56125 Goldbrick Rd,,Myrtle Point ,Coos,OR,97458,56125 Goldbrick Rd,,Myrtle Point,,OR,97458, , ,dorapublic@gmail.com,http://doralibrary.plinkit.org,CCLSD,183,Betty,Vaughn, ,,bvaughn@cclsd.org,12/31/2009 11:32:45 AM,"56125 Goldbrick Rd
+Myrtle Point, OR 97458
+(43.144600324307255, -123.9502193036976)"
+Douglas County Library System,,,,Public,1409 NE Diamond Lake Blvd,,Roseburg,Douglas,OR,97470,1409 NE Diamond Lake Blvd,,Roseburg,,OR,97470,(541) 440-4305,(541) 957-7798,,http://dclibrary.us,NONE,104675,Max,Leek,(541) 440-4311,,mtleek@co.douglas.or.us,09/30/2009 03:23:31 PM,"1409 NE Diamond Lake Blvd
+Roseburg, OR 97470
+(43.21337128350003, -123.33719705282684)"
+Douglas County Library System,,C. Giles Hunt Memorial Library,,Public,210 E Central St,,Sutherlin,Douglas County,OR,97479,,,,,,,(541) 459-9161,(541) 459-4923,,,,,Juanita,Steiner,,,jmsteine@co.douglas.or.us,03/22/2010 09:14:54 AM,"210 E Central St
+Sutherlin, OR 97479
+(43.3904452877861, -123.31148983747991)"
+Douglas County Library System,,Canyonville Branch Library,,Public,250 N. Main,,Canyonville,Douglas County,OR,97417,,,,,,,(541) 839-4727,(541) 839-4727,,,,,Carol,Hilderbrand,,,cahilderb@co.douglas.or.us,03/22/2010 09:14:32 AM,"250 N. Main
+Canyonville, OR 97417
+(42.93106758104919, -123.28083472799577)"
+Douglas County Library System,,Glendale Branch Library,,Public,190 Third Street,,Glendale,Douglas County,OR,97442,,,,,,,(541) 832-2360,(541) 832-2360,,,,,Linda,Kitchens,,,lskitche@co.douglas.or.us,03/22/2010 09:14:39 AM,"190 Third Street
+Glendale, OR 97442
+(42.73647449345417, -123.42766968277638)"
+Douglas County Library System,,Mildred Whipple Library,,Public,205 West ,,Drain,Douglas County,OR,97435,,,,,,,(541) 836-2648,,,,,,Valarie,Johns,,,vljohns@co.douglas.or.us,03/22/2010 09:14:36 AM,"205 West
+Drain, OR 97435
+(43.696455475040125, -123.4169850005573)"
+Douglas County Library System,,Myrtle Creek Branch Library,,Public,231 Division Street,,Myrtle Creek,Douglas County,OR,97457,,,,,,,(541) 863-5945,(541) 863-5945,,,,,Joy,Sanada,,,jesanada@co.douglas.or.us,03/22/2010 09:14:45 AM,"231 Division Street
+Myrtle Creek, OR 97457
+(43.02745305218852, -123.28505345806357)"
+Douglas County Library System,,Oakland Branch Library,,Public,637 NE Locust St,,Oakland,Douglas County,OR,97462,,,,,,,(541) 459-9784,(541) 459-9784,,,,,Glenn,Hansen,,,glhansen@co.douglas.or.us,03/22/2010 09:14:42 AM,"637 NE Locust St
+Oakland, OR 97462
+(43.42360000390686, -123.29335889237676)"
+Douglas County Library System,,Reedsport Branch Library,,Public,395 Winchester Ave,,Reedsport,Douglas County,OR,97467,,,,,,,(541) 271-3500,,,,,,Sue,Cousineau,,,scousineau@co.douglas.or.us,03/22/2010 09:14:48 AM,"395 Winchester Ave
+Reedsport, OR 97467
+(43.7017753217764, -124.0964416292154)"
+Douglas County Library System,,Riddle Branch Library,,Public,637 First St,,Riddle,Douglas County,OR,97469,,,,,,,(541) 874-2070,(541) 874-2070,,,,,Darla,Schofield,,,djschofi@co.douglas.or.us,03/22/2010 09:14:51 AM,"637 First St
+Riddle, OR 97469
+(42.92619536987117, -123.28478199492386)"
+Douglas County Library System,,Winston Branch Library,,Public,131 NW Rose St,,Winston,Douglas County,OR,97496,,,,,,,(541) 679-5501,,,,,,Pete,Tano,,,pktano@co.douglas.or.us,03/22/2010 09:14:58 AM,"131 NW Rose St
+Winston, OR 97496
+(43.12456647776469, -123.41403890500924)"
+Douglas County Library System,,Yoncalla Branch Library,,Public,194 Birch,,Yoncalla,Douglas County,OR,97499,,,,,,,(541) 849-2128,(541) 849-2128,,,,,Jill,Cunningham,,,jccunnin@co.douglas.or.us,03/22/2010 09:15:03 AM,"194 Birch
+Yoncalla, OR 97499
+(43.599850442713446, -123.28455209625969)"
+Driftwood Public Library,,,,Public,801 SW Hwy 101 #201,,Lincoln City,Lincoln,OR,97367,801 SW Hwy 101 #201,,Lincoln City,,OR,97367,(541) 996-2277,(541) 996-1262,suej@lincolncity.org,http://www.driftwoodlib.org,NONE,13555,Susan,Jenkins,(541) 996-1251, ,suej@lincolncity.org,09/30/2009 03:23:31 PM,"801 SW Hwy 101 #201
+Lincoln City, OR 97367
+(44.971876046590964, -124.01422567633236)"
+Dufur School/Community Library ,,,,Public,802 NE Fifth St,,Dufur  ,Wasco,OR,97021,802 NE 5th,,Dufur,,OR,97021,(541) 467-2509,(541) 467-2589,lwalk@dufur.k12.or.us,http://www.dufur.k12.or.us,NONE,1740,Louise,Walkowiak,(541) 467-2509, ,lwalk@dufur.k12.or.us,09/30/2009 03:23:31 PM,"802 NE Fifth St
+Dufur, OR 97021
+(45.45481107537865, -121.13069770782609)"
+Eastern Oregon University,Pierce Library,Pierce Library,,Academic,One University Blvd,,La Grande,,OR,97850-2899,,,,,,,541-962-3540,541-962-3335,,http://pierce.eou.edu,,,Karen,Clay,541-962-3792,,kclay@eou.edu,01/20/2010 03:47:24 PM,"One University Blvd
+La Grande, OR 97850-2899
+(45.32205899962332, -118.09112700041061)"
+Echo Public Library,,,,Public,20 S. Bonanza,,Echo,Umatilla,OR,97826,PO Box 9,,Echo,,OR,97826,(541) 376-8411,(541) 376-8218,ecpl@centurytel.net,http://www.echo-oregon.com,UCSLD,962,Diane,Berry,(541) 376-8411,,ecpl@centurytel.net,09/30/2009 03:23:31 PM,"20 S. Bonanza
+Echo, OR 97826
+(45.7422062804319, -119.19510460211134)"
+Elgin Public Library,,,,Public,1699 Division St,,Elgin,Union,OR,97827,PO Box 67,,Elgin,,OR,97827,(541) 437-2860,(541) 437-2860,ElginPublicLibrary@elgin.k12.or.us,http://elgin.plinkit.org,NONE,2503,Theresa,Chandler,(541) 437-2860, ,libraryladytmc@yahoo.com,01/25/2010 04:53:14 PM,"1699 Division St
+Elgin, OR 97827
+(45.56492228508761, -117.9267172815406)"
+Emma Humphrey Library,,,,Public,150 A St E,,Vale,Malheur,OR,97918,150 A St E,,Vale,,OR,97918,(541) 473-3902,,valepubliclibrary@yahoo.com,,NONE,2040,Mary,Tolman,(541) 473-3902,,valepubliclibrary@yahoo.com,09/30/2009 03:23:31 PM,"150 A St E
+Vale, OR 97918
+(43.981831566446026, -117.23957413822332)"
+Enterprise City Library,,,,Public,101 NE First St,,Enterprise,Wallowa,OR,97828,101 NE First St,,Enterprise,,OR,97828,(541) 426-3906,(541) 426-3395,enterpl@eoni.com,http://www.enterpriseoregon.org,NONE,3183,Denine,Rautenstrauch,(541) 426-3906, ,enterpl@eoni.com,09/30/2009 03:23:31 PM,"101 NE First St
+Enterprise, OR 97828
+(45.42556770013336, -117.276341862994)"
+Estacada Public Library  ,,,,Public,825 NW Wade,,Estacada  ,Clackamas,OR,97023,825 NW Wade,,Estacada,,OR,97023,(503) 630-8273,(503) 630-8282,,http://www.estacada.lib.or.us,LINCC,18726,Anna,Stavinoha,(503) 630-8273,213,annas@lincc.org,11/05/2009 12:11:02 PM,"825 NW Wade
+Estacada, OR 97023
+(45.29718040790584, -122.33798369428422)"
+Eugene Public Library,,,,Public,100 W 10th Ave,,Eugene,Lane,OR,97401,100 W 10th Ave,,Eugene,,OR,97401,(541) 682-5450,(541) 682-5898,,http://www.eugene-or.gov/library,NONE,153690,Connie,Bennett,(541) 682-5363,,Connie.J.Bennett@ci.eugene.or.u,05/05/2010 03:37:54 PM,"100 W 10th Ave
+Eugene, OR 97401
+(44.04884049225484, -123.0950419717692)"
+Eugene Public Library,,Bethel Branch Library,,Public,1990 Echo Hollow Rd.,,Eugene,Lane County,OR,97402,,,,,,,(541) 682-5766,(541) 682-5770,,,,,Angela,Bray,(541) 682-5768,,Angela.N.Bray@ci.eugene.or.us,03/22/2010 09:12:53 AM,"1990 Echo Hollow Rd.
+Eugene, OR 97402
+(44.08350935648434, -123.16812087987017)"
+Eugene Public Library,,Sheldon Branch Library,,Public,1566 Coburg Rd,,Eugene,Lane County,OR,97401,,,,,,,(541) 682-5778,(541) 682-5781,,,,,Angela,Bray,(541) 682-5771,,Angela.N.Bray@ci.eugene.or.us,03/22/2010 09:13:02 AM,"1566 Coburg Rd
+Eugene, OR 97401
+(44.079741838824845, -123.06816932640834)"
+Everest College (western Business College),,,,Academic,425 SW Washington,,Portland,,OR,97204,,,,,,,503-222-3225 x 148,503-228-6926,,http://www.cci.edu,,,,,,,,01/15/2009 12:57:07 PM,"425 SW Washington
+Portland, OR 97204
+(45.51996639211979, -122.67609400699405)"
+Fern Ridge Library District,,,,Public,88026 Territorial Rd,,Veneta,Lane,OR,97487,PO Box 397,,Veneta,,OR,97487,(541) 935-7512,(541) 935-8013,staff@fernridgelibrary.org,http://www.fernridgelibrary.org,NONE,11796,Colin,Rea,(541) 935-7512, ,crea@fernridgelibrary.org,09/30/2009 03:23:31 PM,"88026 Territorial Rd
+Veneta, OR 97487
+(44.046520241419216, -123.35157358062708)"
+Flora M. Laird Memorial Library  ,,,,Public,435 5th St,,Myrtle Point  ,Coos,OR,97458,435 5th St,,Myrtle Point,,OR,97458,(541) 572-2591,(541) 572-5168,bcaffey@cclsd.org,http://info.cclsd.org/mpl,CCLSD,4276,Barbara,Caffey,(541) 572-2591,,bcaffey@cclsd.org,09/30/2009 03:23:31 PM,"435 5th St
+Myrtle Point, OR 97458
+(43.064116491159815, -124.14203109897639)"
+Forest Grove City Library,,,,Public,2114 Pacific Ave,,Forest Grove,Washington,OR,97116,2114 Pacific Ave,,Forest Grove,,OR,97116,(503) 992-3247,(503) 992-3333,,http://www.wccls.org,WCCLS,28664,Colleen,Winters,(503) 992-3246,,winters@wccls.org,09/30/2009 03:23:31 PM,"2114 Pacific Ave
+Forest Grove, OR 97116
+(45.51963479656395, -123.10995885165575)"
+Fossil Public Library ,,,,Public,401 Main St,,Fossil ,Wheeler,OR,97830,PO Box 487,,Fossil,,OR,97830,(541) 763-2046,(541) 763-2124,fossilcity@centurytel.net,,NONE,465,,,(541) 763-2046,,,10/07/2010 11:24:33 AM,"401 Main St
+Fossil, OR 97830
+(44.99734527362817, -120.21374315357993)"
+Garden Home Community Library,,,,Public,7475 SW Oleson Rd,,Portland,Washington,OR,97223,7475 SW Oleson Rd,,Portland,,OR,97223,(503) 245-9932,(503) 245-3179,,,WCCLS,6385,Cooky,Abrams,(503) 245-9932,,cookya@wccls.org,09/30/2009 03:23:31 PM,"7475 SW Oleson Rd
+Portland, OR 97223
+(45.466738583310075, -122.75231034640302)"
+George Fox University,,George Hallauer Memorial Library - Hampton Plaza,,Academic,12753 SE 68th,,Portland,,OR,97223-8355,,,,,,,503-554- 6130,503-554-6134,,http://library.georgefox.edu/,,,,,,,,01/15/2009 12:57:07 PM,"12753 SE 68th
+Portland, OR 97223-8355
+(45.42757046819634, -122.746926492725)"
+George Fox University,,Murdock Learning Resource Center,,Academic,416 N Meridian St.,,Newberg,,OR,97132-2698,,,,,,,503-554-2410,503-554-3599,,http://library.georgefox.edu/,,,,,,,,01/15/2009 12:57:07 PM,"416 N Meridian St.
+Newberg, OR 97132-2698
+(45.30366833115361, -122.97050883028012)"
+Gilliam County Library,,,,Public,310 S Main,,Condon,Gilliam,OR,97823,PO Box 34,,Condon,,OR,97823,(541) 384-6052,(541) 384-6052,gclibrary@co.gilliam.or.us,http://www.gilliam.plinkit.org,NONE,1055,Mary,Reser,(541) 384-6052,,mary.reser@co.gilliam.or.us,01/27/2011 04:33:27 PM,"310 S Main
+Condon, OR 97823
+(45.23925559612264, -120.18478946023399)"
+Gladstone Public Library,,,,Public,135 E Dartmouth,,Gladstone,Clackamas,OR,97027,135 E Dartmouth,,Gladstone,,OR,97027,(503) 656-2411,(503) 655-2438,,http://gladstone.lib.or.us,LINCC,20573,Mary,Nixon,(541) 557-2779, ,nixon@ci.gladstone.or.us,09/30/2009 03:23:31 PM,"135 E Dartmouth
+Gladstone, OR 97027
+(45.38043711628527, -122.59397616767781)"
+Grant County Library,,,,Public,507 S Canyon Blvd,,John Day ,Grant,OR,97845,507 S Canyon Blvd,,John Day,,OR,97845,(541) 575-1992,,grant047@centurytel.net,http://www.grantcounty.plinkit.org,NONE,7580,Amy,Turnbull,(541) 575-1992,,GrantCounty.Library.Director@centurytel.net,11/24/2010 01:14:09 PM,"507 S Canyon Blvd
+John Day, OR 97845
+(44.41109170143529, -118.95286811701476)"
+Grant County Library,,Grant County Bookmobile,,Public,507 S Canyon Blvd,,John Day,Grant County,OR,97845,,,,,,,,,,,,,,,,,,03/22/2010 09:14:29 AM,"507 S Canyon Blvd
+John Day, OR 97845
+(44.41109170143529, -118.95286811701476)"
+Gutenberg College,,,,Academic,1883 University Street,,Eugene,Lane,OR,97403,,,,,,,541-683-5141,541-683-6997,,,,,,,,,,04/02/2010 04:11:16 PM,"1883 University Street
+Eugene, OR 97403
+(44.039172780439856, -123.07467232780562)"
+Harney County Library,,,,Public,80 West D St,,Burns,Harney,OR,97720,80 West  D St,,Burns,,OR,97720,(541) 573-6670,(541) 573-1571,harneycl@harneycountylibrary.org,http://www.harneycountylibrary.org,NONE,7680,Cheryl,Hancock,(541) 573-7339,,cheryl@harneycountylibrary.org,09/30/2009 03:23:31 PM,"80 West D St
+Burns, OR 97720
+(43.59218701324525, -119.05527261129645)"
+Harrisburg Public Library ,,,,Public,354 Smith St,,Harrisburg ,Linn,OR,97446,PO Box 724,,Harrisburg,,OR,97446,(541) 995-6946,(541) 995-9244,cspangler@ci.harrisburg.or.us,http://www.ci.harrisburg.or.us,NONE,3400,Cheryl,Spangler,(541) 995-6949,205,cspangler@ci.harrisburg.or.us,09/30/2009 03:23:31 PM,"354 Smith St
+Harrisburg, OR 97446
+(44.27228027125964, -123.17014524990513)"
+Hazel M. Lewis Library ,,,,Public,511 3rd Ave,,Powers,Coos,OR,97466,PO Box 559,,Powers,,OR,97466,(541) 439-5311,(541) 439-5311,jbedwell@cclsd.org,http://www.cooslibraries.org/screens/powers/defualt.html,CCLSD,962,Joanie,Bedwell,(541) 439-5311,,jbedwell@cclsd.org,09/30/2009 03:23:31 PM,"511 3rd Ave
+Powers, OR 97466
+(42.88150113704379, -124.07029285735484)"
+Heald College,,625 SW Broadway,,Academic,2nd Floor,,Portland,,OR,97205,,,,,,,503-229-0492,503-229-0498,,http://www.heald.edu,,,,,,,,01/15/2009 12:57:07 PM,"2nd Floor
+Portland, OR 97205
+(45.51550593894791, -122.70983900066932)"
+Helix Public Library,,,,Public,119 Columbia St,,Helix,Umatilla,OR,97835,PO Box 324,,Helix,,OR,97835,(541) 457-6130,(541) 457-6130,helixlibrary@helixtel.com,,UCSLD,312,Tina,Williams,(541) 457-6130,,helixlibrary@helixtel.com,09/30/2009 03:23:31 PM,"119 Columbia St
+Helix, OR 97835
+(45.849697564616854, -118.6554877983642)"
+Hermiston Public Library,,,,Public,235 E Gladys Ave,,Hermiston,Umatilla,OR,97838,235 E Gladys Ave,,Hermiston,,OR,97838,(541) 567-2882,(541) 667-5055,mbaldo@hermiston.or.us,http://www.hermistonlibrary.us,NONE,21386,Marie,Baldo,(541) 667-5050, ,mbaldo@hermiston.or.us,09/30/2009 03:23:31 PM,"235 E Gladys Ave
+Hermiston, OR 97838
+(45.84144991069801, -119.28804068086191)"
+Hillsboro Public Library,,,,Public,2850 NE Brookwood Parkway,,Hillsboro,Washington,OR,97124,2850 NE Brookwood Parkway  ,,Hillsboro,,OR,97124,(503) 615-6500,(503) 615-6601,,http://www.hillsboro.plinkit.org,WCCLS,162658,Mike,Smith,(503) 615-6500,6609,mikesm@ci.hillsboro.or.us,11/20/2009 11:36:55 AM,"2850 NE Brookwood Parkway
+Hillsboro, OR 97124
+(45.545913373710135, -122.93328306077473)"
+Hillsboro Public Library,,Shute Branch Library ,,Public,775 SE Tenth Avenue,,Hillsboro,,OR,97123,,,,,,,(503) 615-6500,(503) 615-6501,,,,,,,,,,09/30/2009 03:30:14 PM,"775 SE Tenth Avenue
+Hillsboro, OR 97123
+(45.51495371436827, -122.97404951846336)"
+Hood River County Library,,,,Public,502 State St,,Hood River ,Hood River,OR,97031,502 State St,,Hood River,,OR,97031,(541) 386-2535,(541) 386-3835,gorge.link@co.hood-river.or.us,http://www.hoodriver.plinkit.org/,Gorge LINK,21470,June,Knudson,(541) 387-7062, ,june.knudson@co.hood-river.or.us,11/03/2009 11:40:35 AM,"502 State St
+Hood River, OR 97031
+(45.70820697990652, -121.51542590483804)"
+Hood River County Library,,Cascade Locks Branch Library,,Public,140 SE Wa-Na-Pa Street,,Cascade Locks,Hood River County,OR,97014,,,,,,,(541) 374-9317,,,http://www.hoodriver.plinkit.org/,Gorge LINK,,Stephenie,Morris,,,,03/22/2010 09:14:15 AM,"140 SE Wa-Na-Pa Street
+Cascade Locks, OR 97014
+(45.67021790598708, -121.88984755174037)"
+Hood River County Library,,Parkdale Branch Library,,Public,7300 Clear Creek Road,,Parkdale,Hood River County,OR,97041,,,,,,,(541) 352-6502,,,http://www.hoodriver.plinkit.org/,Gorge LINK,,Michele ,Dearing,,,,03/22/2010 09:14:20 AM,"7300 Clear Creek Road
+Parkdale, OR 97041
+(45.515842776305234, -121.59710930668955)"
+Independence Public Library,,,,Public,175 Monmouth St,,Independence,Polk,OR,97351,175 Monmouth St,,Independence,,OR,97351,(503) 838-1811,(503) 838-4486,robinp@ccrls.org,http://www.independence.plinkit.org,CCRLS,7905,Robin,Puccetti,(503) 838-1811,204,robinp@ccrls.org,10/19/2009 03:14:38 PM,"175 Monmouth St
+Independence, OR 97351
+(44.85111668137307, -123.18563967300094)"
+Itt Technical Institute,,Learning Resource Center,,Academic,6035 NE 78th Ct,,Portland,,OR,97218-2852,,,,,,,503-255-6500,503-257-3475,,http://itt-tech.edu,,,,,,,,01/15/2009 12:57:07 PM,"6035 NE 78th Ct
+Portland, OR 97218-2852
+(45.56699500313647, -122.58254532693206)"
+Jackson County Library Services,,,,Public,205 S Central Ave,,Medford,Jackson,OR,97501,205 S Central Ave,,Medford,,OR,97501,(541) 774-8673,(541) 774-6748,info@jcls.org,http://www.jcls.org,NONE,202310,Denise,Galarraga,(541) 774-8673,6401,dgalarraga@jcls.org,09/30/2009 03:23:31 PM,"205 S Central Ave
+Medford, OR 97501
+(42.324525399376455, -122.87029240342684)"
+Jackson County Library Services,, Rogue River Branch Library,,Public,412 E Main St,,Rogue River,,OR,97537,,,,,,,(541) 864-8850,(541) 864-8871,,,,,Seline,Pierson,(541) 864-8863,,selinep@jcls.org,09/30/2009 03:30:14 PM,"412 E Main St
+Rogue River, OR 97537
+(42.432884710686835, -123.16551284598518)"
+Jackson County Library Services,,Applegate Branch Library,,Public,18485 North Applegate Road,,Applegate,,OR,97530-9459,,,,,,,(541) 846-7346,(541) 846-7346,,,,,Phyllis,Zerr,(541) 846-7346,,pzerr@jcls.org,11/05/2009 12:31:05 PM,"18485 North Applegate Road
+Applegate, OR 97530-9459
+(42.30837200036768, -122.9750110001574)"
+Jackson County Library Services,,Ashland Branch Library,,Public,410 Siskiyou Blvd,,Ashland,,OR,97520,,,,,,,(541) 774-6980,(541) 774-6892,,,,,Amy,Blossom,(541) 774-6987,,ablossom@jcls.org,09/30/2009 03:30:14 PM,"410 Siskiyou Blvd
+Ashland, OR 97520
+(42.1941595846516, -122.70951642390546)"
+Jackson County Library Services,,Butte Falls Branch Library,,Public,626 Fir St,,Butte Falls,,OR,97522,,,,,,,(541) 865-3511,(541) 865-3511,,,,,Susan,Gomes,,,sgomes@jcls.org,09/30/2009 03:30:14 PM,"626 Fir St
+Butte Falls, OR 97522
+(42.54172965589299, -122.56732879819629)"
+Jackson County Library Services,,Central Point Branch Library,,Public,116 South Third Street,,Central Point,,OR,97502,,,,,,,(541) 664-3228,,,,,,Janis,Mohr-Tipton,,,jmtipton@jcls.org,09/30/2009 03:30:14 PM,"116 South Third Street
+Central Point, OR 97502
+(42.373817239802406, -122.91407139981317)"
+Jackson County Library Services,,Eagle Point Branch Library,,Public,239 West Main St,,Eagle Point,,OR,97524,,,,,,,(541) 826-3313,(541) 826-3313,,,,,Charlene,Prinsen,(541) 826-3313,,cprinsen@jcls.org,09/30/2009 03:30:14 PM,"239 West Main St
+Eagle Point, OR 97524
+(42.47363299183439, -122.8049746444388)"
+Jackson County Library Services,,Gold Hill Branch Library,,Public,202 Dardanelles Street,,Gold Hill,Jackson,OR,97525,PO Box 258,,Gold Hill,Jackson,,97323,(541) 855-1994,(541) 855-1994,,,,,Lori,Hettman,(541) 855-1994,,lhettman@jcls.org,11/23/2009 01:37:49 PM,"202 Dardanelles Street
+Gold Hill, OR 97525
+(42.520577903647336, -123.02336025037522)"
+Jackson County Library Services,,Jacksonville Branch Library,,Public,170 S Oregon St,,Jacksonville,,OR,97530,,,,,,,(541) 899-1665,(541) 899-1665,,,,,Phyllis,Zerr,(541) 899-1665,,pzerr@jcls.org,09/30/2009 03:30:14 PM,"170 S Oregon St
+Jacksonville, OR 97530
+(42.31417420281923, -122.96880413851642)"
+Jackson County Library Services,,Phoenix Branch Library,,Public,510 W 1st St,,Phoenix,,OR,97535,,,,,,,(541) 535-7090,(541) 535-7090,,,,,Leigh,Blair,(541) 535-7090,,lblair@jcls.org,09/30/2009 03:30:14 PM,"510 W 1st St
+Phoenix, OR 97535
+(42.27156432507098, -122.81946272233085)"
+Jackson County Library Services,,Prospect Branch Library,,Public,150 Mill Creek Dr,,Prospect,,OR,97536,,,,,,,(541) 560-3668,(541) 560-3668,,,,,LeeAnna,Pierce,(541) 560-3668,,lpierce@jcls.org,09/30/2009 03:30:14 PM,"150 Mill Creek Dr
+Prospect, OR 97536
+(42.75346603447139, -122.48871905961516)"
+Jackson County Library Services,,Ruch Branch Library,,Public,7919 Highway 238,,Ruch,,OR,97530,,,,,,,(541) 899-7438,(541) 899-7438,,,,,Janis,Mohr-Tipton,(541) 899-7438,,jmtipton@jcls.org,09/30/2009 03:30:14 PM,"7919 Highway 238
+Ruch, OR 97530
+(42.23624402838987, -123.04584470386264)"
+Jackson County Library Services,,Shady Cove Branch Library,,Public,22477 Highway 62,,Shady Cove,,OR,97539,,,,,,,(541) 878-2270,(541) 878-2270,,,,,Holly,Hertel,(541) 878-2270,,hhertel@jcls.org,09/30/2009 03:30:14 PM,"22477 Highway 62
+Shady Cove, OR 97539
+(42.62358384066657, -122.80807129141296)"
+Jackson County Library Services,,Talent Branch Library,,Public,105 North I St,,Talent,,OR,97540,,,,,,,(541) 535-4163,(541) 535-4163,,,,,Laurel,Prchal,(541) 535-4163,,lprchal@jcls.org,09/30/2009 03:30:14 PM,"105 North I St
+Talent, OR 97540
+(42.244529154960205, -122.78759100419828)"
+Jackson County Library Services,,White City Branch Library,,Public,3143 Ave C ,,White City,Jackson County,OR,97503,,,,,,,(541) 864-8880,(541) 884-8889,,,,,JoAnn,Crosby,(541) 884-8884,,,10/29/2010 12:35:51 PM,"3143 Ave C
+White City, OR 97503
+(42.42933238867107, -122.83352811886908)"
+Jefferson County Library District ,,,,Public,241 SE 7th St,,Madras  ,Jefferson,OR,97741,241 SE 7th St,,Madras,,OR,97741,(541) 475-4678,(541) 475-7434,library@jcld.org,http://www.jcld.org,NONE,18485,Gil,Chavez,(541) 475-3351, ,gil@jcld.org,11/15/2010 02:59:27 PM,"241 SE 7th St
+Madras, OR 97741
+(44.63262095345637, -121.12757972851671)"
+Jefferson Public Library,,,,Public,128 N Main St,,Jefferson,Marion,OR,97352,PO Box 1068,,Jefferson,,OR,97352,(541) 327-3826,(541) 327-3120,jeffpl@ccrls.org,http://WWW.jefferson.plinkit.org,CCRLS,2590,Valerie,Hauser,(541) 327-3826, ,vhauser@ccrls.org,10/23/2009 10:44:07 AM,"128 N Main St
+Jefferson, OR 97352
+(44.71799430237873, -123.011680711199)"
+Joseph City Library,,,,Public,201 N Main St,,Joseph,Wallowa,OR,97846,PO Box 15,,Joseph,,OR,97846,(541) 432-0141,(541) 432-3832,josephpl@eoni.com,http://www.josephlibrary.plinkit.org,NONE,1805,Genene,Kingsford,(541) 432-0141, ,josephpl@eoni.com,09/30/2009 03:23:31 PM,"201 N Main St
+Joseph, OR 97846
+(45.35342508133501, -117.22993732930078)"
+"Josephine Community Libraries, Inc",,,,Public,200 NW C Street,,Grants Pass,Josephine County,OR,97526,,,,,OR,,(541) 476-0571,,info@josephinelibrary.org,http://www.josephinelibrary.org/,,,Kate,Lasky,,,klasky@josephinelibrary.org,08/09/2010 04:25:21 PM,"200 NW C Street
+Grants Pass, OR 97526
+(42.442517302606504, -123.32654089267714)"
+Josephine County Library System,,Illinois Valley Branch Library,,Public,209 West Palmer,,Cave Junction,,OR,97523,,,,,,,,,,,,,,,,,,09/30/2009 03:30:14 PM,"209 West Palmer
+Cave Junction, OR 97523
+(42.168291666417154, -123.6465609121372)"
+Josephine County Library System,,Williams Branch Library,,Public,20695 Williams Highway,,Williams,,OR,97544,,,,,,,,,,,,,,,,,,09/30/2009 03:30:14 PM,"20695 Williams Highway
+Williams, OR 97544
+(42.225570070098684, -123.26931363915091)"
+Josephine County Library System,,Wolf Creek Branch Library,,Public,102 Ruth Avenue,,Wolf Creek,,OR,97497,,,,,,,,,,,,,,,,,,09/30/2009 03:30:14 PM,"102 Ruth Avenue
+Wolf Creek, OR 97497
+(42.695348478219486, -123.3962209228913)"
+Junction City Public Library,,,,Public,726 Greenwood St,,Junction City,Lane,OR,97448,PO Box 280,,Junction City,,OR,97448,(541) 998-8942,(000) 000-0000,lfrost@ci.junction-city.or.us,http://www.junction-city.plinkit.org,NONE,5135,Lynn,Frost,(541) 998-8942, ,lfrost@ci.junction-city.or.us,01/25/2010 04:53:17 PM,"726 Greenwood St
+Junction City, OR 97448
+(44.22032321680177, -123.2026098796938)"
+Klamath Community College,,Learning Resource Center,,Academic,7390 S 6th St,,Klamath Falls,Klamath,OR,97603,,,,,,,541-880-2206,541-885-7758,,http://www.klamathcc.edu/lrc,,1600,Jacquelyn,Ray,541-880-2258,,ray@klamathcc.edu,11/23/2009 09:11:48 AM,"7390 S 6th St
+Klamath Falls, OR 97603
+(42.19783102306711, -121.70086055485811)"
+Klamath County Library,,Bly Branch Library,,Public,61100 Metler St.,,Bly,Klamath County,OR,97622,,,,,,,(541) 353-2299,(541) 353-2299,,,,,Roseann,Sciurba,(541) 353-2299,0,blystaff@co.klamath.or.us,03/22/2010 09:13:30 AM,"61100 Metler St.
+Bly, OR 97622
+(42.399850000177366, -121.04449578115538)"
+Klamath County Library,,Bonanza Branch Library,,Public,31703 Hwy 70,,Bonanza,Klamath County,OR,97623,,,,,,,(541) 545-6944,(541) 545-6944,,,,,Helen,Hankins,(541) 545-6944,0,bonanzastaff@co.klamath.or.us,03/22/2010 09:13:34 AM,"31703 Hwy 70
+Bonanza, OR 97623
+(42.1987903115773, -121.40984066053387)"
+Klamath County Library,,Chemult Branch Library,,Public,120 Damon Street,,Chemult,Klamath County,OR,97731,,,,,,,(541) 365-2412,(541) 365-2412,,,,,Christine,Shuey,(541) 365-2412,0,chemultstaff@co.klamath.or.us,03/22/2010 09:13:41 AM,"120 Damon Street
+Chemult, OR 97731
+(42.918124042390616, -122.04962175024355)"
+Klamath County Library,,Chiloquin Branch Library,,Public,140 1st Street,,Chiloquin,Klamath County,OR,97624,,,,,,,(541) 783-3315,(541) 783-3315,,,,,Lili,Mendonca,(541) 783-3315,0,chiloquinstaff@co.klamath.or.us,03/22/2010 09:13:45 AM,"140 1st Street
+Chiloquin, OR 97624
+(42.57718705951447, -121.86291181824024)"
+Klamath County Library,,Gilchrist Branch Library,,Public,128306 Michigan Avenue,,Gilchrist,Klamath County,OR,97737,,,,,,,(541) 433-2186,(541) 433-2186,,,,,Diana,Perry,(541) 433-2186,0,gilchriststaff@co.klamath.or.us,03/22/2010 09:13:48 AM,"128306 Michigan Avenue
+Gilchrist, OR 97737
+(43.3301811758206, -121.6794320393571)"
+Klamath County Library,,Keno Branch Library,,Public,"15555 Hwy. 66, Space 8",,Keno,Klamath County,OR,97627,,,,,,,(541) 273-0750,(541) 273-0750,,,,,Linda,Ward,(541) 273-0750,0,kenostaff@co.klamath.or.us,03/22/2010 09:13:52 AM,"15555 Hwy. 66, Space 8
+Keno, OR 97627
+(42.13366238493763, -122.28741592731255)"
+Klamath County Library,,Malin Branch Library,,Public,2307 Front St,,Malin,Klamath County,OR,97632,,,,,,,(541) 723-5210,(541) 723-5210,,,,,Christa,Moore,(541) 723-5210,0,malinstaff@co.klamath.or.us,03/22/2010 09:13:55 AM,"2307 Front St
+Malin, OR 97632
+(42.01327346494822, -121.40688325964122)"
+Klamath County Library,,Merrill Branch Library,,Public,365 W Front St,,Merrill,Klamath County,OR,97633,,,,,,,(541) 798-5393,(541) 798-5393,,,,,Christa,Moore,(541) 798-5393,0,merrillstaff@co.klamath.or.us,03/22/2010 09:13:59 AM,"365 W Front St
+Merrill, OR 97633
+(42.02408932077762, -121.6034729189416)"
+Klamath County Library,,South Suburban Branch Library,,Public,3706 S 6th St,,Klamath Falls,Klamath County,OR,97603,,,,,,,(541) 273-3679,(541) 273-3679,,,,,Steve,Williams,(541) 273-3679,0,ssubstaff@co.klamath.or.us,03/22/2010 09:14:03 AM,"3706 S 6th St
+Klamath Falls, OR 97603
+(42.206484251066065, -121.7437913273752)"
+Klamath County Library,,Sprague River Branch Library,,Public,Sprague River Hwy,23402 Sprague River Rd,Sprague River,Klamath County,OR,97639,,,,,,,(541) 533-2769,(541) 533-2769,,,,,Kay,Moors,(541) 533-2769,0,spragueriverstaff@co.klamath.or.us,03/08/2011 12:33:30 PM,"Sprague River Hwy
+Sprague River, OR 97639
+(42.456419968193586, -121.50552625786264)"
+Klamath County Library Service District,,,,Public,126 S Third St,,Klamath Falls ,Klamath,OR,97601,126 S Third St,,Klamath Falls,,OR,97601,(541) 882-8895,(541) 882-6166,,http://www.klamathlibrary.plinkit.org,NONE,65815,Andy,Swanson,(541) 882-8895,10,aswanson@co.klamath.or.us,09/30/2009 03:23:31 PM,"126 S Third St
+Klamath Falls, OR 97601
+(42.22257178499088, -121.78452504610057)"
+La Grande Public Library,,,,Public,2006 4th Street ,,La Grande,Union,OR,97850,2006 4th Street,,La Grande,,OR,97850,(541) 962-1339,(541) 962-1338,libdirector@cityoflagrande.org,http://www.ci.la-grande.or.us/dept_library.cfm,NONE,19092,Terri,Washburn,(541) 962-1339,1339,libdirector@cityoflagrande.org,12/31/2009 11:33:01 AM,"2006 4th Street
+La Grande, OR 97850
+(45.329827170970574, -118.09645074644943)"
+Lake County Library,,Christmas Valley Branch Library,,Public,57334 Christmas Tree Lane,,Christmas Valley,Lake County,OR,97641,,,,,,,(541) 576-2336,(541) 576-2336,,,,,Barbara,Remy,(541) 576-2336,,cvlibrary@internetextension.com,04/02/2010 04:05:45 PM,"57334 Christmas Tree Lane
+Christmas Valley, OR 97641
+(43.23792399889339, -120.69413059415155)"
+Lake County Library,,Paisley Branch Library,,Public,513 Mill St,,Paisley,Lake County,OR,97636,,,,,,,(541) 943-3911,,,,,,Janice,Murphy,,,paisleylib1@hotmail.com,03/22/2010 09:13:23 AM,"513 Mill St
+Paisley, OR 97636
+(42.6938357593369, -120.544081405604)"
+Lake County Library,,Silver Lake Branch Library,,Public,65522 Highway 31,,Silver Lake,Lake County,OR,97638,,,,,,,(541) 576-2146,,,,,,Rosa,Villagrana,,,silverlake.library@yahoo.com,04/02/2010 04:05:48 PM,"65522 Highway 31
+Silver Lake, OR 97638
+(43.28898135510542, -120.53877242650623)"
+Lake County Library District,,,,Public,513 Center St,,Lakeview,Lake,OR,97630,513 Center St,,Lakeview,,OR,97630,(541) 947-6019,(541) 947-6034,library@co.lake.or.us,http://www.lakecountylibrary.org,NONE,7565,Amy,Hutchinson,(541) 947-6019,,library@co.lake.or.us,09/30/2009 03:23:31 PM,"513 Center St
+Lakeview, OR 97630
+(42.189455792066525, -120.34505250694762)"
+Lake Oswego Public Library,,,,Public,706 4th St,,Lake Oswego  ,Clackamas,OR,97034,706 4th St,,Lake Oswego  ,,OR,97034,(503) 636-7628,(503) 635-4171,loref@ci.oswego.or.us,http://lakeoswegolibrary.org,LINCC,43689,William,Baars,(503) 697-6584,3995,bbaars@ci.oswego.or.us,09/30/2009 03:23:31 PM,"706 4th St
+Lake Oswego, OR 97034
+(45.42417367166331, -122.6669916654833)"
+Lakeside Public Library,,,,Public,915 N Lake,,Lakeside,Coos,OR,97449,PO Box R,,Lakeside,Coos,OR,97449,(541) 759-4432,(541) 759-4752,ngoodrich@cclsd.org,http://www.cooslibraries.org,CCLSD,2044,Nadine,Goodrich,(541) 759-4432,,ngoodrich@cclsd.org,09/07/2010 04:41:17 PM,"915 N Lake
+Lakeside, OR 97449
+(43.57890450044232, -124.07314925923089)"
+Lane Community College,,Library,,Academic,4000 E 30th Ave,,Eugene,Lane County,OR,97405-0640,,,,,,,541-463-5220,541-463-4150,,http://www.lane.cc.edu/library/,,,Marika,Pineda,541-463-5824,,pinedam@lanecc.edu,03/22/2010 09:12:45 AM,"4000 E 30th Ave
+Eugene, OR 97405-0640
+(44.01400075683972, -123.03267398903728)"
+Lane Library District,,,,Public,64 W. Oregon Ave.,,Creswell,Lane,OR,97426,PO Box  366,,Creswell,,OR,97426,(541) 895-3053,(541) 895-3507,creswelllibrary@centurytel.net,http://www.creswelllibrary.org,NONE,7987,Su,Liudahl,(541) 895-3053,,creswelllibrary@centurytel.net,07/29/2010 09:03:00 AM,"64 W. Oregon Ave.
+Creswell, OR 97426
+(43.91785423868731, -123.01965180605299)"
+Langlois Library District,,,,Public,48234 Hwy 101,,Langlois,Curry,OR,97450,PO Box 277,,Langlois,,OR,97450,(541) 348-2066,(541) 348-2066,langlibrary@harborside.com,http://www.langloislibrary.org,NONE,732,Nancy,Angelesco,(541) 348-2066,,langlois@currycountylibraries.org,11/12/2009 04:32:31 PM,"48234 Hwy 101
+Langlois, OR 97450
+(42.91377450365977, -124.45381488347817)"
+Lebanon Public Library,,,,Public,55 Academy Street,,Lebanon,Linn,OR,97355,55 Academy Street,,Lebanon,,OR,97355,(541) 258-4926,(541) 258-4958,,http://www.lebanon.plinkit.org,NONE,14705,Denice,Lee,(541) 258-4232, ,dlee@ci.lebanon.or.us,12/28/2009 08:24:52 AM,"55 Academy Street
+Lebanon, OR 97355
+(44.54422947846861, -122.90792923897969)"
+Ledding Library,,,,Public,10660 SE 21st Ave,,Milwaukie,Clackamas County,OR,97222,10660 SE 21st Ave,,Milwaukie,,OR,97222,(503) 786-7580,(503) 659-9497,,http://www.milwaukie.lib.or.us,LINCC,30666,Joe,Sandfort,(503) 786-7584, ,sandfortj@ci.milwaukie.or.us,03/22/2010 09:15:42 AM,"10660 SE 21st Ave
+Milwaukie, OR 97222
+(45.44623404104203, -122.64069548934657)"
+Lewis And Clark College,,Aubrey R. Watzek Library,,Academic,0615 SW Palatine Hill Road,,Portland,,OR,97219-7899,,,,,,,503-768-7274,503-768-7282,,http://library.lclark.edu,,,Jim,Kopp,503-768-7348,,kopp@lclark.edu,10/19/2009 03:14:50 PM,"0615 SW Palatine Hill Road
+Portland, OR 97219-7899
+(45.45040689525803, -122.67250450952292)"
+Lewis And Clark College,,Paul L Boley Law Library,,Academic,10015 SW Terwilliger Blvd,,Portland,,OR,97219-7799,,,,,,,503-768-6636,503-768-6760,,,,,,,,,,01/15/2009 12:57:07 PM,"10015 SW Terwilliger Blvd
+Portland, OR 97219-7799
+(45.45288003083857, -122.67973505863847)"
+Library Information Network of Clackamas Coun,,,,Public,"16239 SE McLoughlin Blvd, Ste 208",,Oak Grove,Clackamas,OR,97267,"16239 SE McLoughlin Blvd, Ste 208",,Oak Grove,,OR,97267,(503) 723-4888,(503) 794-8238,joannar@lincc.org,http://www.lincc.lib.or.us/,LINCC,0,Joanna,Rood,(503) 723-4889,,joannar@lincc.org,09/30/2009 03:23:31 PM,"16239 SE McLoughlin Blvd, Ste 208
+Oak Grove, OR 97267
+(45.40562965141913, -122.6239411199407)"
+Lincoln County Library District,,,,Public,"1247 NW Grove, #2",,Newport,Lincoln,OR,97365,PO Box 2027,,Newport,,OR,97365,(541) 265-3066,(541) 265-3066,lcld@beachbooks.org,http://lcldinfo.wikispaces.com/,LCLD,3460,Diedre,Conkling,(541) 265-3066, ,diedre@beachbooks.org,10/26/2009 09:19:28 AM,"1247 NW Grove, #2
+Newport, OR 97365
+(44.7009539799422, -124.0483750008056)"
+Lincoln County Library District,,Siletz Public Library,,Public,250 Gaither,,Siletz,Lincoln County,OR,97380,P.O. Box 130,,Siletz,,,97380,(541) 444-2855,(541) 444-2855,siletz@beachbooks.org,,CRSN,,Carol,Rasmussen Schramm,(541) 444-2855,0,carols@beachbooks.org,03/22/2010 09:12:15 AM,"250 Gaither
+Siletz, OR 97380
+(44.72119074549276, -123.91805913226858)"
+Linfield College,,Nicholson Library,,Academic,900 S Baker St,,McMinnville,,OR,97128-6894,,,,,,,503-883-2261,503-883-2566,,http://www.linfield.edu/library/,,,Susan Barnes,Whyte,503-883-2517,,swhyte@linfield.edu,11/23/2009 09:06:43 AM,"900 S Baker St
+McMinnville, OR 97128-6894
+(45.20301239821788, -123.20098210682079)"
+Linfield College,,Portland Campus Library,,Academic,2255 NW 22nd Ave,,Portland,,OR,97210,,,,,,,503-413-7820,503-229-8016,,,,,,,,,,01/15/2009 12:57:07 PM,"2255 NW 22nd Ave
+Portland, OR 97210
+(45.53877614602522, -122.69695702136103)"
+Linn-Benton Community College,,,,Academic,6500 SW Pacific Blvd.,,Albany,Linn,OR,97321-3774,,,,,,,541-917-4638,541-917-4692,jorry.rolfe@linnbenton.edu,http://libweb.linnbenton.edu/rooms/,,,Jorry,Rolfe,541-917-4649,,jorry.rolfe@linnbenton.edu,04/02/2010 04:11:19 PM,"6500 SW Pacific Blvd.
+Albany, OR 97321-3774
+(44.58629947025603, -123.1099733183727)"
+Lyons Public Library,,,,Public,279 Eighth Street,,Lyons,Linn,OR,97358,448 Cedar,,Lyons,,OR,97358,(503) 859-2366,(503) 859-2366,lyonspl@ccrls.org,http://www.ccrls.org/lyonspl,CCRLS,1105,Brenda,Harris,(503) 859-2366,,lyonspl@ccrls.org,11/05/2009 10:13:39 AM,"279 Eighth Street
+Lyons, OR 97358
+(44.775829220497336, -122.61209792559472)"
+Maitripa Institute,Maitripa College Library,,,Academic,1119 SE Market Street,,Portland,,OR,97214,,,,,,,503-235-2477,503-231-6408,library@maitripa.org,http://www.maitripa.org/library.html,,,Kalleen,Mortensen,,,kmortensen@tds.net,10/19/2009 03:14:34 PM,"1119 SE Market Street
+Portland, OR 97214
+(45.51082849784265, -122.65422817752838)"
+Mary Gilkey Public Library,,,,Public,416 Ferry St,,Dayton,Yamhill,OR,97114,PO Box 339,,Dayton,,OR,97114,(503) 864-2221,(503) 864-2956,debralien@ci.dayton.or.us,http://www.ci.dayton.or.us,CCRLS,2495,Debra,Lien,(503) 864-2221,,debralien@ci.dayton.or.us,09/30/2009 03:23:31 PM,"416 Ferry St
+Dayton, OR 97114
+(45.21993949370818, -123.07703678580664)"
+Marylhurst University,,Shoen Library,,Academic,17600 Pacific Highway,PO Box 261,Marylhurst,,OR,97036-0261,,,,,,,503-699-6261,503-636-1957,,http://shoen.iii.com,,,,,,,,01/15/2009 12:57:07 PM,"17600 Pacific Highway
+Marylhurst, OR 97036-0261
+(45.39610313884873, -122.6512189458976)"
+McMinnville Public Library,,,,Public,225 NW Adams St,,McMinnville,Yamhill,OR,97128,225 NW Adams St,,McMinnville,,OR,97128,(503) 435-5555,(503) 435-5560,poyerj@ci.mcminnville.or.us,http://www.maclibrary.org,CCRLS,31665,Jill,Poyer,(503) 435.5550,5550,poyerj@ci.mcminnville.or.us,09/30/2009 03:23:31 PM,"225 NW Adams St
+McMinnville, OR 97128
+(45.20942456428679, -123.19910252377952)"
+McMinnville Public Library,,McMinnville Public Library Bookmobile,,Public,225 NW Adams,,McMinnville,Yamhill,OR,97128,,,,,,,(503) 435-5555,(503) 435-5560,,,,,Jill,Poyer,(503) 435-5550,,poyerj@ci.mcminnville.or.us,11/02/2009 04:33:37 PM,"225 NW Adams
+McMinnville, OR 97128
+(45.20942456428679, -123.19910252377952)"
+Milton-Freewater Public Library  ,,,,Public,8 SW Eighth Ave,,Milton-Freewater ,Umatilla,OR,97862,8 SW Eighth Ave,,Milton-Freewater,,OR,97862,(541) 938-8247,(541) 938-8254,bob.jones@milton-freewater-or.gov,http://www.mfcity.com,UCSLD,8877,Robert,Jones,(541) 938-8246,,bob.jones@milton-freewater-or.gov,09/30/2009 03:23:31 PM,"8 SW Eighth Ave
+Milton-Freewater, OR 97862
+(45.92780484556802, -118.38493582427134)"
+Molalla Public Library ,,,,Public,201 E Fifth St,,Molalla ,Clackamas,OR,97038,PO Box 1289 ,,Molalla ,,OR,97038,(503) 829-2593,(503) 759-3486,moref@lincc.lib.or.us,http://www.lincc.org,LINCC,21372,Glenda,Triebwasser,(503) 829-2561,,glenda@lincc.lib.or.us,09/30/2009 03:23:31 PM,"201 E Fifth St
+Molalla, OR 97038
+(45.14372009682609, -122.5774551642462)"
+Monmouth Public Library,,,,Public,168 S Ecols St,,Monmouth,Polk,OR,97361,PO Box 10,,Monmouth,,OR,97361,(503) 838-1932,(503) 838-3899,,http://monmouth.plinkit.org,CCRLS,9335,Phelps,Shepard,(503) 838-1932,,pshepard@ci.monmouth.or.us,01/25/2010 04:53:22 PM,"168 S Ecols St
+Monmouth, OR 97361
+(44.84776069048357, -123.23181969109342)"
+Mount Angel Abbey,,,,Academic,One Abbey Drive,,Saint Benedict,,OR,97373-9999,,,,,,,503-845-3102,503-845-3500,,http://www.mountangelabbey.org/library,,,,,,,,01/25/2010 04:52:56 PM,"One Abbey Drive
+Saint Benedict, OR 97373-9999
+(45.057539999671405, -122.77794500006155)"
+Mt. Angel Public Library,,,,Public,290 E Charles St,,Mount  Angel,Marion,OR,97362,PO Box 870,,Mt. Angel,,OR,97362,(503) 845-6401,(503) 845-6261,collette@ccrls.org,http://www.mountangel.plinkit.org,CCRLS,3755,Collette,Decock,(503) 845-6401, ,collette@ccrls.org,09/30/2009 03:23:31 PM,"290 E Charles St
+Mount Angel, OR 97362
+(45.067782432514186, -122.79768602317357)"
+Mt. Hood Community College,,Library,,Academic,26000 SE Stark St,,Gresham,,OR,97030-3300,,,,,,,503-491-7161,503-491-7389,reference@mhcc.edu,http://www.mhcc.edu/library/,,,Jeff,Ring,503-491-7286,,jeff.ring@mhcc.edu,10/01/2010 04:02:42 PM,"26000 SE Stark St
+Gresham, OR 97030-3300
+(45.51894422711098, -122.39616083635963)"
+Multnomah Bible College,,John & Mary Mitchell Library,,Academic,8435 NE Glisan St,,Portland,,OR,97220-5898,,,,,,,503-251-5322,503-254-1268,,http://www.multnomah.edu,,,,,,,,01/15/2009 12:57:07 PM,"8435 NE Glisan St
+Portland, OR 97220-5898
+(45.52639960673383, -122.57545866934117)"
+Multnomah County Library,,,,Public,205 NE Russell,,Portland,Multnomah,OR,97212,205 NE Russell St.,,Portland,,OR,97212,(503) 988-5402,(503) 988-5441,,http://www.multcolib.org,NONE,714567,Vailey,Oehlke,(503) 988 5403,,vaileyo@multcolib.org,10/19/2009 03:52:35 PM,"205 NE Russell
+Portland, OR 97212
+(45.54092365750705, -122.66349330278933)"
+Multnomah County Library,,Albina Library,,Public,3605 NE 15th Ave,,Portland,Multnomah,OR,97212,,,,,,,,,,,,,Lisa,White,,,lisawh@multcolib.org,02/26/2010 04:28:02 PM,"3605 NE 15th Ave
+Portland, OR 97212
+(45.54953204863992, -122.65042855565405)"
+Multnomah County Library,,Belmont Library,,Public,1038 SE 39th Ave,,Portland,Multnomah,OR,97214,,,,,,,,,,,,,Bridget,Cain-Bushman,,,bridgec@multcolib.org,02/26/2010 04:28:04 PM,"1038 SE 39th Ave
+Portland, OR 97214
+(45.515212040689335, -122.62291589282734)"
+Multnomah County Library,,Capitol Hill Branch Library,,Public,10723 SW Capitol Hwy,,Portland,Multnomah County,OR,97219,,,,,,,,,,,,,Patti,Vincent,,,pattiv@multcolib.org,03/22/2010 09:11:20 AM,"10723 SW Capitol Hwy
+Portland, OR 97219
+(45.44787980035568, -122.72499793637314)"
+Multnomah County Library,,Fairview-Columbia Branch Library,,Public,1520 NE Village St.,,Fairview,Multnomah County,OR,97024,,,,,,,,,,,,,May,Dea,,,mayd@multcolib.org,03/22/2010 09:11:23 AM,"1520 NE Village St.
+Fairview, OR 97024
+(45.532236206704, -122.4394991649516)"
+Multnomah County Library,,Gregory Heights Branch Library,,Public,7921 NE Sandy Blvd,,Portland,Multnomah County,OR,97213,,,,,,,,,,,,,Haley,Isleib,,,haleyi@multcolib.org,03/22/2010 09:11:24 AM,"7921 NE Sandy Blvd
+Portland, OR 97213
+(45.55142773880925, -122.58107043880398)"
+Multnomah County Library,,Gresham Regional Branch Library,,Public,385 NW Miller Ave,,Gresham,Multnomah County,OR,97030,,,,,,,,,,,,,Gretchen,Brown,,,gretcheb@multcolib.org,03/22/2010 09:11:26 AM,"385 NW Miller Ave
+Gresham, OR 97030
+(45.5007599356785, -122.43253841244479)"
+Multnomah County Library,,Hillsdale Library,,Public,1525 SW Sunset Blvd.,,Portland,Multnomah County,OR,97239,,,,,,,,,,,,,Virginia,Tribe,,,virgint@multcolib.org,03/22/2010 09:11:28 AM,"1525 SW Sunset Blvd.
+Portland, OR 97239
+(45.479697813752296, -122.6943760212755)"
+Multnomah County Library,,Holgate Library,,Public,7905 SE Holgate Blvd,,Portland,Multnomah,OR,97206,,,,,,,,,,,,,Victoria,Oglesbee,,,victoro@multcolib.org,02/26/2010 04:28:06 PM,"7905 SE Holgate Blvd
+Portland, OR 97206
+(45.4902558543763, -122.58211365235798)"
+Multnomah County Library,,Hollywood Library,,Public,4040 NE Tillamook St,,Portland,Multnomah,OR,97212,,,,,,,,,,,,,Susie,Woodward,,,susiew@multcolib.org,02/26/2010 04:28:11 PM,"4040 NE Tillamook St
+Portland, OR 97212
+(45.537757612234515, -122.62153322925941)"
+Multnomah County Library,,Kenton Library,,Public,8226 N. Denver Ave,,Portland,Multnomah,OR,97217,8226 N. Denver Ave,,Portland,Multnomah,OR,97217,(503) 988-5370,(503) 988-5441,,http://www.multcolib.org/,,,David,Miles,(503) 988-5370,,davidm@multcolib.org,08/19/2010 02:44:45 PM,"8226 N. Denver Ave
+Portland, OR 97217
+(45.582895016614486, -122.68688466877143)"
+Multnomah County Library,,Midland Regional Library,,Public,805 SE 122nd Ave,,Portland,Multnomah,OR,97233,,,,,,,,,,,,,Javier,Gutierrez,,,javierg@multcolib.org,02/26/2010 04:28:14 PM,"805 SE 122nd Ave
+Portland, OR 97233
+(45.51626424746365, -122.537732110212)"
+Multnomah County Library,,Multnomah County Central Library,,Public,801 SW 10th Ave,,Portland,,OR,97205,,,,,,,,,,,,,Linda,Fenster,503-988-3028,,lindaf@multcolib.org,10/19/2009 03:09:43 PM,"801 SW 10th Ave
+Portland, OR 97205
+(45.519329244170386, -122.68251606113013)"
+Multnomah County Library,,North Portland Library,,Public,512 N Killingsworth St,,Portland,Multnomah County,OR,97217,,,,,,,,,,,,,Patricia,Welch,,,patriciw@multcolib.org,03/22/2010 09:11:29 AM,"512 N Killingsworth St
+Portland, OR 97217
+(45.56270523705672, -122.67150626207041)"
+Multnomah County Library,,Northwest Library,,Public,2300 NW Thurman St.,,Portland,Multnomah County,OR,97210,,,,,,,,,,,,,Ginger,Corrigan,503-988-4110,,susanco@multcolib.org,03/22/2010 09:11:33 AM,"2300 NW Thurman St.
+Portland, OR 97210
+(45.53550074567039, -122.69919638735257)"
+Multnomah County Library,,Rockwood Library,,Public,17917 SE Stark St,,Portland,Multnomah County,OR,97233,,,,,,,,,,,,,Patrick,Provant,503-988-5216,,patrickp@multcolib.org,03/22/2010 09:11:35 AM,"17917 SE Stark St
+Portland, OR 97233
+(45.5191510711777, -122.47897940203785)"
+Multnomah County Library,,Sellwood-Moreland Library,,Public,7860 SE 13th Ave,,Portland,Multnomah County,OR,97202,,,,,,,,,,,,,Sharon,Bart,,,sharonba@multcolib.org,03/22/2010 09:11:36 AM,"7860 SE 13th Ave
+Portland, OR 97202
+(45.46779079008439, -122.65298922148713)"
+Multnomah County Library,,St. Johns Library,,Public,7510 N Charleston Ave,,Portland,Multnomah County,OR,97203,,,,,,,,,,,,,Nancy,Arvesen,,,nancya@multcolib.org,03/22/2010 09:11:35 AM,"7510 N Charleston Ave
+Portland, OR 97203
+(45.59010757928945, -122.75146498369548)"
+Multnomah County Library,,Troutdale Library,,Public,2451 Cherry Park Rd,,Troutdale,Multnomah,OR,97060,2451 Cherry Park Rd,,Troutdale,Multnomah,OR,97060,(503) 988-5355,(503) 988-5441,,http://www.multcolib.org/,,,Bryan,Fearn,(503) 988-5403,,bryanf@multcolib.org,08/19/2010 02:51:16 PM,"2451 Cherry Park Rd
+Troutdale, OR 97060
+(45.52887555804844, -122.40977172652529)"
+Multnomah County Library,,Woodstock Library,,Public,6008 SE 49th Ave,,Portland,Multnomah County,OR,97206,,,,,,,,,,,,,Carol,Uhte,,,carolu@multcolib.org,03/22/2010 09:11:36 AM,"6008 SE 49th Ave
+Portland, OR 97206
+(45.47886144426508, -122.61241181152508)"
+National College Of Natural Medicine Library,,,,Academic,049 SW Porter,,Portland,,OR,97201-4848,,,,,,,503-552-1542,503-219-9709,,http://www.ncnm.edu/library.php,,,Rick,Severson,,,,10/26/2010 10:21:41 AM,"049 SW Porter
+Portland, OR 97201-4848
+(45.50153335262371, -122.67656944509537)"
+New Hope Christian College,,Flint Memorial Library,,Academic,2155 Bailey Hill Rd.,,Eugene,Lane,OR,97405-1194,,,,,,,541-485-1780 x 3309,541-343-5801,,http://www.newhope.edu,,,Jan,Kelley,540-485-1780 ,3309,jankelley@newhope.edu,07/14/2010 04:37:58 PM,"2155 Bailey Hill Rd.
+Eugene, OR 97405-1194
+(44.034780206335604, -123.1546042752108)"
+Newberg Public Library,,,,Public,503 E Hancock St,,Newberg,Yamhill,OR,97132,503 E Hancock St,,Newberg,,OR,97132,(503) 538-7323,(503) 538-9720,nplibrary@newbergoregon.gov,http://www.newberglibrary.org,CCRLS,21675,Leah,Griffith,(503) 537 1256,,leah.griffith@newbergoregon.gov,07/26/2010 03:23:09 PM,"503 E Hancock St
+Newberg, OR 97132
+(45.30112843161447, -122.97463174526627)"
+Newberg Public Library,,Senior Center Branch,,Public,101 W. Foothills Drive,,Newberg,,OR,97132,,,,,,,,,,,,,Rea,Andrew,,,rea.andrew@ci.newberg.or.us,09/30/2009 03:30:14 PM,"101 W. Foothills Drive
+Newberg, OR 97132
+(45.32457342251977, -122.97906537027671)"
+Newport Public Library ,,,,Public,35 NW Nye St,,Newport ,Lincoln,OR,97365,35 NW Nye St,,Newport,Lincoln,OR,97365,(541) 265-2153,(541) 574-9496,reference@newportlibrary.org,http://www.newportlibrary.org,LCLD,16500,Ted,Smith,(541) 265-3109,0600,t.smith@newportlibrary.org,12/08/2009 09:51:08 AM,"35 NW Nye St
+Newport, OR 97365
+(44.63686136600525, -124.05567795555977)"
+North Bend Public Library,,,,Public,1800 Sherman,,North Bend ,Coos,OR,97459,1800 Sherman,,North Bend,,OR,97459,(541) 756-1073,(541) 756-1073,,http://non.cooslibraries.org/,CCLSD,16910,Gary,Sharp,(541) 756-1073,,gsharp@cclsd.org,09/30/2009 03:23:31 PM,"1800 Sherman
+North Bend, OR 97459
+(43.40920084654229, -124.22402562726899)"
+North Plains Public Library,,,,Public,31334 NW Commercial St.,,North Plains,Washington,OR,97133,31360 NW Commercial St.,,North Plains,,OR,97133,(503) 647-5051,(503) 647-5043,info@nplibrary.org,http://www.nplibrary.org,WCCLS,3052,Debra,Brodie,(503) 647-5051,,dbrodie@wccls.org,04/05/2010 10:52:04 AM,"31334 NW Commercial St.
+North Plains, OR 97133
+(45.59767959039221, -123.000209674052)"
+North Powder City Library,,,,Public,290 E St,,North Powder,Union,OR,97867,PO Box 309,,North Powder,,OR,97867,(541) 898-2175,(541) 898-2175,songbirds35@hotmail.com,,NONE,743,Nancy,Free-Klein,(541) 786-3723,,songbirds35@hotmail.com,09/30/2009 03:23:31 PM,"290 E St
+North Powder, OR 97867
+(45.02912413369494, -117.92071015690273)"
+Northwest Christian University,,E P Kellenberger Library,,Academic,1188 Kincaid,,Eugene,Lane,OR,97401-3727,828 East 11th Ave.,,Eugene,Lane,,97401,541-684-7235,541-684-7307,librarian@northwestchristian.edu,http://www.northwestchristian.edu/Library.aspx,,550,Steve,Silver,541-684-7237,,ssilver@northwestchristian.edu,04/02/2010 04:11:17 PM,"1188 Kincaid
+Eugene, OR 97401-3727
+(44.04679119327141, -123.0786663483042)"
+Nyssa Public Library,,,,Public,319 Main St.,,Nyssa,Malheur,OR,97913,319 Main St,,Nyssa,,OR,97913,(541) 372-2978,(541) 372-0206,nyssalibrary@yahoo.com,http://nyssacity.org/publiclibrary/,NONE,3220,Faith,Adams,(541) 372-2978,,fadams@nyssacity.org,08/24/2010 12:26:30 PM,"319 Main St.
+Nyssa, OR 97913
+(43.87680961299944, -116.99523309575942)"
+Oakridge Public Library,,,,Public,48318 E 1st,,Oakridge,Lane,OR,97463,PO Box 1410,,Oakridge,,OR,97463,(541) 782-2258,(541) 782-1081,oakridgelibrary@ci.oakridge.or.us,http://www.ci.oakridge.or.us/Default.aspx?tabid=2075,NONE,3700,Tina,Rose,(541) 782-2258,230,oakridgelibrary@ci.oakridge.or.us,06/14/2010 11:50:04 AM,"48318 E 1st
+Oakridge, OR 97463
+(43.747724516547954, -122.45719269912959)"
+Ontario Community Library,,,,Public,388 SW 2nd Ave,,Ontario  ,Malheur,OR,97914,388 SW 2nd Ave,,Ontario,,OR,97914,(541) 889-6371,(541) 889-4279,malheurlibrarystaff@yahoo.com,http://www.ontariooregon.org/department/library/,NONE,26360,Darlyne,Johnson,(541) 889-6371,408,malheurlibrarystaff@yahoo.com,10/20/2010 10:05:45 AM,"388 SW 2nd Ave
+Ontario, OR 97914
+(44.02562212635505, -116.96834486754085)"
+Ontario Community Library,,Ontario Community Library Bookmobile,,Public,388 SW 2nd Ave,,Ontario,,OR,97914,,,,,,,,,,,,,,,,,,10/20/2010 10:05:44 AM,"388 SW 2nd Ave
+Ontario, OR 97914
+(44.02562212635505, -116.96834486754085)"
+Oregon City Public Library ,,,,Public,606 John Adams St.,,Oregon City ,Clackamas,OR,97045,606 John Adams St.,,Oregon City,,OR,97045,(503) 657-8269,(503) 657-3702,mcole@orcity.org,http://www.orcity.org/library,LINCC,54415,Maureen,Cole,(503) 657-8269 ,10,mcole@orcity.org,08/19/2010 02:53:02 PM,"606 John Adams St.
+Oregon City, OR 97045
+(45.35556439404803, -122.60457871664988)"
+Oregon Coast Community College Library,,,,Academic,400 SE College Way,,Newport,Lincoln,OR,97366,,,,,,,541-574-7126,541-265-3820,,http://www.occc.cc.or.us/library,,,,,,,,04/02/2010 04:11:18 PM,"400 SE College Way
+Newport, OR 97366
+(44.57865201737667, -124.05295845856597)"
+Oregon College Of Art And Craft,,,,Academic,8245 SW Barnes Rd,,Portland,,OR,97225-6399,,,,,,,503-297-5544,503-297-9651,,http://www.ocac.edu,,,,,,,,01/15/2009 12:57:07 PM,"8245 SW Barnes Rd
+Portland, OR 97225-6399
+(45.510607511899366, -122.7608808853422)"
+Oregon College Of Oriental Medicine,,,,Academic,10525 SE Cherry Blossom Drive,,Portland,,OR,97216-2859,,,,,,,503-253-3443 x 121,503 253-2701,,http://www.ocomlibrary.org,,,Candise,Branum,503-253-3443 ,134,cbranum@ocom.edu,08/23/2010 01:42:07 PM,"10525 SE Cherry Blossom Drive
+Portland, OR 97216-2859
+(45.51538291187495, -122.55515197791954)"
+Oregon Health & Science University,,Health Sciences Library,,Academic,3181 SW Sam Jackson Park Rd,PO Box 573,Portland,,OR,97207-0573,,,,,,,503-494-3462,503-494-3322,,http://www.ohsu.edu/library,,,,,,,,01/15/2009 12:57:07 PM,"3181 SW Sam Jackson Park Rd
+Portland, OR 97207-0573
+(45.49915014924608, -122.68894411621852)"
+Oregon Health & Science University,,Isabel McDonald Library,,Academic,505 NW 185th Ave,,Beaverton,,OR,97006-3499,,,,,,,503-690-5311,503-690-5532,,http://www.ohsu.edu/library/Isabel.shtml,,,,,,,,01/15/2009 12:57:07 PM,"505 NW 185th Ave
+Beaverton, OR 97006-3499
+(45.522928223700774, -122.86756745767809)"
+Oregon Health & Science University,,Library (CDRC),,Academic,707 SW Gaines Rd,,Portland,,OR,97201-2998,,,,,,,503-494-2762,503-494-0931,,http://www.ohsu.edu/library/cdrc.shtml,,,,,,,,01/15/2009 12:57:07 PM,"707 SW Gaines Rd
+Portland, OR 97201-2998
+(45.496460773033725, -122.67076063601935)"
+Oregon Health & Science University,,Samuel L. Diack Library,,Academic,20000 NW Walker Rd,,Beaverton,,OR,97006-8921,,,,,,,503-748-1383,503-748-1029,,http://www.ogi.edu/library,,,,,,,,01/15/2009 12:57:07 PM,"20000 NW Walker Rd
+Beaverton, OR 97006-8921
+(45.53097715586301, -122.8756793423824)"
+Oregon Health & Science University,,Van Hassel Library,,Academic,611 SW Campus Drive,,Portland,,OR,97201-3097,,,,,,,503-494-8822,503-494-7869,,http://www.ohsu.edu/library/dental/shtml,,,,,,,,01/15/2009 12:57:07 PM,"611 SW Campus Drive
+Portland, OR 97201-3097
+(45.50040355056141, -122.6835007764091)"
+Oregon Institute Of Technology Libraries,OIT Library,OIT Library,,Academic,3201 Campus Drive,,Klamath Falls,,OR,97601-8801,,,,,,,541-885-1772,541-885-1777,libtech@oit.edu,http://www.oit.edu/libraries,,,,,541-885-1774,,,10/19/2009 03:17:53 PM,"3201 Campus Drive
+Klamath Falls, OR 97601-8801
+(42.25413361495761, -121.78365818058202)"
+Oregon Institute of Technology Libraries,,Portland East Library,OIT Portland East Library,Academic,7726 SE Harmony Rd,,Portland,Clackamas,OR,97222,7726 SE Harmony Rd,,Portland,Clackamas,OR,97222,(503) 821-1258,(503) 786-5040,,http://www.oit.edu/libraries/collections/portland,,,Karen,Kunz,,,,10/23/2009 10:43:28 AM,"7726 SE Harmony Rd
+Portland, OR 97222
+(45.43257333941699, -122.58328277099605)"
+Oregon Institute of Technology Libraries,,Portland West Library,OIT Portland West Library,Academic,"20175 NW AmberGlen Ct, Suite 100",,Beaverton,Washington,OR,97006,"20175 NW AmberGlen Ct, Suite 100",,Beaverton,Washington,OR,97006,(503) 821-1258,(503) 533-5190,,http://www.oit.edu/libraries/collections/portland,,,Karen,Kunz,,,,10/19/2009 03:54:14 PM,"20175 NW AmberGlen Ct, Suite 100
+Beaverton, OR 97006
+(45.53277579992158, -122.88463658979418)"
+Oregon OSHA Resource Center,OR-OSHA Resource Center,,,Special,350 Winter St NE,Room 26,Salem,Marion,OR,97301,350 Winter St NE,,Salem,Marion,OR,97301,1-800-922-2689,(503) 947-7463,osha.resource@state.or.us,http://www.orosha.org/standards/resource_center.html,,,Jane,Kirby,(503) 947-7456,,jane.s.kirby@state.or.us,11/20/2009 02:41:42 PM,"350 Winter St NE
+Salem, OR 97301
+(44.94111684627044, -123.03087859833576)"
+Oregon State Library,,,,Special,250 Winter St. NE,,Salem,Marion,OR,97301,250 Winter St. NE,,Salem,Marion,OR,97301,(503) 378-4243,(503) 585-8059,,http://www.oregon.gov/OSL/,,,Jim,Scheppke,(503) 378-4367,,jim.b.scheppke@state.or.us,09/30/2009 03:44:10 PM,"250 Winter St. NE
+Salem, OR 97301
+(44.94003771153088, -123.03146305125533)"
+Oregon State University,,Guin Library,,Academic,2030 Marine Science Dr,,Newport,Lincoln,OR,97365-5296,,,,,,,541-867-0249,541-867-0105,,,,,,,,,,04/02/2010 04:11:18 PM,"2030 Marine Science Dr
+Newport, OR 97365-5296
+(44.61838977545287, -124.0498933350481)"
+Oregon State University,,University Archives,,Academic,94 Kerr Administration Building,,Corvallis,,OR,97331-02193,,,,,,,541-737-0541,541-737-0541,,http://osu.orst.edu/dept/archives,,,,,,,,01/15/2009 12:57:07 PM,"94 Kerr Administration Building
+Corvallis, OR 97331-02193
+(44.562841449273435, -123.28201952777897)"
+Oregon State University,,Valley Library,,Academic,121 The Valley Library,,Corvallis,Benton,OR,97331-4501,,,,Benton,,,541-737-3411,541-737-3453,,http://osulibrary.oregonstate.edu/,,,Karyle,Butcher,541-737-3411,,karyle.butcher@oregonstate.edu,09/30/2010 03:55:02 PM,"121 The Valley Library
+Corvallis, OR 97331-4501
+(44.5645280000673, -123.279223000441)"
+Oregon Trail Library District,,,,Public,200 S Main,,Boardman,Morrow,OR,97818,PO Box 107,,Boardman,,OR,97818,(541) 481-3365,(541) 481-2668,tlddirector@centurylink.net,http://oregontrail.plinkit.org,NONE,10248,Marsha,Richmond Breazeale,(541) 481-3365,,otlddirector@centurylink.net,11/12/2010 08:07:51 AM,"200 S Main
+Boardman, OR 97818
+(45.83500614600616, -119.70071695145116)"
+Oregon Trail Library District,,Boardman Library,,Public,200 S Main,,Boardman,Morrow County,OR,97818,P.O. Box 107,,Boardman,,,97818,(541) 481-2665,(541) 481-2668,,,,,,,,,,10/19/2010 10:17:46 AM,"200 S Main
+Boardman, OR 97818
+(45.83500614600616, -119.70071695145116)"
+Oregon Trail Library District,,Heppner Branch Library,,Public,444 Main St,,Heppner,,OR,97836,,,,,,,541-676-9964,541-676-5900,otldhepp@hotmail.com,http://www.oregontrail.plinkit.org,,,,,,,,10/19/2010 10:18:01 AM,"444 Main St
+Heppner, OR 97836
+(45.356940951858334, -119.55334777225265)"
+Oregon Trail Library District,,Irrigon Branch Library,,Public,201 S Main,,Irrigon,,OR,97844,,,,,,,(541)571-0482,,otldirrigon@hotmail.com,http://www.oregontrail.plinkit.org,,,Jackie,Redinger,,,,03/08/2011 12:33:37 PM,"201 S Main
+Irrigon, OR 97844
+(45.89519370665069, -119.50544136120084)"
+Pacific Bible College,,,,Academic,409 N Front St,,Medford,Jackson,OR,97504,PO Box 4215,,Medford,Jackson,,97501,541-776-9942,541-776-0618,admissions@pacificbible.com,http://www.pacificbible.com,,,,,,,,12/01/2009 11:30:58 AM,"409 N Front St
+Medford, OR 97504
+(42.32962455528258, -122.8763988000058)"
+Pacific Northwest College Of Art,,Charles Voorhies Fine Art Library,,Academic,1241 NW Johnson St,,Portland,Multnomah,OR,97209,1241 NW Johnson St.,,Portland,Multnomah,,97209,503-821-8966,503-821-8894,librarian@pnca.edu,http://library.pnca.edu,,,Dan,McClure,503-821-8970,,dmcclure@pnca.edu,10/19/2009 03:12:22 PM,"1241 NW Johnson St
+Portland, OR 97209
+(45.52862992536649, -122.68385395353266)"
+Pacific University Library,,,,Academic,2043 College Way,,Forest Grove,Washington,OR,97116-1797,,,,,,,503-352-2204,503-352-1416,,http://library.pacificu.edu,,,Marita,Kunkel,503-352-1401,,marita.kunkel@pacificu.edu,09/30/2010 03:37:33 PM,"2043 College Way
+Forest Grove, OR 97116-1797
+(45.52137239659004, -123.11102292422987)"
+Pendleton Public Library,,,,Public,502 SW Dorion Ave,,Pendleton,Umatilla,OR,97801,502 SW Dorion Ave,,Pendleton,,OR,97801,(541) 966-0380,(541) 966-0382,kat.davis@ci.pendleton.or.us,http://www.pendleton.plinkit.org,UCSLD,23391,Kat,Davis,(541) 966-0385,,kat.davis@ci.pendleton.or.us,09/30/2009 03:23:31 PM,"502 SW Dorion Ave
+Pendleton, OR 97801
+(45.67019785430175, -118.79158356677604)"
+Pilot Rock Public Library,,,,Public,144 N. Alder Pl,,Pilot Rock,Umatilla,OR,97868,PO Box 520,,Pilot Rock,,OR,97868,(541) 443-3285,(541) 443-2253,pilotrockpl@centurytel.net,http://www.pilotrock.plinkit.org,UCSLD,2114,Susan,Hilliard,(541) 443-3285, ,pilotrockpl@centurytel.net,09/30/2009 03:23:31 PM,"144 N. Alder Pl
+Pilot Rock, OR 97868
+(45.48314231917042, -118.83367657018856)"
+Pioneer Pacific College,,Library,,Academic,27501 SW Parkway Ave,,Wilsonville,Clackamas,OR,97070-9296,,,,,,,503-682-1862,503-682-1514,,http://pioneerpacific.com,,,Jill,Sled,,,jsled@pioneerpacific.edu,11/05/2009 10:45:54 AM,"27501 SW Parkway Ave
+Wilsonville, OR 97070-9296
+(45.320922509479374, -122.7674998954779)"
+Planetree Health Resource Center,of Mid-Columbia Medical Center,,,Special,200 E. 4th St.,,The Dalles,Wasco,OR,97058,200 E. 4th St.,,The Dalles,Wasco,OR,97058,(541) 296-8444,,,http://www.mcmc.net/PlanetreeResources/Default.aspx?blrb=PlanetreeServices.aspx,GorgeLINK,60000,Michele ,Spatz,(541) 506-6411,,micheles@mcmc.net,11/20/2009 12:21:45 PM,"200 E. 4th St.
+The Dalles, OR 97058
+(45.60057227818057, -121.18431899100167)"
+Port Orford Public Library,,,,Public,1421 Oregon St,,Port Orford,Curry,OR,97465,PO Box 130,,Port Orford,,OR,97465,(541) 332-5622,(541) 332-2140,pol2009@frontier.com,http://www.polibrary.org,NONE,2253,Tobe,Porter,(541) 332-5622, ,pol2009@frontier.com,09/30/2010 04:27:20 PM,"1421 Oregon St
+Port Orford, OR 97465
+(42.749835858675524, -124.49732975504169)"
+Portland Community College,,Cascade Campus,,Academic,705 N Killingsworth,College Center -2nd Floor,Portland,,OR,97217-2399,,,,,,,503-283-2541,,,,,,,,,,,01/15/2009 12:57:07 PM,"705 N Killingsworth
+Portland, OR 97217-2399
+(45.56268725061608, -122.67424020103948)"
+Portland Community College,,Rock Creek Campus,,Academic,17705 NW Springville Rd,Building 2 - 2nd Floor,Portland,,OR,97229,,,,,,,503-978-5322,503-978-5318,,,,,,,,,,01/15/2009 12:57:07 PM,"17705 NW Springville Rd
+Portland, OR 97229
+(45.563015068708474, -122.85844339124561)"
+Portland Community College,,Sylvania Campus,,Academic,12000 SW 49th Ave,,Portland,,OR,97219-7199,,,,,,,503-977-4498,503-977-4977,,http://www.pcc.edu/library,,,Donna,Reed,503-977-4497,,donna.reed@pcc.edu,09/30/2010 03:36:17 PM,"12000 SW 49th Ave
+Portland, OR 97219-7199
+(45.43955855348294, -122.72702731055621)"
+Portland State University,,Branford P. Millar Library,,Academic,1875 SW Park Avenue,,Portland,Multnomah,OR,97201,PO Box 1151,,Portland,,,,503-725-4424,503-725-4524,,http://library.pdx.edu/,,50000,Helen H.,Spalding,503-725-4521,,spalding@pdx.edu,01/25/2010 01:07:11 PM,"1875 SW Park Avenue
+Portland, OR 97201
+(45.51052657291672, -122.6865429264003)"
+Process Work Center Of Portland,,GRADUATE SCHOOL,,Academic,2049 NW Hoyt St,,Portland,,OR,97209,,,,,,,503-223-8188,503-227-7003,,http://www.processwork.org,,,,,,,,01/15/2009 12:57:07 PM,"2049 NW Hoyt St
+Portland, OR 97209
+(45.527038125374645, -122.69353065856797)"
+Rainier City Library ,,,,Public,106 B St,,Rainier,Columbia,OR,97048,PO Box 100,,Rainier,,OR,97048,(503) 556-7301,(503) 556-3200,rainier_library@yahoo.com,http://www.rainierlibrary.plinkit.org,NONE,1775,Patricia,Stanley,(503) 556-7301,,rainier_library@yahoo.com,01/25/2010 04:53:08 PM,"106 B St
+Rainier, OR 97048
+(46.08908780443298, -122.93589232747222)"
+Reed College,,E. V. Hauser Memorial Library,,Academic,3203 SE Woodstock Blvd,,Portland,,OR,97202-8199,,,,,,,503-777-7702,503-777-7786,,http://www.library.reed.edu,,,Victoria,Hanawalt,503-777-7280,,victoria.hanawalt@reed.edu,10/20/2009 12:16:57 PM,"3203 SE Woodstock Blvd
+Portland, OR 97202-8199
+(45.47921217985646, -122.63025436058643)"
+Rogue Community College,,Library,,Academic,3345 Redwood Highway,,Grants Pass,,OR,97527-9298,,,,,,,541-956-7147,541-471-3588,,http://learn.roguecc.edu/library/,,,,,,,,02/22/2010 09:05:56 AM,"3345 Redwood Highway
+Grants Pass, OR 97527-9298
+(42.414865973190125, -123.39252628471549)"
+Rogue Valley Genealogical Society Library,Jackson County Genealogy Library,,,Special,95 Houston Road,,Phoenix,Jackson,OR,97535,P. O. Box 1468,,Phoenix,Jackson,OR,97535,(541) 512-2340,,info@rvgslibrary.org,http://www.rvgslibrary.org,,,Anne,Billeter,(541) 512-2340,,billeter@entwood.com,11/20/2009 11:41:39 AM,"95 Houston Road
+Phoenix, OR 97535
+(42.27291330811494, -122.823365779938)"
+Sacred Heart Medical Center at RiverBend,Library Services,,,Special,Sacred Heart Medical Center at RiverBend,3333 RiverBend Drive,Springfield,Lane,OR,97477,Sacred Heart Medical Center @ RiverBend,3333 RiverBend Drive,Springfield,Lane,OR,97477,(541) 222-2280,(541) 222-2289,libraryshmc@peacehealth.org,http://www.peacehealth.org/Oregon/HIL/hilhome.htm,,,Kim,Tyler,(541) 686-7325,,ktyler@peacehealth.org,04/22/2010 08:58:21 AM,"Sacred Heart Medical Center at RiverBend
+Springfield, OR 97477
+(44.05198474460025, -123.0063100001064)"
+Salem Bible College,,The O. Cope Budge Library,,Academic,12234 River Rd NE,PO Box 9248,Salem,Marion,OR,97305-0248,,,,,,,503-304-0092,503-304-0899,,http://www.salembiblecollege.org,,,,,,,,04/02/2010 04:11:21 PM,"12234 River Rd NE
+Salem, OR 97305-0248
+(45.01827030842799, -122.92642774904135)"
+Salem Public Library,,,,Public,585 Liberty St SE,,Salem,Marion,OR,97301,PO Box 14810,,Salem,,OR,97309,(503) 588-6071,(503) 588-6055,library@cityofsalem.net,http://www.salemlibrary.org,CCRLS,152290,BJ,Toewe,(503) 588-6084,,bjtoewe@cityofsalem.net,03/09/2010 12:15:06 PM,"585 Liberty St SE
+Salem, OR 97301
+(44.93516859293123, -123.04129515366738)"
+Salem Public Library,,West Salem Branch Library,,Public,395 Glen Creek Road NW,,Salem,Marion,OR,97304,P.O. Box 14810,,Salem,Marion,,97309,(503) 588-6301,(503)-588-6397,,,,,B.J.,Toewe,(503)-588-6084,,bjtoewe@cityofsalem.net,10/19/2010 08:19:17 AM,"395 Glen Creek Road NW
+Salem, OR 97304
+(44.950204680210106, -123.04846111569904)"
+Sandy Public Library  ,,,,Public,38980 Proctor Blvd ,,Sandy ,Clackamas,OR,97055,PO Box 578,,Sandy,,OR,97055,(503) 668-5537,(503) 668-3153,saref@lincc.lib.or.us,http://www.cityofsandy.com/library,LINCC,23180,Beth,Scarth,(503) 668-5537,,bethks@lincc.lib.or.us,09/30/2009 03:23:31 PM,"38980 Proctor Blvd
+Sandy, OR 97055
+(45.39729293620752, -122.26190105060545)"
+Sandy Public Library,,Hoodland Branch Library,,Public,68256 E Hwy 26,,Welches,Clackamas County,OR,97067,,,,,,,(503) 622-3460,,,,,, , , ,,ddowney@ci.sandy.or.us,03/07/2011 11:29:50 AM,"68256 E Hwy 26
+Welches, OR 97067
+(45.34818048942276, -121.9633605103508)"
+Scappoose Public Library,,,,Public,52469 SE 2nd St,,Scappoose,Columbia,OR,97056,PO Box 400,,Scappoose,,OR,97056,(503) 543-7123,(503) 543-7161,scappl@scappooselibrary.org,http://www.scappooselibrary.org,NONE,11480,Dan,White,(503) 543-7123,,dwhite@scappooselibrary.org,03/11/2010 01:15:32 PM,"52469 SE 2nd St
+Scappoose, OR 97056
+(45.756581080133174, -122.87631786102315)"
+Scio Public Library,,,,Public,38957 NW 1st,,Scio,Linn,OR,97374,PO Box 37,,Scio,,OR,97374,(503) 394-3342,(503) 394-2340,slibrary@smt-net.com,http://www.scio.plinkit.org,NONE,760,LaVonne,Murray,(503) 394-3342,,slibrary@smt-net.com,09/30/2009 03:23:31 PM,"38957 NW 1st
+Scio, OR 97374
+(44.704728700057075, -122.84932511943816)"
+Seaside Public Library ,,,,Public,1131 Broadway ,,Seaside ,Clatsop,OR,97138,1131 Broadway,,Seaside,,OR,97138,(503) 738-6742,(503) 738-6552,thelibrary@theoregonshore.com,http://www.seasidelibrary.org,NONE,6400,Reita,Fackerell,(503) 738-6742, ,rfackerell@cityofseaside.us,10/20/2009 11:20:51 AM,"1131 Broadway
+Seaside, OR 97138
+(45.99310740211932, -123.91916046557003)"
+Sheridan Public Library ,,,,Public,142 NW Yamhill ,,Sheridan,Yamhill,OR,97378-1843,PO Box 248,,Sheridan,Yamhill,OR,,(503) 843-3420,(503) 843-2561,,http://www.sheridan.plinkit.org/,CCRLS,5865,Penny,Toepel,(503) 843-3420,,pennyt@ccrls.org,09/02/2010 11:42:42 AM,"142 NW Yamhill
+Sheridan, OR 97378-1843
+(45.10026934595084, -123.3958095785275)"
+Sherman County Public/School Library,,,,Public,65912 High School Loop,,Moro,Sherman,OR,97039,65912 High School Loop,,Moro,,OR,97039,(541) 565-3279,(541) 565-3319,amelzer@sherman.k12.or.us,http://www.sherman.k12.or.us/library.html,NONE,1855,Arla,Melzer,(541) 565-3279,,amelzer@sherman.k12.or.us,09/30/2009 03:23:31 PM,"65912 High School Loop
+Moro, OR 97039
+(45.47135993799605, -120.74489957264339)"
+Sherwood Public Library  ,,,,Public,22560 SW Pine St,,Sherwood  ,Washington,OR,97140,22560 SW Pine St,,Sherwood,,OR,97140,(503) 625-6688,(503) 625-4254,askusSPL@wccls.org,http://sherwood.plinkit.org,WCCLS,19873,Pam,North,(503) 625-6688,,pamn@wccls.org,01/25/2010 04:53:09 PM,"22560 SW Pine St
+Sherwood, OR 97140
+(45.35660031474475, -122.84055965523002)"
+Silver Falls Library District,,,,Public,410 S Water St,,Silverton,Marion,OR,97381,410 S Water St,,Silverton,,OR,97381,(503) 873-5173,(503) 873-6227,silvfals@ccrls.org,http://www.silverfalls.plinkit.org,CCRLS,18964,Marlys,Swalboski,(503) 873-5770,,marlyss@ccrls.org,09/30/2009 03:23:31 PM,"410 S Water St
+Silverton, OR 97381
+(45.00256488253466, -122.78085297017998)"
+Siuslaw Public Library District ,,,,Public,1460 9th St,,Florence ,Lane,OR,97439,1460 9th Street,,Florence,,OR,97439,(541) 997-3132,(541) 997-6473,,http://www.siuslawlibrary.org/home0.aspx,NONE,17177,Stephen,Skidmore,(541) 997-3132,211,skidmore@siuslaw.lib.or.us,08/23/2010 01:35:32 PM,"1460 9th St
+Florence, OR 97439
+(43.9746464248376, -124.10462088186142)"
+Siuslaw Public Library District,,Mapleton Branch Library,,Public,88148 Riverview Avenue,,Mapleton,Lane County,OR,97453,,,,,,,(541) 268-4033,,,,,,Susan,Voth,(541) 268-4033,,mapletonbranch@siuslawlibrary.org,03/22/2010 09:12:25 AM,"88148 Riverview Avenue
+Mapleton, OR 97453
+(44.03387551557071, -123.85999566183506)"
+Southern Oregon University,Hannon Library,,,Academic,1250 Siskiyou Blvd,,Ashland,Jackson,OR,97520-5076,,,,,,,541-552-6441,541-552-6429,,http://www.sou.edu/library,,,Paul,Adalian,541-552-6833,,adalianp@sou.edu,11/29/2010 12:22:15 PM,"1250 Siskiyou Blvd
+Ashland, OR 97520-5076
+(42.186412299958455, -122.69395627404727)"
+Southern Wasco County Library,,,,Public,410 Deschutes Ave,,Maupin,Wasco,OR,97037,PO Box 328,,Maupin,,OR,97037,(541) 395-2208,(541) 395-2208,SWCLibrary@centurytel.net,http://www.wasco.plinkit.org,NONE,490,Sarah,Hennessey,(541) 395-2208,,SWCLibrary@centurytel.net,09/30/2009 03:23:31 PM,"410 Deschutes Ave
+Maupin, OR 97037
+(45.17566127220225, -121.07966534923447)"
+Southwestern Oregon Community College,,Library,,Academic,1988 Newmark,,Coos Bay,,OR,97420-2912,,,,,,,541-888-7270; 541-888-7431,541-888-7605,,http://socc.edu/library/index.html,,,,,,,,01/15/2009 12:57:07 PM,"1988 Newmark
+Coos Bay, OR 97420-2912
+(43.39152467937954, -124.2528117093051)"
+Spray Public/School Library,,,,Public,303 Park Ave.,,Spray,Wheeler,OR,97874,PO Box 230,,Spray,,OR,97874,(541) 468-2226,(541) 468-2630,jbolton@spray.k12.or.us,,NONE,453,Jan,Bolton,(541) 468-2226,,jbolton@spray.k12.or.us,09/30/2009 03:23:31 PM,"303 Park Ave.
+Spray, OR 97874
+(44.950308574680946, -119.73341375024432)"
+Springfield Public Library ,,,,Public,225 5th St,,Springfield ,Lane,OR,97477,225 5th St,,Springfield,,OR,97477,(541) 726-3766,(541) 726-3747,library@ci.springfield.or.us,http://wheremindsgrow.org,NONE,57320,Robert,Everett,(541) 726-3756,,reverett@ci.springfield.or.us,09/30/2009 03:23:31 PM,"225 5th St
+Springfield, OR 97477
+(44.047320638025326, -123.01953489418918)"
+St. Helens Public Library,,,,Public,"375 S 18th St, Ste A",,St. Helens,Columbia,OR,97051,"375 S 18th St, Ste A",,St. Helens,Columbia,OR,97051,(503) 397-4544,(503) 366-3020,shpl@ci.st-helens.or.us,http://sthelens.plinkit.org,NONE,12075,Margaret,Jeffries,(503) 397-4544,104,margaretj@ci.st-helens.or.us,02/22/2011 08:35:56 AM,"375 S 18th St, Ste A
+St. Helens, OR 97051
+(45.8549023668704, -122.81406111245846)"
+Stanfield Public Library,,,,Public,180 West Coe Ave  ,,Stanfield ,Umatilla,OR,97875,PO Box 489,,Stanfield,,OR,97875,(541) 449-1254,(541) 449-3264,stanfieldpubliclibrary001@hotmail.com,http://stanfield.plinkit.org,UCSLD,2921,Sharon,Denham,(541) 449-1254,,stanfieldpubliclibrary001@hotmail.com,01/25/2010 04:53:11 PM,"180 West Coe Ave
+Stanfield, OR 97875
+(45.78057147665048, -119.21817332929575)"
+Stayton Public Library,,,,Public,515 N First Ave,,Stayton,Marion,OR,97383,515 N First Ave,,Stayton,,OR,97383,(503) 769-3313,(503) 769-3218,staytonpl@ccrls.org,http://www.stayton.plinkit.org,CCRLS,7765,Louise,Meyers,(503) 769-3313,101,louise@ccrls.org,10/19/2009 03:20:17 PM,"515 N First Ave
+Stayton, OR 97383
+(44.79872184927287, -122.79440275036586)"
+Sweet Home Public Library ,,,,Public,1101 13th Ave ,,Sweet Home ,Linn,OR,97386,1101 13th Ave,,Sweet Home,,OR,97386,(541) 367-5007,(541) 367-3754,sweethomepl@yahoo.com,http://www.sweet-home.or.us,NONE,8995,Leona,McCann,(541) 367-5007, ,sweethomepl@yahoo.com,09/30/2009 03:23:31 PM,"1101 13th Ave
+Sweet Home, OR 97386
+(44.395808495425634, -122.72869687267044)"
+The Dalles-Wasco County Library,,,,Public,722 Court St,,The Dalles,Wasco,OR,97058,722 Court St,,The Dalles,,OR,97058,(541) 296-2815,(541) 296-4179,sheila_dooley@ci.the-dalles.or.us,http://www.wasco.plinkit.org,NONE,20877,Sheila,Dooley,(541) 506-2042,,sdooley@ci.the-dalles.or.us,09/30/2009 03:23:31 PM,"722 Court St
+The Dalles, OR 97058
+(45.59923258887823, -121.18560169953537)"
+Tigard Public Library,,,,Public,13500 SW Hall Blvd,,Tigard,Washington,OR,97223,13500 SW Hall Blvd,,Tigard,,OR,97223,(503) 684-6537,(503) 598-7515,,http://www.tigard-or.gov/library,WCCLS,65945,Margaret,Barnes,(503) 684-6537,2501,margaret@tigard-or.gov,09/30/2009 03:23:31 PM,"13500 SW Hall Blvd
+Tigard, OR 97223
+(45.422551150023715, -122.76569767992427)"
+Tillamook Bay Community College,,,,Academic,2510 First St,,Tillamook,Tillamook County,OR,97141,,,,,,,503-842-8222,,,,,,,,,,,03/22/2010 09:11:04 AM,"2510 First St
+Tillamook, OR 97141
+(45.45687463017638, -123.83808274651996)"
+Tillamook County Library ,,,,Public,1716 Third St,,Tillamook ,Tillamook ,OR,97141,1716 Third St,,Tillamook,,OR,97141,(503) 842-4792,(503) 815-8194,,http://www.tillabook.info,Coastal Resource Sharing Network,25845,Sara,Charlton,(503) 842-4792,,scharlton@beachbooks.org,10/19/2009 03:19:44 PM,"1716 Third St
+Tillamook, OR 97141
+(45.45635184560106, -123.8469306507399)"
+Tillamook County Library,,Bay City Branch Library,,Public,5525 B St,,Bay City,Tillamook County,OR,97107,,,,,,,503-337-0231,,,,,,Debby,Riley,,,,03/08/2011 10:47:29 AM,"5525 B St
+Bay City, OR 97107
+(45.524546571624086, -123.88522084067813)"
+Tillamook County Library,,Garibaldi Branch Library,,Public,107 Sixth St,107 6th St,Garibaldi,Tillamook County,OR,97118,PO Box 485,,Garibaldi,Tillamook County,,97118,503-332-2100,,,,,,Norma,Johasson,,,,03/08/2011 10:47:37 AM,"107 Sixth St
+Garibaldi, OR 97118
+(45.56153913902, -123.91376220346291)"
+Tillamook County Library,,Manzanita Branch Library,,Public,571 Laneda,,Manzanita,Tillamook County,OR,97130,,,,,,,503-368-6665,,,,,,Charlotte,Forster,,,,03/08/2011 12:33:36 PM,"571 Laneda
+Manzanita, OR 97130
+(45.719196885737176, -123.93197335512603)"
+Tillamook County Library,,Pacific City Branch Library,,Public,6200 Camp St,,Pacific City,Tillamook County,OR,97135,,,,,,,,,,,,,Joey,Fitch,,,,03/22/2010 09:11:12 AM,"6200 Camp St
+Pacific City, OR 97135
+(45.20474218781705, -123.96032499245644)"
+Tillamook County Library,,Rockaway Branch Library,,Public,120 N. Coral ,,Rockaway,Tillamook County,OR,97136,,,,,,,503-355-2665,,,,,,Linda,Werner,,,,03/08/2011 12:33:34 PM,"120 N. Coral
+Rockaway, OR 97136
+(45.61393377046087, -123.94183648175978)"
+Tillamook County Library,,Tillamook County Library Bookmobile,,Public,1716 Third St,,Tillamook,,OR,97141,,,,,,,,,,,,,,,,,,09/30/2009 03:30:14 PM,"1716 Third St
+Tillamook, OR 97141
+(45.45635184560106, -123.8469306507399)"
+Toledo Public Library,,,,Public,173 NW 7th St,,Toledo,Lincoln,OR,97391,173 NW 7th St,,Toledo,,OR,97391,(541) 336-3132,(541) 336-3428,toledolibrary@cityoftoledo.org,http://www.cityoftoledo.org/library.htm,NONE,5664,Peter,Rayment,(541) 336-3132,,librarydirector@cityoftoledo.org,09/30/2009 03:23:31 PM,"173 NW 7th St
+Toledo, OR 97391
+(44.62547635249231, -123.93905431073189)"
+Treasure Valley Community College,,Library,,Academic,650 College Blvd,,Ontario,,OR,97914-3423,,,,,,,541-881-8822 x248,541-881-2724,,http://www.tvcc.cc,,,Christina,Macklin,,,cmacklin@tvcc.cc,11/05/2009 08:06:26 AM,"650 College Blvd
+Ontario, OR 97914-3423
+(44.02314814652552, -116.97314880215606)"
+Tualatin Public Library  ,,,,Public,18878 SW Martinazzi Ave,,Tualatin  ,Washington,OR,97062,18878 SW Martinazzi Ave,,Tualatin,,OR,97062,(503) 691-3074,(503) 692-3512,,http://www.TualatinLibrary.org,WCCLS,25434,Abigail,Elder,(503) 691-3066,,aelder@ci.tualatin.or.us,09/30/2009 03:23:31 PM,"18878 SW Martinazzi Ave
+Tualatin, OR 97062
+(45.38355593470159, -122.75871196334903)"
+Ukiah Public Library,,,,Public,201 Hill St,,Ukiah,Umatilla,OR,97880,PO Box 218,,Ukiah,,OR,97880,(541) 427-3735,(541) 427-3730,Scontreras37@live.com,http://www.ukiah.k12.or.us,UCSLD,369,Sherri,Contreras,(541) 427-3735, ,Scontreras37@live.com,11/22/2010 10:05:24 AM,"201 Hill St
+Ukiah, OR 97880
+(45.135607780392405, -118.9343134945714)"
+Umatilla County Special Library District,,,,Public,"17 SW Frazer, Ste 360",,Pendleton,Umatilla,OR,97801,PO Box 1689,,Pendleton,,OR,97801,(541) 276-6449,(541) 966-1028,ken@ucsld.org,http://www.ucsld.org,UCSLD,0,Kenneth,Reading,(541) 276-6449, ,ken@ucsld.org,10/19/2009 03:15:19 PM,"17 SW Frazer, Ste 360
+Pendleton, OR 97801
+(45.66997582070056, -118.78601859806815)"
+Umatilla Public Library,,,,Public,911 7th St,700 6th St,Umatilla,Umatilla,OR,97882,PO Box 820,,Umatilla,,OR,97882,(541) 922-5704,(541) 922-5708,umatillapublib@uci.net,http://www.umatilla.plinkit.org,UCSLD,8728,Kellie,Lamoreaux,(541) 922-5704, ,umatillapublib@uci.net,03/08/2011 09:50:21 AM,"911 7th St
+Umatilla, OR 97882
+(45.9168308177973, -119.34215441587943)"
+Umpqua Community College Library,,,,Academic,1140 Umpqua College Rd.,,Roseburg,Douglas,OR,97470-0226,PO Box 967,,Roseburg,Douglas,,97470,541-440-4640,541-440-4637,,http://www.umpqua.edu/library/libhome.htm,,100000,David,Hutchison,,,david.hutchison@umpqua.edu,10/19/2009 03:26:32 PM,"1140 Umpqua College Rd.
+Roseburg, OR 97470-0226
+(43.289561821137724, -123.33468667870218)"
+Union Carnegie Public Library ,,,,Public,182 N Main St,,Union ,Union,OR,97883,PO Box 928,,Union,,OR,97883,(541) 562-5811,(541) 562-5811,uclib@eoni.com,,NONE,2912,Louise,Shelden,(541) 562-5811,,library@cityofunion.com,11/02/2010 12:17:06 PM,"182 N Main St
+Union, OR 97883
+(45.209683970973614, -117.86540949037291)"
+University Of Oregon,,Architecture & Allied Arts Branch Library,,Academic,200 Lawrence Hall,,Eugene,Lane County,OR,97403-5429,,,,,,,541-346-3637,541-346-2205,,,,,,,,,,04/05/2010 10:52:20 AM,"200 Lawrence Hall
+Eugene, OR 97403-5429
+(44.036487333923276, -123.0527453428233)"
+University Of Oregon,Loyd and Dorothy Rippey Library,Institute of Marine Biology Library,,Academic,63466 Boat Basin Drive,,Charleston,,OR,97420-1221,PO Box 5389,,Charleston,,,97420,541-888-2581 X 219,541-888-3391,,,,,Barbara,Butler,,,butler@uoregon.edu,11/04/2009 09:55:55 AM,"63466 Boat Basin Drive
+Charleston, OR 97420-1221
+(43.34546543305512, -124.32861861112853)"
+University Of Oregon,,John E. Jaqua Law Library,,Academic,248 G Law Center,,Eugene,Lane County,OR,97403-1221,1515 Agate St,1221 University of Oregon,Eugene,Lane,,,541-346-3088,541-346-1669,,http://libweb.uoregon.edu/law/,,,,,,,,04/05/2010 10:52:20 AM,"248 G Law Center
+Eugene, OR 97403-1221
+(44.04201499979257, -123.07563700004738)"
+University Of Oregon,,Knight Library,,Academic,1299 University of Oregon,,Eugene,Lane  ,OR,97403-1299,,,,,,,541-346-3053,541-346-3485,,http://libweb.uoregon.edu,,,Deborah,Carver,541-346-3056,,dcarver@uoregon.edu,09/30/2010 03:26:36 PM,"1299 University of Oregon
+Eugene, OR 97403-1299
+(44.04481498530899, -123.07447869595991)"
+University Of Oregon,,Mathematics Library,,Academic,1021 East 13th Ave,,Eugene,Lane County,OR,97403-3914,,,,,,,541-346-3023,,,,,,,,,,,04/05/2010 10:52:20 AM,"1021 East 13th Ave
+Eugene, OR 97403-3914
+(44.04557638501788, -123.0769229990614)"
+University Of Oregon,,Pine Mountain Observatory Library,,Academic,Bend-Burns Star Route 702,,Bend,,OR,97701,,,,,,,541-382-8331,,,,,,,,,,,01/15/2009 12:57:07 PM,"Bend-Burns Star Route 702
+Bend, OR 97701
+(44.1143857668896, -121.26270964043755)"
+University Of Oregon,,Science Library,,Academic,14 Onyx Bridge,,Eugene,Lane County,OR,97403-5201,,,,,,,541-346-2661,541-346-3012,,,,,,,,,,04/05/2010 10:52:19 AM,"14 Onyx Bridge
+Eugene, OR 97403-5201
+(44.04200600027684, -123.07479299979695)"
+University Of Portland,,Wilson W. Clark Memorial Library,,Academic,5000 N Willamette Blvd 97203,,Portland,Multnomah,OR,97203,,,,,,,503-943-7111,50-943-7491,library@up.edu,http://library.up.edu,,,,,,,,11/02/2009 04:29:26 PM,"5000 N Willamette Blvd 97203
+Portland, OR 97203
+(45.575078570166944, -122.72629580583796)"
+Vernonia Public Library,,,,Public,701 Weed Ave,,Vernonia,Columbia,OR,97064,701 Weed Ave,,Vernonia,,OR,97064,(503) 429-1818,(503) 429-0729,library@vernonia-or.gov,,NONE,2365,Nancy,Burch,(503) 429-1818, ,library@vernonia-or.gov,09/30/2009 03:23:31 PM,"701 Weed Ave
+Vernonia, OR 97064
+(45.85780894761562, -123.19660579497769)"
+Wagner Community Library,,,,Public,111 N Main St,,Falls City,Polk,OR,97344,111 N Main St,,Falls City,,OR,97344,(503) 787-3521,(503) 787-1507,,http://www.wagner.plinkit.org,CCRLS,1143,Holly ,Kraus,(503) 787-3521,319,,02/22/2011 08:36:00 AM,"111 N Main St
+Falls City, OR 97344
+(44.86578658568366, -123.4284609562097)"
+Waldport Public Library,,,,Public,460 Hemlock,,Waldport,Lincoln,OR,97394,PO Box 1357,,Waldport ,,OR,97394,(541) 563-5880,(541) 563-6237,wplstaff@beachbooks.org,http://www.waldportlibrary.plinkit.org,Coastal Resource Sharing Network,4686,Jill,Tierce,(541) 563-5880,,jtierce@beachbooks.org,10/19/2009 03:17:36 PM,"460 Hemlock
+Waldport, OR 97394
+(44.42697905646907, -124.06585641289996)"
+Walla Walla College,,Portland Campus Library,,Academic,10345 SE Market,,Portland,,OR,97216-2998,,,,,,,503-251-6115 X 7306,503-251-6249,,http://www.wwc.edu/academics/library/pd/,,,,,,,,01/15/2009 12:57:07 PM,"10345 SE Market
+Portland, OR 97216-2998
+(45.51063449156021, -122.55646498808233)"
+Wallowa County Library,,,,Public,207 NW Logan,,Enterprise,Wallowa,OR,97828,207 NW Logan,,Enterprise,,OR,97828,(541) 426-3969,(541) 426-3969,wclib@eoni.com,http://www.wallowacounty.plinkit.org/,NONE,690,Susan,Polumsky,(541) 426-3969, ,wclib@eoni.com,09/30/2009 03:23:31 PM,"207 NW Logan
+Enterprise, OR 97828
+(45.427303669303576, -117.27617977675172)"
+Wallowa County Library,,Imnaha Station Library ,,Public,Imnaha Highway,,Imnaha,Wallowa ,OR,97842,,,,,,,(541) 577-2308,,,,,,Mern,Moore,(541) 577-2308,,ilib@eoni.com,04/02/2010 04:05:56 PM,"Imnaha Highway
+Imnaha, OR 97842
+(45.55944056806947, -116.83309240431743)"
+Wallowa County Library,,Troy Station Library,,Public,"66247 Redmond Grade, Troy",,Enterprise,Wallowa County,OR,97828,,,,,,,(541) 828-7788,,,,,,Hughes,Marilyn,(541) 828-7788,,mhughes204@hotmail.com,03/22/2010 09:10:57 AM,"66247 Redmond Grade, Troy
+Enterprise, OR 97828
+(45.92670905068677, -117.35485610860246)"
+Wallowa County Library,,Wallowa County Library Bookmobile,,Public,207 NW Logan,,Enterprise,,OR,97828,,,,,,,,,,,,,,,,,,09/30/2009 03:30:14 PM,"207 NW Logan
+Enterprise, OR 97828
+(45.427303669303576, -117.27617977675172)"
+Wallowa Public Library,,,,Public,201 East 1st St,,Wallowa,Wallowa,OR,97885,PO Box 486,,Wallowa ,,OR,97885,(541) 886-4265,,wallowapubliclibrary@gmail.com,http://www.wallowapubliclibrary.org,NONE,1452,Debbie,Lind,(541) 886-4265, ,wallowapubliclibrary@gmail.com,09/30/2009 03:23:31 PM,"201 East 1st St
+Wallowa, OR 97885
+(45.57018748205832, -117.52797731942667)"
+Warner Pacific College,,Otto F. Linn Library,,Academic,2219 SE 68th Ave,,Portland,,OR,97215-4099,,,,,,,503-517-1102,503-517-1351,library@warnerpacific.edu,http://www.warnerpacific.edu/library,,1300,Sue,Kopp,503-517-1032,,skopp@warnerpacific.edu,10/19/2009 03:29:49 PM,"2219 SE 68th Ave
+Portland, OR 97215-4099
+(45.506758413613966, -122.59370591331566)"
+Warrenton Community Library,,,,Public,861 Pacific Dr Hammond,,Hammond,Clatsop,OR,97121,PO Box 250,,Warrenton,Clatsop,OR,97146,(503) 861-3919,(503) 861-2351,warrcommlib@yahoo.com,,NONE,4645,Nettie-Lee,Calog,(503) 861-3919,,nlcwcl@yahoo.com,09/30/2010 01:18:09 PM,"861 Pacific Dr Hammond
+Hammond, OR 97121
+(46.199364743392486, -123.94780415913726)"
+Wasco County Library Service District,,,,Public,"511 Washington St., Suite 302",,The Dalles,Wasco,OR,97058,722 Court St.,,The Dalles,,OR,97058,(541) 296-2815,(541) 296-4179,,http://www.wasco.plinkit.org,NONE,0,Sheila,Dooley,(541) 296-2815,3000,sdooley@ci.the-dalles.or.us,09/30/2009 03:23:31 PM,"511 Washington St., Suite 302
+The Dalles, OR 97058
+(45.59971832667708, -121.18350939841844)"
+Washington Cnty Cooperative Library Services,,,,Public,"111 NE Lincoln St., MS# 58",,Hillsboro,Washington,OR,97124,"111 NE Lincoln St, MS# 58",,Hillsboro,,OR,97124,(503) 846-3222,(503) 846-3220,webmaster@wccls.org,http://www.wccls.org,WCCLS,11843,Eva,Calcagno,(503) 846-3233, ,calcagno@wccls.org,09/30/2009 03:23:31 PM,"111 NE Lincoln St., MS# 58
+Hillsboro, OR 97124
+(45.52397859456129, -122.98951444425934)"
+Washington County Cooperative Library Services,,West Slope Community Library,,Public,3678 SW 78th Ave.,,Portland,Washington County,OR,97225,,,,,,,(503) 292-6416,(503) 292-6932,,,WCCLS,,Veronica,Eden,(503) 297-1428,0,veronicae@wccls.org,03/22/2010 09:11:46 AM,"3678 SW 78th Ave.
+Portland, OR 97225
+(45.492712008504064, -122.75764929158113)"
+Washington County Law Library,,,,Special,111 NE Lincoln Street,,Hillsboro,Washington,Or,97124,111 NE Lincoln Street,,Hillsboro,Washington,Or,97124,(503) 846-8880,(503) 846-3515,lawlibrary@co.washington.or.us,http://www.co.washington.or.us/LawLibrary/index.cfm,,500000,Laura,Orr,(503) 846-8880,,lawlibrary@co.washington.or.us,11/20/2009 11:48:14 AM,"111 NE Lincoln Street
+Hillsboro, Or 97124
+(45.52397859456129, -122.98951444425934)"
+West Linn Public Library ,,,,Public,1595 Burns St,,West Linn,Clackamas,OR,97068,1595 Burns St,,West Linn,,OR,97068,(503) 656-7853,(503) 656-2746,wlrefpage@lincc.lib.or.us,http://westlinnoregon.gov/library/library-home,LINCC,26044,Diane R.,Satchwell,(503) 656-7853,3021,dsatchwell@westlinnoregon.gov,01/08/2010 12:24:30 PM,"1595 Burns St
+West Linn, OR 97068
+(45.36695054780006, -122.61424840843142)"
+Western Oregon University,,Hamersly Library,,Academic,345 N Monmouth Ave,,Monmouth,Polk ,OR,97361-1314,,,,,,,503-838-8886,503-838-8399,,http://www.wou.edu/provost/library,,,Allen,McKeil,503-838-8886,,mckiela@wou.edu,09/30/2010 03:26:42 PM,"345 N Monmouth Ave
+Monmouth, OR 97361-1314
+(44.84588801020697, -123.23737759076926)"
+Western Seminary,,Cline-Tunnell Library,,Academic,5511 SE Hawthorne Blvd,,Portland,,OR,97215-3399,,,,,,,503-517-1840,503-517-1801,,http://www.westernseminary.edu,,,,,,,,01/15/2009 12:57:07 PM,"5511 SE Hawthorne Blvd
+Portland, OR 97215-3399
+(45.51175864409686, -122.60567588952563)"
+Western States Chiropractic College,,W. A. Budden Memorial Library,,Academic,2900 NE 132nd,,Portland,,OR,97230-3099,,,,,,,503-251-5757,503-251-5759,,http://www.wschiro.edu/library/library._index.html,,,,,,,,01/15/2009 12:57:07 PM,"2900 NE 132nd
+Portland, OR 97230-3099
+(45.543927393084914, -122.52701219162276)"
+Weston Public Library,,,,Public,108 E Main St,,Weston,Umatilla,OR,97886,PO Box 550,,Weston,,OR,97886,(541) 566-2378,(541) 566-2378,wcolibrary@qwestoffice.net,http://westonpubliclibrary.com,UCSLD,1010,Kathleen,Schmidtgall,(541) 566-2378, ,wcolibrary@qwestoffice.net,09/30/2009 03:23:31 PM,"108 E Main St
+Weston, OR 97886
+(45.81355269895997, -118.42507361224283)"
+Willamette University,,J. W. Long Law Library,,Academic,245 Winter St SE,,Salem,Marion,OR,97301-3916,,,,,,,503-370-6386,503-375-5426,,http://www.willamette.edu/law/longlib,,,,,,,,04/21/2010 11:10:25 AM,"245 Winter St SE
+Salem, OR 97301-3916
+(44.93684114409214, -123.03310815292274)"
+Willamette University,,Mark O. Hatfield Library,,Academic,900 State St.,,Salem,Marion,OR,97301-3930,,,,,,,503-370-6312,503-370-6141,,http://www.library.willamette.edu,,,Deborah,Dancik,503-370-6561,,ddancik@willamette.edu,10/29/2009 08:18:10 AM,"900 State St.
+Salem, OR 97301-3930
+(44.938006074560064, -123.03118193307)"
+Willamina Public Library ,,,,Public,382 NE C St,,Willamina ,Yamhill,OR,97396,PO Box 273,,Willamina,,OR,97396,(503) 876-6182,(503) 876-1121,melissah@ccrls.org,http://www.willamina.plinkit.org,CCRLS,1885,Melissa,Hansen,(503) 876-6182, ,melissah@ccrls.org,09/30/2009 03:23:31 PM,"382 NE C St
+Willamina, OR 97396
+(45.0796508057318, -123.48484218805876)"
+Wilsonville Public Library,,,,Public,8200 SW Wilsonville Rd ,,Wilsonville,Clackamas,OR,97070,8200 SW Wilsonville Rd ,,Wilsonville,,OR,97070,(503) 682-2744,(503) 682-8685,reference@wilsonvillelibrary.org,http://www.wilsonvillelibrary.org,LINCC,25272,Patrick,Duke,(503) 570-1590,,duke@ci.wilsonville.or.us,12/14/2010 12:42:00 PM,"8200 SW Wilsonville Rd
+Wilsonville, OR 97070
+(45.302890945916936, -122.7609231243077)"
+Woodburn Public Library,,,,Public,280 Garfield St,,Woodburn,Marion,OR,97071,280 Garfield St,,Woodburn,,OR,97071,(503) 982-5262,(503) 982-5258,woodburn@ccrls.org,http://www.ccrls.org/woodburn,CCRLS,22875,John,Hunter,(503) 982-5259,,john.hunter@ci.woodburn.or.us,10/19/2009 08:58:19 AM,"280 Garfield St
+Woodburn, OR 97071
+(45.143001941169736, -122.85800292100149)"
+Yachats Public Library ,,,,Public,560 W 7th,,Yachats ,Lincoln,OR,97498,PO Box 817,,Yachats,,OR,97498,(541) 547-3741,,yachatspl@actionnet.net,,NONE,765,Annette,Howarth,(541) 547-3741,,yachatspl@actionnet.net,10/29/2009 08:08:50 AM,"560 W 7th
+Yachats, OR 97498
+(44.314492532264964, -124.10770569717006)"

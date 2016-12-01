@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 3+ level townhouse built in 1936 has 4 bedroom(s), 2 full
+bath(s)/2 half bath(s) , 1 car garage. Rooms include dining room,
+master bedroom. Features include private pool, patio, fireplace, air
+conditioning, french doors.</house_description>
+
+<agent_name>Susan Koehler</agent_name>
+<direct>703-821-9174</direct>
+<office>202-944-5000</office>
+<firm_name>Washington Fine Properties Llc - Dc</firm_name>
+<phone>202-944-5000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$1,215,000</list_price>
+<location>Washington, DC 20007</location>
+<mls>DC3098224</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 2(half)</baths>
+<levels>3 or more</levels>
+<garage>1</garage>
+<type>Townhouse</type>
+<lot_size>4545</lot_size>
+<year_built>1936</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Natural Gas, Radiator</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+French Doors
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

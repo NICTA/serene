@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>6972 BROME DRIVE</house_location>
+<price>$165,644</price>
+<rooms>9</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>237884</mls>
+<house_type>Single Family</house_type>
+<firm>PREFERRED PROPERTIES</firm>
+<firm_phone>(606) 371-4777</firm_phone>
+<agent>JENNIFER ONEY</agent>
+<agent_phone>(606) 371-4777</agent_phone>
+<house_description>DOUGLAS HOMES PRESENTS THE 'WINSTON B'.SPACIOUS 4 BEDROOM HOME
+W/BEAUTIFUL GARDEN BATH &amp; LARGE FIRST FL FAMILY ROOM. IMMEDIATE
+OCCUPANCY CONTACT DARRELL RICE AT 574-1726, 786-9533 OR 586-1726 FOR
+MORE INFORMATION</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Ceramic</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>83 x 150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$***</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>10 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 10</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>10 X 7</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<family><dimension>18 X 12</dimension><level>1</level></family>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<living><dimension>11 X 12</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>2</level></master>
+
+<directions>I-75 SOUTH TO EXIT RT 18 TO RT ON RT 18 TO L ON
+CAMP ERNST TO R AT SUMMERSET FARM</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Kay Zagst</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>kayz@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19899</id>
+<mls>54166</mls>
+<house_location>610 Southwind
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$159,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>ENJOY A 100-YEAR-OLD PECAN TREE AS THE CENTER PIECE OF YOUR HOME! SOARING TWO STORY CEILINGS IN THE LIVING ROOM AND A SPIRAL STAIRCASE ARE INCLUDED. THE MAIN HOUSE HAS TWO BEDROOMS AND TWO BATHS PLUS A LOFT. GUEST QUARTERS INCLUDE KITCHEN, LIVING AREA, ONE BEDROOM AND ONE BATH.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<approx_size_sqft>1840</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>100-YEAR-OLD PECAN TREE IN THE HOUSE!</item>
+<item>LOFT!</item>
+<item>GUEST QUARTERS!</item>
+<item>SOARING CEILINGS!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

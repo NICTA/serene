@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Donna</email>
+</firm_information>
+
+<agent_information>
+<name>Holley</name>
+<office>(281)276-6520</office>
+<fax>(281)242-6515</fax>
+<voice_mail>(281)276-6520</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14521</id>
+<mls>198126</mls>
+<house_location>2919 Edgewood
+Sugar Land, TEXAS 77479</house_location>
+<county>Fort Bend</county>
+<price>$154,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Updated 4 Bedroom in First Colony! Items replaced include: Fresh paint, carpet, interior doors, dishwasher 97, roof 97, waterheater 98, exterior doors.  Home features formal dining, wet bar, large family room and master down.  All bedroom are large with walk in closets.  Ceramic tile in kitchen, breakfast, master and half baths, formal dining and living area.  Covered patio and deck with hot tub.  tree house to stay.  Detached garage.  Close to schools and shopping.</house_description>
+
+<move-in_date>2/26/99</move-in_date>
+<school_district>Fort Bend</school_district>
+<sub-division>Colony Bend</sub-division>
+<approx_size_sqft>2304</approx_size_sqft>
+<stories>2</stories>
+<year_built>1981</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

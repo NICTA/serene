@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>11 GLAZIER RD</house_location>
+<price>$110,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>FT. WRIGHT</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249550</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>JEAN PAUL</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>FANTASTIC YARD W/MATURE TREES, NEWER ROOF, AC,FURNACE,DISPOSAL,GARAGE
+DOOR W/OPENER, NEWER REPLACMENT WINDOWS TOO! HDWD FLOORS, GREAT DECK
+OFF KITCHEN CO-LIST KAREN AVERY 395-3538 BSMT HAS GLASS BLOCK
+WINDOWS,NEW WATER HEATER</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50 x 148</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 12</dimension><level>1</level></dining>
+<family><dimension>15 X 9</dimension><level>L</level></family>
+<kitchen><dimension>11 X 7</dimension><level>1</level></kitchen>
+<laundry><dimension>15 X 11</dimension><level>L</level></laundry>
+<living><dimension>17 X 11</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>2</level></master>
+
+<directions>DIXIE HWY N TO L ON GEORGE HUSER THROUGH STOP
+SIGN,R ON BARRINGTON TO L GLAZIER RD</directions>
+</house_listing>
+
+
+

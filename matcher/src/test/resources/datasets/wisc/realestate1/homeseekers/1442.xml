@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>Great starter home. Convenient to bases and malls. Large yard full
+fenced. Fresh paint and more. New storage shed. Payment less than
+rent.</house_description>
+
+<agent_name>Maryann Smith</agent_name>
+<direct>436-6180</direct>
+<office>757-523-1710</office>
+<firm_name>Smith Realty Group, Inc.</firm_name>
+<phone>757-523-1710</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$62,000</list_price>
+<location>Norfolk, VA 23513</location>
+<mls>9933837</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Bungalow</style>
+<square_feet>900 (approx)</square_feet>
+<year_built>1952</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Floor Furnace, Natural Gas</heating>
+<fireplace>Master Bedroom</fireplace>
+<patio>Open Porch</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Bungalow Style, Fenced, Storage Space, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

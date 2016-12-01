@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>26 R.J. LANE</house_location>
+<price>$132,200</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>Tri-Level</levels>
+<basement>None</basement>
+<garage>2 Cars (Oversized)</garage>
+<suburb>UNION</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249914</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>LARRI R BROWN</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>READY APRIL/MAY*CATHEDRAL CEILINGS*2/10 WARRANTY*2 CAR GARAGE*1 YR
+PROF LAWN*CUL-DE-SAC WOODED!*PROF LANDSCAPED*PICK COLORS NOW* CALL
+LARRI TO SEE COMPLETED MODEL - 786-3952</house_description>
+<construction>Brick,Wood,Vinyl</construction>
+<heating>Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>None</sewer>
+<lot_dimensions>60X130</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>U</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>10 X 10</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>U</level></bedroom_3>
+<dining><dimension>10 X 11</dimension><level>1</level></dining>
+<family><dimension>21 X 27</dimension><level>L</level></family>
+<kitchen><dimension>9 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>4 X 6</dimension><level>L</level></laundry>
+<living><dimension>11 X 16</dimension><level>1</level></living>
+<master><dimension>13 X 15</dimension><level>U</level></master>
+
+<directions>I-75 TO FLOR/UNION EX-R ON 42 5O L ON FROGTOWN,
+L DUBLIN</directions>
+</house_listing>
+
+
+

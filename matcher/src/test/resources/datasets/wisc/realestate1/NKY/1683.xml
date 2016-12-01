@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>2447 AMBASSADOR</house_location>
+<price>$107,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>HAMILTON</suburb>
+<school_dist>NORTHWEST</school_dist>
+<mls>247990</mls>
+<house_type>Single Family</house_type>
+<firm>CHARLIE WRIGHT REALTORS</firm>
+<firm_phone>(606) 341-2213</firm_phone>
+<agent>CHARLIE WRIGHT</agent>
+<agent_phone>(606) 341-2213</agent_phone>
+<house_description>HOME ATTRACTIVELY DECORATED FINISHED FR.NEW BERBER CARPETING CERAMIC
+TILE BATH FLOORS.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>65x130</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>14 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>9 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<family><dimension>12 X 23</dimension><level>L</level></family>
+<kitchen><dimension>10 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 12</dimension><level>1</level></laundry>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>12 X 14</dimension><level>1</level></master>
+
+<directions>PIPPIN TO FULBOURNE L CHELTENHAM R ON AMBASSADOR</directions>
+</house_listing>
+
+
+

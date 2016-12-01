@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jean Cunningham</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<mobile>(361)960-0047</mobile>
+<email>JMC4143@AOL.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>14833</id>
+<mls>133833</mls>
+<house_location>7122 Premont #202
+Corpus Christi, TEXAS 78413</house_location>
+<county>Nueces</county>
+<price>$42,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>One bedroom w/loft that could be 2nd bedroom.  2 baths, 1 up, 1 down.  Furniture may be purchased with condo.</house_description>
+
+<move-in_date>3/9/99</move-in_date>
+<school_district>Corpus Christi</school_district>
+<sub-division>Foxfire Condos</sub-division>
+<approx_size_sqft>839</approx_size_sqft>
+<stories>2</stories>
+<year_built>1984</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

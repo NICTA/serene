@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1983 has 3 bedroom(s), 1 bath(s) and
+approximately 1260 square feet of living area.</house_description>
+
+<agent_name>Bruce Meadows</agent_name>
+<direct>371-6647</direct>
+<office>303-371-6647</office>
+<firm_name>Go Realty</firm_name>
+<phone>303-371-6647</phone>
+<fax>303-371-6647</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$128,900</list_price>
+<location>14151 E Elk Pl</location>
+<neighborhood>Montbello</neighborhood>
+<mls>385967</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1260 (approx)</square_feet>
+<year_built>1983</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

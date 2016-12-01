@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>John Puckett</name>
+<office>(830)598-1606</office>
+<fax>(830)598-1143</fax>
+<email>john@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17370</id>
+<mls>53203</mls>
+<house_location>35018-A INLET COVE
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$417,500</price>
+<bedrooms>4</bedrooms>
+<full_baths>4</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Waterfront townhome.  Located within walking distance to the Yacht  Club beach and pool.  Offered completely decorator furnished.  Southeastern exposure on the open bay and includes two electric boatlifts with a large deck above. New metal roof and new wood railings on decks June '99.   A super value in a waterfront property in the heart of Horseshoe Bay.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Fully furnished waterfront townhome with boat lift</item>
+<item>Oven, range, refrigerator, compactor</item>
+<item>Insulated windows, ceiling fans</item>
+<item>Retaining wall, lake pump</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1994 has 3 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 2374 square
+feet of living area. Features include view, patio, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Mark Gilliland</agent_name>
+<direct>520-326-4573</direct>
+<office>520-326-4573</office>
+<firm_name>Gilliland Realty &amp; Invest.</firm_name>
+<phone>520-326-4573</phone>
+<fax>520-323-8061</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$229,900</list_price>
+<location>3819 N River Oak Ln</location>
+<mls>9916471</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>2</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2374 (approx)</square_feet>
+<lot_size>48X80X75X60X135</lot_size>
+<year_built>1994</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Bar, Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

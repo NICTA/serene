@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This 1 level detached single family home built in 1929 has 2
+bedroom(s), 1 bath(s) , 2 car detached garage and approximately 1148
+square feet of living area. Rooms include dining room, living room.
+Features include view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Jeannie Vukovich</agent_name>
+<direct>626-570-2234</direct>
+<office>626-445-5500</office>
+<firm_name>Coldwell Banker Foothill Coldwell Banker Foothill</firm_name>
+<phone>626-445-5500</phone>
+<fax>626-447-0388</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$119,000</list_price>
+<location>5151 Castleman Av</location>
+<mls>A200045</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1148 (approx)</square_feet>
+<lot_size>5053</lot_size>
+<year_built>1929</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Dining Room, Living Room</rooms>
+<spa>No</spa>
+<view>City Lights View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

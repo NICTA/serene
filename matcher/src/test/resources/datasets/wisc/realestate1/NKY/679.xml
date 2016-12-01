@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>318 E 18TH</house_location>
+<price>$44,900</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247486</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>LINDA CULOTTA</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>ROOF REPLACED 1999/NEW H20 HEATER. DINING RM COULD BE USED AS 2ND
+BEDROOM. FULL BASEMENT. VERY DEEP BACK YARD/WOODED. IMMEDIATE
+OCCUPANCY! NEWER WINDOWS.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Wall Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25X198</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<living><dimension>19 X 11</dimension><level>1</level></living>
+<master><dimension>11 X 10</dimension><level>1</level></master>
+
+<directions>MADISON AVE TO 18TH ST</directions>
+</house_listing>
+
+
+

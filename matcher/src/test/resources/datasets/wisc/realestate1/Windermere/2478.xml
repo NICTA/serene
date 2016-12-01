@@ -1,0 +1,34 @@
+<house_listing>
+<price>$219,950</price>
+<mls_id_number>149922</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>4</bedrooms>
+<bathrooms>1.50</bathrooms>
+<sqft>1611</sqft>
+<year_built>1923</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Not Listed</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 1 Car(s)</garage>
+<lot_size>0.11        Acres</lot_size>
+<lot_description>49X100</lot_description>
+<fireplace>1</fireplace>
+<taxes>$0</taxes>
+<floors>Not Listed</floors>
+<interior>Not Listed</interior>
+<exterior>Covered Patio, Sprinkler System,</exterior>
+<site>Water: PUBLIC Sewer: CONECTD</site>
+</amenities>
+<schools><elementary>HOLLYROOD</elementary>
+<middle_school>FERNWOOD</middle_school>
+<high_school>GRANT</high_school>
+</schools>
+
+</house_listing>
+
+
+

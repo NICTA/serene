@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level single family home built in 2000 has 4 bedroom(s), 2 full
+bath(s)/1 half bath(s) , 2 car garage and approximately 2881 square
+feet of living area. Features include view, patio, fireplace, air
+conditioning.</house_description>
+
+<agent_name>Russell Long</agent_name>
+<direct>520-529-1116</direct>
+<office>520-326-1122</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-326-1122</phone>
+<fax>520-325-8784</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$299,000</list_price>
+<location>260 S Brown St</location>
+<mls>9919005</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>2881 (approx)</square_feet>
+<lot_size>155 X 250 X 173 X 275</lot_size>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

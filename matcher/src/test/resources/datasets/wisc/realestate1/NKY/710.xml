@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>514 W 14TH</house_location>
+<price>$34,900</price>
+<rooms>4</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247696</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>LOUISE NEFF</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* ROOF LESS THAN 10 YRS OLD * COULD BE 2 BDRM * NEWER SIDING * UPDATED
+ELECRIC WITH CIRCUIT BREAKERS * VERY CLEAN * READY TO MOVE IN AT
+CLOSING * * MUST SEE! *</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25X60</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>SHORT MAIN TO R ON 13TH TO L AT STOP SIGN TO W.
+14TH</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>36 PAUL LN</house_location>
+<price>$112,500</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>RISING SUN</suburb>
+<school_dist>CAMPBELL</school_dist>
+<mls>250194</mls>
+<house_type>Single Family</house_type>
+<firm>STAR ONE REALTORS</firm>
+<firm_phone>(606) 344-8700</firm_phone>
+<agent>ERMA SCHADLER</agent>
+<agent_phone>(606) 344-8700</agent_phone>
+<house_description>SITUATED ON CUL-DE-SAC LOT. NICELY LANDSCAPED BACK YARD. OAK CABINETS
+WITH PANTRY IN KITCHEN. UPGRADED FLOOR COVERING THROUGHOUT. HEAT PUMP
+2 YRS. OLD HOT WATER HEATER 3 YRS. OLD. BIRD FEEDER DOES NOT STAY.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>71 X 140</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>15 X 12</dimension><level>1</level></dining>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 12</dimension><level>1</level></master>
+
+<directions>HWY 27 TO R ON PAUL LANE IN CUL-DE-SAC. PAUL LN
+IS THE 2ND ST ON THE R PAST VFW.</directions>
+</house_listing>
+
+
+

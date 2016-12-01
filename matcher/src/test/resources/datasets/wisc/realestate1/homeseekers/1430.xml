@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This condominium built in 1948 has ? bedroom(s), 1 bath(s) and
+approximately 350 square feet of living area. Features include private
+pool, air conditioning.</house_description>
+
+<agent_name>Michael Benichay</agent_name>
+<direct>305-531-3555</direct>
+<office>305-538-1818</office>
+<firm_name>Miami Internationa
+Lic. Real Estate Broker</firm_name>
+<phone>305-538-1818</phone>
+<fax>305-531-9518</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$68,500</list_price>
+<location>6345 Collins Av #438</location>
+<neighborhood>The Casablanca Condo</neighborhood>
+<mls>M772247</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>350 (approx)</square_feet>
+<year_built>1948</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

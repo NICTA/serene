@@ -1,0 +1,47 @@
+<house_listing>
+<house_description>This 1 level single family home built in 2000 has 4 bedroom(s), 4 full
+bath(s)/1 half bath(s) , 3 car garage and approximately 4200 square
+feet of living area. Rooms include dining room. Features include view,
+private pool, private spa, patio, fireplace, air conditioning, storage
+space.</house_description>
+
+<agent_name>Damion Alexander</agent_name>
+<direct>520-977-5664</direct>
+<office>520-299-2201</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-299-2201</phone>
+<fax>520-529-1548</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$875,000</list_price>
+<location>5420 N Falcon Crest Pl</location>
+<mls>9914914</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4(full) 1(half)</baths>
+<levels>1</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>4200 (approx)</square_feet>
+<year_built>2000</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Natural Gas, Zoned</heating>
+<fireplace>Family Room, Master Bedroom</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room</rooms>
+<spa>Yes</spa>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

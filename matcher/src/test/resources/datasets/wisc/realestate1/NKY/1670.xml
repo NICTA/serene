@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>937 JERSEY RIDGE</house_location>
+<price>$164,900</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Part</basement>
+<garage>None</garage>
+<suburb>MAYSVILLE</suburb>
+<school_dist>MASON CO</school_dist>
+<mls>247150</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>MARTHA KERN</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>WHAT CHARACTER! RESTORED, NEW ROOF, 3 FIREPLACES, 2 STAIRCASES,
+SECLUDED OFFICE AREA W/.5 BATH. SUN ROOM, BONUS ROOM OFF OF BR. LEAD
+PLATED BUILT- IN CHINA CABINET. BRASS CHANDELIER, CARRAIGE HOUSE. 3
+ACRES, HOME WARRANTY.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Hot Water,Forced Air</heating>
+<cooling>Central Air,Atic Fan</cooling>
+<fireplace>Wood,Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NONE</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>13</dimension><level>X</level></bedroom_2>
+<bedroom_3><dimension>9 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>13 X 14</dimension><level>1</level></dining>
+<family><dimension>19 X 17</dimension><level></level></family>
+<kitchen><dimension>17 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>13 X 21</dimension><level>1</level></living>
+<master><dimension>12 X 15</dimension><level>2</level></master>
+<recreation_room><dimension>7 X 10</dimension><level>2</level></recreation_room>
+<study><dimension>11 X 11</dimension><level>1</level></study>
+
+<directions>AA TO LEFT 3071 TO R 3056 TO R JERSEY RIDGE RD
+HOUSE ON LEFT</directions>
+</house_listing>
+
+
+

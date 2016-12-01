@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bill Simpson</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>www.bill@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13913</id>
+<mls>51398</mls>
+<house_location>312 Lucy Lane
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Burnet</county>
+<price>$235,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>SPACIOUS HOME IN MARBLE FALLS INDEPENDENT SCHOOL DISTRICT. BEAUTIFUL CURB APPEAL. BONUS ROOMS INCLUDE LOFT WITH BUILT INS &amp; LARGE SUN ROOM, BREAKFAST ROOM, FORMAL DINING ROOM. SEPARATE OFFICE OUTSIDE HAS HEAT &amp; A/C. YARD HAS LOVELY TREES AND TWO  HUGE DECKS AND SPRINKLER SYSTEM. PERFECT FOR LARGE FAMILY.  MANY EXTRAS INCLUDE  ICE MAKER, TRASH COMPACTOR, MICROWAVE, BUILT IN OVEN/RANGE, WET BAR.  ONE OF FEW HORSESHOE BAY HOMES IN THE DESIREABLE MARBLE FALLS SCHOOL DISTRICT.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>ONE-OF-A-KIND IN DESIREABLE HORSESHOE BAY!!!</item>
+<item>MANY AMENITIES, INCL. 3 CHAMPIONSHIP GOLF COURSES</item>
+<item>BEAUTIFUL TENNIS CENTER!!</item>
+<item>UPDATED, GREAT CONDITION!!!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Lots of living space! Good sized four bedrooms, separate living,
+dining &amp; family rooms. Garage has been converted, can be used as
+office, rec room or 5th bedroom if needed. Large lot in quiet
+neighborhood. Appliances plus a home warranty - move right in!</house_description>
+
+<agent_name>Jennifer Lovell</agent_name>
+<office>757-490-0524</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-490-0524</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$112,500</list_price>
+<location>Virginia Beach, VA 23452</location>
+<mls>9934408</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Ranch</style>
+<square_feet>1900 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Baseboard, Electric</heating>
+<fireplace>Yes</fireplace>
+<patio>Open Porch, Patio</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Ceiling Fan(s), Fenced, Ranch Style, Utility Room
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

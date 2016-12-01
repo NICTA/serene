@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker First National, REALTORS</name>
+<location>1224 Hwy 123 San Marcos, TX 78666</location>
+<office>(512)353-5171</office>
+<toll_free>(800)447-7113</toll_free>
+<fax>(512)353-5174</fax>
+<email>info@cbfirstnational.com</email>
+</firm_information>
+
+<agent_information>
+<name>Mary Evans</name>
+<office>(512)353-5171</office>
+<fax>(512)353-5174</fax>
+<mobile>(512)753-6311</mobile>
+<email>mevans@sanmarcos.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19347</id>
+<mls>6107</mls>
+<house_location>708 Ashley Court
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$94,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Year Old HomeWhite Rock W/Bay WindowOpen Floor PlanNice KitchenLarge Master W/Garden Tub Seperate Shower</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>Hill Of Hays</sub-division>
+<approx_size_sqft>1280</approx_size_sqft>
+<year_built>1998</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Walk-In Closets</item>
+<item>Landscaped</item>
+<item>Patio</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

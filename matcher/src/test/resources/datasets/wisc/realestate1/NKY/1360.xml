@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>46 TRIPOLI</house_location>
+<price>$82,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>248907</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>STEVE TUCKER</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>NICE BRICK RANCH READY TO MOVE INTO. LR/DR COMBO. NEWER VINYL DOUBLE
+HUNG WINDOWS, ROOF APPROX. 2 YRS. FAMILY ROOM ON LOWER LEVEL. 1 YR AON
+WARRANTY</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>70X135</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<family><dimension>23 X 19</dimension><level>L</level></family>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<living><dimension>20 X 12</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>HANDS PIKE TO TRIPOLI</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>Realty World</name>
+<location>2207 West Parmer Ln Austin, TX 78727</location>
+<office>(512)834-1600</office>
+<toll_free></toll_free>
+<fax>(512)834-2234</fax>
+<email>rwmail@realtyworldaustin.com</email>
+</firm_information>
+
+<agent_information>
+<name>Jeanine Pullen</name>
+<office>(512)833-3263</office>
+<fax>(512)301-1505</fax>
+<voice_mail>(512)833-3263</voice_mail>
+<mobile>(512)497-0928</mobile>
+<email>jeanine@realtyworldaustin.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17889</id>
+<mls>511684</mls>
+<house_location>12509 Weathersby Way
+Austin, TEXAS 78753</house_location>
+<county>Travis</county>
+<price>$165,270</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Quality Stick Built Home with Custom Builyt Feel!  Great Energy Effiecent Home!Breakfast Bar!  Master Bath has Double Vanity, Seperate Shower and Walk-in Closets! Model Open Daily 10-8.  For more info please call #339-1862</house_description>
+
+<move-in_date>8/2/99</move-in_date>
+<school_district>Pflugerville</school_district>
+<sub-division>Westview Canyon</sub-division>
+<stories>2</stories>
+<approx_lot_size>68 x 100</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<new_home>Yes</new_home>
+
+<highlights>
+<item>Breakfast Bar!</item>
+<item>Master Bath has Sep. Shower, Dbl Vanity!</item>
+<item>Walk-in Closets!</item>
+<item>Wonderful Streetman Homes Quality!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Quad J Realty</name>
+<location>1305 N. E. Big Bend Trail Glen Rose, TX 76043</location>
+<office>(254)897-7005</office>
+<toll_free>(800)207-6032</toll_free>
+<fax>(254)897-3375</fax>
+<email>quadj@itexas.net</email>
+</firm_information>
+
+<agent_information>
+<name>Deedee Jones</name>
+<office>(254)897-7005</office>
+<fax>(254)897-3375</fax>
+<voice_mail>(254)897-7005 24</voice_mail>
+<email>quadj@itexas.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>9084</id>
+<mls>9040942</mls>
+<house_location>1922 CR 2021
+Glen Rose, TEXAS 76043</house_location>
+<county>Somervell</county>
+<price>$255,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful, almost new, home in exclusive subdivision.  Gorgeous views from full back porch.  Lots of closets and storage space.  9 foot ceilings throughout living area.  Open concept home with lots of amenities.  Big upstairs loft room for extra bedroom or game room.  Great living in the peaceful countryside.</house_description>
+
+<move-in_date>4/5/99</move-in_date>
+<school_district>Glen Rose</school_district>
+<sub-division>Ridgeview Estates</sub-division>
+<approx_size_sqft>2942</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>14.05</approx_acres>
+<year_built>1996</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Exclusive new subdivision with beautiful homes</item>
+<item>Gorgeous views from full back porch</item>
+<item>Lots of closets and storage space</item>
+<item>Open concept home with lots of amenities</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

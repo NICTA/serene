@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>GRANT / POST PROPERTIES</name>
+<location>1330 Wirt Rd. Suite E Houston, TX 77055</location>
+<office>(713)686-6090</office>
+<toll_free></toll_free>
+<fax>(713)686-8543</fax>
+<email>Postg@swbell.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Scott</name>
+<office>(713)686-6090</office>
+<fax>(713)686-8543</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12336</id>
+<mls>178238</mls>
+<house_location>8317 Western
+Houston, TEXAS 77055</house_location>
+<county>Harris</county>
+<price>$72,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Nestled beneath towering oaks, this lovely traditional home is situated in a great establishedneighborhood. Won't last long. Beautiful hardwood floors throughout except for den and kitchenWonderful framed in deck in great back yard, perfect for entertaining. Huge den. Frontal elevation features natural Texas stone. Unique property!!</house_description>
+
+<school_district>Spring Branch</school_district>
+<sub-division>Ridgecrest</sub-division>
+<approx_size_sqft>1592</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>8400</approx_lot_size>
+<year_built>1950</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Terrific close in location</item>
+<item>Wooded neighborhood</item>
+<item>Streets recently curbed and guttered</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

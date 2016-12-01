@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>146 BISHOP RDG-A</house_location>
+<price>$41,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>248866</mls>
+<house_type>Single Family</house_type>
+<firm>ACTION REALTY</firm>
+<firm_phone>(606) 654-2121</firm_phone>
+<agent>GAYLE PRICE</agent>
+<agent_phone>(606) 654-2121</agent_phone>
+<house_description>NO FOUNDATION!!! TIED DOWN &amp; SKIRTING ONLY. WOODED ACRES WITH THIS
+SINGLE WIDE, FRENCH DOORS, NEWER FURNACE, CISTERN &amp; SEPTIC. NEUTRAL
+DECOR, EZ TO SHOW, PLANT LEDGE.</house_description>
+<construction>Alum</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Wall Unit</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bedroom_2><dimension>10 X 7</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<living><dimension>15 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>S ON US 27 TO L ON OLD 3L TO L ON BISHOP RIDGE</directions>
+</house_listing>
+
+
+

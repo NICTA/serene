@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>42 BROADWAY</house_location>
+<price>$180,000</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Part</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>DRY RIDGE</suburb>
+<school_dist>GRANT</school_dist>
+<mls>247742</mls>
+<house_type>Single Family</house_type>
+<firm>C B DETERS REALTY</firm>
+<firm_phone>(606) 341-0060</firm_phone>
+<agent>PAM PENNINGTON</agent>
+<agent_phone>(606) 341-0060</agent_phone>
+<house_description>POTENTIAL GREAT LOCATION FOR A BUSINESS LARGE BACK YARD ZONED R 1 AT
+THIS TIME COULD BE RE-ZONED FOR COMMERICAL</house_description>
+<construction>Alum</construction>
+<heating>Oil,Wood</heating>
+<cooling>None</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bedroom_2><dimension>14 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 14</dimension><level>2</level></bedroom_3>
+<dining><dimension>12 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 14</dimension><level>1</level></kitchen>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 14</dimension><level>1</level></master>
+
+<directions>I 75 DRY RIDGE EXIT L ON BROADWAY PROPERT Y ON
+LEFT</directions>
+</house_listing>
+
+
+

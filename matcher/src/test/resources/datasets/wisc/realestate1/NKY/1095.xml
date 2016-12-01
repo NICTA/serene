@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>290 LATIMER LN</house_location>
+<price>$127,200</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249430</mls>
+<house_type>Single Family</house_type>
+<firm>SKYWAY REALTY &amp; DEVELOPMENT CO</firm>
+<firm_phone>(606) 824-3336</firm_phone>
+<agent>ANGELA SIMMONS</agent>
+<agent_phone>(606) 824-3336</agent_phone>
+<house_description>6 AC W/SPACIOUS D/W ON PERMANENT FOUNDATION. COUNTRY ATMOSPHERE
+W/FANTASTIC VIEW OF LAKE WILLIAMSTOWN.</house_description>
+<construction>Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 13</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 13</dimension><level>1</level></kitchen>
+<living><dimension>12 X 21</dimension><level>1</level></living>
+<master><dimension>13 X 13</dimension><level>1</level></master>
+
+<directions>WMSTOWN-US25 TO HWY22 E 1.5 MI TO L HWY489 TO L
+LATIMER LN</directions>
+</house_listing>
+
+
+

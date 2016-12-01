@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Faye Dockery</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11067</id>
+<mls>50499</mls>
+<house_location>1412 Ocotilla
+Marble Falls, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$130,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Wonderful home for large family.  Nice yard, covered patio, large fenced yard in back.  Fresh paint and new carpet.  Good location close to shopping and schools.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Northwood Acres</sub-division>
+<approx_size_sqft>2433</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Formal separate dining room</item>
+<item>Ceiling fans, utility room</item>
+<item>Washer/Dryer conn. - electric</item>
+<item>Chain link fencing</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

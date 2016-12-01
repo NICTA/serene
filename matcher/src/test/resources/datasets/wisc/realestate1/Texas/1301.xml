@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Anne Welch</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 226</voice_mail>
+<email>winegoddess@worldnet.att.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20651</id>
+<mls>524137</mls>
+<house_location>1108 Verbena Court
+Leander, TEXAS 78641</house_location>
+<county>Williamson</county>
+<price>$106,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>TERRIFIC FAMILY HOME IN NEW COMMUNITY, NEAR SCHOOLS, SHOPPING. FLOOR PLAN LARGER THAN COMPARABLE NEW HOMES, 4TH BEDROOM COULD SERVE AS OFFICE/STUDY. LARGE MASTER BEDROOM OFFERS WONDERFUL PRIVACY. WELL EQUIPPED KITCHEN.</house_description>
+
+<school_district>Leander, Whitestone,</school_district>
+<sub-division>Mason Creek</sub-division>
+<approx_size_sqft>1744</approx_size_sqft>
+<stories>1</stories>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

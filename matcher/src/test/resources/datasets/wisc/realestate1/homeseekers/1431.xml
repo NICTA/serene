@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 2 level detached single family home built in 1910 has 3
+bedroom(s), 1 bath(s) . Rooms include master bedroom.</house_description>
+
+<agent_name>Heidi Mackey</agent_name>
+<direct>202-347-3323</direct>
+<firm_name>
+The Washington Land Company, Inc.</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$27,000</list_price>
+<location>Washington, DC 20020</location>
+<mls>DC2744529</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<lot_size>3214</lot_size>
+<year_built>1910</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>9081 BRAXTON</house_location>
+<price>$184,900</price>
+<rooms>10</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>LOT 133</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249530</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>K Y BUDDE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * ELEGANT &amp; SPACIOUS 3 BEDRMS W/DRAMATIC OPEN LOFT(COULD
+BE 4 BEDRM)*CATH CEIL*DOUBLE VANITY*ULTRA BATH W/WHIRLPOOL, WALKIN
+CLOSETS*HUGH PANTRY &amp; KIT ISLAND, BUILTIN MICROWAVE*MODEL OPEN SAT &amp;
+SUN 2-4*525-5787</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>80x150</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>14 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 10</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>16 X 14</dimension><level>1</level></breakfast>
+<dining><dimension>12 X 12</dimension><level>1</level></dining>
+<family><dimension>17 X 16</dimension><level>1</level></family>
+<kitchen><dimension>14 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>9 X 6</dimension><level>1</level></laundry>
+<living><dimension>14 X 12</dimension><level>1</level></living>
+<master><dimension>18 X 12</dimension><level>2</level></master>
+
+<directions>I-75 FLORENCE/UNION EXIT SO ON 42 L ON BRAXTON *
+1ST RD ON LEFT PAST KROGER'S</directions>
+</house_listing>
+
+
+

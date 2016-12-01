@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>This 1 level condominium built in 1918 has 2 bedroom(s), 2 bath(s) and
+approximately 1148 square feet of living area. Rooms include master
+bedroom. Features include fireplace, air conditioning.</house_description>
+
+<agent_name>Margaret Lamberton</agent_name>
+<direct>202-588-5505</direct>
+<office>202-363-9800</office>
+<firm_name>RE/MAX Capital Properties</firm_name>
+<phone>202-363-9800</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$289,000</list_price>
+<location>Washington, DC 20036</location>
+<mls>DC3123729</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Condominium</type>
+<square_feet>1148 (approx)</square_feet>
+<year_built>1918</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Wall Unit</heating>
+<fireplace>Yes</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This 2 level single family home built in 1979 has 4 bedroom(s), 3
+bath(s) , 3 car garage and approximately 2604 square feet of living
+area. Features include view, patio, fireplace, air conditioning,
+storage space.</house_description>
+
+<agent_name>Mark Clark</agent_name>
+<direct>520-572-1653</direct>
+<office>520-326-1122</office>
+<firm_name>Long Realty Company</firm_name>
+<phone>520-326-1122</phone>
+<fax>520-325-8784</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$259,900</list_price>
+<location>5722 N Camino Del Mar</location>
+<mls>9917804</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>2</levels>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>2604 (approx)</square_feet>
+<lot_size>286 X 317 X 153 X 233</lot_size>
+<year_built>1979</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Zoned</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Family Room, Living Room</fireplace>
+<patio>Covered</patio>
+<pool>No</pool>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

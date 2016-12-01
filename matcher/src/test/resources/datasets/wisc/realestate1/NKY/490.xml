@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>5506 CAROLINA WAY</house_location>
+<price>$124,500</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE</school_dist>
+<mls>249096</mls>
+<house_type>Condominium</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>JANIE WILSON</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>BEAUTIFUL 3 BR/2 BATH CONDO ON GOLF COURSE.SCREENED PORCH.WHITE
+CABINETS. WHITE ON WHITE APPL,BUILT IN MICROWAVE.WASHER &amp;
+DRYER.MANY,MANY UPGRADES. WON'T LAST!!</house_description>
+<construction>Brick</construction>
+<heating>Electric</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level>1</condo_level>
+<hoa_fee>112</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 13</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 13</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<living><dimension>15 X 17</dimension><level>1</level></living>
+<master><dimension>16 X 12</dimension><level>1</level></master>
+
+<directions>HWY18 W TO 237 R TO MEADOWOOD GREENE ON R TURN
+L ON CAROLINA WAY.UNIT ON RIGHT</directions>
+</house_listing>
+
+
+

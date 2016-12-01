@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>326 HOWARD</house_location>
+<price>$74,900</price>
+<rooms>5</rooms>
+<bedrooms>1</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Detached,Rear)</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>250242</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>PATTY COSLETT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>*EX LOCATION*5RM COTTAGE W/1 CAR DET GARAGE*EAT-IN KIT &amp; FORMAL DIN
+RM*LG LIV RM W/FPL*POSS BEDRM ON 2ND FLR*BSMT HAS BEDRM SET-UP W/1/2
+BATH*NEW GLASS BLOCK WINDOWS*KIT APPL STAY*EX CONDITION*GREAT
+HOME*WON'T LAST LONG!*</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Dummy,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>35X100</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>L</level></bath_2>
+<dining><dimension>12 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>20 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>SLEEPY HOLLOW TO R ON ADELA TO L ON HOWARD</directions>
+</house_listing>
+
+
+

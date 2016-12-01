@@ -1,0 +1,30 @@
+<house_listing>
+<house_description>This 1 level detached single family home has 2 bedroom(s), 1 bath(s) ,
+2 car garage. Features include view.</house_description>
+
+<agent_name>Vi Rilling</agent_name>
+<direct>619-670-1409</direct>
+<office>619-442-0337</office>
+<firm_name>Coldwell Banker Residental Coldwell Banker Residental</firm_name>
+<phone>619-442-0337</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$115,000</list_price>
+<location>San Diego, CA 92114</location>
+<mls>00 2000211</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<garage>2</garage>
+<type>Single Family</type>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<view>Mountain/Hills View, View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

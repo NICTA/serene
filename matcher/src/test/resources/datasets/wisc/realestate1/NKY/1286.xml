@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>1588 SAWGRASS RD</house_location>
+<price>$389,900</price>
+<rooms>4</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Builtin)</garage>
+<suburb>WALTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250321</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 525-7000</firm_phone>
+<agent>BECKY YUNGBLUTH-LAY</agent>
+<agent_phone>(606) 525-7000</agent_phone>
+<house_description>HUNTERS PARDISE,2 BR CAPE COD,NEEDS REPAIRS,VALUE IN LAND,ROAD
+FRONTAGE ON GREEN RD &amp; SAWGRASS,32 ACRES,BEAUTIFUL VALEY VIEW W/POND &amp;
+CREEK.WATER IS AT GREEN RD,10 MINS TO EXPRESSWAY,HOME SOLD AS IS.</house_description>
+<construction>Wood</construction>
+<heating>Oil</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRREGULAR</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>10 X 10</dimension><level>1</level></kitchen>
+<living><dimension>12 X 15</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>I75 TO WALTON EX L OFF EX TO R ON 25 TO L GREEN
+RD TO R SAWGRASS PROPERTY ON L</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>Bill Chess Real Estate</name>
+<location>714-B Chestnut Bastrop, TX 78602</location>
+<office>(512)303-3806</office>
+<toll_free></toll_free>
+<fax>(512)303-3839</fax>
+<email>bchess@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Ray Walker</name>
+<office>(512)303-3806</office>
+<fax>(512)303-3839</fax>
+<mobile>(512)784-8961</mobile>
+<email>WalkerRayS@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19984</id>
+<mls>520529</mls>
+<house_location>7651 Taylorville Rd.
+Dale, TEXAS 78616</house_location>
+<county>Caldwell</county>
+<price>$125,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This home is about 17 miles from Bastrop, 10 miles from Lockhart on Hwy. 20, West on CR 158, Fourth DW on right.  There is a sign on property.This 3 bedroom - 2 bath DW built in 1995 is on 7.11 acres.This home has central air and heat, a water well, and septic tank.Ready for the horses, with fencing, a stroage shed, shelter, and rolling land with grass.File#:  W0111</house_description>
+
+<school_district>Lockhart</school_district>
+<sub-division>Windmill Hollow</sub-division>
+<approx_acres>7.11</approx_acres>
+<year_built>1995</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Perfect home for horse lovers.</item>
+<item>Lots of acreage for privacy.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1967 has 1 bedroom(s), 1 bath(s) and
+approximately 750 square feet of living area. Features include private
+pool, private spa, air conditioning.</house_description>
+
+<agent_name>Allison Ortiz</agent_name>
+<direct>305-860-6773</direct>
+<office>305-866-4000</office>
+<firm_name>Suncoast Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>305-866-4000</phone>
+<fax>305-866-7696</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$117,500</list_price>
+<location>5401 Collins Av #110</location>
+<neighborhood>The Carriage House Condo</neighborhood>
+<mls>M750778</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>750 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<location>Ocean front, Water front</location>
+<pool>Yes</pool>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Ocean Access, Tennis Court(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

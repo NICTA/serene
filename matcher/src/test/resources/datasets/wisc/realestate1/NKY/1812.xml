@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>405 ROBBINS AVE.</house_location>
+<price>$92,500</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Detached,Front)</garage>
+<suburb>FALMOUTH</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>249731</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 654-3400</firm_phone>
+<agent>LINDA TACKETT</agent>
+<agent_phone>(606) 654-3400</agent_phone>
+<house_description>MUST SEE LISTING-WELL KEPT HOME WITH LARGE YARD,TREES,GARDEN-LOCATION
+ON A QUIET ST. OUT OF FLOOD ZONE. SKYLIGHTED ROOMS,FAMILTY
+RM,RECREATION OR SUNROOM-2 DECKS,GARAGE,STORAGE SHED-PRIVACY FENCE.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>96x146</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 8</dimension><level>1</level></bedroom_3>
+<dining><dimension>17 X 13</dimension><level>1</level></dining>
+<family><dimension>16 X 15</dimension><level>1</level></family>
+<kitchen><dimension>14 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 8</dimension><level>1</level></laundry>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+<recreation_room><dimension>19 X 12</dimension><level>1</level></recreation_room>
+
+<directions>US 27 SOUTH TO LEFT ON SHELBY THRU 2 STOP
+LIGHTS-RIGHT ON ROBBINS AVE.</directions>
+</house_listing>
+
+
+

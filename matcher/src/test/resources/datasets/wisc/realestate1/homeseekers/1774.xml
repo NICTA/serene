@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>The home has been wrapped in vinyl. Home to be sold 'as is'. Has
+already had a clear termite letter.</house_description>
+
+<agent_name>Joan Kistler</agent_name>
+<office>757-547-1234</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-547-1234</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$129,900</list_price>
+<location>Norfolk, VA 23507</location>
+<mls>9922311</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Traditional</style>
+<year_built>1938</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Oil, Radiator</heating>
+<fireplace>Yes</fireplace>
+<location>Corner</location>
+<patio>Screened-in</patio>
+<rooms>Master Bedroom</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Ceiling Fan(s), Foyer, Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

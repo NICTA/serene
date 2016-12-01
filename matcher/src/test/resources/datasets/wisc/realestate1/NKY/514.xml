@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>910 CLAYTON</house_location>
+<price>$114,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>BELLEVUE</suburb>
+<school_dist>BELLEVUE</school_dist>
+<mls>246658</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>SHERRANN WITT</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>CO-LISTER BETH PRAST 578-4911, WELL-MAINTAINED BRICK CAPE COD IN
+AREA'S MOST POPULAR NEIGHBORHOOD. LIKE NEW ROOF,REPLACEMENT WINDOWS
+LOWER LEVEL COULD BE NICE FAMILY ROOM CHARM AND CHARACTER!</house_description>
+<construction>Brick,Stone,Stucco</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<breakfast><dimension>8 X 7</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 8</dimension><level>1</level></kitchen>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>I471 TO MEM. PKY.LEFT ON WILSON TO RT ON
+BON.LES.TO L.ON BER,RT ON GEI.L.ON CLAYTO</directions>
+</house_listing>
+
+
+

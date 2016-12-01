@@ -1,0 +1,52 @@
+<house_listing>
+<firm_information>
+<name>Horseshoe Bay Corp</name>
+<location>PO Box 7752 Horseshoe Bay, TX 78657</location>
+<office>(830)598-1606</office>
+<toll_free></toll_free>
+<fax>(830)598-1143</fax>
+<email>info@hsbay.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tommy Overman</name>
+<office>(830)598-2553</office>
+<fax>(830)598-5977</fax>
+<email>tommyo@hsbay.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11690</id>
+<mls>49417</mls>
+<house_location>280 LACHITE
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Llano</county>
+<price>$89,950</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<house_description>Furnished 2 bedroom, 2 bath condominium in excellent condition.  Outstanding view of #17 green and #18  fairway on Ram Rock Golf Course.</house_description>
+
+<school_district>Llano</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>2</stories>
+<master_bedroom>N/A</master_bedroom>
+<golf_course>Yes</golf_course>
+<resort_property>Yes</resort_property>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Furnished</item>
+<item>Ram Rock Golf Course</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

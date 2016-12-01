@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>233 BRENTWOOD</house_location>
+<price>$109,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Tri-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>-</suburb>
+<school_dist>GRANT</school_dist>
+<mls>249476</mls>
+<house_type>Single Family</house_type>
+<firm>JIM SIMPSON REALTORS</firm>
+<firm_phone>(606) 824-4666</firm_phone>
+<agent>MYRNA FLOYD</agent>
+<agent_phone>(606) 824-4666</agent_phone>
+<house_description>CUSTOM BUILT 5 MONTH OLD NEW HOME IN DRY RIDGE'S NEWEST SD.CITY
+UTILITIES, OAK CABINETS AND RECESSED LIGHTS IN KITCHEN,NEUTRAL
+COLORS,CHANDALIERS IN LIVING ROOM AND KITCHEN. EMAIL AT
+MYRNAFLOYD.REALTOR.COM</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>12 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>9 X 9</dimension><level>2</level></bedroom_3>
+<family><dimension>18 X 11</dimension><level>L</level></family>
+<kitchen><dimension>15 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>13 X 13</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>75S TO DRY RIDGE,L TO R ON US25 TO R INTO
+BRENTWOOD</directions>
+</house_listing>
+
+
+

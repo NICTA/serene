@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>539 LINDEN</house_location>
+<price>$71,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>LUDLOW</suburb>
+<school_dist>LUDLOW</school_dist>
+<mls>250161</mls>
+<house_type>Single Family</house_type>
+<firm>EQUITY MAX REALTORS</firm>
+<firm_phone>(606) 525-8900</firm_phone>
+<agent>JACQUELINE LAKE</agent>
+<agent_phone>(606) 525-8900</agent_phone>
+<house_description>TOO CUTE! GREAT STARTER HOME OR INVESTMENT, UPDATED &amp; CHARMING.NEWER
+SIDING WINDOWS, HEAT, &amp; A/C. BATHROOM FEATURES 1ST FL LAUNDRY, PATIO
+OFF KITCHEN, 1.5 CAR GARAGE FENCED YARD. A MUST SEE. CALL JACKIE LAKE
+AT 802-6325.</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25x125</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>9 X 10</dimension><level>1</level></bedroom_2>
+<dining><dimension>9 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>9 X 12</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>10 X 14</dimension><level>1</level></master>
+<study><dimension>5 X 14</dimension><level>1</level></study>
+
+<directions>ELM TO ADIELA TO R ON LINDEN</directions>
+</house_listing>
+
+
+

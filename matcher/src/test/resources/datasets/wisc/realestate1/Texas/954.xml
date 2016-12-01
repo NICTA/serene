@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Giesecke and Associates</name>
+<location>1410 HWY.1431 Marble Falls, TX 78654</location>
+<office>(830)693-2030</office>
+<toll_free>(800)399-2563</toll_free>
+<fax>(830)693-6811</fax>
+<email>giesecke@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Amy DeSpain</name>
+<office>(830)693-2030</office>
+<fax>(830)693-6811</fax>
+<voice_mail>(830)693-2030 26</voice_mail>
+<mobile>(512)755-0980</mobile>
+<email>giesecke@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17187</id>
+<mls>53167</mls>
+<house_location>1208 Prairie Creek
+Granite Shoals, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$79,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Spacious two bedroom, two bath, open floorplan.  Landscaped.  New paint.  Well for watering yard and garden.  Two storage rooms.  Covered boat port.  Perimeter fenced.  Room for adding on.  Bonus Room.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Forest Hills</sub-division>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Excellent Condition.</item>
+<item>Spacious.</item>
+<item>Fenced Yard.</item>
+<item>Bonus Room.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

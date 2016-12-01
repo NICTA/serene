@@ -1,0 +1,53 @@
+<house_listing>
+<house_location>57 CANON RIDGE</house_location>
+<price>$489,000</price>
+<rooms>12</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached)</garage>
+<suburb>FT. THOMAS</suburb>
+<school_dist>FT. THOMAS</school_dist>
+<mls>245151</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>BEVERLY A STALEY</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>EXQUISITE ENGLISH GEORGIAN, 2 STORY MARBLE FOYER, BUILT-INS THRU-OUT,
+SEPARATE SUITE OVER GARAGE, FINISHED LOWER LEVEL, STAINED GLASS, MANY
+UNIQUE FEATURES</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas,Marble</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$-</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bath_4><dimension>PART</dimension><level>1</level></bath_4>
+<bedroom_2><dimension>14 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>20 X 15</dimension><level>2</level></bedroom_4>
+<breakfast><dimension>12 X 10</dimension><level>1</level></breakfast>
+<dining><dimension>13 X 11</dimension><level>1</level></dining>
+<family><dimension>19 X 18</dimension><level>1</level></family>
+<kitchen><dimension>11 X 10</dimension><level>1</level></kitchen>
+<laundry><dimension>7 X 6</dimension><level>1</level></laundry>
+<living><dimension>14 X 10</dimension><level>1</level></living>
+<master><dimension>17 X 16</dimension><level>2</level></master>
+<recreation_room><dimension>29 X 14</dimension><level>L</level></recreation_room>
+<study><dimension>19 X 17</dimension><level>L</level></study>
+
+<directions>471 TO US27 EXT S ON 27 L ON CANON</directions>
+</house_listing>
+
+
+

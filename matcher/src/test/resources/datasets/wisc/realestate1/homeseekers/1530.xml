@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This townhouse built in 1998 has 2 bedroom(s), 2 full bath(s)/1 half
+bath(s) , 1 car attached garage and approximately 1350 square feet of
+living area. Features include private pool, air conditioning.</house_description>
+
+<agent_name>Ernesto Enriquez</agent_name>
+<direct>305-962-5960</direct>
+<office>305-532-0260</office>
+<firm_name>Kent Karlock Realt
+Lic. Real Estate Broker</firm_name>
+<phone>305-532-0260</phone>
+<fax>305-532-0940</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$304,900</list_price>
+<location>300 Euclid #109</location>
+<neighborhood>Armitage Place</neighborhood>
+<mls>M770455</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage></garage>
+<type>Townhouse</type>
+<square_feet>1350 (approx)</square_feet>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Intercom System
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

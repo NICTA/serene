@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>252 GARDNERSVILLE</house_location>
+<price>$154,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached,Oversized)</garage>
+<suburb>GARDNERSVILLE</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>250216</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>DAVE WHALEN</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* HANDSOME DECOR * LARGE KITCHEN * 2 CAR DETACHED GARAGE * 2.26 ACRES
+WITH ENOUGH FRONTAGE FOR 2ND HOME * LARGE L SHAPED FAMILY ROOM W/ROOM
+FOR HOME OFFICE *</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>see plat</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>11 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>11 X 11</dimension><level>2</level></bedroom_3>
+<dining><dimension>10 X 9</dimension><level>1</level></dining>
+<family><dimension>24 X 15</dimension><level>B</level></family>
+<kitchen><dimension>21 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 9</dimension><level>1</level></laundry>
+<living><dimension>16 X 11</dimension><level>1</level></living>
+<master><dimension>20 X 11</dimension><level>2</level></master>
+
+<directions>I75S CRITTENDEN X L TO 25 R TO 491 EAST 7 MILES
+HOUSE ON LEFT TO SIGN</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>9 CRANBERRY CT</house_location>
+<price>$98,500</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>0-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Attached,Front)</garage>
+<suburb>ELSMERE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249515</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>MARY K ALLHOFF</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>COZY RANCH*HDWD FLOORS*PARQUET FLOORS IN KITCHEN*COVERED PORCH OFF
+DINING RM*NEWER ROOF (1989) NEWER HVAC (1987)*PARTIALLY FIN LL W/FAM
+RM &amp; POSSIBLE 4TH BR*FLAT YARD* EASY TO SHOW</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>IRREG</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 8</dimension><level>1</level></dining>
+<family><dimension>18 X 12</dimension><level>L</level></family>
+<kitchen><dimension>10 X 8</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 8</dimension><level>L</level></laundry>
+<living><dimension>9 X 8</dimension><level>1</level></living>
+<master><dimension>11 X 10</dimension><level>1</level></master>
+<study><dimension>13 X 11</dimension><level>L</level></study>
+
+<directions>TURKEYFOOT TO AUTUMN TO CRANBERRY CT</directions>
+</house_listing>
+
+
+

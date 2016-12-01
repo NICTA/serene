@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>235 PRICE HILL</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>WILLIAMSTOW</school_dist>
+<mls>247614</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>CHRISTINE LEEKE</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>VERY CUTE!GREAT FMHA HOME.CURRENTLY HAS FMHA LOAN.ALOT OF UPDATING HAS
+BEEN DONE INSIDE AND OUT.MOVE IN CONDITION.HAS BEEN APPRAISED FOR
+$72,000 OWNER ANXIOUS</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>.50 acre</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>13 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 11</dimension><level>1</level></kitchen>
+<living><dimension>18 X 12</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>75S TO DRY RIDGE EXIT TO US 25 TO L. ON HUMES
+RIDGE.2.8 MILES TO R. ON PRICE HILL</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>George Reinemund Real Estate</name>
+<location>P. O. Box 338 Bastrop, TX 78702</location>
+<office>(512)303-5709</office>
+<toll_free></toll_free>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<email>greino@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>George Reinemund</name>
+<office>(512)303-5709</office>
+<fax>(512)321-1103</fax>
+<voice_mail>(512)796-0955</voice_mail>
+<mobile>(512)796-0955</mobile>
+<email>george@georgereinemund.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20190</id>
+<mls></mls>
+<house_location>205 KEANAHALULULU LANE
+Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$114,725</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>nEAT 3 BEDROOM-2 BATH HOME ON ABOUT .6 ACRES IN TAHITIAN VILLAGE.  FLAT LOT WITH LOTS OF LARGE TREES.  FENCED BACK YARD FOR YOUR CHILDREN TO RUN AND PLAY.  THIS HOME WAS FINISHED OUT FOR THE SELLERS AND HAS LOTS OF CUSTOM ITEMS AND UPGRADES.  COVERED FRONT PORCH AND A COVERED PATIO IN BACK.  ROCK TRIM AND THE YARD IS IN. BALANCE OF THE ORIGINAL 10 YEAR WARRANTY TRANSFERS.</house_description>
+
+<move-in_date>10/27/99</move-in_date>
+<school_district>Bastrop ISD</school_district>
+<sub-division>Tahitian Village</sub-division>
+<approx_size_sqft>1300</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>150 X 210</approx_lot_size>
+<approx_acres>0.6</approx_acres>
+<year_built>98</year_built>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

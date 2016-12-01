@@ -1,0 +1,58 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Shirley Hooks</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18332</id>
+<mls>9082277</mls>
+<house_location>211 W Pearl (Ad# 166)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$229,921</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>This home would be a great bed and breakfast or wonderful living.  Has wood floors, much original woodwork and high ceilings.  Commercially zoned and has an historic past.</house_description>
+
+<school_district>Granbury</school_district>
+<approx_size_sqft>2075</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>85x123x26x75x60x198</approx_lot_size>
+<approx_acres>0.34</approx_acres>
+<year_built>1928</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+
+<highlights>
+<item>Has wood floors and high celings</item>
+<item>Zoned for commercial use and has a historical past</item>
+<item>Would be a great bed and breakfast or a cozy home.</item>
+<item>inquire about #166</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

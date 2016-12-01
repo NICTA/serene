@@ -1,0 +1,47 @@
+<house_listing>
+<price>$56,000</price>
+<mls_id_number>98016897</mls_id_number>
+<address>5003 Arthur</address>
+<city>Caldwell</city>
+<st>ID</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1706</sqft>
+<year_built></year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage></garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<features><item>64x27 Mfg. Home</item>
+<item>Very Nice Park</item>
+<item>Overlooking Open field</item>
+<item>Spacious Rooms</item>
+<item>Split Bdrm Plan</item>
+</features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<comments>Master suite has full bath with garden tub and separate shower. Vaulted ceilings, built in bookcae and large utility. Has pantry.</comments>
+<for_more_information_contact>
+<agent_name>Jan Everitt</agent_name>
+<firm_name>Windermere Real Estate/Caldwell</firm_name>
+<firm_location>2900 Cleveland Blvd.
+Caldwell, ID</firm_location>
+<office_phone>208-459-2200</office_phone>
+<fax>(208)453-8875</fax>
+<e-mail>caldwell@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

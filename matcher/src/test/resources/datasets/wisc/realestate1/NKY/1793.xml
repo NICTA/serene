@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>130 GARDNERSVILLE</house_location>
+<price>$79,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Crawl</basement>
+<garage>2 Cars (Carport)</garage>
+<suburb>DEMOSSVILLE</suburb>
+<school_dist>PENDLETON</school_dist>
+<mls>250356</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>HAZEL TRITSCH</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * 5 BEDRM HOME ON THIS BEAUTIFUL LEVEL 2 PLUS ACRES READY
+TO BE REHABBED * LARGE CARPORT *</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>None</heating>
+<cooling>None</cooling>
+<fireplace>Wood,Insert</fireplace>
+<gas>Propane,None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>12 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>2</level></bedroom_3>
+<family><dimension>10 X 8</dimension><level>1</level></family>
+<kitchen><dimension>12 X 10</dimension><level>1</level></kitchen>
+<living><dimension>22 X 21</dimension><level>1</level></living>
+<master><dimension>17 X 13</dimension><level>2</level></master>
+
+<directions>I-75 SO L OFF CRITT EXIT TO R ON US25 TO L ON
+491 APPROX 6 MI TO R ON RT3984 .6MI</directions>
+</house_listing>
+
+
+

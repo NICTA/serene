@@ -1,0 +1,27 @@
+<house_listing>
+<house_description>This single family home has 5 bedroom(s), 4 bath(s) , 3 car garage and
+approximately 3724 square feet of living area.</house_description>
+
+<agent_name>Bonnie/Connie</agent_name>
+<direct>619-538-9925</direct>
+<fax>619-538-2176</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$481,000</list_price>
+<location></location>
+<mls>743</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<square_feet>3724 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

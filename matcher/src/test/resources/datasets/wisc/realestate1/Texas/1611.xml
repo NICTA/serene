@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Dana Vann</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>dana@century21keiser.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17677</id>
+<mls>53265</mls>
+<house_location>112 Bobolink
+Highland Haven, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$87,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>NEAT AS A PIN! NEEDS MINOR UPDATES, BUT IS AN IMMACULATE HOME! DETACHED RV PORT, LARGE LOT, COVERED PORCH, GREAT NEIGHBORHOOD! ENERGY EFFICIENT, QUALITY CONSTRUCTION WITH METAL ROOF, NEW AIR CONDITIONER AND HOT WATER HEATER.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Highland Haven</sub-division>
+<approx_size_sqft>1320</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>100x180</approx_lot_size>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<city_water>Yes</city_water>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>IMMACULATE HOME IN GREAT NEIGHBORHOOD!</item>
+<item>NEW A/C AND HOT WATER HEATER</item>
+<item>LARGE LOT AND COVERED PORCH!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>534 COURTNEY</house_location>
+<price>$122,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Detached,Oversized)</garage>
+<suburb>KENTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250223</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 525-6777</firm_phone>
+<agent>CHRISTINE LEEKE</agent>
+<agent_phone>(606) 525-6777</agent_phone>
+<house_description>PARK LIKE SETTING WITH SPLIT RAIL FENCE AND PILLARS AT ENTRY. OWNER
+BUILDING NEW HOUSE. 3-TIER DECK. IN RURAL KENTON CO. KITCHEN AND BATH
+HAS BEEN UPDATED.32X24 GAR. 16X20 OUTBUILDING</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>None</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>1.10</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$00</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>B</level></bath_2>
+<bedroom_2><dimension>12 X 16</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>21 X 13</dimension><level>B</level></bedroom_3>
+<dining><dimension>13 X 12</dimension><level>1</level></dining>
+<family><dimension>25 X 26</dimension><level>B</level></family>
+<kitchen><dimension>11 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>20 X 14</dimension><level>B</level></laundry>
+<living><dimension>16 X 20</dimension><level>1</level></living>
+<master><dimension>12 X 16</dimension><level>1</level></master>
+
+<directions>US 25 TO R ON EADS RD-BECOMES COURTENY RD TO
+HOUSE #534</directions>
+</house_listing>
+
+
+

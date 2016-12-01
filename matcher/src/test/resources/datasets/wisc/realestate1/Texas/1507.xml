@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Linda Quandt</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>C21Linda@excite.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>11533</id>
+<mls>25057</mls>
+<house_location>278 CO RD 1030 NORTH
+Ricardo, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$85,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>MESQUITE WOOD FLOORS, KITCHEN CABINETS, FRONT DR. STAIRS, BUILT-IN DESK. LIVING AREA HAS BUILT IN SOFA, FT TEXAS EBONY MANTLE, NEW A/C 98 BAY WINDOW</house_description>
+
+<school_district>Ricardo</school_district>
+<sub-division>King Addition #1</sub-division>
+<approx_size_sqft>1397</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>5</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>5196 MADISON</house_location>
+<price>$94,900</price>
+<rooms>6</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249229</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 363-9900</firm_phone>
+<agent>DOUGLAS GARNER</agent>
+<agent_phone>(606) 363-9900</agent_phone>
+<house_description>ONE AND A HALF STORY HAS GREAT CHARACTER. 2ND FLOOR IS ONE HUGE ROOM
+HAS CLOSETS,DOES NOT HAVE HEAT DUCTS. THIS COULD BE A FOUR BEDROOM.
+GREAT WOOD TRIM AND MOLDINGS, FOUNDATION IS BLOCK WITH POURED EXTERIOR</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>*</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$*</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>31 X 13</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 11</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 11</dimension><level>1</level></kitchen>
+<living><dimension>18 X 12</dimension><level>1</level></living>
+<master><dimension>13 X 12</dimension><level>1</level></master>
+
+<directions>MADISON PIKE NORTH OF INDEPENDENCE SOUTH OF THE
+POST OFFICE</directions>
+</house_listing>
+
+
+

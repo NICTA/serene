@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>906 BAKER</house_location>
+<price>$30,000</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>247516</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 341-7400</firm_phone>
+<agent>SUE PROFITT</agent>
+<agent_phone>(606) 341-7400</agent_phone>
+<house_description>* 2 BR 2 STORY LOCATED IN W. COVINGTON * FULL BASEMENT * DECK OFF BACK
+* * NEEDS A LITTLE TLC * GREAT INVESTMENT * MUST SEE *</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Dummy</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>iregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$N/A</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>13 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>1</level></bedroom_3>
+<dining><dimension>15 X 15</dimension><level>1</level></dining>
+<kitchen><dimension>15 X 15</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>15 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>2</level></master>
+
+<directions>N I75 TO LEFT ON PIKE, R ON LEWIS, R ON BAKER</directions>
+</house_listing>
+
+
+

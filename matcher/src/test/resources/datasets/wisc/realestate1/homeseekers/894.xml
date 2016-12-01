@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This condominium built in 1981 has 2 bedroom(s), 2 full bath(s)/1 half
+bath(s) , 2 car garage and approximately 1912 square feet of living
+area. Rooms include dining room. Features include air conditioning.</house_description>
+
+<agent_name>Joan Cohen</agent_name>
+<direct>305-891-6252</direct>
+<office>305-948-5050</office>
+<firm_name>Joan Cohen Realty
+Lic. Real Estate Broker</firm_name>
+<phone>305-948-5050</phone>
+<fax>305-948-8006</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$239,000</list_price>
+<location>2000 Towerside Te #1602</location>
+<neighborhood>Towers Of Quayside Condo</neighborhood>
+<mls>M765604</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<garage>2</garage>
+<type>Condominium</type>
+<square_feet>1912 (approx)</square_feet>
+<year_built>1981</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<location>Intracoastal, Bay front, Water front</location>
+<rooms>Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Roman Tub, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

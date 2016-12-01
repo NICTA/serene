@@ -1,0 +1,68 @@
+<house_listing>
+<firm_information>
+<name>Virgil Waggoner Realty, Inc.</name>
+<location>4515 Manchca Road Suite 100 Austin, TX 78745</location>
+<office>(512)444-1300</office>
+<toll_free>(800)280-8488</toll_free>
+<fax>(512)444-1386</fax>
+<email>vwrealty@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>David Johnson</name>
+<office>(512)444-1300</office>
+<fax>(512)444-1386</fax>
+<mobile>(512)431-1633</mobile>
+<email>vwrealty@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16387</id>
+<mls>504506</mls>
+<house_location>4006 TAMARACK TR.
+in North Austin, TEXAS 78727</house_location>
+<county>Travis</county>
+<price>$149,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>LARGE HOME BACKS TO CREEK. GREAT DECK IN BACK OVERLOOKINGGREENBELT. LARGE UNFINISHED BASEMENT. LOTS OF SPACE! LARGEROOMS!</house_description>
+
+<move-in_date>7/1/99</move-in_date>
+<school_district>Austin ISD</school_district>
+<sub-division>Northwood</sub-division>
+<approx_size_sqft>2415</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>85X122</approx_lot_size>
+<approx_acres>0.24</approx_acres>
+<year_built>1983</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<waterfront>Yes</waterfront>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>BACKS TO CREEK AND GREENBELT</item>
+<item>LOTS OF SPACE!</item>
+<item>LARGE UNFINISHED BASEMENT</item>
+<item>LOTS OF TREES</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,38 @@
+<house_listing>
+<house_description>Very nice two story home in established neighborhood. Eat in kitchen,
+covered carport, decked balcony from upstairs master bedroom - great
+family home layout.</house_description>
+
+<agent_name>Laura Ewing</agent_name>
+<office>757-460-8060</office>
+<firm_name>Davis &amp; Fawcett Realty, Inc.</firm_name>
+<phone>757-460-8060</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$82,000</list_price>
+<location>Norfolk, VA 23513</location>
+<mls>0001293</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Cape Cod</style>
+<square_feet>1138 (approx)</square_feet>
+<year_built>1942</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Baseboard, Electric, Natural Gas</heating>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Balcony, Barn, Cable TV, Capecod Style, Ceiling Fan(s), Storage Space,Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

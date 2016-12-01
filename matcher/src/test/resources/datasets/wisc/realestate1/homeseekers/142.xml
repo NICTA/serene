@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1906 has 3 bedroom(s), 2 bath(s) and
+approximately 1657 square feet of living area.</house_description>
+
+<agent_name>Rolland L Lech</agent_name>
+<direct>303-321-7681</direct>
+<office>303-756-2999</office>
+<firm_name>Cherry Creek Central</firm_name>
+<phone>303-756-2999</phone>
+<fax>303-756-5967</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$249,900</list_price>
+<location>464 N Downing St</location>
+<neighborhood>Country Club,Congress</neighborhood>
+<mls>384007</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1657 (approx)</square_feet>
+<year_built>1906</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

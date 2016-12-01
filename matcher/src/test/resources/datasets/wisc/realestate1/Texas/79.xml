@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Northwest</name>
+<location>4202 Calallen Drive Corpus Christi, TX 78410</location>
+<office>(361)241-7417</office>
+<toll_free>(888)627-2121</toll_free>
+<fax>(361)241-6527</fax>
+<email>wlfc21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Florence Little</name>
+<office>(512)241-7417</office>
+<fax>(512)241-6527</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14302</id>
+<mls>134204</mls>
+<house_location>Lower Trail (Pernitas Pt)
+Sandia, TEXAS 78383</house_location>
+<county>Jim Wells</county>
+<price>$44,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description></house_description>
+
+<move-in_date>2/15/99</move-in_date>
+<school_district>Orange Grove</school_district>
+<sub-division>Pernitas Point</sub-division>
+<approx_size_sqft>972</approx_size_sqft>
+<stories>1</stories>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>2</carport_spaces>
+
+<highlights>
+<item>CHARMING 2/2 COTTAGE MAKES A PERFECT</item>
+<item>RETREAT. BEAUTIFUL WATER VIEW FROM LV RM OR DECK.</item>
+<item>ACCESS TO PIER AND LAUNCH.</item>
+<item>WELL KEPT PROPERTY</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

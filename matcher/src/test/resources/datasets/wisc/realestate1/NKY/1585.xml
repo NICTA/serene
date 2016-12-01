@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>3109 WINDING TRAILS</house_location>
+<price>$135,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>EDGEWOOD</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249059</mls>
+<house_type>Single Family</house_type>
+<firm>FIRST RESIDENTIAL, INC.</firm>
+<firm_phone>(606) 331-6200</firm_phone>
+<agent>CINDY BROUILLETTE</agent>
+<agent_phone>(606) 331-6200</agent_phone>
+<house_description>MAJORITY BRICK 13X12 SCREENED PORCH OVERLOOKS PRIVATE WOODED PARK-LIKE
+YARD EXPANSIVE 32X12 PATIO ENTERTAINMENT-SIZE FAMILY RM W/WET BAR &amp;
+BRICK WBFP HARDWOOD UNDER CARPET LR/DR/HALL/BDRMS/ENTRY TERRIFIC
+CONVENIENT LOCATION!!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood,Brick</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>119x218</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 11</dimension><level>1</level></dining>
+<family><dimension>24 X 16</dimension><level>L</level></family>
+<kitchen><dimension>13 X 12</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 4</dimension><level>L</level></laundry>
+<living><dimension>16 X 13</dimension><level>1</level></living>
+<master><dimension>15 X 11</dimension><level>1</level></master>
+
+<directions>DUDLEY PIKE TO WINDING TRAILS</directions>
+</house_listing>
+
+
+

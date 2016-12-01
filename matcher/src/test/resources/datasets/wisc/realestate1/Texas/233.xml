@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Winkler &amp; Company</name>
+<location>1111 Highway 290 East Elgin, TX 78721</location>
+<office>(512)281-3336</office>
+<toll_free></toll_free>
+<fax>(512)281-3058</fax>
+<email>winkler@texasrealtor.com</email>
+</firm_information>
+
+<agent_information>
+<name>Madolyn Mills</name>
+<office>(512)281-3336</office>
+<fax>(512)281-3058</fax>
+<mobile>(512)517-6491</mobile>
+<email>rmills@onr.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>15578</id>
+<mls>500880</mls>
+<house_location>110 Burleson St.
+Paige, TEXAS 78659</house_location>
+<county>Bastrop</county>
+<price>$67,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Charming older home on two acres in Paige. Wooden floors, beaded board walls and ceilings. Upstairs landing could be finished as an office, etc.  New front porch, screened back porch. Has a small barn/shed with room for one car. Trees, trees, trees. Has its own windmill. Condition of well unknown. 45 minutes from I35 &amp; Hwy 290. House in good condition.</house_description>
+
+<move-in_date>4/19/99</move-in_date>
+<school_district>Bastrop Isd</school_district>
+<approx_size_sqft>1380</approx_size_sqft>
+<stories>2</stories>
+<approx_acres>2</approx_acres>
+<year_built>1924</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Period Home</item>
+<item>Quiet country community</item>
+<item>45 minutes from Austin</item>
+<item>Windmill - Beaded Board Fl. &amp; C.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This condominium built in 1976 has ? bedroom(s), 1 bath(s) and
+approximately 400 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Kaiser</agent_name>
+<direct>305-673-2849</direct>
+<office>305-532-7368</office>
+<firm_name>Streamline Propert Streamline Propert
+Lic. Real Estate Broker</firm_name>
+<phone>305-532-7368</phone>
+<fax>305-538-0917</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$61,000</list_price>
+<location>710 Washington Av #306</location>
+<neighborhood>Hampton On Washington Av</neighborhood>
+<mls>M770746</mls>
+<status>Active</status>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>400 (approx)</square_feet>
+<year_built>1976</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

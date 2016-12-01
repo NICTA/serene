@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Debbie Jackson</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<voice_mail>(361)853-2121 111</voice_mail>
+<mobile>(361)774-0548</mobile>
+<email>TurtleDebJ@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19670</id>
+<mls>139862</mls>
+<house_location>4630F Cedar Pass
+Corpus Christi, TEXAS 78413</house_location>
+<county>Nueces</county>
+<price>$75,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautifully remodeled, textured italian tile, pergo in living area, new wallpaper and paint, new cedar fence, master bedroom up with sitting area loft, master bath with 2 sinks and 2 closets, high ceilings and corner fireplace in living area.</house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>Breckenridge</sub-division>
+<approx_size_sqft>1321</approx_size_sqft>
+<stories>2</stories>
+<year_built>1982</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Corner</item>
+<item>landscaped</item>
+<item>sprinkler system</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

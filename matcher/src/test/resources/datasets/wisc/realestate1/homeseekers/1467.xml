@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Nice starter home. Renovations being completed. Great location.
+Excellent rental property. Loan is fully assumable. No quals. Seller
+pays cc. 1 year buyers warranty seller is a licensed agent. Seller
+will participate in nehemiah program.</house_description>
+
+<agent_name>Fred Helm</agent_name>
+<office>757-549-2000</office>
+<firm_name>The Prudential Decker Realty The Prudential Decker Realty</firm_name>
+<phone>757-549-2000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$67,900</list_price>
+<location>Norfolk, VA 23503</location>
+<mls>9926674</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<style>Bungalow</style>
+<square_feet>1100 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Baseboard, Electric</heating>
+<fireplace>No</fireplace>
+<patio>Open Porch</patio>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic Fan, Bungalow Style, Cable TV, Ceiling Fan(s), Fenced, StorageSpace
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

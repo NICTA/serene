@@ -1,0 +1,66 @@
+<house_listing>
+<firm_information>
+<name>Duffy&amp; LaRoe-REALTORS</name>
+<location>4505 Hwy. 6 North Houston, TX 77084</location>
+<office>(281)463-1141</office>
+<toll_free>(800)275-1609</toll_free>
+<fax>(281)463-2184</fax>
+<email>duffy&amp;laroe@dlrealtors.com</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Stewart</name>
+<office>(281)463-1141</office>
+<fax>(281)463-2184</fax>
+<voice_mail>(281)583-3618</voice_mail>
+<email>www.duffy2@neosoft.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13614</id>
+<mls>82760</mls>
+<house_location>2514 Pine Bend
+Kingwood, TEXAS 77339</house_location>
+<county>Harris</county>
+<price>$208,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>3</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Easy stroll to Kingwood Country Club and High School.  Updated English tutor, one ofKingwood's most prestigious neighborhoods.  Located on quiet cul-de-sac.</house_description>
+
+<school_district>Hisd</school_district>
+<sub-division>Kingwood Lakes</sub-division>
+<approx_size_sqft>3218</approx_size_sqft>
+<stories>2</stories>
+<approx_lot_size>14278</approx_lot_size>
+<year_built>1980</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>large corner lot</item>
+<item>completely updated</item>
+<item>golf course community</item>
+<item>best location in Kingwood</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

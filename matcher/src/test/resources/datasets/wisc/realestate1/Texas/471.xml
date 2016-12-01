@@ -1,0 +1,62 @@
+<house_listing>
+<firm_information>
+<name>COLDWELL BANKER MADELINE OBRIEN, REALTORS</name>
+<location>2121 Sage Rd., Suite 300 Houston, TX 77056</location>
+<office>(713)621-4953</office>
+<toll_free>(800)726-4956</toll_free>
+<fax>(713)621-3303</fax>
+<email>mob@onramp.net</email>
+</firm_information>
+
+<agent_information>
+<name>KELLY CHAILLE</name>
+<office>(713)621-4953</office>
+<fax>(713)621-3303</fax>
+<voice_mail>(713)621-4953 136</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>14265</id>
+<mls>193027</mls>
+<house_location>222 SUGARBERRY
+Houston, TEXAS 77024</house_location>
+<county>Harris</county>
+<price>$204,000</price>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>THIS RECENTLY EXPANDED AND REFINED TWO PLUS BEDROOM T/H AT WOODS OF HUDSON SPARKLES WITH LIGHT, GOOD DESIGN AND SUPERB CONDITION. CALL FOR APPOINTMENT. WE'LL MEET YOU WITH PLEASURE.</house_description>
+
+<school_district>Spring Branch</school_district>
+<sub-division>Woods At Hudson</sub-division>
+<stories>2</stories>
+<year_built>1979</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>2</fire_places>
+<hot_tub>Yes</hot_tub>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+<well>Yes</well>
+
+<highlights>
+<item>RECENTLY EXPANDED AND REFINED</item>
+<item>SPARKLES WITH LIGHT</item>
+<item>GOOD DESIGN</item>
+<item>SUPERB CONDITION</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Dean Duncan</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<mobile>(361)946-0753</mobile>
+<email>G101PD60@hotmail.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>21113</id>
+<mls></mls>
+<house_location>6410 avignon
+Corpus Christi, TEXAS 78414</house_location>
+<county>Nueces</county>
+<price>$164,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Great open floor plan has 3BR plus study - office - formal living -  2100 sq ft of living space -quiet cul d sac - brick 4 sides lge mst   suite - whirlpool tub - sep shower - cov patio &amp; many - many extras  NEW CONSTRUCTION - Builder will pay closing cost - buy downs -  anything reasonable -                        CALL DEAN DUNCAN to see 946-0753   REALTORS  - this new home is vacant WITH lock box - show anytime </house_description>
+
+<school_district>Ccisd</school_district>
+<sub-division>5426</sub-division>
+<approx_size_sqft>2100</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>80x110</approx_lot_size>
+<year_built>1998</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

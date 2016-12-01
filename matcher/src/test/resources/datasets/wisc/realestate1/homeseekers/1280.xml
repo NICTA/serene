@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This single family home built in 1963 has 2 bedroom(s), 1 bath(s) , 2
+car garage and approximately 1130 square feet of living area. Rooms
+include family room. Features include view, air conditioning, storage
+space.</house_description>
+
+<agent_name>Timothy Wirth</agent_name>
+<direct>305-361-8599</direct>
+<office>305-446-5603</office>
+<firm_name>Wirth Realty, Inc.
+Lic. Real Estate Broker</firm_name>
+<phone>305-446-5603</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>12650 NW 5 Av</location>
+<neighborhood>Alhambra Hgts</neighborhood>
+<mls>D905112</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<square_feet>1130 (approx)</square_feet>
+<lot_size>90 X 100</lot_size>
+<year_built>1963</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central, Solar</heating>
+<patio>Open Porch</patio>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Storage Space
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

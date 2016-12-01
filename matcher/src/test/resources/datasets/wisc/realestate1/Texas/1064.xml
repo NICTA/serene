@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Jones</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email>lajones777@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20035</id>
+<mls>9111116</mls>
+<house_location>184 Beck Lane
+SpringTown, TEXAS 76082</house_location>
+<county>Parker</county>
+<price>$43,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>Double wide on two acres. Large rooms with ceiling fans. Wooded acreage. big porch on front. Bring your horses.</house_description>
+
+<school_district>Springtown</school_district>
+<stories>1</stories>
+<approx_acres>2</approx_acres>
+<master_bedroom>Downstairs</master_bedroom>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Private Acreage</item>
+<item>Wooded</item>
+<item>Horses OK</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

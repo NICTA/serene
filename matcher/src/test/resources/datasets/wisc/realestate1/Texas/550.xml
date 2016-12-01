@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Town Creek Properties</name>
+<location>200 W. Main Johnson City, TX 78636</location>
+<office>(830)868-0873</office>
+<toll_free></toll_free>
+<fax>(830)868-4855</fax>
+<email>towncrk@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Paula Housman</name>
+<office></office>
+<fax></fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21126</id>
+<mls></mls>
+<house_location>104 Heritage Point (3/2 Dbl. Wide on 1.09 acres)
+Johnson City, TEXAS</house_location>
+<county>Blanco</county>
+<price>$69,500</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>very nice, good area, must see to appreciate</house_description>
+
+<school_district>Johnson City</school_district>
+<sub-division>Heritage Oaks</sub-division>
+<stories>1</stories>
+<approx_acres>1.09</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

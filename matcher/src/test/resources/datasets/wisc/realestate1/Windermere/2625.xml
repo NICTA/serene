@@ -1,0 +1,42 @@
+<house_listing>
+<price>$253,500</price>
+<mls_id_number>113035</mls_id_number>
+<address>3235 NE 42ND AVENUE</address>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft></sqft>
+<year_built></year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage></garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<features></features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<for_more_information_contact>
+<agent_name>Julianne Bell</agent_name>
+<firm_name>WINDERMERE CCRGI - IRVING</firm_name>
+<firm_location>636 NW 21ST AVE
+PORTLAND, OR</firm_location>
+<office_phone>503-222-9701</office_phone>
+<fax>503-227-5715</fax>
+<cell_phone>704-9254</cell_phone>
+<e-mail>nwirving@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

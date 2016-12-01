@@ -1,0 +1,51 @@
+<house_listing>
+<price>$110,000</price>
+<mls_id_number>91902</mls_id_number>
+<city>Lewiston</city>
+<st>ID</st>
+<bedrooms>2</bedrooms>
+<bathrooms>1.75</bathrooms>
+<sqft>1400</sqft>
+<year_built>1996</year_built>
+<heat>Gas Forced Air</heat>
+<ac>Central Air</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>Comp</roof>
+<garage>Attached two car</garage>
+<lot_size>0.00        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>No</fireplace>
+<taxes>$0</taxes>
+<floors>Carpet and vinyl</floors>
+<interior>Newer, spacious and open</interior>
+<exterior>Vinyl siding</exterior>
+<site>Central Orchards location</site>
+</amenities>
+<features><item>Large Open Rooms</item>
+<item>Built-in China Hutch</item>
+<item>Oak Cabinetry in Kitchen</item>
+<item>Covered Deck</item>
+<item>2 Car Garage</item>
+</features>
+<schools><elementary></elementary>
+<middle_school></middle_school>
+<high_school></high_school>
+</schools>
+<comments>Quality Neighborhood Condo.  Large open rooms in this like new 2 bedroom, 2 bath home. Includes a built-in china hutch, oak cabinetry in kitchen, and covered deck.  Relax and enjoy quality living without all the work.</comments>
+<for_more_information_contact>
+<agent_name>Elaine Goodner</agent_name>
+<firm_name>Windermere Real Estate/All Star Realty, L.L.C.</firm_name>
+<firm_location>137 Thain Road
+Lewiston, ID</firm_location>
+<office_phone>208-798-7777</office_phone>
+<fax>(208)798-1606</fax>
+<cell_phone>208-791-3082</cell_phone>
+<e-mail>egoodner@windermere.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

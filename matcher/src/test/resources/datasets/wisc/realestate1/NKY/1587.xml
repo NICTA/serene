@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>824 PINEHURST</house_location>
+<price>$129,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>Bi-Level</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin)</garage>
+<suburb>-</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246006</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>NICK BOSSE</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * REDUCED AGAIN!! OWNERS HEALTH REQUIRES QUICK SALE!
+EXCELLENT HOME ON QUIET CUL-DE-SAC * WELL MAINTAINED * 3 BEDROOM, 2
+BATHS &amp; 1 CAR GARAGE * MOVE IN CONDITION * CALL NICK BOSSE 525-5730</house_description>
+<construction>Brick,Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>U</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>L</level></bath_2>
+<bedroom_2><dimension>13 X 10</dimension><level>U</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>U</level></bedroom_3>
+<dining><dimension>14 X 13</dimension><level>U</level></dining>
+<family><dimension>23 X 14</dimension><level>L</level></family>
+<kitchen><dimension>13 X 8</dimension><level>U</level></kitchen>
+<laundry><dimension>17 X 12</dimension><level>L</level></laundry>
+<living><dimension>14 X 13</dimension><level>U</level></living>
+<master><dimension>15 X 11</dimension><level>U</level></master>
+
+<directions>DUDLEY TO R ON WINDING TRAILS TO L ON PINEHURST
+- HOUSE ON LEFT</directions>
+</house_listing>
+
+
+

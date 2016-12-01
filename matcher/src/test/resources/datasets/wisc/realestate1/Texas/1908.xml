@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Lloyd Barnes</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)558-1417</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19330</id>
+<mls>6063</mls>
+<house_location>Rt. 1 BOX 189-B
+Luling, TEXAS 78648</house_location>
+<county>Gonzales</county>
+<price>$309,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>2,000 SQ FT commercial bldg., tiled showroom, 5 ton heat pump,  andwork area.  Also:  imp. pasture, stocked pond, covered hay storage, pens, and large oaks. Great set-up on IH 10 access Rd.</house_description>
+
+<move-in_date>9/20/99</move-in_date>
+<school_district>Luling I.s.d.</school_district>
+<approx_size_sqft>1622</approx_size_sqft>
+<approx_acres>72.5</approx_acres>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

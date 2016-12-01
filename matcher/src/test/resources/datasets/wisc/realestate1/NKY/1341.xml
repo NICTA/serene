@@ -1,0 +1,51 @@
+<house_listing>
+<house_location>752 LONE OAK</house_location>
+<price>$149,000</price>
+<rooms>8</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249618</mls>
+<house_type>Single Family</house_type>
+<firm>D G SCHELL &amp; ASSOCIATES</firm>
+<firm_phone>(606) 331-4888</firm_phone>
+<agent>DARREL SCHELL JR</agent>
+<agent_phone>(606) 331-4888</agent_phone>
+<house_description>2 STORY WITH ALL THE UPGRADES. VAULTED ENTRY, PLANT LEDGES, TRAY
+CEILINGS I N DR, CATH CEILINGS IN MASTER, ATTACHED MASTER BATH W/ WALK
+IN, WALKOUT BAS EMENT, NICE LOT ON ESTABLISHED STREET. COMPARE &amp; SEE
+THE VALUE IN THIS HOME</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$999</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>15 X 12</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 13</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>11 X 10</dimension><level>2</level></bedroom_4>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<family><dimension>18 X 13</dimension><level>1</level></family>
+<kitchen><dimension>19 X 16</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>1</level></laundry>
+<master><dimension>18 X 17</dimension><level>2</level></master>
+<study><dimension>13 X 12</dimension><level>1</level></study>
+
+<directions>TAYLOR MILL RD (RT 16) SOUTH TO RIGHT ON LONE
+OAK. HOUSE AT END OF STREET ON RIGHT</directions>
+</house_listing>
+
+
+

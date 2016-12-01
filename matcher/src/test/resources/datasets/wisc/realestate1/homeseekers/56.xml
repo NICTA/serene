@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>Beautiful 2 level condo with close access to shopping, schools,
+beaches,and military bases.</house_description>
+
+<agent_name>Renee Wert</agent_name>
+<direct>438-9378</direct>
+<office>757-499-9191</office>
+<firm_name>Rose &amp; Womble Realty Company</firm_name>
+<phone>757-499-9191</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$95,900</list_price>
+<location>Virginia Beach, VA 23454</location>
+<mls>9934038</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2(full) 1(half)</baths>
+<type>Townhouse/Condo</type>
+<style>Hi Rise</style>
+<square_feet>1240 (approx)</square_feet>
+<year_built>1998</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<location>Pond front, Cul-de-sac</location>
+<rooms>Master Bedroom</rooms>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Attic, Cable TV, Ceiling Fan(s), Club House, Fenced, Pantry, Walk-InCloset(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

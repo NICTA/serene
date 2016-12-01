@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>Century 21 Shirley Hooks, Inc.</name>
+<location>201 E. Bridge Granbury, TX 76048</location>
+<office>(817)573-8801</office>
+<toll_free></toll_free>
+<fax>(817)279-7473</fax>
+<email>c21shooks@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Rick Townsend</name>
+<office>(817)279-7653</office>
+<fax>(817)279-7473</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20710</id>
+<mls>9122482</mls>
+<house_location>1809 Pioneer Road (AD # 154)
+Granbury, TEXAS 76048</house_location>
+<county>Hood</county>
+<price>$29,900</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Good starter home close to downtown.  Replaced plumbing 2 years ago.  Nice subdivision.</house_description>
+
+<school_district>Granbury</school_district>
+<sub-division>Western Hills Harbor</sub-division>
+<approx_size_sqft>682</approx_size_sqft>
+<stories>1</stories>
+<year_built>1986</year_built>
+<master_bedroom>N/A</master_bedroom>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Good Starter Home</item>
+<item>Nice Subdivision</item>
+<item>Close to Downtown</item>
+<item>Ad # 154</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

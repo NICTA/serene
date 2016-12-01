@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This condominium built in 1982 has 1 bedroom(s), 1 bath(s) and
+approximately 770 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Margarita Cogorno</agent_name>
+<direct>305-391-0374</direct>
+<office>534-1999</office>
+<firm_name>Majestic Propertie
+Lic. Real Estate Broker</firm_name>
+<phone>534-1999</phone>
+<fax>305-534-9088</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$52,000</list_price>
+<location>8005 Lake Dr #301</location>
+<neighborhood>Sandoral Condo Ph I</neighborhood>
+<mls>M747419</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<type>Condominium</type>
+<square_feet>770 (approx)</square_feet>
+<year_built>1982</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Smoke Detector
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

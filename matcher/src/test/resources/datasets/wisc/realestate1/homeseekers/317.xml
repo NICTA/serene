@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1967 has 3 bedroom(s), 3 bath(s) and
+approximately 3149 square feet of living area.</house_description>
+
+<agent_name>David E. Zimmerman</agent_name>
+<direct>303-409-6320</direct>
+<office>303-409-1300</office>
+<firm_name>Coldwellbanker Moore</firm_name>
+<phone>303-409-1300</phone>
+<fax>303-409-6113</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$750,000</list_price>
+<location>740 Pearl St</location>
+<neighborhood>Speer N, Governors Park</neighborhood>
+<mls>363306</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>3</baths>
+<type>Single Family</type>
+<square_feet>3149 (approx)</square_feet>
+<year_built>1967</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

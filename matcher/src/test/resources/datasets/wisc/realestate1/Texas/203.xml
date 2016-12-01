@@ -1,0 +1,51 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Jim Duncan, Inc.</name>
+<location>1836 Santa Fe Drive Weatherford, TX 76086</location>
+<office>(817)596-9446</office>
+<toll_free>(800)942-4414</toll_free>
+<fax>(817)596-9449</fax>
+<email>c21jduncan@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Penny Warren</name>
+<office>(817)596-9446</office>
+<fax>(817)596-9449</fax>
+<mobile>(817)597-6458</mobile>
+<email>pwarren@century21jduncan.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17839</id>
+<mls>9084987</mls>
+<house_location>5447 Zion Hill Road
+Peaster, TEXAS 76485</house_location>
+<county>Parker</county>
+<price>$134,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<house_description>LOOKING FOR A HOME IN THE COUNTRY WHERE YOU CAN HAVE SOME PEACE AND QUIET?  LOOK NO MORE!  COME SEE THIS 13 ACRES OF TREES AND ROLLING HILLS WITH THE HOUSE NESTLED BACK IN THE PINES.  HUGH COVERED PORCHES AND LOTS OF WINDOWS TO LOOK OUT!  FENCED AND READY FOR YOUR HORSES AND CHILDREN!</house_description>
+
+<school_district>Peaster</school_district>
+<approx_size_sqft>1800</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>13</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<electricity>Yes</electricity>
+<well>Yes</well>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

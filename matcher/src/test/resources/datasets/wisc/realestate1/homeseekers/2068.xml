@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This single family home built in 1942 has 4 bedroom(s), 4 full
+bath(s)/1 half bath(s) , 1 car attached garage and approximately 2795
+square feet of living area. Rooms include den, dining room, master
+bedroom. Features include view, fireplace, air conditioning.</house_description>
+
+<agent_name>Marlyn Liff</agent_name>
+<direct>899-0213</direct>
+<office>305-532-4500</office>
+<firm_name>Iramco, Inc.
+Lic. Real Estate Broker</firm_name>
+<phone>305-532-4500</phone>
+<fax>305-538-0169</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$490,000</list_price>
+<location>7801 Collins Av</location>
+<neighborhood>Altos Del Mar No 1</neighborhood>
+<mls>M772781</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>4(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>2795 (approx)</square_feet>
+<lot_size>X</lot_size>
+<year_built>1942</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<fireplace>Yes</fireplace>
+<patio>Open Porch</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Ocean View</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Johnston Company</name>
+<location>1022 E. Harrison Harlingen, TX 78550</location>
+<office>(956)425-3333</office>
+<toll_free>(800)300-8763</toll_free>
+<fax>(956)425-3483</fax>
+<email>ddelbosque@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Arnold Celis III</name>
+<office>(800)300-8763</office>
+<fax>(956)425-3483</fax>
+<voice_mail>(956)425-3333</voice_mail>
+<mobile>(956)412-6279</mobile>
+<email>celis3@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>18902</id>
+<mls>14773</mls>
+<house_location>2034 Whitetail
+Harlingen, TEXAS</house_location>
+<county>Cameron</county>
+<price>$64,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Beautiful Garden Home in Treasure Hills.  Very close to elementary school &amp; hospital.  New roof, new paint (interior &amp; exteriror), new wallpaper, new bathroom &amp; kitchen faucets. Ceiling fans. Refrigerator &amp; stove stay with house. Vertical blinds on living room window, and mini-blinds or shade on other windows.  Floodlights for backyard.And... backyard has been &amp;quot;pet-proofed&amp;quot;.</house_description>
+
+<school_district>Treasure Hills</school_district>
+<sub-division>Foxrun</sub-division>
+<approx_size_sqft>1034</approx_size_sqft>
+<stories>1</stories>
+<year_built>1982</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Mint condition!</item>
+<item>Recognized top schools!</item>
+<item>Close to hospital</item>
+<item>Excellent price!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>Realty Executives</name>
+<location>1650 Hwy. 6 suite 190 Sugar Land, TX 77478</location>
+<office>(281)242-6500</office>
+<toll_free></toll_free>
+<fax>(281)242-6515</fax>
+<email>Pauline</email>
+</firm_information>
+
+<agent_information>
+<name>Farrar</name>
+<office>(281)242-6500</office>
+<fax>(281)242-6515</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>12359</id>
+<mls>147166</mls>
+<house_location>1102 Castle Hill
+Houston, TEXAS</house_location>
+<county>Harris</county>
+<price>$149,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Leaded glass entry, terrazo, block paneled-oak flooring, huge bedrooms, choice of carpet, double ovens, Micro Tiled kitchen- breakfast area, large patio with hot tub, fenced. AC and paint in 1998. Will consider lease-purchase! Call for more info.</house_description>
+
+<school_district>Houston ISD</school_district>
+<sub-division>Forest Cove</sub-division>
+<approx_size_sqft>2518</approx_size_sqft>
+<stories>1</stories>
+<year_built>1969</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<pool>Yes</pool>
+<hot_tub>Yes</hot_tub>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Area Pool</item>
+<item>Hot tub</item>
+<item>Terrazo</item>
+<item>Fireplace</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

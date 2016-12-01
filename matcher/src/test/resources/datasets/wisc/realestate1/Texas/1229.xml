@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Randy McDonald</name>
+<office>(512)303-3738</office>
+<fax>(512)303-6774</fax>
+<mobile>(512)699-4354</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19938</id>
+<mls>506237</mls>
+<house_location>107 S. BASTROP
+Paige, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$58,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>3/1 HOUSE WITH CARPORT. lARGE PECAN TREES/MANY OLDER OUT BUILDINGS.  HOUSE CAN BE COMMERCIAL USE.  24+ ACRES BEHIND ALSO FOR SALE BY SAME OWNER AND AGENT.  UPSTAIRS IS FINISHED OFF WITH STAIRS SO ANOTHER 900+/- SQ. FT.</house_description>
+
+<school_district>Bastrop Isd</school_district>
+<sub-division>Paige</sub-division>
+<approx_size_sqft>1208</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>2</approx_acres>
+<year_built>1924</year_built>
+<master_bedroom>N/A</master_bedroom>
+<carport_spaces>1</carport_spaces>
+<fire_places>1</fire_places>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>2 ACRES WITH LARGE PECAN TREES</item>
+<item>HOUSE CAN BE COMMERCIAL USE</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

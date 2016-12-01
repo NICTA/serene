@@ -1,0 +1,35 @@
+<house_listing>
+<house_description>This 2 level detached single family home has 5 bedroom(s), 4 bath(s)
+and approximately 2200 square feet of living area. Rooms include
+dining room. Features include view, fireplace.</house_description>
+
+<agent_name>Anthonie Atencio</agent_name>
+<direct>626-835-2148</direct>
+<office>626-331-4180</office>
+<firm_name>Mary Ann Zamel Realtor</firm_name>
+<phone>626-331-4180</phone>
+<fax>626-965-2250</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$239,000</list_price>
+<location>932 Lucile Av</location>
+<mls>C200371</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4</baths>
+<levels>2</levels>
+<type>Single Family</type>
+<square_feet>2200 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>Yes</fireplace>
+<pool>No</pool>
+<rooms>Dining Room</rooms>
+<view>Yes</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

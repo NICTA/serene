@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>318 TREVOR</house_location>
+<price>$29,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>COVINGTON</suburb>
+<school_dist>KENTON</school_dist>
+<mls>246276</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GARNER PROPERTIES</firm>
+<firm_phone>(606) 363-9900</firm_phone>
+<agent>CHERYL A WATSON</agent>
+<agent_phone>(606) 363-9900</agent_phone>
+<house_description>BRICK 2 STORY WITH LARGE ROOMS AND BEAUTIFUL WOOD FLOORS. 10 FT.
+CEILINGS AND NICE WOOD MANTELS.</house_description>
+<construction>Brick</construction>
+<heating>Gas</heating>
+<cooling>None</cooling>
+<fireplace>Dummy,Inoperable</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>25x89</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$***</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bedroom_2><dimension>14 X 14</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 13</dimension><level>2</level></bedroom_3>
+<dining><dimension>15 X 14</dimension><level>1</level></dining>
+<kitchen><dimension>12 X 15</dimension><level>1</level></kitchen>
+<living><dimension>14 X 14</dimension><level>1</level></living>
+<master><dimension>15 X 15</dimension><level>2</level></master>
+
+<directions>NORTH ON GREENUP TO LEFT ON TREVOR</directions>
+</house_listing>
+
+
+

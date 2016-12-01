@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1971 has 3 bedroom(s), 2
+bath(s) and approximately 1403 square feet of living area. Rooms
+include den, bonus room, master bedroom. Features include view,
+private pool, patio, fireplace.</house_description>
+
+<agent_name>Bonnie Sliva</agent_name>
+<direct>520-721-5788</direct>
+<office>520-747-1132</office>
+<firm_name>First Arizona Realty, Inc.</firm_name>
+<phone>520-747-1132</phone>
+<fax>520-747-1031</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$88,900</list_price>
+<location>6649 E 38Th St</location>
+<mls>9918677</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>1403 (approx)</square_feet>
+<year_built>1971</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Living Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Den, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

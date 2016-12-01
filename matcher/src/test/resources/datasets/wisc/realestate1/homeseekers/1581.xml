@@ -1,0 +1,40 @@
+<house_listing>
+<house_description>This 3+ level detached single family home built in 1937 has 5
+bedroom(s), 4 full bath(s)/1 half bath(s) , 2 car garage. Rooms
+include den, dining room, master bedroom. Features include patio,
+fireplace, air conditioning.</house_description>
+
+<agent_name>Ginny Chew</agent_name>
+<direct>202-363-7898</direct>
+<office>202-362-1600</office>
+<firm_name>Arnold, Bradley, Sargent, Davy &amp; Ch</firm_name>
+<phone>202-362-1600</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$985,000</list_price>
+<location>Washington, DC 20016</location>
+<mls>DC3039541</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>4(full) 1(half)</baths>
+<levels>3 or more</levels>
+<garage>2</garage>
+<type>Single Family</type>
+<lot_size>12320</lot_size>
+<year_built>1937</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Yes</fireplace>
+<patio>Yes</patio>
+<pool>No</pool>
+<rooms>Den, Dining Room, Master Bedroom</rooms>
+<spa>No</spa>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

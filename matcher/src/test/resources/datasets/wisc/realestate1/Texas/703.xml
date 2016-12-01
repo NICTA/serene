@@ -1,0 +1,57 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Syble Pannell</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>20332</id>
+<mls>9117299</mls>
+<house_location>203A Bar Harbor
+Runaway Bay, TEXAS 76426</house_location>
+<county>Wise</county>
+<price>$64,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Relaxed living with breathtaking view of Lake Bridgeport. Remodeled in 1995. Immaculate condition. Upstairs unit.</house_description>
+
+<school_district>Bridgeport</school_district>
+<sub-division>Runaway Bay</sub-division>
+<approx_size_sqft>1076</approx_size_sqft>
+<stories>2</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<waterfront>Yes</waterfront>
+
+<highlights>
+<item>Lakefront</item>
+<item>Remodeled in 1995</item>
+<item>Appliances Stay including w/d</item>
+<item>Window Seats</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

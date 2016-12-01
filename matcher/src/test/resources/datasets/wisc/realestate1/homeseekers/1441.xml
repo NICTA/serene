@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1953 has 3 bedroom(s), 2 bath(s) and
+approximately 2920 square feet of living area.</house_description>
+
+<agent_name>Ryan C. Shih</agent_name>
+<direct>303-668-6785</direct>
+<office>303-850-7700</office>
+<firm_name>Realty Executives Of</firm_name>
+<phone>303-850-7700</phone>
+<fax>303-691-1719</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$358,700</list_price>
+<location>117 N Hudson St</location>
+<neighborhood>Hilltop</neighborhood>
+<mls>365237</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>2920 (approx)</square_feet>
+<year_built>1953</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

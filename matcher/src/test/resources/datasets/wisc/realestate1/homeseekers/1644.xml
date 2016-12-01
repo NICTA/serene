@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 2 level attached home built in 1969 has 2 bedroom(s), 1.5 bath(s)
+and approximately 976 square feet of living area. Rooms include dining
+room, living room, master bedroom. Features include private spa,
+patio.</house_description>
+
+<agent_name>Alan Krone</agent_name>
+<direct>619-226-7368</direct>
+<office>619-226-7368</office>
+<firm_name>Alan W Krone &amp; Co</firm_name>
+<phone>619-226-7368</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$124,900</list_price>
+<location>San Diego, CA 92107</location>
+<mls>99 6018267</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1.5</baths>
+<levels>2</levels>
+<type>Townhouse/Condo</type>
+<square_feet>976 (approx)</square_feet>
+<year_built>1969</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Yes</patio>
+<pool>Community Pool</pool>
+<rooms>Dining Room, Living Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Neighborhood Pool
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

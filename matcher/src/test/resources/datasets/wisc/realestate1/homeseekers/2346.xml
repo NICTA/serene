@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>Hud property</house_description>
+
+<agent_name>Anne Eubanks</agent_name>
+<office>757-481-7000</office>
+<firm_name>Gsh Real Estate</firm_name>
+<phone>757-481-7000</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$58,880</list_price>
+<location>Norfolk, VA 23505</location>
+<mls>9929879</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<style>Cape Cod</style>
+<square_feet>1199 (approx)</square_feet>
+<year_built>1942</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Natural Gas</heating>
+<fireplace>No</fireplace>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Capecod Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

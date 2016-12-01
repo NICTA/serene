@@ -1,0 +1,47 @@
+<house_listing>
+<house_location>61 EDWARDS</house_location>
+<price>$116,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Front)</garage>
+<suburb>FT. THOMAS</suburb>
+<school_dist>FT. THOMAS</school_dist>
+<mls>250160</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX RESULTS</firm>
+<firm_phone>(606) 824-9800</firm_phone>
+<agent>D KEN PERRY</agent>
+<agent_phone>(606) 824-9800</agent_phone>
+<house_description>CLOSE TO SCHOOLS! AMENITIES INCLUDE FINISHED LL, EAT- IN KITCHEN,
+HARDWOOD FLOORS, PRIVATE BACKYARD, 8X10 SHED, NEW ROOF '95, TILE BATH,
+NICE LANDSCAPING + MORE. FIREPLACE IN BASEMENT NEGOTIABLE. DIRECT TV
+DISH STAYS.</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Elec</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>46x168</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<family><dimension>22 X 13</dimension><level>L</level></family>
+<kitchen><dimension>16 X 8</dimension><level>1</level></kitchen>
+<living><dimension>17 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+<study><dimension>12 X 9</dimension><level>L</level></study>
+
+<directions>I-475 EXIT GRAND AVE S, L HIGHLAND AVE. L
+EDWARDS</directions>
+</house_listing>
+
+
+

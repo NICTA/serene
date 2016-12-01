@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>1089 ASHWOOD</house_location>
+<price>$179,900</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-2</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Side,Heated)</garage>
+<suburb>MAYSVILLE</suburb>
+<school_dist>MASON</school_dist>
+<mls>241350</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY CLINE REALTORS, INC.</firm>
+<firm_phone>(606) 564-7653</firm_phone>
+<agent>MARTHA KERN</agent>
+<agent_phone>(606) 564-7653</agent_phone>
+<house_description>PROF. LANDSCAPED. OPEN FLOOR PLAN- GOOD FLO WITH NEWER APPLIANCES IN
+KIT. EX. STOVE WELL MAINTAINED- GREAT NEIGHBORHOOD AND WOODED LOT.
+BLK/WHT FLOOR TILE IN KIT., FM. ROOM. NICE LIGHTING FIXTURES. NEWER
+BLACKTOP DRIVEWAY.</house_description>
+<construction>Brick,Wood</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Central Air,Window Unit</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>unk</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$UNK</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>2</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>PART</dimension><level>1</level></bath_3>
+<bath_4><dimension>PART</dimension><level>B</level></bath_4>
+<bedroom_2><dimension>10 X 11</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>9 X 12</dimension><level></level></bedroom_3>
+<dining><dimension>12 X 13</dimension><level>1</level></dining>
+<family><dimension>10 X 10</dimension><level>1</level></family>
+<kitchen><dimension>10 X 19</dimension><level>1</level></kitchen>
+<living><dimension>11 X 20</dimension><level>1</level></living>
+<master><dimension>12 X 18</dimension><level>2</level></master>
+
+<directions>AA TO 3071 TO R 3056 TO L ASHWOOD. 4TH HOUSE ON
+THE LEFT.</directions>
+</house_listing>
+
+
+

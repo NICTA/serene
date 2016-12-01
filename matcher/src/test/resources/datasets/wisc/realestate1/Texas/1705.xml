@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Southside</name>
+<location>6262 Weber Rd., Suite 201 Corpus Christi, TX 78413</location>
+<office>(361)853-2121</office>
+<toll_free>(800)255-7791</toll_free>
+<fax>(361)853-9095</fax>
+<email>eddprice@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Tomie Cardenas</name>
+<office>(361)853-2121</office>
+<fax>(361)853-9095</fax>
+<voice_mail>(361)985-7676</voice_mail>
+<email>tomie jean@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20987</id>
+<mls>141400</mls>
+<house_location>1009 Vaky
+Corpus Christi, TEXAS 78404</house_location>
+<county>Nueces</county>
+<price>$72,500</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Large lot with trees front and back, covered detached patio, very nice large breakfast and family room, storm shutters, 2 car garage with workshop area, hardwood floors, 2 full baths.</house_description>
+
+<school_district>Ccisd</school_district>
+<approx_size_sqft>1363</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>65x130</approx_lot_size>
+<year_built>1950</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Interior lot</item>
+<item>Large tree filled lot</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

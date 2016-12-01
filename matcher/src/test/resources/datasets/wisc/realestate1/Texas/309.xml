@@ -1,0 +1,53 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>bojac@mailexcite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Emma L Morin</name>
+<office>(512)595-7653</office>
+<fax>(512)592-9300</fax>
+<voice_mail>(512)516-3905</voice_mail>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>3220</id>
+<mls>05-211-97sh</mls>
+<house_location>Co Rd 2208 E
+Ricardo, TEXAS</house_location>
+<county>Kleberg</county>
+<price>$26,000</price>
+<bedrooms>1</bedrooms>
+<full_baths>1</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+</financing_options>
+
+<house_description>Little house on a fenced in acre. As per owner: Built in 1984 and a year later, back bedroom, full bath and back porch was added on.Directions: hwy 77 s to Ricardo, Turn Left on 772 east turn right on Co. Rd. 1065 S and right on Co Rd 2208 E. Property on right side of road.</house_description>
+
+<school_district>Ricardo</school_district>
+<sub-division>Piasano Addition</sub-division>
+<stories>1</stories>
+<approx_lot_size>1 acre</approx_lot_size>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+<item>GOOD FIRST TIME HOME BUYERS HOME</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

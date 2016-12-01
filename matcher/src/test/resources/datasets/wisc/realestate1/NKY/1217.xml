@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>201 N HWY.16</house_location>
+<price>$99,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>GLENCOE</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>248409</mls>
+<house_type>Single Family</house_type>
+<firm>TRIMAX REAL ESTATE</firm>
+<firm_phone>(606) 643-3242</firm_phone>
+<agent>LINDA MAXWELL</agent>
+<agent_phone>(606) 643-3242</agent_phone>
+<house_description>3 OR 4 BR 1 1/2 BA ENOUGH RM TO HAVE FAMILY RM, DINING RM...LG. EAT IN
+COUNTRY KITCHEN, FULL BSMT. APPROX 2MI TO 171 S 20 MIN TO FLORENCE,,
+1+ ACRE WOODED,,,CW NEWER FURNACE C/A PRIVATE SETTING...</house_description>
+<construction>Brick</construction>
+<heating>Electric,Forced Air,Radiant</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural,At Street</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irreg</lot_dimensions>
+<condo_level>0</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bedroom_2><dimension>12</dimension><level></level></bedroom_2>
+<bedroom_3><dimension>10 X 13</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>9 X 10</dimension><level>1</level></bedroom_4>
+<kitchen><dimension>13 X 21</dimension><level>1</level></kitchen>
+<living><dimension>12 X 30</dimension><level>1</level></living>
+<master><dimension>13 X 18</dimension><level>1</level></master>
+
+<directions>I71S TO EX 62 L 1ST RD ON L TO END OF RD. L 1ST
+HOUSE ON RT</directions>
+</house_listing>
+
+
+

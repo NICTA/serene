@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1995 has 4 bedroom(s), 3
+bath(s) and approximately 3000 square feet of living area. Rooms
+include dining room, bonus room, master bedroom. Features include
+view, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Gloria Morales</agent_name>
+<direct>520-544-4769</direct>
+<office>520-881-8110</office>
+<firm_name>Century 21 Heritage Realty Century 21 Heritage Realty</firm_name>
+<phone>520-881-8110</phone>
+<fax>520-881-8113</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$270,500</list_price>
+<location>14400 W Black Sheep Ln</location>
+<mls>9914385</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>3</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>3000 (approx)</square_feet>
+<year_built>1995</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Heat Pump</heating>
+<fireplace>Living Room</fireplace>
+<patio>Screened-in</patio>
+<pool>No</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Guest House
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

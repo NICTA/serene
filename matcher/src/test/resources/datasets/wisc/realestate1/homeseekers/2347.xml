@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>New home in valley farm. A trad neighborhood dev. High quality const,
+dbl pches, high ceilings, exquisite detail, pine floors, sidewalks,
+pool, clubhouse. Numerous plans, prices available</house_description>
+
+<agent_name>Roxanne Jones</agent_name>
+<direct>706-342-3317</direct>
+<office>706-342-3207</office>
+<firm_name>Baldwin Realty Inc.</firm_name>
+<phone>706-342-3207</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$325,000</list_price>
+<location>Madison, GA 30650</location>
+<neighborhood>Valley Farm</neighborhood>
+<mls>837977</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2(full) 1(half)</baths>
+<levels>2</levels>
+<garage></garage>
+<type>Single Family</type>
+<style>Traditional</style>
+<lot_size>75 X 127</lot_size>
+<year_built>1999</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Electric, Heat Pump, Zoned</cooling>
+<heating>Central, Electric, Heat Pump, Zoned</heating>
+<fireplace>Family Room, Great Room</fireplace>
+<patio>No</patio>
+<rooms>Dining Room, Family Room, Living Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Breakfast Room, Cable TV, Carpet, Club House, Dishwasher, Foyer,Garage Door Opener, Hardwood Flooring, High Ceilings, Kitchen Island,Microwave, Traditional Style
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

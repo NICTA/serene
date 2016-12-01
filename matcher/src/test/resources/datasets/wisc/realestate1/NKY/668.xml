@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>1014 JOHN ST.</house_location>
+<price>$56,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>0</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>248819</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>JAN HOUSTON</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>VIEW OF RIVER &amp; CITY. PERFECT 1ST TIME BUYERS. RENOVATED W/GREAT
+COLOR. GOOD STARTER. PRIVATE</house_description>
+<construction>Wood,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>30 X 136</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>13 X 11</dimension><level>L</level></bedroom_2>
+<bedroom_3><dimension>14 X 13</dimension><level>L</level></bedroom_3>
+<bedroom_4><dimension>12 X 8</dimension><level>L</level></bedroom_4>
+<dining><dimension>14 X 8</dimension><level>1</level></dining>
+<kitchen><dimension>13 X 8</dimension><level>1</level></kitchen>
+<living><dimension>14 X 10</dimension><level>1</level></living>
+<master><dimension>15 X 14</dimension><level>1</level></master>
+
+<directions>HWY 8 L ON ALTAMONT TO L ON JOHN - HOUSE ON LEFT</directions>
+</house_listing>
+
+
+

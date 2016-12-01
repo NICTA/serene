@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This single family home built in 1990 has 6 bedroom(s), 6 full
+bath(s)/1 half bath(s) , 2 car attached garage and approximately 4782
+square feet of living area. Rooms include dining room, family room.
+Features include view, private pool, air conditioning, french doors.</house_description>
+
+<agent_name>Carlos M Justo</agent_name>
+<direct>305-858-5110</direct>
+<office>305-672-6300</office>
+<firm_name>Wimbish-Riteway Re
+Lic. Real Estate Broker</firm_name>
+<phone>305-672-6300</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$1,980,000</list_price>
+<location>2108 N Bay Rd</location>
+<neighborhood>Sunset Lake Amd</neighborhood>
+<mls>M702737</mls>
+<status>Active</status>
+<bedrooms>6</bedrooms>
+<baths>6(full) 1(half)</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>4782 (approx)</square_feet>
+<lot_size>100X200</lot_size>
+<year_built>1990</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Window/Wall Unit(s)</cooling>
+<heating>Central, Zoned</heating>
+<location>Bay front, Water front</location>
+<pool>Yes</pool>
+<rooms>Dining Room, Family Room</rooms>
+<spa>No</spa>
+<view>Water View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Foyer, French Doors, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

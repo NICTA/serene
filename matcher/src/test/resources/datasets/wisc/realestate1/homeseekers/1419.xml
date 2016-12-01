@@ -1,0 +1,39 @@
+<house_listing>
+<house_description>This single family home built in 1996 has 3 bedroom(s), 2 bath(s) , 2
+car garage. Rooms include family room, master bedroom. Features
+include view, patio.</house_description>
+
+<agent_name>Penny Barnes</agent_name>
+<office>602-841-4671</office>
+<firm_name>Nu-Way Realty</firm_name>
+<phone>602-841-4671</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$114,900</list_price>
+<location>Phoenix, AZ 85029</location>
+<mls>1454783</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<garage>2</garage>
+<type>Single Family</type>
+<year_built>1996</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric</heating>
+<patio>Covered</patio>
+<pool>No</pool>
+<rooms>Family Room, Master Bedroom</rooms>
+<spa>No</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cable TV, Cathedral/Vaulted Ceilings, Ceiling Fan(s), Dishwasher, EatIn Kitchen, Microwave
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

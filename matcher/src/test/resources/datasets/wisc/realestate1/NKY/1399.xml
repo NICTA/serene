@@ -1,0 +1,50 @@
+<house_listing>
+<house_location>1025 BRACHT PINER</house_location>
+<price>$139,900</price>
+<rooms>11</rooms>
+<bedrooms>4</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front,Oversized)</garage>
+<suburb>MORNINGVIEW</suburb>
+<school_dist>KENTON</school_dist>
+<mls>247180</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 525-8888</firm_phone>
+<agent>SUSAN FRIEDMAN</agent>
+<agent_phone>(606) 525-8888</agent_phone>
+<house_description>INT PHOTOS WWW.SIBCYCLINE.COM*BRICK RANCH W/GENEROUS LIVING SPACE*LG
+EAT-IN KIT*GR RM*LIV RM COULD BE USED FOR FORMAL DR*MORE FIN SPACE IN
+LL*1ST FLOOR STOVE WILL BE REPLACED W/LL STOVE*CAB ABOVE REFRIG WILL
+BE REINSTALLED</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>100x196</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$.</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>13 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<bedroom_4><dimension>15 X 12</dimension><level>L</level></bedroom_4>
+<dining><dimension>13 X 18</dimension><level>1</level></dining>
+<family><dimension>23 X 12</dimension><level>1</level></family>
+<kitchen><dimension>12 X 17</dimension><level>1</level></kitchen>
+<master><dimension>11 X 12</dimension><level>1</level></master>
+<study><dimension>13 X 12</dimension><level>L</level></study>
+
+<directions>S75 L OFF WALTON-VERONA EXIT R ON US 25 L ON RT
+14 (BRACHT PINER RD)</directions>
+</house_listing>
+
+
+

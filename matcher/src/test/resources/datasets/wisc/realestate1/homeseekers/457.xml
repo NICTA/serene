@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1953 has 3 bedroom(s), 1 bath(s) , 1
+car attached garage and approximately 1231 square feet of living area.
+Rooms include family room. Features include air conditioning.</house_description>
+
+<agent_name>Claudio Malvino</agent_name>
+<direct>305-680-5050</direct>
+<office>305-275-5670</office>
+<firm_name>Riviera Rlty Assoc
+Lic. Real Estate Broker</firm_name>
+<phone>305-275-5670</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>300 NW 140 St</location>
+<neighborhood>Mc Kinley Hgts</neighborhood>
+<mls>D877195</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<garage></garage>
+<type>Single Family</type>
+<square_feet>1231 (approx)</square_feet>
+<lot_size>97X87</lot_size>
+<year_built>1953</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Electric</heating>
+<pool>No</pool>
+<rooms>Family Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Outdoor Lights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

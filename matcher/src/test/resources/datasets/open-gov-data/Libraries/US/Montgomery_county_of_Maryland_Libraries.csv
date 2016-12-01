@@ -1,0 +1,76 @@
+NAME,ADDRESS,CITY,ZIPCODE,PHONE,URL,DATA,Longitude,Latitude,Location
+Damascus ,9701 Main St,Damascus,20872,240-773-9444,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/dm.asp,,-77.200574,39.287805,"9701 Main St
+Damascus, MD 20872
+(39.287805, -77.200574)"
+Gaithersburg,18330 Montgomery Village Ave,Gaithersburg,20879,240-773-9490,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/gb.asp,Closed for Renovation,-77.205394,39.158094,"18330 Montgomery Village Ave
+Gaithersburg, MD 20879
+(39.158094, -77.205394)"
+Aspen Hill ,4407 Aspen Hill Rd,Rockville,20853,240-773-9410,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/ah.asp,,-77.088741,39.079647,"4407 Aspen Hill Rd
+Rockville, MD 20853
+(39.079647, -77.088741)"
+Kensington Park ,4201 Knowles Ave,Kensington,20895,240-773-9515,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/kp.asp,,-77.081305,39.029063,"4201 Knowles Ave
+Kensington, MD 20895
+(39.029063, -77.081305)"
+Noyes,10237 Carroll Pl,Kensington,20895,240-773-9570,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/no.asp,,-77.072987,39.024584,"10237 Carroll Pl
+Kensington, MD 20895
+(39.024584, -77.072987)"
+Davis,6400 Democracy Blv,Bethesda,20817,240-777-0922,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/dv.asp,,-77.128807,39.022983,"6400 Democracy Blv
+Bethesda, MD 20817
+(39.022983, -77.128807)"
+Potomac ,10101 Glenolden Dr,Potomac,20854,240-777-0690,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/pt.asp,,-77.207884,39.01935,"10101 Glenolden Dr
+Potomac, MD 20854
+(39.01935, -77.207884)"
+Long Branch ,8800 Garland Ave,Silver Spring,20901,240-777-0910,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/lb.asp,,-77.001163,39.000773,"8800 Garland Ave
+Silver Spring, MD 20901
+(39.000773, -77.001163)"
+Little Falls ,5501 Massachusetts Ave,Bethesda,20816,240-773-9520,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/lf.asp,,-77.110154,38.958897,"5501 Massachusetts Ave
+Bethesda, MD 20816
+(38.958897, -77.110154)"
+Bethesda  ,7400 Arlington Rd,Bethesda,20814,240-777-0970,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/be.asp,,-77.098921,38.983405,"7400 Arlington Rd
+Bethesda, MD 20814
+(38.983405, -77.098921)"
+Silver Spring,8901 Colesville Rd,Silver Spring,20910,240-773-9420,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/ss.asp,,-77.02494,39.000141,"8901 Colesville Rd
+Silver Spring, MD 20910
+(39.000141, -77.02494)"
+Wheaton  ,11701 Georgia Ave,Wheaton,20902,240-777-0678,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/wh.asp,,-77.05132,39.047659,"11701 Georgia Ave
+Wheaton, MD 20902
+(39.047659, -77.05132)"
+Marilyn J Praisner ,14910 Old Columbia Pik,Burtonsville,20866,240-773-9460,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/mp.asp,,-76.940789,39.102208,"14910 Old Columbia Pik
+Burtonsville, MD 20866
+(39.102208, -76.940789)"
+Olney ,3500 Olney Laytonsville Rd,Olney,20832,240-773-9545,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/ol.asp,Closed for Renovation,-77.06909,39.153617,"3500 Olney Laytonsville Rd
+Olney, MD 20832
+(39.153617, -77.06909)"
+Twinbrook ,202 Meadow Hall Dr,Rockville,20851,240-777-0240,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/tw.asp,,-77.113422,39.075094,"202 Meadow Hall Dr
+Rockville, MD 20851
+(39.075094, -77.113422)"
+Quince Orchard ,15831 Quince Orchard Rd,Gaithersburg,20878,240-777-0200,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/qo.asp,,-77.252304,39.116025,"15831 Quince Orchard Rd
+Gaithersburg, MD 20878
+(39.116025, -77.252304)"
+Correctional Facility,22880 Whelan La,Boyds,20841,240-773-9914,http://www.montgomerycountymd.gov/libtmpl.asp?url=/content/libraries/BranchInfo/de.asp,,-77.293131,39.237974,"22880 Whelan La
+Boyds, MD 20841
+(39.237974, -77.293131)"
+Germantown ,19840 Century Blv,Germantown,20874,240-777-0110,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/gt.asp,,-77.266159,39.182042,"19840 Century Blv
+Germantown, MD 20874
+(39.182042, -77.266159)"
+Poolesville ,19633 Fisher Ave,Poolesville,20837,240-773-9550,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/po.asp,,-77.410251,39.14512,"19633 Fisher Ave
+Poolesville, MD 20837
+(39.14512, -77.410251)"
+White Oak ,11701 New Hampshire Ave,Silver Spring,20904,240-773-9555,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/wo.asp,,-76.992066,39.048045,"11701 New Hampshire Ave
+Silver Spring, MD 20904
+(39.048045, -76.992066)"
+Chevy Chase ,8005 Connecticut Ave,Chevy Chase,20815,240-773-9590,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/cc.asp,,-77.076633,38.991083,"8005 Connecticut Ave
+Chevy Chase, MD 20815
+(38.991083, -77.076633)"
+Rockville Memorial,21 Maryland Ave,Rockville,20850,240-777-0140,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/ro.asp,,-77.151468,39.086649,"21 Maryland Ave
+Rockville, MD 20850
+(39.086649, -77.151468)"
+Gaithersburg (Interim),701 Russell Ave,Gaithersburg,20877,240-773-9490,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/gb.asp,,-77.203793,39.152838,"701 Russell Ave
+Gaithersburg, MD 20877
+(39.152838, -77.203793)"
+Silver Spring (Future),900 Wayne Ave,Silver Spring,20910,240-773-9420,http://www.montgomerycountymd.gov/Apps/Libraries/branchinfo/ss.asp,Under Construction,-77.024399,38.994905,"900 Wayne Ave
+Silver Spring, MD 20910
+(38.994905, -77.024399)"
+Clarksburg (Proposed),Clarksburg Square Rd,Clarksburg,20871,,,Proposed,-77.277321,39.241354,"Clarksburg Square Rd
+Clarksburg, MD 20871
+(39.241354, -77.277321)"

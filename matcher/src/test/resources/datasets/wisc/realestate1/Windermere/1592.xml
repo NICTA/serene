@@ -1,0 +1,34 @@
+<house_listing>
+<price>$129,999</price>
+<mls_id_number>149471</mls_id_number>
+<city>PORTLAND</city>
+<st>OR</st>
+<bedrooms>5</bedrooms>
+<bathrooms>2.00</bathrooms>
+<sqft>1648</sqft>
+<year_built>1896</year_built>
+<heat>Gas Forced Air</heat>
+<ac>yes</ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof>COMP</roof>
+<garage>Parking for 0 Car(s)</garage>
+<lot_size>0.11        Acres</lot_size>
+<lot_description></lot_description>
+<fireplace>0</fireplace>
+<taxes>$1,335</taxes>
+<floors>Wall to Wall Carpet,</floors>
+<interior>Not Listed</interior>
+<exterior>Deck, Porch, Tool Sheed,</exterior>
+<site>Water: PUBLIC Sewer: PUBLIC</site>
+</amenities>
+<schools><elementary>CLARK</elementary>
+<middle_school>BINNSMEAD</middle_school>
+<high_school>MARSHALL</high_school>
+</schools>
+
+</house_listing>
+
+
+

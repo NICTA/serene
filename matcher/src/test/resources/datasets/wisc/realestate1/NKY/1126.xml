@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>2625 FORDS MILL RD</house_location>
+<price>$175,900</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>4 Cars (Builtin,Detached)</garage>
+<suburb>-</suburb>
+<school_dist>GRANT</school_dist>
+<mls>250060</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>JAMES E ROBERTS</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>WWW.HUFF.COM * A RARE FIND IN THE COUNTRY * THIS 3YR OLD RANCH HAS 6+
+ACRES 3 STALL HORSE BARN * 2 CAR DETACHED GARAGE PLUS 2 CAR ATTACHED
+GARGAGE * PRIVATE REAR YARD * PLENTY OF WOODS * WATER ON PROPERTY</house_description>
+<construction>Vinyl,Stone</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Propane</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>-</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>24 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>16 X 12</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>13 X 11</dimension><level>1</level></breakfast>
+<kitchen><dimension>14 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>8 X 7</dimension><level>1</level></laundry>
+<living><dimension>27 X 15</dimension><level>1</level></living>
+<master><dimension>19 X 13</dimension><level>1</level></master>
+<study><dimension>10 X 8</dimension><level>1</level></study>
+
+<directions>I-75 TO DRY RIDGE R ON RT22 TO BLINKING CAUTION
+LIGHT R ON RT36 TO FORDS MILL RD</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_location>88 BRIDGE HEAVEN</house_location>
+<price>$12,600</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>PERRY PARK</suburb>
+<school_dist>OWEN</school_dist>
+<mls>247226</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 781-5100</firm_phone>
+<agent>LINDA LYONS</agent>
+<agent_phone>(606) 781-5100</agent_phone>
+<house_description>LIVE ON A GOLF COURSE OR HAVE SUMMER HOME BEAUTIFUL PERRY PARK COUNTRY
+CLUB YOU OWN THE LAND PAY ANNUAL FEE!</house_description>
+<construction>Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>40X80</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>8 X 7</dimension><level>1</level></bedroom_2>
+<kitchen><dimension>9 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 11</dimension><level>1</level></living>
+<master><dimension>9 X 10</dimension><level>1</level></master>
+
+<directions>71 S TO CAROLTON WORTHVILLE LEFT ON 227 R ON 355
+TO PERRY PRK CC TO SPRINGPORT FERR</directions>
+</house_listing>
+
+
+

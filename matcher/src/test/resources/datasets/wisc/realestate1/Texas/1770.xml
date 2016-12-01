@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Eleanor Tuttle</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)753-9080</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19340</id>
+<mls>6045</mls>
+<house_location>613 Stagecoach Trail
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$155,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Well maintained white rock and frame home on 1.5+ acres.  Open floor plan withowner suite on opposite side of living area from other bedroom.</house_description>
+
+<school_district>San Marcos Isd</school_district>
+<sub-division>Willow Creek</sub-division>
+<approx_size_sqft>1792</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>1.5 acres</approx_lot_size>
+<approx_acres>1.5</approx_acres>
+<year_built>1987</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<restrictions>Yes</restrictions>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

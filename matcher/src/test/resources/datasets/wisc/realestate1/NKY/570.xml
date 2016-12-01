@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>4618 DECOURSEY</house_location>
+<price>$69,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>None</basement>
+<garage>None</garage>
+<suburb>LATONIA</suburb>
+<school_dist>COVINGTON</school_dist>
+<mls>249483</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 GOLD SERVICES</firm>
+<firm_phone>(606) 344-9700</firm_phone>
+<agent>KENNETH A GRADEN</agent>
+<agent_phone>(606) 344-9700</agent_phone>
+<house_description>NEWER RANCH ON A TREED LOT FENCED BACKYARD GREAT STARTER HOME OR
+PERFECT FOR SOMEONE LOOKING FOR A HOME WITHOUT STEPS ON THE BUS ROUTE
+AND CLOSE TO SHOPPING</house_description>
+<construction>Alum</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>At Street</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>10 X 9</dimension><level>1</level></bedroom_2>
+<dining><dimension>10 X 7</dimension><level>1</level></dining>
+<kitchen><dimension>8 X 6</dimension><level>1</level></kitchen>
+<living><dimension>12 X 15</dimension><level>1</level></living>
+<master><dimension>15 X 10</dimension><level>1</level></master>
+
+<directions>I-275 EXIT NORTH ON TAYLOR MILL RD RIGHT ON 42ND
+ST. RIGHT ON DECOURSEY</directions>
+</house_listing>
+
+
+

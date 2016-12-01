@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1895 has 2 bedroom(s), 1 bath(s) and
+approximately 770 square feet of living area.</house_description>
+
+<agent_name>Rick Mckee</agent_name>
+<direct>303-759-6647</direct>
+<office>303-757-7474</office>
+<firm_name>RE/MAX Central</firm_name>
+<phone>303-757-7474</phone>
+<fax>303-691-3387</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$124,900</list_price>
+<location>3834 N Julian St</location>
+<neighborhood>Berkeley</neighborhood>
+<mls>382089</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>770 (approx)</square_feet>
+<year_built>1895</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

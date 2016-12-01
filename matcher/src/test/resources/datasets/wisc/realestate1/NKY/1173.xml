@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>3789 SHERMAN NEWTON</house_location>
+<price>$119,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>GRANT</suburb>
+<school_dist>GRANT</school_dist>
+<mls>246452</mls>
+<house_type>Single Family</house_type>
+<firm>MIKE MELTON REAL ESTATE</firm>
+<firm_phone>(606) 428-2081</firm_phone>
+<agent>ELLEN DRYSDALE</agent>
+<agent_phone>(606) 428-2081</agent_phone>
+<house_description>NICE HOME ON PERM FOUNDATION 3BR W/LOVELY SUN ROOM 12 X 11* DETACHED
+GARAGE AG POOL* QUIET, PRIVATE AREA ACROSS FROM CREEK*BACK DECK 12 X
+61/2</house_description>
+<construction>Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>IRR</lot_dimensions>
+<condo_level>00</condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>12 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>12 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 11</dimension><level>1</level></kitchen>
+<living><dimension>18 X 13</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>US25 S OF CRITTENDEN,L ON RT491 GO ABOUT 2.5 MI
+TURN R ON SHERMAN NEWTON 1 MI ON L</directions>
+</house_listing>
+
+
+

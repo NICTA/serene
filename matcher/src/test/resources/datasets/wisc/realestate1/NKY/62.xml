@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>536 LASSING WAY</house_location>
+<price>$199,500</price>
+<rooms>8</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin)</garage>
+<suburb>-</suburb>
+<school_dist>BOONE COUNT</school_dist>
+<mls>245147</mls>
+<house_type>Single Family</house_type>
+<firm>HUFF REALTY</firm>
+<firm_phone>(606) 525-7900</firm_phone>
+<agent>BETTY EICHELBERGER</agent>
+<agent_phone>(606) 525-7900</agent_phone>
+<house_description>SHOWS LIKE NEW ON CUL-SE-SAC * OAK CABINETS * ISLAND * TASTEFULLY
+DECORATED LARGE LOT * CUSTOM DECK * MANY UPGRADES *</house_description>
+<construction>Brick</construction>
+<heating>Electric,Heat Pump</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irregular</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$NA</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level></level></bath_1>
+<bath_2><dimension>FULL</dimension><level></level></bath_2>
+<bedroom_2><dimension>14 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>14 X 12</dimension><level>1</level></dining>
+<family><dimension>29 X 28</dimension><level>L</level></family>
+<kitchen><dimension>17 X 11</dimension><level>1</level></kitchen>
+<living><dimension>22 X 14</dimension><level>1</level></living>
+<master><dimension>16 X 14</dimension><level>1</level></master>
+
+<directions>I-75 SO TO RICHWOOD EXIT R ON 338 TO L ON
+CHAMBERS R GAINSWAY L LASSING WAY</directions>
+</house_listing>
+
+
+

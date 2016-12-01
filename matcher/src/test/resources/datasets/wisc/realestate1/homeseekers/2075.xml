@@ -1,0 +1,46 @@
+<house_listing>
+<house_description>This 1 level single family home built in 1972 has 4 bedroom(s), 2
+bath(s) and approximately 3006 square feet of living area. Rooms
+include dining room, bonus room, master bedroom. Features include
+view, private pool, private spa, patio, fireplace, air conditioning.</house_description>
+
+<agent_name>Rhea Dugan</agent_name>
+<direct>520-749-5834</direct>
+<office>520-296-0404</office>
+<firm_name>Prudential Aegis Prudential Aegis</firm_name>
+<phone>520-296-0404</phone>
+<fax>520-296-7319</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$257,987</list_price>
+<location>11122 E Glenn St</location>
+<mls>9919764</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>3006 (approx)</square_feet>
+<lot_size>137X339X132X339</lot_size>
+<year_built>1972</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>Family Room</fireplace>
+<patio>Covered</patio>
+<pool>Yes</pool>
+<rooms>Dining Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Mountain View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

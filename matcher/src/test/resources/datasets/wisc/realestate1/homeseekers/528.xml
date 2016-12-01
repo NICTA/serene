@@ -1,0 +1,44 @@
+<house_listing>
+<house_description>This single family home built in 1984 has 5 bedroom(s), 5 full
+bath(s)/1 half bath(s) , 3 car garage. Rooms include dining room,
+family room, master bedroom. Features include view, private pool,
+private spa, patio, fireplace.</house_description>
+
+<agent_name>Steve Dubinka</agent_name>
+<office>480-998-0676</office>
+<firm_name>Realty Executives Realty Executives</firm_name>
+<phone>480-998-0676</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$1,450,000</list_price>
+<location>Phoenix, AZ 85016</location>
+<mls>1450392</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>5(full) 1(half)</baths>
+<garage>3</garage>
+<type>Single Family</type>
+<style>Contemporary</style>
+<lot_size>12,501-15,000</lot_size>
+<year_built>1984</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Electric, Multi Zoned</heating>
+<fireplace>Family Room, Living Room, Master Bedroom</fireplace>
+<location>Cul-de-sac</location>
+<patio>Covered, Deck</patio>
+<pool>Diving</pool>
+<rooms>Dining Room, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>City Lights View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Cathedral/Vaulted Ceilings, Ceiling Fan(s), Central Vacuum,Contemporary Style, Dishwasher, Eat In Kitchen, Game Room, Guest Room,Microwave, Pantry, Trash Compacter, Wet Bar
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

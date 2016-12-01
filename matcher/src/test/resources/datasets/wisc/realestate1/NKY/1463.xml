@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>8981 JULIA MEADOW</house_location>
+<price>$134,900</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Attached,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>244307</mls>
+<house_type>Single Family</house_type>
+<firm>COLDWELL BANKER WEST SHELL</firm>
+<firm_phone>(606) 341-9000</firm_phone>
+<agent>CYNTHIA CAHILL</agent>
+<agent_phone>(606) 341-9000</agent_phone>
+<house_description>NEW COMFORTABLE RANCH!1ST FLR LAUNDRY-ATTACHED 2 CAR-3 WALK-IN
+CLOSETS. JAZZY MSTR BATH-LOADS OF CLOSETS-COZY FRONT PORCH-CATH
+CEILINGS-GREAT KIT DESIGN W/PANTRY-VIEW OF FARMLAND BACK-QUIET
+STREET-COMP 1/15/2000.</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>63 X 125</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>11 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>11 X 10</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension>3 X 8</dimension><level>1</level></laundry>
+<living><dimension>19 X 14</dimension><level>1</level></living>
+<master><dimension>14 X 12</dimension><level>1</level></master>
+
+<directions>275 TO INDEP EXIT-S ON 17-RT INDEP.RD(ACR ACROSS
+FROM CTHSE.)RT JULIA MEADOW</directions>
+</house_listing>
+
+
+

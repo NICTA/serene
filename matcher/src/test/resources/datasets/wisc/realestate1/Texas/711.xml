@@ -1,0 +1,61 @@
+<house_listing>
+<firm_information>
+<name>Randall Morris &amp; Associates</name>
+<location>333 Cheatham San Marcos, TX 78666</location>
+<office>(512)353-1776</office>
+<toll_free></toll_free>
+<fax>(512)353-1773</fax>
+<email>rmorris@itouch.net</email>
+</firm_information>
+
+<agent_information>
+<name>Brenda Damron</name>
+<office>(512)353-1776</office>
+<fax>(512)353-1773</fax>
+<mobile>(512)393-4752</mobile>
+<email>rmorris@itouch.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>17261</id>
+<mls>5845</mls>
+<house_location>705 Willow Ridge
+San Marcos, TEXAS 78666</house_location>
+<county>Hays</county>
+<price>$295,000</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Beautiful custom built home in Willow Ridge.  Many upgrades - 4/3 on 1 acre. Restricted area.</house_description>
+
+<school_district>San Marcos Cisd</school_district>
+<sub-division>Willow Creek</sub-division>
+<approx_size_sqft>3000</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>1.05</approx_acres>
+<year_built>1991</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Custom built 4/3 home in gated</item>
+<item>Willow Creek. Much attention to</item>
+<item>detail.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

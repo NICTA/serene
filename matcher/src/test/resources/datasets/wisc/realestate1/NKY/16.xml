@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>4585 AUGUSTA</house_location>
+<price>$52,900</price>
+<rooms>5</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>2 Story</levels>
+<basement>Crawl</basement>
+<garage>None</garage>
+<suburb>AUGUSTA</suburb>
+<school_dist>BRACKEN CO</school_dist>
+<mls>249474</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 372-6000</firm_phone>
+<agent>DEBBIE COFFMAN</agent>
+<agent_phone>(606) 372-6000</agent_phone>
+<house_description>GREAT FARMHOUSE IN HISTORIC AUGUSTA. LARGE ROOMS. NEWER FURNACE. HOUSE
+IS IN GOOD CONDITION BUT COULD USE A LITTLE COSMETIC TOUCH UP. OUTSIDE
+RECENTL Y PAINTED.</house_description>
+<construction>Wood</construction>
+<heating>Oil,Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>Wood,Stove</fireplace>
+<gas>None</gas>
+<water>Cistern</water>
+<sewer>Septic</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$#</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>14 X 15</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>14 X 15</dimension><level>2</level></bedroom_3>
+<kitchen><dimension>15 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 7</dimension><level>1</level></laundry>
+<living><dimension>14 X 15</dimension><level>1</level></living>
+<master><dimension>14 X 15</dimension><level>1</level></master>
+
+<directions>AA HGWY TO RT #19 TO RT. ON #8 TO 1ST RT ON HGWY
+435 - 2.2 MILES ON LEFT SIDE</directions>
+</house_listing>
+
+
+

@@ -1,0 +1,45 @@
+<house_listing>
+<house_location>128 BOONE ROAD</house_location>
+<price>$87,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-1</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>SPARTA</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>249213</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>RITA ROBINETTE</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>THREE BEDROOM 1 1/2 BATH BRICK RANCH ON AN ACRE IN EXCITING GALLATIN
+COUNTY HOME HAS FULL UNFINISHED BASEMENT AND PARTIALLY WOODED LOT.
+MAKE AN APPT TO SEE TODAY-THIS ONE WON'T LAST LONG!</house_description>
+<construction>Brick</construction>
+<heating>Forced Air</heating>
+<cooling>Window Unit</cooling>
+<fireplace>None</fireplace>
+<gas>Propane</gas>
+<water>Public</water>
+<sewer>Septic</sewer>
+<lot_dimensions>x</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>PART</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 10</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>10 X 11</dimension><level>1</level></bedroom_3>
+<kitchen><dimension>16 X 12</dimension><level>1</level></kitchen>
+<living><dimension>11 X 16</dimension><level>1</level></living>
+<master><dimension>12 X 12</dimension><level>1</level></master>
+
+<directions>I-71S TO SPARTA EXIT,LEFT ON HWY 35 FIRST ROAD
+ON LEFT,BOONE RD,ABOUT 2 MI ON LEFT</directions>
+</house_listing>
+
+
+

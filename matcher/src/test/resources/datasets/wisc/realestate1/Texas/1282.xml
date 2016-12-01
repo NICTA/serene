@@ -1,0 +1,59 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Keiser &amp; Co.</name>
+<location>704 Second Street Marble Falls, TX 78654</location>
+<office>(830)693-3579</office>
+<toll_free>(800)741-8922</toll_free>
+<fax>(830)693-4494</fax>
+<email>21keiser@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Peggy Jones</name>
+<office>(830)693-3579</office>
+<fax>(830)693-4494</fax>
+<email>pegjones@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>13748</id>
+<mls>51346</mls>
+<house_location>3017 HSB N. Blvd, Unit #9
+Horseshoe Bay, TEXAS 78657</house_location>
+<county>Burnet</county>
+<price>$239,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>1</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>NORTHPOINT TOWNHOUSES, PHASE 1, UNIT #9, EAST FACING WATERFRONT, BOAT HOUSE WITH LIFT.  BURNET COUNTY, MARBLE FALLS SCHOOL DISTRICT.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Horseshoe Bay</sub-division>
+<stories>3</stories>
+<master_bedroom>Upstairs</master_bedroom>
+<resort_property>Yes</resort_property>
+<waterfront>Yes</waterfront>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>EAST FACING WATERFRONT!</item>
+<item>FANTASTIC VIEW!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

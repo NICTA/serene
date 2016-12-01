@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1960 has 3 bedroom(s), 2 bath(s) and
+approximately 1092 square feet of living area.</house_description>
+
+<agent_name>Bob &amp; Matt Hothem</agent_name>
+<direct>303-683-1822</direct>
+<office>303-794-9191</office>
+<firm_name>Metro Brokers-Hothem</firm_name>
+<phone>303-794-9191</phone>
+<fax>303-797-6293</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$133,000</list_price>
+<location>757 S Yates St</location>
+<neighborhood>Dora Lea</neighborhood>
+<mls>383172</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1092 (approx)</square_feet>
+<year_built>1960</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

@@ -1,0 +1,34 @@
+<house_listing>
+<house_description>This townhouse has 2 bedroom(s), 2 bath(s) , 1 car garage and
+approximately 1485 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Ann Meng</agent_name>
+<direct>305-865-0516</direct>
+<office>305-531-6929</office>
+<firm_name>Buy The Beach Real
+Lic. Real Estate Broker</firm_name>
+<phone>305-531-6929</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$297,000</list_price>
+<location>120 Washington Av #D221</location>
+<neighborhood>Cascada At The Courts</neighborhood>
+<mls>D891254</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>2</baths>
+<garage>1</garage>
+<type>Townhouse</type>
+<square_feet>1485 (approx)</square_feet>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

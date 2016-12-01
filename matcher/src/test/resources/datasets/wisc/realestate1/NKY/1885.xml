@@ -1,0 +1,44 @@
+<house_listing>
+<house_location>3 JAMES ST</house_location>
+<price>$69,900</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Crawl</basement>
+<garage>1 Car (Detached)</garage>
+<suburb>WILLIAMSTOWN</suburb>
+<school_dist>WILLIAMSTOW</school_dist>
+<mls>249911</mls>
+<house_type>Single Family</house_type>
+<firm>MELTON REAL ESTATE</firm>
+<firm_phone>(606) 824-5252</firm_phone>
+<agent>DARRIN SECHREST</agent>
+<agent_phone>(606) 824-5252</agent_phone>
+<house_description>CITY UTILITIES. CONVENIENT TO TOWN. HARDWOOD FLOORS THROUGHOUT MOST OF
+1ST FLOOR</house_description>
+<construction>Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$XXXX</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 15</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>2</level></bedroom_3>
+<dining><dimension>11 X 12</dimension><level>1</level></dining>
+<kitchen><dimension>11 X 11</dimension><level>1</level></kitchen>
+<living><dimension>11 X 22</dimension><level>1</level></living>
+<master><dimension>11 X 15</dimension><level>1</level></master>
+
+<directions>I75 S EX 154 L TO US25,L TO L ON SUNSET, TO L ON
+JAMES ST ON RIGHT</directions>
+</house_listing>
+
+
+

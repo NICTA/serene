@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>Jimmie Ann Vaughan Company</name>
+<location>908 Main Street Bastrop, TX 78602</location>
+<office>(512)303-3738</office>
+<toll_free></toll_free>
+<fax>(512)303-6774</fax>
+<email>javcom@javcom.com</email>
+</firm_information>
+
+<agent_information>
+<name>Allan Kugler</name>
+<office>(512)303-3738</office>
+<fax></fax>
+<mobile>(512)789-4488</mobile>
+<email>javcom@javcom.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19630</id>
+<mls>520171</mls>
+<house_location>Rt 2, Box 151 Hidden Bluff
+Smithville, TEXAS 78957</house_location>
+<county>Bastrop</county>
+<price>$149,900</price>
+<bedrooms>2</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Panoramic view of Colorado River Valley, wrap around porches, covered pavillion with brick Bar-B-Que ovens.  Lots of room in a exceptional home.  Sells below appraised value.</house_description>
+
+<school_district>Smithville</school_district>
+<sub-division>Overlook</sub-division>
+<approx_size_sqft>2100</approx_size_sqft>
+<stories>1</stories>
+<approx_acres>5.18</approx_acres>
+<year_built>1985</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Park like atmosphere</item>
+<item>Wrap around covered porches</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

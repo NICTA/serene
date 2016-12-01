@@ -1,0 +1,49 @@
+<house_listing>
+<firm_information>
+<name>Kay Wesson Real Estate</name>
+<location>807 Main Street Bastrop, TX 78602</location>
+<office>(512)303-4441</office>
+<toll_free>(800)255-7386</toll_free>
+<fax>(512)303-1347</fax>
+<voice_mail>(512)303-4441</voice_mail>
+<email>kcwesson@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Frank Rainosek</name>
+<office>(512)303-4441</office>
+<fax>(512)303-1347</fax>
+<mobile>(512)924-1901</mobile>
+<email>rainosek@gte.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19005</id>
+<mls></mls>
+<house_location>105 Sunset Lane
+Smithville, TEXAS</house_location>
+<county>Bastrop</county>
+<price>$102,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Thw whole family will love this nice, two story 4/2/2 home!  Great open living plan!  Tile floors!  Fireplace in living area!  1+/- Beautifully wooded acres!  Large fenced yard!  Covered patio!  Over-sized utility building.  Call or e-mail Frank for more details!</house_description>
+
+<school_district>Smithville</school_district>
+<master_bedroom>Downstairs</master_bedroom>
+
+<highlights>
+<item>Wonderful Two Story Home!</item>
+<item>Four Bedrooms and Two Baths!</item>
+<item>Large Fenced Yard!</item>
+<item>Over-Sized Utility Building!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

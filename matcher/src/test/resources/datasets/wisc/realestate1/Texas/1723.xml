@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Alliance Properties</name>
+<location>124 W. McLeroy Blvd. Fort Worth, TX 76179</location>
+<office>(817)232-9550</office>
+<toll_free>(888)826-7653</toll_free>
+<fax>(817)232-1199</fax>
+<email>brandt21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Lori Jones</name>
+<office>(817)232-9550</office>
+<fax>(817)232-1199</fax>
+<email>lajones777@aol.com</email>
+</agent_information>
+
+<type>Residential</type>
+<id>20255</id>
+<mls>9116341</mls>
+<house_location>620 Clairemont
+Fort Worth, TEXAS 76103</house_location>
+<county>Tarrant</county>
+<price>$56,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>Darling! cute house for the money! Central A/C. Huge backyard. Looks are deceiving! Must see inside to appreciate!</house_description>
+
+<school_district>Fort Worth I S D</school_district>
+<sub-division>Clairemont Place</sub-division>
+<approx_size_sqft>1509</approx_size_sqft>
+<stories>1</stories>
+<year_built>1941</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>Cute House!</item>
+<item>Must see inside!</item>
+<item>Seller Motivated!</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

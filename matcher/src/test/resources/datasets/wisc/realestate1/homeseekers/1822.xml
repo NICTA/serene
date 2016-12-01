@@ -1,0 +1,43 @@
+<house_listing>
+<house_description>This condominium built in 1968 has 1 bedroom(s), 1 bath(s) , 1 car
+garage and approximately 500 square feet of living area. Features
+include private pool, air conditioning.</house_description>
+
+<agent_name>Madeleine Limberi-</agent_name>
+<direct>305-983-1730</direct>
+<office>305-868-6800</office>
+<email>maddiemiami@earthlink.com</email>
+<firm_name>C-21 Bay Harbor In C-21 Bay
+Harbor In
+Lic. Real Estate Broker</firm_name>
+<phone>305-868-6800</phone>
+<fax>305-861-8983</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$89,900</list_price>
+<location>2829 Indian Creek Dr #904</location>
+<neighborhood>Clearview Towers Condo</neighborhood>
+<mls>M765196</mls>
+<status>Active</status>
+<bedrooms>1</bedrooms>
+<baths>1</baths>
+<garage>1</garage>
+<type>Condominium</type>
+<square_feet>500 (approx)</square_feet>
+<year_built>1968</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central</cooling>
+<heating>Central</heating>
+<pool>Yes</pool>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Elevator, Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

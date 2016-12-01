@@ -1,0 +1,54 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Donna Sifford</name>
+<office>(817)295-8171</office>
+<fax>(817)295-6426</fax>
+<mobile>(817)996-7372</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21261</id>
+<mls>9130311</mls>
+<house_location>616 N. Main
+Godley, TEXAS 76044</house_location>
+<county>Johnson</county>
+<price>$115,000</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>NEARLY NEW. BEAUTIFUL WITH TALL CEILINGS, DIVIDED BEDROOMS, WALK-IN CLOSETS.  THE 1.66 FENCED ACRES AND ENCLOSED DOG RUN WOULD MAKE GOOD HORSE PROPERTY. CONCRETE CIRCLE DRIVEWAY, QUIET TOWN, GREAT SCHOOLS. JOHNSON COUNTY RURAL WATER, TXU ELECTRIC, AND ALL-TEL PHONES.</house_description>
+
+<school_district>Godley I S D</school_district>
+<sub-division>Hilltop Ranch Estates</sub-division>
+<stories>1</stories>
+<approx_acres>1.66</approx_acres>
+<year_built>1997</year_built>
+<master_bedroom>N/A</master_bedroom>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Quiet 1.66 lovely acres</item>
+<item>Horses okay</item>
+<item>Newer home, nice, 1997</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

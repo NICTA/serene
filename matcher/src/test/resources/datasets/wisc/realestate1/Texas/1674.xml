@@ -1,0 +1,67 @@
+<house_listing>
+<firm_information>
+<name>Coldwell Banker Mary Ann Green Realty</name>
+<location>1620 Industry Bastrop, TX 78602</location>
+<office>(512)303-5400</office>
+<toll_free>(888)461-1620</toll_free>
+<fax>(512)303-1380</fax>
+<voice_mail>(512)860-6733</voice_mail>
+<email>maglink@gte.net</email>
+</firm_information>
+
+<agent_information>
+<name>Stephanie Daniel</name>
+<office>(512)321-5300</office>
+<fax>(512)303-1380</fax>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21120</id>
+<mls>526848</mls>
+<house_location>182 High Timber Rd.
+in East Bastrop, TEXAS 78602</house_location>
+<county>Bastrop</county>
+<price>$101,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+<item>Texas Vet</item>
+</financing_options>
+
+<house_description>Hurry to choose your colors! New construction. Bright and airy floor plan with high ceilings, carpet and tile floors, brick fireplace, large kitchen, and a large master bath with double vanities, garden tub and separate shower. Located on wooded .62ac lot in quiet subdivision with some restrictions. Nice backyard deck. Just minutes from Bastrop and an easy commute to Austin. Make this your home for the new year!</house_description>
+
+<school_district>Bastrop ISD</school_district>
+<sub-division>Circle D</sub-division>
+<approx_size_sqft>1262</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>.62ac</approx_lot_size>
+<approx_acres>0.62</approx_acres>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<fire_places>1</fire_places>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<septic_tank>Yes</septic_tank>
+
+<highlights>
+<item>Brand New Construction</item>
+<item>Brick/Masonry Siding3/2/2</item>
+<item>Bright and Airy Floor Plan</item>
+<item>.62 ac Wooded Lot in Circle D</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

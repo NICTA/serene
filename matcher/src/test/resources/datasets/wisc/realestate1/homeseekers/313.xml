@@ -1,0 +1,37 @@
+<house_listing>
+<house_description>This single family home built in 1916 has 4 bedroom(s), 2 bath(s) and
+approximately 1800 square feet of living area. Rooms include dining
+room, bonus room. Features include patio.</house_description>
+
+<agent_name>Arron K. Renfrew</agent_name>
+<direct>206-632-6900</direct>
+<office>206-632-6900</office>
+<firm_name>Home Realty Inc./Greenlake</firm_name>
+<phone>206-632-6900</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$279,950</list_price>
+<location>1909 50Th St</location>
+<mls>20001667</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1800 (approx)</square_feet>
+<year_built>1916</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<heating>Forced Air</heating>
+<patio>Yes</patio>
+<rooms>Bonus Room, Dining Room</rooms>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

@@ -1,0 +1,42 @@
+<house_listing>
+<house_description>This single family home built in 1978 has 3 bedroom(s), 1 bath(s) and
+approximately 1094 square feet of living area. Features include air
+conditioning.</house_description>
+
+<agent_name>Willie Brown</agent_name>
+<direct>685-3021</direct>
+<office>685-6275</office>
+<firm_name>Brown Realty
+Lic. Real Estate Broker</firm_name>
+<phone>685-6275</phone>
+<fax>305-685-2299</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$69,900</list_price>
+<location>1791 NW 112 St</location>
+<neighborhood>Queens Park</neighborhood>
+<mls>M773045</mls>
+<status>Active</status>
+<bedrooms>3</bedrooms>
+<baths>1</baths>
+<type>Single Family</type>
+<square_feet>1094 (approx)</square_feet>
+<lot_size>55 X 106</lot_size>
+<year_built>1978</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Window/Wall Unit(s)</cooling>
+<heating>Wall Unit</heating>
+<pool>No</pool>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Fenced, Outdoor Lights
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

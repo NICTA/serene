@@ -1,0 +1,60 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Cook and Associates</name>
+<location>4501 Spicewood Springs Road #1040 nowhere, TX 00000</location>
+<office>(512)343-1233</office>
+<toll_free>(800)221-1109</toll_free>
+<fax>(512)343-1625</fax>
+<email>TDuncanC21@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Steve Scott</name>
+<office>(512)343-1233</office>
+<fax>(512)343-1625</fax>
+<voice_mail>(512)343-1233 233</voice_mail>
+<email>sscott1@flash.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16885</id>
+<mls>509045</mls>
+<house_location>4201 Speedway
+Austin, TEXAS 78751</house_location>
+<county>Travis</county>
+<price>$539,900</price>
+<bedrooms>4</bedrooms>
+<full_baths>3</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>2</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>Classic 1909 Steamboat Gothic home. Wonderfully restored 3-story Victorian style home with wrap-around porches on 2 levels, 3rd story Widow's Walk.  Corner lot with huge trees, garden full of antique roses, 2-car detached garage with storage.Wood floors, foyers, formal living, huge formal dining, library w/fireplace, gourmet kitchen with tile floors &amp; countertops, glass-faced cabinets, large breakfast room, indoor utility. Each of the 3 floors has its own heating &amp; air-conditioning system.</house_description>
+
+<school_district>Austin ISD</school_district>
+<sub-division>Hyde Park</sub-division>
+<approx_size_sqft>3803</approx_size_sqft>
+<stories>3</stories>
+<approx_lot_size>50 x 130</approx_lot_size>
+<approx_acres>0.15</approx_acres>
+<year_built>1909</year_built>
+<master_bedroom>Upstairs</master_bedroom>
+<restrictions>Yes</restrictions>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

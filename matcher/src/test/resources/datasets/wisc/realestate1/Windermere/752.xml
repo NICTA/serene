@@ -1,0 +1,41 @@
+<house_listing>
+<price>$132,900</price>
+<mls_id_number>369060</mls_id_number>
+<city>Salem</city>
+<st>OR</st>
+<bedrooms>3</bedrooms>
+<bathrooms>2.50</bathrooms>
+<sqft>1606</sqft>
+<year_built>1962</year_built>
+<heat></heat>
+<ac></ac>
+<amenities>
+<waterfront>No</waterfront>
+<views>No</views>
+<roof></roof>
+<garage>Double Attached</garage>
+<lot_size>0.00        SQFT</lot_size>
+<lot_description></lot_description>
+<fireplace></fireplace>
+<taxes>$0</taxes>
+</amenities>
+<schools><elementary>Wash.</elementary>
+<middle_school>Waldo</middle_school>
+<high_school>McKay</high_school>
+</schools>
+<comments>Too many updates to list here.</comments>
+<for_more_information_contact>
+<agent_name>Susan Darby</agent_name>
+<firm_name>Windermere Pacific West Properties, Inc.</firm_name>
+<firm_location>4275 Commercial St. SE Suite 100
+Salem, OR</firm_location>
+<office_phone>503-391-1350</office_phone>
+<fax>503-391-9960</fax>
+<cell_phone>949-1956</cell_phone>
+<e-mail>darbyhomes@aol.com</e-mail>
+</for_more_information_contact>
+
+</house_listing>
+
+
+

@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>25 JUAREZ CIRCLE</house_location>
+<price>$94,800</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Rear,Oversized,Heated)</garage>
+<suburb>TAYLOR MILL</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249362</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>JANE ASHCRAFT-WEST</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>SUPER BRICK RANCH W/FENCED YARD &amp; WOODED VIEW! FINISHED
+BASEMENT/HARDWOOD FLOORS/UPDATED KITCHEN &amp; BATH/PLATE RACK/MICROWAVE
+SHELF/BERBER CARPETING/ LARGE BEDROOMS/OVERSIZED 1.5 CAR
+GARAGE/CONVENIENT LOCATION &amp; MUCH MORE!!!</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>SEE BELOW</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>12 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>12 X 7</dimension><level>L</level></bedroom_3>
+<family><dimension>20 X 12</dimension><level>L</level></family>
+<kitchen><dimension>14 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension>13 X 12</dimension><level>L</level></laundry>
+<living><dimension>18 X 14</dimension><level>1</level></living>
+<master><dimension>12 X 11</dimension><level>1</level></master>
+
+<directions>RT 17 TO HANDS PK TO R ON TRIPOLI TO L ON JUAREZ</directions>
+</house_listing>
+
+
+

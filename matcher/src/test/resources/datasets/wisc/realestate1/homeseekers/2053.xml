@@ -1,0 +1,36 @@
+<house_listing>
+<house_description>This a good starter home for your first time buyers, this property is
+in move-in condition,sellers are willing to help with buyers cost!!!!</house_description>
+
+<agent_name>Marvin Malone</agent_name>
+<direct>310-637-9231</direct>
+<office>562-422-0911</office>
+<firm_name>C-21 Landmark Properties C-21 Landmark Properties</firm_name>
+<phone>562-422-0911</phone>
+<fax>562-428-1842</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$89,500</list_price>
+<location>1557 E 106Th St</location>
+<mls>P166292</mls>
+<status>Active</status>
+<bedrooms>2</bedrooms>
+<baths>1</baths>
+<levels>1</levels>
+<type>Single Family</type>
+<square_feet>760 (approx)</square_feet>
+<lot_size>3250 (approx)</lot_size>
+<year_built>1955</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<fireplace>No</fireplace>
+<pool>No</pool>
+<rooms>Living Room</rooms>
+<view>No</view>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

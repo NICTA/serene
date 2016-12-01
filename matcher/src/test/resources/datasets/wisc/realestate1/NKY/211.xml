@@ -1,0 +1,46 @@
+<house_listing>
+<house_location>547 SPRING MILL</house_location>
+<price>$123,800</price>
+<rooms>6</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>2 Cars (Builtin,Rear)</garage>
+<suburb>BURLINGTON</suburb>
+<school_dist>BOONE CO</school_dist>
+<mls>248749</mls>
+<house_type>Single Family</house_type>
+<firm>A B REAL ESTATE</firm>
+<firm_phone>(606) 341-7443</firm_phone>
+<agent>DON LAAKE</agent>
+<agent_phone>(606) 341-7443</agent_phone>
+<house_description>BRICK HOME, PRICED RIGHT, OAK CABINETS, DECK OFF EATING AREA. FULL
+BASEMENT GAS HEAT, CALL 586-7802</house_description>
+<construction>Brick</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>n/a</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>20</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bedroom_2><dimension>10 X 12</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 9</dimension><level>1</level></bedroom_3>
+<breakfast><dimension>9 X 11</dimension><level>1</level></breakfast>
+<kitchen><dimension>9 X 11</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>B</level></laundry>
+<living><dimension>11 X 18</dimension><level>1</level></living>
+<master><dimension>11 X 14</dimension><level>1</level></master>
+
+<directions>RT 18 L ON CAMP ERNST, R ON ROGERS, L ON
+HANOVER CALL 586-7802</directions>
+</house_listing>
+
+
+

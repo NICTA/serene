@@ -1,0 +1,43 @@
+<house_listing>
+<house_location>1586 MARCELLA</house_location>
+<price>$109,900</price>
+<rooms>5</rooms>
+<bedrooms>2</bedrooms>
+<baths>1-0</baths>
+<levels>1 Story</levels>
+<basement>Full</basement>
+<garage>1 Car (Builtin,Rear)</garage>
+<suburb>FT. WRIGHT</suburb>
+<school_dist>KENTON</school_dist>
+<mls>249886</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 331-4444</firm_phone>
+<agent>RUBY HEISLER</agent>
+<agent_phone>(606) 331-4444</agent_phone>
+<house_description>BRICK RANCH IN HEART OF FT WRIGHT. APPLIANCES INCLUDING W/D.</house_description>
+<construction>Brick,Alum</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air,Atic Fan</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>.</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension>11 X 11</dimension><level>1</level></bedroom_2>
+<dining><dimension>11 X 8</dimension><level>1</level></dining>
+<family><dimension>18 X 20</dimension><level>L</level></family>
+<kitchen><dimension>10 X 9</dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension>16 X 10</dimension><level>1</level></living>
+<master><dimension>15 X 9</dimension><level>1</level></master>
+
+<directions>KYLES LN TO ST. ANTHONY TO L MARCELLA</directions>
+</house_listing>
+
+
+

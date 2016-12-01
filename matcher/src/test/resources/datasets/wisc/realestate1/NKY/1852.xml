@@ -1,0 +1,52 @@
+<house_listing>
+<house_location>10203 WATERSIDE CT</house_location>
+<price>$299,880</price>
+<rooms>11</rooms>
+<bedrooms>4</bedrooms>
+<baths>2-1</baths>
+<levels>2 Story</levels>
+<basement>Full</basement>
+<garage>3 Cars (Attached)</garage>
+<suburb>HEMPSTEADE</suburb>
+<school_dist>RYLE</school_dist>
+<mls>243290</mls>
+<house_type>Single Family</house_type>
+<firm>THE DREES COMPANY</firm>
+<firm_phone>(606) 578-4200</firm_phone>
+<agent>JACK MILLER</agent>
+<agent_phone>(606) 578-4200</agent_phone>
+<house_description>CALL MARK GRIPSHOVER 384-1191*3CAR S/E GARAGE*BONUS ROOM*SITTING ROOM
+OFF OWNERS UITE*HARDWOOD KITCHEN FLOOR*DREES CARRINGTON MODEL* MUST
+SEE! BRAND NEW SCHOOLS!</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>irr</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>32</hoa_fee>
+<semiannual_taxes>$1586.22</semiannual_taxes>
+<bath_1><dimension>PART</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>2</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>2</level></bath_3>
+<bedroom_2><dimension>11 X 9</dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension>13 X 12</dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension>13 X 11</dimension><level>2</level></bedroom_4>
+<bedroom_5><dimension>17 X 12</dimension><level>2</level></bedroom_5>
+<breakfast><dimension>12 X 12</dimension><level>1</level></breakfast>
+<dining><dimension>11 X 13</dimension><level>1</level></dining>
+<family><dimension>21 X 17</dimension><level>1</level></family>
+<kitchen><dimension>13 X 11</dimension><level>1</level></kitchen>
+<living><dimension>13 X 14</dimension><level>1</level></living>
+<master><dimension>13 X 18</dimension><level>2</level></master>
+<study><dimension>13 X 10</dimension><level>1</level></study>
+
+<directions>I75S TO MT ZION RD*LEFT TO HEMPSTEADE DR TO RT
+ON BAYSWATER TO WATERSIDE CT</directions>
+</house_listing>
+
+
+

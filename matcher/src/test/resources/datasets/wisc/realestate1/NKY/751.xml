@@ -1,0 +1,48 @@
+<house_listing>
+<house_location>333 GROBMYER</house_location>
+<price>$95,000</price>
+<rooms>9</rooms>
+<bedrooms>3</bedrooms>
+<baths>1-0</baths>
+<levels>1.5 Story</levels>
+<basement>Full</basement>
+<garage>None</garage>
+<suburb>CARROLL</suburb>
+<school_dist>CARROLL</school_dist>
+<mls>249528</mls>
+<house_type>Single Family</house_type>
+<firm>CENTURY 21 WHITEHORSE REALTY</firm>
+<firm_phone>(606) 567-5567</firm_phone>
+<agent>RITA ROBINETTE</agent>
+<agent_phone>(606) 567-5567</agent_phone>
+<house_description>BUEATIFULLY REMODELED CAPE COD.3-4 BEDROOMS ON CORNER LOT IN
+TOWN.FLUTED OAK WOODWORK,DECORATIVE TRIM,6-PANEL DOORS, AND OAK
+CABINETRY ADD TO THE DECOR.FEATURES INCLUDE PRIVACY FENCE,ABOVE GROUND
+POOL &amp; FULL BASEMENT.</house_description>
+<construction>Wood</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Gas</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>50 x 156</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$9999</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bedroom_2><dimension></dimension><level>2</level></bedroom_2>
+<bedroom_3><dimension></dimension><level>2</level></bedroom_3>
+<bedroom_4><dimension></dimension><level>L</level></bedroom_4>
+<family><dimension></dimension><level>1</level></family>
+<kitchen><dimension></dimension><level>1</level></kitchen>
+<laundry><dimension></dimension><level>L</level></laundry>
+<living><dimension></dimension><level>1</level></living>
+<master><dimension></dimension><level>1</level></master>
+
+<directions>I-71 TO X-44,R ON 227,L ON SCHUERMAN,2ND HOUSE
+ON RIGHT</directions>
+</house_listing>
+
+
+

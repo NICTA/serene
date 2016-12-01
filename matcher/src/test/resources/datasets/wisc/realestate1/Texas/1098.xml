@@ -1,0 +1,55 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 Myers Real Estate Co., Inc. Kingsville</name>
+<location>2701 S. US Hwy 77 Kingsville, TX 78363</location>
+<office>(361)595-7653</office>
+<toll_free></toll_free>
+<fax>(361)592-9300</fax>
+<email>Century21Myers@excite.com</email>
+</firm_information>
+
+<agent_information>
+<name>Emma Morin,sh</name>
+<office>(361)595-7653</office>
+<fax>(361)592-9300</fax>
+<email>LEAHC21@MAILEXCITE.COM</email>
+</agent_information>
+
+<type>Residential</type>
+<id>19254</id>
+<mls>R26045</mls>
+<house_location>1264 East Kleberg
+Kingsville, TEXAS 78363</house_location>
+<county>Kleberg</county>
+<price>$24,000</price>
+<bedrooms>2</bedrooms>
+<full_baths>1</full_baths>
+
+<financing_options>
+<item>Conventional</item>
+<item>VA Loan</item>
+<item>FHA Loan</item>
+</financing_options>
+
+<house_description>Cute little starger home. Kitchen and dining together. Water softner system installed in 1997. Nice large drive way and fenced yard. Wood and chain link fence.</house_description>
+
+<school_district>Kingsville</school_district>
+<sub-division>Penny Addition</sub-division>
+<approx_size_sqft>662</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>50x160</approx_lot_size>
+<year_built>1955</year_built>
+<master_bedroom>N/A</master_bedroom>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+</highlights>
+
+</house_listing>
+
+
+
+
+

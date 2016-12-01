@@ -1,0 +1,41 @@
+<house_listing>
+<house_description>This 1 level home built in 1960 has ? bedroom(s), 1 bath(s) and
+approximately 600 square feet of living area. Rooms include master
+bedroom. Features include air conditioning.</house_description>
+
+<agent_name>Russell Adams</agent_name>
+<direct>202-462-0351</direct>
+<firm_name>
+The Washington Land Company, Inc.</firm_name>
+
+<residential_listing_-_basic_features>
+<list_price>$45,000</list_price>
+<location>Washington, DC 20012</location>
+<mls>DC3098955</mls>
+<status>Active</status>
+<baths>1</baths>
+<levels>1</levels>
+<type>CoOp</type>
+<square_feet>600 (approx)</square_feet>
+<year_built>1960</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning</cooling>
+<heating>Forced Air, Natural Gas</heating>
+<fireplace>No</fireplace>
+<patio>No</patio>
+<pool>No</pool>
+<rooms>Master Bedroom</rooms>
+<spa>No</spa>
+<view>City View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Walk-In Closet(s)
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+

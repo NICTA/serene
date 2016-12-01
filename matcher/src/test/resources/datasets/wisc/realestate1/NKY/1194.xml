@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>58 LITTLE SUGAR C</house_location>
+<price>$495,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>3-0</baths>
+<levels>1 Story</levels>
+<basement>Part</basement>
+<garage>9 Cars (Detached,Oversized)</garage>
+<suburb>WARSAW</suburb>
+<school_dist>GALLATIN</school_dist>
+<mls>246769</mls>
+<house_type>Single Family</house_type>
+<firm>SIBCY-CLINE REALTORS INC</firm>
+<firm_phone>(606) 781-4400</firm_phone>
+<agent>SHANNON DOWNARD</agent>
+<agent_phone>(606) 781-4400</agent_phone>
+<house_description>INTERIOR PHOTOS WWW.SIBCYCLINE.COM*INCREDIBLE OHIO RIVER VIEW-MINUTES
+TO NASCAR TRACK, AIRPORT, CINTI 33 MILES. SEPERATE GUEST QUARTERS*12
+CAR GAR W/FACILITIES, GREASE PIT, INGRD POOL, OVER 350ACRES AVAIL,
+VERY PRIVATE</house_description>
+<construction>Wood</construction>
+<heating>Electric,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>Wood</fireplace>
+<gas>None</gas>
+<water>At Street</water>
+<sewer>Septic</sewer>
+<lot_dimensions>0</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>FULL</dimension><level>1</level></bath_3>
+<bedroom_2><dimension>15 X 11</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>23 X 24</dimension><level>1</level></bedroom_3>
+<dining><dimension>20 X 16</dimension><level>1</level></dining>
+<kitchen><dimension>14 X 14</dimension><level>1</level></kitchen>
+<living><dimension>20 X 16</dimension><level>1</level></living>
+<master><dimension>18 X 16</dimension><level>1</level></master>
+<study><dimension>8 X 7</dimension><level>1</level></study>
+
+<directions>75 EXIT US42 R SUGAR CREEK ON L OR 75 19 MILES
+OR 71 TO 127 2ND R AFTR RIVER</directions>
+</house_listing>
+
+
+

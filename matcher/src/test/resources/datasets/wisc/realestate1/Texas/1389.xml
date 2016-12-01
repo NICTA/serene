@@ -1,0 +1,63 @@
+<house_listing>
+<firm_information>
+<name>NGD Real Estate Company</name>
+<location>511 Hwy 281 Marble Falls, TX 78654</location>
+<office>(830)693-7926</office>
+<toll_free>(800)280-1010</toll_free>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</firm_information>
+
+<agent_information>
+<name>Bob Kendel</name>
+<office>(830)693-7926</office>
+<fax>(830)693-7344</fax>
+<email>ngd@tstar.net</email>
+</agent_information>
+
+<type>Residential</type>
+<id>16682</id>
+<mls>52895</mls>
+<house_location>234 Meadowlakes Drive
+Meadowlakes, TEXAS 78654</house_location>
+<county>Burnet</county>
+<price>$179,700</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<half_baths>1</half_baths>
+<living_rooms>1</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<financing_options>
+<item>Conventional</item>
+</financing_options>
+
+<house_description>A new golf course home with a great view.  Great open floor plan, split bedrooms, many extras.  Spaceous master suite.  Call or e-mail us for plan specifications, and a color brochure.</house_description>
+
+<school_district>Marble Falls</school_district>
+<sub-division>Meadowlakes</sub-division>
+<approx_size_sqft>2200</approx_size_sqft>
+<stories>1</stories>
+<approx_lot_size>85 X 125</approx_lot_size>
+<year_built>1999</year_built>
+<master_bedroom>Downstairs</master_bedroom>
+<golf_course>Yes</golf_course>
+<new_home>Yes</new_home>
+<restrictions>Yes</restrictions>
+<electricity>Yes</electricity>
+<water_coop>Yes</water_coop>
+
+<highlights>
+<item>New construction on the Meadowlakes golf course.</item>
+<item>3 bedroom, 2 1/2 baths, open living plan.</item>
+<item>Lake access through POA park.</item>
+<item>Gated community, club house, pool &amp; restaurant.</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

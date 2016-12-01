@@ -1,0 +1,31 @@
+<house_listing>
+<house_description>This single family home built in 1953 has 4 bedroom(s), 2 bath(s) and
+approximately 1860 square feet of living area.</house_description>
+
+<agent_name>Scott Dock</agent_name>
+<direct>303-898-5996</direct>
+<office>303-779-5996</office>
+<firm_name>S Dock Realty Compan</firm_name>
+<phone>303-779-5996</phone>
+<fax>303-779-5999</fax>
+
+<residential_listing_-_basic_features>
+<list_price>$171,900</list_price>
+<location>1884 S Dahlia St</location>
+<neighborhood>Virginia Village</neighborhood>
+<mls>382883</mls>
+<status>Active</status>
+<bedrooms>4</bedrooms>
+<baths>2</baths>
+<type>Single Family</type>
+<square_feet>1860 (approx)</square_feet>
+<year_built>1953</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+</residential_listing_-_feature_details>
+
+</house_listing>
+
+
+

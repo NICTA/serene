@@ -1,0 +1,56 @@
+<house_listing>
+<firm_information>
+<name>CENTURY 21 A-One Realty</name>
+<location>780-D N.E. Alsbury Burleson, TX 76028</location>
+<office>(817)295-6161</office>
+<toll_free>(800)395-2663</toll_free>
+<fax>(817)295-6167</fax>
+<email>c21aone@aol.com</email>
+</firm_information>
+
+<agent_information>
+<name>Syble Noble</name>
+<office>(817)295-6161</office>
+<fax>(817)295-6167</fax>
+<mobile>(817)929-9668</mobile>
+<email></email>
+</agent_information>
+
+<type>Residential</type>
+<id>21652</id>
+<mls>9136722</mls>
+<house_location>6905 Kingsley Drive
+Fort Worth, TEXAS</house_location>
+<county>Tarrant</county>
+<price>$66,900</price>
+<bedrooms>3</bedrooms>
+<full_baths>2</full_baths>
+<living_rooms>2</living_rooms>
+<dining_rooms>1</dining_rooms>
+<garage_spaces>2</garage_spaces>
+
+<house_description>A one-owner home, well maintained. $2000 carpet and repair allowance. Big house for the money. Has 4 huge pecan trees. Fenced backyard. Will only be shown to qualified buyers.</house_description>
+
+<school_district>Everman I S D</school_district>
+<sub-division>Hallmark Addition</sub-division>
+<approx_size_sqft>1754</approx_size_sqft>
+<stories>1</stories>
+<year_built>1960</year_built>
+<master_bedroom>N/A</master_bedroom>
+<fire_places>1</fire_places>
+<city_water>Yes</city_water>
+<city_sewer>Yes</city_sewer>
+<electricity>Yes</electricity>
+
+<highlights>
+<item>One-owner, well maintained</item>
+<item>Huge pecans trees</item>
+<item>Big house, stone fireplace</item>
+</highlights>
+
+</house_listing>
+
+
+
+
+

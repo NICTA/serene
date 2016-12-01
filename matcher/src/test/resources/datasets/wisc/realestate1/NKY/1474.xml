@@ -1,0 +1,49 @@
+<house_listing>
+<house_location>1139 TROOPERS CROSS</house_location>
+<price>$126,000</price>
+<rooms>7</rooms>
+<bedrooms>3</bedrooms>
+<baths>2-1</baths>
+<levels>Bi-Level</levels>
+<basement>Part</basement>
+<garage>2 Cars (Builtin,Front)</garage>
+<suburb>INDEPENDENCE</suburb>
+<school_dist>KENTON</school_dist>
+<mls>250232</mls>
+<house_type>Single Family</house_type>
+<firm>RE/MAX AFFILIATES INC</firm>
+<firm_phone>(606) 341-0500</firm_phone>
+<agent>TELENA A ROBINSON</agent>
+<agent_phone>(606) 341-0500</agent_phone>
+<house_description>AUSTIN FLOOR PLAN OFFERS APROX 1500 SQ FT W/FINISHED LOWER LEVEL FAM
+ROOM &amp; 1/2 BATH/GREAT RM W/CATHEDRAL CEILINGS/DINING RM WALKS OUT ON
+REAR DECK PICK YOUR OWN COLORS/0% DOWN FINANCING AVAILABLE</house_description>
+<construction>Brick,Vinyl</construction>
+<heating>Gas,Forced Air</heating>
+<cooling>Central Air</cooling>
+<fireplace>None</fireplace>
+<gas>Natural</gas>
+<water>Public</water>
+<sewer>Public</sewer>
+<lot_dimensions>97X162X44</lot_dimensions>
+<condo_level></condo_level>
+<hoa_fee>0</hoa_fee>
+<semiannual_taxes>$0</semiannual_taxes>
+<bath_1><dimension>FULL</dimension><level>1</level></bath_1>
+<bath_2><dimension>FULL</dimension><level>1</level></bath_2>
+<bath_3><dimension>PART</dimension><level>L</level></bath_3>
+<bedroom_2><dimension>14 X 9</dimension><level>1</level></bedroom_2>
+<bedroom_3><dimension>11 X 10</dimension><level>1</level></bedroom_3>
+<dining><dimension>13 X 9</dimension><level>1</level></dining>
+<family><dimension>25 X 10</dimension><level>L</level></family>
+<kitchen><dimension>10 X 7</dimension><level>1</level></kitchen>
+<laundry><dimension>11 X 9</dimension><level>L</level></laundry>
+<living><dimension>13 X 11</dimension><level>1</level></living>
+<master><dimension>13 X 10</dimension><level>1</level></master>
+
+<directions>75S MT ZION EX L,RT ON BRISTOW TO L ON
+BATTLERIDGE L ON CALVARY L ON TROOPERS</directions>
+</house_listing>
+
+
+

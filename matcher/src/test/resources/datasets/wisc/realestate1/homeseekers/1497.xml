@@ -1,0 +1,45 @@
+<house_listing>
+<house_description>This single family home built in 1975 has 5 bedroom(s), 3 full
+bath(s)/1 half bath(s) and approximately 4213 square feet of living
+area. Rooms include den, family room, master bedroom. Features include
+view, private pool, private spa, patio, air conditioning.</house_description>
+
+<agent_name>Consuelo Stewart</agent_name>
+<direct>305-337-0492</direct>
+<office>305-445-8511</office>
+<firm_name>Earnest &amp; Stewart,
+Lic. Real Estate Broker</firm_name>
+<phone>305-445-8511</phone>
+
+<residential_listing_-_basic_features>
+<list_price>$860,000</list_price>
+<location>7233 Vistalmar St</location>
+<neighborhood>Cocoplum Sec 1</neighborhood>
+<mls>D879017</mls>
+<status>Active</status>
+<bedrooms>5</bedrooms>
+<baths>3(full) 1(half)</baths>
+<type>Single Family</type>
+<square_feet>4213 (approx)</square_feet>
+<lot_size>130X156</lot_size>
+<year_built>1975</year_built>
+</residential_listing_-_basic_features>
+
+<residential_listing_-_feature_details>
+<cooling>Air Conditioning, Central, Electric</cooling>
+<heating>Central, Zoned</heating>
+<patio>Patio</patio>
+<pool>Yes</pool>
+<rooms>Den, Family Room, Master Bedroom</rooms>
+<spa>Yes</spa>
+<view>Garden View, Pool View</view>
+</residential_listing_-_feature_details>
+
+<residential_listing_-_additional_features>
+Dishwasher, Foyer, Pantry
+</residential_listing_-_additional_features>
+
+</house_listing>
+
+
+
