@@ -1,4 +1,4 @@
-import NativePackagerHelper._
+import com.earldouglas.xwp.XwpPlugin
 
 lazy val root = (project in file("."))
   .settings(
@@ -46,5 +46,5 @@ lazy val root = (project in file("."))
       ,"edu.mit"                    %  "jwi"                % "2.2.3"
     )
   )
-  .settings(jetty(): _*)
+  .settings(XwpPlugin.jetty(): _*)
   .enablePlugins(RpmPlugin, JavaAppPackaging)
