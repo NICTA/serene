@@ -4,13 +4,14 @@ Serene is a data integration platform designed to provide semantic matching acro
 
 ### Prerequisites
 
-[Download](https://github.com/NICTA/data-integration) and build **data-integration** package with:
-
+You will need sbt to build and run the platform. On mac:
 ```
-sbt assembly
-sbt publishLocal
+brew install sbt
 ```
-
+on Debian linux
+```
+sudo apt-get install sbt
+```
 ## Usage
 Start the web server...
 ```
