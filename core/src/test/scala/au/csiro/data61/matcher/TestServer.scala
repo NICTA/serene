@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher
+package au.csiro.data61.core
 
 import java.net.InetSocketAddress
 import com.twitter.finagle.builder.ClientBuilder

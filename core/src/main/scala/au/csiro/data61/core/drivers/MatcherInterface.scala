@@ -15,16 +15,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher.drivers
+package au.csiro.data61.core.drivers
 
 import java.nio.file.Path
 
-import au.csiro.data61.matcher.api._
-import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
-import au.csiro.data61.matcher.types.ColumnTypes._
-import au.csiro.data61.matcher.types.DataSetTypes._
-import au.csiro.data61.matcher.types.ModelTypes._
-import au.csiro.data61.matcher.types._
+import au.csiro.data61.core.api._
+import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
+import au.csiro.data61.core.types.ColumnTypes._
+import au.csiro.data61.core.types.DataSetTypes._
+import au.csiro.data61.core.types.ModelTypes._
+import au.csiro.data61.core.types._
 import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime

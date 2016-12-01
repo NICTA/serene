@@ -28,13 +28,13 @@ object SereneBuild extends Build {
     * Serene Core module. Contains glue code, servers and communications...
     */
   lazy val core = Project(
-      id = "matcher",
+      id = "serene-core",
       base = file("core")
     )
     .settings(
 
       organization := "au.csiro.data61",
-      name := "matcher",
+      name := "serene-core",
       version := "0.1",
       scalaVersion := "2.11.8",
 

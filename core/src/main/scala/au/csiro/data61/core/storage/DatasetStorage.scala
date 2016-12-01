@@ -15,16 +15,16 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.matcher.storage
+package au.csiro.data61.core.storage
 
 import java.io._
 import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
-import au.csiro.data61.matcher.Config
-import au.csiro.data61.matcher.api.FileStream
-import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
-import au.csiro.data61.matcher.types.DataSetTypes._
-import au.csiro.data61.matcher.types._
+import au.csiro.data61.core.Config
+import au.csiro.data61.core.api.FileStream
+import au.csiro.data61.core.types.ColumnTypes.ColumnID
+import au.csiro.data61.core.types.DataSetTypes._
+import au.csiro.data61.core.types._
 import org.apache.commons.io.FilenameUtils
 import org.json4s._
 import org.json4s.jackson.JsonMethods._

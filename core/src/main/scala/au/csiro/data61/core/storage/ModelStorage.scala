@@ -15,16 +15,16 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.matcher.storage
+package au.csiro.data61.core.storage
 
 import java.io._
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.matcher.drivers.ModelTrainerPaths
-import au.csiro.data61.matcher.types.ModelTypes.Status.COMPLETE
-import au.csiro.data61.matcher.Config
-import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID, Status, TrainState}
+import au.csiro.data61.core.drivers.ModelTrainerPaths
+import au.csiro.data61.core.types.ModelTypes.Status.COMPLETE
+import au.csiro.data61.core.Config
+import au.csiro.data61.core.types.ModelTypes.{Model, ModelID, Status, TrainState}
 import com.github.tototoshi.csv.CSVWriter
 import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
 import org.apache.commons.io.FileUtils

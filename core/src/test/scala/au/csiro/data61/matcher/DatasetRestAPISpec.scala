@@ -15,12 +15,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher
+package au.csiro.data61.core
 
 import java.io.File
 import java.nio.file.Paths
 
-import au.csiro.data61.matcher.types.{MatcherJsonFormats, DataSet}
+import au.csiro.data61.core.types.{MatcherJsonFormats, DataSet}
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 

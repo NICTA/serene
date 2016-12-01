@@ -15,13 +15,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher.api
+package au.csiro.data61.core.api
 
 import java.io.{InputStream, FileInputStream}
-import au.csiro.data61.matcher.drivers.MatcherInterface
-import au.csiro.data61.matcher.types.{DataSet, DataSetTypes}
+import au.csiro.data61.core.drivers.MatcherInterface
+import au.csiro.data61.core.types.{DataSet, DataSetTypes}
 import DataSetTypes._
-import au.csiro.data61.matcher._
+import au.csiro.data61.core._
 import com.twitter.finagle.http.exp.Multipart
 import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpload}
 import com.twitter.io.BufReader

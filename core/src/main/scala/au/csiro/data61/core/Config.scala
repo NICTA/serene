@@ -15,27 +15,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher.api
-import au.csiro.data61.matcher.types.StatusMessage
-import io.finch._
+package au.csiro.data61.core
 
-import scala.language.postfixOps
+import com.typesafe.config.ConfigFactory
+import com.typesafe.scalalogging.LazyLogging
 
 /**
- * Alignment application object. Here we compose the endpoints
- * and serve as a Finagle Http Service forever.
- *
+ * This object loads in the configuration .conf
+ * file and parses the values into fields.
  */
-object AlignmentAPI extends RestAPI {
+object Config extends LazyLogging {
 
-  val status: Endpoint[StatusMessage] = get(APIVersion :: "alignment") {
-    Ok(StatusMessage("Not Implemented"))
-  }
+  private val conf = ConfigFactory.load()
 
-  val statusSingle: Endpoint[StatusMessage] = get(APIVersion :: "alignment" :: "1") {
-    Ok(StatusMessage("Not Implemented"))
-  }
+  val StoragePath = conf.getString("config.output-dir")
+  val DatasetStorageDir = conf.getString("config.output-dataset-dir")
+  val ModelStorageDir = conf.getString("config.output-model-dir")
 
-  val endpoints = status :+: statusSingle
+  val ServerAddress = conf.getString("config.server-address")
 
+  logger.info(s"Starting Server at $ServerAddress")
+  logger.info(s"Storage path at $StoragePath")
+  logger.info(s"Dataset repository at $DatasetStorageDir")
+  logger.info(s"Model repository at $ModelStorageDir")
 }

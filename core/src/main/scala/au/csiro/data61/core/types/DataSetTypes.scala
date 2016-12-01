@@ -15,12 +15,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher.types
+package au.csiro.data61.core.types
 
 import java.nio.file.Path
 
-import au.csiro.data61.matcher.types.ColumnTypes._
-import au.csiro.data61.matcher.types.DataSetTypes._
+import au.csiro.data61.core.types.ColumnTypes._
+import au.csiro.data61.core.types.DataSetTypes._
 import org.joda.time.DateTime
 import org.json4s._
 
@@ -44,12 +44,14 @@ object ColumnTypes {
 
 /**
  * StatusMessage (used for Testing)
+ *
  * @param status Status indicator
  */
 case class StatusMessage(status: String)
 
 /**
   * VersionMessage (used for Testing)
+ *
   * @param version The version string
   */
 case class VersionMessage(version: String)

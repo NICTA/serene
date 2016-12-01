@@ -15,10 +15,10 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.matcher
+package au.csiro.data61.core
 
-import au.csiro.data61.matcher.api._
-import au.csiro.data61.matcher.types.{MatcherJsonFormats}
+import au.csiro.data61.core.api._
+import au.csiro.data61.core.types.{MatcherJsonFormats}
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.language.postfixOps

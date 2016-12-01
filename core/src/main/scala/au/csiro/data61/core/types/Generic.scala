@@ -15,11 +15,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher.types
+package au.csiro.data61.core.types
 
 import java.nio.file.{Paths, Path}
 
-import au.csiro.data61.matcher.types.ModelTypes.StatusSerializer
+import au.csiro.data61.core.types.ModelTypes.StatusSerializer
 import org.json4s._
 
 /**

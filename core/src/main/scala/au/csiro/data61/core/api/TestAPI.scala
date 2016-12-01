@@ -15,9 +15,9 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.matcher.api
+package au.csiro.data61.core.api
 
-import au.csiro.data61.matcher.types.{VersionMessage, StatusMessage}
+import au.csiro.data61.core.types.{VersionMessage, StatusMessage}
 import io.finch._
 
 

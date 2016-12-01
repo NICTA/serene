@@ -15,9 +15,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher.api
+package au.csiro.data61.core.api
 
-import au.csiro.data61.matcher.types.MatcherJsonFormats
+import au.csiro.data61.core.types.MatcherJsonFormats
 import com.typesafe.scalalogging.LazyLogging
 import io.finch._
 

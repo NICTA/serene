@@ -15,28 +15,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher.api
+package au.csiro.data61.core.api
 
-import au.csiro.data61.matcher.types.StatusMessage
+import au.csiro.data61.core.types.StatusMessage
 import io.finch._
 
 import scala.language.postfixOps
 
 /**
- * Alignment application object. Here we compose the endpoints
+ * SSD application object. Here we compose the endpoints
  * and serve as a Finagle Http Service forever.
  *
  */
-object OwlAPI extends RestAPI {
+object SsdAPI extends RestAPI {
 
-  val asdf: Endpoint[StatusMessage] = get(APIVersion :: "owl") {
+  val status: Endpoint[StatusMessage] = get(APIVersion :: "ssd") {
     Ok(StatusMessage("Not Implemented"))
   }
 
-  val qwer: Endpoint[StatusMessage] = get(APIVersion :: "owl" :: "1") {
-    Ok(StatusMessage("Not Implemented"))
+  val statusSingle: Endpoint[StatusMessage] = get(APIVersion :: "ssd" :: int) {
+    (_: Int) =>
+      Ok(StatusMessage("Not Implemented"))
   }
 
-  val endpoints = asdf :+: qwer
+  val endpoints = status :+: statusSingle
 
 }

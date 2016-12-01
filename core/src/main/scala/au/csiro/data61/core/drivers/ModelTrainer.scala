@@ -15,13 +15,13 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.matcher.drivers
+package au.csiro.data61.core.drivers
 
 import java.nio.file.{Files, Paths}
 
-import au.csiro.data61.matcher.api.NotFoundException
-import au.csiro.data61.matcher.storage.{DatasetStorage, ModelStorage}
-import au.csiro.data61.matcher.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.core.api.NotFoundException
+import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
+import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
 import com.typesafe.scalalogging.LazyLogging
 
 // data integration project

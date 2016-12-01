@@ -15,27 +15,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.matcher
+package au.csiro.data61.core.api
 
-import com.typesafe.config.ConfigFactory
-import com.typesafe.scalalogging.LazyLogging
+import au.csiro.data61.core.types.StatusMessage
+import io.finch._
+
+import scala.language.postfixOps
 
 /**
- * This object loads in the configuration .conf
- * file and parses the values into fields.
+ * Alignment application object. Here we compose the endpoints
+ * and serve as a Finagle Http Service forever.
+ *
  */
-object Config extends LazyLogging {
+object OwlAPI extends RestAPI {
 
-  private val conf = ConfigFactory.load()
+  val asdf: Endpoint[StatusMessage] = get(APIVersion :: "owl") {
+    Ok(StatusMessage("Not Implemented"))
+  }
 
-  val StoragePath = conf.getString("config.output-dir")
-  val DatasetStorageDir = conf.getString("config.output-dataset-dir")
-  val ModelStorageDir = conf.getString("config.output-model-dir")
+  val qwer: Endpoint[StatusMessage] = get(APIVersion :: "owl" :: "1") {
+    Ok(StatusMessage("Not Implemented"))
+  }
 
-  val ServerAddress = conf.getString("config.server-address")
+  val endpoints = asdf :+: qwer
 
-  logger.info(s"Starting Server at $ServerAddress")
-  logger.info(s"Storage path at $StoragePath")
-  logger.info(s"Dataset repository at $DatasetStorageDir")
-  logger.info(s"Model repository at $ModelStorageDir")
 }
