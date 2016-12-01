@@ -21,8 +21,54 @@ object SereneBuild extends Build {
 
     mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene")
   )
-  .aggregate(core)
-  .dependsOn(core)
+  .aggregate(core, matcher)
+  .dependsOn(core, matcher)
+
+  /**
+    * Schema Matcher module
+    */
+  lazy val matcher = Project(
+      id = "serene-matcher",
+      base = file("matcher")
+    )
+    .settings(
+
+      name := "serene-matcher",
+      organization := "au.csiro.data61",
+      scalaVersion := "2.11.8",
+      fork := true,
+      version := "1.2.0-SNAPSHOT",
+
+      libraryDependencies ++= Seq(
+        "org.specs2"              %% "specs2-core"           % "2.3.11" % Test,
+        "org.specs2"              %% "specs2-matcher-extra"  % "2.3.11" % Test,
+        "org.specs2"              %% "specs2-gwt"            % "2.3.11" % Test,
+        "org.specs2"              %% "specs2-html"           % "2.3.11" % Test,
+        "org.specs2"              %% "specs2-form"           % "2.3.11" % Test,
+        "org.specs2"              %% "specs2-scalacheck"     % "2.3.11" % Test,
+        "org.specs2"              %% "specs2-mock"           % "2.3.11" % Test exclude("org.mockito", "mockito-core"),
+        "org.specs2"              %% "specs2-junit"          % "2.3.11" % Test,
+        "com.rubiconproject.oss"  %  "jchronic"              % "0.2.6",
+        "org.json4s"              %% "json4s-native"         % "3.3.0",
+        "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.8.2",
+        "com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0",
+        //    "org.json4s"              %% "json4s-jackson"         % "3.2.10",
+        "com.joestelmach"         %  "natty"                 % "0.8",
+        "org.apache.spark"        %%  "spark-core"           % "1.6.1",
+        "org.apache.spark"        %%  "spark-sql"            % "1.6.1",
+        "org.apache.spark"        %%  "spark-mllib"          % "1.6.1"
+      ),
+
+      resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),
+
+      initialCommands in console in Test := "import org.specs2._",
+
+      javaOptions in run ++= Seq("-Xms256M", "-Xmx2G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
+
+      javaOptions in test ++= Seq("-Xms256M", "-Xmx2G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
+
+      fork in Test := true
+    )
 
   /**
     * Serene Core module. Contains glue code, servers and communications...
@@ -61,9 +107,10 @@ object SereneBuild extends Build {
         ,"com.twitter"                %% "finagle-http"       % "6.35.0"
         ,"junit"                      %  "junit"              % "4.12"
         ,"com.typesafe"               %  "config"             % "1.3.0"
-        ,"au.com.nicta"               %% "data-integration"   % "1.2.0-SNAPSHOT"
+        //,"au.com.nicta"               %% "data-integration"   % "1.2.0-SNAPSHOT"
       )
     )
     .settings(jetty() : _*)
     .enablePlugins(RpmPlugin, JavaAppPackaging)
+    .dependsOn(matcher)
 }
