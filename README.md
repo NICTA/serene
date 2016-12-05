@@ -13,6 +13,10 @@ on Debian linux
 sudo apt-get install sbt
 ```
 ## Usage
+To compile:
+```
+sbt assembly
+```
 Start the web server...
 ```
 sbt run
