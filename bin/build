@@ -1,0 +1,21 @@
+
+
+command_exists () {
+    type "$1" > /dev/null 2>&1;
+}
+
+if ! command_exists sbt; then
+   echo "ERROR: Requires sbt v0.13 to be installed. Download from http://www.scala-sbt.org"
+   exit 1
+fi
+
+pushd "$(dirname "$0")" > /dev/null
+cd ..
+sbt assembly
+
+if [ ! -d jars ]; then
+   mkdir jars
+fi
+
+cp target/scala-2.11/serene-0.1.0.jar jars/
+popd > /dev/null
