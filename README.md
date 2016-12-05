@@ -71,10 +71,10 @@ curl -X POST \
           "ratio-alpha-chars",
           "prop-numerical-chars",
           "prop-whitespace-chars",
-          "prop-entries-with-at-sign", 
+          "prop-entries-with-at-sign",
           "prop-entries-with-hyphen",
           "prop-range-format",
-          "is-discrete", 
+          "is-discrete",
           "entropy-for-discrete-values"
         ],
         "activeFeatureGroups" : [
@@ -91,16 +91,13 @@ curl -X POST \
              {
               "name" : "prop-instances-per-class-in-knearestneighbours",
               "num-neighbours" : 3
-             },
-             {
+             }, {
               "name" : "min-editdistance-from-class-examples",
               "max-comparisons-per-class" : 20
-             },
-             {
+             }, {
               "name" : "min-wordnet-jcn-distance-from-class-examples",
               "max-comparisons-per-class" : 20
-             },
-             {
+             }, {
               "name" : "min-wordnet-lin-distance-from-class-examples",
               "max-comparisons-per-class" : 20
              }
@@ -130,10 +127,10 @@ curl -X POST \
           "ratio-alpha-chars",
           "prop-numerical-chars",
           "prop-whitespace-chars",
-          "prop-entries-with-at-sign", 
+          "prop-entries-with-at-sign",
           "prop-entries-with-hyphen",
           "prop-range-format",
-          "is-discrete", 
+          "is-discrete",
           "entropy-for-discrete-values"
         ],
         "activeFeatureGroups" : [
@@ -150,16 +147,13 @@ curl -X POST \
              {
               "name" : "prop-instances-per-class-in-knearestneighbours",
               "num-neighbours" : 3
-             },
-             {
+             }, {
               "name" : "min-editdistance-from-class-examples",
               "max-comparisons-per-class" : 20
-             },
-             {
+             }, {
               "name" : "min-wordnet-jcn-distance-from-class-examples",
               "max-comparisons-per-class" : 20
-             },
-             {
+             }, {
               "name" : "min-wordnet-lin-distance-from-class-examples",
               "max-comparisons-per-class" : 20
              }
