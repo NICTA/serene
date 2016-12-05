@@ -3,26 +3,52 @@ import com.typesafe.sbt.packager.archetypes.JavaAppPackaging
 import com.typesafe.sbt.packager.rpm._
 import sbt._
 import sbt.Keys._
+import sbtassembly.AssemblyPlugin
+
+//import sbtassembly.Plugin._
+
+import sbtassembly.AssemblyPlugin.autoImport._
 
 
 object SereneBuild extends Build {
+
+  lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
+
+    assemblyMergeStrategy in assembly := {
+      case f if f.startsWith("META-INF") => MergeStrategy.discard
+      case f if f.endsWith(".conf") => MergeStrategy.concat
+      case f if f.endsWith(".html") => MergeStrategy.first
+      case f if f.endsWith(".class") => MergeStrategy.first
+      case f =>
+        val oldStrategy = (assemblyMergeStrategy in assembly).value
+        oldStrategy(f)
+    },
+
+    test in assembly := {},
+
+    scalaVersion := "2.11.8"
+  )
 
   /**
     * Serene main module. Pulls in component projects..
     */
   lazy val root = Project(
-    id = "serene",
-    base = file(".")
-  )
-  .settings(
-    name := "serene",
-    version := "0.1",
-    scalaVersion := "2.11.8",
+      id = "serene",
+      base = file(".")
+    )
+    .settings(commonSettings)
+    .settings(
+      name := "serene",
+      version := "0.1.0",
 
-    mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene")
-  )
-  .aggregate(core, matcher)
-  .dependsOn(core, matcher)
+      mainClass in Compile := Some("au.csiro.data61.core.Serene"),
+
+      mainClass in assembly := Some("au.csiro.data61.core.Serene"),
+
+      assemblyJarName in assembly := s"serene-${version.value}.jar"
+    )
+    .aggregate(core, matcher)
+    .dependsOn(core, matcher)
 
   /**
     * Schema Matcher module
@@ -31,11 +57,10 @@ object SereneBuild extends Build {
       id = "serene-matcher",
       base = file("matcher")
     )
+    .settings(commonSettings)
     .settings(
-
       name := "serene-matcher",
       organization := "au.csiro.data61",
-      scalaVersion := "2.11.8",
       fork := true,
       version := "1.2.0-SNAPSHOT",
 
@@ -52,12 +77,13 @@ object SereneBuild extends Build {
         "org.json4s"              %% "json4s-native"         % "3.3.0",
         "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.8.2",
         "com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0",
-        //    "org.json4s"              %% "json4s-jackson"         % "3.2.10",
         "com.joestelmach"         %  "natty"                 % "0.8",
         "org.apache.spark"        %%  "spark-core"           % "1.6.1",
         "org.apache.spark"        %%  "spark-sql"            % "1.6.1",
         "org.apache.spark"        %%  "spark-mllib"          % "1.6.1"
       ),
+
+      test in assembly := {},
 
       resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),
 
@@ -77,39 +103,42 @@ object SereneBuild extends Build {
       id = "serene-core",
       base = file("core")
     )
+    .settings(sbtassembly.AssemblyPlugin.assemblySettings)
+    .settings(commonSettings)
     .settings(
+        organization := "au.csiro.data61",
+        name := "serene-core",
+        version := "0.1",
 
-      organization := "au.csiro.data61",
-      name := "serene-core",
-      version := "0.1",
-      scalaVersion := "2.11.8",
+        fork := true,
+        outputStrategy := Some(StdoutOutput),
+        scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+        resolvers += Resolver.sonatypeRepo("snapshots"),
+        parallelExecution in Test := false,
 
-      fork := true,
-      outputStrategy := Some(StdoutOutput),
-      scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
-      resolvers += Resolver.sonatypeRepo("snapshots"),
-      parallelExecution in Test := false,
+        test in assembly := {},
 
-      libraryDependencies ++= Seq(
-        "org.json4s"                  %% "json4s-jackson"     % "3.3.0"
-        ,"org.json4s"                 %% "json4s-native"      % "3.3.0"
-        ,"org.json4s"                 %% "json4s-ext"         % "3.3.0"
-        ,"ch.qos.logback"             %  "logback-classic"    % "1.1.3"            % "runtime"
-        ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
-        ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
-        ,"commons-io"                 %  "commons-io"         % "2.5"
-        ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
-        ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
-        ,"com.github.tototoshi"       %% "scala-csv"          % "1.3.1"
-        ,"com.github.finagle"         %% "finch-core"         % "0.10.0"
-        ,"com.github.finagle"         %% "finch-json4s"       % "0.10.0"
-        ,"com.github.finagle"         %% "finch-test"         % "0.10.0"
-        ,"com.twitter"                %% "finagle-http"       % "6.35.0"
-        ,"junit"                      %  "junit"              % "4.12"
-        ,"com.typesafe"               %  "config"             % "1.3.0"
-        //,"au.com.nicta"               %% "data-integration"   % "1.2.0-SNAPSHOT"
+        mainClass in assembly := Some("au.csiro.data61.core.Serene"),
+
+        libraryDependencies ++= Seq(
+          "org.json4s"                  %% "json4s-jackson"     % "3.3.0"
+          ,"org.json4s"                 %% "json4s-native"      % "3.3.0"
+          ,"org.json4s"                 %% "json4s-ext"         % "3.3.0"
+          ,"ch.qos.logback"             %  "logback-classic"    % "1.1.3"            % "runtime"
+          ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
+          ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
+          ,"commons-io"                 %  "commons-io"         % "2.5"
+          ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
+          ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+          ,"com.github.tototoshi"       %% "scala-csv"          % "1.3.1"
+          ,"com.github.finagle"         %% "finch-core"         % "0.10.0"
+          ,"com.github.finagle"         %% "finch-json4s"       % "0.10.0"
+          ,"com.github.finagle"         %% "finch-test"         % "0.10.0"
+          ,"com.twitter"                %% "finagle-http"       % "6.35.0"
+          ,"junit"                      %  "junit"              % "4.12"
+          ,"com.typesafe"               %  "config"             % "1.3.0"
+        )
       )
-    )
     .settings(jetty() : _*)
     .enablePlugins(RpmPlugin, JavaAppPackaging)
     .dependsOn(matcher)
