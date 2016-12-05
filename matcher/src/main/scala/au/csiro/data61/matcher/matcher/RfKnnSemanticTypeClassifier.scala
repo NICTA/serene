@@ -1,7 +1,7 @@
-package com.nicta.dataint.matcher
+package au.csiro.data61.matcher.matcher
 
-import com.nicta.dataint.data._
-import com.nicta.dataint.matcher.train.TrainAliases._
+import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.matcher.train.TrainAliases._
 
 trait SemanticTypeClassifier {
     def predict(datasets: List[DataModel]): PredictionObject

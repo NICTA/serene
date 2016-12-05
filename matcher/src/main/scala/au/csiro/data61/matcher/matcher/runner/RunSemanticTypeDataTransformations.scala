@@ -1,7 +1,7 @@
-package com.nicta.dataint.matcher.runner
+package au.csiro.data61.matcher.matcher.runner
 
-import com.nicta.dataint.ingestion.loader._
-import com.nicta.dataint.matcher.transformation._
+import au.csiro.data61.matcher.ingestion.loader._
+import au.csiro.data61.matcher.matcher.transformation._
 
 import scala.io._
 
@@ -15,7 +15,7 @@ import java.io._
  **/
 object RunSemanticTypeDataTransformations {
     val usageMessage = """Usage:
-                         #    java -cp prototype.jar com.nicta.dataint.matcher.runner.RunSemanticTypeDataTransformations <path-to-raw-data> <path-to-labels> <path-to-transformations> <path-to-output-folder>
+                         #    java -cp prototype.jar au.csiro.data61.matcher.matcher.runner.RunSemanticTypeDataTransformations <path-to-raw-data> <path-to-labels> <path-to-transformations> <path-to-output-folder>
                        """.stripMargin('#')
 
     def main(args: Array[String]) = {

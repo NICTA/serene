@@ -1,8 +1,8 @@
-package com.nicta.dataint.matcher.serializable
+package au.csiro.data61.matcher.matcher.serializable
 
 import org.apache.spark.ml.PipelineModel
 import org.apache.spark.ml.tuning.CrossValidatorModel
-import com.nicta.dataint.matcher.features._
+import au.csiro.data61.matcher.matcher.features._
 
 import java.io._
 

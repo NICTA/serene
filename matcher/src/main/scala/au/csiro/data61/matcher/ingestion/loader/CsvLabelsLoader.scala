@@ -1,4 +1,4 @@
-package com.nicta.dataint.ingestion.loader
+package au.csiro.data61.matcher.ingestion.loader
 
 import scala.io.Source
 

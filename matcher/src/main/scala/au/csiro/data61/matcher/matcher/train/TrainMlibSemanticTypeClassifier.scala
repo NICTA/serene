@@ -1,4 +1,4 @@
-package com.nicta.dataint.matcher.train
+package au.csiro.data61.matcher.matcher.train
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkConf
@@ -10,9 +10,9 @@ import org.apache.spark.ml.feature.{StringIndexer, IndexToString, VectorAssemble
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.ml.tuning.{CrossValidator,ParamGridBuilder}
 
-import com.nicta.dataint.data.{Attribute=>_,_}
-import com.nicta.dataint.matcher._
-import com.nicta.dataint.matcher.features._
+import au.csiro.data61.matcher.data.{Attribute=>_,_}
+import au.csiro.data61.matcher.matcher._
+import au.csiro.data61.matcher.matcher.features._
 
 import com.typesafe.scalalogging.LazyLogging
 

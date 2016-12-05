@@ -1,6 +1,6 @@
-package com.nicta.dataint.matcher.interface
+package au.csiro.data61.matcher.matcher.interface
 
-import com.nicta.dataint.data._
+import au.csiro.data61.matcher.data._
 
 trait Pager {
     val pageSize = 20

@@ -1,6 +1,6 @@
-package com.nicta.dataint.matcher.train
+package au.csiro.data61.matcher.matcher.train
 
-import com.nicta.dataint.data._
+import au.csiro.data61.matcher.data._
 
 object TrainAliases {
     type DMAttribute = Attribute

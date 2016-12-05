@@ -1,4 +1,4 @@
-package com.nicta.dataint.nlptools.semantic
+package au.csiro.data61.matcher.nlptools.semantic
 
 import scala.io._
 import scala.collection.JavaConverters._

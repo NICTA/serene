@@ -1,6 +1,6 @@
-package com.nicta.dataint.matcher.runner
+package au.csiro.data61.matcher.matcher.runner
 
-import com.nicta.dataint.matcher.interface.LabelManualInterface
+import au.csiro.data61.matcher.matcher.interface.LabelManualInterface
 
 object RunLabelManual {
     val usageMessage = """Usage:

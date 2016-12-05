@@ -1,10 +1,10 @@
-package com.nicta.dataint.matcher
+package au.csiro.data61.matcher.matcher
 
 import java.io.{File, PrintWriter}
 
-import com.nicta.dataint.data._
-import com.nicta.dataint.matcher.features._
-import com.nicta.dataint.matcher.train.TrainAliases._
+import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.matcher.features._
+import au.csiro.data61.matcher.matcher.train.TrainAliases._
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkConf
 import org.apache.spark.sql._

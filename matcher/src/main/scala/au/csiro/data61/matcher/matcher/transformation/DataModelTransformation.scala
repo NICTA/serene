@@ -1,6 +1,6 @@
-package com.nicta.dataint.matcher.transformation
+package au.csiro.data61.matcher.matcher.transformation
 
-import com.nicta.dataint.data._
+import au.csiro.data61.matcher.data._
 
 import sys.process._
 import java.io._

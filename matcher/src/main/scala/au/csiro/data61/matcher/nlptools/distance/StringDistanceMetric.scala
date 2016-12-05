@@ -1,4 +1,4 @@
-package com.nicta.dataint.nlptools.distance
+package au.csiro.data61.matcher.nlptools.distance
 
 trait StringDistanceMetric {
     def computeDistance(str1: String, str2: String): Double

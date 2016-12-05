@@ -1,4 +1,4 @@
-package com.nicta.dataint.matcher.features
+package au.csiro.data61.matcher.matcher.features
 
 import org.json4s._
 import org.json4s.native.JsonMethods._

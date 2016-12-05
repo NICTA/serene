@@ -1,4 +1,4 @@
-package com.nicta.dataint.nlptools.distance
+package au.csiro.data61.matcher.nlptools.distance
 
 import fr.inrialpes.exmo.ontosim.string._
 

@@ -1,4 +1,4 @@
-package com.nicta.dataint.matcher.runner
+package au.csiro.data61.matcher.matcher.runner
 
 import scala.io._
 
@@ -14,7 +14,7 @@ object RunSemanticTypePredictionValidation {
     val dateFormat = new java.text.SimpleDateFormat("yyyy/MM/dd")
 
     val usageMessage = """Usage:
-                         #    java -cp prototype.jar com.nicta.dataint.matcher.runner.RunSemanticTypePredictionValidation [options] <path-to-predictions-file>
+                         #    java -cp prototype.jar au.csiro.data61.matcher.matcher.runner.RunSemanticTypePredictionValidation [options] <path-to-predictions-file>
                          # 
                          #Options:
                          #    -i <path_to_class_list>:  Run interactive mode.

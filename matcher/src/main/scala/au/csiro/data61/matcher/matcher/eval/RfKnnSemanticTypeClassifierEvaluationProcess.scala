@@ -1,12 +1,12 @@
-package com.nicta.dataint.matcher.eval
+package au.csiro.data61.matcher.matcher.eval
 
 import scala.util._
 
-import com.nicta.dataint.data._
-import com.nicta.dataint.ingestion.loader._
-import com.nicta.dataint.matcher.eval.EvalTypes._
-import com.nicta.dataint.matcher.train._
-import com.nicta.dataint.matcher.features._
+import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.ingestion.loader._
+import au.csiro.data61.matcher.matcher.eval.EvalTypes._
+import au.csiro.data61.matcher.matcher.train._
+import au.csiro.data61.matcher.matcher.features._
 
 package object EvalTypes {
     type PredictionWithGt = (String,String)

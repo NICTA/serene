@@ -1,6 +1,6 @@
-package com.nicta.dataint.matcher.runner
+package au.csiro.data61.matcher.matcher.runner
 
-import com.nicta.dataint.matcher.interface.InteractiveTypeClassifierInterface
+import au.csiro.data61.matcher.matcher.interface.InteractiveTypeClassifierInterface
 
 object RunInteractiveTypeClassifier {
     val usageMessage = """Usage:

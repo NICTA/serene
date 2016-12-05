@@ -1,8 +1,8 @@
-package com.nicta.dataint.matcher.features
+package au.csiro.data61.matcher.matcher.features
 
-import com.nicta.dataint.data._
-import com.nicta.dataint.nlptools.tokenizer._
-import com.nicta.dataint.nlptools.parser._
+import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.nlptools.tokenizer._
+import au.csiro.data61.matcher.nlptools.parser._
 
 import scala.util.Random
 import com.typesafe.scalalogging.LazyLogging

@@ -1,13 +1,13 @@
-package com.nicta.dataint.ingestion.loader
+package au.csiro.data61.matcher.ingestion.loader
 
 import java.io.File
 
 import scala.io.Source
 
-import com.nicta.dataint.data.Metadata
-import com.nicta.dataint.data.DataModel
-import com.nicta.dataint.data.Attribute
-import com.nicta.dataint.data._
+import au.csiro.data61.matcher.data.Metadata
+import au.csiro.data61.matcher.data.DataModel
+import au.csiro.data61.matcher.data.Attribute
+import au.csiro.data61.matcher.data._
 
 case class CSVDataLoader(val id: String = "", val encoding: String = "utf-8") extends FileLoaderTrait[DataModel] {
 

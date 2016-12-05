@@ -1,7 +1,7 @@
-package com.nicta.dataint.matcher.interface
+package au.csiro.data61.matcher.matcher.interface
 
-import com.nicta.dataint.ingestion.loader._
-import com.nicta.dataint.data._
+import au.csiro.data61.matcher.ingestion.loader._
+import au.csiro.data61.matcher.data._
 
 import java.io._
 

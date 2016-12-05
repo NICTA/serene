@@ -1,9 +1,9 @@
-package com.nicta.dataint.matcher.features
+package au.csiro.data61.matcher.matcher.features
 
-import com.nicta.dataint.data._
-import com.nicta.dataint.nlptools.distance._
-import com.nicta.dataint.nlptools.parser._
-import com.nicta.dataint.nlptools.tokenizer._
+import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.nlptools.distance._
+import au.csiro.data61.matcher.nlptools.parser._
+import au.csiro.data61.matcher.nlptools.tokenizer._
 
 import edu.cmu.lti.ws4j._
 

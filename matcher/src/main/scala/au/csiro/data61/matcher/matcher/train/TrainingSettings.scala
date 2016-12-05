@@ -1,6 +1,6 @@
-package com.nicta.dataint.matcher.train
+package au.csiro.data61.matcher.matcher.train
 
-import com.nicta.dataint.matcher.features._
+import au.csiro.data61.matcher.matcher.features._
 
 case class TrainingSettings(
     val resamplingStrategy: String,

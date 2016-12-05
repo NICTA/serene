@@ -1,7 +1,7 @@
-package com.nicta.dataint.nlptools.distance
+package au.csiro.data61.matcher.nlptools.distance
 
 import edu.cmu.lti.ws4j._
-import com.nicta.dataint.nlptools.tokenizer._
+import au.csiro.data61.matcher.nlptools.tokenizer._
 
 case class WS4JWordNetDistanceMetric(val algorithm: (String,String) => Double = WS4J.runWUP _) extends StringDistanceMetric {
 

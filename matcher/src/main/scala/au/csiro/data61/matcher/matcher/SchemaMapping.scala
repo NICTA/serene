@@ -1,5 +1,5 @@
-package com.nicta.dataint.matcher
+package au.csiro.data61.matcher.matcher
 
-import com.nicta.dataint.data._
+import au.csiro.data61.matcher.data._
 
 case class SchemaMapping(a1: Attribute, a2: Attribute, confidence: Double)

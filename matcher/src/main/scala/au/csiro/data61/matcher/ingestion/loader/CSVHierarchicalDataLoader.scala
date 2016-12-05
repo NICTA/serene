@@ -1,13 +1,13 @@
-package com.nicta.dataint.ingestion.loader
+package au.csiro.data61.matcher.ingestion.loader
 
 import java.io.File
 import java.nio.file.Paths
 
 import scala.io.Source
 
-import com.nicta.dataint.data.Metadata
-import com.nicta.dataint.data.DataModel
-import com.nicta.dataint.data.Attribute
+import au.csiro.data61.matcher.data.Metadata
+import au.csiro.data61.matcher.data.DataModel
+import au.csiro.data61.matcher.data.Attribute
 
 case class CSVHierarchicalDataLoader(val encoding: String = "utf-8") {
 

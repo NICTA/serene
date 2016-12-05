@@ -1,4 +1,4 @@
-package com.nicta.dataint.data
+package au.csiro.data61.matcher.data
 
 abstract class AbstractDataModel {
     def id: String

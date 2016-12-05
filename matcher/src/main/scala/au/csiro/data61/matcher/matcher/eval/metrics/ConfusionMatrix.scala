@@ -1,4 +1,4 @@
-package com.nicta.dataint.matcher.eval.metrics
+package au.csiro.data61.matcher.matcher.eval.metrics
 
 case class ConfusionMatrix(val numTruePositive: Int, val numFalsePositive: Int,
 	                       val numTrueNegative: Int, val numFalseNegative: Int) {

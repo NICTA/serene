@@ -1,9 +1,9 @@
-package com.nicta.dataint.matcher.runner
+package au.csiro.data61.matcher.matcher.runner
 
-import com.nicta.dataint.data._
-import com.nicta.dataint.matcher._
-import com.nicta.dataint.matcher.features._
-import com.nicta.dataint.matcher.eval.datasetutils._
+import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.matcher._
+import au.csiro.data61.matcher.matcher.features._
+import au.csiro.data61.matcher.matcher.eval.datasetutils._
 
 import collection.parallel.ForkJoinTasks.defaultForkJoinPool._
 

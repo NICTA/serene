@@ -1,8 +1,8 @@
-package com.nicta.dataint.nlptools.tokenizer
+package au.csiro.data61.matcher.nlptools.tokenizer
 
 import scala.io._
 
-import com.nicta.dataint.util._
+import au.csiro.data61.matcher.util._
 
 object StringTokenizer {
     lazy val dictionary = Source.fromInputStream(getClass.getClassLoader.getResourceAsStream("dict/infochimps/words.txt")).getLines.toSet

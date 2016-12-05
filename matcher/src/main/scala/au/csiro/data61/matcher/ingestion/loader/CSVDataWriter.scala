@@ -1,15 +1,15 @@
-package com.nicta.dataint.ingestion.loader
+package au.csiro.data61.matcher.ingestion.loader
 
 import java.nio.file.Paths
 
-import com.nicta.dataint.data._
-import com.nicta.dataint.matcher._
-import com.nicta.dataint.matcher.eval.datasetutils._
-import com.nicta.dataint.matcher.eval.metrics._
-import com.nicta.dataint.ingestion.loader._
-import com.nicta.dataint.nlptools.distance.LCSubsequenceDistanceMetric
+import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.matcher._
+import au.csiro.data61.matcher.matcher.eval.datasetutils._
+import au.csiro.data61.matcher.matcher.eval.metrics._
+import au.csiro.data61.matcher.ingestion.loader._
+import au.csiro.data61.matcher.nlptools.distance.LCSubsequenceDistanceMetric
 
-import com.nicta.dataint.matcher.train._
+import au.csiro.data61.matcher.matcher.train._
 
 import java.io._
 

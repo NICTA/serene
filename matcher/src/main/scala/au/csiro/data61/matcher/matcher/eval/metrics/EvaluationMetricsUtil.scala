@@ -1,4 +1,4 @@
-package com.nicta.dataint.matcher.eval.metrics
+package au.csiro.data61.matcher.matcher.eval.metrics
 
 import scala.util._
 

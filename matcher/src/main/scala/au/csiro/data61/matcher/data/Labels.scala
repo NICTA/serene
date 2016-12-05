@@ -1,6 +1,6 @@
-package com.nicta.dataint.data
+package au.csiro.data61.matcher.data
 
-import com.nicta.dataint.data.LabelTypes._
+import au.csiro.data61.matcher.data.LabelTypes._
 
 package object LabelTypes {
     type EquivalentSet = Set[String]

@@ -1,4 +1,4 @@
-package com.nicta.dataint.nlptools.tokenizer
+package au.csiro.data61.matcher.nlptools.tokenizer
 
 /**
  * Scala implementation of Porter's stemming algorithm.

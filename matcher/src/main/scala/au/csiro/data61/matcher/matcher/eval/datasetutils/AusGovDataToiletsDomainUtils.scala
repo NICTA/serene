@@ -1,8 +1,8 @@
-package com.nicta.dataint.matcher.eval.datasetutils
+package au.csiro.data61.matcher.matcher.eval.datasetutils
 
-import com.nicta.dataint.data._
-import com.nicta.dataint.ingestion.loader._
-import com.nicta.dataint.matcher.eval._
+import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.ingestion.loader._
+import au.csiro.data61.matcher.matcher.eval._
 
 import scala.util._
 

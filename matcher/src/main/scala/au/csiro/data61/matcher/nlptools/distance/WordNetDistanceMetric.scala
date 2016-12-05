@@ -1,6 +1,6 @@
-package com.nicta.dataint.nlptools.distance
+package au.csiro.data61.matcher.nlptools.distance
 
-import com.nicta.dataint.nlptools.semantic._
+import au.csiro.data61.matcher.nlptools.semantic._
 
 import scala.math._
 

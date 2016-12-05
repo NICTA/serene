@@ -1,7 +1,7 @@
-package com.nicta.dataint.ingestion.loader
+package au.csiro.data61.matcher.ingestion.loader
 
-import com.nicta.dataint.data.LabelTypes._
-import com.nicta.dataint.data._
+import au.csiro.data61.matcher.data.LabelTypes._
+import au.csiro.data61.matcher.data._
 import scala.io.Source
 
 import java.io._

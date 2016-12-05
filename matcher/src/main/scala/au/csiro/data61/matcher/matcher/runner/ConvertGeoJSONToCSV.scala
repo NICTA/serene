@@ -1,4 +1,4 @@
-package com.nicta.dataint.matcher.runner
+package au.csiro.data61.matcher.matcher.runner
 
 import java.io._
 import scala.io._

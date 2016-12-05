@@ -1,9 +1,9 @@
-package com.nicta.dataint.matcher.features
+package au.csiro.data61.matcher.matcher.features
 
-import com.nicta.dataint.data._
-import com.nicta.dataint.matcher.train.TrainAliases._
-import com.nicta.dataint.matcher.train.TrainingSettings
-import com.nicta.dataint.matcher._
+import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.matcher.train.TrainAliases._
+import au.csiro.data61.matcher.matcher.train.TrainingSettings
+import au.csiro.data61.matcher.matcher._
 
 import com.typesafe.scalalogging.LazyLogging
 import scala.util._

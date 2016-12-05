@@ -1,11 +1,11 @@
-package com.nicta.dataint.matcher.train
+package au.csiro.data61.matcher.matcher.train
 
-import com.nicta.dataint.data.LabelTypes._
-import com.nicta.dataint.data._
-import com.nicta.dataint.matcher._
-import com.nicta.dataint.matcher.features._
+import au.csiro.data61.matcher.data.LabelTypes._
+import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.matcher._
+import au.csiro.data61.matcher.matcher.features._
 
-import com.nicta.dataint.matcher.train.TrainAliases._
+import au.csiro.data61.matcher.matcher.train.TrainAliases._
 
 import scala.util._
 

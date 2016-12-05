@@ -1,8 +1,8 @@
-package com.nicta.dataint.nlptools.parser
+package au.csiro.data61.matcher.nlptools.parser
 
 import com.joestelmach.natty._
 import java.util.Calendar
-import com.nicta.dataint.data._
+import au.csiro.data61.matcher.data._
 
 import com.mdimension.jchronic._
 import com.mdimension.jchronic.tags._
