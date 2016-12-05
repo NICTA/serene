@@ -64,15 +64,54 @@ curl -X POST \
     "description": "This is the description",
     "modelType": "randomForest",
     "classes": ["name", "address", "phone", "unknown"],
-    "features": { "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
-        "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
-        "featureExtractorParams" : [{"name" : "prop-instances-per-class-in-knearestneighbours","num-neighbours" : 5}]
+    "features": { "activeFeatures" : [
+          "num-unique-vals",
+          "prop-unique-vals",
+          "prop-missing-vals",
+          "ratio-alpha-chars",
+          "prop-numerical-chars",
+          "prop-whitespace-chars",
+          "prop-entries-with-at-sign", 
+          "prop-entries-with-hyphen",
+          "prop-range-format",
+          "is-discrete", 
+          "entropy-for-discrete-values"
+        ],
+        "activeFeatureGroups" : [
+          "inferred-data-type",
+          "stats-of-text-length",
+          "stats-of-numeric-type",
+          "prop-instances-per-class-in-knearestneighbours",
+          "mean-character-cosine-similarity-from-class-examples",
+          "min-editdistance-from-class-examples",
+          "min-wordnet-jcn-distance-from-class-examples",
+          "min-wordnet-lin-distance-from-class-examples"
+        ],
+        "featureExtractorParams" : [
+             {
+              "name" : "prop-instances-per-class-in-knearestneighbours",
+              "num-neighbours" : 3
+             },
+             {
+              "name" : "min-editdistance-from-class-examples",
+              "max-comparisons-per-class" : 20
+             },
+             {
+              "name" : "min-wordnet-jcn-distance-from-class-examples",
+              "max-comparisons-per-class" : 20
+             },
+             {
+              "name" : "min-wordnet-lin-distance-from-class-examples",
+              "max-comparisons-per-class" : 20
+             }
+           ]
         },
     "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
-    "labelData" : {"1" : "name", "1817136897" : "unknown", "1498946589" : "name", "134383522" : "phone", "463734360" : "address"},
+    "labelData" : {"1696954974" : "name", "66413956": "address"},
     "resamplingStrategy": "ResampleToMean"
     }' \
   localhost:8080/v1.0/model
+
 
 # Show a single model
 curl localhost:8080/v1.0/model/12341234
@@ -83,17 +122,55 @@ curl -X POST \
   -d '{
     "description": "This is the description",
     "modelType": "randomForest",
-    "labels": ["name", "address", "phone"],
-    "features": { "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
-        "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
-        "featureExtractorParams" : [{"name" : "prop-instances-per-class-in-knearestneighbours","num-neighbours" : 5}]
+    "classes": ["name", "address", "phone", "unknown"],
+    "features": { "activeFeatures" : [
+          "num-unique-vals",
+          "prop-unique-vals",
+          "prop-missing-vals",
+          "ratio-alpha-chars",
+          "prop-numerical-chars",
+          "prop-whitespace-chars",
+          "prop-entries-with-at-sign", 
+          "prop-entries-with-hyphen",
+          "prop-range-format",
+          "is-discrete", 
+          "entropy-for-discrete-values"
+        ],
+        "activeFeatureGroups" : [
+          "inferred-data-type",
+          "stats-of-text-length",
+          "stats-of-numeric-type",
+          "prop-instances-per-class-in-knearestneighbours",
+          "mean-character-cosine-similarity-from-class-examples",
+          "min-editdistance-from-class-examples",
+          "min-wordnet-jcn-distance-from-class-examples",
+          "min-wordnet-lin-distance-from-class-examples"
+        ],
+        "featureExtractorParams" : [
+             {
+              "name" : "prop-instances-per-class-in-knearestneighbours",
+              "num-neighbours" : 3
+             },
+             {
+              "name" : "min-editdistance-from-class-examples",
+              "max-comparisons-per-class" : 20
+             },
+             {
+              "name" : "min-wordnet-jcn-distance-from-class-examples",
+              "max-comparisons-per-class" : 20
+             },
+             {
+              "name" : "min-wordnet-lin-distance-from-class-examples",
+              "max-comparisons-per-class" : 20
+             }
+           ]
         },
-    "training": {"n": 10},
     "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
-    "userData" : {"1" : "name", "1817136897" : "unknown", "1498946589" : "name", "134383522" : "phone", "463734360" : "address"},
+    "labelData" : {"1696954974" : "name", "66413956": "address"},
     "resamplingStrategy": "ResampleToMean"
     }' \
-  localhost:8080/v1.0/model/98793874
+  localhost:8080/v1.0/model
+
 
 # Train model (async, use GET on model 98793874 to query state)
 curl -X POST localhost:8080/v1.0/model/98793874/train
