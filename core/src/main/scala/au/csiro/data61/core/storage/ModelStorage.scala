@@ -26,7 +26,7 @@ import au.csiro.data61.core.types.ModelTypes.Status.COMPLETE
 import au.csiro.data61.core.Config
 import au.csiro.data61.core.types.ModelTypes.{Model, ModelID, Status, TrainState}
 import com.github.tototoshi.csv.CSVWriter
-import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
+import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
 import org.json4s._

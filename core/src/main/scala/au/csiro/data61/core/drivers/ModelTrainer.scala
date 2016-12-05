@@ -25,11 +25,11 @@ import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
 import com.typesafe.scalalogging.LazyLogging
 
 // data integration project
-import com.nicta.dataint.data.{DataModel, SemanticTypeLabels}
-import com.nicta.dataint.ingestion.loader.{CSVDataLoader, SemanticTypeLabelsLoader}
-import com.nicta.dataint.matcher.features.FeatureSettings
-import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
-import com.nicta.dataint.matcher.train.{TrainMlibSemanticTypeClassifier, TrainingSettings}
+import au.csiro.data61.matcher.data.{DataModel, SemanticTypeLabels}
+import au.csiro.data61.matcher.ingestion.loader.{CSVDataLoader, SemanticTypeLabelsLoader}
+import au.csiro.data61.matcher.matcher.features.FeatureSettings
+import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
+import au.csiro.data61.matcher.matcher.train.{TrainMlibSemanticTypeClassifier, TrainingSettings}
 
 case class ModelTrainerPaths(curModel: Model,
                              workspacePath: String,

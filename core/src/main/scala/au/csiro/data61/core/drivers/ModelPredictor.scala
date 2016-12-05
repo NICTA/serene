@@ -26,14 +26,14 @@ import au.csiro.data61.core.types.DataSetTypes.DataSetID
 import au.csiro.data61.core.types.ModelTypes.ModelID
 import au.csiro.data61.core.types.{ColumnPrediction, DataSetPrediction}
 import com.github.tototoshi.csv.CSVReader
-import com.nicta.dataint.matcher.MLibSemanticTypeClassifier
+import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.util.{Failure, Success, Try}
 
 // data integration project
-import com.nicta.dataint.ingestion.loader.CSVHierarchicalDataLoader
-import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
+import au.csiro.data61.matcher.ingestion.loader.CSVHierarchicalDataLoader
+import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 
 import scala.language.postfixOps
 
