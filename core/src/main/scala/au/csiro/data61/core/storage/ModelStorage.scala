@@ -23,7 +23,7 @@ import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.drivers.ModelTrainerPaths
 import au.csiro.data61.core.types.ModelTypes.Status.COMPLETE
-import au.csiro.data61.core.Config
+import au.csiro.data61.core.{Serene, Config}
 import au.csiro.data61.core.types.ModelTypes.{Model, ModelID, Status, TrainState}
 import com.github.tototoshi.csv.CSVWriter
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
@@ -55,7 +55,7 @@ object ModelStorage extends Storage[ModelID, Model] {
 
   implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
-  def rootDir: String = new File(Config.ModelStorageDir).getAbsolutePath
+  def rootDir: String = new File(Serene.config.modelStorageDir).getAbsolutePath
 
   //override val cache = collection.mutable.Map(listValues.map(m => m.id -> m).toSeq: _*)
 

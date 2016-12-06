@@ -137,6 +137,7 @@ object SereneBuild extends Build {
           ,"com.twitter"                %% "finagle-http"       % "6.35.0"
           ,"junit"                      %  "junit"              % "4.12"
           ,"com.typesafe"               %  "config"             % "1.3.0"
+          ,"com.github.scopt"           %% "scopt"              % "3.5.0"
         )
       )
     .settings(jetty() : _*)

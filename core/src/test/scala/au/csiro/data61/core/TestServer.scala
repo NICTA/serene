@@ -32,11 +32,11 @@ class TestServer {
   implicit val s = this
 
   val server = Serene.defaultServer
-  val client = Http.newService(Serene.Address)
+  val client = Http.newService(Serene.serverAddress)
 
   val JsonHeader = "application/json;charset=utf-8"
 
-  def fullUrl(path: String): String = s"http://${Serene.Address}$path"
+  def fullUrl(path: String): String = s"http://${Serene.serverAddress}$path"
 
   /**
    * Helper function to build a get request
@@ -59,7 +59,6 @@ class TestServer {
     val request = http.Request(http.Method.Delete, path)
     Await.result(client(request))
   }
-
 
   /**
    * Close the server and client after each test

@@ -21,21 +21,95 @@ import com.typesafe.config.ConfigFactory
 import com.typesafe.scalalogging.LazyLogging
 
 /**
- * This object loads in the configuration .conf
- * file and parses the values into fields.
+ * This class holds the options for the command line user args
  */
+case class ConfigArgs(storagePath: Option[String] = None,
+                      serverHost: Option[String] = None,
+                      serverPort: Option[Int] = None)
+
+/**
+  * This object loads in the configuration .conf
+  * file and parses the values into fields.
+  */
+case class Config(storagePath: String,
+                  datasetStorageDir: String,
+                  modelStorageDir: String,
+                  serverHost: String,
+                  serverPort: Int) extends LazyLogging
+
 object Config extends LazyLogging {
 
-  private val conf = ConfigFactory.load()
+  protected val parser = new scopt.OptionParser[ConfigArgs]("server-start") {
+    head("Serene", "0.1.0")
 
-  val StoragePath = conf.getString("config.output-dir")
-  val DatasetStorageDir = conf.getString("config.output-dataset-dir")
-  val ModelStorageDir = conf.getString("config.output-model-dir")
+    opt[String]("storage-path") action { (x, c) =>
+      c.copy(storagePath = Some(x))
+    } text "Storage Path determines the directory in which to store all files and objects"
 
-  val ServerAddress = conf.getString("config.server-address")
+    opt[String]("host") action { (x, c) =>
+      c.copy(serverHost = Some(x))
+    } text "Server host address (default 127.0.0.1)"
 
-  logger.info(s"Starting Server at $ServerAddress")
-  logger.info(s"Storage path at $StoragePath")
-  logger.info(s"Dataset repository at $DatasetStorageDir")
-  logger.info(s"Model repository at $ModelStorageDir")
+    opt[Int]("port") action { (x, c) =>
+      c.copy(serverPort = Some(x))
+    } text "Server port number (default 8080)"
+
+    help("help") text "Prints this usage text"
+  }
+
+  protected def buildArgs(args: Array[String]): ConfigArgs = {
+    // parser.parse returns Option[C]
+    parser.parse(args, ConfigArgs()) map { config =>
+      config
+    } getOrElse {
+      logger.error("Failed to parse arguments")
+      // arguments are bad, usage message will have been displayed
+      throw new Exception("Failed to parse arguments.")
+    }
+  }
+
+  /**
+    * Constructor from main application args. Here the arguments are parsed,
+    * and if not present, are replaced with the default from application.conf
+    *
+    * @param args
+    * @return
+    */
+  def apply(args: Array[String]): Config = {
+
+    val conf = ConfigFactory.load()
+
+    val userArgs = buildArgs(args)
+
+    // first we grab the defaults...
+    val defaultStoragePath = conf.getString("config.output-dir")
+    val defaultServerHost = conf.getString("config.server-host")
+    val defaultServerPort = conf.getString("config.server-port")
+
+    val storagePath = userArgs.storagePath.getOrElse(defaultStoragePath)
+    val serverHost = userArgs.serverHost.getOrElse(defaultServerHost)
+    val serverPort = userArgs.serverPort.getOrElse(defaultServerPort.toInt)
+
+    // The model and dataset location are calculated differently, they
+    // are subdirectories of the storage location and are not available
+    // to the user...
+    val DatasetDirName = conf.getString("config.output-dataset-dir")
+    val ModelDirName = conf.getString("config.output-model-dir")
+
+    val dataSetStorageDir = s"$storagePath/$DatasetDirName"
+    val modelStorageDir = s"$storagePath/$ModelDirName"
+
+    logger.info(s"Starting Server at host=$serverHost port=$serverPort")
+    logger.info(s"Storage path at $storagePath")
+    logger.info(s"Dataset repository at $dataSetStorageDir")
+    logger.info(s"Model repository at $modelStorageDir")
+
+    Config(
+      storagePath = storagePath,
+      datasetStorageDir = dataSetStorageDir,
+      modelStorageDir = modelStorageDir,
+      serverHost = serverHost,
+      serverPort = serverPort
+    )
+  }
 }

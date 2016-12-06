@@ -21,7 +21,6 @@ import java.io.{InputStream, FileInputStream}
 import au.csiro.data61.core.drivers.MatcherInterface
 import au.csiro.data61.core.types.{DataSet, DataSetTypes}
 import DataSetTypes._
-import au.csiro.data61.core._
 import com.twitter.finagle.http.exp.Multipart
 import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpload}
 import com.twitter.io.BufReader

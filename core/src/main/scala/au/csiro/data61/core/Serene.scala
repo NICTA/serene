@@ -17,8 +17,10 @@
   */
 package au.csiro.data61.core
 
+import java.util.Calendar
+
 import au.csiro.data61.core.api._
-import au.csiro.data61.core.types.{MatcherJsonFormats}
+import au.csiro.data61.core.types.MatcherJsonFormats
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.language.postfixOps
@@ -28,11 +30,23 @@ import com.twitter.finagle.{ListeningServer, Http}
 import io.finch._
 import io.finch.json4s._
 
-
+/**
+  * Main object for Serene server. We use the App object to access the
+  * cmd line args ahead of the main function. We then combine all
+  * Finch endpoints and protect with high level error handlers, then
+  * serve the API.
+  */
 object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
 
-  val Address = Config.ServerAddress
+  val version = "0.1.0"
 
+  def echo(msg: String) { Console println msg }
+
+  // Initialize with defaults....
+  logger.info("Initializing with default params...")
+  var config = Config(args = Array.empty[String])
+
+  // the full api handler
   val endpoints =
     DatasetAPI.endpoints :+:
       ModelAPI.endpoints :+:
@@ -41,28 +55,57 @@ object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
       SsdAPI.endpoints :+:
       TestAPI.endpoints
 
-  val restAPI = endpoints.handle {
-    case e @ InternalException(msg) =>
-      logger.error(s"Internal server error: $msg")
-      InternalServerError(e)
-    case e @ ParseException(msg) =>
-      logger.error(s"Parse exception error: $msg")
-      InternalServerError(e)
-    case e @ BadRequestException(msg) =>
-      logger.error(s"Bad request exception: $msg")
-      BadRequest(e)
-    case e @ NotFoundException(msg) =>
-      logger.error(s"Resource not found exception: $msg")
-      NotFound(e)
-    case e: Exception =>
-      logger.error(s"Error: ${e.getMessage}")
-      InternalServerError(e)
+  val restAPI = {
+    endpoints.handle {
+      case e@InternalException(msg) =>
+        logger.error(s"Internal server error: $msg")
+        InternalServerError(e)
+      case e@ParseException(msg) =>
+        logger.error(s"Parse exception error: $msg")
+        InternalServerError(e)
+      case e@BadRequestException(msg) =>
+        logger.error(s"Bad request exception: $msg")
+        BadRequest(e)
+      case e@NotFoundException(msg) =>
+        logger.error(s"Resource not found exception: $msg")
+        NotFound(e)
+      case e: Exception =>
+        logger.error(s"Error: ${e.getMessage}")
+        InternalServerError(e)
+    }
+
   }
 
-  def defaultServer: ListeningServer = Http.serve(Address, restAPI.toService)
+  // the server address
+  def serverAddress: String = s"${config.serverHost}:${config.serverPort}"
+
+  def defaultServer: ListeningServer = {
+    Http.serve("0.0.0.0:8080", restAPI.toService)
+  }
 
   def main(args: Array[String]): Unit = {
-    logger.info("Start HTTP server on port " + Address)
+
+    // start the server...
+    logger.info("Reading command line args...")
+
+    config = Config(args)
+
+    logger.info(s"Start HTTP server on $serverAddress")
+
+    echo(raw"""*
+      |*  ${Calendar.getInstance.getTime}
+      |*
+      |*
+      |*    __|   _ \   __|  _ \   __ \   _ \
+      |*  \__  \  __/  |     __/  |   |   __/
+      |*  ____/ \___| _|   \___| _|  _| \___|
+      |*
+      |*
+      |*  Version: $version
+      |*  Host: ${config.serverHost}
+      |*  Port: ${config.serverPort}
+      |*""".stripMargin)
+
     Await.ready(defaultServer)
   }
 }

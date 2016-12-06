@@ -40,7 +40,7 @@ import scala.concurrent.duration._
 
 import api._
 import au.csiro.data61.core.storage.ModelStorage
-import com.nicta.dataint.matcher.serializable.SerializableMLibClassifier
+import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import com.twitter.finagle.http
 
 import language.postfixOps
@@ -76,16 +76,6 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
         server.delete(s"/$APIVersion/model/$model")
       }
     }
-  }
-
-  override def beforeEach() {
-    //deleteAllModels()
-    //FileUtils.deleteDirectory(new File(Config.ModelStorageDir)) // this does not update cache
-  }
-
-  override def afterEach() {
-    //deleteAllModels()
-    //FileUtils.deleteDirectory(new File(Config.ModelStorageDir))  // this does not update cache
   }
 
   // we need a dataset server to hold datasets for training...
@@ -155,20 +145,20 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   def copySampleDatasets(): Unit = {
     // copy sample dataset to Config.DatasetStorageDir
-    if (!Paths.get(Config.DatasetStorageDir).toFile.exists) { // create dataset storage dir
-      Paths.get(Config.DatasetStorageDir).toFile.mkdirs}
+    if (!Paths.get(Serene.config.datasetStorageDir).toFile.exists) { // create dataset storage dir
+      Paths.get(Serene.config.datasetStorageDir).toFile.mkdirs}
     val dsDir = Paths.get(helperDir, "sample.datasets").toFile // directory to copy from
     FileUtils.copyDirectory(dsDir,                    // copy sample dataset
-      Paths.get(Config.DatasetStorageDir).toFile)
+      Paths.get(Serene.config.datasetStorageDir).toFile)
   }
 
   def copySampleModels(): Unit = {
     // copy sample model to Config.ModelStorageDir
-    if (!Paths.get(Config.ModelStorageDir).toFile.exists) { // create model storage dir
-      Paths.get(Config.ModelStorageDir).toFile.mkdirs}
+    if (!Paths.get(Serene.config.modelStorageDir).toFile.exists) { // create model storage dir
+      Paths.get(Serene.config.modelStorageDir).toFile.mkdirs}
     val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
     FileUtils.copyDirectory(mDir,                    // copy sample model
-      Paths.get(Config.ModelStorageDir).toFile)
+      Paths.get(Serene.config.modelStorageDir).toFile)
   }
 
   def copySampleFiles(): Unit = {
@@ -903,7 +893,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       assert(state === ModelTypes.Status.COMPLETE)
 
       // check the content of .rf file
-      val learntModelFile = Paths.get(Config.ModelStorageDir, s"${model.id}", "workspace", s"${model.id}.rf").toFile
+      val learntModelFile = Paths.get(Serene.config.modelStorageDir, s"${model.id}", "workspace", s"${model.id}.rf").toFile
       assert(learntModelFile.exists === true)
 
       // pre-computed model from raw data-integration project...

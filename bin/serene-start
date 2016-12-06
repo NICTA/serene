@@ -1,20 +1,25 @@
 #!/bin/bash
 
-echo '*                                     '
-echo "*  $(date +'%Y-%m-%d %H:%M:%S%z')"
-echo '*                                     '
-echo '*                                     '
-echo '*    __|   _ \   __|  _ \  __ \    _ \'
-echo '*  \__ \   __/  |     __/  |   |   __/'
-echo '*  ____/ \___| _|   \___| _|  _| \___|'
-echo '*                                     '
-echo '*                                     '
-echo '*  Version: 0.1.0                     '
-echo '*  Address: 0.0.0.0                   '
-echo '*  Port: 8080                         '
-echo '*                                     '
+command_exists () {
+    type "$1" > /dev/null 2>&1;
+}
 
-exec java -cp jars/serene-0.1.0.jar au.csiro.data61.core.Serene
+if ! command_exists java; then
+   echo "ERROR: Requires java to be installed."
+   exit 1
+fi
 
+pushd "$(dirname "$0")" > /dev/null
+cd ..
+
+FILENAME=jars/serene-0.1.0.jar
+
+if [ -f $FILENAME ]; then
+    exec java -cp $FILENAME au.csiro.data61.core.Serene "$@"
+else
+    echo "ERROR: $FILENAME does not exist. Have you run bin/build yet?"
+fi
+
+popd > /dev/null
 
 

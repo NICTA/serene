@@ -20,7 +20,7 @@ package au.csiro.data61.core.storage
 import java.io._
 import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
-import au.csiro.data61.core.Config
+import au.csiro.data61.core.{Serene, Config}
 import au.csiro.data61.core.api.FileStream
 import au.csiro.data61.core.types.ColumnTypes.ColumnID
 import au.csiro.data61.core.types.DataSetTypes._
@@ -42,7 +42,7 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
 
   override implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
-  override def rootDir: String = new File(Config.DatasetStorageDir).getAbsolutePath
+  override def rootDir: String = new File(Serene.config.datasetStorageDir).getAbsolutePath
 
   def columnMap: Map[ColumnID, Column[Any]] = cache.values
     .flatMap(_.columns)

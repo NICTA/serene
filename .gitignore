@@ -20,7 +20,10 @@ project/plugins/project/
 .idea*
 
 # local storage
-/storage
+storage
+
+# local executable dir
+jars
 
 # files created by matcher...
 matcher/dirstruct/semantic_type_classifier/repo/eval/results-averaged-over-classes.csv

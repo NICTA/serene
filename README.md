@@ -12,11 +12,40 @@ on Debian linux
 ```
 sudo apt-get install sbt
 ```
+## Installation
+You can build the library with
+```
+bin/build
+```
+This should build the Serene server and place the final jar into the `jars` directory.
+
+Alternatively to use sbt
+```
+sbt assembly
+```
+
 ## Usage
-Start the web server...
+To start the web server use
+```
+bin/server-start
+```
+The following cmd line options are available:
+```
+--storage-path <value>  Storage Path determines the directory in which to store all files and objects
+--host <value>          Server host address (default 127.0.0.1)
+--port <value>          Server port number (default 8080)
+--help                  Prints this usage text
+```
+
+Alternatively to use sbt, you can run
 ```
 sbt run
 ```
+with arguments in quotes e.g.
+```
+sbt "run --port 8888"
+```
+
 The API can be used with the following commands...
 
 ## General
@@ -177,7 +206,12 @@ curl -X POST localhost:8080/v1.0/model/98793874/predict/12341234
 
 ```
 ## Tests
+To run all tests:
 ```
 sbt test
 ```
-
+To run individual module tests, refer to the module name e.g.
+```
+sbt serene-core/test
+sbt serene-matcher/test
+```
