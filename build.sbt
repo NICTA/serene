@@ -9,13 +9,15 @@ lazy val root = (project in file("."))
 
   version := "0.1.0",
 
-  scalaVersion := "2.11.7",
+  scalaVersion := "2.11.8",
 
   fork := true,
 
   outputStrategy := Some(StdoutOutput),
 
   scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+
+  scalacOptions ++= Seq("-Xmax-classfile-name","78"), // long file names become an issue on encrypted file systems - this is a weird workaround
 
   resolvers += Resolver.sonatypeRepo("snapshots"),
 

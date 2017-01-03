@@ -217,7 +217,6 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with MatcherJ
    * @param value The value to write to disk
    */
   protected def writeToFile(value: Value): Unit = {
-
     val str = compact(Extraction.decompose(value))
 
     val outputPath = getPath(value.id)
