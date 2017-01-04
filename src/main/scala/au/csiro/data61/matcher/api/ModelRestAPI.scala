@@ -75,7 +75,9 @@ object ModelRestAPI extends RestAPI {
     refDataSets = List(1, 2, 3, 4),
     state = TrainState(Status.UNTRAINED, "", DateTime.now),
     dateCreated = DateTime.now,
-    dateModified = DateTime.now
+    dateModified = DateTime.now,
+    numBags = None,
+    bagSize = None
   )
 
   /**
@@ -192,7 +194,7 @@ object ModelRestAPI extends RestAPI {
       }
   }
 
-  // TODO: model evaluation endpoint
+  // NOTE: model evaluation endpoint --> to be implemented in the python client
 
   /**
    * Patch a portion of a Model. Will destroy all cached models
@@ -286,6 +288,10 @@ object ModelRestAPI extends RestAPI {
                               .map(_.map(
                                 SamplingStrategy.lookup(_)
                                   .getOrElse(throw BadRequestException("Bad resamplingStrategy"))))
+
+      bagSize <- parseOption[Int]("bagSize", raw)
+
+      numBags <- parseOption[Int]("numBags", raw)
     } yield {
       ModelRequest(
         description,
@@ -294,7 +300,9 @@ object ModelRestAPI extends RestAPI {
         features,
         costMatrix,
         userData,
-        resamplingStrategy
+        resamplingStrategy,
+        numBags,
+        bagSize
       )}
   }
 
@@ -318,4 +326,6 @@ case class ModelRequest(description: Option[String],
                         features: Option[FeaturesConfig],
                         costMatrix: Option[List[List[Double]]],
                         labelData: Option[Map[Int, String]],
-                        resamplingStrategy: Option[SamplingStrategy])
+                        resamplingStrategy: Option[SamplingStrategy],
+                        numBags: Option[Int],
+                        bagSize: Option[Int])

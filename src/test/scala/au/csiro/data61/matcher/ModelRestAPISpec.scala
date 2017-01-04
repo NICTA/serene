@@ -196,11 +196,17 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     *
     * @param classes The model request object
     * @param description Optional description
+    * @param labelDataMap Optional map for column labels
+    * @param numBags Optional integer numBags
+    * @param bagSize OPtional integer bagSize
     * @return Model that was constructed
     */
   def createModel(classes: List[String],
                   description: Option[String] = None,
-                  labelDataMap: Option[Map[String, String]] = None)(implicit s: TestServer): Try[Model] = {
+                  labelDataMap: Option[Map[String, String]] = None,
+                  resamplingStrategy: String = "ResampleToMean",
+                  numBags: Option[Int] = None,
+                  bagSize: Option[Int] = None)(implicit s: TestServer): Try[Model] = {
 
     Try {
 
@@ -210,7 +216,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           ("classes" -> classes) ~
           ("features" -> defaultFeatures) ~
           ("costMatrix" -> defaultCostMatrix) ~
-          ("resamplingStrategy" -> "ResampleToMean")
+          ("resamplingStrategy" -> resamplingStrategy) ~
+          ("numBags" -> numBags) ~
+          ("bagSize" -> bagSize)
 
       // add the labelData if available...
       val labelJson = labelDataMap.map { m =>
@@ -308,7 +316,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     * @param server
     * @return
     */
-  def trainDefault()(implicit server: TestServer): (Model, DataSet) = {
+  def trainDefault(resamplingStrategy: String = "ResampleToMean",
+                   numBags: Option[Int] = None,
+                   bagSize: Option[Int] = None)(implicit server: TestServer): (Model, DataSet) = {
     val TestStr = randomString
 
     // first we add a simple dataset
@@ -316,7 +326,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     val labelMap = createLabelMap(ds)
 
     // next we train the dataset
-    createModel(defaultClasses, Some(TestStr), Some(labelMap)) match {
+    createModel(defaultClasses, Some(TestStr), Some(labelMap), resamplingStrategy, numBags, bagSize) match {
 
       case Success(model) =>
 
@@ -336,6 +346,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
         throw new Exception("Failed to create test resource")
     }
   }
+
 
   //=========================Tests==============================================
 
@@ -384,6 +395,72 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
     } finally {
         deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model with incorrect resampling strategy fails") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestStr = randomString
+      val TestClasses = List.fill(LabelLength)(randomString)
+
+      val json =
+        ("description" -> TestStr) ~
+          ("modelType" -> "randomForest") ~
+          ("classes" -> TestClasses) ~
+          ("features" -> defaultFeatures) ~
+          ("costMatrix" -> defaultCostMatrix) ~
+          ("resamplingStrategy" -> "Resample")
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.BadRequest)
+      assert(!response.contentString.isEmpty)
+
+    } finally {
+      deleteAllModels()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model with bagging resampling strategy") (new TestServer {
+    try {
+      val LabelLength = 4
+      val TestStr = randomString
+      val TestClasses = List.fill(LabelLength)(randomString)
+
+      val json =
+        ("description" -> TestStr) ~
+          ("modelType" -> "randomForest") ~
+          ("classes" -> TestClasses) ~
+          ("features" -> defaultFeatures) ~
+          ("costMatrix" -> defaultCostMatrix) ~
+          ("resamplingStrategy" -> "Bagging") ~
+          ("numBags" -> 10) ~
+          ("bagSize" -> 1000)
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+
+      val model = parse(response.contentString).extract[Model]
+
+      assert(model.description === TestStr)
+      assert(model.classes === TestClasses)
+      assert(model.resamplingStrategy === SamplingStrategy.BAGGING)
+      assert(model.bagSize === Some(1000))
+      assert(model.numBags === Some(10))
+
+    } finally {
+      deleteAllModels()
       assertClose()
     }
   })
@@ -731,7 +808,26 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val PollTime = 1000
       val PollIterations = 10
 
-      val (model, _) = trainDefault
+      val (model, _) = trainDefault()
+      val trained = pollModelState(model, PollIterations, PollTime)
+
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === ModelTypes.Status.COMPLETE)
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/train with bagging accepts request and completes successfully") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 20
+
+      val (model, _) = trainDefault(resamplingStrategy="Bagging", bagSize=Some(100), numBags=Some(10))
       val trained = pollModelState(model, PollIterations, PollTime)
 
       val state = concurrent.Await.result(trained, 15 seconds)
@@ -787,7 +883,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val PollTime = 1000
       val PollIterations = 10
 
-      val (model, _) = trainDefault
+      val (model, _) = trainDefault()
 
       val busyResponse = get(s"/$APIVersion/model/${model.id}")
       val busyModel = parse(busyResponse.contentString).extract[Model]
@@ -811,7 +907,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val PollTime = 1000
       val PollIterations = 10
 
-      val (model, _) = trainDefault
+      val (model, _) = trainDefault()
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
@@ -848,7 +944,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val PollTime = 1000
       val PollIterations = 10
 
-      val (model, _) = trainDefault
+      val (model, _) = trainDefault()
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
@@ -892,9 +988,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("POST /v1.0/model/:id/train creates default Model file") (new TestServer {
     try {
       val PollTime = 1000
-      val PollIterations = 10
+      val PollIterations = 20
 
-      val (model, ds) = trainDefault
+      val (model, ds) = trainDefault()
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
@@ -935,7 +1031,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val PollTime = 1000
       val PollIterations = 10
 
-      val (model, ds) = trainDefault
+      val (model, ds) = trainDefault()
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
@@ -999,7 +1095,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val PollTime = 1000
       val PollIterations = 10
 
-      val (model, ds) = trainDefault
+      val (model, ds) = trainDefault()
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
@@ -1052,7 +1148,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-
+///////////////////////////////////////////////////////////Old
 
 //
 //  test("GET /v1.0/model/1184298536/train returns the same model as the data integration project") (new TestServer {

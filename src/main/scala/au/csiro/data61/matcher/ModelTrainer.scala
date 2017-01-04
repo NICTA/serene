@@ -58,9 +58,12 @@ object ModelTrainer extends LazyLogging {
       trainerPaths.workspacePath)
 
     TrainingSettings(
-      trainerPaths.curModel.resamplingStrategy.str,
-      featuresConfig,
-      Some(Left(trainerPaths.costMatrixConfigPath)))
+      resamplingStrategy = trainerPaths.curModel.resamplingStrategy.str,
+      featureSettings = featuresConfig,
+      costMatrix = Some(Left(trainerPaths.costMatrixConfigPath)),
+      numBags = trainerPaths.curModel.numBags,
+      bagSize = trainerPaths.curModel.bagSize
+    )
   }
 
   /**

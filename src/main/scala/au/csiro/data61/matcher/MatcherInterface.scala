@@ -59,7 +59,9 @@ object MatcherInterface extends LazyLogging {
     features = None,
     costMatrix = None,
     labelData = None,
-    resamplingStrategy= None
+    resamplingStrategy= None,
+    numBags = None,
+    bagSize = None
   )
 
   /**
@@ -131,7 +133,9 @@ object MatcherInterface extends LazyLogging {
           modelPath = None,
           state = TrainState(Status.UNTRAINED, "", DateTime.now),
           dateCreated = DateTime.now,
-          dateModified = DateTime.now)
+          dateModified = DateTime.now,
+          bagSize = request.bagSize,
+          numBags = request.numBags)
       }.toOption
       _ <- ModelStorage.add(id, model)
 
@@ -176,7 +180,9 @@ object MatcherInterface extends LazyLogging {
           state = TrainState(Status.UNTRAINED, "", DateTime.now),
           modelPath = None,
           dateCreated = old.dateCreated,
-          dateModified = DateTime.now)
+          dateModified = DateTime.now,
+          bagSize = request.bagSize,
+          numBags = request.numBags)
       }.toOption
       _ <- ModelStorage.add(id, updatedModel)
 
