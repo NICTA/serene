@@ -51,6 +51,20 @@ object ColumnTypes {
 case class Message(greeting: String, to: String)
 
 /**
+  * StatusMessage (used for Testing)
+  *
+  * @param status Status indicator
+  */
+case class StatusMessage(status: String)
+
+/**
+  * VersionMessage (used for Testing)
+  *
+  * @param version The version string
+  */
+case class VersionMessage(version: String)
+
+/**
  * LogicalType Enumeration used for the Column types
  */
 sealed trait LogicalType { def str: String }

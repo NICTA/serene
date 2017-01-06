@@ -17,14 +17,13 @@
  */
 package au.csiro.data61.matcher
 
-import au.csiro.data61.matcher.api.{RestAPI, DatasetRestAPI}
-import au.csiro.data61.matcher.types.{MatcherJsonFormats, Message}
+import au.csiro.data61.matcher.api.{DatasetRestAPI, RestAPI}
+import au.csiro.data61.matcher.types.{MatcherJsonFormats, Message, StatusMessage, VersionMessage}
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.language.postfixOps
 import com.twitter.util.Await
-import com.twitter.finagle.{ListeningServer, Http}
-
+import com.twitter.finagle.{Http, ListeningServer}
 import io.finch._
 import io.finch.json4s._
 import api._
@@ -72,6 +71,14 @@ object Matcher extends LazyLogging with MatcherJsonFormats {
 
 object TestRestAPI extends RestAPI {
 
+//  val status: Endpoint[StatusMessage] = get(APIVersion) {
+//    Ok(StatusMessage("ok"))
+//  }
+
+  val version: Endpoint[VersionMessage] = get(/) {
+    Ok(VersionMessage(APIVersion))
+  }
+
   val asdf: Endpoint[Message] = get(APIVersion :: "asdf") {
     Ok(Message("hello", "asdf"))
   }
@@ -80,5 +87,5 @@ object TestRestAPI extends RestAPI {
     Ok(Message("hello", "world"))
   }
 
-  val endpoints = asdf :+: qwer
+  val endpoints = asdf :+: qwer :+: version
 }
