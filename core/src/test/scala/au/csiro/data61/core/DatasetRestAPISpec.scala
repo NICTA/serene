@@ -49,6 +49,7 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
   import DatasetAPI._
 
   val Resource = getClass.getResource("/medium.csv").getPath
+  val TinyResource = getClass.getResource("/tiny.csv").getPath
 
   def deleteAllDataSets()(implicit server: TestServer): Unit = {
 
@@ -174,6 +175,30 @@ class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAnd
   test("POST /v1.0/dataset appears in dataset list") (new TestServer {
     try {
       createDataset(this, Resource, "{}", "") match {
+        case Success(ds) =>
+
+          // build a request to modify the dataset...
+          val response = get(s"/$APIVersion/dataset")
+          assert(response.contentType === Some(JsonHeader))
+          assert(response.status === Status.Ok)
+          assert(!response.contentString.isEmpty)
+
+          // ensure that the object appears in the master list...
+          val datasets = parse(response.contentString).extract[List[Int]]
+          assert(datasets.contains(ds.id))
+
+        case Failure(err) =>
+          throw new Exception("Failed to create test resource")
+      }
+    } finally {
+      deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/dataset can handle small files") (new TestServer {
+    try {
+      createDataset(this, TinyResource, "{}", "") match {
         case Success(ds) =>
 
           // build a request to modify the dataset...

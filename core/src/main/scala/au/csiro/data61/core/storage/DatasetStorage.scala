@@ -20,7 +20,7 @@ package au.csiro.data61.core.storage
 import java.io._
 import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
-import au.csiro.data61.core.{Serene, Config}
+import au.csiro.data61.core.Serene
 import au.csiro.data61.core.api.FileStream
 import au.csiro.data61.core.types.ColumnTypes.ColumnID
 import au.csiro.data61.core.types.DataSetTypes._

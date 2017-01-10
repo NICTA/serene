@@ -414,8 +414,6 @@ object MatcherInterface extends LazyLogging {
    */
   def deleteDataset(key: DataSetID): Option[DataSetID] = {
 
-    val junk = DatasetStorage.get(key).get
-
     for {
       ds <- DatasetStorage.get(key)
       badColumns = ds.columns.map(_.id)
@@ -473,13 +471,14 @@ object MatcherInterface extends LazyLogging {
 
     // we create a set of random indices that will be consistent across the
     // columns in the dataset.
-    val indices = Array.fill(n)(rnd.nextInt(size))
+    val indices = Array.fill(n)(rnd.nextInt(size - 1))
 
     // now we recombine with the headers and an index to create the
     // set of column objects...
     (headers zip data).zipWithIndex.map { case ((header, col), i) =>
 
       val logicalType = typeMap.get(header).flatMap(LogicalType.lookup)
+
       val typedData = retypeData(col, logicalType)
 
       Column[Any](

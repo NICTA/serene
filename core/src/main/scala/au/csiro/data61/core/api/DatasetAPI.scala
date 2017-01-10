@@ -17,13 +17,13 @@
  */
 package au.csiro.data61.core.api
 
-import java.io.{InputStream, FileInputStream}
+import java.io.{ByteArrayInputStream, InputStream, FileInputStream}
 import au.csiro.data61.core.drivers.MatcherInterface
 import au.csiro.data61.core.types.{DataSet, DataSetTypes}
 import DataSetTypes._
 import com.twitter.finagle.http.exp.Multipart
 import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpload}
-import com.twitter.io.BufReader
+import com.twitter.io.{Buf, BufReader}
 import com.twitter.util.Await
 import io.finch._
 import org.json4s.jackson.JsonMethods._
@@ -75,20 +75,40 @@ object DatasetAPI extends RestAPI {
 
       logger.debug(s"Creating dataset file=$file, desc=$desc, typeMap=$typeMap")
 
+      /**
+        * Helper function to create the dataset from a filestream...
+        * @param fs
+        * @param filename
+        * @return
+        */
+      def createDataSet(fs: FileStream, filename: String): DataSet = {
+        val req = DataSetRequest(
+          Some(fs),
+          desc,
+          for {
+            str <- typeMap
+            tm <- Try { parse(str).extract[TypeMap] } toOption
+          } yield tm
+        )
+        MatcherInterface.createDataset(req)
+      }
+
+      // main matching object...
       file match {
-        case Some(OnDiskFileUpload(buffer, contentType, fileName, _)) =>
-          val req = DataSetRequest(
-            Some(FileStream(fileName, new FileInputStream(buffer))),
-            desc,
-            for {
-              str <- typeMap
-              tm <- Try { parse(str).extract[TypeMap] } toOption
-            } yield tm
-          )
-          val ds = MatcherInterface.createDataset(req)
+
+        case Some(OnDiskFileUpload(buffer, _, fileName, _)) =>
+          val fs = FileStream(fileName, new FileInputStream(buffer))
+          val ds = createDataSet(fs, fileName)
           Ok(ds)
-        case Some(InMemoryFileUpload(buffer, contentType, fileName, _))=>
-          InternalServerError(InternalException("Can't deal with in memory!!"))
+
+        case Some(InMemoryFileUpload(buffer, _, fileName, _))=>
+          // first we need to convert from the twitter Buf object...
+          val bytes = Buf.ByteArray.Owned.extract(buffer)
+          // next we convert to a filestream as before...
+          val fs = FileStream(fileName, new ByteArrayInputStream(bytes))
+          val ds = createDataSet(fs, fileName)
+          Ok(ds)
+
         case _ =>
           BadRequest(BadRequestException("File missing from multipart form request."))
       }
