@@ -1,9 +1,28 @@
+/**
+  * Copyright (C) 2015-2016 Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO).
+  * See the LICENCE.txt file distributed with this work for additional
+  * information regarding copyright ownership.
+  *
+  * Licensed under the Apache License, Version 2.0 (the "License");
+  * you may not use this file except in compliance with the License.
+  * You may obtain a copy of the License at
+  *
+  * http://www.apache.org/licenses/LICENSE-2.0
+  *
+  * Unless required by applicable law or agreed to in writing, software
+  * distributed under the License is distributed on an "AS IS" BASIS,
+  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
 package au.csiro.data61.matcher.matcher.train
 
+import breeze.linalg.min
 import au.csiro.data61.matcher.data._
 import au.csiro.data61.matcher.matcher._
 
 import scala.util.Random
+import language.postfixOps
 import com.typesafe.scalalogging.LazyLogging
 
 object ClassImbalanceResampler extends LazyLogging {
@@ -12,7 +31,8 @@ object ClassImbalanceResampler extends LazyLogging {
         "ResampleToMean", "UpsampleToMean",
         "ResampleToMedian", "UpsampleToMedian",
         "CapUnknownToHalf",
-        "NoResampling"
+        "NoResampling",
+        "Bagging", "BaggingToMax", "BaggingToMean"
     )
 
     // seeds are fixed in all these functions
@@ -21,12 +41,14 @@ object ClassImbalanceResampler extends LazyLogging {
                       labels: SemanticTypeLabels
                      ): List[Attribute] = {
         val instCountPerClass = attributes
-          .map { case attr =>
-            (labels.findLabel(attr.id), attr)}
+          .map {
+              attr => (labels.findLabel(attr.id), attr)
+          }
           .groupBy(_._1)
-          .map { case (classname, instances) =>
-            (classname, instances, instances.size)}
-          .toList
+          .map {
+              case (classname, instances) =>
+                  (classname, instances, instances.size)
+          } toList
         val maxClass = instCountPerClass.maxBy(_._3)
         val maxCount = maxClass._3
         logger.info(s"***Resampling all class instances to the maximum count of $maxCount.")
@@ -38,16 +60,12 @@ object ClassImbalanceResampler extends LazyLogging {
                        allowDownSampling: Boolean
                       ): List[Attribute] = {
         val instCountPerClass = attributes
-          .map {
-              case attr =>
-                  (labels.findLabel(attr.id), attr)
-          }
+          .map { attr => (labels.findLabel(attr.id), attr) }
           .groupBy(_._1)
           .map {
               case (classname, instances) =>
                   (classname, instances, instances.size)
-          }
-          .toList
+          } toList
         val mean = instCountPerClass
           .map(_._3)
           .sum.toDouble / instCountPerClass.size.toDouble
@@ -66,12 +84,12 @@ object ClassImbalanceResampler extends LazyLogging {
                          allowDownSampling: Boolean
                         ): List[Attribute] = {
         val instCountPerClass = attributes
-          .map { case attr =>
-            (labels.findLabel(attr.id), attr)}
+          .map { attr => (labels.findLabel(attr.id), attr)}
           .groupBy(_._1)
-          .map { case (classname, instances) =>
-            (classname, instances, instances.size)}
-          .toList
+          .map {
+              case (classname, instances) =>
+                  (classname, instances, instances.size)
+          } toList
         val median = instCountPerClass
           .sortBy(_._3)
           .map(_._3) match {
@@ -96,30 +114,31 @@ object ClassImbalanceResampler extends LazyLogging {
                 ): List[Attribute] = {
 
         val randGenerator = new scala.util.Random(5123219)
-        instCountPerClass.flatMap { case (className: String, instances: List[(String,Attribute)], count: Int) =>
-            if(count < sampleSize) {
-                //upsample
-                logger.info(s"***Upsampling...")
-                val numSamplesToTake = sampleSize - count
-                val newSamples = (0 until numSamplesToTake).map({case idx =>
-                    val randIdx = randGenerator.nextInt(count)
-                    instances(randIdx)._2
-                }).toList
-                instances.map({_._2}) ++ newSamples
-            } else
-            if(count > sampleSize) {
-                //downsample
-                logger.info(s"***Downsampling...")
-                val numExcess = count - sampleSize
-                (0 until numExcess).foldLeft(instances)((instances,idx) => {
-                    val randIdx = randGenerator.nextInt(instances.size)
-                    if(randIdx == 0) instances.drop(1)
-                    else if(randIdx == (instances.size-1)) instances.dropRight(1)
-                    else instances.take(randIdx) ++ instances.drop(randIdx+1)
-                }).map({_._2})
-            } else {
-                instances.map({_._2})
-            }
+        instCountPerClass.flatMap {
+            case (className: String, instances: List[(String,Attribute)], count: Int) =>
+                if(count < sampleSize) {
+                    //upsample
+                    logger.info(s"***Upsampling...")
+                    val numSamplesToTake = sampleSize - count
+                    val newSamples = (0 until numSamplesToTake).map({case idx =>
+                        val randIdx = randGenerator.nextInt(count)
+                        instances(randIdx)._2
+                    }).toList
+                    instances.map(_._2) ++ newSamples
+                } else
+                if(count > sampleSize) {
+                    //downsample
+                    logger.info(s"***Downsampling...")
+                    val numExcess = count - sampleSize
+                    (0 until numExcess).foldLeft(instances)((instances,idx) => {
+                        val randIdx = randGenerator.nextInt(instances.size)
+                        if(randIdx == 0) instances.drop(1)
+                        else if(randIdx == (instances.size-1)) instances.dropRight(1)
+                        else instances.take(randIdx) ++ instances.drop(randIdx+1)
+                    }).map(_._2)
+                } else {
+                    instances.map(_._2)
+                }
         }
     }
 
@@ -128,23 +147,166 @@ object ClassImbalanceResampler extends LazyLogging {
                  labels: SemanticTypeLabels
                 ): List[Attribute] = {
         val randGenerator = new scala.util.Random(8172310)
-        instCountPerClass.flatMap { case (className: String, instances: List[(String,Attribute)], count: Int) =>
-            if(count < sampleSize) {
-                val numSamplesToTake = sampleSize - count
-                val newSamples = (0 until numSamplesToTake).map({case idx =>
-                    val randIdx = randGenerator.nextInt(count)
-                    instances(randIdx)._2
-                }).toList
-                instances.map(_._2) ++ newSamples
-            } else {
-                instances.map(_._2)
-            }
+        instCountPerClass
+          .flatMap {
+              case (className: String, instances: List[(String,Attribute)], count: Int) =>
+                if(count < sampleSize) {
+                    val numSamplesToTake = sampleSize - count
+                    val newSamples = (0 until numSamplesToTake).map {
+                        idx =>
+                            val randIdx = randGenerator.nextInt(count)
+                            instances(randIdx)._2
+                    } toList
+
+                    instances.map(_._2) ++ newSamples
+                } else {
+                    instances.map(_._2)
+                }
+          }
+    }
+
+    /**
+      * Helper method to perform bagging on a single attribute.
+      * It creates numBags bags for the attribute
+      * where each bag contains bagSize number of rows randomly picked from the values of the attribute.
+      * @param attribute Column
+      * @param bagSize Number of rows to be picked from the attribute per each bag.
+      * @param numBags Number of bags to be generated.
+      * @return
+      * @throws Exception if attribute does not have enough values for bag sampling.
+      */
+    private def bagSampleAttribute(attribute: Attribute,
+                                   bagSize: Int,
+                                   numBags: Int): List[Attribute] = {
+        if(attribute.values.size < bagSize){
+            throw new Exception("Attribute does not have enough values for sampling the bag.")
         }
+
+        attribute.values.size > bagSize match {
+            case true =>
+                // we need to randomly pick bagSize rows into each bag
+                (1 to numBags).map {
+                    idx =>
+                        val randGenerator = new scala.util.Random(min(501 * idx, Int.MaxValue -1))
+                        val sampleVals = randGenerator.shuffle(attribute.values).take(bagSize)
+                        new Attribute(attribute.id, attribute.metadata, sampleVals, attribute.parent)
+                } toList
+            case false => List.fill(numBags)(attribute) // we replicate attribute numBags times
+        }
+    }
+
+    /**
+      * Helper method to perform bagging.
+      * Calculates a list of numBags to be generated per each attribute in the same class group.
+      * It's a helper method for class imbalance resamplings.
+      * @param sampleSize Number of samples to be produced in total per class group.
+      * @param instancesSize Number of  available attributes in the class group.
+      * @return
+      */
+    private def numBagsSequence(sampleSize: Int,
+                                instancesSize: Int): List[Int] = {
+
+        var bagsGenerated = 0
+        (0 until instancesSize).map{
+            idx =>
+                val instSize = instancesSize - idx
+                val curBags = (sampleSize - bagsGenerated) / instSize
+                bagsGenerated += curBags
+                curBags
+        } toList
+    }
+
+    def baggingResample(sampleSize: Int,
+                        instCountPerClass: List[(String, List[(String, Attribute)], Int)],
+                        bagSize: Int,
+                        numBags: Int): List[Attribute] = {
+        instCountPerClass.flatMap {
+            case (className: String, instances: List[(String, Attribute)], count: Int) =>
+                val newSampleAttrs: List[Attribute] =
+                    if(sampleSize/instances.size < 1){
+                        // we have to downsample attributes since we have a way more of them than required bags
+                        val randGenerator = new scala.util.Random(min(count, Int.MaxValue -1))
+                        val selectedAttrs = randGenerator.shuffle(instances.map(_._2)).take(sampleSize)
+                        selectedAttrs.flatMap {
+                            attr => bagSampleAttribute(attr, bagSize, 1) // we create 1 bag per attribute
+                        }
+                    } else {
+                        val numBagsSeq = numBagsSequence(sampleSize, instances.size)
+                        instances.map(_._2).zip(numBagsSeq).flatMap {
+                            case (attr, genNumBags) => bagSampleAttribute(attr, bagSize, genNumBags)
+                        }
+                    }
+            newSampleAttrs
+        }
+    }
+
+    /**
+      * Method to sample attributes by using bagging.
+      * Here, we tackle two problems: class imbalance and insufficient data.
+      * A bag is a collection of rows randomly picked from a column.
+      * @param strategy Resampling strategy to be used to tackle class imbalance.
+      * @param attributes Original columns.
+      * @param labels Semantic labels/types for columns.
+      * @param bagSize Number of rows to be randomly picked from the column into a bag, default 100.
+      * @param numBags Number of bags to be generated per column to tackle the issue of insufficient data,
+      *                   default 100.
+      * @return Sampled feature vectors to be used in training.
+      */
+    def bagging(strategy: String,
+                attributes: List[Attribute],
+                labels: SemanticTypeLabels,
+                bagSize: Int = 100,
+                numBags: Int = 100): List[Attribute] = {
+        logger.info("***Performing bagging...")
+        val instCountPerClass = attributes
+          .map {
+              attr =>
+                  val bagSizeAttr: Attribute = attr.values.size < bagSize match {
+                      case false => attr
+                      case true =>
+                          logger.info("Row size is not sufficient for indicated bagSize. " +
+                            "Sampling with replacement will be used.")
+                            // we then will do sampling with replacement
+                          val replValues = (1 to 1 + bagSize / attr.values.size)
+                            .foldLeft(attr.values){(cur,v) => cur ::: attr.values}
+                        new Attribute(attr.id, attr.metadata, replValues, attr.parent)
+                  }
+                  (labels.findLabel(attr.id), bagSizeAttr)
+          }
+          .groupBy(_._1)
+          .map {
+              case (classname, instances) =>
+                  (classname, instances, numBags * instances.size) // the amount of bags generated per each class
+          } toList
+
+//        logger.info(s"***instCountPerClass: $instCountPerClass")
+
+        val baggedAttrs: List[Attribute] = strategy match {
+            case "None" =>
+                instCountPerClass.flatMap {
+                    case (className: String, instances: List[(String, Attribute)], count: Int) =>
+                        instances.flatMap {
+                            case (cl: String, attr: Attribute) => bagSampleAttribute(attr, bagSize, numBags)
+                        }
+                }
+            case "ResampleToMean" =>
+                val sampleSize = (instCountPerClass.map(_._3).sum.toDouble / instCountPerClass.size.toDouble).toInt
+                logger.info(s"Bagging with strategy $strategy to sample size $sampleSize")
+                baggingResample(sampleSize, instCountPerClass, bagSize, numBags)
+            case "ResampleToMax" =>
+                val sampleSize = instCountPerClass.maxBy(_._3)._3
+                logger.info(s"Bagging with strategy $strategy to sample size $sampleSize")
+                baggingResample(sampleSize, instCountPerClass, bagSize, numBags)
+        }
+
+        baggedAttrs
     }
 
     def resample(strategy: String,
                  attributes: List[Attribute],
-                 labels: SemanticTypeLabels
+                 labels: SemanticTypeLabels,
+                 bagSize: Int = 100,
+                 numBags: Int = 100
                 ): List[Attribute] = {
         logger.info("***Resampling instances with: " + strategy)
 //        logger.info("   attributes obtained: "+attributes.map(_.id).mkString(","))
@@ -169,8 +331,13 @@ object ClassImbalanceResampler extends LazyLogging {
                     attributes
                 }
             }
-            case "CostMatrix" => attributes // TODO: not available in Spark MlLib currently
+            case "CostMatrix" =>
+                logger.info("Cost matrix is not available. No resampling is done.")
+                attributes // TODO: not available in Spark MlLib currently
             case "NoResampling" => attributes
+            case "Bagging" => bagging("None", attributes, labels, bagSize, numBags)
+            case "BaggingToMax" => bagging("ResampleToMax", attributes, labels, bagSize, numBags)
+            case "BaggingToMean" => bagging("ResampleToMean", attributes, labels, bagSize, numBags)
 
             case x => {
                 //Invalid sampling method.

@@ -1,3 +1,20 @@
+/**
+  * Copyright (C) 2015-2016 Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO).
+  * See the LICENCE.txt file distributed with this work for additional
+  * information regarding copyright ownership.
+  *
+  * Licensed under the Apache License, Version 2.0 (the "License");
+  * you may not use this file except in compliance with the License.
+  * You may obtain a copy of the License at
+  *
+  * http://www.apache.org/licenses/LICENSE-2.0
+  *
+  * Unless required by applicable law or agreed to in writing, software
+  * distributed under the License is distributed on an "AS IS" BASIS,
+  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
 package au.csiro.data61.matcher.matcher.train
 
 import org.apache.spark.SparkContext
@@ -42,8 +59,12 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
         val allAttributes = DataModel.getAllAttributes(trainingData)
         logger.info(s"   obtained ${allAttributes.size} attributes")
         //resampling
+        val numBags = trainingSettings.numBags.getOrElse(100)
+        val bagSize = trainingSettings.bagSize.getOrElse(100)
         val resampledAttrs = ClassImbalanceResampler // here seeds are fixed so output will be the same on the same input
-          .resample(trainingSettings.resamplingStrategy, allAttributes, labels)
+          .resample(trainingSettings.resamplingStrategy, allAttributes, labels, bagSize, numBags)
+      logger.info(s"   resampled ${resampledAttrs.size} attributes")
+
         // preprocess attributes of the data sources - logical datatypes are inferred during this process
         val preprocessor = DataPreprocessor()
         val preprocessedTrainInstances = resampledAttrs
