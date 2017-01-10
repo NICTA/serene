@@ -205,6 +205,30 @@ curl -X DELETE  localhost:8080/v1.0/model/12341234
 curl -X POST localhost:8080/v1.0/model/98793874/predict/12341234
 
 ```
+
+To use the newly added bagging resampling strategy ("Bagging", "BaggingToMax", "BaggingToMean"), additional parameters can be indicated in model post resquest: numBags and bagSize.
+Both parameters are integer, and if not specified, default value 100 will be used for both.
+Example model post request to use bagging:
+ ```
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+    "description": "This is the description",
+    "modelType": "randomForest",
+    "classes": ["name", "address", "phone", "unknown"],
+    "features": { "activeFeatures" : [ "num-unique-vals", "prop-unique-vals", "prop-missing-vals" ],
+        "activeFeatureGroups" : [ "stats-of-text-length", "prop-instances-per-class-in-knearestneighbours"],
+        "featureExtractorParams" : [{"name" : "prop-instances-per-class-in-knearestneighbours","num-neighbours" : 5}]
+        },
+    "costMatrix": [[1,0,0], [0,1,0], [0,0,1]],
+    "labelData" : {"1" : "name", "1817136897" : "unknown", "1498946589" : "name", "134383522" : "phone", "463734360" : "address"},
+    "resamplingStrategy": "Bagging",
+    "numBags": 10,
+    "bagSize": 1000
+    }' \
+  localhost:8080/v1.0/model
+```
+
 ## Tests
 To run all tests:
 ```

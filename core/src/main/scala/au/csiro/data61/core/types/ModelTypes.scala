@@ -31,6 +31,7 @@ import scala.language.postfixOps
   */
 object ModelTypes {
 
+  // TODO: add numBags and bagSize parameters for the model!
   case class Model(description: String,
                    id: ModelID,
                    modelType: ModelType,
@@ -43,7 +44,9 @@ object ModelTypes {
                    modelPath: Option[Path],
                    state: TrainState,
                    dateCreated: DateTime,
-                   dateModified: DateTime) extends Identifiable[ModelID]
+                   dateModified: DateTime,
+                   numBags: Option[Int],
+                   bagSize: Option[Int]) extends Identifiable[ModelID]
 
   type ModelID = Int
 
@@ -204,11 +207,17 @@ object SamplingStrategy {
   case object UPSAMPLE_TO_MAX  extends SamplingStrategy { val str = "UpsampleToMax" }
   case object RESAMPLE_TO_MEAN extends SamplingStrategy { val str = "ResampleToMean" }
   case object UPSAMPLE_TO_MEAN extends SamplingStrategy { val str = "UpsampleToMean" }
+  case object BAGGING extends SamplingStrategy { val str = "Bagging" }
+  case object BAGGING_TO_MAX extends SamplingStrategy { val str = "BaggingToMax" }
+  case object BAGGING_TO_MEAN extends SamplingStrategy { val str = "BaggingToMean" }
 
   val values = Set(
     UPSAMPLE_TO_MAX,
     RESAMPLE_TO_MEAN,
-    UPSAMPLE_TO_MEAN
+    UPSAMPLE_TO_MEAN,
+    BAGGING,
+    BAGGING_TO_MAX,
+    BAGGING_TO_MEAN
   )
 
   def lookup(str: String): Option[SamplingStrategy] = {
