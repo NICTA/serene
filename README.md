@@ -58,6 +58,8 @@ curl localhost:8080
 curl localhost:8080/v1.0
 ```
 
+WARNING: the server will not work properly if logging level is set to DEBUG!
+
 ## Datasets
 Datasets need to be uploaded to the server. Currently only CSVs are supported. A description can also be added to the dataset upload.
 ```
