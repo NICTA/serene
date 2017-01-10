@@ -24,6 +24,8 @@ import java.nio.file.{Path, Paths}
 import au.csiro.data61.core.api.DatasetAPI._
 import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.core.types._
+import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
+
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 import com.twitter.io.Buf
@@ -141,7 +143,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       32 -> "bedrooms"
     )
 
-  val helperDir = Paths.get("src", "test", "resources", "helper").toFile.getAbsolutePath // location for sample files
+//  val helperDir = Paths.get("src", "test", "resources", "helper").toFile.getAbsolutePath // location for sample files
+  val helperDir = getClass.getResource("/helper").getPath
+//  Paths.get("src", "test", "resources", "helper").toFile.getAbsolutePath // location for sample files
 
   def copySampleDatasets(): Unit = {
     // copy sample dataset to Config.DatasetStorageDir
@@ -997,9 +1001,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       // checking that the models are the same; direct comparison of file contents does not yield correct results
       (for {
-        inLearnt <- Try( new ObjectInputStream(new FileInputStream(learntModelFile)))
+        inLearnt <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(learntModelFile)))
         dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
-        inCor <- Try( new ObjectInputStream(new FileInputStream(corFile)))
+        inCor <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(corFile)))
         dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
       } yield (dataLearnt, dataCor) ) match {
         case Success((data, cor)) =>

@@ -25,6 +25,7 @@ import au.csiro.data61.core.drivers.ModelTrainerPaths
 import au.csiro.data61.core.types.ModelTypes.Status.COMPLETE
 import au.csiro.data61.core.{Serene, Config}
 import au.csiro.data61.core.types.ModelTypes.{Model, ModelID, Status, TrainState}
+import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
 import com.github.tototoshi.csv.CSVWriter
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import org.apache.commons.io.FileUtils

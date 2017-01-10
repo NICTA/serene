@@ -37,6 +37,22 @@ import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 
 import scala.language.postfixOps
 
+
+class ObjectInputStreamWithCustomClassLoader(fileInputStream: FileInputStream)
+  extends ObjectInputStream(fileInputStream) {
+  /**
+    * This is a special deserialization for custom objects.
+    * Either this custom thing, or fork := true in sbt are needed!
+    * @param desc
+    * @return
+    */
+  override def resolveClass(desc: java.io.ObjectStreamClass): Class[_] = {
+    try { Class.forName(desc.getName, false, getClass.getClassLoader) }
+    catch { case ex: ClassNotFoundException => super.resolveClass(desc) }
+  }
+}
+
+
 object ModelPredictor extends LazyLogging {
 
   /**
@@ -56,10 +72,13 @@ object ModelPredictor extends LazyLogging {
         // read in the learned model
         stored <- ModelStorage.get(id)
         path <- stored.modelPath
+//        path <- stored.defaultModelPath
         m <- readLearnedModelFile(path.toString).toOption
       } yield m
 
+    logger.info(s"serializedmodel ${serializedModel}")
     val sModel = serializedModel getOrElse {
+      logger.error(s"Failed to read serialized model $id")
       throw InternalException(s"Failed to read serialized model $id")
     }
 
@@ -80,13 +99,14 @@ object ModelPredictor extends LazyLogging {
     * @return Serialized Mlib classifier wrapped in Option
     */
   protected def readLearnedModelFile(filePath: String) : Try[SerializableMLibClassifier] = {
+    logger.info(s"Reading learned model file ${filePath}")
     for {
       fs <- Try {
         new FileInputStream(filePath)
       }
-      learned = new ObjectInputStream(fs)
+      learned = new ObjectInputStreamWithCustomClassLoader(fs)
       data <- Try {
-        learned.readObject().asInstanceOf[SerializableMLibClassifier]
+        learned.readObject.asInstanceOf[SerializableMLibClassifier]
       }
     } yield data
   }

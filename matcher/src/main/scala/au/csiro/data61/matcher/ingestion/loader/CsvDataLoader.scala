@@ -60,7 +60,10 @@ case class CSVDataLoader(val id: String = "", val encoding: String = "utf-8") ex
             case quotedRegex(a) => a.trim()
             case x => x.trim()
         })
-        val attrVals = lines.drop(1).map({case line => line.split(""",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))""", -1).toList})
+
+        val attrVals = lines.drop(1)
+          .map { line => line.split(""",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))""", -1).toList}
+          .filter { line => !line.forall(_.length == 0)} // we filter out empty strings
 
         lazy val table: DataModel = new DataModel(tableName, Some(Metadata(tableName,"")), parent, Some(attributes))
         lazy val attributes: List[Attribute] = (0 until attrHeaders.size).map({case idx => {

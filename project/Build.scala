@@ -1,12 +1,10 @@
 import com.earldouglas.xwp.XwpPlugin._
 import com.typesafe.sbt.packager.archetypes.JavaAppPackaging
 import com.typesafe.sbt.packager.rpm._
-import sbt._
-import sbt.Keys._
-import sbtassembly.AssemblyPlugin
 
 //import sbtassembly.Plugin._
-
+import sbt._
+import sbt.Keys._
 import sbtassembly.AssemblyPlugin.autoImport._
 
 
@@ -24,7 +22,12 @@ object SereneBuild extends Build {
         oldStrategy(f)
     },
 
+    // long file names become an issue on encrypted file systems - this is a weird workaround
+    scalacOptions ++= Seq("-Xmax-classfile-name","78"),
+
     test in assembly := {},
+
+//    fork := true,
 
     scalaVersion := "2.11.8"
   )
@@ -45,6 +48,8 @@ object SereneBuild extends Build {
 
       mainClass in assembly := Some("au.csiro.data61.core.Serene"),
 
+//      fork := true,
+
       assemblyJarName in assembly := s"serene-${version.value}.jar"
     )
     .aggregate(core, matcher)
@@ -61,7 +66,7 @@ object SereneBuild extends Build {
     .settings(
       name := "serene-matcher",
       organization := "au.csiro.data61",
-      fork := true,
+//      fork := true,
       version := "1.2.0-SNAPSHOT",
 
       libraryDependencies ++= Seq(
@@ -110,7 +115,7 @@ object SereneBuild extends Build {
         name := "serene-core",
         version := "0.1",
 
-        fork := true,
+//        fork := true,
         outputStrategy := Some(StdoutOutput),
         scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
         resolvers += Resolver.sonatypeRepo("snapshots"),
