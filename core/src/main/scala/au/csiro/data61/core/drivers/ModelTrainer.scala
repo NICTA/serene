@@ -79,7 +79,7 @@ object ModelTrainer extends LazyLogging {
     */
   protected def readTrainingData: DataModel = {
 
-    logger.debug(s"Reading training data")
+    logger.info(s"Reading training data")
 
     val datasets = getDataModels
 
@@ -96,7 +96,7 @@ object ModelTrainer extends LazyLogging {
     */
   protected def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels = {
 
-    logger.info(s"Reading label data from $trainerPaths")
+    logger.debug(s"Reading label data from $trainerPaths")
 
     val labelsLoader = SemanticTypeLabelsLoader()
     val stl = labelsLoader.load(trainerPaths.labelsDirPath)

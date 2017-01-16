@@ -73,7 +73,7 @@ object DatasetAPI extends RestAPI {
      desc: Option[String],
      typeMap: Option[String]) =>
 
-      logger.debug(s"Creating dataset file=$file, desc=$desc, typeMap=$typeMap")
+      logger.info(s"Creating dataset file=$file, desc=$desc, typeMap=$typeMap")
 
       /**
         * Helper function to create the dataset from a filestream...
@@ -97,11 +97,13 @@ object DatasetAPI extends RestAPI {
       file match {
 
         case Some(OnDiskFileUpload(buffer, _, fileName, _)) =>
+          logger.info("   on disk file upload")
           val fs = FileStream(fileName, new FileInputStream(buffer))
           val ds = createDataSet(fs, fileName)
           Ok(ds)
 
         case Some(InMemoryFileUpload(buffer, _, fileName, _))=>
+          logger.info("   in memory")
           // first we need to convert from the twitter Buf object...
           val bytes = Buf.ByteArray.Owned.extract(buffer)
           // next we convert to a filestream as before...

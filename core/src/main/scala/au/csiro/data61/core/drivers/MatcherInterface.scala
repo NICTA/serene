@@ -301,12 +301,14 @@ object MatcherInterface extends LazyLogging {
   def createDataset(request: DataSetRequest): DataSet = {
 
     if (request.file.isEmpty) {
+      logger.error(s"Failed to read file request part")
       throw ParseException(s"Failed to read file request part")
     }
 
     val typeMap = request.typeMap getOrElse Map.empty[String, String]
     val description = request.description getOrElse MissingValue
     val id = genID
+    logger.info(s"Writing dataset $genID")
 
     val dataSet = for {
       fs <- request.file
