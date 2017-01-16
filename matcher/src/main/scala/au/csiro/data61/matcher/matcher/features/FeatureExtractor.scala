@@ -75,9 +75,12 @@ object FeatureExtractorUtil extends LazyLogging {
                       featureExtractors: List[FeatureExtractor]
                      )(implicit sc: SparkContext): List[(PreprocessedAttribute, List[Any], String)] = {
 
-    logger.info(s"***Extracting features from ${preprocessedAttributes.size} instances...")
+    logger.info(s"***Extracting features from ${preprocessedAttributes.size} preprocessed attributes...")
 
-    sc.parallelize(preprocessedAttributes).map { attr =>
+    val paralelRDD = sc.parallelize(preprocessedAttributes, 8)
+//    FIXME: only 1 partition gets created here!!!
+    logger.info(s"***   number partitions created: ${paralelRDD.partitions.size}")
+    paralelRDD.map { attr =>
 
       val instanceFeatures = featureExtractors.flatMap {
         case fe: SingleFeatureExtractor =>
@@ -96,8 +99,9 @@ object FeatureExtractorUtil extends LazyLogging {
                                 preprocessedAttributes: List[PreprocessedAttribute],
                                 trainingSettings: TrainingSettings,
                                 labels: SemanticTypeLabels
-                               ) = {
-    createStandardFeatureExtractors(trainingSettings.featureSettings) ++ createExampleBasedFeatureExtractors(preprocessedAttributes, labels, classes, trainingSettings.featureSettings)
+                               ): List[FeatureExtractor] = {
+    createStandardFeatureExtractors(trainingSettings.featureSettings) ++
+      createExampleBasedFeatureExtractors(preprocessedAttributes, labels, classes, trainingSettings.featureSettings)
   }
 
 

@@ -20,6 +20,7 @@ package au.csiro.data61.matcher.matcher
 import java.io.{File, PrintWriter}
 
 import au.csiro.data61.matcher.data._
+import au.csiro.data61.matcher.data.{Metadata => DintMeta}
 import au.csiro.data61.matcher.matcher.features._
 import au.csiro.data61.matcher.matcher.train.TrainAliases._
 import org.apache.spark.SparkContext
@@ -29,7 +30,6 @@ import org.apache.spark.sql.types._
 import org.apache.spark.ml.PipelineModel
 import org.apache.spark.mllib.linalg.DenseVector
 import org.apache.spark.ml.feature.StringIndexerModel
-
 import com.typesafe.scalalogging.LazyLogging
 
 case class MLibSemanticTypeClassifier(
@@ -44,9 +44,19 @@ case class MLibSemanticTypeClassifier(
         logger.info("***Prediction initialization...")
         //initialise spark stuff
         val conf = new SparkConf()
-          .setAppName("DataIntPrediction")
+          .setAppName("SereneSchemaMatcher")
           .setMaster("local[*]")
           .set("spark.driver.allowMultipleContexts", "true")
+        // changing to Kryo serialization!!!
+        conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+        conf.registerKryoClasses(Array(classOf[List[PreprocessedAttribute]],
+            classOf[PreprocessedAttribute],
+            classOf[DataModel],
+            classOf[Attribute],
+            classOf[FeatureExtractor],
+            classOf[SemanticTypeLabels],
+            classOf[List[FeatureExtractor]],
+            classOf[DintMeta]))
         implicit val sc = new SparkContext(conf)
         val sqlContext = new SQLContext(sc)
 
