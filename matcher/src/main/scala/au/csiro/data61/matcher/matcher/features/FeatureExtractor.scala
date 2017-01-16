@@ -42,13 +42,19 @@ object FeatureExtractorUtil extends LazyLogging {
     * @return
     */
   def getFeatureNames(features: List[FeatureExtractor]): List[String] = {
-    features.flatMap({
+    features.flatMap {
       case x: SingleFeatureExtractor => List(x.getFeatureName())
       case x: GroupFeatureExtractor => x.getFeatureNames()
-    }).toList
+    }
   }
 
-
+  /**
+    * Extracts features for testing
+    * @param attributes
+    * @param featureExtractors
+    * @param sc
+    * @return
+    */
   def extractTestFeatures(attributes: List[DMAttribute],
                           featureExtractors: List[FeatureExtractor])(implicit sc: SparkContext): List[List[Double]] = {
     // additional preprocessing of attributes (e.g., data type inference, tokenization of column names, etc.)
@@ -69,7 +75,15 @@ object FeatureExtractorUtil extends LazyLogging {
       .toList
   }
 
-
+  /**
+    * Extracts features for training...
+    *
+    * @param preprocessedAttributes
+    * @param labels
+    * @param featureExtractors
+    * @param sc
+    * @return
+    */
   def extractFeatures(preprocessedAttributes: List[PreprocessedAttribute],
                       labels: SemanticTypeLabels,
                       featureExtractors: List[FeatureExtractor]
@@ -92,14 +106,28 @@ object FeatureExtractorUtil extends LazyLogging {
       .toList
   }
 
+  /**
+    * Generates the feature extractors...
+    * @param classes
+    * @param preprocessedAttributes
+    * @param trainingSettings
+    * @param labels
+    * @return
+    */
   def generateFeatureExtractors(classes: List[String],
                                 preprocessedAttributes: List[PreprocessedAttribute],
                                 trainingSettings: TrainingSettings,
                                 labels: SemanticTypeLabels
-                               ) = {
-    createStandardFeatureExtractors(trainingSettings.featureSettings) ++ createExampleBasedFeatureExtractors(preprocessedAttributes, labels, classes, trainingSettings.featureSettings)
+                               ): List[FeatureExtractor] = {
+    val standard = createStandardFeatureExtractors(trainingSettings.featureSettings)
+    val example = createExampleBasedFeatureExtractors(
+        preprocessedAttributes,
+        labels,
+        classes,
+        trainingSettings.featureSettings
+      )
+    standard ++ example
   }
-
 
     def createStandardFeatureExtractors(featureSettings: FeatureSettings): List[FeatureExtractor] = {
         val factoryMethods = List(
