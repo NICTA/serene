@@ -17,17 +17,16 @@ object SereneBuild extends Build {
       case f if f.endsWith(".conf") => MergeStrategy.concat
       case f if f.endsWith(".html") => MergeStrategy.first
       case f if f.endsWith(".class") => MergeStrategy.first
+      case f if f.endsWith(".properties") => MergeStrategy.first
       case f =>
         val oldStrategy = (assemblyMergeStrategy in assembly).value
         oldStrategy(f)
     },
 
     // long file names become an issue on encrypted file systems - this is a weird workaround
-    scalacOptions ++= Seq("-Xmax-classfile-name","78"),
+    scalacOptions ++= Seq("-Xmax-classfile-name", "78"),
 
     test in assembly := {},
-
-//    fork := true,
 
     scalaVersion := "2.11.8"
   )
@@ -94,9 +93,9 @@ object SereneBuild extends Build {
 
       initialCommands in console in Test := "import org.specs2._",
 
-      javaOptions in run ++= Seq("-Xms256M", "-Xmx2G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
+      //javaOptions in run ++= Seq("-Xms256M", "-Xmx2G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
 
-      javaOptions in test ++= Seq("-Xms256M", "-Xmx2G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
+      //javaOptions in test ++= Seq("-Xms256M", "-Xmx2G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
 
       fork in Test := true
     )

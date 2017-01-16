@@ -21,7 +21,7 @@ project/plugins/project/
 .idea*
 
 # local storage
-storage
+/storage
 
 # local executable dir
 jars

@@ -466,9 +466,18 @@ object MatcherInterface extends LazyLogging {
                            n: Int = DefaultSampleSize,
                            headerLines: Int = 1): List[Column[Any]] = {
     // TODO: Get this out of memory!
+
+    // note that we only take a sample from the first 4n samples. Otherwise
+    // we need to pull the whole file into memory to get say 10 samples...
+    val SampleBound = 4 * n
+
     val csv = CSVReader.open(filePath.toFile)
-    val columns = csv.all.transpose
+    val columns = csv.toStream.take(SampleBound).toList.transpose
+
+    // first pull out the headers...
     val headers = columns.map(_.take(headerLines).mkString("_"))
+
+    // next pull out the data...
     val data = columns.map(_.drop(headerLines))
     val size = columns.headOption.map(_.size).getOrElse(0)
 

@@ -101,7 +101,7 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with MatcherJ
   }
 
   def add(id: Key, value: Value): Option[Key] = {
-    logger.debug(s"Adding $id to storage")
+    logger.info(s"Adding $id to storage")
 
     Try {
       synchronized {

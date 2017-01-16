@@ -24,8 +24,9 @@ import au.csiro.data61.core.types.MatcherJsonFormats
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.language.postfixOps
-import com.twitter.util.Await
-import com.twitter.finagle.{ListeningServer, Http}
+import com.twitter.util.{Await, StorageUnit}
+import com.twitter.finagle.{Server, ListeningServer, Http}
+import com.twitter.conversions.storage._
 
 import io.finch._
 import io.finch.json4s._
@@ -80,7 +81,10 @@ object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
   def serverAddress: String = s"${config.serverHost}:${config.serverPort}"
 
   def defaultServer: ListeningServer = {
-    Http.serve("0.0.0.0:8080", restAPI.toService)
+    Http.server
+      //.withStreaming(enabled = true)
+      .withMaxRequestSize(1999.megabytes)
+      .serve("0.0.0.0:8080", restAPI.toService)
   }
 
   def main(args: Array[String]): Unit = {
