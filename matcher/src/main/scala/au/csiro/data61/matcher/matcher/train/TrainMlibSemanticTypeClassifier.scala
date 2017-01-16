@@ -53,7 +53,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
           .setAppName("DataIntTraining")
           .setMaster("local")
           .set("spark.driver.allowMultipleContexts", "true")
-        val sc = new SparkContext(conf)
+        implicit val sc = new SparkContext(conf)
         val sqlContext = new SQLContext(sc)
 
         val allAttributes = DataModel.getAllAttributes(trainingData)

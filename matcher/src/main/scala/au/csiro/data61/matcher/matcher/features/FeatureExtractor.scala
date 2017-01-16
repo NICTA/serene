@@ -1,3 +1,20 @@
+/**
+  * Copyright (C) 2015-2016 Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO).
+  * See the LICENCE.txt file distributed with this work for additional
+  * information regarding copyright ownership.
+  *
+  * Licensed under the Apache License, Version 2.0 (the "License");
+  * you may not use this file except in compliance with the License.
+  * You may obtain a copy of the License at
+  *
+  * http://www.apache.org/licenses/LICENSE-2.0
+  *
+  * Unless required by applicable law or agreed to in writing, software
+  * distributed under the License is distributed on an "AS IS" BASIS,
+  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
 package au.csiro.data61.matcher.matcher.features
 
 import au.csiro.data61.matcher.data._
@@ -6,6 +23,7 @@ import au.csiro.data61.matcher.matcher.train.TrainingSettings
 import au.csiro.data61.matcher.matcher._
 
 import com.typesafe.scalalogging.LazyLogging
+import org.apache.spark.SparkContext
 import scala.util._
 import scala.io._
 
@@ -13,70 +31,95 @@ import edu.cmu.lti.ws4j._
 
 trait FeatureExtractor
 
+/**
+  *
+  */
 object FeatureExtractorUtil extends LazyLogging {
-    def getFeatureNames(features: List[FeatureExtractor]
-                       ): List[String] = {
-        features.flatMap({
-            case x: SingleFeatureExtractor => List(x.getFeatureName())
-            case x: GroupFeatureExtractor => x.getFeatureNames()
-        }).toList
+
+  /**
+    *
+    * @param features
+    * @return
+    */
+  def getFeatureNames(features: List[FeatureExtractor]): List[String] = {
+    features.flatMap({
+      case x: SingleFeatureExtractor => List(x.getFeatureName())
+      case x: GroupFeatureExtractor => x.getFeatureNames()
+    }).toList
+  }
+
+
+  def extractFeatures(attributes: List[DMAttribute],
+                      featureExtractors: List[FeatureExtractor]): List[List[Double]] = {
+    // additional preprocessing of attributes (e.g., data type inference, tokenization of column names, etc.)
+    val preprocessor = DataPreprocessor()
+    //TODO: restore caching?
+    // val preprocessedAttributes = attributes.map({rawAttr => (preprocessedAttrCache.getOrElseUpdate(rawAttr.id, preprocessor.preprocess(rawAttr)))})
+    val preprocessedAttributes = attributes.map { rawAttr =>
+        preprocessor.preprocess(rawAttr)
     }
 
-
-    def extractFeatures(attributes: List[DMAttribute],
-                        featureExtractors: List[FeatureExtractor]
-                       ): List[List[Double]] = {
-        // additional preprocessing of attributes (e.g., data type inference, tokenization of column names, etc.)
-        val preprocessor = DataPreprocessor()
-        //TODO: restore caching?
-        // val preprocessedAttributes = attributes.map({rawAttr => (preprocessedAttrCache.getOrElseUpdate(rawAttr.id, preprocessor.preprocess(rawAttr)))})
-        val preprocessedAttributes = attributes
-          .map({rawAttr =>
-            preprocessor.preprocess(rawAttr)})
-
-        logger.info(s"***Extracting features from ${preprocessedAttributes.size} instances...")
-        val featuresOfAllInstances = for(i <- 0 until preprocessedAttributes.size) yield {
-            val attr = preprocessedAttributes(i)
-            if(i % 100 == 0 || (i+1) == preprocessedAttributes.size)
-                println("    extracting features from instance " + i + s" of ${preprocessedAttributes.size} : " + attr.rawAttribute.id)
-            // val instanceFeatures = featuresCache.getOrElseUpdate(attr.rawAttribute.id, featureExtractors.flatMap({
-            val instanceFeatures = featureExtractors.flatMap({
-                case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
-                case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
-            })
-            instanceFeatures
+    logger.info(s"***Extracting features from ${preprocessedAttributes.size} instances...")
+    val featuresOfAllInstances = for (i <- preprocessedAttributes.indices) yield {
+        val attr = preprocessedAttributes(i)
+        if (i % 100 == 0 || (i+1) == preprocessedAttributes.size) {
+          println("    extracting features from instance " + i + s" of ${preprocessedAttributes.size} : " + attr.rawAttribute.id)
         }
-
-        logger.info("***Finished extracting features.")
-        featuresOfAllInstances.toList
+        // val instanceFeatures = featuresCache.getOrElseUpdate(attr.rawAttribute.id, featureExtractors.flatMap({
+        val instanceFeatures = featureExtractors.flatMap({
+            case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
+            case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
+        })
+        instanceFeatures
     }
 
+    logger.info("***Finished extracting features.")
+    featuresOfAllInstances.toList
+  }
 
-    def extractFeatures(attributes: List[DMAttribute],
-                        labels: SemanticTypeLabels,
-                        featureExtractors: List[FeatureExtractor]
-                       ): List[(PreprocessedAttribute, List[Any], String)] = {
-        val preprocessor = DataPreprocessor()
-        //TODO: restore caching?
-        // val preprocessedAttributes = attributes.map({rawAttr => (preprocessedAttrCache.getOrElseUpdate(rawAttr.id, preprocessor.preprocess(rawAttr)))})
-        val preprocessedAttributes = attributes.map({rawAttr => preprocessor.preprocess(rawAttr)})
 
-        logger.info(s"***Extracting features from ${preprocessedAttributes.size} instances...")
-        val featuresOfAllInstances = for(i <- 0 until preprocessedAttributes.size) yield {
-            val attr = preprocessedAttributes(i)
-            if(i % 100 == 0 || (i+1) == preprocessedAttributes.size) println("    extracting features from instance " + i + s" of ${preprocessedAttributes.size} : " + attr.rawAttribute.id)
-            //TODO: restore caching?
-            // val instanceFeatures = featuresCache.getOrElseUpdate(attr.rawAttribute.id, featureExtractors.flatMap({
-            val instanceFeatures = featureExtractors.flatMap({
-                case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
-                case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
-            })
-            (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
-        }
+  def extractFeatures(attributes: List[DMAttribute],
+                      labels: SemanticTypeLabels,
+                      featureExtractors: List[FeatureExtractor]
+                     )(implicit sc: SparkContext): List[(PreprocessedAttribute, List[Any], String)] = {
+    val preprocessor = DataPreprocessor()
 
-        logger.info("Finished extracting features.")
-        featuresOfAllInstances.toList
+    val preprocessedAttributes = attributes.map {
+      rawAttr => preprocessor.preprocess(rawAttr)
     }
+
+    logger.info(s"***Extracting features from ${preprocessedAttributes.size} instances...")
+
+    sc.parallelize(preprocessedAttributes).map { attr =>
+
+      val instanceFeatures = featureExtractors.flatMap {
+        case fe: SingleFeatureExtractor =>
+          List(fe.computeFeature(attr))
+
+        case gfe: GroupFeatureExtractor =>
+          gfe.computeFeatures(attr)
+      }
+      (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
+    }
+      .collect()
+      .toList
+
+    //        logger.info(s"***Extracting features from ${preprocessedAttributes.size} instances...")
+    //        val featuresOfAllInstances = for(i <- 0 until preprocessedAttributes.size) yield {
+    //            val attr = preprocessedAttributes(i)
+    //            if(i % 100 == 0 || (i+1) == preprocessedAttributes.size) println("    extracting features from instance " + i + s" of ${preprocessedAttributes.size} : " + attr.rawAttribute.id)
+    //            //TODO: restore caching?
+    //            // val instanceFeatures = featuresCache.getOrElseUpdate(attr.rawAttribute.id, featureExtractors.flatMap({
+    //            val instanceFeatures = featureExtractors.flatMap({
+    //                case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
+    //                case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
+    //            })
+    //            (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
+    //        }
+    //
+    //        logger.info("Finished extracting features.")
+    //        featuresOfAllInstances.toList
+  }
 
 
     def extractFeatures(preprocessedAttributes: List[PreprocessedAttribute],
