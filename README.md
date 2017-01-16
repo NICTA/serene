@@ -67,6 +67,7 @@ Datasets need to be uploaded to the server. Currently only CSVs are supported. A
 curl localhost:8080/v1.0/dataset
 
 # Post a new dataset...
+# Note that the max upload size is 2GB...
 curl -X POST -F 'file=@test.csv' -F 'description=This is a file' -F 'typeMap={"a":"int", "c":"string", "e":"int"}' localhost:8080/v1.0/dataset
 
 # Show a single dataset
