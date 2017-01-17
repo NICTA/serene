@@ -46,19 +46,19 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     //initialise spark stuff
     val conf = new SparkConf()
       .setAppName("SereneSchemaMatcher")
-      .setMaster("local")
+      .setMaster("local[*]")
       .set("spark.driver.allowMultipleContexts", "true")
     // changing to Kryo serialization!!!
-    conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-    conf.set("spark.kryoserializer.buffer.max", "1024")
-    conf.registerKryoClasses(Array(
-      classOf[PreprocessedAttribute],
-      classOf[DataModel],
-      classOf[Attribute],
-      classOf[FeatureExtractor],
-      classOf[SemanticTypeLabels],
-      classOf[(PreprocessedAttribute, FeatureExtractor)],
-      classOf[DintMeta]))
+//    conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+//    conf.set("spark.kryoserializer.buffer.max", "1024")
+//    conf.registerKryoClasses(Array(
+//      classOf[PreprocessedAttribute],
+//      classOf[DataModel],
+//      classOf[Attribute],
+//      classOf[FeatureExtractor],
+//      classOf[SemanticTypeLabels],
+//      classOf[(PreprocessedAttribute, FeatureExtractor)],
+//      classOf[DintMeta]))
     //    conf.set("spark.kryo.registrationRequired", "true")
     val sc = new SparkContext(conf)
     val sqlContext = new SQLContext(sc)
@@ -68,30 +68,30 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
 
   /**
     *
-    * @param trainingData
+    * @param allAttributes
     * @param trainingSettings
     * @param labels
     * @return
     */
-  def resamplePreprocessAttributes(trainingData: DataModel,
+  def resamplePreprocessAttributes(allAttributes: List[Attribute],
                                    trainingSettings: TrainingSettings,
                                    labels: SemanticTypeLabels
-                        ): List[PreprocessedAttribute] = {
-    val allAttributes = DataModel.getAllAttributes(trainingData)
+                        )(implicit sc: SparkContext): List[PreprocessedAttribute] = {
+
     logger.info(s"   obtained ${allAttributes.size} attributes")
     //resampling
-    val numBags = trainingSettings.numBags.getOrElse(100)
-    val bagSize = trainingSettings.bagSize.getOrElse(100)
+    val numBags = trainingSettings.numBags.getOrElse(5)
+    val bagSize = trainingSettings.bagSize.getOrElse(50)
     val resampledAttrs: List[Attribute] = ClassImbalanceResampler // here seeds are fixed so output will be the same on the same input
       .resample(trainingSettings.resamplingStrategy, allAttributes, labels, bagSize, numBags)
     logger.info(s"   resampled ${resampledAttrs.size} attributes")
 
     // preprocess attributes of the data sources - logical datatypes are inferred during this process
-      // TODO: parallelize here!
-    val preprocessor = DataPreprocessor()
-    val preprocessedTrainInstances: List[PreprocessedAttribute] = resampledAttrs
-      .map(rawAttr => preprocessor.preprocess(rawAttr))
-    preprocessedTrainInstances
+    val preprocessRDD = sc.parallelize(resampledAttrs)
+    logger.info(s"Preprocessing attributes on num partitions ${preprocessRDD.partitions.size} ")
+    preprocessRDD
+      .map { DataPreprocessor().preprocess }
+      .collect.toList
   }
 
   def extractFeatures(preprocessedTrainInstances: List[PreprocessedAttribute],
@@ -193,6 +193,26 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     finalModel
   }
 
+  /**
+    *
+    * @param attributes
+    * @param trainingSettings
+    * @param labels
+    * @param sc
+    * @return
+    */
+  def generateFeatures(attributes: List[Attribute],
+                       trainingSettings: TrainingSettings,
+                       labels: SemanticTypeLabels)
+                      (implicit sc: SparkContext): List[FeatureExtractor] = {
+    logger.info("Generating feature extractors")
+    val preprocessedAttrs = sc.parallelize(attributes)
+      .map { DataPreprocessor().preprocess }
+      .collect.toList
+    FeatureExtractorUtil
+      .generateFeatureExtractors(classes, preprocessedAttrs, trainingSettings, labels)
+  }
+
   override def train(trainingData: DataModel,
                      labels: SemanticTypeLabels,
                      trainingSettings: TrainingSettings,
@@ -201,10 +221,16 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     logger.info(s"***Training initialization for classes: $classes...")
 
     implicit val (sc, sqlContext) = setUpSpark()
-    val preprocessedAttributes = resamplePreprocessAttributes(trainingData, trainingSettings, labels)
+    val allAttributes = DataModel.getAllAttributes(trainingData)
 
+    val preprocessedAttributes = resamplePreprocessAttributes(allAttributes, trainingSettings, labels)
+
+    // this is the full list of FeatureExtractors
     val featureExtractors = FeatureExtractorUtil
       .generateFeatureExtractors(classes, preprocessedAttributes, trainingSettings, labels)
+
+    // my hack to reduce them
+//    val featureExtractors = generateFeatures(allAttributes, trainingSettings, labels)
 
     //get feature names and construct schema
     val featureNames: List[String] = featureExtractors.flatMap({

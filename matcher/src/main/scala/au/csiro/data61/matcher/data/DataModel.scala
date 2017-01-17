@@ -41,7 +41,8 @@ class DataModel(val id: String,
                 parentf: => Option[AbstractDataModel],
                 childrenf: => Option[List[AbstractDataModel]]) extends AbstractDataModel
   with HasChildren
-  with HasParent {
+  with HasParent
+  with Serializable {
 
   lazy val parent = parentf
   lazy val children = childrenf
@@ -88,7 +89,10 @@ object DataModel {
 class Attribute(val id: String,
                 val metadata: Option[Metadata],
                 val values: List[String],
-                parentf: => Some[AbstractDataModel]) extends AbstractDataModel with HasParent {
+                parentf: => Some[AbstractDataModel])
+  extends AbstractDataModel
+    with HasParent
+    with Serializable {
   lazy val parent = parentf
 
   override def toString(): String = {
