@@ -799,7 +799,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   test("POST /v1.0/model/:id/train accepts request and completes successfully") (new TestServer {
     try {
-      val PollTime = 1000
+      val PollTime = 2000
       val PollIterations = 10
 
       val (model, _) = trainDefault()
@@ -818,8 +818,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   test("POST /v1.0/model/:id/train with bagging accepts request and completes successfully") (new TestServer {
     try {
-      val PollTime = 1000
-      val PollIterations = 20
+      val PollTime = 2000
+      val PollIterations = 40
 
       val (model, _) = trainDefault(resamplingStrategy="Bagging", bagSize=Some(100), numBags=Some(10))
       val trained = pollModelState(model, PollIterations, PollTime)
@@ -1023,7 +1023,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("POST /v1.0/model/:id/predict/:id returns successfully") (new TestServer {
     try {
       val PollTime = 1000
-      val PollIterations = 10
+      val PollIterations = 40
 
       val (model, ds) = trainDefault()
 
@@ -1086,8 +1086,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
   test("POST /v1.0/model/:id/predict/:id returns predictions with validation > 0.9") (new TestServer {
     try {
-      val PollTime = 1000
-      val PollIterations = 10
+      val PollTime = 2000
+      val PollIterations = 20
 
       val (model, ds) = trainDefault()
 

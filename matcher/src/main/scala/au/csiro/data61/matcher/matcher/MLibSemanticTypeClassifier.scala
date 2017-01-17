@@ -29,8 +29,28 @@ import org.apache.spark.sql._
 import org.apache.spark.sql.types._
 import org.apache.spark.ml.PipelineModel
 import org.apache.spark.mllib.linalg.DenseVector
+import org.apache.spark.ml.linalg.{Vector => NewVector, DenseVector => NewDenseVector, SparseVector => NewSparseVector}
 import org.apache.spark.ml.feature.StringIndexerModel
 import com.typesafe.scalalogging.LazyLogging
+
+import scala.languageFeature.implicitConversions
+
+/**
+  * Implicit conversion between old-style vectors in spark mllib to new-style.
+  * not reallyused in our code now...
+  */
+object VectorConversions {
+  import org.apache.spark.mllib.{linalg => mllib}
+  import org.apache.spark.ml.{linalg => ml}
+
+  implicit def toNewVector(v: mllib.Vector) = v.asML
+  implicit def toOldVector(v: ml.Vector) = v match {
+    case ml.DenseVector(vs) =>
+      mllib.Vectors.dense(vs)
+    case ml.SparseVector(size, idxs, values) =>
+      mllib.Vectors.sparse(size, idxs, values)
+  }
+}
 
 case class MLibSemanticTypeClassifier(
         classes: List[String],
@@ -40,12 +60,29 @@ case class MLibSemanticTypeClassifier(
         derivedFeaturesPath: Option[String] = None)
   extends SemanticTypeClassifier with LazyLogging {
 
+  /**
+    * Setting up Spark per each training session.
+    * We should move it outside and just indicate the port where spark is running.
+    * Too much needs to be configured...
+    * @return
+    */
   def setUpSpark(): (SparkContext, SQLContext) = {
     //initialise spark stuff
     val conf = new SparkConf()
       .setAppName("SereneSchemaMatcher")
-      .setMaster("local[*]")
+      .setMaster("local[2]")
       .set("spark.driver.allowMultipleContexts", "true")
+      .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
+      .set("spark.network.timeout", "600s")
+      .set("spark.executor.heartbeatInterval", "20s")
+//      .set("spark.driver.port","7001")
+//      .set("spark.driver.host","192.168.33.10")
+//      .set("spark.fileserver.port","6002")
+//      .set("spark.broadcast.port","6003")
+//      .set("spark.replClassServer.port","6004")
+//      .set("spark.blockManager.port","6005")
+//      .set("spark.executor.port","6006")
+//      .set("spark.broadcast.factory","org.apache.spark.broadcast.HttpBroadcastFactory")
     // changing to Kryo serialization!!!
 //    conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
 //    conf.set("spark.kryoserializer.buffer.max", "1024")
@@ -100,8 +137,13 @@ case class MLibSemanticTypeClassifier(
     // for debugging, you might want to look at these columns: "rawPrediction","probability","prediction","predictedLabel"
     val predsLocal : Array[Array[Double]] = preds
       .select("probability")
-      .rdd.map({ case x => x(0).asInstanceOf[DenseVector].toArray})
+      .rdd
+      .map {
+        x => x(0).asInstanceOf[NewDenseVector].toArray // in new spark DenseVector changed!
+//        x => x(0).asInstanceOf[DenseVector].toArray
+      }
       .collect
+
     sc.stop()
 
     logger.info("***Reordering elements.")

@@ -78,13 +78,15 @@ object SereneBuild extends Build {
         "org.specs2"              %% "specs2-mock"           % "2.3.11" % Test exclude("org.mockito", "mockito-core"),
         "org.specs2"              %% "specs2-junit"          % "2.3.11" % Test,
         "com.rubiconproject.oss"  %  "jchronic"              % "0.2.6",
-        "org.json4s"              %% "json4s-native"         % "3.3.0",
+        "org.json4s"              %% "json4s-native"         % "3.2.10", // we need to keep this version because of spark
         "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.8.2",
         "com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0",
         "com.joestelmach"         %  "natty"                 % "0.8",
-        "org.apache.spark"        %%  "spark-core"           % "1.6.1",
-        "org.apache.spark"        %%  "spark-sql"            % "1.6.1",
-        "org.apache.spark"        %%  "spark-mllib"          % "1.6.1"
+        // switching to new version of Spark --> 1.6.0 was reported to have memory leaks when working with large data
+        "org.apache.spark"        %%  "spark-core"           % "2.1.0",
+        "org.apache.spark"        %%  "spark-sql"            % "2.1.0",
+        "org.apache.spark"        %%  "spark-mllib"          % "2.1.0"
+        exclude("com.chuusai", "shapeless_2.11")  // this is to remove cross-version error with new versions of spark
       ),
 
       test in assembly := {},
@@ -125,9 +127,9 @@ object SereneBuild extends Build {
         mainClass in assembly := Some("au.csiro.data61.core.Serene"),
 
         libraryDependencies ++= Seq(
-          "org.json4s"                  %% "json4s-jackson"     % "3.3.0"
-          ,"org.json4s"                 %% "json4s-native"      % "3.3.0"
-          ,"org.json4s"                 %% "json4s-ext"         % "3.3.0"
+          "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
+          ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
+          ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
           ,"ch.qos.logback"             %  "logback-classic"    % "1.1.3"            % "runtime"
           ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
           ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"

@@ -79,7 +79,7 @@ object ModelTrainer extends LazyLogging {
     */
   protected def readTrainingData: DataModel = {
 
-    logger.debug(s"Reading training data")
+    logger.info(s"Reading training data")
 
     val datasets = getDataModels
 
@@ -113,7 +113,7 @@ object ModelTrainer extends LazyLogging {
     */
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
 
-    logger.debug(s"train called for model $id")
+    logger.info(s"train called for model $id")
 
     ModelStorage.identifyPaths(id)
       .map(cts  => {
@@ -124,7 +124,7 @@ object ModelTrainer extends LazyLogging {
           throw NotFoundException(msg)
         }
 
-        logger.debug("Attempting to create training object..")
+        logger.info("Attempting to create training object..")
 
         val dataTrainModel = DataintTrainModel(
           classes = cts.curModel.classes,
@@ -133,7 +133,7 @@ object ModelTrainer extends LazyLogging {
           trainSettings = readSettings(cts),
           postProcessingConfig = None)
 
-        logger.debug(s"Created data training model: $dataTrainModel")
+        logger.info(s"Created data training model")
 
         dataTrainModel
       })

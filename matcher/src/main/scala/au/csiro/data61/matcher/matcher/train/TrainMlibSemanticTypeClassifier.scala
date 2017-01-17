@@ -42,12 +42,30 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
   val defaultNumTrees = 20
   val defaultImpurity = "gini"
 
+  /**
+    * Setting up Spark per each training session.
+    * We should move it outside and just indicate the port where spark is running.
+    * Too much needs to be configured...
+    * @return
+    */
   def setUpSpark(): (SparkContext, SQLContext) = {
+    // TODO: swith to SparkSession!!!
     //initialise spark stuff
     val conf = new SparkConf()
       .setAppName("SereneSchemaMatcher")
-      .setMaster("local[*]")
+      .setMaster("local[2]")
       .set("spark.driver.allowMultipleContexts", "true")
+      .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
+      .set("spark.network.timeout", "600s")
+      .set("spark.executor.heartbeatInterval", "20s")
+//      .set("spark.driver.port","7001")
+//      .set("spark.driver.host","192.168.33.10")
+//      .set("spark.fileserver.port","6002")
+//      .set("spark.broadcast.port","6003")
+//      .set("spark.replClassServer.port","6004")
+//      .set("spark.blockManager.port","6005")
+//      .set("spark.executor.port","6006")
+//      .set("spark.broadcast.factory","org.apache.spark.broadcast.HttpBroadcastFactory")
     // changing to Kryo serialization!!!
 //    conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
 //    conf.set("spark.kryoserializer.buffer.max", "1024")
@@ -87,10 +105,11 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     logger.info(s"   resampled ${resampledAttrs.size} attributes")
 
     // preprocess attributes of the data sources - logical datatypes are inferred during this process
-    val preprocessRDD = sc.parallelize(resampledAttrs)
+    val preprocessRDD = sc.parallelize(resampledAttrs,2)
     logger.info(s"Preprocessing attributes on num partitions ${preprocessRDD.partitions.size} ")
     preprocessRDD
       .map { DataPreprocessor().preprocess }
+        .repartition(2)
       .collect.toList
   }
 
