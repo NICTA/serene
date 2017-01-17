@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 command_exists () {
     type "$1" > /dev/null 2>&1;
@@ -11,7 +11,7 @@ fi
 
 pushd "$(dirname "$0")" > /dev/null
 cd ..
-sbt assembly
+sbt -J-Xmx4G assembly
 
 if [ ! -d jars ]; then
    mkdir jars
