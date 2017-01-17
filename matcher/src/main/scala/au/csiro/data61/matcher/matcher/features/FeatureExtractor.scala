@@ -69,23 +69,23 @@ object FeatureExtractorUtil extends LazyLogging {
       .toList
   }
 
-  def extractTrainFeatures(attributes: List[Attribute],
-                           labels: SemanticTypeLabels,
-                           featureExtractors: List[FeatureExtractor]
-                          )(implicit sc: SparkContext)
-  : List[(PreprocessedAttribute, List[Any], String)] = {
-
-    logger.info(s"***Extracting features from ${attributes.size} attributes...")
-
-    val preprocessRDD: RDD[Attribute] = sc.parallelize(attributes)
-    //    FIXME: only 1 partition gets created here!!!
-    logger.info(s"***   preprocess number partitions created: ${preprocessRDD.partitions.size}")
-    val preprocessedTrainInstances: List[PreprocessedAttribute] = preprocessRDD
-      .map { DataPreprocessor().preprocess }
-      .collect.toList
-
-
-    val groupFeatureExtractors = featureExtractors.filter {case gfe: GroupFeatureExtractor => true}
+//  def extractTrainFeatures(attributes: List[Attribute],
+//                           labels: SemanticTypeLabels,
+//                           featureExtractors: List[FeatureExtractor]
+//                          )(implicit sc: SparkContext)
+//  : List[(PreprocessedAttribute, List[Any], String)] = {
+//
+//    logger.info(s"***Extracting features from ${attributes.size} attributes...")
+//
+//    val preprocessRDD: RDD[Attribute] = sc.parallelize(attributes)
+//    //    FIXME: only 1 partition gets created here!!!
+//    logger.info(s"***   preprocess number partitions created: ${preprocessRDD.partitions.size}")
+//    val preprocessedTrainInstances: List[PreprocessedAttribute] = preprocessRDD
+//      .map { DataPreprocessor().preprocess }
+//      .collect.toList
+//
+//
+//    val groupFeatureExtractors = featureExtractors.filter {case gfe: GroupFeatureExtractor => true}
 
     //    val toRun: List[(PreprocessedAttribute, FeatureExtractor)] = preprocessedAttributes.zip(featureExtractors)
     //    val aparalelRDD = sc.parallelize(toRun, 8)
@@ -107,29 +107,29 @@ object FeatureExtractorUtil extends LazyLogging {
     //    logger.info(s"Weird parallelization: ${someOutput}")
     //  someOutput
 
-    paralelRDD.map { attr =>
-
-      val instanceFeatures: List[Double] = featureExtractors.flatMap {
-        case fe: SingleFeatureExtractor =>
-          List(fe.computeFeature(attr))
-
-        case gfe: GroupFeatureExtractor =>
-          gfe.computeFeatures(attr)
-      }
-      (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
-    }
-      .collect()
-      .toList
-
-  }
-
-
-//  def extractFeatures(preprocessedAttributes: List[PreprocessedAttribute],
-//                      labels: SemanticTypeLabels,
-//                      featureExtractors: List[FeatureExtractor]
-//                     )(implicit sc: SparkContext): List[(PreprocessedAttribute, List[Any], String)] = {
+//    paralelRDD.map { attr =>
 //
-//    logger.info(s"***Extracting features from ${preprocessedAttributes.size} preprocessed attributes...")
+//      val instanceFeatures: List[Double] = featureExtractors.flatMap {
+//        case fe: SingleFeatureExtractor =>
+//          List(fe.computeFeature(attr))
+//
+//        case gfe: GroupFeatureExtractor =>
+//          gfe.computeFeatures(attr)
+//      }
+//      (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
+//    }
+//      .collect()
+//      .toList
+//
+//  }
+
+
+  def extractFeatures(preprocessedAttributes: List[PreprocessedAttribute],
+                      labels: SemanticTypeLabels,
+                      featureExtractors: List[FeatureExtractor]
+                     )(implicit sc: SparkContext): List[(PreprocessedAttribute, List[Any], String)] = {
+
+    logger.info(s"***Extracting features from ${preprocessedAttributes.size} preprocessed attributes...")
 
 //    val toRun: List[(PreprocessedAttribute, FeatureExtractor)] = preprocessedAttributes.zip(featureExtractors)
 //    val aparalelRDD = sc.parallelize(toRun, 8)
@@ -151,24 +151,24 @@ object FeatureExtractorUtil extends LazyLogging {
 //    logger.info(s"Weird parallelization: ${someOutput}")
 //  someOutput
 
-//  val paralelRDD = sc.parallelize(preprocessedAttributes)
-//  //    FIXME: only 1 partition gets created here!!!
-//  logger.info(s"***   number partitions created: ${paralelRDD.partitions.size}")
-//  paralelRDD.map { attr =>
-//
-//    val instanceFeatures: List[Double] = featureExtractors.flatMap {
-//      case fe: SingleFeatureExtractor =>
-//        List(fe.computeFeature(attr))
-//
-//      case gfe: GroupFeatureExtractor =>
-//        gfe.computeFeatures(attr)
-//    }
-//    (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
-//  }
-//    .collect()
-//    .toList
-//
-//  }
+  val paralelRDD = sc.parallelize(preprocessedAttributes)
+  //    FIXME: only 1 partition gets created here!!!
+  logger.info(s"***   number partitions created: ${paralelRDD.partitions.size}")
+  paralelRDD.map { attr =>
+
+    val instanceFeatures: List[Double] = featureExtractors.flatMap {
+      case fe: SingleFeatureExtractor =>
+        List(fe.computeFeature(attr))
+
+      case gfe: GroupFeatureExtractor =>
+        gfe.computeFeatures(attr)
+    }
+    (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
+  }
+    .collect()
+    .toList
+
+  }
 
 
   def generateFeatureExtractors(classes: List[String],
