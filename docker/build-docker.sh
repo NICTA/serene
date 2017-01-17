@@ -1,4 +1,10 @@
 #!/bin/bash
+#
+# This script will build the uber-jar on the host machine, then
+# run a docker script that contains only the jar and the executable.
+# Additionally, the docker image is exported to a .tar.gz file for
+# use on other machines.
+#
 
 pushd "$(dirname "$0")" > /dev/null
 cd ..
