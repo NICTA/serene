@@ -20,7 +20,6 @@ package au.csiro.data61.matcher.matcher
 import java.io.{File, PrintWriter}
 
 import au.csiro.data61.matcher.data._
-import au.csiro.data61.matcher.data.{Metadata => DintMeta}
 import au.csiro.data61.matcher.matcher.features._
 import au.csiro.data61.matcher.matcher.train.TrainAliases._
 import org.apache.spark.SparkContext
@@ -30,64 +29,45 @@ import org.apache.spark.sql.types._
 import org.apache.spark.ml.PipelineModel
 import org.apache.spark.mllib.linalg.DenseVector
 import org.apache.spark.ml.feature.StringIndexerModel
+
 import com.typesafe.scalalogging.LazyLogging
 
 case class MLibSemanticTypeClassifier(
-        classes: List[String],
-        model: PipelineModel,
-        featureExtractors: List[FeatureExtractor],
-        postProcessingConfig: Option[Map[String,Any]] = None,
-        derivedFeaturesPath: Option[String] = None)
+                                       classes: List[String],
+                                       model: PipelineModel,
+                                       featureExtractors: List[FeatureExtractor],
+                                       postProcessingConfig: Option[Map[String,Any]] = None,
+                                       derivedFeaturesPath: Option[String] = None)
   extends SemanticTypeClassifier with LazyLogging {
-
-  def setUpSpark(): (SparkContext, SQLContext) = {
-    //initialise spark stuff
-    val conf = new SparkConf()
-      .setAppName("SereneSchemaMatcher")
-      .setMaster("local")
-      .set("spark.driver.allowMultipleContexts", "true")
-    // changing to Kryo serialization!!!
-//    conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-//    conf.set("spark.kryoserializer.buffer.max", "1024")
-//    conf.registerKryoClasses(Array(
-//        classOf[PreprocessedAttribute],
-//        classOf[DataModel],
-//        classOf[Attribute],
-//        classOf[FeatureExtractor],
-//        classOf[SemanticTypeLabels],
-//        classOf[(PreprocessedAttribute, FeatureExtractor)],
-//        classOf[DintMeta]))
-    //    conf.set("spark.kryo.registrationRequired", "true")
-    val sc = new SparkContext(conf)
-    val sqlContext = new SQLContext(sc)
-
-    (sc, sqlContext)
-  }
 
   override def predict(datasets: List[DataModel]): PredictionObject = {
     logger.info("***Prediction initialization...")
     //initialise spark stuff
-    implicit val (sc, sqlContext) = setUpSpark()
+    val conf = new SparkConf()
+      .setAppName("DataIntPrediction")
+      .setMaster("local")
+      .set("spark.driver.allowMultipleContexts", "true")
+    val sc = new SparkContext(conf)
+    val sqlContext = new SQLContext(sc)
 
     // get all attributes (aka columns) from the datasets
     val allAttributes: List[Attribute] = datasets
-      .flatMap({DataModel.getAllAttributes(_)})
+      .flatMap { DataModel.getAllAttributes }
     logger.info(s"   obtained ${allAttributes.size} attributes")
 
     //get feature names and construct schema
     val featureNames = featureExtractors.flatMap({
-        case x: SingleFeatureExtractor => List(x.getFeatureName())
-        case x: GroupFeatureExtractor => x.getFeatureNames()
+      case x: SingleFeatureExtractor => List(x.getFeatureName())
+      case x: GroupFeatureExtractor => x.getFeatureNames()
     })
     val schema = StructType(
-        featureNames
-          .map({case n => StructField(n, DoubleType, false)})
-          .toList
+      featureNames
+        .map({case n => StructField(n, DoubleType, false)})
+        .toList
     )
 
     // extract features
-    val features: List[List[Double]] = FeatureExtractorUtil.extractTestFeaturesNotParallel(
-      allAttributes, featureExtractors)
+    val features: List[List[Double]] = FeatureExtractorUtil.extractFeatures(allAttributes, featureExtractors)
     logger.info(s"   extracted ${features.size} features")
 
     val data = features
@@ -113,17 +93,17 @@ case class MLibSemanticTypeClassifier(
     val newOrder : List[Int] = classes.map(mlibLabels.indexOf(_))
     val predsReordered: Array[Array[Double]] = predsLocal
       .map{
-          case probDist => {
-              // 'classes.length' was used previously
-              // the problem is that classes with 0 score do not appear in probDist
-              (0 until classes.length).map {
-                  case i =>
-                      if (newOrder(i) >= 0) {probDist(newOrder(i))}
-                      else 0.0 // probability for this class is missing, so set it to 0
-                      //probDist(newOrder(i))
-              }.toArray
-          }
-    }
+        case probDist => {
+          // 'classes.length' was used previously
+          // the problem is that classes with 0 score do not appear in probDist
+          (0 until classes.length).map {
+            case i =>
+              if (newOrder(i) >= 0) {probDist(newOrder(i))}
+              else 0.0 // probability for this class is missing, so set it to 0
+            //probDist(newOrder(i))
+          }.toArray
+        }
+      }
 
     val predictions: Predictions = allAttributes zip predsReordered // this was returned previously by this function
     // get the class with the max score per each attribute
@@ -133,7 +113,7 @@ case class MLibSemanticTypeClassifier(
         val maxScore = scores(maxIdx)
         val classPred = classes(maxIdx)
         (attr.id, classPred, maxScore)
-    }.toList
+      }.toList
 
     val aux: Seq[((Attribute, Scores), Features)] =  predictions zip features
     // we want to return an array of (Attribute, predictedClassScores, derivedFeatures)
@@ -141,8 +121,8 @@ case class MLibSemanticTypeClassifier(
 
     // we save features to file here
     derivedFeaturesPath match {
-        case Some(filePath) => saveFeatures(predictionsFeatures, featureNames, maxClassPreds, filePath)
-        case None =>
+      case Some(filePath) => saveFeatures(predictionsFeatures, featureNames, maxClassPreds, filePath)
+      case None =>
     }
 
     logger.info("***Prediction finished.")
@@ -162,13 +142,13 @@ case class MLibSemanticTypeClassifier(
     out.println(header)
 
     //write features
-    (attributes zip featuresList).foreach {
+    (attributes zip featuresList).foreach({
       case (attr, features) =>
         val id = attr.id
         val classPred = maxClassPreds
           .filter(elem => elem._1 == id)(0)
         out.println((id :: classPred._2 :: classPred._3 :: features).mkString(","))
-    }
+    })
 
     out.close()
   }
@@ -177,21 +157,21 @@ case class MLibSemanticTypeClassifier(
                    featureNames: List[String],
                    maxClassPreds: List[(String,String,Double)], // include manual/predicted labels
                    path: String) = {
-      logger.info("***Writing derived features to " + path)
-      val out = new PrintWriter(new File(path))
+    logger.info("***Writing derived features to " + path)
+    val out = new PrintWriter(new File(path))
 
-      val header = ("id,label,confidence" :: classes ::: featureNames).mkString(",")
-      out.println(header)
+    val header = ("id,label,confidence" :: classes ::: featureNames).mkString(",")
+    out.println(header)
 
-      //write features
-      predictionsFeatures.foreach({
-          case (attr, scores, features) =>
-              val id = attr.id
-              val classPred = maxClassPreds
-                .filter(elem => elem._1 == id)(0)
-              out.println((id :: classPred._2 :: classPred._3 :: scores.toList ::: features).mkString(","))
-      })
+    //write features
+    predictionsFeatures.foreach({
+      case (attr, scores, features) =>
+        val id = attr.id
+        val classPred = maxClassPreds
+          .filter(elem => elem._1 == id)(0)
+        out.println((id :: classPred._2 :: classPred._3 :: scores.toList ::: features).mkString(","))
+    })
 
-      out.close()
+    out.close()
   }
 }
