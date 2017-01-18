@@ -210,6 +210,7 @@ object SamplingStrategy {
   case object BAGGING extends SamplingStrategy { val str = "Bagging" }
   case object BAGGING_TO_MAX extends SamplingStrategy { val str = "BaggingToMax" }
   case object BAGGING_TO_MEAN extends SamplingStrategy { val str = "BaggingToMean" }
+  case object NO_RESAMPLING extends SamplingStrategy { val str = "NoResampling" }
 
   val values = Set(
     UPSAMPLE_TO_MAX,
@@ -217,7 +218,8 @@ object SamplingStrategy {
     UPSAMPLE_TO_MEAN,
     BAGGING,
     BAGGING_TO_MAX,
-    BAGGING_TO_MEAN
+    BAGGING_TO_MEAN,
+    NO_RESAMPLING
   )
 
   def lookup(str: String): Option[SamplingStrategy] = {

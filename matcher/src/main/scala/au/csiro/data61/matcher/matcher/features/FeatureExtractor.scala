@@ -52,7 +52,7 @@ object FeatureExtractorUtil extends LazyLogging {
   def extractTestFeatures(attributes: List[DMAttribute],
                           featureExtractors: List[FeatureExtractor])(implicit sc: SparkContext): List[List[Double]] = {
     // additional preprocessing of attributes (e.g., data type inference, tokenization of column names, etc.)
-    logger.info(s"***Extracting test features from ${attributes.size} instances...")
+    logger.info(s"***Extracting test features using spark from ${attributes.size} instances...")
     sc.parallelize(attributes)
       .map { DataPreprocessor().preprocess }
       .map { attr =>
@@ -69,13 +69,42 @@ object FeatureExtractorUtil extends LazyLogging {
       .toList
   }
 
+  def extractTestFeaturesNotParallel(attributes: List[DMAttribute],
+                      featureExtractors: List[FeatureExtractor]
+                     ): List[List[Double]] = {
+    // additional preprocessing of attributes (e.g., data type inference, tokenization of column names, etc.)
+    val preprocessor = DataPreprocessor()
+    //TODO: restore caching?
+    // val preprocessedAttributes = attributes.map({rawAttr => (preprocessedAttrCache.getOrElseUpdate(rawAttr.id, preprocessor.preprocess(rawAttr)))})
+    val preprocessedAttributes = attributes
+      .map({rawAttr =>
+        preprocessor.preprocess(rawAttr)})
+
+    logger.info(s"***Extracting test features not parallel from ${preprocessedAttributes.size} instances...")
+    val featuresOfAllInstances = for(i <- 0 until preprocessedAttributes.size) yield {
+      val attr = preprocessedAttributes(i)
+      if(i % 100 == 0 || (i+1) == preprocessedAttributes.size)
+        println("    extracting features from instance " + i + s" of ${preprocessedAttributes.size} : " + attr.rawAttribute.id)
+      // val instanceFeatures = featuresCache.getOrElseUpdate(attr.rawAttribute.id, featureExtractors.flatMap({
+      val instanceFeatures = featureExtractors.flatMap({
+        case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
+        case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
+      })
+      instanceFeatures
+    }
+
+    logger.info("***Finished extracting features.")
+    featuresOfAllInstances.toList
+
+  }
+
   def extractTrainFeatures(attributes: List[Attribute],
                            labels: SemanticTypeLabels,
                            featureExtractors: List[FeatureExtractor]
                           )(implicit sc: SparkContext)
   : List[(PreprocessedAttribute, List[Any], String)] = {
 
-    logger.info(s"***Extracting features from ${attributes.size} attributes...")
+    logger.info(s"***Extracting features parallel from ${attributes.size} attributes...")
 
     val preprocessRDD = sc.parallelize(attributes)
     logger.info(s"***   num partitions ${preprocessRDD.partitions.size} ")
@@ -116,13 +145,35 @@ object FeatureExtractorUtil extends LazyLogging {
     //  someOutput
   }
 
+  def extractFeaturesNotParallel(preprocessedAttributes: List[PreprocessedAttribute],
+                      labels: SemanticTypeLabels,
+                      featureExtractors: List[FeatureExtractor]
+                     ): List[(PreprocessedAttribute, List[Any], String)] = {
+    logger.info(s"Extracting features not parallel from ${preprocessedAttributes.size} instances...")
+    val featuresOfAllInstances = for(i <- 0 until preprocessedAttributes.size) yield {
+      val attr = preprocessedAttributes(i)
+      if(i % 100 == 0 || (i+1) == preprocessedAttributes.size) println("    extracting features from instance " + i + s" of ${preprocessedAttributes.size} : " + attr.rawAttribute.id)
+      //TODO: restore caching?
+      // val instanceFeatures = featuresCache.getOrElseUpdate(attr.rawAttribute.id, featureExtractors.flatMap({
+      val instanceFeatures = featureExtractors.flatMap({
+        case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
+        case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
+      })
+      (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
+    }
+
+    logger.info("Finished extracting features.")
+    featuresOfAllInstances.toList
+  }
+
+
 
   def extractFeatures(preprocessedAttributes: List[PreprocessedAttribute],
                       labels: SemanticTypeLabels,
                       featureExtractors: List[FeatureExtractor]
                      )(implicit sc: SparkContext): List[(PreprocessedAttribute, List[Any], String)] = {
 
-    logger.info(s"***Extracting features from ${preprocessedAttributes.size} preprocessed attributes...")
+    logger.info(s"***Extracting features parallel from ${preprocessedAttributes.size} preprocessed attributes...")
 
   val paralelRDD = sc.parallelize(preprocessedAttributes)
   //    FIXME: only 1 partition gets created here!!!

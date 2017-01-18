@@ -44,7 +44,7 @@ case class MLibSemanticTypeClassifier(
     //initialise spark stuff
     val conf = new SparkConf()
       .setAppName("SereneSchemaMatcher")
-      .setMaster("local[*]")
+      .setMaster("local")
       .set("spark.driver.allowMultipleContexts", "true")
     // changing to Kryo serialization!!!
 //    conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
@@ -86,7 +86,8 @@ case class MLibSemanticTypeClassifier(
     )
 
     // extract features
-    val features: List[List[Double]] = FeatureExtractorUtil.extractTestFeatures(allAttributes, featureExtractors)
+    val features: List[List[Double]] = FeatureExtractorUtil.extractTestFeaturesNotParallel(
+      allAttributes, featureExtractors)
     logger.info(s"   extracted ${features.size} features")
 
     val data = features

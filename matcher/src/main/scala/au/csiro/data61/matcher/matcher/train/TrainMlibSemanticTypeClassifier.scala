@@ -46,7 +46,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     //initialise spark stuff
     val conf = new SparkConf()
       .setAppName("SereneSchemaMatcher")
-      .setMaster("local[*]")
+      .setMaster("local")
       .set("spark.driver.allowMultipleContexts", "true")
     // changing to Kryo serialization!!!
 //    conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
@@ -100,7 +100,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
                      )(implicit sc: SparkContext): List[Row] = {
     //convert instance features into Spark Row instances
     val features = FeatureExtractorUtil
-      .extractFeatures(preprocessedTrainInstances, labels, featureExtractors)
+      .extractFeaturesNotParallel(preprocessedTrainInstances, labels, featureExtractors)
     logger.info(s"   extracted ${features.size} features")
 
     val data: List[Row] = features
@@ -111,6 +111,8 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
 
     data
   }
+
+
 
   def trainRandomForest(dataDf: DataFrame,
                         featureNames: List[String]
