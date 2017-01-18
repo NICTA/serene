@@ -82,6 +82,7 @@ object DatasetAPI extends RestAPI {
         * @return
         */
       def createDataSet(fs: FileStream, filename: String): DataSet = {
+
         val req = DataSetRequest(
           Some(fs),
           desc,
@@ -90,6 +91,7 @@ object DatasetAPI extends RestAPI {
             tm <- Try { parse(str).extract[TypeMap] } toOption
           } yield tm
         )
+
         MatcherInterface.createDataset(req)
       }
 

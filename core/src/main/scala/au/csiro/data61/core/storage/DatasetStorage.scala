@@ -84,7 +84,6 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
         outputPath,
         StandardCopyOption.REPLACE_EXISTING
       )
-
       outputPath
 
     } toOption

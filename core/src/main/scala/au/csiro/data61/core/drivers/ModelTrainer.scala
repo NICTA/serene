@@ -96,7 +96,7 @@ object ModelTrainer extends LazyLogging {
     */
   protected def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels = {
 
-    logger.debug(s"Reading label data from $trainerPaths")
+    logger.info(s"Reading label data")
 
     val labelsLoader = SemanticTypeLabelsLoader()
     val stl = labelsLoader.load(trainerPaths.labelsDirPath)

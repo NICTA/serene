@@ -15,7 +15,7 @@ cd ..
 FILENAME=jars/serene-0.1.0.jar
 
 if [ -f $FILENAME ]; then
-    exec java -cp $FILENAME au.csiro.data61.core.Serene "$@"
+    exec java -Xmx6G -cp $FILENAME au.csiro.data61.core.Serene "$@"
 else
     echo "ERROR: $FILENAME does not exist. Have you run bin/build yet?"
 fi

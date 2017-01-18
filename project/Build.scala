@@ -23,7 +23,7 @@ object SereneBuild extends Build {
     },
 
     // long file names become an issue on encrypted file systems - this is a weird workaround
-    scalacOptions ++= Seq("-Xmax-classfile-name","78"),
+    scalacOptions ++= Seq("-Xmax-classfile-name", "78"),
 
     javaOptions in run ++= Seq("-Xms256M", "-Xmx4G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
 
@@ -96,7 +96,7 @@ object SereneBuild extends Build {
 
       initialCommands in console in Test := "import org.specs2._",
 
-//      javaOptions in run ++= Seq("-Xms256M", "-Xmx2G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
+      //javaOptions in run ++= Seq("-Xms256M", "-Xmx2G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
 
       javaOptions in test ++= Seq("-Xms256M", "-Xmx2G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
 
