@@ -87,11 +87,13 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     logger.info(s"   resampled ${resampledAttrs.size} attributes")
 
     // preprocess attributes of the data sources - logical datatypes are inferred during this process
-    val preprocessRDD = sc.parallelize(resampledAttrs)
-    logger.info(s"Preprocessing attributes on num partitions ${preprocessRDD.partitions.size} ")
-    preprocessRDD
-      .map { DataPreprocessor().preprocess }
-      .collect.toList
+//    val preprocessRDD = sc.parallelize(resampledAttrs)
+//    logger.info(s"Preprocessing attributes on num partitions ${preprocessRDD.partitions.size} ")
+//    preprocessRDD
+//      .map { DataPreprocessor().preprocess }
+//      .collect.toList
+    logger.info(s"Preprocessing attributes... ")
+    resampledAttrs.map { DataPreprocessor().preprocess }
   }
 
   def extractFeatures(preprocessedTrainInstances: List[PreprocessedAttribute],
