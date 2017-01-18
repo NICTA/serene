@@ -800,12 +800,12 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("POST /v1.0/model/:id/train accepts request and completes successfully") (new TestServer {
     try {
       val PollTime = 2000
-      val PollIterations = 10
+      val PollIterations = 20
 
       val (model, _) = trainDefault()
       val trained = pollModelState(model, PollIterations, PollTime)
 
-      val state = concurrent.Await.result(trained, 15 seconds)
+      val state = concurrent.Await.result(trained, 20 seconds)
 
       assert(state === ModelTypes.Status.COMPLETE)
 
@@ -905,7 +905,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 15 seconds)
+      val state = concurrent.Await.result(trained, 20 seconds)
 
       assert(state === ModelTypes.Status.COMPLETE)
 
