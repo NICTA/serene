@@ -44,11 +44,17 @@ case class MLibSemanticTypeClassifier(
     logger.info("***Prediction initialization...")
     //initialise spark stuff
     val conf = new SparkConf()
-      .setAppName("DataIntPrediction")
+      .setAppName("SereneSchemaMatcher")
       .setMaster("local")
       .set("spark.driver.allowMultipleContexts", "true")
-    val sc = new SparkContext(conf)
-    val sqlContext = new SQLContext(sc)
+//      .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
+//      .set("spark.network.timeout", "800s")
+//      .set("spark.executor.heartbeatInterval", "50s")
+
+    implicit val sc = new SparkContext(conf)
+    implicit val sqlContext = new SQLContext(sc)
+
+    logger.info(s"Spark settings for prediction: ${sc.getConf.getAll}")
 
     // get all attributes (aka columns) from the datasets
     val allAttributes: List[Attribute] = datasets
@@ -62,16 +68,17 @@ case class MLibSemanticTypeClassifier(
     })
     val schema = StructType(
       featureNames
-        .map({case n => StructField(n, DoubleType, false)})
+        .map { n => StructField(n, DoubleType, false) }
         .toList
     )
 
     // extract features
-    val features: List[List[Double]] = FeatureExtractorUtil.extractFeatures(allAttributes, featureExtractors)
+    val features: List[List[Double]] = FeatureExtractorUtil
+      .extractFeatures(allAttributes, featureExtractors)
     logger.info(s"   extracted ${features.size} features")
 
     val data = features
-      .map({case instFeatures => Row.fromSeq(instFeatures)})
+      .map { instFeatures => Row.fromSeq(instFeatures) }
       .toList
     val dataRdd = sc.parallelize(data)
     val dataDf = sqlContext.createDataFrame(dataRdd, schema)
@@ -81,7 +88,7 @@ case class MLibSemanticTypeClassifier(
     // for debugging, you might want to look at these columns: "rawPrediction","probability","prediction","predictedLabel"
     val predsLocal : Array[Array[Double]] = preds
       .select("probability")
-      .rdd.map({ case x => x(0).asInstanceOf[DenseVector].toArray})
+      .rdd.map { _(0).asInstanceOf[DenseVector].toArray}
       .collect
     sc.stop()
 

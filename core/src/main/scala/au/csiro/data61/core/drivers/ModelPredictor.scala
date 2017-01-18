@@ -25,11 +25,12 @@ import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
 import au.csiro.data61.core.types.DataSetTypes.DataSetID
 import au.csiro.data61.core.types.ModelTypes.ModelID
 import au.csiro.data61.core.types.{ColumnPrediction, DataSetPrediction}
-import com.github.tototoshi.csv.CSVReader
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.util.{Failure, Success, Try}
+
+import com.github.tototoshi.csv.CSVReader
 
 // data integration project
 import au.csiro.data61.matcher.ingestion.loader.CSVHierarchicalDataLoader
@@ -82,6 +83,7 @@ object ModelPredictor extends LazyLogging {
       throw InternalException(s"Failed to read serialized model $id")
     }
 
+    logger.info(s"    serialized model has been read")
     // if datasetID does not exist or it is not csv, then nothing will be done
     DatasetStorage
       .get(datasetID)
@@ -137,12 +139,13 @@ object ModelPredictor extends LazyLogging {
                     dataSetID: DataSetID): Option[DataSetPrediction] = {
 
     val derivedFeatureFile = predictionsPath(id, dataSetID)
-
     // loading data in the format suitable for data-integration project
+    // TODO: check that this is the correct loader for the dataset
     val dataset = CSVHierarchicalDataLoader().readDataSet(
       dsPath.getParent.toString,
       dsPath.getFileName.toString
     )
+    logger.info("   csv file for prediction has been read!")
 
     val randomForestClassifier = MLibSemanticTypeClassifier(
       sModel.classes,

@@ -17,12 +17,22 @@
   */
 package au.csiro.data61.core.drivers
 
-import java.nio.file.{Files, Paths}
+import java.io._
+import java.nio.charset.StandardCharsets
+import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.api.NotFoundException
 import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
+import au.csiro.data61.core.types.MatcherJsonFormats
 import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.matcher.matcher.features.{FeatureExtractor, MinEditDistFromClassExamplesFeatureExtractor, RfKnnFeatureExtractor}
 import com.typesafe.scalalogging.LazyLogging
+import org.json4s._
+import org.json4s.jackson.JsonMethods._
+
+import scala.language.postfixOps
+import scala.util.{Failure, Success, Try}
+
 
 // data integration project
 import au.csiro.data61.matcher.data.{DataModel, SemanticTypeLabels}
@@ -43,7 +53,7 @@ case class DataintTrainModel(classes: List[String],
                              trainSettings: TrainingSettings,
                              postProcessingConfig: Option[Map[String, Any]])
 
-object ModelTrainer extends LazyLogging {
+object ModelTrainer extends LazyLogging with MatcherJsonFormats {
 
   protected val rootDir: String = ModelStorage.rootDir
 
@@ -79,7 +89,7 @@ object ModelTrainer extends LazyLogging {
     */
   protected def readTrainingData: DataModel = {
 
-    logger.info(s"Reading training data")
+    logger.info(s"Reading training data...")
 
     val datasets = getDataModels
 
@@ -88,6 +98,7 @@ object ModelTrainer extends LazyLogging {
       throw NotFoundException("No csv training datasets have been found.")
     }
 
+    logger.info(s"    training data read!")
     new DataModel("", None, None, Some(datasets))
   }
 
@@ -96,7 +107,7 @@ object ModelTrainer extends LazyLogging {
     */
   protected def readLabeledData(trainerPaths: ModelTrainerPaths): SemanticTypeLabels = {
 
-    logger.info(s"Reading label data")
+    logger.info(s"Reading label data... ")
 
     val labelsLoader = SemanticTypeLabelsLoader()
     val stl = labelsLoader.load(trainerPaths.labelsDirPath)
@@ -105,7 +116,24 @@ object ModelTrainer extends LazyLogging {
       logger.error("No labeled datasets have been found.")
       throw NotFoundException("No labeled datasets have been found.")
     }
+    logger.info(s"    label data read!")
     stl
+  }
+
+  def writeFeatureExtractors(id: ModelID, featureExtractors: List[FeatureExtractor]) = {
+    val validFeatureExtractors =
+      featureExtractors.filter {
+        case x: RfKnnFeatureExtractor => true
+        case y: MinEditDistFromClassExamplesFeatureExtractor => true
+        case _ => false
+      }
+
+    val p = Paths.get(ModelStorage.identifyPaths(id).get.featuresConfigPath + ".featureExtractors.json")
+    val str = compact(Extraction.decompose(validFeatureExtractors))
+
+    // write the object to the file system
+    Files.write(p, str.getBytes(StandardCharsets.UTF_8))
+
   }
 
   /**
@@ -113,7 +141,7 @@ object ModelTrainer extends LazyLogging {
     */
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
 
-    logger.debug(s"train called for model $id")
+    logger.info(s"    train called for model $id")
 
     ModelStorage.identifyPaths(id)
       .map(cts  => {
@@ -124,7 +152,7 @@ object ModelTrainer extends LazyLogging {
           throw NotFoundException(msg)
         }
 
-        logger.debug("Attempting to create training object..")
+        logger.info("Attempting to create training object..")
 
         val dataTrainModel = DataintTrainModel(
           classes = cts.curModel.classes,
@@ -133,7 +161,7 @@ object ModelTrainer extends LazyLogging {
           trainSettings = readSettings(cts),
           postProcessingConfig = None)
 
-        logger.debug(s"Created data training model: $dataTrainModel")
+        logger.info(s"    created data training model!")
 
         dataTrainModel
       })
@@ -146,6 +174,8 @@ object ModelTrainer extends LazyLogging {
           dt.labels,
           dt.trainSettings,
           dt.postProcessingConfig)
+
+        writeFeatureExtractors(id, randomForestSchemaMatcher.featureExtractors)
 
         SerializableMLibClassifier(
           randomForestSchemaMatcher.model,
