@@ -27,9 +27,12 @@ case class MLibSemanticTypeClassifier(
         logger.info("***Prediction initialization...")
         //initialise spark stuff
         val conf = new SparkConf()
-          .setAppName("DataIntPrediction")
-          .setMaster("local[*]")
+          .setAppName("SereneSchemaMatcher")
+          .setMaster("local")
           .set("spark.driver.allowMultipleContexts", "true")
+//        .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
+//        .set("spark.network.timeout", "600s")
+//        .set("spark.executor.heartbeatInterval", "20s")
         val sc = new SparkContext(conf)
         val sqlContext = new SQLContext(sc)
 

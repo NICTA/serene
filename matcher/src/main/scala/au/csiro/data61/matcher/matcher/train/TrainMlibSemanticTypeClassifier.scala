@@ -50,17 +50,20 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
 
         //initialise spark stuff        
         val conf = new SparkConf()
-          .setAppName("DataIntTraining")
+          .setAppName("SereneSchemaMatcher")
           .setMaster("local")
           .set("spark.driver.allowMultipleContexts", "true")
+//        .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
+//        .set("spark.network.timeout", "600s")
+//        .set("spark.executor.heartbeatInterval", "20s")
         val sc = new SparkContext(conf)
         val sqlContext = new SQLContext(sc)
 
         val allAttributes = DataModel.getAllAttributes(trainingData)
         logger.info(s"   obtained ${allAttributes.size} attributes")
         //resampling
-        val numBags = trainingSettings.numBags.getOrElse(100)
-        val bagSize = trainingSettings.bagSize.getOrElse(100)
+        val numBags = trainingSettings.numBags.getOrElse(5)
+        val bagSize = trainingSettings.bagSize.getOrElse(50)
         val resampledAttrs = ClassImbalanceResampler // here seeds are fixed so output will be the same on the same input
           .resample(trainingSettings.resamplingStrategy, allAttributes, labels, bagSize, numBags)
       logger.info(s"   resampled ${resampledAttrs.size} attributes")
