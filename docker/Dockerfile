@@ -14,7 +14,9 @@ RUN \
       git \
       apt-transport-https \
       software-properties-common
-
+#
+# Install Java 1.8...
+#
 RUN \
     echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections && \
     add-apt-repository -y ppa:webupd8team/java && \
