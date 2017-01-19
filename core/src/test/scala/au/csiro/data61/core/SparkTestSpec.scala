@@ -42,7 +42,7 @@ class SparkTestSpec extends FunSuite {
     sparkSession
   }
 
-  def trainRandomForest(spark: SparkSession): RandomForestClassificationModel = {
+  def trainRandomForest(spark: SparkSession): (RandomForestClassificationModel, Double) = {
     // Load and parse the data file, converting it to a DataFrame.
     val corFile = Paths.get(helperDir, "sample_libsvm_data.txt").toString
     val data = spark.read.format("libsvm").load(corFile)
@@ -63,7 +63,7 @@ class SparkTestSpec extends FunSuite {
       .fit(data)
 
     // Split the data into training and test sets (30% held out for testing).
-    val Array(trainingData, testData) = data.randomSplit(Array(0.7, 0.3))
+    val Array(trainingData, testData) = data.randomSplit(Array(0.7, 0.3), seed=1002)
 
     // Train a RandomForest model.
     val rf = new RandomForestClassifier()
@@ -95,31 +95,33 @@ class SparkTestSpec extends FunSuite {
       .setLabelCol("indexedLabel")
       .setPredictionCol("prediction")
       .setMetricName("accuracy")
-    val accuracy = evaluator.evaluate(predictions)
+    val accuracy: Double = evaluator.evaluate(predictions)
     println("Test Error = " + (1.0 - accuracy))
 
     val rfModel = model.stages(2).asInstanceOf[RandomForestClassificationModel]
     println("Learned classification forest model:\n" + rfModel.toDebugString)
 
-    rfModel
+    (rfModel, accuracy)
   }
 
   test("one worker vs two workers") {
     val spark = setUpSpark2("1")
-    val oneCoreModel = trainRandomForest(spark)
+    val (oneCoreModel, accu1) = trainRandomForest(spark)
     spark.close()
 
 
     val spark2 = setUpSpark2("2")
-    val twoCoreModel = trainRandomForest(spark2)
+    val (twoCoreModel, accu2) = trainRandomForest(spark2)
     spark2.stop()
 
+
+    assert(accu1 === accu2)
     assert(oneCoreModel.numClasses === twoCoreModel.numClasses)
     assert(oneCoreModel.numFeatures === twoCoreModel.numFeatures)
     assert(oneCoreModel.treeWeights === twoCoreModel.treeWeights)
     assert(oneCoreModel.totalNumNodes === twoCoreModel.totalNumNodes)
     assert(oneCoreModel.featureImportances === twoCoreModel.featureImportances)
-    assert(oneCoreModel.numTrees === twoCoreModel.numTrees)
+//    assert(oneCoreModel.numTrees === twoCoreModel.numTrees)
 
 
   }
