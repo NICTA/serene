@@ -21,12 +21,15 @@ import java.io._
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.core.api.NotFoundException
+import au.csiro.data61.core.api.{InternalException, NotFoundException}
+import au.csiro.data61.core.storage.ModelStorage._
 import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
-import au.csiro.data61.core.types.MatcherJsonFormats
+import au.csiro.data61.core.types.{MatcherJsonFormats, ModelFeatureExtractors}
 import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
-import au.csiro.data61.matcher.matcher.features.{FeatureExtractor, FeatureExtractorUtil, MinEditDistFromClassExamplesFeatureExtractor, RfKnnFeatureExtractor}
+import au.csiro.data61.matcher.matcher.features._
 import com.typesafe.scalalogging.LazyLogging
+import org.apache.spark.ml.PipelineModel
+import org.apache.spark.ml.classification.RandomForestClassificationModel
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
@@ -45,7 +48,9 @@ case class ModelTrainerPaths(curModel: Model,
                              workspacePath: String,
                              featuresConfigPath: String,
                              costMatrixConfigPath: String,
-                             labelsDirPath: String)
+                             labelsDirPath: String,
+                             featureExtractorPath: String = "",
+                             pipelinePath: String = "")
 
 case class DataintTrainModel(classes: List[String],
                              trainingSet: DataModel,
@@ -120,32 +125,62 @@ object ModelTrainer extends LazyLogging with MatcherJsonFormats {
     stl
   }
 
-  def writeFeatureExtractors(id: ModelID, featureExtractors: List[FeatureExtractor]) = {
-    val validFeatureExtractors =
-      featureExtractors.filter {
-        case x: RfKnnFeatureExtractor => true
-        case y: MinEditDistFromClassExamplesFeatureExtractor => true
-        case _ => false
-      }
+  /**
+    * This method writes JSON for featureExtractors which are generated during the training process.
+    * @param id Model id
+    * @param featureExtractors List of feature extractors: both single and group
+    * @return
+    */
+  def writeFeatureExtractors(id: ModelID,
+                             featureExtractors: List[FeatureExtractor]
+                            ): Unit = {
 
-    val p = Paths.get(ModelStorage.identifyPaths(id).get.featuresConfigPath + ".featureExtractors.json")
-    val str = compact(Extraction.decompose(validFeatureExtractors))
+    logger.info(s"Writing feature extractors to disk for model $id")
+    Try {
+      val modelFeatureExractors = ModelFeatureExtractors(featureExtractors)
+      val str = compact(Extraction.decompose(modelFeatureExractors))
+      val outputPath = Paths.get(ModelStorage.identifyPaths(id).get.featureExtractorPath)
 
-    // write the object to the file system
-    Files.write(p, str.getBytes(StandardCharsets.UTF_8))
+      // ensure that the directories exist...
+      val dir = outputPath.toFile.getParentFile
+      if (!dir.exists) dir.mkdirs
 
+      // write the object to the file system
+      Files.write(
+        outputPath,
+        str.getBytes(StandardCharsets.UTF_8)
+      )
+      str
+    } match {
+      case Success(s) =>
+        logger.info("Model feature extractors successfully written to disk.")
+      case Failure(err) =>
+        logger.info(s"Failed writing model feature extractors successfully to disk: $err")
+        throw InternalException(s"Failed writing model feature extractors successfully to disk: $err")
+    }
+
+  }
+
+  def writePipelineModel(id: ModelID, pipeModel: PipelineModel): Unit = {
+    val writePath = Paths.get(ModelStorage.identifyPaths(id).get.pipelinePath)
+    val out = Try(new ObjectOutputStream(new FileOutputStream(writePath.toString)))
+    logger.info(s"Writing pipeline rf: $writePath")
+    out match {
+      case Failure(err) =>
+        logger.error(s"Failed to write pipeline: ${err.getMessage}")
+      case Success(f) =>
+        f.writeObject(pipeModel)
+        f.close()
+    }
   }
 
   /**
     * Performs training for the model and returns serialized object for the learned model
     */
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
-
     logger.info(s"    train called for model $id")
-
     ModelStorage.identifyPaths(id)
       .map(cts  => {
-
         if (!Files.exists(Paths.get(cts.workspacePath))) {
           val msg = s"Workspace directory for the model $id does not exist."
           logger.error(msg)
@@ -175,10 +210,13 @@ object ModelTrainer extends LazyLogging with MatcherJsonFormats {
           dt.trainSettings,
           dt.postProcessingConfig)
 
-//        writeFeatureExtractors(id, randomForestSchemaMatcher.featureExtractors)
-        println("************* feature names")
-        println(FeatureExtractorUtil.getFeatureNames(randomForestSchemaMatcher.featureExtractors))
-        println("*************")
+        writeFeatureExtractors(id, randomForestSchemaMatcher.featureExtractors)
+        writePipelineModel(id, randomForestSchemaMatcher.model)
+        logger.info(s"   feature names: ${FeatureExtractorUtil
+          .getFeatureNames(randomForestSchemaMatcher.featureExtractors)}")
+        logger.info(s"    feature importances: ${randomForestSchemaMatcher
+          .model.stages(2)
+          .asInstanceOf[RandomForestClassificationModel].featureImportances}")
 
         SerializableMLibClassifier(
           randomForestSchemaMatcher.model,
@@ -190,3 +228,4 @@ object ModelTrainer extends LazyLogging with MatcherJsonFormats {
   }
 
 }
+

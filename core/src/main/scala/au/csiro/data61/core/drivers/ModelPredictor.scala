@@ -24,13 +24,17 @@ import au.csiro.data61.core.api.InternalException
 import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
 import au.csiro.data61.core.types.DataSetTypes.DataSetID
 import au.csiro.data61.core.types.ModelTypes.ModelID
-import au.csiro.data61.core.types.{ColumnPrediction, DataSetPrediction}
+import au.csiro.data61.core.types._
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
+import au.csiro.data61.matcher.matcher.features.FeatureExtractor
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.util.{Failure, Success, Try}
-
 import com.github.tototoshi.csv.CSVReader
+import org.apache.spark.ml.PipelineModel
+import org.json4s.jackson.JsonMethods._
+import org.scalatest.path
+import org.json4s._
 
 // data integration project
 import au.csiro.data61.matcher.ingestion.loader.CSVHierarchicalDataLoader
@@ -54,7 +58,7 @@ class ObjectInputStreamWithCustomClassLoader(fileInputStream: FileInputStream)
 }
 
 
-object ModelPredictor extends LazyLogging {
+object ModelPredictor extends LazyLogging with MatcherJsonFormats {
 
   /**
     * Performs prediction for the model and returns predictions for all datasets in the repository
@@ -74,7 +78,8 @@ object ModelPredictor extends LazyLogging {
         stored <- ModelStorage.get(id)
         path <- stored.modelPath
 //        path <- stored.defaultModelPath
-        m <- readLearnedModelFile(path.toString).toOption
+//        m <- readLearnedModelFile(path.toString).toOption
+        m <- getSerializableMLib(id).toOption
       } yield m
 
 //    logger.info(s"serializedmodel ${serializedModel}")
@@ -92,6 +97,52 @@ object ModelPredictor extends LazyLogging {
       .getOrElse {
         throw InternalException("Failed to predict model")
       }
+  }
+
+  def readFeatureExtractors(id: ModelID): List[FeatureExtractor] = {
+    logger.info(s"Reading model feature extractors for $id")
+    val path = Paths.get(ModelStorage.identifyPaths(id).get.featureExtractorPath)
+    val modelFeatureExractors = Try {
+      val stream = new FileInputStream(path.toFile)
+      parse(stream).extract[ModelFeatureExtractors]
+    } match {
+      case Success(value) =>
+        value
+      case Failure(err) =>
+        logger.error(s"Failed to read file: ${err.getMessage}")
+        throw InternalException(s"Failed to read file: ${err.getMessage}")
+    }
+    modelFeatureExractors.featureExtractors
+  }
+
+  def getSerializableMLib(id: ModelID): Try[SerializableMLibClassifier] = {
+    Try {
+      val filePath = Paths.get(ModelStorage.identifyPaths(id).get.pipelinePath).toString
+      logger.info(s"Reading learned pipeline file ${filePath}")
+      val pipeline: PipelineModel =
+        (for {
+          fs <- Try {
+            new FileInputStream(filePath)
+          }
+          learned = new ObjectInputStreamWithCustomClassLoader(fs)
+          data <- Try {
+            learned.readObject.asInstanceOf[PipelineModel]
+          }
+        } yield data) match {
+          case Success(pipe) =>
+            logger.info("Pipeline model has been successfully read")
+            pipe
+          case Failure(err) =>
+            logger.info(s"Pipeline model reading failed with $err")
+            throw InternalException(s"Pipeline model reading failed with ${err.getMessage}")
+        }
+      val curModel = ModelStorage.get(id).get
+
+      SerializableMLibClassifier(model = pipeline,
+        classes = curModel.classes,
+        featureExtractors = readFeatureExtractors(id),
+        postProcessingConfig = None)
+    }
   }
 
   /**
@@ -145,7 +196,6 @@ object ModelPredictor extends LazyLogging {
       dsPath.getParent.toString,
       dsPath.getFileName.toString
     )
-    println("*****HERE")
     logger.info("   csv file for prediction has been read!")
 
     val randomForestClassifier = MLibSemanticTypeClassifier(
@@ -155,7 +205,6 @@ object ModelPredictor extends LazyLogging {
       None,
       Option(derivedFeatureFile.toString))
 
-    println("*****HERE2")
     // TODO: Fix how this works, the writing and reading to files is unnecessary
     Try(randomForestClassifier.predict(List(dataset))) match {
       case Success(_) =>

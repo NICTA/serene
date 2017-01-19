@@ -88,16 +88,16 @@ object FeatureExtractorUtil extends LazyLogging {
 //        sc.stop()
 //        throw new Exception(s"Failure in preprocessing test features with spark: $err")
 //    }
-
     logger.info(s"***Extracting test features with spark from ${preprocessedAttributes.size} instances...")
+
     val featuresOfAllInstances = Try {
+      val featExtractBroadcast = sc.broadcast(featureExtractors)
       sc.parallelize(preprocessedAttributes).map {
         attr =>
-          val instanceFeatures = featureExtractors.flatMap {
+          featExtractBroadcast.value.flatMap {
             case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
             case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
           }
-          instanceFeatures
       }.collect.toList
     } match {
       case Success(testFeatures) =>

@@ -30,7 +30,7 @@ case class DataPreprocessor() extends LazyLogging {
 
     def preprocess(attribute: Attribute): PreprocessedAttribute = {
         val preprocDataMap: Map[String,Any] = preprocessors
-          .map({ case f => f.preprocess(attribute)})
+          .map(_.preprocess(attribute))
           .foldLeft[Map[String,Any]] (Map())((a,b) => a++b)
         PreprocessedAttribute(attribute, preprocDataMap)
     }

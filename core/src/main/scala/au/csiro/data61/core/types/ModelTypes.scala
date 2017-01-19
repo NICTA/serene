@@ -31,7 +31,6 @@ import scala.language.postfixOps
   */
 object ModelTypes {
 
-  // TODO: add numBags and bagSize parameters for the model!
   case class Model(description: String,
                    id: ModelID,
                    modelType: ModelType,
