@@ -23,9 +23,9 @@ class SparkTestSpec extends FunSuite {
     val conf = new SparkConf()
       .setAppName("SereneSchemaMatcher")
       .setMaster(s"local[$numWorkers]")
-      .set("spark.driver.allowMultipleContexts", "true")
+//      .set("spark.driver.allowMultipleContexts", "true")
       //        .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
-      .set("spark.network.timeout", "800s")
+//      .set("spark.network.timeout", "800s")
     //        .set("spark.executor.heartbeatInterval", "20s")
     val sc = new SparkContext(conf)
     sc.setLogLevel("WARN")
@@ -62,7 +62,7 @@ class SparkTestSpec extends FunSuite {
       .setFeaturesCol("indexedFeatures")
       .setNumTrees(10)
       .setMaxDepth(30)
-      .setSeed(5043)
+//      .setSeed(5043)
 
     // Convert indexed labels back to original labels.
     val labelConverter = new IndexToString()
