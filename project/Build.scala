@@ -86,7 +86,7 @@ object SereneBuild extends Build {
         "org.apache.spark"        %%  "spark-core"           % "2.1.0",
         "org.apache.spark"        %%  "spark-sql"            % "2.1.0",
         "org.apache.spark"        %%  "spark-mllib"          % "2.1.0"
-        exclude("com.chuusai", "shapeless_2.11")  // this is to remove cross-version error with new versions of spark
+          exclude("com.chuusai", "shapeless_2.11")  // this is to remove cross-version error with new versions of spark
       ),
 
       test in assembly := {},
