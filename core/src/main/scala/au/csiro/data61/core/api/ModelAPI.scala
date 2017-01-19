@@ -18,7 +18,7 @@
 package au.csiro.data61.core.api
 
 import au.csiro.data61.core.drivers.MatcherInterface
-import au.csiro.data61.core.types.ModelTypes.{Status, TrainState, ModelID, Model}
+import au.csiro.data61.core.types.ModelTypes.{Status, TrainState, ModelID}
 import au.csiro.data61.core._
 import io.finch._
 import org.joda.time.DateTime

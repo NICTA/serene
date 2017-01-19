@@ -15,28 +15,19 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-//import com.earldouglas.xwp.XwpPlugin._
-//import com.typesafe.sbt.packager.archetypes.JavaAppPackaging
-
-//import sbt._
-//import sbt.Keys._
-//import sbtassembly.AssemblyPlugin.autoImport._
-//import sbt._
-//import Keys._
-
 
 lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
 
-//  assemblyMergeStrategy in assembly := {
-//    case f if f.startsWith("META-INF") => MergeStrategy.discard
-//    case f if f.endsWith(".conf") => MergeStrategy.concat
-//    case f if f.endsWith(".html") => MergeStrategy.first
-//    case f if f.endsWith(".class") => MergeStrategy.first
-//    case f if f.endsWith(".properties") => MergeStrategy.first
-//    case f =>
-//      val oldStrategy = (assemblyMergeStrategy in assembly).value
-//      oldStrategy(f)
-//  },
+  assemblyMergeStrategy in assembly := {
+    case f if f.startsWith("META-INF") => MergeStrategy.discard
+    case f if f.endsWith(".conf") => MergeStrategy.concat
+    case f if f.endsWith(".html") => MergeStrategy.first
+    case f if f.endsWith(".class") => MergeStrategy.first
+    case f if f.endsWith(".properties") => MergeStrategy.first
+    case f =>
+      val oldStrategy = (assemblyMergeStrategy in assembly).value
+      oldStrategy(f)
+  },
 
   // long file names become an issue on encrypted file systems - this is a weird workaround
   scalacOptions ++= Seq("-Xmax-classfile-name", "78"),
@@ -56,7 +47,7 @@ lazy val root = Project(
   .settings(commonSettings)
   .settings(
     name := "serene",
-    version := "0.1.0",
+    version := "0.2.0",
 
     mainClass in Compile := Some("au.csiro.data61.core.Serene"),
 
@@ -93,7 +84,7 @@ lazy val matcher = Project(
       "org.specs2"              %% "specs2-mock"           % "2.3.11" % Test exclude("org.mockito", "mockito-core"),
       "org.specs2"              %% "specs2-junit"          % "2.3.11" % Test,
       "com.rubiconproject.oss"  %  "jchronic"              % "0.2.6",
-      "org.json4s"              %% "json4s-native"         % "3.3.0",
+      "org.json4s"              %% "json4s-native"         % "3.2.10",
       "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.8.2",
       "com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0",
       "com.joestelmach"         %  "natty"                 % "0.8",
@@ -127,9 +118,8 @@ lazy val core = Project(
   .settings(
       organization := "au.csiro.data61",
       name := "serene-core",
-      version := "0.1",
+      version := "0.2",
 
-//        fork := true,
       outputStrategy := Some(StdoutOutput),
       scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
       resolvers += Resolver.sonatypeRepo("snapshots"),
@@ -140,9 +130,9 @@ lazy val core = Project(
       mainClass in assembly := Some("au.csiro.data61.core.Serene"),
 
       libraryDependencies ++= Seq(
-        "org.json4s"                  %% "json4s-jackson"     % "3.3.0"
-        ,"org.json4s"                 %% "json4s-native"      % "3.3.0"
-        ,"org.json4s"                 %% "json4s-ext"         % "3.3.0"
+        "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
+        ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
+        ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
         ,"ch.qos.logback"             %  "logback-classic"    % "1.1.3"            % "runtime"
         ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
         ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
@@ -157,7 +147,10 @@ lazy val core = Project(
         ,"junit"                      %  "junit"              % "4.12"
         ,"com.typesafe"               %  "config"             % "1.3.0"
         ,"com.github.scopt"           %% "scopt"              % "3.5.0"
-      )
+        ,"org.apache.spark"           %%  "spark-core"        % "2.1.0"
+        ,"org.apache.spark"           %%  "spark-sql"         % "2.1.0"
+        ,"org.apache.spark"           %%  "spark-mllib"       % "2.1.0"
+)
     )
   .settings(jetty() : _*)
   .enablePlugins(RpmPlugin, JavaAppPackaging)

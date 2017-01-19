@@ -217,7 +217,7 @@ object MatcherInterface extends LazyLogging {
       model <- ModelStorage.get(id)
       state = model.state
       newState = state.status match {
-        case Status.COMPLETE if ModelStorage.isConsistent(id) =>
+        case Status.COMPLETE if model.isConsistent =>
           logger.info(s"Model $id does not need training, it is done!")
           state
         case Status.BUSY =>
@@ -250,23 +250,29 @@ object MatcherInterface extends LazyLogging {
 
     Future {
       // proceed with training...
-      ModelTrainer.train(id).map {
-        ModelStorage.addModel(id, _)
-      }
+      for {
+        model <- ModelStorage.get(id)
+        status = model.train()
+        //path <- ModelStorage.addModel(id, _)
+      } yield status
     } onComplete {
-      case Success(Some(path)) =>
+      case Success(Some(status)) =>
         // we update the status, the state date and do not delete the model.rf file
-        ModelStorage.updateTrainState(id, Status.COMPLETE, "", path)
+        //ModelStorage.updateTrainState(id, Status.COMPLETE, "", path)
+        logger.info(s"Model completed training with status: $status")
       case Success(None) =>
         // we update the status, the state date and delete the model.rf file
         logger.error(s"Failed to identify model paths for $id.")
-        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to identify model paths.", None)
+        //ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to identify model paths.", None)
+        //Status.ERROR
       case Failure(err) =>
         // we update the status, the state date and delete the model.rf file
         val msg = s"Failed to train model $id: ${err.getMessage}."
         logger.error(msg)
-        ModelStorage.updateTrainState(id, Status.ERROR, msg, None)
+        //ModelStorage.updateTrainState(id, Status.ERROR, msg, None)
+        //Status.ERROR
     }
+
   }
 
   /**
@@ -278,16 +284,35 @@ object MatcherInterface extends LazyLogging {
     */
   def predictModel(id: ModelID, datasetID : DataSetID): DataSetPrediction = {
 
-    if (ModelStorage.isConsistent(id)) {
-      // do prediction
-      logger.info(s"Launching prediction for model $id...")
-      ModelPredictor.predict(id, datasetID)
-    } else {
-      val msg = s"Prediction failed. Model $id is not trained."
-      // prediction is impossible since the model has not been trained properly
-      logger.warn(msg)
-      throw BadRequestException(msg)
+    logger.info(s"Launching prediction for model $id...")
+
+    val prediction = for {
+      model <- ModelStorage.get(id)
+      if model.isConsistent
+      ds = model.predict(datasetID)
+    } yield ds
+
+    prediction match {
+      case Some(ds) =>
+        ds
+      case _ =>
+        val msg = s"Prediction failed. Model $id is not trained."
+        println(msg)
+        // prediction is impossible since the model has not been trained properly
+        logger.warn(msg)
+        throw BadRequestException(msg)
     }
+
+//    if (ModelStorage.isConsistent) {
+//      // do prediction
+//      logger.info(s"Launching prediction for model $id...")
+//      //ModelPredictor.predict(id, datasetID)
+//    } else {
+//      val msg = s"Prediction failed. Model $id is not trained."
+//      // prediction is impossible since the model has not been trained properly
+//      logger.warn(msg)
+//      throw BadRequestException(msg)
+//    }
   }
 
   /**

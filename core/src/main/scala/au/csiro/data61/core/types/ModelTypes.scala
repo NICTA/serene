@@ -31,23 +31,6 @@ import scala.language.postfixOps
   */
 object ModelTypes {
 
-  // TODO: add numBags and bagSize parameters for the model!
-  case class Model(description: String,
-                   id: ModelID,
-                   modelType: ModelType,
-                   classes: List[String],
-                   features: FeaturesConfig,
-                   costMatrix: List[List[Double]],
-                   resamplingStrategy: SamplingStrategy,
-                   labelData: Map[Int, String], // WARNING: Int should be ColumnID! Json4s bug.
-                   refDataSets: List[Int],   // WARNING: Int should be DataSetID! Json4s bug.
-                   modelPath: Option[Path],
-                   state: TrainState,
-                   dateCreated: DateTime,
-                   dateModified: DateTime,
-                   numBags: Option[Int],
-                   bagSize: Option[Int]) extends Identifiable[ModelID]
-
   type ModelID = Int
 
   /**

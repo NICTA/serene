@@ -95,7 +95,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
 
         logger.info("***Spark parallelization")
         val dataRdd = sc.parallelize(data)
-        val dataDf = sqlContext.createDataFrame(dataRdd, schema)
+          val dataDf = sqlContext.createDataFrame(dataRdd, schema)
 
         //train random forest
         logger.info("***Training random forest")

@@ -49,10 +49,10 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
     .map(col => col.id -> col)
     .toMap
 
-  def columnNameMap: Map[(DataSetID, String), Column[Any]] = cache.values
-    .flatMap(_.columns)
-    .map(col => (col.datasetID, col.name) -> col)
-    .toMap
+//  def columnNameMap: Map[(DataSetID, String), Column[Any]] = cache.values
+//    .flatMap(_.columns)
+//    .map(col => (col.datasetID, col.name) -> col)
+//    .toMap
 
   def extract(stream: FileInputStream): DataSet = {
     parse(stream).extract[DataSet]
