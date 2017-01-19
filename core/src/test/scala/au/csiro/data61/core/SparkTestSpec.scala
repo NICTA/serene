@@ -105,7 +105,7 @@ class SparkTestSpec extends FunSuite {
   }
 
   test("one worker vs two workers") {
-    val spark = setUpSpark2("1")
+    val spark = setUpSpark2("2")
     val (oneCoreModel, accu1) = trainRandomForest(spark)
     spark.close()
 
