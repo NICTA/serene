@@ -253,24 +253,17 @@ object MatcherInterface extends LazyLogging {
       for {
         model <- ModelStorage.get(id)
         status = model.train()
-        //path <- ModelStorage.addModel(id, _)
       } yield status
     } onComplete {
       case Success(Some(status)) =>
-        // we update the status, the state date and do not delete the model.rf file
-        //ModelStorage.updateTrainState(id, Status.COMPLETE, "", path)
         logger.info(s"Model completed training with status: $status")
       case Success(None) =>
         // we update the status, the state date and delete the model.rf file
         logger.error(s"Failed to identify model paths for $id.")
-        //ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to identify model paths.", None)
-        //Status.ERROR
       case Failure(err) =>
         // we update the status, the state date and delete the model.rf file
         val msg = s"Failed to train model $id: ${err.getMessage}."
         logger.error(msg)
-        //ModelStorage.updateTrainState(id, Status.ERROR, msg, None)
-        //Status.ERROR
     }
 
   }

@@ -75,9 +75,12 @@ case class Model(description: String,
                  numBags: Option[Int],
                  bagSize: Option[Int]) extends Identifiable[ModelID] with LazyLogging {
 
+  /**
+    * predict column classes for dataset at datasetID
+    * @param datasetID
+    * @return
+    */
   def predict(datasetID: DataSetID): DataSetPrediction = {
-
-    println(s"I'm in the prediction for $datasetID")
 
     val output = for {
       ds <- DatasetStorage.get(datasetID)
@@ -89,37 +92,43 @@ case class Model(description: String,
       Map.empty[String, Double])
     )
 
-    println(s"I'm out the prediction for $datasetID")
-
     DataSetPrediction(id, datasetID, output.get.toMap)
   }
 
+  /**
+    * Train the model over the given labelData
+    * @return
+    */
   def train(): Status = {
 
     ModelStorage.updateTrainState(id, Status.BUSY, "")
 
     Try {
-
-      // train the model here!!!!
-      println(">>>>>>>>>> training model")
-
       for {
         pipeline <- learner
         path <- ModelStorage.addModel(id, pipeline)
       } yield path
-
     } match {
+
       case Success(Some(path)) =>
         ModelStorage.updateTrainState(id, Status.COMPLETE)
         Status.COMPLETE
+
+      case Success(_) =>
+        ModelStorage.updateTrainState(id, Status.ERROR)
+        Status.ERROR
+
       case Failure(err) =>
         logger.error(err.getMessage)
         ModelStorage.updateTrainState(id, Status.ERROR)
         Status.ERROR
     }
-
   }
 
+  /**
+    * The learner step...
+    * @return
+    */
   private def learner: Option[PipelineModel] = {
     Try {
       // Prepare training documents from a list of (id, text, label) tuples.
@@ -160,8 +169,6 @@ case class Model(description: String,
   def isConsistent: Boolean = {
     logger.info(s"Checking consistency of model $id")
 
-    println(s"Look for model ${get(id)}")
-
     // make sure the datasets in the model are older
     // than the training state
     val isOK = for {
@@ -181,13 +188,8 @@ case class Model(description: String,
       modelExists = path.exists(Files.exists(_))
 
     } yield {
-      println(s"isComplete $isComplete")
-      println(s"modelExists $modelExists ${model.modelPath}")
-      println(s"allB $allBefore")
       allBefore && modelExists && isComplete
     }
-
-    logger.info(s"Looks ike model $id is: $isOK")
 
     isOK getOrElse false
   }
