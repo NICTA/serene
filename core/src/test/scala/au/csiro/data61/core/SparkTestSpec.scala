@@ -110,7 +110,7 @@ class SparkTestSpec extends FunSuite {
     spark.close()
 
 
-    val spark2 = setUpSpark2("2")
+    val spark2 = setUpSpark2("4")
     val (twoCoreModel, accu2) = trainRandomForest(spark2)
     spark2.stop()
 
