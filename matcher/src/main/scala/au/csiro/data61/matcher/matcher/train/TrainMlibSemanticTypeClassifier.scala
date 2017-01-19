@@ -209,6 +209,9 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     val features = FeatureExtractorUtil
       .extractTrainFeatures(preprocessedTrainInstances, labels, featureExtractors)
 
+    println(s"****Train features:")
+    features.foreach(x => println(x._2.mkString(",")))
+
     logger.info(s"   extracted ${features.size} features")
     val data: List[Row] = features
       .map { case (p, fvals, label) =>

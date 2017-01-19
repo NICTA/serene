@@ -377,6 +377,13 @@ class FeatureExtractorSpec extends FunSuite with MatcherJsonFormats with BeforeA
       println(s" Num nodes: ${rfModel_new.totalNumNodes}")
       println("*******")
 
+      println("*******")
+      println(s"# features: ${rfModel_new.numFeatures}")
+      println(s" Feature importances: ${rfModel_new.featureImportances}")
+      println(s"FeauresCol ${rfModel_new.getFeaturesCol}")
+      println(s"FeauresColParam ${rfModel_new.featuresCol}")
+      println("*******")
+
       assert(oneCoreModel.get.classes === sModel.classes)
 
       assert(rfModel_new.numClasses === rfModel_one.numClasses)

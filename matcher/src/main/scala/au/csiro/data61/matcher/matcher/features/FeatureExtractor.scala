@@ -161,7 +161,7 @@ object FeatureExtractorUtil extends LazyLogging {
   def extractTrainFeatures(preprocessedAttributes: List[PreprocessedAttribute],
                       labels: SemanticTypeLabels,
                       featureExtractors: List[FeatureExtractor]
-                     )(implicit sc: SparkContext): List[(PreprocessedAttribute, List[Any], String)] = {
+                     )(implicit sc: SparkContext): List[(PreprocessedAttribute, List[Double], String)] = {
     logger.info(s"Extracting features with spark from ${preprocessedAttributes.size} instances...")
     Try {
       val rdd = sc.parallelize(preprocessedAttributes)

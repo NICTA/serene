@@ -25,7 +25,7 @@ import au.csiro.data61.core.api.NotFoundException
 import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
 import au.csiro.data61.core.types.MatcherJsonFormats
 import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
-import au.csiro.data61.matcher.matcher.features.{FeatureExtractor, MinEditDistFromClassExamplesFeatureExtractor, RfKnnFeatureExtractor}
+import au.csiro.data61.matcher.matcher.features.{FeatureExtractor, FeatureExtractorUtil, MinEditDistFromClassExamplesFeatureExtractor, RfKnnFeatureExtractor}
 import com.typesafe.scalalogging.LazyLogging
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
@@ -176,6 +176,9 @@ object ModelTrainer extends LazyLogging with MatcherJsonFormats {
           dt.postProcessingConfig)
 
 //        writeFeatureExtractors(id, randomForestSchemaMatcher.featureExtractors)
+        println("************* feature names")
+        println(FeatureExtractorUtil.getFeatureNames(randomForestSchemaMatcher.featureExtractors))
+        println("*************")
 
         SerializableMLibClassifier(
           randomForestSchemaMatcher.model,
