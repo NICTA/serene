@@ -24,26 +24,26 @@ import java.nio.file.{Path, Paths}
 import au.csiro.data61.core.api.DatasetAPI._
 import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.core.types._
-import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
-
+import au.csiro.data61.core.drivers.{ModelPredictor, ModelTrainer, ObjectInputStreamWithCustomClassLoader}
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 import com.twitter.io.Buf
-import com.twitter.util.{Return, Throw, Await}
+import com.twitter.util.{Await, Return, Throw}
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.concurrent._
+
 import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
-
 import api._
 import au.csiro.data61.core.storage.ModelStorage
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import com.twitter.finagle.http
+import org.apache.spark.ml.classification.RandomForestClassificationModel
 
 import language.postfixOps
 import scala.annotation.tailrec
@@ -234,7 +234,7 @@ class FeatureExtractorSpec extends FunSuite with MatcherJsonFormats with BeforeA
     * @param server The server object
     * @return List of column IDs...
     */
-  def createDataSet(server: TestServer): DataSet = {
+  def createDataSet(implicit server: TestServer): DataSet = {
     // first we add a dataset...
     DataSet.createDataset(server, defaultDataSet, TypeMap, "homeseekers") match {
       case Success(ds) =>
@@ -344,30 +344,115 @@ class FeatureExtractorSpec extends FunSuite with MatcherJsonFormats with BeforeA
 
   //=========================Tests==============================================
 
-  test("POST /v1.0/model/:id/train accepts request and completes successfully") (new TestServer {
+
+  test("same model is learnt") (new TestServer {
     try {
-      val PollTime = 2000
-      val PollIterations = 20
+      val corFile = Paths.get(helperDir, "one_core_seed5043.rf").toFile
+      val oneCoreModel: Try[SerializableMLibClassifier] =
+        for {
+          inCor <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(corFile)))
+            .orElse(Failure( new IOException("Error opening model file.")))
+          dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
+            .orElse(Failure( new IOException("Error reading model file.")))
+        } yield dataCor
 
-      val (model, _) = trainDefault()
-      val trained = pollModelState(model, PollIterations, PollTime)
+      val rfModel_one = oneCoreModel.get.model.stages(2).asInstanceOf[RandomForestClassificationModel]
 
-      val state = concurrent.Await.result(trained, 30 seconds)
+      // first we add a simple dataset
+      val ds = createDataSet
+      val labelMap = createLabelMap(ds)
+      // next we train the dataset
+      val TestStr = randomString
+      val model: Model = createModel(defaultClasses, Some(TestStr), Some(labelMap), "ResampleToMean", None, None).get
+      println("model created")
 
-      assert(state === ModelTypes.Status.COMPLETE)
 
-      // now query the model with no delay and make sure it is complete...
-      val completeResponse = get(s"/$APIVersion/model/${model.id}")
-      val completeModel = parse(completeResponse.contentString).extract[Model]
-      assert(completeModel.state.status === ModelTypes.Status.COMPLETE)
+      val sModel: SerializableMLibClassifier = ModelTrainer.train(model.id).get
+      println("model trained")
+//      ModelStorage.addModel(model.id, sModel)
 
-//      completeModel.
+      val rfModel_new = sModel.model.stages(2).asInstanceOf[RandomForestClassificationModel]
+
+      println("*******")
+      println(s" Num nodes: ${rfModel_new.totalNumNodes}")
+      println("*******")
+
+      assert(oneCoreModel.get.classes === sModel.classes)
+
+      assert(rfModel_new.numClasses === rfModel_one.numClasses)
+      assert(rfModel_new.numFeatures === rfModel_one.numFeatures)
+      assert(rfModel_new.treeWeights === rfModel_one.treeWeights)
+      assert(rfModel_new.numTrees === rfModel_one.numTrees)
+
+      assert(rfModel_new.totalNumNodes === rfModel_one.totalNumNodes)
+      assert(rfModel_new.featureImportances === rfModel_one.featureImportances)
+
+      assert(oneCoreModel.get.featureExtractors === sModel.featureExtractors)
+//      assert(rfModel_new.trees === rfModel_one.trees)
+//      assert(rfModel_new === rfModel_one)
+
 
     } finally {
-//      deleteAllModels()
-      DataSet.deleteAllDataSets()
       assertClose()
     }
+
+  })
+
+  test("train and predict") (new TestServer {
+    try {
+      val TestStr = randomString
+
+      // first we add a simple dataset
+      val ds = createDataSet
+      val labelMap = createLabelMap(ds)
+
+      // next we train the dataset
+      val model: Model = createModel(defaultClasses, Some(TestStr), Some(labelMap), "ResampleToMean", None, None).get
+      println("model created")
+
+
+      val sModel: SerializableMLibClassifier = ModelTrainer.train(model.id).get
+      println("model trained")
+
+      ModelStorage.addModel(model.id, sModel)
+
+      ModelPredictor.runPrediction(model.id, ds.path, sModel, ds.id) match {
+        case Some(dsPrediction) =>
+          println(s"DatasetPrediction: $dsPrediction")
+          println("model predicted")
+
+          val trueLabels = createLabelMap(ds)
+                  .toList
+                  .sortBy(_._1)
+
+          // these are the labels that were predicted
+          val testLabels = dsPrediction
+              .predictions
+              .mapValues(_.label)
+              .filterKeys(trueLabels.map(_._1).contains)
+              .toList
+              .sortBy(_._1)
+
+          // check if they are equal. Here there is a
+          // office@house_listing column that is misclassified
+          // as a business name...
+          val score = testLabels
+            .zip(trueLabels)
+            .map { case (x, y) =>
+              if (x == y) 1.0 else 0.0
+            }
+
+          val total = score.sum / testLabels.size
+
+          assert(total > 0.9)
+        case _ =>
+          logger.error(s"FAIL")
+          fail()
+      }
+    } finally {
+      assertClose()
+    }
+
   })
 
 }

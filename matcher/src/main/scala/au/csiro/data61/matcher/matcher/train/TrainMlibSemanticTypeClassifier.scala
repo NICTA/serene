@@ -145,6 +145,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
         .setMaxDepth(depth)
         .setNumTrees(ntrees)
         .setImpurity(impurity)
+        .setSeed(5043)
 
       val finalPipeline = new Pipeline()
         .setStages(Array(indexer, vecAssembler, finalModelEstimator, labelConverter))
@@ -169,12 +170,13 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     //initialise spark stuff
     val conf = new SparkConf()
       .setAppName("SereneSchemaMatcher")
-      .setMaster("local")
+      .setMaster("local[1]")
       .set("spark.driver.allowMultipleContexts", "true")
 //        .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
         .set("spark.network.timeout", "800s")
 //        .set("spark.executor.heartbeatInterval", "20s")
     implicit val sc = new SparkContext(conf)
+    sc.setLogLevel("WARN")
     implicit val sqlContext = new SQLContext(sc)
 
     val allAttributes = DataModel.getAllAttributes(trainingData)
@@ -204,16 +206,9 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     )
 
     //convert instance features into Spark Row instances
-    val features = Try { FeatureExtractorUtil
+    val features = FeatureExtractorUtil
       .extractTrainFeatures(preprocessedTrainInstances, labels, featureExtractors)
-    } match {
-      case Success(calcFeatures) =>
-        calcFeatures
-      case Failure(err) =>
-        logger.error(s" Feature extraction failed: $err")
-        sc.stop()
-        throw new Exception(s" Feature extraction failed: $err")
-    }
+
     logger.info(s"   extracted ${features.size} features")
     val data: List[Row] = features
       .map { case (p, fvals, label) =>

@@ -133,7 +133,7 @@ object ModelPredictor extends LazyLogging {
     * @param dataSetID id of the dataset
     * @return PredictionObject wrapped in Option
     */
-  protected def runPrediction(id: ModelID,
+  def runPrediction(id: ModelID,
                     dsPath: Path,
                     sModel: SerializableMLibClassifier,
                     dataSetID: DataSetID): Option[DataSetPrediction] = {
@@ -145,6 +145,7 @@ object ModelPredictor extends LazyLogging {
       dsPath.getParent.toString,
       dsPath.getFileName.toString
     )
+    println("*****HERE")
     logger.info("   csv file for prediction has been read!")
 
     val randomForestClassifier = MLibSemanticTypeClassifier(
@@ -154,6 +155,7 @@ object ModelPredictor extends LazyLogging {
       None,
       Option(derivedFeatureFile.toString))
 
+    println("*****HERE2")
     // TODO: Fix how this works, the writing and reading to files is unnecessary
     Try(randomForestClassifier.predict(List(dataset))) match {
       case Success(_) =>

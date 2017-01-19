@@ -163,18 +163,28 @@ object FeatureExtractorUtil extends LazyLogging {
                       featureExtractors: List[FeatureExtractor]
                      )(implicit sc: SparkContext): List[(PreprocessedAttribute, List[Any], String)] = {
     logger.info(s"Extracting features with spark from ${preprocessedAttributes.size} instances...")
-    val rdd = sc.parallelize(preprocessedAttributes)
-    val featuresOfAllInstances = rdd.map {
-      attr =>
-        val instanceFeatures = featureExtractors.flatMap {
-          case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
-          case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
-        }
-        (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
-    }.collect.toList
-
-    logger.info("Finished extracting train features with spark.")
-    featuresOfAllInstances
+    Try {
+      val rdd = sc.parallelize(preprocessedAttributes)
+      val featExtractBroadcast = sc.broadcast(featureExtractors)
+      // TODO: broadcast featureExtractors
+      rdd.map {
+        attr =>
+          val instanceFeatures = featExtractBroadcast.value
+            .flatMap {
+              case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
+              case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
+            }
+          (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
+      }.collect.toList
+    } match {
+      case Success(calcFeatures) =>
+        logger.info("Finished extracting train features with spark.")
+        calcFeatures
+      case Failure(err) =>
+        logger.error(s"Feature extraction failed: $err")
+        sc.stop()
+        throw new Exception(s"Feature extraction failed: $err")
+    }
   }
 
 

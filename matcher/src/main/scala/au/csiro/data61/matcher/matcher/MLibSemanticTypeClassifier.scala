@@ -45,13 +45,15 @@ case class MLibSemanticTypeClassifier(
     //initialise spark stuff
     val conf = new SparkConf()
       .setAppName("SereneSchemaMatcher")
-      .setMaster("local")
+      .setMaster("local[1]")
       .set("spark.driver.allowMultipleContexts", "true")
+
 //      .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
 //      .set("spark.network.timeout", "800s")
 //      .set("spark.executor.heartbeatInterval", "50s")
 
     implicit val sc = new SparkContext(conf)
+    sc.setLogLevel("WARN")
     implicit val sqlContext = new SQLContext(sc)
 
     logger.info(s"Spark settings for prediction: ${sc.getConf.getAll}")
@@ -77,6 +79,9 @@ case class MLibSemanticTypeClassifier(
       .extractFeatures(allAttributes, featureExtractors)
     logger.info(s"   extracted ${features.size} features")
 
+    println(s"****features:")
+    features.foreach(x => println(x.mkString(",")))
+
     val data = features
       .map { instFeatures => Row.fromSeq(instFeatures) }
       .toList
@@ -85,19 +90,26 @@ case class MLibSemanticTypeClassifier(
 
     val preds = model.transform(dataDf)
 
+
+    val debugP: DataFrame = preds
+      .select("probability")
+    println(s"*******debugP: ${debugP.show}")
     // for debugging, you might want to look at these columns: "rawPrediction","probability","prediction","predictedLabel"
     val predsLocal : Array[Array[Double]] = preds
       .select("probability")
       .rdd.map { _(0).asInstanceOf[DenseVector].toArray}
       .collect
+    println(s"*******predsLocal")
+    predsLocal.foreach(x=>println(x.mkString(",")))
     sc.stop()
 
     logger.info("***Reordering elements.")
     // we need to reorder the elements of the probability distribution array according to 'classes' and not mlib
     // val mlibLabels = model.getEstimator.asInstanceOf[Pipeline].getStages(0).asInstanceOf[StringIndexerModel].labels
     val mlibLabels : Array[String] = model.stages(0).asInstanceOf[StringIndexerModel].labels
-    logger.info(s"***Available mlibLabels: ${mlibLabels.toList}")
+    println(s"***Available mlibLabels: ${mlibLabels.toList}")
     val newOrder : List[Int] = classes.map(mlibLabels.indexOf(_))
+    println(s"*******newOrder: ${newOrder}")
     val predsReordered: Array[Array[Double]] = predsLocal
       .map{
         case probDist => {
@@ -111,6 +123,8 @@ case class MLibSemanticTypeClassifier(
           }.toArray
         }
       }
+    println(s"*******predsReordered")
+    predsReordered.foreach(x=>println(x.mkString(",")))
 
     val predictions: Predictions = allAttributes zip predsReordered // this was returned previously by this function
     // get the class with the max score per each attribute
@@ -121,6 +135,8 @@ case class MLibSemanticTypeClassifier(
         val classPred = classes(maxIdx)
         (attr.id, classPred, maxScore)
       }.toList
+
+    println(s"*******maxClassPreds: ${maxClassPreds}")
 
     val aux: Seq[((Attribute, Scores), Features)] =  predictions zip features
     // we want to return an array of (Attribute, predictedClassScores, derivedFeatures)

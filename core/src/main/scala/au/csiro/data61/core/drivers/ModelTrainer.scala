@@ -175,7 +175,7 @@ object ModelTrainer extends LazyLogging with MatcherJsonFormats {
           dt.trainSettings,
           dt.postProcessingConfig)
 
-        writeFeatureExtractors(id, randomForestSchemaMatcher.featureExtractors)
+//        writeFeatureExtractors(id, randomForestSchemaMatcher.featureExtractors)
 
         SerializableMLibClassifier(
           randomForestSchemaMatcher.model,
