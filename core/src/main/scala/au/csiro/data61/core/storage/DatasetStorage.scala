@@ -69,6 +69,7 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
 
     val ext = FilenameUtils.getExtension(fs.name).toLowerCase // original file extension
     val dsName = FilenameUtils.getBaseName(fs.name).toLowerCase
+    logger.info(s"Adding file path: name=${dsName}, extension=${ext}")
 
     // original file name is important to the classifier
     val outputPath = Paths.get(getPath(id).getParent.toString, s"$dsName.$ext")

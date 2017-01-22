@@ -27,13 +27,11 @@ import org.apache.spark.ml.feature.{IndexToString, StringIndexer, VectorAssemble
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.ml.tuning.{CrossValidator, ParamGridBuilder}
 import au.csiro.data61.matcher.data._
-import au.csiro.data61.matcher.data.{Metadata => DintMeta}
 import au.csiro.data61.matcher.matcher._
 import au.csiro.data61.matcher.matcher.features._
 import com.typesafe.scalalogging.LazyLogging
 
-import scala.util.{Failure, Success, Try}
-
+import scala.util.{Try, Success, Failure}
 
 case class TrainMlibSemanticTypeClassifier(classes: List[String],
                                            doCrossValidation: Boolean = false
@@ -43,193 +41,122 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
   val defaultImpurity = "gini"
 
   /**
-    * Setting up Spark per each training session.
-    * We should move it outside and just indicate the port where spark is running.
-    * Too much needs to be configured...
-    * @return
-    */
-  def setUpSpark(): (SparkContext, SQLContext) = {
-    // TODO: swith to SparkSession!!!
-    //initialise spark stuff
-    val conf = new SparkConf()
-      .setAppName("SereneSchemaMatcher")
-      .setMaster("local[2]")
-      .set("spark.driver.allowMultipleContexts", "true")
-      .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
-      .set("spark.network.timeout", "600s")
-      .set("spark.executor.heartbeatInterval", "20s")
-//      .set("spark.driver.port","7001")
-//      .set("spark.driver.host","192.168.33.10")
-//      .set("spark.fileserver.port","6002")
-//      .set("spark.broadcast.port","6003")
-//      .set("spark.replClassServer.port","6004")
-//      .set("spark.blockManager.port","6005")
-//      .set("spark.executor.port","6006")
-//      .set("spark.broadcast.factory","org.apache.spark.broadcast.HttpBroadcastFactory")
-    // changing to Kryo serialization!!!
-//    conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-//    conf.set("spark.kryoserializer.buffer.max", "1024")
-//    conf.registerKryoClasses(Array(
-//      classOf[PreprocessedAttribute],
-//      classOf[DataModel],
-//      classOf[Attribute],
-//      classOf[FeatureExtractor],
-//      classOf[SemanticTypeLabels],
-//      classOf[(PreprocessedAttribute, FeatureExtractor)],
-//      classOf[DintMeta]))
-    //    conf.set("spark.kryo.registrationRequired", "true")
-    val sc = new SparkContext(conf)
-    val sqlContext = new SQLContext(sc)
-
-    (sc, sqlContext)
-  }
-
-  /**
-    *
-    * @param allAttributes
-    * @param trainingSettings
-    * @param labels
-    * @return
-    */
-  def resamplePreprocessAttributes(allAttributes: List[Attribute],
-                                   trainingSettings: TrainingSettings,
-                                   labels: SemanticTypeLabels
-                        )(implicit sc: SparkContext): List[PreprocessedAttribute] = {
-
-    logger.info(s"   obtained ${allAttributes.size} attributes")
-    //resampling
-    val numBags = trainingSettings.numBags.getOrElse(5)
-    val bagSize = trainingSettings.bagSize.getOrElse(50)
-    val resampledAttrs: List[Attribute] = ClassImbalanceResampler // here seeds are fixed so output will be the same on the same input
-      .resample(trainingSettings.resamplingStrategy, allAttributes, labels, bagSize, numBags)
-    logger.info(s"   resampled ${resampledAttrs.size} attributes")
-
-    // preprocess attributes of the data sources - logical datatypes are inferred during this process
-    val preprocessRDD = sc.parallelize(resampledAttrs,2)
-    logger.info(s"Preprocessing attributes on num partitions ${preprocessRDD.partitions.size} ")
-    preprocessRDD
-      .map { DataPreprocessor().preprocess }
-        .repartition(2)
-      .collect.toList
-  }
-
-  def extractFeatures(preprocessedTrainInstances: List[PreprocessedAttribute],
-                      labels: SemanticTypeLabels,
-                      featureExtractors: List[FeatureExtractor]
-                     )(implicit sc: SparkContext): List[Row] = {
-    //convert instance features into Spark Row instances
-    val features = FeatureExtractorUtil
-      .extractFeatures(preprocessedTrainInstances, labels, featureExtractors)
-    logger.info(s"   extracted ${features.size} features")
-
-    val data: List[Row] = features
-      .map {
-        case (p, fvals, label) =>
-          Row.fromSeq(label +: fvals)
-      }
-
-    data
-  }
-
-  def trainRandomForest(dataDf: DataFrame,
-                        featureNames: List[String]
-                       )(implicit sc: SparkContext)
-  : PipelineModel = {
-    //train random forest
-    logger.info("***Training random forest")
-    val indexer = new StringIndexer()
-      .setInputCol("class")
-      .setOutputCol("label")
-      .fit(dataDf)
-    val vecAssembler = new VectorAssembler()
-      .setInputCols(featureNames.toArray)
-      .setOutputCol("features")
-    val labelConverter = new IndexToString()
-      .setInputCol("prediction")
-      .setOutputCol("predictedLabel")
-      .setLabels(indexer.labels)
-
-    val (depth, ntrees, impurity) = if(doCrossValidation) {
-      val dt = new RandomForestClassifier()
-        .setLabelCol("label")
-        .setFeaturesCol("features")
-        .setMaxDepth(30)
-        .setNumTrees(20)
-      val pipeline = new Pipeline()
-        .setStages(Array(indexer, vecAssembler, dt, labelConverter))
-
-      //setup crossvalidation
-      val paramGrid = new ParamGridBuilder()
-        .addGrid(dt.maxDepth, Array(1, 5, 10, 20, 30))
-        .addGrid(dt.numTrees, Array(1, 5, 10, 15, 20))
-        .addGrid(dt.impurity, Array("entropy", "gini"))
-        .build()
-      val cv = new CrossValidator()
-        .setNumFolds(10)
-        .setEstimator(pipeline)
-        .setEstimatorParamMaps(paramGrid)
-        .setEvaluator(new MulticlassClassificationEvaluator)
-      //.setSeed((new Random(10857171))) // needs to be added in version 2.0.0 mllib
-      // for versions < 2.0.0 seed is fixed to 0
-
-      logger.info("***Running crossvalidation ...")
-      val model = cv.fit(dataDf)
-      val bestModelPipeline = model
-        .bestModel
-        .asInstanceOf[PipelineModel]
-      val bestModel = bestModelPipeline
-        .stages(2)
-        .asInstanceOf[RandomForestClassificationModel]
-      val bestModelEstimator = bestModel
-        .parent
-        .asInstanceOf[RandomForestClassifier]
-
-      // Find best parameters as determined by cross-validation
-      // Use this to print out the whole model: println(bestModel.toDebugString)
-      val bestDepth = bestModelEstimator.getMaxDepth
-      val bestNumTrees = bestModelEstimator.getNumTrees
-      val bestImpurity = bestModelEstimator.getImpurity
-      logger.info("~~~~~~~~~~~ Crossvalidation Results ~~~~~~~~~~~")
-      logger.info("    best depth:    " + bestDepth)
-      logger.info("    best # trees:  " + bestNumTrees)
-      logger.info("    best impurity: " + bestImpurity)
-
-      (bestDepth, bestNumTrees, bestImpurity)
-    } else {
-      (defaultDepth, defaultNumTrees, defaultImpurity)
-    }
-
-    val finalModelEstimator = new RandomForestClassifier()
-      .setLabelCol("label")
-      .setFeaturesCol("features")
-      .setMaxDepth(depth)
-      .setNumTrees(ntrees)
-      .setImpurity(impurity)
-
-    val finalPipeline = new Pipeline()
-      .setStages(Array(indexer, vecAssembler, finalModelEstimator, labelConverter))
-    val finalModel = finalPipeline.fit(dataDf)
-    finalModel
-  }
-
-  /**
-    *
-    * @param attributes
-    * @param trainingSettings
-    * @param labels
+    * Use spark to preprocess attributes...
+    * preprocess attributes of the data sources - logical datatypes are inferred during this process
+    * @param resampledAttrs
     * @param sc
     * @return
     */
-  def generateFeatures(attributes: List[Attribute],
-                       trainingSettings: TrainingSettings,
-                       labels: SemanticTypeLabels)
-                      (implicit sc: SparkContext): List[FeatureExtractor] = {
-    logger.info("Generating feature extractors")
-    val preprocessedAttrs = sc.parallelize(attributes)
-      .map { DataPreprocessor().preprocess }
-      .collect.toList
-    FeatureExtractorUtil
-      .generateFeatureExtractors(classes, preprocessedAttrs, trainingSettings, labels)
+  def preprocessAttributes(resampledAttrs: List[Attribute])(implicit sc: SparkContext)
+  : List[PreprocessedAttribute] = {
+    val preprocessor = DataPreprocessor()
+    val rdd = sc.parallelize(resampledAttrs)
+    logger.info(s"Parallel preprocessing on ${rdd.partitions.size} partitions")
+    Try {
+      rdd
+        .map { preprocessor.preprocess }
+        .collect.toList
+    } match {
+      case Success(preprocessedTrainInstances) =>
+        preprocessedTrainInstances
+      case Failure(err) =>
+        logger.error(s"Parallel preprocessing failed ${err}")
+        sc.stop()
+        throw new Exception(s"Parallel preprocessing failed ${err}")
+    }
+  }
+
+  def getPipelineModel(data: List[Row],
+                       schema: StructType,
+                       featureNames: List[String]
+                      )(implicit sc: SparkContext, sqlContext: SQLContext): PipelineModel = {
+    Try {
+      logger.info("***Spark parallelization")
+      val dataRdd = sc.parallelize(data)
+      val dataDf = sqlContext.createDataFrame(dataRdd, schema)
+
+      //train random forest
+      logger.info("***Training random forest")
+      val indexer = new StringIndexer()
+        .setInputCol("class")
+        .setOutputCol("label")
+        .fit(dataDf)
+      val vecAssembler = new VectorAssembler()
+        .setInputCols(featureNames.toArray)
+        .setOutputCol("features")
+      val labelConverter = new IndexToString()
+        .setInputCol("prediction")
+        .setOutputCol("predictedLabel")
+        .setLabels(indexer.labels)
+
+      val (depth, ntrees, impurity) = if (doCrossValidation) {
+        val dt = new RandomForestClassifier()
+          .setLabelCol("label")
+          .setFeaturesCol("features")
+          .setMaxDepth(30)
+          .setNumTrees(20)
+        val pipeline = new Pipeline()
+          .setStages(Array(indexer, vecAssembler, dt, labelConverter))
+
+        //setup crossvalidation
+        val paramGrid = new ParamGridBuilder()
+          .addGrid(dt.maxDepth, Array(1, 5, 10, 20, 30))
+          .addGrid(dt.numTrees, Array(1, 5, 10, 15, 20))
+          .addGrid(dt.impurity, Array("entropy", "gini"))
+          .build()
+        val cv = new CrossValidator()
+          .setNumFolds(10)
+          .setEstimator(pipeline)
+          .setEstimatorParamMaps(paramGrid)
+          .setEvaluator(new MulticlassClassificationEvaluator)
+        //.setSeed((new Random(10857171))) // needs to be added in version 2.0.0 mllib
+        // for versions < 2.0.0 seed is fixed to 0
+
+        logger.info("***Running crossvalidation ...")
+        val model = cv.fit(dataDf)
+        val bestModelPipeline = model
+          .bestModel
+          .asInstanceOf[PipelineModel]
+        val bestModel = bestModelPipeline
+          .stages(2)
+          .asInstanceOf[RandomForestClassificationModel]
+        val bestModelEstimator = bestModel
+          .parent
+          .asInstanceOf[RandomForestClassifier]
+
+        // Find best parameters as determined by cross-validation
+        // Use this to print out the whole model: println(bestModel.toDebugString)
+        val bestDepth = bestModelEstimator.getMaxDepth
+        val bestNumTrees = bestModelEstimator.getNumTrees
+        val bestImpurity = bestModelEstimator.getImpurity
+        logger.info("~~~~~~~~~~~ Crossvalidation Results ~~~~~~~~~~~")
+        logger.info("    best depth:    " + bestDepth)
+        logger.info("    best # trees:  " + bestNumTrees)
+        logger.info("    best impurity: " + bestImpurity)
+
+        (bestDepth, bestNumTrees, bestImpurity)
+      } else {
+        (defaultDepth, defaultNumTrees, defaultImpurity)
+      }
+
+      val finalModelEstimator = new RandomForestClassifier()
+        .setLabelCol("label")
+        .setFeaturesCol("features")
+        .setMaxDepth(depth)
+        .setNumTrees(ntrees)
+        .setImpurity(impurity)
+
+      val finalPipeline = new Pipeline()
+        .setStages(Array(indexer, vecAssembler, finalModelEstimator, labelConverter))
+      finalPipeline.fit(dataDf)
+    } match {
+      case Success(model) =>
+        model
+      case Failure(err) =>
+        logger.error(s"Spark model training failed ${err}")
+        sc.stop()
+        throw new Exception(s"Spark model training failed ${err}")
+    }
   }
 
   override def train(trainingData: DataModel,
@@ -239,17 +166,30 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
                     ): MLibSemanticTypeClassifier = {
     logger.info(s"***Training initialization for classes: $classes...")
 
-    implicit val (sc, sqlContext) = setUpSpark()
+    //initialise spark stuff
+    val conf = new SparkConf()
+      .setAppName("SereneSchemaMatcher")
+      .setMaster("local[*]")
+      .set("spark.driver.allowMultipleContexts", "true")
+      //        .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
+      .set("spark.network.timeout", "800s")
+    //        .set("spark.executor.heartbeatInterval", "20s")
+    implicit val sc = new SparkContext(conf)
+    implicit val sqlContext = new SQLContext(sc)
+
     val allAttributes = DataModel.getAllAttributes(trainingData)
+    logger.info(s"   obtained ${allAttributes.size} attributes")
+    //resampling
+    val numBags = trainingSettings.numBags.getOrElse(5)
+    val bagSize = trainingSettings.bagSize.getOrElse(50)
+    val resampledAttrs = ClassImbalanceResampler // here seeds are fixed so output will be the same on the same input
+      .resample(trainingSettings.resamplingStrategy, allAttributes, labels, bagSize, numBags)
+    logger.info(s"   resampled ${resampledAttrs.size} attributes")
 
-    val preprocessedAttributes = resamplePreprocessAttributes(allAttributes, trainingSettings, labels)
-
-    // this is the full list of FeatureExtractors
+    // preprocess attributes of the data sources - logical datatypes are inferred during this process
+    val preprocessedTrainInstances = preprocessAttributes(resampledAttrs)
     val featureExtractors = FeatureExtractorUtil
-      .generateFeatureExtractors(classes, preprocessedAttributes, trainingSettings, labels)
-
-    // my hack to reduce them
-//    val featureExtractors = generateFeatures(allAttributes, trainingSettings, labels)
+      .generateFeatureExtractors(classes, preprocessedTrainInstances, trainingSettings, labels)
 
     //get feature names and construct schema
     val featureNames: List[String] = featureExtractors.flatMap({
@@ -258,46 +198,30 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     })
     val schema: StructType = StructType(
       StructField("class", StringType, false) +: featureNames
-        .map {
-          n => StructField(n, DoubleType, false)
+        .map { n =>
+          StructField(n, DoubleType, false)
         }
     )
-    val data: List[Row] = Try {
-      extractFeatures(preprocessedAttributes, labels, featureExtractors)
-    } match {
-      case Success(someData) =>
-        logger.info("Feature extraction success.")
-        someData
-      case Failure(err) =>
-        logger.error(s"Failed to extract features: $err")
-        sc.stop()
-        throw new Exception(s"Failed to perform feature extraction: $err")
-    }
 
-    logger.info("***Spark parallelization")
-    val dataRdd = sc.parallelize(data)
-    logger.info(s"***   number partitions for training created: ${dataRdd.partitions.size}")
-    val dataDf = sqlContext.createDataFrame(dataRdd, schema)
+    //convert instance features into Spark Row instances
+    val features = FeatureExtractorUtil
+      .extractTrainFeatures(preprocessedTrainInstances, labels, featureExtractors)
 
-    val finalModel: PipelineModel = Try {
-      trainRandomForest(dataDf, featureNames)
-    } match {
-      case Success(model) =>
-        logger.info("***Training finished.")
-        model
-      case Failure(err) =>
-        logger.error(s"Failed to perform training: $err")
-        sc.stop()
-        throw new Exception(s"Failed to perform training: $err")
-    }
+    logger.info(s"   extracted ${features.size} features")
+    val data: List[Row] = features
+      .map { case (p, fvals, label) =>
+        Row.fromSeq(label +: fvals)
+      }
+
+    val finalModel = getPipelineModel(data, schema, featureNames)
 
     sc.stop()
-
+    logger.info("***Training finished.")
     MLibSemanticTypeClassifier(
-        classes,
-        finalModel,
-        featureExtractors,
-        postProcessingConfig
+      classes,
+      finalModel,
+      featureExtractors,
+      postProcessingConfig
     )
   }
 

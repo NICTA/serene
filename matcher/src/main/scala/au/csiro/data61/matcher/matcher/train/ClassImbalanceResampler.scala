@@ -32,7 +32,9 @@ object ClassImbalanceResampler extends LazyLogging {
         "ResampleToMedian", "UpsampleToMedian",
         "CapUnknownToHalf",
         "NoResampling",
-        "Bagging", "BaggingToMax", "BaggingToMean"
+        "Bagging",
+        "BaggingToMax",
+        "BaggingToMean"
     )
 
     // seeds are fixed in all these functions
@@ -104,8 +106,11 @@ object ClassImbalanceResampler extends LazyLogging {
         }
 
         logger.info(s"***Resampling all class instances to the median of ${median}.")
-        if(allowDownSampling) resample(median, instCountPerClass, labels)
-        else upsample(median, instCountPerClass, labels)
+        if(allowDownSampling) {
+          resample(median, instCountPerClass, labels)
+        } else {
+          upsample(median, instCountPerClass, labels)
+        }
     }
 
     def resample(sampleSize: Int,
@@ -118,17 +123,19 @@ object ClassImbalanceResampler extends LazyLogging {
             case (className: String, instances: List[(String,Attribute)], count: Int) =>
                 if(count < sampleSize) {
                     //upsample
-                    logger.info(s"***Upsampling...")
+                    logger.debug(s"***Upsampling...")
                     val numSamplesToTake = sampleSize - count
-                    val newSamples = (0 until numSamplesToTake).map({case idx =>
+                    val newSamples = (0 until numSamplesToTake).map{
+                      idx =>
                         val randIdx = randGenerator.nextInt(count)
                         instances(randIdx)._2
-                    }).toList
+                    }.toList
+                  //FIXME: attributes will not have unique attribute ids any more
                     instances.map(_._2) ++ newSamples
                 } else
                 if(count > sampleSize) {
                     //downsample
-                    logger.info(s"***Downsampling...")
+                    logger.debug(s"***Downsampling...")
                     val numExcess = count - sampleSize
                     (0 until numExcess).foldLeft(instances)((instances,idx) => {
                         val randIdx = randGenerator.nextInt(instances.size)
@@ -158,6 +165,7 @@ object ClassImbalanceResampler extends LazyLogging {
                             instances(randIdx)._2
                     } toList
 
+                  //FIXME: attributes will not have unique attribute ids any more
                     instances.map(_._2) ++ newSamples
                 } else {
                     instances.map(_._2)
@@ -191,6 +199,7 @@ object ClassImbalanceResampler extends LazyLogging {
                         val sampleVals = randGenerator.shuffle(attribute.values).take(bagSize)
                         new Attribute(attribute.id, attribute.metadata, sampleVals, attribute.parent)
                 } toList
+            //FIXME: attributes will not have unique attribute ids any more
             case false => List.fill(numBags)(attribute) // we replicate attribute numBags times
         }
     }

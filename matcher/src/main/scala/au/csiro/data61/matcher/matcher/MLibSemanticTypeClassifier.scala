@@ -15,6 +15,7 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
+
 package au.csiro.data61.matcher.matcher
 
 import java.io.{File, PrintWriter}
@@ -70,7 +71,7 @@ case class MLibSemanticTypeClassifier(
     //initialise spark stuff
     val conf = new SparkConf()
       .setAppName("SereneSchemaMatcher")
-      .setMaster("local[2]")
+      .setMaster("local[*]")
       .set("spark.driver.allowMultipleContexts", "true")
       .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
       .set("spark.network.timeout", "600s")
@@ -108,7 +109,7 @@ case class MLibSemanticTypeClassifier(
 
     // get all attributes (aka columns) from the datasets
     val allAttributes: List[Attribute] = datasets
-      .flatMap({DataModel.getAllAttributes(_)})
+      .flatMap { DataModel.getAllAttributes }
     logger.info(s"   obtained ${allAttributes.size} attributes")
 
     //get feature names and construct schema
@@ -117,17 +118,18 @@ case class MLibSemanticTypeClassifier(
         case x: GroupFeatureExtractor => x.getFeatureNames()
     })
     val schema = StructType(
-        featureNames
-          .map({case n => StructField(n, DoubleType, false)})
-          .toList
+      featureNames
+        .map { n => StructField(n, DoubleType, false) }
+        .toList
     )
 
     // extract features
-    val features: List[List[Double]] = FeatureExtractorUtil.extractTestFeatures(allAttributes, featureExtractors)
+    val features: List[List[Double]] = FeatureExtractorUtil
+      .extractFeatures(allAttributes, featureExtractors)
     logger.info(s"   extracted ${features.size} features")
 
     val data = features
-      .map({case instFeatures => Row.fromSeq(instFeatures)})
+      .map { instFeatures => Row.fromSeq(instFeatures) }
       .toList
     val dataRdd = sc.parallelize(data)
     val dataDf = sqlContext.createDataFrame(dataRdd, schema)
@@ -218,21 +220,21 @@ case class MLibSemanticTypeClassifier(
                    featureNames: List[String],
                    maxClassPreds: List[(String,String,Double)], // include manual/predicted labels
                    path: String) = {
-      logger.info("***Writing derived features to " + path)
-      val out = new PrintWriter(new File(path))
+    logger.info("***Writing derived features to " + path)
+    val out = new PrintWriter(new File(path))
 
-      val header = ("id,label,confidence" :: classes ::: featureNames).mkString(",")
-      out.println(header)
+    val header = ("id,label,confidence" :: classes ::: featureNames).mkString(",")
+    out.println(header)
 
-      //write features
-      predictionsFeatures.foreach({
-          case (attr, scores, features) =>
-              val id = attr.id
-              val classPred = maxClassPreds
-                .filter(elem => elem._1 == id)(0)
-              out.println((id :: classPred._2 :: classPred._3 :: scores.toList ::: features).mkString(","))
-      })
+    //write features
+    predictionsFeatures.foreach({
+      case (attr, scores, features) =>
+        val id = attr.id
+        val classPred = maxClassPreds
+          .filter(elem => elem._1 == id)(0)
+        out.println((id :: classPred._2 :: classPred._3 :: scores.toList ::: features).mkString(","))
+    })
 
-      out.close()
+    out.close()
   }
 }

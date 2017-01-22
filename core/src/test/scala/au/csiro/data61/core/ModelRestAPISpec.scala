@@ -25,25 +25,25 @@
 //import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
 //import au.csiro.data61.core.types._
 //import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
-//
 //import com.twitter.finagle.http.RequestBuilder
 //import com.twitter.finagle.http._
 //import com.twitter.io.Buf
-//import com.twitter.util.{Return, Throw, Await}
+//import com.twitter.util.{Await, Return, Throw}
 //import com.typesafe.scalalogging.LazyLogging
 //import org.apache.commons.io.FileUtils
 //import org.junit.runner.RunWith
 //import org.scalatest.{BeforeAndAfterEach, FunSuite}
 //import org.scalatest.junit.JUnitRunner
 //import org.scalatest.concurrent._
+//
 //import scala.concurrent._
 //import scala.concurrent.ExecutionContext.Implicits.global
 //import scala.concurrent.duration._
-//
 //import api._
 //import au.csiro.data61.core.storage.ModelStorage
 //import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 //import com.twitter.finagle.http
+//import org.apache.spark.ml.classification.RandomForestClassificationModel
 //
 //import language.postfixOps
 //import scala.annotation.tailrec
@@ -800,12 +800,12 @@
 //  test("POST /v1.0/model/:id/train accepts request and completes successfully") (new TestServer {
 //    try {
 //      val PollTime = 2000
-//      val PollIterations = 10
+//      val PollIterations = 20
 //
 //      val (model, _) = trainDefault()
 //      val trained = pollModelState(model, PollIterations, PollTime)
 //
-//      val state = concurrent.Await.result(trained, 15 seconds)
+//      val state = concurrent.Await.result(trained, 30 seconds)
 //
 //      assert(state === ModelTypes.Status.COMPLETE)
 //
@@ -819,12 +819,12 @@
 //  test("POST /v1.0/model/:id/train with bagging accepts request and completes successfully") (new TestServer {
 //    try {
 //      val PollTime = 2000
-//      val PollIterations = 40
+//      val PollIterations = 20
 //
 //      val (model, _) = trainDefault(resamplingStrategy="Bagging", bagSize=Some(100), numBags=Some(10))
 //      val trained = pollModelState(model, PollIterations, PollTime)
 //
-//      val state = concurrent.Await.result(trained, 15 seconds)
+//      val state = concurrent.Await.result(trained, 30 seconds)
 //
 //      assert(state === ModelTypes.Status.COMPLETE)
 //
@@ -905,7 +905,7 @@
 //
 //      // now just make sure it completes...
 //      val trained = pollModelState(model, PollIterations, PollTime)
-//      val state = concurrent.Await.result(trained, 15 seconds)
+//      val state = concurrent.Await.result(trained, 20 seconds)
 //
 //      assert(state === ModelTypes.Status.COMPLETE)
 //
@@ -997,7 +997,7 @@
 //      assert(learntModelFile.exists === true)
 //
 //      // pre-computed model from raw data-integration project...
-//      val corFile = Paths.get(helperDir, "default-model.rf").toFile
+//      val corFile = Paths.get(helperDir, "default_spark2.rf").toFile
 //
 //      // checking that the models are the same; direct comparison of file contents does not yield correct results
 //      (for {
@@ -1008,7 +1008,17 @@
 //      } yield (dataLearnt, dataCor) ) match {
 //        case Success((data, cor)) =>
 //          assert(data.classes === cor.classes)
+//          val rfModel_new = data.model.stages(2).asInstanceOf[RandomForestClassificationModel]
+//          val rfModel_one = cor.model.stages(2).asInstanceOf[RandomForestClassificationModel]
+//          assert(rfModel_new.numClasses === rfModel_one.numClasses)
+//          assert(rfModel_new.numFeatures === rfModel_one.numFeatures)
+//          assert(rfModel_new.treeWeights === rfModel_one.treeWeights)
+//          assert(rfModel_new.numTrees === rfModel_one.numTrees)
+//
+//          assert(rfModel_new.totalNumNodes === rfModel_one.totalNumNodes)
+//          assert(rfModel_new.featureImportances === rfModel_one.featureImportances)
 //          assert(data.featureExtractors === cor.featureExtractors)
+//
 //        case Failure(err) =>
 //          throw new Exception(err.getMessage)
 //      }
@@ -1023,7 +1033,7 @@
 //  test("POST /v1.0/model/:id/predict/:id returns successfully") (new TestServer {
 //    try {
 //      val PollTime = 1000
-//      val PollIterations = 40
+//      val PollIterations = 10
 //
 //      val (model, ds) = trainDefault()
 //
@@ -1086,8 +1096,8 @@
 //
 //  test("POST /v1.0/model/:id/predict/:id returns predictions with validation > 0.9") (new TestServer {
 //    try {
-//      val PollTime = 2000
-//      val PollIterations = 20
+//      val PollTime = 1000
+//      val PollIterations = 10
 //
 //      val (model, ds) = trainDefault()
 //

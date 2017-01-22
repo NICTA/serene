@@ -62,5 +62,14 @@ trait MatcherJsonFormats {
       ModelTypeSerializer +
       FeatureSerializer +
       StatusSerializer +
-      FeaturesConfigSerializer
+      FeaturesConfigSerializer +
+      RfKnnFeatureExtractorSerializer +
+      RfKnnFeatureSerializer +
+      MinEditDistFromClassExamplesFeatureExtractorSerializer +
+      JCNMinWordNetDistFromClassExamplesFeatureExtractorSerializer +
+      LINMinWordNetDistFromClassExamplesFeatureExtractorSerializer +
+      MeanCharacterCosineSimilarityFeatureExtractorSerializer +
+      ModelFeatureExtractorsSerializer +
+      SingleFeatureExtractorSerializer +
+      NamedGroupFeatureExtractorSerializer
 }
