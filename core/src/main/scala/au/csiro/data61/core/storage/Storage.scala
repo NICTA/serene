@@ -56,15 +56,9 @@ object Readable {
     */
   def apply[A](implicit instance: Readable[A]): Readable[A] = instance
 
-  // Using the toReadable creates cleaner code, we could also explicitly
-  // define the implicit instances:
-  //
-  //   implicit object ReadableDouble extends Readable[Double] {
-  //      def read(s: String): Double = s.toDouble
-  //    }
-  //    implicit object ReadableInt extends Readable[Int] {
-  //      def read(s: String): Int = s.toInt
-  //    }
+  /**
+    * Functions for implicits
+    */
   implicit val ReadableDouble = toReadable[Double](_.toDouble)
   implicit val ReadableInt = toReadable[Int](_.toInt)
   implicit val ReadableLong = toReadable[Long](_.toLong)

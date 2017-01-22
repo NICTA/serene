@@ -29,6 +29,9 @@ jars
 # docker tmp files
 docker/serene-*
 
+# 
+metastore_db
+
 # files created by matcher...
 matcher/dirstruct/semantic_type_classifier/repo/eval/results-averaged-over-classes.csv
 matcher/dirstruct/semantic_type_classifier/repo/eval/results-averaged-over-reps.csv
