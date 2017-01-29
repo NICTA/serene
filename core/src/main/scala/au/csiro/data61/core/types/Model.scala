@@ -27,7 +27,7 @@ import com.typesafe.scalalogging.LazyLogging
 import org.apache.spark.ml.{PipelineModel, Pipeline}
 import org.apache.spark.ml.classification.LogisticRegression
 import org.apache.spark.ml.feature.{HashingTF, Tokenizer}
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.joda.time.DateTime
 import ModelTypes._
 
@@ -77,6 +77,7 @@ case class Model(description: String,
 
   /**
     * predict column classes for dataset at datasetID
+    *
     * @param datasetID
     * @return
     */
@@ -96,21 +97,35 @@ case class Model(description: String,
   }
 
   /**
-    * Train the model over the given labelData
+    * storeModel
+    *
+    * @param learnedModel
     * @return
     */
-  def train(): Status = {
+  protected def storeModel(learnedModel: PipelineModel): Try[Path] = {
+    Try { ModelStorage.addModel(id, learnedModel).get }
+  }
+
+  /**
+    * Train the model over the given labelData
+    *
+    * @return
+    */
+  def train: Status = {
 
     ModelStorage.updateTrainState(id, Status.BUSY, "")
 
-    Try {
-      for {
-        pipeline <- learner
-        path <- ModelStorage.addModel(id, pipeline)
-      } yield path
-    } match {
+    (for {
+        rawDF <- columnExtract()
+        featureDF <- featureExtract(rawDF)
+        resampledDF <- classResampling(featureDF)
+        pipeline <- learner(resampledDF)
+        path <- storeModel(pipeline)
+      } yield path)
 
-      case Success(Some(path)) =>
+    match {
+
+      case Success(path) =>
         ModelStorage.updateTrainState(id, Status.COMPLETE)
         Status.COMPLETE
 
@@ -125,26 +140,57 @@ case class Model(description: String,
     }
   }
 
+  protected type TrainingData = List[(String, Column[Any])]
+
+  protected def columnExtract(): Try[TrainingData] = {
+    Success(List())
+  }
+
+  protected def featureExtract(a: TrainingData]): Try[DataFrame] = {
+    Success(Model.spark.createDataFrame())
+  }
+
+  protected def classResampling(df: DataFrame): Try[DataFrame] = {
+    // Prepare training documents from a list of (id, text, label) tuples.
+    val a = Model.spark.createDataFrame(Seq(
+      (0L, "a b c d e spark", 1.0),
+      (1L, "b d", 0.0),
+      (2L, "spark f g h", 1.0),
+      (3L, "hadoop mapreduce", 0.0)
+    )).toDF("id", "text", "label")
+
+    Success(a)
+  }
+
   /**
     * The learner step...
+    *
     * @return
     */
-  private def learner: Option[PipelineModel] = {
+  protected def learner(df: DataFrame): Try[PipelineModel] = {
+
+    val HashingLength = 1000
+
     Try {
-      // Prepare training documents from a list of (id, text, label) tuples.
-      val training = Model.spark.createDataFrame(Seq(
-        (0L, "a b c d e spark", 1.0),
-        (1L, "b d", 0.0),
-        (2L, "spark f g h", 1.0),
-        (3L, "hadoop mapreduce", 0.0)
-      )).toDF("id", "text", "label")
+
+      // single column
+      //    - character distributions
+      //    - type detection
+      //    - entropy
+      //
+      // header-to-class comparisons
+      //    - approx nearest neighbours
+      //
+      // values-to-class-values comparisons
+      //    - approx nearest neighbours
+      //    - tf?
 
       // Configure an ML pipeline, which consists of three stages: tokenizer, hashingTF, and lr.
       val tokenizer = new Tokenizer()
         .setInputCol("text")
         .setOutputCol("words")
       val hashingTF = new HashingTF()
-        .setNumFeatures(1000)
+        .setNumFeatures(HashingLength)
         .setInputCol(tokenizer.getOutputCol)
         .setOutputCol("features")
       val lr = new LogisticRegression()
@@ -154,9 +200,9 @@ case class Model(description: String,
         .setStages(Array(tokenizer, hashingTF, lr))
 
       // Fit the pipeline to training documents.
-      val model = pipeline.fit(training)
+      val model = pipeline.fit(df)
       model
-    } toOption
+    }
   }
 
   /**
