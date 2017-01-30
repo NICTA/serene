@@ -36,23 +36,6 @@ import com.typesafe.scalalogging.LazyLogging
 
 import scala.languageFeature.implicitConversions
 
-/**
-  * Implicit conversion between old-style vectors in spark mllib to new-style.
-  * not reallyused in our code now...
-  */
-object VectorConversions {
-  import org.apache.spark.mllib.{linalg => mllib}
-  import org.apache.spark.ml.{linalg => ml}
-
-  implicit def toNewVector(v: mllib.Vector) = v.asML
-  implicit def toOldVector(v: ml.Vector) = v match {
-    case ml.DenseVector(vs) =>
-      mllib.Vectors.dense(vs)
-    case ml.SparseVector(size, idxs, values) =>
-      mllib.Vectors.sparse(size, idxs, values)
-  }
-}
-
 case class MLibSemanticTypeClassifier(
         classes: List[String],
         model: PipelineModel,
@@ -62,20 +45,24 @@ case class MLibSemanticTypeClassifier(
   extends SemanticTypeClassifier with LazyLogging {
 
   /**
-    * Setting up Spark per each training session.
+    * Setting up Spark per each training and testing session.
     * We should move it outside and just indicate the port where spark is running.
     * Too much needs to be configured...
     * @return
     */
-  def setUpSpark(): (SparkContext, SQLContext) = {
+  def setUpSpark(): SparkSession = {
     //initialise spark stuff
-    val conf = new SparkConf()
-      .setAppName("SereneSchemaMatcher")
-      .setMaster("local[*]")
-      .set("spark.driver.allowMultipleContexts", "true")
-      .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
-      .set("spark.network.timeout", "600s")
-      .set("spark.executor.heartbeatInterval", "20s")
+    val sparkSession = SparkSession.builder
+      .master("local")
+      .appName("SereneSchemaMatcher")
+      .getOrCreate()
+//    val conf = new SparkConf()
+//      .setAppName("SereneSchemaMatcher")
+//      .setMaster("local")
+//      .set("spark.driver.allowMultipleContexts", "true")
+//      .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
+//      .set("spark.network.timeout", "600s")
+//      .set("spark.executor.heartbeatInterval", "20s")
 //      .set("spark.driver.port","7001")
 //      .set("spark.driver.host","192.168.33.10")
 //      .set("spark.fileserver.port","6002")
@@ -96,16 +83,17 @@ case class MLibSemanticTypeClassifier(
 //        classOf[(PreprocessedAttribute, FeatureExtractor)],
 //        classOf[DintMeta]))
     //    conf.set("spark.kryo.registrationRequired", "true")
-    val sc = new SparkContext(conf)
-    val sqlContext = new SQLContext(sc)
-
-    (sc, sqlContext)
+//    val sc = new SparkContext(conf)
+//    val sqlContext = new SQLContext(sc)
+//
+//    (sc, sqlContext)
+    sparkSession
   }
 
   override def predict(datasets: List[DataModel]): PredictionObject = {
     logger.info("***Prediction initialization...")
     //initialise spark stuff
-    implicit val (sc, sqlContext) = setUpSpark()
+    implicit val spark = setUpSpark()
 
     // get all attributes (aka columns) from the datasets
     val allAttributes: List[Attribute] = datasets
@@ -120,7 +108,6 @@ case class MLibSemanticTypeClassifier(
     val schema = StructType(
       featureNames
         .map { n => StructField(n, DoubleType, false) }
-        .toList
     )
 
     // extract features
@@ -130,9 +117,8 @@ case class MLibSemanticTypeClassifier(
 
     val data = features
       .map { instFeatures => Row.fromSeq(instFeatures) }
-      .toList
-    val dataRdd = sc.parallelize(data)
-    val dataDf = sqlContext.createDataFrame(dataRdd, schema)
+    val dataRdd = spark.sparkContext.parallelize(data)
+    val dataDf = spark.createDataFrame(dataRdd, schema)
 
     val preds = model.transform(dataDf)
 
@@ -146,7 +132,7 @@ case class MLibSemanticTypeClassifier(
       }
       .collect
 
-    sc.stop()
+    spark.stop()
 
     logger.info("***Reordering elements.")
     // we need to reorder the elements of the probability distribution array according to 'classes' and not mlib
@@ -156,11 +142,11 @@ case class MLibSemanticTypeClassifier(
     val newOrder : List[Int] = classes.map(mlibLabels.indexOf(_))
     val predsReordered: Array[Array[Double]] = predsLocal
       .map{
-          case probDist => {
+         probDist => {
               // 'classes.length' was used previously
               // the problem is that classes with 0 score do not appear in probDist
-              (0 until classes.length).map {
-                  case i =>
+              classes.indices.map {
+                  i =>
                       if (newOrder(i) >= 0) {probDist(newOrder(i))}
                       else 0.0 // probability for this class is missing, so set it to 0
                       //probDist(newOrder(i))
@@ -172,15 +158,16 @@ case class MLibSemanticTypeClassifier(
     // get the class with the max score per each attribute
     val maxClassPreds: List[(String,String,Double)] = predictions
       .map { case (attr, scores) =>
-        val maxIdx = scores.zipWithIndex.maxBy({_._1})._2
+        val maxIdx = scores.zipWithIndex.maxBy(_._1)._2
         val maxScore = scores(maxIdx)
         val classPred = classes(maxIdx)
         (attr.id, classPred, maxScore)
     }.toList
 
-    val aux: Seq[((Attribute, Scores), Features)] =  predictions zip features
     // we want to return an array of (Attribute, predictedClassScores, derivedFeatures)
-    val predictionsFeatures: PredictionObject = aux.map{ case ((a, sc), f) => (a, sc, f)}
+    val predictionsFeatures: PredictionObject = predictions
+      .zip(features)
+      .map{ case ((a, sc), f) => (a, sc, f)}
 
     // we save features to file here
     derivedFeaturesPath match {
@@ -197,7 +184,7 @@ case class MLibSemanticTypeClassifier(
                    featuresList: List[List[Any]],
                    featureNames: List[String],
                    maxClassPreds: List[(String,String,Double)], // include manual/predicted labels
-                   path: String) = {
+                   path: String): Unit = {
     logger.info("***Writing derived features to " + path)
     val out = new PrintWriter(new File(path))
 
@@ -209,7 +196,7 @@ case class MLibSemanticTypeClassifier(
       case (attr, features) =>
         val id = attr.id
         val classPred = maxClassPreds
-          .filter(elem => elem._1 == id)(0)
+          .filter(elem => elem._1 == id).head
         out.println((id :: classPred._2 :: classPred._3 :: features).mkString(","))
     }
 
@@ -219,7 +206,7 @@ case class MLibSemanticTypeClassifier(
   def saveFeatures(predictionsFeatures: PredictionObject,
                    featureNames: List[String],
                    maxClassPreds: List[(String,String,Double)], // include manual/predicted labels
-                   path: String) = {
+                   path: String): Unit = {
     logger.info("***Writing derived features to " + path)
     val out = new PrintWriter(new File(path))
 
@@ -231,7 +218,7 @@ case class MLibSemanticTypeClassifier(
       case (attr, scores, features) =>
         val id = attr.id
         val classPred = maxClassPreds
-          .filter(elem => elem._1 == id)(0)
+          .filter(elem => elem._1 == id).head
         out.println((id :: classPred._2 :: classPred._3 :: scores.toList ::: features).mkString(","))
     })
 

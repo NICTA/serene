@@ -39,7 +39,8 @@ case class StringDistanceScaledByTotalLength() extends Function[(String, String)
 object RfKnnFeatureExtractor {
     def getGroupName(): String = "prop-instances-per-class-in-knearestneighbours"
 }
-case class RfKnnFeatureExtractor(classList: List[String], pool: List[RfKnnFeature], k: Int) extends GroupFeatureExtractor {
+case class RfKnnFeatureExtractor(classList: List[String], pool: List[RfKnnFeature], k: Int)
+  extends GroupFeatureLimExtractor {
   val nameRegex = "([^@]+)@(.+)".r
 
   override def getGroupName(): String =
@@ -52,18 +53,31 @@ case class RfKnnFeatureExtractor(classList: List[String], pool: List[RfKnnFeatur
       OntoSimDistanceMetrics.computeDistance("NeedlemanWunschDistance"))
     val distMatrix = Map[String, Map[String, Double]]()
 
-    override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
-        attribute.rawAttribute.metadata.map {
-          metadata =>
-            val neighbourLabels = findNearestNeighbourLabels(attribute.rawAttribute.id, metadata.name, k)
-            classList.map {
-              className =>
-                neighbourLabels.count(_ == className).toDouble / neighbourLabels.size
-            }
-        }.getOrElse{
-            classList.map(_ => -1.0) //default to -1 if attribute does not have a name
+  override def computeFeaturesLim(attribute: LimPreprocessedAttribute): List[Double] = {
+    attribute.metaName.map {
+      metadata =>
+        val neighbourLabels = findNearestNeighbourLabels(attribute.attributeName, metadata, k)
+        classList.map {
+          className =>
+            neighbourLabels.count(_ == className).toDouble / neighbourLabels.size
         }
+    }.getOrElse {
+      classList.map(_ => -1.0) //default to -1 if attribute does not have a name
     }
+  }
+
+  override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
+    attribute.rawAttribute.metadata.map {
+      metadata =>
+        val neighbourLabels = findNearestNeighbourLabels(attribute.rawAttribute.id, metadata.name, k)
+        classList.map {
+          className =>
+            neighbourLabels.count(_ == className).toDouble / neighbourLabels.size
+        }
+    }.getOrElse {
+        classList.map(_ => -1.0) //default to -1 if attribute does not have a name
+    }
+  }
 
   def findNearestNeighbourLabels(attrId: String, attributeName: String, k: Int): List[String] = {
     val attrNameTruncated = attributeName match {

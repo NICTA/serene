@@ -63,7 +63,7 @@ abstract class AttributePreprocessor {
 case class AttributeNameTokenizer() extends AttributePreprocessor {
   val nameRegex = "([^@]+)@(.+)".r
   override def preprocess(attribute: Attribute): Map[String,Any] = {
-    val tokens = attribute match {
+    val tokens: List[String] = attribute match {
       case (Attribute(_, Some(Metadata(name,_)), _, _)) => {
         name match {
           case nameRegex(name, _) => StringTokenizer.tokenize(name)
@@ -212,15 +212,15 @@ case class DataTypeExtractor() extends AttributePreprocessor {
 case class UniqueValuesExtractor() extends AttributePreprocessor {
   override def preprocess(attribute: Attribute): Map[String,Any] = {
     val values = attribute.values.filter(_.trim.nonEmpty)
-    val counts = values
+    val counts: Map[String,Int] = values
       .groupBy(identity)
       .map { case (k,v) => (k,v.size) }
 
     val total = counts.values.sum.toDouble
     // val avgInstances = total.toDouble / counts.size.toDouble
     // val isDiscrete = (avgInstances >= 0.05 * total)
-    val isDiscrete = (counts.size.toDouble / total) <= 0.3 //number of unique values is lte 30% of rowcount
-    val entropy =  isDiscrete match {
+    val isDiscrete: Boolean = (counts.size.toDouble / total) <= 0.3 //number of unique values is lte 30% of rowcount
+    val entropy: Double =  isDiscrete match {
       case true =>
         counts.map {
           case (k, v) =>
@@ -240,23 +240,23 @@ case class UniqueValuesExtractor() extends AttributePreprocessor {
 case class StringLengthStatsExtractor() extends AttributePreprocessor {
   override def preprocess(attribute: Attribute): Map[String,Any] = {
     val lengths = attribute.values.map(_.length)
-    val mean = lengths.sum.toDouble / lengths.size.toDouble
+    val mean: Double = lengths.sum.toDouble / lengths.size.toDouble
 
     val sortedLengths = lengths.sorted
-    val median = if(sortedLengths.size > 1) {
+    val median: Double = if(sortedLengths.size > 1) {
       sortedLengths(Math.ceil(lengths.size.toDouble/2.0).toInt - 1)
     } else {
       -1
     }
 
-    val mode = if(lengths.nonEmpty) {
+    val mode: Double = if(lengths.nonEmpty) {
       lengths.groupBy(identity).maxBy(_._2.size)._1
     } else {
       -1
     }
 
-    val max = lengths.foldLeft(0)({case (mx,v) => {if(v > mx) v else mx}})
-    val min = lengths.foldLeft(max)({case (mn,v) => {if(v < mn) v else mn}})
+    val max: Double = lengths.foldLeft(0)({case (mx,v) => {if(v > mx) v else mx}})
+    val min: Double = lengths.foldLeft(max)({case (mn,v) => {if(v < mn) v else mn}})
     Map("string-length-stats" -> List(mean,median,mode,min,max))
   }
 }

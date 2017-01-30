@@ -20,6 +20,8 @@ package au.csiro.data61.core
 import com.typesafe.config.ConfigFactory
 import com.typesafe.scalalogging.LazyLogging
 
+import scala.util.{Try, Success, Failure}
+
 /**
  * This class holds the options for the command line user args
  */
@@ -35,7 +37,9 @@ case class Config(storagePath: String,
                   datasetStorageDir: String,
                   modelStorageDir: String,
                   serverHost: String,
-                  serverPort: Int) extends LazyLogging
+                  serverPort: Int,
+                  numWorkers: Option[Int],
+                  parallelFeatureExtraction: Boolean) extends LazyLogging
 
 object Config extends LazyLogging {
 
@@ -68,6 +72,39 @@ object Config extends LazyLogging {
     }
   }
 
+  protected def processSparkNumWorkers(conf: com.typesafe.config.Config
+                                      ): Option[Int] = {
+    Try {
+      conf.getInt("config.spark-num-workers")
+    } match {
+      case Success(0) =>
+        logger.warn(s"Setting number of workers to default.")
+        None
+      case Success(num) =>
+        logger.info(s"Setting number of workers to default.")
+        Some(num)
+      case Failure(err) =>
+        logger.warn(s"Spark number of workers not properly indicated in config: ${err.getMessage}.")
+        logger.warn(s"Setting number of workers to default.")
+        None
+    }
+  }
+
+  protected def processParallelFeatureExtraction(conf: com.typesafe.config.Config
+                                      ): Boolean = {
+    Try {
+      conf.getBoolean("config.spark-feature-extraction")
+    } match {
+      case Success(fe) =>
+        logger.info(s"Setting parallel feature extraction to $fe")
+        fe
+      case Failure(err) =>
+        logger.warn(s"Parallel feature extraction not properly indicated in config: ${err.getMessage}.")
+        logger.info(s"Setting parallel feature extraction to false")
+        false
+    }
+  }
+
   /**
     * Constructor from main application args. Here the arguments are parsed,
     * and if not present, are replaced with the default from application.conf
@@ -75,9 +112,11 @@ object Config extends LazyLogging {
     * @param args
     * @return
     */
-  def apply(args: Array[String]): Config = {
+  def apply(args: Array[String],
+            spark_conf: Option[(Boolean,Int)] = None
+           ): Config = {
 
-    val conf = ConfigFactory.load()
+    val conf: com.typesafe.config.Config = ConfigFactory.load()
 
     val userArgs = buildArgs(args)
 
@@ -85,6 +124,16 @@ object Config extends LazyLogging {
     val defaultStoragePath = conf.getString("config.output-dir")
     val defaultServerHost = conf.getString("config.server-host")
     val defaultServerPort = conf.getString("config.server-port")
+
+    // spark args are available only in file config for now..
+    val (numWorkers, parallelFeatureExtraction) = spark_conf match {
+      case Some((parallel: Boolean, num: Int)) =>
+        if (num < 1) {
+          (None, parallel)
+        } else {(Some(num), parallel)}
+      case _ =>
+        (processSparkNumWorkers(conf), processParallelFeatureExtraction(conf))
+    }
 
     val storagePath = userArgs.storagePath.getOrElse(defaultStoragePath)
     val serverHost = userArgs.serverHost.getOrElse(defaultServerHost)
@@ -109,7 +158,9 @@ object Config extends LazyLogging {
       datasetStorageDir = dataSetStorageDir,
       modelStorageDir = modelStorageDir,
       serverHost = serverHost,
-      serverPort = serverPort
+      serverPort = serverPort,
+      numWorkers = numWorkers,
+      parallelFeatureExtraction = parallelFeatureExtraction
     )
   }
 }

@@ -26,8 +26,13 @@ import com.typesafe.scalalogging.LazyLogging
 
 import scala.util._
 import scala.io._
-import edu.cmu.lti.ws4j._
 import org.apache.spark.SparkContext
+import org.apache.spark.sql.{Dataset, Encoders, Row, SparkSession}
+
+import scala.language.postfixOps
+import com.esotericsoftware.kryo.Kryo
+
+import scala.collection.mutable
 
 trait FeatureExtractor
 
@@ -143,7 +148,7 @@ object FeatureExtractorUtil extends LazyLogging {
   def extractFeatures(preprocessedAttributes: List[PreprocessedAttribute],
                       labels: SemanticTypeLabels,
                       featureExtractors: List[FeatureExtractor]
-                     )(implicit d: DummyImplicit): List[(PreprocessedAttribute, List[Any], String)] = {
+                     )(implicit d: DummyImplicit): List[(PreprocessedAttribute, List[Double], String)] = {
     logger.info(s"Extracting features from ${preprocessedAttributes.size} instances...")
     val featuresOfAllInstances = preprocessedAttributes.map {
       attr =>
@@ -155,38 +160,321 @@ object FeatureExtractorUtil extends LazyLogging {
     }
 
     logger.info("Finished extracting features.")
-    featuresOfAllInstances.toList
+    featuresOfAllInstances
   }
 
-  def extractTrainFeatures(preprocessedAttributes: List[PreprocessedAttribute],
-                           labels: SemanticTypeLabels,
-                           featureExtractors: List[FeatureExtractor]
-                          )(implicit sc: SparkContext): List[(PreprocessedAttribute, List[Double], String)] = {
-    logger.info(s"Extracting features with spark from ${preprocessedAttributes.size} instances...")
-    Try {
-      val rdd = sc.parallelize(preprocessedAttributes)
-      val featExtractBroadcast = sc.broadcast(featureExtractors)
-      // TODO: broadcast featureExtractors
-      rdd.map {
-        attr =>
-          val instanceFeatures = featExtractBroadcast.value
-            .flatMap {
-              case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
-              case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
-            }
-          (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
-      }.collect.toList
-    } match {
-      case Success(calcFeatures) =>
-        logger.info("Finished extracting train features with spark.")
-        calcFeatures
-      case Failure(err) =>
-        logger.error(s"Feature extraction failed: $err")
-        sc.stop()
-        throw new Exception(s"Feature extraction failed: $err")
+  /**
+    * Split feature extractors into groups according to how much input is needed to calculate the feature.
+    * Instead of using the preprocessedAttribute completely we create smaller strongly-typed data structures
+    * which are better to handle for spark2.1.
+    * @param featureExtractors List of specified feature extractors.
+    * @return A map of grouped feature extractors.
+    */
+  def splitFeatureExtractors(featureExtractors: List[FeatureExtractor]
+                            ): Map[String, List[FeatureExtractor]] = {
+    logger.info("Splitting feature extractors")
+    featureExtractors.flatMap {
+      case f: SingleFeatureValuesExtractor => List(("SingleFeatureValuesExtractor", f))
+      case f: SingleFeatureExtractor => List(("SingleFeatureExtractor", f))
+      case gf: GroupFeatureFullExtractor => List(("GroupFeatureFullExtractor", gf))
+      case gf: GroupFeatureLimExtractor => List(("GroupFeatureLimExtractor", gf))
+      case gf: GroupFeatureExtractor => List(("GroupFeatureExtractor", gf))
+      case _ => None
+    }.groupBy(_._1)
+      .mapValues(_.map(_._2))
+  }
+
+  /**
+    * Per each group of feature extractors we need to compute features by creating a smaller data structure from
+    * preprocessedAttributes. We use spark here.
+    * @param preprocessedAttributes List of preprocessed attributes.
+    * @param sfe List of feature extractors which need only values from the attribute and which compute a single double.
+    * @param spark Implicit spark session.
+    * @return List of generated attribute id and corresponding computed single features.
+    */
+  def computeSingleFeatureValues(preprocessedAttributes: List[PreprocessedAttribute],
+                                 sfe: List[SingleFeatureValuesExtractor])
+                                (implicit spark: SparkSession): List[(Int,List[Double])] = {
+    logger.info(s"computeSingleFeatureValues: ${sfe.size}")
+    // this will make implicit conversion to spark dataset work
+    import spark.implicits._
+    // custom kryo serializers for our custom classes
+    import scala.reflect.ClassTag
+    implicit def kryoEncoder[A](implicit ct: ClassTag[A]) =
+      org.apache.spark.sql.Encoders.kryo[A](ct)
+
+    val newAttrs: List[PreprocessedValues] = preprocessedAttributes
+      .zipWithIndex.map {
+      case (prepAttr, attrID) => PreprocessedValues(attrID,
+        prepAttr.rawAttribute.values.toArray)
+    }
+
+//    spark.sparkContext.parallelize(newAttrs).map {
+//      attr =>
+//        (attr.attributeID, sfe.map(_.computeFeatureValues(attr)))
+//    }.collect.toList
+    newAttrs.toDS.map {
+      attr =>
+        (attr.attributeID.toDouble +: sfe.map(_.computeFeatureValues(attr))).toArray
+    }.collect.map {
+      row => (row(0).toInt, row.takeRight(row.length - 1).toList)
+    }
+      .toList
+  }
+
+  /**
+    * We compute single features on the preprocesedAttrbibutes. We don't use spark.
+    * @param preprocessedAttributes List of preprocessed attributes.
+    * @param sfe List of feature extractors which compute a single double for the preprocessedAttribute.
+    * @param spark Implicit spark session.
+    * @return List of generated attribute id and corresponding computed single features.
+    */
+  def computeSingleFeatures(preprocessedAttributes: List[PreprocessedAttribute],
+                                 sfe: List[SingleFeatureExtractor])
+                                (implicit spark: SparkSession): List[(Int,List[Double])] = {
+    logger.info(s"computeSingleFeatures: ${sfe.size}")
+    preprocessedAttributes.zipWithIndex.map {
+      case (attr: PreprocessedAttribute, attrID: Int) =>
+        (attrID, sfe.map(_.computeFeature(attr)))
     }
   }
 
+  /**
+    * Per each group of feature extractors we need to compute features by creating a smaller data structure from
+    * preprocessedAttributes. We don't use spark here.
+    * @param preprocessedAttributes List of preprocessed attributes.
+    * @param gfe List of feature extractors which compute list of doubles for the preprocessedAttribute.
+    * @param spark Implicit spark session.
+    * @return List of generated attribute id and corresponding computed group features.
+    */
+  def computeGroupFeatures(preprocessedAttributes: List[PreprocessedAttribute],
+                           gfe: List[GroupFeatureExtractor])
+                           (implicit spark: SparkSession): List[(Int,List[Double])] = {
+    logger.info(s"computeGroupFeatures: ${gfe.size}")
+    preprocessedAttributes.zipWithIndex.map {
+      case (attr: PreprocessedAttribute, attrID: Int) =>
+        (attrID, gfe.flatMap(_.computeFeatures(attr)))
+    }
+  }
+
+  /**
+    * Per each group of feature extractors we need to compute features by creating a smaller data structure
+    * from preprocessedAttributes. We use spark here.
+    * @param preprocessedAttributes List of preprocessed attributes.
+    * @param gfe List of feature extractors which compute list of doubles and need values of the attribute
+    *            with parts of preprocessedDataMap.
+    * @param spark Implicit spark session.
+    * @return List of generated attribute id and corresponding computed group features.
+    */
+  def computeGroupFeatureFull(preprocessedAttributes: List[PreprocessedAttribute],
+                              gfe: List[GroupFeatureFullExtractor])
+                             (implicit spark: SparkSession): List[(Int,List[Double])] = {
+    logger.info(s"computeGroupFeatureFull: ${gfe.size}")
+    // this will make implicit conversion to spark dataset work
+    import spark.implicits._
+    // custom kryo serializers for our custom classes
+    import scala.reflect.ClassTag
+    implicit def kryoEncoder[A](implicit ct: ClassTag[A]) =
+      org.apache.spark.sql.Encoders.kryo[A](ct)
+
+    val newAttrs: List[FullPreprocessedAttribute] = preprocessedAttributes
+      .zipWithIndex.map {
+      case (prepAttr, attrID) =>
+        val attrName = prepAttr.rawAttribute.metadata match {
+          case Some(meta) => Some(meta.name)
+          case _ => None
+        }
+        val charDist = prepAttr.preprocessedDataMap.getOrElse("normalised-char-frequency-vector", Map())
+          .asInstanceOf[Map[Char,Double]]
+        val attributeNameTokenized: List[String] = prepAttr
+          .preprocessedDataMap.getOrElse("attribute-name-tokenized", List())
+          .asInstanceOf[List[String]]
+        val inferredMap: Map[String, Boolean] = prepAttr
+          .preprocessedDataMap.filterKeys(Set("inferred-type-float",
+          "inferred-type-integer", "inferred-type-long",
+          "inferred-type-boolean", "inferred-type-date",
+          "inferred-type-time", "inferred-type-datetime",
+          "inferred-type-string"))
+          .asInstanceOf[Map[String,Boolean]]
+          .map(identity) // there's a weird bug in spark, we need this map so that serialization is ok
+
+        FullPreprocessedAttribute(attrID, prepAttr.rawAttribute.id, attrName,
+          prepAttr.rawAttribute.values.toArray, attributeNameTokenized, charDist, inferredMap)
+    }
+
+    val broadcast = spark.sparkContext.broadcast(gfe)
+
+    // we can't use spark dataset since preprocessedDataMap contains scala.Any
+    spark.sparkContext.parallelize(newAttrs).map {
+      attr =>
+        (attr.attributeID, broadcast.value.flatMap(_.computeFeatureFull(attr)))
+    }.collect.toList
+  }
+
+  /**
+    * Per each group of feature extractors we need to compute features by creating a smaller data structure
+    * from preprocessedAttributes. We use spark here.
+    * @param preprocessedAttributes List of preprocessed attributes.
+    * @param gfe List of feature extractors which compute list of doubles and need only parts of preprocessedDataMap.
+    * @param spark Implicit spark session.
+    * @return List of generated attribute id and corresponding computed group features.
+    */
+  def computeGroupFeatureLim(preprocessedAttributes: List[PreprocessedAttribute],
+                              gfe: List[GroupFeatureLimExtractor])
+                             (implicit spark: SparkSession): List[(Int,List[Double])] = {
+    logger.info(s"computeGroupFeatureLim: ${gfe.size}")
+    // this will make implicit conversion to spark dataset work
+    import spark.implicits._
+    // custom kryo serializers for our custom classes
+    import scala.reflect.ClassTag
+    implicit def kryoEncoder[A](implicit ct: ClassTag[A]) =
+      org.apache.spark.sql.Encoders.kryo[A](ct)
+
+    val newAttrs: List[LimPreprocessedAttribute] = preprocessedAttributes
+      .zipWithIndex.map {
+      case (prepAttr, attrID) =>
+        val attrName = prepAttr.rawAttribute.metadata match {
+          case Some(meta) => Some(meta.name)
+          case _ => None
+        }
+        val charDist = prepAttr.preprocessedDataMap.getOrElse("normalised-char-frequency-vector", Map())
+          .asInstanceOf[Map[Char,Double]]
+        val attributeNameTokenized: List[String] = prepAttr
+          .preprocessedDataMap.getOrElse("attribute-name-tokenized", List())
+          .asInstanceOf[List[String]]
+        val inferredMap: Map[String, Boolean] = prepAttr
+          .preprocessedDataMap.filterKeys(Set("inferred-type-float",
+          "inferred-type-integer", "inferred-type-long",
+          "inferred-type-boolean", "inferred-type-date",
+          "inferred-type-time", "inferred-type-datetime",
+          "inferred-type-string"))
+          .asInstanceOf[Map[String,Boolean]]
+          .map(identity) // there's a weird bug in spark, we need this map so that serialization is ok
+
+        LimPreprocessedAttribute(attrID, prepAttr.rawAttribute.id, attrName,
+          attributeNameTokenized, charDist, inferredMap)
+    }
+
+    val broadcast = spark.sparkContext.broadcast(gfe)
+
+    // we can't use spark dataset since preprocessedDataMap contains scala.Any and scala.Char
+    spark.sparkContext.parallelize(newAttrs).map {
+      attr =>
+        (attr.attributeID, broadcast.value.flatMap(_.computeFeaturesLim(attr)))
+    }.collect.toList
+  }
+
+  /**
+    * Per each group of feature extractors we need to compute features by creating a smaller data structure
+    * from preprocessedAttributes. We use spark here.
+    * @param preprocessedAttributes List of preprocessed attributes.
+    * @param featureExtractors List of all features to be extracted.
+    * @param spark Implicit spark session.
+    * @return List of generated attribute id and corresponding computed group features.
+    */
+  def computeAllFeatures(preprocessedAttributes: List[PreprocessedAttribute],
+                         featureExtractors: List[FeatureExtractor])
+                        (implicit spark: SparkSession)
+  : (List[(Int,List[Double])], List[String]) = {
+    logger.info(s"Computing features: : ${featureExtractors.size}")
+    val splitted: Map[String, List[FeatureExtractor]] = splitFeatureExtractors(featureExtractors)
+
+//    splitted.map{
+//      case ("SingleFeatureValuesExtractor", sfe: List[SingleFeatureValuesExtractor]) =>
+//        (computeSingleFeatureValues(preprocessedAttributes, sfe),
+//          sfe.map(_.getFeatureName()))
+//
+//    }
+
+    val f1: (List[(Int,List[Double])], List[String]) =  splitted.get("SingleFeatureValuesExtractor") match{
+      case Some(sfe: List[SingleFeatureValuesExtractor]) =>
+        (computeSingleFeatureValues(preprocessedAttributes, sfe),
+          sfe.map(_.getFeatureName()))
+      case None => (List(), List())
+    }
+    logger.info(s"SingleFeatureValuesExtractor  success")
+
+    val f2: (List[(Int,List[Double])], List[String]) =  splitted.get("SingleFeatureExtractor") match {
+      case Some(sfe: List[SingleFeatureExtractor]) =>
+        (computeSingleFeatures(preprocessedAttributes, sfe),
+          sfe.map(_.getFeatureName()))
+      case None => (List(), List())
+    }
+    logger.info(s"SingleFeatureExtractor  success")
+
+    val f3: (List[(Int,List[Double])], List[String])=  splitted.get("GroupFeatureFullExtractor") match {
+      case Some( gfe: List[GroupFeatureFullExtractor]) =>
+        (computeGroupFeatureFull(preprocessedAttributes, gfe),
+          gfe.flatMap(_.getFeatureNames()))
+      case None => (List(), List())
+    }
+    logger.info(s"GroupFeatureFullExtractor  success")
+
+    val f4: (List[(Int,List[Double])], List[String])=  splitted.get("GroupFeatureLimExtractor") match {
+      case Some(gfe: List[GroupFeatureLimExtractor]) =>
+        (computeGroupFeatureLim(preprocessedAttributes, gfe),
+          gfe.flatMap(_.getFeatureNames()))
+      case None => (List(), List())
+    }
+    logger.info(s"GroupFeatureLimExtractor  success")
+
+    val f5: (List[(Int,List[Double])], List[String]) =  splitted.get("GroupFeatureExtractor") match {
+      case Some(gfe: List[GroupFeatureExtractor]) =>
+        (computeGroupFeatures(preprocessedAttributes, gfe),
+          gfe.flatMap(_.getFeatureNames()))
+      case None => (List(), List())
+    }
+    logger.info(s"GroupFeatureExtractor  success")
+
+    val temp: List[(Int,List[Double])] = f1._1 ::: f2._1 ::: f3._1 ::: f4._1 ::: f5._1
+    val featureNames: List[String] = f1._2 ::: f2._2 ::: f3._2 ::: f4._2 ::: f5._2
+
+    logger.info(s"FeatureExtractors concatenated")
+
+    (temp.groupBy(_._1)
+      .mapValues {
+        vals => vals.flatMap {
+          case (i: Int, lists: List[Double]) => lists
+        }
+      }.toList, featureNames)
+  }
+
+  /**
+    * Extract features for training using spark.
+    * @param preprocessedAttributes List of preprocessed attributes.
+    * @param labels Smenatic type labels.
+    * @param featureExtractors List of feature extractors.
+    * @param spark Implicit spark session.
+    * @return
+    */
+  def extractTrainFeatures(preprocessedAttributes: List[PreprocessedAttribute],
+                           labels: SemanticTypeLabels,
+                           featureExtractors: List[FeatureExtractor]
+                          )(implicit spark: SparkSession)
+  : (List[(PreprocessedAttribute, List[Double], String)], List[String]) = {
+    logger.info(s"Extracting features with spark from ${preprocessedAttributes.size} instances...")
+    Try {
+
+      // we create unique ids per each preprocessed attribute
+      // we cannot use rawAttribute.id since after resampling it's not unique any more
+      val (featuresExtracted: List[(Int,List[Double])], featureNames: List[String]) =
+        computeAllFeatures(preprocessedAttributes, featureExtractors)
+      logger.info("Converting features...")
+      (featuresExtracted.map {
+        case (attrID, instanceFeatures) =>
+          val attr = preprocessedAttributes(attrID)
+          (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
+      }, featureNames)
+    } match {
+      case Success(calculation) =>
+        logger.info("Finished extracting train features with spark.")
+        calculation
+      case Failure(err) =>
+        logger.error(s"Feature extraction failed: ${err.getMessage}")
+        spark.stop()
+        throw new Exception(s"Feature extraction failed: ${err.getMessage}")
+    }
+  }
 
   def generateFeatureExtractors(classes: List[String],
                                 preprocessedAttributes: List[PreprocessedAttribute],
@@ -370,21 +658,44 @@ trait SingleFeatureExtractor extends FeatureExtractor {
   def computeFeature(attribute: PreprocessedAttribute): Double
 }
 
+trait SingleFeatureValuesExtractor extends SingleFeatureExtractor {
+  def getFeatureName(): String
+  def computeFeature(attribute: PreprocessedAttribute): Double
+  def computeFeatureValues(attr: PreprocessedValues): Double
+}
+
 trait GroupFeatureExtractor extends FeatureExtractor {
   def getGroupName(): String
   def getFeatureNames(): List[String]
   def computeFeatures(attribute: PreprocessedAttribute): List[Double]
 }
 
+trait GroupFeatureLimExtractor extends GroupFeatureExtractor {
+  def getGroupName(): String
+  def getFeatureNames(): List[String]
+  def computeFeatures(attribute: PreprocessedAttribute): List[Double]
+  def computeFeaturesLim(attr: LimPreprocessedAttribute): List[Double]
+}
+
+trait GroupFeatureFullExtractor extends GroupFeatureExtractor {
+  def getGroupName(): String
+  def getFeatureNames(): List[String]
+  def computeFeatures(attribute: PreprocessedAttribute): List[Double]
+  def computeFeatureFull(attr: FullPreprocessedAttribute): List[Double]
+}
 
 object NumUniqueValuesFeatureExtractor {
   def getFeatureName() = "num-unique-vals"
 }
-case class NumUniqueValuesFeatureExtractor() extends SingleFeatureExtractor {
+case class NumUniqueValuesFeatureExtractor() extends SingleFeatureValuesExtractor {
   override def getFeatureName(): String = NumUniqueValuesFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     attribute.rawAttribute.values.map(_.toLowerCase.trim).distinct.size
+  }
+
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    attr.values.map(_.toLowerCase.trim).distinct.length
   }
 }
 
@@ -392,12 +703,16 @@ case class NumUniqueValuesFeatureExtractor() extends SingleFeatureExtractor {
 object PropUniqueValuesFeatureExtractor {
   def getFeatureName() = "prop-unique-vals"
 }
-case class PropUniqueValuesFeatureExtractor() extends SingleFeatureExtractor {
+case class PropUniqueValuesFeatureExtractor() extends SingleFeatureValuesExtractor {
   override def getFeatureName(): String = PropUniqueValuesFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     val values = attribute.rawAttribute.values
     values.map(_.toLowerCase.trim).distinct.size.toDouble / values.size
+  }
+
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    attr.values.map(_.toLowerCase.trim).distinct.length.toDouble / attr.values.length
   }
 }
 
@@ -405,12 +720,16 @@ case class PropUniqueValuesFeatureExtractor() extends SingleFeatureExtractor {
 object PropMissingValuesFeatureExtractor {
   def getFeatureName(): String = "prop-missing-vals"
 }
-case class PropMissingValuesFeatureExtractor() extends SingleFeatureExtractor {
+case class PropMissingValuesFeatureExtractor() extends SingleFeatureValuesExtractor {
   override def getFeatureName(): String = PropMissingValuesFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     val values = attribute.rawAttribute.values
     values.count(_.trim.length == 0).toDouble / values.size
+  }
+
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    attr.values.count(_.trim.length == 0).toDouble / attr.values.length
   }
 }
 
@@ -418,11 +737,20 @@ case class PropMissingValuesFeatureExtractor() extends SingleFeatureExtractor {
 object PropAlphaCharsFeatureExtractor {
   def getFeatureName(): String = "ratio-alpha-chars"
 }
-case class PropAlphaCharsFeatureExtractor() extends SingleFeatureExtractor {
+case class PropAlphaCharsFeatureExtractor() extends SingleFeatureValuesExtractor {
   override def getFeatureName(): String = PropAlphaCharsFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     val attrContent = attribute.rawAttribute.values.mkString("")
+    if(attrContent.nonEmpty) {
+      attrContent.replaceAll("[^a-zA-Z]","").length.toDouble / attrContent.length
+    } else {
+      -1.0
+    }
+  }
+
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    val attrContent = attr.values.mkString("")
     if(attrContent.nonEmpty) {
       attrContent.replaceAll("[^a-zA-Z]","").length.toDouble / attrContent.length
     } else {
@@ -435,7 +763,7 @@ case class PropAlphaCharsFeatureExtractor() extends SingleFeatureExtractor {
 object PropEntriesWithAtSign {
   def getFeatureName(): String = "prop-entries-with-at-sign"
 }
-case class PropEntriesWithAtSign() extends SingleFeatureExtractor {
+case class PropEntriesWithAtSign() extends SingleFeatureValuesExtractor {
   override def getFeatureName(): String = PropEntriesWithAtSign.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -448,13 +776,23 @@ case class PropEntriesWithAtSign() extends SingleFeatureExtractor {
       -1.0
     }
   }
+
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    val attrContent = attr.values.filter(_.nonEmpty)
+    if(attrContent.nonEmpty) {
+      attrContent.count(_.contains("@")).toDouble / attrContent.length
+    } else {
+      -1.0
+    }
+  }
+
 }
 
 
 object PropEntriesWithCurrencySymbol {
   def getFeatureName() = "prop-entries-with-currency-symbol"
 }
-case class PropEntriesWithCurrencySymbol() extends SingleFeatureExtractor {
+case class PropEntriesWithCurrencySymbol() extends SingleFeatureValuesExtractor {
   val currencySymbols = List("$","AUD")
 
   override def getFeatureName(): String = PropEntriesWithCurrencySymbol.getFeatureName
@@ -468,7 +806,17 @@ case class PropEntriesWithCurrencySymbol() extends SingleFeatureExtractor {
     } else {
       -1.0
     }
+  }
 
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    val attrContent = attr.values.filter(_.nonEmpty)
+    if(attrContent.nonEmpty) {
+      attrContent.count{
+        x: String => currencySymbols.exists(x.contains)
+      }.toDouble / attrContent.size
+    } else {
+      -1.0
+    }
   }
 }
 
@@ -476,11 +824,11 @@ case class PropEntriesWithCurrencySymbol() extends SingleFeatureExtractor {
 object PropEntriesWithHyphen {
   def getFeatureName(): String = "prop-entries-with-hyphen"
 }
-case class PropEntriesWithHyphen() extends SingleFeatureExtractor {
+case class PropEntriesWithHyphen() extends SingleFeatureValuesExtractor {
   override def getFeatureName(): String = PropEntriesWithHyphen.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
-    val attrContent = attribute.rawAttribute.values.filter { x: String => x.length > 0}
+    val attrContent = attribute.rawAttribute.values.filter { x: String => x.nonEmpty}
     if(attrContent.nonEmpty) {
       attrContent.count{
         x: String => x.contains("-")
@@ -488,14 +836,22 @@ case class PropEntriesWithHyphen() extends SingleFeatureExtractor {
     } else {
       -1.0
     }
+  }
 
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    val attrContent = attr.values.filter(_.nonEmpty)
+    if(attrContent.nonEmpty) {
+      attrContent.count(_.contains("-")).toDouble / attrContent.size
+    } else {
+      -1.0
+    }
   }
 }
 
 object PropEntriesWithParen {
   def getFeatureName(): String = "prop-entries-with-paren"
 }
-case class PropEntriesWithParen() extends SingleFeatureExtractor {
+case class PropEntriesWithParen() extends SingleFeatureValuesExtractor {
   override def getFeatureName(): String = PropEntriesWithParen.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -507,14 +863,24 @@ case class PropEntriesWithParen() extends SingleFeatureExtractor {
     } else {
       -1.0
     }
+  }
 
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    val attrContent = attr.values.filter(_.nonEmpty)
+    if(attrContent.nonEmpty) {
+      attrContent.count {
+        x: String => x.contains("(") || x.contains(")")
+      }.toDouble / attrContent.size
+    } else {
+      -1.0
+    }
   }
 }
 
 object MeanCommasPerEntry {
   def getFeatureName(): String = "mean-commas-per-entry"
 }
-case class MeanCommasPerEntry() extends SingleFeatureExtractor {
+case class MeanCommasPerEntry() extends SingleFeatureValuesExtractor {
   override def getFeatureName(): String = MeanCommasPerEntry.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -525,14 +891,23 @@ case class MeanCommasPerEntry() extends SingleFeatureExtractor {
     } else {
       -1.0
     }
+  }
 
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    val attrContent = attr.values.filter(_.nonEmpty)
+    if(attrContent.nonEmpty) {
+      val counts = attrContent.map(_.count(_ == ',').toDouble)
+      counts.sum / counts.length
+    } else {
+      -1.0
+    }
   }
 }
 
 object MeanForwardSlashesPerEntry {
   def getFeatureName(): String = "mean-forward-slashes-per-entry"
 }
-case class MeanForwardSlashesPerEntry() extends SingleFeatureExtractor {
+case class MeanForwardSlashesPerEntry() extends SingleFeatureValuesExtractor {
   override def getFeatureName(): String = MeanForwardSlashesPerEntry.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -543,21 +918,28 @@ case class MeanForwardSlashesPerEntry() extends SingleFeatureExtractor {
     } else {
       -1.0
     }
+  }
 
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    val attrContent = attr.values.filter(_.nonEmpty)
+    if(attrContent.nonEmpty) {
+      val counts = attrContent.map(_.count(_ == '/').toDouble)
+      counts.sum / counts.length
+    } else {
+      -1.0
+    }
   }
 }
 
 object PropRangeFormat {
   def getFeatureName(): String = "prop-range-format"
 }
-case class PropRangeFormat() extends SingleFeatureExtractor {
+case class PropRangeFormat() extends SingleFeatureValuesExtractor {
   override def getFeatureName(): String = PropRangeFormat.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     val rangeFmt = "([0-9]+)-([0-9]+)".r
-
     val attrContent = attribute.rawAttribute.values.filter { x: String => x.nonEmpty}
-
     if(attrContent.nonEmpty) {
       val valsWithRangeFmt = attrContent.filter({
         case rangeFmt(start, end) => start.toDouble <= end.toDouble
@@ -567,7 +949,20 @@ case class PropRangeFormat() extends SingleFeatureExtractor {
     } else {
       -1.0
     }
+  }
 
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    val rangeFmt = "([0-9]+)-([0-9]+)".r
+    val attrContent = attr.values.filter(_.nonEmpty)
+    if(attrContent.nonEmpty) {
+      val valsWithRangeFmt = attrContent.filter {
+        case rangeFmt(start, end) => start.toDouble <= end.toDouble
+        case _ => false
+      }
+      valsWithRangeFmt.length.toDouble / attrContent.length.toDouble
+    } else {
+      -1.0
+    }
   }
 }
 
@@ -579,16 +974,25 @@ case class PropRangeFormat() extends SingleFeatureExtractor {
 object NumericalCharRatioFeatureExtractor {
   def getFeatureName = "prop-numerical-chars"
 }
-case class NumericalCharRatioFeatureExtractor() extends SingleFeatureExtractor {
+case class NumericalCharRatioFeatureExtractor() extends SingleFeatureValuesExtractor {
   override def getFeatureName() = NumericalCharRatioFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     val numRegex = "[0-9]".r
     val ratios = attribute.rawAttribute.values.map {
       case s if s.length > 0 => numRegex.findAllIn(s).size.toDouble / s.length
-      case _ => 0
+      case _ => 0.0
     }
-    ratios.sum.toDouble / ratios.size.toDouble
+    ratios.sum / ratios.size
+  }
+
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    val numRegex = "[0-9]".r
+    val ratios: Array[Double] = attr.values.map {
+      case s if s.nonEmpty => numRegex.findAllIn(s).size.toDouble / s.length
+      case _ => 0.0
+    }
+    ratios.sum / ratios.length
   }
 }
 
@@ -596,16 +1000,25 @@ case class NumericalCharRatioFeatureExtractor() extends SingleFeatureExtractor {
 object WhitespaceRatioFeatureExtractor {
   def getFeatureName = "prop-whitespace-chars"
 }
-case class WhitespaceRatioFeatureExtractor() extends SingleFeatureExtractor {
+case class WhitespaceRatioFeatureExtractor() extends SingleFeatureValuesExtractor {
   override def getFeatureName() = WhitespaceRatioFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     val numRegex = """\s""".r
     val ratios = attribute.rawAttribute.values.map {
       case s if s.length > 0 => numRegex.findAllIn(s).size.toDouble / s.length
-      case _ => 0
+      case _ => 0.0
     }
-    ratios.sum.toDouble / ratios.size
+    ratios.sum / ratios.size
+  }
+
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    val numRegex = """\s""".r
+    val ratios = attr.values.map {
+      case s if s.nonEmpty => numRegex.findAllIn(s).size.toDouble / s.length
+      case _ => 0.0
+    }
+    ratios.sum / ratios.length
   }
 }
 
@@ -638,7 +1051,7 @@ case class EntropyForDiscreteDataFeatureExtractor() extends SingleFeatureExtract
 object DatePatternFeatureExtractor {
   def getFeatureName(): String = "prop-datepattern"
 }
-case class DatePatternFeatureExtractor() extends SingleFeatureExtractor {
+case class DatePatternFeatureExtractor() extends SingleFeatureValuesExtractor {
   val maxSampleSize = 100
 
   val datePattern1 = """^[0-9]+/[0-9]+/[0-9]+$""".r
@@ -654,16 +1067,30 @@ case class DatePatternFeatureExtractor() extends SingleFeatureExtractor {
       0.0
     } else {
       val numSample = if(rawAttr.values.size > maxSampleSize) maxSampleSize else rawAttr.values.size
-      val randIdx = (new Random(124213)).shuffle((0 until rawAttr.values.size).toList).take(numSample)
-      val regexResults = randIdx.filter({
-        case idx if (datePattern1.pattern.matcher(rawAttr.values(idx)).matches ||
+      val randIdx = (new Random(124213)).shuffle(rawAttr.values.indices.toList).take(numSample)
+      val regexResults = randIdx.filter {
+        idx => datePattern1.pattern.matcher(rawAttr.values(idx)).matches ||
           datePattern2.pattern.matcher(rawAttr.values(idx)).matches ||
           datePattern3.pattern.matcher(rawAttr.values(idx)).matches ||
           datePattern4.pattern.matcher(rawAttr.values(idx)).matches
-          ) => true
-        case _ => false
-      })
-      regexResults.size.toDouble / randIdx.size.toDouble
+      }
+      regexResults.size.toDouble / randIdx.size
+    }
+  }
+
+  override def computeFeatureValues(attr: PreprocessedValues): Double = {
+    if(attr.values.isEmpty) {
+      0.0
+    } else {
+      val numSample = if(attr.values.length > maxSampleSize) maxSampleSize else attr.values.length
+      val randIdx = (new Random(124213)).shuffle(attr.values.indices.toList).take(numSample)
+      val regexResults = randIdx.filter {
+        idx => datePattern1.pattern.matcher(attr.values(idx)).matches ||
+          datePattern2.pattern.matcher(attr.values(idx)).matches ||
+          datePattern3.pattern.matcher(attr.values(idx)).matches ||
+          datePattern4.pattern.matcher(attr.values(idx)).matches
+      }
+      regexResults.size.toDouble / randIdx.size
     }
   }
 }
@@ -674,7 +1101,7 @@ object CharDistFeatureExtractor {
   def getGroupName() = "char-dist-features"
   def getFeatureNames() = (1 to chars.length).map({"char-dist-" + _}).toList
 }
-case class CharDistFeatureExtractor() extends GroupFeatureExtractor {
+case class CharDistFeatureExtractor() extends GroupFeatureLimExtractor {
 
   override def getGroupName(): String =
     CharDistFeatureExtractor.getGroupName
@@ -682,9 +1109,19 @@ case class CharDistFeatureExtractor() extends GroupFeatureExtractor {
   override def getFeatureNames(): List[String] =
     CharDistFeatureExtractor.getFeatureNames
 
+  override def computeFeaturesLim(attribute: LimPreprocessedAttribute): List[Double] = {
+    val normalisedCharDists = attribute.charDist
+    if (normalisedCharDists.isEmpty) {
+      CharDistFeatureExtractor.chars.map { _ => 0.0}.toList
+    } else {
+      CharDistFeatureExtractor.chars.toList.map {
+        c => normalisedCharDists.getOrElse(c, 0.0)
+      }
+    }
+  }
+
   override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
-    val attrContent: Seq[String] = attribute.rawAttribute.values
-      .filter { _.nonEmpty}
+    val attrContent: Seq[String] = attribute.rawAttribute.values.filter(_.nonEmpty)
     if(attrContent.nonEmpty) {
       val normalisedCharDists = attribute
         .preprocessedDataMap.getOrElse("normalised-char-frequency-vector", Map())
@@ -760,7 +1197,7 @@ object DataTypeFeatureExtractor {
   def getGroupName(): String = "inferred-data-type"
 }
 case class DataTypeFeatureExtractor(typeMapFile: Option[String] = None
-                                   ) extends GroupFeatureExtractor with LazyLogging {
+                                   ) extends GroupFeatureLimExtractor with LazyLogging {
   val keys = List(
     ("inferred-type-float", "float"),
     ("inferred-type-integer", "integer"),
@@ -792,17 +1229,39 @@ case class DataTypeFeatureExtractor(typeMapFile: Option[String] = None
 
   override def getFeatureNames(): List[String] = keys.map(_._1)
 
+  override def computeFeaturesLim(attribute: LimPreprocessedAttribute): List[Double] = {
+    typeMap.flatMap {
+      m =>
+        val predefinedType = m.get(attribute.attributeName)
+        predefinedType.map {
+          t =>
+            keys.map {
+              case (fname, typename) => if(typename.equalsIgnoreCase(t)) 1.0 else 0.0
+            }
+        }
+    }.getOrElse(
+      keys.map {
+        case (featureName, typeName) =>
+          if(attribute.inferredMap(featureName)) 1.0 else 0.0
+      })
+  }
+
   override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
-    typeMap.flatMap({m =>
+    typeMap.flatMap {
+      m =>
       val predefinedType = m.get(attribute.rawAttribute.id)
-      predefinedType.map({case t =>
-        keys.map({case (fname, typename) => if(typename.equalsIgnoreCase(t)) 1.0 else 0.0})
-      })
-    }).getOrElse({
-      keys.map({case (featureName, typeName) =>
-        if(attribute.preprocessedDataMap(featureName).asInstanceOf[Boolean]) 1.0 else 0.0
-      })
-    })
+      predefinedType.map {
+        t =>
+          keys.map {
+            case (fname, typename) => if(typename.equalsIgnoreCase(t)) 1.0 else 0.0
+          }
+      }
+    }.getOrElse(
+      keys.map {
+        case (featureName, typeName) =>
+          if(attribute.preprocessedDataMap(featureName).asInstanceOf[Boolean]) 1.0 else 0.0
+      }
+    )
   }
 }
 
@@ -832,7 +1291,7 @@ case class TextStatsFeatureExtractor() extends GroupFeatureExtractor {
 object NumberTypeStatsFeatureExtractor {
   def getGroupName(): String = "stats-of-numerical-type"
 }
-case class NumberTypeStatsFeatureExtractor() extends GroupFeatureExtractor {
+case class NumberTypeStatsFeatureExtractor() extends GroupFeatureFullExtractor {
   val floatRegex = """(^[+-]?[0-9]*\.[0-9]+)|(^[+-]?[0-9]+)""".r
 
   override def getGroupName(): String =
@@ -841,6 +1300,30 @@ case class NumberTypeStatsFeatureExtractor() extends GroupFeatureExtractor {
   override def getFeatureNames(): List[String] =
     List("numTypeMean","numTypeMedian",
       "numTypeMode","numTypeMin","numTypeMax")
+
+  override def computeFeatureFull(attribute: FullPreprocessedAttribute): List[Double] = {
+    if(attribute.inferredMap("inferred-type-integer") ||
+      attribute.inferredMap("inferred-type-float") ||
+      attribute.inferredMap("inferred-type-long")) {
+      val values = attribute.values
+        .filter{
+          x => x.nonEmpty && floatRegex.pattern.matcher(x).matches
+        }
+        .map(_.toDouble)
+      val mean = values.sum / values.size.toDouble
+
+      val sortedValues = values.sorted
+      val median = sortedValues(Math.ceil(values.size.toDouble/2.0).toInt - 1)
+
+      val mode = values.groupBy(identity).maxBy(_._2.size)._1
+
+      val max = values.foldLeft(0.0)({case (mx,v) => {if(v > mx) v else mx}})
+      val min = values.foldLeft(max)({case (mn,v) => {if(v < mn) v else mn}})
+      List(mean,median,mode,min,max)
+    } else {
+      List(-1.0,-1.0,-1.0,-1.0,-1.0)
+    }
+  }
 
   override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
     if(attribute.preprocessedDataMap("inferred-type-integer").asInstanceOf[Boolean] ||

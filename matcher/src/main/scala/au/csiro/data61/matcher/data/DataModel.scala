@@ -102,6 +102,7 @@ class Attribute(val id: String,
 }
 
 object Attribute {
+//  implicit val attributeEncoder = org.apache.spark.sql.Encoders.kryo[Attribute]
   def apply(id: String,
             metadata: Option[Metadata],
             values: List[String],
@@ -110,3 +111,70 @@ object Attribute {
 }
 
 case class PreprocessedAttribute(val rawAttribute: Attribute, val preprocessedDataMap: Map[String,Any])
+
+/**
+  * Class to encapsulate attribute with row values.
+  * Spark has problems with List.
+  * @param attributeID
+  * @param attributeName
+  * @param metaName
+  * @param values
+  * @param attributeNameTokenized List of Strings
+  * @param charDist
+  * @param inferredMap
+  */
+case class FullPreprocessedAttribute(attributeID: Int,
+                                     attributeName: String,
+                                     metaName: Option[String],
+                                     values: Array[String],
+                                     attributeNameTokenized: List[String],
+                                     charDist: Map[Char, Double],
+                                     inferredMap: Map[String, Boolean]
+                                    ) extends Serializable
+
+/**
+  * Class to encapsulate attribute id with row values
+  * @param attributeID
+  * @param values
+  */
+case class PreprocessedValues(attributeID: Int,
+                              values: Array[String]
+                             ) extends Serializable
+
+
+/**
+  * Class to encapsulate attribute without row values
+  * @param attributeID
+  * @param attributeName
+  * @param metaName
+  * @param attributeNameTokenized List of Strings
+  * @param charDist
+  * @param inferredMap
+  */
+case class LimPreprocessedAttribute(attributeID: Int,
+                                    attributeName: String,
+                                    metaName: Option[String],
+                                    attributeNameTokenized: List[String],
+                                    charDist: Map[Char, Double],
+                                    inferredMap: Map[String, Boolean]
+                                    ) extends Serializable
+
+//
+//preprocesseddatamap
+//Map("attribute-name-tokenized" -> List[String])
+//Map("normalised-char-frequency-vector" -> Map[Char, Double])
+//("inferred-type-float", "Float")
+//("inferred-type-integer", "Integer")
+//("inferred-type-long", "Long")
+//("inferred-type-boolean", "Boolean")
+//("inferred-type-date", "Date")
+//("inferred-type-time", "Time")
+//("inferred-type-datetime", "DateTime")
+//("inferred-type-string", "String") -> bool
+//
+//Map("histogram-of-content-data" -> Map[String,Int],
+//"is-discrete" -> bool,
+//"entropy" -> double,
+//"num-unique-vals" -> int)
+
+//Map("string-length-stats" -> List(mean,median,mode,min,max))

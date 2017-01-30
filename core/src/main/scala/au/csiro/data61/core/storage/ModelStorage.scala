@@ -49,6 +49,7 @@ object MatcherConstants {
   val PredictionsDir = "predictions/"
   val FeatureExtractorFile = "features_extractors.json"
   val PipelineFile = "pipeline.rf"
+  val FeatureImportanceFile = "feature_importances.csv"
 }
 
 /**

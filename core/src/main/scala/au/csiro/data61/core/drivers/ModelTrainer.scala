@@ -23,13 +23,16 @@ import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.api.{InternalException, NotFoundException}
 import au.csiro.data61.core.storage.ModelStorage._
-import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
+import au.csiro.data61.core.{Serene, Config}
+import au.csiro.data61.core.storage.{DatasetStorage, MatcherConstants, ModelStorage}
 import au.csiro.data61.core.types.{MatcherJsonFormats, ModelFeatureExtractors}
 import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features._
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.spark.ml.PipelineModel
 import org.apache.spark.ml.classification.RandomForestClassificationModel
+import org.apache.spark.ml.linalg.{DenseVector, Vector}
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
@@ -161,6 +164,11 @@ object ModelTrainer extends LazyLogging with MatcherJsonFormats {
 
   }
 
+  /**
+    * Write Spark pipeline model.
+    * @param id id of the model
+    * @param pipeModel Spark pipelinemodel
+    */
   def writePipelineModel(id: ModelID, pipeModel: PipelineModel): Unit = {
     val writePath = Paths.get(ModelStorage.identifyPaths(id).get.pipelinePath)
     val out = Try(new ObjectOutputStream(new FileOutputStream(writePath.toString)))
@@ -172,6 +180,55 @@ object ModelTrainer extends LazyLogging with MatcherJsonFormats {
         f.writeObject(pipeModel)
         f.close()
     }
+  }
+
+  /**
+    * Write feature importances for the model to the file.
+    * @param id model id
+    * @param randomForestSchemaMatcher Trained model returned by schema matcher code
+    */
+  def writeFeatureImportances(id: ModelID,
+                              randomForestSchemaMatcher: MLibSemanticTypeClassifier
+                             ): Unit = {
+    logger.info(s"Writing feature importances to file for model $id")
+    Try {
+      // feature importances returned by Spark random forest classifier -- we use now gini
+      val fimp = randomForestSchemaMatcher
+        .model.stages(2)
+        .asInstanceOf[RandomForestClassificationModel]
+        .featureImportances.toDense
+      // names of features which were extracted for training
+      val names: List[String] = FeatureExtractorUtil
+        .getFeatureNames(randomForestSchemaMatcher.featureExtractors)
+
+      // the number of feature names should be the same as the number of calculated feature importances
+      assert(fimp.size == names.size)
+
+      val conv: List[(String, Double)] = names
+        .zip(fimp.toArray)
+        .sortBy(_._2)(Ordering[Double].reverse)
+
+      val path = Paths.get(ModelStorage.identifyPaths(id).get.workspacePath,
+        MatcherConstants.FeatureImportanceFile).toString
+      val out = new PrintWriter(new File(path))
+
+      val header = "feature_name,importance"
+      out.println(header)
+
+      //write features
+      conv.foreach {
+        case (f: String, imp: Double) =>
+          out.println(s"$f,$imp")
+      }
+      out.close()
+      path
+    } match {
+      case Success(filename) =>
+        logger.info(s"Feature importances have been written to $filename .")
+      case Failure(err) =>
+        logger.warn(s"Failed writing feature importances to file.")
+    }
+
   }
 
   /**
@@ -208,15 +265,13 @@ object ModelTrainer extends LazyLogging with MatcherJsonFormats {
           dt.trainingSet,
           dt.labels,
           dt.trainSettings,
-          dt.postProcessingConfig)
+          dt.postProcessingConfig,
+          numWorkers = Serene.config.numWorkers,
+          parallelFeatureExtraction = Serene.config.parallelFeatureExtraction)
 
-        writeFeatureExtractors(id, randomForestSchemaMatcher.featureExtractors)
-        writePipelineModel(id, randomForestSchemaMatcher.model)
-        logger.info(s"   feature names: ${FeatureExtractorUtil
-          .getFeatureNames(randomForestSchemaMatcher.featureExtractors)}")
-        logger.info(s"    feature importances: ${randomForestSchemaMatcher
-          .model.stages(2)
-          .asInstanceOf[RandomForestClassificationModel].featureImportances}")
+//        writeFeatureExtractors(id, randomForestSchemaMatcher.featureExtractors)
+//        writePipelineModel(id, randomForestSchemaMatcher.model)
+        writeFeatureImportances(id, randomForestSchemaMatcher)
 
         SerializableMLibClassifier(
           randomForestSchemaMatcher.model,

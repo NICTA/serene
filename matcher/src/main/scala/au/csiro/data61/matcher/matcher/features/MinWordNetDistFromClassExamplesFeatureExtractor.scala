@@ -38,13 +38,41 @@ object JCNMinWordNetDistFromClassExamplesFeatureExtractor {
 case class JCNMinWordNetDistFromClassExamplesFeatureExtractor(classList: List[String],
                                                               pool: Map[String,List[TokenizedWords]],
                                                               maxComparisons: Int
-                                                             ) extends GroupFeatureExtractor {
+                                                             ) extends GroupFeatureLimExtractor {
 
   override def getGroupName(): String = JCNMinWordNetDistFromClassExamplesFeatureExtractor.getGroupName
 
   override def getFeatureNames(): List[String] =
     classList.map {
       className => "min-wordnet-jcn-distance-" + className
+  }
+
+  override def computeFeaturesLim(attribute: LimPreprocessedAttribute): List[Double] = {
+    val attrNameTokens = attribute
+      .attributeNameTokenized
+
+    classList.map {
+      className =>
+        val examples = pool.getOrElse(className, List())
+        val examplesSubset = if(examples.size > maxComparisons) {
+          new Random(10857171).shuffle(examples).take(maxComparisons)
+        } else {
+          examples
+        }
+
+        if(examplesSubset.isEmpty) {
+          -1
+        } else {
+          examplesSubset.map {
+            colNameTokens =>
+              if(attrNameTokens.isEmpty || colNameTokens.isEmpty) {
+                -1
+              } else {
+                computeFeatureBetweenCompoundedWords(attrNameTokens,colNameTokens)
+              }
+          }.min
+        }
+    }
   }
 
   override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
@@ -127,7 +155,7 @@ object LINMinWordNetDistFromClassExamplesFeatureExtractor {
 case class LINMinWordNetDistFromClassExamplesFeatureExtractor(classList: List[String],
                                                               pool: Map[String,List[TokenizedWords]],
                                                               maxComparisons: Int
-                                                             ) extends GroupFeatureExtractor {
+                                                             ) extends GroupFeatureLimExtractor {
 
   override def getGroupName(): String =
     LINMinWordNetDistFromClassExamplesFeatureExtractor.getGroupName
@@ -136,6 +164,34 @@ case class LINMinWordNetDistFromClassExamplesFeatureExtractor(classList: List[St
       .map {
         className => "min-wordnet-lin-distance-" + className
       }
+
+  override def computeFeaturesLim(attribute: LimPreprocessedAttribute): List[Double] = {
+    val attrNameTokens = attribute
+      .attributeNameTokenized
+
+    classList.map {
+      className =>
+        val examples = pool.getOrElse(className, List())
+        val examplesSubset = if(examples.size > maxComparisons) {
+          new Random(10857171).shuffle(examples).take(maxComparisons)
+        } else {
+          examples
+        }
+
+        if(examplesSubset.isEmpty) {
+          -1
+        } else {
+          examplesSubset.map {
+            colNameTokens =>
+              if(attrNameTokens.isEmpty || colNameTokens.isEmpty) {
+                -1
+              } else {
+                computeFeatureBetweenCompoundedWords(attrNameTokens,colNameTokens)
+              }
+          }.min
+        }
+    }
+  }
 
   override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
     val attrNameTokens = attribute

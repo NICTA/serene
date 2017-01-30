@@ -54,7 +54,7 @@ case class CSVDataLoader(val id: String = "", val encoding: String = "utf-8") ex
 
     def loadFile(path: String): DataModel = {
         val source = Source.fromFile(path, encoding)
-        val lines = source.getLines.toList.toSeq
+        val lines = source.getLines.toList
         val filename = path.substring(path.lastIndexOf("/")+1, path.length)
         source.close
         parseCsv(lines, filename, "", None)
@@ -66,7 +66,7 @@ case class CSVDataLoader(val id: String = "", val encoding: String = "utf-8") ex
 
     def loadTable(path: String, tableName: String, parentId: String, parent: => Option[DataModel]): DataModel = {
         val source = Source.fromFile(s"$path/$tableName", encoding)
-        val lines = source.getLines.toList.toSeq
+        val lines = source.getLines.toList
         source.close
         parseCsv(lines, tableName, parentId, parent)
     }

@@ -35,7 +35,7 @@ object MeanCharacterCosineSimilarityFeatureExtractor {
   */
 case class MeanCharacterCosineSimilarityFeatureExtractor(classList: List[String],
                                                          classExamplesMap: Map[String,List[Map[Char,Double]]]
-                                                        ) extends GroupFeatureExtractor {
+                                                        ) extends GroupFeatureLimExtractor {
 
   override def getGroupName(): String =
     MeanCharacterCosineSimilarityFeatureExtractor.getGroupName
@@ -45,7 +45,21 @@ case class MeanCharacterCosineSimilarityFeatureExtractor(classList: List[String]
       className =>
         s"mean-charcosinedist-$className"
     }
-    
+
+  override def computeFeaturesLim(attribute: LimPreprocessedAttribute): List[Double] = {
+    val charDist: Map[Char, Double] = attribute.charDist
+
+    classList.map {
+      className =>
+        classExamplesMap.get(className).map {
+          classExamples => classExamples.map {
+            classExampleCharDist =>
+              computeCosineDistanceDistance(charDist, classExampleCharDist)
+          }.sum / classExamples.size.toDouble
+        }.getOrElse(Double.MaxValue)
+    }
+  }
+
   override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
     val charDist: Map[Char, Double] = attribute.preprocessedDataMap
       .getOrElse("normalised-char-frequency-vector",

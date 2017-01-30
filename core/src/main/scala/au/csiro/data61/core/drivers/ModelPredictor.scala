@@ -194,12 +194,15 @@ object ModelPredictor extends LazyLogging with MatcherJsonFormats {
     // loading data in the format suitable for data-integration project
     // TODO: check that this is the correct loader for the dataset
 //    val absFilePath = Paths.get( dsPath.getParent.toString, dsPath.getFileName.toString).toString
-    val dataset = CSVHierarchicalDataLoader().readDataSet(
-      dsPath.getParent.toString,
-      dsPath.getFileName.toString
-    )
+    logger.info("   starting with csv reading for prediction...")
+    val absFilePath = Paths.get(dsPath.getParent.toString, dsPath.getFileName.toString).toString
+    val dataset = CSVDataLoader().load(absFilePath)
 
-//    val dataset = CSVDataLoader().load(dsPath.toString)
+//    val dataset = CSVHierarchicalDataLoader().readDataSet(
+//      dsPath.getParent.toString,
+//      dsPath.getFileName.toString
+//    )
+
     logger.info("   csv file for prediction has been read!")
 
     val randomForestClassifier = MLibSemanticTypeClassifier(
@@ -296,16 +299,24 @@ object ModelPredictor extends LazyLogging with MatcherJsonFormats {
 
     val reader = CSVReader.open(filePath.toFile).all
     val header = readLine(reader.head, classNum)
+    logger.info(s"    got header")
     val predictions = for {
       line <- reader.tail
       dataLine = CSVDataLine(readLine(line, classNum))
       scores = (header.classes zip dataLine.classes).toMap
       features = (header.features zip dataLine.features).toMap
-      colName = dataLine.id.dropWhile(_ != '/').tail  // remove the filename at the start of the id...
+    // this way colName is constructed if we use CSVHierarchicalDataLoader!!!
+//      colName = dataLine.id.dropWhile(_ != '/').tail  // remove the filename at the start of the id...
+      // remove the filename at the end -- if we use CSVDataLoader!!!
+      colName = dataLine.id.split("@").dropRight(1).mkString("@") match {
+        case "" => dataLine.id
+        case c => c
+      }
       column <- DatasetStorage.columnNameMap.get(dsID -> colName)
       prediction = column.id.toString -> ColumnPrediction(dataLine.label, dataLine.confidence, scores, features)
     } yield prediction
 
+    logger.info(s"File read: $filePath...")
     DataSetPrediction(modelID, dsID, predictions.toMap)
   }
 
