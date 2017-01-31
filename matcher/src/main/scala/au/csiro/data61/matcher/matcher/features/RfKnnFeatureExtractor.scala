@@ -66,6 +66,19 @@ case class RfKnnFeatureExtractor(classList: List[String], pool: List[RfKnnFeatur
     }
   }
 
+  override def computeSimpleFeatures(attribute: SimpleAttribute): List[Double] = {
+    attribute.metaName.map {
+      metadata =>
+        val neighbourLabels = findNearestNeighbourLabels(attribute.attributeName, metadata, k)
+        classList.map {
+          className =>
+            neighbourLabels.count(_ == className).toDouble / neighbourLabels.size
+        }
+    }.getOrElse {
+      classList.map(_ => -1.0) //default to -1 if attribute does not have a name
+    }
+  }
+
   override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
     attribute.rawAttribute.metadata.map {
       metadata =>

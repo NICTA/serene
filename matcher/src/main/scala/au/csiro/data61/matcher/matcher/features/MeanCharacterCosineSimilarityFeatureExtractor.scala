@@ -60,6 +60,20 @@ case class MeanCharacterCosineSimilarityFeatureExtractor(classList: List[String]
     }
   }
 
+  override def computeSimpleFeatures(attribute: SimpleAttribute): List[Double]  = {
+    val charDist: Map[Char, Double] = attribute.charDist
+
+    classList.map {
+      className =>
+        classExamplesMap.get(className).map {
+          classExamples => classExamples.map {
+            classExampleCharDist =>
+              computeCosineDistanceDistance(charDist, classExampleCharDist)
+          }.sum / classExamples.size.toDouble
+        }.getOrElse(Double.MaxValue)
+    }
+  }
+
   override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
     val charDist: Map[Char, Double] = attribute.preprocessedDataMap
       .getOrElse("normalised-char-frequency-vector",

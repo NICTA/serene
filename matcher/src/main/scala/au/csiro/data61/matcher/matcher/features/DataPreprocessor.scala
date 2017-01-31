@@ -29,7 +29,7 @@ case class DataPreprocessor() extends LazyLogging {
 
   val preprocessors: List[AttributePreprocessor] = List(
     AttributeNameTokenizer(),
-//    AttributeContentTermFrequency(), // it's used only in AttributePairFeatureExtractor
+    AttributeContentTermFrequency(), // it's used only in AttributePairFeatureExtractor
     CharacterDistributionExtractor(),
     DataTypeExtractor(),
     UniqueValuesExtractor(),
@@ -170,7 +170,7 @@ case class CharacterDistributionExtractor() extends AttributePreprocessor {
 
 
 case class DataTypeExtractor() extends AttributePreprocessor {
-    val maxSample = 100
+  val maxSample = 100
 
   override def preprocess(attribute: Attribute): Map[String,Any] = {
     val intRegex = """^[+-]?[0-9]+""".r
@@ -220,15 +220,14 @@ case class UniqueValuesExtractor() extends AttributePreprocessor {
     // val avgInstances = total.toDouble / counts.size.toDouble
     // val isDiscrete = (avgInstances >= 0.05 * total)
     val isDiscrete: Boolean = (counts.size.toDouble / total) <= 0.3 //number of unique values is lte 30% of rowcount
-    val entropy: Double =  isDiscrete match {
-      case true =>
+    val entropy: Double =  if (isDiscrete) {
         counts.map {
           case (k, v) =>
             val prob = v.toDouble / total
             prob * Math.log(prob)
         }.sum * -1
-
-      case false => -1.0
+    } else {
+      -1.0
     }
     Map("histogram-of-content-data" -> counts,
       "is-discrete" -> isDiscrete,

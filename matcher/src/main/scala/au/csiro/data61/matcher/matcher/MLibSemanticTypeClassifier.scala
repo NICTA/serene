@@ -21,20 +21,17 @@ package au.csiro.data61.matcher.matcher
 import java.io.{File, PrintWriter}
 
 import au.csiro.data61.matcher.data._
-import au.csiro.data61.matcher.data.{Metadata => DintMeta}
 import au.csiro.data61.matcher.matcher.features._
 import au.csiro.data61.matcher.matcher.train.TrainAliases._
-import org.apache.spark.SparkContext
-import org.apache.spark.SparkConf
 import org.apache.spark.sql._
 import org.apache.spark.sql.types._
 import org.apache.spark.ml.PipelineModel
-import org.apache.spark.mllib.linalg.DenseVector
-import org.apache.spark.ml.linalg.{Vector => NewVector, DenseVector => NewDenseVector, SparseVector => NewSparseVector}
+import org.apache.spark.ml.linalg.{DenseVector => NewDenseVector}
 import org.apache.spark.ml.feature.StringIndexerModel
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.languageFeature.implicitConversions
+
 
 case class MLibSemanticTypeClassifier(
         classes: List[String],

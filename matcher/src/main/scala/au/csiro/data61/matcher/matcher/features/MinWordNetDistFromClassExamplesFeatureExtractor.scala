@@ -75,6 +75,34 @@ case class JCNMinWordNetDistFromClassExamplesFeatureExtractor(classList: List[St
     }
   }
 
+  override def computeSimpleFeatures(attribute: SimpleAttribute): List[Double] = {
+    val attrNameTokens = attribute
+      .attributeNameTokenized
+
+    classList.map {
+      className =>
+        val examples = pool.getOrElse(className, List())
+        val examplesSubset = if(examples.size > maxComparisons) {
+          new Random(10857171).shuffle(examples).take(maxComparisons)
+        } else {
+          examples
+        }
+
+        if(examplesSubset.isEmpty) {
+          -1
+        } else {
+          examplesSubset.map {
+            colNameTokens =>
+              if(attrNameTokens.isEmpty || colNameTokens.isEmpty) {
+                -1
+              } else {
+                computeFeatureBetweenCompoundedWords(attrNameTokens,colNameTokens)
+              }
+          }.min
+        }
+    }
+  }
+
   override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
     val attrNameTokens = attribute
       .preprocessedDataMap("attribute-name-tokenized")
@@ -166,6 +194,34 @@ case class LINMinWordNetDistFromClassExamplesFeatureExtractor(classList: List[St
       }
 
   override def computeFeaturesLim(attribute: LimPreprocessedAttribute): List[Double] = {
+    val attrNameTokens = attribute
+      .attributeNameTokenized
+
+    classList.map {
+      className =>
+        val examples = pool.getOrElse(className, List())
+        val examplesSubset = if(examples.size > maxComparisons) {
+          new Random(10857171).shuffle(examples).take(maxComparisons)
+        } else {
+          examples
+        }
+
+        if(examplesSubset.isEmpty) {
+          -1
+        } else {
+          examplesSubset.map {
+            colNameTokens =>
+              if(attrNameTokens.isEmpty || colNameTokens.isEmpty) {
+                -1
+              } else {
+                computeFeatureBetweenCompoundedWords(attrNameTokens,colNameTokens)
+              }
+          }.min
+        }
+    }
+  }
+
+  override def computeSimpleFeatures(attribute: SimpleAttribute): List[Double] = {
     val attrNameTokens = attribute
       .attributeNameTokenized
 

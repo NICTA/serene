@@ -63,6 +63,23 @@ case class MinEditDistFromClassExamplesFeatureExtractor(classList: List[String],
     }
   }
 
+  override def computeSimpleFeatures(attribute: SimpleAttribute): List[Double] = {
+    val attrName = attribute.metaName
+      .getOrElse(attribute.attributeName) match {
+      case nameRegex(name, _) => name
+      case x => x
+    }
+
+    classList.map {
+      className =>
+        classExamplesMap.get(className).map {
+          _.map {
+            case nameRegex(name, _) => distMetric(attrName, name)
+            case x => distMetric(attrName, x)
+          }.min }.getOrElse(Double.MaxValue)
+    }
+  }
+
   override def computeFeatures(attribute: PreprocessedAttribute): List[Double] = {
 
     val attrName = attribute.rawAttribute.metadata

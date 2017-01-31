@@ -55,22 +55,8 @@ import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
 
-class ObjectInputStreamWithCustomClassLoader(fileInputStream: FileInputStream)
-  extends ObjectInputStream(fileInputStream) {
-  /**
-    * This is a special deserialization for custom objects.
-    * Either this custom thing, or fork := true in sbt are needed!
-    * @param desc
-    * @return
-    */
-  override def resolveClass(desc: java.io.ObjectStreamClass): Class[_] = {
-    try { Class.forName(desc.getName, false, getClass.getClassLoader) }
-    catch { case ex: ClassNotFoundException => super.resolveClass(desc) }
-  }
-}
-
 /**
-  * Tests for the Model REST endpoint API
+  * Tests for model training and prediction using spark
   */
 @RunWith(classOf[JUnitRunner])
 class SparkParallelSpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach with Futures with LazyLogging {
@@ -303,49 +289,6 @@ class SparkParallelSpec extends FunSuite with MatcherJsonFormats with BeforeAndA
   }
 
   /**
-    * pollModelState
-    *
-    * @param model
-    * @param pollIterations
-    * @param pollTime
-    * @param s
-    * @return
-    */
-  def pollModelState(model: Model, pollIterations: Int, pollTime: Int)(implicit s: TestServer): Future[ModelTypes.Status] = {
-    Future {
-
-      def state(): ModelTypes.Status = {
-        Thread.sleep(pollTime)
-        // build a request to get the model...
-        val response = s.get(s"/$APIVersion/model/${model.id}")
-        if (response.status != Status.Ok) {
-          throw new Exception("Failed to retrieve model state")
-        }
-        // ensure that the data is correct...
-        val m = parse(response.contentString).extract[Model]
-
-        m.state.status
-      }
-
-      @tailrec
-      def rState(loops: Int): ModelTypes.Status = {
-        state() match {
-          case s@ModelTypes.Status.COMPLETE =>
-            s
-          case s@ModelTypes.Status.ERROR =>
-            s
-          case _ if loops < 0 =>
-            throw new Exception("Training timeout")
-          case _ =>
-            rState(loops - 1)
-        }
-      }
-
-      rState(pollIterations)
-    }
-  }
-
-  /**
     * This helper function will start the training...
     *
     * @param server
@@ -383,163 +326,131 @@ class SparkParallelSpec extends FunSuite with MatcherJsonFormats with BeforeAndA
   }
 
 
-  //=========================Tests==============================================
+  test("same model with default features and no resampling in parallel is learnt") (new TestServer {
+    try {
 
-//    test("same model is learnt") (new TestServer {
-//      try {
-//
-//        // first we add a simple dataset
-//        val ds = createDataSet
-//        val labelMap = createLabelMap(ds)
-//        // next we train the dataset
-//        val TestStr = randomString
-//        val model: Model = createModel(defaultClasses, Some(TestStr),
-//          Some(labelMap), "NoResampling", None, None, defaultFeatures).get
-//        println("model created")
-//
-//
-//        val sModel: SerializableMLibClassifier = ModelTrainer.train(model.id).get
-//        println("model trained")
-//        ModelStorage.addModel(model.id, sModel)
-//
-//        val rfModel_new = sModel.model.stages(2).asInstanceOf[RandomForestClassificationModel]
-//
-//        println("*******")
-//        println(s" Num nodes: ${rfModel_new.totalNumNodes}")
-//        println("*******")
-//
-//        println("*******")
-//        println(s"# features: ${rfModel_new.numFeatures}")
-//        println(s" Feature importances: ${rfModel_new.featureImportances}")
-//        println(s"FeauresCol ${rfModel_new.getFeaturesCol}")
-//        println(s"FeauresColParam ${rfModel_new.featuresCol}")
-//        println("*******")
-//
-//        val corFile = Paths.get(helperDir, "deafaultfeatures_noresampling_spark2.rf").toFile
-//        println(corFile.toString)
-//        assert(corFile.exists)
-//        val oneCoreModel: Try[SerializableMLibClassifier] =
-//          for {
-//            inCor <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(corFile)))
-//              .orElse(Failure( new IOException("Error opening model file.")))
-//            dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
-//              .orElse(Failure( new IOException("Error reading model file.")))
-//          } yield dataCor
-//
-//        val rfModel_one = oneCoreModel.get.model.stages(2).asInstanceOf[RandomForestClassificationModel]
-//
-//        assert(oneCoreModel.get.classes === sModel.classes)
-//
-//        assert(rfModel_new.numClasses === rfModel_one.numClasses)
-//        assert(rfModel_new.numFeatures === rfModel_one.numFeatures)
-//        assert(rfModel_new.treeWeights === rfModel_one.treeWeights)
-////        assert(rfModel_new.numTrees === rfModel_one.numTrees)
-//
-//        assert(rfModel_new.totalNumNodes === rfModel_one.totalNumNodes)
-//        assert(rfModel_new.featureImportances === rfModel_one.featureImportances)
-//
-//        assert(oneCoreModel.get.featureExtractors === sModel.featureExtractors)
-//  //      assert(rfModel_new.trees === rfModel_one.trees)
-////        assert(rfModel_new === rfModel_one)
-//
-//
-//      } finally {
-//        assertClose()
-//      }
-//
-//    })
+      // first we add a simple dataset
+      val ds = createDataSet
+      val labelMap = createLabelMap(ds)
+      // next we train the dataset
+      val TestStr = randomString
+      val model: Model = createModel(defaultClasses, Some(TestStr),
+        Some(labelMap), "ResampleToMean", None, None, defaultFeatures).get
 
-//  test("same model with default features and no resampling in parallel is learnt") (new TestServer {
-//    try {
-//
-//      // first we add a simple dataset
-//      val ds = createDataSet
-//      val labelMap = createLabelMap(ds)
-//      // next we train the dataset
-//      val TestStr = randomString
-//      val model: Model = createModel(defaultClasses, Some(TestStr),
-//        Some(labelMap), "NoResampling", None, None, defaultFeatures).get
-//      println("model created")
-//
-//      // default config
-//      Serene.config = Config(args = Array.empty[String], Some(false, 2))
-//      val sModel_default: SerializableMLibClassifier = ModelTrainer.train(model.id).get
-//      println("model 1 trained")
-//
-//      // no parallel feature extraction and default num workers for spark
-//      Serene.config = Config(args = Array.empty[String], Some(false, 3))
-//      val sModel_no: SerializableMLibClassifier = ModelTrainer.train(model.id).get
-//      println("model 2 trained")
-//
-//      val rfModel_default = sModel_default.model.stages(2).asInstanceOf[RandomForestClassificationModel]
-//      val rfModel_no = sModel_no.model.stages(2).asInstanceOf[RandomForestClassificationModel]
-//
-//      assert(sModel_default.classes === sModel_no.classes)
-//      assert(sModel_default.featureExtractors === sModel_no.featureExtractors)
-//      assert(rfModel_default.numClasses === rfModel_no.numClasses)
-//      assert(rfModel_default.numFeatures === rfModel_no.numFeatures)
-//      assert(rfModel_default.treeWeights === rfModel_no.treeWeights)
-//      assert(rfModel_default.totalNumNodes === rfModel_no.totalNumNodes)
-//      assert(rfModel_default.featureImportances === rfModel_no.featureImportances)
-//
-//    } finally {
-//      assertClose()
-//    }
-//
-//  })
+      // default config
+      Serene.config = Config(args = Array.empty[String], Some(true, 1))
+      val sModel_default: SerializableMLibClassifier = ModelTrainer.train(model.id).get
+      ModelStorage.addModel(model.id, sModel_default)
 
-    test("train and predict an check accuracy") (new TestServer {
-      try {
-        val TestStr = randomString
+      // no parallel feature extraction and default num workers for spark
+      Serene.config = Config(args = Array.empty[String], Some(true, 8))
+      val sModel_no: SerializableMLibClassifier = ModelTrainer.train(model.id).get
 
-        // first we add a simple dataset
-        val ds = createDataSet
-        val labelMap = createLabelMap(ds)
+      val rfModel_default = sModel_default.model.stages(2).asInstanceOf[RandomForestClassificationModel]
+      val rfModel_no = sModel_no.model.stages(2).asInstanceOf[RandomForestClassificationModel]
 
-        // next we train the dataset
-        val model: Model = createModel(defaultClasses, Some(TestStr), Some(labelMap), "NoResampling", None, None).get
-        println("model created")
+      assert(sModel_default.classes === sModel_no.classes)
+      assert(sModel_default.featureExtractors === sModel_no.featureExtractors)
+      assert(rfModel_default.numClasses === rfModel_no.numClasses)
+      assert(rfModel_default.numFeatures === rfModel_no.numFeatures)
+      assert(rfModel_default.treeWeights === rfModel_no.treeWeights)
+      assert(rfModel_default.totalNumNodes === rfModel_no.totalNumNodes)
+      assert(rfModel_default.featureImportances === rfModel_no.featureImportances)
 
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
 
-        val sModel: SerializableMLibClassifier = ModelTrainer.train(model.id).get
+  })
 
-        ModelPredictor.runPrediction(model.id, ds.path, sModel, ds.id) match {
-          case Some(dsPrediction) =>
-            println(s"DatasetPrediction: $dsPrediction")
-            println("model predicted")
+  test("same model with default features and no resampling in parallel and no parallel is learnt") (new TestServer {
+    try {
 
-            val trueLabels = createLabelMap(ds)
-                    .toList
-                    .sortBy(_._1)
+      // first we add a simple dataset
+      val ds = createDataSet
+      val labelMap = createLabelMap(ds)
+      // next we train the dataset
+      val TestStr = randomString
+      val model: Model = createModel(defaultClasses, Some(TestStr),
+        Some(labelMap), "NoResampling", None, None, defaultFeatures).get
 
-            // these are the labels that were predicted
-            val testLabels = dsPrediction
-                .predictions
-                .mapValues(_.label)
-                .filterKeys(trueLabels.map(_._1).contains)
-                .toList
-                .sortBy(_._1)
+      // default config
+      Serene.config = Config(args = Array.empty[String], Some(false, 2))
+      val sModel_default: SerializableMLibClassifier = ModelTrainer.train(model.id).get
 
-            // check if they are equal. Here there is a
-            // office@house_listing column that is misclassified
-            // as a business name...
-            val score = testLabels
-              .zip(trueLabels)
-              .map { case (x, y) =>
-                if (x == y) 1.0 else 0.0
-              }
+      // no parallel feature extraction and default num workers for spark
+      Serene.config = Config(args = Array.empty[String], Some(true, 8))
+      val sModel_no: SerializableMLibClassifier = ModelTrainer.train(model.id).get
 
-            val total = score.sum / testLabels.size
+      val rfModel_default = sModel_default.model.stages(2).asInstanceOf[RandomForestClassificationModel]
+      val rfModel_no = sModel_no.model.stages(2).asInstanceOf[RandomForestClassificationModel]
 
-            assert(total > 0.9)
-          case _ =>
-            logger.error(s"FAIL")
-            fail()
-        }
-      } finally {
-        assertClose()
+      assert(sModel_default.classes === sModel_no.classes)
+      assert(sModel_default.featureExtractors === sModel_no.featureExtractors)
+      assert(rfModel_default.numClasses === rfModel_no.numClasses)
+      assert(rfModel_default.numFeatures === rfModel_no.numFeatures)
+      assert(rfModel_default.treeWeights === rfModel_no.treeWeights)
+      assert(rfModel_default.totalNumNodes === rfModel_no.totalNumNodes)
+      assert(rfModel_default.featureImportances === rfModel_no.featureImportances)
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+
+  })
+
+  test("train and predict and check accuracy") (new TestServer {
+    try {
+      val TestStr = randomString
+
+      // first we add a simple dataset
+      val ds = createDataSet
+      val labelMap = createLabelMap(ds)
+
+      // next we train the dataset
+      val model: Model = createModel(defaultClasses, Some(TestStr), Some(labelMap), "NoResampling", None, None).get
+
+      val sModel: SerializableMLibClassifier = ModelTrainer.train(model.id).get
+
+      ModelPredictor.runPrediction(model.id, ds.path, sModel, ds.id) match {
+        case Some(dsPrediction) =>
+          val trueLabels = createLabelMap(ds)
+                  .toList
+                  .sortBy(_._1)
+
+          // these are the labels that were predicted
+          val testLabels = dsPrediction
+              .predictions
+              .mapValues(_.label)
+              .filterKeys(trueLabels.map(_._1).contains)
+              .toList
+              .sortBy(_._1)
+
+          // check if they are equal. Here there is a
+          // office@house_listing column that is misclassified
+          // as a business name...
+          val score = testLabels
+            .zip(trueLabels)
+            .map { case (x, y) =>
+              if (x == y) 1.0 else 0.0
+            }
+
+          val total = score.sum / testLabels.size
+
+          assert(total > 0.9)
+        case _ =>
+          fail("Prediction failed!!!")
       }
-    })
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
 
 }
 

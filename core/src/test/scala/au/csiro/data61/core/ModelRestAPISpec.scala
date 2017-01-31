@@ -1113,6 +1113,29 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
+  test("Model rf from older versions cannot be read in") (new TestServer {
+    try {
+      // pre-computed model with default spark config
+      val oldFile = Paths.get(helperDir, "default-model.rf").toFile
+
+      (for {
+        inCor <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(oldFile)))
+        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
+      } yield dataCor ) match {
+        case Success(cor) =>
+          fail("Old .rf file has been read which should not happen!")
+
+        case Failure(err) =>
+          succeed
+      }
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
   test("POST /v1.0/model/:id/predict/:id returns successfully") (new TestServer {
     try {
       val PollTime = 1000
@@ -1182,7 +1205,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val PollTime = 1000
       val PollIterations = 10
 
-      val (model, ds) = trainDefault(features = fullFeatures)
+      // ResampleToMean gives worse performance than upsampletomax or noresampling!
+      val (model, ds) = trainDefault(features = fullFeatures, resamplingStrategy = "UpsampleToMax")
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
