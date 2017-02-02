@@ -1134,7 +1134,7 @@ case class DatePatternFeatureExtractor() extends SingleFeatureValuesExtractor {
 
 
 object CharDistFeatureExtractor {
-  def chars = "abcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*()_+-=[]\\{}|;':\",./<>?"
+  def chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~ \\t\\n\\r\\x0b\\x0c"
   def getGroupName() = "char-dist-features"
   def getFeatureNames() = (1 to chars.length).map({"char-dist-" + _}).toList
 }

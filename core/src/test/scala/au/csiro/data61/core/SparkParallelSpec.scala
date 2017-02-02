@@ -291,7 +291,10 @@ class SparkParallelSpec extends FunSuite with MatcherJsonFormats with BeforeAndA
   /**
     * This helper function will start the training...
     *
-    * @param server
+    * @param resamplingStrategy string
+    * @param numBags optional
+    * @param bagSize optional
+    * @param server implicit
     * @return
     */
   def trainDefault(resamplingStrategy: String = "ResampleToMean",

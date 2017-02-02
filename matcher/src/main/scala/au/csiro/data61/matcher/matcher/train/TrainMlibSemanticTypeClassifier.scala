@@ -35,7 +35,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
                                            doCrossValidation: Boolean = false
                                           ) extends TrainSemanticTypeClassifier with LazyLogging {
   val defaultDepth = 30
-  val defaultNumTrees = 20
+  val defaultNumTrees = 100
   val defaultImpurity = "gini"
 
   /**
@@ -89,7 +89,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
       .setLabelCol("label")
       .setFeaturesCol("features")
       .setMaxDepth(30)
-      .setNumTrees(20)
+      .setNumTrees(100)
     val pipeline = new Pipeline()
       .setStages(Array(indexer, vectorAssembler, dt, labelConverter))
 
@@ -259,57 +259,6 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     logger.info(s"   resampled ${resampledAttrs.size} attributes")
     resampledAttrs
   }
-
-//  override def train(trainingData: DataModel,
-//                     labels: SemanticTypeLabels,
-//                     trainingSettings: TrainingSettings,
-//                     postProcessingConfig: Option[Map[String,Any]],
-//                     numWorkers: Option[Int] = None,
-//                     parallelFeatureExtraction: Boolean = true
-//                    ): MLibSemanticTypeClassifier = {
-//    logger.info(s"***Training initialization for classes: $classes...")
-//
-//    //initialise spark stuff
-//    implicit val spark = setUpSpark(numWorkers)
-//
-//    //resampling
-//    val resampledAttrs = resampleModelAttributes(trainingData, labels, trainingSettings)
-//
-//    // preprocess attributes of the data sources - logical datatypes are inferred during this process
-//    val preprocessedTrainInstances = preprocessAttributes(resampledAttrs, parallelFeatureExtraction)
-//    // generate feature extractors --> main thing here is construction of example-based feature extractors
-//    val featureExtractors = FeatureExtractorUtil
-//      .generateFeatureExtractors(classes, preprocessedTrainInstances, trainingSettings, labels)
-//
-//    val (features: List[(PreprocessedAttribute, List[Double], String)], featureNames: List[String]) =
-//      extractModelFeatures(preprocessedTrainInstances, labels, featureExtractors, parallelFeatureExtraction)
-//
-//    //construct schema
-//    val schema: StructType = StructType(
-//      StructField("class", StringType, false) +: featureNames
-//        .map { n =>
-//          StructField(n, DoubleType, false)
-//        }
-//    )
-//
-//    //convert instance features into Spark Row instances
-//    logger.info(s"   extracted ${features.size} features")
-//    val data: List[Row] = features
-//      .map { case (p, fvals, label) =>
-//        Row.fromSeq(label +: fvals)
-//      }
-//
-//    val finalModel = getPipelineModel(data, schema, featureNames)
-//
-//    spark.stop()
-//    logger.info("***Training finished.")
-//    MLibSemanticTypeClassifier(
-//      classes,
-//      finalModel,
-//      featureExtractors,
-//      postProcessingConfig
-//    )
-//  }
 
   override def train(trainingData: DataModel,
                      labels: SemanticTypeLabels,

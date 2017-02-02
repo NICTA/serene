@@ -65,7 +65,7 @@ case class MinEditDistFromClassExamplesFeatureExtractor(classList: List[String],
 
   override def computeSimpleFeatures(attribute: SimpleAttribute): List[Double] = {
     val attrName = attribute.metaName
-      .getOrElse(attribute.attributeName) match {
+      .getOrElse("") match {
       case nameRegex(name, _) => name
       case x => x
     }

@@ -72,32 +72,47 @@ case class CSVDataLoader(val id: String = "", val encoding: String = "utf-8") ex
     }
 
     def parseCsv(lines: Seq[String], tableName: String, parentId: String, parent: => Option[DataModel]): DataModel = {
-        val quotedRegex = "\"(.*)\"" .r
-        val attrHeaders = lines.head.split(""",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))""", -1).toList.map({
-            case quotedRegex(a) => a.trim()
-            case x => x.trim()
-        })
+      val quotedRegex = "\"(.*)\"" .r
+      val attrHeaders = lines.head.split(""",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))""", -1)
+        .toList
+        .map {
+          case quotedRegex(a) => a.trim()
+          case x => x.trim()
+        }
 
-        val attrVals = lines.drop(1)
-          .map { line => line.split(""",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))""", -1).toList}
-          .filter { line => !line.forall(_.length == 0)} // we filter out empty strings
+      //we set metadata to be empty if headers are all numbers from 0 to #headers
+      //this is the assumption that these headers are just subsitute for None
+      val procNames = if (attrHeaders.forall(_.forall(Character.isDigit))) {
+        if (attrHeaders.map(_.toInt).forall( _ <= attrHeaders.size)) {
+          List.fill(attrHeaders.size)(None)
+        } else { attrHeaders.map( x => Some(Metadata(x,""))) }
+      } else { attrHeaders.map( x => Some(Metadata(x,""))) }
 
-        lazy val table: DataModel = new DataModel(tableName, Some(Metadata(tableName,"")), parent, Some(attributes))
-        lazy val attributes: List[Attribute] = (0 until attrHeaders.size).map({case idx => {
-                new Attribute(if(parentId.nonEmpty) s"${attrHeaders(idx)}@$tableName@$parentId" else s"${attrHeaders(idx)}@$tableName",
-                              Some(Metadata(attrHeaders(idx),"")), 
-                              attrVals.map({
-                                case tokens if tokens.size > idx => 
-                                    val t = tokens(idx)
-                                    if(t.length > 1 && t.startsWith("\"") && t.endsWith("\"")) t.substring(1,t.length-1) //remove quotes
-                                    else t
-                                case _ => ""
-                              }).toList,
-                              Some(table)
-                              )
-            }
-        }).toList
+      val attrIds = if(parentId.nonEmpty) {
+        attrHeaders.map(attr => s"$attr@$tableName@$parentId")
+      } else {
+        attrHeaders.map(attr => s"$attr@$tableName")
+      }
 
-        table
+      val attrVals = lines.drop(1)
+        .map { line => line.split(""",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))""", -1).toList}
+        .filter { line => !line.forall(_.length == 0)} // we filter out empty strings
+
+      lazy val table: DataModel = new DataModel(tableName, Some(Metadata(tableName,"")), parent, Some(attributes))
+      lazy val attributes: List[Attribute] = attrHeaders.indices.map {
+        idx =>
+          new Attribute(attrIds(idx),
+            procNames(idx),
+            attrVals.map {
+              case tokens if tokens.size > idx =>
+                val t = tokens(idx)
+                if(t.length > 1 && t.startsWith("\"") && t.endsWith("\"")) t.substring(1,t.length-1) //remove quotes
+                else t
+              case _ => ""
+          }.toList,
+          Some(table))
+      }.toList
+
+      table
     }
 }
