@@ -54,8 +54,8 @@ object SereneBuild extends Build {
 
       assemblyJarName in assembly := s"serene-${version.value}.jar"
     )
-    .aggregate(core, matcher)
-    .dependsOn(core, matcher)
+    .aggregate(core, matcher, ingest)
+    .dependsOn(core, matcher, ingest)
 
   /**
     * Schema Matcher module
@@ -103,6 +103,15 @@ object SereneBuild extends Build {
       fork in Test := true
     )
 
+    lazy val ingest = Project(id="serene-ingest", base=file("ingest"))
+      .settings(
+        commonSettings,
+        version := "0.1",
+        libraryDependencies ++= Seq(
+          "org.json4s" %% "json4s-native" % "3.3.0"
+        )
+      )
+
   /**
     * Serene Core module. Contains glue code, servers and communications...
     */
@@ -149,5 +158,5 @@ object SereneBuild extends Build {
       )
     .settings(jetty() : _*)
     .enablePlugins(RpmPlugin, JavaAppPackaging)
-    .dependsOn(matcher)
+    .dependsOn(matcher, ingest)
 }
