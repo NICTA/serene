@@ -34,8 +34,8 @@ import scala.util.{Failure, Success, Try}
 case class TrainMlibSemanticTypeClassifier(classes: List[String],
                                            doCrossValidation: Boolean = false
                                           ) extends TrainSemanticTypeClassifier with LazyLogging {
-  val defaultDepth = 30
-  val defaultNumTrees = 100
+  val defaultDepth = 50
+  val defaultNumTrees = 200
   val defaultImpurity = "gini"
 
   /**
