@@ -17,38 +17,83 @@
  */
 package au.csiro.data61.ingest
 
-import org.json4s._
+import org.json4s.native.JsonMethods.{compact, render}
+import org.json4s.{JArray, JField, JNull, JObject, JNothing, JValue}
 
 object JsonTransforms {
+  def flatten(jsonObjects: Seq[JObject]): Seq[JObject] = jsonObjects.flatMap(flatten)
+
   def flatten(jsonObject: JObject): Seq[JObject] = {
-    jsonObject.obj.foldLeft(Seq(jsonObject)) {
-      (results, field) => results flatMap {
-        result => field match {
-          case (key, _: JArray) => flattenArrayProp(result, key)
-          case (key, _: JObject) => Seq(flattenObjectProp(result, key))
-          case _ => Seq(result)
-        }
+    resolveDuplicateProps(jsonObject) flatMap { jsonObj =>
+      jsonObj.obj.foldLeft(Seq(jsonObj)) {
+        (results, field) =>
+          results flatMap {
+            result =>
+              field match {
+                case (key, value: JArray) => flattenArrayProp(result, key, value)
+                case (key, _: JObject) => Seq(flattenObjectProp(result, key))
+                case _ => Seq(result)
+              }
+          }
       }
     }
   }
 
-  def flattenArrayProp(jsonObject: JObject, propKey: String): Seq[JObject] = {
-    val otherFields = jsonObject.obj filterNot {_._1 == propKey}
+  def resolveDuplicateProps(jsonObject: JObject): Seq[JObject] = {
+    val fieldGroups = jsonObject.obj.groupBy(_._1).toSeq
+    val duplicateFields = fieldGroups filter (_._2.size > 1) map {
+      field => (field._1, field._2.map(_._2))
+    }
 
-    jsonObject.obj find {_._1 == propKey} match {
-      case Some((_, jsonArray: JArray)) if jsonArray.arr.nonEmpty =>
-        jsonArray.arr map {
-          jsonValue => JObject(otherFields :+ (propKey, jsonValue))
+    duplicateFields match {
+      case Nil => Seq(jsonObject)
+      case _ =>
+        val fs = duplicateFields map {
+          field => (xs: Seq[JObject]) => xs flatMap {
+            x => flattenDuplicateProp(x, field._1, field._2)
+          }
         }
-      case _ => Seq(JObject(otherFields))
+        Function.chain(fs).apply(Seq(jsonObject))
     }
   }
 
-  def flattenObjectProp(jsonObject: JObject, propKey: String): JObject = {
+  def flattenDuplicateProp(
+      jsonObject: JObject, propKey: String, propValues: Seq[JValue]): Seq[JObject] =
+    propValues map { propValue =>
+      val otherFields = jsonObject.obj filterNot {_._1 == propKey}
+      JObject(otherFields :+ (propKey, propValue))
+    }
+
+  def flattenArrayProp(
+      jsonObject: JObject, propKey: String, propValue: JArray): Seq[JObject] = {
+    val otherFields = jsonObject.obj filterNot {_._1 == propKey}
+
+    if (propValue.arr.nonEmpty) {
+      propValue.arr map {
+        elem => JObject(otherFields :+ (propKey, elem))
+      }
+    } else {
+      Seq(JObject(otherFields))
+    }
+  }
+
+  def flattenObjectProp(jsonObject: JObject, propKey: String): JObject =
     JObject(jsonObject.obj flatMap {
       case (key, value: JObject) if key == propKey =>
         value.obj.map { case (k, v) => (s"$key.$k", v) }
       case (key, value) => Seq((key, value))
     })
+
+  def appendNullFields(fields: Seq[JField], keysOfNull: Set[String]): Seq[JField] =
+    fields ++ (keysOfNull map {key => JField(key, JNull)})
+
+  def sortFieldsByKeys(fields: Seq[JField]): Seq[JField] = fields.sortBy(_._1)
+
+  def toCompactFields(fields: Seq[JField]): Seq[(String, String)] = fields.map {
+    case (key, value: JObject) => (key, compact(render(value)))
+    case (key, value: JArray) => (key, compact(render(value)))
+    case (key, JNothing) => (key, "")
+    case (key, JNull) => (key, "")
+    case (key, value) => (key, value.values.toString)
   }
 }
