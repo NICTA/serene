@@ -15,24 +15,18 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
+
 package au.csiro.data61.ingest
 
-import java.io.File
+object JsonType extends Enumeration {
+  type JsonType = Value
+  val Number = Value("number")
+  val Boolean = Value("boolean")
+  val String = Value("string")
+  val Object = Value("object")
+  val Array = Value("array")
+  val Null = Value("null")
 
-import au.csiro.data61.ingest.JsonTransforms.{flattenMax, toCsv}
-import com.github.tototoshi.csv.CSVWriter
-import org.json4s.Xml.toJson
-
-import scala.xml.XML.loadFile
-
-object XmlIngestor {
-  def convertToCsv(xmlFile: File, csvFile: File): Unit = {
-    val json = toJson(loadFile(xmlFile))
-    val flatJsonObjects = flattenMax(json)
-    val (headers, lines) = toCsv(flatJsonObjects)
-    val writer = CSVWriter.open(csvFile)
-    writer.writeRow(headers)
-    writer.writeAll(lines)
-    writer.close()
-  }
+  val PrimitiveJsonTypes = ValueSet(Number, Boolean, String)
+  val CompositeJsonTypes = ValueSet(Object, Array, Null)
 }
