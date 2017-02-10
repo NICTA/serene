@@ -32,12 +32,24 @@ case class JsonSchema(
     .map { prop =>
       val (key, value) = prop
 
-      val typeField = JField(TypeFieldKey, JString(value.mkString("|")))
+      def toJsonArray(types: JsonType.ValueSet): JArray =
+        JArray(value.toList.sorted.map(_.toString).map(JString(_)))
+
+      val typeField = if (value.size == 1) {
+        JField(TypeFieldKey, JString(value.head.toString))
+      } else {
+        JField(TypeFieldKey, toJsonArray(value))
+      }
       val fields = List(typeField)
 
       val schemaField =
         if (subPrimitiveArrayTypes contains key) {
-          Some(JField(SchemaFieldKey, JString(subPrimitiveArrayTypes(key).mkString("|"))))
+          val types = subPrimitiveArrayTypes(key)
+          if (types.size == 1) {
+            Some(JField(SchemaFieldKey, JString(types.mkString("|"))))
+          } else {
+            Some(JField(SchemaFieldKey, toJsonArray(types)))
+          }
         } else if (subSchemas contains key) {
           Some(JField(SchemaFieldKey, subSchemas(key).toJsonAst))
         } else {

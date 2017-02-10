@@ -109,7 +109,9 @@ object SereneBuild extends Build {
         version := "0.1",
         libraryDependencies ++= Seq(
           "org.json4s" %% "json4s-native" % "3.3.0",
-          "com.github.tototoshi" %% "scala-csv" % "1.3.1"
+          "com.github.tototoshi" %% "scala-csv" % "1.3.1",
+          "org.scalactic" %% "scalactic" % "3.0.1",
+          "org.scalatest" %% "scalatest" % "3.0.1" % "test"
         )
       )
 
