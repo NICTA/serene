@@ -136,7 +136,8 @@ class JsonTransformsSpec extends UnitSpec {
       Seq(
         Seq("Jon Snow", """["sword","bow"]"""),
         Seq("Ned Stark", "")
-      )
+      ),
+      Seq.empty
     )
 
     assert(toCsv(jsonObjects) == csv)

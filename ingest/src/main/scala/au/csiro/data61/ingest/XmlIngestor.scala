@@ -29,7 +29,7 @@ object XmlIngestor {
   def convertToCsv(xmlFile: File, csvFile: File): Unit = {
     val json = toJson(loadFile(xmlFile))
     val flatJsonObjects = flattenMax(json)
-    val (headers, lines) = toCsv(flatJsonObjects)
+    val (headers, lines, _) = toCsv(flatJsonObjects)
     val writer = CSVWriter.open(csvFile)
     writer.writeRow(headers)
     writer.writeAll(lines)

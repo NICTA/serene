@@ -17,24 +17,29 @@
  */
 package au.csiro.data61.ingest
 
-import au.csiro.data61.ingest.JsonSchema.VirtualRootKey
 import org.json4s.native.JsonMethods.{compact, render}
 import org.json4s.{JArray, JField, JNothing, JNull, JObject, JValue}
 
 import scala.annotation.tailrec
 
 object JsonTransforms {
-  def flat(jsonObject: JObject): Boolean = !(jsonObject.obj exists {
-    case (_, JArray(_)) => true
-    case (_, JObject(_)) => true
-    case _ => false
-  })
+  val UnknownHeader = "$$$Unknown$$$"
 
-  def flattenMax(jsonValue: JValue): Seq[JObject] = flattenMax(flatten(jsonValue))
+  def flat(jsonValue: JValue): Boolean = jsonValue match {
+    case jsonObject @ JObject(_) => !(jsonObject.obj exists {
+      case (_, JArray(_)) => true
+      case (_, JObject(_)) => true
+      case _ => false
+    })
+    case JArray(_) => false
+    case _ => true
+  }
 
-  def flattenMax(jsonObjects: Seq[JObject]): Seq[JObject] = {
+  def flattenMax(jsonValue: JValue): Seq[JValue] = flattenMax(flatten(jsonValue))
+
+  def flattenMax(jsonObjects: Seq[JValue]): Seq[JValue] = {
     @tailrec
-    def f(xs: Seq[JObject], ys: Seq[JObject]): Seq[JObject] = xs match {
+    def f(xs: Seq[JValue], ys: Seq[JValue]): Seq[JValue] = xs match {
       case Nil => ys
       case _ =>
         val partition = xs.flatMap(flatten).partition(flat)
@@ -45,10 +50,10 @@ object JsonTransforms {
     f(partition._2, partition._1)
   }
 
-  def flatten(jsonValue: JValue): Seq[JObject] = jsonValue match {
+  def flatten(jsonValue: JValue): Seq[JValue] = jsonValue match {
     case jsonObject @ JObject(_) => flattenObject(jsonObject)
-    case JArray(values) => values.flatMap(flatten)
-    case value => Seq(JObject((VirtualRootKey, value)))
+    case JArray(values) => values
+    case value => Seq(value)
   }
 
   def flattenObject(jsonObject: JObject): Seq[JObject] = {
@@ -116,7 +121,9 @@ object JsonTransforms {
       case (key, value) => Seq((key, value))
     })
 
-  def toCsv(jsonObjects: Seq[JObject]): (Seq[String], Seq[Seq[String]]) = {
+  def toCsv(jsonValues: Seq[JValue]): (Seq[String], Seq[Seq[String]], Seq[JValue]) = {
+    val jsonObjects = jsonValues collect { case x @ JObject(_) => x }
+
     val keys = jsonObjects.flatMap(_.obj.map(_._1)).toSet
 
     val lines = jsonObjects map { jsonObject =>
@@ -125,7 +132,7 @@ object JsonTransforms {
       toCompactValues(fields)
     }
 
-    (keys.toSeq.sorted, lines)
+    (keys.toSeq.sorted, lines, jsonValues.filterNot(_.isInstanceOf[JObject]))
   }
 
   protected def appendNullFields(fields: Seq[JField], keysOfNull: Set[String]): Seq[JField] =

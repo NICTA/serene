@@ -19,18 +19,18 @@ package au.csiro.data61.ingest
 
 import java.io.{File, PrintWriter}
 import java.nio.file.Files
-import java.util.function.{BiFunction, BinaryOperator}
 
 import au.csiro.data61.ingest.JsonTransforms.{flattenMax, toCsv}
 import com.github.tototoshi.csv.CSVWriter
 import org.json4s.native.JsonMethods.{parse, pretty, render}
 
 import scala.collection.JavaConversions.asScalaBuffer
+import scala.collection.JavaConverters.asScalaIteratorConverter
 
 object JsonIngestor {
   def convertJsonToCsv(jsonFile: File, csvFile: File): Unit = {
     val flatJsonObjects = flattenMax(parse(jsonFile))
-    val (headers, lines) = toCsv(flatJsonObjects)
+    val (headers, lines, _) = toCsv(flatJsonObjects)
     val writer = CSVWriter.open(csvFile)
     writer.writeRow(headers)
     writer.writeAll(lines)
@@ -40,7 +40,7 @@ object JsonIngestor {
   def convertJsonLinesToCsv(jsonLinesFile: File, csvFile: File): Unit = {
     val jsonLines = Files.readAllLines(jsonLinesFile.toPath).toSeq.filterNot(_.isEmpty)
     val flatJsonObjects = jsonLines.map(parse(_)).flatMap(flattenMax)
-    val (headers, lines) = toCsv(flatJsonObjects)
+    val (headers, lines, _) = toCsv(flatJsonObjects)
     val writer = CSVWriter.open(csvFile)
     writer.writeRow(headers)
     writer.writeAll(lines)
@@ -48,29 +48,21 @@ object JsonIngestor {
   }
 
   def extractSchema(jsonFile: File, schemaFile: File): Unit = {
-    val schema = JsonSchema.from(parse(jsonFile)).toJsonAst
+    val schema = JsonSchema.from(parse(jsonFile))
     val writer = new PrintWriter(schemaFile)
-    writer.write(pretty(render(schema)))
+    writer.write(pretty(render(JsonSchema.toJsonAst(schema))))
     writer.close()
   }
 
   def extractMergedSchema(jsonLinesFile: File, schemaFile: File): Unit = {
-    val schema = Files
+    val schemas = Files
       .lines(jsonLinesFile.toPath)
-      .reduce(
-        JsonSchema.empty(),
-        new BiFunction[JsonSchema, String, JsonSchema] {
-          override def apply(schema: JsonSchema, line: String): JsonSchema =
-            JsonSchema.from(parse(line))
-        },
-        new BinaryOperator[JsonSchema] {
-          override def apply(x: JsonSchema, y: JsonSchema): JsonSchema = JsonSchema.merge(x, y)
-        }
-      )
-      .toJsonAst
+      .iterator().asScala.toStream
+      .map(line => JsonSchema.from(parse(line)))
+      .foldLeft(Seq.empty[JsonSchema])(JsonSchema.merge)
 
     val writer = new PrintWriter(schemaFile)
-    writer.write(pretty(render(schema)))
+    writer.write(pretty(render(JsonSchema.toJsonAst(schemas))))
     writer.close()
   }
 }
