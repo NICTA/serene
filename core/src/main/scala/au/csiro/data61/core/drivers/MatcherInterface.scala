@@ -211,14 +211,14 @@ object MatcherInterface extends LazyLogging {
    * @param id The model id
    * @return
    */
-  def trainModel(id: ModelID): Option[TrainState] = {
+  def trainModel(id: ModelID, force: Boolean = false): Option[TrainState] = {
 
     for {
       model <- ModelStorage.get(id)
       state = model.state
       newState = state.status match {
-        case Status.COMPLETE if ModelStorage.isConsistent(id) =>
-          logger.info(s"Model $id does not need training, it is done!")
+        case Status.COMPLETE if ModelStorage.isConsistent(id) && !force =>
+          logger.info(s"Model $id is already trained.")
           state
         case Status.BUSY =>
           // if it is complete or pending, just return the value

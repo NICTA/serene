@@ -152,9 +152,9 @@ object ModelAPI extends RestAPI {
     * Trains a model at id
     * If training has been successfully launched, it returns nothing
     */
-  val modelTrain: Endpoint[Unit] = post(APIVersion :: "model" :: int :: "train") {
-    (id: Int) =>
-      val state = Try(MatcherInterface.trainModel(id))
+  val modelTrain: Endpoint[Unit] = post(APIVersion :: "model" :: int :: "train" :: paramOption("force")) {
+    (id: Int, force: Option[String]) =>
+      val state = Try(MatcherInterface.trainModel(id, force.map(_.toBoolean).getOrElse(false)))
       state match {
         case Success(Some(_))  =>
           Accepted[Unit]
