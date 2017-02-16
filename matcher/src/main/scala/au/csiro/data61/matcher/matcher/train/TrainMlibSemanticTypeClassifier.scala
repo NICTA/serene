@@ -34,8 +34,8 @@ import scala.util.{Failure, Success, Try}
 case class TrainMlibSemanticTypeClassifier(classes: List[String],
                                            doCrossValidation: Boolean = false
                                           ) extends TrainSemanticTypeClassifier with LazyLogging {
-  val defaultDepth = 50
-  val defaultNumTrees = 200
+  val defaultDepth = 10
+  val defaultNumTrees = 500
   val defaultImpurity = "gini"
 
   /**
@@ -143,9 +143,9 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
       logger.info("***Pipeline model...")
       val dataRdd = spark.sparkContext.makeRDD(data, numSlices = 1)
       val dataDf = spark.createDataFrame(dataRdd, schema)
-      // for debugging puposes - verify that features are the same
+//       for debugging puposes - verify that features are the same
 //      println("***********")
-//      dataDf.show(10)      spark.createDataset()
+//      dataDf.show(10)
 //      dataDf.write.csv(s"/tmp/test/model${System.nanoTime()}.csv")
 //      println("***********")
 
@@ -180,6 +180,10 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
 
       val finalPipeline = new Pipeline()
         .setStages(Array(indexer, vecAssembler, finalModelEstimator, labelConverter))
+      // FIXME: if we have more than 400 features, this will fail!
+      if (featureNames.size > 399) {
+        logger.warn("Spark cannot handle situations when there are tooo many features!")
+      }
       finalPipeline.fit(dataDf)
     } match {
       case Success(model) =>
@@ -197,9 +201,11 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
       case Some(num: Int) => s"local[$num]"
       case _ => "local"
     }
+
     val sparkSession = SparkSession.builder
       .master(ms)
       .appName("SereneSchemaMatcher")
+//      .config("spark.sql.warehouse.dir", "file://tmp/spark-warehouse")
       .getOrCreate()
     sparkSession.conf.set("spark.executor.cores","8")
 //    val sc = new SparkConf()
@@ -252,8 +258,8 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
                               trainingSettings: TrainingSettings)(implicit spark: SparkSession)
   : List[Attribute] ={
     //resampling
-    val numBags = trainingSettings.numBags.getOrElse(5)
-    val bagSize = trainingSettings.bagSize.getOrElse(50)
+    val numBags = trainingSettings.numBags.getOrElse(50)
+    val bagSize = trainingSettings.bagSize.getOrElse(100)
     val resampledAttrs = ClassImbalanceResampler // here seeds are fixed so output will be the same on the same input
       .resample(trainingSettings.resamplingStrategy, allAttributes, labels, bagSize, numBags)
     logger.info(s"   resampled ${resampledAttrs.size} attributes")
@@ -293,7 +299,8 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     )
 
     //convert instance features into Spark Row instances
-    logger.info(s"   extracted ${features.size} features")
+    logger.info(s"   extracted ${features.size} instances")
+    logger.info(s"   feature vector size: ${featureNames.size}")
     val data: List[Row] = features
       .map {
         case (fvals, label) =>

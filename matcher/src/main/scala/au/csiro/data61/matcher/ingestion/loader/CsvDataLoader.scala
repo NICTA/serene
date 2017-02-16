@@ -87,6 +87,7 @@ case class CSVDataLoader(val id: String = "", val encoding: String = "utf-8") ex
           List.fill(attrHeaders.size)(None)
         } else { attrHeaders.map( x => Some(Metadata(x,""))) }
       } else { attrHeaders.map( x => Some(Metadata(x,""))) }
+//      val procNames =attrHeaders.map( x => Some(Metadata(x,"")))
 
       val attrIds = if(parentId.nonEmpty) {
         attrHeaders.map(attr => s"$attr@$tableName@$parentId")

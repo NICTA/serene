@@ -15,13 +15,15 @@ object SereneBuild extends Build {
     assemblyMergeStrategy in assembly := {
       case f if f.startsWith("META-INF") => MergeStrategy.discard
       case f if f.endsWith(".conf") => MergeStrategy.concat
-      case f if f.endsWith(".html") => MergeStrategy.first
-      case f if f.endsWith(".class") => MergeStrategy.first
+      case f if f.endsWith(".html") => MergeStrategy.last
+      case f if f.endsWith(".class") => MergeStrategy.last
+      case f if f.endsWith(".properties") => MergeStrategy.last
       case f =>
         val oldStrategy = (assemblyMergeStrategy in assembly).value
         oldStrategy(f)
     },
 
+    // FIXME: on encrypted file systems this workaround will not create correctly a fat jar!
     // long file names become an issue on encrypted file systems - this is a weird workaround
     scalacOptions ++= Seq("-Xmax-classfile-name", "78"),
 
@@ -29,7 +31,7 @@ object SereneBuild extends Build {
 
     test in assembly := {},
 
-//    fork := true,
+   //    fork := true,
 
     scalaVersion := "2.11.8"
   )
@@ -50,7 +52,7 @@ object SereneBuild extends Build {
 
       mainClass in assembly := Some("au.csiro.data61.core.Serene"),
 
-//      fork := true,
+      //      fork := true,
 
       assemblyJarName in assembly := s"serene-${version.value}.jar"
     )
@@ -71,6 +73,12 @@ object SereneBuild extends Build {
 //      fork := true,
       version := "1.2.0-SNAPSHOT",
 
+      test in assembly := {},
+
+      resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),
+
+      initialCommands in console in Test := "import org.specs2._",
+
       libraryDependencies ++= Seq(
         "org.specs2"              %% "specs2-core"           % "2.3.11" % Test,
         "org.specs2"              %% "specs2-matcher-extra"  % "2.3.11" % Test,
@@ -90,13 +98,8 @@ object SereneBuild extends Build {
         "org.apache.spark"        %%  "spark-sql"            % "2.1.0",
         "org.apache.spark"        %%  "spark-mllib"          % "2.1.0"
           exclude("com.chuusai", "shapeless_2.11")  // this is to remove cross-version error with new versions of spark
+          exclude("com.chuusai", "shapeless_2.11.0-M7")  // this is to remove cross-version error with new versions of spark
       ),
-
-      test in assembly := {},
-
-      resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),
-
-      initialCommands in console in Test := "import org.specs2._",
 
       //javaOptions in run ++= Seq("-Xms256M", "-Xmx2G", "-XX:MaxPermSize=1024M", "-XX:+UseConcMarkSweepGC"),
 
@@ -147,6 +150,8 @@ object SereneBuild extends Build {
           ,"junit"                      %  "junit"              % "4.12"
           ,"com.typesafe"               %  "config"             % "1.3.0"
           ,"com.github.scopt"           %% "scopt"              % "3.5.0"
+//            exclude("com.chuusai", "shapeless_2.11")  // this is to remove cross-version error with new versions of spark
+//            exclude("com.chuusai", "shapeless_2.11.0-M7")  // this is to remove cross-version error with new versions of spark
         )
       )
     .settings(jetty() : _*)

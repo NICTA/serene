@@ -188,7 +188,7 @@ object FeatureExtractorUtil extends LazyLogging {
   /**
     * Extract features for training using spark.
     * @param attributes List of attributes.
-    * @param labels Smenatic type labels.
+    * @param labels Semantic type labels.
     * @param featureExtractors List of feature extractors.
     * @param spark Implicit spark session.
     * @return
@@ -211,6 +211,8 @@ object FeatureExtractorUtil extends LazyLogging {
       import spark.implicits._
       val broadcast = spark.sparkContext.broadcast(featureExtractors)
 
+
+      // TODO: should I first RDD newAttrs? some recommend this approach in case datatypes are not simple...
       newAttrs.toDS.cache()
         .map {
           attr =>

@@ -11,7 +11,7 @@ fi
 
 pushd "$(dirname "$0")" > /dev/null
 cd ..
-sbt assembly
+sbt -J-Xmx4g assembly
 
 if [ ! -d jars ]; then
    mkdir jars
