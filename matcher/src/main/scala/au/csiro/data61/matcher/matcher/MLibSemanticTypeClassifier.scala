@@ -22,9 +22,8 @@ import java.io.{File, PrintWriter}
 import au.csiro.data61.matcher.data._
 import au.csiro.data61.matcher.matcher.features._
 import au.csiro.data61.matcher.matcher.train.TrainAliases._
-import org.apache.spark.SparkContext
-import org.apache.spark.SparkConf
 import org.apache.spark.sql._
+import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.types._
 import org.apache.spark.ml.PipelineModel
 import org.apache.spark.mllib.linalg.DenseVector
@@ -42,17 +41,17 @@ case class MLibSemanticTypeClassifier(
 
     override def predict(datasets: List[DataModel]): PredictionObject = {
         logger.info("***Prediction initialization...")
-        //initialise spark stuff
-        val conf = new SparkConf()
-          .setAppName("DataIntPrediction")
-          .setMaster("local[*]")
-          .set("spark.driver.allowMultipleContexts", "true")
-        implicit val sc = new SparkContext(conf)
-        val sqlContext = new SQLContext(sc)
+        val spark = SparkSession.builder
+          .master("spark://master:7077")
+          .appName("SereneSchemaMatcher")
+          .config("spark.executor.heartbeatInterval", "50s")
+          .getOrCreate()
+
+        implicit val sc = spark.sparkContext
 
         // get all attributes (aka columns) from the datasets
         val allAttributes: List[Attribute] = datasets
-          .flatMap({DataModel.getAllAttributes(_)})
+          .flatMap(DataModel.getAllAttributes)
         logger.info(s"   obtained ${allAttributes.size} attributes")
 
         //get feature names and construct schema
@@ -62,7 +61,7 @@ case class MLibSemanticTypeClassifier(
         })
         val schema = StructType(
             featureNames
-              .map({case n => StructField(n, DoubleType, false)})
+              .map(n => StructField(n, DoubleType, false))
               .toList
         )
 
@@ -73,8 +72,8 @@ case class MLibSemanticTypeClassifier(
         val data = features
           .map({case instFeatures => Row.fromSeq(instFeatures)})
           .toList
-        val dataRdd = sc.parallelize(data)
-        val dataDf = sqlContext.createDataFrame(dataRdd, schema)
+        val dataRdd = spark.sparkContext.parallelize(data)
+        val dataDf = spark.sqlContext.createDataFrame(dataRdd, schema)
 
         val preds = model.transform(dataDf)
 
@@ -83,31 +82,12 @@ case class MLibSemanticTypeClassifier(
           .select("probability")
           .rdd.map({ case x => x(0).asInstanceOf[DenseVector].toArray})
           .collect
-        sc.stop()
+        spark.stop()
 
-        logger.info("***Reordering elements.")
-        // we need to reorder the elements of the probability distribution array according to 'classes' and not mlib
-        // val mlibLabels = model.getEstimator.asInstanceOf[Pipeline].getStages(0).asInstanceOf[StringIndexerModel].labels
-        val mlibLabels : Array[String] = model.stages(0).asInstanceOf[StringIndexerModel].labels
-        logger.info(s"***Available mlibLabels: ${mlibLabels.toList}")
-        val newOrder : List[Int] = classes.map(mlibLabels.indexOf(_))
-        val predsReordered: Array[Array[Double]] = predsLocal
-          .map{
-              case probDist => {
-                  // 'classes.length' was used previously
-                  // the problem is that classes with 0 score do not appear in probDist
-                  (0 until classes.length).map {
-                      case i =>
-                          if (newOrder(i) >= 0) {probDist(newOrder(i))}
-                          else 0.0 // probability for this class is missing, so set it to 0
-                          //probDist(newOrder(i))
-                  }.toArray
-              }
-        }
+        val predictions = buildPredictions(model, predsLocal, allAttributes)
 
-        val predictions: Predictions = allAttributes zip predsReordered // this was returned previously by this function
         // get the class with the max score per each attribute
-        val maxClassPreds: List[(String,String,Double)] = predictions
+        val maxClassPreds: List[(String, String, Double)] = predictions
           .map { case (attr, scores) =>
             val maxIdx = scores.zipWithIndex.maxBy({_._1})._2
             val maxScore = scores(maxIdx)
@@ -120,21 +100,42 @@ case class MLibSemanticTypeClassifier(
         val predictionsFeatures: PredictionObject = aux.map{ case ((a, sc), f) => (a, sc, f)}
 
         // we save features to file here
-        derivedFeaturesPath match {
-            case Some(filePath) => saveFeatures(predictionsFeatures, featureNames, maxClassPreds, filePath)
-            case None =>
+        derivedFeaturesPath.foreach {
+            filePath => saveFeatures(predictionsFeatures, featureNames, maxClassPreds, filePath)
         }
 
         logger.info("***Prediction finished.")
         predictionsFeatures
-        //predictions // this was returned previously
+    }
+
+    def buildPredictions(model: PipelineModel,
+                         predsLocal: Array[Array[Double]],
+                         allAttributes: List[Attribute]): Predictions = {
+        logger.info("***Reordering elements.")
+        // we need to reorder the elements of the probability distribution array according to 'classes' and not mlib
+        // val mlibLabels = model.getEstimator.asInstanceOf[Pipeline].getStages(0).asInstanceOf[StringIndexerModel].labels
+        val mlibLabels: Array[String] = model.stages(0).asInstanceOf[StringIndexerModel].labels
+        logger.info(s"***Available mlibLabels: ${mlibLabels.toList}")
+        val newOrder: List[Int] = classes.map(mlibLabels.indexOf)
+        val predsReordered: Array[Array[Double]] = predsLocal
+          .map {
+              probDist => {
+                  // 'classes.length' was used previously
+                  // the problem is that classes with 0 score do not appear in probDist
+                  classes.indices.map {
+                      i => if (newOrder(i) >= 0) probDist(newOrder(i)) else 0.0 // probability for this class is missing, so set it to 0
+                  }.toArray
+              }
+          }
+
+        allAttributes zip predsReordered // this was returned previously by this function
     }
 
     def saveFeatures(attributes: List[Attribute],
                      featuresList: List[List[Any]],
                      featureNames: List[String],
                      maxClassPreds: List[(String,String,Double)], // include manual/predicted labels
-                     path: String) = {
+                     path: String): Unit = {
         logger.info("***Writing derived features to " + path)
         val out = new PrintWriter(new File(path))
 
@@ -156,7 +157,7 @@ case class MLibSemanticTypeClassifier(
     def saveFeatures(predictionsFeatures: PredictionObject,
                      featureNames: List[String],
                      maxClassPreds: List[(String,String,Double)], // include manual/predicted labels
-                     path: String) = {
+                     path: String): Unit = {
         logger.info("***Writing derived features to " + path)
         val out = new PrintWriter(new File(path))
 

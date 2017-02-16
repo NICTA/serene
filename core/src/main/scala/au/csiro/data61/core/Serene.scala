@@ -83,7 +83,7 @@ object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
   def defaultServer: ListeningServer = {
     Http.server
       .withMaxRequestSize(1999.megabytes)
-      .serve("0.0.0.0:8080", restAPI.toService)
+      .serve(s"${config.serverHost}:${config.serverPort}", restAPI.toService)
   }
 
   def main(args: Array[String]): Unit = {
