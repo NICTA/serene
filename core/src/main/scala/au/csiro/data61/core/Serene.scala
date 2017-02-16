@@ -39,7 +39,7 @@ import io.finch.json4s._
   */
 object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
 
-  val version = "0.1.0"
+  val version = getClass.getPackage.getImplementationVersion //"0.1.0"
 
   def echo(msg: String) { Console println msg }
 
@@ -100,7 +100,7 @@ object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
       |*
       |*
       |*    __|   _ \   __|  _ \   __ \   _ \
-      |*  \__  \  __/  |     __/  |   |   __/
+      |*  \__     __/  |     __/  |   |   __/
       |*  ____/ \___| _|   \___| _|  _| \___|
       |*
       |*

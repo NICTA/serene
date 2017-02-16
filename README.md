@@ -125,13 +125,13 @@ curl -X POST \
               "num-neighbours" : 3
              }, {
               "name" : "min-editdistance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }, {
               "name" : "min-wordnet-jcn-distance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }, {
               "name" : "min-wordnet-lin-distance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }
            ]
         },
@@ -181,13 +181,13 @@ curl -X POST \
               "num-neighbours" : 3
              }, {
               "name" : "min-editdistance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }, {
               "name" : "min-wordnet-jcn-distance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }, {
               "name" : "min-wordnet-lin-distance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }
            ]
         },

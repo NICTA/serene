@@ -16,23 +16,15 @@
   * limitations under the License.
   */
 
-lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
+val mainVersion = "0.1.0"
 
-  assemblyMergeStrategy in assembly := {
-    case f if f.startsWith("META-INF") => MergeStrategy.discard
-    case f if f.endsWith(".conf") => MergeStrategy.concat
-    case f if f.endsWith(".html") => MergeStrategy.first
-    case f if f.endsWith(".class") => MergeStrategy.first
-    case f if f.endsWith(".properties") => MergeStrategy.first
-    case f =>
-      val oldStrategy = (assemblyMergeStrategy in assembly).value
-      oldStrategy(f)
-  },
+/**
+  * Common Serene project settings for all projects...
+  */
+lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
 
   // long file names become an issue on encrypted file systems - this is a weird workaround
   scalacOptions ++= Seq("-Xmax-classfile-name", "78"),
-
-  test in assembly := {},
 
   scalaVersion := "2.11.8",
 
@@ -53,13 +45,8 @@ lazy val root = Project(
   .settings(commonSettings)
   .settings(
     name := "serene",
-    version := "0.1.0",
-
-    mainClass in Compile := Some("au.csiro.data61.core.Serene"),
-
-    mainClass in assembly := Some("au.csiro.data61.core.Serene"),
-
-    assemblyJarName in assembly := s"serene-${version.value}.jar"
+    version := mainVersion,
+    mainClass := Some("au.csiro.data61.core.Serene")
   )
   .aggregate(core, matcher)
   .dependsOn(core, matcher)
@@ -88,13 +75,8 @@ lazy val matcher = Project(
       "com.rubiconproject.oss"      %  "jchronic"              % "0.2.6",
       "org.json4s"                  %% "json4s-native"         % "3.2.10",
       "com.typesafe.scala-logging"  %% "scala-logging"         % "3.4.0",
-      "com.joestelmach"             %  "natty"                 % "0.8" //,
-      //"org.apache.spark"            %%  "spark-core"           % "2.1.0",
-      //"org.apache.spark"            %%  "spark-sql"            % "2.1.0",
-      //"org.apache.spark"            %%  "spark-mllib"          % "2.1.0"
+      "com.joestelmach"             %  "natty"                 % "0.8"
     ),
-
-    test in assembly := {},
 
     resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),
 
@@ -110,27 +92,23 @@ lazy val core = Project(
     id = "serene-core",
     base = file("core")
   )
-  .settings(sbtassembly.AssemblyPlugin.assemblySettings)
   .settings(commonSettings)
   .settings(
       organization := "au.csiro.data61",
       name := "serene-core",
-      version := "0.1.0",
+      version := mainVersion,
 
       outputStrategy := Some(StdoutOutput),
       scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
       resolvers += Resolver.sonatypeRepo("snapshots"),
       parallelExecution in Test := false,
 
-      test in assembly := {},
-
-      mainClass in assembly := Some("au.csiro.data61.core.Serene"),
+      mainClass := Some("au.csiro.data61.core.Serene"),
 
       libraryDependencies ++= Seq(
         "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
         ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
         ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
-        ,"ch.qos.logback"             %  "logback-classic"    % "1.1.3"            % "runtime"
         ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
         ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
         ,"commons-io"                 %  "commons-io"         % "2.5"
@@ -144,9 +122,9 @@ lazy val core = Project(
         ,"junit"                      %  "junit"              % "4.12"
         ,"com.typesafe"               %  "config"             % "1.3.0"
         ,"com.github.scopt"           %% "scopt"              % "3.5.0"
-)
+      )
     )
   .settings(jetty() : _*)
   .enablePlugins(RpmPlugin, JavaAppPackaging)
   .dependsOn(matcher)
-//}
+
