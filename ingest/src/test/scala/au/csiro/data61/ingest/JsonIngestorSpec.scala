@@ -24,12 +24,11 @@ import com.github.tototoshi.csv.CSVReader
 import org.json4s.native.JsonMethods.parse
 
 class JsonIngestorSpec extends UnitSpec {
-  private val jsonFile = new File(getClass.getResource("/s06-npg.json").toURI)
-  private val csvFile = new File(getClass.getResource("/s06-npg.csv").toURI)
-  private val schemaFile = new File(getClass.getResource("/s06-npg-schema.json").toURI)
-
   "A JsonIngestor" can "convert a JSON file to a CSV file" in {
+    val jsonFile = new File(getClass.getResource("/s06-npg.json").toURI)
+    val csvFile = new File(getClass.getResource("/s06-npg.csv").toURI)
     val tempFile = Files.createTempFile("", "").toFile
+
     JsonIngestor.convertJsonToCsv(jsonFile, tempFile)
 
     val convertedLines = CSVReader.open(tempFile).allWithHeaders()
@@ -41,8 +40,27 @@ class JsonIngestorSpec extends UnitSpec {
     )
   }
 
-  it can "extract the schema of a JSON file" in {
+  it can "convert a JSON-Lines file to a CSV file" in {
+    val jsonLinesFile = new File(getClass.getResource("/www.floridaguntrader.com.jl").toURI)
+    val csvFile = new File(getClass.getResource("/www.floridaguntrader.com.csv").toURI)
     val tempFile = Files.createTempFile("", "").toFile
+
+    JsonIngestor.convertJsonLinesToCsv(jsonLinesFile, tempFile)
+
+    val convertedLines = CSVReader.open(tempFile).allWithHeaders()
+    val expectedLines = CSVReader.open(csvFile).allWithHeaders()
+
+    assert(
+      convertedLines.size == expectedLines.size &&
+      convertedLines.toSet == expectedLines.toSet
+    )
+  }
+
+  it can "extract the schema of a JSON file" in {
+    val jsonFile = new File(getClass.getResource("/s06-npg.json").toURI)
+    val schemaFile = new File(getClass.getResource("/s06-npg-schema.json").toURI)
+    val tempFile = Files.createTempFile("", "").toFile
+
     JsonIngestor.extractSchema(jsonFile, tempFile)
 
     val extractedSchema = parse(tempFile)
