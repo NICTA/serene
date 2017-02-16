@@ -1,0 +1,84 @@
+{
+  "type": "array",
+  "elementSchema": {
+    "type": "object",
+    "objectSchema": {
+      "Classification": {
+        "type": "string"
+      },
+      "Title": {
+        "type": "string"
+      },
+      "SitterBornDiedDate": {
+        "type": "array",
+        "elementSchema": {
+          "type": "string"
+        }
+      },
+      "Description": {
+        "type": "string"
+      },
+      "Copyright": {
+        "type": "string"
+      },
+      "Medium": {
+        "type": "string"
+      },
+      "CopyAfter": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
+      ],
+      "Dimension": {
+        "type": "string"
+      },
+      "Keywords": {
+        "type": "array",
+        "elementSchema": {
+          "type": "string"
+        }
+      },
+      "Artist": {
+        "type": "string"
+      },
+      "CopyAfterDate": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
+      ],
+      "AquisitionDate": {
+        "type": "string"
+      },
+      "ArtistBornDiedDate": {
+        "type": "string"
+      },
+      "Image": {
+        "type": "string"
+      },
+      "DateOfWork": {
+        "type": "string"
+      },
+      "CreditLine": {
+        "type": "string"
+      },
+      "Owner": {
+        "type": "string"
+      },
+      "Sitter": {
+        "type": "array",
+        "elementSchema": {
+          "type": "string"
+        }
+      },
+      "Ref": {
+        "type": "string"
+      }
+    }
+  }
+}
