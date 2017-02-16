@@ -47,6 +47,9 @@ object MatcherConstants {
   val LabelHeader = List("attr_id", "class")
   val WorkspaceDir = "workspace"
   val PredictionsDir = "predictions/"
+  val FeatureExtractorFile = "features_extractors.json"
+  val PipelineFile = "pipeline.rf"
+  val FeatureImportanceFile = "feature_importances.csv"
 }
 
 /**
@@ -392,7 +395,9 @@ object ModelStorage extends Storage[ModelID, Model] {
           workspacePath = wsDir,
           featuresConfigPath = Paths.get(wsDir, MatcherConstants.FeaturesConfigFile).toString,
           costMatrixConfigPath = Paths.get(wsDir, MatcherConstants.CostMatrixFile).toString,
-          labelsDirPath = Paths.get(wsDir, MatcherConstants.LabelOutDir).toString))
+          labelsDirPath = Paths.get(wsDir, MatcherConstants.LabelOutDir).toString,
+          featureExtractorPath = Paths.get(wsDir, MatcherConstants.FeatureExtractorFile).toString,
+          pipelinePath = Paths.get(wsDir, MatcherConstants.PipelineFile).toString))
   }
 
   /**
