@@ -76,7 +76,7 @@ object ModelPredictor extends LazyLogging {
         m <- readLearnedModelFile(path.toString).toOption
       } yield m
 
-    logger.info(s"serializedmodel ${serializedModel}")
+//    logger.info(s"serializedmodel ${serializedModel}")
     val sModel = serializedModel getOrElse {
       logger.error(s"Failed to read serialized model $id")
       throw InternalException(s"Failed to read serialized model $id")
