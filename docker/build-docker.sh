@@ -23,7 +23,8 @@ fi
 #
 # Copy across the final jar and the executable...
 #
-cp jars/serene-0.1.0.jar docker/
+mkdir -p docker/jars
+cp jars/* docker/jars/
 cp bin/serene-start docker/
 
 #
@@ -44,7 +45,7 @@ fi
 #
 # clean up...
 #
-rm serene-0.1.0.jar
+rm jars/*
 rm serene-start
 
 #

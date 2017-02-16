@@ -63,7 +63,7 @@ USER $username
 RUN \
     mkdir -p bin && \
     mkdir -p jars
-COPY serene-0.1.0.jar jars/
+COPY jars/* jars/
 COPY serene-start bin/
 
 #
