@@ -27,7 +27,15 @@ import org.json4s.native.JsonMethods.{parse, pretty, render}
 import scala.collection.JavaConversions.asScalaBuffer
 import scala.collection.JavaConverters.asScalaIteratorConverter
 
+/**
+  * Contains transforms from JSON to other data formats.
+  */
 object JsonIngestor {
+  /**
+    * Converts a JSON file to a CSV file.
+    * @param jsonFile The JSON file.
+    * @param csvFile The CSV file.
+    */
   def convertJsonToCsv(jsonFile: File, csvFile: File): Unit = {
     val flatJsonObjects = flattenMax(parse(jsonFile))
     val (headers, lines, _) = toCsv(flatJsonObjects)
@@ -37,6 +45,11 @@ object JsonIngestor {
     writer.close()
   }
 
+  /**
+    * Converts a JSON-Lines file to a CSV file.
+    * @param jsonLinesFile The JSON-Lines file.
+    * @param csvFile The CSV file.
+    */
   def convertJsonLinesToCsv(jsonLinesFile: File, csvFile: File): Unit = {
     val jsonLines = Files.readAllLines(jsonLinesFile.toPath).toSeq.filterNot(_.isEmpty)
     val flatJsonObjects = jsonLines.map(parse(_)).flatMap(flattenMax)
@@ -47,6 +60,11 @@ object JsonIngestor {
     writer.close()
   }
 
+  /**
+    * Extracts the schema of a JSON file.
+    * @param jsonFile The JSON file.
+    * @param schemaFile The output schema file.
+    */
   def extractSchema(jsonFile: File, schemaFile: File): Unit = {
     val schema = JsonSchema.from(parse(jsonFile))
     val writer = new PrintWriter(schemaFile)
@@ -54,6 +72,11 @@ object JsonIngestor {
     writer.close()
   }
 
+  /**
+    * Extracts the merged schema of JSON values from a JSON-Lines file.
+    * @param jsonLinesFile The JSON-Lines file.
+    * @param schemaFile The output schema file.
+    */
   def extractMergedSchema(jsonLinesFile: File, schemaFile: File): Unit = {
     val schemas = Files
       .lines(jsonLinesFile.toPath)

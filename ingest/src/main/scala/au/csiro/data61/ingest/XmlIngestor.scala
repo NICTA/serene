@@ -25,7 +25,15 @@ import org.json4s.Xml.toJson
 
 import scala.xml.XML.loadFile
 
+/**
+  * Contains transforms from XML to other data formats.
+  */
 object XmlIngestor {
+  /**
+    * Converts a XML file to a CSV file.
+    * @param xmlFile The XML file.
+    * @param csvFile The CSV file.
+    */
   def convertToCsv(xmlFile: File, csvFile: File): Unit = {
     val json = toJson(loadFile(xmlFile))
     val flatJsonObjects = flattenMax(json)

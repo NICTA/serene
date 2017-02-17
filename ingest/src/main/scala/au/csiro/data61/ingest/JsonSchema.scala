@@ -21,18 +21,33 @@ package au.csiro.data61.ingest
 import au.csiro.data61.ingest.JsonType.JsonType
 import org.json4s._
 
+/**
+  * Represents a JSON schema.
+  * @param schemaType The JSON type that this schema describes.
+  * @param propertySchemas The schemas of properties if this schema represents a JSON object.
+  * @param elementSchemas The schemas of elements if this schema represents a JSON array.
+  * @param optionalProperties The optional properties if this schema represents a JSON object.
+  */
 case class JsonSchema(
     schemaType: JsonType,
     propertySchemas: Map[String, Seq[JsonSchema]],
     elementSchemas: Seq[JsonSchema],
     optionalProperties: Set[String])
 
+/**
+  * Contains operations for JSON schemas.
+  */
 object JsonSchema {
   val TypeFieldKey = "type"
   val OptionalFieldKey = "optional"
   val ObjectSchemaFieldKey = "objectSchema"
   val ArraySchemaFieldKey = "elementSchema"
 
+  /**
+    * Extracts the schema of a JSON value.
+    * @param jsonValue The JSON value.
+    * @return The extracted schema.
+    */
   def from(jsonValue: JValue): JsonSchema = {
     val schemaType = jsonType(jsonValue)
 
@@ -68,6 +83,21 @@ object JsonSchema {
   def merge(schema1: JsonSchema, schema2: JsonSchema): Seq[JsonSchema] =
     merge(Seq(schema1), schema2)
 
+  /**
+    * Merges a JSON schema into a collection of JSON schemas.
+    *
+    * Denoting the collection as S and the schema to be merged into S as x, the rules for merging
+    * are as follows:
+    * - If there is a schema y in S that has the same type as x, then:
+    *   - If the type is boolean, number, string or null, discard x and return S.
+    *   - If the type is object, merge x's property schemas into y's and update y's optional
+    *     properties with x's.
+    *   - If the type is array, merge x's element schemas into y's.
+    * - Otherwise, append x to S.
+    * @param schemas The collection of schemas.
+    * @param schema The schema to be merged into the collection.
+    * @return The merged collection of schemas.
+    */
   def merge(schemas: Seq[JsonSchema], schema: JsonSchema): Seq[JsonSchema] = {
     def m(origin: JsonSchema): JsonSchema = origin match {
       case JsonSchema(JsonType.Object, propertySchemas, _, optionalProperties) =>
@@ -87,7 +117,7 @@ object JsonSchema {
             )
           )
         )
-      case JsonSchema(JsonType.Array, _, elementSchemas, optionalProperties) =>
+      case JsonSchema(JsonType.Array, _, elementSchemas, _) =>
         origin.copy(
           elementSchemas = elementSchemas.foldLeft(schema.elementSchemas)(merge)
         )
@@ -107,6 +137,13 @@ object JsonSchema {
 
   def toJsonAst(schema: JsonSchema): JValue = toJsonAst(Seq(schema), false)
 
+  /**
+    * Converts a collection of JSON schemas to a JSON abstract syntax tree.
+    * @param schemas The collection of schemas.
+    * @param optional Whether the schemas are optional. This is meaningful only in recursive calls
+    *                 so defaults to false.
+    * @return The JSON abstract syntax tree representing the schemas.
+    */
   def toJsonAst(schemas: Seq[JsonSchema], optional: Boolean = false): JValue = schemas match {
     case Seq(JsonSchema(schemaType, propertySchemas, elementSchemas, optionalProperties)) =>
       val typeField = JField(TypeFieldKey, JString(schemaType.toString))

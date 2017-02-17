@@ -22,9 +22,21 @@ import org.json4s.{JArray, JField, JNothing, JNull, JObject, JValue}
 
 import scala.annotation.tailrec
 
+/**
+  * Contains transformation methods for JSON values.
+  */
 object JsonTransforms {
   val UnknownHeader = "$$$Unknown$$$"
 
+  /**
+    * Tests if a JSON value is flat.
+    *
+    * The following JSON values are considered flat:
+    * - Boolean, number, string and null values
+    * - Object values without array or object properties
+    * @param jsonValue The JSON value.
+    * @return true if the JSON value is flat.
+    */
   def flat(jsonValue: JValue): Boolean = jsonValue match {
     case jsonObject @ JObject(_) => !(jsonObject.obj exists {
       case (_, JArray(_)) => true
@@ -35,9 +47,14 @@ object JsonTransforms {
     case _ => true
   }
 
+  /**
+    * Flattens a JSON value iteratively until all results are flat JSON values.
+    * @param jsonValue The JSON value.
+    * @return The collection of flat JSON values.
+    */
   def flattenMax(jsonValue: JValue): Seq[JValue] = flattenMax(flatten(jsonValue))
 
-  def flattenMax(jsonObjects: Seq[JValue]): Seq[JValue] = {
+  def flattenMax(jsonValues: Seq[JValue]): Seq[JValue] = {
     @tailrec
     def f(xs: Seq[JValue], ys: Seq[JValue]): Seq[JValue] = xs match {
       case Nil => ys
@@ -46,10 +63,15 @@ object JsonTransforms {
         f(partition._2, partition._1 ++ ys)
     }
 
-    val partition = jsonObjects.partition(flat)
+    val partition = jsonValues.partition(flat)
     f(partition._2, partition._1)
   }
 
+  /**
+    * Flattens a JSON value so that its depth is reduced at most by 1.
+    * @param jsonValue The JSON value.
+    * @return The collection of flattened JSON values.
+    */
   def flatten(jsonValue: JValue): Seq[JValue] = jsonValue match {
     case jsonObject @ JObject(_) => flattenObject(jsonObject)
     case JArray(values) => values
@@ -121,6 +143,16 @@ object JsonTransforms {
       case (key, value) => Seq((key, value))
     })
 
+  /**
+    * Converts a collection of JSON values to CSV lines.
+    *
+    * This method will convert only JSON objects to CSV lines. Other types of JSON values are
+    * filtered out and returned as part of the result.
+    * @param jsonValues The JSON values.
+    * @return A tuple with 3 elements. The first element is the headers of the CSV lines, extracted
+    *         from the keys of the JSON objects. The second element is the CSV lines. The third
+    *         element is the non-object JSON values filtered out.
+    */
   def toCsv(jsonValues: Seq[JValue]): (Seq[String], Seq[Seq[String]], Seq[JValue]) = {
     val jsonObjects = jsonValues collect { case x @ JObject(_) => x }
 
