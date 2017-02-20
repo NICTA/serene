@@ -17,9 +17,10 @@
   */
 package au.csiro.data61.core.storage
 
-import java.io.File
+import java.io.{FileInputStream, File}
 import au.csiro.data61.core.Serene
 import au.csiro.data61.core.types.ModelerTypes.{AlignmentID, Alignment}
+import org.json4s.jackson.JsonMethods._
 
 /**
   * AlignmentStorage holds the Alignment objects in a key-value store
@@ -30,4 +31,7 @@ object AlignmentStorage extends Storage[AlignmentID, Alignment] {
 
   override def rootDir: String = new File(Serene.config.datasetStorageDir).getAbsolutePath
 
+  def extract(stream: FileInputStream): Alignment = {
+    parse(stream).extract[Alignment]
+  }
 }

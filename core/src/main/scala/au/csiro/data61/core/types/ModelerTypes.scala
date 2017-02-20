@@ -42,7 +42,7 @@ object ModelerTypes {
     */
   case class Alignment(id: AlignmentID,
                        ontologies: List[Owl],
-                       ssds: List[SsdID])
+                       ssds: List[SsdID]) extends Identifiable[AlignmentID]
 
   /**
     * Owl is a reference to the Owl file storage
@@ -51,7 +51,7 @@ object ModelerTypes {
     * @param path The path to the OWL file
     */
   case class Owl(id: OwlID,
-                 path: Path)
+                 path: Path) extends Identifiable[OwlID]
 
   /**
     * SSD is the Semantic Source Description object
@@ -62,6 +62,6 @@ object ModelerTypes {
     */
   case class SSD(id: SsdID,
                  ontologies: List[Owl],
-                 dataSet: DataSetID)
+                 dataSet: DataSetID) extends Identifiable[SsdID]
 
 }
