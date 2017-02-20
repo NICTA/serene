@@ -86,6 +86,24 @@ lazy val matcher = Project(
   )
 
 /**
+  * Semantic Modeler module
+  */
+lazy val modeler = Project(
+    id = "serene-modeler",
+    base = file("modeler")
+  )
+  .settings(commonSettings)
+  .settings(
+    name := "serene-modeler",
+    organization := "au.csiro.data61",
+    version := mainVersion,
+    libraryDependencies ++= Seq(
+
+    )
+  ).dependsOn(matcher)
+
+
+/**
   * Serene Core module. Contains glue code, servers and communications...
   */
 lazy val core = Project(
@@ -126,5 +144,5 @@ lazy val core = Project(
     )
   .settings(jetty() : _*)
   .enablePlugins(RpmPlugin, JavaAppPackaging)
-  .dependsOn(matcher)
+  .dependsOn(matcher, modeler)
 

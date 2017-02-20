@@ -28,14 +28,14 @@ import scala.language.postfixOps
  */
 object AlignmentAPI extends RestAPI {
 
-  val status: Endpoint[StatusMessage] = get(APIVersion :: "alignment") {
+  val alignmentRoot: Endpoint[StatusMessage] = get(APIVersion :: "alignment") {
     Ok(StatusMessage("Not Implemented"))
   }
 
-  val statusSingle: Endpoint[StatusMessage] = get(APIVersion :: "alignment" :: "1") {
-    Ok(StatusMessage("Not Implemented"))
+  val alignmentGet: Endpoint[StatusMessage] = get(APIVersion :: "alignment" :: int) {
+    (id: Int) =>
+      Ok(StatusMessage("Not Implemented"))
   }
 
-  val endpoints = status :+: statusSingle
-
+  val endpoints = alignmentRoot :+: alignmentGet
 }

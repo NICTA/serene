@@ -74,7 +74,6 @@ object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
         logger.error(s"Error: ${e.getMessage}")
         InternalServerError(e)
     }
-
   }
 
   // the server address

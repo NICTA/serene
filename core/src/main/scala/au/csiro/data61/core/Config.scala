@@ -36,6 +36,7 @@ case class ConfigArgs(storagePath: Option[String] = None,
 case class Config(storagePath: String,
                   datasetStorageDir: String,
                   modelStorageDir: String,
+                  alignmentStorageDir: String,
                   serverHost: String,
                   serverPort: Int,
                   numWorkers: Option[Int],
@@ -130,37 +131,57 @@ object Config extends LazyLogging {
       case Some((parallel: Boolean, num: Int)) =>
         if (num < 1) {
           (None, parallel)
-        } else {(Some(num), parallel)}
+        } else {
+          (Some(num), parallel)
+        }
       case _ =>
         (processSparkNumWorkers(conf), processParallelFeatureExtraction(conf))
     }
 
     val storagePath = userArgs.storagePath.getOrElse(defaultStoragePath)
+
+    val (dataSetStorageDir, modelStorageDir, alignmentStorageDir) = buildStoragePaths(conf, storagePath)
+
     val serverHost = userArgs.serverHost.getOrElse(defaultServerHost)
     val serverPort = userArgs.serverPort.getOrElse(defaultServerPort.toInt)
-
-    // The model and dataset location are calculated differently, they
-    // are subdirectories of the storage location and are not available
-    // to the user...
-    val DatasetDirName = conf.getString("config.output-dataset-dir")
-    val ModelDirName = conf.getString("config.output-model-dir")
-
-    val dataSetStorageDir = s"$storagePath/$DatasetDirName"
-    val modelStorageDir = s"$storagePath/$ModelDirName"
-
-    logger.info(s"Starting Server at host=$serverHost port=$serverPort")
-    logger.info(s"Storage path at $storagePath")
-    logger.info(s"Dataset repository at $dataSetStorageDir")
-    logger.info(s"Model repository at $modelStorageDir")
+    logger.info(s"Server assigned to host=$serverHost port=$serverPort")
 
     Config(
       storagePath = storagePath,
       datasetStorageDir = dataSetStorageDir,
       modelStorageDir = modelStorageDir,
+      alignmentStorageDir = alignmentStorageDir,
       serverHost = serverHost,
       serverPort = serverPort,
       numWorkers = numWorkers,
       parallelFeatureExtraction = parallelFeatureExtraction
     )
+  }
+
+  /**
+    * Helper function to extract the storage paths from the file...
+    *
+    * @param conf The configuration object
+    * @param storagePath The root storage path previously extracted
+    * @return
+    */
+  protected def buildStoragePaths(conf: com.typesafe.config.Config,
+                        storagePath: String): (String, String, String) = {
+    // The model and dataset location are calculated differently, they
+    // are subdirectories of the storage location and are not available
+    // to the user...
+    val DatasetDirName = conf.getString("config.output-dataset-dir")
+    val ModelDirName = conf.getString("config.output-model-dir")
+    val AlignmentDirName = conf.getString("config.output-alignment-dir")
+
+    val dataSetStorageDir = s"$storagePath/$DatasetDirName"
+    val modelStorageDir = s"$storagePath/$ModelDirName"
+    val alignmentStorageDir = s"$storagePath/$AlignmentDirName"
+
+    logger.info(s"Storage path at $storagePath")
+    logger.info(s"Dataset repository at $dataSetStorageDir")
+    logger.info(s"Model repository at $modelStorageDir")
+
+    (dataSetStorageDir, modelStorageDir, alignmentStorageDir)
   }
 }
