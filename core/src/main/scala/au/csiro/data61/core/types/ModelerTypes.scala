@@ -36,9 +36,9 @@ object ModelerTypes {
   /**
     * Alignment
     *
-    * @param id
-    * @param ontologies
-    * @param ssds
+    * @param id The ID key for the alignment
+    * @param ontologies The ontologies used for the alignment
+    * @param ssds The list of SSDs for the data integration alignment
     */
   case class Alignment(id: AlignmentID,
                        ontologies: List[Owl],
