@@ -22,7 +22,7 @@ import java.io.{File, FileInputStream, IOException, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.api.DatasetAPI._
-import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.core.types.MatcherTypes.{Model, ModelID}
 import au.csiro.data61.core.types._
 import au.csiro.data61.core.drivers.{ModelPredictor, ModelTrainer}
 import au.csiro.data61.core.{Serene, Config}

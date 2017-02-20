@@ -23,7 +23,7 @@ import java.nio.file.{Path, Paths}
 import au.csiro.data61.core.api.InternalException
 import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
 import au.csiro.data61.core.types.DataSetTypes.DataSetID
-import au.csiro.data61.core.types.ModelTypes.ModelID
+import au.csiro.data61.core.types.MatcherTypes.ModelID
 import au.csiro.data61.core.types._
 import au.csiro.data61.matcher.ingestion.loader.CSVDataLoader
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier

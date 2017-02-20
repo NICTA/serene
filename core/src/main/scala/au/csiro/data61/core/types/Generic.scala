@@ -19,7 +19,7 @@ package au.csiro.data61.core.types
 
 import java.nio.file.{Paths, Path}
 
-import au.csiro.data61.core.types.ModelTypes.StatusSerializer
+import au.csiro.data61.core.types.MatcherTypes.StatusSerializer
 import org.json4s._
 
 /**

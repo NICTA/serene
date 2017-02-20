@@ -20,6 +20,7 @@ package au.csiro.data61.core.types
 import java.nio.file.Path
 
 import au.csiro.data61.core.types.DataSetTypes.DataSetID
+import au.csiro.data61.core.types.MatcherTypes.ModelID
 
 
 /**
@@ -41,6 +42,7 @@ object ModelerTypes {
     * @param ssds The list of SSDs for the data integration alignment
     */
   case class Alignment(id: AlignmentID,
+                       modelID: ModelID,
                        ontologies: List[Owl],
                        ssds: List[SsdID]) extends Identifiable[AlignmentID]
 

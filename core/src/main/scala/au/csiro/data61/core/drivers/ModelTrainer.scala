@@ -26,7 +26,7 @@ import au.csiro.data61.core.storage.ModelStorage._
 import au.csiro.data61.core.{Serene, Config}
 import au.csiro.data61.core.storage.{DatasetStorage, MatcherConstants, ModelStorage}
 import au.csiro.data61.core.types.{MatcherJsonFormats, ModelFeatureExtractors}
-import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.core.types.MatcherTypes.{Model, ModelID}
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features._
 import com.typesafe.scalalogging.LazyLogging

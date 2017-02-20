@@ -20,7 +20,7 @@ package au.csiro.data61.core.types
 import java.nio.file.Path
 
 import au.csiro.data61.core.types.DataSetTypes.DataSetID
-import au.csiro.data61.core.types.ModelTypes.ModelID
+import au.csiro.data61.core.types.MatcherTypes.ModelID
 import org.joda.time.DateTime
 import org.json4s._
 
@@ -29,7 +29,7 @@ import scala.language.postfixOps
 /**
   * Collection of Types used for the Model and ModelAPI classes
   */
-object ModelTypes {
+object MatcherTypes {
 
   case class Model(description: String,
                    id: ModelID,
