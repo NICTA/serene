@@ -47,7 +47,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     * @param spark Implicit Spark session object
     * @return
     */
-  def preprocessAttributes(resampledAttrs: List[Attribute],
+  protected def preprocessAttributes(resampledAttrs: List[Attribute],
                            parallelFeatureExtraction: Boolean = true)(implicit spark: SparkSession)
   : List[PreprocessedAttribute] = {
     val preprocessor = DataPreprocessor()
@@ -80,7 +80,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     * @param datadDf
     * @return
     */
-  def performCrossValidation(indexer: StringIndexerModel,
+  protected def performCrossValidation(indexer: StringIndexerModel,
                              vectorAssembler: VectorAssembler,
                              labelConverter: IndexToString,
                              datadDf: DataFrame
@@ -132,7 +132,15 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     (bestDepth, bestNumTrees, bestImpurity)
   }
 
-  def getPipelineModel(data: List[Row],
+  /**
+    * Costruct Spark Pipeline Model and train it.
+    * @param data Training data converted to Spark Rows.
+    * @param schema Schema of the data.
+    * @param featureNames List of feature names.
+    * @param spark Implicit Spark Session.
+    * @return
+    */
+  protected def getPipelineModel(data: List[Row],
                        schema: StructType,
                        featureNames: List[String]
                       )(implicit spark: SparkSession): PipelineModel = {
@@ -195,7 +203,13 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     }
   }
 
-  def setUpSpark(numWorkers: Option[Int] = None): SparkSession = {
+  /**
+    * Initialize SparkSession for the training.
+    * This is standalone local spark setting.
+    * @param numWorkers Number of cores to be used for spark initialization.
+    * @return
+    */
+  protected def setUpSpark(numWorkers: Option[Int] = None): SparkSession = {
     val ms: String = numWorkers match {
       case Some(0) => s"local" // should it rather be [*]?
       case Some(num: Int) => s"local[$num]"
@@ -221,7 +235,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     * @param spark implicit spark session
     * @return
     */
-  def extractModelFeatures(preprocessedAttributes: List[Attribute],
+  protected def extractModelFeatures(preprocessedAttributes: List[Attribute],
                            labels: SemanticTypeLabels,
                            featureExtractors: List[FeatureExtractor],
                            parallelFeatureExtraction: Boolean
@@ -244,7 +258,15 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     (features,featureNames)
   }
 
-  def resampleModelAttributes(allAttributes: List[Attribute],
+  /**
+    * Helper funciton to perform resampling of the original attributes.
+    * @param allAttributes List of attributes from the provided data sources.
+    * @param labels List of semantic labels specified for the project.
+    * @param trainingSettings Parameters for the model to be trained.
+    * @param spark Implicit SparkSession
+    * @return
+    */
+  protected def resampleModelAttributes(allAttributes: List[Attribute],
                               labels: SemanticTypeLabels,
                               trainingSettings: TrainingSettings)(implicit spark: SparkSession)
   : List[Attribute] ={
