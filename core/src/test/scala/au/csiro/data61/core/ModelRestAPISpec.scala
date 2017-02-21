@@ -1091,31 +1091,18 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 //        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
 //      } yield (dataLearnt, dataCor) ) match {
 //        case Success((data, cor)) =>
-//          println(1234)
 //
 //          assert(data.classes === cor.classes)
 //          val rfModel_new = data.model.stages(2).asInstanceOf[RandomForestClassificationModel]
 //          val rfModel_one = cor.model.stages(2).asInstanceOf[RandomForestClassificationModel]
 //
-//          println(1235)
 //          assert(rfModel_new.numClasses === rfModel_one.numClasses)
-//
-//          println(1236)
 //          assert(rfModel_new.numFeatures === rfModel_one.numFeatures)
-//
-//          println(1237)
 //          assert(rfModel_new.treeWeights === rfModel_one.treeWeights)
-//
-//          println(1238)
 //          assert(rfModel_new.totalNumNodes === rfModel_one.totalNumNodes)
-//
-//          println(1239)
 //          assert(rfModel_new.featureImportances === rfModel_one.featureImportances)
-//
-//          println(1240)
 //          assert(data.featureExtractors === cor.featureExtractors)
 //
-//          println(1234)
 //        case Failure(err) =>
 //          throw new Exception(err.getMessage)
 //      }

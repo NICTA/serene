@@ -77,13 +77,13 @@ object ModelPredictor extends LazyLogging with MatcherJsonFormats {
       for {
         // read in the learned model
         stored <- ModelStorage.get(id)
+
         path <- stored.modelPath
-//        path <- stored.defaultModelPath
+
         m <- readLearnedModelFile(path.toString).toOption
-//        m <- getSerializableMLib(id).toOption
+
       } yield m
 
-//    logger.info(s"serializedmodel ${serializedModel}")
     val sModel = serializedModel getOrElse {
       logger.error(s"Failed to read serialized model $id")
       throw InternalException(s"Failed to read serialized model $id")
@@ -100,52 +100,6 @@ object ModelPredictor extends LazyLogging with MatcherJsonFormats {
       }
   }
 
-  def readFeatureExtractors(id: ModelID): List[FeatureExtractor] = {
-    logger.info(s"Reading model feature extractors for $id")
-    val path = Paths.get(ModelStorage.identifyPaths(id).get.featureExtractorPath)
-    val modelFeatureExractors = Try {
-      val stream = new FileInputStream(path.toFile)
-      parse(stream).extract[ModelFeatureExtractors]
-    } match {
-      case Success(value) =>
-        value
-      case Failure(err) =>
-        logger.error(s"Failed to read file: ${err.getMessage}")
-        throw InternalException(s"Failed to read file: ${err.getMessage}")
-    }
-    modelFeatureExractors.featureExtractors
-  }
-
-  def getSerializableMLib(id: ModelID): Try[SerializableMLibClassifier] = {
-    Try {
-      val filePath = Paths.get(ModelStorage.identifyPaths(id).get.pipelinePath).toString
-      logger.info(s"Reading learned pipeline file ${filePath}")
-      val pipeline: PipelineModel =
-        (for {
-          fs <- Try {
-            new FileInputStream(filePath)
-          }
-          learned = new ObjectInputStreamWithCustomClassLoader(fs)
-          data <- Try {
-            learned.readObject.asInstanceOf[PipelineModel]
-          }
-        } yield data) match {
-          case Success(pipe) =>
-            logger.info("Pipeline model has been successfully read")
-            pipe
-          case Failure(err) =>
-            logger.info(s"Pipeline model reading failed with $err")
-            throw InternalException(s"Pipeline model reading failed with ${err.getMessage}")
-        }
-      val curModel = ModelStorage.get(id).get
-
-      SerializableMLibClassifier(model = pipeline,
-        classes = curModel.classes,
-        featureExtractors = readFeatureExtractors(id),
-        postProcessingConfig = None)
-    }
-  }
-
   /**
     * Reads the file with the serialized MLib classifier and returns it.
     *
@@ -153,7 +107,7 @@ object ModelPredictor extends LazyLogging with MatcherJsonFormats {
     * @return Serialized Mlib classifier wrapped in Option
     */
   protected def readLearnedModelFile(filePath: String) : Try[SerializableMLibClassifier] = {
-    logger.info(s"Reading learned model file ${filePath}")
+    logger.info(s"Reading learned model file $filePath")
     for {
       fs <- Try {
         new FileInputStream(filePath)
@@ -197,11 +151,6 @@ object ModelPredictor extends LazyLogging with MatcherJsonFormats {
     logger.info("   starting with csv reading for prediction...")
     val absFilePath = Paths.get(dsPath.getParent.toString, dsPath.getFileName.toString).toString
     val dataset = CSVDataLoader().load(absFilePath)
-
-//    val dataset = CSVHierarchicalDataLoader().readDataSet(
-//      dsPath.getParent.toString,
-//      dsPath.getFileName.toString
-//    )
 
     logger.info("   csv file for prediction has been read!")
 
