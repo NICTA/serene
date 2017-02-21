@@ -205,18 +205,9 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     val sparkSession = SparkSession.builder
       .master(ms)
       .appName("SereneSchemaMatcher")
-//      .config("spark.sql.warehouse.dir", "file://tmp/spark-warehouse")
       .getOrCreate()
     sparkSession.conf.set("spark.executor.cores","8")
-//    val sc = new SparkConf()
-//    sparkSession.conf.set( "spark.serializer", "org.apache.spark.serializer.KryoSerializer" )
-//    sc.registerKryoClasses(Array(classOf[Attribute],
-//      classOf[DataModel],
-//      classOf[PreprocessedAttribute]))
-//    sparkSession.conf.set("spark.driver.allowMultipleContexts", "true")
-//    sparkSession.conf.set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
-//    sparkSession.conf.set("spark.network.timeout", "800s")
-//    sparkSession.conf.set("spark.executor.heartbeatInterval", "20s")
+
     sparkSession
   }
 
@@ -274,7 +265,6 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
                      parallelFeatureExtraction: Boolean = true
                     ): MLibSemanticTypeClassifier = {
     logger.info(s"***Training initialization for classes: $classes...")
-
     //initialise spark stuff
     implicit val spark = setUpSpark(numWorkers)
 
