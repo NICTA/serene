@@ -280,4 +280,5 @@ To run individual module tests, refer to the module name e.g.
 ```
 sbt serene-core/test
 sbt serene-matcher/test
+sbt serene-modeler/test
 ```
