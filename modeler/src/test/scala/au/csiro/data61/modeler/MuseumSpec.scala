@@ -23,7 +23,7 @@ import java.io.{File, FileInputStream, PrintWriter}
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Paths}
 
-import au.csiro.data61.matcher.types.ColumnTypes._
+import au.csiro.data61.types.ColumnTypes._
 import org.jgrapht.graph.DirectedWeightedMultigraph
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
@@ -38,16 +38,15 @@ import scala.util.{Failure, Success, Try}
 import edu.isi.karma.modeling.alignment.learner.ModelReader
 import edu.isi.karma.modeling.research.Params
 import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
-import au.csiro.data61.matcher.types.{ColumnPrediction, DataSetPrediction}
-import au.csiro.data61.modeler.types._
+import au.csiro.data61.types._
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
-import au.csiro.data61.modeler.types.SSDTypes._
+import au.csiro.data61.types.SSDTypes._
 
 /**
   * Created by natalia on 14/11/16.
   */
 @RunWith(classOf[JUnitRunner])
-class MuseumSpec extends FunSuite with ModellerJsonFormats with BeforeAndAfterEach with LazyLogging{
+class MuseumSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging{
 
   val ssdDir = getClass.getResource("/ssd").getPath
   val karmaDir = getClass.getResource("/karma").getPath

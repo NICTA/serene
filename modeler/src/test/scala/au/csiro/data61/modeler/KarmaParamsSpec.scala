@@ -20,10 +20,8 @@ package au.csiro.data61.modeler
 
 import java.io
 import java.io.FileInputStream
-import java.nio.file.Paths
+import java.nio.file.{Path, Paths}
 
-import au.csiro.data61.core.storage.SSDStorage
-import au.csiro.data61.core.types.{SSDLabel, SSDLink, SSDNode, SemanticSourceDesc}
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
@@ -34,8 +32,9 @@ import scala.util.{Failure, Success, Try}
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 import com.typesafe.scalalogging.LazyLogging
-import au.csiro.data61.modeler.types._
+import au.csiro.data61.types._
 import au.csiro.data61.modeler.karma.KarmaParams
+import au.csiro.data61.types.Exceptions.ModelerException
 import edu.isi.karma.rep.alignment.ColumnNode
 import edu.isi.karma.webserver.ServletContextParameterMap.ContextParameter
 
@@ -44,15 +43,29 @@ import edu.isi.karma.webserver.ServletContextParameterMap.ContextParameter
   */
 
 @RunWith(classOf[JUnitRunner])
-class KarmaParamsSpec extends FunSuite with ModellerJsonFormats with BeforeAndAfterEach with LazyLogging {
+class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging {
 
   val ssdDir = getClass.getResource("/ssd").getPath
   val karmaDir = getClass.getResource("/karma").getPath
+  val alignmentDir = Paths.get("/tmp/test-ssd", "alignment") toString
   def exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
   def exampleKarmaSSD: String = Paths.get(karmaDir,"businessInfo.csv.model.json") toString
   def exampleSM: String = Paths.get(ssdDir,"semantic_model_example.json") toString
+  def exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.owl") toString
 
-  var karmaWrapper = KarmaParams()
+  var knownSSDs: List[SemanticSourceDesc] = List()
+  var karmaWrapper = KarmaParams(alignmentDir, List(), None)
+
+  def removeAll(path: Path): Unit = {
+    def getRecursively(f: Path): Seq[Path] =
+      f.toFile.listFiles
+        .filter(_.isDirectory)
+        .flatMap { x => getRecursively(x.toPath) } ++
+        f.toFile.listFiles.map(_.toPath)
+    getRecursively(path).foreach { f =>
+      if (!f.toFile.delete) {throw ModelerException(s"Failed to delete ${f.toString}")}
+    }
+  }
 
   override def beforeEach(): Unit = {
     Try {
@@ -60,16 +73,19 @@ class KarmaParamsSpec extends FunSuite with ModellerJsonFormats with BeforeAndAf
       parse(stream).extract[SemanticSourceDesc]
     } match {
       case Success(ssd) =>
-        SSDStorage.add(ssd.id, ssd)
+        knownSSDs = List(ssd)
       case Failure(err) =>
         fail(err.getMessage)
     }
-    karmaWrapper = KarmaParams()
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
   }
 
   override def afterEach(): Unit = {
-    SSDStorage.removeAll()
+    knownSSDs = List()
     karmaWrapper.deleteKarma()
+    // we need to clean the alignmentDir
+    removeAll(Paths.get(alignmentDir))
+
   }
 
   /**
@@ -134,7 +150,7 @@ class KarmaParamsSpec extends FunSuite with ModellerJsonFormats with BeforeAndAf
 
   test("Karma tool initialization"){
     assert(Paths.get(karmaWrapper.karmaContextParameters.getParameterValue(ContextParameter.USER_DIRECTORY_PATH))
-      === Paths.get(Config.KarmaDir))
+      === Paths.get(ModelerConfig.KarmaDir))
     // randomly checking one of the values... which can randomly change :)
     assert(karmaWrapper.karmaModelingConfiguration.getDefaultProperty === "http://schema.org/name")
 
@@ -146,7 +162,7 @@ class KarmaParamsSpec extends FunSuite with ModellerJsonFormats with BeforeAndAf
 
   test("Prefix map") {
     assert(karmaWrapper.prefixMap.size === 5)
-    assert(karmaWrapper.prefixMap.get("serene-default") === Some(Config.DefaultNamespace))
+    assert(karmaWrapper.prefixMap.get("serene-default") === Some(TypeConfig.DefaultNamespace))
   }
 
   test("Successful conversion of Karma Graph to our SemanticModel") {
@@ -158,12 +174,12 @@ class KarmaParamsSpec extends FunSuite with ModellerJsonFormats with BeforeAndAf
   }
 
   test("Successful conversion of KarmaSemanticModel to our SemantciSourceDesc") {
-    assert(SSDStorage.ontologies.size === 1)
+    assert(knownSSDs.flatMap(_.ontology).size === 1)
     assert(karmaWrapper.ontologies.size === 1)
     val model = karmaWrapper.readKarmaModelJson(exampleKarmaSSD)
-    val ssd = model.toSSD(1, "businessInfo.csv")
+    val ssd = model.toSSD(1, TypeConfig.SSDVersion, List(1), "businessInfo.csv")
 
-    assert(ssd.version === Config.SSDVersion)
+    assert(ssd.version === TypeConfig.SSDVersion)
     assert(ssd.isComplete === true)
     assert(ssd.isConsistent === true)
     assert(ssd.ontology.size === 1)
@@ -175,7 +191,7 @@ class KarmaParamsSpec extends FunSuite with ModellerJsonFormats with BeforeAndAf
 
   test("Successful conversion of converted SemanticModel to Karma Graph") {
     val model = karmaWrapper.readKarmaModelJson(exampleKarmaSSD)
-    val ssd = model.toSSD(1, "businessInfo.csv")
+    val ssd = model.toSSD(1, TypeConfig.SSDVersion, List(1), "businessInfo.csv")
     val semModel = model.karmaSM.toSemanticModel
     val karmaGraph = ssd.mappings match {
       case Some(maps) =>
@@ -190,7 +206,7 @@ class KarmaParamsSpec extends FunSuite with ModellerJsonFormats with BeforeAndAf
   }
 
   test("Successful conversion of example SemanticModel to Karma Graph") {
-    val ssd: SemanticSourceDesc = SSDStorage.get(0) match {
+    val ssd: SemanticSourceDesc = knownSSDs.headOption match {
       case Some(s: SemanticSourceDesc) => s
       case _ => fail("SSD should be in the Storage!")
     }
@@ -223,11 +239,11 @@ class KarmaParamsSpec extends FunSuite with ModellerJsonFormats with BeforeAndAf
 
   test("Successful conversion of converted SemantciSourceDesc to KarmaSemanticModel") {
     val model = karmaWrapper.readKarmaModelJson(exampleKarmaSSD)
-    val ssd: SemanticSourceDesc = model.toSSD(1, "businessInfo.csv")
+    val ssd: SemanticSourceDesc = model.toSSD(1, TypeConfig.SSDVersion, List(1), "businessInfo.csv")
 
     val karmaConversion = ssd.toKarmaSemanticModel(karmaWrapper.karmaWorkspace.getOntologyManager)
     val ssdConversion: SemanticSourceDesc = karmaConversion match {
-      case Some(converted) => converted.toSSD(1, "businessInfo.csv")
+      case Some(converted) => converted.toSSD(1, TypeConfig.SSDVersion, List(1), "businessInfo.csv")
       case None =>
         fail("Converting to Karma Semantic model failed.")
     }
@@ -243,14 +259,14 @@ class KarmaParamsSpec extends FunSuite with ModellerJsonFormats with BeforeAndAf
   }
 
   test("Successful conversion of example SemanticSourceDesc to KarmaSemanticModel") {
-    val ssd: SemanticSourceDesc = SSDStorage.get(0) match {
+    val ssd: SemanticSourceDesc = knownSSDs.headOption match {
       case Some(s: SemanticSourceDesc) => s
       case _ => fail("SSD should be in the Storage!")
     }
 
     val karmaConversion = ssd.toKarmaSemanticModel(karmaWrapper.karmaWorkspace.getOntologyManager)
-    val ssdConversion = karmaConversion match {
-      case Some(converted) => converted.toSSD(ssd.id, ssd.name)
+    val ssdConversion: SemanticSourceDesc = karmaConversion match {
+      case Some(converted) => converted.toSSD(ssd.id, TypeConfig.SSDVersion, List(1), ssd.name)
       case None =>
         fail("Converting to Karma Semantic model failed.")
     }

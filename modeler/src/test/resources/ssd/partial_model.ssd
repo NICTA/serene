@@ -59,7 +59,7 @@
         }
     ],
     "ontology": [
-        "/home/rue009/Projects/DFAT/SchemaMapping/Transformations/tests/example/dataintegration_report_ontology.owl"
+        1
     ],
          "semanticModel": {
              "nodes": [

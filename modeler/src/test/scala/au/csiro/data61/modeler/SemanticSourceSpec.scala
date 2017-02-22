@@ -21,8 +21,6 @@ import java.io
 import java.io.FileInputStream
 import java.nio.file.Paths
 
-import au.csiro.data61.core.types.{SSDLabel, SSDLink, SSDNode, SemanticModel, _}
-import au.csiro.data61.matcher.types.ColumnTypes.ColumnID
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
@@ -34,7 +32,8 @@ import org.json4s.jackson.JsonMethods._
 import com.typesafe.scalalogging.LazyLogging
 
 import scalax.collection.Graph
-import au.csiro.data61.modeler.types._
+import au.csiro.data61.types._
+import au.csiro.data61.types.ColumnTypes.ColumnID
 
 
 /**
@@ -42,7 +41,7 @@ import au.csiro.data61.modeler.types._
   */
 
 @RunWith(classOf[JUnitRunner])
-class SemanticSourceSpec  extends FunSuite with ModellerJsonFormats with BeforeAndAfterEach with LazyLogging {
+class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging {
 
   val ssdDir = getClass.getResource("/ssd").getPath
 
@@ -105,12 +104,12 @@ class SemanticSourceSpec  extends FunSuite with ModellerJsonFormats with BeforeA
   }
 
   test("Successful creation of SSD"){
-    val ssd = SemanticSourceDesc( version = Config.SSDVersion,
+    val ssd = SemanticSourceDesc( version = TypeConfig.SSDVersion,
       name = "test",
       id = 1,
       columns = List(dummyCol),
       attributes = List(dummyAttr),
-      ontology = List(dummyOntol),
+      ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
       mappings = Some(dummyMap))
 
@@ -119,12 +118,12 @@ class SemanticSourceSpec  extends FunSuite with ModellerJsonFormats with BeforeA
   }
 
   test("Inconsistent SSD: attributes are inconsistent") {
-    val ssd = SemanticSourceDesc(version = Config.SSDVersion,
+    val ssd = SemanticSourceDesc(version = TypeConfig.SSDVersion,
       name = "test",
       id = 1,
       columns = List(dummyCol),
       attributes = List(dummyAttr, dummyAttr2), // attributes are inconsistent
-      ontology = List(dummyOntol),
+      ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
       mappings = Some(dummyMap))
 
@@ -133,12 +132,12 @@ class SemanticSourceSpec  extends FunSuite with ModellerJsonFormats with BeforeA
   }
 
   test("Inconsistent SSD: mappings are inconsistent") {
-    val ssd2 = SemanticSourceDesc(version = Config.SSDVersion,
+    val ssd2 = SemanticSourceDesc(version = TypeConfig.SSDVersion,
       name = "test",
       id = 1,
       columns = List(dummyCol),
       attributes = List(dummyAttr),
-      ontology = List(dummyOntol),
+      ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
       mappings = Some(dummyMap2)) // mappings are inconsistent
 
@@ -147,12 +146,12 @@ class SemanticSourceSpec  extends FunSuite with ModellerJsonFormats with BeforeA
   }
 
   test("Inconsistent SSD: mappings are again inconsistent") {
-    val ssd3 = SemanticSourceDesc(version = Config.SSDVersion,
+    val ssd3 = SemanticSourceDesc(version = TypeConfig.SSDVersion,
       name = "test",
       id = 1,
       columns = List(dummyCol),
       attributes = List(dummyAttr),
-      ontology = List(dummyOntol),
+      ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
       mappings = Some(dummyMap3)) // mappings are inconsistent
 
@@ -161,12 +160,12 @@ class SemanticSourceSpec  extends FunSuite with ModellerJsonFormats with BeforeA
   }
 
   test("Inconsistent SSD: semantic model - mappings clash") {
-    val ssd4 = SemanticSourceDesc( version = Config.SSDVersion,
+    val ssd4 = SemanticSourceDesc( version = TypeConfig.SSDVersion,
       name = "test",
       id = 1,
       columns = List(dummyCol),
       attributes = List(dummyAttr),
-      ontology = List(dummyOntol),
+      ontology = List(1),
       semanticModel = Some(SemanticModel(Graph())), // semantic model is absent while mappings are there
       mappings = Some(dummyMap))
 
@@ -175,12 +174,12 @@ class SemanticSourceSpec  extends FunSuite with ModellerJsonFormats with BeforeA
   }
 
   test("Jsonify SSD"){
-    val ssd = SemanticSourceDesc( version = Config.SSDVersion,
+    val ssd = SemanticSourceDesc( version = TypeConfig.SSDVersion,
       name = "test",
       id = 1,
       columns = List(dummyCol),
       attributes = List(dummyAttr),
-      ontology = List(dummyOntol),
+      ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
       mappings = Some(dummyMap))
     val json = Extraction.decompose(ssd)

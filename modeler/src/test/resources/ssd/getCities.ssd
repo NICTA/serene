@@ -33,7 +33,7 @@
         }
     ],
     "ontology": [
-        "/home/natalia/IdeaProjects/semantic-modeller/src/test/resources/ssd/dataintegration_report_ontology.owl"
+        1
     ],
     "semanticModel": {
         "nodes": [

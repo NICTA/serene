@@ -346,7 +346,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
         (model,scores)
       case None =>
         logger.error("Error in the suggested model. SortableSemanticModel has null steiner nodes.")
-        throw KarmaException("Error in the suggested model. SortableSemanticModel has null steiner nodes.")
+        throw ModelerException("Error in the suggested model. SortableSemanticModel has null steiner nodes.")
     }
   }
 
@@ -534,7 +534,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     logger.debug(s"${steinerNodes.size} Steiner nodes are obtained.")
     if(steinerNodes.isEmpty) {
       logger.error("Steiner nodes are missing.")
-      throw KarmaException("Steiner nodes are missing. Learning is impossible.")
+      throw ModelerException("Steiner nodes are missing. Learning is impossible.")
     }
 
     //    if (modelingConfiguration.getKnownModelsAlignment())
@@ -590,7 +590,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
         .forall(karmaWrapper.ontologies.map(Paths.get(_).getFileName.toString).contains))
       {
         logger.error(s"Ontologies specified in SSD ${ssd.id} are not preloaded to Karma.")
-        throw KarmaException(s"Ontologies specified in SSD ${ssd.id} are not preloaded to Karma.")
+        throw ModelerException(s"Ontologies specified in SSD ${ssd.id} are not preloaded to Karma.")
       }
 
       val initialAlignment = getAlignment(ssd)

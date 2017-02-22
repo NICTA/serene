@@ -18,15 +18,10 @@
 
 package au.csiro.data61.modeler
 
-import java.io
 import java.io.{File, FileInputStream}
 import java.nio.charset.StandardCharsets
-import java.nio.file.{Files, Paths}
+import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.core.storage.SSDStorage
-import au.csiro.data61.core.types.{SSDPrediction, SemanticSourceDesc}
-import au.csiro.data61.matcher.types.ColumnTypes._
-import org.jgrapht.graph.DirectedWeightedMultigraph
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 import org.junit.runner.RunWith
@@ -38,37 +33,17 @@ import language.postfixOps
 import scala.collection.JavaConverters._
 import scala.util.{Failure, Success, Try}
 import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
-import au.csiro.data61.matcher.types.{ColumnPrediction, DataSetPrediction}
-import au.csiro.data61.modeler.types._
+import au.csiro.data61.types._
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
-import au.csiro.data61.modeler.types.SSDTypes._
+import au.csiro.data61.types.ColumnTypes.ColumnID
+import au.csiro.data61.types.Exceptions.ModelerException
+import au.csiro.data61.types.SSDTypes._
 
 /**
   * Created by natalia on 14/11/16.
   */
 @RunWith(classOf[JUnitRunner])
-class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAndAfterEach with LazyLogging {
-
-  var karmaWrapper = KarmaParams()
-
-  def addSSD(ssdPath: String): Unit = {
-    Try {
-      val stream = new FileInputStream(Paths.get(ssdPath).toFile)
-      parse(stream).extract[SemanticSourceDesc]
-    } match {
-      case Success(ssd) =>
-        SSDStorage.add(ssd.id, ssd)
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-    karmaWrapper.deleteKarma()
-    karmaWrapper = KarmaParams()
-  }
-
-  override def afterEach(): Unit = {
-    SSDStorage.removeAll()
-    karmaWrapper.deleteKarma()
-  }
+class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging {
 
   val ssdDir = getClass.getResource("/ssd").getPath
   val exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
@@ -76,6 +51,46 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
   val partialSSD: String = Paths.get(ssdDir,"partial_model.ssd") toString
   val veryPartialSSD: String = Paths.get(ssdDir,"partial_model2.ssd") toString
   val emptyCitiesSSD: String = Paths.get(ssdDir,"empty_getCities.ssd") toString
+
+  val alignmentDir = Paths.get("/tmp/test-ssd", "alignment") toString
+  val exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.owl") toString
+
+  var knownSSDs: List[SemanticSourceDesc] = List()
+  var karmaWrapper = KarmaParams(alignmentDir, List(), None)
+
+  def addSSD(ssdPath: String): Unit = {
+    Try {
+      val stream = new FileInputStream(Paths.get(ssdPath).toFile)
+      parse(stream).extract[SemanticSourceDesc]
+    } match {
+      case Success(ssd) =>
+        knownSSDs = ssd :: knownSSDs
+      case Failure(err) =>
+        fail(err.getMessage)
+    }
+    karmaWrapper.deleteKarma()
+    // we need to clean the alignmentDir
+    removeAll(Paths.get(alignmentDir))
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
+  }
+
+  def removeAll(path: Path): Unit = {
+    def getRecursively(f: Path): Seq[Path] =
+      f.toFile.listFiles
+        .filter(_.isDirectory)
+        .flatMap { x => getRecursively(x.toPath) } ++
+        f.toFile.listFiles.map(_.toPath)
+    getRecursively(path).foreach { f =>
+      if (!f.toFile.delete) {throw ModelerException(s"Failed to delete ${f.toString}")}
+    }
+  }
+
+  override def afterEach(): Unit = {
+    knownSSDs = List()
+    karmaWrapper.deleteKarma()
+    // we need to clean the alignmentDir
+    removeAll(Paths.get(alignmentDir))
+  }
 
   /**
     * Construct DataSetPrediction instance for businessInfo.csv
@@ -166,7 +181,7 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
 
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap)
+      .suggestModels(newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap)
     assert(recommends.isEmpty)
   }
 
@@ -189,7 +204,7 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
 
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap)
+      .suggestModels(newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap)
     assert(recommends.isEmpty)
   }
 
@@ -202,7 +217,7 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(alignment.getGraph.vertexSet.size === 0)
     assert(alignment.getGraph.edgeSet.size === 0)
 
-    alignment = karmaTrain.constructInitialAlignment()
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
     assert(alignment.getGraph.vertexSet.size === 8)
     assert(alignment.getGraph.edgeSet.size === 7)
 
@@ -222,10 +237,10 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
 
     // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams()
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap2)
+      .suggestModels(newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap2)
 
     recommends match {
       case Some(ssdPred: SSDPrediction) =>
@@ -257,7 +272,7 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(alignment.getGraph.edgeSet.size === 0)
 
     logger.info("================================================================")
-    alignment = karmaTrain.constructInitialAlignment()
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
     assert(alignment.getGraph.vertexSet.size === 8)
     assert(alignment.getGraph.edgeSet.size === 7)
 
@@ -278,11 +293,11 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
 
     logger.info("================================================================")
-    karmaWrapper = KarmaParams()
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     logger.info("================================================================")
     val recommends = karmaPredict
-      .suggestModels(newSSD, None, businessSemanticTypeMap, businessAttrToColMap2)
+      .suggestModels(newSSD, List(exampleOntol), None, businessSemanticTypeMap, businessAttrToColMap2)
     recommends match {
       case Some(ssdPred: SSDPrediction) =>
         assert(ssdPred.suggestions.size === 1)
@@ -290,7 +305,7 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
         val scores = ssdPred.suggestions(0)._2
 
         val str = compact(Extraction.decompose(recSemanticModel))
-        val outputPath = Paths.get(Config.StorageDir, s"recommended_ssd.json")
+        val outputPath = Paths.get(ModelerConfig.KarmaDir, s"recommended_ssd.json")
         // write the object to the file system
         logger.debug("HERE")
         Files.write(
@@ -323,7 +338,7 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(alignment.getGraph.edgeSet.size === 0)
 
     logger.info("================================================================")
-    alignment = karmaTrain.constructInitialAlignment()
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
     assert(alignment.getGraph.vertexSet.size === 8)
     assert(alignment.getGraph.edgeSet.size === 7)
 
@@ -344,11 +359,11 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
 
     logger.info("================================================================")
-    karmaWrapper = KarmaParams()
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     logger.info("================================================================")
     val recommends = karmaPredict
-      .suggestModels(newSSD, getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap2)
+      .suggestModels(newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap2)
     recommends match {
       case Some(ssdPred: SSDPrediction) =>
         assert(ssdPred.suggestions.size === 1)
@@ -356,7 +371,7 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
         val scores = ssdPred.suggestions(0)._2
 
         val str = compact(Extraction.decompose(recSemanticModel))
-        val outputPath = Paths.get(Config.StorageDir, s"recommended_ssd.json")
+        val outputPath = Paths.get(ModelerConfig.KarmaDir, s"recommended_ssd.json")
         // write the object to the file system
         Files.write(
           outputPath,
@@ -386,7 +401,7 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(alignment.getGraph.vertexSet.size === 0)
     assert(alignment.getGraph.edgeSet.size === 0)
 
-    alignment = karmaTrain.constructInitialAlignment()
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
     assert(alignment.getGraph.vertexSet.size === 8)
     assert(alignment.getGraph.edgeSet.size === 7)
 
@@ -406,10 +421,10 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
 
     // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams()
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, getCitiesDataSetPredictions, Map(), citiesAttrToColMap)
+      .suggestModels(newSSD, List(exampleOntol), getCitiesDataSetPredictions, Map(), citiesAttrToColMap)
 
     recommends match {
       case Some(ssdPred: SSDPrediction) =>
@@ -442,7 +457,7 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(alignment.getGraph.vertexSet.size === 0)
     assert(alignment.getGraph.edgeSet.size === 0)
 
-    alignment = karmaTrain.constructInitialAlignment()
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
     assert(alignment.getGraph.vertexSet.size === 8)
     assert(alignment.getGraph.edgeSet.size === 7)
 
@@ -462,10 +477,10 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
 
     // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams()
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, getCitiesDataSetPredictions, citiesSemanticTypeMap, citiesAttrToColMap)
+      .suggestModels(newSSD, List(exampleOntol), getCitiesDataSetPredictions, citiesSemanticTypeMap, citiesAttrToColMap)
     assert(recommends.isEmpty)
   }
 
@@ -478,7 +493,7 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(alignment.getGraph.vertexSet.size === 0)
     assert(alignment.getGraph.edgeSet.size === 0)
 
-    alignment = karmaTrain.constructInitialAlignment()
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
     assert(alignment.getGraph.vertexSet.size === 8)
     assert(alignment.getGraph.edgeSet.size === 7)
 
@@ -498,10 +513,10 @@ class SuggestModelSpec  extends FunSuite with ModellerJsonFormats with BeforeAnd
     assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
 
     // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams()
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, getCitiesDataSetPredictions, correctCitiesSemanticTypeMap, citiesAttrToColMap)
+      .suggestModels(newSSD, List(exampleOntol), getCitiesDataSetPredictions, correctCitiesSemanticTypeMap, citiesAttrToColMap)
     recommends match {
       case Some(ssdPred: SSDPrediction) =>
         assert(ssdPred.suggestions.size === 4)

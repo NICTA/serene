@@ -42,12 +42,12 @@ import au.csiro.data61.modeler.ModelerConfig
   * Class to initialize Karma tool.
   * TODO: add alignment directory as a parameter + modeling properties + list of ontologies
   * @param alignmentDir Directory where the alignment graph is/will be stored
-  * @param modelingProps Path where the file with modeling properties is located; optional
   * @param ontologies List of paths where ontologies are stored
+  * @param modelingProps Path where the file with modeling properties is located; optional
   */
 case class KarmaParams(alignmentDir: String,
-                       modelingProps: Option[String],
-                       ontologies: List[String]) extends LazyLogging {
+                       ontologies: List[String],
+                       modelingProps: Option[String]) extends LazyLogging {
   /**
     * list of values for some parameters needed to initialize Karma
     */
@@ -96,7 +96,7 @@ case class KarmaParams(alignmentDir: String,
   private def copyModelingProps() = {
     val karmaConfigDir = Paths.get(karmaInitParams
       .getOrElse(ContextParameter.USER_CONFIG_DIRECTORY,
-        throw KarmaException("Karma config directory is not specified.")))
+        throw ModelerException("Karma config directory is not specified.")))
     // TODO: check if modelingProps exists
     modelingProps match {
       case Some(modelingFile: String) =>
@@ -116,7 +116,7 @@ case class KarmaParams(alignmentDir: String,
     // setup karma ontology directory
     val karmaOntoDir = Paths.get(karmaInitParams
       .getOrElse(ContextParameter.PRELOADED_ONTOLOGY_DIRECTORY,
-        throw KarmaException("Ontology directory is not specified.")))
+        throw ModelerException("Ontology directory is not specified.")))
     // copy ontologies SSDStorage.ontologies to karma ontology directory
     ontologies.map {
       ontoPath =>
@@ -183,7 +183,7 @@ case class KarmaParams(alignmentDir: String,
         .flatMap { x => getRecursively(x.toPath) } ++
         f.toFile.listFiles.map(_.toPath)
     getRecursively(path).foreach { f =>
-      if (!f.toFile.delete) {throw KarmaException(s"Failed to delete ${f.toString}")}
+      if (!f.toFile.delete) {throw ModelerException(s"Failed to delete ${f.toString}")}
     }
   }
 

@@ -21,7 +21,6 @@ import java.io
 import java.io.FileInputStream
 import java.nio.file.Paths
 
-import au.csiro.data61.core.types.{SSDLabel, SSDLink, SSDNode, SemanticModel}
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
@@ -33,15 +32,15 @@ import org.json4s.jackson.JsonMethods._
 
 import scalax.collection.Graph
 import scalax.collection.GraphPredef._
-import au.csiro.data61.modeler.types._
-import au.csiro.data61.modeler.types.SSDLink.ImplicitEdge // needs to be explicitly imported to use shortcut ##
+import au.csiro.data61.types._
+import au.csiro.data61.types.SSDLink.ImplicitEdge // needs to be explicitly imported to use shortcut ##
 
 /**
   * Tests for the Semantic Model and scala-graph library
   */
 
 @RunWith(classOf[JUnitRunner])
-class SemanticModelSpec extends FunSuite with ModellerJsonFormats with BeforeAndAfterEach {
+class SemanticModelSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach {
 
   val ssdDir = getClass.getResource("/ssd").getPath
 
@@ -156,7 +155,7 @@ class SemanticModelSpec extends FunSuite with ModellerJsonFormats with BeforeAnd
         assert(semModel.getLinks.size === 7)
       case Failure(err) =>
         print(err.getMessage)
-        assert(false)
+        fail(err.getMessage)
     }
   }
 
@@ -170,7 +169,7 @@ class SemanticModelSpec extends FunSuite with ModellerJsonFormats with BeforeAnd
         assert(semModel.getLinks.size === 0)
       case Failure(err) =>
         println(err.getMessage)
-        assert(false)
+        fail(err.getMessage)
     }
   }
 
