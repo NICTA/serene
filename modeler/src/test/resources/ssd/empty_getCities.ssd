@@ -1,0 +1,38 @@
+{
+    "version": "0.1",
+    "id": 5,
+    "name": "getCities.csv",
+    "columns": [
+        {
+            "id": 10,
+            "name": "state"
+        },
+        {
+            "id": 11,
+            "name": "city"
+        }
+    ],
+    "attributes": [
+        {
+            "id": 10,
+            "name": "state",
+            "label": "ident",
+            "columnIds": [
+                10
+            ],
+            "sql": "select state from 'getCities.csv'"
+        },
+        {
+            "id": 11,
+            "name": "city",
+            "label": "ident",
+            "columnIds": [
+                11
+            ],
+            "sql": "select city from 'getCities.csv'"
+        }
+    ],
+    "ontology": [
+        "/home/natalia/IdeaProjects/semantic-modeller/src/test/resources/ssd/dataintegration_report_ontology.owl"
+    ]
+}

@@ -17,7 +17,18 @@
   */
 package au.csiro.data61.modeler
 
+import com.typesafe.config.ConfigFactory
+import com.typesafe.scalalogging.LazyLogging
 
-object Modeler {
+/**
+  * This object loads in the configuration .conf
+  * file and parses the values into fields.
+  */
+object ModelerConfig extends LazyLogging {
 
+  private val conf = ConfigFactory.load()
+
+  val KarmaDir = conf.getString("config.karma-dir")
+
+  logger.debug(s"Karma storage dir $KarmaDir")
 }

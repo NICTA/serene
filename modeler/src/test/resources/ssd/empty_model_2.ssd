@@ -1,0 +1,64 @@
+{
+    "version": "0.1",
+    "id": 1,
+    "name": "businessInfo.csv",
+    "columns": [
+        {
+            "name": "company",
+            "id": 4
+        },
+        {
+            "name": "ceo",
+            "id": 5
+        },
+        {
+            "name": "city",
+            "id": 6
+        },
+        {
+            "name": "state",
+            "id": 7
+        }
+    ],
+    "attributes": [
+        {
+            "id": 4,
+            "name": "company",
+            "label": "ident",
+            "columnIds": [
+                4
+            ],
+            "sql": "select company from 'businessInfo.csv'"
+        },
+        {
+            "id": 5,
+            "name": "ceo",
+            "label": "ident",
+            "columnIds": [
+                5
+            ],
+            "sql": "select ceo from 'businessInfo.csv'"
+        },
+        {
+            "id": 6,
+            "name": "city",
+            "label": "ident",
+            "columnIds": [
+                6
+            ],
+            "sql": "select city from 'businessInfo.csv'"
+        },
+        {
+            "id": 7,
+            "name": "state",
+            "label": "ident",
+            "columnIds": [
+                7
+            ],
+            "sql": "select state from 'businessInfo.csv'"
+        }
+    ],
+    "ontology": [
+        "/home/rue009/Projects/DFAT/SchemaMapping/Transformations/tests/example/dataintegration_report_ontology.owl"
+    ]
+}
