@@ -15,12 +15,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.core.types
+package au.csiro.data61.types
 
 import java.nio.file.Path
 
-import au.csiro.data61.core.types.ColumnTypes._
-import au.csiro.data61.core.types.DataSetTypes._
+import au.csiro.data61.types.ColumnTypes._
+import au.csiro.data61.types.DataSetTypes._
 import org.joda.time.DateTime
 import org.json4s._
 
