@@ -137,6 +137,8 @@ lazy val modeler = Project(
     name := "serene-modeler",
     organization := "au.csiro.data61",
     version := mainVersion,
+    parallelExecution in Test := false,
+    outputStrategy := Some(StdoutOutput),
 
     libraryDependencies ++= Seq(
       "org.json4s"                  %% "json4s-jackson"     % "3.3.0"
