@@ -22,9 +22,9 @@ import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
 import au.csiro.data61.core.Serene
 import au.csiro.data61.core.api.FileStream
-import au.csiro.data61.core.types.ColumnTypes.ColumnID
-import au.csiro.data61.core.types.DataSetTypes._
-import au.csiro.data61.core.types._
+import au.csiro.data61.types.ColumnTypes.ColumnID
+import au.csiro.data61.types.DataSetTypes._
+import au.csiro.data61.types._
 import org.apache.commons.io.FilenameUtils
 import org.json4s._
 import org.json4s.jackson.JsonMethods._

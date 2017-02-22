@@ -22,8 +22,8 @@ import java.io.{File, FileInputStream, IOException, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.api.DatasetAPI._
-import au.csiro.data61.core.types.ModelTypes.{Model, ModelID}
-import au.csiro.data61.core.types._
+import au.csiro.data61.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.types._
 import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
@@ -40,7 +40,7 @@ import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 import api._
-import au.csiro.data61.core.storage.ModelStorage
+import au.csiro.data61.core.storage.{JsonFormats, ModelStorage}
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import com.twitter.finagle.http
 import org.apache.spark.ml.classification.RandomForestClassificationModel
@@ -57,7 +57,7 @@ import org.json4s.jackson.JsonMethods._
  * Tests for the Model REST endpoint API
  */
 @RunWith(classOf[JUnitRunner])
-class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach with Futures with LazyLogging {
+class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach with Futures with LazyLogging {
 
   import ModelAPI._
 

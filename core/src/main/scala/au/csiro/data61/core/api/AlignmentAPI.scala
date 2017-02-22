@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 package au.csiro.data61.core.api
-import au.csiro.data61.core.types.StatusMessage
+import au.csiro.data61.types.StatusMessage
 import io.finch._
 
 import scala.language.postfixOps

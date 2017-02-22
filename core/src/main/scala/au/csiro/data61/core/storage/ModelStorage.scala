@@ -22,10 +22,9 @@ import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.drivers.ModelTrainerPaths
-import au.csiro.data61.core.types.ModelTypes.Status.COMPLETE
-import au.csiro.data61.core.{Serene, Config}
-import au.csiro.data61.core.types.ModelTypes.{Model, ModelID, Status, TrainState}
-import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
+import au.csiro.data61.types.ModelTypes.Status.COMPLETE
+import au.csiro.data61.core.Serene
+import au.csiro.data61.types.ModelTypes.{Model, ModelID, Status, TrainState}
 import com.github.tototoshi.csv.CSVWriter
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import org.apache.commons.io.FileUtils

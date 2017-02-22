@@ -20,14 +20,13 @@ package au.csiro.data61.core
 import java.util.Calendar
 
 import au.csiro.data61.core.api._
-import au.csiro.data61.core.types.MatcherJsonFormats
+import au.csiro.data61.core.storage.JsonFormats
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.language.postfixOps
 import com.twitter.util.{Await, StorageUnit}
-import com.twitter.finagle.{Server, ListeningServer, Http}
+import com.twitter.finagle.{Http, ListeningServer, Server}
 import com.twitter.conversions.storage._
-
 import io.finch._
 import io.finch.json4s._
 
@@ -37,7 +36,7 @@ import io.finch.json4s._
   * Finch endpoints and protect with high level error handlers, then
   * serve the API.
   */
-object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
+object Serene extends LazyLogging with JsonFormats with RestAPI {
 
   val version = getClass.getPackage.getImplementationVersion //"0.1.0"
 

@@ -17,7 +17,7 @@
   */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.types.{VersionMessage, StatusMessage}
+import au.csiro.data61.types.{VersionMessage, StatusMessage}
 import io.finch._
 
 

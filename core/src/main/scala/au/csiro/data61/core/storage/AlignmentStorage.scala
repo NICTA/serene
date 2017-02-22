@@ -19,7 +19,7 @@ package au.csiro.data61.core.storage
 
 import java.io.{FileInputStream, File}
 import au.csiro.data61.core.Serene
-import au.csiro.data61.core.types.ModelerTypes.{AlignmentID, Alignment}
+import au.csiro.data61.types.SSDTypes.{AlignmentID, Alignment}
 import org.json4s.jackson.JsonMethods._
 
 /**

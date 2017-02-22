@@ -37,6 +37,8 @@ case class Config(storagePath: String,
                   datasetStorageDir: String,
                   modelStorageDir: String,
                   alignmentStorageDir: String,
+                  ssdStorageDir: String,
+                  ontologyStorageDir: String,
                   serverHost: String,
                   serverPort: Int,
                   numWorkers: Option[Int],
@@ -140,7 +142,8 @@ object Config extends LazyLogging {
 
     val storagePath = userArgs.storagePath.getOrElse(defaultStoragePath)
 
-    val (dataSetStorageDir, modelStorageDir, alignmentStorageDir) = buildStoragePaths(conf, storagePath)
+    val (dataSetStorageDir,modelStorageDir, alignmentStorageDir,
+      ssdStorageDir, ontologyStorageDir) = buildStoragePaths(conf, storagePath)
 
     val serverHost = userArgs.serverHost.getOrElse(defaultServerHost)
     val serverPort = userArgs.serverPort.getOrElse(defaultServerPort.toInt)
@@ -151,6 +154,8 @@ object Config extends LazyLogging {
       datasetStorageDir = dataSetStorageDir,
       modelStorageDir = modelStorageDir,
       alignmentStorageDir = alignmentStorageDir,
+      ssdStorageDir = ssdStorageDir,
+      ontologyStorageDir = ontologyStorageDir,
       serverHost = serverHost,
       serverPort = serverPort,
       numWorkers = numWorkers,
@@ -166,22 +171,29 @@ object Config extends LazyLogging {
     * @return
     */
   protected def buildStoragePaths(conf: com.typesafe.config.Config,
-                        storagePath: String): (String, String, String) = {
+                        storagePath: String)
+  : (String, String, String, String, String) = {
     // The model and dataset location are calculated differently, they
     // are subdirectories of the storage location and are not available
     // to the user...
     val DatasetDirName = conf.getString("config.output-dataset-dir")
     val ModelDirName = conf.getString("config.output-model-dir")
     val AlignmentDirName = conf.getString("config.output-alignment-dir")
+    val SSDDirName = conf.getString("config.output-ssd-dir")
+    val OntologyDirName = conf.getString("config.output-ontology-dir")
 
     val dataSetStorageDir = s"$storagePath/$DatasetDirName"
     val modelStorageDir = s"$storagePath/$ModelDirName"
     val alignmentStorageDir = s"$storagePath/$AlignmentDirName"
+    val ssdStorageDir = s"$storagePath/$SSDDirName"
+    val ontologyStorageDir = s"$storagePath/$OntologyDirName"
 
     logger.info(s"Storage path at $storagePath")
     logger.info(s"Dataset repository at $dataSetStorageDir")
     logger.info(s"Model repository at $modelStorageDir")
+    logger.info(s"Known SSD repository at $ssdStorageDir")
+    logger.info(s"Ontology repository at $ontologyStorageDir")
 
-    (dataSetStorageDir, modelStorageDir, alignmentStorageDir)
+    (dataSetStorageDir, modelStorageDir, alignmentStorageDir, ssdStorageDir, ontologyStorageDir)
   }
 }

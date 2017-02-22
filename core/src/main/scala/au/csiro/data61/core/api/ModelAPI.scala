@@ -18,14 +18,14 @@
 package au.csiro.data61.core.api
 
 import au.csiro.data61.core.drivers.MatcherInterface
-import au.csiro.data61.core.types.ModelTypes.{Status, TrainState, ModelID, Model}
+import au.csiro.data61.types.ModelTypes.{Model, ModelID, Status, TrainState}
 import au.csiro.data61.core._
+import au.csiro.data61.types._
 import io.finch._
 import org.joda.time.DateTime
 import org.json4s.JValue
 import org.json4s.JsonAST.JNothing
 import org.json4s.jackson.JsonMethods._
-import types._
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}

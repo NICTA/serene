@@ -17,7 +17,7 @@
  */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.types.MatcherJsonFormats
+import au.csiro.data61.core.storage.JsonFormats
 import com.typesafe.scalalogging.LazyLogging
 import io.finch._
 
@@ -26,7 +26,7 @@ import io.finch._
  * format object, the version number, and the endpoints to
  * be defined by child objects.
  */
-trait RestAPI extends LazyLogging with MatcherJsonFormats {
+trait RestAPI extends LazyLogging with JsonFormats {
   implicit val formats = json4sFormats
 
   val APIVersion = "v1.0"

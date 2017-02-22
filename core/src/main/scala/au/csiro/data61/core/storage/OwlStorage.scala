@@ -15,20 +15,29 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.core.drivers
 
-import au.csiro.data61.core.storage.AlignmentStorage
-import au.csiro.data61.types.SSDTypes.AlignmentID
+package au.csiro.data61.core.storage
 
-object ModelerInterface {
+import java.io._
+import java.nio.file.{Path, Paths}
 
-  /**
-    * Passes the alignment keys up to the API
-    *
-    * @return
-    */
-  def alignmentKeys: List[AlignmentID] = {
-    AlignmentStorage.keys
+import au.csiro.data61.types.SSDTypes.{Owl, OwlID}
+import au.csiro.data61.types._
+import au.csiro.data61.core.Serene
+import org.json4s.Formats
+import org.json4s.jackson.JsonMethods._
+
+import scala.language.postfixOps
+
+/**
+  * Object to store ontologies
+  */
+object OwlStorage extends Storage[OwlID, Owl] {
+  implicit val keyReader: Readable[Int] = Readable.ReadableInt
+
+  def rootDir: String = new File(Serene.config.ontologyStorageDir).getAbsolutePath
+
+  def extract(stream: FileInputStream): Owl = {
+    parse(stream).extract[Owl]
   }
-
 }
