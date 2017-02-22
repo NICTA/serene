@@ -39,9 +39,6 @@ matcher/dirstruct/semantic_type_classifier/repo/eval/results-detailed.csv
 matcher/dirstruct/semantic_type_classifier/repo/eval/results-for-trainsize-0.20-testsize-0.40-rep-1
 matcher/dirstruct/semantic_type_classifier/repo/eval/results-for-trainsize-0.40-testsize-0.40-rep-1
 matcher/dirstruct/semantic_type_classifier/repo/eval/results-for-trainsize-0.60-testsize-0.40-rep-1
-core/src/main/scala/au/csiro/data61/core/storage/SSDStorage.scala
-core/src/test/resources/helper/train_error.csv
-core/src/test/resources/helper/train_error2.csv
 core/src/test/resources/soccer/
 
 matcher/copy_build.sbt
