@@ -24,13 +24,6 @@ package au.csiro.data61.types
 object Exceptions {
 
   /**
-    * Errors caused by KarmaWrapper
-    *
-    * @param message Error message
-    */
-  case class KarmaException(message: String) extends RuntimeException(message)
-
-  /**
     * Errors caused by Modeler
     *
     * @param message Error message

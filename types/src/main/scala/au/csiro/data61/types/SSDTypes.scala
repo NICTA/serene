@@ -85,7 +85,7 @@ case class SemanticSourceDesc(version: String,
                               id: SsdID,
                               columns: List[SSDColumn],
                               attributes: List[SSDAttribute],
-                              ontology: List[OwlID],
+                              ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
                               semanticModel: Option[SemanticModel],
                               mappings: Option[SSDMapping]) extends Identifiable[SsdID] with LazyLogging{
   /**

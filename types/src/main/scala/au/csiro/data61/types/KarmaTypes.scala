@@ -19,7 +19,7 @@ package au.csiro.data61.types
 
 import java.nio.file.Paths
 
-import au.csiro.data61.types.SSDTypes.{AttrID, SsdID}
+import au.csiro.data61.types.SSDTypes.{AttrID, OwlID, SsdID}
 import au.csiro.data61.types.GraphTypes._
 import com.typesafe.scalalogging.LazyLogging
 import edu.isi.karma.rep.alignment.{ColumnNode, InternalNode, LabeledLink, Node}
@@ -392,7 +392,7 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
     */
   def toSSD(newID: SsdID,
             ssdVersion: String,
-            ontologies: List[String],
+            ontologies: List[OwlID],
             tableName: String = ""): SemanticSourceDesc  = {
     logger.info("Converting Karma Semantic Model to SSD...")
     // karmaModel.sourceColumns: List[ColumnNode] --> List[SSDAttribute], and also List[SSDColumn]
@@ -466,7 +466,7 @@ case class KarmaSortableSemanticModel(karmaModel: SortableSemanticModel){
     */
   def toSSD(newID: SsdID,
             ssdVersion: String,
-            ontologies: List[String],
+            ontologies: List[OwlID],
             tableName: String = ""): SemanticSourceDesc  = {
     // TODO: implement
     KarmaSemanticModel(karmaModel.getBaseModel).toSSD(newID, ssdVersion, ontologies, tableName)
