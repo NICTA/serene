@@ -15,16 +15,12 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.core.types
-
-import java.nio.file.Path
+package au.csiro.data61.matcher.matcher.featureserialize
 
 import au.csiro.data61.matcher.matcher.RfKnnFeature
 import au.csiro.data61.matcher.matcher.features.ExampleBasedFeatureExtractorTypes.TokenizedWords
 import au.csiro.data61.matcher.matcher.features._
 import org.json4s._
-import org.json4s.JsonDSL._
-import org.json4s.jackson.JsonMethods._
 
 import scala.util.{Failure, Success, Try}
 
