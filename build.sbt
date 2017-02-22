@@ -28,6 +28,10 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
 
   scalaVersion := "2.11.8",
 
+  // this resolver is added since karma-tool is a java project published to the local maven repo when installed
+  // NOTE: the resolver has to be global
+//  resolvers += "Local Maven Repository" at Path.userHome.asFile.toURI.toURL + ".m2/repository",
+
   libraryDependencies ++= Seq(
     "org.apache.spark"            %%  "spark-core"           % "2.1.0",
     "org.apache.spark"            %%  "spark-sql"            % "2.1.0",
@@ -48,8 +52,36 @@ lazy val root = Project(
     version := mainVersion,
     mainClass := Some("au.csiro.data61.core.Serene")
   )
-  .aggregate(core, matcher)
-  .dependsOn(core, matcher)
+  .aggregate(core, matcher, modeler)
+  .dependsOn(core, matcher, modeler)
+
+lazy val types = Project(
+  id = "serene-types",
+  base = file("types")
+)
+  .settings(commonSettings)
+  .settings(
+    name := "serene-types",
+    organization := "au.csiro.data61",
+    version := mainVersion,
+
+    libraryDependencies ++= Seq(
+      "org.json4s"                  %% "json4s-jackson"     % "3.3.0"
+      ,"org.json4s"                 %% "json4s-native"      % "3.3.0"
+      ,"org.json4s"                 %% "json4s-ext"         % "3.3.0"
+      ,"ch.qos.logback"             %  "logback-classic"    % "1.1.3"            % "runtime"
+//      ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
+//      ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
+//      ,"commons-io"                 %  "commons-io"         % "2.5"
+      ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
+      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+      ,"junit"                      %  "junit"              % "4.12"
+      ,"com.typesafe"               %  "config"             % "1.3.0"
+      ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
+//      ,"org.jgrapht"                %  "jgrapht"            % "0.9.0"          // Karma uses java library to work with graphs
+//      ,"edu.isi"                    %  "karma-common"       % "0.0.1-SNAPSHOT" // local mvn repo! in case of failed import try cleaning ~/.ivy2/cache ....
+    )
+  )
 
 /**
   * Schema Matcher module
@@ -97,10 +129,24 @@ lazy val modeler = Project(
     name := "serene-modeler",
     organization := "au.csiro.data61",
     version := mainVersion,
-    libraryDependencies ++= Seq(
 
+    libraryDependencies ++= Seq(
+      "org.json4s"                  %% "json4s-jackson"     % "3.3.0"
+      ,"org.json4s"                 %% "json4s-native"      % "3.3.0"
+      ,"org.json4s"                 %% "json4s-ext"         % "3.3.0"
+      ,"ch.qos.logback"             %  "logback-classic"    % "1.1.3"            % "runtime"
+//      ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
+//      ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
+//      ,"commons-io"                 %  "commons-io"         % "2.5"
+      ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
+      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+//      ,"junit"                      %  "junit"              % "4.12"
+      ,"com.typesafe"               %  "config"             % "1.3.0"
+      ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
+//      ,"org.jgrapht"                %  "jgrapht"            % "0.9.0"          // Karma uses java library to work with graphs
+//      ,"edu.isi"                    %  "karma-common"       % "0.0.1-SNAPSHOT" // local mvn repo! in case of failed import try cleaning ~/.ivy2/cache ....
     )
-  ).dependsOn(matcher)
+  ).dependsOn(matcher, types)
 
 
 /**
@@ -144,5 +190,5 @@ lazy val core = Project(
     )
   .settings(jetty() : _*)
   .enablePlugins(RpmPlugin, JavaAppPackaging)
-  .dependsOn(matcher, modeler)
+  .dependsOn(matcher, modeler, types)
 
