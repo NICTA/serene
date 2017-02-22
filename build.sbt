@@ -71,14 +71,22 @@ lazy val types = Project(
       ,"org.json4s"                 %% "json4s-ext"         % "3.3.0"
       ,"ch.qos.logback"             %  "logback-classic"    % "1.1.3"            % "runtime"
 //      ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
-//      ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
+      ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
 //      ,"commons-io"                 %  "commons-io"         % "2.5"
       ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
       ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
       ,"junit"                      %  "junit"              % "4.12"
       ,"com.typesafe"               %  "config"             % "1.3.0"
       ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
-//      ,"org.jgrapht"                %  "jgrapht"            % "0.9.0"          // Karma uses java library to work with graphs
+      ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
+      ,"org.json"                   %   "json"              % "20141113"       // dependency for Karma
+      ,"org.reflections"            %   "reflections"       % "0.9.10"         // dependency for Karma
+      ,"commons-fileupload"         %  "commons-fileupload" % "1.2.2"          // dependency for Karma
+      ,"com.google.code.gson"       % "gson"                % "2.2.4"          // dependency for Karma
+      ,"com.hp.hpl.jena"            % "jena"                % "2.6.4"          // dependency for Karma
+      ,"com.googlecode.juniversalchardet" % "juniversalchardet" % "1.0.3"      // dependency for Karma
+      ,"org.kohsuke"                % "graphviz-api"        % "1.1"
+      , "uk.com.robust-it"          % "cloning"             % "1.8.5"
 //      ,"edu.isi"                    %  "karma-common"       % "0.0.1-SNAPSHOT" // local mvn repo! in case of failed import try cleaning ~/.ivy2/cache ....
     )
   )
@@ -136,14 +144,22 @@ lazy val modeler = Project(
       ,"org.json4s"                 %% "json4s-ext"         % "3.3.0"
       ,"ch.qos.logback"             %  "logback-classic"    % "1.1.3"            % "runtime"
 //      ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
-//      ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
+      ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
 //      ,"commons-io"                 %  "commons-io"         % "2.5"
       ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
       ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
-//      ,"junit"                      %  "junit"              % "4.12"
+      ,"junit"                      %  "junit"              % "4.12"
       ,"com.typesafe"               %  "config"             % "1.3.0"
       ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
-//      ,"org.jgrapht"                %  "jgrapht"            % "0.9.0"          // Karma uses java library to work with graphs
+      ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
+      ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
+      ,"org.reflections"            %  "reflections"        % "0.9.10"         // dependency for Karma
+      ,"commons-fileupload"         %  "commons-fileupload" % "1.2.2"          // dependency for Karma
+      ,"com.google.code.gson"       % "gson"                % "2.2.4"          // dependency for Karma
+      ,"com.hp.hpl.jena"            % "jena"                % "2.6.4"          // dependency for Karma
+      ,"com.googlecode.juniversalchardet" % "juniversalchardet" % "1.0.3"      // dependency for Karma
+      ,"org.kohsuke"                % "graphviz-api"        % "1.1"
+      , "uk.com.robust-it"          % "cloning"             % "1.8.5"
 //      ,"edu.isi"                    %  "karma-common"       % "0.0.1-SNAPSHOT" // local mvn repo! in case of failed import try cleaning ~/.ivy2/cache ....
     )
   ).dependsOn(matcher, types)
