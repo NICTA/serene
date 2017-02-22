@@ -45,3 +45,4 @@ core/src/test/resources/helper/train_error2.csv
 core/src/test/resources/soccer/
 
 matcher/copy_build.sbt
+project/project/
