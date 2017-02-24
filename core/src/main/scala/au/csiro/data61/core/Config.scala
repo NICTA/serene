@@ -33,14 +33,16 @@ case class ConfigArgs(storagePath: Option[String] = None,
   * This object loads in the configuration .conf
   * file and parses the values into fields.
   */
-case class Config(storagePath: String,
-                  datasetStorageDir: String,
-                  modelStorageDir: String,
-                  alignmentStorageDir: String,
-                  serverHost: String,
-                  serverPort: Int,
-                  numWorkers: Option[Int],
-                  parallelFeatureExtraction: Boolean) extends LazyLogging
+case class Config(
+    storagePath: String,
+    datasetStorageDir: String,
+    modelStorageDir: String,
+    alignmentStorageDir: String,
+    owlStorageDir: String,
+    serverHost: String,
+    serverPort: Int,
+    numWorkers: Option[Int],
+    parallelFeatureExtraction: Boolean) extends LazyLogging
 
 object Config extends LazyLogging {
 
@@ -140,7 +142,8 @@ object Config extends LazyLogging {
 
     val storagePath = userArgs.storagePath.getOrElse(defaultStoragePath)
 
-    val (dataSetStorageDir, modelStorageDir, alignmentStorageDir) = buildStoragePaths(conf, storagePath)
+    val (dataSetStorageDir, modelStorageDir, alignmentStorageDir, owlStorageDir) =
+      buildStoragePaths(conf, storagePath)
 
     val serverHost = userArgs.serverHost.getOrElse(defaultServerHost)
     val serverPort = userArgs.serverPort.getOrElse(defaultServerPort.toInt)
@@ -151,11 +154,11 @@ object Config extends LazyLogging {
       datasetStorageDir = dataSetStorageDir,
       modelStorageDir = modelStorageDir,
       alignmentStorageDir = alignmentStorageDir,
+      owlStorageDir = owlStorageDir,
       serverHost = serverHost,
       serverPort = serverPort,
       numWorkers = numWorkers,
-      parallelFeatureExtraction = parallelFeatureExtraction
-    )
+      parallelFeatureExtraction = parallelFeatureExtraction)
   }
 
   /**
@@ -165,23 +168,27 @@ object Config extends LazyLogging {
     * @param storagePath The root storage path previously extracted
     * @return
     */
-  protected def buildStoragePaths(conf: com.typesafe.config.Config,
-                        storagePath: String): (String, String, String) = {
+  protected def buildStoragePaths(
+      conf: com.typesafe.config.Config,
+      storagePath: String): (String, String, String, String) = {
     // The model and dataset location are calculated differently, they
     // are subdirectories of the storage location and are not available
     // to the user...
     val DatasetDirName = conf.getString("config.output-dataset-dir")
     val ModelDirName = conf.getString("config.output-model-dir")
     val AlignmentDirName = conf.getString("config.output-alignment-dir")
+    val OwlDirName = conf.getString("config.output-owl-dir")
 
     val dataSetStorageDir = s"$storagePath/$DatasetDirName"
     val modelStorageDir = s"$storagePath/$ModelDirName"
     val alignmentStorageDir = s"$storagePath/$AlignmentDirName"
+    val owlStorageDir = s"$storagePath/$OwlDirName"
 
     logger.info(s"Storage path at $storagePath")
     logger.info(s"Dataset repository at $dataSetStorageDir")
     logger.info(s"Model repository at $modelStorageDir")
+    logger.info(s"Owl repository at $owlStorageDir")
 
-    (dataSetStorageDir, modelStorageDir, alignmentStorageDir)
+    (dataSetStorageDir, modelStorageDir, alignmentStorageDir, owlStorageDir)
   }
 }

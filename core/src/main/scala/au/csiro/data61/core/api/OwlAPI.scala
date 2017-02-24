@@ -17,10 +17,17 @@
  */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.types.StatusMessage
+import java.nio.file.Files
+
+import au.csiro.data61.core.drivers.ModelerInterface
+import au.csiro.data61.core.types.ModelerTypes.{Owl, OwlDocumentFormat, OwlID}
+import com.twitter.finagle.http.exp.Multipart.{FileUpload, InMemoryFileUpload, OnDiskFileUpload}
+import com.twitter.io.BufInputStream
 import io.finch._
+import shapeless.{:+:, CNil}
 
 import scala.language.postfixOps
+import scala.util.{Failure, Success, Try}
 
 /**
  * Alignment application object. Here we compose the endpoints
@@ -28,15 +35,99 @@ import scala.language.postfixOps
  *
  */
 object OwlAPI extends RestAPI {
+  protected val OwlRootPath = "owl"
+  protected val UrlEncodedFormContentType = "application/x-www-form-urlencoded"
 
-  val asdf: Endpoint[StatusMessage] = get(APIVersion :: "owl") {
-    Ok(StatusMessage("Not Implemented"))
+  /**
+    * Lists keys of all OWLs.
+    *
+    * This endpoint handles GET requests for /version/owl.
+    */
+  val listOwls: Endpoint[List[OwlID]] = get(APIVersion :: OwlRootPath) {
+    Ok(ModelerInterface.owlKeys)
   }
 
-  val qwer: Endpoint[StatusMessage] = get(APIVersion :: "owl" :: "1") {
-    Ok(StatusMessage("Not Implemented"))
+  /**
+    * Creates an OWL.
+    *
+    * This endpoint handles POST requests for
+    * /version/owl?format=:format&description=[:description]. The request body should be
+    * multipart/form-data containing the OWL document with name "file".
+    */
+  val createOwl: Endpoint[Owl] = post(
+    APIVersion :: OwlRootPath :: fileUpload("file") :: param("format") :: paramOption("description")
+  ) { (file: FileUpload, format: String, description: Option[String]) =>
+    logger.info(s"Creating OWL with file=$file, format=$format, description=$description.")
+
+    val name = file.fileName
+    val desc = description.getOrElse("")
+    val fmt = Try { OwlDocumentFormat.withName(format) } getOrElse OwlDocumentFormat.Unknown
+
+    val stream = file match {
+      case OnDiskFileUpload(content, _, _, _) => Files.newInputStream(content.toPath)
+      case InMemoryFileUpload(content, _, _, _) => new BufInputStream(content)
+    }
+
+    ModelerInterface.createOwl(name, desc, fmt, stream) match {
+      case Success(owl) => Ok(owl)
+      case Failure(th) => InternalServerError(new RuntimeException(th))
+    }
   }
 
-  val endpoints = asdf :+: qwer
+  /**
+    * Gets the OWL with specified ID.
+    *
+    * The endpoint handles GET requests for /version/owl/:id.
+    */
+  val getOwl: Endpoint[Owl] = get(APIVersion :: OwlRootPath :: int) { (id: Int) =>
+    logger.info(s"Getting OWL with ID=$id")
 
+    ModelerInterface.getOwl(id) match {
+      case Some(owl) => Ok(owl)
+      case None => NotFound(NotFoundException(s"OWL $id not found"))
+    }
+  }
+
+  /**
+    * Updates the OWL with specified ID.
+    *
+    * This endpoint handles POST requests for /version/owl/:id with an
+    * application/x-www-form-urlencoded body containing an optional parameter "description".
+    */
+  val updateOwl: Endpoint[Owl] = post(
+    APIVersion :: OwlRootPath :: int :: paramOption("description") :: header("Content-Type")
+  ) { (id: Int, description: Option[String], contentType: String) =>
+    logger.info(s"Updating OWL with ID=$id, description=$description")
+
+    if (contentType.compareToIgnoreCase(UrlEncodedFormContentType) == 0) {
+      ModelerInterface.updateOwl(id, description) match {
+        case Success(owl) => Ok(owl)
+        case Failure(th) => InternalServerError(new RuntimeException(th))
+      }
+    } else {
+      BadRequest(BadRequestException(
+        s"Must have HTTP header Content-Type=$UrlEncodedFormContentType."
+      ))
+    }
+  }
+
+  /**
+    * Deletes the OWL with specified ID.
+    *
+    * This endpoint handles DELETE requests for /version/owl/:id.
+    */
+  val deleteOwl: Endpoint[Owl] = delete(APIVersion :: OwlRootPath :: int) { (id: Int) =>
+    logger.info(s"Deleting OWL with ID=$id")
+
+    ModelerInterface.deleteOwl(id) match {
+      case Success(owl) => Ok(owl)
+      case Failure(th) => InternalServerError(new RuntimeException(th))
+    }
+  }
+
+  /**
+    * Represents all OWL endpoints.
+    */
+  val endpoints: Endpoint[List[OwlID] :+: Owl :+: Owl :+: Owl :+: Owl :+: CNil] =
+    listOwls :+: createOwl :+: getOwl :+: updateOwl :+: deleteOwl
 }

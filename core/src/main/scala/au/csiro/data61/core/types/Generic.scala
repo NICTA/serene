@@ -17,10 +17,12 @@
  */
 package au.csiro.data61.core.types
 
-import java.nio.file.{Paths, Path}
+import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.types.ModelTypes.StatusSerializer
+import au.csiro.data61.core.types.ModelerTypes.OwlDocumentFormat
 import org.json4s._
+import org.json4s.ext.EnumNameSerializer
 
 /**
  * An object that has a property id which is of type key.
@@ -71,5 +73,6 @@ trait MatcherJsonFormats {
       MeanCharacterCosineSimilarityFeatureExtractorSerializer +
       ModelFeatureExtractorsSerializer +
       SingleFeatureExtractorSerializer +
-      NamedGroupFeatureExtractorSerializer
+      NamedGroupFeatureExtractorSerializer +
+      new EnumNameSerializer(OwlDocumentFormat)
 }

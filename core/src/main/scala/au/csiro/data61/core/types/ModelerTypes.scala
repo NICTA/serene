@@ -17,9 +17,9 @@
   */
 package au.csiro.data61.core.types
 
-import java.nio.file.Path
-
 import au.csiro.data61.core.types.DataSetTypes.DataSetID
+import au.csiro.data61.core.types.ModelerTypes.OwlDocumentFormat.OwlDocumentFormat
+import org.joda.time.DateTime
 
 
 /**
@@ -28,7 +28,6 @@ import au.csiro.data61.core.types.DataSetTypes.DataSetID
   *
   */
 object ModelerTypes {
-
   type OwlID = Int
   type SsdID = Int
   type AlignmentID = Int
@@ -45,13 +44,31 @@ object ModelerTypes {
                        ssds: List[SsdID]) extends Identifiable[AlignmentID]
 
   /**
-    * Owl is a reference to the Owl file storage
+    * Owl is a reference to the Owl file storage.
     *
-    * @param id The ID key for the OWL file storage
-    * @param path The path to the OWL file
+    * @param id The ID key for the OWL file storage.
+    * @param name The name of the original uploaded OWL file.
+    * @param format The format of the OWL file.
+    * @param description The description of the OWL file.
+    * @param dateCreated  The creation time.
+    * @param dateModified The last modified time.
     */
-  case class Owl(id: OwlID,
-                 path: Path) extends Identifiable[OwlID]
+  case class Owl(
+    id: OwlID,
+    name: String,
+    format: OwlDocumentFormat,
+    description: String,
+    dateCreated: DateTime,
+    dateModified: DateTime) extends Identifiable[OwlID]
+
+  object OwlDocumentFormat extends Enumeration {
+    type OwlDocumentFormat = Value
+
+    val Turtle = Value("turtle")
+    val JsonLd = Value("jsonld")
+    val RdfXml = Value("rdfxml")
+    val Unknown = Value("unknown")
+  }
 
   /**
     * SSD is the Semantic Source Description object
@@ -63,5 +80,4 @@ object ModelerTypes {
   case class SSD(id: SsdID,
                  ontologies: List[Owl],
                  dataSet: DataSetID) extends Identifiable[SsdID]
-
 }
