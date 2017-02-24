@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 package au.csiro.data61.core.api
-import au.csiro.data61.types.StatusMessage
+import au.csiro.data61.types.{FeaturesConfig, ModelType, SamplingStrategy, StatusMessage}
 import io.finch._
 
 import scala.language.postfixOps
@@ -39,3 +39,28 @@ object AlignmentAPI extends RestAPI {
 
   val endpoints = alignmentRoot :+: alignmentGet
 }
+
+case class OctopusRequest(description: Option[String],
+                          modelType: Option[ModelType],
+                          features: Option[FeaturesConfig],
+                          resamplingStrategy: Option[SamplingStrategy],
+                          numBags: Option[Int],
+                          bagSize: Option[Int],
+                          ontologies: Option[List[Int]],
+                          ssds: Option[List[Int]],
+                          modelingProps: Option[String])
+
+//id: OctopusID,
+//ontologies: List[Int], // WARNING: Int should be OwlID! Json4s bug.
+//ssds: List[Int],       // WARNING: Int should be SsdID! Json4s bug.
+//features: FeaturesConfig,
+//resamplingStrategy: SamplingStrategy,
+//numBags: Option[Int],
+//bagSize: Option[Int],
+//lobsterID: ModelID,
+//modelingProps: Option[String],
+//alignmentDir: Option[Path],
+//state: TrainState,
+//dateCreated: DateTime,
+//dateModified: DateTime,
+//description: String

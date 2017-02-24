@@ -17,7 +17,6 @@
   */
 package au.csiro.data61.core
 
-import java.io
 import java.io.FileInputStream
 import java.nio.file.Paths
 

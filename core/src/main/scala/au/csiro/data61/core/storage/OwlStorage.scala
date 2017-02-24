@@ -40,4 +40,5 @@ object OwlStorage extends Storage[OwlID, Owl] {
   def extract(stream: FileInputStream): Owl = {
     parse(stream).extract[Owl]
   }
+
 }

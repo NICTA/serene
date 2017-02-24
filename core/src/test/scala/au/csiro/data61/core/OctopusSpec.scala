@@ -15,20 +15,28 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.core.drivers
+package au.csiro.data61.core
 
-import au.csiro.data61.core.storage.AlignmentStorage
-import au.csiro.data61.types.SSDTypes.AlignmentID
+import java.nio.file.Paths
 
-object ModelerInterface {
+import au.csiro.data61.core.storage.JsonFormats
+import com.typesafe.scalalogging.LazyLogging
+import org.scalatest.{BeforeAndAfterEach, FunSuite}
 
-  /**
-    * Passes the alignment keys up to the API
-    *
-    * @return
-    */
-  def alignmentKeys: List[AlignmentID] = {
-    AlignmentStorage.keys
-  }
+import scala.language.postfixOps
+
+
+
+/**
+  * Tests for the OctopusInterface methods
+  */
+
+class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging{
+
+  val ssdDir = getClass.getResource("/ssd").getPath
+  def emptySSD: String = Paths.get(ssdDir,"empty_model.ssd") toString
+  def exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
+
+
 
 }

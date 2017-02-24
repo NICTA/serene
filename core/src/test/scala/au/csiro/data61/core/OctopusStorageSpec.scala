@@ -15,23 +15,32 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.core.storage
+package au.csiro.data61.core
 
-import java.io.{FileInputStream, File}
-import au.csiro.data61.core.Serene
-import au.csiro.data61.types.SSDTypes.{AlignmentID, Alignment}
+import java.io.FileInputStream
+import java.nio.file.Paths
+
+import au.csiro.data61.core.storage.{JsonFormats, SSDStorage}
+import au.csiro.data61.types._
+import org.scalatest.{BeforeAndAfterEach, FunSuite}
+
+import language.postfixOps
+import scala.util.{Failure, Success, Try}
+import org.json4s._
 import org.json4s.jackson.JsonMethods._
+import com.typesafe.scalalogging.LazyLogging
+
+
 
 /**
-  * AlignmentStorage holds the Alignment objects in a key-value store
+  * Tests for the OctopusStorage layer
   */
-object AlignmentStorage extends Storage[AlignmentID, Alignment] {
 
-  override implicit val keyReader: Readable[Int] = Readable.ReadableInt
+class OctopusStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging{
 
-  override def rootDir: String = new File(Serene.config.datasetStorageDir).getAbsolutePath
+  val ssdDir = getClass.getResource("/ssd").getPath
+  def emptySSD: String = Paths.get(ssdDir,"empty_model.ssd") toString
+  def exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
 
-  def extract(stream: FileInputStream): Alignment = {
-    parse(stream).extract[Alignment]
-  }
+
 }
