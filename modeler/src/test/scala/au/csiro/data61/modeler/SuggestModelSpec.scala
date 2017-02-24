@@ -55,7 +55,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   val alignmentDir = Paths.get("/tmp/test-ssd", "alignment") toString
   val exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.owl") toString
 
-  var knownSSDs: List[SemanticSourceDesc] = List()
+  var knownSSDs: List[SemanticSourceDesc] = List() // has the function of SSDStorage
   var karmaWrapper = KarmaParams(alignmentDir, List(), None)
 
   def addSSD(ssdPath: String): Unit = {

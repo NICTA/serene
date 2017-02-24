@@ -24,7 +24,6 @@ import au.csiro.data61.core.storage._
 import au.csiro.data61.modeler.{PredictOctopus, TrainOctopus}
 import au.csiro.data61.types._
 import au.csiro.data61.types.DataSetTypes._
-import au.csiro.data61.types.GraphTypes.NodeID
 import au.csiro.data61.types.ModelTypes.{Status, TrainState, _}
 import au.csiro.data61.types.SSDTypes._
 import com.typesafe.scalalogging.LazyLogging

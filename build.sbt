@@ -46,7 +46,7 @@ lazy val root = Project(
   .settings(
     name := "serene",
     version := mainVersion,
-    mainClass := Some("au.csiro.data61.core.Serene")
+    mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene")
   )
   .aggregate(core, matcher, modeler)
   .dependsOn(core, matcher, modeler)
@@ -166,8 +166,6 @@ lazy val core = Project(
       parallelExecution in Test := false,
       scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
       resolvers += Resolver.sonatypeRepo("snapshots"),
-
-      mainClass := Some("au.csiro.data61.core.Serene"),
 
       libraryDependencies ++= Seq(
         "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
