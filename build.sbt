@@ -70,6 +70,7 @@ lazy val types = Project(
       ,"com.typesafe"               %  "config"             % "1.3.0"
       ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
       ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
+      ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
     )
   )
 
