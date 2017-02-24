@@ -18,6 +18,7 @@
 
 package au.csiro.data61.types
 
+import au.csiro.data61.types.Exceptions.TypeException
 import au.csiro.data61.types.GraphTypes._
 import com.typesafe.scalalogging.LazyLogging
 import edu.isi.karma.modeling.ontology.OntologyManager
@@ -82,23 +83,23 @@ case object SSDNodeSerializer extends CustomSerializer[SSDNode](
         implicit val formats = DefaultFormats
         val nId: NodeID = HelperJSON.parseOption[NodeID]("id",jv) match {
           case Success(Some(v)) => v
-          case Success(None) => throw new Exception("Failed to parse SSDNode: absent id!")
-          case Failure(err) => throw new Exception(s"Failed to parse SSDNode: ${err.getMessage}")
+          case Success(None) => throw TypeException("Failed to parse SSDNode: absent id!")
+          case Failure(err) => throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
         }
         val nStatus: String = HelperJSON.parseOption[String]("status",jv) match {
           case Success(Some(v)) => v
           case Success(None) => "ForcedByUser" // default value
-          case Failure(err) => throw new Exception(s"Failed to parse SSDNode: ${err.getMessage}")
+          case Failure(err) => throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
         }
         val nLab: String = HelperJSON.parseOption[String]("label",jv) match {
           case Success(Some(v)) => v
-          case Success(None) => throw new Exception("Failed to parse SSDNode: absent label!")
-          case Failure(err) => throw new Exception(s"Failed to parse SSDNode: ${err.getMessage}")
+          case Success(None) => throw TypeException("Failed to parse SSDNode: absent label!")
+          case Failure(err) => throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
         }
         val nType: String = HelperJSON.parseOption[String]("type",jv) match {
           case Success(Some(v)) => v
-          case Success(None) => throw new Exception("Failed to parse SSDNode: absent type!")
-          case Failure(err) => throw new Exception(s"Failed to parse SSDNode: ${err.getMessage}")
+          case Success(None) => throw TypeException("Failed to parse SSDNode: absent type!")
+          case Failure(err) => throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
         }
         val nPrefix: String = HelperJSON.parseOption[String]("prefix",jv) match {
           case Success(Some(v)) => v
@@ -108,7 +109,7 @@ case object SSDNodeSerializer extends CustomSerializer[SSDNode](
               case _ => ""                                // for all other node types we use an empty string
             }
           }
-          case Failure(err) => throw new Exception(s"Failed to parse SSDNode: ${err.getMessage}")
+          case Failure(err) => throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
         }
         SSDNode(nId, SSDLabel(nLab,nType,nStatus, nPrefix))
     }, {
@@ -184,38 +185,38 @@ case object HelperLinkSerializer extends CustomSerializer[HelperLink](
         implicit val formats = DefaultFormats
         val id: LinkID = HelperJSON.parseOption[LinkID]("id",jv) match {
           case Success(Some(v)) => v
-          case Success(None) => throw new Exception("Failed to parse link: absent id!")
-          case Failure(err) => throw new Exception(s"Failed to parse link. ${err.getMessage}")
+          case Success(None) => throw TypeException("Failed to parse link: absent id!")
+          case Failure(err) => throw TypeException(s"Failed to parse link. ${err.getMessage}")
         }
         val source: NodeID = HelperJSON.parseOption[NodeID]("source",jv) match {
           case Success(Some(v)) => v
-          case Success(None) => throw new Exception("Failed to parse link: absent source id!")
-          case Failure(err) => throw new Exception(s"Failed to parse link. ${err.getMessage}")
+          case Success(None) => throw TypeException("Failed to parse link: absent source id!")
+          case Failure(err) => throw TypeException(s"Failed to parse link. ${err.getMessage}")
         }
         val target: NodeID = HelperJSON.parseOption[NodeID]("target",jv) match {
           case Success(Some(v)) => v
-          case Success(None) => throw new Exception("Failed to parse link: absent target id!")
-          case Failure(err) => throw new Exception(s"Failed to parse link. ${err.getMessage}")
+          case Success(None) => throw TypeException("Failed to parse link: absent target id!")
+          case Failure(err) => throw TypeException(s"Failed to parse link. ${err.getMessage}")
         }
         val status: String = HelperJSON.parseOption[String]("status",jv) match {
           case Success(Some(v)) => v
           case Success(None) => "ForcedByUser" // default value
-          case Failure(err) => throw new Exception(s"Failed to parse link. ${err.getMessage}")
+          case Failure(err) => throw TypeException(s"Failed to parse link. ${err.getMessage}")
         }
         val label: String = HelperJSON.parseOption[String]("label",jv) match {
           case Success(Some(v)) => v
-          case Success(None) => throw new Exception("Failed to parse link: absent label!")
-          case Failure(err) => throw new Exception(s"Failed to parse link. ${err.getMessage}")
+          case Success(None) => throw TypeException("Failed to parse link: absent label!")
+          case Failure(err) => throw TypeException(s"Failed to parse link. ${err.getMessage}")
         }
         val lType = HelperJSON.parseOption[String]("type",jv) match {
           case Success(Some(v)) => v
-          case Success(None) => throw new Exception("Failed to parse link: absent type!")
-          case Failure(err) => throw new Exception(s"Failed to parse link. ${err.getMessage}")
+          case Success(None) => throw TypeException("Failed to parse link: absent type!")
+          case Failure(err) => throw TypeException(s"Failed to parse link. ${err.getMessage}")
         }
         val lPrefix: String = HelperJSON.parseOption[String]("prefix",jv) match {
           case Success(Some(v)) => v
           case Success(None) => TypeConfig.DefaultNamespace // default value
-          case Failure(err) => throw new Exception(s"Failed to parse link: ${err.getMessage}")
+          case Failure(err) => throw TypeException(s"Failed to parse link: ${err.getMessage}")
         }
         HelperLink(id, source, target, label, lType, status, lPrefix)
     }, {
@@ -299,7 +300,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
     graph.nodes
       .find(n => n.id == nodeID) match {
       case Some(nn) => nn.ssdLabel
-      case _ => throw new Exception("Wrong node id in the mappings -- it doesn't exist in the semantic model.")
+      case _ => throw TypeException("Wrong node id in the mappings -- it doesn't exist in the semantic model.")
     }
   }
 
@@ -334,7 +335,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
     * @param nodeID Id of the node in the semanic model.
     * @return
     */
-  private def getDomainType(nodeID: NodeID): Option[(String, String)] = {
+  def getDomainType(nodeID: NodeID): Option[(String, String)] = {
     graph.nodes
       .find(n => n.id == nodeID) match {
       case Some(nn) => {
@@ -350,7 +351,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
                   "" // we set the class uri to be empty string
                 case _ =>
                   logger.error(s"DataNode $nodeID has more than 1 ClassNode.")
-                  throw new Exception(s"DataNode $nodeID has more than 1 ClassNode.")
+                  throw TypeException(s"DataNode $nodeID has more than 1 ClassNode.")
             }
             // get the property link: it should be the incoming link of the DataNode
             val propName: String = nn.incoming
@@ -361,14 +362,14 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
                 logger.error(s"We cannot identify DataPropertyLink for DataNode $nodeID.")
                 logger.debug(s"ClassName= $className")
                 logger.debug(s"${nn.incoming.flatMap(e => getDataPropertyUri(e.asInstanceOf[LinkT])).toList}")
-                throw new Exception(s"We cannot identify DataPropertyLink for DataNode $nodeID.")
+                throw TypeException(s"We cannot identify DataPropertyLink for DataNode $nodeID.")
             }
 
             Some(className, propName)
           case _ => None // domain and type make no sense for others
         }
       }
-      case _ => throw new Exception(s"Wrong node id $nodeID -- it doesn't exist in the semantic model.")
+      case _ => throw TypeException(s"Wrong node id $nodeID -- it doesn't exist in the semantic model.")
     }
   }
 
@@ -400,17 +401,17 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
         new ClassInstanceLink(karmaID) // FIXME: LinkKeyInfo needs to be initialized...
       case "ColumnSubClassLink" =>
         logger.error(s"Unsupported link type ${e.ssdLabel.labelType}")
-        throw new Exception(s"Unsupported link type ${e.ssdLabel.labelType}")
+        throw TypeException(s"Unsupported link type ${e.ssdLabel.labelType}")
       case "DataPropertyOfColumnLink" => // no idea what this is for
         logger.error(s"Unsupported link type ${e.ssdLabel.labelType}")
-        throw new Exception(s"Unsupported link type ${e.ssdLabel.labelType}")
+        throw TypeException(s"Unsupported link type ${e.ssdLabel.labelType}")
       case "ObjectPropertySpecializationLink" => // no idea what this is for
         logger.error(s"Unsupported link type ${e.ssdLabel.labelType}")
-        throw new Exception(s"Unsupported link type ${e.ssdLabel.labelType}")
+        throw TypeException(s"Unsupported link type ${e.ssdLabel.labelType}")
       // there are still some COmpactType links
       case _ =>
         logger.error(s"Unsupported link type ${e.ssdLabel.labelType}")
-        throw new Exception(s"Unsupported link type ${e.ssdLabel.labelType}")
+        throw TypeException(s"Unsupported link type ${e.ssdLabel.labelType}")
     }
   }
 
@@ -466,7 +467,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
             colNode.assignUserType(newType)
           case None =>
             logger.error("ColumnNode cannot be created since DataNode is not properly defined.")
-            throw new Exception("ColumnNode cannot be created since DataNode is not properly defined.")
+            throw TypeException("ColumnNode cannot be created since DataNode is not properly defined.")
         }
         // TODO: do we need to set learnedSemanticTypes explicitly to []?
 //        colNode.setLearnedSemanticTypes(new util.LinkedList[KarmaSemanticType]())
@@ -596,20 +597,20 @@ case object SemanticModelSerializer extends CustomSerializer[SemanticModel](
       case jv: JValue =>
         val nodes: Map[NodeID,SSDNode] = HelperJSON.parseOption[List[SSDNode]]("nodes",jv) match {
           case Success(Some(nList)) => nList.map(node => node.id -> node) toMap
-          case Success(None) => throw new Exception("Nodes are absent.")
-          case Failure(err) => throw new Exception(s"Failed to extract nodes. ${err.getMessage}")
+          case Success(None) => throw TypeException("Nodes are absent.")
+          case Failure(err) => throw TypeException(s"Failed to extract nodes. ${err.getMessage}")
         }
         val hLinks: List[HelperLink] = HelperJSON.parseOption[List[HelperLink]]("links",jv) match {
           case Success(Some(eList)) => eList
-          case Success(None) => throw new Exception("Links are absent.")
-          case Failure(err) => throw new Exception(s"Failed to extract links. ${err.getMessage}")
+          case Success(None) => throw TypeException("Links are absent.")
+          case Failure(err) => throw TypeException(s"Failed to extract links. ${err.getMessage}")
         }
         val links: List[SSDLink[SSDNode]] = hLinks.map(
           hLink => {
             val n1 = nodes.getOrElse(hLink.source,
-              throw new Exception("Wrong link: non-existent source."))
+              throw TypeException("Wrong link: non-existent source."))
             val n2 = nodes.getOrElse(hLink.target,
-              throw new Exception("Wrong link: non-existent target."))
+              throw TypeException("Wrong link: non-existent target."))
             SSDLink(n1, n2
               , hLink.id
               , SSDLabel(hLink.label, hLink.lType, hLink.status, hLink.prefix))

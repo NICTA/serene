@@ -22,7 +22,8 @@ import java.nio.file.Path
 import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.DataSetTypes.DataSetID
 import au.csiro.data61.types.GraphTypes._
-import au.csiro.data61.types.SSDTypes.{AttrID, OwlID, SsdID}
+import au.csiro.data61.types.ModelTypes.{ModelID, TrainState}
+import au.csiro.data61.types.SSDTypes.{AttrID, SsdID}
 import com.typesafe.scalalogging.LazyLogging
 import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
 import edu.isi.karma.modeling.ontology.OntologyManager
@@ -36,18 +37,36 @@ object SSDTypes {
   type SsdID = Int      // id of the SSD
   type AttrID = Int     // id for the transformed column
   type OwlID = Int      // id of the owl
-  type AlignmentID = Int
+  type OctopusID = Int  // id for the alignment model
 
   /**
-    * Alignment
+    * Octopus is the data structure which encapsulates models for Schema Matcher and Semantic Modeler.
+    * It contains configuration parameters to initialize training for Schema Matcher and Semantic Modeler.
     *
     * @param id The ID key for the alignment
     * @param ontologies The ontologies used for the alignment
-    * @param ssds The list of SSDs for the data integration alignment
+    * @param ssds The list of SSDs for the construction of the alignment graph
+    * @param lobsterID Id of the associated schema matcher model
+    * @param modelingProps Modeling properties for semantic modeler; optional string of file location
+    * @param alignmentDir Directory where the alignment graph is stored
+    * @param semanticTypeMap Mapping of matcher:labels to URIs.
+    * @param state State of Octopus
+    * @param dateCreated Date of creation
+    * @param dateModified Date of latests modification
+    * @param description Description of the model
     */
-  case class Alignment(id: AlignmentID,
-                       ontologies: List[Owl],
-                       ssds: List[SsdID]) extends Identifiable[AlignmentID]
+  case class Octopus(id: OctopusID,
+                     ontologies: List[Int], // WARNING: Int should be OwlID! Json4s bug.
+                     ssds: List[Int],       // WARNING: Int should be SsdID! Json4s bug.
+                     lobsterID: ModelID,
+                     modelingProps: Option[String],
+                     alignmentDir: Option[Path],
+                     semanticTypeMap: Option[Map[String,String]],
+                     state: TrainState,
+                     dateCreated: DateTime,
+                     dateModified: DateTime,
+                     description: String
+                    ) extends Identifiable[OctopusID]
 
   /**
     * Owl is a reference to the Owl file storage
@@ -77,8 +96,10 @@ object SSDTypes {
   * @param columns List of source columns
   * @param attributes List of attributes = transformed columns
   * @param ontology List of location path strings of ontologies
-  * @param semanticModel Semantic Model of the data source
-  * @param mappings Mappings between attribute ids of the data source and node ids in the semantic model
+  * @param semanticModel Semantic Model of the data source; optional
+  * @param mappings Mappings between attribute ids of the data source and node ids in the semantic model; optional
+  * @param dateCreated Date when it was created
+  * @param dateModified Date when it was last modified
   */
 case class SemanticSourceDesc(version: String,
                               name: String,
@@ -87,7 +108,10 @@ case class SemanticSourceDesc(version: String,
                               attributes: List[SSDAttribute],
                               ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
                               semanticModel: Option[SemanticModel],
-                              mappings: Option[SSDMapping]) extends Identifiable[SsdID] with LazyLogging{
+                              mappings: Option[SSDMapping],
+                              dateCreated: DateTime,
+                              dateModified: DateTime
+                             ) extends Identifiable[SsdID] with LazyLogging{
   /**
     * we need to check consistency of SSD
     * -- columnIds in attributes refer to existing ids in columns
@@ -172,14 +196,15 @@ case class SemanticSourceDesc(version: String,
 
   /**
     * Update the semantic model and the mappings of the current semantic source description.
-    * This method affects only the semantic model and the mappings.
+    * This method affects only the semantic model, the mappings and dateModified.
     * @param karmaSM Semantic Model returned from the Karma tool, this is type KarmaGraph.
     * @return
     */
   def update(karmaSM: KarmaGraph): SemanticSourceDesc = {
     logger.info(s"Updating SSD $id")
     this.copy(semanticModel = Some(karmaSM.toSemanticModel),
-      mappings = Some(SSDMapping(karmaSM.columnNodeMappings))
+      mappings = Some(SSDMapping(karmaSM.columnNodeMappings)),
+      dateModified = DateTime.now
     )
   }
 

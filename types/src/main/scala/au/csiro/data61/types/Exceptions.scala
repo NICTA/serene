@@ -37,4 +37,11 @@ object Exceptions {
     */
   case class MatcherException(message: String) extends RuntimeException(message)
 
+  /**
+    * Errors caused by Types
+    *
+    * @param message Error message
+    */
+  case class TypeException(message: String) extends RuntimeException(message)
+
 }

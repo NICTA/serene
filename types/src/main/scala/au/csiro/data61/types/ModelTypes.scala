@@ -20,6 +20,7 @@ package au.csiro.data61.types
 import java.nio.file.Path
 
 import au.csiro.data61.types.DataSetTypes.DataSetID
+import au.csiro.data61.types.Exceptions.TypeException
 import au.csiro.data61.types.ModelTypes.ModelID
 import org.joda.time.DateTime
 import org.json4s._
@@ -31,6 +32,25 @@ import scala.language.postfixOps
   */
 object ModelTypes {
 
+  /**
+    * Lobster...
+    *
+    * @param description
+    * @param id
+    * @param modelType
+    * @param classes
+    * @param features
+    * @param costMatrix
+    * @param resamplingStrategy
+    * @param labelData
+    * @param refDataSets
+    * @param modelPath
+    * @param state
+    * @param dateCreated
+    * @param dateModified
+    * @param numBags
+    * @param bagSize
+    */
   case class Model(description: String,
                    id: ModelID,
                    modelType: ModelType,
@@ -156,7 +176,7 @@ case object FeatureSerializer extends CustomSerializer[Feature](format => (
       implicit val formats = DefaultFormats
       val str = jv.extract[String]
       val feature = Feature.lookup(str)
-      feature getOrElse (throw new Exception("Failed to parse Feature"))
+      feature getOrElse (throw TypeException("Failed to parse Feature"))
   }, {
   case feature: Feature =>
     JString(feature.str)
@@ -232,7 +252,7 @@ case object SamplingStrategySerializer extends CustomSerializer[SamplingStrategy
       implicit val formats = DefaultFormats
       val str = jv.extract[String]
       val samplingStrategy = SamplingStrategy.lookup(str)
-      samplingStrategy getOrElse (throw new Exception("Failed to parse SamplingStrategy"))
+      samplingStrategy getOrElse (throw TypeException("Failed to parse SamplingStrategy"))
   }, {
   case samplingStrategy: SamplingStrategy =>
     JString(samplingStrategy.str)

@@ -17,6 +17,7 @@
  */
 package au.csiro.data61.types
 
+import au.csiro.data61.types.Exceptions.TypeException
 import org.json4s._
 
 import scala.util.{Failure, Success, Try}
@@ -55,7 +56,7 @@ object HelperJSON {
       } recoverWith {
         case err =>
           Failure(
-            new Exception(s"Failed to parse: $label. Error: ${err.getMessage}"))
+            TypeException(s"Failed to parse: $label. Error: ${err.getMessage}"))
       }
     }
   }

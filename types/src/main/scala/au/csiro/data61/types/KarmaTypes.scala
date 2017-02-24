@@ -19,6 +19,7 @@ package au.csiro.data61.types
 
 import java.nio.file.Paths
 
+import au.csiro.data61.types.Exceptions.TypeException
 import au.csiro.data61.types.SSDTypes.{AttrID, OwlID, SsdID}
 import au.csiro.data61.types.GraphTypes._
 import com.typesafe.scalalogging.LazyLogging
@@ -27,6 +28,7 @@ import edu.isi.karma.rep.alignment.{SemanticType => KarmaSemanticType}
 import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
 import edu.isi.karma.modeling.alignment.learner.SortableSemanticModel
 import org.jgrapht.graph.DirectedWeightedMultigraph
+import org.joda.time.DateTime
 
 import scalax.collection.Graph
 import scala.collection.JavaConverters._
@@ -213,7 +215,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
         "" // basically, the semantic type is not properly set in Karma
       case _ =>
         logger.error("We do not support multiple user semantic types.")
-        throw new Exception("We do not support multiple user semantic types.")
+        throw TypeException("We do not support multiple user semantic types.")
     }
     label
   }
@@ -235,7 +237,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
         n.getHNodeId // basically, returning Karma node id
       case _ =>
         logger.error("We do not support multiple user semantic types.")
-        throw new Exception("We do not support multiple user semantic types.")
+        throw TypeException("We do not support multiple user semantic types.")
     }
     colId
   }
@@ -406,7 +408,9 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
       attributes = ssdAttributes(tableName),
       ontology = ontologies, // here we create instance of KarmaParams...
       semanticModel = Some(karmaSM.toSemanticModel),
-      mappings = Some(SSDMapping(karmaSM.columnNodeMappings)))
+      mappings = Some(SSDMapping(karmaSM.columnNodeMappings)),
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now)
   }
 
 }
