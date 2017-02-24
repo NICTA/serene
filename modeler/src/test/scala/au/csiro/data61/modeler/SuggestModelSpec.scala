@@ -98,21 +98,21 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     */
   def getBusinessDataSetPredictions: Option[DataSetPrediction] = {
     // we care only about scores in the semantic-modeller
-    val col0 = ColumnPrediction(label="Organization#name",
+    val col0 = ColumnPrediction(label="Organization---name",
       confidence=0.5,
-      scores=Map("Organization#name" -> 0.5),
+      scores=Map("Organization---name" -> 0.5),
       features=Map())
-    val col1 = ColumnPrediction(label="Person#name",
+    val col1 = ColumnPrediction(label="Person---name",
       confidence=1.0,
-      scores=Map("Person#name" -> 1.0),
+      scores=Map("Person---name" -> 1.0),
       features=Map())
-    val col2 = ColumnPrediction(label="City#name",
+    val col2 = ColumnPrediction(label="City---name",
       confidence=1.0,
-      scores=Map("City#name" -> 1.0),
+      scores=Map("City---name" -> 1.0),
       features=Map())
-    val col3 = ColumnPrediction(label="State#name",
+    val col3 = ColumnPrediction(label="State---name",
       confidence=1.0,
-      scores=Map("State#name" -> 1.0),
+      scores=Map("State---name" -> 1.0),
       features=Map())
 
     Some(DataSetPrediction(
@@ -131,13 +131,13 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     */
   def getCitiesDataSetPredictions: Option[DataSetPrediction] = {
     // we care only about scores in the semantic-modeller
-    val col0 = ColumnPrediction(label="City#name",
+    val col0 = ColumnPrediction(label="City---name",
       confidence=0.5,
-      scores=Map("City#name" -> 0.5, "State#name" -> 0.5),
+      scores=Map("City---name" -> 0.5, "State---name" -> 0.5),
       features=Map())
-    val col1 = ColumnPrediction(label="City#name",
+    val col1 = ColumnPrediction(label="City---name",
       confidence=0.5,
-      scores=Map("City#name" -> 0.5, "State#name" -> 0.5),
+      scores=Map("City---name" -> 0.5, "State---name" -> 0.5),
       features=Map())
 
     Some(DataSetPrediction(

@@ -34,6 +34,7 @@ import com.typesafe.scalalogging.LazyLogging
 import scalax.collection.Graph
 import au.csiro.data61.types._
 import au.csiro.data61.types.ColumnTypes.ColumnID
+import org.joda.time.DateTime
 
 
 /**
@@ -111,7 +112,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       attributes = List(dummyAttr),
       ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
-      mappings = Some(dummyMap))
+      mappings = Some(dummyMap),
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now)
 
     assert(ssd.isConsistent)
     assert(ssd.isComplete)
@@ -125,7 +128,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       attributes = List(dummyAttr, dummyAttr2), // attributes are inconsistent
       ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
-      mappings = Some(dummyMap))
+      mappings = Some(dummyMap),
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now)
 
     assert(!ssd.isConsistent)
     assert(!ssd.isComplete)
@@ -139,7 +144,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       attributes = List(dummyAttr),
       ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
-      mappings = Some(dummyMap2)) // mappings are inconsistent
+      mappings = Some(dummyMap2),
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now) // mappings are inconsistent
 
     assert(!ssd2.isConsistent)
     assert(!ssd2.isComplete)
@@ -153,7 +160,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       attributes = List(dummyAttr),
       ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
-      mappings = Some(dummyMap3)) // mappings are inconsistent
+      mappings = Some(dummyMap3),
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now) // mappings are inconsistent
 
     assert(!ssd3.isConsistent)
     assert(!ssd3.isComplete)
@@ -167,7 +176,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       attributes = List(dummyAttr),
       ontology = List(1),
       semanticModel = Some(SemanticModel(Graph())), // semantic model is absent while mappings are there
-      mappings = Some(dummyMap))
+      mappings = Some(dummyMap),
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now)
 
     assert(!ssd4.isConsistent)
     assert(!ssd4.isComplete)
@@ -181,8 +192,11 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       attributes = List(dummyAttr),
       ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
-      mappings = Some(dummyMap))
+      mappings = Some(dummyMap),
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now)
     val json = Extraction.decompose(ssd)
+    print(json)
     val ssd2 = json.extract[SemanticSourceDesc]
 
     assert(ssd.mappings === ssd2.mappings)
@@ -192,6 +206,8 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
     assert(getSMNodes(ssd) === getSMNodes(ssd2))
     assert(getSMLinks(ssd) === getSMLinks(ssd2))
     assert(ssd.semanticModel === ssd2.semanticModel)
+    assert(ssd.dateModified === ssd2.dateModified)
+    assert(ssd.dateCreated === ssd2.dateCreated)
     assert(ssd === ssd2)
   }
 

@@ -191,7 +191,7 @@ case class KarmaParams(alignmentDir: String,
     * delete karma home directory
     */
   def deleteKarma(): Unit = {
-    logger.info("Deleting karma home directory")
+    logger.debug("Deleting karma home directory")
     removeAll(Paths.get(ModelerConfig.KarmaDir))
   }
 

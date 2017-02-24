@@ -46,6 +46,8 @@ import au.csiro.data61.types.Exceptions._
   */
 case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
 
+  val defaultNumSemanticTypes = 4
+
   /**
     * needed for alignment construction when using Karma
     * needs to be different from KarmaBuildAlignmentGraph
@@ -122,16 +124,16 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     val scalaRes: List[SemanticType] = predictedSemanticTypes.toList
       .map{
         predSemType =>
-          // predSemType should be of the format: class#property
+          // predSemType should be of the format: class---property
           // where class corresponds to the label of the corresponding ClassNode in the ontology
           // and property corresponds to the label of the corresponding DataNode in the ontology
-          val parts = predSemType._1.split("#")
+          val parts = predSemType._1.split("---")
           if(parts.size != 2) {
             logger.error(s"Schema Matcher class label is not set properly: ${predSemType._1}")
             throw ModelerException(s"Schema Matcher class label is not set properly: ${predSemType._1}")
           }
           // if class from predSemType is not in the semanticTypeMap,
-          // we take the default namespace from the Config and concatenate it with class.
+          // we take the default namespace from the TypeConfig and concatenate it with class.
           val domainUri = semanticTypeMap.getOrElse(parts(0), TypeConfig.DefaultNamespace) + parts(0)
           val propertyUri = semanticTypeMap.getOrElse(parts(1), TypeConfig.DefaultNamespace) + parts(1)
           logger.debug(s"$hNodeId: (DomainURI, PropertyURI) = ($domainUri,$propertyUri)")
@@ -309,7 +311,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @param sortableKarmaSM SortableSemanticModel found by Karma for this ssd.
     * @param rank Rank of the sortableKarmaSM as indicated by Karma.
     * @return
-    * @throws KarmaException when semantic scores cannot be calculated
+    * @throws ModelerException when semantic scores cannot be calculated
     */
   private def convertSuggestion(ssd:SemanticSourceDesc
                         , sortableKarmaSM: SortableSemanticModel
@@ -571,7 +573,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @param ssd SemanticSourceDesc for which we need to learn the alignment.
     * @param ontologies List of location strings for ontologies of this ssd.
     * @param dsPredictions Matcher DataSetPrediction object which contains predictions for columns in the dataset.
-    * @param semanticTypeMap Mapping of matcher:labels to URIs.
+    * @param semanticTypeMap Mapping of matcher:labels to URIs (just namespace actually).
     * @param attrToColMap Mapping of modeller:attributes to matcher:columns.
     * @param numSemanticTypes Integer which indicates how many top semantic types to keep; default is 4.
     * @return SSDPrediction wrapped into Option
@@ -581,7 +583,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
                     , dsPredictions: Option[DataSetPrediction]
                     , semanticTypeMap: Map[String, String]
                     , attrToColMap: Map[AttrID,ColumnID]
-                    , numSemanticTypes: Int = 4
+                    , numSemanticTypes: Int = defaultNumSemanticTypes
                    ): Option[SSDPrediction] = {
     karmaInitialize()
     Try {
@@ -598,7 +600,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
       val alignmentGraph: Alignment = dsPredictions match {
         case Some(dsPreds) =>
           setAlignmentSourceColumns(
-            getKarmaNotMappedAttributes(ssd,dsPreds,semanticTypeMap,attrToColMap)
+            getKarmaNotMappedAttributes(ssd, dsPreds, semanticTypeMap, attrToColMap)
             , initialAlignment)
         case None =>
           initialAlignment //in case there are no predictions, we use the initial alignment
