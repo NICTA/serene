@@ -20,6 +20,7 @@ package au.csiro.data61.core.api
 import au.csiro.data61.core.drivers.MatcherInterface
 import au.csiro.data61.core.types.MatcherTypes.{Status, TrainState, ModelID, Model}
 import au.csiro.data61.core._
+import com.twitter.io.{Reader, Buf}
 import io.finch._
 import org.joda.time.DateTime
 import org.json4s.JValue
@@ -104,7 +105,8 @@ object ModelAPI extends RestAPI {
    * Returns a JSON Model object with id.
    *
    */
-  val modelCreate: Endpoint[Model] = post(APIVersion :: "model" :: body) {
+
+  val modelCreate: Endpoint[Model] = post(APIVersion :: "model" :: stringBody) {
     (body: String) =>
       (for {
         request <- parseModelRequest(body)
@@ -154,7 +156,7 @@ object ModelAPI extends RestAPI {
     */
   val modelTrain: Endpoint[Unit] = post(APIVersion :: "model" :: int :: "train" :: paramOption("force")) {
     (id: Int, force: Option[String]) =>
-      val state = Try(MatcherInterface.trainModel(id, force.map(_.toBoolean).getOrElse(false)))
+      val state = Try(MatcherInterface.trainModel(id, force.exists(_.toBoolean)))
       state match {
         case Success(Some(_))  =>
           Accepted[Unit]
@@ -198,7 +200,7 @@ object ModelAPI extends RestAPI {
   /**
    * Patch a portion of a Model. Will destroy all cached models
    */
-  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int :: body) {
+  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int :: stringBody) {
     (id: Int, body: String) =>
       (for {
         request <- parseModelRequest(body)

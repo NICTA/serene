@@ -26,13 +26,13 @@ import scala.language.postfixOps
  * and serve as a Finagle Http Service forever.
  *
  */
-object AlignmentAPI extends RestAPI {
+object OctopusAPI extends RestAPI {
 
-  val alignmentRoot: Endpoint[StatusMessage] = get(APIVersion :: "alignment") {
+  val alignmentRoot: Endpoint[StatusMessage] = get(APIVersion :: "octopus") {
     Ok(StatusMessage("Not Implemented"))
   }
 
-  val alignmentGet: Endpoint[StatusMessage] = get(APIVersion :: "alignment" :: int) {
+  val alignmentGet: Endpoint[StatusMessage] = get(APIVersion :: "octopus" :: int) {
     (id: Int) =>
       Ok(StatusMessage("Not Implemented"))
   }

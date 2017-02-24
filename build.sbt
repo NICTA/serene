@@ -46,7 +46,7 @@ lazy val root = Project(
   .settings(
     name := "serene",
     version := mainVersion,
-    mainClass := Some("au.csiro.data61.core.Serene")
+    mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene")
   )
   .aggregate(core, matcher)
   .dependsOn(core, matcher)
@@ -121,8 +121,6 @@ lazy val core = Project(
       resolvers += Resolver.sonatypeRepo("snapshots"),
       parallelExecution in Test := false,
 
-      mainClass := Some("au.csiro.data61.core.Serene"),
-
       libraryDependencies ++= Seq(
         "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
         ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
@@ -133,10 +131,10 @@ lazy val core = Project(
         ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
         ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
         ,"com.github.tototoshi"       %% "scala-csv"          % "1.3.1"
-        ,"com.github.finagle"         %% "finch-core"         % "0.10.0"
-        ,"com.github.finagle"         %% "finch-json4s"       % "0.10.0"
-        ,"com.github.finagle"         %% "finch-test"         % "0.10.0"
-        ,"com.twitter"                %% "finagle-http"       % "6.35.0"
+        ,"com.github.finagle"         %% "finch-core"         % "0.11.1"
+        ,"com.github.finagle"         %% "finch-json4s"       % "0.11.1"
+        ,"com.github.finagle"         %% "finch-test"         % "0.11.1"
+        ,"com.twitter"                %% "finagle-http"       % "6.39.0"
         ,"junit"                      %  "junit"              % "4.12"
         ,"com.typesafe"               %  "config"             % "1.3.0"
         ,"com.github.scopt"           %% "scopt"              % "3.5.0"

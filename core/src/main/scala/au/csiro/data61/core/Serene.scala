@@ -51,7 +51,7 @@ object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
   val endpoints =
     DatasetAPI.endpoints :+:
       ModelAPI.endpoints :+:
-      AlignmentAPI.endpoints :+:
+      OctopusAPI.endpoints :+:
       OwlAPI.endpoints :+:
       SsdAPI.endpoints :+:
       TestAPI.endpoints
@@ -82,7 +82,7 @@ object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
   def defaultServer: ListeningServer = {
     Http.server
       .withMaxRequestSize(1999.megabytes)
-      .serve(s"${config.serverHost}:${config.serverPort}", restAPI.toService)
+      .serve(s"${config.serverHost}:${config.serverPort}", restAPI.toServiceAs[Application.Json])
   }
 
   def main(args: Array[String]): Unit = {

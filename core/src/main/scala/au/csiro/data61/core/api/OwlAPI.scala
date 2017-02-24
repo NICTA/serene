@@ -17,10 +17,37 @@
  */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.types.StatusMessage
+import java.io.File
+import java.nio.charset.StandardCharsets
+
+import au.csiro.data61.core.types.ModelerTypes.OwlID
+import com.twitter.finagle.http.Response
+import com.twitter.finagle.http.exp.Multipart
+import com.twitter.io.Buf
 import io.finch._
+import org.apache.commons.io.FileUtils
+import org.joda.time.DateTime
+import org.json4s.jackson.JsonMethods._
 
 import scala.language.postfixOps
+
+
+object OwlDocumentFormat extends Enumeration {
+  type OwlDocumentFormat = Value
+  val Turtle = Value("turtle")
+  val JsonLd = Value("jsonld")
+  val RdfXml = Value("rdfxml")
+  val Unknown = Value("unknown")
+}
+
+case class Owl(
+              id: OwlID,
+              name: String,
+              format: OwlDocumentFormat.OwlDocumentFormat,
+              description: String,
+              dateCreated: DateTime,
+              dateModified: DateTime)
+
 
 /**
  * Alignment application object. Here we compose the endpoints
@@ -29,14 +56,63 @@ import scala.language.postfixOps
  */
 object OwlAPI extends RestAPI {
 
-  val asdf: Endpoint[StatusMessage] = get(APIVersion :: "owl") {
-    Ok(StatusMessage("Not Implemented"))
+  // REMOVE!!!!
+  val OwlFile = "core/src/test/resources/owl/dataintegration_report_ontology.owl"
+
+  val junkOwl = Owl(
+    1,
+    "testing.owl",
+    OwlDocumentFormat.Turtle,
+    "This is a test file",
+    DateTime.now(),
+    DateTime.now()
+  )
+
+  val datasetCreateOptions =
+    fileUploadOption("file") ::
+      paramOption("description") ::
+      paramOption("typeMap")
+
+  val owlRoot: Endpoint[List[Int]] = get(APIVersion :: "owl") {
+    Ok(List(junkOwl.id))
   }
 
-  val qwer: Endpoint[StatusMessage] = get(APIVersion :: "owl" :: "1") {
-    Ok(StatusMessage("Not Implemented"))
+  val owlFile: Endpoint[Response] = get(APIVersion :: "owl" :: int :: "file") {
+    (id: Int) =>
+      val content = FileUtils.readFileToString(new File(OwlFile), StandardCharsets.UTF_8)
+      val rep = Response()
+      rep.content = Buf.Utf8(content)
+      rep.contentType = "text/plain"
+      rep
   }
 
-  val endpoints = asdf :+: qwer
+  val owlCreate: Endpoint[Owl] = post(APIVersion :: "owl" :: datasetCreateOptions) {
+
+    (file: Option[Multipart.FileUpload],
+     desc: Option[String],
+     format: Option[String]) => {
+
+        logger.info(s"Creating ontology file=$file, desc=$desc, format=$format")
+
+        Ok(junkOwl)
+      }
+  }
+
+  val owlGet: Endpoint[Owl] = get(APIVersion :: "owl" :: int) {
+    (id: Int) =>
+      Ok(junkOwl)
+  }
+
+  val owlUpdate: Endpoint[Owl] = post(APIVersion :: "owl" :: int) {
+    (id: Int) =>
+      Ok(junkOwl)
+  }
+
+  val owlRemove: Endpoint[String] = delete(APIVersion :: "owl" :: int) {
+    (id: Int) =>
+      Ok("Deleted successfully")
+  }
+
+  val endpoints = owlRoot :+: owlCreate :+: owlGet :+: owlUpdate :+: owlRemove :+: owlFile
 
 }

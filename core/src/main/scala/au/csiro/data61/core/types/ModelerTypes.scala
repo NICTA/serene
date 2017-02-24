@@ -43,7 +43,7 @@ object ModelerTypes {
     */
   case class Alignment(id: AlignmentID,
                        modelID: ModelID,
-                       ontologies: List[Owl],
+                       ontologies: List[OwlID],
                        ssds: List[SsdID]) extends Identifiable[AlignmentID]
 
   /**
