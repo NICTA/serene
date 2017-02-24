@@ -43,7 +43,7 @@
 //      .setAppName("SereneSchemaMatcher")
 //      .setMaster(s"local[$numWorkers]")
 //      .set("spark.driver.allowMultipleContexts", "true")
-//      //        .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
+//      //.set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
 //      .set("spark.network.timeout", "800s")
 //    //        .set("spark.executor.heartbeatInterval", "20s")
 //    val sc = new SparkContext(conf)
@@ -52,7 +52,7 @@
 //    (sc, sqlContext)
 //  }
 //
-//  def setUpSpark2(numWorkers: String ="1") = {
+//  def setUpSpark2(numWorkers: String ="1"): SparkSession = {
 //    val sparkSession = SparkSession.builder.
 //      master(s"local[$numWorkers]")
 //      .appName("spark session example")
@@ -60,13 +60,14 @@
 //    sparkSession
 //  }
 //
-//  def trainRandomForest(spark: SparkSession): (RandomForestClassificationModel, Double) = {
+//  def readData(spark: SparkSession): (DataFrame, List[String]) = {
 //    // Load and parse the data file, converting it to a DataFrame.
-////    val corFile = Paths.get(helperDir, "sample_libsvm_data.txt").toString
-////    val data: DataFrame = spark.read.format("libsvm").load(corFile)
-//    val corFile = Paths.get(helperDir, "test.csv").toString
+//    //    val corFile = Paths.get(helperDir, "sample_libsvm_data.txt").toString
+//    //    val data: DataFrame = spark.read.format("libsvm").load(corFile)
+//    val corFile = Paths.get(helperDir, "train_error2.csv").toString
 //
-//    val featurenames = (1 to 25).map(x => s"feature$x")
+////    val featurenames = (1 to 401).map(x => s"feature$x")
+//    val featurenames = (1 to 179).map(x => s"feature$x")
 //    // /construct schema
 //    val schema: StructType = StructType(
 //      StructField("label", StringType, false) +: featurenames
@@ -74,23 +75,27 @@
 //          StructField(n, DoubleType, false)
 //        }
 //    )
-//
-//
 //    val data: DataFrame = spark.read
 //      .format("csv")
 //      .schema(schema)
-////      .option("header", "true") //reading the headers
-////      .option("mode", "DROPMALFORMED")
+////            .option("header", "true") //reading the headers
+//      //      .option("mode", "DROPMALFORMED")
 //      .load(corFile)
 //
 //    print(data.schema)
 //    print(data.schema.fieldNames)
 //
 //    println("***********")
-//    data.show(10)
 //    data.write.csv(s"/tmp/test/testspark_${System.nanoTime()}.csv")
 //    println("***********")
 //
+//    (data, featurenames.toList)
+//
+//  }
+//
+//  def trainRandomForest(spark: SparkSession,
+//                        data: DataFrame,
+//                        featurenames: List[String]): (RandomForestClassificationModel, Double) = {
 //    // Index labels, adding metadata to the label column.
 //    // Fit on whole dataset to include all labels in index.
 //    val labelIndexer = new StringIndexer()
@@ -150,30 +155,33 @@
 //    println("Test Error = " + (1.0 - accuracy))
 //
 //    val rfModel = model.stages(2).asInstanceOf[RandomForestClassificationModel]
-//    println("Learned classification forest model:\n" + rfModel.toDebugString)
+////    println("Learned classification forest model:\n" + rfModel.toDebugString)
 //
 //    (rfModel, accuracy)
 //  }
 //
 //  test("one worker vs four workers should learn the same model") {
 //    val spark = setUpSpark2("2")
-//    val (oneCoreModel, accu1) = trainRandomForest(spark)
+//    val (data,featurenames) = readData(spark)
+//    val (oneCoreModel, accu1) = trainRandomForest(spark, data, featurenames)
 //    spark.close()
 //
 //
-//    val spark2 = setUpSpark2("4")
-//    val (twoCoreModel, accu2) = trainRandomForest(spark2)
-//    spark2.stop()
+////    val spark2 = setUpSpark2("4")
+////    val (twoCoreModel, accu2) = trainRandomForest(spark2, data, featurenames)
+////    spark2.stop()
 //
-//    assert(accu1 === accu2)
-//    assert(oneCoreModel.numClasses === twoCoreModel.numClasses)
-//    assert(oneCoreModel.numFeatures === twoCoreModel.numFeatures)
-//    assert(oneCoreModel.treeWeights === twoCoreModel.treeWeights)
-//    assert(oneCoreModel.totalNumNodes === twoCoreModel.totalNumNodes)
-//    assert(oneCoreModel.featureImportances === twoCoreModel.featureImportances)
+////    assert(accu1 === accu2)
+////    assert(oneCoreModel.numClasses === twoCoreModel.numClasses)
+////    assert(oneCoreModel.numFeatures === twoCoreModel.numFeatures)
+////    assert(oneCoreModel.treeWeights === twoCoreModel.treeWeights)
+////    assert(oneCoreModel.totalNumNodes === twoCoreModel.totalNumNodes)
+////    assert(oneCoreModel.featureImportances === twoCoreModel.featureImportances)
 //
 ////    assert(oneCoreModel.numTrees === twoCoreModel.numTrees)
 //
+//    succeed
 //
 //  }
+//
 //}
