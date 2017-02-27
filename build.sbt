@@ -121,6 +121,8 @@ lazy val core = Project(
       resolvers += Resolver.sonatypeRepo("snapshots"),
       parallelExecution in Test := false,
 
+      mainClass := Some("au.csiro.data61.core.Serene"),
+
       libraryDependencies ++= Seq(
         "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
         ,"org.json4s"                 %% "json4s-native"      % "3.2.10"

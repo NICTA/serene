@@ -18,6 +18,8 @@
 package au.csiro.data61.core
 
 import java.io.File
+import java.nio.charset.StandardCharsets.UTF_8
+import java.nio.file.Files
 
 import au.csiro.data61.core.api.OwlAPI.APIVersion
 import au.csiro.data61.core.types.MatcherJsonFormats
@@ -31,6 +33,7 @@ import com.twitter.util.Await
 import org.json4s.jackson.JsonMethods.parse
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.Matchers._
+import org.apache.commons.io.FileUtils
 
 import scala.util.Try
 
@@ -171,6 +174,20 @@ class OwlAPISpec extends FunSuite with MatcherJsonFormats {
       )
 
       updatedOwl.dateModified.getMillis should be >= updatedOwl.dateCreated.getMillis
+    } finally {
+      deleteAllOwls
+      assertClose()
+    }
+  })
+
+  test(s"GETing /$APIVersion/owl/:id/file should get an OWL document") (new TestServer {
+    try {
+      val createdOwl = createOwl(RdfXmlDocument, RdfXml, RdfXmlOwlDescription).get
+      val request = Request(s"/$APIVersion/owl/${createdOwl.id}/file")
+      val response = Await.result(client(request))
+
+      response.contentType should equal (Some("text/plain"))
+      response.contentString should equal (FileUtils.readFileToString(RdfXmlDocument, UTF_8))
     } finally {
       deleteAllOwls
       assertClose()

@@ -106,7 +106,6 @@ object ModelAPI extends RestAPI {
    * Returns a JSON Model object with id.
    *
    */
-
   val modelCreate: Endpoint[Model] = post(APIVersion :: "model" :: stringBody) {
     (body: String) =>
       (for {

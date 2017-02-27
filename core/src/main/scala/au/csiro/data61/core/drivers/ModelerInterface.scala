@@ -27,6 +27,7 @@ import au.csiro.data61.core.types.DataSetTypes._
 import au.csiro.data61.core.types.Training.{Status, TrainState}
 import au.csiro.data61.core.types._
 import au.csiro.data61.core.types.ModelerTypes.{SsdID, Octopus, OctopusID, Owl, OwlID}
+import com.twitter.io.Reader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
@@ -264,6 +265,7 @@ object ModelerInterface extends LazyLogging {
   /**
     * Gets the IDs of available OWL documents.
     *
+    *
     * @return The list of OWL IDs.
     */
   def owlKeys: List[OwlID] = OwlStorage.keys
@@ -271,10 +273,21 @@ object ModelerInterface extends LazyLogging {
   /**
     * Gets information about an OWL document.
     *
+    *
     * @param id The ID of the OWL document.
     * @return Information about the OWL document if found.
     */
   def getOwl(id: OwlID): Option[Owl] = OwlStorage.get(id)
+
+  /**
+    * Gets the original OWL file uploaded to the server.
+    *
+    * @param owl The owl object
+    * @return A buffered reader object
+    */
+  def getOwlDocument(owl: Owl): Try[Reader] = Try {
+    Reader.fromFile(OwlStorage.getOwlDocumentPath(owl.id, owl.format).toFile)
+  }
 
   /**
     * Updates information about an OWL document.

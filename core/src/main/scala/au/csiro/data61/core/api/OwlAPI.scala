@@ -21,12 +21,13 @@ import java.nio.file.Files
 import java.io.File
 import java.nio.charset.StandardCharsets
 
-import com.twitter.finagle.http.Response
 import au.csiro.data61.core.drivers.ModelerInterface
 import au.csiro.data61.core.types.ModelerTypes.{Owl, OwlDocumentFormat, OwlID}
-import com.twitter.finagle.http.Response
+import com.twitter.finagle.http.Version.Http11
+import com.twitter.finagle.http.{Response, Status, Version}
 import com.twitter.finagle.http.exp.Multipart.{FileUpload, InMemoryFileUpload, OnDiskFileUpload}
 import com.twitter.io.{Buf, BufInputStream}
+import com.twitter.util.Await
 import io.finch._
 import org.apache.commons.io.FileUtils
 
@@ -93,18 +94,24 @@ object OwlAPI extends RestAPI {
     }
   }
 
-  /**
-    * Gets the actual file
-    *
-    * TODO: IMPLEMENT! Pull from the storage layer. This is currently dummy code...
-    */
-  val owlFile: Endpoint[Response] = get(APIVersion :: OwlRootPath :: int :: "file") {
+
+  val getOwlDocument: Endpoint[Response] = get(APIVersion :: OwlRootPath :: int :: "file") {
     (id: Int) =>
-      val content = FileUtils.readFileToString(new File(""), StandardCharsets.UTF_8)
-      val rep = Response()
-      rep.content = Buf.Utf8(content)
-      rep.contentType = "text/plain"
-      rep
+      logger.info(s"Getting OWL document with ID=$id")
+
+      ModelerInterface.getOwl(id) match {
+        case Some(owl) => ModelerInterface.getOwlDocument(owl) match {
+          case Success(reader) =>
+            val response = Response(Http11, Status.Ok, reader)
+            response.contentType = "text/plain"
+            response
+          case Failure(th) =>
+            logger.error(s"Failed to get OWL document ${owl.id}.", th)
+            Response(Status.InternalServerError)
+        }
+        case None =>
+          Response(Status.NotFound)
+      }
   }
 
   /**
@@ -149,8 +156,8 @@ object OwlAPI extends RestAPI {
     */
   val endpoints = listOwls :+:
     createOwl :+:
-    owlFile :+:
     getOwl :+:
     updateOwl :+:
-    deleteOwl
+    deleteOwl :+:
+    getOwlDocument
 }
