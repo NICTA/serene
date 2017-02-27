@@ -58,7 +58,6 @@ class SSDStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
           case _ =>
             fail("Not added!")
         }
-        assert(SSDStorage.keys.size === 1)
         assert(SSDStorage.keys === List(ssd.id))
       case Failure(err) =>
         fail(err.getMessage)
