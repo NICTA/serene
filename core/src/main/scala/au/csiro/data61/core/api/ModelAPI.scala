@@ -104,7 +104,7 @@ object ModelAPI extends RestAPI {
    * Returns a JSON Model object with id.
    *
    */
-  val modelCreate: Endpoint[Model] = post(APIVersion :: "model" :: body) {
+  val modelCreate: Endpoint[Model] = post(APIVersion :: "model" :: stringBody) {
     (body: String) =>
       (for {
         request <- parseModelRequest(body)
@@ -198,7 +198,7 @@ object ModelAPI extends RestAPI {
   /**
    * Patch a portion of a Model. Will destroy all cached models
    */
-  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int :: body) {
+  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int :: stringBody) {
     (id: Int, body: String) =>
       (for {
         request <- parseModelRequest(body)

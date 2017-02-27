@@ -21,8 +21,11 @@ import java.nio.file.Files
 
 import au.csiro.data61.core.drivers.ModelerInterface
 import au.csiro.data61.core.types.ModelerTypes.{Owl, OwlDocumentFormat, OwlID}
+import com.twitter.finagle.http.Version.Http11
+import com.twitter.finagle.http.{Response, Status, Version}
 import com.twitter.finagle.http.exp.Multipart.{FileUpload, InMemoryFileUpload, OnDiskFileUpload}
-import com.twitter.io.BufInputStream
+import com.twitter.io.{Buf, BufInputStream}
+import com.twitter.util.Await
 import io.finch._
 import shapeless.{:+:, CNil}
 
@@ -88,6 +91,26 @@ object OwlAPI extends RestAPI {
     }
   }
 
+
+  val getOwlDocument: Endpoint[Response] = get(APIVersion :: OwlRootPath :: int :: "file") {
+    (id: Int) =>
+      logger.info(s"Getting OWL document with ID=$id")
+
+      ModelerInterface.getOwl(id) match {
+        case Some(owl) => ModelerInterface.getOwlDocument(owl) match {
+          case Success(reader) =>
+            val response = Response(Http11, Status.Ok, reader)
+            response.contentType = "text/plain"
+            response
+          case Failure(th) =>
+            logger.error(s"Failed to get OWL document ${owl.id}.", th)
+            Response(Status.InternalServerError)
+        }
+        case None =>
+          Response(Status.NotFound)
+      }
+  }
+
   /**
     * Updates the OWL with specified ID.
     *
@@ -128,6 +151,6 @@ object OwlAPI extends RestAPI {
   /**
     * Represents all OWL endpoints.
     */
-  val endpoints: Endpoint[List[OwlID] :+: Owl :+: Owl :+: Owl :+: Owl :+: CNil] =
-    listOwls :+: createOwl :+: getOwl :+: updateOwl :+: deleteOwl
+  val endpoints: Endpoint[List[OwlID] :+: Owl :+: Owl :+: Owl :+: Owl :+: Response :+: CNil] =
+    listOwls :+: createOwl :+: getOwl :+: updateOwl :+: deleteOwl :+: getOwlDocument
 }

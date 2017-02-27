@@ -22,6 +22,8 @@ import java.io.{IOException, InputStream}
 import au.csiro.data61.core.storage.{AlignmentStorage, OwlStorage}
 import au.csiro.data61.core.types.ModelerTypes.OwlDocumentFormat.OwlDocumentFormat
 import au.csiro.data61.core.types.ModelerTypes.{AlignmentID, Owl, OwlID}
+import com.twitter.io.{Buf, Reader}
+import com.twitter.util.Future
 import org.joda.time.DateTime
 
 import scala.util.{Random, Try}
@@ -81,6 +83,10 @@ object ModelerInterface {
     * @return Information about the OWL document if found.
     */
   def getOwl(id: OwlID): Option[Owl] = OwlStorage.get(id)
+
+  def getOwlDocument(owl: Owl): Try[Reader] = Try {
+    Reader.fromFile(OwlStorage.getOwlDocumentPath(owl.id, owl.format).toFile)
+  }
 
   /**
     * Updates information about an OWL document.
