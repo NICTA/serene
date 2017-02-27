@@ -142,7 +142,7 @@ object OctopusInterface extends LazyLogging{
           // TODO: delete alignmentDir
           OctopusStorage.updateTrainState(id, Status.ERROR, msg, None)
       }
-      Some(OctopusStorage.get(id).get.state)
+      OctopusStorage.get(id).map(_.state)
     }
   }
 

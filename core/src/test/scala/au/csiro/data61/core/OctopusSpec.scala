@@ -175,7 +175,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
     Thread.sleep(12000)
 
-    assert(state.get.status === ModelTypes.Status.COMPLETE)
+    assert(state.get.status === ModelTypes.Status.ERROR)
   }
 
   // tests for createOctopus
