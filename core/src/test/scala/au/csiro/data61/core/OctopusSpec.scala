@@ -63,23 +63,23 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
   }
 
   val partialSSD: SemanticSourceDesc = {
-    readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
+    readSSD(Paths.get(ssdDir, "partial_model.ssd").toString)
   }
 
   val veryPartialSSD: SemanticSourceDesc = {
-    readSSD(Paths.get(ssdDir,"partial_model2.ssd").toString)
+    readSSD(Paths.get(ssdDir, "partial_model2.ssd").toString)
   }
 
   val emptyCitiesSSD: SemanticSourceDesc = {
-    readSSD(Paths.get(ssdDir,"empty_getCities.ssd").toString)
+    readSSD(Paths.get(ssdDir, "empty_getCities.ssd").toString)
   }
 
   val emptySSD: SemanticSourceDesc = {
-    readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
+    readSSD(Paths.get(ssdDir, "empty_model.ssd").toString)
   }
 
   val businessSSD: SemanticSourceDesc = {
-    readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
+    readSSD(Paths.get(ssdDir, "businessInfo.ssd").toString)
   }
 
   val defaultFeatures = FeaturesConfig(

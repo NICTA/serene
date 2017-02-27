@@ -55,7 +55,7 @@ object OctopusInterface extends LazyLogging{
 
     val id = genID
 
-    val (classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
+    val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
 
     // we need first to create the schema matcher model
     val modelReq = ModelRequest(description = request.description,
@@ -82,7 +82,7 @@ object OctopusInterface extends LazyLogging{
       octopus <- Try {
         Octopus(id,
           ontologies = getOntologies(request.ssds, request.ontologies),
-          ssds = request.ssds.getOrElse(List.empty[Int]),
+          ssds = request.ssds.getOrElse(List.empty[Int]).map(Some(_)),
           lobsterID = lobsterID,
           modelingProps = request.modelingProps,
           alignmentDir = None,
@@ -245,6 +245,17 @@ object OctopusInterface extends LazyLogging{
   }
 
   /**
+    * SemanticTypeObject is the return object for getSemanticTypes
+    *
+    * @param semanticTypeList
+    * @param labelMap
+    * @param semanticTypeMap
+    */
+  case class SemanticTypeObject(semanticTypeList: Option[List[String]],
+                                labelMap: Option[Map[Int, String]],
+                                semanticTypeMap: Option[Map[String, String]])
+
+  /**
     * We want to extract the list of semantic types (aka classes),
     * the list of mappings from column ids to the semantic types (aka labelData) and
     * the list of mappings from the semantic types to the URI namespaces.
@@ -255,49 +266,53 @@ object OctopusInterface extends LazyLogging{
     * @param ssds List of semantic source descriptions.
     * @return
     */
-  protected def getSemanticTypes(ssds: Option[List[Int]]
-                                ): (Option[List[String]], Option[Map[Int, String]], Option[Map[String,String]]) = {
+  protected def getSemanticTypes(ssds: Option[List[Int]]): SemanticTypeObject = {
 
     logger.debug("Getting semantic type info from the octopus...")
     val givenSSDs = ssds.getOrElse(List.empty[Int])
 
     if (givenSSDs.isEmpty) {
       // everything is empty if there are no SSDs
-      (None, None, None)
+      SemanticTypeObject(None, None, None)
     }
     else {
       // here we want to get a map from AttrID to (URI of class node, URI of data node)
       // TODO: the mapping can be to the ClassNode
-      val ssdMaps: List[(AttrID,(String,String))] = givenSSDs
+      val ssdMaps: List[(AttrID, (String, String))] = givenSSDs
+        .map(Some(_))
         .flatMap(SSDStorage.get)
         .filter(_.mappings.isDefined)
         .filter(_.semanticModel.isDefined)
         .flatMap { ssd: SemanticSourceDesc =>
           ssd.mappings.get.mappings.map { // SSDs contain SSDMapping which is a mapping AttrID --> NodeID
-            case (attrID, nodeID) => (attrID,
-              ssd.semanticModel.get
-                .getDomainType(nodeID) // FIXME: what if the mapping is to the class node and not the data node?!
-                .getOrElse(throw InternalException("Semantic Source Description is not proper, problems with " +
-                  "mappings or semantic model")))
+            case (attrID, nodeID) =>
+              (attrID,
+                ssd.semanticModel
+                  .flatMap(_.getDomainType(nodeID)) // FIXME: what if the mapping is to the class node and not the data node?!
+                  .getOrElse(throw InternalException(
+                    "Semantic Source Description is not properly formed, problems with mappings or semantic model")))
             } toList
         }
 
       val semanticTypeMap: Map[String, String] = ssdMaps.flatMap {
         // TODO: what if we have the same labels with different namespaces? Only one will be picked here
-        case (attrID, (classURI, propURI)) => List( splitURI(classURI), splitURI(propURI))
+        case (attrID, (classURI, propURI)) =>
+          List( splitURI(classURI), splitURI(propURI))
       }.toMap
 
       // semantic type (aka class label) is constructed as "the label of class URI"---"the label of data property URI"
       // TODO: what if the column is mapped to the class node?
       val labelData: Map[Int, String] = ssdMaps.map {
-        case (attrID: Int, (classURI, propURI)) => (attrID, constructLabel(classURI,propURI))
+        case (attrID: Int, (classURI, propURI)) =>
+          (attrID, constructLabel(classURI,propURI))
       } toMap
 
       val classes: List[String] = labelData.map {
-        case (attrID, semType) => semType
+        case (attrID, semType) =>
+          semType
       }.toList.distinct
 
-      (Some(classes), Some(labelData), Some(semanticTypeMap))
+      SemanticTypeObject(Some(classes), Some(labelData), Some(semanticTypeMap))
     }
   }
 
@@ -322,8 +337,9 @@ object OctopusInterface extends LazyLogging{
   protected def getOntologies(ssds: Option[List[Int]],
                               ontologies: Option[List[Int]]): List[Int] = {
     logger.debug("Getting owls for octopus")
-    val ssdOntologies: List[Int] = ssds.getOrElse(List.empty[Int])
-      .flatMap(SSDStorage.get)
+    val ssdOntologies: List[Int] = ssds
+      .getOrElse(List.empty[Int])
+      .flatMap(x => SSDStorage.get(Some(x)))
       .flatMap(_.ontology)
 
     ssdOntologies ++ ontologies.getOrElse(List.empty[Int])

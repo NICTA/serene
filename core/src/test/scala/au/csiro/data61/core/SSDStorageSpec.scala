@@ -31,7 +31,6 @@ import org.json4s.jackson.JsonMethods._
 import com.typesafe.scalalogging.LazyLogging
 
 
-
 /**
   * Tests for the SSDStorage layer
   */
@@ -39,8 +38,8 @@ import com.typesafe.scalalogging.LazyLogging
 class SSDStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging{
 
   val ssdDir = getClass.getResource("/ssd").getPath
-  def emptySSD: String = Paths.get(ssdDir,"empty_model.ssd") toString
-  def exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
+  def emptySSD: String = Paths.get(ssdDir, "empty_model.ssd") toString
+  def exampleSSD: String = Paths.get(ssdDir, "businessInfo.ssd") toString
 
   override def afterEach(): Unit = {
     SSDStorage.removeAll()
