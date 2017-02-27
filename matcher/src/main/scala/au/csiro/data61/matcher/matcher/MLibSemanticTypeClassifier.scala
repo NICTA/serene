@@ -53,54 +53,66 @@ case class MLibSemanticTypeClassifier(
       .master("local")
       .appName("SereneSchemaMatcher")
       .getOrCreate()
-//    val conf = new SparkConf()
-//      .setAppName("SereneSchemaMatcher")
-//      .setMaster("local")
-//      .set("spark.driver.allowMultipleContexts", "true")
-//      .set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
-//      .set("spark.network.timeout", "600s")
-//      .set("spark.executor.heartbeatInterval", "20s")
-//      .set("spark.driver.port","7001")
-//      .set("spark.driver.host","192.168.33.10")
-//      .set("spark.fileserver.port","6002")
-//      .set("spark.broadcast.port","6003")
-//      .set("spark.replClassServer.port","6004")
-//      .set("spark.blockManager.port","6005")
-//      .set("spark.executor.port","6006")
-//      .set("spark.broadcast.factory","org.apache.spark.broadcast.HttpBroadcastFactory")
-    // changing to Kryo serialization!!!
-//    conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-//    conf.set("spark.kryoserializer.buffer.max", "1024")
-//    conf.registerKryoClasses(Array(
-//        classOf[PreprocessedAttribute],
-//        classOf[DataModel],
-//        classOf[Attribute],
-//        classOf[FeatureExtractor],
-//        classOf[SemanticTypeLabels],
-//        classOf[(PreprocessedAttribute, FeatureExtractor)],
-//        classOf[DintMeta]))
-    //    conf.set("spark.kryo.registrationRequired", "true")
-//    val sc = new SparkContext(conf)
-//    val sqlContext = new SQLContext(sc)
-//
-//    (sc, sqlContext)
+    sparkSession.conf.set("spark.executor.cores","8")
     sparkSession
   }
 
-  override def predict(datasets: List[DataModel]): PredictionObject = {
-    logger.info("***Prediction initialization...")
-    //initialise spark stuff
-    implicit val spark = setUpSpark()
+  /**
+    * Helper function to calculate predictions for a spark dataframe using a trained model.
+    * @param dataDf Spark DataFrame
+    * @param spark Implicit SparkSession
+    * @return Correctly reordered predicitons with regard to the specified classes
+    */
+  protected def processPredictions(dataDf: DataFrame)(implicit spark: SparkSession): Array[Array[Double]] ={
+    // perform prediction
+    val preds = model.transform(dataDf)
 
-    // get all attributes (aka columns) from the datasets
-    val allAttributes: List[Attribute] = datasets
-      .flatMap { DataModel.getAllAttributes }
-    logger.info(s"   obtained ${allAttributes.size} attributes")
+    // for debugging, you might want to look at these columns: "rawPrediction","probability","prediction","predictedLabel"
+    val predsLocal : Array[Array[Double]] = preds
+      .select("probability")
+      .rdd
+      .map {
+        x => x(0).asInstanceOf[NewDenseVector].toArray // in new spark DenseVector changed!
+      }
+      .collect
+
+    logger.info("***Reordering elements.")
+    // we need to reorder the elements of the probability distribution array according to 'classes' and not mlib
+    // val mlibLabels = model.getEstimator.asInstanceOf[Pipeline].getStages(0).asInstanceOf[StringIndexerModel].labels
+    val mlibLabels : Array[String] = model.stages(0).asInstanceOf[StringIndexerModel].labels
+    logger.info(s"***Available mlibLabels: ${mlibLabels.toList}")
+    val newOrder : List[Int] = classes.map(mlibLabels.indexOf(_))
+    val predsReordered: Array[Array[Double]] = predsLocal
+      .map{
+        probDist => {
+          // 'classes.length' was used previously
+          // the problem is that classes with 0 score do not appear in probDist
+          classes.indices.map {
+            i =>
+              if (newOrder(i) >= 0) { probDist(newOrder(i)) }
+              else { 0.0 } // probability for this class is missing, so set it to 0
+            //probDist(newOrder(i))
+          }.toArray
+        }
+      }
+
+    predsReordered
+  }
+
+  /**
+    * Helper function to construct Spark DataFrame, then perform prediction for this dataframe using the trained
+    * model and perform reordering of the predicitons in accordance with the order of the classes.
+    * @param allAttributes List of attributes extracted from the data sources.
+    * @param spark Implicit SparkSession
+    * @return Triplet with the predictions, list of extracted features, list of feature names.
+    */
+  protected def constructDF(allAttributes: List[Attribute]
+                 )(implicit spark: SparkSession): (Array[Array[Double]], List[List[Double]], List[String]) = {
 
     //get feature names and construct schema
     val featureNames = featureExtractors.flatMap({
-        case x: SingleFeatureExtractor => List(x.getFeatureName())
-        case x: GroupFeatureExtractor => x.getFeatureNames()
+      case x: SingleFeatureExtractor => List(x.getFeatureName())
+      case x: GroupFeatureExtractor => x.getFeatureNames()
     })
     val schema = StructType(
       featureNames
@@ -116,40 +128,23 @@ case class MLibSemanticTypeClassifier(
       .map { instFeatures => Row.fromSeq(instFeatures) }
     val dataRdd = spark.sparkContext.parallelize(data)
     val dataDf = spark.createDataFrame(dataRdd, schema)
-
-    val preds = model.transform(dataDf)
-
-    // for debugging, you might want to look at these columns: "rawPrediction","probability","prediction","predictedLabel"
-    val predsLocal : Array[Array[Double]] = preds
-      .select("probability")
-      .rdd
-      .map {
-        x => x(0).asInstanceOf[NewDenseVector].toArray // in new spark DenseVector changed!
-//        x => x(0).asInstanceOf[DenseVector].toArray
-      }
-      .collect
+    val predsReordered = processPredictions(dataDf)
 
     spark.stop()
 
-    logger.info("***Reordering elements.")
-    // we need to reorder the elements of the probability distribution array according to 'classes' and not mlib
-    // val mlibLabels = model.getEstimator.asInstanceOf[Pipeline].getStages(0).asInstanceOf[StringIndexerModel].labels
-    val mlibLabels : Array[String] = model.stages(0).asInstanceOf[StringIndexerModel].labels
-    logger.info(s"***Available mlibLabels: ${mlibLabels.toList}")
-    val newOrder : List[Int] = classes.map(mlibLabels.indexOf(_))
-    val predsReordered: Array[Array[Double]] = predsLocal
-      .map{
-         probDist => {
-              // 'classes.length' was used previously
-              // the problem is that classes with 0 score do not appear in probDist
-              classes.indices.map {
-                  i =>
-                      if (newOrder(i) >= 0) {probDist(newOrder(i))}
-                      else 0.0 // probability for this class is missing, so set it to 0
-                      //probDist(newOrder(i))
-              }.toArray
-          }
-    }
+    (predsReordered, features, featureNames)
+  }
+
+  override def predict(datasets: List[DataModel]): PredictionObject = {
+    logger.info("***Prediction initialization...")
+    //initialise spark stuff
+    implicit val spark = setUpSpark()
+    // get all attributes (aka columns) from the datasets
+    val allAttributes: List[Attribute] = datasets
+      .flatMap { DataModel.getAllAttributes }
+    logger.info(s"   obtained ${allAttributes.size} attributes")
+
+    val (predsReordered, features, featureNames) = constructDF(allAttributes)
 
     val predictions: Predictions = allAttributes zip predsReordered // this was returned previously by this function
     // get the class with the max score per each attribute
@@ -177,6 +172,14 @@ case class MLibSemanticTypeClassifier(
     //predictions // this was returned previously
   }
 
+  /**
+    * Save derived features to the file together with the maximum confidence score.
+    * @param attributes List of attributes from the data sources for which prediction is performed.
+    * @param featuresList List of derived features.
+    * @param featureNames List of feature names.
+    * @param maxClassPreds Predicted labels with maximum confidence.
+    * @param path Path where to save the derived features.
+    */
   def saveFeatures(attributes: List[Attribute],
                    featuresList: List[List[Any]],
                    featureNames: List[String],
@@ -200,6 +203,13 @@ case class MLibSemanticTypeClassifier(
     out.close()
   }
 
+  /**
+    * Save derived features to the file together with confidence scores for all classes.
+    * @param predictionsFeatures PredictionObject calculated for the data sources.
+    * @param featureNames List of feature names.
+    * @param maxClassPreds Predicted labels with maximum confidence.
+    * @param path Path where to save the derived features.
+    */
   def saveFeatures(predictionsFeatures: PredictionObject,
                    featureNames: List[String],
                    maxClassPreds: List[(String,String,Double)], // include manual/predicted labels

@@ -80,7 +80,8 @@ object Config extends LazyLogging {
     }
   }
 
-  protected def processSparkNumWorkers(conf: com.typesafe.config.Config): Option[Int] = {
+  protected def processSparkNumWorkers(conf: com.typesafe.config.Config
+                                      ): Option[Int] = {
     Try {
       conf.getInt("config.spark-num-workers")
     } match {
@@ -97,7 +98,8 @@ object Config extends LazyLogging {
     }
   }
 
-  protected def processParallelFeatureExtraction(conf: com.typesafe.config.Config): Boolean = {
+  protected def processParallelFeatureExtraction(conf: com.typesafe.config.Config
+                                      ): Boolean = {
     Try {
       conf.getBoolean("config.spark-feature-extraction")
     } match {

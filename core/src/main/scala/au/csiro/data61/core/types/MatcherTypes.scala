@@ -21,6 +21,7 @@ import java.nio.file.Path
 
 import au.csiro.data61.core.types.DataSetTypes.DataSetID
 import au.csiro.data61.core.types.MatcherTypes.ModelID
+import au.csiro.data61.core.types.Training.TrainState
 import org.joda.time.DateTime
 import org.json4s._
 

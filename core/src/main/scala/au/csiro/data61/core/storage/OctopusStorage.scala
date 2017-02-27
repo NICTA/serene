@@ -21,7 +21,7 @@ import java.io.{FileInputStream, File}
 import java.nio.file.Path
 import au.csiro.data61.core.Serene
 import au.csiro.data61.core.types.ModelerTypes.{OctopusID, Octopus}
-import au.csiro.data61.core.types.{TrainState, Status}
+import au.csiro.data61.core.types.Training.{TrainState, Status}
 import org.joda.time.DateTime
 import org.json4s.jackson.JsonMethods._
 

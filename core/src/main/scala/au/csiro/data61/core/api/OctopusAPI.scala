@@ -21,6 +21,7 @@ import au.csiro.data61.core.drivers.ModelerInterface
 import au.csiro.data61.core.types
 import au.csiro.data61.core.types.DataSetPrediction
 import au.csiro.data61.core.types.ModelerTypes.{SsdID, OctopusID, Octopus}
+import au.csiro.data61.core.types.Training.{Status, TrainState}
 import io.finch._
 
 import scala.language.postfixOps

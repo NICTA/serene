@@ -34,6 +34,8 @@ import scala.util.{Failure, Success, Try}
 case class TrainMlibSemanticTypeClassifier(classes: List[String],
                                            doCrossValidation: Boolean = false
                                           ) extends TrainSemanticTypeClassifier with LazyLogging {
+
+  // TODO: make them parameters of TrainMlibSemanticTypeClassifier
   val defaultDepth = 10
   val defaultNumTrees = 500
   val defaultImpurity = "gini"
@@ -47,7 +49,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     * @param spark Implicit Spark session object
     * @return
     */
-  def preprocessAttributes(resampledAttrs: List[Attribute],
+  protected def preprocessAttributes(resampledAttrs: List[Attribute],
                            parallelFeatureExtraction: Boolean = true)(implicit spark: SparkSession)
   : List[PreprocessedAttribute] = {
     val preprocessor = DataPreprocessor()
@@ -80,7 +82,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     * @param datadDf
     * @return
     */
-  def performCrossValidation(indexer: StringIndexerModel,
+  protected def performCrossValidation(indexer: StringIndexerModel,
                              vectorAssembler: VectorAssembler,
                              labelConverter: IndexToString,
                              datadDf: DataFrame
@@ -132,7 +134,15 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     (bestDepth, bestNumTrees, bestImpurity)
   }
 
-  def getPipelineModel(data: List[Row],
+  /**
+    * Costruct Spark Pipeline Model and train it.
+    * @param data Training data converted to Spark Rows.
+    * @param schema Schema of the data.
+    * @param featureNames List of feature names.
+    * @param spark Implicit Spark Session.
+    * @return
+    */
+  protected def getPipelineModel(data: List[Row],
                        schema: StructType,
                        featureNames: List[String]
                       )(implicit spark: SparkSession): PipelineModel = {
@@ -195,7 +205,13 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     }
   }
 
-  def setUpSpark(numWorkers: Option[Int] = None): SparkSession = {
+  /**
+    * Initialize SparkSession for the training.
+    * This is standalone local spark setting.
+    * @param numWorkers Number of cores to be used for spark initialization.
+    * @return
+    */
+  protected def setUpSpark(numWorkers: Option[Int] = None): SparkSession = {
     val ms: String = numWorkers match {
       case Some(0) => s"local" // should it rather be [*]?
       case Some(num: Int) => s"local[$num]"
@@ -205,18 +221,9 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     val sparkSession = SparkSession.builder
       .master(ms)
       .appName("SereneSchemaMatcher")
-//      .config("spark.sql.warehouse.dir", "file://tmp/spark-warehouse")
       .getOrCreate()
     sparkSession.conf.set("spark.executor.cores","8")
-//    val sc = new SparkConf()
-//    sparkSession.conf.set( "spark.serializer", "org.apache.spark.serializer.KryoSerializer" )
-//    sc.registerKryoClasses(Array(classOf[Attribute],
-//      classOf[DataModel],
-//      classOf[PreprocessedAttribute]))
-//    sparkSession.conf.set("spark.driver.allowMultipleContexts", "true")
-//    sparkSession.conf.set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
-//    sparkSession.conf.set("spark.network.timeout", "800s")
-//    sparkSession.conf.set("spark.executor.heartbeatInterval", "20s")
+
     sparkSession
   }
 
@@ -230,7 +237,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     * @param spark implicit spark session
     * @return
     */
-  def extractModelFeatures(preprocessedAttributes: List[Attribute],
+  protected def extractModelFeatures(preprocessedAttributes: List[Attribute],
                            labels: SemanticTypeLabels,
                            featureExtractors: List[FeatureExtractor],
                            parallelFeatureExtraction: Boolean
@@ -253,7 +260,15 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     (features,featureNames)
   }
 
-  def resampleModelAttributes(allAttributes: List[Attribute],
+  /**
+    * Helper funciton to perform resampling of the original attributes.
+    * @param allAttributes List of attributes from the provided data sources.
+    * @param labels List of semantic labels specified for the project.
+    * @param trainingSettings Parameters for the model to be trained.
+    * @param spark Implicit SparkSession
+    * @return
+    */
+  protected def resampleModelAttributes(allAttributes: List[Attribute],
                               labels: SemanticTypeLabels,
                               trainingSettings: TrainingSettings)(implicit spark: SparkSession)
   : List[Attribute] ={
@@ -274,7 +289,6 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
                      parallelFeatureExtraction: Boolean = true
                     ): MLibSemanticTypeClassifier = {
     logger.info(s"***Training initialization for classes: $classes...")
-
     //initialise spark stuff
     implicit val spark = setUpSpark(numWorkers)
 

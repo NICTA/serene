@@ -21,6 +21,8 @@ import java.nio.file.Path
 
 import au.csiro.data61.core.types.DataSetTypes.DataSetID
 import au.csiro.data61.core.types.MatcherTypes.ModelID
+import au.csiro.data61.core.types.ModelerTypes.OwlDocumentFormat.OwlDocumentFormat
+import au.csiro.data61.core.types.Training.TrainState
 import org.joda.time.DateTime
 
 
@@ -30,7 +32,6 @@ import org.joda.time.DateTime
   *
   */
 object ModelerTypes {
-
   type OwlID = Int
   type SsdID = Int
   type OctopusID = Int
@@ -53,13 +54,36 @@ object ModelerTypes {
                      state: TrainState) extends Identifiable[OctopusID]
 
   /**
-    * Owl is a reference to the Owl file storage
+    * Owl is a reference to the Owl file storage.
     *
-    * @param id The ID key for the OWL file storage
-    * @param path The path to the OWL file
+    * @param id The ID key for the OWL file storage.
+    * @param name The name of the original uploaded OWL file.
+    * @param format The format of the OWL file.
+    * @param description The description of the OWL file.
+    * @param dateCreated  The creation time.
+    * @param dateModified The last modified time.
     */
-  case class Owl(id: OwlID,
-                 path: Path) extends Identifiable[OwlID]
+  case class Owl(
+    id: OwlID,
+    name: String,
+    format: OwlDocumentFormat,
+    description: String,
+    dateCreated: DateTime,
+    dateModified: DateTime) extends Identifiable[OwlID]
+
+  /**
+    * OwlDocumentFormat is the format of the uploaded
+    * document. This needs to be specified by the user
+    * it is not auto-detected at this stage..
+    */
+  object OwlDocumentFormat extends Enumeration {
+    type OwlDocumentFormat = Value
+
+    val Turtle = Value("turtle")
+    val JsonLd = Value("jsonld")
+    val RdfXml = Value("rdfxml")
+    val Unknown = Value("unknown")
+  }
 
   /**
     * SSD is the Semantic Source Description object

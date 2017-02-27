@@ -17,58 +17,79 @@
  */
 package au.csiro.data61.core.types
 
-import java.nio.file.{Paths, Path}
+import java.nio.file.{Path, Paths}
 
+import au.csiro.data61.core.types.Training.StatusSerializer
 import org.joda.time.DateTime
+import au.csiro.data61.core.types.ModelerTypes.OwlDocumentFormat
 import org.json4s._
+import org.json4s.ext.EnumNameSerializer
 
 /**
   * Enumerated type for the status of training for the model
   */
-sealed trait Status { def str: String }
-object Status {
-  case object ERROR extends Status { val str = "error" }
-  case object UNTRAINED extends Status { val str = "untrained" }
-  case object BUSY extends Status { val str = "busy" }
-  case object COMPLETE extends Status { val str = "complete" }
+object Training {
 
-  val values = Set(
-    ERROR,
-    UNTRAINED,
-    BUSY,
-    COMPLETE
-  )
-
-  def lookup(str: String): Option[Status] = {
-    values.find(_.str == str)
+  sealed trait Status {
+    def str: String
   }
-}
 
-/**
-  * Serializer for the State of the trainer
-  */
-case object StatusSerializer extends CustomSerializer[Status](format => (
-  {
+  object Status {
+
+    case object ERROR extends Status {
+      val str = "error"
+    }
+
+    case object UNTRAINED extends Status {
+      val str = "untrained"
+    }
+
+    case object BUSY extends Status {
+      val str = "busy"
+    }
+
+    case object COMPLETE extends Status {
+      val str = "complete"
+    }
+
+    val values = Set(
+      ERROR,
+      UNTRAINED,
+      BUSY,
+      COMPLETE
+    )
+
+    def lookup(str: String): Option[Status] = {
+      values.find(_.str == str)
+    }
+  }
+
+  /**
+    * Serializer for the State of the trainer
+    */
+  case object StatusSerializer extends CustomSerializer[Status](format => ( {
     case jv: JValue =>
       implicit val formats = DefaultFormats
       val str = jv.extract[String]
       val state = Status.lookup(str)
       state getOrElse (throw new Exception("Failed to parse State"))
   }, {
-  case state: Status =>
-    JString(state.str)
-}))
+    case state: Status =>
+      JString(state.str)
+  }))
 
-/**
-  * Training state
-  *
-  * @param status The current state of the model training
-  * @param message Used for reporting, mainly error messages
-  * @param dateChanged The last time the state changed
-  */
-case class TrainState(status: Status,
-                      message: String,
-                      dateChanged: DateTime)
+  /**
+    * Training state
+    *
+    * @param status      The current state of the model training
+    * @param message     Used for reporting, mainly error messages
+    * @param dateChanged The last time the state changed
+    */
+  case class TrainState(status: Status,
+                        message: String,
+                        dateChanged: DateTime)
+
+}
 
 /**
  * An object that has a property id which is of type key.
@@ -119,5 +140,6 @@ trait MatcherJsonFormats {
       MeanCharacterCosineSimilarityFeatureExtractorSerializer +
       ModelFeatureExtractorsSerializer +
       SingleFeatureExtractorSerializer +
-      NamedGroupFeatureExtractorSerializer
+      NamedGroupFeatureExtractorSerializer +
+      new EnumNameSerializer(OwlDocumentFormat)
 }

@@ -21,7 +21,6 @@ package au.csiro.data61.core
 import java.io.{File, FileInputStream, IOException, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
-import au.csiro.data61.core.api.DatasetAPI._
 import au.csiro.data61.core.types.MatcherTypes.{Model, ModelID}
 import au.csiro.data61.core.types._
 import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
@@ -40,10 +39,8 @@ import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 import api._
-import au.csiro.data61.core.storage.ModelStorage
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import com.twitter.finagle.http
-import org.apache.spark.ml.classification.RandomForestClassificationModel
 
 import language.postfixOps
 import scala.annotation.tailrec
@@ -298,10 +295,10 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     * @param s
     * @return
     */
-  def pollModelState(model: Model, pollIterations: Int, pollTime: Int)(implicit s: TestServer): Future[types.Status] = {
+  def pollModelState(model: Model, pollIterations: Int, pollTime: Int)(implicit s: TestServer): Future[Training.Status] = {
     Future {
 
-      def state(): types.Status = {
+      def state(): Training.Status = {
         Thread.sleep(pollTime)
         // build a request to get the model...
         val response = s.get(s"/$APIVersion/model/${model.id}")
@@ -315,11 +312,11 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       }
 
       @tailrec
-      def rState(loops: Int): types.Status = {
+      def rState(loops: Int): Training.Status = {
         state() match {
-          case s@types.Status.COMPLETE =>
+          case s@Training.Status.COMPLETE =>
             s
-          case s@types.Status.ERROR =>
+          case s@Training.Status.ERROR =>
             s
           case _ if loops < 0 =>
             throw new Exception("Training timeout")
@@ -841,7 +838,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val state = concurrent.Await.result(trained, 30 seconds)
 
-      assert(state === types.Status.COMPLETE)
+      assert(state === Training.Status.COMPLETE)
 
     } finally {
       deleteAllModels()
@@ -860,7 +857,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val state = concurrent.Await.result(trained, 30 seconds)
 
-      assert(state === types.Status.COMPLETE)
+      assert(state === Training.Status.COMPLETE)
 
     } finally {
       deleteAllModels()
@@ -894,7 +891,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
           assert(response.status === http.Status.Accepted)
           assert(response.contentString.isEmpty)
-          assert(state === types.Status.ERROR)
+          assert(state === Training.Status.ERROR)
 
         case Failure(err) =>
           throw new Exception("Failed to create test resource")
@@ -915,13 +912,13 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val busyResponse = get(s"/$APIVersion/model/${model.id}")
       val busyModel = parse(busyResponse.contentString).extract[Model]
-      assert(busyModel.state.status === types.Status.BUSY)
+      assert(busyModel.state.status === Training.Status.BUSY)
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
       val state = concurrent.Await.result(trained, 15 seconds)
 
-      assert(state === types.Status.COMPLETE)
+      assert(state === Training.Status.COMPLETE)
 
     } finally {
       deleteAllModels()
@@ -941,7 +938,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val trained = pollModelState(model, PollIterations, PollTime)
       val state = concurrent.Await.result(trained, 20 seconds)
 
-      assert(state === types.Status.COMPLETE)
+      assert(state === Training.Status.COMPLETE)
 
       // training complete, now check to see that another train
       // uses cached value
@@ -958,7 +955,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       // now query the model with no delay and make sure it is complete...
       val completeResponse = get(s"/$APIVersion/model/${model.id}")
       val completeModel = parse(completeResponse.contentString).extract[Model]
-      assert(completeModel.state.status === types.Status.COMPLETE)
+      assert(completeModel.state.status === Training.Status.COMPLETE)
 
     } finally {
       deleteAllModels()
@@ -978,7 +975,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val trained = pollModelState(model, PollIterations, PollTime)
       val state = concurrent.Await.result(trained, 15 seconds)
 
-      assert(state === types.Status.COMPLETE)
+      assert(state === Training.Status.COMPLETE)
 
       // now update the model...
       val json = "description" -> "new change"
@@ -999,12 +996,12 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       // now query the model with no delay and make sure it is complete...
       val completeResponse = get(s"/$APIVersion/model/${model.id}")
       val completeModel = parse(completeResponse.contentString).extract[Model]
-      assert(completeModel.state.status === types.Status.BUSY)
+      assert(completeModel.state.status === Training.Status.BUSY)
 
       // now just make sure it completes...
       val finalTrained = pollModelState(model, PollIterations, PollTime)
       val finalState = concurrent.Await.result(finalTrained, 15 seconds)
-      assert(finalState === types.Status.COMPLETE)
+      assert(finalState === Training.Status.COMPLETE)
 
     } finally {
       deleteAllModels()
@@ -1151,7 +1148,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val trained = pollModelState(model, PollIterations, PollTime)
       val state = concurrent.Await.result(trained, 30 seconds)
 
-      assert(state === types.Status.COMPLETE)
+      assert(state === Training.Status.COMPLETE)
 
       // now make a prediction
       val request = RequestBuilder()
@@ -1207,7 +1204,8 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   test("POST /v1.0/model/:id/predict/:id returns predictions with validation > 0.9") (new TestServer {
     try {
       val PollTime = 1000
-      val PollIterations = 10
+      val PollIterations = 20
+      val Accuracy = 0.9
 
       // ResampleToMean gives worse performance than upsampletomax or noresampling!
       val (model, ds) = trainDefault(features = fullFeatures, resamplingStrategy = "UpsampleToMax")
@@ -1216,7 +1214,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val trained = pollModelState(model, PollIterations, PollTime)
       val state = concurrent.Await.result(trained, 30 seconds)
 
-      assert(state === types.Status.COMPLETE)
+      assert(state === Training.Status.COMPLETE)
 
       // now make a prediction
       val request = RequestBuilder()
@@ -1254,7 +1252,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val total = score.sum / testLabels.size
 
-      assert(total > 0.9)
+      assert(total > Accuracy)
 
     } finally {
       deleteAllModels()

@@ -20,6 +20,7 @@ package au.csiro.data61.core.api
 import au.csiro.data61.core.drivers.MatcherInterface
 import au.csiro.data61.core.types.MatcherTypes.{ModelID, Model}
 import au.csiro.data61.core._
+import au.csiro.data61.core.types.Training.{Status, TrainState}
 import com.twitter.io.{Reader, Buf}
 import io.finch._
 import org.joda.time.DateTime
