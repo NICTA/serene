@@ -19,18 +19,29 @@ package au.csiro.data61.core
 
 import java.io.FileInputStream
 import java.nio.charset.StandardCharsets
-import java.nio.file.{Files, Paths}
+import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.api.OctopusRequest
-import au.csiro.data61.core.storage.{JsonFormats, OctopusStorage, SSDStorage}
+import au.csiro.data61.core.drivers.{MatcherInterface, OctopusInterface}
+import au.csiro.data61.core.storage._
 import au.csiro.data61.modeler.ModelerConfig
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
+import au.csiro.data61.types.ModelType.RANDOM_FOREST
+import au.csiro.data61.types.ModelTypes.Model
+import au.csiro.data61.types.SSDTypes.Owl
 import au.csiro.data61.types.SamplingStrategy.NO_RESAMPLING
 import au.csiro.data61.types._
 import com.typesafe.scalalogging.LazyLogging
+import org.apache.commons.io.FileUtils
+import org.joda.time.DateTime
 import org.json4s.Extraction
 import org.json4s.jackson.JsonMethods._
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
+
+import scala.concurrent._
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.duration._
+
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -45,7 +56,16 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   override def afterEach(): Unit = {
     SSDStorage.removeAll()
-    OctopusStorage.removeAll()
+//    OctopusStorage.removeAll()
+    DatasetStorage.removeAll()
+    OwlStorage.removeAll()
+//    ModelStorage.removeAll()
+  }
+
+  override def beforeEach(): Unit = {
+    copySampleDatasets() // copy csv files for getCities and businessInfo
+    SSDStorage.add(0, businessSSD) // add businessInfo ssd
+    OwlStorage.add(1, exampleOwl)  // add sample ontology
   }
 
   val ssdDir = getClass.getResource("/ssd").getPath
@@ -62,25 +82,15 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     }
   }
 
-  val partialSSD: SemanticSourceDesc = {
-    readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
-  }
+  val exampleOntolPath = Paths.get(ssdDir,"dataintegration_report_ontology.owl")
+  val exampleOwl = Owl(id =1, path = exampleOntolPath,
+    description = "sample", dateCreated = DateTime.now, dateModified = DateTime.now)
 
-  val veryPartialSSD: SemanticSourceDesc = {
-    readSSD(Paths.get(ssdDir,"partial_model2.ssd").toString)
-  }
-
-  val emptyCitiesSSD: SemanticSourceDesc = {
-    readSSD(Paths.get(ssdDir,"empty_getCities.ssd").toString)
-  }
-
-  val emptySSD: SemanticSourceDesc = {
-    readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
-  }
-
-  val businessSSD: SemanticSourceDesc = {
-    readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
-  }
+  val partialSSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
+  val veryPartialSSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"partial_model2.ssd").toString)
+  val emptyCitiesSSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"empty_getCities.ssd").toString)
+  val emptySSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
+  val businessSSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
 
   val defaultFeatures = FeaturesConfig(
     activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
@@ -107,7 +117,66 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None)
 
-  val datasetMap = Map("business" -> 767956483, "cities" -> 696167703)
+  val helperDir = getClass.getResource("/helper").getPath
+  val sampleDsDir = getClass.getResource("/sample.datasets").getPath
+  val datasetMap = Map("businessInfo" -> 767956483, "getCities" -> 696167703)
+
+  def copySampleDatasets(): Unit = {
+    // copy sample dataset to Config.DatasetStorageDir
+    if (!Paths.get(Serene.config.datasetStorageDir).toFile.exists) { // create dataset storage dir
+      Paths.get(Serene.config.datasetStorageDir).toFile.mkdirs}
+    val dsDir = Paths.get(sampleDsDir).toFile // directory to copy from
+    FileUtils.copyDirectory(dsDir,                    // copy sample dataset
+      Paths.get(Serene.config.datasetStorageDir).toFile)
+  }
+
+
+//  test("Creating octopus for businessInfo") {
+//    copySampleDatasets() // copy csv files for getCities and businessInfo
+//    SSDStorage.add(0, businessSSD) // add businessInfo ssd
+//
+//    // create default octopus
+//    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
+//    // lobster should automatically be created
+//    val lobster: Model = ModelStorage.get(octopus.lobsterID).get
+//
+//    assert(octopus.ssds === List(0))
+//    assert(octopus.ontologies === List(1))
+//    assert(octopus.state.status === ModelTypes.Status.UNTRAINED)
+//
+//    assert(lobster.modelType === RANDOM_FOREST)
+//    assert(lobster.resamplingStrategy === NO_RESAMPLING)
+//    assert(lobster.classes.size === 4)
+//    assert(lobster.labelData.size === 4)
+//    assert(lobster.labelData === Map(643243447 -> "Organization---name",
+//      1534291035 -> "Person---name",
+//      843054462 -> "City---name",
+//      1138681944 -> "State---name")
+//    )
+//  }
+
+  test("Constructing initial alignment graph for businessInfo") {
+    copySampleDatasets() // copy csv files for getCities and businessInfo
+    SSDStorage.add(0, businessSSD) // add businessInfo ssd
+
+    // create default octopus
+    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
+
+    val storedOctopus = OctopusStorage.get(octopus.id)
+    println(storedOctopus)
+
+    val state = OctopusInterface.trainOctopus(octopus.id)
+
+    // octopus becomes busy
+    assert(state.get.status === ModelTypes.Status.BUSY)
+    Thread.sleep(1000)
+    // lobster becomes busy
+    assert(ModelStorage.get(octopus.lobsterID).get.state.status === ModelTypes.Status.BUSY)
+
+    Thread.sleep(12000)
+
+    assert(state.get.status === ModelTypes.Status.COMPLETE)
+  }
 
   // tests for createOctopus
   // tests for trainOctopus

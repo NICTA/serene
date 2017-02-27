@@ -23,12 +23,15 @@ import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams}
 import au.csiro.data61.types.Exceptions.ModelerException
 import au.csiro.data61.types.SSDTypes.Octopus
 import au.csiro.data61.types.SemanticSourceDesc
+import com.typesafe.scalalogging.LazyLogging
+
+import scala.util.{Failure, Success, Try}
 
 /**
   * As input we give a list of known ssd, list of ontologies, alignment directory and modeling properties.
   * As output we get the alignment graph.
   */
-object TrainOctopus {
+object TrainOctopus extends LazyLogging{
   // TODO: to be implemented once AlignmentStorage layer is up
   // delete karma-dir??
 
@@ -36,16 +39,22 @@ object TrainOctopus {
   def train(octopus: Octopus,
             alignmentDir: Path,
             ontologies: List[String],
-            knownSSDs: List[SemanticSourceDesc]): Path = {
+            knownSSDs: List[SemanticSourceDesc]): Option[Path] = {
+    Try {
+      val karmaWrapper = KarmaParams(alignmentDir = alignmentDir.toString,
+        ontologies = ontologies,
+        None)
 
-    val karmaWrapper = KarmaParams(alignmentDir = alignmentDir.toString,
-      ontologies = ontologies,
-      None)
+      val alignment = KarmaBuildAlignmentGraph(karmaWrapper).constructInitialAlignment(knownSSDs)
 
-    val alignment = KarmaBuildAlignmentGraph(karmaWrapper).constructInitialAlignment(knownSSDs)
+      karmaWrapper.deleteKarma() // deleting karma home directory
 
-    karmaWrapper.deleteKarma() // deleting karma home directory
-
-    alignmentDir
+      alignmentDir
+    }
+  } match {
+    case Success(path) => Some(path)
+    case Failure(err) =>
+      logger.error(s"Semantic modeler failed to train the octopus: $err")
+      throw ModelerException(s"Semantic modeler failed to train the octopus: $err")
   }
 }

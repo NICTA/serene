@@ -4,30 +4,30 @@
     "name": "getCities.csv",
     "columns": [
         {
-            "id": 10,
+            "id": 1997319549,
             "name": "state"
         },
         {
-            "id": 11,
+            "id": 1160349990,
             "name": "city"
         }
     ],
     "attributes": [
         {
-            "id": 10,
+            "id": 1997319549,
             "name": "state",
             "label": "ident",
             "columnIds": [
-                10
+                1997319549
             ],
             "sql": "select state from 'getCities.csv'"
         },
         {
-            "id": 11,
+            "id": 1160349990,
             "name": "city",
             "label": "ident",
             "columnIds": [
-                11
+                1160349990
             ],
             "sql": "select city from 'getCities.csv'"
         }

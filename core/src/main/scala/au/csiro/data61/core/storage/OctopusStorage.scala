@@ -38,7 +38,7 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
 
   override implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
-  override def rootDir: String = new File(Serene.config.datasetStorageDir).getAbsolutePath
+  override def rootDir: String = new File(Serene.config.alignmentStorageDir).getAbsolutePath
 
   def getAlignmentDirPath(id: OctopusID): Path = {
     Paths.get(getDirectoryPath(id).toString, defaultAlignmentDir)

@@ -5,55 +5,55 @@
     "columns": [
         {
             "name": "company",
-            "id": 0
+            "id": 643243447
         },
         {
             "name": "ceo",
-            "id": 1
+            "id": 1534291035
         },
         {
             "name": "city",
-            "id": 2
+            "id": 843054462
         },
         {
             "name": "state",
-            "id": 3
+            "id": 1138681944
         }
     ],
     "attributes": [
         {
-            "id": 0,
+            "id": 643243447,
             "name": "company",
             "label": "ident",
             "columnIds": [
-                0
+                643243447
             ],
             "sql": "select company from 'businessInfo.csv'"
         },
         {
-            "id": 1,
+            "id": 1534291035,
             "name": "ceo",
             "label": "ident",
             "columnIds": [
-                1
+                1534291035
             ],
             "sql": "select ceo from 'businessInfo.csv'"
         },
         {
-            "id": 2,
+            "id": 843054462,
             "name": "city",
             "label": "ident",
             "columnIds": [
-                2
+                843054462
             ],
             "sql": "select city from 'businessInfo.csv'"
         },
         {
-            "id": 3,
+            "id": 1138681944,
             "name": "state",
             "label": "ident",
             "columnIds": [
-                3
+                1138681944
             ],
             "sql": "select state from 'businessInfo.csv'"
         }
@@ -159,19 +159,19 @@
     },
     "mappings": [
         {
-            "attribute": 0,
+            "attribute": 643243447,
             "node": 1
         },
         {
-            "attribute": 1,
+            "attribute": 1534291035,
             "node": 3
         },
         {
-            "attribute": 2,
+            "attribute": 843054462,
             "node": 5
         },
         {
-            "attribute": 3,
+            "attribute": 1138681944,
             "node": 7
         }
     ],

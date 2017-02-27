@@ -40,6 +40,18 @@ object AlignmentAPI extends RestAPI {
   val endpoints = alignmentRoot :+: alignmentGet
 }
 
+/**
+  *
+  * @param description String which will be used for Octopus and Lobster
+  * @param modelType Type for the schema matcher model
+  * @param features Feature configuration for the schema matcher model
+  * @param resamplingStrategy Resampling strategy for the schema matcher model
+  * @param numBags Number of bags for the schema matcher model
+  * @param bagSize Size of each bag for the schema matcher model
+  * @param ontologies  List of OWL ids
+  * @param ssds List of SSD ids
+  * @param modelingProps Location string of modeling properties for the semantic modeler
+  */
 case class OctopusRequest(description: Option[String],
                           modelType: Option[ModelType],
                           features: Option[FeaturesConfig],

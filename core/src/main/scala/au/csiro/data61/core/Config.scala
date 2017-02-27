@@ -192,8 +192,10 @@ object Config extends LazyLogging {
     logger.info(s"Dataset repository at $dataSetStorageDir")
     logger.info(s"Model repository at $modelStorageDir")
     logger.info(s"Known SSD repository at $ssdStorageDir")
+    logger.info(s"Alignment repository at $alignmentStorageDir")
     logger.info(s"Ontology repository at $ontologyStorageDir")
 
     (dataSetStorageDir, modelStorageDir, alignmentStorageDir, ssdStorageDir, ontologyStorageDir)
   }
 }
+
