@@ -21,6 +21,7 @@ import java.nio.file.Path
 
 import au.csiro.data61.core.types.DataSetTypes.DataSetID
 import au.csiro.data61.core.types.MatcherTypes.ModelID
+import org.joda.time.DateTime
 
 
 /**
@@ -32,7 +33,7 @@ object ModelerTypes {
 
   type OwlID = Int
   type SsdID = Int
-  type AlignmentID = Int
+  type OctopusID = Int
 
   /**
     * Alignment
@@ -41,10 +42,15 @@ object ModelerTypes {
     * @param ontologies The ontologies used for the alignment
     * @param ssds The list of SSDs for the data integration alignment
     */
-  case class Alignment(id: AlignmentID,
-                       modelID: ModelID,
-                       ontologies: List[OwlID],
-                       ssds: List[SsdID]) extends Identifiable[AlignmentID]
+  case class Octopus(id: OctopusID,
+                     name: String,
+                     description: String,
+                     modelID: ModelID,
+                     ontologies: List[OwlID],
+                     ssds: List[SsdID],
+                     dateCreated: DateTime,
+                     dateModified: DateTime,
+                     state: TrainState) extends Identifiable[OctopusID]
 
   /**
     * Owl is a reference to the Owl file storage
@@ -61,9 +67,13 @@ object ModelerTypes {
     * @param id The ID for the Semantic Source Description
     * @param ontologies The list of ontologies
     * @param dataSet The dataset reference
+    * @param dateCreated The timestamp when the object was created
+    * @param dateModified The timestamp when the object is changed
     */
   case class SSD(id: SsdID,
-                 ontologies: List[Owl],
-                 dataSet: DataSetID) extends Identifiable[SsdID]
+                 ontologies: List[OwlID],
+                 dataSet: DataSetID,
+                 dateCreated: DateTime,
+                 dateModified: DateTime) extends Identifiable[SsdID]
 
 }

@@ -21,11 +21,10 @@ import java.io._
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.core.drivers.ModelTrainerPaths
-import au.csiro.data61.core.types.MatcherTypes.Status.COMPLETE
-import au.csiro.data61.core.{Serene, Config}
-import au.csiro.data61.core.types.MatcherTypes.{Model, ModelID, Status, TrainState}
-import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
+import au.csiro.data61.core.drivers.{ModelTrainerPaths}
+import au.csiro.data61.core.types.{TrainState, Status}
+import au.csiro.data61.core.Serene
+import au.csiro.data61.core.types.MatcherTypes.{Model, ModelID}
 import com.github.tototoshi.csv.CSVWriter
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import org.apache.commons.io.FileUtils
@@ -59,7 +58,7 @@ object ModelStorage extends Storage[ModelID, Model] {
 
   implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
-  def rootDir: String = new File(Serene.config.modelStorageDir).getAbsolutePath
+  def rootDir: String = new File(Serene.config.storageDirs.model).getAbsolutePath
 
   //override val cache = collection.mutable.Map(listValues.map(m => m.id -> m).toSeq: _*)
 
@@ -372,8 +371,7 @@ object ModelStorage extends Storage[ModelID, Model] {
         newModel = model.copy(
           state = trainState,
           dateModified = model.dateModified,
-          modelPath = path//,
-          //predictionPath = None
+          modelPath = path
         )
         id <- ModelStorage.update(id, newModel)
       } yield trainState
@@ -421,7 +419,7 @@ object ModelStorage extends Storage[ModelID, Model] {
       refs = refIDs.flatMap(DatasetStorage.get).map(_.dateModified)
 
       // make sure the model is complete
-      isComplete = model.state.status == COMPLETE
+      isComplete = model.state.status == Status.COMPLETE
 
       // make sure the datasets are older than the training date
       allBefore = refs.forall(_.isBefore(trainDate))

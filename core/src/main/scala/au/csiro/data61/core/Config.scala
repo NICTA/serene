@@ -30,13 +30,20 @@ case class ConfigArgs(storagePath: Option[String] = None,
                       serverPort: Option[Int] = None)
 
 /**
+  * Holds the storage directory paths...
+  */
+case class StorageDirs(root: String,
+                       dataset: String,
+                       model: String,
+                       owl: String,
+                       octopus: String,
+                       ssd: String)
+
+/**
   * This object loads in the configuration .conf
   * file and parses the values into fields.
   */
-case class Config(storagePath: String,
-                  datasetStorageDir: String,
-                  modelStorageDir: String,
-                  alignmentStorageDir: String,
+case class Config(storageDirs: StorageDirs,
                   serverHost: String,
                   serverPort: Int,
                   numWorkers: Option[Int],
@@ -73,8 +80,7 @@ object Config extends LazyLogging {
     }
   }
 
-  protected def processSparkNumWorkers(conf: com.typesafe.config.Config
-                                      ): Option[Int] = {
+  protected def processSparkNumWorkers(conf: com.typesafe.config.Config): Option[Int] = {
     Try {
       conf.getInt("config.spark-num-workers")
     } match {
@@ -91,8 +97,7 @@ object Config extends LazyLogging {
     }
   }
 
-  protected def processParallelFeatureExtraction(conf: com.typesafe.config.Config
-                                      ): Boolean = {
+  protected def processParallelFeatureExtraction(conf: com.typesafe.config.Config): Boolean = {
     Try {
       conf.getBoolean("config.spark-feature-extraction")
     } match {
@@ -140,17 +145,14 @@ object Config extends LazyLogging {
 
     val storagePath = userArgs.storagePath.getOrElse(defaultStoragePath)
 
-    val (dataSetStorageDir, modelStorageDir, alignmentStorageDir) = buildStoragePaths(conf, storagePath)
+    val sd = buildStoragePaths(conf, storagePath)
 
     val serverHost = userArgs.serverHost.getOrElse(defaultServerHost)
     val serverPort = userArgs.serverPort.getOrElse(defaultServerPort.toInt)
     logger.info(s"Server assigned to host=$serverHost port=$serverPort")
 
     Config(
-      storagePath = storagePath,
-      datasetStorageDir = dataSetStorageDir,
-      modelStorageDir = modelStorageDir,
-      alignmentStorageDir = alignmentStorageDir,
+      storageDirs = sd,
       serverHost = serverHost,
       serverPort = serverPort,
       numWorkers = numWorkers,
@@ -166,22 +168,32 @@ object Config extends LazyLogging {
     * @return
     */
   protected def buildStoragePaths(conf: com.typesafe.config.Config,
-                        storagePath: String): (String, String, String) = {
+                        storagePath: String): StorageDirs = {
     // The model and dataset location are calculated differently, they
     // are subdirectories of the storage location and are not available
     // to the user...
     val DatasetDirName = conf.getString("config.output-dataset-dir")
     val ModelDirName = conf.getString("config.output-model-dir")
-    val AlignmentDirName = conf.getString("config.output-alignment-dir")
+    val OctopusDirName = conf.getString("config.output-octopus-dir")
+    val OwlDirName = conf.getString("config.output-owl-dir")
+    val SsdDirName = conf.getString("config.output-ssd-dir")
 
-    val dataSetStorageDir = s"$storagePath/$DatasetDirName"
-    val modelStorageDir = s"$storagePath/$ModelDirName"
-    val alignmentStorageDir = s"$storagePath/$AlignmentDirName"
+    val sd = StorageDirs(
+      root = storagePath,
+      dataset = s"$storagePath/$DatasetDirName",
+      model = s"$storagePath/$ModelDirName",
+      owl = s"$storagePath/$OwlDirName",
+      octopus = s"$storagePath/$OctopusDirName",
+      ssd = s"$storagePath/$SsdDirName"
+    )
 
     logger.info(s"Storage path at $storagePath")
-    logger.info(s"Dataset repository at $dataSetStorageDir")
-    logger.info(s"Model repository at $modelStorageDir")
+    logger.info(s"Dataset repository at ${sd.dataset}")
+    logger.info(s"Model repository at ${sd.model}")
+    logger.info(s"Owl repository at ${sd.owl}")
+    logger.info(s"Octopus repository at ${sd.octopus}")
+    logger.info(s"SSD repository at ${sd.ssd}")
 
-    (dataSetStorageDir, modelStorageDir, alignmentStorageDir)
+    sd
   }
 }

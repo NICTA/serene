@@ -15,23 +15,32 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
+
 package au.csiro.data61.core.storage
 
 import java.io.{FileInputStream, File}
+
 import au.csiro.data61.core.Serene
-import au.csiro.data61.core.types.ModelerTypes.{AlignmentID, Alignment}
+import au.csiro.data61.core.types.ModelerTypes._
 import org.json4s.jackson.JsonMethods._
 
+
 /**
-  * AlignmentStorage holds the Alignment objects in a key-value store
+  * SsdStorage holds the Ssd objects in a key-value store
   */
-object AlignmentStorage extends Storage[AlignmentID, Alignment] {
+object SsdStorage extends Storage[SsdID, SSD] {
 
   override implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
-  override def rootDir: String = new File(Serene.config.datasetStorageDir).getAbsolutePath
+  override def rootDir: String = new File(Serene.config.storageDirs.ssd).getAbsolutePath
 
-  def extract(stream: FileInputStream): Alignment = {
-    parse(stream).extract[Alignment]
+  def extract(stream: FileInputStream): SSD = {
+    parse(stream).extract[SSD]
+  }
+
+  def isConsistent(id: SsdID): Boolean = {
+    // TODO: Make this real!!
+    true
   }
 }
+

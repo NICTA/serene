@@ -18,14 +18,11 @@
 package au.csiro.data61.core
 
 
-import java.io.{File, FileInputStream, IOException, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
-import au.csiro.data61.core.api.DatasetAPI._
-import au.csiro.data61.core.types.MatcherTypes.{Model, ModelID}
+import au.csiro.data61.core.types.MatcherTypes.Model
 import au.csiro.data61.core.types._
-import au.csiro.data61.core.drivers.{ModelPredictor, ModelTrainer}
-import au.csiro.data61.core.{Serene, Config}
+import au.csiro.data61.core.drivers.{Generic, ModelPredictor, ModelTrainer}
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 import com.twitter.io.Buf
@@ -72,7 +69,7 @@ class SparkParallelSpec extends FunSuite with MatcherJsonFormats with BeforeAndA
   def deleteAllModels()(implicit server: TestServer): Unit = {
     val response = server.get(s"/$APIVersion/model")
 
-    if (response.status == Status.Ok) {
+    if (response.status == http.Status.Ok) {
       val str = response.contentString
       val regex = "[0-9]+".r
       val models = regex.findAllIn(str).map(_.toInt)
@@ -173,21 +170,29 @@ class SparkParallelSpec extends FunSuite with MatcherJsonFormats with BeforeAndA
   //  Paths.get("src", "test", "resources", "helper").toFile.getAbsolutePath // location for sample files
 
   def copySampleDatasets(): Unit = {
+    val dir = Serene.config.storageDirs.dataset
+
     // copy sample dataset to Config.DatasetStorageDir
-    if (!Paths.get(Serene.config.datasetStorageDir).toFile.exists) { // create dataset storage dir
-      Paths.get(Serene.config.datasetStorageDir).toFile.mkdirs}
+    if (!Paths.get(dir).toFile.exists) { // create dataset storage dir
+      Paths.get(dir).toFile.mkdirs}
+
     val dsDir = Paths.get(helperDir, "sample.datasets").toFile // directory to copy from
+
     FileUtils.copyDirectory(dsDir,                    // copy sample dataset
-      Paths.get(Serene.config.datasetStorageDir).toFile)
+      Paths.get(dir).toFile)
   }
 
   def copySampleModels(): Unit = {
+    val dir = Serene.config.storageDirs.model
+
     // copy sample model to Config.ModelStorageDir
-    if (!Paths.get(Serene.config.modelStorageDir).toFile.exists) { // create model storage dir
-      Paths.get(Serene.config.modelStorageDir).toFile.mkdirs}
+    if (!Paths.get(dir).toFile.exists) { // create model storage dir
+      Paths.get(dir).toFile.mkdirs}
+
     val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
+
     FileUtils.copyDirectory(mDir,                    // copy sample model
-      Paths.get(Serene.config.modelStorageDir).toFile)
+      Paths.get(dir).toFile)
   }
 
   def copySampleFiles(): Unit = {
@@ -319,7 +324,7 @@ class SparkParallelSpec extends FunSuite with MatcherJsonFormats with BeforeAndA
         // send the request and make sure it executes
         val response = Await.result(server.client(request))
 
-        assert(response.status === Status.Accepted)
+        assert(response.status === http.Status.Accepted)
         assert(response.contentString.isEmpty)
 
         (model, ds)

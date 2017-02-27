@@ -34,7 +34,7 @@ class TestServer {
   val server = Serene.defaultServer
   val client = Http.newService(Serene.serverAddress)
 
-  val JsonHeader = "application/json;charset=utf-8"
+  val JsonHeader = "application/json"
 
   def fullUrl(path: String): String = s"http://${Serene.serverAddress}$path"
 

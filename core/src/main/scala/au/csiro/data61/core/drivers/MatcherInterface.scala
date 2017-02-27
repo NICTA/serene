@@ -111,7 +111,7 @@ object MatcherInterface extends LazyLogging {
     */
   def createModel(request: ModelRequest): Model = {
 
-    val id = genID
+    val id = Generic.genID
     val dataRef = validKeys(request.labelData)
 
     // build the model from the request, adding defaults where necessary
@@ -307,8 +307,8 @@ object MatcherInterface extends LazyLogging {
 
     val typeMap = request.typeMap getOrElse Map.empty[String, String]
     val description = request.description getOrElse MissingValue
-    val id = genID
-    logger.info(s"Writing dataset $genID")
+    val id = Generic.genID
+    logger.info(s"Writing dataset ${Generic.genID}")
 
     val dataSet = for {
       fs <- request.file
@@ -502,7 +502,7 @@ object MatcherInterface extends LazyLogging {
         i,
         filePath,
         header,
-        genID,
+        Generic.genID,
         col.size,
         dataSetID,
         indices.map(typedData(_)).toList,
@@ -537,11 +537,5 @@ object MatcherInterface extends LazyLogging {
     }
   }
 
-  /**
-   * Generate a random positive integer id
-   *
-   * @return Returns a random positive integer
-   */
-  protected def genID: Int = Random.nextInt(Integer.MAX_VALUE)
 
 }

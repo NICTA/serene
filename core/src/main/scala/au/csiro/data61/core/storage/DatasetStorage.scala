@@ -42,7 +42,7 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
 
   override implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
-  override def rootDir: String = new File(Serene.config.datasetStorageDir).getAbsolutePath
+  override def rootDir: String = new File(Serene.config.storageDirs.dataset).getAbsolutePath
 
   def columnMap: Map[ColumnID, Column[Any]] = cache.values
     .flatMap(_.columns)

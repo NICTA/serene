@@ -70,7 +70,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
   def deleteAllModels()(implicit server: TestServer): Unit = {
     val response = server.get(s"/$APIVersion/model")
 
-    if (response.status == Status.Ok) {
+    if (response.status == http.Status.Ok) {
       val str = response.contentString
       val regex = "[0-9]+".r
       val models = regex.findAllIn(str).map(_.toInt)
@@ -170,21 +170,24 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 //  Paths.get("src", "test", "resources", "helper").toFile.getAbsolutePath // location for sample files
 
   def copySampleDatasets(): Unit = {
+    val dir = Serene.config.storageDirs.dataset
     // copy sample dataset to Config.DatasetStorageDir
-    if (!Paths.get(Serene.config.datasetStorageDir).toFile.exists) { // create dataset storage dir
-      Paths.get(Serene.config.datasetStorageDir).toFile.mkdirs}
+    if (!Paths.get(dir).toFile.exists) { // create dataset storage dir
+      Paths.get(dir).toFile.mkdirs}
     val dsDir = Paths.get(helperDir, "sample.datasets").toFile // directory to copy from
     FileUtils.copyDirectory(dsDir,                    // copy sample dataset
-      Paths.get(Serene.config.datasetStorageDir).toFile)
+      Paths.get(dir).toFile)
   }
 
   def copySampleModels(): Unit = {
+    val dir = Serene.config.storageDirs.model
+
     // copy sample model to Config.ModelStorageDir
-    if (!Paths.get(Serene.config.modelStorageDir).toFile.exists) { // create model storage dir
-      Paths.get(Serene.config.modelStorageDir).toFile.mkdirs}
+    if (!Paths.get(dir).toFile.exists) { // create model storage dir
+      Paths.get(dir).toFile.mkdirs}
     val mDir = Paths.get(helperDir, "sample.models").toFile // directory to copy from
     FileUtils.copyDirectory(mDir,                    // copy sample model
-      Paths.get(Serene.config.modelStorageDir).toFile)
+      Paths.get(dir).toFile)
   }
 
   def copySampleFiles(): Unit = {
@@ -295,14 +298,14 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     * @param s
     * @return
     */
-  def pollModelState(model: Model, pollIterations: Int, pollTime: Int)(implicit s: TestServer): Future[MatcherTypes.Status] = {
+  def pollModelState(model: Model, pollIterations: Int, pollTime: Int)(implicit s: TestServer): Future[types.Status] = {
     Future {
 
-      def state(): MatcherTypes.Status = {
+      def state(): types.Status = {
         Thread.sleep(pollTime)
         // build a request to get the model...
         val response = s.get(s"/$APIVersion/model/${model.id}")
-        if (response.status != Status.Ok) {
+        if (response.status != http.Status.Ok) {
           throw new Exception("Failed to retrieve model state")
         }
         // ensure that the data is correct...
@@ -312,11 +315,11 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       }
 
       @tailrec
-      def rState(loops: Int): MatcherTypes.Status = {
+      def rState(loops: Int): types.Status = {
         state() match {
-          case s@MatcherTypes.Status.COMPLETE =>
+          case s@types.Status.COMPLETE =>
             s
-          case s@MatcherTypes.Status.ERROR =>
+          case s@types.Status.ERROR =>
             s
           case _ if loops < 0 =>
             throw new Exception("Training timeout")
@@ -363,7 +366,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
         // send the request and make sure it executes
         val response = Await.result(server.client(request))
 
-        assert(response.status === Status.Accepted)
+        assert(response.status === http.Status.Accepted)
         assert(response.contentString.isEmpty)
 
         (model, ds)
@@ -383,7 +386,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     try {
       val response = get(s"/$APIVersion/model")
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.Ok)
+      assert(response.status === http.Status.Ok)
       assert(!response.contentString.isEmpty)
       assert(Try { parse(response.contentString).extract[List[ModelID]] }.isSuccess)
     } finally {
@@ -411,7 +414,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val response = Await.result(client(request))
 
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.Ok)
+      assert(response.status === http.Status.Ok)
       assert(!response.contentString.isEmpty)
       val model = parse(response.contentString).extract[Model]
 
@@ -443,7 +446,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val response = Await.result(client(request))
 
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.BadRequest)
+      assert(response.status === http.Status.BadRequest)
       assert(!response.contentString.isEmpty)
 
     } finally {
@@ -473,7 +476,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val response = Await.result(client(request))
 
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.Ok)
+      assert(response.status === http.Status.Ok)
       assert(!response.contentString.isEmpty)
 
       val model = parse(response.contentString).extract[Model]
@@ -505,7 +508,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val response = Await.result(client(request))
 
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.Ok)
+      assert(response.status === http.Status.Ok)
       assert(!response.contentString.isEmpty)
       val model = parse(response.contentString).extract[Model]
 
@@ -571,7 +574,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val response = Await.result(client(request))
 
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.BadRequest)
+      assert(response.status === http.Status.BadRequest)
       assert(!response.contentString.isEmpty)
 
     } finally {
@@ -594,7 +597,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val response = Await.result(client(request))
 
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.BadRequest)
+      assert(response.status === http.Status.BadRequest)
       assert(!response.contentString.isEmpty)
 
     } finally {
@@ -614,7 +617,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           // build a request to modify the model...
           val response = get(s"/$APIVersion/model")
           assert(response.contentType === Some(JsonHeader))
-          assert(response.status === Status.Ok)
+          assert(response.status === http.Status.Ok)
           assert(!response.contentString.isEmpty)
 
           // ensure that the object appears in the master list...
@@ -642,7 +645,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           // build a request to get the model...
           val response = get(s"/$APIVersion/model/${model.id}")
           assert(response.contentType === Some(JsonHeader))
-          assert(response.status === Status.Ok)
+          assert(response.status === http.Status.Ok)
           assert(!response.contentString.isEmpty)
 
           // ensure that the data is correct...
@@ -670,7 +673,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       // by the id gen.
       val response = get(s"/$APIVersion/model/0")
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.NotFound)
+      assert(response.status === http.Status.NotFound)
       assert(!response.contentString.isEmpty)
     } finally {
         deleteAllModels()
@@ -684,7 +687,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       // converted to an int successfully but cannot be created
       // by the id gen.
       val response = get(s"/$APIVersion/model/asdf")
-      assert(response.status === Status.NotFound)
+      assert(response.status === http.Status.NotFound)
       assert(response.contentString.isEmpty)
     } finally {
         deleteAllModels()
@@ -720,7 +723,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           // send the request and make sure it executes
           val response = Await.result(client(request))
           assert(response.contentType === Some(JsonHeader))
-          assert(response.status === Status.Ok)
+          assert(response.status === http.Status.Ok)
           assert(!response.contentString.isEmpty)
 
           // ensure that the data is correct...
@@ -752,14 +755,14 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
           val response = delete(resource)
           assert(response.contentType === Some(JsonHeader))
-          assert(response.status === Status.Ok)
+          assert(response.status === http.Status.Ok)
           assert(!response.contentString.isEmpty)
 
           // there should be nothing there, and the response
           // should say so.
           val noResource = get(resource)
           assert(noResource.contentType === Some(JsonHeader))
-          assert(noResource.status === Status.NotFound)
+          assert(noResource.status === http.Status.NotFound)
           assert(!noResource.contentString.isEmpty)
 
         case Failure(err) =>
@@ -820,7 +823,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val response = Await.result(client(trainResp))
 
-      assert(response.status === Status.NotFound)
+      assert(response.status === http.Status.NotFound)
       assert(response.contentString.nonEmpty)
 
     } finally {
@@ -838,7 +841,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val state = concurrent.Await.result(trained, 30 seconds)
 
-      assert(state === MatcherTypes.Status.COMPLETE)
+      assert(state === types.Status.COMPLETE)
 
     } finally {
       deleteAllModels()
@@ -857,7 +860,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val state = concurrent.Await.result(trained, 30 seconds)
 
-      assert(state === MatcherTypes.Status.COMPLETE)
+      assert(state === types.Status.COMPLETE)
 
     } finally {
       deleteAllModels()
@@ -889,9 +892,9 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
           val state = concurrent.Await.result(trained, 15 seconds)
 
-          assert(response.status === Status.Accepted)
+          assert(response.status === http.Status.Accepted)
           assert(response.contentString.isEmpty)
-          assert(state === MatcherTypes.Status.ERROR)
+          assert(state === types.Status.ERROR)
 
         case Failure(err) =>
           throw new Exception("Failed to create test resource")
@@ -912,13 +915,13 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val busyResponse = get(s"/$APIVersion/model/${model.id}")
       val busyModel = parse(busyResponse.contentString).extract[Model]
-      assert(busyModel.state.status === MatcherTypes.Status.BUSY)
+      assert(busyModel.state.status === types.Status.BUSY)
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
       val state = concurrent.Await.result(trained, 15 seconds)
 
-      assert(state === MatcherTypes.Status.COMPLETE)
+      assert(state === types.Status.COMPLETE)
 
     } finally {
       deleteAllModels()
@@ -938,7 +941,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val trained = pollModelState(model, PollIterations, PollTime)
       val state = concurrent.Await.result(trained, 20 seconds)
 
-      assert(state === MatcherTypes.Status.COMPLETE)
+      assert(state === types.Status.COMPLETE)
 
       // training complete, now check to see that another train
       // uses cached value
@@ -949,13 +952,13 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       // send the request and make sure it executes
       val secondResponse = Await.result(client(secondRequest))
-      assert(secondResponse.status === Status.Accepted)
+      assert(secondResponse.status === http.Status.Accepted)
       assert(secondResponse.contentString.isEmpty)
 
       // now query the model with no delay and make sure it is complete...
       val completeResponse = get(s"/$APIVersion/model/${model.id}")
       val completeModel = parse(completeResponse.contentString).extract[Model]
-      assert(completeModel.state.status === MatcherTypes.Status.COMPLETE)
+      assert(completeModel.state.status === types.Status.COMPLETE)
 
     } finally {
       deleteAllModels()
@@ -975,7 +978,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val trained = pollModelState(model, PollIterations, PollTime)
       val state = concurrent.Await.result(trained, 15 seconds)
 
-      assert(state === MatcherTypes.Status.COMPLETE)
+      assert(state === types.Status.COMPLETE)
 
       // now update the model...
       val json = "description" -> "new change"
@@ -990,18 +993,18 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       // send the request and make sure it executes
       val secondResponse = Await.result(client(secondRequest))
-      assert(secondResponse.status === Status.Accepted)
+      assert(secondResponse.status === http.Status.Accepted)
       assert(secondResponse.contentString.isEmpty)
 
       // now query the model with no delay and make sure it is complete...
       val completeResponse = get(s"/$APIVersion/model/${model.id}")
       val completeModel = parse(completeResponse.contentString).extract[Model]
-      assert(completeModel.state.status === MatcherTypes.Status.BUSY)
+      assert(completeModel.state.status === types.Status.BUSY)
 
       // now just make sure it completes...
       val finalTrained = pollModelState(model, PollIterations, PollTime)
       val finalState = concurrent.Await.result(finalTrained, 15 seconds)
-      assert(finalState === MatcherTypes.Status.COMPLETE)
+      assert(finalState === types.Status.COMPLETE)
 
     } finally {
       deleteAllModels()
@@ -1148,7 +1151,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val trained = pollModelState(model, PollIterations, PollTime)
       val state = concurrent.Await.result(trained, 30 seconds)
 
-      assert(state === MatcherTypes.Status.COMPLETE)
+      assert(state === types.Status.COMPLETE)
 
       // now make a prediction
       val request = RequestBuilder()
@@ -1158,7 +1161,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val response = Await.result(client(request))
 
-      assert(response.status === Status.Ok)
+      assert(response.status === http.Status.Ok)
 
     } finally {
       deleteAllModels()
@@ -1188,7 +1191,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
           // send the request and make sure it executes
           val response = Await.result(client(request))
 
-          assert(response.status === Status.BadRequest)
+          assert(response.status === http.Status.BadRequest)
           assert(response.contentString.nonEmpty)
 
         case Failure(err) =>
@@ -1213,7 +1216,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
       val trained = pollModelState(model, PollIterations, PollTime)
       val state = concurrent.Await.result(trained, 30 seconds)
 
-      assert(state === MatcherTypes.Status.COMPLETE)
+      assert(state === types.Status.COMPLETE)
 
       // now make a prediction
       val request = RequestBuilder()
@@ -1223,7 +1226,7 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
 
       val response = Await.result(client(request))
 
-      assert(response.status === Status.Ok)
+      assert(response.status === http.Status.Ok)
 
       val prediction = parse(response.contentString).extract[DataSetPrediction]
 
