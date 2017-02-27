@@ -131,29 +131,29 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
   }
 
 
-//  test("Creating octopus for businessInfo") {
-//    copySampleDatasets() // copy csv files for getCities and businessInfo
-//    SSDStorage.add(0, businessSSD) // add businessInfo ssd
-//
-//    // create default octopus
-//    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
-//    // lobster should automatically be created
-//    val lobster: Model = ModelStorage.get(octopus.lobsterID).get
-//
-//    assert(octopus.ssds === List(0))
-//    assert(octopus.ontologies === List(1))
-//    assert(octopus.state.status === ModelTypes.Status.UNTRAINED)
-//
-//    assert(lobster.modelType === RANDOM_FOREST)
-//    assert(lobster.resamplingStrategy === NO_RESAMPLING)
-//    assert(lobster.classes.size === 4)
-//    assert(lobster.labelData.size === 4)
-//    assert(lobster.labelData === Map(643243447 -> "Organization---name",
-//      1534291035 -> "Person---name",
-//      843054462 -> "City---name",
-//      1138681944 -> "State---name")
-//    )
-//  }
+  test("Creating octopus for businessInfo") {
+    copySampleDatasets() // copy csv files for getCities and businessInfo
+    SSDStorage.add(0, businessSSD) // add businessInfo ssd
+
+    // create default octopus
+    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
+    // lobster should automatically be created
+    val lobster: Model = ModelStorage.get(octopus.lobsterID).get
+
+    assert(octopus.ssds === List(0))
+    assert(octopus.ontologies === List(1))
+    assert(octopus.state.status === ModelTypes.Status.UNTRAINED)
+
+    assert(lobster.modelType === RANDOM_FOREST)
+    assert(lobster.resamplingStrategy === NO_RESAMPLING)
+    assert(lobster.classes.size === 4)
+    assert(lobster.labelData.size === 4)
+    assert(lobster.labelData === Map(643243447 -> "Organization---name",
+      1534291035 -> "Person---name",
+      843054462 -> "City---name",
+      1138681944 -> "State---name")
+    )
+  }
 
   test("Constructing initial alignment graph for businessInfo") {
     copySampleDatasets() // copy csv files for getCities and businessInfo
