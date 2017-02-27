@@ -36,10 +36,10 @@ object TrainOctopus extends LazyLogging{
   // delete karma-dir??
 
 
-  def train(octopus: Octopus,
-            alignmentDir: Path,
-            ontologies: List[String],
-            knownSSDs: List[SemanticSourceDesc]): Option[Path] = {
+  def train(octopus: Octopus
+            , alignmentDir: Path
+            , ontologies: List[String]
+            , knownSSDs: List[SemanticSourceDesc]): Option[Path] = {
     Try {
       val karmaWrapper = KarmaParams(alignmentDir = alignmentDir.toString,
         ontologies = ontologies,

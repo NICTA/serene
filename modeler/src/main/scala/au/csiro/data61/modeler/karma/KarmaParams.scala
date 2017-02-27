@@ -45,9 +45,9 @@ import au.csiro.data61.modeler.ModelerConfig
   * @param ontologies List of paths where ontologies are stored
   * @param modelingProps Path where the file with modeling properties is located; optional
   */
-case class KarmaParams(alignmentDir: String,
-                       ontologies: List[String],
-                       modelingProps: Option[String]) extends LazyLogging {
+case class KarmaParams(alignmentDir: String
+                       , ontologies: List[String]
+                       , modelingProps: Option[String]) extends LazyLogging {
   /**
     * list of values for some parameters needed to initialize Karma
     */

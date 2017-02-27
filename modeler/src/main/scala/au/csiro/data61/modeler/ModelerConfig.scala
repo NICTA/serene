@@ -28,6 +28,7 @@ object ModelerConfig extends LazyLogging {
 
   private val conf = ConfigFactory.load()
 
+  // directory where temporary Karma stuff resides...
   val KarmaDir = conf.getString("config.karma-dir")
 
   logger.debug(s"Karma storage dir $KarmaDir")
