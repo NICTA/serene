@@ -17,7 +17,6 @@
   */
 package au.csiro.data61.modeler
 
-import java.io
 import java.io.FileInputStream
 import java.nio.file.Paths
 

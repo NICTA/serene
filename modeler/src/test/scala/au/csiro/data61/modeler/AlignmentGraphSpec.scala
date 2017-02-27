@@ -47,6 +47,9 @@ import au.csiro.data61.types.Exceptions.ModelerException
 @RunWith(classOf[JUnitRunner])
 class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging {
 
+  val dummyOctopusID = 1
+  val dummySsdID = Some(1)
+
   val ssdDir = getClass.getResource("/ssd").getPath
   val karmaDir = getClass.getResource("/karma").getPath
   val alignmentDir = Paths.get("/tmp/test-ssd", "alignment") toString
@@ -131,7 +134,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
     // TODO: to forbid addition of the SSD more than once to the alignment
     // this should be done once Alignment Storage is set up!
     val newSSD: SemanticSourceDesc = knownSSDs.headOption match {
-      case Some(ssd) => ssd.copy(id = Some(1))
+      case Some(ssd) => ssd.copy(id = dummySsdID)
       case None =>
         fail("SSD 0 is missing!")
     }

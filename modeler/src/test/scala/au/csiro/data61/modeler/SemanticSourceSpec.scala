@@ -44,6 +44,8 @@ import org.joda.time.DateTime
 @RunWith(classOf[JUnitRunner])
 class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging {
 
+  val dummySsdID = Some(1)
+
   val ssdDir = getClass.getResource("/ssd").getPath
 
   def emptySSD: String = Paths.get(ssdDir,"empty_model.ssd") toString
@@ -107,7 +109,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   test("Successful creation of SSD"){
     val ssd = SemanticSourceDesc( version = TypeConfig.SSDVersion,
       name = "test",
-      id = Some(1),
+      id = dummySsdID,
       columns = List(dummyCol),
       attributes = List(dummyAttr),
       ontology = List(1),
@@ -123,7 +125,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   test("Inconsistent SSD: attributes are inconsistent") {
     val ssd = SemanticSourceDesc(version = TypeConfig.SSDVersion,
       name = "test",
-      id = Some(1),
+      id = dummySsdID,
       columns = List(dummyCol),
       attributes = List(dummyAttr, dummyAttr2), // attributes are inconsistent
       ontology = List(1),
@@ -139,7 +141,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   test("Inconsistent SSD: mappings are inconsistent") {
     val ssd2 = SemanticSourceDesc(version = TypeConfig.SSDVersion,
       name = "test",
-      id = Some(1),
+      id = dummySsdID,
       columns = List(dummyCol),
       attributes = List(dummyAttr),
       ontology = List(1),
@@ -155,7 +157,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   test("Inconsistent SSD: mappings are again inconsistent") {
     val ssd3 = SemanticSourceDesc(version = TypeConfig.SSDVersion,
       name = "test",
-      id = Some(1),
+      id = dummySsdID,
       columns = List(dummyCol),
       attributes = List(dummyAttr),
       ontology = List(1),
@@ -171,7 +173,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   test("Inconsistent SSD: semantic model - mappings clash") {
     val ssd4 = SemanticSourceDesc( version = TypeConfig.SSDVersion,
       name = "test",
-      id = Some(1),
+      id = dummySsdID,
       columns = List(dummyCol),
       attributes = List(dummyAttr),
       ontology = List(1),
@@ -187,7 +189,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   test("Jsonify SSD"){
     val ssd = SemanticSourceDesc( version = TypeConfig.SSDVersion,
       name = "test",
-      id = Some(1),
+      id = dummySsdID,
       columns = List(dummyCol),
       attributes = List(dummyAttr),
       ontology = List(1),
