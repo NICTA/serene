@@ -34,7 +34,7 @@ import scala.language.postfixOps
 
 
 object SSDTypes {
-  type SsdID = Int      // id of the SSD
+  type SsdID = Option[Int]      // id of the SSD
   type AttrID = Int     // id for the transformed column
   type OwlID = Int      // id of the owl
   type OctopusID = Int  // id for the alignment model
@@ -57,7 +57,7 @@ object SSDTypes {
     */
   case class Octopus(id: OctopusID,
                      ontologies: List[Int], // WARNING: Int should be OwlID! Json4s bug.
-                     ssds: List[Int],       // WARNING: Int should be SsdID! Json4s bug.
+                     ssds: List[Option[Int]],       // WARNING: Int should be SsdID! Json4s bug.
                      lobsterID: ModelID,
                      modelingProps: Option[String],
                      alignmentDir: Option[Path],
@@ -103,7 +103,7 @@ object SSDTypes {
   */
 case class SemanticSourceDesc(version: String,
                               name: String,
-                              id: SsdID,
+                              id: Option[Int], // json4s bug - should be SsdID
                               columns: List[SSDColumn],
                               attributes: List[SSDAttribute],
                               ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug

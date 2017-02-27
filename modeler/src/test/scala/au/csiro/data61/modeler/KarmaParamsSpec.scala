@@ -177,7 +177,7 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
     assert(knownSSDs.flatMap(_.ontology).size === 1)
     assert(karmaWrapper.ontologies.size === 1)
     val model = karmaWrapper.readKarmaModelJson(exampleKarmaSSD)
-    val ssd = model.toSSD(1, TypeConfig.SSDVersion, List(1), "businessInfo.csv")
+    val ssd = model.toSSD(Some(1), TypeConfig.SSDVersion, List(1), "businessInfo.csv")
 
     assert(ssd.version === TypeConfig.SSDVersion)
     assert(ssd.isComplete === true)
@@ -191,7 +191,7 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
 
   test("Successful conversion of converted SemanticModel to Karma Graph") {
     val model = karmaWrapper.readKarmaModelJson(exampleKarmaSSD)
-    val ssd = model.toSSD(1, TypeConfig.SSDVersion, List(1), "businessInfo.csv")
+    val ssd = model.toSSD(Some(1), TypeConfig.SSDVersion, List(1), "businessInfo.csv")
     val semModel = model.karmaSM.toSemanticModel
     val karmaGraph = ssd.mappings match {
       case Some(maps) =>
@@ -239,11 +239,11 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
 
   test("Successful conversion of converted SemantciSourceDesc to KarmaSemanticModel") {
     val model = karmaWrapper.readKarmaModelJson(exampleKarmaSSD)
-    val ssd: SemanticSourceDesc = model.toSSD(1, TypeConfig.SSDVersion, List(1), "businessInfo.csv")
+    val ssd: SemanticSourceDesc = model.toSSD(Some(1), TypeConfig.SSDVersion, List(1), "businessInfo.csv")
 
     val karmaConversion = ssd.toKarmaSemanticModel(karmaWrapper.karmaWorkspace.getOntologyManager)
     val ssdConversion: SemanticSourceDesc = karmaConversion match {
-      case Some(converted) => converted.toSSD(1, TypeConfig.SSDVersion, List(1), "businessInfo.csv")
+      case Some(converted) => converted.toSSD(Some(1), TypeConfig.SSDVersion, List(1), "businessInfo.csv")
       case None =>
         fail("Converting to Karma Semantic model failed.")
     }

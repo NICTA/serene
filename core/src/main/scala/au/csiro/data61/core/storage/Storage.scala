@@ -61,6 +61,7 @@ object Readable {
     */
   implicit val ReadableDouble = toReadable[Double](_.toDouble)
   implicit val ReadableInt = toReadable[Int](_.toInt)
+  implicit val ReadableOptionInt = toReadable[Option[Int]](p => Some(p.toInt))
   implicit val ReadableLong = toReadable[Long](_.toLong)
   implicit val ReadableString = toReadable[String](new String(_))
   implicit val ReadableBoolean = toReadable[Boolean](_.toBoolean)

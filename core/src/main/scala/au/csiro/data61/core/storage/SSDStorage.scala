@@ -33,7 +33,7 @@ import scala.language.postfixOps
   */
 object SSDStorage extends Storage[SsdID, SemanticSourceDesc] {
 
-  implicit val keyReader: Readable[Int] = Readable.ReadableInt
+  implicit val keyReader: Readable[Option[Int]] = Readable.ReadableOptionInt
 
   def rootDir: String = new File(Serene.config.ssdStorageDir).getAbsolutePath
 
