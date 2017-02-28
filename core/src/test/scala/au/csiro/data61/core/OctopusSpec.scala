@@ -29,8 +29,9 @@ import au.csiro.data61.modeler.ModelerConfig
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
 import au.csiro.data61.types.ModelType.RANDOM_FOREST
 import au.csiro.data61.types.ModelTypes.Model
-import au.csiro.data61.types.SSDTypes.Owl
+import au.csiro.data61.types.SSDTypes.{Owl, OwlDocumentFormat}
 import au.csiro.data61.types.SamplingStrategy.NO_RESAMPLING
+import au.csiro.data61.types.Training.Status
 import au.csiro.data61.types._
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
@@ -42,8 +43,6 @@ import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
-
-
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
 
@@ -68,8 +67,14 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   override def beforeEach(): Unit = {
     copySampleDatasets() // copy csv files for getCities and businessInfo
-    SSDStorage.add(businessSsdID, businessSSD) // add businessInfo ssd
+    SsdStorage.add(businessSsdID, businessSSD) // add businessInfo ssd
     OwlStorage.add(exampleOwlID, exampleOwl)  // add sample ontology
+    // write owl file
+    Try{
+      val stream = new FileInputStream(exampleOntolPath.toFile)
+      OwlStorage.writeOwlDocument(exampleOwlID, stream)
+    }
+
   }
 
   val ssdDir = getClass.getResource("/ssd").getPath
@@ -87,7 +92,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
   }
 
   val exampleOntolPath = Paths.get(ssdDir,"dataintegration_report_ontology.owl")
-  val exampleOwl = Owl(id =1, path = exampleOntolPath,
+  val exampleOwl = Owl(id = exampleOwlID, name = exampleOntolPath.toString, format = OwlDocumentFormat.DefaultOwl,
     description = "sample", dateCreated = DateTime.now, dateModified = DateTime.now)
 
   val partialSSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
@@ -109,6 +114,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
   )
 
   val defaultOctopusRequest = OctopusRequest(
+    name = None,
     description = Some("default octopus"),
     modelType = None,
     features = Some(defaultFeatures),
@@ -119,7 +125,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     ssds = Some(List(0)),
     modelingProps = None)
 
-  val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None, None, None, None)
+  val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None, None)
 
   val helperDir = getClass.getResource("/helper").getPath
   val sampleDsDir = getClass.getResource("/sample.datasets").getPath
@@ -131,11 +137,11 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   def copySampleDatasets(): Unit = {
     // copy sample dataset to Config.DatasetStorageDir
-    if (!Paths.get(Serene.config.datasetStorageDir).toFile.exists) { // create dataset storage dir
-      Paths.get(Serene.config.datasetStorageDir).toFile.mkdirs}
+    if (!Paths.get(Serene.config.storageDirs.dataset).toFile.exists) { // create dataset storage dir
+      Paths.get(Serene.config.storageDirs.dataset).toFile.mkdirs}
     val dsDir = Paths.get(sampleDsDir).toFile // directory to copy from
     FileUtils.copyDirectory(dsDir,                    // copy sample dataset
-      Paths.get(Serene.config.datasetStorageDir).toFile)
+      Paths.get(Serene.config.storageDirs.dataset).toFile)
 
     // adding datasets explicitly to the storage
     val businessDS: DataSet = Try {
@@ -166,7 +172,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
     assert(octopus.ssds === List(businessSsdID))
     assert(octopus.ontologies === List(exampleOwlID))
-    assert(octopus.state.status === ModelTypes.Status.UNTRAINED)
+    assert(octopus.state.status === Status.UNTRAINED)
 
     assert(lobster.modelType === RANDOM_FOREST)
     assert(lobster.resamplingStrategy === NO_RESAMPLING)
@@ -189,15 +195,15 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     val state = OctopusInterface.trainOctopus(octopus.id)
 
     // octopus becomes busy
-    assert(state.get.status === ModelTypes.Status.BUSY)
+    assert(state.get.status === Status.BUSY)
     Thread.sleep(1000)
     // lobster becomes busy
-    assert(ModelStorage.get(octopus.lobsterID).get.state.status === ModelTypes.Status.BUSY)
+    assert(ModelStorage.get(octopus.lobsterID).get.state.status === Status.BUSY)
 
     Thread.sleep(12000)
 
-    assert(ModelStorage.get(octopus.lobsterID).get.state.status === ModelTypes.Status.COMPLETE)
-    assert(OctopusStorage.get(octopus.id).get.state.status === ModelTypes.Status.COMPLETE)
+    assert(ModelStorage.get(octopus.lobsterID).get.state.status === Status.COMPLETE)
+    assert(OctopusStorage.get(octopus.id).get.state.status === Status.COMPLETE)
   }
 
   // tests for createOctopus
