@@ -167,7 +167,7 @@ class SparkTestSpec extends FunSuite with LazyLogging{
     succeed
   }
 
-  // FIXME: this bug hasn't been fixed yet!
+  // FIXME: this bug hasn't been fixed yet! hoping that new release of spark will discard this issue
 //  test("Checking train_error") {
 //    // spark bug
 //    // issue with too many features
