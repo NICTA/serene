@@ -44,7 +44,7 @@ import org.joda.time.DateTime
 @RunWith(classOf[JUnitRunner])
 class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging {
 
-  val dummySsdID = Some(1)
+  val dummySsdID = 1
 
   val ssdDir = getClass.getResource("/ssd").getPath
 

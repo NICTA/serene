@@ -48,7 +48,7 @@ import au.csiro.data61.types.Exceptions.ModelerException
 class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging {
 
   val dummyOctopusID = 1
-  val dummySsdID = Some(1)
+  val dummySsdID = 1
 
   val ssdDir = getClass.getResource("/ssd").getPath
   val karmaDir = getClass.getResource("/karma").getPath

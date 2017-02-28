@@ -54,7 +54,7 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
   def exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.owl") toString
 
   val dummyOwlID = 1
-  val dummySsdID = Some(1)
+  val dummySsdID = 1
 
   var knownSSDs: List[SemanticSourceDesc] = List()
   var karmaWrapper = KarmaParams(alignmentDir, List(), None)
