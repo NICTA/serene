@@ -21,8 +21,8 @@ import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams}
 import au.csiro.data61.types.Exceptions.ModelerException
-import au.csiro.data61.types.SSDTypes.Octopus
-import au.csiro.data61.types.SemanticSourceDesc
+import au.csiro.data61.types.SsdTypes.Octopus
+import au.csiro.data61.types.Ssd
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.util.{Failure, Success, Try}
@@ -36,10 +36,10 @@ object TrainOctopus extends LazyLogging{
   // delete karma-dir??
 
 
-  def train(octopus: Octopus
-            , alignmentDir: Path
-            , ontologies: List[String]
-            , knownSSDs: List[SemanticSourceDesc]): Option[Path] = {
+  def train(octopus: Octopus,
+            alignmentDir: Path,
+            ontologies: List[String],
+            knownSSDs: List[Ssd]): Option[Path] = {
     Try {
       val karmaWrapper = KarmaParams(alignmentDir = alignmentDir.toString,
         ontologies = ontologies,
@@ -52,7 +52,8 @@ object TrainOctopus extends LazyLogging{
       alignmentDir
     }
   } match {
-    case Success(path) => Some(path)
+    case Success(path) =>
+      Some(path)
     case Failure(err) =>
       logger.error(s"Semantic modeler failed to train the octopus: $err")
       throw ModelerException(s"Semantic modeler failed to train the octopus: $err")

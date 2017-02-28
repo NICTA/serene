@@ -23,7 +23,9 @@ import au.csiro.data61.types.GraphTypes._
 import com.typesafe.scalalogging.LazyLogging
 import edu.isi.karma.modeling.ontology.OntologyManager
 import edu.isi.karma.rep.alignment.SemanticType.{Origin => KarmaOrigin}
-import edu.isi.karma.rep.alignment.{ClassInstanceLink, ColumnNode, DataPropertyLink, InternalNode, LabeledLink, LiteralNode, Node, ObjectPropertyLink, ObjectPropertyType, SubClassLink, Label => KarmaLabel, LinkStatus => KarmaLinkStatus, SemanticType => KarmaSemanticType}
+import edu.isi.karma.rep.alignment.{ClassInstanceLink, ColumnNode, DataPropertyLink, InternalNode}
+import edu.isi.karma.rep.alignment.{LabeledLink, LiteralNode, Node, ObjectPropertyLink, ObjectPropertyType}
+import edu.isi.karma.rep.alignment.{SubClassLink, Label => KarmaLabel, LinkStatus => KarmaLinkStatus, SemanticType => KarmaSemanticType}
 import org.jgrapht.graph.DirectedWeightedMultigraph
 import org.json4s._
 
@@ -45,30 +47,32 @@ object GraphTypes {
 /**
   * Case class to represent both node and link labels
   * We should separate labels for links and nodes, since labelTypes should be specific enums...
+ *
   * @param label node or link label
   * @param labelType node or link type
   * @param status node or link status
   * @param prefix this is actually namespace, default to the one indicated in Config
   */
-case class SSDLabel(label: String,
+case class SsdLabel(label: String,
                     labelType: String,
                     status: String = "ForcedByUser",
-                    prefix: String = TypeConfig.DefaultNamespace) extends Ordered[SSDLabel]{
+                    prefix: String = TypeConfig.DefaultNamespace) extends Ordered[SsdLabel]{
   override def toString: String = s"($prefix$label, $labelType, $status)"
 
   def getURI: String = s"$prefix$label"
 
-  def compare(that: SSDLabel): Int = this.toString.compare(that.toString)
+  def compare(that: SsdLabel): Int = this.toString.compare(that.toString)
 }
 
 /**
   * Case class which specifies node type in the semantic model.
   * We might have nodes which have the same ssdLabels, but different ids.
+ *
   * @param id id of the node
   * @param ssdLabel SSDLabel of the node
   */
-case class SSDNode(id: NodeID,
-                   ssdLabel: SSDLabel)
+case class SsdNode(id: NodeID,
+                   ssdLabel: SsdLabel)
 {
   override def toString: String = s"$id:$ssdLabel"
 }
@@ -76,44 +80,58 @@ case class SSDNode(id: NodeID,
 /**
   * custom JSON serializer for the SSDNode
   */
-case object SSDNodeSerializer extends CustomSerializer[SSDNode](
+case object SsdNodeSerializer extends CustomSerializer[SsdNode](
   format => (
     {
       case jv: JValue =>
         implicit val formats = DefaultFormats
         val nId: NodeID = HelperJSON.parseOption[NodeID]("id",jv) match {
-          case Success(Some(v)) => v
-          case Success(None) => throw TypeException("Failed to parse SSDNode: absent id!")
-          case Failure(err) => throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
+          case Success(Some(v)) =>
+            v
+          case Success(None) =>
+            throw TypeException("Failed to parse SSDNode: absent id!")
+          case Failure(err) =>
+            throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
         }
         val nStatus: String = HelperJSON.parseOption[String]("status",jv) match {
-          case Success(Some(v)) => v
-          case Success(None) => "ForcedByUser" // default value
-          case Failure(err) => throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
+          case Success(Some(v)) =>
+            v
+          case Success(None) =>
+            "ForcedByUser" // default value
+          case Failure(err) =>
+            throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
         }
         val nLab: String = HelperJSON.parseOption[String]("label",jv) match {
-          case Success(Some(v)) => v
-          case Success(None) => throw TypeException("Failed to parse SSDNode: absent label!")
-          case Failure(err) => throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
+          case Success(Some(v)) =>
+            v
+          case Success(None) =>
+            throw TypeException("Failed to parse SSDNode: absent label!")
+          case Failure(err) =>
+            throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
         }
         val nType: String = HelperJSON.parseOption[String]("type",jv) match {
-          case Success(Some(v)) => v
-          case Success(None) => throw TypeException("Failed to parse SSDNode: absent type!")
-          case Failure(err) => throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
+          case Success(Some(v)) =>
+            v
+          case Success(None) =>
+            throw TypeException("Failed to parse SSDNode: absent type!")
+          case Failure(err) =>
+            throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
         }
         val nPrefix: String = HelperJSON.parseOption[String]("prefix",jv) match {
-          case Success(Some(v)) => v
-          case Success(None) => {
+          case Success(Some(v)) =>
+            v
+          case Success(None) =>
             nType match {
-              case "ClassNode" => TypeConfig.DefaultNamespace // default namespace is used only for ClassNodes
-              case _ => ""                                // for all other node types we use an empty string
+              case "ClassNode" =>
+                TypeConfig.DefaultNamespace // default namespace is used only for ClassNodes
+              case _ =>
+                ""                          // for all other node types we use an empty string
             }
-          }
           case Failure(err) => throw TypeException(s"Failed to parse SSDNode: ${err.getMessage}")
         }
-        SSDNode(nId, SSDLabel(nLab,nType,nStatus, nPrefix))
+        SsdNode(nId, SsdLabel(nLab,nType,nStatus, nPrefix))
     }, {
-    case node: SSDNode =>
+    case node: SsdNode =>
       // really annoying: I can't use ~ since it's in scala graph library
       JObject(JField("id", JInt(node.id)) ::
           JField("label", JString(node.ssdLabel.label)) ::
@@ -127,34 +145,38 @@ case object SSDNodeSerializer extends CustomSerializer[SSDNode](
 /**
   * Case class which specifies link type in the semantic model.
   * It is a custom edge specified on the base of a directed edge from scala-graph library.
+ *
   * @param fromNode id of the source node
   * @param toNode id of the target node
   * @param id id of the link
   * @param ssdLabel SSDLabel of the link
   */
-case class SSDLink[SSDNode](fromNode: SSDNode,
-                   toNode: SSDNode,
-                   id: LinkID,
-                   ssdLabel: SSDLabel)
-  extends DiEdge[SSDNode](NodeProduct(fromNode,toNode))
-  with ExtendedKey[SSDNode]
-  with EdgeCopy[SSDLink]
-  with OuterEdge[SSDNode,SSDLink]
+case class SsdLink[SsdNode](fromNode: SsdNode,
+                            toNode: SsdNode,
+                            id: LinkID,
+                            ssdLabel: SsdLabel)
+  extends DiEdge[SsdNode](NodeProduct(fromNode,toNode))
+  with ExtendedKey[SsdNode]
+  with EdgeCopy[SsdLink]
+  with OuterEdge[SsdNode,SsdLink]
 {
-  private def this(nodes: Product, id: LinkID, ssdLabel: SSDLabel) {
-    this(nodes.productElement(0).asInstanceOf[SSDNode],
-      nodes.productElement(1).asInstanceOf[SSDNode], id, ssdLabel)
+  private def this(nodes: Product, id: LinkID, ssdLabel: SsdLabel) {
+    this(nodes.productElement(0).asInstanceOf[SsdNode],
+      nodes.productElement(1).asInstanceOf[SsdNode], id, ssdLabel)
   }
-  def keyAttributes = Seq(id)
-  override def copy[NN](newNodes: Product) = new SSDLink[NN](newNodes, id, ssdLabel)
+  def keyAttributes: Seq[LinkID] = Seq(id)
+
+  override def copy[NN](newNodes: Product): SsdLink[NN] = new SsdLink[NN](newNodes, id, ssdLabel)
+
   override protected def attributesToString = s" ## ($id,$ssdLabel)"
 }
 
 // specifying a shortcut for edge creation
-object SSDLink {
-  implicit final class ImplicitEdge[A <: SSDNode](val e: DiEdge[A]) extends AnyVal {
-//    def ## (id: LinkID) = new SSDLink[A](e.source, e.target, id) // this was taken from the guidelines, but it doesn't work for some unknown reasons....
-    def ##(id: LinkID, ssdLabel: SSDLabel) = new SSDLink[A](e.nodes, id, ssdLabel)
+object SsdLink {
+  implicit final class ImplicitEdge[A <: SsdNode](val e: DiEdge[A]) extends AnyVal {
+    //    def ## (id: LinkID) = new SSDLink[A](e.source, e.target, id)
+    // this was taken from the guidelines, but it doesn't work for some unknown reasons....
+    def ##(id: LinkID, ssdLabel: SsdLabel): SsdLink[A] = new SsdLink[A](e.nodes, id, ssdLabel)
     // we now create a new link by typing:
     // SSDNode(1, ssdLabel) ~> SSDNode(2,ssdLabel) ## (1, ssdLabel)
   }
@@ -162,6 +184,7 @@ object SSDLink {
 
 /**
   * Helper class for json serialization
+ *
   * @param id Link id
   * @param source Node id of the source
   * @param target Node id of the target
@@ -237,48 +260,54 @@ case object HelperLinkSerializer extends CustomSerializer[HelperLink](
   * Karma-tool uses JGraphT library to represent graphs.
   * Moving to ScalaGraph library... we need converters from JGraphT to Scala Graph and vice versa.
   * Also Json serializer is needed to write ssd files.
+ *
   * @param graph graph object from Scala Graph library
   */
-case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
+case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
   //TODO: consider simplifying the data structure for links? maybe use hand-written structure instead of scala library
-  type NodeT = graph.NodeT // SSDNode
-  type LinkT = graph.EdgeT // SSDLink[SSDNode]
+  type NodeT = graph.NodeT // SsdNode
+  type LinkT = graph.EdgeT // SsdLink[SsdNode]
 
   /**
     * Method to get all nodes from the graph of the semantic model.
     * This method is needed for Json serialization.
-    * @return List[SSDNode]
+ *
+    * @return List[SsdNode]
     */
-  def getNodes: List[SSDNode] = graph.nodes.map(n => n.value) toList
+  def getNodes: List[SsdNode] = graph.nodes.map(n => n.value) toList
 
   /**
     * Method to get the sorted list of node labels.
     * This method can be used to compare nodes of two different semantic models.
-    * @return List[SSDNode]
+ *
+    * @return List[SsdNode]
     */
-  def getNodeLabels: List[SSDLabel] = graph.nodes
+  def getNodeLabels: List[SsdLabel] = graph.nodes
     .map(_.ssdLabel).toList.sorted
 
   /**
     * Method to get all links from the graph of the semantic model.
-    * @return List of SSDLink[NodeT] where NodeT should be equal to SSDNode
+ *
+    * @return List of SsdLink[NodeT] where NodeT should be equal to SSDNode
     */
-  def getLinks: List[SSDLink[NodeT]] = graph.edges
-    .map(_.edge.asInstanceOf[SSDLink[NodeT]]) toList
+  def getLinks: List[SsdLink[NodeT]] = graph.edges
+    .map(_.edge.asInstanceOf[SsdLink[NodeT]]) toList
 
   /**
     * Method to get the list of lexicographically ordered link labels:
     * (sourceLabel, linkLabel, targetLabel).
     * This method can be used to compare links of two different semantic models.
+ *
     * @return List of triplets, each element corresponding to SSDLabel
     */
-  def getLinkLabels: List[(SSDLabel,SSDLabel,SSDLabel)] = graph.edges
+  def getLinkLabels: List[(SsdLabel, SsdLabel,SsdLabel)] = graph.edges
     .map(e => (e.fromNode.ssdLabel, e.ssdLabel, e.toNode.ssdLabel)).toList
     .sortBy(e => e._1.toString + e._2.toString + e._3.toString)
 
   /**
     * Method to get all links from the graph of the semantic model.
     * This method is needed for Json serialization.
+ *
     * @return List[HelperLink]
     */
   def getHelperLinks: List[HelperLink] = graph.edges
@@ -293,38 +322,47 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
 
   /**
     * Get the label of the node in the graph.
+ *
     * @param nodeID Node id in the semantic model.
     * @return
     */
-  def getNodeLabel(nodeID: NodeID): SSDLabel = {
+  def getNodeLabel(nodeID: NodeID): SsdLabel = {
     graph.nodes
       .find(n => n.id == nodeID) match {
-      case Some(nn) => nn.ssdLabel
-      case _ => throw TypeException("Wrong node id in the mappings -- it doesn't exist in the semantic model.")
+        case Some(nn) =>
+          nn.ssdLabel
+        case _ =>
+          throw TypeException("Wrong node id in the mappings -- it doesn't exist in the semantic model.")
     }
   }
 
   /**
     * Helper Function to get the uri of the node if it is of type ClassNode.
+ *
     * @param node Node in the semantic model
     * @return
     */
   private def getClassUri(node: NodeT): Option[String] = {
     node.ssdLabel.labelType match {
-      case "ClassNode" => Some(node.ssdLabel.getURI)
-      case _ => None
+      case "ClassNode" =>
+        Some(node.ssdLabel.getURI)
+      case _ =>
+        None
     }
   }
 
   /**
     * Helper Function to get the uri of the link if it is of type DataPropertyLink.
+ *
     * @param edge Link in the semantic model.
     * @return
     */
   private def getDataPropertyUri(edge: LinkT): Option[String] ={
     edge.ssdLabel.labelType match {
-      case "DataPropertyLink" => Some(edge.ssdLabel.getURI)
-      case _ => None
+      case "DataPropertyLink" =>
+        Some(edge.ssdLabel.getURI)
+      case _ =>
+        None
     }
   }
 
@@ -332,6 +370,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
     * Get domain and type of a data node.
     * Domain is the uri of the associated class node.
     * Type is the uri of the associated property link.
+ *
     * @param nodeID Id of the node in the semanic model.
     * @return
     */
@@ -366,16 +405,19 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
             }
 
             Some(className, propName)
-          case _ => None // domain and type make no sense for others
+          case _ =>
+            None // domain and type make no sense for others
         }
       }
-      case _ => throw TypeException(s"Wrong node id $nodeID -- it doesn't exist in the semantic model.")
+      case _ =>
+        throw TypeException(s"Wrong node id $nodeID -- it doesn't exist in the semantic model.")
     }
   }
 
   /**
-    * Create Karma LabeledLink from our SSDLink
-    * @param e SSDLink
+    * Create Karma LabeledLink from our SsdLink
+ *
+    * @param e SsdLink
     * @param source Karma Node
     * @param target Karma Node
     * @param ontoManager Karma OnotologyManager
@@ -419,10 +461,11 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
     * Helper function to get Karma Origin for the SemanticType.
     * If ssdLabel.labelType is not one of the values in the enum for KarmaOrigin,
     * we set the origin to the default value KarmaOrigin.User.
+ *
     * @param ssdLabel Label
     * @return
     */
-  private def getKarmaOrigin(ssdLabel: SSDLabel): KarmaOrigin = {
+  private def getKarmaOrigin(ssdLabel: SsdLabel): KarmaOrigin = {
     Try{
       KarmaOrigin.valueOf(ssdLabel.labelType)
     } match {
@@ -433,28 +476,33 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
 
   /**
     * Create a map from our node ids to Karma ColumnNodes.
+ *
     * @param ssdMappings Mappings of attributes to nodes in the semantic model.
     * @return
     */
-  private def columnNodeMap(ssdMappings: SSDMapping): Map[NodeID, Node] = {
+  private def columnNodeMap(ssdMappings: SsdMapping): Map[NodeID, Node] = {
     ssdMappings.mappings.map {
       case (attrID, nodeID) => {
-        val nodeLabel: SSDLabel = getNodeLabel(nodeID)
+        val nodeLabel: SsdLabel = getNodeLabel(nodeID)
+
         // NOTE: we create ids for Karma by adding HN to the attribute id
         // NOTE: since attribute ids have to be unique, created ids for Karma ColumnNodes will be unique as well.
         // hNodeId and id in Karma are equal for ColumnNode
         val hNodeId = s"HN$attrID"
+
         // we put the columnName equal to the label -- though it's not correct, it's not relevant for our side
         val colNode = new ColumnNode(hNodeId
           , hNodeId
           , nodeLabel.label
           , null  // ColumnNodes have empty KarmaLabels
           , null) // Karma guys used null for language everywhere
+
         // set isForced property based on node status
         // FIXME: is that correct setup?
         // forced nodes will be included always in steinernodes even if they don't have semantic type.
         // so, we have to be careful with it!
         colNode.setForced(nodeLabel.status.contains("User"))
+
         // we need to set now userSemanticTypes for this column
         // to this end we need to identify domain and type of the property
         getDomainType(nodeID) match {
@@ -469,6 +517,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
             logger.error("ColumnNode cannot be created since DataNode is not properly defined.")
             throw TypeException("ColumnNode cannot be created since DataNode is not properly defined.")
         }
+
         // TODO: do we need to set learnedSemanticTypes explicitly to []?
 //        colNode.setLearnedSemanticTypes(new util.LinkedList[KarmaSemanticType]())
         nodeID -> colNode
@@ -478,6 +527,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
 
   /**
     * Helper method to obtain a map from uris to the list of nodes which have a specific uri.
+ *
     * @return
     */
   private def indexUriLabel: Map[String,List[NodeID]] = {
@@ -498,6 +548,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
     * Since Karma tool uses URIs as ids for nodes in the semantic model,
     * we need to make sure that nodes which correspond to the same ontology class still have unique URIs.
     * For this purpose we index them.
+ *
     * @param nodeID Id of the node
     * @param uriLab Uri label of the node
     * @return
@@ -513,10 +564,11 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
     * Create a map from our node ids to Karma Nodes which are not ColumnNode.
     * For ClassNode we have to be careful with karma ids for nodes in the graph:
     * we need to add integers at the end which would ensure uniqueness of nodes.
+ *
     * @param ssdMappings Mappings of attributes to nodes in the semantic model.
     * @return
     */
-  private def otherNodeMap(ssdMappings: SSDMapping): Map[NodeID,Node] = {
+  private def otherNodeMap(ssdMappings: SsdMapping): Map[NodeID,Node] = {
     graph.nodes.filter {
       node => !ssdMappings.mappings.values.toSet.contains(node.id) // we get all nodes which are not ColumnNode
     }.flatMap {
@@ -549,10 +601,11 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
     * Convert to Karma-like representation of the semantic model.
     * We need the Karma ontology manager to define object property types.
     * TODO: check semantic types and all uris using ontology manager.
+ *
     * @param ssdMappings SSDMapping needed to identify ColumnNode
     * @param ontoManager OntologyManager from Karma
     */
-  def toKarmaGraph(ssdMappings: SSDMapping, ontoManager: OntologyManager): KarmaGraph = {
+  def toKarmaGraph(ssdMappings: SsdMapping, ontoManager: OntologyManager): KarmaGraph = {
     logger.info("Converting SemanticModel to KarmaGraph...")
     // Converting node types:
     //  Nodes which are in ssdMappings -> ColumnNode
@@ -595,31 +648,37 @@ case object SemanticModelSerializer extends CustomSerializer[SemanticModel](
   format => (
     {
       case jv: JValue =>
-        val nodes: Map[NodeID,SSDNode] = HelperJSON.parseOption[List[SSDNode]]("nodes",jv) match {
-          case Success(Some(nList)) => nList.map(node => node.id -> node) toMap
-          case Success(None) => throw TypeException("Nodes are absent.")
-          case Failure(err) => throw TypeException(s"Failed to extract nodes. ${err.getMessage}")
+        val nodes: Map[NodeID,SsdNode] = HelperJSON.parseOption[List[SsdNode]]("nodes",jv) match {
+          case Success(Some(nList)) =>
+            nList.map(node => node.id -> node) toMap
+          case Success(None) =>
+            throw TypeException("Nodes are absent.")
+          case Failure(err) =>
+            throw TypeException(s"Failed to extract nodes. ${err.getMessage}")
         }
         val hLinks: List[HelperLink] = HelperJSON.parseOption[List[HelperLink]]("links",jv) match {
-          case Success(Some(eList)) => eList
-          case Success(None) => throw TypeException("Links are absent.")
-          case Failure(err) => throw TypeException(s"Failed to extract links. ${err.getMessage}")
+          case Success(Some(eList)) =>
+            eList
+          case Success(None) =>
+            throw TypeException("Links are absent.")
+          case Failure(err) =>
+            throw TypeException(s"Failed to extract links. ${err.getMessage}")
         }
-        val links: List[SSDLink[SSDNode]] = hLinks.map(
+        val links: List[SsdLink[SsdNode]] = hLinks.map(
           hLink => {
             val n1 = nodes.getOrElse(hLink.source,
               throw TypeException("Wrong link: non-existent source."))
             val n2 = nodes.getOrElse(hLink.target,
               throw TypeException("Wrong link: non-existent target."))
-            SSDLink(n1, n2
+            SsdLink(n1, n2
               , hLink.id
-              , SSDLabel(hLink.label, hLink.lType, hLink.status, hLink.prefix))
+              , SsdLabel(hLink.label, hLink.lType, hLink.status, hLink.prefix))
         })
-        val g: Graph[SSDNode,SSDLink] = Graph() // we make it immutable!!!
+        val g: Graph[SsdNode,SsdLink] = Graph() // we make it immutable!!!
         SemanticModel(g ++ links)
     }, {
     case sm: SemanticModel =>
-      implicit val formats = DefaultFormats + SSDNodeSerializer + HelperLinkSerializer
+      implicit val formats = DefaultFormats + SsdNodeSerializer + HelperLinkSerializer
       val jvNodes = JArray(sm.getNodes.map(node => Extraction.decompose(node)))
       val jvLinks = JArray(sm.getHelperLinks.map(link => Extraction.decompose(link)))
       JObject(JField("nodes",jvNodes) :: JField("links",jvLinks) :: Nil)

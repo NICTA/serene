@@ -49,7 +49,7 @@ class SSDStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     assert(SsdStorage.keys.size === 0)
     Try {
       val stream = new FileInputStream(Paths.get(exampleSSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         SsdStorage.add(ssd.id, ssd) match {
@@ -69,7 +69,7 @@ class SSDStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     assert(SsdStorage.keys.size === 0)
     Try {
       val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         assert(SsdStorage.add(ssd.id, ssd) === None)

@@ -18,7 +18,7 @@
 package au.csiro.data61.core.api
 
 import au.csiro.data61.core.storage.SsdStorage
-import au.csiro.data61.types.{SsdRequest, SSDAttribute, SSDColumn, SemanticSourceDesc}
+import au.csiro.data61.types._
 import org.joda.time.DateTime
 
 import scala.language.postfixOps
@@ -45,13 +45,13 @@ import scala.util.{Failure, Success, Try}
   */
 object SsdAPI extends RestAPI {
 
-  val junkSSD = SemanticSourceDesc(
+  val junkSsd = Ssd(
     id = 1,
     version = "0.1",
     name = "test",
-    columns = List(SSDColumn(1, "col1"), SSDColumn(2, "col2")),
+    columns = List(SsdColumn(1, "col1"), SsdColumn(2, "col2")),
     attributes = List(
-      SSDAttribute(1, "test", "hello", List(1, 2), "sql")
+      SsdAttribute(1, "test", "hello", List(1, 2), "sql")
     ),
     ontology = List(1, 2, 3),
     semanticModel = None,
@@ -79,9 +79,9 @@ object SsdAPI extends RestAPI {
     * Returns a JSON SSD object with id.
     *
     */
-  val ssdCreate: Endpoint[SemanticSourceDesc] = post(APIVersion :: "ssd" :: stringBody) {
+  val ssdCreate: Endpoint[Ssd] = post(APIVersion :: "ssd" :: stringBody) {
     (body: String) =>
-      Ok(junkSSD)
+      Ok(junkSsd)
   }
 
   /**
@@ -89,7 +89,7 @@ object SsdAPI extends RestAPI {
     *
     * curl http://localhost:8080/v1.0/ssd/12354687
     */
-  val ssdGet: Endpoint[SemanticSourceDesc] = get(APIVersion :: "ssd" :: int) {
+  val ssdGet: Endpoint[Ssd] = get(APIVersion :: "ssd" :: int) {
     (id: Int) =>
 
       logger.debug(s"Get ssd id=$id")
@@ -114,13 +114,13 @@ object SsdAPI extends RestAPI {
     * curl -X POST -d 'description=This is the new description'
     * http://localhost:8080/v1.0/ssd/12354687
     */
-  val ssdPatch: Endpoint[SemanticSourceDesc] = post(APIVersion :: "ssd" :: int :: stringBody) {
+  val ssdPatch: Endpoint[Ssd] = post(APIVersion :: "ssd" :: int :: stringBody) {
 
     (id: Int, body: String) =>
 
       logger.debug(s"Patching dataset id=$id")
 
-      Ok(junkSSD)
+      Ok(junkSsd)
   }
 
   /**

@@ -35,7 +35,7 @@ trait Identifiable[Key] {
 
 
 object HelperJSON {
-  implicit val formats = DefaultFormats + HelperLinkSerializer + SSDNodeSerializer
+  implicit val formats = DefaultFormats + HelperLinkSerializer + SsdNodeSerializer
   /**
     * Helper function to parse json objects. This will return None if
     * nothing is present, and throw a BadRequest error if it is incorrect,

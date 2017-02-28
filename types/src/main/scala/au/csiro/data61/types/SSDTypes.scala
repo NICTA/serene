@@ -23,10 +23,10 @@ import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.DataSetTypes.DataSetID
 import au.csiro.data61.types.GraphTypes._
 import au.csiro.data61.types.ModelTypes.ModelID
-import au.csiro.data61.types.SSDTypes.OwlDocumentFormat.OwlDocumentFormat
-import au.csiro.data61.types.SSDTypes.{AttrID, SsdID}
+import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
+import au.csiro.data61.types.SsdTypes.{AttrID, SsdID}
 import com.typesafe.scalalogging.LazyLogging
-import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
+import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSsd}
 import edu.isi.karma.modeling.ontology.OntologyManager
 import org.joda.time.DateTime
 import org.json4s.{DefaultFormats, _}
@@ -34,7 +34,7 @@ import org.json4s.{DefaultFormats, _}
 import scala.language.postfixOps
 
 
-object SSDTypes {
+object SsdTypes {
   type SsdID = Int // id of the SSD
   type AttrID = Int        // id for the transformed column
   type OwlID = Int         // id of the owl
@@ -119,11 +119,11 @@ object SSDTypes {
   */
 case class SsdRequest(version: String,
                       name: String,
-                      columns: List[SSDColumn],
-                      attributes: List[SSDAttribute],
+                      columns: List[SsdColumn],
+                      attributes: List[SsdAttribute],
                       ontologies: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
                       semanticModel: Option[SemanticModel], // create = empty, returned = full
-                      mappings: Option[SSDMapping])  // create = empty, returned = full
+                      mappings: Option[SsdMapping])  // create = empty, returned = full
 
 
 /**
@@ -143,17 +143,17 @@ case class SsdRequest(version: String,
   * @param dateCreated Date when it was created
   * @param dateModified Date when it was last modified
   */
-case class SemanticSourceDesc(version: String, // TODO: can be removed
-                              name: String,
-                              id: SsdID,
-                              columns: List[SSDColumn], // TODO: can be removed
-                              attributes: List[SSDAttribute], // TODO: can be removed
-                              ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
-                              semanticModel: Option[SemanticModel],
-                              mappings: Option[SSDMapping],
-                              dateCreated: DateTime,
-                              dateModified: DateTime
-                             ) extends Identifiable[SsdID] with LazyLogging {
+case class Ssd(version: String, // TODO: can be removed
+               name: String,
+               id: SsdID,
+               columns: List[SsdColumn], // TODO: can be removed
+               attributes: List[SsdAttribute], // TODO: can be removed
+               ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
+               semanticModel: Option[SemanticModel],
+               mappings: Option[SsdMapping],
+               dateCreated: DateTime,
+               dateModified: DateTime
+              ) extends Identifiable[SsdID] with LazyLogging {
   /**
     * we need to check consistency of SSD
     * -- columnIds in attributes refer to existing ids in columns
@@ -170,25 +170,25 @@ case class SemanticSourceDesc(version: String, // TODO: can be removed
         )
     }
     // mappings refer to attributeIDs which are available among attributes
-    val mappingCheck1: Boolean = mappings match {
+    val attrIdCheck: Boolean = mappings match {
       case Some(maps) => maps.mappings.keys
         .forall(attributes.map(_.id).contains)
       case None => true
     }
 
     // mappings refer to nodeIDs which exist in the semantic model
-    val mappingCheck2: Boolean = mappings match {
+    val nodeIdCheck: Boolean = mappings match {
       case Some(maps) => maps.mappings.values
         .forall(getSMNodeIds.contains)
       case None => true
     }
       // we map to distinct nodes in the semantic model
-    val mappingCheck3 = mappings match {
+    val distinctCheck = mappings match {
       case Some(maps) => maps.mappings.values.toList.distinct.size == maps.mappings.values.size
       case None => true
     }
 
-    attrCheck && mappingCheck1 && mappingCheck2 && mappingCheck3
+    attrCheck && attrIdCheck && nodeIdCheck && distinctCheck
   }
 
   /**
@@ -199,14 +199,18 @@ case class SemanticSourceDesc(version: String, // TODO: can be removed
     // TODO: check semantic types in ontology???? This check needs to be implemented in the storage layer!
     // semantic model is not empty and is a connected graph
     val semModelCheck = semanticModel match {
-      case Some(sm) => sm.getNodes.nonEmpty && sm.isConnected
-      case None => false
+      case Some(sm) =>
+        sm.getNodes.nonEmpty && sm.isConnected
+      case None =>
+        false
     }
 
     // mappings are not empty
     val mappingCheck = mappings match {
-      case Some(maps) => maps.mappings.nonEmpty
-      case None => false
+      case Some(maps) =>
+        maps.mappings.nonEmpty
+      case None =>
+        false
     }
     // ssd is consistent and above two checks
     isConsistent && semModelCheck && mappingCheck
@@ -220,19 +224,22 @@ case class SemanticSourceDesc(version: String, // TODO: can be removed
     */
   private def getSMNodeIds: List[NodeID] = {
     semanticModel match {
-      case Some(sm) => sm.getNodes.map(_.id)
-      case None => List()
+      case Some(sm) =>
+        sm.getNodes.map(_.id)
+      case None =>
+        List()
     }
   }
 
-  def notMappedAttributes: List[SSDAttribute] = {
+  def notMappedAttributes: List[SsdAttribute] = {
     mappings match {
         // in case some attributes are mapped -> get the set difference of two lists
       case Some(maps) =>
         val mappedAttributes = maps.mappings.keys.toSet
         attributes.filterNot(attr => mappedAttributes.contains(attr.id))
         // in case no attributes are mapped -> get all attribute ids
-      case None => attributes
+      case None =>
+        attributes
     }
   }
 
@@ -243,10 +250,10 @@ case class SemanticSourceDesc(version: String, // TODO: can be removed
     * @param karmaSM Semantic Model returned from the Karma tool, this is type KarmaGraph.
     * @return
     */
-  def update(karmaSM: KarmaGraph): SemanticSourceDesc = {
+  def update(karmaSM: KarmaGraph): Ssd = {
     logger.info(s"Updating SSD $id")
     this.copy(semanticModel = Some(karmaSM.toSemanticModel),
-      mappings = Some(SSDMapping(karmaSM.columnNodeMappings)),
+      mappings = Some(SsdMapping(karmaSM.columnNodeMappings)),
       dateModified = DateTime.now
     )
   }
@@ -264,9 +271,9 @@ case class SemanticSourceDesc(version: String, // TODO: can be removed
     (semanticModel, mappings) match {
       case (Some(sm), Some(maps)) =>
         val karmaGraph = sm.toKarmaGraph(maps, ontoManager)
-        val karmaSSD = new KarmaSSD(id.toString, karmaGraph.graph)
-        karmaSSD.setName(name)
-        Some(KarmaSemanticModel(karmaSSD))
+        val karmaSsd = new KarmaSsd(id.toString, karmaGraph.graph)
+        karmaSsd.setName(name)
+        Some(KarmaSemanticModel(karmaSsd))
       case _ => None
     }
   }
@@ -280,7 +287,7 @@ case class SemanticSourceDesc(version: String, // TODO: can be removed
   * @param id Column ID
   * @param name Name of the column
   */
-case class SSDColumn(id: ColumnID,
+case class SsdColumn(id: ColumnID,
                      name: String)
 
 /**
@@ -292,13 +299,13 @@ case class SSDColumn(id: ColumnID,
   * @param columnIds List of IDs of source columns
   * @param sql String which specifies SQL for the transformation
   */
-case class SSDAttribute(id: AttrID,
+case class SsdAttribute(id: AttrID,
                         name: String,
                         label: String,
                         columnIds: List[Int], // bug in json serializer
                         sql: String)
 
-object SSDAttribute {
+object SsdAttribute {
   /**
     * Create default identity attribute for a column.
  *
@@ -307,23 +314,23 @@ object SSDAttribute {
     * @param tableName name of the table
     * @return SSDAttribute
     */
-  def apply(column: SSDColumn, id: AttrID, tableName: String): SSDAttribute = {
-    new SSDAttribute(id, column.name, "identity",
+  def apply(column: SsdColumn, id: AttrID, tableName: String): SsdAttribute = {
+    new SsdAttribute(id, column.name, "identity",
       List(column.id), s"select ${column.name} from $tableName")
   }
 }
 
-case class SSDMapping(mappings: Map[Int,Int])
+case class SsdMapping(mappings: Map[Int,Int])
 
 /**
   * custom JSON serializer for the SSDMapping
   */
-case object SSDMappingSerializer extends CustomSerializer[SSDMapping](
+case object SsdMappingSerializer extends CustomSerializer[SsdMapping](
   format => (
     {
       case jv: JValue =>
         implicit val formats = DefaultFormats
-        SSDMapping(
+        SsdMapping(
           jv.extract[List[Map[String,Int]]]
             .map(_.values.toList)
             .map { case List(aID,nID) =>
@@ -332,7 +339,7 @@ case object SSDMappingSerializer extends CustomSerializer[SSDMapping](
             .toMap
         )
     }, {
-    case ssdMap: SSDMapping =>
+    case ssdMap: SsdMapping =>
       implicit val formats = DefaultFormats
       Extraction.decompose(
         ssdMap.mappings.toList

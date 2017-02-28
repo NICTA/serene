@@ -37,7 +37,7 @@ import au.csiro.data61.types._
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
 import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.Exceptions.ModelerException
-import au.csiro.data61.types.SSDTypes._
+import au.csiro.data61.types.SsdTypes._
 
 /**
   * Created by natalia on 14/11/16.
@@ -57,13 +57,13 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   val alignmentDir = Paths.get("/tmp/test-ssd", "alignment") toString
   val exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.owl") toString
 
-  var knownSSDs: List[SemanticSourceDesc] = List() // has the function of SSDStorage
+  var knownSSDs: List[Ssd] = List() // has the function of SSDStorage
   var karmaWrapper = KarmaParams(alignmentDir, List(), None)
 
   def addSSD(ssdPath: String): Unit = {
     Try {
       val stream = new FileInputStream(Paths.get(ssdPath).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         knownSSDs = ssd :: knownSSDs
@@ -96,6 +96,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
   /**
     * Construct DataSetPrediction instance for businessInfo.csv
+    *
     * @return
     */
   def getBusinessDataSetPredictions: Option[DataSetPrediction] = {
@@ -129,6 +130,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
   /**
     * Construct DataSetPrediction instance for getCities.csv
+    *
     * @return
     */
   def getCitiesDataSetPredictions: Option[DataSetPrediction] = {
@@ -167,7 +169,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   test("Recommendation for businessInfo.csv fails since there are no preloaded ontologies"){
     val newSSD = Try {
       val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd
@@ -193,7 +195,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     addSSD(exampleSSD)
     val newSSD = Try {
       val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd
@@ -229,7 +231,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
     val newSSD = Try {
       val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd
@@ -251,7 +253,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
         businessSemanticTypeMap, businessAttrToColMap2)
 
     recommends match {
-      case Some(ssdPred: SSDPrediction) =>
+      case Some(ssdPred: SsdPrediction) =>
         assert(ssdPred.suggestions.size === 1)
         val recSemanticModel = ssdPred.suggestions.head._1
         val scores = ssdPred.suggestions.head._2
@@ -287,7 +289,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     logger.info("================================================================")
     val newSSD = Try {
       val stream = new FileInputStream(Paths.get(partialSSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd
@@ -309,7 +311,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
         List(exampleOntol), None,
         businessSemanticTypeMap, businessAttrToColMap2)
     recommends match {
-      case Some(ssdPred: SSDPrediction) =>
+      case Some(ssdPred: SsdPrediction) =>
         assert(ssdPred.suggestions.size === 1)
         val recSemanticModel = ssdPred.suggestions.head._1
         val scores = ssdPred.suggestions.head._2
@@ -355,7 +357,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     logger.info("================================================================")
     val newSSD = Try {
       val stream = new FileInputStream(Paths.get(veryPartialSSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd
@@ -377,7 +379,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
         List(exampleOntol), getBusinessDataSetPredictions,
         businessSemanticTypeMap, businessAttrToColMap2)
     recommends match {
-      case Some(ssdPred: SSDPrediction) =>
+      case Some(ssdPred: SsdPrediction) =>
         assert(ssdPred.suggestions.size === 1)
         val recSemanticModel = ssdPred.suggestions.head._1
         val scores = ssdPred.suggestions.head._2
@@ -419,7 +421,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
     val newSSD = Try {
       val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd
@@ -440,7 +442,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
         List(exampleOntol), getCitiesDataSetPredictions, Map(), citiesAttrToColMap)
 
     recommends match {
-      case Some(ssdPred: SSDPrediction) =>
+      case Some(ssdPred: SsdPrediction) =>
         assert(ssdPred.suggestions.size === 4)
         assert(ssdPred.suggestions.forall(_._1.isComplete)) // Karma should return a consistent and complete semantic model
         assert(ssdPred.suggestions.forall(_._1.isConsistent))
@@ -476,7 +478,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
     val newSSD = Try {
       val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd
@@ -513,7 +515,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
     val newSSD = Try {
       val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd
@@ -533,7 +535,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
       .suggestModels(newSSD, dummyOctopusID,
         List(exampleOntol), getCitiesDataSetPredictions, correctCitiesSemanticTypeMap, citiesAttrToColMap)
     recommends match {
-      case Some(ssdPred: SSDPrediction) =>
+      case Some(ssdPred: SsdPrediction) =>
         assert(ssdPred.suggestions.size === 4)
         // Karma should return a consistent and complete semantic model
         assert(ssdPred.suggestions.forall(_._1.isComplete))

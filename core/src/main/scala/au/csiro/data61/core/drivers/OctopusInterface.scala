@@ -24,11 +24,11 @@ import au.csiro.data61.core.api.{BadRequestException, InternalException, ModelRe
 import au.csiro.data61.core.storage._
 import au.csiro.data61.modeler.{PredictOctopus, TrainOctopus}
 import au.csiro.data61.types.ModelTypes.ModelID
-import au.csiro.data61.types.SSDTypes.OwlDocumentFormat.OwlDocumentFormat
+import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
 import au.csiro.data61.types._
 import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types.Training.{Status, TrainState}
-import au.csiro.data61.types.SSDTypes._
+import au.csiro.data61.types.SsdTypes._
 import com.twitter.io.Reader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
@@ -154,6 +154,7 @@ object OctopusInterface extends LazyLogging{
 
   /**
     * Processing paths as returned by training methods
+    *
     * @param octopusID Octopus id
     * @param lobsterID Id of the schema matcher model
     * @param res Tuple of paths wrapped into Option
@@ -208,7 +209,7 @@ object OctopusInterface extends LazyLogging{
       val octopus = OctopusStorage.get(id).get
 
       // get SSDs for the training
-      val knownSSDs: List[SemanticSourceDesc] = octopus.ssds.flatMap(SsdStorage.get)
+      val knownSSDs: List[Ssd] = octopus.ssds.flatMap(SsdStorage.get)
 
       // get location strings of the ontologies
       val ontologies: List[String] = octopus.ontologies
@@ -227,7 +228,7 @@ object OctopusInterface extends LazyLogging{
     * @param ssdID id of the SSD
     * @return
     */
-  def predictOctopus(id: OctopusID, ssdID : SsdID): SSDPrediction = {
+  def predictOctopus(id: OctopusID, ssdID : SsdID): SsdPrediction = {
 
     if (OctopusStorage.isConsistent(id)) {
       // do prediction
@@ -343,7 +344,7 @@ object OctopusInterface extends LazyLogging{
         .flatMap(SsdStorage.get)
         .filter(_.mappings.isDefined)
         .filter(_.semanticModel.isDefined)
-        .flatMap { ssd: SemanticSourceDesc =>
+        .flatMap { ssd: Ssd =>
           ssd.mappings.get.mappings.map { // SSDs contain SSDMapping which is a mapping AttrID --> NodeID
             case (attrID, nodeID) =>
               (attrID,

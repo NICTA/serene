@@ -31,7 +31,7 @@ import edu.isi.karma.controller.update.UpdateContainer
 import edu.isi.karma.metadata.OntologyMetadata
 import edu.isi.karma.rep.metadata.Tag
 import edu.isi.karma.rep.metadata.TagsContainer.{Color, TagName}
-import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
+import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSsd}
 
 import au.csiro.data61.types.{KarmaSemanticModel, TypeConfig}
 import au.csiro.data61.types.Exceptions._
@@ -201,7 +201,7 @@ case class KarmaParams(alignmentDir: String
     * @return
     */
   def readKarmaModelJson(path: String) : KarmaSemanticModel = {
-    KarmaSemanticModel(KarmaSSD.readJson(path))
+    KarmaSemanticModel(KarmaSsd.readJson(path))
   }
 
   /**

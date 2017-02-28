@@ -32,7 +32,7 @@ import org.json4s.jackson.JsonMethods._
 import scalax.collection.Graph
 import scalax.collection.GraphPredef._
 import au.csiro.data61.types._
-import au.csiro.data61.types.SSDLink.ImplicitEdge // needs to be explicitly imported to use shortcut ##
+import au.csiro.data61.types.SsdLink.ImplicitEdge // needs to be explicitly imported to use shortcut ##
 
 /**
   * Tests for the Semantic Model and scala-graph library
@@ -46,15 +46,15 @@ class SemanticModelSpec extends FunSuite with ModelerJsonFormats with BeforeAndA
   def emptySM: String = Paths.get(ssdDir,"empty_semantic_model.json") toString
   def exampleSM: String = Paths.get(ssdDir,"semantic_model_example.json") toString
 
-  def ssdLab1: SSDLabel = SSDLabel("Person", "ClassNode", "ForcedByUser")
-  def ssdLab2: SSDLabel = SSDLabel("name", "DataNode", "ForcedByUser")
-  def n1: SSDNode = SSDNode(1,ssdLab1)
-  def n2: SSDNode = SSDNode(2,ssdLab2)
-  def linkLab: SSDLabel = SSDLabel("name","DataProperty","ForcedByUser")
-  def linkLab2: SSDLabel = SSDLabel("name2","DataProperty","ForcedByUser")
-  def outer: SSDLink[SSDNode] = SSDLink(n1,n2,1,linkLab)
+  def ssdLab1: SsdLabel = SsdLabel("Person", "ClassNode", "ForcedByUser")
+  def ssdLab2: SsdLabel = SsdLabel("name", "DataNode", "ForcedByUser")
+  def n1: SsdNode = SsdNode(1,ssdLab1)
+  def n2: SsdNode = SsdNode(2,ssdLab2)
+  def linkLab: SsdLabel = SsdLabel("name","DataProperty","ForcedByUser")
+  def linkLab2: SsdLabel = SsdLabel("name2","DataProperty","ForcedByUser")
+  def outer: SsdLink[SsdNode] = SsdLink(n1,n2,1,linkLab)
 
-  def dummyGraph: Graph[SSDNode, SSDLink] = Graph(outer)
+  def dummyGraph: Graph[SsdNode, SsdLink] = Graph(outer)
 
   test("Successfully created dummy scala graph") {
     val g = dummyGraph
@@ -69,11 +69,11 @@ class SemanticModelSpec extends FunSuite with ModelerJsonFormats with BeforeAndA
     assert(e.to === outer.to)
     assert(e.ssdLabel === outer.ssdLabel)
     assert(e === outer)
-    val linkLab2 = SSDLabel("name2","DataProperty","ForcedByUser")
-    val equalLink = SSDLink(n1, n2, 1, linkLab2)
+    val linkLab2 = SsdLabel("name2","DataProperty","ForcedByUser")
+    val equalLink = SsdLink(n1, n2, 1, linkLab2)
     assert(e === equalLink)
     assert(e.## === equalLink.##)
-    val neLink = SSDLink(n1, n2, 2, linkLab2)
+    val neLink = SsdLink(n1, n2, 2, linkLab2)
     assert(e != neLink)
     assert(e.## != neLink.##)
   }
@@ -123,7 +123,7 @@ class SemanticModelSpec extends FunSuite with ModelerJsonFormats with BeforeAndA
     g += outer2
     // create semantic model with mutable graph
     val semModel = SemanticModel(g)
-    val linkList: List[SSDLink[semModel.NodeT]] = semModel.getLinks
+    val linkList: List[SsdLink[semModel.NodeT]] = semModel.getLinks
 
     assert(linkList.size === 2)
     assert(linkList === List(outer, outer2))
@@ -132,7 +132,7 @@ class SemanticModelSpec extends FunSuite with ModelerJsonFormats with BeforeAndA
   test("Jsonify list of SSDNode") {
     val nodeList = List(n1,n2)
     val json = Extraction.decompose(nodeList)
-    val nList = json.extract[List[SSDNode]]
+    val nList = json.extract[List[SsdNode]]
     assert(nodeList === nList)
   }
 
@@ -173,7 +173,7 @@ class SemanticModelSpec extends FunSuite with ModelerJsonFormats with BeforeAndA
   }
 
   test("Adding isolate nodes to mutable scala graph") {
-    val g: scalax.collection.mutable.Graph[SSDNode, SSDLink] = scalax.collection.mutable.Graph(n1)
+    val g: scalax.collection.mutable.Graph[SsdNode, SsdLink] = scalax.collection.mutable.Graph(n1)
     g += n2
     assert(g.nodes.size === 2)
   }

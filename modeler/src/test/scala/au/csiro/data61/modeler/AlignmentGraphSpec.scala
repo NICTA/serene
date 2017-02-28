@@ -62,7 +62,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
   val businessCitiesAlign: String = Paths.get(karmaDir,"align_business_cities.json") toString
   val exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.owl") toString
 
-  var knownSSDs: List[SemanticSourceDesc] = List()
+  var knownSSDs: List[Ssd] = List()
   var karmaWrapper = KarmaParams(alignmentDir, List(), None)
 
   def removeAll(path: Path): Unit = {
@@ -79,7 +79,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
   override def beforeEach(): Unit = {
     Try {
       val stream = new FileInputStream(Paths.get(exampleSSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         knownSSDs = List(ssd)
@@ -133,7 +133,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
 
     // TODO: to forbid addition of the SSD more than once to the alignment
     // this should be done once Alignment Storage is set up!
-    val newSSD: SemanticSourceDesc = knownSSDs.headOption match {
+    val newSSD: Ssd = knownSSDs.headOption match {
       case Some(ssd) => ssd.copy(id = dummySsdID)
       case Some(ssd) => ssd.copy(id = 1)
       case None =>
@@ -180,7 +180,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
 
     val newSSD = Try {
       val stream = new FileInputStream(Paths.get(citiesSSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd
@@ -223,7 +223,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
 
     val newSSD = Try {
       val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd

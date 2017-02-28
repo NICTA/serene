@@ -22,8 +22,8 @@ import java.nio.file.StandardCopyOption.REPLACE_EXISTING
 import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.Serene
-import au.csiro.data61.types.SSDTypes.OwlDocumentFormat.OwlDocumentFormat
-import au.csiro.data61.types.SSDTypes.{Owl, OwlDocumentFormat, OwlID}
+import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
+import au.csiro.data61.types.SsdTypes.{Owl, OwlDocumentFormat, OwlID}
 import org.json4s.jackson.JsonMethods.parse
 
 import scala.util.{Failure, Success, Try}

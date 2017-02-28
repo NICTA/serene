@@ -29,7 +29,7 @@ import au.csiro.data61.modeler.ModelerConfig
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
 import au.csiro.data61.types.ModelType.RANDOM_FOREST
 import au.csiro.data61.types.ModelTypes.Model
-import au.csiro.data61.types.SSDTypes.{Owl, OwlDocumentFormat}
+import au.csiro.data61.types.SsdTypes.{Owl, OwlDocumentFormat}
 import au.csiro.data61.types.SamplingStrategy.NO_RESAMPLING
 import au.csiro.data61.types.Training.Status
 import au.csiro.data61.types._
@@ -79,10 +79,10 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   val ssdDir = getClass.getResource("/ssd").getPath
 
-  def readSSD(ssdPath: String): SemanticSourceDesc = {
+  def readSSD(ssdPath: String): Ssd = {
     Try {
       val stream = new FileInputStream(Paths.get(ssdPath).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         ssd
@@ -95,11 +95,11 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
   val exampleOwl = Owl(id = exampleOwlID, name = exampleOntolPath.toString, format = OwlDocumentFormat.DefaultOwl,
     description = "sample", dateCreated = DateTime.now, dateModified = DateTime.now)
 
-  val partialSSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
-  val veryPartialSSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"partial_model2.ssd").toString)
-  val emptyCitiesSSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"empty_getCities.ssd").toString)
-  val emptySSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
-  val businessSSD: SemanticSourceDesc = readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
+  val partialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
+  val veryPartialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model2.ssd").toString)
+  val emptyCitiesSSD: Ssd = readSSD(Paths.get(ssdDir,"empty_getCities.ssd").toString)
+  val emptySSD: Ssd = readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
+  val businessSSD: Ssd = readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
 
   val defaultFeatures = FeaturesConfig(
     activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals",

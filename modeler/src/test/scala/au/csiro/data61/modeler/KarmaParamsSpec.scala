@@ -56,7 +56,7 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
   val dummyOwlID = 1
   val dummySsdID = 1
 
-  var knownSSDs: List[SemanticSourceDesc] = List()
+  var knownSSDs: List[Ssd] = List()
   var karmaWrapper = KarmaParams(alignmentDir, List(), None)
 
   def removeAll(path: Path): Unit = {
@@ -73,7 +73,7 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
   override def beforeEach(): Unit = {
     Try {
       val stream = new FileInputStream(Paths.get(exampleSSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         knownSSDs = List(ssd)
@@ -93,10 +93,11 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
 
   /**
     * Get the list of ssd nodes from the semantic source description
+ *
     * @param ssd Semantic Source Description
     * @return
     */
-  def getSMNodes(ssd: SemanticSourceDesc): List[SSDNode] = {
+  def getSMNodes(ssd: Ssd): List[SsdNode] = {
     ssd.semanticModel match {
       case Some(sm) => sm.getNodes
       case None => List()
@@ -105,22 +106,24 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
 
   /**
     * Get the list of ssd links from the semantic source description
+ *
     * @param ssd Semantic Source Description
     * @return
     */
-  def getSMLinks(ssd: SemanticSourceDesc): List[SSDLink[SSDNode]] = {
+  def getSMLinks(ssd: Ssd): List[SsdLink[SsdNode]] = {
     ssd.semanticModel match {
-      case Some(sm) => sm.getLinks.map(e => e.asInstanceOf[SSDLink[SSDNode]])
+      case Some(sm) => sm.getLinks.map(e => e.asInstanceOf[SsdLink[SsdNode]])
       case None => List()
     }
   }
 
   /**
     * Get the list of ssd node labels from the semantic source description
+ *
     * @param ssd Semantic Source Description
     * @return
     */
-  def getSMNodeLabels(ssd: SemanticSourceDesc): List[SSDLabel] = {
+  def getSMNodeLabels(ssd: Ssd): List[SsdLabel] = {
     ssd.semanticModel match {
       case Some(sm) => sm.getNodeLabels
       case None => List()
@@ -129,10 +132,11 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
 
   /**
     * Get the list of ssd link labels from the semantic source description
+ *
     * @param ssd Semantic Source Description
     * @return
     */
-  def getSMLinkLabels(ssd: SemanticSourceDesc): List[(SSDLabel, SSDLabel, SSDLabel)] = {
+  def getSMLinkLabels(ssd: Ssd): List[(SsdLabel, SsdLabel, SsdLabel)] = {
     ssd.semanticModel match {
       case Some(sm) => sm.getLinkLabels
       case None => List()
@@ -141,10 +145,11 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
 
   /**
     * Amount of mappings in the ssd.
+ *
     * @param ssd Semantic Source Description
     * @return
     */
-  def getMappingSize(ssd: SemanticSourceDesc): Int = {
+  def getMappingSize(ssd: Ssd): Int = {
     ssd.mappings match {
       case Some(maps) => maps.mappings.size
       case None => 0
@@ -209,8 +214,8 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
   }
 
   test("Successful conversion of example SemanticModel to Karma Graph") {
-    val ssd: SemanticSourceDesc = knownSSDs.headOption match {
-      case Some(s: SemanticSourceDesc) => s
+    val ssd: Ssd = knownSSDs.headOption match {
+      case Some(s: Ssd) => s
       case _ => fail("SSD should be in the Storage!")
     }
 
@@ -242,10 +247,10 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
 
   test("Successful conversion of converted SemantciSourceDesc to KarmaSemanticModel") {
     val model = karmaWrapper.readKarmaModelJson(exampleKarmaSSD)
-    val ssd: SemanticSourceDesc = model.toSSD(dummySsdID, TypeConfig.SSDVersion, List(dummyOwlID), "businessInfo.csv")
+    val ssd: Ssd = model.toSSD(dummySsdID, TypeConfig.SSDVersion, List(dummyOwlID), "businessInfo.csv")
 
     val karmaConversion = ssd.toKarmaSemanticModel(karmaWrapper.karmaWorkspace.getOntologyManager)
-    val ssdConversion: SemanticSourceDesc = karmaConversion match {
+    val ssdConversion: Ssd = karmaConversion match {
       case Some(converted) => converted.toSSD(dummySsdID, TypeConfig.SSDVersion, List(dummyOwlID), "businessInfo.csv")
       case None =>
         fail("Converting to Karma Semantic model failed.")
@@ -262,13 +267,13 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
   }
 
   test("Successful conversion of example SemanticSourceDesc to KarmaSemanticModel") {
-    val ssd: SemanticSourceDesc = knownSSDs.headOption match {
-      case Some(s: SemanticSourceDesc) => s
+    val ssd: Ssd = knownSSDs.headOption match {
+      case Some(s: Ssd) => s
       case _ => fail("SSD should be in the Storage!")
     }
 
     val karmaConversion = ssd.toKarmaSemanticModel(karmaWrapper.karmaWorkspace.getOntologyManager)
-    val ssdConversion: SemanticSourceDesc = karmaConversion match {
+    val ssdConversion: Ssd = karmaConversion match {
       case Some(converted) => converted.toSSD(ssd.id, TypeConfig.SSDVersion, List(dummyOwlID), ssd.name)
       case None =>
         fail("Converting to Karma Semantic model failed.")

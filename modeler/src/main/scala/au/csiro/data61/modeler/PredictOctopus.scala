@@ -20,8 +20,8 @@ package au.csiro.data61.modeler
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
 import au.csiro.data61.types.ColumnTypes._
 import au.csiro.data61.types.Exceptions.ModelerException
-import au.csiro.data61.types.SSDTypes._
-import au.csiro.data61.types.{DataSetPrediction, SSDPrediction, SemanticSourceDesc}
+import au.csiro.data61.types.SsdTypes._
+import au.csiro.data61.types.{DataSetPrediction, SsdPrediction, Ssd}
 import com.typesafe.scalalogging.LazyLogging
 
 /**
@@ -32,12 +32,14 @@ object PredictOctopus extends LazyLogging {
   // TODO: to be implemented once AlignmentStorage layer is up
   // delete karma-dir??
 
-  def predict(octopus: Octopus
-              , ontologies: List[String]
-              , ssd: SemanticSourceDesc
-              , dsPredictions: Option[DataSetPrediction]
-              , attrToColMap: Map[AttrID,ColumnID]
-              , numSemanticTypes: Int): Option[SSDPrediction] = {
+  def predict(octopus: Octopus,
+              ontologies: List[String],
+              ssd: Ssd,
+              dsPredictions: Option[DataSetPrediction],
+              attrToColMap: Map[AttrID,ColumnID],
+              numSemanticTypes: Int
+             ): Option[SsdPrediction] = {
+
     logger.info("Semantic Modeler initializes prediction...")
 
     val karmaWrapper = KarmaParams(alignmentDir = octopus.alignmentDir

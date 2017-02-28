@@ -19,7 +19,7 @@ package au.csiro.data61.core.api
 
 import java.nio.file.Files
 import au.csiro.data61.core.drivers.OctopusInterface
-import au.csiro.data61.types.SSDTypes.{Owl, OwlID, OwlDocumentFormat}
+import au.csiro.data61.types.SsdTypes.{Owl, OwlID, OwlDocumentFormat}
 import com.twitter.finagle.http.Version.Http11
 import com.twitter.finagle.http.{Response, Status, Version}
 import com.twitter.finagle.http.exp.Multipart.{FileUpload, InMemoryFileUpload, OnDiskFileUpload}

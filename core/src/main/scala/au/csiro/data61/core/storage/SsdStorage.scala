@@ -21,7 +21,7 @@ package au.csiro.data61.core.storage
 import java.io._
 import java.nio.file.{Path, Paths}
 
-import au.csiro.data61.types.SSDTypes.{Owl, OwlID, SsdID}
+import au.csiro.data61.types.SsdTypes.{Owl, OwlID, SsdID}
 import au.csiro.data61.types._
 import au.csiro.data61.core.Serene
 import org.json4s.jackson.JsonMethods._
@@ -31,14 +31,14 @@ import scala.language.postfixOps
 /**
   * Object for storing known semantic source descriptions.
   */
-object SsdStorage extends Storage[SsdID, SemanticSourceDesc] {
+object SsdStorage extends Storage[SsdID, Ssd] {
 
   implicit val keyReader: Readable[SsdID] = Readable.ReadableInt
 
   def rootDir: String = new File(Serene.config.storageDirs.ssd).getAbsolutePath
 
-  def extract(stream: FileInputStream): SemanticSourceDesc = {
-    parse(stream).extract[SemanticSourceDesc]
+  def extract(stream: FileInputStream): Ssd = {
+    parse(stream).extract[Ssd]
   }
 
 
@@ -52,7 +52,7 @@ object SsdStorage extends Storage[SsdID, SemanticSourceDesc] {
     Paths.get(getDirectoryPath(id).toString, s"$id.ssd")
   }
 
-  override def add(id: SsdID, ssd: SemanticSourceDesc): Option[SsdID] = {
+  override def add(id: SsdID, ssd: Ssd): Option[SsdID] = {
     logger.debug(s"Adding semantic source desc $id to storage")
     // we need to check consistency first!
     if (ssd.isComplete) {
@@ -69,6 +69,7 @@ object SsdStorage extends Storage[SsdID, SemanticSourceDesc] {
 
   /**
     * Get the list of distinct location strings for ontologies.
+ *
     * @return List of location strings for ontologies used in ssd.
     */
   def getOntologies(id: SsdID): List[String] = {

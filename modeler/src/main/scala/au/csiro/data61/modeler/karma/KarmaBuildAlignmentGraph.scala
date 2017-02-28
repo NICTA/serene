@@ -19,16 +19,16 @@ package au.csiro.data61.modeler.karma
 
 import java.nio.file.Paths
 
-import au.csiro.data61.types.SemanticSourceDesc
+import au.csiro.data61.types.Ssd
 import au.csiro.data61.types.Exceptions._
 import com.typesafe.scalalogging.LazyLogging
-import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
 import edu.isi.karma.modeling.alignment.Alignment
 import edu.isi.karma.modeling.alignment.learner.{ModelLearningGraph, ModelLearningGraphType, PatternWeightSystem}
 
 /**
   * As input we give a list of known ssd.
   * Karma computes the alignment graph.
+ *
   * @param karmaWrapper Object which holds initialized Karma parameters
   */
 
@@ -67,11 +67,14 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
 
   /**
     * This method constructs the initial alignment graph based on preloaded onotologies + known SSDs in SSDStorage.
-    * @param knownSSDs List of known semantic source descriptions
+ *
+    * @param knownSsds List of known semantic source descriptions
     * @return alignment
     */
-  def constructInitialAlignment(knownSSDs: List[SemanticSourceDesc]) : Alignment = {
+  def constructInitialAlignment(knownSsds: List[Ssd]) : Alignment = {
+
     logger.info("Constructing initial alignment graph...")
+
     // if karmaModelingConfiguration.getKnownModelsAlignment is set to true,
     // inside the Karma constructor method alignment graph will be constructed based on preloaded ontologies
     // plus known semantic models in folder with Karma JSON models
@@ -79,10 +82,12 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
 
     // we need to add our ssd models from SSDStorage
     if(karmaWrapper.karmaModelingConfiguration.getKnownModelsAlignment) {
+
       logger.info("Adding known SSDs to the alignment graph...")
+
       // adding of semantic models to the alignment graph is handled within ModelLearningGraph class in Karma.
       // there are two types of graphs: compact and sparse... compact is used mainly in Karma code.
-      knownSSDs
+      knownSsds
         .flatMap(_.toKarmaSemanticModel(alignmentGraph.getGraphBuilder.getOntologyManager))
         .foreach {
           karmaModel =>
@@ -106,11 +111,14 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
   /**
     * Add a new semantic source description to the alignment graph.
     * If the SSD is incomplete, a Modeler Exception will be raised.
+ *
     * @param ssd New Semantic Source Description to be added to the alignment graph.
     * @return Alignment
     */
-  def add(ssd: SemanticSourceDesc): Alignment = {
+  def add(ssd: Ssd): Alignment = {
+
     logger.info("Adding an SSD to the alignment graph...")
+
     if (!ssd.isComplete) {
       logger.error("ModelerException: Cannot add an incomplete SSD to the Alignment Graph!")
       throw ModelerException("Cannot add an incomplete SSD to the Alignment Graph!")
@@ -137,9 +145,10 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
     * Realign the graph.
     * This needs to be done if there are changes to ontologies, changes to the existing known SSDs or SSD is deleted.
     * NOTE: It's better to avoid this!
+ *
     * @return Alignment
     */
-  def realign(knownSSDs: List[SemanticSourceDesc]): Alignment = {
+  def realign(knownSsds: List[Ssd]): Alignment = {
     logger.info("Re-constructing the alignment graph...")
 
     // create empty alignment graph
@@ -148,7 +157,7 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
 
     // adding of semantic models to the alignment graph is handled within ModelLearningGraph class in Karma.
     // there are two types of graphs: compact and sparse... compact is used mainly in Karma code.
-    knownSSDs
+    knownSsds
       .flatMap(_.toKarmaSemanticModel(karmaWrapper.karmaWorkspace.getOntologyManager))
       .foreach {
         karmaModel =>

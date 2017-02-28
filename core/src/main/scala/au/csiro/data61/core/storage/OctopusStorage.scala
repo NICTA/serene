@@ -22,7 +22,7 @@ import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.Serene
 import au.csiro.data61.types.Training.{Status, TrainState, _}
-import au.csiro.data61.types.SSDTypes.{Octopus, OctopusID}
+import au.csiro.data61.types.SsdTypes.{Octopus, OctopusID}
 import org.joda.time.DateTime
 import org.json4s.jackson.JsonMethods._
 

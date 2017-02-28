@@ -20,7 +20,7 @@ package au.csiro.data61.types
 import java.nio.file.Paths
 
 import au.csiro.data61.types.Exceptions.TypeException
-import au.csiro.data61.types.SSDTypes.{AttrID, OwlID, SsdID}
+import au.csiro.data61.types.SsdTypes.{AttrID, OwlID, SsdID}
 import au.csiro.data61.types.GraphTypes._
 import com.typesafe.scalalogging.LazyLogging
 import edu.isi.karma.rep.alignment.{ColumnNode, InternalNode, LabeledLink, Node}
@@ -45,14 +45,14 @@ object KarmaTypes {
 /**
   * Enumeration of Node Type used in Karma
   */
-sealed trait SSDNodeType { def str: String }
+sealed trait SsdNodeType { def str: String }
 
-object SSDNodeType {
+object SsdNodeType {
 
-  case object NoneNode  extends SSDNodeType { val str = "None" }
-  case object LiteralNode extends SSDNodeType { val str = "LiteralNode" }
-  case object ColumnNode   extends SSDNodeType { val str = "ColumnNode" }
-  case object InternalNode extends SSDNodeType { val str = "InternalNode" }
+  case object NoneNode  extends SsdNodeType { val str = "None" }
+  case object LiteralNode extends SsdNodeType { val str = "LiteralNode" }
+  case object ColumnNode   extends SsdNodeType { val str = "ColumnNode" }
+  case object InternalNode extends SsdNodeType { val str = "InternalNode" }
 
   val values = List(
     NoneNode,
@@ -61,7 +61,7 @@ object SSDNodeType {
     InternalNode
   )
 
-  def lookup(str: String): Option[SSDNodeType] = {
+  def lookup(str: String): Option[SsdNodeType] = {
     values.find(_.str == str)
   }
 }
@@ -138,6 +138,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
 
   /**
     * Assumed format: HN999
+    *
     * @param node Karma Node type
     * @return
     */
@@ -154,6 +155,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     * Helper function to split uri into namespace and value.
     * Namespace in uris is what goes before "#".
     * Value is what comes afterwards (e.g, name of class or name of property)
+    *
     * @param uri string
     * @return Tuple (namespace, value)
     */
@@ -168,12 +170,13 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
 
   /**
     * Helper function to create SSDLabel based on karma edge.
+    *
     * @param edge Karma representation of edge.
     * @return SSDLabel for the link
     */
-  private def getLabel(edge: LabeledLink): SSDLabel = {
+  private def getLabel(edge: LabeledLink): SsdLabel = {
     val (ns, value) = splitURI(edge.getLabel.getUri)
-    SSDLabel(value,
+    SsdLabel(value,
       edge.getType.toString,
       edge.getStatus.toString,
       ns) // TODO: should we check if namespace is proper? meaning it's present in prefixMap????
@@ -182,6 +185,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
   /**
     * Helper function to convert between node status for ColumnNodes in Karma and ours.
     * In Karma there is special semanticTypeStatus for ColumnNodes.
+    *
     * @param karmaStatus string which represents Karma status of node
     * @return
     */
@@ -194,6 +198,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
 
   /**
     * Helper function to get label of the Karma ColumnNode.
+    *
     * @param n ColumnNode
     * @return String
     */
@@ -223,6 +228,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
   /**
     * Helper function to get id of the Karma ColumnNode.
     * We cannot just take Karma id, we need to look at the one specified in the UserSemanticTypes.
+    *
     * @param n ColumnNode
     * @return String
     */
@@ -244,16 +250,17 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
 
   /**
     * Helper function to create SSDLabel based on karma node.
+    *
     * @param node Karma representation of node.
     * @return SSDLabel for the link
     */
-  private def getLabel(node: Node): SSDLabel = {
+  private def getLabel(node: Node): SsdLabel = {
     val nodeStatus: String = node.isForced match {
       case true => "ForcedByUser"
       case _ => "Normal"}
     node match {
       case n: ColumnNode =>
-        SSDLabel(getColumnNodeLabel(n),
+        SsdLabel(getColumnNodeLabel(n),
           "DataNode",
           getColumnNodeStatus(n.getSemanticTypeStatus.toString), // ColumnNode has special status field
           "") // DataNodes will have empty prefix!
@@ -262,18 +269,18 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
         // NOTE: id of InternalNode is not just the uri of the corresponding class node in the ontology.
         // additionally, there is a counter associated to the class uri.
         // we have to consider that when converting our representation to Karma.
-        SSDLabel(value,
+        SsdLabel(value,
           "ClassNode", // TODO: can InternalNode be anything else than ClassNode?
           nodeStatus, ns)
       case _ =>
         if (node.getLabel.getUri == "") {
-          SSDLabel(node.getId,
+          SsdLabel(node.getId,
             node.getType.toString, // NOTE: there are still None and LiteralNode in Karma
             "Poor", "")
         }
         else {
           val (ns, value) = splitURI(node.getLabel.getUri)
-          SSDLabel(value,
+          SsdLabel(value,
             node.getType.toString, // NOTE: there are still None and LiteralNode in Karma
             "Poor", ns)
         }
@@ -282,14 +289,15 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
 
   /**
     * Helper function to get mapping from Karma NodeId (String) to SSDNode.
+    *
     * @return Map from string Karma node id to SSDNode
     */
-  private def karmaNodeIdMap: Map[String,SSDNode] = {
+  private def karmaNodeIdMap: Map[String,SsdNode] = {
     graph.vertexSet.asScala
       .zipWithIndex
       .map {
         case (node, nodeID) =>
-          node.getId -> SSDNode(nodeID,getLabel(node))
+          node.getId -> SsdNode(nodeID,getLabel(node))
       } toMap
   }
 
@@ -311,28 +319,29 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
 
   /**
     * Method to convert Karma representation of the semantic model to our data structure.
+    *
     * @return SemanticModel
     */
   def toSemanticModel: SemanticModel = {
     logger.info("Converting Karma Graph to the Semantic Model...")
     logger.debug(s"##################karmaNodeId: ${karmaNodeIdMap}")
     // converting links
-    val ssdLinks: List[SSDLink[SSDNode]] = graph.edgeSet.asScala
+    val ssdLinks: List[SsdLink[SsdNode]] = graph.edgeSet.asScala
       .zipWithIndex
       .map {
         case (edge, linkID) =>
           logger.debug(s"*******Converting link $linkID")
           logger.debug(s"*******sourceNode ${edge.getSource.getId}")
-          val sourceNode: SSDNode = karmaNodeIdMap(edge.getSource.getId)
+          val sourceNode: SsdNode = karmaNodeIdMap(edge.getSource.getId)
           logger.debug(s"*******targetNode ${edge.getTarget.getId}")
-          val targetNode: SSDNode = karmaNodeIdMap(edge.getTarget.getId)
+          val targetNode: SsdNode = karmaNodeIdMap(edge.getTarget.getId)
 
-          SSDLink(sourceNode,targetNode,linkID,getLabel(edge))
+          SsdLink(sourceNode,targetNode,linkID,getLabel(edge))
       } toList
 
     logger.debug(s"##################Links add")
 
-    val sm: Graph[SSDNode,SSDLink] = Graph()
+    val sm: Graph[SsdNode,SsdLink] = Graph()
     SemanticModel(sm ++ ssdLinks)
   }
 
@@ -358,6 +367,7 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
     * This method takes only numbers from the string.
     * Here we assume that when our SSD gets first converted to Karma type, we create node ids by adding 'HN' to the NodeID.
     * That's why when converting back from Karma, we should get correct ids.
+    *
     * @param node Karma ColumnNode type
     * @return
     */
@@ -365,27 +375,30 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
 
   /**
     * Helper function to convert Karma:SemanticModel.sourceColumns to SSDColumn
+    *
     * @return
     */
-  protected def ssdColumns: List[SSDColumn] = {
+  protected def ssdColumns: List[SsdColumn] = {
     karmaModel.getSourceColumns.asScala // these should be attributes in our SSD, they are not source columns!
-      .map { sourceCol => SSDColumn(toID(sourceCol), sourceCol.getColumnName) } toList
+      .map { sourceCol => SsdColumn(toID(sourceCol), sourceCol.getColumnName) } toList
   }
 
   /**
     * Helper function to convert Karma:SemanticModel.sourceColumns to SSDAttribute
+    *
     * @param tableName Name of the table to be used in the default sql identity map statement.
     * @return
     */
-  protected def ssdAttributes(tableName: String = ""): List[SSDAttribute] = {
+  protected def ssdAttributes(tableName: String = ""): List[SsdAttribute] = {
     ssdColumns
-      .map( sourceCol => SSDAttribute(sourceCol, sourceCol.id, tableName))
+      .map( sourceCol => SsdAttribute(sourceCol, sourceCol.id, tableName))
   }
 
   /**
     * This method converts the Karma-like SSD to our SemanticSourceDesc.
     * NOTE: this method should not be really used!
     * NOTE: Instead of converting KarmaSemanticModel we should rather update existing SSD with info from KarmaSM
+    *
     * @param newID id of the SSD. Karma tool has weird ids for its resources.
     * @param ssdVersion String which corresponds to the version of SSD
     * @param ontologies List of Strings which correspond to paths where ontologies are lying
@@ -395,20 +408,20 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
   def toSSD(newID: SsdID,
             ssdVersion: String,
             ontologies: List[OwlID],
-            tableName: String = ""): SemanticSourceDesc  = {
+            tableName: String = ""): Ssd = {
     logger.info("Converting Karma Semantic Model to SSD...")
     // karmaModel.sourceColumns: List[ColumnNode] --> List[SSDAttribute], and also List[SSDColumn]
     // ColumnNodes in karmaModel.graph correspond to our mappings
     // get all ontologies from karma/preloaded-ontologies directory
 
-    SemanticSourceDesc(version = ssdVersion,
+    Ssd(version = ssdVersion,
       name = karmaModel.getName,
       id = newID,
       columns = ssdColumns,
       attributes = ssdAttributes(tableName),
       ontology = ontologies, // here we create instance of KarmaParams...
       semanticModel = Some(karmaSM.toSemanticModel),
-      mappings = Some(SSDMapping(karmaSM.columnNodeMappings)),
+      mappings = Some(SsdMapping(karmaSM.columnNodeMappings)),
       dateCreated = DateTime.now,
       dateModified = DateTime.now)
   }
@@ -462,6 +475,7 @@ case class KarmaSortableSemanticModel(karmaModel: SortableSemanticModel){
 
   /**
     * This method converts the Karma-like SSD to our SemanticSourceDesc.
+    *
     * @param newID id of the SSD. Karma tool has weird ids for its resources.
     * @param ssdVersion String which corresponds to the version of SSD
     * @param ontologies List of Strings which correspond to paths where ontologies are lying
@@ -471,7 +485,7 @@ case class KarmaSortableSemanticModel(karmaModel: SortableSemanticModel){
   def toSSD(newID: SsdID,
             ssdVersion: String,
             ontologies: List[OwlID],
-            tableName: String = ""): SemanticSourceDesc  = {
+            tableName: String = ""): Ssd  = {
     // TODO: implement
     KarmaSemanticModel(karmaModel.getBaseModel).toSSD(newID, ssdVersion, ontologies, tableName)
   }
