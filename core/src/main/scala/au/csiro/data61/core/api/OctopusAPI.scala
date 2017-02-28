@@ -51,11 +51,9 @@ object OctopusAPI extends RestAPI {
     name = "test",
     lobsterID = 0,
     description = "This is an octopus description",
-    ssds = List(Some(0), Some(1), Some(2)),
+    ssds = List(0, 1, 2, 3),
     ontologies = List(),
     modelingProps = None,
-    semanticTypeMap = None,
-    alignmentDir = None,
     dateCreated = DateTime.now(),
     dateModified = DateTime.now(),
     state = TrainState(Status.COMPLETE, "ok", DateTime.now())
@@ -157,7 +155,7 @@ object OctopusAPI extends RestAPI {
   val octopusPredict: Endpoint[SSDPrediction] = post(APIVersion :: "octopus" :: int :: "predict" :: int) {
     (id: Int, ssdID: Int) =>
       Try {
-        OctopusInterface.predictOctopus(id, Some(ssdID))
+        OctopusInterface.predictOctopus(id, ssdID)
       } match {
         case Success(prediction) =>
           Ok(prediction)
@@ -256,7 +254,7 @@ object OctopusAPI extends RestAPI {
       name <- parseOption[String]("name", raw)
 
     } yield OctopusRequest(
-      name = None,
+      name = Some("junk"),
       description = None,
       modelType = None,
       features = None,
@@ -283,6 +281,8 @@ object OctopusAPI extends RestAPI {
 }
 
 
+// needs all the options for the update methods - it
+// may be possible to have a separate update request object
 case class OctopusRequest(name: Option[String],
                           description: Option[String],
                           modelType: Option[ModelType],

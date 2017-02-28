@@ -35,7 +35,7 @@ import scala.language.postfixOps
 
 
 object SSDTypes {
-  type SsdID = Option[Int] // id of the SSD
+  type SsdID = Int // id of the SSD
   type AttrID = Int        // id for the transformed column
   type OwlID = Int         // id of the owl
   type OctopusID = Int     // id for the alignment model
@@ -49,8 +49,6 @@ object SSDTypes {
     * @param ssds The list of SSDs for the construction of the alignment graph
     * @param lobsterID Id of the associated schema matcher model
     * @param modelingProps Modeling properties for semantic modeler; optional string of file location
-    * @param alignmentDir Directory where the alignment graph is stored
-    * @param semanticTypeMap Mapping of matcher:labels to URIs.
     * @param state State of Octopus
     * @param dateCreated Date of creation
     * @param dateModified Date of latests modification
@@ -59,11 +57,9 @@ object SSDTypes {
   case class Octopus(id: OctopusID,
                      name: String,
                      ontologies: List[Int], // WARNING: Int should be OwlID! Json4s bug.
-                     ssds: List[Option[Int]],       // WARNING: Int should be SsdID! Json4s bug.
+                     ssds: List[Int],       // WARNING: Int should be SsdID! Json4s bug.
                      lobsterID: ModelID,
                      modelingProps: Option[String],
-                     alignmentDir: Option[Path],
-                     semanticTypeMap: Option[Map[String, String]],
                      state: Training.TrainState,
                      dateCreated: DateTime,
                      dateModified: DateTime,
@@ -106,6 +102,26 @@ object SSDTypes {
 }
 
 /**
+  * SSDRequest is the user-facing object for creating and returning SSDs...
+  *
+  * @param version The version string of this SSD type
+  * @param name The name label used for the SSD
+  * @param columns A list of (ColumnID, name) pairs
+  * @param attributes The transformed columns
+  * @param ontologies The list of Ontologies used in this ssd
+  * @param semanticModel The semantic model used to describe how the columns map to the ontology
+  * @param mappings The mappings from the attributes to the semantic model
+  */
+case class SsdRequest(version: String,
+                      name: String,
+                      columns: List[SSDColumn],
+                      attributes: List[SSDAttribute],
+                      ontologies: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
+                      semanticModel: Option[SemanticModel], // create = empty, returned = full
+                      mappings: Option[SSDMapping])  // create = empty, returned = full
+
+
+/**
   * This is the class to represent the semantic source description (SSD).
   * We need a JON serializer and general interpreter of SSD.
   * SSD needs to be split apart to initialize data structures as indicated in the schema matcher api.
@@ -124,7 +140,7 @@ object SSDTypes {
   */
 case class SemanticSourceDesc(version: String,
                               name: String,
-                              id: Option[Int], // json4s bug - should be SsdID
+                              id: Int, // json4s bug - should be SsdID
                               columns: List[SSDColumn],
                               attributes: List[SSDAttribute],
                               ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
@@ -132,7 +148,7 @@ case class SemanticSourceDesc(version: String,
                               mappings: Option[SSDMapping],
                               dateCreated: DateTime,
                               dateModified: DateTime
-                             ) extends Identifiable[SsdID] with LazyLogging{
+                             ) extends Identifiable[SsdID] with LazyLogging {
   /**
     * we need to check consistency of SSD
     * -- columnIds in attributes refer to existing ids in columns

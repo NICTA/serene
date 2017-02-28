@@ -38,6 +38,7 @@ case class SemanticScores(linkCost: Double,
                           nodeCoverage: Double,
                           karmaScore: Double,
                           karmaRank: Int) {
+
   def calculateRank: Double = {
     linkCost + linkCoherence + nodeCoherence + nodeConfidence + nodeCoverage
   }
@@ -59,4 +60,9 @@ case class SSDPrediction(ssdID:       SsdID,
                          octopusID:   OctopusID,
                          suggestions: List[(SemanticSourceDesc, SemanticScores)])
 
+/**
+  * Return type to user from the Octopus prediction
+  * @param predictions Ordered list of predictions
+  */
+case class SsdResults(predictions: List[(SsdRequest, SemanticScores)])
 

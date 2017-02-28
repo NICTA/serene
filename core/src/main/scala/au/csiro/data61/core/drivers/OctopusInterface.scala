@@ -88,7 +88,7 @@ object OctopusInterface extends LazyLogging{
         Octopus(id,
           name = request.name.getOrElse("unknown"),
           ontologies = getOntologies(request.ssds, request.ontologies),
-          ssds = request.ssds.getOrElse(List.empty[Int]).map(Some(_)),
+          ssds = request.ssds.getOrElse(List.empty[Int]),
           lobsterID = lobsterID,
           modelingProps = request.modelingProps,
           alignmentDir = None,
@@ -340,7 +340,6 @@ object OctopusInterface extends LazyLogging{
       // here we want to get a map from AttrID to (URI of class node, URI of data node)
       // TODO: the mapping can be to the ClassNode
       val ssdMaps: List[(AttrID, (String, String))] = givenSSDs
-        .map(Some(_))
         .flatMap(SsdStorage.get)
         .filter(_.mappings.isDefined)
         .filter(_.semanticModel.isDefined)
@@ -402,7 +401,7 @@ object OctopusInterface extends LazyLogging{
     logger.debug("Getting owls for octopus")
     val ssdOntologies: List[Int] = ssds
       .getOrElse(List.empty[Int])
-      .flatMap(x => SsdStorage.get(Some(x)))
+      .flatMap(SsdStorage.get)
       .flatMap(_.ontology)
 
     ssdOntologies ++ ontologies.getOrElse(List.empty[Int])
