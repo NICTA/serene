@@ -513,7 +513,7 @@ object OctopusInterface extends LazyLogging{
           name = request.name.getOrElse(original.name),
           modelingProps = request.modelingProps, // TODO: Remove option type!! in case it's None semantic-modeler uses default config for Karma; for now default config is available only in semantic-modeler
           alignmentDir = None,
-          ssds = request.ssds.map(sds => sds.map(Some(_))).getOrElse(original.ssds),
+          ssds = request.ssds.getOrElse(original.ssds),
           ontologies = request.ontologies.getOrElse(original.ontologies),
           semanticTypeMap = semanticTypeMap,
           state = TrainState(Status.UNTRAINED, "", DateTime.now),

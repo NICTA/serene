@@ -62,7 +62,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     ModelStorage.removeAll()
   }
 
-  val businessSsdID = Some(0)
+  val businessSsdID = 0
   val exampleOwlID = 1
 
   override def beforeEach(): Unit = {

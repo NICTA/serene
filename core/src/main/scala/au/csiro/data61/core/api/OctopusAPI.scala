@@ -17,10 +17,12 @@
  */
 package au.csiro.data61.core.api
 
+import java.nio.file.Path
+
 import au.csiro.data61.core.drivers.OctopusInterface
 import au.csiro.data61.types._
 import au.csiro.data61.types.SSDTypes.{Octopus, OctopusID}
-import au.csiro.data61.types.Training.{TrainState, Status}
+import au.csiro.data61.types.Training.{Status, TrainState}
 import io.finch._
 
 import scala.language.postfixOps
@@ -53,6 +55,8 @@ object OctopusAPI extends RestAPI {
     description = "This is an octopus description",
     ssds = List(0, 1, 2, 3),
     ontologies = List(),
+    alignmentDir = None,
+    semanticTypeMap = None,
     modelingProps = None,
     dateCreated = DateTime.now(),
     dateModified = DateTime.now(),
