@@ -40,21 +40,6 @@ class SparkTestSpec extends FunSuite with LazyLogging{
 
   val helperDir = getClass.getResource("/helper").getPath
 
-  def setUpSpark(numWorkers: String ="1") : (SparkContext, SQLContext) = {
-    //initialise spark stuff
-    val conf = new SparkConf()
-      .setAppName("SereneSchemaMatcher")
-      .setMaster(s"local[$numWorkers]")
-      .set("spark.driver.allowMultipleContexts", "true")
-      //.set("spark.rpc.netty.dispatcher.numThreads","2") //https://mail-archives.apache.org/mod_mbox/spark-user/201603.mbox/%3CCAAn_Wz1ik5YOYych92C85UNjKU28G+20s5y2AWgGrOBu-Uprdw@mail.gmail.com%3E
-      .set("spark.network.timeout", "800s")
-    //        .set("spark.executor.heartbeatInterval", "20s")
-    val sc = new SparkContext(conf)
-    sc.setLogLevel("WARN")
-    val sqlContext = new SQLContext(sc)
-    (sc, sqlContext)
-  }
-
   def setUpSpark2(numWorkers: String ="1"): SparkSession = {
     val sparkSession = SparkSession.builder.
       master(s"local[$numWorkers]")
@@ -91,16 +76,15 @@ class SparkTestSpec extends FunSuite with LazyLogging{
 //      .option("mode", "DROPMALFORMED")
 //      .option("inferSchema", "true")
 
-
-    println(s" Schema: ${data.schema}")
-    println(s" FeatureNames ${data.schema.fieldNames.toList}")
-
-    println("***********")
-    data.show()
-    println("***********")
+    // debugging stuff
+//    println(s" Schema: ${data.schema}")
+//    println(s" FeatureNames ${data.schema.fieldNames.toList}")
+//
+//    println("***********")
+//    data.show()
+//    println("***********")
 
     (data, data.schema.fieldNames.toList.tail)
-
   }
 
   def trainRandomForest(data: DataFrame,
@@ -183,6 +167,7 @@ class SparkTestSpec extends FunSuite with LazyLogging{
     succeed
   }
 
+  // FIXME: this bug hasn't been fixed yet!
 //  test("Checking train_error") {
 //    // spark bug
 //    // issue with too many features
