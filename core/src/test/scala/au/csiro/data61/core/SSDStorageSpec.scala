@@ -35,11 +35,11 @@ import com.typesafe.scalalogging.LazyLogging
   * Tests for the SSDStorage layer
   */
 
-class SSDStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging{
+class SsdStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging{
 
   val ssdDir = getClass.getResource("/ssd").getPath
-  def emptySSD: String = Paths.get(ssdDir, "empty_model.ssd") toString
-  def exampleSSD: String = Paths.get(ssdDir, "businessInfo.ssd") toString
+  def emptySsd: String = Paths.get(ssdDir, "empty_model.ssd") toString
+  def exampleSsd: String = Paths.get(ssdDir, "businessInfo.ssd") toString
 
   override def afterEach(): Unit = {
     SsdStorage.removeAll()
@@ -48,7 +48,7 @@ class SSDStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   test("Successfully adding ssd to the storage") {
     assert(SsdStorage.keys.size === 0)
     Try {
-      val stream = new FileInputStream(Paths.get(exampleSSD).toFile)
+      val stream = new FileInputStream(Paths.get(exampleSsd).toFile)
       parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
@@ -68,7 +68,7 @@ class SSDStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   test("Incomplete ssd not added to the storage") {
     assert(SsdStorage.keys.size === 0)
     Try {
-      val stream = new FileInputStream(Paths.get(emptySSD).toFile)
+      val stream = new FileInputStream(Paths.get(emptySsd).toFile)
       parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
