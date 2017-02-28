@@ -23,12 +23,12 @@ import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.api.{InternalException, NotFoundException}
 import au.csiro.data61.core.storage.ModelStorage._
-import au.csiro.data61.core.{Serene, Config}
-import au.csiro.data61.core.storage.{DatasetStorage, MatcherConstants, ModelStorage}
-import au.csiro.data61.core.types.{MatcherJsonFormats, ModelFeatureExtractors}
-import au.csiro.data61.core.types.MatcherTypes.{Model, ModelID}
+import au.csiro.data61.core.{Config, Serene}
+import au.csiro.data61.core.storage.{DatasetStorage, JsonFormats, MatcherConstants, ModelStorage}
+import au.csiro.data61.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features._
+import au.csiro.data61.matcher.matcher.featureserialize.ModelFeatureExtractors
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.spark.ml.PipelineModel
 import org.apache.spark.ml.classification.RandomForestClassificationModel
@@ -61,7 +61,7 @@ case class DataintTrainModel(classes: List[String],
                              trainSettings: TrainingSettings,
                              postProcessingConfig: Option[Map[String, Any]])
 
-object ModelTrainer extends LazyLogging with MatcherJsonFormats {
+object ModelTrainer extends LazyLogging with JsonFormats {
 
   protected val rootDir: String = ModelStorage.rootDir
 
@@ -269,8 +269,6 @@ object ModelTrainer extends LazyLogging with MatcherJsonFormats {
           numWorkers = Serene.config.numWorkers,
           parallelFeatureExtraction = Serene.config.parallelFeatureExtraction)
 
-//        writeFeatureExtractors(id, randomForestSchemaMatcher.featureExtractors)
-//        writePipelineModel(id, randomForestSchemaMatcher.model)
         writeFeatureImportances(id, randomForestSchemaMatcher)
 
         SerializableMLibClassifier(

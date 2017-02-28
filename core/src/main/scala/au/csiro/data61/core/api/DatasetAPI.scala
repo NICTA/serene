@@ -19,7 +19,7 @@ package au.csiro.data61.core.api
 
 import java.io.{ByteArrayInputStream, InputStream, FileInputStream}
 import au.csiro.data61.core.drivers.MatcherInterface
-import au.csiro.data61.core.types.{DataSet, DataSetTypes}
+import au.csiro.data61.types.{DataSet, DataSetTypes}
 import DataSetTypes._
 import com.twitter.finagle.http.exp.Multipart
 import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpload}

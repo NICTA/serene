@@ -18,11 +18,21 @@
 package au.csiro.data61.core
 
 
-import java.nio.file.{Path, Paths}
+import java.nio.file.Paths
 
-import au.csiro.data61.core.types.MatcherTypes.Model
-import au.csiro.data61.core.types._
-import au.csiro.data61.core.drivers.{Generic, ModelPredictor, ModelTrainer}
+import au.csiro.data61.core.drivers.{ModelPredictor, ModelTrainer}
+import au.csiro.data61.types._
+import api._
+import au.csiro.data61.core.storage.{JsonFormats, ModelStorage}
+import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
+import au.csiro.data61.types.ModelTypes.Model
+import org.apache.spark.ml.classification.RandomForestClassificationModel
+
+import language.postfixOps
+import scala.util.{Failure, Random, Success, Try}
+import org.json4s.JsonDSL._
+import org.json4s._
+import org.json4s.jackson.JsonMethods._
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 import com.twitter.io.Buf
@@ -34,29 +44,12 @@ import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.concurrent._
 
-import scala.concurrent._
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.duration._
-import api._
-import au.csiro.data61.core.storage.ModelStorage
-import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
-import com.twitter.finagle.http
-import org.apache.spark.ml.classification.RandomForestClassificationModel
-
-import language.postfixOps
-import scala.annotation.tailrec
-import scala.concurrent.Future
-import scala.util.{Failure, Random, Success, Try}
-import org.json4s.JsonDSL._
-import org.json4s._
-import org.json4s.jackson.JsonMethods._
-
 
 /**
   * Tests for model training and prediction using spark
   */
 @RunWith(classOf[JUnitRunner])
-class SparkParallelSpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach with Futures with LazyLogging {
+class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with Futures with LazyLogging {
 
   import ModelAPI._
 
@@ -69,7 +62,7 @@ class SparkParallelSpec extends FunSuite with MatcherJsonFormats with BeforeAndA
   def deleteAllModels()(implicit server: TestServer): Unit = {
     val response = server.get(s"/$APIVersion/model")
 
-    if (response.status == http.Status.Ok) {
+    if (response.status == Status.Ok) {
       val str = response.contentString
       val regex = "[0-9]+".r
       val models = regex.findAllIn(str).map(_.toInt)
@@ -324,7 +317,7 @@ class SparkParallelSpec extends FunSuite with MatcherJsonFormats with BeforeAndA
         // send the request and make sure it executes
         val response = Await.result(server.client(request))
 
-        assert(response.status === http.Status.Accepted)
+        assert(response.status === Status.Accepted)
         assert(response.contentString.isEmpty)
 
         (model, ds)

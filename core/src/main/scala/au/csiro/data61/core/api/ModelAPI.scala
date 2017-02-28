@@ -18,16 +18,14 @@
 package au.csiro.data61.core.api
 
 import au.csiro.data61.core.drivers.MatcherInterface
-import au.csiro.data61.core.types.MatcherTypes.{ModelID, Model}
-import au.csiro.data61.core._
-import au.csiro.data61.core.types.Training.{Status, TrainState}
-import com.twitter.io.{Reader, Buf}
+import au.csiro.data61.types.ModelTypes.{ModelID, Model}
+import au.csiro.data61.types._
+import au.csiro.data61.types.ModelType
 import io.finch._
 import org.joda.time.DateTime
 import org.json4s.JValue
 import org.json4s.JsonAST.JNothing
 import org.json4s.jackson.JsonMethods._
-import types._
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -74,7 +72,7 @@ object ModelAPI extends RestAPI {
     resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN,
     modelPath = None,
     refDataSets = List(1, 2, 3, 4),
-    state = TrainState(Status.UNTRAINED, "", DateTime.now),
+    state = Training.TrainState(Training.Status.UNTRAINED, "", DateTime.now),
     dateCreated = DateTime.now,
     dateModified = DateTime.now,
     numBags = None,

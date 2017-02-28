@@ -22,8 +22,8 @@ import java.nio.file.StandardCopyOption.REPLACE_EXISTING
 import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.Serene
-import au.csiro.data61.core.types.ModelerTypes.OwlDocumentFormat.OwlDocumentFormat
-import au.csiro.data61.core.types.ModelerTypes.{Owl, OwlID}
+import au.csiro.data61.types.SSDTypes.OwlDocumentFormat.OwlDocumentFormat
+import au.csiro.data61.types.SSDTypes.{Owl, OwlID}
 import org.json4s.jackson.JsonMethods.parse
 
 import scala.util.Try
@@ -43,6 +43,7 @@ object OwlStorage extends Storage[OwlID, Owl] {
 
   /**
     * Gets the path to the OWL document file.
+    *
     * @param id The ID of the OWL document.
     * @param format The format of the OWL document.
     * @return The path to the OWL document file.
@@ -54,6 +55,7 @@ object OwlStorage extends Storage[OwlID, Owl] {
     * Writes the OWL document with the input stream.
     *
     * Existing document file will be overwritten.
+    *
     * @param owlDocumentPath The path to the OWL document file.
     * @param inputStream The input stream.
     */

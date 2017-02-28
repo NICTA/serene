@@ -17,22 +17,36 @@
   */
 package au.csiro.data61.core.storage
 
-import java.io.{FileInputStream, File}
-import java.nio.file.Path
+import java.io.{File, FileInputStream}
+import java.nio.file.{Files, Path, Paths}
+
 import au.csiro.data61.core.Serene
-import au.csiro.data61.core.types.ModelerTypes.{OctopusID, Octopus}
-import au.csiro.data61.core.types.Training.{TrainState, Status}
+import au.csiro.data61.types.Training.{Status, TrainState, _}
+import au.csiro.data61.types.SSDTypes.{Octopus, OctopusID}
 import org.joda.time.DateTime
 import org.json4s.jackson.JsonMethods._
 
+import scala.util.{Failure, Success}
+
 /**
-  * OctopusStorage holds the Octopus objects in a key-value store
+  * AlignmentStorage holds the Alignment objects in a key-value store
   */
 object OctopusStorage extends Storage[OctopusID, Octopus] {
 
+  val DefaultAlignmentDir = "alignment-graph"
+  val GraphJson = "graph.json"
+
   override implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
-  override def rootDir: String = new File(Serene.config.storageDirs.octopus).getAbsolutePath
+  override def rootDir: String = new File(Serene.config.storageDirs.dataset).getAbsolutePath
+
+  def getAlignmentDirPath(id: OctopusID): Path = {
+    Paths.get(getDirectoryPath(id).toString, DefaultAlignmentDir)
+  }
+
+  def getAlignmentGraphPath(id: OctopusID): Path = {
+    Paths.get(getDirectoryPath(id).toString, DefaultAlignmentDir, GraphJson)
+  }
 
   def extract(stream: FileInputStream): Octopus = {
     parse(stream).extract[Octopus]
@@ -55,21 +69,52 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
                       ): Option[TrainState] = {
     synchronized {
       for {
-        octopus <- get(id)
+        model <- OctopusStorage.get(id)
         // state dates should not be changed if changeDate is false
         trainState = TrainState(status, msg, DateTime.now)
-        // we now update the octopus with the training information...
-        newOctopus = octopus.copy(
+        // we now update the model with the training information...
+        newModel = model.copy(
           state = trainState,
-          dateModified = octopus.dateModified
+          dateModified = model.dateModified,
+          alignmentDir = path//,
+          //predictionPath = None
         )
-        id <- OctopusStorage.update(id, newOctopus)
+        id <- OctopusStorage.update(id, newModel)
       } yield trainState
     }
   }
 
+  /**
+    * Check if the trained octopus is consistent.
+    * This means that the alignment directory is available, lobster is consistent and that the SSDs
+    * have not been updated since the octopus was last modified.
+    *
+    * @param id ID for the octopus
+    * @return boolean
+    */
   def isConsistent(id: OctopusID): Boolean = {
-    // TODO: Make this real!!
-    true
+    logger.info(s"Checking consistency of octopus $id")
+
+    // make sure the SSDs in the octopus are older
+    // than the training state
+    val isOK = for {
+      octopus <- get(id)
+      path = octopus.alignmentDir
+      trainDate = octopus.state.dateChanged
+      refIDs = octopus.ssds
+      refs = refIDs.flatMap(SsdStorage.get).map(_.dateModified)
+
+      // associated schema matcher model is consistent
+      lobsterConsistent = ModelStorage.isConsistent(octopus.lobsterID)
+      // make sure the octopus is complete
+      isComplete = octopus.state.status == Status.COMPLETE
+      // make sure the SSDs are older than the training date
+      allBefore = refs.forall(_.isBefore(trainDate))
+      // make sure the alignment graph is there...
+      alignmentExists = path.exists(Files.exists(_))
+
+    } yield allBefore && alignmentExists && isComplete && lobsterConsistent
+
+    isOK getOrElse false
   }
 }

@@ -22,9 +22,11 @@ import java.nio.charset.StandardCharsets.UTF_8
 import java.nio.file.Files
 
 import au.csiro.data61.core.api.OwlAPI.APIVersion
-import au.csiro.data61.core.types.MatcherJsonFormats
-import au.csiro.data61.core.types.ModelerTypes.{Owl, OwlDocumentFormat, OwlID}
-import au.csiro.data61.core.types.ModelerTypes.OwlDocumentFormat.{OwlDocumentFormat, RdfXml, Turtle}
+import au.csiro.data61.core.storage.JsonFormats
+import au.csiro.data61.types.SSDTypes.OwlDocumentFormat
+import au.csiro.data61.types.SSDTypes.OwlDocumentFormat.OwlDocumentFormat
+import au.csiro.data61.types.SSDTypes.OwlDocumentFormat.{RdfXml, Turtle}
+import au.csiro.data61.types.SSDTypes.{Owl, OwlDocumentFormat, OwlID}
 import com.twitter.finagle.http.Method.Delete
 import com.twitter.finagle.http.Status.Ok
 import com.twitter.finagle.http.{FileElement, Request, RequestBuilder, Status}
@@ -37,7 +39,7 @@ import org.apache.commons.io.FileUtils
 
 import scala.util.Try
 
-class OwlAPISpec extends FunSuite with MatcherJsonFormats {
+class OwlAPISpec extends FunSuite with JsonFormats {
   val RdfXmlDocument = new File(getClass.getResource("/rdf-xml-example.owl").toURI)
   val TurtleDocument = new File(getClass.getResource("/turtle-example.owl").toURI)
 

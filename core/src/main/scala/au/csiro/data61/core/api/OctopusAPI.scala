@@ -17,11 +17,10 @@
  */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.drivers.ModelerInterface
-import au.csiro.data61.core.types
-import au.csiro.data61.core.types.DataSetPrediction
-import au.csiro.data61.core.types.ModelerTypes.{SsdID, OctopusID, Octopus}
-import au.csiro.data61.core.types.Training.{Status, TrainState}
+import au.csiro.data61.core.drivers.OctopusInterface
+import au.csiro.data61.types._
+import au.csiro.data61.types.SSDTypes.{Octopus, OctopusID}
+import au.csiro.data61.types.Training.{TrainState, Status}
 import io.finch._
 
 import scala.language.postfixOps
@@ -30,7 +29,6 @@ import org.joda.time.DateTime
 import org.json4s.JValue
 import org.json4s.JsonAST.JNothing
 import org.json4s.jackson.JsonMethods._
-import types._
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -50,11 +48,14 @@ object OctopusAPI extends RestAPI {
 
   val TestOctopus = Octopus(
     id = 0,
-    modelID = 0,
     name = "test",
+    lobsterID = 0,
     description = "This is an octopus description",
-    ssds = List(0, 1, 2),
+    ssds = List(Some(0), Some(1), Some(2)),
     ontologies = List(),
+    modelingProps = None,
+    semanticTypeMap = None,
+    alignmentDir = None,
     dateCreated = DateTime.now(),
     dateModified = DateTime.now(),
     state = TrainState(Status.COMPLETE, "ok", DateTime.now())
@@ -66,7 +67,7 @@ object OctopusAPI extends RestAPI {
     * curl http://localhost:8080/v1.0/octopus
     */
   val octopusRoot: Endpoint[List[OctopusID]] = get(APIVersion :: "octopus") {
-    Ok(ModelerInterface.octopusKeys)
+    Ok(OctopusInterface.octopusKeys)
   }
 
   /**
@@ -99,7 +100,7 @@ object OctopusAPI extends RestAPI {
             throw BadRequestException("No features found.")
           }
         }
-        m <- Try { ModelerInterface.createOctopus(request) }
+        m <- Try { OctopusInterface.createOctopus(request) }
       } yield m)
       match {
         case Success(mod) =>
@@ -116,7 +117,7 @@ object OctopusAPI extends RestAPI {
     */
   val octopusGet: Endpoint[Octopus] = get(APIVersion :: "octopus" :: int) {
     (id: Int) =>
-      Try { ModelerInterface.getOctopus(id) } match {
+      Try { OctopusInterface.getOctopus(id) } match {
         case Success(Some(ds))  =>
           Ok(ds)
         case Success(None) =>
@@ -132,7 +133,7 @@ object OctopusAPI extends RestAPI {
     */
   val octopusTrain: Endpoint[Unit] = post(APIVersion :: "octopus" :: int :: "train" :: paramOption("force")) {
     (id: Int, force: Option[String]) =>
-      val state = Try(ModelerInterface.trainOctopus(id, force.exists(_.toBoolean)))
+      val state = Try(OctopusInterface.trainOctopus(id, force.exists(_.toBoolean)))
       state match {
         case Success(Some(_))  =>
           Accepted[Unit]
@@ -153,10 +154,10 @@ object OctopusAPI extends RestAPI {
   // auxiliary endpoint for the optional datasetID parameter
   //val dsParam: Endpoint[Option[Int]] = paramOption("datasetID").as[Int]
 
-  val octopusPredict: Endpoint[DataSetPrediction] = post(APIVersion :: "octopus" :: int :: "predict" :: int) {
-    (id: Int, datasetID: Int) =>
+  val octopusPredict: Endpoint[SSDPrediction] = post(APIVersion :: "octopus" :: int :: "predict" :: int) {
+    (id: Int, ssdID: Int) =>
       Try {
-        ModelerInterface.predictOctopus(id, datasetID)
+        OctopusInterface.predictOctopus(id, Some(ssdID))
       } match {
         case Success(prediction) =>
           Ok(prediction)
@@ -181,7 +182,7 @@ object OctopusAPI extends RestAPI {
       (for {
         request <- parseOctopusRequest(body)
         octopus <- Try {
-          ModelerInterface.updateOctopus(id, request)
+          OctopusInterface.updateOctopus(id, request)
         }
       } yield octopus)
       match {
@@ -197,7 +198,7 @@ object OctopusAPI extends RestAPI {
     */
   val octopusDelete: Endpoint[String] = delete(APIVersion :: "octopus" :: int) {
     (id: Int) =>
-      Try(ModelerInterface.deleteOctopus(id)) match {
+      Try(OctopusInterface.deleteOctopus(id)) match {
         case Success(Some(_)) =>
           logger.debug(s"Deleted octopus $id")
           Ok(s"Octopus $id deleted successfully.")
@@ -242,8 +243,11 @@ object OctopusAPI extends RestAPI {
     */
   private def parseOctopusRequest(str: String): Try[OctopusRequest] = {
 
+    // TODO: Implement this!
     for {
-      raw <- Try { parse(str) }
+      raw <- Try {
+        parse(str)
+      }
 
       description <- parseOption[String]("description", raw)
 
@@ -251,7 +255,20 @@ object OctopusAPI extends RestAPI {
 
       name <- parseOption[String]("name", raw)
 
-    } yield OctopusRequest(name, description, ssds)
+    } yield OctopusRequest(
+      name = None,
+      description = None,
+      modelType = None,
+      features = None,
+      resamplingStrategy = None,
+      numBags = None,
+      bagSize = None,
+      ontologies = None,
+      ssds = None,
+      modelingProps = None,
+      alignmentDir = None,
+      semanticTypeMap = None
+    )
   }
 
   /**
@@ -270,4 +287,13 @@ object OctopusAPI extends RestAPI {
 
 case class OctopusRequest(name: Option[String],
                           description: Option[String],
-                          ssds: Option[List[SsdID]])
+                          modelType: Option[ModelType],
+                          features: Option[FeaturesConfig],
+                          resamplingStrategy: Option[SamplingStrategy],
+                          numBags: Option[Int],
+                          bagSize: Option[Int],
+                          ontologies: Option[List[Int]],
+                          ssds: Option[List[Int]],
+                          modelingProps: Option[String],
+                          alignmentDir: Option[String],
+                          semanticTypeMap: Option[Map[String, String]])

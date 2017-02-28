@@ -18,18 +18,13 @@
 package au.csiro.data61.core.api
 
 import java.nio.file.Files
-import java.io.File
-import java.nio.charset.StandardCharsets
-
-import au.csiro.data61.core.drivers.ModelerInterface
-import au.csiro.data61.core.types.ModelerTypes.{Owl, OwlDocumentFormat, OwlID}
+import au.csiro.data61.core.drivers.OctopusInterface
+import au.csiro.data61.types.SSDTypes.{Owl, OwlID, OwlDocumentFormat}
 import com.twitter.finagle.http.Version.Http11
 import com.twitter.finagle.http.{Response, Status, Version}
 import com.twitter.finagle.http.exp.Multipart.{FileUpload, InMemoryFileUpload, OnDiskFileUpload}
-import com.twitter.io.{Buf, BufInputStream}
-import com.twitter.util.Await
+import com.twitter.io.{Reader, BufInputStream}
 import io.finch._
-import org.apache.commons.io.FileUtils
 
 
 import scala.language.postfixOps
@@ -50,7 +45,7 @@ object OwlAPI extends RestAPI {
     * This endpoint handles GET requests for /version/owl.
     */
   val listOwls: Endpoint[List[OwlID]] = get(APIVersion :: OwlRootPath) {
-    Ok(ModelerInterface.owlKeys)
+    Ok(OctopusInterface.owlKeys)
   }
 
   /**
@@ -74,7 +69,7 @@ object OwlAPI extends RestAPI {
       case InMemoryFileUpload(content, _, _, _) => new BufInputStream(content)
     }
 
-    ModelerInterface.createOwl(name, desc, fmt, stream) match {
+    OctopusInterface.createOwl(name, desc, fmt, stream) match {
       case Success(owl) => Ok(owl)
       case Failure(th) => InternalServerError(new RuntimeException(th))
     }
@@ -88,7 +83,7 @@ object OwlAPI extends RestAPI {
   val getOwl: Endpoint[Owl] = get(APIVersion :: OwlRootPath :: int) { (id: Int) =>
     logger.info(s"Getting OWL with ID=$id")
 
-    ModelerInterface.getOwl(id) match {
+    OctopusInterface.getOwl(id) match {
       case Some(owl) => Ok(owl)
       case None => NotFound(NotFoundException(s"OWL $id not found"))
     }
@@ -99,16 +94,17 @@ object OwlAPI extends RestAPI {
     (id: Int) =>
       logger.info(s"Getting OWL document with ID=$id")
 
-      ModelerInterface.getOwl(id) match {
-        case Some(owl) => ModelerInterface.getOwlDocument(owl) match {
-          case Success(reader) =>
-            val response = Response(Http11, Status.Ok, reader)
-            response.contentType = "text/plain"
-            response
-          case Failure(th) =>
-            logger.error(s"Failed to get OWL document ${owl.id}.", th)
-            Response(Status.InternalServerError)
-        }
+      OctopusInterface.getOwl(id) match {
+        case Some(owl) =>
+          OctopusInterface.getOwlDocument(owl) match {
+            case Success(reader: Reader) =>
+              val response = Response(Http11, Status.Ok, reader)
+              response.contentType = "text/plain"
+              response
+            case Failure(th) =>
+              logger.error(s"Failed to get OWL document ${owl.id}.", th)
+              Response(Status.InternalServerError)
+          }
         case None =>
           Response(Status.NotFound)
       }
@@ -120,21 +116,22 @@ object OwlAPI extends RestAPI {
     * This endpoint handles POST requests for /version/owl/:id with an
     * application/x-www-form-urlencoded body containing an optional parameter "description".
     */
-  val updateOwl: Endpoint[Owl] = post(
-    APIVersion :: OwlRootPath :: int :: paramOption("description") :: header("Content-Type")
-  ) { (id: Int, description: Option[String], contentType: String) =>
-    logger.info(s"Updating OWL with ID=$id, description=$description")
+  val updateOwl: Endpoint[Owl] = post(APIVersion :: OwlRootPath :: int :: paramOption("description") :: header("Content-Type")) {
+    (id: Int, description: Option[String], contentType: String) =>
+      logger.info(s"Updating OWL with ID=$id, description=$description")
 
-    if (contentType.compareToIgnoreCase(UrlEncodedFormContentType) == 0) {
-      ModelerInterface.updateOwl(id, description) match {
-        case Success(owl) => Ok(owl)
-        case Failure(th) => InternalServerError(new RuntimeException(th))
+      if (contentType.compareToIgnoreCase(UrlEncodedFormContentType) == 0) {
+        OctopusInterface.updateOwl(id, description) match {
+          case Success(owl) =>
+            Ok(owl)
+          case Failure(th) =>
+            InternalServerError(new RuntimeException(th))
+        }
+      } else {
+        BadRequest(BadRequestException(
+          s"Must have HTTP header Content-Type=$UrlEncodedFormContentType."
+        ))
       }
-    } else {
-      BadRequest(BadRequestException(
-        s"Must have HTTP header Content-Type=$UrlEncodedFormContentType."
-      ))
-    }
   }
 
   /**
@@ -142,13 +139,16 @@ object OwlAPI extends RestAPI {
     *
     * This endpoint handles DELETE requests for /version/owl/:id.
     */
-  val deleteOwl: Endpoint[Owl] = delete(APIVersion :: OwlRootPath :: int) { (id: Int) =>
-    logger.info(s"Deleting OWL with ID=$id")
+  val deleteOwl: Endpoint[Owl] = delete(APIVersion :: OwlRootPath :: int) {
+    (id: Int) =>
+      logger.info(s"Deleting OWL with ID=$id")
 
-    ModelerInterface.deleteOwl(id) match {
-      case Success(owl) => Ok(owl)
-      case Failure(th) => InternalServerError(new RuntimeException(th))
-    }
+      OctopusInterface.deleteOwl(id) match {
+        case Success(owl) =>
+          Ok(owl)
+        case Failure(th) =>
+          InternalServerError(new RuntimeException(th))
+      }
   }
 
   /**

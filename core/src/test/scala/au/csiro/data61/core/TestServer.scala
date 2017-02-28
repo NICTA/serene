@@ -17,8 +17,6 @@
  */
 package au.csiro.data61.core
 
-import java.net.InetSocketAddress
-import com.twitter.finagle.builder.ClientBuilder
 import com.twitter.finagle.{http, Http}
 import com.twitter.finagle.http.Response
 import com.twitter.util.{Closable, Await}

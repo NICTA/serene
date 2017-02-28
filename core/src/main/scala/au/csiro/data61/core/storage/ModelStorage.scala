@@ -22,9 +22,9 @@ import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.drivers.ModelTrainerPaths
-import au.csiro.data61.core.types.Training.{TrainState, Status}
 import au.csiro.data61.core.Serene
-import au.csiro.data61.core.types.MatcherTypes.{Model, ModelID}
+import au.csiro.data61.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.types.Training.{TrainState, Status}
 import com.github.tototoshi.csv.CSVWriter
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import org.apache.commons.io.FileUtils

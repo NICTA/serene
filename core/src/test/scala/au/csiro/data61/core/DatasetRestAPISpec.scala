@@ -20,23 +20,20 @@ package au.csiro.data61.core
 import java.io.File
 import java.nio.file.Paths
 
-import au.csiro.data61.core.types.{MatcherJsonFormats, DataSet}
+import au.csiro.data61.types.DataSet
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
-
 import com.twitter.io.Reader
 import com.twitter.util.Await
 import org.apache.commons.io.FileUtils
 import org.junit.runner.RunWith
-
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
 import api._
+import au.csiro.data61.core.storage.JsonFormats
 
 import language.postfixOps
-
-import scala.util.{Failure, Success, Try, Random}
-
+import scala.util.{Failure, Random, Success, Try}
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
@@ -44,7 +41,7 @@ import org.json4s.jackson.JsonMethods._
  * Tests for the Dataset REST endpoint API
  */
 @RunWith(classOf[JUnitRunner])
-class DatasetRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach {
+class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach {
 
   import DatasetAPI._
 

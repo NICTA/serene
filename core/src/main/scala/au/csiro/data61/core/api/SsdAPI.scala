@@ -18,16 +18,14 @@
 package au.csiro.data61.core.api
 
 import au.csiro.data61.core.storage.SsdStorage
-import au.csiro.data61.core.types.ModelerTypes.SSD
-import au.csiro.data61.core.types.StatusMessage
+import au.csiro.data61.types._
 import io.finch._
 import org.joda.time.DateTime
 
 import scala.language.postfixOps
 
 import java.io.{ByteArrayInputStream, InputStream, FileInputStream}
-import au.csiro.data61.core.drivers.{ModelerInterface, MatcherInterface}
-import au.csiro.data61.core.types.{DataSet, DataSetTypes}
+import au.csiro.data61.core.drivers.{OctopusInterface, MatcherInterface}
 import DataSetTypes._
 import com.twitter.finagle.http.exp.Multipart
 import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpload}
@@ -50,10 +48,17 @@ import scala.util.{Failure, Success, Try}
   */
 object SsdAPI extends RestAPI {
 
-  val junkSSD = SSD(
-    id = 1,
-    ontologies = List(1, 2, 3),
-    dataSet = 1,
+  val junkSSD = SemanticSourceDesc(
+    id = Some(1),
+    version = "0.1",
+    name = "test",
+    columns = List(SSDColumn(1, "col1"), SSDColumn(2, "col2")),
+    attributes = List(
+      SSDAttribute(1, "test", "hello", List(1, 2), "sql")
+    ),
+    ontology = List(1, 2, 3),
+    semanticModel = None,
+    mappings = None,
     dateCreated = DateTime.now(),
     dateModified = DateTime.now()
   )
@@ -64,7 +69,7 @@ object SsdAPI extends RestAPI {
     * curl http://localhost:8080/v1.0/ssd
     */
   val ssdRoot: Endpoint[List[Int]] = get(APIVersion :: "ssd") {
-    Ok(ModelerInterface.ssdKeys)
+    Ok(OctopusInterface.ssdKeys.flatten)
   }
 
   /**
@@ -77,7 +82,7 @@ object SsdAPI extends RestAPI {
     *
     */
 
-  val ssdCreate: Endpoint[SSD] = post(APIVersion :: "ssd" :: stringBody) {
+  val ssdCreate: Endpoint[SemanticSourceDesc] = post(APIVersion :: "ssd" :: stringBody) {
     (body: String) =>
       Ok(junkSSD)
   }
@@ -87,12 +92,12 @@ object SsdAPI extends RestAPI {
     *
     * curl http://localhost:8080/v1.0/ssd/12354687
     */
-  val ssdGet: Endpoint[SSD] = get(APIVersion :: "ssd" :: int) {
+  val ssdGet: Endpoint[SemanticSourceDesc] = get(APIVersion :: "ssd" :: int) {
     (id: Int) =>
 
       logger.debug(s"Get ssd id=$id")
 
-      val ssd = Try { SsdStorage.get(id) }
+      val ssd = Try { SsdStorage.get(Some(id)) }
 
       ssd match {
         case Success(Some(s))  =>
@@ -112,7 +117,7 @@ object SsdAPI extends RestAPI {
     * curl -X POST -d 'description=This is the new description'
     * http://localhost:8080/v1.0/ssd/12354687
     */
-  val ssdPatch: Endpoint[SSD] = post(APIVersion :: "ssd" :: int :: stringBody) {
+  val ssdPatch: Endpoint[SemanticSourceDesc] = post(APIVersion :: "ssd" :: int :: stringBody) {
 
     (id: Int, body: String) =>
 
@@ -128,7 +133,7 @@ object SsdAPI extends RestAPI {
     */
   val ssdDelete: Endpoint[String] = delete(APIVersion :: "ssd" :: int) {
     (id: Int) =>
-      Try(SsdStorage.remove(id)) match {
+      Try(SsdStorage.remove(Some(id))) match {
 
         case Success(Some(_)) =>
           logger.debug(s"Deleted ssd $id")

@@ -48,8 +48,34 @@ lazy val root = Project(
     version := mainVersion,
     mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene")
   )
-  .aggregate(core, matcher)
-  .dependsOn(core, matcher)
+  .aggregate(core, matcher, modeler)
+  .dependsOn(core, matcher, modeler)
+
+/**
+  * Serene type module. Holds the global types for the system.
+  */
+lazy val types = Project(
+  id = "serene-types",
+  base = file("types")
+)
+  .settings(commonSettings)
+  .settings(
+    name := "serene-types",
+    organization := "au.csiro.data61",
+    version := mainVersion,
+
+    libraryDependencies ++= Seq(
+      "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
+      ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
+      ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
+      ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
+      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+      ,"com.typesafe"               %  "config"             % "1.3.0"
+      ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
+      ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
+      ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
+    )
+  )
 
 /**
   * Schema Matcher module
@@ -97,10 +123,33 @@ lazy val modeler = Project(
     name := "serene-modeler",
     organization := "au.csiro.data61",
     version := mainVersion,
-    libraryDependencies ++= Seq(
+    parallelExecution in Test := false,
 
+    resolvers += Resolver.sonatypeRepo("snapshots"),
+    scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+
+    libraryDependencies ++= Seq(
+      "org.json4s"                        %% "json4s-jackson"     % "3.2.10"
+      ,"org.json4s"                       %% "json4s-native"      % "3.2.10"
+      ,"org.json4s"                       %% "json4s-ext"         % "3.2.10"
+      ,"com.typesafe.scala-logging"       %% "scala-logging"      % "3.4.0"
+      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+      ,"junit"                            %  "junit"              % "4.12"
+      ,"com.typesafe"                     %  "config"             % "1.3.0"
+      ,"org.scala-graph"                  %% "graph-core"         % "1.11.2"         // scala library to work with graphs
+      ,"org.jgrapht"                      %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
+      // java libraries which are needed to run Karma code
+      // versions are not the latest (but the ones used in the original Web-Karma project)
+      ,"org.json"                         %  "json"               % "20141113"       // dependency for Karma
+      ,"org.reflections"                  %  "reflections"        % "0.9.10"         // dependency for Karma
+      ,"commons-fileupload"               %  "commons-fileupload" % "1.2.2"          // dependency for Karma
+      ,"com.google.code.gson"             % "gson"                % "2.2.4"          // dependency for Karma
+      ,"com.hp.hpl.jena"                  % "jena"                % "2.6.4"          // dependency for Karma
+      ,"com.googlecode.juniversalchardet" % "juniversalchardet" % "1.0.3"      // dependency for Karma
+      ,"org.kohsuke"                      % "graphviz-api"        % "1.1"            // dependency for Karma
+      , "uk.com.robust-it"                % "cloning"             % "1.8.5"          // dependency for Karma
     )
-  ).dependsOn(matcher)
+  ).dependsOn(types)
 
 
 /**
@@ -117,11 +166,9 @@ lazy val core = Project(
       version := mainVersion,
 
       outputStrategy := Some(StdoutOutput),
+      parallelExecution in Test := false,
       scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
       resolvers += Resolver.sonatypeRepo("snapshots"),
-      parallelExecution in Test := false,
-
-      mainClass := Some("au.csiro.data61.core.Serene"),
 
       libraryDependencies ++= Seq(
         "org.json4s"                  %% "json4s-jackson"     % "3.2.10"

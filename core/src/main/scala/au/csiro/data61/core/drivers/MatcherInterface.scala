@@ -21,11 +21,11 @@ import java.nio.file.Path
 
 import au.csiro.data61.core.api._
 import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
-import au.csiro.data61.core.types.ColumnTypes._
-import au.csiro.data61.core.types.DataSetTypes._
-import au.csiro.data61.core.types.MatcherTypes._
-import au.csiro.data61.core.types.Training.{Status, TrainState}
-import au.csiro.data61.core.types._
+import au.csiro.data61.types.ColumnTypes._
+import au.csiro.data61.types.DataSetTypes._
+import au.csiro.data61.types.ModelTypes._
+import au.csiro.data61.types.Training.{Status, TrainState}
+import au.csiro.data61.types._
 import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
@@ -132,7 +132,7 @@ object MatcherInterface extends LazyLogging {
           labelData = dataRef.cleanLabels,
           refDataSets = dataRef.refDataSets.toList,
           modelPath = None,
-          state = TrainState(Status.UNTRAINED, "", DateTime.now),
+          state = Training.TrainState(Training.Status.UNTRAINED, "", DateTime.now),
           dateCreated = DateTime.now,
           dateModified = DateTime.now,
           bagSize = request.bagSize,
@@ -178,7 +178,7 @@ object MatcherInterface extends LazyLogging {
           resamplingStrategy = request.resamplingStrategy.getOrElse(old.resamplingStrategy),
           labelData = if (labelsUpdated) dataRef.cleanLabels else old.labelData,
           refDataSets = if (labelsUpdated) dataRef.refDataSets.toList else old.refDataSets,
-          state = TrainState(Status.UNTRAINED, "", DateTime.now),
+          state = Training.TrainState(Training.Status.UNTRAINED, "", DateTime.now),
           modelPath = None,
           dateCreated = old.dateCreated,
           dateModified = DateTime.now,
@@ -257,16 +257,16 @@ object MatcherInterface extends LazyLogging {
     } onComplete {
       case Success(Some(path)) =>
         // we update the status, the state date and do not delete the model.rf file
-        ModelStorage.updateTrainState(id, Status.COMPLETE, "", path)
+        ModelStorage.updateTrainState(id, Training.Status.COMPLETE, "", path)
       case Success(None) =>
         // we update the status, the state date and delete the model.rf file
         logger.error(s"Failed to identify model paths for $id.")
-        ModelStorage.updateTrainState(id, Status.ERROR, s"Failed to identify model paths.", None)
+        ModelStorage.updateTrainState(id, Training.Status.ERROR, s"Failed to identify model paths.", None)
       case Failure(err) =>
         // we update the status, the state date and delete the model.rf file
         val msg = s"Failed to train model $id: ${err.getMessage}."
         logger.error(msg)
-        ModelStorage.updateTrainState(id, Status.ERROR, msg, None)
+        ModelStorage.updateTrainState(id, Training.Status.ERROR, msg, None)
     }
   }
 

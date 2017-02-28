@@ -21,8 +21,9 @@ package au.csiro.data61.core
 import java.io.{File, FileInputStream, IOException, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
-import au.csiro.data61.core.types.MatcherTypes.{Model, ModelID}
-import au.csiro.data61.core.types._
+import au.csiro.data61.core.api.DatasetAPI._
+import au.csiro.data61.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.types._
 import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
@@ -39,8 +40,10 @@ import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 import api._
+import au.csiro.data61.core.storage.{JsonFormats, ModelStorage}
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import com.twitter.finagle.http
+import org.apache.spark.ml.classification.RandomForestClassificationModel
 
 import language.postfixOps
 import scala.annotation.tailrec
@@ -54,7 +57,7 @@ import org.json4s.jackson.JsonMethods._
  * Tests for the Model REST endpoint API
  */
 @RunWith(classOf[JUnitRunner])
-class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAfterEach with Futures with LazyLogging {
+class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach with Futures with LazyLogging {
 
   import ModelAPI._
 
@@ -1010,109 +1013,108 @@ class ModelRestAPISpec extends FunSuite with MatcherJsonFormats with BeforeAndAf
     }
   })
 
-//  test("POST /v1.0/model/:id/train creates default Model file with default features and NoResampling") (new TestServer {
-//    try {
-//      val PollTime = 1000
-//      val PollIterations = 20
-//
-//      val (model, ds) = trainDefault(resamplingStrategy="NoResampling", features = defaultFeatures)
-//
-//      // now just make sure it completes...
-//      val trained = pollModelState(model, PollIterations, PollTime)
-//      val state = concurrent.Await.result(trained, 15 seconds)
-//
-//      assert(state === ModelTypes.Status.COMPLETE)
-//
-//      // check the content of .rf file
-//      val learntModelFile = Paths.get(Serene.config.modelStorageDir, s"${model.id}", "workspace", s"${model.id}.rf").toFile
-//      assert(learntModelFile.exists === true)
-//
-//      // pre-computed model with default spark config
-//      val corFile = Paths.get(helperDir, "deafaultfeatures_noresampling_spark2.rf").toFile
-//
-//      // checking that the models are the same; direct comparison of file contents does not yield correct results
-//      (for {
-//        inLearnt <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(learntModelFile)))
-//        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
-//
-//        inCor <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(corFile)))
-//        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
-//      } yield (dataLearnt, dataCor) ) match {
-//        case Success((data, cor)) =>
-//          assert(data.classes === cor.classes)
-//          val rfModel_new = data.model.stages(2).asInstanceOf[RandomForestClassificationModel]
-//          val rfModel_one = cor.model.stages(2).asInstanceOf[RandomForestClassificationModel]
-//          assert(rfModel_new.numClasses === rfModel_one.numClasses)
-//          assert(rfModel_new.numFeatures === rfModel_one.numFeatures)
-//          assert(rfModel_new.treeWeights === rfModel_one.treeWeights)
-//
-//          assert(rfModel_new.totalNumNodes === rfModel_one.totalNumNodes)
-//          assert(rfModel_new.featureImportances === rfModel_one.featureImportances)
-//          assert(data.featureExtractors === cor.featureExtractors)
-//
-//        case Failure(err) =>
-//          throw new Exception(err.getMessage)
-//      }
-//
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
-//
-//  test("POST /v1.0/model/:id/train creates default Model file with full features and NoResampling") (new TestServer {
-//    try {
-//      val PollTime = 1000
-//      val PollIterations = 20
-//
-//      val (model, ds) = trainDefault(resamplingStrategy="NoResampling", features = fullFeatures)
-//
-//      // now just make sure it completes...
-//      val trained = pollModelState(model, PollIterations, PollTime)
-//      val state = concurrent.Await.result(trained, 15 seconds)
-//
-//      assert(state === ModelTypes.Status.COMPLETE)
-//
-//      // check the content of .rf file
-//      val learntModelFile = Paths.get(
-//        Serene.config.modelStorageDir, s"${model.id}", "workspace", s"${model.id}.rf").toFile
-//      assert(learntModelFile.exists === true)
-//
-//      // pre-computed model with default spark config
-//      val corFile = Paths.get(helperDir, "fullfeatures_noresampling_spark2.rf").toFile
-//
-//      // checking that the models are the same; direct comparison of file contents does not yield correct results
-//      (for {
-//        inLearnt <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(learntModelFile)))
-//        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
-//
-//        inCor <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(corFile)))
-//        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
-//      } yield (dataLearnt, dataCor) ) match {
-//        case Success((data, cor)) =>
-//
-//          assert(data.classes === cor.classes)
-//          val rfModel_new = data.model.stages(2).asInstanceOf[RandomForestClassificationModel]
-//          val rfModel_one = cor.model.stages(2).asInstanceOf[RandomForestClassificationModel]
-//
-//          assert(rfModel_new.numClasses === rfModel_one.numClasses)
-//          assert(rfModel_new.numFeatures === rfModel_one.numFeatures)
-//          assert(rfModel_new.treeWeights === rfModel_one.treeWeights)
-//          assert(rfModel_new.totalNumNodes === rfModel_one.totalNumNodes)
-//          assert(rfModel_new.featureImportances === rfModel_one.featureImportances)
-//          assert(data.featureExtractors === cor.featureExtractors)
-//
-//        case Failure(err) =>
-//          throw new Exception(err.getMessage)
-//      }
-//
-//    } finally {
-//      deleteAllModels()
-//      DataSet.deleteAllDataSets()
-//      assertClose()
-//    }
-//  })
+  test("POST /v1.0/model/:id/train creates default Model file with default features and NoResampling") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 20
+
+      val (model, ds) = trainDefault(resamplingStrategy="NoResampling", features = defaultFeatures)
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === Training.Status.COMPLETE)
+
+      // check the content of .rf file
+      val learntModelFile = Paths.get(Serene.config.storageDirs.model, s"${model.id}", "workspace", s"${model.id}.rf").toFile
+      assert(learntModelFile.exists === true)
+
+      // pre-computed model with default spark config
+      val corFile = Paths.get(helperDir, "deafaultfeatures_noresampling_spark2.rf").toFile
+
+      // checking that the models are the same; direct comparison of file contents does not yield correct results
+      (for {
+        inLearnt <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(learntModelFile)))
+        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
+        inCor <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(corFile)))
+        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
+      } yield (dataLearnt, dataCor) ) match {
+        case Success((data, cor)) =>
+          assert(data.classes === cor.classes)
+          val rfModel_new = data.model.stages(2).asInstanceOf[RandomForestClassificationModel]
+          val rfModel_one = cor.model.stages(2).asInstanceOf[RandomForestClassificationModel]
+          assert(rfModel_new.numClasses === rfModel_one.numClasses)
+          assert(rfModel_new.numFeatures === rfModel_one.numFeatures)
+          assert(rfModel_new.treeWeights === rfModel_one.treeWeights)
+//          assert(rfModel_new.numTrees === rfModel_one.numTrees)
+
+          assert(rfModel_new.totalNumNodes === rfModel_one.totalNumNodes)
+          assert(rfModel_new.featureImportances === rfModel_one.featureImportances)
+          assert(data.featureExtractors === cor.featureExtractors)
+
+        case Failure(err) =>
+          throw new Exception(err.getMessage)
+      }
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/train creates default Model file with full features and NoResampling") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 20
+
+      val (model, ds) = trainDefault(resamplingStrategy="NoResampling", features = fullFeatures)
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 15 seconds)
+
+      assert(state === Training.Status.COMPLETE)
+
+      // check the content of .rf file
+      val learntModelFile = Paths.get(
+        Serene.config.storageDirs.model, s"${model.id}", "workspace", s"${model.id}.rf").toFile
+      assert(learntModelFile.exists === true)
+
+      // pre-computed model with default spark config
+      val corFile = Paths.get(helperDir, "fullfeatures_noresampling_spark2.rf").toFile
+
+      // checking that the models are the same; direct comparison of file contents does not yield correct results
+      (for {
+        inLearnt <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(learntModelFile)))
+        dataLearnt <- Try(inLearnt.readObject().asInstanceOf[SerializableMLibClassifier])
+        inCor <- Try( new ObjectInputStreamWithCustomClassLoader(new FileInputStream(corFile)))
+        dataCor <- Try(inCor.readObject().asInstanceOf[SerializableMLibClassifier])
+      } yield (dataLearnt, dataCor) ) match {
+        case Success((data, cor)) =>
+          assert(data.classes === cor.classes)
+          val rfModel_new = data.model.stages(2).asInstanceOf[RandomForestClassificationModel]
+          val rfModel_one = cor.model.stages(2).asInstanceOf[RandomForestClassificationModel]
+          assert(rfModel_new.numClasses === rfModel_one.numClasses)
+          assert(rfModel_new.numFeatures === rfModel_one.numFeatures)
+          assert(rfModel_new.treeWeights === rfModel_one.treeWeights)
+//          assert(rfModel_new.numTrees === rfModel_one.numTrees)
+
+          assert(rfModel_new.totalNumNodes === rfModel_one.totalNumNodes)
+          assert(rfModel_new.featureImportances === rfModel_one.featureImportances)
+          assert(data.featureExtractors === cor.featureExtractors)
+
+        case Failure(err) =>
+          throw new Exception(err.getMessage)
+      }
+
+    } finally {
+      deleteAllModels()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
 
   test("Model rf from older versions cannot be read in") (new TestServer {
     try {

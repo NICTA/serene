@@ -12,6 +12,45 @@ on Debian linux
 ```
 sudo apt-get install sbt
 ```
+
+For the semantic modelling part Karma library needs to be available in the local maven repo.
+[Download](https://github.com/usc-isi-i2/Web-Karma) the **Karma** tool.
+
+Make the following methods public: SortableSemanticModel.steinerNodes.getSizeReduction.
+
+Add method ModelLearningGraph.setLastUpdateTime:
+```
+public void setLastUpdateTime(long newTime) {
+		this.lastUpdateTime = newTime;
+	}
+```
+
+Add `DINT` to Karma origin of semantic types:
+```
+public enum Origin {
+		AutoModel, User, CRFModel, TfIdfModel, RFModel, DINT
+	}
+```
+
+Add two more parameters to the method in GraphBuilder.java:
+
+```
+private void updateLinkCountMap(DefaultLink link, Node source, Node target)
+```
+
+Install the **Karma** tool by running:
+
+```
+mvn clean install
+```
+
+Attribute ids in the source descriptions are really important since we rely on Karma code to perform semantic modelling.
+We have to make sure that they are unique across different data sources.
+
+The labels (semantic types) are assumed to come in the format:
+className#propertyName.
+
+
 ## Installation
 You can build the library with
 ```
@@ -241,4 +280,5 @@ To run individual module tests, refer to the module name e.g.
 ```
 sbt serene-core/test
 sbt serene-matcher/test
+sbt serene-modeler/test
 ```

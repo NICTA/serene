@@ -21,13 +21,14 @@ import java.io.{FileInputStream, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.api.InternalException
-import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
-import au.csiro.data61.core.types.DataSetTypes.DataSetID
-import au.csiro.data61.core.types.MatcherTypes.ModelID
-import au.csiro.data61.core.types._
+import au.csiro.data61.core.storage.{DatasetStorage, JsonFormats, ModelStorage}
+import au.csiro.data61.types.DataSetTypes.DataSetID
+import au.csiro.data61.types.ModelTypes.ModelID
+import au.csiro.data61.types._
 import au.csiro.data61.matcher.ingestion.loader.CSVDataLoader
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features.FeatureExtractor
+import au.csiro.data61.matcher.matcher.featureserialize.ModelFeatureExtractors
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.util.{Failure, Success, Try}
@@ -59,7 +60,7 @@ class ObjectInputStreamWithCustomClassLoader(fileInputStream: FileInputStream)
 }
 
 
-object ModelPredictor extends LazyLogging with MatcherJsonFormats {
+object ModelPredictor extends LazyLogging with JsonFormats {
 
   /**
     * Performs prediction for the model and returns predictions for all datasets in the repository
