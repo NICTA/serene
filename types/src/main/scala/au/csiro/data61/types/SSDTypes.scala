@@ -81,6 +81,7 @@ object SSDTypes {
     val Turtle = Value("turtle")
     val JsonLd = Value("jsonld")
     val RdfXml = Value("rdfxml")
+    val DefaultOwl = Value("owl")
     val Unknown = Value("unknown")
   }
 
