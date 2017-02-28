@@ -63,8 +63,8 @@ object SSDTypes {
                      ssds: List[Int],       // WARNING: Int should be SsdID! Json4s bug.
                      lobsterID: ModelID,
                      modelingProps: Option[String],
-                     alignmentDir: Option[Path],
-                     semanticTypeMap: Option[Map[String,String]],
+                     alignmentDir: Option[Path], // TODO: can be removed -- check with semantic-modeler
+                     semanticTypeMap: Option[Map[String,String]], // TODO: can be removed -- check with semantic-modeler
                      state: Training.TrainState,
                      dateCreated: DateTime,
                      dateModified: DateTime,
@@ -143,11 +143,11 @@ case class SsdRequest(version: String,
   * @param dateCreated Date when it was created
   * @param dateModified Date when it was last modified
   */
-case class SemanticSourceDesc(version: String,
+case class SemanticSourceDesc(version: String, // TODO: can be removed
                               name: String,
                               id: SsdID,
-                              columns: List[SSDColumn],
-                              attributes: List[SSDAttribute],
+                              columns: List[SSDColumn], // TODO: can be removed
+                              attributes: List[SSDAttribute], // TODO: can be removed
                               ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
                               semanticModel: Option[SemanticModel],
                               mappings: Option[SSDMapping],
