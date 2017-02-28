@@ -45,10 +45,13 @@ object SSDTypes {
     * It contains configuration parameters to initialize training for Schema Matcher and Semantic Modeler.
     *
     * @param id The ID key for the alignment
+    * @param name User provided string as a shortcut to this octopus
     * @param ontologies The ontologies used for the alignment
     * @param ssds The list of SSDs for the construction of the alignment graph
     * @param lobsterID Id of the associated schema matcher model
     * @param modelingProps Modeling properties for semantic modeler; optional string of file location
+    * @param alignmentDir Directory where the alignment graph is stored
+    * @param semanticTypeMap Mapping of matcher:labels to URIs.
     * @param state State of Octopus
     * @param dateCreated Date of creation
     * @param dateModified Date of latests modification
@@ -60,6 +63,8 @@ object SSDTypes {
                      ssds: List[Int],       // WARNING: Int should be SsdID! Json4s bug.
                      lobsterID: ModelID,
                      modelingProps: Option[String],
+                     alignmentDir: Option[Path],
+                     semanticTypeMap: Option[Map[String,String]],
                      state: Training.TrainState,
                      dateCreated: DateTime,
                      dateModified: DateTime,
@@ -140,7 +145,7 @@ case class SsdRequest(version: String,
   */
 case class SemanticSourceDesc(version: String,
                               name: String,
-                              id: Int, // json4s bug - should be SsdID
+                              id: SsdID,
                               columns: List[SSDColumn],
                               attributes: List[SSDAttribute],
                               ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
