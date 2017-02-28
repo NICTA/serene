@@ -36,7 +36,7 @@ import edu.isi.karma.rep.alignment.{ColumnNode, InternalNode, LabeledLink, Node,
 import au.csiro.data61.modeler.ModelerConfig
 import au.csiro.data61.types._
 import au.csiro.data61.types.ColumnTypes.ColumnID
-import au.csiro.data61.types.SSDTypes.AttrID
+import au.csiro.data61.types.SSDTypes.{AttrID, OctopusID}
 import au.csiro.data61.types.Exceptions._
 
 /**
@@ -371,9 +371,9 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @param modelToAlignmentNode Mapping from nodes in KarmaModel to nodes in the alignment.
     * @return
     */
-  private def updateAlignmentLinks(updatedAlignment: Alignment,
-                                   karmaModel: KarmaSSD,
-                                   modelToAlignmentNode: util.HashMap[Node,Node]
+  private def updateAlignmentLinks(updatedAlignment: Alignment
+                                   , karmaModel: KarmaSSD
+                                   , modelToAlignmentNode: util.HashMap[Node,Node]
                                   ) = {
     // updating links
     // previously, I tried to copy the current alignment and change links, but there was some weird error with copying
@@ -580,6 +580,11 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
       throw ModelerException("Steiner nodes are missing. Learning is impossible.")
     }
 
+    // TODO: figure out difference between modelLearners
+    //    if (modelingConfiguration.getKnownModelsAlignment())
+    //      modelLearner = new ModelLearner(alignment.getGraphBuilder(), steinerNodes);
+    //    else
+    //      modelLearner = new ModelLearner(ontologyManager, alignment.getLinksByStatus(LinkStatus.ForcedByUser), steinerNodes);
     logger.debug("Initializing the model learner")
     val modelLearner = new ModelLearner(alignmentGraph.getGraphBuilder, steinerNodes)
 
@@ -609,6 +614,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * NOTE: KarmaBuildAlignmentGraph needs to be executed before suggesting anything.
     *
     * @param ssd SemanticSourceDesc for which we need to learn the alignment.
+    * @param octopusID Id of the octopus which will be used to generate suggestions
     * @param ontologies List of location strings for ontologies of this ssd.
     * @param dsPredictions Matcher DataSetPrediction object which contains predictions for columns in the dataset.
     * @param semanticTypeMap Mapping of matcher:labels to URIs (just namespace actually).
@@ -616,12 +622,13 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @param numSemanticTypes Integer which indicates how many top semantic types to keep; default is 4.
     * @return SSDPrediction wrapped into Option
     */
-  def suggestModels(ssd: SemanticSourceDesc,
-                    ontologies: List[String],
-                    dsPredictions: Option[DataSetPrediction],
-                    semanticTypeMap: Map[String, String],
-                    attrToColMap: Map[AttrID,ColumnID],
-                    numSemanticTypes: Int = defaultNumSemanticTypes
+  def suggestModels(ssd: SemanticSourceDesc
+                    , octopusID: OctopusID
+                    , ontologies: List[String]
+                    , dsPredictions: Option[DataSetPrediction]
+                    , semanticTypeMap: Map[String, String]
+                    , attrToColMap: Map[AttrID,ColumnID]
+                    , numSemanticTypes: Int = defaultNumSemanticTypes
                    ): Option[SSDPrediction] = {
     karmaInitialize()
     Try {
@@ -654,7 +661,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
 
       if(suggestions.nonEmpty) {
           logger.info(s"${suggestions.size} Suggestions for SSD ${ssd.id} successfully constructed.")
-          Some(SSDPrediction(ssd.id, suggestions))
+          Some(SSDPrediction(ssd.id, octopusID, suggestions))
       } else {
           logger.info(s"No suggestions for SSD ${ssd.id} have been made.")
           None

@@ -32,12 +32,12 @@ object PredictOctopus extends LazyLogging {
   // TODO: to be implemented once AlignmentStorage layer is up
   // delete karma-dir??
 
-  def predict(octopus: Octopus,
-              ontologies: List[String],
-              ssd: SemanticSourceDesc,
-              dsPredictions: Option[DataSetPrediction],
-              attrToColMap: Map[AttrID,ColumnID],
-              numSemanticTypes: Int): Option[SSDPrediction] = {
+  def predict(octopus: Octopus
+              , ontologies: List[String]
+              , ssd: SemanticSourceDesc
+              , dsPredictions: Option[DataSetPrediction]
+              , attrToColMap: Map[AttrID,ColumnID]
+              , numSemanticTypes: Int): Option[SSDPrediction] = {
     logger.info("Semantic Modeler initializes prediction...")
 
     val karmaWrapper = KarmaParams(alignmentDir = octopus.alignmentDir
@@ -46,6 +46,7 @@ object PredictOctopus extends LazyLogging {
       None)
 
     val suggestions = KarmaSuggestModel(karmaWrapper).suggestModels(ssd
+      , octopus.id
       , ontologies
       , dsPredictions
       , octopus.semanticTypeMap.getOrElse(Map.empty[String, String])

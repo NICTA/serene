@@ -86,7 +86,6 @@ object OctopusInterface extends LazyLogging{
 
       octopus <- Try {
         Octopus(id,
-          name = request.name.getOrElse("unknown"),
           ontologies = getOntologies(request.ssds, request.ontologies),
           ssds = request.ssds.getOrElse(List.empty[Int]).map(Some(_)),
           lobsterID = lobsterID,
@@ -114,35 +113,84 @@ object OctopusInterface extends LazyLogging{
     */
   def trainOctopus(id: OctopusID, force: Boolean = false): Option[TrainState] = {
 
-    for {
-      octopus <- OctopusStorage.get(id)
-      model <- ModelStorage.get(octopus.lobsterID)
-      octopusState = octopus.state
-      newState = octopusState.status match {
-        case Status.COMPLETE if OctopusStorage.isConsistent(id) && !force =>
-          logger.info(s"Octopus $id is already trained.")
-          octopusState
-        case Status.BUSY =>
-          // if it is complete or pending, just return the value
-          logger.info(s"Octopus $id is busy.")
-          octopusState
-        case Status.COMPLETE | Status.UNTRAINED | Status.ERROR =>
-          // in the background we launch the training...
-          logger.info("Launching training.....")
-          // first we set the model state to training....
-          val newState = OctopusStorage.updateTrainState(id, Status.BUSY)
+    val octopus = OctopusStorage.get(id).get
+    val model = ModelStorage.get(octopus.lobsterID).get
 
-          // train the schema matcher model
-          MatcherInterface.trainModel(OctopusStorage.get(id).get.lobsterID)
-          // launch training for the octopus
-          launchOctopusTraining(id)
+    if (octopus.state.status == Status.COMPLETE && OctopusStorage.isConsistent(id) && !force) {
+      logger.info(s"Octopus $id is already trained.")
+      Some(octopus.state)
+    } else if (octopus.state.status == Status.BUSY) {
+      logger.info(s"Octopus $id is busy.")
+      Some(octopus.state)
+    } else {
+      logger.info("Launching training of the octopus and lobster")
+      // first we set the model state to training....
+      OctopusStorage.updateTrainState(id, Status.BUSY)
+      // launch training for the lobster
+      val fut1 = MatcherInterface.lobsterTraining(model.id, force)
+      // launch training for the octopus
+      val fut2 = launchOctopusTraining(id)
 
-          newState.get
-        case _ =>
-          octopusState
+      // merge both futures
+      val aggFut: Future[(Option[Path], Option[Path])] = for {
+        futureLobsterPath <- fut1
+        futureOctopusPath <- fut2
+      } yield (futureLobsterPath, futureOctopusPath)
+
+      aggFut onComplete {
+        case Success(res: (Option[Path], Option[Path])) =>
+          processPaths(id, model.id, res)
+        case Failure(err) =>
+          val msg = s"Failed to train octopus $id: ${err.getMessage}."
+          logger.error(msg)
+          ModelStorage.updateTrainState(model.id, Status.ERROR, msg, None)
+          // TODO: delete alignmentDir
+          OctopusStorage.updateTrainState(id, Status.ERROR, msg, None)
       }
-    } yield newState
+      OctopusStorage.get(id).map(_.state)
+    }
+  }
 
+  /**
+    * Processing paths as returned by training methods
+    * @param octopusID Octopus id
+    * @param lobsterID Id of the schema matcher model
+    * @param res Tuple of paths wrapped into Option
+    * @return
+    */
+  private def processPaths(octopusID: OctopusID,
+                           lobsterID: ModelID,
+                           res: (Option[Path], Option[Path])): Option[TrainState] = {
+    res match {
+      case (Some(lobsterPath), Some(octopusPath)) =>
+        logger.info(s"Octopus $octopusID training success")
+        // we update the status, the state date and do not delete the model.rf file for the lobster
+        ModelStorage.updateTrainState(lobsterID, Status.COMPLETE, "", Some(lobsterPath))
+        // we update the status, the state date for the octopus
+        OctopusStorage.updateTrainState(octopusID, Status.COMPLETE, "", Some(octopusPath))
+
+      case (Some(lobsterPath), None) =>
+        logger.error(s"Octopus $octopusID training unsuccessful: matcher succeeded, but modeler failed.")
+        // we update the status, the state date and do not delete the model.rf file for the lobster
+        ModelStorage.updateTrainState(lobsterID, Status.COMPLETE, "", Some(lobsterPath))
+        // we set the octopus state to error
+        // TODO: delete alignmentDir
+        OctopusStorage.updateTrainState(octopusID, Status.ERROR, "Modeler failed.", None)
+
+      case (None, Some(octopusPath)) =>
+        logger.error(s"Octopus $octopusID training unsuccessful: modeler succeeded, but matcher failed.")
+        // we set lobster state to error
+        ModelStorage.updateTrainState(lobsterID, Status.ERROR, "MatcherError", None)
+        // we set the octopus state to error
+        OctopusStorage.updateTrainState(octopusID, Status.ERROR, "Matcher failed.", None)
+
+      case (None, None) =>
+        logger.error(s"Octopus $octopusID training unsuccessful: modeler and matcher failed.")
+        // we set lobster state to error
+        ModelStorage.updateTrainState(lobsterID, Status.ERROR, "MatcherError", None)
+        // we set the octopus state to error
+        OctopusStorage.updateTrainState(octopusID, Status.ERROR, "Matcher and Modeler failed.", None)
+    }
   }
 
   /**
@@ -153,33 +201,19 @@ object OctopusInterface extends LazyLogging{
     *
     * @param id Octopus id for which training will be launched
     */
-  private def launchOctopusTraining(id: OctopusID)(implicit ec: ExecutionContext): Unit = {
+  private def launchOctopusTraining(id: OctopusID)(implicit ec: ExecutionContext): Future[Option[Path]] = {
 
     Future {
       val octopus = OctopusStorage.get(id).get
 
       // get SSDs for the training
-      val knownSSDs: List[SemanticSourceDesc] = octopus.ssds.flatMap(SsdStorage.get)
+      val knownSSDs: List[SemanticSourceDesc] = octopus.ssds.flatMap(SSDStorage.get)
 
       // get location strings of the ontologies
-      val ontologies: List[String] = octopus.ontologies
-        .map(OwlStorage.getOwlDocumentPath(_, OwlDocumentFormat.RdfXml).toString)
+      val ontologies: List[String] = octopus.ontologies.flatMap(OwlStorage.get).map(_.path.toString)
 
       // proceed with training...
       TrainOctopus.train(octopus, OctopusStorage.getAlignmentDirPath(id), ontologies, knownSSDs)
-
-    } onComplete {
-
-      case Success(path) =>
-        // we update the status, the state date and do not delete the model.rf file
-        OctopusStorage.updateTrainState(id, Status.COMPLETE, "", Some(path))
-
-      case Failure(err) =>
-        // we update the status, the state date and delete the model.rf file
-        val msg = s"Failed to train octopus $id: ${err.getMessage}."
-        logger.error(msg)
-        // TODO: delete alignmentDir explicitly?
-        OctopusStorage.updateTrainState(id, Status.ERROR, msg, None)
     }
   }
 
@@ -224,7 +258,7 @@ object OctopusInterface extends LazyLogging{
         .getOrElse(Map.empty[Int, Int])
 
       PredictOctopus.predict(octopus,
-        octopus.ontologies.map(OwlStorage.getOwlDocumentPath(_, OwlDocumentFormat.RdfXml).toString),
+        octopus.ontologies.flatMap(OwlStorage.get).map(_.path.toString),
         SsdStorage.get(ssdID).get,
         dsPredictions,
         attrToColMap,
@@ -284,7 +318,7 @@ object OctopusInterface extends LazyLogging{
     * That's why we need to split those URIs into namespace and semantic type names.
     * The semantic type names will be used as class labels in the Schema Matcher.
     * The namespaces are needed for the Semantic Modeler to properly work with ontologies.
- *
+    *
     * @param ssds List of semantic source descriptions.
     * @return
     */
@@ -340,7 +374,7 @@ object OctopusInterface extends LazyLogging{
 
   /**
     * Construct the semantic type (aka class label) as "the label of class URI"---"the label of data property URI"
- *
+    *
     * @param classURI URI of the class node
     * @param propURI URI of the data node
     * @return
@@ -353,7 +387,7 @@ object OctopusInterface extends LazyLogging{
     * Get the list of OWL ids based on the list of SSDs and list of additional OWL ids.
     * The point is that the user can specify additional ontologies to those which are already specified in the SSDs.
     * We still need to get ontologies from the provided SSDs.
- *
+    *
     * @param ssds List of ids of the semantic source descriptions.
     * @param ontologies List of ids of the ontologies which need to be additionally included into the Octopus.
     * @return

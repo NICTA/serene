@@ -157,8 +157,7 @@ case class SemanticSourceDesc(version: String,
     // mappings refer to nodeIDs which exist in the semantic model
     val mappingCheck2: Boolean = mappings match {
       case Some(maps) => maps.mappings.values
-        .forall(getSMNodeIds
-          .contains)
+        .forall(getSMNodeIds.contains)
       case None => true
     }
       // we map to distinct nodes in the semantic model

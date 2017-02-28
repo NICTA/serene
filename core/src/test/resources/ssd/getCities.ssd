@@ -4,30 +4,30 @@
     "name": "getCities.csv",
     "columns": [
         {
-            "id": 0,
+            "id": 1997319549,
             "name": "state"
         },
         {
-            "id": 1,
+            "id": 1160349990,
             "name": "city"
         }
     ],
     "attributes": [
         {
-            "id": 0,
+            "id": 1997319549,
             "name": "state",
             "label": "ident",
             "columnIds": [
-                0
+                1997319549
             ],
             "sql": "select state from 'getCities.csv'"
         },
         {
-            "id": 1,
+            "id": 1160349990,
             "name": "city",
             "label": "ident",
             "columnIds": [
-                1
+                1160349990
             ],
             "sql": "select city from 'getCities.csv'"
         }
@@ -84,11 +84,11 @@
     },
     "mappings": [
         {
-            "attribute": 0,
+            "attribute": 1997319549,
             "node": 1
         },
         {
-            "attribute": 1,
+            "attribute": 1160349990,
             "node": 3
         }
     ],

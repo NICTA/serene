@@ -270,6 +270,27 @@ object MatcherInterface extends LazyLogging {
     }
   }
 
+  def lobsterTraining(id: ModelID, force: Boolean = false)(implicit ec: ExecutionContext): Future[Option[Path]] = {
+    Future {
+      val model = ModelStorage.get(id).get
+      val state = model.state
+      state.status match {
+        case Status.COMPLETE if ModelStorage.isConsistent(id) && !force =>
+          logger.info(s"Lobster $id is already trained.")
+          model.modelPath
+        case Status.COMPLETE | Status.UNTRAINED | Status.ERROR =>
+          logger.info("Launching lobster training.....")
+          // first we set the model state to training....
+          ModelStorage.updateTrainState(id, Status.BUSY)
+          // in the background we launch the training...
+          ModelTrainer.train(id).flatMap { ModelStorage.addModel(id, _) }
+        case _ =>
+          // we shouldn't actually have this option now
+          model.modelPath
+      }
+    }
+  }
+
   /**
     * Perform prediction using the model
     *
@@ -430,14 +451,14 @@ object MatcherInterface extends LazyLogging {
       // either. The columns must also be removed from the model.
       updatedModels = ModelStorage.listValues
         .filter(_.refDataSets.contains(key))
-        .map { case model =>
+        .map {
+          model =>
+            val newLabels = model.labelData.filterKeys(!badColumns.contains(_))
 
-          val newLabels = model.labelData.filterKeys(!badColumns.contains(_))
-
-          updateModel(
-            model.id,
-            BlankRequest.copy(labelData = Some(newLabels))
-          )
+            updateModel(
+              model.id,
+              BlankRequest.copy(labelData = Some(newLabels))
+            )
         }
       id <- DatasetStorage.remove(key)
     } yield id

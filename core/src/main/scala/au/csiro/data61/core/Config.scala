@@ -192,8 +192,8 @@ object Config extends LazyLogging {
     logger.info(s"Storage path at $storagePath")
     logger.info(s"Dataset repository at ${sd.dataset}")
     logger.info(s"Model repository at ${sd.model}")
-    logger.info(s"Owl repository at ${sd.owl}")
-    logger.info(s"Octopus repository at ${sd.octopus}")
+    logger.info(s"Ontology repository at ${sd.owl}")
+    logger.info(s"Alignment repository at ${sd.octopus}")
     logger.info(s"SSD repository at ${sd.ssd}")
 
     sd

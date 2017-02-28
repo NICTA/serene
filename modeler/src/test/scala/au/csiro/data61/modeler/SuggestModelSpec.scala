@@ -45,6 +45,8 @@ import au.csiro.data61.types.SSDTypes._
 @RunWith(classOf[JUnitRunner])
 class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging {
 
+  val dummyOctopusID = 1
+
   val ssdDir = getClass.getResource("/ssd").getPath
   val exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
   val emptySSD: String = Paths.get(ssdDir,"empty_model_2.ssd") toString
@@ -181,7 +183,9 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap)
+      .suggestModels(newSSD, dummyOctopusID,
+        List(exampleOntol), getBusinessDataSetPredictions,
+        businessSemanticTypeMap, businessAttrToColMap)
     assert(recommends.isEmpty)
   }
 
@@ -204,7 +208,9 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap)
+      .suggestModels(newSSD, dummyOctopusID,
+        List(exampleOntol), getBusinessDataSetPredictions,
+        businessSemanticTypeMap, businessAttrToColMap)
     assert(recommends.isEmpty)
   }
 
@@ -240,13 +246,15 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap2)
+      .suggestModels(newSSD, dummyOctopusID,
+        List(exampleOntol), getBusinessDataSetPredictions,
+        businessSemanticTypeMap, businessAttrToColMap2)
 
     recommends match {
       case Some(ssdPred: SSDPrediction) =>
         assert(ssdPred.suggestions.size === 1)
-        val recSemanticModel = ssdPred.suggestions(0)._1
-        val scores = ssdPred.suggestions(0)._2
+        val recSemanticModel = ssdPred.suggestions.head._1
+        val scores = ssdPred.suggestions.head._2
 
         assert(recSemanticModel.isConsistent) // Karma should return a consistent and complete semantic model
         assert(recSemanticModel.isComplete)
@@ -297,12 +305,14 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     logger.info("================================================================")
     val recommends = karmaPredict
-      .suggestModels(newSSD, List(exampleOntol), None, businessSemanticTypeMap, businessAttrToColMap2)
+      .suggestModels(newSSD, dummyOctopusID,
+        List(exampleOntol), None,
+        businessSemanticTypeMap, businessAttrToColMap2)
     recommends match {
       case Some(ssdPred: SSDPrediction) =>
         assert(ssdPred.suggestions.size === 1)
-        val recSemanticModel = ssdPred.suggestions(0)._1
-        val scores = ssdPred.suggestions(0)._2
+        val recSemanticModel = ssdPred.suggestions.head._1
+        val scores = ssdPred.suggestions.head._2
 
         val str = compact(Extraction.decompose(recSemanticModel))
         val outputPath = Paths.get(ModelerConfig.KarmaDir, s"recommended_ssd.json")
@@ -363,12 +373,14 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     logger.info("================================================================")
     val recommends = karmaPredict
-      .suggestModels(newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap2)
+      .suggestModels(newSSD, dummyOctopusID,
+        List(exampleOntol), getBusinessDataSetPredictions,
+        businessSemanticTypeMap, businessAttrToColMap2)
     recommends match {
       case Some(ssdPred: SSDPrediction) =>
         assert(ssdPred.suggestions.size === 1)
-        val recSemanticModel = ssdPred.suggestions(0)._1
-        val scores = ssdPred.suggestions(0)._2
+        val recSemanticModel = ssdPred.suggestions.head._1
+        val scores = ssdPred.suggestions.head._2
 
         val str = compact(Extraction.decompose(recSemanticModel))
         val outputPath = Paths.get(ModelerConfig.KarmaDir, s"recommended_ssd.json")
@@ -424,7 +436,8 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, List(exampleOntol), getCitiesDataSetPredictions, Map(), citiesAttrToColMap)
+      .suggestModels(newSSD, dummyOctopusID,
+        List(exampleOntol), getCitiesDataSetPredictions, Map(), citiesAttrToColMap)
 
     recommends match {
       case Some(ssdPred: SSDPrediction) =>
@@ -439,8 +452,8 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
         ssdPred.suggestions.forall(_._1.mappings.isDefined)
 
-        val recSemanticModel = ssdPred.suggestions(0)._1
-        val scores = ssdPred.suggestions(0)._2
+        val recSemanticModel = ssdPred.suggestions.head._1
+        val scores = ssdPred.suggestions.head._2
         assert(scores.linkCost === 4)
 
       case _ =>
@@ -480,7 +493,8 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, List(exampleOntol), getCitiesDataSetPredictions, citiesSemanticTypeMap, citiesAttrToColMap)
+      .suggestModels(newSSD, dummyOctopusID,
+        List(exampleOntol), getCitiesDataSetPredictions, citiesSemanticTypeMap, citiesAttrToColMap)
     assert(recommends.isEmpty)
   }
 
@@ -516,7 +530,8 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
     val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
-      .suggestModels(newSSD, List(exampleOntol), getCitiesDataSetPredictions, correctCitiesSemanticTypeMap, citiesAttrToColMap)
+      .suggestModels(newSSD, dummyOctopusID,
+        List(exampleOntol), getCitiesDataSetPredictions, correctCitiesSemanticTypeMap, citiesAttrToColMap)
     recommends match {
       case Some(ssdPred: SSDPrediction) =>
         assert(ssdPred.suggestions.size === 4)
@@ -529,8 +544,8 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
         assert(ssdPred.suggestions.forall(_._2.nodeCoherence == 1))
         assert(ssdPred.suggestions.forall(_._2.nodeCoverage == 1))
 
-        val recSemanticModel = ssdPred.suggestions(0)._1
-        val scores = ssdPred.suggestions(0)._2
+        val recSemanticModel = ssdPred.suggestions.head._1
+        val scores = ssdPred.suggestions.head._2
         assert(scores.linkCost === 4)
 
       case _ =>
