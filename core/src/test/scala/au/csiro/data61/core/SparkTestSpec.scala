@@ -141,8 +141,7 @@ class SparkTestSpec extends FunSuite with LazyLogging{
     val predictions = model.transform(testData)
 
     // Select example rows to display.
-//    predictions.select("predictedLabel", "label", "features").show(5)
-    predictions.show(5)
+//    predictions.show(5)
 
     // Select (prediction, true label) and compute test error.
     val evaluator = new MulticlassClassificationEvaluator()
