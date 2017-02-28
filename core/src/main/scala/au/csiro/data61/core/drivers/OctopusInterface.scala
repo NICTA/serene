@@ -201,9 +201,11 @@ object OctopusInterface extends LazyLogging{
     Future {
       val octopus = OctopusStorage.get(id).get
       // get SSDs for the training
+
       val knownSSDs: List[SemanticSourceDesc] = octopus.ssds.flatMap(SSDStorage.get)
       // get location strings of the ontologies
       val ontologies: List[String] = octopus.ontologies.flatMap(OwlStorage.get).map(_.path.toString)
+
       // proceed with training...
       TrainOctopus.train(octopus, OctopusStorage.getAlignmentDirPath(id), ontologies, knownSSDs)
     }

@@ -53,7 +53,7 @@ class TrainMLibSemanticTypeClassifierSpec extends mutable.Specification {
 
                 println("Training model...")
                 val startTime = System.nanoTime()
-                val trainer = new TrainMlibSemanticTypeClassifier(classes, false)
+                val trainer = new TrainMlibSemanticTypeClassifier(classes, doCrossValidation = false)
                 val randomForestSchemaMatcher = trainer.train(trainingData, labels, trainSettings, None)
                 val endTime = System.nanoTime()
                 println("Training finished in " + ((endTime-startTime)/1.0E9) + " seconds!  Saving model...")

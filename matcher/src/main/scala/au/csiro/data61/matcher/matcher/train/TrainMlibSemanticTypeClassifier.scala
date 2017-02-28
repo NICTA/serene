@@ -31,14 +31,20 @@ import com.typesafe.scalalogging.LazyLogging
 
 import scala.util.{Failure, Success, Try}
 
+/**
+  * NOTE: in case the training data is small we need to reduce numTrees otherwise Spark fails!!!
+  * @param classes List of strings for class labels
+  * @param defaultDepth Default depth of trees in the random forest classifier; defaults to 10
+  * @param defaultNumTrees Default number of trees in the random forest classifier; defaults to 128
+  * @param defaultImpurity Default impurity; defaults to "gini"
+  * @param doCrossValidation Boolean which indicates whether cross validation will be performed
+  */
 case class TrainMlibSemanticTypeClassifier(classes: List[String],
+                                           defaultDepth: Int = 10,
+                                           defaultNumTrees: Int = 128, // according to some works setting numTrees>128 is unneccessary
+                                           defaultImpurity: String = "gini",
                                            doCrossValidation: Boolean = false
                                           ) extends TrainSemanticTypeClassifier with LazyLogging {
-
-  // TODO: make them parameters of TrainMlibSemanticTypeClassifier
-  val defaultDepth = 10
-  val defaultNumTrees = 500
-  val defaultImpurity = "gini"
 
   /**
     * If parallelFeatureExtraction is true, then use spark to preprocess attributes.
@@ -82,7 +88,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     * @param datadDf
     * @return
     */
-  protected def performCrossValidation(indexer: StringIndexerModel,
+  private def performCrossValidation(indexer: StringIndexerModel,
                              vectorAssembler: VectorAssembler,
                              labelConverter: IndexToString,
                              datadDf: DataFrame
@@ -90,8 +96,8 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     val dt = new RandomForestClassifier()
       .setLabelCol("label")
       .setFeaturesCol("features")
-      .setMaxDepth(30)
-      .setNumTrees(100)
+      .setMaxDepth(10)
+      .setNumTrees(500)
     val pipeline = new Pipeline()
       .setStages(Array(indexer, vectorAssembler, dt, labelConverter))
 
@@ -135,6 +141,35 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
   }
 
   /**
+    * Identify numTrees, depth and impurity for the random forest classifier.
+    * We either perform cross validation or use default settings.
+    * However, we take into account that for small datasets numTrees needs to be very small.
+    * @param indexer
+    * @param vectorAssembler
+    * @param labelConverter
+    * @param datadDf
+    * @return
+    */
+  private def calculateRFParameters(indexer: StringIndexerModel,
+                                    vectorAssembler: VectorAssembler,
+                                    labelConverter: IndexToString,
+                                    datadDf: DataFrame
+                                   ): (Int, Int, String) = {
+    if (doCrossValidation) {
+      // better don't do cross-validation
+      performCrossValidation(indexer, vectorAssembler, labelConverter, datadDf)
+    } else {
+      if (datadDf.count < 20) {
+        // we need to reduce the number of trees in case the training dataset is too small
+        // this is done to avoid Spark error "empty.maxBy"
+        (defaultDepth, 10, defaultImpurity)
+      } else {
+        (defaultDepth, defaultNumTrees, defaultImpurity)
+      }
+    }
+  }
+
+  /**
     * Costruct Spark Pipeline Model and train it.
     * @param data Training data converted to Spark Rows.
     * @param schema Schema of the data.
@@ -157,6 +192,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
 //      println("***********")
 //      dataDf.show(10)
 //      dataDf.write.csv(s"/tmp/test/model${System.nanoTime()}.csv")
+//      logger.info(s"Constructed schema of the dataframe: ${dataDf.schema}")
 //      println("***********")
 
       //train random forest
@@ -174,11 +210,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
         .setOutputCol("predictedLabel")
         .setLabels(indexer.labels)
 
-      val (depth, ntrees, impurity) = if (doCrossValidation) {
-        performCrossValidation(indexer, vecAssembler, labelConverter, dataDf)
-      } else {
-        (defaultDepth, defaultNumTrees, defaultImpurity)
-      }
+      val (depth, ntrees, impurity) = calculateRFParameters(indexer, vecAssembler, labelConverter, dataDf)
 
       val finalModelEstimator = new RandomForestClassifier()
         .setLabelCol("label")
@@ -306,9 +338,9 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
 
     //construct schema
     val schema: StructType = StructType(
-      StructField("class", StringType, false) +: featureNames
+      StructField("class", StringType, true) +: featureNames
         .map { n =>
-          StructField(n, DoubleType, false)
+          StructField(n, DoubleType, true) // nullable property
         }
     )
 
