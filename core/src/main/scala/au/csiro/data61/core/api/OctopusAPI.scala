@@ -265,9 +265,7 @@ object OctopusAPI extends RestAPI {
       bagSize = None,
       ontologies = None,
       ssds = None,
-      modelingProps = None,
-      alignmentDir = None,
-      semanticTypeMap = None
+      modelingProps = None
     )
   }
 
@@ -294,6 +292,4 @@ case class OctopusRequest(name: Option[String],
                           bagSize: Option[Int],
                           ontologies: Option[List[Int]],
                           ssds: Option[List[Int]],
-                          modelingProps: Option[String],
-                          alignmentDir: Option[String],
-                          semanticTypeMap: Option[Map[String, String]])
+                          modelingProps: Option[String])

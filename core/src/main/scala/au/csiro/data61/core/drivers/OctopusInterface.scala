@@ -86,6 +86,7 @@ object OctopusInterface extends LazyLogging{
 
       octopus <- Try {
         Octopus(id,
+          name = request.name.getOrElse("unknown"),
           ontologies = getOntologies(request.ssds, request.ontologies),
           ssds = request.ssds.getOrElse(List.empty[Int]).map(Some(_)),
           lobsterID = lobsterID,
@@ -207,10 +208,12 @@ object OctopusInterface extends LazyLogging{
       val octopus = OctopusStorage.get(id).get
 
       // get SSDs for the training
-      val knownSSDs: List[SemanticSourceDesc] = octopus.ssds.flatMap(SSDStorage.get)
+      val knownSSDs: List[SemanticSourceDesc] = octopus.ssds.flatMap(SsdStorage.get)
 
       // get location strings of the ontologies
-      val ontologies: List[String] = octopus.ontologies.flatMap(OwlStorage.get).map(_.path.toString)
+      val ontologies: List[String] = octopus.ontologies
+        .flatMap(OwlStorage.getOwlDocumentPath)
+        .map(_.toString)
 
       // proceed with training...
       TrainOctopus.train(octopus, OctopusStorage.getAlignmentDirPath(id), ontologies, knownSSDs)
@@ -258,7 +261,9 @@ object OctopusInterface extends LazyLogging{
         .getOrElse(Map.empty[Int, Int])
 
       PredictOctopus.predict(octopus,
-        octopus.ontologies.flatMap(OwlStorage.get).map(_.path.toString),
+        octopus.ontologies
+          .flatMap(OwlStorage.getOwlDocumentPath)
+          .map(_.toString),
         SsdStorage.get(ssdID).get,
         dsPredictions,
         attrToColMap,
@@ -490,22 +495,28 @@ object OctopusInterface extends LazyLogging{
     */
   def updateOctopus(id: OctopusID, request: OctopusRequest): Octopus = {
 
+
+    val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
+
+    // TODO: update lobster!
+
     // build the octopus from the request, adding defaults where necessary
     val octopusOpt = for {
       colMap <- Some(DatasetStorage.columnMap)
       original <- OctopusStorage.get(id)
       // build up the octopus request, and use defaults if not present...
+      // TODO: delete alignmentDir explicitly?
       octopus <- Try {
         Octopus(
           id = id,
           lobsterID = original.lobsterID,
           description = request.description.getOrElse(original.description),
           name = request.name.getOrElse(original.name),
-          modelingProps = request.modelingProps, //.getOrElse(original.modelingProps), // TODO: Remove option type!!
-          alignmentDir = request.alignmentDir.map(Paths.get(_)), //.getOrElse(original.alignmentDir),
+          modelingProps = request.modelingProps, // TODO: Remove option type!! in case it's None semantic-modeler uses default config for Karma; for now default config is available only in semantic-modeler
+          alignmentDir = None,
           ssds = request.ssds.map(sds => sds.map(Some(_))).getOrElse(original.ssds),
           ontologies = request.ontologies.getOrElse(original.ontologies),
-          semanticTypeMap = request.semanticTypeMap, //.getOrElse(original.semanticTypeMap),
+          semanticTypeMap = semanticTypeMap,
           state = TrainState(Status.UNTRAINED, "", DateTime.now),
           dateCreated = original.dateCreated,
           dateModified = DateTime.now)
@@ -542,7 +553,7 @@ object OctopusInterface extends LazyLogging{
       name: String,
       description: String,
       format: OwlDocumentFormat,
-      inputStream: InputStream): Try[Owl] = Try {
+      inputStream: InputStream): Option[Owl] = {
     val id = Random.nextInt(Integer.MAX_VALUE)
     val now = DateTime.now
     val owl = Owl(
@@ -554,13 +565,18 @@ object OctopusInterface extends LazyLogging{
       dateModified = now
     )
 
-    OwlStorage.add(id, owl) match {
-      case Some(_) =>
-        OwlStorage.writeOwlDocument(OwlStorage.getOwlDocumentPath(id, format), inputStream).get
-        owl
-      case None =>
-        throw new IOException(s"Owl $id could not be created.")
-    }
+    for {
+      owlId <- OwlStorage.add(id, owl)
+      owlPath <- OwlStorage.writeOwlDocument(id, inputStream)
+      curOwl <- OwlStorage.get(owlId)
+    } yield curOwl
+
+//    OwlStorage.add(id, owl) match {
+//      case Some(_) =>
+//          OwlStorage.writeOwlDocument(id, inputStream)
+//      case None =>
+//        throw new IOException(s"Owl $id could not be created.")
+//    }
   }
 
   /**
@@ -585,7 +601,7 @@ object OctopusInterface extends LazyLogging{
     * @return A buffered reader object
     */
   def getOwlDocument(owl: Owl): Try[Reader] = Try {
-    Reader.fromFile(OwlStorage.getOwlDocumentPath(owl.id, owl.format).toFile)
+    Reader.fromFile(OwlStorage.getOwlDocumentPath(owl.id).map(_.toFile).get)
   }
 
   /**

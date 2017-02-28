@@ -23,10 +23,10 @@ import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.Serene
 import au.csiro.data61.types.SSDTypes.OwlDocumentFormat.OwlDocumentFormat
-import au.csiro.data61.types.SSDTypes.{Owl, OwlID}
+import au.csiro.data61.types.SSDTypes.{Owl, OwlDocumentFormat, OwlID}
 import org.json4s.jackson.JsonMethods.parse
 
-import scala.util.Try
+import scala.util.{Failure, Success, Try}
 
 /**
   * Stores OWL document and related information.
@@ -45,11 +45,14 @@ object OwlStorage extends Storage[OwlID, Owl] {
     * Gets the path to the OWL document file.
     *
     * @param id The ID of the OWL document.
-    * @param format The format of the OWL document.
     * @return The path to the OWL document file.
     */
-  def getOwlDocumentPath(id: OwlID, format: OwlDocumentFormat): Path =
-    getPath(id).resolveSibling(s"document.$format")
+  def getOwlDocumentPath(id: OwlID): Option[Path] = {
+    get(id).map ( o =>
+      getPath(id).resolveSibling(s"$DocumentFileName.${o.format}")
+    )
+//    Paths.get(getDirectoryPath(id).toString, s"document.$format")
+  }
 
   /**
     * Writes the OWL document with the input stream.
@@ -59,8 +62,32 @@ object OwlStorage extends Storage[OwlID, Owl] {
     * @param owlDocumentPath The path to the OWL document file.
     * @param inputStream The input stream.
     */
-  def writeOwlDocument(owlDocumentPath: Path, inputStream: InputStream): Try[Unit] = Try {
+  def writeOldOwlDocument(owlDocumentPath: Path, inputStream: InputStream): Try[Path] = Try {
     owlDocumentPath.getParent.toFile.mkdirs
     Files.copy(inputStream, owlDocumentPath, REPLACE_EXISTING)
+    owlDocumentPath
+  }
+
+  /**
+    * Writes the OWL document with the input stream.
+    *
+    * Existing document file will be overwritten.
+    *
+    * @param id id of the ontology
+    * @param inputStream The input stream.
+    */
+  def writeOwlDocument(id: OwlID, inputStream: InputStream): Option[Path] = {
+    val owlDocumentPath = getOwlDocumentPath(id)
+    Try {
+      owlDocumentPath.foreach(_.getParent.toFile.mkdirs)
+      owlDocumentPath.foreach(Files.copy(inputStream, _, REPLACE_EXISTING))
+      owlDocumentPath
+    } match {
+      case Success(_) =>
+        owlDocumentPath
+      case Failure(err) =>
+        logger.error(s"Failed to write owl file for $id.")
+        None
+    }
   }
 }

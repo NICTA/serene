@@ -70,8 +70,10 @@ object OwlAPI extends RestAPI {
     }
 
     OctopusInterface.createOwl(name, desc, fmt, stream) match {
-      case Success(owl) => Ok(owl)
-      case Failure(th) => InternalServerError(new RuntimeException(th))
+      case Some(owl: Owl) => Ok(owl)
+      case _ =>
+        logger.error(s"Owl could not be created.")
+        InternalServerError(InternalException(s"Owl could not be created."))
     }
   }
 
