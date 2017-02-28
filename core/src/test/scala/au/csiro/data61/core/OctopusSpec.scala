@@ -104,11 +104,9 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     bagSize = None,
     ontologies = None,
     ssds = Some(List(0)),
-    modelingProps = None,
-    semanticTypeMap = None,
-    alignmentDir = None)
+    modelingProps = None)
 
-  val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None, None, None, None)
+  val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None, None)
 
   val datasetMap = Map("business" -> 767956483, "cities" -> 696167703)
 

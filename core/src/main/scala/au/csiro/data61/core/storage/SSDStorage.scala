@@ -31,7 +31,7 @@ import org.json4s.jackson.JsonMethods._
   */
 object SsdStorage extends Storage[SsdID, SemanticSourceDesc] {
 
-  override implicit val keyReader: Readable[Option[Int]] = Readable.ReadableOptionInt
+  override implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
   override def rootDir: String = new File(Serene.config.storageDirs.ssd).getAbsolutePath
 

@@ -131,7 +131,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
     // TODO: to forbid addition of the SSD more than once to the alignment
     // this should be done once Alignment Storage is set up!
     val newSSD: SemanticSourceDesc = knownSSDs.headOption match {
-      case Some(ssd) => ssd.copy(id = Some(1))
+      case Some(ssd) => ssd.copy(id = 1)
       case None =>
         fail("SSD 0 is missing!")
     }

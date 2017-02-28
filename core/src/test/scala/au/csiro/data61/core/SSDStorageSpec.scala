@@ -65,17 +65,4 @@ class SSDStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   }
 
-  test("Incomplete ssd not added to the storage") {
-    assert(SsdStorage.keys.size === 0)
-    Try {
-      val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
-    } match {
-      case Success(ssd) =>
-        assert(SsdStorage.add(ssd.id, ssd) === None)
-        assert(SsdStorage.keys.size === 0)
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-  }
 }

@@ -88,11 +88,9 @@ object OctopusInterface extends LazyLogging{
         Octopus(id,
           name = request.name.getOrElse("unknown"),
           ontologies = getOntologies(request.ssds, request.ontologies),
-          ssds = request.ssds.getOrElse(List.empty[Int]).map(Some(_)),
+          ssds = request.ssds.getOrElse(List.empty[Int]),
           lobsterID = lobsterID,
           modelingProps = request.modelingProps,
-          alignmentDir = None,
-          semanticTypeMap = semanticTypeMap,
           state = TrainState(Status.UNTRAINED, "", DateTime.now),
           dateCreated = DateTime.now,
           dateModified = DateTime.now,
@@ -301,7 +299,6 @@ object OctopusInterface extends LazyLogging{
       // here we want to get a map from AttrID to (URI of class node, URI of data node)
       // TODO: the mapping can be to the ClassNode
       val ssdMaps: List[(AttrID, (String, String))] = givenSSDs
-        .map(Some(_))
         .flatMap(SsdStorage.get)
         .filter(_.mappings.isDefined)
         .filter(_.semanticModel.isDefined)
@@ -363,7 +360,7 @@ object OctopusInterface extends LazyLogging{
     logger.debug("Getting owls for octopus")
     val ssdOntologies: List[Int] = ssds
       .getOrElse(List.empty[Int])
-      .flatMap(x => SsdStorage.get(Some(x)))
+      .flatMap(SsdStorage.get)
       .flatMap(_.ontology)
 
     ssdOntologies ++ ontologies.getOrElse(List.empty[Int])
@@ -468,10 +465,8 @@ object OctopusInterface extends LazyLogging{
           description = request.description.getOrElse(original.description),
           name = request.name.getOrElse(original.name),
           modelingProps = request.modelingProps, //.getOrElse(original.modelingProps), // TODO: Remove option type!!
-          alignmentDir = request.alignmentDir.map(Paths.get(_)), //.getOrElse(original.alignmentDir),
-          ssds = request.ssds.map(sds => sds.map(Some(_))).getOrElse(original.ssds),
+          ssds = request.ssds.getOrElse(original.ssds),
           ontologies = request.ontologies.getOrElse(original.ontologies),
-          semanticTypeMap = request.semanticTypeMap, //.getOrElse(original.semanticTypeMap),
           state = TrainState(Status.UNTRAINED, "", DateTime.now),
           dateCreated = original.dateCreated,
           dateModified = DateTime.now)

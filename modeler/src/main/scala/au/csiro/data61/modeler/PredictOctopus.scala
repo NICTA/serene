@@ -40,15 +40,14 @@ object PredictOctopus extends LazyLogging {
               numSemanticTypes: Int): Option[SSDPrediction] = {
     logger.info("Semantic Modeler initializes prediction...")
 
-    val karmaWrapper = KarmaParams(alignmentDir = octopus.alignmentDir
-      .getOrElse(throw ModelerException("Alignment directory is not specified in octopus!")).toString,
+    val karmaWrapper = KarmaParams(alignmentDir = "", // TODO: fix this! Add real alignment dir
       ontologies = ontologies,
       None)
 
     val suggestions = KarmaSuggestModel(karmaWrapper).suggestModels(ssd
       , ontologies
       , dsPredictions
-      , octopus.semanticTypeMap.getOrElse(Map.empty[String, String])
+      , Map.empty[String, String] // TODO: fix this add real SemanticTypeMap
       , attrToColMap: Map[AttrID,ColumnID]
       , numSemanticTypes)
 

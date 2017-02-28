@@ -18,19 +18,13 @@
 package au.csiro.data61.core.api
 
 import au.csiro.data61.core.storage.SsdStorage
-import au.csiro.data61.types._
-import io.finch._
+import au.csiro.data61.types.{SsdRequest, SSDAttribute, SSDColumn, SemanticSourceDesc}
 import org.joda.time.DateTime
 
 import scala.language.postfixOps
 
-import java.io.{ByteArrayInputStream, InputStream, FileInputStream}
-import au.csiro.data61.core.drivers.{OctopusInterface, MatcherInterface}
-import DataSetTypes._
-import com.twitter.finagle.http.exp.Multipart
-import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpload}
-import com.twitter.io.{Buf, BufReader}
-import com.twitter.util.Await
+import au.csiro.data61.core.drivers.OctopusInterface
+
 import io.finch._
 import org.json4s.jackson.JsonMethods._
 
@@ -40,16 +34,19 @@ import scala.util.{Failure, Success, Try}
 /**
   * SSD REST endpoints...
   *
-  *  GET    /v1.0/ssd
-  *  POST   /v1.0/ssd      -- description (string), ontologies (list ids), dataset (id)
-  *  GET    /v1.0/ssd/:id
-  *  POST   /v1.0/ssd/:id  -- description (string), ontologies (list ids), dataset (id)
-  *  DELETE /v1.0/ssd/:id
+  * POST  :8080/v1.0/ssd/ <- SSDFrontEnd
+  * GET   :8080/v1.0/ssd/{id} -> SemanticSourceDesc
+  * PATCH :8080/v1.0/ssd/{id} <- SSDFrontEnd
+  * DELETE :8080/v1.0/ssd/{id}
+  *
+  * POST :8080/v1.0/octopus/{id} <- OctopusRequest(list of SsdID)
+  * POST :8080/v1.0/octopus/{id}/predict?datasetID={id} -> SsdResults(predictions = List[(SSDRequest, score)])
+  * POST :8080/v1.0/octopus/{id}/train
   */
 object SsdAPI extends RestAPI {
 
   val junkSSD = SemanticSourceDesc(
-    id = Some(1),
+    id = 1,
     version = "0.1",
     name = "test",
     columns = List(SSDColumn(1, "col1"), SSDColumn(2, "col2")),
@@ -69,19 +66,19 @@ object SsdAPI extends RestAPI {
     * curl http://localhost:8080/v1.0/ssd
     */
   val ssdRoot: Endpoint[List[Int]] = get(APIVersion :: "ssd") {
-    Ok(OctopusInterface.ssdKeys.flatten)
+    Ok(OctopusInterface.ssdKeys)
   }
 
   /**
     * Adds a new SSD as specified by the json body.
     *
     * {
+    * SsdRequest
     * }
     *
     * Returns a JSON SSD object with id.
     *
     */
-
   val ssdCreate: Endpoint[SemanticSourceDesc] = post(APIVersion :: "ssd" :: stringBody) {
     (body: String) =>
       Ok(junkSSD)
@@ -97,7 +94,7 @@ object SsdAPI extends RestAPI {
 
       logger.debug(s"Get ssd id=$id")
 
-      val ssd = Try { SsdStorage.get(Some(id)) }
+      val ssd = Try { SsdStorage.get(id) }
 
       ssd match {
         case Success(Some(s))  =>
@@ -133,7 +130,7 @@ object SsdAPI extends RestAPI {
     */
   val ssdDelete: Endpoint[String] = delete(APIVersion :: "ssd" :: int) {
     (id: Int) =>
-      Try(SsdStorage.remove(Some(id))) match {
+      Try(SsdStorage.remove(id)) match {
 
         case Success(Some(_)) =>
           logger.debug(s"Deleted ssd $id")
@@ -159,10 +156,3 @@ object SsdAPI extends RestAPI {
       ssdPatch :+:
       ssdDelete
 }
-
-/**
-  * Object returned from any ssd request.
-  *
-  * @param description Description field written for the dataset
-  */
-case class SsdRequest(description: Option[String])
