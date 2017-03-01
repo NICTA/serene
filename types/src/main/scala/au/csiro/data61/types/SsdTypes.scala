@@ -120,14 +120,14 @@ object SsdTypes {
   * @param dateCreated Date when it was created
   * @param dateModified Date when it was last modified
   */
-case class SemanticSourceDesc(id: SsdID,
-                              name: String,
-                              attributes: List[SsdAttribute],
-                              ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
-                              semanticModel: Option[SemanticModel],
-                              mappings: Option[SsdMapping],
-                              dateCreated: DateTime,
-                              dateModified: DateTime
+case class Ssd(id: SsdID,
+               name: String,
+               attributes: List[SsdAttribute],
+               ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
+               semanticModel: Option[SemanticModel],
+               mappings: Option[SsdMapping],
+               dateCreated: DateTime,
+               dateModified: DateTime
                              ) extends Identifiable[SsdID] with LazyLogging {
   /**
     * we need to check consistency of SSD
@@ -224,7 +224,7 @@ case class SemanticSourceDesc(id: SsdID,
     * @param karmaSM Semantic Model returned from the Karma tool, this is type KarmaGraph.
     * @return
     */
-  def update(karmaSM: KarmaGraph): SemanticSourceDesc = {
+  def update(karmaSM: KarmaGraph): Ssd = {
     logger.info(s"Updating SSD $id")
     this.copy(semanticModel = Some(karmaSM.toSemanticModel),
       mappings = Some(SsdMapping(karmaSM.columnNodeMappings)),

@@ -172,7 +172,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @param attrToColMap Mapping of modeller:attributes to matcher:columns.
     * @return
     */
-  private def getKarmaNotMappedAttributes(ssd: SemanticSourceDesc
+  private def getKarmaNotMappedAttributes(ssd: Ssd
                                   , dsPredictions: DataSetPrediction
                                   , semanticTypeMap: Map[String, String]
                                   , attrToColMap: Map[AttrID,ColumnID]
@@ -320,11 +320,11 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @return
     * @throws ModelerException when semantic scores cannot be calculated
     */
-  private def convertSuggestion(ssd:SemanticSourceDesc
+  private def convertSuggestion(ssd:Ssd
                         , sortableKarmaSM: SortableSemanticModel
                         , rank: Int
                         , alignmentGraph: Alignment
-                       ) : (SemanticSourceDesc, SemanticScores) = {
+                       ) : (Ssd, SemanticScores) = {
     sortableKarmaSM.writeJson(Paths.get(ModelerConfig.KarmaDir, s"karma_sortableSM_$rank.json").toString) // debugging
     // to construct the new SemanticSourceDesc, we update the existing one by using Karma response
     // first we need to get a proper KarmaSSD based on the returned SortableSemanticModel
@@ -339,7 +339,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
 
     // we update the input ssd with the suggestion from Karma
     // for this purpose, we have to get the steiner tree from the updated alignment
-    val  model: SemanticSourceDesc = ssd.update(KarmaGraph(updatedAlignment.getSteinerTree))
+    val  model: Ssd = ssd.update(KarmaGraph(updatedAlignment.getSteinerTree))
 
     Option(sortableKarmaSM.getSteinerNodes) match {
       case Some(_) =>
@@ -529,7 +529,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @param ssd SemanticSourceDesc for which we need to learn the alignment.
     * @return
     */
-  private def getAlignment(ssd: SemanticSourceDesc): Alignment = {
+  private def getAlignment(ssd: Ssd): Alignment = {
     logger.info(s"Setting up initial alignment of SSD ${ssd.id}")
     val alignmentGraph = new Alignment(karmaWrapper.karmaWorkspace.getOntologyManager)
     //debugging...
@@ -564,10 +564,10 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @param numSemanticTypes Integer which indicates how many top semantic types to keep
     * @return
     */
-  private def getKarmaSuggestions(ssd: SemanticSourceDesc
+  private def getKarmaSuggestions(ssd: Ssd
                                   , alignmentGraph: Alignment
                                   , numSemanticTypes: Integer
-                                 ): List[(SemanticSourceDesc, SemanticScores)] = {
+                                 ): List[(Ssd, SemanticScores)] = {
     logger.debug("******************************************")
     logger.debug(s"Alignment graph: ${alignmentGraph.getGraph.vertexSet.size} nodes, " +
       s"${alignmentGraph.getGraph.edgeSet.size} links.")
@@ -620,7 +620,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @param numSemanticTypes Integer which indicates how many top semantic types to keep; default is 4.
     * @return SSDPrediction wrapped into Option
     */
-  def suggestModels(ssd: SemanticSourceDesc
+  def suggestModels(ssd: Ssd
                     , ontologies: List[String]
                     , dsPredictions: Option[DataSetPrediction]
                     , semanticTypeMap: Map[String, String]
@@ -653,7 +653,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
         Paths.get(ModelerConfig.KarmaDir, s"karma_learn_alignment_graph.json").toString, true, true)
       logger.debug(s"---Alignment3 sourcecolnodes: ${alignmentGraph.getSourceColumnNodes.size}")
 
-      val suggestions: List[(SemanticSourceDesc, SemanticScores)] =
+      val suggestions: List[(Ssd, SemanticScores)] =
         getKarmaSuggestions(ssd, alignmentGraph, numSemanticTypes)
 
       if(suggestions.nonEmpty) {

@@ -76,7 +76,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
     * @param ssd Semantic Source Description
     * @return
     */
-  def getSMNodes(ssd: SemanticSourceDesc): List[SSDNode] = {
+  def getSMNodes(ssd: Ssd): List[SsdNode] = {
     ssd.semanticModel match {
       case Some(sm) => sm.getNodes
       case None => List()
@@ -88,7 +88,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
     * @param ssd Semantic Source Description
     * @return
     */
-  def getSMLinks(ssd: SemanticSourceDesc): List[SsdLink[SsdNode]] = {
+  def getSMLinks(ssd: Ssd): List[SsdLink[SsdNode]] = {
     ssd.semanticModel match {
       case Some(sm) => sm.getLinks.map(e => e.asInstanceOf[SsdLink[SsdNode]])
       case None => List()
@@ -101,7 +101,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
     * @param ssd Semantic Source Description
     * @return
     */
-  def getMappingSize(ssd: SemanticSourceDesc): Int = {
+  def getMappingSize(ssd: Ssd): Int = {
     ssd.mappings match {
       case Some(maps) => maps.mappings.size
       case None => 0
@@ -109,7 +109,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Successful creation of SSD"){
-    val ssd = SemanticSourceDesc(
+    val ssd = Ssd(
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr),
@@ -124,7 +124,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Inconsistent SSD: attributes are inconsistent") {
-    val ssd = SemanticSourceDesc(
+    val ssd = Ssd(
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr, dummyAttr2), // attributes are inconsistent
@@ -139,7 +139,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Inconsistent SSD: mappings are inconsistent") {
-    val ssd2 = SemanticSourceDesc(
+    val ssd2 = Ssd(
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr),
@@ -154,7 +154,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Inconsistent SSD: mappings are again inconsistent") {
-    val ssd3 = SemanticSourceDesc(
+    val ssd3 = Ssd(
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr),
@@ -169,7 +169,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Inconsistent SSD: semantic model - mappings clash") {
-    val ssd4 = SemanticSourceDesc(
+    val ssd4 = Ssd(
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr),
@@ -184,7 +184,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Jsonify SSD"){
-    val ssd = SemanticSourceDesc(
+    val ssd = Ssd(
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr),
@@ -195,7 +195,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       dateModified = DateTime.now)
     val json = Extraction.decompose(ssd)
     print(json)
-    val ssd2 = json.extract[SemanticSourceDesc]
+    val ssd2 = json.extract[Ssd]
 
     assert(ssd.mappings === ssd2.mappings)
     assert(ssd.attributes === ssd2.attributes)
@@ -223,7 +223,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   test("Read example ssd from file"){
     Try {
       val stream = new FileInputStream(Paths.get(exampleSSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
 
@@ -242,7 +242,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   test("Read empty ssd from file"){
     Try {
       val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[SemanticSourceDesc]
+      parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
         assert(ssd.name === "businessInfo.csv")

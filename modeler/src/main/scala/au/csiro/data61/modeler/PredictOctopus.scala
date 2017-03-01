@@ -21,7 +21,7 @@ import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, Kar
 import au.csiro.data61.types.ColumnTypes._
 import au.csiro.data61.types.Exceptions.ModelerException
 import au.csiro.data61.types.SsdTypes._
-import au.csiro.data61.types.{DataSetPrediction, SsdPrediction, SemanticSourceDesc}
+import au.csiro.data61.types.{DataSetPrediction, SsdPrediction, Ssd}
 import com.typesafe.scalalogging.LazyLogging
 
 /**
@@ -45,7 +45,7 @@ object PredictOctopus extends LazyLogging {
   def predict(octopus: Octopus
               , alignmentDir: String
               , ontologies: List[String]
-              , ssd: SemanticSourceDesc
+              , ssd: Ssd
               , dsPredictions: Option[DataSetPrediction]
               , attrToColMap: Map[AttrID,ColumnID]
               , numSemanticTypes: Int): Option[SsdPrediction] = {

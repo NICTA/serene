@@ -413,7 +413,7 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
     // ColumnNodes in karmaModel.graph correspond to our mappings
     // get all ontologies from karma/preloaded-ontologies directory
 
-    SemanticSourceDesc(
+    Ssd(
       name = karmaModel.getName,
       id = newID,
       attributes = ssdAttributes(tableName),
@@ -483,7 +483,7 @@ case class KarmaSortableSemanticModel(karmaModel: SortableSemanticModel){
   def toSSD(newID: SsdID,
             ssdVersion: String,
             ontologies: List[OwlID],
-            tableName: String = ""): SemanticSourceDesc  = {
+            tableName: String = ""): Ssd  = {
     // TODO: implement
     KarmaSemanticModel(karmaModel.getBaseModel).toSSD(newID, ssdVersion, ontologies, tableName)
   }

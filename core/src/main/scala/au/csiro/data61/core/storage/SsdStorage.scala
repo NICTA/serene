@@ -31,14 +31,14 @@ import scala.language.postfixOps
 /**
   * Object for storing known semantic source descriptions.
   */
-object SsdStorage extends Storage[SsdID, SemanticSourceDesc] {
+object SsdStorage extends Storage[SsdID, Ssd] {
 
   implicit val keyReader: Readable[SsdID] = Readable.ReadableInt
 
   def rootDir: String = new File(Serene.config.storageDirs.ssd).getAbsolutePath
 
-  def extract(stream: FileInputStream): SemanticSourceDesc = {
-    parse(stream).extract[SemanticSourceDesc]
+  def extract(stream: FileInputStream): Ssd = {
+    parse(stream).extract[Ssd]
   }
 
 

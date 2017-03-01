@@ -86,9 +86,9 @@ object OctopusInterface extends LazyLogging{
   protected def convertSsdRequest(request: SsdRequest,
                                   ssdAttributes: List[SsdAttribute],
                                   ssdID: SsdID)
-  : SemanticSourceDesc = {
+  : Ssd = {
 
-    val ssd = SemanticSourceDesc(ssdID,
+    val ssd = Ssd(ssdID,
       name = request.name,
       attributes = ssdAttributes,
       ontology = request.ontologies,
@@ -113,7 +113,7 @@ object OctopusInterface extends LazyLogging{
     * @param request
     * @return
     */
-  def createSsd(request: SsdRequest): SemanticSourceDesc = {
+  def createSsd(request: SsdRequest): Ssd = {
 
     val id = genID
 

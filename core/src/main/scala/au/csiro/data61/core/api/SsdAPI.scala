@@ -43,7 +43,7 @@ import scala.util.{Failure, Success, Try}
   */
 object SsdAPI extends RestAPI {
 
-  val junkSSD = SemanticSourceDesc(
+  val junkSSD = Ssd(
     id = 1,
     name = "test",
     attributes = List(
@@ -75,7 +75,7 @@ object SsdAPI extends RestAPI {
     * Returns a JSON SSD object with id.
     *
     */
-  val ssdCreate: Endpoint[SemanticSourceDesc] = post(APIVersion :: "ssd" :: stringBody) {
+  val ssdCreate: Endpoint[Ssd] = post(APIVersion :: "ssd" :: stringBody) {
     (body: String) =>
       Ok(junkSSD)
   }
@@ -85,7 +85,7 @@ object SsdAPI extends RestAPI {
     *
     * curl http://localhost:8080/v1.0/ssd/12354687
     */
-  val ssdGet: Endpoint[SemanticSourceDesc] = get(APIVersion :: "ssd" :: int) {
+  val ssdGet: Endpoint[Ssd] = get(APIVersion :: "ssd" :: int) {
     (id: Int) =>
 
       logger.debug(s"Get ssd id=$id")
@@ -110,7 +110,7 @@ object SsdAPI extends RestAPI {
     * curl -X POST -d 'description=This is the new description'
     * http://localhost:8080/v1.0/ssd/12354687
     */
-  val ssdPatch: Endpoint[SemanticSourceDesc] = post(APIVersion :: "ssd" :: int :: stringBody) {
+  val ssdPatch: Endpoint[Ssd] = post(APIVersion :: "ssd" :: int :: stringBody) {
 
     (id: Int, body: String) =>
 

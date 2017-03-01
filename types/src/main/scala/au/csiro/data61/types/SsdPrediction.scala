@@ -56,6 +56,6 @@ case class SemanticScores(linkCost: Double,
   * @param suggestions  List of suggested SSDs with associated semantic scores
   */
 case class SsdPrediction(ssdID:       SsdID,
-                         suggestions: List[(SemanticSourceDesc, SemanticScores)])
+                         suggestions: List[(Ssd, SemanticScores)])
 
 
