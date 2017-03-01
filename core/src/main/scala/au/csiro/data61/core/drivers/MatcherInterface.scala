@@ -135,8 +135,8 @@ object MatcherInterface extends LazyLogging {
           state = Training.TrainState(Training.Status.UNTRAINED, "", DateTime.now),
           dateCreated = DateTime.now,
           dateModified = DateTime.now,
-          bagSize = request.bagSize,
-          numBags = request.numBags)
+          bagSize = request.bagSize.getOrElse(ModelTypes.defaultBagSize),
+          numBags = request.numBags.getOrElse(ModelTypes.defaultNumBags))
       }.toOption
       _ <- ModelStorage.add(id, model)
 
@@ -183,8 +183,9 @@ object MatcherInterface extends LazyLogging {
           modelPath = None,
           dateCreated = old.dateCreated,
           dateModified = DateTime.now,
-          bagSize = request.bagSize,
-          numBags = request.numBags)
+          bagSize = request.bagSize.getOrElse(ModelTypes.defaultBagSize),
+          numBags = request.numBags.getOrElse(ModelTypes.defaultNumBags)
+        )
       }.toOption
       _ <- ModelStorage.add(id, updatedModel)
 
@@ -331,7 +332,7 @@ object MatcherInterface extends LazyLogging {
     val typeMap = request.typeMap getOrElse Map.empty[String, String]
     val description = request.description getOrElse MissingValue
     val id = Generic.genID
-    logger.info(s"Writing dataset ${Generic.genID}")
+    logger.info(s"Writing dataset $id")
 
     val dataSet = for {
       fs <- request.file
@@ -476,8 +477,14 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def deleteModel(key: ModelID): Option[ModelID] = {
-    // TODO: check OctopusStorage
-    ModelStorage.remove(key)
+    if (ModelStorage.hasDependents(key)) {
+      val msg = s"Model $key cannot be deleted since it has dependents." +
+        s"Delete first dependents."
+      logger.error(msg)
+      throw BadRequestException(msg)
+    } else {
+      ModelStorage.remove(key)
+    }
   }
 
   /**

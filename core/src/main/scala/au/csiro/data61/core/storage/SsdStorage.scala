@@ -41,6 +41,20 @@ object SsdStorage extends Storage[SsdID, Ssd] {
     parse(stream).extract[Ssd]
   }
 
+  /**
+    * Octopus dependent.
+    * If there are dependents, removal is not possible!
+    *
+    * @param id
+    * @return True if this object has dependents.
+    */
+  def hasDependents(id: SsdID): Boolean = {
+    // set of ssds used in all octopi contains this id
+    OctopusStorage.keys
+      .flatMap(OctopusStorage.get)
+      .flatMap(_.ssds).toSet
+      .contains(id)
+  }
 
   /**
     * Returns the location of the .ssd metadata file for id
@@ -64,4 +78,35 @@ object SsdStorage extends Storage[SsdID, Ssd] {
     List("dummy_path_here")
     // TODO: get paths from OwlStorage
   }
+
+  /**
+    * Check if Ssd is consistent.
+    *
+    * @param id
+    * @return
+    */
+  def isConsistent(id: SsdID): Boolean = {
+    logger.info(s"Checking consistency of Ssd $id")
+
+    // make sure the SSDs in the octopus are older
+    // than the training state
+    val isOK = for {
+      ssd <- get(id)
+
+      // make sure that referenced columns exist in DataSetStorage
+      columnCheck = ssd.attributes
+        .forall(attr => DatasetStorage.columnMap.keySet.contains(attr.id))
+      // make sure that referenced ontologies exist in OwlStorage
+      owlCheck = ssd.ontology.forall(OwlStorage.keys.toSet.contains)
+      // make sure the semantic model is complete
+      isComplete = ssd.isComplete
+      // TODO: do we need to check dates here?
+      // make sure the references are older than the SSD
+//      allBefore = refDates.forall(_.isBefore(ssd.dateModified))
+
+    } yield isComplete && owlCheck && isComplete
+
+    isOK getOrElse false
+  }
+
 }

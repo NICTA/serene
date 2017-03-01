@@ -23,7 +23,7 @@ import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.Serene
 import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
-import au.csiro.data61.types.SsdTypes.{Owl, OwlDocumentFormat, OwlID}
+import au.csiro.data61.types.SsdTypes._
 import org.json4s.jackson.JsonMethods.parse
 
 import scala.util.{Failure, Success, Try}
@@ -52,6 +52,23 @@ object OwlStorage extends Storage[OwlID, Owl] {
       getPath(id).resolveSibling(s"$DocumentFileName.${o.format}")
     )
 //    Paths.get(getDirectoryPath(id).toString, s"document.$format")
+  }
+
+  /**
+    * Octopus and SSD are dependents.
+    *
+    * @param id
+    * @return
+    */
+  def hasDependents(id: OwlID): Boolean = {
+    OctopusStorage.keys // check if this owl is used in some octopus
+      .flatMap(OctopusStorage.get)
+      .flatMap(_.ontologies).toSet
+      .contains(id) &&
+      SsdStorage.keys // check if this owl is used in some SSD
+        .flatMap(SsdStorage.get)
+        .flatMap(_.ontology).toSet
+        .contains(id)
   }
 
   /**
