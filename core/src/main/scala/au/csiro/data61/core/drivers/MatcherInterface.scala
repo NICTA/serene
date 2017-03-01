@@ -160,6 +160,7 @@ object MatcherInterface extends LazyLogging {
     * @return Case class object for JSON conversion
     */
   def updateModel(id: ModelID, request: ModelRequest): Model = {
+    // TODO: check OctopusStorage
 
     val labelsUpdated = request.labelData.isDefined
 
@@ -402,6 +403,8 @@ object MatcherInterface extends LazyLogging {
    */
   def updateDataset(key: DataSetID, description: Option[String], typeMap: Option[TypeMap]): DataSet = {
 
+    // TODO: check OctopusStorage, SsdSorage, OctopusStorage, ModelStorage
+
     if (!DatasetStorage.keys.contains(key)) {
       throw ParseException(s"Dataset $key does not exist")
     }
@@ -443,6 +446,7 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def deleteDataset(key: DataSetID): Option[DataSetID] = {
+    // TODO: check OctopusStorage, SsdSorage, OctopusStorage, ModelStorage
 
     for {
       ds <- DatasetStorage.get(key)
@@ -472,6 +476,7 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def deleteModel(key: ModelID): Option[ModelID] = {
+    // TODO: check OctopusStorage
     ModelStorage.remove(key)
   }
 
