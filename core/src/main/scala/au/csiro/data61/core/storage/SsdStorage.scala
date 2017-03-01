@@ -31,14 +31,14 @@ import scala.language.postfixOps
 /**
   * Object for storing known semantic source descriptions.
   */
-object SsdStorage extends Storage[SsdID, Ssd] {
+object SsdStorage extends Storage[SsdID, SemanticSourceDesc] {
 
   implicit val keyReader: Readable[SsdID] = Readable.ReadableInt
 
   def rootDir: String = new File(Serene.config.storageDirs.ssd).getAbsolutePath
 
-  def extract(stream: FileInputStream): Ssd = {
-    parse(stream).extract[Ssd]
+  def extract(stream: FileInputStream): SemanticSourceDesc = {
+    parse(stream).extract[SemanticSourceDesc]
   }
 
 
@@ -52,24 +52,8 @@ object SsdStorage extends Storage[SsdID, Ssd] {
     Paths.get(getDirectoryPath(id).toString, s"$id.ssd")
   }
 
-  override def add(id: SsdID, ssd: Ssd): Option[SsdID] = {
-    logger.debug(s"Adding semantic source desc $id to storage")
-    // we need to check consistency first!
-    if (ssd.isComplete) {
-      // adding ssd to factory
-      super.add(id, ssd)
-      // TODO: trigger update to the ontology layer!!! --> interface
-      // TODO: Karma update -- ontologyManager.doImport(f, "UTF-8"); ontologyManager.updateCache();
-      // TODO: trigger update for the alignment graph!!!  --> interface
-    } else {
-        logger.error(s"Semantic Source Desc $id is not complete.")
-        None
-    }
-  }
-
   /**
     * Get the list of distinct location strings for ontologies.
- *
     * @return List of location strings for ontologies used in ssd.
     */
   def getOntologies(id: SsdID): List[String] = {

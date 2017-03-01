@@ -236,7 +236,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     // --- I haven't seen Karma produce any source description with more than one user semantic type for ColumnNode...
     val colId: String = n.getUserSemanticTypes.asScala.map(_.getHNodeId).toList match {
       case List(s: String) =>
-        logger.debug(s"=> UserSemanticType: ${s}")
+        logger.debug(s"=> UserSemanticType: $s")
         s
       case List() =>
         logger.warn("UserSemanticType is not available hence taking Karma hNodeId.")
@@ -324,7 +324,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     */
   def toSemanticModel: SemanticModel = {
     logger.info("Converting Karma Graph to the Semantic Model...")
-    logger.debug(s"##################karmaNodeId: ${karmaNodeIdMap}")
+    logger.debug(s"##################karmaNodeId: $karmaNodeIdMap")
     // converting links
     val ssdLinks: List[SsdLink[SsdNode]] = graph.edgeSet.asScala
       .zipWithIndex
@@ -390,8 +390,7 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
     * @return
     */
   protected def ssdAttributes(tableName: String = ""): List[SsdAttribute] = {
-    ssdColumns
-      .map( sourceCol => SsdAttribute(sourceCol, sourceCol.id, tableName))
+    ssdColumns.map( sourceCol => SsdAttribute(sourceCol.id) )
   }
 
   /**
@@ -414,10 +413,9 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
     // ColumnNodes in karmaModel.graph correspond to our mappings
     // get all ontologies from karma/preloaded-ontologies directory
 
-    Ssd(version = ssdVersion,
+    SemanticSourceDesc(
       name = karmaModel.getName,
       id = newID,
-      columns = ssdColumns,
       attributes = ssdAttributes(tableName),
       ontology = ontologies, // here we create instance of KarmaParams...
       semanticModel = Some(karmaSM.toSemanticModel),
@@ -485,7 +483,7 @@ case class KarmaSortableSemanticModel(karmaModel: SortableSemanticModel){
   def toSSD(newID: SsdID,
             ssdVersion: String,
             ontologies: List[OwlID],
-            tableName: String = ""): Ssd  = {
+            tableName: String = ""): SemanticSourceDesc  = {
     // TODO: implement
     KarmaSemanticModel(karmaModel.getBaseModel).toSSD(newID, ssdVersion, ontologies, tableName)
   }

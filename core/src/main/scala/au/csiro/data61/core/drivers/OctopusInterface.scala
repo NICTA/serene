@@ -18,11 +18,12 @@
 package au.csiro.data61.core.drivers
 
 import java.io.{IOException, InputStream}
-import java.nio.file.{Paths, Path}
+import java.nio.file.{Path, Paths}
 
-import au.csiro.data61.core.api.{BadRequestException, InternalException, ModelRequest, OctopusRequest}
+import au.csiro.data61.core.api._
 import au.csiro.data61.core.storage._
 import au.csiro.data61.modeler.{PredictOctopus, TrainOctopus}
+import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.ModelTypes.ModelID
 import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
 import au.csiro.data61.types._
@@ -45,7 +46,102 @@ import scala.util.{Failure, Random, Success, Try}
 object OctopusInterface extends LazyLogging{
 
   val MissingValue = "unknown"
-  val defaultNumSemanticTypes = 4
+  val defaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter
+
+
+  /**
+    * Check if the SsdRequest has proper parameters.
+    *
+    * @param request SsdRequest coming from the API
+    * @param ssdAttributes generated attributes
+    * @throws InternalException if there;s a problem
+    */
+  protected def checkSsdRequest(request: SsdRequest,
+                                ssdAttributes: List[SsdAttribute])
+  : Unit = {
+
+    // check that columnIDs are available in the DataSetStorage
+    if (!ssdAttributes.forall(attr => DatasetStorage.columnMap.keySet.contains(attr.id))) {
+      val msg = "SSD cannot be added to the storage: columns in the mappings do not exist in the DatasetStorage."
+      logger.error(msg)
+      throw InternalException(msg)
+    }
+
+    // check that ontologies are available in the OwlStorage
+    if (!request.ontologies.forall(owlKeys.toSet.contains(_))) {
+      val msg = "SSD cannot be added to the storage: ontologies do not exist in the OwlStorage."
+      logger.error(msg)
+      throw InternalException(msg)
+    }
+  }
+
+  /**
+    * Check if the SsdRequest has proper parameters.
+    * Then convert it to Semantic Source Description
+    *
+    * @param request SsdRequest coming from the API
+    * @param ssdAttributes List of generated attributes
+    * @param ssdID id of the SSD
+    */
+  protected def convertSsdRequest(request: SsdRequest,
+                                  ssdAttributes: List[SsdAttribute],
+                                  ssdID: SsdID)
+  : SemanticSourceDesc = {
+
+    val ssd = SemanticSourceDesc(ssdID,
+      name = request.name,
+      attributes = ssdAttributes,
+      ontology = request.ontologies,
+      semanticModel = request.semanticModel,
+      mappings = request.mappings,
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now
+    )
+
+    // check if the SSD is consistent and complete
+    if (!ssd.isComplete) {
+      val msg = "SSD cannot be added to the storage: it is not complete."
+      logger.error(msg)
+      throw InternalException(msg)
+    }
+
+  ssd
+  }
+
+  /**
+    *
+    * @param request
+    * @return
+    */
+  def createSsd(request: SsdRequest): SemanticSourceDesc = {
+
+    val id = genID
+
+    // get list of attributes from the mappings
+    // NOTE: for now we automatically generate them to be equal to the original columns
+    val ssdAttributes: List[SsdAttribute] = request
+      .mappings
+      .map(_.mappings.keys.toList)
+      .getOrElse(List.empty[Int])
+      .map(SsdAttribute(_))
+
+    // check the SSD request -- the method will just raise exceptions if there's anything wrong
+    checkSsdRequest(request, ssdAttributes)
+
+    // build the Semantic Source Description from the request, adding defaults where necessary
+    val ssdOpt = for {
+
+      ssd <- Try {
+        // we convert here the request to the SSD and also check if the SSD is complete
+        convertSsdRequest(request, ssdAttributes, id)
+      }.toOption
+      _ <- SsdStorage.add(id, ssd)
+
+    } yield ssd
+
+    ssdOpt getOrElse { throw InternalException("Failed to create resource.") }
+
+  }
 
   /**
     * Build a new Octopus from the request.
@@ -86,12 +182,11 @@ object OctopusInterface extends LazyLogging{
 
       octopus <- Try {
         Octopus(id,
-          name = request.name.getOrElse("unknown"),
+          name = request.name.getOrElse(MissingValue),
           ontologies = getOntologies(request.ssds, request.ontologies),
           ssds = request.ssds.getOrElse(List.empty[Int]),
           lobsterID = lobsterID,
           modelingProps = request.modelingProps,
-          alignmentDir = None,
           semanticTypeMap = semanticTypeMap,
           state = TrainState(Status.UNTRAINED, "", DateTime.now),
           dateCreated = DateTime.now,
@@ -262,6 +357,7 @@ object OctopusInterface extends LazyLogging{
         .getOrElse(Map.empty[Int, Int])
 
       PredictOctopus.predict(octopus,
+        OctopusStorage.getAlignmentDirPath(octopus.id).toString,
         octopus.ontologies
           .flatMap(OwlStorage.getOwlDocumentPath)
           .map(_.toString),
@@ -314,7 +410,7 @@ object OctopusInterface extends LazyLogging{
     */
   case class SemanticTypeObject(semanticTypeList: Option[List[String]],
                                 labelMap: Option[Map[Int, String]],
-                                semanticTypeMap: Option[Map[String, String]])
+                                semanticTypeMap: Map[String, String])
 
   /**
     * We want to extract the list of semantic types (aka classes),
@@ -335,7 +431,7 @@ object OctopusInterface extends LazyLogging{
 
     if (givenSSDs.isEmpty) {
       // everything is empty if there are no SSDs
-      SemanticTypeObject(None, None, None)
+      SemanticTypeObject(None, None, Map.empty[String,String])
     }
     else {
       // here we want to get a map from AttrID to (URI of class node, URI of data node)
@@ -373,7 +469,7 @@ object OctopusInterface extends LazyLogging{
           semType
       }.toList.distinct
 
-      SemanticTypeObject(Some(classes), Some(labelData), Some(semanticTypeMap))
+      SemanticTypeObject(Some(classes), Some(labelData), semanticTypeMap)
     }
   }
 
@@ -513,7 +609,6 @@ object OctopusInterface extends LazyLogging{
           description = request.description.getOrElse(original.description),
           name = request.name.getOrElse(original.name),
           modelingProps = request.modelingProps, // TODO: Remove option type!! in case it's None semantic-modeler uses default config for Karma; for now default config is available only in semantic-modeler
-          alignmentDir = None,
           ssds = request.ssds.getOrElse(original.ssds),
           ontologies = request.ontologies.getOrElse(original.ontologies),
           semanticTypeMap = semanticTypeMap,

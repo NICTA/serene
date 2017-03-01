@@ -76,7 +76,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
     * @param ssd Semantic Source Description
     * @return
     */
-  def getSMNodes(ssd: Ssd): List[SsdNode] = {
+  def getSMNodes(ssd: SemanticSourceDesc): List[SSDNode] = {
     ssd.semanticModel match {
       case Some(sm) => sm.getNodes
       case None => List()
@@ -85,11 +85,10 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
 
   /**
     * Get the list of ssd links from the semantic source description
-    *
     * @param ssd Semantic Source Description
     * @return
     */
-  def getSMLinks(ssd: Ssd): List[SsdLink[SsdNode]] = {
+  def getSMLinks(ssd: SemanticSourceDesc): List[SsdLink[SsdNode]] = {
     ssd.semanticModel match {
       case Some(sm) => sm.getLinks.map(e => e.asInstanceOf[SsdLink[SsdNode]])
       case None => List()
@@ -102,7 +101,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
     * @param ssd Semantic Source Description
     * @return
     */
-  def getMappingSize(ssd: Ssd): Int = {
+  def getMappingSize(ssd: SemanticSourceDesc): Int = {
     ssd.mappings match {
       case Some(maps) => maps.mappings.size
       case None => 0
@@ -110,10 +109,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Successful creation of SSD"){
-    val ssd = Ssd( version = TypeConfig.SSDVersion,
+    val ssd = SemanticSourceDesc(
       name = "test",
       id = dummySsdID,
-      columns = List(dummyCol),
       attributes = List(dummyAttr),
       ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
@@ -126,10 +124,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Inconsistent SSD: attributes are inconsistent") {
-    val ssd = Ssd(version = TypeConfig.SSDVersion,
+    val ssd = SemanticSourceDesc(
       name = "test",
       id = dummySsdID,
-      columns = List(dummyCol),
       attributes = List(dummyAttr, dummyAttr2), // attributes are inconsistent
       ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
@@ -142,10 +139,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Inconsistent SSD: mappings are inconsistent") {
-    val ssd2 = Ssd(version = TypeConfig.SSDVersion,
+    val ssd2 = SemanticSourceDesc(
       name = "test",
       id = dummySsdID,
-      columns = List(dummyCol),
       attributes = List(dummyAttr),
       ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
@@ -158,10 +154,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Inconsistent SSD: mappings are again inconsistent") {
-    val ssd3 = Ssd(version = TypeConfig.SSDVersion,
+    val ssd3 = SemanticSourceDesc(
       name = "test",
       id = dummySsdID,
-      columns = List(dummyCol),
       attributes = List(dummyAttr),
       ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
@@ -174,10 +169,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Inconsistent SSD: semantic model - mappings clash") {
-    val ssd4 = Ssd( version = TypeConfig.SSDVersion,
+    val ssd4 = SemanticSourceDesc(
       name = "test",
       id = dummySsdID,
-      columns = List(dummyCol),
       attributes = List(dummyAttr),
       ontology = List(1),
       semanticModel = Some(SemanticModel(Graph())), // semantic model is absent while mappings are there
@@ -190,10 +184,9 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
   test("Jsonify SSD"){
-    val ssd = Ssd( version = TypeConfig.SSDVersion,
+    val ssd = SemanticSourceDesc(
       name = "test",
       id = dummySsdID,
-      columns = List(dummyCol),
       attributes = List(dummyAttr),
       ontology = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
@@ -202,11 +195,10 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       dateModified = DateTime.now)
     val json = Extraction.decompose(ssd)
     print(json)
-    val ssd2 = json.extract[Ssd]
+    val ssd2 = json.extract[SemanticSourceDesc]
 
     assert(ssd.mappings === ssd2.mappings)
     assert(ssd.attributes === ssd2.attributes)
-    assert(ssd.columns === ssd2.columns)
     assert(ssd.ontology === ssd2.ontology)
     assert(getSMNodes(ssd) === getSMNodes(ssd2))
     assert(getSMLinks(ssd) === getSMLinks(ssd2))
@@ -231,12 +223,11 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   test("Read example ssd from file"){
     Try {
       val stream = new FileInputStream(Paths.get(exampleSSD).toFile)
-      parse(stream).extract[Ssd]
+      parse(stream).extract[SemanticSourceDesc]
     } match {
       case Success(ssd) =>
 
         assert(ssd.name === "businessInfo.csv")
-        assert(ssd.columns.size === 4)
         assert(ssd.attributes.size === 4)
         assert(getMappingSize(ssd) === 4)
         assert(getSMNodes(ssd).size === 8)
@@ -251,11 +242,10 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   test("Read empty ssd from file"){
     Try {
       val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[Ssd]
+      parse(stream).extract[SemanticSourceDesc]
     } match {
       case Success(ssd) =>
         assert(ssd.name === "businessInfo.csv")
-        assert(ssd.columns.size === 4)
         assert(ssd.attributes.size === 4)
         assert(getMappingSize(ssd) === 0)
         assert(getSMNodes(ssd).size === 0)

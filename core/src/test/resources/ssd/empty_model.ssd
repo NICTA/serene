@@ -1,25 +1,6 @@
 {
-    "version": "0.1",
     "id": 4,
     "name": "businessInfo.csv",
-    "columns": [
-        {
-            "name": "company",
-            "id": 643243447
-        },
-        {
-            "name": "ceo",
-            "id": 1534291035
-        },
-        {
-            "name": "city",
-            "id": 843054462
-        },
-        {
-            "name": "state",
-            "id": 1138681944
-        }
-    ],
     "attributes": [
         {
             "id": 643243447,

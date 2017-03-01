@@ -18,9 +18,15 @@
 
 package au.csiro.data61.modeler
 
-import java.io.{File, PrintWriter}
-import java.nio.file.Paths
+import java.io
+import java.io.{File, FileInputStream, PrintWriter}
+import java.nio.charset.StandardCharsets
+import java.nio.file.{Files, Paths}
 
+import au.csiro.data61.types.ColumnTypes._
+import org.jgrapht.graph.DirectedWeightedMultigraph
+import org.json4s._
+import org.json4s.jackson.JsonMethods._
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
@@ -28,20 +34,27 @@ import com.typesafe.scalalogging.LazyLogging
 
 import language.postfixOps
 import scala.collection.JavaConverters._
+import scala.util.{Failure, Success, Try}
+import edu.isi.karma.modeling.alignment.learner.ModelReader
 import edu.isi.karma.modeling.research.Params
-import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSsd}
+import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
+import au.csiro.data61.types._
+import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
+import au.csiro.data61.types.SsdTypes._
 
-
+/**
+  * Created by natalia on 14/11/16.
+  */
 @RunWith(classOf[JUnitRunner])
 class MuseumSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging{
 
   val ssdDir = getClass.getResource("/ssd").getPath
   val karmaDir = getClass.getResource("/karma").getPath
-  val exampleSsd: String = Paths.get(ssdDir,"businessInfo.ssd") toString
-  val emptySsd: String = Paths.get(ssdDir,"empty_model_2.ssd") toString
-  val partialSsd: String = Paths.get(ssdDir,"partial_model.ssd") toString
-  val veryPartialSsd: String = Paths.get(ssdDir,"partial_model2.ssd") toString
-  val emptyCitiesSsd: String = Paths.get(ssdDir,"empty_getCities.ssd") toString
+  val exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
+  val emptySSD: String = Paths.get(ssdDir,"empty_model_2.ssd") toString
+  val partialSSD: String = Paths.get(ssdDir,"partial_model.ssd") toString
+  val veryPartialSSD: String = Paths.get(ssdDir,"partial_model2.ssd") toString
+  val emptyCitiesSSD: String = Paths.get(ssdDir,"empty_getCities.ssd") toString
 
   test("Museum dataset crm read in"){
     val jsonList: Array[String] = Paths.get(karmaDir, "museum", "museum-29-crm")
@@ -51,10 +64,10 @@ class MuseumSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEac
     println(s"jsonList: $jsonList")
 
 
-    val semanticModels: Array[KarmaSsd]  =
+    val semanticModels: Array[KarmaSSD]  =
       jsonList.map {
         fileName =>
-          KarmaSsd.readJson(fileName)
+          KarmaSSD.readJson(fileName)
       }
 
     val res:Array[(String, String, String, String, String)] = semanticModels.flatMap {
@@ -97,10 +110,10 @@ class MuseumSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEac
     println(s"jsonList: $jsonList")
 
 
-    val semanticModels: Array[KarmaSsd]  =
+    val semanticModels: Array[KarmaSSD]  =
       jsonList.map {
         fileName =>
-          KarmaSsd.readJson(fileName)
+          KarmaSSD.readJson(fileName)
       }
 
     val res:Array[(String, String, String, String, String)] = semanticModels.flatMap {
@@ -127,7 +140,7 @@ class MuseumSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEac
     println(s"${semanticModels.length} Read")
     println(s"Result: ${res}")
 
-    val out = new PrintWriter(new File(Paths.get(karmaDir, "museum", "museum-29-edm.csv").toString))
+    var out = new PrintWriter(new File(Paths.get(karmaDir, "museum", "museum-29-edm.csv").toString))
     out.println("datasetName,columnHeader,hNodeId,domainUri,typeUri")
     res.foreach({tup => out.println(tup.productIterator.mkString(","))})
     out.close()

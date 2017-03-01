@@ -97,7 +97,6 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
     // than the training state
     val isOK = for {
       octopus <- get(id)
-      path = Paths.get("")  //TODO: fix this! needs real octopus.alignmentDir
       trainDate = octopus.state.dateChanged
       refIDs = octopus.ssds
       refs = refIDs.flatMap(SsdStorage.get).map(_.dateModified)
@@ -109,7 +108,7 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
       // make sure the SSDs are older than the training date
       allBefore = refs.forall(_.isBefore(trainDate))
       // make sure the alignment graph is there...
-      alignmentExists = true //path.exists(Files.exists(_)) // TODO: fix this! needs real alignment graph check
+      alignmentExists = Files.exists(getAlignmentGraphPath(id))
 
     } yield allBefore && alignmentExists && isComplete && lobsterConsistent
 
