@@ -299,8 +299,11 @@ object ModelStorage extends Storage[ModelID, Model] {
     * @return
     */
   def hasDependents(id: ModelID): Boolean = {
-    // TODO: implement
-    false
+    // set of lobsterIDs used in all octopi
+    OctopusStorage.keys
+      .flatMap(OctopusStorage.get)
+      .map(_.lobsterID).toSet
+      .contains(id)
   }
 
   /**
