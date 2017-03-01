@@ -448,6 +448,12 @@ object MatcherInterface extends LazyLogging {
    */
   def deleteDataset(key: DataSetID): Option[DataSetID] = {
     // TODO: check OctopusStorage, SsdSorage, OctopusStorage, ModelStorage
+    if(DatasetStorage.hasDependents(key)){
+      val msg = s"Dataset $key cannot be deleted since it has dependents." +
+        s"Delete first dependents."
+      logger.error(msg)
+      throw BadRequestException(msg)
+    }
 
     for {
       ds <- DatasetStorage.get(key)
