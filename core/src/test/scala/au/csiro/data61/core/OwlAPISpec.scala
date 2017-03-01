@@ -23,10 +23,10 @@ import java.nio.file.Files
 
 import au.csiro.data61.core.api.OwlAPI.APIVersion
 import au.csiro.data61.core.storage.JsonFormats
-import au.csiro.data61.types.SSDTypes.OwlDocumentFormat
-import au.csiro.data61.types.SSDTypes.OwlDocumentFormat.OwlDocumentFormat
-import au.csiro.data61.types.SSDTypes.OwlDocumentFormat.{RdfXml, Turtle}
-import au.csiro.data61.types.SSDTypes.{Owl, OwlDocumentFormat, OwlID}
+import au.csiro.data61.types.SsdTypes.OwlDocumentFormat
+import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
+import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.{RdfXml, Turtle}
+import au.csiro.data61.types.SsdTypes.{Owl, OwlDocumentFormat, OwlID}
 import com.twitter.finagle.http.Method.Delete
 import com.twitter.finagle.http.Status.Ok
 import com.twitter.finagle.http.{FileElement, Request, RequestBuilder, Status}

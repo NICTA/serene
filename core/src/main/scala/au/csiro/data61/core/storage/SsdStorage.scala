@@ -21,7 +21,7 @@ package au.csiro.data61.core.storage
 import java.io._
 import java.nio.file.{Path, Paths}
 
-import au.csiro.data61.types.SSDTypes.{Owl, OwlID, SsdID}
+import au.csiro.data61.types.SsdTypes.{Owl, OwlID, SsdID}
 import au.csiro.data61.types._
 import au.csiro.data61.core.Serene
 import org.json4s.jackson.JsonMethods._
@@ -50,21 +50,6 @@ object SsdStorage extends Storage[SsdID, SemanticSourceDesc] {
     */
   override protected def getPath(id: SsdID): Path = {
     Paths.get(getDirectoryPath(id).toString, s"$id.ssd")
-  }
-
-  override def add(id: SsdID, ssd: SemanticSourceDesc): Option[SsdID] = {
-    logger.debug(s"Adding semantic source desc $id to storage")
-    // we need to check consistency first!
-    if (ssd.isComplete) {
-      // adding ssd to factory
-      super.add(id, ssd)
-      // TODO: trigger update to the ontology layer!!! --> interface
-      // TODO: Karma update -- ontologyManager.doImport(f, "UTF-8"); ontologyManager.updateCache();
-      // TODO: trigger update for the alignment graph!!!  --> interface
-    } else {
-        logger.error(s"Semantic Source Desc $id is not complete.")
-        None
-    }
   }
 
   /**

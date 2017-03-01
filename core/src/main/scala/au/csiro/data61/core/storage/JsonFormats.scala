@@ -17,7 +17,7 @@
   */
 package au.csiro.data61.core.storage
 
-import au.csiro.data61.types.SSDTypes.OwlDocumentFormat
+import au.csiro.data61.types.SsdTypes.OwlDocumentFormat
 import au.csiro.data61.types.Training.StatusSerializer
 import org.json4s.Formats
 import java.nio.file.{Path, Paths}
@@ -70,6 +70,6 @@ trait JsonFormats {
       SSDNodeSerializer +
       HelperLinkSerializer +
       SemanticModelSerializer +
-      SSDMappingSerializer +
+      SsdMappingSerializer +
       new EnumNameSerializer(OwlDocumentFormat)
 }

@@ -18,13 +18,11 @@
 package au.csiro.data61.core.api
 
 import au.csiro.data61.core.storage.SsdStorage
-import au.csiro.data61.types.{SsdRequest, SSDAttribute, SSDColumn, SemanticSourceDesc}
+import au.csiro.data61.types._
 import org.joda.time.DateTime
 
 import scala.language.postfixOps
-
 import au.csiro.data61.core.drivers.OctopusInterface
-
 import io.finch._
 import org.json4s.jackson.JsonMethods._
 
@@ -47,11 +45,9 @@ object SsdAPI extends RestAPI {
 
   val junkSSD = SemanticSourceDesc(
     id = 1,
-    version = "0.1",
     name = "test",
-    columns = List(SSDColumn(1, "col1"), SSDColumn(2, "col2")),
     attributes = List(
-      SSDAttribute(1, "test", "hello", List(1, 2), "sql")
+      SsdAttribute(1) // this is a dummy attribute created using the specified ColumnId
     ),
     ontology = List(1, 2, 3),
     semanticModel = None,
@@ -156,3 +152,25 @@ object SsdAPI extends RestAPI {
       ssdPatch :+:
       ssdDelete
 }
+
+
+/**
+  * SSDRequest is the user-facing object for creating and returning SSDs...
+  * NOTE: columns and their transformations will not be user-provided now,
+  * but rather automatically generated from mappings.
+  *
+  * @param name The name label used for the SSD
+  * @param ontologies The list of Ontologies used in this ssd
+  * @param semanticModel The semantic model used to describe how the columns map to the ontology
+  * @param mappings The mappings from the attributes to the semantic model
+  */
+case class SsdRequest(name: String,
+                      ontologies: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
+                      semanticModel: Option[SemanticModel], // create = empty, returned = full
+                      mappings: Option[SsdMapping])  // create = empty, returned = full
+
+/**
+  * Return type to user from the API when performing Octopus prediction
+  * @param predictions Ordered list of predictions
+  */
+case class SsdResults(predictions: List[(SsdRequest, SemanticScores)])

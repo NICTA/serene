@@ -29,7 +29,7 @@ import au.csiro.data61.modeler.ModelerConfig
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
 import au.csiro.data61.types.ModelType.RANDOM_FOREST
 import au.csiro.data61.types.ModelTypes.Model
-import au.csiro.data61.types.SSDTypes.{Owl, OwlDocumentFormat}
+import au.csiro.data61.types.SsdTypes.{Owl, OwlDocumentFormat}
 import au.csiro.data61.types.SamplingStrategy.NO_RESAMPLING
 import au.csiro.data61.types.Training.Status
 import au.csiro.data61.types._

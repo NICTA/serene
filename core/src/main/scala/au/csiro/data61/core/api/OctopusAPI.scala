@@ -21,7 +21,7 @@ import java.nio.file.Path
 
 import au.csiro.data61.core.drivers.OctopusInterface
 import au.csiro.data61.types._
-import au.csiro.data61.types.SSDTypes.{Octopus, OctopusID}
+import au.csiro.data61.types.SsdTypes.{Octopus, OctopusID}
 import au.csiro.data61.types.Training.{Status, TrainState}
 import io.finch._
 
@@ -55,8 +55,7 @@ object OctopusAPI extends RestAPI {
     description = "This is an octopus description",
     ssds = List(0, 1, 2, 3),
     ontologies = List(),
-    alignmentDir = None,
-    semanticTypeMap = None,
+    semanticTypeMap = Map.empty[String,String],
     modelingProps = None,
     dateCreated = DateTime.now(),
     dateModified = DateTime.now(),
@@ -156,7 +155,7 @@ object OctopusAPI extends RestAPI {
   // auxiliary endpoint for the optional datasetID parameter
   //val dsParam: Endpoint[Option[Int]] = paramOption("datasetID").as[Int]
 
-  val octopusPredict: Endpoint[SSDPrediction] = post(APIVersion :: "octopus" :: int :: "predict" :: int) {
+  val octopusPredict: Endpoint[SsdPrediction] = post(APIVersion :: "octopus" :: int :: "predict" :: int) {
     (id: Int, ssdID: Int) =>
       Try {
         OctopusInterface.predictOctopus(id, ssdID)
