@@ -18,7 +18,7 @@
 
 package au.csiro.data61.types
 
-import au.csiro.data61.types.SSDTypes.{OctopusID, SsdID}
+import au.csiro.data61.types.SsdTypes.{OctopusID, SsdID}
 
 /**
   * Class which encapsulates all scores calculated for the Semantic Model.
@@ -53,16 +53,9 @@ case class SemanticScores(linkCost: Double,
 /**
   * Class which stores the suggested semantic models for a data source.
   * @param ssdID        Id of the original semantic source description
-  * @param octopusID    Id of the octopus which was used to generate the suggestions
   * @param suggestions  List of suggested SSDs with associated semantic scores
   */
-case class SSDPrediction(ssdID:       SsdID,
-                         octopusID:   OctopusID,
+case class SsdPrediction(ssdID:       SsdID,
                          suggestions: List[(SemanticSourceDesc, SemanticScores)])
 
-/**
-  * Return type to user from the Octopus prediction
-  * @param predictions Ordered list of predictions
-  */
-case class SsdResults(predictions: List[(SsdRequest, SemanticScores)])
 

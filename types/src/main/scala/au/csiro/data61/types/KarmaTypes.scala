@@ -20,7 +20,7 @@ package au.csiro.data61.types
 import java.nio.file.Paths
 
 import au.csiro.data61.types.Exceptions.TypeException
-import au.csiro.data61.types.SSDTypes.{AttrID, OwlID, SsdID}
+import au.csiro.data61.types.SsdTypes.{AttrID, OwlID, SsdID}
 import au.csiro.data61.types.GraphTypes._
 import com.typesafe.scalalogging.LazyLogging
 import edu.isi.karma.rep.alignment.{ColumnNode, InternalNode, LabeledLink, Node}
@@ -45,14 +45,14 @@ object KarmaTypes {
 /**
   * Enumeration of Node Type used in Karma
   */
-sealed trait SSDNodeType { def str: String }
+sealed trait SsdNodeType { def str: String }
 
-object SSDNodeType {
+object SsdNodeType {
 
-  case object NoneNode  extends SSDNodeType { val str = "None" }
-  case object LiteralNode extends SSDNodeType { val str = "LiteralNode" }
-  case object ColumnNode   extends SSDNodeType { val str = "ColumnNode" }
-  case object InternalNode extends SSDNodeType { val str = "InternalNode" }
+  case object NoneNode  extends SsdNodeType { val str = "None" }
+  case object LiteralNode extends SsdNodeType { val str = "LiteralNode" }
+  case object ColumnNode   extends SsdNodeType { val str = "ColumnNode" }
+  case object InternalNode extends SsdNodeType { val str = "InternalNode" }
 
   val values = List(
     NoneNode,
@@ -61,7 +61,7 @@ object SSDNodeType {
     InternalNode
   )
 
-  def lookup(str: String): Option[SSDNodeType] = {
+  def lookup(str: String): Option[SsdNodeType] = {
     values.find(_.str == str)
   }
 }
@@ -230,7 +230,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     // --- I haven't seen Karma produce any source description with more than one user semantic type for ColumnNode...
     val colId: String = n.getUserSemanticTypes.asScala.map(_.getHNodeId).toList match {
       case List(s: String) =>
-        logger.debug(s"=> UserSemanticType: ${s}")
+        logger.debug(s"=> UserSemanticType: $s")
         s
       case List() =>
         logger.warn("UserSemanticType is not available hence taking Karma hNodeId.")
@@ -315,7 +315,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     */
   def toSemanticModel: SemanticModel = {
     logger.info("Converting Karma Graph to the Semantic Model...")
-    logger.debug(s"##################karmaNodeId: ${karmaNodeIdMap}")
+    logger.debug(s"##################karmaNodeId: $karmaNodeIdMap")
     // converting links
     val ssdLinks: List[SSDLink[SSDNode]] = graph.edgeSet.asScala
       .zipWithIndex
@@ -367,9 +367,9 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
     * Helper function to convert Karma:SemanticModel.sourceColumns to SSDColumn
     * @return
     */
-  protected def ssdColumns: List[SSDColumn] = {
+  protected def ssdColumns: List[SsdColumn] = {
     karmaModel.getSourceColumns.asScala // these should be attributes in our SSD, they are not source columns!
-      .map { sourceCol => SSDColumn(toID(sourceCol), sourceCol.getColumnName) } toList
+      .map { sourceCol => SsdColumn(toID(sourceCol), sourceCol.getColumnName) } toList
   }
 
   /**
@@ -377,9 +377,8 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
     * @param tableName Name of the table to be used in the default sql identity map statement.
     * @return
     */
-  protected def ssdAttributes(tableName: String = ""): List[SSDAttribute] = {
-    ssdColumns
-      .map( sourceCol => SSDAttribute(sourceCol, sourceCol.id, tableName))
+  protected def ssdAttributes(tableName: String = ""): List[SsdAttribute] = {
+    ssdColumns.map( sourceCol => SsdAttribute(sourceCol.id) )
   }
 
   /**
@@ -401,14 +400,13 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
     // ColumnNodes in karmaModel.graph correspond to our mappings
     // get all ontologies from karma/preloaded-ontologies directory
 
-    SemanticSourceDesc(version = ssdVersion,
+    SemanticSourceDesc(
       name = karmaModel.getName,
       id = newID,
-      columns = ssdColumns,
       attributes = ssdAttributes(tableName),
       ontology = ontologies, // here we create instance of KarmaParams...
       semanticModel = Some(karmaSM.toSemanticModel),
-      mappings = Some(SSDMapping(karmaSM.columnNodeMappings)),
+      mappings = Some(SsdMapping(karmaSM.columnNodeMappings)),
       dateCreated = DateTime.now,
       dateModified = DateTime.now)
   }

@@ -436,7 +436,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
     * @param ssdMappings Mappings of attributes to nodes in the semantic model.
     * @return
     */
-  private def columnNodeMap(ssdMappings: SSDMapping): Map[NodeID, Node] = {
+  private def columnNodeMap(ssdMappings: SsdMapping): Map[NodeID, Node] = {
     ssdMappings.mappings.map {
       case (attrID, nodeID) => {
         val nodeLabel: SSDLabel = getNodeLabel(nodeID)
@@ -516,7 +516,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
     * @param ssdMappings Mappings of attributes to nodes in the semantic model.
     * @return
     */
-  private def otherNodeMap(ssdMappings: SSDMapping): Map[NodeID,Node] = {
+  private def otherNodeMap(ssdMappings: SsdMapping): Map[NodeID,Node] = {
     graph.nodes.filter {
       node => !ssdMappings.mappings.values.toSet.contains(node.id) // we get all nodes which are not ColumnNode
     }.flatMap {
@@ -552,7 +552,7 @@ case class SemanticModel(graph: Graph[SSDNode, SSDLink]) extends LazyLogging {
     * @param ssdMappings SSDMapping needed to identify ColumnNode
     * @param ontoManager OntologyManager from Karma
     */
-  def toKarmaGraph(ssdMappings: SSDMapping, ontoManager: OntologyManager): KarmaGraph = {
+  def toKarmaGraph(ssdMappings: SsdMapping, ontoManager: OntologyManager): KarmaGraph = {
     logger.info("Converting SemanticModel to KarmaGraph...")
     // Converting node types:
     //  Nodes which are in ssdMappings -> ColumnNode
