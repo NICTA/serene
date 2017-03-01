@@ -67,8 +67,8 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   override def beforeEach(): Unit = {
     copySampleDatasets() // copy csv files for getCities and businessInfo
-    SsdStorage.add(businessSsdID, businessSSD) // add businessInfo ssd
-    OwlStorage.add(exampleOwlID, exampleOwl)  // add sample ontology
+    SsdStorage.add(businessSSD.id, businessSSD) // add businessInfo ssd
+    OwlStorage.add(exampleOwl.id, exampleOwl)  // add sample ontology
     // write owl file
     Try{
       val stream = new FileInputStream(exampleOntolPath.toFile)
@@ -122,7 +122,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     numBags = None,
     bagSize = None,
     ontologies = None,
-    ssds = Some(List(0)),
+    ssds = Some(List(businessSSD.id)),
     modelingProps = None)
 
   val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None, None)
@@ -130,9 +130,9 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
   val helperDir = getClass.getResource("/helper").getPath
   val sampleDsDir = getClass.getResource("/sample.datasets").getPath
   val datasetMap = Map("businessInfo" -> 767956483, "getCities" -> 696167703)
-  val businessDSPath = Paths.get(sampleDsDir,
+  val businessDsPath = Paths.get(sampleDsDir,
     datasetMap("businessInfo").toString, datasetMap("businessInfo").toString + ".json")
-  val citiesDSPath = Paths.get(sampleDsDir,
+  val citiesDsPath = Paths.get(sampleDsDir,
     datasetMap("getCities").toString, datasetMap("getCities").toString + ".json")
 
   def copySampleDatasets(): Unit = {
@@ -145,14 +145,14 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
     // adding datasets explicitly to the storage
     val businessDS: DataSet = Try {
-      val stream = new FileInputStream(businessDSPath.toFile)
+      val stream = new FileInputStream(businessDsPath.toFile)
       parse(stream).extract[DataSet]
     } match {
       case Success(ds) => ds
       case Failure(err) => fail(err.getMessage)
     }
     val citiesDS: DataSet = Try {
-      val stream = new FileInputStream(businessDSPath.toFile)
+      val stream = new FileInputStream(businessDsPath.toFile)
       parse(stream).extract[DataSet]
     } match {
       case Success(ds) => ds
