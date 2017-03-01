@@ -32,6 +32,9 @@ import scala.language.postfixOps
   */
 object ModelTypes {
 
+  val defaultNumBags = 50
+  val defaultBagSize = 100
+
   /**
     * Lobster...
     *
@@ -64,8 +67,8 @@ object ModelTypes {
                    state: Training.TrainState,
                    dateCreated: DateTime,
                    dateModified: DateTime,
-                   numBags: Option[Int],
-                   bagSize: Option[Int]) extends Identifiable[ModelID]
+                   numBags: Int = defaultNumBags,
+                   bagSize: Int = defaultBagSize) extends Identifiable[ModelID]
 
   type ModelID = Int
 
