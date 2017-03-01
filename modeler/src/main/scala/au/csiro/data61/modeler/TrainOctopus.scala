@@ -21,7 +21,7 @@ import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams}
 import au.csiro.data61.types.Exceptions.ModelerException
-import au.csiro.data61.types.SSDTypes.Octopus
+import au.csiro.data61.types.SsdTypes.Octopus
 import au.csiro.data61.types.SemanticSourceDesc
 import com.typesafe.scalalogging.LazyLogging
 
@@ -32,8 +32,6 @@ import scala.util.{Failure, Success, Try}
   * As output we get the alignment graph.
   */
 object TrainOctopus extends LazyLogging{
-  // TODO: to be implemented once AlignmentStorage layer is up
-  // delete karma-dir??
 
 
   def train(octopus: Octopus

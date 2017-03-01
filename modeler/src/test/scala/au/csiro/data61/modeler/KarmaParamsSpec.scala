@@ -182,13 +182,11 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
     val model = karmaWrapper.readKarmaModelJson(exampleKarmaSSD)
     val ssd = model.toSSD(dummySsdID, TypeConfig.SSDVersion, List(dummyOwlID), "businessInfo.csv")
 
-    assert(ssd.version === TypeConfig.SSDVersion)
     assert(ssd.isComplete === true)
     assert(ssd.isConsistent === true)
     assert(ssd.ontology.size === 1)
     assert(getSMNodes(ssd).size === 8)
     assert(getSMLinks(ssd).size === 7)
-    assert(ssd.columns.size === 4)
     assert(ssd.attributes.size === 4)
   }
 
@@ -254,9 +252,7 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
     assert(getSMNodeLabels(ssd) === getSMNodeLabels(ssdConversion))
     assert(getSMLinkLabels(ssd) === getSMLinkLabels(ssdConversion))
     assert(ssd.ontology === ssdConversion.ontology)
-    assert(ssd.columns.map(_.id).toSet === ssdConversion.columns.map(_.id).toSet)
     assert(ssd.attributes.map(_.id).toSet === ssdConversion.attributes.map(_.id).toSet)
-    assert(ssd.version === ssdConversion.version)
     assert(ssd.id === ssdConversion.id)
     assert(getMappingSize(ssd) === getMappingSize(ssdConversion))
   }
@@ -277,9 +273,7 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
     assert(getSMNodeLabels(ssd) === getSMNodeLabels(ssdConversion))
     assert(getSMLinkLabels(ssd) === getSMLinkLabels(ssdConversion))
     assert(ssd.ontology.size === ssdConversion.ontology.size)
-    assert(ssd.columns.map(_.id).toSet === ssdConversion.columns.map(_.id).toSet)
     assert(ssd.attributes.map(_.id).toSet === ssdConversion.attributes.map(_.id).toSet)
-    assert(ssd.version === ssdConversion.version)
     assert(ssd.id === ssdConversion.id)
     assert(getMappingSize(ssd) === getMappingSize(ssdConversion))
   }

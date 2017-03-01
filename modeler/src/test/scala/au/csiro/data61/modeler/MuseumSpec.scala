@@ -40,7 +40,7 @@ import edu.isi.karma.modeling.research.Params
 import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
 import au.csiro.data61.types._
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
-import au.csiro.data61.types.SSDTypes._
+import au.csiro.data61.types.SsdTypes._
 
 /**
   * Created by natalia on 14/11/16.

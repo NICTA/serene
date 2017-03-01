@@ -36,7 +36,7 @@ import edu.isi.karma.rep.alignment.{ColumnNode, InternalNode, LabeledLink, Node,
 import au.csiro.data61.modeler.ModelerConfig
 import au.csiro.data61.types._
 import au.csiro.data61.types.ColumnTypes.ColumnID
-import au.csiro.data61.types.SSDTypes.{AttrID, OctopusID}
+import au.csiro.data61.types.SsdTypes.{AttrID, OctopusID}
 import au.csiro.data61.types.Exceptions._
 
 /**
@@ -95,7 +95,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @param attrToColMap Mapping of modeller:attributes to matcher:columns
     * @return
     */
-  private def getPredictedSemanticTypes(attr: SSDAttribute
+  private def getPredictedSemanticTypes(attr: SsdAttribute
                                         , dsPredictions: DataSetPrediction
                                         , attrToColMap: Map[AttrID,ColumnID]
                                        ) : Map[String, Double] = {
@@ -247,7 +247,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
               colNode.getRdfLiteralType,
               colNode.getLanguage)
         }
-        logger.debug(s"Column node mapped to the alignment...${cn}")
+        logger.debug(s"Column node mapped to the alignment...$cn")
         logger.debug(s"Column node learnt semantic types...${Option(colNode.getLearnedSemanticTypes)}")
         Option(colNode.getLearnedSemanticTypes) match {
           case Some(semTypes) =>
@@ -487,7 +487,6 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     updatedAlignment
   }
 
-
   /**
     * Helper method to obtain mappings from SSD nodes to Alignment graph nodes.
     * For example, column nodes may have different ids in the converted SSD and the Alignment graph.
@@ -614,7 +613,6 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * NOTE: KarmaBuildAlignmentGraph needs to be executed before suggesting anything.
     *
     * @param ssd SemanticSourceDesc for which we need to learn the alignment.
-    * @param octopusID Id of the octopus which will be used to generate suggestions
     * @param ontologies List of location strings for ontologies of this ssd.
     * @param dsPredictions Matcher DataSetPrediction object which contains predictions for columns in the dataset.
     * @param semanticTypeMap Mapping of matcher:labels to URIs (just namespace actually).
@@ -623,13 +621,12 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     * @return SSDPrediction wrapped into Option
     */
   def suggestModels(ssd: SemanticSourceDesc
-                    , octopusID: OctopusID
                     , ontologies: List[String]
                     , dsPredictions: Option[DataSetPrediction]
                     , semanticTypeMap: Map[String, String]
                     , attrToColMap: Map[AttrID,ColumnID]
                     , numSemanticTypes: Int = defaultNumSemanticTypes
-                   ): Option[SSDPrediction] = {
+                   ): Option[SsdPrediction] = {
     karmaInitialize()
     Try {
       // we need to make sure that the specified ontologies in ssd are in Karma preloaded-ontologies directory
@@ -661,7 +658,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
 
       if(suggestions.nonEmpty) {
           logger.info(s"${suggestions.size} Suggestions for SSD ${ssd.id} successfully constructed.")
-          Some(SSDPrediction(ssd.id, octopusID, suggestions))
+          Some(SsdPrediction(ssd.id, suggestions))
       } else {
           logger.info(s"No suggestions for SSD ${ssd.id} have been made.")
           None

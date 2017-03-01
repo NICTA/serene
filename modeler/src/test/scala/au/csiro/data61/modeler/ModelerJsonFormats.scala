@@ -18,7 +18,7 @@
 
 package au.csiro.data61.modeler
 
-import au.csiro.data61.types.{HelperLinkSerializer, SSDMappingSerializer, SSDNodeSerializer, SemanticModelSerializer}
+import au.csiro.data61.types.{HelperLinkSerializer, SsdMappingSerializer, SSDNodeSerializer, SemanticModelSerializer}
 import org.json4s.Formats
 
 /**
@@ -33,5 +33,5 @@ trait ModelerJsonFormats {
       SSDNodeSerializer +
       HelperLinkSerializer +
       SemanticModelSerializer +
-      SSDMappingSerializer
+      SsdMappingSerializer
 }

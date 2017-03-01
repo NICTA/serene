@@ -20,8 +20,8 @@ package au.csiro.data61.modeler
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
 import au.csiro.data61.types.ColumnTypes._
 import au.csiro.data61.types.Exceptions.ModelerException
-import au.csiro.data61.types.SSDTypes._
-import au.csiro.data61.types.{DataSetPrediction, SSDPrediction, SemanticSourceDesc}
+import au.csiro.data61.types.SsdTypes._
+import au.csiro.data61.types.{DataSetPrediction, SsdPrediction, SemanticSourceDesc}
 import com.typesafe.scalalogging.LazyLogging
 
 /**
@@ -29,27 +29,36 @@ import com.typesafe.scalalogging.LazyLogging
   * As output we get a list of ssd with associated scores.
   */
 object PredictOctopus extends LazyLogging {
-  // TODO: to be implemented once AlignmentStorage layer is up
-  // delete karma-dir??
 
+  /**
+    * Generate a ranked list of semantic models based on the provided alignmentGraph and predictions of
+    * semantic types.
+    * @param octopus
+    * @param alignmentDir
+    * @param ontologies
+    * @param ssd
+    * @param dsPredictions
+    * @param attrToColMap
+    * @param numSemanticTypes
+    * @return
+    */
   def predict(octopus: Octopus
+              , alignmentDir: String
               , ontologies: List[String]
               , ssd: SemanticSourceDesc
               , dsPredictions: Option[DataSetPrediction]
               , attrToColMap: Map[AttrID,ColumnID]
-              , numSemanticTypes: Int): Option[SSDPrediction] = {
+              , numSemanticTypes: Int): Option[SsdPrediction] = {
     logger.info("Semantic Modeler initializes prediction...")
 
-    val karmaWrapper = KarmaParams(alignmentDir = octopus.alignmentDir
-      .getOrElse(throw ModelerException("Alignment directory is not specified in octopus!")).toString,
+    val karmaWrapper = KarmaParams(alignmentDir = alignmentDir,
       ontologies = ontologies,
       None)
 
     val suggestions = KarmaSuggestModel(karmaWrapper).suggestModels(ssd
-      , octopus.id
       , ontologies
       , dsPredictions
-      , octopus.semanticTypeMap.getOrElse(Map.empty[String, String])
+      , octopus.semanticTypeMap
       , attrToColMap: Map[AttrID,ColumnID]
       , numSemanticTypes)
 
