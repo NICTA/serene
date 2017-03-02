@@ -47,7 +47,7 @@ import scala.util.{Failure, Random, Success, Try}
 object OctopusInterface extends LazyLogging{
 
   val MissingValue = "unknown"
-  val defaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter
+  val defaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter --> move to modelingProps
 
 
   /**
@@ -65,14 +65,14 @@ object OctopusInterface extends LazyLogging{
     if (!ssdAttributes.forall(attr => DatasetStorage.columnMap.keySet.contains(attr.id))) {
       val msg = "SSD cannot be added to the storage: columns in the mappings do not exist in the DatasetStorage."
       logger.error(msg)
-      throw InternalException(msg)
+      throw BadRequestException(msg)
     }
 
     // check that ontologies are available in the OwlStorage
     if (!request.ontologies.forall(owlKeys.toSet.contains)) {
       val msg = "SSD cannot be added to the storage: ontologies do not exist in the OwlStorage."
       logger.error(msg)
-      throw InternalException(msg)
+      throw BadRequestException(msg)
     }
   }
 
@@ -103,15 +103,16 @@ object OctopusInterface extends LazyLogging{
     if (!ssd.isComplete) {
       val msg = "SSD cannot be added to the storage: it is not complete."
       logger.error(msg)
-      throw InternalException(msg)
+      throw BadRequestException(msg)
     }
 
   ssd
   }
 
   /**
+    * Check the request and if it's ok add a corresponding SSD to the storage.
     *
-    * @param request
+    * @param request Request object
     * @return
     */
   def createSsd(request: SsdRequest): Ssd = {
@@ -131,7 +132,6 @@ object OctopusInterface extends LazyLogging{
 
     // build the Semantic Source Description from the request, adding defaults where necessary
     val ssdOpt = for {
-
       ssd <- Try {
         // we convert here the request to the SSD and also check if the SSD is complete
         convertSsdRequest(request, ssdAttributes, id)
@@ -244,6 +244,7 @@ object OctopusInterface extends LazyLogging{
           OctopusStorage.deleteAlignmetDir(id) // delete alignmentDir
           OctopusStorage.updateTrainState(id, Status.ERROR, msg, None)
       }
+
       OctopusStorage.get(id).map(_.state)
     }
   }
@@ -322,7 +323,7 @@ object OctopusInterface extends LazyLogging{
   }
 
   /**
-    * Perform prediction using the octopus
+    * Perform prediction using a given octopus for a given SSD.
     *
     * @param id The octopus id
     * @param ssdID id of the SSD
@@ -383,8 +384,8 @@ object OctopusInterface extends LazyLogging{
   /**
     * Generate an empty SSD for a given dataset using ontologies from a given octopus.
     *
-    * @param octopus
-    * @param dataset
+    * @param octopus Octopus object
+    * @param dataset Dataset object
     * @return
     */
   protected def generateEmptySsd(octopus: Octopus,
@@ -435,23 +436,23 @@ object OctopusInterface extends LazyLogging{
     * Emtpy SSD will automatically be generated for the dataset.
     *
     * @param id The octopus id
-    * @param dsID id of the dataset
+    * @param dsId id of the dataset
     * @return
     */
-  def predictOctopus(id: OctopusID, dsID : DataSetID): SsdResults = {
+  def predictOctopus(id: OctopusID, dsId : DataSetID): SsdResults = {
 
     if (OctopusStorage.isConsistent(id)) {
       // do prediction
-      logger.info(s"Launching prediction for OCTOPUS $id...")
+      logger.info(s"Launching prediction with octopus $id for dataset $dsId")
       val ssdPredictions: Option[SsdPrediction] = for {
         octopus <- OctopusStorage.get(id)
-        dataset <- DatasetStorage.get(dsID)
+        dataset <- DatasetStorage.get(dsId)
 
         emptySsd <- generateEmptySsd(octopus, dataset)
 
         // we do semantic typing for only one dataset
         dsPredictions = Try {
-          MatcherInterface.predictModel(octopus.lobsterID, dsID)
+          MatcherInterface.predictModel(octopus.lobsterID, dsId)
         } toOption
 
         // this map is needed to map ColumnIDs from dsPredictions to attributes
@@ -474,7 +475,7 @@ object OctopusInterface extends LazyLogging{
 
       convertSsdPrediction(
         ssdPredictions
-        .getOrElse(throw InternalException(s"No SSD predictions are available for dataset $dsID."))
+        .getOrElse(throw InternalException(s"No SSD predictions are available for dataset $dsId."))
       )
 
     } else {
@@ -507,9 +508,9 @@ object OctopusInterface extends LazyLogging{
   /**
     * SemanticTypeObject is the return object for getSemanticTypes
     *
-    * @param semanticTypeList
-    * @param labelMap
-    * @param semanticTypeMap
+    * @param semanticTypeList List of semantic types (aka classes)
+    * @param labelMap Mapping from columns to semantic types (aka labelData = training data for schema matcher)
+    * @param semanticTypeMap Mapping from semantic types to URI namespaces
     */
   case class SemanticTypeObject(semanticTypeList: Option[List[String]],
                                 labelMap: Option[Map[Int, String]],
@@ -670,6 +671,7 @@ object OctopusInterface extends LazyLogging{
     * for updating. The index is searched for in the database,
     * and if update is successful, returns the case class response
     * object.
+    * The associated schema matcher model (aka lobster) is also updated.
     *
     * @param request POST request with octopus information
     * @return Case class object for JSON conversion

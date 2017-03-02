@@ -64,7 +64,7 @@ object OwlStorage extends Storage[OwlID, Owl] {
     OctopusStorage.keys // check if this owl is used in some octopus
       .flatMap(OctopusStorage.get)
       .flatMap(_.ontologies).toSet
-      .contains(id) &&
+      .contains(id) ||
       SsdStorage.keys // check if this owl is used in some SSD
         .flatMap(SsdStorage.get)
         .flatMap(_.ontology).toSet

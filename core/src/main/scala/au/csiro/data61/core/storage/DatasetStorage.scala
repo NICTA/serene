@@ -84,7 +84,7 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
       .map(_.columns.map(_.id))
       .getOrElse(List.empty[ColumnID])
 
-    colIds.exists(ssdColumnIds.contains) &&
+    colIds.exists(ssdColumnIds.contains) ||
       modelRefIds.contains(id)
   }
 

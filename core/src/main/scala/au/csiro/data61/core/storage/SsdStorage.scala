@@ -82,31 +82,26 @@ object SsdStorage extends Storage[SsdID, Ssd] {
   /**
     * Check if Ssd is consistent.
     *
-    * @param id
+    * @param ssd Semantic Source Description for which we check consistency
     * @return
     */
-  def isConsistent(id: SsdID): Boolean = {
-    logger.info(s"Checking consistency of Ssd $id")
+  def isConsistent(ssd: Ssd): Boolean = {
+    logger.info(s"Checking consistency of Ssd ${ssd.id}")
 
-    // make sure the SSDs in the octopus are older
-    // than the training state
-    val isOK = for {
-      ssd <- get(id)
+    // make sure that referenced columns exist in DataSetStorage
+    val columnCheck = ssd.attributes
+      .forall(attr => DatasetStorage.columnMap.keySet.contains(attr.id))
+    // make sure that referenced ontologies exist in OwlStorage
+    val owlCheck = ssd.ontology.forall(OwlStorage.keys.toSet.contains)
+    // make sure the semantic model is complete
+    val isComplete = ssd.isComplete
 
-      // make sure that referenced columns exist in DataSetStorage
-      columnCheck = ssd.attributes
-        .forall(attr => DatasetStorage.columnMap.keySet.contains(attr.id))
-      // make sure that referenced ontologies exist in OwlStorage
-      owlCheck = ssd.ontology.forall(OwlStorage.keys.toSet.contains)
-      // make sure the semantic model is complete
-      isComplete = ssd.isComplete
-      // TODO: do we need to check dates here?
-      // make sure the references are older than the SSD
-//      allBefore = refDates.forall(_.isBefore(ssd.dateModified))
+    // TODO: do we need to check dates here?
+    // make sure the references (datasets and ontologies) are older than the SSD
+    // allBefore = refDates.forall(_.isBefore(ssd.dateModified))
 
-    } yield isComplete && owlCheck && isComplete
+    isComplete && owlCheck && isComplete
 
-    isOK getOrElse false
   }
 
 }
