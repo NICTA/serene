@@ -21,7 +21,7 @@ import java.io.FileInputStream
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.core.api.OctopusRequest
+import au.csiro.data61.core.api.{BadRequestException, OctopusRequest, SsdResults}
 import au.csiro.data61.core.storage.{JsonFormats, OctopusStorage, SsdStorage}
 import au.csiro.data61.core.drivers.{MatcherInterface, OctopusInterface}
 import au.csiro.data61.core.storage._
@@ -55,15 +55,17 @@ import scala.util.{Failure, Success, Try}
 class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging{
 
   override def afterEach(): Unit = {
-    SsdStorage.removeAll()
+    // the order of removal now matters!
     OctopusStorage.removeAll()
+    ModelStorage.removeAll()
+    SsdStorage.removeAll()
     DatasetStorage.removeAll()
     OwlStorage.removeAll()
-    ModelStorage.removeAll()
   }
 
   val businessSsdID = 0
   val exampleOwlID = 1
+  val dummyID = 1000
 
   override def beforeEach(): Unit = {
     copySampleDatasets() // copy csv files for getCities and businessInfo
@@ -135,6 +137,12 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
   val citiesDsPath = Paths.get(sampleDsDir,
     datasetMap("getCities").toString, datasetMap("getCities").toString + ".json")
 
+  // karma stuff
+  val karmaDir = getClass.getResource("/karma").getPath
+  val exampleKarmaSSD: String = Paths.get(karmaDir,"businessInfo.csv.model.json") toString
+  val businessAlign: String = Paths.get(karmaDir,"align_business.json") toString
+  val businessCitiesAlign: String = Paths.get(karmaDir,"align_business_cities.json") toString
+
   def copySampleDatasets(): Unit = {
     // copy sample dataset to Config.DatasetStorageDir
     if (!Paths.get(Serene.config.storageDirs.dataset).toFile.exists) { // create dataset storage dir
@@ -152,7 +160,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
       case Failure(err) => fail(err.getMessage)
     }
     val citiesDS: DataSet = Try {
-      val stream = new FileInputStream(businessDsPath.toFile)
+      val stream = new FileInputStream(citiesDsPath.toFile)
       parse(stream).extract[DataSet]
     } match {
       case Success(ds) => ds
@@ -162,7 +170,6 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     DatasetStorage.add(businessDS.id, businessDS)
     DatasetStorage.add(citiesDS.id, citiesDS)
   }
-
 
   test("Creating octopus for businessInfo") {
     // create default octopus
@@ -185,12 +192,18 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     )
   }
 
-  test("Constructing initial alignment graph for businessInfo") {
+  test("Training octopus with businessInfo succeeds") {
     // create default octopus
     val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
+    // get it from the storage
+    val storedOctopus = OctopusStorage.get(octopus.id).get
 
-    val storedOctopus = OctopusStorage.get(octopus.id)
-    println(storedOctopus)
+    assert(octopus.id === storedOctopus.id)
+    assert(octopus.lobsterID === storedOctopus.lobsterID)
+    assert(octopus.state === storedOctopus.state)
+    assert(octopus.ssds.sorted === storedOctopus.ssds.sorted)
+    assert(octopus.ontologies.sorted === storedOctopus.ontologies.sorted)
+    assert(octopus.semanticTypeMap === storedOctopus.semanticTypeMap)
 
     val state = OctopusInterface.trainOctopus(octopus.id)
 
@@ -200,10 +213,87 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     // lobster becomes busy
     assert(ModelStorage.get(octopus.lobsterID).get.state.status === Status.BUSY)
 
-    Thread.sleep(12000)
+    Thread.sleep(8000)
 
     assert(ModelStorage.get(octopus.lobsterID).get.state.status === Status.COMPLETE)
     assert(OctopusStorage.get(octopus.id).get.state.status === Status.COMPLETE)
+
+    // (if the training succeeds) alignment graph json is located at:
+    val alignmentGraphJson: String = OctopusStorage.getAlignmentGraphPath(octopus.id).toString
+    assert(Files.exists(Paths.get(alignmentGraphJson)))
+
+    // kind-of reading in the alignment graph as our semantic model
+    val alignSM: SemanticModel = KarmaTypes.readAlignmentGraph(
+      OctopusStorage.getAlignmentGraphPath(octopus.id).toString)
+
+    assert(alignSM.isConnected)  // the alignment graph must be connected
+
+    // this is what we approx should get
+    val karmaAlign: SemanticModel = KarmaTypes.readAlignmentGraph(businessAlign)
+
+    assert(alignSM.getLinks.size === karmaAlign.getLinks.size)
+    assert(alignSM.getNodes === karmaAlign.getNodes)
+    assert(alignSM.getLinkLabels === karmaAlign.getLinkLabels)
+  }
+
+  test("Predicting with octopus for cities fails since octopus is not trained") {
+    // create default octopus
+    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
+    // get it from the storage
+    val storedOctopus = OctopusStorage.get(octopus.id).get
+
+    // octopus is untrained
+    assert(octopus.state.status === Status.UNTRAINED)
+
+    Try {
+      OctopusInterface.predictOctopus(octopus.id, datasetMap("getCities"))
+    } match {
+      case Success(_) =>
+        fail("Octopus is not trained. Prediction should fail!")
+      case Failure(err: BadRequestException) =>
+        succeed
+      case Failure(err) =>
+        fail(s"Wrong failure: $err")
+    }
+  }
+
+  test("Predicting with octopus for cities succeeds") {
+    // create default octopus
+    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
+    val state = OctopusInterface.trainOctopus(octopus.id)
+
+    // wait for training to complete
+    Thread.sleep(8000)
+    assert(ModelStorage.get(octopus.lobsterID).get.state.status === Status.COMPLETE)
+    assert(OctopusStorage.get(octopus.id).get.state.status === Status.COMPLETE)
+
+    val recommends = Try {
+      OctopusInterface.predictOctopus(octopus.id, datasetMap("getCities"))
+    } toOption
+
+    recommends match {
+      case Some(ssdPred: SsdResults) =>
+        assert(ssdPred.predictions.size === 8)
+        val predictedSSDs: List[Ssd] = ssdPred.predictions.map(_._1.toSsd(dummyID))
+        // Karma should return consistent and complete semantic models
+        assert(predictedSSDs.forall(_.isComplete))
+        assert(predictedSSDs.forall(_.isConsistent))
+        assert(predictedSSDs.forall(_.mappings.isDefined))
+        assert(predictedSSDs.forall(_.mappings.forall(_.mappings.size == 1)))
+
+        ssdPred.predictions.foreach(x => println(x._2))
+
+//        assert(ssdPred.predictions.forall(_._2.nodeConfidence == 0.5))
+        assert(ssdPred.predictions.forall(_._2.nodeCoherence == 1))
+        assert(ssdPred.predictions.forall(_._2.nodeCoverage == 0.5))
+
+        val recSemanticModel = ssdPred.predictions.head._1
+        val scores = ssdPred.predictions.head._2
+        assert(scores.linkCost === 3)
+
+      case _ =>
+        fail("Problems here since there are no recommendations :(")
+    }
   }
 
   // tests for createOctopus
@@ -452,3 +542,4 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 //  }
 
 }
+
