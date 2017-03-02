@@ -63,6 +63,7 @@ object PredictOctopus extends LazyLogging {
     }
     logger.warn(s"Semantic Modeler got problematic ds predictions: ${problematicDsPreds.size}")
 
+    // TODO: filter unknown class labels!
     val convertedDsPreds: Option[DataSetPrediction] = dsPredictions match {
 
       case Some(obj: DataSetPrediction) =>

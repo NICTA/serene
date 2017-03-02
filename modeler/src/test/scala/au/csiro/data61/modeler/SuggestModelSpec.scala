@@ -96,8 +96,6 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
   /**
     * Construct DataSetPrediction instance for businessInfo.csv
-    *
-    * @return
     */
   def getBusinessDataSetPredictions: Option[DataSetPrediction] = {
     // we care only about scores in the semantic-modeller
@@ -130,8 +128,6 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
   /**
     * Construct DataSetPrediction instance for getCities.csv
-    *
-    * @return
     */
   def getCitiesDataSetPredictions: Option[DataSetPrediction] = {
     // we care only about scores in the semantic-modeller
@@ -153,8 +149,6 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
   /**
     * Construct DataSetPrediction instance for getCities.csv
-    *
-    * @return
     */
   def getProblematicCitiesDataSetPredictions: Option[DataSetPrediction] = {
     // we care only about scores in the semantic-modeller
@@ -165,6 +159,27 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     val col1 = ColumnPrediction(label="City---name",
       confidence=0.0,
       scores=Map("City---name" -> 0.0, "State---name" -> 0.0),
+      features=Map())
+
+    Some(DataSetPrediction(
+      modelID = 0,
+      dataSetID = 0,
+      predictions = Map("10" -> col0, "11" -> col1)
+    ))
+  }
+
+  /**
+    * Construct DataSetPrediction instance for getCities.csv
+    */
+  def getUnknownCitiesDataSetPredictions: Option[DataSetPrediction] = {
+    // we care only about scores in the semantic-modeller
+    val col0 = ColumnPrediction(label="City---name",
+      confidence=0.5,
+      scores=Map("City---name" -> 0.5, "State---name" -> 0.5),
+      features=Map())
+    val col1 = ColumnPrediction(label="unknown",
+      confidence=1.0,
+      scores=Map("unknown" -> 1.0, "City---name" -> 0.0, "State---name" -> 0.0),
       features=Map())
 
     Some(DataSetPrediction(
@@ -510,6 +525,39 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     }
   }
 
+  test("Recommendation for empty getCities.csv with unknown dataset predictions fails"){
+    addSSD(exampleSSD)
+    // first, we build the Alignment Graph = training step
+    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
+    // our alignment
+    var alignment = karmaTrain.alignment
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
+
+    val newSSD = Try {
+      val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
+      parse(stream).extract[Ssd]
+    } match {
+      case Success(ssd) =>
+        ssd
+      case Failure(err) =>
+        fail(err.getMessage)
+    }
+
+    // now, we run prediction for the new SSD
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
+    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+    val recommends = karmaPredict
+      .suggestModels(newSSD,
+        List(exampleOntol), getUnknownCitiesDataSetPredictions, Map(), citiesAttrToColMap)
+
+    recommends match {
+      case Some(_) =>
+        fail("It actually should fail...")
+      case _ =>
+        succeed
+    }
+  }
+
   test("Recommendation for empty getCities.csv with filtered problematic dataset predictions will succeed"){
     addSSD(exampleSSD)
     // first, we build the Alignment Graph = training step
@@ -651,7 +699,6 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
         assert(ssdPred.suggestions.forall(_._2.nodeCoherence == 1))
         assert(ssdPred.suggestions.forall(_._2.nodeCoverage == 1))
 
-        val recSemanticModel = ssdPred.suggestions.head._1
         val scores = ssdPred.suggestions.head._2
         assert(scores.linkCost === 4)
 
