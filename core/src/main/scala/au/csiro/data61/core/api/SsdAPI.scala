@@ -22,7 +22,7 @@ import au.csiro.data61.types._
 import org.joda.time.DateTime
 
 import scala.language.postfixOps
-import au.csiro.data61.core.drivers.OctopusInterface
+import au.csiro.data61.core.drivers.{OctopusInterface, SsdInterface}
 import au.csiro.data61.types.SsdTypes.SsdID
 import io.finch._
 import org.json4s.jackson.JsonMethods._
@@ -63,7 +63,7 @@ object SsdAPI extends RestAPI {
     * curl http://localhost:8080/v1.0/ssd
     */
   val ssdRoot: Endpoint[List[Int]] = get(APIVersion :: "ssd") {
-    Ok(OctopusInterface.ssdKeys)
+    Ok(SsdInterface.ssdKeys)
   }
 
   /**

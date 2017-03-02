@@ -42,7 +42,7 @@ import scala.util.{Failure, Success, Try}
   *  POST   /v1.0/octopus              -- json octopus object
   *  GET    /v1.0/octopus/:id          -- json octopus object
   *  GET    /v1.0/octopus/:id/train    -- returns async status obj
-  *  GET    /v1.0/octopus/:id/predict  -- returns async status obj
+  *  GET    /v1.0/octopus/:id/predict  -- returns predictions
   *  POST   /v1.0/octopus/:id          -- update
   *  DELETE /v1.0/octopus/:id
   */
@@ -71,36 +71,40 @@ object OctopusAPI extends RestAPI {
     Ok(OctopusInterface.octopusKeys)
   }
 
+
   /**
     * Adds a new octopus as specified by the json body.
-    *
     * {
-    *   "name": "hello"
+    *   "name": "hello",
     *   "description": "Testing octopus used for identifying phone numbers only.",
-    *   "ssds": [1, 2, 3]
+    *   "ssds": [1, 2, 3],
+    *   "ontologies": [1, 2, 3],
+    *   "modelingProps": "not implemented for now",
+    *   "modelType": "randomForest",
+    *   "features": ["isAlpha", "alphaRatio", "atSigns", ...],
+    *   "resamplingStrategy": "ResampleToMean",
+    *   "numBags": 10,
+    *   "bagSize": 10
+    *
     * }
     *
     * Returns a JSON octopus object with id.
     *
     */
-
   val octopusCreate: Endpoint[Octopus] = post(APIVersion :: "octopus" :: stringBody) {
     (body: String) =>
       (for {
         request <- parseOctopusRequest(body)
         _ <- Try {
-          request.description match {
+          request.ssds match {
             case Some(x) if x.nonEmpty =>
               request
             case _ =>
-              throw BadRequestException("No classes found.")
+              logger.error("No Semantic Source Descriptions found.")
+              throw BadRequestException("No Semantic Source Descriptions found.")
           }
         }
-        _ <- Try {
-          if (request.name.isEmpty) {
-            throw BadRequestException("No features found.")
-          }
-        }
+
         m <- Try { OctopusInterface.createOctopus(request) }
       } yield m)
       match {
@@ -242,27 +246,48 @@ object OctopusAPI extends RestAPI {
 
     // TODO: Implement this!
     for {
-      raw <- Try {
-        parse(str)
-      }
+      raw <- Try { parse(str) }
 
       description <- parseOption[String]("description", raw)
 
-      ssds <- parseOption[List[Int]]("ssds", raw)
-
       name <- parseOption[String]("name", raw)
 
+      ssds <- {
+        println(s"Raw extraction: $raw")
+        parseOption[List[Int]]("ssds", raw)
+      }
+
+      ontologies <- parseOption[List[Int]]("ontologies", raw)
+
+      modelingProperties <- parseOption[String]("modelingProps", raw)
+
+      modelType <- parseOption[String]("modelType", raw)
+        .map(_.map(
+          ModelType.lookup(_)
+            .getOrElse(throw BadRequestException("Bad modelType"))))
+
+      features <- parseOption[FeaturesConfig]("features", raw)
+
+      resamplingStrategy <- parseOption[String]("resamplingStrategy", raw)
+        .map(_.map(
+          SamplingStrategy.lookup(_)
+            .getOrElse(throw BadRequestException("Bad resamplingStrategy"))))
+
+      bagSize <- parseOption[Int]("bagSize", raw)
+
+      numBags <- parseOption[Int]("numBags", raw)
+
     } yield OctopusRequest(
-      name = Some("junk"),
-      description = None,
-      modelType = None,
-      features = None,
-      resamplingStrategy = None,
-      numBags = None,
-      bagSize = None,
-      ontologies = None,
-      ssds = None,
-      modelingProps = None
+      name = name,
+      description = description,
+      modelType = modelType,
+      features = features,
+      resamplingStrategy = resamplingStrategy,
+      numBags = numBags,
+      bagSize = bagSize,
+      ontologies = ontologies,
+      ssds = ssds,
+      modelingProps = modelingProperties
     )
   }
 

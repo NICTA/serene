@@ -21,31 +21,35 @@ import java.io.FileInputStream
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.core.api.OctopusRequest
-import au.csiro.data61.core.storage.{JsonFormats, OctopusStorage, SsdStorage}
-import au.csiro.data61.core.drivers.{MatcherInterface, OctopusInterface}
 import au.csiro.data61.core.storage._
-import au.csiro.data61.modeler.ModelerConfig
-import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
-import au.csiro.data61.types.ModelType.RANDOM_FOREST
-import au.csiro.data61.types.ModelTypes.Model
-import au.csiro.data61.types.SsdTypes.{Owl, OwlDocumentFormat}
-import au.csiro.data61.types.SamplingStrategy.NO_RESAMPLING
-import au.csiro.data61.types.Training.Status
+import au.csiro.data61.types.SsdTypes._
 import au.csiro.data61.types._
+import api._
+import au.csiro.data61.core.drivers.Generic._
+
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
-import org.json4s.Extraction
-import org.json4s.jackson.JsonMethods._
-import org.scalatest.{BeforeAndAfterEach, FunSuite}
 
-import scala.concurrent._
+import com.twitter.finagle.http.RequestBuilder
+import com.twitter.finagle.http._
+import com.twitter.io.Buf
+import com.twitter.util.{Await, Return, Throw}
+
+//import scala.concurrent._
+import org.scalatest.concurrent._
+import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
-import scala.language.postfixOps
-import scala.util.{Failure, Success, Try}
+import scala.annotation.tailrec
+import scala.concurrent.Future
+import scala.util.{Failure, Random, Success, Try}
 
+import language.postfixOps
+
+import org.json4s.JsonDSL._
+import org.json4s._
+import org.json4s.jackson.JsonMethods._
 
 
 /**
@@ -53,18 +57,41 @@ import scala.util.{Failure, Success, Try}
   */
 
 class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging {
-  override def afterEach(): Unit = {
-    SsdStorage.removeAll()
-    OctopusStorage.removeAll()
-    DatasetStorage.removeAll()
-    OwlStorage.removeAll()
-    ModelStorage.removeAll()
+
+  import OctopusAPI._
+
+//  override def afterEach(): Unit = {
+//    SsdStorage.removeAll()
+//    OctopusStorage.removeAll()
+//    DatasetStorage.removeAll()
+//    OwlStorage.removeAll()
+//    ModelStorage.removeAll()
+//  }
+
+  /**
+    * Clean all resources from the server
+    *
+    * @param server Reference to the TestServer used in a single test
+    */
+  def deleteOctopi()(implicit server: TestServer): Unit = {
+    val response = server.get(s"/$APIVersion/octopus")
+
+    if (response.status == Status.Ok) {
+      val str = response.contentString
+      val regex = "[0-9]+".r
+      val models = regex.findAllIn(str).map(_.toInt)
+      models.foreach { model =>
+        server.delete(s"/$APIVersion/octopus/$model")
+      }
+    }
   }
 
   val businessSsdID = 0
   val exampleOwlID = 1
 
-  override def beforeEach(): Unit = {
+  val DataSet = new DatasetRestAPISpec
+
+  def setUp(): Unit = {
     copySampleDatasets() // copy csv files for getCities and businessInfo
     SsdStorage.add(businessSSD.id, businessSSD) // add businessInfo ssd
     OwlStorage.add(exampleOwl.id, exampleOwl)  // add sample ontology
@@ -74,6 +101,20 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       OwlStorage.writeOwlDocument(exampleOwlID, stream)
     }
 
+  }
+
+  /**
+    * Builds a standard POST request object from a json object for Octopus endpoint.
+    *
+    * @param json
+    * @param url
+    * @return
+    */
+  def postRequest(json: JObject, url: String = s"/$APIVersion/octopus")(implicit s: TestServer): Request = {
+    RequestBuilder()
+      .url(s.fullUrl(url))
+      .addHeader("Content-Type", "application/json")
+      .buildPost(Buf.Utf8(compact(render(json))))
   }
 
   val ssdDir = getClass.getResource("/ssd").getPath
@@ -100,31 +141,20 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   val emptySSD: Ssd = readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
   val businessSSD: Ssd = readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
 
-  val defaultFeatures = FeaturesConfig(
-    activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
+  def defaultFeatures: JObject =
+    ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
       "ratio-alpha-chars", "prop-numerical-chars",
       "prop-whitespace-chars", "prop-entries-with-at-sign",
       "prop-entries-with-hyphen", "prop-entries-with-paren",
       "prop-entries-with-currency-symbol", "mean-commas-per-entry",
       "mean-forward-slashes-per-entry",
-      "prop-range-format", "is-discrete", "entropy-for-discrete-values"),
-    activeGroupFeatures = Set.empty[String],
-    featureExtractorParams = Map()
-  )
+      "prop-range-format", "is-discrete", "entropy-for-discrete-values")) ~
+      ("activeFeatureGroups" -> Seq("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")) ~
+      ("featureExtractorParams" -> Seq(
+        ("name" -> "prop-instances-per-class-in-knearestneighbours") ~
+          ("num-neighbours" -> 5)))
 
-  val defaultOctopusRequest = OctopusRequest(
-    name = None,
-    description = Some("default octopus"),
-    modelType = None,
-    features = Some(defaultFeatures),
-    resamplingStrategy = Some(NO_RESAMPLING),
-    numBags = None,
-    bagSize = None,
-    ontologies = None,
-    ssds = Some(List(businessSSD.id)),
-    modelingProps = None)
-
-  val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None, None)
+  def randomString: String = Random.alphanumeric take 10 mkString
 
   val helperDir = getClass.getResource("/helper").getPath
   val sampleDsDir = getClass.getResource("/sample.datasets").getPath
@@ -134,6 +164,9 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   val citiesDsPath = Paths.get(sampleDsDir,
     datasetMap("getCities").toString, datasetMap("getCities").toString + ".json")
 
+  /**
+    * Manually add datasets to the storage layer since SSDs have hard-coded mappings for columns.
+    */
   def copySampleDatasets(): Unit = {
     // copy sample dataset to Config.DatasetStorageDir
     if (!Paths.get(Serene.config.storageDirs.dataset).toFile.exists) { // create dataset storage dir
@@ -161,4 +194,53 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     DatasetStorage.add(businessDS.id, businessDS)
     DatasetStorage.add(citiesDS.id, citiesDS)
   }
+
+  test("GET /v1.0/octopus responds Ok(200)") (new TestServer {
+    try {
+      val response = get(s"/$APIVersion/octopus")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      assert(Try { parse(response.contentString).extract[List[OctopusID]] }.isSuccess)
+    } finally {
+      deleteOctopi()
+      DataSet.deleteAllDataSets()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus responds BadRequest") (new TestServer {
+    try {
+      val TestStr = randomString
+      val randomInt = genID
+      val dummySeqInt = List(1, 2, 3)
+
+      val json =
+      ("description" -> TestStr) ~
+        ("name" -> "very fancy name here") ~
+        ("modelType" -> "randomForest") ~
+        ("features" -> defaultFeatures) ~
+        ("resamplingStrategy" -> "NoResampling") ~
+        ("numBags" -> randomInt) ~
+        ("bagSize" -> randomInt) ~
+        ("ssds" -> dummySeqInt) ~
+        ("ontologies" -> dummySeqInt) ~
+        ("modelingProps" -> TestStr)
+
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      println(response.status)
+      println(response.contentString)
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.BadRequest)
+      assert(!response.contentString.isEmpty)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
 }

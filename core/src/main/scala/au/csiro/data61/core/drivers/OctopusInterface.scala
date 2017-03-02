@@ -49,99 +49,50 @@ object OctopusInterface extends LazyLogging{
   val MissingValue = "unknown"
   val defaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter --> move to modelingProps
 
-
   /**
-    * Check if the SsdRequest has proper parameters.
-    *
-    * @param request SsdRequest coming from the API
-    * @param ssdAttributes generated attributes
-    * @throws InternalException if there;s a problem
-    */
-  protected def checkSsdRequest(request: SsdRequest,
-                                ssdAttributes: List[SsdAttribute])
-  : Unit = {
-
-    // check that columnIDs are available in the DataSetStorage
-    if (!ssdAttributes.forall(attr => DatasetStorage.columnMap.keySet.contains(attr.id))) {
-      val msg = "SSD cannot be added to the storage: columns in the mappings do not exist in the DatasetStorage."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    }
-
-    // check that ontologies are available in the OwlStorage
-    if (!request.ontologies.forall(owlKeys.toSet.contains)) {
-      val msg = "SSD cannot be added to the storage: ontologies do not exist in the OwlStorage."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    }
-  }
-
-  /**
-    * Check if the SsdRequest has proper parameters.
-    * Then convert it to Semantic Source Description
-    *
-    * @param request SsdRequest coming from the API
-    * @param ssdAttributes List of generated attributes
-    * @param ssdID id of the SSD
-    */
-  protected def convertSsdRequest(request: SsdRequest,
-                                  ssdAttributes: List[SsdAttribute],
-                                  ssdID: SsdID)
-  : Ssd = {
-
-    val ssd = Ssd(ssdID,
-      name = request.name,
-      attributes = ssdAttributes,
-      ontology = request.ontologies,
-      semanticModel = request.semanticModel,
-      mappings = request.mappings,
-      dateCreated = DateTime.now,
-      dateModified = DateTime.now
-    )
-
-    // check if the SSD is consistent and complete
-    if (!ssd.isComplete) {
-      val msg = "SSD cannot be added to the storage: it is not complete."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    }
-
-  ssd
-  }
-
-  /**
-    * Check the request and if it's ok add a corresponding SSD to the storage.
-    *
-    * @param request Request object
+    * Check existence of references (SSDs and Owls) for octopus.
+    * @param octopus Octopus object
     * @return
     */
-  def createSsd(request: SsdRequest): Ssd = {
+  def checkOctopus(octopus: Octopus): Boolean = {
+    octopus.ssds // check existence of SSDs in SsdStorage
+      .forall(ssdID => SsdStorage.get(ssdID).isDefined) &&
+    octopus.ontologies // check existence of ontologies in OwlStorage
+      .forall(owlID => OwlStorage.get(owlID).isDefined)
+  }
 
-    val id = genID
+  /**
+    *
+    * @param request
+    * @param octopusID
+    * @param lobsterID
+    * @param semanticTypeMap
+    * @return
+    */
+  def convertOctopusRequest(request: OctopusRequest,
+                           octopusID: OctopusID,
+                           lobsterID: ModelID,
+                           semanticTypeMap: Map[String, String]
+                          ): Octopus = {
+    val octopus = Octopus(octopusID,
+      name = request.name.getOrElse(MissingValue),
+      ontologies = getOntologies(request.ssds, request.ontologies),
+      ssds = request.ssds.getOrElse(List.empty[Int]),
+      lobsterID = lobsterID,
+      modelingProps = request.modelingProps,
+      semanticTypeMap = semanticTypeMap,
+      state = TrainState(Status.UNTRAINED, "", DateTime.now),
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now,
+      description = request.description.getOrElse(MissingValue)
+    )
 
-    // get list of attributes from the mappings
-    // NOTE: for now we automatically generate them to be equal to the original columns
-    val ssdAttributes: List[SsdAttribute] = request
-      .mappings
-      .map(_.mappings.keys.toList)
-      .getOrElse(List.empty[Int])
-      .map(SsdAttribute(_))
+    if (!checkOctopus(octopus)) {
+      logger.error("Missing references for octopus")
+      throw BadRequestException("Missing references for octopus")
+    }
 
-    // check the SSD request -- the method will just raise exceptions if there's anything wrong
-    checkSsdRequest(request, ssdAttributes)
-
-    // build the Semantic Source Description from the request, adding defaults where necessary
-    val ssdOpt = for {
-      ssd <- Try {
-        // we convert here the request to the SSD and also check if the SSD is complete
-        convertSsdRequest(request, ssdAttributes, id)
-      }.toOption
-      _ <- SsdStorage.add(id, ssd)
-
-    } yield ssd
-
-    ssdOpt getOrElse { throw InternalException("Failed to create resource.") }
-
+    octopus
   }
 
   /**
@@ -179,27 +130,16 @@ object OctopusInterface extends LazyLogging{
     }
 
     // build the octopus from the request, adding defaults where necessary
-    val octopusOpt = for {
+    val octopus = convertOctopusRequest(request, id, lobsterID, semanticTypeMap)
 
-      octopus <- Try {
-        Octopus(id,
-          name = request.name.getOrElse(MissingValue),
-          ontologies = getOntologies(request.ssds, request.ontologies),
-          ssds = request.ssds.getOrElse(List.empty[Int]),
-          lobsterID = lobsterID,
-          modelingProps = request.modelingProps,
-          semanticTypeMap = semanticTypeMap,
-          state = TrainState(Status.UNTRAINED, "", DateTime.now),
-          dateCreated = DateTime.now,
-          dateModified = DateTime.now,
-          description = request.description.getOrElse(MissingValue)
-        )
-      }.toOption
-      _ <- OctopusStorage.add(id, octopus)
-
-    } yield octopus
-
-    octopusOpt getOrElse { throw InternalException("Failed to create resource.") }
+    Try {
+      OctopusStorage.add(id, octopus)
+    } match {
+      case Success(_) =>
+        octopus
+      case Failure(err) =>
+        throw InternalException(s"Failed to create resource $err.")
+    }
   }
 
   /**
@@ -614,15 +554,6 @@ object OctopusInterface extends LazyLogging{
   }
 
   /**
-    * Passes the ssd keys up to the API
-    *
-    * @return
-    */
-  def ssdKeys: List[SsdID] = {
-    SsdStorage.keys
-  }
-
-  /**
     * Passes the octopus keys up to the API
     *
     * @return
@@ -733,124 +664,4 @@ object OctopusInterface extends LazyLogging{
     OctopusStorage.get(id)
   }
 
-
-  /**
-    * Creates an OWL document with related information.
-    *
-    * @param description The description of the OWL document.
-    * @param format The format of the OWL document.
-    * @param inputStream The input stream of the OWL document.
-    * @return The created OWL information if successful. Otherwise the exception that caused the
-    *         failure.
-    */
-  def createOwl(name: String,
-                description: String,
-                format: OwlDocumentFormat,
-                inputStream: InputStream): Option[Owl] = {
-    val id = genID
-    val now = DateTime.now
-    val owl = Owl(
-      id = id,
-      name = name,
-      format = format,
-      description = description,
-      dateCreated = now,
-      dateModified = now
-    )
-
-    for {
-      owlId <- OwlStorage.add(id, owl)
-      owlPath <- OwlStorage.writeOwlDocument(id, inputStream)
-      curOwl <- OwlStorage.get(owlId)
-    } yield curOwl
-
-//    OwlStorage.add(id, owl) match {
-//      case Some(_) =>
-//          OwlStorage.writeOwlDocument(id, inputStream)
-//      case None =>
-//        throw new IOException(s"Owl $id could not be created.")
-//    }
-  }
-
-  /**
-    * Gets the IDs of available OWL documents.
-    *
-    * @return The list of OWL IDs.
-    */
-  def owlKeys: List[OwlID] = OwlStorage.keys
-
-  /**
-    * Gets information about an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @return Information about the OWL document if found.
-    */
-  def getOwl(id: OwlID): Option[Owl] = OwlStorage.get(id)
-
-  /**
-    * Gets the original OWL file uploaded to the server.
-    *
-    * @param owl The owl object
-    * @return A buffered reader object
-    */
-  def getOwlDocument(owl: Owl): Try[Reader] = Try {
-    Reader.fromFile(OwlStorage.getOwlDocumentPath(owl.id).map(_.toFile).get)
-  }
-
-  /**
-    * Updates information about an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @param description The description of the OWL document.
-    * @return Updated information of the OWL document if successful. Otherwise the exception that
-    *         caused the failure.
-    */
-  def updateOwl(id: OwlID, description: Option[String]): Try[Owl] = Try {
-    // TODO: check SsdStorage, OctopusStorage
-    OwlStorage.get(id) match {
-      case Some(owl) =>
-        val updatedOwl = owl.copy(
-          description = description.getOrElse(owl.description)
-        )
-        OwlStorage.update(id, updatedOwl) match {
-          case Some(_) =>
-            updatedOwl
-          case None =>
-            logger.error(s"Owl $id could not be updated.")
-            throw InternalException(s"Owl $id could not be updated.")
-        }
-      case None =>
-        throw NotFoundException(s"Owl $id not found.")
-    }
-  }
-
-  /**
-    * Deletes an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @return Information about the deleted OWL document if successful. Otherwise the exception that
-    *         caused the failure.
-    */
-  def deleteOwl(id: OwlID): Try[Owl] = Try {
-
-    if (OwlStorage.hasDependents(id)) {
-      val msg = s"Owl $id cannot be deleted since it has dependents." +
-        s"Delete first dependents."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    }
-
-    // TODO: check SsdStorage, OctopusStorage
-    OwlStorage.get(id) match {
-      case Some(owl) =>
-        OwlStorage.remove(id) match {
-          case Some(_) =>
-            owl
-          case None =>
-            throw InternalException(s"Owl $id could not be deleted.")
-        }
-      case None =>
-        throw NotFoundException(s"Owl $id not found.")
-    }
-  }
 }

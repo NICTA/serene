@@ -65,6 +65,18 @@ object MatcherInterface extends LazyLogging {
     bagSize = None
   )
 
+  val DefaultFeatures = FeaturesConfig(
+    activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
+      "ratio-alpha-chars", "prop-numerical-chars",
+      "prop-whitespace-chars", "prop-entries-with-at-sign",
+      "prop-entries-with-hyphen", "prop-entries-with-paren",
+      "prop-entries-with-currency-symbol", "mean-commas-per-entry",
+      "mean-forward-slashes-per-entry",
+      "prop-range-format", "is-discrete", "entropy-for-discrete-values"),
+    activeGroupFeatures = Set.empty[String],
+    featureExtractorParams = Map()
+  )
+
   /**
     * DataReference object used for passing back information
     * on how the user's label data corresponds with existing
@@ -126,9 +138,9 @@ object MatcherInterface extends LazyLogging {
           description = request.description.getOrElse(MissingValue),
           modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
           classes = request.classes.getOrElse(List()),
-          features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
+          features = request.features.getOrElse(DefaultFeatures),
           costMatrix = request.costMatrix.getOrElse(List()),
-          resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
+          resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.NO_RESAMPLING),
           labelData = dataRef.cleanLabels,
           refDataSets = dataRef.refDataSets.toList,
           modelPath = None,

@@ -18,14 +18,14 @@
 package au.csiro.data61.core.api
 
 import java.nio.file.Files
-import au.csiro.data61.core.drivers.OctopusInterface
-import au.csiro.data61.types.SsdTypes.{Owl, OwlID, OwlDocumentFormat}
+
+import au.csiro.data61.core.drivers.{OctopusInterface, SsdInterface}
+import au.csiro.data61.types.SsdTypes.{Owl, OwlDocumentFormat, OwlID}
 import com.twitter.finagle.http.Version.Http11
 import com.twitter.finagle.http.{Response, Status, Version}
 import com.twitter.finagle.http.exp.Multipart.{FileUpload, InMemoryFileUpload, OnDiskFileUpload}
-import com.twitter.io.{Reader, BufInputStream}
+import com.twitter.io.{BufInputStream, Reader}
 import io.finch._
-
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -45,7 +45,7 @@ object OwlAPI extends RestAPI {
     * This endpoint handles GET requests for /version/owl.
     */
   val listOwls: Endpoint[List[OwlID]] = get(APIVersion :: OwlRootPath) {
-    Ok(OctopusInterface.owlKeys)
+    Ok(SsdInterface.owlKeys)
   }
 
   /**
@@ -69,7 +69,7 @@ object OwlAPI extends RestAPI {
       case InMemoryFileUpload(content, _, _, _) => new BufInputStream(content)
     }
 
-    OctopusInterface.createOwl(name, desc, fmt, stream) match {
+    SsdInterface.createOwl(name, desc, fmt, stream) match {
       case Some(owl: Owl) => Ok(owl)
       case _ =>
         logger.error(s"Owl could not be created.")
@@ -85,7 +85,7 @@ object OwlAPI extends RestAPI {
   val getOwl: Endpoint[Owl] = get(APIVersion :: OwlRootPath :: int) { (id: Int) =>
     logger.info(s"Getting OWL with ID=$id")
 
-    OctopusInterface.getOwl(id) match {
+    SsdInterface.getOwl(id) match {
       case Some(owl) => Ok(owl)
       case None => NotFound(NotFoundException(s"OWL $id not found"))
     }
@@ -96,9 +96,9 @@ object OwlAPI extends RestAPI {
     (id: Int) =>
       logger.info(s"Getting OWL document with ID=$id")
 
-      OctopusInterface.getOwl(id) match {
+      SsdInterface.getOwl(id) match {
         case Some(owl) =>
-          OctopusInterface.getOwlDocument(owl) match {
+          SsdInterface.getOwlDocument(owl) match {
             case Success(reader: Reader) =>
               val response = Response(Http11, Status.Ok, reader)
               response.contentType = "text/plain"
@@ -123,7 +123,7 @@ object OwlAPI extends RestAPI {
       logger.info(s"Updating OWL with ID=$id, description=$description")
 
       if (contentType.compareToIgnoreCase(UrlEncodedFormContentType) == 0) {
-        OctopusInterface.updateOwl(id, description) match {
+        SsdInterface.updateOwl(id, description) match {
           case Success(owl) =>
             Ok(owl)
           case Failure(th) =>
@@ -145,7 +145,7 @@ object OwlAPI extends RestAPI {
     (id: Int) =>
       logger.info(s"Deleting OWL with ID=$id")
 
-      OctopusInterface.deleteOwl(id) match {
+      SsdInterface.deleteOwl(id) match {
         case Success(owl) =>
           Ok(owl)
         case Failure(th) =>

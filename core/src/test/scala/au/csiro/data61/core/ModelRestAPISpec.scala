@@ -34,15 +34,13 @@ import org.apache.commons.io.FileUtils
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
-import org.scalatest.concurrent._
 
-import scala.concurrent._
+import org.scalatest.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 import api._
 import au.csiro.data61.core.storage.{JsonFormats, ModelStorage}
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
-import com.twitter.finagle.http
 import org.apache.spark.ml.classification.RandomForestClassificationModel
 
 import language.postfixOps
@@ -394,7 +392,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(model.classes === TestClasses)
 
     } finally {
-        deleteAllModels()
+      deleteAllModels()
       assertClose()
     }
   })
