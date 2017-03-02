@@ -86,11 +86,16 @@ class OwlAPISpec extends FunSuite with JsonFormats {
     parse(response.contentString).extract[Owl]
   }
 
-  def updateOwl(id: OwlID, description: String)(implicit server: TestServer): Try[Owl] = Try {
+  def updateOwl(id: OwlID, document: File, description: String)(implicit server: TestServer): Try[Owl] = Try {
+
+    val buf = Await.result(Reader.readAll(Reader.fromFile(document)))
+
     val request = RequestBuilder()
       .url(server.fullUrl(s"/$APIVersion/owl/$id"))
       .addFormElement("description" -> description)
-      .buildFormPost()
+      .add(FileElement("file", buf, None, Some(document.getName)))
+      .buildFormPost(multipart = true)
+
     val response = Await.result(server.client(request))
     parse(response.contentString).extract[Owl]
   }
@@ -165,17 +170,17 @@ class OwlAPISpec extends FunSuite with JsonFormats {
     try {
       val createdOwl = createOwl(RdfXmlDocument, RdfXml, RdfXmlOwlDescription).get
       val updatedDescription = "Updated description"
-      val updatedOwl = updateOwl(createdOwl.id, updatedDescription).get
+      val updatedOwl = updateOwl(createdOwl.id, TurtleDocument, updatedDescription).get
 
       updatedOwl should have (
         'id (createdOwl.id),
-        'name (createdOwl.name),
+        'name (TurtleDocument.getName),
         'description (updatedDescription),
         'format (createdOwl.format),
         'dateCreated (createdOwl.dateCreated)
       )
 
-      updatedOwl.dateModified.getMillis should be >= updatedOwl.dateCreated.getMillis
+      updatedOwl.dateModified.getMillis should be > updatedOwl.dateCreated.getMillis
     } finally {
       deleteAllOwls
       assertClose()

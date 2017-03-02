@@ -55,26 +55,30 @@ object OwlAPI extends RestAPI {
     * /version/owl?format=:format&description=[:description]. The request body should be
     * multipart/form-data containing the OWL document with name "file".
     */
-  val createOwl: Endpoint[Owl] = post(
-    APIVersion :: OwlRootPath :: fileUpload("file") :: param("format") :: paramOption("description")
-  ) { (file: FileUpload, format: String, description: Option[String]) =>
-    logger.info(s"Creating OWL with file=$file, format=$format, description=$description.")
+  val createOwl: Endpoint[Owl] = post(APIVersion :: OwlRootPath :: fileUpload("file") :: param("format") :: paramOption("description")) {
 
-    val name = file.fileName
-    val desc = description.getOrElse("")
-    val fmt = Try { OwlDocumentFormat.withName(format) } getOrElse OwlDocumentFormat.Unknown
+    (file: FileUpload, format: String, description: Option[String]) =>
 
-    val stream = file match {
-      case OnDiskFileUpload(content, _, _, _) => Files.newInputStream(content.toPath)
-      case InMemoryFileUpload(content, _, _, _) => new BufInputStream(content)
-    }
+      logger.info(s"Creating OWL with file=$file, format=$format, description=$description.")
 
-    OctopusInterface.createOwl(name, desc, fmt, stream) match {
-      case Some(owl: Owl) => Ok(owl)
-      case _ =>
-        logger.error(s"Owl could not be created.")
-        InternalServerError(InternalException(s"Owl could not be created."))
-    }
+      val name = file.fileName
+      val desc = description.getOrElse("")
+      val fmt = Try { OwlDocumentFormat.withName(format) } getOrElse OwlDocumentFormat.Unknown
+
+      val stream = file match {
+        case OnDiskFileUpload(content, _, _, _) =>
+          Files.newInputStream(content.toPath)
+        case InMemoryFileUpload(content, _, _, _) =>
+          new BufInputStream(content)
+      }
+
+      OctopusInterface.createOwl(name, desc, fmt, stream) match {
+        case Some(owl: Owl) =>
+          Ok(owl)
+        case _ =>
+          logger.error(s"Owl could not be created.")
+          InternalServerError(InternalException(s"Owl could not be created."))
+      }
   }
 
   /**
@@ -118,21 +122,26 @@ object OwlAPI extends RestAPI {
     * This endpoint handles POST requests for /version/owl/:id with an
     * application/x-www-form-urlencoded body containing an optional parameter "description".
     */
-  val updateOwl: Endpoint[Owl] = post(APIVersion :: OwlRootPath :: int :: paramOption("description") :: header("Content-Type")) {
-    (id: Int, description: Option[String], contentType: String) =>
-      logger.info(s"Updating OWL with ID=$id, description=$description")
+  val updateOwl: Endpoint[Owl] = post(APIVersion :: OwlRootPath :: int :: fileUploadOption("file") :: paramOption("description") :: header("Content-Type")) {
 
-      if (contentType.compareToIgnoreCase(UrlEncodedFormContentType) == 0) {
-        OctopusInterface.updateOwl(id, description) match {
-          case Success(owl) =>
-            Ok(owl)
-          case Failure(th) =>
-            InternalServerError(new RuntimeException(th))
-        }
-      } else {
-        BadRequest(BadRequestException(
-          s"Must have HTTP header Content-Type=$UrlEncodedFormContentType."
-        ))
+    (id: Int, file: Option[FileUpload], description: Option[String], contentType: String) =>
+
+      logger.info(s"Updating OWL with ID=$id, file=$file, description=$description")
+
+      val stream = file.map {
+        case OnDiskFileUpload(content, _, _, _) =>
+          Files.newInputStream(content.toPath)
+        case InMemoryFileUpload(content, _, _, _) =>
+          new BufInputStream(content)
+      }
+
+      val filename = file.map(_.fileName)
+
+      OctopusInterface.updateOwl(id, description, filename, stream) match {
+        case Success(owl) =>
+          Ok(owl)
+        case Failure(th) =>
+          InternalServerError(new RuntimeException(th))
       }
   }
 
