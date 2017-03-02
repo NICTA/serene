@@ -36,15 +36,20 @@ import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
 
 /**
-  *  Octopus REST endpoints...
+  * Octopus REST endpoints...
   *
-  *  GET    /v1.0/octopus              -- json list of octopus ids
-  *  POST   /v1.0/octopus              -- json octopus object
-  *  GET    /v1.0/octopus/:id          -- json octopus object
-  *  GET    /v1.0/octopus/:id/train    -- returns async status obj
-  *  GET    /v1.0/octopus/:id/predict  -- returns async status obj
-  *  POST   /v1.0/octopus/:id          -- update
-  *  DELETE /v1.0/octopus/:id
+  * GET    /v1.0/octopus              -- json list of octopus ids
+  * POST   /v1.0/octopus              -- json octopus object
+  * GET    /v1.0/octopus/:id          -- json octopus object
+  * GET    /v1.0/octopus/:id/train    -- returns async status obj
+  * GET    /v1.0/octopus/:id/predict  -- returns async status obj
+  * POST   /v1.0/octopus/:id          -- update
+  * DELETE /v1.0/octopus/:id
+  *
+  * UPDATED:
+  * POST :8080/v1.0/octopus/{id} <- OctopusRequest(list of SsdID)
+  * POST :8080/v1.0/octopus/{id}/predict?datasetID={id} -> SsdResults(predictions = List[(SSDRequest, score)])
+  * POST :8080/v1.0/octopus/{id}/train
   */
 object OctopusAPI extends RestAPI {
 

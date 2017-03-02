@@ -91,7 +91,11 @@ object OwlAPI extends RestAPI {
     }
   }
 
-
+  /**
+    * Gets the OWL document with specified ID.
+    *
+    * The endpoint handles GET requests for /version/owl/:id/file.
+    */
   val getOwlDocument: Endpoint[Response] = get(APIVersion :: OwlRootPath :: int :: "file") {
     (id: Int) =>
       logger.info(s"Getting OWL document with ID=$id")
@@ -127,7 +131,8 @@ object OwlAPI extends RestAPI {
           case Success(owl) =>
             Ok(owl)
           case Failure(th) =>
-            InternalServerError(new RuntimeException(th))
+            logger.error(s"Owl $id could not be updated.", th)
+            InternalServerError(InternalException(s"Owl $id could not be updated."))
         }
       } else {
         BadRequest(BadRequestException(
@@ -149,7 +154,8 @@ object OwlAPI extends RestAPI {
         case Success(owl) =>
           Ok(owl)
         case Failure(th) =>
-          InternalServerError(new RuntimeException(th))
+          logger.error(s"Failed to delete Owl $id.", th)
+          InternalServerError(InternalException(s"Failed to delete Owl $id."))
       }
   }
 

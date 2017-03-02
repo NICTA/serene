@@ -18,25 +18,24 @@
 package au.csiro.data61.core.drivers
 
 import java.io.{IOException, InputStream}
-import java.nio.file.{Path, Paths}
+import java.nio.file.Path
 
 import au.csiro.data61.core.api._
 import au.csiro.data61.core.storage._
 import au.csiro.data61.modeler.{PredictOctopus, TrainOctopus}
-import au.csiro.data61.types.ColumnTypes.ColumnID
+import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types.ModelTypes.ModelID
 import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
-import au.csiro.data61.types._
-import au.csiro.data61.types.DataSetTypes._
-import au.csiro.data61.types.Training.{Status, TrainState}
 import au.csiro.data61.types.SsdTypes._
+import au.csiro.data61.types.Training.{Status, TrainState}
+import au.csiro.data61.types._
 import com.twitter.io.Reader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
-import scala.language.postfixOps
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.{ExecutionContext, Future}
+import scala.language.postfixOps
 import scala.util.{Failure, Random, Success, Try}
 
 /**
@@ -109,14 +108,12 @@ object OctopusInterface extends LazyLogging{
   }
 
   /**
-    *
-    * @param request
-    * @return
+    * Wraps check and conversion procedures.
+    * @param request The SSD request.
+    * @param id The SSD ID.
+    * @return Valid SSD if successful. Otherwise the exception that caused the failure.
     */
-  def createSsd(request: SsdRequest): Ssd = {
-
-    val id = genID
-
+  protected def checkAndConvertSsdRequest(request: SsdRequest, id: SsdID): Try[Ssd] = Try {
     // get list of attributes from the mappings
     // NOTE: for now we automatically generate them to be equal to the original columns
     val ssdAttributes: List[SsdAttribute] = request
@@ -129,19 +126,82 @@ object OctopusInterface extends LazyLogging{
     checkSsdRequest(request, ssdAttributes)
 
     // build the Semantic Source Description from the request, adding defaults where necessary
-    val ssdOpt = for {
-
-      ssd <- Try {
-        // we convert here the request to the SSD and also check if the SSD is complete
-        convertSsdRequest(request, ssdAttributes, id)
-      }.toOption
-      _ <- SsdStorage.add(id, ssd)
-
-    } yield ssd
-
-    ssdOpt getOrElse { throw InternalException("Failed to create resource.") }
-
+    // we convert here the request to the SSD and also check if the SSD is complete
+    convertSsdRequest(request, ssdAttributes, id)
   }
+
+  /**
+    * Creates an SSD.
+    * @param request The SSD creation request.
+    * @return The created SSD if successful. Otherwise the exception that caused the failure.
+    */
+  def createSsd(request: SsdRequest): Try[Ssd] = {
+    val id = genID
+
+    checkAndConvertSsdRequest(request, id) flatMap { (ssd: Ssd) => Try {
+      SsdStorage.add(id, ssd) match {
+        case Some(_) => ssd
+        case None => throw new IOException(s"SSD $id could not be created.")
+      }
+    }}
+  }
+
+  /**
+    * Updates an SSD.
+    * @param id The SSD ID.
+    * @param request The SSD update request.
+    * @return The updated SSD if successful. Otherwise the exception that caused the failure.
+    */
+  def updateSsd(id: SsdID, request: SsdRequest): Try[Ssd] = Try {
+    SsdStorage.get(id) match {
+      case Some(_) =>
+        checkAndConvertSsdRequest(request, id)
+          .flatMap { (ssd: Ssd) => Try {
+            SsdStorage.add(id, ssd) match {
+              case Some(_) => ssd
+              case None => throw new IOException(s"SSD $id could not be updated.")
+            }
+          }}
+          .get
+      case None =>
+        throw new NoSuchElementException(s"SSD $id not found.")
+    }
+  }
+
+  /**
+    * Gets the IDs of available SSDs.
+    *
+    * @return The list of SSD IDs.
+    */
+  def ssdKeys: List[SsdID] = {
+    SsdStorage.keys
+  }
+
+  /**
+    * Deletes an SSD.
+    * @param id The SSD ID.
+    * @return The deleted SSD if successful. Otherwise the exception that caused the failure.
+    */
+  def deleteSsd(id: SsdID): Try[Ssd] = Try {
+    SsdStorage.get(id) match {
+      case Some(ssd) =>
+        SsdStorage.remove(id) match {
+          case Some(_) => ssd
+          case None =>
+            throw new IOException(s"SSD $id could not be deleted.")
+        }
+      case None =>
+        throw new NoSuchElementException(s"SSD $id not found.")
+    }
+  }
+
+  /**
+    * Gets an SSD.
+    *
+    * @param id The ID of the SSD.
+    * @return The SSD if found.
+    */
+  def getSsd(id: SsdID): Option[Ssd] = SsdStorage.get(id)
 
   /**
     * Build a new Octopus from the request.
@@ -502,15 +562,6 @@ object OctopusInterface extends LazyLogging{
       .flatMap(_.ontology)
 
     ssdOntologies ++ ontologies.getOrElse(List.empty[Int])
-  }
-
-  /**
-    * Passes the ssd keys up to the API
-    *
-    * @return
-    */
-  def ssdKeys: List[SsdID] = {
-    SsdStorage.keys
   }
 
   /**

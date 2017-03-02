@@ -17,51 +17,28 @@
  */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.storage.SsdStorage
-import au.csiro.data61.types._
-import org.joda.time.DateTime
-
-import scala.language.postfixOps
 import au.csiro.data61.core.drivers.OctopusInterface
+import au.csiro.data61.types.SsdTypes.SsdID
+import au.csiro.data61.types._
 import io.finch._
-import org.json4s.jackson.JsonMethods._
+import io.finch.json4s.decodeJson
+import shapeless.{:+:, CNil}
 
 import scala.language.postfixOps
-import scala.util.{Failure, Success, Try}
+import scala.util.{Failure, Success}
 
 /**
   * SSD REST endpoints...
-  *
-  * POST  :8080/v1.0/ssd/ <- SSDFrontEnd
-  * GET   :8080/v1.0/ssd/{id} -> SemanticSourceDesc
-  * PATCH :8080/v1.0/ssd/{id} <- SSDFrontEnd
-  * DELETE :8080/v1.0/ssd/{id}
-  *
-  * POST :8080/v1.0/octopus/{id} <- OctopusRequest(list of SsdID)
-  * POST :8080/v1.0/octopus/{id}/predict?datasetID={id} -> SsdResults(predictions = List[(SSDRequest, score)])
-  * POST :8080/v1.0/octopus/{id}/train
   */
 object SsdAPI extends RestAPI {
-
-  val junkSSD = Ssd(
-    id = 1,
-    name = "test",
-    attributes = List(
-      SsdAttribute(1) // this is a dummy attribute created using the specified ColumnId
-    ),
-    ontology = List(1, 2, 3),
-    semanticModel = None,
-    mappings = None,
-    dateCreated = DateTime.now(),
-    dateModified = DateTime.now()
-  )
+  protected val SsdRootPath = "ssd"
 
   /**
-    * Returns all dataset keys
+    * Lists keys of all SSDs.
     *
-    * curl http://localhost:8080/v1.0/ssd
+    * This endpoint handles GET requests for /version/ssd.
     */
-  val ssdRoot: Endpoint[List[Int]] = get(APIVersion :: "ssd") {
+  val listSsds: Endpoint[List[SsdID]] = get(APIVersion :: SsdRootPath) {
     Ok(OctopusInterface.ssdKeys)
   }
 
@@ -75,82 +52,73 @@ object SsdAPI extends RestAPI {
     * Returns a JSON SSD object with id.
     *
     */
-  val ssdCreate: Endpoint[Ssd] = post(APIVersion :: "ssd" :: stringBody) {
-    (body: String) =>
-      Ok(junkSSD)
-  }
-
-  /**
-    * Returns a JSON SSD object at id
-    *
-    * curl http://localhost:8080/v1.0/ssd/12354687
-    */
-  val ssdGet: Endpoint[Ssd] = get(APIVersion :: "ssd" :: int) {
-    (id: Int) =>
-
-      logger.debug(s"Get ssd id=$id")
-
-      val ssd = Try { SsdStorage.get(id) }
-
-      ssd match {
-        case Success(Some(s))  =>
-          Ok(s)
-        case Success(None) =>
-          NotFound(NotFoundException(s"SSD $id does not exist."))
-        case Failure(err) =>
-          BadRequest(BadRequestException(err.getMessage))
+  val createSsd: Endpoint[Ssd] = post(APIVersion :: SsdRootPath :: jsonBody[SsdRequest]) {
+    (request: SsdRequest) =>
+      logger.info(s"Creating SSD with name=${request.name}.")
+      OctopusInterface.createSsd(request) match {
+        case Success(ssd) => Ok(ssd)
+        case Failure(th) =>
+          logger.error(s"SSD with name=${request.name} could not be created.", th)
+          InternalServerError(InternalException(s"SSD could not be created."))
       }
   }
 
   /**
-    * Patch a portion of a SSD. Only description and typeMap
+    * Gets the SSD with specified ID.
     *
-    * Returns a JSON SSD object at id
-    *
-    * curl -X POST -d 'description=This is the new description'
-    * http://localhost:8080/v1.0/ssd/12354687
+    * The endpoint handles GET requests for /version/ssd/:id.
     */
-  val ssdPatch: Endpoint[Ssd] = post(APIVersion :: "ssd" :: int :: stringBody) {
+  val getSsd: Endpoint[Ssd] = get(APIVersion :: SsdRootPath :: int) { (id: Int) =>
+    logger.info(s"Getting SSD with ID=$id")
 
-    (id: Int, body: String) =>
-
-      logger.debug(s"Patching dataset id=$id")
-
-      Ok(junkSSD)
+    OctopusInterface.getSsd(id) match {
+      case Some(ssd) => Ok(ssd)
+      case None => NotFound(NotFoundException(s"SSD $id not found"))
+    }
   }
 
   /**
-    * Deletes the ssd at position id.
+    * Updates the SSD with specified ID.
     *
-    * curl -X DELETE http://localhost:8080/v1.0/ssd/12354687
+    * This endpoint handles POST requests for /version/ssd/:id with an application/json body
+    * containing the new SSD.
     */
-  val ssdDelete: Endpoint[String] = delete(APIVersion :: "ssd" :: int) {
+  val updateSsd: Endpoint[Ssd] = post(APIVersion :: SsdRootPath :: int :: jsonBody[SsdRequest]) {
+    (id: SsdID, request: SsdRequest) =>
+      logger.info(s"Updating SSD with name=${request.name}.")
+
+      OctopusInterface.updateSsd(id, request) match {
+        case Success(ssd) => Ok(ssd)
+        case Failure(th) =>
+          logger.error(s"SSD with name=${request.name} could not be updated.", th)
+          InternalServerError(InternalException(s"SSD could not be updated."))
+      }
+  }
+
+  /**
+    * Deletes the SSD with specified ID.
+    *
+    * This endpoint handles DELETE requests for /version/ssd/:id.
+    */
+  val deleteSsd: Endpoint[Ssd] = delete(APIVersion :: SsdRootPath :: int) {
     (id: Int) =>
-      Try(SsdStorage.remove(id)) match {
+      logger.info(s"Deleting SSD with ID=$id")
 
-        case Success(Some(_)) =>
-          logger.debug(s"Deleted ssd $id")
-          Ok(s"SSD $id deleted successfully.")
-
-        case Success(None) =>
-          logger.debug(s"Could not find ssd $id")
-          NotFound(NotFoundException(s"SSD $id could not be found"))
-
-        case Failure(err) =>
-          logger.debug(s"Some other problem with deleting...")
-          InternalServerError(InternalException(s"Failed to delete resource: ${err.getMessage}"))
+      OctopusInterface.deleteSsd(id) match {
+        case Success(ssd) => Ok(ssd)
+        case Failure(th) => InternalServerError(new RuntimeException(th))
       }
   }
 
   /**
     * Final endpoints for the Dataset endpoint...
     */
-  val endpoints =
-    ssdRoot :+:
-      ssdCreate :+:
-      ssdGet :+:
-      ssdPatch :+:
-      ssdDelete
+  val endpoints: Endpoint[List[SsdID] :+: Ssd :+: Ssd :+: Ssd :+: Ssd :+: CNil] =
+    listSsds :+:
+      createSsd :+:
+      getSsd :+:
+      updateSsd :+:
+      deleteSsd
 }
 
 
