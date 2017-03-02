@@ -151,6 +151,29 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     ))
   }
 
+  /**
+    * Construct DataSetPrediction instance for getCities.csv
+    *
+    * @return
+    */
+  def getProblematicCitiesDataSetPredictions: Option[DataSetPrediction] = {
+    // we care only about scores in the semantic-modeller
+    val col0 = ColumnPrediction(label="City---name",
+      confidence=0.5,
+      scores=Map("City---name" -> 0.5, "State---name" -> 0.5),
+      features=Map())
+    val col1 = ColumnPrediction(label="City---name",
+      confidence=0.0,
+      scores=Map("City---name" -> 0.0, "State---name" -> 0.0),
+      features=Map())
+
+    Some(DataSetPrediction(
+      modelID = 0,
+      dataSetID = 0,
+      predictions = Map("10" -> col0, "11" -> col1)
+    ))
+  }
+
   // wrong semantic type map
   val citiesSemanticTypeMap: Map[String, String] = Map(
     "City" -> "abc:City"
@@ -445,14 +468,104 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
         assert(ssdPred.suggestions.forall(_._2.nodeCoherence == 1))
         assert(ssdPred.suggestions.forall(_._2.nodeCoverage == 1))
 
-        ssdPred.suggestions.forall(_._1.mappings.isDefined)
-
         val recSemanticModel = ssdPred.suggestions.head._1
         val scores = ssdPred.suggestions.head._2
         assert(scores.linkCost === 4)
 
       case _ =>
         fail("Wrong! There should be some prediction!")
+    }
+  }
+
+  test("Recommendation for empty getCities.csv with problematic dataset predictions fails"){
+    addSSD(exampleSSD)
+    // first, we build the Alignment Graph = training step
+    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
+    // our alignment
+    var alignment = karmaTrain.alignment
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
+
+    val newSSD = Try {
+      val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
+      parse(stream).extract[Ssd]
+    } match {
+      case Success(ssd) =>
+        ssd
+      case Failure(err) =>
+        fail(err.getMessage)
+    }
+
+    // now, we run prediction for the new SSD
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
+    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+    val recommends = karmaPredict
+      .suggestModels(newSSD,
+        List(exampleOntol), getProblematicCitiesDataSetPredictions, Map(), citiesAttrToColMap)
+
+    recommends match {
+      case Some(_) =>
+        fail("It actually should fail...")
+      case _ =>
+        succeed
+    }
+  }
+
+  test("Recommendation for empty getCities.csv with filtered problematic dataset predictions will succeed"){
+    addSSD(exampleSSD)
+    // first, we build the Alignment Graph = training step
+    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
+    // our alignment
+    var alignment = karmaTrain.alignment
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
+
+    val newSSD = Try {
+      val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
+      parse(stream).extract[Ssd]
+    } match {
+      case Success(ssd) =>
+        ssd
+      case Failure(err) =>
+        fail(err.getMessage)
+    }
+
+    // now, we run prediction for the new SSD
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
+    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+
+    val convertedDsPreds: Option[DataSetPrediction] = getProblematicCitiesDataSetPredictions match {
+
+      case Some(obj: DataSetPrediction) =>
+        logger.debug(s"Semantic Modeler got ${obj.predictions.size} dataset predictions.")
+        val filteredPreds: Map[String, ColumnPrediction] =
+          obj.predictions
+            .filter(_._2.confidence > 0)
+        logger.info(s"Semantic Modeler will use ${filteredPreds.size} ds predictions.")
+        Some(DataSetPrediction(obj.modelID, obj.dataSetID, filteredPreds))
+
+      case None => None
+    }
+
+    val recommends = karmaPredict
+      .suggestModels(newSSD,
+        List(exampleOntol), convertedDsPreds, Map(), citiesAttrToColMap)
+
+    recommends match {
+      case Some(ssdPred: SsdPrediction) =>
+        assert(ssdPred.suggestions.size === 5)
+        assert(ssdPred.suggestions.forall(_._1.isComplete)) // Karma should return a consistent and complete semantic model
+        assert(ssdPred.suggestions.forall(_._1.isConsistent))
+        assert(ssdPred.suggestions.forall(_._1.mappings.isDefined))
+        assert(ssdPred.suggestions.forall(_._1.mappings.forall(_.mappings.size == 1)))
+        assert(ssdPred.suggestions.forall(_._2.nodeConfidence == 0.5))
+        assert(ssdPred.suggestions.forall(_._2.nodeCoherence == 1))
+        assert(ssdPred.suggestions.forall(_._2.nodeCoverage == 0.5))
+
+        val recSemanticModel = ssdPred.suggestions.head._1
+        val scores = ssdPred.suggestions.head._2
+        assert(scores.linkCost === 3)
+
+      case _ =>
+        fail("Problems here since there are no recommendations :(")
     }
   }
 

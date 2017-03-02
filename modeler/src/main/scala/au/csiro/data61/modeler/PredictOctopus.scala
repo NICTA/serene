@@ -21,7 +21,7 @@ import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, Kar
 import au.csiro.data61.types.ColumnTypes._
 import au.csiro.data61.types.Exceptions.ModelerException
 import au.csiro.data61.types.SsdTypes._
-import au.csiro.data61.types.{DataSetPrediction, SsdPrediction, Ssd}
+import au.csiro.data61.types.{ColumnPrediction, DataSetPrediction, Ssd, SsdPrediction}
 import com.typesafe.scalalogging.LazyLogging
 
 /**
@@ -55,9 +55,30 @@ object PredictOctopus extends LazyLogging {
       ontologies = ontologies,
       None)
 
+    val problematicDsPreds = dsPredictions match {
+      case Some(obj: DataSetPrediction) =>
+        obj.predictions.values
+          .filter(_.confidence == 0)
+      case None => List()
+    }
+    logger.warn(s"Semantic Modeler got problematic ds predictions: ${problematicDsPreds.size}")
+
+    val convertedDsPreds: Option[DataSetPrediction] = dsPredictions match {
+
+      case Some(obj: DataSetPrediction) =>
+        logger.debug(s"Semantic Modeler got ${obj.predictions.size} dataset predictions.")
+        val filteredPreds: Map[String, ColumnPrediction] =
+          obj.predictions
+            .filter(_._2.confidence > 0)
+        logger.info(s"Semantic Modeler will use ${filteredPreds.size} ds predictions.")
+        Some(DataSetPrediction(obj.modelID, obj.dataSetID, filteredPreds))
+
+      case None => None
+    }
+
     val suggestions = KarmaSuggestModel(karmaWrapper).suggestModels(ssd
       , ontologies
-      , dsPredictions
+      , convertedDsPreds
       , octopus.semanticTypeMap
       , attrToColMap: Map[AttrID,ColumnID]
       , numSemanticTypes)
