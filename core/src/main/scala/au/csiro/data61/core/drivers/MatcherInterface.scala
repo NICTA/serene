@@ -36,7 +36,7 @@ import scala.language.postfixOps
 import scala.util.{Failure, Random, Success, Try}
 
 /**
- * IntegrationAPI defines the interface through which requests
+ * This is the interface through which requests
  * can access the underlying system. The responsibilities are
  * to parse the requests and translate into instructions for the
  * system. The return values of the functions should be simple

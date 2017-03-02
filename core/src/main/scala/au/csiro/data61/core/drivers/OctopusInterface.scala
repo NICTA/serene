@@ -164,7 +164,7 @@ object OctopusInterface extends LazyLogging{
       classes = classes,
       features = request.features,
       costMatrix = None,
-      labelData = labelData,
+      labelData = labelData, // add unknown class columns?
       resamplingStrategy = request.resamplingStrategy,
       numBags = request.numBags,
       bagSize = request.bagSize)
@@ -431,6 +431,7 @@ object OctopusInterface extends LazyLogging{
     SsdResults(predictions = convertedTuples)
   }
 
+
   /**
     * Perform prediction using the octopus for a dataset.
     * Emtpy SSD will automatically be generated for the dataset.
@@ -440,10 +441,11 @@ object OctopusInterface extends LazyLogging{
     * @return
     */
   def predictOctopus(id: OctopusID, dsId : DataSetID): SsdResults = {
-
+    // FIXME: unclear what happens to the UNKNOWN columns
     if (OctopusStorage.isConsistent(id)) {
       // do prediction
       logger.info(s"Launching prediction with octopus $id for dataset $dsId")
+
       val ssdPredictions: Option[SsdPrediction] = for {
         octopus <- OctopusStorage.get(id)
         dataset <- DatasetStorage.get(dsId)
@@ -564,6 +566,7 @@ object OctopusInterface extends LazyLogging{
 
       // semantic type (aka class label) is constructed as "the label of class URI"---"the label of property URI"
       // TODO: what if the column is mapped to the class node?
+      // TODO: add unknown class columns
       val labelData: Map[Int, String] = ssdMaps.map {
         case (attrID: Int, (classURI, propURI)) =>
           (attrID, constructLabel(classURI,propURI))
