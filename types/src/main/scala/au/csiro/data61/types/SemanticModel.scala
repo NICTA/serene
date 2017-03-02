@@ -25,7 +25,7 @@ import edu.isi.karma.modeling.ontology.OntologyManager
 import edu.isi.karma.rep.alignment.SemanticType.{Origin => KarmaOrigin}
 import edu.isi.karma.rep.alignment.{ClassInstanceLink, ColumnNode, DataPropertyLink, InternalNode}
 import edu.isi.karma.rep.alignment.{LabeledLink, LiteralNode, Node, ObjectPropertyLink, ObjectPropertyType}
-import edu.isi.karma.rep.alignment.{SubClassLink, Label => KarmaLabel, LinkStatus => KarmaLinkStatus, SemanticType => KarmaSemanticType}
+import edu.isi.karma.rep.alignment.{SubClassLink, Label => KarmaLabel, LinkStatus => AlignLinkStatus, SemanticType => KarmaSemanticType}
 import org.jgrapht.graph.DirectedWeightedMultigraph
 import org.json4s._
 
@@ -145,7 +145,7 @@ case object SsdNodeSerializer extends CustomSerializer[SsdNode](
 /**
   * Case class which specifies link type in the semantic model.
   * It is a custom edge specified on the base of a directed edge from scala-graph library.
- *
+  *
   * @param fromNode id of the source node
   * @param toNode id of the target node
   * @param id id of the link
@@ -416,7 +416,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Create Karma LabeledLink from our SsdLink
- *
+    *
     * @param e SsdLink
     * @param source Karma Node
     * @param target Karma Node
@@ -461,7 +461,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * Helper function to get Karma Origin for the SemanticType.
     * If ssdLabel.labelType is not one of the values in the enum for KarmaOrigin,
     * we set the origin to the default value KarmaOrigin.User.
- *
+    *
     * @param ssdLabel Label
     * @return
     */
@@ -476,7 +476,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Create a map from our node ids to Karma ColumnNodes.
- *
+    *
     * @param ssdMappings Mappings of attributes to nodes in the semantic model.
     * @return
     */
@@ -548,7 +548,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * Since Karma tool uses URIs as ids for nodes in the semantic model,
     * we need to make sure that nodes which correspond to the same ontology class still have unique URIs.
     * For this purpose we index them.
- *
+    *
     * @param nodeID Id of the node
     * @param uriLab Uri label of the node
     * @return
@@ -564,7 +564,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * Create a map from our node ids to Karma Nodes which are not ColumnNode.
     * For ClassNode we have to be careful with karma ids for nodes in the graph:
     * we need to add integers at the end which would ensure uniqueness of nodes.
- *
+    *
     * @param ssdMappings Mappings of attributes to nodes in the semantic model.
     * @return
     */
@@ -601,7 +601,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * Convert to Karma-like representation of the semantic model.
     * We need the Karma ontology manager to define object property types.
     * TODO: check semantic types and all uris using ontology manager.
- *
+    *
     * @param ssdMappings SSDMapping needed to identify ColumnNode
     * @param ontoManager OntologyManager from Karma
     */
@@ -631,7 +631,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
           val edge = createKarmaLink(e.asInstanceOf[LinkT], source, target, ontoManager)
           // change the status of the edge
           // we need to be careful since it influences the edge weight later on
-          edge.setStatus(KarmaLinkStatus.valueOf(e.ssdLabel.status))
+          edge.setStatus(AlignLinkStatus.valueOf(e.ssdLabel.status))
           // edgeWeight exists for DefaultLink, not LabeledLink
           karmaGraph.addEdge(source, target, edge)
       }

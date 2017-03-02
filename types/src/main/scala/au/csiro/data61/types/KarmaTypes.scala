@@ -23,9 +23,8 @@ import au.csiro.data61.types.Exceptions.TypeException
 import au.csiro.data61.types.SsdTypes.{AttrID, OwlID, SsdID}
 import au.csiro.data61.types.GraphTypes._
 import com.typesafe.scalalogging.LazyLogging
-import edu.isi.karma.rep.alignment.{ColumnNode, InternalNode, LabeledLink, Node}
-import edu.isi.karma.rep.alignment.{SemanticType => KarmaSemanticType}
-import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
+import edu.isi.karma.rep.alignment.{ColumnNode, DefaultLink, InternalNode, LabeledLink, Node, SemanticType => KarmaSemanticType}
+import edu.isi.karma.modeling.alignment.{GraphUtil, SemanticModel => KarmaSSD}
 import edu.isi.karma.modeling.alignment.learner.SortableSemanticModel
 import org.jgrapht.graph.DirectedWeightedMultigraph
 import org.joda.time.DateTime
@@ -40,19 +39,36 @@ import scala.language.postfixOps
   */
 object KarmaTypes {
 
+  /**
+    * Kind-of function to read in the alignment graph as our Semantic Model.
+    * This is not correct since the alignment graph is weighted
+    * and has richer labels unlike the Semantic Model.
+    * Better than nothing...
+    *
+    * @param alignGraphJson Location string for the alignment graph
+    * @return
+    */
+  def readAlignmentGraph(alignGraphJson: String): SemanticModel = {
+
+    // this is the output from running Karma
+    val graph: DirectedWeightedMultigraph[Node, DefaultLink] = GraphUtil.importJson(alignGraphJson)
+
+    KarmaGraph(GraphUtil.asLabeledGraph(graph)) // convert it first to LabeledGraph and then make it KarmaGraph
+      .toSemanticModel // convert it to our SemanticModel
+  }
 }
 
 /**
   * Enumeration of Node Type used in Karma
   */
-sealed trait SsdNodeType { def str: String }
+sealed trait KarmaNodeType { def str: String }
 
-object SsdNodeType {
+object KarmaNodeType {
 
-  case object NoneNode  extends SsdNodeType { val str = "None" }
-  case object LiteralNode extends SsdNodeType { val str = "LiteralNode" }
-  case object ColumnNode   extends SsdNodeType { val str = "ColumnNode" }
-  case object InternalNode extends SsdNodeType { val str = "InternalNode" }
+  case object NoneNode  extends KarmaNodeType { val str = "None" }
+  case object LiteralNode extends KarmaNodeType { val str = "LiteralNode" }
+  case object ColumnNode   extends KarmaNodeType { val str = "ColumnNode" }
+  case object InternalNode extends KarmaNodeType { val str = "InternalNode" }
 
   val values = List(
     NoneNode,
@@ -61,7 +77,7 @@ object SsdNodeType {
     InternalNode
   )
 
-  def lookup(str: String): Option[SsdNodeType] = {
+  def lookup(str: String): Option[KarmaNodeType] = {
     values.find(_.str == str)
   }
 }
@@ -71,20 +87,20 @@ object SsdNodeType {
 /**
   * Enumeration of Link Type used in Karma
   */
-sealed trait LinkType { def str: String }
+sealed trait KarmaLinkType { def str: String }
 
-object LinkType {
+object KarmaLinkType {
 
-  case object NoneLink  extends LinkType { val str = "None" }
-  case object CompactSubClassLink extends LinkType { val str = "CompactSubClassLink" }
-  case object CompactObjectPropertyLink   extends LinkType { val str = "CompactObjectPropertyLink" }
-  case object DataPropertyLink extends LinkType { val str = "DataPropertyLink" }
-  case object ObjectPropertyLink extends LinkType { val str = "ObjectPropertyLink" }
-  case object SubClassLink extends LinkType { val str = "SubClassLink" }
-  case object ClassInstanceLink extends LinkType { val str = "ClassInstanceLink" }
-  case object ColumnSubClassLink extends LinkType { val str = "ColumnSubClassLink" }
-  case object DataPropertyOfColumnLink extends LinkType { val str = "DataPropertyOfColumnLink" }
-  case object ObjectPropertySpecializationLink extends LinkType { val str = "ObjectPropertySpecializationLink" }
+  case object NoneLink  extends KarmaLinkType { val str = "None" }
+  case object CompactSubClassLink extends KarmaLinkType { val str = "CompactSubClassLink" }
+  case object CompactObjectPropertyLink   extends KarmaLinkType { val str = "CompactObjectPropertyLink" }
+  case object DataPropertyLink extends KarmaLinkType { val str = "DataPropertyLink" }
+  case object ObjectPropertyLink extends KarmaLinkType { val str = "ObjectPropertyLink" }
+  case object SubClassLink extends KarmaLinkType { val str = "SubClassLink" }
+  case object ClassInstanceLink extends KarmaLinkType { val str = "ClassInstanceLink" }
+  case object ColumnSubClassLink extends KarmaLinkType { val str = "ColumnSubClassLink" }
+  case object DataPropertyOfColumnLink extends KarmaLinkType { val str = "DataPropertyOfColumnLink" }
+  case object ObjectPropertySpecializationLink extends KarmaLinkType { val str = "ObjectPropertySpecializationLink" }
 
   val values = List(
     NoneLink,
@@ -99,7 +115,7 @@ object LinkType {
     ObjectPropertySpecializationLink
   )
 
-  def lookup(str: String): Option[LinkType] = {
+  def lookup(str: String): Option[KarmaLinkType] = {
     values.find(_.str == str)
   }
 }
@@ -107,13 +123,13 @@ object LinkType {
 /**
   * Enumeration of Link Status used in Karma
   */
-sealed trait LinkStatus { def str: String }
+sealed trait KarmaLinkStatus { def str: String }
 
-object LinkStatus {
+object KarmaLinkStatus {
 
-  case object ForcedByUser  extends LinkStatus { val str = "ForcedByUser" }
-  case object PreferredByUI extends LinkStatus { val str = "PreferredByUI" }
-  case object Normal extends LinkStatus { val str = "Normal" }
+  case object ForcedByUser  extends KarmaLinkStatus { val str = "ForcedByUser" }
+  case object PreferredByUI extends KarmaLinkStatus { val str = "PreferredByUI" }
+  case object Normal extends KarmaLinkStatus { val str = "Normal" }
 
   val values = List(
     ForcedByUser,
@@ -121,7 +137,7 @@ object LinkStatus {
     Normal
   )
 
-  def lookup(str: String): Option[LinkStatus] = {
+  def lookup(str: String): Option[KarmaLinkStatus] = {
     values.find(_.str == str)
   }
 }
@@ -163,7 +179,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     uri.split("#") match {
       case Array(ns, value) => (ns + "#", value)
       case _ =>
-        logger.info(s"Not proper uri $uri")
+        logger.warn(s"Not proper uri $uri")
         ("", uri)
     }
   }
@@ -255,9 +271,10 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     * @return SSDLabel for the link
     */
   private def getLabel(node: Node): SsdLabel = {
-    val nodeStatus: String = node.isForced match {
-      case true => "ForcedByUser"
-      case _ => "Normal"}
+    val nodeStatus: String = if (node.isForced) {
+      "ForcedByUser"
+    } else { "Normal" }
+
     node match {
       case n: ColumnNode =>
         SsdLabel(getColumnNodeLabel(n),
@@ -336,7 +353,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
           logger.debug(s"*******targetNode ${edge.getTarget.getId}")
           val targetNode: SsdNode = karmaNodeIdMap(edge.getTarget.getId)
 
-          SsdLink(sourceNode,targetNode,linkID,getLabel(edge))
+          SsdLink(sourceNode, targetNode, linkID, getLabel(edge))
       } toList
 
     logger.debug(s"##################Links add")
