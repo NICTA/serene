@@ -13,42 +13,33 @@ on Debian linux
 sudo apt-get install sbt
 ```
 
-For the semantic modelling part Karma library needs to be available in the local maven repo.
-[Download](https://github.com/usc-isi-i2/Web-Karma) the **Karma** tool.
+For the semantic modelling part 3 [Karma](https://github.com/usc-isi-i2/Web-Karma) java libraries need to be available:
+- karma-common;
+- karma-typer;
+- karma-util.
 
-Make the following methods public: SortableSemanticModel.steinerNodes.getSizeReduction.
+Certain changes have been made to the original Karma code:
 
-Add method ModelLearningGraph.setLastUpdateTime:
+1) Make the following methods public: SortableSemanticModel.steinerNodes.getSizeReduction.
+
+2) Add method ModelLearningGraph.setLastUpdateTime:
 ```
 public void setLastUpdateTime(long newTime) {
 		this.lastUpdateTime = newTime;
 	}
 ```
 
-Add `DINT` to Karma origin of semantic types:
+3) Add `DINT` to Karma origin of semantic types:
 ```
 public enum Origin {
 		AutoModel, User, CRFModel, TfIdfModel, RFModel, DINT
 	}
 ```
 
-Add two more parameters to the method in GraphBuilder.java:
-
+4) Add two more parameters to the method in GraphBuilder.java:
 ```
 private void updateLinkCountMap(DefaultLink link, Node source, Node target)
 ```
-
-Install the **Karma** tool by running:
-
-```
-mvn clean install
-```
-
-Attribute ids in the source descriptions are really important since we rely on Karma code to perform semantic modelling.
-We have to make sure that they are unique across different data sources.
-
-The labels (semantic types) are assumed to come in the format:
-className#propertyName.
 
 
 ## Installation
@@ -101,6 +92,8 @@ WARNING: the server will not work properly if logging level is set to DEBUG!
 
 ## Datasets
 Datasets need to be uploaded to the server. Currently only CSVs are supported. A description can also be added to the dataset upload.
+In case a dataset does not have headers, special header line needs to be added to the CSV (otherwise such dataset will not be properly read in by serene):
+the header line should be numbers starting from 0 to the number of columns -1.
 ```
 # Get a list of datasets...
 curl localhost:8080/v1.0/dataset
@@ -234,7 +227,7 @@ curl -X POST \
     "labelData" : {"1696954974" : "name", "66413956": "address"},
     "resamplingStrategy": "ResampleToMean"
     }' \
-  localhost:8080/v1.0/model
+  localhost:8080/v1.0/model/98793874
 
 
 # Train model (async, use GET on model 98793874 to query state)
@@ -269,6 +262,121 @@ curl -X POST \
     "bagSize": 1000
     }' \
   localhost:8080/v1.0/model
+```
+
+## Semantic Modelling
+
+Attribute ids in the source descriptions are really important since we rely on Karma code to perform semantic modelling. We have to make sure that they are unique across different data sources.
+
+The labels (semantic types) are assumed to come in the format: className---propertyName.
+
+### Semantic Source Descriptions
+Semantic source descriptions provide information how exactly a particular dataset maps into a specified ontology. They include information both about the semantic types (i.e., classes/labels) for the columns as well as information about the relationships of these semantic types. All this information is encoded in the semantic model.
+Before a semantic source description can be uploaded to the server, the associated datasets should be uploaded.
+```
+# Get a list of semantic source descriptions...
+curl localhost:8080/v1.0/ssd
+
+# Post a new SSD...
+# Note that the max upload size is 2GB...
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+      "name": "serene-user-example-ssd",
+      "ontology": [1],
+      "semanticModel": {
+        "nodes": [
+            {
+               "id": 0,
+               "label": "State",
+               "type": "ClassNode"
+           },
+           {
+               "id": 1,
+               "label": "City",
+               "type": "ClassNode"
+           }],
+       "links": [
+           {
+               "id":     0,
+               "source": 1,
+               "target": 0,
+               "label": "isPartOf",
+               "type": "ObjectPropertyLink"
+           }]
+      },
+      "mappings": [
+       {
+            "attribute": 1997319549,
+            "node": 0
+       },
+       {
+           "attribute": 1160349990,
+           "node": 1
+       }],
+    }' \
+         localhost:8080/v1.0/ssd
+
+# Show a single ssd
+curl localhost:8080/v1.0/ssd/12341234
+
+# Update a single ssd
+
+# Delete a ssd
+curl -X DELETE  localhost:8080/v1.0/ssd/12341234
+```
+
+### Ontologies
+
+Serene can handle for now only OWL ontologies.
+```
+# Get a list of ontologies...
+curl localhost:8080/v1.0/owl
+
+# Post a new ontology...
+# Note that the max upload size is 2GB...
+curl -X POST -F 'file=@test.owl' localhost:8080/v1.0/owl
+
+# Show a single owl
+curl localhost:8080/v1.0/owl/12341234
+
+# Update a single owl
+
+# Delete a owl
+curl -X DELETE  localhost:8080/v1.0/owl/12341234
+```
+
+### Octopus
+The octopus endpoint controls the parameters used for the Semantic Modeller of the Serene API. Octopus is the final model which performs both relational and ontological schema matching. 
+```
+# List octopi
+curl localhost:8080/v1.0/model
+
+# Post octopus
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+      "name": "hello",
+      "description": "Testing octopus used for identifying phone numbers only.",
+      "ssds": [1, 2, 3],
+      "ontologies": [1, 2, 3],
+      "modelingProps": "not implemented for now",
+      "modelType": "randomForest",
+      "features": ["isAlpha", "alphaRatio", "atSigns", ...],
+      "resamplingStrategy": "ResampleToMean",
+      "numBags": 10,
+      "bagSize": 10
+    }' \
+         localhost:8080/v1.0/octopus
+
+# Train octopus (async, includes training for the schema matcher model, use GET on octopus 98793874 to query state)
+curl -X POST localhost:8080/v1.0/octopus/98793874/train
+
+# Delete a single octopus
+curl -X DELETE  localhost:8080/v1.0/octopus/12341234
+
+# Suggest a list of semanctic models for a specific dataset 12341234 using octopus. Returns prediction JSON object
+curl -X POST localhost:8080/v1.0/octopus/98793874/predict/12341234
 ```
 
 ## Tests
