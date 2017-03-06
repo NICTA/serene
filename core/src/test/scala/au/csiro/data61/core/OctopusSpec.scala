@@ -92,8 +92,13 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
   }
 
   val exampleOntolPath = Paths.get(ssdDir,"dataintegration_report_ontology.owl")
-  val exampleOwl = Owl(id = exampleOwlID, name = exampleOntolPath.toString, format = OwlDocumentFormat.DefaultOwl,
-    description = "sample", dateCreated = DateTime.now, dateModified = DateTime.now)
+  val exampleOwl = Owl(
+    id = exampleOwlID,
+    name = exampleOntolPath.toString,
+    format = OwlDocumentFormat.DefaultOwl,
+    description = "sample",
+    dateCreated = DateTime.now,
+    dateModified = DateTime.now)
 
   val partialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
   val veryPartialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model2.ssd").toString)
@@ -148,8 +153,10 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
       val stream = new FileInputStream(businessDsPath.toFile)
       parse(stream).extract[DataSet]
     } match {
-      case Success(ds) => ds
-      case Failure(err) => fail(err.getMessage)
+      case Success(ds) =>
+        ds
+      case Failure(err) =>
+        fail(err.getMessage)
     }
     val citiesDS: DataSet = Try {
       val stream = new FileInputStream(businessDsPath.toFile)
@@ -178,7 +185,8 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     assert(lobster.resamplingStrategy === NO_RESAMPLING)
     assert(lobster.classes.size === 4)
     assert(lobster.labelData.size === 4)
-    assert(lobster.labelData === Map(643243447 -> "Organization---name",
+    assert(lobster.labelData === Map(
+      643243447 -> "Organization---name",
       1534291035 -> "Person---name",
       843054462 -> "City---name",
       1138681944 -> "State---name")

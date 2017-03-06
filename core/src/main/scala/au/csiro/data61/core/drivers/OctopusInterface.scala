@@ -224,14 +224,14 @@ object OctopusInterface extends LazyLogging{
       // first we set the model state to training....
       OctopusStorage.updateTrainState(id, Status.BUSY)
       // launch training for the lobster
-      val fut1 = MatcherInterface.lobsterTraining(model.id, force)
+      val launchLobster = MatcherInterface.lobsterTraining(model.id, force)
       // launch training for the octopus
-      val fut2 = launchOctopusTraining(id)
+      val launchOctopus = launchOctopusTraining(id)
 
       // merge both futures
       val aggFut: Future[(Option[Path], Option[Path])] = for {
-        futureLobsterPath <- fut1
-        futureOctopusPath <- fut2
+        futureLobsterPath <- launchLobster
+        futureOctopusPath <- launchOctopus
       } yield (futureLobsterPath, futureOctopusPath)
 
       aggFut onComplete {
@@ -802,24 +802,33 @@ object OctopusInterface extends LazyLogging{
     * @return Updated information of the OWL document if successful. Otherwise the exception that
     *         caused the failure.
     */
-  def updateOwl(id: OwlID, description: Option[String]): Try[Owl] = Try {
-    // TODO: check SsdStorage, OctopusStorage
+  def updateOwl(id: OwlID,
+                description: Option[String],
+                filename: Option[String],
+                stream: Option[InputStream]
+               ): Try[Owl] = Try {
+
     OwlStorage.get(id) match {
       case Some(owl) =>
-        val updatedOwl = owl.copy(
-          description = description.getOrElse(owl.description)
-        )
-        OwlStorage.update(id, updatedOwl) match {
-          case Some(_) =>
-            updatedOwl
-          case None =>
-            logger.error(s"Owl $id could not be updated.")
-            throw InternalException(s"Owl $id could not be updated.")
+        synchronized {
+          // first we just try to write the new document...
+          stream.foreach(OwlStorage.writeOwlDocument(id, _))
+
+          // now we update the description
+          val updatedOwl = owl.copy(
+              name = filename.getOrElse(owl.description),
+              description = description.getOrElse(owl.description),
+              dateModified = DateTime.now())
+
+          OwlStorage
+            .update(id, updatedOwl)
+            .flatMap(OwlStorage.get)
+            .getOrElse(throw InternalException(s"Failed to update Owl at $id"))
         }
       case None =>
-        throw NotFoundException(s"Owl $id not found.")
+        throw BadRequestException(s"Owl $id not found.")
+      }
     }
-  }
 
   /**
     * Deletes an OWL document.
