@@ -44,11 +44,20 @@ import scala.util.{Failure, Random, Success, Try}
   * Interface to the functionality of the Semantic Modeler.
   * Here, requests will be sent to the MatcherInterface as well.
   */
-object OctopusInterface extends LazyLogging{
+object OctopusInterface extends StorageInterface[OctopusID, Octopus] with Trainable with LazyLogging {
 
   val MissingValue = "unknown"
   val defaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter --> move to modelingProps
 
+  override val storage = OctopusStorage
+
+  protected def missingReferences[Octopus](resource: Octopus): StorageDependencyMap = Map()
+
+  protected def dependents[Octopus](resource: Octopus): StorageDependencyMap = Map()
+
+  override def checkTraining: Boolean = {
+    true
+  }
 
   /**
     * Check if the SsdRequest has proper parameters.
@@ -69,7 +78,7 @@ object OctopusInterface extends LazyLogging{
     }
 
     // check that ontologies are available in the OwlStorage
-    if (!request.ontologies.forall(owlKeys.toSet.contains)) {
+    if (!request.ontologies.forall(OwlInterface.owlKeys.toSet.contains)) {
       val msg = "SSD cannot be added to the storage: ontologies do not exist in the OwlStorage."
       logger.error(msg)
       throw BadRequestException(msg)
@@ -730,133 +739,4 @@ object OctopusInterface extends LazyLogging{
     OctopusStorage.get(id)
   }
 
-
-  /**
-    * Creates an OWL document with related information.
-    *
-    * @param description The description of the OWL document.
-    * @param format The format of the OWL document.
-    * @param inputStream The input stream of the OWL document.
-    * @return The created OWL information if successful. Otherwise the exception that caused the
-    *         failure.
-    */
-  def createOwl(name: String,
-                description: String,
-                format: OwlDocumentFormat,
-                inputStream: InputStream): Option[Owl] = {
-    val id = genID
-    val now = DateTime.now
-    val owl = Owl(
-      id = id,
-      name = name,
-      format = format,
-      description = description,
-      dateCreated = now,
-      dateModified = now
-    )
-
-    for {
-      owlId <- OwlStorage.add(id, owl)
-      owlPath <- OwlStorage.writeOwlDocument(id, inputStream)
-      curOwl <- OwlStorage.get(owlId)
-    } yield curOwl
-
-//    OwlStorage.add(id, owl) match {
-//      case Some(_) =>
-//          OwlStorage.writeOwlDocument(id, inputStream)
-//      case None =>
-//        throw new IOException(s"Owl $id could not be created.")
-//    }
-  }
-
-  /**
-    * Gets the IDs of available OWL documents.
-    *
-    * @return The list of OWL IDs.
-    */
-  def owlKeys: List[OwlID] = OwlStorage.keys
-
-  /**
-    * Gets information about an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @return Information about the OWL document if found.
-    */
-  def getOwl(id: OwlID): Option[Owl] = OwlStorage.get(id)
-
-  /**
-    * Gets the original OWL file uploaded to the server.
-    *
-    * @param owl The owl object
-    * @return A buffered reader object
-    */
-  def getOwlDocument(owl: Owl): Try[Reader] = Try {
-    Reader.fromFile(OwlStorage.getOwlDocumentPath(owl.id).map(_.toFile).get)
-  }
-
-  /**
-    * Updates information about an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @param description The description of the OWL document.
-    * @return Updated information of the OWL document if successful. Otherwise the exception that
-    *         caused the failure.
-    */
-  def updateOwl(id: OwlID,
-                description: Option[String],
-                filename: Option[String],
-                stream: Option[InputStream]
-               ): Try[Owl] = Try {
-
-    OwlStorage.get(id) match {
-      case Some(owl) =>
-        synchronized {
-          // first we just try to write the new document...
-          stream.foreach(OwlStorage.writeOwlDocument(id, _))
-
-          // now we update the description
-          val updatedOwl = owl.copy(
-              name = filename.getOrElse(owl.description),
-              description = description.getOrElse(owl.description),
-              dateModified = DateTime.now())
-
-          OwlStorage
-            .update(id, updatedOwl)
-            .flatMap(OwlStorage.get)
-            .getOrElse(throw InternalException(s"Failed to update Owl at $id"))
-        }
-      case None =>
-        throw BadRequestException(s"Owl $id not found.")
-      }
-    }
-
-  /**
-    * Deletes an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @return Information about the deleted OWL document if successful. Otherwise the exception that
-    *         caused the failure.
-    */
-  def deleteOwl(id: OwlID): Try[Owl] = Try {
-
-    if (OwlStorage.hasDependents(id)) {
-      val msg = s"Owl $id cannot be deleted since it has dependents." +
-        s"Delete first dependents."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    }
-
-    // TODO: check SsdStorage, OctopusStorage
-    OwlStorage.get(id) match {
-      case Some(owl) =>
-        OwlStorage.remove(id) match {
-          case Some(_) =>
-            owl
-          case None =>
-            throw InternalException(s"Owl $id could not be deleted.")
-        }
-      case None =>
-        throw NotFoundException(s"Owl $id not found.")
-    }
-  }
 }
