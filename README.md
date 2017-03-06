@@ -368,7 +368,7 @@ curl -X POST \
       "bagSize": 10
     }' \
          localhost:8080/v1.0/octopus
-
+ extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging 
 # Train octopus (async, includes training for the schema matcher model, use GET on octopus 98793874 to query state)
 curl -X POST localhost:8080/v1.0/octopus/98793874/train
 

@@ -15,31 +15,20 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.core
+package au.csiro.data61.core.drivers
 
-import java.io.FileInputStream
-import java.nio.file.Paths
-
-import au.csiro.data61.core.storage.{JsonFormats, SsdStorage}
-import au.csiro.data61.types._
-import org.scalatest.{BeforeAndAfterEach, FunSuite}
-
-import language.postfixOps
-import scala.util.{Failure, Success, Try}
-import org.json4s._
-import org.json4s.jackson.JsonMethods._
 import com.typesafe.scalalogging.LazyLogging
+import org.apache.spark.ml.util.Identifiable
+
+import scala.language.postfixOps
 
 
 /**
-  * Tests for the OctopusStorage layer
+  * Object to coordinate changes to the storage layers
   */
+object Coordinator extends LazyLogging {
 
-class OctopusStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging{
+  def add(resource <: Identifiable[Int]): Identifiable[Int] = {
 
-  val ssdDir = getClass.getResource("/ssd").getPath
-  def emptySSD: String = Paths.get(ssdDir,"empty_model.ssd") toString
-  def exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
-
-
+  }
 }

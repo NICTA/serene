@@ -22,26 +22,20 @@ import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.api._
 import au.csiro.data61.core.storage._
-import au.csiro.data61.modeler.{PredictOctopus, TrainOctopus}
-import au.csiro.data61.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.core.drivers.Generic._
-import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
 import au.csiro.data61.types._
-import au.csiro.data61.types.DataSetTypes._
-import au.csiro.data61.types.Training.{Status, TrainState}
 import au.csiro.data61.types.SsdTypes._
+
 import com.twitter.io.Reader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
 import scala.language.postfixOps
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.{ExecutionContext, Future}
-import scala.util.{Failure, Random, Success, Try}
+import scala.util.{Failure, Success, Try}
 
 /**
-  * Interface to the functionality of the Semantic Modeler.
+  * Interface to the Owl and Ssd layers.
   * Here, requests will be sent to the MatcherInterface as well.
   */
 object SsdInterface extends LazyLogging {

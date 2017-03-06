@@ -177,7 +177,7 @@ case class SsdRequest(name: String,
     * @return
     */
   def toSsd(ssdID: SsdID): Ssd = {
-    // get list of attributes from the mappings
+    // get a list of attributes from the mappings
     // NOTE: for now we automatically generate them to be equal to the original columns
     val ssdAttributes: List[SsdAttribute] = mappings
       .map(_.mappings.keys.toList)

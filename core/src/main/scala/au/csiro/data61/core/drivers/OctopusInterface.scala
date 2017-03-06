@@ -17,7 +17,6 @@
   */
 package au.csiro.data61.core.drivers
 
-import java.io.{IOException, InputStream}
 import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.api._
@@ -26,19 +25,17 @@ import au.csiro.data61.modeler.{PredictOctopus, TrainOctopus}
 import au.csiro.data61.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.core.drivers.Generic._
 import au.csiro.data61.types.ColumnTypes.ColumnID
-import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
 import au.csiro.data61.types._
 import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types.Training.{Status, TrainState}
 import au.csiro.data61.types.SsdTypes._
-import com.twitter.io.Reader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
 import scala.language.postfixOps
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.{ExecutionContext, Future}
-import scala.util.{Failure, Random, Success, Try}
+import scala.util.{Failure, Success, Try}
 
 /**
   * Interface to the functionality of the Semantic Modeler.
@@ -51,17 +48,19 @@ object OctopusInterface extends LazyLogging{
 
   /**
     * Check existence of references (SSDs and Owls) for octopus.
-    * @param octopus Octopus object
+    * @param octopus OctopusRequest object
     * @return
     */
-  def checkOctopus(octopus: Octopus): Boolean = {
-    octopus.ssds // check existence of SSDs in SsdStorage
+  protected def checkOctopusRequest(octopus: OctopusRequest): Boolean = {
+
+    octopus.ssds.getOrElse(List.empty[Int]) // check existence of SSDs in SsdStorage
       .forall(ssdID => SsdStorage.get(ssdID).isDefined) &&
-    octopus.ontologies // check existence of ontologies in OwlStorage
+    octopus.ontologies.getOrElse(List.empty[Int]) // check existence of ontologies in OwlStorage
       .forall(owlID => OwlStorage.get(owlID).isDefined)
   }
 
   /**
+    * Convert OctopusRequest to Octopus
     *
     * @param request
     * @param octopusID
@@ -69,12 +68,12 @@ object OctopusInterface extends LazyLogging{
     * @param semanticTypeMap
     * @return
     */
-  def convertOctopusRequest(request: OctopusRequest,
-                           octopusID: OctopusID,
-                           lobsterID: ModelID,
-                           semanticTypeMap: Map[String, String]
-                          ): Octopus = {
-    val octopus = Octopus(octopusID,
+  protected def convertOctopusRequest(request: OctopusRequest,
+                                      octopusID: OctopusID,
+                                      lobsterID: ModelID,
+                                      semanticTypeMap: Map[String, String]
+                                     ): Octopus = {
+    Octopus(octopusID,
       name = request.name.getOrElse(MissingValue),
       ontologies = getOntologies(request.ssds, request.ontologies),
       ssds = request.ssds.getOrElse(List.empty[Int]),
@@ -86,13 +85,6 @@ object OctopusInterface extends LazyLogging{
       dateModified = DateTime.now,
       description = request.description.getOrElse(MissingValue)
     )
-
-    if (!checkOctopus(octopus)) {
-      logger.error("Missing references for octopus")
-      throw BadRequestException("Missing references for octopus")
-    }
-
-    octopus
   }
 
   /**
@@ -105,6 +97,11 @@ object OctopusInterface extends LazyLogging{
   def createOctopus(request: OctopusRequest): Octopus = {
 
     val id = genID
+
+    if (!checkOctopusRequest(request)) {
+      logger.error("Missing references for octopus")
+      throw BadRequestException("Missing references for octopus")
+    }
 
     val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
 
@@ -143,6 +140,30 @@ object OctopusInterface extends LazyLogging{
   }
 
   /**
+    * Get octopus and the associated schema matcher model.
+    * In case any of those two are missing throw NotFound.
+    *
+    * @param id
+    * @return
+    */
+  protected def getModels(id: OctopusID): (Octopus, Model) = {
+    val octopus: Octopus = OctopusStorage.get(id) match {
+      case Some(o: Octopus) => o
+      case _ =>
+        logger.error(s"Octopus $id not found.")
+        throw NotFoundException(s"Octopus $id not found.")
+    }
+    val model: Model = ModelStorage.get(octopus.lobsterID) match {
+      case Some(m: Model) => m
+      case _ =>
+        logger.error(s"Associated model ${octopus.lobsterID} for octopus $id not found.")
+        throw NotFoundException(s"Associated model ${octopus.lobsterID} for octopus $id not found.")
+    }
+
+    (octopus, model)
+  }
+
+  /**
     * Trains the Octopus which includes training for the Schema Matcher and Semantic Modeler!
     *
     * @param id The octopus id
@@ -150,8 +171,7 @@ object OctopusInterface extends LazyLogging{
     */
   def trainOctopus(id: OctopusID, force: Boolean = false): Option[TrainState] = {
 
-    val octopus = OctopusStorage.get(id).get
-    val model = ModelStorage.get(octopus.lobsterID).get
+    val (octopus, model) = getModels(id)
 
     if (OctopusStorage.isConsistent(id) && !force) {
       logger.info(s"Octopus $id is already trained.")
@@ -330,6 +350,7 @@ object OctopusInterface extends LazyLogging{
     */
   protected def generateEmptySsd(octopus: Octopus,
                        dataset: DataSet): Option[Ssd] = {
+    logger.debug(s"Generating empty SSD for dataset ${dataset.id}")
     Try {
       Ssd(id = genID,
         name = dataset.filename,
@@ -382,6 +403,8 @@ object OctopusInterface extends LazyLogging{
     */
   def predictOctopus(id: OctopusID, dsId : DataSetID): SsdResults = {
     // FIXME: unclear what happens to the UNKNOWN columns
+
+    // if id is not in the OctopusStorage, isConsistent will throw NotFoundException
     if (OctopusStorage.isConsistent(id)) {
       // do prediction
       logger.info(s"Launching prediction with octopus $id for dataset $dsId")
@@ -550,7 +573,7 @@ object OctopusInterface extends LazyLogging{
       .flatMap(SsdStorage.get)
       .flatMap(_.ontology)
 
-    ssdOntologies ++ ontologies.getOrElse(List.empty[Int])
+    (ssdOntologies ++ ontologies.getOrElse(List.empty[Int])).distinct
   }
 
   /**
@@ -575,10 +598,13 @@ object OctopusInterface extends LazyLogging{
       logger.error(msg)
       throw BadRequestException(msg)
     } else {
+      // we store the ID of the associated model
+      val lobsterID = OctopusStorage.get(key).map(_.lobsterID)
       // first we remove octopus
       val octopusID = OctopusStorage.remove(key)
       // now we remove lobster
-      OctopusStorage.get(key).map(_.lobsterID).map(MatcherInterface.deleteModel)
+      lobsterID.map(MatcherInterface.deleteModel)
+
       octopusID
     }
   }
@@ -612,6 +638,10 @@ object OctopusInterface extends LazyLogging{
     */
   def updateOctopus(id: OctopusID, request: OctopusRequest): Octopus = {
 
+    if (!checkOctopusRequest(request)) {
+      logger.error("Missing references for octopus")
+      throw BadRequestException("Missing references for octopus")
+    }
 
     val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
 

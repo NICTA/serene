@@ -268,7 +268,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
     * @param s
     * @return
     */
-  def pollModelState(model: Model, pollIterations: Int, pollTime: Int)(implicit s: TestServer): Future[Training.Status] = {
+  def pollModelState(model: Model, pollIterations: Int, pollTime: Int)(implicit s: TestServer)
+  : Future[Training.Status] = {
     Future {
 
       def state(): Training.Status = {
@@ -646,7 +647,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(response.status === Status.NotFound)
       assert(!response.contentString.isEmpty)
     } finally {
-        deleteAllModels()
+      deleteAllModels()
       assertClose()
     }
   })
@@ -739,7 +740,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
           throw new Exception("Failed to create test resource")
       }
     } finally {
-        deleteAllModels()
+      deleteAllModels()
       assertClose()
     }
   })
@@ -1087,7 +1088,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
     }
   })
 
-  test("Model rf from older versions cannot be read in") (new TestServer {
+  test("Model.rf from older versions cannot be read in") (new TestServer {
     try {
       // pre-computed model with default spark config
       val oldFile = Paths.get(helperDir, "default-model.rf").toFile

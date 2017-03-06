@@ -127,6 +127,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     ssds = Some(List(businessSSD.id)),
     modelingProps = None)
 
+
   val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None, None)
 
   val helperDir = getClass.getResource("/helper").getPath
@@ -281,7 +282,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
         assert(predictedSSDs.forall(_.mappings.isDefined))
         assert(predictedSSDs.forall(_.mappings.forall(_.mappings.size == 1)))
 
-        ssdPred.predictions.foreach(x => println(x._2))
+//        ssdPred.predictions.foreach(x => println(x._2))
 
 //        assert(ssdPred.predictions.forall(_._2.nodeConfidence == 0.5))
         assert(ssdPred.predictions.forall(_._2.nodeCoherence == 1))

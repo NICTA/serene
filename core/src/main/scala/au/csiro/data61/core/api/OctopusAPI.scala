@@ -138,11 +138,15 @@ object OctopusAPI extends RestAPI {
     */
   val octopusTrain: Endpoint[Unit] = post(APIVersion :: "octopus" :: int :: "train" :: paramOption("force")) {
     (id: Int, force: Option[String]) =>
-      val state = Try(OctopusInterface.trainOctopus(id, force.exists(_.toBoolean)))
-      state match {
+      Try {
+        OctopusInterface.trainOctopus(id, force.exists(_.toBoolean))
+      } match {
         case Success(Some(_))  =>
           Accepted[Unit]
         case Success(None) =>
+          logger.error("Unknown exception during octopus training.")
+          InternalServerError(InternalException("Unknown exception during octopus training."))
+        case Failure(err: NotFoundException) =>
           NotFound(NotFoundException(s"Octopus $id does not exist."))
         case Failure(err) =>
           BadRequest(BadRequestException(err.getMessage))
@@ -169,6 +173,7 @@ object OctopusAPI extends RestAPI {
         case Failure(err: NotFoundException) =>
           NotFound(err)
         case Failure(err) =>
+          logger.error(s"Octopus prediction failed: ${err.getMessage}")
           InternalServerError(InternalException(err.getMessage))
       }
   }
@@ -244,7 +249,6 @@ object OctopusAPI extends RestAPI {
     */
   private def parseOctopusRequest(str: String): Try[OctopusRequest] = {
 
-    // TODO: Implement this!
     for {
       raw <- Try { parse(str) }
 
