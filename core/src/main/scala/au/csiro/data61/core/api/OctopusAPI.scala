@@ -55,8 +55,7 @@ object OctopusAPI extends RestAPI {
     description = "This is an octopus description",
     ssds = List(0, 1, 2, 3),
     ontologies = List(),
-    alignmentDir = None,
-    semanticTypeMap = None,
+    semanticTypeMap = Map.empty[String,String],
     modelingProps = None,
     dateCreated = DateTime.now(),
     dateModified = DateTime.now(),
@@ -148,18 +147,14 @@ object OctopusAPI extends RestAPI {
 
   /**
     * Perform prediction using octopus at id.
-    * Prediction is performed asynchronously.
-    * If no datasetID parameter is provided, prediction is performed for all datasets in the repo.
-    * If a datasetID parameter is provided, prediction is performed only for the dataset with such datasetID.
+    * Currently we support prediction only for datasets with empty SSDs.
     * Note: if a dataset with the provided id does not exist, nothing is done.
     */
-  // auxiliary endpoint for the optional datasetID parameter
-  //val dsParam: Endpoint[Option[Int]] = paramOption("datasetID").as[Int]
 
-  val octopusPredict: Endpoint[SsdPrediction] = post(APIVersion :: "octopus" :: int :: "predict" :: int) {
-    (id: Int, ssdID: Int) =>
+  val octopusPredict: Endpoint[SsdResults] = post(APIVersion :: "octopus" :: int :: "predict" :: int) {
+    (id: Int, dsID: Int) =>
       Try {
-        OctopusInterface.predictOctopus(id, ssdID)
+        OctopusInterface.predictOctopus(id, dsID)
       } match {
         case Success(prediction) =>
           Ok(prediction)

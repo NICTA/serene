@@ -78,8 +78,8 @@ object ModelTrainer extends LazyLogging with JsonFormats {
       resamplingStrategy = trainerPaths.curModel.resamplingStrategy.str,
       featureSettings = featuresConfig,
       costMatrix = Some(Left(trainerPaths.costMatrixConfigPath)),
-      numBags = trainerPaths.curModel.numBags,
-      bagSize = trainerPaths.curModel.bagSize
+      numBags = Some(trainerPaths.curModel.numBags),
+      bagSize = Some(trainerPaths.curModel.bagSize)
     )
   }
 

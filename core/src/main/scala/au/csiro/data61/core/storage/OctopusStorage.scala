@@ -22,11 +22,12 @@ import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.Serene
 import au.csiro.data61.types.Training.{Status, TrainState, _}
-import au.csiro.data61.types.SsdTypes.{Octopus, OctopusID}
+import au.csiro.data61.types.SsdTypes._
+import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
 import org.json4s.jackson.JsonMethods._
 
-import scala.util.{Failure, Success}
+import scala.util.{Failure, Try}
 
 /**
   * AlignmentStorage holds the Alignment objects in a key-value store
@@ -48,13 +49,20 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
     Paths.get(getDirectoryPath(id).toString, DefaultAlignmentDir, GraphJson)
   }
 
+  /**
+    * Octopus does not have dependents.
+    *
+    * @param id
+    * @return
+    */
+  def hasDependents(id: OctopusID): Boolean = false
+
   def extract(stream: FileInputStream): Octopus = {
     parse(stream).extract[Octopus]
   }
 
   /**
-    * updates the training state of octopus `id`
-    *
+    * Updates the training state of octopus `id`.
     * Note that when we update, we need to keep the octopus level 'dateModified' to
     * ensure that the octopus parameters remains static for ssd/dataset comparisons.
     *
@@ -83,6 +91,30 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
   }
 
   /**
+    * We need to delete the alignment graph explicitly in case of changes to the Octopus.
+    * Also, in case training for octopus fails, this alignment directory should also be deleted.
+    * The issue is that Karma will not work properly if we leave the previous version of the alignment graph.
+    * Karma allows incremental learning of the alignment graph.
+    *
+    * @param id octopus id
+    */
+  def deleteAlignmetDir(id: OctopusID): Option[OctopusID] = {
+    logger.debug(s"Deleting alignment directory for octopus $id")
+    // delete directory - be careful
+    val dir: File = getAlignmentDirPath(id).toFile
+
+    synchronized {
+      Try(FileUtils.deleteDirectory(dir)) match {
+        case Failure(err) =>
+          logger.error(s"Failed to delete alignment directory for octopus $id: ${err.getMessage}")
+          None
+        case _ =>
+          Some(id)
+      }
+    }
+  }
+
+  /**
     * Check if the trained octopus is consistent.
     * This means that the alignment directory is available, lobster is consistent and that the SSDs
     * have not been updated since the octopus was last modified.
@@ -97,7 +129,6 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
     // than the training state
     val isOK = for {
       octopus <- get(id)
-      path = Paths.get("")  //TODO: fix this! needs real octopus.alignmentDir
       trainDate = octopus.state.dateChanged
       refIDs = octopus.ssds
       refs = refIDs.flatMap(SsdStorage.get).map(_.dateModified)
@@ -109,7 +140,7 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
       // make sure the SSDs are older than the training date
       allBefore = refs.forall(_.isBefore(trainDate))
       // make sure the alignment graph is there...
-      alignmentExists = true //path.exists(Files.exists(_)) // TODO: fix this! needs real alignment graph check
+      alignmentExists = Files.exists(getAlignmentGraphPath(id))
 
     } yield allBefore && alignmentExists && isComplete && lobsterConsistent
 

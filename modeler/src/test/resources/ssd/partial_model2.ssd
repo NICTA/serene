@@ -1,25 +1,6 @@
 {
-    "version": "0.1",
     "id": 2,
     "name": "businessInfo.csv",
-    "columns": [
-        {
-            "name": "company",
-            "id": 4
-        },
-        {
-            "name": "ceo",
-            "id": 5
-        },
-        {
-            "name": "city",
-            "id": 6
-        },
-        {
-            "name": "state",
-            "id": 7
-        }
-    ],
     "attributes": [
         {
             "id": 4,

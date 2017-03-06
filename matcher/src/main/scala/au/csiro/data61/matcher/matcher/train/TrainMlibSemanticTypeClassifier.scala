@@ -97,7 +97,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
       .setLabelCol("label")
       .setFeaturesCol("features")
       .setMaxDepth(10)
-      .setNumTrees(500)
+      .setNumTrees(128)
     val pipeline = new Pipeline()
       .setStages(Array(indexer, vectorAssembler, dt, labelConverter))
 

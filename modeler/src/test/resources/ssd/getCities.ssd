@@ -1,17 +1,6 @@
 {
-    "version": "0.1",
     "id": 5,
     "name": "getCities.csv",
-    "columns": [
-        {
-            "id": 0,
-            "name": "state"
-        },
-        {
-            "id": 1,
-            "name": "city"
-        }
-    ],
     "attributes": [
         {
             "id": 0,

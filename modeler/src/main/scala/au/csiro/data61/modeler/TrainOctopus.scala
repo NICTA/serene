@@ -32,14 +32,12 @@ import scala.util.{Failure, Success, Try}
   * As output we get the alignment graph.
   */
 object TrainOctopus extends LazyLogging{
-  // TODO: to be implemented once AlignmentStorage layer is up
-  // delete karma-dir??
 
 
-  def train(octopus: Octopus,
-            alignmentDir: Path,
-            ontologies: List[String],
-            knownSSDs: List[Ssd]): Option[Path] = {
+  def train(octopus: Octopus
+            , alignmentDir: Path
+            , ontologies: List[String]
+            , knownSSDs: List[Ssd]): Option[Path] = {
     Try {
       val karmaWrapper = KarmaParams(alignmentDir = alignmentDir.toString,
         ontologies = ontologies,
