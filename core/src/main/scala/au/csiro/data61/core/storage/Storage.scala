@@ -80,7 +80,6 @@ object Readable {
  * disk layer, storing objects in json format.
  *
  */
-
 trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonFormats {
 
   implicit val keyReader: Readable[Key]

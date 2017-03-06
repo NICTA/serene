@@ -20,10 +20,11 @@ package au.csiro.data61.core.drivers
 import java.nio.file.Path
 
 import au.csiro.data61.core.api._
-import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
+import au.csiro.data61.core.storage.{OctopusStorage, Storage, DatasetStorage, ModelStorage}
 import au.csiro.data61.types.ColumnTypes._
 import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types.ModelTypes._
+import au.csiro.data61.types.SsdTypes._
 import au.csiro.data61.types.Training.{Status, TrainState}
 import au.csiro.data61.types._
 import com.github.tototoshi.csv.CSVReader
@@ -577,5 +578,5 @@ object MatcherInterface extends LazyLogging {
     }
   }
 
-
 }
+
