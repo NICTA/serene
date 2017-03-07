@@ -18,6 +18,7 @@
 package au.csiro.data61.types
 
 import au.csiro.data61.types.Exceptions.TypeException
+import org.joda.time.DateTime
 import org.json4s._
 
 import scala.util.{Failure, Success, Try}
@@ -61,3 +62,14 @@ object HelperJSON {
     }
   }
 }
+
+case object JodaTimeSerializer extends CustomSerializer[DateTime](format => (
+  {
+    case jv: JValue =>
+      implicit val formats = DefaultFormats
+      val str = jv.extract[String]
+      DateTime.parse(str)
+  }, {
+  case datetime: DateTime =>
+    JString(datetime.toLocalDateTime.toString)
+}))

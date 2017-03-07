@@ -67,8 +67,8 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   override def beforeEach(): Unit = {
     copySampleDatasets() // copy csv files for getCities and businessInfo
-    SsdStorage.add(businessSsdID, businessSSD) // add businessInfo ssd
-    OwlStorage.add(exampleOwlID, exampleOwl)  // add sample ontology
+    SsdStorage.add(businessSSD.id, businessSSD) // add businessInfo ssd
+    OwlStorage.add(exampleOwl.id, exampleOwl)  // add sample ontology
     // write owl file
     Try{
       val stream = new FileInputStream(exampleOntolPath.toFile)
@@ -92,8 +92,13 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
   }
 
   val exampleOntolPath = Paths.get(ssdDir,"dataintegration_report_ontology.owl")
-  val exampleOwl = Owl(id = exampleOwlID, name = exampleOntolPath.toString, format = OwlDocumentFormat.DefaultOwl,
-    description = "sample", dateCreated = DateTime.now, dateModified = DateTime.now)
+  val exampleOwl = Owl(
+    id = exampleOwlID,
+    name = exampleOntolPath.toString,
+    format = OwlDocumentFormat.DefaultOwl,
+    description = "sample",
+    dateCreated = DateTime.now,
+    dateModified = DateTime.now)
 
   val partialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
   val veryPartialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model2.ssd").toString)
@@ -122,7 +127,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     numBags = None,
     bagSize = None,
     ontologies = None,
-    ssds = Some(List(0)),
+    ssds = Some(List(businessSSD.id)),
     modelingProps = None)
 
   val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None, None)
@@ -130,9 +135,9 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
   val helperDir = getClass.getResource("/helper").getPath
   val sampleDsDir = getClass.getResource("/sample.datasets").getPath
   val datasetMap = Map("businessInfo" -> 767956483, "getCities" -> 696167703)
-  val businessDSPath = Paths.get(sampleDsDir,
+  val businessDsPath = Paths.get(sampleDsDir,
     datasetMap("businessInfo").toString, datasetMap("businessInfo").toString + ".json")
-  val citiesDSPath = Paths.get(sampleDsDir,
+  val citiesDsPath = Paths.get(sampleDsDir,
     datasetMap("getCities").toString, datasetMap("getCities").toString + ".json")
 
   def copySampleDatasets(): Unit = {
@@ -145,14 +150,16 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
     // adding datasets explicitly to the storage
     val businessDS: DataSet = Try {
-      val stream = new FileInputStream(businessDSPath.toFile)
+      val stream = new FileInputStream(businessDsPath.toFile)
       parse(stream).extract[DataSet]
     } match {
-      case Success(ds) => ds
-      case Failure(err) => fail(err.getMessage)
+      case Success(ds) =>
+        ds
+      case Failure(err) =>
+        fail(err.getMessage)
     }
     val citiesDS: DataSet = Try {
-      val stream = new FileInputStream(businessDSPath.toFile)
+      val stream = new FileInputStream(businessDsPath.toFile)
       parse(stream).extract[DataSet]
     } match {
       case Success(ds) => ds
@@ -178,7 +185,8 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     assert(lobster.resamplingStrategy === NO_RESAMPLING)
     assert(lobster.classes.size === 4)
     assert(lobster.labelData.size === 4)
-    assert(lobster.labelData === Map(643243447 -> "Organization---name",
+    assert(lobster.labelData === Map(
+      643243447 -> "Organization---name",
       1534291035 -> "Person---name",
       843054462 -> "City---name",
       1138681944 -> "State---name")

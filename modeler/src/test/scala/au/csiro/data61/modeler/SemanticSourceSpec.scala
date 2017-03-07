@@ -55,8 +55,8 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   def dummyGraph: Graph[SsdNode, SsdLink] = {
     val ssdLab1: SsdLabel = SsdLabel("Person", "ClassNode")
     val ssdLab2: SsdLabel = SsdLabel("name", "DataNode")
-    val n1: SsdNode = SsdNode(1,ssdLab1)
-    val n2: SsdNode = SsdNode(2,ssdLab2)
+    val n1: SsdNode = SsdNode(1, ssdLab1)
+    val n2: SsdNode = SsdNode(2, ssdLab2)
     val linkLab: SsdLabel = SsdLabel("name","DataProperty")
     Graph(SsdLink(n1,n2,1,linkLab))
   }
@@ -64,7 +64,6 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   def dummyCol: SsdColumn = SsdColumn(1, "ceo")
   def dummyAttr: SsdAttribute = SsdAttribute(1, "ceo", "ident", List(1), "select ceo from 'businessInfo.csv'")
   def dummyAttr2: SsdAttribute = SsdAttribute(1, "ceo", "ident", List(2), "select ceo from 'businessInfo.csv'")
-  def dummyOntol: String = "/home/rue009/Projects/DFAT/SchemaMapping/Transformations/tests/example/dataintegration_report_ontology.owl"
   def dummyMap: SsdMapping = SsdMapping(Map(1 -> 2))
   def dummyMap2: SsdMapping = SsdMapping(Map(1 -> 2, 1 -> 4))
   def dummyMap3: SsdMapping = SsdMapping(Map(1 -> 2, 3 -> 1))
@@ -194,7 +193,6 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       dateCreated = DateTime.now,
       dateModified = DateTime.now)
     val json = Extraction.decompose(ssd)
-    print(json)
     val ssd2 = json.extract[Ssd]
 
     assert(ssd.mappings === ssd2.mappings)

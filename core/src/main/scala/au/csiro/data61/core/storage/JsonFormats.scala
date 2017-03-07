@@ -49,8 +49,9 @@ case object PathSerializer extends CustomSerializer[Path](format => ( {
 trait JsonFormats {
 
   implicit def json4sFormats: Formats =
-    org.json4s.DefaultFormats ++
-      org.json4s.ext.JodaTimeSerializers.all +
+    org.json4s.DefaultFormats +
+      //org.json4s.ext.JodaTimeSerializers.all +
+      JodaTimeSerializer +
       LogicalTypeSerializer +
       PathSerializer +
       SamplingStrategySerializer +

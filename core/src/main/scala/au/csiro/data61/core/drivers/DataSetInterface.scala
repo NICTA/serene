@@ -15,23 +15,21 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
+package au.csiro.data61.core.drivers
 
-package au.csiro.data61.modeler
+import au.csiro.data61.core.storage.{Storage, DatasetStorage}
+import au.csiro.data61.types.{Identifiable, DataSet}
+import au.csiro.data61.types.DataSetTypes.DataSetID
+import com.typesafe.scalalogging.LazyLogging
 
-import au.csiro.data61.types._
-import org.json4s.Formats
+import language.implicitConversions
 
-/**
-  * Holds the implicit modeller objects for the Json4s Serializers.
-  *
-  * This is actually needed only for tests
-  */
-trait ModelerJsonFormats {
-  implicit def json4sFormats: Formats =
-    org.json4s.DefaultFormats +
-      JodaTimeSerializer +
-      SsdNodeSerializer +
-      HelperLinkSerializer +
-      SemanticModelSerializer +
-      SsdMappingSerializer
+object DataSetInterface extends StorageInterface[DataSetID, DataSet] with LazyLogging {
+
+  override protected val storage = DatasetStorage
+
+  protected def missingReferences[DataSet](resource: DataSet): StorageDependencyMap = Map()
+
+  protected def dependents[DataSet](resource: DataSet): StorageDependencyMap = Map()
+
 }

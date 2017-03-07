@@ -456,8 +456,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(model.description === TestStr)
       assert(model.classes === TestClasses)
       assert(model.resamplingStrategy === SamplingStrategy.BAGGING)
-      assert(model.bagSize === Some(1000))
-      assert(model.numBags === Some(10))
+      assert(model.bagSize === 1000)
+      assert(model.numBags === 10)
 
     } finally {
       deleteAllModels()

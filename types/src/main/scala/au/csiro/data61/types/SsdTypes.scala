@@ -128,7 +128,7 @@ case class Ssd(id: SsdID,
                mappings: Option[SsdMapping],
                dateCreated: DateTime,
                dateModified: DateTime
-                             ) extends Identifiable[SsdID] with LazyLogging {
+              ) extends Identifiable[SsdID] with LazyLogging {
   /**
     * we need to check consistency of SSD
     * -- semanticModel

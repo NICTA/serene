@@ -282,3 +282,7 @@ sbt serene-core/test
 sbt serene-matcher/test
 sbt serene-modeler/test
 ```
+To run an individual test spec refer to the Spec e.g.
+```
+sbt "serene-core/test-only au.csiro.data61.core.SSDStorageSpec"
+```

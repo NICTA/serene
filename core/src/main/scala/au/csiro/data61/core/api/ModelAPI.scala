@@ -74,9 +74,7 @@ object ModelAPI extends RestAPI {
     refDataSets = List(1, 2, 3, 4),
     state = Training.TrainState(Training.Status.UNTRAINED, "", DateTime.now),
     dateCreated = DateTime.now,
-    dateModified = DateTime.now,
-    numBags = None,
-    bagSize = None
+    dateModified = DateTime.now
   )
 
   /**

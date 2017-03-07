@@ -20,10 +20,11 @@ package au.csiro.data61.core.drivers
 import java.nio.file.Path
 
 import au.csiro.data61.core.api._
-import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
+import au.csiro.data61.core.storage.{OctopusStorage, Storage, DatasetStorage, ModelStorage}
 import au.csiro.data61.types.ColumnTypes._
 import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types.ModelTypes._
+import au.csiro.data61.types.SsdTypes._
 import au.csiro.data61.types.Training.{Status, TrainState}
 import au.csiro.data61.types._
 import com.github.tototoshi.csv.CSVReader
@@ -135,8 +136,8 @@ object MatcherInterface extends LazyLogging {
           state = Training.TrainState(Training.Status.UNTRAINED, "", DateTime.now),
           dateCreated = DateTime.now,
           dateModified = DateTime.now,
-          bagSize = request.bagSize,
-          numBags = request.numBags)
+          bagSize = request.bagSize.getOrElse(ModelTypes.defaultBagSize),
+          numBags = request.numBags.getOrElse(ModelTypes.defaultNumBags))
       }.toOption
       _ <- ModelStorage.add(id, model)
 
@@ -160,6 +161,7 @@ object MatcherInterface extends LazyLogging {
     * @return Case class object for JSON conversion
     */
   def updateModel(id: ModelID, request: ModelRequest): Model = {
+    // TODO: check OctopusStorage
 
     val labelsUpdated = request.labelData.isDefined
 
@@ -182,8 +184,9 @@ object MatcherInterface extends LazyLogging {
           modelPath = None,
           dateCreated = old.dateCreated,
           dateModified = DateTime.now,
-          bagSize = request.bagSize,
-          numBags = request.numBags)
+          bagSize = request.bagSize.getOrElse(ModelTypes.defaultBagSize),
+          numBags = request.numBags.getOrElse(ModelTypes.defaultNumBags)
+        )
       }.toOption
       _ <- ModelStorage.add(id, updatedModel)
 
@@ -330,7 +333,7 @@ object MatcherInterface extends LazyLogging {
     val typeMap = request.typeMap getOrElse Map.empty[String, String]
     val description = request.description getOrElse MissingValue
     val id = Generic.genID
-    logger.info(s"Writing dataset ${Generic.genID}")
+    logger.info(s"Writing dataset $id")
 
     val dataSet = for {
       fs <- request.file
@@ -402,6 +405,8 @@ object MatcherInterface extends LazyLogging {
    */
   def updateDataset(key: DataSetID, description: Option[String], typeMap: Option[TypeMap]): DataSet = {
 
+    // TODO: check OctopusStorage, SsdSorage, OctopusStorage, ModelStorage
+
     if (!DatasetStorage.keys.contains(key)) {
       throw ParseException(s"Dataset $key does not exist")
     }
@@ -443,6 +448,13 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def deleteDataset(key: DataSetID): Option[DataSetID] = {
+    // TODO: check OctopusStorage, SsdSorage, OctopusStorage, ModelStorage
+    if(DatasetStorage.hasDependents(key)){
+      val msg = s"Dataset $key cannot be deleted since it has dependents." +
+        s"Delete first dependents."
+      logger.error(msg)
+      throw BadRequestException(msg)
+    }
 
     for {
       ds <- DatasetStorage.get(key)
@@ -472,7 +484,14 @@ object MatcherInterface extends LazyLogging {
    * @return
    */
   def deleteModel(key: ModelID): Option[ModelID] = {
-    ModelStorage.remove(key)
+    if (ModelStorage.hasDependents(key)) {
+      val msg = s"Model $key cannot be deleted since it has dependents." +
+        s"Delete first dependents."
+      logger.error(msg)
+      throw BadRequestException(msg)
+    } else {
+      ModelStorage.remove(key)
+    }
   }
 
   /**
@@ -559,5 +578,5 @@ object MatcherInterface extends LazyLogging {
     }
   }
 
-
 }
+

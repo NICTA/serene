@@ -23,6 +23,9 @@ import java.nio.file.Path
 import au.csiro.data61.core.api._
 import au.csiro.data61.core.storage._
 import au.csiro.data61.modeler.{PredictOctopus, TrainOctopus}
+import au.csiro.data61.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.core.drivers.Generic._
+import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types.ModelTypes.ModelID
 import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
@@ -42,11 +45,20 @@ import scala.util.{Failure, Random, Success, Try}
   * Interface to the functionality of the Semantic Modeler.
   * Here, requests will be sent to the MatcherInterface as well.
   */
-object OctopusInterface extends LazyLogging{
+object OctopusInterface extends StorageInterface[OctopusID, Octopus] with Trainable with LazyLogging {
 
   val MissingValue = "unknown"
   val defaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter
 
+  override val storage = OctopusStorage
+
+  protected def missingReferences[Octopus](resource: Octopus): StorageDependencyMap = Map()
+
+  protected def dependents[Octopus](resource: Octopus): StorageDependencyMap = Map()
+
+  override def checkTraining: Boolean = {
+    true
+  }
 
   /**
     * Check if the SsdRequest has proper parameters.
@@ -67,7 +79,7 @@ object OctopusInterface extends LazyLogging{
     }
 
     // check that ontologies are available in the OwlStorage
-    if (!request.ontologies.forall(owlKeys.toSet.contains(_))) {
+    if (!request.ontologies.forall(OwlInterface.owlKeys.toSet.contains)) {
       val msg = "SSD cannot be added to the storage: ontologies do not exist in the OwlStorage."
       logger.error(msg)
       throw InternalException(msg)
@@ -272,7 +284,7 @@ object OctopusInterface extends LazyLogging{
     val octopus = OctopusStorage.get(id).get
     val model = ModelStorage.get(octopus.lobsterID).get
 
-    if (octopus.state.status == Status.COMPLETE && OctopusStorage.isConsistent(id) && !force) {
+    if (OctopusStorage.isConsistent(id) && !force) {
       logger.info(s"Octopus $id is already trained.")
       Some(octopus.state)
     } else if (octopus.state.status == Status.BUSY) {
@@ -283,14 +295,14 @@ object OctopusInterface extends LazyLogging{
       // first we set the model state to training....
       OctopusStorage.updateTrainState(id, Status.BUSY)
       // launch training for the lobster
-      val fut1 = MatcherInterface.lobsterTraining(model.id, force)
+      val launchLobster = MatcherInterface.lobsterTraining(model.id, force)
       // launch training for the octopus
-      val fut2 = launchOctopusTraining(id)
+      val launchOctopus = launchOctopusTraining(id)
 
       // merge both futures
       val aggFut: Future[(Option[Path], Option[Path])] = for {
-        futureLobsterPath <- fut1
-        futureOctopusPath <- fut2
+        futureLobsterPath <- launchLobster
+        futureOctopusPath <- launchOctopus
       } yield (futureLobsterPath, futureOctopusPath)
 
       aggFut onComplete {
@@ -300,7 +312,7 @@ object OctopusInterface extends LazyLogging{
           val msg = s"Failed to train octopus $id: ${err.getMessage}."
           logger.error(msg)
           ModelStorage.updateTrainState(model.id, Status.ERROR, msg, None)
-          // TODO: delete alignmentDir
+          OctopusStorage.deleteAlignmetDir(id) // delete alignmentDir
           OctopusStorage.updateTrainState(id, Status.ERROR, msg, None)
       }
       OctopusStorage.get(id).map(_.state)
@@ -331,7 +343,7 @@ object OctopusInterface extends LazyLogging{
         // we update the status, the state date and do not delete the model.rf file for the lobster
         ModelStorage.updateTrainState(lobsterID, Status.COMPLETE, "", Some(lobsterPath))
         // we set the octopus state to error
-        // TODO: delete alignmentDir
+        OctopusStorage.deleteAlignmetDir(octopusID) // delete alignmentDir
         OctopusStorage.updateTrainState(octopusID, Status.ERROR, "Modeler failed.", None)
 
       case (None, Some(octopusPath)) =>
@@ -346,15 +358,15 @@ object OctopusInterface extends LazyLogging{
         // we set lobster state to error
         ModelStorage.updateTrainState(lobsterID, Status.ERROR, "MatcherError", None)
         // we set the octopus state to error
+        OctopusStorage.deleteAlignmetDir(octopusID) // delete alignmentDir
         OctopusStorage.updateTrainState(octopusID, Status.ERROR, "Matcher and Modeler failed.", None)
     }
   }
 
   /**
-    * Asynchronously launch the training process, and write
-    * to storage once complete. The actual state will be
-    * returned from the above case when re-read from the
-    * storage layer.
+    * Asynchronously launch the training process,
+    * and alignment graph will be written to the storage layer during execution.
+    * The actual state will be returned from the above case when re-read from the storage layer.
     *
     * @param id Octopus id for which training will be launched
     */
@@ -372,18 +384,22 @@ object OctopusInterface extends LazyLogging{
         .map(_.toString)
 
       // proceed with training...
-      TrainOctopus.train(octopus, OctopusStorage.getAlignmentDirPath(id), ontologies, knownSSDs)
+      TrainOctopus.train(octopus,
+        OctopusStorage.getAlignmentDirPath(id),
+        ontologies,
+        knownSSDs
+      )
     }
   }
 
   /**
-    * Perform prediction using the model
+    * Perform prediction using the octopus
     *
-    * @param id The model id
+    * @param id The octopus id
     * @param ssdID id of the SSD
     * @return
     */
-  def predictOctopus(id: OctopusID, ssdID : SsdID): SsdPrediction = {
+  def predictSsdOctopus(id: OctopusID, ssdID : SsdID): SsdPrediction = {
 
     if (OctopusStorage.isConsistent(id)) {
       // do prediction
@@ -391,7 +407,7 @@ object OctopusInterface extends LazyLogging{
       val octopus: Octopus = OctopusStorage.get(id).get
 
       // we get here attributes which are transformed columns
-      val ssdColumns = SsdStorage.get(ssdID).get.attributes.map(_.id)
+      val ssdColumns: List[ColumnID] = SsdStorage.get(ssdID).get.attributes.map(_.id)
       val datasets: List[DataSetID] =
         DatasetStorage.columnMap
           .filterKeys(ssdColumns.contains)
@@ -430,17 +446,115 @@ object OctopusInterface extends LazyLogging{
     } else {
       val msg = s"Prediction failed. Octopus $id is not trained."
       // prediction is impossible since the model has not been trained properly
-      logger.warn(msg)
+      logger.error(msg)
       throw BadRequestException(msg)
     }
   }
 
   /**
-    * Generate a random positive integer id
+    * Generate an empty SSD for a given dataset using ontologies from a given octopus.
     *
-    * @return Returns a random positive integer
+    * @param octopus
+    * @param dataset
+    * @return
     */
-  protected def genID: Int = Random.nextInt(Integer.MAX_VALUE)
+  protected def generateEmptySsd(octopus: Octopus,
+                       dataset: DataSet): Option[Ssd] = {
+    Try {
+      Ssd(id = genID,
+        name = dataset.filename,
+        attributes = dataset.columns.map(_.id).map(SsdAttribute(_)),
+        ontology = octopus.ontologies,
+        semanticModel = None,
+        mappings = None,
+        dateCreated = DateTime.now,
+        dateModified = DateTime.now
+      )
+    } toOption
+  }
+
+  /**
+    * Helper function to convert from Ssd type to SsdRequest.
+    *
+    * @param ssd Semantic Source Description
+    * @return
+    */
+  protected def convertSsd(ssd: Ssd): SsdRequest = {
+    SsdRequest(ssd.name,
+      ssd.ontology,
+      ssd.semanticModel,
+      ssd.mappings)
+  }
+
+  /**
+    * Helper function convert from SsdPrediction to SsdResults
+    *
+    * @param ssdPrediction Prediction object as returned by semantic modeler
+    * @return
+    */
+  protected def convertSsdPrediction(ssdPrediction: SsdPrediction): SsdResults = {
+    val convertedTuples =
+      ssdPrediction.suggestions.map {
+        case (ssd: Ssd, smScore: SemanticScores) =>
+          (convertSsd(ssd), smScore)
+      }
+    SsdResults(predictions = convertedTuples)
+  }
+
+  /**
+    * Perform prediction using the octopus for a dataset.
+    * Emtpy SSD will automatically be generated for the dataset.
+    *
+    * @param id The octopus id
+    * @param dsID id of the dataset
+    * @return
+    */
+  def predictOctopus(id: OctopusID, dsID : DataSetID): SsdResults = {
+
+    if (OctopusStorage.isConsistent(id)) {
+      // do prediction
+      logger.info(s"Launching prediction for OCTOPUS $id...")
+      val ssdPredictions: Option[SsdPrediction] = for {
+        octopus <- OctopusStorage.get(id)
+        dataset <- DatasetStorage.get(dsID)
+
+        emptySsd <- generateEmptySsd(octopus, dataset)
+
+        // we do semantic typing for only one dataset
+        dsPredictions = Try {
+          MatcherInterface.predictModel(octopus.lobsterID, dsID)
+        } toOption
+
+        // this map is needed to map ColumnIDs from dsPredictions to attributes
+        // we make the mappings identical
+        attrToColMap: Map[Int, Int] = emptySsd
+          .attributes
+          .map(x => (x.id, x.id)).toMap
+
+        predOpt <- PredictOctopus.predict(octopus,
+          OctopusStorage.getAlignmentDirPath(octopus.id).toString,
+          octopus.ontologies
+            .flatMap(OwlStorage.getOwlDocumentPath)
+            .map(_.toString),
+          emptySsd,
+          dsPredictions,
+          attrToColMap,
+          defaultNumSemanticTypes
+        )
+      } yield predOpt
+
+      convertSsdPrediction(
+        ssdPredictions
+        .getOrElse(throw InternalException(s"No SSD predictions are available for dataset $dsID."))
+      )
+
+    } else {
+      val msg = s"Prediction failed. Octopus $id is not trained."
+      // prediction is impossible since the model has not been trained properly
+      logger.error(msg)
+      throw BadRequestException(msg)
+    }
+  }
 
   /**
     * Split URI into the namespace and the name of the resource (either class, or property)
@@ -491,6 +605,7 @@ object OctopusInterface extends LazyLogging{
 
     if (givenSSDs.isEmpty) {
       // everything is empty if there are no SSDs
+      logger.debug("Everything is empty in SSD.")
       SemanticTypeObject(None, None, Map.empty[String,String])
     }
     else {
@@ -507,17 +622,17 @@ object OctopusInterface extends LazyLogging{
                 ssd.semanticModel
                   .flatMap(_.getDomainType(nodeID)) // FIXME: what if the mapping is to the class node and not the data node?!
                   .getOrElse(throw InternalException(
-                    "Semantic Source Description is not properly formed, problems with mappings or semantic model")))
+                    "Semantic Source Description is not properly formed: problems with mappings or semantic model.")))
             } toList
         }
 
       val semanticTypeMap: Map[String, String] = ssdMaps.flatMap {
         // TODO: what if we have the same labels with different namespaces? Only one will be picked here
         case (attrID, (classURI, propURI)) =>
-          List( splitURI(classURI), splitURI(propURI))
+          List(splitURI(classURI), splitURI(propURI))
       }.toMap
 
-      // semantic type (aka class label) is constructed as "the label of class URI"---"the label of data property URI"
+      // semantic type (aka class label) is constructed as "the label of class URI"---"the label of property URI"
       // TODO: what if the column is mapped to the class node?
       val labelData: Map[Int, String] = ssdMaps.map {
         case (attrID: Int, (classURI, propURI)) =>
@@ -534,7 +649,8 @@ object OctopusInterface extends LazyLogging{
   }
 
   /**
-    * Construct the semantic type (aka class label) as "the label of class URI"---"the label of data property URI"
+    * Construct the semantic type (aka class label) as
+    * "the label of class URI"---"the label of property URI"
     *
     * @param classURI URI of the class node
     * @param propURI URI of the data node
@@ -573,54 +689,6 @@ object OctopusInterface extends LazyLogging{
     OctopusStorage.keys
   }
 
-//  /**
-//    * createOctopus builds a new Octopus object from a OctopusRequest
-//    *
-//    * @param request The request object from the API
-//    * @return
-//    */
-//  def createOctopus(request: OctopusRequest): Octopus = {
-//
-//    val id = Generic.genID
-//    //val dataRef = validKeys(request.labelData)
-//
-//    // build the octopus from the request, adding defaults where necessary
-//    val octopusOpt = for {
-//      colMap <- Some(DatasetStorage.columnMap)
-//
-//      modelID <- Try { MatcherInterface.createModel(ModelRequest(
-//        description = request.description,
-//        modelType = None,
-//        classes = None,
-//        features = None,
-//        costMatrix = None,
-//        labelData = None,
-//        resamplingStrategy = None,
-//        numBags = None,
-//        bagSize = None
-//      ))} map { _.id } toOption
-//
-//      // build up the octopus request, and use defaults if not present...
-//      octopus <- Try {
-//        Octopus(
-//          id = id,
-//          modelID = modelID,
-//          description = request.description.getOrElse(MissingValue),
-//          name = request.name.getOrElse(MissingValue),
-//          ssds = request.ssds.getOrElse(List.empty[Int]),
-//          ontologies = List(1), // TODO: add real ontologies!!!!
-//          state = TrainState(Status.UNTRAINED, "", DateTime.now),
-//          dateCreated = DateTime.now,
-//          dateModified = DateTime.now)
-//      }.toOption
-//      _ <- OctopusStorage.add(id, octopus)
-//
-//    } yield {
-//      octopus
-//    }
-//    octopusOpt getOrElse { throw InternalException("Failed to create resource.") }
-//  }
-
   /**
     * Deletes the octopus
     *
@@ -628,7 +696,35 @@ object OctopusInterface extends LazyLogging{
     * @return
     */
   def deleteOctopus(key: OctopusID): Option[OctopusID] = {
-    OctopusStorage.remove(key)
+    if(OctopusStorage.hasDependents(key)) {
+      val msg = s"Octopus $key cannot be deleted since it has dependents." +
+        s"Delete first dependents."
+      logger.error(msg)
+      throw BadRequestException(msg)
+    } else {
+      // first we remove octopus
+      val octopusID = OctopusStorage.remove(key)
+      // now we remove lobster
+      OctopusStorage.get(key).map(_.lobsterID).map(MatcherInterface.deleteModel)
+      octopusID
+    }
+  }
+
+  protected def createModelRequest(request: OctopusRequest,
+                                   lobster: Model,
+                                   classes: Option[List[String]],
+                                   labelData: Option[Map[Int, String]]): ModelRequest = {
+    ModelRequest(
+        description = Some(request.description.getOrElse(lobster.description)),
+        modelType = Some(request.modelType.getOrElse(lobster.modelType)),
+        classes = Some(classes.getOrElse(lobster.classes)),
+        features = Some(request.features.getOrElse(lobster.features)),
+        costMatrix = None,
+        labelData = Some(labelData.getOrElse(lobster.labelData)),
+        resamplingStrategy = Some(request.resamplingStrategy.getOrElse(lobster.resamplingStrategy)),
+        numBags = Some(request.numBags.getOrElse(lobster.numBags)),
+        bagSize = Some(request.bagSize.getOrElse(lobster.bagSize))
+    )
   }
 
   /**
@@ -645,14 +741,20 @@ object OctopusInterface extends LazyLogging{
 
     val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
 
-    // TODO: update lobster!
-
     // build the octopus from the request, adding defaults where necessary
     val octopusOpt = for {
       colMap <- Some(DatasetStorage.columnMap)
       original <- OctopusStorage.get(id)
+      originalLobster <- ModelStorage.get(original.lobsterID)
+
+      // update lobster
+      lobsterRequest = createModelRequest(request, originalLobster, classes, labelData)
+      updatedLobster = MatcherInterface.updateModel(original.lobsterID, lobsterRequest)
+
+      // delete alignmentDir explicitly
+      octopusDeletedAlignment <- OctopusStorage.deleteAlignmetDir(id)
+
       // build up the octopus request, and use defaults if not present...
-      // TODO: delete alignmentDir explicitly?
       octopus <- Try {
         Octopus(
           id = id,
@@ -672,7 +774,10 @@ object OctopusInterface extends LazyLogging{
     } yield {
       octopus
     }
-    octopusOpt getOrElse { throw InternalException("Failed to create resource.") }
+    octopusOpt getOrElse {
+      logger.error(s"Failed to update octopus $id.")
+      throw InternalException("Failed to update octopus.")
+    }
   }
 
   /**
@@ -685,114 +790,4 @@ object OctopusInterface extends LazyLogging{
     OctopusStorage.get(id)
   }
 
-
-  /**
-    * Creates an OWL document with related information.
-    *
-    * @param description The description of the OWL document.
-    * @param format The format of the OWL document.
-    * @param inputStream The input stream of the OWL document.
-    * @return The created OWL information if successful. Otherwise the exception that caused the
-    *         failure.
-    */
-  def createOwl(
-      name: String,
-      description: String,
-      format: OwlDocumentFormat,
-      inputStream: InputStream): Option[Owl] = {
-    val id = Random.nextInt(Integer.MAX_VALUE)
-    val now = DateTime.now
-    val owl = Owl(
-      id = id,
-      name = name,
-      format = format,
-      description = description,
-      dateCreated = now,
-      dateModified = now
-    )
-
-    for {
-      owlId <- OwlStorage.add(id, owl)
-      owlPath <- OwlStorage.writeOwlDocument(id, inputStream)
-      curOwl <- OwlStorage.get(owlId)
-    } yield curOwl
-
-//    OwlStorage.add(id, owl) match {
-//      case Some(_) =>
-//          OwlStorage.writeOwlDocument(id, inputStream)
-//      case None =>
-//        throw new IOException(s"Owl $id could not be created.")
-//    }
-  }
-
-  /**
-    * Gets the IDs of available OWL documents.
-    *
-    * @return The list of OWL IDs.
-    */
-  def owlKeys: List[OwlID] = OwlStorage.keys
-
-  /**
-    * Gets information about an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @return Information about the OWL document if found.
-    */
-  def getOwl(id: OwlID): Option[Owl] = OwlStorage.get(id)
-
-  /**
-    * Gets the original OWL file uploaded to the server.
-    *
-    * @param owl The owl object
-    * @return A buffered reader object
-    */
-  def getOwlDocument(owl: Owl): Try[Reader] = Try {
-    Reader.fromFile(OwlStorage.getOwlDocumentPath(owl.id).map(_.toFile).get)
-  }
-
-  /**
-    * Updates information about an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @param description The description of the OWL document.
-    * @return Updated information of the OWL document if successful. Otherwise the exception that
-    *         caused the failure.
-    */
-  def updateOwl(id: OwlID, description: Option[String]): Try[Owl] = Try {
-    OwlStorage.get(id) match {
-      case Some(owl) =>
-        val updatedOwl = owl.copy(
-          description = description.getOrElse(owl.description)
-        )
-        OwlStorage.update(id, updatedOwl) match {
-          case Some(_) =>
-            updatedOwl
-          case None =>
-            throw new IOException(s"Owl $id could not be updated.")
-        }
-      case None =>
-        throw new NoSuchElementException(s"Owl $id not found.")
-    }
-  }
-
-  /**
-    * Deletes an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @return Information about the deleted OWL document if successful. Otherwise the exception that
-    *         caused the failure.
-    */
-  def deleteOwl(id: OwlID): Try[Owl] = Try {
-    OwlStorage.get(id) match {
-      case Some(owl) =>
-        OwlStorage.remove(id) match {
-          case Some(_) =>
-            owl
-          case None =>
-            throw new IOException(s"Owl $id could not be deleted.")
-        }
-      case None =>
-        throw new NoSuchElementException(s"Owl $id not found.")
-    }
-  }
 }

@@ -59,6 +59,36 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
   }
 
   /**
+    * Ssd, Model, Octopus dependent.
+    * We will not check OctopusStorage because it's coordinated through SSD and Model.
+    *
+    * @param id
+    * @return
+    */
+  def hasDependents(id: DataSetID): Boolean = {
+    // set of column ids which are used in the stored SSDs
+    val ssdColumnIds: Set[ColumnID] = SsdStorage.keys
+      .flatMap(SsdStorage.get)
+      .flatMap(_.attributes)
+      .map(_.id)
+      .toSet
+
+    // set of dataset ids which are used in the stored schema matcher models
+    val modelRefIds: Set[DataSetID] = ModelStorage.keys
+      .flatMap(ModelStorage.get)
+      .flatMap(_.refDataSets)
+      .toSet
+
+    // column ids from this dataset
+    val colIds: List[ColumnID] = get(id)
+      .map(_.columns.map(_.id))
+      .getOrElse(List.empty[ColumnID])
+
+    colIds.exists(ssdColumnIds.contains) &&
+      modelRefIds.contains(id)
+  }
+
+  /**
    * Adds a file resource into the storage system
    *
    * @param id The id for the storage element
