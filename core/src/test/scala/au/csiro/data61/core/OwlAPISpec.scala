@@ -19,23 +19,20 @@ package au.csiro.data61.core
 
 import java.io.File
 import java.nio.charset.StandardCharsets.UTF_8
-import java.nio.file.Files
 
 import au.csiro.data61.core.api.OwlAPI.APIVersion
 import au.csiro.data61.core.storage.JsonFormats
-import au.csiro.data61.types.SsdTypes.OwlDocumentFormat
-import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
-import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.{RdfXml, Turtle}
-import au.csiro.data61.types.SsdTypes.{Owl, OwlDocumentFormat, OwlID}
+import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.{OwlDocumentFormat, RdfXml, Turtle}
+import au.csiro.data61.types.SsdTypes.{Owl, OwlID}
 import com.twitter.finagle.http.Method.Delete
 import com.twitter.finagle.http.Status.Ok
 import com.twitter.finagle.http.{FileElement, Request, RequestBuilder, Status}
 import com.twitter.io.Reader
 import com.twitter.util.Await
-import org.json4s.jackson.JsonMethods.parse
-import org.scalatest.{BeforeAndAfterEach, FunSuite}
-import org.scalatest.Matchers._
 import org.apache.commons.io.FileUtils
+import org.json4s.jackson.JsonMethods.parse
+import org.scalatest.FunSuite
+import org.scalatest.Matchers._
 
 import scala.util.Try
 
@@ -47,7 +44,7 @@ class OwlAPISpec extends FunSuite with JsonFormats {
   val TurtleOwlDescription = "Turtle example document"
 
   def requestOwlCreation(document: File, format: OwlDocumentFormat, description: String)
-    (implicit server: TestServer): Try[(Status, String)] = Try {
+                        (implicit server: TestServer): Try[(Status, String)] = Try {
     val buf = Await.result(Reader.readAll(Reader.fromFile(document)))
     val request = RequestBuilder()
       .url(server.fullUrl(s"/$APIVersion/owl"))
@@ -60,7 +57,7 @@ class OwlAPISpec extends FunSuite with JsonFormats {
   }
 
   def createOwl(document: File, format: OwlDocumentFormat, description: String)
-    (implicit server: TestServer): Try[Owl] =
+               (implicit server: TestServer): Try[Owl] =
     requestOwlCreation(document, format, description).map {
       case (Ok, content) => parse(content).extract[Owl]
     }
@@ -160,6 +157,7 @@ class OwlAPISpec extends FunSuite with JsonFormats {
     try {
       val createdOwl = createOwl(RdfXmlDocument, RdfXml, RdfXmlOwlDescription).get
       val owl = getOwl(createdOwl.id).get
+
       owl should equal(createdOwl)
     } finally {
       deleteAllOwls
