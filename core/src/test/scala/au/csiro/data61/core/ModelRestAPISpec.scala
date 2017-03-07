@@ -30,13 +30,11 @@ import com.twitter.finagle.http._
 import com.twitter.io.Buf
 import com.twitter.util.{Await, Return, Throw}
 import com.typesafe.scalalogging.LazyLogging
-import org.apache.commons.io.FileUtils
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.concurrent._
 
-import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 import api._

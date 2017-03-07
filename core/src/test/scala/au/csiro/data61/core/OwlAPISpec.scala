@@ -31,11 +31,14 @@ import com.twitter.io.Reader
 import com.twitter.util.Await
 import org.apache.commons.io.FileUtils
 import org.json4s.jackson.JsonMethods.parse
+import org.junit.runner.RunWith
 import org.scalatest.FunSuite
 import org.scalatest.Matchers._
+import org.scalatest.junit.JUnitRunner
 
 import scala.util.Try
 
+@RunWith(classOf[JUnitRunner])
 class OwlAPISpec extends FunSuite with JsonFormats {
   val RdfXmlDocument = new File(getClass.getResource("/rdf-xml-example.owl").toURI)
   val TurtleDocument = new File(getClass.getResource("/turtle-example.owl").toURI)

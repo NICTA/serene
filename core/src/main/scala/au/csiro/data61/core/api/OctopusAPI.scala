@@ -123,7 +123,7 @@ object OctopusAPI extends RestAPI {
     */
   val octopusGet: Endpoint[Octopus] = get(APIVersion :: "octopus" :: int) {
     (id: Int) =>
-      Try { OctopusInterface.getOctopus(id) } match {
+      Try { OctopusInterface.get(id) } match {
         case Success(Some(ds))  =>
           Ok(ds)
         case Success(None) =>

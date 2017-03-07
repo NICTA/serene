@@ -17,7 +17,7 @@
   */
 package au.csiro.data61.core.drivers
 
-import au.csiro.data61.core.api.{BadRequestException, InternalException, SsdRequest}
+import au.csiro.data61.core.api.{BadRequestException, InternalException, NotFoundException, SsdRequest}
 import au.csiro.data61.core.storage.{DatasetStorage, OctopusStorage, OwlStorage, SsdStorage}
 import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.{Ssd, SsdAttribute}
@@ -112,5 +112,32 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
         throw InternalException("Failed to create resource.")
     }
   }
+
+  /**
+    * Updates an SSD.
+    * @param id The SSD ID.
+    * @param request The SSD update request.
+    * @return The updated SSD if successful. Otherwise the exception that caused the failure.
+    */
+  def updateSsd(id: SsdID, request: SsdRequest): Try[Ssd] = Try {
+    // FIXME: we need to create new SsdRequest which either have values from the new request and otherwise from the old one
+    storage.get(id) match {
+      case Some(originalSsd) =>
+        Try { convertSsdRequest(request, id) }
+          .flatMap {
+            (ssd: Ssd) => Try {
+              val updatedSsd = ssd.copy(dateCreated = originalSsd.dateCreated)
+              update(updatedSsd) match {
+                case Some(_) => updatedSsd
+                case None => throw InternalException(s"SSD $id could not be updated.")
+              }
+            }
+          }
+          .get
+      case None =>
+        throw NotFoundException(s"SSD $id not found.")
+    }
+  }
+
 
 }

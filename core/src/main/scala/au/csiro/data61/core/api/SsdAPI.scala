@@ -22,9 +22,10 @@ import au.csiro.data61.types._
 import org.joda.time.DateTime
 
 import scala.language.postfixOps
-import au.csiro.data61.core.drivers.{OctopusInterface, SsdInterface}
+import au.csiro.data61.core.drivers.SsdInterface
+import au.csiro.data61.types.SsdTypes.SsdID
 import io.finch._
-import org.json4s.jackson.JsonMethods._
+import io.finch.json4s.decodeJson
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -42,6 +43,8 @@ import scala.util.{Failure, Success, Try}
   * POST :8080/v1.0/octopus/{id}/train
   */
 object SsdAPI extends RestAPI {
+
+  protected val SsdRootPath = "ssd"
 
   val junkSSD = Ssd(
     id = 1,
@@ -61,8 +64,8 @@ object SsdAPI extends RestAPI {
     *
     * curl http://localhost:8080/v1.0/ssd
     */
-  val ssdRoot: Endpoint[List[Int]] = get(APIVersion :: "ssd") {
-    Ok(OctopusInterface.storageKeys)
+  val ssdRoot: Endpoint[List[Int]] = get(APIVersion :: SsdRootPath) {
+    Ok(SsdInterface.storageKeys)
   }
 
   /**
@@ -75,9 +78,16 @@ object SsdAPI extends RestAPI {
     * Returns a JSON SSD object with id.
     *
     */
-  val ssdCreate: Endpoint[Ssd] = post(APIVersion :: "ssd" :: stringBody) {
-    (body: String) =>
-      Ok(junkSSD)
+  val ssdCreate: Endpoint[Ssd] = post(APIVersion :: SsdRootPath :: jsonBody[SsdRequest]) {
+    (request: SsdRequest) =>
+      logger.info(s"Creating SSD with name=${request.name}.")
+      Try{ SsdInterface.createSsd(request) } match {
+        case Success(ssd) =>
+          Ok(ssd)
+        case Failure(err) =>
+          logger.error(s"SSD with name=${request.name} could not be created: $err")
+          InternalServerError(InternalException(s"SSD could not be created: $err"))
+      }
   }
 
   /**
@@ -85,7 +95,7 @@ object SsdAPI extends RestAPI {
     *
     * curl http://localhost:8080/v1.0/ssd/12354687
     */
-  val ssdGet: Endpoint[Ssd] = get(APIVersion :: "ssd" :: int) {
+  val ssdGet: Endpoint[Ssd] = get(APIVersion :: SsdRootPath :: int) {
     (id: Int) =>
 
       logger.debug(s"Get ssd id=$id")
@@ -110,13 +120,16 @@ object SsdAPI extends RestAPI {
     * curl -X POST -d 'description=This is the new description'
     * http://localhost:8080/v1.0/ssd/12354687
     */
-  val ssdPatch: Endpoint[Ssd] = post(APIVersion :: "ssd" :: int :: stringBody) {
-
-    (id: Int, body: String) =>
-
-      logger.debug(s"Patching dataset id=$id")
-
-      Ok(junkSSD)
+  val ssdPatch: Endpoint[Ssd] = post(APIVersion :: SsdRootPath :: int :: jsonBody[SsdRequest]) {
+    (id: SsdID, request: SsdRequest) =>
+      logger.info(s"Updating SSD with name=${request.name}.")
+      //FIXME: needs to be fixed
+      SsdInterface.updateSsd(id, request) match {
+        case Success(ssd) => Ok(ssd)
+        case Failure(th) =>
+          logger.error(s"SSD with name=${request.name} could not be updated.", th)
+          InternalServerError(InternalException(s"SSD could not be updated."))
+      }
   }
 
   /**
@@ -143,7 +156,7 @@ object SsdAPI extends RestAPI {
   }
 
   /**
-    * Final endpoints for the Dataset endpoint...
+    * Final endpoints for the Ssd endpoint...
     */
   val endpoints =
     ssdRoot :+:
