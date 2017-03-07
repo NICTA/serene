@@ -17,7 +17,7 @@
  */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.drivers.OctopusInterface
+import au.csiro.data61.core.drivers.SsdInterface
 import au.csiro.data61.types.SsdTypes.SsdID
 import au.csiro.data61.types._
 import io.finch._
@@ -39,7 +39,7 @@ object SsdAPI extends RestAPI {
     * This endpoint handles GET requests for /version/ssd.
     */
   val listSsds: Endpoint[List[SsdID]] = get(APIVersion :: SsdRootPath) {
-    Ok(OctopusInterface.ssdKeys)
+    Ok(SsdInterface.ssdKeys)
   }
 
   /**
@@ -55,7 +55,7 @@ object SsdAPI extends RestAPI {
   val createSsd: Endpoint[Ssd] = post(APIVersion :: SsdRootPath :: jsonBody[SsdRequest]) {
     (request: SsdRequest) =>
       logger.info(s"Creating SSD with name=${request.name}.")
-      OctopusInterface.createSsd(request) match {
+      SsdInterface.createSsd(request) match {
         case Success(ssd) => Ok(ssd)
         case Failure(th) =>
           logger.error(s"SSD with name=${request.name} could not be created.", th)
@@ -71,7 +71,7 @@ object SsdAPI extends RestAPI {
   val getSsd: Endpoint[Ssd] = get(APIVersion :: SsdRootPath :: int) { (id: Int) =>
     logger.info(s"Getting SSD with ID=$id")
 
-    OctopusInterface.getSsd(id) match {
+    SsdInterface.getSsd(id) match {
       case Some(ssd) => Ok(ssd)
       case None => NotFound(NotFoundException(s"SSD $id not found"))
     }
@@ -87,7 +87,7 @@ object SsdAPI extends RestAPI {
     (id: SsdID, request: SsdRequest) =>
       logger.info(s"Updating SSD with name=${request.name}.")
 
-      OctopusInterface.updateSsd(id, request) match {
+      SsdInterface.updateSsd(id, request) match {
         case Success(ssd) => Ok(ssd)
         case Failure(th) =>
           logger.error(s"SSD with name=${request.name} could not be updated.", th)
@@ -104,7 +104,7 @@ object SsdAPI extends RestAPI {
     (id: Int) =>
       logger.info(s"Deleting SSD with ID=$id")
 
-      OctopusInterface.deleteSsd(id) match {
+      SsdInterface.deleteSsd(id) match {
         case Success(ssd) => Ok(ssd)
         case Failure(th) => InternalServerError(new RuntimeException(th))
       }
