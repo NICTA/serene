@@ -41,7 +41,7 @@ import scala.util.{Failure, Success, Try}
 
 /**
   * Interface to the functionality of the Semantic Modeler.
-  * Here, requests will be sent to the MatcherInterface as well.
+  * Here, requests will be sent to the ModelInterface as well.
   */
 object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with LazyLogging {
 
@@ -51,7 +51,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
   protected def missingReferences(resource: Octopus): StorageDependencyMap = {
     // octopus depends on everything...
-
+    // TODO: implement
     StorageDependencyMap()
   }
 
@@ -125,6 +125,8 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       dateModified = DateTime.now,
       description = request.description.getOrElse(MissingValue)
     )
+  }
+
   /**
     * Build a new Octopus from the request.
     * We also build the associated schema matcher Model.
@@ -211,7 +213,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
     val (octopus, model) = getModels(id)
 
-    if (OctopusStorage.isConsistent(id) && !force) {
+    if (checkTraining(id) && !force) {
       logger.info(s"Octopus $id is already trained.")
       Some(octopus.state)
     } else if (octopus.state.status == Status.BUSY) {
@@ -301,7 +303,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
   private def launchOctopusTraining(id: OctopusID)(implicit ec: ExecutionContext): Future[Option[Path]] = {
 
     Future {
-      val octopus = OctopusStorage.get(id).get
+      val octopus = get(id).get
 
       // get SSDs for the training
       val knownSSDs: List[Ssd] = octopus.ssds.flatMap(SsdStorage.get)
@@ -329,7 +331,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     */
   def predictSsdOctopus(id: OctopusID, ssdID : SsdID): SsdPrediction = {
 
-    if (OctopusStorage.isConsistent(id)) {
+    if (checkTraining(id)) {
       // do prediction
       logger.info(s"Launching prediction for OCTOPUS $id...")
       val octopus: Octopus = OctopusStorage.get(id).get
@@ -442,7 +444,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     // FIXME: unclear what happens to the UNKNOWN columns
 
     // if id is not in the OctopusStorage, isConsistent will throw NotFoundException
-    if (OctopusStorage.isConsistent(id)) {
+    if (checkTraining(id)) {
       // do prediction
       logger.info(s"Launching prediction with octopus $id for dataset $dsId")
 
@@ -610,7 +612,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       .flatMap(SsdStorage.get)
       .flatMap(_.ontology)
 
-    ssdOntologies ++ ontologies.getOrElse(List.empty[Int])
+    (ssdOntologies ++ ontologies.getOrElse(List.empty[Int])).distinct
   }
 
 
@@ -621,21 +623,14 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     * @return
     */
   def deleteOctopus(key: OctopusID): Option[OctopusID] = {
-    if(OctopusStorage.hasDependents(key)) {
-      val msg = s"Octopus $key cannot be deleted since it has dependents." +
-        s"Delete first dependents."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    } else {
-      // we store the ID of the associated model
-      val lobsterID = OctopusStorage.get(key).map(_.lobsterID)
-      // first we remove octopus
-      val octopusID = OctopusStorage.remove(key)
-      // now we remove lobster
-      lobsterID.map(MatcherInterface.deleteModel)
+    // we store the ID of the associated model
+    val lobsterID: Option[ModelID] = OctopusStorage.get(key).map(_.lobsterID)
+    // first we remove octopus
+    val octopusID = delete(key)
+    // now we remove lobster
+    lobsterID.map(ModelInterface.delete(_))
 
-      octopusID
-    }
+    octopusID
   }
 
   protected def createModelRequest(request: OctopusRequest,
@@ -682,7 +677,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
       // update lobster
       lobsterRequest = createModelRequest(request, originalLobster, classes, labelData)
-      updatedLobster = MatcherInterface.updateModel(original.lobsterID, lobsterRequest)
+      updatedLobster = ModelInterface.updateModel(original.lobsterID, lobsterRequest)
 
       // delete alignmentDir explicitly
       octopusDeletedAlignment <- OctopusStorage.deleteAlignmetDir(id)

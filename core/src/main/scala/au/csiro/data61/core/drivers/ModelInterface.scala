@@ -20,9 +20,7 @@ package au.csiro.data61.core.drivers
 import java.nio.file.{Files, Path}
 
 import au.csiro.data61.core.api._
-import au.csiro.data61.core.drivers.MatcherInterface.DataRef
-import au.csiro.data61.core.storage.ModelStorage._
-import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage, OctopusStorage, OwlStorage}
+import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage, OctopusStorage}
 import au.csiro.data61.types.ColumnTypes._
 import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types._
@@ -191,10 +189,10 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
   def trainModel(id: ModelID, force: Boolean = false): Option[TrainState] = {
 
     for {
-      model <- ModelStorage.get(id)
+      model <- get(id)
       state = model.state
       newState = state.status match {
-        case Status.COMPLETE if ModelStorage.isConsistent(id) && !force =>
+        case Status.COMPLETE if checkTraining(id) && !force =>
           logger.info(s"Model $id is already trained.")
           state
         case Status.BUSY =>
@@ -205,7 +203,7 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
           // in the background we launch the training...
           logger.info("Launching training.....")
           // first we set the model state to training....
-          val newState = ModelStorage.updateTrainState(id, Status.BUSY)
+          val newState = storage.updateTrainState(id, Status.BUSY)
           launchTraining(id)
           newState.get
         case _ =>
@@ -228,38 +226,38 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
     Future {
       // proceed with training...
       ModelTrainer.train(id).map {
-        ModelStorage.addModel(id, _)
+        storage.addModel(id, _)
       }
     } onComplete {
       case Success(Some(path)) =>
         // we update the status, the state date and do not delete the model.rf file
-        ModelStorage.updateTrainState(id, Training.Status.COMPLETE, "", path)
+        storage.updateTrainState(id, Training.Status.COMPLETE, "", path)
       case Success(None) =>
         // we update the status, the state date and delete the model.rf file
         logger.error(s"Failed to identify model paths for $id.")
-        ModelStorage.updateTrainState(id, Training.Status.ERROR, s"Failed to identify model paths.", None)
+        storage.updateTrainState(id, Training.Status.ERROR, s"Failed to identify model paths.", None)
       case Failure(err) =>
         // we update the status, the state date and delete the model.rf file
         val msg = s"Failed to train model $id: ${err.getMessage}."
         logger.error(msg)
-        ModelStorage.updateTrainState(id, Training.Status.ERROR, msg, None)
+        storage.updateTrainState(id, Training.Status.ERROR, msg, None)
     }
   }
 
   def lobsterTraining(id: ModelID, force: Boolean = false)(implicit ec: ExecutionContext): Future[Option[Path]] = {
     Future {
-      val model = ModelStorage.get(id).get
+      val model = storage.get(id).get
       val state = model.state
       state.status match {
-        case Status.COMPLETE if ModelStorage.isConsistent(id) && !force =>
+        case Status.COMPLETE if checkTraining(id) && !force =>
           logger.info(s"Lobster $id is already trained.")
           model.modelPath
         case Status.COMPLETE | Status.UNTRAINED | Status.ERROR =>
           logger.info("Launching lobster training.....")
           // first we set the model state to training....
-          ModelStorage.updateTrainState(id, Status.BUSY)
+          storage.updateTrainState(id, Status.BUSY)
           // in the background we launch the training...
-          ModelTrainer.train(id).flatMap { ModelStorage.addModel(id, _) }
+          ModelTrainer.train(id).flatMap { storage.addModel(id, _) }
         case _ =>
           // we shouldn't actually have this option now
           model.modelPath

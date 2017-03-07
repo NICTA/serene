@@ -75,7 +75,8 @@ trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] exte
 
   protected val storage: Storage[Key, SereneResource]
 
-  protected val MissingValue = "unknown"
+  // we access it in some tests...
+  val MissingValue = "unknown"
 
   /**
     * Passes the storage keys up to the API
