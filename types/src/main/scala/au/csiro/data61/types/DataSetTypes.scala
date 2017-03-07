@@ -39,7 +39,6 @@ object DataSetTypes {
  * Types used for the column objects
  */
 object ColumnTypes {
-
   type ColumnID = Int
 }
 
@@ -118,7 +117,7 @@ case class Column[+T](index: Int,
                       size: Long,
                       datasetID: DataSetID,
                       sample: List[T],
-                      logicalType: LogicalType)
+                      logicalType: LogicalType) extends Identifiable[ColumnID]
 
 /**
  * Dataset object created internally by the data set storage layer

@@ -17,8 +17,8 @@
  */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.drivers.MatcherInterface
-import au.csiro.data61.types.ModelTypes.{ModelID, Model}
+import au.csiro.data61.core.drivers.ModelInterface
+import au.csiro.data61.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.types._
 import au.csiro.data61.types.ModelType
 import io.finch._
@@ -83,7 +83,7 @@ object ModelAPI extends RestAPI {
    * curl http://localhost:8080/v1.0/model
    */
   val modelRoot: Endpoint[List[ModelID]] = get(APIVersion :: "model") {
-    Ok(MatcherInterface.modelKeys)
+    Ok(ModelInterface.storageKeys)
   }
 
   /**
@@ -119,7 +119,7 @@ object ModelAPI extends RestAPI {
             throw BadRequestException("No features found.")
           }
         }
-        m <- Try { MatcherInterface.createModel(request) }
+        m <- Try { ModelInterface.createModel(request) }
       } yield m)
       match {
         case Success(mod) =>
@@ -136,7 +136,7 @@ object ModelAPI extends RestAPI {
    */
   val modelGet: Endpoint[Model] = get(APIVersion :: "model" :: int) {
     (id: Int) =>
-      Try { MatcherInterface.getModel(id) } match {
+      Try { ModelInterface.get(id) } match {
         case Success(Some(ds))  =>
           Ok(ds)
         case Success(None) =>
@@ -152,7 +152,7 @@ object ModelAPI extends RestAPI {
     */
   val modelTrain: Endpoint[Unit] = post(APIVersion :: "model" :: int :: "train" :: paramOption("force")) {
     (id: Int, force: Option[String]) =>
-      val state = Try(MatcherInterface.trainModel(id, force.exists(_.toBoolean)))
+      val state = Try(ModelInterface.trainModel(id, force.exists(_.toBoolean)))
       state match {
         case Success(Some(_))  =>
           Accepted[Unit]
@@ -176,7 +176,7 @@ object ModelAPI extends RestAPI {
   val modelPredict: Endpoint[DataSetPrediction] = post(APIVersion :: "model" :: int :: "predict" :: int) {
     (id: Int, datasetID: Int) =>
       Try {
-        MatcherInterface.predictModel(id, datasetID)
+        ModelInterface.predictModel(id, datasetID)
       } match {
         case Success(prediction) =>
           Ok(prediction)
@@ -201,7 +201,7 @@ object ModelAPI extends RestAPI {
       (for {
         request <- parseModelRequest(body)
         model <- Try {
-          MatcherInterface.updateModel(id, request)
+          ModelInterface.updateModel(id, request)
         }
       } yield model)
       match {
@@ -217,7 +217,7 @@ object ModelAPI extends RestAPI {
    */
   val modelDelete: Endpoint[String] = delete(APIVersion :: "model" :: int) {
     (id: Int) =>
-      Try(MatcherInterface.deleteModel(id)) match {
+      Try(ModelInterface.delete(id)) match {
         case Success(Some(_)) =>
           logger.debug(s"Deleted model $id")
           Ok(s"Model $id deleted successfully.")

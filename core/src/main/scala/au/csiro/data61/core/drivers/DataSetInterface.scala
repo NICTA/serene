@@ -17,19 +17,254 @@
   */
 package au.csiro.data61.core.drivers
 
-import au.csiro.data61.core.storage.{Storage, DatasetStorage}
-import au.csiro.data61.types.{Identifiable, DataSet}
-import au.csiro.data61.types.DataSetTypes.DataSetID
+import java.nio.file.Path
+
+import au.csiro.data61.core.api.{BadRequestException, DataSetRequest, InternalException, ParseException}
+import au.csiro.data61.core.storage.DatasetStorage._
+import au.csiro.data61.core.storage._
+import au.csiro.data61.types.ColumnTypes._
+import au.csiro.data61.types.{Column, DataSet, Identifiable, LogicalType}
+import au.csiro.data61.types.DataSetTypes._
+import au.csiro.data61.types.ModelTypes.ModelID
+import au.csiro.data61.types.SsdTypes.{OctopusID, SsdID}
+import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
+import org.joda.time.DateTime
 
 import language.implicitConversions
+import scala.util.{Failure, Success, Try}
 
-object DataSetInterface extends StorageInterface[DataSetID, DataSet] with LazyLogging {
+object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyLogging {
+
+  protected val DefaultSampleSize = 15
 
   override protected val storage = DatasetStorage
 
-  protected def missingReferences[DataSet](resource: DataSet): StorageDependencyMap = Map()
+  protected def missingReferences(resource: DataSet): StorageDependencyMap = {
+    // Dataset does not have any references to be checked
+    StorageDependencyMap()
+  }
 
-  protected def dependents[DataSet](resource: DataSet): StorageDependencyMap = Map()
+  protected def dependents(resource: DataSet): StorageDependencyMap = {
+    // column ids from this dataset
+    val colIds: Set[ColumnID] = get(resource.id)
+      .map(_.columns.map(_.id))
+      .getOrElse(List.empty[ColumnID])
+      .toSet
+
+    // SSDs which have columns from this dataset
+    val ssdRefIds: List[SsdID] = SsdStorage.keys
+      .flatMap(SsdStorage.get)
+      .map(x => (x.id, x.attributes.map(_.id))) // (SsdID, List[ColumnID])
+      .map {
+      case (ssdID, cols) => (ssdID, cols.filter(colIds.contains)) // filter out columns which are in this dataset
+    }
+      .filter(_._2.nonEmpty) // filter those SsdID which contain columns from this dataset
+      .map(_._1)
+
+    // models which refer to this dataset
+    val modelRefIds: List[ModelID] = ModelStorage.keys
+      .flatMap(ModelStorage.get)
+      .map(x => (x.id, x.refDataSets.toSet))
+      .filter(_._2.contains(resource.id))
+      .map(_._1)
+
+    // octopi which refer to modelRefIds or ssdRefIds
+    val octoRefIds: List[OctopusID] = OctopusStorage.keys
+      .flatMap(OctopusStorage.get)
+      .map(x => (x.id, x.lobsterID, x.ssds.toSet))
+      .filter {
+        case (octoID, modelID, ssds) =>
+          modelRefIds.toSet.contains(modelID) || (ssdRefIds.toSet & ssds).nonEmpty
+      }
+      .map(_._1)
+
+    StorageDependencyMap(model = modelRefIds, ssd = ssdRefIds, octopus = octoRefIds)
+  }
+
+  /**
+    * Parses a servlet request to get a dataset object
+    * then adds to the database, and returns the case class response
+    * object.
+    *
+    * @param request Servlet POST request
+    * @return Case class object for JSON conversion
+    */
+  def createDataset(request: DataSetRequest): DataSet = {
+
+    if (request.file.isEmpty) {
+      logger.error(s"Failed to read file request part")
+      throw ParseException(s"Failed to read file request part")
+    }
+
+    val typeMap = request.typeMap getOrElse Map.empty[String, String]
+    val description = request.description getOrElse MissingValue
+    val id = Generic.genID
+    logger.info(s"Writing dataset $id")
+
+    val dataSet = for {
+      fs <- request.file
+      path <- DatasetStorage.addFile(id, fs)
+      ds <- Try(DataSet(
+        id = id,
+        columns = getColumns(path, id, typeMap),
+        filename = fs.name,
+        path = path,
+        typeMap = typeMap,
+        description = description,
+        dateCreated = DateTime.now,
+        dateModified = DateTime.now
+      )).toOption
+      _ <- add(ds)
+    } yield ds
+
+    dataSet getOrElse {
+      throw InternalException(s"Failed to create resource $id")
+    }
+  }
+
+  /**
+    * Returns the public facing dataset from the storage layer
+    *
+    * @param id The dataset id
+    * @return
+    */
+  def getDataSet(id: DataSetID, colSize: Option[Int]): Option[DataSet] = {
+    if (colSize.isEmpty) {
+      DatasetStorage.get(id)
+    } else {
+      DatasetStorage.get(id).map(ds => {
+        val sampleColumns = getColumns(ds.path, ds.id, ds.typeMap, colSize.get)
+
+        ds.copy(
+          columns = ds.columns.zip(sampleColumns).map {
+            case (column, sampleColumn) => column.copy(sample = sampleColumn.sample)
+          }
+        )
+      })
+    }
+  }
+
+  /**
+    * Updates a single dataset with id key. Note that only the typemap
+    * and description can be updated
+    *
+    * @param description Optional description for update
+    * @param typeMap     Optional typeMap for update
+    * @param key         ID corresponding to a dataset element
+    * @return
+    */
+  def updateDataset(key: DataSetID, description: Option[String], typeMap: Option[TypeMap]): DataSet = {
+
+    if (!DatasetStorage.keys.contains(key)) {
+      throw ParseException(s"Dataset $key does not exist")
+    }
+
+    val newDS = for {
+      oldDS <- get(key)
+
+      ds = oldDS.copy(
+        description = description getOrElse oldDS.description,
+        typeMap = typeMap getOrElse oldDS.typeMap,
+        columns = if (typeMap.isEmpty) oldDS.columns else getColumns(oldDS.path, oldDS.id, typeMap.get),
+        dateModified = DateTime.now
+      )
+
+      _ <- update(ds)
+
+    } yield ds
+
+    newDS match {
+      case Some(ds) =>
+        ds
+      case _ =>
+        logger.error(s"Failed in UpdateDataSet for key $key")
+        throw InternalException(s"Failed in UpdateDataSet for key $key")
+    }
+  }
+
+  /**
+    * Return some random column objects for a dataset
+    *
+    * @param filePath    Full path to the file
+    * @param dataSetID   ID of the parent dataset
+    * @param n           Number of samples in the sample set
+    * @param headerLines Number of header lines in the file
+    * @return A list of Column objects
+    */
+  protected def getColumns(filePath: Path,
+                           dataSetID: DataSetID,
+                           typeMap: TypeMap,
+                           n: Int = DefaultSampleSize,
+                           headerLines: Int = 1): List[Column[Any]] = {
+    // TODO: Get this out of memory!
+
+    // note that we only take a sample from the first 4n samples. Otherwise
+    // we need to pull the whole file into memory to get say 10 samples...
+    val SampleBound = 4 * n
+
+    val csv = CSVReader.open(filePath.toFile)
+    val columns = csv.toStream.take(SampleBound).toList.transpose
+
+    // first pull out the headers...
+    val headers = columns.map(_.take(headerLines).mkString("_"))
+
+    // next pull out the data...
+    val data = columns.map(_.drop(headerLines))
+    val size = columns.headOption.map(_.size).getOrElse(0)
+
+    // generate random samples...
+    val rnd = new scala.util.Random()
+
+    // we create a set of random indices that will be consistent across the
+    // columns in the dataset.
+    val indices = Array.fill(n)(rnd.nextInt(size - 1))
+
+    // now we recombine with the headers and an index to create the
+    // set of column objects...
+    (headers zip data).zipWithIndex.map { case ((header, col), i) =>
+
+      val logicalType = typeMap.get(header).flatMap(LogicalType.lookup)
+
+      val typedData = retypeData(col, logicalType)
+
+      Column[Any](
+        i,
+        filePath,
+        header,
+        Generic.genID,
+        col.size,
+        dataSetID,
+        indices.map(typedData(_)).toList,
+        logicalType getOrElse LogicalType.STRING)
+    }
+  }
+
+  /**
+    * Changes the type of the csv data, very crude at the moment
+    *
+    * @param data        The original csv data
+    * @param logicalType The optional logical type. It will be cast to string if none.
+    * @return
+    */
+  protected def retypeData(data: List[String], logicalType: Option[LogicalType]): List[Any] = {
+    logicalType match {
+
+      case Some(LogicalType.BOOLEAN) =>
+        data.map(_.toBoolean)
+
+      case Some(LogicalType.FLOAT) =>
+        data.map(s => Try(s.toDouble).toOption getOrElse Double.NaN)
+
+      case Some(LogicalType.INTEGER) =>
+        data.map(s => Try(s.toInt).toOption getOrElse Int.MinValue)
+
+      case Some(LogicalType.STRING) =>
+        data
+
+      case _ =>
+        data
+    }
+  }
 
 }

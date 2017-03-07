@@ -68,7 +68,7 @@ object OctopusAPI extends RestAPI {
     * curl http://localhost:8080/v1.0/octopus
     */
   val octopusRoot: Endpoint[List[OctopusID]] = get(APIVersion :: "octopus") {
-    Ok(OctopusInterface.octopusKeys)
+    Ok(OctopusInterface.storageKeys)
   }
 
   /**

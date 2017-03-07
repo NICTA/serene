@@ -22,7 +22,7 @@ import au.csiro.data61.types._
 import org.joda.time.DateTime
 
 import scala.language.postfixOps
-import au.csiro.data61.core.drivers.OctopusInterface
+import au.csiro.data61.core.drivers.{OctopusInterface, SsdInterface}
 import io.finch._
 import org.json4s.jackson.JsonMethods._
 
@@ -62,7 +62,7 @@ object SsdAPI extends RestAPI {
     * curl http://localhost:8080/v1.0/ssd
     */
   val ssdRoot: Endpoint[List[Int]] = get(APIVersion :: "ssd") {
-    Ok(OctopusInterface.ssdKeys)
+    Ok(OctopusInterface.storageKeys)
   }
 
   /**
@@ -90,7 +90,7 @@ object SsdAPI extends RestAPI {
 
       logger.debug(s"Get ssd id=$id")
 
-      val ssd = Try { SsdStorage.get(id) }
+      val ssd = Try { SsdInterface.get(id) }
 
       ssd match {
         case Success(Some(s))  =>
@@ -126,7 +126,7 @@ object SsdAPI extends RestAPI {
     */
   val ssdDelete: Endpoint[String] = delete(APIVersion :: "ssd" :: int) {
     (id: Int) =>
-      Try(SsdStorage.remove(id)) match {
+      Try(SsdInterface.delete(id)) match {
 
         case Success(Some(_)) =>
           logger.debug(s"Deleted ssd $id")

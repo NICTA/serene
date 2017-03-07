@@ -18,20 +18,19 @@
 package au.csiro.data61.core.drivers
 
 import java.io.{IOException, InputStream}
-import java.nio.file.{Path, Paths}
+import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.api._
 import au.csiro.data61.core.storage._
 import au.csiro.data61.modeler.{PredictOctopus, TrainOctopus}
 import au.csiro.data61.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.core.drivers.Generic._
+import au.csiro.data61.core.storage.OctopusStorage._
 import au.csiro.data61.types.ColumnTypes.ColumnID
-import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
 import au.csiro.data61.types._
 import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types.Training.{Status, TrainState}
 import au.csiro.data61.types.SsdTypes._
-import com.twitter.io.Reader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
@@ -44,113 +43,46 @@ import scala.util.{Failure, Random, Success, Try}
   * Interface to the functionality of the Semantic Modeler.
   * Here, requests will be sent to the MatcherInterface as well.
   */
-object OctopusInterface extends StorageInterface[OctopusID, Octopus] with Trainable with LazyLogging {
+object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with LazyLogging {
 
-  val MissingValue = "unknown"
   val defaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter --> move to modelingProps
 
   override val storage = OctopusStorage
 
-  protected def missingReferences[Octopus](resource: Octopus): StorageDependencyMap = Map()
+  protected def missingReferences(resource: Octopus): StorageDependencyMap = {
+    // octopus depends on everything...
 
-  protected def dependents[Octopus](resource: Octopus): StorageDependencyMap = Map()
-
-  override def checkTraining: Boolean = {
-    true
+    StorageDependencyMap()
   }
 
-  /**
-    * Check if the SsdRequest has proper parameters.
-    *
-    * @param request SsdRequest coming from the API
-    * @param ssdAttributes generated attributes
-    * @throws InternalException if there;s a problem
-    */
-  protected def checkSsdRequest(request: SsdRequest,
-                                ssdAttributes: List[SsdAttribute])
-  : Unit = {
-
-    // check that columnIDs are available in the DataSetStorage
-    if (!ssdAttributes.forall(attr => DatasetStorage.columnMap.keySet.contains(attr.id))) {
-      val msg = "SSD cannot be added to the storage: columns in the mappings do not exist in the DatasetStorage."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    }
-
-    // check that ontologies are available in the OwlStorage
-    if (!request.ontologies.forall(OwlInterface.owlKeys.toSet.contains)) {
-      val msg = "SSD cannot be added to the storage: ontologies do not exist in the OwlStorage."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    }
+  protected def dependents(resource: Octopus): StorageDependencyMap = {
+    // octopus does not have dependents
+    StorageDependencyMap()
   }
 
-  /**
-    * Check if the SsdRequest has proper parameters.
-    * Then convert it to Semantic Source Description
-    *
-    * @param request SsdRequest coming from the API
-    * @param ssdAttributes List of generated attributes
-    * @param ssdID id of the SSD
-    */
-  protected def convertSsdRequest(request: SsdRequest,
-                                  ssdAttributes: List[SsdAttribute],
-                                  ssdID: SsdID)
-  : Ssd = {
+  override def checkTraining(id: Key): Boolean = {
+    logger.info(s"Checking consistency of octopus $id")
 
-    val ssd = Ssd(ssdID,
-      name = request.name,
-      attributes = ssdAttributes,
-      ontology = request.ontologies,
-      semanticModel = request.semanticModel,
-      mappings = request.mappings,
-      dateCreated = DateTime.now,
-      dateModified = DateTime.now
-    )
+    // make sure the SSDs in the octopus are older
+    // than the training state
+    val isOK = for {
+      octopus <- get(id)
+      trainDate = octopus.state.dateChanged
+      refIDs = octopus.ssds
+      refs = refIDs.flatMap(SsdStorage.get).map(_.dateModified)
 
-    // check if the SSD is consistent and complete
-    if (!ssd.isComplete) {
-      val msg = "SSD cannot be added to the storage: it is not complete."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    }
+      // associated schema matcher model is consistent
+      lobsterConsistent = ModelStorage.isConsistent(octopus.lobsterID)
+      // make sure the octopus is complete
+      isComplete = octopus.state.status == Status.COMPLETE
+      // make sure the SSDs are older than the training date
+      allBefore = refs.forall(_.isBefore(trainDate))
+      // make sure the alignment graph is there...
+      alignmentExists = Files.exists(getAlignmentGraphPath(id))
 
-  ssd
-  }
+    } yield allBefore && alignmentExists && isComplete && lobsterConsistent
 
-  /**
-    * Check the request and if it's ok add a corresponding SSD to the storage.
-    *
-    * @param request Request object
-    * @return
-    */
-  def createSsd(request: SsdRequest): Ssd = {
-
-    val id = genID
-
-    // get list of attributes from the mappings
-    // NOTE: for now we automatically generate them to be equal to the original columns
-    val ssdAttributes: List[SsdAttribute] = request
-      .mappings
-      .map(_.mappings.keys.toList)
-      .getOrElse(List.empty[Int])
-      .map(SsdAttribute(_))
-
-    // check the SSD request -- the method will just raise exceptions if there's anything wrong
-    checkSsdRequest(request, ssdAttributes)
-
-    // build the Semantic Source Description from the request, adding defaults where necessary
-    val ssdOpt = for {
-      ssd <- Try {
-        // we convert here the request to the SSD and also check if the SSD is complete
-        convertSsdRequest(request, ssdAttributes, id)
-      }.toOption
-      _ <- SsdStorage.add(id, ssd)
-
-    } yield ssd
-
-    ssdOpt getOrElse { throw InternalException("Failed to create resource.") }
-
+    isOK getOrElse false
   }
 
   /**
@@ -619,23 +551,6 @@ object OctopusInterface extends StorageInterface[OctopusID, Octopus] with Traina
     ssdOntologies ++ ontologies.getOrElse(List.empty[Int])
   }
 
-  /**
-    * Passes the ssd keys up to the API
-    *
-    * @return
-    */
-  def ssdKeys: List[SsdID] = {
-    SsdStorage.keys
-  }
-
-  /**
-    * Passes the octopus keys up to the API
-    *
-    * @return
-    */
-  def octopusKeys: List[OctopusID] = {
-    OctopusStorage.keys
-  }
 
   /**
     * Deletes the octopus
@@ -718,7 +633,7 @@ object OctopusInterface extends StorageInterface[OctopusID, Octopus] with Traina
           dateCreated = original.dateCreated,
           dateModified = DateTime.now)
       }.toOption
-      _ <- OctopusStorage.add(id, octopus)
+      _ <- update(octopus)
 
     } yield {
       octopus
@@ -727,16 +642,6 @@ object OctopusInterface extends StorageInterface[OctopusID, Octopus] with Traina
       logger.error(s"Failed to update octopus $id.")
       throw InternalException("Failed to update octopus.")
     }
-  }
-
-  /**
-    * Returns the public facing octopus from the storage layer
-    *
-    * @param id The octopus id
-    * @return
-    */
-  def getOctopus(id: OctopusID): Option[Octopus] = {
-    OctopusStorage.get(id)
   }
 
 }

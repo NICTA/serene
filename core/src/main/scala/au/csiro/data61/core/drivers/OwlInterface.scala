@@ -19,24 +19,58 @@ package au.csiro.data61.core.drivers
 
 import java.io.InputStream
 
-import au.csiro.data61.core.api.{NotFoundException, BadRequestException, InternalException}
+import au.csiro.data61.core.api.{BadRequestException, InternalException, NotFoundException}
 import au.csiro.data61.core.drivers.Generic._
-import au.csiro.data61.core.storage.OwlStorage
+import au.csiro.data61.core.storage.{ModelStorage, OctopusStorage, OwlStorage, SsdStorage}
+import au.csiro.data61.types.ColumnTypes._
+import au.csiro.data61.types.ModelTypes._
 import au.csiro.data61.types.SsdTypes.OwlDocumentFormat._
-import au.csiro.data61.types.SsdTypes.{Owl, OwlID}
+import au.csiro.data61.types.SsdTypes._
 import com.twitter.io.Reader
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 
 import scala.util.Try
 
-object OwlInterface extends StorageInterface[OwlID, Owl] with LazyLogging {
+object OwlInterface extends StorageInterface[OwlKey, Owl] with LazyLogging {
 
   override val storage = OwlStorage
 
-  protected def missingReferences[Owl](resource: Owl): StorageDependencyMap = Map()
+  protected def missingReferences(resource: Owl): StorageDependencyMap = {
+    // owl does not have references to be checked
+    StorageDependencyMap()
+  }
 
-  protected def dependents[Owl](resource: Owl): StorageDependencyMap = Map()
+  protected def dependents(resource: Owl): StorageDependencyMap = {
+    // SSDs which refer to this ontology
+    val ssdRefIds: List[SsdID] = SsdStorage.keys
+      .flatMap(SsdStorage.get)
+      .map(x => (x.id, x.ontology.toSet))
+      .filter(_._2.contains(resource.id))
+      .map(_._1)
+
+    // octopi which directly refer to this ontology
+    val octoRefIds1: List[OctopusID] = OctopusStorage.keys
+      .flatMap(OctopusStorage.get)
+      .map(x => (x.id, x.ontologies.toSet))
+      .filter(_._2.contains(resource.id))
+      .map(_._1)
+
+    // octopi which refer to ssdRefIds
+    val octoRefIds2: List[OctopusID] = OctopusStorage.keys
+      .flatMap(OctopusStorage.get)
+      .map(x => (x.id, x.ssds.toSet))
+      .filter {
+        case (octoID, ssds) =>
+          (ssdRefIds.toSet & ssds).nonEmpty
+      }
+      .map(_._1)
+
+    StorageDependencyMap(
+      ssd = ssdRefIds,
+      octopus = (octoRefIds1 ++ octoRefIds2).distinct
+    )
+  }
 
   /**
     * Creates an OWL document with related information.
@@ -63,33 +97,12 @@ object OwlInterface extends StorageInterface[OwlID, Owl] with LazyLogging {
     )
 
     for {
-      owlId <- OwlStorage.add(id, owl)
+      owlId <- add(owl)
       owlPath <- OwlStorage.writeOwlDocument(id, inputStream)
-      curOwl <- OwlStorage.get(owlId)
+      curOwl <- get(owlId)
     } yield curOwl
-
-    //    OwlStorage.add(id, owl) match {
-    //      case Some(_) =>
-    //          OwlStorage.writeOwlDocument(id, inputStream)
-    //      case None =>
-    //        throw new IOException(s"Owl $id could not be created.")
-    //    }
   }
 
-  /**
-    * Gets the IDs of available OWL documents.
-    *
-    * @return The list of OWL IDs.
-    */
-  def owlKeys: List[OwlID] = OwlStorage.keys
-
-  /**
-    * Gets information about an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @return Information about the OWL document if found.
-    */
-  def getOwl(id: OwlID): Option[Owl] = OwlStorage.get(id)
 
   /**
     * Gets the original OWL file uploaded to the server.
@@ -127,43 +140,13 @@ object OwlInterface extends StorageInterface[OwlID, Owl] with LazyLogging {
             description = description.getOrElse(owl.description),
             dateModified = DateTime.now())
 
-          OwlStorage
-            .update(id, updatedOwl)
-            .flatMap(OwlStorage.get)
+          update(updatedOwl)
+            .flatMap(get)
             .getOrElse(throw InternalException(s"Failed to update Owl at $id"))
         }
+
       case None =>
         throw BadRequestException(s"Owl $id not found.")
-    }
-  }
-
-  /**
-    * Deletes an OWL document.
-    *
-    * @param id The ID of the OWL document.
-    * @return Information about the deleted OWL document if successful. Otherwise the exception that
-    *         caused the failure.
-    */
-  def deleteOwl(id: OwlID): Try[Owl] = Try {
-
-    if (OwlStorage.hasDependents(id)) {
-      val msg = s"Owl $id cannot be deleted since it has dependents." +
-        s"Delete first dependents."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    }
-
-    // TODO: check SsdStorage, OctopusStorage
-    OwlStorage.get(id) match {
-      case Some(owl) =>
-        OwlStorage.remove(id) match {
-          case Some(_) =>
-            owl
-          case None =>
-            throw InternalException(s"Owl $id could not be deleted.")
-        }
-      case None =>
-        throw NotFoundException(s"Owl $id not found.")
     }
   }
 

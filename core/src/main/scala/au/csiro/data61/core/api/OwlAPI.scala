@@ -18,7 +18,7 @@
 package au.csiro.data61.core.api
 
 import java.nio.file.Files
-import au.csiro.data61.core.drivers.{OwlInterface, OctopusInterface}
+import au.csiro.data61.core.drivers.OwlInterface
 import au.csiro.data61.types.SsdTypes.{Owl, OwlID, OwlDocumentFormat}
 import com.twitter.finagle.http.Version.Http11
 import com.twitter.finagle.http.{Response, Status, Version}
@@ -45,7 +45,7 @@ object OwlAPI extends RestAPI {
     * This endpoint handles GET requests for /version/owl.
     */
   val listOwls: Endpoint[List[OwlID]] = get(APIVersion :: OwlRootPath) {
-    Ok(OwlInterface.owlKeys)
+    Ok(OwlInterface.storageKeys)
   }
 
   /**
@@ -89,7 +89,7 @@ object OwlAPI extends RestAPI {
   val getOwl: Endpoint[Owl] = get(APIVersion :: OwlRootPath :: int) { (id: Int) =>
     logger.info(s"Getting OWL with ID=$id")
 
-    OwlInterface.getOwl(id) match {
+    OwlInterface.get(id) match {
       case Some(owl) => Ok(owl)
       case None => NotFound(NotFoundException(s"OWL $id not found"))
     }
@@ -100,7 +100,7 @@ object OwlAPI extends RestAPI {
     (id: Int) =>
       logger.info(s"Getting OWL document with ID=$id")
 
-      OwlInterface.getOwl(id) match {
+      OwlInterface.get(id) match {
         case Some(owl) =>
           OwlInterface.getOwlDocument(owl) match {
             case Success(reader: Reader) =>
@@ -150,15 +150,20 @@ object OwlAPI extends RestAPI {
     *
     * This endpoint handles DELETE requests for /version/owl/:id.
     */
-  val deleteOwl: Endpoint[Owl] = delete(APIVersion :: OwlRootPath :: int) {
+  val deleteOwl: Endpoint[String] = delete(APIVersion :: OwlRootPath :: int) {
     (id: Int) =>
       logger.info(s"Deleting OWL with ID=$id")
 
-      OwlInterface.deleteOwl(id) match {
-        case Success(owl) =>
-          Ok(owl)
-        case Failure(th) =>
-          InternalServerError(new RuntimeException(th))
+      Try(OwlInterface.delete(id)) match {
+        case Success(Some(_)) =>
+          logger.debug(s"Deleted ontology $id")
+          Ok(s"Ontology $id deleted successfully.")
+        case Success(None) =>
+          logger.debug(s"Could not find ontology $id")
+          NotFound(NotFoundException(s"Ontology $id could not be found"))
+        case Failure(err) =>
+          logger.debug(s"Some other problem with deleting...")
+          InternalServerError(InternalException(s"Failed to delete ontology $id: ${err.getMessage}"))
       }
   }
 

@@ -694,6 +694,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
 
           // send the request and make sure it executes
           val response = Await.result(client(request))
+          println(response.contentString)
+          println(response.status)
           assert(response.contentType === Some(JsonHeader))
           assert(response.status === Status.Ok)
           assert(!response.contentString.isEmpty)
@@ -747,6 +749,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   })
 
   test("DELETE /v1.0/dataset/:id should remove columns and refDataSets from model") (new TestServer {
+    // FIXME: move to CoordinationSpec
     try {
       val TestStr = randomString
       val PollTime = 1000

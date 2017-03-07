@@ -19,8 +19,11 @@ package au.csiro.data61.core
 
 import com.typesafe.config.ConfigFactory
 import com.typesafe.scalalogging.LazyLogging
+import java.nio.file.{Files, Path, Paths}
 
-import scala.util.{Try, Success, Failure}
+import au.csiro.data61.core.api.InternalException
+
+import scala.util.{Failure, Success, Try}
 
 /**
  * This class holds the options for the command line user args
@@ -189,13 +192,30 @@ object Config extends LazyLogging {
       ssd = s"$storagePath/$SsdDirName"
     )
 
-    logger.info(s"Storage path at $storagePath")
-    logger.info(s"Dataset repository at ${sd.dataset}")
-    logger.info(s"Model repository at ${sd.model}")
-    logger.info(s"Ontology repository at ${sd.owl}")
-    logger.info(s"Alignment repository at ${sd.octopus}")
-    logger.info(s"SSD repository at ${sd.ssd}")
+    // create directories
+    Try {
+      if (!Paths.get(sd.root).toFile.exists) Paths.get(sd.root).toFile.mkdirs
+      if (!Paths.get(sd.dataset).toFile.exists) Paths.get(sd.dataset).toFile.mkdirs
+      if (!Paths.get(sd.model).toFile.exists) Paths.get(sd.model).toFile.mkdirs
+      if (!Paths.get(sd.owl).toFile.exists) Paths.get(sd.owl).toFile.mkdirs
+      if (!Paths.get(sd.octopus).toFile.exists) Paths.get(sd.octopus).toFile.mkdirs
+      if (!Paths.get(sd.ssd).toFile.exists) Paths.get(sd.ssd).toFile.mkdirs
 
-    sd
+      logger.info(s"Storage path at $storagePath")
+      logger.info(s"Dataset repository at ${sd.dataset}")
+      logger.info(s"Model repository at ${sd.model}")
+      logger.info(s"Ontology repository at ${sd.owl}")
+      logger.info(s"Alignment repository at ${sd.octopus}")
+      logger.info(s"SSD repository at ${sd.ssd}")
+
+      sd
+    } match {
+      case Success(sDir) =>
+        sDir
+      case Failure(err) =>
+        throw InternalException(s"Failed to create storage: $err")
+    }
+
   }
 }
+

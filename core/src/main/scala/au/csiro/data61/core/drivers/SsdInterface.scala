@@ -17,17 +17,100 @@
   */
 package au.csiro.data61.core.drivers
 
-import au.csiro.data61.core.storage.SsdStorage
-import au.csiro.data61.types.Ssd
-import au.csiro.data61.types.SsdTypes.SsdID
+import au.csiro.data61.core.api.{BadRequestException, InternalException, SsdRequest}
+import au.csiro.data61.core.storage.{DatasetStorage, OctopusStorage, OwlStorage, SsdStorage}
+import au.csiro.data61.types.ColumnTypes.ColumnID
+import au.csiro.data61.types.{Ssd, SsdAttribute}
+import au.csiro.data61.types.SsdTypes._
+import au.csiro.data61.core.drivers.Generic._
 import com.typesafe.scalalogging.LazyLogging
+import org.joda.time.DateTime
 
-object SsdInterface extends StorageInterface[SsdID, Ssd] with LazyLogging {
+import scala.util.Try
+
+object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
 
   override val storage = SsdStorage
 
-  protected def missingReferences[Ssd](resource: Ssd): StorageDependencyMap = Map()
+  protected def missingReferences(resource: Ssd): StorageDependencyMap = {
 
-  protected def dependents[Ssd](resource: Ssd): StorageDependencyMap = Map()
+    val presentColIds: List[ColumnID] = resource.attributes.map(_.id)
+
+    // missing columns
+    val colIDs: List[ColumnID] = presentColIds.filterNot(DatasetStorage.columnMap.keys.toSet.contains)
+
+    // missing owls
+    val owlIDs: List[OwlID] = resource.ontology.filterNot(OwlStorage.keys.toSet.contains)
+
+    StorageDependencyMap(owl = owlIDs, column = colIDs)
+  }
+
+  protected def dependents(resource: Ssd): StorageDependencyMap = {
+    // only octopi
+    val octoRefIds: List[OctopusID] = OctopusStorage.keys
+      .flatMap(OctopusStorage.get)
+      .map(x => (x.id, x.ssds.toSet))
+      .filter(_._2.contains(resource.id))
+      .map(_._1)
+
+    StorageDependencyMap(octopus = octoRefIds)
+  }
+
+  /**
+    * Check if the SsdRequest has proper parameters.
+    * Then convert it to Semantic Source Description
+    *
+    * @param request SsdRequest coming from the API
+    * @param ssdID id of the SSD
+    */
+  protected def convertSsdRequest(request: SsdRequest,
+                                  ssdID: SsdID)
+  : Ssd = {
+
+    // get list of attributes from the mappings
+    // NOTE: for now we automatically generate them to be equal to the original columns
+    val ssdAttributes: List[SsdAttribute] = request
+      .mappings
+      .map(_.mappings.keys.toList)
+      .getOrElse(List.empty[Int])
+      .map(SsdAttribute(_))
+
+    Ssd(ssdID,
+      name = request.name,
+      attributes = ssdAttributes,
+      ontology = request.ontologies,
+      semanticModel = request.semanticModel,
+      mappings = request.mappings,
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now
+    )
+  }
+
+  /**
+    * Check the request and if it's ok add a corresponding SSD to the storage.
+    *
+    * @param request Request object
+    * @return
+    */
+  def createSsd(request: SsdRequest): Ssd = {
+
+    val id = genID
+
+    val ssd = convertSsdRequest(request, id)
+
+    // check if the SSD is consistent and complete
+    if (!ssd.isComplete){
+      val msg = "SSD cannot be added to the storage: it is not complete."
+      logger.error(msg)
+      throw BadRequestException(msg)
+    }
+
+    add(ssd) match {
+      case Some(key: SsdID) =>
+        ssd
+      case _ =>
+        throw InternalException("Failed to create resource.")
+    }
+  }
 
 }

@@ -17,8 +17,9 @@
  */
 package au.csiro.data61.core.api
 
-import java.io.{ByteArrayInputStream, InputStream, FileInputStream}
-import au.csiro.data61.core.drivers.MatcherInterface
+import java.io.{ByteArrayInputStream, FileInputStream, InputStream}
+
+import au.csiro.data61.core.drivers.DataSetInterface
 import au.csiro.data61.types.{DataSet, DataSetTypes}
 import DataSetTypes._
 import com.twitter.finagle.http.exp.Multipart
@@ -48,7 +49,7 @@ object DatasetAPI extends RestAPI {
    * curl http://localhost:8080/v1.0/dataset
    */
   val datasetRoot: Endpoint[List[Int]] = get(APIVersion :: "dataset") {
-    Ok(MatcherInterface.datasetKeys)
+    Ok(DataSetInterface.storageKeys)
   }
 
   /**
@@ -92,7 +93,7 @@ object DatasetAPI extends RestAPI {
           } yield tm
         )
 
-        MatcherInterface.createDataset(req)
+        DataSetInterface.createDataset(req)
       }
 
       // main matching object...
@@ -130,7 +131,7 @@ object DatasetAPI extends RestAPI {
 
       val dataset = for {
         sc <- Try(samples.map(_.toInt))
-        ds <- Try(MatcherInterface.getDataSet(id, sc))
+        ds <- Try(DataSetInterface.getDataSet(id, sc))
       } yield ds
 
       dataset match {
@@ -179,7 +180,7 @@ object DatasetAPI extends RestAPI {
             typeMap.map(parse(_).extract[TypeMap])
           }
           ds <- Try {
-            MatcherInterface.updateDataset(id, desc, tm)
+            DataSetInterface.updateDataset(id, desc, tm)
           }
         } yield ds)
         match {
@@ -198,7 +199,7 @@ object DatasetAPI extends RestAPI {
    */
   val datasetDelete: Endpoint[String] = delete(APIVersion :: "dataset" :: int) {
     (id: Int) =>
-      Try(MatcherInterface.deleteDataset(id)) match {
+      Try(DataSetInterface.delete(id)) match {
         case Success(Some(_)) =>
           logger.debug(s"Deleted dataset $id")
           Ok(s"Dataset $id deleted successfully.")
