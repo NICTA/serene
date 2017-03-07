@@ -332,10 +332,10 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     val updatedAlignment = convertSortableKarmaSM(sortableKarmaSM, alignmentGraph)
 
     //debugging...
-    GraphUtil.exportJson(GraphUtil.asDefaultGraph(updatedAlignment.getSteinerTree),
-      Paths.get(ModelerConfig.KarmaDir, s"karma_alignment_steinertree_$rank.json").toString, true, true)
-    sortableKarmaSM.writeGraphviz(
-      Paths.get(ModelerConfig.KarmaDir, s"karma_alignment_steinertree_$rank.dot").toString, false,false)
+//    GraphUtil.exportJson(GraphUtil.asDefaultGraph(updatedAlignment.getSteinerTree),
+//      Paths.get(ModelerConfig.KarmaDir, s"karma_alignment_steinertree_$rank.json").toString, true, true)
+//    sortableKarmaSM.writeGraphviz(
+//      Paths.get(ModelerConfig.KarmaDir, s"karma_alignment_steinertree_$rank.dot").toString, false,false)
 
     // we update the input ssd with the suggestion from Karma
     // for this purpose, we have to get the steiner tree from the updated alignment
@@ -533,8 +533,8 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     logger.info(s"Setting up initial alignment of SSD ${ssd.id}")
     val alignmentGraph = new Alignment(karmaWrapper.karmaWorkspace.getOntologyManager)
     //debugging...
-    GraphUtil.exportJson(alignmentGraph.getGraphBuilder.getGraph,
-      Paths.get(ModelerConfig.KarmaDir, s"karma_alignment_graph.json").toString, true, true)
+//    GraphUtil.exportJson(alignmentGraph.getGraphBuilder.getGraph,
+//      Paths.get(ModelerConfig.KarmaDir, s"karma_alignment_graph.json").toString, true, true)
 
     logger.info("Converting input SSD to Karma-like SemanticModel")
     // get initial graph
@@ -550,8 +550,8 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     }
 
     //debugging...
-    GraphUtil.exportJson(updatedAlignmentGraph.getGraphBuilder.getGraph,
-      Paths.get(ModelerConfig.KarmaDir, s"karma_updated_alignment_graph.json").toString, true, true)
+//    GraphUtil.exportJson(updatedAlignmentGraph.getGraphBuilder.getGraph,
+//      Paths.get(ModelerConfig.KarmaDir, s"karma_updated_alignment_graph.json").toString, true, true)
 
     updatedAlignmentGraph
   }
@@ -649,9 +649,9 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
       }
 
       // debugging stuff
-      GraphUtil.exportJson(alignmentGraph.getGraphBuilder.getGraph,
-        Paths.get(ModelerConfig.KarmaDir, s"karma_learn_alignment_graph.json").toString, true, true)
-      logger.debug(s"---Alignment3 sourcecolnodes: ${alignmentGraph.getSourceColumnNodes.size}")
+//      GraphUtil.exportJson(alignmentGraph.getGraphBuilder.getGraph,
+//        Paths.get(ModelerConfig.KarmaDir, s"karma_learn_alignment_graph.json").toString, true, true)
+//      logger.debug(s"---Alignment3 sourcecolnodes: ${alignmentGraph.getSourceColumnNodes.size}")
 
       val suggestions: List[(Ssd, SemanticScores)] =
         getKarmaSuggestions(ssd, alignmentGraph, numSemanticTypes)

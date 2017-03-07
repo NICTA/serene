@@ -40,7 +40,6 @@ import au.csiro.data61.modeler.ModelerConfig
 
 /**
   * Class to initialize Karma tool.
-  * TODO: add alignment directory as a parameter + modeling properties + list of ontologies
   * @param alignmentDir Directory where the alignment graph is/will be stored
   * @param ontologies List of paths where ontologies are stored
   * @param modelingProps Path where the file with modeling properties is located; optional
@@ -138,7 +137,7 @@ case class KarmaParams(alignmentDir: String
     // if we do not do the next step, then default modeling props will be used
     copyModelingProps()
     val contextParams = ContextParametersRegistry.getInstance.getContextParameters(ModelerConfig.KarmaDir)
-    // TODO: I could not find in Karma code where all parameters are initialized
+
     // initialize context parameters according to default values
     logger.info("Initialize karma context parameters")
     karmaInitParams foreach {
@@ -217,6 +216,9 @@ case class KarmaParams(alignmentDir: String
     m.map(_.swap) toMap
   }
 
+  /**
+    * Get a list of location strings of ontologies stored within Karma
+    */
   def karmaOntologies: List[String] = {
     karmaInitParams
       .getOrElse(ContextParameter.PRELOADED_ONTOLOGY_DIRECTORY, None) match {

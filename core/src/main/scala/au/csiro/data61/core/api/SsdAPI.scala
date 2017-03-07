@@ -181,6 +181,32 @@ case class SsdRequest(name: String,
                       ontologies: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
                       semanticModel: Option[SemanticModel], // create = empty, returned = full
                       mappings: Option[SsdMapping])  // create = empty, returned = full
+{
+  /**
+    * Convert SsdRequest to Ssd
+    *
+    * @param ssdID Id to be used for the generated Ssd
+    * @return
+    */
+  def toSsd(ssdID: SsdID): Ssd = {
+    // get a list of attributes from the mappings
+    // NOTE: for now we automatically generate them to be equal to the original columns
+    val ssdAttributes: List[SsdAttribute] = mappings
+      .map(_.mappings.keys.toList)
+      .getOrElse(List.empty[Int])
+      .map(SsdAttribute(_))
+
+    Ssd(ssdID,
+      name = name,
+      attributes = ssdAttributes,
+      ontology = ontologies,
+      semanticModel = semanticModel,
+      mappings = mappings,
+      dateCreated = DateTime.now,
+      dateModified = DateTime.now
+    )
+  }
+}
 
 /**
   * Return type to user from the API when performing Octopus prediction

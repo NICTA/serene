@@ -44,9 +44,9 @@ case class SemanticScores(linkCost: Double,
   }
 
   override def toString: String = {
-    s"SemanticScores(\n    linkCost=$linkCost,\n    linkCoherence=$linkCoherence,\n    nodeConfidence=$nodeConfidence," +
-      s"\n    nodeCoherence=$nodeCoherence,\n    sizeReduction=$sizeReduction,\n    nodeCoverage=$nodeCoverage," +
-      s"\n    karmaRank=$karmaRank)"
+    s"SemanticScores(linkCost=$linkCost, linkCoherence=$linkCoherence, nodeConfidence=$nodeConfidence," +
+      s" nodeCoherence=$nodeCoherence, sizeReduction=$sizeReduction, nodeCoverage=$nodeCoverage," +
+      s" karmaRank=$karmaRank)"
   }
 }
 

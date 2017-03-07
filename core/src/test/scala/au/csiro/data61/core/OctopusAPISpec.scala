@@ -21,31 +21,35 @@ import java.io.FileInputStream
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.core.api.OctopusRequest
-import au.csiro.data61.core.storage.{JsonFormats, OctopusStorage, SsdStorage}
-import au.csiro.data61.core.drivers.{MatcherInterface, OctopusInterface}
 import au.csiro.data61.core.storage._
-import au.csiro.data61.modeler.ModelerConfig
-import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
-import au.csiro.data61.types.ModelType.RANDOM_FOREST
-import au.csiro.data61.types.ModelTypes.Model
-import au.csiro.data61.types.SsdTypes.{Owl, OwlDocumentFormat}
-import au.csiro.data61.types.SamplingStrategy.NO_RESAMPLING
-import au.csiro.data61.types.Training.Status
+import au.csiro.data61.types.SsdTypes._
 import au.csiro.data61.types._
+import api._
+import au.csiro.data61.core.drivers.Generic._
+import au.csiro.data61.core.drivers.{MatcherInterface, OctopusInterface}
+import au.csiro.data61.types.SamplingStrategy.{NO_RESAMPLING, RESAMPLE_TO_MEAN}
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
-import org.json4s.Extraction
-import org.json4s.jackson.JsonMethods._
-import org.scalatest.{BeforeAndAfterEach, FunSuite}
+import com.twitter.finagle.http.RequestBuilder
+import com.twitter.finagle.http._
+import com.twitter.io.Buf
+import com.twitter.util.{Await, Return, Throw}
 
-import scala.concurrent._
+//import scala.concurrent._
+import org.scalatest.concurrent._
+import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
-import scala.language.postfixOps
-import scala.util.{Failure, Success, Try}
+import scala.annotation.tailrec
+import scala.concurrent.Future
+import scala.util.{Failure, Random, Success, Try}
 
+import language.postfixOps
+
+import org.json4s.JsonDSL._
+import org.json4s._
+import org.json4s.jackson.JsonMethods._
 
 
 /**
@@ -53,6 +57,9 @@ import scala.util.{Failure, Success, Try}
   */
 
 class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging {
+
+  import OctopusAPI._
+
 //  override def afterEach(): Unit = {
 //    SsdStorage.removeAll()
 //    OctopusStorage.removeAll()
@@ -60,106 +67,860 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 //    OwlStorage.removeAll()
 //    ModelStorage.removeAll()
 //  }
-//
-//  val businessSsdID = 0
-//  val exampleOwlID = 1
-//
-//  override def beforeEach(): Unit = {
-//    copySampleDatasets() // copy csv files for getCities and businessInfo
-//    SsdStorage.add(businessSSD.id, businessSSD) // add businessInfo ssd
-//    OwlStorage.add(exampleOwl.id, exampleOwl)  // add sample ontology
-//    // write owl file
-//    Try{
-//      val stream = new FileInputStream(exampleOntolPath.toFile)
-//      OwlStorage.writeOwlDocument(exampleOwlID, stream)
-//    }
-//
-//  }
-//
-//  val ssdDir = getClass.getResource("/ssd").getPath
-//
-//  def readSSD(ssdPath: String): Ssd = {
-//    Try {
-//      val stream = new FileInputStream(Paths.get(ssdPath).toFile)
-//      parse(stream).extract[Ssd]
-//    } match {
-//      case Success(ssd) =>
-//        ssd
-//      case Failure(err) =>
-//        fail(err.getMessage)
-//    }
-//  }
-//
-//  val exampleOntolPath = Paths.get(ssdDir,"dataintegration_report_ontology.owl")
-//  val exampleOwl = Owl(id = exampleOwlID, name = exampleOntolPath.toString, format = OwlDocumentFormat.DefaultOwl,
-//    description = "sample", dateCreated = DateTime.now, dateModified = DateTime.now)
-//
-//  val partialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
-//  val veryPartialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model2.ssd").toString)
-//  val emptyCitiesSSD: Ssd = readSSD(Paths.get(ssdDir,"empty_getCities.ssd").toString)
-//  val emptySSD: Ssd = readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
-//  val businessSSD: Ssd = readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
-//
-//  val defaultFeatures = FeaturesConfig(
-//    activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
-//      "ratio-alpha-chars", "prop-numerical-chars",
-//      "prop-whitespace-chars", "prop-entries-with-at-sign",
-//      "prop-entries-with-hyphen", "prop-entries-with-paren",
-//      "prop-entries-with-currency-symbol", "mean-commas-per-entry",
-//      "mean-forward-slashes-per-entry",
-//      "prop-range-format", "is-discrete", "entropy-for-discrete-values"),
-//    activeGroupFeatures = Set.empty[String],
-//    featureExtractorParams = Map()
-//  )
-//
-//  val defaultOctopusRequest = OctopusRequest(
-//    name = None,
-//    description = Some("default octopus"),
-//    modelType = None,
-//    features = Some(defaultFeatures),
-//    resamplingStrategy = Some(NO_RESAMPLING),
-//    numBags = None,
-//    bagSize = None,
-//    ontologies = None,
-//    ssds = Some(List(businessSSD.id)),
-//    modelingProps = None)
-//
-//  val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None, None)
-//
-//  val helperDir = getClass.getResource("/helper").getPath
-//  val sampleDsDir = getClass.getResource("/sample.datasets").getPath
-//  val datasetMap = Map("businessInfo" -> 767956483, "getCities" -> 696167703)
-//  val businessDsPath = Paths.get(sampleDsDir,
-//    datasetMap("businessInfo").toString, datasetMap("businessInfo").toString + ".json")
-//  val citiesDsPath = Paths.get(sampleDsDir,
-//    datasetMap("getCities").toString, datasetMap("getCities").toString + ".json")
-//
-//  def copySampleDatasets(): Unit = {
-//    // copy sample dataset to Config.DatasetStorageDir
-//    if (!Paths.get(Serene.config.storageDirs.dataset).toFile.exists) { // create dataset storage dir
-//      Paths.get(Serene.config.storageDirs.dataset).toFile.mkdirs}
-//
-//    val dsDir = Paths.get(sampleDsDir).toFile // directory to copy from
-//    FileUtils.copyDirectory(dsDir,                    // copy sample dataset
-//      Paths.get(Serene.config.storageDirs.dataset).toFile)
-//
-//    // adding datasets explicitly to the storage
-//    val businessDS: DataSet = Try {
-//      val stream = new FileInputStream(businessDsPath.toFile)
-//      parse(stream).extract[DataSet]
-//    } match {
-//      case Success(ds) => ds
-//      case Failure(err) => fail(err.getMessage)
-//    }
-//    val citiesDS: DataSet = Try {
-//      val stream = new FileInputStream(businessDsPath.toFile)
-//      parse(stream).extract[DataSet]
-//    } match {
-//      case Success(ds) => ds
-//      case Failure(err) => fail(err.getMessage)
-//    }
-//
-//    DatasetStorage.add(businessDS.id, businessDS)
-//    DatasetStorage.add(citiesDS.id, citiesDS)
-//  }
+
+  /**
+    * Clean all resources from the server
+    *
+    * @param server Reference to the TestServer used in a single test
+    */
+  def deleteOctopi()(implicit server: TestServer): Unit = {
+    val response = server.get(s"/$APIVersion/octopus")
+
+    if (response.status == Status.Ok) {
+      val str = response.contentString
+      val regex = "[0-9]+".r
+      val models = regex.findAllIn(str).map(_.toInt)
+      models.foreach { model =>
+        server.delete(s"/$APIVersion/octopus/$model")
+      }
+    }
+
+    SsdStorage.removeAll()
+    OwlStorage.removeAll()
+    DataSet.deleteAllDataSets()
+  }
+
+  val businessSsdID = 0
+  val exampleOwlID = 1
+
+  val DataSet = new DatasetRestAPISpec
+
+  def setUp(): Unit = {
+    copySampleDatasets() // copy csv files for getCities and businessInfo
+    SsdStorage.add(businessSSD.id, businessSSD) // add businessInfo ssd
+    OwlStorage.add(exampleOwl.id, exampleOwl)  // add sample ontology
+    // write owl file
+    Try{
+      val stream = new FileInputStream(exampleOntolPath.toFile)
+      OwlStorage.writeOwlDocument(exampleOwlID, stream)
+    }
+
+  }
+
+  /**
+    * Builds a standard POST request object from a json object for Octopus endpoint.
+    *
+    * @param json
+    * @param url
+    * @return
+    */
+  def postRequest(json: JObject, url: String = s"/$APIVersion/octopus")(implicit s: TestServer): Request = {
+    RequestBuilder()
+      .url(s.fullUrl(url))
+      .addHeader("Content-Type", "application/json")
+      .buildPost(Buf.Utf8(compact(render(json))))
+  }
+
+  val ssdDir = getClass.getResource("/ssd").getPath
+
+  def readSSD(ssdPath: String): Ssd = {
+    Try {
+      val stream = new FileInputStream(Paths.get(ssdPath).toFile)
+      parse(stream).extract[Ssd]
+    } match {
+      case Success(ssd) =>
+        ssd
+      case Failure(err) =>
+        fail(err.getMessage)
+    }
+  }
+
+  val exampleOntolPath = Paths.get(ssdDir,"dataintegration_report_ontology.owl")
+  val exampleOwl = Owl(id = exampleOwlID, name = exampleOntolPath.toString, format = OwlDocumentFormat.DefaultOwl,
+    description = "sample", dateCreated = DateTime.now, dateModified = DateTime.now)
+
+  val partialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
+  val veryPartialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model2.ssd").toString)
+  val emptyCitiesSSD: Ssd = readSSD(Paths.get(ssdDir,"empty_getCities.ssd").toString)
+  val emptySSD: Ssd = readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
+  val businessSSD: Ssd = readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
+
+  def defaultFeatures: JObject =
+    ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
+      "ratio-alpha-chars", "prop-numerical-chars",
+      "prop-whitespace-chars", "prop-entries-with-at-sign",
+      "prop-entries-with-hyphen", "prop-entries-with-paren",
+      "prop-entries-with-currency-symbol", "mean-commas-per-entry",
+      "mean-forward-slashes-per-entry",
+      "prop-range-format", "is-discrete", "entropy-for-discrete-values")) ~
+      ("activeFeatureGroups" -> Seq("stats-of-text-length", "prop-instances-per-class-in-knearestneighbours")) ~
+      ("featureExtractorParams" -> Seq(
+        ("name" -> "prop-instances-per-class-in-knearestneighbours") ~
+          ("num-neighbours" -> 5)))
+
+
+  def randomString: String = Random.alphanumeric take 10 mkString
+
+  val helperDir = getClass.getResource("/helper").getPath
+  val sampleDsDir = getClass.getResource("/sample.datasets").getPath
+  val datasetMap = Map("businessInfo" -> 767956483, "getCities" -> 696167703)
+  val businessDsPath = Paths.get(sampleDsDir,
+    datasetMap("businessInfo").toString, datasetMap("businessInfo").toString + ".json")
+  val citiesDsPath = Paths.get(sampleDsDir,
+    datasetMap("getCities").toString, datasetMap("getCities").toString + ".json")
+
+  /**
+    * Manually add datasets to the storage layer since SSDs have hard-coded mappings for columns.
+    */
+  def copySampleDatasets(): Unit = {
+    // copy sample dataset to Config.DatasetStorageDir
+    if (!Paths.get(Serene.config.storageDirs.dataset).toFile.exists) { // create dataset storage dir
+      Paths.get(Serene.config.storageDirs.dataset).toFile.mkdirs}
+    val dsDir = Paths.get(sampleDsDir).toFile // directory to copy from
+    FileUtils.copyDirectory(dsDir,                    // copy sample dataset
+      Paths.get(Serene.config.storageDirs.dataset).toFile)
+
+    // adding datasets explicitly to the storage
+    val businessDS: DataSet = Try {
+      val stream = new FileInputStream(businessDsPath.toFile)
+      parse(stream).extract[DataSet]
+    } match {
+      case Success(ds) => ds
+      case Failure(err) => fail(err.getMessage)
+    }
+    val citiesDS: DataSet = Try {
+      val stream = new FileInputStream(citiesDsPath.toFile)
+      parse(stream).extract[DataSet]
+    } match {
+      case Success(ds) => ds
+      case Failure(err) => fail(err.getMessage)
+    }
+
+    DatasetStorage.add(businessDS.id, businessDS)
+    DatasetStorage.add(citiesDS.id, citiesDS)
+  }
+
+  /**
+    * pollOctopusState
+    *
+    * @param model
+    * @param pollIterations
+    * @param pollTime
+    * @param s
+    * @return
+    */
+  def pollOctopusState(model: Octopus, pollIterations: Int, pollTime: Int)(implicit s: TestServer)
+  : Future[Training.Status] = {
+    Future {
+
+      def state(): Training.Status = {
+        Thread.sleep(pollTime)
+        // build a request to get the model...
+        val response = s.get(s"/$APIVersion/octopus/${model.id}")
+        if (response.status != Status.Ok) {
+          throw new Exception("Failed to retrieve model state")
+        }
+        // ensure that the data is correct...
+        val m = parse(response.contentString).extract[Octopus]
+
+        m.state.status
+      }
+
+      @tailrec
+      def rState(loops: Int): Training.Status = {
+        state() match {
+          case s@Training.Status.COMPLETE =>
+            s
+          case s@Training.Status.ERROR =>
+            s
+          case _ if loops < 0 =>
+            throw new Exception("Training timeout")
+          case _ =>
+            rState(loops - 1)
+        }
+      }
+
+      rState(pollIterations)
+    }
+  }
+
+  /**
+    * Creates default octopus
+    *
+    * @param s
+    * @return
+    */
+  def createOctopus()(implicit s: TestServer): Octopus = {
+    setUp()
+
+    val json = "ssds" -> List(businessSsdID)
+
+    val request = postRequest(json)
+    val response = Await.result(s.client(request))
+    assert(response.status === Status.Ok)
+
+    // created octopus
+    parse(response.contentString).extract[Octopus]
+  }
+
+  def trainOctopus()(implicit s: TestServer): Octopus = {
+
+    val octopus = createOctopus()
+
+    val req = postRequest(json = JObject(), url = s"/$APIVersion/octopus/${octopus.id}/train")
+    // send the request and make sure it executes
+    val resp = Await.result(s.client(req))
+
+    assert(resp.status === Status.Accepted)
+    assert(resp.contentString.isEmpty)
+
+    octopus
+  }
+
+  //=========================Tests==============================================
+  test("GET /v1.0/octopus responds Ok(200)") (new TestServer {
+    try {
+      val response = get(s"/$APIVersion/octopus")
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+      assert(Try { parse(response.contentString).extract[List[OctopusID]] }.isSuccess)
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus responds BadRequest") (new TestServer {
+    try {
+      val TestStr = randomString
+      val randomInt = genID
+      val dummySeqInt = List(1, 2, 3)
+
+      val json =
+      ("description" -> TestStr) ~
+        ("name" -> "very fancy name here") ~
+        ("modelType" -> "randomForest") ~
+        ("features" -> defaultFeatures) ~
+        ("resamplingStrategy" -> "NoResampling") ~
+        ("numBags" -> randomInt) ~
+        ("bagSize" -> randomInt) ~
+        ("ssds" -> dummySeqInt) ~
+        ("ontologies" -> dummySeqInt) ~
+        ("modelingProps" -> TestStr)
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.BadRequest)
+      assert(!response.contentString.isEmpty)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus responds Ok")(new TestServer {
+    try {
+      val TestStr = randomString
+      val randomInt = genID
+      setUp()
+
+      val json =
+        ("description" -> TestStr) ~
+          ("name" -> TestStr) ~
+          ("modelType" -> "randomForest") ~
+          ("features" -> defaultFeatures) ~
+          ("resamplingStrategy" -> "NoResampling") ~
+          ("numBags" -> randomInt) ~
+          ("bagSize" -> randomInt) ~
+          ("ssds" -> List(businessSsdID)) ~
+          ("ontologies" -> List(exampleOwlID)) ~
+          ("modelingProps" -> TestStr)
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+
+      val octopus = parse(response.contentString).extract[Octopus]
+      assert(octopus.description === TestStr)
+      assert(octopus.name === TestStr)
+      assert(octopus.state.status === Training.Status.UNTRAINED)
+      assert(octopus.ssds === List(businessSsdID))
+      assert(octopus.ontologies === List(exampleOwlID))
+
+      assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
+      val model = ModelStorage.get(octopus.lobsterID).get
+      assert(model.modelType === ModelType.RANDOM_FOREST)
+      assert(model.numBags === randomInt)
+      assert(model.bagSize === randomInt)
+      assert(model.state.status === Training.Status.UNTRAINED)
+      assert(model.resamplingStrategy === NO_RESAMPLING)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus with no ontologies responds Ok")(new TestServer {
+    try {
+      val TestStr = randomString
+      val randomInt = genID
+      setUp()
+
+      val json =
+        ("description" -> TestStr) ~
+          ("name" -> TestStr) ~
+          ("modelType" -> "randomForest") ~
+          ("features" -> defaultFeatures) ~
+          ("resamplingStrategy" -> "NoResampling") ~
+          ("numBags" -> randomInt) ~
+          ("bagSize" -> randomInt) ~
+          ("ssds" -> List(businessSsdID)) ~
+          ("modelingProps" -> TestStr)
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+
+      val octopus = parse(response.contentString).extract[Octopus]
+      assert(octopus.description === TestStr)
+      assert(octopus.name === TestStr)
+      assert(octopus.state.status === Training.Status.UNTRAINED)
+      assert(octopus.ssds === List(businessSsdID))
+      assert(octopus.ontologies === List(exampleOwlID))
+
+      assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
+      val model = ModelStorage.get(octopus.lobsterID).get
+      assert(model.modelType === ModelType.RANDOM_FOREST)
+      assert(model.numBags === randomInt)
+      assert(model.bagSize === randomInt)
+      assert(model.state.status === Training.Status.UNTRAINED)
+      assert(model.resamplingStrategy === NO_RESAMPLING)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus with only ssds responds Ok")(new TestServer {
+    try {
+      setUp()
+
+      val json = "ssds" -> List(businessSsdID)
+
+      val request = postRequest(json)
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+
+      val octopus = parse(response.contentString).extract[Octopus]
+      assert(octopus.description === OctopusInterface.MissingValue)
+      assert(octopus.name === OctopusInterface.MissingValue)
+      assert(octopus.state.status === Training.Status.UNTRAINED)
+      assert(octopus.ssds === List(businessSsdID))
+      assert(octopus.ontologies === List(exampleOwlID))
+      assert(octopus.modelingProps.isEmpty)
+
+      assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
+      val model = ModelStorage.get(octopus.lobsterID).get
+      // model will all parameters set to default
+      assert(model.modelType === ModelType.RANDOM_FOREST)
+      assert(model.description === MatcherInterface.MissingValue)
+      assert(model.numBags === ModelTypes.defaultNumBags)
+      assert(model.bagSize === ModelTypes.defaultBagSize)
+      assert(model.state.status === Training.Status.UNTRAINED)
+      assert(model.resamplingStrategy === NO_RESAMPLING)
+      assert(model.features === MatcherInterface.DefaultFeatures)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("DELETE octopi")(new TestServer {
+    try {
+      val TestStr = randomString
+      val randomInt = genID
+      setUp()
+
+      val json =
+        ("description" -> TestStr) ~
+          ("name" -> TestStr) ~
+          ("modelType" -> "randomForest") ~
+          ("features" -> defaultFeatures) ~
+          ("resamplingStrategy" -> "NoResampling") ~
+          ("numBags" -> randomInt) ~
+          ("bagSize" -> randomInt) ~
+          ("ssds" -> List(businessSsdID)) ~
+          ("ontologies" -> List(exampleOwlID)) ~
+          ("modelingProps" -> TestStr)
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+
+      val octopus = parse(response.contentString).extract[Octopus]
+      deleteOctopi()
+
+      assert(OctopusStorage.keys.isEmpty)
+      assert(OctopusStorage.get(octopus.id).isEmpty)
+      // the associated schema matcher model should be also deleted
+      assert(ModelStorage.get(octopus.lobsterID).isEmpty)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("DELETE /v1.0/model/id responds Ok(200)") (new TestServer {
+    try {
+      val octopus = createOctopus()
+
+      // build a request to modify the OCTOPUS...
+      val resource = s"/$APIVersion/octopus/${octopus.id}"
+
+      val response = delete(resource)
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+
+      // there should be nothing there, and the response
+      // should say so.
+      val noResource = get(resource)
+      assert(noResource.contentType === Some(JsonHeader))
+      assert(noResource.status === Status.NotFound)
+      assert(!noResource.contentString.isEmpty)
+
+      // the associated lobster should be also deleted
+      val noLobsterResource = get(s"/$APIVersion/model/${octopus.lobsterID}")
+      assert(noLobsterResource.contentType === Some(JsonHeader))
+      assert(noLobsterResource.status === Status.NotFound)
+      assert(!noLobsterResource.contentString.isEmpty)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+
+  test("POST /v1.0/octopus/:id octopus update responds Ok(200)") (new TestServer {
+    try {
+
+      val octopus = createOctopus()
+      val PauseTime = 1000
+
+      Thread.sleep(PauseTime)
+
+      val TestStr = randomString
+      val randomInt = genID
+      val json =
+        ("description" -> TestStr) ~
+          ("name" -> TestStr) ~
+          ("resamplingStrategy" -> "ResampleToMean") ~
+          ("numBags" -> randomInt) ~
+          ("bagSize" -> randomInt)
+
+      val request = postRequest(json, url = s"/$APIVersion/octopus/${octopus.id}")
+
+      // send the request and make sure it executes
+      val response = Await.result(client(request))
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+
+      // ensure that the data is correct...
+      val patchOctopus = parse(response.contentString).extract[Octopus]
+      assert(patchOctopus.description === TestStr)
+      assert(patchOctopus.name === TestStr)
+      assert(patchOctopus.dateCreated.isBefore(patchOctopus.dateModified))
+      assert(octopus.ssds === patchOctopus.ssds)
+      assert(octopus.ontologies === patchOctopus.ontologies)
+      assert(octopus.dateCreated.isEqual(patchOctopus.dateCreated))
+
+      // check the schema matcher model of the updated octopus
+      assert(ModelStorage.get(patchOctopus.lobsterID).isDefined)
+      val patchLobster = ModelStorage.get(patchOctopus.lobsterID).get
+      assert(patchLobster.dateCreated.isBefore(patchLobster.dateModified))
+      assert(patchLobster.resamplingStrategy === RESAMPLE_TO_MEAN)
+      assert(patchLobster.numBags === randomInt)
+      assert(patchLobster.bagSize === randomInt)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus/id octopus update fails due to non-existent ssds") (new TestServer {
+    try {
+
+      val octopus = createOctopus()
+      val PauseTime = 1000
+
+      Thread.sleep(PauseTime)
+
+      val TestStr = randomString
+      val randomInt = genID
+      val dummySeqInt = List(1, 2, 3)
+
+      val json =
+        ("description" -> TestStr) ~
+          ("name" -> TestStr) ~
+          ("resamplingStrategy" -> "ResampleToMean") ~
+          ("ssds" -> dummySeqInt) ~
+          ("numBags" -> randomInt) ~
+          ("bagSize" -> randomInt)
+
+      val request = postRequest(json, url = s"/$APIVersion/octopus/${octopus.id}")
+
+      // send the request and make sure it executes
+      val response = Await.result(client(request))
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.InternalServerError)
+      assert(!response.contentString.isEmpty)
+
+      // ensure that no update happened
+      val patchOctopus = OctopusStorage.get(octopus.id).get
+      assert(patchOctopus.description === octopus.description)
+      assert(patchOctopus.dateCreated.isEqual(patchOctopus.dateModified))
+      assert(octopus.ssds === patchOctopus.ssds)
+      assert(octopus.ontologies === patchOctopus.ontologies)
+
+      // check the schema matcher model
+      assert(ModelStorage.get(patchOctopus.lobsterID).isDefined)
+      val patchLobster = ModelStorage.get(patchOctopus.lobsterID).get
+      assert(patchLobster.dateCreated.isEqual(patchLobster.dateModified))
+
+      // FIXME: JSON serialization for joda time is buggy
+      assert(octopus.dateCreated.isEqual(patchOctopus.dateCreated))
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus/id octopus update fails due to non-existent owls") (new TestServer {
+    try {
+
+      val octopus = createOctopus()
+      val PauseTime = 1000
+
+      Thread.sleep(PauseTime)
+
+      val TestStr = randomString
+      val randomInt = genID
+      val dummySeqInt = List(1, 2, 3)
+
+      val json =
+        ("description" -> TestStr) ~
+          ("name" -> TestStr) ~
+          ("resamplingStrategy" -> "ResampleToMean") ~
+          ("ontologies" -> dummySeqInt) ~
+          ("numBags" -> randomInt) ~
+          ("bagSize" -> randomInt)
+
+      val request = postRequest(json, url = s"/$APIVersion/octopus/${octopus.id}")
+
+      // send the request and make sure it executes
+      val response = Await.result(client(request))
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.InternalServerError)
+      assert(!response.contentString.isEmpty)
+
+      // ensure that no update happened
+      val patchOctopus = OctopusStorage.get(octopus.id).get
+      assert(patchOctopus.description === octopus.description)
+      assert(patchOctopus.dateCreated.isEqual(patchOctopus.dateModified))
+      assert(octopus.ssds === patchOctopus.ssds)
+      assert(octopus.ontologies === patchOctopus.ontologies)
+
+      // check the schema matcher model
+      assert(ModelStorage.get(patchOctopus.lobsterID).isDefined)
+      val patchLobster = ModelStorage.get(patchOctopus.lobsterID).get
+      assert(patchLobster.dateCreated.isEqual(patchLobster.dateModified))
+
+      // FIXME: JSON serialization for joda time is buggy
+      assert(octopus.dateCreated.isEqual(patchOctopus.dateCreated))
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  //==============================================================================
+  // Tests for octopus training endpoint
+
+  test("POST /v1.0/octopus/1/train returns octopus not found") (new TestServer {
+    try {
+      // sending training request
+      val trainResp = postRequest(json = JObject(), url = s"/$APIVersion/octopus/1/train")
+
+      val response = Await.result(client(trainResp))
+
+      println(response.contentString)
+      assert(response.status === Status.NotFound)
+      assert(response.contentString.nonEmpty)
+
+    } finally {
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus/:id/train accepts it and completes")(new TestServer {
+    try {
+      val PollTime = 2000
+      val PollIterations = 20
+
+      val octopus = trainOctopus()
+
+      val trained = pollOctopusState(octopus, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 30 seconds)
+      assert(state === Training.Status.COMPLETE)
+
+      // get the model state
+      assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
+      val model = ModelStorage.get(octopus.lobsterID).get
+      assert(model.state.status === Training.Status.COMPLETE)
+
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus/:id/train does not execute training for a trained model")(new TestServer {
+    try {
+      val PollTime = 2000
+      val PollIterations = 20
+
+      val octopus = trainOctopus()
+
+      val trained = pollOctopusState(octopus, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 30 seconds)
+      assert(state === Training.Status.COMPLETE)
+      val dateChanged = OctopusStorage.get(octopus.id).get.state.dateChanged
+
+      val req = postRequest(json = JObject(), url = s"/$APIVersion/octopus/${octopus.id}/train")
+      // send the request and make sure it executes
+      val resp = Await.result(client(req))
+
+      assert(resp.status === Status.Accepted)
+      assert(resp.contentString.isEmpty)
+      // states of the models should not change!
+      assert(OctopusStorage.get(octopus.id).get.state.status === Training.Status.COMPLETE)
+      assert(OctopusStorage.get(octopus.id).get.state.dateChanged.isEqual(dateChanged))
+      assert(ModelStorage.get(octopus.lobsterID).get.state.status === Training.Status.COMPLETE)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus/:id/train does not execute training for a busy model")(new TestServer {
+    try {
+
+      val PollTime = 100 // this is kind of random
+      val octopus = trainOctopus()
+
+      // wait a bit for the state to change
+      Thread.sleep(PollTime)
+      assert(OctopusStorage.get(octopus.id).get.state.status === Training.Status.BUSY)
+
+      val req = postRequest(json = JObject(), url = s"/$APIVersion/octopus/${octopus.id}/train")
+      // send the request and make sure it executes
+      val resp = Await.result(client(req))
+
+      assert(resp.status === Status.Accepted)
+      assert(resp.contentString.isEmpty)
+
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+    test("POST /v1.0/octopus/:id/train needs to be re-run on an updated octopus")(new TestServer {
+      try {
+        val PollTime = 2000
+        val PollIterations = 20
+
+        val octopus = trainOctopus()
+
+        val trained = pollOctopusState(octopus, PollIterations, PollTime)
+        val state = concurrent.Await.result(trained, 30 seconds)
+        assert(state === Training.Status.COMPLETE)
+
+        // create an update json for the octopus
+        val TestStr = randomString
+        val randomInt = genID
+        val json =
+          ("description" -> TestStr) ~
+            ("name" -> TestStr) ~
+            ("resamplingStrategy" -> "ResampleToMean") ~
+            ("numBags" -> randomInt) ~
+            ("bagSize" -> randomInt)
+
+        val request = postRequest(json, url = s"/$APIVersion/octopus/${octopus.id}")
+
+        // send the request and make sure it executes
+        val response = Await.result(client(request))
+        assert(response.status === Status.Ok)
+
+        // ensure that the data is correct and the state is back to UNTRAINED
+        val patchOctopus = parse(response.contentString).extract[Octopus]
+        assert(patchOctopus.state.status === Training.Status.UNTRAINED)
+
+      } finally {
+        deleteOctopi()
+        assertClose()
+      }
+    })
+
+
+  // TODO: test for updated model needing training again
+
+  //==============================================================================
+  // Tests for octopus prediction endpoint
+
+  test("POST /v1.0/octopus/1/predict/:id fails since octopus is absent")(new TestServer {
+    try {
+      // now make a prediction with basically nothing
+      val request = postRequest(json = JObject(),
+        url = s"/$APIVersion/octopus/1/predict/${datasetMap("getCities")}")
+
+      val response = Await.result(client(request))
+
+      assert(!response.contentString.isEmpty)
+      assert(response.status === Status.NotFound)
+
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus/:id/predict/:id fails since octopus is not trained")(new TestServer {
+    try {
+      val octopus = createOctopus()
+
+      // now make a prediction
+      val request = postRequest(json = JObject(),
+        url = s"/$APIVersion/octopus/${octopus.id}/predict/${datasetMap("getCities")}")
+
+      val response = Await.result(client(request))
+
+      assert(!response.contentString.isEmpty)
+      assert(response.status === Status.BadRequest)
+
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus/:id/predict/1 fails since dataset is absent")(new TestServer {
+    try {
+      val PollTime = 2000
+      val PollIterations = 20
+
+      // create a default octopus and train it
+      val octopus = trainOctopus()
+
+      val trained = pollOctopusState(octopus, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 30 seconds)
+      assert(state === Training.Status.COMPLETE)
+
+      // now make a prediction
+      val request = postRequest(json = JObject(),
+        url = s"/$APIVersion/octopus/${octopus.id}/predict/1")
+
+      val response = Await.result(client(request))
+
+      assert(!response.contentString.isEmpty)
+      assert(response.status === Status.InternalServerError)
+
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus/:id/predict/:id succeeds")(new TestServer {
+    try {
+      val PollTime = 3000
+      val PollIterations = 20
+      val dummyID = 1000
+
+      // create a default octopus and train it
+      val octopus = trainOctopus()
+
+      val trained = pollOctopusState(octopus, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 50 seconds)
+      assert(state === Training.Status.COMPLETE)
+
+      assert(DatasetStorage.get(datasetMap("getCities")).isDefined)
+      // now make a prediction
+      val request = postRequest(json = JObject(),
+        url = s"/$APIVersion/octopus/${octopus.id}/predict/${datasetMap("getCities")}")
+
+      val response = Await.result(client(request))
+
+      assert(response.status === Status.Ok)
+
+      val ssdPred = parse(response.contentString).extract[SsdResults]
+
+      assert(ssdPred.predictions.size === 8)
+      val predictedSSDs: List[Ssd] = ssdPred.predictions.map(_._1.toSsd(dummyID))
+      // Karma should return consistent and complete semantic models
+      assert(predictedSSDs.forall(_.isComplete))
+      assert(predictedSSDs.forall(_.isConsistent))
+      assert(predictedSSDs.forall(_.mappings.isDefined))
+      assert(predictedSSDs.forall(_.mappings.forall(_.mappings.size == 1)))
+
+//      ssdPred.predictions.foreach(x => println(x._2))
+
+      assert(ssdPred.predictions.forall(_._2.nodeCoherence == 1))
+      assert(ssdPred.predictions.forall(_._2.nodeCoverage == 0.5))
+
+      val recSemanticModel = ssdPred.predictions.head._1
+      val scores = ssdPred.predictions.head._2
+      assert(scores.linkCost === 3)
+
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
 }

@@ -122,20 +122,21 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
     assert(ssd.isComplete)
   }
 
-  test("Inconsistent SSD: attributes are inconsistent") {
-    val ssd = Ssd(
-      name = "test",
-      id = dummySsdID,
-      attributes = List(dummyAttr, dummyAttr2), // attributes are inconsistent
-      ontology = List(1),
-      semanticModel = Some(SemanticModel(dummyGraph)),
-      mappings = Some(dummyMap),
-      dateCreated = DateTime.now,
-      dateModified = DateTime.now)
-
-    assert(!ssd.isConsistent)
-    assert(!ssd.isComplete)
-  }
+  // this check is now at the level of storage
+//  test("Inconsistent SSD: attributes are inconsistent") {
+//    val ssd = Ssd(
+//      name = "test",
+//      id = dummySsdID,
+//      attributes = List(dummyAttr, dummyAttr2), // attributes are inconsistent
+//      ontology = List(1),
+//      semanticModel = Some(SemanticModel(dummyGraph)),
+//      mappings = Some(dummyMap),
+//      dateCreated = DateTime.now,
+//      dateModified = DateTime.now)
+//
+//    assert(!ssd.isConsistent)
+//    assert(!ssd.isComplete)
+//  }
 
   test("Inconsistent SSD: mappings are inconsistent") {
     val ssd2 = Ssd(

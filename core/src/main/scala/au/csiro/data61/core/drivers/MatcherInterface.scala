@@ -37,7 +37,7 @@ import scala.language.postfixOps
 import scala.util.{Failure, Random, Success, Try}
 
 /**
- * IntegrationAPI defines the interface through which requests
+ * This is the interface through which requests
  * can access the underlying system. The responsibilities are
  * to parse the requests and translate into instructions for the
  * system. The return values of the functions should be simple
@@ -64,6 +64,18 @@ object MatcherInterface extends LazyLogging {
     resamplingStrategy= None,
     numBags = None,
     bagSize = None
+  )
+
+  val DefaultFeatures = FeaturesConfig(
+    activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
+      "ratio-alpha-chars", "prop-numerical-chars",
+      "prop-whitespace-chars", "prop-entries-with-at-sign",
+      "prop-entries-with-hyphen", "prop-entries-with-paren",
+      "prop-entries-with-currency-symbol", "mean-commas-per-entry",
+      "mean-forward-slashes-per-entry",
+      "prop-range-format", "is-discrete", "entropy-for-discrete-values"),
+    activeGroupFeatures = Set.empty[String],
+    featureExtractorParams = Map()
   )
 
   /**
@@ -127,9 +139,9 @@ object MatcherInterface extends LazyLogging {
           description = request.description.getOrElse(MissingValue),
           modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
           classes = request.classes.getOrElse(List()),
-          features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
+          features = request.features.getOrElse(DefaultFeatures),
           costMatrix = request.costMatrix.getOrElse(List()),
-          resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
+          resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.NO_RESAMPLING),
           labelData = dataRef.cleanLabels,
           refDataSets = dataRef.refDataSets.toList,
           modelPath = None,

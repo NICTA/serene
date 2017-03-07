@@ -107,7 +107,7 @@ object Training {
         implicit val formats = DefaultFormats
         val str = jv.extract[String]
         val state = Status.lookup(str)
-        state getOrElse (throw new Exception("Failed to parse State"))
+        state getOrElse (throw TypeException("Failed to parse State"))
     }, {
     case state: Status =>
       JString(state.str)
@@ -149,7 +149,7 @@ case object ModelTypeSerializer extends CustomSerializer[ModelType](format => (
       implicit val formats = DefaultFormats
       val str = jv.extract[String]
       val mt = ModelType.lookup(str)
-      mt getOrElse (throw new Exception("Failed to parse ModelType"))
+      mt getOrElse (throw TypeException("Failed to parse ModelType"))
   }, {
   case mt: ModelType =>
     JString(mt.str)
@@ -208,7 +208,7 @@ case object FeaturesConfigSerializer extends CustomSerializer[FeaturesConfig](fo
       val activeGroupFeatures = (jv \ "activeFeatureGroups").extract[List[String]].toSet
       val featureExtractorParams = (jv \ "featureExtractorParams")
         .extract[List[Map[String,String]]]
-        .map { case feParams =>
+        .map { feParams =>
           (feParams("name"), feParams)
         } toMap
 

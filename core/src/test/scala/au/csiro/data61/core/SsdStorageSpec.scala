@@ -41,6 +41,10 @@ class SsdStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   def emptySsd: String = Paths.get(ssdDir, "empty_model.ssd") toString
   def exampleSsd: String = Paths.get(ssdDir, "businessInfo.ssd") toString
 
+  override def beforeEach(): Unit = {
+    SsdStorage.removeAll()
+  }
+
   override def afterEach(): Unit = {
     SsdStorage.removeAll()
   }

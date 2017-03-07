@@ -33,6 +33,7 @@ import com.typesafe.scalalogging.LazyLogging
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
+
 import org.scalatest.concurrent._
 
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -40,7 +41,6 @@ import scala.concurrent.duration._
 import api._
 import au.csiro.data61.core.storage.{JsonFormats, ModelStorage}
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
-import com.twitter.finagle.http
 import org.apache.spark.ml.classification.RandomForestClassificationModel
 
 import language.postfixOps
@@ -268,7 +268,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
     * @param s
     * @return
     */
-  def pollModelState(model: Model, pollIterations: Int, pollTime: Int)(implicit s: TestServer): Future[Training.Status] = {
+  def pollModelState(model: Model, pollIterations: Int, pollTime: Int)(implicit s: TestServer)
+  : Future[Training.Status] = {
     Future {
 
       def state(): Training.Status = {
@@ -392,7 +393,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(model.classes === TestClasses)
 
     } finally {
-        deleteAllModels()
+      deleteAllModels()
       assertClose()
     }
   })
@@ -646,7 +647,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(response.status === Status.NotFound)
       assert(!response.contentString.isEmpty)
     } finally {
-        deleteAllModels()
+      deleteAllModels()
       assertClose()
     }
   })
@@ -692,8 +693,6 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
 
           // send the request and make sure it executes
           val response = Await.result(client(request))
-          println(response.contentString)
-          println(response.status)
           assert(response.contentType === Some(JsonHeader))
           assert(response.status === Status.Ok)
           assert(!response.contentString.isEmpty)
@@ -741,7 +740,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
           throw new Exception("Failed to create test resource")
       }
     } finally {
-        deleteAllModels()
+      deleteAllModels()
       assertClose()
     }
   })
@@ -1090,7 +1089,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
     }
   })
 
-  test("Model rf from older versions cannot be read in") (new TestServer {
+  test("Model.rf from older versions cannot be read in") (new TestServer {
     try {
       // pre-computed model with default spark config
       val oldFile = Paths.get(helperDir, "default-model.rf").toFile

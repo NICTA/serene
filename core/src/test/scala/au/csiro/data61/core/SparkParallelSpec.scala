@@ -351,7 +351,7 @@ class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEac
       assert(rfModel_default.featureImportances === rfModel_no.featureImportances)
 
     } finally {
-//      deleteAllModels()
+      deleteAllModels()
       DataSet.deleteAllDataSets()
       assertClose()
     }
