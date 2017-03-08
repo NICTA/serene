@@ -33,7 +33,6 @@ import com.typesafe.scalalogging.LazyLogging
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
-
 import org.scalatest.concurrent._
 
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -41,6 +40,7 @@ import scala.concurrent.duration._
 import api._
 import au.csiro.data61.core.storage.{JsonFormats, ModelStorage}
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
+import au.csiro.data61.types.DataSetTypes.DataSetID
 import org.apache.spark.ml.classification.RandomForestClassificationModel
 
 import language.postfixOps
@@ -745,8 +745,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
     }
   })
 
-  test("DELETE /v1.0/dataset/:id should remove columns and refDataSets from model") (new TestServer {
-    // FIXME: move to CoordinationSpec
+  test("DELETE /v1.0/dataset/:id will not delete dataset since model depends on it") (new TestServer {
     try {
       val TestStr = randomString
       val PollTime = 1000
@@ -762,14 +761,17 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
 
         case Success(model) =>
 
-          DataSet.deleteAllDataSets()
+          DataSet.deleteAllDataSets() // dataset will not be removed
+
+          val datasets: List[DataSetID] = parse(get(s"/$APIVersion/dataset").contentString).extract[List[DataSetID]]
+          assert(datasets === List(ds.id))
 
           val response = get(s"/$APIVersion/model/${model.id}")
 
           val m = parse(response.contentString).extract[Model]
 
-          assert(m.refDataSets.isEmpty)
-          assert(m.labelData.isEmpty)
+          assert(m.refDataSets === model.refDataSets)
+          assert(m.labelData === model.labelData)
 
         case Failure(err) =>
           throw new Exception("Failed to create test resource")

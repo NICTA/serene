@@ -103,7 +103,13 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
         cache += (id -> value)
       }
       id
-    } toOption
+    } match {
+      case Success(key) =>
+        Some(key)
+      case Failure(err) =>
+        logger.error(s"Failed to write the resource file to disk: ${err.getMessage}")
+        None
+    }
   }
 
   /**

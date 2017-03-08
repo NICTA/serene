@@ -283,13 +283,27 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       val response = get(s"/$APIVersion/octopus")
       assert(response.contentType === Some(JsonHeader))
       assert(response.status === Status.Ok)
-      assert(!response.contentString.isEmpty)
+      assert(response.contentString.nonEmpty)
       assert(Try { parse(response.contentString).extract[List[OctopusID]] }.isSuccess)
     } finally {
       deleteOctopi()
       assertClose()
     }
   })
+
+  // TODO: what should be the response?
+//  test("GET /v1.0/octopus/asdf fails") (new TestServer {
+//    try {
+//      val response = get(s"/$APIVersion/octopus/asdf")
+//      assert(response.contentType === Some(JsonHeader))
+//      assert(response.status === Status.BadRequest)
+//      assert(!response.contentString.isEmpty)
+//      assert(Try { parse(response.contentString).extract[List[OctopusID]] }.isSuccess)
+//    } finally {
+//      deleteOctopi()
+//      assertClose()
+//    }
+//  })
 
   test("POST /v1.0/octopus responds BadRequest") (new TestServer {
     try {
@@ -493,7 +507,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   })
 
-  test("DELETE /v1.0/model/id responds Ok(200)") (new TestServer {
+  test("DELETE /v1.0/octopus/:id responds Ok(200)") (new TestServer {
     try {
       val octopus = createOctopus()
 
@@ -517,6 +531,22 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       assert(noLobsterResource.contentType === Some(JsonHeader))
       assert(noLobsterResource.status === Status.NotFound)
       assert(!noLobsterResource.contentString.isEmpty)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("DELETE /v1.0/octopus/1 responds NotFound") (new TestServer {
+    try {
+       // build a request to delete octopus
+      val resource = s"/$APIVersion/octopus/1"
+
+      val response = delete(resource)
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.NotFound)
+      assert(response.contentString.nonEmpty)
 
     } finally {
       deleteOctopi()
@@ -598,8 +628,8 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       // send the request and make sure it executes
       val response = Await.result(client(request))
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.InternalServerError)
-      assert(!response.contentString.isEmpty)
+      assert(response.status === Status.BadRequest)
+      assert(response.contentString.nonEmpty)
 
       // ensure that no update happened
       val patchOctopus = OctopusStorage.get(octopus.id).get
@@ -611,9 +641,8 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       // check the schema matcher model
       assert(ModelStorage.get(patchOctopus.lobsterID).isDefined)
       val patchLobster = ModelStorage.get(patchOctopus.lobsterID).get
-      assert(patchLobster.dateCreated.isEqual(patchLobster.dateModified))
 
-      // FIXME: JSON serialization for joda time is buggy
+      assert(patchLobster.dateCreated.isEqual(patchLobster.dateModified))
       assert(octopus.dateCreated.isEqual(patchOctopus.dateCreated))
 
     } finally {
@@ -647,7 +676,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       // send the request and make sure it executes
       val response = Await.result(client(request))
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.InternalServerError)
+      assert(response.status === Status.BadRequest)
       assert(!response.contentString.isEmpty)
 
       // ensure that no update happened
@@ -661,8 +690,6 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       assert(ModelStorage.get(patchOctopus.lobsterID).isDefined)
       val patchLobster = ModelStorage.get(patchOctopus.lobsterID).get
       assert(patchLobster.dateCreated.isEqual(patchLobster.dateModified))
-
-      // FIXME: JSON serialization for joda time is buggy
       assert(octopus.dateCreated.isEqual(patchOctopus.dateCreated))
 
     } finally {
@@ -745,11 +772,11 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   test("POST /v1.0/octopus/:id/train does not execute training for a busy model")(new TestServer {
     try {
 
-      val PollTime = 100 // this is kind of random
+      val smallTime = 10 // this is kind of random
       val octopus = trainOctopus()
 
       // wait a bit for the state to change
-      Thread.sleep(PollTime)
+      Thread.sleep(smallTime)
       assert(OctopusStorage.get(octopus.id).get.state.status === Training.Status.BUSY)
 
       val req = postRequest(json = JObject(), url = s"/$APIVersion/octopus/${octopus.id}/train")
@@ -837,7 +864,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
       val response = Await.result(client(request))
 
-      assert(!response.contentString.isEmpty)
+      assert(response.contentString.nonEmpty)
       assert(response.status === Status.BadRequest)
 
 
@@ -865,8 +892,8 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
       val response = Await.result(client(request))
 
-      assert(!response.contentString.isEmpty)
-      assert(response.status === Status.InternalServerError)
+      assert(response.contentString.nonEmpty)
+      assert(response.status === Status.NotFound)
 
 
     } finally {

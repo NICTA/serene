@@ -45,14 +45,24 @@ import scala.util.{Failure, Success, Try}
   */
 object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with LazyLogging {
 
-  val defaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter --> move to modelingProps
+  val DefaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter --> move to modelingProps
 
   override val storage = OctopusStorage
 
   protected def missingReferences(resource: Octopus): StorageDependencyMap = {
     // octopus depends on everything...
-    // TODO: implement
-    StorageDependencyMap()
+
+    // missing owls
+    val owlIDs: List[OwlID] = resource.ontologies.filterNot(OwlStorage.keys.toSet.contains)
+
+    // missing SSDs
+    val ssdIDs: List[SsdID] = resource.ssds.filterNot(SsdStorage.keys.toSet.contains)
+
+    // missing model
+    val lobsterIDs: List[ModelID] = List(resource.lobsterID).filterNot(ModelStorage.keys.toSet.contains)
+
+    StorageDependencyMap(owl = owlIDs, ssd = ssdIDs, model = lobsterIDs)
+
   }
 
   protected def dependents(resource: Octopus): StorageDependencyMap = {
@@ -72,7 +82,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       refs = refIDs.flatMap(SsdStorage.get).map(_.dateModified)
 
       // associated schema matcher model is consistent
-      lobsterConsistent = ModelStorage.isConsistent(octopus.lobsterID)
+      lobsterConsistent = ModelInterface.checkTraining(octopus.lobsterID)
       // make sure the octopus is complete
       isComplete = octopus.state.status == Status.COMPLETE
       // make sure the SSDs are older than the training date
@@ -113,6 +123,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
                                       lobsterID: ModelID,
                                       semanticTypeMap: Map[String, String]
                                      ): Octopus = {
+    val now = DateTime.now
     Octopus(octopusID,
       name = request.name.getOrElse(MissingValue),
       ontologies = getOntologies(request.ssds, request.ontologies),
@@ -120,9 +131,9 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       lobsterID = lobsterID,
       modelingProps = request.modelingProps,
       semanticTypeMap = semanticTypeMap,
-      state = TrainState(Status.UNTRAINED, "", DateTime.now),
-      dateCreated = DateTime.now,
-      dateModified = DateTime.now,
+      state = TrainState(Status.UNTRAINED, "", now),
+      dateCreated = now,
+      dateModified = now,
       description = request.description.getOrElse(MissingValue)
     )
   }
@@ -134,14 +145,14 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     * @param request The request object from the API
     * @return
     */
-  def createOctopus(request: OctopusRequest): Octopus = {
+  def createOctopus(request: OctopusRequest): Try[Octopus] = Try {
 
     val id = genID
 
-    if (!checkOctopusRequest(request)) {
-      logger.error("Missing references for octopus")
-      throw BadRequestException("Missing references for octopus")
-    }
+//    if (!checkOctopusRequest(request)) {
+//      logger.error("Missing references for octopus")
+//      throw BadRequestException("Missing references for octopus")
+//    }
 
     val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
 
@@ -158,25 +169,26 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       bagSize = request.bagSize)
 
     val lobsterID: ModelID = Try {
-      MatcherInterface.createModel(modelReq)
+      ModelInterface.createModel(modelReq)
     } match {
       case Success(model) =>
         model.id
       case Failure(err) =>
-        throw InternalException(s"Octopus cannot be created since lobster fled: $err")
+        logger.error(s"Octopus cannot be created since lobster fled: ${err.getMessage}")
+        throw InternalException(s"Octopus cannot be created since lobster fled.")
     }
 
     // build the octopus from the request, adding defaults where necessary
     val octopus = convertOctopusRequest(request, id, lobsterID, semanticTypeMap)
 
-    Try {
-      OctopusStorage.add(id, octopus)
-    } match {
-      case Success(_) =>
+    add(octopus) match {
+      case Some(key) =>
         octopus
-      case Failure(err) =>
-        throw InternalException(s"Failed to create resource $err.")
+      case None =>
+        logger.error(s"Failed to create resource.")
+        throw InternalException(s"Failed to create resource.")
     }
+
   }
 
   /**
@@ -370,7 +382,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
         SsdStorage.get(ssdID).get,
         dsPredictions,
         attrToColMap,
-        defaultNumSemanticTypes)
+        DefaultNumSemanticTypes)
         .getOrElse(throw InternalException(s"No SSD predictions are available for octopus $id."))
 
     } else {
@@ -388,7 +400,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     * @param dataset Dataset object
     * @return
     */
-  protected def generateEmptySsd(octopus: Octopus,
+  private def generateEmptySsd(octopus: Octopus,
                        dataset: DataSet): Option[Ssd] = {
     logger.debug(s"Generating empty SSD for dataset ${dataset.id}")
     Try {
@@ -432,6 +444,25 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     SsdResults(predictions = convertedTuples)
   }
 
+  private def getPredictionResources(id: OctopusID,
+                                     dsId : DataSetID
+                                    ): (Octopus, DataSet) = {
+    val octopus = OctopusStorage.get(id) match {
+      case Some(octo) =>
+        octo
+      case None =>
+        throw NotFoundException(s"Octopus $id not found.")
+    }
+    val dataset = DatasetStorage.get(dsId) match {
+      case Some(ds) =>
+        ds
+      case None =>
+        throw NotFoundException(s"Dataset $dsId not found.")
+    }
+
+    (octopus, dataset)
+  }
+
   /**
     * Perform prediction using the octopus for a dataset.
     * Emtpy SSD will automatically be generated for the dataset.
@@ -442,21 +473,19 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     */
   def predictOctopus(id: OctopusID, dsId : DataSetID): SsdResults = {
     // FIXME: unclear what happens to the UNKNOWN columns
+    val (octopus, dataset) = getPredictionResources(id, dsId)
 
-    // if id is not in the OctopusStorage, isConsistent will throw NotFoundException
     if (checkTraining(id)) {
       // do prediction
       logger.info(s"Launching prediction with octopus $id for dataset $dsId")
 
       val ssdPredictions: Option[SsdPrediction] = for {
-        octopus <- OctopusStorage.get(id)
-        dataset <- DatasetStorage.get(dsId)
 
         emptySsd <- generateEmptySsd(octopus, dataset)
 
         // we do semantic typing for only one dataset
         dsPredictions = Try {
-          MatcherInterface.predictModel(octopus.lobsterID, dsId)
+          ModelInterface.predictModel(octopus.lobsterID, dsId)
         } toOption
 
         // this map is needed to map ColumnIDs from dsPredictions to attributes
@@ -473,7 +502,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
           emptySsd,
           dsPredictions,
           attrToColMap,
-          defaultNumSemanticTypes
+          DefaultNumSemanticTypes
         )
       } yield predOpt
 
@@ -656,29 +685,20 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     * and if update is successful, returns the case class response
     * object.
     * The associated schema matcher model (aka lobster) is also updated.
+    * Since octopus and lobster are bundled now, the order of update matters.
     *
     * @param request POST request with octopus information
     * @return Case class object for JSON conversion
     */
   def updateOctopus(id: OctopusID, request: OctopusRequest): Octopus = {
 
-    if (!checkOctopusRequest(request)) {
-      logger.error("Missing references for octopus")
-      throw BadRequestException("Missing references for octopus")
-    }
+    val (original, originalLobster) = getModels(id)
 
-    val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
+    val ssds = request.ssds.getOrElse(original.ssds)
+    val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(Some(ssds))
 
     // build the octopus from the request, adding defaults where necessary
     val octopusOpt = for {
-      colMap <- Some(DatasetStorage.columnMap)
-      original <- OctopusStorage.get(id)
-      originalLobster <- ModelStorage.get(original.lobsterID)
-
-      // update lobster
-      lobsterRequest = createModelRequest(request, originalLobster, classes, labelData)
-      updatedLobster = ModelInterface.updateModel(original.lobsterID, lobsterRequest)
-
       // delete alignmentDir explicitly
       octopusDeletedAlignment <- OctopusStorage.deleteAlignmetDir(id)
 
@@ -690,7 +710,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
           description = request.description.getOrElse(original.description),
           name = request.name.getOrElse(original.name),
           modelingProps = request.modelingProps, // TODO: Remove option type!! in case it's None semantic-modeler uses default config for Karma; for now default config is available only in semantic-modeler
-          ssds = request.ssds.getOrElse(original.ssds),
+          ssds = ssds,
           ontologies = request.ontologies.getOrElse(original.ontologies),
           semanticTypeMap = semanticTypeMap,
           state = TrainState(Status.UNTRAINED, "", DateTime.now),
@@ -699,9 +719,13 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       }.toOption
       _ <- update(octopus)
 
-    } yield {
-      octopus
-    }
+    } yield octopus
+
+    // update lobster after the update of the octopus
+    // in case octopus update fails we should not update lobster
+    val lobsterRequest = createModelRequest(request, originalLobster, classes, labelData)
+    val updatedLobster = ModelInterface.updateModel(original.lobsterID, lobsterRequest)
+
     octopusOpt getOrElse {
       logger.error(s"Failed to update octopus $id.")
       throw InternalException("Failed to update octopus.")

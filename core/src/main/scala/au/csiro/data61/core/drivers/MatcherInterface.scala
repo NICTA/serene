@@ -134,6 +134,7 @@ object MatcherInterface extends LazyLogging {
 
       // build up the model request, and use defaults if not present...
       model <- Try {
+        val now = DateTime.now
         Model(
           id = id,
           description = request.description.getOrElse(MissingValue),
@@ -145,9 +146,9 @@ object MatcherInterface extends LazyLogging {
           labelData = dataRef.cleanLabels,
           refDataSets = dataRef.refDataSets.toList,
           modelPath = None,
-          state = Training.TrainState(Training.Status.UNTRAINED, "", DateTime.now),
-          dateCreated = DateTime.now,
-          dateModified = DateTime.now,
+          state = Training.TrainState(Training.Status.UNTRAINED, "", now),
+          dateCreated = now,
+          dateModified = now,
           bagSize = request.bagSize.getOrElse(ModelTypes.defaultBagSize),
           numBags = request.numBags.getOrElse(ModelTypes.defaultNumBags))
       }.toOption

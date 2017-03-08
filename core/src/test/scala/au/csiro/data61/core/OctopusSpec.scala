@@ -29,7 +29,7 @@ import au.csiro.data61.modeler.ModelerConfig
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
 import au.csiro.data61.types.ModelType.RANDOM_FOREST
 import au.csiro.data61.types.ModelTypes.Model
-import au.csiro.data61.types.SsdTypes.{Owl, OwlDocumentFormat}
+import au.csiro.data61.types.SsdTypes.{Octopus, Owl, OwlDocumentFormat}
 import au.csiro.data61.types.SamplingStrategy.NO_RESAMPLING
 import au.csiro.data61.types.Training.Status
 import au.csiro.data61.types._
@@ -40,6 +40,7 @@ import org.json4s.Extraction
 import org.json4s.jackson.JsonMethods._
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 
+import scala.annotation.tailrec
 import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
@@ -179,9 +180,52 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     DatasetStorage.add(citiesDS.id, citiesDS)
   }
 
+  /**
+    * pollOctopusState
+    *
+    * @param octopus
+    * @param pollIterations
+    * @param pollTime
+    * @return
+    */
+  def pollOctopusState(octopus: Octopus, pollIterations: Int, pollTime: Int)
+  : Future[Training.Status] = {
+    Future {
+
+      def state(): Training.Status = {
+        Thread.sleep(pollTime)
+        // build a request to get the model...
+        val m = OctopusInterface.get(octopus.id) match {
+          case None => throw new Exception("Failed to retrieve model state")
+          case Some(octo) => octo
+        }
+        m.state.status
+      }
+
+      @tailrec
+      def rState(loops: Int): Training.Status = {
+        state() match {
+          case s@Training.Status.COMPLETE =>
+            s
+          case s@Training.Status.ERROR =>
+            s
+          case _ if loops < 0 =>
+            throw new Exception("Training timeout")
+          case _ =>
+            rState(loops - 1)
+        }
+      }
+
+      rState(pollIterations)
+    }
+  }
+
   test("Creating octopus for businessInfo") {
     // create default octopus
-    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
+    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)  match {
+      case Success(octo) => octo
+      case _ => fail("Problems with creation of octopus!")
+    }
     // lobster should automatically be created
     val lobster: Model = ModelStorage.get(octopus.lobsterID).get
 
@@ -203,7 +247,10 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   test("Training octopus with businessInfo succeeds") {
     // create default octopus
-    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
+    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest) match {
+      case Success(octo) => octo
+      case _ => fail("Problems with creation of octopus!")
+    }
     // get it from the storage
     val storedOctopus = OctopusStorage.get(octopus.id).get
 
@@ -216,16 +263,21 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
     val state = OctopusInterface.trainOctopus(octopus.id)
 
+    val PollTime = 2000
+    val PollIterations = 20
+    val smallTime = 10
     // octopus becomes busy
     assert(state.get.status === Status.BUSY)
-    Thread.sleep(1000)
+    Thread.sleep(smallTime)
     // lobster becomes busy
     assert(ModelStorage.get(octopus.lobsterID).get.state.status === Status.BUSY)
 
-    Thread.sleep(8000)
+    // wait for the trainig to complete
+    val trained = pollOctopusState(octopus, PollIterations, PollTime)
+    val octopusState = concurrent.Await.result(trained, 30 seconds)
 
     assert(ModelStorage.get(octopus.lobsterID).get.state.status === Status.COMPLETE)
-    assert(OctopusStorage.get(octopus.id).get.state.status === Status.COMPLETE)
+    assert(octopusState === Status.COMPLETE)
 
     // (if the training succeeds) alignment graph json is located at:
     val alignmentGraphJson: String = OctopusStorage.getAlignmentGraphPath(octopus.id).toString
@@ -247,7 +299,10 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   test("Predicting with octopus for cities fails since octopus is not trained") {
     // create default octopus
-    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
+    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest) match {
+      case Success(octo) => octo
+      case _ => fail("Problems with creation of octopus!")
+    }
     // get it from the storage
     val storedOctopus = OctopusStorage.get(octopus.id).get
 
@@ -268,11 +323,19 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   test("Predicting with octopus for cities succeeds") {
     // create default octopus
-    val octopus = OctopusInterface.createOctopus(defaultOctopusRequest)
+    val octopus: Octopus = OctopusInterface.createOctopus(defaultOctopusRequest) match {
+      case Success(octo) => octo
+      case _ => fail("Problems with creation of octopus!")
+    }
     val state = OctopusInterface.trainOctopus(octopus.id)
 
-    // wait for training to complete
-    Thread.sleep(8000)
+
+    val PollTime = 2000
+    val PollIterations = 20
+    // wait for the trainig to complete
+    val trained = pollOctopusState(octopus, PollIterations, PollTime)
+    val octopusState = concurrent.Await.result(trained, 30 seconds)
+
     assert(ModelStorage.get(octopus.lobsterID).get.state.status === Status.COMPLETE)
     assert(OctopusStorage.get(octopus.id).get.state.status === Status.COMPLETE)
 
