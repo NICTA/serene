@@ -109,15 +109,17 @@ object OctopusAPI extends RestAPI {
           }
         }
 
-        m <- Try { OctopusInterface.createOctopus(request) }
+        m <- OctopusInterface.createOctopus(request)
       } yield m)
       match {
         case Success(mod) =>
           Ok(mod)
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
         case Failure(err: InternalException) =>
-          InternalServerError(InternalException(err.getMessage))
+          InternalServerError(err)
         case Failure(err) =>
-          BadRequest(BadRequestException(err.getMessage))
+          InternalServerError(InternalException(err.getMessage))
       }
   }
 
@@ -177,8 +179,8 @@ object OctopusAPI extends RestAPI {
         case Failure(err: NotFoundException) =>
           NotFound(err)
         case Failure(err) =>
-          logger.error(s"Octopus prediction failed: ${err.getMessage}")
-          InternalServerError(InternalException(err.getMessage))
+          logger.error(s"Octopus $id prediction failed: ${err.getMessage}")
+          InternalServerError(InternalException(s"Octopus $id prediction failed"))
       }
   }
 
@@ -193,13 +195,21 @@ object OctopusAPI extends RestAPI {
         request <- parseOctopusRequest(body)
         octopus <- Try {
           OctopusInterface.updateOctopus(id, request)
+
         }
       } yield octopus)
       match {
         case Success(m) =>
           Ok(m)
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+        case Failure(err: NotFoundException) =>
+          NotFound(err)
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
         case Failure(err) =>
-          InternalServerError(InternalException(err.getMessage))
+          logger.error(s"Unknown failure in octopus $id update: ${err.getMessage}")
+          InternalServerError(InternalException(s"Failed to update octopus $id."))
       }
   }
 
@@ -215,9 +225,13 @@ object OctopusAPI extends RestAPI {
         case Success(None) =>
           logger.debug(s"Could not find octopus $id")
           NotFound(NotFoundException(s"Octopus $id could not be found"))
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
         case Failure(err) =>
-          logger.debug(s"Some other problem with deleting...")
-          InternalServerError(InternalException(s"Failed to delete resource: ${err.getMessage}"))
+          logger.debug(s"Some other problem with deleting octopus $id: ${err.getMessage}")
+          InternalServerError(InternalException(s"Failed to delete octopus."))
       }
   }
 
@@ -260,10 +274,7 @@ object OctopusAPI extends RestAPI {
 
       name <- parseOption[String]("name", raw)
 
-      ssds <- {
-        println(s"Raw extraction: $raw")
-        parseOption[List[Int]]("ssds", raw)
-      }
+      ssds <- parseOption[List[Int]]("ssds", raw)
 
       ontologies <- parseOption[List[Int]]("ontologies", raw)
 

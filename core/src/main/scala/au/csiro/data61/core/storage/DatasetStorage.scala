@@ -30,7 +30,7 @@ import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
 import scala.language.postfixOps
-import scala.util.Try
+import scala.util.{Failure, Success, Try}
 
 
 /**
@@ -56,36 +56,6 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
 
   def extract(stream: FileInputStream): DataSet = {
     parse(stream).extract[DataSet]
-  }
-
-  /**
-    * Ssd, Model, Octopus dependent.
-    * We will not check OctopusStorage because it's coordinated through SSD and Model.
-    *
-    * @param id
-    * @return
-    */
-  def hasDependents(id: DataSetID): Boolean = {
-    // set of column ids which are used in the stored SSDs
-    val ssdColumnIds: Set[ColumnID] = SsdStorage.keys
-      .flatMap(SsdStorage.get)
-      .flatMap(_.attributes)
-      .map(_.id)
-      .toSet
-
-    // set of dataset ids which are used in the stored schema matcher models
-    val modelRefIds: Set[DataSetID] = ModelStorage.keys
-      .flatMap(ModelStorage.get)
-      .flatMap(_.refDataSets)
-      .toSet
-
-    // column ids from this dataset
-    val colIds: List[ColumnID] = get(id)
-      .map(_.columns.map(_.id))
-      .getOrElse(List.empty[ColumnID])
-
-    colIds.exists(ssdColumnIds.contains) ||
-      modelRefIds.contains(id)
   }
 
   /**
@@ -116,7 +86,14 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
       )
       outputPath
 
-    } toOption
+    } match {
+      case Success(p) =>
+        logger.debug(s"File added to $p.")
+        Some(p)
+      case Failure(err) =>
+        logger.error(s"File could not be added to path $outputPath: ${err.getMessage}")
+        None
+    }
   }
 
   /**

@@ -103,16 +103,14 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
         cache += (id -> value)
       }
       id
-    } toOption
+    } match {
+      case Success(key) =>
+        Some(key)
+      case Failure(err) =>
+        logger.error(s"Failed to write the resource file to disk: ${err.getMessage}")
+        None
+    }
   }
-
-  /**
-    * Needs to be implemented in each Storage layer for coordination.
-    * If an object has dependents, it cannot be removed!
-    * @param id
-    * @return
-    */
-  def hasDependents(id: Key): Boolean
 
   /**
    * Returns the model object at location id

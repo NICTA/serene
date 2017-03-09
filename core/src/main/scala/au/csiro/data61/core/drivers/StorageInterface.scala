@@ -19,19 +19,21 @@ package au.csiro.data61.core.drivers
 
 import javax.ws.rs.ext.ParamConverter.Lazy
 
-import au.csiro.data61.core.api.InternalException
+import au.csiro.data61.core.api.{BadRequestException, InternalException}
 import au.csiro.data61.core.storage._
 import au.csiro.data61.types.DataSetTypes.DataSetID
 import au.csiro.data61.types.Identifiable
 import au.csiro.data61.types.ModelTypes.ModelID
 import au.csiro.data61.types.SsdTypes.{OctopusID, OwlID, SsdID}
 import com.typesafe.scalalogging.LazyLogging
-import scala.util.{Failure, Random, Success, Try}
 
+import scala.util.{Failure, Random, Success, Try}
 import language.higherKinds
 
 
-// abstract type member
+/**
+  * abstract type member for the keys used for our data structures
+  */
 sealed trait KeyType{
   type Key
 
@@ -54,7 +56,16 @@ trait ModelKey extends KeyType{
   type Key = ModelID
 }
 
-
+/**
+  * An object which stores dependencies/references for a resource.
+  *
+  * @param column List of dependencies/references of type ColumnID
+  * @param dataset List of dependencies/references of type DatasetID from the DatasetStorage
+  * @param owl List of dependencies/references of type OwlID from the OwlStorage
+  * @param ssd List of dependencies/references of type SsdID from the SsdStorage
+  * @param model List of dependencies/references of type ModelID from the ModelStorage
+  * @param octopus List of dependencies/references of type OctopusID from the OctopusStorage
+  */
 case class StorageDependencyMap(column: List[Int] = List.empty[Int],
                                 dataset: List[Int] = List.empty[Int],
                                 owl: List[Int] = List.empty[Int],
@@ -65,11 +76,22 @@ case class StorageDependencyMap(column: List[Int] = List.empty[Int],
   def isEmpty: Boolean = {
     dataset.isEmpty && owl.isEmpty && ssd.isEmpty && model.isEmpty && octopus.isEmpty && column.isEmpty
   }
-//  override def toString: String = super.toString
+
+  override def toString: String = "columns: [" + column.mkString(",") +
+    "], dataset: [" + dataset.mkString(",") +
+    "], owl: [" + owl.mkString(",") +
+    "], ssd: [" + dataset.mkString(",") +
+    "], model: [" + model.mkString(",") +
+    "], octopus: [" + dataset.mkString(",") + "]"
 }
 
+/**
+  * Abstract interface for the storage.
+  *
+  * @tparam K Type of the key used for the resource
+  * @tparam SereneResource Type of the resource
+  */
 trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] extends LazyLogging {
-//  type StorageDependencyMap = Map[Class[_ <: Identifiable[KeyType#Key]], List[_ <: KeyType#Key]]
 
   type Key = K#Key
 
@@ -83,12 +105,12 @@ trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] exte
     */
   def storageKeys: List[Key] = storage.keys
 
-  protected def add(resource : SereneResource): Option[Key] = {
+  def add(resource : SereneResource): Option[Key] = {
     val refs = missingReferences(resource)
     if (refs.isEmpty) {
       storage.add(resource.id, resource)
     } else {
-      throw InternalException(s"References broken for add: ${beautify(refs)}")
+      throw BadRequestException(s"References broken for add: ${beautify(refs)}")
     }
   }
 
@@ -99,7 +121,7 @@ trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] exte
       storage.update(resource.id, resource)
     } else {
       logger.error(s"References broken for update: ${beautify(refs)}")
-      throw InternalException(s"References broken for update: ${beautify(refs)}")
+      throw BadRequestException(s"References broken for update: ${beautify(refs)}")
     }
   }
 
@@ -110,24 +132,24 @@ trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] exte
       storage.remove(resource.id)
     } else if (force) {
       logger.warn("Forceful deletion of the resource attempted!")
-      throw InternalException(s"Forceful deletion not implemented.")
-//      Try {
-//        // the order of deletion matters!
-//        refs.octopus.foreach(OctopusStorage.remove)
-//        refs.model.foreach(ModelStorage.remove)
-//        refs.ssd.foreach(SsdStorage.remove)
-//        refs.dataset.foreach(DatasetStorage.remove)
-//        refs.owl.foreach(OwlStorage.remove)
-//      } match {
-//        case Success(_) =>
-//          logger.info("Forceful deletion of the resource succeeded.")
-//          Some(resource.id)
-//        case Failure(err) =>
-//          logger.error(s"Forceful deletion of the resource failed: $err")
-//          throw InternalException(s"Forceful deletion of the resource failed: $err")
-//      }
+//      throw InternalException(s"Forceful deletion not implemented.")
+      Try {
+        // the order of deletion matters!
+        refs.octopus.foreach(OctopusStorage.remove)
+        refs.model.foreach(ModelStorage.remove)
+        refs.ssd.foreach(SsdStorage.remove)
+        refs.dataset.foreach(DatasetStorage.remove)
+        refs.owl.foreach(OwlStorage.remove)
+      } match {
+        case Success(_) =>
+          logger.info("Forceful deletion of the resource succeeded.")
+          Some(resource.id)
+        case Failure(err) =>
+          logger.error(s"Forceful deletion of the resource failed: $err")
+          throw InternalException(s"Forceful deletion of the resource failed.")
+      }
     } else {
-      throw InternalException(s"Deletion not possible due to dependents: ${beautify(refs)}")
+      throw BadRequestException(s"Deletion not possible due to dependents: ${beautify(refs)}")
     }
   }
 
@@ -151,11 +173,40 @@ trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] exte
     m.toString
   }
 
+  /**
+    * This method identifies missing references for the resource.
+    * In case there are missing references the resource cannot be created or updated.
+    *
+    * @param resource for which missing references need to be calculated
+    * @return
+    */
   protected def missingReferences(resource: SereneResource): StorageDependencyMap
 
+  /**
+    * This method identifies dependents for the resource.
+    * In case there are dependents the resource cannot be deleted.
+    *
+    * @param resource for which dependents need to be calculated
+    * @return
+    */
   protected def dependents(resource: SereneResource): StorageDependencyMap
 }
 
+/**
+  * Abstract interface for Model and Octopus storage layers.
+  *
+  * @tparam K Type of the key used for the resource
+  * @tparam SereneResource Type of the resource
+  */
 trait TrainableInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] extends StorageInterface[K, SereneResource] {
+
+  /**
+    * This method checks the training status of the resource.
+    * In case it returns false it means that the resource cannot
+    * be used for prediction and should be re-trained.
+    *
+    * @param key of the resource for which training status should be checked.
+    * @return
+    */
   def checkTraining(key: Key): Boolean
 }

@@ -186,8 +186,15 @@ object DatasetAPI extends RestAPI {
         match {
           case Success(ds) =>
             Ok(ds)
+          case Failure(err: NotFoundException) =>
+            NotFound(err)
+          case Failure(err: BadRequestException) =>
+            BadRequest(err)
+          case Failure(err: InternalException) =>
+            InternalServerError(err)
           case Failure(err) =>
-            InternalServerError(InternalException(err.getMessage))
+            logger.error(s"Some other problem with updating dataset $id: ${err.getMessage}")
+            InternalServerError(InternalException(s"Failed to update dataset $id."))
         }
       }
   }
@@ -206,9 +213,13 @@ object DatasetAPI extends RestAPI {
         case Success(None) =>
           logger.debug(s"Could not find dataset $id")
           NotFound(NotFoundException(s"Dataset $id could not be found"))
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
         case Failure(err) =>
-          logger.debug(s"Some other problem with deleting...")
-          InternalServerError(InternalException(s"Failed to delete resource: ${err.getMessage}"))
+          logger.error(s"Some other problem with deleting dataset $id: ${err.getMessage}")
+          InternalServerError(InternalException(s"Failed to delete dataset."))
       }
   }
 

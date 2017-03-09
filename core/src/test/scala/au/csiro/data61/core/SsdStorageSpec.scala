@@ -20,6 +20,7 @@ package au.csiro.data61.core
 import java.io.FileInputStream
 import java.nio.file.Paths
 
+import au.csiro.data61.core.drivers.SsdInterface
 import au.csiro.data61.core.storage.{JsonFormats, SsdStorage}
 import au.csiro.data61.types._
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
@@ -70,14 +71,14 @@ class SsdStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   }
 
   test("Incomplete ssd not added to the storage") {
-    assert(SsdStorage.keys.size === 0)
+    assert(SsdInterface.storageKeys.size === 0)
     Try {
       val stream = new FileInputStream(Paths.get(emptySsd).toFile)
       parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
-        assert(SsdStorage.add(ssd.id, ssd) === None)
-        assert(SsdStorage.keys.size === 0)
+        assert(Try(SsdInterface.add(ssd)).isFailure)
+        assert(SsdInterface.storageKeys.size === 0)
       case Failure(err) =>
         fail(err.getMessage)
     }

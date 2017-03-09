@@ -1,6 +1,6 @@
 # Serene Data Integration Platform
 
-Serene is a data integration platform designed to provide semantic matching across heterogenous relational data stores.
+Serene is a data integration platform designed to provide semantic matching across heterogeneous relational data stores.
 
 ### Prerequisites
 
@@ -13,7 +13,7 @@ on Debian linux
 sudo apt-get install sbt
 ```
 
-For the semantic modelling part 3 [Karma](https://github.com/usc-isi-i2/Web-Karma) java libraries need to be available:
+For the semantic modelling part 3 [Karma](http://github.com/usc-isi-i2/Web-Karma) java libraries need to be available:
 - karma-common;
 - karma-typer;
 - karma-util.
@@ -75,6 +75,8 @@ with arguments in quotes e.g.
 ```
 sbt "run --port 8888"
 ```
+
+Additional configuration is available in [application.conf](http://github.com/NICTA/serene/blob/modeller/core/src/main/resources/application.conf), specifically for the initialization of Spark. 
 
 The API can be used with the following commands...
 
@@ -270,6 +272,8 @@ Attribute ids in the source descriptions are really important since we rely on K
 
 The labels (semantic types) are assumed to come in the format: className---propertyName.
 
+The configuration for the semantic modeler is specified in [modeling.properties](http://github.com/NICTA/serene/blob/modeller/modeler/src/main/resources/modeling.properties).
+
 ### Semantic Source Descriptions
 Semantic source descriptions provide information how exactly a particular dataset maps into a specified ontology. They include information both about the semantic types (i.e., classes/labels) for the columns as well as information about the relationships of these semantic types. All this information is encoded in the semantic model.
 Before a semantic source description can be uploaded to the server, the associated datasets should be uploaded.
@@ -328,7 +332,7 @@ curl -X DELETE  localhost:8080/v1.0/ssd/12341234
 
 ### Ontologies
 
-Serene can handle for now only OWL ontologies.
+Serene can handle only OWL ontologies.
 ```
 # Get a list of ontologies...
 curl localhost:8080/v1.0/owl

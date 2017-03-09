@@ -38,6 +38,26 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
 
   override val storage = ModelStorage
 
+  val DefaultFeatures = FeaturesConfig(
+    activeFeatures = Set("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
+      "ratio-alpha-chars", "prop-numerical-chars",
+      "prop-whitespace-chars", "prop-entries-with-at-sign",
+      "prop-entries-with-hyphen", "prop-entries-with-paren",
+      "prop-entries-with-currency-symbol", "mean-commas-per-entry",
+      "mean-forward-slashes-per-entry",
+      "prop-range-format", "is-discrete", "entropy-for-discrete-values"),
+    activeGroupFeatures = Set.empty[String],
+    featureExtractorParams = Map()
+  )
+
+  /**
+    * Check if the trained model is consistent.
+    * This means that the model file is available, and that the datasets
+    * have not been updated since the model was last modified.
+    *
+    * @param id ID for the model
+    * @return boolean
+    */
   def checkTraining(id: Key): Boolean = {
     logger.info(s"Checking consistency of model $id")
 
@@ -110,9 +130,9 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
       description = request.description.getOrElse(MissingValue),
       modelType = request.modelType.getOrElse(ModelType.RANDOM_FOREST),
       classes = request.classes.getOrElse(List()),
-      features = request.features.getOrElse(FeaturesConfig(Set.empty[String], Set.empty[String], Map.empty[String, Map[String, String]])),
+      features = request.features.getOrElse(DefaultFeatures),
       costMatrix = request.costMatrix.getOrElse(List()),
-      resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.RESAMPLE_TO_MEAN),
+      resamplingStrategy = request.resamplingStrategy.getOrElse(SamplingStrategy.NO_RESAMPLING),
       labelData = labelMap,
       refDataSets = refDatasets,
       modelPath = None,
@@ -153,11 +173,15 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
       .map(_.datasetID)
       .toList
 
-    val modelOpt = for {
-      old <- get(id)
+    val old = get(id) match {
+      case Some(m: Model) => m
+      case None =>
+        logger.error(s"Model $id not found.")
+        throw NotFoundException(s"Model $id not found.")
+    }
 
-      // build up the model request, and use existing if field is not present...
-      updatedModel = Model(
+    // build up the model request, and use existing if field is not present...
+    val updatedModel = Model(
         id = id,
         description = request.description.getOrElse(old.description),
         modelType = request.modelType.getOrElse(old.modelType),
@@ -174,10 +198,15 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
         bagSize = request.bagSize.getOrElse(ModelTypes.defaultBagSize),
         numBags = request.numBags.getOrElse(ModelTypes.defaultNumBags)
       )
-      _ <- update(updatedModel)
-    } yield updatedModel
 
-    modelOpt getOrElse { throw InternalException("Failed to update resource.") }
+    update(updatedModel) match {
+      case Some(key) =>
+        logger.debug(s"Model $id update successful.")
+        updatedModel
+      case None =>
+        logger.error(s"Failed to update model $id.")
+        throw InternalException("Failed to update resource.")
+    }
   }
 
   /**

@@ -107,7 +107,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       val response = get(s"/$APIVersion/dataset")
       assert(response.contentType === Some(JsonHeader))
       assert(response.status === Status.Ok)
-      assert(!response.contentString.isEmpty)
+      assert(response.contentString.nonEmpty)
     } finally {
       deleteAllDataSets()
       assertClose()

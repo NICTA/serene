@@ -42,21 +42,6 @@ object SsdStorage extends Storage[SsdID, Ssd] {
   }
 
   /**
-    * Octopus dependent.
-    * If there are dependents, removal is not possible!
-    *
-    * @param id
-    * @return True if this object has dependents.
-    */
-  def hasDependents(id: SsdID): Boolean = {
-    // set of ssds used in all octopi contains this id
-    OctopusStorage.keys
-      .flatMap(OctopusStorage.get)
-      .flatMap(_.ssds).toSet
-      .contains(id)
-  }
-
-  /**
     * Returns the location of the .ssd metadata file for id
     *
     * @param id The ID for the semantic source desc

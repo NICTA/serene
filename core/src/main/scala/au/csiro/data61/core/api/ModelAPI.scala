@@ -187,7 +187,8 @@ object ModelAPI extends RestAPI {
         case Failure(err: NotFoundException) =>
           NotFound(err)
         case Failure(err) =>
-          InternalServerError(InternalException(err.getMessage))
+          logger.error(s"Some other error occurred in model $id prediction: ${err.getMessage}")
+          InternalServerError(InternalException("Model prediction failed."))
       }
   }
 
@@ -207,8 +208,15 @@ object ModelAPI extends RestAPI {
       match {
         case Success(m) =>
           Ok(m)
+        case Failure(err: NotFoundException) =>
+          NotFound(err)
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
         case Failure(err) =>
-          InternalServerError(InternalException(err.getMessage))
+          logger.error(s"Some other problem with updating model $id: ${err.getMessage}")
+          InternalServerError(InternalException(s"Failed to update model $id."))
       }
   }
 
@@ -224,9 +232,13 @@ object ModelAPI extends RestAPI {
         case Success(None) =>
           logger.debug(s"Could not find model $id")
           NotFound(NotFoundException(s"Model $id could not be found"))
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
         case Failure(err) =>
-          logger.debug(s"Some other problem with deleting...")
-          InternalServerError(InternalException(s"Failed to delete resource: ${err.getMessage}"))
+          logger.error(s"Some other problem with model $id deletion: ${err.getMessage}")
+          InternalServerError(InternalException(s"Failed to delete resource."))
       }
   }
 
