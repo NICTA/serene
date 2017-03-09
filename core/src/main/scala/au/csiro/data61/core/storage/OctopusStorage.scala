@@ -107,40 +107,4 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
     }
   }
 
-//  /**
-//    * Check if the trained octopus is consistent.
-//    * This means that the alignment directory is available, lobster is consistent and that the SSDs
-//    * have not been updated since the octopus was last modified.
-//    *
-//    * @param id ID for the octopus
-//    * @return boolean
-//    */
-//  def isConsistent(id: OctopusID): Boolean = {
-//    logger.info(s"Checking consistency of octopus $id")
-//
-//    // in case octopus is missing in the storage - raise NotFound
-//    val octopus = get(id) match {
-//      case Some(o: Octopus) =>
-//        o
-//      case _ =>
-//        throw NotFoundException(s"Resource $id not found.")
-//    }
-//
-//    // make sure the SSDs in the octopus are older
-//    // than the training state
-//    val trainDate = octopus.state.dateChanged
-//    val refIDs = octopus.ssds
-//    val refs = refIDs.flatMap(SsdStorage.get).map(_.dateModified)
-//
-//    // associated schema matcher model is consistent
-//    val lobsterConsistent = ModelStorage.isConsistent(octopus.lobsterID)
-//    // make sure the octopus is complete
-//    val isComplete = octopus.state.status == Status.COMPLETE
-//    // make sure the SSDs are older than the training date
-//    val allBefore = refs.forall(_.isBefore(trainDate))
-//    // make sure the alignment graph is there...
-//    val alignmentExists = Files.exists(getAlignmentGraphPath(id))
-//
-//    lobsterConsistent && isComplete && allBefore && alignmentExists
-//  }
 }

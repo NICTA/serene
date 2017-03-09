@@ -398,38 +398,4 @@ object ModelStorage extends Storage[ModelID, Model] {
           pipelinePath = Paths.get(wsDir, MatcherConstants.PipelineFile).toString))
   }
 
-//  /**
-//    * Check if the trained model is consistent.
-//    * This means that the model file is available, and that the datasets
-//    * have not been updated since the model was last modified.
-//    *
-//    * @param id ID for the model
-//    * @return boolean
-//    */
-//  def isConsistent(id: ModelID): Boolean = {
-//    logger.info(s"Checking consistency of model $id")
-//
-//    // make sure the datasets in the model are older
-//    // than the training state
-//    val isOK = for {
-//      model <- get(id)
-//      path = model.modelPath
-//      trainDate = model.state.dateChanged
-//      refIDs = model.refDataSets
-//      refs = refIDs.flatMap(DatasetStorage.get).map(_.dateModified)
-//
-//      // make sure the model is complete
-//      isComplete = model.state.status == Status.COMPLETE
-//
-//      // make sure the datasets are older than the training date
-//      allBefore = refs.forall(_.isBefore(trainDate))
-//
-//      // make sure the model file is there...
-//      modelExists = path.exists(Files.exists(_))
-//
-//    } yield allBefore && modelExists && isComplete
-//
-//    isOK getOrElse false
-//  }
-
 }
