@@ -87,6 +87,7 @@ case class StorageDependencyMap(column: List[Int] = List.empty[Int],
 
 /**
   * Abstract interface for the storage.
+  *
   * @tparam K Type of the key used for the resource
   * @tparam SereneResource Type of the resource
   */
@@ -145,7 +146,7 @@ trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] exte
           Some(resource.id)
         case Failure(err) =>
           logger.error(s"Forceful deletion of the resource failed: $err")
-          throw InternalException(s"Forceful deletion of the resource failed: $err")
+          throw InternalException(s"Forceful deletion of the resource failed.")
       }
     } else {
       throw BadRequestException(s"Deletion not possible due to dependents: ${beautify(refs)}")
@@ -172,11 +173,40 @@ trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] exte
     m.toString
   }
 
+  /**
+    * This method identifies missing references for the resource.
+    * In case there are missing references the resource cannot be created or updated.
+    *
+    * @param resource for which missing references need to be calculated
+    * @return
+    */
   protected def missingReferences(resource: SereneResource): StorageDependencyMap
 
+  /**
+    * This method identifies dependents for the resource.
+    * In case there are dependents the resource cannot be deleted.
+    *
+    * @param resource for which dependents need to be calculated
+    * @return
+    */
   protected def dependents(resource: SereneResource): StorageDependencyMap
 }
 
+/**
+  * Abstract interface for Model and Octopus storage layers.
+  *
+  * @tparam K Type of the key used for the resource
+  * @tparam SereneResource Type of the resource
+  */
 trait TrainableInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] extends StorageInterface[K, SereneResource] {
+
+  /**
+    * This method checks the training status of the resource.
+    * In case it returns false it means that the resource cannot
+    * be used for prediction and should be re-trained.
+    *
+    * @param key of the resource for which training status should be checked.
+    * @return
+    */
   def checkTraining(key: Key): Boolean
 }

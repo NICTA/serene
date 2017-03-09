@@ -236,7 +236,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       // first we set the model state to training....
       OctopusStorage.updateTrainState(id, Status.BUSY)
       // launch training for the lobster
-      val launchLobster = MatcherInterface.lobsterTraining(model.id, force)
+      val launchLobster = ModelInterface.lobsterTraining(model.id, force)
       // launch training for the octopus
       val launchOctopus = launchOctopusTraining(id)
 
@@ -365,7 +365,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
       // we do semantic typing for only one dataset
       val dsPredictions = Try {
-        MatcherInterface.predictModel(octopus.lobsterID, datasets.head)
+        ModelInterface.predictModel(octopus.lobsterID, datasets.head)
       } toOption
 
       // this map is needed to map ColumnIDs from dsPredictions to attributes

@@ -18,15 +18,12 @@
 package au.csiro.data61.core
 
 import java.io.FileInputStream
-import java.nio.charset.StandardCharsets
-import java.nio.file.{Files, Path, Paths}
+import java.nio.file.{Files, Paths}
 
 import au.csiro.data61.core.api.{BadRequestException, OctopusRequest, SsdResults}
 import au.csiro.data61.core.storage.{JsonFormats, OctopusStorage, SsdStorage}
-import au.csiro.data61.core.drivers.{MatcherInterface, OctopusInterface}
+import au.csiro.data61.core.drivers.OctopusInterface
 import au.csiro.data61.core.storage._
-import au.csiro.data61.modeler.ModelerConfig
-import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
 import au.csiro.data61.types.ModelType.RANDOM_FOREST
 import au.csiro.data61.types.ModelTypes.Model
 import au.csiro.data61.types.SsdTypes.{Octopus, Owl, OwlDocumentFormat}
@@ -36,7 +33,6 @@ import au.csiro.data61.types._
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
-import org.json4s.Extraction
 import org.json4s.jackson.JsonMethods._
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 
