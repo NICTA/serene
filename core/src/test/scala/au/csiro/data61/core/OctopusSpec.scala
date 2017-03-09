@@ -283,7 +283,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     recommends match {
       case Some(ssdPred: SsdResults) =>
         assert(ssdPred.predictions.size === 8)
-        val predictedSSDs: List[Ssd] = ssdPred.predictions.map(_._1.toSsd(dummyID))
+        val predictedSSDs: List[Ssd] = ssdPred.predictions.map(_._1.toSsd(dummyID).get)
         // Karma should return consistent and complete semantic models
         assert(predictedSSDs.forall(_.isComplete))
         assert(predictedSSDs.forall(_.isConsistent))

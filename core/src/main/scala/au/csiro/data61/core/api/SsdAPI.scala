@@ -17,15 +17,12 @@
  */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.storage.SsdStorage
-import au.csiro.data61.types._
-import org.joda.time.DateTime
-
-import scala.language.postfixOps
 import au.csiro.data61.core.drivers.SsdInterface
 import au.csiro.data61.types.SsdTypes.SsdID
+import au.csiro.data61.types._
 import io.finch._
 import io.finch.json4s.decodeJson
+import org.joda.time.DateTime
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -43,7 +40,6 @@ import scala.util.{Failure, Success, Try}
   * POST :8080/v1.0/octopus/{id}/train
   */
 object SsdAPI extends RestAPI {
-
   protected val SsdRootPath = "ssd"
 
   val junkSSD = Ssd(
@@ -85,8 +81,11 @@ object SsdAPI extends RestAPI {
         case Success(ssd) =>
           Ok(ssd)
         case Failure(err) =>
-          logger.error(s"SSD with name=${request.name} could not be created: $err")
-          InternalServerError(InternalException(s"SSD could not be created: $err"))
+          logger.error(s"SSD with name=${request.name} could not be created.", err)
+          err match {
+            case ex: BadRequestException => BadRequest(ex)
+            case _ => InternalServerError(InternalException(s"SSD could not be created: $err"))
+          }
       }
   }
 
@@ -123,12 +122,15 @@ object SsdAPI extends RestAPI {
   val ssdPatch: Endpoint[Ssd] = post(APIVersion :: SsdRootPath :: int :: jsonBody[SsdRequest]) {
     (id: SsdID, request: SsdRequest) =>
       logger.info(s"Updating SSD with name=${request.name}.")
-      //FIXME: needs to be fixed
       SsdInterface.updateSsd(id, request) match {
         case Success(ssd) => Ok(ssd)
-        case Failure(th) =>
-          logger.error(s"SSD with name=${request.name} could not be updated.", th)
-          InternalServerError(InternalException(s"SSD could not be updated."))
+        case Failure(err) =>
+          logger.error(s"SSD with name=${request.name} could not be updated.", err)
+          err match {
+            case ex: BadRequestException => BadRequest(ex)
+            case ex: NotFoundException => NotFound(ex)
+            case _ => InternalServerError(InternalException(s"SSD could not be updated: $err"))
+          }
       }
   }
 
@@ -172,23 +174,25 @@ object SsdAPI extends RestAPI {
   * NOTE: columns and their transformations will not be user-provided now,
   * but rather automatically generated from mappings.
   *
+  * create = empty, returned = full
+  *
   * @param name The name label used for the SSD
   * @param ontologies The list of Ontologies used in this ssd
   * @param semanticModel The semantic model used to describe how the columns map to the ontology
   * @param mappings The mappings from the attributes to the semantic model
   */
-case class SsdRequest(name: String,
-                      ontologies: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
-                      semanticModel: Option[SemanticModel], // create = empty, returned = full
-                      mappings: Option[SsdMapping])  // create = empty, returned = full
-{
+case class SsdRequest(
+    name: Option[String],
+    ontologies: Option[List[SsdID]],
+    semanticModel: Option[SemanticModel],
+    mappings: Option[SsdMapping]) {
   /**
     * Convert SsdRequest to Ssd
     *
     * @param ssdID Id to be used for the generated Ssd
     * @return
     */
-  def toSsd(ssdID: SsdID): Ssd = {
+  def toSsd(ssdID: SsdID): Try[Ssd] = Try {
     // get a list of attributes from the mappings
     // NOTE: for now we automatically generate them to be equal to the original columns
     val ssdAttributes: List[SsdAttribute] = mappings
@@ -196,14 +200,16 @@ case class SsdRequest(name: String,
       .getOrElse(List.empty[Int])
       .map(SsdAttribute(_))
 
+    val now = DateTime.now
+
     Ssd(ssdID,
-      name = name,
+      name = name.get,
       attributes = ssdAttributes,
-      ontology = ontologies,
+      ontology = ontologies.get,
       semanticModel = semanticModel,
       mappings = mappings,
-      dateCreated = DateTime.now,
-      dateModified = DateTime.now
+      dateCreated = now,
+      dateModified = now
     )
   }
 }

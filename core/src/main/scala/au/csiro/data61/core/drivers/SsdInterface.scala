@@ -18,15 +18,14 @@
 package au.csiro.data61.core.drivers
 
 import au.csiro.data61.core.api.{BadRequestException, InternalException, NotFoundException, SsdRequest}
+import au.csiro.data61.core.drivers.Generic._
 import au.csiro.data61.core.storage.{DatasetStorage, OctopusStorage, OwlStorage, SsdStorage}
 import au.csiro.data61.types.ColumnTypes.ColumnID
-import au.csiro.data61.types.{Ssd, SsdAttribute}
+import au.csiro.data61.types.Ssd
 import au.csiro.data61.types.SsdTypes._
-import au.csiro.data61.core.drivers.Generic._
 import com.typesafe.scalalogging.LazyLogging
-import org.joda.time.DateTime
 
-import scala.util.Try
+import scala.util.{Failure, Success, Try}
 
 object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
 
@@ -57,59 +56,33 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
   }
 
   /**
-    * Check if the SsdRequest has proper parameters.
-    * Then convert it to Semantic Source Description
-    *
-    * @param request SsdRequest coming from the API
-    * @param ssdID id of the SSD
-    */
-  protected def convertSsdRequest(request: SsdRequest,
-                                  ssdID: SsdID)
-  : Ssd = {
-
-    // get list of attributes from the mappings
-    // NOTE: for now we automatically generate them to be equal to the original columns
-    val ssdAttributes: List[SsdAttribute] = request
-      .mappings
-      .map(_.mappings.keys.toList)
-      .getOrElse(List.empty[Int])
-      .map(SsdAttribute(_))
-
-    Ssd(ssdID,
-      name = request.name,
-      attributes = ssdAttributes,
-      ontology = request.ontologies,
-      semanticModel = request.semanticModel,
-      mappings = request.mappings,
-      dateCreated = DateTime.now,
-      dateModified = DateTime.now
-    )
-  }
-
-  /**
     * Check the request and if it's ok add a corresponding SSD to the storage.
     *
     * @param request Request object
     * @return
     */
   def createSsd(request: SsdRequest): Ssd = {
-
     val id = genID
 
-    val ssd = convertSsdRequest(request, id)
+    request.toSsd(id) match {
+      case Success(ssd) =>
+        // check if the SSD is consistent and complete
+        if (!ssd.isComplete) {
+          val msg = "SSD cannot be added to the storage: it is not complete."
+          logger.error(msg)
+          throw BadRequestException(msg)
+        }
 
-    // check if the SSD is consistent and complete
-    if (!ssd.isComplete){
-      val msg = "SSD cannot be added to the storage: it is not complete."
-      logger.error(msg)
-      throw BadRequestException(msg)
-    }
-
-    add(ssd) match {
-      case Some(key: SsdID) =>
-        ssd
-      case _ =>
-        throw InternalException("Failed to create resource.")
+        add(ssd) match {
+          case Some(key: SsdID) =>
+            ssd
+          case _ =>
+            throw InternalException("Failed to create resource.")
+        }
+      case Failure(ex) =>
+        val msg = "SSD cannot be added to the storage: it is invalid."
+        logger.error(msg, ex)
+        throw BadRequestException(msg)
     }
   }
 
@@ -120,24 +93,37 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
     * @return The updated SSD if successful. Otherwise the exception that caused the failure.
     */
   def updateSsd(id: SsdID, request: SsdRequest): Try[Ssd] = Try {
-    // FIXME: we need to create new SsdRequest which either have values from the new request and otherwise from the old one
     storage.get(id) match {
       case Some(originalSsd) =>
-        Try { convertSsdRequest(request, id) }
-          .flatMap {
-            (ssd: Ssd) => Try {
-              val updatedSsd = ssd.copy(dateCreated = originalSsd.dateCreated)
-              update(updatedSsd) match {
-                case Some(_) => updatedSsd
-                case None => throw InternalException(s"SSD $id could not be updated.")
-              }
+        val checkedRequest = SsdRequest(
+          name = request.name.orElse(Option(originalSsd.name)),
+          ontologies = request.ontologies.orElse(Option(originalSsd.ontology)),
+          semanticModel = request.semanticModel.orElse(originalSsd.semanticModel),
+          mappings = request.mappings.orElse(originalSsd.mappings)
+        )
+
+        checkedRequest.toSsd(id) match {
+          case Success(ssd) =>
+            val updatedSsd = ssd.copy(dateCreated = originalSsd.dateCreated)
+
+            // check if the SSD is consistent and complete
+            if (!updatedSsd.isComplete) {
+              val msg = "SSD cannot be updated to the storage: it is not complete."
+              logger.error(msg)
+              throw BadRequestException(msg)
             }
-          }
-          .get
+
+            update(updatedSsd) match {
+              case Some(_) => updatedSsd
+              case None => throw InternalException(s"SSD $id could not be updated.")
+            }
+          case Failure(ex) =>
+            val msg = "SSD cannot be updated to the storage: it is invalid."
+            logger.error(msg, ex)
+            throw BadRequestException(msg)
+        }
       case None =>
         throw NotFoundException(s"SSD $id not found.")
     }
   }
-
-
 }

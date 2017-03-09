@@ -24,9 +24,9 @@ import au.csiro.data61.core.api.SsdRequest
 import au.csiro.data61.core.storage.JsonFormats
 import au.csiro.data61.types.DataSetTypes.DataSetID
 import au.csiro.data61.types.SsdTypes.SsdID
-import au.csiro.data61.types.{DataSet, Ssd, SsdMapping}
+import au.csiro.data61.types.{DataSet, SemanticModel, Ssd, SsdMapping}
 import com.twitter.finagle.http.Method.{Delete, Post}
-import com.twitter.finagle.http.Status.Ok
+import com.twitter.finagle.http.Status.{BadRequest, NotFound, Ok}
 import com.twitter.finagle.http.{FileElement, Request, RequestBuilder, Status}
 import com.twitter.io.Buf.ByteArray
 import com.twitter.io.Reader
@@ -68,25 +68,29 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     parse(response.contentString).extract[List[DataSetID]].foreach(deleteDataset)
   }
 
-  def createSsd(document: SsdRequest)(implicit server: TestServer): Try[Ssd] = Try {
+  def requestSsdCreation(document: SsdRequest)
+      (implicit server: TestServer): Try[(Status, String)] = Try {
     val request = Request(Post, s"/$APIVersion/ssd")
     request.content = ByteArray(write(document).getBytes: _*)
     request.contentType = "application/json"
     val response = Await.result(server.client(request))
-    parse(response.contentString).extract[Ssd]
+    (response.status, response.contentString)
+  }
+
+  def createSsd(document: SsdRequest)(implicit server: TestServer): Try[Ssd] = Try {
+    val (_, content) = requestSsdCreation(document).get
+    parse(content).extract[Ssd]
   }
 
   def createSsd(datasetDocument: File, ssdDocument: File)
       (implicit server: TestServer): Try[(SsdRequest, Ssd)] = Try {
     val dataset = createDataset(datasetDocument, "ref dataset").get
-    val request = parse(ssdDocument).extract[SsdRequest].copy(
-      mappings = Some(SsdMapping(Map(
-        dataset.columns.head.id -> 1,
-        dataset.columns(1).id -> 3,
-        dataset.columns(2).id -> 5,
-        dataset.columns(3).id -> 7
-      )))
-    )
+    val request = parse(ssdDocument).extract[SsdRequest].copy(mappings = Some(SsdMapping(Map(
+            dataset.columns.head.id -> 1,
+            dataset.columns(1).id -> 3,
+            dataset.columns(2).id -> 5,
+            dataset.columns(3).id -> 7
+          ))))
     (request, createSsd(request).get)
   }
 
@@ -111,12 +115,18 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     parse(response.contentString).extract[Ssd]
   }
 
-  def updateSsd(document: SsdRequest, id: SsdID)(implicit server: TestServer): Try[Ssd] = Try {
+  def requestSsdUpdate(document: SsdRequest, id: SsdID)
+      (implicit server: TestServer): Try[(Status, String)] = Try {
     val request = Request(Post, s"/$APIVersion/ssd/$id")
     request.content = ByteArray(write(document).getBytes: _*)
     request.contentType = "application/json"
     val response = Await.result(server.client(request))
-    parse(response.contentString).extract[Ssd]
+    (response.status, response.contentString)
+  }
+
+  def updateSsd(document: SsdRequest, id: SsdID)(implicit server: TestServer): Try[Ssd] = Try {
+    val (_, content) = requestSsdUpdate(document, id).get
+    parse(content).extract[Ssd]
   }
 
   test("API version number should be 1.0") {
@@ -128,8 +138,8 @@ class SsdAPISpec extends FunSuite with JsonFormats {
       val (request, ssd) = createSsd(DatasetDocument, SsdDocument).get
 
       ssd should have (
-        'name (request.name),
-        'ontology (request.ontologies),
+        'name (request.name.get),
+        'ontology (request.ontologies.get),
         'semanticModel (request.semanticModel),
         'mappings (request.mappings)
       )
@@ -141,15 +151,26 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     }
   })
 
+  test(s"Creating SSD with invalid request should get bad-request response") (new TestServer {
+    try {
+      val request = parse(SsdDocument).extract[SsdRequest]
+      val (status, _) = requestSsdCreation(request).get
+
+      status should be (BadRequest)
+    } finally {
+      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
   test(s"DELETEing /$APIVersion/ssd/:id should delete an SSD") (new TestServer {
     try {
       val createdSsd = createSsd(DatasetDocument, SsdDocument).get._2
-      val (status, content) = requestSsdDeletion(createdSsd.id).get
-//      val deletedSsd = parse(content).extract[Ssd]
+      val (status, _) = requestSsdDeletion(createdSsd.id).get
       val ssds = listSsds.get
 
       status should be (Ok)
-//      createdSsd should equal (deletedSsd)
       ssds should be (empty)
     } finally {
       deleteAllSsds
@@ -192,11 +213,10 @@ class SsdAPISpec extends FunSuite with JsonFormats {
       val createdSsd = createSsd(DatasetDocument, SsdDocument).get._2
       val updatedName = "updated name"
       val request = SsdRequest(
-        name = updatedName,
-        ontologies = createdSsd.ontology,
-        semanticModel = createdSsd.semanticModel,
-        mappings = createdSsd.mappings
-      )
+        name = Some(updatedName),
+        ontologies = None,
+        semanticModel = None,
+        mappings = None)
       val updatedSsd = updateSsd(request, createdSsd.id).get
 
       updatedSsd should have (
@@ -217,6 +237,28 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     }
   })
 
-  //TODO: tests for different inconsistent ssds
-  //TODO: tests for different updates of ssds
+  test(s"Updating SSD with nonexistent ID should get not-found response") (new TestServer {
+    try {
+      val (status, _) = requestSsdUpdate(SsdRequest(None, None, None, None), 0).get
+
+      status should be (NotFound)
+    } finally {
+      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  test(s"Updating SSD with invalid request should get bad-request response") (new TestServer {
+    try {
+      val (_, ssd) = createSsd(DatasetDocument, SsdDocument).get
+      val (status, _) = requestSsdUpdate(parse(SsdDocument).extract[SsdRequest], ssd.id).get
+
+      status should be (BadRequest)
+    } finally {
+      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
 }

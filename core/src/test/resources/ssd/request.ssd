@@ -1,6 +1,6 @@
 {
   "name": "businessInfo.csv",
-  "ontology": [],
+  "ontologies": [],
   "semanticModel": {
     "nodes": [
       {
