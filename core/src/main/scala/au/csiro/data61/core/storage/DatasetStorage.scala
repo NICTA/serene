@@ -30,7 +30,7 @@ import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
 import scala.language.postfixOps
-import scala.util.Try
+import scala.util.{Failure, Success, Try}
 
 
 /**
@@ -86,7 +86,14 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
       )
       outputPath
 
-    } toOption
+    } match {
+      case Success(p) =>
+        logger.debug(s"File added to $p.")
+        Some(p)
+      case Failure(err) =>
+        logger.error(s"File could not be added to path $outputPath: ${err.getMessage}")
+        None
+    }
   }
 
   /**

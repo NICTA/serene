@@ -237,7 +237,7 @@ object ModelAPI extends RestAPI {
         case Failure(err: InternalException) =>
           InternalServerError(err)
         case Failure(err) =>
-          logger.error(s"Some other problem with deleting model $id: ${err.getMessage}")
+          logger.error(s"Some other problem with model $id deletion: ${err.getMessage}")
           InternalServerError(InternalException(s"Failed to delete resource."))
       }
   }

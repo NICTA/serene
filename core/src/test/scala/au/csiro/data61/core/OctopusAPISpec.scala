@@ -288,19 +288,16 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   })
 
-  // TODO: what should be the response?
-//  test("GET /v1.0/octopus/asdf fails") (new TestServer {
-//    try {
-//      val response = get(s"/$APIVersion/octopus/asdf")
-//      assert(response.contentType === Some(JsonHeader))
-//      assert(response.status === Status.BadRequest)
-//      assert(!response.contentString.isEmpty)
-//      assert(Try { parse(response.contentString).extract[List[OctopusID]] }.isSuccess)
-//    } finally {
-//      deleteOctopi()
-//      assertClose()
-//    }
-//  })
+  test("GET /v1.0/octopus/asdf responds NotFound") (new TestServer {
+    try {
+      val response = get(s"/$APIVersion/octopus/asdf")
+      assert(response.status === Status.NotFound)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
 
   test("POST /v1.0/octopus responds BadRequest") (new TestServer {
     try {
@@ -521,13 +518,13 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       val noResource = get(resource)
       assert(noResource.contentType === Some(JsonHeader))
       assert(noResource.status === Status.NotFound)
-      assert(!noResource.contentString.isEmpty)
+      assert(noResource.contentString.nonEmpty)
 
       // the associated lobster should be also deleted
       val noLobsterResource = get(s"/$APIVersion/model/${octopus.lobsterID}")
       assert(noLobsterResource.contentType === Some(JsonHeader))
       assert(noLobsterResource.status === Status.NotFound)
-      assert(!noLobsterResource.contentString.isEmpty)
+      assert(noLobsterResource.contentString.nonEmpty)
 
     } finally {
       deleteOctopi()
@@ -535,7 +532,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   })
 
-  test("DELETE /v1.0/octopus/1 responds NotFound") (new TestServer {
+  test("DELETE /v1.0/octopus/1 responds octopus NotFound") (new TestServer {
     try {
        // build a request to delete octopus
       val resource = s"/$APIVersion/octopus/1"
@@ -575,7 +572,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       val response = Await.result(client(request))
       assert(response.contentType === Some(JsonHeader))
       assert(response.status === Status.Ok)
-      assert(!response.contentString.isEmpty)
+      assert(response.contentString.nonEmpty)
 
       // ensure that the data is correct...
       val patchOctopus = parse(response.contentString).extract[Octopus]
@@ -600,7 +597,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   })
 
-  test("POST /v1.0/octopus/id octopus update fails due to non-existent ssds") (new TestServer {
+  test("POST /v1.0/octopus/id responds BadRequest due to non-existent ssds") (new TestServer {
     try {
 
       val octopus = createOctopus()
@@ -648,7 +645,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   })
 
-  test("POST /v1.0/octopus/id octopus update fails due to non-existent owls") (new TestServer {
+  test("POST /v1.0/octopus/id responds BadRequest due to non-existent owls") (new TestServer {
     try {
 
       val octopus = createOctopus()
