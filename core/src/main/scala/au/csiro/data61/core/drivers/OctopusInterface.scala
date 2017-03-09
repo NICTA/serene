@@ -70,11 +70,17 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     StorageDependencyMap()
   }
 
+  /**
+    * Check if the trained octopus is consistent.
+    * This means that the alignment directory is available, lobster is consistent and that the SSDs
+    * have not been updated since the octopus was last modified.
+    *
+    * @param id ID for the octopus
+    * @return boolean
+    */
   override def checkTraining(id: Key): Boolean = {
     logger.info(s"Checking consistency of octopus $id")
 
-    // make sure the SSDs in the octopus are older
-    // than the training state
     val isOK = for {
       octopus <- get(id)
       trainDate = octopus.state.dateChanged

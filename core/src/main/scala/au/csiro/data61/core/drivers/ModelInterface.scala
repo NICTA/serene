@@ -50,6 +50,14 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
     featureExtractorParams = Map()
   )
 
+  /**
+    * Check if the trained model is consistent.
+    * This means that the model file is available, and that the datasets
+    * have not been updated since the model was last modified.
+    *
+    * @param id ID for the model
+    * @return boolean
+    */
   def checkTraining(id: Key): Boolean = {
     logger.info(s"Checking consistency of model $id")
 
