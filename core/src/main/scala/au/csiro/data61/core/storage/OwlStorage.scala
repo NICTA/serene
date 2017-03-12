@@ -48,10 +48,9 @@ object OwlStorage extends Storage[OwlID, Owl] {
     * @return The path to the OWL document file.
     */
   def getOwlDocumentPath(id: OwlID): Option[Path] = {
-    get(id).map ( o =>
-      getPath(id).resolveSibling(s"$DocumentFileName.${o.format}")
+    get(id).map ( x =>
+      getPath(id).resolveSibling(s"$id-$DocumentFileName.${x.format}")
     )
-//    Paths.get(getDirectoryPath(id).toString, s"document.$format")
   }
 
   /**

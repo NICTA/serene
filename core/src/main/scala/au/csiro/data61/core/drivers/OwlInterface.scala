@@ -98,7 +98,7 @@ object OwlInterface extends StorageInterface[OwlKey, Owl] with LazyLogging {
 
     for {
       owlId <- add(owl)
-      owlPath <- OwlStorage.writeOwlDocument(id, inputStream)
+      _ <- OwlStorage.writeOwlDocument(id, inputStream)
       curOwl <- get(owlId)
     } yield curOwl
   }

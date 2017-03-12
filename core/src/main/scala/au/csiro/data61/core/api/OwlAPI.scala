@@ -63,21 +63,25 @@ object OwlAPI extends RestAPI {
 
       val name = file.fileName
       val desc = description.getOrElse("")
-      val fmt = Try { OwlDocumentFormat.withName(format) } getOrElse OwlDocumentFormat.Unknown
+      Try { OwlDocumentFormat.withName(format) } match {
+        case Failure(ex) =>
+          logger.info(s"The format $format of OWL $file is not supported.", ex)
+          BadRequest(BadRequestException("The format of OWL is not supported."))
+        case Success(fmt) =>
+          val stream = file match {
+            case OnDiskFileUpload(content, _, _, _) =>
+              Files.newInputStream(content.toPath)
+            case InMemoryFileUpload(content, _, _, _) =>
+              new BufInputStream(content)
+          }
 
-      val stream = file match {
-        case OnDiskFileUpload(content, _, _, _) =>
-          Files.newInputStream(content.toPath)
-        case InMemoryFileUpload(content, _, _, _) =>
-          new BufInputStream(content)
-      }
-
-      OwlInterface.createOwl(name, desc, fmt, stream) match {
-        case Some(owl: Owl) =>
-          Ok(owl)
-        case _ =>
-          logger.error(s"Owl could not be created.")
-          InternalServerError(InternalException(s"Owl could not be created."))
+          OwlInterface.createOwl(name, desc, fmt, stream) match {
+            case Some(owl: Owl) =>
+              Ok(owl)
+            case _ =>
+              logger.error(s"Owl could not be created.")
+              InternalServerError(InternalException(s"Owl could not be created."))
+          }
       }
   }
 

@@ -77,11 +77,11 @@ object SsdTypes {
   object OwlDocumentFormat extends Enumeration {
     type OwlDocumentFormat = Value
 
-    val Turtle = Value("turtle")
-    val JsonLd = Value("jsonld")
-    val RdfXml = Value("rdfxml")
+    val Turtle = Value("ttf")
+    val Notation3 = Value("n3")
+    val Rdf = Value("rdf")
+    val Xml = Value("xml")
     val DefaultOwl = Value("owl")
-    val Unknown = Value("unknown")
   }
 
   /**
