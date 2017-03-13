@@ -170,6 +170,9 @@ lazy val core = Project(
       scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
       resolvers += Resolver.sonatypeRepo("snapshots"),
 
+      coverageEnabled := true,
+      coverageOutputHTML := true,
+
       libraryDependencies ++= Seq(
         "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
         ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
