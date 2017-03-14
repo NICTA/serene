@@ -410,7 +410,7 @@ curl -X POST \
        "ignoreSemanticTypes": true,
        "ignoreColumnNodes": true
       }' \
-  localhost:8080/v1.0/octopus
+  localhost:8080/v1.0/evaluate
 ```
 
 ## Tests
