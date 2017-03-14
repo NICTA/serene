@@ -21,6 +21,7 @@ import java.nio.file.Path
 
 import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.DataSetTypes.DataSetID
+import au.csiro.data61.types.Exceptions.TypeException
 import au.csiro.data61.types.GraphTypes._
 import au.csiro.data61.types.ModelTypes.ModelID
 import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
@@ -49,7 +50,7 @@ object SsdTypes {
     * @param ontologies The ontologies used for the alignment
     * @param ssds The list of SSDs for the construction of the alignment graph
     * @param lobsterID Id of the associated schema matcher model
-    * @param modelingProps Modeling properties for semantic modeler; optional string of file location
+    * @param modelingProps Modeling properties for semantic modeler; optional case class
     * @param semanticTypeMap Mapping of matcher:labels to URIs.
     * @param state State of Octopus
     * @param dateCreated Date of creation
@@ -61,7 +62,7 @@ object SsdTypes {
                      ontologies: List[Int], // WARNING: Int should be OwlID! Json4s bug.
                      ssds: List[Int],       // WARNING: Int should be SsdID! Json4s bug.
                      lobsterID: ModelID,
-                     modelingProps: Option[String],
+                     modelingProps: Option[ModelingProperties],
                      semanticTypeMap: Map[String,String],
                      state: Training.TrainState,
                      dateCreated: DateTime,
@@ -170,8 +171,8 @@ case class Ssd(id: SsdID,
     * semantic model is a connected graph
     */
   def isComplete: Boolean = {
-    // TODO: check semantic types in ontology???? This check needs to be implemented in the storage layer!
-    // semantic model is not empty and is a connected graph
+    // Semantic types need to be checked in ontology. This check is now done at the UI level and inside Karma code.
+    // Here we check that the semantic model is not empty and is a connected graph.
     val semModelCheck = semanticModel match {
       case Some(sm) =>
         sm.getNodes.nonEmpty && sm.isConnected
@@ -193,7 +194,7 @@ case class Ssd(id: SsdID,
   /**
     * Helper function to obtain list of node ids in the semantic model.
     * It returns an empty list if the semantic model is None.
- *
+    *
     * @return
     */
   private def getSMNodeIds: List[NodeID] = {
@@ -220,7 +221,7 @@ case class Ssd(id: SsdID,
   /**
     * Update the semantic model and the mappings of the current semantic source description.
     * This method affects only the semantic model, the mappings and dateModified.
- *
+    *
     * @param karmaSM Semantic Model returned from the Karma tool, this is type KarmaGraph.
     * @return
     */
@@ -337,13 +338,17 @@ case object SsdMappingSerializer extends CustomSerializer[SsdMapping](
     {
       case jv: JValue =>
         implicit val formats = DefaultFormats
+        val tuples = jv.extract[List[Map[String,Int]]]
+
+        // there should be only attribute and node as keys
+        if(tuples.nonEmpty && tuples.flatMap(_.keys).sorted.distinct != List("attribute", "node")){
+          throw TypeException("Wrong ssd mappings!")
+        }
+
         SsdMapping(
-          jv.extract[List[Map[String,Int]]]
-            .map(_.values.toList)
-            .map { case List(aID,nID) =>
-              (aID,nID)
-            }
-            .toMap
+          tuples.map(_.toList.sorted).map { case List(aID,nID) =>
+            (aID._2, nID._2)
+          }.toMap
         )
     }, {
     case ssdMap: SsdMapping =>
@@ -378,3 +383,47 @@ case class ColumnDesc(id: ColumnID,
                       datasetName: String,
                       semanticScores: Map[String, Double] // these are predictions of the schema matcher
                      )
+
+
+/**
+  * Configuration parameters for the semantic modeler
+  * @param compatibleProperties
+  * @param ontologyAlignment
+  * @param addOntologyPaths
+  * @param mappingBranchingFactor
+  * @param numCandidateMappings
+  * @param topkSteinerTrees
+  * @param multipleSameProperty
+  * @param confidenceWeight should be in range [0..1]
+  * @param coherenceWeight should be in range [0..1]
+  * @param sizeWeight should be in range [0..1]
+  * @param numSemanticTypes
+  * @param thingNode
+  * @param nodeClosure
+  * @param propertiesDirect
+  * @param propertiesIndirect
+  * @param propertiesSubclass
+  * @param propertiesWithOnlyDomain
+  * @param propertiesWithOnlyRange
+  * @param propertiesWithoutDomainRange
+  */
+case class ModelingProperties(compatibleProperties: Boolean = true,
+                              ontologyAlignment: Boolean = false,
+                              addOntologyPaths: Boolean = false,
+                              mappingBranchingFactor: Int = 50,
+                              numCandidateMappings: Int = 10,
+                              topkSteinerTrees: Int = 10,
+                              multipleSameProperty: Boolean = false,
+                              confidenceWeight: Double = 1.0,
+                              coherenceWeight: Double = 1.0,
+                              sizeWeight: Double = 1.0,
+                              numSemanticTypes: Int = 4,
+                              thingNode: Boolean = false,
+                              nodeClosure: Boolean = true,
+                              propertiesDirect: Boolean = true,
+                              propertiesIndirect: Boolean = true,
+                              propertiesSubclass: Boolean = true,
+                              propertiesWithOnlyDomain: Boolean = true,
+                              propertiesWithOnlyRange: Boolean = true,
+                              propertiesWithoutDomainRange: Boolean = false
+                             )
