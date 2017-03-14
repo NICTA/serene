@@ -18,15 +18,11 @@
 
 package au.csiro.data61.modeler
 
-import java.io
-import java.io.{File, FileInputStream, PrintWriter}
+import java.io.{File, PrintWriter}
 import java.nio.charset.StandardCharsets
-import java.nio.file.{Files, Paths}
+import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.types.ColumnTypes._
-import org.jgrapht.graph.DirectedWeightedMultigraph
-import org.json4s._
-import org.json4s.jackson.JsonMethods._
+import au.csiro.data61.types.{KarmaSemanticModel, Ssd}
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
@@ -34,13 +30,12 @@ import com.typesafe.scalalogging.LazyLogging
 
 import language.postfixOps
 import scala.collection.JavaConverters._
-import scala.util.{Failure, Success, Try}
-import edu.isi.karma.modeling.alignment.learner.ModelReader
 import edu.isi.karma.modeling.research.Params
 import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSSD}
-import au.csiro.data61.types._
-import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
-import au.csiro.data61.types.SsdTypes._
+import org.json4s.Extraction
+import org.json4s.jackson.JsonMethods._
+
+import scala.util.{Failure, Random, Success, Try}
 
 /**
   * Created by natalia on 14/11/16.
@@ -146,5 +141,48 @@ class MuseumSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEac
     out.close()
 
     succeed
+  }
+
+  def genID: Int = Random.nextInt(Integer.MAX_VALUE)
+
+  def writeToFile(dir: Path, ssd: Ssd): Unit = {
+    val str = compact(Extraction.decompose(ssd))
+
+    // ensure that the directories exist...
+    if (!dir.toFile.exists) dir.toFile.mkdirs
+
+    val outputPath = Paths.get(dir.toString, ssd.name + ".ssd")
+    // write the object to the file system
+    println(s"Writing to $outputPath")
+    Files.write(
+      outputPath,
+      str.getBytes(StandardCharsets.UTF_8)
+    )
+  }
+
+  test("Museum dataset edm models conversions"){
+    val jsonList: Array[String] = Paths.get(karmaDir, "museum", "museum-29-edm")
+      .toFile.listFiles
+      .filter(_.toString.endsWith(Params.MODEL_MAIN_FILE_EXT))
+      .map(_.getAbsolutePath)
+
+    val semanticModels: Array[KarmaSSD]  =
+      jsonList.map {
+        fileName =>
+          KarmaSSD.readJson(fileName)
+      }
+    assert(semanticModels.length === 29)
+
+    // read in ontologies
+    val ontologyNames = Paths.get(karmaDir, "museum", "museum-29-edm", "preloaded-ontologies")
+      .toFile.listFiles.map(_.getName).zipWithIndex.map(x => (x._2,x._1)).toMap
+
+    val convertedSemModels: Array[Ssd] = semanticModels.map(x =>
+      KarmaSemanticModel(x).toSSD(newID = genID,
+        ontologies = ontologyNames.keys.toList))
+
+    val path = Paths.get(karmaDir, "museum", "museum-29-edm", "conversion")
+    convertedSemModels.foreach(sm => writeToFile(path, sm))
+
   }
 }

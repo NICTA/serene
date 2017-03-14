@@ -141,7 +141,6 @@ case object SsdNodeSerializer extends CustomSerializer[SsdNode](
   })
 )
 
-// FIXME: use easier class for the links
 /**
   * Case class which specifies link type in the semantic model.
   * It is a custom edge specified on the base of a directed edge from scala-graph library.
@@ -264,7 +263,6 @@ case object HelperLinkSerializer extends CustomSerializer[HelperLink](
   * @param graph graph object from Scala Graph library
   */
 case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
-  //TODO: consider simplifying the data structure for links? maybe use hand-written structure instead of scala library
   type NodeT = graph.NodeT // SsdNode
   type LinkT = graph.EdgeT // SsdLink[SsdNode]
 
@@ -322,7 +320,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Get the label of the node in the graph.
- *
+    *
     * @param nodeID Node id in the semantic model.
     * @return
     */
@@ -338,7 +336,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Helper Function to get the uri of the node if it is of type ClassNode.
- *
+    *
     * @param node Node in the semantic model
     * @return
     */
@@ -353,7 +351,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Helper Function to get the uri of the link if it is of type DataPropertyLink.
- *
+    *
     * @param edge Link in the semantic model.
     * @return
     */
@@ -370,7 +368,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * Get domain and type of a data node.
     * Domain is the uri of the associated class node.
     * Type is the uri of the associated property link.
- *
+    *
     * @param nodeID Id of the node in the semanic model.
     * @return
     */
@@ -410,6 +408,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
         }
       }
       case _ =>
+        logger.error(s"Wrong node id $nodeID -- it doesn't exist in the semantic model.")
         throw TypeException(s"Wrong node id $nodeID -- it doesn't exist in the semantic model.")
     }
   }

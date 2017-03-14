@@ -50,26 +50,34 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   val ssdDir = getClass.getResource("/ssd").getPath
   val exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
   val emptySSD: String = Paths.get(ssdDir,"empty_model_2.ssd") toString
+  val businessEmptySSD: String = Paths.get(ssdDir,"empty_business.ssd") toString
   val partialSSD: String = Paths.get(ssdDir,"partial_model.ssd") toString
   val veryPartialSSD: String = Paths.get(ssdDir,"partial_model2.ssd") toString
   val emptyCitiesSSD: String = Paths.get(ssdDir,"empty_getCities.ssd") toString
+  val citiesSSD: String = Paths.get(ssdDir,"getCities.ssd") toString
 
   val alignmentDir = Paths.get("/tmp/test-ssd", "alignment") toString
-  val exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.owl") toString
+  val exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.ttl") toString
 
   var knownSSDs: List[Ssd] = List() // has the function of SSDStorage
   var karmaWrapper = KarmaParams(alignmentDir, List(), None)
 
-  def addSSD(ssdPath: String): Unit = {
+  def readSSD(ssdPath: String): Ssd = {
     Try {
       val stream = new FileInputStream(Paths.get(ssdPath).toFile)
       parse(stream).extract[Ssd]
     } match {
       case Success(ssd) =>
-        knownSSDs = ssd :: knownSSDs
+        ssd
       case Failure(err) =>
         fail(err.getMessage)
     }
+  }
+
+  def addSSD(ssdPath: String): Unit = {
+
+    knownSSDs = readSSD(ssdPath) :: knownSSDs
+
     karmaWrapper.deleteKarma()
     // we need to clean the alignmentDir
     removeAll(Paths.get(alignmentDir))
@@ -189,6 +197,21 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     ))
   }
 
+  def writeToFile(dir: Path, ssd: Ssd): Unit = {
+    val str = compact(Extraction.decompose(ssd))
+
+    // ensure that the directories exist...
+    if (!dir.toFile.exists) dir.toFile.mkdirs
+
+    val outputPath = Paths.get(dir.toString, ssd.name + ".ssd")
+    // write the object to the file system
+    println(s"Writing to $outputPath")
+    Files.write(
+      outputPath,
+      str.getBytes(StandardCharsets.UTF_8)
+    )
+  }
+
   // wrong semantic type map
   val citiesSemanticTypeMap: Map[String, String] = Map(
     "City" -> "abc:City"
@@ -204,16 +227,39 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
   val citiesAttrToColMap: Map[AttrID,ColumnID] = Map(10 -> 10, 11 -> 11)
 
+  def constructKarmaSuggestModel(ssdPath: String): (Ssd, KarmaSuggestModel) = {
+    addSSD(exampleSSD)
+    logger.info("================================================================")
+    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
+    // our alignment
+    logger.info("================================================================")
+    var alignment = karmaTrain.alignment
+    assert(alignment.getGraph.vertexSet.size === 0)
+    assert(alignment.getGraph.edgeSet.size === 0)
+
+    logger.info("================================================================")
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
+    assert(alignment.getGraph.vertexSet.size === 8)
+    assert(alignment.getGraph.edgeSet.size === 7)
+
+    logger.info("================================================================")
+    val newSSD = readSSD(ssdPath)
+    // check uploaded ontologies....
+    assert(karmaWrapper.ontologies.size === 1)
+    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getClasses.size === 7)
+    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getDataProperties.size === 9)
+    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
+
+    logger.info("================================================================")
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
+    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+    logger.info("================================================================")
+    (newSSD, karmaPredict)
+  }
+
+  //=========================Tests==============================================
   test("Recommendation for businessInfo.csv fails since there are no preloaded ontologies"){
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
+    val newSSD = readSSD(emptySSD)
 
     // check uploaded ontologies....
     assert(karmaWrapper.ontologies.size === 0)
@@ -230,15 +276,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
   test("Recommendation for businessInfo.csv fails since the alignment graph is not constructed"){
     addSSD(exampleSSD)
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
+    val newSSD = readSSD(emptySSD)
     // check uploaded ontologies....
     assert(karmaWrapper.ontologies.size === 1)
     assert(karmaWrapper.karmaWorkspace.getOntologyManager.getClasses.size === 7)
@@ -253,36 +291,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   }
 
   test("Recommendation for empty businessInfo.csv succeeds"){
-    addSSD(exampleSSD)
-    // first, we build the Alignment Graph = training step
-    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
-    // our alignment
-    var alignment = karmaTrain.alignment
-    assert(alignment.getGraph.vertexSet.size === 0)
-    assert(alignment.getGraph.edgeSet.size === 0)
-
-    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
-    assert(alignment.getGraph.vertexSet.size === 8)
-    assert(alignment.getGraph.edgeSet.size === 7)
-
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(emptySSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-    // check uploaded ontologies....
-    assert(karmaWrapper.ontologies.size === 1)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getClasses.size === 7)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getDataProperties.size === 9)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
-
-    // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
-    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptySSD)
     val recommends = karmaPredict
       .suggestModels(
         newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap2)
@@ -307,40 +316,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   }
 
   test("Recommendation for partial businessInfo.csv with no matcher predictions succeeds"){
-    addSSD(exampleSSD)
-    logger.info("================================================================")
-    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
-    // our alignment
-    logger.info("================================================================")
-    var alignment = karmaTrain.alignment
-    assert(alignment.getGraph.vertexSet.size === 0)
-    assert(alignment.getGraph.edgeSet.size === 0)
-
-    logger.info("================================================================")
-    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
-    assert(alignment.getGraph.vertexSet.size === 8)
-    assert(alignment.getGraph.edgeSet.size === 7)
-
-    logger.info("================================================================")
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(partialSSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-    // check uploaded ontologies....
-    assert(karmaWrapper.ontologies.size === 1)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getClasses.size === 7)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getDataProperties.size === 9)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
-
-    logger.info("================================================================")
-    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
-    val karmaPredict = KarmaSuggestModel(karmaWrapper)
-    logger.info("================================================================")
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(partialSSD)
     val recommends = karmaPredict
       .suggestModels(newSSD, List(exampleOntol), None, businessSemanticTypeMap, businessAttrToColMap2)
     recommends match {
@@ -373,40 +349,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   }
 
   test("Recommendation for partially specified businessInfo.csv with matcher predictions succeeds"){
-    addSSD(exampleSSD)
-    logger.info("================================================================")
-    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
-    // our alignment
-    logger.info("================================================================")
-    var alignment = karmaTrain.alignment
-    assert(alignment.getGraph.vertexSet.size === 0)
-    assert(alignment.getGraph.edgeSet.size === 0)
-
-    logger.info("================================================================")
-    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
-    assert(alignment.getGraph.vertexSet.size === 8)
-    assert(alignment.getGraph.edgeSet.size === 7)
-
-    logger.info("================================================================")
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(veryPartialSSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-    // check uploaded ontologies....
-    assert(karmaWrapper.ontologies.size === 1)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getClasses.size === 7)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getDataProperties.size === 9)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
-
-    logger.info("================================================================")
-    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
-    val karmaPredict = KarmaSuggestModel(karmaWrapper)
-    logger.info("================================================================")
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(veryPartialSSD)
     val recommends = karmaPredict
       .suggestModels(
         newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap2)
@@ -439,36 +382,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   }
 
   test("Recommendation for empty getCities.csv succeeds"){
-    addSSD(exampleSSD)
-    // first, we build the Alignment Graph = training step
-    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
-    // our alignment
-    var alignment = karmaTrain.alignment
-    assert(alignment.getGraph.vertexSet.size === 0)
-    assert(alignment.getGraph.edgeSet.size === 0)
-
-    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
-    assert(alignment.getGraph.vertexSet.size === 8)
-    assert(alignment.getGraph.edgeSet.size === 7)
-
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-    // check uploaded ontologies....
-    assert(karmaWrapper.ontologies.size === 1)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getClasses.size === 7)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getDataProperties.size === 9)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
-
-    // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
-    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
     val recommends = karmaPredict
       .suggestModels(newSSD, List(exampleOntol), getCitiesDataSetPredictions, Map(), citiesAttrToColMap)
 
@@ -493,26 +407,8 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   }
 
   test("Recommendation for empty getCities.csv with problematic dataset predictions fails"){
-    addSSD(exampleSSD)
-    // first, we build the Alignment Graph = training step
-    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
-    // our alignment
-    var alignment = karmaTrain.alignment
-    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
 
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-
-    // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
-    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
     val recommends = karmaPredict
       .suggestModels(newSSD,
         List(exampleOntol), getProblematicCitiesDataSetPredictions, Map(), citiesAttrToColMap)
@@ -526,26 +422,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   }
 
   test("Recommendation for empty getCities.csv with unknown dataset predictions fails"){
-    addSSD(exampleSSD)
-    // first, we build the Alignment Graph = training step
-    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
-    // our alignment
-    var alignment = karmaTrain.alignment
-    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
-
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-
-    // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
-    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
     val recommends = karmaPredict
       .suggestModels(newSSD,
         List(exampleOntol), getUnknownCitiesDataSetPredictions, Map(), citiesAttrToColMap)
@@ -559,26 +436,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   }
 
   test("Recommendation for empty getCities.csv with filtered problematic dataset predictions will succeed"){
-    addSSD(exampleSSD)
-    // first, we build the Alignment Graph = training step
-    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
-    // our alignment
-    var alignment = karmaTrain.alignment
-    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
-
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-
-    // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
-    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
 
     val convertedDsPreds: Option[DataSetPrediction] = getProblematicCitiesDataSetPredictions match {
 
@@ -609,6 +467,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
         assert(ssdPred.suggestions.forall(_._2.nodeCoverage == 0.5))
 
         val recSemanticModel = ssdPred.suggestions.head._1
+
         val scores = ssdPred.suggestions.head._2
         assert(scores.linkCost === 3)
 
@@ -618,72 +477,15 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   }
 
   test("Recommendation for empty getCities.csv fails due to wrong semantic type map"){
-    addSSD(exampleSSD)
-    // first, we build the Alignment Graph = training step
-    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
-    // our alignment
-    var alignment = karmaTrain.alignment
-    assert(alignment.getGraph.vertexSet.size === 0)
-    assert(alignment.getGraph.edgeSet.size === 0)
-
-    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
-    assert(alignment.getGraph.vertexSet.size === 8)
-    assert(alignment.getGraph.edgeSet.size === 7)
-
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-    // check uploaded ontologies....
-    assert(karmaWrapper.ontologies.size === 1)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getClasses.size === 7)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getDataProperties.size === 9)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
-
-    // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
-    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
     val recommends = karmaPredict
       .suggestModels(newSSD, List(exampleOntol), getCitiesDataSetPredictions, citiesSemanticTypeMap, citiesAttrToColMap)
     assert(recommends.isEmpty)
   }
 
   test("Recommendation for empty getCities.csv succeeds with correct semantic type map"){
-    addSSD(exampleSSD)
-    // first, we build the Alignment Graph = training step
-    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
-    // our alignment
-    var alignment = karmaTrain.alignment
-    assert(alignment.getGraph.vertexSet.size === 0)
-    assert(alignment.getGraph.edgeSet.size === 0)
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
 
-    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
-    assert(alignment.getGraph.vertexSet.size === 8)
-    assert(alignment.getGraph.edgeSet.size === 7)
-
-    val newSSD = Try {
-      val stream = new FileInputStream(Paths.get(emptyCitiesSSD).toFile)
-      parse(stream).extract[Ssd]
-    } match {
-      case Success(ssd) =>
-        ssd
-      case Failure(err) =>
-        fail(err.getMessage)
-    }
-    // check uploaded ontologies....
-    assert(karmaWrapper.ontologies.size === 1)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getClasses.size === 7)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getDataProperties.size === 9)
-    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
-
-    // now, we run prediction for the new SSD
-    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
-    val karmaPredict = KarmaSuggestModel(karmaWrapper)
     val recommends = karmaPredict
       .suggestModels(
         newSSD, List(exampleOntol), getCitiesDataSetPredictions, correctCitiesSemanticTypeMap, citiesAttrToColMap)
@@ -706,5 +508,121 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
         fail("Wrong! There should be some prediction!")
     }
   }
+
+  test("Evaluation of cities succeeds"){
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
+    val recommends = karmaPredict
+      .suggestModels(newSSD, List(exampleOntol), getCitiesDataSetPredictions, Map(), citiesAttrToColMap)
+
+    recommends match {
+      case Some(ssdPred: SsdPrediction) =>
+        assert(ssdPred.suggestions.size === 4)
+
+        // correct cities ssd
+        val correctSSD = readSSD(citiesSSD)
+
+        val evalRes: List[EvaluationResult] = ssdPred.suggestions.map {
+          case (sm, ss) =>
+            EvaluateOctopus.evaluate(sm, correctSSD, false, false)
+        }
+
+        evalRes.foreach(println)
+
+        assert(evalRes.size === ssdPred.suggestions.size)
+        // if we consider semantic types, then all scores are pretty small
+        assert(evalRes.forall(_.jaccard < 1.0))
+        assert(evalRes.forall(_.precision < 1.0))
+        assert(evalRes.forall(_.recall < 1.0))
+
+      case _ =>
+        fail("Wrong! There should be some prediction!")
+    }
+  }
+
+  test("Evaluation for businessInfo.csv succeeds"){
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptySSD)
+    val recommends = karmaPredict
+      .suggestModels(
+        newSSD, List(exampleOntol), getBusinessDataSetPredictions, businessSemanticTypeMap, businessAttrToColMap2)
+
+    recommends match {
+      case Some(ssdPred: SsdPrediction) =>
+        assert(ssdPred.suggestions.size === 1)
+        // correct business ssd
+        val correctSSD = readSSD(exampleSSD)
+
+        val evalRes: List[EvaluationResult] = ssdPred.suggestions.map {
+          case (sm, ss) =>
+            EvaluateOctopus.evaluate(sm, correctSSD, true, false)
+        }
+
+        assert(evalRes.size === ssdPred.suggestions.size)
+        // we do not check the correctness of semantic types, but just of the links!
+        assert(evalRes.forall(_.jaccard == 1.0))
+        assert(evalRes.forall(_.precision == 1.0))
+        assert(evalRes.forall(_.recall == 1.0))
+
+      case _ =>
+        fail("Wrong! There should be some prediction!")
+    }
+  }
+
+  test("Evaluation for empty businessInfo.csv fails"){
+    // empty business ssd
+    val emptyBusinessSSD = readSSD(emptySSD)
+    // correct business ssd
+    val correctSSD = readSSD(exampleSSD)
+    // evaluate both
+    Try {
+      EvaluateOctopus.evaluate(emptyBusinessSSD, correctSSD, true, false)
+    } match {
+      case Success(s) =>
+        fail("This should have failed!")
+      case Failure(err: ModelerException) =>
+        succeed
+      case Failure(err) =>
+        fail(s"Weird error: ${err.getMessage}")
+    }
+  }
+
+  test("Evaluation for empty businessInfo"){
+    addSSD(exampleSSD)
+    // empty business ssd
+    val emptyBusinessSSD = readSSD(businessEmptySSD)
+    // correct business ssd
+    val correctSSD = readSSD(exampleSSD)
+    // evaluate both
+    Try {
+      EvaluateOctopus.evaluate(emptyBusinessSSD, correctSSD, false, false)
+    } match {
+      case Success(s) =>
+        // since predicted is empty, all metrics should be 0
+        assert(s.jaccard === 0)
+        assert(s.precision === 0)
+        assert(s.recall === 0)
+      case Failure(err) =>
+        fail(s"Test failed: ${err.getMessage}")
+    }
+  }
+
+  test("Evaluation for partial businessInfo"){
+    addSSD(exampleSSD)
+    // empty business ssd
+    val predictedSSD = readSSD(partialSSD)
+    // correct business ssd
+    val correctSSD = readSSD(exampleSSD)
+    // evaluate both
+    Try {
+      EvaluateOctopus.evaluate(predictedSSD, correctSSD, false, true)
+    } match {
+      case Success(s) =>
+        assert(s.jaccard === 0.57)
+        assert(s.precision === 1.0)
+        assert(s.recall === 0.57)
+      case Failure(err) =>
+        fail(s"Test failed: ${err.getMessage}")
+    }
+  }
+
 }
 

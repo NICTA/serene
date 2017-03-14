@@ -179,7 +179,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     uri.split("#") match {
       case Array(ns, value) => (ns + "#", value)
       case _ =>
-        logger.warn(s"Not proper uri $uri")
+        logger.debug(s"Not proper uri $uri")
         ("", uri)
     }
   }
@@ -407,7 +407,7 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
     * @return
     */
   protected def ssdAttributes(tableName: String = ""): List[SsdAttribute] = {
-    ssdColumns.map( sourceCol => SsdAttribute(sourceCol.id) )
+    ssdColumns.map( sourceCol => SsdAttribute(sourceCol.id, sourceCol.name) )
   }
 
   /**
@@ -422,7 +422,7 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
     * @return SSD
     */
   def toSSD(newID: SsdID,
-            ssdVersion: String,
+            ssdVersion: String = "",
             ontologies: List[OwlID],
             tableName: String = ""): Ssd = {
     logger.info("Converting Karma Semantic Model to SSD...")

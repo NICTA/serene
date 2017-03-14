@@ -60,7 +60,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
   val exampleSM: String = Paths.get(ssdDir,"semantic_model_example.json") toString
   val businessAlign: String = Paths.get(karmaDir,"align_business.json") toString
   val businessCitiesAlign: String = Paths.get(karmaDir,"align_business_cities.json") toString
-  val exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.owl") toString
+  val exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.ttl") toString
 
   var knownSSDs: List[Ssd] = List()
   var karmaWrapper = KarmaParams(alignmentDir, List(), None)

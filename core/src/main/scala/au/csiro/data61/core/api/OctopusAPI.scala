@@ -184,7 +184,8 @@ object OctopusAPI extends RestAPI {
       }
   }
 
-  // NOTE: octopus evaluation endpoint --> to be implemented in the python client
+
+  // NOTE: octopus evaluation endpoint is in TestAPI (since we have evaluation independent of a particular octopus)
 
   /**
     * Patch a portion of a Octopus. Will destroy all cached octopuss

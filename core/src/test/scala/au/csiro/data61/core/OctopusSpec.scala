@@ -34,6 +34,8 @@ import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
 import org.json4s.jackson.JsonMethods._
+import org.junit.runner.RunWith
+import org.scalatest.junit.JUnitRunner
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 
 import scala.annotation.tailrec
@@ -48,7 +50,7 @@ import scala.util.{Failure, Success, Try}
 /**
   * Tests for the OctopusInterface methods
   */
-
+@RunWith(classOf[JUnitRunner])
 class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging{
 
   override def afterEach(): Unit = {

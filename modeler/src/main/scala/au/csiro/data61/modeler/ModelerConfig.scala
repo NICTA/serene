@@ -17,6 +17,8 @@
   */
 package au.csiro.data61.modeler
 
+import java.nio.file.Paths
+
 import com.typesafe.config.ConfigFactory
 import com.typesafe.scalalogging.LazyLogging
 
@@ -30,6 +32,9 @@ object ModelerConfig extends LazyLogging {
 
   // directory where temporary Karma stuff resides...
   val KarmaDir = conf.getString("config.karma-dir")
+
+  // default folder to store alignment graph
+  val DefaultAlignmenDir = Paths.get(ModelerConfig.KarmaDir, "alignment-graph/").toString
 
   logger.debug(s"Karma storage dir $KarmaDir")
 }
