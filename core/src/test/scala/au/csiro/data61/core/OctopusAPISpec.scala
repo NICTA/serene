@@ -156,7 +156,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
           ("num-neighbours" -> 5)))
 
   def defaultModelingProps: JObject =
-    ("addOntologyPaths" -> "true") ~
+    ("addOntologyPaths" -> true) ~
       ("topkSteinerTrees" -> 5)
 
 
@@ -415,6 +415,27 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       assert(octopus.state.status === Training.Status.UNTRAINED)
       assert(octopus.ssds === List(businessSsdID))
       assert(octopus.ontologies === List(exampleOwlID))
+      // check modeling properties
+      assert(octopus.modelingProps.isDefined)
+      assert(octopus.modelingProps.get.addOntologyPaths)
+      assert(octopus.modelingProps.get.topkSteinerTrees === 5)
+      assert(octopus.modelingProps.get.compatibleProperties)
+      assert(!octopus.modelingProps.get.ontologyAlignment)
+      assert(octopus.modelingProps.get.mappingBranchingFactor === 50)
+      assert(octopus.modelingProps.get.numCandidateMappings === 10)
+      assert(!octopus.modelingProps.get.multipleSameProperty)
+      assert(octopus.modelingProps.get.confidenceWeight === 1.0)
+      assert(octopus.modelingProps.get.coherenceWeight === 1.0)
+      assert(octopus.modelingProps.get.sizeWeight === 1.0)
+      assert(octopus.modelingProps.get.numSemanticTypes === 4)
+      assert(!octopus.modelingProps.get.thingNode)
+      assert(octopus.modelingProps.get.nodeClosure)
+      assert(octopus.modelingProps.get.propertiesDirect)
+      assert(octopus.modelingProps.get.propertiesIndirect)
+      assert(octopus.modelingProps.get.propertiesSubclass)
+      assert(octopus.modelingProps.get.propertiesWithOnlyDomain)
+      assert(octopus.modelingProps.get.propertiesWithOnlyRange)
+      assert(!octopus.modelingProps.get.propertiesWithoutDomainRange)
 
       assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
       val model = ModelStorage.get(octopus.lobsterID).get
