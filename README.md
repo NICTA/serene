@@ -389,7 +389,27 @@ Compute three metrics to compare a predicted SSD against the correct one
 curl -X POST \
   -H "Content-Type: application/json" \
   -d '{
-  }' \
+       "predictedSsd": {
+         "name": "businessInfo.csv",
+         "ontologies": [1],
+         "semanticModel": {
+           "nodes": [***],
+           "links": [***]
+         },
+         "mappings": [***]
+       },
+       "correctSsd": {
+         "name": "businessInfo.csv",
+         "ontologies": [1],
+         "semanticModel": {
+           "nodes": [***],
+           "links": [***]
+         },
+         "mappings": [***]
+       },
+       "ignoreSemanticTypes": true,
+       "ignoreColumnNodes": true
+      }' \
   localhost:8080/v1.0/octopus
 ```
 
