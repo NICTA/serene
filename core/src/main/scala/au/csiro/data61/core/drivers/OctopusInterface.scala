@@ -412,7 +412,9 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     Try {
       Ssd(id = genID,
         name = dataset.filename,
-        attributes = dataset.columns.map(_.id).map(SsdAttribute(_)),
+        attributes = dataset
+          .columns
+          .map(col => SsdAttribute(id = col.id, name = col.name)),
         ontology = octopus.ontologies,
         semanticModel = None,
         mappings = None,

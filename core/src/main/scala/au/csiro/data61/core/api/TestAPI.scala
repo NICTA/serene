@@ -17,8 +17,14 @@
   */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.types.{VersionMessage, StatusMessage}
+
+import au.csiro.data61.modeler.{EvaluateOctopus, EvaluationResult}
+import au.csiro.data61.types.Exceptions.ModelerException
+import au.csiro.data61.types._
 import io.finch._
+import io.finch.json4s.decodeJson
+
+import scala.util.{Failure, Success, Try}
 
 
 object TestAPI extends RestAPI {
@@ -31,5 +37,74 @@ object TestAPI extends RestAPI {
     Ok(VersionMessage(APIVersion))
   }
 
-  val endpoints = version :+: status
+  /**
+    * Evaluate a predicted SSD against the correct one.
+    * No particular octopus is required here.
+    * json body of the request:
+    * {
+        "predictedSsd": {
+          "name": "businessInfo.csv",
+          "ontologies": [1],
+          "semanticModel": {
+            "nodes": [***],
+            "links": [***]
+          },
+          "mappings": [***]
+        },
+        "correctSsd": {
+          "name": "businessInfo.csv",
+          "ontologies": [1],
+          "semanticModel": {
+            "nodes": [***],
+            "links": [***]
+          },
+          "mappings": [***]
+        },
+        "ignoreSemanticTypes": true,
+        "ignoreColumnNodes": true
+      }
+    */
+  val octopusEvaluate: Endpoint[EvaluationResult] = post(APIVersion :: "evaluate" :: jsonBody[EvaluationRequest]) {
+    (request: EvaluationRequest) =>
+      Try {
+        logger.debug("Requesting evaluation for semantic models...")
+        request.evaluate()
+      } match {
+        case Success(res)  =>
+          Ok(res)
+        case Failure(err: ModelerException) =>
+          InternalServerError(InternalException("Evaluation of semantic models failed."))
+        case Failure(err) =>
+          logger.error(s"Evaluation of two semantic models failed due to some unforseen reasons: ${err.getMessage}")
+          BadRequest(BadRequestException(err.getMessage))
+      }
+  }
+
+  val endpoints = version :+: status :+: octopusEvaluate
 }
+
+/**
+  * EvaluationRequest is the request specification to evaluate
+  * a particular predicted semantic model against the correct one.
+  *
+  * @param predictedSsd Ssd which was predicted by semantic modeler
+  * @param correctSsd Correct ssd
+  * @param ignoreSemanticTypes Boolean whether correctness of semantic types should be considered or just of the links
+  * @param ignoreColumnNodes Boolean to ignore data nodes of the semantic model
+  */
+case class EvaluationRequest(predictedSsd: SsdRequest,
+                             correctSsd: SsdRequest,
+                             ignoreSemanticTypes: Boolean = true,
+                             ignoreColumnNodes: Boolean = false)
+{
+  val dummyPredSsdId = 1
+  val dummyCorrectSsdId = 2
+
+  def evaluate(): EvaluationResult = {
+    EvaluateOctopus.evaluate(predictedSsd.toSsd(dummyPredSsdId),
+      correctSsd.toSsd(dummyCorrectSsdId),
+      ignoreSemanticTypes,
+      ignoreColumnNodes)
+  }
+}
+
