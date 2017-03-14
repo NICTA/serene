@@ -52,8 +52,8 @@ class TestAPISpec  extends FunSuite with JsonFormats {
   val ssdDir = getClass.getResource("/ssd").getPath
 
   def toSsdRequest(ssd: Ssd): SsdRequest = {
-    SsdRequest(name = ssd.name,
-      ontologies = ssd.ontology,
+    SsdRequest(name = Some(ssd.name),
+      ontologies = Some(ssd.ontology),
       mappings = ssd.mappings,
       semanticModel = ssd.semanticModel
     )

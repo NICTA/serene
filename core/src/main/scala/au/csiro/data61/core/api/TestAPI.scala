@@ -66,10 +66,8 @@ object TestAPI extends RestAPI {
     */
   val octopusEvaluate: Endpoint[EvaluationResult] = post(APIVersion :: "evaluate" :: jsonBody[EvaluationRequest]) {
     (request: EvaluationRequest) =>
-      Try {
-        logger.debug("Requesting evaluation for semantic models...")
-        request.evaluate()
-      } match {
+      logger.debug("Requesting evaluation for semantic models...")
+      request.evaluate() match {
         case Success(res)  =>
           Ok(res)
         case Failure(err: ModelerException) =>
@@ -100,11 +98,17 @@ case class EvaluationRequest(predictedSsd: SsdRequest,
   val dummyPredSsdId = 1
   val dummyCorrectSsdId = 2
 
-  def evaluate(): EvaluationResult = {
-    EvaluateOctopus.evaluate(predictedSsd.toSsd(dummyPredSsdId),
-      correctSsd.toSsd(dummyCorrectSsdId),
-      ignoreSemanticTypes,
-      ignoreColumnNodes)
+  def evaluate(): Try[EvaluationResult] = {
+    for {
+      predicted <- predictedSsd.toSsd(dummyPredSsdId)
+
+      correct <- correctSsd.toSsd(dummyCorrectSsdId)
+
+      eval = EvaluateOctopus.evaluate(predicted,
+        correct,
+        ignoreSemanticTypes,
+        ignoreColumnNodes)
+    } yield eval
   }
 }
 
