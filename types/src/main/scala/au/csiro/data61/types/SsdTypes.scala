@@ -313,6 +313,16 @@ object SsdAttribute {
     * @return SSDAttribute
     */
   def apply(id: ColumnID): SsdAttribute = SsdAttribute(id, "", "identity", List(id), "not implemented")
+
+  /**
+    * Create default identity attribute for a column.
+    * We do not have support for transformations currently -- left for future implementation.
+    *
+    * @param id id of the column
+    * @param name name of the column
+    * @return SSDAttribute
+    */
+  def apply(id: ColumnID, name: String): SsdAttribute = SsdAttribute(id, name, "identity", List(id), "not implemented")
 }
 
 case class SsdMapping(mappings: Map[Int,Int]) {
