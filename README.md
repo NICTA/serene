@@ -372,7 +372,7 @@ curl -X POST \
       "bagSize": 10
     }' \
          localhost:8080/v1.0/octopus
- extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging 
+  
 # Train octopus (async, includes training for the schema matcher model, use GET on octopus 98793874 to query state)
 curl -X POST localhost:8080/v1.0/octopus/98793874/train
 
@@ -381,6 +381,16 @@ curl -X DELETE  localhost:8080/v1.0/octopus/12341234
 
 # Suggest a list of semanctic models for a specific dataset 12341234 using octopus. Returns prediction JSON object
 curl -X POST localhost:8080/v1.0/octopus/98793874/predict/12341234
+```
+
+### Evaluation
+Compute three metrics to compare a predicted SSD against the correct one
+```
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+  }' \
+  localhost:8080/v1.0/octopus
 ```
 
 ## Tests
