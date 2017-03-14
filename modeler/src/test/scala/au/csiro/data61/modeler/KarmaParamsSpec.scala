@@ -51,7 +51,7 @@ class KarmaParamsSpec extends FunSuite with ModelerJsonFormats with BeforeAndAft
   def exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
   def exampleKarmaSSD: String = Paths.get(karmaDir,"businessInfo.csv.model.json") toString
   def exampleSM: String = Paths.get(ssdDir,"semantic_model_example.json") toString
-  def exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.owl") toString
+  def exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.ttl") toString
 
   val dummyOwlID = 1
   val dummySsdID = 1
