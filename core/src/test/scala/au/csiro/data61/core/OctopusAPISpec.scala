@@ -155,6 +155,11 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
         ("name" -> "prop-instances-per-class-in-knearestneighbours") ~
           ("num-neighbours" -> 5)))
 
+  def defaultModelingProps: JObject =
+    ("addOntologyPaths" -> "true") ~
+      ("topkSteinerTrees" -> 5)
+
+
 
   def randomString: String = Random.alphanumeric take 10 mkString
 
@@ -348,6 +353,53 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
           ("ssds" -> List(businessSsdID)) ~
           ("ontologies" -> List(exampleOwlID)) ~
           ("modelingProps" -> TestStr)
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+
+      val octopus = parse(response.contentString).extract[Octopus]
+      assert(octopus.description === TestStr)
+      assert(octopus.name === TestStr)
+      assert(octopus.state.status === Training.Status.UNTRAINED)
+      assert(octopus.ssds === List(businessSsdID))
+      assert(octopus.ontologies === List(exampleOwlID))
+
+      assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
+      val model = ModelStorage.get(octopus.lobsterID).get
+      assert(model.modelType === ModelType.RANDOM_FOREST)
+      assert(model.numBags === randomInt)
+      assert(model.bagSize === randomInt)
+      assert(model.state.status === Training.Status.UNTRAINED)
+      assert(model.resamplingStrategy === NO_RESAMPLING)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus wih modeling properties responds Ok")(new TestServer {
+    try {
+      val TestStr = randomString
+      val randomInt = genID
+      setUp()
+
+      val json =
+        ("description" -> TestStr) ~
+          ("name" -> TestStr) ~
+          ("modelType" -> "randomForest") ~
+          ("features" -> defaultFeatures) ~
+          ("resamplingStrategy" -> "NoResampling") ~
+          ("numBags" -> randomInt) ~
+          ("bagSize" -> randomInt) ~
+          ("ssds" -> List(businessSsdID)) ~
+          ("ontologies" -> List(exampleOwlID)) ~
+          ("modelingProps" -> defaultModelingProps)
 
       val request = postRequest(json)
 

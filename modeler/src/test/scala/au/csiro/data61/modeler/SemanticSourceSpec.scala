@@ -51,6 +51,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   def emptySSD: String = Paths.get(ssdDir,"empty_model.ssd") toString
   def exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
   def mapJson: String = Paths.get(ssdDir,"mappings_sample.json") toString
+  def testJson: String = Paths.get(ssdDir,"test.json") toString
 
   def dummyGraph: Graph[SsdNode, SsdLink] = {
     val ssdLab1: SsdLabel = SsdLabel("Person", "ClassNode")
@@ -255,4 +256,5 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
         fail(err.getMessage)
     }
   }
+
 }

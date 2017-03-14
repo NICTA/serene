@@ -53,7 +53,8 @@ object PredictOctopus extends LazyLogging {
 
     val karmaWrapper = KarmaParams(alignmentDir = alignmentDir,
       ontologies = ontologies,
-      None)
+      ModelerConfig.makeModelingProps(octopus.modelingProps)
+    )
 
     val problematicDsPreds = dsPredictions match {
       case Some(obj: DataSetPrediction) =>

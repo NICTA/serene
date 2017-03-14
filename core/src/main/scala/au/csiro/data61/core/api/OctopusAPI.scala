@@ -279,7 +279,7 @@ object OctopusAPI extends RestAPI {
 
       ontologies <- parseOption[List[Int]]("ontologies", raw)
 
-      modelingProperties <- parseOption[String]("modelingProps", raw)
+      modelingProperties <- parseOption[ModelingProperties]("modelingProps", raw)
 
       modelType <- parseOption[String]("modelType", raw)
         .map(_.map(
@@ -336,4 +336,4 @@ case class OctopusRequest(name: Option[String],
                           bagSize: Option[Int],
                           ontologies: Option[List[Int]],
                           ssds: Option[List[Int]],
-                          modelingProps: Option[String])
+                          modelingProps: Option[ModelingProperties])

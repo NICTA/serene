@@ -18,11 +18,11 @@
 package au.csiro.data61.modeler.karma
 
 import java.nio.file.{Files, Path, Paths, StandardCopyOption}
+import java.nio.charset.StandardCharsets
 
 import language.postfixOps
 import scala.collection.JavaConverters._
 import com.typesafe.scalalogging.LazyLogging
-
 import edu.isi.karma.webserver._
 import edu.isi.karma.config.{ModelingConfiguration, ModelingConfigurationRegistry}
 import edu.isi.karma.rep.{Workspace, WorkspaceManager}
@@ -32,17 +32,18 @@ import edu.isi.karma.metadata.OntologyMetadata
 import edu.isi.karma.rep.metadata.Tag
 import edu.isi.karma.rep.metadata.TagsContainer.{Color, TagName}
 import edu.isi.karma.modeling.alignment.{SemanticModel => KarmaSsd}
-
 import au.csiro.data61.types.{KarmaSemanticModel, TypeConfig}
 import au.csiro.data61.types.Exceptions._
 import au.csiro.data61.modeler.ModelerConfig
+
+import scala.util.{ Try, Success, Failure}
 
 
 /**
   * Class to initialize Karma tool.
   * @param alignmentDir Directory where the alignment graph is/will be stored
   * @param ontologies List of paths where ontologies are stored
-  * @param modelingProps Path where the file with modeling properties is located; optional
+  * @param modelingProps Sting which corresponds to Karma style of modeling properties; optional
   */
 case class KarmaParams(alignmentDir: String
                        , ontologies: List[String]
@@ -89,24 +90,52 @@ case class KarmaParams(alignmentDir: String
   }
 
   /**
+    * Write string to file.
+    * If force, file will be always overwritten.
+    * In other case it will only be written if it does not exist.
+    *
+    * @param karmaModelingProps String to be written
+    * @param karmaConfigDir Path to the file
+    * @param force Boolean
+    * @return
+    */
+  private def writeModelingProps(karmaModelingProps: String,
+                                 karmaConfigDir: Path,
+                                 force: Boolean = false) = {
+    Try {
+      val modelingPath = Paths.get(karmaConfigDir.toString, "modeling.properties")
+      if (force || !modelingPath.toFile.exists) {
+        Files.write(modelingPath, karmaModelingProps.getBytes(StandardCharsets.UTF_8))
+      }
+    } match {
+      case Success(_) =>
+        logger.debug("Modeling props successfully written to file.")
+      case Failure(err) =>
+        logger.error(s"Modeling props could not be written to file: ${err.getMessage}")
+        throw ModelerException("Modeling props could not be written to file")
+    }
+
+  }
+
+  /**
     * copy karma modeling properties from the resources of our project.
     * should we do that or always use default modeling props?
     */
   private def copyModelingProps() = {
-    val karmaConfigDir = Paths.get(karmaInitParams
+
+    val karmaConfigDir: Path = Paths.get(karmaInitParams
       .getOrElse(ContextParameter.USER_CONFIG_DIRECTORY,
         throw ModelerException("Karma config directory is not specified.")))
-    // TODO: check if modelingProps exists
+
     modelingProps match {
-      case Some(modelingFile: String) =>
+      case Some(modelingString: String) =>
         logger.debug("Copying user-specified karma modeling properties")
-        val d = Paths.get(karmaConfigDir.toString, Paths.get(modelingFile).getFileName.toString)
-        Files.copy(Paths.get(modelingFile), d, StandardCopyOption.REPLACE_EXISTING)
+        // in case modelingProps exist they will be overwritten
+        writeModelingProps(modelingString, karmaConfigDir, true)
       case _ =>
         logger.debug("Copying default karma modeling properties")
-        val karmaModeling = getClass.getResource("/modeling.properties").getPath
-        val d = Paths.get(karmaConfigDir.toString, Paths.get(karmaModeling).getFileName.toString)
-        Files.copy(Paths.get(karmaModeling), d, StandardCopyOption.REPLACE_EXISTING)
+        // in case modelingProps exist already nothing will be done
+        writeModelingProps(ModelerConfig.defaultModelingProps, karmaConfigDir, false)
     }
 
   }

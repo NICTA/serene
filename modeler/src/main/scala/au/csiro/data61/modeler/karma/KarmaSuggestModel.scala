@@ -424,7 +424,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
         newNode.setForced(true) // this way we ensure that this node is in Steiner tree
         modelToAlignmentNode.put(n, newNode)
       case _ =>
-        throw new Exception("Unkown node mapping found")
+        throw new Exception("Unknown node mapping found")
     }
   }
 

@@ -78,6 +78,7 @@ class TestAPISpec  extends FunSuite with JsonFormats {
   val predCitiesSSD: Ssd = readSSD(Paths.get(ssdDir,"predicted_cities.ssd").toString)
   val predCitiesSSD2: Ssd = readSSD(Paths.get(ssdDir,"predicted_cities2.ssd").toString)
   val emptySSD: Ssd = readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
+  val brokenJson: String = Paths.get(ssdDir,"test.json").toString
 
   def createEvaluationRequest(predictedSsd: Ssd,
                               correctSsd: Ssd,
@@ -192,4 +193,18 @@ class TestAPISpec  extends FunSuite with JsonFormats {
       assert(evalRes.recall === 1.0)
     } finally assertClose()
   })
+
+  test("Broken ssd"){
+    val ssdReq = Try {
+      val stream = new FileInputStream(Paths.get(brokenJson).toFile)
+      parse(stream).extract[SsdRequest]
+    } match {
+      case Success(ssd) =>
+        val conv = ssd.toSsd(1).get
+        assert(conv.isConsistent)
+        assert(conv.isComplete)
+      case Failure(err) =>
+        fail(err.getMessage)
+    }
+  }
 }

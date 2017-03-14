@@ -41,7 +41,8 @@ object TrainOctopus extends LazyLogging{
     Try {
       val karmaWrapper = KarmaParams(alignmentDir = alignmentDir.toString,
         ontologies = ontologies,
-        None)
+        ModelerConfig.makeModelingProps(octopus.modelingProps)
+      )
 
       val alignment = KarmaBuildAlignmentGraph(karmaWrapper).constructInitialAlignment(knownSSDs)
 
