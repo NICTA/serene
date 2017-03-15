@@ -20,33 +20,32 @@ package au.csiro.data61.core
 import java.io.FileInputStream
 import java.nio.file.Paths
 
-import au.csiro.data61.core.storage._
-import au.csiro.data61.types.SsdTypes._
-import au.csiro.data61.types._
-import api._
+import au.csiro.data61.core.api._
 import au.csiro.data61.core.drivers.Generic._
 import au.csiro.data61.core.drivers.{ModelInterface, OctopusInterface}
+import au.csiro.data61.core.storage._
 import au.csiro.data61.types.ModelTypes.Model
+import au.csiro.data61.types.ModelingProperties.ConfidenceWeightShouldBeInRange
 import au.csiro.data61.types.SamplingStrategy.{NO_RESAMPLING, RESAMPLE_TO_MEAN}
+import au.csiro.data61.types.SsdTypes._
+import au.csiro.data61.types._
+import com.twitter.finagle.http.{RequestBuilder, _}
+import com.twitter.io.Buf
+import com.twitter.util.Await
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
-import com.twitter.finagle.http.RequestBuilder
-import com.twitter.finagle.http._
-import com.twitter.io.Buf
-import com.twitter.util.Await
-
-import scala.concurrent._
-import org.scalatest.{BeforeAndAfterEach, FunSuite}
-
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.duration._
-import scala.annotation._
-import scala.util.{Failure, Random, Success, Try}
-import language.postfixOps
 import org.json4s.JsonDSL._
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
+import org.scalatest.{BeforeAndAfterEach, FunSuite}
+
+import scala.annotation._
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent._
+import scala.concurrent.duration._
+import scala.language.postfixOps
+import scala.util.{Failure, Random, Success, Try}
 
 
 /**
@@ -383,7 +382,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   })
 
-  test("POST /v1.0/octopus wih modeling properties responds Ok")(new TestServer {
+  test("POST /v1.0/octopus with modeling properties responds Ok")(new TestServer {
     try {
       val TestStr = randomString
       val randomInt = genID
@@ -444,6 +443,38 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       assert(model.bagSize === randomInt)
       assert(model.state.status === Training.Status.UNTRAINED)
       assert(model.resamplingStrategy === NO_RESAMPLING)
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus with invalid modeling properties responds BadRequest") (new TestServer {
+    try {
+      val TestStr = randomString
+      val randomInt = genID
+      val dummySeqInt = List(1, 2, 3)
+
+      val json =
+      ("description" -> TestStr) ~
+        ("name" -> "very fancy name here") ~
+        ("modelType" -> "randomForest") ~
+        ("features" -> defaultFeatures) ~
+        ("resamplingStrategy" -> "NoResampling") ~
+        ("numBags" -> randomInt) ~
+        ("bagSize" -> randomInt) ~
+        ("ssds" -> dummySeqInt) ~
+        ("ontologies" -> dummySeqInt) ~
+        ("modelingProps" -> ("confidenceWeight", 1.1))
+
+      val request = postRequest(json)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.BadRequest)
+      assert(response.contentString.contains(ConfidenceWeightShouldBeInRange.message))
 
     } finally {
       deleteOctopi()

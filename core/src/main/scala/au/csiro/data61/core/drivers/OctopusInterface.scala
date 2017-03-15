@@ -159,6 +159,11 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 //      throw BadRequestException("Missing references for octopus")
 //    }
 
+    val brokenRules = request.modelingProps.map(_.brokenRules).getOrElse(Nil)
+    if (brokenRules.nonEmpty) {
+      throw BadRequestException(brokenRules.mkString(" "))
+    }
+
     val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
 
     // we need first to create the schema matcher model
@@ -705,6 +710,11 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     * @return Case class object for JSON conversion
     */
   def updateOctopus(id: OctopusID, request: OctopusRequest): Octopus = {
+
+    val brokenRules = request.modelingProps.map(_.brokenRules).getOrElse(Nil)
+    if (brokenRules.nonEmpty) {
+      throw BadRequestException(brokenRules.mkString(" "))
+    }
 
     val (original, originalLobster) = getModels(id)
 
