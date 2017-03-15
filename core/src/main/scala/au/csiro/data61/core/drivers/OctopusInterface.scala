@@ -44,7 +44,7 @@ import scala.util.{Failure, Success, Try}
   */
 object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with LazyLogging {
 
-  val DefaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter --> move to modelingProps
+  val DefaultNumSemanticTypes = 4
 
   override val storage = OctopusStorage
 
@@ -387,7 +387,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
         SsdStorage.get(ssdID).get,
         dsPredictions,
         attrToColMap,
-        DefaultNumSemanticTypes)
+        getNumSemanticTypes(octopus.modelingProps))
         .getOrElse(throw InternalException(s"No SSD predictions are available for octopus $id."))
 
     } else {
@@ -396,6 +396,16 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       logger.error(msg)
       throw BadRequestException(msg)
     }
+  }
+
+  /**
+    * Get Number of semantic types which will be used to construct mappings.
+    *
+    * @param modelingProperties
+    * @return
+    */
+  private def getNumSemanticTypes(modelingProperties: Option[ModelingProperties]): Int = {
+    modelingProperties.map(_.numSemanticTypes).getOrElse(DefaultNumSemanticTypes)
   }
 
   /**
@@ -506,7 +516,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
           emptySsd,
           dsPredictions,
           attrToColMap,
-          DefaultNumSemanticTypes
+          getNumSemanticTypes(octopus.modelingProps)
         )
       } yield predOpt
 
