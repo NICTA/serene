@@ -33,6 +33,7 @@ import scalax.collection.Graph
 import scala.collection.JavaConverters._
 import scala.collection.immutable.ListMap
 import scala.language.postfixOps
+import scala.util.{ Try, Success, Failure }
 
 /**
   * Types to talk to Karma project
@@ -176,10 +177,12 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     * @return Tuple (namespace, value)
     */
   private def splitURI(uri: String): (String,String) = {
-    uri.split("#") match {
-      case Array(ns, value) => (ns + "#", value)
-      case _ =>
-        logger.debug(s"Not proper uri $uri")
+
+    Try { SsdTypes.splitURI(uri) } match {
+      case Success((label, namespace)) =>
+        (namespace, label)
+      case Failure(err) =>
+        logger.debug(s"Failed to process the URI $uri")
         ("", uri)
     }
   }
@@ -190,12 +193,15 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     * @param edge Karma representation of edge.
     * @return SSDLabel for the link
     */
-  private def getLabel(edge: LabeledLink): SsdLabel = {
+  private def getEdgeLabel(edge: LabeledLink): SsdLabel = {
+    logger.debug(s"---> link label: ${edge.getLabel.getUri}")
     val (ns, value) = splitURI(edge.getLabel.getUri)
-    SsdLabel(value,
-      edge.getType.toString,
-      edge.getStatus.toString,
-      ns) // TODO: should we check if namespace is proper? meaning it's present in prefixMap????
+    logger.debug(s"---> link split: $ns, $value")
+    SsdLabel(
+      label = value,
+      labelType = edge.getType.toString,
+      status = edge.getStatus.toString,
+      prefix = ns) // TODO: should we check if namespace is proper? meaning it's present in prefixMap????
   }
 
   /**
@@ -288,7 +294,8 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
         // we have to consider that when converting our representation to Karma.
         SsdLabel(value,
           "ClassNode", // TODO: can InternalNode be anything else than ClassNode?
-          nodeStatus, ns)
+          nodeStatus,
+          ns)
       case _ =>
         if (node.getLabel.getUri == "") {
           SsdLabel(node.getId,
@@ -314,7 +321,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
       .zipWithIndex
       .map {
         case (node, nodeID) =>
-          node.getId -> SsdNode(nodeID,getLabel(node))
+          node.getId -> SsdNode(nodeID, getLabel(node))
       } toMap
   }
 
@@ -324,12 +331,13 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     */
   def columnNodeMappings: Map[AttrID,NodeID] = {
     logger.debug("Calculating columnNodeMappings")
+    lazy val karmaMap = karmaNodeIdMap
     ListMap(graph.vertexSet.asScala
       .filter(_.isInstanceOf[ColumnNode])
       .map {
         node => {
           logger.debug(s"mapping ${node.getId}")
-          toNodeID(node) -> karmaNodeIdMap(node.getId).id
+          toNodeID(node) -> karmaMap(node.getId).id
         }
     }.toSeq.sortBy(_._1):_*)
   }
@@ -341,7 +349,8 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     */
   def toSemanticModel: SemanticModel = {
     logger.info("Converting Karma Graph to the Semantic Model...")
-    logger.debug(s"##################karmaNodeId: $karmaNodeIdMap")
+    lazy val karmaMap = karmaNodeIdMap
+    logger.debug(s"##################karmaNodeId: $karmaMap")
     // converting links
     val ssdLinks: List[SsdLink[SsdNode]] = graph.edgeSet.asScala
       .zipWithIndex
@@ -349,11 +358,11 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
         case (edge, linkID) =>
           logger.debug(s"*******Converting link $linkID")
           logger.debug(s"*******sourceNode ${edge.getSource.getId}")
-          val sourceNode: SsdNode = karmaNodeIdMap(edge.getSource.getId)
+          val sourceNode: SsdNode = karmaMap(edge.getSource.getId)
           logger.debug(s"*******targetNode ${edge.getTarget.getId}")
-          val targetNode: SsdNode = karmaNodeIdMap(edge.getTarget.getId)
+          val targetNode: SsdNode = karmaMap(edge.getTarget.getId)
 
-          SsdLink(sourceNode, targetNode, linkID, getLabel(edge))
+          SsdLink(sourceNode, targetNode, linkID, getEdgeLabel(edge))
       } toList
 
     logger.debug(s"##################Links add")

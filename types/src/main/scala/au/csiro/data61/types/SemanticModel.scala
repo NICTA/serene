@@ -57,7 +57,7 @@ case class SsdLabel(label: String,
                     labelType: String,
                     status: String = "ForcedByUser",
                     prefix: String = TypeConfig.DefaultNamespace) extends Ordered[SsdLabel]{
-  override def toString: String = s"($prefix$label, $labelType, $status)"
+  override def toString: String = s"($prefix, $label, $labelType, $status)"
 
   def getURI: String = s"$prefix$label"
 
@@ -310,7 +310,8 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     */
   def getHelperLinks: List[HelperLink] = graph.edges
     .map(e =>
-      HelperLink(e.id, e.from.id, e.to.id, e.ssdLabel.label, e.ssdLabel.labelType, e.ssdLabel.status)
+      HelperLink(id = e.id, source = e.from.id, target = e.to.id,
+        label = e.ssdLabel.label, lType = e.ssdLabel.labelType, status = e.ssdLabel.status, prefix = e.ssdLabel.prefix)
     ) toList
 
   /**

@@ -523,21 +523,18 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
   /**
     * Split URI into the namespace and the name of the resource (either class, or property)
- *
+    *
     * @param s String which corresponds to the URI
     * @return
     */
   protected def splitURI(s: String): (String, String) = {
-    val splitted = s.split("#")
-
-    if (splitted.length < 2){
-      logger.error(s"Failed to process the URI $s")
-      throw InternalException(s"Failed to process the URI $s")
+    Try { SsdTypes.splitURI(s) } match {
+      case Success((label, namespace)) =>
+        (label, namespace)
+      case Failure(err) =>
+        logger.error(s"Failed to process the URI $s")
+        throw InternalException(s"Failed to process the URI $s")
     }
-
-    // the first part is the name which will be later used in the schema matcher as the label
-    // the second part is the namespace
-    ( splitted.last, splitted.dropRight(1).mkString("#") + "#")
   }
 
   /**

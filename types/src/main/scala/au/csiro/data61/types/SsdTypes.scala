@@ -39,6 +39,47 @@ object SsdTypes {
   type OwlID = Int         // id of the owl
   type OctopusID = Int     // id for the alignment model
 
+
+  /**
+    * Split string into tuple by the symbol
+    * @param uri string
+    * @param symbol string character to be used as splitter
+    * @return
+    */
+  private def splitSignUri(uri: String, symbol: String): Option[(String,String)] = {
+    val splitted = uri.split(symbol)
+    if (splitted.length < 2){
+      None
+    } else {
+      // the first part is the name which will be later used as the label
+      // the second part is the namespace
+      Some(( splitted.last, splitted.dropRight(1).mkString(symbol) + symbol))
+    }
+  }
+
+  /**
+    * Helper function to split uri into namespace and value.
+    * Namespace in uris is what goes before "#" or "/".
+    * Value is what comes afterwards (e.g, name of class or name of property)
+    *
+    * @param uri string
+    * @return Tuple (value, namespace)
+    */
+  def splitURI(uri: String): (String,String) = {
+    // first we attempt to split on #
+    splitSignUri(uri, "#") match {
+      case Some((label, ns)) =>
+        (label, ns)
+      case None =>
+        // next try "/"
+        splitSignUri(uri, "/") match {
+          case Some((label2, ns2)) => (label2, ns2)
+          case None =>
+            throw TypeException(s"Failed to process the URI $uri")
+        }
+    }
+  }
+
   /**
     * Octopus is the data structure which encapsulates models for Schema Matcher and Semantic Modeler.
     * It contains configuration parameters to initialize training for Schema Matcher and Semantic Modeler.
