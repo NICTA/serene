@@ -236,8 +236,8 @@ case class Ssd(id: SsdID,
   /**
     * Convert Semantic Source Description to the Karma Semantic Model data structure.
     * We need the Karma ontology manager for this purpose.
-    * The ontology manager is initialized in the KarmaAPI.
- *
+    * The ontology manager is initialized in the KarmaParams.
+    *
     * @param ontoManager Karma ontology manager
     * @return
     */
@@ -258,7 +258,7 @@ case class Ssd(id: SsdID,
 /**
   * Column specification as indicated in .ssd files.
   * NOTE: different from Column in schema-matcher since we need it for proper JSON serialization of SSD.
- *
+  *
   * @param id Column ID
   * @param name Name of the column
   */
@@ -366,7 +366,7 @@ case object SsdMappingSerializer extends CustomSerializer[SsdMapping](
 
 /**
   * Information about column which is needed for the semantic modeller
- *
+  *
   * @param id ID of the column
   * @param index Ordinal placement of column in the source
   * @param path Path string for the source

@@ -35,7 +35,7 @@ object ModelerConfig extends LazyLogging {
   val KarmaDir = conf.getString("config.karma-dir")
 
   // default folder to store alignment graph
-  val DefaultAlignmenDir = Paths.get(ModelerConfig.KarmaDir, "alignment-graph/").toString
+  val DefaultAlignmenDir = Paths.get(KarmaDir, "alignment-graph/").toString
 
   logger.debug(s"Karma storage dir $KarmaDir")
 
