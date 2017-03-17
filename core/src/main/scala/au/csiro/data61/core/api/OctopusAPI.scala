@@ -61,7 +61,7 @@ object OctopusAPI extends RestAPI {
     ssds = List(0, 1, 2, 3),
     ontologies = List(),
     semanticTypeMap = Map.empty[String,String],
-    modelingProps = None,
+    modelingProps = ModelingProperties(),
     dateCreated = DateTime.now(),
     dateModified = DateTime.now(),
     state = TrainState(Status.COMPLETE, "ok", DateTime.now())

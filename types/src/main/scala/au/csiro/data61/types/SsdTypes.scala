@@ -34,7 +34,7 @@ import scala.language.postfixOps
 
 
 object SsdTypes {
-  type SsdID = Int // id of the SSD
+  type SsdID = Int         // id of the SSD
   type AttrID = Int        // id for the transformed column
   type OwlID = Int         // id of the owl
   type OctopusID = Int     // id for the alignment model
@@ -60,7 +60,7 @@ object SsdTypes {
                      ontologies: List[Int], // WARNING: Int should be OwlID! Json4s bug.
                      ssds: List[Int],       // WARNING: Int should be SsdID! Json4s bug.
                      lobsterID: ModelID,
-                     modelingProps: Option[ModelingProperties],
+                     modelingProps: ModelingProperties,
                      semanticTypeMap: Map[String,String],
                      state: Training.TrainState,
                      dateCreated: DateTime,
@@ -86,9 +86,7 @@ object SsdTypes {
   /**
     * Owl is a reference to the Owl file storage.
     *
-    * @param id The ID key for the OWL file storage.import au.csiro.data61.core.drivers.OctopusInterface$SemanticTypeObject
-import au.csiro.data61.core.drivers.OctopusInterface$SemanticTypeObject
-
+    * @param id The ID key for the OWL file.
     * @param name The name of the original uploaded OWL file.
     * @param format The format of the OWL file.
     * @param description The description of the OWL file.
@@ -136,14 +134,6 @@ case class Ssd(id: SsdID,
     * -- mappings: from existing attribute to existing node
     */
   def isConsistent: Boolean = {
-    // attributes contain columnIds which are available among columns -- we need to check this at the interface level now!
-//    val attrCheck =
-//    attributes.forall { attr =>
-//      attr.columnIds
-//        .forall(
-//          columns.map(_.id).contains
-//        )
-//    }
     // mappings refer to attributeIDs which are available among attributes
     val attrIdCheck: Boolean = mappings match {
       case Some(maps) => maps.mappings.keys
@@ -346,8 +336,9 @@ case object SsdMappingSerializer extends CustomSerializer[SsdMapping](
         }
 
         SsdMapping(
-          tuples.map(_.toList.sorted).map { case List(aID,nID) =>
-            (aID._2, nID._2)
+          tuples.map(_.toList.sorted).map {
+            case List(aID,nID) =>
+              (aID._2, nID._2)
           }.toMap
         )
     }, {
@@ -427,6 +418,7 @@ case class ModelingProperties(
     propertiesWithOnlyDomain: Boolean = true,
     propertiesWithOnlyRange: Boolean = true,
     propertiesWithoutDomainRange: Boolean = false) {
+
   def brokenRules(): List[String] =
     ModelingProperties.PropertyRules.filterNot(_.valid(this)).map(_.message)
 }
@@ -458,7 +450,7 @@ object ModelingProperties {
   }
 
   case object ConfidenceWeightShouldBeInRange extends PropertyRule {
-    override val message = "Property confidenceWeight should in range [0, 1]"
+    override val message = "Property confidenceWeight should be in range [0, 1]"
     override def valid(properties: ModelingProperties): Boolean =
       properties.confidenceWeight >= 0 && properties.confidenceWeight <= 1
   }

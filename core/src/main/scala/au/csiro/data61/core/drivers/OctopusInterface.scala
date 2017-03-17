@@ -100,20 +100,6 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     isOK getOrElse false
   }
 
-
-  /**
-    * Check existence of references (SSDs and Owls) for octopus.
-    * @param octopus OctopusRequest object
-    * @return
-    */
-  protected def checkOctopusRequest(octopus: OctopusRequest): Boolean = {
-
-    octopus.ssds.getOrElse(List.empty[Int]) // check existence of SSDs in SsdStorage
-      .forall(ssdID => SsdStorage.get(ssdID).isDefined) &&
-    octopus.ontologies.getOrElse(List.empty[Int]) // check existence of ontologies in OwlStorage
-      .forall(owlID => OwlStorage.get(owlID).isDefined)
-  }
-
   /**
     * Convert OctopusRequest to Octopus
     *
@@ -134,7 +120,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       ontologies = getOntologies(request.ssds, request.ontologies),
       ssds = request.ssds.getOrElse(List.empty[Int]),
       lobsterID = lobsterID,
-      modelingProps = request.modelingProps,
+      modelingProps = request.modelingProps.getOrElse(ModelingProperties()), // default will be created
       semanticTypeMap = semanticTypeMap,
       state = TrainState(Status.UNTRAINED, "", now),
       dateCreated = now,
@@ -154,10 +140,6 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
     val id = genID
 
-//    if (!checkOctopusRequest(request)) {
-//      logger.error("Missing references for octopus")
-//      throw BadRequestException("Missing references for octopus")
-//    }
 
     val brokenRules = request.modelingProps.map(_.brokenRules).getOrElse(Nil)
     if (brokenRules.nonEmpty) {
@@ -409,8 +391,9 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     * @param modelingProperties
     * @return
     */
-  private def getNumSemanticTypes(modelingProperties: Option[ModelingProperties]): Int = {
-    modelingProperties.map(_.numSemanticTypes).getOrElse(DefaultNumSemanticTypes)
+  private def getNumSemanticTypes(modelingProperties: ModelingProperties): Int = {
+//    modelingProperties.map(_.numSemanticTypes).getOrElse(DefaultNumSemanticTypes)
+    modelingProperties.numSemanticTypes
   }
 
   /**
@@ -713,6 +696,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
     val brokenRules = request.modelingProps.map(_.brokenRules).getOrElse(Nil)
     if (brokenRules.nonEmpty) {
+      logger.warn(s"Rules are broken for octopus update: ${brokenRules.mkString(" ")}")
       throw BadRequestException(brokenRules.mkString(" "))
     }
 
@@ -733,7 +717,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
           lobsterID = original.lobsterID,
           description = request.description.getOrElse(original.description),
           name = request.name.getOrElse(original.name),
-          modelingProps = request.modelingProps, // TODO: Remove option type!! in case it's None semantic-modeler uses default config for Karma; for now default config is available only in semantic-modeler
+          modelingProps = request.modelingProps.getOrElse(original.modelingProps),
           ssds = ssds,
           ontologies = request.ontologies.getOrElse(original.ontologies),
           semanticTypeMap = semanticTypeMap,

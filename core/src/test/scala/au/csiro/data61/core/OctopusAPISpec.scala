@@ -154,7 +154,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
         ("name" -> "prop-instances-per-class-in-knearestneighbours") ~
           ("num-neighbours" -> 5)))
 
-  def defaultModelingProps: JObject =
+  def someModelingProps: JObject =
     ("addOntologyPaths" -> true) ~
       ("topkSteinerTrees" -> 5)
 
@@ -398,7 +398,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
           ("bagSize" -> randomInt) ~
           ("ssds" -> List(businessSsdID)) ~
           ("ontologies" -> List(exampleOwlID)) ~
-          ("modelingProps" -> defaultModelingProps)
+          ("modelingProps" -> someModelingProps)
 
       val request = postRequest(json)
 
@@ -415,26 +415,25 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       assert(octopus.ssds === List(businessSsdID))
       assert(octopus.ontologies === List(exampleOwlID))
       // check modeling properties
-      assert(octopus.modelingProps.isDefined)
-      assert(octopus.modelingProps.get.addOntologyPaths)
-      assert(octopus.modelingProps.get.topkSteinerTrees === 5)
-      assert(octopus.modelingProps.get.compatibleProperties)
-      assert(!octopus.modelingProps.get.ontologyAlignment)
-      assert(octopus.modelingProps.get.mappingBranchingFactor === 50)
-      assert(octopus.modelingProps.get.numCandidateMappings === 10)
-      assert(!octopus.modelingProps.get.multipleSameProperty)
-      assert(octopus.modelingProps.get.confidenceWeight === 1.0)
-      assert(octopus.modelingProps.get.coherenceWeight === 1.0)
-      assert(octopus.modelingProps.get.sizeWeight === 1.0)
-      assert(octopus.modelingProps.get.numSemanticTypes === 4)
-      assert(!octopus.modelingProps.get.thingNode)
-      assert(octopus.modelingProps.get.nodeClosure)
-      assert(octopus.modelingProps.get.propertiesDirect)
-      assert(octopus.modelingProps.get.propertiesIndirect)
-      assert(octopus.modelingProps.get.propertiesSubclass)
-      assert(octopus.modelingProps.get.propertiesWithOnlyDomain)
-      assert(octopus.modelingProps.get.propertiesWithOnlyRange)
-      assert(!octopus.modelingProps.get.propertiesWithoutDomainRange)
+      assert(octopus.modelingProps.addOntologyPaths)
+      assert(octopus.modelingProps.topkSteinerTrees === 5)
+      assert(octopus.modelingProps.compatibleProperties)
+      assert(!octopus.modelingProps.ontologyAlignment)
+      assert(octopus.modelingProps.mappingBranchingFactor === 50)
+      assert(octopus.modelingProps.numCandidateMappings === 10)
+      assert(!octopus.modelingProps.multipleSameProperty)
+      assert(octopus.modelingProps.confidenceWeight === 1.0)
+      assert(octopus.modelingProps.coherenceWeight === 1.0)
+      assert(octopus.modelingProps.sizeWeight === 1.0)
+      assert(octopus.modelingProps.numSemanticTypes === 4)
+      assert(!octopus.modelingProps.thingNode)
+      assert(octopus.modelingProps.nodeClosure)
+      assert(octopus.modelingProps.propertiesDirect)
+      assert(octopus.modelingProps.propertiesIndirect)
+      assert(octopus.modelingProps.propertiesSubclass)
+      assert(octopus.modelingProps.propertiesWithOnlyDomain)
+      assert(octopus.modelingProps.propertiesWithOnlyRange)
+      assert(!octopus.modelingProps.propertiesWithoutDomainRange)
 
       assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
       val model = ModelStorage.get(octopus.lobsterID).get
@@ -547,7 +546,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       assert(octopus.state.status === Training.Status.UNTRAINED)
       assert(octopus.ssds === List(businessSsdID))
       assert(octopus.ontologies === List(exampleOwlID))
-      assert(octopus.modelingProps.isEmpty)
+      assert(octopus.modelingProps === ModelingProperties())
 
       assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
       val model = ModelStorage.get(octopus.lobsterID).get
