@@ -231,7 +231,7 @@ object OctopusAPI extends RestAPI {
         case Failure(err: InternalException) =>
           InternalServerError(err)
         case Failure(err) =>
-          logger.debug(s"Some other problem with deleting octopus $id: ${err.getMessage}")
+          logger.error(s"Some other problem with deleting octopus $id: ${err.getMessage}")
           InternalServerError(InternalException(s"Failed to delete octopus."))
       }
   }
