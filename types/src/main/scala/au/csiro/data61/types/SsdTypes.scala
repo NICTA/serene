@@ -17,8 +17,6 @@
   */
 package au.csiro.data61.types
 
-import java.nio.file.Path
-
 import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.DataSetTypes.DataSetID
 import au.csiro.data61.types.Exceptions.TypeException
@@ -88,7 +86,9 @@ object SsdTypes {
   /**
     * Owl is a reference to the Owl file storage.
     *
-    * @param id The ID key for the OWL file storage.
+    * @param id The ID key for the OWL file storage.import au.csiro.data61.core.drivers.OctopusInterface$SemanticTypeObject
+import au.csiro.data61.core.drivers.OctopusInterface$SemanticTypeObject
+
     * @param name The name of the original uploaded OWL file.
     * @param format The format of the OWL file.
     * @param description The description of the OWL file.
@@ -407,23 +407,77 @@ case class ColumnDesc(id: ColumnID,
   * @param propertiesWithOnlyRange
   * @param propertiesWithoutDomainRange
   */
-case class ModelingProperties(compatibleProperties: Boolean = true,
-                              ontologyAlignment: Boolean = false,
-                              addOntologyPaths: Boolean = false,
-                              mappingBranchingFactor: Int = 50,
-                              numCandidateMappings: Int = 10,
-                              topkSteinerTrees: Int = 10,
-                              multipleSameProperty: Boolean = false,
-                              confidenceWeight: Double = 1.0,
-                              coherenceWeight: Double = 1.0,
-                              sizeWeight: Double = 1.0,
-                              numSemanticTypes: Int = 4,
-                              thingNode: Boolean = false,
-                              nodeClosure: Boolean = true,
-                              propertiesDirect: Boolean = true,
-                              propertiesIndirect: Boolean = true,
-                              propertiesSubclass: Boolean = true,
-                              propertiesWithOnlyDomain: Boolean = true,
-                              propertiesWithOnlyRange: Boolean = true,
-                              propertiesWithoutDomainRange: Boolean = false
-                             )
+case class ModelingProperties(
+    compatibleProperties: Boolean = true,
+    ontologyAlignment: Boolean = false,
+    addOntologyPaths: Boolean = false,
+    mappingBranchingFactor: Int = 50,
+    numCandidateMappings: Int = 10,
+    topkSteinerTrees: Int = 10,
+    multipleSameProperty: Boolean = false,
+    confidenceWeight: Double = 1.0,
+    coherenceWeight: Double = 1.0,
+    sizeWeight: Double = 1.0,
+    numSemanticTypes: Int = 4,
+    thingNode: Boolean = false,
+    nodeClosure: Boolean = true,
+    propertiesDirect: Boolean = true,
+    propertiesIndirect: Boolean = true,
+    propertiesSubclass: Boolean = true,
+    propertiesWithOnlyDomain: Boolean = true,
+    propertiesWithOnlyRange: Boolean = true,
+    propertiesWithoutDomainRange: Boolean = false) {
+  def brokenRules(): List[String] =
+    ModelingProperties.PropertyRules.filterNot(_.valid(this)).map(_.message)
+}
+
+object ModelingProperties {
+  trait PropertyRule {
+    val message: String
+    def valid(properties: ModelingProperties): Boolean
+  }
+
+  case object MappingBranchingFactorShouldBePositive extends PropertyRule {
+    override val message = "Property mappingBranchingFactor should be positive."
+    override def valid(properties: ModelingProperties): Boolean = properties.mappingBranchingFactor > 0
+  }
+
+  case object NumCandidateMappingsShouldBePositive extends PropertyRule {
+    override val message = "Property numCandidateMappings should be positive."
+    override def valid(properties: ModelingProperties): Boolean = properties.numCandidateMappings > 0
+  }
+
+  case object TopKSteinerTreesShouldBePositive extends PropertyRule {
+    override val message = "Property topkSteinerTrees should be positive."
+    override def valid(properties: ModelingProperties): Boolean = properties.topkSteinerTrees > 0
+  }
+
+  case object NumSemanticTypesShouldBePositive extends PropertyRule {
+    override val message = "Property numSemantic should be positive."
+    override def valid(properties: ModelingProperties): Boolean = properties.numSemanticTypes > 0
+  }
+
+  case object ConfidenceWeightShouldBeInRange extends PropertyRule {
+    override val message = "Property confidenceWeight should in range [0, 1]"
+    override def valid(properties: ModelingProperties): Boolean =
+      properties.confidenceWeight >= 0 && properties.confidenceWeight <= 1
+  }
+
+  case object CoherenceWeightShouldBeInRange extends PropertyRule {
+    override val message = "Property coherenceWeight should be in range [0, 1]"
+    override def valid(properties: ModelingProperties): Boolean =
+      properties.coherenceWeight >= 0 && properties.coherenceWeight <= 1
+  }
+
+  case object SizeWeightShouldBeInRange extends PropertyRule {
+    override val message = "Property sizeWeight should be in range [0, 1]"
+    override def valid(properties: ModelingProperties): Boolean =
+      properties.sizeWeight >= 0 && properties.sizeWeight <= 1
+  }
+
+  val PropertyRules: List[PropertyRule] = List(
+    NumSemanticTypesShouldBePositive,
+    ConfidenceWeightShouldBeInRange,
+    CoherenceWeightShouldBeInRange,
+    SizeWeightShouldBeInRange)
+}
