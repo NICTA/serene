@@ -139,7 +139,7 @@ class SsdAPISpec extends FunSuite with JsonFormats {
 
       ssd should have (
         'name (request.name.get),
-        'ontology (request.ontologies.get),
+        'ontologies (request.ontologies.get),
         'semanticModel (request.semanticModel),
         'mappings (request.mappings)
       )
@@ -223,7 +223,7 @@ class SsdAPISpec extends FunSuite with JsonFormats {
         'id (createdSsd.id),
         'name (updatedName),
         'attributes (createdSsd.attributes),
-        'ontology (createdSsd.ontologies),
+        'ontologies (createdSsd.ontologies),
         'semanticModel (createdSsd.semanticModel),
         'mappings (createdSsd.mappings),
         'dateCreated (createdSsd.dateCreated)
