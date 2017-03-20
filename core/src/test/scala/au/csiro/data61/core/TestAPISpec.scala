@@ -53,7 +53,7 @@ class TestAPISpec  extends FunSuite with JsonFormats {
 
   def toSsdRequest(ssd: Ssd): SsdRequest = {
     SsdRequest(name = Some(ssd.name),
-      ontologies = Some(ssd.ontology),
+      ontologies = Some(ssd.ontologies),
       mappings = ssd.mappings,
       semanticModel = ssd.semanticModel
     )

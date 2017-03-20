@@ -223,7 +223,7 @@ class SsdAPISpec extends FunSuite with JsonFormats {
         'id (createdSsd.id),
         'name (updatedName),
         'attributes (createdSsd.attributes),
-        'ontology (createdSsd.ontology),
+        'ontology (createdSsd.ontologies),
         'semanticModel (createdSsd.semanticModel),
         'mappings (createdSsd.mappings),
         'dateCreated (createdSsd.dateCreated)

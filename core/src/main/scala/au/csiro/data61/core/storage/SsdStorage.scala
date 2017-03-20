@@ -77,7 +77,7 @@ object SsdStorage extends Storage[SsdID, Ssd] {
     val columnCheck = ssd.attributes
       .forall(attr => DatasetStorage.columnMap.keySet.contains(attr.id))
     // make sure that referenced ontologies exist in OwlStorage
-    val owlCheck = ssd.ontology.forall(OwlStorage.keys.toSet.contains)
+    val owlCheck = ssd.ontologies.forall(OwlStorage.keys.toSet.contains)
     // make sure the semantic model is complete
     val isComplete = ssd.isComplete
 

@@ -115,7 +115,7 @@ object SsdTypes {
   * @param id ID of the dataset
   * @param name Name of the dataset
   * @param attributes List of attributes = transformed columns
-  * @param ontology List of location path strings of ontologies
+  * @param ontologies List of location path strings of ontologies
   * @param semanticModel Semantic Model of the data source; optional
   * @param mappings Mappings between attribute ids of the data source and node ids in the semantic model; optional
   * @param dateCreated Date when it was created
@@ -124,7 +124,7 @@ object SsdTypes {
 case class Ssd(id: SsdID,
                name: String,
                attributes: List[SsdAttribute],
-               ontology: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
+               ontologies: List[Int], // Int=OwlID ==> we have to use Int due to JSON bug
                semanticModel: Option[SemanticModel],
                mappings: Option[SsdMapping],
                dateCreated: DateTime,

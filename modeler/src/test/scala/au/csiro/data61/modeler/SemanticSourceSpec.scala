@@ -85,6 +85,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
 
   /**
     * Get the list of ssd links from the semantic source description
+ *
     * @param ssd Semantic Source Description
     * @return
     */
@@ -113,7 +114,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr),
-      ontology = List(1),
+      ontologies = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
       mappings = Some(dummyMap),
       dateCreated = DateTime.now,
@@ -144,7 +145,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr),
-      ontology = List(1),
+      ontologies = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
       mappings = Some(dummyMap2),
       dateCreated = DateTime.now,
@@ -159,7 +160,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr),
-      ontology = List(1),
+      ontologies = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
       mappings = Some(dummyMap3),
       dateCreated = DateTime.now,
@@ -174,7 +175,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr),
-      ontology = List(1),
+      ontologies = List(1),
       semanticModel = Some(SemanticModel(Graph())), // semantic model is absent while mappings are there
       mappings = Some(dummyMap),
       dateCreated = DateTime.now,
@@ -189,7 +190,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
       name = "test",
       id = dummySsdID,
       attributes = List(dummyAttr),
-      ontology = List(1),
+      ontologies = List(1),
       semanticModel = Some(SemanticModel(dummyGraph)),
       mappings = Some(dummyMap),
       dateCreated = DateTime.now,
@@ -199,7 +200,7 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
 
     assert(ssd.mappings === ssd2.mappings)
     assert(ssd.attributes === ssd2.attributes)
-    assert(ssd.ontology === ssd2.ontology)
+    assert(ssd.ontologies === ssd2.ontologies)
     assert(getSMNodes(ssd) === getSMNodes(ssd2))
     assert(getSMLinks(ssd) === getSMLinks(ssd2))
     assert(ssd.semanticModel === ssd2.semanticModel)

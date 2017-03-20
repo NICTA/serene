@@ -103,6 +103,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
   /**
     * Check existence of references (SSDs and Owls) for octopus.
+ *
     * @param octopus OctopusRequest object
     * @return
     */
@@ -414,7 +415,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
         attributes = dataset
           .columns
           .map(col => SsdAttribute(id = col.id, name = col.name)),
-        ontology = octopus.ontologies,
+        ontologies = octopus.ontologies,
         semanticModel = None,
         mappings = None,
         dateCreated = DateTime.now,
@@ -430,7 +431,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     * @return
     */
   protected def convertSsd(ssd: Ssd): SsdRequest = {
-    SsdRequest(Some(ssd.name), Some(ssd.ontology), ssd.semanticModel, ssd.mappings)
+    SsdRequest(Some(ssd.name), Some(ssd.ontologies), ssd.semanticModel, ssd.mappings)
   }
 
   /**
@@ -643,7 +644,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     val ssdOntologies: List[Int] = ssds
       .getOrElse(List.empty[Int])
       .flatMap(SsdStorage.get)
-      .flatMap(_.ontology)
+      .flatMap(_.ontologies)
 
     (ssdOntologies ++ ontologies.getOrElse(List.empty[Int])).distinct
   }

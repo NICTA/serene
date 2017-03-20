@@ -39,7 +39,7 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
     val colIDs: List[ColumnID] = presentColIds.filterNot(DatasetStorage.columnMap.keys.toSet.contains)
 
     // missing owls
-    val owlIDs: List[OwlID] = resource.ontology.filterNot(OwlStorage.keys.toSet.contains)
+    val owlIDs: List[OwlID] = resource.ontologies.filterNot(OwlStorage.keys.toSet.contains)
 
     StorageDependencyMap(owl = owlIDs, column = colIDs)
   }
@@ -88,6 +88,7 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
 
   /**
     * Updates an SSD.
+ *
     * @param id The SSD ID.
     * @param request The SSD update request.
     * @return The updated SSD if successful. Otherwise the exception that caused the failure.
@@ -97,7 +98,7 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
       case Some(originalSsd) =>
         val checkedRequest = SsdRequest(
           name = request.name.orElse(Option(originalSsd.name)),
-          ontologies = request.ontologies.orElse(Option(originalSsd.ontology)),
+          ontologies = request.ontologies.orElse(Option(originalSsd.ontologies)),
           semanticModel = request.semanticModel.orElse(originalSsd.semanticModel),
           mappings = request.mappings.orElse(originalSsd.mappings)
         )

@@ -434,7 +434,7 @@ case class KarmaSemanticModel(karmaModel: KarmaSSD) extends LazyLogging {
       name = karmaModel.getName,
       id = newID,
       attributes = ssdAttributes(tableName),
-      ontology = ontologies, // here we create instance of KarmaParams...
+      ontologies = ontologies, // here we create instance of KarmaParams...
       semanticModel = Some(karmaSM.toSemanticModel),
       mappings = Some(SsdMapping(karmaSM.columnNodeMappings)),
       dateCreated = DateTime.now,

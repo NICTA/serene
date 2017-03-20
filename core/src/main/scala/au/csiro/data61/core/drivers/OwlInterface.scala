@@ -45,7 +45,7 @@ object OwlInterface extends StorageInterface[OwlKey, Owl] with LazyLogging {
     // SSDs which refer to this ontology
     val ssdRefIds: List[SsdID] = SsdStorage.keys
       .flatMap(SsdStorage.get)
-      .map(x => (x.id, x.ontology.toSet))
+      .map(x => (x.id, x.ontologies.toSet))
       .filter(_._2.contains(resource.id))
       .map(_._1)
 

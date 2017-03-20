@@ -48,7 +48,7 @@ object SsdAPI extends RestAPI {
     attributes = List(
       SsdAttribute(1) // this is a dummy attribute created using the specified ColumnId
     ),
-    ontology = List(1, 2, 3),
+    ontologies = List(1, 2, 3),
     semanticModel = None,
     mappings = None,
     dateCreated = DateTime.now(),
@@ -205,7 +205,7 @@ case class SsdRequest(
     Ssd(ssdID,
       name = name.get,
       attributes = ssdAttributes,
-      ontology = ontologies.get,
+      ontologies = ontologies.get,
       semanticModel = semanticModel,
       mappings = mappings,
       dateCreated = now,
@@ -216,6 +216,7 @@ case class SsdRequest(
 
 /**
   * Return type to user from the API when performing Octopus prediction
+ *
   * @param predictions Ordered list of predictions
   */
 case class SsdResults(predictions: List[(SsdRequest, SemanticScores)])
