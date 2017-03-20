@@ -61,7 +61,7 @@ object OctopusAPI extends RestAPI {
     ssds = List(0, 1, 2, 3),
     ontologies = List(),
     semanticTypeMap = Map.empty[String,String],
-    modelingProps = None,
+    modelingProps = ModelingProperties(),
     dateCreated = DateTime.now(),
     dateModified = DateTime.now(),
     state = TrainState(Status.COMPLETE, "ok", DateTime.now())
@@ -231,7 +231,7 @@ object OctopusAPI extends RestAPI {
         case Failure(err: InternalException) =>
           InternalServerError(err)
         case Failure(err) =>
-          logger.debug(s"Some other problem with deleting octopus $id: ${err.getMessage}")
+          logger.error(s"Some other problem with deleting octopus $id: ${err.getMessage}")
           InternalServerError(InternalException(s"Failed to delete octopus."))
       }
   }

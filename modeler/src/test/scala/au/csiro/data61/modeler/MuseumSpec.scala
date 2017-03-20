@@ -177,12 +177,39 @@ class MuseumSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEac
     val ontologyNames = Paths.get(karmaDir, "museum", "museum-29-edm", "preloaded-ontologies")
       .toFile.listFiles.map(_.getName).zipWithIndex.map(x => (x._2,x._1)).toMap
 
+//    val conv = KarmaSemanticModel(semanticModels.head).toSSD(newID = genID,
+//      ontologies = ontologyNames.keys.toList)
+//
+//    assert(conv.semanticModel.get.getNodes
+//      .filter(_.ssdLabel.labelType == "ClassNode")
+//      .forall(_.ssdLabel.prefix.nonEmpty)
+//    )
+//
+//    assert(conv.semanticModel.get.getHelperLinks.forall(_.prefix.nonEmpty))
+//    assert(conv.semanticModel.get.getHelperLinks.map(_.prefix).distinct.size > 1)
+
     val convertedSemModels: Array[Ssd] = semanticModels.map(x =>
       KarmaSemanticModel(x).toSSD(newID = genID,
         ontologies = ontologyNames.keys.toList))
 
+    assert(convertedSemModels.forall(_.semanticModel.isDefined))
+
+    assert(convertedSemModels.flatMap(_.semanticModel)
+      .flatMap(_.getNodes)
+      .filter(_.ssdLabel.labelType == "ClassNode")
+      .forall(_.ssdLabel.prefix.nonEmpty)
+    )
+
+    assert(convertedSemModels.flatMap(_.semanticModel)
+      .flatMap(_.getHelperLinks).forall(_.prefix.nonEmpty))
+    assert(convertedSemModels.flatMap(_.semanticModel)
+      .flatMap(_.getHelperLinks).map(_.prefix).distinct.length > 1)
+
     val path = Paths.get(karmaDir, "museum", "museum-29-edm", "conversion")
     convertedSemModels.foreach(sm => writeToFile(path, sm))
+
+    convertedSemModels.flatMap(_.semanticModel)
+      .flatMap(_.getHelperLinks).map(_.lType).distinct.foreach(println)
 
   }
 }

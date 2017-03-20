@@ -13,35 +13,6 @@ on Debian linux
 sudo apt-get install sbt
 ```
 
-For the semantic modelling part 3 [Karma](http://github.com/usc-isi-i2/Web-Karma) java libraries need to be available:
-- karma-common;
-- karma-typer;
-- karma-util.
-
-Certain changes have been made to the original Karma code:
-
-1) Make the following methods public: SortableSemanticModel.steinerNodes.getSizeReduction.
-
-2) Add method ModelLearningGraph.setLastUpdateTime:
-```
-public void setLastUpdateTime(long newTime) {
-		this.lastUpdateTime = newTime;
-	}
-```
-
-3) Add `DINT` to Karma origin of semantic types:
-```
-public enum Origin {
-		AutoModel, User, CRFModel, TfIdfModel, RFModel, DINT
-	}
-```
-
-4) Add two more parameters to the method in GraphBuilder.java:
-```
-private void updateLinkCountMap(DefaultLink link, Node source, Node target)
-```
-
-
 ## Installation
 You can build the library with
 ```
@@ -436,3 +407,34 @@ sbt serene-core/test serene-core/coverageReport
 ```
 
 This will generate an HTML report at ```core/target/scala-2.11/scoverage-report/index.html```
+
+
+## Notes
+
+For the semantic modelling part 3 [Karma](http://github.com/usc-isi-i2/Web-Karma) java libraries need to be available:
+- karma-common;
+- karma-typer;
+- karma-util.
+
+Certain changes have been made to the original Karma code:
+
+1) Make the following methods public: SortableSemanticModel.steinerNodes.getSizeReduction.
+
+2) Add method ModelLearningGraph.setLastUpdateTime:
+```
+public void setLastUpdateTime(long newTime) {
+		this.lastUpdateTime = newTime;
+	}
+```
+
+3) Add `DINT` to Karma origin of semantic types:
+```
+public enum Origin {
+		AutoModel, User, CRFModel, TfIdfModel, RFModel, DINT
+	}
+```
+
+4) Add two more parameters to the method in GraphBuilder.java:
+```
+private void updateLinkCountMap(DefaultLink link, Node source, Node target)
+```

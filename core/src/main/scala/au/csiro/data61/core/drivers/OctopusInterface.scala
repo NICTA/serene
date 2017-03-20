@@ -44,7 +44,7 @@ import scala.util.{Failure, Success, Try}
   */
 object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with LazyLogging {
 
-  val DefaultNumSemanticTypes = 4 // TODO: make it a user-provided parameter --> move to modelingProps
+  val DefaultNumSemanticTypes = 4
 
   override val storage = OctopusStorage
 
@@ -100,21 +100,6 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     isOK getOrElse false
   }
 
-
-  /**
-    * Check existence of references (SSDs and Owls) for octopus.
- *
-    * @param octopus OctopusRequest object
-    * @return
-    */
-  protected def checkOctopusRequest(octopus: OctopusRequest): Boolean = {
-
-    octopus.ssds.getOrElse(List.empty[Int]) // check existence of SSDs in SsdStorage
-      .forall(ssdID => SsdStorage.get(ssdID).isDefined) &&
-    octopus.ontologies.getOrElse(List.empty[Int]) // check existence of ontologies in OwlStorage
-      .forall(owlID => OwlStorage.get(owlID).isDefined)
-  }
-
   /**
     * Convert OctopusRequest to Octopus
     *
@@ -135,7 +120,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       ontologies = getOntologies(request.ssds, request.ontologies),
       ssds = request.ssds.getOrElse(List.empty[Int]),
       lobsterID = lobsterID,
-      modelingProps = request.modelingProps,
+      modelingProps = request.modelingProps.getOrElse(ModelingProperties()), // default will be created
       semanticTypeMap = semanticTypeMap,
       state = TrainState(Status.UNTRAINED, "", now),
       dateCreated = now,
@@ -155,10 +140,11 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
     val id = genID
 
-//    if (!checkOctopusRequest(request)) {
-//      logger.error("Missing references for octopus")
-//      throw BadRequestException("Missing references for octopus")
-//    }
+
+    val brokenRules = request.modelingProps.map(_.brokenRules).getOrElse(Nil)
+    if (brokenRules.nonEmpty) {
+      throw BadRequestException(brokenRules.mkString(" "))
+    }
 
     val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
 
@@ -388,7 +374,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
         SsdStorage.get(ssdID).get,
         dsPredictions,
         attrToColMap,
-        DefaultNumSemanticTypes)
+        getNumSemanticTypes(octopus.modelingProps))
         .getOrElse(throw InternalException(s"No SSD predictions are available for octopus $id."))
 
     } else {
@@ -397,6 +383,17 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       logger.error(msg)
       throw BadRequestException(msg)
     }
+  }
+
+  /**
+    * Get Number of semantic types which will be used to construct mappings.
+    *
+    * @param modelingProperties
+    * @return
+    */
+  private def getNumSemanticTypes(modelingProperties: ModelingProperties): Int = {
+//    modelingProperties.map(_.numSemanticTypes).getOrElse(DefaultNumSemanticTypes)
+    modelingProperties.numSemanticTypes
   }
 
   /**
@@ -507,7 +504,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
           emptySsd,
           dsPredictions,
           attrToColMap,
-          DefaultNumSemanticTypes
+          getNumSemanticTypes(octopus.modelingProps)
         )
       } yield predOpt
 
@@ -526,21 +523,18 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
   /**
     * Split URI into the namespace and the name of the resource (either class, or property)
- *
+    *
     * @param s String which corresponds to the URI
     * @return
     */
   protected def splitURI(s: String): (String, String) = {
-    val splitted = s.split("#")
-
-    if (splitted.length < 2){
-      logger.error(s"Failed to process the URI $s")
-      throw InternalException(s"Failed to process the URI $s")
+    Try { SsdTypes.splitURI(s) } match {
+      case Success((label, namespace)) =>
+        (label, namespace)
+      case Failure(err) =>
+        logger.error(s"Failed to process the URI $s")
+        throw InternalException(s"Failed to process the URI $s")
     }
-
-    // the first part is the name which will be later used in the schema matcher as the label
-    // the second part is the namespace
-    ( splitted.last, splitted.dropRight(1).mkString("#") + "#")
   }
 
   /**
@@ -697,6 +691,12 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     */
   def updateOctopus(id: OctopusID, request: OctopusRequest): Octopus = {
 
+    val brokenRules = request.modelingProps.map(_.brokenRules).getOrElse(Nil)
+    if (brokenRules.nonEmpty) {
+      logger.warn(s"Rules are broken for octopus update: ${brokenRules.mkString(" ")}")
+      throw BadRequestException(brokenRules.mkString(" "))
+    }
+
     val (original, originalLobster) = getModels(id)
 
     val ssds = request.ssds.getOrElse(original.ssds)
@@ -714,7 +714,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
           lobsterID = original.lobsterID,
           description = request.description.getOrElse(original.description),
           name = request.name.getOrElse(original.name),
-          modelingProps = request.modelingProps, // TODO: Remove option type!! in case it's None semantic-modeler uses default config for Karma; for now default config is available only in semantic-modeler
+          modelingProps = request.modelingProps.getOrElse(original.modelingProps),
           ssds = ssds,
           ontologies = request.ontologies.getOrElse(original.ontologies),
           semanticTypeMap = semanticTypeMap,

@@ -84,7 +84,7 @@ object SsdAPI extends RestAPI {
           logger.error(s"SSD with name=${request.name} could not be created.", err)
           err match {
             case ex: BadRequestException => BadRequest(ex)
-            case _ => InternalServerError(InternalException(s"SSD could not be created: $err"))
+            case _ => InternalServerError(InternalException(s"SSD could not be created."))
           }
       }
   }
@@ -129,7 +129,7 @@ object SsdAPI extends RestAPI {
           err match {
             case ex: BadRequestException => BadRequest(ex)
             case ex: NotFoundException => NotFound(ex)
-            case _ => InternalServerError(InternalException(s"SSD could not be updated: $err"))
+            case _ => InternalServerError(InternalException(s"SSD could not be updated."))
           }
       }
   }
@@ -148,12 +148,18 @@ object SsdAPI extends RestAPI {
           Ok(s"SSD $id deleted successfully.")
 
         case Success(None) =>
-          logger.debug(s"Could not find ssd $id")
+          logger.error(s"Could not find ssd $id")
           NotFound(NotFoundException(s"SSD $id could not be found"))
 
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
+
         case Failure(err) =>
-          logger.debug(s"Some other problem with deleting...")
-          InternalServerError(InternalException(s"Failed to delete resource: ${err.getMessage}"))
+          logger.error(s"Some other problem with ssd $id deletion: ${err.getMessage}")
+          InternalServerError(InternalException(s"Failed to delete ssd."))
       }
   }
 

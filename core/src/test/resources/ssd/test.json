@@ -1,0 +1,30 @@
+{"id": 1,
+    "name": "business",
+ "ontologies": [566021473],
+ "semanticModel": {
+     "nodes": [
+         {"prefix": "", "type": "ClassNode", "label": "Place", "id": 0},
+         {"prefix": "", "type": "ClassNode", "label": "Place", "id": 7},
+         {"prefix": "", "type": "ClassNode", "label": "Organization", "id": 1},
+         {"prefix": "", "type": "ClassNode", "label": "Person", "id": 2},
+         {"type": "DataNode", "label": "Organization.name", "id": 3},
+         {"type": "DataNode", "label": "Person.name", "id": 4},
+         {"type": "DataNode", "label": "Place.name", "id": 5},
+         {"type": "DataNode", "label": "Place.name", "id": 6}],
+     "links": [
+         {"type": "ObjectProperty", "label": "state", "target": 7, "source": 0, "id": 0},
+         {"type": "ObjectProperty", "label": "location", "target": 0, "source": 1, "id": 1},
+         {"type": "ObjectProperty", "label": "worksFor", "target": 1, "source": 2, "id": 2},
+         {"type": "DataProperty", "label": "property", "target": 3, "source": 1, "id": 3},
+         {"type": "DataProperty", "label": "property", "target": 4, "source": 2, "id": 4},
+         {"type": "DataProperty", "label": "property", "target": 6, "source": 7, "id": 5},
+         {"type": "DataProperty", "label": "property", "target": 5, "source": 0, "id": 6}
+     ]},
+ "mappings": [
+     {"node": 3, "attribute": 1207017049},
+     {"node": 4, "attribute": 1208123271},
+     {"node": 5, "attribute": 1444483957},
+     {"node": 6, "attribute": 146579293}],
+    "dateCreated":"2016-06-17T07:47:56Z",
+    "dateModified":"2016-06-17T07:47:56Z"
+}

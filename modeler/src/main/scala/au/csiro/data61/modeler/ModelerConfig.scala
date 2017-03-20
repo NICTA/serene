@@ -35,7 +35,7 @@ object ModelerConfig extends LazyLogging {
   val KarmaDir = conf.getString("config.karma-dir")
 
   // default folder to store alignment graph
-  val DefaultAlignmenDir = Paths.get(ModelerConfig.KarmaDir, "alignment-graph/").toString
+  val DefaultAlignmenDir = Paths.get(KarmaDir, "alignment-graph/").toString
 
   logger.debug(s"Karma storage dir $KarmaDir")
 
@@ -78,10 +78,7 @@ object ModelerConfig extends LazyLogging {
     * @param octopusModelingProps
     * @return
     */
-  def makeModelingProps(octopusModelingProps: Option[ModelingProperties]): Option[String] = {
-
-    octopusModelingProps match {
-      case Some(modelingProps) =>
+  def makeModelingProps(octopusModelingProps: ModelingProperties): Option[String] = {
       val filler = List.fill(90)("#").mkString("") + "\n"
       val f = "#\n"
 
@@ -90,39 +87,37 @@ object ModelerConfig extends LazyLogging {
         "predict.on.apply.history=false\n\n" +
         filler + f + "# Alignment\n" + f + filler +
         "\n" + "# turning off the next two flags is equal to manual alignment\n" +
-        s"compatible.properties=${modelingProps.compatibleProperties}\n" +
-        s"ontology.alignment=${modelingProps.ontologyAlignment}\n" +
+        s"compatible.properties=${octopusModelingProps.compatibleProperties}\n" +
+        s"ontology.alignment=${octopusModelingProps.ontologyAlignment}\n" +
         "knownmodels.alignment=true\n\n" +
         filler + f + "# Graph Builder\n" +
         "# (the flags in this section will only take effect when the \"ontology.alignment\" is true)\n" +
         f + filler + "\n" +
-        s"thing.node=${modelingProps.thingNode}\n\n" +
-        s"node.closure=${modelingProps.nodeClosure}\n\n" +
-        s"properties.direct=${modelingProps.propertiesDirect}\n" +
-        s"properties.indirect=${modelingProps.propertiesIndirect}\n" +
-        s"properties.subclass=${modelingProps.propertiesSubclass}\n" +
-        s"properties.with.only.domain=${modelingProps.propertiesWithOnlyDomain}\n" +
-        s"properties.with.only.range=${modelingProps.propertiesWithOnlyRange}\n" +
-        s"properties.without.domain.range=${modelingProps.propertiesWithoutDomainRange}\n\n" +
+        s"thing.node=${octopusModelingProps.thingNode}\n\n" +
+        s"node.closure=${octopusModelingProps.nodeClosure}\n\n" +
+        s"properties.direct=${octopusModelingProps.propertiesDirect}\n" +
+        s"properties.indirect=${octopusModelingProps.propertiesIndirect}\n" +
+        s"properties.subclass=${octopusModelingProps.propertiesSubclass}\n" +
+        s"properties.with.only.domain=${octopusModelingProps.propertiesWithOnlyDomain}\n" +
+        s"properties.with.only.range=${octopusModelingProps.propertiesWithOnlyRange}\n" +
+        s"properties.without.domain.range=${octopusModelingProps.propertiesWithoutDomainRange}\n\n" +
         filler + f + "# Prefixes\n" + f + filler + "\n" +
         "karma.source.prefix=http://isi.edu/integration/karma/sources/\n" +
         "karma.service.prefix=http://isi.edu/integration/karma/services/\n" +
         "default.property=http://schema.org/name\n\n" +
         filler + f + "# Model Learner\n" + f + filler + "\n" +
         "learner.enabled=true\n\n" +
-        s"add.ontology.paths=${modelingProps.addOntologyPaths}\n\n" +
-        s"mapping.branching.factor=${modelingProps.mappingBranchingFactor}\n" +
-        s"num.candidate.mappings=${modelingProps.numCandidateMappings}\n" +
-        s"topk.steiner.tree=${modelingProps.topkSteinerTrees}\n" +
-        s"multiple.same.property.per.node=${modelingProps.multipleSameProperty}\n\n" +
+        s"add.ontology.paths=${octopusModelingProps.addOntologyPaths}\n\n" +
+        s"mapping.branching.factor=${octopusModelingProps.mappingBranchingFactor}\n" +
+        s"num.candidate.mappings=${octopusModelingProps.numCandidateMappings}\n" +
+        s"topk.steiner.tree=${octopusModelingProps.topkSteinerTrees}\n" +
+        s"multiple.same.property.per.node=${octopusModelingProps.multipleSameProperty}\n\n" +
         "# scoring coefficients, should be in range [0..1]\n" +
-        s"scoring.confidence.coefficient=${modelingProps.confidenceWeight}\n" +
-        s"scoring.coherence.coefficient=${modelingProps.coherenceWeight}\n" +
-        s"scoring.size.coefficient=${modelingProps.sizeWeight}\n\n" +
+        s"scoring.confidence.coefficient=${octopusModelingProps.confidenceWeight}\n" +
+        s"scoring.coherence.coefficient=${octopusModelingProps.coherenceWeight}\n" +
+        s"scoring.size.coefficient=${octopusModelingProps.sizeWeight}\n\n" +
         filler + f + "# Other Settings\n" + f + filler + "\n" +
         "models.display.nomatching=false\n" + "history.store.old=false\n"
       )
-      case None => None
-    }
   }
 }
