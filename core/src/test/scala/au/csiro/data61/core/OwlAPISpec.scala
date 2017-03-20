@@ -22,7 +22,7 @@ import java.nio.charset.StandardCharsets.UTF_8
 
 import au.csiro.data61.core.api.OwlAPI.APIVersion
 import au.csiro.data61.core.storage.JsonFormats
-import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.{OwlDocumentFormat, Rdf, Turtle}
+import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.{OwlDocumentFormat, Xml, Turtle}
 import au.csiro.data61.types.SsdTypes.{Owl, OwlID}
 import com.twitter.finagle.http.Method.Delete
 import com.twitter.finagle.http.Status.Ok
@@ -106,7 +106,7 @@ class OwlAPISpec extends FunSuite with JsonFormats {
 
   test(s"POSTing to /$APIVersion/owl should create an OWL") (new TestServer {
     try {
-      val (status, content) = requestOwlCreation(RdfXmlDocument, Rdf, RdfXmlOwlDescription).get
+      val (status, content) = requestOwlCreation(RdfXmlDocument, Xml, RdfXmlOwlDescription).get
       val owl = parse(content).extract[Owl]
 
       status should be (Ok)
@@ -114,7 +114,7 @@ class OwlAPISpec extends FunSuite with JsonFormats {
       owl should have (
         'name (RdfXmlDocument.getName),
         'description (RdfXmlOwlDescription),
-        'format (Rdf)
+        'format (Xml)
       )
 
       owl.dateCreated should equal (owl.dateModified)
@@ -126,7 +126,7 @@ class OwlAPISpec extends FunSuite with JsonFormats {
 
   test(s"DELETing /$APIVersion/owl/:id should delete an OWL") (new TestServer {
     try {
-      val createdOwl = createOwl(RdfXmlDocument, Rdf, RdfXmlOwlDescription).get
+      val createdOwl = createOwl(RdfXmlDocument, Xml, RdfXmlOwlDescription).get
       val (status, content) = requestOwlDeletion(createdOwl.id).get
 //      val deletedOwl = parse(content).extract[Owl]
       val owls = listOwls.get
@@ -143,7 +143,7 @@ class OwlAPISpec extends FunSuite with JsonFormats {
 
   test(s"GETing /$APIVersion/owl should get a list of IDs of all OWLs") (new TestServer {
     try {
-      val rdfXmlOwl = createOwl(RdfXmlDocument, Rdf, RdfXmlOwlDescription).get
+      val rdfXmlOwl = createOwl(RdfXmlDocument, Xml, RdfXmlOwlDescription).get
       val turtleOwl = createOwl(TurtleDocument, Turtle, TurtleOwlDescription).get
       val owls = listOwls.get
 
@@ -158,7 +158,7 @@ class OwlAPISpec extends FunSuite with JsonFormats {
 
   test(s"GETing /$APIVersion/owl/:id should get an OWL") (new TestServer {
     try {
-      val createdOwl = createOwl(RdfXmlDocument, Rdf, RdfXmlOwlDescription).get
+      val createdOwl = createOwl(RdfXmlDocument, Xml, RdfXmlOwlDescription).get
       val owl = getOwl(createdOwl.id).get
 
       owl should equal(createdOwl)
@@ -170,7 +170,7 @@ class OwlAPISpec extends FunSuite with JsonFormats {
 
   test(s"POSTing to /$APIVersion/owl/:id should update an OWL") (new TestServer {
     try {
-      val createdOwl = createOwl(RdfXmlDocument, Rdf, RdfXmlOwlDescription).get
+      val createdOwl = createOwl(RdfXmlDocument, Xml, RdfXmlOwlDescription).get
       val updatedDescription = "Updated description"
       val updatedOwl = updateOwl(createdOwl.id, TurtleDocument, updatedDescription).get
 
@@ -191,7 +191,7 @@ class OwlAPISpec extends FunSuite with JsonFormats {
 
   test(s"GETing /$APIVersion/owl/:id/file should get an OWL document") (new TestServer {
     try {
-      val createdOwl = createOwl(RdfXmlDocument, Rdf, RdfXmlOwlDescription).get
+      val createdOwl = createOwl(RdfXmlDocument, Xml, RdfXmlOwlDescription).get
       val request = Request(s"/$APIVersion/owl/${createdOwl.id}/file")
       val response = Await.result(client(request))
 

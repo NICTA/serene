@@ -119,9 +119,10 @@ object SsdTypes {
 
     val Turtle = Value("ttl")
     val Notation3 = Value("n3")
-    val Rdf = Value("rdf")
+    val Rdfa = Value("rdfa")
     val Xml = Value("xml")
-    val DefaultOwl = Value("owl")
+    val DefaultOwl = Value("xml") // Karma uses this as a default extension
+    val Jsonld = Value("jsonld")
   }
 
   /**
