@@ -77,12 +77,29 @@ case class StorageDependencyMap(column: List[Int] = List.empty[Int],
     dataset.isEmpty && owl.isEmpty && ssd.isEmpty && model.isEmpty && octopus.isEmpty && column.isEmpty
   }
 
-  override def toString: String = "columns: [" + column.mkString(",") +
-    "], dataset: [" + dataset.mkString(",") +
-    "], owl: [" + owl.mkString(",") +
-    "], ssd: [" + dataset.mkString(",") +
-    "], model: [" + model.mkString(",") +
-    "], octopus: [" + dataset.mkString(",") + "]"
+  private def stringify(intList: List[Int]): Option[String] = {
+    if (intList.isEmpty) {
+      None
+    } else {
+      Some(intList.mkString(","))
+    }
+  }
+
+  def beautifulString: String = {
+
+    val attrStrings: List[String] = List(("column", stringify(column)),
+      ("dataset", stringify(dataset)),
+      ("owl", stringify(owl)),
+      ("ssd", stringify(ssd)),
+      ("model", stringify(model)),
+      ("octopus", stringify(octopus)))
+      .flatMap {
+        case (k: String, Some(str: String)) => Some(k + "=[" + str + "]")
+        case _ => None
+      }
+
+    attrStrings.mkString("; ")
+  }
 }
 
 /**
@@ -145,11 +162,13 @@ trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] exte
           logger.info("Forceful deletion of the resource succeeded.")
           Some(resource.id)
         case Failure(err) =>
-          logger.error(s"Forceful deletion of the resource failed: $err")
+          logger.error(s"Forceful deletion of the resource failed: ${err.getMessage}")
           throw InternalException(s"Forceful deletion of the resource failed.")
       }
     } else {
-      throw BadRequestException(s"Deletion not possible due to dependents: ${beautify(refs)}")
+      val msg = s"Deletion of resource ${resource.id} not possible due to dependents: ${beautify(refs)}"
+      logger.error(msg)
+      throw BadRequestException(msg)
     }
   }
 
@@ -170,7 +189,7 @@ trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] exte
 //      case (k, v) =>
 //        k.getClass.getSimpleName -> v
 //    }.toString
-    m.toString
+    m.beautifulString
   }
 
   /**
