@@ -18,8 +18,9 @@
 package au.csiro.data61.core.api
 
 import au.csiro.data61.core.drivers.SsdInterface
-import au.csiro.data61.types.SsdTypes.SsdID
+import au.csiro.data61.types.SsdTypes.{SsdID, OwlID}
 import au.csiro.data61.types._
+import com.typesafe.scalalogging.LazyLogging
 import io.finch._
 import io.finch.json4s.decodeJson
 import org.joda.time.DateTime
@@ -189,9 +190,9 @@ object SsdAPI extends RestAPI {
   */
 case class SsdRequest(
     name: Option[String],
-    ontologies: Option[List[SsdID]],
+    ontologies: Option[List[Int]],
     semanticModel: Option[SemanticModel],
-    mappings: Option[SsdMapping]) {
+    mappings: Option[SsdMapping]) extends LazyLogging {
   /**
     * Convert SsdRequest to Ssd
     *
@@ -199,6 +200,7 @@ case class SsdRequest(
     * @return
     */
   def toSsd(ssdID: SsdID): Try[Ssd] = Try {
+    logger.debug(s"Converting SsdRequest $name to Ssd...")
     // get a list of attributes from the mappings
     // NOTE: for now we automatically generate them to be equal to the original columns
     val ssdAttributes: List[SsdAttribute] = mappings
@@ -209,9 +211,9 @@ case class SsdRequest(
     val now = DateTime.now
 
     Ssd(ssdID,
-      name = name.get,
+      name = name.getOrElse(""),
       attributes = ssdAttributes,
-      ontologies = ontologies.get,
+      ontologies = ontologies.getOrElse(List.empty[OwlID]),
       semanticModel = semanticModel,
       mappings = mappings,
       dateCreated = now,
