@@ -1059,7 +1059,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       val ssdPred = parse(response.contentString).extract[SsdResults]
 
       assert(ssdPred.predictions.size === 8)
-      val predictedSSDs: List[Ssd] = ssdPred.predictions.map(_._1.toSsd(dummyID).get)
+      val predictedSSDs: List[Ssd] = ssdPred.predictions.map(_.ssd.toSsd(dummyID).get)
       // Karma should return consistent and complete semantic models
       assert(predictedSSDs.forall(_.isComplete))
       assert(predictedSSDs.forall(_.isConsistent))
@@ -1068,11 +1068,10 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
 //      ssdPred.predictions.foreach(x => println(x._2))
 
-      assert(ssdPred.predictions.forall(_._2.nodeCoherence == 1))
-      assert(ssdPred.predictions.forall(_._2.nodeCoverage == 0.5))
+      assert(ssdPred.predictions.forall(_.score.nodeCoherence == 1))
+      assert(ssdPred.predictions.forall(_.score.nodeCoverage == 0.5))
 
-      val recSemanticModel = ssdPred.predictions.head._1
-      val scores = ssdPred.predictions.head._2
+      val scores = ssdPred.predictions.head.score
       assert(scores.linkCost === 3)
 
 

@@ -446,7 +446,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     val convertedTuples =
       ssdPrediction.suggestions.map {
         case (ssd: Ssd, smScore: SemanticScores) =>
-          (convertSsd(ssd), smScore)
+          SsdResult(convertSsd(ssd), smScore)
       }
     SsdResults(predictions = convertedTuples)
   }
