@@ -20,7 +20,9 @@ package au.csiro.data61.core.api
 
 import au.csiro.data61.modeler.{EvaluateOctopus, EvaluationResult}
 import au.csiro.data61.types.Exceptions.ModelerException
+import au.csiro.data61.types.SsdTypes.OwlID
 import au.csiro.data61.types._
+import com.typesafe.scalalogging.LazyLogging
 import io.finch._
 import io.finch.json4s.decodeJson
 
@@ -72,6 +74,8 @@ object TestAPI extends RestAPI {
           Ok(res)
         case Failure(err: ModelerException) =>
           InternalServerError(InternalException("Evaluation of semantic models failed."))
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
         case Failure(err) =>
           logger.error(s"Evaluation of two semantic models failed due to some unforseen reasons: ${err.getMessage}")
           BadRequest(BadRequestException(err.getMessage))
@@ -94,20 +98,40 @@ case class EvaluationRequest(predictedSsd: SsdRequest,
                              correctSsd: SsdRequest,
                              ignoreSemanticTypes: Boolean = true,
                              ignoreColumnNodes: Boolean = false)
-{
+extends LazyLogging {
   val dummyPredSsdId = 1
   val dummyCorrectSsdId = 2
 
+  private def processSsdRequest(ssdReq: SsdRequest): SsdRequest = {
+    if (ssdReq.semanticModel.isEmpty) {
+      logger.error("SsdRequest has no semantic model. Evaluation makes no sense.")
+      throw BadRequestException("SsdRequest has no semantic model.")
+    }
+
+    if (ssdReq.mappings.isEmpty) {
+      logger.error("SsdRequest has no mappings. Evaluation makes no sense.")
+      throw BadRequestException("SsdRequest has no mappings.")
+    }
+
+    // ontologies and name can be ignored for the evaluation
+    ssdReq.copy(name = Some(ssdReq.name.getOrElse("")),
+      ontologies = Some(ssdReq.ontologies.getOrElse(List.empty[Int])))
+  }
+
   def evaluate(): Try[EvaluationResult] = {
+    logger.info(s"Launching evaluation for evaluation request ignoring ($ignoreSemanticTypes, $ignoreColumnNodes)")
+
     for {
-      predicted <- predictedSsd.toSsd(dummyPredSsdId)
 
-      correct <- correctSsd.toSsd(dummyCorrectSsdId)
+      predicted <- processSsdRequest(predictedSsd).toSsd(dummyPredSsdId)
+      correct <- processSsdRequest(correctSsd).toSsd(dummyCorrectSsdId)
 
-      eval = EvaluateOctopus.evaluate(predicted,
-        correct,
-        ignoreSemanticTypes,
-        ignoreColumnNodes)
+      eval <- Try {
+        EvaluateOctopus.evaluate(predicted,
+          correct,
+          ignoreSemanticTypes,
+          ignoreColumnNodes)
+      }
     } yield eval
   }
 }

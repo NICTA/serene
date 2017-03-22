@@ -132,7 +132,7 @@ class TestAPISpec  extends FunSuite with JsonFormats {
   test("Evaluation for empty ssd fails")( new TestServer {
     try {
       val response = createEvaluationRequest(emptySSD, businessSSD, true, false)
-      assert(response.status === Status.InternalServerError)
+      assert(response.status === Status.BadRequest)
     } finally assertClose()
   })
 
