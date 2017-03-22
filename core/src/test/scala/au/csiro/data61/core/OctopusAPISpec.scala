@@ -118,6 +118,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   }
 
   val ssdDir = getClass.getResource("/ssd").getPath
+  val owlDir = getClass.getResource("/owl").getPath
 
   def readSSD(ssdPath: String): Ssd = {
     Try {
@@ -131,8 +132,8 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   }
 
-  val exampleOntolPath = Paths.get(ssdDir,"dataintegration_report_ontology.owl")
-  val exampleOwl = Owl(id = exampleOwlID, name = exampleOntolPath.toString, format = OwlDocumentFormat.DefaultOwl,
+  val exampleOntolPath = Paths.get(owlDir,"dataintegration_report_ontology.owl")
+  val exampleOwl = Owl(id = exampleOwlID, name = exampleOntolPath.toString, format = OwlDocumentFormat.Turtle,
     description = "sample", dateCreated = DateTime.now, dateModified = DateTime.now)
 
   val partialSSD: Ssd = readSSD(Paths.get(ssdDir,"partial_model.ssd").toString)
@@ -424,7 +425,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       assert(!octopus.modelingProps.multipleSameProperty)
       assert(octopus.modelingProps.confidenceWeight === 1.0)
       assert(octopus.modelingProps.coherenceWeight === 1.0)
-      assert(octopus.modelingProps.sizeWeight === 1.0)
+      assert(octopus.modelingProps.sizeWeight === 0.5)
       assert(octopus.modelingProps.numSemanticTypes === 4)
       assert(!octopus.modelingProps.thingNode)
       assert(octopus.modelingProps.nodeClosure)

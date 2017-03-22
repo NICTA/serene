@@ -27,7 +27,7 @@ object TypeConfig extends LazyLogging {
   // ssd version fixed here!
   val SSDVersion = "0.1"
   // this is the default namespace which will be used by our semantic modeller for the default prefix 'serene-default'
-  val DefaultNamespace = "http://www.semanticweb.org/data_integration_project/report_example_ontology#"
+  val DefaultNamespace = "http://www.semanticweb.org/serene/report_example_ontology#"
 
-  logger.info(s"SSD version ${SSDVersion}")
+  logger.info(s"SSD version $SSDVersion")
 }

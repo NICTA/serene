@@ -450,7 +450,7 @@ case class ModelingProperties(
     multipleSameProperty: Boolean = false,
     confidenceWeight: Double = 1.0,
     coherenceWeight: Double = 1.0,
-    sizeWeight: Double = 1.0,
+    sizeWeight: Double = 0.5,
     numSemanticTypes: Int = 4,
     thingNode: Boolean = false,
     nodeClosure: Boolean = true,

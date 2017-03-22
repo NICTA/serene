@@ -1,9 +1,9 @@
 {
     "nodes": [
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#State1",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#State1",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#State"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#State"
             },
             "type": "InternalNode",
             "modelIds": [
@@ -12,9 +12,9 @@
             ]
         },
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#City1",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#City1",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#City"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#City"
             },
             "type": "InternalNode",
             "modelIds": [
@@ -23,9 +23,9 @@
             ]
         },
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#Organization1",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Organization1",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#Organization"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#Organization"
             },
             "type": "InternalNode",
             "modelIds": [
@@ -33,9 +33,9 @@
             ]
         },
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#Person1",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Person1",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#Person"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#Person"
             },
             "type": "InternalNode",
             "modelIds": [
@@ -111,11 +111,11 @@
     ],
     "links": [
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#City1---http://www.semanticweb.org/data_integration_project/report_example_ontology#isPartOf---http://www.semanticweb.org/data_integration_project/report_example_ontology#State1",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#City1---http://www.semanticweb.org/serene/report_example_ontology#isPartOf---http://www.semanticweb.org/serene/report_example_ontology#State1",
             "weight": 0.33333333333333337,
             "type": "ObjectPropertyLink",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#isPartOf"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#isPartOf"
             },
             "objectPropertyType": "Indirect",
             "status": "Normal",
@@ -126,11 +126,11 @@
             ]
         },
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#Organization1---http://www.semanticweb.org/data_integration_project/report_example_ontology#location---http://www.semanticweb.org/data_integration_project/report_example_ontology#City1",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Organization1---http://www.semanticweb.org/serene/report_example_ontology#location---http://www.semanticweb.org/serene/report_example_ontology#City1",
             "weight": 1.0,
             "type": "ObjectPropertyLink",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#location"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#location"
             },
             "objectPropertyType": "Indirect",
             "status": "Normal",
@@ -140,11 +140,11 @@
             ]
         },
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#Organization1---http://www.semanticweb.org/data_integration_project/report_example_ontology#ceo---http://www.semanticweb.org/data_integration_project/report_example_ontology#Person1",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Organization1---http://www.semanticweb.org/serene/report_example_ontology#ceo---http://www.semanticweb.org/serene/report_example_ontology#Person1",
             "weight": 1.0,
             "type": "ObjectPropertyLink",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#ceo"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#ceo"
             },
             "objectPropertyType": "Direct",
             "status": "Normal",
@@ -154,11 +154,11 @@
             ]
         },
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#Person1---http://www.semanticweb.org/data_integration_project/report_example_ontology#name---0202348C-B6D0-DB8B-9818-0DBB8CEDA8C2",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Person1---http://www.semanticweb.org/serene/report_example_ontology#name---0202348C-B6D0-DB8B-9818-0DBB8CEDA8C2",
             "weight": 1.0,
             "type": "DataPropertyLink",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#name"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#name"
             },
             "status": "Normal",
             "keyInfo": "None",
@@ -167,11 +167,11 @@
             ]
         },
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#Organization1---http://www.semanticweb.org/data_integration_project/report_example_ontology#name---188AF1E5-04B1-B71C-B450-9EDB1901EA21",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Organization1---http://www.semanticweb.org/serene/report_example_ontology#name---188AF1E5-04B1-B71C-B450-9EDB1901EA21",
             "weight": 1.0,
             "type": "DataPropertyLink",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#name"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#name"
             },
             "status": "Normal",
             "keyInfo": "None",
@@ -180,11 +180,11 @@
             ]
         },
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#State1---http://www.semanticweb.org/data_integration_project/report_example_ontology#name---ABFE89AE-A3C6-0FF9-2D86-758433052CBE",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#State1---http://www.semanticweb.org/serene/report_example_ontology#name---ABFE89AE-A3C6-0FF9-2D86-758433052CBE",
             "weight": 1.0,
             "type": "DataPropertyLink",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#name"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#name"
             },
             "status": "Normal",
             "keyInfo": "None",
@@ -194,11 +194,11 @@
             ]
         },
         {
-            "id": "http://www.semanticweb.org/data_integration_project/report_example_ontology#City1---http://www.semanticweb.org/data_integration_project/report_example_ontology#name---6A70EF89-4E70-07EF-7F13-A59A76E9ACEA",
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#City1---http://www.semanticweb.org/serene/report_example_ontology#name---6A70EF89-4E70-07EF-7F13-A59A76E9ACEA",
             "weight": 1.0,
             "type": "DataPropertyLink",
             "label": {
-                "uri": "http://www.semanticweb.org/data_integration_project/report_example_ontology#name"
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#name"
             },
             "status": "Normal",
             "keyInfo": "None",

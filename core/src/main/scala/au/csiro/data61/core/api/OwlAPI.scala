@@ -165,6 +165,10 @@ object OwlAPI extends RestAPI {
         case Success(None) =>
           logger.debug(s"Could not find ontology $id")
           NotFound(NotFoundException(s"Ontology $id could not be found"))
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
         case Failure(err) =>
           logger.error(s"Some other problem with deleting: ${err.getMessage}")
           InternalServerError(InternalException(s"Failed to delete ontology $id"))
