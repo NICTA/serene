@@ -424,7 +424,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       assert(!octopus.modelingProps.multipleSameProperty)
       assert(octopus.modelingProps.confidenceWeight === 1.0)
       assert(octopus.modelingProps.coherenceWeight === 1.0)
-      assert(octopus.modelingProps.sizeWeight === 1.0)
+      assert(octopus.modelingProps.sizeWeight === 0.5)
       assert(octopus.modelingProps.numSemanticTypes === 4)
       assert(!octopus.modelingProps.thingNode)
       assert(octopus.modelingProps.nodeClosure)

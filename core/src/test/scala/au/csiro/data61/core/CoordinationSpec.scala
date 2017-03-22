@@ -25,9 +25,11 @@ import au.csiro.data61.core.storage._
 import au.csiro.data61.types.SsdTypes._
 import au.csiro.data61.types._
 import api._
+import au.csiro.data61.core.api.OctopusAPI.{APIVersion => _, formats => _, _}
 import au.csiro.data61.core.api.SsdAPI._
 import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.DataSetTypes._
+import au.csiro.data61.types.ModelTypes.ModelID
 import au.csiro.data61.types.SsdTypes.OwlDocumentFormat._
 import com.twitter.finagle.http.Method.{Delete, Post}
 import com.typesafe.scalalogging.LazyLogging
@@ -70,15 +72,17 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
 
   val businessDs = Paths.get(sampleDsDir,
     datasetMap("businessInfo").toString, "businessinfo.csv").toFile
-  val businessSsd = Paths.get(ssdDir, "businessinfo.ssd").toFile
+  val businessSsd = Paths.get(ssdDir, "businessInfo.ssd").toFile
 
   val citiesDs = Paths.get(sampleDsDir,
     datasetMap("getCities").toString, "getcities.csv").toFile
   val citiesSsd = Paths.get(ssdDir, "getCities.ssd").toFile
 
-
-  val exampleOwl = Paths.get(owlDir, "dataintegration_report_ontology.owl").toFile
+  val exampleOwl = Paths.get(owlDir, "dataintegration_report_ontology.ttl").toFile
   val exampleOwlFormat = OwlDocumentFormat.Turtle
+
+  lazy val PollTime = 2000
+  lazy val PollIterations = 20
 
   def requestOwlCreation(document: File, format: OwlDocumentFormat, description: String = "test")
                         (implicit server: TestServer): Try[(Status, String)] = Try {
@@ -109,6 +113,12 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
       .buildFormPost(multipart = true)
     val response = Await.result(server.client(request))
     parse(response.contentString).extract[DataSet]
+  }
+
+  def deleteLobster(id: ModelID)(implicit server: TestServer): Response = {
+    logger.info(s"Deleting lobster $id")
+    val request = Request(Delete, s"/$APIVersion/model/$id")
+    Await.result(server.client(request))
   }
 
   def deleteDataset(id: DataSetID)(implicit server: TestServer): Response = {
@@ -216,7 +226,7 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
 
     val newSsd = originalSsd.copy(ontologies = ontologies, mappings = newMappings)
 
-    val request = convertSsd(originalSsd)
+    val request = convertSsd(newSsd)
     createSsd(request).get
   }
 
@@ -241,6 +251,114 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
     parse(response.contentString).extract[Ssd]
   }
 
+  /**
+    * Builds a standard POST request object from a json object for Octopus endpoint.
+    *
+    * @param json
+    * @param url
+    * @return
+    */
+  def postRequest(json: JObject, url: String = s"/$APIVersion/octopus")(implicit s: TestServer): Request = {
+    RequestBuilder()
+      .url(s.fullUrl(url))
+      .addHeader("Content-Type", "application/json")
+      .buildPost(Buf.Utf8(compact(render(json))))
+  }
+
+  /**
+    * Creates default octopus
+    *
+    * @param s
+    * @return
+    */
+  def createOctopus(trainSsd: List[SsdID], owls: List[OwlID])(implicit s: TestServer): Octopus = {
+
+    val json = ("ssds" -> trainSsd) ~
+      ("ontologies" -> owls)
+
+    val request = postRequest(json)
+    val response = Await.result(s.client(request))
+    assert(response.status === Status.Ok)
+
+    // created octopus
+    parse(response.contentString).extract[Octopus]
+  }
+
+  def trainOctopus(octopus: Octopus)(implicit s: TestServer): Octopus = {
+
+    val req = postRequest(json = JObject(), url = s"/$APIVersion/octopus/${octopus.id}/train")
+    // send the request and make sure it executes
+    val resp = Await.result(s.client(req))
+
+    assert(resp.status === Status.Accepted)
+    assert(resp.contentString.isEmpty)
+
+    octopus
+  }
+
+  /**
+    * pollOctopusState
+    *
+    * @param model
+    * @param pollIterations
+    * @param pollTime
+    * @param s
+    * @return
+    */
+  def pollOctopusState(model: Octopus, pollIterations: Int, pollTime: Int)(implicit s: TestServer)
+  : Future[Training.Status] = {
+    Future {
+
+      def state(): Training.Status = {
+        Thread.sleep(pollTime)
+        // build a request to get the model...
+        val response = s.get(s"/$APIVersion/octopus/${model.id}")
+        if (response.status != Status.Ok) {
+          throw new Exception("Failed to retrieve model state")
+        }
+        // ensure that the data is correct...
+        val m = parse(response.contentString).extract[Octopus]
+
+        m.state.status
+      }
+
+      @tailrec
+      def rState(loops: Int): Training.Status = {
+        state() match {
+          case s@Training.Status.COMPLETE =>
+            s
+          case s@Training.Status.ERROR =>
+            s
+          case _ if loops < 0 =>
+            throw new Exception("Training timeout")
+          case _ =>
+            rState(loops - 1)
+        }
+      }
+
+      rState(pollIterations)
+    }
+  }
+
+  /**
+    * Clean all octopi
+    *
+    * @param server Reference to the TestServer used in a single test
+    */
+  def deleteOctopi()(implicit server: TestServer): Unit = {
+    val response = server.get(s"/$APIVersion/octopus")
+
+    if (response.status == Status.Ok) {
+      val str = response.contentString
+      val regex = "[0-9]+".r
+      val models = regex.findAllIn(str).map(_.toInt)
+      models.foreach { model =>
+        server.delete(s"/$APIVersion/octopus/$model")
+      }
+    }
+  }
+
+  //=========================Tests==============================================
   test(s"DELETE /$APIVersion/dataset/:id should fail due to ssd dependent") (new TestServer {
     try {
       val createdSsd = createSsd(DatasetDocument, SsdDocument).get._2
@@ -252,13 +370,14 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
       assert(response.contentString.nonEmpty)
       assert(response.contentString.contains(createdSsd.id.toString))
     } finally {
+      deleteOctopi
       deleteAllSsds
       deleteAllDatasets
       assertClose()
     }
   })
 
-  test("POST cities ssd succeeds")(new TestServer {
+  test("POST cities ssd responds Ok")(new TestServer {
     try {
       val createdOwl: Owl = createOwl(exampleOwl, exampleOwlFormat).get
       val createdSsd: Ssd = bindSsd(citiesDs, citiesSsd, List(createdOwl.id)).get
@@ -267,6 +386,80 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
       assert(createdSsd.isConsistent)
 
     } finally {
+      deleteOctopi
+      deleteAllSsds
+      deleteAllDatasets
+      deleteAllOwls
+      assertClose()
+    }
+  })
+
+  test("DELETE owl responds BadRequest due to dependent ssd")(new TestServer {
+    try {
+      val createdOwl: Owl = createOwl(exampleOwl, exampleOwlFormat).get
+      val createdSsd: Ssd = bindSsd(citiesDs, citiesSsd, List(createdOwl.id)).get
+
+      val (status, response)  = requestOwlDeletion(createdOwl.id).get
+      assert(status === Status.BadRequest)
+
+      println(response)
+      assert(response.contains(createdSsd.id.toString))
+
+    } finally {
+      deleteOctopi
+      deleteAllSsds
+      deleteAllDatasets
+      deleteAllOwls
+      assertClose()
+    }
+  })
+
+  test("POST training for simple octopus accepted and completed")(new TestServer {
+    try {
+      val createdOwl: Owl = createOwl(exampleOwl, exampleOwlFormat).get
+      val createdSsd: Ssd = bindSsd(businessDs, businessSsd, List(createdOwl.id)).get
+
+      val octopus = createOctopus(List(createdSsd.id), List(createdOwl.id))
+
+      assert(createdSsd.isComplete)
+      assert(createdSsd.isConsistent)
+      assert(octopus.ontologies === List(createdOwl.id))
+      assert(octopus.ssds === List(createdSsd.id))
+
+      val octo = trainOctopus(octopus)
+
+      val trained = pollOctopusState(octopus, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, PollIterations * PollTime *2 seconds)
+      assert(state === Training.Status.COMPLETE)
+
+      // get the model state
+      assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
+      val model = ModelStorage.get(octopus.lobsterID).get
+      assert(model.state.status === Training.Status.COMPLETE)
+
+    } finally {
+      deleteOctopi
+      deleteAllSsds
+      deleteAllDatasets
+      deleteAllOwls
+      assertClose()
+    }
+  })
+
+  test("DELETE model responds BadRequest due to dependent octopus")(new TestServer {
+    try {
+      val createdOwl: Owl = createOwl(exampleOwl, exampleOwlFormat).get
+      val createdSsd: Ssd = bindSsd(businessDs, businessSsd, List(createdOwl.id)).get
+
+      val octopus = createOctopus(List(createdSsd.id), List(createdOwl.id))
+
+      val response = deleteLobster(octopus.lobsterID)
+
+      assert(response.status === Status.BadRequest)
+      assert(response.contentString.contains(octopus.id.toString))
+
+    } finally {
+      deleteOctopi
       deleteAllSsds
       deleteAllDatasets
       deleteAllOwls
