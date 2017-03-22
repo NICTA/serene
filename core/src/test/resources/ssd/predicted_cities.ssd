@@ -31,21 +31,21 @@
         "label": "City",
         "type": "ClassNode",
         "status": "Normal",
-        "prefix": "http://www.semanticweb.org/data_integration_project/report_example_ontology#"
+        "prefix": "http://www.semanticweb.org/serene/report_example_ontology#"
       },
       {
         "id": 2,
         "label": "Organization",
         "type": "ClassNode",
         "status": "Normal",
-        "prefix": "http://www.semanticweb.org/data_integration_project/report_example_ontology#"
+        "prefix": "http://www.semanticweb.org/serene/report_example_ontology#"
       },
       {
         "id": 1,
         "label": "State",
         "type": "ClassNode",
         "status": "Normal",
-        "prefix": "http://www.semanticweb.org\/data_integration_project/report_example_ontology#"
+        "prefix": "http://www.semanticweb.org\/serene/report_example_ontology#"
       },
       {
         "id": 3,
@@ -63,7 +63,7 @@
         "label": "isPartOf",
         "type": "ObjectPropertyLink",
         "status": "Normal",
-        "prefix": "http://www.semanticweb.org/data_integration_project/report_example_ontology#"
+        "prefix": "http://www.semanticweb.org/serene/report_example_ontology#"
       },
       {
         "id": 1,
@@ -72,7 +72,7 @@
         "label": "location",
         "type": "ObjectPropertyLink",
         "status": "Normal",
-        "prefix": "http://www.semanticweb.org/data_integration_project/report_example_ontology#"
+        "prefix": "http://www.semanticweb.org/serene/report_example_ontology#"
       },
       {
         "id": 2,
@@ -81,7 +81,7 @@
         "label": "name",
         "type": "DataPropertyLink",
         "status": "Normal",
-        "prefix": "http://www.semanticweb.org/data_integration_project/report_example_ontology#"
+        "prefix": "http://www.semanticweb.org/serene/report_example_ontology#"
       }
     ]
   },
