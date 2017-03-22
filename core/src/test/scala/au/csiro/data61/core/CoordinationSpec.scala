@@ -26,12 +26,11 @@ import au.csiro.data61.types.SsdTypes._
 import au.csiro.data61.types._
 import api._
 import au.csiro.data61.core.api.SsdAPI._
-import au.csiro.data61.core.drivers.Generic._
+import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.DataSetTypes._
+import au.csiro.data61.types.SsdTypes.OwlDocumentFormat._
 import com.twitter.finagle.http.Method.{Delete, Post}
 import com.typesafe.scalalogging.LazyLogging
-import org.apache.commons.io.FileUtils
-import org.joda.time.DateTime
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http.Status._
 import com.twitter.finagle.http._
@@ -39,7 +38,6 @@ import com.twitter.io.Buf.ByteArray
 import com.twitter.io.{Buf, Reader}
 import com.twitter.util.{Await, Return, Throw}
 import org.json4s.jackson.Serialization._
-import org.scalatest.Matchers._
 
 //import scala.concurrent._
 import org.scalatest.concurrent._
@@ -58,14 +56,50 @@ import org.json4s.jackson.JsonMethods._
 
 
 /**
-  * Tests for the coordination between different storage layers.
+  * Tests for the coordination between different storage layers and apis.
   */
 class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging {
 
   val SsdDocument = new File(getClass.getResource("/ssd/request.ssd").toURI)
   val DatasetDocument = new File(getClass.getResource("/tiny.csv").toURI)
 
-  def createDataset(document: File, description: String)
+  val sampleDsDir = getClass.getResource("/sample.datasets").getPath
+  val ssdDir = getClass.getResource("/ssd").getPath
+  val owlDir = getClass.getResource("/owl").getPath
+  val datasetMap = Map("businessInfo" -> 767956483, "getCities" -> 696167703)
+
+  val businessDs = Paths.get(sampleDsDir,
+    datasetMap("businessInfo").toString, "businessinfo.csv").toFile
+  val businessSsd = Paths.get(ssdDir, "businessinfo.ssd").toFile
+
+  val citiesDs = Paths.get(sampleDsDir,
+    datasetMap("getCities").toString, "getcities.csv").toFile
+  val citiesSsd = Paths.get(ssdDir, "getCities.ssd").toFile
+
+
+  val exampleOwl = Paths.get(owlDir, "dataintegration_report_ontology.owl").toFile
+  val exampleOwlFormat = OwlDocumentFormat.Turtle
+
+  def requestOwlCreation(document: File, format: OwlDocumentFormat, description: String = "test")
+                        (implicit server: TestServer): Try[(Status, String)] = Try {
+    val buf = Await.result(Reader.readAll(Reader.fromFile(document)))
+    val request = RequestBuilder()
+      .url(server.fullUrl(s"/$APIVersion/owl"))
+      .addFormElement("format" -> format.toString)
+      .addFormElement("description" -> description)
+      .add(FileElement("file", buf, None, Some(document.getName)))
+      .buildFormPost(multipart = true)
+    val response = Await.result(server.client(request))
+    (response.status, response.contentString)
+  }
+
+  def createOwl(document: File, format: OwlDocumentFormat, description: String = "example")
+               (implicit server: TestServer): Try[Owl] =
+    requestOwlCreation(document, format, description).map {
+      case (Ok, content) => parse(content).extract[Owl]
+    }
+
+  def createDataset(document: File, description: String="test")
                    (implicit server: TestServer): Try[DataSet] = Try {
     val buf = Await.result(Reader.readAll(Reader.fromFile(document)))
     val request = RequestBuilder()
@@ -121,6 +155,71 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
     (request, createSsd(request).get)
   }
 
+  def requestOwlDeletion(id: OwlID)(implicit server: TestServer): Try[(Status, String)] = Try {
+    val request = Request(Delete, s"/$APIVersion/owl/$id")
+    val response = Await.result(server.client(request))
+    (response.status, response.contentString)
+  }
+
+  def listOwls(implicit server: TestServer): Try[List[OwlID]] = Try {
+    val request = Request(s"/$APIVersion/owl")
+    val response = Await.result(server.client(request))
+    parse(response.contentString).extract[List[OwlID]]
+  }
+
+  def deleteAllOwls(implicit server: TestServer): Unit =
+    listOwls.get.map(requestOwlDeletion).foreach(_.get)
+
+  def getOwl(id: OwlID)(implicit server: TestServer): Try[Owl] = Try {
+    val request = Request(s"/$APIVersion/owl/$id")
+    val response = Await.result(server.client(request))
+    parse(response.contentString).extract[Owl]
+  }
+
+  /**
+    * Helper function to convert from Ssd type to SsdRequest.
+    *
+    * @param ssd Semantic Source Description
+    * @return
+    */
+  def convertSsd(ssd: Ssd): SsdRequest = {
+    SsdRequest(Some(ssd.name), Some(ssd.ontologies), ssd.semanticModel, ssd.mappings)
+  }
+
+  /**
+    * Binds ssd from the json file to a csv file using ontologies.
+    * @param datasetDocument
+    * @param ssdDocument
+    * @param ontologies
+    * @param server
+    * @return
+    */
+  def bindSsd(datasetDocument: File,
+              ssdDocument: File,
+              ontologies: List[OwlID])(implicit server: TestServer): Try[Ssd] = Try {
+    val dataset = createDataset(datasetDocument, "ref dataset").get
+    val originalSsd = parse(ssdDocument).extract[Ssd]
+
+    val attrNameMap: Map[AttrID, String] = originalSsd.attributes
+      .map {
+        attr => attr.id -> attr.name
+      } toMap
+    val colNameMap: Map[String, ColumnID] = dataset.columns.map { c => c.name -> c.id} toMap
+    val newMappings: Option[SsdMapping] = originalSsd.mappings
+      .map {
+        maps =>
+          SsdMapping(maps.mappings
+            .map {
+              case (aID,nID) => (colNameMap(attrNameMap(aID)), nID)
+            })
+      }
+
+    val newSsd = originalSsd.copy(ontologies = ontologies, mappings = newMappings)
+
+    val request = convertSsd(originalSsd)
+    createSsd(request).get
+  }
+
   def listSsds(implicit server: TestServer): Try[List[SsdID]] = Try {
     val request = Request(s"/$APIVersion/ssd")
     val response = Await.result(server.client(request))
@@ -148,14 +247,29 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
       val dsId = getAllDatasets.head
 
       val response = deleteDataset(dsId)
-      assert(response.status === Status.BadRequest)
 
+      assert(response.status === Status.BadRequest)
       assert(response.contentString.nonEmpty)
       assert(response.contentString.contains(createdSsd.id.toString))
+    } finally {
+      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  test("POST cities ssd succeeds")(new TestServer {
+    try {
+      val createdOwl: Owl = createOwl(exampleOwl, exampleOwlFormat).get
+      val createdSsd: Ssd = bindSsd(citiesDs, citiesSsd, List(createdOwl.id)).get
+
+      assert(createdSsd.isComplete)
+      assert(createdSsd.isConsistent)
 
     } finally {
       deleteAllSsds
       deleteAllDatasets
+      deleteAllOwls
       assertClose()
     }
   })
