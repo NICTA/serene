@@ -92,11 +92,12 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     }
   }
 
-  val exampleOntolPath = Paths.get(ssdDir,"dataintegration_report_ontology.owl")
+  val owlDir = getClass.getResource("/owl").getPath
+  val exampleOntolPath = Paths.get(owlDir,"dataintegration_report_ontology.ttl")
   val exampleOwl = Owl(
     id = exampleOwlID,
     name = exampleOntolPath.toString,
-    format = OwlDocumentFormat.DefaultOwl,
+    format = OwlDocumentFormat.Turtle,
     description = "sample",
     dateCreated = DateTime.now,
     dateModified = DateTime.now)
@@ -291,8 +292,9 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     val karmaAlign: SemanticModel = KarmaTypes.readAlignmentGraph(businessAlign)
 
     assert(alignSM.getLinks.size === karmaAlign.getLinks.size)
-    assert(alignSM.getNodes === karmaAlign.getNodes)
     assert(alignSM.getLinkLabels === karmaAlign.getLinkLabels)
+    assert(alignSM.getNodeLabels === karmaAlign.getNodeLabels)
+    assert(alignSM.getNodes.size === karmaAlign.getNodes.size)
   }
 
   test("Predicting with octopus for cities fails since octopus is not trained") {

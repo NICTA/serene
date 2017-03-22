@@ -220,9 +220,9 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   )
   // correct semantic type map
   val correctCitiesSemanticTypeMap: Map[String, String] = Map(
-    "City" -> "http://www.semanticweb.org/data_integration_project/report_example_ontology#"
-    , "name" -> "http://www.semanticweb.org/data_integration_project/report_example_ontology#"
-    , "State" -> "http://www.semanticweb.org/data_integration_project/report_example_ontology#"
+    "City" -> TypeConfig.DefaultNamespace
+    , "name" -> TypeConfig.DefaultNamespace
+    , "State" -> TypeConfig.DefaultNamespace
   )
 
   val citiesAttrToColMap: Map[AttrID,ColumnID] = Map(10 -> 10, 11 -> 11)
