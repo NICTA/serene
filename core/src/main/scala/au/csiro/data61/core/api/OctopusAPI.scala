@@ -21,7 +21,7 @@ import java.nio.file.Path
 
 import au.csiro.data61.core.drivers.OctopusInterface
 import au.csiro.data61.types._
-import au.csiro.data61.types.SsdTypes.{Octopus, OctopusID}
+import au.csiro.data61.types.SsdTypes.{SsdID, OwlID, Octopus, OctopusID}
 import au.csiro.data61.types.Training.{Status, TrainState}
 import io.finch._
 
@@ -275,9 +275,9 @@ object OctopusAPI extends RestAPI {
 
       name <- parseOption[String]("name", raw)
 
-      ssds <- parseOption[List[Int]]("ssds", raw)
+      ssds <- parseOption[List[SsdID]]("ssds", raw)
 
-      ontologies <- parseOption[List[Int]]("ontologies", raw)
+      ontologies <- parseOption[List[OwlID]]("ontologies", raw)
 
       modelingProperties <- parseOption[ModelingProperties]("modelingProps", raw)
 

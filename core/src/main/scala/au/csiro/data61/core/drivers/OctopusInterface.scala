@@ -17,7 +17,7 @@
   */
 package au.csiro.data61.core.drivers
 
-import java.nio.file.{Files, Path}
+import java.nio.file.{Paths, Files, Path}
 
 import au.csiro.data61.core.api._
 import au.csiro.data61.core.drivers.Generic._
@@ -242,6 +242,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
         case Success(res: (Option[Path], Option[Path])) =>
           processPaths(id, model.id, res)
         case Failure(err) =>
+          err.printStackTrace()
           val msg = s"Failed to train octopus $id: ${err.getMessage}."
           logger.error(msg)
           ModelStorage.updateTrainState(model.id, Status.ERROR, msg, None)
@@ -307,22 +308,26 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
   private def launchOctopusTraining(id: OctopusID)(implicit ec: ExecutionContext): Future[Option[Path]] = {
 
     Future {
+
       val octopus = get(id).get
 
       // get SSDs for the training
       val knownSSDs: List[Ssd] = octopus.ssds.flatMap(SsdStorage.get)
 
       // get location strings of the ontologies
-      val ontologies: List[String] = octopus.ontologies
+      val ontologies = octopus.ontologies
         .flatMap(OwlStorage.getOwlDocumentPath)
         .map(_.toString)
 
       // proceed with training...
-      TrainOctopus.train(octopus,
+      val finalPath = TrainOctopus.train(
+        octopus,
         OctopusStorage.getAlignmentDirPath(id),
         ontologies,
         knownSSDs
       )
+      logger.info(s"Train complete: $finalPath")
+      finalPath
     }
   }
 

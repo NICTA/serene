@@ -189,7 +189,7 @@ object SsdAPI extends RestAPI {
   */
 case class SsdRequest(
     name: Option[String],
-    ontologies: Option[List[SsdID]],
+    ontologies: Option[List[Int]],
     semanticModel: Option[SemanticModel],
     mappings: Option[SsdMapping]) {
   /**

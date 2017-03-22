@@ -286,7 +286,9 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
           // first we set the model state to training....
           storage.updateTrainState(id, Status.BUSY)
           // in the background we launch the training...
-          ModelTrainer.train(id).flatMap { storage.addModel(id, _) }
+          val path = ModelTrainer.train(id).flatMap { storage.addModel(id, _) }
+          logger.info(s"Model training completed successfully: $path")
+          path
         case _ =>
           // we shouldn't actually have this option now
           model.modelPath

@@ -34,7 +34,7 @@ import scala.util.{Failure, Success, Try}
 object OwlStorage extends Storage[OwlID, Owl] {
   val DocumentFileName: String = "document"
 
-  override implicit val keyReader: Readable[OwlID] = Readable.ReadableInt
+  override implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
   override protected def rootDir: String =
     Paths.get(Serene.config.storageDirs.owl).toAbsolutePath.toString
@@ -47,7 +47,7 @@ object OwlStorage extends Storage[OwlID, Owl] {
     * @param id The ID of the OWL document.
     * @return The path to the OWL document file.
     */
-  def getOwlDocumentPath(id: OwlID): Option[Path] = {
+  def getOwlDocumentPath(id: Int): Option[Path] = {
     get(id).map ( x =>
       getPath(id).resolveSibling(s"$id-$DocumentFileName.${x.format}")
     )
