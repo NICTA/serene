@@ -227,4 +227,7 @@ case class SsdRequest(
  *
   * @param predictions Ordered list of predictions
   */
-case class SsdResults(predictions: List[(SsdRequest, SemanticScores)])
+case class SsdResults(predictions: List[SsdResult])
+
+case class SsdResult(ssd: SsdRequest, score: SemanticScores)
+
