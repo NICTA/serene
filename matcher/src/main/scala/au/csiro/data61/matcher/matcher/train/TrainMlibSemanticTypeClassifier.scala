@@ -29,7 +29,7 @@ import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features._
 import com.typesafe.scalalogging.LazyLogging
 
-import scala.util.{Failure, Success, Try}
+import scala.util.{Random, Failure, Success, Try}
 
 /**
   * NOTE: in case the training data is small we need to reduce numTrees otherwise Spark fails!!!
@@ -224,7 +224,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
         .setStages(Array(indexer, vecAssembler, finalModelEstimator, labelConverter))
       // FIXME: if we have more than 400 features, this will fail!
       if (featureNames.size > 399) {
-        logger.warn("Spark cannot handle situations when there are tooo many features!")
+        logger.warn("Spark cannot handle situations when there are too many features!")
       }
       finalPipeline.fit(dataDf)
     } match {
@@ -325,12 +325,13 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     implicit val spark = setUpSpark(numWorkers)
 
     val allAttributes = DataModel.getAllAttributes(trainingData)
+
     logger.info(s"   obtained ${allAttributes.size} attributes")
     // generate feature extractors --> main thing here is construction of example-based feature extractors
     // we do it before resampling!
     val featureExtractors = FeatureExtractorUtil
       .generateSimpleFeatureExtractors(classes, allAttributes, trainingSettings, labels)
-    //resampling
+
     val resampledAttrs = resampleModelAttributes(allAttributes, labels, trainingSettings)
 
     val (features: List[(List[Double], String)], featureNames: List[String]) =
@@ -343,12 +344,10 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
           StructField(n, DoubleType, true) // nullable property
         }
     )
-
     //convert instance features into Spark Row instances
     logger.info(s"   extracted ${features.size} instances")
     logger.info(s"   feature vector size: ${featureNames.size}")
-    val data: List[Row] = features
-      .map {
+    val data: List[Row] = features.map {
         case (fvals, label) =>
           Row.fromSeq(label +: fvals)
       }

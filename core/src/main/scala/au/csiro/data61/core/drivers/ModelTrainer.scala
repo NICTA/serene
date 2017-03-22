@@ -25,6 +25,7 @@ import au.csiro.data61.core.api.{InternalException, NotFoundException}
 import au.csiro.data61.core.storage.ModelStorage._
 import au.csiro.data61.core.{Config, Serene}
 import au.csiro.data61.core.storage.{DatasetStorage, JsonFormats, MatcherConstants, ModelStorage}
+import au.csiro.data61.types.DataSetTypes.DataSetID
 import au.csiro.data61.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features._
@@ -86,20 +87,22 @@ object ModelTrainer extends LazyLogging with JsonFormats {
   /**
     * Returns a list of DataModel instances at path
     */
-  protected def getDataModels: List[DataModel] = {
+  protected def getDataModels(datasets: List[DataSetID]): List[DataModel] = {
     DatasetStorage
-      .getCSVResources
+      .getCSVResources(datasets)
       .map(CSVDataLoader().load)
   }
 
   /**
     * Returns a list of DataModel instances for the dataset repository
     */
-  protected def readTrainingData: DataModel = {
+  protected def readTrainingData(datasetIds: List[DataSetID]): DataModel = {
 
     logger.info(s"Reading training data...")
 
-    val datasets = getDataModels
+    val datasets = getDataModels(datasetIds)
+
+    logger.info(s"Read ${datasets.length} data models.")
 
     if (datasets.isEmpty) { // training dataset has to be non-empty
       logger.error("No csv training datasets have been found.")
@@ -130,6 +133,7 @@ object ModelTrainer extends LazyLogging with JsonFormats {
 
   /**
     * This method writes JSON for featureExtractors which are generated during the training process.
+    *
     * @param id Model id
     * @param featureExtractors List of feature extractors: both single and group
     * @return
@@ -166,6 +170,7 @@ object ModelTrainer extends LazyLogging with JsonFormats {
 
   /**
     * Write Spark pipeline model.
+    *
     * @param id id of the model
     * @param pipeModel Spark pipelinemodel
     */
@@ -184,6 +189,7 @@ object ModelTrainer extends LazyLogging with JsonFormats {
 
   /**
     * Write feature importances for the model to the file.
+    *
     * @param id model id
     * @param randomForestSchemaMatcher Trained model returned by schema matcher code
     */
@@ -233,51 +239,80 @@ object ModelTrainer extends LazyLogging with JsonFormats {
 
   /**
     * Performs training for the model and returns serialized object for the learned model
+    * @param id The model ID to train
+    * @return
     */
   def train(id: ModelID): Option[SerializableMLibClassifier] = {
     logger.info(s"    train called for model $id")
     ModelStorage.identifyPaths(id)
-      .map(cts  => {
+      .flatMap(cts  => {
+
         if (!Files.exists(Paths.get(cts.workspacePath))) {
           val msg = s"Workspace directory for the model $id does not exist."
           logger.error(msg)
           throw NotFoundException(msg)
         }
-
         logger.info("Attempting to create training object..")
 
-        val dataTrainModel = DataintTrainModel(
-          classes = cts.curModel.classes,
-          trainingSet = readTrainingData,
-          labels = readLabeledData(cts),
-          trainSettings = readSettings(cts),
-          postProcessingConfig = None)
-
-        logger.info(s"    created data training model!")
-
-        dataTrainModel
+        createTrainModel(id, cts)
       })
-      .map(dt => {
+      .map(createMLibClassifier(id, _))
+  }
 
-        val trainer = TrainMlibSemanticTypeClassifier(dt.classes, doCrossValidation = false)
+  /**
+    * Creates the DataintTrainModel object
+    * @param id The model ID to train
+    * @param cts The model training paths
+    * @return
+    */
+  protected def createTrainModel(id: ModelID, cts: ModelTrainerPaths): Option[DataintTrainModel] = {
+    val dataTrainModelOpt = for {
+      model <- ModelStorage.get(id)
 
-        val randomForestSchemaMatcher = trainer.train(
-          dt.trainingSet,
-          dt.labels,
-          dt.trainSettings,
-          dt.postProcessingConfig,
-          numWorkers = Serene.config.numWorkers,
-          parallelFeatureExtraction = Serene.config.parallelFeatureExtraction)
+      columnKeys = model.labelData.keys.toSet
 
-        writeFeatureImportances(id, randomForestSchemaMatcher)
+      columns = DatasetStorage.columnMap.filterKeys(columnKeys.contains).values
 
-        SerializableMLibClassifier(
-          randomForestSchemaMatcher.model,
-          dt.classes,
-          randomForestSchemaMatcher.featureExtractors,
-          randomForestSchemaMatcher.postProcessingConfig)
-      })
+      datasets = columns.map(_.datasetID).toList
 
+      dataTrainModel = DataintTrainModel(
+        classes = cts.curModel.classes,
+        trainingSet = readTrainingData(datasets),
+        labels = readLabeledData(cts),
+        trainSettings = readSettings(cts),
+        postProcessingConfig = None)
+
+    } yield dataTrainModel
+
+    logger.info(s"    created data training model!")
+    dataTrainModelOpt
+  }
+
+  /**
+    * Creates the SerializableMLibClassifier
+    * @param id The ModelID
+    * @param dt The trained model object
+    * @return
+    */
+  protected def createMLibClassifier(id: ModelID, dt: DataintTrainModel): SerializableMLibClassifier = {
+
+    val trainer = TrainMlibSemanticTypeClassifier(dt.classes, doCrossValidation = false)
+
+    val randomForestSchemaMatcher = trainer.train(
+      dt.trainingSet,
+      dt.labels,
+      dt.trainSettings,
+      dt.postProcessingConfig,
+      numWorkers = Serene.config.numWorkers,
+      parallelFeatureExtraction = Serene.config.parallelFeatureExtraction)
+
+    writeFeatureImportances(id, randomForestSchemaMatcher)
+
+    SerializableMLibClassifier(
+      randomForestSchemaMatcher.model,
+      dt.classes,
+      randomForestSchemaMatcher.featureExtractors,
+      randomForestSchemaMatcher.postProcessingConfig)
   }
 
 }
