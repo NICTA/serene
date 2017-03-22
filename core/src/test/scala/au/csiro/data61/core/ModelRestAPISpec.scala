@@ -502,8 +502,6 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   test("POST /v1.0/model should create correct refDataSets") (new TestServer {
     try {
       val TestStr = randomString
-      val PollTime = 1000
-      val PollIterations = 10
 
       // first we add a simple dataset
       val ds = createDataSet(this)
@@ -748,9 +746,6 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   test("DELETE /v1.0/dataset/:id will not delete dataset since model depends on it") (new TestServer {
     try {
       val TestStr = randomString
-      val PollTime = 1000
-      val PollIterations = 10
-
       // first we add a simple dataset
       val ds = createDataSet(this)
 
@@ -807,13 +802,13 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
 
   test("POST /v1.0/model/:id/train accepts request and completes successfully") (new TestServer {
     try {
-      val PollTime = 2000
-      val PollIterations = 20
+      val PollTime = 1000
+      val PollIterations = 60
 
       val (model, _) = trainDefault()
       val trained = pollModelState(model, PollIterations, PollTime)
 
-      val state = concurrent.Await.result(trained, 30 seconds)
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
       assert(state === Training.Status.COMPLETE)
 
@@ -826,13 +821,13 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
 
   test("POST /v1.0/model/:id/train with bagging accepts request and completes successfully") (new TestServer {
     try {
-      val PollTime = 2000
-      val PollIterations = 20
+      val PollTime = 1000
+      val PollIterations = 60
 
       val (model, _) = trainDefault(resamplingStrategy="Bagging", bagSize=Some(100), numBags=Some(10))
       val trained = pollModelState(model, PollIterations, PollTime)
 
-      val state = concurrent.Await.result(trained, 30 seconds)
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
       assert(state === Training.Status.COMPLETE)
 
@@ -847,7 +842,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
     try {
       val TestStr = randomString
       val PollTime = 1000
-      val PollIterations = 10
+      val PollIterations = 20
 
       // next we train the dataset
       createModel(defaultClasses, Some(TestStr), Some(Map.empty[String, String])) match {
@@ -864,7 +859,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
 
           val trained = pollModelState(model, PollIterations, PollTime)
 
-          val state = concurrent.Await.result(trained, 15 seconds)
+          val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
           assert(response.status === Status.Accepted)
           assert(response.contentString.isEmpty)
@@ -883,7 +878,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   test("POST /v1.0/model/:id/train should immediately return busy") (new TestServer {
     try {
       val PollTime = 1000
-      val PollIterations = 10
+      val PollIterations = 20
 
       val (model, _) = trainDefault()
 
@@ -893,7 +888,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 15 seconds)
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
       assert(state === Training.Status.COMPLETE)
 
@@ -907,13 +902,13 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   test("POST /v1.0/model/:id/train once trained should return cached value immediately") (new TestServer {
     try {
       val PollTime = 1000
-      val PollIterations = 10
+      val PollIterations = 20
 
       val (model, _) = trainDefault()
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 20 seconds)
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
       assert(state === Training.Status.COMPLETE)
 
@@ -944,13 +939,13 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   test("POST /v1.0/model/:id/train once trained should return busy if model is changed") (new TestServer {
     try {
       val PollTime = 1000
-      val PollIterations = 10
+      val PollIterations = 60
 
       val (model, _) = trainDefault()
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 15 seconds)
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
       assert(state === Training.Status.COMPLETE)
 
@@ -990,13 +985,13 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   test("POST /v1.0/model/:id/train creates default Model file with default features and NoResampling") (new TestServer {
     try {
       val PollTime = 1000
-      val PollIterations = 20
+      val PollIterations = 60
 
       val (model, ds) = trainDefault(resamplingStrategy="NoResampling", features = defaultFeatures)
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 15 seconds)
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
       assert(state === Training.Status.COMPLETE)
 
@@ -1042,13 +1037,13 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   test("POST /v1.0/model/:id/train creates default Model file with full features and NoResampling") (new TestServer {
     try {
       val PollTime = 1000
-      val PollIterations = 20
+      val PollIterations = 60
 
       val (model, ds) = trainDefault(resamplingStrategy="NoResampling", features = fullFeatures)
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 15 seconds)
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
       assert(state === Training.Status.COMPLETE)
 
@@ -1117,13 +1112,13 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   test("POST /v1.0/model/:id/predict/:id returns successfully") (new TestServer {
     try {
       val PollTime = 1000
-      val PollIterations = 10
+      val PollIterations = 60
 
       val (model, ds) = trainDefault()
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 30 seconds)
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
       assert(state === Training.Status.COMPLETE)
 
@@ -1181,14 +1176,14 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   test("POST /v1.0/model/:id/predict/:id returns predictions with validation > 0.9") (new TestServer {
     try {
       val PollTime = 1000
-      val PollIterations = 10
+      val PollIterations = 60
 
       // ResampleToMean gives worse performance than upsampletomax or noresampling!
       val (model, ds) = trainDefault(features = fullFeatures, resamplingStrategy = "UpsampleToMax")
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 30 seconds)
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
       assert(state === Training.Status.COMPLETE)
 
