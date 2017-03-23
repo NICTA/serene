@@ -48,12 +48,13 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
 
   val ssdDir = getClass.getResource("/ssd").getPath
 
-  def emptySSD: String = Paths.get(ssdDir,"empty_model.ssd") toString
-  def exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
-  def mapJson: String = Paths.get(ssdDir,"mappings_sample.json") toString
-  def testJson: String = Paths.get(ssdDir,"test.json") toString
+  val emptySSD: String = Paths.get(ssdDir,"empty_model.ssd") toString
+  val exampleSSD: String = Paths.get(ssdDir,"businessInfo.ssd") toString
+  val museumSSD: String = Paths.get(ssdDir,"s03-ima-artists.ssd") toString
+  val mapJson: String = Paths.get(ssdDir,"mappings_sample.json") toString
+  val testJson: String = Paths.get(ssdDir,"test.json") toString
 
-  def dummyGraph: Graph[SsdNode, SsdLink] = {
+  val dummyGraph: Graph[SsdNode, SsdLink] = {
     val ssdLab1: SsdLabel = SsdLabel("Person", "ClassNode")
     val ssdLab2: SsdLabel = SsdLabel("name", "DataNode")
     val n1: SsdNode = SsdNode(1, ssdLab1)
@@ -62,12 +63,12 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
     Graph(SsdLink(n1,n2,1,linkLab))
   }
 
-  def dummyCol: SsdColumn = SsdColumn(1, "ceo")
-  def dummyAttr: SsdAttribute = SsdAttribute(1, "ceo", "ident", List(1), "select ceo from 'businessInfo.csv'")
-  def dummyAttr2: SsdAttribute = SsdAttribute(1, "ceo", "ident", List(2), "select ceo from 'businessInfo.csv'")
-  def dummyMap: SsdMapping = SsdMapping(Map(1 -> 2))
-  def dummyMap2: SsdMapping = SsdMapping(Map(1 -> 2, 1 -> 4))
-  def dummyMap3: SsdMapping = SsdMapping(Map(1 -> 2, 3 -> 1))
+  val dummyCol: SsdColumn = SsdColumn(1, "ceo")
+  val dummyAttr: SsdAttribute = SsdAttribute(1, "ceo", "ident", List(1), "select ceo from 'businessInfo.csv'")
+  val dummyAttr2: SsdAttribute = SsdAttribute(1, "ceo", "ident", List(2), "select ceo from 'businessInfo.csv'")
+  val dummyMap: SsdMapping = SsdMapping(Map(1 -> 2))
+  val dummyMap2: SsdMapping = SsdMapping(Map(1 -> 2, 1 -> 4))
+  val dummyMap3: SsdMapping = SsdMapping(Map(1 -> 2, 3 -> 1))
 
 
   /**
@@ -240,6 +241,25 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
     }
   }
 
+  test("Read museum ssd from file"){
+    Try {
+      val stream = new FileInputStream(Paths.get(museumSSD).toFile)
+      parse(stream).extract[Ssd]
+    } match {
+      case Success(ssd) =>
+
+        assert(ssd.name === "s03-ima-artists.xml")
+        assert(ssd.attributes.size === 2)
+        assert(getMappingSize(ssd) === 2)
+        assert(getSMNodes(ssd).size === 3)
+        assert(getSMLinks(ssd).size === 2)
+        assert(ssd.isConsistent)
+        assert(ssd.isComplete)
+      case Failure(err) =>
+        fail(err.getMessage)
+    }
+  }
+
   test("Read empty ssd from file"){
     Try {
       val stream = new FileInputStream(Paths.get(emptySSD).toFile)
@@ -259,3 +279,4 @@ class SemanticSourceSpec  extends FunSuite with ModelerJsonFormats with BeforeAn
   }
 
 }
+
