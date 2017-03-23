@@ -351,7 +351,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
   }
 
   /**
-    * Helper Function to get the uri of the link if it is of type DataPropertyLink.
+    * Helper Function to get the uri of the link if it is of type DataPropertyLink or ClassInstanceLink.
     *
     * @param edge Link in the semantic model.
     * @return
@@ -359,6 +359,8 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
   private def getDataPropertyUri(edge: LinkT): Option[String] ={
     edge.ssdLabel.labelType match {
       case "DataPropertyLink" =>
+        Some(edge.ssdLabel.getURI)
+      case "ClassInstanceLink" =>
         Some(edge.ssdLabel.getURI)
       case _ =>
         None
@@ -399,7 +401,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
               case _ =>
                 logger.error(s"We cannot identify DataPropertyLink for DataNode $nodeID.")
                 logger.debug(s"ClassName= $className")
-                logger.debug(s"${nn.incoming.flatMap(e => getDataPropertyUri(e.asInstanceOf[LinkT])).toList}")
+                logger.debug(s"Data properties=${nn.incoming.flatMap(e => getDataPropertyUri(e.asInstanceOf[LinkT])).toList}")
                 throw TypeException(s"We cannot identify DataPropertyLink for DataNode $nodeID.")
             }
 
@@ -606,7 +608,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * @param ontoManager OntologyManager from Karma
     */
   def toKarmaGraph(ssdMappings: SsdMapping, ontoManager: OntologyManager): KarmaGraph = {
-    logger.info("Converting SemanticModel to KarmaGraph...")
+    logger.debug("Converting SemanticModel to KarmaGraph...")
     // Converting node types:
     //  Nodes which are in ssdMappings -> ColumnNode
     //  Nodes of type ClassNode -> InternalNode

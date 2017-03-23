@@ -155,7 +155,7 @@ object SsdTypes {
   * @param id ID of the dataset
   * @param name Name of the dataset
   * @param attributes List of attributes = transformed columns
-  * @param ontologies List of location path strings of ontologies
+  * @param ontologies List of ids of ontologies which are stored in OwlStorage
   * @param semanticModel Semantic Model of the data source; optional
   * @param mappings Mappings between attribute ids of the data source and node ids in the semantic model; optional
   * @param dateCreated Date when it was created
@@ -176,26 +176,23 @@ case class Ssd(id: SsdID,
     * -- mappings: from existing attribute to existing node
     */
   def isConsistent: Boolean = {
-    // mappings refer to attributeIDs which are available among attributes
-    val attrIdCheck: Boolean = mappings match {
-      case Some(maps) => maps.mappings.keys
-        .forall(attributes.map(_.id).contains)
-      case None => true
-    }
 
-    // mappings refer to nodeIDs which exist in the semantic model
-    val nodeIdCheck: Boolean = mappings match {
-      case Some(maps) => maps.mappings.values
-        .forall(getSMNodeIds.contains)
-      case None => true
-    }
-      // we map to distinct nodes in the semantic model
-    val distinctCheck = mappings match {
-      case Some(maps) => maps.mappings.values.toList.distinct.size == maps.mappings.values.size
-      case None => true
-    }
+    mappings match {
 
-    attrIdCheck && nodeIdCheck && distinctCheck
+      case None => true
+
+      case Some(maps) =>
+        // mappings refer to attributeIDs which are available among attributes
+        val attrIdCheck = maps.mappings.keys.forall(attributes.map(_.id).contains)
+        // attributes get mapped only once
+        val attrDistinctCheck = maps.mappings.keys.toSet.size == maps.mappings.keys.size
+        // mappings refer to nodeIDs which exist in the semantic model
+        val nodeIdCheck = maps.mappings.values.forall(getSMNodeIds.contains)
+        // we map to distinct nodes in the semantic model
+        val distinctCheck = maps.mappings.values.toSet.size == maps.mappings.values.size
+
+        attrIdCheck && attrDistinctCheck && nodeIdCheck && distinctCheck
+    }
   }
 
   /**
