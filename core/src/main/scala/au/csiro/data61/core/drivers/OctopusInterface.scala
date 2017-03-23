@@ -572,26 +572,14 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
     if (givenSSDs.isEmpty) {
       // everything is empty if there are no SSDs
-      logger.debug("Everything is empty in SSD.")
+      logger.warn("Everything is empty in SSD.")
       SemanticTypeObject(None, None, Map.empty[String,String])
     }
     else {
       // here we want to get a map from AttrID to (URI of class node, URI of data node)
-      // TODO: the mapping can be to the ClassNode
-      val ssdMaps: List[(AttrID, (String, String))] = givenSSDs
-        .flatMap(SsdStorage.get)
-        .filter(_.mappings.isDefined)
-        .filter(_.semanticModel.isDefined)
-        .flatMap { ssd: Ssd =>
-          ssd.mappings.get.mappings.map { // SSDs contain SSDMapping which is a mapping AttrID --> NodeID
-            case (attrID, nodeID) =>
-              (attrID,
-                ssd.semanticModel
-                  .flatMap(_.getDomainType(nodeID)) // FIXME: what if the mapping is to the class node and not the data node?!
-                  .getOrElse(throw InternalException(
-                    "Semantic Source Description is not properly formed: problems with mappings or semantic model.")))
-            } toList
-        }
+      val ssdMaps: List[(AttrID, (String, String))] = processSsdMappings(givenSSDs)
+
+      logger.debug(s"semantic labels for attributes: $ssdMaps")
 
       val semanticTypeMap: Map[String, String] = ssdMaps.flatMap {
         // TODO: what if we have the same labels with different namespaces? Only one will be picked here
@@ -599,13 +587,16 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
           List(splitURI(classURI), splitURI(propURI))
       }.toMap
 
+      logger.debug(s"semantic type map: $semanticTypeMap")
+
       // semantic type (aka class label) is constructed as "the label of class URI"---"the label of property URI"
-      // TODO: what if the column is mapped to the class node?
       // TODO: add unknown class columns
       val labelData: Map[Int, String] = ssdMaps.map {
         case (attrID: Int, (classURI, propURI)) =>
           (attrID, constructLabel(classURI,propURI))
       } toMap
+
+      logger.debug(s"label data: $labelData")
 
       val classes: List[String] = labelData.map {
         case (attrID, semType) =>
@@ -614,6 +605,31 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
       SemanticTypeObject(Some(classes), Some(labelData), semanticTypeMap)
     }
+  }
+
+  /**
+    * Helper function to convert mappings {attrID -> nodeID} to
+    * the format {attrID -> (ClassURI, PropURI)}
+    * @param givenSSDs List of ids for ssds
+    * @return
+    */
+  protected def processSsdMappings(givenSSDs: List[SsdID]):List[(AttrID, (String, String))] = {
+    // TODO: the mapping can be to the ClassNode
+    givenSSDs
+      .flatMap(SsdStorage.get)
+      .filter(_.mappings.isDefined)
+      .filter(_.semanticModel.isDefined)
+      .flatMap { ssd: Ssd =>
+        logger.debug(s"    working on ssd: (${ssd.id}, ${ssd.name})")
+        ssd.mappings.get.mappings.map { // SSDs contain SSDMapping which is a mapping AttrID --> NodeID
+          case (attrID, nodeID) =>
+            (attrID,
+              ssd.semanticModel
+                .flatMap(_.getDomainType(nodeID)) // FIXME: what if the mapping is to the class node and not the data node?!
+                .getOrElse(throw InternalException(
+                "Semantic Source Description is not properly formed: problems with mappings or semantic model.")))
+        } toList
+      }
   }
 
   /**

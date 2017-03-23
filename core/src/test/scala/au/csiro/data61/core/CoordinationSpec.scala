@@ -40,6 +40,8 @@ import com.twitter.io.Buf.ByteArray
 import com.twitter.io.{Buf, Reader}
 import com.twitter.util.{Await, Return, Throw}
 import org.json4s.jackson.Serialization._
+import org.junit.runner.RunWith
+import org.scalatest.junit.JUnitRunner
 
 //import scala.concurrent._
 import org.scalatest.concurrent._
@@ -60,6 +62,7 @@ import org.json4s.jackson.JsonMethods._
 /**
   * Tests for the coordination between different storage layers and apis.
   */
+@RunWith(classOf[JUnitRunner])
 class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging {
 
   val SsdDocument = new File(getClass.getResource("/ssd/request.ssd").toURI)
@@ -80,6 +83,9 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
 
   val exampleOwl = Paths.get(owlDir, "dataintegration_report_ontology.ttl").toFile
   val exampleOwlFormat = OwlDocumentFormat.Turtle
+
+  val museumDs = Paths.get(getClass.getResource("/helper/s27-s-the-huntington.json.csv").getPath).toFile
+  val inconsistentSsd = Paths.get(ssdDir, "inconsistent_s27.ssd").toFile
 
   lazy val PollTime = 2000
   lazy val PollIterations = 20
@@ -141,6 +147,9 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
 
   def requestSsdCreation(document: SsdRequest)
                         (implicit server: TestServer): Try[(Status, String)] = Try {
+
+    println("//////////////////////")
+    println(document)
     val request = Request(Post, s"/$APIVersion/ssd")
     request.content = ByteArray(write(document).getBytes: _*)
     request.contentType = "application/json"
@@ -206,7 +215,7 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
     */
   def bindSsd(datasetDocument: File,
               ssdDocument: File,
-              ontologies: List[OwlID])(implicit server: TestServer): Try[Ssd] = Try {
+              ontologies: List[OwlID])(implicit server: TestServer): Try[SsdRequest] = Try {
     val dataset = createDataset(datasetDocument, "ref dataset").get
     val originalSsd = parse(ssdDocument).extract[Ssd]
 
@@ -214,20 +223,42 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
       .map {
         attr => attr.id -> attr.name
       } toMap
-    val colNameMap: Map[String, ColumnID] = dataset.columns.map { c => c.name -> c.id} toMap
+
+
+    val colNameMap: Map[String, ColumnID] = dataset.columns.map { c => c.name -> c.id } toMap
+
     val newMappings: Option[SsdMapping] = originalSsd.mappings
       .map {
         maps =>
           SsdMapping(maps.mappings
             .map {
-              case (aID,nID) => (colNameMap(attrNameMap(aID)), nID)
+              case (aID, nID) => (colNameMap(attrNameMap(aID)), nID)
             })
       }
 
+    println(s"new mappings: ${newMappings.get.mappings.size}")
+
     val newSsd = originalSsd.copy(ontologies = ontologies, mappings = newMappings)
 
-    val request = convertSsd(newSsd)
-    createSsd(request).get
+    convertSsd(newSsd)
+  }
+
+
+  /**
+    * Binds ssd from the json file to a csv file using ontologies and then upload
+    * @param datasetDocument
+    * @param ssdDocument
+    * @param ontologies
+    * @param server
+    * @return
+    */
+  def createBoundSsd(datasetDocument: File,
+                     ssdDocument: File,
+                     ontologies: List[OwlID])(implicit server: TestServer): Try[Ssd] = {
+    for {
+      request <- bindSsd(datasetDocument, ssdDocument, ontologies)
+      ssd <- createSsd(request)
+    } yield ssd
   }
 
   def listSsds(implicit server: TestServer): Try[List[SsdID]] = Try {
@@ -380,7 +411,7 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
   test("POST cities ssd responds Ok")(new TestServer {
     try {
       val createdOwl: Owl = createOwl(exampleOwl, exampleOwlFormat).get
-      val createdSsd: Ssd = bindSsd(citiesDs, citiesSsd, List(createdOwl.id)).get
+      val createdSsd: Ssd = createBoundSsd(citiesDs, citiesSsd, List(createdOwl.id)).get
 
       assert(createdSsd.isComplete)
       assert(createdSsd.isConsistent)
@@ -397,7 +428,7 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
   test("DELETE owl responds BadRequest due to dependent ssd")(new TestServer {
     try {
       val createdOwl: Owl = createOwl(exampleOwl, exampleOwlFormat).get
-      val createdSsd: Ssd = bindSsd(citiesDs, citiesSsd, List(createdOwl.id)).get
+      val createdSsd: Ssd = createBoundSsd(citiesDs, citiesSsd, List(createdOwl.id)).get
 
       val (status, response)  = requestOwlDeletion(createdOwl.id).get
       assert(status === Status.BadRequest)
@@ -417,7 +448,7 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
   test("POST training for simple octopus accepted and completed")(new TestServer {
     try {
       val createdOwl: Owl = createOwl(exampleOwl, exampleOwlFormat).get
-      val createdSsd: Ssd = bindSsd(businessDs, businessSsd, List(createdOwl.id)).get
+      val createdSsd: Ssd = createBoundSsd(businessDs, businessSsd, List(createdOwl.id)).get
 
       val octopus = createOctopus(List(createdSsd.id), List(createdOwl.id))
 
@@ -449,7 +480,7 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
   test("DELETE model responds BadRequest due to dependent octopus")(new TestServer {
     try {
       val createdOwl: Owl = createOwl(exampleOwl, exampleOwlFormat).get
-      val createdSsd: Ssd = bindSsd(businessDs, businessSsd, List(createdOwl.id)).get
+      val createdSsd: Ssd = createBoundSsd(businessDs, businessSsd, List(createdOwl.id)).get
 
       val octopus = createOctopus(List(createdSsd.id), List(createdOwl.id))
 
@@ -467,4 +498,31 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
     }
   })
 
+  test("POST ssd responds BadRequest since SSD is inconsistent") (new TestServer {
+    try {
+
+      val resp = for {
+        createdOwl <- createOwl(exampleOwl, exampleOwlFormat)
+        createdSsd <- bindSsd(museumDs, inconsistentSsd, List(createdOwl.id))
+        response <- requestSsdCreation(createdSsd)
+      } yield response
+
+      println(resp)
+      assert(resp.isSuccess)
+      assert(resp.get._1 === Status.BadRequest)
+      assert(resp.get._2.nonEmpty)
+      println(resp.get._2)
+
+
+      //      assert(rstatus === Status.BadRequest)
+//      println(rcontent)
+
+    } finally {
+//      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
 }
+
