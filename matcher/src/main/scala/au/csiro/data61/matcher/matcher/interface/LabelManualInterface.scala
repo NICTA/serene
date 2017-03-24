@@ -7,7 +7,7 @@ import java.io._
 
 case class LabelManualInterface(datasourcePath: String, dataRepoPath: String, classListPath: String) {
 
-    val dataLoader = CSVDataLoader()
+    val dataLoader = CsvDataLoader()
     val datasource = dataLoader.load(datasourcePath)
     val attributes = DataModel.getAllAttributes(datasource)
 

@@ -20,7 +20,7 @@ trait USGovDataCarParkingDomainUtils {
         })
 
         filesList.map({case f => {
-            CSVDataLoader("US").loadTable(dataPath, f, "US")
+            CsvDataLoader("US").loadTable(dataPath, f, "US")
         }}).toList
     }
 

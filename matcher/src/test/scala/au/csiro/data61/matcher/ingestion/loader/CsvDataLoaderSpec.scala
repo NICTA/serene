@@ -39,7 +39,7 @@ class CSVDataLoaderSpec extends mutable.Specification {
 
   s"""CSVDataLoader load centrelink-locations.csv""" should {
     s"load and parse csv data" in {
-      val dataset = CSVDataLoader("testdb").load(Paths.get(helperDir, "data.gov.au", "db5").toString)
+      val dataset = CsvDataLoader("testdb").load(Paths.get(helperDir, "data.gov.au", "db5").toString)
       val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
       val values = DataModel.getAllAttributes(dataset).map(_.values.size)
 
@@ -54,7 +54,7 @@ class CSVDataLoaderSpec extends mutable.Specification {
 
   s"""CSVDataLoader loads no_header.csv""" should {
     s"create attributes with no Metadata" in {
-      val dataset = CSVDataLoader("no_header").load(Paths.get(helperDir, "no_header.csv").toString)
+      val dataset = CsvDataLoader("no_header").load(Paths.get(helperDir, "no_header.csv").toString)
       val headers = DataModel.getAllAttributes(dataset).map(_.metadata)
       val values = DataModel.getAllAttributes(dataset).map(_.values.size)
 

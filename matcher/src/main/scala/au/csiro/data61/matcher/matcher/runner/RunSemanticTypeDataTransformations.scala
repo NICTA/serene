@@ -28,7 +28,7 @@ object RunSemanticTypeDataTransformations {
             val outputPath = args(3)
 
             println("Loading raw data...")
-            val dataLoader = CSVDataLoader()
+            val dataLoader = CsvDataLoader()
             val rawData = dataLoader.load(rawDataPath)
             println("Raw data loaded.")
 

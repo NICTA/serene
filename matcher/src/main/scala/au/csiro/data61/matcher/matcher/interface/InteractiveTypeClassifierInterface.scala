@@ -8,7 +8,7 @@ import java.io._
 
 case class InteractiveTypeClassifierInterface(datasourcePath: String, modelPath: String, labelsPath: String, classListPath: String) {
 
-    val dataLoader = CSVDataLoader()
+    val dataLoader = CsvDataLoader()
     val datasource = dataLoader.load(datasourcePath)
     val attributes = DataModel.getAllAttributes(datasource)
 

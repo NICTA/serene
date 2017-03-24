@@ -43,7 +43,7 @@ import scala.util.{Failure, Success, Try}
 
 // data integration project
 import au.csiro.data61.matcher.data.{DataModel, SemanticTypeLabels}
-import au.csiro.data61.matcher.ingestion.loader.{CSVDataLoader, SemanticTypeLabelsLoader}
+import au.csiro.data61.matcher.ingestion.loader.{CsvDataLoader, SemanticTypeLabelsLoader}
 import au.csiro.data61.matcher.matcher.features.FeatureSettings
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
 import au.csiro.data61.matcher.matcher.train.{TrainMlibSemanticTypeClassifier, TrainingSettings}
@@ -90,7 +90,7 @@ object ModelTrainer extends LazyLogging with JsonFormats {
   protected def getDataModels(datasets: List[DataSetID]): List[DataModel] = {
     DatasetStorage
       .getCSVResources(datasets)
-      .map(CSVDataLoader().load)
+      .map(CsvDataLoader().load)
   }
 
   /**
@@ -239,6 +239,7 @@ object ModelTrainer extends LazyLogging with JsonFormats {
 
   /**
     * Performs training for the model and returns serialized object for the learned model
+ *
     * @param id The model ID to train
     * @return
     */
@@ -261,6 +262,7 @@ object ModelTrainer extends LazyLogging with JsonFormats {
 
   /**
     * Creates the DataintTrainModel object
+ *
     * @param id The model ID to train
     * @param cts The model training paths
     * @return
@@ -290,6 +292,7 @@ object ModelTrainer extends LazyLogging with JsonFormats {
 
   /**
     * Creates the SerializableMLibClassifier
+ *
     * @param id The ModelID
     * @param dt The trained model object
     * @return
