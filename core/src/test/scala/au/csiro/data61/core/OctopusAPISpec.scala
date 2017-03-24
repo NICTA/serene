@@ -56,6 +56,8 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
   import OctopusAPI._
 
+  implicit val version = APIVersion
+
 //  override def afterEach(): Unit = {
 //    SsdStorage.removeAll()
 //    OctopusStorage.removeAll()
@@ -83,13 +85,11 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
     SsdStorage.removeAll()
     OwlStorage.removeAll()
-    DataSet.deleteAllDataSets()
+    server.deleteAllDatasets
   }
 
   val businessSsdID = 0
   val exampleOwlID = 1
-
-  val DataSet = new DatasetRestAPISpec
 
   def setUp(): Unit = {
     copySampleDatasets() // copy csv files for getCities and businessInfo
@@ -142,6 +142,8 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   val emptySSD: Ssd = readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
   val businessSSD: Ssd = readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
 
+  val inconsistentSsd = Paths.get(ssdDir, "inconsistent_business.ssd").toFile
+
   def defaultFeatures: JObject =
     ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
       "ratio-alpha-chars", "prop-numerical-chars",
@@ -170,6 +172,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     datasetMap("businessInfo").toString, datasetMap("businessInfo").toString + ".json")
   val citiesDsPath = Paths.get(sampleDsDir,
     datasetMap("getCities").toString, datasetMap("getCities").toString + ".json")
+
 
   /**
     * Manually add datasets to the storage layer since SSDs have hard-coded mappings for columns.

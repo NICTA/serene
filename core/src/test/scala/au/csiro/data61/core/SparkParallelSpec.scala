@@ -53,24 +53,7 @@ class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEac
 
   import ModelAPI._
 
-  /**
-    * Deletes all the models from the server. Assumes that
-    * the IDs are stored as positive integers
-    *
-    * @param server Reference to the TestServer used in a single test
-    */
-  def deleteAllModels()(implicit server: TestServer): Unit = {
-    val response = server.get(s"/$APIVersion/model")
-
-    if (response.status == Status.Ok) {
-      val str = response.contentString
-      val regex = "[0-9]+".r
-      val models = regex.findAllIn(str).map(_.toInt)
-      models.foreach { model =>
-        server.delete(s"/$APIVersion/model/$model")
-      }
-    }
-  }
+  implicit val version = APIVersion
 
   // we need a dataset server to hold datasets for training...
   val DataSet = new DatasetRestAPISpec
@@ -253,7 +236,7 @@ class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEac
     */
   def createDataSet(implicit server: TestServer): DataSet = {
     // first we add a dataset...
-    DataSet.createDataset(server, defaultDataSet, TypeMap, "homeseekers") match {
+    server.createDataset(Paths.get(defaultDataSet).toFile, "homeseekers", TypeMap) match {
       case Success(ds) =>
         ds
       case _ =>
@@ -351,8 +334,8 @@ class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEac
       assert(rfModel_default.featureImportances === rfModel_no.featureImportances)
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
 
@@ -389,8 +372,8 @@ class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEac
       assert(rfModel_default.featureImportances === rfModel_no.featureImportances)
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
 
@@ -439,8 +422,8 @@ class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEac
           fail("Prediction failed!!!")
       }
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
