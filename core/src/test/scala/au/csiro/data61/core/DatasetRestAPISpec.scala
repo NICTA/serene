@@ -45,6 +45,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
 
   import DatasetAPI._
 
+  implicit val version = APIVersion
   val Resource = getClass.getResource("/medium.csv").getPath
   val TinyResource = getClass.getResource("/tiny.csv").getPath
 

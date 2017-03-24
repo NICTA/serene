@@ -38,9 +38,12 @@ import com.typesafe.scalalogging.LazyLogging
 
 class SsdStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging{
 
+  val helperSpec = new CoordinationSpec
+
   val ssdDir = getClass.getResource("/ssd").getPath
-  def emptySsd: String = Paths.get(ssdDir, "empty_model.ssd") toString
-  def exampleSsd: String = Paths.get(ssdDir, "businessInfo.ssd") toString
+  val emptySsd: String = Paths.get(ssdDir, "empty_model.ssd") toString
+  val exampleSsd: String = Paths.get(ssdDir, "businessInfo.ssd") toString
+  val inconsistentSsd = Paths.get(ssdDir, "inconsistent_business.ssd").toFile
 
   override def beforeEach(): Unit = {
     SsdStorage.removeAll()
@@ -83,5 +86,19 @@ class SsdStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
         fail(err.getMessage)
     }
   }
+
+
+  //==============================================================================
+  test("POST ssd responds BadRequest since SSD is inconsistent") (new TestServer {
+    try {
+
+
+
+    } finally {
+      helperSpec.deleteAllSsds
+      helperSpec.deleteAllDatasets
+      assertClose()
+    }
+  })
 
 }

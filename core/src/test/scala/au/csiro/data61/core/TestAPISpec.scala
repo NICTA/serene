@@ -49,6 +49,8 @@ class TestAPISpec  extends FunSuite with JsonFormats {
 
   import au.csiro.data61.core.api.TestAPI._
 
+  implicit val version = APIVersion
+
   val ssdDir = getClass.getResource("/ssd").getPath
 
   def toSsdRequest(ssd: Ssd): SsdRequest = {

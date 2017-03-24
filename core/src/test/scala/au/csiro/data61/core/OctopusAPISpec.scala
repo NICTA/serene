@@ -279,6 +279,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     octopus
   }
 
+
   //=========================Tests==============================================
   test("GET /v1.0/octopus responds Ok(200)") (new TestServer {
     try {
@@ -795,34 +796,6 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       assertClose()
     }
   })
-
-
-  //==============================================================================
-//  test("POST ssd responds BadRequest since SSD is inconsistent") (new TestServer {
-//    try {
-//
-//      val resp = for {
-//        createdOwl <- createOwl(exampleOwl, exampleOwlFormat)
-//        createdSsd <- bindSsd(museumDs, inconsistentSsd, List(createdOwl.id))
-//        response <- requestSsdCreation(createdSsd)
-//      } yield response
-//
-//      println(resp)
-//      assert(resp.isSuccess)
-//      assert(resp.get._1 === Status.BadRequest)
-//      assert(resp.get._2.nonEmpty)
-//      println(resp.get._2)
-//
-//
-//      //      assert(rstatus === Status.BadRequest)
-//      //      println(rcontent)
-//
-//    } finally {
-//      //      deleteAllSsds
-//      deleteAllDatasets
-//      assertClose()
-//    }
-//  })
 
   //==============================================================================
   // Tests for octopus training endpoint
