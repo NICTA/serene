@@ -102,6 +102,7 @@ lazy val matcher = Project(
       "org.json4s"                  %% "json4s-native"         % "3.2.10",
       "com.typesafe.scala-logging"  %% "scala-logging"         % "3.4.0",
       "com.joestelmach"             %  "natty"                 % "0.8"
+      ,"com.github.tototoshi"       %% "scala-csv"             % "1.3.1"
     ),
 
     resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),

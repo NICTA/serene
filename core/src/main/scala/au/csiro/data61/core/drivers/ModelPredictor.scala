@@ -25,7 +25,7 @@ import au.csiro.data61.core.storage.{DatasetStorage, JsonFormats, ModelStorage}
 import au.csiro.data61.types.DataSetTypes.DataSetID
 import au.csiro.data61.types.ModelTypes.ModelID
 import au.csiro.data61.types._
-import au.csiro.data61.matcher.ingestion.loader.CSVDataLoader
+import au.csiro.data61.matcher.ingestion.loader.CsvDataLoader
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features.FeatureExtractor
 import au.csiro.data61.matcher.matcher.featureserialize.ModelFeatureExtractors
@@ -50,6 +50,7 @@ class ObjectInputStreamWithCustomClassLoader(fileInputStream: FileInputStream)
   /**
     * This is a special deserialization for custom objects.
     * Either this custom thing, or fork := true in sbt are needed!
+ *
     * @param desc
     * @return
     */
@@ -151,7 +152,7 @@ object ModelPredictor extends LazyLogging with JsonFormats {
 //    val absFilePath = Paths.get( dsPath.getParent.toString, dsPath.getFileName.toString).toString
     logger.info("   starting with csv reading for prediction...")
     val absFilePath = Paths.get(dsPath.getParent.toString, dsPath.getFileName.toString).toString
-    val dataset = CSVDataLoader().load(absFilePath)
+    val dataset = CsvDataLoader().load(absFilePath)
 
     logger.info("   csv file for prediction has been read!")
 

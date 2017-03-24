@@ -11,7 +11,7 @@ trait OpenGovCityCouncilUtils {
 
     def loadDataSets(): List[DataModel] = {
         List("BallaratCity", "BrisbaneCityCouncil", "DPCDVic", "GreaterGeelongCity", "MosmanMunicipalCouncil").map({d =>
-            CSVDataLoader(d).load(s"$folder/$d")
+            CsvDataLoader(d).load(s"$folder/$d")
         })
         
     }

@@ -8,8 +8,8 @@ import scala.util._
 
 trait SimpleTestDBUtils {
   def loadDataSets(): List[DataModel] = {
-        val ds1 = CSVDataLoader("source").load("src/test/resources/datasets/simpleCsvData/db1")
-        val ds2 = CSVDataLoader("target").load("src/test/resources/datasets/simpleCsvData/db2")
+        val ds1 = CsvDataLoader("source").load("src/test/resources/datasets/simpleCsvData/db1")
+        val ds2 = CsvDataLoader("target").load("src/test/resources/datasets/simpleCsvData/db2")
         List(ds1,ds2)
     }
 

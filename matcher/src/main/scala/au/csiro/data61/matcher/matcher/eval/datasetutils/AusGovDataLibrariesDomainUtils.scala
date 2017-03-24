@@ -20,7 +20,7 @@ trait AusGovDataLibrariesDomainUtils {
         })
 
         filesList.map({case f => {
-            CSVDataLoader("AU").loadTable(dataPath, f, "AU")
+            CsvDataLoader("AU").loadTable(dataPath, f, "AU")
         }}).toList
     }
 
