@@ -371,14 +371,22 @@ case object SsdMappingSerializer extends CustomSerializer[SsdMapping](
 
         // there should be only attribute and node as keys
         if(tuples.nonEmpty && tuples.flatMap(_.keys).sorted.distinct != List("attribute", "node")){
-          throw TypeException("Wrong ssd mappings!")
+          throw TypeException("Wrong keys in ssd mappings! Use only 'attribute' and 'node'.")
+        }
+
+        // we take only integers
+        val mappings: List[(Int, Int)] = tuples.map(_.toList.sorted).map {
+          case List(aID,nID) =>
+            (aID._2, nID._2)
+        }
+
+        // attribute ids need to be unique
+        if(mappings.map(_._1).distinct.size != mappings.size){
+          throw TypeException("Wrong ssd mappings! Attribute ids are not unique.")
         }
 
         SsdMapping(
-          tuples.map(_.toList.sorted).map {
-            case List(aID,nID) =>
-              (aID._2, nID._2)
-          }.toMap
+          mappings.toMap
         )
     }, {
     case ssdMap: SsdMapping =>
