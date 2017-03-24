@@ -40,7 +40,7 @@ import au.csiro.data61.types.Exceptions.ModelerException
 import au.csiro.data61.types.SsdTypes._
 
 /**
-  * Created by natalia on 14/11/16.
+  * Tests for KarmaSuggestModel object
   */
 @RunWith(classOf[JUnitRunner])
 class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndAfterEach with LazyLogging {

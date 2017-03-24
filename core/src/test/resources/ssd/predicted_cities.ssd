@@ -45,7 +45,7 @@
         "label": "State",
         "type": "ClassNode",
         "status": "Normal",
-        "prefix": "http://www.semanticweb.org\/serene/report_example_ontology#"
+        "prefix": "http://www.semanticweb.org/serene/report_example_ontology#"
       },
       {
         "id": 3,
