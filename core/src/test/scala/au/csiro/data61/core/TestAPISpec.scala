@@ -21,18 +21,17 @@ package au.csiro.data61.core
 import java.io.FileInputStream
 import java.nio.file.Paths
 
-import au.csiro.data61.core.api.{EvaluationRequest, SsdRequest}
+import au.csiro.data61.core.api.{EvaluationRequest, OctopusAPI, SsdRequest}
 import au.csiro.data61.core.storage.JsonFormats
 import au.csiro.data61.modeler.EvaluationResult
 import au.csiro.data61.types.Ssd
-import com.twitter.finagle.http.{Response, Request, Status}
+import com.twitter.finagle.http.{Request, Response, Status}
 import com.twitter.finagle.http.Method.Post
 import com.twitter.io.Buf.ByteArray
 import com.twitter.util.Await
-
+import org.json4s._
 import org.json4s.jackson.JsonMethods.parse
 import org.json4s.jackson.Serialization.write
-
 import org.junit.runner.RunWith
 import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner
@@ -209,4 +208,41 @@ class TestAPISpec  extends FunSuite with JsonFormats {
         fail(err.getMessage)
     }
   }
+
+
+  lazy val OctopusHelp = new OctopusAPISpec
+  test("POST evaluation responds BadRequest since json body cannot be parsed")( new TestServer {
+    try{
+
+      val inc = JObject(
+        List(("name",JString("getCities.csv")),
+          ("ontologies",JArray(List(JInt(1)))),
+          ("semanticModel", JObject(
+            List(
+              ("nodes",JArray(List(
+                JObject(List(("id",JInt(0)), ("label",JString("State")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(1)), ("label",JString("State.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(3)), ("label",JString("City.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(2)), ("label",JString("City")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#"))))))),
+              ("links",JArray(List(
+                JObject(List(("id",JInt(1)), ("source",JInt(0)), ("target",JInt(1)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(0)), ("source",JInt(2)), ("target",JInt(0)), ("label",JString("isPartOf")), ("type",JString("ObjectPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(2)), ("source",JInt(2)), ("target",JInt(3)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))))))))),
+          ("mappings",JArray(List(
+            JObject(List(("attribute",JInt(1997319549)), ("node",JInt(1)))),
+            JObject(List(("attribute",JInt(1160349990)), ("node",JInt(0)))),
+            JObject(List(("attribute",JInt(1160349990)), ("node",JInt(0))))
+          )))))
+
+      val evalReq: JObject = JObject(("predictedSsd",inc), ("correctSsd",inc))
+
+      val req = OctopusHelp.postRequest(json = evalReq, url = s"/$APIVersion/evaluate")
+      // send the request and make sure it executes
+      val response = Await.result(client(req))
+
+      assert(response.status === Status.BadRequest)
+      assert(response.contentString.nonEmpty)
+
+    } finally assertClose()
+  })
 }

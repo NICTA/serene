@@ -24,12 +24,12 @@ import au.csiro.data61.core.storage.JsonFormats
 import au.csiro.data61.types.{DataSet, Ssd, SsdMapping}
 import au.csiro.data61.types.DataSetTypes.DataSetID
 import au.csiro.data61.types.ModelTypes.ModelID
-import au.csiro.data61.types.SsdTypes.{Owl, OwlID}
+import au.csiro.data61.types.SsdTypes.{Owl, OwlID, SsdID}
 import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
 import com.twitter.finagle.{Http, http}
 import com.twitter.finagle.http._
 import com.twitter.finagle.http.Status._
-import com.twitter.finagle.http.Method.{Delete, Post}
+import com.twitter.finagle.http.Method.{Post}
 import com.twitter.io.Buf.ByteArray
 import com.twitter.util.{Await, Closable}
 import com.twitter.io.{Buf, Reader}
@@ -84,6 +84,7 @@ class TestServer extends LazyLogging with JsonFormats {
     Closable.all(server, client).close()
   }
 
+  //============ tons of methods to creat/delete resources used throughout all tests
   def requestOwlCreation(document: File,
                          format: OwlDocumentFormat,
                          description: String = "test")
@@ -108,14 +109,17 @@ class TestServer extends LazyLogging with JsonFormats {
     }
 
   /**
-    *
-    * @param document
-    * @param description
-    * @param version
+    * Posts a request to build a dataset, then returns the DataSet object it created
+    * wrapped in a Try.
+    * @param document file of the csv resource
+    * @param description description string
+    * @param typeMap string for the type map which is a map
+    * @param version implicit string for the API version
     * @return
     */
   def createDataset(document: File,
-                    description: String="test")
+                    description: String="test",
+                    typeMap: String = "{}")
                    (implicit version: String): Try[DataSet] = Try {
     val buf = Await.result(Reader.readAll(Reader.fromFile(document)))
     val request = RequestBuilder()
@@ -127,16 +131,9 @@ class TestServer extends LazyLogging with JsonFormats {
     parse(response.contentString).extract[DataSet]
   }
 
-  def deleteLobster(id: ModelID)(implicit version: String): Response = {
-    logger.info(s"Deleting lobster $id")
-    val request = Request(Delete, s"/$version/model/$id")
-    Await.result(s.client(request))
-  }
-
   def deleteDataset(id: DataSetID)(implicit version: String): Response = {
     logger.info(s"Deleting dataset $id")
-    val request = Request(Delete, s"/$version/dataset/$id")
-    Await.result(s.client(request))
+    delete(s"/$version/dataset/$id")
   }
 
   def deleteAllDatasets(implicit version: String): Unit = {
@@ -167,7 +164,7 @@ class TestServer extends LazyLogging with JsonFormats {
 
   def createSsd(datasetDocument: File, ssdDocument: File)
                (implicit version: String): Try[(SsdRequest, Ssd)] = Try {
-    val dataset = createDataset(datasetDocument, "ref dataset").get
+    val dataset = createDataset(datasetDocument, description = "ref dataset").get
     val request = parse(ssdDocument).extract[SsdRequest].copy(mappings = Some(SsdMapping(Map(
       dataset.columns.head.id -> 1,
       dataset.columns(1).id -> 3,
@@ -178,8 +175,7 @@ class TestServer extends LazyLogging with JsonFormats {
   }
 
   def requestOwlDeletion(id: OwlID)(implicit version: String): Try[(Status, String)] = Try {
-    val request = Request(Delete, s"/$version/owl/$id")
-    val response = Await.result(s.client(request))
+    val response = delete(s"/$version/owl/$id")
     (response.status, response.contentString)
   }
 
@@ -196,6 +192,49 @@ class TestServer extends LazyLogging with JsonFormats {
     val request = Request(s"/$version/owl/$id")
     val response = Await.result(s.client(request))
     parse(response.contentString).extract[Owl]
+  }
+
+  def listSsds(implicit version: String): Try[List[SsdID]] = Try {
+    val request = Request(s"/$version/ssd")
+    val response = Await.result(s.client(request))
+    parse(response.contentString).extract[List[SsdID]]
+  }
+
+  /**
+    *
+    * @param id
+    * @param version
+    * @return
+    */
+  def requestSsdDeletion(id: SsdID)(implicit version: String): Try[(Status, String)] = Try {
+    val response = delete(s"/$version/ssd/$id")
+    (response.status, response.contentString)
+  }
+
+  def deleteAllSsds(implicit version: String): Unit =
+    listSsds.get.map(requestSsdDeletion).foreach(_.get)
+
+  def deleteModel(id: ModelID)(implicit version: String): Response = {
+    logger.info(s"Deleting model $id")
+    delete(s"/$version/model/$id")
+  }
+
+  def getSsd(id: SsdID)(implicit version: String): Try[Ssd] = Try {
+    val request = Request(s"/$version/ssd/$id")
+    val response = Await.result(s.client(request))
+    parse(response.contentString).extract[Ssd]
+  }
+
+  /**
+    * Deletes all the models from the server. Assumes that
+    * the IDs are stored as positive integers
+    *
+    * @param version Implicit version
+    */
+  def deleteAllModels(implicit version: String): Unit = {
+    val request = Request(s"/$version/model")
+    val response = Await.result(s.client(request))
+    parse(response.contentString).extract[List[ModelID]].foreach(deleteModel)
   }
 
 }

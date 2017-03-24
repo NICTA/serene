@@ -59,24 +59,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
 
   import ModelAPI._
 
-  /**
-    * Deletes all the models from the server. Assumes that
-    * the IDs are stored as positive integers
-    *
-    * @param server Reference to the TestServer used in a single test
-    */
-  def deleteAllModels()(implicit server: TestServer): Unit = {
-    val response = server.get(s"/$APIVersion/model")
-
-    if (response.status == Status.Ok) {
-      val str = response.contentString
-      val regex = "[0-9]+".r
-      val models = regex.findAllIn(str).map(_.toInt)
-      models.foreach { model =>
-        server.delete(s"/$APIVersion/model/$model")
-      }
-    }
-  }
+  implicit val version = APIVersion
 
   // we need a dataset server to hold datasets for training...
   val DataSet = new DatasetRestAPISpec
@@ -234,7 +217,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
     */
   def createDataSet(server: TestServer): DataSet = {
     // first we add a dataset...
-    DataSet.createDataset(server, defaultDataSet, TypeMap, "homeseekers") match {
+    server.createDataset(Paths.get(defaultDataSet).toFile, "homeseekers", TypeMap) match {
       case Success(ds) =>
         ds
       case _ =>
@@ -361,7 +344,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(!response.contentString.isEmpty)
       assert(Try { parse(response.contentString).extract[List[ModelID]] }.isSuccess)
     } finally {
-      deleteAllModels()
+      deleteAllModels
       assertClose()
     }
   })
@@ -393,7 +376,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(model.classes === TestClasses)
 
     } finally {
-      deleteAllModels()
+      deleteAllModels
       assertClose()
     }
   })
@@ -421,7 +404,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(!response.contentString.isEmpty)
 
     } finally {
-      deleteAllModels()
+      deleteAllModels
       assertClose()
     }
   })
@@ -459,7 +442,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(model.numBags === 10)
 
     } finally {
-      deleteAllModels()
+      deleteAllModels
       assertClose()
     }
   })
@@ -494,7 +477,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
         )))
 
     } finally {
-        deleteAllModels()
+        deleteAllModels
       assertClose()
     }
   })
@@ -524,8 +507,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -547,7 +530,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(!response.contentString.isEmpty)
 
     } finally {
-        deleteAllModels()
+        deleteAllModels
       assertClose()
     }
   })
@@ -570,7 +553,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(!response.contentString.isEmpty)
 
     } finally {
-        deleteAllModels()
+        deleteAllModels
       assertClose()
     }
   })
@@ -597,7 +580,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
           throw new Exception("Failed to create test resource")
       }
     } finally {
-        deleteAllModels()
+        deleteAllModels
       assertClose()
     }
   })
@@ -630,7 +613,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       }
 
     } finally {
-        deleteAllModels()
+        deleteAllModels
       assertClose()
     }
   })
@@ -645,7 +628,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(response.status === Status.NotFound)
       assert(!response.contentString.isEmpty)
     } finally {
-      deleteAllModels()
+      deleteAllModels
       assertClose()
     }
   })
@@ -659,7 +642,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(response.status === Status.NotFound)
       assert(response.contentString.isEmpty)
     } finally {
-        deleteAllModels()
+        deleteAllModels
       assertClose()
     }
   })
@@ -705,7 +688,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
           throw new Exception("Failed to create test resource")
       }
     } finally {
-        deleteAllModels()
+        deleteAllModels
       assertClose()
     }
   })
@@ -738,7 +721,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllModels()
+      deleteAllModels
       assertClose()
     }
   })
@@ -756,7 +739,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
 
         case Success(model) =>
 
-          DataSet.deleteAllDataSets() // dataset will not be removed
+          deleteAllDatasets // dataset will not be removed
 
           val datasets: List[DataSetID] = parse(get(s"/$APIVersion/dataset").contentString).extract[List[DataSetID]]
           assert(datasets === List(ds.id))
@@ -772,8 +755,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -813,8 +796,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(state === Training.Status.COMPLETE)
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -832,8 +815,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(state === Training.Status.COMPLETE)
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -869,8 +852,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -893,8 +876,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(state === Training.Status.COMPLETE)
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -930,8 +913,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(completeModel.state.status === Training.Status.COMPLETE)
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -976,8 +959,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(finalState === Training.Status.COMPLETE)
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -1028,8 +1011,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       }
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -1080,8 +1063,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       }
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -1103,8 +1086,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       }
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -1133,8 +1116,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(response.status === Status.Ok)
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -1167,8 +1150,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -1226,8 +1209,8 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(total > 0.9)
 
     } finally {
-      deleteAllModels()
-      DataSet.deleteAllDataSets()
+      deleteAllModels
+      deleteAllDatasets
       assertClose()
     }
   })

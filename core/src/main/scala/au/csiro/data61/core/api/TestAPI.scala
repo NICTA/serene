@@ -80,6 +80,10 @@ object TestAPI extends RestAPI {
           logger.error(s"Evaluation of two semantic models failed due to some unforseen reasons: ${err.getMessage}")
           BadRequest(BadRequestException(err.getMessage))
       }
+  } handle {
+    case e: Exception =>
+      logger.error(s"Parsing error ${e.getMessage}")
+      BadRequest(BadRequestException(s"Request body cannot be parsed. Check SSD: ${e.getCause}, ${e.getMessage}"))
   }
 
   val endpoints = version :+: status :+: octopusEvaluate
