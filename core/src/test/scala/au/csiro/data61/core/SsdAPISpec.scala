@@ -22,17 +22,18 @@ import java.io.File
 import au.csiro.data61.core.api.SsdAPI.APIVersion
 import au.csiro.data61.core.api.SsdRequest
 import au.csiro.data61.core.storage.JsonFormats
-import au.csiro.data61.types.DataSetTypes.DataSetID
 import au.csiro.data61.types.SsdTypes.SsdID
-import au.csiro.data61.types.{DataSet, SemanticModel, Ssd, SsdMapping}
-import com.twitter.finagle.http.Method.{Delete, Post}
+import au.csiro.data61.types.Ssd
+import com.twitter.finagle.http.Method.Post
 import com.twitter.finagle.http.Status.{BadRequest, NotFound, Ok}
-import com.twitter.finagle.http.{FileElement, Request, RequestBuilder, Status}
+import com.twitter.finagle.http.{Request, Status}
 import com.twitter.io.Buf.ByteArray
-import com.twitter.io.Reader
 import com.twitter.util.Await
+
 import org.json4s.jackson.JsonMethods.parse
 import org.json4s.jackson.Serialization.write
+import org.json4s._
+
 import org.junit.runner.RunWith
 import org.scalatest.FunSuite
 import org.scalatest.Matchers._
@@ -188,6 +189,230 @@ class SsdAPISpec extends FunSuite with JsonFormats {
       val (status, _) = requestSsdUpdate(parse(SsdDocument).extract[SsdRequest], ssd.id).get
 
       status should be (BadRequest)
+    } finally {
+      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  //==============================================================================
+  lazy val OctopusHelp = new OctopusAPISpec
+
+  test("POST ssd responds BadRequest since mappings for attributes are not unique") (new TestServer {
+    try {
+      OctopusHelp.setUp()
+
+      val inc = JObject(
+        List(("name",JString("getCities.csv")),
+          ("ontologies",JArray(List(JInt(1)))),
+          ("semanticModel", JObject(
+            List(
+              ("nodes",JArray(List(
+                JObject(List(("id",JInt(0)), ("label",JString("State")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(1)), ("label",JString("State.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(3)), ("label",JString("City.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(2)), ("label",JString("City")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#"))))))),
+              ("links",JArray(List(
+                JObject(List(("id",JInt(1)), ("source",JInt(0)), ("target",JInt(1)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(0)), ("source",JInt(2)), ("target",JInt(0)), ("label",JString("isPartOf")), ("type",JString("ObjectPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(2)), ("source",JInt(2)), ("target",JInt(3)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))))))))),
+          ("mappings",JArray(List(
+            JObject(List(("attribute",JInt(1997319549)), ("node",JInt(1)))),
+            JObject(List(("attribute",JInt(1160349990)), ("node",JInt(0))))
+            ,JObject(List(("attribute",JInt(1160349990)), ("node",JInt(3))))
+          )))))
+
+      val req = OctopusHelp.postRequest(json = inc, url = s"/$APIVersion/ssd")
+      // send the request and make sure it executes
+      val resp = Await.result(client(req))
+
+      assert(resp.status === Status.BadRequest)
+      // FIXME: error message is bad
+      assert(resp.contentString.nonEmpty)
+
+    } finally {
+      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  test("POST ssd responds BadRequest since nodes are absent in semantic model") (new TestServer {
+    try {
+      OctopusHelp.setUp()
+
+      val inc = JObject(
+        List(("name",JString("getCities.csv")),
+          ("ontologies",JArray(List(JInt(1)))),
+          ("semanticModel", JObject(
+            List(
+              ("links",JArray(List(
+                JObject(List(("id",JInt(1)), ("source",JInt(0)), ("target",JInt(1)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(0)), ("source",JInt(2)), ("target",JInt(0)), ("label",JString("isPartOf")), ("type",JString("ObjectPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(2)), ("source",JInt(2)), ("target",JInt(3)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))))))))),
+          ("mappings",JArray(List(
+            JObject(List(("attribute",JInt(1997319549)), ("node",JInt(1)))),
+            JObject(List(("attribute",JInt(1160349990)), ("node",JInt(0))))
+          )))))
+
+      val req = OctopusHelp.postRequest(json = inc, url = s"/$APIVersion/ssd")
+      // send the request and make sure it executes
+      val resp = Await.result(client(req))
+
+      assert(resp.status === Status.BadRequest)
+      // FIXME: error message is bad
+      assert(resp.contentString.nonEmpty)
+
+    } finally {
+      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  test("POST cities ssd responds Ok") (new TestServer {
+    try {
+      OctopusHelp.setUp()
+
+      val inc = JObject(
+        List(("name",JString("getCities.csv")),
+          ("ontologies",JArray(List(JInt(1)))),
+          ("semanticModel", JObject(
+            List(
+              ("nodes",JArray(List(
+                JObject(List(("id",JInt(0)), ("label",JString("State")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(1)), ("label",JString("State.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(3)), ("label",JString("City.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(2)), ("label",JString("City")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#"))))))),
+              ("links",JArray(List(
+                JObject(List(("id",JInt(1)), ("source",JInt(0)), ("target",JInt(1)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(0)), ("source",JInt(2)), ("target",JInt(0)), ("label",JString("isPartOf")), ("type",JString("ObjectPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(2)), ("source",JInt(2)), ("target",JInt(3)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))))))))),
+          ("mappings",JArray(List(
+            JObject(List(("attribute",JInt(1997319549)), ("node",JInt(1)))),
+            JObject(List(("attribute",JInt(1160349990)), ("node",JInt(0))))
+          )))))
+
+      val req = OctopusHelp.postRequest(json = inc, url = s"/$APIVersion/ssd")
+      // send the request and make sure it executes
+      val resp = Await.result(client(req))
+
+      assert(resp.status === Status.Ok)
+      assert(resp.contentString.nonEmpty)
+      assert(Try{parse(resp.contentString).extract[Ssd]}.isSuccess)
+
+    } finally {
+      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  test("POST cities ssd responds responds BadRequest since target key is mmissing in links") (new TestServer {
+    try {
+      OctopusHelp.setUp()
+
+      val inc = JObject(
+        List(("name",JString("getCities.csv")),
+          ("ontologies",JArray(List(JInt(1)))),
+          ("semanticModel", JObject(
+            List(
+              ("nodes",JArray(List(
+                JObject(List(("id",JInt(0)), ("label",JString("State")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(1)), ("label",JString("State.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(3)), ("label",JString("City.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(2)), ("label",JString("City")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#"))))))),
+              ("links",JArray(List(
+                JObject(List(("id",JInt(1)), ("source",JInt(0)),  ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(0)), ("source",JInt(2)), ("target",JInt(0)), ("label",JString("isPartOf")), ("type",JString("ObjectPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(2)), ("source",JInt(2)), ("target",JInt(3)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))))))))),
+          ("mappings",JArray(List(
+            JObject(List(("attribute",JInt(1997319549)), ("node",JInt(1)))),
+            JObject(List(("attribute",JInt(1160349990)), ("node",JInt(0))))
+          )))))
+
+      val req = OctopusHelp.postRequest(json = inc, url = s"/$APIVersion/ssd")
+      // send the request and make sure it executes
+      val resp = Await.result(client(req))
+
+      assert(resp.status === Status.BadRequest)
+      assert(resp.contentString.nonEmpty)
+
+    } finally {
+      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  test("POST cities ssd responds responds BadRequest since target id is wrong in links") (new TestServer {
+    try {
+      OctopusHelp.setUp()
+
+      val inc = JObject(
+        List(("name",JString("getCities.csv")),
+          ("ontologies",JArray(List(JInt(1)))),
+          ("semanticModel", JObject(
+            List(
+              ("nodes",JArray(List(
+                JObject(List(("id",JInt(0)), ("label",JString("State")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(1)), ("label",JString("State.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(3)), ("label",JString("City.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(2)), ("label",JString("City")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#"))))))),
+              ("links",JArray(List(
+                JObject(List(("id",JInt(1)), ("source",JInt(0)), ("target",JInt(1243)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(0)), ("source",JInt(2)), ("target",JInt(0)), ("label",JString("isPartOf")), ("type",JString("ObjectPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(2)), ("source",JInt(2)), ("target",JInt(3)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))))))))),
+          ("mappings",JArray(List(
+            JObject(List(("attribute",JInt(1997319549)), ("node",JInt(1)))),
+            JObject(List(("attribute",JInt(1160349990)), ("node",JInt(0))))
+          )))))
+
+      val req = OctopusHelp.postRequest(json = inc, url = s"/$APIVersion/ssd")
+      // send the request and make sure it executes
+      val resp = Await.result(client(req))
+
+      assert(resp.status === Status.BadRequest)
+      assert(resp.contentString.nonEmpty)
+
+    } finally {
+      deleteAllSsds
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  test("POST cities ssd responds responds BadRequest since label is missing in nodes") (new TestServer {
+    try {
+      OctopusHelp.setUp()
+
+      val inc = JObject(
+        List(("name",JString("getCities.csv")),
+          ("ontologies",JArray(List(JInt(1)))),
+          ("semanticModel", JObject(
+            List(
+              ("nodes",JArray(List(
+                JObject(List(("id",JInt(0)), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(1)), ("label",JString("State.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(3)), ("label",JString("City.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(2)), ("label",JString("City")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#"))))))),
+              ("links",JArray(List(
+                JObject(List(("id",JInt(1)), ("source",JInt(0)), ("target",JInt(1)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(0)), ("source",JInt(2)), ("target",JInt(0)), ("label",JString("isPartOf")), ("type",JString("ObjectPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(2)), ("source",JInt(2)), ("target",JInt(3)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))))))))),
+          ("mappings",JArray(List(
+            JObject(List(("attribute",JInt(1997319549)), ("node",JInt(1)))),
+            JObject(List(("attribute",JInt(1160349990)), ("node",JInt(0))))
+          )))))
+
+      val req = OctopusHelp.postRequest(json = inc, url = s"/$APIVersion/ssd")
+      // send the request and make sure it executes
+      val resp = Await.result(client(req))
+
+      assert(resp.status === Status.BadRequest)
+      assert(resp.contentString.nonEmpty)
+
     } finally {
       deleteAllSsds
       deleteAllDatasets

@@ -29,7 +29,7 @@ import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
 import com.twitter.finagle.{Http, http}
 import com.twitter.finagle.http._
 import com.twitter.finagle.http.Status._
-import com.twitter.finagle.http.Method.{Delete, Post}
+import com.twitter.finagle.http.Method.{Post}
 import com.twitter.io.Buf.ByteArray
 import com.twitter.util.{Await, Closable}
 import com.twitter.io.{Buf, Reader}
@@ -133,8 +133,7 @@ class TestServer extends LazyLogging with JsonFormats {
 
   def deleteDataset(id: DataSetID)(implicit version: String): Response = {
     logger.info(s"Deleting dataset $id")
-    val request = Request(Delete, s"/$version/dataset/$id")
-    Await.result(s.client(request))
+    delete(s"/$version/dataset/$id")
   }
 
   def deleteAllDatasets(implicit version: String): Unit = {
@@ -176,8 +175,7 @@ class TestServer extends LazyLogging with JsonFormats {
   }
 
   def requestOwlDeletion(id: OwlID)(implicit version: String): Try[(Status, String)] = Try {
-    val request = Request(Delete, s"/$version/owl/$id")
-    val response = Await.result(s.client(request))
+    val response = delete(s"/$version/owl/$id")
     (response.status, response.contentString)
   }
 
@@ -202,10 +200,14 @@ class TestServer extends LazyLogging with JsonFormats {
     parse(response.contentString).extract[List[SsdID]]
   }
 
-
+  /**
+    *
+    * @param id
+    * @param version
+    * @return
+    */
   def requestSsdDeletion(id: SsdID)(implicit version: String): Try[(Status, String)] = Try {
-    val request = Request(Delete, s"/$version/ssd/$id")
-    val response = Await.result(s.client(request))
+    val response = delete(s"/$version/ssd/$id")
     (response.status, response.contentString)
   }
 
@@ -214,8 +216,7 @@ class TestServer extends LazyLogging with JsonFormats {
 
   def deleteModel(id: ModelID)(implicit version: String): Response = {
     logger.info(s"Deleting model $id")
-    val request = Request(Delete, s"/$version/model/$id")
-    Await.result(s.client(request))
+    delete(s"/$version/model/$id")
   }
 
   def getSsd(id: SsdID)(implicit version: String): Try[Ssd] = Try {

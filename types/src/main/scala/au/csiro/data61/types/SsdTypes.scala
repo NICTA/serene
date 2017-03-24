@@ -362,7 +362,7 @@ case class SsdMapping(mappings: Map[Int,Int]) {
 /**
   * custom JSON serializer for the SSDMapping
   */
-case object SsdMappingSerializer extends CustomSerializer[SsdMapping](
+case object SsdMappingSerializer extends CustomSerializer[SsdMapping] (
   format => (
     {
       case jv: JValue =>
@@ -382,7 +382,7 @@ case object SsdMappingSerializer extends CustomSerializer[SsdMapping](
 
         // attribute ids need to be unique
         if(mappings.map(_._1).distinct.size != mappings.size){
-          throw TypeException("Wrong ssd mappings! Attribute ids are not unique.")
+          throw new Exception("Wrong ssd mappings! Attribute ids are not unique.")
         }
 
         SsdMapping(

@@ -18,12 +18,15 @@
 package au.csiro.data61.core.api
 
 import au.csiro.data61.core.drivers.SsdInterface
-import au.csiro.data61.types.SsdTypes.{SsdID, OwlID}
+import au.csiro.data61.types.Exceptions.TypeException
+import au.csiro.data61.types.SsdTypes.{OwlID, SsdID}
 import au.csiro.data61.types._
 import com.typesafe.scalalogging.LazyLogging
 import io.finch._
 import io.finch.json4s.decodeJson
 import org.joda.time.DateTime
+import org.json4s.MappingException
+import org.json4s.jackson.JsonMethods._
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -75,6 +78,23 @@ object SsdAPI extends RestAPI {
     * Returns a JSON SSD object with id.
     *
     */
+//  val ssdCreate: Endpoint[Ssd] = post(APIVersion :: SsdRootPath :: stringBody) {
+//    (body: String) =>
+//      logger.info(s"Attempting to create SSD...")
+//      (for {
+//        request <- parseSsdRequest(body)
+//        attempt <- Try{ SsdInterface.createSsd(request) }
+//      } yield attempt) match {
+//        case Success(ssd) =>
+//          Ok(ssd)
+//        case Failure(err) =>
+//          logger.error(s"SSD could not be created.", err)
+//          err match {
+//            case ex: BadRequestException => BadRequest(ex)
+//            case _ => InternalServerError(InternalException("SSD could not be created."))
+//          }
+//      }
+//  }
   val ssdCreate: Endpoint[Ssd] = post(APIVersion :: SsdRootPath :: jsonBody[SsdRequest]) {
     (request: SsdRequest) =>
       logger.info(s"Creating SSD with name=${request.name}.")
@@ -85,10 +105,17 @@ object SsdAPI extends RestAPI {
           logger.error(s"SSD with name=${request.name} could not be created.", err)
           err match {
             case ex: BadRequestException => BadRequest(ex)
-            case _ => InternalServerError(InternalException(s"SSD could not be created."))
+            case _ => InternalServerError(InternalException("SSD could not be created."))
           }
       }
-  }
+  } handle {
+  case e: TypeException =>
+    logger.error(s"TypeException ${e.getMessage}")
+    BadRequest(e)
+  case e: Exception =>
+    logger.error(s"Parsing error ${e.getMessage}")
+    BadRequest(BadRequestException(s"Request body cannot be parsed. Check SSD: ${e.getCause}, ${e.getMessage}"))
+}
 
   /**
     * Returns a JSON SSD object at id
@@ -162,6 +189,35 @@ object SsdAPI extends RestAPI {
           logger.error(s"Some other problem with ssd $id deletion: ${err.getMessage}")
           InternalServerError(InternalException(s"Failed to delete ssd."))
       }
+  }
+
+  /**
+    * Helper function to parse a string into a OctopusRequest object...
+    *
+    * @param str The json string with the octopus request information
+    * @return
+    */
+  private def parseSsdRequest(str: String): Try[SsdRequest] = {
+
+    for {
+      raw <- Try { parse(str) }
+
+      name <- HelperJSON.parseOption[String]("name", raw)
+
+      ssds <- HelperJSON.parseOption[List[SsdID]]("ssds", raw)
+
+      ontologies <- HelperJSON.parseOption[List[OwlID]]("ontologies", raw)
+
+      semanticModel <- HelperJSON.parseOption[SemanticModel]("semanticModel", raw)
+
+      mappings <- HelperJSON.parseOption[SsdMapping]("mappings", raw)
+
+    } yield SsdRequest(
+      name = name,
+      ontologies = ontologies,
+      semanticModel = semanticModel,
+      mappings = mappings
+    )
   }
 
   /**

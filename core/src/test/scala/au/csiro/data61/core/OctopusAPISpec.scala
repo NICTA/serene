@@ -31,6 +31,7 @@ import au.csiro.data61.types.SsdTypes._
 import au.csiro.data61.types._
 import com.twitter.finagle.http.{RequestBuilder, _}
 import com.twitter.io.Buf
+import com.twitter.io.Buf.ByteArray
 import com.twitter.util.Await
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
@@ -38,6 +39,7 @@ import org.joda.time.DateTime
 import org.json4s.JsonDSL._
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
+import org.json4s.jackson.Serialization._
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 
 import scala.annotation._
@@ -142,7 +144,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   val emptySSD: Ssd = readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
   val businessSSD: Ssd = readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
 
-  val inconsistentSsd = Paths.get(ssdDir, "inconsistent_business.ssd").toFile
+  val inconsistentSsd = Paths.get(ssdDir, "inconsistent_cities.ssd").toFile
 
   def defaultFeatures: JObject =
     ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
@@ -281,7 +283,6 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
     octopus
   }
-
 
   //=========================Tests==============================================
   test("GET /v1.0/octopus responds Ok(200)") (new TestServer {

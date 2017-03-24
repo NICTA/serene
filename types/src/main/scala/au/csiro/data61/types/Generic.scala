@@ -18,6 +18,7 @@
 package au.csiro.data61.types
 
 import au.csiro.data61.types.Exceptions.TypeException
+import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 import org.json4s._
 
@@ -35,7 +36,7 @@ trait Identifiable[Key] {
 }
 
 
-object HelperJSON {
+object HelperJSON extends LazyLogging {
   implicit val formats = DefaultFormats + HelperLinkSerializer + SsdNodeSerializer
   /**
     * Helper function to parse json objects. This will return None if
@@ -56,6 +57,7 @@ object HelperJSON {
         Some(jv.extract[T])
       } recoverWith {
         case err =>
+          logger.error(s"Failed to parse: $label. Error: ${err.getMessage}")
           Failure(
             TypeException(s"Failed to parse: $label. Error: ${err.getMessage}"))
       }

@@ -31,7 +31,6 @@ import org.json4s._
 import org.json4s.jackson.JsonMethods._
 import com.typesafe.scalalogging.LazyLogging
 
-
 /**
   * Tests for the SSDStorage layer
   */
@@ -84,18 +83,5 @@ class SsdStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   }
 
-
-  //==============================================================================
-  test("POST ssd responds BadRequest since SSD is inconsistent") (new TestServer {
-    try {
-
-
-
-    } finally {
-      deleteAllSsds
-      deleteAllDatasets
-      assertClose()
-    }
-  })
 
 }
