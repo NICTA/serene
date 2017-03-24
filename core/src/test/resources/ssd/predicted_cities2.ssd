@@ -35,7 +35,7 @@
       },
       {
         "id": 2,
-        "label": "State.name",
+        "label": "State.name",\
         "type": "DataNode",
         "status": "ForcedByUser",
         "prefix": ""

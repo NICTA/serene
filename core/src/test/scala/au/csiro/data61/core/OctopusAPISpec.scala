@@ -796,6 +796,34 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   })
 
+
+  //==============================================================================
+//  test("POST ssd responds BadRequest since SSD is inconsistent") (new TestServer {
+//    try {
+//
+//      val resp = for {
+//        createdOwl <- createOwl(exampleOwl, exampleOwlFormat)
+//        createdSsd <- bindSsd(museumDs, inconsistentSsd, List(createdOwl.id))
+//        response <- requestSsdCreation(createdSsd)
+//      } yield response
+//
+//      println(resp)
+//      assert(resp.isSuccess)
+//      assert(resp.get._1 === Status.BadRequest)
+//      assert(resp.get._2.nonEmpty)
+//      println(resp.get._2)
+//
+//
+//      //      assert(rstatus === Status.BadRequest)
+//      //      println(rcontent)
+//
+//    } finally {
+//      //      deleteAllSsds
+//      deleteAllDatasets
+//      assertClose()
+//    }
+//  })
+
   //==============================================================================
   // Tests for octopus training endpoint
 
@@ -899,7 +927,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       val octopus = trainOctopus()
 
       val trained = pollOctopusState(octopus, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 30 seconds)
+      val state = concurrent.Await.result(trained, PollIterations * PollTime * 2 seconds)
       assert(state === Training.Status.COMPLETE)
 
       // create an update json for the octopus
@@ -936,7 +964,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       val octopus = trainOctopus()
 
       val trained = pollOctopusState(octopus, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 30 seconds)
+      val state = concurrent.Await.result(trained, PollIterations * PollTime * 2 seconds)
       assert(state === Training.Status.COMPLETE)
 
       // create an update json for the model
@@ -1016,7 +1044,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       val octopus = trainOctopus()
 
       val trained = pollOctopusState(octopus, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 30 seconds)
+      val state = concurrent.Await.result(trained, PollIterations * PollTime * 2 seconds)
       assert(state === Training.Status.COMPLETE)
 
       // now make a prediction
@@ -1045,7 +1073,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       val octopus = trainOctopus()
 
       val trained = pollOctopusState(octopus, PollIterations, PollTime)
-      val state = concurrent.Await.result(trained, 50 seconds)
+      val state = concurrent.Await.result(trained, PollIterations * PollTime * 2 seconds)
       assert(state === Training.Status.COMPLETE)
 
       assert(DatasetStorage.get(datasetMap("getCities")).isDefined)
@@ -1059,21 +1087,21 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
       val ssdPred = parse(response.contentString).extract[SsdResults]
 
-      assert(ssdPred.predictions.size === 8)
+      assert(ssdPred.predictions.size === 10)
       val predictedSSDs: List[Ssd] = ssdPred.predictions.map(_.ssd.toSsd(dummyID).get)
       // Karma should return consistent and complete semantic models
       assert(predictedSSDs.forall(_.isComplete))
       assert(predictedSSDs.forall(_.isConsistent))
       assert(predictedSSDs.forall(_.mappings.isDefined))
-      assert(predictedSSDs.forall(_.mappings.forall(_.mappings.size == 1)))
+      assert(predictedSSDs.forall(_.mappings.forall(_.mappings.size == 2)))
 
 //      ssdPred.predictions.foreach(x => println(x._2))
 
       assert(ssdPred.predictions.forall(_.score.nodeCoherence == 1))
-      assert(ssdPred.predictions.forall(_.score.nodeCoverage == 0.5))
+      assert(ssdPred.predictions.forall(_.score.nodeCoverage == 1))
 
       val scores = ssdPred.predictions.head.score
-      assert(scores.linkCost === 3)
+      assert(scores.linkCost === 5)
 
 
     } finally {

@@ -20,21 +20,24 @@ package au.csiro.data61.matcher.ingestion.loader
 import java.io.File
 
 import scala.io.Source
-
 import au.csiro.data61.matcher.data.Metadata
 import au.csiro.data61.matcher.data.DataModel
 import au.csiro.data61.matcher.data.Attribute
-import au.csiro.data61.matcher.data._
+import com.typesafe.scalalogging.LazyLogging
 
-case class CSVDataLoader(val id: String = "", val encoding: String = "utf-8") extends FileLoaderTrait[DataModel] {
+case class CSVDataLoader(val id: String = "", val encoding: String = "utf-8") extends FileLoaderTrait[DataModel] with LazyLogging {
 
     def load(path: String): DataModel = {
+
+      logger.info(s"loading file $path")
         //path can point to either a directory or a file
-        if((new File(path)).isDirectory()) {
+        val loaded = if((new File(path)).isDirectory()) {
             loadDirectory(path)
         } else {
             loadFile(path)
         }
+      logger.info("done with loading")
+      loaded
     }
 
     def loadDirectory(path: String): DataModel = {

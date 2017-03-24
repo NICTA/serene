@@ -132,6 +132,18 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     ssds = Some(List(businessSSD.id)),
     modelingProps = None)
 
+  val someOctopusRequest = OctopusRequest(
+    name = None,
+    description = Some("default octopus"),
+    modelType = None,
+    features = Some(defaultFeatures),
+    resamplingStrategy = Some(NO_RESAMPLING),
+    numBags = None,
+    bagSize = None,
+    ontologies = None,
+    ssds = Some(List(businessSSD.id)),
+    modelingProps = Some(ModelingProperties(sizeWeight = 1.0)))
+
 
   val blankOctopusRequest = OctopusRequest(None, None, None, None, None, None, None, None, None, None)
 
@@ -323,7 +335,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
   test("Predicting with octopus for cities succeeds") {
     // create default octopus
-    val octopus: Octopus = OctopusInterface.createOctopus(defaultOctopusRequest) match {
+    val octopus: Octopus = OctopusInterface.createOctopus(someOctopusRequest) match {
       case Success(octo) => octo
       case _ => fail("Problems with creation of octopus!")
     }
@@ -334,7 +346,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     val PollIterations = 20
     // wait for the trainig to complete
     val trained = pollOctopusState(octopus, PollIterations, PollTime)
-    val octopusState = concurrent.Await.result(trained, 30 seconds)
+    val octopusState = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
 
     assert(ModelStorage.get(octopus.lobsterID).get.state.status === Status.COMPLETE)
     assert(OctopusStorage.get(octopus.id).get.state.status === Status.COMPLETE)
@@ -345,19 +357,19 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
     recommends match {
       case Some(ssdPred: SsdResults) =>
-        assert(ssdPred.predictions.size === 8)
+        assert(ssdPred.predictions.size === 10)
         val predictedSSDs: List[Ssd] = ssdPred.predictions.map(_.ssd.toSsd(dummyID).get)
         // Karma should return consistent and complete semantic models
         assert(predictedSSDs.forall(_.isComplete))
         assert(predictedSSDs.forall(_.isConsistent))
         assert(predictedSSDs.forall(_.mappings.isDefined))
-        assert(predictedSSDs.forall(_.mappings.forall(_.mappings.size == 1)))
+        assert(predictedSSDs.forall(_.mappings.forall(_.mappings.size == 2)))
 
         assert(ssdPred.predictions.forall(_.score.nodeCoherence == 1))
-        assert(ssdPred.predictions.forall(_.score.nodeCoverage == 0.5))
+        assert(ssdPred.predictions.forall(_.score.nodeCoverage == 1))
 
         val scores = ssdPred.predictions.head.score
-        assert(scores.linkCost === 3)
+        assert(scores.linkCost === 5)
 
       case _ =>
         fail("Problems here since there are no recommendations :(")
