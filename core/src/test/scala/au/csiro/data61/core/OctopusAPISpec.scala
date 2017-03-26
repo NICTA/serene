@@ -31,6 +31,7 @@ import au.csiro.data61.types.SsdTypes._
 import au.csiro.data61.types._
 import com.twitter.finagle.http.{RequestBuilder, _}
 import com.twitter.io.Buf
+import com.twitter.io.Buf.ByteArray
 import com.twitter.util.Await
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
@@ -38,6 +39,7 @@ import org.joda.time.DateTime
 import org.json4s.JsonDSL._
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
+import org.json4s.jackson.Serialization._
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 
 import scala.annotation._
@@ -55,6 +57,8 @@ import scala.util.{Failure, Random, Success, Try}
 class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach with LazyLogging {
 
   import OctopusAPI._
+
+  implicit val version = APIVersion
 
 //  override def afterEach(): Unit = {
 //    SsdStorage.removeAll()
@@ -83,13 +87,11 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
     SsdStorage.removeAll()
     OwlStorage.removeAll()
-    DataSet.deleteAllDataSets()
+    server.deleteAllDatasets
   }
 
   val businessSsdID = 0
   val exampleOwlID = 1
-
-  val DataSet = new DatasetRestAPISpec
 
   def setUp(): Unit = {
     copySampleDatasets() // copy csv files for getCities and businessInfo
@@ -142,6 +144,8 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   val emptySSD: Ssd = readSSD(Paths.get(ssdDir,"empty_model.ssd").toString)
   val businessSSD: Ssd = readSSD(Paths.get(ssdDir,"businessInfo.ssd").toString)
 
+  val inconsistentSsd = Paths.get(ssdDir, "inconsistent_cities.ssd").toFile
+
   def defaultFeatures: JObject =
     ("activeFeatures" -> Seq("num-unique-vals", "prop-unique-vals", "prop-missing-vals",
       "ratio-alpha-chars", "prop-numerical-chars",
@@ -170,6 +174,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     datasetMap("businessInfo").toString, datasetMap("businessInfo").toString + ".json")
   val citiesDsPath = Paths.get(sampleDsDir,
     datasetMap("getCities").toString, datasetMap("getCities").toString + ".json")
+
 
   /**
     * Manually add datasets to the storage layer since SSDs have hard-coded mappings for columns.
@@ -795,34 +800,6 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
       assertClose()
     }
   })
-
-
-  //==============================================================================
-//  test("POST ssd responds BadRequest since SSD is inconsistent") (new TestServer {
-//    try {
-//
-//      val resp = for {
-//        createdOwl <- createOwl(exampleOwl, exampleOwlFormat)
-//        createdSsd <- bindSsd(museumDs, inconsistentSsd, List(createdOwl.id))
-//        response <- requestSsdCreation(createdSsd)
-//      } yield response
-//
-//      println(resp)
-//      assert(resp.isSuccess)
-//      assert(resp.get._1 === Status.BadRequest)
-//      assert(resp.get._2.nonEmpty)
-//      println(resp.get._2)
-//
-//
-//      //      assert(rstatus === Status.BadRequest)
-//      //      println(rcontent)
-//
-//    } finally {
-//      //      deleteAllSsds
-//      deleteAllDatasets
-//      assertClose()
-//    }
-//  })
 
   //==============================================================================
   // Tests for octopus training endpoint

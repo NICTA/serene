@@ -48,6 +48,10 @@ class CSVDataLoaderSpec extends mutable.Specification {
       headers mustEqual List("id", "Terminal Name", "Street",
         "Location", "Cross Street", "Suburb", "Latitude", "Longitude",
         "Accessibility", "Connecting Bus Services", "Parking")
+
+//      println("=================values")
+//      println(values)
+//      println("================")
       values.forall(_ == 25) mustEqual true
     }
   }
@@ -58,6 +62,10 @@ class CSVDataLoaderSpec extends mutable.Specification {
       val headers = DataModel.getAllAttributes(dataset).map(_.metadata)
       val values = DataModel.getAllAttributes(dataset).map(_.values.size)
 
+//      println("================")
+//      println(s"headers: $headers")
+//      println(s"values: $values")
+//      println("================")
       headers mustEqual List.fill(11)(None)
       values.forall(_ == 11) mustEqual true
     }

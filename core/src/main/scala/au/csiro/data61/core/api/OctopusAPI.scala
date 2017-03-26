@@ -237,30 +237,6 @@ object OctopusAPI extends RestAPI {
   }
 
   /**
-    * Helper function to parse json objects. This will return None if
-    * nothing is present, and throw a BadRequest error if it is incorrect,
-    * and Some(T) if correct
-    *
-    * @param label The key for the object. Must be present in jValue
-    * @param jValue The Json Object
-    * @tparam T The return type
-    * @return
-    */
-  private def parseOption[T: Manifest](label: String, jValue: JValue): Try[Option[T]] = {
-    val jv = jValue \ label
-    if (jv == JNothing) {
-      Success(None)
-    } else {
-      Try {
-        Some(jv.extract[T])
-      } recoverWith {
-        case err =>
-          Failure(BadRequestException(s"Failed to parse: $label. Error: ${err.getMessage}"))
-      }
-    }
-  }
-
-  /**
     * Helper function to parse a string into a OctopusRequest object...
     *
     * @param str The json string with the octopus request information
@@ -271,31 +247,31 @@ object OctopusAPI extends RestAPI {
     for {
       raw <- Try { parse(str) }
 
-      description <- parseOption[String]("description", raw)
+      description <- HelperJSON.parseOption[String]("description", raw)
 
-      name <- parseOption[String]("name", raw)
+      name <- HelperJSON.parseOption[String]("name", raw)
 
-      ssds <- parseOption[List[SsdID]]("ssds", raw)
+      ssds <- HelperJSON.parseOption[List[SsdID]]("ssds", raw)
 
-      ontologies <- parseOption[List[OwlID]]("ontologies", raw)
+      ontologies <- HelperJSON.parseOption[List[OwlID]]("ontologies", raw)
 
-      modelingProperties <- parseOption[ModelingProperties]("modelingProps", raw)
+      modelingProperties <- HelperJSON.parseOption[ModelingProperties]("modelingProps", raw)
 
-      modelType <- parseOption[String]("modelType", raw)
+      modelType <- HelperJSON.parseOption[String]("modelType", raw)
         .map(_.map(
           ModelType.lookup(_)
             .getOrElse(throw BadRequestException("Bad modelType"))))
 
-      features <- parseOption[FeaturesConfig]("features", raw)
+      features <- HelperJSON.parseOption[FeaturesConfig]("features", raw)
 
-      resamplingStrategy <- parseOption[String]("resamplingStrategy", raw)
+      resamplingStrategy <- HelperJSON.parseOption[String]("resamplingStrategy", raw)
         .map(_.map(
           SamplingStrategy.lookup(_)
             .getOrElse(throw BadRequestException("Bad resamplingStrategy"))))
 
-      bagSize <- parseOption[Int]("bagSize", raw)
+      bagSize <- HelperJSON.parseOption[Int]("bagSize", raw)
 
-      numBags <- parseOption[Int]("numBags", raw)
+      numBags <- HelperJSON.parseOption[Int]("numBags", raw)
 
     } yield OctopusRequest(
       name = name,

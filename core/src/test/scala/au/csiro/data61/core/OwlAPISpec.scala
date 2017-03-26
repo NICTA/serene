@@ -40,51 +40,13 @@ import scala.util.Try
 
 @RunWith(classOf[JUnitRunner])
 class OwlAPISpec extends FunSuite with JsonFormats {
+  implicit val version = APIVersion
+
   val RdfXmlDocument = new File(getClass.getResource("/rdf-xml-example.owl").toURI)
   val TurtleDocument = new File(getClass.getResource("/turtle-example.owl").toURI)
 
   val RdfXmlOwlDescription = "RDF/XML example document"
   val TurtleOwlDescription = "Turtle example document"
-
-  def requestOwlCreation(document: File, format: OwlDocumentFormat, description: String)
-                        (implicit server: TestServer): Try[(Status, String)] = Try {
-    val buf = Await.result(Reader.readAll(Reader.fromFile(document)))
-    val request = RequestBuilder()
-      .url(server.fullUrl(s"/$APIVersion/owl"))
-      .addFormElement("format" -> format.toString)
-      .addFormElement("description" -> description)
-      .add(FileElement("file", buf, None, Some(document.getName)))
-      .buildFormPost(multipart = true)
-    val response = Await.result(server.client(request))
-    (response.status, response.contentString)
-  }
-
-  def createOwl(document: File, format: OwlDocumentFormat, description: String)
-               (implicit server: TestServer): Try[Owl] =
-    requestOwlCreation(document, format, description).map {
-      case (Ok, content) => parse(content).extract[Owl]
-    }
-
-  def requestOwlDeletion(id: OwlID)(implicit server: TestServer): Try[(Status, String)] = Try {
-    val request = Request(Delete, s"/$APIVersion/owl/$id")
-    val response = Await.result(server.client(request))
-    (response.status, response.contentString)
-  }
-
-  def listOwls(implicit server: TestServer): Try[List[OwlID]] = Try {
-    val request = Request(s"/$APIVersion/owl")
-    val response = Await.result(server.client(request))
-    parse(response.contentString).extract[List[OwlID]]
-  }
-
-  def deleteAllOwls(implicit server: TestServer): Unit =
-    listOwls.get.map(requestOwlDeletion).foreach(_.get)
-
-  def getOwl(id: OwlID)(implicit server: TestServer): Try[Owl] = Try {
-    val request = Request(s"/$APIVersion/owl/$id")
-    val response = Await.result(server.client(request))
-    parse(response.contentString).extract[Owl]
-  }
 
   def updateOwl(id: OwlID, document: File, description: String)(implicit server: TestServer): Try[Owl] = Try {
 

@@ -18,23 +18,51 @@
 package au.csiro.data61.matcher.ingestion.loader
 
 import java.io.File
+import java.nio.file.Paths
 
 import au.csiro.data61.matcher.data.Metadata
 import au.csiro.data61.matcher.data.DataModel
 import au.csiro.data61.matcher.data.Attribute
 import com.github.tototoshi.csv._
+import com.typesafe.scalalogging.LazyLogging
 
 import scala.util.Try
 import language.postfixOps
 
 
-case class CsvDataLoader(val id: String = "",
-                         val encoding: String = "utf-8",
-                         val headerLines: Int = 1) extends FileLoaderTrait[DataModel] {
+case class CsvDataLoader(id: String = "",
+                         encoding: String = "utf-8",
+                         headerLines: Int = 1) extends FileLoaderTrait[DataModel] with LazyLogging{
 
   def toIntOpt(x: String): Option[Int] = Try (x.toInt) toOption
 
   def load(path: String): DataModel = {
+
+    //path can point to either a directory or a file
+    val loaded = if(Paths.get(path).toFile.isDirectory) {
+      logger.debug(s"loading directory: $path")
+      loadDirectory(path)
+    } else {
+      logger.debug(s"loading file: $path")
+      loadTable(path)
+    }
+
+    loaded
+  }
+
+  def loadDirectory(path: String): DataModel = {
+
+    val tableNames = Paths.get(path).toFile.list
+      .filter(_.endsWith(".csv")).map(Paths.get(path, _).toString)
+
+    lazy val csvData: DataModel = new DataModel(id, Some(Metadata("CSV Dataset", "CSV Dataset")), None, Some(tables))
+    lazy val tables: List[DataModel] = tableNames.map(loadTable(_, id)).toList
+
+    csvData
+  }
+
+
+  def loadTable(path: String, parentId: String =""): DataModel = {
 
     val tableName = path.substring(path.lastIndexOf("/") + 1, path.length)
 
@@ -42,17 +70,23 @@ case class CsvDataLoader(val id: String = "",
 
     val headers = columns.map(_.take(headerLines).mkString("_"))
 
-    val attrVals = columns.map(_.drop(headerLines))
+    val data = columns.map(_.drop(headerLines))
 
     //we set metadata to be empty if headers are all numbers from 0 to #headers
-    //this is the assumption that these headers are just subsitute for None
+    //this is the assumption that these headers are just substitute for None
     val procNames = if (headers.flatMap(toIntOpt).sorted != headers.indices.toList) {
       headers.map(x => Some(Metadata(x, "")))
     } else {
       headers.map(_ => None)
     }
 
-    val attrIds = headers.map(attr => s"$attr@$tableName")
+    val attrIds = if(parentId.nonEmpty) {
+      headers.map(attr => s"$attr@$tableName@$parentId")
+    } else {
+      headers.map(attr => s"$attr@$tableName")
+    }
+
+    val attrVals = data.map(col => col.filter(_.length > 0))
 
     lazy val table: DataModel = new DataModel(tableName, Some(Metadata(tableName,"")), None, Some(attributes))
 

@@ -45,22 +45,9 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
 
   import DatasetAPI._
 
+  implicit val version = APIVersion
   val Resource = getClass.getResource("/medium.csv").getPath
   val TinyResource = getClass.getResource("/tiny.csv").getPath
-
-  def deleteAllDataSets()(implicit server: TestServer): Unit = {
-
-    val response = server.get(s"/$APIVersion/dataset")
-
-    if (response.status == Status.Ok) {
-      val str = response.contentString
-      val regex = "[0-9]+".r
-      val datasets = regex.findAllIn(str).map(_.toInt)
-      datasets.foreach { dataset =>
-        server.delete(s"/$APIVersion/dataset/$dataset")
-      }
-    }
-  }
 
   override def beforeEach() {
     //deleteAllModels()
@@ -68,34 +55,6 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
 
   override def afterEach() {
     //deleteAllModels()
-  }
-
-  /**
-   * Posts a request to build a dataset, then returns the DataSet object it created
-   * wrapped in a Try.
-   *
-   * @param file The location of the csv resource
-   * @param typeMap The json string of the string->string typemap
-   * @param description Description line to add to the file.
-   * @return DataSet that was constructed
-   */
-  def createDataset(server: TestServer, file: String, typeMap: String, description: String): Try[DataSet] = {
-
-    Try {
-      val content = Await.result(Reader.readAll(Reader.fromFile(new File(file))))
-
-      val smallName = Paths.get(file).getFileName.toString
-
-      val request = RequestBuilder().url(server.fullUrl(s"/$APIVersion/dataset"))
-        .addFormElement("description" -> description)
-        .addFormElement("typeMap" -> typeMap)
-        .add(FileElement("file", content, None, Some(smallName)))
-        .buildFormPost(multipart = true)
-
-      val response = Await.result(server.client(request))
-
-      parse(response.contentString).extract[DataSet]
-    }
   }
 
   test("version number is 1.0") {
@@ -109,7 +68,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       assert(response.status === Status.Ok)
       assert(response.contentString.nonEmpty)
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -143,7 +102,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       assert(ds.typeMap.get("c") === Some("d"))
 
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -164,14 +123,14 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       assert(!response.contentString.isEmpty)
 
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
 
   test("POST /v1.0/dataset appears in dataset list") (new TestServer {
     try {
-      createDataset(this, Resource, "{}", "") match {
+      createDataset(Paths.get(Resource).toFile, "") match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -188,14 +147,14 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
 
   test("POST /v1.0/dataset can handle small files") (new TestServer {
     try {
-      createDataset(this, TinyResource, "{}", "") match {
+      createDataset(Paths.get(TinyResource).toFile, "") match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -212,7 +171,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -222,7 +181,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       val TypeMap = """{"w":"x", "y":"z"}"""
       val TestStr = Random.alphanumeric take 10 mkString
 
-      createDataset(this, Resource, TypeMap, TestStr) match {
+      createDataset(Paths.get(Resource).toFile, TestStr, TypeMap) match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -243,7 +202,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -254,7 +213,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       val TestStr = Random.alphanumeric take 10 mkString
       val SampleLength = 4
 
-      createDataset(this, Resource, TypeMap, TestStr) match {
+      createDataset(Paths.get(Resource).toFile, TestStr, TypeMap) match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -276,7 +235,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -291,7 +250,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       assert(response.status === Status.NotFound)
       assert(!response.contentString.isEmpty)
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -305,7 +264,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       assert(response.status === Status.NotFound)
       assert(response.contentString.isEmpty)
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -316,7 +275,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       val TestStr = Random.alphanumeric take 10 mkString
       val PauseTime = 2000
 
-      createDataset(this, Resource, "{}", "") match {
+      createDataset(Paths.get(Resource).toFile, "", "{}") match {
         case Success(ds) =>
           // wait for the clock to tick
           Thread.sleep(PauseTime)
@@ -345,7 +304,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -357,7 +316,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       assert(response.status === Status.Ok)
       assert(response.contentString === "[]")
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
@@ -367,7 +326,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       val TypeMap = """{"w":"x", "y":"z"}"""
       val TestStr = Random.alphanumeric take 10 mkString
 
-      createDataset(this, Resource, TypeMap, TestStr) match {
+      createDataset(Paths.get(Resource).toFile, TestStr, TypeMap) match {
         case Success(ds) =>
 
           // build a request to modify the dataset...
@@ -389,7 +348,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
           throw new Exception("Failed to create test resource")
       }
     } finally {
-      deleteAllDataSets()
+      deleteAllDatasets
       assertClose()
     }
   })
