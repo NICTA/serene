@@ -19,12 +19,9 @@ package au.csiro.data61.matcher.ingestion.loader
 
 import java.io.File
 
-import scala.io.Source
-
 import au.csiro.data61.matcher.data.Metadata
 import au.csiro.data61.matcher.data.DataModel
 import au.csiro.data61.matcher.data.Attribute
-import au.csiro.data61.matcher.data._
 import com.github.tototoshi.csv._
 
 import scala.util.Try
@@ -45,7 +42,7 @@ case class CsvDataLoader(val id: String = "",
 
     val headers = columns.map(_.take(headerLines).mkString("_"))
 
-    val data = columns.map(_.drop(headerLines))
+    val attrVals = columns.map(_.drop(headerLines))
 
     //we set metadata to be empty if headers are all numbers from 0 to #headers
     //this is the assumption that these headers are just subsitute for None
@@ -56,8 +53,6 @@ case class CsvDataLoader(val id: String = "",
     }
 
     val attrIds = headers.map(attr => s"$attr@$tableName")
-
-    val attrVals = data.map(col => col.filter(_.length > 0))
 
     lazy val table: DataModel = new DataModel(tableName, Some(Metadata(tableName,"")), None, Some(attributes))
 
