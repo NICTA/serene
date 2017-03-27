@@ -38,6 +38,7 @@ import org.json4s.jackson.JsonMethods._
 import org.scalatest.path
 import org.json4s._
 import scala.collection.JavaConverters._
+//import com.github.tototoshi.csv.CSVReader
 // data integration project
 import au.csiro.data61.matcher.ingestion.loader.CSVHierarchicalDataLoader
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
@@ -248,6 +249,7 @@ object ModelPredictor extends LazyLogging with JsonFormats {
   protected def readPredictions(filePath: Path, classNum : Int, modelID: ModelID, dsID: DataSetID): DataSetPrediction = {
     logger.info(s"Reading predictions from: $filePath...")
 
+    //val reader = CSVReader.open(filePath.toFile).all
     // first load a CSV object...
     val reader = CSVFormat.RFC4180
       .parse(new FileReader(filePath.toFile))
