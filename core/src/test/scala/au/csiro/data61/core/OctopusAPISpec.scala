@@ -974,7 +974,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
   //==============================================================================
   // Tests for octopus prediction endpoint
 
-  test("POST /v1.0/octopus/1/predict/:id returns octopus NotFound")(new TestServer {
+  test("POST /v1.0/octopus/1/predict/1 returns octopus NotFound")(new TestServer {
     try {
       // now make a prediction with basically nothing
       val request = postRequest(json = JObject(),
