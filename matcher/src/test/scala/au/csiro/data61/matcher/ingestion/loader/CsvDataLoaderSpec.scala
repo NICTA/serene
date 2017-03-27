@@ -49,7 +49,7 @@ class CsvDataLoaderSpec extends mutable.Specification with LazyLogging{
 //        "Location", "Cross Street", "Suburb", "Latitude", "Longitude",
 //        "Accessibility", "Connecting Bus Services", "Parking")
 //
-//      values.forall(_ == 25) mustEqual true
+//      values.forall(_ mustEqual  25)
 //    }
 //  }
 //
@@ -60,7 +60,7 @@ class CsvDataLoaderSpec extends mutable.Specification with LazyLogging{
 //      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
 //
 //      headers mustEqual List.fill(11)(None)
-//      values.forall(_ == 11) mustEqual true
+//      values.forall(_ mustEqual  11)
 //    }
 //  }
 //
@@ -71,7 +71,7 @@ class CsvDataLoaderSpec extends mutable.Specification with LazyLogging{
 //      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
 //
 //      headers mustEqual List("A", "B", "C", "D", "E")
-//      values.forall(_ == 3) mustEqual true
+//      values.forall(_ mustEqual 3)
 //    }
 //  }
 //
@@ -82,7 +82,7 @@ class CsvDataLoaderSpec extends mutable.Specification with LazyLogging{
 //      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
 //
 //      headers mustEqual List("A", "B", "C", "D", "E")
-//      values.forall(_ == 3) mustEqual true
+//      values.forall(_ mustEqual  3)
 //    }
 //  }
 //
@@ -93,7 +93,7 @@ class CsvDataLoaderSpec extends mutable.Specification with LazyLogging{
 //      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
 //
 //      headers mustEqual List("A", "B", "C", "D", "E")
-//      values.forall(_ == 3) mustEqual true
+//      values.forall(_ mustEqual 3)
 //    }
 //  }
 

@@ -20,14 +20,11 @@ package au.csiro.data61.matcher.ingestion.loader
 import java.io.File
 import java.nio.file.Paths
 
-import scala.io.Source
 import au.csiro.data61.matcher.data.Metadata
 import au.csiro.data61.matcher.data.DataModel
 import au.csiro.data61.matcher.data.Attribute
-import au.csiro.data61.matcher.data._
 import com.github.tototoshi.csv._
 import com.typesafe.scalalogging.LazyLogging
-import com.univocity.parsers.csv.CsvFormat
 
 import scala.util.Try
 import language.postfixOps
@@ -69,22 +66,22 @@ case class CsvDataLoader(id: String = "",
 
     val tableName = path.substring(path.lastIndexOf("/") + 1, path.length)
 
-    implicit val format = new DefaultCSVFormat {
+//    implicit val format = new DefaultCSVFormat {
 //      override val treatEmptyLineAsNil = true
-      override val escapeChar: Char = '"'
+//      override val escapeChar: Char = '"'
 //      override val quoteChar: Char = '\''
-      override val quoting: Quoting = QUOTE_MINIMAL
-      override val lineTerminator: String = "\n"
-    }
+//      override val quoting: Quoting = QUOTE_MINIMAL
+//      override val lineTerminator: String = "'"
+//    }
 
-    val rows = CSVReader.open(new File(path), encoding="iso-8859-1")(format).all()
+    val rows = CSVReader.open(new File(path), encoding="utf-8").all()
       .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals
 
-    println()
-    rows.foreach(println)
-    println()
+//    val rows = TotoshiCsvReader.open(new File(path), encoding="utf-8")(format).all()
+//      .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals
 
-    val columns = rows.sortBy(-_.size).transpose
+
+    val columns = rows.transpose
 
     val headers = columns.map(_.take(headerLines).mkString("_"))
 
