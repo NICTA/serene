@@ -21,9 +21,9 @@ import java.nio.file.Paths
 
 import org.specs2._
 import au.csiro.data61.matcher.data._
-import au.csiro.data61.matcher.ingestion.loader._
+import com.typesafe.scalalogging.LazyLogging
 
-class CSVDataLoaderSpec extends mutable.Specification {
+class CsvDataLoaderSpec extends mutable.Specification with LazyLogging{
     val helperDir = getClass.getResource("/datasets").getPath
     val sampleData = "src/test/resources/datasets/simpleCsvData/db1"
 
@@ -49,9 +49,6 @@ class CSVDataLoaderSpec extends mutable.Specification {
         "Location", "Cross Street", "Suburb", "Latitude", "Longitude",
         "Accessibility", "Connecting Bus Services", "Parking")
 
-//      println("=================values")
-//      println(values)
-//      println("================")
       values.forall(_ == 25) mustEqual true
     }
   }
@@ -62,12 +59,41 @@ class CSVDataLoaderSpec extends mutable.Specification {
       val headers = DataModel.getAllAttributes(dataset).map(_.metadata)
       val values = DataModel.getAllAttributes(dataset).map(_.values.size)
 
-//      println("================")
-//      println(s"headers: $headers")
-//      println(s"values: $values")
-//      println("================")
       headers mustEqual List.fill(11)(None)
       values.forall(_ == 11) mustEqual true
+    }
+  }
+
+  s"""CSVDataLoader loads tiny.csv""" should {
+    s"load and parse empty values" in {
+      val dataset = CsvDataLoader("tiny").loadTable(Paths.get(helperDir, "tiny.csv").toString)
+      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
+      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
+
+      headers mustEqual List("A", "B", "C", "D", "E")
+      values.forall(_ == 3) mustEqual true
+    }
+  }
+
+  s"""CSVDataLoader loads tiny_emptyrows.csv""" should {
+    s"filter empty rows" in {
+      val dataset = CsvDataLoader("tiny").loadTable(Paths.get(helperDir, "tiny_emptyrows.csv").toString)
+      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
+      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
+
+      headers mustEqual List("A", "B", "C", "D", "E")
+      values.forall(_ == 3) mustEqual true
+    }
+  }
+
+  s"""CSVDataLoader loads tiny_emptyvals.csv""" should {
+    s"filter rows with all values empty" in {
+      val dataset = CsvDataLoader("tiny").loadTable(Paths.get(helperDir, "tiny_emptyvals.csv").toString)
+      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
+      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
+
+      headers mustEqual List("A", "B", "C", "D", "E")
+      values.forall(_ == 3) mustEqual true
     }
   }
 }

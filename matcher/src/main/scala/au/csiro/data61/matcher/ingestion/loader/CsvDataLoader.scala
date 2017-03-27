@@ -68,11 +68,14 @@ case class CsvDataLoader(id: String = "",
 
     val tableName = path.substring(path.lastIndexOf("/") + 1, path.length)
 
-    val columns = CSVReader.open(new File(path)).all().transpose
+    val rows = CSVReader.open(new File(path)).all()
+      .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals
+
+    val columns = rows.transpose
 
     val headers = columns.map(_.take(headerLines).mkString("_"))
 
-    val data = columns.map(_.drop(headerLines))
+    val attrVals = columns.map(_.drop(headerLines))
 
     //we set metadata to be empty if headers are all numbers from 0 to #headers
     //this is the assumption that these headers are just substitute for None
@@ -87,8 +90,6 @@ case class CsvDataLoader(id: String = "",
     } else {
       headers.map(attr => s"$attr@$tableName")
     }
-
-    val attrVals = data.map(col => col.filter(_.length > 0))
 
     lazy val table: DataModel = new DataModel(tableName, Some(Metadata(tableName,"")), None, Some(attributes))
 
