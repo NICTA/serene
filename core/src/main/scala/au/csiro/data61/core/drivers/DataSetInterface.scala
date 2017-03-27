@@ -102,6 +102,7 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
     val id = Generic.genID
     logger.info(s"Writing dataset $id")
 
+    val now = DateTime.now
     val dataSet = for {
       fs <- request.file
       path <- DatasetStorage.addFile(id, fs)
@@ -112,8 +113,8 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
         path = path,
         typeMap = typeMap,
         description = description,
-        dateCreated = DateTime.now,
-        dateModified = DateTime.now
+        dateCreated = now,
+        dateModified = now
       )).toOption
       _ <- add(ds)
     } yield ds
