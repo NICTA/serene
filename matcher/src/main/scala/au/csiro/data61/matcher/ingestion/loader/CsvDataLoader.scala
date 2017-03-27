@@ -17,13 +17,16 @@
   */
 package au.csiro.data61.matcher.ingestion.loader
 
-import java.io.File
+import java.io._
 import java.nio.file.Paths
 
 import au.csiro.data61.matcher.data.Metadata
 import au.csiro.data61.matcher.data.DataModel
 import au.csiro.data61.matcher.data.Attribute
-import com.github.tototoshi.csv._
+
+import org.apache.commons.csv._
+import scala.collection.JavaConverters._
+
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.util.Try
@@ -32,7 +35,7 @@ import language.postfixOps
 
 case class CsvDataLoader(id: String = "",
                          encoding: String = "utf-8",
-                         headerLines: Int = 1) extends FileLoaderTrait[DataModel] with LazyLogging{
+                         headerLines: Int = 1) extends FileLoaderTrait[DataModel] with LazyLogging {
 
   def toIntOpt(x: String): Option[Int] = Try (x.toInt) toOption
 
@@ -61,18 +64,23 @@ case class CsvDataLoader(id: String = "",
     csvData
   }
 
-
   def loadTable(path: String, parentId: String =""): DataModel = {
 
     val tableName = path.substring(path.lastIndexOf("/") + 1, path.length)
 
-    val rows = CSVReader.open(new File(path)).all()
-      .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals
+    // first load a CSV object...
+    val csv = CSVFormat.RFC4180
+      .parse(new FileReader(path))
 
-    println()
-    rows.foreach(c => println(c.length))
-    println()
+    // pull into a row list of List[String]
+    val rows = csv
+      .iterator
+      .asScala
+      .map { row => (0 until row.size()).map(row.get) }
+      .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals.toList.transpose
+      .toList
 
+    // transpose the rows...
     val columns = rows.sortBy(-_.size).transpose
 
     val headers = columns.map(_.take(headerLines).mkString("_"))
@@ -87,7 +95,7 @@ case class CsvDataLoader(id: String = "",
       headers.map(_ => None)
     }
 
-    val attrIds = if(parentId.nonEmpty) {
+    val attrIds = if (parentId.nonEmpty) {
       headers.map(attr => s"$attr@$tableName@$parentId")
     } else {
       headers.map(attr => s"$attr@$tableName")
