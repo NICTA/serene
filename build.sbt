@@ -31,7 +31,8 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
   libraryDependencies ++= Seq(
     "org.apache.spark"            %%  "spark-core"           % "2.1.0",
     "org.apache.spark"            %%  "spark-sql"            % "2.1.0",
-    "org.apache.spark"            %%  "spark-mllib"          % "2.1.0"
+    "org.apache.spark"            %%  "spark-mllib"          % "2.1.0",
+    "org.apache.commons"          %  "commons-csv"           % "1.4"
   )
 )
 
@@ -101,8 +102,7 @@ lazy val matcher = Project(
       "com.rubiconproject.oss"      %  "jchronic"              % "0.2.6",
       "org.json4s"                  %% "json4s-native"         % "3.2.10",
       "com.typesafe.scala-logging"  %% "scala-logging"         % "3.4.0",
-      "com.joestelmach"             %  "natty"                 % "0.8",
-      "org.apache.commons"          %  "commons-csv"           % "1.4"
+      "com.joestelmach"             %  "natty"                 % "0.8"
     ),
 
     resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),
@@ -183,7 +183,6 @@ lazy val core = Project(
         ,"commons-io"                 %  "commons-io"         % "2.5"
         ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
         ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
-        ,"com.github.tototoshi"       %% "scala-csv"          % "1.3.1"
         ,"com.github.finagle"         %% "finch-core"         % "0.11.1"
         ,"com.github.finagle"         %% "finch-json4s"       % "0.11.1"
         ,"com.github.finagle"         %% "finch-test"         % "0.11.1"

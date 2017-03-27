@@ -28,7 +28,6 @@ import au.csiro.data61.types.{Column, DataSet, Identifiable, LogicalType}
 import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types.ModelTypes.ModelID
 import au.csiro.data61.types.SsdTypes.{OctopusID, SsdID}
-import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.csv.CSVFormat
 import org.joda.time.DateTime
