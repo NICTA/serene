@@ -27,15 +27,6 @@ class CsvDataLoaderSpec extends mutable.Specification with LazyLogging{
     val helperDir = getClass.getResource("/datasets").getPath
     val sampleData = "src/test/resources/datasets/simpleCsvData/db1"
 
-//     s"""CsvDataLoader load()""" should {
-//         s"load and parse csv data" in {
-//             val dataset = CSVDataLoader("testdb").load(sampleData)
-//             // val children = dataset.children.get
-//             println(dataset)
-//
-//             1 mustEqual 1
-//         }
-//     }
 
   s"""CSVDataLoader load centrelink-locations.csv""" should {
     s"load and parse csv data" in {

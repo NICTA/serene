@@ -22,8 +22,8 @@ trait USGovDataCarParkingDomainUtils {
         })
 
         filesList.map({case f => {
-            val fpath = Paths.get(dataPath, f).toString
-            CsvDataLoader("US").loadTable(fpath, "US")
+//            val fpath = Paths.get(dataPath, f).toString
+            CsvDataLoader("US").loadTable(dataPath, f, "US")
         }}).toList
     }
 

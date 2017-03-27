@@ -22,8 +22,8 @@ trait AusGovDataLibrariesDomainUtils {
         })
 
         filesList.map({case f => {
-            val fpath = Paths.get(dataPath, f).toString
-            CsvDataLoader("AU").loadTable(fpath, "AU")
+//            val fpath = Paths.get(dataPath, f).toString
+            CsvDataLoader("AU").loadTable(dataPath, f, "AU")
         }}).toList
     }
 
