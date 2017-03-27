@@ -27,75 +27,75 @@ class CsvDataLoaderSpec extends mutable.Specification with LazyLogging{
     val helperDir = getClass.getResource("/datasets").getPath
     val sampleData = "src/test/resources/datasets/simpleCsvData/db1"
 
-    // s"""CSVDataLoader load()""" should {
-    //     s"load and parse csv data" in {
-    //         val dataset = CSVDataLoader("testdb").load(sampleData)
-    //         // val children = dataset.children.get
-    //         println(dataset)
+     s"""CSVDataLoader load()""" should {
+         s"load and parse csv data" in {
+             val dataset = CSVDataLoader("testdb").load(sampleData)
+             // val children = dataset.children.get
+             println(dataset)
 
-    //         1 mustEqual 1
-    //     }
-    // }
+             1 mustEqual 1
+         }
+     }
 
-//  s"""CSVDataLoader load centrelink-locations.csv""" should {
-//    s"load and parse csv data" in {
-//      val dataset = CsvDataLoader("testdb").load(Paths.get(helperDir, "data.gov.au", "db5").toString)
-//      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
-//      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
-//
-//      dataset.id mustEqual "testdb"
-//      dataset.metadata mustEqual Some(Metadata(name="CSV Dataset", description="CSV Dataset"))
-//      headers mustEqual List("id", "Terminal Name", "Street",
-//        "Location", "Cross Street", "Suburb", "Latitude", "Longitude",
-//        "Accessibility", "Connecting Bus Services", "Parking")
-//
-//      values.forall(_ mustEqual  25)
-//    }
-//  }
-//
-//  s"""CSVDataLoader loads no_header.csv""" should {
-//    s"create attributes with no Metadata" in {
-//      val dataset = CsvDataLoader("no_header").load(Paths.get(helperDir, "no_header.csv").toString)
-//      val headers = DataModel.getAllAttributes(dataset).map(_.metadata)
-//      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
-//
-//      headers mustEqual List.fill(11)(None)
-//      values.forall(_ mustEqual  11)
-//    }
-//  }
-//
-//  s"""CSVDataLoader loads tiny.csv""" should {
-//    s"load and parse empty values" in {
-//      val dataset = CsvDataLoader("tiny").loadTable(Paths.get(helperDir, "tiny.csv").toString)
-//      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
-//      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
-//
-//      headers mustEqual List("A", "B", "C", "D", "E")
-//      values.forall(_ mustEqual 3)
-//    }
-//  }
-//
-//  s"""CSVDataLoader loads tiny_emptyrows.csv""" should {
-//    s"filter empty rows" in {
-//      val dataset = CsvDataLoader("tiny").loadTable(Paths.get(helperDir, "tiny_emptyrows.csv").toString)
-//      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
-//      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
-//
-//      headers mustEqual List("A", "B", "C", "D", "E")
-//      values.forall(_ mustEqual  3)
-//    }
-//  }
-//
-//  s"""CSVDataLoader loads tiny_emptyvals.csv""" should {
-//    s"filter rows with all values empty" in {
-//      val dataset = CsvDataLoader("tiny").loadTable(Paths.get(helperDir, "tiny_emptyvals.csv").toString)
-//      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
-//      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
-//
-//      headers mustEqual List("A", "B", "C", "D", "E")
-//      values.forall(_ mustEqual 3)
-//    }
-//  }
+  s"""CSVDataLoader load centrelink-locations.csv""" should {
+    s"load and parse csv data" in {
+      val dataset = CsvDataLoader("testdb").load(Paths.get(helperDir, "data.gov.au", "db5").toString)
+      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
+      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
+
+      dataset.id mustEqual "testdb"
+      dataset.metadata mustEqual Some(Metadata(name="CSV Dataset", description="CSV Dataset"))
+      headers mustEqual List("id", "Terminal Name", "Street",
+        "Location", "Cross Street", "Suburb", "Latitude", "Longitude",
+        "Accessibility", "Connecting Bus Services", "Parking")
+
+      values.forall(_ mustEqual  25)
+    }
+  }
+
+  s"""CSVDataLoader loads no_header.csv""" should {
+    s"create attributes with no Metadata" in {
+      val dataset = CsvDataLoader("no_header").load(Paths.get(helperDir, "no_header.csv").toString)
+      val headers = DataModel.getAllAttributes(dataset).map(_.metadata)
+      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
+
+      headers mustEqual List.fill(11)(None)
+      values.forall(_ mustEqual  11)
+    }
+  }
+
+  s"""CSVDataLoader loads tiny.csv""" should {
+    s"load and parse empty values" in {
+      val dataset = CsvDataLoader("tiny").loadTable(Paths.get(helperDir, "tiny.csv").toString)
+      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
+      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
+
+      headers mustEqual List("A", "B", "C", "D", "E")
+      values.forall(_ mustEqual 3)
+    }
+  }
+
+  s"""CSVDataLoader loads tiny_emptyrows.csv""" should {
+    s"filter empty rows" in {
+      val dataset = CsvDataLoader("tiny").loadTable(Paths.get(helperDir, "tiny_emptyrows.csv").toString)
+      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
+      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
+
+      headers mustEqual List("A", "B", "C", "D", "E")
+      values.forall(_ mustEqual  3)
+    }
+  }
+
+  s"""CSVDataLoader loads tiny_emptyvals.csv""" should {
+    s"filter rows with all values empty" in {
+      val dataset = CsvDataLoader("tiny").loadTable(Paths.get(helperDir, "tiny_emptyvals.csv").toString)
+      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
+      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
+
+      headers mustEqual List("A", "B", "C", "D", "E")
+      values.forall(_ mustEqual 3)
+    }
+  }
 
   s"""CSVDataLoader loads museum csv file""" should {
     s"load and parse" in {
