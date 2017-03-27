@@ -99,4 +99,16 @@ class CsvDataLoaderSpec extends mutable.Specification with LazyLogging{
       headers.size mustEqual 12
     }
   }
+
+  s"""CSVDataLoader loads s28 museum csv file""" should {
+    s"load and parse" in {
+      val dataset = CsvDataLoader("museum").load(Paths.get(helperDir,
+        "s28-wildlife-art.csv.csv").toString)
+      val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
+      val values = DataModel.getAllAttributes(dataset).map(_.values.size)
+
+      values.forall(_ mustEqual  7)
+      headers.size mustEqual 56
+    }
+  }
 }
