@@ -27,6 +27,7 @@ import au.csiro.data61.matcher.data.Attribute
 import au.csiro.data61.matcher.data._
 import com.github.tototoshi.csv._
 import com.typesafe.scalalogging.LazyLogging
+import com.univocity.parsers.csv.CsvFormat
 
 import scala.util.Try
 import language.postfixOps
@@ -68,11 +69,19 @@ case class CsvDataLoader(id: String = "",
 
     val tableName = path.substring(path.lastIndexOf("/") + 1, path.length)
 
-    val rows = CSVReader.open(new File(path)).all()
+    implicit val format = new DefaultCSVFormat {
+//      override val treatEmptyLineAsNil = true
+      override val escapeChar: Char = '"'
+//      override val quoteChar: Char = '\''
+      override val quoting: Quoting = QUOTE_MINIMAL
+      override val lineTerminator: String = "\n"
+    }
+
+    val rows = CSVReader.open(new File(path), encoding="iso-8859-1")(format).all()
       .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals
 
     println()
-    rows.foreach(c => println(c.length))
+    rows.foreach(println)
     println()
 
     val columns = rows.sortBy(-_.size).transpose
