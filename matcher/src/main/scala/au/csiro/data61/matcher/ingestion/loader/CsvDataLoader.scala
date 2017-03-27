@@ -81,7 +81,7 @@ case class CsvDataLoader(id: String = "",
       .toList
 
     // transpose the rows...
-    val columns = rows.sortBy(-_.size).transpose
+    val columns = rows.transpose
 
     val headers = columns.map(_.take(headerLines).mkString("_"))
 
