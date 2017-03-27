@@ -309,7 +309,7 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     }
   })
 
-  test("POST cities ssd responds responds BadRequest since target key is mmissing in links") (new TestServer {
+  test("POST cities ssd responds responds BadRequest since target key is missing in links") (new TestServer {
     try {
       OctopusHelp.setUp()
 

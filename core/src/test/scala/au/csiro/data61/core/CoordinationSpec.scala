@@ -369,29 +369,29 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
   })
 
   //==============================================================================
-  test("POST museum ssd responds Ok") (new TestServer {
-    try {
-      // ssd is inconsistent, but bindSsd does some magic!
-      val resp = for {
-        createdOwl <- createOwl(exampleOwl, exampleOwlFormat)
-        createdSsd <- bindSsd(museumDs, inconsistentSsd, List(createdOwl.id))
-        response <- requestSsdCreation(createdSsd)
-      } yield response
-
-      println(resp)
-      assert(resp.isSuccess)
-      assert(resp.get._1 === Status.Ok)
-      assert(resp.get._2.nonEmpty)
-
-      val createdSsd = Try{parse(resp.get._2).extract[Ssd]}
-      assert(createdSsd.isSuccess)
-
-    } finally {
-      //      deleteAllSsds
-      deleteAllDatasets
-      assertClose()
-    }
-  })
+//  test("POST museum ssd responds Ok") (new TestServer {
+//    try {
+//      // ssd is inconsistent, but bindSsd does some magic!
+//      val resp = for {
+//        createdOwl <- createOwl(exampleOwl, exampleOwlFormat)
+//        createdSsd <- bindSsd(museumDs, inconsistentSsd, List(createdOwl.id))
+//        response <- requestSsdCreation(createdSsd)
+//      } yield response
+//
+//      println(resp)
+//      assert(resp.isSuccess)
+//      assert(resp.get._1 === Status.Ok)
+//      assert(resp.get._2.nonEmpty)
+//
+//      val createdSsd = Try{parse(resp.get._2).extract[Ssd]}
+//      assert(createdSsd.isSuccess)
+//
+//    } finally {
+//      //      deleteAllSsds
+//      deleteAllDatasets
+//      assertClose()
+//    }
+//  })
 
 
 }
