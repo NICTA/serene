@@ -26,13 +26,13 @@ import au.csiro.data61.core.Serene
 import au.csiro.data61.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.types.Training.{TrainState, Status}
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
+import org.apache.commons.csv.{CSVPrinter, CSVFormat}
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
 import scala.collection.JavaConverters._
-import org.apache.commons.csv._
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -244,10 +244,8 @@ object ModelStorage extends Storage[ModelID, Model] {
       val fileWriter = new FileWriter(labelsPath)
       val csvFilePrinter = new CSVPrinter(fileWriter, csvFileFormat)
 
-      // add the header...
-      csvFilePrinter.printRecord(labelData.head)
-
-      labelData.tail.foreach(row => csvFilePrinter.printRecord(row))
+      // add the data...
+      labelData.foreach(line => csvFilePrinter.printRecord(line.asJava))
 
       fileWriter.flush()
       fileWriter.close()
