@@ -69,7 +69,11 @@ case class CsvDataLoader(id: String = "",
     val rows = CSVReader.open(new File(path)).all()
       .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals
 
-    val columns = rows.transpose
+    println()
+    rows.foreach(c => println(c.length))
+    println()
+
+    val columns = rows.sortBy(-_.size).transpose
 
     val headers = columns.map(_.take(headerLines).mkString("_"))
 
