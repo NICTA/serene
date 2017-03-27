@@ -98,14 +98,14 @@ class CsvDataLoaderSpec extends mutable.Specification with LazyLogging{
 //  }
 
   s"""CSVDataLoader loads museum csv file""" should {
-    s"filter rows with all values empty" in {
-      val dataset = CsvDataLoader("tiny").loadTable(Paths.get(helperDir,
+    s"load and parse" in {
+      val dataset = CsvDataLoader("museum").loadTable(Paths.get(helperDir,
         "s14-s-california-african-american.json.csv").toString)
       val headers = DataModel.getAllAttributes(dataset).map(_.metadata.get.name)
       val values = DataModel.getAllAttributes(dataset).map(_.values.size)
 
-      values.forall(_ mustEqual  644)
-      headers mustEqual List("A", "B", "C", "D", "E")
+      values.forall(_ mustEqual  5)
+      headers.size mustEqual 12
     }
   }
 }
