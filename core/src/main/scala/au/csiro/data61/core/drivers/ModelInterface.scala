@@ -124,6 +124,7 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
       .map(_.datasetID)
       .toList
 
+    val now = DateTime.now
     // build the model from the request, adding defaults where necessary
     val model = Model(
       id = id,
@@ -137,8 +138,8 @@ object ModelInterface extends TrainableInterface[ModelKey, Model] with LazyLoggi
       refDataSets = refDatasets,
       modelPath = None,
       state = Training.TrainState(Training.Status.UNTRAINED, "", DateTime.now),
-      dateCreated = DateTime.now,
-      dateModified = DateTime.now,
+      dateCreated = now,
+      dateModified = now,
       bagSize = request.bagSize.getOrElse(ModelTypes.defaultBagSize),
       numBags = request.numBags.getOrElse(ModelTypes.defaultNumBags)
     )
