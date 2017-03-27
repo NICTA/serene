@@ -37,7 +37,7 @@ trait Identifiable[Key] {
 
 
 object HelperJSON extends LazyLogging {
-  implicit val formats = DefaultFormats + HelperLinkSerializer + SsdNodeSerializer
+  implicit val formats = DefaultFormats + HelperLinkSerializer + SsdNodeSerializer + FeaturesConfigSerializer
   /**
     * Helper function to parse json objects. This will return None if
     * nothing is present, and throw a BadRequest error if it is incorrect,
