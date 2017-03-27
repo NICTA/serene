@@ -32,8 +32,7 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
     "org.apache.spark"            %%  "spark-core"           % "2.1.0",
     "org.apache.spark"            %%  "spark-sql"            % "2.1.0",
     "org.apache.spark"            %%  "spark-mllib"          % "2.1.0",
-    "org.apache.commons"          %  "commons-csv"           % "1.4",
-    "com.github.tototoshi"       %% "scala-csv"          % "1.3.1"  )
+    "org.apache.commons"          %  "commons-csv"           % "1.4")
 )
 
 /**

@@ -26,14 +26,13 @@ import au.csiro.data61.core.Serene
 import au.csiro.data61.types.ModelTypes.{Model, ModelID}
 import au.csiro.data61.types.Training.{TrainState, Status}
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
-import com.github.tototoshi.csv.CSVWriter
+import org.apache.commons.csv.{CSVPrinter, CSVFormat}
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
-//import scala.collection.JavaConverters._
-//import org.apache.commons.csv._
+import scala.collection.JavaConverters._
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -241,22 +240,16 @@ object ModelStorage extends Storage[ModelID, Model] {
 
       logger.info(s"Writing labels for model ${model.id} to $labelsPath")
 
-      val writer = CSVWriter.open(labelsPath)
-            writer.writeAll(labelData)
-            writer.close()
+      val csvFileFormat = CSVFormat.RFC4180.withRecordSeparator("\n")
+      val fileWriter = new FileWriter(labelsPath)
+      val csvFilePrinter = new CSVPrinter(fileWriter, csvFileFormat)
 
-//      val csvFileFormat = CSVFormat.RFC4180.withRecordSeparator("\n")
-//      val fileWriter = new FileWriter(labelsPath)
-//      val csvFilePrinter = new CSVPrinter(fileWriter, csvFileFormat)
-//
-//      // add the header...
-//      csvFilePrinter.printRecord(labelData.head)
-//
-//      labelData.tail.foreach(row => csvFilePrinter.printRecord(row))
-//
-//      fileWriter.flush()
-//      fileWriter.close()
-//      csvFilePrinter.close()
+      // add the data...
+      labelData.foreach(line => csvFilePrinter.printRecord(line.asJava))
+
+      fileWriter.flush()
+      fileWriter.close()
+      csvFilePrinter.close()
 
       labelsPath
     }
