@@ -17,7 +17,7 @@
   */
 package au.csiro.data61.core.drivers
 
-import java.io.{FileInputStream, ObjectInputStream}
+import java.io.{FileReader, FileInputStream, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.api.InternalException
@@ -30,14 +30,14 @@ import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features.FeatureExtractor
 import au.csiro.data61.matcher.matcher.featureserialize.ModelFeatureExtractors
 import com.typesafe.scalalogging.LazyLogging
+import org.apache.commons.csv.CSVFormat
 
 import scala.util.{Failure, Success, Try}
-import com.github.tototoshi.csv.CSVReader
 import org.apache.spark.ml.PipelineModel
 import org.json4s.jackson.JsonMethods._
 import org.scalatest.path
 import org.json4s._
-
+import scala.collection.JavaConverters._
 // data integration project
 import au.csiro.data61.matcher.ingestion.loader.CSVHierarchicalDataLoader
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
@@ -248,7 +248,14 @@ object ModelPredictor extends LazyLogging with JsonFormats {
   protected def readPredictions(filePath: Path, classNum : Int, modelID: ModelID, dsID: DataSetID): DataSetPrediction = {
     logger.info(s"Reading predictions from: $filePath...")
 
-    val reader = CSVReader.open(filePath.toFile).all
+    // first load a CSV object...
+    val reader = CSVFormat.RFC4180
+      .parse(new FileReader(filePath.toFile))
+      .iterator
+      .asScala
+      .map { row => (0 until row.size()).map(row.get) }
+      .toList
+
     val header = readLine(reader.head, classNum)
     logger.info(s"    got header")
     val predictions = for {

@@ -17,6 +17,7 @@
   */
 package au.csiro.data61.core.drivers
 
+import java.io.FileReader
 import java.nio.file.Path
 
 import au.csiro.data61.core.api.{BadRequestException, DataSetRequest, InternalException, ParseException}
@@ -27,16 +28,18 @@ import au.csiro.data61.types.{Column, DataSet, Identifiable, LogicalType}
 import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types.ModelTypes.ModelID
 import au.csiro.data61.types.SsdTypes.{OctopusID, SsdID}
-import com.github.tototoshi.csv.CSVReader
 import com.typesafe.scalalogging.LazyLogging
+import org.apache.commons.csv.CSVFormat
 import org.joda.time.DateTime
-
+import scala.collection.JavaConverters._
 import language.implicitConversions
 import scala.util.{Failure, Success, Try}
 
 object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyLogging {
 
   protected val DefaultSampleSize = 15
+
+  protected val DefaultSeed = 1234
 
   override protected val storage = DatasetStorage
 
@@ -191,42 +194,47 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
     * @param dataSetID   ID of the parent dataset
     * @param n           Number of samples in the sample set
     * @param headerLines Number of header lines in the file
+    * @param seed        The random seed for the shuffle
     * @return A list of Column objects
     */
   protected def getColumns(filePath: Path,
                            dataSetID: DataSetID,
                            typeMap: TypeMap,
                            n: Int = DefaultSampleSize,
-                           headerLines: Int = 1): List[Column[Any]] = {
-    // TODO: Get this out of memory!
-
+                           headerLines: Int = 1,
+                           seed: Int = DefaultSeed): List[Column[Any]] = {
     // note that we only take a sample from the first 4n samples. Otherwise
     // we need to pull the whole file into memory to get say 10 samples...
     val SampleBound = 4 * n
 
-    val csv = CSVReader.open(filePath.toFile)
-    val columns = csv.toStream.take(SampleBound).toList.transpose
+    // first load a CSV object...
+    val csv = CSVFormat.RFC4180.parse(new FileReader(filePath.toFile))
 
-    // first pull out the headers...
+    // pull into a row list of List[String]
+    val columns = csv
+      .iterator
+      .asScala
+      .take(SampleBound)
+      .map { row => (0 until row.size()).map(row.get) }
+      .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals.toList.transpose
+      .toList
+      .transpose
+
     val headers = columns.map(_.take(headerLines).mkString("_"))
-
-    // next pull out the data...
     val data = columns.map(_.drop(headerLines))
-    val size = columns.headOption.map(_.size).getOrElse(0)
 
     // generate random samples...
-    val rnd = new scala.util.Random()
+    val rnd = new scala.util.Random(seed=seed)
 
     // we create a set of random indices that will be consistent across the
     // columns in the dataset.
-    val indices = Array.fill(n)(rnd.nextInt(size - 1))
+    val indices = Array.fill(n)(rnd.nextInt(headers.size - 1))
 
     // now we recombine with the headers and an index to create the
     // set of column objects...
     (headers zip data).zipWithIndex.map { case ((header, col), i) =>
 
       val logicalType = typeMap.get(header).flatMap(LogicalType.lookup)
-
       val typedData = retypeData(col, logicalType)
 
       Column[Any](

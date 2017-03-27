@@ -31,7 +31,8 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
   libraryDependencies ++= Seq(
     "org.apache.spark"            %%  "spark-core"           % "2.1.0",
     "org.apache.spark"            %%  "spark-sql"            % "2.1.0",
-    "org.apache.spark"            %%  "spark-mllib"          % "2.1.0"
+    "org.apache.spark"            %%  "spark-mllib"          % "2.1.0",
+    "org.apache.commons"          %  "commons-csv"           % "1.4"
   )
 )
 
@@ -102,7 +103,6 @@ lazy val matcher = Project(
       "org.json4s"                  %% "json4s-native"         % "3.2.10",
       "com.typesafe.scala-logging"  %% "scala-logging"         % "3.4.0",
       "com.joestelmach"             %  "natty"                 % "0.8"
-//      ,"com.github.tototoshi"       %% "scala-csv"             % "1.3.1"
     ),
 
     resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),
@@ -134,7 +134,7 @@ lazy val modeler = Project(
       ,"org.json4s"                       %% "json4s-native"      % "3.2.10"
       ,"org.json4s"                       %% "json4s-ext"         % "3.2.10"
       ,"com.typesafe.scala-logging"       %% "scala-logging"      % "3.4.0"
-      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+      ,"org.scalatest"                    %% "scalatest"          % "3.0.0-RC1"
       ,"junit"                            %  "junit"              % "4.12"
       ,"com.typesafe"                     %  "config"             % "1.3.0"
       ,"org.scala-graph"                  %% "graph-core"         % "1.11.2"         // scala library to work with graphs
@@ -146,7 +146,7 @@ lazy val modeler = Project(
       ,"commons-fileupload"               %  "commons-fileupload" % "1.2.2"          // dependency for Karma
       ,"com.google.code.gson"             % "gson"                % "2.2.4"          // dependency for Karma
       ,"com.hp.hpl.jena"                  % "jena"                % "2.6.4"          // dependency for Karma
-      ,"com.googlecode.juniversalchardet" % "juniversalchardet" % "1.0.3"      // dependency for Karma
+      ,"com.googlecode.juniversalchardet" % "juniversalchardet"   % "1.0.3"          // dependency for Karma
       ,"org.kohsuke"                      % "graphviz-api"        % "1.1"            // dependency for Karma
       , "uk.com.robust-it"                % "cloning"             % "1.8.5"          // dependency for Karma
     )
@@ -183,7 +183,6 @@ lazy val core = Project(
         ,"commons-io"                 %  "commons-io"         % "2.5"
         ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
         ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
-        ,"com.github.tototoshi"       %% "scala-csv"          % "1.3.1"
         ,"com.github.finagle"         %% "finch-core"         % "0.11.1"
         ,"com.github.finagle"         %% "finch-json4s"       % "0.11.1"
         ,"com.github.finagle"         %% "finch-test"         % "0.11.1"

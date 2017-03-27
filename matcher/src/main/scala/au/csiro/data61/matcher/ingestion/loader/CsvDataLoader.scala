@@ -17,100 +17,94 @@
   */
 package au.csiro.data61.matcher.ingestion.loader
 
-import java.io.File
+import java.io._
+import java.nio.file.Paths
 
-import au.csiro.data61.matcher.data.{Attribute, DataModel, Metadata}
+import au.csiro.data61.matcher.data.Metadata
+import au.csiro.data61.matcher.data.DataModel
+import au.csiro.data61.matcher.data.Attribute
 
-import scala.io.Source
+import org.apache.commons.csv._
+import scala.collection.JavaConverters._
+
+import com.typesafe.scalalogging.LazyLogging
+
+import scala.util.Try
 import language.postfixOps
 
 
 case class CsvDataLoader(id: String = "",
-                         encoding: String = "utf-8") extends FileLoaderTrait[DataModel] {
+                         encoding: String = "utf-8",
+                         headerLines: Int = 1) extends FileLoaderTrait[DataModel] with LazyLogging {
+
+  def toIntOpt(x: String): Option[Int] = Try (x.toInt) toOption
 
   def load(path: String): DataModel = {
+
     //path can point to either a directory or a file
-    if(new File(path).isDirectory) {
+    val loaded = if(Paths.get(path).toFile.isDirectory) {
+      logger.debug(s"loading directory: $path")
       loadDirectory(path)
     } else {
-      loadFile(path)
+      logger.debug(s"loading file: $path")
+      loadTable(path)
     }
+
+    loaded
   }
 
   def loadDirectory(path: String): DataModel = {
-    val tableNameRegex = """^(.+).csv""".r
-    val tableNames = new File(path).list.filter({
-      case tableNameRegex(a) => true
-      case _ => false
-    }).map({
-      case tableNameRegex(a) => a + ".csv"
-    })
+
+    val tableNames = Paths.get(path).toFile.list
+      .filter(_.endsWith(".csv")).map(Paths.get(path, _).toString)
 
     lazy val csvData: DataModel = new DataModel(id, Some(Metadata("CSV Dataset", "CSV Dataset")), None, Some(tables))
-    lazy val tables: List[DataModel] = tableNames.map(loadTable(path,_,id,Some(csvData))).toList
+    lazy val tables: List[DataModel] = tableNames.map(loadTable(_, id)).toList
 
     csvData
   }
 
-  def loadFile(path: String): DataModel = {
-    val source = Source.fromFile(path, encoding)
-    val lines = source.getLines.toList
-    val filename = path.substring(path.lastIndexOf("/")+1, path.length)
-    source.close
-    parseCsv(lines, filename, "", None)
-  }
+  def loadTable(path: String, parentId: String =""): DataModel = {
 
-  def loadTable(path: String, tableName: String, parentId: String): DataModel = {
-    loadTable(path, tableName, parentId, None)
-  }
+    val tableName = path.substring(path.lastIndexOf("/") + 1, path.length)
 
-  def loadTable(path: String, tableName: String, parentId: String, parent: => Option[DataModel]): DataModel = {
-    val source = Source.fromFile(s"$path/$tableName", encoding)
-    val lines = source.getLines.toList
-    source.close
-    parseCsv(lines, tableName, parentId, parent)
-  }
+    // first load a CSV object...
+    val csv = CSVFormat.RFC4180
+      .parse(new FileReader(path))
 
-  def parseCsv(lines: Seq[String], tableName: String, parentId: String, parent: => Option[DataModel]): DataModel = {
-    val quotedRegex = "\"(.*)\"" .r
-    val attrHeaders = lines.head.split(""",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))""", -1)
+    // pull into a row list of List[String]
+    val rows = csv
+      .iterator
+      .asScala
+      .map { row => (0 until row.size()).map(row.get) }
+      .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals.toList.transpose
       .toList
-      .map {
-        case quotedRegex(a) => a.trim()
-        case x => x.trim()
-      }
+
+    // transpose the rows...
+    val columns = rows.sortBy(-_.size).transpose
+
+    val headers = columns.map(_.take(headerLines).mkString("_"))
+
+    val attrVals = columns.map(_.drop(headerLines))
 
     //we set metadata to be empty if headers are all numbers from 0 to #headers
-    //this is the assumption that these headers are just subsitute for None
-    val procNames = if (attrHeaders.forall(_.forall(Character.isDigit))) {
-      if (attrHeaders.map(_.toInt).forall( _ <= attrHeaders.size)) {
-        List.fill(attrHeaders.size)(None)
-      } else { attrHeaders.map( x => Some(Metadata(x,""))) }
-    } else { attrHeaders.map( x => Some(Metadata(x,""))) }
-
-    val attrIds = if(parentId.nonEmpty) {
-      attrHeaders.map(attr => s"$attr@$tableName@$parentId")
+    //this is the assumption that these headers are just substitute for None
+    val procNames = if (headers.flatMap(toIntOpt).sorted != headers.indices.toList) {
+      headers.map(x => Some(Metadata(x, "")))
     } else {
-      attrHeaders.map(attr => s"$attr@$tableName")
+      headers.map(_ => None)
     }
 
-    val attrVals = lines.drop(1)
-      .map { line => line.split(""",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))""", -1).toList}
-      .filter { line => !line.forall(_.length == 0)} // we filter out empty strings
+    val attrIds = if (parentId.nonEmpty) {
+      headers.map(attr => s"$attr@$tableName@$parentId")
+    } else {
+      headers.map(attr => s"$attr@$tableName")
+    }
 
-    lazy val table: DataModel = new DataModel(tableName, Some(Metadata(tableName,"")), parent, Some(attributes))
-    lazy val attributes: List[Attribute] = attrHeaders.indices.map {
-      idx =>
-        new Attribute(attrIds(idx),
-          procNames(idx),
-          attrVals.map {
-            case tokens if tokens.size > idx =>
-              val t = tokens(idx)
-              if(t.length > 1 && t.startsWith("\"") && t.endsWith("\"")) t.substring(1,t.length-1) //remove quotes
-              else t
-            case _ => ""
-          }.toList,
-          Some(table))
+    lazy val table: DataModel = new DataModel(tableName, Some(Metadata(tableName,"")), None, Some(attributes))
+
+    lazy val attributes = headers.indices.map {
+      idx => new Attribute(attrIds(idx), procNames(idx), attrVals(idx), Some(table))
     }.toList
 
     table
