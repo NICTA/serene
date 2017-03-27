@@ -27,6 +27,7 @@ import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpl
 import com.twitter.io.{Buf, BufReader}
 import com.twitter.util.Await
 import io.finch._
+import org.apache.commons.io.FilenameUtils
 import org.json4s.jackson.JsonMethods._
 
 import scala.language.postfixOps
@@ -78,22 +79,23 @@ object DatasetAPI extends RestAPI {
 
       /**
         * Helper function to create the dataset from a filestream...
+        *
         * @param fs
         * @param filename
         * @return
         */
-      def createDataSet(fs: FileStream, filename: String): DataSet = {
-
-        val req = DataSetRequest(
-          Some(fs),
-          desc,
-          for {
-            str <- typeMap
-            tm <- Try { parse(str).extract[TypeMap] } toOption
-          } yield tm
-        )
-
-        DataSetInterface.createDataset(req)
+      def createDataSet(fs: FileStream, filename: String) = {
+          val req = DataSetRequest(
+            Some(fs),
+            desc,
+            for {
+              str <- typeMap
+              tm <- Try {
+                parse(str).extract[TypeMap]
+              } toOption
+            } yield tm
+          )
+          DataSetInterface.createDataset(req)
       }
 
       // main matching object...
@@ -102,17 +104,15 @@ object DatasetAPI extends RestAPI {
         case Some(OnDiskFileUpload(buffer, _, fileName, _)) =>
           logger.info("   on disk file upload")
           val fs = FileStream(fileName, new FileInputStream(buffer))
-          val ds = createDataSet(fs, fileName)
-          Ok(ds)
+          Ok(createDataSet(fs, fileName))
 
-        case Some(InMemoryFileUpload(buffer, _, fileName, _))=>
+        case Some(InMemoryFileUpload(buffer, _, fileName, _)) =>
           logger.info("   in memory")
           // first we need to convert from the twitter Buf object...
           val bytes = Buf.ByteArray.Owned.extract(buffer)
           // next we convert to a filestream as before...
           val fs = FileStream(fileName, new ByteArrayInputStream(bytes))
-          val ds = createDataSet(fs, fileName)
-          Ok(ds)
+          Ok(createDataSet(fs, fileName))
 
         case _ =>
           BadRequest(BadRequestException("File missing from multipart form request."))

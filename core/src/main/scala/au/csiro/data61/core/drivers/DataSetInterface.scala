@@ -188,6 +188,33 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
   }
 
   /**
+    * Helper function to read the csv file.
+    *
+    * @param filePath
+    * @param sampleCount
+    * @return
+    */
+  protected def readColumns(filePath: Path, sampleCount: Int = DefaultSampleSize): List[List[String]] = {
+
+    // TODO: Update this to transpose to an Iterator[Iterator[String]] to prevent pulling whole file into memory
+
+    val sampleBound = 4 * sampleCount
+
+    // first load a CSV object...
+    val csv = CSVFormat.RFC4180.parse(new FileReader(filePath.toFile))
+
+    // pull into a row List of List[String]
+    csv
+      .iterator
+      .asScala
+      .take(sampleBound)
+      .map { row => (0 until row.size()).map(row.get) }
+      .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals
+      .toList
+      .transpose
+  }
+
+  /**
     * Return some random column objects for a dataset
     *
     * @param filePath    Full path to the file
@@ -205,21 +232,7 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
                            seed: Int = DefaultSeed): List[Column[Any]] = {
     // note that we only take a sample from the first 4n samples. Otherwise
     // we need to pull the whole file into memory to get say 10 samples...
-    val SampleBound = 4 * n
-
-    // first load a CSV object...
-    val csv = CSVFormat.RFC4180.parse(new FileReader(filePath.toFile))
-
-    // pull into a row list of List[String]
-    val columns = csv
-      .iterator
-      .asScala
-      .take(SampleBound)
-      .map { row => (0 until row.size()).map(row.get) }
-      .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals.toList.transpose
-      .toList
-      .transpose
-
+    val columns = readColumns(filePath)
     val headers = columns.map(_.take(headerLines).mkString("_"))
     val data = columns.map(_.drop(headerLines))
 
@@ -228,13 +241,18 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
 
     // we create a set of random indices that will be consistent across the
     // columns in the dataset.
-    val indices = Array.fill(n)(rnd.nextInt(headers.size - 1))
+    val indices = if (data.isEmpty) {
+      Array.empty[Int]
+    } else {
+      Array.fill(n)(rnd.nextInt(data.head.size - 1))
+    }
 
     // now we recombine with the headers and an index to create the
     // set of column objects...
     (headers zip data).zipWithIndex.map { case ((header, col), i) =>
 
       val logicalType = typeMap.get(header).flatMap(LogicalType.lookup)
+
       val typedData = retypeData(col, logicalType)
 
       Column[Any](

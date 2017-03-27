@@ -354,12 +354,13 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
     }
   })
 
+
   test("POST /v1.0/dataset for s28 museum dataset responds Ok(200)") (new TestServer {
     try {
       val TypeMap = """{"a":"b", "c":"d"}"""
       val content = Await.result(Reader.readAll(Reader.fromFile(new File(ResourceS28))))
       val testStr = Random.alphanumeric take 10 mkString
-      val fileName = Random.alphanumeric take 10 mkString
+      val fileName = s"${Random.alphanumeric take 10 mkString}.csv"
 
       val request = RequestBuilder()
         .url(fullUrl(s"/$APIVersion/dataset"))

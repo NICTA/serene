@@ -88,7 +88,7 @@ object DatasetStorage extends Storage[DataSetID, DataSet] {
 
     } match {
       case Success(p) =>
-        logger.debug(s"File added to $p.")
+        logger.info(s"File added to $p.")
         Some(p)
       case Failure(err) =>
         logger.error(s"File could not be added to path $outputPath: ${err.getMessage}")
