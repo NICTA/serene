@@ -17,12 +17,12 @@ node {
   }
 
   stage('Build') {
-    // sh "${SBT} compile"
+    sh "${SBT} compile"
     echo "in build"
   }
 
   stage('Test') {
-    sh "${SBT} \"serene-core/test-only au.csiro.data61.core.SsdStorageSpec\" || true"
+    sh "${SBT} serene-core/test || true"
     echo "serene-core test done"
   }
 

@@ -49,55 +49,39 @@ class SsdStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     SsdStorage.removeAll()
   }
 
-  test("Test ensures something") {
-    assert(1 === 1)
+  test("Successfully adding ssd to the storage") {
+    assert(SsdStorage.keys.size === 0)
+    Try {
+      val stream = new FileInputStream(Paths.get(exampleSsd).toFile)
+      parse(stream).extract[Ssd]
+    } match {
+      case Success(ssd) =>
+        SsdStorage.add(ssd.id, ssd) match {
+          case Some(added) =>
+            assert(added === ssd.id)
+          case _ =>
+            fail("Not added!")
+        }
+        assert(SsdStorage.keys.size === 1)
+        assert(SsdStorage.keys === List(ssd.id))
+      case Failure(err) =>
+        fail(err.getMessage)
+    }
   }
 
-  test("Test ensures something 2") {
-    assert(1 === 1)
+  test("Incomplete ssd not added to the storage") {
+    assert(SsdInterface.storageKeys.size === 0)
+    Try {
+      val stream = new FileInputStream(Paths.get(emptySsd).toFile)
+      parse(stream).extract[Ssd]
+    } match {
+      case Success(ssd) =>
+        assert(Try(SsdInterface.add(ssd)).isFailure)
+        assert(SsdInterface.storageKeys.size === 0)
+      case Failure(err) =>
+        fail(err.getMessage)
+    }
   }
-
-  test("Test ensures something 3") {
-    assert(1 === 1)
-  }
-
-  test("Test ensures nothing 2") {
-    assert(1 === 1)
-  }
-
-  // test("Successfully adding ssd to the storage") {
-  //   assert(SsdStorage.keys.size === 0)
-  //   Try {
-  //     val stream = new FileInputStream(Paths.get(exampleSsd).toFile)
-  //     parse(stream).extract[Ssd]
-  //   } match {
-  //     case Success(ssd) =>
-  //       SsdStorage.add(ssd.id, ssd) match {
-  //         case Some(added) =>
-  //           assert(added === ssd.id)
-  //         case _ =>
-  //           fail("Not added!")
-  //       }
-  //       assert(SsdStorage.keys.size === 1)
-  //       assert(SsdStorage.keys === List(ssd.id))
-  //     case Failure(err) =>
-  //       fail(err.getMessage)
-  //   }
-  // }
-  //
-  // test("Incomplete ssd not added to the storage") {
-  //   assert(SsdInterface.storageKeys.size === 0)
-  //   Try {
-  //     val stream = new FileInputStream(Paths.get(emptySsd).toFile)
-  //     parse(stream).extract[Ssd]
-  //   } match {
-  //     case Success(ssd) =>
-  //       assert(Try(SsdInterface.add(ssd)).isFailure)
-  //       assert(SsdInterface.storageKeys.size === 0)
-  //     case Failure(err) =>
-  //       fail(err.getMessage)
-  //   }
-  // }
 
 
 }
