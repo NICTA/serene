@@ -20,7 +20,7 @@ package au.csiro.data61.core
 import java.io.File
 
 import au.csiro.data61.core.api.SsdRequest
-import au.csiro.data61.core.storage.JsonFormats
+import au.csiro.data61.core.storage.{DatasetStorage, JsonFormats}
 import au.csiro.data61.types.{DataSet, Ssd, SsdMapping}
 import au.csiro.data61.types.DataSetTypes.DataSetID
 import au.csiro.data61.types.ModelTypes.ModelID
@@ -137,9 +137,10 @@ class TestServer extends LazyLogging with JsonFormats {
   }
 
   def deleteAllDatasets(implicit version: String): Unit = {
-    val request = Request(s"/$version/dataset")
-    val response = Await.result(s.client(request))
-    parse(response.contentString).extract[List[Int]].foreach(deleteDataset)
+    //val request = Request(s"/$version/dataset")
+    //val response = Await.result(s.client(request))
+    //parse(response.contentString).extract[List[Int]].foreach(deleteDataset)
+    DatasetStorage.removeAll()
   }
 
   def getAllDatasets(implicit version: String): List[DataSetID] = {
