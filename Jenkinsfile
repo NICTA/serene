@@ -20,7 +20,8 @@ node {
   }
 
   stage('Test') {
-    sh "${SBT} test"
-  }
+    sh "${SBT} serene-core/test"
+    step([$class: 'JUnitResultArchiver', testResults:'**/core/target/test-reports/*.xml'])
+}
 
 }
