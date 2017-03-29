@@ -26,6 +26,5 @@ node {
     echo "serene-core test done"
   }
 
-  junit '**/core/target/test-reports/*.xml'
-
+  step([$class: 'JUnitResultArchiver', testResults: '**/core/target/test-reports/*.xml'])
 }
