@@ -234,6 +234,7 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     } finally {
       deleteAllSsds
       deleteAllDatasets
+      deleteAllOwls
       assertClose()
     }
   })
@@ -267,6 +268,7 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     } finally {
       deleteAllSsds
       deleteAllDatasets
+      deleteAllOwls
       assertClose()
     }
   })
@@ -305,6 +307,7 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     } finally {
       deleteAllSsds
       deleteAllDatasets
+      deleteAllOwls
       assertClose()
     }
   })
@@ -342,6 +345,7 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     } finally {
       deleteAllSsds
       deleteAllDatasets
+      deleteAllOwls
       assertClose()
     }
   })
@@ -379,6 +383,7 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     } finally {
       deleteAllSsds
       deleteAllDatasets
+      deleteAllOwls
       assertClose()
     }
   })
@@ -416,6 +421,7 @@ class SsdAPISpec extends FunSuite with JsonFormats {
     } finally {
       deleteAllSsds
       deleteAllDatasets
+      deleteAllOwls
       assertClose()
     }
   })
