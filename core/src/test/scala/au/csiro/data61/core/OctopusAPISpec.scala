@@ -87,6 +87,7 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
     SsdStorage.removeAll()
     OwlStorage.removeAll()
+    server.deleteAllModels
     server.deleteAllDatasets
   }
 
