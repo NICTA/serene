@@ -222,6 +222,9 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
    */
   protected def writeToFile(value: Value): Unit = {
     logger.info(s"writeToFile1")
+
+    logger.info(s"=====> $value")
+
     val str = compact(Extraction.decompose(value))
 
     logger.info(s"writeToFile2")
