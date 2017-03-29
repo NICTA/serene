@@ -223,13 +223,19 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
     // ensure that the directories exist...
     val dir = outputPath.toFile.getParentFile
 
+    logger.info(s"Checking storage directory $dir")
+
     if (!dir.exists) dir.mkdirs
+
+    logger.info(s"Attempting to write to $outputPath")
 
     // write the object to the file system
     Files.write(
       outputPath,
       str.getBytes(StandardCharsets.UTF_8)
     )
+
+    logger.info("Written ok.")
   }
 
   /**
