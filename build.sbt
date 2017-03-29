@@ -17,7 +17,6 @@
   */
 
 val mainVersion = "0.1.0"
-
 /**
   * Common Serene project settings for all projects...
   */
@@ -27,6 +26,7 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
   scalacOptions ++= Seq("-Xmax-classfile-name", "78"),
 
   scalaVersion := "2.11.8",
+  //parallelExecution in Test := false,
 
   libraryDependencies ++= Seq(
     "org.apache.spark"            %%  "spark-core"           % "2.1.0",
@@ -172,6 +172,7 @@ lazy val core = Project(
 
       coverageEnabled := true,
       coverageOutputHTML := true,
+      fork in Test := true,
 
       libraryDependencies ++= Seq(
         "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
@@ -194,4 +195,3 @@ lazy val core = Project(
   .settings(jetty() : _*)
   .enablePlugins(RpmPlugin, JavaAppPackaging)
   .dependsOn(matcher, modeler)
-
