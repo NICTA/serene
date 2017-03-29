@@ -61,7 +61,7 @@ class SsdStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     assert(1 === 1)
   }
 
-  test("Test ensures nothing") {
+  test("Test ensures nothing 2") {
     assert(1 === 1)
   }
 
