@@ -263,7 +263,7 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
   }
 
   def removeAll(): Unit = {
-    keys.foreach(remove)
+    listValues.map(_.id).foreach(remove)
   }
 
 }
