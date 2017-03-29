@@ -23,7 +23,8 @@ node {
 
   stage('Test') {
     sh "${SBT} serene-core/test"
-    echo "serene-core test"
+    sh "${SBT} \"serene-core/test-only au.csiro.data61.core.SSDStorageSpec\""
+    echo "serene-core test done"
     junit '**/core/target/test-reports/*.xml'
 }
 
