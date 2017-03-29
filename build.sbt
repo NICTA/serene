@@ -26,7 +26,6 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
   scalacOptions ++= Seq("-Xmax-classfile-name", "78"),
 
   scalaVersion := "2.11.8",
-  //parallelExecution in Test := false,
 
   libraryDependencies ++= Seq(
     "org.apache.spark"            %%  "spark-core"           % "2.1.0",
