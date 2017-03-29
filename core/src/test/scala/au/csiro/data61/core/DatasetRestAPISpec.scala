@@ -274,12 +274,12 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
     try {
       val TypeMap = """{"w":"x", "y":"z"}"""
       val TestStr = Random.alphanumeric take 10 mkString
-      val PauseTime = 2000
+      //val PauseTime = 2000
 
       createDataset(Paths.get(Resource).toFile, "", "{}") match {
         case Success(ds) =>
           // wait for the clock to tick
-          Thread.sleep(PauseTime)
+          //Thread.sleep(PauseTime)
 
           // build a request to modify the dataset...
           val request = RequestBuilder()

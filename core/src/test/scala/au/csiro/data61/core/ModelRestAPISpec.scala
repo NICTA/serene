@@ -209,7 +209,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
   }
 
   /**
-    * createDataSet creates a single simple dataset from the medium.csv file
+    * createDataSet creates a single simple dataset from the homeseekers.csv file
     * in the DataSet test spec.
     *
     * @param server The server object
@@ -513,8 +513,6 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
     }
   })
 
-
-
   test("POST /v1.0/model fails if classes not present BadRequest(400)") (new TestServer {
     try {
 
@@ -741,7 +739,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
 
           deleteAllDatasets // dataset will not be removed
 
-          val datasets: List[DataSetID] = parse(get(s"/$APIVersion/dataset").contentString).extract[List[DataSetID]]
+          val datasets: List[Int] = parse(get(s"/$APIVersion/dataset").contentString).extract[List[Int]]
           assert(datasets === List(ds.id))
 
           val response = get(s"/$APIVersion/model/${model.id}")

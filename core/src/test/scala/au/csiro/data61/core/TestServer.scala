@@ -137,10 +137,9 @@ class TestServer extends LazyLogging with JsonFormats {
   }
 
   def deleteAllDatasets(implicit version: String): Unit = {
-    //val request = Request(s"/$version/dataset")
-    //val response = Await.result(s.client(request))
-    //parse(response.contentString).extract[List[Int]].foreach(deleteDataset)
-    DatasetStorage.removeAll()
+    val request = Request(s"/$version/dataset")
+    val response = Await.result(s.client(request))
+    parse(response.contentString).extract[List[Int]].foreach(deleteDataset)
   }
 
   def getAllDatasets(implicit version: String): List[DataSetID] = {
