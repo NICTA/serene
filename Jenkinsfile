@@ -22,7 +22,7 @@ node {
   }
 
   stage('Test') {
-    // sh "${SBT} serene-core/test"
+    sh "${SBT} serene-core/test"
     echo "serene-core test"
     junit '**/core/target/test-reports/*.xml'
 }
