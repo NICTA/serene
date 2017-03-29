@@ -53,6 +53,18 @@ class SsdStorageSpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     assert(1 === 1)
   }
 
+  test("Test ensures something 2") {
+    assert(1 === 1)
+  }
+
+  test("Test ensures something 3") {
+    assert(1 === 1)
+  }
+
+  test("Test ensures nothing") {
+    assert(1 === 2)
+  }
+
   // test("Successfully adding ssd to the storage") {
   //   assert(SsdStorage.keys.size === 0)
   //   Try {
