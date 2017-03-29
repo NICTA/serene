@@ -22,8 +22,9 @@ node {
   }
 
   stage('Test') {
-    sh "${SBT} \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
-    sh "${SBT} \"serene-core/test-only au.csiro.data61.core.ModelRestAPISpec\" || true"
+    //sh "${SBT} \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
+    //sh "${SBT} \"serene-core/test-only au.csiro.data61.core.ModelRestAPISpec\" || true"
+    sh "${SBT} serene-core/test || true"
     echo "serene-core test done"
   }
 

@@ -45,7 +45,10 @@ lazy val root = Project(
   .settings(
     name := "serene",
     version := mainVersion,
-    mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene")
+    mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene"),
+
+    parallelExecution in Test := false,
+    fork in Test := false
   )
   .aggregate(core, matcher, modeler)
   .dependsOn(core, matcher, modeler)
@@ -73,7 +76,9 @@ lazy val types = Project(
       ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
       ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
       ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
-    )
+    ),
+    parallelExecution in Test := false,
+    fork in Test := false
   )
 
 /**
@@ -106,8 +111,8 @@ lazy val matcher = Project(
     resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),
 
     initialCommands in console in Test := "import org.specs2._",
-
-    fork in Test := true
+    parallelExecution in Test := false,
+    fork in Test := false
   )
 
 /**
@@ -123,6 +128,7 @@ lazy val modeler = Project(
     organization := "au.csiro.data61",
     version := mainVersion,
     parallelExecution in Test := false,
+    fork in Test := false,
 
     resolvers += Resolver.sonatypeRepo("snapshots"),
     scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
@@ -171,7 +177,7 @@ lazy val core = Project(
 
       coverageEnabled := true,
       coverageOutputHTML := true,
-      fork in Test := true,
+      fork in Test := false,
 
       libraryDependencies ++= Seq(
         "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
