@@ -146,6 +146,8 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       throw BadRequestException(brokenRules.mkString(" "))
     }
 
+    val modelingProps = request.modelingProps.getOrElse(ModelingProperties())
+
     val SemanticTypeObject(classes, labelData, semanticTypeMap) = getSemanticTypes(request.ssds)
 
     // we need first to create the schema matcher model
@@ -428,11 +430,10 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
   /**
     * Helper function to convert from Ssd type to SsdRequest.
-    *
     * @param ssd Semantic Source Description
     * @return
     */
-  protected def convertSsd(ssd: Ssd): SsdRequest = {
+  private def convertSsd(ssd: Ssd): SsdRequest = {
     SsdRequest(Some(ssd.name), Some(ssd.ontologies), ssd.semanticModel, ssd.mappings)
   }
 
@@ -442,7 +443,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     * @param ssdPrediction Prediction object as returned by semantic modeler
     * @return
     */
-  protected def convertSsdPrediction(ssdPrediction: SsdPrediction): SsdResults = {
+  private def convertSsdPrediction(ssdPrediction: SsdPrediction): SsdResults = {
     val convertedTuples =
       ssdPrediction.suggestions.map {
         case (ssd: Ssd, smScore: SemanticScores) =>
@@ -451,6 +452,13 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     SsdResults(predictions = convertedTuples)
   }
 
+  /**
+    * Get octopus and dataset which are needed for prediction.
+    * If octopus or dataset do not exist in the storage, exception will be thrown.
+    * @param id
+    * @param dsId
+    * @return
+    */
   private def getPredictionResources(id: OctopusID,
                                      dsId : DataSetID
                                     ): (Octopus, DataSet) = {
@@ -492,7 +500,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
         // we do semantic typing for only one dataset
         dsPredictions = Try {
-          ModelInterface.predictModel(octopus.lobsterID, dsId)
+          ModelInterface.predictModel(octopus.lobsterID, dataset.id)
         } toOption
 
         // this map is needed to map ColumnIDs from dsPredictions to attributes
@@ -598,10 +606,10 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
       logger.debug(s"label data: $labelData")
 
-      val classes: List[String] = labelData.map {
+      val classes: List[String] = (labelData.map {
         case (attrID, semType) =>
           semType
-      }.toList.distinct
+      }.toList :+ ModelTypes.UknownClass).distinct
 
       SemanticTypeObject(Some(classes), Some(labelData), semanticTypeMap)
     }
@@ -614,7 +622,6 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     * @return
     */
   protected def processSsdMappings(givenSSDs: List[SsdID]):List[(AttrID, (String, String))] = {
-    // TODO: the mapping can be to the ClassNode
     givenSSDs
       .flatMap(SsdStorage.get)
       .filter(_.mappings.isDefined)
@@ -625,7 +632,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
           case (attrID, nodeID) =>
             (attrID,
               ssd.semanticModel
-                .flatMap(_.getDomainType(nodeID)) // FIXME: what if the mapping is to the class node and not the data node?!
+                .flatMap(_.getDomainType(nodeID))
                 .getOrElse(throw InternalException(
                 "Semantic Source Description is not properly formed: problems with mappings or semantic model.")))
         } toList

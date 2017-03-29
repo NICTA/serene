@@ -20,11 +20,10 @@ package au.csiro.data61.core.drivers
 import java.io.FileReader
 import java.nio.file.Path
 
-import au.csiro.data61.core.api.{BadRequestException, DataSetRequest, InternalException, ParseException}
-import au.csiro.data61.core.storage.DatasetStorage._
+import au.csiro.data61.core.api.{DataSetRequest, InternalException, ParseException}
 import au.csiro.data61.core.storage._
 import au.csiro.data61.types.ColumnTypes._
-import au.csiro.data61.types.{Column, DataSet, Identifiable, LogicalType}
+import au.csiro.data61.types.{Column, DataSet, LogicalType}
 import au.csiro.data61.types.DataSetTypes._
 import au.csiro.data61.types.ModelTypes.ModelID
 import au.csiro.data61.types.SsdTypes.{OctopusID, SsdID}
@@ -33,7 +32,7 @@ import org.apache.commons.csv.CSVFormat
 import org.joda.time.DateTime
 import scala.collection.JavaConverters._
 import language.implicitConversions
-import scala.util.{Failure, Success, Try}
+import scala.util.Try
 
 object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyLogging {
 

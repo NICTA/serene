@@ -62,6 +62,8 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   var knownSSDs: List[Ssd] = List() // has the function of SSDStorage
   var karmaWrapper = KarmaParams(alignmentDir, List(), None)
 
+  val unknownThreshold = 0.49
+
   def readSSD(ssdPath: String): Ssd = {
     Try {
       val stream = new FileInputStream(Paths.get(ssdPath).toFile)
@@ -185,9 +187,45 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
       confidence=0.5,
       scores=Map("City---name" -> 0.5, "State---name" -> 0.5),
       features=Map())
-    val col1 = ColumnPrediction(label="unknown",
+    val col1 = ColumnPrediction(label="City---name",
       confidence=1.0,
-      scores=Map("unknown" -> 1.0, "City---name" -> 0.0, "State---name" -> 0.0),
+      scores=Map(ModelTypes.UknownClass -> 0.1, "City---name" -> 0.4, "State---name" -> 0.5),
+      features=Map())
+
+    Some(DataSetPrediction(
+      modelID = 0,
+      dataSetID = 0,
+      predictions = Map("10" -> col0, "11" -> col1)
+    ))
+  }
+
+  def getDiscardCitiesDataSetPredictions: Option[DataSetPrediction] = {
+    // we care only about scores in the semantic-modeller
+    val col0 = ColumnPrediction(label="City---name",
+      confidence=0.5,
+      scores=Map("City---name" -> 0.5, "State---name" -> 0.5),
+      features=Map())
+    val col1 = ColumnPrediction(label=ModelTypes.UknownClass,
+      confidence=1.0,
+      scores=Map(ModelTypes.UknownClass -> 1.0, "City---name" -> 0.0, "State---name" -> 0.0),
+      features=Map())
+
+    Some(DataSetPrediction(
+      modelID = 0,
+      dataSetID = 0,
+      predictions = Map("10" -> col0, "11" -> col1)
+    ))
+  }
+
+  def getUnknownMaxCitiesDataSetPredictions: Option[DataSetPrediction] = {
+    // we care only about scores in the semantic-modeller
+    val col0 = ColumnPrediction(label="City---name",
+      confidence=0.5,
+      scores=Map("City---name" -> 0.5, "State---name" -> 0.5),
+      features=Map())
+    val col1 = ColumnPrediction(label=ModelTypes.UknownClass,
+      confidence=0.4,
+      scores=Map(ModelTypes.UknownClass -> 0.4, "City---name" -> 0.3, "State---name" -> 0.3),
       features=Map())
 
     Some(DataSetPrediction(
@@ -435,6 +473,90 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
     }
   }
 
+  test("Recommendation for empty getCities.csv with unknown dataset predictions filtered succeeds"){
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
+
+    val convertedDsPreds: Option[DataSetPrediction] = getUnknownCitiesDataSetPredictions match {
+
+      case Some(obj: DataSetPrediction) =>
+        logger.debug(s"Semantic Modeler got ${obj.predictions.size} dataset predictions.")
+        val filteredPreds: Map[String, ColumnPrediction] =
+          PredictOctopus.filterColumnPredictions(obj.predictions, unknownThreshold)
+        logger.debug(s"Semantic Modeler will use $filteredPreds")
+        assert(filteredPreds.size === 2)
+        Some(DataSetPrediction(obj.modelID, obj.dataSetID, filteredPreds))
+
+      case None => None
+    }
+
+    val recommends = karmaPredict
+      .suggestModels(newSSD,
+        List(exampleOntol), convertedDsPreds, Map(), citiesAttrToColMap)
+
+    recommends match {
+      case Some(recs) =>
+        assert(recs.suggestions.size === 4)
+      case None =>
+        fail("This should not fail!")
+    }
+  }
+
+  test("Recommendation for empty getCities.csv with unknown dataset predictions will discard columns"){
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
+
+    val convertedDsPreds: Option[DataSetPrediction] = getDiscardCitiesDataSetPredictions match {
+
+      case Some(obj: DataSetPrediction) =>
+        logger.debug(s"Semantic Modeler got ${obj.predictions.size} dataset predictions.")
+        val filteredPreds: Map[String, ColumnPrediction] =
+          PredictOctopus.filterColumnPredictions(obj.predictions, unknownThreshold)
+        logger.debug(s"Semantic Modeler will use $filteredPreds")
+        assert(filteredPreds.size === 1)
+        Some(DataSetPrediction(obj.modelID, obj.dataSetID, filteredPreds))
+
+      case None => None
+    }
+
+    val recommends = karmaPredict
+      .suggestModels(newSSD,
+        List(exampleOntol), convertedDsPreds, Map(), citiesAttrToColMap)
+
+    recommends match {
+      case Some(recs) =>
+        assert(recs.suggestions.size === 5)
+      case None =>
+        fail("This should not fail!")
+    }
+  }
+
+  test("Recommendation for empty getCities.csv with unknown dataset predictions will reset confidence and label"){
+    val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
+
+    val convertedDsPreds: Option[DataSetPrediction] = getUnknownMaxCitiesDataSetPredictions match {
+
+      case Some(obj: DataSetPrediction) =>
+        logger.debug(s"Semantic Modeler got ${obj.predictions.size} dataset predictions.")
+        val filteredPreds: Map[String, ColumnPrediction] =
+          PredictOctopus.filterColumnPredictions(obj.predictions, unknownThreshold)
+        logger.debug(s"Semantic Modeler will use $filteredPreds")
+        assert(filteredPreds.size === 2)
+        Some(DataSetPrediction(obj.modelID, obj.dataSetID, filteredPreds))
+
+      case None => None
+    }
+
+    val recommends = karmaPredict
+      .suggestModels(newSSD,
+        List(exampleOntol), convertedDsPreds, Map(), citiesAttrToColMap)
+
+    recommends match {
+      case Some(recs) =>
+        assert(recs.suggestions.size === 4)
+      case None =>
+        fail("This should not fail!")
+    }
+  }
+
   test("Recommendation for empty getCities.csv with filtered problematic dataset predictions will succeed"){
     val (newSSD, karmaPredict) = constructKarmaSuggestModel(emptyCitiesSSD)
 
@@ -443,9 +565,8 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
       case Some(obj: DataSetPrediction) =>
         logger.debug(s"Semantic Modeler got ${obj.predictions.size} dataset predictions.")
         val filteredPreds: Map[String, ColumnPrediction] =
-          obj.predictions
-            .filter(_._2.confidence > 0)
-        logger.info(s"Semantic Modeler will use ${filteredPreds.size} ds predictions.")
+          PredictOctopus.filterColumnPredictions(obj.predictions, unknownThreshold)
+        logger.debug(s"Semantic Modeler will use ${filteredPreds.size} ds predictions.")
         Some(DataSetPrediction(obj.modelID, obj.dataSetID, filteredPreds))
 
       case None => None

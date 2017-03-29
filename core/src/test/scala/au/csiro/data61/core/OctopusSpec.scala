@@ -246,7 +246,7 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
 
     assert(lobster.modelType === RANDOM_FOREST)
     assert(lobster.resamplingStrategy === NO_RESAMPLING)
-    assert(lobster.classes.size === 4)
+    assert(lobster.classes.size === 5)
     assert(lobster.labelData.size === 4)
     assert(lobster.labelData === Map(
       643243447 -> "Organization---name",

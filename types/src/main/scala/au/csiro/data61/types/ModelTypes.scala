@@ -32,6 +32,7 @@ import scala.language.postfixOps
   */
 object ModelTypes {
 
+  val UknownClass = "unknown" // special class label reserved for uknown class
   val defaultNumBags = 50
   val defaultBagSize = 100
 
