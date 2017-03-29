@@ -139,13 +139,13 @@ class TestServer extends LazyLogging with JsonFormats {
   def deleteAllDatasets(implicit version: String): Unit = {
     val request = Request(s"/$version/dataset")
     val response = Await.result(s.client(request))
-    parse(response.contentString).extract[List[DataSetID]].foreach(deleteDataset)
+    parse(response.contentString).extract[List[Int]].foreach(deleteDataset)
   }
 
   def getAllDatasets(implicit version: String): List[DataSetID] = {
     val request = Request(s"/$version/dataset")
     val response = Await.result(s.client(request))
-    parse(response.contentString).extract[List[DataSetID]]
+    parse(response.contentString).extract[List[Int]]
   }
 
   def requestSsdCreation(document: SsdRequest)
@@ -179,10 +179,10 @@ class TestServer extends LazyLogging with JsonFormats {
     (response.status, response.contentString)
   }
 
-  def listOwls(implicit version: String): Try[List[OwlID]] = Try {
+  def listOwls(implicit version: String): Try[List[Int]] = Try {
     val request = Request(s"/$version/owl")
     val response = Await.result(s.client(request))
-    parse(response.contentString).extract[List[OwlID]]
+    parse(response.contentString).extract[List[Int]]
   }
 
   def deleteAllOwls(implicit version: String): Unit =
@@ -194,10 +194,10 @@ class TestServer extends LazyLogging with JsonFormats {
     parse(response.contentString).extract[Owl]
   }
 
-  def listSsds(implicit version: String): Try[List[SsdID]] = Try {
+  def listSsds(implicit version: String): Try[List[Int]] = Try {
     val request = Request(s"/$version/ssd")
     val response = Await.result(s.client(request))
-    parse(response.contentString).extract[List[SsdID]]
+    parse(response.contentString).extract[List[Int]]
   }
 
   /**
@@ -234,7 +234,7 @@ class TestServer extends LazyLogging with JsonFormats {
   def deleteAllModels(implicit version: String): Unit = {
     val request = Request(s"/$version/model")
     val response = Await.result(s.client(request))
-    parse(response.contentString).extract[List[ModelID]].foreach(deleteModel)
+    parse(response.contentString).extract[List[Int]].foreach(deleteModel)
   }
 
 }
