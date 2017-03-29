@@ -98,8 +98,13 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
     logger.info(s"Adding $id to storage")
 
     Try {
+      logger.info(s"Adding $id to storage2")
+
       synchronized {
+        logger.info(s"Adding $id to storage3")
+
         writeToFile(value)
+        logger.info(s"Adding $id to storage4")
         cache += (id -> value)
       }
       id
@@ -216,9 +221,13 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
    * @param value The value to write to disk
    */
   protected def writeToFile(value: Value): Unit = {
+    logger.info(s"writeToFile1")
     val str = compact(Extraction.decompose(value))
 
+    logger.info(s"writeToFile2")
     val outputPath = getPath(value.id)
+
+    logger.info(s"writeToFile3")
 
     // ensure that the directories exist...
     val dir = outputPath.toFile.getParentFile
