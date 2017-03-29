@@ -258,11 +258,17 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
     * @return Key of the removed value if successful
     */
   def remove(id: Key): Option[Key] = {
+
+    logger.info(s"Attempting to delete resource $id")
+
     cache.get(id) match {
       case Some(ds) =>
 
+
         // delete directory - be careful
         val dir: File = getPath(id).getParent.toFile
+
+        logger.info(s"Attempting to delete directory $dir")
 
         synchronized {
           Try(FileUtils.deleteDirectory(dir)) match {
@@ -281,6 +287,9 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
   }
 
   def removeAll(): Unit = {
+
+    logger.info(s"Attempting to remove all")
+
     listValues.map(_.id).foreach(remove)
   }
 
