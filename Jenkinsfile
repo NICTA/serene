@@ -12,7 +12,7 @@ node {
   checkout scm
 
   stage('Cleanup') {
-    //sh "${SBT} clean"
+    sh "${SBT} clean"
     echo "in cleanup"
   }
 
