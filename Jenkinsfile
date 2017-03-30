@@ -12,13 +12,13 @@ node {
   checkout scm
 
   stage('Cleanup') {
-    docker.image('jenkins-scala-2.11.8').inside {
+    docker.image('jenkins-scala-2.11.8').withRun('-u root') {
       sh "sbt clean"
     }
   }
 
   stage('Build') {
-    docker.image('jenkins-scala-2.11.8').inside {
+    docker.image('jenkins-scala-2.11.8').withRun('-u root') {
       sh "sbt compile"
     }
   }
@@ -28,7 +28,7 @@ node {
     // for a single test suite add the line below to the docker image line
     //sh "${SBT} \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
 
-    docker.image('jenkins-scala-2.11.8').inside {
+    docker.image('jenkins-scala-2.11.8').withRun('-u root') {
       sh "sbt serene-core/test || true"
       echo "serene-core test done"
     }
