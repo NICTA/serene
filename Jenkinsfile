@@ -12,21 +12,28 @@ node {
   checkout scm
 
   stage('Cleanup') {
-    sh "${SBT} clean"
-    echo "in cleanup"
+    docker.image('jenkins-1').inside {
+      sh "${SBT} clean"
+      echo "in cleanup"
+    }
   }
 
   stage('Build') {
-    sh "${SBT} compile"
-    echo "in build"
+    docker.image('jenkins-1').inside {
+      sh "${SBT} compile"
+      echo "in build"
+    }
   }
 
   stage('Test') {
     //sh "${SBT} \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
     //sh "${SBT} \"serene-core/test-only au.csiro.data61.core.ModelRestAPISpec\" || true"
+
     docker.image('jenkins-1').inside {
+
       // sh "sbt serene-core/test || true"
-      sh "$sbt \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
+
+      sh "${SBT} \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
       echo "serene-core test done"
     }
   }
