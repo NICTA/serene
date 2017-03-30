@@ -17,13 +17,12 @@
   */
 package au.csiro.data61.modeler
 
-import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams, KarmaSuggestModel}
+import au.csiro.data61.modeler.karma.{KarmaParams, KarmaSuggestModel}
 import au.csiro.data61.types.ColumnTypes._
-import au.csiro.data61.types.Exceptions.ModelerException
 import au.csiro.data61.types.SsdTypes._
 import au.csiro.data61.types._
-import com.typesafe.scalalogging.LazyLogging
 
+import com.typesafe.scalalogging.LazyLogging
 import scala.util.Try
 
 /**
@@ -35,13 +34,13 @@ object PredictOctopus extends LazyLogging {
   /**
     * Generate a ranked list of semantic models based on the provided alignmentGraph and predictions of
     * semantic types.
-    * @param octopus
-    * @param alignmentDir
-    * @param ontologies
-    * @param ssd
-    * @param dsPredictions
-    * @param attrToColMap
-    * @param numSemanticTypes
+    * @param octopus this object provides configuration for the semantic modelling process
+    * @param alignmentDir directory where the alignment graph will be stored
+    * @param ontologies list of ontologies to be preloaded to karma
+    * @param ssd semantic source description which needs to be completed
+    * @param dsPredictions dataset prediction object for this ssd
+    * @param attrToColMap map from attribute id to column id; for now it is identical
+    * @param numSemanticTypes number of ranked semantic types to be used in the semantic modelling step
     * @return
     */
   def predict(octopus: Octopus
@@ -58,7 +57,9 @@ object PredictOctopus extends LazyLogging {
       ModelerConfig.makeModelingProps(octopus.modelingProps)
     )
 
-    // TODO: filter unknown class labels!
+    // here we filter out unknown class since it's not present in the ontology;
+    // we also discard columns which either get most certainly matched to the unknown class
+    // or have confidence 0 of being matched to any semantic type
     val convertedDsPreds: Option[DataSetPrediction] = dsPredictions match {
 
       case Some(obj: DataSetPrediction) =>
@@ -72,7 +73,7 @@ object PredictOctopus extends LazyLogging {
       case None => None
     }
 
-    logger.debug(s"converted ds predictions: ${convertedDsPreds}")
+    logger.debug(s"converted ds predictions: $convertedDsPreds")
 
     val suggestions = KarmaSuggestModel(karmaWrapper).suggestModels(ssd
       , ontologies
@@ -93,7 +94,8 @@ object PredictOctopus extends LazyLogging {
     * Currently they are those which are matched to the unknown class with score > unknownThreshold.
     * Here we generate a new ssd with such columns filtered from attributes.
     * @param columnPreds original column predictions
-    * @param unknownThreshold
+    * @param unknownThreshold double in range (0,1] to filter out columns which get matched to
+    *                         unknown class with confidence greater than this threshold
     * @return
     */
   def filterColumnPredictions(columnPreds: Map[String, ColumnPrediction],
@@ -106,9 +108,9 @@ object PredictOctopus extends LazyLogging {
             val filterScores = colPred.scores
               .filterKeys(_ != ModelTypes.UknownClass) // we filter unknown class label since it's not in the ontology
             val (maxLab: String, maxScore: Double) =
-              if (colPred.scores.getOrElse(ModelTypes.UknownClass, 0.0) > unknownThreshold){
+              if (colPred.confidence > unknownThreshold && colPred.label == ModelTypes.UknownClass){
                 // discard columns which have match to unknwon class more than threshold
-                (ModelTypes.UknownClass, 0.0)
+                (ModelTypes.UknownClass, 0.0) // such columns will be filtered out at the next step
               } else {
                 filterScores.maxBy(_._2)
               }
@@ -118,7 +120,6 @@ object PredictOctopus extends LazyLogging {
 
     filteredPreds
   }
-
 
 
   private def tryToInt( s: String ) = Try(s.toInt).toOption
