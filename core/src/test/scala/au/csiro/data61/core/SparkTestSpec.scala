@@ -19,22 +19,21 @@ package au.csiro.data61.core
 
 import java.nio.file.Paths
 
-import au.csiro.data61.matcher.matcher.train.TrainMlibSemanticTypeClassifier
 import com.typesafe.scalalogging.LazyLogging
-import org.apache.spark
-import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.ml.{Pipeline, PipelineModel}
+import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.classification.{RandomForestClassificationModel, RandomForestClassifier}
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.ml.feature._
-import org.apache.spark.ml.tuning.{CrossValidator, ParamGridBuilder}
 import org.apache.spark.sql.types.{DoubleType, StringType, StructField, StructType}
-import org.apache.spark.sql.{DataFrame, SQLContext, SparkSession}
+import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.junit.runner.RunWith
 import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner
+import scala.util.{Failure, Success, Try}
 
-
+/**
+  *  these are tests for spark directly
+  */
 @RunWith(classOf[JUnitRunner])
 class SparkTestSpec extends FunSuite with LazyLogging{
 
@@ -160,10 +159,17 @@ class SparkTestSpec extends FunSuite with LazyLogging{
   test("Checking train_error2") {
     // issue with header features on columns with no headers
     implicit val spark = setUpSpark2("2")
-    val (data,featurenames) = readData("train_error2.csv")
-    val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
-    spark.close()
-    succeed
+    Try {
+      val (data,featurenames) = readData("train_error2.csv")
+      val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
+    } match {
+      case Success(_) =>
+        spark.close()
+        succeed
+      case Failure(err) =>
+        spark.close()
+        fail(err)
+    }
   }
 
   // FIXME: this bug hasn't been fixed yet! hoping that new release of spark will discard this issue
@@ -180,11 +186,18 @@ class SparkTestSpec extends FunSuite with LazyLogging{
   test("Business train error") {
     // issue that the training dataset is super small
     implicit val spark = setUpSpark2("2")
-    val (data, featurenames) = readData("small_train_error.csv")
+    Try {
+      val (data, featurenames) = readData("small_train_error.csv")
+      val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
+    } match {
+      case Success(_) =>
+        spark.close()
+        succeed
+      case Failure(err) =>
+        spark.close()
+        fail(err)
+    }
 
-    val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
-    spark.close()
-    succeed
   }
 
 }
