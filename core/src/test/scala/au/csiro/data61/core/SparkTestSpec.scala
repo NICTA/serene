@@ -159,44 +159,44 @@ class SparkTestSpec extends FunSuite with LazyLogging{
     (rfModel, accuracy)
   }
 
-  test("Checking train_error2") {
-    Try {
-      // issue with header features on columns with no headers
-      implicit val spark = setUpSpark2("2")
-      val (data, featurenames) = readData("train_error2.csv")
-      val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
-      spark.close()
-    } match {
-      case Success(_) => succeed
-      case _ => fail("Spark setup failed")
-    }
-  }
-
-  // FIXME: this bug hasn't been fixed yet! hoping that new release of spark will discard this issue
-//  test("Checking train_error") {
-//    // spark bug
-//    // issue with too many features
-//    implicit val spark = setUpSpark2("2")
-//    val (data,featurenames) = readData("train_error.csv")
-//    val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
-//    spark.close()
-//    succeed
+//  test("Checking train_error2") {
+//    Try {
+//      // issue with header features on columns with no headers
+//      implicit val spark = setUpSpark2("2")
+//      val (data, featurenames) = readData("train_error2.csv")
+//      val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
+//      spark.close()
+//    } match {
+//      case Success(_) => succeed
+//      case _ => fail("Spark setup failed")
+//    }
 //  }
-
-  test("Business train error") {
-    Try {
-      // issue that the training dataset is super small
-      implicit val spark = setUpSpark2("2")
-      val (data, featurenames) = readData("small_train_error.csv")
-
-      val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
-      spark.close()
-    } match {
-      case Success(_) =>
-        succeed
-      case _ =>
-        fail("Small set spark setup failed")
-    }
-  }
+//
+//  // FIXME: this bug hasn't been fixed yet! hoping that new release of spark will discard this issue
+////  test("Checking train_error") {
+////    // spark bug
+////    // issue with too many features
+////    implicit val spark = setUpSpark2("2")
+////    val (data,featurenames) = readData("train_error.csv")
+////    val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
+////    spark.close()
+////    succeed
+////  }
+//
+//  test("Business train error") {
+//    Try {
+//      // issue that the training dataset is super small
+//      implicit val spark = setUpSpark2("2")
+//      val (data, featurenames) = readData("small_train_error.csv")
+//
+//      val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
+//      spark.close()
+//    } match {
+//      case Success(_) =>
+//        succeed
+//      case _ =>
+//        fail("Small set spark setup failed")
+//    }
+//  }
 
 }
