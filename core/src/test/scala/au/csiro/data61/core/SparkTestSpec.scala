@@ -159,7 +159,7 @@ class SparkTestSpec extends FunSuite with LazyLogging{
 
   test("Checking train_error2") {
     // issue with header features on columns with no headers
-    implicit val spark = setUpSpark2("2")
+    implicit val spark = setUpSpark2("*")
     val (data,featurenames) = readData("train_error2.csv")
     val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
     spark.close()
@@ -179,7 +179,7 @@ class SparkTestSpec extends FunSuite with LazyLogging{
 
   test("Business train error") {
     // issue that the training dataset is super small
-    implicit val spark = setUpSpark2("2")
+    implicit val spark = setUpSpark2("*")
     val (data, featurenames) = readData("small_train_error.csv")
 
     val (oneCoreModel, accu1) = trainRandomForest(data, featurenames)
