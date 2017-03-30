@@ -428,7 +428,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
   private def createKarmaLink(e: LinkT, source: Node, target: Node, ontoManager: OntologyManager): LabeledLink = {
     // id of links in Karma: 'URI of source node'---'URI of link label'---'URI of target node'
 //    val karmaID = s"${e.source.ssdLabel.getURI}---${e.ssdLabel.getURI}---${e.target.ssdLabel.getURI}"
-    val karmaID = s"${source.getUri}---${e.ssdLabel.getURI}---${target.getUri}"
+    val karmaID = s"${source.getId}---${e.ssdLabel.getURI}---${target.getId}"
     e.ssdLabel.labelType match {
       case "DataPropertyLink" =>
         new DataPropertyLink(karmaID, new KarmaLabel(e.ssdLabel.getURI))
