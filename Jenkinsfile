@@ -12,8 +12,8 @@ node {
   checkout scm
 
   stage('Cleanup') {
-    docker.image('jenkins-scala-2.11.8').withRun('-u jenkins') {
-      sh "/usr/bin/sbt clean"
+    docker.image('jenkins-scala-2.11.8').withRun('-u root') {
+      sh "sbt clean"
     }
   }
 
