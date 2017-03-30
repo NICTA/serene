@@ -13,14 +13,14 @@ node {
 
   stage('Cleanup') {
     docker.image('jenkins-1').inside {
-      sh "${SBT} clean"
+      //sh "sbt clean"
       echo "in cleanup"
     }
   }
 
   stage('Build') {
     docker.image('jenkins-1').inside {
-      sh "${SBT} compile"
+      //sh "sbt compile"
       echo "in build"
     }
   }
@@ -33,7 +33,7 @@ node {
 
       // sh "sbt serene-core/test || true"
 
-      sh "${SBT} \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
+      //sh "sbt \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
       echo "serene-core test done"
     }
   }
