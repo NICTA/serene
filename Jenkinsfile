@@ -13,7 +13,7 @@ node {
 
   stage('Cleanup') {
     docker.image('jenkins-1').inside {
-      //sh "sbt clean"
+      sh "/usr/bin/sbt clean"
       echo "in cleanup"
     }
   }
