@@ -24,8 +24,11 @@ node {
   stage('Test') {
     //sh "${SBT} \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
     //sh "${SBT} \"serene-core/test-only au.csiro.data61.core.ModelRestAPISpec\" || true"
-    sh "${SBT} serene-core/test || true"
-    echo "serene-core test done"
+    docker.image('jenkins-1').inside {
+      // sh "sbt serene-core/test || true"
+      sh "$sbt \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
+      echo "serene-core test done"
+    }
   }
 
   step([$class: 'JUnitResultArchiver', testResults: '**/core/target/test-reports/*.xml'])
