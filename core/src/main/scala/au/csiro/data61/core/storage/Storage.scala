@@ -95,16 +95,12 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
   }
 
   def add(id: Key, value: Value): Option[Key] = {
-    logger.info(s"Adding $id to storage")
 
     Try {
-      logger.info(s"Adding $id to storage2")
 
       synchronized {
-        logger.info(s"Adding $id to storage3")
 
         writeToFile(value)
-        logger.info(s"Adding $id to storage4")
         cache += (id -> value)
       }
       id
@@ -221,21 +217,13 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
    * @param value The value to write to disk
    */
   protected def writeToFile(value: Value): Unit = {
-    logger.info(s"writeToFile1")
-
-    logger.info(s"=====> $value")
 
     val str = compact(Extraction.decompose(value))
 
-    logger.info(s"writeToFile2")
     val outputPath = getPath(value.id)
-
-    logger.info(s"writeToFile3")
 
     // ensure that the directories exist...
     val dir = outputPath.toFile.getParentFile
-
-    logger.info(s"Checking storage directory $dir")
 
     if (!dir.exists) dir.mkdirs
 
@@ -246,8 +234,6 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
       outputPath,
       str.getBytes(StandardCharsets.UTF_8)
     )
-
-    logger.info("Written ok.")
   }
 
   /**
@@ -263,7 +249,6 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
 
     cache.get(id) match {
       case Some(ds) =>
-
 
         // delete directory - be careful
         val dir: File = getPath(id).getParent.toFile
@@ -287,9 +272,7 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonForm
   }
 
   def removeAll(): Unit = {
-
     logger.info(s"Attempting to remove all")
-
     listValues.map(_.id).foreach(remove)
   }
 
