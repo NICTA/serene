@@ -18,8 +18,8 @@ node {
   }
 
   stage('Build') {
-    docker.image('jenkins-scala-2.11.8').withRun('-u jenkins') {
-      sh "/usr/bin/sbt compile"
+    docker.image('jenkins-scala-2.11.8').withRun('-u root') {
+      sh "sbt compile"
     }
   }
 
@@ -27,11 +27,11 @@ node {
     //sh "${SBT} \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
     //sh "${SBT} \"serene-core/test-only au.csiro.data61.core.ModelRestAPISpec\" || true"
 
-    docker.image('jenkins-scala-2.11.8').withRun('-u jenkins') {
+    docker.image('jenkins-scala-2.11.8').withRun('-u root') {
 
       // sh "sbt serene-core/test || true"
 
-      sh "/usr/bin/sbt \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
+      sh "sbt \"serene-core/test-only au.csiro.data61.core.DatasetRestAPISpec\" || true"
       echo "serene-core test done"
     }
   }
