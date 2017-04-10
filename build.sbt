@@ -175,7 +175,7 @@ lazy val core = Project(
       scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
       resolvers += Resolver.sonatypeRepo("snapshots"),
 
-      coverageEnabled := true,
+      //coverageEnabled := true,
       coverageOutputHTML := true,
       fork in Test := false,
 
