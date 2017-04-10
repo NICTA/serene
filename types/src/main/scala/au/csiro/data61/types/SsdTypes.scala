@@ -444,6 +444,7 @@ case class ColumnDesc(id: ColumnID,
   * @param propertiesWithOnlyDomain
   * @param propertiesWithOnlyRange
   * @param propertiesWithoutDomainRange
+  * @param unknownThreshold should be in range (0..1]
   */
 case class ModelingProperties(
     compatibleProperties: Boolean = true,
@@ -464,7 +465,8 @@ case class ModelingProperties(
     propertiesSubclass: Boolean = true,
     propertiesWithOnlyDomain: Boolean = true,
     propertiesWithOnlyRange: Boolean = true,
-    propertiesWithoutDomainRange: Boolean = false) {
+    propertiesWithoutDomainRange: Boolean = false,
+    unknownThreshold: Double = 0.5) {
 
   def brokenRules(): List[String] =
     ModelingProperties.PropertyRules.filterNot(_.valid(this)).map(_.message)
@@ -492,7 +494,7 @@ object ModelingProperties {
   }
 
   case object NumSemanticTypesShouldBePositive extends PropertyRule {
-    override val message = "Property numSemantic should be positive."
+    override val message = "Property numSemanticTypes should be positive."
     override def valid(properties: ModelingProperties): Boolean = properties.numSemanticTypes > 0
   }
 
@@ -508,6 +510,12 @@ object ModelingProperties {
       properties.coherenceWeight >= 0 && properties.coherenceWeight <= 1
   }
 
+  case object UnknownThresholdShouldBeInRange extends PropertyRule {
+    override val message = "Property unknownThreshold should be in range (0, 1]"
+    override def valid(properties: ModelingProperties): Boolean =
+      properties.unknownThreshold > 0 && properties.unknownThreshold <= 1
+  }
+
   case object SizeWeightShouldBeInRange extends PropertyRule {
     override val message = "Property sizeWeight should be in range [0, 1]"
     override def valid(properties: ModelingProperties): Boolean =
@@ -518,5 +526,6 @@ object ModelingProperties {
     NumSemanticTypesShouldBePositive,
     ConfidenceWeightShouldBeInRange,
     CoherenceWeightShouldBeInRange,
-    SizeWeightShouldBeInRange)
+    SizeWeightShouldBeInRange,
+    UnknownThresholdShouldBeInRange)
 }

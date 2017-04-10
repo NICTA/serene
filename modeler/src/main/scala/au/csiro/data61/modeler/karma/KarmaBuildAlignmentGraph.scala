@@ -88,9 +88,10 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
       // adding of semantic models to the alignment graph is handled within ModelLearningGraph class in Karma.
       // there are two types of graphs: compact and sparse... compact is used mainly in Karma code.
       knownSsds
-        .flatMap{sm =>
+        .flatMap { sm =>
           logger.debug(s" adding ssd: ${sm.id}, ${sm.name}")
-          sm.toKarmaSemanticModel(alignmentGraph.getGraphBuilder.getOntologyManager)}
+          sm.toKarmaSemanticModel(alignmentGraph.getGraphBuilder.getOntologyManager)
+        }
         .foreach {
           karmaModel =>
             // here we add model to the alignment graph and update using pre-loaded ontologies

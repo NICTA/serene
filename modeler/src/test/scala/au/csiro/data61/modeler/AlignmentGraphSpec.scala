@@ -18,7 +18,6 @@
 
 package au.csiro.data61.modeler
 
-import java.io
 import java.io.FileInputStream
 import java.nio.file.{Path, Paths}
 
@@ -38,6 +37,7 @@ import edu.isi.karma.rep.alignment.{DefaultLink, Node}
 import edu.isi.karma.modeling.alignment.GraphUtil
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams}
 import au.csiro.data61.types.Exceptions.ModelerException
+import au.csiro.data61.modeler.SuggestModelSpec
 
 
 /**
@@ -60,6 +60,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
   val exampleSM: String = Paths.get(ssdDir,"semantic_model_example.json") toString
   val businessAlign: String = Paths.get(karmaDir,"align_business.json") toString
   val businessCitiesAlign: String = Paths.get(karmaDir,"align_business_cities.json") toString
+  val s07s08Align: String = Paths.get(karmaDir,"align_s07_s08.json") toString
   val exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.ttl") toString
 
   var knownSSDs: List[Ssd] = List()
@@ -254,6 +255,68 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
 
     assert(resultLinks.size === 0)
 
+  }
+
+  test("Aligning tricky museum ssds"){
+    val ontologies = Paths.get(karmaDir, "museum", "museum-29-edm", "preloaded-ontologies")
+      .toFile.listFiles.map(_.getAbsolutePath).toList
+    println(s"ontologies: $ontologies")
+
+    // cleaning everything
+    karmaWrapper.deleteKarma()
+    // we need to clean the alignmentDir
+    removeAll(Paths.get(alignmentDir))
+    // setting up
+    val ssd1 = readSSD(Paths.get(ssdDir, "s07-s-13.json.ssd").toString)
+    val ssd2 = readSSD(Paths.get(ssdDir, "s08-s-17-edited.xml.ssd").toString)
+    knownSSDs = List(ssd1, ssd2)
+    assert(knownSSDs.size === 2)
+
+    karmaWrapper = KarmaParams(alignmentDir, ontologies, None)
+
+    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
+    // our alignment
+    var alignment = karmaTrain.alignment
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
+
+    val semModel = KarmaTypes.readAlignmentGraph(Paths.get(alignmentDir, "graph.json").toString)
+    assert(semModel.isConnected)
+
+    assert(alignment.getGraph.vertexSet.size === 21)
+    assert(alignment.getGraph.edgeSet.size === 20)
+
+    // this is the output from running Web-Karma
+    val graph: DirectedWeightedMultigraph[Node, DefaultLink] =
+    GraphUtil.importJson(s07s08Align)
+
+    assert(graph.vertexSet.size === alignment.getGraph.vertexSet.size)
+    assert(graph.edgeSet.size === alignment.getGraph.edgeSet.size)
+
+    val resultLinks = alignment.getGraph
+      .edgeSet.asScala.map {
+      e => (e.getSource.getLabel.getUri, e.getUri, e.getType, e.getWeight)
+    }.toList.sorted
+
+    // resultLinks and karmaLinks have different ColumnNodes names, so I exclude them
+    val karmaLinks = graph.edgeSet.asScala.map {
+      e => (e.getSource.getLabel.getUri, e.getUri, e.getType, e.getWeight)
+    }.toList.sorted
+
+    // weights of the links are also checked
+    assert(resultLinks === karmaLinks)
+
+  }
+
+  def readSSD(ssdPath: String): Ssd = {
+    Try {
+      val stream = new FileInputStream(Paths.get(ssdPath).toFile)
+      parse(stream).extract[Ssd]
+    } match {
+      case Success(ssd) =>
+        ssd
+      case Failure(err) =>
+        fail(err.getMessage)
+    }
   }
 
 }
