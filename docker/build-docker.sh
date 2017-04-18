@@ -24,8 +24,10 @@ fi
 # Copy across the final jar and the executable...
 #
 mkdir -p docker/jars
+mkdir -p docker/conf
 cp jars/* docker/jars/
 cp bin/serene-start docker/
+cp conf/* docker/conf/
 
 #
 # Now we can build the docker image...
@@ -74,7 +76,7 @@ echo " docker load --input $FILENAME.gz"
 echo ""
 echo "Launch with:"
 echo ""
-echo " docker run -d -p 9000:8080 --name serene-instance serene &"
+echo " docker run -d -p 8080:8080 --name serene-instance serene &"
 echo ""
 echo "Test with:"
 echo ""
