@@ -38,6 +38,13 @@ Parameters:
                                                'unknown' instances to 50% of the whole training set.
                             NoResampling     - Just uses the actual number of instances per class.  Warning: number of 
                                                'unknown' class instances can be too large!
+                            Bagging - This strategy increases the training set by creating numBags (default=100)
+                                      instances per column with bagSize (default=100) randomly picked (with replacement)
+                                      rows from this column.
+                            BaggingToMax - Does the same as Bagging, and additionally resamples the training instances
+                                           of each class to be equal to the class with the maximum number of instances.
+                            BaggingToMean - Does the same as Bagging, and additionally resamples the training instances
+                                           of each class to be equal to the mean (does either downsample or upsample).
     features_config : Path to the JSON file that contains which features to use.  The ff json attributes specify which 
                       features to use:
                           activeFeatures - These are scalar features.

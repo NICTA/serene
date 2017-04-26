@@ -237,6 +237,10 @@ curl -X POST \
   localhost:8080/v1.0/model
 ```
 
+Explanation of features and the list of available features can be found [here](https://github.com/NICTA/serene/blob/master/matcher/dirstruct/semantic_type_classifier/repo/docs/features.txt).
+Resampling strategies are enumerated [here](https://github.com/NICTA/serene/blob/master/matcher/dirstruct/semantic_type_classifier/HOWTO). 
+Currently only `randomForest` is supported as a modelType through Serene API.
+
 ## Semantic Modelling
 
 Attribute ids in the source descriptions are really important since we rely on Karma code to perform semantic modelling. We have to make sure that they are unique across different data sources.
