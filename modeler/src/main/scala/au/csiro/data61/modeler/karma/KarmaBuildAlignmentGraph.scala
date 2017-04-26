@@ -108,6 +108,7 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
       alignmentGraph.setGraph(modelLearningGraph.getGraphBuilderClone.getGraph)
     }
 
+
     alignmentGraph
   }
 

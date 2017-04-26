@@ -55,6 +55,7 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
   val veryPartialSSD: String = Paths.get(ssdDir,"partial_model2.ssd") toString
   val emptyCitiesSSD: String = Paths.get(ssdDir,"empty_getCities.ssd") toString
   val citiesSSD: String = Paths.get(ssdDir,"getCities.ssd") toString
+  val personSSD: String = Paths.get(ssdDir,"personalInfo.ssd") toString
 
   val alignmentDir = Paths.get("/tmp/test-ssd", "alignment") toString
   val exampleOntol: String = Paths.get(ssdDir,"dataintegration_report_ontology.ttl") toString
@@ -99,9 +100,9 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
 
   override def afterEach(): Unit = {
     knownSSDs = List()
-    karmaWrapper.deleteKarma()
+//    karmaWrapper.deleteKarma()
     // we need to clean the alignmentDir
-    removeAll(Paths.get(alignmentDir))
+//    removeAll(Paths.get(alignmentDir))
   }
 
   /**
@@ -154,6 +155,27 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
       modelID = 0,
       dataSetID = 0,
       predictions = Map("10" -> col0, "11" -> col1)
+    ))
+  }
+
+  /**
+    * Construct DataSetPrediction instance for getCities.csv
+    */
+  def getCitiesDataSetPredictions2: Option[DataSetPrediction] = {
+    // we care only about scores in the semantic-modeller
+    val col0 = ColumnPrediction(label="City---name",
+      confidence=0.6,
+      scores=Map("City---name" -> 0.6, "State---name" -> 0.4),
+      features=Map())
+    val col1 = ColumnPrediction(label="State---name",
+      confidence=0.6,
+      scores=Map("City---name" -> 0.4, "State---name" -> 0.6),
+      features=Map())
+
+    Some(DataSetPrediction(
+      modelID = 0,
+      dataSetID = 0,
+      predictions = Map("10" -> col1, "11" -> col0)
     ))
   }
 
@@ -742,6 +764,52 @@ class SuggestModelSpec  extends FunSuite with ModelerJsonFormats with BeforeAndA
         assert(s.recall === 0.57)
       case Failure(err) =>
         fail(s"Test failed: ${err.getMessage}")
+    }
+  }
+
+  test("Recommendation for empty getCities.csv using personalInfo and businessInfo succeeds"){
+
+    addSSD(exampleSSD)
+    addSSD(personSSD)
+    logger.info("================================================================")
+    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
+    // our alignment
+    logger.info("================================================================")
+    var alignment = karmaTrain.alignment
+    assert(alignment.getGraph.vertexSet.size === 0)
+    assert(alignment.getGraph.edgeSet.size === 0)
+
+    logger.info("================================================================")
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
+    assert(alignment.getGraph.vertexSet.size === 9)
+    assert(alignment.getGraph.edgeSet.size === 10)
+
+    logger.info("================================================================")
+    val newSSD = readSSD(emptyCitiesSSD)
+    // check uploaded ontologies....
+    assert(karmaWrapper.ontologies.size === 1)
+    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getClasses.size === 7)
+    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getDataProperties.size === 9)
+    assert(karmaWrapper.karmaWorkspace.getOntologyManager.getObjectProperties.size === 12)
+
+    logger.info("================================================================")
+    karmaWrapper = KarmaParams(alignmentDir, List(exampleOntol), None)
+    val karmaPredict = KarmaSuggestModel(karmaWrapper)
+    logger.info("================================================================")
+
+    val recommends = karmaPredict
+      .suggestModels(newSSD, List(exampleOntol), getCitiesDataSetPredictions2, Map(), citiesAttrToColMap)
+
+    recommends match {
+      case Some(ssdPred: SsdPrediction) =>
+        assert(ssdPred.suggestions.size === 10)
+        assert(ssdPred.suggestions.forall(_._1.isComplete)) // Karma should return a consistent and complete semantic model
+        assert(ssdPred.suggestions.forall(_._1.isConsistent))
+        assert(ssdPred.suggestions.forall(_._1.mappings.isDefined))
+        assert(ssdPred.suggestions.forall(_._1.mappings.forall(_.mappings.size==2)))
+
+      case _ =>
+        fail("Wrong! There should be some prediction!")
     }
   }
 

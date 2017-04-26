@@ -481,13 +481,13 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
   /**
     * Perform prediction using the octopus for a dataset.
     * Emtpy SSD will automatically be generated for the dataset.
-    *
+    * If the column has a high probability to be unknown,
+    * it is discarded from the semantic modelling step.
     * @param id The octopus id
     * @param dsId id of the dataset
     * @return
     */
   def predictOctopus(id: OctopusID, dsId : DataSetID): SsdResults = {
-    // FIXME: unclear what happens to the UNKNOWN columns
     val (octopus, dataset) = getPredictionResources(id, dsId)
 
     if (checkTraining(id)) {

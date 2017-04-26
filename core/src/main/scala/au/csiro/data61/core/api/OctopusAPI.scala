@@ -124,7 +124,7 @@ object OctopusAPI extends RestAPI {
   }
 
   /**
-    * Returns a JSON O object at id
+    * Returns a JSON object at id
     */
   val octopusGet: Endpoint[Octopus] = get(APIVersion :: "octopus" :: int) {
     (id: Int) =>
