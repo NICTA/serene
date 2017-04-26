@@ -1,5 +1,7 @@
 package au.csiro.data61.matcher.matcher.eval.datasetutils
 
+import java.nio.file.Paths
+
 import au.csiro.data61.matcher.data._
 import au.csiro.data61.matcher.ingestion.loader._
 import au.csiro.data61.matcher.matcher.eval._
@@ -20,7 +22,8 @@ trait AusGovDataToiletsDomainUtils {
         })
 
         filesList.map({case f => {
-            CSVDataLoader("AU").loadTable(dataPath, f, "AU")
+            val fpath = Paths.get(dataPath, f).toString
+            CsvDataLoader("AU").loadTable(fpath, "AU")
         }}).toList
     }
 

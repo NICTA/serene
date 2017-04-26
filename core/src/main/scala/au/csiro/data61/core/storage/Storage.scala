@@ -21,7 +21,7 @@ import java.io._
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
-import au.csiro.data61.core.types._
+import au.csiro.data61.types._
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.json4s._
@@ -56,17 +56,12 @@ object Readable {
     */
   def apply[A](implicit instance: Readable[A]): Readable[A] = instance
 
-  // Using the toReadable creates cleaner code, we could also explicitly
-  // define the implicit instances:
-  //
-  //   implicit object ReadableDouble extends Readable[Double] {
-  //      def read(s: String): Double = s.toDouble
-  //    }
-  //    implicit object ReadableInt extends Readable[Int] {
-  //      def read(s: String): Int = s.toInt
-  //    }
+  /**
+    * Functions for implicits
+    */
   implicit val ReadableDouble = toReadable[Double](_.toDouble)
   implicit val ReadableInt = toReadable[Int](_.toInt)
+  implicit val ReadableOptionInt = toReadable[Option[Int]](p => Some(p.toInt))
   implicit val ReadableLong = toReadable[Long](_.toLong)
   implicit val ReadableString = toReadable[String](new String(_))
   implicit val ReadableBoolean = toReadable[Boolean](_.toBoolean)
@@ -85,8 +80,7 @@ object Readable {
  * disk layer, storing objects in json format.
  *
  */
-
-trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with MatcherJsonFormats {
+trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with JsonFormats {
 
   implicit val keyReader: Readable[Key]
 
@@ -109,9 +103,14 @@ trait Storage[Key, Value <: Identifiable[Key]] extends LazyLogging with MatcherJ
         cache += (id -> value)
       }
       id
-    } toOption
+    } match {
+      case Success(key) =>
+        Some(key)
+      case Failure(err) =>
+        logger.error(s"Failed to write the resource file to disk: ${err.getMessage}")
+        None
+    }
   }
-
 
   /**
    * Returns the model object at location id

@@ -17,20 +17,28 @@
   */
 package au.csiro.data61.core.drivers
 
-import java.io.{FileInputStream, ObjectInputStream}
+import java.io.{FileReader, FileInputStream, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.api.InternalException
-import au.csiro.data61.core.storage.{DatasetStorage, ModelStorage}
-import au.csiro.data61.core.types.DataSetTypes.DataSetID
-import au.csiro.data61.core.types.ModelTypes.ModelID
-import au.csiro.data61.core.types.{ColumnPrediction, DataSetPrediction}
-import com.github.tototoshi.csv.CSVReader
+import au.csiro.data61.core.storage.{DatasetStorage, JsonFormats, ModelStorage}
+import au.csiro.data61.types.DataSetTypes.DataSetID
+import au.csiro.data61.types.ModelTypes.ModelID
+import au.csiro.data61.types._
+import au.csiro.data61.matcher.ingestion.loader.CsvDataLoader
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
+import au.csiro.data61.matcher.matcher.features.FeatureExtractor
+import au.csiro.data61.matcher.matcher.featureserialize.ModelFeatureExtractors
 import com.typesafe.scalalogging.LazyLogging
+import org.apache.commons.csv.CSVFormat
 
 import scala.util.{Failure, Success, Try}
-
+import org.apache.spark.ml.PipelineModel
+import org.json4s.jackson.JsonMethods._
+import org.scalatest.path
+import org.json4s._
+import scala.collection.JavaConverters._
+//import com.github.tototoshi.csv.CSVReader
 // data integration project
 import au.csiro.data61.matcher.ingestion.loader.CSVHierarchicalDataLoader
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
@@ -43,6 +51,7 @@ class ObjectInputStreamWithCustomClassLoader(fileInputStream: FileInputStream)
   /**
     * This is a special deserialization for custom objects.
     * Either this custom thing, or fork := true in sbt are needed!
+ *
     * @param desc
     * @return
     */
@@ -53,7 +62,7 @@ class ObjectInputStreamWithCustomClassLoader(fileInputStream: FileInputStream)
 }
 
 
-object ModelPredictor extends LazyLogging {
+object ModelPredictor extends LazyLogging with JsonFormats {
 
   /**
     * Performs prediction for the model and returns predictions for all datasets in the repository
@@ -71,17 +80,19 @@ object ModelPredictor extends LazyLogging {
       for {
         // read in the learned model
         stored <- ModelStorage.get(id)
+
         path <- stored.modelPath
-//        path <- stored.defaultModelPath
+
         m <- readLearnedModelFile(path.toString).toOption
+
       } yield m
 
-//    logger.info(s"serializedmodel ${serializedModel}")
     val sModel = serializedModel getOrElse {
       logger.error(s"Failed to read serialized model $id")
       throw InternalException(s"Failed to read serialized model $id")
     }
 
+    logger.info(s"    serialized model has been read")
     // if datasetID does not exist or it is not csv, then nothing will be done
     DatasetStorage
       .get(datasetID)
@@ -99,7 +110,7 @@ object ModelPredictor extends LazyLogging {
     * @return Serialized Mlib classifier wrapped in Option
     */
   protected def readLearnedModelFile(filePath: String) : Try[SerializableMLibClassifier] = {
-    logger.info(s"Reading learned model file ${filePath}")
+    logger.info(s"Reading learned model file $filePath")
     for {
       fs <- Try {
         new FileInputStream(filePath)
@@ -131,18 +142,20 @@ object ModelPredictor extends LazyLogging {
     * @param dataSetID id of the dataset
     * @return PredictionObject wrapped in Option
     */
-  protected def runPrediction(id: ModelID,
+  def runPrediction(id: ModelID,
                     dsPath: Path,
                     sModel: SerializableMLibClassifier,
                     dataSetID: DataSetID): Option[DataSetPrediction] = {
 
     val derivedFeatureFile = predictionsPath(id, dataSetID)
-
     // loading data in the format suitable for data-integration project
-    val dataset = CSVHierarchicalDataLoader().readDataSet(
-      dsPath.getParent.toString,
-      dsPath.getFileName.toString
-    )
+    // TODO: check that this is the correct loader for the dataset
+//    val absFilePath = Paths.get( dsPath.getParent.toString, dsPath.getFileName.toString).toString
+    logger.info("   starting with csv reading for prediction...")
+    val absFilePath = Paths.get(dsPath.getParent.toString, dsPath.getFileName.toString).toString
+    val dataset = CsvDataLoader().load(absFilePath)
+
+    logger.info("   csv file for prediction has been read!")
 
     val randomForestClassifier = MLibSemanticTypeClassifier(
       sModel.classes,
@@ -236,18 +249,34 @@ object ModelPredictor extends LazyLogging {
   protected def readPredictions(filePath: Path, classNum : Int, modelID: ModelID, dsID: DataSetID): DataSetPrediction = {
     logger.info(s"Reading predictions from: $filePath...")
 
-    val reader = CSVReader.open(filePath.toFile).all
+    //val reader = CSVReader.open(filePath.toFile).all
+    // first load a CSV object...
+    val reader = CSVFormat.RFC4180
+      .parse(new FileReader(filePath.toFile))
+      .iterator
+      .asScala
+      .map { row => (0 until row.size()).map(row.get) }
+      .toList
+
     val header = readLine(reader.head, classNum)
+    logger.info(s"    got header")
     val predictions = for {
       line <- reader.tail
       dataLine = CSVDataLine(readLine(line, classNum))
       scores = (header.classes zip dataLine.classes).toMap
       features = (header.features zip dataLine.features).toMap
-      colName = dataLine.id.dropWhile(_ != '/').tail  // remove the filename at the start of the id...
+    // this way colName is constructed if we use CSVHierarchicalDataLoader!!!
+//      colName = dataLine.id.dropWhile(_ != '/').tail  // remove the filename at the start of the id...
+      // remove the filename at the end -- if we use CSVDataLoader!!!
+      colName = dataLine.id.split("@").dropRight(1).mkString("@") match {
+        case "" => dataLine.id
+        case c => c
+      }
       column <- DatasetStorage.columnNameMap.get(dsID -> colName)
       prediction = column.id.toString -> ColumnPrediction(dataLine.label, dataLine.confidence, scores, features)
     } yield prediction
 
+    logger.info(s"File read: $filePath...")
     DataSetPrediction(modelID, dsID, predictions.toMap)
   }
 

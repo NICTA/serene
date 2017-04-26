@@ -1,0 +1,165 @@
+{
+    "id": 0,
+    "name": "businessInfo.csv",
+    "attributes": [
+        {
+            "id": 643243447,
+            "name": "company",
+            "label": "ident",
+            "columnIds": [
+                643243447
+            ],
+            "sql": "select company from 'businessInfo.csv'"
+        },
+        {
+            "id": 1534291035,
+            "name": "ceo",
+            "label": "ident",
+            "columnIds": [
+                1534291035
+            ],
+            "sql": "select ceo from 'businessInfo.csv'"
+        },
+        {
+            "id": 843054462,
+            "name": "city",
+            "label": "ident",
+            "columnIds": [
+                843054462
+            ],
+            "sql": "select city from 'businessInfo.csv'"
+        },
+        {
+            "id": 1138681944,
+            "name": "state",
+            "label": "ident",
+            "columnIds": [
+                1138681944
+            ],
+            "sql": "select state from 'businessInfo.csv'"
+        }
+    ],
+    "ontologies": [
+        1
+    ],
+    "semanticModel": {
+        "nodes": [
+                {
+                    "id": 0,
+                    "label": "Organization",
+                    "type": "ClassNode"
+                },
+                {
+                    "id": 1,
+                    "label": "Organization.name",
+                    "type": "DataNode"
+                },
+                {
+                    "id": 2,
+                    "label": "Person",
+                    "type": "ClassNode"
+                },
+                {
+                    "id": 3,
+                    "label": "Person.name",
+                    "type": "DataNode"
+                },
+                {
+                    "id": 4,
+                    "label": "City",
+                    "type": "ClassNode"
+                },
+                {
+                    "id": 5,
+                    "label": "City.name",
+                    "type": "DataNode"
+                },
+                {
+                    "id": 6,
+                    "label": "State",
+                    "type": "ClassNode"
+                },
+                {
+                    "id": 7,
+                    "label": "State.name",
+                    "type": "DataNode"
+                }
+
+            ],
+            "links": [
+                {
+                    "id"    : 0,
+                    "source": 0,
+                    "target": 2,
+                    "label": "ceo",
+                    "type": "ObjectPropertyLink"
+                },
+                {
+                    "id"    : 1,
+                    "source": 0,
+                    "target": 1,
+                    "label": "name",
+                    "type": "DataPropertyLink"
+                },
+                {
+                    "id"    : 2,
+                    "source": 2,
+                    "target": 3,
+                    "label": "name",
+                    "type": "DataPropertyLink"
+                },
+                {
+                    "id"    : 3,
+                    "source": 0,
+                    "target": 4,
+                    "label": "location",
+                    "type": "ObjectPropertyLink"
+                },
+                {
+                    "id"    : 4,
+                    "source": 4,
+                    "target": 5,
+                    "label": "name",
+                    "type": "DataPropertyLink"
+                },
+                {
+                    "id"    : 5,
+                    "source": 4,
+                    "target": 6,
+                    "label": "isPartOf",
+                    "type": "ObjectPropertyLink"
+                },
+                {
+                    "id"    : 6,
+                    "source": 6,
+                    "target": 7,
+                    "label": "name",
+                    "type": "DataPropertyLink"
+                }
+            ]
+    },
+    "mappings": [
+        {
+            "attribute": 643243447,
+            "node": 1
+        },
+        {
+            "attribute": 1534291035,
+            "node": 3
+        },
+        {
+            "attribute": 843054462,
+            "node": 5
+        },
+        {
+            "attribute": 1138681944,
+            "node": 7
+        },
+        {
+            "attribute": 1138681944,
+            "node": 5
+        }
+    ],
+    "dateCreated":"2016-06-17T07:47:56Z",
+    "dateModified":"2016-06-17T07:47:56Z"
+}

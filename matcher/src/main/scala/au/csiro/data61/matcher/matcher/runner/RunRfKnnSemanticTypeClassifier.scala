@@ -53,7 +53,7 @@ object RunRfKnnSemanticTypeClassifier {
                         , data.featureExtractors, derivedFeaturesPath=Some(derivedFeaturesFile))
 
                     println("Running model on datasets...")
-                    val dataset = CSVDataLoader().load(datasetPath)
+                    val dataset = CsvDataLoader().load(datasetPath)
                     val startTime = System.nanoTime()
                     val predictions = randomForestClassifier.predict(List(dataset))
                     val endTime = System.nanoTime()

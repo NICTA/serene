@@ -1,0 +1,204 @@
+{
+    "nodes": [
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#State1",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#State"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#City1",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#City"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Organization1",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#Organization"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Person1",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#Person"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "C99CDE51-83FE-7AF6-FA78-D74B7859A332",
+            "label": {
+                "uri": "HN3"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN3",
+            "columnName": "state",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "902B2019-9E6D-D881-62BD-8B0429731E2E",
+            "label": {
+                "uri": "HN1"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN1",
+            "columnName": "ceo",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "7E88C5FD-AEB3-D737-66A1-4FE58EF4C0B0",
+            "label": {
+                "uri": "HN2"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN2",
+            "columnName": "city",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "14A67A09-069A-11E2-ABA9-2ECD1CF14449",
+            "label": {
+                "uri": "HN0"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN0",
+            "columnName": "company",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        }
+    ],
+    "links": [
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#City1---http://www.semanticweb.org/serene/report_example_ontology#isPartOf---http://www.semanticweb.org/serene/report_example_ontology#State1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#isPartOf"
+            },
+            "objectPropertyType": "Indirect",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Organization1---http://www.semanticweb.org/serene/report_example_ontology#location---http://www.semanticweb.org/serene/report_example_ontology#City1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#location"
+            },
+            "objectPropertyType": "Indirect",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Organization1---http://www.semanticweb.org/serene/report_example_ontology#ceo---http://www.semanticweb.org/serene/report_example_ontology#Person1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#ceo"
+            },
+            "objectPropertyType": "Direct",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#State1---http://www.semanticweb.org/serene/report_example_ontology#name---C99CDE51-83FE-7AF6-FA78-D74B7859A332",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#name"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Person1---http://www.semanticweb.org/serene/report_example_ontology#name---902B2019-9E6D-D881-62BD-8B0429731E2E",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#name"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#City1---http://www.semanticweb.org/serene/report_example_ontology#name---7E88C5FD-AEB3-D737-66A1-4FE58EF4C0B0",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#name"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        },
+        {
+            "id": "http://www.semanticweb.org/serene/report_example_ontology#Organization1---http://www.semanticweb.org/serene/report_example_ontology#name---14A67A09-069A-11E2-ABA9-2ECD1CF14449",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.semanticweb.org/serene/report_example_ontology#name"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "businessInfo.csv"
+            ]
+        }
+    ]
+}

@@ -53,7 +53,7 @@ object RunCsvDataFeatureExtractor {
             //load dataset
             val d = new java.io.File(inputDir)
             d.list.par.foreach({name => 
-                val dataset = CSVDataLoader().load(s"$inputDir/$name")
+                val dataset = CsvDataLoader().load(s"$inputDir/$name")
                 val tableFile = new File(s"$outputDir/$name")
                 if(!tableFile.exists) {
                     var out = new PrintWriter(tableFile)

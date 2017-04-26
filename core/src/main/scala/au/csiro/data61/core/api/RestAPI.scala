@@ -17,17 +17,24 @@
  */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.types.MatcherJsonFormats
+import au.csiro.data61.core.storage.JsonFormats
+import au.csiro.data61.types.Exceptions.TypeException
 import com.typesafe.scalalogging.LazyLogging
 import io.finch._
+import com.twitter.io.Buf
+import org.json4s.MappingException
 
 /**
  * Generic RestAPI endpoint. Here it just holds the implicit
  * format object, the version number, and the endpoints to
  * be defined by child objects.
  */
-trait RestAPI extends LazyLogging with MatcherJsonFormats {
+trait RestAPI extends LazyLogging with JsonFormats {
   implicit val formats = json4sFormats
+
+  implicit val e: Encode.Aux[MappingException, Text.Html] = Encode.instance((e, cs) =>
+    Buf.Utf8(s"<h1>Bad thing happened!!!!!!!!<h1>")
+  )
 
   val APIVersion = "v1.0"
 

@@ -1,0 +1,80 @@
+{
+  "id": 5,
+  "name": "getCities.csv",
+  "attributes": [
+    {
+      "id": 10,
+      "name": "state",
+      "label": "ident",
+      "columnIds": [
+        10
+      ],
+      "sql": "select state from 'getCities.csv'"
+    },
+    {
+      "id": 11,
+      "name": "city",
+      "label": "ident",
+      "columnIds": [
+        11
+      ],
+      "sql": "select city from 'getCities.csv'"
+    }
+  ],
+  "ontologies": [
+    1
+  ],
+  "semanticModel": {
+    "nodes": [
+      {
+        "id": 0,
+        "label": "City",
+        "type": "ClassNode",
+        "status": "Normal",
+        "prefix": "http://www.semanticweb.org/serene/report_example_ontology#"
+      },
+      {
+        "id": 2,
+        "label": "State.name",
+        "type": "DataNode",
+        "status": "ForcedByUser",
+        "prefix": ""
+      },
+      {
+        "id": 1,
+        "label": "State",
+        "type": "ClassNode",
+        "status": "Normal",
+        "prefix": "http://www.semanticweb.org/serene/report_example_ontology#"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "source": 0,
+        "target": 1,
+        "label": "isPartOf",
+        "type": "ObjectPropertyLink",
+        "status": "Normal",
+        "prefix": "http://www.semanticweb.org/serene/report_example_ontology#"
+      },
+      {
+        "id": 1,
+        "source": 1,
+        "target": 2,
+        "label": "name",
+        "type": "DataPropertyLink",
+        "status": "Normal",
+        "prefix": "http://www.semanticweb.org/serene/report_example_ontology#"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "attribute": 10,
+      "node": 2
+    }
+  ],
+  "dateCreated": "2016-06-17T07:47:56.000",
+  "dateModified": "2017-03-14T14:12:07.531"
+}

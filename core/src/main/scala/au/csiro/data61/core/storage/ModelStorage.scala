@@ -22,16 +22,17 @@ import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.drivers.ModelTrainerPaths
-import au.csiro.data61.core.types.ModelTypes.Status.COMPLETE
-import au.csiro.data61.core.{Serene, Config}
-import au.csiro.data61.core.types.ModelTypes.{Model, ModelID, Status, TrainState}
-import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
-import com.github.tototoshi.csv.CSVWriter
+import au.csiro.data61.core.Serene
+import au.csiro.data61.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.types.Training.{TrainState, Status}
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
+import org.apache.commons.csv.{CSVPrinter, CSVFormat}
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
+
+import scala.collection.JavaConverters._
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -47,6 +48,9 @@ object MatcherConstants {
   val LabelHeader = List("attr_id", "class")
   val WorkspaceDir = "workspace"
   val PredictionsDir = "predictions/"
+  val FeatureExtractorFile = "features_extractors.json"
+  val PipelineFile = "pipeline.rf"
+  val FeatureImportanceFile = "feature_importances.csv"
 }
 
 /**
@@ -56,7 +60,7 @@ object ModelStorage extends Storage[ModelID, Model] {
 
   implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
-  def rootDir: String = new File(Serene.config.modelStorageDir).getAbsolutePath
+  def rootDir: String = new File(Serene.config.storageDirs.model).getAbsolutePath
 
   //override val cache = collection.mutable.Map(listValues.map(m => m.id -> m).toSeq: _*)
 
@@ -236,9 +240,16 @@ object ModelStorage extends Storage[ModelID, Model] {
 
       logger.info(s"Writing labels for model ${model.id} to $labelsPath")
 
-      val writer = CSVWriter.open(labelsPath)
-      writer.writeAll(labelData)
-      writer.close()
+      val csvFileFormat = CSVFormat.RFC4180.withRecordSeparator("\n")
+      val fileWriter = new FileWriter(labelsPath)
+      val csvFilePrinter = new CSVPrinter(fileWriter, csvFileFormat)
+
+      // add the data...
+      labelData.foreach(line => csvFilePrinter.printRecord(line.asJava))
+
+      fileWriter.flush()
+      fileWriter.close()
+      csvFilePrinter.close()
 
       labelsPath
     }
@@ -369,8 +380,7 @@ object ModelStorage extends Storage[ModelID, Model] {
         newModel = model.copy(
           state = trainState,
           dateModified = model.dateModified,
-          modelPath = path//,
-          //predictionPath = None
+          modelPath = path
         )
         id <- ModelStorage.update(id, newModel)
       } yield trainState
@@ -392,41 +402,9 @@ object ModelStorage extends Storage[ModelID, Model] {
           workspacePath = wsDir,
           featuresConfigPath = Paths.get(wsDir, MatcherConstants.FeaturesConfigFile).toString,
           costMatrixConfigPath = Paths.get(wsDir, MatcherConstants.CostMatrixFile).toString,
-          labelsDirPath = Paths.get(wsDir, MatcherConstants.LabelOutDir).toString))
-  }
-
-  /**
-    * Check if the trained model is consistent.
-    * This means that the model file is available, and that the datasets
-    * have not been updated since the model was last modified.
-    *
-    * @param id ID for the model
-    * @return boolean
-    */
-  def isConsistent(id: ModelID): Boolean = {
-    logger.info(s"Checking consistency of model $id")
-
-    // make sure the datasets in the model are older
-    // than the training state
-    val isOK = for {
-      model <- get(id)
-      path = model.modelPath
-      trainDate = model.state.dateChanged
-      refIDs = model.refDataSets
-      refs = refIDs.flatMap(DatasetStorage.get).map(_.dateModified)
-
-      // make sure the model is complete
-      isComplete = model.state.status == COMPLETE
-
-      // make sure the datasets are older than the training date
-      allBefore = refs.forall(_.isBefore(trainDate))
-
-      // make sure the model file is there...
-      modelExists = path.exists(Files.exists(_))
-
-    } yield allBefore && modelExists && isComplete
-
-    isOK getOrElse false
+          labelsDirPath = Paths.get(wsDir, MatcherConstants.LabelOutDir).toString,
+          featureExtractorPath = Paths.get(wsDir, MatcherConstants.FeatureExtractorFile).toString,
+          pipelinePath = Paths.get(wsDir, MatcherConstants.PipelineFile).toString))
   }
 
 }

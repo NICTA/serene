@@ -41,7 +41,7 @@ class TrainRfKnnSemanticTypeClassifierSpec extends mutable.Specification {
                 println("    " + classes.mkString(","))
 
                 println("Loading training data...")
-                val dataLoader = CSVDataLoader()
+                val dataLoader = CsvDataLoader()
                 val trainingData = dataLoader.load(trainingDataPath)
                 println("Training data loaded.")
 

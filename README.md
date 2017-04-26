@@ -1,6 +1,6 @@
 # Serene Data Integration Platform
 
-Serene is a data integration platform designed to provide semantic matching across heterogenous relational data stores.
+Serene is a data integration platform designed to provide semantic matching across heterogeneous relational data stores.
 
 ### Prerequisites
 
@@ -12,6 +12,7 @@ on Debian linux
 ```
 sudo apt-get install sbt
 ```
+
 ## Installation
 You can build the library with
 ```
@@ -46,6 +47,8 @@ with arguments in quotes e.g.
 sbt "run --port 8888"
 ```
 
+Additional configuration is available in [application.conf](http://github.com/NICTA/serene/blob/modeller/core/src/main/resources/application.conf), specifically for the initialization of Spark. 
+
 The API can be used with the following commands...
 
 ## General
@@ -62,11 +65,14 @@ WARNING: the server will not work properly if logging level is set to DEBUG!
 
 ## Datasets
 Datasets need to be uploaded to the server. Currently only CSVs are supported. A description can also be added to the dataset upload.
+In case a dataset does not have headers, special header line needs to be added to the CSV (otherwise such dataset will not be properly read in by serene):
+the header line should be numbers starting from 0 to the number of columns -1.
 ```
 # Get a list of datasets...
 curl localhost:8080/v1.0/dataset
 
 # Post a new dataset...
+# Note that the max upload size is 2GB...
 curl -X POST -F 'file=@test.csv' -F 'description=This is a file' -F 'typeMap={"a":"int", "c":"string", "e":"int"}' localhost:8080/v1.0/dataset
 
 # Show a single dataset
@@ -124,13 +130,13 @@ curl -X POST \
               "num-neighbours" : 3
              }, {
               "name" : "min-editdistance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }, {
               "name" : "min-wordnet-jcn-distance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }, {
               "name" : "min-wordnet-lin-distance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }
            ]
         },
@@ -180,13 +186,13 @@ curl -X POST \
               "num-neighbours" : 3
              }, {
               "name" : "min-editdistance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }, {
               "name" : "min-wordnet-jcn-distance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }, {
               "name" : "min-wordnet-lin-distance-from-class-examples",
-              "max-comparisons-per-class" : 20
+              "max-comparisons-per-class" : 3
              }
            ]
         },
@@ -194,7 +200,7 @@ curl -X POST \
     "labelData" : {"1696954974" : "name", "66413956": "address"},
     "resamplingStrategy": "ResampleToMean"
     }' \
-  localhost:8080/v1.0/model
+  localhost:8080/v1.0/model/98793874
 
 
 # Train model (async, use GET on model 98793874 to query state)
@@ -231,6 +237,192 @@ curl -X POST \
   localhost:8080/v1.0/model
 ```
 
+Explanation of features and the list of available features can be found [here](https://github.com/NICTA/serene/blob/master/matcher/dirstruct/semantic_type_classifier/repo/docs/features.txt).
+Resampling strategies are enumerated [here](https://github.com/NICTA/serene/blob/master/matcher/dirstruct/semantic_type_classifier/HOWTO). 
+Currently only `randomForest` is supported as a modelType through Serene API.
+
+## Semantic Modelling
+
+Attribute ids in the source descriptions are really important since we rely on Karma code to perform semantic modelling. We have to make sure that they are unique across different data sources.
+
+The labels (semantic types) are assumed to come in the format: className---propertyName.
+
+The configuration for the semantic modeler is specified in [modeling.properties](http://github.com/NICTA/serene/blob/modeller/modeler/src/main/resources/modeling.properties).
+
+### Semantic Source Descriptions
+Semantic source descriptions provide information how exactly a particular dataset maps into a specified ontology. They include information both about the semantic types (i.e., classes/labels) for the columns as well as information about the relationships of these semantic types. All this information is encoded in the semantic model.
+Before a semantic source description can be uploaded to the server, the associated datasets should be uploaded.
+```
+# Get a list of semantic source descriptions...
+curl localhost:8080/v1.0/ssd
+
+# Post a new SSD...
+# Note that the max upload size is 2GB...
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+      "name": "serene-user-example-ssd",
+      "ontology": [1],
+      "semanticModel": {
+        "nodes": [
+            {
+               "id": 0,
+               "label": "State",
+               "type": "ClassNode"
+           },
+           {
+               "id": 1,
+               "label": "City",
+               "type": "ClassNode"
+           }],
+       "links": [
+           {
+               "id":     0,
+               "source": 1,
+               "target": 0,
+               "label": "isPartOf",
+               "type": "ObjectPropertyLink"
+           }]
+      },
+      "mappings": [
+       {
+            "attribute": 1997319549,
+            "node": 0
+       },
+       {
+           "attribute": 1160349990,
+           "node": 1
+       }],
+    }' \
+         localhost:8080/v1.0/ssd
+
+# Show a single ssd
+curl localhost:8080/v1.0/ssd/12341234
+
+# Update a single ssd
+
+# Delete a ssd
+curl -X DELETE  localhost:8080/v1.0/ssd/12341234
+```
+
+### Ontologies
+
+Serene can handle only OWL ontologies.
+```
+# Get a list of ontologies...
+curl localhost:8080/v1.0/owl
+
+# Post a new ontology...
+# Note that the max upload size is 2GB...
+curl -X POST -F 'file=@test.owl' localhost:8080/v1.0/owl
+
+# Show a single owl
+curl localhost:8080/v1.0/owl/12341234
+
+# Update a single owl
+
+# Delete a owl
+curl -X DELETE  localhost:8080/v1.0/owl/12341234
+```
+
+### Octopus
+The octopus endpoint controls the parameters used for the Semantic Modeller of the Serene API. Octopus is the final model which performs both relational and ontological schema matching. 
+```
+# List octopi
+curl localhost:8080/v1.0/model
+
+# Post octopus
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+      "name": "hello",
+      "description": "Testing octopus used for identifying phone numbers only.",
+      "ssds": [1, 2, 3],
+      "ontologies": [1, 2, 3],
+      "modelingProps": "see below for explanations",
+      "modelType": "randomForest",
+      "features": ["isAlpha", "alphaRatio", "atSigns", ...],
+      "resamplingStrategy": "ResampleToMean",
+      "numBags": 10,
+      "bagSize": 10
+    }' \
+         localhost:8080/v1.0/octopus
+  
+# Train octopus (async, includes training for the schema matcher model, use GET on octopus 98793874 to query state)
+curl -X POST localhost:8080/v1.0/octopus/98793874/train
+
+# Delete a single octopus
+curl -X DELETE  localhost:8080/v1.0/octopus/12341234
+
+# Suggest a list of semanctic models for a specific dataset 12341234 using octopus. Returns prediction JSON object
+curl -X POST localhost:8080/v1.0/octopus/98793874/predict/12341234
+```
+
+**Modeling properties:**
+
+_Ontology inference_ properties govern the construction of the alignment graph and regulate how many nodes and links will be additionally inferred from the ontology:
+1)  compatibleProperties: Boolean = true -- governs construction of ontology cache (extends alignment graph with inferred nodes and links from the ontology)
+2)  ontologyAlignment: Boolean = false -- governs construction of ontology cache (extends alignment graph with inferred nodes and links from the ontology)
+3)  addOntologyPaths: Boolean = false -- extends alignment graph with inferred paths from the ontology
+4)  multipleSameProperty: Boolean = false -- allow multiple same data properties per class node
+5) thingNode: Boolean = false -- add Thing node as superclass of all other classes
+6) nodeClosure: Boolean = true -- additional inference on nodes (closure of the node contains all the nodes that are connected to the input node by ObjectProperty or SubClass links)
+7) propertiesDirect: Boolean = true -- extend with direct properties
+8) propertiesIndirect: Boolean = true -- extend with indirect properties 
+9) propertiesSubclass: Boolean = true -- extend with subclass properties
+10) propertiesWithOnlyDomain: Boolean = true  -- allow properties in the ontology which have only domain indicated, but not range
+11) propertiesWithOnlyRange: Boolean = true -- allow properties in the ontology which have only range indicated, but not domain
+12) propertiesWithoutDomainRange: Boolean = false -- allow properties in the ontology which do not have domain or range
+
+_Search optimization_ (to better understand the search algorithms please refer to the [report](https://github.com/NICTA/semantic-modeller/blob/master/doc/RDB2RDF_Schema_Mapping.pdf)):
+1) numSemanticTypes: Int = 4 -- parameter which filters possible matches per column (only Top numSemanticTypes will be considered during mapping stage)
+2)  mappingBranchingFactor: Int = 50 -- parameter which reduces the search space for the possible mappings (mappings are built as combinations of matches) 
+3)  numCandidateMappings: Int = 10 -- parameter which reduces the search space for the heuristic STP (Steiner Tree Problem) algorithm (only Top numCandidateMappings are considered for STP)
+4)  topkSteinerTrees: Int = 10 -- number of Steiner Trees to be constructed by the algorithm (ranked according to the overall score)
+
+_Score_ is a weighted sum of confidence score, coherence score and size score:
+1)  confidenceWeight: Double = 1.0 -- weight of the confidence score (this is the confidence score returned by the schema matcher) 
+2)  coherenceWeight: Double = 1.0 -- weight of the coherence score (this score is calculated based on combinations of links and nodes)
+3) sizeWeight: Double = 0.5 -- weight of the size score (size of the semantic model)
+
+All weights have to be in range (0,1].
+Changing weights will affect the search and the results returned by the semantic modeler.
+
+_Unkown_:
+1) unknownThreshold: Double = 0.05 -- if confidence score with unknown class is above this threshold and unknown is the most likely class, then the column will be discarded
+
+Threshold must be in range [0,1].
+
+### Evaluation
+Compute three metrics to compare a predicted SSD against the correct one
+```
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+       "predictedSsd": {
+         "name": "businessInfo.csv",
+         "ontologies": [1],
+         "semanticModel": {
+           "nodes": [***],
+           "links": [***]
+         },
+         "mappings": [***]
+       },
+       "correctSsd": {
+         "name": "businessInfo.csv",
+         "ontologies": [1],
+         "semanticModel": {
+           "nodes": [***],
+           "links": [***]
+         },
+         "mappings": [***]
+       },
+       "ignoreSemanticTypes": true,
+       "ignoreColumnNodes": true
+      }' \
+  localhost:8080/v1.0/evaluate
+```
+
 ## Tests
 To run all tests:
 ```
@@ -240,4 +432,48 @@ To run individual module tests, refer to the module name e.g.
 ```
 sbt serene-core/test
 sbt serene-matcher/test
+sbt serene-modeler/test
+```
+To run an individual test spec refer to the Spec e.g.
+```
+sbt "serene-core/test-only au.csiro.data61.core.SSDStorageSpec"
+```
+
+To generate the code coverage report:
+
+```
+sbt serene-core/test serene-core/coverageReport
+```
+
+This will generate an HTML report at ```core/target/scala-2.11/scoverage-report/index.html```
+
+
+## Notes
+
+For the semantic modelling part 3 [Karma](http://github.com/usc-isi-i2/Web-Karma) java libraries need to be available:
+- karma-common;
+- karma-typer;
+- karma-util.
+
+Certain changes have been made to the original Karma code:
+
+1) Make the following methods public: SortableSemanticModel.steinerNodes.getSizeReduction.
+
+2) Add method ModelLearningGraph.setLastUpdateTime:
+```
+public void setLastUpdateTime(long newTime) {
+		this.lastUpdateTime = newTime;
+	}
+```
+
+3) Add `DINT` to Karma origin of semantic types:
+```
+public enum Origin {
+		AutoModel, User, CRFModel, TfIdfModel, RFModel, DINT
+	}
+```
+
+4) Add two more parameters to the method in GraphBuilder.java:
+```
+private void updateLinkCountMap(DefaultLink link, Node source, Node target)
 ```

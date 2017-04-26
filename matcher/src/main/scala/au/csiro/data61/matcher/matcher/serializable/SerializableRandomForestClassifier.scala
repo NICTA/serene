@@ -6,7 +6,7 @@ import au.csiro.data61.matcher.matcher.features._
 
 import java.io._
 
-//@SerialVersionUID(15L)
+@SerialVersionUID(15L)
 case class SerializableMLibClassifier(model: PipelineModel,
                                       classes: List[String],
                                       featureExtractors: List[FeatureExtractor],

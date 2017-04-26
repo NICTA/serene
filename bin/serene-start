@@ -1,5 +1,13 @@
 #!/bin/bash
 
+VERSION=0.1.0
+
+LIBS=jars
+
+LOG4J_PATH=conf/log4j.properties
+
+SERENE_JAR=jars/serene_2.11-$VERSION.jar
+
 command_exists () {
     type "$1" > /dev/null 2>&1;
 }
@@ -12,12 +20,15 @@ fi
 pushd "$(dirname "$0")" > /dev/null
 cd ..
 
-FILENAME=jars/serene-0.1.0.jar
+if [ -f $SERENE_JAR ]; then
 
-if [ -f $FILENAME ]; then
-    exec java -cp $FILENAME au.csiro.data61.core.Serene "$@"
+    exec java -Xmx12G \
+         -Dlog4j.configuration=file:$LOG4J_PATH \
+         -cp "$SERENE_JAR:$LIBS/*" \
+         au.csiro.data61.core.Serene "$@"
+
 else
-    echo "ERROR: $FILENAME does not exist. Have you run bin/build yet?"
+    echo "ERROR: $SERENE_JAR does not exist. Have you run bin/build yet?"
 fi
 
 popd > /dev/null

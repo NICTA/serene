@@ -20,13 +20,13 @@ package au.csiro.data61.core
 import java.util.Calendar
 
 import au.csiro.data61.core.api._
-import au.csiro.data61.core.types.MatcherJsonFormats
+import au.csiro.data61.core.storage.JsonFormats
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.language.postfixOps
-import com.twitter.util.Await
-import com.twitter.finagle.{ListeningServer, Http}
-
+import com.twitter.util.{Await, StorageUnit}
+import com.twitter.finagle.{Http, ListeningServer, Server}
+import com.twitter.conversions.storage._
 import io.finch._
 import io.finch.json4s._
 
@@ -36,9 +36,9 @@ import io.finch.json4s._
   * Finch endpoints and protect with high level error handlers, then
   * serve the API.
   */
-object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
+object Serene extends LazyLogging with JsonFormats with RestAPI {
 
-  val version = "0.1.0"
+  val version = getClass.getPackage.getImplementationVersion //"0.1.0"
 
   def echo(msg: String) { Console println msg }
 
@@ -50,7 +50,7 @@ object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
   val endpoints =
     DatasetAPI.endpoints :+:
       ModelAPI.endpoints :+:
-      AlignmentAPI.endpoints :+:
+      OctopusAPI.endpoints :+:
       OwlAPI.endpoints :+:
       SsdAPI.endpoints :+:
       TestAPI.endpoints
@@ -73,14 +73,15 @@ object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
         logger.error(s"Error: ${e.getMessage}")
         InternalServerError(e)
     }
-
   }
 
   // the server address
   def serverAddress: String = s"${config.serverHost}:${config.serverPort}"
 
   def defaultServer: ListeningServer = {
-    Http.serve("0.0.0.0:8080", restAPI.toService)
+    Http.server
+      .withMaxRequestSize(1999.megabytes)
+      .serve(s"${config.serverHost}:${config.serverPort}", restAPI.toServiceAs[Application.Json])
   }
 
   def main(args: Array[String]): Unit = {
@@ -97,7 +98,7 @@ object Serene extends LazyLogging with MatcherJsonFormats with RestAPI {
       |*
       |*
       |*    __|   _ \   __|  _ \   __ \   _ \
-      |*  \__  \  __/  |     __/  |   |   __/
+      |*  \__     __/  |     __/  |   |   __/
       |*  ____/ \___| _|   \___| _|  _| \___|
       |*
       |*

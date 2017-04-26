@@ -39,6 +39,10 @@ inferred-data-type      : Produces a vector which contains the inferred data typ
                               type-map:  Contains a csv that maps attribute ID to one of the types mentioned above.
                                          This allows us to interface with external data type inferrers.
 
+char-dist-features      : produces a vector for character distribution of column values;
+                        considered characters are:
+                        0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ \t\n\r\x0b\x0c
+
 stats-of-text-length    : Computes the mean, median, mode, min, max of string lengths from a columns entries.
 
 stats-of-numerical-type : Computes the mean, median, mode, min, max of entries from a column of numerical type.

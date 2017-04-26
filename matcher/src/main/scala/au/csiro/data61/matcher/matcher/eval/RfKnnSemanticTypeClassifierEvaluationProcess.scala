@@ -44,7 +44,7 @@ case class RfKnnSemanticTypeClassifierEvaluationProcess() {
 
     def loadData(rawDataPath: String): DataModel = {
         println("Loading raw data...")
-        val dataLoader = CSVDataLoader()
+        val dataLoader = CsvDataLoader()
         val rawData = dataLoader.load(rawDataPath)
         println("Raw data loaded with " + DataModel.getAllAttributes(rawData).size + " attributes.")
         rawData

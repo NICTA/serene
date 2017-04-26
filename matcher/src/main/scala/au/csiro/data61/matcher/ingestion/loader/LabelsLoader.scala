@@ -43,7 +43,7 @@ case class SemanticTypeLabelsLoader() {
                 fnameOnly match {
                     case excludedFilesRegex(name) => false
                     case n => {
-                        println("reading labels file: " + n)
+//                        println("reading labels file: " + n)
                         true
                     }
                 }

@@ -17,15 +17,17 @@
  */
 package au.csiro.data61.core.api
 
-import java.io.{ByteArrayInputStream, InputStream, FileInputStream}
-import au.csiro.data61.core.drivers.MatcherInterface
-import au.csiro.data61.core.types.{DataSet, DataSetTypes}
+import java.io.{ByteArrayInputStream, FileInputStream, InputStream}
+
+import au.csiro.data61.core.drivers.DataSetInterface
+import au.csiro.data61.types.{DataSet, DataSetTypes}
 import DataSetTypes._
 import com.twitter.finagle.http.exp.Multipart
 import com.twitter.finagle.http.exp.Multipart.{InMemoryFileUpload, OnDiskFileUpload}
 import com.twitter.io.{Buf, BufReader}
 import com.twitter.util.Await
 import io.finch._
+import org.apache.commons.io.FilenameUtils
 import org.json4s.jackson.JsonMethods._
 
 import scala.language.postfixOps
@@ -48,7 +50,7 @@ object DatasetAPI extends RestAPI {
    * curl http://localhost:8080/v1.0/dataset
    */
   val datasetRoot: Endpoint[List[Int]] = get(APIVersion :: "dataset") {
-    Ok(MatcherInterface.datasetKeys)
+    Ok(DataSetInterface.storageKeys)
   }
 
   /**
@@ -77,20 +79,23 @@ object DatasetAPI extends RestAPI {
 
       /**
         * Helper function to create the dataset from a filestream...
+        *
         * @param fs
         * @param filename
         * @return
         */
-      def createDataSet(fs: FileStream, filename: String): DataSet = {
-        val req = DataSetRequest(
-          Some(fs),
-          desc,
-          for {
-            str <- typeMap
-            tm <- Try { parse(str).extract[TypeMap] } toOption
-          } yield tm
-        )
-        MatcherInterface.createDataset(req)
+      def createDataSet(fs: FileStream, filename: String) = {
+          val req = DataSetRequest(
+            Some(fs),
+            desc,
+            for {
+              str <- typeMap
+              tm <- Try {
+                parse(str).extract[TypeMap]
+              } toOption
+            } yield tm
+          )
+          DataSetInterface.createDataset(req)
       }
 
       // main matching object...
@@ -99,17 +104,15 @@ object DatasetAPI extends RestAPI {
         case Some(OnDiskFileUpload(buffer, _, fileName, _)) =>
           logger.info("   on disk file upload")
           val fs = FileStream(fileName, new FileInputStream(buffer))
-          val ds = createDataSet(fs, fileName)
-          Ok(ds)
+          Ok(createDataSet(fs, fileName))
 
-        case Some(InMemoryFileUpload(buffer, _, fileName, _))=>
+        case Some(InMemoryFileUpload(buffer, _, fileName, _)) =>
           logger.info("   in memory")
           // first we need to convert from the twitter Buf object...
           val bytes = Buf.ByteArray.Owned.extract(buffer)
           // next we convert to a filestream as before...
           val fs = FileStream(fileName, new ByteArrayInputStream(bytes))
-          val ds = createDataSet(fs, fileName)
-          Ok(ds)
+          Ok(createDataSet(fs, fileName))
 
         case _ =>
           BadRequest(BadRequestException("File missing from multipart form request."))
@@ -128,7 +131,7 @@ object DatasetAPI extends RestAPI {
 
       val dataset = for {
         sc <- Try(samples.map(_.toInt))
-        ds <- Try(MatcherInterface.getDataSet(id, sc))
+        ds <- Try(DataSetInterface.getDataSet(id, sc))
       } yield ds
 
       dataset match {
@@ -177,14 +180,21 @@ object DatasetAPI extends RestAPI {
             typeMap.map(parse(_).extract[TypeMap])
           }
           ds <- Try {
-            MatcherInterface.updateDataset(id, desc, tm)
+            DataSetInterface.updateDataset(id, desc, tm)
           }
         } yield ds)
         match {
           case Success(ds) =>
             Ok(ds)
+          case Failure(err: NotFoundException) =>
+            NotFound(err)
+          case Failure(err: BadRequestException) =>
+            BadRequest(err)
+          case Failure(err: InternalException) =>
+            InternalServerError(err)
           case Failure(err) =>
-            InternalServerError(InternalException(err.getMessage))
+            logger.error(s"Some other problem with updating dataset $id: ${err.getMessage}")
+            InternalServerError(InternalException(s"Failed to update dataset $id."))
         }
       }
   }
@@ -196,16 +206,20 @@ object DatasetAPI extends RestAPI {
    */
   val datasetDelete: Endpoint[String] = delete(APIVersion :: "dataset" :: int) {
     (id: Int) =>
-      Try(MatcherInterface.deleteDataset(id)) match {
+      Try(DataSetInterface.delete(id)) match {
         case Success(Some(_)) =>
           logger.debug(s"Deleted dataset $id")
           Ok(s"Dataset $id deleted successfully.")
         case Success(None) =>
           logger.debug(s"Could not find dataset $id")
           NotFound(NotFoundException(s"Dataset $id could not be found"))
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
         case Failure(err) =>
-          logger.debug(s"Some other problem with deleting...")
-          InternalServerError(InternalException(s"Failed to delete resource: ${err.getMessage}"))
+          logger.error(s"Some other problem with deleting dataset $id: ${err.getMessage}")
+          InternalServerError(InternalException(s"Failed to delete dataset."))
       }
   }
 

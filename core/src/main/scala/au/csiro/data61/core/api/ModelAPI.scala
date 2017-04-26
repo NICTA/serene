@@ -17,15 +17,15 @@
  */
 package au.csiro.data61.core.api
 
-import au.csiro.data61.core.drivers.MatcherInterface
-import au.csiro.data61.core.types.ModelTypes.{Status, TrainState, ModelID, Model}
-import au.csiro.data61.core._
+import au.csiro.data61.core.drivers.ModelInterface
+import au.csiro.data61.types.ModelTypes.{Model, ModelID}
+import au.csiro.data61.types._
+import au.csiro.data61.types.ModelType
 import io.finch._
 import org.joda.time.DateTime
 import org.json4s.JValue
 import org.json4s.JsonAST.JNothing
 import org.json4s.jackson.JsonMethods._
-import types._
 
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
@@ -72,11 +72,9 @@ object ModelAPI extends RestAPI {
     resamplingStrategy = SamplingStrategy.RESAMPLE_TO_MEAN,
     modelPath = None,
     refDataSets = List(1, 2, 3, 4),
-    state = TrainState(Status.UNTRAINED, "", DateTime.now),
+    state = Training.TrainState(Training.Status.UNTRAINED, "", DateTime.now),
     dateCreated = DateTime.now,
-    dateModified = DateTime.now,
-    numBags = None,
-    bagSize = None
+    dateModified = DateTime.now
   )
 
   /**
@@ -85,7 +83,7 @@ object ModelAPI extends RestAPI {
    * curl http://localhost:8080/v1.0/model
    */
   val modelRoot: Endpoint[List[ModelID]] = get(APIVersion :: "model") {
-    Ok(MatcherInterface.modelKeys)
+    Ok(ModelInterface.storageKeys)
   }
 
   /**
@@ -104,7 +102,7 @@ object ModelAPI extends RestAPI {
    * Returns a JSON Model object with id.
    *
    */
-  val modelCreate: Endpoint[Model] = post(APIVersion :: "model" :: body) {
+  val modelCreate: Endpoint[Model] = post(APIVersion :: "model" :: stringBody) {
     (body: String) =>
       (for {
         request <- parseModelRequest(body)
@@ -121,7 +119,7 @@ object ModelAPI extends RestAPI {
             throw BadRequestException("No features found.")
           }
         }
-        m <- Try { MatcherInterface.createModel(request) }
+        m <- Try { ModelInterface.createModel(request) }
       } yield m)
       match {
         case Success(mod) =>
@@ -138,7 +136,7 @@ object ModelAPI extends RestAPI {
    */
   val modelGet: Endpoint[Model] = get(APIVersion :: "model" :: int) {
     (id: Int) =>
-      Try { MatcherInterface.getModel(id) } match {
+      Try { ModelInterface.get(id) } match {
         case Success(Some(ds))  =>
           Ok(ds)
         case Success(None) =>
@@ -152,9 +150,9 @@ object ModelAPI extends RestAPI {
     * Trains a model at id
     * If training has been successfully launched, it returns nothing
     */
-  val modelTrain: Endpoint[Unit] = post(APIVersion :: "model" :: int :: "train") {
-    (id: Int) =>
-      val state = Try(MatcherInterface.trainModel(id))
+  val modelTrain: Endpoint[Unit] = post(APIVersion :: "model" :: int :: "train" :: paramOption("force")) {
+    (id: Int, force: Option[String]) =>
+      val state = Try(ModelInterface.trainModel(id, force.exists(_.toBoolean)))
       state match {
         case Success(Some(_))  =>
           Accepted[Unit]
@@ -178,7 +176,7 @@ object ModelAPI extends RestAPI {
   val modelPredict: Endpoint[DataSetPrediction] = post(APIVersion :: "model" :: int :: "predict" :: int) {
     (id: Int, datasetID: Int) =>
       Try {
-        MatcherInterface.predictModel(id, datasetID)
+        ModelInterface.predictModel(id, datasetID)
       } match {
         case Success(prediction) =>
           Ok(prediction)
@@ -189,7 +187,8 @@ object ModelAPI extends RestAPI {
         case Failure(err: NotFoundException) =>
           NotFound(err)
         case Failure(err) =>
-          InternalServerError(InternalException(err.getMessage))
+          logger.error(s"Some other error occurred in model $id prediction: ${err.getMessage}")
+          InternalServerError(InternalException("Model prediction failed."))
       }
   }
 
@@ -198,19 +197,26 @@ object ModelAPI extends RestAPI {
   /**
    * Patch a portion of a Model. Will destroy all cached models
    */
-  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int :: body) {
+  val modelPatch: Endpoint[Model] = post(APIVersion :: "model" :: int :: stringBody) {
     (id: Int, body: String) =>
       (for {
         request <- parseModelRequest(body)
         model <- Try {
-          MatcherInterface.updateModel(id, request)
+          ModelInterface.updateModel(id, request)
         }
       } yield model)
       match {
         case Success(m) =>
           Ok(m)
+        case Failure(err: NotFoundException) =>
+          NotFound(err)
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
         case Failure(err) =>
-          InternalServerError(InternalException(err.getMessage))
+          logger.error(s"Some other problem with updating model $id: ${err.getMessage}")
+          InternalServerError(InternalException(s"Failed to update model $id."))
       }
   }
 
@@ -219,16 +225,20 @@ object ModelAPI extends RestAPI {
    */
   val modelDelete: Endpoint[String] = delete(APIVersion :: "model" :: int) {
     (id: Int) =>
-      Try(MatcherInterface.deleteModel(id)) match {
+      Try(ModelInterface.delete(id)) match {
         case Success(Some(_)) =>
           logger.debug(s"Deleted model $id")
           Ok(s"Model $id deleted successfully.")
         case Success(None) =>
           logger.debug(s"Could not find model $id")
           NotFound(NotFoundException(s"Model $id could not be found"))
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
         case Failure(err) =>
-          logger.debug(s"Some other problem with deleting...")
-          InternalServerError(InternalException(s"Failed to delete resource: ${err.getMessage}"))
+          logger.error(s"Some other problem with model $id deletion: ${err.getMessage}")
+          InternalServerError(InternalException(s"Failed to delete resource."))
       }
   }
 
