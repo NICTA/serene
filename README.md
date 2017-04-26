@@ -364,31 +364,31 @@ _Ontology inference_ properties govern the construction of the alignment graph a
 1)  compatibleProperties: Boolean = true -- governs construction of ontology cache (extends alignment graph with inferred nodes and links from the ontology)
 2)  ontologyAlignment: Boolean = false -- governs construction of ontology cache (extends alignment graph with inferred nodes and links from the ontology)
 3)  addOntologyPaths: Boolean = false -- extends alignment graph with inferred paths from the ontology
-7)  multipleSameProperty: Boolean = false -- allow multiple same data properties per class node
-12) thingNode: Boolean = false -- add Thing node as superclass of all other classes
-13) nodeClosure: Boolean = true -- additional inference on nodes (closure of the node contains all the nodes that are connected to the input node by ObjectProperty or SubClass links)
-14) propertiesDirect: Boolean = true -- extend with direct properties
-15) propertiesIndirect: Boolean = true -- extend with indirect properties 
-16) propertiesSubclass: Boolean = true -- extend with subclass properties
-17) propertiesWithOnlyDomain: Boolean = true  -- allow properties in the ontology which have only domain indicated, but not range
-18) propertiesWithOnlyRange: Boolean = true -- allow properties in the ontology which have only range indicated, but not domain
-19) propertiesWithoutDomainRange: Boolean = false -- allow properties in the ontology which do not have domain or range
+4)  multipleSameProperty: Boolean = false -- allow multiple same data properties per class node
+5) thingNode: Boolean = false -- add Thing node as superclass of all other classes
+6) nodeClosure: Boolean = true -- additional inference on nodes (closure of the node contains all the nodes that are connected to the input node by ObjectProperty or SubClass links)
+7) propertiesDirect: Boolean = true -- extend with direct properties
+8) propertiesIndirect: Boolean = true -- extend with indirect properties 
+9) propertiesSubclass: Boolean = true -- extend with subclass properties
+10) propertiesWithOnlyDomain: Boolean = true  -- allow properties in the ontology which have only domain indicated, but not range
+11) propertiesWithOnlyRange: Boolean = true -- allow properties in the ontology which have only range indicated, but not domain
+12) propertiesWithoutDomainRange: Boolean = false -- allow properties in the ontology which do not have domain or range
 
-_Search optimization_ (to better understand the search algorithms please refer to the [report](https://github.com/NICTA/semantic-modeller/blob/master/doc/RDB2RDF_Schema_Mapping.pdf))
-11) numSemanticTypes: Int = 4 -- parameter which filters possible matches per column (only Top numSemanticTypes will be considered during mapping stage)
-4)  mappingBranchingFactor: Int = 50 -- parameter which reduces the search space for the possible mappings (mappings are built as combinations of matches) 
-5)  numCandidateMappings: Int = 10 -- parameter which reduces the search space for the heuristic STP (Steiner Tree Problem) algorithm (only Top numCandidateMappings are considered for STP)
-6)  topkSteinerTrees: Int = 10 -- number of Steiner Trees to be constructed by the algorithm (ranked according to the overall score)
+_Search optimization_ (to better understand the search algorithms please refer to the [report](https://github.com/NICTA/semantic-modeller/blob/master/doc/RDB2RDF_Schema_Mapping.pdf)):
+1) numSemanticTypes: Int = 4 -- parameter which filters possible matches per column (only Top numSemanticTypes will be considered during mapping stage)
+2)  mappingBranchingFactor: Int = 50 -- parameter which reduces the search space for the possible mappings (mappings are built as combinations of matches) 
+3)  numCandidateMappings: Int = 10 -- parameter which reduces the search space for the heuristic STP (Steiner Tree Problem) algorithm (only Top numCandidateMappings are considered for STP)
+4)  topkSteinerTrees: Int = 10 -- number of Steiner Trees to be constructed by the algorithm (ranked according to the overall score)
 
 _Score_ is a weighted sum of confidence score, coherence score and size score:
-8)  confidenceWeight: Double = 1.0 -- weight of the confidence score (this is the confidence score returned by the schema matcher) 
-9)  coherenceWeight: Double = 1.0 -- weight of the coherence score (this score is calculated based on combinations of links and nodes)
-10) sizeWeight: Double = 0.5 -- weight of the size score (size of the semantic model)
+1)  confidenceWeight: Double = 1.0 -- weight of the confidence score (this is the confidence score returned by the schema matcher) 
+2)  coherenceWeight: Double = 1.0 -- weight of the coherence score (this score is calculated based on combinations of links and nodes)
+3) sizeWeight: Double = 0.5 -- weight of the size score (size of the semantic model)
 All weights have to be in range (0,1].
 Changing weights will affect the search and the results returned by the semantic modeler.
 
 _Unkown_
-20) unknownThreshold: Double = 0.05 -- if confidence score with unknown class is above this threshold and unknown is the most likely class, then the column will be discarded
+1) unknownThreshold: Double = 0.05 -- if confidence score with unknown class is above this threshold and unknown is the most likely class, then the column will be discarded
 
 ### Evaluation
 Compute three metrics to compare a predicted SSD against the correct one
