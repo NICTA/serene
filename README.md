@@ -365,11 +365,11 @@ _Ontology inference_ properties govern the construction of the alignment graph a
 2)  ontologyAlignment: Boolean = false -- governs construction of ontology cache (extends alignment graph with inferred nodes and links from the ontology)
 3)  addOntologyPaths: Boolean = false -- extends alignment graph with inferred paths from the ontology
 4)  multipleSameProperty: Boolean = false -- allow multiple same data properties per class node
-5) thingNode: Boolean = false -- add Thing node as superclass of all other classes
-6) nodeClosure: Boolean = true -- additional inference on nodes (closure of the node contains all the nodes that are connected to the input node by ObjectProperty or SubClass links)
-7) propertiesDirect: Boolean = true -- extend with direct properties
-8) propertiesIndirect: Boolean = true -- extend with indirect properties 
-9) propertiesSubclass: Boolean = true -- extend with subclass properties
+5)  thingNode: Boolean = false -- add Thing node as superclass of all other classes
+6)  nodeClosure: Boolean = true -- additional inference on nodes (closure of the node contains all the nodes that are connected to the input node by ObjectProperty or SubClass links)
+7)  propertiesDirect: Boolean = true -- extend with direct properties
+8)  propertiesIndirect: Boolean = true -- extend with indirect properties 
+9)  propertiesSubclass: Boolean = true -- extend with subclass properties
 10) propertiesWithOnlyDomain: Boolean = true  -- allow properties in the ontology which have only domain indicated, but not range
 11) propertiesWithOnlyRange: Boolean = true -- allow properties in the ontology which have only range indicated, but not domain
 12) propertiesWithoutDomainRange: Boolean = false -- allow properties in the ontology which do not have domain or range
