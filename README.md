@@ -384,11 +384,14 @@ _Score_ is a weighted sum of confidence score, coherence score and size score:
 1)  confidenceWeight: Double = 1.0 -- weight of the confidence score (this is the confidence score returned by the schema matcher) 
 2)  coherenceWeight: Double = 1.0 -- weight of the coherence score (this score is calculated based on combinations of links and nodes)
 3) sizeWeight: Double = 0.5 -- weight of the size score (size of the semantic model)
+
 All weights have to be in range (0,1].
 Changing weights will affect the search and the results returned by the semantic modeler.
 
-_Unkown_
+_Unkown_:
 1) unknownThreshold: Double = 0.05 -- if confidence score with unknown class is above this threshold and unknown is the most likely class, then the column will be discarded
+
+Threshold must be in range [0,1].
 
 ### Evaluation
 Compute three metrics to compare a predicted SSD against the correct one
