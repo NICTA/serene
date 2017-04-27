@@ -26,7 +26,8 @@ prop-entries-with-hyphen    : The proportion of entries with a '-'.
 prop-range-format           : The proportion of entries which follow some numerical range format: ([0-9]+)-([0-9]+).
 is-discrete                 : A binary indicator if the column entires are discrete.
 entropy-for-discrete-values : The entropy of the entries of a column.
-
+shannon-entropy             : Shannon's entropy for the vocabulary specified in the
+                              description of the feature 'char-dist-features'
 
 ## The following feature extractors produce a vector value.
 Some of these are computed together to reduce computation time.

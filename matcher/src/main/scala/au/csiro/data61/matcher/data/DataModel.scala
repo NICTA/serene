@@ -110,7 +110,8 @@ object Attribute {
   def unapply(a: Attribute) = Some(a.id, a.metadata, a.values, a.parent)
 }
 
-case class PreprocessedAttribute(val rawAttribute: Attribute, val preprocessedDataMap: Map[String,Any])
+case class PreprocessedAttribute(rawAttribute: Attribute,
+                                 preprocessedDataMap: Map[String,Any])
 
 /**
   * Class to encapsulate attribute with row values.
