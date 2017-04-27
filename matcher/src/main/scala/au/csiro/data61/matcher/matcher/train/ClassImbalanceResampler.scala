@@ -273,7 +273,7 @@ object ClassImbalanceResampler extends LazyLogging {
                   val bagSizeAttr: Attribute = attr.values.size < bagSize match {
                       case false => attr
                       case true =>
-                          logger.info("Row size is not sufficient for indicated bagSize. " +
+                          logger.debug("Row size is not sufficient for indicated bagSize. " +
                             "Sampling with replacement will be used.")
                             // we then will do sampling with replacement
                           val replValues = (1 to 1 + bagSize / attr.values.size)

@@ -275,7 +275,8 @@ object FeatureExtractorUtil extends LazyLogging {
         ),
       (TextStatsFeatureExtractor.getGroupName, TextStatsFeatureExtractor.apply _),
       (NumberTypeStatsFeatureExtractor.getGroupName, NumberTypeStatsFeatureExtractor.apply _),
-      (CharDistFeatureExtractor.getGroupName, CharDistFeatureExtractor.apply _)
+      (CharDistFeatureExtractor.getGroupName, CharDistFeatureExtractor.apply _),
+      (ShannonEntropyFeatureExtractor.getFeatureName, ShannonEntropyFeatureExtractor.apply _)
     )
 
     //instantiate only those active features
@@ -1068,6 +1069,64 @@ case class EntropyForDiscreteDataFeatureExtractor() extends SingleFeatureExtract
       -1.0
     }
   }
+}
+
+
+/**
+  * Information Theoretic features
+  * Shannon's entropy
+  */
+object ShannonEntropyFeatureExtractor {
+  def getFeatureName(): String = "shannon-entropy"
+}
+case class ShannonEntropyFeatureExtractor() extends SingleFeatureExtractor {
+  lazy val chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~ \\t\\n\\r\\x0b\\x0c"
+
+  // logarithm base 2
+  lazy val lnOf2 = scala.math.log(2) // natural log of 2
+  def log2(x: Double): Double = scala.math.log(x) / lnOf2
+
+  override def getFeatureName() = ShannonEntropyFeatureExtractor.getFeatureName
+
+  /**
+    * add the information measure (negative entropy) of text,
+    * Sum(p(i) log(p(i)), i=1,...,n), where p(i) is the i-th character frequency,
+    * n is the number of possible characters in the "alphabet", i.e., number of possible states
+    * @param normalisedCharDists normalized character frequency vector
+    * @return
+    */
+  private def calculateShannonEntropy(normalisedCharDists: Map[Char,Double]): Double = {
+    if (normalisedCharDists.isEmpty) {
+      0.0
+    } else {
+      val max_entropy = - log2(1.0 / chars.length)
+      val entropy = chars.toList.map {
+        c => normalisedCharDists.getOrElse(c, 0.0)
+      }.filter(_ > 0).map(c => c * log2(c)).sum
+      // normalize entropy
+      (- 1.0 * entropy) / max_entropy
+    }
+  }
+
+  override def computeFeature(attribute: PreprocessedAttribute): Double = {
+    val attrContent: Seq[String] = attribute.rawAttribute.values.filter(_.nonEmpty)
+    if(attrContent.nonEmpty) {
+      val normalisedCharDists: Map[Char,Double] = attribute
+        .preprocessedDataMap.getOrElse("normalised-char-frequency-vector", Map())
+        .asInstanceOf[Map[Char,Double]]
+
+      calculateShannonEntropy(normalisedCharDists)
+    } else {
+      0.0
+    }
+  }
+
+  override def computeSimpleFeature(attribute: SimpleAttribute): Double = {
+    val normalisedCharDists: Map[Char,Double] = attribute.charDist
+    calculateShannonEntropy(normalisedCharDists)
+  }
+
+
 }
 
 
