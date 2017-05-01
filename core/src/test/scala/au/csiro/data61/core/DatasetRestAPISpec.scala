@@ -25,7 +25,6 @@ import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 import com.twitter.io.Reader
 import com.twitter.util.Await
-import org.apache.commons.io.FileUtils
 import org.junit.runner.RunWith
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import org.scalatest.junit.JUnitRunner
@@ -48,6 +47,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
   implicit val version = APIVersion
   val Resource = getClass.getResource("/medium.csv").getPath
   val ResourceS28 = getClass.getResource("/s28-wildlife-art.csv.csv").getPath
+  val ResourceS01 = getClass.getResource("/s01-cb.csv.csv").getPath // something off with encoding
   val TinyResource = getClass.getResource("/tiny.csv").getPath
 
   override def beforeEach() {
@@ -359,6 +359,40 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
     try {
       val TypeMap = """{"a":"b", "c":"d"}"""
       val content = Await.result(Reader.readAll(Reader.fromFile(new File(ResourceS28))))
+      val testStr = Random.alphanumeric take 10 mkString
+      val fileName = s"${Random.alphanumeric take 10 mkString}.csv"
+
+      val request = RequestBuilder()
+        .url(fullUrl(s"/$APIVersion/dataset"))
+        .addFormElement("description" -> testStr)
+        .addFormElement("typeMap" -> TypeMap)
+        .add(FileElement("file", content, None, Some(fileName)))
+        .buildFormPost(multipart = true)
+
+      val response = Await.result(client(request))
+
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(!response.contentString.isEmpty)
+
+      val ds = parse(response.contentString).extract[DataSet]
+
+      assert(ds.description === testStr)
+      assert(ds.filename === fileName)
+      assert(ds.dateCreated === ds.dateModified)
+      assert(ds.typeMap.get("a") === Some("b"))
+      assert(ds.typeMap.get("c") === Some("d"))
+
+    } finally {
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/dataset for s01 museum dataset with utf8 encoding responds Ok(200)") (new TestServer {
+    try {
+      val TypeMap = """{"a":"b", "c":"d"}"""
+      val content = Await.result(Reader.readAll(Reader.fromFile(new File(ResourceS01))))
       val testStr = Random.alphanumeric take 10 mkString
       val fileName = s"${Random.alphanumeric take 10 mkString}.csv"
 

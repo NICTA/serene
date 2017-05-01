@@ -121,6 +121,7 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
       _ <- add(ds)
     } yield ds
 
+    logger.debug(s"...DataSet path $dataSet ")
     dataSet getOrElse {
       throw InternalException(s"Failed to create resource $id")
     }
@@ -202,6 +203,7 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
     // first load a CSV object...
     val csv = CSVFormat.RFC4180.parse(new FileReader(filePath.toFile))
 
+    logger.debug("Pulling columns into a row list...")
     // pull into a row List of List[String]
     csv
       .iterator
@@ -229,6 +231,7 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
                            n: Int = DefaultSampleSize,
                            headerLines: Int = 1,
                            seed: Int = DefaultSeed): List[Column[Any]] = {
+    logger.debug("Getting columns from dataset...")
     // note that we only take a sample from the first 4n samples. Otherwise
     // we need to pull the whole file into memory to get say 10 samples...
     val columns = readColumns(filePath)
@@ -246,6 +249,7 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
       Array.fill(n)(rnd.nextInt(data.head.size - 1))
     }
 
+    logger.debug("... creating set of column objects...")
     // now we recombine with the headers and an index to create the
     // set of column objects...
     (headers zip data).zipWithIndex.map { case ((header, col), i) =>
