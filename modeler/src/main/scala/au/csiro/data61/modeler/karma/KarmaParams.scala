@@ -43,7 +43,7 @@ import scala.util.{ Try, Success, Failure}
   * Class to initialize Karma tool.
   * @param alignmentDir Directory where the alignment graph is/will be stored
   * @param ontologies List of paths where ontologies are stored
-  * @param modelingProps Sting which corresponds to Karma style of modeling properties; optional
+  * @param modelingProps String which corresponds to Karma style of modeling properties; optional
   */
 case class KarmaParams(alignmentDir: String
                        , ontologies: List[String]

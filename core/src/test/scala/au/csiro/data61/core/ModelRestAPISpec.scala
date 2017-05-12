@@ -97,6 +97,10 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
           ("max-comparisons-per-class" -> 5)
       ))
 
+  def charDistFeatures: JObject =
+    ("activeFeatures" -> Seq("shannon-entropy" )) ~
+      ("activeFeatureGroups" -> Seq("char-dist-features"))
+
   def defaultCostMatrix: JArray =
     JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))
 
@@ -802,6 +806,25 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
     }
   })
 
+  test("POST /v1.0/model/:id/train with character distribution vector accepts request and completes successfully") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 60
+
+      val (model, _) = trainDefault(features = charDistFeatures)
+      val trained = pollModelState(model, PollIterations, PollTime)
+
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
+
+      assert(state === Training.Status.COMPLETE)
+
+    } finally {
+      deleteAllModels
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
   test("POST /v1.0/model/:id/train with bagging accepts request and completes successfully") (new TestServer {
     try {
       val PollTime = 1000
@@ -1098,6 +1121,36 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       val PollIterations = 60
 
       val (model, ds) = trainDefault()
+
+      // now just make sure it completes...
+      val trained = pollModelState(model, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, PollTime * PollIterations * 2 seconds)
+
+      assert(state === Training.Status.COMPLETE)
+
+      // now make a prediction
+      val request = RequestBuilder()
+        .url(s.fullUrl(s"/$APIVersion/model/${model.id}/predict/${ds.id}"))
+        .addHeader("Content-Type", "application/json")
+        .buildPost(Buf.Utf8(""))
+
+      val response = Await.result(client(request))
+
+      assert(response.status === Status.Ok)
+
+    } finally {
+      deleteAllModels
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/model/:id/predict/:id using character dist and entropy returns successfully") (new TestServer {
+    try {
+      val PollTime = 1000
+      val PollIterations = 60
+
+      val (model, ds) = trainDefault(features = charDistFeatures)
 
       // now just make sure it completes...
       val trained = pollModelState(model, PollIterations, PollTime)

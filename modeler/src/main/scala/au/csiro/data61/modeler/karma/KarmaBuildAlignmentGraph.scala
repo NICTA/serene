@@ -24,6 +24,9 @@ import au.csiro.data61.types.Exceptions._
 import com.typesafe.scalalogging.LazyLogging
 import edu.isi.karma.modeling.alignment.Alignment
 import edu.isi.karma.modeling.alignment.learner.{ModelLearningGraph, ModelLearningGraphType, PatternWeightSystem}
+import edu.isi.karma.rep.alignment.InternalNode
+
+import scala.util.{Try, Failure, Success}
 
 /**
   * As input we give a list of known ssd.
@@ -66,6 +69,32 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
   }
 
   /**
+    * export the alignment graph into karma folders and change the modified time
+    */
+  private def exportAlignmentGraph(): Unit = {
+    logger.debug(s"Export of the alignment graph")
+    modelLearningGraph.exportJson()
+    modelLearningGraph.exportGraphviz()
+    // NOTE: mLearningGraph.lastUpdateTime is private --- I've added one more method to Karma to set it!
+    modelLearningGraph.setLastUpdateTime(java.lang.System.currentTimeMillis)
+  }
+
+  private def addOntologyPaths(addedNodes: java.util.Set[InternalNode]): Unit = {
+    if(karmaWrapper.karmaModelingConfiguration.getAddOntologyPaths) {
+      // ontology inference
+      logger.debug("Adding node closure and links from the ontology...")
+      Try {
+        modelLearningGraph.updateGraphUsingOntology(addedNodes)
+      } match {
+        case Success(s) =>
+          logger.debug("Ontology paths added successfully!")
+        case Failure(err) =>
+          logger.warn(s"Ontology paths not added: ${err.getMessage}")
+      }
+    }
+  }
+
+  /**
     * This method constructs the initial alignment graph based on preloaded onotologies + known SSDs in SSDStorage.
  *
     * @param knownSsds List of known semantic source descriptions
@@ -83,30 +112,38 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
     // we need to add our ssd models from SSDStorage
     if(karmaWrapper.karmaModelingConfiguration.getKnownModelsAlignment) {
 
-      logger.info("Adding known SSDs to the alignment graph...")
+      logger.info(s"Adding known SSDs to the alignment graph: ${knownSsds.size} to go...")
 
       // adding of semantic models to the alignment graph is handled within ModelLearningGraph class in Karma.
       // there are two types of graphs: compact and sparse... compact is used mainly in Karma code.
+
+      // we keep track of nodes added to the graph since it's needed later on for ontology inference
+      var addedNodes: java.util.Set[InternalNode] = new java.util.HashSet[InternalNode]
+
       knownSsds
         .flatMap { sm =>
-          logger.debug(s" adding ssd: ${sm.id}, ${sm.name}")
+          logger.debug(s" converting ssd (${sm.id}, ${sm.name}) to karma model")
           sm.toKarmaSemanticModel(alignmentGraph.getGraphBuilder.getOntologyManager)
         }
         .foreach {
           karmaModel =>
-            // here we add model to the alignment graph and update using pre-loaded ontologies
-            modelLearningGraph.addModelAndUpdate(
-              karmaModel.karmaModel,
-              PatternWeightSystem.JWSPaperFormula // TODO: understand the difference between formulas
-          )
+            // here we add model to the alignment graph
+            val temp: java.util.Set[InternalNode] =
+              modelLearningGraph.addModel(
+                karmaModel.karmaModel,
+                PatternWeightSystem.JWSPaperFormula // TODO: understand the difference between formulas
+              )
+            if (temp != null) {addedNodes.addAll(temp)}
+            logger.debug(s" karma model added")
       }
-      // export the alignment graph into karma folders
-      modelLearningGraph.exportJson()
-      modelLearningGraph.exportGraphviz()
-      // NOTE: mLearningGraph.lastUpdateTime is private --- I've added one more method to Karma to set it!
-      modelLearningGraph.setLastUpdateTime(java.lang.System.currentTimeMillis)
+      exportAlignmentGraph()
+      // ontology inference
+      addOntologyPaths(addedNodes)
+
+      exportAlignmentGraph()
       alignmentGraph.setGraph(modelLearningGraph.getGraphBuilderClone.getGraph)
     }
+
 
     alignmentGraph
   }

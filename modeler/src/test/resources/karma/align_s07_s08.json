@@ -1,0 +1,590 @@
+{
+    "nodes": [
+        {
+            "id": "http://www.europeana.eu/schemas/edm/EuropeanaAggregation1",
+            "label": {
+                "uri": "http://www.europeana.eu/schemas/edm/EuropeanaAggregation"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.europeana.eu/schemas/edm/WebResource1",
+            "label": {
+                "uri": "http://www.europeana.eu/schemas/edm/WebResource"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.europeana.eu/schemas/edm/WebResource2",
+            "label": {
+                "uri": "http://www.europeana.eu/schemas/edm/WebResource"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/Person1",
+            "label": {
+                "uri": "http://www.americanartcollaborative.org/ontology/Person"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1",
+            "label": {
+                "uri": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2008/05/skos#Concept1",
+            "label": {
+                "uri": "http://www.w3.org/2008/05/skos#Concept"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "805E6C7A-E7D0-DC6D-075A-BAA0D98F09F5",
+            "label": {
+                "uri": "HN9501"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN9501",
+            "columnName": "deathDate",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "05F91A88-94DA-52C7-A727-04BFBB574E74",
+            "label": {
+                "uri": "HN31"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN31",
+            "columnName": "technique",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "B750069E-82CB-CDF7-C79F-D0EC3CFCA85A",
+            "label": {
+                "uri": "HN23"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN23",
+            "columnName": "category",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "35061699-0F18-84DF-B74E-22CA69B98138",
+            "label": {
+                "uri": "HN11"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN11",
+            "columnName": "credit_line",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "5C805EC8-8003-A017-C122-D29361D3AFF3",
+            "label": {
+                "uri": "HN33"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN33",
+            "columnName": "ac_id",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "B5EEB34D-485A-ACBE-8F92-45629FC2F6E7",
+            "label": {
+                "uri": "HN25"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN25",
+            "columnName": "dates",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "410D108A-B0D1-4A5D-57A1-3FC76A58871E",
+            "label": {
+                "uri": "HN35"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN35",
+            "columnName": "image_url",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "F7A596CC-52EA-95D7-DB48-5BA109535E8F",
+            "label": {
+                "uri": "HN27"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN27",
+            "columnName": "name",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "75AEC39F-B15B-35EA-6394-22E54183C395",
+            "label": {
+                "uri": "HN15"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN15",
+            "columnName": "audio_url",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "2F0D0B71-870D-3A27-5B94-B5DFD8CF6924",
+            "label": {
+                "uri": "HN37"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN37",
+            "columnName": "dimension",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "661075EA-EA00-AEC3-833F-2998393A6FCA",
+            "label": {
+                "uri": "HN29"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN29",
+            "columnName": "title",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "C9671BC6-22CC-DA5B-5945-BD611338A6C2",
+            "label": {
+                "uri": "HN17"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN17",
+            "columnName": "nationality",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "3D32AD82-AD7C-8422-5CF8-C9AA224F714D",
+            "label": {
+                "uri": "HN9"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN9",
+            "columnName": "origin",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "CEB33EFF-BC44-F8C3-4B26-0048989AF388",
+            "label": {
+                "uri": "HN9131"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN9131",
+            "columnName": "birthDate",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "D20DD7D2-0B27-ACC2-CA0E-CC29E9B7FD8B",
+            "label": {
+                "uri": "HN5900"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN5900",
+            "columnName": "DESCRIPTION",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "s08-s-17-edited.xml"
+            ]
+        }
+    ],
+    "links": [
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1---http://purl.org/dc/terms/creator---http://www.americanartcollaborative.org/ontology/Person1",
+            "weight": 0.33333333333333337,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://purl.org/dc/terms/creator"
+            },
+            "objectPropertyType": "WithOnlyRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1---http://www.europeana.eu/schemas/edm/hasType---http://www.w3.org/2008/05/skos#Concept1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://www.europeana.eu/schemas/edm/hasType"
+            },
+            "objectPropertyType": "Indirect",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.europeana.eu/schemas/edm/EuropeanaAggregation1---http://www.europeana.eu/schemas/edm/aggregatedCHO---http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1",
+            "weight": 0.33333333333333337,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://www.europeana.eu/schemas/edm/aggregatedCHO"
+            },
+            "objectPropertyType": "Indirect",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.europeana.eu/schemas/edm/EuropeanaAggregation1---http://www.europeana.eu/schemas/edm/hasView---http://www.europeana.eu/schemas/edm/WebResource2",
+            "weight": 0.33333333333333337,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://www.europeana.eu/schemas/edm/hasView"
+            },
+            "objectPropertyType": "Indirect",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.europeana.eu/schemas/edm/EuropeanaAggregation1---http://www.europeana.eu/schemas/edm/hasView---http://www.europeana.eu/schemas/edm/WebResource1",
+            "weight": 0.33333333333333337,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://www.europeana.eu/schemas/edm/hasView"
+            },
+            "objectPropertyType": "Indirect",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/Person1---http://rdvocab.info/ElementsGr2/dateOfDeath---805E6C7A-E7D0-DC6D-075A-BAA0D98F09F5",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://rdvocab.info/ElementsGr2/dateOfDeath"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1---http://purl.org/dc/terms/medium---05F91A88-94DA-52C7-A727-04BFBB574E74",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/dc/terms/medium"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2008/05/skos#Concept1---http://www.w3.org/2008/05/skos#prefLabel---B750069E-82CB-CDF7-C79F-D0EC3CFCA85A",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2008/05/skos#prefLabel"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1---http://purl.org/dc/terms/provenance---35061699-0F18-84DF-B74E-22CA69B98138",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/dc/terms/provenance"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1---http://www.americanartcollaborative.org/ontology/accessionNumber---5C805EC8-8003-A017-C122-D29361D3AFF3",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.americanartcollaborative.org/ontology/accessionNumber"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1---http://purl.org/dc/terms/created---B5EEB34D-485A-ACBE-8F92-45629FC2F6E7",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/dc/terms/created"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.europeana.eu/schemas/edm/WebResource2---http://isi.edu/integration/karma/dev#classLink---410D108A-B0D1-4A5D-57A1-3FC76A58871E",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/Person1---http://rdvocab.info/ElementsGr2/nameOfThePerson---F7A596CC-52EA-95D7-DB48-5BA109535E8F",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://rdvocab.info/ElementsGr2/nameOfThePerson"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.europeana.eu/schemas/edm/WebResource1---http://isi.edu/integration/karma/dev#classLink---75AEC39F-B15B-35EA-6394-22E54183C395",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1---http://purl.org/dc/terms/extent---2F0D0B71-870D-3A27-5B94-B5DFD8CF6924",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/dc/terms/extent"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1---http://purl.org/dc/terms/title---661075EA-EA00-AEC3-833F-2998393A6FCA",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/dc/terms/title"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/Person1---http://rdvocab.info/ElementsGr2/countryAssociatedWithThePerson---C9671BC6-22CC-DA5B-5945-BD611338A6C2",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://rdvocab.info/ElementsGr2/countryAssociatedWithThePerson"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1---http://purl.org/dc/terms/provenance---3D32AD82-AD7C-8422-5CF8-C9AA224F714D",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/dc/terms/provenance"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s08-s-17-edited.xml",
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/Person1---http://rdvocab.info/ElementsGr2/dateOfBirth---CEB33EFF-BC44-F8C3-4B26-0048989AF388",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://rdvocab.info/ElementsGr2/dateOfBirth"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s07-s-13.json"
+            ]
+        },
+        {
+            "id": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject1---http://purl.org/dc/terms/description---D20DD7D2-0B27-ACC2-CA0E-CC29E9B7FD8B",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/dc/terms/description"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "s08-s-17-edited.xml"
+            ]
+        }
+    ]
+}
