@@ -17,7 +17,7 @@
   */
 package au.csiro.data61.core.drivers
 
-import java.io.{FileReader, FileInputStream, ObjectInputStream}
+import java.io.{FileInputStream, FileReader, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.api.InternalException
@@ -29,6 +29,7 @@ import au.csiro.data61.matcher.ingestion.loader.CsvDataLoader
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features.FeatureExtractor
 import au.csiro.data61.matcher.matcher.featureserialize.ModelFeatureExtractors
+import au.csiro.data61.matcher.matcher.train.BaggingParams
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.csv.CSVFormat
 
@@ -37,6 +38,7 @@ import org.apache.spark.ml.PipelineModel
 import org.json4s.jackson.JsonMethods._
 import org.scalatest.path
 import org.json4s._
+
 import scala.collection.JavaConverters._
 //import com.github.tototoshi.csv.CSVReader
 // data integration project
@@ -65,15 +67,12 @@ class ObjectInputStreamWithCustomClassLoader(fileInputStream: FileInputStream)
 object ModelPredictor extends LazyLogging with JsonFormats {
 
   /**
-    * Performs prediction for the model and returns predictions for all datasets in the repository
+    * Performs prediction for the model and returns predictions for a dataset in the repository
     *
     * @param id id of the model
     * @return Serialized Mlib classifier wrapped in Option
     */
   def predict(id: ModelID, datasetID: DataSetID): DataSetPrediction = {
-
-    logger.info(s"Predicting values for the dataset $datasetID.")
-
     logger.info(s"Dataset $datasetID is not in the cache. Computing prediction...")
 
     val serializedModel =
@@ -133,6 +132,30 @@ object ModelPredictor extends LazyLogging with JsonFormats {
   }
 
   /**
+    * Get bagging parameters depending on resampling strategy
+    * @param id model id
+    * @return
+    */
+  private def getBaggingParams(id: ModelID): Option[BaggingParams] = {
+    logger.debug(s"Obtaining bagging params for prediction with model $id")
+    for {
+      stored <- ModelStorage.get(id)
+
+      bnum <- Try {stored.numBags} toOption
+
+      bsize <- Try {stored.bagSize} toOption
+
+      strat <- stored.resamplingStrategy match {
+          case SamplingStrategy.BAGGING => Some(BaggingParams(numBags = bnum, bagSize = bsize))
+          case SamplingStrategy.BAGGING_TO_MAX => Some(BaggingParams(numBags = bnum, bagSize = bsize))
+          case SamplingStrategy.BAGGING_TO_MEAN => Some(BaggingParams(numBags = bnum, bagSize = bsize))
+          case _ => None
+      }
+
+    } yield strat
+  }
+
+  /**
     * Performs prediction for a specified dataset using the model
     * and returns predictions for the specified dataset in the repository
     *
@@ -149,12 +172,9 @@ object ModelPredictor extends LazyLogging with JsonFormats {
 
     val derivedFeatureFile = predictionsPath(id, dataSetID)
     // loading data in the format suitable for data-integration project
-    // TODO: check that this is the correct loader for the dataset
-//    val absFilePath = Paths.get( dsPath.getParent.toString, dsPath.getFileName.toString).toString
     logger.info("   starting with csv reading for prediction...")
     val absFilePath = Paths.get(dsPath.getParent.toString, dsPath.getFileName.toString).toString
     val dataset = CsvDataLoader().load(absFilePath)
-
     logger.info("   csv file for prediction has been read!")
 
     val randomForestClassifier = MLibSemanticTypeClassifier(
@@ -162,7 +182,8 @@ object ModelPredictor extends LazyLogging with JsonFormats {
       sModel.model,
       sModel.featureExtractors,
       None,
-      Option(derivedFeatureFile.toString))
+      Option(derivedFeatureFile.toString),
+      getBaggingParams(id))
 
     // TODO: Fix how this works, the writing and reading to files is unnecessary
     Try(randomForestClassifier.predict(List(dataset))) match {
@@ -171,7 +192,6 @@ object ModelPredictor extends LazyLogging with JsonFormats {
           readPredictions(derivedFeatureFile, sModel.classes.size, id, dataSetID)
         } toOption
       case Failure(err) =>
-        // prediction failed for the dataset
         logger.warn(s"Prediction for the dataset $dsPath failed: $err")
         None
     }

@@ -71,32 +71,26 @@ object FeatureExtractorUtil extends LazyLogging {
 
   def extractTestFeatures(attributes: List[DMAttribute],
                           featureExtractors: List[FeatureExtractor]
-                         )(implicit sc: SparkContext): List[List[Double]] = {
-    logger.info(s"***Preprocessing test features ${attributes.size} instances...")
+                         )(implicit spark: SparkSession): List[List[Double]] = {
     // additional preprocessing of attributes (e.g., data type inference, tokenization of column names, etc.)
-    val preprocessor = DataPreprocessor()
-    val preprocessedAttributes = attributes.map(preprocessor.preprocess)
+    logger.info(s"***Extracting test features with spark from ${attributes.size} instances...")
 
-    //    val preprocessedAttributes = Try {
-    //      sc.parallelize(attributes)
-    //        .map(preprocessor.preprocess).collect.toList
-    //    } match {
-    //      case Success(procAttrs) =>
-    //        procAttrs
-    //      case Failure(err) =>
-    //        logger.error(s"Failure in preprocessing test features with spark: $err")
-    //        sc.stop()
-    //        throw new Exception(s"Failure in preprocessing test features with spark: $err")
-    //    }
-    logger.info(s"***Extracting test features with spark from ${preprocessedAttributes.size} instances...")
+    // broadcasting big data structures
+    val featExtractBroadcast = spark.sparkContext.broadcast(featureExtractors)
+    val attrBroadcast = spark.sparkContext.broadcast(attributes)
 
     val featuresOfAllInstances = Try {
-      val featExtractBroadcast = sc.broadcast(featureExtractors)
-      sc.parallelize(preprocessedAttributes).map {
-        attr =>
+      spark.sparkContext.parallelize(attributes.indices).map {
+        idx =>
+//          lazy val attr = DataPreprocessor().preprocess(attrBroadcast.value(idx))
+//          featExtractBroadcast.value.flatMap {
+//            case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
+//            case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
+//          }
+          val attr: SimpleAttribute = getSimpleAttribute(attrBroadcast.value(idx))
           featExtractBroadcast.value.flatMap {
-            case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
-            case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
+            case fe: SingleFeatureExtractor => List(fe.computeSimpleFeature(attr))
+            case gfe: GroupFeatureExtractor => gfe.computeSimpleFeatures(attr)
           }
       }.collect.toList
     } match {
@@ -104,9 +98,13 @@ object FeatureExtractorUtil extends LazyLogging {
         testFeatures
       case Failure(err) =>
         logger.error(s"Failure in extracting test features with spark: $err")
-        sc.stop()
+        spark.stop()
         throw new Exception(s"Failure in extracting test features with spark: $err")
     }
+
+    // destroy broadcast variables explicitly
+    featExtractBroadcast.destroy()
+    attrBroadcast.destroy()
 
     logger.info("***Finished extracting test features with spark.")
     featuresOfAllInstances

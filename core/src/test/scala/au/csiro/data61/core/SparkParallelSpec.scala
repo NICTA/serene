@@ -428,5 +428,57 @@ class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEac
     }
   })
 
+  test("train and predict with bagging") (new TestServer {
+    try {
+      val TestStr = randomString
+
+      // first we add a simple dataset
+      val ds = createDataSet
+      val labelMap = createLabelMap(ds)
+
+      // next we train the dataset
+      val model: Model = createModel(defaultClasses, Some(TestStr), Some(labelMap), "Bagging", Some(50), Some(50)).get
+
+      val sModel: SerializableMLibClassifier = ModelTrainer.train(model.id).get
+
+      ModelPredictor.runPrediction(model.id, ds.path, sModel, ds.id) match {
+        case Some(dsPrediction) =>
+          val trueLabels = createLabelMap(ds)
+            .toList
+            .sortBy(_._1)
+
+          // these are the labels that were predicted
+          val testLabels = dsPrediction
+            .predictions
+            .mapValues(_.label)
+            .filterKeys(trueLabels.map(_._1).contains)
+            .toList
+            .sortBy(_._1)
+
+          // check if they are equal. Here there is a
+          // office@house_listing column that is misclassified
+          // as a business name...
+          val score = testLabels
+            .zip(trueLabels)
+            .map { case (x, y) =>
+              if (x == y) 1.0 else 0.0
+            }
+
+          val total = score.sum / testLabels.size
+
+          println("TOOOOOOOOTAL")
+          println(total)
+          println("TOOOOOOOOTAL")
+          assert(total > 0.9)
+        case _ =>
+          fail("Prediction failed!!!")
+      }
+    } finally {
+      deleteAllModels
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
 }
 

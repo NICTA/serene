@@ -22,7 +22,7 @@ cd ..
 
 if [ -f $SERENE_JAR ]; then
 
-    exec java -Xmx20G \
+    exec java -Xmx40G \
          -Dlog4j.configuration=file:$LOG4J_PATH \
          -cp "$SERENE_JAR:$LIBS/*" \
          au.csiro.data61.core.Serene "$@"
