@@ -68,7 +68,7 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
       case Success(ssd) =>
         // check if the SSD is consistent and complete
         if (!ssd.isComplete) {
-          val msg = "SSD cannot be added to the storage: it is not complete. Check semanticModel and mappings."
+          val msg = "SSD cannot be added to the storage: it is not connected. Check semanticModel and mappings."
           logger.error(msg)
           throw BadRequestException(msg)
         }
@@ -109,7 +109,7 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
 
             // check if the SSD is consistent and complete
             if (!updatedSsd.isComplete) {
-              val msg = "SSD cannot be updated to the storage: it is not complete."
+              val msg = "SSD cannot be updated to the storage: it is not connected."
               logger.error(msg)
               throw BadRequestException(msg)
             }
