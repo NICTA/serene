@@ -121,7 +121,6 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
       _ <- add(ds)
     } yield ds
 
-    logger.debug(s"...DataSet path $dataSet ")
     dataSet getOrElse {
         throw InternalException(s"Failed to create resource $id")
     }

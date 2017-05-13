@@ -27,6 +27,7 @@ import org.apache.spark.sql.types._
 import au.csiro.data61.matcher.data._
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features._
+
 import com.typesafe.scalalogging.LazyLogging
 
 import scala.util.{Random, Failure, Success, Try}
@@ -59,23 +60,24 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
                            parallelFeatureExtraction: Boolean = true)(implicit spark: SparkSession)
   : List[PreprocessedAttribute] = {
     val preprocessor = DataPreprocessor()
-    parallelFeatureExtraction match {
-      case true =>
-        val rdd = spark.sparkContext.parallelize(resampledAttrs)
-        logger.info(s"Parallel preprocessing on ${rdd.partitions.length} partitions")
+    if (parallelFeatureExtraction) {
+        logger.info(s"Parallel preprocessing for training...")
         Try {
-          rdd
-            .map(preprocessor.preprocess)
+//          val rdd = spark.sparkContext.parallelize(resampledAttrs)
+          val attrBroadcast = spark.sparkContext.broadcast(resampledAttrs)
+          spark.sparkContext.parallelize(resampledAttrs.indices)
+            .map(idx => preprocessor.preprocess(attrBroadcast.value(idx)))
             .collect.toList
         } match {
           case Success(preprocessedTrainInstances) =>
+            logger.info(s"Finished parallel preprocessing for training.")
             preprocessedTrainInstances
           case Failure(err) =>
             logger.error(s"Parallel preprocessing failed ${err.getMessage}")
             spark.stop()
             throw new Exception(s"Parallel preprocessing failed ${err.getMessage}")
         }
-      case false =>
+    } else {
         resampledAttrs.map(preprocessor.preprocess)
     }
   }
@@ -307,7 +309,9 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     //resampling
     val numBags = trainingSettings.numBags.getOrElse(50)
     val bagSize = trainingSettings.bagSize.getOrElse(100)
-    val resampledAttrs = ClassImbalanceResampler // here seeds are fixed so output will be the same on the same input
+    // here seeds are fixed so output will be the same on the same input
+    // NOTE: results might be different for a set of datasets, because the order in which they are concatenated matters
+    val resampledAttrs = ClassImbalanceResampler
       .resample(trainingSettings.resamplingStrategy, allAttributes, labels, bagSize, numBags)
     logger.info(s"   resampled ${resampledAttrs.size} attributes")
     resampledAttrs

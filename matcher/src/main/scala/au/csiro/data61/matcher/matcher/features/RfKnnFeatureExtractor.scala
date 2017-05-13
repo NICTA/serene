@@ -44,7 +44,7 @@ case class RfKnnFeatureExtractor(classList: List[String], pool: List[RfKnnFeatur
   val nameRegex = "([^@]+)@(.+)".r
 
   override def getGroupName(): String =
-    RfKnnFeatureExtractor.getGroupName
+    RfKnnFeatureExtractor.getGroupName()
 
   override def getFeatureNames(): List[String] =
     classList.map { className => s"prop-$className" }
