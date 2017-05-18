@@ -96,6 +96,7 @@ class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEac
     JArray(List(JArray(List(1,0,0)), JArray(List(0,1,0)), JArray(List(0,0,1))))
 
   def defaultDataSet: String = getClass.getResource("/homeseekers.csv").getPath
+  def employeeDataSet: String = getClass.getResource("/Employees.csv").getPath
 
   // default classes for the homeseekers dataset
   def defaultClasses: List[String] = List(
@@ -237,6 +238,23 @@ class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEac
   def createDataSet(implicit server: TestServer): DataSet = {
     // first we add a dataset...
     server.createDataset(Paths.get(defaultDataSet).toFile, "homeseekers", TypeMap) match {
+      case Success(ds) =>
+        ds
+      case _ =>
+        throw new Exception("Failed to create dataset")
+    }
+  }
+
+  /**
+    * createDataSet creates a single simple dataset from the medium.csv file
+    * in the DataSet test spec.
+    *
+    * @param server The server object
+    * @return List of column IDs...
+    */
+  def createSimpleDataSet(implicit server: TestServer): DataSet = {
+    // first we add a dataset...
+    server.createDataset(Paths.get(employeeDataSet).toFile, "Employees", TypeMap) match {
       case Success(ds) =>
         ds
       case _ =>
@@ -473,6 +491,32 @@ class SparkParallelSpec extends FunSuite with JsonFormats with BeforeAndAfterEac
         case _ =>
           fail("Prediction failed!!!")
       }
+    } finally {
+      deleteAllModels
+      deleteAllDatasets
+      assertClose()
+    }
+  })
+
+  test("check features calculated when bagging") (new TestServer {
+    try {
+      val TestStr = randomString
+
+      // first we add a simple dataset
+      val ds = createDataSet
+      val labelMap = createLabelMap(ds)
+
+      // next we train the dataset
+      val model: Model = createModel(defaultClasses, Some(TestStr), Some(labelMap), "NoResampling", Some(50), Some(50)).get
+
+      val sModel: SerializableMLibClassifier = ModelTrainer.train(model.id).get
+
+      val ds2 = createSimpleDataSet
+      val derivedFeatureFile = ModelPredictor.predictionsPath(model.id, ds2.id)
+      val predsObject = ModelPredictor.modelPrediction(model.id, ds2.path, sModel, derivedFeatureFile)
+
+      // TODO: check that prop-alpha-chars for DOB is 0
+
     } finally {
       deleteAllModels
       deleteAllDatasets

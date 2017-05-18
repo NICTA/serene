@@ -20,7 +20,7 @@ package au.csiro.data61.matcher.matcher.features
 
 import au.csiro.data61.matcher.data._
 import au.csiro.data61.matcher.matcher.train.TrainAliases._
-import au.csiro.data61.matcher.matcher.train.TrainingSettings
+import au.csiro.data61.matcher.matcher.train.{ClassImbalanceResampler, TrainingSettings}
 import au.csiro.data61.matcher.matcher._
 import au.csiro.data61.matcher.nlptools.tokenizer.StringTokenizer
 import com.typesafe.scalalogging.LazyLogging
@@ -108,6 +108,144 @@ object FeatureExtractorUtil extends LazyLogging {
 
     logger.info("***Finished extracting test features with spark.")
     featuresOfAllInstances
+  }
+
+  /**
+    * Here we try to push bagging and feature extraction to workers.
+    * Needed for prediction.
+    * @param attributes
+    * @param featureExtractors
+    * @param numBags
+    * @param bagSize
+    * @param spark
+    * @return
+    */
+  def extractBaggingFeatures(attributes: List[DMAttribute],
+                             featureExtractors: List[FeatureExtractor],
+                             numBags: Int,
+                             bagSize: Int
+                         )(implicit spark: SparkSession): List[(List[Double], String)] = {
+    // additional preprocessing of attributes (e.g., data type inference, tokenization of column names, etc.)
+    logger.info(s"***Extracting test features with spark from ${attributes.size} instances...")
+
+    // broadcasting big data structures
+    val featExtractBroadcast = spark.sparkContext.broadcast(featureExtractors)
+    val attrBroadcast = spark.sparkContext.broadcast(attributes)
+
+    val featuresOfAllInstances = Try {
+      spark.sparkContext.parallelize(attributes.indices).flatMap {
+        idx => //first extract features from headers, do bagging and only then extract the rest of the features!!!
+
+          val rawAtttr = attrBroadcast.value(idx)
+          val groupFeatures: Map[String, List[Double]] = featExtractBroadcast.value.flatMap {
+            case gfe: GroupFeatureExtractor =>
+              List((gfe.getGroupName(), gfe.computeSimpleFeatures(getSimpleAttribute(rawAtttr))))
+            case _ => None
+          }.toMap
+
+          val sampledAttributes: List[SimpleAttribute] = ClassImbalanceResampler.testBaggingAttribute(
+            rawAtttr,
+            numBags = numBags, bagSize = bagSize
+          ).map(getSimpleAttribute)
+
+          sampledAttributes.map {
+            attr =>
+              val instanceFeatures = featExtractBroadcast.value.flatMap {
+                case fe: SingleFeatureExtractor => List(fe.computeSimpleFeature(attr))
+                case gfe: GroupFeatureExtractor => groupFeatures.getOrElse(gfe.getGroupName(), List())
+              }
+              // we add id of the attribute to keep track to whom the extracted features belong
+              (idx.toDouble +: instanceFeatures).toArray
+          }
+      }.collect.map {
+            // we need to convert explicitly to get List[Double] for features and id of the attribute
+            row => (row.takeRight(row.length - 1).toList, attributes(row.head.toInt).id)
+          }.toList
+
+    } match {
+      case Success(testFeatures) =>
+        testFeatures
+      case Failure(err) =>
+        logger.error(s"Failure in extracting test features with spark: $err")
+        spark.stop()
+        throw new Exception(s"Failure in extracting test features with spark: $err")
+    }
+
+    // destroy broadcast variables explicitly
+    featExtractBroadcast.destroy()
+    attrBroadcast.destroy()
+
+    logger.info("***Finished extracting test features with spark.")
+    featuresOfAllInstances
+  }
+
+  /**
+    * Extract features for training using spark.
+    * Here we try to push bagging and feature extraction to workers.
+    * @param attributes List of attributes.
+    * @param labels Semantic type labels.
+    * @param featureExtractors List of feature extractors.
+    * @param spark Implicit spark session.
+    * @return
+    */
+  def extractBaggingFeatures(attributes: List[Attribute],
+                             labels: SemanticTypeLabels,
+                             featureExtractors: List[FeatureExtractor],
+                             numBags: Int,
+                             bagSize: Int
+                            )(implicit spark: SparkSession):List[(List[Double], String)] = {
+    logger.info(s"Extracting train features by bagging with spark from ${attributes.size} instances...")
+    Try {
+      // map from attribute to label
+      val attrLabelMap: Map[String, String] = attributes.map {
+        attr => (attr.id, labels.findLabel(attr.id))
+      }.toMap
+      // list of all available labels
+      val labelList: List[String] = attrLabelMap.values.toList
+
+      // broadcasting attributes since they are too big
+      val attrBroadcast = spark.sparkContext.broadcast(attributes)
+      val featExtractBroadcast = spark.sparkContext.broadcast(featureExtractors)
+
+      val answer = spark.sparkContext.parallelize(attributes.indices)
+        .flatMap {
+          idx =>    //first extract features from headers, do bagging and only then extract the rest of the features!!!
+            val rawAtttr = attrBroadcast.value(idx)
+            val groupFeatures: Map[String, List[Double]] = featExtractBroadcast.value.flatMap {
+              case gfe: GroupFeatureExtractor =>
+                List((gfe.getGroupName(), gfe.computeSimpleFeatures(getSimpleAttribute(rawAtttr))))
+              case _ => None
+            }.toMap
+
+            // first do bagging and then extract features!
+            ClassImbalanceResampler.testBaggingAttribute(
+              rawAtttr,
+              numBags = numBags, bagSize = bagSize
+            ).map(getSimpleAttribute).map {
+              attr =>
+                val instanceFeatures = featExtractBroadcast.value.flatMap {
+                  case fe: SingleFeatureExtractor => List(fe.computeSimpleFeature(attr))
+                  case gfe: GroupFeatureExtractor => groupFeatures.getOrElse(gfe.getGroupName(), List())
+                }
+                // we add id of the label to keep track of the class
+                (labelList.indexOf(attrLabelMap(attr.attributeName)).toDouble +: instanceFeatures).toArray
+            }
+        }.collect.map {
+        row => (row.takeRight(row.length - 1).toList, labelList(row.head.toInt))
+      }.toList
+      // destroy broadcast variables explicitly
+      featExtractBroadcast.destroy()
+      attrBroadcast.destroy()
+      answer
+    } match {
+      case Success(calculation) =>
+        logger.info("Finished extracting train features with spark.")
+        calculation
+      case Failure(err) =>
+        logger.error(s"Feature extraction failed: ${err.getMessage}")
+        spark.stop()
+        throw new Exception(s"Feature extraction failed: ${err.getMessage}")
+    }
   }
 
 
@@ -204,10 +342,6 @@ object FeatureExtractorUtil extends LazyLogging {
                                 )(implicit spark: SparkSession):List[(List[Double], String)] = {
     logger.info(s"Extracting train features with spark from ${attributes.size} instances...")
     Try {
-//      logger.info(s"Converting to simple attributes")
-//      val newAttrs: List[SimpleAttribute] = getSimpleAttributes(attributes)
-//      logger.info(s"Finished conversion to simple attributes.")
-
       // map from attribute to label
       val attrLabelMap: Map[String, String] = attributes.map {
         attr => (attr.id, labels.findLabel(attr.id))
@@ -215,11 +349,10 @@ object FeatureExtractorUtil extends LazyLogging {
       // list of all available labels
       val labelList: List[String] = attrLabelMap.values.toList
 
-      import spark.implicits._
-      val broadcast = spark.sparkContext.broadcast(featureExtractors)
-
       // broadcasting attributes since they are too big
       val attrBroadcast = spark.sparkContext.broadcast(attributes)
+      val broadcast = spark.sparkContext.broadcast(featureExtractors)
+
       val answer = spark.sparkContext.parallelize(attributes.indices)
         .map {
           idx =>
@@ -230,7 +363,7 @@ object FeatureExtractorUtil extends LazyLogging {
             }
             (labelList.indexOf(attrLabelMap(attr.attributeName)).toDouble +: instanceFeatures).toArray
         }.collect.map {
-        row => (row.takeRight(row.length - 1).toList, labelList(row(0).toInt))
+        row => (row.takeRight(row.length - 1).toList, labelList(row.head.toInt))
       }.toList
       // destroy broadcast variables explicitly
       broadcast.destroy()
@@ -245,27 +378,6 @@ object FeatureExtractorUtil extends LazyLogging {
         spark.stop()
         throw new Exception(s"Feature extraction failed: ${err.getMessage}")
     }
-
-    //      newAttrs.toDS.cache()
-    //        .map {
-    //          attr =>
-    //            val instanceFeatures = broadcast.value.flatMap {
-    //              case fe: SingleFeatureExtractor => List(fe.computeSimpleFeature(attr))
-    //              case gfe: GroupFeatureExtractor => gfe.computeSimpleFeatures(attr)
-    //            }
-    //            (labelList.indexOf(attrLabelMap(attr.attributeName)).toDouble +: instanceFeatures).toArray
-    //        }.collect.map {
-    //        row => (row.takeRight(row.length - 1).toList, labelList(row(0).toInt))
-    //      }.toList
-    //    } match {
-    //      case Success(calculation) =>
-    //        logger.info("Finished extracting train features with spark.")
-    //        calculation
-    //      case Failure(err) =>
-    //        logger.error(s"Feature extraction failed: ${err.getMessage}")
-    //        spark.stop()
-    //        throw new Exception(s"Feature extraction failed: ${err.getMessage}")
-    //    }
   }
 
   def generateFeatureExtractors(classes: List[String],

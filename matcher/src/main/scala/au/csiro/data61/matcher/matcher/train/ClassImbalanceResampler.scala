@@ -272,7 +272,7 @@ object ClassImbalanceResampler extends LazyLogging {
                     bagSize: Int = DefaultBagging.BagSize,
                     numBags: Int = DefaultBagging.NumBags
                    ): List[Attribute] = {
-        logger.info("***Performing bagging...")
+        logger.debug("***Performing bagging...")
         attributes
           .flatMap {
               attr => if (attr.values.size < bagSize) {
@@ -287,6 +287,35 @@ object ClassImbalanceResampler extends LazyLogging {
                   bagSampleAttribute(newAttr, bagSize, numBags)
               }
           }
+    }
+
+    /**
+      * Method to sample one attribute by using bagging.
+      * Here, we tackle two problems: class imbalance and insufficient data.
+      * A bag is a collection of rows randomly picked from a column.
+      * This is used for prediction!
+      * @param attr Original column.
+      * @param bagSize Number of rows to be randomly picked from the column into a bag, default 100.
+      * @param numBags Number of bags to be generated per column to tackle the issue of insufficient data,
+      *                   default 100.
+      * @return Sampled feature vectors to be used for prediction.
+      */
+    def testBaggingAttribute(attr: Attribute,
+                    bagSize: Int = DefaultBagging.BagSize,
+                    numBags: Int = DefaultBagging.NumBags
+                   ): List[Attribute] = {
+//        logger.debug("***Performing bagging...")
+        if (attr.values.size > bagSize) {
+            bagSampleAttribute(attr, bagSize, numBags)
+        } else {
+            // we then will do sampling with replacement
+            logger.debug("Row size is not sufficient for indicated bagSize. " +
+              "Sampling with replacement will be used.")
+            val replValues = (1 to 1 + bagSize / attr.values.size)
+              .foldLeft(attr.values){(cur,v) => cur ::: attr.values}
+            val newAttr = new Attribute(attr.id, attr.metadata, replValues, attr.parent)
+            bagSampleAttribute(newAttr, bagSize, numBags)
+        }
     }
 
     /**

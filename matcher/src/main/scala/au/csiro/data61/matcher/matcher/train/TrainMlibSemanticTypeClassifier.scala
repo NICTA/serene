@@ -261,8 +261,8 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     sparkSession
   }
 
+
   /**
-    * Extract all features for training and get feature names.
     * Depending on parallelFeatureExtraction, it's done using spark or without.
     * @param preprocessedAttributes list of resampled attributes
     * @param labels semantic labels
@@ -276,22 +276,15 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
                            featureExtractors: List[FeatureExtractor],
                            parallelFeatureExtraction: Boolean
                           )(implicit spark: SparkSession)
-  :(List[(List[Double], String)], List[String]) = {
+  :List[(List[Double], String)] = {
 
-    //get feature names
-    val featureNames: List[String] = featureExtractors.flatMap {
-      case x: SingleFeatureExtractor => List(x.getFeatureName())
-      case x: GroupFeatureExtractor => x.getFeatureNames()
-    }
-
-    val features = if(parallelFeatureExtraction) {
+    if(parallelFeatureExtraction) {
       FeatureExtractorUtil
         .extractSimpleTrainFeatures(preprocessedAttributes, labels, featureExtractors)
     } else {
       // old style feature extraction...
       FeatureExtractorUtil.extractFeatures(preprocessedAttributes, labels, featureExtractors)
     }
-    (features,featureNames)
   }
 
   /**
@@ -303,18 +296,56 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     * @return
     */
   protected def resampleModelAttributes(allAttributes: List[Attribute],
-                              labels: SemanticTypeLabels,
-                              trainingSettings: TrainingSettings)(implicit spark: SparkSession)
+                                        labels: SemanticTypeLabels,
+                                        trainingSettings: TrainingSettings)(implicit spark: SparkSession)
   : List[Attribute] ={
     //resampling
-    val numBags = trainingSettings.numBags.getOrElse(50)
-    val bagSize = trainingSettings.bagSize.getOrElse(100)
+    val numBags = trainingSettings.numBags.getOrElse(DefaultBagging.NumBags)
+    val bagSize = trainingSettings.bagSize.getOrElse(DefaultBagging.BagSize)
     // here seeds are fixed so output will be the same on the same input
     // NOTE: results might be different for a set of datasets, because the order in which they are concatenated matters
     val resampledAttrs = ClassImbalanceResampler
       .resample(trainingSettings.resamplingStrategy, allAttributes, labels, bagSize, numBags)
     logger.info(s"   resampled ${resampledAttrs.size} attributes")
     resampledAttrs
+  }
+
+  /**
+    * Extract all features for training and get feature names.
+    * In case of bagging we do something special!
+    * @param allAttributes
+    * @param labels
+    * @param featureExtractors
+    * @param trainingSettings
+    * @param parallelFeatureExtraction
+    * @param spark
+    * @return
+    */
+  protected def sampleExtractFeatures(allAttributes: List[Attribute],
+                                      labels: SemanticTypeLabels,
+                                      featureExtractors: List[FeatureExtractor],
+                                      trainingSettings: TrainingSettings,
+                                      parallelFeatureExtraction: Boolean = true)(implicit spark: SparkSession):
+  (List[(List[Double], String)], List[String])  = {
+
+    val features: List[(List[Double], String)] = trainingSettings.resamplingStrategy match {
+      case "Bagging" =>
+        val numBags = trainingSettings.numBags.getOrElse(DefaultBagging.NumBags)
+        val bagSize = trainingSettings.bagSize.getOrElse(DefaultBagging.BagSize)
+        FeatureExtractorUtil.extractBaggingFeatures(allAttributes, labels,
+          featureExtractors, numBags, bagSize)
+      case _ =>
+        val resampledAttrs = resampleModelAttributes(allAttributes, labels, trainingSettings)
+        extractModelFeatures(resampledAttrs, labels, featureExtractors, parallelFeatureExtraction)
+    }
+
+    //get feature names
+    val featureNames: List[String] = featureExtractors.flatMap {
+      case x: SingleFeatureExtractor => List(x.getFeatureName())
+      case x: GroupFeatureExtractor => x.getFeatureNames()
+    }
+
+    (features, featureNames)
   }
 
   override def train(trainingData: DataModel,
@@ -336,10 +367,8 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
     val featureExtractors = FeatureExtractorUtil
       .generateSimpleFeatureExtractors(classes, allAttributes, trainingSettings, labels)
 
-    val resampledAttrs = resampleModelAttributes(allAttributes, labels, trainingSettings)
-
     val (features: List[(List[Double], String)], featureNames: List[String]) =
-      extractModelFeatures(resampledAttrs, labels, featureExtractors, parallelFeatureExtraction)
+      sampleExtractFeatures(allAttributes, labels, featureExtractors, trainingSettings, parallelFeatureExtraction)
 
     //construct schema
     val schema: StructType = StructType(

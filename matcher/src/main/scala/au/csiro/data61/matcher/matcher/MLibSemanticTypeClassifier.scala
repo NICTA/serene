@@ -105,9 +105,13 @@ case class MLibSemanticTypeClassifier(
                          )(implicit spark: SparkSession): (List[List[Double]], List[String]) = {
     baggingParams match {
       case Some(BaggingParams(numBags,bagSize)) =>
-        val newAttrs = ClassImbalanceResampler.testBagging(allAttributes, bagSize, numBags)
-        (FeatureExtractorUtil
-          .extractTestFeatures(newAttrs, featureExtractors), newAttrs.map(_.id))
+        val featureAttributes: List[(List[Double], String)] = FeatureExtractorUtil
+          .extractBaggingFeatures(allAttributes, featureExtractors,
+            numBags = numBags, bagSize = bagSize)
+        (featureAttributes.map(_._1), featureAttributes.map(_._2))
+//        val newAttrs = ClassImbalanceResampler.testBagging(allAttributes, bagSize, numBags)
+//        (FeatureExtractorUtil
+//          .extractTestFeatures(newAttrs, featureExtractors), newAttrs.map(_.id))
       case _ => (FeatureExtractorUtil
         .extractFeatures(allAttributes, featureExtractors), allAttributes.map(_.id))
     }
@@ -145,17 +149,22 @@ case class MLibSemanticTypeClassifier(
 
     spark.stop()
 
-    val allPredictions: Predictions = attributeIds zip predsReordered // this was returned previously by this function
 
-    def average(x: Seq[(String,Scores)]): Scores = {
-      val emptyScores: Scores = Array.fill(classes.size)(0.0)
-      if (x.nonEmpty) {
-      x.foldLeft(emptyScores)((s,n) => (s, n._2).zipped.map(_ + _)).map(_ / x.length)
-      } else { emptyScores }
+    val predictions: Predictions = baggingParams match {
+      case Some(_) =>
+        val allPredictions: Predictions = attributeIds zip predsReordered // this was returned previously by this function
+
+        def average(x: Seq[(String,Scores)]): Scores = {
+          val emptyScores: Scores = Array.fill(classes.size)(0.0)
+          if (x.nonEmpty) {
+            x.foldLeft(emptyScores)((s,n) => (s, n._2).zipped.map(_ + _)).map(_ / x.length)
+          } else { emptyScores }
+        }
+        // group predictions
+        allPredictions.groupBy(_._1).mapValues(average).toList
+      case _ =>
+        attributeIds zip predsReordered
     }
-
-    // group predictions
-    val predictions: Predictions = allPredictions.groupBy(_._1).mapValues(average).toList
 
     (predictions, features, featureNames)
   }
@@ -185,6 +194,9 @@ case class MLibSemanticTypeClassifier(
     }.toList
 
     // we want to return an array of (Attribute, predictedClassScores, derivedFeatures)
+    // TODO: for bagging strategy features will be in the wrong order.
+    // actually, they will not make much sense in any case since features
+    // were calculated for bags and not original columns!
     val predictionsFeatures: PredictionObject = predictions
       .zip(features)
       .map{ case ((a, sc), f) => (a, sc, f)}
