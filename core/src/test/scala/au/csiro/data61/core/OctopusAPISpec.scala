@@ -843,6 +843,41 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   })
 
+  test("POST /v1.0/octopus/:id/alignment returns alignment for a trained octopus")(new TestServer {
+    try {
+      val PollTime = 2000
+      val PollIterations = 20
+
+      val octopus = trainOctopus()
+
+      val trained = pollOctopusState(octopus, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 30 seconds)
+      assert(state === Training.Status.COMPLETE)
+
+      // get the model state
+      assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
+      val model = ModelStorage.get(octopus.lobsterID).get
+      assert(model.state.status === Training.Status.COMPLETE)
+
+      // get alignment
+      val response = get(s"/$APIVersion/octopus/${octopus.id}/alignment")
+      val json: JValue = parse(response.contentString)
+      println(json)
+      println(json \ "nodes")
+      println(json \ "links")
+      val jList = json.extract[String]
+      println(jList)
+      assert(response.contentType === Some(JsonHeader))
+      assert(response.status === Status.Ok)
+      assert(response.contentString.nonEmpty)
+
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
   test("POST /v1.0/octopus/:id/train does not execute training for a trained model")(new TestServer {
     try {
       val PollTime = 2000

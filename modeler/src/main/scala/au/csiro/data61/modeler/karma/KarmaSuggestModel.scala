@@ -325,7 +325,9 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
                         , rank: Int
                         , alignmentGraph: Alignment
                        ) : (Ssd, SemanticScores) = {
-    sortableKarmaSM.writeJson(Paths.get(ModelerConfig.KarmaDir, s"karma_sortableSM_$rank.json").toString) // debugging
+    // debugging...
+//    sortableKarmaSM.writeJson(Paths.get(ModelerConfig.KarmaDir, s"karma_sortableSM_$rank.json").toString)
+
     // to construct the new SemanticSourceDesc, we update the existing one by using Karma response
     // first we need to get a proper KarmaSSD based on the returned SortableSemanticModel
     val semanticTypes: util.List[SemanticType] = new util.LinkedList[SemanticType]
@@ -516,7 +518,7 @@ case class KarmaSuggestModel(karmaWrapper: KarmaParams) extends LazyLogging {
     alignNodeMappings.putAll(internalMap)
     alignNodeMappings.putAll(colMap)
     // debugging
-    alignNodeMappings.asScala.foreach { m => logger.debug(s"----alignNodeMapping: ${m._1.getId} -> ${m._2.getId} ") }
+//    alignNodeMappings.asScala.foreach { m => logger.debug(s"----alignNodeMapping: ${m._1.getId} -> ${m._2.getId} ") }
 
     alignNodeMappings
   }

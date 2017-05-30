@@ -41,7 +41,7 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
     * needed for alignment construction in Karma
     */
   protected var modelLearningGraph = ModelLearningGraph
-    .getInstance(karmaWrapper.karmaWorkspace.getOntologyManager, ModelLearningGraphType.Compact)
+    .getEmptyInstance(karmaWrapper.karmaWorkspace.getOntologyManager, ModelLearningGraphType.Compact)
 
   /**
     * stores the alignment graph as constructed by Karma
@@ -58,7 +58,8 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
     */
   def karmaInitialize(): Unit = {
     //karmaWrapper = KarmaParams()
-    // we are basically re-reading the file graph.json if it exists
+    // we are re-reading the file graph.json if it exists when we use ModelLearningGraph.getInstance()
+    // getEmptyInstance should reset it
     modelLearningGraph = ModelLearningGraph
       .getInstance(karmaWrapper.karmaWorkspace.getOntologyManager, ModelLearningGraphType.Compact)
     logger.debug(s"modelLearningGraph: ${modelLearningGraph.getGraphBuilder.getGraph.vertexSet.size} nodes, " +
@@ -96,18 +97,17 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
 
   /**
     * This method constructs the initial alignment graph based on preloaded onotologies + known SSDs in SSDStorage.
- *
     * @param knownSsds List of known semantic source descriptions
     * @return alignment
     */
   def constructInitialAlignment(knownSsds: List[Ssd]) : Alignment = {
 
-    logger.info("Constructing initial alignment graph...")
+    logger.info("Constructing the alignment graph...")
+    karmaInitialize()
 
     // if karmaModelingConfiguration.getKnownModelsAlignment is set to true,
     // inside the Karma constructor method alignment graph will be constructed based on preloaded ontologies
-    // plus known semantic models in folder with Karma JSON models
-    val alignmentGraph = new Alignment(karmaWrapper.karmaWorkspace.getOntologyManager)
+    // plus known semantic models in folder with Karma JSON model
 
     // we need to add our ssd models from SSDStorage
     if(karmaWrapper.karmaModelingConfiguration.getKnownModelsAlignment) {
@@ -123,7 +123,7 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
       knownSsds
         .flatMap { sm =>
           logger.debug(s" converting ssd (${sm.id}, ${sm.name}) to karma model")
-          sm.toKarmaSemanticModel(alignmentGraph.getGraphBuilder.getOntologyManager)
+          sm.toKarmaSemanticModel(alignment.getGraphBuilder.getOntologyManager)
         }
         .foreach {
           karmaModel =>
@@ -135,23 +135,22 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
               )
             if (temp != null) {addedNodes.addAll(temp)}
             logger.debug(s" karma model added")
-      }
+        }
       exportAlignmentGraph()
       // ontology inference
       addOntologyPaths(addedNodes)
 
       exportAlignmentGraph()
-      alignmentGraph.setGraph(modelLearningGraph.getGraphBuilderClone.getGraph)
+      alignment.setGraph(modelLearningGraph.getGraphBuilderClone.getGraph)
     }
 
 
-    alignmentGraph
+    alignment
   }
 
   /**
     * Add a new semantic source description to the alignment graph.
     * If the SSD is incomplete, a Modeler Exception will be raised.
- *
     * @param ssd New Semantic Source Description to be added to the alignment graph.
     * @return Alignment
     */

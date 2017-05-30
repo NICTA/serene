@@ -152,8 +152,8 @@ object SsdTypes {
   * SSD needs also to be split apart to initialize data structures for the Karma tool.
   * NOTE: for now we will automatically generate attributes as identical to columns
   *
-  * @param id ID of the dataset
-  * @param name Name of the dataset
+  * @param id ID of the ssd
+  * @param name Name of the ssd
   * @param attributes List of attributes = transformed columns
   * @param ontologies List of ids of ontologies which are stored in OwlStorage
   * @param semanticModel Semantic Model of the data source; optional

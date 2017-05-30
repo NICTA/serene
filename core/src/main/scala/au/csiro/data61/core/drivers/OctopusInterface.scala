@@ -37,6 +37,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.{ExecutionContext, Future}
 import scala.language.postfixOps
 import scala.util.{Failure, Success, Try}
+import scala.io.Source
 
 /**
   * Interface to the functionality of the Semantic Modeler.
@@ -569,7 +570,6 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     * That's why we need to split those URIs into namespace and semantic type names.
     * The semantic type names will be used as class labels in the Schema Matcher.
     * The namespaces are needed for the Semantic Modeler to properly work with ontologies.
-    *
     * @param ssds List of semantic source descriptions.
     * @return
     */
@@ -687,6 +687,24 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
     lobsterID.map(ModelInterface.delete(_))
 
     octopusID
+  }
+
+  /**
+    * Get alignment graph for the octopus
+    *
+    * @param key Key for the octopus
+    * @return
+    */
+  def getAlignment(key: OctopusID): Option[String] = {
+    // we store the ID of the associated model
+    val alignmentPath: Path = OctopusStorage.getAlignmentGraphPath(key)
+
+    if (!alignmentPath.toFile.exists){
+      None
+    }
+
+    val fileContents = Source.fromFile(alignmentPath.toString).getLines.mkString
+    Some(fileContents)
   }
 
   protected def createModelRequest(request: OctopusRequest,

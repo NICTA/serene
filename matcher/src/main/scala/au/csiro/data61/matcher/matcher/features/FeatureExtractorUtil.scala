@@ -138,7 +138,7 @@ object FeatureExtractorUtil extends LazyLogging {
 
           val rawAtttr = attrBroadcast.value(idx)
           val groupFeatures: Map[String, List[Double]] = featExtractBroadcast.value.flatMap {
-            case gfe: GroupFeatureExtractor =>
+            case gfe: HeaderGroupFeatureExtractor =>
               List((gfe.getGroupName(), gfe.computeSimpleFeatures(getSimpleAttribute(rawAtttr))))
             case _ => None
           }.toMap
@@ -152,7 +152,8 @@ object FeatureExtractorUtil extends LazyLogging {
             attr =>
               val instanceFeatures = featExtractBroadcast.value.flatMap {
                 case fe: SingleFeatureExtractor => List(fe.computeSimpleFeature(attr))
-                case gfe: GroupFeatureExtractor => groupFeatures.getOrElse(gfe.getGroupName(), List())
+                case hgfe: HeaderGroupFeatureExtractor => groupFeatures.getOrElse(hgfe.getGroupName(), List())
+                case gfe: GroupFeatureExtractor => gfe.computeSimpleFeatures(attr)
               }
               // we add id of the attribute to keep track to whom the extracted features belong
               (idx.toDouble +: instanceFeatures).toArray
@@ -212,7 +213,7 @@ object FeatureExtractorUtil extends LazyLogging {
           idx =>    //first extract features from headers, do bagging and only then extract the rest of the features!!!
             val rawAtttr = attrBroadcast.value(idx)
             val groupFeatures: Map[String, List[Double]] = featExtractBroadcast.value.flatMap {
-              case gfe: GroupFeatureExtractor =>
+              case gfe: HeaderGroupFeatureExtractor =>
                 List((gfe.getGroupName(), gfe.computeSimpleFeatures(getSimpleAttribute(rawAtttr))))
               case _ => None
             }.toMap
@@ -225,7 +226,8 @@ object FeatureExtractorUtil extends LazyLogging {
               attr =>
                 val instanceFeatures = featExtractBroadcast.value.flatMap {
                   case fe: SingleFeatureExtractor => List(fe.computeSimpleFeature(attr))
-                  case gfe: GroupFeatureExtractor => groupFeatures.getOrElse(gfe.getGroupName(), List())
+                  case hgfe: HeaderGroupFeatureExtractor => groupFeatures.getOrElse(hgfe.getGroupName(), List())
+                  case gfe: GroupFeatureExtractor => gfe.computeSimpleFeatures(attr)
                 }
                 // we add id of the label to keep track of the class
                 (labelList.indexOf(attrLabelMap(attr.attributeName)).toDouble +: instanceFeatures).toArray
