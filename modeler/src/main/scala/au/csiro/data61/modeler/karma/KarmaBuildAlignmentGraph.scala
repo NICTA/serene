@@ -61,7 +61,7 @@ case class KarmaBuildAlignmentGraph(karmaWrapper: KarmaParams) extends LazyLoggi
     // we are re-reading the file graph.json if it exists when we use ModelLearningGraph.getInstance()
     // getEmptyInstance should reset it
     modelLearningGraph = ModelLearningGraph
-      .getInstance(karmaWrapper.karmaWorkspace.getOntologyManager, ModelLearningGraphType.Compact)
+      .getEmptyInstance(karmaWrapper.karmaWorkspace.getOntologyManager, ModelLearningGraphType.Compact)
     logger.debug(s"modelLearningGraph: ${modelLearningGraph.getGraphBuilder.getGraph.vertexSet.size} nodes, " +
       s"${modelLearningGraph.getGraphBuilder.getGraph.edgeSet.size} links.")
     alignment = new Alignment(karmaWrapper.karmaWorkspace.getOntologyManager)

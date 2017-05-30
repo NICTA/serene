@@ -222,16 +222,14 @@ case class KarmaParams(alignmentDir: String
   def deleteKarma(): Unit = {
     logger.debug("Deleting karma home directory")
     removeAll(Paths.get(ModelerConfig.KarmaDir))
-    // destro
+
+    // destroy all info cached at Karma side
     WorkspaceKarmaHomeRegistry.getInstance.deregister(karmaWorkspace.getId)
     WorkspaceRegistry.getInstance.deregister(karmaWorkspace.getId)
     WorkspaceManager.getInstance.removeWorkspace(karmaWorkspace.getId)
     ContextParametersRegistry.getInstance.deregister(karmaContextParameters.getId)
     ModelingConfigurationRegistry.getInstance.deregister(karmaContextParameters.getId)
 
-//    karmaWorkspace = null
-//    karmaContextParameters = null
-//    karmaModelingConfiguration = null
   }
 
   /**
