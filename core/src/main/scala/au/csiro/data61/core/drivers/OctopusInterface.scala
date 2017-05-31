@@ -500,6 +500,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
         emptySsd <- generateEmptySsd(octopus, dataset)
 
         // we do semantic typing for only one dataset
+        // TODO: throw error if prediction with schema matcher fails
         dsPredictions = Try {
           ModelInterface.predictModel(octopus.lobsterID, dataset.id)
         } toOption
