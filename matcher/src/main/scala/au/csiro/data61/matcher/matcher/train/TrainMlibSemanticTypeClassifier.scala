@@ -191,11 +191,11 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
       val dataRdd = spark.sparkContext.makeRDD(data, numSlices = 1)
       val dataDf = spark.createDataFrame(dataRdd, schema)
 //       for debugging puposes - verify that features are the same
-      println("***********")
-      dataDf.show(10)
-      dataDf.write.csv(s"/tmp/test/model${System.nanoTime()}.csv")
-      logger.info(s"Constructed schema of the dataframe: ${dataDf.schema}")
-      println("***********")
+//      println("***********")
+//      dataDf.show(10)
+//      dataDf.write.csv(s"/tmp/test/model${System.nanoTime()}.csv")
+//      logger.info(s"Constructed schema of the dataframe: ${dataDf.schema}")
+//      println("***********")
 
       //train random forest
       logger.info("***Training random forest")
