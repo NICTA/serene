@@ -389,7 +389,7 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
     }
   })
 
-  test("POST /v1.0/dataset for s01 museum dataset with utf8 encoding responds Ok(200)") (new TestServer {
+  test("POST /v1.0/dataset for a malformed s01 museum dataset with utf8 encoding fails") (new TestServer {
     try {
       val TypeMap = """{"a":"b", "c":"d"}"""
       val content = Await.result(Reader.readAll(Reader.fromFile(new File(ResourceS01))))
@@ -406,16 +406,8 @@ class DatasetRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEa
       val response = Await.result(client(request))
 
       assert(response.contentType === Some(JsonHeader))
-      assert(response.status === Status.Ok)
+      assert(response.status === Status.InternalServerError)
       assert(!response.contentString.isEmpty)
-
-      val ds = parse(response.contentString).extract[DataSet]
-
-      assert(ds.description === testStr)
-      assert(ds.filename === fileName)
-      assert(ds.dateCreated === ds.dateModified)
-      assert(ds.typeMap.get("a") === Some("b"))
-      assert(ds.typeMap.get("c") === Some("d"))
 
     } finally {
       deleteAllDatasets

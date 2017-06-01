@@ -501,9 +501,12 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
         // we do semantic typing for only one dataset
         // TODO: throw error if prediction with schema matcher fails
-        dsPredictions = Try {
-          ModelInterface.predictModel(octopus.lobsterID, dataset.id)
-        } toOption
+//        dsPredictions = Try {
+//          ModelInterface.predictModel(octopus.lobsterID, dataset.id)
+//        } toOption
+
+        dsPredictions = ModelInterface.predictModel(octopus.lobsterID, dataset.id)
+
 
         // this map is needed to map ColumnIDs from dsPredictions to attributes
         // we make the mappings identical
@@ -517,7 +520,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
             .flatMap(OwlStorage.getOwlDocumentPath)
             .map(_.toString),
           emptySsd,
-          dsPredictions,
+          Some(dsPredictions),
           attrToColMap,
           getNumSemanticTypes(octopus.modelingProps)
         )

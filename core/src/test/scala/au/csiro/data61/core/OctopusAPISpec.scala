@@ -19,6 +19,7 @@ package au.csiro.data61.core
 
 import java.io.FileInputStream
 import java.nio.file.Paths
+import java.io.File
 
 import au.csiro.data61.core.api._
 import au.csiro.data61.core.drivers.Generic._
@@ -1114,6 +1115,41 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
       val scores = ssdPred.predictions.head.score
       assert(scores.linkCost === 5)
+
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  // TODO: test for a malformed csv dataset
+  test("POST /v1.0/octopus/:id/predict/:id fails for a malformed dataset")(new TestServer {
+    try {
+      val PollTime = 3000
+      val PollIterations = 20
+      val dummyID = 1000
+
+      // create a default octopus and train it
+      val octopus = trainOctopus()
+
+      val trained = pollOctopusState(octopus, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, PollIterations * PollTime * 2 seconds)
+      assert(state === Training.Status.COMPLETE)
+
+      val document = new File(getClass.getResource("/malformed.csv").toURI)
+      val ds = createDataset(document) match {
+        case Success(d) => d
+        case Failure(err) =>
+          fail(err.getMessage)
+      }
+      val request = postRequest(json = JObject(),
+        url = s"/$APIVersion/octopus/${octopus.id}/predict/${ds.id}")
+
+      val response = Await.result(client(request))
+
+      println(response.contentString)
+      assert(response.status === Status.InternalServerError)
 
 
     } finally {
