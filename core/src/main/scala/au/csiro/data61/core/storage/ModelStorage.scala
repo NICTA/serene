@@ -153,7 +153,7 @@ object ModelStorage extends Storage[ModelID, Model] {
         }
       }.toList
 
-    logger.debug(body.mkString("\n"))
+//    logger.debug(body.mkString("\n"))
 
     header :: body
   }

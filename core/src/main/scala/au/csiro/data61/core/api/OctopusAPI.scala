@@ -237,6 +237,24 @@ object OctopusAPI extends RestAPI {
   }
 
   /**
+    * Return the alignment graph for the octopus at position id.
+    */
+  val octopusAlignment: Endpoint[String] = get(APIVersion :: "octopus" :: int :: "alignment") {
+    (id: Int) =>
+      Try { OctopusInterface.getAlignment(id)} match {
+        case Success(Some(align: String)) =>
+          logger.debug(s"Obtained alignment graph for octopus $id")
+          Ok(align)
+        case Success(None) =>
+          logger.error(s"Could not find octopus $id")
+          NotFound(NotFoundException(s"Octopus $id could not be found"))
+        case Failure(err) =>
+          logger.error(s"Some other problem with obtaining alignment for the octopus $id: ${err.getMessage}")
+          InternalServerError(InternalException(s"Failed to get alignment for the octopus."))
+      }
+  }
+
+  /**
     * Helper function to parse a string into a OctopusRequest object...
     *
     * @param str The json string with the octopus request information
@@ -297,7 +315,8 @@ object OctopusAPI extends RestAPI {
       octopusTrain :+:
       octopusPatch :+:
       octopusDelete :+:
-      octopusPredict
+      octopusPredict :+:
+      octopusAlignment
 }
 
 

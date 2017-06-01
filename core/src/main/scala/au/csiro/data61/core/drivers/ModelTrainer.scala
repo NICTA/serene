@@ -292,7 +292,6 @@ object ModelTrainer extends LazyLogging with JsonFormats {
 
   /**
     * Creates the SerializableMLibClassifier
- *
     * @param id The ModelID
     * @param dt The trained model object
     * @return

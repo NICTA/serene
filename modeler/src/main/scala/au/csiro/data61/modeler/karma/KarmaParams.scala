@@ -159,12 +159,13 @@ case class KarmaParams(alignmentDir: String
   /**
     * initialize ServletContextParameterMap from karma-util
     */
-  val karmaContextParameters: ServletContextParameterMap = {
+  var karmaContextParameters: ServletContextParameterMap = {
     logger.debug(s"Setting up karma home directory at ${ModelerConfig.KarmaDir}")
     createDirs()
     setupOntoDir()
     // if we do not do the next step, then default modeling props will be used
     copyModelingProps()
+//    val contextParams = ContextParametersRegistry.getInstance.getContextParameters(ModelerConfig.KarmaDir)
     val contextParams = ContextParametersRegistry.getInstance.getContextParameters(ModelerConfig.KarmaDir)
 
     // initialize context parameters according to default values
@@ -178,7 +179,7 @@ case class KarmaParams(alignmentDir: String
   /**
     * initialize ModelingConfiguration in karma-common
     */
-  val karmaModelingConfiguration: ModelingConfiguration = {
+  var karmaModelingConfiguration: ModelingConfiguration = {
     logger.info("Initialize karma modeling configuration")
     ModelingConfigurationRegistry.getInstance
       .getModelingConfiguration(karmaContextParameters.getId)
@@ -188,7 +189,7 @@ case class KarmaParams(alignmentDir: String
     * initialize karmaWorkspace
     * karmaWorkspace.getOntologyManager.getPrefixMap: I've changed Karma code by adding base prefix to the map
     */
-  val karmaWorkspace: Workspace = {
+  var karmaWorkspace: Workspace = {
     val workspace: Workspace = WorkspaceManager.getInstance.createWorkspace(karmaContextParameters.getId)
     WorkspaceRegistry.getInstance.register(new ExecutionController(workspace))
     WorkspaceKarmaHomeRegistry.getInstance.register(workspace.getId, karmaContextParameters.getKarmaHome)
@@ -221,6 +222,14 @@ case class KarmaParams(alignmentDir: String
   def deleteKarma(): Unit = {
     logger.debug("Deleting karma home directory")
     removeAll(Paths.get(ModelerConfig.KarmaDir))
+
+    // destroy all info cached at Karma side
+    WorkspaceKarmaHomeRegistry.getInstance.deregister(karmaWorkspace.getId)
+    WorkspaceRegistry.getInstance.deregister(karmaWorkspace.getId)
+    WorkspaceManager.getInstance.removeWorkspace(karmaWorkspace.getId)
+    ContextParametersRegistry.getInstance.deregister(karmaContextParameters.getId)
+    ModelingConfigurationRegistry.getInstance.deregister(karmaContextParameters.getId)
+
   }
 
   /**

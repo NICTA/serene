@@ -65,6 +65,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
 
   var knownSSDs: List[Ssd] = List()
   var karmaWrapper = KarmaParams(alignmentDir, List(), None)
+  val modelProps = ModelingProperties(addOntologyPaths = true, ontologyAlignment = true, thingNode = true)
 
   def removeAll(path: Path): Unit = {
     def getRecursively(f: Path): Seq[Path] =
@@ -254,13 +255,39 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
     }.toList.sorted
 
     assert(resultLinks.size === 0)
+  }
+
+  test("Change modeling properties should give different alignment graphs") {
+    val ontologies = Paths.get(karmaDir, "museum", "museum-29-edm", "preloaded-ontologies")
+      .toFile.listFiles.map(_.getAbsolutePath).toList
+    val ssd1 = readSSD(Paths.get(ssdDir, "s07-s-13.json.ssd").toString)
+    val ssd2 = readSSD(Paths.get(ssdDir, "s08-s-17-edited.xml.ssd").toString)
+    knownSSDs = List(ssd1, ssd2)
+    karmaWrapper = KarmaParams(alignmentDir, ontologies, None)
+    val karmaTrain1 = KarmaBuildAlignmentGraph(karmaWrapper)
+    // our alignment
+    val alignment1 = karmaTrain1.constructInitialAlignment(knownSSDs)
+
+    assert(alignment1.getGraph.vertexSet.size === 21)
+    assert(alignment1.getGraph.edgeSet.size === 20)
+
+    // cleaning everything
+    karmaWrapper.deleteKarma()
+    // we need to clean the alignmentDir
+    removeAll(Paths.get(alignmentDir))
+    karmaWrapper = KarmaParams(alignmentDir, ontologies, ModelerConfig.makeModelingProps(modelProps))
+    val karmaTrain2 = KarmaBuildAlignmentGraph(karmaWrapper)
+    // our alignment
+    var alignment2 = karmaTrain2.constructInitialAlignment(knownSSDs)
+
+    assert(alignment2.getGraph.vertexSet.size === 138)
+    assert(alignment2.getGraph.edgeSet.size === 5549)
 
   }
 
   test("Aligning tricky museum ssds"){
     val ontologies = Paths.get(karmaDir, "museum", "museum-29-edm", "preloaded-ontologies")
       .toFile.listFiles.map(_.getAbsolutePath).toList
-    println(s"ontologies: $ontologies")
 
     // cleaning everything
     karmaWrapper.deleteKarma()

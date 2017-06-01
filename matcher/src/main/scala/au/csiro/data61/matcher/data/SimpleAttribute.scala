@@ -39,7 +39,7 @@ case class SimpleAttribute(attributeName: String,
   lazy val inferredMap: Map[String, Boolean] = getInferredDataMap()
 
   /**
-    *
+    * Tokenize attribute name
     * @return
     */
   protected def getTokens(): List[String] = {
@@ -54,7 +54,7 @@ case class SimpleAttribute(attributeName: String,
   }
 
   /**
-    *
+    * Calculate normalized character distribution
     * @return
     */
   protected def getCharDist(): Map[Char, Double] = {
@@ -95,13 +95,11 @@ case class SimpleAttribute(attributeName: String,
   }
 
   /**
-    *
+    * Calculate map of inferred data types
     * @return
     */
   protected def getInferredDataMap(): Map[String, Boolean] = {
     val maxSample = 100
-    val intRegex = """^[+-]?[0-9]+""".r
-    val floatRegex = """^[+-]?[0-9]*\.[0-9]+""".r
 
     val samples = new Random(18371623)
       .shuffle(values.toList.filter(_.nonEmpty))
@@ -113,8 +111,7 @@ case class SimpleAttribute(attributeName: String,
           counts.getOrElse(dtype, 0) + 1)))
       typeCount.toList.maxBy(_._2)._1
     } else {
-      //default to string
-      "String"
+      "String" //default to string
     }
 
     val keys = List(

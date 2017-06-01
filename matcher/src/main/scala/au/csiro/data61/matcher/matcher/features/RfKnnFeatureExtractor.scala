@@ -40,11 +40,11 @@ object RfKnnFeatureExtractor {
     def getGroupName(): String = "prop-instances-per-class-in-knearestneighbours"
 }
 case class RfKnnFeatureExtractor(classList: List[String], pool: List[RfKnnFeature], k: Int)
-  extends GroupFeatureLimExtractor {
+  extends HeaderGroupFeatureExtractor {
   val nameRegex = "([^@]+)@(.+)".r
 
   override def getGroupName(): String =
-    RfKnnFeatureExtractor.getGroupName
+    RfKnnFeatureExtractor.getGroupName()
 
   override def getFeatureNames(): List[String] =
     classList.map { className => s"prop-$className" }
@@ -52,19 +52,6 @@ case class RfKnnFeatureExtractor(classList: List[String], pool: List[RfKnnFeatur
     val distMetric = (StringDistanceScaledByTotalLength())(
       OntoSimDistanceMetrics.computeDistance("NeedlemanWunschDistance"))
     val distMatrix = Map[String, Map[String, Double]]()
-
-  override def computeFeaturesLim(attribute: LimPreprocessedAttribute): List[Double] = {
-    attribute.metaName.map {
-      metadata =>
-        val neighbourLabels = findNearestNeighbourLabels(attribute.attributeName, metadata, k)
-        classList.map {
-          className =>
-            neighbourLabels.count(_ == className).toDouble / neighbourLabels.size
-        }
-    }.getOrElse {
-      classList.map(_ => -1.0) //default to -1 if attribute does not have a name
-    }
-  }
 
   override def computeSimpleFeatures(attribute: SimpleAttribute): List[Double] = {
     attribute.metaName.map {

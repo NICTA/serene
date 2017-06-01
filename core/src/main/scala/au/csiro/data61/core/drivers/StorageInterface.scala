@@ -123,6 +123,7 @@ trait StorageInterface[K <: KeyType, SereneResource <: Identifiable[K#Key]] exte
   def storageKeys: List[Key] = storage.keys
 
   def add(resource : SereneResource): Option[Key] = {
+    logger.info(s"Checking references...")
     val refs = missingReferences(resource)
     if (refs.isEmpty) {
       storage.add(resource.id, resource)

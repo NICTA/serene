@@ -5,7 +5,7 @@ import au.csiro.data61.matcher.data._
 object TrainAliases {
     type DMAttribute = Attribute
     type Scores = Array[Double]
-    type Predictions = Seq[(Attribute, Scores)]
+    type Predictions = Seq[(String, Scores)]
     type Features = List[Any]
-    type PredictionObject = Seq[(Attribute, Scores, Features)]
+    type PredictionObject = Seq[(String, Scores, Features)]
 }

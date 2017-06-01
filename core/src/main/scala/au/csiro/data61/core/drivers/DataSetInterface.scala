@@ -32,7 +32,7 @@ import org.apache.commons.csv.CSVFormat
 import org.joda.time.DateTime
 import scala.collection.JavaConverters._
 import language.implicitConversions
-import scala.util.Try
+import scala.util.{Try, Success, Failure}
 
 object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyLogging {
 
@@ -122,8 +122,15 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
     } yield ds
 
     dataSet getOrElse {
-      throw InternalException(s"Failed to create resource $id")
+        throw InternalException(s"Failed to create resource $id")
     }
+//    dataSet match {
+//      case Success(ds) =>
+//        ds
+//      case Failure(err) =>
+//        logger.error(s"Failed to create resource $id due to ${err.getMessage}")
+//        throw InternalException(s"Failed to create resource $id")
+//    }
   }
 
   /**
@@ -186,6 +193,17 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
     }
   }
 
+
+  /**
+    * Transpose list which is not necessarily of the same size
+    * @param xs list of objects of type A
+    * @return
+    */
+  protected def csvTranspose(xs: List[List[String]]): List[List[String]] = xs.filter(_.nonEmpty) match {
+    case Nil    =>  Nil
+    case ys: List[List[String]] => ys.map{ _.head }::csvTranspose(ys.map{ _.tail })
+  }
+
   /**
     * Helper function to read the csv file.
     *
@@ -202,15 +220,18 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
     // first load a CSV object...
     val csv = CSVFormat.RFC4180.parse(new FileReader(filePath.toFile))
 
+    logger.debug("Pulling columns into a row list...")
     // pull into a row List of List[String]
     csv
       .iterator
       .asScala
       .take(sampleBound)
-      .map { row => (0 until row.size()).map(row.get) }
+      .map { row => (0 until row.size()).map(row.get).toList }
       .filter { line => !line.forall(_.length == 0)} // we filter out rows which contain empty vals
       .toList
       .transpose
+
+//    csvTranspose(csv1)
   }
 
   /**
@@ -229,9 +250,18 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
                            n: Int = DefaultSampleSize,
                            headerLines: Int = 1,
                            seed: Int = DefaultSeed): List[Column[Any]] = {
+    logger.debug("Getting random sample of columns from dataset...")
     // note that we only take a sample from the first 4n samples. Otherwise
     // we need to pull the whole file into memory to get say 10 samples...
-    val columns = readColumns(filePath)
+    val columns = Try { readColumns(filePath)} match {
+      case Success(cols) =>
+        logger.debug("...columns read from file...")
+        cols
+      case Failure(err) =>
+        logger.error(s"Failed to read columns for dataset $dataSetID: ${err.getMessage}")
+        throw InternalException(s"Failed to read columns for dataset $dataSetID")
+    }
+
     val headers = columns.map(_.take(headerLines).mkString("_"))
     val data = columns.map(_.drop(headerLines))
 
@@ -246,14 +276,12 @@ object DataSetInterface extends StorageInterface[DatasetKey, DataSet] with LazyL
       Array.fill(n)(rnd.nextInt(data.head.size - 1))
     }
 
+    logger.debug(s"... creating set of column objects: #headers=${headers.size}...")
     // now we recombine with the headers and an index to create the
     // set of column objects...
     (headers zip data).zipWithIndex.map { case ((header, col), i) =>
-
       val logicalType = typeMap.get(header).flatMap(LogicalType.lookup)
-
       val typedData = retypeData(col, logicalType)
-
       Column[Any](
         i,
         filePath,

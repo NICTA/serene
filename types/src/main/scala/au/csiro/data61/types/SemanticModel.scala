@@ -23,9 +23,9 @@ import au.csiro.data61.types.GraphTypes._
 import com.typesafe.scalalogging.LazyLogging
 import edu.isi.karma.modeling.ontology.OntologyManager
 import edu.isi.karma.rep.alignment.SemanticType.{Origin => KarmaOrigin}
-import edu.isi.karma.rep.alignment.{ClassInstanceLink, ColumnNode, DataPropertyLink, InternalNode}
-import edu.isi.karma.rep.alignment.{LabeledLink, LiteralNode, Node, ObjectPropertyLink, ObjectPropertyType}
-import edu.isi.karma.rep.alignment.{SubClassLink, Label => KarmaLabel, LinkStatus => AlignLinkStatus, SemanticType => KarmaSemanticType}
+import edu.isi.karma.rep.alignment.{LabeledLink, SubClassLink, ClassInstanceLink, DataPropertyLink, ObjectPropertyLink, CompactSubClassLink}
+import edu.isi.karma.rep.alignment.{ColumnNode, InternalNode, LiteralNode, Node, ObjectPropertyType}
+import edu.isi.karma.rep.alignment.{Label => KarmaLabel, LinkStatus => AlignLinkStatus, SemanticType => KarmaSemanticType}
 import org.jgrapht.graph.DirectedWeightedMultigraph
 import org.json4s._
 

@@ -26,3 +26,12 @@ case class TrainingSettings(
     postProcessingConfig: Option[Map[String, Any]] = None,
     numBags: Option[Int] = None,
     bagSize: Option[Int] = None)
+
+object DefaultBagging {
+  val NumBags = 50
+  val BagSize = 100
+}
+
+case class BaggingParams(numBags: Int = DefaultBagging.NumBags,
+                         bagSize: Int = DefaultBagging.BagSize
+                        )

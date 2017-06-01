@@ -28,516 +28,17 @@ import com.typesafe.scalalogging.LazyLogging
 import scala.util._
 import scala.io._
 import org.apache.spark.SparkContext
-import org.apache.spark.sql.{Dataset, Encoders, Row, SparkSession}
+import org.apache.spark.sql.SparkSession
 
 import scala.language.postfixOps
-import com.esotericsoftware.kryo.Kryo
-
-import scala.collection.mutable
 
 trait FeatureExtractor
 
-object FeatureExtractorUtil extends LazyLogging {
-  def getFeatureNames(features: List[FeatureExtractor]
-                     ): List[String] = {
-    features.flatMap {
-      case x: SingleFeatureExtractor => List(x.getFeatureName())
-      case x: GroupFeatureExtractor => x.getFeatureNames()
-    }
-  }
-
-  /**
-    * Helper method to convert list of abstract attributes to list of simple attributes...
-    * @param attributes List of abstract attributes
-    * @return
-    */
-  protected def getSimpleAttributes(attributes: List[DMAttribute]): List[SimpleAttribute] = {
-    attributes
-      .map {
-        attr =>
-          val attrName = attr.metadata match {
-            case Some(meta) => Some(meta.name)
-            case _ => None
-          }
-          SimpleAttribute(attr.id, attrName, attr.values.toArray)
-      }
-  }
-
-
-  def extractFeatures(attributes: List[DMAttribute],
-                      featureExtractors: List[FeatureExtractor]
-                     ): List[List[Double]] = {
-    // additional preprocessing of attributes (e.g., data type inference, tokenization of column names, etc.)
-    val preprocessor = DataPreprocessor()
-    //TODO: restore caching?
-    // val preprocessedAttributes = attributes.map({rawAttr => (preprocessedAttrCache.getOrElseUpdate(rawAttr.id, preprocessor.preprocess(rawAttr)))})
-    val preprocessedAttributes = attributes
-      .map({rawAttr =>
-        preprocessor.preprocess(rawAttr)})
-
-    logger.info(s"***Extracting features from ${preprocessedAttributes.size} instances...")
-    val featuresOfAllInstances = for(i <- 0 until preprocessedAttributes.size) yield {
-      val attr = preprocessedAttributes(i)
-      if(i % 100 == 0 || (i+1) == preprocessedAttributes.size)
-        println("    extracting features from instance " + i + s" of ${preprocessedAttributes.size} : " + attr.rawAttribute.id)
-      // val instanceFeatures = featuresCache.getOrElseUpdate(attr.rawAttribute.id, featureExtractors.flatMap({
-      val instanceFeatures = featureExtractors.flatMap({
-        case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
-        case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
-      })
-      instanceFeatures
-    }
-
-    logger.info("***Finished extracting features.")
-    featuresOfAllInstances.toList
-  }
-
-  def extractTestFeatures(attributes: List[DMAttribute],
-                          featureExtractors: List[FeatureExtractor]
-                         )(implicit sc: SparkContext): List[List[Double]] = {
-    logger.info(s"***Preprocessing test features ${attributes.size} instances...")
-    // additional preprocessing of attributes (e.g., data type inference, tokenization of column names, etc.)
-    val preprocessor = DataPreprocessor()
-    val preprocessedAttributes = attributes.map(preprocessor.preprocess)
-
-    //    val preprocessedAttributes = Try {
-    //      sc.parallelize(attributes)
-    //        .map(preprocessor.preprocess).collect.toList
-    //    } match {
-    //      case Success(procAttrs) =>
-    //        procAttrs
-    //      case Failure(err) =>
-    //        logger.error(s"Failure in preprocessing test features with spark: $err")
-    //        sc.stop()
-    //        throw new Exception(s"Failure in preprocessing test features with spark: $err")
-    //    }
-    logger.info(s"***Extracting test features with spark from ${preprocessedAttributes.size} instances...")
-
-    val featuresOfAllInstances = Try {
-      val featExtractBroadcast = sc.broadcast(featureExtractors)
-      sc.parallelize(preprocessedAttributes).map {
-        attr =>
-          featExtractBroadcast.value.flatMap {
-            case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
-            case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
-          }
-      }.collect.toList
-    } match {
-      case Success(testFeatures) =>
-        testFeatures
-      case Failure(err) =>
-        logger.error(s"Failure in extracting test features with spark: $err")
-        sc.stop()
-        throw new Exception(s"Failure in extracting test features with spark: $err")
-    }
-
-    logger.info("***Finished extracting test features with spark.")
-    featuresOfAllInstances
-  }
-
-
-  def extractFeatures(attributes: List[DMAttribute],
-                      labels: SemanticTypeLabels,
-                      featureExtractors: List[FeatureExtractor]
-                     ): List[(List[Double], String)] = {
-    val preprocessor = DataPreprocessor()
-    //TODO: restore caching?
-    // val preprocessedAttributes = attributes.map({rawAttr => (preprocessedAttrCache.getOrElseUpdate(rawAttr.id, preprocessor.preprocess(rawAttr)))})
-    val preprocessedAttributes = attributes.map {
-      rawAttr => preprocessor.preprocess(rawAttr)
-    }
-
-    logger.info(s"***Extracting features from ${preprocessedAttributes.size} instances...")
-    val featuresOfAllInstances = for(i <- 0 until preprocessedAttributes.size) yield {
-      val attr = preprocessedAttributes(i)
-      if(i % 100 == 0 || (i+1) == preprocessedAttributes.size)
-        println("    extracting features from instance " + i + s" of ${preprocessedAttributes.size} : "
-          + attr.rawAttribute.id)
-      //TODO: restore caching?
-      // val instanceFeatures = featuresCache.getOrElseUpdate(attr.rawAttribute.id, featureExtractors.flatMap({
-      val instanceFeatures = featureExtractors.flatMap({
-        case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
-        case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
-      })
-      (instanceFeatures, labels.findLabel(attr.rawAttribute.id))
-    }
-
-    logger.info("Finished extracting features.")
-    featuresOfAllInstances.toList
-  }
-
-
-  def extractFeatures(preprocessedAttributes: List[PreprocessedAttribute],
-                      labels: SemanticTypeLabels,
-                      featureExtractors: List[FeatureExtractor]
-                     )(implicit d: DummyImplicit): List[(PreprocessedAttribute, List[Double], String)] = {
-    logger.info(s"Extracting features from ${preprocessedAttributes.size} instances...")
-    val featuresOfAllInstances = preprocessedAttributes.map {
-      attr =>
-        val instanceFeatures = featureExtractors.flatMap {
-          case fe: SingleFeatureExtractor => List(fe.computeFeature(attr))
-          case gfe: GroupFeatureExtractor => gfe.computeFeatures(attr)
-        }
-        (attr, instanceFeatures, labels.findLabel(attr.rawAttribute.id))
-    }
-
-    logger.info("Finished extracting features.")
-    featuresOfAllInstances
-  }
-
-  /**
-    * Extract features for training using spark.
-    * @param attributes List of attributes.
-    * @param labels Semantic type labels.
-    * @param featureExtractors List of feature extractors.
-    * @param spark Implicit spark session.
-    * @return
-    */
-  def extractSimpleTrainFeatures(attributes: List[Attribute],
-                           labels: SemanticTypeLabels,
-                           featureExtractors: List[FeatureExtractor]
-                          )(implicit spark: SparkSession):List[(List[Double], String)] = {
-    logger.info(s"Extracting train features with spark from ${attributes.size} instances...")
-    Try {
-      val newAttrs: List[SimpleAttribute] = getSimpleAttributes(attributes)
-
-      // map from attribute to label
-      val attrLabelMap: Map[String, String] = newAttrs.map {
-        attr => (attr.attributeName, labels.findLabel(attr.attributeName))
-      }.toMap
-      // list of all available labels
-      val labelList: List[String] = attrLabelMap.values.toList
-
-      import spark.implicits._
-      val broadcast = spark.sparkContext.broadcast(featureExtractors)
-
-
-      // TODO: should I first RDD newAttrs? some recommend this approach in case datatypes are not simple...
-      newAttrs.toDS.cache()
-        .map {
-          attr =>
-            val instanceFeatures = broadcast.value.flatMap {
-              case fe: SingleFeatureExtractor => List(fe.computeSimpleFeature(attr))
-              case gfe: GroupFeatureExtractor => gfe.computeSimpleFeatures(attr)
-            }
-            (labelList.indexOf(attrLabelMap(attr.attributeName)).toDouble +: instanceFeatures).toArray
-        }.collect.map {
-        row => (row.takeRight(row.length - 1).toList, labelList(row(0).toInt))
-      }.toList
-    } match {
-      case Success(calculation) =>
-        logger.info("Finished extracting train features with spark.")
-        calculation
-      case Failure(err) =>
-        logger.error(s"Feature extraction failed: ${err.getMessage}")
-        spark.stop()
-        throw new Exception(s"Feature extraction failed: ${err.getMessage}")
-    }
-  }
-
-  def generateFeatureExtractors(classes: List[String],
-                                preprocessedAttributes: List[PreprocessedAttribute],
-                                trainingSettings: TrainingSettings,
-                                labels: SemanticTypeLabels
-                               ): List[FeatureExtractor] = {
-    createStandardFeatureExtractors(trainingSettings.featureSettings) ++
-      createExampleBasedFeatureExtractors(preprocessedAttributes, labels, classes, trainingSettings.featureSettings)
-  }
-
-
-  def createStandardFeatureExtractors(featureSettings: FeatureSettings): List[FeatureExtractor] = {
-    val factoryMethods = List(
-      (NumUniqueValuesFeatureExtractor.getFeatureName, NumUniqueValuesFeatureExtractor.apply _),
-      (PropUniqueValuesFeatureExtractor.getFeatureName, PropUniqueValuesFeatureExtractor.apply _),
-      (PropMissingValuesFeatureExtractor.getFeatureName, PropMissingValuesFeatureExtractor.apply _),
-      (NumericalCharRatioFeatureExtractor.getFeatureName, NumericalCharRatioFeatureExtractor.apply _),
-      (WhitespaceRatioFeatureExtractor.getFeatureName, WhitespaceRatioFeatureExtractor.apply _),
-      (DiscreteTypeFeatureExtractor.getFeatureName, DiscreteTypeFeatureExtractor.apply _),
-      (EntropyForDiscreteDataFeatureExtractor.getFeatureName, EntropyForDiscreteDataFeatureExtractor.apply _),
-      (PropAlphaCharsFeatureExtractor.getFeatureName, PropAlphaCharsFeatureExtractor.apply _),
-      (PropEntriesWithAtSign.getFeatureName, PropEntriesWithAtSign.apply _),
-      (PropEntriesWithCurrencySymbol.getFeatureName, PropEntriesWithCurrencySymbol.apply _),
-      (PropEntriesWithHyphen.getFeatureName, PropEntriesWithHyphen.apply _),
-      (PropEntriesWithParen.getFeatureName, PropEntriesWithParen.apply _),
-      (MeanCommasPerEntry.getFeatureName, MeanCommasPerEntry.apply _),
-      (MeanForwardSlashesPerEntry.getFeatureName, MeanForwardSlashesPerEntry.apply _),
-      (PropRangeFormat.getFeatureName, PropRangeFormat.apply _),
-      (DatePatternFeatureExtractor.getFeatureName, DatePatternFeatureExtractor.apply _),
-      (DataTypeFeatureExtractor.getGroupName, () => {
-        DataTypeFeatureExtractor(
-          featureSettings.featureExtractorParams.get(DataTypeFeatureExtractor.getGroupName).flatMap {
-            featureParams => featureParams.get("type-map").map {
-              case x if featureSettings.rootFilePath.isDefined => featureSettings.rootFilePath.get + "/" + x
-              case x => x
-            }
-          }
-        )}
-        ),
-      (TextStatsFeatureExtractor.getGroupName, TextStatsFeatureExtractor.apply _),
-      (NumberTypeStatsFeatureExtractor.getGroupName, NumberTypeStatsFeatureExtractor.apply _),
-      (CharDistFeatureExtractor.getGroupName, CharDistFeatureExtractor.apply _),
-      (ShannonEntropyFeatureExtractor.getFeatureName, ShannonEntropyFeatureExtractor.apply _)
-    )
-
-    //instantiate only those active features
-    factoryMethods.filter {
-      case (name, factoryMethod) =>
-        featureSettings.activeFeatures.contains(name) || featureSettings.activeGroupFeatures.contains(name)
-    }.map {
-      case (name, factoryMethod) => factoryMethod()
-    }
-  }
-
-  def createExampleBasedFeatureExtractors(trainingData: List[PreprocessedAttribute],
-                                          labels: SemanticTypeLabels,
-                                          classes: List[String],
-                                          featureSettings: FeatureSettings
-                                         ): List[FeatureExtractor] = {
-    val attrsWithNames = trainingData.filter(_.rawAttribute.metadata.nonEmpty)
-
-    val factoryMethods = List(
-      (RfKnnFeatureExtractor.getGroupName, {
-        lazy val auxData = attrsWithNames.map {
-          attribute => RfKnnFeature(attribute.rawAttribute.id,
-            attribute.rawAttribute.metadata.get.name,
-            labels.findLabel(attribute.rawAttribute.id))
-        }
-        () => {
-          val k = featureSettings
-            .featureExtractorParams(RfKnnFeatureExtractor.getGroupName)("num-neighbours").toInt
-          RfKnnFeatureExtractor(classes, auxData, k)
-        }
-      }),
-      (MinEditDistFromClassExamplesFeatureExtractor.getGroupName, {
-        lazy val auxData = attrsWithNames.map {
-          attribute =>
-            (labels.findLabel(attribute.rawAttribute.id), attribute.rawAttribute.metadata.get.name)
-        }
-          .groupBy(_._1)
-          .map {
-            case (className,values) => (className, values.map(_._2))
-        }
-        () => MinEditDistFromClassExamplesFeatureExtractor(classes, auxData)
-      }),
-      (MeanCharacterCosineSimilarityFeatureExtractor.getGroupName, {
-        lazy val auxData = attrsWithNames.map {
-          attribute =>
-            (labels.findLabel(attribute.rawAttribute.id), computeCharDistribution(attribute.rawAttribute))
-        }
-          .groupBy(_._1)
-          .map {
-            case (className,values) => (className, values.map(_._2))
-          }
-        () => MeanCharacterCosineSimilarityFeatureExtractor(classes, auxData)
-      }),
-      (JCNMinWordNetDistFromClassExamplesFeatureExtractor.getGroupName, {
-        lazy val auxData = attrsWithNames
-          .map{
-            attr =>
-              val attrId = attr.rawAttribute.id
-              val label = labels.findLabel(attrId)
-              (label, (attr.preprocessedDataMap("attribute-name-tokenized").asInstanceOf[List[String]]))
-        }
-          .groupBy(_._1)
-          .map {
-            case (className, values) => (className, values.map(_._2))
-          }
-        () => {
-          val maxComparisons = featureSettings
-            .featureExtractorParams(
-              JCNMinWordNetDistFromClassExamplesFeatureExtractor.getGroupName)("max-comparisons-per-class").toInt
-          JCNMinWordNetDistFromClassExamplesFeatureExtractor(classes, auxData, maxComparisons)
-        }
-      }),
-      (LINMinWordNetDistFromClassExamplesFeatureExtractor.getGroupName, {
-        lazy val auxData = attrsWithNames.map {
-          attr =>
-            val attrId = attr.rawAttribute.id
-            val label = labels.findLabel(attrId)
-            (label, attr.preprocessedDataMap("attribute-name-tokenized").asInstanceOf[List[String]])
-        }.groupBy(_._1)
-          .map {
-            case (className, values) => (className, values.map({_._2}))
-          }
-        () => {
-          val maxComparisons = featureSettings
-            .featureExtractorParams(LINMinWordNetDistFromClassExamplesFeatureExtractor.getGroupName)(
-              "max-comparisons-per-class").toInt
-          LINMinWordNetDistFromClassExamplesFeatureExtractor(classes, auxData, maxComparisons)
-        }
-      })
-    )
-
-    //instantiate only those active features
-    factoryMethods.filter({case (name, factoryMethod) =>
-      featureSettings.activeGroupFeatures.contains(name)
-    }).map({case (name, factoryMethod) => factoryMethod()}).toList
-  }
-
-  def generateSimpleFeatureExtractors(classes: List[String],
-                                preprocessedAttributes: List[DMAttribute],
-                                trainingSettings: TrainingSettings,
-                                labels: SemanticTypeLabels
-                               ): List[FeatureExtractor] = {
-    createStandardFeatureExtractors(trainingSettings.featureSettings) ++
-      createSimpleExampleBasedFeatureExtractors(preprocessedAttributes, labels, classes, trainingSettings.featureSettings)
-  }
-
-
-  def createSimpleExampleBasedFeatureExtractors(trainingData: List[DMAttribute],
-                                          labels: SemanticTypeLabels,
-                                          classes: List[String],
-                                          featureSettings: FeatureSettings
-                                         ): List[FeatureExtractor] = {
-
-    val newAttrs: List[SimpleAttribute] = getSimpleAttributes(trainingData)
-
-    val attrsWithNames = newAttrs.filter(_.metaName.isDefined)
-
-    val factoryMethods = List(
-      (RfKnnFeatureExtractor.getGroupName, {
-        lazy val auxData = attrsWithNames.map {
-          attribute => RfKnnFeature(attribute.attributeName,
-            attribute.metaName.get,
-            labels.findLabel(attribute.attributeName))
-        }
-        () => {
-          val k = featureSettings
-            .featureExtractorParams(RfKnnFeatureExtractor.getGroupName)("num-neighbours").toInt
-          RfKnnFeatureExtractor(classes, auxData, k)
-        }
-      }),
-      (MinEditDistFromClassExamplesFeatureExtractor.getGroupName, {
-        lazy val auxData = attrsWithNames.map {
-          attribute =>
-            (labels.findLabel(attribute.attributeName), attribute.metaName.get)
-        }
-          .groupBy(_._1)
-          .map {
-            case (className,values) => (className, values.map(_._2))
-          }
-        () => MinEditDistFromClassExamplesFeatureExtractor(classes, auxData)
-      }),
-      (MeanCharacterCosineSimilarityFeatureExtractor.getGroupName, {
-        lazy val auxData = attrsWithNames.map {
-          attribute =>
-            (labels.findLabel(attribute.attributeName), attribute.charDist)
-        }
-          .groupBy(_._1)
-          .map {
-            case (className,values) => (className, values.map(_._2))
-          }
-        () => MeanCharacterCosineSimilarityFeatureExtractor(classes, auxData)
-      }),
-      (JCNMinWordNetDistFromClassExamplesFeatureExtractor.getGroupName, {
-        lazy val auxData = attrsWithNames
-          .map{
-            attr =>
-              val attrId = attr.attributeName
-              val label = labels.findLabel(attrId)
-              (label, attr.attributeNameTokenized)
-          }
-          .groupBy(_._1)
-          .map {
-            case (className, values) => (className, values.map(_._2))
-          }
-        () => {
-          val maxComparisons = featureSettings
-            .featureExtractorParams(
-              JCNMinWordNetDistFromClassExamplesFeatureExtractor.getGroupName)("max-comparisons-per-class").toInt
-          JCNMinWordNetDistFromClassExamplesFeatureExtractor(classes, auxData, maxComparisons)
-        }
-      }),
-      (LINMinWordNetDistFromClassExamplesFeatureExtractor.getGroupName, {
-        lazy val auxData = attrsWithNames.map {
-          attr =>
-            val attrId = attr.attributeName
-            val label = labels.findLabel(attrId)
-            (label, attr.attributeNameTokenized)
-        }.groupBy(_._1)
-          .map {
-            case (className, values) => (className, values.map({_._2}))
-          }
-        () => {
-          val maxComparisons = featureSettings
-            .featureExtractorParams(LINMinWordNetDistFromClassExamplesFeatureExtractor.getGroupName)(
-              "max-comparisons-per-class").toInt
-          LINMinWordNetDistFromClassExamplesFeatureExtractor(classes, auxData, maxComparisons)
-        }
-      })
-    )
-    //instantiate only those active features
-    factoryMethods.filter({case (name, factoryMethod) =>
-      featureSettings.activeGroupFeatures.contains(name)
-    }).map({case (name, factoryMethod) => factoryMethod()})
-  }
-
-
-  def computeTokens(attribute: DMAttribute): List[String] = {
-    val nameRegex = "([^@]+)@(.+)".r
-    attribute match {
-      case (Attribute(_, Some(Metadata(name,_)), _, _)) => {
-        name match {
-          case nameRegex(name, _) => StringTokenizer.tokenize(name)
-          case x => StringTokenizer.tokenize(x)
-        }
-      }
-      case _ => List()
-    }
-  }
-
-  def computeCharDistribution(attribute: DMAttribute
-                             ): Map[Char,Double] = {
-    val counts: Map[Char,Int] = attribute.values
-      .flatMap(_.toCharArray)
-      .groupBy(_.toChar)
-      .mapValues(_.size)
-
-    if(counts.nonEmpty) {
-      //we downscale the counts vector by 1/maxCount, compute the norm, then upscale by maxCount to prevent overflow
-      val maxCount = counts.values.max
-      val dscaled = counts.values
-        .map(_.toDouble/maxCount.toDouble) // normalize counts
-        .foldLeft(0.0)(_ + Math.pow(_, 2)) // compute sum of squares
-
-      val norm = Math.sqrt(dscaled) * maxCount // the norm of the counts
-      val normCf = norm match {
-        case 0 => counts.map { case (x, _) => (x,0.0) }
-        case normbig =>
-          counts.map { case (x, y) => (x, y.toDouble / normbig) }
-      }
-
-//      val length = Math.abs(Math.sqrt(normCf.values.map({x=>x*x}).sum) - 1.0)
-//      assert(Math.abs(Math.sqrt(normCf.values.map({x=>x*x}).sum) - 1.0) <= 0.00005,
-//        "length of char freq vector is " + length
-//          + "\nnorm: " + norm
-//          + "\ncounts: " + counts
-//          + "\ncounts^2: " + (counts.values.map({case x => x*x})))
-      normCf
-    } else {
-      Map()
-    }
-  }
-
-  def printFeatureExtractorNames(featureExtractors: List[FeatureExtractor]) = {
-    logger.info("Features Used:\n\t")
-    logger.info(featureExtractors.map {
-      case fe: SingleFeatureExtractor => fe.getFeatureName
-      case gfe: GroupFeatureExtractor => gfe.getGroupName
-    }.mkString("\n\t"))
-  }
-}
 
 trait SingleFeatureExtractor extends FeatureExtractor {
   def getFeatureName(): String
   def computeFeature(attribute: PreprocessedAttribute): Double
   def computeSimpleFeature(attribute: SimpleAttribute): Double
-}
-
-trait SingleFeatureValuesExtractor extends SingleFeatureExtractor {
-  def getFeatureName(): String
-  def computeFeature(attribute: PreprocessedAttribute): Double
-  def computeFeatureValues(attr: PreprocessedValues): Double
 }
 
 trait GroupFeatureExtractor extends FeatureExtractor {
@@ -547,32 +48,22 @@ trait GroupFeatureExtractor extends FeatureExtractor {
   def computeSimpleFeatures(attribute: SimpleAttribute): List[Double]
 }
 
-trait GroupFeatureLimExtractor extends GroupFeatureExtractor {
+trait HeaderGroupFeatureExtractor extends GroupFeatureExtractor {
   def getGroupName(): String
   def getFeatureNames(): List[String]
   def computeFeatures(attribute: PreprocessedAttribute): List[Double]
-  def computeFeaturesLim(attr: LimPreprocessedAttribute): List[Double]
+  def computeSimpleFeatures(attribute: SimpleAttribute): List[Double]
 }
 
-trait GroupFeatureFullExtractor extends GroupFeatureExtractor {
-  def getGroupName(): String
-  def getFeatureNames(): List[String]
-  def computeFeatures(attribute: PreprocessedAttribute): List[Double]
-  def computeFeatureFull(attr: FullPreprocessedAttribute): List[Double]
-}
 
 object NumUniqueValuesFeatureExtractor {
   def getFeatureName() = "num-unique-vals"
 }
-case class NumUniqueValuesFeatureExtractor() extends SingleFeatureValuesExtractor {
+case class NumUniqueValuesFeatureExtractor() extends SingleFeatureExtractor {
   override def getFeatureName(): String = NumUniqueValuesFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     attribute.rawAttribute.values.map(_.toLowerCase.trim).distinct.size
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    attr.values.map(_.toLowerCase.trim).distinct.length
   }
 
   override def computeSimpleFeature(attribute: SimpleAttribute): Double = {
@@ -584,16 +75,12 @@ case class NumUniqueValuesFeatureExtractor() extends SingleFeatureValuesExtracto
 object PropUniqueValuesFeatureExtractor {
   def getFeatureName() = "prop-unique-vals"
 }
-case class PropUniqueValuesFeatureExtractor() extends SingleFeatureValuesExtractor {
+case class PropUniqueValuesFeatureExtractor() extends SingleFeatureExtractor {
   override def getFeatureName(): String = PropUniqueValuesFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     val values = attribute.rawAttribute.values
     values.map(_.toLowerCase.trim).distinct.size.toDouble / values.size
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    attr.values.map(_.toLowerCase.trim).distinct.length.toDouble / attr.values.length
   }
 
   override def computeSimpleFeature(attribute: SimpleAttribute): Double = {
@@ -605,7 +92,7 @@ case class PropUniqueValuesFeatureExtractor() extends SingleFeatureValuesExtract
 object PropMissingValuesFeatureExtractor {
   def getFeatureName(): String = "prop-missing-vals"
 }
-case class PropMissingValuesFeatureExtractor() extends SingleFeatureValuesExtractor {
+case class PropMissingValuesFeatureExtractor() extends SingleFeatureExtractor {
   override def getFeatureName(): String = PropMissingValuesFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -613,9 +100,6 @@ case class PropMissingValuesFeatureExtractor() extends SingleFeatureValuesExtrac
     values.count(_.trim.length == 0).toDouble / values.size
   }
 
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    attr.values.count(_.trim.length == 0).toDouble / attr.values.length
-  }
 
   override def computeSimpleFeature(attribute: SimpleAttribute): Double = {
     attribute.values.count(_.trim.length == 0).toDouble / attribute.values.length
@@ -626,20 +110,11 @@ case class PropMissingValuesFeatureExtractor() extends SingleFeatureValuesExtrac
 object PropAlphaCharsFeatureExtractor {
   def getFeatureName(): String = "ratio-alpha-chars"
 }
-case class PropAlphaCharsFeatureExtractor() extends SingleFeatureValuesExtractor {
+case class PropAlphaCharsFeatureExtractor() extends SingleFeatureExtractor {
   override def getFeatureName(): String = PropAlphaCharsFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     val attrContent = attribute.rawAttribute.values.mkString("")
-    if(attrContent.nonEmpty) {
-      attrContent.replaceAll("[^a-zA-Z]","").length.toDouble / attrContent.length
-    } else {
-      -1.0
-    }
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    val attrContent = attr.values.mkString("")
     if(attrContent.nonEmpty) {
       attrContent.replaceAll("[^a-zA-Z]","").length.toDouble / attrContent.length
     } else {
@@ -661,7 +136,7 @@ case class PropAlphaCharsFeatureExtractor() extends SingleFeatureValuesExtractor
 object PropEntriesWithAtSign {
   def getFeatureName(): String = "prop-entries-with-at-sign"
 }
-case class PropEntriesWithAtSign() extends SingleFeatureValuesExtractor {
+case class PropEntriesWithAtSign() extends SingleFeatureExtractor {
   override def getFeatureName(): String = PropEntriesWithAtSign.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -670,15 +145,6 @@ case class PropEntriesWithAtSign() extends SingleFeatureValuesExtractor {
       attrContent.count{
         x:String => x.contains("@")
       }.toDouble / attrContent.size
-    } else {
-      -1.0
-    }
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    val attrContent = attr.values.filter(_.nonEmpty)
-    if(attrContent.nonEmpty) {
-      attrContent.count(_.contains("@")).toDouble / attrContent.length
     } else {
       -1.0
     }
@@ -699,24 +165,13 @@ case class PropEntriesWithAtSign() extends SingleFeatureValuesExtractor {
 object PropEntriesWithCurrencySymbol {
   def getFeatureName() = "prop-entries-with-currency-symbol"
 }
-case class PropEntriesWithCurrencySymbol() extends SingleFeatureValuesExtractor {
+case class PropEntriesWithCurrencySymbol() extends SingleFeatureExtractor {
   val currencySymbols = List("$","AUD")
 
   override def getFeatureName(): String = PropEntriesWithCurrencySymbol.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
     val attrContent = attribute.rawAttribute.values.filter { x: String => x.nonEmpty}
-    if(attrContent.nonEmpty) {
-      attrContent.count{
-        x: String => currencySymbols.exists(x.contains)
-      }.toDouble / attrContent.size
-    } else {
-      -1.0
-    }
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    val attrContent = attr.values.filter(_.nonEmpty)
     if(attrContent.nonEmpty) {
       attrContent.count{
         x: String => currencySymbols.exists(x.contains)
@@ -742,7 +197,7 @@ case class PropEntriesWithCurrencySymbol() extends SingleFeatureValuesExtractor 
 object PropEntriesWithHyphen {
   def getFeatureName(): String = "prop-entries-with-hyphen"
 }
-case class PropEntriesWithHyphen() extends SingleFeatureValuesExtractor {
+case class PropEntriesWithHyphen() extends SingleFeatureExtractor {
   override def getFeatureName(): String = PropEntriesWithHyphen.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -751,15 +206,6 @@ case class PropEntriesWithHyphen() extends SingleFeatureValuesExtractor {
       attrContent.count{
         x: String => x.contains("-")
       }.toDouble / attrContent.size
-    } else {
-      -1.0
-    }
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    val attrContent = attr.values.filter(_.nonEmpty)
-    if(attrContent.nonEmpty) {
-      attrContent.count(_.contains("-")).toDouble / attrContent.size
     } else {
       -1.0
     }
@@ -778,7 +224,7 @@ case class PropEntriesWithHyphen() extends SingleFeatureValuesExtractor {
 object PropEntriesWithParen {
   def getFeatureName(): String = "prop-entries-with-paren"
 }
-case class PropEntriesWithParen() extends SingleFeatureValuesExtractor {
+case class PropEntriesWithParen() extends SingleFeatureExtractor {
   override def getFeatureName(): String = PropEntriesWithParen.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -787,17 +233,6 @@ case class PropEntriesWithParen() extends SingleFeatureValuesExtractor {
       attrContent.count {
         x: String => x.contains("(") || x.contains(")")
       }.toDouble / attrContent.size
-    } else {
-      -1.0
-    }
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    val attrContent = attr.values.filter(_.nonEmpty)
-    if(attrContent.nonEmpty) {
-      attrContent.count {
-        x: String => x.contains("(") || x.contains(")")
-      }.toDouble / attrContent.length
     } else {
       -1.0
     }
@@ -818,7 +253,7 @@ case class PropEntriesWithParen() extends SingleFeatureValuesExtractor {
 object MeanCommasPerEntry {
   def getFeatureName(): String = "mean-commas-per-entry"
 }
-case class MeanCommasPerEntry() extends SingleFeatureValuesExtractor {
+case class MeanCommasPerEntry() extends SingleFeatureExtractor {
   override def getFeatureName(): String = MeanCommasPerEntry.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -826,16 +261,6 @@ case class MeanCommasPerEntry() extends SingleFeatureValuesExtractor {
     if(attrContent.nonEmpty) {
       val counts = attrContent.map(_.count(_ == ',').toDouble)
       counts.sum / counts.size
-    } else {
-      -1.0
-    }
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    val attrContent = attr.values.filter(_.nonEmpty)
-    if(attrContent.nonEmpty) {
-      val counts = attrContent.map(_.count(_ == ',').toDouble)
-      counts.sum / counts.length
     } else {
       -1.0
     }
@@ -855,7 +280,7 @@ case class MeanCommasPerEntry() extends SingleFeatureValuesExtractor {
 object MeanForwardSlashesPerEntry {
   def getFeatureName(): String = "mean-forward-slashes-per-entry"
 }
-case class MeanForwardSlashesPerEntry() extends SingleFeatureValuesExtractor {
+case class MeanForwardSlashesPerEntry() extends SingleFeatureExtractor {
   override def getFeatureName(): String = MeanForwardSlashesPerEntry.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -863,16 +288,6 @@ case class MeanForwardSlashesPerEntry() extends SingleFeatureValuesExtractor {
     if(attrContent.nonEmpty) {
       val counts = attrContent.map(_.count(_ == '/').toDouble)
       counts.sum / counts.size
-    } else {
-      -1.0
-    }
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    val attrContent = attr.values.filter(_.nonEmpty)
-    if(attrContent.nonEmpty) {
-      val counts = attrContent.map(_.count(_ == '/').toDouble)
-      counts.sum / counts.length
     } else {
       -1.0
     }
@@ -892,7 +307,7 @@ case class MeanForwardSlashesPerEntry() extends SingleFeatureValuesExtractor {
 object PropRangeFormat {
   def getFeatureName(): String = "prop-range-format"
 }
-case class PropRangeFormat() extends SingleFeatureValuesExtractor {
+case class PropRangeFormat() extends SingleFeatureExtractor {
   override def getFeatureName(): String = PropRangeFormat.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -909,19 +324,6 @@ case class PropRangeFormat() extends SingleFeatureValuesExtractor {
     }
   }
 
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    val rangeFmt = "([0-9]+)-([0-9]+)".r
-    val attrContent = attr.values.filter(_.nonEmpty)
-    if(attrContent.nonEmpty) {
-      val valsWithRangeFmt = attrContent.filter {
-        case rangeFmt(start, end) => start.toDouble <= end.toDouble
-        case _ => false
-      }
-      valsWithRangeFmt.length.toDouble / attrContent.length.toDouble
-    } else {
-      -1.0
-    }
-  }
 
   override def computeSimpleFeature(attribute: SimpleAttribute): Double = {
     val rangeFmt = "([0-9]+)-([0-9]+)".r
@@ -946,7 +348,7 @@ case class PropRangeFormat() extends SingleFeatureValuesExtractor {
 object NumericalCharRatioFeatureExtractor {
   def getFeatureName = "prop-numerical-chars"
 }
-case class NumericalCharRatioFeatureExtractor() extends SingleFeatureValuesExtractor {
+case class NumericalCharRatioFeatureExtractor() extends SingleFeatureExtractor {
   override def getFeatureName() = NumericalCharRatioFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -956,15 +358,6 @@ case class NumericalCharRatioFeatureExtractor() extends SingleFeatureValuesExtra
       case _ => 0.0
     }
     ratios.sum / ratios.size
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    val numRegex = "[0-9]".r
-    val ratios: Array[Double] = attr.values.map {
-      case s if s.nonEmpty => numRegex.findAllIn(s).size.toDouble / s.length
-      case _ => 0.0
-    }
-    ratios.sum / ratios.length
   }
 
   override def computeSimpleFeature(attribute: SimpleAttribute): Double = {
@@ -981,7 +374,7 @@ case class NumericalCharRatioFeatureExtractor() extends SingleFeatureValuesExtra
 object WhitespaceRatioFeatureExtractor {
   def getFeatureName = "prop-whitespace-chars"
 }
-case class WhitespaceRatioFeatureExtractor() extends SingleFeatureValuesExtractor {
+case class WhitespaceRatioFeatureExtractor() extends SingleFeatureExtractor {
   override def getFeatureName() = WhitespaceRatioFeatureExtractor.getFeatureName
 
   override def computeFeature(attribute: PreprocessedAttribute): Double = {
@@ -991,15 +384,6 @@ case class WhitespaceRatioFeatureExtractor() extends SingleFeatureValuesExtracto
       case _ => 0.0
     }
     ratios.sum / ratios.size
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    val numRegex = """\s""".r
-    val ratios = attr.values.map {
-      case s if s.nonEmpty => numRegex.findAllIn(s).size.toDouble / s.length
-      case _ => 0.0
-    }
-    ratios.sum / ratios.length
   }
 
   override def computeSimpleFeature(attribute: SimpleAttribute): Double = {
@@ -1133,7 +517,7 @@ case class ShannonEntropyFeatureExtractor() extends SingleFeatureExtractor {
 object DatePatternFeatureExtractor {
   def getFeatureName(): String = "prop-datepattern"
 }
-case class DatePatternFeatureExtractor() extends SingleFeatureValuesExtractor {
+case class DatePatternFeatureExtractor() extends SingleFeatureExtractor {
   val maxSampleSize = 100
 
   val datePattern1 = """^[0-9]+/[0-9]+/[0-9]+$""".r
@@ -1155,22 +539,6 @@ case class DatePatternFeatureExtractor() extends SingleFeatureValuesExtractor {
           datePattern2.pattern.matcher(rawAttr.values(idx)).matches ||
           datePattern3.pattern.matcher(rawAttr.values(idx)).matches ||
           datePattern4.pattern.matcher(rawAttr.values(idx)).matches
-      }
-      regexResults.size.toDouble / randIdx.size
-    }
-  }
-
-  override def computeFeatureValues(attr: PreprocessedValues): Double = {
-    if(attr.values.isEmpty) {
-      0.0
-    } else {
-      val numSample = if(attr.values.length > maxSampleSize) maxSampleSize else attr.values.length
-      val randIdx = (new Random(124213)).shuffle(attr.values.indices.toList).take(numSample)
-      val regexResults = randIdx.filter {
-        idx => datePattern1.pattern.matcher(attr.values(idx)).matches ||
-          datePattern2.pattern.matcher(attr.values(idx)).matches ||
-          datePattern3.pattern.matcher(attr.values(idx)).matches ||
-          datePattern4.pattern.matcher(attr.values(idx)).matches
       }
       regexResults.size.toDouble / randIdx.size
     }
@@ -1199,24 +567,13 @@ object CharDistFeatureExtractor {
   def getGroupName() = "char-dist-features"
   def getFeatureNames() = (1 to chars.length).map({"char-dist-" + _}).toList
 }
-case class CharDistFeatureExtractor() extends GroupFeatureLimExtractor {
+case class CharDistFeatureExtractor() extends GroupFeatureExtractor {
 
   override def getGroupName(): String =
     CharDistFeatureExtractor.getGroupName
 
   override def getFeatureNames(): List[String] =
     CharDistFeatureExtractor.getFeatureNames
-
-  override def computeFeaturesLim(attribute: LimPreprocessedAttribute): List[Double] = {
-    val normalisedCharDists = attribute.charDist
-    if (normalisedCharDists.isEmpty) {
-      CharDistFeatureExtractor.chars.map { _ => 0.0}.toList
-    } else {
-      CharDistFeatureExtractor.chars.toList.map {
-        c => normalisedCharDists.getOrElse(c, 0.0)
-      }
-    }
-  }
 
   override def computeSimpleFeatures(attribute: SimpleAttribute): List[Double] = {
     val normalisedCharDists = attribute.charDist
@@ -1306,7 +663,7 @@ object DataTypeFeatureExtractor {
   def getGroupName(): String = "inferred-data-type"
 }
 case class DataTypeFeatureExtractor(typeMapFile: Option[String] = None
-                                   ) extends GroupFeatureLimExtractor with LazyLogging {
+                                   ) extends GroupFeatureExtractor with LazyLogging {
   val keys = List(
     ("inferred-type-float", "float"),
     ("inferred-type-integer", "integer"),
@@ -1337,23 +694,6 @@ case class DataTypeFeatureExtractor(typeMapFile: Option[String] = None
   override def getGroupName(): String = DataTypeFeatureExtractor.getGroupName
 
   override def getFeatureNames(): List[String] = keys.map(_._1)
-
-  override def computeFeaturesLim(attribute: LimPreprocessedAttribute): List[Double] = {
-    typeMap.flatMap {
-      m =>
-        val predefinedType = m.get(attribute.attributeName)
-        predefinedType.map {
-          t =>
-            keys.map {
-              case (fname, typename) => if(typename.equalsIgnoreCase(t)) 1.0 else 0.0
-            }
-        }
-    }.getOrElse(
-      keys.map {
-        case (featureName, typeName) =>
-          if(attribute.inferredMap(featureName)) 1.0 else 0.0
-      })
-  }
 
   override def computeSimpleFeatures(attribute: SimpleAttribute): List[Double] = {
     typeMap.flatMap {
@@ -1439,7 +779,7 @@ case class TextStatsFeatureExtractor() extends GroupFeatureExtractor {
 object NumberTypeStatsFeatureExtractor {
   def getGroupName(): String = "stats-of-numerical-type"
 }
-case class NumberTypeStatsFeatureExtractor() extends GroupFeatureFullExtractor {
+case class NumberTypeStatsFeatureExtractor() extends GroupFeatureExtractor {
   val floatRegex = """(^[+-]?[0-9]*\.[0-9]+)|(^[+-]?[0-9]+)""".r
 
   override def getGroupName(): String =
@@ -1448,30 +788,6 @@ case class NumberTypeStatsFeatureExtractor() extends GroupFeatureFullExtractor {
   override def getFeatureNames(): List[String] =
     List("numTypeMean","numTypeMedian",
       "numTypeMode","numTypeMin","numTypeMax")
-
-  override def computeFeatureFull(attribute: FullPreprocessedAttribute): List[Double] = {
-    if(attribute.inferredMap("inferred-type-integer") ||
-      attribute.inferredMap("inferred-type-float") ||
-      attribute.inferredMap("inferred-type-long")) {
-      val values = attribute.values
-        .filter{
-          x => x.nonEmpty && floatRegex.pattern.matcher(x).matches
-        }
-        .map(_.toDouble)
-      val mean = values.sum / values.length.toDouble
-
-      val sortedValues = values.sorted
-      val median = sortedValues(Math.ceil(values.length.toDouble/2.0).toInt - 1)
-
-      val mode = values.groupBy(identity).maxBy(_._2.length)._1
-
-      val max = values.foldLeft(0.0)({case (mx,v) => if(v > mx) v else mx})
-      val min = values.foldLeft(max)({case (mn,v) => if(v < mn) v else mn})
-      List(mean,median,mode,min,max)
-    } else {
-      List(-1.0,-1.0,-1.0,-1.0,-1.0)
-    }
-  }
 
   override def computeSimpleFeatures(attribute: SimpleAttribute): List[Double] = {
     if(attribute.inferredMap("inferred-type-integer") ||

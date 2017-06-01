@@ -17,7 +17,7 @@
   */
 package au.csiro.data61.core.drivers
 
-import java.io.{FileReader, FileInputStream, ObjectInputStream}
+import java.io.{FileInputStream, FileReader, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.api.InternalException
@@ -29,6 +29,8 @@ import au.csiro.data61.matcher.ingestion.loader.CsvDataLoader
 import au.csiro.data61.matcher.matcher.MLibSemanticTypeClassifier
 import au.csiro.data61.matcher.matcher.features.FeatureExtractor
 import au.csiro.data61.matcher.matcher.featureserialize.ModelFeatureExtractors
+import au.csiro.data61.matcher.matcher.train.BaggingParams
+import au.csiro.data61.matcher.matcher.train.TrainAliases._
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.csv.CSVFormat
 
@@ -37,6 +39,7 @@ import org.apache.spark.ml.PipelineModel
 import org.json4s.jackson.JsonMethods._
 import org.scalatest.path
 import org.json4s._
+
 import scala.collection.JavaConverters._
 //import com.github.tototoshi.csv.CSVReader
 // data integration project
@@ -65,15 +68,11 @@ class ObjectInputStreamWithCustomClassLoader(fileInputStream: FileInputStream)
 object ModelPredictor extends LazyLogging with JsonFormats {
 
   /**
-    * Performs prediction for the model and returns predictions for all datasets in the repository
-    *
+    * Performs prediction for the model and returns predictions for a dataset in the repository
     * @param id id of the model
     * @return Serialized Mlib classifier wrapped in Option
     */
   def predict(id: ModelID, datasetID: DataSetID): DataSetPrediction = {
-
-    logger.info(s"Predicting values for the dataset $datasetID.")
-
     logger.info(s"Dataset $datasetID is not in the cache. Computing prediction...")
 
     val serializedModel =
@@ -105,7 +104,6 @@ object ModelPredictor extends LazyLogging with JsonFormats {
 
   /**
     * Reads the file with the serialized MLib classifier and returns it.
-    *
     * @param filePath string which indicates file location
     * @return Serialized Mlib classifier wrapped in Option
     */
@@ -133,28 +131,46 @@ object ModelPredictor extends LazyLogging with JsonFormats {
   }
 
   /**
-    * Performs prediction for a specified dataset using the model
-    * and returns predictions for the specified dataset in the repository
-    *
-    * @param id id of the model
-    * @param dsPath path of the dataset
-    * @param sModel Serialized Mlib classifier
-    * @param dataSetID id of the dataset
-    * @return PredictionObject wrapped in Option
+    * Get bagging parameters depending on resampling strategy
+    * @param id model id
+    * @return
     */
-  def runPrediction(id: ModelID,
-                    dsPath: Path,
-                    sModel: SerializableMLibClassifier,
-                    dataSetID: DataSetID): Option[DataSetPrediction] = {
+  private def getBaggingParams(id: ModelID): Option[BaggingParams] = {
+    logger.debug(s"Obtaining bagging params for prediction with model $id")
+    for {
+      stored <- ModelStorage.get(id)
 
-    val derivedFeatureFile = predictionsPath(id, dataSetID)
+      bnum <- Try {stored.numBags} toOption
+
+      bsize <- Try {stored.bagSize} toOption
+
+      strat <- stored.resamplingStrategy match {
+          case SamplingStrategy.BAGGING => Some(BaggingParams(numBags = bnum, bagSize = bsize))
+          case SamplingStrategy.BAGGING_TO_MAX => Some(BaggingParams(numBags = bnum, bagSize = bsize))
+          case SamplingStrategy.BAGGING_TO_MEAN => Some(BaggingParams(numBags = bnum, bagSize = bsize))
+          case _ => None
+      }
+
+    } yield strat
+  }
+
+  /**
+    * Need it for testing!
+    * @param id
+    * @param dsPath
+    * @param sModel
+    * @param derivedFeatureFile
+    * @return
+    */
+  def modelPrediction(id: ModelID,
+                      dsPath: Path,
+                      sModel: SerializableMLibClassifier,
+                      derivedFeatureFile: Path): Try[PredictionObject] = Try {
+
     // loading data in the format suitable for data-integration project
-    // TODO: check that this is the correct loader for the dataset
-//    val absFilePath = Paths.get( dsPath.getParent.toString, dsPath.getFileName.toString).toString
     logger.info("   starting with csv reading for prediction...")
     val absFilePath = Paths.get(dsPath.getParent.toString, dsPath.getFileName.toString).toString
     val dataset = CsvDataLoader().load(absFilePath)
-
     logger.info("   csv file for prediction has been read!")
 
     val randomForestClassifier = MLibSemanticTypeClassifier(
@@ -162,16 +178,35 @@ object ModelPredictor extends LazyLogging with JsonFormats {
       sModel.model,
       sModel.featureExtractors,
       None,
-      Option(derivedFeatureFile.toString))
+      Option(derivedFeatureFile.toString),
+      getBaggingParams(id))
+
+    randomForestClassifier.predict(List(dataset))
+  }
+
+  /**
+    * Performs prediction for a specified dataset using the model
+    * and returns predictions for the specified dataset in the repository
+    * @param id id of the model
+    * @param dsPath path of the dataset
+    * @param sModel Serialized Mlib classifier
+    * @param dataSetID id of the dataset
+    * @return DataSetPrediction wrapped in Option
+    */
+  def runPrediction(id: ModelID,
+                    dsPath: Path,
+                    sModel: SerializableMLibClassifier,
+                    dataSetID: DataSetID): Option[DataSetPrediction] = {
+
+    val derivedFeatureFile = predictionsPath(id, dataSetID)
 
     // TODO: Fix how this works, the writing and reading to files is unnecessary
-    Try(randomForestClassifier.predict(List(dataset))) match {
+    modelPrediction(id, dsPath, sModel, derivedFeatureFile) match {
       case Success(_) =>
         Try {
           readPredictions(derivedFeatureFile, sModel.classes.size, id, dataSetID)
         } toOption
       case Failure(err) =>
-        // prediction failed for the dataset
         logger.warn(s"Prediction for the dataset $dsPath failed: $err")
         None
     }
@@ -179,7 +214,6 @@ object ModelPredictor extends LazyLogging with JsonFormats {
 
   /**
     * The format for the data-integration line
- *
     * @param id The name of the column in data-integration format
     * @param label The label given to the column
     * @param confidence The confidence the predictor has for the label
@@ -195,7 +229,6 @@ object ModelPredictor extends LazyLogging with JsonFormats {
   /**
     * For the body of the data-integration code, the confidence, class and
     * feature values are doubles. Here we simply convert them over
- *
     * @param id The name of the column in data-integration format
     * @param label The label given to the column
     * @param confidence The confidence the predictor has for the label
@@ -221,7 +254,6 @@ object ModelPredictor extends LazyLogging with JsonFormats {
 
   /**
     * Function to read a line in the data-integration format
- *
     * @param list A line in the csv
     * @param classNum The number of classes selected
     * @return
@@ -240,7 +272,6 @@ object ModelPredictor extends LazyLogging with JsonFormats {
 
   /**
     * Read predictions from the csv file
-    *
     * @param filePath string which indicates the location of the file with predictions
     * @param classNum number of classes in the model
     * @param modelID id of the model

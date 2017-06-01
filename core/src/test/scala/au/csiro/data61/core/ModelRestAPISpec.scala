@@ -1007,7 +1007,7 @@ class ModelRestAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach
       assert(learntModelFile.exists === true)
 
       // pre-computed model with default spark config
-      val corFile = Paths.get(helperDir, "deafaultfeatures_noresampling_spark2.rf").toFile
+      val corFile = Paths.get(helperDir, "defaultfeatures_noresampling_spark2.rf").toFile
 
       // checking that the models are the same; direct comparison of file contents does not yield correct results
       (for {

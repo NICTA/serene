@@ -22,6 +22,7 @@ import java.io.{File, PrintWriter}
 
 import au.csiro.data61.matcher.data._
 import au.csiro.data61.matcher.matcher.features._
+import au.csiro.data61.matcher.matcher.train.{BaggingParams, ClassImbalanceResampler}
 import au.csiro.data61.matcher.matcher.train.TrainAliases._
 import org.apache.spark.sql._
 import org.apache.spark.sql.types._
@@ -38,7 +39,8 @@ case class MLibSemanticTypeClassifier(
         model: PipelineModel,
         featureExtractors: List[FeatureExtractor],
         postProcessingConfig: Option[Map[String,Any]] = None,
-        derivedFeaturesPath: Option[String] = None)
+        derivedFeaturesPath: Option[String] = None,
+        baggingParams: Option[BaggingParams] = None)
   extends SemanticTypeClassifier with LazyLogging {
 
   /**
@@ -99,6 +101,22 @@ case class MLibSemanticTypeClassifier(
     predsReordered
   }
 
+  def extractTestFeatures(allAttributes: List[Attribute]
+                         )(implicit spark: SparkSession): (List[List[Double]], List[String]) = {
+    baggingParams match {
+      case Some(BaggingParams(numBags,bagSize)) =>
+        val featureAttributes: List[(List[Double], String)] = FeatureExtractorUtil
+          .extractBaggingFeatures(allAttributes, featureExtractors,
+            numBags = numBags, bagSize = bagSize)
+        (featureAttributes.map(_._1), featureAttributes.map(_._2))
+//        val newAttrs = ClassImbalanceResampler.testBagging(allAttributes, bagSize, numBags)
+//        (FeatureExtractorUtil
+//          .extractTestFeatures(newAttrs, featureExtractors), newAttrs.map(_.id))
+      case _ => (FeatureExtractorUtil
+        .extractFeatures(allAttributes, featureExtractors), allAttributes.map(_.id))
+    }
+  }
+
   /**
     * Helper function to construct Spark DataFrame, then perform prediction for this dataframe using the trained
     * model and perform reordering of the predicitons in accordance with the order of the classes.
@@ -107,7 +125,7 @@ case class MLibSemanticTypeClassifier(
     * @return Triplet with the predictions, list of extracted features, list of feature names.
     */
   protected def constructDF(allAttributes: List[Attribute]
-                 )(implicit spark: SparkSession): (Array[Array[Double]], List[List[Double]], List[String]) = {
+                 )(implicit spark: SparkSession): (Predictions, List[List[Double]], List[String]) = {
 
     //get feature names and construct schema
     val featureNames = featureExtractors.flatMap({
@@ -120,8 +138,7 @@ case class MLibSemanticTypeClassifier(
     )
 
     // extract features
-    val features: List[List[Double]] = FeatureExtractorUtil
-      .extractFeatures(allAttributes, featureExtractors)
+    val (features: List[List[Double]], attributeIds: List[String]) = extractTestFeatures(allAttributes)
     logger.info(s"   extracted ${features.size} features")
 
     val data = features
@@ -132,7 +149,24 @@ case class MLibSemanticTypeClassifier(
 
     spark.stop()
 
-    (predsReordered, features, featureNames)
+
+    val predictions: Predictions = baggingParams match {
+      case Some(_) =>
+        val allPredictions: Predictions = attributeIds zip predsReordered // this was returned previously by this function
+
+        def average(x: Seq[(String,Scores)]): Scores = {
+          val emptyScores: Scores = Array.fill(classes.size)(0.0)
+          if (x.nonEmpty) {
+            x.foldLeft(emptyScores)((s,n) => (s, n._2).zipped.map(_ + _)).map(_ / x.length)
+          } else { emptyScores }
+        }
+        // group predictions
+        allPredictions.groupBy(_._1).mapValues(average).toList
+      case _ =>
+        attributeIds zip predsReordered
+    }
+
+    (predictions, features, featureNames)
   }
 
   override def predict(datasets: List[DataModel]): PredictionObject = {
@@ -144,19 +178,25 @@ case class MLibSemanticTypeClassifier(
       .flatMap { DataModel.getAllAttributes }
     logger.info(s"   obtained ${allAttributes.size} attributes")
 
-    val (predsReordered, features, featureNames) = constructDF(allAttributes)
+    val (predictions, features, featureNames) = constructDF(allAttributes)
 
-    val predictions: Predictions = allAttributes zip predsReordered // this was returned previously by this function
+    logger.info(s"Amount of predictions: ${predictions.length}")
+    logger.info(s"Amount of attributes: ${allAttributes.size}")
+
+
     // get the class with the max score per each attribute
     val maxClassPreds: List[(String,String,Double)] = predictions
       .map { case (attr, scores) =>
         val maxIdx = scores.zipWithIndex.maxBy(_._1)._2
         val maxScore = scores(maxIdx)
         val classPred = classes(maxIdx)
-        (attr.id, classPred, maxScore)
+        (attr, classPred, maxScore)
     }.toList
 
     // we want to return an array of (Attribute, predictedClassScores, derivedFeatures)
+    // TODO: for bagging strategy features will be in the wrong order.
+    // actually, they will not make much sense in any case since features
+    // were calculated for bags and not original columns!
     val predictionsFeatures: PredictionObject = predictions
       .zip(features)
       .map{ case ((a, sc), f) => (a, sc, f)}
@@ -222,8 +262,8 @@ case class MLibSemanticTypeClassifier(
 
     //write features
     predictionsFeatures.foreach({
-      case (attr, scores, features) =>
-        val id = attr.id
+      case (id, scores, features) =>
+//        val id = attr.id
         val classPred = maxClassPreds
           .filter(elem => elem._1 == id).head
         out.println((id :: classPred._2 :: classPred._3 :: scores.toList ::: features).mkString(","))

@@ -190,24 +190,24 @@ object ClassImbalanceResampler extends LazyLogging {
             throw new Exception("Attribute does not have enough values for sampling the bag.")
         }
 
-        attribute.values.size > bagSize match {
-            case true =>
-                // we need to randomly pick bagSize rows into each bag
-                (1 to numBags).map {
-                    idx =>
-                        val randGenerator = new scala.util.Random(min(501 * idx, Int.MaxValue -1))
-                        val sampleVals = randGenerator.shuffle(attribute.values).take(bagSize)
-                        new Attribute(attribute.id, attribute.metadata, sampleVals, attribute.parent)
-                } toList
-            //FIXME: attributes will not have unique attribute ids any more
-            case false => List.fill(numBags)(attribute) // we replicate attribute numBags times
+        //NOTE: attributes will not have unique attribute ids any more
+        if (attribute.values.size > bagSize) {
+            // we need to randomly pick bagSize rows into each bag
+            (1 to numBags).map {
+                idx =>
+                    val randGenerator = new scala.util.Random(min(501 * idx, Int.MaxValue -1))
+                    val sampleVals = randGenerator.shuffle(attribute.values).take(bagSize)
+                    new Attribute(attribute.id, attribute.metadata, sampleVals, attribute.parent)
+            } toList
+        } else {
+            List.fill(numBags)(attribute) // we replicate attribute numBags times
         }
     }
 
     /**
       * Helper method to perform bagging.
       * Calculates a list of numBags to be generated per each attribute in the same class group.
-      * It's a helper method for class imbalance resamplings.
+      * It's a helper method for class imbalance resampling.
       * @param sampleSize Number of samples to be produced in total per class group.
       * @param instancesSize Number of  available attributes in the class group.
       * @return
@@ -225,7 +225,15 @@ object ClassImbalanceResampler extends LazyLogging {
         } toList
     }
 
-    def baggingResample(sampleSize: Int,
+    /**
+      * Use bagging + resampling strategy.
+      * @param sampleSize Number of samples to be produced in total per class group.
+      * @param instCountPerClass Number of attributes per class before resampling
+      * @param bagSize Number of rows to be randomly sampled into a bag
+      * @param numBags Number of bags to be produced per column
+      * @return
+      */
+    private def baggingResample(sampleSize: Int,
                         instCountPerClass: List[(String, List[(String, Attribute)], Int)],
                         bagSize: Int,
                         numBags: Int): List[Attribute] = {
@@ -253,6 +261,67 @@ object ClassImbalanceResampler extends LazyLogging {
       * Method to sample attributes by using bagging.
       * Here, we tackle two problems: class imbalance and insufficient data.
       * A bag is a collection of rows randomly picked from a column.
+      * This is used for prediction!
+      * @param attributes Original columns.
+      * @param bagSize Number of rows to be randomly picked from the column into a bag, default 100.
+      * @param numBags Number of bags to be generated per column to tackle the issue of insufficient data,
+      *                   default 100.
+      * @return Sampled feature vectors to be used for prediction.
+      */
+    def testBagging(attributes: List[Attribute],
+                    bagSize: Int = DefaultBagging.BagSize,
+                    numBags: Int = DefaultBagging.NumBags
+                   ): List[Attribute] = {
+        logger.debug("***Performing bagging...")
+        attributes
+          .flatMap {
+              attr => if (attr.values.size < bagSize) {
+                  bagSampleAttribute(attr, bagSize, numBags)
+              } else {
+                  // we then will do sampling with replacement
+                  logger.debug("Row size is not sufficient for indicated bagSize. " +
+                    "Sampling with replacement will be used.")
+                  val replValues = (1 to 1 + bagSize / attr.values.size)
+                    .foldLeft(attr.values){(cur,v) => cur ::: attr.values}
+                  val newAttr = new Attribute(attr.id, attr.metadata, replValues, attr.parent)
+                  bagSampleAttribute(newAttr, bagSize, numBags)
+              }
+          }
+    }
+
+    /**
+      * Method to sample one attribute by using bagging.
+      * Here, we tackle two problems: class imbalance and insufficient data.
+      * A bag is a collection of rows randomly picked from a column.
+      * This is used for prediction!
+      * @param attr Original column.
+      * @param bagSize Number of rows to be randomly picked from the column into a bag, default 100.
+      * @param numBags Number of bags to be generated per column to tackle the issue of insufficient data,
+      *                   default 100.
+      * @return Sampled feature vectors to be used for prediction.
+      */
+    def testBaggingAttribute(attr: Attribute,
+                    bagSize: Int = DefaultBagging.BagSize,
+                    numBags: Int = DefaultBagging.NumBags
+                   ): List[Attribute] = {
+//        logger.debug("***Performing bagging...")
+        if (attr.values.size > bagSize) {
+            bagSampleAttribute(attr, bagSize, numBags)
+        } else {
+            // we then will do sampling with replacement
+            logger.debug("Row size is not sufficient for indicated bagSize. " +
+              "Sampling with replacement will be used.")
+            val replValues = (1 to 1 + bagSize / attr.values.size)
+              .foldLeft(attr.values){(cur,v) => cur ::: attr.values}
+            val newAttr = new Attribute(attr.id, attr.metadata, replValues, attr.parent)
+            bagSampleAttribute(newAttr, bagSize, numBags)
+        }
+    }
+
+    /**
+      * Method to sample attributes by using bagging.
+      * Here, we tackle two problems: class imbalance and insufficient data.
+      * A bag is a collection of rows randomly picked from a column.
       * @param strategy Resampling strategy to be used to tackle class imbalance.
       * @param attributes Original columns.
       * @param labels Semantic labels/types for columns.
@@ -270,15 +339,15 @@ object ClassImbalanceResampler extends LazyLogging {
         val instCountPerClass = attributes
           .map {
               attr =>
-                  val bagSizeAttr: Attribute = attr.values.size < bagSize match {
-                      case false => attr
-                      case true =>
-                          logger.debug("Row size is not sufficient for indicated bagSize. " +
-                            "Sampling with replacement will be used.")
-                            // we then will do sampling with replacement
-                          val replValues = (1 to 1 + bagSize / attr.values.size)
-                            .foldLeft(attr.values){(cur,v) => cur ::: attr.values}
-                        new Attribute(attr.id, attr.metadata, replValues, attr.parent)
+                  val bagSizeAttr: Attribute = if (attr.values.size > bagSize) {
+                      attr
+                  } else {
+                      logger.debug("Row size is not sufficient for indicated bagSize. " +
+                        "Sampling with replacement will be used.")
+                      // we then will do sampling with replacement
+                      val replValues = (1 to 1 + bagSize / attr.values.size)
+                        .foldLeft(attr.values){(cur,v) => cur ::: attr.values}
+                      new Attribute(attr.id, attr.metadata, replValues, attr.parent)
                   }
                   (labels.findLabel(attr.id), bagSizeAttr)
           }
@@ -287,8 +356,6 @@ object ClassImbalanceResampler extends LazyLogging {
               case (classname, instances) =>
                   (classname, instances, numBags * instances.size) // the amount of bags generated per each class
           } toList
-
-//        logger.info(s"***instCountPerClass: $instCountPerClass")
 
         val baggedAttrs: List[Attribute] = strategy match {
             case "None" =>
@@ -311,6 +378,19 @@ object ClassImbalanceResampler extends LazyLogging {
         baggedAttrs
     }
 
+    private def capUnknown(attributes: List[Attribute], labels: SemanticTypeLabels): List[Attribute] = {
+        val (knownSet, unknownSet) = attributes.partition({a => labels.findLabel(a.id) != "unknown"})
+        val maxUnknownSetSize = Math.min(knownSet.size, unknownSet.size)
+        if(unknownSet.size > maxUnknownSetSize) {
+            //subsample "unknown" classes to reduce bias
+            val subsampledUnknownSet = (new Random(716241)).shuffle(unknownSet).take(maxUnknownSetSize)
+            logger.warn("   subsampled 'unknown' instances from " + unknownSet.size + " to " + subsampledUnknownSet.size)
+            knownSet ::: subsampledUnknownSet
+        } else {
+            attributes
+        }
+    }
+
     def resample(strategy: String,
                  attributes: List[Attribute],
                  labels: SemanticTypeLabels,
@@ -318,9 +398,6 @@ object ClassImbalanceResampler extends LazyLogging {
                  numBags: Int = 100
                 ): List[Attribute] = {
         logger.info("***Resampling instances with: " + strategy)
-//        logger.info("   attributes obtained: "+attributes.map(_.id).mkString(","))
-//        logger.info("   semantictypelabels")
-//        logger.info(s"${labels}")
 
         val resampledAttrs = strategy match {
             case "UpsampleToMax" => resampleToMax(attributes, labels)
@@ -328,18 +405,7 @@ object ClassImbalanceResampler extends LazyLogging {
             case "UpsampleToMean" => resampleToMean(attributes, labels, false)
             case "ResampleToMedian" => resampleToMedian(attributes, labels, true)
             case "UpsampleToMedian" => resampleToMedian(attributes, labels, false)
-            case "CapUnknownToHalf" => {
-                val (knownSet, unknownSet) = attributes.partition({a => labels.findLabel(a.id) != "unknown"})
-                val maxUnknownSetSize = Math.min(knownSet.size, unknownSet.size)
-                if(unknownSet.size > maxUnknownSetSize) {
-                    //subsample "unknown" classes to reduce bias
-                    val subsampledUnknownSet = (new Random(716241)).shuffle(unknownSet).take(maxUnknownSetSize)
-                    logger.warn("   subsampled 'unknown' instances from " + unknownSet.size + " to " + subsampledUnknownSet.size)
-                    knownSet ::: subsampledUnknownSet
-                } else {
-                    attributes
-                }
-            }
+            case "CapUnknownToHalf" => capUnknown(attributes, labels)
             case "CostMatrix" =>
                 logger.info("Cost matrix is not available. No resampling is done.")
                 attributes // TODO: not available in Spark MlLib currently
@@ -348,13 +414,10 @@ object ClassImbalanceResampler extends LazyLogging {
             case "BaggingToMax" => bagging("ResampleToMax", attributes, labels, bagSize, numBags)
             case "BaggingToMean" => bagging("ResampleToMean", attributes, labels, bagSize, numBags)
 
-            case x => {
-                //Invalid sampling method.
+            case x =>
                 logger.warn("!!!! ERROR: Invalid sampling strategy: " + x + " !!!!")
                 List()
-            }
         }
-
         //shuffle
         (new Random(10857171)).shuffle(resampledAttrs)
     }
