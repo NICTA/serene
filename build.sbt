@@ -53,7 +53,7 @@ lazy val root = Project(
   .dependsOn(core, common, algorithm)
 
 /**
-  * Serene algorithm module. Holds the global types for the system.
+  * Serene algorithm module. Holds the implementations of the algorithms for machine learning, social network analysis, and graph traversal.
   */
 lazy val algorithm = Project(
   id = "serene-algorithm",
@@ -77,6 +77,34 @@ lazy val algorithm = Project(
       ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
     )
   )
+
+/**
+  * Serene embedding module. Holds the algorithms for generating node embeddings across graphs.
+  */
+lazy val embedding = Project(
+  id = "serene-embedding",
+  base = file("embedding")
+)
+  .settings(commonSettings)
+  .settings(
+    name := "serene-embedding",
+    organization := "au.csiro.data61.serene",
+    version := mainVersion,
+
+    libraryDependencies ++= Seq(
+      "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
+      ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
+      ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
+      ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
+      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+      ,"com.typesafe"               %  "config"             % "1.3.0"
+      ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
+      ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
+      ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
+    )
+  )
+
+
 
 /**
   * Serene common module. Holds the global types, constants and data structures for the system.
