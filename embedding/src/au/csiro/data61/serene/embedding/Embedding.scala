@@ -15,21 +15,18 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.serene.algorithm
+package au.csiro.data61.serene.embedding
 
-import scala.util.{Success, Failure, Try}
-
-case class Classifier(parameter: String, model: String) {
-
-  def train(trainX: Any, trainY: Any, testX: Any, testY: Any): Classifier = {
-    this.copy(model = "I am trained")
-  }
-
-  def predict: Try[(String, Double)] = {
-    if (model.isEmpty) {
-      Failure { new Exception("Model is not trained") }
-    } else {
-      Success { ("good!", 0.8) }
-    }
-  }
+object Matrix {
+  type Matrix = Array[Array[Double]]
 }
+
+import Matrix._
+
+trait Embedding[T] {
+  val matrix: T
+}
+
+case class NodeEmbedding(matrix: Matrix) extends Embedding[Matrix]
+
+case class MetaPathEmbedding(matrix: Matrix) extends Embedding[Matrix]
