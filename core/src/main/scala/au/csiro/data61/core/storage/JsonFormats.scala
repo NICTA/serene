@@ -17,15 +17,11 @@
   */
 package au.csiro.data61.core.storage
 
-import au.csiro.data61.types.SsdTypes.OwlDocumentFormat
-import au.csiro.data61.types.Training.StatusSerializer
 import org.json4s.Formats
 import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.types._
-import au.csiro.data61.matcher.matcher.featureserialize._
 import org.json4s._
-import org.json4s.ext.EnumNameSerializer
 
 /**
   * Serializer for the Java.io.Path object
@@ -50,27 +46,6 @@ trait JsonFormats {
 
   implicit def json4sFormats: Formats =
     org.json4s.DefaultFormats +
-      //org.json4s.ext.JodaTimeSerializers.all +
       JodaTimeSerializer +
-      LogicalTypeSerializer +
-      PathSerializer +
-      SamplingStrategySerializer +
-      ModelTypeSerializer +
-      FeatureSerializer +
-      StatusSerializer +
-      FeaturesConfigSerializer +
-      RfKnnFeatureExtractorSerializer +
-      RfKnnFeatureSerializer +
-      MinEditDistFromClassExamplesFeatureExtractorSerializer +
-      JCNMinWordNetDistFromClassExamplesFeatureExtractorSerializer +
-      LINMinWordNetDistFromClassExamplesFeatureExtractorSerializer +
-      MeanCharacterCosineSimilarityFeatureExtractorSerializer +
-      ModelFeatureExtractorsSerializer +
-      SingleFeatureExtractorSerializer +
-      NamedGroupFeatureExtractorSerializer +
-      SsdNodeSerializer +
-      HelperLinkSerializer +
-      SemanticModelSerializer +
-      SsdMappingSerializer +
-      new EnumNameSerializer(OwlDocumentFormat)
+      PathSerializer
 }

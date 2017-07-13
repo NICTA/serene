@@ -29,6 +29,7 @@ import com.twitter.finagle.{Http, ListeningServer, Server}
 import com.twitter.conversions.storage._
 import io.finch._
 import io.finch.json4s._
+import json4s._
 
 /**
   * Main object for Serene server. We use the App object to access the
@@ -48,11 +49,6 @@ object Serene extends LazyLogging with JsonFormats with RestAPI {
 
   // the full api handler
   val endpoints =
-    DatasetAPI.endpoints :+:
-      ModelAPI.endpoints :+:
-      OctopusAPI.endpoints :+:
-      OwlAPI.endpoints :+:
-      SsdAPI.endpoints :+:
       TestAPI.endpoints
 
   val restAPI = {

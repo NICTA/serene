@@ -2,7 +2,9 @@
 *.class
 *.log
 
+
 # sbt specific
+core.iml
 .cache
 .history
 .lib/

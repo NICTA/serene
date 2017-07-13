@@ -1,8 +1,0 @@
--A0 -%! -c10 -a http://data.gov.uk/publisher/ashfield-district-council -* +*/dataset* +*/resource_cache/* +*.csv -r 1
-File generated automatically on Tue, 31 Mar 2015 15:56:31, do NOT edit
-
-To update a mirror, just launch httrack without any parameters
-The existing cache will be used (and modified)
-To have other options, retype all parameters and launch HTTrack
-To continue an interrupted mirror, just launch httrack without any parameters
-

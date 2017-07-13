@@ -32,7 +32,8 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
     "org.apache.spark"            %%  "spark-core"           % "2.1.0",
     "org.apache.spark"            %%  "spark-sql"            % "2.1.0",
     "org.apache.spark"            %%  "spark-mllib"          % "2.1.0",
-    "org.apache.commons"          %  "commons-csv"           % "1.4")
+    "org.apache.commons"          %   "commons-csv"          % "1.4",
+    "joda-time"                   %   "joda-time"            % "2.9.9")
 )
 
 /**
@@ -48,19 +49,19 @@ lazy val root = Project(
     version := mainVersion,
     mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene")
   )
-  .aggregate(core, matcher, modeler)
-  .dependsOn(core, matcher, modeler)
+  .aggregate(core, common)
+  .dependsOn(core, common)
 
 /**
   * Serene type module. Holds the global types for the system.
   */
-lazy val types = Project(
+lazy val common = Project(
   id = "serene-types",
-  base = file("types")
+  base = file("common")
 )
   .settings(commonSettings)
   .settings(
-    name := "serene-types",
+    name := "serene-common",
     organization := "au.csiro.data61",
     version := mainVersion,
 
@@ -80,76 +81,76 @@ lazy val types = Project(
 /**
   * Schema Matcher module
   */
-lazy val matcher = Project(
-    id = "serene-matcher",
-    base = file("matcher")
-  )
-  .settings(commonSettings)
-  .settings(
-    name := "serene-matcher",
-    organization := "au.csiro.data61",
-    version := "1.2.0-SNAPSHOT",
-
-    libraryDependencies ++= Seq(
-      "org.specs2"                  %% "specs2-core"           % "3.7" % Test,
-      "org.specs2"                  %% "specs2-matcher-extra"  % "3.7" % Test,
-      "org.specs2"                  %% "specs2-html"           % "3.7" % Test,
-      "org.specs2"                  %% "specs2-form"           % "3.7" % Test,
-      "org.specs2"                  %% "specs2-scalacheck"     % "3.7" % Test,
-      "org.specs2"                  %% "specs2-mock"           % "3.7" % Test exclude("org.mockito", "mockito-core"),
-      "org.specs2"                  %% "specs2-junit"          % "3.7" % Test,
-      "com.rubiconproject.oss"      %  "jchronic"              % "0.2.6",
-      "org.json4s"                  %% "json4s-native"         % "3.2.10",
-      "com.typesafe.scala-logging"  %% "scala-logging"         % "3.4.0",
-      "com.joestelmach"             %  "natty"                 % "0.8"
-    ),
-
-    resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),
-
-    initialCommands in console in Test := "import org.specs2._",
-
-    fork in Test := true
-  )
+//lazy val matcher = Project(
+//    id = "serene-matcher",
+//    base = file("matcher")
+//  )
+//  .settings(commonSettings)
+//  .settings(
+//    name := "serene-matcher",
+//    organization := "au.csiro.data61",
+//    version := "1.2.0-SNAPSHOT",
+//
+//    libraryDependencies ++= Seq(
+//      "org.specs2"                  %% "specs2-core"           % "3.7" % Test,
+//      "org.specs2"                  %% "specs2-matcher-extra"  % "3.7" % Test,
+//      "org.specs2"                  %% "specs2-html"           % "3.7" % Test,
+//      "org.specs2"                  %% "specs2-form"           % "3.7" % Test,
+//      "org.specs2"                  %% "specs2-scalacheck"     % "3.7" % Test,
+//      "org.specs2"                  %% "specs2-mock"           % "3.7" % Test exclude("org.mockito", "mockito-core"),
+//      "org.specs2"                  %% "specs2-junit"          % "3.7" % Test,
+//      "com.rubiconproject.oss"      %  "jchronic"              % "0.2.6",
+//      "org.json4s"                  %% "json4s-native"         % "3.2.10",
+//      "com.typesafe.scala-logging"  %% "scala-logging"         % "3.4.0",
+//      "com.joestelmach"             %  "natty"                 % "0.8"
+//    ),
+//
+//    resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo),
+//
+//    initialCommands in console in Test := "import org.specs2._",
+//
+//    fork in Test := true
+//  )
 
 /**
   * Semantic Modeler module
   */
-lazy val modeler = Project(
-    id = "serene-modeler",
-    base = file("modeler")
-  )
-  .settings(commonSettings)
-  .settings(
-    name := "serene-modeler",
-    organization := "au.csiro.data61",
-    version := mainVersion,
-    parallelExecution in Test := false,
-
-    resolvers += Resolver.sonatypeRepo("snapshots"),
-    scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
-
-    libraryDependencies ++= Seq(
-      "org.json4s"                        %% "json4s-jackson"     % "3.2.10"
-      ,"org.json4s"                       %% "json4s-native"      % "3.2.10"
-      ,"org.json4s"                       %% "json4s-ext"         % "3.2.10"
-      ,"com.typesafe.scala-logging"       %% "scala-logging"      % "3.4.0"
-      ,"org.scalatest"                    %% "scalatest"          % "3.0.0-RC1"
-      ,"junit"                            %  "junit"              % "4.12"
-      ,"com.typesafe"                     %  "config"             % "1.3.0"
-      ,"org.scala-graph"                  %% "graph-core"         % "1.11.2"         // scala library to work with graphs
-      ,"org.jgrapht"                      %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
-      // java libraries which are needed to run Karma code
-      // versions are not the latest (but the ones used in the original Web-Karma project)
-      ,"org.json"                         %  "json"               % "20141113"       // dependency for Karma
-      ,"org.reflections"                  %  "reflections"        % "0.9.10"         // dependency for Karma
-      ,"commons-fileupload"               %  "commons-fileupload" % "1.2.2"          // dependency for Karma
-      ,"com.google.code.gson"             % "gson"                % "2.2.4"          // dependency for Karma
-      ,"com.hp.hpl.jena"                  % "jena"                % "2.6.4"          // dependency for Karma
-      ,"com.googlecode.juniversalchardet" % "juniversalchardet"   % "1.0.3"          // dependency for Karma
-      ,"org.kohsuke"                      % "graphviz-api"        % "1.1"            // dependency for Karma
-      , "uk.com.robust-it"                % "cloning"             % "1.8.5"          // dependency for Karma
-    )
-  ).dependsOn(types)
+//lazy val modeler = Project(
+//    id = "serene-modeler",
+//    base = file("modeler")
+//  )
+//  .settings(commonSettings)
+//  .settings(
+//    name := "serene-modeler",
+//    organization := "au.csiro.data61",
+//    version := mainVersion,
+//    parallelExecution in Test := false,
+//
+//    resolvers += Resolver.sonatypeRepo("snapshots"),
+//    scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+//
+//    libraryDependencies ++= Seq(
+//      "org.json4s"                        %% "json4s-jackson"     % "3.2.10"
+//      ,"org.json4s"                       %% "json4s-native"      % "3.2.10"
+//      ,"org.json4s"                       %% "json4s-ext"         % "3.2.10"
+//      ,"com.typesafe.scala-logging"       %% "scala-logging"      % "3.4.0"
+//      ,"org.scalatest"                    %% "scalatest"          % "3.0.0-RC1"
+//      ,"junit"                            %  "junit"              % "4.12"
+//      ,"com.typesafe"                     %  "config"             % "1.3.0"
+//      ,"org.scala-graph"                  %% "graph-core"         % "1.11.2"         // scala library to work with graphs
+//      ,"org.jgrapht"                      %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
+//      // java libraries which are needed to run Karma code
+//      // versions are not the latest (but the ones used in the original Web-Karma project)
+//      ,"org.json"                         %  "json"               % "20141113"       // dependency for Karma
+//      ,"org.reflections"                  %  "reflections"        % "0.9.10"         // dependency for Karma
+//      ,"commons-fileupload"               %  "commons-fileupload" % "1.2.2"          // dependency for Karma
+//      ,"com.google.code.gson"             % "gson"                % "2.2.4"          // dependency for Karma
+//      ,"com.hp.hpl.jena"                  % "jena"                % "2.6.4"          // dependency for Karma
+//      ,"com.googlecode.juniversalchardet" % "juniversalchardet"   % "1.0.3"          // dependency for Karma
+//      ,"org.kohsuke"                      % "graphviz-api"        % "1.1"            // dependency for Karma
+//      , "uk.com.robust-it"                % "cloning"             % "1.8.5"          // dependency for Karma
+//    )
+//  ).dependsOn(types)
 
 
 /**
@@ -193,5 +194,5 @@ lazy val core = Project(
     )
   .settings(jetty() : _*)
   .enablePlugins(RpmPlugin, JavaAppPackaging)
-  .dependsOn(matcher, modeler)
+  .dependsOn(common)
 
