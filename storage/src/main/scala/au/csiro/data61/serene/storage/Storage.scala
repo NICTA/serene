@@ -15,13 +15,8 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.serene.graph
+package au.csiro.data61.serene.storage
 
-import scalax.collection.Graph
-import scalax.collection.GraphPredef._
-
-object GraphStore {
-
-  val graphs = List(Graph(3~1, 5))
+object Storage {
 
 }

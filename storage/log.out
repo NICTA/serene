@@ -1,0 +1,21 @@
+17/07/13 22:59:33 INFO Serene$: Initializing with default params...
+17/07/13 22:59:33 INFO Config$: Setting number of workers to default.
+17/07/13 22:59:33 INFO Config$: Setting parallel feature extraction to true
+17/07/13 22:59:33 INFO Config$: Storage path at ./storage
+17/07/13 22:59:33 INFO Config$: Dataset repository at ./storage/datasets
+17/07/13 22:59:33 INFO Config$: Model repository at ./storage/models
+17/07/13 22:59:33 INFO Config$: Ontology repository at ./storage/owl
+17/07/13 22:59:33 INFO Config$: Alignment repository at ./storage/octopus
+17/07/13 22:59:33 INFO Config$: SSD repository at ./storage/ssd
+17/07/13 22:59:33 INFO Config$: Server assigned to host=0.0.0.0 port=8080
+17/07/13 22:59:33 INFO Serene$: Reading command line args...
+17/07/13 22:59:33 INFO Config$: Setting number of workers to default.
+17/07/13 22:59:33 INFO Config$: Setting parallel feature extraction to true
+17/07/13 22:59:33 INFO Config$: Storage path at ./storage
+17/07/13 22:59:33 INFO Config$: Dataset repository at ./storage/datasets
+17/07/13 22:59:33 INFO Config$: Model repository at ./storage/models
+17/07/13 22:59:33 INFO Config$: Ontology repository at ./storage/owl
+17/07/13 22:59:33 INFO Config$: Alignment repository at ./storage/octopus
+17/07/13 22:59:33 INFO Config$: SSD repository at ./storage/ssd
+17/07/13 22:59:33 INFO Config$: Server assigned to host=0.0.0.0 port=8080
+17/07/13 22:59:33 INFO Serene$: Start HTTP server on 0.0.0.0:8080

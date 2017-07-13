@@ -22,9 +22,6 @@ project/plugins/project/
 # Intellij
 .idea*
 
-# local storage
-/storage
-
 # local executable dir
 jars
 
