@@ -20,16 +20,18 @@ package au.csiro.data61.core
 import java.io.FileInputStream
 import java.nio.file.{Files, Paths}
 
-import au.csiro.data61.core.api.{BadRequestException, OctopusRequest, SsdResults}
+import au.csiro.data61.core.api.{OctopusRequest, SsdResults}
 import au.csiro.data61.core.storage.{JsonFormats, OctopusStorage, SsdStorage}
 import au.csiro.data61.core.drivers.OctopusInterface
 import au.csiro.data61.core.storage._
-import au.csiro.data61.types.ModelType.RANDOM_FOREST
-import au.csiro.data61.types.ModelTypes.Model
-import au.csiro.data61.types.SsdTypes.{Octopus, Owl, OwlDocumentFormat}
-import au.csiro.data61.types.SamplingStrategy.NO_RESAMPLING
-import au.csiro.data61.types.Training.Status
-import au.csiro.data61.types._
+import au.csiro.data61.common.ModelType.RANDOM_FOREST
+import au.csiro.data61.common.ModelTypes.Model
+import au.csiro.data61.common.SsdTypes.{Octopus, Owl, OwlDocumentFormat}
+import au.csiro.data61.common.SamplingStrategy.NO_RESAMPLING
+import au.csiro.data61.common.Training.Status
+import au.csiro.data61.common._
+import au.csiro.data61.serene.core.Serene
+import au.csiro.data61.serene.core.api.BadRequestException
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime

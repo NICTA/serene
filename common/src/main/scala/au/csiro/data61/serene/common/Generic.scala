@@ -15,9 +15,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.types
+package au.csiro.data61.serene.common
 
-import au.csiro.data61.types.Exceptions.TypeException
+import au.csiro.data61.common.Exceptions.TypeException
 import com.typesafe.scalalogging.LazyLogging
 import org.joda.time.DateTime
 import org.json4s._

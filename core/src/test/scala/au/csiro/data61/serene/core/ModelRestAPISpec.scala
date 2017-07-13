@@ -15,15 +15,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.core
-
+package au.csiro.data61.serene.core
 
 import java.io.{File, FileInputStream, IOException, ObjectInputStream}
 import java.nio.file.{Path, Paths}
 
 import au.csiro.data61.core.api.DatasetAPI._
-import au.csiro.data61.types.ModelTypes.{Model, ModelID}
-import au.csiro.data61.types._
+import au.csiro.data61.common.ModelTypes.{Model, ModelID}
+import au.csiro.data61.common._
 import au.csiro.data61.core.drivers.ObjectInputStreamWithCustomClassLoader
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
@@ -40,7 +39,7 @@ import scala.concurrent.duration._
 import api._
 import au.csiro.data61.core.storage.{JsonFormats, ModelStorage}
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
-import au.csiro.data61.types.DataSetTypes.DataSetID
+import au.csiro.data61.common.DataSetTypes.DataSetID
 import org.apache.spark.ml.classification.RandomForestClassificationModel
 
 import language.postfixOps

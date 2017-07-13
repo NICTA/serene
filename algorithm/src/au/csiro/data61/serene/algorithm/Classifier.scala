@@ -15,19 +15,19 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.types
+package au.csiro.data61.serene.algorithm
 
-import com.typesafe.scalalogging.LazyLogging
+class Classifier {
 
-/**
-  * This object holds some additional configuration for the types
-  */
-object TypeConfig extends LazyLogging {
+  def init: Classifier = {
+    this
+  }
 
-  // ssd version fixed here!
-  val SSDVersion = "0.1"
-  // this is the default namespace which will be used by our semantic modeller for the default prefix 'serene-default'
-  val DefaultNamespace = "http://www.semanticweb.org/serene/report_example_ontology#"
+  def train: Classifier = {
+    this
+  }
 
-  logger.info(s"SSD version $SSDVersion")
+  def predict: (String, Double) = {
+    ("good!", 0.8)
+  }
 }

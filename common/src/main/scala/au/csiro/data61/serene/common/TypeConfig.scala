@@ -15,26 +15,19 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.core.api
+package au.csiro.data61.serene.common
 
+import com.typesafe.scalalogging.LazyLogging
 
-import au.csiro.data61.types._
-import io.finch._
-import io.finch.json4s.decodeJson
+/**
+  * This object holds some additional configuration for the types
+  */
+object TypeConfig extends LazyLogging {
 
-import scala.util.{Failure, Success, Try}
+  // ssd version fixed here!
+  val SSDVersion = "0.1"
+  // this is the default namespace which will be used by our semantic modeller for the default prefix 'serene-default'
+  val DefaultNamespace = "http://www.semanticweb.org/serene/report_example_ontology#"
 
-
-object TestAPI extends RestAPI {
-
-  val status: Endpoint[StatusMessage] = get(APIVersion) {
-    Ok(StatusMessage("ok"))
-  }
-
-  val version: Endpoint[VersionMessage] = get(/) {
-    Ok(VersionMessage(APIVersion))
-  }
-
-  val endpoints = version :+: status
-
+  logger.info(s"SSD version $SSDVersion")
 }

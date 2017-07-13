@@ -20,7 +20,7 @@ package au.csiro.data61.core
 import java.io.File
 import java.nio.file.Paths
 
-import au.csiro.data61.types.DataSet
+import au.csiro.data61.common.DataSet
 import com.twitter.finagle.http.RequestBuilder
 import com.twitter.finagle.http._
 import com.twitter.io.Reader

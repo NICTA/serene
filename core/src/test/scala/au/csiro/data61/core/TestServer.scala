@@ -21,11 +21,12 @@ import java.io.File
 
 import au.csiro.data61.core.api.SsdRequest
 import au.csiro.data61.core.storage.JsonFormats
-import au.csiro.data61.types.{DataSet, Ssd, SsdMapping}
-import au.csiro.data61.types.DataSetTypes.DataSetID
-import au.csiro.data61.types.ModelTypes.ModelID
-import au.csiro.data61.types.SsdTypes.{Owl, OwlID, SsdID}
-import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
+import au.csiro.data61.common.{DataSet, Ssd, SsdMapping}
+import au.csiro.data61.common.DataSetTypes.DataSetID
+import au.csiro.data61.common.ModelTypes.ModelID
+import au.csiro.data61.common.SsdTypes.{Owl, OwlID, SsdID}
+import au.csiro.data61.common.SsdTypes.OwlDocumentFormat.OwlDocumentFormat
+import au.csiro.data61.serene.core.Serene
 import com.twitter.finagle.{Http, http}
 import com.twitter.finagle.http._
 import com.twitter.finagle.http.Status._
@@ -111,6 +112,7 @@ class TestServer extends LazyLogging with JsonFormats {
   /**
     * Posts a request to build a dataset, then returns the DataSet object it created
     * wrapped in a Try.
+ *
     * @param document file of the csv resource
     * @param description description string
     * @param typeMap string for the type map which is a map

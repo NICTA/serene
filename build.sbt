@@ -47,7 +47,7 @@ lazy val root = Project(
   .settings(
     name := "serene",
     version := mainVersion,
-    mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene")
+    mainClass in (Compile, run) := Some("au.csiro.data61.serene.core.Serene")
   )
   .aggregate(core, common)
   .dependsOn(core, common)
@@ -56,13 +56,13 @@ lazy val root = Project(
   * Serene type module. Holds the global types for the system.
   */
 lazy val common = Project(
-  id = "serene-types",
+  id = "serene-common",
   base = file("common")
 )
   .settings(commonSettings)
   .settings(
     name := "serene-common",
-    organization := "au.csiro.data61",
+    organization := "au.csiro.data61.serene",
     version := mainVersion,
 
     libraryDependencies ++= Seq(
@@ -162,7 +162,7 @@ lazy val core = Project(
   )
   .settings(commonSettings)
   .settings(
-      organization := "au.csiro.data61",
+      organization := "au.csiro.data61.serene",
       name := "serene-core",
       version := mainVersion,
 

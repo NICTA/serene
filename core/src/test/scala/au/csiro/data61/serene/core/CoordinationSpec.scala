@@ -15,18 +15,18 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.core
+package au.csiro.data61.serene.core
 
 import java.io.File
 import java.nio.file.Paths
 
 import au.csiro.data61.core.storage._
-import au.csiro.data61.types.SsdTypes._
-import au.csiro.data61.types._
+import au.csiro.data61.common.SsdTypes._
+import au.csiro.data61.common._
 import api._
 import au.csiro.data61.core.api.OctopusAPI.{APIVersion => _, formats => _, _}
 import au.csiro.data61.core.api.SsdAPI._
-import au.csiro.data61.types.ColumnTypes.ColumnID
+import au.csiro.data61.common.ColumnTypes.ColumnID
 import com.twitter.finagle.http.Method.Delete
 import com.typesafe.scalalogging.LazyLogging
 import com.twitter.finagle.http.RequestBuilder
@@ -98,6 +98,7 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
 
   /**
     * Binds ssd from the json file to a csv file using ontologies.
+ *
     * @param datasetDocument
     * @param ssdDocument
     * @param ontologies
@@ -137,6 +138,7 @@ class CoordinationSpec  extends FunSuite with JsonFormats with BeforeAndAfterEac
 
   /**
     * Binds ssd from the json file to a csv file using ontologies and then upload
+ *
     * @param datasetDocument
     * @param ssdDocument
     * @param ontologies

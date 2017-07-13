@@ -15,37 +15,16 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.core.storage
+package au.csiro.data61.serene.core.drivers
 
-import org.json4s.Formats
-import java.nio.file.{Path, Paths}
+import scala.util.Random
 
-import au.csiro.data61.types._
-import org.json4s._
+object Generic {
+  /**
+    * Generate a random positive integer id
+    *
+    * @return Returns a random positive integer
+    */
+  def genID: Int = Random.nextInt(Integer.MAX_VALUE)
 
-/**
-  * Serializer for the Java.io.Path object
-  */
-case object PathSerializer extends CustomSerializer[Path](format => ( {
-  case jv: JValue =>
-    implicit val formats = DefaultFormats
-    val str = jv.extract[String]
-    Paths.get(str)
-}, {
-  case path: Path =>
-    JString(path.toString)
-}))
-
-
-/**
- * Holds the implicit matcher objects for the Json4s Serializers.
- *
- * This should be mixed in to the object in order to use.
- */
-trait JsonFormats {
-
-  implicit def json4sFormats: Formats =
-    org.json4s.DefaultFormats +
-      JodaTimeSerializer +
-      PathSerializer
 }

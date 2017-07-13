@@ -15,13 +15,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.core.api
+package au.csiro.data61.serene.core.api
 
-import au.csiro.data61.core.storage.JsonFormats
-import au.csiro.data61.types.Exceptions.TypeException
+
+import au.csiro.data61.serene.core.storage.JsonFormats
+import com.twitter.io.Buf
 import com.typesafe.scalalogging.LazyLogging
 import io.finch._
-import com.twitter.io.Buf
 import org.json4s.MappingException
 
 /**

@@ -22,8 +22,8 @@ import java.nio.charset.StandardCharsets.UTF_8
 
 import au.csiro.data61.core.api.OwlAPI.APIVersion
 import au.csiro.data61.core.storage.JsonFormats
-import au.csiro.data61.types.SsdTypes.OwlDocumentFormat.{OwlDocumentFormat, Xml, Turtle}
-import au.csiro.data61.types.SsdTypes.{Owl, OwlID}
+import au.csiro.data61.common.SsdTypes.OwlDocumentFormat.{OwlDocumentFormat, Xml, Turtle}
+import au.csiro.data61.common.SsdTypes.{Owl, OwlID}
 import com.twitter.finagle.http.Method.Delete
 import com.twitter.finagle.http.Status.Ok
 import com.twitter.finagle.http.{FileElement, Request, RequestBuilder, Status}

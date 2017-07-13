@@ -15,13 +15,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package au.csiro.data61.core
+package au.csiro.data61.serene.core
 
+import au.csiro.data61.serene.core.api.InternalException
 import com.typesafe.config.ConfigFactory
 import com.typesafe.scalalogging.LazyLogging
 import java.nio.file.{Files, Path, Paths}
-
-import au.csiro.data61.core.api.InternalException
 
 import scala.util.{Failure, Success, Try}
 

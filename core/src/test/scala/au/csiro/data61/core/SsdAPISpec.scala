@@ -22,8 +22,8 @@ import java.io.File
 import au.csiro.data61.core.api.SsdAPI.APIVersion
 import au.csiro.data61.core.api.SsdRequest
 import au.csiro.data61.core.storage.JsonFormats
-import au.csiro.data61.types.SsdTypes.SsdID
-import au.csiro.data61.types.Ssd
+import au.csiro.data61.common.SsdTypes.SsdID
+import au.csiro.data61.common.Ssd
 import com.twitter.finagle.http.Method.Post
 import com.twitter.finagle.http.Status.{BadRequest, NotFound, Ok}
 import com.twitter.finagle.http.{Request, Status}

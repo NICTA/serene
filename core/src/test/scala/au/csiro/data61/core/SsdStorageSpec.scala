@@ -22,7 +22,7 @@ import java.nio.file.Paths
 
 import au.csiro.data61.core.drivers.SsdInterface
 import au.csiro.data61.core.storage.{JsonFormats, SsdStorage}
-import au.csiro.data61.types._
+import au.csiro.data61.common._
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 
 import language.postfixOps

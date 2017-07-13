@@ -24,7 +24,7 @@ import java.nio.file.Paths
 import au.csiro.data61.core.api.{EvaluationRequest, OctopusAPI, SsdRequest}
 import au.csiro.data61.core.storage.JsonFormats
 import au.csiro.data61.modeler.EvaluationResult
-import au.csiro.data61.types.Ssd
+import au.csiro.data61.common.Ssd
 import com.twitter.finagle.http.{Request, Response, Status}
 import com.twitter.finagle.http.Method.Post
 import com.twitter.io.Buf.ByteArray

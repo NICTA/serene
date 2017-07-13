@@ -15,21 +15,20 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.core
+package au.csiro.data61.serene.core
 
 import java.util.Calendar
 
-import au.csiro.data61.core.api._
-import au.csiro.data61.core.storage.JsonFormats
-import com.typesafe.scalalogging.LazyLogging
-
-import scala.language.postfixOps
-import com.twitter.util.{Await, StorageUnit}
-import com.twitter.finagle.{Http, ListeningServer, Server}
+import au.csiro.data61.serene.core.api._
+import au.csiro.data61.serene.core.storage.JsonFormats
 import com.twitter.conversions.storage._
+import com.twitter.finagle.{Http, ListeningServer}
+import com.twitter.util.Await
+import com.typesafe.scalalogging.LazyLogging
 import io.finch._
 import io.finch.json4s._
-import json4s._
+
+import scala.language.postfixOps
 
 /**
   * Main object for Serene server. We use the App object to access the
@@ -39,7 +38,13 @@ import json4s._
   */
 object Serene extends LazyLogging with JsonFormats with RestAPI {
 
-  val version = getClass.getPackage.getImplementationVersion //"0.1.0"
+  val version = Option(getClass.getPackage.getImplementationVersion)
+
+  println("<<<<<<<<<<<<<")
+  println(getClass.getPackage)
+  println(getClass.getPackage.getSpecificationVersion)
+  println(getClass.getPackage.getImplementationTitle)
+  println(getClass.getPackage.getImplementationVersion)
 
   def echo(msg: String) { Console println msg }
 
@@ -74,12 +79,20 @@ object Serene extends LazyLogging with JsonFormats with RestAPI {
   // the server address
   def serverAddress: String = s"${config.serverHost}:${config.serverPort}"
 
+  /**
+    * The default server object.
+    * @return
+    */
   def defaultServer: ListeningServer = {
     Http.server
       .withMaxRequestSize(1999.megabytes)
       .serve(s"${config.serverHost}:${config.serverPort}", restAPI.toServiceAs[Application.Json])
   }
 
+  /**
+    * Main function to launch the server...
+    * @param args Argument string, see the `Config` object for more details`
+    */
   def main(args: Array[String]): Unit = {
 
     // start the server...
@@ -98,7 +111,7 @@ object Serene extends LazyLogging with JsonFormats with RestAPI {
       |*  ____/ \___| _|   \___| _|  _| \___|
       |*
       |*
-      |*  Version: $version
+      |*  Version: ${version.getOrElse("internal")}
       |*  Host: ${config.serverHost}
       |*  Port: ${config.serverPort}
       |*""".stripMargin)

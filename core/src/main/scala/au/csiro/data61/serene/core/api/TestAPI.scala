@@ -15,34 +15,25 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
+package au.csiro.data61.serene.core.api
 
-package au.csiro.data61.types
+import au.csiro.data61.serene.common._
+import io.finch._
+import io.finch.json4s.decodeJson
 
-/**
-  * Exceptions in the project
-  */
-object Exceptions {
+import scala.util.{Failure, Success, Try}
 
-  /**
-    * Errors caused by Modeler
-    *
-    * @param message Error message
-    */
-  case class ModelerException(message: String) extends RuntimeException(message)
 
-  /**
-    * Errors caused by Matcher
-    *
-    * @param message Error message
-    */
-  case class MatcherException(message: String) extends RuntimeException(message)
+object TestAPI extends RestAPI {
 
-  /**
-    * Errors caused by Types
-    *
-    * @param message Error message
-    */
-  case class TypeException(message: String) extends RuntimeException(message)
+  val status: Endpoint[StatusMessage] = get(APIVersion) {
+    Ok(StatusMessage("ok"))
+  }
+
+  val version: Endpoint[VersionMessage] = get(/) {
+    Ok(VersionMessage(APIVersion))
+  }
+
+  val endpoints = version :+: status
 
 }
-

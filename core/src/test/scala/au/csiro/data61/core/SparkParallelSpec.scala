@@ -21,11 +21,12 @@ package au.csiro.data61.core
 import java.nio.file.Paths
 
 import au.csiro.data61.core.drivers.{ModelPredictor, ModelTrainer}
-import au.csiro.data61.types._
+import au.csiro.data61.common._
 import api._
 import au.csiro.data61.core.storage.{JsonFormats, ModelStorage}
 import au.csiro.data61.matcher.matcher.serializable.SerializableMLibClassifier
-import au.csiro.data61.types.ModelTypes.Model
+import au.csiro.data61.common.ModelTypes.Model
+import au.csiro.data61.serene.core.Serene
 import org.apache.spark.ml.classification.RandomForestClassificationModel
 
 import language.postfixOps

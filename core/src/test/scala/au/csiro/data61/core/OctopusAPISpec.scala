@@ -22,14 +22,16 @@ import java.nio.file.Paths
 import java.io.File
 
 import au.csiro.data61.core.api._
-import au.csiro.data61.core.drivers.Generic._
+import au.csiro.data61.serene.core.drivers.Generic
+import Generic._
 import au.csiro.data61.core.drivers.{ModelInterface, OctopusInterface}
 import au.csiro.data61.core.storage._
-import au.csiro.data61.types.ModelTypes.Model
-import au.csiro.data61.types.ModelingProperties.ConfidenceWeightShouldBeInRange
-import au.csiro.data61.types.SamplingStrategy.{NO_RESAMPLING, RESAMPLE_TO_MEAN}
-import au.csiro.data61.types.SsdTypes._
-import au.csiro.data61.types._
+import au.csiro.data61.common.ModelTypes.Model
+import au.csiro.data61.common.ModelingProperties.ConfidenceWeightShouldBeInRange
+import au.csiro.data61.common.SamplingStrategy.{NO_RESAMPLING, RESAMPLE_TO_MEAN}
+import au.csiro.data61.common.SsdTypes._
+import au.csiro.data61.common._
+import au.csiro.data61.serene.core.Serene
 import com.twitter.finagle.http.{RequestBuilder, _}
 import com.twitter.io.Buf
 import com.twitter.io.Buf.ByteArray
