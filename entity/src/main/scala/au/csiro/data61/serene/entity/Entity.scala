@@ -15,18 +15,19 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package au.csiro.data61.serene.embedding
+package au.csiro.data61.serene.entity
 
-object Matrix {
-  type Matrix = Array[Array[Double]]
+import org.apache.spark.sql.{Row, DataFrame}
+
+object Entity {
+
+  /**
+    * Given a dataframe
+    * @param df DataFrame of entities
+    * @return A list of entities that should be combined
+    */
+  def findMatches(df: DataFrame): List[Set[Row]] = {
+    List.empty[Set[Row]]
+  }
+
 }
-
-import Matrix._
-
-trait Embedding[T] {
-  val matrix: T
-}
-
-case class NodeEmbedding(matrix: Matrix) extends Embedding[Matrix]
-
-case class MetaPathEmbedding(matrix: Matrix) extends Embedding[Matrix]

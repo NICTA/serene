@@ -27,7 +27,6 @@ import com.twitter.util.Await
 import com.typesafe.scalalogging.LazyLogging
 import io.finch._
 import io.finch.json4s._
-
 import scala.language.postfixOps
 
 /**

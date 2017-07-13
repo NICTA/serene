@@ -1,5 +1,5 @@
 
-name := "serene-types"
+name := "serene-common"
 
 organization := "au.csiro.data61"
 

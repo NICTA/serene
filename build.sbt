@@ -36,21 +36,6 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
     "joda-time"                   %   "joda-time"            % "2.9.9")
 )
 
-/**
-  * Serene main module. Pulls in component projects..
-  */
-lazy val root = Project(
-    id = "serene",
-    base = file(".")
-  )
-  .settings(commonSettings)
-  .settings(
-    name := "serene",
-    version := mainVersion,
-    mainClass in (Compile, run) := Some("au.csiro.data61.serene.core.Serene")
-  )
-  .aggregate(core, common, algorithm)
-  .dependsOn(core, common, algorithm)
 
 /**
   * Serene algorithm module. Holds the implementations of the algorithms for machine learning, social network analysis, and graph traversal.
@@ -77,33 +62,6 @@ lazy val algorithm = Project(
       ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
     )
   )
-
-/**
-  * Serene embedding module. Holds the algorithms for generating node embeddings across graphs.
-  */
-lazy val embedding = Project(
-  id = "serene-embedding",
-  base = file("embedding")
-)
-  .settings(commonSettings)
-  .settings(
-    name := "serene-embedding",
-    organization := "au.csiro.data61.serene",
-    version := mainVersion,
-
-    libraryDependencies ++= Seq(
-      "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
-      ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
-      ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
-      ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
-      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
-      ,"com.typesafe"               %  "config"             % "1.3.0"
-      ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
-      ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
-      ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
-    )
-  )
-
 
 
 /**
@@ -136,42 +94,139 @@ lazy val common = Project(
   * Serene Core module. Contains glue code, servers and communications...
   */
 lazy val core = Project(
-    id = "serene-core",
-    base = file("core")
-  )
+  id = "serene-core",
+  base = file("core")
+)
   .settings(commonSettings)
   .settings(
-      organization := "au.csiro.data61.serene",
-      name := "serene-core",
-      version := mainVersion,
+    organization := "au.csiro.data61.serene",
+    name := "serene-core",
+    version := mainVersion,
 
-      outputStrategy := Some(StdoutOutput),
-      parallelExecution in Test := false,
-      scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
-      resolvers += Resolver.sonatypeRepo("snapshots"),
+    outputStrategy := Some(StdoutOutput),
+    parallelExecution in Test := false,
+    scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+    resolvers += Resolver.sonatypeRepo("snapshots"),
 
-      // coverageEnabled := true,
-      // coverageOutputHTML := true,
+    // coverageEnabled := true,
+    // coverageOutputHTML := true,
 
-      libraryDependencies ++= Seq(
-        "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
-        ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
-        ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
-        ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
-        ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
-        ,"commons-io"                 %  "commons-io"         % "2.5"
-        ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
-        ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
-        ,"com.github.finagle"         %% "finch-core"         % "0.11.1"
-        ,"com.github.finagle"         %% "finch-json4s"       % "0.11.1"
-        ,"com.github.finagle"         %% "finch-test"         % "0.11.1"
-        ,"com.twitter"                %% "finagle-http"       % "6.39.0"
-        ,"junit"                      %  "junit"              % "4.12"
-        ,"com.typesafe"               %  "config"             % "1.3.0"
-        ,"com.github.scopt"           %% "scopt"              % "3.5.0"
-      )
+    libraryDependencies ++= Seq(
+      "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
+      ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
+      ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
+      ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
+      ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
+      ,"commons-io"                 %  "commons-io"         % "2.5"
+      ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
+      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+      ,"com.github.finagle"         %% "finch-core"         % "0.11.1"
+      ,"com.github.finagle"         %% "finch-json4s"       % "0.11.1"
+      ,"com.github.finagle"         %% "finch-test"         % "0.11.1"
+      ,"com.twitter"                %% "finagle-http"       % "6.39.0"
+      ,"junit"                      %  "junit"              % "4.12"
+      ,"com.typesafe"               %  "config"             % "1.3.0"
+      ,"com.github.scopt"           %% "scopt"              % "3.5.0"
     )
+  )
   .settings(jetty() : _*)
   .enablePlugins(RpmPlugin, JavaAppPackaging)
   .dependsOn(common)
 
+/**
+  * Serene embedding module. Holds the algorithms for generating node embeddings across graphs.
+  */
+lazy val embedding = Project(
+  id = "serene-embedding",
+  base = file("embedding")
+)
+  .settings(commonSettings)
+  .settings(
+    name := "serene-embedding",
+    organization := "au.csiro.data61.serene",
+    version := mainVersion,
+
+    libraryDependencies ++= Seq(
+      "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
+      ,"org.apache.spark"           %% "spark-core"           % "2.1.0"
+      ,"org.apache.spark"           %% "spark-sql"            % "2.1.0"
+      ,"org.apache.spark"           %% "spark-mllib"          % "2.1.0"
+      ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
+      ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
+      ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
+      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+      ,"com.typesafe"               %  "config"             % "1.3.0"
+      ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
+      ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
+      ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
+    )
+  )
+
+/**
+  * Serene entity module. Controls the entity resolution module.
+  */
+lazy val entity = Project(
+    id = "serene-entity",
+    base = file("entity")
+  )
+  .settings(commonSettings)
+  .settings(
+    name := "serene-entity",
+    organization := "au.csiro.data61.serene",
+    version := mainVersion,
+
+    libraryDependencies ++= Seq(
+      "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
+      ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
+      ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
+      ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
+      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+      ,"com.typesafe"               %  "config"             % "1.3.0"
+      ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
+      ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
+      ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
+    )
+  )
+
+/**
+  * Serene graph module. Holds graph data structures and algorithms.
+  */
+lazy val graph = Project(
+  id = "serene-graph",
+  base = file("graph")
+)
+  .settings(commonSettings)
+  .settings(
+    name := "serene-graph",
+    organization := "au.csiro.data61.serene",
+    version := mainVersion,
+
+    libraryDependencies ++= Seq(
+      "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
+      ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
+      ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
+      ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
+      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+      ,"com.typesafe"               %  "config"             % "1.3.0"
+      ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
+      ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
+      ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
+    )
+  )
+
+
+/**
+  * Serene main module. Pulls in component projects..
+  */
+lazy val root = Project(
+  id = "serene",
+  base = file(".")
+)
+  .settings(commonSettings)
+  .settings(
+    name := "serene",
+    version := mainVersion,
+    mainClass in (Compile, run) := Some("au.csiro.data61.serene.core.Serene")
+  )
+  .aggregate(core, common, algorithm, embedding, entity, graph)
+  .dependsOn(core, common, algorithm, embedding, entity, graph)
