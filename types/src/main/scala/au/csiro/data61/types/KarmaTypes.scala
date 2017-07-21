@@ -49,13 +49,13 @@ object KarmaTypes {
     * @param alignGraphJson Location string for the alignment graph
     * @return
     */
-  def readAlignmentGraph(alignGraphJson: String): SemanticModel = {
+  def readAlignmentGraph(alignGraphJson: String): (SemanticModel, Map[String, Int], Map[String, Int]) = {
 
     // this is the output from running Karma
     val graph: DirectedWeightedMultigraph[Node, DefaultLink] = GraphUtil.importJson(alignGraphJson)
 
     KarmaGraph(GraphUtil.asLabeledGraph(graph)) // convert it first to LabeledGraph and then make it KarmaGraph
-      .toSemanticModel // convert it to our SemanticModel
+      .alignToSemanticModel // convert it to our SemanticModel
   }
 }
 
@@ -224,7 +224,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     * @param n ColumnNode
     * @return String
     */
-  private def getColumnNodeLabel(n: ColumnNode): String = {
+  private def getColumnNodeLabel(n: ColumnNode, align: Boolean = false): String = {
     // get the label of this node... tricky for ColumnNode
     // NOTE: the assumption is that the UserSemanticTypes of ColumnNode contain the mapping of the source column
     // into the semantic model and that there is only one semantic type there.
@@ -238,8 +238,12 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     }.toList match {
       case List(s: String) => s
       case List() =>
-        logger.warn("UserSemanticType is not properly set in Karma.")
-        "" // basically, the semantic type is not properly set in Karma
+        if (align) {
+          n.getColumnName
+        } else {
+          logger.warn(s"UserSemanticType is not properly set in Karma. Using ${n.getUri} as label.")
+          "" // basically, the semantic type is not properly set in Karma
+        }
       case _ =>
         logger.error("We do not support multiple user semantic types.")
         throw TypeException("We do not support multiple user semantic types.")
@@ -276,14 +280,14 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     * @param node Karma representation of node.
     * @return SSDLabel for the link
     */
-  private def getLabel(node: Node): SsdLabel = {
+  private def getLabel(node: Node, align: Boolean = false): SsdLabel = {
     val nodeStatus: String = if (node.isForced) {
       "ForcedByUser"
     } else { "Normal" }
 
     node match {
       case n: ColumnNode =>
-        SsdLabel(getColumnNodeLabel(n),
+        SsdLabel(getColumnNodeLabel(n, align),
           "DataNode",
           getColumnNodeStatus(n.getSemanticTypeStatus.toString), // ColumnNode has special status field
           "") // DataNodes will have empty prefix!
@@ -316,12 +320,12 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     *
     * @return Map from string Karma node id to SSDNode
     */
-  private def karmaNodeIdMap: Map[String,SsdNode] = {
+  private def karmaNodeIdMap(align: Boolean = false): Map[String,SsdNode] = {
     graph.vertexSet.asScala
       .zipWithIndex
       .map {
         case (node, nodeID) =>
-          node.getId -> SsdNode(nodeID, getLabel(node))
+          node.getId -> SsdNode(nodeID, getLabel(node, align))
       } toMap
   }
 
@@ -331,7 +335,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     */
   def columnNodeMappings: Map[AttrID,NodeID] = {
     logger.debug("Calculating columnNodeMappings")
-    lazy val karmaMap = karmaNodeIdMap
+    lazy val karmaMap = karmaNodeIdMap()
     ListMap(graph.vertexSet.asScala
       .filter(_.isInstanceOf[ColumnNode])
       .map {
@@ -349,7 +353,7 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
     */
   def toSemanticModel: SemanticModel = {
     logger.info("Converting Karma Graph to the Semantic Model...")
-    lazy val karmaMap = karmaNodeIdMap
+    lazy val karmaMap = karmaNodeIdMap()
     logger.debug(s"##################karmaNodeId: $karmaMap")
     // converting links
     val ssdLinks: List[SsdLink[SsdNode]] = graph.edgeSet.asScala
@@ -369,6 +373,38 @@ case class KarmaGraph(graph: DirectedWeightedMultigraph[Node,LabeledLink]) exten
 
     val sm: Graph[SsdNode,SsdLink] = Graph()
     SemanticModel(sm ++ ssdLinks)
+  }
+
+  /**
+    * Method to convert Karma representation of the semantic model to our data structure.
+    *
+    * @return SemanticModel
+    */
+  def alignToSemanticModel: (SemanticModel, Map[String, Int], Map[String, Int]) = {
+    logger.info("Converting Karma Graph to the Semantic Model...")
+    lazy val karmaMap = karmaNodeIdMap(align = true)
+    logger.debug(s"##################karmaNodeId: $karmaMap")
+    // converting links
+    val ssdLinks: List[(String, SsdLink[SsdNode])] = graph.edgeSet.asScala
+      .zipWithIndex
+      .map {
+        case (edge, linkID) =>
+          logger.debug(s"*******Converting link $linkID")
+          logger.debug(s"*******sourceNode ${edge.getSource.getId}")
+          val sourceNode: SsdNode = karmaMap(edge.getSource.getId)
+          logger.debug(s"*******targetNode ${edge.getTarget.getId}")
+          val targetNode: SsdNode = karmaMap(edge.getTarget.getId)
+
+          (edge.getDisplayId, SsdLink(sourceNode, targetNode, linkID, getEdgeLabel(edge)))
+      } toList
+
+    logger.debug(s"##################Links add")
+
+    val sm: Graph[SsdNode,SsdLink] = Graph()
+    (SemanticModel(sm ++ ssdLinks.map(_._2)),
+      karmaMap.mapValues(_.id),
+      ssdLinks.map { case (e: String, l: SsdLink[SsdNode]) => (e, l.id)}.toMap
+      )
   }
 
 }

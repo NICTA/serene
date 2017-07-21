@@ -13,6 +13,12 @@ on Debian linux
 sudo apt-get install sbt
 ```
 
+
+For Gradoop:
+1. [Gradoop](https://github.com/dbs-leipzig/gradoop/tree/release/0.2.0) should be installed locally.
+2. Download [Hadoop](http://hadoop.apache.org/releases.html), [configure](http://codesfusion.blogspot.com.au/2013/10/setup-hadoop-2x-220-on-ubuntu.html) and start `start-dfs.sh`.
+3. Download [Apache Flink](https://ci.apache.org/projects/flink/flink-docs-release-1.3/quickstart/setup_quickstart.html) and start it `${FLINK_HOME}/bin/start-local.sh`.
+
 ## Installation
 You can build the library with
 ```

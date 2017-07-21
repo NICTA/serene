@@ -195,3 +195,58 @@ lazy val core = Project(
   .enablePlugins(RpmPlugin, JavaAppPackaging)
   .dependsOn(matcher, modeler)
 
+
+/**
+  * Gradoop module for Serene which contains wrappers to use Gradoop
+  */
+lazy val gradoop = Project(
+  id = "serene-gradoop",
+  base = file("gradoop")
+)
+  .settings(commonSettings)
+  .settings(
+    organization := "au.csiro.data61",
+    name := "serene-gradoop",
+    version := mainVersion,
+
+    outputStrategy := Some(StdoutOutput),
+    parallelExecution in Test := false,
+    scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+    resolvers += Resolver.sonatypeRepo("snapshots"),
+    // this resolver is added since gradoop is a java project published to the local maven repo
+    // TODO: change it maybe to directly including the jar file?
+    resolvers += "Local Maven Repository" at Path.userHome.asFile.toURI.toURL + ".m2/repository",
+
+    // coverageEnabled := true,
+    // coverageOutputHTML := true,
+
+    libraryDependencies ++= Seq(
+      "com.typesafe.scala-logging" %% "scala-logging"        % "3.4.0"
+      ,"org.scalatest"             %% "scalatest"            % "3.0.0-RC1"
+      ,"junit"                     %  "junit"                % "4.12"
+      ,"org.apache.flink"          %% "flink-scala"          % "1.1.2"
+      ,"org.json4s"                  %% "json4s-jackson"     % "3.2.10"
+      ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
+      ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
+//      ,"org.apache.flink"          %% "flink-connectors"          % "1.3.0"
+//      ,"org.apache.flink"          %% "flink-hadoop-compatibility" % "1.3.0" % "test"
+//      ,"org.apache.flink" % "flink-hadoop-compatibility_2.11" % "1.1.2" % "test"
+//      ,"org.apache.flink"          %% "flink-hadoop-compatibility" % "0.10.2" % "test"
+      ,"org.gradoop"               %  "gradoop-common"       % "0.3.0-SNAPSHOT"
+      ,"org.gradoop"               %  "gradoop-flink"        % "0.3.0-SNAPSHOT"
+      ,"org.gradoop"               %  "gradoop-examples"     % "0.3.0-SNAPSHOT"
+      // java libraries which are needed to run Karma code
+      // versions are not the latest (but the ones used in the original Web-Karma project)
+//      ,"org.json"                         %  "json"               % "20141113"       // dependency for Karma
+//      ,"org.reflections"                  %  "reflections"        % "0.9.10"         // dependency for Karma
+//      ,"commons-fileupload"               %  "commons-fileupload" % "1.2.2"          // dependency for Karma
+      ,"com.google.code.gson"             % "gson"                % "2.2.4"          // dependency for Karma
+//      ,"com.hp.hpl.jena"                  % "jena"                % "2.6.4"          // dependency for Karma
+//      ,"com.googlecode.juniversalchardet" % "juniversalchardet"   % "1.0.3"          // dependency for Karma
+//      ,"org.kohsuke"                      % "graphviz-api"        % "1.1"            // dependency for Karma
+//      , "uk.com.robust-it"                % "cloning"             % "1.8.5"          // dependency for Karma
+    )
+  )
+  .settings(jetty() : _*)
+  .enablePlugins(RpmPlugin, JavaAppPackaging)
+  .dependsOn(types)

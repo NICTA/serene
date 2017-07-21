@@ -1,0 +1,24 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "label": "Organization",
+            "type": "ClassNode"
+        },
+        {
+            "id": 1,
+            "label": "Organization.name",
+            "type": "DataNode"
+        }
+
+    ],
+    "links": [
+        {
+            "id"    : 0,
+            "source": 0,
+            "target": 1,
+            "label": "name",
+            "type": "DataProperty"
+        }
+    ]
+}

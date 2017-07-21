@@ -47,7 +47,6 @@ object GraphTypes {
 /**
   * Case class to represent both node and link labels
   * We should separate labels for links and nodes, since labelTypes should be specific enums...
- *
   * @param label node or link label
   * @param labelType node or link type
   * @param status node or link status
@@ -183,7 +182,6 @@ object SsdLink {
 
 /**
   * Helper class for json serialization
- *
   * @param id Link id
   * @param source Node id of the source
   * @param target Node id of the target
@@ -259,7 +257,6 @@ case object HelperLinkSerializer extends CustomSerializer[HelperLink](
   * Karma-tool uses JGraphT library to represent graphs.
   * Moving to ScalaGraph library... we need converters from JGraphT to Scala Graph and vice versa.
   * Also Json serializer is needed to write ssd files.
- *
   * @param graph graph object from Scala Graph library
   */
 case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
@@ -269,7 +266,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
   /**
     * Method to get all nodes from the graph of the semantic model.
     * This method is needed for Json serialization.
- *
     * @return List[SsdNode]
     */
   def getNodes: List[SsdNode] = graph.nodes.map(n => n.value) toList
@@ -277,15 +273,22 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
   /**
     * Method to get the sorted list of node labels.
     * This method can be used to compare nodes of two different semantic models.
- *
-    * @return List[SsdNode]
+    * @return List[SsdLabel]
     */
   def getNodeLabels: List[SsdLabel] = graph.nodes
     .map(_.ssdLabel).toList.sorted
 
   /**
+    * Method to get the sorted list of extended node labels.
+    * These extended node labels are unique identifiers
+    * for all nodes in the semantic model.
+    * @return List[Srting]
+    */
+  def getNodeLabelIds: List[String] = graph.nodes
+    .map(n => getExtendedLabel(n)).toList.sorted
+
+  /**
     * Method to get all links from the graph of the semantic model.
- *
     * @return List of SsdLink[NodeT] where NodeT should be equal to SSDNode
     */
   def getLinks: List[SsdLink[NodeT]] = graph.edges
@@ -295,7 +298,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * Method to get the list of lexicographically ordered link labels:
     * (sourceLabel, linkLabel, targetLabel).
     * This method can be used to compare links of two different semantic models.
- *
     * @return List of triplets, each element corresponding to SSDLabel
     */
   def getLinkLabels: List[(SsdLabel, SsdLabel,SsdLabel)] = graph.edges
@@ -305,7 +307,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
   /**
     * Method to get all links from the graph of the semantic model.
     * This method is needed for Json serialization.
- *
     * @return List[HelperLink]
     */
   def getHelperLinks: List[HelperLink] = graph.edges
@@ -314,6 +315,16 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
         label = e.ssdLabel.label, lType = e.ssdLabel.labelType, status = e.ssdLabel.status, prefix = e.ssdLabel.prefix)
     ) toList
 
+
+  /**
+    * Method to get the sorted list of extended link labels.
+    * These extended link labels are unique identifiers
+    * for all link in the semantic model.
+    * @return List[Srting]
+    */
+  def getLinkLabelIds: List[String] = graph.edges
+    .map(e => getExtendedLabel(e.from, e.ssdLabel.getURI, e.to)).toList
+
   /**
     * Check if the semantic model is connected.
     */
@@ -321,7 +332,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Get the label of the node in the graph.
-    *
     * @param nodeID Node id in the semantic model.
     * @return
     */
@@ -337,7 +347,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Helper Function to get the uri of the node if it is of type ClassNode.
-    *
     * @param node Node in the semantic model
     * @return
     */
@@ -352,7 +361,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Helper Function to get the uri of the link if it is of type DataPropertyLink or ClassInstanceLink.
-    *
     * @param edge Link in the semantic model.
     * @return
     */
@@ -371,8 +379,7 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * Get domain and type of a data node.
     * Domain is the uri of the associated class node.
     * Type is the uri of the associated property link.
-    *
-    * @param nodeID Id of the node in the semanic model.
+    * @param nodeID Id of the node in the semantic model.
     * @return
     */
   def getDomainType(nodeID: NodeID): Option[(String, String)] = {
@@ -418,7 +425,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Create Karma LabeledLink from our SsdLink
-    *
     * @param e SsdLink
     * @param source Karma Node
     * @param target Karma Node
@@ -463,7 +469,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * Helper function to get Karma Origin for the SemanticType.
     * If ssdLabel.labelType is not one of the values in the enum for KarmaOrigin,
     * we set the origin to the default value KarmaOrigin.User.
-    *
     * @param ssdLabel Label
     * @return
     */
@@ -478,7 +483,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Create a map from our node ids to Karma ColumnNodes.
-    *
     * @param ssdMappings Mappings of attributes to nodes in the semantic model.
     * @return
     */
@@ -529,12 +533,14 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
 
   /**
     * Helper method to obtain a map from uris to the list of nodes which have a specific uri.
- *
     * @return
     */
-  private def indexUriLabel: Map[String,List[NodeID]] = {
+  private lazy val indexUriLabel: Map[String,List[NodeID]] = {
     graph.nodes.map {
-      node => (node.ssdLabel.getURI, node.id)
+      node => node.ssdLabel.labelType match {
+        case "DataNode" => (node.ssdLabel.label, node.id)
+        case _ => (node.ssdLabel.getURI, node.id)
+      }
     }.toList
       .groupBy(_._1)
       .map {
@@ -550,7 +556,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * Since Karma tool uses URIs as ids for nodes in the semantic model,
     * we need to make sure that nodes which correspond to the same ontology class still have unique URIs.
     * For this purpose we index them.
-    *
     * @param nodeID Id of the node
     * @param uriLab Uri label of the node
     * @return
@@ -562,11 +567,35 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     uriLab + (indexUriLabel(uriLab).indexOf(nodeID) + 1).toString
   }
 
+
+  /**
+    * Get extended label for the node which are unique in the semantic model
+    * @param n SsdNode
+    * @return
+    */
+  def getExtendedLabel(n: SsdNode): String = {
+    val uriLab = n.ssdLabel.labelType match {
+      case "DataNode" => n.ssdLabel.label
+      case _ => n.ssdLabel.getURI
+    }
+    uriLab + (indexUriLabel(uriLab).indexOf(n.id) + 1).toString
+  }
+
+  /**
+    * Get extended label for the link which are unique in the semantic model
+    * @param source
+    * @param uriLab
+    * @param target
+    * @return
+    */
+  def getExtendedLabel(source: SsdNode, uriLab: String, target: SsdNode): String =
+    List(getExtendedLabel(source), uriLab, getExtendedLabel(target))
+      .mkString("---")
+
   /**
     * Create a map from our node ids to Karma Nodes which are not ColumnNode.
     * For ClassNode we have to be careful with karma ids for nodes in the graph:
     * we need to add integers at the end which would ensure uniqueness of nodes.
-    *
     * @param ssdMappings Mappings of attributes to nodes in the semantic model.
     * @return
     */
@@ -603,7 +632,6 @@ case class SemanticModel(graph: Graph[SsdNode, SsdLink]) extends LazyLogging {
     * Convert to Karma-like representation of the semantic model.
     * We need the Karma ontology manager to define object property types.
     * TODO: check semantic types and all uris using ontology manager.
-    *
     * @param ssdMappings SSDMapping needed to identify ColumnNode
     * @param ontoManager OntologyManager from Karma
     */

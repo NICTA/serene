@@ -1,0 +1,94 @@
+{
+  "id": 993873372,
+  "name": "s03-ima-artists.xml",
+  "attributes": [
+    {
+      "id": 1361677825,
+      "name": "",
+      "label": "identity",
+      "columnIds": [
+        1361677825
+      ],
+      "sql": "not implemented"
+    },
+    {
+      "id": 1389260477,
+      "name": "",
+      "label": "identity",
+      "columnIds": [
+        1389260477
+      ],
+      "sql": "not implemented"
+    }
+  ],
+  "ontologies": [
+    1720406913,
+    1634807559,
+    1546491031,
+    735239116,
+    326777157,
+    1847845358,
+    903823291,
+    179892511,
+    516320319,
+    654422984,
+    1073236901
+  ],
+  "semanticModel": {
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Person.countryAssociatedWithThePerson",
+        "type": "DataNode",
+        "status": "ForcedByUser",
+        "prefix": "http://rdvocab.info/ElementsGr2/"
+      },
+      {
+        "id": 0,
+        "label": "Person",
+        "type": "ClassNode",
+        "status": "ForcedByUser",
+        "prefix": "http://www.americanartcollaborative.org/ontology/"
+      },
+      {
+        "id": 3,
+        "label": "Person.nameOfThePerson",
+        "type": "DataNode",
+        "status": "ForcedByUser",
+        "prefix": "http://rdvocab.info/ElementsGr2/"
+      }
+    ],
+    "links": [
+      {
+        "id": 0,
+        "source": 0,
+        "target": 1,
+        "label": "countryAssociatedWithThePerson",
+        "type": "DataPropertyLink",
+        "status": "ForcedByUser",
+        "prefix": "http://rdvocab.info/ElementsGr2/"
+      },
+      {
+        "id": 2,
+        "source": 0,
+        "target": 3,
+        "label": "nameOfThePerson",
+        "type": "DataPropertyLink",
+        "status": "ForcedByUser",
+        "prefix": "http://rdvocab.info/ElementsGr2/"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "attribute": 1361677825,
+      "node": 1
+    },
+    {
+      "attribute": 1389260477,
+      "node": 3
+    }
+  ],
+  "dateCreated": "2017-03-23T17:01:33.428",
+  "dateModified": "2017-03-23T17:01:33.428"
+}
