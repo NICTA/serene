@@ -37,8 +37,6 @@ import edu.isi.karma.rep.alignment.{DefaultLink, Node}
 import edu.isi.karma.modeling.alignment.GraphUtil
 import au.csiro.data61.modeler.karma.{KarmaBuildAlignmentGraph, KarmaParams}
 import au.csiro.data61.types.Exceptions.ModelerException
-import au.csiro.data61.modeler.SuggestModelSpec
-
 
 /**
   * Tests for building the alignment graph
@@ -306,7 +304,7 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
     var alignment = karmaTrain.alignment
     alignment = karmaTrain.constructInitialAlignment(knownSSDs)
 
-    val semModel = KarmaTypes.readAlignmentGraph(Paths.get(alignmentDir, "graph.json").toString)
+    val (semModel, _, _) = KarmaTypes.readAlignmentGraph(Paths.get(alignmentDir, "graph.json").toString)
     assert(semModel.isConnected)
 
     assert(alignment.getGraph.vertexSet.size === 21)

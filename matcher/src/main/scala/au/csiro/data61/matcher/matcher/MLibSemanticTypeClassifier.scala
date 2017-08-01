@@ -147,6 +147,10 @@ case class MLibSemanticTypeClassifier(
     val dataDf = spark.createDataFrame(dataRdd, schema)
     val predsReordered = processPredictions(dataDf)
 
+    // clear spark cache and stop spark
+    dataRdd.unpersist()
+    dataDf.unpersist()
+    spark.sqlContext.clearCache()
     spark.stop()
 
 

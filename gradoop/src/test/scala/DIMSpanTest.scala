@@ -96,7 +96,7 @@ class DIMSpanTest extends FunSuite with ModelerJsonFormats with BeforeAndAfterEa
 
   override def afterEach(): Unit = {
     // clean the temporary folder
-//    removeAll(Paths.get("/tmp", "gradoop"))
+    removeAll(Paths.get("/tmp", "gradoop"))
   }
 
   def readSemModel(smPath: String): SemanticModel = {
@@ -186,7 +186,7 @@ class DIMSpanTest extends FunSuite with ModelerJsonFormats with BeforeAndAfterEa
     }
   }
 
-  test("Convert two small semantic model to TLF") {
+  test("Convert two small semantic models to TLF") {
     val sm: SemanticModel = readSemModel(smallSM)
 
     DIMSpanTLFSourceWrapper(List(sm, sm)).toTLF(reLabel = false) match {
@@ -516,94 +516,94 @@ class DIMSpanTest extends FunSuite with ModelerJsonFormats with BeforeAndAfterEa
     dimSpan.dfs.close()
   }
 
-  test("Find embeddings for frequent patterns from museum domain in the alignment graph by including everything") {
-    // museum ssds
-    lazy val ssdList: List[String] = new File(getClass.getResource("/museum").getPath)
-      .listFiles.map(_.getAbsolutePath).filter(_.endsWith(".ssd")).toList
-    println("SSDS")
-    ssdList.foreach(println)
-    println("========")
+//  test("Find embeddings for frequent patterns from museum domain in the alignment graph by including everything") {
+//    // museum ssds
+//    lazy val ssdList: List[String] = new File(getClass.getResource("/museum").getPath)
+//      .listFiles.map(_.getAbsolutePath).filter(_.endsWith(".ssd")).toList
+//    println("SSDS")
+//    ssdList.foreach(println)
+//    println("========")
+//
+//    // alignment graph
+//    lazy val museumAlign: String = Paths.get(getClass.getResource("/museum").getPath, "alignment.json").toString
+//
+//    // getting patterns
+//    val semModels: List[SemanticModel] = ssdList.map(sm => readSSD(sm).semanticModel.get)
+//
+//    val dimSpan = DIMSpanTLFSourceWrapper(semModels)
+//
+//    val tmpOutput = Paths.get("/tmp", "gradoop", "museum_sample_pats.json").toString
+//
+//    val optPatterns = dimSpan.mineGDL(tmpOutput, 1.0, directed=true, skipData = false, skipUnknown = false)
+//
+//    assert(optPatterns.isSuccess)
+//    println(s"Number of found pattern: ${optPatterns.get.count}")
+//    assert(optPatterns.get.count() === 10)
+//
+//    // finding embeddings
+//    val writeName = "/tmp/gradoop/museum2_embeds_normal/"
+//    val embeds = dimSpan.findEmbeddings(museumAlign, optPatterns.get,
+//      linkSize = SizeRange(lower=Some(1)), writeName)
+//
+//    assert(embeds.getGraphHeads.count === 226)
+//
+//    println("****Patterns*****")
+//    optPatterns.get.print()
+//    println("*********")
+//
+//    println("*********Lookup***")
+//    println(dimSpan.LabelLookup)
+//    println("*********")
+//
+//
+//    dimSpan.dfs.close()
+//  }
 
-    // alignment graph
-    lazy val museumAlign: String = Paths.get(getClass.getResource("/museum").getPath, "alignment.json").toString
-
-    // getting patterns
-    val semModels: List[SemanticModel] = ssdList.map(sm => readSSD(sm).semanticModel.get)
-
-    val dimSpan = DIMSpanTLFSourceWrapper(semModels)
-
-    val tmpOutput = Paths.get("/tmp", "gradoop", "museum_sample_pats.json").toString
-
-    val optPatterns = dimSpan.mineGDL(tmpOutput, 1.0, directed=true, skipData = false, skipUnknown = false)
-
-    assert(optPatterns.isSuccess)
-    println(s"Number of found pattern: ${optPatterns.get.count}")
-    assert(optPatterns.get.count() === 10)
-
-    // finding embeddings
-    val writeName = "/tmp/gradoop/museum2_embeds_normal/"
-    val embeds = dimSpan.findEmbeddings(museumAlign, optPatterns.get,
-      linkSize = SizeRange(lower=Some(1)), writeName)
-
-    assert(embeds.getGraphHeads.count === 226)
-
-    println("****Patterns*****")
-    optPatterns.get.print()
-    println("*********")
-
-    println("*********Lookup***")
-    println(dimSpan.LabelLookup)
-    println("*********")
-
-
-    dimSpan.dfs.close()
-  }
-
-  test("Find embeddings for frequent patterns from museum domain in the alignment graph by skipping only unknown") {
-    // museum ssds
-    lazy val ssdList: List[String] = new File(getClass.getResource("/museum").getPath)
-      .listFiles.map(_.getAbsolutePath).filter(_.endsWith(".ssd")).toList
-    println("SSDS")
-    ssdList.foreach(println)
-    println("========")
-
-    // alignment graph
-    lazy val museumAlign: String = Paths.get(getClass.getResource("/museum").getPath, "alignment.json").toString
-
-    // getting patterns
-    val semModels: List[SemanticModel] = ssdList.map(sm => readSSD(sm).semanticModel.get)
-
-    val dimSpan = DIMSpanTLFSourceWrapper(semModels)
-
-    val tmpOutput = Paths.get("/tmp", "gradoop", "museum_data_pats.tlf").toString
-
-    val sup = 2.0 / semModels.size
-    println(s"Mining support: $sup")
-    val optPatterns = dimSpan.mineGDL(tmpOutput, 0.4, directed=true, skipData = false, skipUnknown = true)
-
-    assert(optPatterns.isSuccess)
-    println(s"Number of found pattern: ${optPatterns.get.count}")
-//    assert(optPatterns.get.count() === 302)
-
-    // finding embeddings
-    val writeName = "/tmp/gradoop/museum2_embeds_normal/"
-    val embeds = dimSpan.findEmbeddings(museumAlign, optPatterns.get,
-      linkSize = SizeRange(lower=Some(1), upper = Some(6)),
-      writeName)
-
-    assert(embeds.getGraphHeads.count === 302)
-
-    println("****Patterns*****")
-    optPatterns.get.print()
-    println("*********")
-
-    println("*********Lookup***")
-    println(dimSpan.LabelLookup)
-    println("*********")
-
-
-    dimSpan.dfs.close()
-  }
+//  test("Find embeddings for frequent patterns from museum domain in the alignment graph by skipping only unknown") {
+//    // museum ssds
+//    lazy val ssdList: List[String] = new File(getClass.getResource("/museum").getPath)
+//      .listFiles.map(_.getAbsolutePath).filter(_.endsWith(".ssd")).toList
+//    println("SSDS")
+//    ssdList.foreach(println)
+//    println("========")
+//
+//    // alignment graph
+//    lazy val museumAlign: String = Paths.get(getClass.getResource("/museum").getPath, "alignment.json").toString
+//
+//    // getting patterns
+//    val semModels: List[SemanticModel] = ssdList.map(sm => readSSD(sm).semanticModel.get)
+//
+//    val dimSpan = DIMSpanTLFSourceWrapper(semModels)
+//
+//    val tmpOutput = Paths.get("/tmp", "gradoop", "museum_data_pats.tlf").toString
+//
+//    val sup = 2.0 / semModels.size
+//    println(s"Mining support: $sup")
+//    val optPatterns = dimSpan.mineGDL(tmpOutput, 0.4, directed=true, skipData = false, skipUnknown = true)
+//
+//    assert(optPatterns.isSuccess)
+//    println(s"Number of found pattern: ${optPatterns.get.count}")
+////    assert(optPatterns.get.count() === 302)
+//
+//    // finding embeddings
+//    val writeName = "/tmp/gradoop/museum2_embeds_normal/"
+//    val embeds = dimSpan.findEmbeddings(museumAlign, optPatterns.get,
+//      linkSize = SizeRange(lower=Some(1), upper = Some(6)),
+//      writeName)
+//
+//    assert(embeds.getGraphHeads.count === 302)
+//
+//    println("****Patterns*****")
+//    optPatterns.get.print()
+//    println("*********")
+//
+//    println("*********Lookup***")
+//    println(dimSpan.LabelLookup)
+//    println("*********")
+//
+//
+//    dimSpan.dfs.close()
+//  }
 
   test("Find embeddings for frequent patterns from museum domain in the alignment graph by skipping unknown and all") {
     // museum ssds
@@ -628,13 +628,13 @@ class DIMSpanTest extends FunSuite with ModelerJsonFormats with BeforeAndAfterEa
 
     val tmpOutput = Paths.get("/tmp", "gradoop", "museum2_normal_pats.tlf").toString
 
-    val sup = 1.0 / semModels.size
+    val sup = 2.0 / semModels.size
     println(s"Mining support: $sup")
     val optPatterns = dimSpan.mineGDL(tmpOutput, sup, directed=true, skipData = true, skipUnknown = true)
 
     assert(optPatterns.isSuccess)
     println(s"Number of found pattern: ${optPatterns.get.count}")
-    assert(optPatterns.get.count() === 278)
+    assert(optPatterns.get.count() === 38)
 
     // finding embeddings
     val writeName = "/tmp/gradoop/museum2_embeds_normal/"
@@ -643,17 +643,7 @@ class DIMSpanTest extends FunSuite with ModelerJsonFormats with BeforeAndAfterEa
       linkSize = SizeRange(lower=Some(1), upper=Some(6)),
       writeName)
 
-    assert(embeds.getGraphHeads.count === 822)
-
-    println("****Patterns*****")
-    optPatterns.get.print()
-    println("*********")
-
-    println("*********Lookup***")
-    println(dimSpan.LabelLookup)
-    println("*********")
-
-
+    assert(embeds.getGraphHeads.count === 234)
     dimSpan.dfs.close()
   }
 

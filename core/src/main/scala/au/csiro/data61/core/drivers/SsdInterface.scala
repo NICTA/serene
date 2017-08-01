@@ -57,7 +57,6 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
 
   /**
     * Check the request and if it's ok add a corresponding SSD to the storage.
-    *
     * @param request Request object
     * @return
     */
@@ -68,7 +67,8 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
       case Success(ssd) =>
         // check if the SSD is consistent and complete
         if (!ssd.isComplete) {
-          val msg = "SSD cannot be added to the storage: it is not connected. Check semanticModel and mappings."
+          val msg = "SSD cannot be added to the storage:" +
+            " either semantic model is not connected or mappings are not consistent."
           logger.error(msg)
           throw BadRequestException(msg)
         }
@@ -80,7 +80,7 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
             throw InternalException("Failed to create resource.")
         }
       case Failure(ex) =>
-        val msg = "SSD cannot be added to the storage: it is invalid."
+        val msg = "SSD cannot be added to the storage: requested ssd is invalid."
         logger.error(msg, ex)
         throw BadRequestException(msg)
     }
@@ -88,7 +88,6 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
 
   /**
     * Updates an SSD.
- *
     * @param id The SSD ID.
     * @param request The SSD update request.
     * @return The updated SSD if successful. Otherwise the exception that caused the failure.
@@ -109,7 +108,8 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
 
             // check if the SSD is consistent and complete
             if (!updatedSsd.isComplete) {
-              val msg = "SSD cannot be updated to the storage: it is not connected."
+              val msg = "SSD cannot be updated to the storage: " +
+                "either semantic model is not connected or mappings are not consistent."
               logger.error(msg)
               throw BadRequestException(msg)
             }
@@ -119,7 +119,7 @@ object SsdInterface extends StorageInterface[SsdKey, Ssd] with LazyLogging {
               case None => throw InternalException(s"SSD $id could not be updated.")
             }
           case Failure(ex) =>
-            val msg = "SSD cannot be updated to the storage: it is invalid."
+            val msg = "SSD cannot be updated to the storage: requested ssd is invalid."
             logger.error(msg, ex)
             throw BadRequestException(msg)
         }

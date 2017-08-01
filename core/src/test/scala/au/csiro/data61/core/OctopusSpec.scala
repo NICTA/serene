@@ -295,13 +295,13 @@ class OctopusSpec extends FunSuite with JsonFormats with BeforeAndAfterEach with
     assert(Files.exists(Paths.get(alignmentGraphJson)))
 
     // kind-of reading in the alignment graph as our semantic model
-    val alignSM: SemanticModel = KarmaTypes.readAlignmentGraph(
+    val (alignSM: SemanticModel, _, _) = KarmaTypes.readAlignmentGraph(
       OctopusStorage.getAlignmentGraphPath(octopus.id).toString)
 
     assert(alignSM.isConnected)  // the alignment graph must be connected
 
     // this is what we approx should get
-    val karmaAlign: SemanticModel = KarmaTypes.readAlignmentGraph(businessAlign)
+    val (karmaAlign: SemanticModel, _, _) = KarmaTypes.readAlignmentGraph(businessAlign)
 
     assert(alignSM.getLinks.size === karmaAlign.getLinks.size)
     assert(alignSM.getLinkLabels === karmaAlign.getLinkLabels)

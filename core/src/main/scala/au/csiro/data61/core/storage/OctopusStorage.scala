@@ -37,6 +37,7 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
 
   val DefaultAlignmentDir = "alignment-graph"
   val GraphJson = "graph.json"
+  val EmbedsDir = "embeds"
 
   implicit val keyReader: Readable[Int] = Readable.ReadableInt
 
@@ -44,6 +45,10 @@ object OctopusStorage extends Storage[OctopusID, Octopus] {
 
   def getAlignmentDirPath(id: OctopusID): Path = {
     Paths.get(getDirectoryPath(id).toString, DefaultAlignmentDir)
+  }
+
+  def getEmbedsDirPath(id: OctopusID): Path = {
+    Paths.get(getDirectoryPath(id).toString, DefaultAlignmentDir, EmbedsDir)
   }
 
   def getAlignmentGraphPath(id: OctopusID): Path = {

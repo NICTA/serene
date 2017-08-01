@@ -29,10 +29,17 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
   scalaVersion := "2.11.8",
 
   libraryDependencies ++= Seq(
-    "org.apache.spark"            %%  "spark-core"           % "2.1.0",
-    "org.apache.spark"            %%  "spark-sql"            % "2.1.0",
-    "org.apache.spark"            %%  "spark-mllib"          % "2.1.0",
-    "org.apache.commons"          %  "commons-csv"           % "1.4")
+    "org.apache.spark"            %%  "spark-core"           % "2.1.0"
+    ,"org.apache.spark"            %%  "spark-sql"            % "2.1.0"
+    ,"org.apache.spark"            %%  "spark-mllib"          % "2.1.0"
+    ,"org.apache.commons"          %  "commons-csv"           % "1.4"
+    ,"org.apache.flink"            %% "flink-scala"           % "1.1.2"
+    ,"org.apache.flink"            %% "flink-clients"         % "1.1.2" // needs to be explicitly here for flink
+    ,"org.apache.flink"            %  "flink-java"            % "1.1.2"
+    ,"com.google.collections" % "google-collections" % "1.0" // needs to be explicitly here for flink
+    //    ,"org.apache.hadoop"         % "hadoop-common"         % "2.7.3"
+    // FIXME: fix guava dependencies -- currently evaluation endpoint of TestAPI is not working
+  )
 )
 
 /**
@@ -148,52 +155,10 @@ lazy val modeler = Project(
       ,"com.googlecode.juniversalchardet" % "juniversalchardet"   % "1.0.3"          // dependency for Karma
       ,"org.kohsuke"                      % "graphviz-api"        % "1.1"            // dependency for Karma
       , "uk.com.robust-it"                % "cloning"             % "1.8.5"          // dependency for Karma
-    )
+    ),
+
+    excludeDependencies += "com.google.collections" % "google-collections"
   ).dependsOn(types)
-
-
-/**
-  * Serene Core module. Contains glue code, servers and communications...
-  */
-lazy val core = Project(
-    id = "serene-core",
-    base = file("core")
-  )
-  .settings(commonSettings)
-  .settings(
-      organization := "au.csiro.data61",
-      name := "serene-core",
-      version := mainVersion,
-
-      outputStrategy := Some(StdoutOutput),
-      parallelExecution in Test := false,
-      scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
-      resolvers += Resolver.sonatypeRepo("snapshots"),
-
-      // coverageEnabled := true,
-      // coverageOutputHTML := true,
-
-      libraryDependencies ++= Seq(
-        "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
-        ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
-        ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
-        ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
-        ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
-        ,"commons-io"                 %  "commons-io"         % "2.5"
-        ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
-        ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
-        ,"com.github.finagle"         %% "finch-core"         % "0.11.1"
-        ,"com.github.finagle"         %% "finch-json4s"       % "0.11.1"
-        ,"com.github.finagle"         %% "finch-test"         % "0.11.1"
-        ,"com.twitter"                %% "finagle-http"       % "6.39.0"
-        ,"junit"                      %  "junit"              % "4.12"
-        ,"com.typesafe"               %  "config"             % "1.3.0"
-        ,"com.github.scopt"           %% "scopt"              % "3.5.0"
-      )
-    )
-  .settings(jetty() : _*)
-  .enablePlugins(RpmPlugin, JavaAppPackaging)
-  .dependsOn(matcher, modeler)
 
 
 /**
@@ -215,7 +180,7 @@ lazy val gradoop = Project(
     resolvers += Resolver.sonatypeRepo("snapshots"),
     // this resolver is added since gradoop is a java project published to the local maven repo
     // TODO: change it maybe to directly including the jar file?
-    resolvers += "Local Maven Repository" at Path.userHome.asFile.toURI.toURL + ".m2/repository",
+//    resolvers += "Local Maven Repository" at Path.userHome.asFile.toURI.toURL + ".m2/repository",
 
     // coverageEnabled := true,
     // coverageOutputHTML := true,
@@ -224,29 +189,67 @@ lazy val gradoop = Project(
       "com.typesafe.scala-logging" %% "scala-logging"        % "3.4.0"
       ,"org.scalatest"             %% "scalatest"            % "3.0.0-RC1"
       ,"junit"                     %  "junit"                % "4.12"
-      ,"org.apache.flink"          %% "flink-scala"          % "1.1.2"
-      ,"org.json4s"                  %% "json4s-jackson"     % "3.2.10"
-      ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
-      ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
-//      ,"org.apache.flink"          %% "flink-connectors"          % "1.3.0"
-//      ,"org.apache.flink"          %% "flink-hadoop-compatibility" % "1.3.0" % "test"
-//      ,"org.apache.flink" % "flink-hadoop-compatibility_2.11" % "1.1.2" % "test"
-//      ,"org.apache.flink"          %% "flink-hadoop-compatibility" % "0.10.2" % "test"
-      ,"org.gradoop"               %  "gradoop-common"       % "0.3.0-SNAPSHOT"
-      ,"org.gradoop"               %  "gradoop-flink"        % "0.3.0-SNAPSHOT"
-      ,"org.gradoop"               %  "gradoop-examples"     % "0.3.0-SNAPSHOT"
-      // java libraries which are needed to run Karma code
-      // versions are not the latest (but the ones used in the original Web-Karma project)
-//      ,"org.json"                         %  "json"               % "20141113"       // dependency for Karma
-//      ,"org.reflections"                  %  "reflections"        % "0.9.10"         // dependency for Karma
-//      ,"commons-fileupload"               %  "commons-fileupload" % "1.2.2"          // dependency for Karma
-      ,"com.google.code.gson"             % "gson"                % "2.2.4"          // dependency for Karma
-//      ,"com.hp.hpl.jena"                  % "jena"                % "2.6.4"          // dependency for Karma
-//      ,"com.googlecode.juniversalchardet" % "juniversalchardet"   % "1.0.3"          // dependency for Karma
-//      ,"org.kohsuke"                      % "graphviz-api"        % "1.1"            // dependency for Karma
-//      , "uk.com.robust-it"                % "cloning"             % "1.8.5"          // dependency for Karma
+      ,"org.json4s"                %% "json4s-jackson"       % "3.2.10"
+      ,"org.json4s"                %% "json4s-native"        % "3.2.10"
+      ,"org.json4s"                %% "json4s-ext"           % "3.2.10"
+      //      ,"org.apache.flink"          %% "flink-connectors"          % "1.3.0"
+      //      ,"org.apache.flink"          %% "flink-hadoop-compatibility" % "1.3.0" % "test"
+      //      ,"org.apache.flink" % "flink-hadoop-compatibility_2.11" % "1.1.2" % "test"
+      //      ,"org.apache.flink"          %% "flink-hadoop-compatibility" % "0.10.2" % "test"
+//      ,"org.gradoop"               %  "gradoop-common"       % "0.3.0-SNAPSHOT"
+//      ,"org.gradoop"               %  "gradoop-flink"        % "0.3.0-SNAPSHOT"
+//      ,"org.gradoop"               %  "gradoop-examples"     % "0.3.0-SNAPSHOT"
     )
   )
   .settings(jetty() : _*)
   .enablePlugins(RpmPlugin, JavaAppPackaging)
   .dependsOn(types)
+
+
+/**
+  * Serene Core module. Contains glue code, servers and communications...
+  */
+lazy val core = Project(
+    id = "serene-core",
+    base = file("core")
+  )
+  .settings(commonSettings)
+  .settings(
+    organization := "au.csiro.data61",
+    name := "serene-core",
+    version := mainVersion,
+
+    outputStrategy := Some(StdoutOutput),
+    parallelExecution in Test := false,
+    scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+    resolvers += Resolver.sonatypeRepo("snapshots"),
+//    resolvers += "Local Maven Repository" at Path.userHome.asFile.toURI.toURL + ".m2/repository",
+
+    // coverageEnabled := true,
+    // coverageOutputHTML := true,
+
+    libraryDependencies ++= Seq(
+      "org.json4s"                  %% "json4s-jackson"     % "3.2.10"
+      ,"org.json4s"                 %% "json4s-native"      % "3.2.10"
+      ,"org.json4s"                 %% "json4s-ext"         % "3.2.10"
+      ,"org.eclipse.jetty"          %  "jetty-webapp"       % "9.2.10.v20150310" % "container"
+      ,"javax.servlet"              %  "javax.servlet-api"  % "3.1.0"            % "provided"
+      ,"commons-io"                 %  "commons-io"         % "2.5"
+      ,"com.typesafe.scala-logging" %% "scala-logging"      % "3.4.0"
+      ,"org.scalatest"              %% "scalatest"          % "3.0.0-RC1"
+      ,"com.github.finagle"         %% "finch-core"         % "0.11.1"
+      ,"com.github.finagle"         %% "finch-json4s"       % "0.11.1"
+      ,"com.github.finagle"         %% "finch-test"         % "0.11.1"
+      ,"com.twitter"                %% "finagle-http"       % "6.40.0"
+      ,"junit"                      %  "junit"              % "4.12"
+      ,"com.typesafe"               %  "config"             % "1.3.0"
+      ,"com.github.scopt"           %% "scopt"              % "3.5.0"
+//      , "com.google.guava"          % "guava"               % "18.0"
+//      ,"org.gradoop"               %  "gradoop-common"       % "0.3.0-SNAPSHOT"
+//      ,"org.gradoop"               %  "gradoop-flink"        % "0.3.0-SNAPSHOT"
+//      ,"org.gradoop"               %  "gradoop-examples"     % "0.3.0-SNAPSHOT"
+    )
+  )
+  .settings(jetty() : _*)
+  .enablePlugins(RpmPlugin, JavaAppPackaging)
+  .dependsOn(matcher, modeler, gradoop)

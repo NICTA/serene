@@ -345,7 +345,7 @@ case class DIMSpanTLFSourceWrapper(semanticModels: List[SemanticModel],
 
   /**
     * Helper method to execute only frequent graph pattern mining.
-    * @param inputPath name of file where convertd tlf representation will be written.
+    * @param inputPath name of file where converted tlf representation will be written.
     * @param minSupport threshold for support; this is a value in range [0,1]
     * @param directed boolean whether graphs are considered directed or not
     * @return

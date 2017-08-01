@@ -17,12 +17,13 @@
   */
 package au.csiro.data61.core.drivers
 
-import java.nio.file.{Paths, Files, Path}
+import java.nio.file.{Files, Path, Paths}
 
 import au.csiro.data61.core.api._
 import au.csiro.data61.core.drivers.Generic._
 import au.csiro.data61.core.storage.OctopusStorage._
 import au.csiro.data61.core.storage._
+import au.csiro.data61.gradoop.{DIMSpanTLFSourceWrapper, SizeRange}
 import au.csiro.data61.modeler.{PredictOctopus, TrainOctopus}
 import au.csiro.data61.types.ColumnTypes.ColumnID
 import au.csiro.data61.types.DataSetTypes._
@@ -336,54 +337,53 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
   /**
     * Perform prediction using a given octopus for a given SSD.
-    *
+    * This Ssd can be incomplete.
     * @param id The octopus id
-    * @param ssdID id of the SSD
+    * @param ssdReq incomplete Ssd
     * @return
     */
-  def predictSsdOctopus(id: OctopusID, ssdID : SsdID): SsdPrediction = {
+  def predictSsdOctopus(id: OctopusID, ssdReq : SsdRequest): SsdResults = {
 
     if (checkTraining(id)) {
       // do prediction
-      logger.info(s"Launching prediction for OCTOPUS $id...")
-      val octopus: Octopus = OctopusStorage.get(id).get
 
-      // we get here attributes which are transformed columns
-      val ssdColumns: List[ColumnID] = SsdStorage.get(ssdID).get.attributes.map(_.id)
-      val datasets: List[DataSetID] =
-        DatasetStorage.columnMap
-          .filterKeys(ssdColumns.contains)
-          .values
-          .map(_.datasetID)
-          .toList
-          .distinct
+      logger.info(s"Launching prediction for incomplete ssd with OCTOPUS $id...")
+      (for {
+        octopus <- OctopusStorage.get(id)
 
-      if (datasets.size > 1) {
-        logger.error("Octopus prediction for more than one dataset is not supported yet.")
-        throw InternalException("Octopus prediction for more than one dataset is not supported yet.")
+        ssd <- ssdReq.toSsd(genID).toOption
+
+        ssdColumns: List[ColumnID] = ssd.attributes.map(_.id)
+
+        datasets: List[DataSetID] = DatasetStorage.columnMap.filterKeys(ssdColumns.contains)
+          .values.map(_.datasetID).toList.distinct
+
+        dsPredictions = if (datasets.size > 1) {
+            logger.error("Octopus prediction for more than one dataset is not supported yet.")
+            None
+          } else {
+          Try { ModelInterface.predictModel(octopus.lobsterID, datasets.head) } toOption
+        }
+
+        attrToColMap: Map[Int, Int] = ssd.attributes.map(x => (x.id, x.id)).toMap
+
+        predicted <- PredictOctopus.predict(octopus,
+          OctopusStorage.getAlignmentDirPath(octopus.id).toString,
+          octopus.ontologies
+            .flatMap(OwlStorage.getOwlDocumentPath)
+            .map(_.toString),
+          ssd,
+          dsPredictions,
+          attrToColMap,
+          getNumSemanticTypes(octopus.modelingProps))
+
+      } yield predicted) match {
+        case None =>
+          logger.error(s"No SSD predictions are available for octopus $id.")
+          throw InternalException(s"No SSD predictions are available for octopus $id.")
+        case Some(pred: SsdPrediction) =>
+          convertSsdPrediction(pred)
       }
-
-      // we do semantic typing for only one dataset
-      val dsPredictions = Try {
-        ModelInterface.predictModel(octopus.lobsterID, datasets.head)
-      } toOption
-
-      // this map is needed to map ColumnIDs from dsPredictions to attributes
-      // we make the mappings identical
-      val attrToColMap: Map[Int, Int] = SsdStorage.get(ssdID)
-        .map(_.attributes.map(x => (x.id, x.id)).toMap)
-        .getOrElse(Map.empty[Int, Int])
-
-      PredictOctopus.predict(octopus,
-        OctopusStorage.getAlignmentDirPath(octopus.id).toString,
-        octopus.ontologies
-          .flatMap(OwlStorage.getOwlDocumentPath)
-          .map(_.toString),
-        SsdStorage.get(ssdID).get,
-        dsPredictions,
-        attrToColMap,
-        getNumSemanticTypes(octopus.modelingProps))
-        .getOrElse(throw InternalException(s"No SSD predictions are available for octopus $id."))
 
     } else {
       val msg = s"Prediction failed. Octopus $id is not trained."
@@ -454,21 +454,31 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
   }
 
   /**
-    * Get octopus and dataset which are needed for prediction.
-    * If octopus or dataset do not exist in the storage, exception will be thrown.
-    * @param id
-    * @param dsId
+    * Get octopus which is needed for prediction.
+    * If octopus does not exist in the storage, exception will be thrown.
+    * @param id octopus id which is needed
     * @return
     */
-  private def getPredictionResources(id: OctopusID,
-                                     dsId : DataSetID
-                                    ): (Octopus, DataSet) = {
-    val octopus = OctopusStorage.get(id) match {
+  private def getOctopus(id: OctopusID): Octopus = {
+    OctopusStorage.get(id) match {
       case Some(octo) =>
         octo
       case None =>
         throw NotFoundException(s"Octopus $id not found.")
     }
+  }
+
+  /**
+    * Get octopus and dataset which are needed for prediction.
+    * If octopus or dataset do not exist in the storage, exception will be thrown.
+    * @param id octopus id
+    * @param dsId dataset id
+    * @return
+    */
+  private def getPredictionResources(id: OctopusID,
+                                     dsId : DataSetID
+                                    ): (Octopus, DataSet) = {
+
     val dataset = DatasetStorage.get(dsId) match {
       case Some(ds) =>
         ds
@@ -476,7 +486,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
         throw NotFoundException(s"Dataset $dsId not found.")
     }
 
-    (octopus, dataset)
+    (getOctopus(id), dataset)
   }
 
   /**
@@ -499,12 +509,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
         emptySsd <- generateEmptySsd(octopus, dataset)
 
-        // we do semantic typing for only one dataset
-        // TODO: throw error if prediction with schema matcher fails
-//        dsPredictions = Try {
-//          ModelInterface.predictModel(octopus.lobsterID, dataset.id)
-//        } toOption
-
+        // we do semantic typing for the dataset
         dsPredictions = ModelInterface.predictModel(octopus.lobsterID, dataset.id)
 
 
@@ -533,6 +538,61 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
 
     } else {
       val msg = s"Prediction failed. Octopus $id is not trained."
+      // prediction is impossible since the model has not been trained properly
+      logger.error(msg)
+      throw BadRequestException(msg)
+    }
+  }
+
+  /**
+    * Perform prediction using the octopus for a dataset.
+    * Emtpy SSD will automatically be generated for the dataset.
+    * If the column has a high probability to be unknown,
+    * it is discarded from the semantic modelling step.
+    * @param id The octopus id
+    * @return
+    */
+  def getOctopusPatterns(id: OctopusID): Try[String] = Try {
+    val octopus: Octopus = getOctopus(id)
+
+    if (checkTraining(id)) {
+      // do prediction
+      logger.info(s"Launching frequent graph pattern mining for octopus $id")
+
+      // getting patterns
+      val semModels: List[SemanticModel] = octopus.ssds.flatMap(SsdStorage.get).map(_.semanticModel.get)
+
+      val dimSpan = DIMSpanTLFSourceWrapper(semModels)
+
+      val tmpOutput = Paths.get("/tmp", "gradoop", "normal_pats.tlf").toString
+
+
+      // TODO: make mining and embedding parameters as attributes of Octopus
+      val sup = 1.0 / semModels.size
+      logger.info(s"Mining support: $sup")
+      val optPatterns = dimSpan.mineGDL(tmpOutput, sup, directed=true, skipData = true, skipUnknown = true)
+
+      logger.info(s"Number of found patterns: ${optPatterns.get.count}")
+
+      // alignment graph
+      lazy val alignGraph: String = OctopusStorage.getAlignmentGraphPath(octopus.id).toString
+
+      // finding embeddings
+      if (!OctopusStorage.getEmbedsDirPath(octopus.id).toFile.exists) {
+        OctopusStorage.getEmbedsDirPath(octopus.id).toFile.mkdirs
+      }
+      val writeName = OctopusStorage.getEmbedsDirPath(octopus.id).toString
+      val embeds = dimSpan.findEmbeddings(alignGraph,
+        optPatterns.get,
+        linkSize = SizeRange(lower=Some(1), upper=Some(6)),
+        writeName)
+
+      logger.info(s"Embeddings for frequent patterns found in the alignment graph.")
+      dimSpan.dfs.close()
+
+      writeName
+    } else {
+      val msg = s"Patterns cannot be extracted. Octopus $id is not trained."
       // prediction is impossible since the model has not been trained properly
       logger.error(msg)
       throw BadRequestException(msg)

@@ -44,7 +44,7 @@ import scala.util.{Failure, Success, Try}
   * Tests for evaluation of semantic modeling
   */
 @RunWith(classOf[JUnitRunner])
-class TestAPISpec  extends FunSuite with JsonFormats {
+class  TestAPISpec  extends FunSuite with JsonFormats {
 
   import au.csiro.data61.core.api.TestAPI._
 

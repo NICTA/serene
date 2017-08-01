@@ -1123,7 +1123,6 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
     }
   })
 
-  // TODO: test for a malformed csv dataset
   test("POST /v1.0/octopus/:id/predict/:id fails for a malformed dataset")(new TestServer {
     try {
       val PollTime = 3000
@@ -1150,6 +1149,105 @@ class OctopusAPISpec extends FunSuite with JsonFormats with BeforeAndAfterEach w
 
       println(response.contentString)
       assert(response.status === Status.InternalServerError)
+
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  //==============================================================================
+  // Tests for mining patterns with DIMSpan: Spark and Flink are used here
+  test("POST /v1.0/octopus/:id/patterns accepts it, mines patterns and finds embeddings")(new TestServer {
+    try {
+      val PollTime = 2000
+      val PollIterations = 20
+
+      val octopus = trainOctopus()
+
+      val trained = pollOctopusState(octopus, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, 30 seconds)
+      assert(state === Training.Status.COMPLETE)
+
+      // get the model state
+      assert(ModelStorage.get(octopus.lobsterID).nonEmpty)
+      val model = ModelStorage.get(octopus.lobsterID).get
+      assert(model.state.status === Training.Status.COMPLETE)
+
+      // now post request to get patterns
+      val request = postRequest(json = JObject(),
+        url = s"/$APIVersion/octopus/${octopus.id}/patterns")
+
+      val response = Await.result(client(request))
+
+      assert(response.status === Status.Ok)
+      println(s"Answer is: ${response.contentString}")
+      assert(parse(response.contentString).extract[String] ===
+        OctopusStorage.getEmbedsDirPath(octopus.id).toString)
+
+
+    } finally {
+      deleteOctopi()
+      assertClose()
+    }
+  })
+
+  test("POST /v1.0/octopus/:id/ssd-predict/ssdReq succeeds")(new TestServer {
+    try {
+      val PollTime = 3000
+      val PollIterations = 20
+      val dummyID = 1000
+
+      // create a default octopus and train it
+      val octopus = trainOctopus()
+
+      val trained = pollOctopusState(octopus, PollIterations, PollTime)
+      val state = concurrent.Await.result(trained, PollIterations * PollTime * 2 seconds)
+      assert(state === Training.Status.COMPLETE)
+      assert(DatasetStorage.get(datasetMap("getCities")).isDefined)
+
+      // now make a prediction
+      val inc = JObject(
+        List(("name",JString("getCities.csv")),
+          ("ontologies",JArray(List(JInt(1)))),
+          ("semanticModel", JObject(
+            List(
+              ("nodes",JArray(List(
+                JObject(List(("id",JInt(0)), ("label",JString("State")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(1)), ("label",JString("State.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(3)), ("label",JString("City.name")), ("type",JString("DataNode")), ("status",JString("ForcedByUser")))),
+                JObject(List(("id",JInt(2)), ("label",JString("City")), ("type",JString("ClassNode")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#"))))))),
+              ("links",JArray(List(
+                JObject(List(("id",JInt(1)), ("source",JInt(0)), ("target",JInt(1)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))),
+                JObject(List(("id",JInt(2)), ("source",JInt(2)), ("target",JInt(3)), ("label",JString("name")), ("type",JString("DataPropertyLink")), ("status",JString("ForcedByUser")), ("prefix",JString("http://www.semanticweb.org/serene/report_example_ontology#")))))))))),
+          ("mappings",JArray(List(
+            JObject(List(("attribute",JInt(1997319549)), ("node",JInt(1)))),
+            JObject(List(("attribute",JInt(1160349990)), ("node",JInt(3))))
+          )))))
+
+      val request = postRequest(json = inc,
+        url = s"/$APIVersion/octopus/${octopus.id}/ssd-predict")
+
+      val response = Await.result(client(request))
+
+      assert(response.status === Status.Ok)
+
+      val ssdPred = parse(response.contentString).extract[SsdResults]
+
+      assert(ssdPred.predictions.size === 2)
+      val predictedSSDs: List[Ssd] = ssdPred.predictions.map(_.ssd.toSsd(dummyID).get)
+      // Karma should return consistent and complete semantic models
+      assert(predictedSSDs.forall(_.isComplete))
+      assert(predictedSSDs.forall(_.isConsistent))
+      assert(predictedSSDs.forall(_.mappings.isDefined))
+      assert(predictedSSDs.forall(_.mappings.forall(_.mappings.size == 2)))
+
+      assert(ssdPred.predictions.forall(_.score.nodeCoherence == 1))
+      assert(ssdPred.predictions.forall(_.score.nodeCoverage == 1))
+
+      val scores = ssdPred.predictions.head.score
+      assert(scores.linkCost === 4.0)
 
 
     } finally {

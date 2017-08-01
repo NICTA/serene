@@ -228,7 +228,10 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
       if (featureNames.size > 399) {
         logger.warn("Spark cannot handle situations when there are too many features!")
       }
-      finalPipeline.fit(dataDf)
+      val fp = finalPipeline.fit(dataDf)
+      dataRdd.unpersist()
+      dataDf.unpersist()
+      fp
     } match {
       case Success(model) =>
         model
@@ -387,6 +390,10 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
 
     val finalModel = getPipelineModel(data, schema, featureNames)
 
+    // clear spark cache and stop spark
+    spark.sqlContext.clearCache()
+    spark.sparkContext.clearJobGroup()
+    spark.sparkContext.clearCallSite()
     spark.stop()
     logger.info("***Training finished.")
     MLibSemanticTypeClassifier(

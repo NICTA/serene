@@ -17,19 +17,16 @@
  */
 package au.csiro.data61.core.api
 
-import java.nio.file.Path
-
 import au.csiro.data61.core.drivers.OctopusInterface
+import au.csiro.data61.types.Exceptions.TypeException
 import au.csiro.data61.types._
-import au.csiro.data61.types.SsdTypes.{SsdID, OwlID, Octopus, OctopusID}
+import au.csiro.data61.types.SsdTypes.{Octopus, OctopusID, OwlID, SsdID}
 import au.csiro.data61.types.Training.{Status, TrainState}
-import io.finch._
 
-import scala.language.postfixOps
+import java.nio.file.Path
 import io.finch._
+import io.finch.json4s.decodeJson
 import org.joda.time.DateTime
-import org.json4s.JValue
-import org.json4s.JsonAST.JNothing
 import org.json4s.jackson.JsonMethods._
 
 import scala.language.postfixOps
@@ -184,6 +181,64 @@ object OctopusAPI extends RestAPI {
       }
   }
 
+  /**
+    * Perform prediction using octopus at id.
+    * Currently we support prediction only for datasets with empty SSDs.
+    * Note: if a dataset with the provided id does not exist, nothing is done.
+    */
+
+  val octopusSsdPredict: Endpoint[SsdResults] =
+    post(APIVersion :: "octopus" :: int :: "ssd-predict" :: jsonBody[SsdRequest]) {
+      (id: Int, request: SsdRequest) =>
+        Try {
+          OctopusInterface.predictSsdOctopus(id, request)
+        } match {
+          case Success(prediction) =>
+            Ok(prediction)
+          case Failure(err: BadRequestException) =>
+            BadRequest(err)
+          case Failure(err: InternalException) =>
+            InternalServerError(err)
+          case Failure(err: NotFoundException) =>
+            NotFound(err)
+          case Failure(err) =>
+            logger.error(s"Octopus $id prediction failed: ${err.getMessage}")
+            InternalServerError(InternalException(s"Octopus $id prediction failed"))
+        }
+  } handle {
+      case e: TypeException =>
+        logger.error(s"TypeException ${e.getMessage}")
+        BadRequest(e)
+      case e: Exception =>
+        logger.error(s"Parsing error ${e.getMessage}")
+        BadRequest(BadRequestException(s"Request body cannot be parsed. Check SSD: ${e.getCause}, ${e.getMessage}"))
+    }
+
+  /**
+    * Find frequent patterns among semantic models and then find embeddings for these patterns
+    * in the alignmnet graph of the Octopus.
+    * This procedure can be done only for the trained Octopus.
+    * Currently location of the json files is returned.
+    * Gradoop's DIMSpan is used here.
+    */
+
+  val octopusPatterns: Endpoint[String] = post(APIVersion :: "octopus" :: int :: "patterns") {
+    (id: Int) =>
+      OctopusInterface.getOctopusPatterns(id) match {
+        case Success(pats) =>
+          Ok(pats)
+        case Failure(err: BadRequestException) =>
+          BadRequest(err)
+        case Failure(err: InternalException) =>
+          InternalServerError(err)
+        case Failure(err: NotFoundException) =>
+          NotFound(err)
+        case Failure(err) =>
+          logger.error(s"Octopus $id prediction failed: ${err.getMessage}")
+          InternalServerError(InternalException(s"Octopus $id prediction failed"))
+      }
+  }
+
 
   // NOTE: octopus evaluation endpoint is in TestAPI (since we have evaluation independent of a particular octopus)
 
@@ -316,7 +371,9 @@ object OctopusAPI extends RestAPI {
       octopusPatch :+:
       octopusDelete :+:
       octopusPredict :+:
-      octopusAlignment
+      octopusAlignment :+:
+      octopusPatterns :+:
+      octopusSsdPredict
 }
 
 
