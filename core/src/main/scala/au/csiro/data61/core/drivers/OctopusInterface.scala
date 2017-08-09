@@ -562,7 +562,7 @@ object OctopusInterface extends TrainableInterface[OctopusKey, Octopus] with Laz
       // getting patterns
       val semModels: List[SemanticModel] = octopus.ssds.flatMap(SsdStorage.get).map(_.semanticModel.get)
 
-      val dimSpan = DIMSpanTLFSourceWrapper(semModels)
+      val dimSpan = DIMSpanTLFSourceWrapper(semModels, randomLabel=true)
 
       val tmpOutput = Paths.get("/tmp", "gradoop", "normal_pats.tlf").toString
 

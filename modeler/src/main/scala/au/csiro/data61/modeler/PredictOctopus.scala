@@ -73,7 +73,7 @@ object PredictOctopus extends LazyLogging {
       case None => None
     }
 
-    logger.debug(s"converted ds predictions: $convertedDsPreds")
+    logger.debug(s"converted ds predictions: ${convertedDsPreds.size}")
 
     val suggestions = KarmaSuggestModel(karmaWrapper).suggestModels(ssd
       , ontologies

@@ -212,4 +212,57 @@ class MuseumSpec extends FunSuite with ModelerJsonFormats with BeforeAndAfterEac
       .flatMap(_.getHelperLinks).map(_.lType).distinct.foreach(println)
 
   }
+
+  test("Museum dataset crm models conversions"){
+    val jsonList: Array[String] = Paths.get(karmaDir, "museum", "museum-29-crm")
+      .toFile.listFiles
+      .filter(_.toString.endsWith(Params.MODEL_MAIN_FILE_EXT))
+      .map(_.getAbsolutePath)
+
+    val semanticModels: Array[KarmaSSD]  =
+      jsonList.map {
+        fileName =>
+          KarmaSSD.readJson(fileName)
+      }
+    assert(semanticModels.length === 29)
+
+    // read in ontologies
+    val ontologyNames = Paths.get(karmaDir, "museum", "museum-29-crm", "preloaded-ontologies")
+      .toFile.listFiles.map(_.getName).zipWithIndex.map(x => (x._2,x._1)).toMap
+
+    //    val conv = KarmaSemanticModel(semanticModels.head).toSSD(newID = genID,
+    //      ontologies = ontologyNames.keys.toList)
+    //
+    //    assert(conv.semanticModel.get.getNodes
+    //      .filter(_.ssdLabel.labelType == "ClassNode")
+    //      .forall(_.ssdLabel.prefix.nonEmpty)
+    //    )
+    //
+    //    assert(conv.semanticModel.get.getHelperLinks.forall(_.prefix.nonEmpty))
+    //    assert(conv.semanticModel.get.getHelperLinks.map(_.prefix).distinct.size > 1)
+
+    val convertedSemModels: Array[Ssd] = semanticModels.map(x =>
+      KarmaSemanticModel(x).toSSD(newID = genID,
+        ontologies = ontologyNames.keys.toList))
+
+    assert(convertedSemModels.forall(_.semanticModel.isDefined))
+
+    assert(convertedSemModels.flatMap(_.semanticModel)
+      .flatMap(_.getNodes)
+      .filter(_.ssdLabel.labelType == "ClassNode")
+      .forall(_.ssdLabel.prefix.nonEmpty)
+    )
+
+    assert(convertedSemModels.flatMap(_.semanticModel)
+      .flatMap(_.getHelperLinks).forall(_.prefix.nonEmpty))
+    assert(convertedSemModels.flatMap(_.semanticModel)
+      .flatMap(_.getHelperLinks).map(_.prefix).distinct.length > 1)
+
+    val path = Paths.get(karmaDir, "museum", "museum-29-crm", "conversion")
+    convertedSemModels.foreach(sm => writeToFile(path, sm))
+
+    convertedSemModels.flatMap(_.semanticModel)
+      .flatMap(_.getHelperLinks).map(_.lType).distinct.foreach(println)
+
+  }
 }

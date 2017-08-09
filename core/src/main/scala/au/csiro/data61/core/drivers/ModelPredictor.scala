@@ -199,16 +199,24 @@ object ModelPredictor extends LazyLogging with JsonFormats {
                     dataSetID: DataSetID): Option[DataSetPrediction] = {
 
     val derivedFeatureFile = predictionsPath(id, dataSetID)
-
-    // TODO: Fix how this works, the writing and reading to files is unnecessary
-    modelPrediction(id, dsPath, sModel, derivedFeatureFile) match {
-      case Success(_) =>
-        Try {
-          readPredictions(derivedFeatureFile, sModel.classes.size, id, dataSetID)
-        } toOption
-      case Failure(err) =>
-        logger.warn(s"Prediction for the dataset $dsPath failed: $err")
-        None
+    // if file exists already, we do not re-run the prediction
+    if (derivedFeatureFile.toFile.exists) {
+      logger.info(s"Predictions for dataset $dataSetID already exist. Reading them directly from file.")
+      Try {
+        readPredictions(derivedFeatureFile, sModel.classes.size, id, dataSetID)
+      } toOption
+    }
+    else {
+      // TODO: Fix how this works, the writing and reading to files is unnecessary
+      modelPrediction(id, dsPath, sModel, derivedFeatureFile) match {
+        case Success(_) =>
+          Try {
+            readPredictions(derivedFeatureFile, sModel.classes.size, id, dataSetID)
+          } toOption
+        case Failure(err) =>
+          logger.warn(s"Prediction for the dataset $dsPath failed: $err")
+          None
+      }
     }
   }
 

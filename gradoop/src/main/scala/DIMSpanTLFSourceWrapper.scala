@@ -84,7 +84,7 @@ case class DIMSpanTLFSourceWrapper(semanticModels: List[SemanticModel],
                                    randomLabel: Boolean = false) extends LazyLogging with Hdfs {
 
   private val FlinkLimit = 20
-  private val LabelKeySize = 1
+  private val LabelKeySize = 3
   private lazy val DataGraphPath = "/tmp/gradoop/data_graph.tlf"
 
   /**
@@ -180,7 +180,7 @@ case class DIMSpanTLFSourceWrapper(semanticModels: List[SemanticModel],
         label => (label, Random.alphanumeric.take(LabelKeySize).mkString)
       }.toMap
     } else {
-      val chars = ('a' to 'z') ++ ('A' to 'Z') ++ ('0' to '9')
+      val chars = ('a' to 'z') ++ ('A' to 'Z') // ++ ('0' to '9')
       presentLabs.zip(chars).map { case (a,b) => (a, b.toString)}.toMap
     }
   }
@@ -465,17 +465,17 @@ case class DIMSpanTLFSourceWrapper(semanticModels: List[SemanticModel],
     logger.info("Converting semantic models to the logical graph of Gradoop")
 
     val (labelMap: Map[String, NodeInfo], nodes: List[Vertex]) = getLgNodes(reLabel, skipData, skipUnknown)
-    logger.info("Nodes have been converted.")
+    logger.info(s"Nodes have been converted: ${nodes.size}")
 
     val links: List[Edge] = getLgLinks(labelMap, reLabel, skipData, skipUnknown)
 
-    logger.info("Links have been converted.")
+    logger.info(s"Links have been converted: ${links.size}")
 
     val graphHeads: List[GraphHead] = GradoopModelMap.values.map {
       idx => new GraphHead(idx, "semanticModel", new Properties())
     }.toList
 
-    logger.info("GraphHeads have been created.")
+    logger.info(s"GraphHeads have been created: ${graphHeads.size}")
 
     val lg = LogicalGraph.fromDataSets(
       GRADOOP_CONFIG.getExecutionEnvironment.fromCollection(graphHeads.asJavaCollection),

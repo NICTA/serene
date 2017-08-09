@@ -81,6 +81,7 @@ lazy val types = Project(
       ,"org.scala-graph"            %% "graph-core"         % "1.11.2"         // scala library to work with graphs
       ,"org.jgrapht"                %  "jgrapht-core"       % "0.9.0"          // Karma uses java library to work with graphs
       ,"org.json"                   %  "json"               % "20141113"       // dependency for Karma
+      ,"com.google.code.gson"       %  "gson"                % "2.2.4"          // dependency for Karma
     )
   )
 
@@ -155,9 +156,9 @@ lazy val modeler = Project(
       ,"com.googlecode.juniversalchardet" % "juniversalchardet"   % "1.0.3"          // dependency for Karma
       ,"org.kohsuke"                      % "graphviz-api"        % "1.1"            // dependency for Karma
       , "uk.com.robust-it"                % "cloning"             % "1.8.5"          // dependency for Karma
-    ),
+    )
 
-    excludeDependencies += "com.google.collections" % "google-collections"
+//    ,excludeDependencies += "com.google.collections" % "google-collections"
   ).dependsOn(types)
 
 
