@@ -53,7 +53,12 @@ RUN apt-get clean autoclean && \
         rm -rf /var/lib/{apt,dpkg,cache,log}/
 
 # Add hadoop group
-RUN addgroup hadoop && adduser --ingroup hadoop $username
+RUN addgroup hadoop && usermod -a -G hadoop $username
+
+# Copy hadoop and flink
+COPY flink-hadoop.tar.gz /home/$username
+RUN tar vxzf /home/$username/flink-hadoop.tar.gz -C /usr/local
+RUN cd /usr/local && ln -s ./hadoop-2.7.3 hadoop && chown -R $username:hadoop hadoop
 
 #
 # Switch to the user...
@@ -62,14 +67,9 @@ USER $username
 WORKDIR /home/$username
 
 # Setup ssh
-RUN ssh-keygen -t rsa -P ''
+RUN ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
 RUN cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
-RUN ssh localhost
-
-# Copy hadoop and flink
-COPY flink-hadoop.tar.gz /home/$username
-RUN tar vxzf flink-hadoop.tar.gz -C /usr/local
-RUN cd /usr/local && ln -s ./hadoop-2.7.3 hadoop && chown -R $username:hadoop hadoop
+#RUN ssh localhost
 
 # Hadoop and flink environment variables
 ENV HADOOP_HOME /usr/local/hadoop-2.7.3
@@ -86,9 +86,8 @@ ENV PATH $PATH:$HADOOP_HOME/bin
 ENV PATH $PATH:$HADOOP_HOME/sbin
 
 # Format namenode
-RUN cd ~ && mkdir -p mydata/hdfs/namenode && mkdir -p mydata/hdfs/datanode
+RUN cd ~ && mkdir -p mydata/hdfs/namenode && mkdir -p mydata/hdfs/datanode && chown -R $username:hadoop mydata/hdfs
 RUN hdfs namenode -format
-
 
 #
 # Copy the git repository
