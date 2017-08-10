@@ -19,7 +19,7 @@ fi
 
 pushd "$(dirname "$0")" > /dev/null
 cd ..
-sbt -J-Xmx4G clean package
+sbt -J-Xmx12G clean package
 
 if [ ! -d jars ]; then
    mkdir jars

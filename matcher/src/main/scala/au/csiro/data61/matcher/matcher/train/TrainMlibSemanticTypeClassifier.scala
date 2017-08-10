@@ -260,7 +260,7 @@ case class TrainMlibSemanticTypeClassifier(classes: List[String],
       .appName("SereneSchemaMatcher")
       .getOrCreate()
     sparkSession.conf.set("spark.executor.cores","8")
-
+//    sparkSession.conf.set("spark.shuffle.blockTransferService", "nio")
     sparkSession
   }
 

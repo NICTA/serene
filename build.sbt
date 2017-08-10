@@ -29,17 +29,29 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ Seq(
   scalaVersion := "2.11.8",
 
   libraryDependencies ++= Seq(
-    "org.apache.spark"            %%  "spark-core"           % "2.1.0"
-    ,"org.apache.spark"            %%  "spark-sql"            % "2.1.0"
-    ,"org.apache.spark"            %%  "spark-mllib"          % "2.1.0"
+    "org.apache.spark"            %%  "spark-core"           % "2.2.0"
+    ,"org.apache.spark"            %%  "spark-sql"            % "2.2.0"
+    ,"org.apache.spark"            %%  "spark-mllib"          % "2.2.0"
     ,"org.apache.commons"          %  "commons-csv"           % "1.4"
     ,"org.apache.flink"            %% "flink-scala"           % "1.1.2"
     ,"org.apache.flink"            %% "flink-clients"         % "1.1.2" // needs to be explicitly here for flink
     ,"org.apache.flink"            %  "flink-java"            % "1.1.2"
-    ,"com.google.collections" % "google-collections" % "1.0" // needs to be explicitly here for flink
-    //    ,"org.apache.hadoop"         % "hadoop-common"         % "2.7.3"
-    // FIXME: fix guava dependencies -- currently evaluation endpoint of TestAPI is not working
+    ,"com.google.collections" % "google-collections" % "1.0"  // needs to be explicitly here for flink
   )
+  // use the most recent version of netty
+  // also to resolve issues with netty binary incompatibilities used in spark, flink, finch, finagle
+  , dependencyOverrides += "io.netty" % "netty" % "3.10.6.Final"
+  , dependencyOverrides += "io.netty" % "netty-all" % "4.1.14.Final"
+  , dependencyOverrides += "io.netty" % "netty-buffer" % "4.1.14.Final"
+  , dependencyOverrides += "io.netty" % "netty-codec" % "4.1.14.Final"
+  , dependencyOverrides += "io.netty" % "netty-codec-http" % "4.1.14.Final"
+  , dependencyOverrides += "io.netty" % "netty-codec-socks" % "4.1.14.Final"
+  , dependencyOverrides += "io.netty" % "netty-common" % "4.1.14.Final"
+  , dependencyOverrides += "io.netty" % "netty-handler" % "4.1.14.Final"
+  , dependencyOverrides += "io.netty" % "netty-handler-proxy" % "4.1.14.Final"
+  , dependencyOverrides += "io.netty" % "netty-resolver" % "4.1.14.Final"
+  , dependencyOverrides += "io.netty" % "netty-transport" % "4.1.14.Final"
+
 )
 
 /**
@@ -55,7 +67,7 @@ lazy val root = Project(
     version := mainVersion,
     mainClass in (Compile, run) := Some("au.csiro.data61.core.Serene")
   )
-  .aggregate(core, matcher, modeler)
+  .aggregate(core, matcher, modeler, gradoop, types)
   .dependsOn(core, matcher, modeler)
 
 /**
@@ -156,9 +168,8 @@ lazy val modeler = Project(
       ,"com.googlecode.juniversalchardet" % "juniversalchardet"   % "1.0.3"          // dependency for Karma
       ,"org.kohsuke"                      % "graphviz-api"        % "1.1"            // dependency for Karma
       , "uk.com.robust-it"                % "cloning"             % "1.8.5"          // dependency for Karma
+      // to get guava working I've added shading to Web-Karma
     )
-
-//    ,excludeDependencies += "com.google.collections" % "google-collections"
   ).dependsOn(types)
 
 
@@ -245,11 +256,12 @@ lazy val core = Project(
       ,"junit"                      %  "junit"              % "4.12"
       ,"com.typesafe"               %  "config"             % "1.3.0"
       ,"com.github.scopt"           %% "scopt"              % "3.5.0"
-//      , "com.google.guava"          % "guava"               % "18.0"
+//      , "org.reflections" % "reflections" % "0.9.10"
 //      ,"org.gradoop"               %  "gradoop-common"       % "0.3.0-SNAPSHOT"
 //      ,"org.gradoop"               %  "gradoop-flink"        % "0.3.0-SNAPSHOT"
 //      ,"org.gradoop"               %  "gradoop-examples"     % "0.3.0-SNAPSHOT"
     )
+//    , dependencyOverrides += "com.google.guava" % "guava" % "13.0.1" // Web Karma requires this version of guava
   )
   .settings(jetty() : _*)
   .enablePlugins(RpmPlugin, JavaAppPackaging)
