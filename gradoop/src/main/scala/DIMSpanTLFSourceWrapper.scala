@@ -84,7 +84,7 @@ case class DIMSpanTLFSourceWrapper(semanticModels: List[SemanticModel],
                                    randomLabel: Boolean = false) extends LazyLogging with Hdfs {
 
   private val FlinkLimit = 20
-  private val LabelKeySize = 3
+  private val LabelKeySize = 5
   private lazy val DataGraphPath = "/tmp/gradoop/data_graph.tlf"
 
   /**
@@ -93,7 +93,7 @@ case class DIMSpanTLFSourceWrapper(semanticModels: List[SemanticModel],
   private val GRADOOP_CONFIG: GradoopFlinkConfig = {
     val config = new FlinkConfig()
     config.setInteger("taskmanager.network.numberOfBuffers", 16000)
-    config.setInteger("taskmanager.numberOfTaskSlots", 2)
+    config.setInteger("taskmanager.numberOfTaskSlots", 8)
     config.setInteger("taskmanager.heap.mb", 1024)
     config.setInteger("jobmanager.heap.mb", 512)
 
@@ -177,12 +177,22 @@ case class DIMSpanTLFSourceWrapper(semanticModels: List[SemanticModel],
 
     if (randomLabel) {
       presentLabs.map {
-        label => (label, Random.alphanumeric.take(LabelKeySize).mkString)
+        label =>
+          (label, randomString)
       }.toMap
     } else {
       val chars = ('a' to 'z') ++ ('A' to 'Z') // ++ ('0' to '9')
       presentLabs.zip(chars).map { case (a,b) => (a, b.toString)}.toMap
     }
+  }
+
+  private def randomString: String = {
+    val chars = ('a' to 'z') ++ ('A' to 'Z')
+    (1 to LabelKeySize).map {
+      i =>
+        val randomNum = util.Random.nextInt(chars.length)
+        chars(randomNum)
+    }.mkString
   }
 
   /**
@@ -468,7 +478,6 @@ case class DIMSpanTLFSourceWrapper(semanticModels: List[SemanticModel],
     logger.info(s"Nodes have been converted: ${nodes.size}")
 
     val links: List[Edge] = getLgLinks(labelMap, reLabel, skipData, skipUnknown)
-
     logger.info(s"Links have been converted: ${links.size}")
 
     val graphHeads: List[GraphHead] = GradoopModelMap.values.map {

@@ -234,7 +234,7 @@ object OctopusAPI extends RestAPI {
         case Failure(err: NotFoundException) =>
           NotFound(err)
         case Failure(err) =>
-          logger.error(s"Octopus $id prediction failed: ${err.getMessage}")
+          logger.error(s"Octopus $id patterns failed: ${err.getMessage}")
           InternalServerError(InternalException(s"Octopus $id prediction failed"))
       }
   }

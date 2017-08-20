@@ -133,7 +133,7 @@ object FeatureExtractorUtil extends LazyLogging {
     val attrBroadcast = spark.sparkContext.broadcast(attributes)
 
     val featuresOfAllInstances = Try {
-      spark.sparkContext.parallelize(attributes.indices).flatMap {
+      spark.sparkContext.parallelize(attributes.indices).repartition(100).flatMap {
         idx => //first extract features from headers, do bagging and only then extract the rest of the features!!!
 
           val rawAtttr = attrBroadcast.value(idx)
@@ -208,7 +208,7 @@ object FeatureExtractorUtil extends LazyLogging {
       val attrBroadcast = spark.sparkContext.broadcast(attributes)
       val featExtractBroadcast = spark.sparkContext.broadcast(featureExtractors)
 
-      val answer = spark.sparkContext.parallelize(attributes.indices)
+      val answer = spark.sparkContext.parallelize(attributes.indices).repartition(100)
         .flatMap {
           idx =>    //first extract features from headers, do bagging and only then extract the rest of the features!!!
             val rawAtttr = attrBroadcast.value(idx)
@@ -355,7 +355,7 @@ object FeatureExtractorUtil extends LazyLogging {
       val attrBroadcast = spark.sparkContext.broadcast(attributes)
       val broadcast = spark.sparkContext.broadcast(featureExtractors)
 
-      val answer = spark.sparkContext.parallelize(attributes.indices)
+      val answer = spark.sparkContext.parallelize(attributes.indices).repartition(100)
         .map {
           idx =>
             val attr: SimpleAttribute = getSimpleAttribute(attrBroadcast.value(idx))

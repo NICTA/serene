@@ -61,9 +61,8 @@ RUN tar vxzf /home/$username/flink-hadoop.tar.gz -C /usr/local
 RUN cd /usr/local && ln -s ./hadoop-2.7.3 hadoop && chown -R $username:hadoop hadoop
 
 #
-# Switch to the user...
+# Switch the directory...
 #
-USER $username
 WORKDIR /home/$username
 
 # Setup ssh
@@ -92,21 +91,26 @@ RUN hdfs namenode -format
 #
 # Copy the git repository
 #
+USER $username
 RUN \
     mkdir -p bin && \
-    mkdir -p jars
+    mkdir -p jars && \
+    mkdir -p conf
 COPY jars/* jars/
 COPY serene-start bin/
+COPY conf/* conf/
 
 #
-# Expose the default port
+# Expose the port
 #
 EXPOSE 8080
 
 #
 # Launch the server...
 #
-CMD start-dfs.sh && \
+#CMD ["/bin/bash"]
+CMD  service ssh start && \
+  start-dfs.sh && \
   start-yarn.sh && \
   $FLINK_HOME/bin/start-local.sh && \
   bin/serene-start

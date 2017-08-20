@@ -91,9 +91,9 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
 
   override def afterEach(): Unit = {
     knownSSDs = List()
-    karmaWrapper.deleteKarma()
+//    karmaWrapper.deleteKarma()
     // we need to clean the alignmentDir
-    removeAll(Paths.get(alignmentDir))
+//    removeAll(Paths.get(alignmentDir))
 
   }
 
@@ -329,6 +329,41 @@ class AlignmentGraphSpec extends FunSuite with ModelerJsonFormats with BeforeAnd
 
     // weights of the links are also checked
     assert(resultLinks === karmaLinks)
+
+  }
+
+  test("Aligning tricky soccer ssds"){
+    val ontologies = Paths.get(karmaDir, "soccer", "preloaded-ontologies")
+      .toFile.listFiles.map(_.getAbsolutePath).toList
+
+    // cleaning everything
+    karmaWrapper.deleteKarma()
+    // we need to clean the alignmentDir
+    removeAll(Paths.get(alignmentDir))
+
+    knownSSDs = Paths.get(karmaDir, "soccer", "ssd")
+      .toFile.listFiles
+      .filter(_.toString.endsWith("ssd"))
+      .map(x => readSSD(x.getAbsolutePath.toString)).toList
+
+    // setting up
+//    val ssd1 = readSSD(Paths.get(karmaDir,"soccer", "ssd", "2014 WC french.csv.ssd").toString)
+//    val ssd2 = readSSD(Paths.get(karmaDir,"soccer", "ssd", "all_world_cup_players.csv.ssd").toString)
+//    knownSSDs = List(ssd1, ssd2)
+    assert(knownSSDs.size === 12)
+
+    karmaWrapper = KarmaParams(alignmentDir, ontologies, None)
+
+    val karmaTrain = KarmaBuildAlignmentGraph(karmaWrapper)
+    // our alignment
+    var alignment = karmaTrain.alignment
+    alignment = karmaTrain.constructInitialAlignment(knownSSDs)
+
+    val (semModel, _, _) = KarmaTypes.readAlignmentGraph(Paths.get(alignmentDir, "graph.json").toString)
+    assert(semModel.isConnected)
+
+    assert(alignment.getGraph.vertexSet.size === 24)
+    assert(alignment.getGraph.edgeSet.size === 23)
 
   }
 
